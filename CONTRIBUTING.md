@@ -4,6 +4,7 @@ Testsigma docs are built using [Gatsby](https://www.gatsbyjs.com/) and deployed 
 
 If you feel insecure about how to start contributing, feel free to ask us on our [Discord channel](https://discord.com/invite/5caWS7R6QX), in the #contributors channel. 
 
+
 ## **Code Of Conduct**
 Read our [Code of Conduct](CODE_OF_CONDUCT.md) before contributing
 
