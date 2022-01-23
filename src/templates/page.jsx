@@ -75,15 +75,17 @@ export default ({ data, pageContext }) => {
         return copyIcon[keyName].addEventListener('click', copyToClipBoard);
       })
       // when user click any link tag from leftnav prevent scroll position after page content rendered/rerendered/load time.
-      setTimeout(() => {
-        const headerOffset = document.getElementById('root_header').offsetHeight;
-        const leftNavCurrentUrl = document.querySelector('.leftNav .currentUrl');
-        const scrollBarAdjustment = 100;
-        // when page content changed move scroll bar to starting of the page content title position.
-        document.querySelector('body').scrollTo(0, 0);
-        if (leftNavCurrentUrl)
-          document.querySelector('.leftNav').scroll(0, (leftNavCurrentUrl.offsetTop - (headerOffset + scrollBarAdjustment)));
-      }, 300);
+      if (window.location.href.indexOf('/#') === -1) {
+        setTimeout(() => {
+          const headerOffset = document.getElementById('root_header').offsetHeight;
+          const leftNavCurrentUrl = document.querySelector('.leftNav .currentUrl');
+          const scrollBarAdjustment = 100;
+          // when page content changed move scroll bar to starting of the page content title position.
+          document.querySelector('body').scrollTo(0, 0);
+          if (leftNavCurrentUrl)
+            document.querySelector('.leftNav').scroll(0, (leftNavCurrentUrl.offsetTop - (headerOffset + scrollBarAdjustment)));
+        }, 300);
+      }
     });
 
     return (

@@ -21,7 +21,7 @@ body{
 }
 .doc-page {
 
-  h2 strong {
+  h2 > * {
     font-size: 25px;
   }
 
