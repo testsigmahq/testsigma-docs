@@ -26,7 +26,7 @@ contextual_links:
 
 Testsigma Community Edition is an open-source end-to-end test automation platform. It packages libraries, APIs, classes, and more that you can install on your workstation and use to start test automation, without building a test framework from scratch.
 
-[Watch a Short video on Testsigma](https://website-static.testsigma.com/assets/videos/Marketing_Video.mp4)
+<iframe src="https://website-static.testsigma.com/assets/videos/Marketing_Video.mp4" width="600" height="400"></iframe>
 
 &emsp;
 ## **Setup Testsigma Community Edition**
