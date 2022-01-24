@@ -84,6 +84,7 @@
     & button {
       background: none;
       color: inherit;
+      display: flex;
       border: none;
       padding: 0;
       text-align: inherit;
@@ -97,10 +98,6 @@
       @media (max-width: 576px) {
        font-size: 13px;
       }
-    }
-
-    & button {
-      display: inline-block;
     }
 
     &.currentUrl:not(:first-child) {
