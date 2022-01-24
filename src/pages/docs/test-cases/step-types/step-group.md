@@ -31,6 +31,7 @@ Traditionally, instead of writing the same redundant code over and over again, t
 A Step Group is a group of test steps which can be repeatedly used in multiple test cases. So, instead of using the same steps over and over again, we simply create a test step group and invoke the step group when required.
 
 &emsp;
+
 ---
 ##**Create a Step Group**
 
@@ -55,6 +56,7 @@ https://docs.testsigma.com/images/step-group/click-create-step-group-button.png)
  * And now you will have a Step Group ready to use
 
 &emsp;
+
 ---
 ##**Use Step Group in a Test Case**
 

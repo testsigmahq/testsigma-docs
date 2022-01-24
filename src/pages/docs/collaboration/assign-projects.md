@@ -36,6 +36,7 @@ In Testsigma, multiple projects can be created and users can be assigned to thos
 To create a new user and then assign them to one or multiple projects, refer to [Inviting team members](https://testsigma.com/docs/collaboration/invite-team-members/).
 
 &emsp;
+
 ---
 ##**Pre-requisites**
 1. You should already have created a project and you should be a member of it. 
@@ -45,6 +46,7 @@ To create a new user and then assign them to one or multiple projects, refer to 
 3. The user you want to add should have been added to Testsigma and should not be added to the project. To learn how to invite team members to Testsigma, refer to [adding team members](https://testsigma.com/docs/collaboration/invite-team-members/).
 
 &emsp;
+
 ---
 ##**Assign from Project Members page**
 1. Go to Select Project > Project Settings > Project Members
@@ -72,12 +74,14 @@ Now, the selected user will be assigned to your project with the selected role.
 
 
 &emsp;
+
 ---
 ##**Assign Users to multiple projects from global settings**
 In this section we will cover how to assign a user to multiple projects.
 
 
 &emsp;
+
 ---
 ##**Pre-requisites:**
 1. To be able to assign different projects to a user, you should either have the role of an administrator or Test Manager. 
@@ -92,6 +96,7 @@ In this section we will cover how to assign a user to multiple projects.
 Settings > Users
 
 &emsp;
+
 ---
 ##**Steps to follow to assign project(s) to a new user:**
 1. Go to ‘Settings > Users’, you should see a page like this:
@@ -111,6 +116,7 @@ From here, you can fill up the required fields, select if you want to make the u
 5. The user will be sent an email with the link to join the required project(s).
    
 &emsp;
+
 ---
 ##**Steps to follow to assign project(s) to an existing user:**
 1. Go to ‘Settings > Users’, you should see a page like this:
@@ -134,6 +140,7 @@ From here, you can fill up the required fields, select if you want to make the u
 6. The user will be assigned the selected projects with the selected access roles.
 
 &emsp;
+
 ---
 ##**Edit the Projects assigned to a user:**
 To edit the projects assigned to a user and to update the role for them you have to follow the steps discussed in the section **‘Steps to follow to assign project(s) to an existing user’** above, and check/uncheck the projects assigned and change the access roles for the user from the ‘update user details’ form.

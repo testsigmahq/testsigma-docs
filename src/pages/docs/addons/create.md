@@ -34,6 +34,7 @@ contextual_links:
 
 You should already know about Testsigma add-ons. See: [What is an add-on?](https://testsigma.com/docs/addons/what-is-an-addon/) | [Prerequisites for creating an add-on](https://testsigma.com/docs/addons/pre-requisite-to-create-addon/).
 
+
 ---
 ##In Testsigma you can create add-ons for the following use case:
 
@@ -53,6 +54,7 @@ You should already know about Testsigma add-ons. See: [What is an add-on?](https
   4. Upload the updated project code
   5. Publish the add-on
   6. Additional Step - add-on usage in Test Case
+
 ---
 ##1. **Create an add-on template**
 
@@ -73,6 +75,7 @@ You should already know about Testsigma add-ons. See: [What is an add-on?](https
    ![Create Testsigma add-on using Testsigma add-on Form](https://docs.testsigma.com/images/create/create-testsigma-addon-form-download.gif)
 
 &emsp;
+
 ---
 ##2.  **Update the action code as required**
 
@@ -98,10 +101,12 @@ Here’s some modified code for an Android add-on that swipes left n times:
 Here’s a gif that shows all available annotations and their arguments:
 
 ![Snapshot of the sample code showing most common annotations and options](https://docs.testsigma.com/images/create/add-ons-template-code-ide-common-annotations.gif)
+
 ---
 ##3. **Test the Code**
 
 Test the code to verify the add-on you have written. You can use either JUnit or TestNG as the Test Runner. Right-click on the Test class to run it as a TestNG or JUnit test and confirm if your code is performing as expected.
+
 ---
 ##4. **Upload the updated code to Testsigma**
 
@@ -118,6 +123,7 @@ Other available options:
 
 * Delete: Delete the add-on.
 &emsp;
+
 ---
 ##5. **Publish the add-on**
 
@@ -130,6 +136,7 @@ Other available options:
  * **Publish Privately -** publish privately for yourself.
 
 Once requested for publishing, it will be sent to the Testsigma Team for review and you will be notified via email once it’s approved.
+
 ---
 ##6. **Try using the add-on in a Test Case**
 

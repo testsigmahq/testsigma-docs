@@ -31,18 +31,21 @@ Mailbox test data in Testsigma can be used when:
 All of these use cases have one thing in common - A mailbox. Your test needs to be able to access the mailbox, check if the mail has been received, open the email, read it and process it.
 
 In Testsigma, this feature is built-in. Here’s how you can use it.
+
 ---
 ##**Prerequisites**
 
 Provisioned mailbox - Contact [Testsigma Support](mailto:support@testsigma.com) or use the Instant Chat option and we will  provision a mailbox for you.
 
 You should also be familiar with Regular expressions. If not, refer to [Regex guide - MDN Docs](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Guide/Regular_Expressions)
+
 ---
 ##**Creating the Test Steps**
 
 For 2FA Authentication, you need to perform two steps:
 * Step 1 - Enter the Email address where the OTP is sent
 * Step 2 - Fetch the OTP from the Email received on the entered Email address
+
 ---
 ##**Step 1 -** We will enter the Email Address provided by Testsigma using the Mailbox test data type using a Test Step.
 1. In your Test Case, add a Test Step to enter the Email in the Email field on your Application page.
@@ -58,6 +61,7 @@ An overlay showing the list of available Email addresses will open up.
 Check the below illustration to understand how we can use the Mailbox Test Data in Test Cases.
 
 ![Mailbox Test Data in Test Steps](https://docs.testsigma.com/images/mailbox/mailbox-test-data-test-steps.gif)
+
 ---
 ##**Step 2 -** We will use the Test Data Generators available in Testsigma to fetch the OTP from the Mailbox selected in the previous step.
 

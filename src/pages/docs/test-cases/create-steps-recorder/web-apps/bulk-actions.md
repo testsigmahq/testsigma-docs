@@ -20,6 +20,7 @@ contextual_links:
 When test steps are recorded via Testsigma test recorder, Testsigma gives you the option to select multiple test steps at a time and then perform bulk actions on your selection. In this document, we will discuss those actions and how to perform them.
 
 &emsp;
+
 ---
 ##**Pre-requisites:**
 
@@ -29,6 +30,7 @@ You should already know how-to, or have:
 2. [record test steps via the Testsigma test recorder.](https://testsigma.com/docs/test-cases/create-steps-recorder/web-apps/overview/)
 
 &emsp;
+
 ---
 ##**Bulk actions on recorded test steps in Testsigma’s test recorder UI:**
 

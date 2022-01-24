@@ -25,6 +25,7 @@ Given below are the steps to be followed in order to update the Agent to the lat
 
 <br>
 
+
 ---
 ##**For Windows**
 
@@ -46,6 +47,7 @@ Else, skip to Step 3.
 **./start.bat**
 
 <br>
+
 
 ---
 ##**For Mac/Linux**

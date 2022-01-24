@@ -23,6 +23,7 @@ contextual_links:
 When we open a Test Case from the Test Cases list, we can check its Details,  Comments and History.
 
 &emsp;
+
 ---
 ##**Test Case Details**
 
@@ -31,6 +32,7 @@ Test Case Details shows us an overview of the Test Case Settings. To see them, o
 ![Test Case Details Overlay ](https://docs.testsigma.com/images/details-history/test-case-details-overlay.png)
 
 &emsp;
+
 ---
 ##**Test Case Activity**
 
@@ -39,6 +41,7 @@ Team members can add comments and notify the Test Case Assignee and Reviewer for
 ![Test Case Comments](https://docs.testsigma.com/images/details-history/test-case-comments.png)
 
 &emsp;
+
 ---
 ##**Test Case History**
 

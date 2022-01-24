@@ -20,12 +20,14 @@ contextual_links:
 When you update the structure of your android application, you will need to update the corresponding elements in your automated test project in Testsigma too. In this document, we will discuss how to do that using Testsigma’s Recorder.
 
 &emsp;
+
 ---
 ##**Pre-requisites:**
 
 You should already know how to [capture elements using Recorder.](https://testsigma.com/docs/elements/android-apps/capture-single-element/)
 
 &emsp;
+
 ---
 ##**How to update an element via Testsigma’s Recorder:**
 

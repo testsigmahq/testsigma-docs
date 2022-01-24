@@ -19,11 +19,13 @@ contextual_links:
 
 ---
 
+
 ---
 ## **Introduction**
 In this document, we will discuss how to create elements manually for your iOS project in Testsigma i.e. without the use of a mobile inspector.
 
 <br>
+
 ---
 ##**Pre-requisites**
 You should have an iOS project in Testsigma. See [creating a project](https://testsigma.com/docs/projects/overview/).
@@ -35,6 +37,7 @@ You should have an iOS project in Testsigma. See [creating a project](https://te
 **Test Development > Elements**
 
 <br>
+
 ---
 ##**How to create elements manually for an iOS project in Testsigma**
 

@@ -22,12 +22,14 @@ In Testsigma, you can group reports by Test Machines when you need to understand
 1. Do the same tests fail on the same machine every time?
 2. If yes, then can you modify our application specifically to solve test failures only in a specific machine 
 
+
 ---
 ##**Steps to get a Test Machine Report**
 
 This gif demonstrates how to group reports on the basis of test machines:
 
 ![gif to access test case reports in Testsigma](https://docs.testsigma.com/images/test-machine-reports/gif-get-test-case-reports-testsigma.gif)
+
 
 
 ---

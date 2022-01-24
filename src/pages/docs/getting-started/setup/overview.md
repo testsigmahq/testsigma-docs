@@ -22,6 +22,7 @@ contextual_links:
 
 
 ---
+
 ---
 ##**Using Testsigma Cloud**
 
@@ -32,6 +33,7 @@ Comes with a fully managed test lab, enhanced security and robust features that 
 [Create an Account on Testsigma Cloud](https://testsigma.com/signup)
 
 &emsp;
+
 ---
 ##**Deploy on your Local Servers**
 
@@ -43,6 +45,7 @@ Testsigma Community Edition (CE) is an open-source platform that you can install
 
 
 &emsp;
+
 
 
 ---

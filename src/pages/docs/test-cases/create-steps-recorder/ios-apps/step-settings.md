@@ -17,9 +17,11 @@ contextual_links:
 
 ---
 When you create test steps for an iOS application via Testsigma’s Recorder, you can view details for each test step in the Recorder UI itself. In this document, we will discuss how to do that.
+
 ---
 ##**Pre-requisites:**
 For an iOS project, the test step settings will be available under the test step details for the pre-recorded test steps on Testsigma’s Recorder UI. You should already know how to [record test steps via Testsigma’s Recorder](https://testsigma.com/docs/test-cases/create-steps-recorder/android-apps/overview/).
+
 
 ---
 ##**How to view test step settings in Testsigma’s Recorder:**

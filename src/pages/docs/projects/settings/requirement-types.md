@@ -33,6 +33,7 @@ With Testsigma, you can organize your Test Cases based on **Requirements**. When
 If needed, you can add more requirement types too.
 
 <br>
+
 ---
 ##**When and How to use Requirement Types**
 
@@ -47,6 +48,7 @@ Requirement Types are used to group requirement specifications (available in the
 3. On the Requirement Types page, you will be able to see the different types of Requirement Types available in Testsigma.
 <br>
 <br>
+
 ---
 ##**Create a new Requirement Type**
 Below is a quick gif that demonstrates how a new requirement type can be added in a Testsigma project:
@@ -65,12 +67,14 @@ Here is the step-by-step breakdown :
 
 ![new requirement type add](https://docs.testsigma.com/images/requirement-types/new-requirement-types-add.png)
 
+
 ---
 ##**Delete a Requirement Type**
 
 Hover over the requirement type you want to delete and click on the Delete icon that appears. 
 
 ![requirement type delete button](https://docs.testsigma.com/images/requirement-types/requirement-type-delete-button.png)
+
 
 
 ---

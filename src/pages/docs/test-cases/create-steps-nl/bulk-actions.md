@@ -29,6 +29,7 @@ contextual_links:
 When test steps are created, Testsigma gives you the option to select multiple test steps at a time and then perform bulk actions on your selection. In this document, we will discuss those actions and how to perform them.
 
 &emsp;
+
 ---
 ##**Pre-requisites:**
 
@@ -38,6 +39,7 @@ You should know how to
  2. [create test steps.](https://testsigma.com/docs/test-cases/create-steps-nl/overview/)
 
 &emsp;
+
 ---
 ##**How to bulk edit multiple test steps:**
 
@@ -56,6 +58,7 @@ You should know how to
 Now, let’s discuss bulk actions:
 
 &emsp;
+
 ---
 ##**1. Bulk Update**
 
@@ -70,6 +73,7 @@ Here are the settings you can update via Bulk Update:
 To save the changes you made on the bulk update form, you need to click on the ‘Update’ button.
 
 &emsp;
+
 ---
 ##**2. Create Step Group**: 
 You can save the selected test steps as a step group. To do this, click on ‘Create Step Group’, name the step group and click ‘Create’ to save the step group:
@@ -77,6 +81,7 @@ You can save the selected test steps as a step group. To do this, click on ‘Cr
 ![create step group window popup in Testsigma](https://docs.testsigma.com/images/bulk-actions/create-step-group-window-pop-up-testsigma.png)
 
 Step groups are reusable. Learn more about [step groups](https://testsigma.com/docs/test-cases/step-types/step-group/).
+
 ---
 ##**3. Delete**:
  Delete selected test steps by clicking on the ‘Delete’ button.

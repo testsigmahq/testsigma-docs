@@ -33,10 +33,12 @@ This is where drill-down reports really come in handy. Drill-down reports let yo
 
 Testsigma provides you an easy way to find and understand all this data.
 
+
 ---
 ##**Navigation:**
 
 Select Project > Test Development > Run Results
+
 
 ---
 ##**How to use drill-down reports in Testsigma:**

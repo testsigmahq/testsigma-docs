@@ -22,6 +22,7 @@ When creating test steps using the test step recorder in Testsigma, there are va
 Learn more about [test data types.](https://testsigma.com/docs/test-data/types/overview/)
 
 &emsp;
+
 ---
 ##**Pre-requisites:**
 
@@ -31,6 +32,7 @@ You should already know how-to, or have:
 2. [record test steps via the Testsigma test recorder.](https://testsigma.com/docs/test-cases/create-steps-recorder/web-apps/overview/)
 
 &emsp;
+
 ---
 ##**Adding test data in recorded test steps**
 

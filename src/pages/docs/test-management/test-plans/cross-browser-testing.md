@@ -31,6 +31,7 @@ The main scenario when you should be using the testing type as ‘Cross browser 
 Learn more about [cross-browser testing](https://testsigma.com/cross-browser-testing).
 
 &emsp;
+
 ---
 ##**Creating a new Test Plan with Cross Browser Testing type**
 1. On the Test Plan page, click on the ‘+Test Plan’ button:
@@ -62,6 +63,7 @@ Select the radio button ‘Cross-Browser Testing’ next to the label ‘Testing
 Your Test Plan is now ready to run your cross-browser tests on the configured test machines. 
 
 &emsp;
+
 ---
 ##**Changing an existing Test Plan to Cross Browser Testing type**
 

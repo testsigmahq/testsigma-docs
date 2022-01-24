@@ -20,6 +20,7 @@ contextual_links:
 Sometimes, while capturing elements from your website, you would want to exclude certain attributes/classes. The reason could be that they could be changed soon, whereas you want your elements to be stable and accurate. In this document, we will discuss how to exclude certain attributes/classes while recording test steps via the Testsigma test recorder.
 
 &emsp;
+
 ---
 ##**Pre-requisites:**
 You should  already have and know:
@@ -28,6 +29,7 @@ You should  already have and know:
 2. [how to create a test case via the Testsigma test recorder](https://testsigma.com/docs/test-cases/create-steps-recorder/web-apps/overview/).
    
 &emsp;
+
 ---
 ##**Steps to follow:** 
 1. Start recording a test case via the Testsigma test step recorder.

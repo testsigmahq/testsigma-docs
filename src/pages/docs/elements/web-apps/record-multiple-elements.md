@@ -18,6 +18,7 @@ contextual_links:
 Sometimes, during test creation, we need to capture the details of multiple elements. In this article, we will discuss how to do that using Testsigma’s test recorder chrome extension.
 
 <br>
+
 ---
 ##**Pre-requisite**
 

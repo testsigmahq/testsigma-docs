@@ -21,6 +21,7 @@ contextual_links:
 Testsigma has a  set of REST API Endpoints to manage the entities available in Testsigma. The most common usage of these endpoints is within your CI/CD Pipeline.
 
 A fair understanding of REST APIs is expected. If not, please refer to some relevant resources regarding REST API or consult with your Dev team before proceeding further.
+
 ---
 ##**Authorization**
 All Testsigma API Endpoints require authentication. The user authenticates the request using Bearer Token which is the user’s API Key.
@@ -28,6 +29,7 @@ All Testsigma API Endpoints require authentication. The user authenticates the r
 **“Authentication” : “Bearer <API_key>”**
 
 To know more about generating and obtaining API Keys, see [How to generate API Keys](https://testsigma.com/docs/configuration/api-keys/)
+
 ---
 ##**Available REST API Endpoints**
 
@@ -35,6 +37,7 @@ To know more about generating and obtaining API Keys, see [How to generate API K
 2. [Elements](https://testsigma.com/docs/api/elements/)
 3. [Test Plans](https://testsigma.com/docs/api/test-plans/)
 4. [Uploads](https://testsigma.com/docs/api/upload-files/)
+
 ---
 ##**Advanced Use Cases**
 Here are some advanced use cases for Testsigma APIs

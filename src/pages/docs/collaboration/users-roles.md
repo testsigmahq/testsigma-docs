@@ -22,6 +22,7 @@ contextual_links:
 When a user is added in Testsigma, they can be assigned various roles. This document covers how to add users and assign them different roles and accesses within Testsigma.
 
 &emsp;
+
 ---
 ##**Roles in Testsigma**
 Below are the four roles that can be assigned to a project member in Testsigma:
@@ -42,6 +43,7 @@ A user in the role of ‘Automation Engineer/Developer’ can write, view, updat
 A user in the role of ‘Account Administrator’ has all the rights as a Super Administrator. In addition, they will also have access to billing-related information for that particular account.
 
 &emsp;
+
 ---
 ##**Edit Users to Assign New Roles**
 
@@ -64,6 +66,7 @@ From here, you can fill up the required fields, and change the user role as need
 2.Once all the required changes are made, click on the ‘Update’ button
 
 &emsp;
+
 ---
 ##**Assign Roles to Users**
 

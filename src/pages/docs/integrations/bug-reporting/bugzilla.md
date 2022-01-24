@@ -21,6 +21,7 @@ contextual_links:
 Testsigma Bugzilla integration helps you in creating issues in Bugzilla directly from the Testsigma app. With simple one-click integration, you can push annotated issues to Bugzilla while in the middle of a test session. The fields populated by you when marking as a bug through Testsigma are displayed as information on the Bugzilla ticket for a testing instance.
 
 In this document, we will discuss how to establish Integration with Bugzilla from your Testsigma account and how to create the first bug from Testsigma into Bugzilla.
+
 ---
 ##**Prerequisites**
 
@@ -29,6 +30,7 @@ To integrate Bugzilla with Testsigma, you need the following information from yo
 * API Key - [Find your Bugzilla API Token](https://bugzilla.readthedocs.io/en/latest/integrating/auth-delegation.html#auth-delegation)
 
 You should already know about [Test Plan Runs and results](https://testsigma.com/docs/runs/test-plan-executions/).
+
 ---
 ##**Integrating Bugzilla with Testsigma**
 
@@ -39,6 +41,7 @@ Click on the Disabled Icon on **Bugzilla**. Bugzilla Details overlay opens up as
 ![Add BugZilla Integration form ](https://docs.testsigma.com/images/bugzilla/add-Bugzilla-integration-form.png)
 
 Enter the details as mentioned in Prerequisites. After entering the details, click on the Create button to add the Integration.
+
 ---
 ##**Creating a bug**
 

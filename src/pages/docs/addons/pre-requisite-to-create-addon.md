@@ -15,6 +15,7 @@ contextual_links:
 ---
 
 Creating Testsigma add-ons let you automate non-standard actions easily and at scale. You can use add-ons created by others and share your own with others through the Add-ons Marketplace. Here’s what you need to create an add-on:
+
 ---
 ##**Pre-requisites**
 

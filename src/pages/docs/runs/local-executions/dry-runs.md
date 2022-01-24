@@ -20,6 +20,7 @@ Local device testing can be used for testing applications which are not accessib
 As we already know, a Test Case can be run either as a Dry Run or as a part of a Test Plan. In this document, we discuss how to run a Test Case as a Dry Run on your local device.
 
 &emsp;
+
 ---
 ##**Steps to follow:**
 There are four steps to performing a dry run on a local device.

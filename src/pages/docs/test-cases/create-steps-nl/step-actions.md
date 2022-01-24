@@ -47,6 +47,7 @@ The Test Case details page lists all the Test Steps available in the Test Case. 
  8. Add Continue
 
 &emsp;
+
 ---
 ##**1. Clone**
 When you need to duplicate a Step, you can simply click on the Clone icon to make a copy of the current Test Step into the next step.
@@ -54,6 +55,7 @@ When you need to duplicate a Step, you can simply click on the Clone icon to mak
 ![Clone Step in Test Case Details](https://docs.testsigma.com/images/step-actions/clone-step-gif.gif)
 
 &emsp;
+
 ---
 ##**2. Edit**
 Click the Edit icon to edit the Test Step and make the changes.
@@ -64,6 +66,7 @@ Using edit, you can change test data, element, or the Action Test Step altogethe
 ![Edit Step in Test Case Details](https://docs.testsigma.com/images/step-actions/edit-step-gif.gif)
 
 &emsp;
+
 ---
 ##**3. Delete**
 
@@ -72,6 +75,7 @@ To delete a test step, click on the delete button and confirm the deletion.
 ![Delete Step in Test Case Details](https://docs.testsigma.com/images/step-actions/delete-step-gif.gif)
 
 &emsp;
+
 ---
 ##**4. More Details**
 To see more details about the test case, click on the more details icon. You can check the details about a Test Step such as
@@ -84,6 +88,7 @@ To see more details about the test case, click on the more details icon. You can
 ![More Details in Test Case Details page](https://docs.testsigma.com/images/step-actions/more-details-gif.gif)
 
 &emsp;
+
 ---
 ##**5. Add Step**
 
@@ -94,6 +99,7 @@ To add a step after the current Step, click on the Add Step button below the cur
 ![Add Step in Test Case Details](https://docs.testsigma.com/images/step-actions/add-step-gif.gif)
 
 &emsp;
+
 ---
 ##**6. Add a Step Inside**
 When you want to add a Test Step as a child step inside a block rather than as a next sibling step, you can use this option.
@@ -104,6 +110,7 @@ When you want to add a Test Step as a child step inside a block rather than as a
 For the IF Step, the Add a Step Inside button adds a step as the last step inside the If block as compared to the Add Step button which adds a step after the If block.
 
 &emsp;
+
 ---
 ##**7. Add Break**
 
@@ -114,6 +121,7 @@ Use this button to add a Break in a While loop. This breaks out of the While Loo
 In the above image, The BREAK LOOP in step 2.1.3.3 breaks the loop at step 2 and goes to step 3.
 
 &emsp;
+
 ---
 ##**8. Add Continue**
 

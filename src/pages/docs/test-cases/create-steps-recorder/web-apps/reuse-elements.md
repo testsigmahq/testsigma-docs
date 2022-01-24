@@ -20,6 +20,7 @@ contextual_links:
 When you record elements via Testsigma test recorder chrome extension, they are saved as elements/UI identifiers in the corresponding project in Testsigma. These elements are reusable.
 
 &emsp;
+
 ---
 ##**Pre-requisites:**
 
@@ -31,6 +32,7 @@ When you record elements via Testsigma test recorder chrome extension, they are 
  4. [capture elements via Testsigma test recorder chrome extension.](https://testsigma.com/docs/elements/web-apps/record-multiple-elements/)
 
 &emsp;
+
 ---
 ##**Reusing elements recorded via the Testsigma test recorder chrome extension:**
 

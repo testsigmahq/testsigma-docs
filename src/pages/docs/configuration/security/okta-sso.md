@@ -30,6 +30,7 @@ With SSO, you are not required to store and manage passwords for the websites yo
 
 You can enable Single Sign-On (SSO) in Testsigma with Okta. Once configured, you can log into your Okta Dashboard to see your SSO-supported applications, including Testsigma. Okta will verify the user's identity and permissions, and then grant them access to Testsigma.
 
+
 ---
 ##**Terminology**
 
@@ -40,6 +41,7 @@ Here are a few entities that you need to be aware of before we move on to the de
 |A service provider(SP)|The application that provides the service or protects the resource. In this case, Testsigma App|
 |An identity provider(IdP)|The service/ repository that manages the user information. It may be Okta, Onelogin, Azure AD, or an in-house IdP/IAM Implementation|
 |Entity ID|Entity ID is an identifier(an alphanumeric string or URI given by the Service Provider (SP) that uniquely identifies it. It's often part of a metadata file (an XML file with a certificate, entity ID, and endpoint URLs). You would get this from the IP (Okta, Onelogin e.t.c).|
+
 ---
 ##**I. Getting the Testsigma Configuration for Okta**
 
@@ -60,6 +62,7 @@ You will see two options here - **Google** and **SAML**. Choose SAML and click t
 You will find all the details you need to enter in Okta here as shown below:
 The important ones are **‘Entity ID’** and **‘Single Sign-On(ACS) URL’**(refer to the Terminology section).
 Note these down to use in the next section - section II.
+
 ---
 ##**II. Create and configure OKTA**
 
@@ -115,6 +118,7 @@ We will need the same on the Testsigma SAML SSO Configuration page in the next s
 ![SAML certificate](https://docs.testsigma.com/images/security/saml-certificate.png)
 
 Now, let's move on to the configuration that we need to perform in the Testsigma App.
+
 ---
 ##**III. Configuring Testsigma for Okta**
 

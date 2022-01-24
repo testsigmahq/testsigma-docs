@@ -18,11 +18,13 @@ contextual_links:
   url: "#how-to-add-test-steps-to-a-pre-existing-test-case-via-recorder"
 ---
 
+
 ---
 ## **Introduction**
 You can add more test steps to a pre-existing test case using the Recorder. Let’s see how. 
 
 &emsp;
+
 ---
 ##**Pre-requisites:**
 You should already know how to
@@ -32,6 +34,7 @@ You should already know how to
 2. [create test steps for an iOS application](https://testsigma.com/docs/test-cases/step-types/overview/).
 
 3. [record test steps with Testsigma Recorder](https://testsigma.com/docs/test-cases/create-steps-recorder/ios-apps/overview/).
+
 ---
 ##**How to add test steps to a pre-existing test case via Recorder:**
 1. Create a test case for an iOS application.

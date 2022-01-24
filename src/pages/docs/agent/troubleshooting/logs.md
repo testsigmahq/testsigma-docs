@@ -26,6 +26,7 @@ There are two ways you can provide the logs to the Testsigma Support team
 <br>
 
 
+
 ---
 ##**Send a Flare Request**
 
@@ -41,6 +42,7 @@ Once the flare request is sent, follow up with the Support team to confirm deliv
 |Sending flare requests might fail if the Agent is not already registered or if there are restrictions in your network. In that case, follow the manual method of sending the logs as given in the next section.
 
 <br>
+
 ---
 ##**Send the Logs manually**
 

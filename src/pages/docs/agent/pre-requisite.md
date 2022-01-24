@@ -17,6 +17,7 @@ contextual_links:
 Verify that the workstation where you install the Testsigma Agent satisfies the minimum hardware requirements specified below.
 
 <br>
+
 ---
 ##**Hardware Requirements** 
 

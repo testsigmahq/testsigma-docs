@@ -31,6 +31,7 @@ contextual_links:
 
 ---
 
+
 ---
 ## **Table of Contents**
 
@@ -45,6 +46,7 @@ Setting up Testsigma Agent on your local machine<br>
 &emsp;&emsp;&emsp;Connecting the Agent to Testsigma App<br>
 
 <br>
+
 ---
 ##**I. Download Testsigma Agent**
 
@@ -52,6 +54,7 @@ Go to the Agents page (Navigation Bar > Agents) and click on the ‘Download Age
 ![agents page and the button to download agent](https://docs.testsigma.com/images/setup-on-windows-mac-linux/agents-page-download-agent-button.png)
 
 <br>
+
 ---
 ##**II. Extract the Testsigma Agent Zip file**
 Here are the suggested locations to place the extracted Testsigma Agent folder:
@@ -70,6 +73,7 @@ The home directory is recommended so as to avoid hassles of setting file permiss
 Unzip the downloaded Agent zip file in the directory you choose..
 
 <br>
+
 ---
 ##**III. Start the Testsigma Agent Server**
 
@@ -94,6 +98,7 @@ Wait for a few minutes for the Testsigma Agent to start up. Check the Testsigma 
 If the icon doesn’t appear in 10 minutes, please contact Testsigma Support.
 
 <br>
+
 ---
 ##**IV. Register the Testsigma Agent**
 

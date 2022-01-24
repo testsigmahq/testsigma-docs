@@ -23,6 +23,7 @@ To proceed, you should know how to [Creating Test Steps using Natural Language](
 Assume that your Test Case involves copying a piece of data from one page and verifying if the same data is present on a different page. This can be accomplished by using the Runtime Test Data Type.
 
 The same applies to any case where data needs to be stored earlier and used in a later step.
+
 ---
 ##**Example Use Cases**
 
@@ -40,6 +41,7 @@ The same applies to any case where data needs to be stored earlier and used in a
 |----|----|
 |**Actual statement used**|**Store text from the element SSID into a variable ssid**|
 |**Usage for retrieving the value**|**Enter $[ssid] in the SSIDNumber field**|
+
 ---
 ##**How to use Runtime Test Data in test steps**
 

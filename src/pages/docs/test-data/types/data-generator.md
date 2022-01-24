@@ -14,6 +14,7 @@ contextual_links:
 ---
 
 You can generate test data within Testsigma using the built-in functions. Let’s see how.
+
 ---
 ##Consider an example test case where you need to fill a form. The form contains:
 

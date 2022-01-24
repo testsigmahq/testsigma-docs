@@ -34,12 +34,14 @@ With Azure (by Microsoft) Active Directory, users can automatically sign into th
 
 You can use the Azure Active Directory Admin Center to enable single sign-on (SSO) for Testsigma. After you configure SSO, your users can sign in to our application by using their Azure AD credentials.
 
+
 ---
 ##**Prerequisites**
 
 **-** Azure Account with Active Directory enabled
 
 **-** Admin Access to Azure Account
+
 
 ---
 ##**I. Adding Testsigma Enterprise Application**
@@ -63,6 +65,7 @@ In the overlay that opens up on the right, enter the name of the app you are int
     You’ll be taken to the newly added Testsigma overview page.
 
     ![Testsigma properties on Azure](https://docs.testsigma.com/images/azure-sso/Testsigma-properties.png)
+
 ---
 ##**II. Adding Users to the Enterprise Application**
 
@@ -78,6 +81,7 @@ In the overlay that opens up on the right, enter the name of the app you are int
    4. Click on the **Select** button to pick and finalize the users list. You can find the list of added Users at the left pane under Users. 
 
    5. To add assignments to these users, click **Assign**.
+
 ---
 ##**III. SAML Configuration on Azure in Testsigma**
 
@@ -146,6 +150,7 @@ In the overlay that opens up on the right, enter the name of the app you are int
    &emsp; **Login URL**
 
    We will use the **X509Certificate** value, also the values above in Testsigma app in the next section.
+
 ---
 ##**IV. Azure Specific SAML Configuration in Testsigma**
 
@@ -168,6 +173,7 @@ Paste this value.
 SAML will now be enabled,
 
 Let’s test the SSO.
+
 ---
 ##**V. Test the SAML Config**
 

@@ -20,6 +20,7 @@ contextual_links:
 With Testsigma, you can either write your test steps in simple English or you can use the Recorder to record your test steps and generate airtight automated android tests in simple English. In this document, we cover how to record test steps via the Recorder. 
 
 &emsp;
+
 ---
 ##**Pre-requisites:**
 
@@ -27,6 +28,7 @@ With Testsigma, you can either write your test steps in simple English or you ca
  2. Your Testsigma account should have an android app uploaded under ‘uploads’. This is the android app that you want to test.
 
 &emsp;
+
 ---
 ##**How to record test steps using Testsigma’s Recorder for android:**
 

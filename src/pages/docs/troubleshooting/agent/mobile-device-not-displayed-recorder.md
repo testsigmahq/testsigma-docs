@@ -33,6 +33,7 @@ You will also need to make sure that:
 
 <br>
 
+
 ---
 ##**Enable USB debugging mode in your Mobile devices**
 
@@ -50,6 +51,7 @@ Some devices do not have “Developer Options” under Settings. In such cases, 
 5. Once done, you will now be able to enable/disable it whenever you desire by going to Settings > Developer Options > Debugging > USB debugging
 
 <br>
+
 
 ---
 ##**Verify that your system recognizes a Device using ADB (Android Debug Bridge)**

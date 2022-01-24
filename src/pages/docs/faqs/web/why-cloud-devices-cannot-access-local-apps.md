@@ -22,6 +22,7 @@ Perform the following check to confirm that your application under test is not a
 2. If you can access the application from outside your company network (without VPN), you can run tests in our cloud devices. 
 
 <br>
+
 ---
 ##**Cloud based Test Labs**
 

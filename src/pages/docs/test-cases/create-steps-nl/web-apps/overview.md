@@ -17,6 +17,7 @@ contextual_links:
 
 ---
 
+
 ---
 ##**Pre-requisites**:
 You should know how to:
@@ -24,6 +25,7 @@ You should know how to:
  2. [Create test steps.](https://testsigma.com/docs/test-cases/create-steps-nl/overview/)
 
 &emsp;
+
 ---
 ##**Steps to follow:**
 Once the test case is created and the test steps have been added

@@ -25,6 +25,7 @@ There would be times when you would update the structure of your website or appl
  2. Bulk update multiple elements
 
 &emsp;
+
 ---
 ##**Pre-requisites:**
 
@@ -32,7 +33,8 @@ There would be times when you would update the structure of your website or appl
  2. You should know how to navigate to the Elements page. If not, refer to [Elements - overview.](https://testsigma.com/docs/elements/web-apps/overview/)
 
 &emsp;
- ---
+ 
+---
 ##**How to update one element at a time:**
 
  1. To update an element, go to ‘Test Development > Elements’
@@ -51,6 +53,7 @@ There would be times when you would update the structure of your website or appl
 Edit the element and click on ‘Update’ to save the changes.
 
 &emsp;
+
 ---
 ##**How to update multiple elements at once:**
 

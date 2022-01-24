@@ -20,6 +20,7 @@ contextual_links:
 You can view details for each test step recorded through Testsigma’s test step recorder chrome extension.  
 
 &emsp;
+
 ---
 ##**Pre-requisites:**
 
@@ -29,6 +30,7 @@ This document will take you through the process of creating test steps using the
  2. [record test steps via the Testsigma test recorder.](https://testsigma.com/docs/test-cases/create-steps-recorder/web-apps/overview/)
 
 &emsp;
+
 
 ---
 ##**How to get details of a test step recorded via Testsigma’s test recorder chrome extension**

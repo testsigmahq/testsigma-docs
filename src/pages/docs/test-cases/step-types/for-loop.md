@@ -28,11 +28,13 @@ Using For loops, you can run the same test with a subset of test data. For insta
 If you want to run a test case based on the above test data profile, but you just want to run it for rows 1 to 3, then you use a for loop.
 
 &emsp;
+
 ---
 ##**Prerequisites**
 This document assumes that you know how to create a test case, if not, please refer to the document [here](https://testsigma.com/docs/test-cases/manage/add-edit-delete/)
 
 &emsp;
+
 ---
 ##**How to create a For loop test step**
 
@@ -52,6 +54,7 @@ Start by creating a test data profile with ‘n’ rows:
  4. Once the test data profile has been created, the for loop can be added in the test case to iterate through the rows of the profile. 
 
 &emsp;
+
 ---
 ##**Add For Loop to Test Case**
 

@@ -36,6 +36,7 @@ When you need quick results for your testing and your test cases aren’t suppos
  
 
 &emsp;
+
 ---
 ##**Pre-requisites:**
 You should already know how to [create test cases](https://testsigma.com/tutorials/getting-started/automate-web-applications/).
@@ -43,6 +44,7 @@ You should already know how to [create test cases](https://testsigma.com/tutoria
 Since a Test Suite is pre-requisite for the creation of Test Plans, see [How to add/edit/delete Test Suite](https://testsigma.com/docs/test-management/test-suites/overview/).
 
 &emsp;
+
 ---
 ##**Creating a test plan:**
 1. On the Test Plan page, click on the +Test Plan button:
@@ -69,6 +71,7 @@ To execute your test plan on the selected machine via a headless browser, you ju
 
 
 6. You can now finish creating the test plan as usual.
+
 ---
 ##**How to edit a test plan**
 On the Test Plans page, click on a Test Plan name to open the details page for that Test Plan:

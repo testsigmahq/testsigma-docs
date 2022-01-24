@@ -20,12 +20,14 @@ contextual_links:
 When test steps are created via the Test Recorder in Testsigma for an android project, you can do some actions on multiple steps at once. In this document, we will see how.
 
 &emsp;
+
 ---
 ##**Pre-requisites:**
 
 This document assumes that you are familiar with Testsigma’s [Test Recorder.](https://testsigma.com/docs/elements/android-apps/record-multiple-elements/)
 
 &emsp;
+
 ---
 ##**Doing bulk actions on recorded test steps:**
 

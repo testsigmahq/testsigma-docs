@@ -21,6 +21,7 @@ contextual_links:
 Testsigma Jira integration lets you create issues in Jira directly from the Testsigma app. With simple one-click integration, you can push annotated issues to a project of your choice, assign them to a teammate, and attach screenshots, all while in the middle of a test session in the Testsigma platform. The fields populated by you when marking a bug through Testsigma are displayed as information on the Jira ticket for a testing instance.
 
 In this document, we will discuss how to establish Integration with Jira from your Testsigma account and how to create bug reports from Testsigma which can flow into Jira as issues.
+
 ---
 ##**Prerequisites**
 
@@ -29,7 +30,8 @@ To integrate Jira with Testsigma, you need the following information from your J
  * User Name - Your Account username/email
  * API Key - [Find your Atlassian API Token](https://support.atlassian.com/atlassian-account/docs/manage-api-tokens-for-your-atlassian-account/)
 
-You should already know about [Test Plan Runs and results](https://testsigma.com/docs/runs/test-plan-executions/)---
+You should already know about [Test Plan Runs and results](https://testsigma.com/docs/runs/test-plan-executions/)
+---
 ##**Integrating Jira with Testsigma**
 
 Once the above details are obtained, navigate to the Plugins page through **Dashboard > Settings > Plugins** and select Jira under the Bug Reporting Tab.
@@ -39,6 +41,7 @@ Click on the Disabled Icon on **Jira**. Jira Details overlay opens up as shown b
 ![Add Jira Integration form](https://docs.testsigma.com/images/jira/add-jira-integration-form.png)
 
 Enter the details as mentioned in Prerequisites. After entering the details, click on the Create button to add the Integration.
+
 ---
 ##**Creating a bug**
 

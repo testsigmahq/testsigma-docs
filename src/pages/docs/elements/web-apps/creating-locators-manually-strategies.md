@@ -40,6 +40,7 @@ Elements can be created from the attributes/properties of an HTML Element, using
 3. XPaths/ CSS Selectors
 
 <br>
+
 ---
 ##**1. Using unique single Element Attributes**
 
@@ -48,6 +49,7 @@ You can use any of the element attributes such as ID, Name, Class Name, etc if t
 Check the below section “Get Locators value manually using Chrome Developer Tools” to learn how to use Chrome Developer Tools to get the attribute value.
 
 <br>
+
 ---
 ##**2. Using Link Text and Partial Link Text**
 
@@ -56,6 +58,7 @@ You can use the visible text(fully or partially) on a link(anchor tag) for formu
 Check the below section “Get Locators value manually using Chrome Developer Tools” to learn how to use Chrome Developer Tools to get the link text.
 
 <br>
+
 ---
 ##**3. Using XPath/CSS Selectors**
 
@@ -64,6 +67,7 @@ You can generate XPath/ CSS Selectors for elements using Chrome Developer tools 
 Check the below section “Get Locators value manually using Chrome Developer Tools” to learn how to use Chrome Developer Tools to get the XPath or CSS Selector.
 
 <br>
+
 
 ---
 ##**Get Locators value manually using Chrome Developer Tools**
@@ -88,12 +92,14 @@ This is the code for the LOGIN button on above OrangeHRM Web page.<br>
 < input type = "submit" name="Submit" class="button" id="btnLogin" value="LOGIN">
 
 <br>
+
 ---
 ##**Finding Element attributes and their values**
 
 In this case, the tag name is ‘input’. Attribute names are ‘type’, ‘name’, ‘class’, ‘id’, and ‘value’ and their respective values are the strings in quotes following their name and equal sign. For example, the value of the ‘name’ attribute is ‘Submit’. Similarly, you can find the attribute values for ID, Class, etc
 
 <br>
+
 ---
 ##**Find XPath or CSS Locator**
 

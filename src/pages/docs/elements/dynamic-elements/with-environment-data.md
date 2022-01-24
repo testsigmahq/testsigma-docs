@@ -23,6 +23,7 @@ We can use Environment Parameters to parameterize the locator similar to how we 
 In this article, we will be outlining how to create dynamic locators using Environment parameters.
 
 <br>
+
 ---
 ##**Using Environment Test Data to parameterize locators**
 Suppose we need to locate the below element with the username text i.e  ‘admin’:

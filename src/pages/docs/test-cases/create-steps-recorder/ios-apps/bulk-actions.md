@@ -19,11 +19,13 @@ contextual_links:
 You can perform bulk actions on the test steps that you record using Testsigma Test Recorder for an iOS project. In this document, we will cover how to do that.
 
 &emsp;
+
 ---
 ##**Pre-requisites:**
 You should already be familiar with [Testsigma’s Test Recorder](https://testsigma.com/docs/test-cases/create-steps-recorder/ios-apps/overview/).
 
 &emsp;
+
 ---
 ##**How to perform bulk actions on recorded test steps:**
 1. Create a Test Case using Testsigma Test Recorder with multiple test steps.

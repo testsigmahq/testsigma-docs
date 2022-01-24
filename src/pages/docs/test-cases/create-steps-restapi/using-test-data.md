@@ -26,6 +26,7 @@ contextual_links:
 
 ---
 In this article, we will demonstrate the usage of different test data types in REST API steps automation.
+
 ---
 ##**Using Parameter Test Data (TestData profile) in REST API Test Steps:**
  
@@ -76,6 +77,7 @@ Since there are 3 Test Data Sets with id values 1,2, and 3 in the Test Data Prof
 
 During Test execution **@|id|** will be replaced with the value from the Test data profile.
 
+
 ---
 ##**Using Runtime Parameter Test Data in REST API Test Steps:**
 See: [Storing Test Data from REST API Response in Testsigma](https://testsigma.com/docs/test-cases/create-steps-restapi/store-runtime-data/)
@@ -112,6 +114,7 @@ Append the runtime variable in the URL for a REST API Test Step as shown below:
 ![verify test execution to use parameterized test data in the URL for rest api test step](https://docs.testsigma.com/images/using-test-data/verify-test-execution-use-parameterized-test-data-rest-api.png)
 
 &emsp;
+
 ---
 ##**Using Environment Test Data in REST API Test Steps:**
 If you need to use different Test Data for different Executions(for example, if you need to use different URLs for Staging, QA, or Production), we can make use of Environment Parameter Test Data.
@@ -147,7 +150,8 @@ Use the Global Parameter base_url in the URL for the REST API Test Step as shown
 ![use global parameter base url when creating parameterized test data in REST API test steps](https://docs.testsigma.com/images/using-test-data/use-global-parameter-base-url-parameterized-test-data-rest-api.png)
 
 In the above example, the base_url will be picked from the environment selected in Test Plan/Dry run.
- ---
+ 
+---
 ##**How to use Test Data Generators in REST API Test Steps:**
 ### Introduction
 Sometimes, it is required to pass a random or dynamic value for one or more keys in the REST Request( Payload/ Body). Testsigma provides Test Data Generators for this task.
@@ -186,7 +190,8 @@ Let us assume we want a random email as the value of the 'content' key. We can u
 `{"title": "Test Title", "email: “!|EmailFunctions.randomAlphanumaricEmail(int:7, String:gmail.com)|", "userid": 10}`
 
 <span style="color:grey">JavaScript</span>
- ---
+ 
+---
 ##**Test Data Function Usage sample in REST Payload:**
 
 ![use test data function in rest payload when creating parameterized test data in REST API test steps](https://docs.testsigma.com/images/using-test-data/use-test-data-function-in-rest-payload-parameterized-test-data-rest-api.png)

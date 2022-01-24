@@ -24,6 +24,7 @@ contextual_links:
 ---
 
 ---
+
 ---
 ##**1. What is Testsigma Agent? $faq-testsigma-agent**
 Testsigma Agent is a small Java utility that is used to run tests on local devices using Testsigma.
@@ -42,6 +43,7 @@ Testsigma Agent is a small Java utility that is used to run tests on local devic
 * It communicates exclusively with Testsigma Server and works in a pull model i.e it doesn't accept incoming communication from our servers, for security reasons.
 
 <br>
+
 ---
 ##**2. Why do we need a Testsigma Agent? $faq-testsigma-agent-why**
 Two main uses of Testsigma Agent:
@@ -65,6 +67,7 @@ Testsigma Agent includes all the required files for enabling inspection of mobil
 You may also use the Cloud-based Mobile Inspector that doesn’t require any setup on the local machine. However, as you might already know, the cloud inspector might have some delays compared to the Local Mobile Inspector.
 
 <br>
+
 ---
 ##**3. What are the resource requirements for the Testsigma Agent? $faq-testsigma-agent-req**
 
@@ -74,6 +77,7 @@ Hardware requirements:<br>
 * Processor: Dual-Core Processor or better<br>
 
 <br>
+
 ---
 ##**4. How does the Testsigma cloud server communicate with the Testsigma Local Agent? $faq-testsigma-agent-how**'
 

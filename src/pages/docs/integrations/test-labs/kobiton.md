@@ -20,6 +20,7 @@ contextual_links:
 
 Kobiton integration with Testsigma lets you run your Testsigma tests on Kobiton.
 If your organization has an existing account with Kobiton, you can author tests for Web, Mobile Web, and Mobile applications on Testsigma, and then run those tests on Kobiton’s cloud devices.
+
 ---
 ##**Prerequisites**
 
@@ -30,6 +31,7 @@ This can be obtained from the Account Settings page in Kobiton
   * ApiKey: In Settings/API Keys on the Kobiton portal
 
 You should already know about different [Test Lab Types in Testsigma](https://testsigma.com/docs/test-management/test-plans/supported-test-lab-types/) .
+
 ---
 ##**Integrating with Kobiton**
 
@@ -43,6 +45,7 @@ Once the username and API key is obtained, navigate to the Plugins page through 
   2. Enter the username/email and API Key obtained from Kobiton here.
 
 After entering the details, click on the Create button to add the Integration.
+
 ---
 ##**Using Kobiton for Test Runs**
 

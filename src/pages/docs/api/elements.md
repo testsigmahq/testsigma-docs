@@ -18,6 +18,7 @@ contextual_links:
 ---
 [[info | NOTE:]]
 | You need to authenticate these requests with your Testsigma API Key.  See  [How to generate API Keys.](https://testsigma.com/docs/configuration/api-keys/)
+
 ---
 ##**Element parameters**
 
@@ -38,6 +39,7 @@ Before we check the actual requests, let’s go through some Element properties 
 - **applicationVersionId:** ID of Version where the Element is to be created
 
 - **createdType:** Creation Mode of the Element. Either ‘Chrome’, ‘Advanced’, or ‘Manual’
+
 ---
 ##**API Specification**
 ### **Get Elements**
@@ -47,6 +49,7 @@ Get all the available elements in the Project
 - Endpoint: https://app.testsigma.com/api/v1/ui_identifiers
 - Authorization: Bearer <API_Token>
 
+
 ---
 ### **Get an Element**
 Get a specific element in the Project by Element Id
@@ -55,6 +58,7 @@ Get a specific element in the Project by Element Id
 - Authorization: Bearer <API_Token>
 
 <ELEMENT_ID> is the id of the specific element you want to fetch.
+
 
 ---
 ### **Create Element**
@@ -85,6 +89,7 @@ Request Body:
 &emsp;&emsp;&emsp;"createdType": "CHROME"
 
 }
+
 
 ---
 ### **Update Element**

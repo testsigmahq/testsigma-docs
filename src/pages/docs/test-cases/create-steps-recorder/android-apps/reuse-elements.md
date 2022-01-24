@@ -20,12 +20,14 @@ contextual_links:
 When you record elements via Testsigma’s Recorder, they are saved as elements in the corresponding project in Testsigma. These elements are reusable, and you can add them in new test steps or test cases within the same project. In this document, we will discuss how to do that via Testsigma’s Recorder for an android project.
 
 &emsp;
+
 ---
 ##**Pre-requisites:**
 
 You should know how to [record a test case via Testsigma’s Recorder.](https://testsigma.com/docs/test-cases/create-steps-recorder/android-apps/overview/)
 
 &emsp;
+
 ---
 ##**How to reuse pre-recorded elements via Testsigma’s Recorder for an android project:**
 

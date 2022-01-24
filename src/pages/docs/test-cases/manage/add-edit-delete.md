@@ -31,6 +31,7 @@ Before you can start creating test cases,  you should have created a Project in 
 A sample Project will be created by default in your Testsigma Account when you first sign up. If you want to create a new Project, refer to [Create new Project](https://testsigma.com/docs/projects/overview/)
 
 &emsp;
+
 ---
 ##**Creating a Test Case**
 
@@ -48,6 +49,7 @@ Enter the details as given below:
  * **Description**: Enter a meaningful description for this Test Case.
 
 &emsp;
+
 ---
 ##**Test Case  - Advanced Options**
 
@@ -134,6 +136,7 @@ After entering all the required details, we can click on the Create button to cr
 Learn how to [Create Test Steps](https://testsigma.com/docs/test-cases/step-types/overview/).
 
 &emsp;
+
 ---
 ##**Edit Test Case**
 
@@ -154,6 +157,7 @@ To edit the Test Steps - Hover over the corresponding step to reveal the Test St
 Learn how to [Create/Edit Test Steps](https://testsigma.com/docs/test-cases/create-steps-nl/overview/)
 
 &emsp;
+
 ---
 ##**Delete Test Case**
 

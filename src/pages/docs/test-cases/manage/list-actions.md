@@ -21,6 +21,7 @@ contextual_links:
 ---
 
 In the Test Cases page, you have the following options:
+
 ---
 ##**Searching Test Cases**
 
@@ -29,6 +30,7 @@ To search for a specific Test Case, click on the Search button on the top left c
 ![Search Test Cases](https://docs.testsigma.com/images/list-actions/test-cases-search1.png)
 
 &emsp;
+
 ---
 ##**Sorting Test Cases**
 
@@ -37,6 +39,7 @@ To sort Test Cases, click on the Sort icon on the top left corner of the Test Ca
 ![Sort Test Cases](https://docs.testsigma.com/images/list-actions/test-cases-sort1.png)
 
 &emsp;
+
 ---
 ##**Filtering Test Cases**
 

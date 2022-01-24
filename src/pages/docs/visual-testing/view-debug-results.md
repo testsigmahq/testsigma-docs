@@ -22,6 +22,7 @@ Visual Testing in Testsigma helps you test the visual design of your application
  3. Find the differences between the base image and the reference image. 
 
 In this document, we will discuss how to view and debug the results of visual testing in Testsigma.
+
 ---
 ##**Pre-requisites:**
 
@@ -31,6 +32,7 @@ You should already know how to:
  3. [Add a test suite to a test plan](https://testsigma.com/docs/test-management/test-plans/manage-test-suites/)
  4. [Configure visual testing for your test plan](https://testsigma.com/docs/visual-testing/configure-test-plan/)
  5. [Run a Test plan in Testsigma](https://testsigma.com/docs/runs/test-plan-executions/)
+
 ---
 ##**How to execute a Visual Test and View the results** 
 

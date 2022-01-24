@@ -33,6 +33,7 @@ Testsigma provides a default set of Test Case Priorities which can be edited and
 Default Test Case Priorities:  Critical, Medium, High, Low
 
 <br>
+
 ---
 ##**Prerequisites**
 This document assumes that you know how to create a test case. If not, refer to [Creating a Test Case](https://testsigma.com/docs/test-cases/manage/add-edit-delete/).
@@ -47,6 +48,7 @@ This document assumes that you know how to create a test case. If not, refer to 
 2. Go to Project Settings and select Test case Priorities, as highlighted in the screenshot below:
 
 ![test case priorities menu](https://docs.testsigma.com/images/test-case-priorities/test-case-priorities-menu.png)
+
 
 ---
 ##**Add a new Test Case Priority**
@@ -65,12 +67,14 @@ Here’s a step-by-step breakdown:
 
 ![add new test case priority](https://docs.testsigma.com/images/test-case-priorities/add-new-test-priority-type.png)
 
+
 ---
 ##**Delete a Test Case Priority**
 
 Hover over the test case priority you want to delete and click on the Delete icon that appears.
 
 ![test case priority delete button](https://docs.testsigma.com/images/test-case-priorities/test-case-priority-delete-button.png)
+
 
 
 ---
@@ -83,6 +87,7 @@ Hover over the test case priority you want to delete and click on the Delete ico
 2. Now, you will be able to edit the text of the test case priority, and ‘enter’ will save the changes.
 
 ![test case priority edit text](https://docs.testsigma.com/images/test-case-priorities/test-case-priority-edit-text.png)
+
 
 ---
 ##**How to assign a priority to a test case**

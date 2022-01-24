@@ -20,6 +20,7 @@ In Testsigma, these reports can be viewed directly in the Testsigma application 
 Testsigma provides a central repository for all the test results. 
 Simply navigate to the “Test Development” > “Run Results” page
 
+
 ---
 ##**What can you do on the Run Results page**
 
@@ -32,6 +33,7 @@ Simply navigate to the “Test Development” > “Run Results” page
 Here is a gif that gives an overview of the test run results:
 
 ![gif demonstrating test run results in Testsigma](https://docs.testsigma.com/images/runs/gif-test-run-results.gif)
+
 
 ---
 ##To know more about the different components of the run results page, refer to the documents below:

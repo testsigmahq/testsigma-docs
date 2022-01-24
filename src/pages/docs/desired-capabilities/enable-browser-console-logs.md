@@ -21,6 +21,7 @@ When a Test Case fails, you will see an error message on the failed Test Step wi
 However, there are times when the reason for failure is not enough to fix the failure and the developers need extra details such as Browser Console logs to find the root cause. These extended Debugging capabilities can be enabled in Testsigma by adding a simple 'Desired Capability' in the Test Environment settings. 
 
 To learn how to add Desired Capabilities, see [Desired Capabilities - Overview](https://testsigma.com/docs/desired-capabilities/overview/)
+
 ---
 ##**Enable Browser Console - Extended Debugging**
 
@@ -33,6 +34,7 @@ Pass the below given desired capabilities in case of respective Test Lab Type
 
 [[info | NOTE:]]
 | The above desired capabilities are valid for Adhoc Runs and Test Plan Runs.
+
 ---
 ##**View Browser Logs**
 

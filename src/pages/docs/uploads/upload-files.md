@@ -15,14 +15,16 @@ contextual_links:
   name: "Getting the file URL"
   url: "#getting-the-file-url" 
 ---
-With Testsigma, you can upload small files to Testsigma uploads as attachments and then use their links in your test steps. This document will discuss how to do that.---
+With Testsigma, you can upload small files to Testsigma uploads as attachments and then use their links in your test steps. This document will discuss how to do that.
+---
 ##**Uploading the file**
 1. Go to **Test Development > Uploads**
 2. In the Uploads page, click on the **Upload** button. You will be prompted to choose the file to upload. The window looks like the screenshot below:
 ![upload window to upload files for a project in Testsigma](https://docs.testsigma.com/images/upload-files/upload-window-upload-files-testsigma.png)
 3. Choose the file you want to upload, make sure the file is named correctly and then click on the upload button. 
 4. On successful upload, the file is displayed on the uploads page:
-![uploads page with one uploaded file in Testsigma](https://docs.testsigma.com/images/upload-files/uploads-page-one-uploaded-testsigma.png)---
+![uploads page with one uploaded file in Testsigma](https://docs.testsigma.com/images/upload-files/uploads-page-one-uploaded-testsigma.png)
+---
 ##**Getting the file URL**
 From the Uploads page, copy the file path from the copy button, also highlighted in the screenshot below:
 ![copy file path on uploads page in Testsigma](https://docs.testsigma.com/images/upload-files/copy-file-path-uploads-page--testsigma.png)

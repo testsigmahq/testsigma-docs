@@ -32,12 +32,14 @@ In Testsigma terminology, each automated action executed by the test script is a
 |In Testsigma we will be writing test steps in simple English,  which automatically gets converted into automated actions.
 
 &emsp;
+
 ---
 ##**Pre-requisites:**
 
 This document assumes that you know how to [Create a test case](https://testsigma.com/docs/test-cases/manage/add-edit-delete/).
 
 &emsp;
+
 ---
 ##**Ways to create Test Steps:**
 
@@ -48,6 +50,7 @@ There are two different ways to add test steps in a Test case.
 &emsp;
 
 Follow the links to know how to use these approaches for: 
+
 ---
 ##**Web & Mobile Web**
 
@@ -55,6 +58,7 @@ Follow the links to know how to use these approaches for:
  * [Record Steps using Test step Recorder](https://testsigma.com/docs/test-cases/create-steps-recorder/web-apps/overview/)
 
 &emsp;
+
 ---
 ##**iOS**
 
@@ -62,6 +66,7 @@ Follow the links to know how to use these approaches for:
  * [Record Steps using Test Recorder](https://testsigma.com/docs/test-cases/create-steps-recorder/ios-apps/overview/)
 
 &emsp;
+
 ---
 ##**Android**
  * [Write Tests using simple English](https://testsigma.com/docs/test-cases/step-types/overview/)

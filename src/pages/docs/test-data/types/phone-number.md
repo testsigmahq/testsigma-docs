@@ -28,18 +28,21 @@ Phone Number test data can be used to automate:
 *  Any application which requires a mobile number based login - Valid phone number to be entered from which later an SMS can be read and processed.
 
 Testsigma provides you with a valid mobile phone number on request, with which you can author any test case that requires a valid phone number.
+
 ---
 ##**Prerequisites**
 
 Provisioned mobile phone numbers - [Contact Support](http://support@testsigma.com) or talk to us on Chat and we will provision phone numbers for your account.
 
 Your should be familiar with Regular expressions. If not, [refer to Regex guide - MDN Docs](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Guide/Regular_Expressions)
+
 ---
 ##**Creating Test Steps**
 
 For 2FA Authentication, we need to perform two steps:
 * Step 1 - Enter the phone number to which the OTP will be sent
 * Step 2 - Fetch the OTP from the SMS received on the Phone number
+
 ---
 ##**Step 1 -** We will enter the phone number provided by Testsigma using the Phone Number test data type, using a Test Step.
 
@@ -55,6 +58,7 @@ An overlay showing the list of available phone numbers(allocated to your account
 Check the below illustration to understand how we can use the Phone number Test Data in Test Cases.
 
 ![Phone number Test Data in Test Steps](https://docs.testsigma.com/images/phone-number/phone-number-test-data-test-steps.gif)
+
 ---
 ##**Step 2 -** We will use the Test Data Generators available in Testsigma to fetch the OTP from the phone number selected in the previous step.
 

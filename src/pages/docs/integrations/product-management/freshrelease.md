@@ -24,6 +24,7 @@ contextual_links:
 With Testsigma and Freshrelease integration, you can push bugs directly from Testsigma to your Freshrelease project, capture screenshots, annotate bugs, and share them with your teammates.
 
 In this document, we will discuss how to establish Integration with Freshrelease from your Testsigma account and how to create the first bug from Testsigma which can flow into Freshrelease.
+
 ---
 ##**Prerequisites**
 
@@ -34,11 +35,13 @@ To integrate Freshrelease with Testsigma, you need the following information fro
 Check the below section **Creating Freshrelease API Key** to learn how to obtain both.
 
 You should also be familiar with [Test Plan Runs](https://testsigma.com/docs/runs/test-plan-executions/).
+
 ---
 ##**Creating Freshrelease API Key**
 
 First, log into Freshrelease Admin Account.
 On the bottom left corner, click on Profile Settings. The profile settings page will have the API Key and the URL to which you have logged in is your Account URL.
+
 ---
 ##**Integrating Freshrelease with Testsigma**
 
@@ -49,6 +52,7 @@ Click on the Disabled Icon on **Freshrelease**. Freshrelease Details overlay ope
 ![Add Freshrelease Integration form](https://docs.testsigma.com/images/freshrelease/add-freshrelease-integration-form.png)
 
 Enter the details as mentioned in Prerequisites. After entering the details, click on the Create button to add the Integration.
+
 ---
 ##**Creating a bug**
 

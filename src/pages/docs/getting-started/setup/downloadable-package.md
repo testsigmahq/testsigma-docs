@@ -28,12 +28,14 @@ contextual_links:
   url: "#next-steps"
 ---
 
+
 ---
 ##**Pre-requisites**
 
 Create a folder called testsigma where you would like to install Testsigma. 
 
 **cd** cmd into this installation folder(testsigma)
+
 ---
 ##**Step1: Download the Package**
 
@@ -90,6 +92,7 @@ Testsigma Agent is a microservice that processes test case data and runs tests o
    &nbsp; - Before changing the ports, stop Nginx, Testsigma Server, and Testsigma Agent.<br>
    &nbsp; - Before starting the Testsigma server you need to set the environment variable LOCAL\_AGENT\_URL= https://localhost:<http\_port>, here you can replace the <http\_port> with the port you want to use for the agent.<br>
    &nbsp; - Before starting the Testsigma agent you need to set the environment variables TESTSIGMA\_AGENT\_HTTP\_PORT for HTTP port and TESTSIGMA\_AGENT\_HTTPS\_PORT for HTTPS port.<br>
+
 ---
 ##**Step2: Run Services**
 ### **Windows**
@@ -136,6 +139,7 @@ Testsigma Agent is a microservice that processes test case data and runs tests o
    &nbsp; - You can run stop.sh if you want to stop the agent at any point in time<br>
 
 Your Testsigma server should be up and running now. Testsigma server will be accessible at https://local.testsigmaos.com/ui
+
 ---
 ##**Update to new Version**
 
@@ -148,6 +152,7 @@ Your Testsigma server should be up and running now. Testsigma server will be acc
  ## **Troubleshooting**
 
  If you encounter any errors during this process, check out our guide on [debugging deployment errors](https://testsigma.com/docs/troubleshooting/setup/server-docker-deployment-errors/). If you are still facing any issue, please reach out to [support@testsigma.com](mailto:support@testsigma.com) or join our [Discord Server](https://discord.com/invite/5caWS7R6QX) to speak to the Testsigma team directly!
+
 ---
 ##**Next Steps**
 

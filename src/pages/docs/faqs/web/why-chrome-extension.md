@@ -25,6 +25,7 @@ With Testsigma’s Chrome Extension you capture these elements and record the us
 2. [Record User actions and convert them into test steps](https://testsigma.com/tutorials/test-cases/web-applications/build-tests-using-recorder/)
 
 <br>
+
 ---
 ##**Security Disclaimer**
 

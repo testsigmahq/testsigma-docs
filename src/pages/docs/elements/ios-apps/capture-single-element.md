@@ -19,11 +19,13 @@ contextual_links:
 
 ---
 
+
 ---
 ## **Introduction**
 In an iOS project in Testsigma, you can selectively capture elements one at a time using the Testsigma mobile inspector.
 
 <br>
+
 ---
 ##**Pre-requisites**
 1. You should have an iOS project in Testsigma. See [creating a project](https://testsigma.com/docs/projects/overview/).
@@ -36,6 +38,7 @@ In an iOS project in Testsigma, you can selectively capture elements one at a ti
 **Test development > Elements**
 
 <br>
+
 ---
 ##**How to create one element at a time by using the Testsigma mobile inspector for an iOS project in Testsigma**
 1. On the ‘All Elements’ page, click on the ‘Create’ button on the top right corner of the page:

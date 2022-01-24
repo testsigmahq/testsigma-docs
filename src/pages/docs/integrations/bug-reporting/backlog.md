@@ -24,6 +24,7 @@ contextual_links:
 This integration lets you create issues in Backlog directly from the Testsigma. With simple one-click integration, you can push annotated issues to a project of your choice, assign them to the required teammate, and attach screenshots, while in the middle of a test session in the Testsigma app. The fields populated by you when marking as a bug through Testsigma are displayed as information on the Backlog ticket for a testing instance.
 
 In this document, we will discuss how to establish Integration with Backlog from your Testsigma account and how to create the first bug from Testsigma which can flow into Backlog.
+
 ---
 ##**Prerequisites**
 
@@ -32,6 +33,7 @@ To integrate Backlog with Testsigma, you need the following information from you
   * API Key - Explained in next section - **Getting the API Key**
 
 You should already know about [Test Plan Runs and results](https://testsigma.com/docs/runs/test-plan-executions/)
+
 ---
 ##**Getting the API Key**
 
@@ -56,6 +58,7 @@ Click on the Disabled Icon on **Backlog**. Backlog Details overlay opens up as s
 ![Add Backlog Integration form](https://docs.testsigma.com/images/backlog/add-backlog-integration-form.png)
 
 Enter the details as mentioned in Prerequisites. After entering the details, click on the Create button to add the Integration.
+
 ---
 ##**Creating a bug**
 

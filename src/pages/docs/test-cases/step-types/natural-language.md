@@ -41,6 +41,7 @@ You should already know about
 ![gif natural language step type demo](https://docs.testsigma.com/images/natural-language/gif-natural-language-step-type-demo.gif)
 
 &emsp;
+
 ---
 ##**Add Test Steps**
 

@@ -27,10 +27,12 @@ contextual_links:
 Testsigma has a marketplace for add-ons where Testsigma users publish add-ons that they’ve developed.
 
 If the add-ons feature is enabled in your account, you will see an add-ons icon below the Settings icon on the leftmost Navigation bar.
+
 ---
 ##**Navigate to:** **Dashboard > add-ons** to find the available community add-ons.
 
 ![add-ons marketplace](https://docs.testsigma.com/images/community-marketplace/add-ons-marketplace-gif.gif)
+
 ---
 ##**Available Categories**
 
@@ -46,6 +48,7 @@ Add-ons will be categorized as follows:
 You can publish a custom add-on either as a private or public add-on. All add-ons that are created publicly are shared and available on the Testsigma Add-ons Community Marketplace.
 
 If you can’t find an add-on that suits your requirements, we encourage you to create a new one and publish it to the Marketplace to help other SDETs in the QA Community. See how you can [create an add-on](https://testsigma.com/docs/addons/create/).
+
 ---
 ##**Searching and organizing add-ons**
 
@@ -58,6 +61,7 @@ You can also sort the add-ons list by package name, created, and updated date.
 You can filter the add-ons list by Tag, Application Type, Ratings, Created, and Updated Date
 
 ![Overlay showing Filter options in add-ons list](https://docs.testsigma.com/images/community-marketplace/add-ons-marketplace-filter-list.png)
+
 ---
 ##**Add-on Details**
 
