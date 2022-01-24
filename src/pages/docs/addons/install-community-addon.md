@@ -25,6 +25,7 @@ Navigate to the Add-ons page via **Dashboard > Add-ons**.
 * My Add-ons shows add-ons developed and published by you.
 
 Before proceeding, you should be familiar with [add-ons](https://testsigma.com/docs/addons/what-is-an-addon/) and [how to create Test Steps using simple English](https://testsigma.com/docs/test-cases/step-types/natural-language/).
+---
 
 ## **Installing an Add-on**
 
@@ -33,6 +34,7 @@ Click on the Community Tab and find the add-on you want to install. You can eith
 Hover over one of the add-ons and click on the Install button. The selected add-on will be installed and will be available in your Test Cases after a page refresh.
 
 ![Add-on details Popup when clicking on Add-on tile in Installed Add-ons tab](https://docs.testsigma.com/images/community-marketplace/add-on-details.gif.gif)
+---
 
 ## **Using an installed add-on**
 

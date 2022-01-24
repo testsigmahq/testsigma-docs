@@ -28,6 +28,7 @@ In Testsigma, you can add a while loop that iterates through a few steps dependi
 **Example**: Assume that we need to click on an element until the condition is true.
 
 &emsp;
+---
 
 ## **Pre-requisites:**
 
@@ -39,6 +40,7 @@ You should already know how to:
 This document contains information about adding while loop using testsigma’s test step recorder option in Web, Mobile web, Android and iOS applications.
 
 &emsp;
+---
 
 ## **How to use while loop as a test step while creating a test case:**
  1. Navigate to “Test Development” > “Test Cases” > Create
@@ -93,6 +95,7 @@ The gif below shows how While loop test steps are created.
 ![gif demonstrating how to create a while loop in Testsigma](https://docs.testsigma.com/images/while-loop/gif-creating-while-loop.gif)
 
 &emsp;
+---
 
 ## **Adding While Loop in Testsigma’s Test Step Recorder [Web & Mobile Web]**
 
@@ -126,6 +129,7 @@ Follow the steps below to add a while loop:
 Follow the rest of the steps mentioned in the first section from Step 9 to add steps under while condition step.
 
 &emsp;
+---
 
 ## **Adding While Loop in Testsigma’s Test Step Recorder [Android &iOS]**
 

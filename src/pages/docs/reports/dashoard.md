@@ -25,6 +25,7 @@ The bottom left of the navigation bar gives access to the Usage Details, Help se
 On the top left corner, you can find the **Project Switcher** that helps you to switch across different Projects, Applications, and Versions.
 
 On the right corner, you see a link to the Offers page, Tutorials page, Feedback page, and a **Create New** button that helps you to create any entity quickly.
+---
 
 ## There are a number of sections within the page that gives us detailed information regarding various components such as:
 * **Latest Runs:** Details of the Latest Executions for the current Project are included here.

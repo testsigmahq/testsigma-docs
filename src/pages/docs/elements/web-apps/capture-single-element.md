@@ -31,6 +31,7 @@ Sometimes, during test creation, we only need to capture the details of a single
 In this article, we will discuss all 3 ways to capture a single element.
 
 <br>
+---
 
 ## **Approach 1. Via the Elements page**
 
@@ -82,6 +83,7 @@ Let’s begin.
 You can follow these steps to create elements while creating a test case. The Create Element Form will come up when you are creating a test step (from the test case, from results page).
 
 <br>
+---
 
 ## **Approach 2. While creating a test step in a test case**
 
@@ -117,6 +119,7 @@ You can follow these steps to create elements while creating a test case. The Cr
 
 
 <br>
+---
 
 ## **Approach 3. From a Test Case Result**
 

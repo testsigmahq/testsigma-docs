@@ -20,6 +20,7 @@ Custom user profiles help you emulate settings such as pre-installed extensions,
 To do the same, create a new profile, customize it as per your requirements by installing required extensions and changing the settings. After that, you can select the profile using Desired Capabilities in Testsigma while starting a Test Session.
 
 You should already know how to add Desired Capabilities to your Tests. See [Desired Capabilities - Overview](https://testsigma.com/docs/desired-capabilities/overview/)
+---
 
 ## **Steps for using Custom User Profile in Testsigma**
 

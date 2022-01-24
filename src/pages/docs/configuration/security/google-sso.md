@@ -26,8 +26,10 @@ contextual_links:
 With SSO, you are not required to store and manage passwords for the websites you use regularly. Instead of using passwords, applications that allow SSO login accept secured tokens that grant access to the application. This is mostly used for enterprises and SMBs for easy workforce identity management.
 
 Here’s how you can configure Testsigma to allow Google Single Sign-On (SSO).
+---
 
 ## **Enabling SSO in Testsigma**
+---
 
 ## **Navigation: Settings > Security**
 
@@ -40,6 +42,7 @@ If you are currently logged in to your GSuite account, skip to Step 3.
 If you are not already logged in, the Google SSO option (**‘Proceed’** button) will be disabled as shown in the image below.
 
 ![Navigation to opt for Single Sign-On in Testsigma](https://docs.testsigma.com/images/google-sso/single-sign-on-login-testsigma.png)
+---
 
 ## Here’s how you set up your Google SSO in 3 simple steps:
 

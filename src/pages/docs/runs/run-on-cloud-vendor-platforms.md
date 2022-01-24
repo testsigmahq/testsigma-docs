@@ -30,10 +30,14 @@ When executing your test cases on Testsigma you have the option to execute them 
 4. Lambdatest
 
 &emsp;
+---
+
 ## **Pre-requisites:**
 You should already know how to [run your created test cases on the integrated cloud vendor platforms](https://testsigma.com/docs/runs/adhoc-runs/).
 
 &emsp;
+---
+
 ## **How to run test cases and test plans on cloud vendor platforms with Testsigma**
 1. Navigate to Settings → Plugins → Test Lab:
 

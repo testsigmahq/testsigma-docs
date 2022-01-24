@@ -20,12 +20,14 @@ contextual_links:
 ---
 
 ---
+---
 
 ## **Introduction**
 
 You can add more test steps to a pre-existing test case using the Recorder. Let’s see how. 
 
 &emsp;
+---
 
 ## **Pre-requisites:**
 
@@ -36,6 +38,7 @@ You should already know how to
  3. [record test steps with Testsigma Recorder.](https://testsigma.com/docs/test-cases/create-steps-recorder/android-apps/overview/)
 
 &emsp;
+---
 
 ## **How to add test steps to a pre-existing test case via Recorder:**
 

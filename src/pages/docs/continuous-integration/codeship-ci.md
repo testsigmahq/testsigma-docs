@@ -15,7 +15,8 @@ contextual_links:
   url: "#integrating-testsigma-to-codeship-test-pipelines"
 ---
 Testsigma offers powerful Webhooks for triggering Testsigma Executions remotely from any third-party tool that provides a Command Line Interface(CLI). In this guide, we will see how we can integrate Testsigma in Codeship for automatically triggering Test Executions with successful builds on CodeShip, and then wait for the tests to pass and then proceed with deployment.
- 
+ ---
+
 ## **Pre-requisites:**
   1.A CodeShip Account configured with your organization details and the Project that needs to be triggered. If you are new to CodeShip, please follow the following link to create an Account (using your email or OAuth), add your organization and create a Project. [See signing up for a new Codeship Account](https://documentation.codeship.com/general/account/new-user-signup/)
 
@@ -27,6 +28,7 @@ For help on configuring other SCMs, please check CodeShip Documentation or conta
 
 You can view the Connected Services at Authentications page - [Connected Services](https://app.codeship.com/authentications) 
 
+---
 
 ## **Integrating Testsigma to CodeShip Test Pipelines**
 

@@ -16,6 +16,7 @@ Plain Text is the simplest type of text data that can be used in your test case.
 Simply erase the “test data” placeholder and choose “Plain Text” to type anything you want as the input to your test. 
 
 Plain Text also serves as a hard-coded input. 
+---
 
 ## **When do you use Plain Text?**
 

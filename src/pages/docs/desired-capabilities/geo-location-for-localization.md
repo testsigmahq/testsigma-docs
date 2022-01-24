@@ -23,6 +23,7 @@ This article mainly focuses on how to use Desired Capabilities to set the Geogra
 
 [[info | NOTE:]]
 | To Enable Localization Testing, please contact Testsigma Support
+---
 
 ## **Desired Capabilities for setting location**
 
@@ -86,6 +87,7 @@ Below given is the list of countries with their country codes that can be used i
 |Ukraine|UA|
 |United Kingdom|GB|
 |United States|US|
+---
 
 ## **Using Desired Capability to set the Location**
 
@@ -96,6 +98,7 @@ After clicking on Desired Capabilities link, we can enter ‘BrowserStack.geoLoc
 ![Adhoc Run Desired Capability Geolocation](https://docs.testsigma.com/images/geo-location-for-localization/adhoc-run-desired-caps-geolocation.png)
 
 That's all. Now you can click on ‘Run Now’ to start the execution. The execution will start on the cloud device and the location will be detected as the specified one, in this case, Argentina.
+---
 
 ## **Sample Use Case**
 

@@ -26,6 +26,7 @@ For some CI/CD pipelines, the URL of the Application Under Test (AUT) changes wi
 
 [[info | NOTE:]]
 | You need to authenticate these requests with your Testsigma API Key.  See [How to generate API Keys.](https://testsigma.com/docs/configuration/api-keys/)
+---
 
 ## **Get An Environment**
 Request Method: GET 
@@ -35,12 +36,14 @@ Endpoint: [https://app.testsigma.com/api/v1/environments/](https://app.testsigma
 <ENVIRONMENT_ID> can be found from the Environment details page URL
 
 ---
+
 ## **Get All Environments**
 Request Method: GET
 
 Endpoint: https://app.testsigma.com/api/v1/environments
 
 ---
+
 ## **Update Environment**
 Request Type: PUT
 
@@ -72,6 +75,7 @@ Body Content:
 | Only include the contents that need to be updated and remove the others from the Request Body
 
 ---
+
 ## **Create Environment**
 Request Method: POST
 

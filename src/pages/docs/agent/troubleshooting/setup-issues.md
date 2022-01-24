@@ -24,6 +24,7 @@ contextual_links:
 If  the Agent is not starting, or is starting and terminating immediately, please check the Agent logs for the root cause. See [How to get Agent Logs](https://testsigma.com/docs/agent/troubleshooting/logs/) for the error. If you need some help understanding the error from the logs, please [contact Support](mailto:support@testsigma.com).
 
 <br>
+---
 
 ## **Troubleshooting URLs and Port Numbers**
 
@@ -37,6 +38,7 @@ OR
    https://local.testsigmaagent.com:8484/agent/ (HTTPS)
 
 <br>
+---
 
 ## **Common causes of Agent startup, register and auto-update Errors**
 Here’s how you can troubleshoot the Agent startup Error yourself:

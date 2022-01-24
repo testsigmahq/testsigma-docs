@@ -28,6 +28,7 @@ Data-driven Testing is one of the most common cases where we make use of dynamic
 You should already be familiar with [Parameter Test Data](https://testsigma.com/docs/test-data/types/parameter/) and [Data-Driven Testing](https://testsigma.com/tutorials/test-cases/data-driven-testing/). 
 
 <br>
+---
 
 ## **Case Study - OrangeHRM Enterprise**
 Enterprise websites are a good candidate for this kind of testing due to the amount of dynamic content on their pages. Here, we will be using an OrangeHRM Enterprise web app for our demonstration.
@@ -42,6 +43,7 @@ In the third and fourth steps, we will be using parameterized Elements i.e Eleme
 Here’s a screenshot of the steps created in Testsigma:
 ![Test Steps of OrangeHRM Test Case with dynamic](https://docs.testsigma.com/images/with-parameter-test-data/Elements-test-steps-dynamic-locators.png)
 
+---
 
 ## **Actual Steps - Implementation**
 
@@ -75,6 +77,7 @@ We need to add a wait time of 10 seconds since there are a lot of dynamic elemen
 This is the most important step in this tutorial. We need to click on the first four items in this list in each of our test iterations. Let us see how it is done.
 
 <br>
+---
 
 ## **Creating Dynamic Elements using parameter test data**
 As you can see on the above page, there is a list of Documents below the Pie Chart. On inspecting the page, you can see the HTML structure of the Documents div element as shown below:
@@ -120,6 +123,7 @@ The **@|elements|** part will be replaced by the parameter value corresponding t
 
 <br>
 
+---
 
 ## **Run Results**
 Once the Test Case is updated with the dynamic Element as given above, we can execute the Tests. Please follow this article to know more about executing Tests - <How to create/edit/delete Executions?>

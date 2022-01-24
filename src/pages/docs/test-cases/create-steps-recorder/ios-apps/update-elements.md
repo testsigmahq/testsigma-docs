@@ -19,10 +19,14 @@ contextual_links:
 When you update the structure of your iOS application, you will need to update the corresponding elements in your automated test project in Testsigma too. In this document, we will discuss how to do that using Testsigma’s Recorder.
 
 &emsp;
+---
+
 ## **Pre-requisites:**
 You should already know [how to capture elements using Recorder](https://testsigma.com/docs/test-cases/create-steps-recorder/ios-apps/overview/).
 
 &emsp;
+---
+
 ## **How to update an element via Testsigma’s Recorder:**
 1. Create a Test Case using Testsigma’s Recorder in your iOS Project. 
    

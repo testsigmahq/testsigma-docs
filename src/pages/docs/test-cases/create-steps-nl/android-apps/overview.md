@@ -20,6 +20,7 @@ contextual_links:
 You can add more test steps to a pre-existing test case manually. In this document, we will discuss how to do that for an Android application. 
 
 &emsp;
+---
 
 ## **Pre-requisites:**
 You should already know how to
@@ -27,6 +28,7 @@ You should already know how to
  2. [create test steps for an android application.](https://testsigma.com/docs/test-cases/create-steps/)
 
 &emsp;
+---
 
 ## **How to add steps manually in simple English for an android project in Testsigma:**
 

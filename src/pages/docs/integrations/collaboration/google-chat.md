@@ -18,12 +18,14 @@ contextual_links:
   url: "#enabling-google-chat-notifications-in-test-plan"
 ---
 Testsigma can send test status notifications to a specific Google Chat room.
+---
 
 ## **Prerequisites**
 
 You need a Google Chat Incoming webhook to integrate with Testsigma. To know how to generate an Incoming Webhook in Google Chat, see [Using incoming webhooks - Google Chat](https://developers.google.com/chat/how-tos/webhooks)
 
 Google Chat Incoming Webhook is mapped to a specific Channel in your organization and Testsigma will post the alerts on that channel.
+---
 
 ## **Integrating Google Chat with Testsigma**
 
@@ -34,7 +36,8 @@ Once the Webhook URL is obtained, navigate to the Plugins page through Dashboard
 
    2. Enter the incoming webhook URL obtained from Google Chat in the **Google Chat Details** field.<br>
 
- After entering the details, click on the Create button to add the Integration.
+ After entering the details, click on the Create button to add the Integration.---
+
 ## **Enabling Google Chat notifications in Test Plan**
 
 Once the Google Chat integration is added, you can enable the Google Chat notifications for your Test Plans while editing any of your existing Test Plans or while creating a new Test Plan.

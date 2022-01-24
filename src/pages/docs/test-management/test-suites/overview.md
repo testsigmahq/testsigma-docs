@@ -31,6 +31,8 @@ The Test Suite is a set of Test Cases. It helps testers organize the Test Cases 
 ### Navigation: Test Development > Test Suites
 
 &emsp;
+---
+
 ## **List Test Suites**
 On the Test Suites page, you will have the below options:
 
@@ -74,6 +76,7 @@ You can sort the list Ascending or Descending based on the below fields
 More Test Cases can be added and removed from this page by clicking on the “Add Test Case” button.
  
 &emsp;
+---
 
 ## **Create Test Suite**
 Clicking on the Create button takes us to the Create Test Suite page as shown below
@@ -99,6 +102,7 @@ Enter the following details:
 **Labels:** If needed, you can add labels to the test suite you are creating here. It should accept string values.
  
 &emsp;
+---
 
 ## **Adding Test Cases to Test Suite**
 A click on “+ Add Test Cases”, from the “Create Test Suite” Page Or from an existing test suite page will take you to “Select Test Cases” overlay on the the onTest Suites page, as shown below:
@@ -130,11 +134,13 @@ A sample Test Suite with all the required details and Test Cases selected is sho
 5. Click on the Create button to Create the Test Suite.
 
 &emsp;
+---
 
 ## **Edit a Test Suite**
 To edit a test suite, click on the edit button next to the Test Suite name. Once the ‘Edit Test Suite’ page opens, you can follow the steps as mentioned in the Create Test Suite section above.
 
 &emsp;
+---
 
 ## **Delete a Test Suite**
 1. Hover over a Test Suite on the Tests Suites page and click on the “Delete button” next to the test suite name:

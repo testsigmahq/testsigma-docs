@@ -24,6 +24,7 @@ A **Project in Testsigma** is similar to a real-life Project that consists of di
 This organization provides a logical separation between different Applications and Projects. A user is allowed to create any number of projects and applications. 
 
 Your Testsigma account comes with 4 sample Projects, populated with different sample test cases for web, mobile web, Android, and iOS application types. You can use and edit them to start off your own test automation quickly. 
+---
 
 ## **Create Project**
 
@@ -59,6 +60,7 @@ Here’s a snapshot of the Testsigma Dashboard page:
     ![Test Cases page after creating project](https://docs.testsigma.com/images/projects/create-project-redirect-test-cases.png)
 
     Before you proceed, if you want to assign users and manage roles for projects, refer to  [Assign projects](https://testsigma.com/docs/collaboration/assign-projects/).
+---
 
 ## **Edit Project**
 
@@ -74,6 +76,7 @@ You can also enable/disable multiple Application or multiple Application Version
 If Multiple Applications are enabled, you can manage them from the **Dashboard > Project Settings > Applications** page.
 
 If Multiple Application Versions are enabled, you can manage them from the **Dashboard > Project Settings > Applications > Versions** page.
+---
 
 ## **Delete Project**
 

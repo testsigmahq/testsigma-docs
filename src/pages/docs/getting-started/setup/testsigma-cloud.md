@@ -30,12 +30,14 @@ contextual_links:
   url: "#next-steps"
 ---
 ---
-This guide walks you through creating an account and using Testsigma Cloud
+This guide walks you through creating an account and using Testsigma Cloud---
+
 ## **Creating an account**
 &emsp;
 Go to [https://testsigma.com/signup](https://testsigma.com/signup) to create an account.
 
-![Create a new project](https://docs.testsigma.com/images/testsigma-cloud/create-a-new-project.png)
+![Create a new project](https://docs.testsigma.com/images/testsigma-cloud/create-a-new-project.png)---
+
 ## **Create a new project**
 &emsp;
 To create a new project follow these steps:
@@ -43,6 +45,7 @@ To create a new project follow these steps:
 * Select the number of applications to be included. You can turn on versioning if you need it
 * Select the type of application you’d like to test from - Web, Mobile-Web, Android, iOS or API
 * And that’s it! You’re ready to start testing
+---
 
 ## **Creating and running a test**
 &emsp;
@@ -73,14 +76,17 @@ Follow these steps to write and run your first test case
 * Review your results with screenshots, recorded video or using logs
 
 [Click here](https://testsigma.com/docs/runs/adhoc-runs/) to learn more about Ad-Hoc runs
+---
 
 ## **Check your reports**
 &emsp;
 You can go to the run results section located in the test development tab to take a deep dive into detailed reports of your executions and use various filters to get different insights
+---
 
 ## **Try running data driven tests**
 &emsp;
 Testsigma’s integrated test data profiles let you easily create or upload data sets to be used in your test cases. 
+---
 
 ## **Troubleshooting**
 
@@ -88,6 +94,7 @@ Testsigma’s integrated test data profiles let you easily create or upload data
 * Troubleshooting problems? Report bugs as **Github issues**
 * Reach out to us at [support@testsigma.com](mailto:support@testsigma.com)
 * Refer to our [FAQ](https://testsigma.com/docs/getting-started/faqs/) section for answers to commonly asked questions.
+---
 
 ## **Next Steps**
 

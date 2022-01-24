@@ -20,6 +20,7 @@ contextual_links:
 ---
 
 A Test Suite is a collection of test cases grouped on the basis of a specific feature or a requirement. In Testsigma, you can run multiple test suites at once, and analyze test reports grouped by Test Suites. . 
+---
 
 ## **Navigation:** Select Project > Test Development > Run Results
 
@@ -29,6 +30,7 @@ Here is a quick gif that demonstrates how to group reports on the basis of test 
 
 ![gif to access test suite reports in Testsigma](https://docs.testsigma.com/images/test-suite-reports/gif-get-test-suite-reports-testsigma.gif)
 
+---
 
 ## **how to generate Test Suite Reports:**
 
@@ -51,6 +53,7 @@ Here is a quick gif that demonstrates how to group reports on the basis of test 
    There are multiple actions that you can take on these results. These actions can be initiated via the buttons available on the top right column of the results column as also shown in the screenshot below:
 
    ![Other options to filter and search test suite results in Testsigma](https://docs.testsigma.com/images/test-suite-reports/test-suite-results-other-options-to-filter-search-testsigma.png)
+---
 
 ## These actions are:
 1. **Search the results:** the run results can be filtered by name here

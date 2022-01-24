@@ -15,11 +15,13 @@ contextual_links:
   url: "#steps-to-follow"
 ---
 Testsigma offers webhooks for triggering Testsigma Test Plan Executions remotely from any third-party tool that provides a Command Line Interface (CLI). In this guide, we will see how we can integrate Testsigma in Travis CI for automatically triggering Test Executions. These test executions will be triggered as part of the build generation triggers that you have. Then, we will also configure it to wait for the tests to complete execution and then check if they passed, before proceeding to deployment.
- 
+ ---
+
 ## **Pre-requisite:**
  Before we begin, you will need:
  - A Travis CI Account with connected Source Code Management
  - A CI/CD pipeline in Travis CI. Please check with your DevOps team if you need help with this. 
+---
 
 ## **Steps to follow:**
 Below we will cover the steps in 3 parts:

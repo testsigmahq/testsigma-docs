@@ -19,10 +19,14 @@ contextual_links:
 You can reorder the test steps that you record through Testsigma’s Recorder. This document will discuss how to do that.
 
 &emsp;
+---
+
 ## **Pre-requisites:**
 You should be familiar with [Testsigma Recorder](https://testsigma.com/docs/test-cases/create-steps-recorder/ios-apps/overview/).
 
 &emsp;
+---
+
 ## **How to reorder recorded test steps:**
 
 1. Create a Test Case using Testsigma Recorder. Make sure to have multiple test steps.

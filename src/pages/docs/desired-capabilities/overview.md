@@ -30,6 +30,7 @@ Desired Capabilities are a set of properties used for customizing the Test Envir
 Desired Capabilities are added while selecting the Test Environment in Testsigma. Here's a list of [Sample Desired Capabilities](https://testsigma.com/docs/desired-capabilities/most-common/) in Testsigma:
 
 In this document, we will cover how to use these capabilities in Ad Hoc Run, Quick Run, and Normal Execution. To do this, you should already know how to [Create Ad Hoc Runs](https://testsigma.com/docs/runs/adhoc-runs/) and [Create Test Plans.](https://testsigma.com/docs/test-management/test-plans/overview/)
+---
 
 ## **Adding Desired Capabilities in Adhoc Run**
 **Navigation: Test Development > Test Cases**
@@ -41,6 +42,7 @@ Click on the Desired Capabilities link to reveal the Desired Capabilities field 
 ![Create Ad-hoc Run](https://docs.testsigma.com/images/desired-capabilities/create-adhoc-run-desired-caps.png)
 
 Enter one or more desired capabilities set as mentioned in the below section - ‘Desired Capabilities Format’
+---
 
 ## **Adding Desired Capabilities in Test Plan**
 **Navigation: Test Development > Test plan**
@@ -52,6 +54,7 @@ On the second page - ‘Test Machines and Suite Selection’, click on the Desir
 ![Create Test Plan Desired Capability](https://docs.testsigma.com/images/desired-capabilities/create-testplan-desired-caps.png)
 
 Enter one or more desired capabilities set as mentioned in the below section - ‘Desired Capabilities Format’
+---
 
 ## **Desired Capabilities Format**
 
@@ -67,12 +70,14 @@ For example, we can allow invalid certificates for a webpage using the ‘accept
 |Name|Data Type|Value|
 |---|---|---|
 |acceptInsecureCerts|boolean|True|
+---
 
 ## **Removing Desired Capabilities from Test Environment**
 
 While editing a Test Plan or Ad-hoc Run Configuration, click on the delete button(trash icon) towards the right of the desired capability row to remove the corresponding row of desired capability.
 
 ![Create Test Plan Remove Desired Capability](https://docs.testsigma.com/images/desired-capabilities/create-testplan-remove-desired-caps.png)
+---
 
 ## **Available Capabilities**
 

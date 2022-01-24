@@ -58,6 +58,7 @@ Select Project > Project Settings > Test Case Types
   ![test case types menu](https://docs.testsigma.com/images/test-case-types/test-case-types-menu.png)
 
 &emsp;
+---
 
 ## **Add a new Test Case Type**
 
@@ -78,6 +79,7 @@ Here’s how a new test case type can be added to a Testsigma project:
   ![ add new test case type](https://docs.testsigma.com/images/test-case-types/add-new-test-case-type.png)
 
 &emsp;
+---
 
 ## **Delete a Test Case Type**
 
@@ -86,6 +88,7 @@ Hover over the test case type you want to delete and click on the Delete icon th
   ![ test case type delete button](https://docs.testsigma.com/images/test-case-types/test-case-type-delete-button.png)
 
 &emsp;
+---
 
 ## **Edit a Test Case Type**
 
@@ -105,6 +108,7 @@ Hover over the test case type you want to delete and click on the Delete icon th
   ![view and add test case types](https://docs.testsigma.com/images/test-case-types/view-and-add-test-case-types.gif)
 
 &emsp;
+---
 
 ## **Assign a Test Case Type to a Test Case**
 

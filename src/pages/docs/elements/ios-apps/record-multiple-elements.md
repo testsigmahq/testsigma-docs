@@ -24,6 +24,7 @@ contextual_links:
 When automating test cases for an iOS application, you may sometimes want to capture multiple elements from the application in one go. Let’s see how to do that in Testsigma.
 
 <br>
+---
 
 ## **Pre-requisites** 
 
@@ -39,6 +40,7 @@ See uploading apps to Testsigma.
 **Test Development > Element**
 
 <br>
+---
 
 ## **How to record multiple elements for an iOS project in Testsigma**
 

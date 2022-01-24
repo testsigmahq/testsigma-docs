@@ -30,6 +30,7 @@ You can configure your Test Plans to run in parallel at any time. However, the n
 |You should already know how to [List/Create/Edit/Delete Test Plans](https://testsigma.com/docs/test-management/test-plans/overview/).
 
 &emsp;
+---
 
 ## **Configure tests to run in parallel while creating a new Test Plan**
 1. On the Test Plan page, click on the +Test Plan button:
@@ -64,6 +65,7 @@ You can configure your Test Plans to run in parallel at any time. However, the n
 2.  Now whenever you execute this test plan, all the selected test suites for the test plan will run in parallel in different instances of the selected test machines.  
 
 &emsp;
+---
 
 ## **Configure tests to run in parallel with editing an existing Test Plan**
 On the Test Plans page, click on a Test Plan name to open the details page for that Test Plan, the Test Plan Details page will look something like this:

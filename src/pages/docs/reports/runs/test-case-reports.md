@@ -18,6 +18,7 @@ contextual_links:
   url: "#these-actions-are"
 ---
 ---
+---
 
 ## **Navigation:** Select Project > Test Development > Run Results
 
@@ -27,6 +28,7 @@ Here is a quick gif that demonstrates how to group reports on the basis of test 
 
 ![gif to access test case reports in Testsigma](https://docs.testsigma.com/images/test-case-reports/gif-get-test-case-reports-testsigma.gif)
 
+---
 
 ## **How to generate Test Case Reports:**
 
@@ -48,6 +50,7 @@ Here is a quick gif that demonstrates how to group reports on the basis of test 
    There are multiple actions that you can take on these results. These actions can be initiated via the buttons available on the top right column of the results column as also shown in the screenshot below:
 
    ![Other options to filter and search test case results in Testsigma](https://docs.testsigma.com/images/test-case-reports/test-case-results-other-options-to-filter-search-testsigma.png)
+---
 
 ## These actions are:
 1. **Search the results:** the run results can be filtered by name here

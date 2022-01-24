@@ -15,12 +15,14 @@ contextual_links:
   url: "#steps-to-follow"
 ---
 Testsigma offers webhooks for triggering Testsigma Executions remotely from any third-party tool that provides a Command Line Interface (CLI). In this guide, we will see how we can integrate Testsigma in CircleCI for automatically triggering Test Executions after some code is changed on your code repository. We will also configure it to wait for the tests to complete execution and then check if they passed, before proceeding to deployment.
- 
+ ---
+
 ## **Pre-requisite:**
 
 >Before we begin, you will need:
 >- A CircleCI Account with connected Source Code Management (SCM) tool (Github, Azure, etc.)
 > - A CI/CD pipeline set up in CircleCI. Please check with your DevOps team if you need help with this.
+---
 
 ## **Steps to follow:**
 We will complete the integration in 3 parts:

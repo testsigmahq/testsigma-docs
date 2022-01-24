@@ -17,6 +17,7 @@ contextual_links:
 ---
 
 Microsoft Azure, aka Azure, is a cloud computing service created by Microsoft for building, testing, deploying, and managing applications and services through Microsoft-managed data centers.
+---
 
 ## **Prerequisites:** 
 1. **API key for Azure:** To generate this, follow the below steps:
@@ -28,6 +29,7 @@ Microsoft Azure, aka Azure, is a cloud computing service created by Microsoft fo
 	2. On the Test Plan details page that opens, click on the CI-CD integration tab. 
 	3. You will find the execution ID for the Test Plan within the ‘REST API call to start Test Plan’ body content as shown in the screenshot below:
 ![get test plan id](https://docs.testsigma.com/images/azure-devops/get-test-plan-id.png)
+---
 
 ## **How to integrate with Azure DevOps**
 **Step 1: Create/Select a Pipeline**

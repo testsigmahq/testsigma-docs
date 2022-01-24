@@ -17,7 +17,8 @@ AWS services that are used as a part of CI/CD pipeline are:
 **CodeBuild:** CodeBuild compiles your source code, runs unit tests, and produces artifacts that are ready to deploy.
 **CodeDeploy:** AWS CodeDeploy is a deployment service that enables developers to automate the deployment of applications to instances and to update the applications as required.
 
- 
+ ---
+
 ## **AWS DevOps integration methods:**
 
 Below are the 2 methods to integrate and trigger Testsigma tests via AWS DevOps:

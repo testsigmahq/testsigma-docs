@@ -24,6 +24,7 @@ contextual_links:
 In an Android project in Testsigma, you can selectively capture elements one at a time using the Testsigma mobile inspector. 
 
 <br>
+---
 
 ## **Pre-requisites**
 1. You should have an android project in Testsigma. See [creating a project](https://testsigma.com/docs/projects/overview/).
@@ -36,6 +37,7 @@ In an Android project in Testsigma, you can selectively capture elements one at 
 **Test development > Elements**
 
 <br>
+---
 
 ## **How to create one element at a time using the Testsigma mobile inspector for an android project in Testsigma**
 

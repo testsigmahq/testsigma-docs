@@ -25,6 +25,7 @@ In Testsigma, one of the ways we can automate the testing of dynamic elements is
 You should be familiar with [Runtime Test Data](https://testsigma.com/docs/test-data/types/runtime/).
 
 <br>
+---
 
 ## **Case Study - OrangeHRM**
 
@@ -37,6 +38,7 @@ Here, we will be using a popular application such as OrangeHRM for our demonstra
 6. **Verify that an element with the text 'Welcome ' followed by the stored user name is displayed on the page**<br>
 
 <br>
+---
 
 ## **Actual Steps - Implementation**
 1. **Navigate to https://opensource-demo.orangehrmlive.com**<br>
@@ -64,6 +66,7 @@ Verify that an element(welcome_ username_ link) with dynamic XPath containing th
 ![OrangeHRM Dashboard with Chrome Devtools elements tab focusing login avatar on the right side](https://docs.testsigma.com/images/with-runtime-test-data/orangehrm-dashboard-page-source-login-avatar.png)
 
 <br>
+---
 
 ## **Creating Dynamic Elements using run-time test data**
 In step #6, we are verifying that the page displays an Element 'welcome_ username_ link' containing text 'Welcome Admin'. Here, 'Admin' is the username that we got from the 'Username' field in step #4. 

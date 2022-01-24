@@ -33,6 +33,7 @@ You will also need to make sure that:
 
 <br>
 
+---
 
 ## **Enable USB debugging mode in your Mobile devices**
 
@@ -51,6 +52,7 @@ Some devices do not have “Developer Options” under Settings. In such cases, 
 
 <br>
 
+---
 
 ## **Verify that your system recognizes a Device using ADB (Android Debug Bridge)**
 

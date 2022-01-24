@@ -20,6 +20,7 @@ contextual_links:
 Every test step in the test authoring interface has a few settings which help you make necessary modifications during test step creation. For example, increase or decrease the default wait time specifically for the current step, or disable the test step, or make it mandatory, etc.
 
 &emsp;
+---
 
 ## **Prerequisites** 
 
@@ -30,6 +31,7 @@ This document assumes that you know how to create a test case, if not, refer to 
 **Navigate to** Project > Test Development > Test Case > Create Test Case
 
 &emsp;
+---
 
 ## **Change Test Step Stettings**
 

@@ -20,11 +20,13 @@ contextual_links:
 You can add steps before and after a test step for a web project. In this document, we will discuss how to do that via the Testsigma test step recorder.
 
 &emsp;
+---
 
 ## **Pre-requisites:**
 You should know how to [Record test steps via Testsigma’s test step recorder(chrome extension)](https://testsigma.com/docs/test-cases/create-steps-recorder/web-apps/overview/)
 
 &emsp;
+---
 
 ## **Adding a step before and after a previously added test step in a web project**
 

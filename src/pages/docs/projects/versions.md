@@ -32,6 +32,7 @@ Consider a scenario where you have written 10 automated UI Tests for your App ve
 In this case, you can simply make a Version copy of **v1.0.0** in Testsigma and rename that copied version to **v1.0.0-beta**. This copies your existing 10 tests to the **v1.0.0-beta** version and you can add the new tests for the beta version in this. The subsequent changes you make in **v1.0.0-beta** don’t affect your existing tests in the old version **v1.0.0**.
 
 Navigate to **Project Settings > Applications > Versions** to check details about all the Versions that are available in the current Project and Application.
+---
 
 ## **I. Enabling version tracking**
 
@@ -50,6 +51,7 @@ Alternatively, you can go to **Project settings > Edit** and click on “Enable 
 Once the Versions menu is enabled, you will be able to see all the Versions created under the specific Application as shown in the screenshot below.
 
 ![versions created under a specific application for a project in Testsigma](https://docs.testsigma.com/images/versions/versions-for-an-application-project-Testsigma.png)
+---
 
 ## **II. Create Application Version**
 
@@ -64,6 +66,7 @@ You will see the following elements i.e, Version Name, a Description, Start and 
 Once you click on **create** button, you will be able to view your created version in the **versions column** as shown below.
 
 ![view created versions for a specific application for a project in Testsigma](https://docs.testsigma.com/images/versions/view-created-versions-for-an-application-project-Testsigma.png)
+---
 
 ## **III. Edit Version**
 
@@ -77,6 +80,7 @@ Click on the Edit button (pencil icon beside version name) for the Application V
 ![edit version form of an application for a project in Testsigma](https://docs.testsigma.com/images/versions/edit-version-form.png)
 
 Make the required changes and click on the Update button to save the changes.
+---
 
 ## **IV. Delete Version**
 
@@ -94,6 +98,7 @@ Click on the Delete button (trash icon beside version name) for the Application 
 
 
 If you still want to delete the Application Version, confirm the Application Version deletion in the dialog box.
+---
 
 ## **V. Cloning of Version**
 

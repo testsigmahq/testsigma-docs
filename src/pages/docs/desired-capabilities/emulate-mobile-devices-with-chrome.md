@@ -21,6 +21,7 @@ contextual_links:
 ---
 
 Chrome Browser provides a built-in feature to emulate mobile device screen resolutions. This can be useful for testing the responsiveness of your website on mobile devices, without the time and effort required to set up a full mobile automation system. You can test for mobile even without a dedicated device.
+---
 
 ## **Obtaining the device name**
 
@@ -44,6 +45,7 @@ For instance, we can select the device "iPad" from the list as shown above and i
 You can use the name of any of the above-given default devices while automating Tests on Testsigma. 
 
 This is possible by specifying the device name in the Desired Capabilities while defining a Test Environment as shown in the next section.
+---
 
 ## **Using available Devices for emulation**
 
@@ -58,6 +60,7 @@ Select the latest version of Google Chrome for your preferred OS and enter the f
 On execution, it will display as mobile device view as shown here:
 
 ![Chrome Dev tools Default device Mobile view](https://docs.testsigma.com/images/emulate-mobile-devices-with-chrome/chrome-dev-tools-default-device-mobile-view.png)
+---
 
 ## **Advanced: Using a Custom Device for emulation**
 

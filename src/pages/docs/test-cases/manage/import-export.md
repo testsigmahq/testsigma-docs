@@ -32,6 +32,7 @@ You can use test case import and export to populate a new Testing Project with p
 |2. If you are trying to create new Test Cases in bulk, make sure to clear both the ID and UUID columns.
 
 &emsp;
+---
 
 ## **Import File Format**
 
@@ -63,6 +64,7 @@ The Import file has the following Columns:
 |A Sample Test Case Import Template file has been provided in the Test Case Import dialog
 
 &emsp;
+---
 
 ## **Import Test Cases**
 
@@ -84,6 +86,7 @@ From the Test Cases list, click on the Import button on the top right corner to 
   If the import has failed due to some reason, you will receive an email with the reason for the failure.
 
 &emsp;
+---
 
 ## **Export Test Case**
 

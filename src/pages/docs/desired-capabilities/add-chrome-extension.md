@@ -22,6 +22,7 @@ You can add a Chrome Extension to your Automation Session in 2 simple steps:
 1.Obtain the CRX/CRX3 file for the extension/s and get the path.
 
 2.Specify the Extensions path in the Desired Capabilities.
+---
 
 ## **Obtaining the CRX file for the extension**
 
@@ -33,6 +34,7 @@ You can add a Chrome Extension to your Automation Session in 2 simple steps:
 
 ![chrome extension to install for recording your test steps with Testsigma](
 https://docs.testsigma.com/images/add-chrome-extension/chrome-extension-to-install-testsigma.png)
+---
 
 ## **Specify the Extensions path in the Desired Capabilities**
 

@@ -20,11 +20,13 @@ contextual_links:
 ---
 
 ---
+---
 
 ## **Introduction**
 In this document, we will discuss how to create elements manually for your android project in Testsigma i.e. without the use of a mobile inspector.
 
 <br>
+---
 
 ## **Pre-requisites**
 1. You should have an android project in Testsigma. See [creating a project](https://testsigma.com/docs/projects/overview/).
@@ -36,6 +38,7 @@ In this document, we will discuss how to create elements manually for your andro
 **Test Development > Elements**
 
 <br>
+---
 
 ## **How to create elements manually for an android project in Testsigma**
 1. Go to your android project, then go to Test Development > Elements.

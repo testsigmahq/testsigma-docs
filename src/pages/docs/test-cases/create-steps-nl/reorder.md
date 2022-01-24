@@ -20,6 +20,7 @@ contextual_links:
 You can reorder test steps in a test case. Here’s how.
 
 &emsp;
+---
 
 ## **Pre-requisites:**
 
@@ -29,6 +30,7 @@ You should already know how to
  2. [create test steps.](https://testsigma.com/docs/test-cases/create-steps-nl/overview/)
 
 &emsp;
+---
 
 ## **Steps to follow**
 

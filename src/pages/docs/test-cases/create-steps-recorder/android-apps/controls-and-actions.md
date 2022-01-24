@@ -60,6 +60,7 @@ contextual_links:
 Testsigma Recorder lets you generate test steps automatically in plain English, by recording your actions in the application UI. For this, we need some control options. This document contains information about the control options and actions available in Testsigma’s Test Recorder for recording test steps. 
 
 &emsp;
+---
 
 ## **Pre-requisites**:
 
@@ -74,6 +75,8 @@ This document assumes that you know how to:
 Given below are the controls and actions available in Testsigma’s test step recorder:
  
  &emsp;
+---
+
 ## **1. Mirroring Mode**
 
  This mode enables the device screen mirroring and you can interact in real-time with the device.
@@ -81,6 +84,7 @@ Given below are the controls and actions available in Testsigma’s test step re
 ![mirroring mode for android step recorder in Testsigma](https://docs.testsigma.com/images/controls-and-actions/mirroring-mode-android-step-recorder.png)
 
 &emsp;
+---
 
 ## **2. Inspection Mode**
  This mode is used for capturing the element details.
@@ -93,6 +97,7 @@ Given below are the controls and actions available in Testsigma’s test step re
 ![tap option on selected elements via android step recorder in Testsigma](https://docs.testsigma.com/images/controls-and-actions/tap-option-selected-elements-android-step-recorder.png)
 
 &emsp;
+---
 
 ## **3. Do Swipe Action**
   For performing any swipe action in the application.
@@ -104,6 +109,7 @@ Given below are the controls and actions available in Testsigma’s test step re
 ![do swipe action on android step recorder in Testsigma](https://docs.testsigma.com/images/controls-and-actions/do-swipe-action-android-step-recorder.png)
 
 &emsp;
+---
 
 ## **4. Do click Action**
  For clicking on elements in the application.
@@ -120,6 +126,7 @@ Given below are the controls and actions available in Testsigma’s test step re
 ![go back to previous page on android step recorder in Testsigma](https://docs.testsigma.com/images/controls-and-actions/go-back-android-step-recorder.png)
 
 &emsp;
+---
 
 ##  **6. Home**
  For going to the device home screen.
@@ -127,6 +134,7 @@ Given below are the controls and actions available in Testsigma’s test step re
 ![go to homepage for android step recorder in Testsigma](https://docs.testsigma.com/images/controls-and-actions/go-to-homepage-android-step-recorder.png)
 
 &emsp;
+---
 
 ## **7. Refresh Screenshot**
  For refreshing the current application page.
@@ -134,6 +142,7 @@ Given below are the controls and actions available in Testsigma’s test step re
 ![refresh screenshot for android step recorder in Testsigma](https://docs.testsigma.com/images/controls-and-actions/refresh-screenshot-android-step-recorder.png)
 
 &emsp;
+---
 
 ## **8. Change to Landscape/Portrait mode**
 
@@ -142,6 +151,7 @@ Changes the screen orientation to Landscape/Portrait mode.
 ![change screen orientation on android step recorder in Testsigma](https://docs.testsigma.com/images/controls-and-actions/change-screen-orientation-android-step-recorder.png)
 
 &emsp;
+---
 
 ##  **9. Search Element**
  To search for a particular element by its XPATH, Accessibility id, id, etc.
@@ -155,11 +165,13 @@ Changes the screen orientation to Landscape/Portrait mode.
 ![android step recorder in Testsigma](https://docs.testsigma.com/images/controls-and-actions/search-element-by-type-android-step-recorder.png)
 
 &emsp;
+---
 
 ## **10. Switch to Native view**
 Switches the app to the native view context.
 
 &emsp;
+---
 
 ## **11. Switch to hybrid view**
  Switches to the web view context for hybrid apps.
@@ -170,6 +182,7 @@ Switches the app to the native view context.
  To tap on an element in the application UI.
 
 &emsp;
+---
 
 ##  **13. Enter data**
 To enter any data in the application text box.
@@ -178,6 +191,7 @@ To enter any data in the application text box.
  * Click on Enter data.
 
 &emsp;
+---
 
 ##  **14. Clear**
  To clear a value displayed in the text box in the application UI.

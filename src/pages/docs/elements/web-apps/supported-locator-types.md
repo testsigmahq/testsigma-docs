@@ -37,6 +37,7 @@ contextual_links:
 Webpages offer a bunch of location mechanisms to search and locate Elements on the page for interacting with it. The most prominent ones are XPath and CSS Selectors.
 
 <br>
+---
 
 ## **Locators supported by Testsigma to create Elements**
 * XPath<br>
@@ -48,6 +49,7 @@ Webpages offer a bunch of location mechanisms to search and locate Elements on t
 * Tag Name<br>
 
 ![Create Element Locator Type Dropdown](https://docs.testsigma.com/images/supported-locator-types/create-element-locator-dropdown.png)
+---
 
 ## **1. XPath**
 
@@ -64,6 +66,7 @@ Learn how to create [Dynamic Element locators](https://testsigma.com/docs/elemen
 
 <br>
 
+---
 
 ## **2. CSS Selector**
 
@@ -80,6 +83,7 @@ Learn how to create [Dynamic Element locators](https://testsigma.com/docs/elemen
 
 <br>
 
+---
 
 ## **3. Link Text & Partial Link Text**
 
@@ -93,6 +97,7 @@ Link text of the element is **“Forgot password?”**
 Partial link text of the element can be “Forgot”, “password”, or “For”
 
 <br>
+---
 
 ## **4. ID**
 
@@ -105,6 +110,7 @@ The ID of the element is **“email”**
 
 <br>
 
+---
 
 ## **5. Name**
 
@@ -117,6 +123,7 @@ The name of the element is **“userName”**
 
 <br>
 
+---
 
 ## **6. Class Name**
 
@@ -129,6 +136,7 @@ The class name of the element is **“inputtext”**
 
 <br>
 
+---
 
 ## **7. Tag Name**
 

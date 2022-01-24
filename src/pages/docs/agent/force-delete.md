@@ -26,6 +26,7 @@ Click on the Testsigma Agent icon to reveal the menu and click on the Quit optio
 4. Delete agent.properties file.
 
 <br>
+---
 
 ## **Location of Testsigma Agent Configuration file (agent.properties)**
 

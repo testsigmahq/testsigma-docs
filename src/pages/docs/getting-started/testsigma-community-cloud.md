@@ -22,6 +22,8 @@ Testsigma community and engineering team.
 * **Testsigma Discord Community:** Connect with some of the most experienced and creative test automation practitioners across the world.
 
 &emsp;
+---
+
 ## **Registering for Testsigma Community Cloud**
 In your **Testsigma Application:**<br>
 &emsp;**-**&emsp;Go to Settings<br>

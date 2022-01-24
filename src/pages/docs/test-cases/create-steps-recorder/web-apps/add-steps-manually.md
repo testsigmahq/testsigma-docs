@@ -20,6 +20,7 @@ contextual_links:
 You can manually add test steps to a test case that you recorded using the Testsigma test step recorder chrome extension. 
 
 &emsp;
+---
 
 ## **Pre-requisites:**
 
@@ -29,6 +30,7 @@ You should already know how-to, or have:
  2. [record test steps via the Testsigma test recorder.](https://testsigma.com/docs/test-cases/create-steps-recorder/web-apps/overview/)
 
 &emsp;
+---
 
 ## **Steps to follow:**
 

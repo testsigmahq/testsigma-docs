@@ -17,10 +17,12 @@ contextual_links:
 ---
 
 Testers may need to rerun failed test cases, or all test cases from a particular test run result, after a hotfix or a change in environment. Here’s how you can rerun test cases from test run results in Testsigma.
+---
 
 ## **Pre-requisites:**
 
 You should have some run results where some test cases have failed.
+---
 
 ## **Steps to follow:**
 

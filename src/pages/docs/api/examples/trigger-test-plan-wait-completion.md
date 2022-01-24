@@ -25,6 +25,7 @@ You should already be familiar with creating and running Test Plans. See [Manage
 
 [[info | NOTE:]]
 | You need to authenticate these requests with your Testsigma API Key.  To know more about obtaining API Keys, refer - [How to generate API Keys](https://testsigma.com/docs/configuration/api-keys/)
+---
 
 ## **Checking the Test Run Results**
 
@@ -47,6 +48,7 @@ We can poll the Test Plan Execution Results API with this Run ID at regular inte
 6. If yes, check the ‘result’ key to get the Test Plan Result.
 
 We have provided the Powershell and Bash scripts for the same below. Please feel free to make changes as required and plug the same into your CI Pipeline.
+---
 
 ## **Powershell script**
 
@@ -175,6 +177,7 @@ saveFinalResponseToAFile
 
 
 
+---
 
 ## **Bash Script**
 

@@ -21,6 +21,7 @@ contextual_links:
 ---
 ---
 You may run into the following issues while setting up Testsigma CE using Docker:
+---
 
 ## **Ports Unavailable**
 
@@ -36,6 +37,7 @@ To kill a previous version of Testsigma running on these ports, run the followin
 * docker container kill $(docker ps -q)
 
 <br>
+---
 
 ## **Unable to access Testsigma**
 
@@ -43,6 +45,7 @@ To kill a previous version of Testsigma running on these ports, run the followin
 * Try accessing the https://local.testsigmaos.com/ui after 3 minutes.
 
 <br>
+---
 
 ## **Unable to start Docker Desktop [ Windows ]**
 

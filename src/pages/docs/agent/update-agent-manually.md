@@ -25,6 +25,7 @@ Given below are the steps to be followed in order to update the Agent to the lat
 
 <br>
 
+---
 
 ## **For Windows**
 
@@ -47,6 +48,7 @@ Else, skip to Step 3.
 
 <br>
 
+---
 
 ## **For Mac/Linux**
 If the Testsigma Agent is already running, we need to stop it before updating the Agent. You will  see a Testsigma Agent icon in the Status bar if it is already running. 

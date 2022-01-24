@@ -29,6 +29,7 @@ Once the “Applications” tab is enabled, you will be able to see all the appl
 ![Application tab selected in Project Settings](https://docs.testsigma.com/images/applications/project-settings-applications-tab.png)
 
 &emsp;
+---
 
 ## **Create Application**
 You can also create a new Application with a certain type from the Project Settings > Applications page.
@@ -43,6 +44,7 @@ You can also create a new Application with a certain type from the Project Setti
 3. Choose the application type - Web, Mobile Web, Android Native, iOS Native, or Rest API and click on Create
 
 &emsp;
+---
 
 ## **Edit Application**
 Navigate to the Application screen by going through **Project Settings > Applications** Tab and selecting the specific Application from the Applications list.
@@ -53,6 +55,7 @@ Click on the Edit button (pencil icon) for the Application (marked area) to open
 Make the required changes and click on the Update button to save the changes.
 
 &emsp;
+---
 
 ## **Delete Application**
 ![Edit Application](https://docs.testsigma.com/images/applications/edit-application.png)

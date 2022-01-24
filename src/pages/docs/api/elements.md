@@ -18,6 +18,7 @@ contextual_links:
 ---
 [[info | NOTE:]]
 | You need to authenticate these requests with your Testsigma API Key.  See  [How to generate API Keys.](https://testsigma.com/docs/configuration/api-keys/)
+---
 
 ## **Element parameters**
 
@@ -38,6 +39,7 @@ Before we check the actual requests, let’s go through some Element properties 
 - **applicationVersionId:** ID of Version where the Element is to be created
 
 - **createdType:** Creation Mode of the Element. Either ‘Chrome’, ‘Advanced’, or ‘Manual’
+---
 
 ## **API Specification**
 ### **Get Elements**

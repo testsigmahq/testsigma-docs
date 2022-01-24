@@ -20,12 +20,14 @@ contextual_links:
 Sometimes, when you update your website or application, you’ll also want to update the corresponding elements in your automated test project. In this document, we will discuss how to do that using the Testsigma test recorder.
 
 &emsp;
+---
 
 ## **Pre-requisites:**
 
 You should already know how to [capture elements.](https://testsigma.com/docs/elements/web-apps/record-multiple-elements/)
 
 &emsp;
+---
 
 ## **Updating elements via Testsigma’s test recorder chrome extension**
 

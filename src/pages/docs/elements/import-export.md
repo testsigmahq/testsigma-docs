@@ -32,6 +32,7 @@ Another less common application is when we want to load the Test locators for th
 *If you are trying to create new Elements in bulk, make sure to clear both the UUID columns.*
 
 <br>
+---
 
 ## **Import File Format**
 The Import file has the following Columns:
@@ -49,6 +50,7 @@ The Import file has the following Columns:
 |A Sample Element Import Template file has been provided in the Element Import dialog.
 
 <br>
+---
 
 ## **Import Elements**
 From the Elements page, click on the Import button to open the Import Element Dialog which appears as shown below:
@@ -72,6 +74,7 @@ From the Elements page, click on the Import button to open the Import Element Di
 It will show a success message saying that the import has started. The Elements will be imported in the background and you will receive an Email once the Import process is complete.
 
 <br>
+---
 
 ## **Export Elements**
 From the Elements page, click on the Export button to export all the Elements to a Spreadsheet file.

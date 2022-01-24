@@ -25,6 +25,7 @@ Refer to [create an Environment parameter](https://testsigma.com/docs/test-data/
 ![Create Environment](https://docs.testsigma.com/images/environment/create-environment.gif)
 
 To know how to use different test data types in Test Steps, refer to [Creating Test Steps using simple English](https://testsigma.com/docs/test-cases/step-types/natural-language/)
+---
 
 ## **Use Environment parameter in test steps**
 

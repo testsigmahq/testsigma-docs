@@ -20,12 +20,14 @@ contextual_links:
 While creating web or mobile application test cases, you can include REST API related test steps within them as well. You can also create a REST API standalone testing project.
 
 &emsp;
+---
 
 ## **Prerequisites**
 
 This document is written with the assumption that you know how to create a test case, if not, please refer to the document [here](https://testsigma.com/docs/test-cases/manage/add-edit-delete/).
 
 &emsp;
+---
 
 ## **How to Add REST API Step**
 

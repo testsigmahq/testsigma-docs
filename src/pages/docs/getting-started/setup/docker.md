@@ -37,10 +37,12 @@ contextual_links:
 This Docker compose setup runs [Testsigma server](https://github.com/testsigmahq/testsigma) along with MySQL using 
 
 ` "docker-compose" `
+---
 
 ## **Pre-requisites**<br>
   * [Docker](https://docs.docker.com/install/)
   * [Docker Compose](https://docs.docker.com/compose/install/)
+---
 
 ## **Setting up Testsigma Community Edition with Docker**
 
@@ -73,6 +75,7 @@ CONTAINER ID        &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;IMAGE             
 You should see a message: “Testsigma is Running!” once the container is ready.
 
 Your Testsigma server should be up and running now. Testsigma server will be accessible at https://local.testsigmaos.com/ui
+---
 
 ## **Verifying the installation**
 
@@ -110,6 +113,7 @@ Login to https://local.testsigmaos.com/ui and follow the steps mentioned here([S
   `
   4. Verify the status by running `$docker ps` command
   5. Now login to check the updated version of Testsigma Server here  https://local.testsigmaos.com/ui
+---
 
 ## **Update to new Version(Testsigma Agent)**
 
@@ -122,10 +126,12 @@ Login to https://local.testsigmaos.com/ui and follow the steps mentioned here([S
 [[info | NOTE:]]
 | If you are facing any issues after updating Testsigma Agent refer to [Agent - Startup and Registration Errors](https://testsigma.com/docs/agent/troubleshooting/setup-issues/) . <br>
 | If you are still facing the issue, delete the [agent manually](https://testsigma.com/docs/agent/force-delete/) and install again.
+---
 
 ## **Troubleshooting**
 
 If you encounter any errors during this process, check out our guide on [debugging deployment errors](https://testsigma.com/docs/troubleshooting/setup/server-docker-deployment-errors/). If you are still facing any issue, please reach out to [support@testsigma.com](mailto:support@testsigma.com) or join our [Discord Server](https://discord.com/invite/5caWS7R6QX) to speak to the Testsigma team directly!
+---
 
 ## **Next Steps**
 

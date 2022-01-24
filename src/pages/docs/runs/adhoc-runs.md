@@ -20,6 +20,7 @@ contextual_links:
 Ad-hoc runs are used to verify the correctness of the Test Steps in a Test Case before finalizing the Test Cases for deployment. They are called Ad Hoc runs as they can run at any time you need to verify their correctness.
 
 &emsp;
+---
 
 ## **Pre-requisites:** 
 You should already know how to:
@@ -28,6 +29,7 @@ You should already know how to:
 2. create test steps [using NLP](https://testsigma.com/docs/test-cases/step-types/natural-language/) and [using Testsigma Test recorder](https://testsigma.com/docs/test-cases/create-steps-recorder/web-apps/overview/).
 
 &emsp;
+---
 
 ## **How to perform ad-hoc runs for a test case in Testsigma**
 1. Create a test case and write the test steps.

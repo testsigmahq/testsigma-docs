@@ -22,6 +22,7 @@ When creating test steps using simple English in Testsigma, there are various ty
 To know more about the test data types supported in Testsigma, refer to [test data types](https://testsigma.com/docs/test-data/types/overview/).
 
 &emsp;
+---
 
 ## **Pre-requisites:**
 
@@ -31,6 +32,7 @@ This document assumes that you know how to:
  2. [Create basic test steps using Actions](https://testsigma.com/docs/test-cases/create-steps-nl/overview/).
 
 &emsp;
+---
 
 ## **Steps to follow:**
 

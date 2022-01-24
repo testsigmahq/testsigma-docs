@@ -20,6 +20,7 @@ contextual_links:
 Testsigma Step Recorder chrome extension lets you *generate* automated test scripts from a series of manual actions you take to play out a test scenario. The automated test scripts can then be run on all the available Web Browsers. 
 
 &emsp;
+---
 
 ## **Prerequisites:**
 
@@ -29,6 +30,7 @@ This document will take you through the process of creating test steps using the
  2. [create a Test case.](https://testsigma.com/docs/test-cases/manage/add-edit-delete/)
 
 &emsp;
+---
 
 ## **Recording test steps using Testsigma’s step recorder chrome extension**
  

@@ -20,10 +20,12 @@ contextual_links:
   url: "#how-do-you-use-add-ons"
 ---
 ---
+---
 
 ## **What is an add-on?**
 
 An add-on is a way to extend Testsigma’s built-in repository of actions with custom actions. These actions can be anything from “click first, then scroll, click again,” “scroll indefinitely till the bottom of the page,” and so on.
+---
 
 ## **Why do you need add-ons?**
 
@@ -34,6 +36,7 @@ Testsigma automates a diverse set of actions via its NLP Grammar, but sometimes 
 For example, the “scroll indefinitely till the bottom of the page” action is applicable to an application that has a huge list of items where the list keeps adding individual items to a list until the user scrolls to the end. Think Pinterest, or an e-commerce website listing clothes.
 
 If your test case involves scrolling to the bottom of the page to verify the copyright, you can create an add-on to automate it at scale using Testsigma. 
+---
 
 ## **How do you use add-ons?**
 

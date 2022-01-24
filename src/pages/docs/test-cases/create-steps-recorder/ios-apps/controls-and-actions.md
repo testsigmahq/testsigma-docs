@@ -17,6 +17,8 @@ contextual_links:
 Testsigma Recorder lets you generate test steps automatically in plain English, by recording your actions in the application UI. For this, we need some control options. This document contains information about the control options and actions available in Testsigma’s Test Recorder for recording test steps. 
 
 &emsp;
+---
+
 ## **Pre-requisites:**
 This document assumes that you know how to:
 

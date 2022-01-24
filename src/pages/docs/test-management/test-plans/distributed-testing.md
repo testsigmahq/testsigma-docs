@@ -34,6 +34,7 @@ When creating a new Test Plan.
 When editing an existing Test Plan.
 
 &emsp;
+---
 
 ## **When creating a new Test Plan**
 1. On the Test Plan page, click on the +Test Plan button:
@@ -72,6 +73,7 @@ Your Test Plan is now all set to run your distributed tests on the configured te
 |Once you have configured different test suites for different test machines under ‘Distributed Testing’, you won’t be able to change the Testing Type back to ‘Cross-Browser Testing’
 
 &emsp;
+---
 
 ## **When editing an existing Test Plan**
 Here, we will edit a Test Plan that was created with Test type ‘Cross-Browser Testing’ to ‘Distributed Testing’.

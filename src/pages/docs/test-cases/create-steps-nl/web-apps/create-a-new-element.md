@@ -20,6 +20,7 @@ contextual_links:
 There are times when you want to add more elements while adding test steps in a test case. Here’s how you can do that.
 
 &emsp;
+---
 
 ## **Pre-requisites**
 
@@ -29,6 +30,7 @@ We assume that you
  3. Know how to add test steps using [Actions](https://testsigma.com/docs/test-cases/create-steps-nl/overview/).
 
 &emsp;
+---
 
 ## **Steps to follow**
  1. Create a new test case or go to an existing test case. 

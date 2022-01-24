@@ -28,6 +28,7 @@ The easiest way to debug the error is to check the Logs for the Mobile Inspector
 <br>
 
 Below given are some of the most common reasons:
+---
 
 ## **1.  Invalid Activity name in Manifest (Android)**
 
@@ -48,6 +49,7 @@ The ideal solution is to make the change in the manifest and mention the same Ac
 However, until that change is made by the developers, you can work around by mentioning the activity name and package name is the second screen 'Start manually'.
 
 <br>
+---
 
 ## **2. Vendor-specific Device Customizations**
 
@@ -66,6 +68,7 @@ Some device vendors like Xiaomi, Vivo, Huawei customize the Android OS according
 6. (For Xiaomi Devices) - Turn off "MIUI optimization" and restart the device
 
 <br>
+---
 
 ## **3. Make sure the cable connection is not faulty**
 

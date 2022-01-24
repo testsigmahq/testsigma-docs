@@ -29,6 +29,7 @@ During a Local Execution, Testsigma Agent communicates with the Web Browser inst
 Sometimes, the update fails, due to bad network conditions or Firewall restrictions. You might need to manually download the driver files specific to your Web Browser and Operating System and place them in the correct directory within the Testsigma Agent directory.
 
 <br>
+---
 
 ## **Location of Driver files**
 
@@ -42,6 +43,7 @@ The Driver files are located under the following directories for the different W
 |The InternetExplorer folder is present only for Windows version of the Agent
 
 <br>
+---
 
 ## **Downloading the Driver files**
 
@@ -54,6 +56,7 @@ And here are the direct links to WebDrivers of the most popular Browsers:<br>
 [Microsoft Edge - Edge Driver](https://developer.microsoft.com/en-us/microsoft-edge/tools/webdriver/)<br>
 
 <br>
+---
 
 ## **Adding Drivers Manually**
 
@@ -81,6 +84,7 @@ Here’s a screenshot of the Agents folder for Testsigma Agent in Mac OS:
 |You can skip the next section to the end if you are on Windows Machine.
 
 <br>
+---
 
 ## **Additional Steps for Mac/Linux**
 Apart from the above steps, there are some additional steps to be performed to avoid permission issues in Mac/Linux. This is due to the presence of executable bit permission for Unix-based Operating Systems.

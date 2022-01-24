@@ -22,6 +22,7 @@ contextual_links:
 ---
 
 ---
+---
 
 ## **Introduction:**
 
@@ -30,6 +31,7 @@ Sometimes, when you update the structure of your website or application, you wil
  2. Updating multiple elements at once
 
 &emsp;
+---
 
 ## **Pre-requisites:**
 
@@ -37,6 +39,7 @@ Sometimes, when you update the structure of your website or application, you wil
  2. You should know [how to navigate the elements page.](https://testsigma.com/docs/elements/web-apps/overview/)
 
 &emsp;
+---
 
 ## **How to update one element at a time:**
 
@@ -57,6 +60,7 @@ Sometimes, when you update the structure of your website or application, you wil
 There is a radio button that lets you choose between ‘Manually’ or ‘Element Inspector’. When ‘Manually’ is selected, you can make the changes you need to make in this element on the form and click on ‘Update’ to finalize the changes. For the recorder approach, see how to [update elements using recorder](https://testsigma.com/docs/test-cases/create-steps-recorder/android-apps/update-elements/).
 
 &emsp;
+---
 
 ## **How to update multiple elements at once:**
 

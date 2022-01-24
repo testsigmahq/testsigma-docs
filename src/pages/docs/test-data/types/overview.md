@@ -51,6 +51,7 @@ Source account and Beneficiary Account numbers are test data for a fund transfer
 Similarly, a lot of test cases require a set of test data on which they would need to run. 
 Only if the test passes for all the test data inputs, the feature is considered to be bug free and moved to production. 
 
+---
 
 ## **Test Data types supported in Testsigma**
 
@@ -69,6 +70,7 @@ We will go through each data type in this document.
 This gif depicts how to use the multiple types of test data that can be created during test step creation:
 
 ![GIF test data input](https://docs.testsigma.com/images/types/gif-test-data-input.gif)
+---
 
 ## **1. Plain Text**
 
@@ -101,6 +103,7 @@ Here, the test data i.e URL is specified directly in the Test Step. This is an e
 Learn more about [Raw Test Data Type](https://testsigma.com/docs/test-data/types/raw/).
 
 
+---
 
 ## **2. Parameter** 
 
@@ -129,6 +132,7 @@ Learn more about [How to create Test Data Profiles](https://testsigma.com/docs/t
 Please refer to this tutorial for more details on performing [Data-driven Testing](https://testsigma.com/tutorials/test-cases/data-driven-testing/).
 
 
+---
 
 ## **3. Runtime** 
 
@@ -153,6 +157,7 @@ After reloading the page, the page title is checked again using the 'The page ti
 
 Learn more - [Runtime Test Data](https://testsigma.com/docs/test-data/types/runtime/)
 
+---
 
 ## **4. Environment** 
 
@@ -173,6 +178,7 @@ URL and login details for the user in different environments(Production, Testing
 ![environment test data input](https://docs.testsigma.com/images/types/environment-test-data-input.png)
 
 Learn more - [Environment Test Data](https://testsigma.com/docs/test-data/types/environment/)
+---
 
 ## **5. Random** 
 
@@ -190,6 +196,7 @@ For example, ~|25| is replaced by a 25 character long alphanumeric string while 
 An alphanumeric string of N random characters is supplied by Testsigma when it sees ~|N| in place of test data in the Test Step.
 
 Learn more - [Random Test Data](https://testsigma.com/docs/test-data/types/random/)
+---
 
 ## **6. Data Generators**
 
@@ -198,6 +205,7 @@ Test Data Generator Functions are available by default for dynamic Test Data. Th
 ![function test data input](https://docs.testsigma.com/images/types/function-test-data-input.png)
 
 Learn more - [Test Data Generator](https://testsigma.com/docs/test-data/types/data-generator/) 
+---
 
 ## **7. Phone Number** 
 
@@ -209,6 +217,7 @@ Learn more - [Phone Number Test Data](https://testsigma.com/docs/test-data/types
 
 Refer to this tutorial for more details on automating [SMS based two factor authentication](https://testsigma.com/tutorials/advanced/sms-based-two-factor-authentication-2fa) 
 
+---
 
 ## **Mailbox**
 

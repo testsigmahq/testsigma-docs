@@ -21,6 +21,7 @@ contextual_links:
 With Testsigma and Trello integration, you can push bugs directly from Testsigma to your Trello project, capture screenshots, annotate bugs, and share them with your teammates and colleagues.
 
 In this document, we will discuss how to establish Integration with Trello from your Testsigma account and how to create the first bug from Testsigma which can flow into Trello.
+---
 
 ## **Prerequisites**
 
@@ -30,6 +31,7 @@ To integrate Trello with Testsigma, you need the following information from your
 You can get both from https://trello.com/app-key
 
 You should also be familiar with [Test Plan Runs](https://testsigma.com/docs/runs/test-plan-executions/).
+---
 
 ## **Integrating Trello with Testsigma**
 
@@ -40,6 +42,7 @@ Click on the Disabled Icon on **Trello**. Trello Details overlay opens up as sho
 ![Add Trello Integration form](https://docs.testsigma.com/images/trello/add-trello-integration-form.png)
 
 Enter the details as mentioned in Prerequisites. After entering the details, click on the Create button to add the Integration.
+---
 
 ## **Creating a bug**
 

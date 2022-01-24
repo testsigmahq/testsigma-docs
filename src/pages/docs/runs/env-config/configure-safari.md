@@ -23,6 +23,7 @@ Learn more about [Ad-hoc executions using Testsigma Labs](https://testsigma.com/
 Safari provides native support for the WebDriver API starting with Safari 10 on OS X El Capitan. Safari now comes bundled with a new Driver implementation that’s maintained by the Web Developer Experience team at Apple, so now there is no need to install and maintain the Webdriver ourselves since that’s already included by Apple in Safari.
 
 &emsp;
+---
 
 ## **Configuring Safari 10.1+ to allow automation**
 Safari’s Automation support is turned off by default. To turn on Automation support, follow the steps below:
@@ -38,6 +39,7 @@ Here's a visual guide for enabling Develop Menu in Safari:
 As specified earlier, you do not need to download anything extra since everything required is pre-installed for Safari versions greater than 10.1.
 
 &emsp;
+---
 
 ## **Safari versions lower than 10.1**
 1. Go to 'Preferences' and switch to the ‘Extensions' tab to check if Selenium Driver is installed. If not installed, go to the SeleniumHQ Downloads page and download the latest release under the SafariDriver section.

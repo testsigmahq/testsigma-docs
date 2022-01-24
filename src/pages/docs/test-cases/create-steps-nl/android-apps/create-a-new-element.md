@@ -20,6 +20,7 @@ contextual_links:
 You can add new elements while you’re adding test steps to your test case manually (i.e., coding it in simple English) in an android project in Testsigma. This document will discuss how to do that.
 
 &emsp;
+---
 
 ## **Pre-requisites**
 
@@ -30,6 +31,7 @@ You should already know how to
 
 &emsp;
 
+---
 
 ## **How to create an element while adding test steps to a test case for an android project in Testsigma:**
  1. Create a test case or go to a pre-existing test case. 

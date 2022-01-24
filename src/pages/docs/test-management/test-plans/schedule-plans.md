@@ -22,6 +22,7 @@ contextual_links:
 With Testsigma, you can execute your test plans in real-time or schedule them for execution in the future. You can also set the test plans execution to be recurring. You can use this to start regression tests outside office hours so that production time is not lost and hardware resources are freely available.
 
 &emsp;
+---
 
 ## **Pre-requisites:**
 You should already know how to [create/edit/delete Test Plans](https://testsigma.com/docs/test-management/test-plans/overview/).
@@ -29,6 +30,7 @@ You should already know how to [create/edit/delete Test Plans](https://testsigma
 We will look into the process of scheduling a Test Execution for an already created Test Plan in this article.
 
 &emsp;
+---
 
 ## **Schedule a Test Plan**
 1. Go to ‘Test Case Development > Test Plans’
@@ -68,6 +70,7 @@ e. **Frequency:** How often does the test plan execute? By default, frequency is
 3. After filling up the test plan schedule details, click on the “Schedule” button. The schedule will be created according to your selections.
 
 &emsp;
+---
 
 ## **Edit Test Plan Schedule**
 1. Navigate to: “Select Project > Test Development > Test Plans”

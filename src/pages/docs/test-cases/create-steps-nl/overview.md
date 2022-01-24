@@ -29,6 +29,7 @@ The steps would be:
  4. Click on the login button
 
 &emsp;
+---
 
 ## **Creating Test Steps**
 After creating a new Test Case or opening an existing Test Case, we will be taken to the Test Case page as shown below:

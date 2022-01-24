@@ -22,11 +22,13 @@ contextual_links:
 ---
 
 ---
+---
 
 ## **Introduction**
 When automating test cases for an android application, you can capture multiple elements from the application in one go. This article covers how to do that.
 
 <br>
+---
 
 ## **Pre-requisites**
 1. You should have an android project in Testsigma. See [creating a project](https://testsigma.com/docs/projects/overview/).
@@ -39,6 +41,7 @@ When automating test cases for an android application, you can capture multiple 
 **Test Development > Elements**
 
 <br>
+---
 
 ## **How to record multiple elements for an android project in Testsigma**
 1. On the ‘All Elements’ page, click on the ‘Record’ button on the top right corner of the page:

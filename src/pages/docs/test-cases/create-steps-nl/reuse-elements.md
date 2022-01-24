@@ -20,6 +20,7 @@ contextual_links:
 When you add elements to a test case, they are saved in the corresponding project in Testsigma. These elements are reusable and can be easily used in new test steps or test cases in the same project.
 
 &emsp;
+---
 
 ## **Pre-requisites**
 
@@ -29,6 +30,7 @@ You should know how to
  2. [create a test step.](https://testsigma.com/docs/test-cases/step-types/overview/)
 
 &emsp;
+---
 
 ## **Steps to follow**
 

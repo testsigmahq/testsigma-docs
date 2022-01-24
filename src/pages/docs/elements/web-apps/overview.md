@@ -35,6 +35,7 @@ An element, in Testsigma Elements Repository, contains details that identify and
 We will be using an Element’s name in the Test Steps while writing Test Cases.
 
 <br>
+---
 
 ## **Creating Elements**
 
@@ -58,6 +59,7 @@ The Test Suites and the Test Plans containing these Test Cases can also be viewe
 2. **Sort the Elements:** The Elements list can be sorted on the basis of Name, Created Date and Update Date in ascending or descending order
 
 ![Sort Elements](https://docs.testsigma.com/images/web-apps/elements-sort.png)
+---
 
 ## **Filter Elements** 
 To filter Elements, click on the Filter icon on the top left corner of the Elements List page. In the overlay that opens up, you can see the following options for filtering the Elements:
@@ -92,11 +94,13 @@ Click on the Close button to get to the filtered list.
 Saving and updating Element Filters work the same as Test Case Filters. Refer to the [Test Case Filters](https://testsigma.com/docs/test-cases/manage/filters/) article to learn more about Filter Actions
 
 <br>
+---
 
 ## **Element Review Management**
 Larger teams can enable Review Management for the Elements so that the Elements used in the Test Cases are reviewed similar to a Test Case before finalizing and adding to the Regression Test Suite. [Learn more here](https://testsigma.com/docs/collaboration/elements-review-management/)
 
 <br>
+---
 
 ## **Dynamic Elements with Test Data**
 Some advanced use-cases call for Elements with dynamic locators. A few of them are listed below:
