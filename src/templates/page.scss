@@ -1,0 +1,533 @@
+@import '../components/variables';
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+html{
+  overflow: hidden;
+  height: 100%;
+}
+
+* {
+  font-size: 15px;
+  font-family:'Source Sans Pro',Helvetica,Arial,sans-serif;
+  color: #183247;
+}
+
+body{
+  //overflow: auto;
+  overflow-x: hidden;
+  height: 100%;
+}
+.doc-page {
+
+  h2 > * {
+    font-size: 25px;
+  }
+
+  img {
+    position: relative;
+    max-width: 100%;
+    height: auto;
+    width: 100%;
+    min-height: 50px;
+    line-height: 2;  
+    text-align: center;
+    background: #f4f4f4;
+    padding: 16px;
+    margin: 16px 0;
+    border-radius: 4px;
+  
+    &::before {  
+      content: " ";
+      display: block;
+    
+      position: absolute;
+      top: -10px;
+      left: 0;
+      height: calc(100% + 10px);
+      width: 100%;
+      background-color: rgb(249, 250, 251);
+      border: 2px dotted rgb(200, 200, 200);
+      border-radius: 5px;
+    }
+    
+    &::after {  
+      content: " ☹ " " Broken Image of " attr(alt);
+      display: block;
+      font-size: 16px;
+      font-style: normal;
+      color: rgb(0, 0, 0);
+    
+      position: absolute;
+      top: 5px;
+      left: 0;
+      width: 100%;
+      text-align: center;
+    }
+  }
+
+  // WIP - need to get ul li markers to move away from text
+  ///////////////////////////////////////////////////////////////////
+  ul {
+    list-style-type: disc;
+    margin-left: 40px;
+    margin-bottom: 10px;
+    li::marker {
+      padding-inline-start: 39px;
+      color: #183247 !important;
+      b , strong{
+        font-weight: 800!important;
+      }
+    }
+
+    &::after,
+    &::before {
+      display: inline-block;
+      direction: rtl !important;
+      margin-left: -28px !important;
+      padding-right: 16px !important;
+      width: 28px !important;
+    }
+
+    li {
+      padding: 10px !important;
+      margin-bottom: -10px;
+
+      li::before {
+        direction: rtl !important;
+        margin-left: -28px !important;
+        padding-right: 16px !important;
+        width: 28px !important;
+      }
+      p{
+        margin-top: 0px!important;
+        margin-bottom: 0px!important;
+      }
+    }
+    li::before {
+      direction: rtl !important;
+      margin-left: -28px !important;
+      padding-right: 16px !important;
+      width: 28px !important;
+    }
+
+    li::marker {
+      color: #183247 !important;
+    }
+  }
+
+  ol {
+    padding-left: 25px !important;
+    li {
+      list-style:decimal!important;
+      padding-left: 10px !important;
+      margin-bottom: 8px;
+    }
+    li::marker {
+      color: $grey_70;
+    }
+  }
+  /////////////////////////////////////////////////////////////////////////
+  a {
+    height: 24px;
+    color: #03A973;
+    text-decoration: none;
+
+    &:hover {
+      text-decoration: none;
+    }
+
+    &.alternative {
+      color: #fff;
+    }
+
+    &.alternative:hover {
+      color: #fff;
+      background-position: top 22px right -4px;
+      padding-right: 4px;
+      padding-bottom: 2px;
+      text-decoration: none;
+    }
+  }
+
+  @media (max-width: 765px) {
+    padding-left: 30px !important;
+    padding-right: 30px !important;
+  }
+}
+
+// make left nav full width in mobile view
+.left-nav {
+  // z-index: -1;
+  //padding-left: 0px !important;
+  //padding-right: 0px !important;
+  background: #FAFBFC;
+  position: sticky;
+  top: 0;
+  height: 100vh;
+  overflow-y: auto;
+  min-width: 22%;
+  //* padding: 0px 0px 20px 10px;*
+
+  @media (max-width: 768px) {
+    min-width: 40%;
+    padding: 20px 0px 20px 10px;
+  }
+  @media (max-width: 576px) {
+    display: none;
+  }
+}
+
+
+/* Blockquotes */
+blockquote {
+  padding: 0 24px;
+  color: #6a737d;
+  border-left: 5px solid #dfe2e5;
+}
+
+.edit-button {
+  padding-top: 40px;
+
+  @media (min-width:992px) {
+    padding-top: 0;
+  }
+  svg {
+    overflow: hidden;
+    vertical-align: middle;
+    margin-bottom: 4px;
+  }
+}
+
+.edit-button-styles {
+  border: 1px solid $grey_40 !important;
+  border-radius: 4px !important;
+  padding: 8px 16px !important;
+  &:hover {
+    border: 1px solid $grey_70 !important;
+    background-color: transparent !important;
+  }
+}
+
+tr:hover {
+  background-color: #FAE1D4;
+}
+
+th:first-child,
+td:first-child {
+  padding-left:10px;
+}
+
+thead:first-child:hover tr{
+  background-color: white;
+}
+
+
+/**
+* add syntax highlighting
+*/
+:not(pre) > code[class*="language-"] {
+  top: 0 !important;
+  font-family: $ibm;
+  background-color: $grey_30 !important;
+  color: $grey_90;
+  padding: 3px 28px 3px 6px !important;
+  font-size: 16px !important;
+}
+
+code[class*="language-"] {
+  // word-wrap: unset !important;
+  word-break: break-word !important;
+  word-wrap: break-word !important;
+  overflow-wrap: break-word !important;
+}
+
+.copytoclipboard {
+  display: block;
+  position: absolute;
+  top: 3px;
+  right: 3px;
+  width: 15px;
+  height: 15px;
+  line-height: 0;
+  cursor: pointer;
+
+  &.copied::after,
+  &.copied::before {
+    background-color: #03a973;
+    border-color: $white;
+  }
+
+  &::after,
+  &::before {
+    content: '';
+    display: block;
+    position: absolute;
+    top: 1px;
+    right: 1px;
+    z-index: 0;
+    width: 12px;
+    height: 12px;
+    background-color: $white;
+    border-radius: 3px;
+    border: 2px solid $grey_80;
+  }
+
+  &::before {
+    top: 4px;
+    right: 4px;
+    z-index: 1;
+  }
+}
+
+//.gatsby-highlight {
+//  background-color: #2d2d2d;
+//  border-radius: 0.3em;
+//  margin: 25px 0 25px 0;
+//  padding: 1em;
+//  overflow: auto;
+//  border-left: 0.5em solid $postman-orange;
+//  white-space: pre-wrap;
+//  word-break: break-word;
+//  // max-width: 600px;
+//
+//  code[class*="language-"],
+//  .token.comment,
+//  .token.string,
+//  .token.number,
+//  .token.boolean,
+//  .token.class-name,
+//  .token.constant,
+//  .token.parameter,
+//  .token.keyword,
+//  .token.operator,
+//  .token.function,
+//  .token.property,
+//  .token.attr-name,
+//  .token.attr-value,
+//  .token.tag,
+//  .token.punctuation {
+//    font-family: $ibm;
+//    white-space: pre-wrap;
+//    word-break: break-word;
+//    line-height: 1.666rem;
+//  }
+//
+//  /**
+//  * Remove the default PrismJS theme background-color, border-radius, margin,
+//  * padding and overflow.
+//  * 1. Make the element just wide enough to fit its content.
+//  * 2. Always fill the visible space in .gatsby-highlight.
+//  * 3. Adjust the position of the line numbers
+//  */
+//  pre[class*="language-"] {
+//    font-family: $ibm;
+//    background-color: transparent;
+//    margin: 0;
+//    padding: 0;
+//    overflow: initial;
+//    float: left;
+//    min-width: calc(100% - 3em);
+//    white-space: pre-wrap;
+//    word-break: break-word;
+//
+//    // &.line-numbers {
+//    //   padding-left: 3em;
+//    //   padding-right: 1em;
+//
+//    //   .line-numbers-rows {
+//    //     right: calc(100% - 25px);
+//    //     left: unset !important;
+//    //   }
+//
+//    //   .gatsby-highlight-code-line {
+//    //     background-color: #455A64;
+//    //     display: block;
+//    //     margin-right: -1em;
+//    //     margin-left: -1em;
+//    //     padding-right: 1em;
+//    //     padding-left: 0.75em;
+//    //   }
+//    // }
+//  }
+//}
+
+.pagination_buttons{
+  //display: flex;
+    margin-left: 70px;
+  width: 735px;
+  @media (max-width: 1280px) {
+    width: 660px;
+  }
+  @media (max-width: 1152px) {
+    width: 555px;
+  }
+  @media (max-width: 576px) {
+    display: inline-block;
+  }
+  h3{
+    //color: #0E5AD9;
+    color: #000000;
+    font-size: 1.1rem!important;
+    margin-top: 0px!important;
+    margin-bottom: 0px!important;
+    //text-align: end;
+  }
+  span{
+    color: #78757a;
+  }
+  svg{
+    display: block;
+  }
+}
+
+.perviousLink{
+  //position: absolute;
+  margin-left: -4px;
+}
+.next_link{
+  position: relative;
+  left: 0px;
+}
+
+.alert {
+  margin-bottom: 15px;
+  padding: 20px 20px;
+  margin-top: 30px;
+  margin-bottom: 30px;
+  border-radius: 4px;
+  &.alert-danger {
+    background: #FFE0CF;
+    >.custom-block-heading {
+      font-weight: bold;
+      color: #FF6767;
+    }
+  }
+
+  .sticky {
+    margin-top: 64px;
+    position: -webkit-sticky;
+    position: sticky !important;
+    top: 160px;
+    // top: 0;
+  }
+
+  &.alert-info {
+    border-left: 3px solid rgb(247, 125, 5);
+    background: #F8F9FA;
+    >.custom-block-heading {
+      font-weight: bold;
+    }
+  }
+  >.custom-block-body p{
+    margin: 0 !important;
+  }
+}
+
+.text-xs {
+  font-size: 0.90rem;
+  line-height: 1rem;
+  @media (max-width: 1280px) {
+    font-size: 0.85rem;
+  }
+}
+
+.max-w-sm {
+  max-width: 26rem;
+}
+
+.px-20 {
+  padding-left: 6rem;
+  padding-right: 6rem;
+}
+
+.next_button,
+.prev_button {
+  width: 49%;
+  padding: 15px 20px;
+  box-shadow: 4px 4px 5px #f3f3f3;
+  border:1px solid #DEDEDE;
+  border-radius: 4px;
+  svg{
+    position: relative;
+    top: 10px;
+  }
+}
+.next_button{
+  float: right;
+  span{
+    margin-right: 2px;
+    @media (max-width: 576px) {
+      margin-left: 0px;
+    }
+  }
+  @media (max-width: 576px) {
+    margin-left: 0px;
+    margin-top: 60px;
+  }
+  svg{
+    float: right;
+  }
+}
+.prev_button{
+  text-align: right;
+  svg{
+    float: left;
+  }
+}
+
+.mt-15{
+  margin-top: 15px;
+}
+
+.float-searchBox {
+  position: fixed;
+  top: 0;
+  right: 0;
+  z-index: 3;
+  padding: 1.6rem 1rem;
+  width: 24.1%;
+  height: 100%;
+  display: block;
+  border-left: 1px solid rgba(229, 231, 235, var(--tw-border-opacity));
+  background-color: #fff;
+  .ais-SearchBox,
+  .search-icon {
+    display: inline-block;
+    vertical-align: middle;
+  }
+  .search-icon {
+    width: 4%;
+  }
+  .ais-SearchBox,
+  .ais-SearchBox-input {
+    width: 95%;
+  }
+  .search_results{
+    top: 71px;
+    left: 0;
+    bottom: 0;
+    z-index: 2;
+    width: 100%;
+    border-left: 0;
+    background-color: #f5f5f5;
+    overflow-y: auto;
+    .ais-Pagination-list {
+      display: flex;
+      padding: 0.25rem 0 0.5rem;
+      justify-content: center;
+      li {
+        margin: 0 6px;
+      }
+      .ais-Pagination-link--selected {
+        font-weight: bold;
+      }
+    }
+  }
+}
+
+.ais-SearchBox-input{
+  outline: none!important;
+  width: 80px;
+}

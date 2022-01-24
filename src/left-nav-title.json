@@ -1,0 +1,67 @@
+{
+  "setup": {
+    "/docs/getting-started/setup/": "Setup Testsigma"
+  },
+  "projects" : {
+    "/docs/projects/": "Projects & Settings"
+  },
+  "manage": {
+    "/docs/test-cases/manage/": "Manage Test Cases"
+  },
+  "step-types": {
+    "/docs/test-cases/step-types/": "Test Step Types"
+  },
+  "create-steps-nl": {
+    "/docs/test-cases/create-steps-nl/" : "Create Test Steps Using Simple English"
+  },
+  "web-apps" : {
+    "/docs/test-cases/create-steps-nl/web-apps/": "Web Applications",
+    "/docs/test-cases/create-steps-recorder/web-apps/": "Web Applications",
+    "/docs/elements/web-apps/": "Web Applications"
+  },
+  "ios-apps": {
+    "/docs/test-cases/create-steps-nl/ios-apps/": "iOS Apps",
+    "/docs/test-cases/create-steps-recorder/ios-apps/": "iOS Applications",
+    "/docs/elements/web-apps/": "iOS Applications"
+  },
+  "create-steps-restapi": {
+    "/docs/test-cases/create-steps-restapi/": "Create Steps: REST API"
+  },
+  "test-data": {
+    "/docs/test-data/": "Test Data Management"
+  },
+  "types": {
+    "/docs/test-data/types/": "Test Data Types"
+  },
+  "elements": {
+    "/docs/elements/": "Elements(Objects)"
+  },
+  "dynamic-elements": {
+    "/docs/elements/dynamic-elements/": "Dynamic Elements with Test Data"
+  },
+  "runs": {
+    "/docs/runs/" : "Test Runs/ Executions",
+    "/docs/reports/runs/" : "Test Runs"
+  },
+  "env-config": {
+    "/docs/runs/env-config/": "Device / Environment Configurations"
+  },
+  "agent": {
+    "/docs/agent/" : "Testsigma Agent"
+  },
+  "reports": {
+    "/docs/reports/": "Reports & Analytics"
+  },
+  "sdk": {
+    "/docs/sdk/": "Testsigma SDK"
+  },
+  "security": {
+    "/docs/configuration/security/": "Security(SSO)"
+  },
+  "api": {
+    "/docs/api/": "Testsigma REST APIs"
+  },
+  "examples": {
+    "/docs/api/examples/" : "Usage Examples"
+  }
+}
