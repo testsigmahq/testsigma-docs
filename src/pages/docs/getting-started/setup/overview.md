@@ -1,10 +1,10 @@
 ---
 
-title: "Setup Testsigma Cloud"
-page_title: "Getting started with Testsigma Cloud"
-metadesc: "How to create and run your first tests on Testsigma Cloud"
+title: "Setup Testsigma"
+page_title: "Getting started with Testsigma"
+metadesc: "How to create and run your first tests on Testsigma"
 order: 1.30
-page_id: "Setup Testsigma Cloud"
+page_id: "Setup Testsigma"
 warning: false
 contextual_links:
 - type: section
@@ -30,7 +30,6 @@ Comes with a fully managed test lab, enhanced security and robust features that 
 
 [Create an Account on Testsigma Cloud](https://testsigma.com/signup)
 
-&emsp;
 
 ---
 ##**Deploy on your Local Servers**
@@ -41,15 +40,10 @@ Testsigma Community Edition (CE) is an open-source platform that you can install
    * [Download](https://testsigma.com/docs/getting-started/setup/downloadable-package/)
 
 
-
-&emsp;
-
-
-
 ---
 ##**Getting help**
 
-If you face any problems or issues when installing Testsigma on any platform, reach out to us at <a href="mailto:support@testsigma.com">support@testsigma.com</a> or join our [Discord Server](https://discord.com/invite/5caWS7R6QX)
+If you face any problems or issues when installing Testsigma on any platform, reach out to us at <a href="mailto:support@testsigma.com">support@testsigma.com</a> or join our [Discord Server](https://discord.com/invite/5caWS7R6QX).
 
   * Learn how to use, build, and extend the platform. Visit [documentation](https://testsigma.com/docs/) 
   * Connect with product experts on the team and in the Community on our [Discord](https://discord.com/invite/5caWS7R6QX).

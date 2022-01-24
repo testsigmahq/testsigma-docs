@@ -34,9 +34,7 @@ contextual_links:
   url: "#next-steps"
 ---
 
-This Docker compose setup runs [Testsigma server](https://github.com/testsigmahq/testsigma) along with MySQL using 
-
-` "docker-compose" `
+This guide will help you setup [Testsigma Server](https://github.com/testsigmahq/testsigma) and MySQL as Docker containers using Docker Compose. This is the easiest way to set up Testsigma on your local machines.
 
 ---
 ##**Pre-requisites**<br>
@@ -50,36 +48,36 @@ Create a folder called “testsigma” where you would like to install Testsigma
 
 **cd** cmd into this installation folder (testsigma)
 
-### **Step1: Download docker-compose.yml file**
+---
+
+## **Step1: Download docker-compose.yml file**
 
 Download docker-compose.yml file into the testsigma installation folder from [here](https://github.com/testsigmahq/testsigma/tree/main/deploy/docker). Download the appropriate file based on your OS.
 
-### **Step2: Run Testsigma Server**
+---
+
+## **Step2: Run Testsigma Server**
 
 The following command will run Testsigma along with a MySQL database to store data.
 
 `
  "$ docker-compose up -d" 
-`<br>
+`<br><br>
+Check if the containers are running using the following commands
 
-Check if the containers are running:
+`
+$ docker ps 
+`
+<br><br>
 
-
- $ docker ps <br>
-CONTAINER ID        &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;IMAGE                  &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;&nbsp; …       &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;     STATUS            &nbsp; &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;   PORTS                                     &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;      &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Names  <br>        			                                              
-580db1ec9ad1     &nbsp;  &nbsp;&nbsp;&nbsp;&nbsp;testsigmahq/server:m1   &nbsp;&nbsp;&nbsp;…     &nbsp;&nbsp; &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;….	       &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;443->443/tcp, 9090->9090/tcp, 9090/tcp  &nbsp;testsigma\_server
- <br>
-318c46259b15     &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;mysql:5.7             &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; …      &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; ….	       &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;33060/tcp, 55581->3306/tcp              &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; testsigma\_mysql
-<br>
-
-You should see a message: “Testsigma is Running!” once the container is ready.
+You should see a message: “**Testsigma is Running!**” once the container is ready.
 
 Your Testsigma server should be up and running now. Testsigma server will be accessible at https://local.testsigmaos.com/ui
 
 ---
 ##**Verifying the installation**
 
- By default folders db\_data, ts\_data will be created in the installation folder to store the application data and MySQL data. If you want to change this folder path you can open docker-compose.yml and change the db\_data volume path under mysql service and ts\_data path under testsigma_server.
+ By default folders db\_data, ts\_data will be created in the installation folder to store the application data and MySQL data. If you want to change this folder path you can open **docker-compose.yml** and change the db\_data volume path under mysql service and ts\_data path under testsigma_server.
 
 ---
 ## **Connecting to External MySQL**
@@ -92,7 +90,9 @@ MYSQL\_DB\_NAME = < db\_name> where you want to save data<br>
 MYSQL\_USER = < username><br>
 MYSQL\_PASSWORD = < password><br>
 
-### **Step3: Install and configure Testsigma Agent**
+---
+
+## **Step3: Install and configure Testsigma Agent**
 
 When we run the Testsigma server using Docker it runs in a separate container(child process), where it cannot access the applications installed in the host machine. But in order to automate Web and Mobile Apps the Testsigma Server (running in docker) has to access Browsers and Mobile Devices connected to the host machine. 
 
@@ -103,6 +103,7 @@ To achieve this we use Testsigma Agent that connects the Testsigma Server with t
 Login to https://local.testsigmaos.com/ui and follow the steps mentioned here([Setup: Windows, Mac, Linux](https://testsigma.com/docs//agent/setup-on-windows-mac-linux/)) to Install and configure the the Agent
  
 ---
+
 ##**Update to new Version(Testsigma Server)**
 
   1. Stop the Docker images/container with name testsigma in Docker Desktop, alternatively you can use the below commands to kill the processes<br>
@@ -117,6 +118,7 @@ Login to https://local.testsigmaos.com/ui and follow the steps mentioned here([S
   5. Now login to check the updated version of Testsigma Server here  https://local.testsigmaos.com/ui
 
 ---
+
 ##**Update to new Version(Testsigma Agent)**
 
   1. Stop the running agent by executing the stop.sh
@@ -126,13 +128,14 @@ Login to https://local.testsigmaos.com/ui and follow the steps mentioned here([S
   5. Now start the Agent by executing start.sh
 
 [[info | NOTE:]]
-| If you are facing any issues after updating Testsigma Agent refer to [Agent - Startup and Registration Errors](https://testsigma.com/docs/agent/troubleshooting/setup-issues/) . <br>
-| If you are still facing the issue, delete the [agent manually](https://testsigma.com/docs/agent/force-delete/) and install again.
+|- If you are facing any issues after updating Testsigma Agent refer to [Agent - Startup and Registration Errors](https://testsigma.com/docs/agent/troubleshooting/setup-issues/) .
+|- If you are still facing the issue, delete the [agent manually](https://testsigma.com/docs/agent/force-delete/) and install again.
 
 ---
 ##**Troubleshooting**
 
-If you encounter any errors during this process, check out our guide on [debugging deployment errors](https://testsigma.com/docs/troubleshooting/setup/server-docker-deployment-errors/). If you are still facing any issue, please reach out to [support@testsigma.com](mailto:support@testsigma.com) or join our [Discord Server](https://discord.com/invite/5caWS7R6QX) to speak to the Testsigma team directly!
+- If you encounter any errors during this process, check out our guide on [debugging deployment errors](https://testsigma.com/docs/troubleshooting/setup/server-docker-deployment-errors/). 
+- If you are still facing any issue, please reach out to [support@testsigma.com](mailto:support@testsigma.com) or join our [Discord Server](https://discord.com/invite/5caWS7R6QX) to speak to the Testsigma team directly!
 
 ---
 ##**Next Steps**

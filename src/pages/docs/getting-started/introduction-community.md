@@ -1,5 +1,5 @@
 ---
-title: "Introduction to Testsigma Community Edition"
+title: "Intro: Testsigma Community Edition"
 metadesc: "What is Testsigma Cloud and how to get started with it."
 order: 1.2
 page_id: "Introduction to Testsigma Community Edition"
@@ -23,20 +23,14 @@ contextual_links:
 ---
 
 ---
-## **Introduction**
-
 Testsigma Community Edition is an open-source end-to-end test automation platform. It packages libraries, APIs, classes, and more that you can install on your workstation and use to start test automation, without building a test framework from scratch.
 
 <iframe src="https://website-static.testsigma.com/assets/videos/Marketing_Video.mp4" width="600" height="400"></iframe>
 
-&emsp;
-
 ---
 ##**Setup Testsigma Community Edition**
-* [Deploy Testsigma on my workstation](https://testsigma.com/docs/getting-started/setup/overview/)
+[Deploy Testsigma on my workstation](https://testsigma.com/docs/getting-started/setup/overview/)
 
-
-&emsp;
 
 ---
 ##**Getting help** 
@@ -46,7 +40,6 @@ Testsigma Community Edition is an open-source end-to-end test automation platfor
 * Refer to our [FAQ ](https://testsigma.com/docs/getting-started/faqs/) section for answers to commonly asked questions.
 * Reach out to us at [support@testsigma.com](mailto:support@testsigma.com).
 
-&emsp;
 
 ---
 ##**Telemetry Opt-In**
