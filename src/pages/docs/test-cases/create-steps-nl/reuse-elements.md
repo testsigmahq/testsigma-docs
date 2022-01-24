@@ -21,8 +21,7 @@ When you add elements to a test case, they are saved in the corresponding projec
 
 &emsp;
 ---
-
-## **Pre-requisites**
+##**Pre-requisites**
 
 You should know how to
 
@@ -31,8 +30,7 @@ You should know how to
 
 &emsp;
 ---
-
-## **Steps to follow**
+##**Steps to follow**
 
  1. Create a new test case in the Project that has the elements you want to use.
  2. Create test steps. Let’s say you want to add a test step where you want to use Elements, some example test steps that would use an Element are:

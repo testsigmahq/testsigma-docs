@@ -21,16 +21,14 @@ With Testsigma, you can either write your test steps in simple English or you ca
 
 &emsp;
 ---
-
-## **Pre-requisites:**
+##**Pre-requisites:**
 
  1. You should have an account on Testsigma.
  2. Your Testsigma account should have an android app uploaded under ‘uploads’. This is the android app that you want to test.
 
 &emsp;
 ---
-
-## **How to record test steps using Testsigma’s Recorder for android:**
+##**How to record test steps using Testsigma’s Recorder for android:**
 
  1. Open a pre-existing Android Project or create a new one under your Testsigma account.
  2. Go to ‘Test Development > Test Cases’

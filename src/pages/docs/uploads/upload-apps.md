@@ -19,8 +19,7 @@ To automate testing of your native Android and iOS apps, you need to make sure t
 
    The fastest way to develop and execute mobile automation is by uploading your apps to Testsigma cloud. Let’s see how to do that.
 ---
-
-## **Uploading the app**
+##**Uploading the app**
 1. Go to the project in which you need to upload the app. For example, your Android app will need to be uploaded in an Android Project/Application in Testsigma, and an iOS app will need to be uploaded in an iOS Project/Application in Testsigma.
 2. Go to **Test Development > Uploads.**
 3. On the Uploads page, click on the **Upload** button. A window will appear where you can choose the file to upload:

@@ -25,8 +25,7 @@ With Testsigma YouTrack integration, you can push bugs directly from Testsigma t
 
 In this document, we will discuss how to establish Integration with Youtrack from your Testsigma account and how to create the first bug from Testsigma which can flow into Youtrack.
 ---
-
-## **Prerequisites**
+##**Prerequisites**
 
 To integrate Youtrack with Testsigma, you need the following information from your Youtrack Account
  * Account URL - Your organization’s Youtrack Account URL
@@ -34,8 +33,7 @@ To integrate Youtrack with Testsigma, you need the following information from yo
 
 You should already know about [Test Plan Runs and results](https://testsigma.com/docs/runs/test-plan-executions/)
 ---
-
-## **Creating Youtrack API Key**
+##**Creating Youtrack API Key**
 
 Follow the below steps to get the API token:
 
@@ -65,8 +63,7 @@ Click on the Disabled Icon on **Youtrack**. Youtrack Details overlay opens up as
 
 Enter the details mentioned in Prerequisites. After entering the details, click on the Create button to add the Integration.
 ---
-
-## **Creating a bug**
+##**Creating a bug**
 
 We can create a bug within Testsigma from the run results page for a particular Test Plan. Here’s how:
 

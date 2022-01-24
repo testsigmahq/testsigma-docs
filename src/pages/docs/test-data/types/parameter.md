@@ -20,8 +20,7 @@ A parameter test data type is an input that is injected into your test from a te
 
 ![test data profile image for test parameters](https://docs.testsigma.com/images/parameter/test-data-profile-test-case-image-test-parameters.png)
 ---
-
-## **Here is how it works** 
+##**Here is how it works** 
 
 1. A user creates a test data profile :
 
@@ -72,8 +71,7 @@ Let’s see how to insert a username parameter from a test data profile:
 
 Now, your test case will use the parameter from your test data profile.
 ---
-
-## **Associate the test data profile with the pre-existing test case**
+##**Associate the test data profile with the pre-existing test case**
 
 ![gif to associate parameter type test data with a test case](https://docs.testsigma.com/images/parameter/gif-associate-parameter-test-data-with-test-case.gif)
 

@@ -36,8 +36,7 @@ We will be using an Element’s name in the Test Steps while writing Test Cases.
 
 <br>
 ---
-
-## **Creating Elements**
+##**Creating Elements**
 
 We can [create multiple Elements using Testsigma Chrome Recorder](https://testsigma.com/docs/elements/web-apps/record-multiple-elements/) which is the easiest and recommended way. Creating all the Elements in advance helps you to speed up the Test Case creation process.
 
@@ -60,8 +59,7 @@ The Test Suites and the Test Plans containing these Test Cases can also be viewe
 
 ![Sort Elements](https://docs.testsigma.com/images/web-apps/elements-sort.png)
 ---
-
-## **Filter Elements** 
+##**Filter Elements** 
 To filter Elements, click on the Filter icon on the top left corner of the Elements List page. In the overlay that opens up, you can see the following options for filtering the Elements:
 
 * Name
@@ -95,14 +93,12 @@ Saving and updating Element Filters work the same as Test Case Filters. Refer to
 
 <br>
 ---
-
-## **Element Review Management**
+##**Element Review Management**
 Larger teams can enable Review Management for the Elements so that the Elements used in the Test Cases are reviewed similar to a Test Case before finalizing and adding to the Regression Test Suite. [Learn more here](https://testsigma.com/docs/collaboration/elements-review-management/)
 
 <br>
 ---
-
-## **Dynamic Elements with Test Data**
+##**Dynamic Elements with Test Data**
 Some advanced use-cases call for Elements with dynamic locators. A few of them are listed below:
 
 [Using Parameter Test Data for Dynamic locators](https://testsigma.com/docs/elements/dynamic-elements/with-parameter-test-data/)<br>

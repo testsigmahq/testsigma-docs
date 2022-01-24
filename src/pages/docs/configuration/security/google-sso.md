@@ -27,11 +27,9 @@ With SSO, you are not required to store and manage passwords for the websites yo
 
 Here’s how you can configure Testsigma to allow Google Single Sign-On (SSO).
 ---
-
-## **Enabling SSO in Testsigma**
+##**Enabling SSO in Testsigma**
 ---
-
-## **Navigation: Settings > Security**
+##**Navigation: Settings > Security**
 
 
 You will see two options (Google SSO, SAML) in the Identity Provider pane.
@@ -43,8 +41,7 @@ If you are not already logged in, the Google SSO option (**‘Proceed’** butto
 
 ![Navigation to opt for Single Sign-On in Testsigma](https://docs.testsigma.com/images/google-sso/single-sign-on-login-testsigma.png)
 ---
-
-## Here’s how you set up your Google SSO in 3 simple steps:
+##Here’s how you set up your Google SSO in 3 simple steps:
 
 1. Click on the **‘Click here’** link to log in via your Google account.
 

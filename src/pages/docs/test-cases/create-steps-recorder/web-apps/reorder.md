@@ -21,8 +21,7 @@ You can reorder the test steps you record in a test case. Here’s how.
 
 &emsp;
 ---
-
-## **Pre-requisites:**
+##**Pre-requisites:**
 
  You should already know how-to, or have:
 
@@ -31,8 +30,7 @@ You can reorder the test steps you record in a test case. Here’s how.
 
 &emsp;
 ---
-
-## **Reordering recorded test steps in a Web Project:**
+##**Reordering recorded test steps in a Web Project:**
 
  1. Create a Test Case using Testsigma recorder with multiple test steps.
  2. Hover on the settings button on the top right corner of the Testsigma test step recorder UI:

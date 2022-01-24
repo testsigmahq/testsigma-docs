@@ -35,16 +35,14 @@ With Azure (by Microsoft) Active Directory, users can automatically sign into th
 You can use the Azure Active Directory Admin Center to enable single sign-on (SSO) for Testsigma. After you configure SSO, your users can sign in to our application by using their Azure AD credentials.
 
 ---
-
-## **Prerequisites**
+##**Prerequisites**
 
 **-** Azure Account with Active Directory enabled
 
 **-** Admin Access to Azure Account
 
 ---
-
-## **I. Adding Testsigma Enterprise Application**
+##**I. Adding Testsigma Enterprise Application**
 
 1. Login to Azure portal using the URL :  https://portal.azure.com
 
@@ -66,8 +64,7 @@ In the overlay that opens up on the right, enter the name of the app you are int
 
     ![Testsigma properties on Azure](https://docs.testsigma.com/images/azure-sso/Testsigma-properties.png)
 ---
-
-## **II. Adding Users to the Enterprise Application**
+##**II. Adding Users to the Enterprise Application**
 
    1. Click the **Assign users and groups card** to add the users in Azure AD to the recently added Testsigma app.
 
@@ -82,8 +79,7 @@ In the overlay that opens up on the right, enter the name of the app you are int
 
    5. To add assignments to these users, click **Assign**.
 ---
-
-## **III. SAML Configuration on Azure in Testsigma**
+##**III. SAML Configuration on Azure in Testsigma**
 
    1. Back in Testsigma Overview page on Azure, click option 2 i.e, **Set up single sign on**.
    ![set up sso login for Testsigma](https://docs.testsigma.com/images/azure-sso/setup-sso-for-login.png)
@@ -151,8 +147,7 @@ In the overlay that opens up on the right, enter the name of the app you are int
 
    We will use the **X509Certificate** value, also the values above in Testsigma app in the next section.
 ---
-
-## **IV. Azure Specific SAML Configuration in Testsigma**
+##**IV. Azure Specific SAML Configuration in Testsigma**
 
 Inside your Testsigma account, navigate to **Settings>Security**
   1. Click **Proceed** under SAML
@@ -174,8 +169,7 @@ SAML will now be enabled,
 
 Let’s test the SSO.
 ---
-
-## **V. Test the SAML Config**
+##**V. Test the SAML Config**
 
  1. On Section 5 of the Single Sign-On option, you will find the option to test. Click 
  **Test**.

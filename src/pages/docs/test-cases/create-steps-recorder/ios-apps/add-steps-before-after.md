@@ -20,14 +20,12 @@ There are times when you might want to add steps before and after a test step, f
 
 &emsp;
 ---
-
-## **Pre-requisites:**
+##**Pre-requisites:**
 You should already be familiar with [Testsigma’s Recorder](https://testsigma.com/docs/test-cases/create-steps-recorder/ios-apps/overview/).
 
 &emsp;
 ---
-
-## **How to add a step before and after a pre-existing test step in an iOS project in Testsigma:**
+##**How to add a step before and after a pre-existing test step in an iOS project in Testsigma:**
 1. Create a Test Case using Testsigma’s Recorder. 
 
 2. Go to the created test steps on Testsigma’s Recorder UI.

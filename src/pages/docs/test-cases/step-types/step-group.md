@@ -32,8 +32,7 @@ A Step Group is a group of test steps which can be repeatedly used in multiple t
 
 &emsp;
 ---
-
-## **Create a Step Group**
+##**Create a Step Group**
 
  * Navigate to Test Development > Test Cases > Step Groups.
 
@@ -57,8 +56,7 @@ https://docs.testsigma.com/images/step-group/click-create-step-group-button.png)
 
 &emsp;
 ---
-
-## **Use Step Group in a Test Case**
+##**Use Step Group in a Test Case**
 
  * Click on Test Case and open the Test Case that you need to author as shown in the screenshot below
 

@@ -22,8 +22,7 @@ contextual_links:
 
 This article explains how to trigger multiple Test Plans consecutively. You might need this to run a Mobile Test Plan after executing a Web Test Plan.
 ---
-
-## Sample Test Scenario
+##Sample Test Scenario
 
 Let’s create a User using the Admin HR portal that is accessible only via a Desktop Browser and then manage that user on the Mobile HR App.
 
@@ -34,8 +33,7 @@ Let’s assume there are two Test Plans, namely ‘Admin-TP’ and ‘Mobile-TP�
 |**Test Suite Name**|Admin-TS|Mobile-TS|
 |**Test Cases Names**|TC1, TC2|TC3 and TC4|
 ---
-
-## When to make API Call to trigger next Test Plan
+##When to make API Call to trigger next Test Plan
 
 The API call to trigger the next Test Plan should preferably be in the very last step of the last Test Case in the previous Test Plan. It is advisable to create a new Test Case and add it as the last Test Case in the Test Suite for separation of concern.
 
@@ -43,8 +41,7 @@ In this case, we can create a new Test Case ‘TC-TriggerNext’ as the last Tes
 
 So, the Test Cases in Admin-TS become TC1, TC2, and TC-TriggerNext.
 ---
-
-## How to Trigger next Test Plan
+##How to Trigger next Test Plan
 
 See [how to trigger a Test Plan using REST API Calls](https://testsigma.com/docs/api/examples/trigger-test-plan-wait-completion/)
 If you would like to pass some data from Admin-TP to the Mobile-TP, you can achieve this using the [Runtime test data/parameters.](https://testsigma.com/docs/test-data/types/runtime/)

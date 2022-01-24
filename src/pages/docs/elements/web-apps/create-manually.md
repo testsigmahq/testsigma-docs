@@ -26,15 +26,13 @@ If you are not familiar with XPaths or CSS Selectors, please use the Testsigma C
 
 <br>
 ---
-
-## **Why Create Elements Manually**
+##**Why Create Elements Manually**
 
 For dynamic websites such as E-commerce websites, the elements might be dynamic in nature i.e none of their attributes/properties remain constant across sessions. In such cases, there are chances for the Elements created using Testsigma Chrome Recorder to fail. In those specific cases, we might need to create some of the Elements manually.
 
 <br>
 ---
-
-## **Creating Element Manually**
+##**Creating Element Manually**
 
 Navigate to **Test Development > Elements** to get to the Elements page:
 

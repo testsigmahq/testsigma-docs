@@ -23,8 +23,7 @@ Learn more about [test data types.](https://testsigma.com/docs/test-data/types/o
 
 &emsp;
 ---
-
-## **Pre-requisites:**
+##**Pre-requisites:**
 
 You should already know how-to, or have:
 
@@ -33,8 +32,7 @@ You should already know how-to, or have:
 
 &emsp;
 ---
-
-## **Adding test data in recorded test steps**
+##**Adding test data in recorded test steps**
 
  1. Start recording test steps using Testsigma test recorder.
  2. In the test recorder UI, add a test step that will have a test data.The example steps that have test data are as below:

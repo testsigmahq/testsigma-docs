@@ -33,8 +33,7 @@ In this case, you can simply make a Version copy of **v1.0.0** in Testsigma and 
 
 Navigate to **Project Settings > Applications > Versions** to check details about all the Versions that are available in the current Project and Application.
 ---
-
-## **I. Enabling version tracking**
+##**I. Enabling version tracking**
 
 If there’s only one Version in your Project, the Versions table will be hidden. As shown in the screenshot below, you will not find the versions column next to comments section.
 
@@ -52,8 +51,7 @@ Once the Versions menu is enabled, you will be able to see all the Versions crea
 
 ![versions created under a specific application for a project in Testsigma](https://docs.testsigma.com/images/versions/versions-for-an-application-project-Testsigma.png)
 ---
-
-## **II. Create Application Version**
+##**II. Create Application Version**
 
 Make sure the version tracking is enabled as mentioned in section I, navigate to the Versions page by going through **Project Settings > Applications > Versions menu**. Then, click on **+ New Version** as shown below.
 
@@ -67,8 +65,7 @@ Once you click on **create** button, you will be able to view your created versi
 
 ![view created versions for a specific application for a project in Testsigma](https://docs.testsigma.com/images/versions/view-created-versions-for-an-application-project-Testsigma.png)
 ---
-
-## **III. Edit Version**
+##**III. Edit Version**
 
 Make sure the version tracking is enabled as mentioned in section I, navigate to the Versions page by going through **Project Settings > Applications > Versions** menu.
 Click on the specific Application Version from the Versions list. The Version details page opens up like this:
@@ -81,8 +78,7 @@ Click on the Edit button (pencil icon beside version name) for the Application V
 
 Make the required changes and click on the Update button to save the changes.
 ---
-
-## **IV. Delete Version**
+##**IV. Delete Version**
 
 Make sure the version tracking is enabled as mentioned in section I, navigate to the Versions page by going through **Project Settings > Applications > Versions** Menu.
 Click on the specific Application Version from the Versions list. The Version details page opens up.
@@ -99,8 +95,7 @@ Click on the Delete button (trash icon beside version name) for the Application 
 
 If you still want to delete the Application Version, confirm the Application Version deletion in the dialog box.
 ---
-
-## **V. Cloning of Version**
+##**V. Cloning of Version**
 
 Make sure the version tracking is enabled as mentioned in section I, navigate to the Versions page by going through **Project Settings > Applications > Versions** Menu.
 

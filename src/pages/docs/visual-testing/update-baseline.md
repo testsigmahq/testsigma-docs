@@ -20,8 +20,7 @@ In visual testing, we compare a baseline image (or the original image) with the 
 The baseline image is supposed to be updated whenever updates are made in the user interface. Here’s how to do that in Testsigma.
 
 ---
-
-## **Pre-requisites:**
+##**Pre-requisites:**
 
 You should have executed your visual testing test case at least once so it has baseline images. You should also know how to:
  1. [Create a test case for visual testing](https://testsigma.com/docs/test-cases/manage/add-edit-delete/)
@@ -29,8 +28,7 @@ You should have executed your visual testing test case at least once so it has b
  3. [View and Debug results for your visual testing test cases](https://testsigma.com/docs/visual-testing/view-debug-results/). 
 
 ---
-
-## **How to update the Baseline image** 
+##**How to update the Baseline image** 
 
  1. Go to the visual testing test case for which you want to update the reference image. 
  2. Execute the test case in step 1.

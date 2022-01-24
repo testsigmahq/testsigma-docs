@@ -24,8 +24,7 @@ When we open a Test Case from the Test Cases list, we can check its Details,  Co
 
 &emsp;
 ---
-
-## **Test Case Details**
+##**Test Case Details**
 
 Test Case Details shows us an overview of the Test Case Settings. To see them, open the Test Case from the Test Cases list and click on **More Details**:
 
@@ -33,8 +32,7 @@ Test Case Details shows us an overview of the Test Case Settings. To see them, o
 
 &emsp;
 ---
-
-## **Test Case Activity**
+##**Test Case Activity**
 
 Team members can add comments and notify the Test Case Assignee and Reviewer for team collaboration. This activity is logged as Test case activity. To see it, open the Test Case and select the ‘Activity’ Tab as follows:
 
@@ -42,8 +40,7 @@ Team members can add comments and notify the Test Case Assignee and Reviewer for
 
 &emsp;
 ---
-
-## **Test Case History**
+##**Test Case History**
 
 Test Case History shows us the actions performed on the Test Case ever since it was first created. You can also click on the ‘View Details’ link if available to view more details about a specific activity.  To see it the Activity log for the Test Case, open the  Test Case, go to Activity >History as shown below:
 

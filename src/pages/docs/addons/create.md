@@ -35,8 +35,7 @@ contextual_links:
 You should already know about Testsigma add-ons. See: [What is an add-on?](https://testsigma.com/docs/addons/what-is-an-addon/) | [Prerequisites for creating an add-on](https://testsigma.com/docs/addons/pre-requisite-to-create-addon/).
 
 ---
-
-## In Testsigma you can create add-ons for the following use case:
+##In Testsigma you can create add-ons for the following use case:
 
   1. **Custom Actions:** Testsigma has a comprehensive, built-in actions that lets you automate most user actions in simple English. But sometimes you may need to automate actions unique to your AUT. You can build your own actions and automate those unique actions using add-ons. See: [How to build a custom action in add-ons](https://testsigma.com/tutorials/addons/how-create-addons-actions/).
 
@@ -55,8 +54,7 @@ You should already know about Testsigma add-ons. See: [What is an add-on?](https
   5. Publish the add-on
   6. Additional Step - add-on usage in Test Case
 ---
-
-## 1. **Create an add-on template**
+##1. **Create an add-on template**
 
  Navigate to the add-ons page by clicking on the add-ons icon from the navigation bar on the left.
 
@@ -76,8 +74,7 @@ You should already know about Testsigma add-ons. See: [What is an add-on?](https
 
 &emsp;
 ---
-
-## 2.  **Update the action code as required**
+##2.  **Update the action code as required**
 
 Unzip the downloaded zip file and open the extracted folder in your favorite IDE as a Java project (with Maven as the build tool). The downloaded folder is a Java Maven project folder 
 consisting of a pom.xml file along with example templates for Web/Android/iOS.
@@ -102,13 +99,11 @@ Here’s a gif that shows all available annotations and their arguments:
 
 ![Snapshot of the sample code showing most common annotations and options](https://docs.testsigma.com/images/create/add-ons-template-code-ide-common-annotations.gif)
 ---
-
-## 3. **Test the Code**
+##3. **Test the Code**
 
 Test the code to verify the add-on you have written. You can use either JUnit or TestNG as the Test Runner. Right-click on the Test class to run it as a TestNG or JUnit test and confirm if your code is performing as expected.
 ---
-
-## 4. **Upload the updated code to Testsigma**
+##4. **Upload the updated code to Testsigma**
 
 Once you have validated the code, save the changes you made and zip the project folder. You may use the below command on a bash shell:
 ***zip -r addonName.zip . -x ".*"**
@@ -124,8 +119,7 @@ Other available options:
 * Delete: Delete the add-on.
 &emsp;
 ---
-
-## 5. **Publish the add-on**
+##5. **Publish the add-on**
 
   Once the code is uploaded, the add-on options dropdown would show some additional options:
 
@@ -137,8 +131,7 @@ Other available options:
 
 Once requested for publishing, it will be sent to the Testsigma Team for review and you will be notified via email once it’s approved.
 ---
-
-## 6. **Try using the add-on in a Test Case**
+##6. **Try using the add-on in a Test Case**
 
 To try out the add-on you just created, create a new Test Case or open an existing Test Case and add a new Test Step. Search for the keywords of the action you just created, select the action from the suggestions, and update the Test Data and Element.
 

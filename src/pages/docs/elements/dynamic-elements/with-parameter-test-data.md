@@ -29,8 +29,7 @@ You should already be familiar with [Parameter Test Data](https://testsigma.com/
 
 <br>
 ---
-
-## **Case Study - OrangeHRM Enterprise**
+##**Case Study - OrangeHRM Enterprise**
 Enterprise websites are a good candidate for this kind of testing due to the amount of dynamic content on their pages. Here, we will be using an OrangeHRM Enterprise web app for our demonstration.
 So, let’s get started. We will be doing the following steps on the OrangeHRM website:
 1. Goto OrangeHRM website using the action statement - Navigate to test data
@@ -44,8 +43,7 @@ Here’s a screenshot of the steps created in Testsigma:
 ![Test Steps of OrangeHRM Test Case with dynamic](https://docs.testsigma.com/images/with-parameter-test-data/Elements-test-steps-dynamic-locators.png)
 
 ---
-
-## **Actual Steps - Implementation**
+##**Actual Steps - Implementation**
 
 **Step 1: Navigate to https://orangehrm-demo-6x.orangehrmlive.com/auth/login**
 
@@ -78,8 +76,7 @@ This is the most important step in this tutorial. We need to click on the first 
 
 <br>
 ---
-
-## **Creating Dynamic Elements using parameter test data**
+##**Creating Dynamic Elements using parameter test data**
 As you can see on the above page, there is a list of Documents below the Pie Chart. On inspecting the page, you can see the HTML structure of the Documents div element as shown below:
 ![OrangeHRM Dashboard with First row selected](https://docs.testsigma.com/images/with-parameter-test-data/orangehrm-enterprise-dashboard-first-row-selected.png)
 
@@ -124,8 +121,7 @@ The **@|elements|** part will be replaced by the parameter value corresponding t
 <br>
 
 ---
-
-## **Run Results**
+##**Run Results**
 Once the Test Case is updated with the dynamic Element as given above, we can execute the Tests. Please follow this article to know more about executing Tests - <How to create/edit/delete Executions?>
 
 The Test Case iterates as many times as there are Test Data Sets(rows) in the Test Data Profile resulting in 4 iterations since we have four Test Datasets in the above Test Data Profile.

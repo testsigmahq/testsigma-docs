@@ -31,14 +31,12 @@ contextual_links:
 ---
 ---
 This guide walks you through creating an account and using Testsigma Cloud---
-
-## **Creating an account**
+##**Creating an account**
 &emsp;
 Go to [https://testsigma.com/signup](https://testsigma.com/signup) to create an account.
 
 ![Create a new project](https://docs.testsigma.com/images/testsigma-cloud/create-a-new-project.png)---
-
-## **Create a new project**
+##**Create a new project**
 &emsp;
 To create a new project follow these steps:
 * Click on **create a new project** and fill in the name and description
@@ -46,8 +44,7 @@ To create a new project follow these steps:
 * Select the type of application you’d like to test from - Web, Mobile-Web, Android, iOS or API
 * And that’s it! You’re ready to start testing
 ---
-
-## **Creating and running a test**
+##**Creating and running a test**
 &emsp;
 Follow these steps to write and run your first test case
 
@@ -77,26 +74,22 @@ Follow these steps to write and run your first test case
 
 [Click here](https://testsigma.com/docs/runs/adhoc-runs/) to learn more about Ad-Hoc runs
 ---
-
-## **Check your reports**
+##**Check your reports**
 &emsp;
 You can go to the run results section located in the test development tab to take a deep dive into detailed reports of your executions and use various filters to get different insights
 ---
-
-## **Try running data driven tests**
+##**Try running data driven tests**
 &emsp;
 Testsigma’s integrated test data profiles let you easily create or upload data sets to be used in your test cases. 
 ---
-
-## **Troubleshooting**
+##**Troubleshooting**
 
 * Connect with product experts on the team and in the Community on our [Discord](https://discord.com/invite/5caWS7R6QX/)
 * Troubleshooting problems? Report bugs as **Github issues**
 * Reach out to us at [support@testsigma.com](mailto:support@testsigma.com)
 * Refer to our [FAQ](https://testsigma.com/docs/getting-started/faqs/) section for answers to commonly asked questions.
 ---
-
-## **Next Steps**
+##**Next Steps**
 
 * [Take the complete course](https://testsigma.com/tutorials)
 

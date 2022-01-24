@@ -18,8 +18,7 @@ Verify that the workstation where you install the Testsigma Agent satisfies the 
 
 <br>
 ---
-
-## **Hardware Requirements** 
+##**Hardware Requirements** 
 
    **Memory:** Minimum 2 GB. Recommended 4GB (dedicated      memory for the tests).<br>
    **Disk space:** Around 2 GB (including reserved space for test resources such as screenshots, downloaded files etc.).<br>

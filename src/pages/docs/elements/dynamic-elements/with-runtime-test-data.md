@@ -26,8 +26,7 @@ You should be familiar with [Runtime Test Data](https://testsigma.com/docs/test-
 
 <br>
 ---
-
-## **Case Study - OrangeHRM**
+##**Case Study - OrangeHRM**
 
 Here, we will be using a popular application such as OrangeHRM for our demonstration. We will be doing the following steps on the OrangeHRM website:
 1. **Navigate to the OrangeHRM website**<br>
@@ -39,8 +38,7 @@ Here, we will be using a popular application such as OrangeHRM for our demonstra
 
 <br>
 ---
-
-## **Actual Steps - Implementation**
+##**Actual Steps - Implementation**
 1. **Navigate to https://opensource-demo.orangehrmlive.com**<br>
 This step is self-explanatory. Navigate to the OrangeHRM website using grammar Navigate to test data.
 
@@ -67,8 +65,7 @@ Verify that an element(welcome_ username_ link) with dynamic XPath containing th
 
 <br>
 ---
-
-## **Creating Dynamic Elements using run-time test data**
+##**Creating Dynamic Elements using run-time test data**
 In step #6, we are verifying that the page displays an Element 'welcome_ username_ link' containing text 'Welcome Admin'. Here, 'Admin' is the username that we got from the 'Username' field in step #4. 
 
 The username of the currently logged-in user can be dynamic and so we need to create a dynamic XPath containing the current Username.

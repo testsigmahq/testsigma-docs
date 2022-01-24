@@ -30,8 +30,7 @@ Sometimes, the update fails, due to bad network conditions or Firewall restricti
 
 <br>
 ---
-
-## **Location of Driver files**
+##**Location of Driver files**
 
 The Driver files are located under the following directories for the different Web Browsers:<br>
 - Google Chrome: < TestsigmaAgentDirectory >/drivers/googlechrome
@@ -44,8 +43,7 @@ The Driver files are located under the following directories for the different W
 
 <br>
 ---
-
-## **Downloading the Driver files**
+##**Downloading the Driver files**
 
 When new browser versions are released, a newer driver version will be released on [SeleniumHQ Downloads page](http://www.seleniumhq.org/download/).
 
@@ -57,8 +55,7 @@ And here are the direct links to WebDrivers of the most popular Browsers:<br>
 
 <br>
 ---
-
-## **Adding Drivers Manually**
+##**Adding Drivers Manually**
 
 We just need to download the corresponding file from the above link and place it in the correct directory.
 
@@ -85,8 +82,7 @@ Here’s a screenshot of the Agents folder for Testsigma Agent in Mac OS:
 
 <br>
 ---
-
-## **Additional Steps for Mac/Linux**
+##**Additional Steps for Mac/Linux**
 Apart from the above steps, there are some additional steps to be performed to avoid permission issues in Mac/Linux. This is due to the presence of executable bit permission for Unix-based Operating Systems.
 
 After placing the downloaded driver in the newly created folder, we need to perform the following steps:

@@ -18,15 +18,13 @@ Jenkins is an open-source automation server that automates the building, testing
 
 Testsigma provides a Jenkins plugin to automate Test Execution in your Jenkins Pipeline.
 ---
-
-## **Pre-requisites:**
+##**Pre-requisites:**
 
 Testsigma Test Plan Run - 1.1 - Jenkins Plugin
 
 You can install the Testsigma Test Plan run plugin installed from Jenkins Plugins page in your Jenkins Installation. You can also get it from here and place in your JENKINS_HOME/plugins directory -[Testsigma Jenkins Plugin direct link](https://plugins.jenkins.io/testsigma/)
 ---
-
-##  **How to add the execution step in Jenkins pipeline**
+## **How to add the execution step in Jenkins pipeline**
 
 If you have a Jenkins pipeline in place, skip to step 2. Otherwise, follow the steps below to create a new Pipeline. 
 

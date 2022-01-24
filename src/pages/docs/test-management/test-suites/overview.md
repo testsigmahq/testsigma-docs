@@ -32,8 +32,7 @@ The Test Suite is a set of Test Cases. It helps testers organize the Test Cases 
 
 &emsp;
 ---
-
-## **List Test Suites**
+##**List Test Suites**
 On the Test Suites page, you will have the below options:
 
 1. **Search option on the top right:**  To search for a test suite by name, use this. The search will filter all the test suite names that contain your search query.
@@ -77,8 +76,7 @@ More Test Cases can be added and removed from this page by clicking on the “Ad
  
 &emsp;
 ---
-
-## **Create Test Suite**
+##**Create Test Suite**
 Clicking on the Create button takes us to the Create Test Suite page as shown below
 
 ![create tests suite page in Testsigma](https://docs.testsigma.com/images/test-suites/create-test-suite-page-testsigma.png)
@@ -103,8 +101,7 @@ Enter the following details:
  
 &emsp;
 ---
-
-## **Adding Test Cases to Test Suite**
+##**Adding Test Cases to Test Suite**
 A click on “+ Add Test Cases”, from the “Create Test Suite” Page Or from an existing test suite page will take you to “Select Test Cases” overlay on the the onTest Suites page, as shown below:
 
 ![Select Test Cases Overlay to add test cases to test suites in Testsigma](https://docs.testsigma.com/images/test-suites/select-test-cases-overlay-test-suites-testsigma.png)
@@ -135,14 +132,12 @@ A sample Test Suite with all the required details and Test Cases selected is sho
 
 &emsp;
 ---
-
-## **Edit a Test Suite**
+##**Edit a Test Suite**
 To edit a test suite, click on the edit button next to the Test Suite name. Once the ‘Edit Test Suite’ page opens, you can follow the steps as mentioned in the Create Test Suite section above.
 
 &emsp;
 ---
-
-## **Delete a Test Suite**
+##**Delete a Test Suite**
 1. Hover over a Test Suite on the Tests Suites page and click on the “Delete button” next to the test suite name:
 
 ![delete button on test suites page in Testsigma](https://docs.testsigma.com/images/test-suites/delete-button-test-suites-page-testsigma.png)

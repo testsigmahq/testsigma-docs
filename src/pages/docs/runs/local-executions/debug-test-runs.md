@@ -78,8 +78,7 @@ If an Element has failed, navigate to the Elements page
 
 &emsp;
 ---
-
-## **Support**
+##**Support**
 
 If you’re unable to resolve the test failure, you can connect with our Support team on Discord or send us a mail at **[support@testsigma.com](mailto:support@testsigma.com)** describing the issue.
 

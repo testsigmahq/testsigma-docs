@@ -27,8 +27,7 @@ There are two ways you can provide the logs to the Testsigma Support team
 
 
 ---
-
-## **Send a Flare Request**
+##**Send a Flare Request**
 
 Once the agent is started, you can see the Testsigma Agent icon on the status bar(Mac/Linux) or System Tray(Windows). Here’s a preview from Mac:
 
@@ -43,8 +42,7 @@ Once the flare request is sent, follow up with the Support team to confirm deliv
 
 <br>
 ---
-
-## **Send the Logs manually**
+##**Send the Logs manually**
 
 You can find the Testsigma Agent logs folder for your machine as mentioned below:
 

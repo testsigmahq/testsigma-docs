@@ -21,8 +21,7 @@ Ad-hoc runs are used to verify the correctness of the Test Steps in a Test Case 
 
 &emsp;
 ---
-
-## **Pre-requisites:** 
+##**Pre-requisites:** 
 You should already know how to:
 1. [create a test case](https://testsigma.com/docs/test-cases/manage/add-edit-delete/).
    
@@ -30,8 +29,7 @@ You should already know how to:
 
 &emsp;
 ---
-
-## **How to perform ad-hoc runs for a test case in Testsigma**
+##**How to perform ad-hoc runs for a test case in Testsigma**
 1. Create a test case and write the test steps.
    
 2. On the right top corner, click on the “Run” button. This is the first step to start Ad-hoc run.

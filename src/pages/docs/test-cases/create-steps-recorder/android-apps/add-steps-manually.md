@@ -21,15 +21,13 @@ contextual_links:
 
 ---
 ---
-
-## **Introduction**
+##**Introduction**
 
 You can add more test steps to a pre-existing test case using the Recorder. Let’s see how. 
 
 &emsp;
 ---
-
-## **Pre-requisites:**
+##**Pre-requisites:**
 
 You should already know how to
 
@@ -39,8 +37,7 @@ You should already know how to
 
 &emsp;
 ---
-
-## **How to add test steps to a pre-existing test case via Recorder:**
+##**How to add test steps to a pre-existing test case via Recorder:**
 
  1. Create a test case for an android application.
  2. Go to the created test steps in the Recorder UI.

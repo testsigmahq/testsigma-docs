@@ -24,8 +24,7 @@ In this article, we will be outlining how to create dynamic locators using Envir
 
 <br>
 ---
-
-## **Using Environment Test Data to parameterize locators**
+##**Using Environment Test Data to parameterize locators**
 Suppose we need to locate the below element with the username text i.e  ‘admin’:
 ![Dropdown on profile avatar icon showing logout link and profile name](https://docs.testsigma.com/images/with-environment-data/profile-icon-dropdown-links-username.png)
 

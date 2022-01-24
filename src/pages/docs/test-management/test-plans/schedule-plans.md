@@ -23,16 +23,14 @@ With Testsigma, you can execute your test plans in real-time or schedule them fo
 
 &emsp;
 ---
-
-## **Pre-requisites:**
+##**Pre-requisites:**
 You should already know how to [create/edit/delete Test Plans](https://testsigma.com/docs/test-management/test-plans/overview/).
 
 We will look into the process of scheduling a Test Execution for an already created Test Plan in this article.
 
 &emsp;
 ---
-
-## **Schedule a Test Plan**
+##**Schedule a Test Plan**
 1. Go to ‘Test Case Development > Test Plans’
 You will be taken to the Test Plans page and you can see a list of already created test plans there as shown below:
 
@@ -71,8 +69,7 @@ e. **Frequency:** How often does the test plan execute? By default, frequency is
 
 &emsp;
 ---
-
-## **Edit Test Plan Schedule**
+##**Edit Test Plan Schedule**
 1. Navigate to: “Select Project > Test Development > Test Plans”
    
 2. On the Test Plans page, go to the Test Plan that you want to edit.

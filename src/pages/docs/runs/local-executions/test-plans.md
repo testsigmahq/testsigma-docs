@@ -15,8 +15,7 @@ contextual_links:
 ---
 You can execute your test plans on your local devices using Testsigma. Local execution is preferred for testing applications that are only available locally, for security or other purposes.
 ---
-
-## **How to perform test plan executions on local devices in Testsigma:**
+##**How to perform test plan executions on local devices in Testsigma:**
 There are four steps to running a test plan on a local device.
 
 ### Step 1: Download the Agent

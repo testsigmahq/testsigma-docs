@@ -52,8 +52,7 @@ Similarly, a lot of test cases require a set of test data on which they would ne
 Only if the test passes for all the test data inputs, the feature is considered to be bug free and moved to production. 
 
 ---
-
-## **Test Data types supported in Testsigma**
+##**Test Data types supported in Testsigma**
 
 1. Plain Text 
 2. Parameter
@@ -71,8 +70,7 @@ This gif depicts how to use the multiple types of test data that can be created 
 
 ![GIF test data input](https://docs.testsigma.com/images/types/gif-test-data-input.gif)
 ---
-
-## **1. Plain Text**
+##**1. Plain Text**
 
 
 With plain text, you can enter the hardcoded text as input data, for example - “1234”,”first name”, etc. Observe the screenshot below.
@@ -104,8 +102,7 @@ Learn more about [Raw Test Data Type](https://testsigma.com/docs/test-data/types
 
 
 ---
-
-## **2. Parameter** 
+##**2. Parameter** 
 
 
 With parameter test data, you can directly use a parameter available in your test data profile. When you click on the parameter data type, a right-side panel with different available parameters will allow you to choose the specific parameter you need for your test case. 
@@ -133,8 +130,7 @@ Please refer to this tutorial for more details on performing [Data-driven Testin
 
 
 ---
-
-## **3. Runtime** 
+##**3. Runtime** 
 
 Runtime Test Data is used to store data obtained during the run-time i.e during the execution of Test Cases. 
 
@@ -158,8 +154,7 @@ After reloading the page, the page title is checked again using the 'The page ti
 Learn more - [Runtime Test Data](https://testsigma.com/docs/test-data/types/runtime/)
 
 ---
-
-## **4. Environment** 
+##**4. Environment** 
 
 
 The Environment Set is used to store data that is to be used across Execution Environments.
@@ -179,8 +174,7 @@ URL and login details for the user in different environments(Production, Testing
 
 Learn more - [Environment Test Data](https://testsigma.com/docs/test-data/types/environment/)
 ---
-
-## **5. Random** 
+##**5. Random** 
 
 Random Test Data can be used to generate random values for usage in the Test Case execution.
 
@@ -197,8 +191,7 @@ An alphanumeric string of N random characters is supplied by Testsigma when it s
 
 Learn more - [Random Test Data](https://testsigma.com/docs/test-data/types/random/)
 ---
-
-## **6. Data Generators**
+##**6. Data Generators**
 
 Test Data Generator Functions are available by default for dynamic Test Data. These Data Generators are invoked by using the !|Data Generator| format where Data Generator is replaced by the actual name.
 
@@ -206,8 +199,7 @@ Test Data Generator Functions are available by default for dynamic Test Data. Th
 
 Learn more - [Test Data Generator](https://testsigma.com/docs/test-data/types/data-generator/) 
 ---
-
-## **7. Phone Number** 
+##**7. Phone Number** 
 
 When doing OTP-based testing, for example, while testing two-factor authentication - test cases might require an input phone number in working condition to receive SMS-based codes. For this purpose, Testsigma provides a test phone number and this data can be used in your test steps using the phone number test data. 
 
@@ -218,8 +210,7 @@ Learn more - [Phone Number Test Data](https://testsigma.com/docs/test-data/types
 Refer to this tutorial for more details on automating [SMS based two factor authentication](https://testsigma.com/tutorials/advanced/sms-based-two-factor-authentication-2fa) 
 
 ---
-
-## **Mailbox**
+##**Mailbox**
 
 There are times when you would need access to a mailbox, this could be when you are testing a workflow that involves sending an OTP to an email or when an activation link is sent. You can do that via Testsigma.
 

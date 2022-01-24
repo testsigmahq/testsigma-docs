@@ -19,8 +19,7 @@ contextual_links:
 ---
 In this document, we will discuss the generic shell script - for both PowerShell and Unix shell - that can be used to integrate Testsigma with any CI/CD tool.
 ---
-
-## **Pre-requisites:**
+##**Pre-requisites:**
 You should already know how to 
  1. [generate an API key from Settings.](https://testsigma.com/docs/configuration/api-keys/)
  2. [Get Test Plan ID from an existing Test Plan.](https://testsigma.com/docs/continuous-integration/get-test-plan-details/)
@@ -155,8 +154,7 @@ checkTestPlanRunStatus
 saveFinalResponseToAFile'
 ```
 ---
-
-## **For Unix shell Script (Bash Script):**
+##**For Unix shell Script (Bash Script):**
 
 1. Generate the API key from Configurations > API Keys, let’s call it - TESTSIGMA_API_KEY
 

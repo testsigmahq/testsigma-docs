@@ -31,8 +31,7 @@ Let’s begin:
 
 **Application Under Test** - https://travel.testsigma.com/signup
 ---
-
-## **Test Data Required -**
+##**Test Data Required -**
 
 Let’s say this data is required every time you test the sign up on Spotify:
 1. Email
@@ -47,8 +46,7 @@ In this example, we show you how to create a subset of the Spotify sign-up test 
 
 Then there will be times when you will write test data for which the test case should fail. We will discuss that scenario in the section ‘Expected-to-fail Test Data’.
 ---
-
-## **How to create a test data profile:**
+##**How to create a test data profile:**
 
 Follow these steps to create and use Test Data Profiles in your Tests.
 
@@ -77,25 +75,21 @@ Alternatively, below is a quick gif that demonstrates the workflow to create a t
 
    ![gif demonstrating creating test data profiles in Testsigma](https://docs.testsigma.com/images/create-data-profiles/creating-test-data-profiles-gif.gif)
 ---
-
-## **Steps to follow to create test data that is expected to fail the test case:**
+##**Steps to follow to create test data that is expected to fail the test case:**
 The steps to create test data that is expected to fail a test case is similar to the steps to create general test data that would pass the test case. The difference is just that the toggle button under the column “EXPECTED TO FALL” needs to be enabled and would look like the screenshot below:
 
    ![creating test data profile to fail a test case in Testsigma](https://docs.testsigma.com/images/test-data/creating-test-data-profile-to-fail-test-case.png)
 
 ---
-
-## **How to use this data in your test case**
+##**How to use this data in your test case**
 Below, we discuss an example that associates the test data with a test case. 
 ---
-
-## **Pre-requisites:**
+##**Pre-requisites:**
 
 
 You should know how to create a test case, if not, please refer to the document [here](https://testsigma.com/docs/test-cases/manage/add-edit-delete/).
 ---
-
-## Step 1: Associate this test data profile with your test case
+##Step 1: Associate this test data profile with your test case
 
 * Create a new test case
 * In the advanced options menu, choose the test data profile from the dropdown
@@ -104,8 +98,7 @@ You should know how to create a test case, if not, please refer to the document 
 
 ![associate a test data profile to a test case in Testsigma](https://docs.testsigma.com/images/test-data/associate-test-data-profile-to-test-case.gif)
 ---
-
-## Step 2: Insert the test data into your test case
+##Step 2: Insert the test data into your test case
 * Create test steps as below 
 Navigate to https://travel.testsigma.com/signup
 

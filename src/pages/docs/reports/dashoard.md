@@ -26,8 +26,7 @@ On the top left corner, you can find the **Project Switcher** that helps you to 
 
 On the right corner, you see a link to the Offers page, Tutorials page, Feedback page, and a **Create New** button that helps you to create any entity quickly.
 ---
-
-## There are a number of sections within the page that gives us detailed information regarding various components such as:
+##There are a number of sections within the page that gives us detailed information regarding various components such as:
 * **Latest Runs:** Details of the Latest Executions for the current Project are included here.
 * **Run Details:** Detailed descriptions of the Latest Executions with links to the Run Results are given here.
 * **Test Cases Overview:** One-click links to filtered list of Test Cases on the basis of latest Test Run Result

@@ -19,8 +19,7 @@ Sometimes, during test creation, we need to capture the details of multiple elem
 
 <br>
 ---
-
-## **Pre-requisite**
+##**Pre-requisite**
 
 You should have the Testsigma test step recorder chrome extension already installed. If not, then refer to the document [here](https://testsigma.com/docs/test-step-recorder/install-chrome-extension/).
 

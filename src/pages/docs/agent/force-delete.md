@@ -27,8 +27,7 @@ Click on the Testsigma Agent icon to reveal the menu and click on the Quit optio
 
 <br>
 ---
-
-## **Location of Testsigma Agent Configuration file (agent.properties)**
+##**Location of Testsigma Agent Configuration file (agent.properties)**
 
 The Testsigma Configuration/Log files are located at the following locations depending on the Operating System used:
 

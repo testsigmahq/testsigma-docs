@@ -19,14 +19,12 @@ contextual_links:
 ---
 Integrating Testsigma with Microsoft Teams is similar to integrating with other collaboration tools like Google Chat and Slack.
 ---
-
-## **Prerequisites**
+##**Prerequisites**
 
 We need a Microsoft Teams Connector to integrate with Testsigma. To know how to generate an Incoming Webhook in MS Teams, refer [Create an incoming Webhooks | MS Teams](https://docs.microsoft.com/en-us/microsoftteams/platform/webhooks-and-connectors/how-to/add-incoming-webhook)<br>
 Microsoft Teams Connector is an Incoming Webhook mapped to a specific Channel in your organization and we will be using the connector to post the Test Results on that Teams channel.
 ---
-
-## **Integrating Microsoft Teams with Testsigma**
+##**Integrating Microsoft Teams with Testsigma**
 
 Once the Connector URL is obtained, navigate to the Plugins page through Dashboard > Settings > Plugins and select MS Teams under the Collaborations Tab.
    1. Click on the disabled Icon on MS Teams. MS Teams Details overlay opens up as shown below:
@@ -34,8 +32,7 @@ Once the Connector URL is obtained, navigate to the Plugins page through Dashboa
    2. Enter the incoming webhook URL obtained from MS Teams in the **Connector URL** field.<br>
    After entering the details, click on the Create button to add the Integration.
 ---
-
-## **Enabling MS Teams notifications in Test Plan**
+##**Enabling MS Teams notifications in Test Plan**
 
 Once the MS Teams integration is added, you can enable the MS Teams notifications for your Test Plans while editing any of your existing Test Plans or while creating a new Test Plan.
 

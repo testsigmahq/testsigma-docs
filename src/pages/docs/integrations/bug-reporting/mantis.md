@@ -23,8 +23,7 @@ Testsigma Mantis integration lets you create issues in Mantis directly from the 
 
 In this document, we will discuss how to establish Integration with Mantis from your Testsigma account and how to create the first bug from Testsigma which can flow into Mantis.
 ---
-
-## **Prerequisites**
+##**Prerequisites**
 
 To integrate Mantis with Testsigma, we need the following information from your Mantis Account
   * Account URL - Your organization’s Mantis Account URL
@@ -33,8 +32,7 @@ To integrate Mantis with Testsigma, we need the following information from your 
 
 You should already know about [Test Plan Runs and results](https://testsigma.com/docs/runs/test-plan-executions/).
 ---
-
-## **Integrating Mantis with Testsigma**
+##**Integrating Mantis with Testsigma**
 
 Once the above details are obtained, navigate to the Plugins page through **Dashboard > Settings > Plugins** and select Mantis under the Bug Reporting Tab.
 
@@ -44,8 +42,7 @@ Click on the Disabled Icon on **Mantis**. Mantis Details overlay opens up as sho
 
 Enter the details as mentioned in Prerequisites. After entering the details, click on the Create button to add the Integration.
 ---
-
-## **Creating a bug**
+##**Creating a bug**
 
 We can create a bug within Testsigma from the run results page for a particular Test Plan with the following steps:
 

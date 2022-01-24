@@ -21,15 +21,13 @@ Sometimes, when you update your website or application, you’ll also want to up
 
 &emsp;
 ---
-
-## **Pre-requisites:**
+##**Pre-requisites:**
 
 You should already know how to [capture elements.](https://testsigma.com/docs/elements/web-apps/record-multiple-elements/)
 
 &emsp;
 ---
-
-## **Updating elements via Testsigma’s test recorder chrome extension**
+##**Updating elements via Testsigma’s test recorder chrome extension**
 
  1. Create a Test Case using the Testsigma recorder. 
  2. Click on the element/Elements that you want to edit. The Elements appear in green on the Testsigma recorder UI. 

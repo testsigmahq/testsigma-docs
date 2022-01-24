@@ -35,8 +35,7 @@ Here, we will discuss how to add/edit/delete test machines when a Test Plan is a
 
 &emsp;
 ---
-
-## **Approach 1: Add Test Machine via the Edit Test Plan page**
+##**Approach 1: Add Test Machine via the Edit Test Plan page**
 1. Go to the Test Plans page here: Select Project > Test Development > Test Plan 
    
 2. Click on an existing test plan and click on ‘Edit Button’ on the top right corner, the page should look something like below:
@@ -104,8 +103,7 @@ In case you need to delete an already added Test Machine in a Test Plan, you wil
 
 ![delete test machines on Edit Test Plan page in Testsigma](https://docs.testsigma.com/images/manage-test-machines/delete-test-machines-edit-test-plan-testsigma.png)
 ---
-
-## **Approach 2: add/edit/delete test machines via the Test Plan details specific tab**
+##**Approach 2: add/edit/delete test machines via the Test Plan details specific tab**
 1. Go to the Test Plan details page as explained in the previous sections
    
 2. Go to the tab ‘Test Machines’ on the Test Plan details page as shown in the screenshot below:

@@ -21,8 +21,7 @@ When you record elements via Testsigma test recorder chrome extension, they are 
 
 &emsp;
 ---
-
-## **Pre-requisites:**
+##**Pre-requisites:**
 
  You should already know how-to, or have:
 
@@ -33,8 +32,7 @@ When you record elements via Testsigma test recorder chrome extension, they are 
 
 &emsp;
 ---
-
-## **Reusing elements recorded via the Testsigma test recorder chrome extension:**
+##**Reusing elements recorded via the Testsigma test recorder chrome extension:**
 
  1. Create a new test case in the same Project.
  2. Start recording the test steps.

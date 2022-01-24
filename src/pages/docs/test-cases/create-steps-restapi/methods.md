@@ -26,8 +26,7 @@ contextual_links:
 You should be familiar with HTTP methods and the basics of RESTful Web Services and APIs. For more details on Header and Body comparison modes in web services testing, see [Comparison Modes in Web Services Testing](https://testsigma.com/docs/test-cases/create-steps-restapi/comparison-types/)
  
  ---
-
-## **Resources**
+##**Resources**
 We will use the following API Endpoints for our examples:
 
 https://jsonplaceholder.typicode.com/posts
@@ -42,8 +41,7 @@ Let us see how each request type is tested in Testsigma.
 
  ---
 ---
-
-## **How to create a RESTful Test Step**
+##**How to create a RESTful Test Step**
 See [How to add Test Steps for Web Service/API Testing](https://testsigma.com/docs/test-cases/create-steps-restapi/overview/).
  
 Once you are in the Create Test Step wizard,
@@ -244,8 +242,7 @@ We will be using Testsigma to verify the Status Code of the response for a PATCH
 
 ![verify response tab for verifying a patch request when testing rest api http methods](https://docs.testsigma.com/images/methods/verify-response-verify-patch-request-rest-api-http-methods.png)
 ---
-
-## **Automatically Follow Redirects Toggle:**
+##**Automatically Follow Redirects Toggle:**
 Automatically Follow Redirects, also known as URL forwarding, is a technique to give more than one URL address to a page, a form, or a whole Web site/application. HTTP has a special kind of response, called an HTTP redirect, for this operation.
 Redirects accomplish numerous goals:
  

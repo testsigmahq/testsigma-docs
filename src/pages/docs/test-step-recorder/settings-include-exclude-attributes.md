@@ -21,8 +21,7 @@ Sometimes, while capturing elements from your website, you would want to exclude
 
 &emsp;
 ---
-
-## **Pre-requisites:**
+##**Pre-requisites:**
 You should  already have and know:
 1. [installed Testsigma test recorder for google chrome](https://testsigma.com/docs/test-step-recorder/install-chrome-extension/).
    
@@ -30,8 +29,7 @@ You should  already have and know:
    
 &emsp;
 ---
-
-## **Steps to follow:** 
+##**Steps to follow:** 
 1. Start recording a test case via the Testsigma test step recorder.
     
 2. On the Testsigma test step recorder, hover over the settings button on the top right, also highlighted in the screenshot below:

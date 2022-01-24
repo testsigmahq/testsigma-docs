@@ -25,8 +25,7 @@ When automating test cases for an iOS application, you may sometimes want to cap
 
 <br>
 ---
-
-## **Pre-requisites** 
+##**Pre-requisites** 
 
 You should already know:
 1. About Projects overview.
@@ -41,8 +40,7 @@ See uploading apps to Testsigma.
 
 <br>
 ---
-
-## **How to record multiple elements for an iOS project in Testsigma**
+##**How to record multiple elements for an iOS project in Testsigma**
 
 1. On the ‘All Elements’ page, click on the ‘Record’ button on the top right corner of the page:
 ![record button under record multiple elements for an iOS project in Testsigma](https://docs.testsigma.com/images/record-multiple-elements/record-button-record-multiple-elements-ios-testsigma.png)

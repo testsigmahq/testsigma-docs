@@ -21,8 +21,7 @@ There are times when you want to add more elements while adding test steps in a 
 
 &emsp;
 ---
-
-## **Pre-requisites**
+##**Pre-requisites**
 
 We assume that you
  1. Have installed the [Test Recorder](https://testsigma.com/docs/test-step-recorder/install-chrome-extension/). Learn more about the [Test Recorder.](https://testsigma.com/docs/test-cases/create-steps-recorder/web-apps/overview/)
@@ -31,8 +30,7 @@ We assume that you
 
 &emsp;
 ---
-
-## **Steps to follow**
+##**Steps to follow**
  1. Create a new test case or go to an existing test case. 
  2. Add a test step to the test case. The language for the test step should contain an Element. For inspiration, check the screenshot below:
 

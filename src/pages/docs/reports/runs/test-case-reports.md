@@ -19,8 +19,7 @@ contextual_links:
 ---
 ---
 ---
-
-## **Navigation:** Select Project > Test Development > Run Results
+##**Navigation:** Select Project > Test Development > Run Results
 
 
 
@@ -29,8 +28,7 @@ Here is a quick gif that demonstrates how to group reports on the basis of test 
 ![gif to access test case reports in Testsigma](https://docs.testsigma.com/images/test-case-reports/gif-get-test-case-reports-testsigma.gif)
 
 ---
-
-## **How to generate Test Case Reports:**
+##**How to generate Test Case Reports:**
 
 1. Select the project for which you need the reports
 2. Navigate to “Test Development > Run Results”, you should see a page as below:
@@ -51,8 +49,7 @@ Here is a quick gif that demonstrates how to group reports on the basis of test 
 
    ![Other options to filter and search test case results in Testsigma](https://docs.testsigma.com/images/test-case-reports/test-case-results-other-options-to-filter-search-testsigma.png)
 ---
-
-## These actions are:
+##These actions are:
 1. **Search the results:** the run results can be filtered by name here
 2. **Rerun the failed test cases or rerun all test cases:** You can click on any of the options to initiate reruns of the test cases accordingly. Read more about [test reruns](https://testsigma.com/docs/reports/runs/rerun/).
 3. **Export the results:** Here, you can export the run results in the form of xls or xml. Read more about [exporting as xls](https://testsigma.com/docs/reports/runs/export-report-xls/) and [exporting as xml](https://testsigma.com/docs/reports/runs/export-report-junit/).

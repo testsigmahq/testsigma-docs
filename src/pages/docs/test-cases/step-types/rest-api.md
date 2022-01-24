@@ -21,15 +21,13 @@ While creating web or mobile application test cases, you can include REST API re
 
 &emsp;
 ---
-
-## **Prerequisites**
+##**Prerequisites**
 
 This document is written with the assumption that you know how to create a test case, if not, please refer to the document [here](https://testsigma.com/docs/test-cases/manage/add-edit-delete/).
 
 &emsp;
 ---
-
-## **How to Add REST API Step**
+##**How to Add REST API Step**
 
 ![gif shows authoring test with restful api test-step](https://docs.testsigma.com/images/rest-api/gif-shows-authoring-test-with-restful-api-test-step.gif)
 

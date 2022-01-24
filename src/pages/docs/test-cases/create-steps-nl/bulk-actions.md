@@ -30,8 +30,7 @@ When test steps are created, Testsigma gives you the option to select multiple t
 
 &emsp;
 ---
-
-## **Pre-requisites:**
+##**Pre-requisites:**
 
 You should know how to 
 
@@ -40,8 +39,7 @@ You should know how to
 
 &emsp;
 ---
-
-## **How to bulk edit multiple test steps:**
+##**How to bulk edit multiple test steps:**
 
  1. Create a test case. And then go to the created test steps.
  2. To select a step, hover over the test step number. The number will change into a checkbox:
@@ -59,8 +57,7 @@ Now, let’s discuss bulk actions:
 
 &emsp;
 ---
-
-## **1. Bulk Update**
+##**1. Bulk Update**
 
 ![bulk update form in Testsigma](https://docs.testsigma.com/images/bulk-actions/bulk-update-form-testsigma.png)
 
@@ -74,16 +71,14 @@ To save the changes you made on the bulk update form, you need to click on the �
 
 &emsp;
 ---
-
-## **2. Create Step Group**: 
+##**2. Create Step Group**: 
 You can save the selected test steps as a step group. To do this, click on ‘Create Step Group’, name the step group and click ‘Create’ to save the step group:
 
 ![create step group window popup in Testsigma](https://docs.testsigma.com/images/bulk-actions/create-step-group-window-pop-up-testsigma.png)
 
 Step groups are reusable. Learn more about [step groups](https://testsigma.com/docs/test-cases/step-types/step-group/).
 ---
-
-## **3. Delete**:
+##**3. Delete**:
  Delete selected test steps by clicking on the ‘Delete’ button.
 
 

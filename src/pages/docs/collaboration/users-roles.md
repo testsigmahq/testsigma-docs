@@ -23,8 +23,7 @@ When a user is added in Testsigma, they can be assigned various roles. This docu
 
 &emsp;
 ---
-
-## **Roles in Testsigma**
+##**Roles in Testsigma**
 Below are the four roles that can be assigned to a project member in Testsigma:
 
 1.**Super Administrator**
@@ -44,8 +43,7 @@ A user in the role of ‘Account Administrator’ has all the rights as a Super 
 
 &emsp;
 ---
-
-## **Edit Users to Assign New Roles**
+##**Edit Users to Assign New Roles**
 
 1.Go to ‘Settings > Users’, you should see a page like this:
 
@@ -67,8 +65,7 @@ From here, you can fill up the required fields, and change the user role as need
 
 &emsp;
 ---
-
-## **Assign Roles to Users**
+##**Assign Roles to Users**
 
 1.To assign a project with a particular role to an existing user, refer to [assigning projects](https://testsigma.com/docs/collaboration/assign-projects/)
 

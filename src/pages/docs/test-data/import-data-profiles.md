@@ -18,8 +18,7 @@ contextual_links:
 
 In Testsigma, you can import a test data profile and then use it as test data in your test cases. Importing a test data profile is simple. In this document, we will discuss how to do that.
 ---
-
-## **Pre-requisites:**
+##**Pre-requisites:**
 
 To import a test data profile, you first need an xlsx file that has the data in a supported format. 
 
@@ -42,8 +41,7 @@ Below is an example of the data that an xlsx file should have. Testsigma expects
 |Iteration9|Ninth value|YES|username9|password9|
 |Iteration10|Tenth value|NO|username10|password10|
 ---
-
-## **Steps to follow:**
+##**Steps to follow:**
 
 
 1. Navigate to the Test Development > Test Data Profile page

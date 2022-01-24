@@ -18,16 +18,14 @@ contextual_links:
 ---
 
 ---
-
-## **Pre-requisites**:
+##**Pre-requisites**:
 You should know how to:
  1. [Create a test case.](https://testsigma.com/docs/test-cases/manage/add-edit-delete/)
  2. [Create test steps.](https://testsigma.com/docs/test-cases/create-steps-nl/overview/)
 
 &emsp;
 ---
-
-## **Steps to follow:**
+##**Steps to follow:**
 Once the test case is created and the test steps have been added
  1. Hover on the test step after (or before) which you want to add more test steps. 
 

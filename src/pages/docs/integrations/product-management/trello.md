@@ -22,8 +22,7 @@ With Testsigma and Trello integration, you can push bugs directly from Testsigma
 
 In this document, we will discuss how to establish Integration with Trello from your Testsigma account and how to create the first bug from Testsigma which can flow into Trello.
 ---
-
-## **Prerequisites**
+##**Prerequisites**
 
 To integrate Trello with Testsigma, you need the following information from your Trello Account<br>
   *  User Token
@@ -32,8 +31,7 @@ You can get both from https://trello.com/app-key
 
 You should also be familiar with [Test Plan Runs](https://testsigma.com/docs/runs/test-plan-executions/).
 ---
-
-## **Integrating Trello with Testsigma**
+##**Integrating Trello with Testsigma**
 
 Once the above details are obtained, navigate to the Plugins page through **Dashboard > Settings > Plugins** and select Trello under the Bug Reporting Tab.
 
@@ -43,8 +41,7 @@ Click on the Disabled Icon on **Trello**. Trello Details overlay opens up as sho
 
 Enter the details as mentioned in Prerequisites. After entering the details, click on the Create button to add the Integration.
 ---
-
-## **Creating a bug**
+##**Creating a bug**
 
 We can create a bug within Testsigma from the run results page for a particular Test Plan with the following steps:
 

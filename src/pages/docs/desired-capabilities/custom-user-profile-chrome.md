@@ -21,8 +21,7 @@ To do the same, create a new profile, customize it as per your requirements by i
 
 You should already know how to add Desired Capabilities to your Tests. See [Desired Capabilities - Overview](https://testsigma.com/docs/desired-capabilities/overview/)
 ---
-
-## **Steps for using Custom User Profile in Testsigma**
+##**Steps for using Custom User Profile in Testsigma**
 
 1. Finding your current Profile path
 2. Making changes in the Profile folder

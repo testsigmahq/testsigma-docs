@@ -35,8 +35,7 @@ When editing an existing Test Plan.
 
 &emsp;
 ---
-
-## **When creating a new Test Plan**
+##**When creating a new Test Plan**
 1. On the Test Plan page, click on the +Test Plan button:
 
 ![test plan page in Testsigma](https://docs.testsigma.com/images/cross-browser-testing/test-plan-page-testsigma.png)
@@ -74,8 +73,7 @@ Your Test Plan is now all set to run your distributed tests on the configured te
 
 &emsp;
 ---
-
-## **When editing an existing Test Plan**
+##**When editing an existing Test Plan**
 Here, we will edit a Test Plan that was created with Test type ‘Cross-Browser Testing’ to ‘Distributed Testing’.
  
 1. On the Test Plans page, click on a Test Plan name to open the details page for that Test Plan, the Test Plan Details page will look something like below

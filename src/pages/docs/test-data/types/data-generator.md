@@ -15,8 +15,7 @@ contextual_links:
 
 You can generate test data within Testsigma using the built-in functions. Let’s see how.
 ---
-
-## Consider an example test case where you need to fill a form. The form contains:
+##Consider an example test case where you need to fill a form. The form contains:
 
 1. Username - needs to input a unique username
 2. Email ID - needs to input an alphanumeric set of input

@@ -33,8 +33,7 @@ There are two ways to add/edit a test suite in a test plan:
 
 &emsp;
 ---
-
-## **Approach 1: Add/Edit Test Suite via the Edit Test Plan Page**
+##**Approach 1: Add/Edit Test Suite via the Edit Test Plan Page**
 1. Go to the Test Plans page here: Select Project > Test Development > Test Plan
     
 2. Click on an existing test plan, the page should look something like this:
@@ -77,8 +76,7 @@ If you are satisfied with the changes, click on the “Next” button and then o
 
 &emsp;
 ---
-
-## **Approach 2: Add/Edit Test Suite via the Test Plan Details Specific Tab**
+##**Approach 2: Add/Edit Test Suite via the Test Plan Details Specific Tab**
 
 1. Go to the Test Plan page here: Select Project > Test Development > Test Plan
    

@@ -30,8 +30,7 @@ The steps would be:
 
 &emsp;
 ---
-
-## **Creating Test Steps**
+##**Creating Test Steps**
 After creating a new Test Case or opening an existing Test Case, we will be taken to the Test Case page as shown below:
 
 ![Default navigate step present on creating Test Case](https://docs.testsigma.com/images/create-steps-nl/simply-travel-test-case-default-navigate-step.png)

@@ -26,16 +26,14 @@ There would be times when you would update the structure of your website or appl
 
 &emsp;
 ---
-
-## **Pre-requisites:**
+##**Pre-requisites:**
 
  1. Your project should already have the element that you want to update. To know how to capture elements, refer to [record multiple elements.](https://testsigma.com/docs/elements/web-apps/record-multiple-elements/)
  2. You should know how to navigate to the Elements page. If not, refer to [Elements - overview.](https://testsigma.com/docs/elements/web-apps/overview/)
 
 &emsp;
  ---
-
-## **How to update one element at a time:**
+##**How to update one element at a time:**
 
  1. To update an element, go to ‘Test Development > Elements’
  2. ‘All UI identifiers’ page will appear that contains all the elements in the selected project:
@@ -54,8 +52,7 @@ Edit the element and click on ‘Update’ to save the changes.
 
 &emsp;
 ---
-
-## **How to update multiple elements at once:**
+##**How to update multiple elements at once:**
 
  1. Go to ‘Test Development > Elements’
  2. On the top right, there is an option to export the elements in excel format. Click it:

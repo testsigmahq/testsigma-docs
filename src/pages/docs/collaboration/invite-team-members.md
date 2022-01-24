@@ -28,16 +28,14 @@ You can add unlimited team members to your project and assign them different rol
 
 &emsp;
 ---
-
-## **Pre-requisites**
+##**Pre-requisites**
 1. You need a project in which you want to invite your team members. If you don’t have a project, click [here](https://testsigma.com/docs/projects/overview/) to know how to create a project.
 
 2. You should either have the role of super administrator or test manager and should be assigned to the project. 
 
 &emsp;
 ---
-
-## **Adding a team member to one project from the project’s settings:**
+##**Adding a team member to one project from the project’s settings:**
 1. Login to your account on Testsigma
 
 2. Select the project you need to add your team members to.
@@ -56,8 +54,7 @@ You can add unlimited team members to your project and assign them different rol
 
 &emsp;
 ---
-
-## **Invite a team member to multiple projects from the global settings:**
+##**Invite a team member to multiple projects from the global settings:**
 1. Go to ‘Settings > Users’, you should see a page like this:
 
 ![Users page in Testsigma](https://docs.testsigma.com/images/invite-team-members/users-page-testsigma.png)

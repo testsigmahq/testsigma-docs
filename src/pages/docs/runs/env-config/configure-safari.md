@@ -24,8 +24,7 @@ Safari provides native support for the WebDriver API starting with Safari 10 on 
 
 &emsp;
 ---
-
-## **Configuring Safari 10.1+ to allow automation**
+##**Configuring Safari 10.1+ to allow automation**
 Safari’s Automation support is turned off by default. To turn on Automation support, follow the steps below:
 1. Ensure that the ‘Develop‘ menu is available. It can be turned on by opening Safari preferences (‘Safari > Preferences’ in the menu bar), going to the ‘Advanced’ tab, and ensuring that the ‘Show Develop menu’ in the menu bar checkbox is checked.
 Here's a visual guide for enabling Develop Menu in Safari:
@@ -40,8 +39,7 @@ As specified earlier, you do not need to download anything extra since everythin
 
 &emsp;
 ---
-
-## **Safari versions lower than 10.1**
+##**Safari versions lower than 10.1**
 1. Go to 'Preferences' and switch to the ‘Extensions' tab to check if Selenium Driver is installed. If not installed, go to the SeleniumHQ Downloads page and download the latest release under the SafariDriver section.
    
 2. Double-click to install the "SafariDriver.safariextz" safari extension file and enable it in the Extensions menu in Safari.

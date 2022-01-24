@@ -23,8 +23,7 @@ Testsigma community and engineering team.
 
 &emsp;
 ---
-
-## **Registering for Testsigma Community Cloud**
+##**Registering for Testsigma Community Cloud**
 In your **Testsigma Application:**<br>
 &emsp;**-**&emsp;Go to Settings<br>
 &emsp;**-**&emsp;Click on **Testsigma Cloud (CE)** option <br>

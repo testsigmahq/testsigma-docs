@@ -24,23 +24,20 @@ Elements Repository is a shared list that contains all the elements created in a
 
 <br>
 ---
-
-## **Affected List**
+##**Affected List**
 The affected List column in the Elements page shows the Test Cases that will be affected by modification on the corresponding element.
 
 The Test Suites and the Test Plans containing these Test Cases can also be viewed from this page.
 
 <br>
 ---
-
-## **Sort Elements $elements-sort**
+##**Sort Elements $elements-sort**
 The Elements list can be sorted on the basis of Name, Created Date, and Update Date in ascending or descending order.
 
 ![Sort Elements](https://docs.testsigma.com/images/elements/elements-sort.png)
 
 ---
-
-## **Filter Elements**
+##**Filter Elements**
 To filter Elements, click on the Filter icon on the top left corner of the Elements List page. In the overlay that opens up, you can see the following options for filtering the Elements:
 * Name
 * Type

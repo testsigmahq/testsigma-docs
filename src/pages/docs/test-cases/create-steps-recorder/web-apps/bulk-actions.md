@@ -21,8 +21,7 @@ When test steps are recorded via Testsigma test recorder, Testsigma gives you th
 
 &emsp;
 ---
-
-## **Pre-requisites:**
+##**Pre-requisites:**
 
 You should already know how-to, or have:
 
@@ -31,8 +30,7 @@ You should already know how-to, or have:
 
 &emsp;
 ---
-
-## **Bulk actions on recorded test steps in Testsigma’s test recorder UI:**
+##**Bulk actions on recorded test steps in Testsigma’s test recorder UI:**
 
  1. Create a Test Case using Testsigma recorder with multiple test steps.
  2. To select a step, hover over the test step number. The number will change into a checkbox:

@@ -61,8 +61,7 @@ Testsigma Recorder lets you generate test steps automatically in plain English, 
 
 &emsp;
 ---
-
-## **Pre-requisites**:
+##**Pre-requisites**:
 
 This document assumes that you know how to:
 
@@ -76,8 +75,7 @@ Given below are the controls and actions available in Testsigma’s test step re
  
  &emsp;
 ---
-
-## **1. Mirroring Mode**
+##**1. Mirroring Mode**
 
  This mode enables the device screen mirroring and you can interact in real-time with the device.
 
@@ -85,8 +83,7 @@ Given below are the controls and actions available in Testsigma’s test step re
 
 &emsp;
 ---
-
-## **2. Inspection Mode**
+##**2. Inspection Mode**
  This mode is used for capturing the element details.
     * Click on inspection mode.
     * Tap on any element you need to do tap action.
@@ -98,8 +95,7 @@ Given below are the controls and actions available in Testsigma’s test step re
 
 &emsp;
 ---
-
-## **3. Do Swipe Action**
+##**3. Do Swipe Action**
   For performing any swipe action in the application.
     * Click on Do swipe action.
     * Double click on the area in the application UI from  where you need to start swiping.
@@ -110,8 +106,7 @@ Given below are the controls and actions available in Testsigma’s test step re
 
 &emsp;
 ---
-
-## **4. Do click Action**
+##**4. Do click Action**
  For clicking on elements in the application.
     * Click on the Do Click action option.
     * Tap on any element on the application to do a click action.
@@ -127,24 +122,21 @@ Given below are the controls and actions available in Testsigma’s test step re
 
 &emsp;
 ---
-
-##  **6. Home**
+## **6. Home**
  For going to the device home screen.
 
 ![go to homepage for android step recorder in Testsigma](https://docs.testsigma.com/images/controls-and-actions/go-to-homepage-android-step-recorder.png)
 
 &emsp;
 ---
-
-## **7. Refresh Screenshot**
+##**7. Refresh Screenshot**
  For refreshing the current application page.
 
 ![refresh screenshot for android step recorder in Testsigma](https://docs.testsigma.com/images/controls-and-actions/refresh-screenshot-android-step-recorder.png)
 
 &emsp;
 ---
-
-## **8. Change to Landscape/Portrait mode**
+##**8. Change to Landscape/Portrait mode**
 
 Changes the screen orientation to Landscape/Portrait mode. 
 
@@ -152,8 +144,7 @@ Changes the screen orientation to Landscape/Portrait mode.
 
 &emsp;
 ---
-
-##  **9. Search Element**
+## **9. Search Element**
  To search for a particular element by its XPATH, Accessibility id, id, etc.
     * Click on the Search Element option
     * A window opens up. Click on the Element type drop-down to Select any element type
@@ -166,14 +157,12 @@ Changes the screen orientation to Landscape/Portrait mode.
 
 &emsp;
 ---
-
-## **10. Switch to Native view**
+##**10. Switch to Native view**
 Switches the app to the native view context.
 
 &emsp;
 ---
-
-## **11. Switch to hybrid view**
+##**11. Switch to hybrid view**
  Switches to the web view context for hybrid apps.
 
 &emsp;
@@ -183,8 +172,7 @@ Switches the app to the native view context.
 
 &emsp;
 ---
-
-##  **13. Enter data**
+## **13. Enter data**
 To enter any data in the application text box.
  * Click Enter data.
  * A window will open to enter the data. Enter the data in the box.
@@ -192,8 +180,7 @@ To enter any data in the application text box.
 
 &emsp;
 ---
-
-##  **14. Clear**
+## **14. Clear**
  To clear a value displayed in the text box in the application UI.
 
 &emsp;

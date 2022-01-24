@@ -32,8 +32,7 @@ In this article, we will discuss all 3 ways to capture a single element.
 
 <br>
 ---
-
-## **Approach 1. Via the Elements page**
+##**Approach 1. Via the Elements page**
 
 **Pre-requisite**
 
@@ -84,8 +83,7 @@ You can follow these steps to create elements while creating a test case. The Cr
 
 <br>
 ---
-
-## **Approach 2. While creating a test step in a test case**
+##**Approach 2. While creating a test step in a test case**
 
 **Pre-requisites**
 1. You should have the Testsigma test step recorder chrome extension already installed. If not, then refer to the document [here](https://testsigma.com/docs/chrome-extension/install-from-webstore).
@@ -120,8 +118,7 @@ You can follow these steps to create elements while creating a test case. The Cr
 
 <br>
 ---
-
-## **Approach 3. From a Test Case Result**
+##**Approach 3. From a Test Case Result**
 
 **Pre-requisites**
 1. You should have the Testsigma test step recorder chrome extension already installed. If not, then refer to the document [here](https://testsigma.com/docs/test-step-recorder/install-chrome-extension/).

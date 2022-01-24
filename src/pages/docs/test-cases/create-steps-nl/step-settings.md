@@ -21,8 +21,7 @@ Every test step in the test authoring interface has a few settings which help yo
 
 &emsp;
 ---
-
-## **Prerequisites** 
+##**Prerequisites** 
 
 This document assumes that you know how to create a test case, if not, refer to [creating test cases.](https://testsigma.com/docs/test-cases/manage/add-edit-delete/)
 
@@ -32,8 +31,7 @@ This document assumes that you know how to create a test case, if not, refer to 
 
 &emsp;
 ---
-
-## **Change Test Step Stettings**
+##**Change Test Step Stettings**
 
 In the test steps page, on a particular test step, click on the ellipsis icon to open the test step settings panel.
 

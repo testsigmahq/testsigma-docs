@@ -31,8 +31,7 @@ You can configure your Test Plans to run in parallel at any time. However, the n
 
 &emsp;
 ---
-
-## **Configure tests to run in parallel while creating a new Test Plan**
+##**Configure tests to run in parallel while creating a new Test Plan**
 1. On the Test Plan page, click on the +Test Plan button:
 
 ![Test Plans page in Testigma](https://docs.testsigma.com/images/run-tests-in-parallel/test-plans-page-testsigma.png)
@@ -66,8 +65,7 @@ You can configure your Test Plans to run in parallel at any time. However, the n
 
 &emsp;
 ---
-
-## **Configure tests to run in parallel with editing an existing Test Plan**
+##**Configure tests to run in parallel with editing an existing Test Plan**
 On the Test Plans page, click on a Test Plan name to open the details page for that Test Plan, the Test Plan Details page will look something like this:
 
 ![Test Plan Details Page in Testsigma](https://docs.testsigma.com/images/run-tests-in-parallel/test-plan-details-page-testsigma.png)

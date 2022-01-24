@@ -38,8 +38,7 @@ Webpages offer a bunch of location mechanisms to search and locate Elements on t
 
 <br>
 ---
-
-## **Locators supported by Testsigma to create Elements**
+##**Locators supported by Testsigma to create Elements**
 * XPath<br>
 * CSS Selector<br>
 * Link Text and Partial Link Text<br>
@@ -50,8 +49,7 @@ Webpages offer a bunch of location mechanisms to search and locate Elements on t
 
 ![Create Element Locator Type Dropdown](https://docs.testsigma.com/images/supported-locator-types/create-element-locator-dropdown.png)
 ---
-
-## **1. XPath**
+##**1. XPath**
 
 XPath is a query language used to navigate through elements and attributes in an XML document. XPath locators are very powerful and flexible.
 
@@ -67,8 +65,7 @@ Learn how to create [Dynamic Element locators](https://testsigma.com/docs/elemen
 <br>
 
 ---
-
-## **2. CSS Selector**
+##**2. CSS Selector**
 
 CSS Selector is a string pattern used to identify an element based on a combination of HTML tag, id, class, and/or attributes.
 
@@ -84,8 +81,7 @@ Learn how to create [Dynamic Element locators](https://testsigma.com/docs/elemen
 <br>
 
 ---
-
-## **3. Link Text & Partial Link Text**
+##**3. Link Text & Partial Link Text**
 
 Finding an element with Link Text/Partial Link Text is very simple. But make sure that the link text is unique on the web page. If there are multiple links with the same link text (such as repeated header and footer menu links), in such cases action will be performed on the first matching element with the link.
 
@@ -98,8 +94,7 @@ Partial link text of the element can be “Forgot”, “password”, or “For�
 
 <br>
 ---
-
-## **4. ID**
+##**4. ID**
 
 ID is the most common way of locating elements since IDs are supposed to be unique for each element as per the W3C standard. If ID tags are available for an Element and they are unique, it is the most preferred option.
 
@@ -111,8 +106,7 @@ The ID of the element is **“email”**
 <br>
 
 ---
-
-## **5. Name**
+##**5. Name**
 
 Locating elements by Name is very similar to locating by ID, except that we use the value of the name attribute instead of the ID. And moreover, name attributes are not strictly unique.
 
@@ -124,8 +118,7 @@ The name of the element is **“userName”**
 <br>
 
 ---
-
-## **6. Class Name**
+##**6. Class Name**
 
 Class name locator selects the element which matches the values specified in the attribute name “class”.
 
@@ -137,8 +130,7 @@ The class name of the element is **“inputtext”**
 <br>
 
 ---
-
-## **7. Tag Name**
+##**7. Tag Name**
 
 Tag Name locator is used to find the elements matching the specified Tag/Type Name. It is very helpful when we want to extract the content within a Tag.
 

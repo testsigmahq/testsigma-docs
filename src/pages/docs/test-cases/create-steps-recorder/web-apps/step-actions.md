@@ -47,8 +47,7 @@ Here’s how to perform these actions on the test steps you’ve recorded.
 
 &emsp;
 ---
-
-## **Pre-requisites:**
+##**Pre-requisites:**
 
 You should already know how-to, or have:
 
@@ -57,8 +56,7 @@ You should already know how-to, or have:
 
 &emsp;
 ---
-
-## **Performing actions on recorded test steps in a Web Project**
+##**Performing actions on recorded test steps in a Web Project**
 
  1. Create a Test Case using Testsigma recorder. 
  2. Hover on a recorded test step:
@@ -75,8 +73,7 @@ These are the actions you can take on the test steps. Let’s discuss them one b
 
 &emsp;
 ---
-
-## **1. Add Step**
+##**1. Add Step**
 
  When you hover over a recorded test step, you see two buttons labeled “+ Step” as shown below.
 
@@ -90,8 +87,7 @@ Learn more about [adding steps manually.](https://testsigma.com/docs/test-cases/
 
 &emsp;
 ---
-
-##  **2. Edit**
+## **2. Edit**
 
 You can use this option to edit the test step. 
 
@@ -100,8 +96,7 @@ You can use this option to edit the test step.
 
 &emsp;
 ---
-
-##  **3. Delete**
+## **3. Delete**
 
 You can use this option to delete the test step.
 
@@ -121,8 +116,7 @@ The test step details that are shown are as below:
 
 &emsp;
 ---
-
-## **5. Edit Element**
+##**5. Edit Element**
 
  You can edit a Element captured by Testsigma recorder by clicking on ‘Edit Element’.
 

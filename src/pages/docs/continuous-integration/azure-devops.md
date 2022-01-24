@@ -18,8 +18,7 @@ contextual_links:
 
 Microsoft Azure, aka Azure, is a cloud computing service created by Microsoft for building, testing, deploying, and managing applications and services through Microsoft-managed data centers.
 ---
-
-## **Prerequisites:** 
+##**Prerequisites:** 
 1. **API key for Azure:** To generate this, follow the below steps:
 	1. Log in to your account on Testsigma
     2. Navigate to[Settings > API keys](http://testsigma.com/docs/configuration/api-keys/)
@@ -30,8 +29,7 @@ Microsoft Azure, aka Azure, is a cloud computing service created by Microsoft fo
 	3. You will find the execution ID for the Test Plan within the ‘REST API call to start Test Plan’ body content as shown in the screenshot below:
 ![get test plan id](https://docs.testsigma.com/images/azure-devops/get-test-plan-id.png)
 ---
-
-## **How to integrate with Azure DevOps**
+##**How to integrate with Azure DevOps**
 **Step 1: Create/Select a Pipeline**
 Once you are logged in to the Azure DevOps account and created a Project, you can click on the Pipeline section and the below image will be displayed. If you want to create a **new pipeline**, we need to click on the New Pipeline Button to get started.
 

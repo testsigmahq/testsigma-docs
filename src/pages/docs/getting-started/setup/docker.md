@@ -38,13 +38,11 @@ This Docker compose setup runs [Testsigma server](https://github.com/testsigmahq
 
 ` "docker-compose" `
 ---
-
-## **Pre-requisites**<br>
+##**Pre-requisites**<br>
   * [Docker](https://docs.docker.com/install/)
   * [Docker Compose](https://docs.docker.com/compose/install/)
 ---
-
-## **Setting up Testsigma Community Edition with Docker**
+##**Setting up Testsigma Community Edition with Docker**
 
 Create a folder called “testsigma” where you would like to install Testsigma and store the logs and runtime data.
 
@@ -76,8 +74,7 @@ You should see a message: “Testsigma is Running!” once the container is read
 
 Your Testsigma server should be up and running now. Testsigma server will be accessible at https://local.testsigmaos.com/ui
 ---
-
-## **Verifying the installation**
+##**Verifying the installation**
 
  By default folders db\_data, ts\_data will be created in the installation folder to store the application data and MySQL data. If you want to change this folder path you can open docker-compose.yml and change the db\_data volume path under mysql service and ts\_data path under testsigma_server.
 
@@ -114,8 +111,7 @@ Login to https://local.testsigmaos.com/ui and follow the steps mentioned here([S
   4. Verify the status by running `$docker ps` command
   5. Now login to check the updated version of Testsigma Server here  https://local.testsigmaos.com/ui
 ---
-
-## **Update to new Version(Testsigma Agent)**
+##**Update to new Version(Testsigma Agent)**
 
   1. Stop the running agent by executing the stop.sh
   2. Delete the TestsigmaAgent folder 
@@ -127,13 +123,11 @@ Login to https://local.testsigmaos.com/ui and follow the steps mentioned here([S
 | If you are facing any issues after updating Testsigma Agent refer to [Agent - Startup and Registration Errors](https://testsigma.com/docs/agent/troubleshooting/setup-issues/) . <br>
 | If you are still facing the issue, delete the [agent manually](https://testsigma.com/docs/agent/force-delete/) and install again.
 ---
-
-## **Troubleshooting**
+##**Troubleshooting**
 
 If you encounter any errors during this process, check out our guide on [debugging deployment errors](https://testsigma.com/docs/troubleshooting/setup/server-docker-deployment-errors/). If you are still facing any issue, please reach out to [support@testsigma.com](mailto:support@testsigma.com) or join our [Discord Server](https://discord.com/invite/5caWS7R6QX) to speak to the Testsigma team directly!
 ---
-
-## **Next Steps**
+##**Next Steps**
 
 1. [Get Started with Automating Web Applications](https://testsigma.com/tutorials/getting-started/automate-web-applications/)
 2. [Get Started with Automating Mobile Web Applications](https://testsigma.com/tutorials/getting-started/automate-mobile-web-applications/)

@@ -31,8 +31,7 @@ You should already know [how to add/edit/delete Test Suite](https://testsigma.co
 
 &emsp;
 ---
-
-## **List Test Plans**
+##**List Test Plans**
 If you have already created one or more test plans, then you can see them listed on the Test Plans page. You can see them in **Test Development > Test Plans**.
 
 
@@ -42,8 +41,7 @@ A sample Test Plans page list would look like this:
 
 &emsp;
 ---
-
-## **Create Test Plan**
+##**Create Test Plan**
 1. On the Test Plan page, click on the +Test Plan button:
 
 ![add test plan button in Testsigma](https://docs.testsigma.com/images/test-plans/add-test-plan-button-testsigma.png)
@@ -205,8 +203,7 @@ Here you can configure the actions for your test plan in case of failures mentio
 
 &emsp;
 ---
-
-## **Edit Test Plan**
+##**Edit Test Plan**
 On the Test Plans page, click on a Test Plan name to open the details page for that Test Plan, the Test Plan Details page will be something like this:
 
 ![Test Plan details page in Testsigma](https://docs.testsigma.com/images/test-plans/test-plan-details-page-testsigma.png)
@@ -226,8 +223,7 @@ You can also edit the Test Plan Configuration created by you on the page above.
  
 &emsp;
 ---
-
-## **Delete Test Plan**
+##**Delete Test Plan**
 1. On the Test Plan details page for a particular Execution, click on the Delete button on the top right corner near the Edit button, as also shown in the screenshot below:
 
 ![delete button on Test Plan details page in Testsigma](https://docs.testsigma.com/images/test-plans/delete-button-test-plan-details-page-testsigma.png)

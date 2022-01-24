@@ -21,15 +21,13 @@ When test steps are created via the Test Recorder in Testsigma for an android pr
 
 &emsp;
 ---
-
-## **Pre-requisites:**
+##**Pre-requisites:**
 
 This document assumes that you are familiar with Testsigma’s [Test Recorder.](https://testsigma.com/docs/elements/android-apps/record-multiple-elements/)
 
 &emsp;
 ---
-
-## **Doing bulk actions on recorded test steps:**
+##**Doing bulk actions on recorded test steps:**
 
  1. Create a Test Case using Testsigma Test Recorder with multiple test steps.
  2. Select multiple test steps from the test steps section on the Test Recorder UI. The actions that will become available on selecting multiple test steps will be called bulk actions. 

@@ -22,8 +22,7 @@ contextual_links:
 
 In the Test Cases page, you have the following options:
 ---
-
-## **Searching Test Cases**
+##**Searching Test Cases**
 
 To search for a specific Test Case, click on the Search button on the top left corner of the Test Cases List page and enter the search text in the field as shown below:
 
@@ -31,8 +30,7 @@ To search for a specific Test Case, click on the Search button on the top left c
 
 &emsp;
 ---
-
-## **Sorting Test Cases**
+##**Sorting Test Cases**
 
 To sort Test Cases, click on the Sort icon on the top left corner of the Test Cases List page and select the sort option.
 
@@ -40,8 +38,7 @@ To sort Test Cases, click on the Sort icon on the top left corner of the Test Ca
 
 &emsp;
 ---
-
-## **Filtering Test Cases**
+##**Filtering Test Cases**
 
 To filter Test Cases, click on the Filter icon on the top left corner of the Test Cases List page. In the overlay that opens up, select the filtering options and click on the Filter button.
 

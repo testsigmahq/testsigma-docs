@@ -17,8 +17,7 @@ To know how to use the default Test Data Generators in your Test Steps, see [Tes
 
 If you don't find the Data Generator that you are looking for, create your own. [Refer to this tutorial](https://testsigma.com/tutorials/addons/how-create-addons-test-data-generators/)
 ---
-
-## Given below is the list of default Test Data Generators available in Testsigma:
+##Given below is the list of default Test Data Generators available in Testsigma:
 
 |Category(Class)|Function(Method)|Usage|
 |---------|-----|------|

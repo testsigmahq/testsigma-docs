@@ -27,8 +27,7 @@ When the number of Test Cases in your Project becomes too high, filtering them l
 
 &emsp;
 ---
-
-## **Filtering the Test Cases**
+##**Filtering the Test Cases**
 To filter Test Cases, click on the Filter icon on the top right corner of the Test Cases List page. In the overlay that opens up, you can see the following options for filtering the Test Cases:
 
  * Status                    
@@ -57,8 +56,7 @@ Click ‘close’ to get to the filtered list.
 
 &emsp;
 ---
-
-## **Saving the Filter**
+##**Saving the Filter**
 
 For a filtered list, you will find a checkmark and an X Symbol on the top left corner next to the List Title as shown below:
 
@@ -87,8 +85,7 @@ The list title changes to the newly saved Filter name.
 
 &emsp;
 ---
-
-## **Saved Filters View**
+##**Saved Filters View**
 
 Click on the Saved Filters icon(hamburger icon) next to the List title on the top left corner of the Test Cases List page to show the saved filters as shown below:
 
@@ -99,8 +96,7 @@ You can see several default filters in the list.  At the bottom of the list, you
 
 &emsp;
 ---
-
-## **Update the Filter**
+##**Update the Filter**
 If you want to update any of the existing filters:
 
  1. Select the filter you want to update from the Saved Filters view.

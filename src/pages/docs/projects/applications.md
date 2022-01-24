@@ -30,8 +30,7 @@ Once the “Applications” tab is enabled, you will be able to see all the appl
 
 &emsp;
 ---
-
-## **Create Application**
+##**Create Application**
 You can also create a new Application with a certain type from the Project Settings > Applications page.
 
 1. Click on **+ New Application** to create a new Application under the current Project.
@@ -45,8 +44,7 @@ You can also create a new Application with a certain type from the Project Setti
 
 &emsp;
 ---
-
-## **Edit Application**
+##**Edit Application**
 Navigate to the Application screen by going through **Project Settings > Applications** Tab and selecting the specific Application from the Applications list.
 
 ![Application details in focus within Project Settings page](https://docs.testsigma.com/images/applications/project-settings-applications-tab-action-buttons-selected.png)
@@ -56,8 +54,7 @@ Make the required changes and click on the Update button to save the changes.
 
 &emsp;
 ---
-
-## **Delete Application**
+##**Delete Application**
 ![Edit Application](https://docs.testsigma.com/images/applications/edit-application.png)
 
 Navigate to the Application by going through Project Settings > Applications Tab and selecting the specific Application from the Applications list.

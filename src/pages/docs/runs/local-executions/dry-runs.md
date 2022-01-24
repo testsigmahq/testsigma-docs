@@ -21,8 +21,7 @@ As we already know, a Test Case can be run either as a Dry Run or as a part of a
 
 &emsp;
 ---
-
-## **Steps to follow:**
+##**Steps to follow:**
 There are four steps to performing a dry run on a local device.
 
 ### Step 1 :Download the Agent

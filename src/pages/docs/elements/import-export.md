@@ -33,8 +33,7 @@ Another less common application is when we want to load the Test locators for th
 
 <br>
 ---
-
-## **Import File Format**
+##**Import File Format**
 The Import file has the following Columns:
 
 | **Column Name**  | **Description** | 
@@ -51,8 +50,7 @@ The Import file has the following Columns:
 
 <br>
 ---
-
-## **Import Elements**
+##**Import Elements**
 From the Elements page, click on the Import button to open the Import Element Dialog which appears as shown below:
 ![Import Elements overlay in Elements page](https://docs.testsigma.com/images/import-export/elements-page-import-elements-overlay.png)
 
@@ -75,8 +73,7 @@ It will show a success message saying that the import has started. The Elements 
 
 <br>
 ---
-
-## **Export Elements**
+##**Export Elements**
 From the Elements page, click on the Export button to export all the Elements to a Spreadsheet file.
 
 It will show a success message saying that the export has started. The Elements will be exported in the background and you will receive an Email once the Export process is complete.

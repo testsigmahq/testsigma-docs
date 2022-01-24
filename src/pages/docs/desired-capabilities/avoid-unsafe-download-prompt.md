@@ -21,8 +21,7 @@ However, there is a workaround for this issue and that is to enable the Safe Bro
 
 You should already know how to add Desired Capabilities to your Tests. See [Desired Capabilities - Overview.](https://testsigma.com/docs/desired-capabilities/overview/)
 ---
-
-## **Adding the Capability**
+##**Adding the Capability**
 
 |Name|Data Type|Value|
 |---|---|---|

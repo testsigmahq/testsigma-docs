@@ -26,8 +26,7 @@ With Testsigma’s Chrome Extension you capture these elements and record the us
 
 <br>
 ---
-
-## **Security Disclaimer**
+##**Security Disclaimer**
 
 * Testsigma Chrome Extension doesn’t  track user browsing outside the application and does not collect private information such as IP address and passwords.
 * We don’t modify the source code of your application.

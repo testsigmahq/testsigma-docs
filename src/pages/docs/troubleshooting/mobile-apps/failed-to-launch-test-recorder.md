@@ -29,8 +29,7 @@ The easiest way to debug the error is to check the Logs for the Mobile Inspector
 
 Below given are some of the most common reasons:
 ---
-
-## **1.  Invalid Activity name in Manifest (Android)**
+##**1.  Invalid Activity name in Manifest (Android)**
 
 The initial/default activity name mentioned in the Manifest file for the Android App might be different from the actual splash screen activity name.
 
@@ -50,8 +49,7 @@ However, until that change is made by the developers, you can work around by men
 
 <br>
 ---
-
-## **2. Vendor-specific Device Customizations**
+##**2. Vendor-specific Device Customizations**
 
 **Reason**
 
@@ -69,8 +67,7 @@ Some device vendors like Xiaomi, Vivo, Huawei customize the Android OS according
 
 <br>
 ---
-
-## **3. Make sure the cable connection is not faulty**
+##**3. Make sure the cable connection is not faulty**
 
 **Reason**
 

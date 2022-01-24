@@ -31,14 +31,12 @@ When executing your test cases on Testsigma you have the option to execute them 
 
 &emsp;
 ---
-
-## **Pre-requisites:**
+##**Pre-requisites:**
 You should already know how to [run your created test cases on the integrated cloud vendor platforms](https://testsigma.com/docs/runs/adhoc-runs/).
 
 &emsp;
 ---
-
-## **How to run test cases and test plans on cloud vendor platforms with Testsigma**
+##**How to run test cases and test plans on cloud vendor platforms with Testsigma**
 1. Navigate to Settings → Plugins → Test Lab:
 
 ![test lab tab to run on cloud vendor platforms in Testsigma](https://docs.testsigma.com/images/run-on-cloud-vendor-platforms/test-lab-tab-run-on-cloud-vendor-platforms-testsigma.png)

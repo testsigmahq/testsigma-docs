@@ -33,8 +33,7 @@ You can use test case import and export to populate a new Testing Project with p
 
 &emsp;
 ---
-
-## **Import File Format**
+##**Import File Format**
 
 The Import file has the following Columns:
 
@@ -65,8 +64,7 @@ The Import file has the following Columns:
 
 &emsp;
 ---
-
-## **Import Test Cases**
+##**Import Test Cases**
 
 From the Test Cases list, click on the Import button on the top right corner to open the Import Dialog as shown below:
 
@@ -87,8 +85,7 @@ From the Test Cases list, click on the Import button on the top right corner to 
 
 &emsp;
 ---
-
-## **Export Test Case**
+##**Export Test Case**
 
 From the Test Cases list, click on the Export button on the top right corner to open the Export Dialog as shown below:
 

@@ -25,8 +25,7 @@ This integration lets you create issues in Backlog directly from the Testsigma. 
 
 In this document, we will discuss how to establish Integration with Backlog from your Testsigma account and how to create the first bug from Testsigma which can flow into Backlog.
 ---
-
-## **Prerequisites**
+##**Prerequisites**
 
 To integrate Backlog with Testsigma, you need the following information from your Backlog Account
   * Account URL - Your organization’s Backlog Account URL
@@ -34,8 +33,7 @@ To integrate Backlog with Testsigma, you need the following information from you
 
 You should already know about [Test Plan Runs and results](https://testsigma.com/docs/runs/test-plan-executions/)
 ---
-
-## **Getting the API Key**
+##**Getting the API Key**
 
   1. Log in to your Backlog account. You will find the Backlog URL on top of your browser’s address bar.
 
@@ -59,8 +57,7 @@ Click on the Disabled Icon on **Backlog**. Backlog Details overlay opens up as s
 
 Enter the details as mentioned in Prerequisites. After entering the details, click on the Create button to add the Integration.
 ---
-
-## **Creating a bug**
+##**Creating a bug**
 
 We can create a bug within Testsigma from the run results page for a particular Test Plan with the following steps:
 

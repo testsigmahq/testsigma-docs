@@ -23,8 +23,7 @@ contextual_links:
 
 ---
 ---
-
-## **Introduction:**
+##**Introduction:**
 
 Sometimes, when you update the structure of your website or application, you will also need to update the corresponding elements in your automated test project in Testsigma. In this document, we will discuss two ways of doing that for an iOS Project:
  1. Updating an element at a time
@@ -32,8 +31,7 @@ Sometimes, when you update the structure of your website or application, you wil
 
 &emsp;
 ---
-
-## **Pre-requisites:**
+##**Pre-requisites:**
 
  1. Your iOS project should have elements already. See [how to capture elements for an iOS application](https://testsigma.com/docs/elements/ios-apps/record-multiple-elements/).
 
@@ -41,8 +39,7 @@ Sometimes, when you update the structure of your website or application, you wil
 
 &emsp;
 ---
-
-## **How to update one element at a time:**
+##**How to update one element at a time:**
 
  1. Select your project and then navigate to ‘Test Development > Elements’
  2. ‘All Elements’ page will appear. This contains all the elements that you have created for the selected iOS project, like this:
@@ -62,8 +59,7 @@ There is a radio button that lets you choose between ‘Manually’ or ‘Elemen
 
 &emsp;
 ---
-
-## **How to update multiple elements at once:**
+##**How to update multiple elements at once:**
 
  1. Select your iOS project and then navigate to ‘Test Development > Elements’
  2. On the top right, there is an option to export the elements in excel format:

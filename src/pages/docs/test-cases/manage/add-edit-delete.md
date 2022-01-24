@@ -32,8 +32,7 @@ A sample Project will be created by default in your Testsigma Account when you f
 
 &emsp;
 ---
-
-## **Creating a Test Case**
+##**Creating a Test Case**
 
 From the Dashboard, navigate to the Test Cases page by going to **Test Development > Test Case**:
 
@@ -50,8 +49,7 @@ Enter the details as given below:
 
 &emsp;
 ---
-
-## **Test Case  - Advanced Options**
+##**Test Case  - Advanced Options**
 
 Test Case Advanced Options help you manage/group test cases better while creating Test Suites, Test Plans and understanding the test coverage.
 
@@ -137,8 +135,7 @@ Learn how to [Create Test Steps](https://testsigma.com/docs/test-cases/step-type
 
 &emsp;
 ---
-
-## **Edit Test Case**
+##**Edit Test Case**
 
 In the list of Test Cases, click on the Test Case name to open the Test Case details page as shown below:
 
@@ -158,8 +155,7 @@ Learn how to [Create/Edit Test Steps](https://testsigma.com/docs/test-cases/crea
 
 &emsp;
 ---
-
-## **Delete Test Case**
+##**Delete Test Case**
 
 You can delete a Test Case either from the Test Case Details page or from the Test Cases list.
 

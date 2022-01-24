@@ -23,8 +23,7 @@ In Testsigma, you can group reports by Test Machines when you need to understand
 2. If yes, then can you modify our application specifically to solve test failures only in a specific machine 
 
 ---
-
-## **Steps to get a Test Machine Report**
+##**Steps to get a Test Machine Report**
 
 This gif demonstrates how to group reports on the basis of test machines:
 
@@ -32,8 +31,7 @@ This gif demonstrates how to group reports on the basis of test machines:
 
 
 ---
-
-## **How to generate Test Machine Reports:**
+##**How to generate Test Machine Reports:**
 
 1. Select the project for which you need the reports
 2. Navigate to “Test Development > Run Results”, you should see a page like this:

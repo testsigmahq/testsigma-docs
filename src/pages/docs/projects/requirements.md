@@ -29,8 +29,7 @@ contextual_links:
 In Testsigma, each test case can be mapped to a requirement. This helps you organize your testing by addressing each individual software requirement.
 <br>
 <br>---
-
-## **Prerequisites** <br> 
+##**Prerequisites** <br> 
 1. This document assumes that you know how to create a test case. If not, refer to [Create test case](https://testsigma.com/docs/test-cases/manage/add-edit-delete/).
 2. [Requirement types](https://testsigma.com/docs/projects/settings/requirement-types/).
 
@@ -42,8 +41,7 @@ In Testsigma, each test case can be mapped to a requirement. This helps you orga
 
 <br>
 ---
-
-## **Create a Requirement**<br>
+##**Create a Requirement**<br>
 
   &emsp;1. Navigate to a specific project <br>
   &emsp;2. Within the project, navigate to the Test Development menu <br>
@@ -74,24 +72,21 @@ You will see below options on the form:
 Here’s a sample requirement: 
 ![sample entry for creating new requirement ](https://docs.testsigma.com/images/requirements/create-new-requirement-sample-entry.png)
 ---
-
-## **Edit a Requirement**
+##**Edit a Requirement**
 Hover over a requirement on the ‘Requirements’ page and click on the ‘Edit’ button, also highlighted in the screenshot below:
 
 ![edit a requirement](https://docs.testsigma.com/images/requirements/edit-a-requirement.png)
 
 
 ---
-
-## **Delete a Requirement**
+##**Delete a Requirement**
 
 Hover over a requirement on the ‘Requirements’ page and click on the ‘Delete’ button, also highlighted in the screenshot below:
 
 ![delete a requirement](https://docs.testsigma.com/images/requirements/delete-a-requirement.png)
 
 ---
-
-## **Associate a Requirement to a Test Case**
+##**Associate a Requirement to a Test Case**
  1. While creating a test case, a  click on the advanced options menu, choose the requirement you created in step 2
 
 ![associate requirement to test case](https://docs.testsigma.com/images/requirements/associate-requirement-to-test-case.png)

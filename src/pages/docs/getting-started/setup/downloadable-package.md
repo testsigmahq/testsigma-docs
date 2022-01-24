@@ -29,15 +29,13 @@ contextual_links:
 ---
 
 ---
-
-## **Pre-requisites**
+##**Pre-requisites**
 
 Create a folder called testsigma where you would like to install Testsigma. 
 
 **cd** cmd into this installation folder(testsigma)
 ---
-
-## **Step1: Download the Package**
+##**Step1: Download the Package**
 
 Download the Testsigma zip into the installation folder(testsigma) from https://github.com/testsigmahq/testsigma/releases/latest/
 
@@ -93,8 +91,7 @@ Testsigma Agent is a microservice that processes test case data and runs tests o
    &nbsp; - Before starting the Testsigma server you need to set the environment variable LOCAL\_AGENT\_URL= https://localhost:<http\_port>, here you can replace the <http\_port> with the port you want to use for the agent.<br>
    &nbsp; - Before starting the Testsigma agent you need to set the environment variables TESTSIGMA\_AGENT\_HTTP\_PORT for HTTP port and TESTSIGMA\_AGENT\_HTTPS\_PORT for HTTPS port.<br>
 ---
-
-## **Step2: Run Services**
+##**Step2: Run Services**
 ### **Windows**
 #### **Starting Nginx:**<br>
    &nbsp; - Open a command prompt<br>
@@ -140,8 +137,7 @@ Testsigma Agent is a microservice that processes test case data and runs tests o
 
 Your Testsigma server should be up and running now. Testsigma server will be accessible at https://local.testsigmaos.com/ui
 ---
-
-## **Update to new Version**
+##**Update to new Version**
 
  1. Stop Nginx, TestsigmaServer, TestsigmaAgent
  2. Delete the Testsigma Installation folder 
@@ -153,8 +149,7 @@ Your Testsigma server should be up and running now. Testsigma server will be acc
 
  If you encounter any errors during this process, check out our guide on [debugging deployment errors](https://testsigma.com/docs/troubleshooting/setup/server-docker-deployment-errors/). If you are still facing any issue, please reach out to [support@testsigma.com](mailto:support@testsigma.com) or join our [Discord Server](https://discord.com/invite/5caWS7R6QX) to speak to the Testsigma team directly!
 ---
-
-## **Next Steps**
+##**Next Steps**
 
 1. [Get Started with Automating Web Applications](https://testsigma.com/tutorials/getting-started/automate-web-applications/)
 2. [Get Started with Automating Mobile Web Applications](https://testsigma.com/tutorials/getting-started/automate-mobile-web-applications/)

@@ -41,8 +41,7 @@ Elements can be created from the attributes/properties of an HTML Element, using
 
 <br>
 ---
-
-## **1. Using unique single Element Attributes**
+##**1. Using unique single Element Attributes**
 
 You can use any of the element attributes such as ID, Name, Class Name, etc if their value is unique. ID locator is the most preferred and recommended single attribute.
 
@@ -50,8 +49,7 @@ Check the below section “Get Locators value manually using Chrome Developer To
 
 <br>
 ---
-
-## **2. Using Link Text and Partial Link Text**
+##**2. Using Link Text and Partial Link Text**
 
 You can use the visible text(fully or partially) on a link(anchor tag) for formulating Elements.
 
@@ -59,8 +57,7 @@ Check the below section “Get Locators value manually using Chrome Developer To
 
 <br>
 ---
-
-## **3. Using XPath/CSS Selectors**
+##**3. Using XPath/CSS Selectors**
 
 You can generate XPath/ CSS Selectors for elements using Chrome Developer tools if you are familiar with XPath/CSS Selector creation.
 
@@ -69,8 +66,7 @@ Check the below section “Get Locators value manually using Chrome Developer To
 <br>
 
 ---
-
-## **Get Locators value manually using Chrome Developer Tools**
+##**Get Locators value manually using Chrome Developer Tools**
 For demonstration, we will take the example of a simple Login button on the [OrangeHRM Login page](http://opensource.demo.orangehrmlive.com/). We will try to get the Attribute values for the Login button below:
 
 1. Navigate to the page in your Google Chrome Browser.
@@ -93,15 +89,13 @@ This is the code for the LOGIN button on above OrangeHRM Web page.<br>
 
 <br>
 ---
-
-## **Finding Element attributes and their values**
+##**Finding Element attributes and their values**
 
 In this case, the tag name is ‘input’. Attribute names are ‘type’, ‘name’, ‘class’, ‘id’, and ‘value’ and their respective values are the strings in quotes following their name and equal sign. For example, the value of the ‘name’ attribute is ‘Submit’. Similarly, you can find the attribute values for ID, Class, etc
 
 <br>
 ---
-
-## **Find XPath or CSS Locator**
+##**Find XPath or CSS Locator**
 
 In the Elements panel, right-click on the highlighted element, hover over the Copy option, and select ‘Copy XPath’ or ‘Copy Selector’ from the popup menu.
 

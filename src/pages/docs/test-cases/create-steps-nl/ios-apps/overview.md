@@ -21,8 +21,7 @@ You can add more test steps to a pre-existing test case manually. In this docume
 
 &emsp;
 ---
-
-## **Pre-requisites:**
+##**Pre-requisites:**
 You should already know how to:
 
  1. [create a test case.](https://testsigma.com/docs/test-cases/manage/add-edit-delete/)
@@ -30,8 +29,7 @@ You should already know how to:
 
 &emsp;
 ---
-
-## **How to add steps manually in simple English for an iOS project in Testsigma. :**
+##**How to add steps manually in simple English for an iOS project in Testsigma. :**
 
  1. Create a test case for an iOS application.
    

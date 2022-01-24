@@ -21,8 +21,7 @@ There are times when you might want to add steps before and after an already add
 
 &emsp;
 ---
-
-## **Pre-requisites:**
+##**Pre-requisites:**
 
 This document assumes that you know how to:
 
@@ -31,8 +30,7 @@ This document assumes that you know how to:
 
 &emsp;
 ---
-
-## **Steps**
+##**Steps**
 
  1. Create a Test Case. And then go to the created test steps.
  2. Hover on one of the test steps - you should see something like below:

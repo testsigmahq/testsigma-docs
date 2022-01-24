@@ -19,8 +19,7 @@ contextual_links:
 ---
 The Testsigma Azure DevOps Integration allows you to create a work item directly in your Azure project from Testsigma. You can push a bug, epic, task, story to a project while testing on Testsigma. The fields populated by you when marking a bug through Testsigma are displayed as information on the work item in the Azure DevOps project.
 ---
-
-## **Prerequisites**
+##**Prerequisites**
 
 **Azure DevOps Organization URL:** Azure DevOps URL will be the domain name. Log into your Azure DevOps account and you will find it under your organization.<br>
 **Personal Access Token(PAT):** In your Azure Application, you can find the Personal Access Token under **Security > Personal Access Tokens**
@@ -28,8 +27,7 @@ The Testsigma Azure DevOps Integration allows you to create a work item directly
 [[info | NOTE:]]
 | Please check with your Azure Admin if you need help with finding the above details
 ---
-
-## **Integrate Azure DevOps With Testsigma**
+##**Integrate Azure DevOps With Testsigma**
 
 Once the Azure DevOps URL and PAT are obtained, navigate to the Plugins page through Dashboard > Settings > Plugins and select Azure DevOps under the Product Management tab.
 
@@ -37,8 +35,7 @@ Click on the Disabled Icon on Azure DevOps Boards. Azure Details overlay opens u
 
 ![Azure Details form in Plugins Page ](https://docs.testsigma.com/images/azure-devops-boards/plugins-azure-integration-form.png)
 ---
-
-## **Creating Work Item on Azure from Testsigma**
+##**Creating Work Item on Azure from Testsigma**
 
 Let us see how we can create a Bug on Azure DevOps Board from Testsigma.
 

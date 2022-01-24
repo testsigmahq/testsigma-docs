@@ -17,8 +17,7 @@ Simply erase the “test data” placeholder and choose “Plain Text” to type
 
 Plain Text also serves as a hard-coded input. 
 ---
-
-## **When do you use Plain Text?**
+##**When do you use Plain Text?**
 
 Plain Text or Raw data is used when you want to hardcode an input in your test.
 In cases where the input data is unique and doesn’t have to be a part of a test data profile or any other test data types, we use plain text data.

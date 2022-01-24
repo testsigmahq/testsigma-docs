@@ -13,8 +13,7 @@ contextual_links:
 ---
 Testsigma integrates with various tools in your software delivery cycle to make continuous testing easier.
 ---
-
-## **Testsigma has built-in integrations with the following tools:**
+##**Testsigma has built-in integrations with the following tools:**
 
 ### **1. Collaboration**
 

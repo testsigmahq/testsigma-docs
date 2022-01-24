@@ -34,8 +34,7 @@ Default Test Case Priorities:  Critical, Medium, High, Low
 
 <br>
 ---
-
-## **Prerequisites**
+##**Prerequisites**
 This document assumes that you know how to create a test case. If not, refer to [Creating a Test Case](https://testsigma.com/docs/test-cases/manage/add-edit-delete/).
 
 <br>
@@ -50,8 +49,7 @@ This document assumes that you know how to create a test case. If not, refer to 
 ![test case priorities menu](https://docs.testsigma.com/images/test-case-priorities/test-case-priorities-menu.png)
 
 ---
-
-## **Add a new Test Case Priority**
+##**Add a new Test Case Priority**
 Below is a quick gif that demonstrates how a new test case priority can be added in a Testsigma project:
 
 ![view and add test case priorities](https://docs.testsigma.com/images/test-case-priorities/view-and-add-test-case-priorities.gif)
@@ -68,8 +66,7 @@ Here’s a step-by-step breakdown:
 ![add new test case priority](https://docs.testsigma.com/images/test-case-priorities/add-new-test-priority-type.png)
 
 ---
-
-## **Delete a Test Case Priority**
+##**Delete a Test Case Priority**
 
 Hover over the test case priority you want to delete and click on the Delete icon that appears.
 
@@ -77,8 +74,7 @@ Hover over the test case priority you want to delete and click on the Delete ico
 
 
 ---
-
-## **Edit a Test Case Type**
+##**Edit a Test Case Type**
 
 1. Hover over the test case priority and click on the Edit icon that appears. 
 
@@ -89,8 +85,7 @@ Hover over the test case priority you want to delete and click on the Delete ico
 ![test case priority edit text](https://docs.testsigma.com/images/test-case-priorities/test-case-priority-edit-text.png)
 
 ---
-
-## **How to assign a priority to a test case**
+##**How to assign a priority to a test case**
 
 Below is a quick gif that demonstrates how priority can be assigned to a test case in a Testsigma project:
 

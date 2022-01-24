@@ -33,15 +33,13 @@ In Testsigma terminology, each automated action executed by the test script is a
 
 &emsp;
 ---
-
-## **Pre-requisites:**
+##**Pre-requisites:**
 
 This document assumes that you know how to [Create a test case](https://testsigma.com/docs/test-cases/manage/add-edit-delete/).
 
 &emsp;
 ---
-
-## **Ways to create Test Steps:**
+##**Ways to create Test Steps:**
 
 There are two different ways to add test steps in a Test case.
  1. Writing steps manually using simple English.
@@ -51,24 +49,21 @@ There are two different ways to add test steps in a Test case.
 
 Follow the links to know how to use these approaches for: 
 ---
-
-## **Web & Mobile Web**
+##**Web & Mobile Web**
 
  * [Write Tests using simple English](https://testsigma.com/docs/test-cases/create-steps-nl/web-apps/overview/)
  * [Record Steps using Test step Recorder](https://testsigma.com/docs/test-cases/create-steps-recorder/web-apps/overview/)
 
 &emsp;
 ---
-
-## **iOS**
+##**iOS**
 
  * [Write Tests using simple English](https://testsigma.com/docs/test-cases/step-types/overview/)
  * [Record Steps using Test Recorder](https://testsigma.com/docs/test-cases/create-steps-recorder/ios-apps/overview/)
 
 &emsp;
 ---
-
-## **Android**
+##**Android**
  * [Write Tests using simple English](https://testsigma.com/docs/test-cases/step-types/overview/)
  * [Record Steps using Test Recorder](https://testsigma.com/docs/test-cases/create-steps-recorder/android-apps/overview/) 
 

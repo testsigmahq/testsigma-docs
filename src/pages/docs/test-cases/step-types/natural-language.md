@@ -42,8 +42,7 @@ You should already know about
 
 &emsp;
 ---
-
-## **Add Test Steps**
+##**Add Test Steps**
 
  1. The first step of your test case depends on what type of application you are automating. For instance:
 

@@ -23,8 +23,7 @@ Perform the following check to confirm that your application under test is not a
 
 <br>
 ---
-
-## **Cloud based Test Labs**
+##**Cloud based Test Labs**
 
 Platforms like Testsigma,  Sauce Labs, BrowserStack, etc. provide you with a fully-maintained lab of test machines for cross-browser and device testing. These test machines are hosted on their cloud networks. If your application under test is not publicly available you will not be able to run tests on these machines.
 

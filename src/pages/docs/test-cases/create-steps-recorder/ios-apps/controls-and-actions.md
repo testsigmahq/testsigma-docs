@@ -18,8 +18,7 @@ Testsigma Recorder lets you generate test steps automatically in plain English, 
 
 &emsp;
 ---
-
-## **Pre-requisites:**
+##**Pre-requisites:**
 This document assumes that you know how to:
 
 &emsp;a. [Create Test case](https://testsigma.com/docs/test-cases/manage/add-edit-delete/)

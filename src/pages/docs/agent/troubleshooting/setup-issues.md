@@ -25,8 +25,7 @@ If  the Agent is not starting, or is starting and terminating immediately, pleas
 
 <br>
 ---
-
-## **Troubleshooting URLs and Port Numbers**
+##**Troubleshooting URLs and Port Numbers**
 
 Default HTTP Port - 8080<br>
 Default HTTPS Port - 8443<br>
@@ -39,8 +38,7 @@ OR
 
 <br>
 ---
-
-## **Common causes of Agent startup, register and auto-update Errors**
+##**Common causes of Agent startup, register and auto-update Errors**
 Here’s how you can troubleshoot the Agent startup Error yourself:
 
 **1. Port not available**

@@ -21,8 +21,7 @@ You can reorder test steps in a test case. Here’s how.
 
 &emsp;
 ---
-
-## **Pre-requisites:**
+##**Pre-requisites:**
 
 You should already know how to
 
@@ -31,8 +30,7 @@ You should already know how to
 
 &emsp;
 ---
-
-## **Steps to follow**
+##**Steps to follow**
 
  1. Go to the test case where you want to reorder the test steps.
  2. On the Test Case Details page, you will see a ‘Reorder’ button on the top right of the test steps section as also shown in the screenshot below:

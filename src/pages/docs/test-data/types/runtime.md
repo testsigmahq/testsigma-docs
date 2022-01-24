@@ -24,8 +24,7 @@ Assume that your Test Case involves copying a piece of data from one page and ve
 
 The same applies to any case where data needs to be stored earlier and used in a later step.
 ---
-
-## **Example Use Cases**
+##**Example Use Cases**
 
 1. **Bill payment:** You want to save the system-generated Bill ID and reuse it in the next step for verification after the payment is successful.
 
@@ -42,8 +41,7 @@ The same applies to any case where data needs to be stored earlier and used in a
 |**Actual statement used**|**Store text from the element SSID into a variable ssid**|
 |**Usage for retrieving the value**|**Enter $[ssid] in the SSIDNumber field**|
 ---
-
-## **How to use Runtime Test Data in test steps**
+##**How to use Runtime Test Data in test steps**
 
 To use runtime parameters in test steps, we will need to store actions to save data in the runtime variable. In the example above, you can see that we have used:
 

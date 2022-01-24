@@ -21,8 +21,7 @@ When creating test steps using Recorder in Testsigma, there are various types of
 
 &emsp;
 ---
-
-## **Pre-requisites:**
+##**Pre-requisites:**
 
 You should already know how to:
 
@@ -32,8 +31,7 @@ You should already know how to:
 
 &emsp;
 ---
-
-## **How to add test data in test steps using Testsigma Mobile Test Recorder:**
+##**How to add test data in test steps using Testsigma Mobile Test Recorder:**
 
  1. Start recording test steps using Testsigma Recorder.
  2. In the Testsigma Recorder UI, add a test step that will have test data. Some example steps that have test data are shown below:

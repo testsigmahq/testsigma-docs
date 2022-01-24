@@ -24,14 +24,12 @@ contextual_links:
 
 This article will describe how to create environment-specific test data in Testsigma.
 ---
-
-## **When to Use:**
+##**When to Use:**
 
 When you have multiple testing environments and you need to use different test data, depending on what environment your test is executing on. For example, if your test is executing on staging as well as QA environments, then you can use two separate test data sets for both these environments.
 
 ---
-
-## **How to create and use environment-specific test data in Testsigma:**
+##**How to create and use environment-specific test data in Testsigma:**
 
 
   1. Navigate to Test Development > Environments and click on the create button on the top right. Also highlighted in the screenshot below:
@@ -60,16 +58,13 @@ Alternatively, below is a quick gif to demonstrate the workflow for creating env
 
    ![gif demonstrating how to fill up the create environments form](https://docs.testsigma.com/images/create-environment-data/create-environment-form-fillup-gif.gif)
 ---
-
-## **How to use this Environment based Test Data in your Test Case**
+##**How to use this Environment based Test Data in your Test Case**
 
 To know more, refer to [Environment-specific test data](https://testsigma.com/docs/test-data/types/environment/).
 ---
-
-## **Prerequisite:**
+##**Prerequisite:**
 ---
-
-## You should know how to:
+##You should know how to:
 
 1.  [create a test case](https://testsigma.com/docs/test-cases/manage/add-edit-delete/).
 

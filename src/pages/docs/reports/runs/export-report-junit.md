@@ -22,8 +22,7 @@ Here is a quick gif that demonstrates how to export the result of test reports i
 ![Run results page in Testsigma](https://docs.testsigma.com/images/export-report-junit/run-results-page-testsigma.gif)
 
 ---
-
-## **How to export the result of test reports in XML (junit) format in Testsigma**
+##**How to export the result of test reports in XML (junit) format in Testsigma**
 
 1. Navigate to “Select Project > Test Development > Run Results” page
 

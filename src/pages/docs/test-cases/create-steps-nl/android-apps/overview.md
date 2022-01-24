@@ -21,16 +21,14 @@ You can add more test steps to a pre-existing test case manually. In this docume
 
 &emsp;
 ---
-
-## **Pre-requisites:**
+##**Pre-requisites:**
 You should already know how to
  1. [create a test case.](https://testsigma.com/docs/test-cases/manage/add-edit-delete/)
  2. [create test steps for an android application.](https://testsigma.com/docs/test-cases/create-steps/)
 
 &emsp;
 ---
-
-## **How to add steps manually in simple English for an android project in Testsigma:**
+##**How to add steps manually in simple English for an android project in Testsigma:**
 
  1. Create a test case for an android application.
  2. Once the test case is created and the test steps added, go to the created test steps in the Testsigma UI.

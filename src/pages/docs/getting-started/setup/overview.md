@@ -23,8 +23,7 @@ contextual_links:
 
 ---
 ---
-
-## **Using Testsigma Cloud**
+##**Using Testsigma Cloud**
 
 Recommended as the easiest and fastest way to kickstart your automation journey
 
@@ -34,8 +33,7 @@ Comes with a fully managed test lab, enhanced security and robust features that 
 
 &emsp;
 ---
-
-## **Deploy on your Local Servers**
+##**Deploy on your Local Servers**
 
 Testsigma Community Edition (CE) is an open-source platform that you can install on your local machine or private server instance using the following options:
 
@@ -48,8 +46,7 @@ Testsigma Community Edition (CE) is an open-source platform that you can install
 
 
 ---
-
-## **Getting help**
+##**Getting help**
 
 If you face any problems or issues when installing Testsigma on any platform, reach out to us at <a href="mailto:support@testsigma.com">support@testsigma.com</a> or join our [Discord Server](https://discord.com/invite/5caWS7R6QX)
 

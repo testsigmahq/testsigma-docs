@@ -20,16 +20,14 @@ With Testsigma, you can either write your test steps in simple English or you ca
 
 &emsp;
 ---
-
-## **Pre-requisites:**
+##**Pre-requisites:**
 1. You should have an account on Testsigma.
  
 2. Your Testsigma account should have an iOS app uploaded under ‘uploads’. This is the iOS app that you want to test.
 
 &emsp;
 ---
-
-## **How to record test steps using Testsigma’s Recorder for iOS:**
+##**How to record test steps using Testsigma’s Recorder for iOS:**
 1. Open a pre-existing iOS Project or create a new one under your Testsigma account.
  
 2. Go to ‘Test Development > Test Cases’

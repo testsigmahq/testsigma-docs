@@ -46,16 +46,14 @@ Setting up Testsigma Agent on your local machine<br>
 
 <br>
 ---
-
-## **I. Download Testsigma Agent**
+##**I. Download Testsigma Agent**
 
 Go to the Agents page (Navigation Bar > Agents) and click on the ‘Download Agent’ button on the top right corner to download the latest version of Testsigma Agent.
 ![agents page and the button to download agent](https://docs.testsigma.com/images/setup-on-windows-mac-linux/agents-page-download-agent-button.png)
 
 <br>
 ---
-
-## **II. Extract the Testsigma Agent Zip file**
+##**II. Extract the Testsigma Agent Zip file**
 Here are the suggested locations to place the extracted Testsigma Agent folder:
 
 
@@ -73,8 +71,7 @@ Unzip the downloaded Agent zip file in the directory you choose..
 
 <br>
 ---
-
-## **III. Start the Testsigma Agent Server**
+##**III. Start the Testsigma Agent Server**
 
 **For Windows**
 1. Navigate to the Testsigma Agent installation folder and double-click the ‘start.bat’ or run “start.bat” in the command line file to start the Testsigma Agent.
@@ -98,8 +95,7 @@ If the icon doesn’t appear in 10 minutes, please contact Testsigma Support.
 
 <br>
 ---
-
-## **IV. Register the Testsigma Agent**
+##**IV. Register the Testsigma Agent**
 
 **Checking Agent running status**
 Once the Agent has started you will get a System Tray icon. The status will show as **STARTED** once it's ready. If it is showing the status as **STARTING**, please wait for a few moments for it to start. 

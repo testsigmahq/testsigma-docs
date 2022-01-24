@@ -18,8 +18,7 @@ contextual_links:
 ---
 In Web Service/REST API Testing, to make sure the response is as expected ,we need to compare the response against the expected data. There are mainly four modes for comparing Responses in Testsigma. We’ll cover them in this document.
  ---
-
-## **Basic Comparison Modes**
+##**Basic Comparison Modes**
 **1. Strict**
    * It is the most rigid form of comparison.
   
@@ -81,8 +80,7 @@ Strict Order mode fails if the order is different such as
 
 ---
 ---
-
-## **Additional modes**
+##**Additional modes**
 
 **5. JSON Schema**
    

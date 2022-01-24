@@ -32,15 +32,13 @@ We will discuss all the above test step actions in this document.
 &emsp;
 
 ---
-
-## **Pre-requisites:**
+##**Pre-requisites:**
 
 You should already know about [Testsigma’s Recorder.](https://testsigma.com/docs/elements/android-apps/record-multiple-elements/)
 
 &emsp;
 ---
-
-## **Steps to follow:**
+##**Steps to follow:**
 
  1. Create a Test Case for an android application using Testsigma’s Recorder. 
  2. Hover on one of the recorded test steps:

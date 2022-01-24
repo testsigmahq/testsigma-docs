@@ -20,8 +20,7 @@ contextual_links:
 BrowserStack integration with Testsigma lets you run your Testsigma tests on BrowserStack.
 If your organization has an existing account with BrowserStack, you can author tests for Web, Mobile Web, and Mobile applications on Testsigma, and then run those tests on BrowserStack’s cloud devices.
 ---
-
-## **Prerequisites**
+##**Prerequisites**
 
 You need the username and API Key for BrowserStack which can be obtained from your BrowserStack account dashboard.
 
@@ -31,8 +30,7 @@ This can be obtained from the Account Settings page under Automate as shown belo
 
 You should already know about different [Test Lab Types in Testsigma](https://testsigma.com/docs/test-management/test-plans/supported-test-lab-types/)
 ---
-
-## **Integrating with BrowserStack**
+##**Integrating with BrowserStack**
 
 Once the username and API key is obtained, navigate to the Plugins page through **Dashboard > Settings > Plugins** and select BrowserStack under the Test Lab tab.
 
@@ -41,8 +39,7 @@ Once the username and API key is obtained, navigate to the Plugins page through 
 
 After entering the details, click on the Create button to add the Integration.
 ---
-
-## **Using BrowserStack for Test Runs**
+##**Using BrowserStack for Test Runs**
 
 Once the account details are added to the Plugins page, select BrowserStack as the Test Lab type instead of Testsigma Lab while creating an Ad-hoc run or Test Plan Run.
 

@@ -31,8 +31,7 @@ Desired Capabilities are added while selecting the Test Environment in Testsigma
 
 In this document, we will cover how to use these capabilities in Ad Hoc Run, Quick Run, and Normal Execution. To do this, you should already know how to [Create Ad Hoc Runs](https://testsigma.com/docs/runs/adhoc-runs/) and [Create Test Plans.](https://testsigma.com/docs/test-management/test-plans/overview/)
 ---
-
-## **Adding Desired Capabilities in Adhoc Run**
+##**Adding Desired Capabilities in Adhoc Run**
 **Navigation: Test Development > Test Cases**
 
 Selecting a Test Case from the Test Cases page will take us to the Test Case details page. Click on the Run button on the top right corner to open the Ad-hoc Run overlay page.
@@ -43,8 +42,7 @@ Click on the Desired Capabilities link to reveal the Desired Capabilities field 
 
 Enter one or more desired capabilities set as mentioned in the below section - ‘Desired Capabilities Format’
 ---
-
-## **Adding Desired Capabilities in Test Plan**
+##**Adding Desired Capabilities in Test Plan**
 **Navigation: Test Development > Test plan**
 
 Clicking on the Create Test Plan Button on the Test Plans page opens the Create Test Plan page. Enter the details and move onto the next page by clicking on the Next button.
@@ -55,8 +53,7 @@ On the second page - ‘Test Machines and Suite Selection’, click on the Desir
 
 Enter one or more desired capabilities set as mentioned in the below section - ‘Desired Capabilities Format’
 ---
-
-## **Desired Capabilities Format**
+##**Desired Capabilities Format**
 
 Desired Capabilities are entered as ‘key-value’ pairs. Enter the details for Desired Capabilities as specified below:
 - **Name:** Enter the name of the capability.
@@ -71,15 +68,13 @@ For example, we can allow invalid certificates for a webpage using the ‘accept
 |---|---|---|
 |acceptInsecureCerts|boolean|True|
 ---
-
-## **Removing Desired Capabilities from Test Environment**
+##**Removing Desired Capabilities from Test Environment**
 
 While editing a Test Plan or Ad-hoc Run Configuration, click on the delete button(trash icon) towards the right of the desired capability row to remove the corresponding row of desired capability.
 
 ![Create Test Plan Remove Desired Capability](https://docs.testsigma.com/images/desired-capabilities/create-testplan-remove-desired-caps.png)
 ---
-
-## **Available Capabilities**
+##**Available Capabilities**
 
 Here are some links to some of the available Desired Capabilities:
 

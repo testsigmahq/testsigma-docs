@@ -23,8 +23,7 @@ contextual_links:
 
 ---
 ---
-
-## **Introduction:**
+##**Introduction:**
 
 Sometimes, when you update the structure of your website or application, you will also need to update the corresponding elements in your automated test project in Testsigma. In this document, we will discuss two ways of doing that for an android Project:
  1. Updating an element at a time
@@ -32,16 +31,14 @@ Sometimes, when you update the structure of your website or application, you wil
 
 &emsp;
 ---
-
-## **Pre-requisites:**
+##**Pre-requisites:**
 
  1. Your android project should have elements already. See [how to capture elements for an android application.](https://testsigma.com/docs/elements/android-apps/record-multiple-elements/)
  2. You should know [how to navigate the elements page.](https://testsigma.com/docs/elements/web-apps/overview/)
 
 &emsp;
 ---
-
-## **How to update one element at a time:**
+##**How to update one element at a time:**
 
  1. Select your project and then navigate to ‘Test Development > Elements’
  2. ‘All Elements’ page will appear. This contains all the elements that you have created for the selected android project, like this:
@@ -61,8 +58,7 @@ There is a radio button that lets you choose between ‘Manually’ or ‘Elemen
 
 &emsp;
 ---
-
-## **How to update multiple elements at once:**
+##**How to update multiple elements at once:**
 
  1. Select your android project and then navigate to ‘Test Development > Elements’
  2. On the top right, there is an option to export the elements in excel format:

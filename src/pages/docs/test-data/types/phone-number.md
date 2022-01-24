@@ -29,22 +29,19 @@ Phone Number test data can be used to automate:
 
 Testsigma provides you with a valid mobile phone number on request, with which you can author any test case that requires a valid phone number.
 ---
-
-## **Prerequisites**
+##**Prerequisites**
 
 Provisioned mobile phone numbers - [Contact Support](http://support@testsigma.com) or talk to us on Chat and we will provision phone numbers for your account.
 
 Your should be familiar with Regular expressions. If not, [refer to Regex guide - MDN Docs](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Guide/Regular_Expressions)
 ---
-
-## **Creating Test Steps**
+##**Creating Test Steps**
 
 For 2FA Authentication, we need to perform two steps:
 * Step 1 - Enter the phone number to which the OTP will be sent
 * Step 2 - Fetch the OTP from the SMS received on the Phone number
 ---
-
-## **Step 1 -** We will enter the phone number provided by Testsigma using the Phone Number test data type, using a Test Step.
+##**Step 1 -** We will enter the phone number provided by Testsigma using the Phone Number test data type, using a Test Step.
 
 1. In your Test Case, add a Test Step to enter the Phone number in the Phone number field on your Application page.
 
@@ -59,8 +56,7 @@ Check the below illustration to understand how we can use the Phone number Test 
 
 ![Phone number Test Data in Test Steps](https://docs.testsigma.com/images/phone-number/phone-number-test-data-test-steps.gif)
 ---
-
-## **Step 2 -** We will use the Test Data Generators available in Testsigma to fetch the OTP from the phone number selected in the previous step.
+##**Step 2 -** We will use the Test Data Generators available in Testsigma to fetch the OTP from the phone number selected in the previous step.
 
 1. Add a Test Step to enter the OTP Code in the OTP Field
 

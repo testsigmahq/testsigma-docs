@@ -21,8 +21,7 @@ You can add new elements while you’re adding test steps to your test case manu
 
 &emsp;
 ---
-
-## **Pre-requisites**
+##**Pre-requisites**
 
 You should already know how to
  1. [use the Testsigma recorder for capturing elements.](https://testsigma.com/docs/test-cases/create-steps-recorder/android-apps/overview/)
@@ -32,8 +31,7 @@ You should already know how to
 &emsp;
 
 ---
-
-## **How to create an element while adding test steps to a test case for an android project in Testsigma:**
+##**How to create an element while adding test steps to a test case for an android project in Testsigma:**
  1. Create a test case or go to a pre-existing test case. 
  2. Add a test step to the test case that contains an element. The language for the test step should contain an element. Some examples of such steps for an android application are shown in the screenshot below:
 

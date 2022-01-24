@@ -35,14 +35,12 @@ When test steps are created via the Recorder for iOS, there are some actions tha
 We will discuss all the above test step actions in this document.
 
 ---
-
-## **Pre-requisites:**
+##**Pre-requisites:**
 You should already know about [Testsigma’s Recorder](https://testsigma.com/docs/test-cases/create-steps-recorder/android-apps/overview/).
 
 &emsp;
 ---
-
-## **Steps to follow:**
+##**Steps to follow:**
 1. Create a Test Case for an iOS application .
 
 2. Click on Record.

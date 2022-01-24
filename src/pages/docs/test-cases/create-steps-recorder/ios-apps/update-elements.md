@@ -20,14 +20,12 @@ When you update the structure of your iOS application, you will need to update t
 
 &emsp;
 ---
-
-## **Pre-requisites:**
+##**Pre-requisites:**
 You should already know [how to capture elements using Recorder](https://testsigma.com/docs/test-cases/create-steps-recorder/ios-apps/overview/).
 
 &emsp;
 ---
-
-## **How to update an element via Testsigma’s Recorder:**
+##**How to update an element via Testsigma’s Recorder:**
 1. Create a Test Case using Testsigma’s Recorder in your iOS Project. 
    
 2. On the Recorder UI, hover over the step that has the element you want to edit. The elements appear in green on the Testsigma Mobile Inspector UI:

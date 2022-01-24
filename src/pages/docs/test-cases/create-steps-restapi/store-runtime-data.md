@@ -18,8 +18,7 @@ In your Test Cases, if you have to use some of the test data that is fetched dyn
 Let us see how we can store information that is needed in later steps to Run-time Test Data from a REST Response.
  
  ---
-
-## **How to store Run-time Test Data from an API Response**
+##**How to store Run-time Test Data from an API Response**
  
 See [How to add Test Steps for Web Service/REST API Testing](https://testsigma.com/docs/test-cases/create-steps-restapi/overview/).
 

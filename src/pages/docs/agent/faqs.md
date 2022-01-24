@@ -25,8 +25,7 @@ contextual_links:
 
 ---
 ---
-
-## **1. What is Testsigma Agent? $faq-testsigma-agent**
+##**1. What is Testsigma Agent? $faq-testsigma-agent**
 Testsigma Agent is a small Java utility that is used to run tests on local devices using Testsigma.
 
 ### **Contents**
@@ -44,8 +43,7 @@ Testsigma Agent is a small Java utility that is used to run tests on local devic
 
 <br>
 ---
-
-## **2. Why do we need a Testsigma Agent? $faq-testsigma-agent-why**
+##**2. Why do we need a Testsigma Agent? $faq-testsigma-agent-why**
 Two main uses of Testsigma Agent:
 
 ### **1. To run tests on Local Devices**
@@ -68,8 +66,7 @@ You may also use the Cloud-based Mobile Inspector that doesn’t require any set
 
 <br>
 ---
-
-## **3. What are the resource requirements for the Testsigma Agent? $faq-testsigma-agent-req**
+##**3. What are the resource requirements for the Testsigma Agent? $faq-testsigma-agent-req**
 
 Hardware requirements:<br>
 * Memory: Minimum 2 GB, Recommended 4GB (dedicated memory for the tests)<br>
@@ -78,8 +75,7 @@ Hardware requirements:<br>
 
 <br>
 ---
-
-## **4. How does the Testsigma cloud server communicate with the Testsigma Local Agent? $faq-testsigma-agent-how**'
+##**4. How does the Testsigma cloud server communicate with the Testsigma Local Agent? $faq-testsigma-agent-how**'
 
 The Agent is a simple java utility that communicates exclusively with Testsigma Server in a pull model; the Testsigma Cloud server does not push any data without a request from the Agent side. The Agent queries the Testsigma Cloud Server for the test-related details and gets the required data as the response from the Cloud server.
 

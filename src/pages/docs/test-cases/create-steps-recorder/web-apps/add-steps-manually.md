@@ -21,8 +21,7 @@ You can manually add test steps to a test case that you recorded using the Tests
 
 &emsp;
 ---
-
-## **Pre-requisites:**
+##**Pre-requisites:**
 
 You should already know how-to, or have:
 
@@ -31,8 +30,7 @@ You should already know how-to, or have:
 
 &emsp;
 ---
-
-## **Steps to follow:**
+##**Steps to follow:**
 
  1. Create a test case via the Testsigma test recorder. 
  2. Hover on the test step after (or before) which you want to add more test steps. 	

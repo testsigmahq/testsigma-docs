@@ -22,8 +22,7 @@ With Testsigma, you can perform visual testing for your web application as well 
 
 In this document, we will discuss both ways
 ---
-
-## **1. Enable Visual Testing in Preferences Page**
+##**1. Enable Visual Testing in Preferences Page**
 
   1. Navigate to Settings → Preferences
   2. Turn the toggle button ON for Visual Testing if it is in OFF state, as shown below:
@@ -36,8 +35,7 @@ Here is a quick gif to demonstrate the same.
 
 ![gif demonstrating how to configure visual testing preferences under settings in Testsigma](https://docs.testsigma.com/images/configure-test-plan/gif-configure-visual-testing-in-preferences-settings-testsigma.gif)
 ---
-
-## **2. Enable Visual Testing in Test Plan Settings** 
+##**2. Enable Visual Testing in Test Plan Settings** 
 
 This can be performed either during the creation of a new Test Plan or by editing an existing test plan:
 

@@ -19,8 +19,7 @@ contextual_links:
 When creating test steps using the Recorder in Testsigma, there are various types of test data that you can use. In this document, we will discuss how to add that test data while you are recording test steps for an iOS project in Testsigma. Refer to [supported test data types in Testsigma](https://testsigma.com/docs/test-data/types/overview/).
 
 ---
-
-## **Pre-requisites:**
+##**Pre-requisites:**
 You should already know how to:
 
 1. [create an iOS project](https://testsigma.com/docs/projects/overview/).
@@ -30,8 +29,7 @@ You should already know how to:
 3. [create a test case](https://testsigma.com/docs/test-cases/manage/add-edit-delete/).
 
 ---
-
-## **How to add test data in test steps using Testsigma Recorder:**
+##**How to add test data in test steps using Testsigma Recorder:**
 1. Start recording test steps using Testsigma Recorder.
    
 2. In the Testsigma Recorder UI, add a test step that will have test data. Some example steps that have test data are shown below:

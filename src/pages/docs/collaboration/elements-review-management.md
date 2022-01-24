@@ -30,8 +30,7 @@ Once an element is created in Testsigma, it can be reviewed in two ways:
 
 &emsp;
 ---
-
-## **Pre-requisites:**
+##**Pre-requisites:**
 1. You should know how to create an element. If not, refer to [create elements](https://testsigma.com/docs/elements/android-apps/create-manually/).
    
 2. To enable review management in Testsigma, make sure the option ‘Test Case Review Management’  is enabled under ‘Settings > Preferences’
@@ -42,8 +41,7 @@ Once an element is created in Testsigma, it can be reviewed in two ways:
 
 &emsp;
 ---
-
-## **Step to follow to send an element for review to other team members:**
+##**Step to follow to send an element for review to other team members:**
 1. Go to the Project
    
 2. Go to Test Development > Elements
@@ -66,8 +64,7 @@ Once an element is created in Testsigma, it can be reviewed in two ways:
 
 &emsp;
 ---
-
-## **Steps to follow when you have an element to review:**
+##**Steps to follow when you have an element to review:**
 1. When you have an element to review, you shall be notified in an email too. Additionally, you can track the status of the received reviews under the section: ‘WAITING FOR YOUR REVIEW > ELEMENTS’ on the dashboard:
 
 ![Submit for review and waiting for review section on dashboard in Testsigma](https://docs.testsigma.com/images/elements-review-management/submit-for-review-waiting-for-review-section-dashboard-testsigma.png)
@@ -96,8 +93,7 @@ The steps above can be repeated until the Element is approved.
 
 &emsp;
 ---
-
-## **Steps to follow to self-review an element:**
+##**Steps to follow to self-review an element:**
 The steps to self-review an element are the same as when you assign another team-member the element for review. The only difference is that the creator assigns the element to review to themselves and all stages of reviews are done by the creator.
 
 

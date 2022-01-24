@@ -21,15 +21,13 @@ There are times when you might want to add steps before and after a test step, f
 
 &emsp;
 ---
-
-## **Pre-requisites:**
+##**Pre-requisites:**
 
 You should already be familiar with [Testsigma’s Recorder.](https://testsigma.com/docs/elements/android-apps/record-multiple-elements/)
 
 &emsp;
 ---
-
-## **How to add a step before and after a pre-existing test step in an android project in Testsigma:**
+##**How to add a step before and after a pre-existing test step in an android project in Testsigma:**
 
  1. Create a Test Case using Testsigma’s Recorder. 
  2. Go to the created test steps on Testsigma’s Recorder UI.

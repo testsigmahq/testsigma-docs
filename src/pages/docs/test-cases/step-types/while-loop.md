@@ -29,8 +29,7 @@ In Testsigma, you can add a while loop that iterates through a few steps dependi
 
 &emsp;
 ---
-
-## **Pre-requisites:**
+##**Pre-requisites:**
 
 You should already know how to:
  1. [Create Test case](https://testsigma.com/docs/test-cases/manage/add-edit-delete/)
@@ -41,8 +40,7 @@ This document contains information about adding while loop using testsigma’s t
 
 &emsp;
 ---
-
-## **How to use while loop as a test step while creating a test case:**
+##**How to use while loop as a test step while creating a test case:**
  1. Navigate to “Test Development” > “Test Cases” > Create
 
 ![create button to create a test case to create a while loop in Testsigma](https://docs.testsigma.com/images/while-loop/create-button-test-cases-while-loop.png)
@@ -96,8 +94,7 @@ The gif below shows how While loop test steps are created.
 
 &emsp;
 ---
-
-## **Adding While Loop in Testsigma’s Test Step Recorder [Web & Mobile Web]**
+##**Adding While Loop in Testsigma’s Test Step Recorder [Web & Mobile Web]**
 
 We can also add the While loop while creating test steps 
 using Testsigma’s Test Recorder.
@@ -130,8 +127,7 @@ Follow the rest of the steps mentioned in the first section from Step 9 to add s
 
 &emsp;
 ---
-
-## **Adding While Loop in Testsigma’s Test Step Recorder [Android &iOS]**
+##**Adding While Loop in Testsigma’s Test Step Recorder [Android &iOS]**
 
 We can also add the while loop while creating test steps using Testsigma’s Test Recorder for native Android and iOS apps.
 

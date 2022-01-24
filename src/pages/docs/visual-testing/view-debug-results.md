@@ -23,8 +23,7 @@ Visual Testing in Testsigma helps you test the visual design of your application
 
 In this document, we will discuss how to view and debug the results of visual testing in Testsigma.
 ---
-
-## **Pre-requisites:**
+##**Pre-requisites:**
 
 You should already know how to:
  1. [Create a test case](https://testsigma.com/docs/test-cases/manage/add-edit-delete/)
@@ -33,8 +32,7 @@ You should already know how to:
  4. [Configure visual testing for your test plan](https://testsigma.com/docs/visual-testing/configure-test-plan/)
  5. [Run a Test plan in Testsigma](https://testsigma.com/docs/runs/test-plan-executions/)
 ---
-
-## **How to execute a Visual Test and View the results** 
+##**How to execute a Visual Test and View the results** 
 
  1. Create a test case, add it to a test suite, add the test suite to a Test Plan
  2. Enable Visual Testing in preferences, and also within the test plan

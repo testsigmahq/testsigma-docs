@@ -22,8 +22,7 @@ With Testsigma Zepel integration, you can push bugs directly from Testsigma to y
 
 In this document, we will discuss how to establish Integration with Zepel from your Testsigma account and how to create the first bug from Testsigma which can flow into Zepel.
 ---
-
-## **Prerequisites**
+##**Prerequisites**
 
 To integrate Zepel with Testsigma, we need the following information from your Zepel Account
   * Account URL - Your organization’s Zepel Account URL
@@ -31,8 +30,7 @@ To integrate Zepel with Testsigma, we need the following information from your Z
 
 You should already know about [Test Plan Runs and results](https://testsigma.com/docs/runs/test-plan-executions/).
 ---
-
-## **Integrating Zepel with Testsigma**
+##**Integrating Zepel with Testsigma**
 
 Once you’ve obtained the prerequisite details, navigate to the Plugins page through **Dashboard > Settings > Plugins** and select Zepel under the Bug Reporting Tab.
 
@@ -42,8 +40,7 @@ Click on the Disabled Icon on **Zepel**. Zepel Details overlay opens up as shown
 
 Enter the details mentioned in Prerequisites. After entering the details, click on the Create button to add the Integration.
 ---
-
-## **Creating a bug**
+##**Creating a bug**
 
 We can create a bug within Testsigma from the run results page for a particular Test Plan with the following steps:
 

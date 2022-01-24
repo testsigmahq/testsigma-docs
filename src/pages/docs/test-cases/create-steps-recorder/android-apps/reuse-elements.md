@@ -21,15 +21,13 @@ When you record elements via Testsigma’s Recorder, they are saved as elements 
 
 &emsp;
 ---
-
-## **Pre-requisites:**
+##**Pre-requisites:**
 
 You should know how to [record a test case via Testsigma’s Recorder.](https://testsigma.com/docs/test-cases/create-steps-recorder/android-apps/overview/)
 
 &emsp;
 ---
-
-## **How to reuse pre-recorded elements via Testsigma’s Recorder for an android project:**
+##**How to reuse pre-recorded elements via Testsigma’s Recorder for an android project:**
 
  1. Create a test case in which you will be reusing your pre-recorded elements.
  2. Start recording test steps for the test case.

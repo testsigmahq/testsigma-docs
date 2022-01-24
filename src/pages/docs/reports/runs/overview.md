@@ -21,8 +21,7 @@ Testsigma provides a central repository for all the test results.
 Simply navigate to the “Test Development” > “Run Results” page
 
 ---
-
-## **What can you do on the Run Results page**
+##**What can you do on the Run Results page**
 
 1. Observe results for all Test Plan executions
 2. Drill down to test case / test suite / test machine level reports 
@@ -35,8 +34,7 @@ Here is a gif that gives an overview of the test run results:
 ![gif demonstrating test run results in Testsigma](https://docs.testsigma.com/images/runs/gif-test-run-results.gif)
 
 ---
-
-## To know more about the different components of the run results page, refer to the documents below:
+##To know more about the different components of the run results page, refer to the documents below:
 
 1. [Drill-down Reports](https://testsigma.com/docs/reports/runs/drill-down-reports/)
 

@@ -22,8 +22,7 @@ contextual_links:
 ---
 You may run into the following issues while setting up Testsigma CE using Docker:
 ---
-
-## **Ports Unavailable**
+##**Ports Unavailable**
 
 If ports 9090 & 443 are not open, we recommend that you kill all processes on these ports and start again. If the processes on these ports cannot be stopped, you can run Testsigma on another port:
 
@@ -38,16 +37,14 @@ To kill a previous version of Testsigma running on these ports, run the followin
 
 <br>
 ---
-
-## **Unable to access Testsigma**
+##**Unable to access Testsigma**
 
 * You may need to wait for up to 3 minutes before accessing the application to allow Nginx to start.
 * Try accessing the https://local.testsigmaos.com/ui after 3 minutes.
 
 <br>
 ---
-
-## **Unable to start Docker Desktop [ Windows ]**
+##**Unable to start Docker Desktop [ Windows ]**
 
 If the docker instance is failing to start due to issues related to wsl, try executing the following command to install wsl or follow this [link](https://docs.docker.com/desktop/windows/wsl/) for other options.
 

@@ -24,8 +24,7 @@ You should know how to [Upload Android and iOS Apps](https://testsigma.com/docs/
 [[info | NOTE:]]
 | You need to authenticate these requests with your Testsigma API Key.  See [How to generate API Keys](https://testsigma.com/docs/configuration/api-keys/)
 ---
-
-## **Upload New File API**
+##**Upload New File API**
 
 This endpoint allows users to upload Attachments, IPA or APK Files into Testsigma Uploads using REST API.
 
@@ -67,8 +66,7 @@ Example: **@/Users/$USER/Downloads/test-app.apk**
 
 ---
 ---
-
-## **Update File API**
+##**Update File API**
 
 This endpoint allows users to upload Attachments, IPA or APK Files via REST API for use in Test Plans.
 

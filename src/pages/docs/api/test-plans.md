@@ -26,8 +26,7 @@ You should be familiar with creating and running Test Plans. See [Manage Test Pl
 [[info | NOTE:]]
 | You need to authenticate these requests with your Testsigma API Key. See [How to generate API Keys](https://testsigma.com/docs/configuration/api-keys/)
 ---
-
-## **Test Plan - Start Test Execution API**
+##**Test Plan - Start Test Execution API**
 This endpoint allows users to trigger a Test Plan execution remotely.
 
 |**Request Type**|POST|
@@ -92,8 +91,7 @@ Each Test Plan Run in Testsigma has a unique Run ID. This Run ID can be used to 
 [[info | NOTE:]]
 | You need to authenticate these requests with your Testsigma API Key. See [How to generate API Keys](https://testsigma.com/docs/configuration/api-keys/)
 ---
-
-## **Obtaining the Run ID**
+##**Obtaining the Run ID**
 
 If the Test Plan Run was started from within the Testsigma App, the Run ID can be found from the Run Results page as shown below:
 
@@ -105,8 +103,7 @@ If the Test Plan was started by the Test Plan Trigger API Call, the Run ID can b
 
 ![run ids from API response under the json key id](https://docs.testsigma.com/images/test-plans/run-id-api-response-json-key.png)
 ---
-
-## **Test Plan Status API**
+##**Test Plan Status API**
 
 This endpoint allows users to check the status of an already triggered Test Plan Run.
 

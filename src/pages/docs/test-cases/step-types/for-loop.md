@@ -29,14 +29,12 @@ If you want to run a test case based on the above test data profile, but you jus
 
 &emsp;
 ---
-
-## **Prerequisites**
+##**Prerequisites**
 This document assumes that you know how to create a test case, if not, please refer to the document [here](https://testsigma.com/docs/test-cases/manage/add-edit-delete/)
 
 &emsp;
 ---
-
-## **How to create a For loop test step**
+##**How to create a For loop test step**
 
 ### **Create a Test Data Profile**
 
@@ -55,8 +53,7 @@ Start by creating a test data profile with ‘n’ rows:
 
 &emsp;
 ---
-
-## **Add For Loop to Test Case**
+##**Add For Loop to Test Case**
 
  1. Create a test case 
  2. Create test steps to be run before the for loop

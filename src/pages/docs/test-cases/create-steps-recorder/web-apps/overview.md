@@ -21,8 +21,7 @@ Testsigma Step Recorder chrome extension lets you *generate* automated test scri
 
 &emsp;
 ---
-
-## **Prerequisites:**
+##**Prerequisites:**
 
 This document will take you through the process of creating test steps using the Testsigma Step Recorder. You should already know how-to, or have:
 
@@ -31,8 +30,7 @@ This document will take you through the process of creating test steps using the
 
 &emsp;
 ---
-
-## **Recording test steps using Testsigma’s step recorder chrome extension**
+##**Recording test steps using Testsigma’s step recorder chrome extension**
  
  1. Create a new Test Case in your Testsigma project.
  2. Enter the Application URL that you want to automate and click on the 'Create’ button. 

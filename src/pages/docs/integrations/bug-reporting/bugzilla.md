@@ -22,8 +22,7 @@ Testsigma Bugzilla integration helps you in creating issues in Bugzilla directly
 
 In this document, we will discuss how to establish Integration with Bugzilla from your Testsigma account and how to create the first bug from Testsigma into Bugzilla.
 ---
-
-## **Prerequisites**
+##**Prerequisites**
 
 To integrate Bugzilla with Testsigma, you need the following information from your Bugzilla Account
   * Account URL - Your organization’s Bugzilla Account URL
@@ -31,8 +30,7 @@ To integrate Bugzilla with Testsigma, you need the following information from yo
 
 You should already know about [Test Plan Runs and results](https://testsigma.com/docs/runs/test-plan-executions/).
 ---
-
-## **Integrating Bugzilla with Testsigma**
+##**Integrating Bugzilla with Testsigma**
 
 Navigate to the Plugins page through **Dashboard > Settings > Plugins** and select Bugzilla under the Bug Reporting Tab.
 
@@ -42,8 +40,7 @@ Click on the Disabled Icon on **Bugzilla**. Bugzilla Details overlay opens up as
 
 Enter the details as mentioned in Prerequisites. After entering the details, click on the Create button to add the Integration.
 ---
-
-## **Creating a bug**
+##**Creating a bug**
 
 We can create a bug within Testsigma from the run results page for a particular Test Plan with the following steps:
 

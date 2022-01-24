@@ -25,8 +25,7 @@ This organization provides a logical separation between different Applications a
 
 Your Testsigma account comes with 4 sample Projects, populated with different sample test cases for web, mobile web, Android, and iOS application types. You can use and edit them to start off your own test automation quickly. 
 ---
-
-## **Create Project**
+##**Create Project**
 
 Here’s a snapshot of the Testsigma Dashboard page:
 ![Highlighted are the methods to create Projects](https://docs.testsigma.com/images/projects/dashboard-project-selection-area.png)
@@ -61,8 +60,7 @@ Here’s a snapshot of the Testsigma Dashboard page:
 
     Before you proceed, if you want to assign users and manage roles for projects, refer to  [Assign projects](https://testsigma.com/docs/collaboration/assign-projects/).
 ---
-
-## **Edit Project**
+##**Edit Project**
 
 To edit an existing project, select the project from the Project Switcher and then navigate to the Project Settings page via **Dashboard > Project Settings**
 
@@ -77,8 +75,7 @@ If Multiple Applications are enabled, you can manage them from the **Dashboard >
 
 If Multiple Application Versions are enabled, you can manage them from the **Dashboard > Project Settings > Applications > Versions** page.
 ---
-
-## **Delete Project**
+##**Delete Project**
 
 To delete an existing project, select the project from the Project Switcher and then navigate to the Project Settings page via **Dashboard > Project Settings**
 
