@@ -41,6 +41,7 @@ Before we check the actual requests, let’s go through some Element properties 
 
 ---
 ##**API Specification**
+
 ### **Get Elements**
 
 Get all the available elements in the Project
@@ -49,7 +50,7 @@ Get all the available elements in the Project
 - Authorization: Bearer <API_Token>
 
 
----
+
 ### **Get an Element**
 Get a specific element in the Project by Element Id
 - Request Type: GET
@@ -59,7 +60,7 @@ Get a specific element in the Project by Element Id
 <ELEMENT_ID> is the id of the specific element you want to fetch.
 
 
----
+
 ### **Create Element**
 Create a new Element
 
@@ -90,7 +91,7 @@ Request Body:
 }
 
 
----
+
 ### **Update Element**
 Update the details regarding an existing element
 

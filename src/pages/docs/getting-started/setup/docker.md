@@ -60,17 +60,23 @@ Download docker-compose.yml file into the testsigma installation folder from [he
 
 The following command will run Testsigma along with a MySQL database to store data.
 
-`
- "$ docker-compose up -d" 
-`<br><br>
+```
+$ docker-compose up -d 
+```
+<br><br>
 Check if the containers are running using the following commands
 
-`
-$ docker ps 
-`
-<br><br>
 
-You should see a message: “**Testsigma is Running!**” once the container is ready.
+```
+$docker ps
+
+CONTAINER ID        IMAGE                   …       STATUS            PORTS                                     Names    			                                              
+580db1ec9ad1        testsigmahq/server:m1   …       ….	              443->443/tcp, 9090->9090/tcp, 9090/tcp    testsigma\_server 
+318c46259b15        mysql:5.7               …       ….	              33060/tcp, 55581->3306/tcp                testsigma\_mysql
+```
+
+You should see a message: “Testsigma is Running!” once the container is ready.
+
 
 Your Testsigma server should be up and running now. Testsigma server will be accessible at https://local.testsigmaos.com/ui
 
