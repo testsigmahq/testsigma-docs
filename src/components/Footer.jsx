@@ -35,9 +35,9 @@ class Footer extends Component {
         }
         this.setLike();
         if (typeof window !== 'undefined' && window.gtag) {
-            window.gtag("event", "Docs", {
-                category: 'Likes',
-                label: path,
+            window.gtag("event", "Likes", {
+                "event_category'": 'Docs',
+                "event_label": path,
                 value: 1
             });
         }
@@ -51,9 +51,9 @@ class Footer extends Component {
         }
         this.setDislike();
         if (typeof window !== 'undefined' && window.gtag) {
-            window.gtag("event", "Docs", {
-                category: 'Dislikes',
-                label: path,
+            window.gtag("event", "Dislikes", {
+                "event_category'": 'Docs',
+                "event_label": path,
                 value: 1
             });
         }
