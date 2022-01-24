@@ -1,6 +1,6 @@
 # Contributing to Testsigma
 
-Testsigma docs are built using [Gatsby](https://www.gatsbyjs.com/) and deployed to https://testsigma.com/docs.
+Testsigma docs are built using [Gatsby](https://www.gatsbyjs.com/) and deployed to https://testsigma.com/docs/.
 
 If you feel insecure about how to start contributing, feel free to ask us on our [Discord Server](https://discord.com/invite/5caWS7R6QX), in the #contributors channel. 
 
@@ -28,7 +28,7 @@ We use [Github Flow](https://guides.github.com/introduction/flow/index.html), so
  5. `npm install`
  6. `npm start `
 
-Now you can access docs on your local server using http://localhost:8000/docs
+Now you can access docs on your local server using http://localhost:8000/docs/
 
 ## **Committing code**
 
