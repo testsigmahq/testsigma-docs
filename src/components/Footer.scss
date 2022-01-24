@@ -19,6 +19,11 @@
       margin-left: 80px;
       margin-right: 50px;
     }
+    button.active {
+      opacity: 0.2;
+      cursor: default;
+      pointer-events: none;
+    }
     svg{
       margin-top: 8px;
       margin-right: 15px;
