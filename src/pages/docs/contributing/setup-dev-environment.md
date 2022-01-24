@@ -5,10 +5,19 @@ metadesc: "How to setup Testsigma  Development Environment to contribute"
 order: 22.1
 page_id: "Testsigma Development Environment"
 warning: false
+contextual_links:
+- type: section
+  name: "Contents"
+- type: link
+  name: "Pre-Requisite"
+  url: "#pre-requisites"
+- type: link
+  name: "Setup Instructions"
+  url: "#setup-instructions"
 ---
 
 
-## **Pre-Requirements:**
+## **Pre-Requisite:**
  - macOS / Linux
  - OpenJDK 11
  - Apache httpd
