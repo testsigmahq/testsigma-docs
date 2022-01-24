@@ -36,7 +36,9 @@ contextual_links:
 
 This Docker compose setup runs [Testsigma server](https://github.com/testsigmahq/testsigma) along with MySQL using 
 
-` "docker-compose" `
+``` 
+docker-compose
+```
 
 ---
 ##**Pre-requisites**<br>
@@ -58,20 +60,20 @@ Download docker-compose.yml file into the testsigma installation folder from [he
 
 The following command will run Testsigma along with a MySQL database to store data.
 
-`
- "$ docker-compose up -d" 
-`<br>
+```
+ docker-compose up -d
+```
 
 Check if the containers are running:
 
+```
 
- $ docker ps <br>
-CONTAINER ID        &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;IMAGE                  &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;&nbsp; …       &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;     STATUS            &nbsp; &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;   PORTS                                     &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;      &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Names  <br>        			                                              
-580db1ec9ad1     &nbsp;  &nbsp;&nbsp;&nbsp;&nbsp;testsigmahq/server:m1   &nbsp;&nbsp;&nbsp;…     &nbsp;&nbsp; &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;….	       &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;443->443/tcp, 9090->9090/tcp, 9090/tcp  &nbsp;testsigma\_server
- <br>
-318c46259b15     &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;mysql:5.7             &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; …      &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; ….	       &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;33060/tcp, 55581->3306/tcp              &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; testsigma\_mysql
-<br>
+docker ps
 
+CONTAINER ID        IMAGE                   …       STATUS            PORTS                                     Names    			                                              
+580db1ec9ad1        testsigmahq/server:m1   …       ….	              443->443/tcp, 9090->9090/tcp, 9090/tcp    testsigma\_server 
+318c46259b15        mysql:5.7               …       ….	              33060/tcp, 55581->3306/tcp                testsigma\_mysql
+```
 You should see a message: “Testsigma is Running!” once the container is ready.
 
 Your Testsigma server should be up and running now. Testsigma server will be accessible at https://local.testsigmaos.com/ui
