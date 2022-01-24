@@ -28,7 +28,6 @@ contextual_links:
   name: "V. Test the SAML Config"
   url: "#v-test-the-saml-config"
 ---
----
 
 With Azure (by Microsoft) Active Directory, users can automatically sign into their cloud-hosted/on-premise applications for a hassle-free, secure sign-in experience.
 

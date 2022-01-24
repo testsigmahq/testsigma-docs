@@ -22,7 +22,8 @@ In Testsigma, you author tests in simple English instead of programming language
 
 &emsp;
 
- ## **Prerequisites**
+---
+##**Prerequisites**
 
 You should already know about
 

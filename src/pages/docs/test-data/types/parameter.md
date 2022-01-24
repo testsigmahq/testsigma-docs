@@ -14,7 +14,6 @@ contextual_links:
   name: "Associate the test data profile with the pre-existing test case"
   url: "#associate-the-test-data-profile-with-the-pre-existing-test-case"
 ---
----
 
 A parameter test data type is an input that is injected into your test from a test data profile.
 

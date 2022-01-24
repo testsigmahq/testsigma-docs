@@ -25,6 +25,7 @@ contextual_links:
   url: "#v-cloning-of-version"
 ---
 
+---
 The need for version control stems from the idea of constantly changing requirements, constantly changing application features, and hence changes in tests.
 
 Consider a scenario where you have written 10 automated UI Tests for your App version 1.0.0 within Testsigma. A new beta version 1.0.0-beta is being developed that has some cool new features along with the existing ones.

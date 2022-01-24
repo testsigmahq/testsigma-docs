@@ -37,12 +37,13 @@ contextual_links:
  &emsp;
 
 ---
- ## **Setup Testsigma**
+##**Setup Testsigma**
   The easiest way to get started is by[ signing up for an account on our cloud-hosted version. ](https://testsigma.com/signup)
 
  &emsp;
 
- ## **Getting started**
+---
+##**Getting started**
  * [Tutorials](https://testsigma.com/tutorials/getting-started/automate-web-applications/)
 
  * [Core Concepts](https://testsigma.com/docs/test-cases/overview/)
@@ -53,7 +54,8 @@ contextual_links:
   
  &emsp;
  
- ## **Getting help**
+---
+##**Getting help**
   * Learn how to use, build, and extend the platform. Visit [documentation.](https://testsigma.com/docs/)
 
   * Connect with product experts on the team and in the Community on our [Discord.](https://discord.com/invite/5caWS7R6QX)

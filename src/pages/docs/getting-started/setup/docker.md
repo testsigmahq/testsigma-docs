@@ -81,7 +81,8 @@ Your Testsigma server should be up and running now. Testsigma server will be acc
 
  By default folders db\_data, ts\_data will be created in the installation folder to store the application data and MySQL data. If you want to change this folder path you can open docker-compose.yml and change the db\_data volume path under mysql service and ts\_data path under testsigma_server.
 
-  ## **Connecting to External MySQL**
+---
+## **Connecting to External MySQL**
 
   If you want to connect to an external/existing MySQL database, add the below environment variables 
  
@@ -101,7 +102,8 @@ To achieve this we use Testsigma Agent that connects the Testsigma Server with t
 
 Login to https://local.testsigmaos.com/ui and follow the steps mentioned here([Setup: Windows, Mac, Linux](https://testsigma.com/docs//agent/setup-on-windows-mac-linux/)) to Install and configure the the Agent
  
- ## **Update to new Version(Testsigma Server)**
+---
+##**Update to new Version(Testsigma Server)**
 
   1. Stop the Docker images/container with name testsigma in Docker Desktop, alternatively you can use the below commands to kill the processes<br>
        &nbsp;a. `sudo su`<br>

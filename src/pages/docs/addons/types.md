@@ -12,7 +12,6 @@ contextual_links:
   name: "In Testsigma you can create add-ons for the following use case"
   url: "#in-testsigma-you-can-create-add-ons-for-the-following-use-case"
 ---
----
 
 You should already know about Testsigma add-ons. See: [What is an add-on?](https://testsigma.com/docs/addons/what-is-an-addon/) | [Prerequisites for creating an add-on](https://testsigma.com/docs/addons/pre-requisite-to-create-addon/).
 

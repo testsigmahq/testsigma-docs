@@ -22,8 +22,6 @@ contextual_links:
 
 
 ---
-
----
 ##**Using Testsigma Cloud**
 
 Recommended as the easiest and fastest way to kickstart your automation journey

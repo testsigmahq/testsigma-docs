@@ -49,7 +49,8 @@ You should already know about [Test Plan Runs and results](https://testsigma.com
 
   ![Generate API Key in API Settings in Backlog](https://docs.testsigma.com/images/backlog/backlog-personal-settings-api-settings-generate-api.png)
 
- ## **Integrating Backlog with Testsigma**
+---
+##**Integrating Backlog with Testsigma**
 
 Once the above details are obtained, navigate to the Plugins page through **Dashboard > Settings > Plugins** and select Backlog under the Bug Reporting Tab.
 

@@ -25,7 +25,8 @@ You should already know how to
  1. [generate an API key from Settings.](https://testsigma.com/docs/configuration/api-keys/)
  2. [Get Test Plan ID from an existing Test Plan.](https://testsigma.com/docs/continuous-integration/get-test-plan-details/)
 
- ## **For Powershell Script:**
+---
+##**For Powershell Script:**
 1. Generate the API key from Configurations > API Keys, let’s call it - TESTSIGMA_API_KEY
 
 2. Get the Test Plan ID from the Test Plan details page, lets call it - TESTSIGMA_TEST_PLAN_ID

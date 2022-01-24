@@ -22,7 +22,6 @@ contextual_links:
   name: "Add-on Details"
   url: "#add-on-details"
 ---
----
 
 Testsigma has a marketplace for add-ons where Testsigma users publish add-ons that they’ve developed.
 

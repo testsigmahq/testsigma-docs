@@ -15,7 +15,6 @@ contextual_links:
   name: "Using an installed add-on"
   url: "#using-an-installed-add-on"
 ---
----
 
 
 Navigate to the Add-ons page via **Dashboard > Add-ons**.

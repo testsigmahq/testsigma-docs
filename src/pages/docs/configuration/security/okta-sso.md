@@ -22,7 +22,6 @@ contextual_links:
   name: "III. Configuring Testsigma for Okta"
   url: "#iii-configuring-testsigma-for-okta"
 ---
----
 
 Single Sign-On (SSO) provides faster, easier, and trusted access to applications.
 

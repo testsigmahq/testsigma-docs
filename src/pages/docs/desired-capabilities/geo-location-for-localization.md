@@ -18,7 +18,6 @@ contextual_links:
   name: "Sample Use Case"
   url: "#sample-use-case"
 ---
----
 This article mainly focuses on how to use Desired Capabilities to set the Geographical Location for running tests in Mobile Web.
 
 [[info | NOTE:]]

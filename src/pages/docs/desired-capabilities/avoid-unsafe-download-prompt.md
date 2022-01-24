@@ -12,7 +12,6 @@ contextual_links:
   name: "Adding the Capability"
   url: "#adding-the-capability"
 ---
----
 Sometimes, Chrome flags your downloads as unsafe on the basis of the file name checksum (sha256 hash) or the Download URL. In most cases, this might provide some additional security. However, there are some scenarios when these prompts appear for files whose security you are confident about, or your own files when you are testing. 
 
 While automating Test Cases with such flagged downloads, we can't generally handle the Unsafe download prompt using Selenium or similar Automation Frameworks. The reason for this is that the Browser prompts are above the scope of the webpage and WebDriver can handle only Web page Automation out-of-the-box and a restrictive list of Browser alerts.

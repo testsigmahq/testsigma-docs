@@ -55,7 +55,8 @@ Follow the below steps to get the API token:
   5. Enter a Token name and click on 'Create'.
   6. Your new token will be generated. Click on 'Copy Token' to copy the API Token value.
 
-  ## **Integrating Youtrack with Testsigma**
+---
+## **Integrating Youtrack with Testsigma**
 
 Once the above details are obtained, navigate to the Plugins page through **Dashboard > Settings > Plugins** and select Youtrack under the Bug Reporting Tab.
 

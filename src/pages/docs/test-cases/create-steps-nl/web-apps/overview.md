@@ -16,9 +16,6 @@ contextual_links:
 ---
 
 ---
-
-
----
 ##**Pre-requisites**:
 You should know how to:
  1. [Create a test case.](https://testsigma.com/docs/test-cases/manage/add-edit-delete/)

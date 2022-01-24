@@ -30,7 +30,6 @@ contextual_links:
   name: "6. Try using the add-on in a Test Case"
   url: "#6-try-using-the-add-on-in-a-test-case"
 ---
----
 
 You should already know about Testsigma add-ons. See: [What is an add-on?](https://testsigma.com/docs/addons/what-is-an-addon/) | [Prerequisites for creating an add-on](https://testsigma.com/docs/addons/pre-requisite-to-create-addon/).
 

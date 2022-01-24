@@ -17,7 +17,6 @@ contextual_links:
   name: "These actions are"
   url: "#these-actions-are"
 ---
----
 
 A Test Suite is a collection of test cases grouped on the basis of a specific feature or a requirement. In Testsigma, you can run multiple test suites at once, and analyze test reports grouped by Test Suites. . 
 

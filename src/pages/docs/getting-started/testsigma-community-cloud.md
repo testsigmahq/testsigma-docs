@@ -11,7 +11,6 @@ contextual_links:
   name: "Registering for Testsigma Community Cloud"
   url: "#registering-for-testsigma-community-cloud"
 ---
----
 As a Testsigma CE user, you can integrate your self-hosted open-source platform with our Community Cloud and get free access to
 * **Test Lab:** Upto 200 minutes/month access to 800+ browsers/OS and real Android and iOS devices.
 * **Storage:** Store upto 5GB of your data on the cloud for a month, including your apps, attachments, screenshots, video recordings, logs, and more. 

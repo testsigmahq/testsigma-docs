@@ -29,14 +29,15 @@ contextual_links:
   name: "Next Steps"
   url: "#next-steps"
 ---
----
 This guide walks you through creating an account and using Testsigma Cloud
+
 ---
 ##**Creating an account**
 &emsp;
 Go to [https://testsigma.com/signup](https://testsigma.com/signup) to create an account.
 
 ![Create a new project](https://docs.testsigma.com/images/testsigma-cloud/create-a-new-project.png)
+
 ---
 ##**Create a new project**
 &emsp;

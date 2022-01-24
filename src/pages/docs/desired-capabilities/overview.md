@@ -24,7 +24,6 @@ contextual_links:
   name: "Available Capabilities"
   url: "#available-capabilities"
 ---
----
 Desired Capabilities are a set of properties used for customizing the Test Environment. The customization includes adding browser extensions to the automation sessions, setting Geographical location for the test machine, bypassing browser alerts, etc.
 
 Desired Capabilities are added while selecting the Test Environment in Testsigma. Here's a list of [Sample Desired Capabilities](https://testsigma.com/docs/desired-capabilities/most-common/) in Testsigma:

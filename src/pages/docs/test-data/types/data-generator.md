@@ -11,7 +11,6 @@ contextual_links:
   name: "Consider an example test case where you need to fill a form. The form contains:"
   url: "#consider-an-example-test-case-where-you-need-to-fill-a-form-the-form-contains"
 ---
----
 
 You can generate test data within Testsigma using the built-in functions. Let’s see how.
 

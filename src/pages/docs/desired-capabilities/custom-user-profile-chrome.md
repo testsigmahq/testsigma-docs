@@ -13,7 +13,6 @@ contextual_links:
   name: "Steps for using Custom User Profile in Testsigma"
   url: "#steps-for-using-custom-user-profile-in-testsigma"
 ---
----
 
 Custom user profiles help you emulate settings such as pre-installed extensions, specific location, language, etc. for your web app test automation in Chrome browser. 
 

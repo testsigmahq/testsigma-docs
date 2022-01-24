@@ -109,7 +109,8 @@ You can use this option to delete the test step.
 
  &emsp;
 
- ## **4. Step details**
+---
+##**4. Step details**
 
  You can check details about a test step by clicking on the option ‘Step details’ corresponding to the test step.
 

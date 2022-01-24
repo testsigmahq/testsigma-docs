@@ -19,7 +19,6 @@ contextual_links:
   name: "How do you use add-ons?"
   url: "#how-do-you-use-add-ons"
 ---
----
 
 ---
 ##**What is an add-on?**

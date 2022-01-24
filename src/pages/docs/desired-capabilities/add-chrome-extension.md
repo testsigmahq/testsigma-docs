@@ -15,7 +15,6 @@ contextual_links:
   name: "Specify the Extensions path in the Desired Capabilities"
   url: "#specify-the-extensions-path-in-the-desired-capabilities"
 ---
----
 
 You can add a Chrome Extension to your Automation Session in 2 simple steps:
 

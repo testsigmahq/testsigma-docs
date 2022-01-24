@@ -14,7 +14,6 @@ contextual_links:
   name: "Steps to follow:"
   url: "#steps-to-follow"
 ---
----
 
 Testers may need to rerun failed test cases, or all test cases from a particular test run result, after a hotfix or a change in environment. Here’s how you can rerun test cases from test run results in Testsigma.
 

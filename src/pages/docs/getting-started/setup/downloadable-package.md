@@ -149,7 +149,8 @@ Your Testsigma server should be up and running now. Testsigma server will be acc
  4. Repeat the steps explained in “Step2: Run Services” section
  5. Now login to check the updated version of Testsigma Server here  https://local.testsigmaos.com/ui
 
- ## **Troubleshooting**
+---
+##**Troubleshooting**
 
  If you encounter any errors during this process, check out our guide on [debugging deployment errors](https://testsigma.com/docs/troubleshooting/setup/server-docker-deployment-errors/). If you are still facing any issue, please reach out to [support@testsigma.com](mailto:support@testsigma.com) or join our [Discord Server](https://discord.com/invite/5caWS7R6QX) to speak to the Testsigma team directly!
 

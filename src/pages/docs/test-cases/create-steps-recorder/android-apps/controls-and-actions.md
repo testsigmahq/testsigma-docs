@@ -120,7 +120,8 @@ Given below are the controls and actions available in Testsigma’s test step re
 
 &emsp;
 
- ## **5. Go Back**
+---
+##**5. Go Back**
  For going back to the previous page of the app.
 
 ![go back to previous page on android step recorder in Testsigma](https://docs.testsigma.com/images/controls-and-actions/go-back-android-step-recorder.png)
@@ -178,7 +179,8 @@ Switches the app to the native view context.
 
 &emsp;
 
- ##  **12. Tap**
+---
+## **12. Tap**
  To tap on an element in the application UI.
 
 &emsp;

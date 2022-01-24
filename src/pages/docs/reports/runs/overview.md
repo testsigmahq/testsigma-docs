@@ -11,7 +11,6 @@ contextual_links:
   name: "What can you do on the Run Results page"
   url: "#what-can-you-do-on-the-run-results-page"
 ---
----
 
 The purpose of test automation is to be able to quickly understand the state of quality in your application. To understand the quality you need to understand the results of your test execution and where test reports come in.
 

@@ -24,8 +24,6 @@ contextual_links:
 ---
 
 ---
-
----
 ##**1. What is Testsigma Agent? $faq-testsigma-agent**
 Testsigma Agent is a small Java utility that is used to run tests on local devices using Testsigma.
 

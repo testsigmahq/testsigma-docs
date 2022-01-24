@@ -22,8 +22,6 @@ contextual_links:
 ---
 
 ---
-
----
 ##**Introduction**
 When automating test cases for an android application, you can capture multiple elements from the application in one go. This article covers how to do that.
 

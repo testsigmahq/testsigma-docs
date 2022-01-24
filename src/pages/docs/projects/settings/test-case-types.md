@@ -24,7 +24,7 @@ contextual_links:
   url: "#assign-a-test-case-type-to-a-test-case"
 ---
 
-
+---
 Test Case Types are used to group test cases into a certain type. For example : Functional, Non-functional, User experience, etc. They are best used when:
   1. You want to analyze your test results by test case types. 
   2. You need to filter test cases by test case types.
@@ -42,7 +42,8 @@ Testsigma has an interface to create test cases with a test type attribute. Whil
   
   &emsp;
 
- ## **Prerequisites**
+---
+##**Prerequisites**
 
 This document assumes that you know how to create a test case. If not, refer to [Creating a Test Case](https://testsigma.com/docs/test-cases/manage/add-edit-delete/).
 

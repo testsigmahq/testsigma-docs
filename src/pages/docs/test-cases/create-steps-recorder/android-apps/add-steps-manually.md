@@ -20,8 +20,6 @@ contextual_links:
 ---
 
 ---
-
----
 ##**Introduction**
 
 You can add more test steps to a pre-existing test case using the Recorder. Let’s see how. 

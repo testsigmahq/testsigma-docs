@@ -20,8 +20,6 @@ contextual_links:
 ---
 
 ---
-
----
 ##**Introduction**
 In this document, we will discuss how to create elements manually for your android project in Testsigma i.e. without the use of a mobile inspector.
 

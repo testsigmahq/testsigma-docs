@@ -14,7 +14,6 @@ contextual_links:
   name: "How to use drill-down reports in Testsigma"
   url: "#how-to-use-drill-down-reports-in-testsigma"
 ---
----
 
 If the quality of an application is inversely proportional to the number of bugs / technical glitches / performance issues / usability issues, etc, then
 

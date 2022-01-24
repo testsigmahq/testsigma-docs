@@ -14,7 +14,6 @@ contextual_links:
   name: "Steps to follow:"
   url: "#steps-to-follow"
 ---
----
 
 In Testsigma, you can import a test data profile and then use it as test data in your test cases. Importing a test data profile is simple. In this document, we will discuss how to do that.
 

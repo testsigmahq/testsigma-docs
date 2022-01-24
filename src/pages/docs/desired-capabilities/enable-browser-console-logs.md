@@ -15,7 +15,6 @@ contextual_links:
   name: "View Browser Logs"
   url: "#view-browser-logs"
 ---
----
 When a Test Case fails, you will see an error message on the failed Test Step within the Testsigma app. This is to help you understand the reason for failure.
 
 However, there are times when the reason for failure is not enough to fix the failure and the developers need extra details such as Browser Console logs to find the root cause. These extended Debugging capabilities can be enabled in Testsigma by adding a simple 'Desired Capability' in the Test Environment settings. 

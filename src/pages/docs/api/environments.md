@@ -21,7 +21,6 @@ contextual_links:
   name: "Create Environment"
   url: "#create-environment"
 ---
----
 For some CI/CD pipelines, the URL of the Application Under Test (AUT) changes with every deployment. Manually updating it within the Testsigma App for every build can get tedious at scale. Environments API lets you read and update the URL of the Application under Test (AUT) dynamically after every build in your CI Pipeline.
 
 [[info | NOTE:]]

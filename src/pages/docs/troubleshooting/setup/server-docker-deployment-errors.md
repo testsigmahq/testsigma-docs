@@ -19,7 +19,6 @@ contextual_links:
   url: "#unable-to-start-docker-desktop--windows-"
 
 ---
----
 You may run into the following issues while setting up Testsigma CE using Docker:
 
 ---

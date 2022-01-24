@@ -12,7 +12,6 @@ contextual_links:
   name: "There are a number of sections within the page that gives us detailed information regarding various components"
   url: "#there-are-a-number-of-sections-within-the-page-that-gives-us-detailed-information-regarding-various-components-such-as"
 ---
----
 
 Testsigma Dashboard is the control panel which gives us an overview of the currently selected Project and its components.
 

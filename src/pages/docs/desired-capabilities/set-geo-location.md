@@ -16,7 +16,6 @@ contextual_links:
   name: "Example websites to test current location"
   url: "#example-websites-to-test-current-location"
 ---
----
 
 For setting the location of the Test Environment where the Tests are run, we just need to add a pair of Desired Capabilities in the Test Environment.
 

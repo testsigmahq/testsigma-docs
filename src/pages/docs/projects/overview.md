@@ -18,6 +18,7 @@ contextual_links:
   name: "Delete Project"
   url: "#delete-project"
 ---
+
 ---
 A **Project in Testsigma** is similar to a real-life Project that consists of different types of Applications. An example of a Testsigma Project would be an e-commerce product that has a variety of application channels such as web app, mobile web app, Android, iOS, or a public REST API.
 

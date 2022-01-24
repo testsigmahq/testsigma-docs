@@ -17,7 +17,6 @@ contextual_links:
   name: "These actions are"
   url: "#these-actions-are"
 ---
----
 
 ---
 ##**Navigation:** Select Project > Test Development > Run Results

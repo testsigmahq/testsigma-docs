@@ -11,7 +11,6 @@ contextual_links:
   name: "How to export the result of test reports in XML (junit) format in Testsigma"
   url: "#how-to-export-the-result-of-test-reports-in-xml-junit-format-in-testsigma"
 ---
----
 
 With Testsigma, you can export the test execution reports in XML format. In this document, we will discuss how to do that. 
 

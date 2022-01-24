@@ -21,7 +21,6 @@ contextual_links:
   url: "#how-to-update-multiple-elements-at-once"
 ---
 
----
 
 ---
 ##**Introduction:**

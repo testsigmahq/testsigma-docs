@@ -21,7 +21,6 @@ contextual_links:
   name: "Step 2"
   url: "#step-2---we-will-use-the-test-data-generators-available-in-testsigma-to-fetch-the-otp-from-the-phone-number-selected-in-the-previous-step"
 ---
----
 
 Phone Number test data can be used to automate:
 * Login process that involves Two Factor authentication(2FA).

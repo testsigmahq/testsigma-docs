@@ -20,7 +20,6 @@ contextual_links:
   name: "Prerequisite"
   url: "#prerequisite"
 ---
----
 
 This article will describe how to create environment-specific test data in Testsigma.
 

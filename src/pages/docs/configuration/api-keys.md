@@ -5,7 +5,6 @@ order: 19.1
 page_id: "Generate API Key"
 warning: false
 ---
----
 To integrate Testsigma with any 3rd party tool (for CI/CD, bug reporting, and so on), you need to authenticate the connection, and to do that, you need an API key. Here is how you can generate the API key via Testsigma to authenticate Testsigma for integration with your 3rd party tool.
 
 1. log in to your Testsigma account.

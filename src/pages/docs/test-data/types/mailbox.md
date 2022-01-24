@@ -21,7 +21,6 @@ contextual_links:
   name: "Step 2"
   url: "#step-2---we-will-use-the-test-data-generators-available-in-testsigma-to-fetch-the-otp-from-the-mailbox-selected-in-the-previous-step"
 ---
----
 
 Mailbox test data in Testsigma can be used when:
 * You have to receive an email and validate the content to understand if the OTP delivered in the email is proper. 

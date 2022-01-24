@@ -14,7 +14,6 @@ contextual_links:
   name: "How to generate Test Machine Reports:"
   url: "#how-to-generate-test-machine-reports"
 ---
----
 
 If you run your tests on multiple test machines/devices of different configurations to test for compatibility across browsers and devices, you should also be able to generate a test report for each one of these test machines/devices. 
 

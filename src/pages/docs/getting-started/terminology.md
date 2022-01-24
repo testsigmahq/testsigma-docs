@@ -48,7 +48,6 @@ contextual_links:
   url: "#plugins"
 ---
 
----
 
 ---
 ##**Natural Language Action**

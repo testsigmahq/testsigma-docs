@@ -11,7 +11,6 @@ contextual_links:
   name: "list of default Test Data Generators available in Testsigma"
   url: "#given-below-is-the-list-of-default-test-data-generators-available-in-testsigma"
 ---
----
 
 To know how to use the default Test Data Generators in your Test Steps, see [Test Data Generator Usage in Test Steps](https://testsigma.com/docs/test-data/types/data-generator/)
 

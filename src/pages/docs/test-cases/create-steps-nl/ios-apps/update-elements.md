@@ -22,8 +22,6 @@ contextual_links:
 ---
 
 ---
-
----
 ##**Introduction:**
 
 Sometimes, when you update the structure of your website or application, you will also need to update the corresponding elements in your automated test project in Testsigma. In this document, we will discuss two ways of doing that for an iOS Project:

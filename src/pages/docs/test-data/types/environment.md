@@ -12,7 +12,6 @@ contextual_links:
   name: "Use Environment parameter in test steps"
   url: "#use-environment-parameter-in-test-steps"
 ---
----
 
 Sometimes, when you are authoring a Test Case, the Test Data inputs that are required for it are specific to an Environment, which can be “Prestaging”, “Staging”, “Test”, “Development”, or “Production”.
 

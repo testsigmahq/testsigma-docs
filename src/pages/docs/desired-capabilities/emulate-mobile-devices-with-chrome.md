@@ -18,7 +18,6 @@ contextual_links:
   name: "Advanced: Using a Custom Device for emulation"
   url: "#advanced-using-a-custom-device-for-emulation"
 ---
----
 
 Chrome Browser provides a built-in feature to emulate mobile device screen resolutions. This can be useful for testing the responsiveness of your website on mobile devices, without the time and effort required to set up a full mobile automation system. You can test for mobile even without a dedicated device.
 
