@@ -28,32 +28,32 @@ class Footer extends Component {
     }
 
     LikeEvent = (e) => {
+        const path = window.location.href;
         if (this.state.dislikeActive) {
             this.setLike();
             this.setDislike();
         }
         this.setLike();
         if (typeof window !== 'undefined' && window.gtag) {
-            window.gtag("event", "click", {
+            window.gtag("event", "Docs", {
                 category: 'Likes',
-                action: 'Docs',
-                label: window.location.href,
+                label: path,
                 value: 1
             });
         }
     }
 
     DislikeEvent = (e) => {
+        const path = window.location.href;
         if (this.state.likeActive) {
             this.setDislike();
             this.setLike();
         }
         this.setDislike();
         if (typeof window !== 'undefined' && window.gtag) {
-            window.gtag("event", "click", {
+            window.gtag("event", "Docs", {
                 category: 'Dislikes',
-                action: 'Docs',
-                label: window.location.href,
+                label: path,
                 value: 1
             });
         }
