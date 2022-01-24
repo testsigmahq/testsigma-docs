@@ -52,6 +52,6 @@ For all contributions, a CLA (Contributor License Agreement) needs to be signed 
 - The first line should be a summary of the changes, not exceeding 50 characters, followed   by an optional body that has more details about the changes. Refer to [this link](https://github.com/erlang/otp/wiki/writing-good-commit-messages) for more information on writing good commit messages.
 - Don't add a period/dot (.) at the end of the summary line.
 
-[info | NOTE:]
-| Docs are currently deployed manually. Changes will not reflect immediately after a PR gets merged. <br>
-| The search is powered by [Algolia](https://www.algolia.com/) and is updated every day. Your local changes will not be reflected in search results.
+##Notes
+- Docs are currently deployed manually. Changes will not reflect immediately after a PR gets merged. 
+- The search is powered by [Algolia](https://www.algolia.com/) and is updated every day. Your local changes will not be reflected in search results.
