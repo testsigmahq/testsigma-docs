@@ -8,7 +8,7 @@ warning: false
 ---
 
 
-## Pre-Requirements:
+## **Pre-Requirements:**
  - macOS / Linux
  - OpenJDK 11
  - Apache httpd
@@ -17,7 +17,7 @@ warning: false
 
 
 ---
-## Setup Instructions:
+## **Setup Instructions:**
  - Download source from github:
     `git clone https://github.com/TestsigmaInc/testsigma-os` 
  - Make sure the JAVA_HOME variables in the terminal are proper
