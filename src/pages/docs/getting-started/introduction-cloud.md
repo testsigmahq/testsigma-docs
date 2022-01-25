@@ -1,7 +1,7 @@
 ---
 
-title: "Intro: Testsigma Cloud"
-page_title: "Introduction: Testsigma Cloud"
+title: "Introduction: Testsigma Cloud"
+page_title: "Intro: Testsigma Cloud"
 metadesc: "What is Testsigma Cloud and how to get started with it"
 canonical: "page url"
 keywords: "keywords which is relevant to page and seperated by comma"
