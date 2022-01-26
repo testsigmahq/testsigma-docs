@@ -15,8 +15,9 @@
   }
   .helpfull{
     display: flex;
+    justify-content: center;
     .text_h2{
-      margin-left: 80px;
+      margin-left: 0;
       margin-right: 50px;
     }
     button.active {

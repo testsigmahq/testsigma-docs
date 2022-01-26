@@ -82,7 +82,10 @@ export default ({ data, pageContext }) => {
           // when page content changed move scroll bar to starting of the page content title position.
           document.querySelector('body').scrollTo(0, 0);
           if (leftNavCurrentUrl)
-            document.querySelector('.leftNav').scroll(0, (leftNavCurrentUrl.offsetTop - (headerOffset + scrollBarAdjustment)));
+            document.querySelector('.leftNav').scrollTo({
+              top: (leftNavCurrentUrl.offsetTop - (headerOffset + scrollBarAdjustment)),
+              behavior: 'smooth'
+            });
         }, 300);
       }
     });

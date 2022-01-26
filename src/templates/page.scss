@@ -227,6 +227,12 @@ thead:first-child:hover tr{
 /**
 * add syntax highlighting
 */
+.gatsby-highlight pre,
+.gatsby-highlight code {
+  top: 0;
+  padding: 0.5rem;
+}
+
 :not(pre) > code[class*="language-"] {
   top: 0 !important;
   font-family: $ibm;
@@ -355,13 +361,13 @@ code[class*="language-"] {
 
 .pagination_buttons{
   //display: flex;
-    margin-left: 70px;
-  width: 735px;
+  margin-left: 70px;
+  width: 70%;
   @media (max-width: 1280px) {
-    width: 660px;
+    // width: 660px;
   }
   @media (max-width: 1152px) {
-    width: 555px;
+    // width: 555px;
   }
   @media (max-width: 576px) {
     display: inline-block;
