@@ -13,3 +13,153 @@ contextual_links:
   name: "Disable Telemetry"
   url: "#disable-telemetry"
 ---
+
+### Telemetry
+
+As a standard practice, we collect anonymous telemetry data during and after Testsigma CE is installed on your local machine. The data is statistical in nature and cannot be used to uniquely identify a user.
+
+We collect this data to understand how Testsigma CE is being used and what steps we can take to improve and enhance the experience. This data is not shared with 3rd parties. Access to this data is strictly limited to the Testsigma team.  
+
+As a user you can choose to opt-out of Telemetry data any time by navigating to Testsigma CE portal admin settings and then navigating to Telemetry section .
+  
+
+**Note:**
+
+-   The data collected is completely anonymous and cannot interpret, indicate or uniquely identify a user.
+    
+-   Testsigma is a proxy and does not capture any data returned by your APIs, databases, or third-party tools.
+    
+
+  
+
+#### What data is collected?
+
+#### Testsigma server
+
+The Testsigma server sends a ping when it first starts and updates every 12 hours as an ‘is-alive’ status and the last server up-time. The TS server also captures anonymous usage data around plugins and integrations but no data is ever captured from the source.
+
+  
+
+We also collect the following events:
+
+  
+
+ServerRequest:
+
+    {
+    "serverUuid": "0195f3d8-7165-11ec-8d28-2641d35f62cd",
+    "serverVersion": "1.0.0",
+    "serverOs": "LINUX",
+    "lastUpTime": "2022-01-10 12:16:28"
+    }
+
+AgentDeviceStatRequest:
+
+    {
+    "agentDeviceId": "10",
+    "agentDeviceOs": "LINUX",
+    "serverUuid": "0195f3d8-7165-11ec-8d28-2641d35f62cd",
+    "eventType": "CREATE"
+    }
+
+AgentStatRequest:
+
+    {
+    "agentId": "10",
+    "agentOs": "LINUX",
+    "serverUuid": "0195f3d8-7165-11ec-8d28-2641d35f62cd",
+    "eventType": "CREATE"
+    }
+
+
+ElementStatRequest:
+
+    {
+    "elementId": "10",
+    "serverUuid": "0195f3d8-7165-11ec-8d28-2641d35f62cd",
+    "eventType": "CREATE",
+    }
+
+EnvironmentStatRequest:
+
+    {
+    "environmentId": "10",
+    "serverUuid": "0195f3d8-7165-11ec-8d28-2641d35f62cd",
+    "eventType": "CREATE"
+    }
+
+TestCaseStatRequest:
+
+    {
+    "testCaseId": "10",
+    "serverUuid": "0195f3d8-7165-11ec-8d28-2641d35f62cd",
+    "eventType": "CREATE"
+    }
+
+
+TestDataStatRequest:
+
+    {
+    "testDataId": "10",
+    "serverUuid": "0195f3d8-7165-11ec-8d28-2641d35f62cd",
+    "eventType": "CREATE"
+    }
+
+
+TestPlanRunStatRequest:
+
+    {
+    "testPlanRunId": "10",
+    "applicationType": "WebApplication",
+    "testPlanType": "ADHOC_TEST_PLAN",
+    "serverUuid": "0195f3d8-7165-11ec-8d28-2641d35f62cd",
+    "eventType": "CREATE"
+    }
+
+  
+TestPlanStatRequest:
+
+    {
+    "testPlanId": "10",
+    "applicationType": "WebApplication",
+    "serverUuid": "0195f3d8-7165-11ec-8d28-2641d35f62cd",
+    "eventType": "CREATE"
+    }
+
+
+TestStepStatRequest:
+
+    {
+    "testStepId": "10",
+    "testCaseId": "20",
+    "serverUuid": "0195f3d8-7165-11ec-8d28-2641d35f62cd",
+    "eventType": "CREATE"
+    }
+
+TestSuiteStatRequest:
+
+    {
+    "testSuiteId": "10",
+    "serverUuid": "0195f3d8-7165-11ec-8d28-2641d35f62cd",
+    "eventType": "CREATE"
+    }
+
+
+UploadStatRequest:
+
+    {
+    "uploadId": "10",
+    "uploadExtension": "APK",
+    "serverUuid": "0195f3d8-7165-11ec-8d28-2641d35f62cd",
+    "eventType": "CREATE"
+    }
+
+#### Disable Telemetry
+
+To disable telemetry data capture you can do so using the following steps:
+
+ 1.  Navigate to Testsigma app in browser
+    
+ 3.  Click Settings icon which is on left navigation bar
+    
+ 4.  Check Disable Telemetry option
