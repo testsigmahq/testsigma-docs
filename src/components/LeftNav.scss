@@ -84,7 +84,7 @@
     & button {
       background: none;
       color: inherit;
-      display: flex;
+      display: inline-block;
       border: none;
       padding: 0;
       text-align: inherit;
@@ -112,6 +112,7 @@
     padding-left: 10px;
     margin-bottom: 0;
     li{
+      display: flex;
       padding-top: 5px;
       padding-bottom: 10px;
       //padding-left: 20px;
@@ -195,7 +196,7 @@
   }
 
   ul.active > .child, ul.active > .parent, ul.active > ul.inactive, ul.inactive.root {
-    display: block;
+    display: flex;
     border: none;
   }
 

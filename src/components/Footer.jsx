@@ -1,4 +1,5 @@
 import React, { Component } from 'react';
+import ReCAPTCHA from "react-google-recaptcha";
 import axios from 'axios';
 import './Footer.scss';
 
@@ -9,8 +10,9 @@ class Footer extends Component {
         this.state = {
             pathRoute: '',
             likeActive: false,
-            dislikeActive: false
+            dislikeActive: false,
         };
+        this._reCaptchaRef = React.createRef();
     }
 
     componentDidMount() {
@@ -59,48 +61,61 @@ class Footer extends Component {
         }
     }
 
-    subscribeNewsletters = (e) => {
+    subscribeNewsletters = async (e) => {
+        e.preventDefault();
         const UriListicle = 'https://staging.testsigma.com/api/website/contacts';
         const email =  document.getElementById('email').value;
-        const error = document.getElementById('email-error');
+        const emailError = document.getElementById('email_error');
+        const subscribeSuccess = document.getElementById('subscribe_success');
         const urltrim = window.location.href;
-        const pageTitle = urltrim.split("/");
 
         if (urltrim.length > 250)
             urltrim = "more than 250 character";
 
         const regex = /^([a-zA-Z0-9_\.\-\+])+\@(([a-zA-Z0-9\-])+\.)+([a-zA-Z0-9]{2,4})+$/;
 
-        const formData = {
-            'CATEGORY': 'Docs',
-            'LSOURCE': pageTitle[pageTitle.length-2],
-            'UPDATES': '',
-            'URL': urltrim,
-            'add_tags_immediately': false,
-            'email': email,
-            'tags': ['Docs updates']
-        };
-    
-        if (!regex.test(email)) {
-            error.style.display = "block";
-            return false;
-        } else {
-            error.style.display = "none";
-            axios({
-                method: 'POST',
-                url: UriListicle,
-                data: formData,
-                headers: { "Content-Type": "multipart/form-data" },
-            })
-            .then(function (response) {
-                // handle success
-                console.log(response);
-            })
-            .catch(function (response) {
-                // handle error
-                console.log(response);
-            });
-        }
+        this._reCaptchaRef.current.executeAsync().then(value => {
+
+            const formData = {
+                'CATEGORY': 'Product Updates',
+                'LSOURCE': 'Docs',
+                'UPDATES': '',
+                'URL': urltrim,
+                'add_tags_immediately': false,
+                'email': email,
+                'g-recaptcha-response': value,
+                'list_id' : 'bec00ef235',
+                'tags': ['Product Updates']
+            };
+        
+            emailError.style.display = "none";
+            subscribeSuccess.style.display = "none";
+
+            if (!regex.test(email)) {
+                emailError.style.display = "block";
+                return false;
+            } else {
+                axios({
+                    method: 'POST',
+                    url: UriListicle,
+                    data: formData,
+                    headers: { "Content-Type": "application/json; charset=UTF-8" },
+                })
+                .then(function (response) {
+                    // handle success
+                    document.getElementById('email').value = "";
+                    subscribeSuccess.style.display = "block";
+                    setTimeout(() => {
+                        subscribeSuccess.style.display = "none";
+                    }, 3000);
+                    // console.log("Success: ", response);
+                })
+                .catch(function (response) {
+                    // handle error
+                    console.log("Faild: ", response);
+                });
+            }
+        });        
     }
 
     render() {
@@ -137,7 +152,7 @@ class Footer extends Component {
                         </h4>
                     </div>
                     <div className="flex_item">
-                        <form action="/">
+                        <form>
                             <svg width="20" height="15" viewBox="0 0 15 11" fill="none" xmlns="http://www.w3.org/2000/svg">
                                 <path
                                     d="M12.75 10.4829H1.41667C1.04094 10.4829 0.680609 10.3449 0.414933 10.0991C0.149256 9.85337 0 9.52008 0 9.17255V1.25336C0.0158898 0.915807 0.172132 0.596975 0.436106 0.36343C0.70008 0.129885 1.05138 -0.00031923 1.41667 5.87777e-07H12.75C13.1257 5.87777e-07 13.4861 0.138056 13.7518 0.383797C14.0174 0.629538 14.1667 0.962834 14.1667 1.31036V9.17255C14.1667 9.52008 14.0174 9.85337 13.7518 10.0991C13.4861 10.3449 13.1257 10.4829 12.75 10.4829ZM1.41667 2.53424V9.17255H12.75V2.53424L7.08334 6.02767L1.41667 2.53424ZM1.98334 1.31036L7.08334 4.45524L12.1834 1.31036H1.98334Z"
@@ -145,12 +160,17 @@ class Footer extends Component {
                             </svg>
                             <input type="text" id="email" name="email" placeholder="Your Email Id"/>
                         </form>
-                        <p id="email-error" className="email-error">Please fill out this field.</p>
+                        <p id="email_error" className="email-error">Please fill out this field.</p>
+                        <p id="subscribe_success" className="subscribe-success">You're now subscribed to our monthly product updates.</p>
                     </div>
                     <div className="flex_item btn_width">
+                        <ReCAPTCHA
+                            size="invisible"
+                            ref={this._reCaptchaRef}
+                            sitekey='6LcL08cZAAAAAAn21PBn75R1qLquLlbx1ZB0ZIFd'
+                        />
                         <button className="btn" onClick={this.subscribeNewsletters}>Subscribe</button>
                     </div>
-                    {/* <p className="subscribe_success">You're now subscribed to our monthly product updates.</p> */}
                  </div>
                 <div className="footer_greyBox">
                 <svg width="109" height="26" viewBox="0 0 109 26" fill="none" xmlns="http://www.w3.org/2000/svg">
