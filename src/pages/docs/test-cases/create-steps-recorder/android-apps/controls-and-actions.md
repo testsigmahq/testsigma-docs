@@ -1,7 +1,7 @@
 ---
 title: "Controls and Actions"
 page_title: "Controls and Actions in Android Test Recorder"
-metadesc: "Controls and actions for Testsigma’s Test Recorder Chrome extension"
+meta_desc: "Controls and actions for Testsigma’s Test Recorder Chrome extension"
 order: 4.5293
 page_id: "Controls and Actions"
 warning: false

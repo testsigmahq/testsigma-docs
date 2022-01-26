@@ -1,6 +1,6 @@
 ---
 title: "Geolocation emulation for Localization Testing"
-metadesc: "How to use Desired Capabilities to set the Geographical Location for running tests in Mobile Web."
+meta_desc: "How to use Desired Capabilities to set the Geographical Location for running tests in Mobile Web."
 order: 15.4
 page_id: "Geolocation emulation for Localization Testing"
 search_keyword: ""

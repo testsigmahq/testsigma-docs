@@ -1,7 +1,7 @@
 ---
 title: "Runtime Test Data Usage"
 page_title: "Runtime Test Data in Testsigma"
-metadesc: "How to create and use session-specific runtime test data for storing temporary values as test data and performing validation using the stored data."
+meta_desc: "How to create and use session-specific runtime test data for storing temporary values as test data and performing validation using the stored data."
 order: 5.114
 page_id: "Runtime Test Data Usage"
 warning: false

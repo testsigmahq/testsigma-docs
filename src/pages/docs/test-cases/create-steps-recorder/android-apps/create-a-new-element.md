@@ -1,6 +1,6 @@
 ---
 title: "Create an Element for an Android Project"
-metadesc: "How to create an element for an Android Project using Testsigma’s Recorder."
+meta_desc: "How to create an element for an Android Project using Testsigma’s Recorder."
 order: 4.528
 page_id: "Create an Element for an Android Project"
 warning: false

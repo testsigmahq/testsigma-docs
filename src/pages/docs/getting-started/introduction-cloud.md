@@ -2,12 +2,12 @@
 
 title: "Introduction: Testsigma Cloud"
 page_title: "Intro: Testsigma Cloud"
-metadesc: "What is Testsigma Cloud and how to get started with it"
+meta_desc: "What is Testsigma Cloud and how to get started with it"
 canonical: "page url"
 keywords: "keywords which is relevant to page and seperated by comma"
-socialsharesummary: "Twitter summary message"
-socialsharedesc: "Sharing page description"
-socialshareimage: "Sharing page thumbnail image url"
+social_share_summary: "Twitter summary message"
+social_share_desc: "Sharing page description"
+social_share_image: "Sharing page thumbnail image url"
 noindex: true
 order: 1.1
 page_id: " Introduction: Testsigma Cloud"

@@ -1,7 +1,7 @@
 ---
 title: "Testsigma Setup using Bundled Package"
 page_title: "Testsigma Community Edition Setup using Bundled Package"
-metadesc: "How to setup Testsigma  Community Edition with Bundled Package"
+meta_desc: "How to setup Testsigma  Community Edition with Bundled Package"
 order: 1.4
 page_id: "Testsigma Setup using Bundled Package"
 warning: false

@@ -1,7 +1,7 @@
 ---
 title: "Mailbox type Test Data"
 page_title: "Mailbox type Test Data in Testsigma"
-metadesc: "How to use Mailbox Test Data type to automate test scenarios that involve Email OTPs for two factor authentication"
+meta_desc: "How to use Mailbox Test Data type to automate test scenarios that involve Email OTPs for two factor authentication"
 order: 5.119
 page_id: "Mailbox type Test Data"
 warning: false

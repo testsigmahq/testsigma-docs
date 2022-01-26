@@ -1,6 +1,6 @@
 ---
 title: "Integrate Testsigma with CodeShip CI"
-metadesc: "How to integrate Testsigma with CodeShip CI"
+meta_desc: "How to integrate Testsigma with CodeShip CI"
 order: 12.191
 page_id: "Integrate Testsigma with CodeShip CI"
 warning: false

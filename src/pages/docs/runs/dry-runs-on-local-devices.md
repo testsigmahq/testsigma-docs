@@ -1,6 +1,6 @@
 ---
 title: "Dry Runs on Local Devices"
-metadesc: "How to perform dry runs on local devices in Testsigma."
+meta_desc: "How to perform dry runs on local devices in Testsigma."
 order: 9.31
 page_id: "Dry Runs on Local Devices"
 warning: false

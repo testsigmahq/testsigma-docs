@@ -8,7 +8,6 @@ import EditDoc from "../components/EditButton";
 import SEO from "../components/seo";
 import SearchInputBox from "../components/SearchInputBox";
 import MobileView from "../components/MobileView";
-import SubNav from "../components/SubNav";
 import Footer from "../components/Footer";
 
 import 'prismjs/themes/prism-tomorrow.css';
@@ -94,12 +93,12 @@ export default ({ data, pageContext }) => {
               title={post.frontmatter.page_title || post.frontmatter.title}
               slug={post.fields.slug}
               canonical={post.frontmatter.canonical}
-              metadesc={post.frontmatter.metadesc}
+              metadesc={post.frontmatter.meta_desc}
               keywords={post.frontmatter.keywords}
-              socialsharesummary={post.frontmatter.socialsharesummary}
-              socialsharedesc={post.frontmatter.socialsharedesc}
-              socialshareimage={post.frontmatter.socialshareimage}
-              noindex={post.frontmatter.noindex}
+              social_share_summary={post.frontmatter.social_share_summary}
+              social_share_desc={post.frontmatter.social_share_desc}
+              social_share_image={post.frontmatter.social_share_image}
+              noindex={post.frontmatter.noindex || true}
             />
             <header id="root_header">
               <div className="flex items-stretch">
@@ -222,12 +221,12 @@ export const query = graphql`
       frontmatter {
         title
         page_title
-        metadesc
+        meta_desc
         canonical
         keywords
-        socialsharesummary
-        socialsharedesc
-        socialshareimage
+        social_share_summary
+        social_share_desc
+        social_share_image
         noindex
         contextual_links {
           type

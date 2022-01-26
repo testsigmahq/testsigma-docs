@@ -1,6 +1,6 @@
 ---
 title: "Exclude Attributes/Classes"
-metadesc: "How to exclude specific attributes/classes while recording test steps for a test case in Testsigma."
+meta_desc: "How to exclude specific attributes/classes while recording test steps for a test case in Testsigma."
 order: 7.12
 page_id: "Exclude Attributes/Classes"
 warning: false

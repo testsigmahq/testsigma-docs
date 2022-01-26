@@ -1,6 +1,6 @@
 ---
 title: "Test Plan Local Executions"
-metadesc: "How to perform test plan executions on local devices in Testsigma."
+meta_desc: "How to perform test plan executions on local devices in Testsigma."
 order: 9.41
 page_id: "Test Plan Local Executions"
 warning: false

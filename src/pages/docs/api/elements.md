@@ -1,7 +1,7 @@
 ---
 title: "Manage Elements using REST API"
 page_title: "Manage Elements using REST API in Testsigma"
-metadesc: "How to use Testsigma Elements API to manage Elements within Testsigma"
+meta_desc: "How to use Testsigma Elements API to manage Elements within Testsigma"
 order: 21.3
 page_id: "Manage Elements using REST API"
 warning: false

@@ -1,6 +1,6 @@
 ---
 title: "Test Step Type: Step Groups"
-metadesc: "Step Groups in Testsigma and how to use them to author tests at a faster pace"
+meta_desc: "Step Groups in Testsigma and how to use them to author tests at a faster pace"
 order: 4.22
 page_id: "Test Step Type: Step Groups"
 warning: false

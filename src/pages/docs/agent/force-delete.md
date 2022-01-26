@@ -1,6 +1,6 @@
 ---
 title: "Force Delete Testsigma Agent Manually"
-metadesc: "How to delete Testsigma Agent manually."
+meta_desc: "How to delete Testsigma Agent manually."
 order: 11.8
 page_id: "Force Delete Testsigma Agent Manually"
 warning: false

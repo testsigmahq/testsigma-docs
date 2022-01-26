@@ -1,6 +1,6 @@
 ---
 title: "Test Case Filters"
-metadesc: "How to filter the Test Cases list, save the filter, and re-use the save filters in this article"
+meta_desc: "How to filter the Test Cases list, save the filter, and re-use the save filters in this article"
 order: 4.13
 page_id: "Test Case Filters"
 warning: false

@@ -1,6 +1,6 @@
 ---
 title: "Prerequisites for creating add-ons"
-metadesc: "Things you need to create add-ons in Testsigma"
+meta_desc: "Things you need to create add-ons in Testsigma"
 order: 17.4
 page_id: "Prerequisites for creating add-ons"
 search_keyword: ""

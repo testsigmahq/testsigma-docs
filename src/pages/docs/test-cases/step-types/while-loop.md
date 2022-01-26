@@ -1,6 +1,6 @@
 ---
 title: "Adding While Loops in test Cases"
-metadesc: "How to use while loop in a test case in Testsigma"
+meta_desc: "How to use while loop in a test case in Testsigma"
 order: 4.25
 page_id: "Adding While Loops in test Cases"
 warning: false

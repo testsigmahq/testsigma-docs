@@ -1,6 +1,6 @@
 ---
 title: "Requirement Types in Testsigma"
-metadesc: "What are requirement types in Testsigma and how to access, create, edit and delete them."
+meta_desc: "What are requirement types in Testsigma and how to access, create, edit and delete them."
 order: 2.42
 page_id: "Requirement Types"
 warning: false

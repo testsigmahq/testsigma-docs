@@ -1,6 +1,6 @@
 ---
 title: "Test Cases - Overview"
-metadesc: "Test Cases in Testsigma"
+meta_desc: "Test Cases in Testsigma"
 order: 4.0
 page_id: "Test Cases - Overview"
 warning: false

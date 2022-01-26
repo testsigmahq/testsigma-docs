@@ -1,6 +1,6 @@
 ---
 title: "Default Test Data Generators"
-metadesc: "Lists out the built-in Data Generator functions available in Testsigma and describe its usage"
+meta_desc: "Lists out the built-in Data Generator functions available in Testsigma and describe its usage"
 order: 5.32
 page_id: "Default Test Data Generators"
 warning: false

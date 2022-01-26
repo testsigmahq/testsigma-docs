@@ -1,6 +1,6 @@
 ---
 title: "Get Test Plan ID "
-metadesc: "How to get the Test Plan ID from a Test Plan in Testsigma"
+meta_desc: "How to get the Test Plan ID from a Test Plan in Testsigma"
 order: 12.11
 page_id: "Get Test Plan ID "
 warning: false

@@ -1,6 +1,6 @@
 ---
 title: " Different strategies for formulating Elements"
-metadesc: " How to find and create locators for the Elements using single attributes, text, or Xpath and CSS Selectors"
+meta_desc: " How to find and create locators for the Elements using single attributes, text, or Xpath and CSS Selectors"
 order: 6.26
 page_id: "Different Strategies for Formulating Elements"
 warning: false

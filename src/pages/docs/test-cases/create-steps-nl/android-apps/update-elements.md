@@ -1,6 +1,6 @@
 ---
 title: "Update Elements for an Android Project"
-metadesc: "How to update the elements in an android project in Testsigma."
+meta_desc: "How to update the elements in an android project in Testsigma."
 order: 4.452
 page_id: "Update Elements for an Android Project"
 warning: false

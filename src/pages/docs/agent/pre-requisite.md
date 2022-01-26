@@ -1,6 +1,6 @@
 ---
 title: " Pre-requisites for Testsigma Agent"
-metadesc: "The pre-requisites or conditions that should be met before you can successfully install and execute Testsigma agent."
+meta_desc: "The pre-requisites or conditions that should be met before you can successfully install and execute Testsigma agent."
 order: 11.2
 page_id: " Pre-requisites for Testsigma Agent"
 warning: false

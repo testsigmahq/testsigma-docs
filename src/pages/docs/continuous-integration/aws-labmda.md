@@ -1,6 +1,6 @@
 ---
 title: "Integrate Testsigma with AWS Lambda"
-metadesc: "How to integrate Testsigma with AWS Lambda. "
+meta_desc: "How to integrate Testsigma with AWS Lambda. "
 order: 12.16
 page_id: "Integrate Testsigma with AWS Lambda"
 warning: false

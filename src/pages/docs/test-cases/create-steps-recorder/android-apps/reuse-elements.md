@@ -1,6 +1,6 @@
 ---
 title: "Reuse Elements in an Android Project"
-metadesc: "How to reuse pre-recorded elements via Testsigma’s Recorder for an android project."
+meta_desc: "How to reuse pre-recorded elements via Testsigma’s Recorder for an android project."
 order: 4.526
 page_id: "Reuse Elements in an Android Project"
 warning: false

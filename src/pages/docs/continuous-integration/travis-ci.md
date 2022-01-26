@@ -1,6 +1,6 @@
 ---
 title: " Integrate Testsigma with Travis CI"
-metadesc: " How to integrate Testsigma with Travis CI "
+meta_desc: " How to integrate Testsigma with Travis CI "
 order: 12.19
 page_id: " Integrate Testsigma with Travis CI"
 warning: false

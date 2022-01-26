@@ -1,6 +1,6 @@
 ---
 title: "Supported Element Locator Types"
-metadesc: "The guide explains different types of locators used for creating Elements in Testsigma."
+meta_desc: "The guide explains different types of locators used for creating Elements in Testsigma."
 order: 6.25
 page_id: "Supported Element Locator Types"
 warning: false

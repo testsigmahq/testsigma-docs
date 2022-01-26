@@ -1,6 +1,6 @@
 ---
 title: "Rerun from test results in Testsigma"
-metadesc: "How to rerun test cases from test run results in Testsigma."
+meta_desc: "How to rerun test cases from test run results in Testsigma."
 order: 13.22
 page_id: "Rerun from test results in Testsigma"
 warning: false

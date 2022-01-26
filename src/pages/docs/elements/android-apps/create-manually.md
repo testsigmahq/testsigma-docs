@@ -1,6 +1,6 @@
 ---
 title: "Create Elements [Manually]"
-metadesc: "How to create elements manually for an android project in Testsigma."
+meta_desc: "How to create elements manually for an android project in Testsigma."
 order: 6.34
 page_id: "Create Elements [Manually]"
 warning: false

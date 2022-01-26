@@ -1,7 +1,7 @@
 ---
 title: "Capture an Element for a Web Project"
 page_title: "Capture Page Elements for a Web Project"
-metadesc: "How to capture page elements for a Web Project using Testsigma’s test recorder chrome extension"
+meta_desc: "How to capture page elements for a Web Project using Testsigma’s test recorder chrome extension"
 order: 4.518
 page_id: "Capture an Element for a Web Project"
 warning: false

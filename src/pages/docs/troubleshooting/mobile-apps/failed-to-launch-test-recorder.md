@@ -1,6 +1,6 @@
 ---
 title: "Troubleshooting “Failed to Start Mobile Test Recorder” error"
-metadesc: " This guide explains how to debug and fix the  “Failed to Start Mobile Test Recorder” error for Android and iOS Local & Cloud Devices."
+meta_desc: " This guide explains how to debug and fix the  “Failed to Start Mobile Test Recorder” error for Android and iOS Local & Cloud Devices."
 order: 23.4
 page_id: "Troubleshooting “Failed to Start Mobile Test Recorder” error"
 warning: false

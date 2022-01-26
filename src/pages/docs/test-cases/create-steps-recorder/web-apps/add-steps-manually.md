@@ -1,6 +1,6 @@
 ---
 title: "Add Steps Manually to Recorded Test Steps for a Web Project"
-metadesc: "How to add test steps manually to a test case for a web project, recorded using Testsigma’s test recorder"
+meta_desc: "How to add test steps manually to a test case for a web project, recorded using Testsigma’s test recorder"
 order: 4.515
 page_id: "Add Steps Manually to Recorded Test Steps for a Web Project"
 warning: false

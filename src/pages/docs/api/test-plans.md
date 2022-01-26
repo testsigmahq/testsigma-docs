@@ -1,7 +1,7 @@
 ---
 title: "Trigger Test Plans remotely"
 page_title: "Trigger Test Plans remotely using Testsigma"
-metadesc: "How to trigger Test Plan Execution remotely using Testsigma REST API Endpoints"
+meta_desc: "How to trigger Test Plan Execution remotely using Testsigma REST API Endpoints"
 order: 21.4
 page_id: "Trigger Test Plans remotely"
 warning: false

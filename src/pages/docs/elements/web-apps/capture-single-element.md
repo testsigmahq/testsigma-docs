@@ -1,6 +1,6 @@
 ---
 title: "Capture Single Element for a Web Project"
-metadesc: "How to capture a single element using Testsigma’s test recorder chrome extension."
+meta_desc: "How to capture a single element using Testsigma’s test recorder chrome extension."
 order: 6.23
 page_id: "Capture Single Element for a Web Project"
 warning: false

@@ -1,6 +1,6 @@
 ---
 title: "Testsigma Community Cloud"
-metadesc: "How to register for Testsigma Community Cloud."
+meta_desc: "How to register for Testsigma Community Cloud."
 order: 1.4
 page_id: "Testsigma Community Cloud"
 warning: false

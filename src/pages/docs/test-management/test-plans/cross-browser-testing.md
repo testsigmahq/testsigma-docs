@@ -1,7 +1,7 @@
 ---
 title: "Test Plan: Cross Browser Testing"
 page_title: "Cross Browser Testing : Test Plan"
-metadesc: "How to create a Test Plan with ‘Testing Type’ as ‘Cross-Browser Testing’."
+meta_desc: "How to create a Test Plan with ‘Testing Type’ as ‘Cross-Browser Testing’."
 order: 8.26
 page_id: "Test Plan: Cross Browser Testing"
 warning: false

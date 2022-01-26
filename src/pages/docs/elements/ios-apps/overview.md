@@ -1,6 +1,6 @@
 ---
 title: "Overview of Elements for an iOS Project"
-metadesc: "What are elements in an iOS project in Testsigma."
+meta_desc: "What are elements in an iOS project in Testsigma."
 order: 6.41
 page_id: "Overview of Elements for an iOS Project"
 warning: false

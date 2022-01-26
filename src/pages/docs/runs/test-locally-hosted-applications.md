@@ -1,6 +1,6 @@
 ---
 title: "Access Locally Hosted Applications"
-metadesc: "How to access the locally hosted applications."
+meta_desc: "How to access the locally hosted applications."
 order: 9.51
 page_id: "Access Locally Hosted Applications"
 warning: false

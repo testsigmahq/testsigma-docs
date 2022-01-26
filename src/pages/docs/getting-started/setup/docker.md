@@ -1,7 +1,7 @@
 ---
 title: "Testsigma Docker Setup"
 page_title: "Testsigma Community Edition Docker Setup"
-metadesc: "How to setup Testsigma  Community Edition with Docker"
+meta_desc: "How to setup Testsigma  Community Edition with Docker"
 order: 1.32
 page_id: "Testsigma Docker Setup"
 warning: false

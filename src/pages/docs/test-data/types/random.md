@@ -1,6 +1,6 @@
 ---
 title: "Random Test Data in Testsigma"
-metadesc: "What is Random test data and how to use it in Testsigma"
+meta_desc: "What is Random test data and how to use it in Testsigma"
 order: 5.116
 page_id: "Random Test Data in Testsigma"
 warning: false

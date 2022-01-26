@@ -1,6 +1,6 @@
 ---
 title: "Test Data in Steps in Steps for an Android Project"
-metadesc: "How to add test data in test steps using Testsigma Recorder for an android project"
+meta_desc: "How to add test data in test steps using Testsigma Recorder for an android project"
 order: 4.524
 page_id: "Test Data in Steps in Steps for an Android Project"
 warning: false

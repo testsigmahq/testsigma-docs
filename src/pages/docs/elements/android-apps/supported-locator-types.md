@@ -1,6 +1,6 @@
 ---
 title: "Supported Locator Types in an Android Project"
-metadesc: "Supported locator types for creating elements for an android application in Testsigma."
+meta_desc: "Supported locator types for creating elements for an android application in Testsigma."
 order: 6.35
 page_id: "Supported Locator Types in an Android Project"
 warning: false

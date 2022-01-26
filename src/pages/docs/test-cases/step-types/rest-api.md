@@ -1,6 +1,6 @@
 ---
 title: "RESTful API test steps"
-metadesc: " How to create RESTful API test steps while creating a test case in Testsigma"
+meta_desc: " How to create RESTful API test steps while creating a test case in Testsigma"
 order: 4.23
 page_id: "RESTful API test steps"
 warning: false

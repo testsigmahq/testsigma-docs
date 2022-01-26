@@ -1,7 +1,7 @@
 ---
 title: "Update Environment parameters using REST API"
 page_title: "Update Environment parameters using REST API in Testsigma"
-metadesc: "How to use the REST API Endpoints available in Testsigma for reading and updating Environment data"
+meta_desc: "How to use the REST API Endpoints available in Testsigma for reading and updating Environment data"
 order: 21.2
 page_id: "Update Environment parameters using REST API"
 warning: false

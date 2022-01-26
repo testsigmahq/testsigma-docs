@@ -1,6 +1,6 @@
 ---
 title: "Create a Testsigma add-on"
-metadesc: "How to create a Testsigma add-on"
+meta_desc: "How to create a Testsigma add-on"
 order: 17.5
 page_id: "Create a Testsigma add-on"
 search_keyword: ""

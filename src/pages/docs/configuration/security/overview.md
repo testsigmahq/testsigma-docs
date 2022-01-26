@@ -1,6 +1,6 @@
 ---
 title: "Single Sign-on options available in Testsigma"
-metadesc: "List of all SSO types supported in Testsigma.."
+meta_desc: "List of all SSO types supported in Testsigma.."
 order: 19.21
 page_id: "Single Sign-on options available in Testsigma"
 search_keyword: ""

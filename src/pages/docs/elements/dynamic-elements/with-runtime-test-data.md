@@ -1,6 +1,6 @@
 ---
 title: "Using Runtime Test Data for Dynamic locators"
-metadesc: " Elaborates on the usage of Runtime Test Data for creating dynamic locators."
+meta_desc: " Elaborates on the usage of Runtime Test Data for creating dynamic locators."
 order: 6.62
 page_id: "Using Runtime Test Data for Dynamic locators"
 warning: false

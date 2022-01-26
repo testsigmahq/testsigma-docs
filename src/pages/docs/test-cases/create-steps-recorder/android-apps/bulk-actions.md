@@ -1,6 +1,6 @@
 ---
 title: "Test Recorder - Bulk Actions in an Android Project"
-metadesc: "Bulk actions you can take on recorded test steps in Testsigma’s Test Recorder UI for an android project"
+meta_desc: "Bulk actions you can take on recorded test steps in Testsigma’s Test Recorder UI for an android project"
 order: 4.5291
 page_id: "Test Recorder - Bulk Actions in an Android Project"
 warning: false

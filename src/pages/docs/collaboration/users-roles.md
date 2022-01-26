@@ -1,6 +1,6 @@
 ---
 title: "Users & Role Management"
-metadesc: "How to manage users and roles in Testsigma."
+meta_desc: "How to manage users and roles in Testsigma."
 order: 3.1
 page_id: "Users & Role Management"
 warning: false

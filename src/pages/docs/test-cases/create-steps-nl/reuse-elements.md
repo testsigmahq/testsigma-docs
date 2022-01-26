@@ -1,6 +1,6 @@
 ---
 title: "Reuse Elements"
-metadesc: " How to reuse elements that were previously added to your project in Testsigma."
+meta_desc: " How to reuse elements that were previously added to your project in Testsigma."
 order: 4.47
 page_id: "Reuse Elements"
 warning: false

@@ -1,6 +1,6 @@
 ---
 title: "Create Element Manually"
-metadesc: "Dynamic Element locators and how to create Elements manually in Testsigma."
+meta_desc: "Dynamic Element locators and how to create Elements manually in Testsigma."
 order: 6.24
 page_id: "Create Element Manually"
 warning: false

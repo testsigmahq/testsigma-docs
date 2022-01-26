@@ -1,6 +1,6 @@
 ---
 title: "Visual Testing - Configure Test Plan"
-metadesc: "How to configure visual testing for your test plan"
+meta_desc: "How to configure visual testing for your test plan"
 order: 14.1
 page_id: "Visual Testing - Configure Test Plan"
 warning: false

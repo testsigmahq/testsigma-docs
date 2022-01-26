@@ -1,6 +1,6 @@
 ---
 title: "Update Elements for an Android Project"
-metadesc: "How to update an element via Testsigma’s Recorder for an Android Project."
+meta_desc: "How to update an element via Testsigma’s Recorder for an Android Project."
 order: 4.527
 page_id: "Update Elements for an Android Project"
 warning: false

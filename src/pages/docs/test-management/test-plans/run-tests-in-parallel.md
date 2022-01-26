@@ -1,6 +1,6 @@
 ---
 title: "Run Tests in Parallel"
-metadesc: "How to run tests in parallel in a test plan in Testsigma."
+meta_desc: "How to run tests in parallel in a test plan in Testsigma."
 order: 8.25
 page_id: "Run Tests in Parallel"
 warning: false

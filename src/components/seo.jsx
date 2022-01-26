@@ -16,11 +16,11 @@ function SEO({ lang,
                title,
                slug,
                canonical,
-               metadesc,
+               meta_desc,
                keywords,
-               socialsharesummary,
-               socialsharedesc,
-               socialshareimage,
+               social_share_summary,
+               social_share_desc,
+               social_share_image,
                noindex
              }) {
     const { site } = useStaticQuery(
@@ -49,7 +49,7 @@ function SEO({ lang,
             meta={[
                 {
                     name: 'description',
-                    content: metadesc
+                    content: meta_desc
                 },
                 {
                     name: 'keywords',
@@ -65,11 +65,11 @@ function SEO({ lang,
                 },
                 {
                     property: 'og:description',
-                    content: socialsharedesc
+                    content: social_share_desc
                 },
                 {
                     property: 'og:image',
-                    content: socialshareimage
+                    content: social_share_image
                 },
                 {
                     property: 'og:url',
@@ -89,7 +89,7 @@ function SEO({ lang,
                 },
                 {
                     name: 'twitter:card',
-                    content: socialsharesummary
+                    content: social_share_summary
                 },
                 {
                     name: 'twitter:title',
@@ -97,11 +97,11 @@ function SEO({ lang,
                 },
                 {
                     property: 'twitter:description',
-                    content: socialsharedesc
+                    content: social_share_desc
                 },
                 {
                     property: 'twitter:image',
-                    content: socialshareimage
+                    content: social_share_image
                 },
                 {
                     property: 'twitter:domain',
@@ -157,11 +157,11 @@ SEO.propTypes = {
     meta: PropTypes.arrayOf(PropTypes.object),
     title: PropTypes.string.isRequired,
     canonical: PropTypes.string,
-    metadesc: PropTypes.string,
+    meta_desc: PropTypes.string,
     keywords: PropTypes.string,
-    socialsharesummary: PropTypes.string,
-    socialsharedesc: PropTypes.string,
-    socialshareimage: PropTypes.string,
+    social_share_summary: PropTypes.string,
+    social_share_desc: PropTypes.string,
+    social_share_image: PropTypes.string,
     noindex: PropTypes.bool
 };
 

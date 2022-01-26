@@ -1,6 +1,6 @@
 ---
 title: "Testsigma Agent - Overview"
-metadesc: "What is Testsigma Agent, how it works, why is it useful, and other frequently asked questions regarding it."
+meta_desc: "What is Testsigma Agent, how it works, why is it useful, and other frequently asked questions regarding it."
 order: 11.1
 page_id: "Testsigma Agent - Overview"
 warning: false

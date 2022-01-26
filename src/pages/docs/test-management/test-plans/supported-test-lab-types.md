@@ -1,6 +1,6 @@
 ---
 title: "Test Lab Types"
-metadesc: "Various types of test labs that can be integrated with your automated"
+meta_desc: "Various types of test labs that can be integrated with your automated"
 order: 8.29
 page_id: "Test Lab Types"
 warning: false

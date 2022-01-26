@@ -1,6 +1,6 @@
 ---
 title: "How to add Test Steps for Web Service/REST API Testing?"
-metadesc: "How to add Test Steps for Web Service/REST API Testing in Testsigma?"
+meta_desc: "How to add Test Steps for Web Service/REST API Testing in Testsigma?"
 order: 4.61
 page_id: "How to add Test Steps for Web Service/REST API Testing?"
 warning: false

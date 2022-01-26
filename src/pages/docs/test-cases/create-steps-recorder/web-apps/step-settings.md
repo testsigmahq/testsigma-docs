@@ -1,6 +1,6 @@
 ---
 title: "Test Recorder - Test Step Details for Web Project"
-metadesc: "How to get details of a test step recorded via Testsigma’s test recorder chrome extension"
+meta_desc: "How to get details of a test step recorded via Testsigma’s test recorder chrome extension"
 order: 4.513
 page_id: "Test Recorder - Test Step Details for Web Project"
 warning: false

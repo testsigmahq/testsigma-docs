@@ -1,6 +1,6 @@
 ---
 title: "Add Steps Manually in a Test Case in an iOS Project"
-metadesc: "How to add test steps to a pre-existing test case via Recorder, for an iOS project in Testsigma"
+meta_desc: "How to add test steps to a pre-existing test case via Recorder, for an iOS project in Testsigma"
 order: 4.535
 page_id: "Add Steps Manually in a Test Case in an iOS Project"
 warning: false

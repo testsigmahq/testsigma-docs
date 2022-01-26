@@ -1,6 +1,6 @@
 ---
 title: " Different ways to create Elements in an iOS Project"
-metadesc: "The meta description should provide an accurate description of the content of the page."
+meta_desc: "The meta description should provide an accurate description of the content of the page."
 order: 6.46
 page_id: " Different ways to create Elements in an iOS Project"
 warning: false

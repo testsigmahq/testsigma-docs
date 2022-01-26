@@ -1,6 +1,6 @@
 ---
 title: "Review Management for Elements"
-metadesc: "How to review elements created in Testsigma."
+meta_desc: "How to review elements created in Testsigma."
 order: 3.4
 page_id: "Review Management for Elements"
 warning: false

@@ -1,6 +1,6 @@
 ---
 title: "Create an Element for an iOS Project"
-metadesc: "How to create an element for an iOS Project using Testsigma’s Recorder."
+meta_desc: "How to create an element for an iOS Project using Testsigma’s Recorder."
 order: 4.538
 page_id: "Create an Element for an iOS Project"
 warning: false

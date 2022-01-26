@@ -1,7 +1,7 @@
 ---
 title: "How to bypass the missing SSL certificate error?"
 page_title: "Bypass the missing SSL certificate error"
-metadesc: "How to bypass the missing SSL certificate error while automating browser tests using Testsigma"
+meta_desc: "How to bypass the missing SSL certificate error while automating browser tests using Testsigma"
 order: 9.83
 page_id: "How to bypass the missing SSL certificate error?"
 warning: false

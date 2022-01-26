@@ -1,7 +1,7 @@
 ---
 title: "Bugzilla Bug Reporting Integration"
 page_title: "Bugzilla Bug Reporting Integration in Testsigma"
-metadesc: "How to integrate Testsigma with Bugzilla for real-time bug reporting during Test Runs"
+meta_desc: "How to integrate Testsigma with Bugzilla for real-time bug reporting during Test Runs"
 order: 16.32
 page_id: "Bugzilla Bug Reporting Integration"
 warning: false

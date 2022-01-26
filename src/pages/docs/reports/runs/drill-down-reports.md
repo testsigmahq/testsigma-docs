@@ -1,6 +1,6 @@
 ---
 title: "Drill Down Reports in Testsigma"
-metadesc: "How to use drill-down reports in the test execution results of automated tests in Testsigma."
+meta_desc: "How to use drill-down reports in the test execution results of automated tests in Testsigma."
 order: 13.23
 page_id: "Drill Down Reports in Testsigma"
 warning: false

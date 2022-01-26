@@ -1,6 +1,6 @@
 ---
 title: "Comparison Modes supported in REST API Testing in Testsigma"
-metadesc: "REST API Response comparison modes"
+meta_desc: "REST API Response comparison modes"
 order: 4.63
 page_id: "Comparison Modes supported in REST API Testing in Testsigma"
 warning: false

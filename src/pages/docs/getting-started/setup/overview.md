@@ -2,7 +2,7 @@
 
 title: "Setup Testsigma"
 page_title: "Getting started with Testsigma"
-metadesc: "How to create and run your first tests on Testsigma"
+meta_desc: "How to create and run your first tests on Testsigma"
 order: 1.30
 page_id: "Setup Testsigma"
 warning: false

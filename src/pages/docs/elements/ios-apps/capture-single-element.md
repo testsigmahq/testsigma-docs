@@ -1,6 +1,6 @@
 ---
 title: "Create One Element at a Time (Using Mobile Inspector) for an iOS Project"
-metadesc: "How to create one element at a time by using the Testsigma mobile inspector for an iOS project in Testsigma."
+meta_desc: "How to create one element at a time by using the Testsigma mobile inspector for an iOS project in Testsigma."
 order: 6.43
 page_id: "Create One Element at a Time (Using Mobile Inspector) for an iOS Project"
 warning: false

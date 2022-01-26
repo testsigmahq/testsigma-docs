@@ -1,6 +1,6 @@
 ---
 title: "Update Elements in Web Applications Project"
-metadesc: "How to update elements via Testsigma’s test recorder chrome extension."
+meta_desc: "How to update elements via Testsigma’s test recorder chrome extension."
 order: 4.517
 page_id: "Update Elements in Web Applications Project"
 warning: false

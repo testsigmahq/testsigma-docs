@@ -1,6 +1,6 @@
 ---
 title: "Fetching Agent logs"
-metadesc: "How to obtain the logs files from the Testsigma Agent to troubleshoot the errors."
+meta_desc: "How to obtain the logs files from the Testsigma Agent to troubleshoot the errors."
 order: 11.92
 page_id: "Fetching Agent logs"
 search_keyword: ""

@@ -1,6 +1,6 @@
 ---
 title: "Import and Export Elements"
-metadesc: "The meta description should provide an accurate description of the content of the page."
+meta_desc: "The meta description should provide an accurate description of the content of the page."
 order: 6.5
 page_id: "Import and Export Elements
 "

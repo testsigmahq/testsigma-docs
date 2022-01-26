@@ -1,6 +1,6 @@
 ---
 title: "About Testsigma Chrome extension"
-metadesc: "Test Recorder Chrome extension and how it works."
+meta_desc: "Test Recorder Chrome extension and how it works."
 order: 24.11
 page_id: "About Testsigma Chrome extension"
 warning: false

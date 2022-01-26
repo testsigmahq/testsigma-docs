@@ -1,7 +1,7 @@
 ---
 title: "Manage Applications"
 page_title: "Managing Applications in Testsigma"
-metadesc: "How to manage Applications within Testsigma projects"
+meta_desc: "How to manage Applications within Testsigma projects"
 order: 2.1
 page_id: "Manage Applications"
 warning: false

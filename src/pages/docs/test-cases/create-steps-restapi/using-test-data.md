@@ -1,6 +1,6 @@
 ---
 title: "Supported Test Data types in REST API testing"
-metadesc: "Test data types supported for REST API testing in Testsigma"
+meta_desc: "Test data types supported for REST API testing in Testsigma"
 order: 4.65
 page_id: "Supported Test Data types in REST API testing"
 warning: false

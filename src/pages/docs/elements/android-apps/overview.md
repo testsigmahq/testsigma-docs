@@ -1,6 +1,6 @@
 ---
 title: "Overview of Elements for an Android Project"
-metadesc: "What are elements in an Android project in Testsigma."
+meta_desc: "What are elements in an Android project in Testsigma."
 order: 6.31
 page_id: "Overview of Elements for an Android Project"
 warning: false

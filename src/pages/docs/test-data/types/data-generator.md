@@ -1,6 +1,6 @@
 ---
 title: "Data Generator in Testsigma"
-metadesc: "How to use data generators to create dynamic test data for your test cases"
+meta_desc: "How to use data generators to create dynamic test data for your test cases"
 order: 5.117
 page_id: "Data Generator in Testsigma"
 warning: false

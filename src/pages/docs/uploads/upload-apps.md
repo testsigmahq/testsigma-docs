@@ -1,6 +1,6 @@
 ---
 title: "Upload Android and iOS Apps"
-metadesc: "How to upload Android and iOS apps that you want to automate and execute your automated tests in Testsigma"
+meta_desc: "How to upload Android and iOS apps that you want to automate and execute your automated tests in Testsigma"
 order: 20.12
 page_id: "Upload Android and iOS Apps"
 warning: false

@@ -1,6 +1,6 @@
 ---
 title: "Recorder - Test Step Settings for an iOS Project"
-metadesc: "How to view test step settings in Testsigma’s Recorder for an iOS project in Testsigma."
+meta_desc: "How to view test step settings in Testsigma’s Recorder for an iOS project in Testsigma."
 order: 4.533
 page_id: "Recorder - Test Step Settings for an iOS Project"
 warning: false

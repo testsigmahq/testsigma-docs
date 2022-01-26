@@ -1,6 +1,6 @@
 ---
 title: "Integrate Testsigma with any CI/CD tool using Shell Script"
-metadesc: "Generic shell script - for both Powershell and Unix shell - that can be used to integrate Testsigma with any CI/CD tool"
+meta_desc: "Generic shell script - for both Powershell and Unix shell - that can be used to integrate Testsigma with any CI/CD tool"
 order: 12.191
 page_id: "Integrate Testsigma with any CI/CD tool using Shell Script"
 warning: false

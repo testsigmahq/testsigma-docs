@@ -1,6 +1,6 @@
 ---
 title: "Create Elements [Manually]"
-metadesc: "How to create elements manually for an iOS project in Testsigma."
+meta_desc: "How to create elements manually for an iOS project in Testsigma."
 order: 6.44
 page_id: "Create Elements [Manually]"
 warning: false

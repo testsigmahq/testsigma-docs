@@ -1,6 +1,6 @@
 ---
 title: "Update Elements for an iOS Project"
-metadesc: "How to update an element via Testsigma’s Recorder for an iOS Project."
+meta_desc: "How to update an element via Testsigma’s Recorder for an iOS Project."
 order: 4.537
 page_id: "Update Elements for an iOS Project"
 warning: false

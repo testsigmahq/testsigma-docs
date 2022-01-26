@@ -1,6 +1,6 @@
 ---
 title: "Using Environment Test Data for Dynamic locators"
-metadesc: "How to use Environment parameters for creating dynamic locator values in Elements."
+meta_desc: "How to use Environment parameters for creating dynamic locator values in Elements."
 order: 6.63
 page_id: "Using Environment Test Data for Dynamic locators"
 warning: false

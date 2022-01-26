@@ -1,6 +1,6 @@
 ---
 title: "Emulate Mobile devices with Chrome Browser"
-metadesc: "How to emulate mobile devices using the Google Chrome Web Browser for Mobile Websites"
+meta_desc: "How to emulate mobile devices using the Google Chrome Web Browser for Mobile Websites"
 order: 15.8
 page_id: "Emulate Mobile devices with Chrome Browser"
 search_keyword: ""

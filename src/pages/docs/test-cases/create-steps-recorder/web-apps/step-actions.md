@@ -1,7 +1,7 @@
 ---
 title: "Actions you can take on recorded Test Steps in a Web Project"
 page_title: "Test Step Actions on the Test Recorder for a Web Project"
-metadesc: "Actions you can take on recorded test steps in a Web Project
+meta_desc: "Actions you can take on recorded test steps in a Web Project
 in Testsigma"
 order: 4.512
 page_id: "Actions you can take on recorded Test Steps in a Web Project"

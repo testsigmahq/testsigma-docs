@@ -1,6 +1,6 @@
 ---
 title: "Integrate Testsigma with your CI/CD using REST API (Generic)"
-metadesc:  "How to integrate Testsigma with your CI/CD tool via a generic REST API"
+meta_desc:  "How to integrate Testsigma with your CI/CD tool via a generic REST API"
 order: 12.12
 page_id: "Integrate Testsigma with your CI/CD using REST API (Generic)"
 warning: false

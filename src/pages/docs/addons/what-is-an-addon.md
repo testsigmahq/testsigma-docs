@@ -1,7 +1,7 @@
 ---
 title: "Using add-ons to extend the Testsigma Actions"
 page_title: "Using Add-ons to extend Testsigma Functionality"
-metadesc: "What are add-ons, why are they useful, and how to use them to extend functionality for unique cases in Testsigma."
+meta_desc: "What are add-ons, why are they useful, and how to use them to extend functionality for unique cases in Testsigma."
 order: 17.1
 page_id: "Using add-ons to extend the Testsigma Actions"
 search_keyword: ""

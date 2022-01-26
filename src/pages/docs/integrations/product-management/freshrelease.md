@@ -1,7 +1,7 @@
 ---
 title: "Freshrelease Bug Reporting Integration"
 page_title: "Freshrelease Bug Reporting Integration in Testsigma"
-metadesc: "How to integrate Testsigma with Freshrelease for real-time bug reporting during Test Runs"
+meta_desc: "How to integrate Testsigma with Freshrelease for real-time bug reporting during Test Runs"
 order: 16.54
 page_id: "Freshrelease Bug Reporting Integration"
 warning: false

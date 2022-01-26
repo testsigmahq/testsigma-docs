@@ -1,6 +1,6 @@
 ---
 title: "Record Multiple Elements Using Chrome Extension for a web application"
-metadesc: "The meta description should provide an accurate description of the content of the page."
+meta_desc: "The meta description should provide an accurate description of the content of the page."
 order: 6.22
 page_id: "Record Multiple Elements Using Chrome Extension for a web application"
 warning: false

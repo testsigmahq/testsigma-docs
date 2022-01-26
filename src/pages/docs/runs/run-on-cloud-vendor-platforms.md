@@ -1,6 +1,6 @@
 ---
 title: "Run on cloud vendor platforms"
-metadesc: "How to run test cases and test plans on cloud vendor platforms with Testsigma."
+meta_desc: "How to run test cases and test plans on cloud vendor platforms with Testsigma."
 order: 9.71
 page_id: "Run on cloud vendor platforms"
 warning: false

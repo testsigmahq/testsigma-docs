@@ -2,7 +2,7 @@
 title: "Test Plan Executions"
 order: 9.21
 page_id: "Test Plan Executions"
-metadesc: "How to perform test plan executions for a test case in Testsigma."
+meta_desc: "How to perform test plan executions for a test case in Testsigma."
 warning: false
 ---
 

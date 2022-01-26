@@ -1,7 +1,7 @@
 ---
 title: "Set Geolocation for Tests in Chrome and Firefox"
 page_title: "Set Geolocation for your Tests"
-metadesc: "How to set the location of your Test Machine by using desired capabilities in Testsigma"
+meta_desc: "How to set the location of your Test Machine by using desired capabilities in Testsigma"
 order: 15.6
 page_id: "Set Geolocation for Tests in Chrome and Firefox"
 search_keyword: ""

@@ -1,7 +1,7 @@
 ---
 title: "Manage Projects"
 page_title: "Managing Testsigma Projects"
-metadesc: "A guide to managing Projects within Testsigma, including editing, deleting projects, and enabling/disabling multiple Application/Versions"
+meta_desc: "A guide to managing Projects within Testsigma, including editing, deleting projects, and enabling/disabling multiple Application/Versions"
 order: 2.0
 page_id: "Manage Projects"
 warning: false

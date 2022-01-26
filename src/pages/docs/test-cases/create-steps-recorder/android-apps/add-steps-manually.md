@@ -1,7 +1,7 @@
 ---
 title: "Add Steps Manually in a Test Case in an Android Project"
 page_title: "Add Steps Manually in a Test Case in an Android Project while using Recorder"
-metadesc: "How to add test steps to a pre-existing test case via Recorder, for an android project in Testsigma"
+meta_desc: "How to add test steps to a pre-existing test case via Recorder, for an android project in Testsigma"
 order: 4.525
 page_id: "Add Steps Manually in a Test Case in an Android Project"
 warning: false

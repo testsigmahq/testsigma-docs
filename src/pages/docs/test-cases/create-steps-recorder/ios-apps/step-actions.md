@@ -1,6 +1,6 @@
 ---
 title: "Test Step Actions on the Test Recorder for an iOS Project"
-metadesc: "Test step actions for a recorded test step in Testsigma’s Recorder UI for an ios project."
+meta_desc: "Test step actions for a recorded test step in Testsigma’s Recorder UI for an ios project."
 order: 4.532
 page_id: "Test Step Actions on the Test Recorder for an iOS ProjectMore Actions"
 warning: false

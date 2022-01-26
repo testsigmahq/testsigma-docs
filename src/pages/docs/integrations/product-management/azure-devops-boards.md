@@ -1,6 +1,6 @@
 ---
 title: "Azure DevOps Integration"
-metadesc: "How to integrate Testsigma with Azure DevOps"
+meta_desc: "How to integrate Testsigma with Azure DevOps"
 order: 16.51
 page_id: "Azure DevOps Integration"
 warning: false

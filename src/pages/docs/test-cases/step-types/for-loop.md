@@ -1,6 +1,6 @@
 ---
 title: "Adding For Loop in Test Cases"
-metadesc: "How to create For Loop test steps while creating a test case in Testsigma"
+meta_desc: "How to create For Loop test steps while creating a test case in Testsigma"
 order: 4.24
 page_id: "Adding For Loop in Test Cases"
 warning: false
