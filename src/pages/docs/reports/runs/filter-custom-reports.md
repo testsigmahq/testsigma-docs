@@ -1,12 +1,26 @@
 ---
 title: "Filters & Custom Reports"
+meta_desc: "How to drill down reports of test runs in Testsigma"
 order: 13.27
 page_id: "Filters & Custom Reports"
 warning: false
+contextual_links:
+- type: section
+  name: "Contents"
+- type: link
+  name: "How to use Filters in your Test Plan??"
+  url: "#how-to-use-filters-in-your-test-plan"
+- type: link
+  name: "Exporting filtered reports"
+  url: "#exporting-filtered-reports"
+- type: link
+  name: "Test Plan Run History Filters and reports"
+  url: "#test-plan-run-history-filters-and-reports"
+- type: link
+  name: "Test case result list view"
+  url: "#test-case-result-list-view"
 ---
 
-
-### Filters and Custom Reports
 
 When a Test Plan is executed, you can filter out the data based on different criteria.
 Filters in Run Results will help you create custom reports for your team. 
@@ -28,37 +42,31 @@ To generate filtered reports, please follow below steps.
 
 4. You can filter by Result, Type, Priority, Created By, Assignee and Reviewer.
 
-  
 
-## How to use Filters in your Test Plan??
-
- 
-
+---
+## **How to use Filters in your Test Plan??**
 - If you want to filter out the results based on Test Plan Run result type, you need to select the appropriate Result type in the filter as shown below.
   
 	![gif demonstrating how to use filters in your test plan](https://docs.testsigma.com/images/analytics-reports/gif-use-filters-test-plan.gif)
   
 
 - If you want to filter out the results based on Test case Assignee , you need to select the appropriate Assignee in the filter as shown below.
-
-
-	![gif demonstrating how to use filters in your test plan and filter results using Assignee name](https://docs.testsigma.com/images/analytics-reports/gif-use-filters-test-plan-assignee-name.gif)  
-
-  
+    ![gif demonstrating how to use filters in your test plan and filter results using Assignee name](https://docs.testsigma.com/images/analytics-reports/gif-use-filters-test-plan-assignee-name.gif)  
 
 - Similarly you can apply other filters to filter your test cases based on Created By, Priority and Type, etc.
-
-  
-	![filter-by-result-and-assignee-together](https://docs.testsigma.com/images/analytics-reports/filter-by-result-and-assignee-together.png)
+    ![filter-by-result-and-assignee-together](https://docs.testsigma.com/images/analytics-reports/filter-by-result-and-assignee-together.png)
   
 
-### Exporting filtered reports
+---
+## **Exporting filtered reports**
 
 Once filter is applied, you can export the filtered data to an excel or a JUNIT XML report.
   
 ![export your test plan after filter is applied on the run results](https://docs.testsigma.com/images/analytics-reports/export-testplan-after-filter.png)
-  
-## Test Plan Run History Filters and reports
+
+
+---
+## **Test Plan Run History Filters and reports**
 
 When you create a Test Plan and execute it multiple times, you can easily filter out the Test Plan Runs based on selected criteria.
 
@@ -75,26 +83,19 @@ When you create a Test Plan and execute it multiple times, you can easily filter
   
 	  ![gif demonstrating how to filter test plans on the run result status](https://docs.testsigma.com/images/analytics-reports/gif-filter-test-plan-runs.gif)
   
-
-
-  
 4. To view the report across Test Plan runs, click on the graph icon as shown below .
-
 
 	![graph option for displaying the test plan runs in the run history in the form of a graph](https://docs.testsigma.com/images/analytics-reports/show-graph-option-run-history.png)  
 
-  
 
 Once clicked on graph icon, you can see a dialogue page appears within the page as shown in the screenshot below.
 
-  
 ![Graph Result details](https://docs.testsigma.com/images/analytics-reports/run-result-details-graph.png)  
 
 This graph shows that the test plan was executed thrice and in all executions there were 2 Test cases ran.
 
 When you hover on the bars, you can see a message tagged on it showing how many test cases got passed and how many failed as shown in the GIF below.
 
-  
 
 ![Graph result details](https://docs.testsigma.com/images/analytics-reports/gif-run-result-details-graph.gif)  
 
@@ -104,7 +105,8 @@ You can also search your Test Plan runs by entering the build no/run ID in the s
   
 ![build no based search](https://docs.testsigma.com/images/analytics-reports/gif-search-run-history.gif)  
 
-## Test case result list view
+---
+## **Test case result list view**
 
 In any Test Plan run, Test cases can be part of different Test Suites and Test suites can be part of different Test Machines. In order to view the Test cases result based on the Test suite or the Test machine, you need to select the appropriate list view in the drop down as shown below.
   
