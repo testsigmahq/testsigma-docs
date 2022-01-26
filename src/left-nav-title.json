@@ -529,5 +529,11 @@
   },
   "test-locally-hosted-applications": {
     "/docs/runs/test-locally-hosted-applications": "Test Locally Hosted Applications"
+  },
+  "connect-android-local-devices": {
+    "/docs/agent/connect-android-local-devices/": "Setup: Android Local Devices"
+  },
+  "ios-settings": {
+    "/docs/configuration/ios-settings/": "iOS Settings"
   }
 }
