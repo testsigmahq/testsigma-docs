@@ -1,6 +1,6 @@
 ---
-title: "Run Test Plans on Local Devices"
+title: "Test Plan Executions"
 order: 9.21
-page_id: "Run Test Plans on Local Devices"
+page_id: "Test Plan Executions"
 warning: false
 ---

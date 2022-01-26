@@ -145,8 +145,10 @@ exports.sourceNodes = async ({
                 current[part] = {};
                 if(leftNavTitle[part]) {
                     Object.keys(leftNavTitle[part]).forEach(key => {
-                        if(val.indexOf(key) === 0)
-                          current[part] = { leftNavTitle : leftNavTitle[part][key]};
+                        if(val.indexOf(key) === 0) {
+                            //console.log(key);
+                            current[part] = {leftNavTitle: leftNavTitle[part][key]};
+                        }
                     })
                 }
             }
@@ -154,6 +156,6 @@ exports.sourceNodes = async ({
         });
         current.url = `/${split.join('/')}/`;
     });
-
+    //console.log(output.docs)
     createNode(prepareNode(output.docs, 'leftNavLinks'));
 };

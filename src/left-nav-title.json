@@ -2,14 +2,84 @@
   "setup": {
     "/docs/getting-started/setup/": "Setup Testsigma"
   },
+  "testsigma-cloud": {
+    "/docs/getting-started/setup/testsigma-cloud/": "Using Testsigma Cloud"
+  },
+  "docker": {
+    "/docs/getting-started/setup/docker/": "Using Docker"
+  },
+  "downloadable-package": {
+    "/docs/getting-started/setup/downloadable-package/": "Using Downloadable Package"
+  },
+  "introduction-cloud": {
+    "/docs/getting-started/introduction-cloud/": "Introduction: Cloud"
+  },
+  "introduction-community": {
+    "/docs/getting-started/introduction-community/": "Introduction: Community"
+  },
   "projects" : {
     "/docs/projects/": "Projects & Settings"
+  },
+  "settings": {
+    "/docs/projects/settings/": "Project Settings"
+  },
+  "applications": {
+    "/docs/projects/applications/": "Applications"
+  },
+  "versions": {
+    "/docs/projects/versions/": "Versions"
+  },
+  "requirements": {
+    "/docs/projects/requirements/": "Requirements"
+  },
+  "test-case-types": {
+    "/docs/projects/settings/test-case-types/": "Test Case Types"
+  },
+  "test-case-priorities": {
+    "/docs/projects/settings/test-case-priorities/": "Test Case Priorities"
+  },
+  "requirement-types": {
+    "/docs/projects/settings/requirement-types/": "Requirement Types"
+  },
+  "invite-team-members": {
+    "/docs/collaboration/invite-team-members/": "Invite Team Members"
+  },
+  "assign-projects": {
+    "/docs/collaboration/assign-projects/": "Assign Projects"
+  },
+  "test-cases-review-management": {
+    "/docs/collaboration/test-cases-review-management/": "Review Management [Test Cases]"
+  },
+  "elements-review-management": {
+    "/docs/collaboration/elements-review-management/": "Review Management [Elements]"
   },
   "manage": {
     "/docs/test-cases/manage/": "Manage Test Cases"
   },
   "step-types": {
     "/docs/test-cases/step-types/": "Test Step Types"
+  },
+  "natural-language": {
+    "/docs/test-cases/step-types/natural-language/": "Type: Natural Language"
+  },
+  "step-group": {
+    "/docs/test-cases/step-types/step-group/": "Type: Step Group"
+  },
+  "rest-api": {
+    "/docs/test-cases/step-types/rest-api/": "Type: REST API",
+    "/docs/continuous-integration/rest-api/": "REST API(Generic)"
+  },
+  "while-loop": {
+    "/docs/test-cases/step-types/while-loop/": "Type: While Loop"
+  },
+  "for-loop": {
+    "/docs/test-cases/step-types/for-loop/": "Type: For Loop"
+  },
+  "if-condition": {
+    "/docs/test-cases/step-types/if-condition/": "Type: If Condition"
+  },
+  "create-steps": {
+    "/docs/test-cases/create-steps/": "Create Test Steps"
   },
   "create-steps-nl": {
     "/docs/test-cases/create-steps-nl/" : "Create Test Steps Using Simple English"
@@ -19,6 +89,65 @@
     "/docs/test-cases/create-steps-recorder/web-apps/": "Web Applications",
     "/docs/elements/web-apps/": "Web Applications"
   },
+  "create-a-new-element": {
+    "/docs/test-cases/create-steps-nl/web-apps/create-a-new-element/": "Create an Element",
+    "/docs/test-cases/create-steps-nl/android-apps/create-a-new-element/": "Create an Element",
+    "/docs/test-cases/create-steps-nl/ios-apps/create-a-new-element/": "Create an Element",
+    "/docs/test-cases/create-steps-recorder/web-apps/create-a-new-element/": "Create an Element",
+    "/docs/test-cases/create-steps-recorder/android-apps/create-a-new-element/": "Create an Element",
+    "/docs/test-cases/create-steps-recorder/ios-apps/create-a-new-element/": "Create an Element"
+  },
+  "update-elements": {
+    "/docs/test-cases/create-steps-nl/web-apps/update-elements/": "Update Elements",
+    "/docs/test-cases/create-steps-nl/android-apps/update-elements": "Update Elements",
+    "/docs/test-cases/create-steps-nl/ios-apps/update-elements": "Update Elements",
+    "/docs/test-cases/create-steps-recorder/web-apps/update-elements/": "Update Elements",
+    "/docs/test-cases/create-steps-recorder/android-apps/update-elements/": "Update Elements",
+    "/docs/test-cases/create-steps-recorder/ios-apps/update-elements/": "Update Elements"
+  },
+  "create-steps-recorder": {
+    "/docs/test-cases/create-steps-recorder/": "Create Test Steps Using Recorder"
+  },
+  "step-actions": {
+    "/docs/test-cases/create-steps-recorder/web-apps/step-actions/": "Test Step Actions",
+    "/docs/test-cases/create-steps-recorder/android-apps/step-actions": "Test Step Actions",
+    "/docs/test-cases/create-steps-recorder/ios-apps/step-actions": "Test Step Actions"
+  },
+  "step-settings": {
+    "/docs/test-cases/create-steps-recorder/web-apps/step-settings/": "Test Step Settings",
+    "/docs/test-cases/create-steps-recorder/android-apps/step-settings": "Test Step Settings",
+    "/docs/test-cases/create-steps-recorder/ios-apps/step-settings": "Test Step Settings"
+  },
+  "test-data-options": {
+    "/docs/test-cases/create-steps-recorder/web-apps/test-data-options/": "Test Data in Steps",
+    "/docs/test-cases/create-steps-recorder/android-apps/test-data-options": "Test Data in Steps",
+    "/docs/test-cases/create-steps-recorder/ios-apps/test-data-options": "Test Data in Steps"
+  },
+  "add-steps-manually": {
+    "/docs/test-cases/create-steps-recorder/web-apps/add-steps-manually/": "Add Steps Manually",
+    "/docs/test-cases/create-steps-recorder/android-apps/add-steps-manually": "Add Steps Manually",
+    "/docs/test-cases/create-steps-recorder/ios-apps/add-steps-manually": "Add Steps Manually"
+  },
+  "reuse-elements": {
+    "/docs/test-cases/create-steps-recorder/web-apps/reuse-elements/": "Reuse Elements",
+    "/docs/test-cases/create-steps-recorder/android-apps/reuse-elements/": "Reuse Elements",
+    "/docs/test-cases/create-steps-recorder/ios-apps/reuse-elements/": "Reuse Elements"
+  },
+  "reorder": {
+    "/docs/test-cases/create-steps-recorder/web-apps/reorder/": "Reorder Test Steps",
+    "/docs/test-cases/create-steps-recorder/android-apps/reorder/": "Reorder Test Steps",
+    "/docs/test-cases/create-steps-recorder/ios-apps/reorder/": "Reorder Test Steps"
+  },
+  "bulk-actions" : {
+    "/docs/test-cases/create-steps-recorder/web-apps/bulk-actions/": "Bulk Actions",
+    "/docs/test-cases/create-steps-recorder/android-apps/bulk-actions/": "Bulk Actions",
+    "/docs/test-cases/create-steps-recorder/ios-apps/bulk-actions/": "Bulk Actions"
+  },
+  "add-steps-before-after": {
+    "/docs/test-cases/create-steps-recorder/web-apps/add-steps-before-after/": "Add Steps Before & After",
+    "/docs/test-cases/create-steps-recorder/android-apps/add-steps-before-after/": "Add Steps Before & After",
+    "/docs/test-cases/create-steps-recorder/ios-apps/add-steps-before-after/": "Add Steps Before & After"
+  },
   "ios-apps": {
     "/docs/test-cases/create-steps-nl/ios-apps/": "iOS Apps",
     "/docs/test-cases/create-steps-recorder/ios-apps/": "iOS Applications",
@@ -27,33 +156,325 @@
   "create-steps-restapi": {
     "/docs/test-cases/create-steps-restapi/": "Create Steps: REST API"
   },
+  "methods": {
+    "/docs/test-cases/create-steps-restapi/methods": "Methods"
+  },
+  "comparison-types": {
+    "/docs/test-cases/create-steps-restapi/comparison-types" : "Comparison Types"
+  },
+  "store-runtime-data": {
+    "/docs/test-cases/create-steps-restapi/store-runtime-data" : "Store Runtime Data"
+  },
+  "using-test-data": {
+    "/docs/test-cases/create-steps-restapi/using-test-data": "Using Test Data"
+  },
   "test-data": {
     "/docs/test-data/": "Test Data Management"
   },
   "types": {
-    "/docs/test-data/types/": "Test Data Types"
+    "/docs/test-data/types/": "Test Data Types",
+    "/docs/addons/types/": "Addon Types"
+  },
+  "raw": {
+    "/docs/test-data/types/raw/": "Raw"
+  },
+  "parameter": {
+    "/docs/test-data/types/parameter/": "Parameter"
+  },
+  "runtime": {
+    "/docs/test-data/types/runtime/": "Runtime"
+  },
+  "environment": {
+    "/docs/test-data/types/environment/": "Environment"
+  },
+  "random": {
+    "/docs/test-data/types/random/": "Random"
+  },
+  "data-generator": {
+    "/docs/test-data/types/data-generator/": "Data Generator"
+  },
+  "phone-number": {
+    "/docs/test-data/types/phone-number/": "Phone Number"
+  },
+  "mailbox": {
+    "/docs/test-data/types/mailbox/": "Mail Box"
+  },
+  "create-data-profiles": {
+    "/docs/test-data/create-data-profiles/": "Create Test Data [Parameter]"
+  },
+  "import-data-profiles": {
+    "/docs/test-data/import-data-profiles/": "Import Test Data [Parameter]"
+  },
+  "create-environment-data": {
+    "/docs/test-data/create-environment-data/": "Create Test Data [Environment]"
+  },
+  "data-generators": {
+    "/docs/test-data/data-generators/overview/": "Test Data Generators"
   },
   "elements": {
-    "/docs/elements/": "Elements(Objects)"
+    "/docs/elements/": "Elements(Objects)",
+    "/docs/api/elements/": "Elements"
+  },
+  "record-multiple-elements": {
+    "/docs/elements/web-apps/record-multiple-elements/": "Record Multiple Elements[Recorder]",
+    "/docs/elements/android-apps/record-multiple-elements/": "Record Multiple Elements[Recorder]",
+    "/docs/elements/ios-apps/record-multiple-elements/": "Record Multiple Elements[Recorder]"
+  },
+  "capture-single-element": {
+    "/docs/elements/web-apps/capture-single-element/": "Capture Single Element[Recorder]",
+    "/docs/elements/android-apps/capture-single-element/": "Capture Single Element[Recorder]",
+    "/docs/elements/ios-apps/capture-single-element/": "Capture Single Element[Recorder]"
+  },
+  "create-manually": {
+    "/docs/elements/web-apps/create-manually/": "Create Elements [Manually]",
+    "/docs/elements/android-apps/create-manually/": "Create Elements [Manually]",
+    "/docs/elements/ios-apps/create-manually/": "Create Elements [Manually]"
+  },
+  "supported-locator-types": {
+    "/docs/elements/web-apps/supported-locator-types/": "Supported Locator Types",
+    "/docs/elements/android-apps/supported-locator-types/": "Supported Locator Types",
+    "/docs/elements/ios-apps/supported-locator-types/": "Supported Locator Types"
+  },
+  "creating-locators-manually-strategies": {
+    "/docs/elements/web-apps/creating-locators-manually-strategies/": "Different Strategies for Formulating Elements",
+    "/docs/elements/android-apps/creating-locators-manually-strategies/": "Different Strategies for Formulating Elements",
+    "/docs/elements/ios-apps/creating-locators-manually-strategies/": "Different Strategies for Formulating Elements"
+  },
+  "import-export": {
+    "/docs/elements/import-export": "Import/Export Elements"
   },
   "dynamic-elements": {
     "/docs/elements/dynamic-elements/": "Dynamic Elements with Test Data"
+  },
+  "manage-test-machines": {
+    "/docs/test-management/test-plans/manage-test-machines": "Add, Edit, Delete Test Machines"
+  },
+  "manage-test-suites": {
+    "/docs/test-management/test-plans/manage-test-suites": "Add, Edit, Delete Test Suites"
+  },
+  "schedule-plans": {
+    "/docs/test-management/test-plans/schedule-plans": "Schedule Test Plans"
+  },
+  "run-tests-in-parallel": {
+    "/docs/test-management/test-plans/run-tests-in-parallel": "Run Test Suites In Parallel"
+  },
+  "cross-browser-testing": {
+    "/docs/test-management/test-plans/cross-browser-testing": "Cross Browser Testing "
+  },
+  "headless-testing": {
+    "/docs/test-management/test-plans/headless-testing": "Headless Testing "
   },
   "runs": {
     "/docs/runs/" : "Test Runs/ Executions",
     "/docs/reports/runs/" : "Test Runs"
   },
+  "run-on-cloud-vendor-platforms": {
+    "/docs/runs/run-on-cloud-vendor-platforms": "Run Tests on Vendor Platforms"
+  },
   "env-config": {
     "/docs/runs/env-config/": "Device / Environment Configurations"
   },
+  "configure-safari" : {
+    "/docs/runs/env-config/configure-safari/": "Configure Safari"
+  },
+  "configure-ie": {
+    "/docs/runs/env-config/configure-ie/": "Configure IE"
+  },
+  "configure-bypass-ssl": {
+    "/docs/runs/env-config/configure-bypass-ssl/": "Bypass SSL"
+  },
   "agent": {
-    "/docs/agent/" : "Testsigma Agent"
+    "/docs/agent/" : "Testsigma Agent",
+    "/docs/troubleshooting/agent/": "Local Devices"
+  },
+  "pre-requisite": {
+    "/docs/agent/pre-requisite/": "Pre-requisites"
+  },
+  "setup-on-windows-mac-linux": {
+    "/docs/agent/setup-on-windows-mac-linux/": "Setup: Windows, Mac, Linux"
+  },
+  "update-agent-manually": {
+    "/docs/agent/update-agent-manually/": "Update Agent Manually"
+  },
+  "update-drivers-manually": {
+    "/docs/agent/update-drivers-manually/": "Update Drivers Manually"
+  },
+  "force-delete": {
+    "/docs/agent/force-delete/": "Delete Corrupted Agent"
+  },
+  "setup-issues": {
+    "/docs/agent/troubleshooting/setup-issues": "Agent - Startup and Registration Errors"
+  },
+  "faqs": {
+    "/docs/agent/faqs": "FAQs"
+  },
+  "get-test-plan-details": {
+    "/docs/continuous-integration/get-test-plan-details/": "Test Plan Details "
+  },
+  "jenkins": {
+    "/docs/continuous-integration/jenkins/": "Jenkins"
+  },
+  "azure-devops": {
+    "/docs/continuous-integration/azure-devops/": "Azure DevOps"
+  },
+  "aws-devops": {
+    "/docs/continuous-integration/aws-devops/": "AWS DevOps"
+  },
+  "aws-labmda": {
+    "/docs/continuous-integration/aws-labmda/": "AWS Lambda"
+  },
+  "circle-ci": {
+    "/docs/continuous-integration/circle-ci/": "Circle CI"
+  },
+  "bamboo-ci": {
+    "/docs/continuous-integration/bamboo-ci/": "Bamboo CI"
+  },
+  "travis-ci": {
+    "/docs/continuous-integration/travis-ci/": "Travis CI"
+  },
+  "codeship-ci": {
+    "/docs/continuous-integration/codeship-ci/": "CodeShip CI"
+  },
+  "shell-script": {
+    "/docs/continuous-integration/shell-script/": "Shell Script(Generic)"
   },
   "reports": {
     "/docs/reports/": "Reports & Analytics"
   },
+  "dashboard": {
+    "/docs/reports/dashboard/": "Dashboard"
+  },
+  "rerun": {
+    "/docs/reports/runs/rerun/": "ReRun"
+  },
+  "drill-down-reports": {
+    "/docs/reports/runs/drill-down-reports/": "Drill-down Reports"
+  },
+  "test-machine-reports": {
+    "/docs/reports/runs/test-machine-reports/": "Test Machine Level Reports"
+  },
+  "test-suite-reports": {
+    "/docs/reports/runs/test-suite-reports/": "Test Suite Level Reports"
+  },
+  "test-case-reports": {
+    "/docs/reports/runs/test-case-reports/": "Test Case Reports"
+  },
+  "filter-custom-reports": {
+    "/docs/reports/runs/filter-custom-reports": "Filters & Custom Reports"
+  },
+  "export-report-junit": {
+    "/docs/reports/runs/export-report-junit/": "Export Reports - JUnit"
+  },
+  "export-report-xls": {
+    "/docs/reports/runs/export-report-xls/": "Export Reports - XLS"
+  },
+  "configure-test-plan": {
+    "/docs/visual-testing/configure-test-plan/": "Configure Test Plan"
+  },
+  "view-debug-results": {
+    "/docs/visual-testing/view-debug-results/": "View & Debug Results"
+  },
+  "update-baseline": {
+    "/docs/visual-testing/update-baseline/": "Update Baseline"
+  },
+  "most-common": {
+    "/docs/desired-capabilities/most-common/": "Most Common Desired Capabilities List"
+  },
+  "enable-browser-console-logs": {
+    "/docs/desired-capabilities/enable-browser-console-logs/": "Enable Browser Console Debugging logs"
+  },
+  "geo-location-for-localization": {
+    "/docs/desired-capabilities/geo-location-for-localization/": "Geo location for Localization(L10N)"
+  },
+  "avoid-unsafe-download-prompt": {
+    "/docs/desired-capabilities/avoid-unsafe-download-prompt/": "Avoid unsafe download prompt(Chrome)"
+  },
+  "set-geo-location": {
+    "/docs/desired-capabilities/set-geo-location/": "Set geo location(latitude, longitude) Chrome & Firefox"
+  },
+  "custom-user-profile-chrome": {
+    "/docs/desired-capabilities/custom-user-profile-chrome/": "Custom User Profile - Chrome"
+  },
+  "emulate-mobile-devices-with-chrome": {
+    "/docs/desired-capabilities/emulate-mobile-devices-with-chrome/": "Emulate Mobile devices with Chrome Browser"
+  },
+  "add-chrome-extension": {
+    "/docs/desired-capabilities/add-chrome-extension/": "Add Chrome Extension"
+  },
+  "slack": {
+    "/docs/integrations/collaboration/slack/": "Slack"
+  },
+  "microsoft-teams": {
+    "/docs/integrations/collaboration/microsoft-teams/": "Microsoft Teams"
+  },
+  "google-chat": {
+    "/docs/integrations/collaboration/google-chat/": "Google Chat"
+  },
+  "jira": {
+    "/docs/integrations/bug-reporting/jira/": "Jira"
+  },
+  "bugzilla": {
+    "/docs/integrations/bug-reporting/bugzilla/": "Bugzilla"
+  },
+  "backlog": {
+    "/docs/integrations/bug-reporting/backlog/": "Backlog"
+  },
+  "mantis": {
+    "/docs/integrations/bug-reporting/mantis/": "Mantis"
+  },
+  "youtrack": {
+    "/docs/integrations/bug-reporting/youtrack/": "Youtrack"
+  },
+  "zepel": {
+    "/docs/integrations/bug-reporting/zepel/": "Zepel"
+  },
+  "browserstack": {
+    "/docs/integrations/test-labs/browserstack/": "BrowserStack"
+  },
+  "sauce-labs": {
+    "/docs/integrations/test-labs/sauce-labs/": "SauceLabs"
+  },
+  "lambdatest": {
+    "/docs/integrations/test-labs/lambdatest/": "LambdaTest"
+  },
+  "kobiton": {
+    "/docs/integrations/test-labs/kobiton/": "Kobiton"
+  },
+  "azure-devops-boards": {
+    "/docs/integrations/product-management/azure-devops-boards/": "Azure DevOps Boards"
+  },
+  "linear": {
+    "/docs/integrations/product-management/linear/": "Linear"
+  },
+  "trello": {
+    "/docs/integrations/product-management/trello/": "Trello"
+  },
+  "freshrelease": {
+    "/docs/integrations/product-management/freshrelease/": "Freshrelease"
+  },
+  "what-is-an-addon": {
+    "/docs/addons/what-is-an-addon/": "What is an Addon?"
+  },
+  "community-marketplace": {
+    "/docs/addons/community-marketplace/": "Addons Community Marketplace"
+  },
+  "install-community-addon": {
+    "/docs/addons/install-community-addon/": "Install Community Addon"
+  },
+  "pre-requisite-to-create-addon": {
+    "/docs/addons/pre-requisite-to-create-addon/": "Prerequisites(Create/Update Addon)"
+  },
+  "create": {
+    "/docs/addons/create/": "Create an Addon"
+  },
+  "update": {
+    "/docs/addons/update/": "Update Addon"
+  },
   "sdk": {
     "/docs/sdk/": "Testsigma SDK"
+  },
+  "api-keys": {
+    "/docs/configuration/api-keys/": "API Keys"
   },
   "security": {
     "/docs/configuration/security/": "Security(SSO)"
@@ -61,7 +482,52 @@
   "api": {
     "/docs/api/": "Testsigma REST APIs"
   },
+  "environments": {
+    "/docs/api/environments/": "Environments"
+  },
+  "test-plans": {
+    "/docs/api/test-plans/" : "Test Plans"
+  },
+  "upload-files": {
+    "/docs/api/upload-files/": "Upload Files"
+  },
+  "trigger-multiple-test-plans": {
+    "/docs/api/examples/trigger-multiple-test-plans/": "Trigger Multiple Test Plans"
+  },
+  "setup-dev-environment": {
+    "/docs/contributing/setup-dev-environment/": "Setup Dev Environment"
+  },
+  "setup-dev-environment-addons": {
+    "/docs/contributing/setup-dev-environment-addons/": "Setup Dev Environment [Addons]"
+  },
+  "server-docker-deployment-errors": {
+    "/docs/troubleshooting/setup/server-docker-deployment-errors/": "Server Docker Deployment Errors"
+  },
+  "mobile-device-not-displayed-recorder": {
+    "/docs/troubleshooting/agent/mobile-device-not-displayed-recorder/": "Why mobile device not displayed in Testsigma Mobile Test Recorder?"
+  },
+  "url-not-accessible": {
+    "/docs/troubleshooting/web-apps/url-not-accessible/": "URL not accessible"
+  },
+  "failed-to-launch-test-recorder": {
+    "/docs/troubleshooting/mobile-apps/failed-to-launch-test-recorder/": "Failed to Start Mobile Test Recorder"
+  },
+  "why-chrome-extension": {
+    "/docs/faqs/web-apps/why-chrome-extension/": "Why Install Chrome Extension"
+  },
+  "why-cloud-devices-cannot-access-local-apps": {
+    "/docs/faqs/web-apps/why-cloud-devices-cannot-access-local-apps/": "Why cloud based test machines can't access locally hosted applications?"
+  },
   "examples": {
     "/docs/api/examples/" : "Usage Examples"
+  },
+  "roadmap": {
+    "/docs/product-updates/roadmap/": "Roadmap"
+  },
+  "test-plans-on-local-devices": {
+    "/docs/runs/test-plans-on-local-devices/": "Run Test Plans on Local Devices"
+  },
+  "test-locally-hosted-applications": {
+    "/docs/runs/test-locally-hosted-applications": "Test Locally Hosted Applications"
   }
 }

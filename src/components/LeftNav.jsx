@@ -63,14 +63,14 @@ class ListItem extends React.Component {
         return currentUrl.includes(url);
     }
 
-    child = (url) => {
+    child = (data, url) => {
         const name = slugs.filter((val) => url === val.fields.slug);
         const { title } = name[0].frontmatter;
         return ( url.indexOf("/overview/") === -1 &&
-            <li key={`${title}-${uuidv4()}`} className={`child${this.inUrl(url) ? ' currentUrl text_green' : ''}`}>
+            <li key={`${data.leftNavTitle || title}-${uuidv4()}`} className={`child${this.inUrl(url) ? ' currentUrl text_green' : ''}`}>
                 <div className="activeIndicator" />
                 <img src={book} alt="book"/>
-                <Link to={url}>{title}</Link>
+                <Link to={url}>{data.leftNavTitle || title}</Link>
             </li>
         );
     } // Renders child element. Gets name from slugs array
@@ -128,7 +128,7 @@ class ListItem extends React.Component {
                 {keys.map((val) => {
                     if(val !== 'leftNavTitle' && val !== "old") {
                         if (parsedData[val].url) {
-                            return this.child(parsedData[val].url);
+                            return this.child(parsedData[val], parsedData[val].url);
                         }
                         return this.parent(parsedData[val], val);
                     }
