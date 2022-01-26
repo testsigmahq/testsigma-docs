@@ -59,11 +59,6 @@ class SubscribeButton extends Component {
                 })
                 .catch(function (response) {
                     // handle error
-                    document.getElementById('email').value = "";
-                    subscribeSuccess.style.display = "block";
-                    setTimeout(() => {
-                        subscribeSuccess.style.display = "none";
-                    }, 3000);
                     console.error("Failed: ", response);
                 });
             }
