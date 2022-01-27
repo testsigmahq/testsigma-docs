@@ -25,31 +25,31 @@ class SubscribeButton extends Component {
 
         const regex = /^([a-zA-Z0-9_\.\-\+])+\@(([a-zA-Z0-9\-])+\.)+([a-zA-Z0-9]{2,4})+$/;
 
-        this._reCaptchaRef.current.executeAsync().then(value => {
-            emailError.style.display = "none";
+        emailError.style.display = "none";
+        if (!regex.test(email)) {
+            emailError.style.display = "block";
+            return false;
+        }
+        else {
+            this._reCaptchaRef.current.executeAsync().then(value => {
+                if (value) {
+                    const formData = {
+                        'CATEGORY': 'Product Updates',
+                        'LSOURCE': 'Docs',
+                        'UPDATES': '',
+                        'URL': trimmedURL,
+                        'add_tags_immediately': false,
+                        'email': email,
+                        'g-recaptcha-response': value,
+                        'list_id' : 'bec00ef235',
+                        'tags': ['Product Updates']
+                    };
 
-            if (value) {
-                const formData = {
-                    'CATEGORY': 'Product Updates',
-                    'LSOURCE': 'Docs',
-                    'UPDATES': '',
-                    'URL': trimmedURL,
-                    'add_tags_immediately': false,
-                    'email': email,
-                    'g-recaptcha-response': value,
-                    'list_id' : 'bec00ef235',
-                    'tags': ['Product Updates']
-                };
-    
-                if (!regex.test(email)) {
-                    emailError.style.display = "block";
-                    return false;
-                } else {
-                  axios({
-                      method: 'POST',
-                      url: CONTACT_LIST_API,
-                      data: formData,
-                      headers: { "Content-Type": "application/json; charset=UTF-8" },
+                    axios({
+                        method: 'POST',
+                        url: CONTACT_LIST_API,
+                        data: formData,
+                        headers: { "Content-Type": "application/json; charset=UTF-8" },
                     })
                     .then(function (response) {
                         // handle success
@@ -60,8 +60,8 @@ class SubscribeButton extends Component {
                         console.error("Failed: ", response);
                     });
                 }
-            }
-        });
+            });
+        }
     }
 
     render() {
