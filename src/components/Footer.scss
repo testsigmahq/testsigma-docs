@@ -121,8 +121,10 @@
       padding-right: 20px;
     }
   }
-  .email-error,
-  .subscribe-success {
+  .hide {
+    display: none;
+  }
+  .email-error {
     display: none;
     font-size: 12px;
     margin: 2px 0 !important;
@@ -131,7 +133,13 @@
     color: #ED4B48;
   }
   .subscribe-success {
-    color: #03A973;
+    display: flex;
+    justify-content: center;
+    flex-basis: 40%;
+    align-items: center;
+    h4 {
+      color: #03A973;
+    }
   }
 }
 
