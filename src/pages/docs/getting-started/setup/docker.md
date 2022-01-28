@@ -52,7 +52,7 @@ Create a folder called “testsigma” where you would like to install Testsigma
 
 ## **Step1: Download docker-compose.yml file**
 
-Download docker-compose.yml file into the testsigma installation folder from [here](https://github.com/testsigmahq/testsigma/tree/main/deploy/docker). Download the appropriate file based on your OS.
+Download docker-compose.yml file into the testsigma installation folder from [here](https://github.com/testsigmahq/testsigma/tree/dev/deploy/docker). Download the appropriate file based on your OS.
 
 ---
 
@@ -115,7 +115,7 @@ Login to https://local.testsigmaos.com/ui and follow the steps mentioned here([S
   1. Stop the Docker images/container with name testsigma in Docker Desktop, alternatively you can use the below commands to kill the processes<br>
        &nbsp;a. `sudo su`<br>
        &nbsp;b. `docker container kill $(docker ps -q)`
-  2. Download the latest version of docker-compose.yml file into the testsigma installation folder from [here](https://github.com/testsigmahq/testsigma/tree/main/deploy/docker). 
+  2. Download the latest version of docker-compose.yml file into the testsigma installation folder from [here](https://github.com/testsigmahq/testsigma/tree/dev/deploy/docker). 
   3. Run 
   `
   $ docker-compose up -d 

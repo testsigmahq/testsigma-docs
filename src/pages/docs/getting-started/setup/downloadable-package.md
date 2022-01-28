@@ -42,9 +42,9 @@ Create a folder called testsigma where you would like to install Testsigma.
 Download the Testsigma zip into the installation folder(testsigma) from https://github.com/testsigmahq/testsigma/releases/latest/
 
 You will find the following files in this location, download the appropriate one based on your OS.<br>
-Testsigma-Windows.zip<br>
-Testsigma-Mac.zip<br>
-Testsigma-Linux.zip<br>
+Testsigma-Windows-{latest-version}.zip<br>
+Testsigma-Mac-{latest-version}.zip<br>
+Testsigma-Linux-{latest-version}.zip<br>
 
 Once the file is downloaded, extract it to the directory you wish and follow the steps below: <br>
 We need 4 components for the Testsigma community server to work:<br>
