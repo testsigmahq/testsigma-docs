@@ -2,9 +2,17 @@
   margin-top: 0px;
   position: relative;
   top: 40px;
+  @media (max-width: 576px) {
+    overflow: hidden;
+    top: 20px;
+  }
   hr{
     margin-top: 30px;
     margin-bottom: 30px;
+    @media (max-width: 576px) {
+      margin-top: 15px;
+      margin-bottom: 15px;
+    }
   }
   h2{
     margin-top: 3px!important;
@@ -16,9 +24,30 @@
   .helpfull{
     display: flex;
     justify-content: center;
+    @media (max-width: 576px) {
+      display: block;
+      justify-content: inherit;
+      text-align: center;
+    }
     .text_h2{
       margin-left: 0;
       margin-right: 50px;
+      @media (max-width: 576px) {
+        margin-right: 0;
+      }
+    }
+    button {
+      @media (max-width: 576px) {
+        display: inline-block;
+      }
+      svg,
+      h2 {
+        @media (max-width: 576px) {
+          display: inline-block;
+          vertical-align: middle;
+          margin: 0 20px 0 0 !important;
+        }
+      }
     }
     button.active {
       opacity: 0.2;
@@ -55,6 +84,10 @@
   display: flex;
   padding: 18px 18px 18px 28px;
   border-radius: 6px;
+  @media (max-width: 576px) {
+    display: block;
+    padding: 18px;
+  }
   .green_text{
     font-size: 16px;
     line-height: 26px;
@@ -93,6 +126,9 @@
   }
   .btn_width{
     max-width: 30%;
+    @media (max-width: 576px) {
+      max-width: 100%;
+    }
     button{
       color: #FFF;
       margin-top: 11px;
@@ -119,6 +155,10 @@
       cursor: pointer;
       padding-left: 20px;
       padding-right: 20px;
+      @media (max-width: 576px) {
+        right: 0;
+        min-width: 100%;
+      }
     }
   }
   .hide {
@@ -144,26 +184,33 @@
 }
 
 .footer_greyBox{
-    margin-top: 30px;
-    background-color: #F6F7F9;
-    padding: 30px 15px 15px 15px;
-    svg{
-      margin: auto;
-      display: block;
-    }
+  margin-top: 30px;
+  background-color: #F6F7F9;
+  padding: 30px 15px 15px 15px;
+  svg{
+    margin: auto;
+    display: block;
+  }
   p{
     font-weight: 300;
     text-align: center;
   }
   .p_flex{
     display: flex;
+    justify-content: center;
     width: 100%;
-    margin-left: 120px;
     margin-top: -15px;
+    @media (max-width: 576px) {
+      margin-left: 0;
+      margin-bottom: 20px;
+    }
     p{
       line-height: 12px;
       padding: 0px 10px;
       height: 15px;
+      @media (max-width: 576px) {
+        height: auto;
+      }
       a{
         color: #03A973;
         text-decoration: underline;
@@ -192,6 +239,9 @@
   display: flex;
   margin-top: 15px;
   margin-bottom: 30px;
+  @media (max-width: 576px) {
+    margin-bottom: 15px;
+  }
   p{
     a{
       font-size: 12px;

@@ -19,10 +19,63 @@ body{
   overflow-x: hidden;
   height: 100%;
 }
+
+#root_header > div {
+  @media (max-width: 576px) {
+    // position: relative;
+    // z-index: 10;
+    display: block;
+  }
+  nav:first-child {
+    @media (max-width: 576px) {
+      display: block;
+      width: 100%;
+      margin: 15px 0;
+      order: 2;
+    }
+  }
+  nav:first-child svg {
+    @media (max-width: 576px) {
+      margin: 1rem auto 1.2rem;
+    }
+  }
+  nav:last-child {
+    @media (max-width: 576px) {
+      width: 100%;
+      flex-direction: column;
+    }
+  }
+  nav:last-child > nav div {
+    @media (max-width: 576px) {
+      margin-left: 0;
+      display: block;
+      text-align: center;
+    }
+  }
+  nav:last-child > nav div a:nth-child(3),
+  nav:last-child > nav div a:nth-child(4),
+  nav:last-child > nav div a:nth-child(5),
+  nav:last-child > nav div a:nth-child(6) {
+    @media (max-width: 576px) {
+      display: none;
+    }
+  }
+  nav:last-child > div {
+    @media (max-width: 576px) {
+      width: 100%;
+      margin-top: 15px;
+      order: 1;
+    }
+  }
+}
+
 .doc-page {
 
   h2 > * {
     font-size: 25px;
+    @media (max-width: 576px) {
+      font-size: 16px;
+    }
   }
 
   img {
@@ -155,21 +208,20 @@ body{
     padding-left: 30px !important;
     padding-right: 30px !important;
   }
+
+  @media (max-width: 576px) {
+    padding: 15px !important;
+  }
 }
 
 // make left nav full width in mobile view
 .left-nav {
-  // z-index: -1;
-  //padding-left: 0px !important;
-  //padding-right: 0px !important;
   background: #FAFBFC;
   position: sticky;
   top: 0;
   height: 100vh;
   overflow-y: auto;
   min-width: 22%;
-  //* padding: 0px 0px 20px 10px;*
-
   @media (max-width: 768px) {
     min-width: 40%;
     padding: 20px 0px 20px 10px;
@@ -223,7 +275,6 @@ thead:first-child:hover tr{
   background-color: white;
 }
 
-
 /**
 * add syntax highlighting
 */
@@ -243,7 +294,6 @@ thead:first-child:hover tr{
 }
 
 code[class*="language-"] {
-  // word-wrap: unset !important;
   word-break: break-word !important;
   word-wrap: break-word !important;
   overflow-wrap: break-word !important;
@@ -287,78 +337,6 @@ code[class*="language-"] {
   }
 }
 
-//.gatsby-highlight {
-//  background-color: #2d2d2d;
-//  border-radius: 0.3em;
-//  margin: 25px 0 25px 0;
-//  padding: 1em;
-//  overflow: auto;
-//  border-left: 0.5em solid $postman-orange;
-//  white-space: pre-wrap;
-//  word-break: break-word;
-//  // max-width: 600px;
-//
-//  code[class*="language-"],
-//  .token.comment,
-//  .token.string,
-//  .token.number,
-//  .token.boolean,
-//  .token.class-name,
-//  .token.constant,
-//  .token.parameter,
-//  .token.keyword,
-//  .token.operator,
-//  .token.function,
-//  .token.property,
-//  .token.attr-name,
-//  .token.attr-value,
-//  .token.tag,
-//  .token.punctuation {
-//    font-family: $ibm;
-//    white-space: pre-wrap;
-//    word-break: break-word;
-//    line-height: 1.666rem;
-//  }
-//
-//  /**
-//  * Remove the default PrismJS theme background-color, border-radius, margin,
-//  * padding and overflow.
-//  * 1. Make the element just wide enough to fit its content.
-//  * 2. Always fill the visible space in .gatsby-highlight.
-//  * 3. Adjust the position of the line numbers
-//  */
-//  pre[class*="language-"] {
-//    font-family: $ibm;
-//    background-color: transparent;
-//    margin: 0;
-//    padding: 0;
-//    overflow: initial;
-//    float: left;
-//    min-width: calc(100% - 3em);
-//    white-space: pre-wrap;
-//    word-break: break-word;
-//
-//    // &.line-numbers {
-//    //   padding-left: 3em;
-//    //   padding-right: 1em;
-//
-//    //   .line-numbers-rows {
-//    //     right: calc(100% - 25px);
-//    //     left: unset !important;
-//    //   }
-//
-//    //   .gatsby-highlight-code-line {
-//    //     background-color: #455A64;
-//    //     display: block;
-//    //     margin-right: -1em;
-//    //     margin-left: -1em;
-//    //     padding-right: 1em;
-//    //     padding-left: 0.75em;
-//    //   }
-//    // }
-//  }
-//}
-
 .pagination_buttons{
   //display: flex;
   margin-left: 70px;
@@ -385,6 +363,12 @@ code[class*="language-"] {
   }
   svg{
     display: block;
+  }
+  .flex.justify-between {
+    @media (max-width: 576px) {
+      display: block;
+      justify-content: inherit;
+    }
   }
 }
 
@@ -455,6 +439,9 @@ code[class*="language-"] {
   box-shadow: 4px 4px 5px #f3f3f3;
   border:1px solid #DEDEDE;
   border-radius: 4px;
+  @media (max-width: 576px) {
+    width: 100%;
+  }
   svg{
     position: relative;
     top: 10px;
@@ -462,6 +449,9 @@ code[class*="language-"] {
 }
 .next_button{
   float: right;
+  @media (max-width: 576px) {
+    float: inherit;
+  }
   span{
     margin-right: 2px;
     @media (max-width: 576px) {
@@ -470,7 +460,7 @@ code[class*="language-"] {
   }
   @media (max-width: 576px) {
     margin-left: 0px;
-    margin-top: 60px;
+    margin-top: 30px;
   }
   svg{
     float: right;
@@ -498,6 +488,9 @@ code[class*="language-"] {
   display: block;
   border-left: 1px solid rgba(229, 231, 235, var(--tw-border-opacity));
   background-color: #fff;
+  @media (max-width: 576px) {
+    width: 85%;
+  }
   .ais-SearchBox,
   .search-icon {
     display: inline-block;
