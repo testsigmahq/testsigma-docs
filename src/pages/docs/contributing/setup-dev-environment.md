@@ -28,7 +28,7 @@ contextual_links:
 ---
 ## **Setup Instructions:**
  - Download source from github:
-    `git clone https://github.com/TestsigmaInc/testsigma-os` 
+    `git clone https://github.com/Testsigmahq/testsigma` 
  - Make sure the JAVA_HOME variables in the terminal are proper
  - Open IDE and create an empty project
  - Import agent-launcher, agent, automator, server and ui as separate modules.
