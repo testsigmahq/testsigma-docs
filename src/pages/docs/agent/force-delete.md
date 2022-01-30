@@ -34,9 +34,9 @@ The Testsigma Configuration/Log files are located at the following locations dep
 
 | Operating System   | Location of Agent directory |
 | :---        | :---   |        
-| Windows  | %userprofile%\AppData\Roaming\Testsigma\Agent\   | 
-| Linux | $HOME/.testsigma/agent/        | 
-| Mac   | $HOME/Library/Application Support/Testsigma/Agent/   | 
+| Windows  | %userprofile%\AppData\Roaming\Testsigma\Agent\config\   | 
+| Linux | $HOME/.testsigma/agent/config/        | 
+| Mac   | $HOME/Library/Application Support/Testsigma/Agent/config/   | 
 
 - The %userprofile% points to the C:\Users\<username> folder where <username> is replaced by your Windows login username.
 
