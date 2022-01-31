@@ -34,6 +34,8 @@ contextual_links:
   url: "#next-steps"
 ---
 
+---
+
 This guide will help you setup [Testsigma Server](https://github.com/testsigmahq/testsigma) and MySQL as Docker containers using Docker Compose. This is the easiest way to set up Testsigma on your local machines.
 
 ---

@@ -41,102 +41,113 @@ Create a folder called testsigma where you would like to install Testsigma.
 
 Download the Testsigma zip into the installation folder(testsigma) from https://github.com/testsigmahq/testsigma/releases/latest/
 
-You will find the following files in this location, download the appropriate one based on your OS.<br>
-Testsigma-Windows-{latest-version}.zip<br>
-Testsigma-Mac-{latest-version}.zip<br>
-Testsigma-Linux-{latest-version}.zip<br>
+You will find the following files in this location, download the appropriate one based on your OS.
+- Testsigma-Windows-{latest-version}.zip
+- Testsigma-Mac-{latest-version}.zip
+- Testsigma-Linux-{latest-version}.zip
 
-Once the file is downloaded, extract it to the directory you wish and follow the steps below: <br>
-We need 4 components for the Testsigma community server to work:<br>
-    &nbsp; - Mysql (not bundled)<br>
-    &nbsp; - Nginx (not bundled)<br>
-    &nbsp; - Testsigma Server (bundled)<br>
-    &nbsp; - Testsigma Agent (bundled)<br>
+&nbsp;
 
-### **MySQL:**
+Once the file is downloaded, extract it to the directory you wish and follow the steps below:
+We need 4 components for the Testsigma community server to work:
+- MySQL (not bundled)
+- Nginx (bundled)
+- Testsigma Server (bundled)
+- Testsigma Agent (bundled)
 
-#### **Install MySQL**
+---
+
+###MySQL
+
+####**Install MySQL**
 
  1. Download and install MySQL from https://dev.mysql.com/downloads/mysql/
 
  2. Set the MySQL password for the root user as root. You can choose to set a different password, but while starting the testsigma API server you will need to set this as an environment variable (MYSQL\_PASSWORD\). 
 
+&nbsp;
 #### **Connect with Existing MYSQL**
+You can also connect with an external/existing MYSQL server instance. Set the following environment variables to connect with the existing MYSQL Instance <br>
 
-You can also connect with an external/existing MYSQL server instance. <br>
-Set the following environment variables to connect with the existing MYSQL Instance <br>
-MYSQL\_HOST\_NAME = <mysql\_host\_name> where mysql\_host\_name is your database url<br>
-MYSQL\_PORT = < port\_number> where mysql is running<br>
-MYSQL\_DB\_NAME = <db\_name> where you want to save data<br>
-MYSQL\_USER = < username><br>
-MYSQL\_PASSWORD = < password><br>
+  MYSQL\_HOST\_NAME = <mysql\_host\_name> where mysql\_host\_name is your database url<br>
+  MYSQL\_PORT = < port\_number> where mysql is running<br>
+  MYSQL\_DB\_NAME = <db\_name> where you want to save data<br>
+  MYSQL\_USER = < username><br>
+  MYSQL\_PASSWORD = < password><br>
 
-### **Nginx**
+---
+
+###Nginx
 
 Since we have UI components and API server separately we need a single application to route the requests between them. Nginx is the one that facilitates this. Nginx listens to 443 ports for HTTPS connections and forwards them to the API server, so make sure this port is not occupied by another service.
 
-### **Testsigma Server**
+---
+###Testsigma Server
 
 Testsigma follows API first approach, all APIs are served from this service. This service contains all APIs and business logic to support the Testsigma UI and all other backend processes. Testsigma Server is a Spring Boot application that runs on port 9090 by default. Make sure that 9090 is free. If you want to change the port follow the steps below.  <br>
    
-  &nbsp;- Before changing the ports, stop Nginx, Testsigma Server and Testsigma Agent.<br>
-  &nbsp;- Navigate to the Nginx folder from the downloaded Testsigma zip and open nginx.conf. In the text http://localhost:9090 replace the port you would like to use and save it.<br>
-
-  &nbsp;- Before starting the Testsigma server set the environment variable TESTSIGMA\_SERVER\_PORT to the port you want<br>
-  &nbsp;- Before starting the Testsigma agent, set the environment variable LOCAL\_SERVER\_URL to http://localhost:<port> here you can replace <port> with the port you would like to use.<br>
+- Before changing the ports, stop Nginx, Testsigma Server and Testsigma Agent.<br>
+- Navigate to the Nginx folder from the downloaded Testsigma zip and open nginx.conf. In the text http://localhost:9090 replace the port you would like to use and save it.<br>
+- Before starting the Testsigma server set the environment variable TESTSIGMA\_SERVER\_PORT to the port you want<br>
+- Before starting the Testsigma agent, set the environment variable LOCAL\_SERVER\_URL to http://localhost:<port> here you can replace <port> with the port you would like to use.<br>
    
-
-### **Testsigma Agent**
+---
+###Testsigma Agent
 
 Testsigma Agent is a microservice that processes test case data and runs tests on browsers and mobile devices. The Testsigma agent runs on ports 9393 (HTTP) and 9494 (HTTPS) by default. If you want to change these ports, follow the steps below: <br>
-   &nbsp; - Before changing the ports, stop Nginx, Testsigma Server, and Testsigma Agent.<br>
-   &nbsp; - Before starting the Testsigma server you need to set the environment variable LOCAL\_AGENT\_URL= https://localhost:<http\_port>, here you can replace the <http\_port> with the port you want to use for the agent.<br>
-   &nbsp; - Before starting the Testsigma agent you need to set the environment variables TESTSIGMA\_AGENT\_HTTP\_PORT for HTTP port and TESTSIGMA\_AGENT\_HTTPS\_PORT for HTTPS port.<br>
+- Before changing the ports, stop Nginx, Testsigma Server, and Testsigma Agent.<br>
+- Before starting the Testsigma server you need to set the environment variable LOCAL\_AGENT\_URL= https://localhost:<http\_port>, here you can replace the <http\_port> with the port you want to use for the agent.<br>
+- Before starting the Testsigma agent you need to set the environment variables TESTSIGMA\_AGENT\_HTTP\_PORT for HTTP port and TESTSIGMA\_AGENT\_HTTPS\_PORT for HTTPS port.<br>
 
 ---
 ##**Step2: Run Services**
-### **Windows**
-#### **Starting Nginx:**<br>
-   &nbsp; - Open a command prompt<br>
-   &nbsp; - Navigate to the extracted folder<br>
-   &nbsp; - Run start\_nginx.bat to start Nginx<br>
-   &nbsp; - If you want to stop nginx at any point   in time then, run the  start\_nginx.bat script <br>
+###Windows
+####Starting Nginx
+  - Open a command prompt<br>
+  - Navigate to the extracted folder<br>
+- Run start\_nginx.bat to start Nginx<br>
+- If you want to stop nginx at any point   in time then, run the  start\_nginx.bat script <br>
 
-#### **Starting API Server:**<br>
-   &nbsp; - Open a command prompt<br>
-   &nbsp; - Navigate to the extracted folder<br>
-   &nbsp; - Navigate to the TestsigmaServer folder<br>
-   &nbsp; - Run start.bat file to start the Testsigma API server<br>
-   &nbsp; - You can run stop.bat if you want to stop the API server at any point in time<br>
+####**Starting API Server:**<br>
+- Open a command prompt<br>
+- Navigate to the extracted folder<br>
+- Navigate to the TestsigmaServer folder<br>
+- Run start.bat file to start the Testsigma API server<br>
+- You can run stop.bat if you want to stop the API server at any point in time<br>
 
 #### **Starting Local Agent:**<br>
-   &nbsp; - Open a command prompt<br>
-   &nbsp; - Navigate to the extracted folder<br>
-   &nbsp; - Navigate to the TestsigmaAgent folder<br>
-   &nbsp; - Run start.bat file to start the Testsigma Agent<br>
-   &nbsp; - You can run stop.bat if you want to stop the agent at any point in time<br>
+- Open a command prompt<br>
+- Navigate to the extracted folder<br>
+- Navigate to the TestsigmaAgent folder<br>
+- Run start.bat file to start the Testsigma Agent<br>
+- You can run stop.bat if you want to stop the agent at any point in time<br>
+
+---
 
 ### **Mac / Linux:**
 #### **Starting Nginx:**<br>
-   &nbsp; - Open a command prompt<br>
-   &nbsp; - Navigate to the extracted folder<br>
-   &nbsp; - Run start\_nginx.sh file to start the Nginx<br>
-   &nbsp; - You can run stop\_nginx.sh if you want to stop the nginx at any point in time<br>
+- Open a command prompt<br>
+- Navigate to the extracted folder<br>
+- Run start\_nginx.sh file to start the Nginx<br>
+- You can run stop\_nginx.sh if you want to stop the nginx at any point in time<br>
 
 #### **Starting API Server:**<br>
-   &nbsp; - Open a command prompt<br>
-   &nbsp; - Navigate to the extracted folder<br>
-   &nbsp; - Navigate to the TestsigmaServer folder<br>
-   &nbsp; - Run start.sh file to start the Testsigma API server<br>
-   &nbsp; - You can run stop.sh if you want to stop the API server at any point in time<br>
+- Open a command prompt<br>
+- Navigate to the extracted folder<br>
+- Navigate to the TestsigmaServer folder<br>
+- Run start.sh file to start the Testsigma API server<br>
+- You can run stop.sh if you want to stop the API server at any point in time<br>
 
 
 #### **Starting Local Agent:**<br>
-   &nbsp; - Open a command prompt<br>
-   &nbsp; - Navigate to the extracted folder<br>
-   &nbsp; - Navigate to the TestsigmaAgent folder<br>
-   &nbsp; - Run start.sh file to start the Testsigma API agent<br>
-   &nbsp; - You can run stop.sh if you want to stop the agent at any point in time<br>
+- Open a command prompt<br>
+- Navigate to the extracted folder<br>
+- Navigate to the TestsigmaAgent folder<br>
+- Run start.sh file to start the Testsigma API agent<br>
+- You can run stop.sh if you want to stop the agent at any point in time<br>
+
+---
+##**Verifying the installation**
 
 Your Testsigma server should be up and running now. Testsigma server will be accessible at https://local.testsigmaos.com/ui
 

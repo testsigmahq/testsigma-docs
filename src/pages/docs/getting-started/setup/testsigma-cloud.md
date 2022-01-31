@@ -46,24 +46,24 @@ Go to [https://testsigma.com/signup](https://testsigma.com/signup) to create an 
 
 ---
 ##**Creating and running a test**
-###**Step 1: Create test case**
+###Step 1: Create test case
 
 ![Create test case](https://docs.testsigma.com/images/testsigma-cloud/create-test-case.png)
 
 * In the left nav click on **Test Development** and click on **Test cases**. Fill in the required fields and click **Create**.
 
-###**Step 2: Add Test Steps**
+###Step 2: Add Test Steps
 
 [Check out this tutorial](http://localhost:8000/docs/test-cases/step-types/natural-language/) to learn how to create & add test steps
 
-###**Step 3: Run your test**
+###Step 3: Run your test
 ![Run your test](https://docs.testsigma.com/images/testsigma-cloud/run-your-test.png)
 
 * Once you’ve created your test steps, click on the **Run** button
 * You can choose from several browser/OS version combinations as well as devices if you’re testing your mobile app
 * You can also run your tests locally through the [agent](https://testsigma.com/docs/runs/local-executions/using-testsigma-agent/)
 
-###**Step 4: View results & debug errors**
+###Step 4: View results & debug errors
 ![View results and debug errors](https://docs.testsigma.com/images/testsigma-cloud/view-results-and-debug-errors.png)
 
 * After you run your test you’ll automatically see the results show up in real time on your screen
@@ -84,7 +84,7 @@ Testsigma’s integrated test data profiles let you easily create or upload data
 ##**Troubleshooting**
 
 * Connect with product experts on the team and in the Community on our [Discord](https://discord.com/invite/5caWS7R6QX/)
-* Troubleshooting problems? Report bugs as **Github issues**
+* Troubleshooting problems? Report bugs as [Github issues](https://github.com/testsigmahq/testsigma/discussions)
 * Reach out to us at [support@testsigma.com](mailto:support@testsigma.com)
 * Refer to our [FAQ](https://testsigma.com/docs/getting-started/faqs/) section for answers to commonly asked questions.
 
