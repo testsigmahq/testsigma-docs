@@ -14,7 +14,7 @@ contextual_links:
   url: "#disable-telemetry"
 ---
 
-### Telemetry
+---
 
 As a standard practice, we collect anonymous telemetry data during and after Testsigma CE is installed on your local machine. The data is statistical in nature and cannot be used to uniquely identify a user.
 

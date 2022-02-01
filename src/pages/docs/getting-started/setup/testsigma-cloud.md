@@ -29,6 +29,7 @@ contextual_links:
   name: "Next Steps"
   url: "#next-steps"
 ---
+---
 This guide walks you through creating an account and using Testsigma Cloud
 
 ---
