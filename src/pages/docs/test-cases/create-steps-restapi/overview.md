@@ -6,6 +6,8 @@ page_id: "How to add Test Steps for Web Service/REST API Testing?"
 warning: false
 ---
 
+---
+
 Creation of a Test Case for Web Service/API Testing is no different than the creation of a Test Case for a web or mobile application in Testsigma.
 See [add, edit, and delete test cases](https://testsigma.com/docs/test-cases/manage/add-edit-delete/).
  

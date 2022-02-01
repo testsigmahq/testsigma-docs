@@ -29,6 +29,8 @@ contextual_links:
   url: "#v-test-the-saml-config"
 ---
 
+---
+
 With Azure (by Microsoft) Active Directory, users can automatically sign into their cloud-hosted/on-premise applications for a hassle-free, secure sign-in experience.
 
 You can use the Azure Active Directory Admin Center to enable single sign-on (SSO) for Testsigma. After you configure SSO, your users can sign in to our application by using their Azure AD credentials.

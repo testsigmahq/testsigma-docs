@@ -12,6 +12,8 @@ contextual_links:
   url: "#what-can-you-do-on-the-run-results-page"
 ---
 
+---
+
 The purpose of test automation is to be able to quickly understand the state of quality in your application. To understand the quality you need to understand the results of your test execution and where test reports come in.
 
 In Testsigma, these reports can be viewed directly in the Testsigma application or can be downloaded. Reports are automatically created and are useful for debugging failing tests and helping managers understand the state of quality of the application under test (AUT). 

@@ -6,6 +6,8 @@ page_id: "Random Test Data in Testsigma"
 warning: false
 ---
 
+---
+
 Many of your Test Cases require inputs which are random in nature. For example, entering an Account number, ID number, phone number e.t.c. With Testsigma you can create a random alphanumeric block of data using Random Test Data.
 
 

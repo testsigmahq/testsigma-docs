@@ -17,6 +17,9 @@ contextual_links:
   name: "Advanced Use Cases"
   url: "#advanced-use-cases"
 ---
+
+---
+
 Testsigma has a  set of REST API Endpoints to manage the entities available in Testsigma. The most common usage of these endpoints is within your CI/CD Pipeline.
 
 A fair understanding of REST APIs is expected. If not, please refer to some relevant resources regarding REST API or consult with your Dev team before proceeding further.

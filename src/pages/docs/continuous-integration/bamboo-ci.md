@@ -14,6 +14,9 @@ contextual_links:
   name: "Steps to follow:"
   url: "#steps-to-follow"
 ---
+
+---
+
 Bamboo is a continuous integration and delivery tool that ties automated builds, tests, and releases in a single workflow. It is a popular tool for CI/CD pipeline and build automation.
 
 

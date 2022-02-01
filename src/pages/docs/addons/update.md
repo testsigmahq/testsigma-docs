@@ -7,6 +7,8 @@ search_keyword: ""
 warning: false
 ---
 
+---
+
 Updating an add-on is similar to but easier than [creating an add-on](https://testsigma.com/docs/addons/create/). If you don’t already know this, see how to create a Testsigma add-on.
 
 The only difference is that the add-on will already be present in the My Add-ons page and you can skip the first step of creating a new add-on as compared to creating a new Testsigma add-on.

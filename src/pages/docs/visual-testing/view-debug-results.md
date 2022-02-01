@@ -15,6 +15,9 @@ contextual_links:
   url: "#how-to-execute-a-visual-test-and-view-the-results" 
 
 ---
+
+---
+
 Visual Testing in Testsigma helps you test the visual design of your application UI. It works like this.
 
  1. Take a base image. (which would be your original image)

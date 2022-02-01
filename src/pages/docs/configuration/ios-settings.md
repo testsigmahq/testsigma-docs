@@ -13,6 +13,8 @@ contextual_links:
   url: "#a-apple-developer-portal"
 ---
 
+---
+
 Testsigma allows you to run tests on your Local iOS devices in addition to Testsigma Cloud machines/devices. Step by step guid for configuring your provisioning profiles to allow Testsigma to run tests on your Local iOS Devices.
 
 To enable developer options and get started in iOS, there are 3 additional steps you need to perform via the Apple Developer Portal.

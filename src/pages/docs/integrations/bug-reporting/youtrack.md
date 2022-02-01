@@ -21,6 +21,9 @@ contextual_links:
   name: "Creating a bug"
   url: "#creating-a-bug"
 ---
+
+---
+
 With Testsigma YouTrack integration, you can push bugs directly from Testsigma to your YouTrack's project, capture screenshots, annotate bugs, and share them with your teammates and colleagues.
 
 In this document, we will discuss how to establish Integration with Youtrack from your Testsigma account and how to create the first bug from Testsigma which can flow into Youtrack.

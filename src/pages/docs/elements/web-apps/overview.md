@@ -22,6 +22,7 @@ contextual_links:
 ---
 
 ---
+
 **Elements** in Testsigma represent the locators for the actual elements on your Web Pages or App Screens. These are needed to direct the interactions as Test Steps.
 
 On the below page - Full name, Email-id, Age Group, Gender, etc. are all elements in the web page.

@@ -13,6 +13,8 @@ contextual_links:
   url: "#there-are-a-number-of-sections-within-the-page-that-gives-us-detailed-information-regarding-various-components-such-as"
 ---
 
+---
+
 Testsigma Dashboard is the control panel which gives us an overview of the currently selected Project and its components.
 
 ![Testsigma Dashboard showing all the sections](https://docs.testsigma.com/images/dashoard/testsigma-dashboard-full.png)

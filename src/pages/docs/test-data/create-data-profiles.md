@@ -24,6 +24,8 @@ contextual_links:
   url: "#pre-requisites"
 ---
 
+---
+
 This document explains how to create a Test Data Profile in Testsigma, using an example test case of signing up for Spotify. 
 
 Let’s begin:

@@ -11,6 +11,9 @@ contextual_links:
   name: "AWS DevOps integration methods"
   url: "#aws-devops-integration-methods"
 ---
+
+---
+
 AWS services that are used as a part of CI/CD pipeline are:
 
 **CodeCommit:** AWS CodeCommit is a version control service that enables you to privately store and manage Git repositories in the AWS cloud.

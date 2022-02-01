@@ -15,6 +15,8 @@ contextual_links:
   url: "#how-to-update-the-baseline-image" 
 ---
 
+---
+
 In visual testing, we compare a baseline image (or the original image) with the current appearance (or reference image). Expectation is that the reference image will be the same as the baseline image.
 
 The baseline image is supposed to be updated whenever updates are made in the user interface. Here’s how to do that in Testsigma.

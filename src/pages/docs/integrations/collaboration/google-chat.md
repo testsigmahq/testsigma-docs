@@ -17,6 +17,9 @@ contextual_links:
   name: "Enabling Google Chat notifications in Test Plan"
   url: "#enabling-google-chat-notifications-in-test-plan"
 ---
+
+---
+
 Testsigma can send test status notifications to a specific Google Chat room.
 
 ---

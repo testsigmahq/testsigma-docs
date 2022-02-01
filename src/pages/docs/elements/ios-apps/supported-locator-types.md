@@ -7,6 +7,7 @@ warning: false
 ---
 
 ---
+
 When creating elements for an application, you need to provide a way to uniquely identify them. Testsigma supports five ways to uniquely identify or locate these elements for your automated tests. The five supported locator types are:
 
 1. **Accessibility ID:** This is the most preferred locator to use to automate your tests, as this is an attribute that would remain the same for other platforms like iOS too, and makes it easier to port the same tests to different platforms. This attribute is also least likely to be changed during a structural change in the source.

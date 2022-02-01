@@ -16,6 +16,8 @@ contextual_links:
   url: "#update-file-api"
 ---
 
+---
+
 You can use Testsigma APIs to update or add  files during test runtime as part of a CI pipeline. The updated build can be used in a Testsigma Test Plan by updating the existing App on Testsigma with the newly built one via API. 
 
 You should know how to [Upload Android and iOS Apps](https://testsigma.com/docs/uploads/upload-apps/) **in Testsigma.**

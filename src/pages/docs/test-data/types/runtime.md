@@ -15,6 +15,9 @@ contextual_links:
   name: "How to use Runtime Test Data in test steps"
   url: "#how-to-use-runtime-test-data-in-test-steps"
 ---
+
+---
+
 Runtime Test Data in Testsigma is used to store data obtained during the run-time i.e during the execution of Test Cases.
 
 To proceed, you should know how to [Creating Test Steps using Natural Language](https://testsigma.com/docs/test-cases/create-steps-nl/overview/)

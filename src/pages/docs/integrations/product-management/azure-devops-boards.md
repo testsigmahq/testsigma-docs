@@ -17,6 +17,9 @@ contextual_links:
   name: "Creating Work Item on Azure from Testsigma"
   url: "#creating-work-item-on-azure-from-testsigma"
 ---
+
+---
+
 The Testsigma Azure DevOps Integration allows you to create a work item directly in your Azure project from Testsigma. You can push a bug, epic, task, story to a project while testing on Testsigma. The fields populated by you when marking a bug through Testsigma are displayed as information on the work item in the Azure DevOps project.
 
 ---

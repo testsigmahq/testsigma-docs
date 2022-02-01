@@ -11,6 +11,9 @@ contextual_links:
   name: "Testsigma has built-in integrations with the following tools"
   url: "#testsigma-has-built-in-integrations-with-the-following-tools"
 ---
+
+---
+
 Testsigma integrates with various tools in your software delivery cycle to make continuous testing easier.
 
 ---

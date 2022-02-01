@@ -18,6 +18,9 @@ contextual_links:
   name: "Creating a bug"
   url: "#creating-a-bug"
 ---
+
+---
+
 Testsigma Mantis integration lets you create issues in Mantis directly from the Testsigma app. With simple one-click integration, you can push annotated issues to a project of your choice, assign them to a teammate, and attach screenshots, all while in the middle of a test session in the Testsigma platform. The fields populated by you when marking a bug through Testsigma are displayed as information on the Mantis ticket for a testing instance.
 
 

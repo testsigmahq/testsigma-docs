@@ -18,6 +18,9 @@ contextual_links:
   name: "Creating a bug"
   url: "#creating-a-bug"
 ---
+
+---
+
 Testsigma Jira integration lets you create issues in Jira directly from the Testsigma app. With simple one-click integration, you can push annotated issues to a project of your choice, assign them to a teammate, and attach screenshots, all while in the middle of a test session in the Testsigma platform. The fields populated by you when marking a bug through Testsigma are displayed as information on the Jira ticket for a testing instance.
 
 In this document, we will discuss how to establish Integration with Jira from your Testsigma account and how to create bug reports from Testsigma which can flow into Jira as issues.

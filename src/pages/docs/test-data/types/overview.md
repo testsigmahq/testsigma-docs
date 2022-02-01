@@ -36,6 +36,9 @@ contextual_links:
   name: "Mailbox"
   url: "#mailbox"
 ---
+
+---
+
 Test Data are the inputs that a test case needs to run on. 
 
 A slightly more detailed description is given by the International Software Testing Qualifications Board (ISTQB): “Data created or selected to satisfy the execution preconditions and inputs to execute one or more test cases.”

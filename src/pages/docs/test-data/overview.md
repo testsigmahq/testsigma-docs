@@ -6,6 +6,9 @@ order: 5.0
 page_id: "Test Data - Overview"
 warning: false
 ---
+
+---
+
 Test Data is just the data used in your Test Cases. Effectively created Test Data is one of the easiest ways to increase coverage of your Test Cases.
 
 Testsigma supports several [different types of Test Data](https://testsigma.com/docs/test-data/types/overview/) which can be used in your Test Cases.

@@ -23,6 +23,8 @@ contextual_links:
   url: "#iii-configuring-testsigma-for-okta"
 ---
 
+---
+
 Single Sign-On (SSO) provides faster, easier, and trusted access to applications.
 
 With SSO, you are not required to store and manage passwords for the websites you use regularly. Instead of using passwords, applications that allow SSO login accept secured tokens that grant access to the application. This is mostly used for enterprises and SMBs for easy workforce identity management.

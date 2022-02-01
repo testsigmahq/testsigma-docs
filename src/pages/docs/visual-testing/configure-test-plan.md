@@ -15,6 +15,9 @@ contextual_links:
   url: "#2-enable-visual-testing-in-test-plan-settings" 
 ---
 
+---
+
+
 With Testsigma, you can perform visual testing for your web application as well as your mobile application. Visual testing can be configured in 2 steps :
 
   1. Enable visual testing in the preferences page

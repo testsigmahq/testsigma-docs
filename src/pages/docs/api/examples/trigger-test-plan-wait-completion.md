@@ -18,6 +18,9 @@ contextual_links:
   name: "Bash Script"
   url: "#bash-script"
 ---
+
+---
+
 If you are adding automated testing as an AUTOMATED stage in your CI/CD Pipeline, you will need to trigger the Tests from the Pipeline and get the test results into the Pipeline as well. You can use Testsigma Test Plan Execution Results API to do that..
 
 You should already be familiar with creating and running Test Plans. See [Manage Test Plans](https://testsigma.com/docs/test-management/test-plans/overview/).

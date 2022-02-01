@@ -16,6 +16,7 @@ contextual_links:
   url: "#setup-instructions"
 ---
 
+---
 
 Testsigma allows you to run tests on your local Android devices in addition to Testsigma Cloud machines/devices. Step by step guid for running the tests on Android Local Devices.
 

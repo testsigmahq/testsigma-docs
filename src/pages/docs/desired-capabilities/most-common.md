@@ -7,6 +7,9 @@ search_keyword: ""
 warning: false
 ---
 
+---
+
+
 Below are a few of the most commonly used Desired Capabilities in executions using Testsigma:
 
 |Description|Capability Name|Data Type|Value|

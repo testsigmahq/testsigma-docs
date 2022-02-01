@@ -16,6 +16,7 @@ contextual_links:
 ---
 
 ---
+
 We assume you are familiar with Elements[(?)](https://testsigma.com/docs/elements/overview/) and how to create them using the Testsigma Chrome Recorder[(?)](https://testsigma.com/docs/test-step-recorder/install-chrome-extension/).<br>
 If not, please refer: [Create an Element using Chrome Recorder](https://testsigma.com/docs/elements/web-apps/record-multiple-elements/).
 

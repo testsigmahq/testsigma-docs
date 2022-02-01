@@ -7,6 +7,7 @@ warning: false
 ---
 
 ---
+
 Elements here refer to the different objects in your iOS application that form the UI of the application. There are two ways you can create them in Testsigma:
 
 1. **Manual Creation:** Here, you manually give the details of the element to create them. See [creating elements manually](https://testsigma.com/docs/elements/ios-apps/create-manually/).

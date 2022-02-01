@@ -15,6 +15,9 @@ contextual_links:
   name: "Getting the file URL"
   url: "#getting-the-file-url" 
 ---
+
+---
+
 With Testsigma, you can upload small files to Testsigma uploads as attachments and then use their links in your test steps. This document will discuss how to do that.
 
 ---

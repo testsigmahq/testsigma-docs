@@ -16,6 +16,8 @@ contextual_links:
   url: "#specify-the-extensions-path-in-the-desired-capabilities"
 ---
 
+---
+
 You can add a Chrome Extension to your Automation Session in 2 simple steps:
 
 1.Obtain the CRX/CRX3 file for the extension/s and get the path.

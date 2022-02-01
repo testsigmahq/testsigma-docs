@@ -23,6 +23,8 @@ contextual_links:
   url: "#add-on-details"
 ---
 
+---
+
 Testsigma has a marketplace for add-ons where Testsigma users publish add-ons that they’ve developed.
 
 If the add-ons feature is enabled in your account, you will see an add-ons icon below the Settings icon on the leftmost Navigation bar.

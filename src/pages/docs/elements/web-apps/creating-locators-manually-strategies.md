@@ -28,6 +28,7 @@ contextual_links:
 ---
 
 ---
+
 For this guide, it would be recommended to get familiar with the Chrome Developer Tools and Elements Panel for finding the Elements and their attributes.
 
 External Link: [Get Started With Viewing And Changing The DOM](https://developer.chrome.com/docs/devtools/dom/)

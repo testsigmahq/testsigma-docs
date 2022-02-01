@@ -23,6 +23,9 @@ contextual_links:
   name: "SCRIPT METHOD:"
   url: "#script-method"
 ---
+
+---
+
 You can integrate Testsigma with your CI/CD tool to run automated tests on builds by:
 
 1. Making a POST request to the Testsigma Test Plan Trigger API, or

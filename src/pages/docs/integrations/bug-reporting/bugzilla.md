@@ -18,6 +18,9 @@ contextual_links:
   name: "Creating a bug"
   url: "#creating-a-bug"
 ---
+
+---
+
 Testsigma Bugzilla integration helps you in creating issues in Bugzilla directly from the Testsigma app. With simple one-click integration, you can push annotated issues to Bugzilla while in the middle of a test session. The fields populated by you when marking as a bug through Testsigma are displayed as information on the Bugzilla ticket for a testing instance.
 
 In this document, we will discuss how to establish Integration with Bugzilla from your Testsigma account and how to create the first bug from Testsigma into Bugzilla.

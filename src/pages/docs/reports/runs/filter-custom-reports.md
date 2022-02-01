@@ -21,6 +21,7 @@ contextual_links:
   url: "#test-case-result-list-view"
 ---
 
+---
 
 When a Test Plan is executed, you can filter out the data based on different criteria.
 Filters in Run Results will help you create custom reports for your team. 

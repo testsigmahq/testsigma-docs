@@ -6,6 +6,9 @@ page_id: "Single Sign-on options available in Testsigma"
 search_keyword: ""
 warning: false
 ---
+
+---
+
 1. Google Single Sign On
     ![google cloud log](https://docs.testsigma.com/images/security/google-cloud-logo.png)
 

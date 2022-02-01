@@ -34,6 +34,7 @@ contextual_links:
 ---
 
 ---
+
 Webpages offer a bunch of location mechanisms to search and locate Elements on the page for interacting with it. The most prominent ones are XPath and CSS Selectors.
 
 <br>

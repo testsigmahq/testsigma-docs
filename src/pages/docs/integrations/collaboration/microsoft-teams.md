@@ -17,6 +17,9 @@ contextual_links:
   name: "Enabling MS Teams notifications in Test Plan"
   url: "#enabling-ms-teams-notifications-in-test-plan"
 ---
+
+---
+
 Integrating Testsigma with Microsoft Teams is similar to integrating with other collaboration tools like Google Chat and Slack.
 
 ---

@@ -20,7 +20,7 @@ contextual_links:
   url: "#heres-how-you-set-up-your-google-sso-in-3-simple-steps"
 ---
 
-
+---
 
 With SSO, you are not required to store and manage passwords for the websites you use regularly. Instead of using passwords, applications that allow SSO login accept secured tokens that grant access to the application. This is mostly used for enterprises and SMBs for easy workforce identity management.
 

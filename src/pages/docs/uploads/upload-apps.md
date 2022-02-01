@@ -11,6 +11,9 @@ contextual_links:
   name: "Uploading the app"
   url: "#uploading-the-app"
 ---
+
+---
+
 To automate testing of your native Android and iOS apps, you need to make sure the app exists on one or more of the below locations: 
 
    * Local machine (Local Hybrid Execution).

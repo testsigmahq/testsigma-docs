@@ -20,6 +20,9 @@ contextual_links:
   name: "View Test Execution Details"
   url: "#view-test-execution-details"
 ---
+
+---
+
 LambdaTest integration with Testsigma lets you run your Testsigma tests on LambdaTest.
 If your organization has an existing account with LambdaTest, you can author tests for Web, Mobile Web, and Mobile applications on Testsigma, and then run those tests on LamdaTest’s cloud devices.
 

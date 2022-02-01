@@ -15,6 +15,9 @@ contextual_links:
   name: "API Specification"
   url: "#api-specification"
 ---
+
+---
+
 [[info | NOTE:]]
 | You need to authenticate these requests with your Testsigma API Key.  See  [How to generate API Keys.](https://testsigma.com/docs/configuration/api-keys/)
 

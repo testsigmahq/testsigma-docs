@@ -14,6 +14,8 @@ contextual_links:
   url: "#steps-for-using-custom-user-profile-in-testsigma"
 ---
 
+---
+
 Custom user profiles help you emulate settings such as pre-installed extensions, specific location, language, etc. for your web app test automation in Chrome browser. 
 
 To do the same, create a new profile, customize it as per your requirements by installing required extensions and changing the settings. After that, you can select the profile using Desired Capabilities in Testsigma while starting a Test Session.

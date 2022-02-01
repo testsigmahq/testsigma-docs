@@ -14,6 +14,9 @@ contextual_links:
   name: "Integrating Testsigma to CodeShip Test Pipelines"
   url: "#integrating-testsigma-to-codeship-test-pipelines"
 ---
+
+---
+
 Testsigma offers powerful Webhooks for triggering Testsigma Executions remotely from any third-party tool that provides a Command Line Interface(CLI). In this guide, we will see how we can integrate Testsigma in Codeship for automatically triggering Test Executions with successful builds on CodeShip, and then wait for the tests to pass and then proceed with deployment.
  
 ---

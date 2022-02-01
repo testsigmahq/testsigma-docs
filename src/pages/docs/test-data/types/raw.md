@@ -11,6 +11,9 @@ contextual_links:
   name: "When do you use Plain Text?"
   url: "#when-do-you-use-plain-text"
 ---
+
+---
+
 Plain Text is the simplest type of text data that can be used in your test case. 
 Simply erase the “test data” placeholder and choose “Plain Text” to type anything you want as the input to your test. 
 

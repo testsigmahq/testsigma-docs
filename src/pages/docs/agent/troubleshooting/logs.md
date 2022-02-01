@@ -17,6 +17,8 @@ contextual_links:
 
 ---
 
+---
+
 To execute Testsigma tests on your local machines, a small utility program named Testsigma Agent needs to be on each local machine. In this article, we will discuss how to get the log files for the Testsigma Agent. Providing these files to the Testsigma Support Team will help us resolve Execution issues quickly.
 
 There are two ways you can provide the logs to the Testsigma Support team

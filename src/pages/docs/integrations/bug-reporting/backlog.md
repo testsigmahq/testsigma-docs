@@ -21,6 +21,9 @@ contextual_links:
   name: "Creating a bug"
   url: "#creating-a-bug"
 ---
+
+---
+
 This integration lets you create issues in Backlog directly from the Testsigma. With simple one-click integration, you can push annotated issues to a project of your choice, assign them to the required teammate, and attach screenshots, while in the middle of a test session in the Testsigma app. The fields populated by you when marking as a bug through Testsigma are displayed as information on the Backlog ticket for a testing instance.
 
 In this document, we will discuss how to establish Integration with Backlog from your Testsigma account and how to create the first bug from Testsigma which can flow into Backlog.

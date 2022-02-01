@@ -6,6 +6,8 @@ meta_desc: "How to perform test plan executions for a test case in Testsigma."
 warning: false
 ---
 
+---
+
 ![Test Plan Overview](https://docs.testsigma.com/images/test-plan-executions/test-plan-overview.jpeg)
 
 A Test Plan is a set of Test Suites. When a test plan is executed, the test suites and their corresponding test cases are executed, either serially or parallelly, as configured.

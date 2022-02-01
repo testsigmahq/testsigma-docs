@@ -17,6 +17,9 @@ contextual_links:
   name: "Enabling Slack notifications in Test Plan"
   url: "#enabling-slack-notifications-in-test-plan"
 ---
+
+---
+
 Testsigma Slack integration sends Test Pass/Fail/Abort notifications in real-time to your specified Slack channel directly. This ensures that you can collaborate with your teammates by sharing the test results in real-time.
 
 ---

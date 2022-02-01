@@ -21,7 +21,6 @@ contextual_links:
 
 
 ---
-## **Introduction**
 In an iOS project in Testsigma, you can selectively capture elements one at a time using the Testsigma mobile inspector.
 
 <br>

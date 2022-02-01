@@ -22,6 +22,8 @@ contextual_links:
   url: "#step-2---we-will-use-the-test-data-generators-available-in-testsigma-to-fetch-the-otp-from-the-phone-number-selected-in-the-previous-step"
 ---
 
+---
+
 Phone Number test data can be used to automate:
 * Login process that involves Two Factor authentication(2FA).
 *  Any application which requires a mobile number based login - Valid phone number to be entered from which later an SMS can be read and processed.

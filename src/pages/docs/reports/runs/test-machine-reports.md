@@ -15,6 +15,8 @@ contextual_links:
   url: "#how-to-generate-test-machine-reports"
 ---
 
+---
+
 If you run your tests on multiple test machines/devices of different configurations to test for compatibility across browsers and devices, you should also be able to generate a test report for each one of these test machines/devices. 
 
 In Testsigma, you can group reports by Test Machines when you need to understand:
