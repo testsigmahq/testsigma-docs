@@ -15,10 +15,11 @@ class ListItem extends React.Component {
 
     constructor(props) {
         super(props);
-        const { data, isRoot } = this.props;
+        const { data, isRoot, identifier } = this.props;
         this.state = {
             data,
             isRoot,
+            identifier,
             active: [],
             currentUrl: '',
         };
@@ -67,7 +68,7 @@ class ListItem extends React.Component {
         const name = slugs.filter((val) => url === val.fields.slug);
         const { title } = name[0].frontmatter;
         return ( url.indexOf("/overview/") === -1 &&
-            <li key={`${data.leftNavTitle || title}-${uuidv4()}`} className={`child${this.inUrl(url) ? ' currentUrl text_green' : ''}`}>
+            <li data-parent={this.state.identifier} data-url={url} key={`${data.leftNavTitle || title}-${uuidv4()}`} className={`child${this.inUrl(url) ? ' currentUrl text_green' : ''}`}>
                 <div className="activeIndicator" />
                 <img src={book} alt="book"/>
                 <Link to={url}>{data.leftNavTitle || title}</Link>
@@ -77,7 +78,7 @@ class ListItem extends React.Component {
 
     parent = (data, name) => {
         const { active, isRoot } = this.state;
-        if (this.inUrl(`/${name}/`)) {
+        if (this.inUrl(`/${this.state.identifier || 'docs'}/${name}/`)) {
             this.setActive(name);
         }
         // Appending overview page link to Parent node (which has arrow icon with title)
@@ -99,7 +100,7 @@ class ListItem extends React.Component {
                 key={`${name}-${uuidv4()}`}
                 className={` ${(active.indexOf(name) !== -1) ? 'active' : 'inactive'} ${isRoot ? ' root' : ''} `}
             >
-                <li className={`parent${this.inUrl(`/${name}/`) ? ' currentUrl text_green' : ''}`} onClick={this.toggleActive} identifier={name}>
+                <li data-parent={this.state.identifier} className={`parent${this.inUrl(`/${this.state.identifier || 'docs'}/${name}/`) ? ' currentUrl text_green' : ''}`} onClick={this.toggleActive} identifier={name}>
                     <svg onClick={this.toggleActive} identifier={name} className={`inline float_left relative folder-icon parent_caret${this.isActive(name) ? ' active_parent_caret' : ''}`} xmlns="http://www.w3.org/2000/svg" fill="none" height="24"
                          viewBox="0 0 24 24" width="24">
                         <path clipRule="evenodd"
