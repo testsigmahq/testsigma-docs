@@ -281,6 +281,10 @@ thead:first-child:hover tr{
 /**
 * add syntax highlighting
 */
+.gatsby-highlight {
+  max-width: 688px;
+}
+
 .gatsby-highlight pre,
 .gatsby-highlight code {
   top: 0;
