@@ -116,7 +116,9 @@ export default ({ data, pageContext }) => {
                     </div>
                     <div className="primary-nav flex-auto flex items-center">
                         <div className="search-block relative flex items-center justify-between w-2/5 pl-9 pr-9">
-                            <SearchInputBox></SearchInputBox>
+                            <div className="search-block-child">
+                              <SearchInputBox></SearchInputBox>
+                            </div>
                             <a className="border border-green-600 font-bold px-4 py-1.5 text-green-600 rounded" href='https://testsigma.com/signup'>Get started for free</a>
                         </div>
                         <nav className="flex w-4/5 font-bold">

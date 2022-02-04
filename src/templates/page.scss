@@ -91,22 +91,46 @@ body {
     }
   }
   > .search-block {
+    @media (max-width: 767px) {
+      width: 100%;
+      padding: 0 0 1rem;
+    }
+    @media (min-width: 768px) {
+      order: 2;
+    }
+    @media (min-width: 768px) {
+      width: 60%;
+    }
+    @media (min-width: 1024px) {
+      width: 40%;
+    }
+    @media (max-width: 1279px) {
+      padding: 0;
+    }
+    > a {
+      @media (min-width: 768px) {
+        white-space: nowrap;
+      }
+    }
+  }
+}
+.search-block-child {
+  overflow: hidden;
+  @media (max-width: 767px) {
+    width: 50%;
+  }
+  > div {
+    @media (max-width: 767px) {
+      width: 100%;
+    }
+    input {
       @media (max-width: 767px) {
-          width: 100%;
-          padding: 0 0 1rem;
+        width: 100%;
       }
       @media (min-width: 768px) {
-          order: 2;
+        width: 80px;
       }
-      @media (min-width: 768px) {
-          width: 60%;
-      }
-      @media (min-width: 1024px) {
-          width: 40%;
-      }
-      @media (max-width: 1279px) {
-          padding-right: 0;
-      }
+    }
   }
 }
 .isTablet {
@@ -169,7 +193,6 @@ body {
           text-align: center;
       }
   }
-
   // WIP - need to get ul li markers to move away from text
   ///////////////////////////////////////////////////////////////////
   ul {
@@ -337,16 +360,21 @@ body {
   right: 0;
   z-index: 3;
   padding: 1.6rem 1rem;
-  width: 24.1%;
   height: 100%;
   display: block;
   border-left: 1px solid rgba(229, 231, 235, var(--tw-border-opacity));
   background-color: #fff;
   @media (max-width: 767px) {
-    width: 85%;
+    width: 85% !important;
   }
-  @media (max-width: 1280px) {
-    width: 25%;
+  @media (min-width: 768px) {
+    width: 34%;
+  }
+  @media (min-width: 1024px) {
+    width: 28%;
+  }
+  @media (min-width: 1280px) {
+    width: 24.1%;
   }
   .ais-SearchBox,
   .search-icon {
@@ -372,7 +400,7 @@ body {
     @media (max-width: 767px) {
       top: 71px;
     }
-    @media (max-width: 1280px) {
+    @media (max-width: 1279px) {
       top: 56px;
     }
     .ais-Pagination-list {
@@ -388,12 +416,8 @@ body {
     }
   }
 }
-// .ais-SearchBox-form {
-//   max-width: 170px;
-// }
 .ais-SearchBox-input{
   outline: none!important;
-  // width: 80px;
 }
 
 /* Blockquotes */
