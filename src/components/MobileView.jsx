@@ -1,6 +1,8 @@
 import React , {Component} from "react";
 import LeftNav from "../components/LeftNav";
 
+import "./MobileView.scss"
+
 class MobileView extends React.Component{
     state = {
         divcontainer:false,
@@ -11,32 +13,15 @@ class MobileView extends React.Component{
         }
         const x = this.state.divcontainer;
         return (
-            <div className="hamburger" onClick={handleChange}>
-                <button>{x?"X":""}</button>
-                {
-                    x &&(<LeftNav />)
-                }
-                <svg viewBox="0 0 100 80" width="25" height="25">
-                    <rect width="100" height="20"></rect>
-                    <rect y="30" width="100" height="20"></rect>
-                    <rect y="60" width="100" height="20"></rect>
-                </svg>
-
-            </div>
+            <>
+                <div className={x ? 'hamburger active' : 'hamburger '} onClick={handleChange}>
+                    <span></span>
+                </div>
+                <LeftNav />
+            </>
 
         )
     }
 }
-// function MobileView() {
-//     const [showText, setShowText] = useState(false);
-//     const onClick = () => setShowText(true);
-//     return (
-//         <div>
-//             <button onClick={onClick}>Click me</button>
-//             {showText ? <Text /> : null}
-//         </div>
-//     );
-// }
-// const Text = () => <div>You clicked the button!</div>;
 
 export default MobileView;

@@ -1,39 +1,48 @@
 @import '_variables.scss';
 
 .leftNav {
-  background-color: #F6F7F9;
-  //height: 100%;
   position: sticky;
+  top: 0;
   height: 100vh;
-  top: 0px;
+  background-color: #F6F7F9;
   font-size: 14px;
-  overflow: scroll;
   font-family: 'Inter', system-ui, -apple-system, BlinkMacSystemFont, Segoe UI, Oxygen, Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica, Arial, sans-serif;
+  overflow: scroll;
+  @media (max-width: 767px) {
+    position: fixed;
+    z-index: 1;
+    left: 0;
+    width: 85%;
+    padding: 3rem 2rem !important;
+    box-shadow: 0 0 10px rgb(0 0 0 / 24%);
+  }
+  @media (min-width: 768px) {
+    padding-right: 1rem !important;
+    padding-left: 1rem !important;
+    padding-bottom: 1.5rem;
+  }
+  @media (min-width: 1280px) {
+    padding-right: 3.5rem !important;
+    padding-left: 3.5rem !important;
+  }
   .active.root > .parent.currentUrl {
     background-color: inherit;
-    //margin-left: -10px;
-    & button {
+      & button {
       &:hover{
         color: $grey_60;
       }
     }
   }
-
-  >ul > .parent {
+  > ul > .parent {
     padding: 20px 0;
-    &.currentUrl{
-      padding-bottom: 20px;
-    }
-
   }
-
   .folder-icon {
     display: none;
   }
   > ul {
     border-bottom: 1px solid #C4C4C4 !important;
     > li {
-      .folder-icon{
+      .folder-icon {
         display: block;
       }
       .caret {
@@ -41,40 +50,29 @@
       }
     }
   }
-
-  .root > .parent{
+  .root > .parent {
     a,
     button {
-      font-weight: 600;
-      &:hover{
+    font-weight: 600;
+      &:hover {
         color: #1AA874;
       }
     }
   }
-
-  .parent:hover button{
-    color: #1AA874;
-  }
-
-  .parent:hover svg path{
+  .parent:hover button,
+  .parent:hover svg path {
     fill: #1AA874;
   }
-
   .parent {
     list-style-type: none;
-    //margin-left: -10px;
-    //padding: 10px 0;
     cursor: pointer;
     font-weight: 800;
-
     .caret {
       float: left;
       transform: rotate(-90deg);
       position: relative;
       margin-right: 0px;
       left: -4px;
-      //top: -3px;
-
       &.active-caret {
         transition: transform .2s ease;
         transform: rotate(0deg);
@@ -96,81 +94,66 @@
         color: #1AA874;
       }
       @media (max-width: 576px) {
-       font-size: 13px;
+        font-size: 13px;
       }
     }
-
     &.currentUrl:not(:first-child) {
       background-color: inherit;
       margin: 0 0 0 -80px;
       padding: 10px 0 8px 70px;
     }
   }
-
   ul {
     border-bottom: none;
     padding-left: 10px;
     margin-bottom: 0;
-    li{
+    li {
       display: flex;
       padding-top: 5px;
       padding-bottom: 10px;
-      //padding-left: 20px;
     }
-    li.child{
+    li.child {
       padding-left: 25px;
     }
-    .parent{
-      padding-bottom: 20px;
-    }
-    ul{
-      padding-left: 20px;
-      li{
-        //padding-top: 10px;
-        //padding-bottom: 10px;
-        //padding-left: 20px;
-      }
-      .parent{
+    ul {
+      padding-left: 20px; 
+      .parent {
         font-weight: 650;
       }
     }
   }
-
   .child {
     margin-left: 0;
     margin-bottom: 24px;
-    img{
+    img {
       display:inline;
       position: relative;
       top: 3px;
       width: 10px;
       height: 10px;
-      margin: 0px;
+      margin: 0;
     }
-
-    &.currentUrl{
+    &.currentUrl {
       font-weight: 700;
       color: #1AA874;
       margin-left: 0px!important;
-
       > * {
         vertical-align: middle;
       }
-
-      a:link, a:visited {
+      a:link,
+      a:visited {
         font-weight: normal;
         margin-left: 0;
         background-color: inherit;
         border-radius: 3px;
       }
     }
-
-    a:link, a:visited {
+    a:link,
+    a:visited {
       display: flex;
       text-decoration: none;
       line-height: 15px;
       font-size: 14px;
-      //padding: 9px 0;
       padding: 0px 10px 10px 10px;
       &:hover {
         background-color: inherit;
@@ -179,14 +162,11 @@
       }
     }
   }
-
-  .active{
-    .inactive{
-      .parent{
+  .active {
+    .inactive {
+      .parent {
         border: none!important;
-        //padding: 10px 0px;
-        button{
-          //font-size: 12px;
+        button {
           margin-left: -3px;
           line-height: 15px;
           font-weight: normal!important;
@@ -194,103 +174,39 @@
       }
     }
   }
-
-  ul.active > .child, ul.active > .parent, ul.active > ul.inactive, ul.inactive.root {
+  ul.active > .child,
+  ul.active > .parent,
+  ul.active > ul.inactive,
+  ul.inactive.root {
     display: flex;
     border: none;
   }
-
   ul.active > .child {
     display: flex;
     margin-bottom: 0;
   }
-
-  ul.inactive > .child, ul.inactive > ul {
+  ul.inactive > .child,
+  ul.inactive > ul {
     display: none;
   }
 }
-
-
-.hamburger{
-  display: none;
-  @media (max-width: 576px) {
-    position: absolute;
-    z-index: 9;
-    top: 0;
-    left: 0;
-    display: block;
-    padding: 0;
-    // background-color: #f9fafb;
-  }
-  > button {
-    @media (max-width: 576px) {
-      position: absolute;
-      top: 15px;
-      left: 15px;
-      z-index: 9;
-    }
-  }
-  > svg {
-    @media (max-width: 576px) {
-      position: relative;
-      top: 15px;
-      left: 15px;
-    }
-  }
-}
-.hamburger .leftNav {
-  @media (max-width: 576px) {
-    padding-bottom: 1.2rem;
-  }
-}
-.hamburger + nav,
-.hamburger + nav + div .w-full aside {
-  @media (max-width: 576px) {
-    display: none;
-  }
-}
-.hamburger + nav + div,
-.hamburger + nav + div .w-full,
-.hamburger + nav + div .w-full main {
-  @media (max-width: 576px) {
-    display: block;
-    width: 100%;
-    margin: 0;
-  }
-}
-.hamburger + nav + div .pagination_buttons {
-  @media (max-width: 576px) {
-    display: block;
-    width: 100%;
-    margin: 0;
-    padding: 0 15px;
-  }
-}
-
-.parent_caret{
+.parent_caret {
   float: right;
   -webkit-transform: rotate(-90deg);
   transform: rotate(-90deg);
   position: relative;
   top: 0px;
 }
-
-.active_parent_caret{
+.active_parent_caret {
   transition: -webkit-transform 0.2s ease;
   transition: transform 0.2s ease;
   transition: transform 0.2s ease, -webkit-transform 0.2s ease;
   -webkit-transform: rotate(0deg);
   transform: rotate(0deg);
 }
-
-.text_green{
+.text_green {
   color: #1AA874;
 }
-.float_left{
-  float:left;
+.float_left {
+    float:left;
 }
-
-//.currentUrl{
-//  margin-left: -15px!important;
-//}
-
