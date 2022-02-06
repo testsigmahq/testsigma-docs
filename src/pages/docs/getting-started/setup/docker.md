@@ -142,7 +142,7 @@ Login to https://local.testsigmaos.com/ui and follow the steps mentioned here([S
 ---
 ##**Troubleshooting**
 
-- If you encounter any errors during this process, check out our guide on [debugging deployment errors](https://testsigma.com/docs/troubleshooting/setup/server-docker-deployment-errors/). 
+- If you encounter any errors during this process, check out our guide on [debugging deployment errors](https://testsigma.com/docs/troubleshooting/setup/server-docker-deployment-errors/) and for [logs](https://testsigma.com/docs/troubleshooting/setup/server-docker-deployment-errors/#checking-logs)
 - If you are still facing any issue, please reach out to [support@testsigma.com](mailto:support@testsigma.com) or join our [Discord Server](https://discord.com/invite/5caWS7R6QX) to speak to the Testsigma team directly!
 
 ---

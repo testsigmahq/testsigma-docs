@@ -17,6 +17,9 @@ contextual_links:
 - type: link
   name: "Unable to start Docker Desktop"
   url: "#unable-to-start-docker-desktop--windows-"
+- type: link
+  name: "Checking logs"
+  url: "#checking-logs"
 
 ---
 
@@ -53,4 +56,21 @@ To kill a previous version of Testsigma running on these ports, run the followin
 
 If the docker instance is failing to start due to issues related to wsl, try executing the following command to install wsl or follow this [link](https://docs.docker.com/desktop/windows/wsl/) for other options.
 
-wsl --install -d ubuntu
+```wsl --install -d ubuntu```
+
+##**Checking Logs**
+
+If you notice any issues and would like to help us with the debugging by sharing the logs, please use the below command to copy the logs folder to Downloads folder of users home directory and share it with us to investigate.
+
+### Mac/Linix:
+  1. Run the command
+docker cp `docker ps | grep -i "testsigmahq/server" | awk '{print $1}'`:/opt/app/logs <destination_folder>
+. In this command you can replace the <destination_folder> with the path of the folder where you want to copy.
+  
+  2. The above commands assumes that there is only one container running for "testsigma/server" image. If there any old containers running, please remove those before executing those commands.
+  3. zip the copied logs folder and share it with us.
+
+### Windows:
+  1. Use "docker ps" to list the runnign containers and copy the container ID of the image "testsigmahq/server"
+  2. Then run the command "docker cp <container_id>:/opt/app/logs <destination_folder>". In this command you can replace the <container_id> with the container id copied from step1 and <destination_folder> with the path of the folder where you want to copy.
+  3. zip the copied logs folder and share it with us.
