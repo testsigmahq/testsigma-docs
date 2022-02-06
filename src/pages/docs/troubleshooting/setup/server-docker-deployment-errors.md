@@ -63,12 +63,13 @@ If the docker instance is failing to start due to issues related to wsl, try exe
 If you notice any issues and would like to help us with the debugging by sharing the logs, please use the below command to copy the logs folder to Downloads folder of users home directory and share it with us to investigate.
 
 ### Mac/Linix:
-  1. Run the command
-docker cp `docker ps | grep -i "testsigmahq/server" | awk '{print $1}'`:/opt/app/logs <destination_folder>
-. In this command you can replace the <destination_folder> with the path of the folder where you want to copy.
-  
-  2. The above commands assumes that there is only one container running for "testsigma/server" image. If there any old containers running, please remove those before executing those commands.
-  3. zip the copied logs folder and share it with us.
+  1. Run the command 
+     ```
+     docker cp `docker ps | grep -i "testsigmahq/server" | awk '{print $1}'`:/opt/app/logs <destination_folder>
+     ```
+     In this command you can replace the <destination_folder> with the path of the folder where you want to copy.
+  3. The above commands assumes that there is only one container running for "testsigma/server" image. If there any old containers running, please remove those before executing those commands.
+  4. zip the copied logs folder and share it with us.
 
 ### Windows:
   1. Use "docker ps" to list the runnign containers and copy the container ID of the image "testsigmahq/server"
