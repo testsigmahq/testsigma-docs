@@ -72,6 +72,6 @@ If you notice any issues and would like to help us with the debugging by sharing
   4. zip the copied logs folder and share it with us.
 
 ### Windows:
-  1. Use "docker ps" to list the runnign containers and copy the container ID of the image "testsigmahq/server"
-  2. Then run the command "docker cp <container_id>:/opt/app/logs <destination_folder>". In this command you can replace the <container_id> with the container id copied from step1 and <destination_folder> with the path of the folder where you want to copy.
+  1. Use `docker ps` to list the runnign containers and copy the container ID of the image "testsigmahq/server"
+  2. Then run the command `docker cp <container_id>:/opt/app/logs <destination_folder>`. In this command you can replace the <container_id> with the container id copied from step1 and <destination_folder> with the path of the folder where you want to copy.
   3. zip the copied logs folder and share it with us.
