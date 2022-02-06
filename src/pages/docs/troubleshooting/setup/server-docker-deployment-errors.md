@@ -33,13 +33,13 @@ You may run into the following issues while setting up Testsigma CE using Docker
 If ports 9090 & 443 are not open, we recommend that you kill all processes on these ports and start again. If the processes on these ports cannot be stopped, you can run Testsigma on another port:
 
 * In the file docker-compose.yml , change the ports for the Nginx container to a custom port.
-* Run docker-compose up -d
+* Run `docker-compose up -d`
 
 <br>
 
 To kill a previous version of Testsigma running on these ports, run the following:<br>
-* sudo su
-* docker container kill $(docker ps -q)
+* `sudo su`
+* `docker container kill $(docker ps -q)`
 
 <br>
 
