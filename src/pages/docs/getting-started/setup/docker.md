@@ -57,7 +57,8 @@ Create a folder called “testsigma” where you would like to install Testsigma
 Download docker-compose.yml file into the testsigma installation folder from [here](https://github.com/testsigmahq/testsigma/tree/dev/deploy/docker). Download the appropriate file based on your OS.
 
 
-[[info | NOTE:]] If you are using Apple M1 machines then you should replace the testsigmahq/server image version in docker-compose.yml with the M1 docker image tag. For example if the version is v1.0.0 then you should add "-m1" and make it v1.0.0-m1. So the final image name looks like this "testsigmahq/server:v1.0.0-m1"
+[[info | NOTE:]]
+|- If you are using Apple M1 machines then you should replace the testsigmahq/server image version in docker-compose.yml with the M1 docker image tag. For example if the version is v1.0.0 then you should add "-m1" and make it v1.0.0-m1. So the final image name looks like this "testsigmahq/server:v1.0.0-m1"
 
 ---
 
