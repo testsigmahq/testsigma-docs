@@ -69,13 +69,14 @@ body {
     @media (max-width: 767px) {
       overflow-x: auto;
       white-space: nowrap;
-      padding-bottom: 1rem;
+      padding: 1rem 0;
       justify-content: center;
     }
     @media (min-width: 1280px) {
       padding-left: 3.5rem;
     }
     > a {
+      font-weight: 600;
       @media (max-width: 1279px) {
         margin-left: 0.9rem;
       }
