@@ -36,7 +36,7 @@ contextual_links:
   url: "#custom-fields"
 - type: link
   name: "Uploads"
-  url: "Uploads"
+  url: "#uploads"
 - type: link
   name: "Environments"
   url: "#environments"

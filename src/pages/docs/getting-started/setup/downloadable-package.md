@@ -172,5 +172,5 @@ Your Testsigma server should be up and running now. Testsigma server will be acc
 2. [Get Started with Automating Mobile Web Applications](https://testsigma.com/tutorials/getting-started/automate-mobile-web-applications/)
 3. [Get Started with Automating Android Apps](https://testsigma.com/tutorials/getting-started/automate-android-applications/)
 4. [Get Started with Automating iOS Apps](https://testsigma.com/tutorials/getting-started/automate-ios-applications/)
-5. [How to automate tests for Android Apps using local devices](https://testsigma.com/tutorials/test-cases/android-apps/build-tests-using-local-devices/)
-6. [How to automate tests for iOS Apps using local devices](https://testsigma.com/tutorials/test-cases/ios-apps/build-tests-using-local-devices/)
+5. [How to automate tests for Android Apps using local devices](https://testsigma.com/tutorials/test-cases/mobile-apps/build-tests-using-local-android-devices/)
+6. [How to automate tests for iOS Apps using local devices](https://testsigma.com/tutorials/test-cases/mobile-apps/build-tests-using-local-ios-devices/)

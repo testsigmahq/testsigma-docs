@@ -69,7 +69,7 @@ You may perform actions like Click on the element, Type value into the element e
  6. Rename the Elements if needed.
  
  7. Perform a dry run to check the correctness of the Test Steps and modify or delete unwanted steps if any.
-[How to perform Dry Run to verify Test Case is correct](https://testsigma.com/docs/runs/local-executions/dry-runs/)
+[How to perform Dry Run to verify Test Case is correct](https://testsigma.com/docs/runs/dry-runs-on-local-devices/)
  
  8. Check the Test Results to find the issues, fix the issues, and repeat until the Test Case is passed.
  
