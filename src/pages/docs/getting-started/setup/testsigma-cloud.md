@@ -62,7 +62,7 @@ Go to [https://testsigma.com/signup](https://testsigma.com/signup) to create an 
 
 * Once you’ve created your test steps, click on the **Run** button
 * You can choose from several browser/OS version combinations as well as devices if you’re testing your mobile app
-* You can also run your tests locally through the [agent](https://testsigma.com/docs/runs/local-executions/using-testsigma-agent/)
+* You can also run your tests locally through the [agent](https://testsigma.com/docs/runs/dry-runs-on-local-devices/)
 
 ###Step 4: View results & debug errors
 ![View results and debug errors](https://docs.testsigma.com/images/testsigma-cloud/view-results-and-debug-errors.png)
