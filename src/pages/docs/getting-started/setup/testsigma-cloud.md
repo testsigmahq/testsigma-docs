@@ -55,7 +55,7 @@ Go to [https://testsigma.com/signup](https://testsigma.com/signup) to create an 
 
 ###Step 2: Add Test Steps
 
-[Check out this tutorial](http://localhost:8000/docs/test-cases/step-types/natural-language/) to learn how to create & add test steps
+[Check out this tutorial](https://testsigma.com/docs/test-cases/step-types/natural-language/) to learn how to create & add test steps
 
 ###Step 3: Run your test
 ![Run your test](https://docs.testsigma.com/images/testsigma-cloud/run-your-test.png)
