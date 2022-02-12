@@ -61,6 +61,9 @@ body {
     @media (max-width: 767px) {
       width: 100%;
     }
+    .text-green-600 {
+      font-weight: 600;
+    }
   }
   > nav {
     @media (min-width: 768px) {

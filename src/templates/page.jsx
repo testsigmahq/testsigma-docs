@@ -119,7 +119,7 @@ export default ({ data, pageContext }) => {
                             <div className="search-block-child">
                               <SearchInputBox></SearchInputBox>
                             </div>
-                            <a className="border border-green-600 font-bold px-4 py-1.5 text-green-600 rounded" href='https://testsigma.com/signup'>Get started for free</a>
+                            <a className="border border-green-600 px-4 py-1.5 text-green-600 rounded" href='https://testsigma.com/signup'>Get started for free</a>
                         </div>
                         <nav className="flex w-4/5">
                             <a className="border-b-2 border-green-500 btn btn-ghost btn-sm pr-2 rounded-btn text-green-600">
