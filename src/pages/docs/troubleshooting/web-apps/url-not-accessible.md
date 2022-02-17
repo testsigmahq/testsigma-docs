@@ -22,7 +22,7 @@ Before proceeding, see whether:
 * Your application/website is hosted on a company server that cannot be accessed by external users on the internet.
 * Your application requires VPN access for a secure connection.
 
-In the above scenarios, Testsigma's cloud servers will not be able to access the website/application and you will have to follow one of the options [listed here](https://testsigma.com/docs/runs/local-executions/using-testsigma-agent/) to automate testing for these applications.
+In the above scenarios, Testsigma's cloud servers will not be able to access the website/application and you will have to follow one of the options [listed here](https://testsigma.com/docs/runs/dry-runs-on-local-devices/) to automate testing for these applications.
  
 Follow these steps to automate locally hosted applications:
 1. If your application is deployed only on your local machine and is not publicly accessible, for example, http://localhost:8080 -> This is a locally hosted application. No one else can access it via the internet. [See how to run your tests on locally hosted applications](https://testsigma.com/docs/runs/local-executions/using-testsigma-agent/).

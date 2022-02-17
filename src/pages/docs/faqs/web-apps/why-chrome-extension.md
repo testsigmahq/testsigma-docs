@@ -21,8 +21,8 @@ In Testsigma, these locators are called Elements.
 
 With Testsigma’s Chrome Extension you capture these elements and record the user actions as test steps. Learn more about:
 
-1. [Capturing multiple elements using Chrome extension](https://testsigma.com/elements/web-apps/record-multiple-elements/)
-2. [Record User actions and convert them into test steps](https://testsigma.com/tutorials/test-cases/web-applications/build-tests-using-recorder/)
+1. [Capturing multiple elements using Chrome extension](https://testsigma.com/docs/elements/web-apps/record-multiple-elements/)
+2. [Record User actions and convert them into test steps](https://testsigma.com/tutorials/test-cases/web-apps/build-tests-using-recorder/)
 
 <br>
 

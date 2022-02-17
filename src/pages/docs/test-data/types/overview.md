@@ -217,7 +217,7 @@ When doing OTP-based testing, for example, while testing two-factor authenticati
 
 Learn more - [Phone Number Test Data](https://testsigma.com/docs/test-data/types/phone-number/)
 
-Refer to this tutorial for more details on automating [SMS based two factor authentication](https://testsigma.com/tutorials/advanced/sms-based-two-factor-authentication-2fa) 
+Refer to this tutorial for more details on automating [SMS based two factor authentication](https://testsigma.com/tutorials/advanced/sms-based-two-factor-authentication-2fa/) 
 
 
 ---

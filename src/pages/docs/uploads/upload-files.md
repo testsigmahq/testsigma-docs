@@ -34,4 +34,4 @@ With Testsigma, you can upload small files to Testsigma uploads as attachments a
 From the Uploads page, copy the file path from the copy button, also highlighted in the screenshot below:
 ![copy file path on uploads page in Testsigma](https://docs.testsigma.com/images/upload-files/copy-file-path-uploads-page--testsigma.png)
 Paste this URL when needed in the Test Steps. 
-Learn more about how to use uploaded files in Test Steps [here](https://testsigma.com/tutorials/test-cases/automate-upload-buttons/)
+Learn more about how to use uploaded files in Test Steps [here](https://testsigma.com/tutorials/test-cases/web-apps/automate-upload-buttons/)

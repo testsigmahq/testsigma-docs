@@ -62,7 +62,7 @@ A sample Test Plans page list would look like this:
 
 &emsp;&emsp;**c.Select Test Lab:** This is the lab that will contain the browsers and devices on which you want to execute your test cases.
 
-&emsp;&emsp;&emsp;&emsp;1. Testsigma Lab: This option allows you to run tests in Testsigma′s own cloud infrastructure. Read more about supported test labs [here](https://testsigma.com/docs/test-management/plans/supported-test-lab-types/).
+&emsp;&emsp;&emsp;&emsp;1. Testsigma Lab: This option allows you to run tests in Testsigma′s own cloud infrastructure. Read more about supported test labs [here](https://testsigma.com/docs/test-management/test-plans/supported-test-lab-types/).
 
 &emsp;&emsp;&emsp;&emsp;2. Local Devices: If you want to run your tests on your local device, select the checkbox “Run only if the configured browser version is available in the Agent machine”. If you enable this checkbox test plans won’t start if the conjured version is different from what you have in your local machine.
 
@@ -77,9 +77,9 @@ A sample Test Plans page list would look like this:
    
 &emsp;&emsp;**a. Testing Type**: Select either ‘Cross Browser Testing” or “Distributed Testing”
 
-&emsp;&emsp;&emsp;&emsp;1. For Cross-Browser Testing, select the machines and environments you would like to execute your test cases on. [Learn more](https://testsigma.com/docs/test-management/plans/cross-browser-testing/)
+&emsp;&emsp;&emsp;&emsp;1. For Cross-Browser Testing, select the machines and environments you would like to execute your test cases on. [Learn more](https://testsigma.com/docs/test-management/test-plans/cross-browser-testing/)
    
-&emsp;&emsp;&emsp;&emsp;2. For ‘Distributed Testing’ too, select the various machines and environments for execution, but you can distribute your test cases to the different environments for execution separately. [Learn more](https://testsigma.com/docs/test-management/plans/distributed-testing/)
+&emsp;&emsp;&emsp;&emsp;2. For ‘Distributed Testing’ too, select the various machines and environments for execution, but you can distribute your test cases to the different environments for execution separately. [Learn more](https://testsigma.com/docs/test-management/test-plans/distributed-testing//)
    
 &emsp;&emsp;**b. Select Test Machines:** Here you select the test machine on which your test cases would be executed. 
 
@@ -93,7 +93,7 @@ A sample Test Plans page list would look like this:
    
 &emsp;&emsp;&emsp;&emsp;4. Browser Version
    
-&emsp;&emsp;&emsp;&emsp;5. Enable/Disable Headless Test depending on if you want to run the test ‘headless’. [Learn more](https://testsigma.com/docs/test-management/plans/headless-testing/)
+&emsp;&emsp;&emsp;&emsp;5. Enable/Disable Headless Test depending on if you want to run the test ‘headless’. [Learn more](https://testsigma.com/docs/test-management/test-plans/headless-testing/)
 
 &emsp;&emsp;**c. Desired Capabilities(Optional):**  Desired Capabilities are a set of properties used for customizing the Test Environment. The customization includes adding Browser Extensions to Automation Session, setting Geographical location for the test machine, bypassing Browser Alerts e.t.c.
 

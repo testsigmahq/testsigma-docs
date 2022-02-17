@@ -88,7 +88,7 @@ You can follow these steps to create elements while creating a test case. The Cr
 ##**Approach 2. While creating a test step in a test case**
 
 **Pre-requisites**
-1. You should have the Testsigma test step recorder chrome extension already installed. If not, then refer to the document [here](https://testsigma.com/docs/chrome-extension/install-from-webstore).
+1. You should have the Testsigma test step recorder chrome extension already installed. If not, then refer to the document [here](https://testsigma.com/docs/test-step-recorder/install-chrome-extension/).
 2. You should also know how to [create a test case](https://testsigma.com/docs/test-cases/manage/add-edit-delete/) and [create test steps](https://testsigma.com/docs/test-cases/step-types/natural-language/).
 
 

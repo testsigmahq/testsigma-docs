@@ -53,7 +53,7 @@ Navigate to **Settings > Security**
 The security page looks as shown below if SSO has not been enabled yet:
 
 [[info | NOTE:]]
-|*If you are interested to know how you can set up Google SSO with Testsigma, refer [here](https://testsigma.com/docs/configuration/security/google-sso)*.
+|*If you are interested to know how you can set up Google SSO with Testsigma, refer [here](https://testsigma.com/docs/configuration/security/google-sso/)*.
 
 
 You will see two options here - **Google** and **SAML**. Choose SAML and click the **Proceed** button.
