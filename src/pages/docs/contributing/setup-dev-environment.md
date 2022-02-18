@@ -42,6 +42,9 @@ contextual_links:
      - [Linux](http://android.testsigma.com/linux/android.zip)
    - iOS
      - [Mac](http://ios.testsigma.com/mac/ios.zip)
+     - [Linux](http://ios.testsigma.com/mac/ios.zip)
+   - Appium
+     - [Mac](http://appium.testsigma.com/mac/appium.zip)
      - [Linux](http://appium.testsigma.com/linux/appium.zip)
    - Jre
      - [Mac](http://jre.testsigma.com/mac/jre.zip)
