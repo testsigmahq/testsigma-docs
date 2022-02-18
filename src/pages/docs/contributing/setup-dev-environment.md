@@ -37,10 +37,15 @@ contextual_links:
  - Build the project
  - Create a folder -`mkdir $HOME/.testsigma_os”`
  - Download the android , appium and ios tools from the below urls based on os and store then in the above folder created. Make sure to replace os_name with either mac or linux based on your os:
-   - http://android.testsigma.com/{os_name(mac/linux)}/android.zip
-   - http://ios.testsigma.com/{os_name(mac/linux)}/ios.zip
-   - http://appium.testsigma.com/{os_name(mac/linux)}/appium.zip
-   - http://jre.testsigma.com/{os_name(mac/linux)}/jre.zip
+   - Android
+     - [Mac](http://android.testsigma.com/mac/android.zip)
+     - [Linux](http://android.testsigma.com/linux/android.zip)
+   - iOS
+     - [Mac](http://ios.testsigma.com/mac/ios.zip)
+     - [Linux](http://appium.testsigma.com/linux/appium.zip)
+   - Jre
+     - [Mac](http://jre.testsigma.com/mac/jre.zip)
+     - [Linux](http://jre.testsigma.com/linux/jre.zip)
  - Extract the downloaded files. If this is mac os x you need to give explicit permission  to remove the quarantine attribute. You can do this by running `sudo xattr -d -r com.apple.quarantine $HOME/.testsigma_os/`
  - After installing httpd you can use the following additional configuration in httpd as (testsigma.conf) and restart the httpd:
    - ```shell
