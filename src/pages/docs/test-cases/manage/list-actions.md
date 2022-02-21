@@ -27,7 +27,7 @@ In the Test Cases page, you have the following options:
 
 To search for a specific Test Case, click on the Search button on the top left corner of the Test Cases List page and enter the search text in the field as shown below:
 
-![Search Test Cases](https://docs.testsigma.com/images/list-actions/test-cases-search1.png)
+![Search-Test-Cases](https://s3.amazonaws.com/static-docs.testsigma.com/new_images/test-cases/manage/list-actions/Search-Test-Cases.png)
 
 &emsp;
 
@@ -36,7 +36,7 @@ To search for a specific Test Case, click on the Search button on the top left c
 
 To sort Test Cases, click on the Sort icon on the top left corner of the Test Cases List page and select the sort option.
 
-![Sort Test Cases](https://docs.testsigma.com/images/list-actions/test-cases-sort1.png)
+![Sort-Test-Cases](https://s3.amazonaws.com/static-docs.testsigma.com/new_images/test-cases/manage/list-actions/Sort-Test-Cases.png)
 
 &emsp;
 
@@ -45,7 +45,7 @@ To sort Test Cases, click on the Sort icon on the top left corner of the Test Ca
 
 To filter Test Cases, click on the Filter icon on the top left corner of the Test Cases List page. In the overlay that opens up, select the filtering options and click on the Filter button.
 
-![Test Case Filters Overlay](https://docs.testsigma.com/images/list-actions/test-case-filter-overlay1.png)
+![Test-Case-Filters-Overlay](https://s3.amazonaws.com/static-docs.testsigma.com/new_images/test-cases/manage/list-actions/Test-Case-Filters-Overlay.png)
 
 Refer to the following link to know more about Test Case Filters - [Test Case Filters](https://testsigma.com/docs/test-cases/manage/filters/)
 

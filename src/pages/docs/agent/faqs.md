@@ -31,7 +31,7 @@ Testsigma Agent is a small Java utility that is used to run tests on local devic
 * Java JRE - bundled with Agent so that the user doesn't have to install the supported Java version separately.
 * Web Browser drivers - for running tests on Web Browsers. Provided by the respective Browser Development Team.
 * Appium - for running Mobile tests.
-* Mobile Inspector - for inspecting Mobile Apps and finding elements on Screens to interact with Android + iOS specific libraries for Mobile Inspector.
+* Mobile test recorder - for inspecting Mobile Apps and finding elements on Screens to interact with Android + iOS specific libraries for Mobile test recorder.
 * A few other utilities for enabling local test execution and reporting.
 
 
@@ -54,15 +54,15 @@ Testsigma Agent resides in one of the test machines within the Company network a
 
 With this, we can run tests on customers' own local test machines inside their private network.
 
-### **2. To use Testsigma Mobile Inspector locally**
+### **2. To use Testsigma Mobile test recorder locally**
 
 To automate mobile apps using Testsigma, it needs certain details from the mobile apps. For example, to tap on a button, Testsigma needs to know the attributes (id/name/position, etc.) used to create that button.
 
-Testsigma uses its own Mobile App Inspector to get these details automatically. Through the Agent, once the customer's mobile device (in which the customer app is installed) is connected to the Agent machine, app details will be sent to the Customer's browser and from there the customers can save to Testsigma servers to create tests for the same app.
+Testsigma uses its own Mobile App test recorder to get these details automatically. Through the Agent, once the customer's mobile device (in which the customer app is installed) is connected to the Agent machine, app details will be sent to the Customer's browser and from there the customers can save to Testsigma servers to create tests for the same app.
 
-Testsigma Agent includes all the required files for enabling inspection of mobile Apps to get the element locators(UI Identifiers) to be used in tests.
+Testsigma Agent includes all the required files for enabling inspection of mobile Apps to get the element locators(Elements) to be used in tests.
 
-You may also use the Cloud-based Mobile Inspector that doesn’t require any setup on the local machine. However, as you might already know, the cloud inspector might have some delays compared to the Local Mobile Inspector.
+You may also use the Cloud-based Mobile test recorder that doesn’t require any setup on the local machine. However, as you might already know, the cloud test recorder might have some delays compared to the Local Mobile test recorder.
 
 <br>
 

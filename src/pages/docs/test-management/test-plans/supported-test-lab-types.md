@@ -42,14 +42,14 @@ Learn [how to Create a Test Plan to Run Tests on Local Machines](https://testsig
 
 3. [BrowserStack](https://www.browserstack.com/#)
 
-Testsigma also allows us to use cloud devices on the BrowserStack Model to run your tests. You just need to integrate your BrowserStack account with your Testsigma Account by entering the login credentials. Also, while creating an Execution, provide the required device details on the Execution configurations page.
+Testsigma also allows us to use cloud devices on the BrowserStack Model to run your tests. You just need to integrate your BrowserStack account with your Testsigma Account by entering the login credentials. Also, while creating a test plan, provide the required device details on the test plan configurations page.
 Learn how to [Configure BrowserStack](https://testsigma.com/docs/integrations/test-labs/browserstack/).
 
 Use this option only if the application that you need to test is accessible over the Internet and not blocked by the firewall of a company network.
 
 4. [Sauce Labs](https://saucelabs.com/)
 
-Similar to BrowserStack, it is possible to use Sauce Labs for your test execution by integrating it with Testsigma Account. You just need to integrate your Sauce Labs account with your Testsigma Account by entering the login credentials. Also, while creating an Execution, provide the required device details on the Execution configurations page.
+Similar to BrowserStack, it is possible to use Sauce Labs for your test execution by integrating it with Testsigma Account. You just need to integrate your Sauce Labs account with your Testsigma Account by entering the login credentials. Also, while creating a test plan, provide the required device details on the test plan configurations page.
 
 Learn how to [Configure Sauce Labs](https://testsigma.com/docs/integrations/test-labs/sauce-labs/)
 
@@ -57,13 +57,13 @@ Use this option only if the application that you need to test is accessible over
 
 5. [Kobiton Test Lab](https://kobiton.com/)
 
-Testsigma also allows us to use cloud devices on Kobiton Test Lab to run your tests. You just need to integrate your Kobiton Test Lab account with your Testsigma Account by entering the login credentials. Also, while creating an Execution, provide the required device details on the Execution configurations page.
+Testsigma also allows us to use cloud devices on Kobiton Test Lab to run your tests. You just need to integrate your Kobiton Test Lab account with your Testsigma Account by entering the login credentials. Also, while creating a test plan, provide the required device details on the test plan configurations page.
 
 Use this option only if the application that you need to test is accessible over the Internet and not blocked by the firewall of a company network.
 
 6. [LambdaTest](https://www.lambdatest.com/)
 
-Testsigma also allows us to use cloud devices on LambdaTest to run your tests. You just need to integrate your LambdaTest account with your Testsigma Account by entering the login credentials. Also, while creating an Execution, provide the required device details on the Execution configurations page.
+Testsigma also allows us to use cloud devices on LambdaTest to run your tests. You just need to integrate your LambdaTest account with your Testsigma Account by entering the login credentials. Also, while creating a test plan, provide the required device details on the test plan configurations page.
 
 Use this option only if the application that you need to test is accessible over the Internet and not blocked by the firewall of a company network.
 

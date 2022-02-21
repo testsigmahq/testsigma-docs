@@ -26,7 +26,7 @@ contextual_links:
 
 ---
 
-The Test Suite is a set of Test Cases. It helps testers organize the Test Cases while executing and reporting the Test Execution status, namely In progress, Aborted, Stopped, Not Executed, or Completed depending on the consolidated run result of the test cases in that particular test suite. A Test Case can be added to multiple Test Suites.
+The Test Suite is a set of Test Cases. It helps testers organize the Test Cases while executing and reporting the Test plan status, namely In progress, Aborted, Stopped, Not Executed, or Completed depending on the consolidated run result of the test cases in that particular test suite. A Test Case can be added to multiple Test Suites.
 
 ### Navigation: Test Development > Test Suites
 
@@ -38,11 +38,11 @@ On the Test Suites page, you will have the below options:
 
 1. **Search option on the top right:**  To search for a test suite by name, use this. The search will filter all the test suite names that contain your search query.
 
-![search option in test suites page in Testsigma](https://docs.testsigma.com/images/test-suites/search-option-test-suites-page-testsigma.png)
+![search-option-in-test-suites-page-in-Testsigma](https://s3.amazonaws.com/static-docs.testsigma.com/new_images/test-management/test-suites/overview/search-option-in-test-suites-page-in-Testsigma.png)
 
 2. **Create Button:** Click on the create button on the top right corner of the page to start creating a new Test Suite. We will discuss more on it under the section “Create Test Suite”.
  
-![search option in test suites page in Testsigma](https://docs.testsigma.com/images/test-suites/search-option-test-suites-page-testsigma.png)
+![search-option-in-test-suites-page-in-Testsigma](https://s3.amazonaws.com/static-docs.testsigma.com/new_images/test-management/test-suites/overview/search-option-in-test-suites-page-in-Testsigma.png)
 
 3. Click on the sort button—the button next to the create button—on the top right to sort the list of Test Suites according to your preference.
 
@@ -92,7 +92,7 @@ Enter the following details:
 
 **Automated/Manual radio button:** Select Automated / Manual depending on the type of Test Cases to be included in the Test Suite.
 
-**Prerequisite:** Select another Test Suite as a prerequisite to be included in an execution with this Test Suite.
+**Prerequisite:** Select another Test Suite as a prerequisite to be included in a test plan with this Test Suite.
 
 **Select Test Cases:** Click on the button “+Add Test Cases” to add Test Cases to the Test Suite. A “Select Test Cases” overlay opens up where we need to select the Test Cases to be included in the Test Case.
 

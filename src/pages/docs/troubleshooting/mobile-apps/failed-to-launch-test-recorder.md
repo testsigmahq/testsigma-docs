@@ -21,9 +21,9 @@ contextual_links:
 
 ---
 
-There are a number of reasons why the error "Unable to start Mobile Inspector" would show up. 
+There are a number of reasons why the error "Unable to start Mobile test recorder" would show up. 
  
-The easiest way to debug the error is to check the Logs for the Mobile Inspector. It contains the actual reason for the error.
+The easiest way to debug the error is to check the Logs for the Mobile test recorder. It contains the actual reason for the error.
 
 <br>
 
@@ -40,7 +40,7 @@ For example, in case of Wikipedia Application, the initial activity mentioned in
 However, the first activity that is started when the app is launched is
 **org.wikipedia.main.SplashScreenActivity**
 
-Therefore, the Mobile Inspector keeps waiting for the activity mentioned in the Manifest until timeout and then throws the above error.
+Therefore, the Mobile test recorder keeps waiting for the activity mentioned in the Manifest until timeout and then throws the above error.
 
 **Solution**
 

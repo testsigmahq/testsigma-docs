@@ -54,7 +54,7 @@ Once an element is created in Testsigma, it can be reviewed in two ways:
    
 5. Click on the ‘Submit for Review’ in the top right corner.
 
-![submit a Element for review in Testsigma](https://docs.testsigma.com/images/elements-review-management/submit-for-review-UI-idenfiter-Testsigma.png)
+![submit-a-Element-for-review-in-Testsigma](https://s3.amazonaws.com/static-docs.testsigma.com/new_images/collaboration/elements-review-management/submit-a-Element-for-review-in-Testsigma.png)
 
 6. ‘Submit for Review’ form should come up:
 
@@ -78,7 +78,7 @@ Once an element is created in Testsigma, it can be reviewed in two ways:
    
 4. Click on the ‘Review’ button on the top right:
 
-![Review Button on Edit Element tab in Testsigma](https://docs.testsigma.com/images/elements-review-management/review-button-edit-element-testsigma.png.png)
+![Review-Button-on-Edit-Element-tab-in-Testsigma](https://s3.amazonaws.com/static-docs.testsigma.com/new_images/collaboration/elements-review-management/Review-Button-on-Edit-Element-tab-in-Testsigma.png)
 
 5. The ‘Review Element’ form should open:
 

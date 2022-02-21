@@ -17,21 +17,21 @@ contextual_links:
 
 ---
 
-You can reorder the test steps that you record through Testsigma’s Recorder. This document will discuss how to do that.
+You can reorder the test steps that you record through Testsigma’s test Recorder. This document will discuss how to do that.
 
 &emsp;
 
 ---
 ##**Pre-requisites:**
 
-You should be familiar with [Testsigma Recorder](https://testsigma.com/docs/elements/android-apps/record-multiple-elements/)
+You should be familiar with [Testsigma test Recorder](https://testsigma.com/docs/elements/android-apps/record-multiple-elements/)
 
 &emsp;
 
 ---
 ##**How to reorder recorded test steps:**
 
- 1. Create a Test Case using Testsigma Recorder. Make sure to have multiple test steps.
+ 1. Create a Test Case using Testsigma test Recorder. Make sure to have multiple test steps.
  2. Select multiple test steps from the test steps section on the Recorder UI. The reorder button will appear on the top right, like this:
 
 ![highlighted for reorder in Testsigma Recorder UI for an android project](https://docs.testsigma.com/images/reorder/highlighted-reorder-Recorder-testsigma-android.png)

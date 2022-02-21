@@ -30,7 +30,7 @@ Here we will be capturing multiple elements via the Elements page. Learn more ab
 
 1. Go to the Elements page via **Test Development > Elements.** The Elements page should look something like the below screenshot:
 
-![all Elements page in Testsigma](https://docs.testsigma.com/images/record-multiple-elements/all-elements-page-testsigma.png)
+![all-Elements-page-in-Testsigma](https://s3.amazonaws.com/static-docs.testsigma.com/new_images/elements/web-apps/record-multiple-elements/all-Elements-page-in-Testsigma.png)
 
 2. To capture elements via the Test recorder chrome extension, click on the record button on the top right corner of the Elements page, the button is also highlighted in the screenshot below:
 
@@ -64,6 +64,6 @@ Here we will be capturing multiple elements via the Elements page. Learn more ab
 
 10. You can also check if the Element was created successfully by searching for it on the ‘Elements’ page as shown below:
 
-![filter Elements in Testsigma](https://docs.testsigma.com/images/record-multiple-elements/elements-filters-testsigma.png)
+![filter-Elements-in-Testsigma](https://s3.amazonaws.com/static-docs.testsigma.com/new_images/elements/web-apps/record-multiple-elements/filter-Elements-in-Testsigma.png)
 
 

@@ -40,9 +40,9 @@ We will be using an Element’s name in the Test Steps while writing Test Cases.
 ---
 ##**Creating Elements**
 
-We can [create multiple Elements using Testsigma Chrome Recorder](https://testsigma.com/docs/elements/web-apps/record-multiple-elements/) which is the easiest and recommended way. Creating all the Elements in advance helps you to speed up the Test Case creation process.
+We can [create multiple Elements using Testsigma test Recorder](https://testsigma.com/docs/elements/web-apps/record-multiple-elements/) which is the easiest and recommended way. Creating all the Elements in advance helps you to speed up the Test Case creation process.
 
-We can also [create a single Element using Testsigma Chrome Recorder](https://testsigma.com/docs/elements/web-apps/capture-single-element/)
+We can also [create a single Element using Testsigma test Recorder](https://testsigma.com/docs/elements/web-apps/capture-single-element/)
 
 Otherwise, if you are comfortable with XPaths and CSS Selectors, you can [create the Element manually](https://testsigma.com/docs/elements/web-apps/create-manually/) using the HTML attributes/properties.
 
@@ -59,7 +59,7 @@ Let’s discuss more details about element actions affected list, sort and filte
 The Test Suites and the Test Plans containing these Test Cases can also be viewed from this page.
 2. **Sort the Elements:** The Elements list can be sorted on the basis of Name, Created Date and Update Date in ascending or descending order
 
-![Sort Elements](https://docs.testsigma.com/images/web-apps/elements-sort.png)
+![Sort-Elements](https://s3.amazonaws.com/static-docs.testsigma.com/new_images/elements/web-apps/overview/Sort-Elements.png)
 
 ---
 ##**Filter Elements** 
@@ -75,7 +75,7 @@ To filter Elements, click on the Filter icon on the top left corner of the Eleme
 * Labels
 * Usage in Test Case
 
-![Element List Filters overlay](https://docs.testsigma.com/images/web-apps/element-list-filters-unfiltered.png)
+![Element-List-Filters-overlay](https://s3.amazonaws.com/static-docs.testsigma.com/new_images/elements/web-apps/overview/Element-List-Filters-overlay.png)
 
 * Name: Filter the Elements by their Name. This can be used to search Elements by name as well.
 * Type: Filter the Elements on the basis of locator type

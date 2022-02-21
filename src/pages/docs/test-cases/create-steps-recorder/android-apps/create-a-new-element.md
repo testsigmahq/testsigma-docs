@@ -8,7 +8,7 @@ warning: false
 
 ---
 
-In Testsigma, you can create elements for an Android Project using our Recorder. There are 2 ways to do that. See how you can
+In Testsigma, you can create elements for an Android Project using our test Recorder. There are 2 ways to do that. See how you can
 
  1. [capture multiple elements at the same time.](https://testsigma.com/docs/elements/android-apps/record-multiple-elements/)
  2. [capture a single element.](https://testsigma.com/docs/elements/android-apps/capture-single-element/)

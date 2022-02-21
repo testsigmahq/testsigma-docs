@@ -23,4 +23,4 @@ When creating elements for an application, you need to provide a way to uniquely
 To know how these can be used while creating elements in Testsigma, please refer to the documents below:
 
 1. [Manual Creation of Elements](https://testsigma.com/docs/elements/android-apps/create-manually/)
-2. [Create an element via the mobile inspector](https://testsigma.com/docs/elements/android-apps/capture-single-element/)
+2. [Create an element via the mobile test recorder](https://testsigma.com/docs/elements/android-apps/capture-single-element/)

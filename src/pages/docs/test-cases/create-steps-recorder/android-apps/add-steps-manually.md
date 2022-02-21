@@ -20,7 +20,7 @@ contextual_links:
 ---
 
 ---
-You can add more test steps to a pre-existing test case using the Recorder. Let’s see how. 
+You can add more test steps to a pre-existing test case using the test Recorder. Let’s see how. 
 
 &emsp;
 
@@ -31,12 +31,12 @@ You should already know how to
 
  1. [create a test case.](https://testsigma.com/docs/test-cases/manage/add-edit-delete/)
  2. [create test steps for an android application.](https://testsigma.com/docs/test-cases/step-types/overview/)
- 3. [record test steps with Testsigma Recorder.](https://testsigma.com/docs/test-cases/create-steps-recorder/android-apps/overview/)
+ 3. [record test steps with Testsigma test Recorder.](https://testsigma.com/docs/test-cases/create-steps-recorder/android-apps/overview/)
 
 &emsp;
 
 ---
-##**How to add test steps to a pre-existing test case via Recorder:**
+##**How to add test steps to a pre-existing test case via test Recorder:**
 
  1. Create a test case for an android application.
  2. Go to the created test steps in the Recorder UI.

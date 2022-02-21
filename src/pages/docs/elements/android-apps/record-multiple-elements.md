@@ -30,7 +30,7 @@ When automating test cases for an android application, you can capture multiple 
 ---
 ##**Pre-requisites**
 1. You should have an android project in Testsigma. See [creating a project](https://testsigma.com/docs/projects/overview/).
-2. Your android applications’ apk should be uploaded in Testsigma so that the mobile inspector can record elements from it. See [uploading apps to Testsigma](https://testsigma.com/docs/uploads/upload-apps/).
+2. Your android applications’ apk should be uploaded in Testsigma so that the mobile test recorder can record elements from it. See [uploading apps to Testsigma](https://testsigma.com/docs/uploads/upload-apps/).
 
 <br>
 
@@ -44,7 +44,7 @@ When automating test cases for an android application, you can capture multiple 
 ##**How to record multiple elements for an android project in Testsigma**
 1. On the ‘All Elements’ page, click on the ‘Record’ button on the top right corner of the page:
 
-![record button under record multiple elements for an android project in Testsigma](https://docs.testsigma.com/images/record-multiple-elements/record-button-record-multiple-elements-android-testsigma.png)
+![record-button-under-record-multiple-elements-for-an-android-project-in-Testsigma](https://s3.amazonaws.com/static-docs.testsigma.com/new_images/elements/android-apps/record-multiple-elements/record-button-under-record-multiple-elements-for-an-android-project-in-Testsigma.png)
 
 
 2. On the 'Record Element' window that appears, you can select the device version and the device of your choice from the drop-down list. The device selection appears as shown in the screenshot below.
@@ -52,7 +52,7 @@ When automating test cases for an android application, you can capture multiple 
 ![record element window under record multiple elements for an android project in Testsigma](https://docs.testsigma.com/images/record-multiple-elements/record-element-window-record-multiple-elements-android-testsigma.png)
 
 3. Once you have selected the version, device, and the apk you want to launch, click on the record button on the ‘Record Element’ window.
-4. The mobile inspector screen should appear like this:
+4. The mobile test recorder screen should appear like this:
 
 ![mobile inspector screen under record multiple elements for an android project in Testsigma](https://docs.testsigma.com/images/record-multiple-elements/mobile-inspector-screen-record-multiple-elements-android-testsigma.png)
 

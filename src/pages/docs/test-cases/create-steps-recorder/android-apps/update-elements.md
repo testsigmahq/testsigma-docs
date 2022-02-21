@@ -17,22 +17,22 @@ contextual_links:
 
 ---
 
-When you update the structure of your android application, you will need to update the corresponding elements in your automated test project in Testsigma too. In this document, we will discuss how to do that using Testsigma’s Recorder.
+When you update the structure of your android application, you will need to update the corresponding elements in your automated test project in Testsigma too. In this document, we will discuss how to do that using Testsigma’s test Recorder.
 
 &emsp;
 
 ---
 ##**Pre-requisites:**
 
-You should already know how to [capture elements using Recorder.](https://testsigma.com/docs/elements/android-apps/capture-single-element/)
+You should already know how to [capture elements using test Recorder.](https://testsigma.com/docs/elements/android-apps/capture-single-element/)
 
 &emsp;
 
 ---
-##**How to update an element via Testsigma’s Recorder:**
+##**How to update an element via Testsigma’s test Recorder:**
 
- 1. Create a Test Case using Testsigma’s Recorder in your Android Project. 
- 2. On the Recorder UI, hover over the step that has the element you want to edit. The elements appear in green on the Testsigma Recorder UI
+ 1. Create a Test Case using Testsigma’s test Recorder in your Android Project. 
+ 2. On the Recorder UI, hover over the step that has the element you want to edit. The elements appear in green on the Testsigma test Recorder UI
 
 ![Highlighted example elements in Testsigma Recorder](https://docs.testsigma.com/images/update-elements/highlighted-example-elements-android-testsigma-Recorder.png)
  
@@ -66,8 +66,8 @@ Here are the fields that appear on the ‘Edit Element’ window:
    4. Class Name
    5. Accessibility ID
 
-You can select any of these options for identifier type.
- * **Enter Value**: Here, the value should correspond to the identifier type selected. This is also an editable field.
+You can select any of these options for element type.
+ * **Enter Value**: Here, the value should correspond to the element type selected. This is also an editable field.
 
 
 6. Click on the ‘Update’ button to finalize the changes.

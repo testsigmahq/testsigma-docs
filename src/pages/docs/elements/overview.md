@@ -36,7 +36,7 @@ The Test Suites and the Test Plans containing these Test Cases can also be viewe
 ##**Sort Elements $elements-sort**
 The Elements list can be sorted on the basis of Name, Created Date, and Update Date in ascending or descending order.
 
-![Sort Elements](https://docs.testsigma.com/images/elements/elements-sort.png)
+![Sort-Elements](https://s3.amazonaws.com/static-docs.testsigma.com/new_images/elements/overview/Sort-Elements.png)
 
 
 ---
@@ -52,7 +52,7 @@ To filter Elements, click on the Filter icon on the top left corner of the Eleme
 * Labels
 * Usage in Test Case
 
-![Element List Filters overlay](https://docs.testsigma.com/images/elements/element-list-filters-unfiltered.png)
+![Element-List-Filters-overlay](https://s3.amazonaws.com/static-docs.testsigma.com/new_images/elements/overview/Element-List-Filters-overlay.png)
 
 * Name: Filter the Elements by their Name. This can be used to search Elements by name as well.
 * Type: Filter the Elements on the basis of locator type

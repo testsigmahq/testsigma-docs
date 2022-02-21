@@ -43,13 +43,13 @@ You should have the Testsigma test step recorder chrome extension already instal
 <br>
 
 **Steps to follow:**
-Here, a single element will be captured as a UI identifier (aka Elements) in Testsigma. Learn more about [Elements](https://testsigma.com/docs/elements/overview/).
+Here, a single element will be captured as an element in Testsigma. Learn more about [Elements](https://testsigma.com/docs/elements/overview/).
 
 Let’s begin.
 
-1. Go to the UI identifiers page via **Test Development > UI Identifiers.** The UI Identifiers page should look something like this:
+1. Go to the Elements page via **Test Development > Elements.** The Elements page should look something like this:
 
-![elements page in Testsigma](https://docs.testsigma.com/images/capture-single-element/elements-page-testsigma.png)
+![elements-page-in-Testsigma](https://s3.amazonaws.com/static-docs.testsigma.com/new_images/test-cases/create-steps-nl/web-apps/update-elements/elements-page-in-Testsigma.png)
 
 
 2. To capture a single UI element via the Test recorder chrome extension, click on the ‘create’ button on the top right corner of the elements page, the button is also highlighted in the screenshot below:
@@ -58,7 +58,7 @@ Let’s begin.
 
 3. When you click on the ‘Create’ button, a layout appears as shown below:
 
-![create elements page in Testsigma](https://docs.testsigma.com/images/capture-single-element/create-elements-page-in-testsigma.png)
+![create-elements-page-in-Testsigma](https://s3.amazonaws.com/static-docs.testsigma.com/new_images/elements/web-apps/capture-single-element/create-elements-page-in-Testsigma.png)
 
 4. Make sure the radio button ‘Chrome Extension’ is selected
 5. Go to a new tab and enter the URL from which you want to capture the single element. The Testsigma test recorder will appear and will be ready to start recording. For example, we opened a new tab and entered the URL for orangehrmlive.
@@ -95,7 +95,7 @@ You can follow these steps to create elements while creating a test case. The Cr
 **Steps to follow:**
 
 1. Start creating a test case or go to an already added test case. 
-2. Add a test step to the test case that contains a UI identifier. The language for the test step should contain a UI identifier. Some examples of such steps are shown in the screenshot below:
+2. Add a test step to the test case that contains an Element. The language for the test step should contain an Element. Some examples of such steps are shown in the screenshot below:
 
 ![the various nlp test steps in Testsigma](https://docs.testsigma.com/images/capture-single-element/various-nlp-test-steps-in-testsigma.png)
 
@@ -107,11 +107,11 @@ You can follow these steps to create elements while creating a test case. The Cr
 
 ![elements layover over a test case page in Testsigma](https://docs.testsigma.com/images/capture-single-element/elements-layover-over-test-case-page-testsigma.png)
 
-5. Here, if you want to add a UI Identifier that is not added already, then you can start typing a new name for it. If the name does not exist already, the option “NEW” will appear as also shown in the screenshot below:
+5. Here, if you want to add a Element that is not added already, then you can start typing a new name for it. If the name does not exist already, the option “NEW” will appear as also shown in the screenshot below:
 
 ![add new identifier with a new name on test case page in Testsigma](https://docs.testsigma.com/images/capture-single-element/add-new-identifier-with-new-name-test-case-page-testsigma.png)
 
-6.  Now click on the ‘NEW’ button, highlighted in the last step. ‘Create UI identifier’ form will open up as also shown in the screenshot below:
+6.  Now click on the ‘NEW’ button, highlighted in the last step. ‘Create Element’ form will open up as also shown in the screenshot below:
 
 ![create element form on test case page in Testsigma](https://docs.testsigma.com/images/capture-single-element/create-element-form-on-test-case-page-in-testsigma.png)
 
@@ -133,20 +133,20 @@ You can follow these steps to create elements while creating a test case. The Cr
 
 ![test case results section highlighted on a test plan run details page in Testsigma](https://docs.testsigma.com/images/capture-single-element/test-case-results-section-highlighited-test-plan-run-testsigma.png)
 
-3. On the ‘Test Step Result Details’ page that opens, click on the test step that you want to edit. For the purpose of this article, you need to hover on the test step that has a UI identifier and the one that you want to edit.
+3. On the ‘Test Step Result Details’ page that opens, click on the test step that you want to edit. For the purpose of this article, you need to hover on the test step that has an Element and the one that you want to edit.
 4. On hover, the edit button will appear:
 
 ![edit button on hover over a test step in test results in Testsigma](https://docs.testsigma.com/images/capture-single-element/edit-button-on-hover-test-step-in-test-results-testsigma.png)
 
 Click on this edit button.
 
-5. On the edit interface that opens, click on the UI Identifier that you wanted to edit. In our case, we will click on ‘Username’.
+5. On the edit interface that opens, click on the Element that you wanted to edit. In our case, we will click on ‘Username’.
 6. A layover will appear containing the elements in the project, as also shown in the screenshot below:
 
 ![layover listing elements in project in Testsigma](https://docs.testsigma.com/images/capture-single-element/layover-listing-elements-in-project-in-testsigma.png)
 
 
-7. Here, if you want to add a UI Identifier that is not added already, then you can start typing a new name for it. If the name does not exist already, the option “NEW” will appear as shown below:
+7. Here, if you want to add a Element that is not added already, then you can start typing a new name for it. If the name does not exist already, the option “NEW” will appear as shown below:
 
 ![add new name identifier from result page in Testsigma](https://docs.testsigma.com/images/capture-single-element/add-new-name-identifier-from-result-page-in-testsigma.png)
 

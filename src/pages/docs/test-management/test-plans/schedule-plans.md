@@ -36,7 +36,7 @@ We will look into the process of scheduling a Test Execution for an already crea
 1. Go to ‘Test Case Development > Test Plans’
 You will be taken to the Test Plans page and you can see a list of already created test plans there as shown below:
 
-![Test Plans page in Testsigma](https://docs.testsigma.com/images/schedule-plans/test-plans-page-testsigma.png)
+![Test-Plans-page-in-Testsigma](https://s3.amazonaws.com/static-docs.testsigma.com/new_images/test-management/test-plans/schedule-plans/Test-Plans-page-in-Testsigma.png)
 
 2. Click the button named 'Schedule' located beside the Test Plan you want to schedule on the Test Plans page. 
 

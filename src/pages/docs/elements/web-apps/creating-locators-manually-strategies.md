@@ -33,7 +33,7 @@ For this guide, it would be recommended to get familiar with the Chrome Develope
 
 External Link: [Get Started With Viewing And Changing The DOM](https://developer.chrome.com/docs/devtools/dom/)
 
-We will be primarily talking about creating the Element locators manually. For an easier method, refer: [Create Element using Chrome Recorder](https://testsigma.com/docs/elements/web-apps/record-multiple-elements/)
+We will be primarily talking about creating the Element locators manually. For an easier method, refer: [Create Element using test Recorder](https://testsigma.com/docs/elements/web-apps/record-multiple-elements/)
 
 Elements can be created from the attributes/properties of an HTML Element, using:
 1. Attributes of the element like id, name, placeholder

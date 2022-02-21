@@ -17,7 +17,7 @@ contextual_links:
 
 ---
 
-When test steps are created via the Recorder for Android, there are some actions that can be taken on those steps via the Recorder’s UI, such as: 
+When test steps are created via the mobile test Recorder for Android, there are some actions that can be taken on those steps via the Recorder’s UI, such as: 
 
 
  1. Add Test Step
@@ -35,14 +35,14 @@ We will discuss all the above test step actions in this document.
 ---
 ##**Pre-requisites:**
 
-You should already know about [Testsigma’s Recorder.](https://testsigma.com/docs/elements/android-apps/record-multiple-elements/)
+You should already know about [Testsigma’s mobile test Recorder.](https://testsigma.com/docs/elements/android-apps/record-multiple-elements/)
 
 &emsp;
 
 ---
 ##**Steps to follow:**
 
- 1. Create a Test Case for an android application using Testsigma’s Recorder. 
+ 1. Create a Test Case for an android application using Testsigma’s mobile test Recorder. 
  2. Hover on one of the recorded test steps:
 
 ![hover-over-test-steps-test-step-actions-testsigma-Recorder-android](https://docs.testsigma.com/images/step-actions/hover-over-test-steps-test-step-actions-testsigma-Recorder-android.png)
@@ -51,13 +51,13 @@ You should already know about [Testsigma’s Recorder.](https://testsigma.com/do
 
 If you click on the three horizontal dots at the end of the highlighted row, you will see an option to edit an element under test step details:
 
-![Test step actions that appear on hover over a test step in Testsigma Recorder for an android project](https://docs.testsigma.com/images/step-actions/edit-element-test-step-actions-testsigma-Recorder-android.png)
+![Test step actions that appear on hover over a test step in Testsigma mobile test Recorder for an android project](https://docs.testsigma.com/images/step-actions/edit-element-test-step-actions-testsigma-Recorder-android.png)
 
 &emsp;
 
 The highlighted options are the test actions:
 
- 1. **Add Step**: When you hover over a test step already recorded on the testsigma Recorder, you see two buttons labeled “+ Add Step” - one above the hovered test step and one below the hovered test step. These are also highlighted in the screenshot below:
+ 1. **Add Step**: When you hover over a test step already recorded on the testsigma mobile testRecorder, you see two buttons labeled “+ Add Step” - one above the hovered test step and one below the hovered test step. These are also highlighted in the screenshot below:
 
 ![add step buttons to add another test step in Testsigma Recorder for an android project](https://docs.testsigma.com/images/step-actions/add-step-buttons-test-steps-testsigma-Recorder-android.png)
 
@@ -89,7 +89,7 @@ The test step details that are shown are highlighted below:
 
 &emsp;
 
- 5. **Edit Element**: You can edit an element via the Testsigma Recorder by clicking on the ‘Edit Element’ button on the test details section:
+ 5. **Edit Element**: You can edit an element via the Testsigma mobile test Recorder by clicking on the ‘Edit Element’ button on the test details section:
 
 ![Edit element for a test step in Testsigma Recorder for an android project](https://docs.testsigma.com/images/step-actions/edit-element-test-step-details-testsigma-Recorder-android.png)
 

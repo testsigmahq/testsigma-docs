@@ -70,7 +70,7 @@ The Import file has the following Columns:
 
 From the Test Cases list, click on the Import button on the top right corner to open the Import Dialog as shown below:
 
-![Test Cases Import Dialog](https://docs.testsigma.com/images/import-export/test-cases-import-dialog1.png)
+![Test-Cases-Import-Dialog](https://s3.amazonaws.com/static-docs.testsigma.com/new_images/test-cases/manage/import-export/Test-Cases-Import-Dialog.png)
 
 &emsp;
 
@@ -92,7 +92,7 @@ From the Test Cases list, click on the Import button on the top right corner to 
 
 From the Test Cases list, click on the Export button on the top right corner to open the Export Dialog as shown below:
 
-![Test Case Export Dialog](https://docs.testsigma.com/images/import-export/test-cases-export-dialog1.png)
+![Test-Case-Export-Dialog](https://s3.amazonaws.com/static-docs.testsigma.com/new_images/test-cases/manage/import-export/Test-Case-Export-Dialog.png)
 &emsp;
 
 We have two options here:

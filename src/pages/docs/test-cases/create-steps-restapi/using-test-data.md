@@ -164,12 +164,12 @@ The Test data Generators generate the required value and place it in the request
 Here's an example:
 !|EmailFunctions.randomAlphanumaricEmail(int:7, String:gmail.com)|
  
-Here, **EmailFunctions** is the Class name, **randomAlphanumaricEmail** is the Function name
+Here, **EmailFunctions** is the Class name, **randomAlphanumaricEmail** is the data generator name
 The first argument is an int with a given value **7** and the second argument is a String with given value **gmail.com**
  
 The above Testdata Generator returns a random Alphanumeric Email with 7 random characters and the domain gmail.com - for example, rewvsfd@gmail.com
  
-Testsigma provides few Test Data Generators by default. Here's a list of default Test Data Functions - [List of default Test Data Functions available in Testsigma](https://testsigma.com/docs/test-data/data-generators/defalut-list/)
+Testsigma provides few Test Data Generators by default. Here's a list of default Test Data generators - [List of default Test Data generators available in Testsigma](https://testsigma.com/docs/test-data/data-generators/defalut-list/)
  
 [[info | Note:]] 
 |You can also request the Testsigma Support Team to generate a Custom Test Data Generator for you. The Team will evaluate the feasibility of the request and create a specified Test data Generator for you in a reasonable time.
@@ -178,21 +178,21 @@ Testsigma provides few Test Data Generators by default. Here's a list of default
 ### Example:
 
 First of all, get the Test data Generator Class name, Function name, and arguments specification from the below article:
-[List of default Test Data Functions available in Testsigma]()
+[List of default Test Data generators available in Testsigma]()
  
 Given below is a sample REST API Request Body:
  
 `{ title": "Test Title", "content": "Test Content", "userid": 10 }`
  
  
-Let us assume we want a random email as the value of the 'content' key. We can use Test Data Function to accomplish this as given below:
+Let us assume we want a random email as the value of the 'content' key. We can use Test Data generator to accomplish this as given below:
  
 `{"title": "Test Title", "email: “!|EmailFunctions.randomAlphanumaricEmail(int:7, String:gmail.com)|", "userid": 10}`
 
 <span style="color:grey">JavaScript</span>
  
 ---
-##**Test Data Function Usage sample in REST Payload:**
+##**Test Data generator Usage sample in REST Payload:**
 
 ![use test data function in rest payload when creating parameterized test data in REST API test steps](https://docs.testsigma.com/images/using-test-data/use-test-data-function-in-rest-payload-parameterized-test-data-rest-api.png)
 
