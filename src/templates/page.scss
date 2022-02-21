@@ -574,3 +574,7 @@ code[class*="language-"] {
 .perviousLink{
   margin-left: -4px;
 }
+
+.gatsby-resp-iframe-wrapper {
+  padding-bottom: 56.25% !important; // 16:9 ratio
+}
