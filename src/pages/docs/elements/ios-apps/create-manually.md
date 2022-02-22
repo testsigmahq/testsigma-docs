@@ -21,7 +21,7 @@ contextual_links:
 
 
 ---
-In this document, we will discuss how to create elements manually for your iOS project in Testsigma i.e. without the use of a mobile inspector.
+In this document, we will discuss how to create elements manually for your iOS project in Testsigma i.e. without the use of a Test recorder.
 
 <br>
 
@@ -42,12 +42,12 @@ You should have an iOS project in Testsigma. See [creating a project](https://te
 
 1. Go to your iOS project, then go to Test Development > Elements.
 2. On the ‘All Elements’ page that appears, click on the create button on the top right:
-![all elements page for an iOS project with Manually radio button selected](https://docs.testsigma.com/images/create-manually/all-elements-page-create-element-manually-ios-testsigma.png)
+![all elements page for an iOS project with Manually radio button selected](https://s3.amazonaws.com/static-docs.testsigma.com/new_images/elements/ios-apps/create-manually/all-elements-page-create-element-manually-ios-testsigma.png)
 
 3. The ‘Create Element’ form opens up, as shown in the screenshot below:
-![create element form in Testsigma for an iOS project with Manually radio button selected](https://docs.testsigma.com/images/create-manually/create-element-form-highlighted-manually-ios-testsigma.png)
+![create element form in Testsigma for an iOS project with Manually radio button selected](https://s3.amazonaws.com/static-docs.testsigma.com/new_images/elements/ios-apps/create-manually/create-element-form-highlighted-manually-ios-testsigma.png)
 
-4. Create the element either manually or via element inspector. In this document, we will cover how to create elements ‘manually’. You can also [capture elements via Testsigma’s mobile inspector](https://testsigma.com/docs/elements/ios-apps/capture-single-element/). For now, select the radio button ‘Manually’.
+4. Create the element either manually or via element inspector. In this document, we will cover how to create elements ‘manually’. You can also [capture elements via Test recorder](https://testsigma.com/docs/elements/ios-apps/capture-single-element/). For now, select the radio button ‘Manually’.
 
 5.  You will see the form options as shown in the screenshot below:
 ![create element form in Testsigma for an iOS project with Manually radio button selected ](https://docs.testsigma.com/images/create-manually/create-element-manually-ios-testsigma.png)

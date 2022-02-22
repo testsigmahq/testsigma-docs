@@ -29,7 +29,7 @@ You should have some run results where some test cases have failed.
 
 1. Select the project, where you need to rerun the results
 2. Navigate to “Test Development > Run Results”, you should see a page as below:
-   ![Run Results page to get test machine reports in Testsigma](https://docs.testsigma.com/images/rerun/run-results-page-to-get-test-machine-reports-testsigma.png)
+   ![Run Results page to get test machine reports in Testsigma](https://s3.amazonaws.com/static-docs.testsigma.com/new_images/reports/runs/rerun/run-results-page-to-get-test-machine-reports-testsigma.png)
 3. Click on the Test Plan for which you need the report, you should see test runs page like the one shown below:
    ![test run page to get test machine reports in Testsigma](https://docs.testsigma.com/images/rerun/test-run-page-to-get-test-machine-reports-rerun-testsigma.png)
 4. In the Middle column, you will see a green “rerun” button:

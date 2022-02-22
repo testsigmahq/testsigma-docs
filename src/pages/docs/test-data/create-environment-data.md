@@ -41,7 +41,7 @@ When you have multiple testing environments and you need to use different test d
 
   2. When you click on the create button, this form appears:
 
-     ![ create environments form in Testsigma](https://docs.testsigma.com/images/create-environment-data/create-environments-form.png)
+     ![ create environments form in Testsigma](https://s3.amazonaws.com/static-docs.testsigma.com/new_images/test-data/create-environment-data/create-environments-form.png)
   
   Here, you create an environment and you add the Parameter names and values that will be specific to this environment.
 
@@ -51,7 +51,7 @@ Below are the fields you see on this form:
 2. **Description:** Description for your environment
 3. **Parameter Name, Parameter Value:** Here you mention the name for a parameter that would be specific to this environment and its corresponding value. Here, when you enter the values for one key-value pair, the text fields for adding another will automatically appear. Thus, you can add as many key-value pairs as needed. If you prefer, you can also add these values in the json format, you just need to select the tab labeled ‘JSON Format’ (also highlighted in the screenshot below) 
 
-   ![json format tab to display environment parameters in json format in Testsigma](https://docs.testsigma.com/images/create-environment-data/json-format-tab-environment-parameters.png)
+   ![json format tab to display environment parameters in json format in Testsigma](https://s3.amazonaws.com/static-docs.testsigma.com/new_images/test-data/create-environment-data/json-format-tab-environment-parameters.png)
 
 Once you have added all the values, you can click on the ‘create’ button on the top right to finalize the changes.
 
@@ -59,7 +59,7 @@ Similarly, you can go to an already existing environment on the Test Environment
 
 Alternatively, below is a quick gif to demonstrate the workflow for creating environment-specific test data.
 
-   ![gif demonstrating how to fill up the create environments form](https://docs.testsigma.com/images/create-environment-data/create-environment-form-fillup-gif.gif)
+   ![gif demonstrating how to fill up the create environments form](https://s3.amazonaws.com/static-docs.testsigma.com/new_images/test-data/create-environment-data/create-environment-form-fillup.gif)
 
 ---
 ##**How to use this Environment based Test Data in your Test Case**
@@ -85,4 +85,4 @@ To know more, refer to [Environment-specific test data](https://testsigma.com/do
 
 Here is a gif that demonstrates the above workflow:
 
- ![ a gif demonstrating the use of environment based test data in test case](https://docs.testsigma.com/images/create-environment-data/gif-use-environment-based-test-data-in-test-case.gif)
+ ![ a gif demonstrating the use of environment based test data in test case](https://s3.amazonaws.com/static-docs.testsigma.com/new_images/test-data/create-environment-data/gif-use-environment-based-test-data-in-test-case.gif)

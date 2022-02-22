@@ -33,7 +33,7 @@ On the right corner, you see a link to the Offers page, Tutorials page, Feedback
 * **Run Details:** Detailed descriptions of the Latest Executions with links to the Run Results are given here.
 * **Test Cases Overview:** One-click links to filtered list of Test Cases on the basis of latest Test Run Result
 * **Test Plan Schedule:** View upcoming Test Plan Schedules for the current week
-* **Review Management:** View UI Identifiers and Test Cases submitted for review and assigned to you
+* **Review Management:** View Elements and Test Cases submitted for review and assigned to you
 * Test Case breakup on the basis of status, type, priority, custom fields
 
 ![Dashboard Overview](https://docs.testsigma.com/images/dashoard/dashboard-overview-gif.gif)

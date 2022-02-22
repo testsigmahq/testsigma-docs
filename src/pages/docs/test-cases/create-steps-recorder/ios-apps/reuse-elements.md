@@ -16,18 +16,18 @@ contextual_links:
 ---
 
 ---
-When you record elements via Testsigma’s Recorder, they are saved as elements in the corresponding project in Testsigma. These elements are reusable, and you can add them in new test steps or test cases within the same project. In this document, we will discuss how to do that via Testsigma’s Recorder for an iOS project.
+When you record elements via Test Recorder, they are saved as elements in the corresponding project in Testsigma. These elements are reusable, and you can add them in new test steps or test cases within the same project. In this document, we will discuss how to do that via Test Recorder for an iOS project.
 
 &emsp;
 
 ---
 ##**Pre-requisites:**
-You should know how to [record a test case via Testsigma’s Recorder](https://testsigma.com/docs/test-cases/create-steps-recorder/ios-apps/overview/).
+You should know how to [record a test case via Test Recorder](https://testsigma.com/docs/test-cases/create-steps-recorder/ios-apps/overview/).
 
 &emsp;
 
 ---
-##**How to reuse pre-recorded elements via Testsigma’s Recorder for an iOS project:**
+##**How to reuse pre-recorded elements via Test Recorder for an iOS project:**
 
 1. Create a test case in which you will be reusing your pre-recorded elements.
    
@@ -43,7 +43,7 @@ Alternatively, you can record a test step that uses an element. Given below is a
 
 4. Hover on the test step that you want to edit and click on the corresponding edit button. 
 
-5. Click on the green text that represents ‘element’. The ‘Elements’ section appears on the Recorder UI, listing all pre-recorded elements in the project:
+5. Click on the green text that represents ‘element’. The ‘Elements’ section appears on the Test Recorder UI, listing all pre-recorded elements in the project:
 
 ![elements screen to reuse elements in Testsigma recorder for an ios project](https://docs.testsigma.com/images/reuse-elements/elements-screen-reuse-elements-testsigma-recorder-ios.png)
 
@@ -51,5 +51,5 @@ Alternatively, you can record a test step that uses an element. Given below is a
    
 7. From the filtered results, you can click on the element that you want to use, and the element text in your test step will be replaced by the chosen element.
    
-8. Click on the ‘Update’ button corresponding to the test step on the Testsigma Recorder UI to finalize the change.
+8. Click on the ‘Update’ button corresponding to the test step on the Test Recorder UI to finalize the change.
 

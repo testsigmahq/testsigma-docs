@@ -26,16 +26,16 @@ You can view details for each test step recorded through Testsigma’s test step
 
 This document will take you through the process of creating test steps using the Testsigma Step Recorder. You should already know how-to, or have:
 
- 1. [Testsigma step recorder chrome extension.](https://testsigma.com/docs/test-step-recorder/install-chrome-extension/)
- 2. [record test steps via the Testsigma test recorder.](https://testsigma.com/docs/test-cases/create-steps-recorder/web-apps/overview/)
+ 1. [Testsigma's step Test recorder.](https://testsigma.com/docs/test-step-recorder/install-chrome-extension/)
+ 2. [record test steps via the Test recorder.](https://testsigma.com/docs/test-cases/create-steps-recorder/web-apps/overview/)
 
 &emsp;
 
 
 ---
-##**How to get details of a test step recorded via Testsigma’s test recorder chrome extension**
+##**How to get details of a test step recorded via Test recorder**
 
- 1. Create a Test Case using Testsigma’s test recorder chrome extension
+ 1. Create a Test Case using Test recorder
  2. Hover on one of the recorded test steps. 
  3. Click on the three vertical dots at the far right end of the highlighted row:
 

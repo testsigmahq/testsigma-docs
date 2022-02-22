@@ -33,7 +33,7 @@ Simply navigate to the “Test Development” > “Run Results” page
 
 Here is a gif that gives an overview of the test run results:
 
-![gif demonstrating test run results in Testsigma](https://docs.testsigma.com/images/runs/gif-test-run-results.gif)
+![gif demonstrating test run results in Testsigma](https://s3.amazonaws.com/static-docs.testsigma.com/new_images/reports/runs/overview/gif-test-run-results.gif)
 
 
 ---

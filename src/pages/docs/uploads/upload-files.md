@@ -27,7 +27,7 @@ With Testsigma, you can upload small files to Testsigma uploads as attachments a
 ![upload window to upload files for a project in Testsigma](https://docs.testsigma.com/images/upload-files/upload-window-upload-files-testsigma.png)
 3. Choose the file you want to upload, make sure the file is named correctly and then click on the upload button. 
 4. On successful upload, the file is displayed on the uploads page:
-![uploads page with one uploaded file in Testsigma](https://docs.testsigma.com/images/upload-files/uploads-page-one-uploaded-testsigma.png)
+![uploads page with one uploaded file in Testsigma](https://s3.amazonaws.com/static-docs.testsigma.com/new_images/uploads/upload-files/uploads-page-one-uploaded-testsigma.png)
 
 ---
 ##**Getting the file URL**

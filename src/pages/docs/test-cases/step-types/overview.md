@@ -36,7 +36,7 @@ In this document, we will give an overview of the different types of test steps 
 
     * [REST API](https://testsigma.com/docs/test-cases/step-types/rest-api/)
 
-![test step types ](https://docs.testsigma.com/images/step-types/test-step-types.gif)
+![test step types ](https://s3.amazonaws.com/static-docs.testsigma.com/new_images/test-cases/step-types/overview/test-step-types.gif)
 
 
  

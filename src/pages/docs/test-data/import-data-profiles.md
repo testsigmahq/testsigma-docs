@@ -49,7 +49,7 @@ Below is an example of the data that an xlsx file should have. Testsigma expects
 
 1. Navigate to the Test Development > Test Data Profile page
 
-   ![all test data profiles page with already created test data profiles in Testsigma](https://docs.testsigma.com/images/import-data-profiles/all-test-data-profiles-adding-values-import.png)
+   ![all test data profiles page with already created test data profiles in Testsigma](https://s3.amazonaws.com/static-docs.testsigma.com/new_images/test-data/import-data-profiles/all-test-data-profiles-adding-values-import.png)
 
 2. Click on the Import icon on the top right corner of the screen, also highlighted in the screenshot below:
 

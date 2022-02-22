@@ -62,7 +62,7 @@ In conclusion, Plain Text is simply the hard-coded text that you can use in your
 
 1. Create a test case by navigating to Test Development > Test Cases > Create
 
-![navigate to create test case](https://docs.testsigma.com/images/raw/navigate-to-create-test-case.png)
+![navigate to create test case](https://s3.amazonaws.com/static-docs.testsigma.com/new_images/test-data/types/raw/navigate-to-create-test-case.png)
 
 
 2. Create a test case by entering a name, description and choosing options from the advanced menu
@@ -72,7 +72,7 @@ In conclusion, Plain Text is simply the hard-coded text that you can use in your
 
 4. Testsigma will automatically navigate you to the test case details/test steps page
 5. Here create the first step for navigating to the application
-6. In the next step, choose the NLP containing “test data” like Enter **test data** in the **elements** field
+6. In the next step, choose the actions containing “test data” like Enter **test data** in the **elements** field
 
 ![choose nlp with test data](https://docs.testsigma.com/images/raw/choose-nlp-with-test-data.png)
 

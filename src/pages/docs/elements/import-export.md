@@ -55,7 +55,7 @@ The Import file has the following Columns:
 ---
 ##**Import Elements**
 From the Elements page, click on the Import button to open the Import Element Dialog which appears as shown below:
-![Import Elements overlay in Elements page](https://docs.testsigma.com/images/import-export/elements-page-import-elements-overlay.png)
+![Import Elements overlay in Elements page](https://s3.amazonaws.com/static-docs.testsigma.com/new_images/elements/import-export/elements-page-import-elements-overlay.png)
 
 1. Click on the Choose File button to upload the Excel file containing the Elements and click on the Upload button to upload the file.
 

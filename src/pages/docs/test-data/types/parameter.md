@@ -50,7 +50,7 @@ Let’s see how to insert a username parameter from a test data profile:
 
 2. Create a test case by navigating to Test Development → Test Cases → Create
 
-    ![navigate to create test case](https://docs.testsigma.com/images/parameter/navigate-to-create-test-case.png)
+    ![navigate to create test case](https://s3.amazonaws.com/static-docs.testsigma.com/new_images/test-data/types/parameter/navigate-to-create-test-case.png)
 
     1. Create a test case by entering a name, description
     2. Choose the newly created test data profile from advanced options
@@ -69,7 +69,7 @@ Let’s see how to insert a username parameter from a test data profile:
 
     8. Insert the parameter from the test data profile into the test case
 
-    ![gif to use parameter type test data](https://docs.testsigma.com/images/parameter/gif-use-parameter-type-test-data.gif)
+    ![gif to use parameter type test data](https://s3.amazonaws.com/static-docs.testsigma.com/new_images/test-data/types/parameter/gif-use-parameter-type-test-data.gif)
 
 Now, your test case will use the parameter from your test data profile.
 

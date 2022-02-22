@@ -25,7 +25,7 @@ You can add new elements while you’re adding test steps to your test case manu
 ##**Pre-requisites**
 
 You should already know how to
- 1. [use the Testsigma recorder for capturing elements.](https://testsigma.com/docs/test-cases/create-steps-recorder/android-apps/overview/)
+ 1. [use the Test recorder for capturing elements.](https://testsigma.com/docs/test-cases/create-steps-recorder/android-apps/overview/)
  2. [create a test case.](https://testsigma.com/docs/test-cases/manage/add-edit-delete/)
  3. [add test steps during test case creation for an android project.](https://testsigma.com/docs/test-cases/create-steps-nl/android-apps/overview/)
 
@@ -55,7 +55,7 @@ You should already know how to
 
 ![create element form on test case page for android project in Testsigma](https://docs.testsigma.com/images/create-a-new-element/the-create-element-form-on-test-case-page-android-testsigma.png)
 
- 7. Create the element either manually or via element recorder. In this document, we will cover how to create elements ‘manually’. You can also [capture elements via Testsigma’s  recorder](https://testsigma.com/docs/elements/android-apps/capture-single-element/). For now, select the radio button ‘Manually’.
+ 7. Create the element either manually or via element Test recorder. In this document, we will cover how to create elements ‘manually’. You can also [capture elements via Test recorder](https://testsigma.com/docs/elements/android-apps/capture-single-element/). For now, select the radio button ‘Manually’.
 
  8. You will see the form options as shown in the screenshot below:
 

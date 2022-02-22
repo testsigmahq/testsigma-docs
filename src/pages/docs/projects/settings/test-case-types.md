@@ -115,7 +115,7 @@ Hover over the test case type you want to delete and click on the Delete icon th
 
 A ‘Test Case Type’ can be assigned to a ‘Test Case’ when a new test case is being created.
 
-  ![assign test case type to a test case](https://docs.testsigma.com/images/test-case-types/assign-test-case-type-to-a-test-case1.gif)
+  ![assign test case type to a test case](https://s3.amazonaws.com/static-docs.testsigma.com/new_images/projects/settings/test-case-types/assign-test-case-type-to-a-test-case2.gif)
 
   &emsp;
 

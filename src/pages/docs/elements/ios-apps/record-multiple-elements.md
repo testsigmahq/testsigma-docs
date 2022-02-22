@@ -31,7 +31,7 @@ When automating test cases for an iOS application, you may sometimes want to cap
 
 You should already know:
 1. About Projects overview.
-2. Your iOS applications’ apk should be uploaded in Testsigma so that the mobile inspector can record elements from it. 
+2. Your iOS applications’ apk should be uploaded in Testsigma so that the Test recorder can record elements from it. 
 See uploading apps to Testsigma.
 
 <br>
@@ -46,13 +46,13 @@ See uploading apps to Testsigma.
 ##**How to record multiple elements for an iOS project in Testsigma**
 
 1. On the ‘All Elements’ page, click on the ‘Record’ button on the top right corner of the page:
-![record button under record multiple elements for an iOS project in Testsigma](https://docs.testsigma.com/images/record-multiple-elements/record-button-record-multiple-elements-ios-testsigma.png)
+![record button under record multiple elements for an iOS project in Testsigma](https://s3.amazonaws.com/static-docs.testsigma.com/new_images/elements/ios-apps/record-multiple-elements/record-button-record-multiple-elements-ios-testsigma.png)
 
 2. On the ‘Record Element’ window that appears, select the device that you want to capture the elements from. The ‘record element’ window should look something like below:
 ![record element window under record multiple elements for an iOS project in Testsigma](https://docs.testsigma.com/images/record-multiple-elements/record-element-window-record-multiple-elements-ios-testsigma.png)
 
 3. Once you have selected the version, device, and the .ipa you want to launch, click on the record button on the ‘Record Element’ window.
-4. The mobile inspector screen should appear like this:
+4. The Test Recorder screen should appear like this:
 ![mobile inspector screen under record multiple elements for an iOS project in Testsigma](https://docs.testsigma.com/images/record-multiple-elements/mobile-inspector-screen-record-multiple-elements-ios-testsigma.png)
 
 5. Make sure that the inspection mode is selected. The inspection mode button is highlighted in the screenshot below:

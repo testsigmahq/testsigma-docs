@@ -94,7 +94,7 @@ Hover over the test case priority you want to delete and click on the Delete ico
 
 Below is a quick gif that demonstrates how priority can be assigned to a test case in a Testsigma project:
 
-![view and add test priority](https://docs.testsigma.com/images/test-case-priorities/view-and-add-test-priorities.gif)
+![view and add test priority](https://s3.amazonaws.com/static-docs.testsigma.com/new_images/projects/settings/test-case-priorities/view-and-add-test-priorities.gif)
 
 Alternatively, follow the below step by step instructions to assign a test case priority to a test case:
 1. Select the project you want to add to the test case too.

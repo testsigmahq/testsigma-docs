@@ -49,7 +49,7 @@ In Testsigma, each test case can be mapped to a requirement. This helps you orga
   &emsp;2. Within the project, navigate to the Test Development menu <br>
   &emsp;3. Click on the Requirements menu as shown in the screenshot below:
 
-![navigate to requirements](https://docs.testsigma.com/images/requirements/navigate-to-requirements.png)
+  ![navigate to requirements](https://s3.amazonaws.com/static-docs.testsigma.com/new_images/projects/requirements/navigate-to-requirements.png)
 
 
 

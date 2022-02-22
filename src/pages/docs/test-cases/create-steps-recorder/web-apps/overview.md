@@ -32,7 +32,7 @@ This document will take you through the process of creating test steps using the
 &emsp;
 
 ---
-##**Recording test steps using Testsigma’s step recorder chrome extension**
+##**Recording test steps using Test recorder**
  
  1. Create a new Test Case in your Testsigma project.
  2. Enter the Application URL that you want to automate and click on the 'Create’ button. 

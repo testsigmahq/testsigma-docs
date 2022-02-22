@@ -30,7 +30,7 @@ An add-on is a way to extend Testsigma’s built-in repository of actions with c
 
 End to end testing involves automating a large number of diverse features and functionalities within the Application under Test (AUT), some of which may be unique to an AUT.
 
-Testsigma automates a diverse set of actions via its NLP Grammar, but sometimes there are unique actions you need to automate in a test. Since it is not feasible to predict Natural Language Processing (NLP) statements for all these scenarios beforehand, we provide a dynamic solution to extend the built-in actions, i.e., add-ons.
+Testsigma automates a diverse set of actions via its simple English based actions, but sometimes there are unique actions you need to automate in a test. Since it is not feasible to predict action statements for all these scenarios beforehand, we provide a dynamic solution to extend the built-in actions, i.e., add-ons.
 
 For example, the “scroll indefinitely till the bottom of the page” action is applicable to an application that has a huge list of items where the list keeps adding individual items to a list until the user scrolls to the end. Think Pinterest, or an e-commerce website listing clothes.
 

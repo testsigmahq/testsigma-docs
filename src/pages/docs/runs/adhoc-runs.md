@@ -26,7 +26,7 @@ Ad-hoc runs are used to verify the correctness of the Test Steps in a Test Case 
 You should already know how to:
 1. [create a test case](https://testsigma.com/docs/test-cases/manage/add-edit-delete/).
    
-2. create test steps [using NLP](https://testsigma.com/docs/test-cases/step-types/natural-language/) and [using Testsigma Test recorder](https://testsigma.com/docs/test-cases/create-steps-recorder/web-apps/overview/).
+2. create test steps [using simple English based actions](https://testsigma.com/docs/test-cases/step-types/natural-language/) and [using Test recorder](https://testsigma.com/docs/test-cases/create-steps-recorder/web-apps/overview/).
 
 &emsp;
 

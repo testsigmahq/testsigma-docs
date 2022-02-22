@@ -39,7 +39,7 @@ This gif demonstrates how to group reports on the basis of test machines:
 1. Select the project for which you need the reports
 2. Navigate to “Test Development > Run Results”, you should see a page like this:
 
-   ![Run Results page to get test machine reports in Testsigma](https://docs.testsigma.com/images/test-machine-reports/run-results-page-to-get-test-machine-reports-testsigma.png)
+   ![Run Results page to get test machine reports in Testsigma](https://s3.amazonaws.com/static-docs.testsigma.com/new_images/reports/runs/test-machine-reports/run-results-page-to-get-test-machine-reports-testsigma.png)
 
 3. Click on the Test Plan for which you need the report, you should see a test runs page like this:
 

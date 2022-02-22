@@ -89,7 +89,7 @@ RUNTIME_DATA_INPUT="buildurl=http://test.testsigma.com,data1=testdata"
 5. Once Build has been initiated you can check the progress and build logs as shown in the screenshot below:
  ![build progress in AWS DevOps](https://docs.testsigma.com/images/aws-devops/build-progress-aws-devops.png)
 Go to your Testsigma account, where you will see that your Test Plan (the ID which you have given in your .sh file) has been triggered.
-![CI/CD integration in Testsigma](https://docs.testsigma.com/images/aws-devops/cicd-integration-testsigma.png)
+![CI/CD integration in Testsigma](https://s3.amazonaws.com/static-docs.testsigma.com/new_images/continuous-integration/aws-devops/cicd-integration-testsigma.png)
 
 ### Create CodePipeline with Source, Build, and Pipeline details
  

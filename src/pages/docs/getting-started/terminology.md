@@ -99,9 +99,9 @@ Element Repository is a shared repository that contains all Elements created in 
 &emsp;
 
 ---
-##**Testsigma Test Step Recorder**
+##**Test Recorder**
 
-Testsigma Chrome Step Recorder lets you capture Elements and actions within Testsigma. We recommend using the Test Step Recorder since it’s quicker, easier, and captures more locator details than manually creating elements would.
+Test Recorder lets you capture Elements and actions within Testsigma. We recommend using the Test Step Recorder since it’s quicker, easier, and captures more locator details than manually creating elements would.
 
 &emsp;
 

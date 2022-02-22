@@ -35,7 +35,7 @@ This document is written with the assumption that you know how to create a test 
 
  1. Navigate to Test Development > Test Case > Create, as show in the image below
 
-![](https://docs.testsigma.com/images/step-group/navigate-to-test-case.png)
+![navigate to test case](https://s3.amazonaws.com/static-docs.testsigma.com/new_images/test-cases/step-types/rest-api/navigate-to-test-case.png)
 
  2. Add the first step to your test case as shown in the image below. This is just an example. In a real life scenario, you may have any number of test steps before you need to add the test step for testing a RESTful API
 

@@ -18,14 +18,14 @@ contextual_links:
 ---
 
 
-With Testsigma, you can export the test execution reports in excel (Xls) format. In this document, we will discuss how to do that.
+With Testsigma, you can export the test plan reports in excel (Xls) format. In this document, we will discuss how to do that.
 
 ---
 ##**Navigation:** Select Project > Test Development > Run Results
 
 Here is a quick gif that demonstrates how to export your run results in excel format:
 
-![gif demonstrating how to to export report of test runs in excel format in Testsigma](https://docs.testsigma.com/images/export-report-xls/run-results-page-testsigma.gif)
+![gif demonstrating how to to export report of test runs in excel format in Testsigma](https://s3.amazonaws.com/static-docs.testsigma.com/new_images/reports/runs/export-report-xls/run-results-page-testsigma.gif)
 
 ---
 ##**How to export your run results in the excel format:**

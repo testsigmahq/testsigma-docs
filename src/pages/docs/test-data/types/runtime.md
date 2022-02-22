@@ -63,7 +63,7 @@ Ex. Enter **$|bill_id|** in the **BillNumber** field
 
 This step will enter the value stored in bill_id into the BillNumber field.
 
-![use-runtime-data-via-variable-test-step](https://docs.testsigma.com/images/runtime/use-runtime-data-via-variable-test-step.png)
+![use-runtime-data-via-variable-test-step](https://s3.amazonaws.com/static-docs.testsigma.com/new_images/docs/test-data/types/runtime/use-runtime-data-via-variable-test-step.png)
 
 [[info | NOTE:]]
 | If you enter a variable name without storing the value, you will see the following error in the run report. Make sure to always store the value into a variable before using it. 

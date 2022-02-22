@@ -14,7 +14,7 @@ contextual_links:
 ---
 
 ---
-Testsigma Recorder lets you generate test steps automatically in plain English, by recording your actions in the application UI. For this, we need some control options. This document contains information about the control options and actions available in Testsigma’s Test Recorder for recording test steps. 
+Test Recorder lets you generate test steps automatically in plain English, by recording your actions in the application UI. For this, we need some control options. This document contains information about the control options and actions available in Test Recorder for recording test steps. 
 
 &emsp;
 
@@ -24,15 +24,15 @@ This document assumes that you know how to:
 
 &emsp;a. [Create Test case](https://testsigma.com/docs/test-cases/manage/add-edit-delete/)
 
-&emsp;b. [Create Test steps using NLP](https://testsigma.com/docs/test-cases/create-steps-nl/overview/)
+&emsp;b. [Create Test steps using simple English based actions](https://testsigma.com/docs/test-cases/create-steps-nl/overview/)
 
-&emsp;c. [Create Test steps using Testsigma’s test step recorder](https://testsigma.com/docs/test-cases/create-steps-recorder/web-apps/overview/)
+&emsp;c. [Create Test steps using step Test recorder](https://testsigma.com/docs/test-cases/create-steps-recorder/web-apps/overview/)
 
-Given below are the controls and actions available in Testsigma’s test step recorder:
+Given below are the controls and actions available in step Test recorder:
  
 &emsp;**1. Mirroring Mode:** This mode enables the device screen mirroring and you can interact in real-time with the device.
 
-![mirroring mode for android step recorder in Testsigma](https://docs.testsigma.com/images/controls-and-actions/mirroring-mode-android-step-recorder.png)
+![mirroring mode for android step Test recorder in Testsigma](https://docs.testsigma.com/images/controls-and-actions/mirroring-mode-android-step-recorder.png)
 
 &emsp;**2. Inspection Mode:** This mode is used for capturing the element details.
    

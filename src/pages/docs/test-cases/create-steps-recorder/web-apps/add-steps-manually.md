@@ -17,7 +17,7 @@ contextual_links:
 
 ---
 
-You can manually add test steps to a test case that you recorded using the Testsigma test step recorder chrome extension. 
+You can manually add test steps to a test case that you recorded using the Test recorder. 
 
 &emsp;
 
@@ -26,8 +26,8 @@ You can manually add test steps to a test case that you recorded using the Tests
 
 You should already know how-to, or have:
 
- 1. [Testsigma step recorder chrome extension.](https://testsigma.com/docs/test-step-recorder/install-chrome-extension/)
- 2. [record test steps via the Testsigma test recorder.](https://testsigma.com/docs/test-cases/create-steps-recorder/web-apps/overview/)
+ 1. [Test recorder.](https://testsigma.com/docs/test-step-recorder/install-chrome-extension/)
+ 2. [Record test steps via the Test recorder.](https://testsigma.com/docs/test-cases/create-steps-recorder/web-apps/overview/)
 
 &emsp;
 
@@ -37,12 +37,12 @@ You should already know how-to, or have:
  1. Create a test case via the Testsigma test recorder. 
  2. Hover on the test step after (or before) which you want to add more test steps. 	
 
-![add step manually after you record test steps in Testsigma’s test recorder](https://docs.testsigma.com/images/add-steps-manually/add-step-manually-recorded-test-steps-testsigma-recorder.png)
+![add step manually after you record test steps in Test recorder](https://docs.testsigma.com/images/add-steps-manually/add-step-manually-recorded-test-steps-testsigma-recorder.png)
 
  3. if you want to add a step prior to the highlighted step - click on the “+ Step” button above the test step. If you want to add a step after the highlighted step - click on the “+ Step” button below the test step. 
  4. Add another test step:
 
-![added step in testsigma’s test recorder](https://docs.testsigma.com/images/add-steps-manually/added-step-testsigma-recorder.png)
+![added step in Test recorder](https://docs.testsigma.com/images/add-steps-manually/added-step-testsigma-recorder.png)
 
 Add the test step via Actions.  Learn more about adding [Action test steps.](https://testsigma.com/docs/test-cases/step-types/natural-language/)
 

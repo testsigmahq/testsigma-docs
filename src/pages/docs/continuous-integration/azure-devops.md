@@ -61,7 +61,7 @@ In this case, we already had an existing YAML file in the repo. So, once you sel
 **Step 5: Review the CI Configuration**
 After selecting the Branch and path you can click on "continue" and you will need to review your YAML code.
 ![Review CI configuration in Azure DevOps](https://docs.testsigma.com/images/azure-devops/review-ci-configuration-azure-devops.png)
-The YAML file contains the following code where you need to enter the filePath of the [Generic Shell Script](https://testsigma.com/docs/continuous-integration/shell-script/) (cicd-api.sh) to run it. This Shell script is the one that actually triggers the Test Plan execution and gives you the result of execution once it's complete.
+The YAML file contains the following code where you need to enter the filePath of the [Generic Shell Script](https://testsigma.com/docs/continuous-integration/shell-script/) (cicd-api.sh) to run it. This Shell script is the one that actually triggers the Test Plan execution and gives you the result of Test plan once it's complete.
 ```yaml
 # Starter pipeline
 # Start with a minimal pipeline that you can customize to build and deploy your code.
@@ -106,7 +106,7 @@ Once the job has been completed, the Job status will be "Success" as shown in th
 **Step 7: Checking the Test Run Results**
 That was all about Running the Job, now we would learn how can we see the result reports in Azure. Once the job is completed we can see the JUnit report in the **Test Plans > Runs** as shown below:
 ![Test Plans Runs in Pipelines in Azure DevOps](https://docs.testsigma.com/images/azure-devops/pipelines-testplans-runs-azure-devops.png)
-After clicking on Runs you can select the execution for which you want to view the report and then you will be navigated to the page below, and also you can download the JUnit report in XML format.
+After clicking on Runs you can select the Test plan for which you want to view the report and then you will be navigated to the page below, and also you can download the JUnit report in XML format.
 ![Junit report in Azure DevOps](https://docs.testsigma.com/images/azure-devops/junit-report-azure-devops.png)
 You can use another shell script to convert the JUnit XML format result into an HTML format. A tool like [Allure](https://docs.qameta.io/allure/#_reporting) can help you with this.
 

@@ -16,13 +16,13 @@ contextual_links:
 ---
 
 ---
-You can perform bulk actions on the test steps that you record using Testsigma Test Recorder for an iOS project. In this document, we will cover how to do that.
+You can perform bulk actions on the test steps that you record using Test Recorder for an iOS project. In this document, we will cover how to do that.
 
 &emsp;
 
 ---
 ##**Pre-requisites:**
-You should already be familiar with [Testsigma’s Test Recorder](https://testsigma.com/docs/test-cases/create-steps-recorder/ios-apps/overview/).
+You should already be familiar with [Test Recorder](https://testsigma.com/docs/test-cases/create-steps-recorder/ios-apps/overview/).
 
 &emsp;
 
@@ -34,13 +34,13 @@ You should already be familiar with [Testsigma’s Test Recorder](https://testsi
 
 	The bulk actions, as they appear on the Test Recorder UI, are also highlighted in the screenshot below:
 
-![available bulk actions on Testsigma Test Recorder for an iOS Project in Testsigma](https://docs.testsigma.com/images/bulk-actions/bulk-actions-mobile-inspector-ios-testsigma.png)
+![available bulk actions on Test Recorder for an iOS Project in Testsigma](https://docs.testsigma.com/images/bulk-actions/bulk-actions-mobile-inspector-ios-testsigma.png)
 
 Bulk actions available are:
 
 &emsp;**a. Bulk Update:** Update the test steps according to the options highlighted in the screenshot below:
 
-![bulk update options from Testsigma Test Recorder UI for iOS](https://docs.testsigma.com/images/bulk-actions/bulk-update-options-testsigma-mobile-inspector-ios.png)
+![bulk update options from Test Recorder UI for iOS](https://docs.testsigma.com/images/bulk-actions/bulk-update-options-testsigma-mobile-inspector-ios.png)
 
 The options for the bulk update are:
 

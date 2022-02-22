@@ -17,4 +17,4 @@ The Random Test Data is invoked by using the ~|<integer>| format where <integer>
 
 For example, ~|35| is replaced by a 35 character-long alphanumeric string during execution.
 
-![Using Random Test Data in Test Steps](https://docs.testsigma.com/images/random/random-testdata-usage-test-steps-gif.gif)
+![Using Random Test Data in Test Steps](https://s3.amazonaws.com/static-docs.testsigma.com/new_images/test-data/types/random/random-testdata-usage-test-steps.gif)

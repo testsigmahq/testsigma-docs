@@ -17,7 +17,7 @@ contextual_links:
 
 ---
 
-When test steps are recorded via Testsigma test recorder, Testsigma gives you the option to select multiple test steps at a time and then perform bulk actions on your selection. In this document, we will discuss those actions and how to perform them.
+When test steps are recorded via Test recorder, Testsigma gives you the option to select multiple test steps at a time and then perform bulk actions on your selection. In this document, we will discuss those actions and how to perform them.
 
 &emsp;
 
@@ -26,23 +26,23 @@ When test steps are recorded via Testsigma test recorder, Testsigma gives you th
 
 You should already know how-to, or have:
 
-1. [Testsigma step recorder chrome extension.](https://testsigma.com/docs/test-step-recorder/install-chrome-extension/)
-2. [record test steps via the Testsigma test recorder.](https://testsigma.com/docs/test-cases/create-steps-recorder/web-apps/overview/)
+1. [Testsigma step Test recorder.](https://testsigma.com/docs/test-step-recorder/install-chrome-extension/)
+2. [Record test steps via the Test recorder.](https://testsigma.com/docs/test-cases/create-steps-recorder/web-apps/overview/)
 
 &emsp;
 
 ---
 ##**Bulk actions on recorded test steps in Testsigma’s test recorder UI:**
 
- 1. Create a Test Case using Testsigma recorder with multiple test steps.
+ 1. Create a Test Case using Test recorder with multiple test steps.
  2. To select a step, hover over the test step number. The number will change into a checkbox:
 
-![the UI change when a hover is done over a test step UI in Testsigma recorder](https://docs.testsigma.com/images/bulk-actions/hover-over-test-step-ui-change-bulk-actions-testsigma-recorder.png)
+![the UI change when a hover is done over a test step UI in Test recorder](https://docs.testsigma.com/images/bulk-actions/hover-over-test-step-ui-change-bulk-actions-testsigma-recorder.png)
 
  3. Click the checkbox.
  4. Repeat 2. and 3. to select more test steps. Bulk actions option appears when you’ve selected at least two test steps.
 
-![bulk actions menu in testsigma recorder](https://docs.testsigma.com/images/bulk-actions/bulk-actions-menu-testsigma-recorder.png)
+![bulk actions menu in test recorder](https://docs.testsigma.com/images/bulk-actions/bulk-actions-menu-testsigma-recorder.png)
 
  5. Bulk actions available are:
     * **Select all** - to select/deselect all test steps

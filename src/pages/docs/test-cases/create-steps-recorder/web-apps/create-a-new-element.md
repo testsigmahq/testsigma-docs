@@ -10,7 +10,7 @@ warning: false
 ---
 
 
-In Testsigma, you can create elements for a Web Project using the test recorder chrome extension. There are 2 ways that this can be done:
+In Testsigma, you can create elements for a Web Project using the test recorder. There are 2 ways that this can be done:
 
  1. [Recording multiple elements in one go.](https://testsigma.com/docs/elements/web-apps/record-multiple-elements/)
  2. [Recording a single element.](https://testsigma.com/docs/elements/web-apps/capture-single-element/)

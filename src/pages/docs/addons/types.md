@@ -20,7 +20,7 @@ You should already know about Testsigma add-ons. See: [What is an add-on?](https
 ---
 ##In Testsigma you can create add-ons for the following use case:
 
-1. **Custom Actions:** Testsigma has a comprehensive, built-in NLP that lets you automate most user actions in simple English. But sometimes you may need to automate actions unique to your AUT. You can build your own NLP and automate those unique actions using add-ons. See: [How to build a custom action in add-ons](https://testsigma.com/tutorials/addons/how-create-addons-actions/).
+1. **Custom Actions:** Testsigma has a comprehensive, built-in actions that lets you automate most user actions in simple English. But sometimes you may need to automate actions unique to your AUT. You can build your own actions and automate those unique actions using add-ons. See: [How to build a custom action in add-ons](https://testsigma.com/tutorials/addons/how-create-addons-actions/).
 
 2. **Test Data Generator:** Testsigma has [default Data Generators](https://testsigma.com/docs/test-data/data-generators/defalut-list/) to generate test data for your automation. But you can create your own data generators. See: [How to build a custom data generator](https://testsigma.com/tutorials/addons/how-create-addons-test-data-generators/).
 

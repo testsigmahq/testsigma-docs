@@ -44,7 +44,7 @@ Sometimes, when you update the structure of your website or application, you wil
  1. Select your project and then navigate to ‘Test Development > Elements’
  2. ‘All Elements’ page will appear. This contains all the elements that you have created for the selected android project, like this:
 
-![all elements page to update elements for android project in Testsigma](https://docs.testsigma.com/images/update-elements/all-elements-page-update-elements-android-testsigma.png)
+![all elements page to update elements for android project in Testsigma](https://s3.amazonaws.com/static-docs.testsigma.com/new_images/test-cases/create-steps-nl/android-apps/update-elements/all-elements-page-update-elements-android-testsigma.png)
 
  3. Scroll or filter to find the element you want to update.
  4. Hover over the element and click on the ‘edit’ button’ that appears. The button is also highlighted in the screenshot below:
@@ -53,9 +53,9 @@ Sometimes, when you update the structure of your website or application, you wil
 
  5. The Edit Element layover will appear:
    
-![edit element page to update elements for android project in Testsigma](https://docs.testsigma.com/images/update-elements/edit-element-page-update-elements-android-testsigma.png)
+![edit element page to update elements for android project in Testsigma](https://s3.amazonaws.com/static-docs.testsigma.com/new_images/test-cases/create-steps-nl/android-apps/update-elements/edit-element-page-update-elements-android-testsigma.png)
 
-There is a radio button that lets you choose between ‘Manually’ or ‘Element Inspector’. When ‘Manually’ is selected, you can make the changes you need to make in this element on the form and click on ‘Update’ to finalize the changes. For the recorder approach, see how to [update elements using recorder](https://testsigma.com/docs/test-cases/create-steps-recorder/android-apps/update-elements/).
+There is a radio button that lets you choose between ‘Manually’ or ‘Element Inspector’. When ‘Manually’ is selected, you can make the changes you need to make in this element on the form and click on ‘Update’ to finalize the changes. For the Test recorder approach, see how to [update elements using Test recorder](https://testsigma.com/docs/test-cases/create-steps-recorder/android-apps/update-elements/).
 
 &emsp;
 
@@ -65,12 +65,12 @@ There is a radio button that lets you choose between ‘Manually’ or ‘Elemen
  1. Select your android project and then navigate to ‘Test Development > Elements’
  2. On the top right, there is an option to export the elements in excel format:
 
-![export button on all elements page to update elements for an android project Testsigma](https://docs.testsigma.com/images/update-elements/export-button-all-elements-page-update-elements-android-testsigma.png)
+![export button on all elements page to update elements for an android project Testsigma](https://s3.amazonaws.com/static-docs.testsigma.com/new_images/test-cases/create-steps-nl/android-apps/update-elements/export-button-all-elements-page-update-elements-android-testsigma.png)
 
  3. In the excel sheet, update the required fields for the required elements.
  4. Click on the import button highlighted in the screenshot below. Select the excel sheet you updated in step 3 for import.
 
-![import button on all elements page to update elements for an android project in Testsigma](https://docs.testsigma.com/images/update-elements/import-button-all-elements-page-update-elements-android-testsigma.png)
+![import button on all elements page to update elements for an android project in Testsigma](https://s3.amazonaws.com/static-docs.testsigma.com/new_images/test-cases/create-steps-nl/android-apps/update-elements/import-button-all-elements-page-update-elements-android-testsigma.png)
 
 With import, the edits done in step 3 will be visible in the corresponding elements in your android project in Testsigma.
 

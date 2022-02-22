@@ -56,7 +56,7 @@ This document contains information about adding Conditional If using testsigma�
 
  1. Navigate to “Test Development” > “Test Cases” > Create.
 
-![create new test case](https://docs.testsigma.com/images/if-condition/create-new-test-cases.png)
+![create new test case](https://s3.amazonaws.com/static-docs.testsigma.com/new_images/test-cases/step-types/if-condition/create-new-test-cases.png)
 
  2. Enter a name, a description, and choose the different options available in the Advanced options menu as required.
  3. Click create. This will take you to the test case details page.

@@ -45,7 +45,7 @@ Select Project > Test Development > Run Results
 ##**How to use drill-down reports in Testsigma:**
 
 1. Navigate to **Run Results** page.
-   ![Run Results page for drill down reports in Testsigma](https://docs.testsigma.com/images/drill-down-reports/run-results-page-drill-down-reports-testsigma.png)
+   ![Run Results page for drill down reports in Testsigma](https://s3.amazonaws.com/static-docs.testsigma.com/new_images/reports/runs/drill-down-reports/run-results-page-drill-down-reports-testsigma.png)
 
 2. Click on a Test Plan Result. The test plan result page will look like this:
    ![Test Plan Run Result Page to Drill Down reports in Testsigma](https://docs.testsigma.com/images/drill-down-reports/test-plan-run-result-page-drill-down-reports-testsigma.png)
@@ -59,6 +59,6 @@ Select Project > Test Development > Run Results
 
 See the steps above in action in the gif below:
 
-![gif to help drill down reports in Testsigma](https://docs.testsigma.com/images/drill-down-reports/gif-to-help-drill-down-reports-in-testsigma.gif)
+![gif to help drill down reports in Testsigma](https://s3.amazonaws.com/static-docs.testsigma.com/new_images/reports/runs/drill-down-reports/gif-to-help-drill-down-reports-in-testsigma.gif)
 
 

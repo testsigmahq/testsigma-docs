@@ -21,14 +21,14 @@ contextual_links:
 
 
 ---
-In an iOS project in Testsigma, you can selectively capture elements one at a time using the Testsigma mobile inspector.
+In an iOS project in Testsigma, you can selectively capture elements one at a time using the Test Recorder.
 
 <br>
 
 ---
 ##**Pre-requisites**
 1. You should have an iOS project in Testsigma. See [creating a project](https://testsigma.com/docs/projects/overview/).
-2. Your iOS applications’ apk should be uploaded in Testsigma so that the mobile inspector can record elements from it. See [uploading apps to Testsigma](https://testsigma.com/docs/uploads/upload-apps/).
+2. Your iOS applications’ apk should be uploaded in Testsigma so that the Test recorder can record elements from it. See [uploading apps to Testsigma](https://testsigma.com/docs/uploads/upload-apps/).
 
 <br>
 
@@ -39,24 +39,24 @@ In an iOS project in Testsigma, you can selectively capture elements one at a ti
 <br>
 
 ---
-##**How to create one element at a time by using the Testsigma mobile inspector for an iOS project in Testsigma**
+##**How to create one element at a time by using the Test recorder for an iOS project in Testsigma**
 1. On the ‘All Elements’ page, click on the ‘Create’ button on the top right corner of the page:
-![create button on elements page under create one element at a time for an iOS project in Testsigma](https://docs.testsigma.com/images/capture-single-element/create-button-create-one-element-ios-testsigma.png)
+![create button on elements page under create one element at a time for an iOS project in Testsigma](https://s3.amazonaws.com/static-docs.testsigma.com/new_images/elements/ios-apps/capture-single-element/create-button-create-one-element-ios-testsigma.png)
 
 2. On the ‘Create Element’ layover that appears, select the option ‘Element Inspector’:
-![element inspector radio button on create element layover under create one element at a time for an iOS project in Testsigma](https://docs.testsigma.com/images/capture-single-element/element-inspector-radio-button-create-one-element-ios-testsigma.png)
+![element inspector radio button on create element layover under create one element at a time for an iOS project in Testsigma](https://s3.amazonaws.com/static-docs.testsigma.com/new_images/elements/ios-apps/capture-single-element/element-inspector-radio-button-create-one-element-ios-testsigma.png)
 
 
-3. Now select the lab, version, device, and the .ipa you want to capture the element from, and then click on the button ‘Launch’. This launches the Mobile inspector which should look something like this:
-![mobile inspector screen under create one element at a time for an iOS project in Testsigma](https://docs.testsigma.com/images/capture-single-element/mobile-inspector-screen-create-one-element-ios-testsigma.png)
+3. Now select the lab, version, device, and the .ipa you want to capture the element from, and then click on the button ‘Launch’. This launches the Test recorder which should look something like this:
+![Test recorder screen under create one element at a time for an iOS project in Testsigma](https://docs.testsigma.com/images/capture-single-element/mobile-inspector-screen-create-one-element-ios-testsigma.png)
 
 4. Make sure that the inspection mode is selected, using the button highlighted below:
-![inspection mode button on mobile inspector screen under create one element at a time for an iOS project in Testsigma](https://docs.testsigma.com/images/capture-single-element/inspection-mode-button-create-one-element-ios-testsigma.png)
+![inspection mode button on Test recorder screen under create one element at a time for an iOS project in Testsigma](https://docs.testsigma.com/images/capture-single-element/inspection-mode-button-create-one-element-ios-testsigma.png)
 
 5. Now click on the element that you want to capture. On the element form that opens up, enter the ‘element name’ and ‘screen name’. You can also change the element type according to your preference in this form:
 
 ![element form on mobile inspector screen under create one element at a time for an iOS project in Testsigma](https://docs.testsigma.com/images/capture-single-element/element-form-create-one-element-ios-testsigma.png)
 
-6. Once you enter the required details in the element form, click on the button ‘Save & Close’. The element will be saved in the project’s element list and the mobile inspector will be closed. 
+6. Once you enter the required details in the element form, click on the button ‘Save & Close’. The element will be saved in the project’s element list and the Test recorder will be closed. 
 
-You can also [capture multiple elements at once via mobile inspector](https://testsigma.com/docs/elements/ios-apps/record-multiple-elements/).
+You can also [capture multiple elements at once via Test recorder](https://testsigma.com/docs/elements/ios-apps/record-multiple-elements/).

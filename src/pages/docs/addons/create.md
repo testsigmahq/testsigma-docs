@@ -91,7 +91,7 @@ Here’s the sample code for Android:
 Refactor the code based on your requirements by :
   * Modifying the Action Text
   * Adding Selenium or Java code for the action to be performed
-  * Changing Elements / UI identifiers / locators
+  * Changing Elements/locators
   * In the Test class, adding test data
 
 Here’s some modified code for an Android add-on that swipes left n times:

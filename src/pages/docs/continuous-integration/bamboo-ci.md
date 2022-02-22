@@ -78,7 +78,7 @@ As soon as the Plan runs and the pipeline reaches the Testsigma Task, the Testsi
  
 You will be able to see a running Test Plan as shown below:
 
-![test plan running in Testsigma](https://docs.testsigma.com/images/bamboo-ci/test-plan-running-testsigma.png)
+![test plan running in Testsigma](https://s3.amazonaws.com/static-docs.testsigma.com/new_images/continuous-integration/bamboo-ci/test-plan-running-testsigma.png)
 
 You can click on the Reports icon to check the results.
 

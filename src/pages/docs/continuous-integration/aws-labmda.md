@@ -50,14 +50,11 @@ JSON_OUTPUT_REPORTS_DIR=.
 ![aws-testsigma.sh information in AWS Lambda](https://docs.testsigma.com/images/aws-labmda/aws-testsigma-sh-aws-lambda.png
  )
 The URL details for the test plan can be taken from the Testsigma app:
-![URL details for a test plan in Testsigma](https://docs.testsigma.com/images/aws-labmda/url-details-test-plan-testsigma.png
- )
+![URL details for a test plan in Testsigma](https://s3.amazonaws.com/static-docs.testsigma.com/new_images/continuous-integration/aws-labmda/url-details-test-plan-testsigma.png)
 6. Click on TEST at the top right corner to trigger the Test Plan.
-![test Testsigma integration in AWS Lambda](https://docs.testsigma.com/images/aws-labmda/test-testsigma-integration-aws-lambda.png
- )
+![test Testsigma integration in AWS Lambda](https://docs.testsigma.com/images/aws-labmda/test-testsigma-integration-aws-lambda.png)
 
-![execution results of Testsigma integration in AWS Lambda](https://docs.testsigma.com/images/aws-labmda/testsigma-integration-execution-result-aws-lambda.png
- )
+![execution results of Testsigma integration in AWS Lambda](https://docs.testsigma.com/images/aws-labmda/testsigma-integration-execution-result-aws-lambda.png)
 That's all we need to automate Test Execution when a successful build is triggered using the AWS Lambda.
  
  

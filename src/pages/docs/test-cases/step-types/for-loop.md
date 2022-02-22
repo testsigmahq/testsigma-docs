@@ -45,7 +45,7 @@ Start by creating a test data profile with ‘n’ rows:
  1. Navigate to Test Development
  2. Click on Test Data Profiles and click Create
 
-![navigate to test data profile](https://docs.testsigma.com/images/for-loop/navigate-to-test-data-profile1.png)
+![navigate to test data profile](https://s3.amazonaws.com/static-docs.testsigma.com/new_images/test-cases/step-types/for-loop/navigate-to-test-data-profile1.png)
 
  3. Enter details in the Test Data profile, a sample data profile is attached in the screenshot below for your reference: 
 

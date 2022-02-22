@@ -16,7 +16,7 @@ contextual_links:
 ---
 
 ---
-When test steps are created via the Recorder for iOS, there are some actions that can be taken on those steps via the Recorder’s UI, such as: 
+When test steps are created via the Test Recorder for iOS, there are some actions that can be taken on those steps via the Test Recorder’s UI, such as: 
 
 
 1. Add Test Step
@@ -37,7 +37,7 @@ We will discuss all the above test step actions in this document.
 
 ---
 ##**Pre-requisites:**
-You should already know about [Testsigma’s Recorder](https://testsigma.com/docs/test-cases/create-steps-recorder/android-apps/overview/).
+You should already know about [Test Recorder](https://testsigma.com/docs/test-cases/create-steps-recorder/android-apps/overview/).
 
 &emsp;
 
@@ -53,17 +53,17 @@ You should already know about [Testsigma’s Recorder](https://testsigma.com/doc
 
 5. Hover on one of the recorded test steps:
 
-![Test step actions that appear on hover over a test step in Testsigma Recorder for an ios project](https://docs.testsigma.com/images/step-actions/hover-over-test-steps-test-step-actions-testsigma-element-inspector-ios.png)
+![Test step actions that appear on hover over a test step in Test Recorder for an ios project](https://docs.testsigma.com/images/step-actions/hover-over-test-steps-test-step-actions-testsigma-element-inspector-ios.png)
 
 If you click on the three horizontal dots at the end of the highlighted row, you will also see the option to edit an element under test step details, as shown in the screenshot below:
 
-![Test step actions that appear on hover over a test step in Testsigma Recorder for an iOS project](https://docs.testsigma.com/images/step-actions/edit-element-test-step-actions-testsigma-element-inspector-ios.png)
+![Test step actions that appear on hover over a test step in Test Recorder for an iOS project](https://docs.testsigma.com/images/step-actions/edit-element-test-step-actions-testsigma-element-inspector-ios.png)
 
 The highlighted options are the test actions. Let’s discuss them one by one:
 
-**1. Add Step:** When you hover over a test step already recorded on the testsigma Recorder, you see two buttons labeled “+ Add Step” - one above the hovered test step and one below the hovered test step. These are also highlighted in the screenshot below:
+**1. Add Step:** When you hover over a test step already recorded on the Test Recorder, you see two buttons labeled “+ Add Step” - one above the hovered test step and one below the hovered test step. These are also highlighted in the screenshot below:
 
-![add step buttons to add another test step in Testsigma Recorder for an ios project](https://docs.testsigma.com/images/step-actions/add-step-buttons-test-steps-testsigma-element-inspector-ios.png)
+![add step buttons to add another test step in Test Recorder for an ios project](https://docs.testsigma.com/images/step-actions/add-step-buttons-test-steps-testsigma-element-inspector-ios.png)
 
 
 If you click on the ' + Add Step’ button above, you would be able to record another step above the test step, while if you click on the ‘+ Add Step’ below, you would be able to record another step below the test step.
@@ -72,27 +72,27 @@ If you click on the ' + Add Step’ button above, you would be able to record an
 
 **2. Edit:** You can use this option to edit the test step. 
 
-![edit test step under test step actions in Testsigma Recorder for an ios project](https://docs.testsigma.com/images/step-actions/edit-test-step-test-action-testsigma-element-inspector-ios.png)
+![edit test step under test step actions in Test Recorder for an ios project](https://docs.testsigma.com/images/step-actions/edit-test-step-test-action-testsigma-element-inspector-ios.png)
 
 **3. Delete:**  You can use this option to delete the test step.
 
-![delete test step test action in Testsigma Recorder for an ios project](https://docs.testsigma.com/images/step-actions/delete-test-step-test-action-testsigma-element-inspector-ios.png)
+![delete test step test action in Test Recorder for an ios project](https://docs.testsigma.com/images/step-actions/delete-test-step-test-action-testsigma-element-inspector-ios.png)
 
 **4. Step details:** You can check details about a test step by clicking on the option ‘More details’ corresponding to the test step as also highlighted in the screenshot below.
 
-![step details test step action in Testsigma Recorder for an ios project](https://docs.testsigma.com/images/step-actions/step-details-test-step-action-testsigma-element-inspector-ios.png)
+![step details test step action in Test Recorder for an ios project](https://docs.testsigma.com/images/step-actions/step-details-test-step-action-testsigma-element-inspector-ios.png)
 
 The test step details that are shown are as highlighted below:
 
-![test step details in Testsigma Recorder for an ios project](https://docs.testsigma.com/images/step-actions/test-step-details-testsigma-element-inspector-ios.png)
+![test step details in Test Recorder for an ios project](https://docs.testsigma.com/images/step-actions/test-step-details-testsigma-element-inspector-ios.png)
 
-**5. Edit Element:** You can edit an element via the Testsigma Recorder by clicking on the ‘Edit Element’ button on the test details section. The button is also highlighted for your reference in the screenshot below:
+**5. Edit Element:** You can edit an element via the Test Recorder by clicking on the ‘Edit Element’ button on the test details section. The button is also highlighted for your reference in the screenshot below:
 
-![Edit element for a test step in Testsigma Recorder for an ios project](https://docs.testsigma.com/images/step-actions/edit-element-test-step-details-testsigma-element-inspector-ios.png)
+![Edit element for a test step in Test Recorder for an ios project](https://docs.testsigma.com/images/step-actions/edit-element-test-step-details-testsigma-element-inspector-ios.png)
 
-Edit element for a test step in Testsigma Recorder for an ios project
+Edit element for a test step in Test Recorder for an ios project
 
-![Edit Element UI for an element in a test step on Testsigma Recorder UI for an ios project](https://docs.testsigma.com/images/step-actions/edit-element-ui-testsigma-element-inspector-ios.png)
+![Edit Element UI for an element in a test step on Test Recorder UI for an ios project](https://docs.testsigma.com/images/step-actions/edit-element-ui-testsigma-element-inspector-ios.png)
 
 Below are the fields that appear on the ‘Edit Element’ window:
 
@@ -121,7 +121,7 @@ Below are the fields that appear on the ‘Edit Element’ window:
 
 &emsp;Below is how the clone option will appear:
 
-![clone test step test action in Testsigma Recorder for an ios project](https://docs.testsigma.com/images/step-actions/clone-test-step-test-action-testsigma-element-inspector-ios.png)
+![clone test step test action in Test Recorder for an ios project](https://docs.testsigma.com/images/step-actions/clone-test-step-test-action-testsigma-element-inspector-ios.png)
 
 
 

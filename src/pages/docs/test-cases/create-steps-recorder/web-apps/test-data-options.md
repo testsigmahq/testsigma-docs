@@ -17,7 +17,7 @@ contextual_links:
 
 ---
 
-When creating test steps using the test step recorder in Testsigma, there are various types of test data that you can use. In this document, we will discuss how to add that test data during recording test steps for a web project in Testsigma. 
+When creating test steps using the test recorder in Testsigma, there are various types of test data that you can use. In this document, we will discuss how to add that test data during recording test steps for a web project in Testsigma. 
 
 Learn more about [test data types.](https://testsigma.com/docs/test-data/types/overview/)
 
@@ -28,16 +28,16 @@ Learn more about [test data types.](https://testsigma.com/docs/test-data/types/o
 
 You should already know how-to, or have:
 
-1. [Testsigma step recorder chrome extension.](https://testsigma.com/docs/test-step-recorder/install-chrome-extension/)
-2. [record test steps via the Testsigma test recorder.](https://testsigma.com/docs/test-cases/create-steps-recorder/web-apps/overview/)
+1. [Test recorder.](https://testsigma.com/docs/test-step-recorder/install-chrome-extension/)
+2. [record test steps via the Test recorder.](https://testsigma.com/docs/test-cases/create-steps-recorder/web-apps/overview/)
 
 &emsp;
 
 ---
 ##**Adding test data in recorded test steps**
 
- 1. Start recording test steps using Testsigma test recorder.
- 2. In the test recorder UI, add a test step that will have a test data.The example steps that have test data are as below:
+ 1. Start recording test steps using Test recorder.
+ 2. In the Test recorder UI, add a test step that will have a test data.The example steps that have test data are as below:
 
 ![example steps that contain test data for recorder in Testsigma](https://docs.testsigma.com/images/web-apps/test-data-example-steps-for-recorder-testsigma.png)
 

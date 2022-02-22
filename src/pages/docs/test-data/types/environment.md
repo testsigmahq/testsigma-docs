@@ -23,14 +23,14 @@ Hence, we have a separate input test data called “Environment”.
 
 Refer to [create an Environment parameter](https://testsigma.com/docs/test-data/create-environment-data/) to learn how to create an Environment parameter set. You should already know how to [Create Test Steps using Natural Language](https://testsigma.com/docs/test-cases/create-steps-nl/overview/)
 
-![Create Environment](https://docs.testsigma.com/images/environment/create-environment.gif)
+![Create Environment](https://s3.amazonaws.com/static-docs.testsigma.com/new_images/test-data/types/environment/create-environment.gif)
 
 To know how to use different test data types in Test Steps, refer to [Creating Test Steps using simple English](https://testsigma.com/docs/test-cases/step-types/natural-language/)
 
 ---
 ##**Use Environment parameter in test steps**
 
-![Using Environment Test Data in Test Steps](https://docs.testsigma.com/images/environment/environment-testdata-usage-test-steps-gif.gif)
+![Using Environment Test Data in Test Steps](https://s3.amazonaws.com/static-docs.testsigma.com/new_images/test-data/types/environment/environment-testdata-usage-test-steps.gif)
 
 
 

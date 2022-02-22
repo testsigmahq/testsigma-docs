@@ -17,7 +17,7 @@ contextual_links:
 
 ---
 
-Sometimes, when you update your website or application, you’ll also want to update the corresponding elements in your automated test project. In this document, we will discuss how to do that using the Testsigma test recorder.
+Sometimes, when you update your website or application, you’ll also want to update the corresponding elements in your automated test project. In this document, we will discuss how to do that using the Test recorder.
 
 &emsp;
 
@@ -29,16 +29,16 @@ You should already know how to [capture elements.](https://testsigma.com/docs/el
 &emsp;
 
 ---
-##**Updating elements via Testsigma’s test recorder chrome extension**
+##**Updating elements via Test recorder**
 
- 1. Create a Test Case using the Testsigma recorder. 
- 2. Click on the element/Elements that you want to edit. The Elements appear in green on the Testsigma recorder UI. 
+ 1. Create a Test Case using the Test recorder. 
+ 2. Click on the element/Elements that you want to edit. The Elements appear in green on the Test recorder UI. 
 
-![Highlighted example Elements in Testsigma recorder](https://docs.testsigma.com/images/update-elements/highlighted-example-Elements-testsigma-recorder.png)
+![Highlighted example Elements in Test recorder](https://docs.testsigma.com/images/update-elements/highlighted-example-Elements-testsigma-recorder.png)
 
  3. Click ‘edit Elements’ from the three dots on the far right
 
-![Multiple options on the edit Elements screen window in Testsigma recorder](https://docs.testsigma.com/images/update-elements/edit-Element-screen-multiple-options-testsigma-recorder.png)
+![Multiple options on the edit Elements screen window in Test recorder](https://docs.testsigma.com/images/update-elements/edit-Element-screen-multiple-options-testsigma-recorder.png)
 
 These are the fields that will appear:
 

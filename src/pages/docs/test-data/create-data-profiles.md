@@ -56,7 +56,7 @@ Follow these steps to create and use Test Data Profiles in your Tests.
 1. Navigate to Test Development > Test Data Profiles
 2. Click on the ‘Create’ button on the top right:
 
-    ![create button on the all test data profiles page for creating test data profiles in Testsigma](https://docs.testsigma.com/images/create-data-profiles/all-test-data-profiles-creating-create-button.png)
+    ![create button on the all test data profiles page for creating test data profiles in Testsigma](https://s3.amazonaws.com/static-docs.testsigma.com/new_images/test-data/create-data-profiles/all-test-data-profiles-creating-create-button.png)
 
 3. On the ‘Create Test Data Profile’  page that opens, go to the text field ‘Name’ and enter the name you want to assign to your test data profile.
 4. Enter names for the data set you want to create. Here we added names  for two data sets “Valid” and “Invalid”
@@ -103,7 +103,7 @@ You should know how to create a test case, if not, please refer to the document 
 * Also enable the data-driven testing toggle button
 * Click create
 
-![associate a test data profile to a test case in Testsigma](https://docs.testsigma.com/images/test-data/associate-test-data-profile-to-test-case.gif)
+![associate a test data profile to a test case in Testsigma](https://s3.amazonaws.com/static-docs.testsigma.com/new_images/test-data/associate-test-data-profile-to-test-case.gif)
 
 ---
 ##Step 2: Insert the test data into your test case
@@ -118,7 +118,7 @@ Navigate to https://travel.testsigma.com/signup
 
 The above workflow is depicted in the below gif too:
 
-   ![gif demonstrating the insertion of test data into a test case in Testsigma](https://docs.testsigma.com/images/test-data/insert-test-data-to-test-case.gif)
+   ![gif demonstrating the insertion of test data into a test case in Testsigma](https://s3.amazonaws.com/static-docs.testsigma.com/new_images/test-data/insert-test-data-to-test-case.gif)
 
 The test data can also be imported from an excel sheet, explained [here](https://testsigma.com/docs/test-data/import-data-profiles/).
 

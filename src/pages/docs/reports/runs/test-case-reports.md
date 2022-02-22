@@ -34,7 +34,7 @@ Here is a quick gif that demonstrates how to group reports on the basis of test 
 1. Select the project for which you need the reports
 2. Navigate to “Test Development > Run Results”, you should see a page as below:
 
-   ![Run Results page to get test case reports in Testsigma](https://docs.testsigma.com/images/test-case-reports/run-results-page-to-get-test-case-reports-testsigma.png)
+   ![Run Results page to get test case reports in Testsigma](https://s3.amazonaws.com/static-docs.testsigma.com/new_images/reports/runs/test-case-reports/run-results-page-to-get-test-case-reports-testsigma.png)
 
 3. Click on the Test Plan for which you need the report. You should see test runs page like below:
 

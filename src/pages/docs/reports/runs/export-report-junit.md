@@ -15,13 +15,13 @@ contextual_links:
 ---
 
 
-With Testsigma, you can export the test execution reports in XML format. In this document, we will discuss how to do that. 
+With Testsigma, you can export the test plan reports in XML format. In this document, we will discuss how to do that. 
 
 Navigation: Select Project > Test Development > Run Results
 
 Here is a quick gif that demonstrates how to export the result of test reports in XML (junit) format in Testsigma
 
-![Run results page in Testsigma](https://docs.testsigma.com/images/export-report-junit/run-results-page-testsigma.gif)
+![Run results page in Testsigma](https://s3.amazonaws.com/static-docs.testsigma.com/new_images/reports/runs/export-report-junit/run-results-page-testsigma.gif)
 
 
 ---

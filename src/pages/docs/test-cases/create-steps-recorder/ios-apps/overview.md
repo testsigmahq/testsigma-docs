@@ -16,7 +16,7 @@ contextual_links:
 ---
 
 ---
-With Testsigma, you can either write your test steps in simple English or you can use the Recorder to record your test steps and generate airtight automated android tests in simple English. In this document, we cover how to record test steps via the Recorder. 
+With Testsigma, you can either write your test steps in simple English or you can use the Test Recorder to record your test steps and generate airtight automated android tests in simple English. In this document, we cover how to record test steps via the Test Recorder. 
 
 &emsp;
 
@@ -29,7 +29,7 @@ With Testsigma, you can either write your test steps in simple English or you ca
 &emsp;
 
 ---
-##**How to record test steps using Testsigma’s Recorder for iOS:**
+##**How to record test steps using Test Recorder for iOS:**
 1. Open a pre-existing iOS Project or create a new one under your Testsigma account.
  
 2. Go to ‘Test Development > Test Cases’
@@ -41,11 +41,11 @@ With Testsigma, you can either write your test steps in simple English or you ca
 
 ![the record button to record test steps via the Recorder in Testsigma, for an iOS project](https://docs.testsigma.com/images/ios-apps/record-button-record-test-steps-mobile-inspector-testsigma-ios.png)
 
-5. The record button will launch the Recorder. Once you click the record button, another window will open up, where you can choose the device lab, version, device, and app for testing:
+5. The record button will launch the Test Recorder. Once you click the record button, another window will open up, where you can choose the device lab, version, device, and app for testing:
 
 ![the record button window to record test steps via the Recorder in Testsigma, for an iOS project](https://docs.testsigma.com/images/ios-apps/record-button-window-record-test-steps-mobile-inspector-testsigma-ios.png)
 
-6. Click Record. The recorder interface will look like this:
+6. Click Record. The Test recorder interface will look like this:
 
 ![to record test steps via the Recorder in Testsigma, for an iOS projec](https://docs.testsigma.com/images/ios-apps/to-record-test-steps-mobile-inspector-testsigma-ios.png)
 
@@ -54,14 +54,14 @@ With Testsigma, you can either write your test steps in simple English or you ca
 ![test steps section on the Recorder UI in Testsigma, for an iOS project](https://docs.testsigma.com/images/ios-apps/test-steps-section-record-test-steps-mobile-inspector-testsigma-ios.png)
 
 
-8. Now you can use the Recorder to record next steps. Before doing that let’s review all the options available with the Recorder. The options available are:
+8. Now you can use the Test Recorder to record next steps. Before doing that let’s review all the options available with the Test Recorder. The options available are:
 
 &emsp;
 **a. Inspection mode:**
 
 ![ inspection mode button to record test steps via the Recorder in Testsigma, for an iOS project](https://docs.testsigma.com/images/ios-apps/inspection-mode-button-record-test-steps-mobile-inspector-testsigma-ios.png)
 
-In inspection mode, you can click on elements and get more information about them. For example, if we click on the button ‘Log in’, this information about the button will appear on the Recorder UI.
+In inspection mode, you can click on elements and get more information about them. For example, if we click on the button ‘Log in’, this information about the button will appear on the Test Recorder UI.
 
 
 ![actions available for an inspected element to record test steps via the Recorder in Testsigma, for an iOS project](https://docs.testsigma.com/images/ios-apps/actions-for-inspected-element-mobile-inspector-testsigma-ios.png)
@@ -119,38 +119,38 @@ The Toggle button lets you switch between landscape and portrait mode.
 This option can be used to search for an element in the app source.
 
 
-To know about other aspects of the Recorder, refer to the links below:
+To know about other aspects of the Test Recorder, refer to the links below:
 
-1. [Test Step Actions](https://testsigma.com/docs/test-cases/create-steps-recorder/ios-apps/step-actions/): The actions that can be performed on a test step via the Recorder UI.
+1. [Test Step Actions](https://testsigma.com/docs/test-cases/create-steps-recorder/ios-apps/step-actions/): The actions that can be performed on a test step via the Test Recorder UI.
 
-2. [Test Step Settings](https://testsigma.com/docs/test-cases/create-steps-recorder/ios-apps/step-settings/): The settings that are available for a test step via the Recorder UI.
+2. [Test Step Settings](https://testsigma.com/docs/test-cases/create-steps-recorder/ios-apps/step-settings/): The settings that are available for a test step via the Test Recorder UI.
 
-3. [Test Data in Steps](https://testsigma.com/docs/test-cases/create-steps-recorder/ios-apps/step-settings/): How to use test data in test steps via the Recorder UI.
+3. [Test Data in Steps](https://testsigma.com/docs/test-cases/create-steps-recorder/ios-apps/step-settings/): How to use test data in test steps via the Test Recorder UI.
 
-4. [Add Steps Manually](https://testsigma.com/docs/test-cases/create-steps-recorder/ios-apps/add-steps-manually/): How to add steps manually via the Recorder UI.
+4. [Add Steps Manually](https://testsigma.com/docs/test-cases/create-steps-recorder/ios-apps/add-steps-manually/): How to add steps manually via the Test Recorder UI.
 
-5. [Reuse Elements](https://testsigma.com/docs/test-cases/create-steps-recorder/ios-apps/reuse-elements/): How to reuse already added elements via the Recorder UI.
+5. [Reuse Elements](https://testsigma.com/docs/test-cases/create-steps-recorder/ios-apps/reuse-elements/): How to reuse already added elements via the Test Recorder UI.
 
-6. [Update Elements](https://testsigma.com/docs/test-cases/create-steps-recorder/ios-apps/update-elements/): How to update already added elements via the Recorder UI.
+6. [Update Elements](https://testsigma.com/docs/test-cases/create-steps-recorder/ios-apps/update-elements/): How to update already added elements via the Test Recorder UI.
 
-7. [Create an Element](https://testsigma.com/docs/test-cases/create-steps-recorder/ios-apps/create-a-new-element/): How to create an element via the Recorder UI.
+7. [Create an Element](https://testsigma.com/docs/test-cases/create-steps-recorder/ios-apps/create-a-new-element/): How to create an element via the Test Recorder UI.
 
 
-8. [Reorder Test Steps](https://testsigma.com/docs/test-cases/create-steps-recorder/ios-apps/reorder/): How to reorder test steps via the Recorder UI.
+8. [Reorder Test Steps](https://testsigma.com/docs/test-cases/create-steps-recorder/ios-apps/reorder/): How to reorder test steps via the Test Recorder UI.
 
-9.  [Bulk Actions](https://testsigma.com/docs/test-cases/create-steps-recorder/ios-apps/bulk-actions/): The bulk actions that can be performed on multiple test steps at once via the Recorder UI.
+9.  [Bulk Actions](https://testsigma.com/docs/test-cases/create-steps-recorder/ios-apps/bulk-actions/): The bulk actions that can be performed on multiple test steps at once via the Test Recorder UI.
 
-10. [Add Steps Before & After](https://testsigma.com/docs/test-cases/create-steps-recorder/ios-apps/add-steps-before-after/): How to add steps before and after the steps that are already added, via the Recorder UI.
+10. [Add Steps Before & After](https://testsigma.com/docs/test-cases/create-steps-recorder/ios-apps/add-steps-before-after/): How to add steps before and after the steps that are already added, via the Test Recorder UI.
 
-11. [Type: Natural Language](https://testsigma.com/docs/test-cases/step-types/natural-language/): How to add a new step as a natural language step via the Recorder UI.
+11. [Type: Natural Language](https://testsigma.com/docs/test-cases/step-types/natural-language/): How to add a new step as a natural language step via the Test Recorder UI.
 
-12. [Type: Step Group](https://testsigma.com/docs/test-cases/step-types/step-group/): How to add a new step as a step group via the Recorder UI.
+12. [Type: Step Group](https://testsigma.com/docs/test-cases/step-types/step-group/): How to add a new step as a step group via the Test Recorder UI.
 
-13. [Type: For Loop](https://testsigma.com/docs/test-cases/step-types/for-loop/): How to add a new step as a for loop via the Recorder UI.
+13. [Type: For Loop](https://testsigma.com/docs/test-cases/step-types/for-loop/): How to add a new step as a for loop via the Test Recorder UI.
 
-14. [Type: While Loop](https://testsigma.com/docs/test-cases/step-types/while-loop/): How to add a new step as a while loop via the Recorder UI.
+14. [Type: While Loop](https://testsigma.com/docs/test-cases/step-types/while-loop/): How to add a new step as a while loop via the Test Recorder UI.
 
-15. [Type: Conditional If](https://testsigma.com/docs/test-cases/step-types/if-condition/): How to add a new step as a conditional if via the Recorder UI.
+15. [Type: Conditional If](https://testsigma.com/docs/test-cases/step-types/if-condition/): How to add a new step as a conditional if via the Test Recorder UI.
 
 
 

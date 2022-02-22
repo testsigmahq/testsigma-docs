@@ -62,7 +62,7 @@ https://docs.testsigma.com/images/step-group/click-create-step-group-button.png)
 
  * Click on Test Case and open the Test Case that you need to author as shown in the screenshot below
 
-![navigate to test case](https://docs.testsigma.com/images/step-group/navigate-to-test-case.png)
+![navigate to test case](https://s3.amazonaws.com/static-docs.testsigma.com/new_images/test-cases/step-types/step-group/navigate-to-test-case.png)
 
  * Clicking on the specific test case will open the Test Case details page
   
@@ -82,7 +82,7 @@ https://docs.testsigma.com/images/step-group/click-on-test-step-type-menu.png)
 
 Observe the image below to understand how to create a step group.
 
-![ gif showing how to create step group](https://docs.testsigma.com/images/step-group/gif-create-step-group.gif)
+![ gif showing how to create step group](https://s3.amazonaws.com/static-docs.testsigma.com/new_images/test-cases/step-types/step-group/gif-create-step-group.gif)
 
 
   

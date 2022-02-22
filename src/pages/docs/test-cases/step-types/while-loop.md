@@ -45,7 +45,7 @@ This document contains information about adding while loop using testsigma’s t
 ##**How to use while loop as a test step while creating a test case:**
  1. Navigate to “Test Development” > “Test Cases” > Create
 
-![create button to create a test case to create a while loop in Testsigma](https://docs.testsigma.com/images/while-loop/create-button-test-cases-while-loop.png)
+![create button to create a test case to create a while loop in Testsigma](https://s3.amazonaws.com/static-docs.testsigma.com/new_images/test-cases/step-types/while-loop/create-button-test-cases-while-loop.png)
 
  2. Enter a name, a description, and choose the different options available in the Advanced options menu as required
    

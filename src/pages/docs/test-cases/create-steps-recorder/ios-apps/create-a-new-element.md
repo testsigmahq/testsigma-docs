@@ -7,7 +7,7 @@ warning: false
 ---
 
 ---
-In Testsigma, you can create elements for an iOS Project using our Recorder. There are 2 ways to do that. See how you can
+In Testsigma, you can create elements for an iOS Project using our Test Recorder. There are 2 ways to do that. See how you can
 
 1. [capture multiple elements at the same time](https://testsigma.com/docs/elements/ios-apps/record-multiple-elements/).
    

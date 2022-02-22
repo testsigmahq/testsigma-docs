@@ -90,7 +90,7 @@ You should already know about
 [[info | Note:]]
 |For definitions of these actions, go to the Actions List page in Project > Test Development Menu > Actions List.
 
-![different-natural-language-grammar](https://docs.testsigma.com/images/natural-language/different-natural-language-grammar.gif)
+![different-natural-language-grammar](https://s3.amazonaws.com/static-docs.testsigma.com/new_images/test-cases/step-types/natural-language/different-natural-language-grammar.gif)
 
 &emsp;
 
@@ -98,7 +98,7 @@ You should already know about
 
 We recommend that you go through different natural language actions available in the Actions List page.
 
-![navigate to actions grammar page](https://docs.testsigma.com/images/natural-language/navigate-to-actions-grammar-page.png)
+![navigate to actions grammar page](https://s3.amazonaws.com/static-docs.testsigma.com/new_images/test-cases/step-types/natural-language/navigate-to-actions-grammar-page.png)
  
 
 

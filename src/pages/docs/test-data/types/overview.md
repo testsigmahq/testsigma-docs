@@ -97,7 +97,7 @@ Here, the test data i.e URL is specified directly in the Test Step. This is an e
 
 [[info | NOTE:]]
 |There's an additional option available with Plain Text Test Data - the ability to provide blank values as Test Data. To use this functionality, we simply need to replace the test data part with the string '_blank'(without quotes). This will enter a blank value at the field where test data is passed.<br>
-|For example, you can use the template type test data in ui identifier with blank test data as shown below:<br>
+|For example, you can use the template type test data in element with blank test data as shown below:<br>
 |type _blank in usernamefield<br>
 |The above test step will enter a blank value in the username field Element.
 
