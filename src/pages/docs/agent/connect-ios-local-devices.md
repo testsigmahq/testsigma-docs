@@ -32,7 +32,7 @@ Testsigma allows you to run tests on your local iOS devices in addition to Tests
 2. Under devices, you can see the device name that is connected to the registered Agent as shown below.
    ![image description](https://docs.testsigma.com/images/ios-setup/agent-device.png)
 
-3. To execute Android tests on this Device, you can choose Local **Devices-->Select the Registered Agent-->Select the connected device** as shown below.
+3. To execute IOS tests on this Device, you can choose Local **Devices-->Select the Registered Agent-->Select the connected device** as shown below.
    ![image description](https://docs.testsigma.com/images/ios-setup/agent-device-selection-dry-run.png)
 
 [[info | NOTE:]]
