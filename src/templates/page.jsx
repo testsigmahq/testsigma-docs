@@ -107,7 +107,7 @@ export default ({ data, pageContext }) => {
               social_share_summary={post.frontmatter.social_share_summary}
               social_share_desc={post.frontmatter.social_share_desc}
               social_share_image={post.frontmatter.social_share_image}
-              noindex={post.frontmatter.noindex}
+              noindex={post.frontmatter.noindex || false}
             />
             <header id="root_header" className="header-block flex items-stretch">
                 <div className="container flex">
