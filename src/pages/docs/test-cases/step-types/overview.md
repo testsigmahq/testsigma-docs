@@ -20,7 +20,7 @@ In this document, we will give an overview of the different types of test steps 
  3. Once you click on the create button, you will be taken to the test steps page as shown below
  4. Once you are in the test steps page, click on the icon beside the first test step or any other test step if available to see the different types of test steps as shown below
 
-![](https://docs.testsigma.com/images/step-types/click-on-test-steps-menu.png)
+![Click step groups menu](https://docs.testsigma.com/images/step-types/click-on-test-steps-menu.png)
 
  5. This will open the test steps menu from where you can choose different test steps. Read more about the different test steps and how to create them in the links below:
    

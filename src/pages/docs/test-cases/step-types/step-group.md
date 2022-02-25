@@ -46,7 +46,7 @@ https://docs.testsigma.com/images/step-group/click-create-step-group-button.png)
 
  * Enter a name, description and choose options in the Advanced Options menu and finally click the Create button.
 
-![](https://docs.testsigma.com/images/step-group/enter-details-and-create-step-group.png)
+![Enter details to create step group](https://docs.testsigma.com/images/step-group/enter-details-and-create-step-group.png)
 
  * This will create a Step Group with no steps
  * Add Test Steps required to this Step Group. A sample screenshot is attached below for your reference: 
