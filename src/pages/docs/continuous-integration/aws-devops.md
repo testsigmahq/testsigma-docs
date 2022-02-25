@@ -67,7 +67,7 @@ phases:
  
 As shown in the above code, the file cicd-api.sh under commands needs to be updated with Test Plan details and added to the repository. We have taken a sample file.
 
-Add the [Test Plan details](https://testsigma.com/docs/continuous-integration/get-test-plan-details/) and [API key](http://testsigma.com/docs/configuration/api-keys/) to the .sh file which you need to trigger:
+Add the [Test Plan details](https://testsigma.com/docs/continuous-integration/get-test-plan-details/) and [API key](https://testsigma.com/docs/configuration/api-keys/) to the .sh file which you need to trigger:
  
 ```shell
 #********START USER_INPUTS ********

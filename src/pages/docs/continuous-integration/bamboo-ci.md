@@ -56,7 +56,7 @@ Let’s begin.
  2.Enter the following details:
 
 **Task description:** A name for the Task.
-**Testsigma API Key:** Generated from [Settings > API Keys](http://testsigma.com/docs/configuration/api-keys/) in Testsigma App
+**Testsigma API Key:** Generated from [Settings > API Keys](https://testsigma.com/docs/configuration/api-keys/) in Testsigma App
 **Testsigma Test Plan ID:** You can [get the Test Plan specific ID](https://testsigma.com/docs/continuous-integration/get-test-plan-details/) from the Test Plan details page in Testsigma App.
 Go to Test Plans > Click on the required Test Plan name > Switch to the CI/CD Integration Tab in Test Plan details > Find the Test Plan ID
 **Maximum wait time for Task completion:** Specify the maximum time in minutes you want the Testsigma Plugin to wait before timing out. After this timeout, the Task will time out in Bamboo but the Test Execution will still continue in Testsigma. You can log into Testsigma App later to check the Test Plan status.

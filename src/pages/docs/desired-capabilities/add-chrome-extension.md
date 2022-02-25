@@ -1,6 +1,6 @@
 ---
 title: "Automate Add Chrome Extension Functionality"
-meta_desc: "Explains how to add chrome extension programmatically in test case in Testsigma"
+metadesc: "How to add Chrome extension to one of your test sessions"
 order: 15.9
 page_id: "Automate Add Chrome Extension Functionality"
 search_keyword: ""

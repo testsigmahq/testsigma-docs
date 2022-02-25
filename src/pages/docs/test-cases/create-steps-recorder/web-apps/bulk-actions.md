@@ -1,6 +1,6 @@
 ---
 title: "Test Recorder - Bulk Actions in a Web Project"
-meta_desc: "Bulk actions you can take on recorded test steps in Testsigma’s test recorder UI for a web project."
+metadesc: "Bulk actions you can take on recorded test steps in Testsigma’s test recorder UI for a web project"
 order: 4.5191
 page_id: "Test Recorder - Bulk Actions in a Web Project"
 warning: false

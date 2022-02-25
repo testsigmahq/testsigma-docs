@@ -1,6 +1,6 @@
 ---
 title: "Test Data - Parameter"
-meta_desc: "How to use test data of type parameter in a test case in Testsigma."
+metadesc: "How to use test data of type parameter in a test case in Testsigma"
 order: 5.113
 page_id: "Test Data - Parameter"
 warning: false

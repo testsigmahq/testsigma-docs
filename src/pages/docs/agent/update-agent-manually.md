@@ -1,6 +1,6 @@
 ---
 title: "Update Testsigma Agent manually"
-meta_desc: "How to update Testsigma Agent manually."
+metadesc: "How to update Testsigma Agent manually"
 order: 11.6
 page_id: "Update Testsigma Agent manually"
 warning: false

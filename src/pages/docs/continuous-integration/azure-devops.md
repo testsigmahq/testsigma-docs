@@ -24,7 +24,7 @@ Microsoft Azure, aka Azure, is a cloud computing service created by Microsoft fo
 ##**Prerequisites:** 
 1. **API key for Azure:** To generate this, follow the below steps:
 	1. Log in to your account on Testsigma
-    2. Navigate to[Settings > API keys](http://testsigma.com/docs/configuration/api-keys/)
+    2. Navigate to[Settings > API keys](https://testsigma.com/docs/configuration/api-keys/)
     3. Click on the ‘Create’ button to generate a new API key. 
 2. [Test Plan ID:](https://testsigma.com/docs/continuous-integration/get-test-plan-details/) To get this, follow the steps below:
 	1. Click on the Test Plan name that you want to integrate

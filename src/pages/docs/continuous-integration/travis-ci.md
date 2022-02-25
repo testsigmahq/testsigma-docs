@@ -1,6 +1,6 @@
 ---
 title: " Integrate Testsigma with Travis CI"
-meta_desc: " How to integrate Testsigma with Travis CI "
+metadesc: "How to integrate Testsigma with Travis CI"
 order: 12.19
 page_id: " Integrate Testsigma with Travis CI"
 warning: false
@@ -37,7 +37,7 @@ Let’s begin.
 
 
 ### Part1: Obtain API and Test Plan ID from Testsigma App
-1. If you have not created a Testsigma API key already, please create one by navigating to Settings > API Keys and clicking on  [Create an API Key](http://testsigma.com/docs/configuration/api-keys/) button on the top right corner.
+1. If you have not created a Testsigma API key already, please create one by navigating to Settings > API Keys and clicking on  [Create an API Key](https://testsigma.com/docs/configuration/api-keys/) button on the top right corner.
 
 ![API key details in Testsigma](https://docs.testsigma.com/images/travis-ci/api-key-details-testsigma.png)
 

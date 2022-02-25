@@ -36,9 +36,8 @@ You can integrate Testsigma with your CI/CD tool to run automated tests on build
 ##**Pre-requisites:**
  You should already have the test plan that you want to execute. See [Test plan management](https://testsigma.com/docs/test-management/test-plans/overview/)
 
-You should also know how to [generate an API key from Settings](http://testsigma.com/docs/configuration/api-keys/) and get Test Plan ID from an existing Test Plan. If not, [please refer here](https://testsigma.com/docs/continuous-integration/get-test-plan-details/)
----
-##**How to get the Testsigma Test Plan Trigger API**
+You should also know how to [generate an API key from Settings](https://testsigma.com/docs/configuration/api-keys/) and get Test Plan ID from an existing Test Plan. If not, [please refer here](https://testsigma.com/docs/continuous-integration/get-test-plan-details/)
+## **How to get the Testsigma Test Plan Trigger API**
 1. Go to the specific Test Plan details page in the Testsigma tool (for the Test Plan that you want to include in your CI/CD Pipeline.) 
 
 2. Go to the CI/CD Integrations section on the Test Plan Details page.
@@ -77,7 +76,7 @@ https://app.testsigma.com/api/v1/execution_results
 
  - The **<TEST_PLAN_ID>** is used to identify the Test Plan which is to be triggered. This can be obtained from the corresponding [ Test Plan details page](https://testsigma.com/docs/continuous-integration/get-test-plan-details/)
 
- - The **<API_KEY>** is used to authenticate your user in Testsigma API. This can be obtained from the Settings> API_Keys by [creating a new API Key](http://testsigma.com/docs/configuration/api-keys/)
+ - The **<API_KEY>** is used to authenticate your user in Testsigma API. This can be obtained from the Settings> API_Keys by [creating a new API Key](https://testsigma.com/docs/configuration/api-keys/)
 
 - The **<BUILD_NO>** is the Build number/Version for your corresponding Application Build against which you are running the Tests. This can be obtained from the Dev team or Build Stage in the CI/CD Pipeline.
 

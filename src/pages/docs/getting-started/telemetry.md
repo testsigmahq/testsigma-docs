@@ -1,5 +1,6 @@
 ---
 title: "Telemetry"
+metadesc: "Telemetry in Testsigma"
 order: 1.6
 page_id: "Telemetry"
 warning: false

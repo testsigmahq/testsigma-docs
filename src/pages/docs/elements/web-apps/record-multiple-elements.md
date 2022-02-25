@@ -1,6 +1,6 @@
 ---
 title: "Record Multiple Elements Using Chrome Extension for a web application"
-meta_desc: "The meta description should provide an accurate description of the content of the page."
+metadesc: "How to record multiple elements using Testsigma’s test recorder chrome extension"
 order: 6.22
 page_id: "Record Multiple Elements Using Chrome Extension for a web application"
 warning: false

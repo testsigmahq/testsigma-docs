@@ -54,7 +54,7 @@ You need to add a script file in your Code Repository stored on Github, Bitbucke
 This script file contains commands to trigger the Testsigma Test Plan remotely.
 1. Copy the shell script from the article: [Generic Shell Script for Integrating with CI/CD Tools](https://testsigma.com/docs/continuous-integration/shell-script/) and customize the script file as mentioned in the next steps.
 
-2 Update your [Testsigma API Key](http://testsigma.com/docs/configuration/api-keys/) and [Test Plan ID](https://testsigma.com/docs/continuous-integration/get-test-plan-details/) in the above script.
+2 Update your [Testsigma API Key](https://testsigma.com/docs/configuration/api-keys/) and [Test Plan ID](https://testsigma.com/docs/continuous-integration/get-test-plan-details/) in the above script.
 
 3. Now upload the script file to your Code Repository (preferably root folder) and commit.
  

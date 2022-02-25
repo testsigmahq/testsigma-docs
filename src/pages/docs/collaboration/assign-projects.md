@@ -41,7 +41,7 @@ To create a new user and then assign them to one or multiple projects, refer to 
 ##**Pre-requisites**
 1. You should already have created a project and you should be a member of it. 
    
-2. To add a user to a project, you should have the role of either test manager or admin for that project. To learn about roles, refer to [user roles](http://testsigma.com/docs/collaboration/users-roles/).
+2. To add a user to a project, you should have the role of either test manager or admin for that project. To learn about roles, refer to [user roles](https://testsigma.com/docs/collaboration/users-roles/).
    
 3. The user you want to add should have been added to Testsigma and should not be added to the project. To learn how to invite team members to Testsigma, refer to [adding team members](https://testsigma.com/docs/collaboration/invite-team-members/).
 

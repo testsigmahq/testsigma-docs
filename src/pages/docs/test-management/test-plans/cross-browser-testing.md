@@ -42,7 +42,7 @@ Learn more about [cross-browser testing](https://testsigma.com/cross-browser-tes
 
 ![Create Test Plan page in Testsigma](https://docs.testsigma.com/images/cross-browser-testing/create-test-plan-page-testsigma.png)
    
-On this page, select the device lab which you want to use for your cross-browser tests. For more information, see [Test Labs](https://testsigma.com/docs/test-management/plans/supported-test-lab-types/).
+On this page, select the device lab which you want to use for your cross-browser tests. For more information, see [Test Labs](https://testsigma.com/docs/test-management/test-plans/supported-test-lab-types/).
 
 3. On the Create Test Plan tab, enter the required details and click on the Next Button.
 

@@ -1,6 +1,6 @@
 ---
 title: "Import and Export Elements"
-meta_desc: "The meta description should provide an accurate description of the content of the page."
+metadesc: "How to import and export Elements to the Elements list"
 order: 6.5
 page_id: "Import and Export Elements
 "

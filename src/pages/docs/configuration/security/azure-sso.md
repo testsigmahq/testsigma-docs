@@ -51,7 +51,7 @@ You can use the Azure Active Directory Admin Center to enable single sign-on (SS
 
 
    You will be taken to the home page as shown below:
-   ![Azure management portal](http://docs.testsigma.com/images/azure-sso/azure-management-portal.png)
+   ![Azure management portal](https://docs.testsigma.com/images/azure-sso/azure-management-portal.png)
 
 2. Click the **View** button below **“Manage Azure Active Directory”.**
 
