@@ -1,6 +1,7 @@
 ---
 title: "Store REST API response in to Runtime variables"
-meta_desc: "Store REST API Response into runtime valiables"
+metadesc: "Store REST API Response into runtime valiables"
+noindex: false
 order: 4.64
 page_id: "Store REST API response in to Runtime variables"
 warning: false

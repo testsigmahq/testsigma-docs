@@ -1,6 +1,7 @@
 ---
 title: "Generate API Key"
-meta_desc: "How to generate an API Key to integrate Testsigma with 3rd party tools (like CI/CD, bug reporting tools, and more)"
+metadesc: "How to generate an API Key to integrate Testsigma with 3rd party tools (like CI/CD, bug reporting tools, and more)"
+noindex: false
 order: 19.1
 page_id: "Generate API Key"
 warning: false

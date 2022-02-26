@@ -1,6 +1,7 @@
 ---
 title: "Configure Safari for Test Automation in Testsigma"
-meta_desc: "How to use WebDriver API for automating tests on older versions of Safari"
+metadesc: "How to use WebDriver API for automating tests on older versions of Safari"
+noindex: false
 order: 9.81
 page_id: "Configure Safari for Test Automation in Testsigma"
 warning: false

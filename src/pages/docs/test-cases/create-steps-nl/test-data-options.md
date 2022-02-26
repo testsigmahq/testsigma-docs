@@ -1,6 +1,7 @@
 ---
 title: "Test Data in Steps"
-meta_desc: " How to add test data in steps when tests are created using simple English in Testsigma"
+metadesc: " How to add test data in steps when tests are created using simple English in Testsigma"
+noindex: false
 order: 4.43
 page_id: "Test Data in Steps"
 warning: false

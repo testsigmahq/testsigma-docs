@@ -1,6 +1,7 @@
 ---
 title: "Cloud based test machines unable to access locally hosted applications"
-meta_desc: "This article explains why test machines on cloud are unable to access locally hosted applications."
+metadesc: "This article explains why test machines on cloud are unable to access locally hosted applications."
+noindex: false
 order: 24.12
 page_id: "Cloud based test machines unable to access locally hosted applications"
 warning: false

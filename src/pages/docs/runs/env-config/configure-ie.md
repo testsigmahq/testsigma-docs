@@ -1,6 +1,7 @@
 ---
 title: "Configure Internet Explorer for Test Automation using Testsigma"
-meta_desc: "How to enable test automation on Internet Explorer using WebDriver API"
+metadesc: "How to enable test automation on Internet Explorer using WebDriver API"
+noindex: false
 order: 9.82
 page_id: "Configure Internet Explorer for Test Automation using Testsigma"
 warning: false

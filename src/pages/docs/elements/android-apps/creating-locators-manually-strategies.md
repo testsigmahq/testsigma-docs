@@ -1,6 +1,7 @@
 ---
 title: "Different ways to create Elements in an Android Project"
-meta_desc: "Various ways to create elements for an android project in Testsigma."
+metadesc: "Various ways to create elements for an android project in Testsigma."
+noindex: false
 order: 6.36
 page_id: "Different ways to create Elements in an Android Project"
 warning: false

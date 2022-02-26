@@ -1,6 +1,7 @@
 ---
 title: "Recording Test Steps: An Overview"
-meta_desc: "How to record test steps using Testsigma’s step recorder chrome extension."
+metadesc: "How to record test steps using Testsigma’s step recorder chrome extension."
+noindex: false
 order: 4.511
 page_id: "Recording Test Steps: An Overview"
 warning: false

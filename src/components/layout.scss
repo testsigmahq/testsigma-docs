@@ -219,5 +219,6 @@ div.col-sm-7.doc-page {
 
 /* Padding below embed videos */
 .gatsby-resp-iframe-wrapper {
+  padding-bottom: 56.25% !important; // 16:9 aspect ratio to remove black bars in html5 videos.
   margin-bottom: 24px;
 }

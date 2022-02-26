@@ -1,6 +1,7 @@
 ---
 title: "Test Case Reports in Testsigma"
 metadesc: "How to view test run results on the basis of test cases executed in Testsigma"
+noindex: false
 order: 13.26
 page_id: "Test Case Reports in Testsigma"
 warning: false

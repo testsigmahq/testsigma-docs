@@ -1,7 +1,8 @@
 ---
 
 title: "Create Test Steps using natural language"
-meta_desc: "How to create Test Steps in Testsigma using Natural Language"
+metadesc: "How to create Test Steps in Testsigma using Natural Language"
+noindex: false
 order: 4.40
 page_id: "Create Test Steps using natural language"
 warning: false

@@ -1,6 +1,7 @@
 ---
 title: "Integrating Slack with Testsigma for test run notifications"
-meta_desc: "How to configure your Slack channel to receive notifications about Test Results in real-time from Testsigma"
+metadesc: "How to configure your Slack channel to receive notifications about Test Results in real-time from Testsigma"
+noindex: false
 order: 16.21
 page_id: "Integrating Slack with Testsigma for test run notifications"
 warning: false

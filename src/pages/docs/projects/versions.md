@@ -1,7 +1,8 @@
 ---
 title: "Manage Application Versions"
 page_title: "Managing Application Versions in Testsigma"
-meta_desc: "How to manage Application Versions within Testsigma projects"
+metadesc: "How to manage Application Versions within Testsigma projects"
+noindex: false
 order: 2.2
 page_id: "Manage Application Versions"
 warning: false

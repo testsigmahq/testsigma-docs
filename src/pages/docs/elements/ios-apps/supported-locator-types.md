@@ -1,6 +1,7 @@
 ---
 title: "Supported Locator Types in an iOS Project"
-meta_desc: "The meta description should provide an accurate description of the content of the page."
+metadesc: "The meta description should provide an accurate description of the content of the page."
+noindex: false
 order: 6.45
 page_id: "Supported Locator Types in an iOS Project"
 warning: false

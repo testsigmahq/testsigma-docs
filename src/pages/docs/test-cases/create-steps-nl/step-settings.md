@@ -1,6 +1,7 @@
 ---
 title: "Test Step Settings"
-meta_desc: "What are the available Test step settings in Testsigma and how to use them"
+metadesc: "What are the available Test step settings in Testsigma and how to use them"
+noindex: false
 order: 4.41
 page_id: "Test Step Settings"
 warning: false

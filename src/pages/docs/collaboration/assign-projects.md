@@ -1,6 +1,7 @@
 ---
 title: " Assign Projects to Users"
-meta_desc: "How to assign projects to a user in Testsigma."
+metadesc: "How to assign projects to a user in Testsigma."
+noindex: false
 order: 3.2
 page_id: "Assign Projects to Users"
 warning: false

@@ -1,6 +1,7 @@
 ---
 title: "Integrate Testsigma with BrowserStack"
-meta_desc: " How to integrate the BrowserStack Cloud Test Execution Platform with Testsigma"
+metadesc: " How to integrate the BrowserStack Cloud Test Execution Platform with Testsigma"
+noindex: false
 order: 16.41
 page_id: "Integrate Testsigma with BrowserStack"
 warning: false

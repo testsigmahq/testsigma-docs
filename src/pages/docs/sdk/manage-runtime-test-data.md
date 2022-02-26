@@ -2,7 +2,8 @@
 title: "Create/Update Runtime Data using Testsigma SDK"
 order: 18.2
 page_id: "Get/Update Runtime Data"
-meta_desc: "How to manipulate runtime data using Testsigma SDK and create a runtime property for an add-on."
+metadesc: "How to manipulate runtime data using Testsigma SDK and create a runtime property for an add-on."
+noindex: false
 warning: false
 contextual_links:
 - type: section

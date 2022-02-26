@@ -1,6 +1,7 @@
 ---
 title: "Supported Methods in REST API Testing in Testsigma"
-meta_desc: "REST API HTTP Request Types"
+metadesc: "REST API HTTP Request Types"
+noindex: false
 order: 4.62
 page_id: "Supported Methods in REST API Testing in Testsigma"
 warning: false

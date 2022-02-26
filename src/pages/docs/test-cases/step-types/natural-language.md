@@ -1,7 +1,8 @@
 ---
 title: "Natural Language/Simple English Type Test Step"
 pagetitle: "Natural Language Type Test Step"
-meta_desc: "The ultimate guide to using Natural Language Test Step type in Testsigma. Learn how to create test steps using simple English"
+metadesc: "The ultimate guide to using Natural Language Test Step type in Testsigma. Learn how to create test steps using simple English"
+noindex: false
 order: 4.21
 page_id: "Natural Language/Simple English Type Test Step"
 warning: false

@@ -1,6 +1,7 @@
 ---
 title: "Test Case Types in Testsigma"
-meta_desc: "What are Test Case Types in Testsigma and how to use them while creating and maintaining Test Cases."
+metadesc: "What are Test Case Types in Testsigma and how to use them while creating and maintaining Test Cases."
+noindex: false
 order: 2.40
 page_id: "Test Case Types in Testsigma"
 warning: false

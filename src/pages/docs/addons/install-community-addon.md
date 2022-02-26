@@ -1,6 +1,7 @@
 ---
 title: "Installing Community Add-ons"
-meta_desc: "How to install add-ons from the Add-ons Community Marketplace."
+metadesc: "How to install add-ons from the Add-ons Community Marketplace."
+noindex: false
 order: 17.3
 page_id: "Installing Community Add-ons"
 search_keyword: ""

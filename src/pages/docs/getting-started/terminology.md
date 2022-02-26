@@ -1,6 +1,7 @@
 ---
 title: "Testsigma Terminology"
-meta_desc: "A glossary of terms you’ll come across while  working with Testsigma App"
+metadesc: "A glossary of terms you’ll come across while  working with Testsigma App"
+noindex: false
 order: 1.7
 page_id: "Testsigma Terminology"
 warning: false

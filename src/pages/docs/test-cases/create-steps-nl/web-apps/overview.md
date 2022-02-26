@@ -1,6 +1,7 @@
 ---
 title: "Add Test Steps in Test Case Details Page"
-meta_desc: "How to add test steps in a test case details page using simple English"
+metadesc: "How to add test steps in a test case details page using simple English"
+noindex: false
 order: 4.440
 page_id: "Add Test Steps in Test Case Details Page"
 warning: false

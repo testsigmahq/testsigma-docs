@@ -1,6 +1,7 @@
 ---
 title: "Adding Team Members to a Project"
-meta_desc: "How to add team members to a Project in Testsigma."
+metadesc: "How to add team members to a Project in Testsigma."
+noindex: false
 order: 3.0
 page_id: "Adding Team Members to a Project"
 warning: false

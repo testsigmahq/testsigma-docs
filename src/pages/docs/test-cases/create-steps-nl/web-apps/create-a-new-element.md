@@ -1,6 +1,7 @@
 ---
 title: "Create Elements while Adding Steps"
-meta_desc: "How to create elements while adding test steps to a test case in Testsigma."
+metadesc: "How to create elements while adding test steps to a test case in Testsigma."
+noindex: false
 order: 4.441
 page_id: "Create Elements while Adding Steps"
 warning: false

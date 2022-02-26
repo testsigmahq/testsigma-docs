@@ -1,7 +1,8 @@
 ---
 title: "FAQs"
 page_title: "Testsigma FAQs"
-meta_desc: "Frequently Asked Questions about Testsigma"
+metadesc: "Frequently Asked Questions about Testsigma"
+noindex: false
 order: 1.5
 page_id: "FAQs"
 warning: false

@@ -1,6 +1,7 @@
 ---
 title: "Schedule Test Plans"
-meta_desc: "How to schedule executions for a test plan in Testsigma."
+metadesc: "How to schedule executions for a test plan in Testsigma."
+noindex: false
 order: 8.24
 page_id: "Schedule Test Plans"
 warning: false

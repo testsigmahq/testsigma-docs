@@ -1,6 +1,7 @@
 ---
 title: "Types of add-ons in Testsigma"
-meta_desc: "Ways in which you can extend automation in Testsigma using add-ons"
+metadesc: "Ways in which you can extend automation in Testsigma using add-ons"
+noindex: false
 order: 17.7
 page_id: "Types of add-ons in Testsigma"
 search_keyword: ""

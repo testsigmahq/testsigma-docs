@@ -1,6 +1,7 @@
 ---
 title: "Troubleshooting Agent Startup/Registration Errors"
-meta_desc: "Common Agent startup or registration issues and how to troubleshoot them."
+metadesc: "Common Agent startup or registration issues and how to troubleshoot them."
+noindex: false
 order: 11.91
 page_id: "Troubleshooting Agent Startup/Registration Errors"
 warning: false

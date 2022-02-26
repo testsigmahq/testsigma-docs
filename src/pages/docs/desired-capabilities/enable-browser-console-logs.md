@@ -1,6 +1,7 @@
 ---
 title: "Enable Browser Console Debug Logs"
-meta_desc: "How to add Desired Capabilities to tests to output more debugging information such as Browser Console logs."
+metadesc: "How to add Desired Capabilities to tests to output more debugging information such as Browser Console logs."
+noindex: false
 order: 15.3
 page_id: "Enable Browser Console Debug Logs"
 search_keyword: ""

@@ -1,6 +1,7 @@
 ---
 title: "Reuse Elements in a Web Project"
-meta_desc: "How to reuse elements recorded via the Testsigma test recorder chrome extension for a web project."
+metadesc: "How to reuse elements recorded via the Testsigma test recorder chrome extension for a web project."
+noindex: false
 order: 4.516
 page_id: "Reuse Elements in a Web Project"
 warning: false

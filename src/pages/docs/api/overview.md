@@ -1,6 +1,7 @@
 ---
 title: "Testsigma API - Overview"
-meta_desc: "An overview of available REST API Endpoints in Testsigma"
+metadesc: "An overview of available REST API Endpoints in Testsigma"
+noindex: false
 order: 21.1
 page_id: "Testsigma API - Overview"
 warning: false

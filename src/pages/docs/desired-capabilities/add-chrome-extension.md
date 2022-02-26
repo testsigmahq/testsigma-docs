@@ -1,6 +1,7 @@
 ---
 title: "Automate Add Chrome Extension Functionality"
 metadesc: "How to add Chrome extension to one of your test sessions"
+noindex: false
 order: 15.9
 page_id: "Automate Add Chrome Extension Functionality"
 search_keyword: ""

@@ -1,6 +1,7 @@
 ---
 title: "Test Step Actions"
-meta_desc: "About different actions you can perform on Test Steps in Testsigma"
+metadesc: "About different actions you can perform on Test Steps in Testsigma"
+noindex: false
 order: 4.42
 page_id: "Test Step Actions"
 warning: false

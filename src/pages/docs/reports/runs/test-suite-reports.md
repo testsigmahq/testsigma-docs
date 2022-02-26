@@ -1,6 +1,7 @@
 ---
 title: "Test Suites Reports in Testsigma"
 metadesc: "How to view test run results on the basis of test suites executed in Testsigma"
+noindex: false
 order: 13.25
 page_id: "Test Suites Reports in Testsigma"
 warning: false

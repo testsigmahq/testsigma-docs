@@ -1,7 +1,8 @@
 ---
 title: " Youtrack Bug Reporting Integration"
 page_title: "Youtrack Bug Reporting Integration in Testsigma"
-meta_desc: "How to integrate Testsigma with Youtrack for real-time bug reporting during Test Runs"
+metadesc: "How to integrate Testsigma with Youtrack for real-time bug reporting during Test Runs"
+noindex: false
 order: 16.35
 page_id: " Youtrack Bug Reporting Integration"
 warning: false

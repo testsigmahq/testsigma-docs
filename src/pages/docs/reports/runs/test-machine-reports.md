@@ -1,6 +1,7 @@
 ---
 title: "Test Machine Reports in Testsigma"
 metadesc: "How to view test run results by the test machines that the test cases were executed on in Testsigma"
+noindex: false
 order: 13.24
 page_id: "Test Machine Reports in Testsigma"
 warning: false

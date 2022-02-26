@@ -1,6 +1,7 @@
 ---
 title: "Integrate Testsigma with SauceLabs"
-meta_desc: " How to integrate the SauceLabs Cloud Test Execution Platform with Testsigma"
+metadesc: " How to integrate the SauceLabs Cloud Test Execution Platform with Testsigma"
+noindex: false
 order: 16.42
 page_id: "Integrate Testsigma with SauceLabs"
 warning: false

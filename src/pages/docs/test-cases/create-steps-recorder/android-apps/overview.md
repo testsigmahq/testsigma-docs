@@ -1,6 +1,7 @@
 ---
 title: "Recording Test Steps with Recorder for Android: An Overview"
-meta_desc: "How to record test steps using Testsigma’s Recorder for android."
+metadesc: "How to record test steps using Testsigma’s Recorder for android."
+noindex: false
 order: 4.521
 page_id: "Recording Test Steps with Recorder for Android: An Overview"
 warning: false

@@ -1,6 +1,7 @@
 ---
 title: "Test Data - Plain Text"
-meta_desc: "How to use plain text test data in a test case in Testsigma."
+metadesc: "How to use plain text test data in a test case in Testsigma."
+noindex: false
 order: 5.112
 page_id: "Test Data - Plain Text"
 warning: false

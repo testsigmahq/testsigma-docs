@@ -1,6 +1,7 @@
 ---
 title: "Integrate Testsigma with Jenkins "
-meta_desc: "How to integrate Testsigma with Jenkins"
+metadesc: "How to integrate Testsigma with Jenkins"
+noindex: false
 order: 12.13
 page_id: "Integrate Testsigma with Jenkins "
 warning: false

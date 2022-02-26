@@ -1,7 +1,8 @@
 ---
 title: "Integrate Testsigma with Azure DevOps"
 order: 12.14
-meta_desc: "How to integrate Testsigma with Azure DevOps"
+metadesc: "How to integrate Testsigma with Azure DevOps"
+noindex: false
 page_id: "How to Create a Test Plans to run on Local Devices"
 search_keyword: "Azure DevOps, Integrations, CI/CD"
 warning: false

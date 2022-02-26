@@ -1,6 +1,7 @@
 ---
 title: "Element List Actions"
-meta_desc: "Actions you can perform in the Elements List View, such as search, sort and filter."
+metadesc: "Actions you can perform in the Elements List View, such as search, sort and filter."
+noindex: false
 order: 6.11
 page_id: "Element List Actions"
 warning: false

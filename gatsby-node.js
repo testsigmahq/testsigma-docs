@@ -44,7 +44,7 @@ exports.createPages = async ({ graphql, actions }) => {
             }
             frontmatter {
               title
-              meta_desc
+              metadesc
               canonical
               keywords
               social_share_summary

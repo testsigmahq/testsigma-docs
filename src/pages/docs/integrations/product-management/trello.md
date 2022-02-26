@@ -1,7 +1,8 @@
 ---
 title: "Trello Bug Reporting Integration"
 page_title: "Trello Bug Reporting Integration in Testsigma"
-meta_desc: "How to integrate Testsigma with Trello for real-time bug reporting during Test Runs"
+metadesc: "How to integrate Testsigma with Trello for real-time bug reporting during Test Runs"
+noindex: false
 order: 16.53
 page_id: "Trello Bug Reporting Integration"
 warning: false

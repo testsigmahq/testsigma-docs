@@ -1,6 +1,7 @@
 ---
 title: "Recorder - Reorder Test Steps in an iOS Project"
-meta_desc: "How to reorder recorded test steps in an iOS Project via Testsigma’s Recorder UI."
+metadesc: "How to reorder recorded test steps in an iOS Project via Testsigma’s Recorder UI."
+noindex: false
 order: 4.539
 page_id: "Recorder - Reorder Test Steps in an iOS Project"
 warning: false

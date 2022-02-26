@@ -1,6 +1,7 @@
 ---
 title: "Add Test Steps in a Test Case in an iOS Project"
-meta_desc: "How to add steps manually in simple English for an iOS project in Testsigma."
+metadesc: "How to add steps manually in simple English for an iOS project in Testsigma."
+noindex: false
 order: 4.460
 page_id: "Add Test Steps in a Test Case in an iOS Project"
 warning: false

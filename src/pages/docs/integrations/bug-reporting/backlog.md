@@ -1,7 +1,8 @@
 ---
 title: "Backlog Bug Reporting Integration"
 page_title: "Backlog Bug Reporting Integration in Testsigma"
-meta_desc: "How to integrate Testsigma with Backlog for realtime bug reporting during Test Runs"
+metadesc: "How to integrate Testsigma with Backlog for realtime bug reporting during Test Runs"
+noindex: false
 order: 16.33
 page_id: "Backlog Bug Reporting Integration"
 warning: false

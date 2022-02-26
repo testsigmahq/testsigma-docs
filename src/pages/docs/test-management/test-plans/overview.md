@@ -1,7 +1,8 @@
 ---
 title: "Test Plans"
 page_title: "Test Plans - List, Create, Edit, Delete"
-meta_desc: " How to list, create, edit, and delete a Test Plan in Testsigma"
+metadesc: " How to list, create, edit, and delete a Test Plan in Testsigma"
+noindex: false
 order: 8.21
 page_id: "Test Plans - List, Create, Edit, Delete"
 warning: false

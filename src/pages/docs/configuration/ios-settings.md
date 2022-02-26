@@ -2,7 +2,8 @@
 title: "Configure your Local iOS Devices to run Testsigma tests"
 order: 19.3
 page_id: "iOS Settings"
-meta_desc: "How to configure your Local iOS Devices to run Testsigma tests"
+metadesc: "How to configure your Local iOS Devices to run Testsigma tests"
+noindex: false
 search_keyword: ""
 warning: false
 contextual_links:

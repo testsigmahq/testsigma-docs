@@ -1,6 +1,7 @@
 ---
 title: "Create an Element for an iOS Project"
-meta_desc: "How to create an element while adding test steps to a test case for an iOS project in Testsigma."
+metadesc: "How to create an element while adding test steps to a test case for an iOS project in Testsigma."
+noindex: false
 order: 4.461
 page_id: "Create an Element for an iOS Project"
 warning: false

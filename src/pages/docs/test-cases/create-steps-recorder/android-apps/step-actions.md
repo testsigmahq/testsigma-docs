@@ -1,6 +1,7 @@
 ---
 title: "Test Step Actions on the Test Recorder for an Android Project"
-meta_desc: "Actions you can take for a recorded test step in Testsigma’s Recorder UI for an android project"
+metadesc: "Actions you can take for a recorded test step in Testsigma’s Recorder UI for an android project"
+noindex: false
 order: 4.522
 page_id: "Test Step Actions on the Test Recorder for an Android Project"
 warning: false

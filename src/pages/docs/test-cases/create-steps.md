@@ -1,6 +1,7 @@
 ---
 title: "Create Test Steps in Testsigma"
-meta_desc: "How to create Test Steps in Testsigma "
+metadesc: "How to create Test Steps in Testsigma "
+noindex: false
 order: 4.30
 page_id: "Create Test Steps in Testsigma"
 warning: false

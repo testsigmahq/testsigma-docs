@@ -16,7 +16,7 @@ function SEO({ lang,
                title,
                slug,
                canonical,
-               meta_desc,
+               metadesc,
                keywords,
                social_share_summary,
                social_share_desc,
@@ -49,7 +49,7 @@ function SEO({ lang,
             meta={[
                 {
                     name: 'description',
-                    content: meta_desc
+                    content: metadesc
                 },
                 {
                     name: 'keywords',
@@ -157,7 +157,7 @@ SEO.propTypes = {
     meta: PropTypes.arrayOf(PropTypes.object),
     title: PropTypes.string.isRequired,
     canonical: PropTypes.string,
-    meta_desc: PropTypes.string,
+    metadesc: PropTypes.string,
     keywords: PropTypes.string,
     social_share_summary: PropTypes.string,
     social_share_desc: PropTypes.string,

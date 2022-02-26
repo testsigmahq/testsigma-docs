@@ -1,6 +1,7 @@
 ---
 title: "Test Suites"
-meta_desc: "How to list, create, edit and delete a Test Suite in Testsigma."
+metadesc: "How to list, create, edit and delete a Test Suite in Testsigma."
+noindex: false
 order: 8.11
 page_id: "Test Suites"
 warning: false

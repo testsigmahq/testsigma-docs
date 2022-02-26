@@ -1,6 +1,7 @@
 ---
 title: "Filters & Custom Reports"
-meta_desc: "How to drill down reports of test runs in Testsigma"
+metadesc: "How to drill down reports of test runs in Testsigma"
+noindex: false
 order: 13.27
 page_id: "Filters & Custom Reports"
 warning: false

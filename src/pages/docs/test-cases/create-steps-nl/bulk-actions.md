@@ -1,6 +1,7 @@
 ---
 title: "Bulk Actions"
-meta_desc: "What actions can be taken on multiple test steps at once"
+metadesc: "What actions can be taken on multiple test steps at once"
+noindex: false
 order: 4.49
 page_id: "Bulk Actions"
 warning: false

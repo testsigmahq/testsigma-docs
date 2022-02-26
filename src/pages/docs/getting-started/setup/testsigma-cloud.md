@@ -1,6 +1,7 @@
 ---
 title: "Deploy to Testsigma Cloud "
-meta_desc: "How to create and run your first tests on Testsigma Cloud"
+metadesc: "How to create and run your first tests on Testsigma Cloud"
+noindex: false
 order: 1.31  
 page_id: "Deploy to Testsigma Cloud "
 warning: false

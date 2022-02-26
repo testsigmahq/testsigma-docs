@@ -1,6 +1,7 @@
 ---
 title: "Test Data in Steps for a Web Project"
-meta_desc: "How to add test data in recorded test steps for a web project in Testsigma"
+metadesc: "How to add test data in recorded test steps for a web project in Testsigma"
+noindex: false
 order: 4.514
 page_id: "Test Data in Steps for a Web Project"
 warning: false

@@ -1,6 +1,7 @@
 ---
 title: "Integrate Testsigma with Circle CI"
-meta_desc: " How to integrate Testsigma with Circle CI"
+metadesc: " How to integrate Testsigma with Circle CI"
+noindex: false
 order: 12.17
 page_id: "Integrate Testsigma with Circle CI"
 warning: false

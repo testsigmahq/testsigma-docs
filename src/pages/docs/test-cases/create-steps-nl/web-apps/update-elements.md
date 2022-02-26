@@ -1,6 +1,7 @@
 ---
 title: "Update Elements for a Web Project"
-meta_desc: "How to update an element that was added previously to a Testsigma web project."
+metadesc: "How to update an element that was added previously to a Testsigma web project."
+noindex: false
 order: 4.442
 page_id: "Update Elements for a Web Project"
 warning: false

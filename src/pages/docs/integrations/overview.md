@@ -1,6 +1,7 @@
 ---
 title: "Integrations in Testsigma"
-meta_desc: "Different types of tools that you can integrate with Testsigma"
+metadesc: "Different types of tools that you can integrate with Testsigma"
+noindex: false
 order: 16.1
 page_id: "Integrations in Testsigma"
 warning: false

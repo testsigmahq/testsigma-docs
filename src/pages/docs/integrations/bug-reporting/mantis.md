@@ -1,7 +1,8 @@
 ---
 title: " Mantis Bug Reporting Integration"
 page_title: "Mantis Bug Reporting Integration in Testsigma"
-meta_desc: " How to integrate Testsigma with Mantis for realtime bug reporting during Test Runs"
+metadesc: " How to integrate Testsigma with Mantis for realtime bug reporting during Test Runs"
+noindex: false
 order: 16.34
 page_id: " Mantis Bug Reporting Integration"
 warning: false

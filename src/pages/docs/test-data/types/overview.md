@@ -1,7 +1,8 @@
 ---
 title: "Test Data Types"
 page_title: "Test Data Types Overview"
-meta_desc: "This article gives an overview of the various types of test data that can be used during the process of creating a test case in Testsigma."
+metadesc: "This article gives an overview of the various types of test data that can be used during the process of creating a test case in Testsigma."
+noindex: false
 order: 5.111
 page_id: "Test Data Types"
 warning: false

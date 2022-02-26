@@ -1,7 +1,8 @@
 ---
 title: "Add-ons Community Marketplace"
 page_title: "Testsigma Add-ons Community Marketplace"
-meta_desc: "How to access and use the community-powered add-ons marketplace."
+metadesc: "How to access and use the community-powered add-ons marketplace."
+noindex: false
 order: 17.2
 page_id: "Add-ons Community Marketplace"
 search_keyword: ""

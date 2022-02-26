@@ -1,6 +1,7 @@
 ---
 title: " Integrate Testsigma with Bamboo CI"
-meta_desc: "How to integrate Testsigma with Bamboo CI"
+metadesc: "How to integrate Testsigma with Bamboo CI"
+noindex: false
 order: 12.18
 page_id: " Integrate Testsigma with Bamboo CI"
 warning: false

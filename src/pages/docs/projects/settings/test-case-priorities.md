@@ -1,6 +1,7 @@
 ---
 title: "Test Case Priorities in Testsigma"
-meta_desc: "What are Test Case priorities in Testsigma and how to use them."
+metadesc: "What are Test Case priorities in Testsigma and how to use them."
+noindex: false
 order: 2.41
 page_id: "Test Case Priorities in Testsigma"
 warning: false

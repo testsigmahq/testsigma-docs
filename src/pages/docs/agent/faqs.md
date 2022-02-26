@@ -1,6 +1,7 @@
 ---
 title: "Testsigma Agent - FAQ"
-meta_desc: "Frequently Asked Questions about the Testsigma Agent."
+metadesc: "Frequently Asked Questions about the Testsigma Agent."
+noindex: false
 order: 11.93
 page_id: "Testsigma Agent - FAQ"
 search_keyword: ""

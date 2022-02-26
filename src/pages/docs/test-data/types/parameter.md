@@ -1,6 +1,7 @@
 ---
 title: "Test Data - Parameter"
 metadesc: "How to use test data of type parameter in a test case in Testsigma"
+noindex: false
 order: 5.113
 page_id: "Test Data - Parameter"
 warning: false

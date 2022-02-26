@@ -1,6 +1,7 @@
 ---
 title: "Record Multiple Elements for an iOS Application"
-meta_desc: "How to record multiple elements for an iOS project in Testsigma."
+metadesc: "How to record multiple elements for an iOS project in Testsigma."
+noindex: false
 order: 6.42
 page_id: "Record Multiple Elements for an iOS Application"
 warning: false

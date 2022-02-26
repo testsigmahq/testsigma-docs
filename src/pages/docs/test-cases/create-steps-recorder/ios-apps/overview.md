@@ -1,6 +1,7 @@
 ---
 title: "Recording Test Steps with Recorder for iOS: An Overview"
-meta_desc: "How to record test steps using Testsigma’s Recorder for iOS."
+metadesc: "How to record test steps using Testsigma’s Recorder for iOS."
+noindex: false
 order: 4.531
 page_id: "Recording Test Steps with Recorder for iOS: An Overview"
 warning: false

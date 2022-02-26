@@ -1,7 +1,8 @@
 ---
 title: "Using custom User Profile in Chrome for Tests"
 page_title: "Using custom User Profile in Chrome for Tests in Testsigma"
-meta_desc: "How to start the Chrome Browser with a custom User Profile in Test Session using Testsigma"
+metadesc: "How to start the Chrome Browser with a custom User Profile in Test Session using Testsigma"
+noindex: false
 order: 15.7
 page_id: "Using custom User Profile in Chrome for Tests"
 search_keyword: ""

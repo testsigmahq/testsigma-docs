@@ -1,6 +1,7 @@
 ---
 title: "Add Test Steps in a Test Case in an Android Project"
-meta_desc: "How to add test steps in simple English for an android project in Testsigma."
+metadesc: "How to add test steps in simple English for an android project in Testsigma."
+noindex: false
 order: 4.450
 page_id: "Add Test Steps in a Test Case in an Android Project"
 warning: false

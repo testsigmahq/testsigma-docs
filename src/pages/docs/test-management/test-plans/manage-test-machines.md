@@ -1,6 +1,7 @@
 ---
 title: "Manage Test Machines in Test Plans"
-meta_desc: "How to add, edit and delete test machines in a test plan in Testsigma."
+metadesc: "How to add, edit and delete test machines in a test plan in Testsigma."
+noindex: false
 order: 8.22
 page_id: "Manage Test Machines in Test Plans"
 warning: false

@@ -1,6 +1,7 @@
 ---
 title: "Overview of Elements for a Web Project"
-meta_desc: " An overview of everything regarding Elements for a web project in Testsigma."
+metadesc: " An overview of everything regarding Elements for a web project in Testsigma."
+noindex: false
 order: 6.21
 page_id: "Overview of Elements for a Web Project"
 warning: false

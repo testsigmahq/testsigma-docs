@@ -1,6 +1,7 @@
 ---
 title: "Test Case Details, Activity & History"
-meta_desc: "How to check Test Case Details, Activity History on Test Cases and Comments added by your Team Members"
+metadesc: "How to check Test Case Details, Activity History on Test Cases and Comments added by your Team Members"
+noindex: false
 order: 4.11
 page_id: "Test Case Details, Activity & History"
 warning: false

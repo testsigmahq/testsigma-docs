@@ -1,6 +1,7 @@
 ---
 title: "Reorder Test Steps"
-meta_desc: "How to reorder test steps in Testsigma UI."
+metadesc: "How to reorder test steps in Testsigma UI."
+noindex: false
 order: 4.48
 page_id: "Reorder Test Steps"
 warning: false

@@ -1,6 +1,7 @@
 ---
 title: "Desired Capabilities - Overview"
-meta_desc: "What are desired capabilities and how to add them to your test execution in Testsigma"
+metadesc: "What are desired capabilities and how to add them to your test execution in Testsigma"
+noindex: false
 order: 15.1
 page_id: "Desired Capabilities - Overview"
 search_keyword: ""

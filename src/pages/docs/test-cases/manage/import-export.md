@@ -1,6 +1,7 @@
 ---
 title: "Import and Export Test Cases"
-meta_desc: "Importing and Exporting Test Cases to and from the Test Cases list"
+metadesc: "Importing and Exporting Test Cases to and from the Test Cases list"
+noindex: false
 order: 4.14
 page_id: "Import and Export Test Cases"
 warning: false

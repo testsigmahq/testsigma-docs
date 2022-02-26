@@ -1,6 +1,7 @@
 ---
 title: "Dry / Ad-hoc Runs"
-meta_desc: "How to perform ad-hoc runs for a test case in Testsigma."
+metadesc: "How to perform ad-hoc runs for a test case in Testsigma."
+noindex: false
 order: 9.11
 page_id: "Ad-hoc Runs"
 warning: false

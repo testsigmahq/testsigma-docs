@@ -96,12 +96,12 @@ export default ({ data, pageContext }) => {
               title={post.frontmatter.page_title || post.frontmatter.title}
               slug={post.fields.slug}
               canonical={post.frontmatter.canonical}
-              metadesc={post.frontmatter.meta_desc}
+              metadesc={post.frontmatter.metadesc}
               keywords={post.frontmatter.keywords}
               social_share_summary={post.frontmatter.social_share_summary}
               social_share_desc={post.frontmatter.social_share_desc}
               social_share_image={post.frontmatter.social_share_image}
-              noindex={post.frontmatter.noindex || true}
+              noindex={post.frontmatter.noindex}
             />
             <header id="root_header" className="header-block flex items-stretch">
                 <div className="container flex">
@@ -223,7 +223,7 @@ export const query = graphql`
       frontmatter {
         title
         page_title
-        meta_desc
+        metadesc
         canonical
         keywords
         social_share_summary

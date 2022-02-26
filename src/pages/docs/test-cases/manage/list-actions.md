@@ -1,6 +1,7 @@
 ---
 title: "Test Case List Actions"
-meta_desc: "Learn more about the actions you can perform from the Test Cases List View such as search, sort, and filtering Test Cases in this article"
+metadesc: "Learn more about the actions you can perform from the Test Cases List View such as search, sort, and filtering Test Cases in this article"
+noindex: false
 order: 4.12
 page_id: "Test Case List Actions"
 warning: false

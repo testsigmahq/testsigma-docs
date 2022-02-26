@@ -1,6 +1,7 @@
 ---
 title: "Update Browser drivers for Testsigma Agent manually"
-meta_desc: "How to update the Browser Driver files for Testsigma Agent manually."
+metadesc: "How to update the Browser Driver files for Testsigma Agent manually."
+noindex: false
 order: 11.7
 page_id: "Update Browser drivers for Testsigma Agent manually"
 warning: false

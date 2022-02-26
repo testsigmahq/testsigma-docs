@@ -1,6 +1,7 @@
 ---
 title: "Adding If, Else, Else If Conditions in Test Cases"
-meta_desc: "How to use if, else, and else if conditions as test steps while creating a test case in Testsigma"
+metadesc: "How to use if, else, and else if conditions as test steps while creating a test case in Testsigma"
+noindex: false
 order: 4.26
 page_id: "Adding If, Else, Else If Conditions in Test Cases"
 warning: false

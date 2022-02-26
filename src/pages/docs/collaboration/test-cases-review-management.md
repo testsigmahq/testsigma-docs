@@ -1,6 +1,7 @@
 ---
 title: "Review Management for Test Cases"
-meta_desc: "How to review test cases created in Testsigma."
+metadesc: "How to review test cases created in Testsigma."
+noindex: false
 order: 3.3
 page_id: "Review Management for Test Cases"
 warning: false

@@ -1,6 +1,7 @@
 ---
 title: " Setting up Testsigma Agent on your local machine"
-meta_desc: "How to install Testsigma Agent on your local machine and register it to your Testsigma Account for local inspection and test runs."
+metadesc: "How to install Testsigma Agent on your local machine and register it to your Testsigma Account for local inspection and test runs."
+noindex: false
 order: 11.3
 page_id: " Setting up Testsigma Agent on your local machine"
 warning: false

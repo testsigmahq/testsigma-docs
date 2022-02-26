@@ -1,7 +1,8 @@
 ---
 title: "Zepel Bug Reporting Integration"
 page_title: "Zepel Bug Reporting Integration in Testsigma"
-meta_desc: " How to integrate Testsigma with Zepel for real-time bug reporting during Test Runs"
+metadesc: " How to integrate Testsigma with Zepel for real-time bug reporting during Test Runs"
+noindex: false
 order: 16.36
 page_id: "Zepel Bug Reporting Integration"
 warning: false

@@ -1,6 +1,7 @@
 ---
 title: "Intro: Testsigma Community Edition"
-meta_desc: "What is Testsigma Cloud and how to get started with it."
+metadesc: "What is Testsigma Cloud and how to get started with it."
+noindex: false
 order: 1.2
 page_id: "Introduction to Testsigma Community Edition"
 warning: false

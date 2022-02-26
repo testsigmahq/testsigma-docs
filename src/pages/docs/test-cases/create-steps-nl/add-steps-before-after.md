@@ -1,6 +1,7 @@
 ---
 title: "Add Steps Before & After"
-meta_desc: "How to add a step before and after an already added test step in Testsigma."
+metadesc: "How to add a step before and after an already added test step in Testsigma."
+noindex: false
 order: 4.4901
 page_id: "Add Steps Before & After"
 warning: false

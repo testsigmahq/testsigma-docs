@@ -1,6 +1,7 @@
 ---
 title: "Export Test Execution Report in Excel Format"
-meta_desc: " How to export the result of test reports in excel format in Testsigma."
+metadesc: " How to export the result of test reports in excel format in Testsigma."
+noindex: false
 order: 13.29
 page_id: "Export Test Execution Report in Excel Format"
 warning: false

@@ -1,7 +1,8 @@
 ---
 title: "Manage Requirements"
 page_title: "Requirements in Testsigma"
-meta_desc: "How to create requirements in Testsigma and map them to test cases."
+metadesc: "How to create requirements in Testsigma and map them to test cases."
+noindex: false
 order: 2.3
 page_id: "Manage Requirements"
 warning: false

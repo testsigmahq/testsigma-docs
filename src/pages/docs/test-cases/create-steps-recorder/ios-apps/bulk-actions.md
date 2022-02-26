@@ -1,6 +1,7 @@
 ---
 title: "Test Recorder - Bulk Actions in an iOS Project"
-meta_desc: " Bulk actions you can take on the recorded test steps in Testsigma’s Test Recorder UI for an iOS project"
+metadesc: " Bulk actions you can take on the recorded test steps in Testsigma’s Test Recorder UI for an iOS project"
+noindex: false
 order: 4.5391
 page_id: "Test Recorder - Bulk Actions in an iOS Project"
 warning: false

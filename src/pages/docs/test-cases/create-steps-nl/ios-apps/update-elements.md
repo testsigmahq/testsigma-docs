@@ -1,6 +1,7 @@
 ---
 title: "Update Elements for an iOS Project"
-meta_desc: "How to update the elements in an iOS project in Testsigma"
+metadesc: "How to update the elements in an iOS project in Testsigma"
+noindex: false
 order: 4.462
 page_id: "Update Elements for an iOS Project"
 warning: false

@@ -1,7 +1,8 @@
 ---
 title: "Setting up Google Single Sign-On(SSO) login in Testsigma"
 page_title: "Setting up Google Single Sign-On (SSO) login"
-meta_desc: "How to set up Single Sign-On (SSO) with Google in Testsigma."
+metadesc: "How to set up Single Sign-On (SSO) with Google in Testsigma."
+noindex: false
 order: 19.22
 page_id: "Setting up Google Single Sign-On(SSO) login in Testsigma"
 search_keyword: ""

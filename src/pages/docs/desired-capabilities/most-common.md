@@ -1,6 +1,7 @@
 ---
 title: "Common Desired Capabilities"
-meta_desc: "Commonly used Desired Capabilities and explainer articles"
+metadesc: "Commonly used Desired Capabilities and explainer articles"
+noindex: false
 order: 15.2
 page_id: "Common Desired Capabilities"
 search_keyword: ""

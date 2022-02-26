@@ -2,7 +2,8 @@
 title: "Updating a Testsigma add-on"
 order: 17.6
 page_id: "Update Addon"
-meta_desc: "How to update your Testsigma add-ons"
+metadesc: "How to update your Testsigma add-ons"
+noindex: false
 search_keyword: ""
 warning: false
 ---

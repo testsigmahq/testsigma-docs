@@ -1,7 +1,8 @@
 ---
 title: "Setting up SAML-based SSO login for Testsigma in Azure"
 page_title: "Setting up SAML-based Single Sign-On (SSO) for Testsigma with Azure AD"
-meta_desc: "How to enable single sign-on for Testsigma with Azure AD"
+metadesc: "How to enable single sign-on for Testsigma with Azure AD"
+noindex: false
 order: 19.24
 page_id: "Setting up SAML-based SSO login for Testsigma in Azure"
 search_keyword: ""

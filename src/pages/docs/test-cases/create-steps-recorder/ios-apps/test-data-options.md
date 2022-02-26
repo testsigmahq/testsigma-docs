@@ -1,6 +1,7 @@
 ---
 title: "Test Data in Steps for an iOS Project"
-meta_desc: "How to add test data in test steps using Testsigma Recorder for an iOS project"
+metadesc: "How to add test data in test steps using Testsigma Recorder for an iOS project"
+noindex: false
 order: 4.534
 page_id:  "Test Data in Steps for an iOS Project"
 warning: false
