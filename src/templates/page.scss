@@ -464,6 +464,7 @@ thead:first-child:hover tr{
 * add syntax highlighting
 */
 .gatsby-highlight {
+  position: relative;
   max-width: 680px;
   @media (max-width: 1023px) {
     max-width: 530px;
