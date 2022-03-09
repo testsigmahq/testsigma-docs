@@ -95,17 +95,23 @@ The most basic schema is a blank JSON object, which constrains nothing, allows a
 
 You can apply constraints on an instance by adding validation keywords to the schema. For example, the “type” keyword can be used to restrict an instance to an object, array, string, number, boolean, or null:
 
-`{"type": "string"}`
+```
+{"type": "string"}
+```
  
 For example,
 
 Let us consider the following JSON Document
 
-`{ "store": { "book": [ { "category": "reference", "author": "Nigel Rees", "title": "Sayings of the Century", "price": 8.95 }, { "category": "fiction", "author": "Evelyn Waugh", "title": "Sword of Honour", "price": 12.99 } ] } }` 
+```
+{ "store": { "book": [ { "category": "reference", "author": "Nigel Rees", "title": "Sayings of the Century", "price": 8.95 }, { "category": "fiction", "author": "Evelyn Waugh", "title": "Sword of Honour", "price": 12.99 } ] } }
+``` 
  
 The JSON Schema# is given below:
 
-`{"$id": "http://example.com/example.json", "type": "object", "definitions": {}, "$schema": "http://json-schema.org/draft-07/schema#", "properties": { "store": { "$id": "/properties/store", "type": "object", "properties": { "book": { "$id": "/properties/store/properties/book", "type": "array", "items": { "$id": "/properties/store/properties/book/items", "type": "object", "properties": { "category": { "$id": "/properties/store/properties/book/items/properties/category", "type": "string", "title": "The Category Schema ", "default": "", "examples": [ "reference" ] }, "author": { "$id": "/properties/store/properties/book/items/properties/author", "type": "string", "title": "The Author Schema ", "default": "", "examples": [ "Nigel Rees" ] }, "title": { "$id": "/properties/store/properties/book/items/properties/title", "type": "string", "title": "The Title Schema ", "default": "", "examples": [ "Sayings of the Century" ] }, "price": { "$id": "/properties/store/properties/book/items/properties/price", "type": "number", "title": "The Price Schema ", "default": 0.0, "examples": [ 8.949999809265137 ] } } } } } } } }`
+```
+{"$id": "http://example.com/example.json", "type": "object", "definitions": {}, "$schema": "http://json-schema.org/draft-07/schema#", "properties": { "store": { "$id": "/properties/store", "type": "object", "properties": { "book": { "$id": "/properties/store/properties/book", "type": "array", "items": { "$id": "/properties/store/properties/book/items", "type": "object", "properties": { "category": { "$id": "/properties/store/properties/book/items/properties/category", "type": "string", "title": "The Category Schema ", "default": "", "examples": [ "reference" ] }, "author": { "$id": "/properties/store/properties/book/items/properties/author", "type": "string", "title": "The Author Schema ", "default": "", "examples": [ "Nigel Rees" ] }, "title": { "$id": "/properties/store/properties/book/items/properties/title", "type": "string", "title": "The Title Schema ", "default": "", "examples": [ "Sayings of the Century" ] }, "price": { "$id": "/properties/store/properties/book/items/properties/price", "type": "number", "title": "The Price Schema ", "default": 0.0, "examples": [ 8.949999809265137 ] } } } } } } } }
+```
 
  
 Please check the official documentation for more details about [JSON Schema at JSON Schema ORG](http://json-schema.org/).
