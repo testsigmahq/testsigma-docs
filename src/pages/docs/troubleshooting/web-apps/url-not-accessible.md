@@ -30,11 +30,19 @@ Follow these steps to automate locally hosted applications:
 2. If your application is behind a firewall, you still have an option to use tunneling mechanisms to connect your application to Testsigma. To do this, first, contact your IT team and then contact Testsigma Support. For more details on how to access local URLs via Testsigma, please contact Testsigma Support at [support@testsigma.com](mailto:support@testsigma.com) or the [Support channel on Testsigma Discord](https://discord.com/invite/SjYKkSTUq9).
 
 
-What to do for chrome extension error “ Not able to record as third-party cookies are blocked by the browser” ?
-Go to this URL in Chrome chrome://settings/cookies and select “Allow all cookies” or “Block third-party cookies incognito” , you should not see this error post this.
+If you are not able to access URL's from using the extension, you may have one of the below issues 
 
-What to do for chrome extensions error ” Not able to access local files and urls”?
+**What to do for chrome extension error “ Not able to record as third-party cookies are blocked by the browser” ?**
+
+Go to this URL in Chrome chrome://settings/cookies and select “Allow all cookies” or “Block third-party cookies incognito” , you should not see this error post this.
+[![Watch the video] <iframe src="https://docs.testsigma.com/videos/url-not-accesible/Allow_cookies_or_Block_thirdparty_cookies.mp4" width="300" height="200"></iframe>
+
+**What to do for chrome extensions error ” Not able to access local files and urls”?**
+
 Please go to the Extensions icon in chrome -> Manage Extenstion->On the Testsigma Extension -> Click on “Details” -> Toggle on “Allow access to File URL’s”
+[![Watch the video]
+<iframe src="https://docs.testsigma.com/videos/url-not-accesible/Local_File_access.mp4" width="300" height="200"></iframe>
+
 
 
 
