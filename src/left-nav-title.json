@@ -535,5 +535,11 @@
   },
   "ios-settings": {
     "/docs/configuration/ios-settings/": "iOS Settings"
+  },
+  "reset-password": {
+    "/docs/configuration/reset-password/": "Reset Password (Community)"
+  },
+  "storage-types": {
+    "/docs/configuration/storage-types/": "Storage Types (Community)"
   }
 }
