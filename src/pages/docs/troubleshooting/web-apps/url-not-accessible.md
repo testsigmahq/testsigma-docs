@@ -39,7 +39,7 @@ Go to this URL in Chrome chrome://settings/cookies and select “Allow all cooki
 
 **What to do for chrome extensions error ” Not able to access local files and urls”?**
 
-Please go to the Extensions icon in chrome -> Manage Extenstion->On the Testsigma Extension -> Click on “Details” -> Toggle on “Allow access to File URL’s”
+Please go to the following Extensions icon in chrome -> Manage Extenstion->On the Testsigma Extension -> Click on “Details” -> Toggle on “Allow access to File URL’s”
 [![Watch the video]
 <iframe src="https://docs.testsigma.com/videos/url-not-accesible/Local_File_access.mp4" width="300" height="200"></iframe>
 
