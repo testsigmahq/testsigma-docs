@@ -63,11 +63,20 @@ Follow the below steps:
 
 ### Part 3: Configure the Travis CI Pipeline
 To run that script from your .travis.yml:
-   1. Save it in your repository as ```scripts/trigger_testsigma_tests_and_wait.sh```
-   2. Make it executable by running ```chmod ugo+x scripts/trigger_testsigma_tests_and_wait.sh```
+   1. Save it in your repository as
+   ```
+   scripts/trigger_testsigma_tests_and_wait.sh
+   ```
+   2. Make it executable by running
+   ```
+   chmod ugo+x scripts/trigger_testsigma_tests_and_wait.sh
+   ```
    3. Commit it to your repository.
    4. Add it to your .travis.yml:
- script: ```./scripts/trigger_testsigma_tests_and_wait.sh```
+ script:
+ ```
+ ./scripts/trigger_testsigma_tests_and_wait.sh
+ ```
 
  
 That's it.
