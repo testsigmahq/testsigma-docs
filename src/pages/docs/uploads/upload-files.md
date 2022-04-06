@@ -36,3 +36,18 @@ From the Uploads page, copy the file path from the copy button, also highlighted
 ![copy file path on uploads page in Testsigma](https://docs.testsigma.com/images/upload-files/copy-file-path-uploads-page--testsigma.png)
 Paste this URL when needed in the Test Steps. 
 Learn more about how to use uploaded files in Test Steps [here](https://testsigma.com/tutorials/test-cases/web-apps/automate-upload-buttons/)
+
+---
+##**Editing an uploaded file with an updated version**
+Once you have uploaded a file, you might want to add an updated version of the file. You can do that by following below steps:
+1. Go to Test Development > Uploads
+2. On the Uploads page, go to the upload that you want to update
+3. Corresponding to the upload, click on the edit button, as highlighted in the screenshot below:
+![edit button to upload an updated file](https://s3.amazonaws.com/static-docs.testsigma.com/new_images/uploads/upload-files/edit-button-upload-updated-file.png)
+4. On the update file pop-up that appears, choose the file you want to update the file to. 
+5. Once the file is uploaded, you would see the name and version text boxes appear as shown in the screenshot below:
+![Update File window under Uploads](https://s3.amazonaws.com/static-docs.testsigma.com/new_images/uploads/upload-files/uploads-updated-file-window.png)
+6. Fill in the name and version text boxes with the needed information.
+7. Click on the button “Update” for the changes to be reflected.
+
+
