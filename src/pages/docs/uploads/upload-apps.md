@@ -36,3 +36,15 @@ To automate testing of your native Android and iOS apps, you need to make sure t
  ![ uploads page with 2 uploaded apps in a project in Testsigma](https://s3.amazonaws.com/static-docs.testsigma.com/new_images/uploads/upload-apps/uploads-page-upload-apps-testsigma.png)
 This uploaded file can be used while developing and executing your tests.
 
+---
+##**Editing an uploaded app with an updated version**
+Once you have uploaded an app, you might want to add an updated version of the app. You can do that by following below steps:
+1. Go to Test Development > Uploads
+2. On the Uploads page, go to the app that you want to update
+3. Corresponding to the app, click on the edit button, as highlighted in the screenshot below:
+![edit button to upload an updated app](https://s3.amazonaws.com/static-docs.testsigma.com/new_images/uploads/upload-apps/edit-button-upload-updated-app.png)
+4. On the update file pop-up that appears, choose the file you want to update the app to. 
+5. Once the file is uploaded, you would see the name and version text boxes appear as shown in the screenshot below:
+![Update App window under Uploads](https://s3.amazonaws.com/static-docs.testsigma.com/new_images/uploads/upload-apps/uploads-updated-app-window.png)
+6. Fill in the name and version text boxes with the needed information.
+7. Click on the button “Update” for the changes to be reflected.
