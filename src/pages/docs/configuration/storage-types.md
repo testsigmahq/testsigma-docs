@@ -75,7 +75,7 @@ If you already have an Azure cloud account, you can use the subscription with Te
 
 ![Azure Cloud as Storage](https://docs.testsigma.com/images/Integrations/StoragTypes/sixth.png)
 
-![Watch Video] <iframe src="https://docs.testsigma.com/videos/Integrations/Storagetypes/video.mp4" width="300" height="200"></iframe>
+![Watch Video] <iframe src="https://docs.testsigma.com/videos/Integrations/Storagetypes/video_new.mp4" width="300" height="200"></iframe>
 
 
 
