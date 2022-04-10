@@ -135,7 +135,7 @@ export default ({ data, pageContext }) => {
                             Tutorials
                             </a>
                             <a className="btn btn-ghost btn-sm rounded-btn ml-10" target={'_blank'} href={'https://github.com/Testsigmahq/testsigma/'}>
-                            Github
+                            GitHub
                             </a>
                             <a className="btn btn-ghost btn-sm rounded-btn ml-10" href={'https://discord.com/invite/5caWS7R6QX'}>
                                 Discord
