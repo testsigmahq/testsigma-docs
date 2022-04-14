@@ -66,6 +66,13 @@ Using edit, you can change test data, element, or the Action Test Step altogethe
 
 ![Edit Step in Test Case Details](https://docs.testsigma.com/images/step-actions/edit-step-gif.gif)
 
+Alternatively, You can also edit the test data and element inline, steps to be followed are:
+1. Click on the test data or the element that needs to be changed.
+2. The required field should become editable.
+3. Do the changes inline.
+4. Click outside the step.
+5. The change should be saved.
+
 &emsp;
 
 ---

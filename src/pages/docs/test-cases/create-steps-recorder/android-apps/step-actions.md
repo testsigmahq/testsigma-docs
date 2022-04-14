@@ -72,6 +72,14 @@ Learn more about [adding steps manally.](https://testsigma.com/docs/test-cases/c
 
 ![edit test step action in Testsigma Recorder for an android project](https://docs.testsigma.com/images/step-actions/edit-test-step-test-action-testsigma-Recorder-android.png)
 
+Alternatively, You can also edit the test steps inline, steps to be followed are:
+1. Click on the test step that needs to be changed.
+2. The required test step should become editable.
+3. Do the changes inline.
+4. Click outside the step.
+5. The change should be saved.
+
+
 &emsp;
 
  3. **Delete**:  You can use this option to delete the test step.

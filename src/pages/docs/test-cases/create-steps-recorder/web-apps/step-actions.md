@@ -99,6 +99,14 @@ You can use this option to edit the test step.
 ![edit test step test step action in Testsigma recorder
 ](https://docs.testsigma.com/images/step-actions/edit-test-step-test-action-testsigma-recorder.png)
 
+Alternatively, You can also edit the test steps inline, steps to be followed are:
+1. Click on the test step that needs to be changed.
+2. The required test step should become editable.
+3. Do the changes inline.
+4. Click outside the step.
+5. The change should be saved.
+
+
 &emsp;
 
 ---
