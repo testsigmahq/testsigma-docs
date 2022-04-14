@@ -32,7 +32,15 @@ contextual_links:
 - type: link
   name: "Failed to enter data into the element"
   url: "#8--failed-to-enter-data-into-the-element"
-
+- type: link
+  name: "Failed to Change Orientation"
+  url: "#9--failed-to-change-orientation"
+- type: link
+  name: "Failed to Navigate to home"
+  url: "#10--failed-to-navigate-to-home"
+- type: link
+  name: "Failed to Search"
+  url: "#11--failed-to-search"
 ---
 
 ---
@@ -66,4 +74,14 @@ Below given are some of the most common reasons:
 
 ---
 ##**8.  Failed to enter data into the element**
+
+---
+##**9.  Failed to Change Orientation**
+
+---
+##**10.  Failed to Navigate to home**
+
+---
+##**11.  Failed to Search**
+
 
