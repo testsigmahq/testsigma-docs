@@ -41,6 +41,9 @@ contextual_links:
 - type: link
   name: "Failed to Search"
   url: "#11--failed-to-search"
+- type: link
+  name: "Mobile inspector session closed by a colleague"
+  url: "#12--mobile-inspector-session-closed-by-a-colleague"
 ---
 
 ---
@@ -83,5 +86,8 @@ Below given are some of the most common reasons:
 
 ---
 ##**11.  Failed to Search**
+
+---
+##**12.  Mobile inspector session closed by a colleague**
 
 
