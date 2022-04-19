@@ -465,10 +465,7 @@ thead:first-child:hover tr{
 */
 .gatsby-highlight {
   position: relative;
-  max-width: 680px;
-  @media (max-width: 1023px) {
-    max-width: 530px;
-  }
+  max-width: 100%;
 }
 .gatsby-highlight pre,
 .gatsby-highlight code {
