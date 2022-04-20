@@ -58,8 +58,8 @@ contextual_links:
   3. Go to authentication properties
   4. change the username (authentication.form.username = enter new user name)
   5. save the file
-
-[![Watch the video] <iframe src="https://docs.testsigma.com/videos/Troubleshooting/Setup/ResetPassword/first.mp4" width="300" height="200"></iframe>
+  
+<iframe src="https://docs.testsigma.com/videos/Troubleshooting/Setup/ResetPassword/first.mp4" width="300" height="200"></iframe>
 
 
 # (II). Downloaded Via Docker

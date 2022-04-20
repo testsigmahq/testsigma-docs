@@ -33,9 +33,9 @@ Storage allows you to access and store files on your preferred already integrate
 ## [Types of storage allowed in Testsigma open source](#storage-types)
 
 1. [On premise](#on-premise)
-2. Testsigma cloud
-3. Amazon s3
-4. Azure Cloud
+2. [Testsigma cloud](#testsigma-cloud)
+3. [Amazon s3](#amazon-s3)
+4. [Azure Cloud](#azure-cloud)
 
 ---
 ## [On premise:](#on-premise)
@@ -50,13 +50,13 @@ This is Testsigma own hosted cloud storage. You can push and access files from t
 
 ---
 ## [Amazon s3](#amazon-s3)
-If you already have a subscription for AWS S3 storage, you can use the same storage with Testsigma. Testsigma can access these files furing execution and also push screenshots or logs to S3 for your team
+If you already have a subscription for AWS S3 storage, you can use the same storage with Testsigma. Testsigma can access these files during execution and also push screenshots or logs to S3 for your team
 
 ![Amazon S3 as Storage](https://docs.testsigma.com/images/Integrations/StoragTypes/third.png)
 
 - Bucket Name: Name of your S3 bucket in one of the AWS Regions.
 - Endpoint: It is the address/url of the server where you want to store
-- Region: Region your bucket is setup in, you can mention the region code of the bucket configured in AWS.
+- Region: Region your bucket is set up in, you can mention the region code of the bucket configured in AWS.
 - Access key: It's a common access key used to get connected to their respective bucket.
 - Secret key: This is double authentication verification key. It’s the unique key that need to connect to their respective bucket.
 
@@ -66,7 +66,7 @@ If you already have a subscription for AWS S3 storage, you can use the same stor
 ---
 ## [Azure cloud:](#azure-cloud)
 
-If you already have an Azure cloud account, you can use the subscription with Testsigma to store and access files. Testsigma can access files stored here an push execution files like logs and screenshots here for storage.
+If you already have an Azure cloud account, you can use the subscription with Testsigma to store and access files. Testsigma can access files stored here and push execution files like logs and screenshots here for storage.
 
 ![Azure Cloud as Storage](https://docs.testsigma.com/images/Integrations/StoragTypes/fifth.png)
 
