@@ -90,16 +90,14 @@ Let’s begin.
    - MAX_WAIT_TIME_FOR_SCRIPT_TO_EXIT <br/>
      ![Workflow step inputs](https://docs.testsigma.com/images/bitrise/bitrise-step-inputs.png)
 10. This shell file has the details of the steps and the Test plan ID so that the execution can be polled and mapped accordingly.
-11. Please refer below the format and values to be updated in the shell script file:
-    <SHELL SCRIPT FILE>
-12. Once all steps are updated, click on the save button to save the build pipeline.
+11. Once all steps are updated, click on the save button to save the build pipeline.
     ![Workflow Save](https://docs.testsigma.com/images/bitrise/bitrise-save-workflow.png)
-13. Once the build pipeline is saved successfully, you can trigger the build run or even schedule the run.
+12. Once the build pipeline is saved successfully, you can trigger the build run or even schedule the run.
     ![Schedule Build](https://docs.testsigma.com/images/bitrise/bitrise-schedule-build.png)
-14. Select appropriate details and click ‘Start Build’ button.
+13. Select appropriate details and click ‘Start Build’ button.
     ![Workflow form](https://docs.testsigma.com/images/bitrise/bitrise-build-form.png)
-15. Logs can be viewed in the build run section.
-16. Upon execution of all steps, the build status is marked as passed or failed accordingly.
+14. Logs can be viewed in the build run section.
+15. Upon execution of all steps, the build status is marked as passed or failed accordingly.
 
 
 That's it.
