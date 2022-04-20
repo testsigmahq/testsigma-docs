@@ -85,8 +85,8 @@ contextual_links:
   3. Edit the Authentication properties file
   4. change the username (authentication.form.username = enter new user name)
   5. Save the file
-
-![Watch the video] <iframe src="https://docs.testsigma.com/videos/Troubleshooting/Setup/ResetPassword/second.mp4" width="300" height="200"></iframe>
+  
+<iframe src="https://docs.testsigma.com/videos/Troubleshooting/Setup/ResetPassword/second.mp4" width="300" height="200"></iframe>
 
 
 
