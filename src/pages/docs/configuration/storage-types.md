@@ -60,8 +60,8 @@ If you already have a subscription for AWS S3 storage, you can use the same stor
 - Access key: It's a common access key used to get connected to their respective bucket.
 - Secret key: This is double authentication verification key. It’s the unique key that need to connect to their respective bucket.
 
-![Amazon S3 as Storage](https://docs.testsigma.com/images/Integrations/StoragTypes/fourth.png)
 
+![Amazon S3 as Storage](https://docs.testsigma.com/images/Integrations/StoragTypes/fourth_new.png)
 
 ---
 ## [Azure cloud:](#azure-cloud)
@@ -73,7 +73,7 @@ If you already have an Azure cloud account, you can use the subscription with Te
 - Container Name: Container name which is created/present in Azure storage account.
 - Connection String: A connection string includes the authorization information required for your application to access data in an Azure Storage account.
 
-![Azure Cloud as Storage](https://docs.testsigma.com/images/Integrations/StoragTypes/sixth.png)
+![Azure Cloud as Storage](https://docs.testsigma.com/images/Integrations/StoragTypes/sixth_new.png)
 
 <iframe src="https://docs.testsigma.com/videos/Integrations/Storagetypes/video_new.mp4" width="300" height="200"></iframe>
 
