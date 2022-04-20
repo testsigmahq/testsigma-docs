@@ -55,7 +55,7 @@ If you already have a subscription for AWS S3 storage, you can use the same stor
 ![Amazon S3 as Storage](https://docs.testsigma.com/images/Integrations/StoragTypes/third.png)
 
 - Bucket Name: Name of your S3 bucket in one of the AWS Regions.
-- Endpoint: It is the address/url of the server where you want to
+- Endpoint: It is the address/url of the server where you want to store
 - Region: Region your bucket is setup in, you can mention the region code of the bucket configured in AWS.
 - Access key: It's a common access key used to get connected to their respective bucket.
 - Secret key: This is double authentication verification key. It’s the unique key that need to connect to their respective bucket.
