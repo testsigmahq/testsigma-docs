@@ -333,7 +333,7 @@
     "/docs/continuous-integration/travis-ci/": "Travis CI"
   },
   "bitrise-ci": {
-    "/docs/continuous-integration/bitraise-ci/": "Bitrise CI"
+    "/docs/continuous-integration/bitrise-ci/": "Bitrise CI"
   },
   "codeship-ci": {
     "/docs/continuous-integration/codeship-ci/": "CodeShip CI"
