@@ -121,12 +121,16 @@ Just like data-driven test cases, we now also support creating Data-Driven Step 
 
 ---
 ##**Control over Step Group Iterations in Test Case**
-  1. There may be situations where out of the 100 sets in the Test Data profile attached to your step group, you want to iterate from Set 5 to set 10 in your data-driven step group only and not all of them.
-     <br/><br/>
-     You can use these 2 restricted Runtime Variables to let Testsigma know which sets in from the Step Group Data profiles you want to iterate through
-     <br/>
-     **RunTime_TestData_Set_Start**<br/>
-     **Runtime_TestData_Set_End**
+ 
+  There may be situations where out of the 100 sets in the Test Data profile attached to your step group, you want to iterate from Set 5 to set 10 in your data-driven step group only and not all of them.
+  
+  You can use these 2 restricted Runtime Variables to let Testsigma know which sets in from the Step Group Data profiles you want to iterate through
+
+  **RunTime_TestData_Set_Start**<br/>
+  **Runtime_TestData_Set_End**
+
+  1. When creating a Data-Driven Step Group ensure you select the option “Overwrite Test Data Set with Runtime Variable” like in the image below
+     ![Control Step Group Data Driven with runtime data](https://docs.testsigma.com/images/step-group/step-group-runtime-data.png)
   2. Use the *store NLP* instructions to assign set names to the _RunTime_TestData_Set_Start = Set Name to START iteration from [Case Sensitive]_
      <br/>Use the *store NLP* instructions to assign set names to the _RunTime_TestData_Set_End = Set Name to END iteration from [Case Sensitive]_
      ![Store NLP to control Step Group Data Driven](https://docs.testsigma.com/images/step-group/step-group-store-run-time-data.png)
