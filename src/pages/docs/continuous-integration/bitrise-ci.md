@@ -84,7 +84,11 @@ Let’s begin.
    ![Workflow step runner](https://docs.testsigma.com/images/bitrise/bitrise-add-script-runner.png)
 8. Select the task and then modify / update the field values for the respective task.
 9. In this case to execute the Test Plan developed in Testsigma, you have to update the filename / filepath of the shell script file
-   ![Workflow step inputs](https://docs.testsigma.com/images/bitrise/bitrise-step-inputs.png)
+   <br/>Ex: bitrise.sh file should be available in the repository specified for this app. You need to place the [shell script from page](https://testsigma.com/docs/continuous-integration/shell-script/) into bitrise.sh file and update below properties
+   - TESTSIGMA_API_KEY
+   - TESTSIGMA_TEST_PLAN_ID <br/>
+   - MAX_WAIT_TIME_FOR_SCRIPT_TO_EXIT <br/>
+     ![Workflow step inputs](https://docs.testsigma.com/images/bitrise/bitrise-step-inputs.png)
 10. This shell file has the details of the steps and the Test plan ID so that the execution can be polled and mapped accordingly.
 11. Please refer below the format and values to be updated in the shell script file:
     <SHELL SCRIPT FILE>

@@ -124,3 +124,6 @@ The above workflow is depicted in the below gif too:
 The test data can also be imported from an excel sheet, explained [here](https://testsigma.com/docs/test-data/import-data-profiles/).
 
 
+You can now also create Data-Driven Step Groups to use powerful iterative and reusable components inside a test case. [Click Here](https://testsigma.com/docs/test-cases/step-types/step-group/#create-a-data-driven-step-group) to understand how
+
+
