@@ -87,7 +87,6 @@ A session was already running in one of the already open tabs/browsers while the
 
 **Solution**
 
-
 If you want to start a new session in the new tab/browser, you will have to stop the already running session first. For this you can go to “Usage Details” > “Mobile Inspector Sessions” and stop the old session manually. The details steps for stopping an already running session are mentioned with solution for Reason #1 above.
 
 
@@ -113,10 +112,12 @@ At all times, ensure that the tap point is within the screen.
 ##**3.  Mobile inspection session expired**
 
 **Reason:**
+
 This error appears when due to some reasons the Testsigma servers are not able to reach to the mobile inspector session. One of the main reasons could be an issue with your browser network. At such times, the keep-alive requests from the browser don’t go through to the Testsigma servers and the Testsigma servers assume that the session was closed abruptly - thus, marking the session as ‘expired’.
 
 
 **Solution:**
+
 Check and rectify any network-related issues and relaunch.
 
 <br>
@@ -127,9 +128,11 @@ Check and rectify any network-related issues and relaunch.
 This error could appear because of few different reasons, as listed below:
 
 **Reason #1:**
+
 The local or remote device, for which the mobile inspection session had to be started, is not available.
 
 **Solution:** 
+
 If the needed device is a lab remote device then try initiating the session again. If the issue persists even after a few retries, then you will have to reach out to Testsigma support. 
 
 To reach out to Testsigma support, you can: 
@@ -141,9 +144,11 @@ To reach out to Testsigma support, you can:
 
 
 **Reason #2:**
+
 The selected app, that needed to be launched for the mobile inspector session, cannot be installed on the device
  
 **Solution:** 
+
 Ensure that the app can be installed on the selected device. For local devices, you will have to install the app manually and try. In case the device is a remote test lab device and you can't figure out the issue, then you can reach out to Testsigma support. 
 
 To reach out to Testsigma support, you can: 
@@ -155,41 +160,52 @@ To reach out to Testsigma support, you can:
 
 
 **Reason #3:**
+
 The reason could be related to app size, and could be, one of the 2 related reasons mentioned below: 
 The selected app size has exceeded the allowed size limit.
 The large size of the app is causing the session to take a long time to initiate and the session wait time has exceeded the allowed limit.
  
 **Solution:**
+
 Upload the app with reduced size, if possible, or, If you are using a local device then first, install the app on the device, and then configure the use details[app activity, package etc.] option accordingly while starting the session.
 
 **Reason #4:**
+
 Some of the devices had additional security issues that stopped the session creation.
 
 **Solution:**
+
 This will happen in case you are using local devices. Make sure the USB debugging is enabled and in the device security settings select the proper connection type (for example Media).
 
 **Reason #5:**
+
 The usb connection, for local device sessions, is unstable.
 
 **Solution:**
+
 Check the USB cable and make sure its properly connected. Its recommended to use good quality USB cables to avoid connection issues.
 
 **Reason #6:**
+
 For android sessions, this error can appear if the launched app activity is different from the app activity parsed from the apk file. 
 
 **Solution:**
-There 2 solutions to this specific problem, and the solutions are mentioned below:
+
+There are 2 solutions to this specific problem, and the solutions are mentioned below:
 
 **Solution #1:**
+
 For local device sessions, this error can be avoided by following below steps:
 
 1. Install the app manually
 2. Configure the use details option during session initiation to set the app activity as the actual activity after launch.
 
 **Solution #2:**
+
 You can also confirm the values for ‘app activity’ and ‘app package’ from the concerned developer and then mention them under ‘optional desired capabilities’ when you launch a mobile inspector session. The ‘optional desired capabilities’ is highlighted for your reference, in the screenshot below:
 ![mobile inspector sessions](https://s3.amazonaws.com/static-docs.testsigma.com/new_images/troubleshooting/mobile-apps/mobile-recorder-actions-failures/desired-capabilities-optional.png)
 
+<br>
 
 ---
 ##**5.  Failed to clear the element's text**
@@ -197,17 +213,22 @@ You can also confirm the values for ‘app activity’ and ‘app package’ fro
 There could be a couple of reasons for this error to appear. The reasons are listed below:
  
 **Reason #1:** 
+
 The error appears when the element can't be identified or found using the given locator type(id, xpath, .e.t.c)
 
 **Solution:** 
+
 Please check the location value(id, xpath) provided to identity the element.
  
 **Reason #2:**
+
 This error can also appear if edits are not allowed on the element or if this element is not a text element.
 
 **Solution:**
+
 Please verify that the element that you wanted to clear the text for is a text type element and is editable.
 
+<br>
 
 ---
 ##**6.  Failed to tap on the element**
@@ -215,16 +236,22 @@ Please verify that the element that you wanted to clear the text for is a text t
 There could be a couple of reasons for this error to appear. The reasons are listed below:
 
 **Reason #1:**  
+
 We get this error when the element can't be identified or found using the given locator type(id, xpath, .e.t.c)
  
 **Solution:** 
+
 Please check the location value(id, xpath) provided to identity the element
 
 **Reason #2:**
+
 This error can also appear if the element doesn't allow click/tap action. For eg. The element may not be clickable.
 
 **Solution:** 
+
 Make sure that element you are trying to tap can be clicked or tapped and is not disabled.
+
+<br>
 
 ---
 ##**7.  Failed to Swipe**
@@ -232,26 +259,35 @@ Make sure that element you are trying to tap can be clicked or tapped and is not
 There could be a couple of reasons for this error to appear. The reasons are listed below:
  
 **Reason #1:**
+
 We get this error when the swipe coordinates are not correct or if they are out of bounds.
 
 **Solution:**
+
 Make sure that the tap point is within the screen width and height bounds
  
 **Reason #2:**
+
 This error can also appear if the device doesn't allow swiping to the specified coordinates.
 
 **Solution:** 
+
 Make sure that the intended destination of the swipe action allows a swipe to it.
 
+<br>
 
 ---
 ##**8.  Failed to Navigate back**
 
 **Reason:** 
+
 This error can appear if the device doesn't navigate back to the required page.
 
 **Solution:** 
+
 Make sure that the the device allows back navigation.
+
+<br>
 
 ---
 ##**9.  Failed to enter data into the element**
@@ -259,28 +295,117 @@ Make sure that the the device allows back navigation.
 There could be a couple of reasons for this error to appear. The reasons are listed below:
  
 **Reason #1:**
+
 This error can appear when the element can't be identified or found using the given locator type(id, xpath etc).
 
 **Solution:**
+
 Please check the location value(id, xpath) provided to identity the element
  
 **Reason #2:**
+
 This error can also appear if the element doesn't allow edits or if this element is not a text-containing element.
 
 **Solution:**
+
 Make sure that text can be entered into the element and if enter data doesn't work then click on the element and then use ‘send keys’ action in test steps in order to enter data.
 
+<br>
 
 ---
 ##**10.  Failed to Change Orientation**
 
+There could be a couple of reasons for this error to appear. The reasons are listed below: 
+
+**Reason #1:**  
+
+The app being inspected doesn't support change of orientation
+
+**Solution:**
+
+You will need contact the app developer and ask them to add support for orientation change
+
+**Reason #2:**
+
+The device’s settings do not allow orientation change. 
+
+
+**Solution:**
+
+If you are inspecting on a local mobile device, then you will have to change the device’s settings to allow orientation change. 
+
+If you are inspecting mobile device on the cloud lab, then, please reachout to Testsigma support team.
+
+To reach out to Testsigma support, you can: 
+ * Ping us on the chat widget at the bottom right of the page ,or, 
+ * Email us at: support@testsigma.com ,or,
+ * Join the Testsigma community’s discord here: https://discord.com/invite/5caWS7R6QX
+
+<br>
+
 ---
 ##**11.  Failed to Navigate to home**
+
+**Reason:** 
+
+This error would usually appear for cloud devices, when, for a device - home navigation is disabled.
+
+**Solution:**
+
+Please reachout to testsigma support team for clarification.
+
+To reach out to Testsigma support, you can: 
+ * Ping us on the chat widget at the bottom right of the page ,or, 
+ * Email us at: support@testsigma.com ,or,
+ * Join the Testsigma community’s discord here: https://discord.com/invite/5caWS7R6QX
+
+ <br>
 
 ---
 ##**12.  Failed to Search**
 
+There could be a couple of reasons for this error to appear. The reasons are listed below: 
+
+**Reason #1:**
+
+The element locator value provided might be incorrect
+
+**Solution:**
+
+Check for the correctness of the provided locator strategy and locator values, to do this make sure:
+1. The element is searchable using the provided locator strategy and locator values 
+2. The element is present in the current page.
+
+**Reason #2:**
+
+The element being searched might be from a hybrid page in the app.
+
+**Solution:**
+To resolve this, perform below steps:
+1. Switch to hybrid app view
+2. Change the locator value to to match the hybrid app element
+3. Try again
+
+<br>
+
 ---
 ##**13.  Mobile inspector session closed by a colleague**
+
+**Reason:**
+
+Your mobile session could have been closed because another collegue started a new mobile inspector session and the licenses were not enough for your session to continue. 
+
+**Solution:**
+
+You will need to increase your license count to avoid these kind of issues. Reachout to Testsigma support/sales team. 
+
+To reach out to Testsigma support, you can: 
+ * Ping us on the chat widget at the bottom right of the page ,or, 
+ * Email us at: support@testsigma.com ,or,
+ * Join the Testsigma community’s discord here: https://discord.com/invite/5caWS7R6QX
+
+<br>
+
+---
 
 
