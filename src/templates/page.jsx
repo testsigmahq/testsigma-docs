@@ -61,17 +61,21 @@ export default ({ data, pageContext }) => {
           const originalText = preTags[keyName].innerHTML;
           const icon = document.createElement("i");
           icon.className = "copytoclipboard";
-          preTags[keyName].parentNode.appendChild(icon);
-          return preTags[keyName].innerHTML = originalText;
+          if(preTags[keyName]) {
+              preTags[keyName].parentNode.appendChild(icon);
+              return preTags[keyName].innerHTML = originalText;
+          }
         })
       }
       else {
         Object.keys(codeTags).map(function(keyName, keyIndex) {
-          const originalText = codeTags[keyName].innerHTML;
-          const icon = document.createElement("i");
-          icon.className = "copytoclipboard";
-          preTags[keyName].parentNode.appendChild(icon);
-          return codeTags[keyName].innerHTML = originalText;
+            const originalText = codeTags[keyName].innerHTML;
+            const icon = document.createElement("i");
+            icon.className = "copytoclipboard";
+            if (preTags[keyName]) {
+                preTags[keyName].parentNode.appendChild(icon);
+                return codeTags[keyName].innerHTML = originalText;
+            }
         })
       }
       // adding eventlistners to all copytoclipboard icons which generated dynamically for markdown file code tags.
