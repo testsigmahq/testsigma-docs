@@ -2,7 +2,7 @@
 title: "Visual Testing : How to update the baseline image"
 metadesc: "How to update the baseline image for a test step for visual testing in Testsigma"
 noindex: false
-order: 14.3
+order: 14.4
 page_id: "Visual Testing : How to update the baseline image"
 warning: false
 contextual_links:

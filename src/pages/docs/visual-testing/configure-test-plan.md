@@ -2,7 +2,7 @@
 title: "Visual Testing - Configure Test Plan"
 metadesc: "How to configure visual testing for your test plan"
 noindex: false
-order: 14.1
+order: 14.2
 page_id: "Visual Testing - Configure Test Plan"
 warning: false
 contextual_links:

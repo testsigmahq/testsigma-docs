@@ -20,6 +20,9 @@ contextual_links:
 - type: link
   name: "Adding While Loop in Testsigma’s Test Step Recorder [Android &iOS]"
   url: "#adding-while-loop-in-testsigmas-test-step-recorder-android-ios"
+- type: link
+  name: "Additional Actions Possible on Iteration Count"
+  url: "#additional-actions-possible-on-iteration-count"
 ---
 
 ---
@@ -165,6 +168,12 @@ Follow the steps below to add a While loop:
 ![while loop steps when creating a while loop in Testsigma via recorder](https://docs.testsigma.com/images/while-loop/while-loop-steps-recorder.png)
 
 Repeat the steps in the first section of this document from Step 5. 
+
+---
+##**Additional Actions Possible on Iteration Count**
+
+Iteration count is the current count that is being iterated in a while loop in Testsigma. This Iteration Count can be stored into a variable for later use as well. 
+
 
 
 

@@ -23,6 +23,9 @@ contextual_links:
 - type: link
   name: "Control over Step Group Iterations in Test Case"
   url: "#control-over-step-group-iterations-in-test-case"
+- type: link
+  name: "Additional Actions Possible on Iteration Count"
+  url: "#additional-actions-possible-on-iteration-count"
 ---
 
 ---
@@ -136,7 +139,14 @@ Just like data-driven test cases, we now also support creating Data-Driven Step 
      ![Store NLP to control Step Group Data Driven](https://docs.testsigma.com/images/step-group/step-group-store-run-time-data.png)
   3. We will automatically use the value set in these variables when we reach the Step Group to identify start and end iteration set names
      ![Step Group Data Driven on test case](https://docs.testsigma.com/images/step-group/step-group-on-test-case-part2.png)
-     
+
+---
+
+##**Additional Actions Possible on Iteration Count**
+
+When, in a step group, a test data profile is being iterated - an additional action is possible. The Iteration Count can be stored into a variable for later use as well. (Iteration count is the current count that is being iterated over the associate test data profile in the step group in Testsigma.)
+
+
 
 
 

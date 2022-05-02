@@ -17,6 +17,9 @@ contextual_links:
 - type: link
   name: "Add For Loop to Test Case"
   url: "#add-for-loop-to-test-case"
+- type: link
+  name: "Additional Actions Possible on Iteration Count"
+  url: "#additional-actions-possible-on-iteration-count"
 ---
 
 ---
@@ -111,6 +114,13 @@ Here’s a gif to demonstrate how to add for loop test steps into your test case
 ![gif choose for loop test type](https://docs.testsigma.com/images/for-loop/gif-choose-for-loop-test-type1.gif)
 
 ![gif test data profile for loop test type](https://docs.testsigma.com/images/for-loop/gif-test-data-profile-for-loop-test-type.gif)
+
+---
+
+##**Additional Actions Possible on Iteration Count**
+
+Iteration count is the current count that is being iterated in a for loop in Testsigma. This Iteration Count can be stored into a variable for later use as well.
+
 
 
 

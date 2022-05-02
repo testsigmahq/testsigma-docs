@@ -23,6 +23,9 @@ contextual_links:
 - type: link
   name: "Pre-requisites:"
   url: "#pre-requisites"
+- type: link
+  name: "Additional Actions Possible on Test Data Set Name"
+  url: "#additional-actions-possible-on-test-data-set-name"
 ---
 
 ---
@@ -126,4 +129,9 @@ The test data can also be imported from an excel sheet, explained [here](https:/
 
 You can now also create Data-Driven Step Groups to use powerful iterative and reusable components inside a test case. [Click Here](https://testsigma.com/docs/test-cases/step-types/step-group/#create-a-data-driven-step-group) to understand how
 
+---
+##**Additional Actions Possible on Test Data Set Name**
+
+
+When a test data profile is associated with a test case. The test data set name associated with the test data profile can be stored into a variable for later use as well.
 

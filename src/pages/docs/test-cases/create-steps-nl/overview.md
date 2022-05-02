@@ -51,6 +51,8 @@ Once the test data is updated, click on the  ‘Create’ button to validate and
 ![Create First Action Step for Simplytravel test case](https://docs.testsigma.com/images/test-cases/create-first-Action-step-simplytravel-test-case.png)
 
 
+**Note**: There is a more intuitive way to continue adding more test steps once you finish typing one - just hit "ENTER".
+
 &emsp;
 
 ### **Step 2**
