@@ -119,7 +119,9 @@ Here’s a gif to demonstrate how to add for loop test steps into your test case
 
 ##**Additional Actions Possible on Iteration Count**
 
-Iteration count is the current count that is being iterated in a for loop in Testsigma. This Iteration Count can be stored into a variable for later use.
+Iteration count is the current count that is being iterated in a for loop in Testsigma. This Iteration Count can be stored into a variable for later use. Below is how the syntax for the Store NLP looks like:
+
+![store-iteration-count-test-data-set-name](https://s3.amazonaws.com/static-docs.testsigma.com/new_images/test-cases/step-types/for-loop/store-iteration-count-test-data-set-name.png)
 
 
 
