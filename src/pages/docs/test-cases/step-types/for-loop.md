@@ -119,7 +119,7 @@ Here’s a gif to demonstrate how to add for loop test steps into your test case
 
 ##**Additional Actions Possible on Iteration Count**
 
-Iteration count is the current count that is being iterated in a for loop in Testsigma. This Iteration Count can be stored into a variable for later use as well.
+Iteration count is the current count that is being iterated in a for loop in Testsigma. This Iteration Count can be stored into a variable for later use.
 
 
 

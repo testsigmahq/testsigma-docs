@@ -172,7 +172,9 @@ Repeat the steps in the first section of this document from Step 5.
 ---
 ##**Additional Actions Possible on Iteration Count**
 
-Iteration count is the current count that is being iterated in a while loop in Testsigma. This Iteration Count can be stored into a variable for later use as well. 
+Iteration count is the current count that is being iterated in a while loop in Testsigma. This Iteration Count can be stored into a variable for later use as well. Below is how the syntax for the Store NLP looks like:
+
+![store-iteration-count-test-data-set-name](https://s3.amazonaws.com/static-docs.testsigma.com/new_images/test-cases/step-types/for-loop/store-iteration-count-test-data-set-name.png)
 
 
 

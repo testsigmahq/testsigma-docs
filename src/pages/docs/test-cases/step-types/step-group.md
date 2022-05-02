@@ -144,7 +144,7 @@ Just like data-driven test cases, we now also support creating Data-Driven Step 
 
 ##**Additional Actions Possible on Iteration Count**
 
-When, in a step group, a test data profile is being iterated - an additional action is possible. The Iteration Count can be stored into a variable for later use as well. (Iteration count is the current count that is being iterated over the associate test data profile in the step group in Testsigma.)
+When, in a step group, a test data profile is being iterated - an additional action is possible. The Iteration Count can be stored into a variable for later use. (Iteration count is the current count that is being iterated over the associate test data profile in the step group in Testsigma.)
 
 
 

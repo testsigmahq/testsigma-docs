@@ -133,5 +133,7 @@ You can now also create Data-Driven Step Groups to use powerful iterative and re
 ##**Additional Actions Possible on Test Data Set Name**
 
 
-When a test data profile is associated with a test case. The test data set name associated with the test data profile can be stored into a variable for later use as well.
+When a test data profile is associated with a test case. The test data set name associated with the test data profile can be stored into a variable for later use as well. Below is how the syntax for the Store NLP looks like:
+
+![store-iteration-count-test-data-set-name](https://s3.amazonaws.com/static-docs.testsigma.com/new_images/test-cases/step-types/for-loop/store-iteration-count-test-data-set-name.png)
 

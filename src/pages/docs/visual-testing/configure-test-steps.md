@@ -29,6 +29,11 @@ The visual testing can be configured for a test step on a test case details page
 
 3. Visual testing validation is now on for this test step.
 
+Alternatively, below is a gif demonstrating the above steps:
+
+![gif-visual-testing-edit-teststep](https://s3.amazonaws.com/static-docs.testsigma.com/new_images/visual-testing/configure-test-steps/gif-visual-testing-edit-teststep.gif)
+
+
 Note: After you enable visual testing for a test step - Visual Testing becomes available only after the next successful run. This is because, in order to execute visual testing, Testsigma needs a baseline image corresponding to the test step. 
 
 ---
@@ -38,4 +43,10 @@ Note: After you enable visual testing for a test step - Visual Testing becomes a
 To save time and reduce redundant efforts, Testsigma supports bulk update of steps to turn on/off visual testing.
 
 You can select all the steps in the test case that you want and turn on/off the visual testing settings in one go.
+
+Below is a gif demonstrating bulk update for enabling visual testing for multiple steps at once:
+
+![gif-visual-testing-bulk-update-test-steps.gif](https://s3.amazonaws.com/static-docs.testsigma.com/new_images/visual-testing/configure-test-steps/gif-visual-testing-bulk-update-test-steps.gif)
+
+
 
