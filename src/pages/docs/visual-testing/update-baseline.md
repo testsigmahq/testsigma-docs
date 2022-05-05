@@ -28,7 +28,7 @@ The baseline image is supposed to be updated whenever updates are made in the us
 
 You should have executed your visual testing test case at least once so it has baseline images. You should also know how to:
  1. [Create a test case for visual testing](https://testsigma.com/docs/test-cases/manage/add-edit-delete/)
- 2. [Configure Testsigma and your test plan for visual testing](https://testsigma.com/docs/visual-testing/configure-test-plan/).
+ 2. [Enable Visual Testing for the test steps that need visual testing](https://testsigma.com/docs/visual-testing/configure-test-steps/)
  3. [View and Debug results for your visual testing test cases](https://testsigma.com/docs/visual-testing/view-debug-results/). 
 
 

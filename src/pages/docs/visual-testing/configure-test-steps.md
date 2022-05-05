@@ -18,7 +18,9 @@ contextual_links:
 
 ---
 
-With Testsigma, Visual Testing is switched off for all test-steps, by default. Users have the freedom to turn it on only for the steps where they need visual validation.
+With Testsigma, you can perform visual testing for your web application as well as your mobile application.
+
+By default, Visual Testing is switched off for all test-steps. Users have the freedom to turn it on only for the steps where they need visual validation.
 
 ##**1. How to Enable Visual Testing for a Test Step**
 
