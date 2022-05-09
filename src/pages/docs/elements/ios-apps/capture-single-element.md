@@ -49,14 +49,14 @@ In an iOS project in Testsigma, you can selectively capture elements one at a ti
 
 
 3. Now select the lab, version, device, and the .ipa you want to capture the element from, and then click on the button ‘Launch’. This launches the Test recorder which should look something like this:
-![Test recorder screen under create one element at a time for an iOS project in Testsigma](https://docs.testsigma.com/images/capture-single-element/mobile-inspector-screen-create-one-element-ios-testsigma.png)
+![Single Element Recorder Interface in iOS](https://s3.amazonaws.com/static-docs.testsigma.com/new_images/elements/ios-apps/capture-single-element/ios-single-element-recorder-interface.png)
 
-4. Make sure that the inspection mode is selected, using the button highlighted below:
-![inspection mode button on Test recorder screen under create one element at a time for an iOS project in Testsigma](https://docs.testsigma.com/images/capture-single-element/inspection-mode-button-create-one-element-ios-testsigma.png)
+4. Make sure that the "Select Element" Button, using the button highlighted below:
+![Select Element Button in Element recorder interface](https://s3.amazonaws.com/static-docs.testsigma.com/new_images/elements/ios-apps/capture-single-element/ios-single-element-recorder-interface-select-button.png)
 
 5. Now click on the element that you want to capture. On the element form that opens up, enter the ‘element name’ and ‘screen name’. You can also change the element type according to your preference in this form:
 
-![element form on mobile inspector screen under create one element at a time for an iOS project in Testsigma](https://docs.testsigma.com/images/capture-single-element/element-form-create-one-element-ios-testsigma.png)
+![Element Form in Element Recorder Interface](https://s3.amazonaws.com/static-docs.testsigma.com/new_images/elements/ios-apps/capture-single-element/ios-single-element-recorder-interface-element-form.png)
 
 6. Once you enter the required details in the element form, click on the button ‘Save & Close’. The element will be saved in the project’s element list and the Test recorder will be closed. 
 

@@ -33,25 +33,25 @@ Given below are the controls and actions available in step Test recorder:
  
 &emsp;**1. Mirroring Mode:** This mode enables the device screen mirroring and you can interact in real-time with the device.
 
-![mirroring mode for android step Test recorder in Testsigma](https://docs.testsigma.com/images/controls-and-actions/mirroring-mode-android-step-recorder.png)
+![Mirroring mode in Test Recorder for iOS](https://s3.amazonaws.com/static-docs.testsigma.com/new_images/test-cases/create-steps-recorder/ios-apps/overview/test-recorder-interface-ios-1-steps-mirroring-mode.png)
 
-&emsp;**2. Inspection Mode:** This mode is used for capturing the element details.
+&emsp;**2. Select Element:** This mode is used for capturing the element details.
    
-&emsp;&emsp;2.1 Click on inspection mode.
+&emsp;&emsp;2.1 Click on 'Select Element' Option.
 
 &emsp;&emsp;2.2 Tap on any element you need to do tap action.
 
 &emsp;&emsp;2.3 Click on Tap on the top.
 
-![inspection mode on android step recorder in Testsigma](https://docs.testsigma.com/images/controls-and-actions/inspection-mode-android-step-recorder.png)
+ ![Select Element in Test Recorder for iOS](https://s3.amazonaws.com/static-docs.testsigma.com/new_images/test-cases/create-steps-recorder/ios-apps/overview/test-recorder-interface-ios-1-select-element.png)
 
 &emsp;
 ![tap option on selected elements via android step recorder in Testsigma](https://docs.testsigma.com/images/controls-and-actions/tap-option-selected-elements-android-step-recorder.png)
 
 
-&emsp;**3. Do Swipe Action:** For performing any swipe action in the application.
+&emsp;**3. Swipe By Coordinates:** For performing any swipe action in the application.
 
-&emsp;&emsp;3.1 Click on Do swipe action.
+&emsp;&emsp;3.1 Click on 'Swipe By Coordinates' option.
 
 &emsp;&emsp;3.2 Double click on the area in the application UI from where you need to start swiping.
 
@@ -59,15 +59,15 @@ Given below are the controls and actions available in step Test recorder:
 
 &emsp;&emsp;3.4 This will perform a swipe action on the application
 
-![do swipe action on android step recorder in Testsigma](https://docs.testsigma.com/images/controls-and-actions/do-swipe-action-android-step-recorder.png)
+![Swipe By Coordinates in Test Recorder for iOS](https://s3.amazonaws.com/static-docs.testsigma.com/new_images/test-cases/create-steps-recorder/ios-apps/overview/test-recorder-interface-ios-1-swipe-by-coordinates.png)
 
-&emsp;**4. Do click Action:** For clicking on elements in the application.
+&emsp;**4. Tap By Coordinates:** For clicking on elements in the application.
    
-&emsp;&emsp;4.1 Click on the Do Click action option.
+&emsp;&emsp;4.1 Click on the 'Tap By Coordinates' option.
 
 &emsp;&emsp;4.2 Tap on any element on the application to do a click action.
 
-![to do click action using android step recorder in Testsigma](https://docs.testsigma.com/images/controls-and-actions/click-on-elements-android-step-recorder.png)
+![Tap By Coordinates in Test Recorder for iOS](https://s3.amazonaws.com/static-docs.testsigma.com/new_images/test-cases/create-steps-recorder/ios-apps/overview/test-recorder-interface-ios-1-tap-by-coordinates.png)
 
 &emsp;**5. Go Back:** For going back to the previous page of the app.
 

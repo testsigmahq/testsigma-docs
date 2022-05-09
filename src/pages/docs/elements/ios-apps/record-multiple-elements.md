@@ -54,16 +54,16 @@ See uploading apps to Testsigma.
 
 3. Once you have selected the version, device, and the .ipa you want to launch, click on the record button on the ‘Record Element’ window.
 4. The Test Recorder screen should appear like this:
-![mobile inspector screen under record multiple elements for an iOS project in Testsigma](https://docs.testsigma.com/images/record-multiple-elements/mobile-inspector-screen-record-multiple-elements-ios-testsigma.png)
+ ![Element recorder interface for iOS](https://s3.amazonaws.com/static-docs.testsigma.com/new_images/elements/ios-apps/record-multiple-elements/iOS-element-recorder-interface-1.png)
 
-5. Make sure that the inspection mode is selected. The inspection mode button is highlighted in the screenshot below:
-![inspection mode button for mobile inspector under record multiple elements for an iOS project in Testsigma](https://docs.testsigma.com/images/record-multiple-elements/inspection-mode-button-record-multiple-elements-ios-testsigma.png)
+5. Make sure that the "Select Element" button is selected. The "Select Element" button is highlighted in the screenshot below:
+ ![Select Element Button in Element Recorder for iOS](https://s3.amazonaws.com/static-docs.testsigma.com/new_images/elements/ios-apps/record-multiple-elements/iOS-element-recorder-interface-select-element-button-1.png)
 
 6. Now click on the element that you want to capture. On the element form that opens up, enter the ‘element name’ and ‘screen name’. You can also change the element type according to your preference in this form:
-![element form on mobile inspector screen under record multiple elements for an iOS project in Testsigma](https://docs.testsigma.com/images/record-multiple-elements/element-form-record-multiple-elements-ios-testsigma.png)
+![iOS Element Recorder Element Form](https://s3.amazonaws.com/static-docs.testsigma.com/new_images/elements/ios-apps/record-multiple-elements/iOS-element-recorder-element-form-1.png)
 
 7. Once you’ve entered the details in the element form, click ‘Done’. The captured element will appear under elements on the same screen:
-![elements section under record multiple elements for an iOS project in Testsigma](https://docs.testsigma.com/images/record-multiple-elements/elements-record-multiple-elements-ios-testsigma.png)
+![One Element Saved in Element Recorder for iOS](https://s3.amazonaws.com/static-docs.testsigma.com/new_images/elements/ios-apps/record-multiple-elements/iOS-element-recorder-one-element-saved-1.png)
 
 
 The elements can also be edited or deleted from this list using the ‘edit’ and ‘delete’ buttons that appear at the end of the element rows.
@@ -71,5 +71,5 @@ The elements can also be edited or deleted from this list using the ‘edit’ a
 8. Repeat steps 6 and 7 for every element you want to capture.
 9. Once you have captured the elements, click on the ‘Save’ button on the ‘Elements’ list to save the changes in the project. Once saved, a checkmark icon will appear corresponding to all the saved elements in the element list:
 
-![saved elements in elements section under record multiple elements for an iOS project in Testsigma](https://docs.testsigma.com/images/record-multiple-elements/saved-elements-record-multiple-elements-ios-testsigma.png)
+![Multiple Elements Saved in Element Recorder for iOS](https://s3.amazonaws.com/static-docs.testsigma.com/new_images/elements/ios-apps/record-multiple-elements/iOS-element-recorder-multiple-elements-saved-1.png)
 

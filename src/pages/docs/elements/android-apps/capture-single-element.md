@@ -53,15 +53,15 @@ In an Android project in Testsigma, you can selectively capture elements one at 
 
 3. Now select the lab, version, device, and the apk you want to capture the element from, and then click on the button ‘Launch’. This launches the Mobile test recorder which should look something like this:
 
-![mobile inspector screen under create one element at a time for an android project in Testsigma](https://docs.testsigma.com/images/capture-single-element/mobile-inspector-screen-create-one-element-android-testsigma.png)
+![Single Element recorder interface for Android](https://s3.amazonaws.com/static-docs.testsigma.com/new_images/elements/android-apps/capture-single-element/android-single-element-recorder-interface.png)
 
-4. Make sure that the inspection mode is selected, using the button highlighted below:
+4. Make sure that the "Select Element" Button is selected, using the button highlighted below:
 
-![inspection mode button on mobile inspector screen under create one element at a time for an android project in Testsigma](https://docs.testsigma.com/images/capture-single-element/inspection-mode-button-create-one-element-android-testsigma.png)
+![Select Element Button in Element recorder interface](https://s3.amazonaws.com/static-docs.testsigma.com/new_images/elements/android-apps/capture-single-element/android-single-element-recorder-interface-select-button.png)
 
 5. Now click on the element that you want to capture. On the element form that opens up, enter the ‘element name’ and ‘screen name’. You can also change the element type according to your preference in this form:
 
-![element form on mobile inspector screen under create one element at a time for an android project in Testsigma](https://docs.testsigma.com/images/capture-single-element/element-form-create-one-element-android-testsigma.png)
+![Single Element Recorder Interface Element Form](https://s3.amazonaws.com/static-docs.testsigma.com/new_images/elements/android-apps/capture-single-element/android-single-element-recorder-interface-element-form.png)
 
 6. Once you enter the required details in the element form, click on the button ‘Save & Close’. The element will be saved in the project’s element list and the mobile test recorder  will be closed. 
 
