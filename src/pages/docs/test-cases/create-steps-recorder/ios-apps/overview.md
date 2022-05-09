@@ -66,7 +66,7 @@ With Testsigma, you can either write your test steps in simple English or you ca
  ![Mirroring mode in Test Recorder for iOS](https://s3.amazonaws.com/static-docs.testsigma.com/new_images/test-cases/create-steps-recorder/ios-apps/overview/test-recorder-interface-ios-1-steps-mirroring-mode.png)
 
 
-This mode enables the device screen mirroring and you can interact in real-time with the device.
+Mirror mode will allow you to use the app via Testsigma to mirror real live physical device use
 
 
 

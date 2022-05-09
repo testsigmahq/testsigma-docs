@@ -80,7 +80,7 @@ Given below are the controls and actions available in Testsigma’s test step re
 ---
 ##**1. Mirroring Mode**
 
- This mode enables the device screen mirroring and you can interact in real-time with the device.
+ Mirror mode will allow you to use the app via Testsigma to mirror real live physical device use
 
 ![Mirroring mode in Test recorder interface for Android](https://s3.amazonaws.com/static-docs.testsigma.com/new_images/test-cases/create-steps-recorder/android-apps/overview/test-recorder-interface-android-1-mirroring-mode.png)
 

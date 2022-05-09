@@ -31,7 +31,7 @@ This document assumes that you know how to:
 
 Given below are the controls and actions available in step Test recorder:
  
-&emsp;**1. Mirroring Mode:** This mode enables the device screen mirroring and you can interact in real-time with the device.
+&emsp;**1. Mirroring Mode:** Mirror mode will allow you to use the app via Testsigma to mirror real live physical device use
 
 ![Mirroring mode in Test Recorder for iOS](https://s3.amazonaws.com/static-docs.testsigma.com/new_images/test-cases/create-steps-recorder/ios-apps/overview/test-recorder-interface-ios-1-steps-mirroring-mode.png)
 
