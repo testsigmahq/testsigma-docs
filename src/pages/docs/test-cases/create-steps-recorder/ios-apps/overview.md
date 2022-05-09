@@ -48,21 +48,34 @@ With Testsigma, you can either write your test steps in simple English or you ca
 
 6. Click Record. The Test recorder interface will look like this:
 
-![to record test steps via the Recorder in Testsigma, for an iOS projec](https://docs.testsigma.com/images/ios-apps/to-record-test-steps-mobile-inspector-testsigma-ios.png)
+ ![Test Recorder Interface for iOS](https://s3.amazonaws.com/static-docs.testsigma.com/new_images/test-cases/create-steps-recorder/ios-apps/overview/test-recorder-interface-ios-1.png)
 
 7. The test steps will appear in the section ‘Test Steps’. As you can see, the first step will be ‘Launch App’:
 
-![test steps section on the Recorder UI in Testsigma, for an iOS project](https://docs.testsigma.com/images/ios-apps/test-steps-section-record-test-steps-mobile-inspector-testsigma-ios.png)
+![Test Recorder Steps for iOS](https://s3.amazonaws.com/static-docs.testsigma.com/new_images/test-cases/create-steps-recorder/ios-apps/overview/test-recorder-interface-ios-1-steps.png)
 
 
 8. Now you can use the Test Recorder to record next steps. Before doing that let’s review all the options available with the Test Recorder. The options available are:
 
+
+
 &emsp;
-**a. Inspection mode:**
 
-![ inspection mode button to record test steps via the Recorder in Testsigma, for an iOS project](https://docs.testsigma.com/images/ios-apps/inspection-mode-button-record-test-steps-mobile-inspector-testsigma-ios.png)
+**a. Mirroring mode:**
 
-In inspection mode, you can click on elements and get more information about them. For example, if we click on the button ‘Log in’, this information about the button will appear on the Test Recorder UI.
+ ![Mirroring mode in Test Recorder for iOS](https://s3.amazonaws.com/static-docs.testsigma.com/new_images/test-cases/create-steps-recorder/ios-apps/overview/test-recorder-interface-ios-1-steps-mirroring-mode.png)
+
+
+This mode enables the device screen mirroring and you can interact in real-time with the device.
+
+
+
+&emsp;
+**b. Select Element:**
+
+ ![Select Element in Test Recorder for iOS](https://s3.amazonaws.com/static-docs.testsigma.com/new_images/test-cases/create-steps-recorder/ios-apps/overview/test-recorder-interface-ios-1-select-element.png)
+
+When 'Select Element' is selected, you can click on elements and get more information about them. For example, if we click on the button ‘Log in’, this information about the button will appear on the Test Recorder UI.
 
 
 ![actions available for an inspected element to record test steps via the Recorder in Testsigma, for an iOS project](https://docs.testsigma.com/images/ios-apps/actions-for-inspected-element-mobile-inspector-testsigma-ios.png)
@@ -71,41 +84,41 @@ In inspection mode, you can click on elements and get more information about the
 You can click on the button ‘tap’ or ‘Enter Data’ for the selected element to perform the corresponding actions on the selected element.
 
 &emsp;
-**b. Do swipe action:**
+**c. Swipe By Coordinates:**
 
-![do swipe action button on the Recorder in Testsigma, for an iOS project](https://docs.testsigma.com/images/ios-apps/do-swipe-action-button-mobile-inspector-testsigma-ios.png)
-
-&emsp;
-**c. Do click action:**
-
-![do click action button on the Recorder in Testsigma, for an iOS project](https://docs.testsigma.com/images/ios-apps/do-click-action-button-mobile-inspector-testsigma-ios.png)
-
-
-The ‘Do click action’ button lets you Tap on an element on the screen and record the coordinates of the Tap.
+ ![Swipe By Coordinates in Test Recorder for iOS](https://s3.amazonaws.com/static-docs.testsigma.com/new_images/test-cases/create-steps-recorder/ios-apps/overview/test-recorder-interface-ios-1-swipe-by-coordinates.png)
 
 &emsp;
-**d. Go back:**
+**d. Tap By Coordinates:**
+
+ ![Tap By Coordinates in Test Recorder for iOS](https://s3.amazonaws.com/static-docs.testsigma.com/new_images/test-cases/create-steps-recorder/ios-apps/overview/test-recorder-interface-ios-1-tap-by-coordinates.png)
+
+
+The ‘Tap By Coordinates’ button lets you Tap on an element on the screen and record the coordinates of the Tap.
+
+&emsp;
+**e. Go back:**
 
 ![go back button on the Recorder in Testsigma, for an iOS project](https://docs.testsigma.com/images/ios-apps/go-back-button-mobile-inspector-testsigma-ios.png)
 
 This button records the “go back” action from the current screen.
 
 &emsp;
-**e. Home:**
+**f. Home:**
 
 ![home button on the Recorder in Testsigma, for an iOS project](https://docs.testsigma.com/images/ios-apps/home-button-mobile-inspector-testsigma-ios.png)
 
 The home button displays the home screen of the device.
 
 &emsp;
-**f. Refresh Screenshot:**
+**g. Refresh Screenshot:**
 
 ![refresh button on the Recorder in Testsigma, for an iOS project](https://docs.testsigma.com/images/ios-apps/refresh-button-mobile-inspector-testsigma-ios.png)
 
 The Refresh Screenshot button lets you refresh the current screen on the mobile device.
 
 &emsp;
-**g. Toggle:**
+**h. Toggle:**
 
 ![toggle button on the Recorder in Testsigma, for an iOS project](https://docs.testsigma.com/images/ios-apps/toggle-button-mobile-inspector-testsigma-ios.png)
 
@@ -113,7 +126,7 @@ The Refresh Screenshot button lets you refresh the current screen on the mobile 
 The Toggle button lets you switch between landscape and portrait mode.
 
 &emsp;
-**h. Search Element:**
+**i. Search Element:**
 
 ![search button on the Recorder in Testsigma, for an iOS project](https://docs.testsigma.com/images/ios-apps/search-button-mobile-inspector-testsigma-ios.png)
 

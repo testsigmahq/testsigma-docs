@@ -41,7 +41,7 @@ You should already know how to:
 ##**How to execute a Visual Test and View the results** 
 
  1. Create a test case, add it to a test suite, add the test suite to a Test Plan
- 2. Enable Visual Testing for the test steps that need visual testing. 
+ 2. Enable Visual Testing for the test steps that need visual testing
  3. Run your test plan once, to save all images as base images
  4. Now Run your test plan again, to take screenshots of your app at every test step and make them reference images
  5. Testsigma automatically compares these reference images with the base images in the first run to find differences

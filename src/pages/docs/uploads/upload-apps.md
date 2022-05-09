@@ -30,7 +30,7 @@ To automate testing of your native Android and iOS apps, you need to make sure t
 3. On the Uploads page, click on the **Upload** button. A window will appear where you can choose the file to upload:
 ![ upload window while uploading apps in Testsigma](https://s3.amazonaws.com/static-docs.testsigma.com/new_images/uploads/upload-apps/upload-window-upload-apps-testsigma.png)
 
-4. Choose the file to upload and name it.
+4. Choose the file to upload. Check that the name and the version are added correctly on the upload window. 
 5. Click on the **Upload** button.
 6. Wait for the file to be uploaded successfully:
  ![ uploads page with 2 uploaded apps in a project in Testsigma](https://s3.amazonaws.com/static-docs.testsigma.com/new_images/uploads/upload-apps/uploads-page-upload-apps-testsigma.png)

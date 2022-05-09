@@ -50,9 +50,9 @@ You should know how to
 ![checkbox to select a test step in a test case in Testsigma](https://docs.testsigma.com/images/bulk-actions/check-box-select-test-step-in-test-case-testsigma.png)
 
  3. Click the checkbox
- 4. Repeat 2. and 3. to select more test steps. Bulk actions option appears when you’ve selected at least two test steps.
+ 4. Repeat 2. and 3. to select more test steps. Bulk actions option appears when you’ve selected at least two test steps. To select all the steps at once, you can click the button "Select All"
 
-![bulk actions when multiple test steps are selected in Testsigma](https://docs.testsigma.com/images/bulk-actions/bulk-actions-selected-testsigma.png)
+![bulk actions when multiple test steps are selected in Testsigma](https://s3.amazonaws.com/static-docs.testsigma.com/new_images/bulk-actions/select-all-bulk-actions.png)
 
 &emsp;
 

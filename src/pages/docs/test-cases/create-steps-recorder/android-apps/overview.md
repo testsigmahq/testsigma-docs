@@ -46,21 +46,31 @@ With Testsigma, you can either write your test steps in simple English or you ca
 
  6. Click Record. The recorder interface will look like this:
 
-![UI to record test steps via the Recorder in Testsigma, for an android project](https://docs.testsigma.com/images/android-apps/ui-to-record-test-steps-Recorder-testsigma-android.png)
+ ![Test recorder interface for Android](https://s3.amazonaws.com/static-docs.testsigma.com/new_images/test-cases/create-steps-recorder/android-apps/overview/test-recorder-interface-android-1.png)
 
  7. The test steps will appear on the section ‘Test Steps’. As you can see, the first step will be ‘Launch App’.
 
-![test steps section on the Recorder UI in Testsigma, for an android project](https://docs.testsigma.com/images/android-apps/test-steps-section-record-test-steps-Recorder-testsigma-android.png)
+![Test Steps in Test recorder interface for Android](https://s3.amazonaws.com/static-docs.testsigma.com/new_images/test-cases/create-steps-recorder/android-apps/overview/test-recorder-interface-android-1-test-steps.png)
 
  8. Now you can use the Recorder to record the next steps. Before doing that let’s review all the options available with the Recorder. The options available are:
 
+
 &emsp;
 
-   * Inspection mode:
+   * Mirroring mode:
 
-![inspection mode button to record test steps via the Recorder in Testsigma, for an android project](https://docs.testsigma.com/images/android-apps/inspection-mode-button-record-test-steps-Recorder-testsigma-android.png)
+ ![Mirroring mode in Test recorder interface for Android](https://s3.amazonaws.com/static-docs.testsigma.com/new_images/test-cases/create-steps-recorder/android-apps/overview/test-recorder-interface-android-1-mirroring-mode.png)
 
-In inspection mode, you can click on elements and get more information about them. For example, if we click on the button ‘Sign up with Apple’, this information about the button will appear on the Recorder UI.
+This mode enables the device screen mirroring and you can interact in real-time with the device.
+
+
+&emsp;
+
+   * Select Element:
+
+ ![Select Element in Test recorder interface for Android](https://s3.amazonaws.com/static-docs.testsigma.com/new_images/test-cases/create-steps-recorder/android-apps/overview/test-recorder-interface-android-1-select-element.png)
+
+When 'Select Element' is selected, you can click on elements and get more information about them. For example, if we click on the button ‘Sign up with Apple’, this information about the button will appear on the Recorder UI.
 
 ![actions available for an inspected element to record test steps via the Recorder in Testsigma, for an android project](https://docs.testsigma.com/images/android-apps/actions-for-inspected-element-Recorder-testsigma-android.png)
 
@@ -69,15 +79,15 @@ You can click on the button ‘tap’ or ‘Enter Data’ for the selected eleme
 
 &emsp;
 
-   * Swipe Action
+   * Swipe By Coordinates
 
-![do swipe action button on the Recorder in Testsigma, for an android project](https://docs.testsigma.com/images/android-apps/do-swipe-action-button-Recorder-testsigma-android.png)
+ ![Swipe by coordinates  in Test recorder interface for Android](https://s3.amazonaws.com/static-docs.testsigma.com/new_images/test-cases/create-steps-recorder/android-apps/overview/test-recorder-interface-android-1-swipe-by-coordinates.png)
 
-   * Do click action
+   * Tap By Coordinates
 
-![do click action button on the Recorder in Testsigma, for an android project](https://docs.testsigma.com/images/android-apps/do-click-action-button-Recorder-testsigma-android.png)
+![Tap by coordinates  in Test recorder interface for Android](https://s3.amazonaws.com/static-docs.testsigma.com/new_images/test-cases/create-steps-recorder/android-apps/overview/test-recorder-interface-android-1-tap-by-coordinates.png)
 
-The ‘Do click action’ button lets you click on an element on the screen and record the coordinates of the click.
+The ‘Tap By Coordinates’ button lets you click on an element on the screen and record the coordinates of the click.
 
 &emsp;
 
