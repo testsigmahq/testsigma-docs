@@ -173,29 +173,6 @@ body {
       padding: 16px;
       margin: 16px 0;
       border-radius: 4px;
-      &::after,
-      &::before {
-          position: absolute;
-          left: 0;
-          display: block;
-          width: 100%;
-      }
-      &::before {  
-          content: " ";
-          top: -10px;
-          height: calc(100% + 10px);
-          background-color: rgb(249, 250, 251);
-          border: 2px dotted rgb(200, 200, 200);
-          border-radius: 5px;
-      }
-      &::after {  
-          content: " ☹ " " Broken Image of " attr(alt);
-          font-size: 16px;
-          font-style: normal;
-          color: rgb(0, 0, 0);
-          top: 5px;
-          text-align: center;
-      }
   }
   // WIP - need to get ul li markers to move away from text
   ///////////////////////////////////////////////////////////////////
