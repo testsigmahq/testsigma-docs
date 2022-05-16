@@ -79,6 +79,20 @@ Now, your test case will use the parameter from your test data profile.
 
 ![gif to associate parameter type test data with a test case](https://docs.testsigma.com/images/parameter/gif-associate-parameter-test-data-with-test-case.gif)
 
+---
+##**Using Multiple Test Data Profiles in a Test Case**
+
+When you associate multiple test data profiles with a test case, you have the capability of using any test data parameter associated with any of the associate test data profiles in a test step. 
+
+
+For nested steps - any parameter from the test data profile associated with the parent test step can be used. 
+
+
+The test data parameter(in the associated test data profiles) can be iterated in a step group, a for loop, or, a while loop. It can also be used with an if condition or any other NLP.
+
+---
+
+
 
 
 

@@ -79,6 +79,29 @@ Check the below illustration to understand how we can use the Mailbox Test Data 
 
 ![Adding Test Step to fetch Mail OTP using Data Generator function](https://docs.testsigma.com/images/mailbox/create-test-step-getmailotp.png)
 
+---
+##**Generating a new mailbox with every test case execution**
 
+Sometimes, you may need to test some email-based functionalities for multiple new accounts with limited email addresses. In such scenarios, with Testsigma, you can generate new aliases every time during the test case execution. 
+
+The NLPs that can used for the same are as below (It is recommended to use the Addons like 'String Data Generators' and 'String Actions' with the NLPs mentioned below - to store email in runtime variable and verification of the email messages.) :
+
+**MailboxAliasFunctions::GenerateMailboxAlias** - This NLP will generate a unique mailbox every time it is executed during a test execution.
+
+**MailboxAliasFunctions::GetEmailContent** - This will get entire email content into a variable
+
+**MailboxAliasFunctions::GetEmailSubject** - This will get the email subject into a variable.
+   
+**MailBoxAliasFunctions::GetOTP** - This will fetch the OTP sent to the email box into a variable.
+
+**MailboxAliasFunctions::UrlWithText** - This will fetch the URL that contains some required text.
+    
+**MailboxAliasFunctions::UrlWhichContains** - This will fetch the URL that contains some required parameters.
+     
+**MailboxAliasFunctions::UrlMatchingRegex** - This will fetch the URL that contains a URL matching the required regex.
+
+
+
+---
 
 

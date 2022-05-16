@@ -44,7 +44,9 @@ With Testsigma, you can either write your test steps in simple English or you ca
 
 5. The record button will launch the Test Recorder. Once you click the record button, another window will open up, where you can choose the device lab, version, device, and app for testing:
 
-![the record button window to record test steps via the Recorder in Testsigma, for an iOS project](https://docs.testsigma.com/images/ios-apps/record-button-window-record-test-steps-mobile-inspector-testsigma-ios.png)
+![the record button window to record test steps via the Recorder in Testsigma, for an iOS project](https://s3.amazonaws.com/static-docs.testsigma.com/new_images/test-cases/create-steps-recorder/ios-apps/overview/start-record-session-iOS-with-save-as-favorite-button.png)
+
+**Note**: If you want to be using the same recording configuration often then you can save this as a favorite using the button “Save As Favorite” in the above screenshot
 
 6. Click Record. The Test recorder interface will look like this:
 
