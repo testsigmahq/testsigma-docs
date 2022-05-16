@@ -44,7 +44,7 @@ You should already know how to:
  2. Enable Visual Testing for the test steps that need visual testing
  3. Run your test plan once, to save all images as base images
  4. Now Run your test plan again, to take screenshots of your app at every test step and make them reference images
- 5. Testsigma automatically compares these reference images with the base images in the first run to find differences
+ 5. Testsigma automatically compares these reference images with the base images in the first run to find differences. To avoid false negatives, any other changes in the screenshots like in the mobile status bar or mobile navigation or key actions are automatically ignored.
 
 ### **Example:**
 
