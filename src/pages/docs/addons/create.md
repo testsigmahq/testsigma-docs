@@ -64,17 +64,15 @@ You should already know about Testsigma add-ons. See: [What is an add-on?](https
 
 
    1. Click on the + New add-on button on the top right to create a new add-on. Testsigma add-on overlay opens up as shown below:
-      ![Create add-on Form in My add-ons tab on add-ons page](https://docs.testsigma.com/images/create/create-addon-form-empty.png)
+      ![Create add-on Form in My add-ons tab on add-ons page](https://s3.amazonaws.com/static-docs.testsigma.com/new_images/addons/create/addon-create-updated-screenshot.png)
 
    2. Enter the following details:
     <br>
        * Add-on name: Name of the add-on<br>
-       * Package name: Package name for the add-on. This can be the same as the name we intend to use for the add-on java class. It's like a group id for a java project. Example com.your_company.addons<br>
-       * Build tool: Select your preferred build tool - Maven or Gradle<br>
        * Description: What does the add-on do?
 
    3. Click on the Create button to create the sample template code. A zip file will be downloaded automatically containing the template code.
-   ![Create Testsigma add-on using Testsigma add-on Form](https://docs.testsigma.com/images/create/create-testsigma-addon-form-download.gif)
+    ![Create Testsigma add-on using Testsigma add-on Form](https://s3.amazonaws.com/static-docs.testsigma.com/new_images/addons/create/addon-create-gif.gif)
 
 &emsp;
 
