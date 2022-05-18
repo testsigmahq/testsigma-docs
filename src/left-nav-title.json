@@ -338,6 +338,9 @@
   "codeship-ci": {
     "/docs/continuous-integration/codeship-ci/": "CodeShip CI"
   },
+  "github-cicd": {
+    "/docs/continuous-integration/github-cicd/": "GitHub CICD"
+  },
   "shell-script": {
     "/docs/continuous-integration/shell-script/": "Shell Script(Generic)"
   },
@@ -454,6 +457,9 @@
   },
   "freshrelease": {
     "/docs/integrations/product-management/freshrelease/": "Freshrelease"
+  },
+    "clickup": {
+    "/docs/integrations/product-management/clickup/": "Clickup"
   },
   "what-is-an-addon": {
     "/docs/addons/what-is-an-addon/": "What is an Addon?"
