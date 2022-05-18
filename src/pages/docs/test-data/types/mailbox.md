@@ -100,6 +100,9 @@ The NLPs that can used for the same are as below (It is recommended to use the A
      
 **MailboxAliasFunctions::UrlMatchingRegex** - This will fetch the URL that contains a URL matching the required regex.
 
+Below is a screenshot showing a testcase generating a mailbox alias and then getting content from the email.
+
+![A test case displaying how to generate unique email address and how to use it](https://s3.amazonaws.com/static-docs.testsigma.com/new_images/test-data/types/mailbox/generate-unique-email.png)
 
 
 ---

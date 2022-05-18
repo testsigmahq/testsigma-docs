@@ -90,6 +90,10 @@ For nested steps - any parameter from the test data profile associated with the 
 
 The test data parameter(in the associated test data profiles) can be iterated in a step group, a for loop, or, a while loop. It can also be used with an if condition or any other NLP.
 
+Below is a gif demonstrating the use of three Test Data Profiles in one Test Case three nested for loops.
+
+ ![A gif demonstrating creation of 3 nested for loops with 3 test data profiles](https://s3.amazonaws.com/static-docs.testsigma.com/new_images/test-data/types/parameter/3TestDataProfilesInATestCase.gif)
+
 ---
 
 
