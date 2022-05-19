@@ -165,10 +165,20 @@ module.exports = {
       },
     },
     {
+      resolve: `gatsby-plugin-google-analytics`,
+      options: {
+        trackingId: "UA-99606664-1",
+        head: false,
+        anonymize: true,
+        respectDNT: true,
+        enableWebVitalsTracking: true,
+      },
+    },
+    {
       resolve: `gatsby-plugin-google-gtag`,
       options: {
         trackingIds: [
-          "UA-99606664-1", // Google Analytics
+          "G-ZE2Z1J3VPK", // Google Analytics 4
           "AW-777462306", // Google Tag Manager
         ],
         pluginConfig: {
