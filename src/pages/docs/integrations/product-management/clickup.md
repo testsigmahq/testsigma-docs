@@ -26,7 +26,9 @@ In this document, we will discuss how to establish Integration with Clickup from
 ##**Prerequisites**
 
 To integrate Clickup with Testsigma, you need the following information from your Clickup Account (Check how to get the API key here: https://docs.clickup.com/en/articles/1367130-getting-started-with-the-clickup-api)
+
 - Personal API Key 
+
 You should also be familiar with [Test Plan Runs](https://testsigma.com/docs/runs/test-plan-executions/).
 
 ---

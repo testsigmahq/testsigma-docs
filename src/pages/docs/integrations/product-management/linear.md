@@ -1,5 +1,5 @@
 ---
-title: " Integrate Testsigma with Linear"
+title: "Integrate Testsigma with Linear"
 metadecs: "This document describes the step-by-step instructions for integrating Testsigma with Linear "
 order: 16.52
 page_id: "Linear"
