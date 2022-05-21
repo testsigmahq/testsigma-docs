@@ -6,6 +6,8 @@ jobs:
   CI:
     runs-on: ubuntu-latest
     steps:
+      - name: Install libvips
+        run: sudo apt-get install libvips
       - uses: actions/checkout@v2
       - name: Setup Node 12
         uses: actions/setup-node@v2
