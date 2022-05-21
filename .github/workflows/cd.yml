@@ -1,0 +1,31 @@
+name: 'CD'
+on:
+  push:
+    branches:
+      - 'dev'
+jobs:
+  Deploy:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v2
+      - name: Setup Node 12
+        uses: actions/setup-node@v2
+        with:
+          node-version: '12'
+      - name: Cache dependencies
+        uses: actions/cache@v2
+        with:
+          path: ~/.npm
+          key: npm-${{ hashFiles('package-lock.json') }}
+          restore-keys: npm-
+      - name: Install dependencies
+        run: |
+          npm ci --ignore-scripts
+      - name: Build
+        run: |
+          PREFIX_PATHS=true npm run build && npm run deploy
+        env:
+          AWS_ACCESS_KEY_ID: ${{ secrets.AWS_ACCESS_KEY_ID }}
+          AWS_SECRET_ACCESS_KEY: ${{ secrets.AWS_SECRET_ACCESS_KEY }}
+          AWS_DEFAULT_REGION: 'us-east-1'
+          AWS_DEFAULT_OUTPUT: json
