@@ -44,7 +44,8 @@ When editing an existing Test Plan.
 
 2.Create Test Plan page would open as shown below:
 
-![create test plan page in Testsigma](https://docs.testsigma.com/images/cross-browser-testing/create-test-plan-page-testsigma.png)
+![create test plan page in Testsigma](https://s3.amazonaws.com/static-docs.testsigma.com/new_images/test-management/test-plans/distributed-testing/create-test-plan-page-distributed-testing-testsigma.png)
+
 
 On this page, select the device lab which you want to use for your cross-browser tests. 
 
@@ -54,15 +55,16 @@ On this page, select the device lab which you want to use for your cross-browser
 
 Select the radio button ‘Distributed Testing’. 
 
-![Distributed Testing selected in Testsigma](https://docs.testsigma.com/images/distributed-testing/distributed-testing-selected-in-testsigma.png)
+![Distributed Testing selected in Testsigma](https://s3.amazonaws.com/static-docs.testsigma.com/new_images/test-management/test-plans/distributed-testing/distributed-testing-selected-in-testsigma.png)
+
 
 5.  Now, you will have to add test machines and the test suites that you want to execute on each of those machines. For example, in the screenshot below, we have configured a windows test machine with 2 test suites.
 
-![added Test Suites with Distributed Testing in Testsigma](https://docs.testsigma.com/images/distributed-testing/added-test-suites-with-distributed-testing-testsigma.png)
+![added Test Suites with Distributed Testing in Testsigma](https://s3.amazonaws.com/static-docs.testsigma.com/new_images/test-management/test-plans/distributed-testing/added-test-suites-with-distributed-testing-testsigma.png)
 
 6. You can select different test suites for the different test machines. For example, in the screenshot below, 2 different test suites are added to all the 3 test machines:
 
-![Added new Test Machine with new Test Suites in Testsigma](https://docs.testsigma.com/images/distributed-testing/added-new-test-machine-with-new-test-suites-testsigma.png)
+![Added new Test Machine with new Test Suites in Testsigma](https://s3.amazonaws.com/static-docs.testsigma.com/new_images/test-management/test-plans/distributed-testing/added-new-test-machine-with-new-test-suites-testsigma.png)
 
 7.  Now, click on the ‘Update’ button to finalize the changes.
    
@@ -85,7 +87,7 @@ Here, we will edit a Test Plan that was created with Test type ‘Cross-Browser 
  
 ![edit button for an existing Test Plan in Testsigma](https://docs.testsigma.com/images/distributed-testing/edit-button-test-plan-testsigma.png)
 
-3. The ‘Edit Test Plan’ page opens, as shown below
+3. The ‘Edit Test Plan’ page opens.
    
 4. Go to the tab ‘Test Machines & Suites Selection’ and it will look like below.
 
@@ -97,11 +99,11 @@ Here, we will edit a Test Plan that was created with Test type ‘Cross-Browser 
 
 6. To add Test Suites to a test machine, we will click on the corresponding Test Machine. When the first test machine is clicked, the option to select test suites appears:
 
-![add Test Suites for Test Machines for Distributed Testing in Testsigma](https://docs.testsigma.com/images/distributed-testing/add-test-suites-for-machines-distributed-testing-testsigma.png)
+![add Test Suites for Test Machines for Distributed Testing in Testsigma](https://s3.amazonaws.com/static-docs.testsigma.com/new_images/test-management/test-plans/distributed-testing/add-test-suites-for-machines-distributed-testing-testsigma.png)
 
 7. You can select different test suites for the different test machines. For example, in the screenshot below, 2 different test suites are added to all the 3 test machines:
 
-![different test suites for different test machines in Testsigma](https://docs.testsigma.com/images/distributed-testing/different-test-suites-different-test-machines-testsigma.png)
+![different test suites for different test machines in Testsigma](https://s3.amazonaws.com/static-docs.testsigma.com/new_images/test-management/test-plans/distributed-testing/different-test-suites-different-test-machines-testsigma.png)
 
 
 8. Now, click on the ‘Update’ button to finalize the changes.

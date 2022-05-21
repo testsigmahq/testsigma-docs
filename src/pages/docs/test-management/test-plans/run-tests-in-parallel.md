@@ -40,19 +40,19 @@ You can configure your Test Plans to run in parallel at any time. However, the n
 
 2. Create Test Plan page will open as shown below:
 
-![create test plan page in Testsigma](https://docs.testsigma.com/images/run-tests-in-parallel/create-test-plan-page-testsigma.png)
+![create Test Plan page in Testsigma](https://s3.amazonaws.com/static-docs.testsigma.com/new_images/test-management/test-plans/overview/create-test-plan-page-overview-testsigma.png)
 
 3. On the Create Test Plan page, enter the required details and click on the Next Button.
 
 4. The “Test Machines & Suites Selection” tab will open:
 
-![Test Machines & Suites Selection section on Create Test Plan page in Testsigma](https://docs.testsigma.com/images/run-tests-in-parallel/test-machines-and-suites-selection-create-test-plan-testsigma.png)
+![Test Machines and Suites Selection section on the Create Test Plan Page in Testsigma](https://s3.amazonaws.com/static-docs.testsigma.com/new_images/test-management/test-plans/overview/test-machines-and-suites-selection-overview-testsigma.png)
 
 5. On the “Test Machines & Suites Selection” tab, make sure to add more than one test suite under the section “Selected Test Suites. 
 
 6. Once, the test suites are added, the ‘Test Machines & Suites Selection' section should look like this:
 
-![added test suites and test machines in a Test Plan in Testsigma](https://docs.testsigma.com/images/run-tests-in-parallel/added-test-suites-test-machines-and-suites-selection-testsigma.png)
+![added test suites and test machines in a Test Plan in Testsigma](https://s3.amazonaws.com/static-docs.testsigma.com/new_images/test-management/test-plans/run-tests-in-parallel/added-test-suites-test-machines-and-suites-selection-testsigma.png)
 
 7. Click on the gear icon on the top right section of the selected Test Suites as shown in the screenshot below, and select the option ‘Run Tests in Parallel’
 

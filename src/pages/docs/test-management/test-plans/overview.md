@@ -52,7 +52,7 @@ A sample Test Plans page list would look like this:
 
 2. A page will open as shown below:
 
-![create Test Plan page in Testsigma](https://docs.testsigma.com/images/test-plans/create-test-plan-page-testsigma.png)
+![create Test Plan page in Testsigma](https://s3.amazonaws.com/static-docs.testsigma.com/new_images/test-management/test-plans/overview/create-test-plan-page-overview-testsigma.png)
 
 &emsp;
 3. On the Create Test Plan page, enter these details:
@@ -61,17 +61,9 @@ A sample Test Plans page list would look like this:
 
 &emsp;&emsp;**b. Description (optional):** Enter a clear and precise description to describe the test plan you are creating.
 
-&emsp;&emsp;**c.Select Test Lab:** This is the lab that will contain the browsers and devices on which you want to execute your test cases.
-
-&emsp;&emsp;&emsp;&emsp;1. Testsigma Lab: This option allows you to run tests in Testsigma′s own cloud infrastructure. Read more about supported test labs [here](https://testsigma.com/docs/test-management/test-plans/supported-test-lab-types/).
-
-&emsp;&emsp;&emsp;&emsp;2. Local Devices: If you want to run your tests on your local device, select the checkbox “Run only if the configured browser version is available in the Agent machine”. If you enable this checkbox test plans won’t start if the conjured version is different from what you have in your local machine.
-
-![Select Test Lab on Create Test Plan page in Testsigma](https://docs.testsigma.com/images/test-plans/select-test-lab-create-test-plan-testsigma.png)
-
 4. Click on “Next Button”. The “Test Machines & Suites Selection” tab will open like this:
 
-![Test Machines and Suites Selection section on the Create Test Plan Page in Testsigma](https://docs.testsigma.com/images/test-plans/test-machines-and-suites-selection-create-test-plan-page-testsigma.png)
+![Test Machines and Suites Selection section on the Create Test Plan Page in Testsigma](https://s3.amazonaws.com/static-docs.testsigma.com/new_images/test-management/test-plans/overview/test-machines-and-suites-selection-overview-testsigma.png)
 
 
 5. On the “Test Machines & Suites Selection” tab, you will see these options:
@@ -81,8 +73,16 @@ A sample Test Plans page list would look like this:
 &emsp;&emsp;&emsp;&emsp;1. For Cross-Browser Testing, select the machines and environments you would like to execute your test cases on. [Learn more](https://testsigma.com/docs/test-management/test-plans/cross-browser-testing/)
    
 &emsp;&emsp;&emsp;&emsp;2. For ‘Distributed Testing’ too, select the various machines and environments for execution, but you can distribute your test cases to the different environments for execution separately. [Learn more](https://testsigma.com/docs/test-management/test-plans/distributed-testing//)
+
+&emsp;&emsp;**b. Testing Lab Type:**   This is a drop-down where you can select the lab that will contain the browsers and devices where you want to execute your test cases.
+
+&emsp;&emsp;&emsp;1. Testsigma Lab: This option allows you to run tests in Testsigma′s own cloud infrastructure. Read more about supported test labs [here](https://testsigma.com/docs/test-management/test-plans/supported-test-lab-types/).
+
+&emsp;&emsp;&emsp;2. Local Devices: If you want to run your tests on your local device, select the checkbox “Run only if the configured browser version is available in the Agent machine”. If you enable this checkbox test plans won’t start if the conjured version is different from what you have in your local machine.
+
+If you want to run on other supported cloud labs, you can select those too. 
    
-&emsp;&emsp;**b. Select Test Machines:** Here you select the test machine on which your test cases would be executed. 
+&emsp;&emsp;**c. Select Test Machines:** Here you select the test machine on which your test cases would be executed. 
 
 &emsp;&emsp;The Test Machines are selected via the below configurations:
 
@@ -96,11 +96,11 @@ A sample Test Plans page list would look like this:
    
 &emsp;&emsp;&emsp;&emsp;5. Enable/Disable Headless Test depending on if you want to run the test ‘headless’. [Learn more](https://testsigma.com/docs/test-management/test-plans/headless-testing/)
 
-&emsp;&emsp;**c. Desired Capabilities(Optional):**  Desired Capabilities are a set of properties used for customizing the Test Environment. The customization includes adding Browser Extensions to Automation Session, setting Geographical location for the test machine, bypassing Browser Alerts e.t.c.
+&emsp;&emsp;**d. Desired Capabilities(Optional):**  Desired Capabilities are a set of properties used for customizing the Test Environment. The customization includes adding Browser Extensions to Automation Session, setting Geographical location for the test machine, bypassing Browser Alerts e.t.c.
 
 Desired Capabilities are added while selecting the Test Environment in Testsigma. [Learn more about desired capabilities](https://testsigma.com/docs/desired-capabilities/overview/).
 
-&emsp;&emsp;**d. Selected Test Suites:**  Select the Test Suites containing the Test Cases you want to be executed on the configurations selected above.
+&emsp;&emsp;**e. Selected Test Suites:**  Select the Test Suites containing the Test Cases you want to be executed on the configurations selected above.
 
 6. Once you have filled in the required fields, click on the “Next” button. The “Test Plan Settings” tab would open, which would look like below:
 

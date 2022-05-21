@@ -54,19 +54,17 @@ Since a Test Suite is pre-requisite for the creation of Test Plans, see [How to 
 
 2. Create Test Plan page would open as shown below:
 
-![create Test Plan page for headless testing in Testsigma](https://docs.testsigma.com/images/headless-testing/create-test-plan-page-headless-testing-testsigma.png)
+![create Test Plan page in Testsigma](https://s3.amazonaws.com/static-docs.testsigma.com/new_images/test-management/test-plans/overview/create-test-plan-page-overview-testsigma.png)
 
 3. On the Create Test Plan page, enter all the required details:
 
-![Select Test Lab on Create Test Plan page for headless testing in Testsigma](https://docs.testsigma.com/images/headless-testing/select-test-lab-create-test-plan-headless-testing-testsigma.png.png
-
 4. Click on “Next Button” once all options are filled. The “Test Machines & Suites Selection” tab will open, like this:
 
-![Test Machines and Suites Selection section on the Create Test Plan Page for headless testing in Testsigma](https://docs.testsigma.com/images/headless-testing/test-machines-selection-create-test-plan-page-headless-testing-testsigma.png)
+![Test Machines and Suites Selection section on the Create Test Plan Page in Testsigma](https://s3.amazonaws.com/static-docs.testsigma.com/new_images/test-management/test-plans/overview/test-machines-and-suites-selection-overview-testsigma.png)
 
 5. In the “Test Machines & Suites Selection” tab, add the machines. Each machine will have a toggle button with the text ‘Headless Test’:
 
-![headless test toggle button on create test plan page in Testsigma](https://docs.testsigma.com/images/headless-testing/headless-test-toggle-create-test-plan-button-highlighted-testsigma.png)
+![headless test toggle button on create test plan page in Testsigma](https://s3.amazonaws.com/static-docs.testsigma.com/new_images/test-management/test-plans/headless-testing/test-machines-and-suites-selection-headless-testsigma.png)
 
 To execute your test plan on the selected machine via a headless browser, you just have to enable the headless test button.
 
@@ -85,7 +83,7 @@ On the Test Plans page, click on a Test Plan name to open the details page for t
 
 2. The ‘Edit Test Plan’ Page opens, as shown below:
  
-![edit test plan page for headless testing in Testsigma](https://docs.testsigma.com/images/headless-testing/edit-test-plan-page-headless-testing-testsigma.png)
+![Edit Test Plan page in Testsigma](https://s3.amazonaws.com/static-docs.testsigma.com/new_images/test-management/test-plans/cross-browser-testing/edit-test-plan-page-testsigma.png)
 
 2. Go to the ‘Test Machines & Suites Selection’ tab to add/edit test machines for headless testing. You just will have to enable the ‘Headless Test’ toggle button for the test machines on which you need to perform headless testing.
  

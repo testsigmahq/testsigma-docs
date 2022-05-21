@@ -70,7 +70,7 @@ If you are satisfied with the changes, click on the “Next” button and then o
    
 2. On the ‘Test Machines & Suites Selection’ tab, hover on the test suite you want to delete. In the screenshot below, for instance, the hover is on ‘Home Page tests’. On hover, the ‘delete’ button appears:
 
-![delete selected test suite on Edit Test Plan page in Testsigma](https://docs.testsigma.com/images/manage-test-suites/delete-selected-test-suite-edit-test-plan-testsigma.png)
+![delete selected test suite on Edit Test Plan page in Testsigma](https://s3.amazonaws.com/static-docs.testsigma.com/new_images/test-management/test-plans/manage-test-suites/delete-selected-test-suite-edit-test-plan-testsigma.png)
 
 3. Click on the ‘delete’ button corresponding to the test suite you want to delete, this will remove the entry from the ‘Selected Test Suites’.
    

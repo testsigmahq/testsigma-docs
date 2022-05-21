@@ -41,7 +41,8 @@ Learn more about [cross-browser testing](https://testsigma.com/cross-browser-tes
 
 2. Create Test Plan page would open as shown below:
 
-![Create Test Plan page in Testsigma](https://docs.testsigma.com/images/cross-browser-testing/create-test-plan-page-testsigma.png)
+![Create Test Plan Page in Testsigma](https://s3.amazonaws.com/static-docs.testsigma.com/new_images/test-management/test-plans/cross-browser-testing/Create-test-plan-first-tab.png)
+
    
 On this page, select the device lab which you want to use for your cross-browser tests. For more information, see [Test Labs](https://testsigma.com/docs/test-management/test-plans/supported-test-lab-types/).
 
@@ -49,17 +50,17 @@ On this page, select the device lab which you want to use for your cross-browser
 
 4. The “Test Machines & Suites Selection” tab will open:
 
-![Testing Type selection on Create Test Plan page in Testsigma](https://docs.testsigma.com/images/cross-browser-testing/testing-type-create-test-plan-page-testsigma.png)
+![Testing Type selection on Create Test Plan page in Testsigma](https://s3.amazonaws.com/static-docs.testsigma.com/new_images/test-management/test-plans/cross-browser-testing/Create-test-plan-second-tab-cross-browser-testing-tab.png)
 
 Select the radio button ‘Cross-Browser Testing’ next to the label ‘Testing Type’ as mentioned in the screenshot above.
 
 5. Now, you can add as many different test machines as you want to execute your tests on
    
 6. Select as many test suites as you want to run on those test machines. All these test suites will run parallelly/ sequentially (based on your selection) on the corresponding test machines.
+
+![multiple Test Machines and multiple Test Suites in Test Plan in Testsigma](https://s3.amazonaws.com/static-docs.testsigma.com/new_images/test-management/test-plans/cross-browser-testing/Multiple-test-machines-multiple-test-suites-test-plan-second-tab-testsigma.png)
    
 7. Fill up the rest of the required fields, then click on the “Create” button on the ‘Test Plan Settings’ tab.
-
-![multiple Test Machines and multiple Test Suites in Test Plan in Testsigma](https://docs.testsigma.com/images/cross-browser-testing/multiple-test-machines-multiple-test-suites-test-plan-Testsigma.png)
 
 Your Test Plan is now ready to run your cross-browser tests on the configured test machines. 
 
@@ -78,7 +79,7 @@ On the Test Plans page, click on a Test Plan name to open the details page for t
 
 2. The ‘Edit Test Plan’ Page opens, as shown below:
 
-![Edit Test Plan page in Testsigma](https://docs.testsigma.com/images/cross-browser-testing/edit-test-plan-page-testsigma.png)
+![Edit Test Plan page in Testsigma](https://s3.amazonaws.com/static-docs.testsigma.com/new_images/test-management/test-plans/cross-browser-testing/edit-test-plan-page-testsigma.png)
 
 3. Go to the tab ‘Test Machines & Suites Selection’.
 

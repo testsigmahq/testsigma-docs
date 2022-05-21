@@ -66,7 +66,7 @@ Here, we will discuss how to add/edit/delete test machines when a Test Plan is a
 
 &emsp;&emsp;g. Desired capabilities (Optional)
 
-![add configuration in Edit Test Plan in Testsigma](https://docs.testsigma.com/images/manage-test-machines/edit-test-plan-add-configuration-testsigma.png)
+![add configuration in Edit Test Plan in Testsigma](https://s3.amazonaws.com/static-docs.testsigma.com/new_images/test-management/test-plans/manage-test-machines/edit-test-plan-add-configuration-testsigma.png)
 
 6. Once you have added the configurations for the needed test machine, you need to click on the ‘Add’ button in the section ‘Add Configuration’. The added Test Machine will be displayed as shown in the screenshot below.
 
@@ -88,11 +88,10 @@ In case you need to edit an already added Test Machine in a Test Plan, you will 
 
 3. The ‘Edit Configuration’ section will open up corresponding to the test machine that was clicked in the previous step. You can edit the value you need to edit here. 
 
-![Edit Configuration in Edit Test Plan page in Testsigma](https://docs.testsigma.com/images/manage-test-machines/edit-configuration-edit-test-plan-testsigma.png)
+![Edit Configuration in Edit Test Plan page in Testsigma](https://s3.amazonaws.com/static-docs.testsigma.com/new_images/test-management/test-plans/manage-test-machines/edit-configuration-edit-test-plan-testsigma.png)
 
 4. Once you are done with the required changes, click on the ‘Update’ button on the bottom right corner and your changes will be saved.
 
-![Update button in Edit Test Plan page in Testsigma](https://docs.testsigma.com/images/manage-test-machines/update-button-edit-test-plan-testsigma.png)
 
 ### Delete Test Machine
 In case you need to delete an already added Test Machine in a Test Plan, you will have to follow below steps:
