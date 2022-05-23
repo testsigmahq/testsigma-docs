@@ -40,9 +40,9 @@ To generate filtered reports, please follow below steps.
   
 3. Click on the filters icon. A filters dialogue box will appear on the right, as displayed below:
 
-   ![filter overlay on run results page in Testsigma to access reports](https://docs.testsigma.com/images/analytics-reports/filter-overlay-run-results-access-reports.png)
+    ![filter overlay on run results page in Testsigma to access reports](https://s3.amazonaws.com/static-docs.testsigma.com/new_images/reports/runs/filter-custom-reports/filter-overlay-run-results-access-reports.png)
 
-4. You can filter by Result, Type, Priority, Created By, Assignee and Reviewer.
+4. You can filter by Result, Type, Priority, Created By, Assignee, Reviewer, Requirement, Requirement Type, Labels, Created Date and Updated Date.
 
 
 ---
@@ -55,7 +55,7 @@ To generate filtered reports, please follow below steps.
 - If you want to filter out the results based on Test case Assignee , you need to select the appropriate Assignee in the filter as shown below.
     ![gif demonstrating how to use filters in your test plan and filter results using Assignee name](https://docs.testsigma.com/images/analytics-reports/gif-use-filters-test-plan-assignee-name.gif)  
 
-- Similarly you can apply other filters to filter your test cases based on Created By, Priority and Type, etc.
+- Similarly you can apply other filters to filter your test cases based on Result, Type, Priority, Created By, Reviewer, Requirement, Requirement Type etc.
     ![filter-by-result-and-assignee-together](https://docs.testsigma.com/images/analytics-reports/filter-by-result-and-assignee-together.png)
   
 
