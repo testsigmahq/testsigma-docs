@@ -18,6 +18,13 @@ jobs:
           npm ci --ignore-scripts --unsafe-perm
       - name: Force installing sharp
         run: npm install --ignore-scripts=false --verbose sharp
+      - name: 'Create env file'
+        run: |
+          touch .env
+          echo GATSBY_ALGOLIA_APP_ID=${{ secrets.GATSBY_ALGOLIA_APP_ID }} >> .env
+          echo GATSBY_ALGOLIA_SEARCH_KEY=${{ secrets.GATSBY_ALGOLIA_SEARCH_KEY }} >> .env
+          echo ALGOLIA_ADMIN_KEY=${{ secrets.ALGOLIA_ADMIN_KEY }} >> .env
+          cat .env
       - name: Build
         run: |
           PREFIX_PATHS=true npm run build
