@@ -46,7 +46,7 @@ We’ll cover both methods.
  
 **Starter pipeline**
 **Start with a minimal pipeline that you can customize to build and deploy your code**
-# Add steps that build, run tests, deploy, and more:
+## [Add steps that build, run tests, deploy, and more:](#)
 
 ```yaml
 version: 0.2

@@ -116,7 +116,7 @@ In an example, let us see how the following steps are created using Testsigma:
 
     Comparison type is lenient
 
-# Video
+## [Video](#)
 
 See [Usage of various HTTP requests for REST API Testing in Testsigma](https://testsigma.com/docs/test-cases/create-steps-restapi/methods/).
 
