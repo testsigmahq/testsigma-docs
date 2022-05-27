@@ -174,7 +174,7 @@ The first argument is an int with a given value **7** and the second argument is
  
 The above Testdata Generator returns a random Alphanumeric Email with 7 random characters and the domain gmail.com - for example, rewvsfd@gmail.com
  
-Testsigma provides few Test Data Generators by default. Here's a list of default Test Data generators - [List of default Test Data generators available in Testsigma](https://testsigma.com/docs/test-data/data-generators/defalut-list/)
+Testsigma provides few Test Data Generators by default. Here's a list of default Test Data generators - [List of default Test Data generators available in Testsigma](https://testsigma.com/docs/test-data/data-generators/default-list/)
  
 [[info | Note:]] 
 |You can also request the Testsigma Support Team to generate a Custom Test Data Generator for you. The Team will evaluate the feasibility of the request and create a specified Test data Generator for you in a reasonable time.

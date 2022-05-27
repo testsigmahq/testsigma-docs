@@ -4,13 +4,13 @@ title: "Introduction: Testsigma Cloud"
 page_title: "Intro: Testsigma Cloud"
 metadesc: "What is Testsigma Cloud and how to get started with it"
 noindex: false
-canonical: "page url"
+canonical: "https://testsigma.com/docs/getting-started/introduction-cloud/"
 keywords: "keywords which is relevant to page and seperated by comma"
 social_share_summary: "Twitter summary message"
 social_share_desc: "Sharing page description"
 social_share_image: "Sharing page thumbnail image url"
 order: 1.1
-page_id: " Introduction: Testsigma Cloud"
+page_id: "Introduction: Testsigma Cloud"
 warning: false
 contextual_links:
 - type: section

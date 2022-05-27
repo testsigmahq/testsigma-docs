@@ -29,7 +29,7 @@ You can generate test data within Testsigma using the built-in functions. Let’
 
 Here, using a traditional automation testing framework, you will either have to hardcode all the data or create functions that will output valid test data like an alphanumeric username.
 
-In Testsigma, [these data generator functions are built-in](https://testsigma.com/docs/test-data/data-generators/defalut-list/). You can also [create your own Custom Data Generator](https://testsigma.com/tutorials/addons/how-create-addons-test-data-generators/).
+In Testsigma, [these data generator functions are built-in](https://testsigma.com/docs/test-data/data-generators/default-list/). You can also [create your own Custom Data Generator](https://testsigma.com/tutorials/addons/how-create-addons-test-data-generators/).
 
 Check the gif below to understand how to use both default and custom Data Generators.
 

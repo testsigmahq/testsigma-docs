@@ -1,7 +1,7 @@
 ---
 title: "Test Plans"
 page_title: "Test Plans - List, Create, Edit, Delete"
-metadesc: " How to list, create, edit, and delete a Test Plan in Testsigma"
+metadesc: "How to list, create, edit, and delete a Test Plan in Testsigma"
 noindex: false
 order: 8.21
 page_id: "Test Plans - List, Create, Edit, Delete"
@@ -156,7 +156,7 @@ In additional settings, there are some values by default. If needed, those value
 * Capture Screenshots
 
 [[info | Note:]]
-|In the additional settings, you can also enable visual testing. To know more about visual testing, read [here](https://testsigma.com/docs/visual-testing/configure-test-plan/).
+|In the additional settings, you can also enable visual testing. To know more about visual testing, read [here](https://testsigma.com/docs/visual-testing/configure-test-steps/).
 
 
 &emsp;&emsp;**c. Recovery Actions**

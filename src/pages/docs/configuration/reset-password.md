@@ -30,7 +30,7 @@ contextual_links:
 ---
 
 ---
-# (I). Via Downloadable package
+## [(I). Via Downloadable package](#)
 
 ---
 ## [Prerequisite](#zip-prerequisite)
@@ -62,7 +62,7 @@ contextual_links:
 <iframe src="https://docs.testsigma.com/videos/Troubleshooting/Setup/ResetPassword/first.mp4" width="300" height="200"></iframe>
 
 
-# (II). Downloaded Via Docker
+## [(II). Downloaded Via Docker](#)
 
 ---
 ## [Prerequisite](#docker-prerequisite)
