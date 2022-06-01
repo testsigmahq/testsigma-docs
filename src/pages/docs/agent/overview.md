@@ -15,7 +15,7 @@ Here are some frequently asked questions regarding Testsigma Agent - [Testsigma 
 
 To know the reasons why Testsigma Agent is required for Local Test Plan/Ad-hoc Runs in Testsigma, refer to - [Why do we need Testsigma Agent?](https://testsigma.com/docs/agent/faqs/)
 
-Here are the [Minimum system requirements for Testsigma Agent](https://docs.google.com/document/d/1Jg6Zygwtvh87ctfXMqQJ7FQgN_yt68wn2xgEdh1Bk8o/edit#heading=h.oryorf5azev1)
+Here are the [Minimum system requirements for Testsigma Agent](https://testsigma.com/docs/agent/pre-requisite/)
 
 Your security team might have some questions regarding the working of Testsigma Agent and how the data communication works. Here’s a brief explanation on that - [How does Testsigma Agent work](https://testsigma.com/docs/agent/faqs/)
 
