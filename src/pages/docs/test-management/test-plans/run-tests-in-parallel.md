@@ -12,6 +12,9 @@ contextual_links:
   name: "Configure tests to run in parallel while creating a new Test Plan"
   url: "#configure-tests-to-run-in-parallel-while-creating-a-new-test-plan"
 - type: link
+  name: "Configure test cases inside a test suite to run in parallel, while creating a new Test Plan"
+  url: "#configure-test-cases-inside-a-test-suite-to-run-in-parallel-while-creating-a-new-test-plan"
+- type: link
   name: "Configure tests to run in parallel with editing an existing Test Plan"
   url: "#configure-tests-to-run-in-parallel-with-editing-an-existing-test-plan"
 ---
@@ -64,6 +67,34 @@ You can configure your Test Plans to run in parallel at any time. However, the n
 1. Proceed with filling up other settings as you would for a normal test plan. Once done, make sure to click on ‘Update’ on the ‘Test Plan Settings’ tab.
     
 2.  Now whenever you execute this test plan, all the selected test suites for the test plan will run in parallel in different instances of the selected test machines.  
+
+&emsp;
+
+---
+##**Configure test cases inside a test suite to run in parallel, while creating a new Test Plan**
+
+[[info | NOTE:]] 
+|By default, this feature is disabled for all accounts. If you need this feature enabled, please contact support.
+
+You can also configure the test cases within a test suite to run in parallel. 
+ 
+**Steps to configure**:
+1. Start creating a test plan, as also done in the section above, and go to the second tab “Test Machines & Suites Selection”
+2. On the second tab, go to step 2 and add test suites for execution.
+3. Click on the settings on the top right section of the step 2, as also shown in the screenshot below:
+
+![Setting to run test cases in a test suite in parallel](https://s3.amazonaws.com/static-docs.testsigma.com/new_images/test-management/test-plans/run-tests-in-parallel/run-test-cases-in-test-suite-in-parallel-setting.png)
+
+4. Now select the option “run test cases in test suite in parallel” as shown below:
+
+![The option to run test cases in a test suite in parallel checked](https://s3.amazonaws.com/static-docs.testsigma.com/new_images/test-management/test-plans/run-tests-in-parallel/run-test-cases-in-test-suite-parallel-option-checked.png)
+
+5. Now, when you check the settings corresponding to the added test suites - you will see the options “Run Test Cases Sequentially” and “Run Test Cases Parallely”. If you want to run the test cases within a test suite parallely, you choose the option “Run Test Cases Parallely” corresponding to that test suite, otherwise you can choose the option “Run Test Cases Sequentially”. Below screenshot shows the options corresponding to one of the added test cases:
+
+![The option to run test cases in a test suite in parallel corresponding to a test suite](https://s3.amazonaws.com/static-docs.testsigma.com/new_images/test-management/test-plans/run-tests-in-parallel/run-test-cases-in-test-suite-in-parallel-options-for-a-test-suite.png)
+
+
+
 
 &emsp;
 

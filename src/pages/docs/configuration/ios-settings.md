@@ -16,18 +16,16 @@ contextual_links:
 
 ---
 
-Testsigma allows you to run tests on your Local iOS devices in addition to Testsigma Cloud machines/devices. Step by step guid for configuring your provisioning profiles to allow Testsigma to run tests on your Local iOS Devices.
+Testsigma allows you to run tests on your Local iOS devices in addition to Testsigma Cloud machines/devices. To do that, you will have to configure your provisioning profiles on Testsigma. This document is a step-by-step guide for the same.
 
-To enable developer options and get started in iOS, there are 3 additional steps you need to perform via the Apple Developer Portal.
+To get started in iOS, you will have to first enable developer options via the Apple Developer Portal. Below are the steps for the same:
 
 ---
 ## [A. Apple Developer Portal](#a-apple-developer-portal)
 
 1. **Create a Certificate Signing Request on Testsigma**
    
-    Next you will need to create a Certificate Signing Request (CSR).
-    
-    In order to sign the driver with your certificate, you need to create a Certificate Signing Request.
+    In order to sign the driver with your certificate, you need to create a Certificate Signing Request (CSR).
 
     To create the CSR file, login to your Testsigma account. Navigate to: **Settings > iOS Settings > Enter a Profile name**
 
@@ -104,6 +102,9 @@ To enable developer options and get started in iOS, there are 3 additional steps
     **Settings > iOS Settings > Provisioning Profile**
 
     Once uploaded, you will find a list of all eligible devices you can use with Testsigma for your iOS test automation.
+
+    [[info | NOTE:]]
+    |If you are on windows, there is an additional step - you need to download the iTunes app there and login to it via the same apple developer ID you used in the steps above. This will enable Testsigma to recognize the iOS devices connected to your machine.
 
 
 

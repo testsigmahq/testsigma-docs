@@ -15,6 +15,9 @@ contextual_links:
   name: "Download Testsigma Agent"
   url: "#i-download-testsigma-agent"
 - type: link
+  name: "Install via executables"
+  url: "#install-via-executables"
+- type: link
   name: "Extract the Testsigma Agent Zip file"
   url: "#ii-extract-the-testsigma-agent-zip-file"
 - type: link
@@ -37,46 +40,55 @@ contextual_links:
 ## **Table of Contents**
 
 Setting up Testsigma Agent on your local machine<br>
-&emsp; I.   Download Testsigma Agent<br>
-&emsp;II.  Extract the Testsigma Agent Zip file <br>
-&emsp;III. Start the Testsigma Agent Server<br>
+&emsp; I.   Download and Install the Testsigma Agent<br>
+&emsp;II. Start the Testsigma Agent Server<br>
 &emsp;&emsp;&emsp;For Windows<br>
 &emsp;&emsp;&emsp;For Mac/Linux<br>
 &emsp;IV. Register the Testsigma Agent<br>
 &emsp;&emsp;&emsp;Checking Agent running status<br>
 &emsp;&emsp;&emsp;Connecting the Agent to Testsigma App<br>
+&emsp;&emsp;&emsp;Delay the Activation of your Testsigma Agent<br>
 
 <br>
 
 ---
-##**I. Download Testsigma Agent**
 
-Go to the Agents page (Navigation Bar > Agents) and click on the ‘Download Agent’ button on the top right corner to download the latest version of Testsigma Agent.
+##**I. Download and Install the Testsigma Agent**
+
+Testsigma Agents are available to download either as executables or as zip files. You can choose the approach that suits you the best. 
+
+**For downloading the zip file, follow below steps:**
+
+1. Go to the Agents page (Navigation Bar > Agents)
+2. Click on the ‘Download Agent’ button on the top right corner to download the latest version of Testsigma Agent.
 ![agents page and the button to download agent](https://docs.testsigma.com/images/setup-on-windows-mac-linux/agents-page-download-agent-button.png)
+3. After yu have downloaded the agent zip file, extract the Testsigma agent zip file to location of your choice. Some suggested locations to place the Testsigma agent folder are mentioned in the table below:
 
-<br>
+  | Operating System     | Preferred Agent location | 
+  | :---        | :---   |        
+  | Windows     | C:\Users\<your_username>\      | 
+  | Mac   | /Users/<your_username>/    | 
+  | Linux   | /Users/<your_username>/     | 
 
----
-##**II. Extract the Testsigma Agent Zip file**
-Here are the suggested locations to place the extracted Testsigma Agent folder:
+  Replace the <your_username> part with your Account username.
+
+  The home directory is recommended so as to avoid hassles of setting file permissions and ownership and also to avoid file corruption due to syncing with iCloud or Google Drive.
 
 
-| Operating System     | Preferred Agent location | 
-| :---        | :---   |        
-| Windows     | C:\Users\<your_username>\      | 
-| Mac   | /Users/<your_username>/    | 
-| Linux   | /Users/<your_username>/     | 
 
-Replace the <your_username> part with your Account username.
 
-The home directory is recommended so as to avoid hassles of setting file permissions and ownership and also to avoid file corruption due to syncing with iCloud or Google Drive.
+**Alternatively, for downloading the executable file, follow steps as mentioned below:**
+1. Go to the Agents page (Navigation Bar > Agents)
+2. Hover on the ‘Download Agent’ button on the top right corner.  
+3. From the dropdown that appears, you need to click on the executable supported by your machine. For windows - click on 'exe', for mac - click on 'dmg', for linux - click on 'bin' to download the latest version of Testsigma Agent. The drop-down on the agents page looks like below:
 
-Unzip the downloaded Agent zip file in the directory you choose..
+![Dropdown to download executables for agent installation](https://s3.amazonaws.com/static-docs.testsigma.com/new_images/agent/setup-on-windows-mac-linux/agents-page-executables-dropdown.png)
+4. Double click on the downloaded file.
+5. The installer will prompt you choose the path for installation. Choose the path where you would like to install the agent.
+6. Let the installer run till completion.
 
-<br>
 
----
-##**III. Start the Testsigma Agent Server**
+##**II. Start the Testsigma Agent Server**
 
 **For Windows**
 1. Navigate to the Testsigma Agent installation folder and double-click the ‘start.bat’ or run “start.bat” in the command line file to start the Testsigma Agent.
@@ -124,7 +136,7 @@ It will try to establish a connection to the agent running on your machine as sh
 
 3. Enter a title/name for your machine and click on the Save button.
 
-![Testsigma Register New Agent Form ](https://docs.testsigma.com/images/setup-on-windows-mac-linux/ts-agent-register-new-form.png)
+![Add new agent form](https://s3.amazonaws.com/static-docs.testsigma.com/new_images/agent/setup-on-windows-mac-linux/add-a-new-agent-form-activate-later.png)
 
 [[info | NOTE:]]
 |By default, Agent will be **Visible to Everyone**. You can make this agent private to your account by unchecking **Visible to Everyone**<br>
@@ -135,4 +147,22 @@ It will try to establish a connection to the agent running on your machine as sh
 ![Testsigma Agents list new Agent](https://docs.testsigma.com/images/setup-on-windows-mac-linux/ts-agent-list-new-agent.png)
 
 It might take a couple of minutes for the Operating System version and the Browser names to show up. Refer to the [Testsigma Agent troubleshooting guide](https://testsigma.com/docs/agent/troubleshooting/setup-issues/) if the details don’t show up after 10 minutes.
+
+---
+
+##**Delay the Activation of your Testsigma Agent**
+
+There might be times when you want to add the Testsigma agents to your Testsigma account but want to activate them later. Below is how you can do that:
+1. Go to the Agents Page from the Left Navigation Menu.
+2. Click on the "Add a new Agent" Button on the top right corner of the Agents page.
+3. On the "Add a new Agent" form, add the name/title for the agent. Make sure to check the "Activate Later" checkbox, as also highlighted in the screenshot below:
+
+![Add new agent form with activate later checkbox checked](https://s3.amazonaws.com/static-docs.testsigma.com/new_images/agent/setup-on-windows-mac-linux/add-a-new-agent-form-activate-later-checked.png)
+
+4. Now you can click on the 'Save' button to save the agent. 
+5. On successfully saving the agent, you will be taken to the agent config page that contains the command that you can use to activate the agent later, as also shown in the screenshot below:
+
+ ![Configs page on a newly added agent with command too activate the agent](https://s3.amazonaws.com/static-docs.testsigma.com/new_images/agent/setup-on-windows-mac-linux/agent-config-command-to-activate.png)
+
+ ---
 
