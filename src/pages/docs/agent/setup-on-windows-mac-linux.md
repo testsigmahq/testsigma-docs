@@ -44,7 +44,7 @@ Setting up Testsigma Agent on your local machine<br>
 &emsp;II. Start the Testsigma Agent Server<br>
 &emsp;&emsp;&emsp;For Windows<br>
 &emsp;&emsp;&emsp;For Mac/Linux<br>
-&emsp;IV. Register the Testsigma Agent<br>
+&emsp;III. Register the Testsigma Agent<br>
 &emsp;&emsp;&emsp;Checking Agent running status<br>
 &emsp;&emsp;&emsp;Connecting the Agent to Testsigma App<br>
 &emsp;&emsp;&emsp;Delay the Activation of your Testsigma Agent<br>
@@ -113,7 +113,7 @@ If the icon doesn’t appear in 10 minutes, please contact Testsigma Support.
 <br>
 
 ---
-##**IV. Register the Testsigma Agent**
+##**III. Register the Testsigma Agent**
 
 **Checking Agent running status**
 Once the Agent has started you will get a System Tray icon. The status will show as **STARTED** once it's ready. If it is showing the status as **STARTING**, please wait for a few moments for it to start. 
