@@ -24,6 +24,9 @@ contextual_links:
   name: "Control over Step Group Iterations in Test Case"
   url: "#control-over-step-group-iterations-in-test-case"
 - type: link
+  name: "Access Test Data Profile, From Parent Step, Within A Data-Driven Step Group"
+  url: "#access-test-data-profile-from-parent-step-within-a-data-driven-step-group"
+- type: link
   name: "Additional Actions Possible on Iteration Count"
   url: "#additional-actions-possible-on-iteration-count"
 ---
@@ -141,7 +144,34 @@ Just like data-driven test cases, we now also support creating Data-Driven Step 
      ![Step Group Data Driven on test case](https://docs.testsigma.com/images/step-group/step-group-on-test-case-part2.png)
 
 ---
+##**Access Test Data Profile, From Parent Step, Within A Data-Driven Step Group:**
 
+When you create a data-driven step group, you may want to use the step group within loops for example a for loop. With Testsigma, you can access the test data profile that was passed in the parent test step. 
+
+To understand this better, lets have an example test case where we are testing if a user can login successfully for the given usernames and passwords. The usernames and passwords are being passed via associated test data profiles.
+
+**Pre-requisites**:
+
+1. A data-driven step-group. If you don’t know how to create a data-driven step group, please check [here](https://testsigma.com/docs/test-cases/step-types/step-group/#create-a-data-driven-step-group).
+2. A data-driven test case. If you don’t know how to create a data-driven test case, please check [here](https://testsigma.com/tutorials/test-cases/data-driven-testing/).
+3. You should be familiar with for-loops and test data profiles in Testsigma. If not please check [here for for-loop](https://testsigma.com/docs/test-cases/step-types/for-loop/)  and [here for test data profiles](https://testsigma.com/docs/test-data/create-data-profiles/).
+
+**Steps**
+
+1. Create multiple test data profiles that will have different sets of usernames and passwords. 
+2. Create a data-driven step group that would login to a website using the usernames and passwords passed via the associated test data profile. For our test case we have create a data-driven step group that looks like below:
+
+![An example data-driven step group for login](https://s3.amazonaws.com/static-docs.testsigma.com/new_images/test-cases/step-types/step-group/data-driven-login-step-group.png)
+
+3. Now create a data-driven test case that would use a different test data profile of usernames and passwords.
+4. Inside the test case, create a for loop using a third test data profile of usernames and passwords.
+5. Inside the for loop, add the step group create in step 2.
+6. Now try to edit the username and password parameters in the added step group. You will see that you will be able to select the test data profiles being passed to the parent test step too as also shown in the screenshot below:
+
+![The list of test data profiles available to a step group inside a for loop](https://s3.amazonaws.com/static-docs.testsigma.com/new_images/test-cases/step-types/step-group/lists-available-with-TDP-parent-forloop.png)
+
+
+---
 ##**Additional Actions Possible on Iteration Count**
 
 

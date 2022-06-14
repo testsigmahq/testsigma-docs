@@ -84,9 +84,11 @@ This endpoint allows users to trigger a Test Plan execution remotely.
 
 For a Test Plan, you can get the **Test Plan ID** and the complete **cURL request** to trigger the execution from the Test Plan Details page:
 
-![Test Plan Details CI/CD Tab](https://docs.testsigma.com/images/test-plans/test-plan-cicd-tab.png)
+![Test Plan detains inside the CICD tab of a test plan](https://s3.amazonaws.com/static-docs.testsigma.com/new_images/api/test-plans/testplan-cicd-tab-rest-api-updated.png)
 
 The Run ID is returned as ‘id’ in the response for the request if the execution was started successfully.
+
+The Environment ID is optional. To know how to get an environment id check here: [Get an Environment ID](https://testsigma.com/docs/api/environments/#get-an-environment)
 
 **Test Plan Status**
 
