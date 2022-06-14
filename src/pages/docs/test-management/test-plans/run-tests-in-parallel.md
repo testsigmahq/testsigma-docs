@@ -73,7 +73,7 @@ You can configure your Test Plans to run in parallel at any time. However, the n
 ---
 ##**Configure test cases inside a test suite to run in parallel, while creating a new Test Plan**
 
-[[info | NOTE:]] 
+[[info | Note:]]
 |By default, this feature is disabled for all accounts. If you need this feature enabled, please contact support.
 
 You can also configure the test cases within a test suite to run in parallel. 
