@@ -234,7 +234,7 @@ A detailed explanation is provided in the next few chapters.
 
 Learn more - [Mail Box Test Data](https://testsigma.com/docs/test-data/types/mailbox/)
 
-Refer to this tutorial for more details on automating [email based two factor authentication](https://testsigma.com/tutorials/advanced/email-based-two-factor-authentication-2fa)
+Refer to this tutorial for more details on automating [email based two factor authentication](https://testsigma.com/tutorials/advanced/sms-based-two-factor-authentication-2fa/)
 
 
 

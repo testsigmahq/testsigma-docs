@@ -60,7 +60,6 @@ The Testsigma Agents are available via 3 forms, namely:
 
 
 
-
 ##**I. Download And Install The Testsigma Agent**
 
 Testsigma Agents are available to download and install either as zip files or as executables. You can choose the approach that suits you the best. 
@@ -73,6 +72,7 @@ To download the Testsigma agent as a zip file, follow below steps:
 2. Click on the ‘Download Agent’ button on the top right corner to download the latest version of Testsigma Agent.
 ![agents page and the button to download agent](https://docs.testsigma.com/images/setup-on-windows-mac-linux/agents-page-download-agent-button.png)
 3. After you have downloaded the agent zip file, extract the Testsigma agent zip file to location of your choice. Some suggested locations to place the Testsigma agent folder are mentioned in the table below:
+
 
   | Operating System     | Preferred Agent location | 
   | :---        | :---   |        
@@ -227,6 +227,7 @@ We will discuss both the ways below:
     testsigmainc/testsigma-agent:latest
 
 
+
 **2. Create and register a new agent entirely while booting the docker container**
 
   Follow below steps:
@@ -247,6 +248,7 @@ We will discuss both the ways below:
     - <API_KEY> needs to be replaced by the actual key. To know how to generate an API key, refer here: https://testsigma.com/docs/configuration/api-keys/ <br>
     - \<TITLE> needs to be replaced with the name you would like to give the agent<br> 
     - <HTTP_PORT> and <HTTPS_PORT> need to be replaced with the ports that you would like the agent to use while booting it up. <br>
+
 
   Once you already have the docker image for testsigma agent and have used the above command already, then next time when you need to start the testsigma agent, use the command below:
 
