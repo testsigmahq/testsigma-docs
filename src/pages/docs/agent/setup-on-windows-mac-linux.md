@@ -72,7 +72,7 @@ To download the Testsigma agent as a zip file, follow below steps:
 1. Go to the Agents page (Navigation Bar > Agents)
 2. Click on the ‘Download Agent’ button on the top right corner to download the latest version of Testsigma Agent.
 ![agents page and the button to download agent](https://docs.testsigma.com/images/setup-on-windows-mac-linux/agents-page-download-agent-button.png)
-3. After yu have downloaded the agent zip file, extract the Testsigma agent zip file to location of your choice. Some suggested locations to place the Testsigma agent folder are mentioned in the table below:
+3. After you have downloaded the agent zip file, extract the Testsigma agent zip file to location of your choice. Some suggested locations to place the Testsigma agent folder are mentioned in the table below:
 
   | Operating System     | Preferred Agent location | 
   | :---        | :---   |        
@@ -84,7 +84,7 @@ To download the Testsigma agent as a zip file, follow below steps:
 
   The home directory is recommended so as to avoid hassles of setting file permissions and ownership and also to avoid file corruption due to syncing with iCloud or Google Drive.
 
-To start the agent, refer the section here: (Start the Testsigma Agent Server)[#iii-start-the-testsigma-agent-server]
+To start the agent, refer the section here: [Start the Testsigma Agent Server](#iii-start-the-testsigma-agent-server)
 
 
 
@@ -102,7 +102,7 @@ To download the Testsigma agent as an executable file, follow below steps:
 5. The installer will prompt you choose the path for installation. Choose the path where you would like to install the agent.
 6. Let the installer run till completion.
 
-To start the agent, refer the section here: (Start the Testsigma Agent Server)[#iii-start-the-testsigma-agent-server]
+To start the agent, refer the section here: [Start the Testsigma Agent Server](#iii-start-the-testsigma-agent-server)
 
 
 ##**II. Start The Testsigma Agent Server**
@@ -129,7 +129,7 @@ To start the agent, refer the section here: (Start the Testsigma Agent Server)[#
 
 <br>
 
-Next, you will have to register the agent. To Register the agent, refer to the section here: (https://docs.testsigma.com/images/setup-on-windows-mac-linux/)[#iv-register-the-testsigma-agent]
+Next, you will have to register the agent. To Register the agent, refer to the section here: [Register the Testsigma agent](https://docs.testsigma.com/images/setup-on-windows-mac-linux/#iv-register-the-testsigma-agent)
 
 ---
 ##**III. Register The Testsigma Agent**
@@ -220,7 +220,11 @@ We will discuss both the ways below:
 
     docker start -a testsigma-agent
 
-One example of a docker run command is -> docker run --name testsigma-agent -e TS_ACTIVATION_KEY="***********" testsigmainc/testsigma-agent:latest
+  One example of a docker run command is:<br>
+  
+    docker run --name testsigma-agent \
+    -e TS_ACTIVATION_KEY="***********" \
+    testsigmainc/testsigma-agent:latest
 
 
 **2. Create and register a new agent entirely while booting the docker container**
@@ -229,9 +233,9 @@ One example of a docker run command is -> docker run --name testsigma-agent -e T
 
   1. If you are running the testsigma agent for the first time, then you need to use the command below:
 
-  docker run --name testsigma-agent \
+    docker run --name testsigma-agent \
     -e TS_AUTO_REGISTRATION_KEY="<API_KEY>" \
-    -e TS_AUTO_REGISTRATION_TITLE="<TITLE>" \
+    -e TS_AUTO_REGISTRATION_TITLE="\<TITLE>" \
     -e TS_AUTO_REGISTRATION_HTTP_PORT="<HTTP_PORT>" \
     -e TS_AUTO_REGISTRATION_HTTPS_PORT="<HTTPS_PORT>" \
     -p <HTTP_PORT>:<HTTP_PORT> \
@@ -239,16 +243,20 @@ One example of a docker run command is -> docker run --name testsigma-agent -e T
     testsigmainc/testsigma-agent:latest
 
 
-  In the above command
-    - <API_KEY> needs to be replaced by the actual key. To know how to generate an API key, refer here: https://testsigma.com/docs/configuration/api-keys/
-    - <TITLE> needs to be replaced with the name you would like to give the agent 
-    - <HTTP_PORT> and <HTTPS_PORT> need to be replaced with the ports that you would like the agent to use while booting it up. 
+  In the above command<br>
+    - <API_KEY> needs to be replaced by the actual key. To know how to generate an API key, refer here: https://testsigma.com/docs/configuration/api-keys/ <br>
+    - \<TITLE> needs to be replaced with the name you would like to give the agent<br> 
+    - <HTTP_PORT> and <HTTPS_PORT> need to be replaced with the ports that you would like the agent to use while booting it up. <br>
 
   Once you already have the docker image for testsigma agent and have used the above command already, then next time when you need to start the testsigma agent, use the command below:
 
     docker start -a testsigma-agent
 
-  One example of a docker run command is -> docker run --name testsigma-agent -e TS_ACTIVATION_KEY="***********" testsigmainc/testsigma-agent:latest
+  One example of a docker run command is:<br>
+
+    docker run --name testsigma-agent \
+    -e TS_ACTIVATION_KEY="***********" \
+    testsigmainc/testsigma-agent:latest
 
 
 
