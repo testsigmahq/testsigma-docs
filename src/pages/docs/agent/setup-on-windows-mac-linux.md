@@ -48,7 +48,6 @@ Setting up Testsigma Agent on your local machine<br>
 &emsp;&emsp;&emsp;[Connecting The Agent To Testsigma App](https://testsigma.com/docs/agent/setup-on-windows-mac-linux/#connecting-the-agent-to-testsigma-app)<br>
 &emsp;&emsp;&emsp;[Delay The Activation Of Your Testsigma Agent](https://testsigma.com/docs/agent/setup-on-windows-mac-linux/#delay-the-activation-of-your-testsigma-agent)<br>
 [Run Testsigma Agent Via Docker](https://testsigma.com/docs/agent/setup-on-windows-mac-linux/#run-testsigma-agent-via-docker)<br>
-
 <br>
 
 ---
@@ -57,8 +56,6 @@ The Testsigma Agents are available via 3 forms, namely:
 1. Zip Files
 2. Executable Files
 3. Docker Image
-
-
 
 
 ##**I. Download And Install The Testsigma Agent**
@@ -85,8 +82,6 @@ To download the Testsigma agent as a zip file, follow below steps:
   The home directory is recommended so as to avoid hassles of setting file permissions and ownership and also to avoid file corruption due to syncing with iCloud or Google Drive.
 
 To start the agent, refer the section here: (Start the Testsigma Agent Server)[#iii-start-the-testsigma-agent-server]
-
-
 
 
 ##**Install Via Executables**
@@ -132,6 +127,7 @@ To start the agent, refer the section here: (Start the Testsigma Agent Server)[#
 Next, you will have to register the agent. To Register the agent, refer to the section here: (https://docs.testsigma.com/images/setup-on-windows-mac-linux/)[#iv-register-the-testsigma-agent]
 
 ---
+
 ##**III. Register The Testsigma Agent**
 
 ##**Checking Agent Running Status**
