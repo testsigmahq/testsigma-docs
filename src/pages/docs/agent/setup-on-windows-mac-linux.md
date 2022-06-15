@@ -84,7 +84,7 @@ To download the Testsigma agent as a zip file, follow below steps:
 
   The home directory is recommended so as to avoid hassles of setting file permissions and ownership and also to avoid file corruption due to syncing with iCloud or Google Drive.
 
-To start the agent, refer the section here: [Start the Testsigma Agent Server](#iii-start-the-testsigma-agent-server)
+To start the agent, refer the section here: [Start the Testsigma Agent Server](https://testsigma.com/docs/agent/setup-on-windows-mac-linux/#ii-start-the-testsigma-agent-server)
 
 
 
@@ -102,7 +102,7 @@ To download the Testsigma agent as an executable file, follow below steps:
 5. The installer will prompt you choose the path for installation. Choose the path where you would like to install the agent.
 6. Let the installer run till completion.
 
-To start the agent, refer the section here: [Start the Testsigma Agent Server](#iii-start-the-testsigma-agent-server)
+To start the agent, refer the section here: [Start the Testsigma Agent Server](https://testsigma.com/docs/agent/setup-on-windows-mac-linux/#ii-start-the-testsigma-agent-server)
 
 
 ##**II. Start The Testsigma Agent Server**
@@ -129,7 +129,7 @@ To start the agent, refer the section here: [Start the Testsigma Agent Server](#
 
 <br>
 
-Next, you will have to register the agent. To Register the agent, refer to the section here: [Register the Testsigma agent](https://docs.testsigma.com/images/setup-on-windows-mac-linux/#iv-register-the-testsigma-agent)
+Next, you will have to register the agent. To Register the agent, refer to the section here: [Register the Testsigma agent](https://testsigma.com/docs/agent/setup-on-windows-mac-linux/#iii-register-the-testsigma-agent)
 
 ---
 ##**III. Register The Testsigma Agent**
