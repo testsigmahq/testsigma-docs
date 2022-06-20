@@ -130,13 +130,13 @@ To create test cases of a specific type, choose the test case type from the “A
 5. Enter a meaningful name and a description of the test case.
 6. Click on the ‘Show Advanced Options’ text that appears on the ‘Create Test Case’ page:
 
-  ![create test case show advanced options](https://docs.testsigma.com/images/test-case-types/create-test-case-show-advanced-options.png)
+  ![create test case show advanced options](https://s3.amazonaws.com/static-docs.testsigma.com/new_images/projects/settings/test-case-types/create-test-case-show-advanced-options.png)
 
 &emsp;
 
 7. Multiple options will appear:
 
-  ![create test case assign type](https://docs.testsigma.com/images/test-case-types/create-test-case-assign-type.png)
+  ![create test case assign type](https://s3.amazonaws.com/static-docs.testsigma.com/new_images/projects/settings/test-case-types/create-test-case-assign-type.png)
 
 8. To select the Test case type, go to the option ‘Type’ and select the type that you want to assign to your test case.
 

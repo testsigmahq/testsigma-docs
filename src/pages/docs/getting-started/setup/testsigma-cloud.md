@@ -50,7 +50,7 @@ Go to [https://testsigma.com/signup](https://testsigma.com/signup) to create an 
 ##**Creating and running a test**
 ###Step 1: Create test case
 
-![Create test case](https://docs.testsigma.com/images/testsigma-cloud/create-test-case.png)
+![Create test case](https://s3.amazonaws.com/static-docs.testsigma.com/new_images/getting-started/setup/testsigma-cloud/create-test-case.png)
 
 * In the left nav click on **Test Development** and click on **Test cases**. Fill in the required fields and click **Create**.
 

@@ -45,7 +45,11 @@ You should already know how to:
  3. Create a Test Plan and add the Test Suite we just created to this Test Plan
      ![create test plan for test plan executions in Testsigma](https://s3.amazonaws.com/static-docs.testsigma.com/new_images/runs/test-plan-executions/create-test-plan-test-plan-executions-testsigma.gif)
  4. Run Test Plan - Click on the Run button to start the Test Plan Execution
-    ![est plan execution results in Testsigma](https://docs.testsigma.com/images/test-plan-executions/test-plan-executions-results-testsigma.gif)
+    ![test plan execution results in Testsigma](https://docs.testsigma.com/images/test-plan-executions/test-plan-executions-results-testsigma.gif)
+
+Below is a gif demonstrating how the step-by-step test execution looks like in Testsigma: 
+
+![step-by-step test-plan execution](https://s3.amazonaws.com/static-docs.testsigma.com/new_images/runs/test-plan-executions/step-by-step-test-plan-execution-gif.gif)
 
 ---
 ## **Stitch the execution of your test cases on different platforms together**
@@ -119,7 +123,7 @@ The test suites containing test cases for the above scenarios should be already 
 
 Alternatively, below is a gif demonstrating above steps for you:
 
-![Gif to demonstrate test execution of a mulit-platform E2E testing scenarios](https://s3.amazonaws.com/static-docs.testsigma.com/new_images/runs/test-plan-executions/e2e-testing-scenario-gif.gif)
+![Gif to demonstrate test execution of a multi-platform E2E testing scenarios](https://s3.amazonaws.com/static-docs.testsigma.com/new_images/runs/test-plan-executions/e2e-testing-scenario-gif.gif)
 
 ---
 
