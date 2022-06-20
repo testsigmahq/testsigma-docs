@@ -85,9 +85,14 @@ The workflow looks like this:
 &emsp;
 ### Dry Run Result
 After clicking the “Run Now” button, wait for the test to run. The results will appear on your screen automatically.
+![adhoc run result in Testsigma](https://docs.testsigma.com/images/adhoc-runs/dryrun_2.gif)
+
+
+Below is a gif demonstrating how the step-by-step test case execution would look like: 
+![step-by-step adhoc run in Testsigma](https://s3.amazonaws.com/static-docs.testsigma.com/new_images/runs/adhoc-runs/step-by-step-adhoc-run-gif.gif)
 
 &emsp;
-![adhoc run result in Testsigma](https://docs.testsigma.com/images/adhoc-runs/dryrun_2.gif)
+
 
 
 

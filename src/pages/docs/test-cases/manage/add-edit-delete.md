@@ -41,13 +41,15 @@ From the Dashboard, navigate to the Test Cases page by going to **Test Developme
 ![Test Cases List](https://docs.testsigma.com/images/step-group/navigate-to-test-case.png)
 
 On the Test Cases page, click the ‘Create' button on the top right corner
-The Create Test Case page will appear as shown below:
+The Create Test Case page will appear as shown below(For web and mobile web):
 
-![Create Test Case Form](https://docs.testsigma.com/images/add-edit-delete/create-test-case-form.png)
+![Create Test Case Form](https://s3.amazonaws.com/static-docs.testsigma.com/new_images/test-cases/manage/add-edit-delete/create-test-case-page.png)
 
 Enter the details as given below:
  * **Name (Required)**: Enter a title for the Test Case.
- * **Description**: Enter a meaningful description for this Test Case.
+ * **URL**: Enter the URL you want to start the test case from. 
+
+For Android and iOS projects - you will be required to select the corresponding app instead of the URL. 
 
 &emsp;
 
@@ -132,7 +134,10 @@ Refer to the following document for a detailed guide on adding a data-driven Tes
 
 &emsp;
 
-After entering all the required details, we can click on the Create button to create the Test Case. We will be taken to the Test Case details page and we can add Test Steps to the Test Case there.
+After entering all the required details, if you want to start writing the NLPs - click "Write Test" button or, else, if you want to start recording the test steps then you can click the "Record Test" Button. 
+
+[[info | NOTE:]]
+|In order to record the test steps for a web project or a mobile web project, you should have the Testsigma teststep recorder extension installed. Check how to install that [here](https://testsigma.com/docs/test-step-recorder/install-chrome-extension/). 
 
 Learn how to [Create Test Steps](https://testsigma.com/docs/test-cases/step-types/overview/).
 
