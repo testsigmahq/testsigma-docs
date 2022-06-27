@@ -52,7 +52,7 @@ Go to [https://testsigma.com/signup](https://testsigma.com/signup) to create an 
 
 ![Create test case](https://s3.amazonaws.com/static-docs.testsigma.com/new_images/getting-started/setup/testsigma-cloud/create-test-case.png)
 
-* In the left nav click on **Test Development** and click on **Test cases**. Fill in the required fields and click **Create**.
+* In the left nav click on **Test Development** and click on **Test cases**. Fill in the required fields. Next, if you want to write NLP test steps for the test case, click on "Write Tests", or else, if you want to record the test steps then click on "Record Test"
 
 ###Step 2: Add Test Steps
 

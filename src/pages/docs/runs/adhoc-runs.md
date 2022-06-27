@@ -88,7 +88,7 @@ After clicking the “Run Now” button, wait for the test to run. The results w
 ![adhoc run result in Testsigma](https://docs.testsigma.com/images/adhoc-runs/dryrun_2.gif)
 
 
-Below is a gif demonstrating how the step-by-step test case execution would look like: 
+Below is a gif demonstrating how the step-by-step real-time test case execution would look like: 
 ![step-by-step adhoc run in Testsigma](https://s3.amazonaws.com/static-docs.testsigma.com/new_images/runs/adhoc-runs/step-by-step-adhoc-run-gif.gif)
 
 &emsp;
