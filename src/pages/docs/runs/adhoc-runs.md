@@ -14,6 +14,9 @@ contextual_links:
 - type: link
   name: "How to perform ad-hoc runs for a test case in Testsigma"
   url: "#how-to-perform-ad-hoc-runs-for-a-test-case-in-testsigma"
+- type: link
+  name: "How to edit and run an existing Dry Run"
+  url: "#how-to-edit-and-run-an-existing-dry-run"
 ---
 
 ---
@@ -93,6 +96,27 @@ Below is a gif demonstrating how the step-by-step test case execution would look
 
 &emsp;
 
+
+### How to edit and run an existing Dry Run
+
+There will be times when you might want to re-run an existing dry run after making some changes to it. In this section, we will discuss how to do it.
+
+1. Go to a test case. The test case  that has existing dry runs.
+2. On the Test Case Details page, click on the "Dry Runs" tab. 
+3. On the "Dry Runs" Tab, click on one of the existing dry runs.
+4. The "Dry Run" Interface would look like the screenshot below:
+
+![Interface for a Dry Run in Testsigma](https://s3.amazonaws.com/static-docs.testsigma.com/new_images/runs/adhoc-runs/dry-run-updated-ui.png)
+
+5. As you would see, there are tabs named "Test Steps(Executed)" and "Test Steps(Current)". 
+
+   The "Test Steps(Executed)" displays test steps that were executed for the existing dry run. The test steps here cannot be edited.
+
+   The "Test Steps(Current)" displays the same test steps as "Test Steps(Executed)"but they can be edited. 
+
+   So, you go to the tab "Test Steps(current)"
+6. On the "Test Steps(current)" tab, make the needed edits. Make sure that you save your edits too.
+7. Click on the "Run" button on the top right corner of the page. 
 
 
 

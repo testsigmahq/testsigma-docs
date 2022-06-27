@@ -341,6 +341,9 @@
   "github-cicd": {
     "/docs/continuous-integration/github-cicd/": "GitHub CICD"
   },
+  "bitbucket-ci": {
+    "/docs/continuous-integration/bitbucket-ci/": "Bitbucket CICD"
+  },
   "shell-script": {
     "/docs/continuous-integration/shell-script/": "Shell Script(Generic)"
   },
