@@ -47,7 +47,8 @@ You should already know how to:
  4. Run Test Plan - Click on the Run button to start the Test Plan Execution
     ![test plan execution results in Testsigma](https://docs.testsigma.com/images/test-plan-executions/test-plan-executions-results-testsigma.gif)
 
-Below is a gif demonstrating how the step-by-step test execution looks like in Testsigma: 
+
+Below is a gif demonstrating how the step-by-step real-time test execution looks like in Testsigma: 
 
 ![step-by-step test-plan execution](https://s3.amazonaws.com/static-docs.testsigma.com/new_images/runs/test-plan-executions/step-by-step-test-plan-execution-gif.gif)
 
