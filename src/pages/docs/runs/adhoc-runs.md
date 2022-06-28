@@ -98,7 +98,7 @@ Below is a gif demonstrating how the step-by-step real-time test case execution 
 &emsp;
 
 
-### How to edit and run an existing Dry Run
+##**How to edit and run an existing Dry Run**
 
 There will be times when you might want to re-run an existing dry run after making some changes to it. In this section, we will discuss how to do it.
 
