@@ -127,6 +127,9 @@ Alternatively, below is a gif demonstrating above steps for you:
 
 ---
 
+To see how to edit and rerun and existing dry run, please check here: https://testsigma.com/docs/runs/adhoc-runs/#how-to-edit-and-run-an-existing-dry-run
+
+---
 
 
 
