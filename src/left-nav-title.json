@@ -422,6 +422,9 @@
   "jira": {
     "/docs/integrations/bug-reporting/jira/": "Jira"
   },
+  "xray": {
+    "/docs/integrations/bug-reporting/xray/": "Xray"
+  },
   "bugzilla": {
     "/docs/integrations/bug-reporting/bugzilla/": "Bugzilla"
   },
