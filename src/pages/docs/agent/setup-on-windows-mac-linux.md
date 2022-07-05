@@ -116,6 +116,9 @@ To start the agent, refer the section here: [Start the Testsigma Agent Server](h
 
   If the icon doesn’t appear in 10 minutes, please contact Testsigma Support.
 
+[[info | NOTE:]]
+|If you want to start the Testsigma agent as a background process, such that it keeps running even if the user signs out, then, you can go to: "TestsigmaAgentInstallationFolder\Wrapper\bin" and run the command "TestsigmaAgent start"<br>
+|To stop the process started above, you can run the command "TestsigmaAgent stop" from the same location 
 
 ##**For Mac/Linux**
 
@@ -126,6 +129,11 @@ To start the agent, refer the section here: [Start the Testsigma Agent Server](h
   ![Testsigma Agent Mac System Tray icon](https://docs.testsigma.com/images/setup-on-windows-mac-linux/ts-agent-mac-tray-icon.png)
 
   If the icon doesn’t appear in 10 minutes, please contact Testsigma Support.
+
+[[info | NOTE:]]
+|If you want to start the Testsigma agent as a background process, such that it keeps running even if the user signs out, then, you can go to: "TestsigmaAgentInstallationFolder\Wrapper\bin" and run the command "TestsigmaAgent start"<br>
+|To stop the process started above, you can run the command "TestsigmaAgent stop" from the same location 
+
 
 <br>
 
