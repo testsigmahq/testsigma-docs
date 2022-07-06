@@ -24,6 +24,12 @@ contextual_links:
   name: "Start The Testsigma Agent Server As A Process"
   url: "#start-the-testsigma-agent-server-as-a-process"
 - type: link
+  name: "For Windows"
+  url: "#for-windows"
+- type: link
+  name: "For Mac/Linux"
+  url: "#for-maclinux"
+- type: link
   name: "Start The Testsigma Agent Server As A Service"
   url: "#start-the-testsigma-agent-server-as-a-service"
 - type: link
@@ -39,18 +45,18 @@ contextual_links:
 ---
 ## **Table of Contents**
 
-[Download And Install The Testsigma Agent](https://testsigma.com/docs/agent/setup-on-windows-mac-linux/#download-and-install-the-testsigma-agent)<br>
-&emsp;&emsp;&emsp;[Download Testsigma Agent As Zip File](https://testsigma.com/docs/agent/setup-on-windows-mac-linux/#download-testsigma-agent-as-zip-file)<br>
-&emsp;&emsp;&emsp;[Install Via Executables](https://testsigma.com/docs/agent/setup-on-windows-mac-linux/#install-via-executables)<br>
-[Start The Testsigma Agent Server As A Process](https://testsigma.com/docs/agent/setup-on-windows-mac-linux/#start-the-testsigma-agent-server-as-a-process)<br>
-&emsp;&emsp;&emsp;[For Windows](https://testsigma.com/docs/agent/setup-on-windows-mac-linux/#for-windows)<br>
-&emsp;&emsp;&emsp;[For Mac/Linux](https://testsigma.com/docs/agent/setup-on-windows-mac-linux/#for-maclinux)<br>
-[Start The Testsigma Agent Server As A Service](https://testsigma.com/docs/agent/setup-on-windows-mac-linux#start-the-testsigma-agent-server-as-a-service)<br>
-[Register The Testsigma Agent](https://testsigma.com/docs/agent/setup-on-windows-mac-linux/#register-the-testsigma-agent)<br>
-&emsp;&emsp;&emsp;[Checking Agent Running Status](https://testsigma.com/docs/agent/setup-on-windows-mac-linux/#checking-agent-running-status)<br>
-&emsp;&emsp;&emsp;[Connecting The Agent To Testsigma App](https://testsigma.com/docs/agent/setup-on-windows-mac-linux/#connecting-the-agent-to-testsigma-app)<br>
-&emsp;&emsp;&emsp;[Delay The Activation Of Your Testsigma Agent](https://testsigma.com/docs/agent/setup-on-windows-mac-linux/#delay-the-activation-of-your-testsigma-agent)<br>
-[Run Testsigma Agent Via Docker](https://testsigma.com/docs/agent/setup-on-windows-mac-linux/#run-testsigma-agent-via-docker)<br>
+[Download And Install The Testsigma Agent](#download-and-install-the-testsigma-agent)<br>
+&emsp;&emsp;&emsp;[Download Testsigma Agent As Zip File](#download-testsigma-agent-as-zip-file)<br>
+&emsp;&emsp;&emsp;[Install Via Executables](#install-via-executables)<br>
+[Start The Testsigma Agent Server As A Process](#start-the-testsigma-agent-server-as-a-process)<br>
+&emsp;&emsp;&emsp;[For Windows](#for-windows)<br>
+&emsp;&emsp;&emsp;[For Mac/Linux](#for-maclinux)<br>
+[Start The Testsigma Agent Server As A Service](#start-the-testsigma-agent-server-as-a-service)<br>
+[Register The Testsigma Agent](#register-the-testsigma-agent)<br>
+&emsp;&emsp;&emsp;[Checking Agent Running Status](#checking-agent-running-status)<br>
+&emsp;&emsp;&emsp;[Connecting The Agent To Testsigma App](#connecting-the-agent-to-testsigma-app)<br>
+&emsp;&emsp;&emsp;[Delay The Activation Of Your Testsigma Agent](#delay-the-activation-of-your-testsigma-agent)<br>
+[Run Testsigma Agent Via Docker](#run-testsigma-agent-via-docker)<br>
 
 <br>
 
@@ -89,8 +95,8 @@ To download the Testsigma agent as a zip file, follow below steps:
 
 You can either start the Testsigma agent server as a process via the command line/terminal when needed. Or, you can run the Testsigma agent server as a Server. Refer the links below to see how:
 
-1. [Start the Testsigma Agent Server as a standalone process](https://testsigma.com/docs/agent/setup-on-windows-mac-linux/#start-the-testsigma-agent-server)
-2. [Start the Testsigma Agent Server as a Service](https://testsigma.com/docs/agent/setup-on-windows-mac-linux#start-the-testsigma-agent-server-as-a-service)
+1. [Start the Testsigma Agent Server as a process](#start-the-testsigma-agent-server-as-a-process)
+2. [Start the Testsigma Agent Server as a Service](#start-the-testsigma-agent-server-as-a-service)
 
 
 
@@ -111,13 +117,13 @@ To download the Testsigma agent as an executable file, follow below steps:
 
 After the installation is complete, you can either run the Testsigma agent server as a process via the command line/terminal when needed. Or, you can run the Testsigma agent server as a Server. Refer the links below to see how:
 
-1. [Start the Testsigma Agent Server as a standalone process](https://testsigma.com/docs/agent/setup-on-windows-mac-linux/#start-the-testsigma-agent-server)
-2. [Start the Testsigma Agent Server as a Service](https://testsigma.com/docs/agent/setup-on-windows-mac-linux#start-the-testsigma-agent-server-as-a-service)
+1. [Start the Testsigma Agent Server as a process](#start-the-testsigma-agent-server-as-a-process)
+2. [Start the Testsigma Agent Server as a Service](#start-the-testsigma-agent-server-as-a-service)
 
 
 ##**Start The Testsigma Agent Server As A Process**
 
-###**For Windows**
+##**For Windows**
   Navigate to the Testsigma Agent installation folder and double-click the ‘start.bat’ or run “start.bat” in the command line file to start the Testsigma Agent.
 
   Wait for a few minutes for the Testsigma Agent to start up. Check the Testsigma Agent icon in the System Tray.
@@ -127,7 +133,7 @@ After the installation is complete, you can either run the Testsigma agent serve
   If the icon doesn’t appear in 10 minutes, please contact Testsigma Support.
 
 
-###**For Mac/Linux**
+##**For Mac/Linux**
 
   Navigate to the Testsigma Agent installation folder and double-click the ‘start.sh’  or run “start.bat” in the command line to start the Testsigma Agent startup in a new Terminal window.
 
@@ -139,7 +145,7 @@ After the installation is complete, you can either run the Testsigma agent serve
 
 <br>
 
-Next, you will have to register the agent. To Register the agent, refer to the section here: [Register the Testsigma agent](https://testsigma.com/docs/agent/setup-on-windows-mac-linux/#register-the-testsigma-agent)
+Next, you will have to register the agent. To Register the agent, refer to the section here: [Register the Testsigma agent](#register-the-testsigma-agent)
 
 ---
 
@@ -172,18 +178,18 @@ dump         Request a Java thread dump if running.
 [[info | NOTE:]]
 |At present, the option to install Testsigma Agent to start automatically when system boots is only supported for windows.
 
-Next, you will have to register the agent. To Register the agent, refer to the section here: [Register the Testsigma agent](https://testsigma.com/docs/agent/setup-on-windows-mac-linux/#register-the-testsigma-agent)
+Next, you will have to register the agent. To Register the agent, refer to the section here: [Register the Testsigma agent](#register-the-testsigma-agent)
 
 
 ---
 ##**Register The Testsigma Agent**
 
-###**Checking Agent Running Status**
+##**Checking Agent Running Status**
 Once the Agent has started you will get a System Tray icon. The status will show as **STARTED** once it's ready. If it is showing the status as **STARTING**, please wait for a few moments for it to start. 
 
 You can use the menu options to **Quit** and **Restart the Agent**.
 
-###**Connecting The Agent To Testsigma App**
+##**Connecting The Agent To Testsigma App**
 
 1. Once your Testsigma agent is up and running and shows the STARTED status, click on the Agent tab on the Left-hand side Navigation bar.
    
