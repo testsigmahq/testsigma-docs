@@ -119,7 +119,7 @@ Lets go through all the 3 types of links one-by-one below.
 
 ![xray test suite id](https://s3.amazonaws.com/static-docs.testsigma.com/new_images/integrations/bug-reporting/xray/xray-testsuite-id.png)
 
-3. To link this xray test to the Testsigma test case, click on the link button beside the id.
+3. To link this xray test set to the Testsigma test suite, click on the link button beside the id.
 
 [[info | NOTE:]]
 |For the test execution of all the test cases inside the test suite to be updated in Xray, the test cases should be linked to appropriate test cases on Xray too.
@@ -133,11 +133,8 @@ Lets go through all the 3 types of links one-by-one below.
 
 ![xray test plan id](https://s3.amazonaws.com/static-docs.testsigma.com/new_images/integrations/bug-reporting/xray/xray-testplan-id.png)
 
-3. To link this xray test to the Testsigma test case, click on the link button beside the id, also highlighted in above screenshot.
- 
- 
-[[info | NOTE:]]
-|For the test execution of all the test suites inside the test plan to be updated in Xray, the test suites should be linked to appropriate test sets on Xray too.
+3. To link this xray test plan to the Testsigma test plan, click on the link button beside the id, also highlighted in above screenshot.
+
  
 ---
  

@@ -40,6 +40,7 @@ Testsigma integrates with various tools in your software delivery cycle to make 
   * [Mantis](https://testsigma.com/docs/integrations/bug-reporting/mantis/)
   * [Youtrack](https://testsigma.com/docs/integrations/bug-reporting/youtrack/)
   * [Zepel](https://testsigma.com/docs/integrations/bug-reporting/zepel/)
+  * [Xray](https://testsigma.com/docs/integrations/bug-reporting/xray/)
 
   <br>
 
@@ -61,6 +62,8 @@ Testsigma integrates with various tools in your software delivery cycle to make 
   * [Azure DevOps Boards](https://testsigma.com/docs/integrations/product-management/azure-devops-boards/)
   * [Trello](https://testsigma.com/docs/integrations/product-management/trello/)
   * [Freshrelease](https://testsigma.com/docs/integrations/product-management/freshrelease/)
+  * [clickup](https://testsigma.com/docs/integrations/product-management/clickup/)
+  * [linear](https://testsigma.com/docs/integrations/product-management/linear/)
 
 <br>
 
@@ -79,5 +82,9 @@ Testsigma integrates with various tools in your software delivery cycle to make 
    * [Travis CI](https://testsigma.com/docs/continuous-integration/travis-ci/)
    * [CodeShip CI](https://testsigma.com/docs/continuous-integration/codeship-ci/)
    * [Shell Script(Generic)](https://testsigma.com/docs/continuous-integration/shell-script/)
+   * [Bitbucket CI](https://testsigma.com/docs/continuous-integration/bitbucket-ci/)
+   * [Bitrise CI](https://testsigma.com/docs/continuous-integration/bitrise-ci/)
+   * [github CICD](https://testsigma.com/docs/continuous-integration/github-cicd/)
+   
 
 
