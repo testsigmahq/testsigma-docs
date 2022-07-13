@@ -38,6 +38,58 @@ Here, we will discuss how to add/edit/delete test machines when a Test Plan is a
 
 ---
 ##**Approach 1: Add Test Machine via the Edit Test Plan page**
+
+The Test Plan UI has been revamped, but you still have the option to switch to the classic UI. So, you can add test machines via the Edit Test Plan page in 2 ways, lets discuss both below:
+
+1. [Add Test Machine via the Edit Test Plan Page via the New UI](#add-test-machine-via-the-edit-test-plan-page-via-the-new-ui)
+2. [Add Test Machine via the Edit Test Plan Page via  the Classic UI](#add-test-machine-via-the-edit-test-plan-page-via-the-classic-ui)
+
+---
+
+##**Add Test Machine via the Edit Test Plan Page via the New UI**
+
+1. Go to the Test Plans page here: Select Project > Test Development > Test Plan
+2. Click on an existing test plan and click on ‘Edit Button’ on the top right corner. 
+3. On the ‘Edit Test Plan’ page that opens, go to the tab - ‘Test Machines & Suites Selection’. For this to work with the New UI, the test plan should have been created using the New UI.
+4. On the ‘Test Machines & Suites Selection’ tab, select the test suite for which you want to add the test machine for test execution.
+5. Once you have selected the test suites that you want to add the test machine for, click on the button “Add machine”. You will see 2 options: “Create new machine” or “Add to existing machine”.
+
+![New Test Plan UI - add machine button](https://s3.amazonaws.com/static-docs.testsigma.com/new_images/test-management/test-plans/manage-test-machines/new-testplanUI-add-machine-button.png)
+
+a. If you want to add the selected test suite to an existing machine then click on the option “add to existing machine”. A layover “Add Test Suites to Machine” appears with a list of the existing machines as also shown in the screenshot below:
+
+![New Test Plan UI - add test suites to machines](https://s3.amazonaws.com/static-docs.testsigma.com/new_images/test-management/test-plans/manage-test-machines/new-testplanUI-layover-add-test-suites-to-machines.png)
+
+Select the machine that you want to execute the test suite on. To finalize the change, click on Next and Update.
+
+b. If you want to create a new machine then click on the option “Create new machine”. A layover “Add Machine” appears, as shown in the screenshot below:
+
+![New Test Plan UI - layover to add machine](https://s3.amazonaws.com/static-docs.testsigma.com/new_images/test-management/test-plans/manage-test-machines/new-testplanUI-layover-add-machine.png)
+
+You will see below options:
+
+**Name**: Add the name you want to give to this machine<br>
+**Test Lab Type**: Select the lab-type you want to use this device from. To know more about test lab types, read [here](https://testsigma.com/docs/test-management/test-plans/supported-test-lab-types/).<br>
+**Prerequisite**: The machine selected here will become a prerequisite for execution on the machine being created<br>
+
+In addition:
+
+&emsp;&emsp;a. Select OS<br>
+&emsp;&emsp;b. OS Version<br>
+&emsp;&emsp;c. Select Browser<br>
+&emsp;&emsp;d. Browser Version<br>
+&emsp;&emsp;e. Resolution<br>
+&emsp;&emsp;f. Enable/Disable for Headless Test<br>
+&emsp;&emsp;g. Desired capabilities (Optional)<br>
+
+Once you have selected all, click on create. To finalize the change, click on Next and Update.
+
+
+
+---
+
+##**Add Test Machine via the Edit Test Plan Page via the Classic UI**
+
 1. Go to the Test Plans page here: Select Project > Test Development > Test Plan 
    
 2. Click on an existing test plan and click on ‘Edit Button’ on the top right corner, the page should look something like below:
@@ -77,7 +129,33 @@ In a similar manner, you can add more test machines.
 7. Once you have added the needed Test Machines, click on the ‘Next’ button and then click on the ‘Update’ button. Your changes will be saved for the ‘Test Plan’
 
 &emsp;
-### Edit Test Machine
+##**Edit Test Machine via the Edit Test Plan page**
+
+
+The Test Plan UI has been revamped, but you still have the option to switch to the classic UI. So, you can edit a test machines in 2 ways, lets discuss both below:
+
+1. [Edit Test Machine via the Edit Test Plan Page via the New UI](#edit-test-machine-via-the-edit-test-plan-page-via-the-new-ui)
+2. [Edit Test Machine via the Edit Test Plan Page via the Classic UI](#edit-test-machine-via-the-edit-test-plan-page-via-the-classic-ui)
+
+---
+
+## Edit Test Machine via the Edit Test Plan Page via the New UI
+
+Follow below steps:
+1. Go to the Test Plans page, Test Machines & Suites selection as explained in the previous section in this doc.
+2. On the ‘Test Machines & Suites Selection’ tab, click on the Test Machine that you want to edit.
+3. The clicked test machine will be highlighted, now click on the “edit button” to edit the test machine. The “edit button” is also highlighted in the screenshot below: 
+
+![New Test Plan UI - edit button edit test machine](https://s3.amazonaws.com/static-docs.testsigma.com/new_images/test-management/test-plans/manage-test-machines/new-testplanUI-edit-button-edit-test-machine.png)
+
+4. On the layover that appears, as also shown in the screenshot below, you can edit the property that needs to be edited and click on the “update” button on the bottom right to finalize the changes.
+
+![New Test Plan UI - edit test machine layover](https://s3.amazonaws.com/static-docs.testsigma.com/new_images/test-management/test-plans/manage-test-machines/new-testplanUI-edit-test-machine-layover.png)
+
+---
+
+## Edit Test Machine via the Edit Test Plan Page via the Classic UI
+
 In case you need to edit an already added Test Machine in a Test Plan, you will have to follow below steps:
 
 1. Go to the Test Plans page, Test Machines & Suites selection as explained in the previous section in this doc.
@@ -93,7 +171,31 @@ In case you need to edit an already added Test Machine in a Test Plan, you will 
 4. Once you are done with the required changes, click on the ‘Update’ button on the bottom right corner and your changes will be saved.
 
 
-### Delete Test Machine
+## Delete Test Machine via the Edit Test Plan Page
+
+
+The Test Plan UI has been revamped, but you still have the option to switch to the classic UI. So, you can delete a test machines in 2 ways, lets discuss both below:
+
+1. [Delete Test Machine via the Edit Test Plan Page via the New UI](#delete-test-machine-via-the-edit-test-plan-page-via-the-new-ui)
+2. [Delete Test Machine via the Edit Test Plan Page via the Classic UI](#delete-test-machine-via-the-edit-test-plan-page-via-the-classic-ui)
+
+---
+
+## **Delete Test Machine via the Edit Test Plan Page via the New UI**
+
+In case you need to delete an already added Test Machine in a Test Plan, you will have to follow below steps:
+1. Go to the Test Plans page, Test Machines & Suites selection as explained in the previous section in this doc.
+2. On the ‘Test Machines & Suites Selection’ Tab, hover over the Test Machine you want to delete and click on the delete icon on the test machine. For your reference, the icon is highlighted below:
+
+![New Test Plan UI - delete test machine button](https://s3.amazonaws.com/static-docs.testsigma.com/new_images/test-management/test-plans/manage-test-machines/new-testplanUI-delete-test-machine-button.png)
+
+To finalize the change, click on Next and Update.
+
+
+---
+
+## **Delete Test Machine via the Edit Test Plan Page via the Classic UI**
+
 In case you need to delete an already added Test Machine in a Test Plan, you will have to follow below steps:
 
 1. Go to the Test Plans page, Test Machines & Suites selection as explained in the previous section in this doc.

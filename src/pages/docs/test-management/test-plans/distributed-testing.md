@@ -19,14 +19,14 @@ contextual_links:
 
 ---
 
-When you create a Test plan in Testsigma, you have the option to either create them for cross-browser testing or for distributed testing. In this article, we will discuss how to create a Test Plan for ‘Distributed Testing’.
+When you create a Test plan in Testsigma, using the Classic UI, you have the option to either create them for cross-browser testing or for distributed testing. In this article, we will discuss how to create a Test Plan for ‘Distributed Testing’.
 
 With Distributed Testing, you can configure different test cases to run on different test machines at the same time. Thus, your testing can be distributed.
 
 For example, let’s say your customers mostly use Chrome Browser. So, you decide to execute all your automated tests on Chrome Browser but only the high-priority ones on other browsers like Firefox, Safari, and Internet Explorer. With Distributed testing, you can distribute all your test cases to be executed on Chrome Browser and the high priority ones on Firefox, Safari, and Internet Explorer.
 
 
-You should already know how to [List/Create/Edit/Delete Test Plans](https://testsigma.com/docs).
+You should already know how to [List/Create/Edit/Delete Test Plans Using the Classic UI](https://testsigma.com/docs/test-management/test-plans/overview/).
 
 ### Navigation: Select Project > Test Development > Test Plan > Test Machines & Suites Selection 
 

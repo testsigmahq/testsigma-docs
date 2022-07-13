@@ -16,6 +16,12 @@ contextual_links:
   name: "Create Test Plan"
   url: "#create-test-plan"
 - type: link
+  name: "New UI"
+  url: "#new-ui"
+- type: link
+  name: "Classic UI"
+  url: "#classic-ui"
+- type: link
   name: "Edit Test Plan"
   url: "#edit-test-plan"
 - type: link
@@ -46,9 +52,52 @@ A sample Test Plans page list would look like this:
 
 ---
 ##**Create Test Plan**
+
+
 1. On the Test Plan page, click on the +Test Plan button:
 
 ![add test plan button in Testsigma](https://docs.testsigma.com/images/test-plans/add-test-plan-button-testsigma.png)
+
+
+The Test Plan UI has been revamped, but you still have the option to switch to the classic UI.
+
+Lets discuss both below:
+
+ * [New UI](#new-ui)
+ * [Classic UI](#classic-ui)
+
+---
+
+##**New UI**
+
+2. A page will open as shown below:
+
+![New Test Plan UI step 1](https://s3.amazonaws.com/static-docs.testsigma.com/new_images/test-management/test-plans/overview/new-testplanUI-step1.png)
+
+The “switch to classic UI” toggle button is available at the top left corner in case you want to switch to the classic UI at any step. 
+
+3. On the Create Test Plan page, enter these details:
+
+&emsp;&emsp;**a. Enter Test Plan Name:** Enter the name of the Test Plan<br>
+&emsp;&emsp;**b. Description (optional):** Enter a clear and precise description to describe the test plan you are creating.
+
+4. Click on “Next Button”. The “Test Machines & Suites Selection” tab will open like this:
+
+![New Test Plan UI step 2](https://s3.amazonaws.com/static-docs.testsigma.com/new_images/test-management/test-plans/overview/new-testplanUI-step2.png)
+
+On the “Test Machines & Suites Selection” tab, you will see two sections:
+
+&emsp;&emsp;a. Test Machines<br>
+&emsp;&emsp;b. Test Suites
+
+You begin by selecting the Test Suites that you need to add to this test plan, and then selecting the test machines that you want to execute the test plan on.
+
+Once done, click on the “Next Button”. The “Test Plan Settings” tab would open, this tab is the same as the tab 3 for the classic UI below. 
+
+
+---
+
+##**Classic UI**
 
 2. A page will open as shown below:
 
@@ -57,8 +106,7 @@ A sample Test Plans page list would look like this:
 &emsp;
 3. On the Create Test Plan page, enter these details:
    
-&emsp;&emsp;**a. Enter Test Plan Name:** Enter the name of the Test Plan
-
+&emsp;&emsp;**a. Enter Test Plan Name:** Enter the name of the Test Plan<br>
 &emsp;&emsp;**b. Description (optional):** Enter a clear and precise description to describe the test plan you are creating.
 
 4. Click on “Next Button”. The “Test Machines & Suites Selection” tab will open like this:

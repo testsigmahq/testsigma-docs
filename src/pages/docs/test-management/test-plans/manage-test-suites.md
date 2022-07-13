@@ -36,6 +36,34 @@ There are two ways to add/edit a test suite in a test plan:
 
 ---
 ##**Approach 1: Add/Edit Test Suite via the Edit Test Plan Page**
+
+The Test Plan UI has been revamped, but you still have the option to switch to the classic UI. So, you can add/edit test suites via the Edit Test Plan page in 2 ways, lets discuss both below:
+
+1. [Edit Test Suites via the Edit Test Plan Page via the New UI](#edit-test-suites-via-the-edit-test-plan-page-via-the-new-UI)
+2. [Edit Test Suites via the Edit Test Plan Page via  the Classic UI](#edit-test-suites-via-the-edit-test-plan-page-via-the-classic-UI))
+
+---
+
+## **Edit Test Suites via the Edit Test Plan Page via the New UI**
+1. Go to the Test Plans page here: Select Project > Test Development > Test Plan
+2. Click on an existing test plan.
+3. Click on ‘Edit Button’ on the Top right corner on the test plan page. 
+4. On the ‘Edit Test Plan’ page that opens, go to the tab - ‘Test Machines & Suites Selection’
+5. On the ‘Test Machines & Suites Selection’ Tab - click on ‘+ Add Test Suites’ area under the section Test Suites’. The area is highlighted in the screenshot below:
+
+![New Test Plan UI - add test suites area highlighted](https://s3.amazonaws.com/static-docs.testsigma.com/new_images/test-management/test-plans/manage-test-suites/new-testplanUI-add-test-suites-area-highlighted.png)
+
+6. The “Selected Test Suites” layover will appear. Under the “Filters” section, you can filter the test suites by name. If you want to execute test suites over multiple platforms, then you can enable end-to-end testing. You can add more test cases by clicking on “+” and remove test cases by clicking on “-”. The “Selected Test Suites” layover will appear something like the screenshot below:
+
+![New Test Plan UI - selected test suites layover](https://s3.amazonaws.com/static-docs.testsigma.com/new_images/test-management/test-plans/manage-test-suites/new-test-plan-ui-selected-test-suites-layover.png)
+
+7. Once “Selected Test Suites” section contains the needed test suites, click on the button “Add”
+
+---
+
+## **Edit Test Suites via the Edit Test Plan Page via the Classic UI**
+
+
 1. Go to the Test Plans page here: Select Project > Test Development > Test Plan
     
 2. Click on an existing test plan, the page should look something like this:
@@ -65,7 +93,29 @@ If you are satisfied with the changes, click on the “Next” button and then o
 
 &emsp;
 
-### Delete Test Suite
+## **Delete Test Suite via the Edit Test Plan Page**
+
+The Test Plan UI has been revamped, but you still have the option to switch to the classic UI. So, you can delete a test suite in 2 ways, lets discuss both below:
+
+1. [Delete Test Suite via the Edit Test Plan Page via the New UI](#delete-test-suite-via-the-edit-test-plan-page-via-the-new-ui)
+2. [Delete Test Suite via the Edit Test Plan Page via the Classic UI](#delete-test-suite-via-the-edit-test-plan-page-via-the-classic-ui)
+
+---
+
+## Delete Test Suite via the Edit Test Plan Page via the New UI
+
+1. Go to the Edit Test Plan page, ‘Test Machines & Suites’ section.
+2. Under the ‘Test Machines & Suites Selection’ tab, hover on the test suite you want to delete. On hover, the ‘delete’ button appears. Below is a screenshot showing how the delete button looks for a test suite: 
+![New Test Plan UI - selected test suites layover](https://s3.amazonaws.com/static-docs.testsigma.com/new_images/test-management/test-plans/manage-test-suites/new-test-plan-ui-delete-test-suite-button.png)
+3. Click on the ‘delete’ button corresponding to the test suite you want to delete, this will remove the entry from the ‘Test Suites’ section.
+4. Click on the “Next” button and then on the “Update” button to finalize the changes.
+
+
+
+---
+
+## Delete Test Suite via the Edit Test Plan Page via the Classic UI
+
 1. Go to the Edit Test Plan page, ‘Test Machines & Suites’ section.
    
 2. On the ‘Test Machines & Suites Selection’ tab, hover on the test suite you want to delete. In the screenshot below, for instance, the hover is on ‘Home Page tests’. On hover, the ‘delete’ button appears:

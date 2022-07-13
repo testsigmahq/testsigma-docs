@@ -36,7 +36,37 @@ You can configure your Test Plans to run in parallel at any time. However, the n
 &emsp;
 
 ---
-##**Configure tests to run in parallel while creating a new Test Plan**
+## **Configure tests to run in parallel while creating a new Test Plan**
+
+The Test Plan UI has been revamped, but you still have the option to switch to the classic UI. So, you can add/edit test suites via the Edit Test Plan page in 2 ways, lets discuss both below:
+
+1. [Configure tests to run in parallel while creating a new Test Plan via the New UI](#configure-tests-to-run-in-parallel-while-creating-a-new-test-plan-via-the-new-ui)
+2. [Configure tests to run in parallel while creating a new Test Plan via  the Classic UI](#configure-tests-to-run-in-parallel-while-creating-a-new-test-plan-via-the-new-ui)
+
+---
+
+## **Configure tests to run in parallel while creating a new Test Plan via the New UI**
+
+1. When you are creating a new test plan, this action can be taken on tab 2 - Test Machines and Suites Selection
+2. On the “Test Machines and Suites Selection” tab, you can either: 
+
+&emsp; a. **Run Test Suites in Parallel**: This option will be available for your test machine, if it has more than one test suite added. As highlighted in the screenshot below:
+
+![New Test Plan UI - run test suites in parallel ](https://s3.amazonaws.com/static-docs.testsigma.com/new_images/test-management/test-plans/run-tests-in-parallel/new-test-plan-ui-run-test-suites-in-parallel.png)
+
+&emsp; b. **Run Test Cases inside the Test Suite in Parallel**: This option will be available for your test machine as shown in the screenshot below:
+
+![New Test Plan UI - run test cases inside the test suites in parallel](https://s3.amazonaws.com/static-docs.testsigma.com/new_images/test-management/test-plans/run-tests-in-parallel/new-test-plan-ui-run-test-cases-inside-the-test-suites-in-parallel.png)
+
+And if above option is enabled, there will be an option to enable/disable this for individual test suites too, as also shown in the screenshot below:
+
+![New Test Plan UI - run test cases in parallel on test suite](https://s3.amazonaws.com/static-docs.testsigma.com/new_images/test-management/test-plans/run-tests-in-parallel/new-test-plan-ui-run-test-cases-in-parallel-on-test-suite.png)
+
+---
+
+## **Configure tests to run in parallel while creating a new Test Plan via the Classic UI**
+
+
 1. On the Test Plan page, click on the +Test Plan button:
 
 ![Test Plans page in Testigma](https://docs.testsigma.com/images/run-tests-in-parallel/test-plans-page-testsigma.png)

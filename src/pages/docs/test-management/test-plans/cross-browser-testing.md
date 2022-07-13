@@ -19,10 +19,10 @@ contextual_links:
 
 ---
 
-When you create a Test plan in Testsigma, you have the option to either create them for cross-browser testing or for distributed testing. In this article, we will discuss how to create a Test Plan for ‘Cross-Browser Testing’.
+When you create a Test plan in Testsigma, using the classic UI, you have the option to either create them for cross-browser testing or for distributed testing. In this article, we will discuss how to create a Test Plan for ‘Cross-Browser Testing’.
 
 
-You should already know how to [List/Create/Edit/Delete Test Plans](https://testsigma.com/docs/test-management/test-plans/overview/).
+You should already know how to [List/Create/Edit/Delete Test Plans using the Classic UI](https://testsigma.com/docs/test-management/test-plans/overview/).
 
 &emsp;
 
