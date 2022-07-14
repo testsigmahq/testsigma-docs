@@ -48,6 +48,26 @@ Since a Test Suite is pre-requisite for the creation of Test Plans, see [How to 
 
 ---
 ##**Creating a test plan:**
+
+The Test Plan UI has been revamped, but you still have the option to switch to the classic UI. So, you can configure headless test execution while creating a test plan in 2 ways:
+
+1. [Creating A Test Plan Via The New UI](#creating-a-test-plan-via-the-new-ui)
+2. [Creating A Test Plan Via The Classic UI](#creating-a-test-plan-via-the-classic-ui)
+
+---
+
+## **Creating A Test Plan Via The New UI**
+
+1. When you are creating a new test plan, this action can be taken on tab 2 - Test Machines and Suites Selection.
+2. When you add a machine on the tab 2, you can enable the “Headlest Test” on the “Add Machine” layover. The “Headless Test” toggle button is also highlighted in the screenshot below: 
+
+![New Test Plan UI - Headless Test Toggle Button ](https://s3.amazonaws.com/static-docs.testsigma.com/new_images/test-management/test-plans/headless-testing/new-test-plan-ui-headless-test-toggle-button.png)
+
+---
+
+## **Creating A Test Plan Via The Classic UI**
+
+
 1. On the Test Plan page, click on the +Test Plan button:
 
 ![add test plan button for headless testing configuration in Testsigma](https://docs.testsigma.com/images/headless-testing/add-test-plan-button-headless-testing-testsigma.png)

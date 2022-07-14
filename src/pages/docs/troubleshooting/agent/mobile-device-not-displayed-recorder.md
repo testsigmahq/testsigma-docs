@@ -23,7 +23,8 @@ contextual_links:
 Testsigma Agent may be unable to detect your local mobile devices for Test Recorder for the following reasons:
 1. Testsigma agent is not up to date.
 2. The cable connection with the laptop you are using is poor.
-3. If your device is connected via WIFI, WIFI strength is poor.
+3. The USB port connecting to your device is not working. (In this case you should try to change the USB port)
+4. If your device is connected via WIFI, WIFI strength is poor.
 
 
 You will also need to make sure that:
