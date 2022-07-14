@@ -139,7 +139,7 @@ The Test Plan UI has been revamped, but you still have the option to switch to t
 
 ---
 
-## Edit Test Machine via the Edit Test Plan Page via the New UI
+## **Edit Test Machine via the Edit Test Plan Page via the New UI**
 
 Follow below steps:
 1. Go to the Test Plans page, Test Machines & Suites selection as explained in the previous section in this doc.
@@ -154,7 +154,7 @@ Follow below steps:
 
 ---
 
-## Edit Test Machine via the Edit Test Plan Page via the Classic UI
+## **Edit Test Machine via the Edit Test Plan Page via the Classic UI**
 
 In case you need to edit an already added Test Machine in a Test Plan, you will have to follow below steps:
 
@@ -171,7 +171,7 @@ In case you need to edit an already added Test Machine in a Test Plan, you will 
 4. Once you are done with the required changes, click on the ‘Update’ button on the bottom right corner and your changes will be saved.
 
 
-## Delete Test Machine via the Edit Test Plan Page
+## **Delete Test Machine via the Edit Test Plan Page**
 
 
 The Test Plan UI has been revamped, but you still have the option to switch to the classic UI. So, you can delete a test machines in 2 ways, lets discuss both below:
@@ -207,7 +207,7 @@ In case you need to delete an already added Test Machine in a Test Plan, you wil
 ![delete test machines on Edit Test Plan page in Testsigma](https://docs.testsigma.com/images/manage-test-machines/delete-test-machines-edit-test-plan-testsigma.png)
 
 ---
-##**Approach 2: add/edit/delete test machines via the Test Plan details specific tab**
+## **Approach 2: add/edit/delete test machines via the Test Plan details specific tab**
 1. Go to the Test Plan details page as explained in the previous sections
    
 2. Go to the tab ‘Test Machines’ on the Test Plan details page as shown in the screenshot below:

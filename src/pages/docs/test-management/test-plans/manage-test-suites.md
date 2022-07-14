@@ -39,8 +39,8 @@ There are two ways to add/edit a test suite in a test plan:
 
 The Test Plan UI has been revamped, but you still have the option to switch to the classic UI. So, you can add/edit test suites via the Edit Test Plan page in 2 ways, lets discuss both below:
 
-1. [Edit Test Suites via the Edit Test Plan Page via the New UI](#edit-test-suites-via-the-edit-test-plan-page-via-the-new-UI)
-2. [Edit Test Suites via the Edit Test Plan Page via  the Classic UI](#edit-test-suites-via-the-edit-test-plan-page-via-the-classic-UI))
+1. [Edit Test Suites via the Edit Test Plan Page via the New UI](#edit-test-suites-via-the-edit-test-plan-page-via-the-new-ui)
+2. [Edit Test Suites via the Edit Test Plan Page via  the Classic UI](#edit-test-suites-via-the-edit-test-plan-page-via-the-classic-ui)
 
 ---
 
@@ -102,11 +102,11 @@ The Test Plan UI has been revamped, but you still have the option to switch to t
 
 ---
 
-## Delete Test Suite via the Edit Test Plan Page via the New UI
+## **Delete Test Suite via the Edit Test Plan Page via the New UI**
 
 1. Go to the Edit Test Plan page, ‘Test Machines & Suites’ section.
 2. Under the ‘Test Machines & Suites Selection’ tab, hover on the test suite you want to delete. On hover, the ‘delete’ button appears. Below is a screenshot showing how the delete button looks for a test suite: 
-![New Test Plan UI - selected test suites layover](https://s3.amazonaws.com/static-docs.testsigma.com/new_images/test-management/test-plans/manage-test-suites/new-test-plan-ui-delete-test-suite-button.png)
+![New Test Plan UI - delete test suite button](https://s3.amazonaws.com/static-docs.testsigma.com/new_images/test-management/test-plans/manage-test-suites/new-test-plan-ui-delete-test-suite-button.png)
 3. Click on the ‘delete’ button corresponding to the test suite you want to delete, this will remove the entry from the ‘Test Suites’ section.
 4. Click on the “Next” button and then on the “Update” button to finalize the changes.
 
@@ -114,7 +114,7 @@ The Test Plan UI has been revamped, but you still have the option to switch to t
 
 ---
 
-## Delete Test Suite via the Edit Test Plan Page via the Classic UI
+## **Delete Test Suite via the Edit Test Plan Page via the Classic UI**
 
 1. Go to the Edit Test Plan page, ‘Test Machines & Suites’ section.
    

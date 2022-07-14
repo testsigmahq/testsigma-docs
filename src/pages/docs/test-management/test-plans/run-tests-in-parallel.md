@@ -41,7 +41,7 @@ You can configure your Test Plans to run in parallel at any time. However, the n
 The Test Plan UI has been revamped, but you still have the option to switch to the classic UI. So, you can add/edit test suites via the Edit Test Plan page in 2 ways, lets discuss both below:
 
 1. [Configure tests to run in parallel while creating a new Test Plan via the New UI](#configure-tests-to-run-in-parallel-while-creating-a-new-test-plan-via-the-new-ui)
-2. [Configure tests to run in parallel while creating a new Test Plan via  the Classic UI](#configure-tests-to-run-in-parallel-while-creating-a-new-test-plan-via-the-new-ui)
+2. [Configure tests to run in parallel while creating a new Test Plan via  the Classic UI](#configure-tests-to-run-in-parallel-while-creating-a-new-test-plan-via-the-classic-ui)
 
 ---
 
