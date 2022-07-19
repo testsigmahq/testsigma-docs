@@ -53,6 +53,45 @@ Below is a gif demonstrating how the step-by-step real-time test execution looks
 ![step-by-step test-plan execution](https://s3.amazonaws.com/static-docs.testsigma.com/new_images/runs/test-plan-executions/step-by-step-test-plan-execution-gif.gif)
 
 ---
+
+## **Partial Test Runs**
+
+There would be times when you might need to execute just some parts of a test plan instead of executing the complete test plan. With Testsigma, you can do that. You can filter the tests based on some attributes or select the test suites that you’d like to include or exclude for test execution, and then, only execute the selected test cases.
+
+Lets see how we can do that:
+
+1. Go to the test plan that you want to execute partially. You can either go to the test plan list page. The option for partial run for a test plan on a test plan list page would be available as below:
+
+![Partial test run test plan list page](https://s3.amazonaws.com/static-docs.testsigma.com/new_images/runs/test-plan-executions/partial-test-run-testplanlist-page.png)
+
+2. Or you can go to the test plan details page for the particular test plan that you want to do the partial run for. The option is available as shown in the screenshot below: 
+
+![Partial test run test plan details page](https://s3.amazonaws.com/static-docs.testsigma.com/new_images/runs/test-plan-executions/partial-test-run-testplan-details-page.png)
+
+3. A Partial  Test Plan Run layover appears as shown in the screenshot below. You can configure the options in this layover according to how you want to select the test cases for your partial test run:
+
+![Partial test run layover](https://s3.amazonaws.com/static-docs.testsigma.com/new_images/runs/test-plan-executions/partial-test-run-layover.png)
+
+Below are the options you see:
+
+* **Include/Exclude Testsuites** : You can include or exclude the test cases from the partial test run here. 
+* **Test case filters**:
+
+  a. **Labels**: Filter the test cases according to the labels assigned to them.<br>
+  b. **Type**: Filter the test cases according to the type of test cases there are. <br>
+  c. **Requirement**: Filter the test cases according to the requirements assigned to them. <br>
+  d. **Requirement Type**: Filter the test cases according to the requirement types assigned to them.<br>
+  e. **Priority**: Filter the test cases according to priority.<br>
+  f. **Created by**: Filter the test cases according to their creators.<br>
+  g. **Assignee**: Filter the test cases according to their assignees.<br>
+  h. **Reviewer**: Filter the test cases according to their reviewers.<br>
+
+Once you have applied the filters, you can:
+* View filtered test cases by click on the **View Filtered Test Cases** button.
+* Save the configuration as a favourite for later use by click on the **Save As Favorite** button.
+* Start the execution of the filtered test cases by click on the **Run Now** button.
+
+---
 ## **Stitch the execution of your test cases on different platforms together**
 
 There will be scenarios when you would want to execute certain test cases on one platform and once those test cases are executed, certain other dependent test cases on a different platform.

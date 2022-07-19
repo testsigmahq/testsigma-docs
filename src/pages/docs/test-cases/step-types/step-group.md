@@ -49,7 +49,7 @@ A Step Group is a group of test steps which can be repeatedly used in multiple t
 &emsp;
 
 ---
-##**Create a Step Group**
+##**Create A New Step Group**
 
  * Navigate to Test Development > Test Cases > Step Groups.
 
@@ -72,6 +72,34 @@ https://docs.testsigma.com/images/step-group/click-create-step-group-button.png)
  * And now you will have a Step Group ready to use
 
 &emsp;
+
+---
+
+##**Create A Step Group From A Test Case**
+
+  * Go to a test case
+  * Select the steps that you want to create a step group from.
+  * Once you start selecting the test steps, the "+ Create Step Group" will appear at the top right of the test steps, as also shown in the screenshot below:
+
+![create step group from a test case button](https://s3.amazonaws.com/static-docs.testsigma.com/new_images/test-cases/step-types/step-group/create-step-group-button.png)
+
+  * If you select consecutive test steps then you will see a pop-up as below:
+
+![popup - create and replace button](https://s3.amazonaws.com/static-docs.testsigma.com/new_images/test-cases/step-types/step-group/pop-up-with-create-and-replace-button.png)
+
+  , while if you don't select consecutive test steps then the pop-up that appears won't show you the "Create and Replace" button as shown below.
+
+![popup - create button only](https://s3.amazonaws.com/static-docs.testsigma.com/new_images/test-cases/step-types/step-group/pop-up-with-create-button-only.png)
+
+  If you click on the "Create" button, a new step group with the selected test steps and the given name would be created.
+
+  If you click on the "Create and Replace" button, a new step group with the selected test steps and the given name would be created and the selected test steps would be replaced by the created step group.
+
+
+  Below is a gif demonstrating how the create and replace step-group functionality works:
+
+![GIF - create and replace stepgroup](https://s3.amazonaws.com/static-docs.testsigma.com/new_images/test-cases/step-types/step-group/gif-create-and-replace-stepgroup.gif)
+
 
 ---
 ##**Use Step Group in a Test Case**
