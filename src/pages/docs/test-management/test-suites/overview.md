@@ -39,25 +39,52 @@ On the Test Suites page, you will have the below options:
 
 1. **Search option on the top right:**  To search for a test suite by name, use this. The search will filter all the test suite names that contain your search query.
 
-![search-option-in-test-suites-page-in-Testsigma](https://s3.amazonaws.com/static-docs.testsigma.com/new_images/test-management/test-suites/overview/search-option-in-test-suites-page-in-Testsigma.png)
+![Search Option in Test Suites Page in Testsigma](https://s3.amazonaws.com/static-docs.testsigma.com/new_images/test-management/test-suites/overview/search-option-in-test-suites-page-in-testsigma-updated.png)
 
 2. **Create Button:** Click on the create button on the top right corner of the page to start creating a new Test Suite. We will discuss more on it under the section “Create Test Suite”.
  
-![search-option-in-test-suites-page-in-Testsigma](https://s3.amazonaws.com/static-docs.testsigma.com/new_images/test-management/test-suites/overview/search-option-in-test-suites-page-in-Testsigma.png)
+![Create button in nTest Suites Page in Testsigma](https://s3.amazonaws.com/static-docs.testsigma.com/new_images/test-management/test-suites/overview/create-button-in-test-suites-page-in-testsigma-updated.png)
 
-3. Click on the sort button—the button next to the create button—on the top right to sort the list of Test Suites according to your preference.
+3. **Sort:** Click on the sort button—the button next to the create button—on the top right to sort the list of Test Suites according to your preference.
 
-![sort option on Test Suites page on Testsigma](https://docs.testsigma.com/images/test-suites/sort-option-test-suites-page-testsigma.png)
+![sort option on Test Suites page on Testsigma](https://s3.amazonaws.com/static-docs.testsigma.com/new_images/test-management/test-suites/overview/sort-option-test-suites-page-testsigma-updated.png)
 
 You can sort the list Ascending or Descending based on the below fields
 
 * Name
   
 * Type
+
+* Status
   
 * Created Date
   
+* Updated Date<br>
+
+&emsp;
+
+4. **Filter:** Click on the filter button - the button next to sort button on the top right. A 'Filters' layover, as shown in the screenshot below, appears. 
+
+![Filters Layover in Test Suites Page in Testsigma](https://s3.amazonaws.com/static-docs.testsigma.com/new_images/test-management/test-suites/overview/filters-layover-test-suites-page-testsigma-updated.png)
+
+
+You can filter the Test Suites based on the below options:
+
+* Name
+
+* Test Case Name
+
+* Created By
+
+* Status
+
+* Created Date
+
 * Updated Date
+
+* Last Run Date
+
+* Labels 
 
 &emsp;
 4. **When you hover over a Test Suite Name, you will see options to Edit the Test Suite:** We will discuss this in detail in section “Edit Test Suite” Below.

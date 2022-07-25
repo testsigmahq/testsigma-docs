@@ -59,9 +59,12 @@ Let’s begin.
 
 3. When you click on the ‘Create’ button, a layout appears as shown below:
 
-![create-elements-page-in-Testsigma](https://s3.amazonaws.com/static-docs.testsigma.com/new_images/elements/web-apps/capture-single-element/create-elements-page-in-Testsigma.png)
+![create-elements-page-in-Testsigma](https://s3.amazonaws.com/static-docs.testsigma.com/new_images/elements/web-apps/capture-single-element/create-element-layover-updated.png)
 
-4. Make sure the radio button ‘Chrome Extension’ is selected
+Make sure the ‘Chrome Extension’ is installed. If not, you will be shown a message to "install chrome extension" in the layover above.
+
+4. Click on the 'Record Element' button.
+
 5. Go to a new tab and enter the URL from which you want to capture the single element. The Testsigma test recorder will appear and will be ready to start recording. For example, we opened a new tab and entered the URL for orangehrmlive.
 
 ![recording element on a page in Testsigma](https://docs.testsigma.com/images/capture-single-element/recording-single-element-in-testsigma.png)
@@ -77,9 +80,9 @@ Let’s begin.
 8. Now click on the ‘Done’ button on the ‘Record Elements’ window. 
 9. You will be taken back to the Elements page and the details will be filled in as also shown in the screenshot below:
 
-![Captured element from Testsigma chrome extension](https://docs.testsigma.com/images/capture-single-element/captured-element-chrome-extension-in-testsigma.png)
+![Captured element from Testsigma chrome extension](https://s3.amazonaws.com/static-docs.testsigma.com/new_images/elements/web-apps/capture-single-element/create-element-details-filled.png)
 
-10. You need to fill in the ‘Screen Name’ field and then click on the ‘Create’ button. The Single Element will be created successfully.
+10. Check all the options, and if all are as needed click on the ‘Create’ button. The Single Element will be created successfully.
 
 You can follow these steps to create elements while creating a test case. The Create Element Form will come up when you are creating a test step (from the test case, from results page).
 
@@ -106,15 +109,11 @@ You can follow these steps to create elements while creating a test case. The Cr
 
 4. On the step, click on the green text ‘element’, a layover will appear containing the elements in the project, as also shown in the screenshot below:
 
-![elements layover over a test case page in Testsigma](https://docs.testsigma.com/images/capture-single-element/elements-layover-over-test-case-page-testsigma.png)
+![elements layover over a test case page in Testsigma](https://s3.amazonaws.com/static-docs.testsigma.com/new_images/elements/web-apps/capture-single-element/select-element-create-element-layover.png)
 
-5. Here, if you want to add a Element that is not added already, then you can start typing a new name for it. If the name does not exist already, the option “NEW” will appear as also shown in the screenshot below:
+5. Here, if you want to add a Element that is not added already, then you can start typing a new name for it. If the name does not exist already, the option “NEW” will appear.
 
-![add new identifier with a new name on test case page in Testsigma](https://docs.testsigma.com/images/capture-single-element/add-new-identifier-with-new-name-test-case-page-testsigma.png)
-
-6.  Now click on the ‘NEW’ button, highlighted in the last step. ‘Create Element’ form will open up as also shown in the screenshot below:
-
-![create element form on test case page in Testsigma](https://docs.testsigma.com/images/capture-single-element/create-element-form-on-test-case-page-in-testsigma.png)
+6.  Now click on the ‘NEW’ button, highlighted in the last step. ‘Create Element’ form will open up.
 
 7. Now you can proceed with capturing a single element as we did in approach 1, from step 3.
 
@@ -134,26 +133,22 @@ You can follow these steps to create elements while creating a test case. The Cr
 
 ![test case results section highlighted on a test plan run details page in Testsigma](https://docs.testsigma.com/images/capture-single-element/test-case-results-section-highlighited-test-plan-run-testsigma.png)
 
-3. On the ‘Test Step Result Details’ page that opens, click on the test step that you want to edit. For the purpose of this article, you need to hover on the test step that has an Element and the one that you want to edit.
+3. On the ‘Test Step Result Details’ page that opens, click on the test step that you want to edit(Under the tab 'Test Steps(Current)'). For the purpose of this article, you need to hover on the test step that has an Element and the one that you want to edit.
 4. On hover, the edit button will appear:
 
-![edit button on hover over a test step in test results in Testsigma](https://docs.testsigma.com/images/capture-single-element/edit-button-on-hover-test-step-in-test-results-testsigma.png)
+![edit button on hover over a test step in test results in Testsigma](https://s3.amazonaws.com/static-docs.testsigma.com/new_images/elements/web-apps/capture-single-element/edit-test-step-test-case-result-page.png)
 
 Click on this edit button.
 
 5. On the edit interface that opens, click on the Element that you wanted to edit. In our case, we will click on ‘Username’.
+
 6. A layover will appear containing the elements in the project, as also shown in the screenshot below:
 
-![layover listing elements in project in Testsigma](https://docs.testsigma.com/images/capture-single-element/layover-listing-elements-in-project-in-testsigma.png)
+![layover listing elements in project in Testsigma](https://s3.amazonaws.com/static-docs.testsigma.com/new_images/elements/web-apps/capture-single-element/element-layover-test-case-result-page.png)
 
 
-7. Here, if you want to add a Element that is not added already, then you can start typing a new name for it. If the name does not exist already, the option “NEW” will appear as shown below:
+7. Here, if you want to add a Element that is not added already, then you can start typing a new name for it. If the name does not exist already, the option “NEW” will appear.
 
-![add new name identifier from result page in Testsigma](https://docs.testsigma.com/images/capture-single-element/add-new-name-identifier-from-result-page-in-testsigma.png)
-
-8. Now click on the ‘NEW’ button, highlighted in the last step. ‘Create Element’ form will open up:
-
-![create UI Identifier layover on a Test Case Result page in Testsigma](https://docs.testsigma.com/images/capture-single-element/create-ui-identifier-layover-test-case-result-testsigma.png)
-
+8. Now click on the ‘NEW’ button, highlighted in the last step. ‘Create Element’ form will open up.
 
 9. Now you can proceed with capturing a single element as we did in approach 1, from step 3.

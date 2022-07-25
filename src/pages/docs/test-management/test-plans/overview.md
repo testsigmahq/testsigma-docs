@@ -48,6 +48,51 @@ A sample Test Plans page list would look like this:
 
 ![Test Plans Page in Testsigma](https://docs.testsigma.com/images/test-plans/test-plans-page-testsigma.png)
 
+On the Test Plans page, you will have the below options:
+
+1. **Search option on the top right:**  To search for a test plan by name, use this. The search will filter all the test plan names that contain your search query.
+
+2. **Refresh Button:** Click on the refresh button on the top right corner of the page to reload the list of test plans being displayed.
+
+3. **+Test Plan Button:** Click on the "+Test Plan" button on the top right corner of the page to start creating a new Test Plan. We will discuss more on it under the section [Create Test Plan](https://testsigma.com/docs/test-management/test-plans/overview/#create-test-plan).
+ 
+4. **Sort:** Click on the sort button — the button next to the '+Test Plan' button—on the top right to sort the list of Test Plans according to your preference.
+
+![sort option on Test Plans page on Testsigma](https://s3.amazonaws.com/static-docs.testsigma.com/new_images/test-management/test-plans/overview/sort-option-test-plans-page-testsigma-updated.png)
+
+You can sort the list Ascending or Descending based on the below fields
+
+ * Name<br>
+ * Type<br>
+ * Status<br>
+ * Created Date<br>
+ * Updated Date<br>
+
+&emsp;
+
+5. **Filter:** Click on the filter button - the button next to sort button on the top right. A 'Filters' layover, as shown in the screenshot below, appears. 
+
+![Filters Layover in Test Plans Page in Testsigma](https://s3.amazonaws.com/static-docs.testsigma.com/new_images/test-management/test-plans/overview/filters-layover-test-plans-page-testsigma-updated.png)
+
+
+You can filter the Test Plans based on the below options:
+
+* Name
+
+* Test Case Name
+
+* Created By
+
+* Status
+
+* Created Date
+
+* Updated Date
+
+* Last Run Date
+
+* Labels 
+
 &emsp;
 
 ---
@@ -250,6 +295,15 @@ Here you can configure the actions for your test plan in case of failures mentio
   * All test cases
   
   * Only failed test cases
+
+If the test plan also has data-driven test cases. Then you would see  more options as below:
+
+&emsp;&emsp;* All Iterations: This will rerun all iterations on the data-sets for the failed test cases in the selected run
+&emsp;&emsp;* Failed Iterations: This will rerun all failed iterations on the data-sets for the failed test cases in the selected run.
+
+ ** * ** Only Failed Iterations in Failed Test Cases: This will rerun only the failed iterations for the failed test cases in the selected.
+
+
 
 8. Finally, click on the Create button to Create the Test Plan. You will be taken to the Created Test Plan page.
 

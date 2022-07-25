@@ -37,9 +37,20 @@ You should have some run results where some test cases have failed.
    ![rerun-button-run-results-testsigma](https://docs.testsigma.com/images/rerun/rerun-button-run-results-testsigma.png)
 5. Now click on the rerun button, you will see two options: 
 
-  **a.** ‘rerun failed test cases’: this will rerun the test cases that had failed in the selected run 
+  **a.** All Test Cases: this will rerun  all the test cases included in the selected run.
 
-  **b.** ‘rerun all test cases’: this will rerun all the test cases included in the selected run
+  **b.** All Failed Test Cases: this will rerun all the failed test cases  in the selected run.
+
+  If the failed test cases also had data-driven test cases that had test data profiles with multiple data sets. Then you would see  more options as below:
+
+![rerun options when data-driven test cases fail](https://s3.amazonaws.com/static-docs.testsigma.com/new_images/reports/runs/rerun/rerun-options-when-data-driven-test-cases-fail.png)
+
+&emsp;&emsp;i. All Iterations: This will rerun all iterations on the data-sets for the failed test cases in the selected run<br>
+&emsp;&emsp;ii. Failed Iterations: This will rerun all failed iterations on the data-sets for the failed test cases in the selected run.<br>
+
+ **c.** Only Failed Iterations in Failed Test Cases: This will rerun only the failed iterations for the failed test cases in the selected.<br>
+
+
 
  You can click on any of the two options depending on what test cases you want to rerun.
    

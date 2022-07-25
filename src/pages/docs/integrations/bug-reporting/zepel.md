@@ -60,6 +60,9 @@ We can create a bug within Testsigma from the run results page for a particular 
 
 ![Sample Task reported from Testsigma Bug Reporting Integration in Test Results page](https://docs.testsigma.com/images/zepel/plugins-create-zepel-bug-form-filled.png)
 
+[[info | NOTE:]]
+|Only the bug reporting tools that have been enabled via the plugins page (add link) will be displayed here.
+
 If you want to link to an existing issue on Zepel, click on the **Link to Issue** button, search for an existing issue in the search field and click on Link Issue to add a link to an existing Issue on Zepel. Otherwise, enter the bug details in the form as required.
 
  4. Click on Create to create the Bug.

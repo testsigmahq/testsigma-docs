@@ -119,12 +119,17 @@ https://docs.testsigma.com/images/step-group/click-on-test-step-type-menu.png)
 
 ![click on test step type step group](https://docs.testsigma.com/images/step-group/click-on-test-step-type-step-group.png)
 
- * From the list of step groups, choose whichever group you need. In this case, we have only created one step group and hence only one is visible in the drop-down
+ * From the list of step groups, choose whichever group you need. In this case, we have only created one step group and hence only one is visible in the drop-down.
+
+ * Once you have selected the step group, the step group description and link would be visible too. As shown in the screenshot below:
+
+ ![step group description after selection](https://s3.amazonaws.com/static-docs.testsigma.com/new_images/test-cases/step-types/step-group/step-group-description-after-selection.png)
+
  * Now you are ready to use the step group in your test case
 
 &emsp;
 
-Observe the image below to understand how to create a step group.
+Observe the gif below to understand how to create a step group.
 
 ![ gif showing how to create step group](https://s3.amazonaws.com/static-docs.testsigma.com/new_images/test-cases/step-types/step-group/gif-create-step-group.gif)
 
@@ -135,7 +140,7 @@ Observe the image below to understand how to create a step group.
 Just like data-driven test cases, we now also support creating Data-Driven Step groups which can be utilized like standard components across test cases 
 
   1. When creating a Step Group, simply let Testsigma know that the step group is data-driven, which Test Data Profile you want to use, and the iterations you intend to use in this step group.
-     ![Data Driven Step Group](https://docs.testsigma.com/images/step-group/step-group-data-driven.png)
+     ![Data Driven Step Group](https://s3.amazonaws.com/static-docs.testsigma.com/new_images/test-cases/step-types/step-group/data-driven-step-group-updated.png)
   2. Now that add the NLP steps where you want to iterate through the Test Data Profiles in the test case just like you would for a Data-Driven Test Case
      <br/>In our example here - We are iteration over multiple Mobile Phone numbers and emails
      ![Data Driven Step Group Details](https://docs.testsigma.com/images/step-group/step-group-details.png)
@@ -164,7 +169,7 @@ Just like data-driven test cases, we now also support creating Data-Driven Step 
   **Runtime_TestData_Set_End**
 
   1. When creating a Data-Driven Step Group ensure you select the option “Overwrite Test Data Set with Runtime Variable” like in the image below
-     ![Control Step Group Data Driven with runtime data](https://docs.testsigma.com/images/step-group/step-group-runtime-data.png)
+     ![Control Step Group Data Driven with runtime data](https://s3.amazonaws.com/static-docs.testsigma.com/new_images/test-cases/step-types/step-group/step-group-runtime-data-updated.png)
   2. Use the *store NLP* instructions to assign set names to the _RunTime_TestData_Set_Start = Set Name to START iteration from [Case Sensitive]_
      <br/>Use the *store NLP* instructions to assign set names to the _RunTime_TestData_Set_End = Set Name to END iteration from [Case Sensitive]_
      ![Store NLP to control Step Group Data Driven](https://docs.testsigma.com/images/step-group/step-group-store-run-time-data.png)

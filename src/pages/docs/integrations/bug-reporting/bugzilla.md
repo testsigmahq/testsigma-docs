@@ -56,7 +56,10 @@ We can create a bug within Testsigma from the run results page for a particular 
 
   ![report bug button on the run test case page for run results](https://docs.testsigma.com/images/bugzilla/run-results-test-case-page-report-bug-button-bugzilla.png)
 
-  3. Choose Bugzilla to reveal the Create Issue form as shown below:
+  3. Choose Bugzilla to reveal the Create Issue form.
+
+[[info | NOTE:]]
+|Only the bug reporting tools that have been enabled via the plugins page (add link) will be displayed here.
 
 If you want to link to an existing issue on Bugzilla, click on the **Link to Issue** button, search for an existing issue in the search field and click on Link Issue to add a link to an existing Issue on Bugzilla. Otherwise, enter the bug details in the form as required.
 
