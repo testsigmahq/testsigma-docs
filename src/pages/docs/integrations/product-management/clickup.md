@@ -54,6 +54,9 @@ We can create a bug within Testsigma from the run results page for a particular 
 
 3. Choose Clickuup and enter the detailed information of your bug.
 
+[[info | NOTE:]]
+|Only the bug reporting tools that have been enabled via the plugins page (add link) will be displayed here.
+
 If you want to link to an existing issue on Clickup, click on the Link to Issue button, search for an existing issue in the search field and click on Link Issue to add a link to an existing Issue on Clickup. Otherwise, enter the bug details in the form as required.
 
 4. Click on Create to create the Bug.

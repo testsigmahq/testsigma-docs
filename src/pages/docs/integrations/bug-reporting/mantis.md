@@ -62,6 +62,9 @@ We can create a bug within Testsigma from the run results page for a particular 
   
   ![Sample Task reported from Testsigma Bug Reporting Integration in Test Results pag](https://docs.testsigma.com/images/mantis/placeholder-image.png)
 
+[[info | NOTE:]]
+|Only the bug reporting tools that have been enabled via the plugins page (add link) will be displayed here.
+
   If you want to link to an existing issue on Mantis,
   click on the **Link to Issue** button, search for an existing issue in the search field and click on Link Issue to add a link to an existing Issue on Mantis. Otherwise, enter the bug details in the form as required.
 

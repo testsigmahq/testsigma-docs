@@ -121,10 +121,10 @@ For example, in the case of an e-commerce shopping website, the test case **Add 
 
 &emsp;
 
+**Labels**: You can assign existing tags to the Test Cases or create new tags.
+
 **Test Data Profile**: Select the Test Data profile to be used in the Test Case. This is required only if you are going to use parameter type test data in your Test Steps.
 Learn [How to create a Test Data Profile](https://testsigma.com/docs/test-data/create-data-profiles/)
-
-**Labels**: You can assign existing tags to the Test Cases or create new tags.
 
 **Data-Driven (toggle)**: Enable this if you want to run the same test case repeatedly, each time with a different set of data for the input fields. You will need to add a Test Data Profile before enabling this option.
 

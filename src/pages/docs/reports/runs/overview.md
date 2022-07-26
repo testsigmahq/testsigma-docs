@@ -26,15 +26,50 @@ Simply navigate to the “Test Development” > “Run Results” page
 ---
 ##**What can you do on the Run Results page**
 
-1. Observe results for all Test Plan executions
+1. Observe results for all Test Plan executions: Search, Sort & Filter
+
+&emsp;&emsp;a. **Search option on the top right:**  To search for a run result by name, use this. The search will filter all the run results names that contain your search query.
+
+&emsp;&emsp;b. **Sort:** Click on the sort button — the button next to the search button on the top right to sort the list of Run Results according to your preference.
+
+![sort option on Run Results page on Testsigma](https://s3.amazonaws.com/static-docs.testsigma.com/new_images/reports/runs/overview/sort-option-run-results-page-testsigma-updated.png)
+
+You can sort the list Ascending or Descending based on the below fields
+
+* Name
+  
+* Test Lab/Type
+  
+* Created Date
+  
+* Updated Date
+
+* Last Run
+
+&emsp;&emsp;c. **Filter:** Click on the filter button - the button next to sort button on the top right. A 'Filters' layover, as shown in the screenshot below, appears. 
+
+![Filters Layover in Run Results Page in Testsigma](https://s3.amazonaws.com/static-docs.testsigma.com/new_images/reports/runs/overview/filters-layover-run-results-page-testsigma-updated.png)
+
+
+You can filter the Test Plans based on the below options:
+
+* Name
+
+* Created By
+
+* Status
+
+* Created Date
+
+* Updated Date
+
+* Last Run Date
+
+* Labels 
+
 2. Drill down to test case / test suite / test machine level reports 
 3. Understand reasons for failure
 4. Note downtime for each execution
-
-
-Here is a gif that gives an overview of the test run results:
-
-![gif demonstrating test run results in Testsigma](https://s3.amazonaws.com/static-docs.testsigma.com/new_images/reports/runs/overview/gif-test-run-results.gif)
 
 
 ---

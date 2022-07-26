@@ -37,12 +37,9 @@ Here we will be capturing multiple elements via the Elements page. Learn more ab
 ![record button on All Elements page in Testsigma](https://docs.testsigma.com/images/record-multiple-elements/record-button-all-elements-page-testsigma.png)
 
 
-3. When you click on the ‘Record’ button, a message will appear asking you to click on ‘Start Recording’ and then open the web browser page you want to capture the UI elements from.
+3. When you click on the ‘Record’ button, a new tab will open. 
 
-![start recording message in Testsigma](https://docs.testsigma.com/images/record-multiple-elements/start-recording-message-testsigma.png)
-
-4. Click on the ‘Record’ button above.
-5. Go to a new tab and enter the URL from which you want to capture the elements. For example, we opened a new tab and entered the URL for orangehrmlive.
+4. Enter the URL from which you want to capture the elements. For example, we opened a new tab and entered the URL for orangehrmlive.
 
 ![record Elements start recording in Testsigma](https://docs.testsigma.com/images/record-multiple-elements/record-elements-start-recording-testsigma.png)
 

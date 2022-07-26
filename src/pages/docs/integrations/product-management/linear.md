@@ -56,6 +56,9 @@ We can create a bug within Testsigma from the run results page for a particular 
 
 ![report a bug on linear tool](https://s3.amazonaws.com/static-docs.testsigma.com/new_images/integrations/product-management/linear/choose-linear-enter-bug-details.png)
 
+[[info | NOTE:]]
+|Only the bug reporting tools that have been enabled via the plugins page (add link) will be displayed here.
+
 
 If you want to link to an existing issue on Linear, click on the Link to Issue button, search for an existing issue in the search field and click on Link Issue to add a link to an existing Issue on Linear. Otherwise, enter the bug details in the form as required.
 

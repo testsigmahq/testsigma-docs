@@ -45,7 +45,7 @@ At the step that has failed, find visual proof. Here’s how:
    
 2. Verify Video at the specific time (if available).
    
-3. Verify the Logs (Selenium Logs, Network logs, console logs) at the specified time.
+3. Verify the Logs (Selenium Logs, Network logs, console logs) at the specified time. The Network logs are available for web apps. The Network logs are also available for native apps when they are executed via Browserstack Test Lab.
    
 4. Verify error message.
 

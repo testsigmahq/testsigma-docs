@@ -69,7 +69,10 @@ We can create a bug within Testsigma from the run results page for a particular 
 
  3. Choose Freshrelease and enter information about your bug.
 
-  ![Sample Task reported from Testsigma Bug Reporting Integration in Test Results page ](https://docs.testsigma.com/images/freshrelease/plugins-create-freshrelease-bug-form-filled.png)
+![Sample Task reported from Testsigma Bug Reporting Integration in Test Results page ](https://docs.testsigma.com/images/freshrelease/plugins-create-freshrelease-bug-form-filled.png)
+
+[[info | NOTE:]]
+|Only the bug reporting tools that have been enabled via the plugins page (add link) will be displayed here.
 
  If you want to link to an existing issue on Freshrelease, click on the **Link to Issue** button, search for an existing issue in the search field and click on Link Issue to add a link to an existing Issue on Freshrelease. Otherwise, enter the bug details in the form as required.
 
