@@ -301,9 +301,9 @@ If the test plan also has data-driven test cases. Then you would see  more optio
 &emsp;&emsp;* All Iterations: This will rerun all iterations on the data-sets for the failed test cases in the selected run
 &emsp;&emsp;* Failed Iterations: This will rerun all failed iterations on the data-sets for the failed test cases in the selected run.
 
- ** * ** Only Failed Iterations in Failed Test Cases: This will rerun only the failed iterations for the failed test cases in the selected.
+ * Only Failed Iterations in Failed Test Cases: This will rerun only the failed iterations for the failed test cases in the selected.
 
-
+&emsp;
 
 8. Finally, click on the Create button to Create the Test Plan. You will be taken to the Created Test Plan page.
 

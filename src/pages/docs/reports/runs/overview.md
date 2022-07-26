@@ -34,38 +34,40 @@ Simply navigate to the “Test Development” > “Run Results” page
 
 ![sort option on Run Results page on Testsigma](https://s3.amazonaws.com/static-docs.testsigma.com/new_images/reports/runs/overview/sort-option-run-results-page-testsigma-updated.png)
 
-You can sort the list Ascending or Descending based on the below fields
+&emsp;&emsp;You can sort the list Ascending or Descending based on the below fields
 
-* Name
+&emsp;&emsp;* Name
   
-* Test Lab/Type
+&emsp;&emsp;* Test Lab/Type
   
-* Created Date
+&emsp;&emsp;* Created Date
   
-* Updated Date
+&emsp;&emsp;* Updated Date
 
-* Last Run
+&emsp;&emsp;* Last Run
 
 &emsp;&emsp;c. **Filter:** Click on the filter button - the button next to sort button on the top right. A 'Filters' layover, as shown in the screenshot below, appears. 
 
 ![Filters Layover in Run Results Page in Testsigma](https://s3.amazonaws.com/static-docs.testsigma.com/new_images/reports/runs/overview/filters-layover-run-results-page-testsigma-updated.png)
 
 
-You can filter the Test Plans based on the below options:
+&emsp;&emsp;You can filter the Test Plans based on the below options:
 
-* Name
+&emsp;&emsp;* Name
 
-* Created By
+&emsp;&emsp;* Created By
 
-* Status
+&emsp;&emsp;* Status
 
-* Created Date
+&emsp;&emsp;* Created Date
 
-* Updated Date
+&emsp;&emsp;* Updated Date
 
-* Last Run Date
+&emsp;&emsp;* Last Run Date
 
-* Labels 
+&emsp;&emsp;* Labels 
+
+&emsp;
 
 2. Drill down to test case / test suite / test machine level reports 
 3. Understand reasons for failure
