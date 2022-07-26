@@ -52,5 +52,5 @@ You should have some run results where some test cases have failed.
 
 
 
- You can click on any of the two options depending on what test cases you want to rerun.
+ You can click on any of the given options depending on what test cases you want to rerun.
    
