@@ -80,6 +80,9 @@ To enable network throttling:
 
 <li>Click on the text field. It will give you a dropdown list of several options.</li>
 <li>Select the option, simulate network to <var>upload_speed</var> <strong>upload speed(kbps)</strong> <var>download_speed</var>    <strong>download speed(kbps)</strong> <var>latency_time</var> <strong>latency(ms)</strong>.</li>
+
+![Simulate-network-throttling-step](https://s3.amazonaws.com/static-docs.testsigma.com/new_images/desired-capabilities/network-throttling/simulate-network-throttling-step.png)
+
 <li>Remove the parameters <var>upload_speed</var>, <var>download_speed</var>, and <var>latency_time</var> and enter the appropriate values. <em>For more information on the parameter values of different network profiles, refer to the table above.</em></li>
 <li>Click <strong>Create</strong>.<br>
 You have now added the network throttling feature to your test case. With network throttling, you can change your network profile to test the functionality of your test cases while exposed to different network environments.
