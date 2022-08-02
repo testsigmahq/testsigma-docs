@@ -1,5 +1,5 @@
 ---
-title: "Testsigma Agent not detecting Local Devices for Mobile Test Recorder"
+title: "Testsigma Agent not detecting local devices for mobile test recorder"
 page_title: " Troubleshooting “Testsigma Agent not detecting Local Devices for Mobile Test Recorder” error"
 metadesc: "See why Testsigma Agent may  not be detecting Local Devices for Mobile Test Recorder."
 noindex: false
@@ -10,66 +10,92 @@ contextual_links:
 - type: section
   name: "Contents"
 - type: link
-  name: "Enable USB debugging mode in your Mobile devices"
-  url: "#enable-usb-debugging-mode-in-your-mobile-devices"
+  name: "Causes"
+  url: "#Causes"
 - type: link
-  name: "Verify that your system recognizes a Device using ADB"
-  url: "#verify-that-your-system-recognizes-a-device-using-adb-android-debug-bridge"
+  name: "Android device"
+  url: "#Android-device"
+- type: link
+  name: "iOS device"
+  url: "#iOS-device"
 
 ---
 
 ---
 
-Testsigma Agent may be unable to detect your local mobile devices for Test Recorder for the following reasons:
-1. Testsigma agent is not up to date.
-2. The cable connection with the laptop you are using is poor.
-3. The USB port connecting to your device is not working. (In this case you should try to change the USB port)
-4. If your device is connected via WIFI, WIFI strength is poor.
+This article provides methods to solve the error “Testsigma agent not detecting local devices for mobile test recorder” for Android and iOS devices.
 
+## **Causes**
 
-You will also need to make sure that:
-1. **Developer options** in your mobile device is enabled.
-2. **USB debugging** mode is enabled.
-3. **ADB** recognizes the device connected to the system.
-4. Changing the desired capabilities as per device/application.
+Testsigma agent may be unable to detect your local mobile device for the test recorder for the following reasons:
+<ul>
 
-<br>
+<li>Testsigma agent is not up-to-date. For more information on updating Testsigma agent, 
+<a href="https://testsigma.com/docs/agent/update-agent-manually">updating Testsigma agent manually</a>.
+</li>
 
+<li>Damaged or faulty USB ports or cables (in this case, you should try to change the USB port or cable).</li>
+<li>A weak Wi-Fi signal, if your device is connected via Wi-Fi.</li>
+</ul>
 
----
-##**Enable USB debugging mode in your Mobile devices**
+## **Android device**
 
-Enable Developer Options
-1. Navigate to the Settings app on the phone.
-2. Scroll down and click on the Developer Options
-3. Turn on the Developer Options and click USB Debugging
+For Android device, before troubleshooting you will need to make sure of the following:
+<ul>
+<li>Developer options and USB debugging are enabled. <em>For more information on enabling developer options and USB debugging, refer to <a href="https://testsigma.com/docs/agent/connect-android-local-devices/">setting up local Android device</a>.
+</em></li>
+<li>Android Debug Bridge (ADB) fails to recognize the device connected to the system. <em>To verify if ADB recognizes your device, refer to the section below (ADB does not recognize the device connected to the system).</em></li>
+<li>Desired capabilities are modified as per device or application. <em>For more information on desired capabilities, refer to <a href="https://testsigma.com/docs/desired-capabilities/overview/">desired capabilities</a> and a <a href="https://testsigma.com/docs/desired-capabilities/most-common/">list of desired capabilities</a>.</em></li>
+</ul>
 
-Some devices do not have “Developer Options” under Settings. In such cases, follow these steps:
+### **ADB does not recognize the device connected to the system**
 
-1. Navigate to Settings > About Phone > Build Number 
-2. Tap on Build number 7 times. Apop-up will appear saying ‘You are now a developer.’
-3. Go back to settings. You will find ‘Developer Options’ listed there.
-4. Enable ‘USB Debugging’ and now the device is ready to connect to the system
-5. Once done, you will now be able to enable/disable it whenever you desire by going to Settings > Developer Options > Debugging > USB debugging
+To verify if the ADB interface does not recognize your Android device, follow the below steps:
 
-<br>
+* Navigate to the folder containing ADB and open the command prompt. From the command line, type`adb devices`.If connected, you will see the list of devices attached. If the device is connected successfully, the response would be as shown in the figure below:</li>
 
+![adb devices command execution](https://docs.testsigma.com/images/mobile-device-not-displayed-recorder/adb-devices-command-execution.png) where `AVY9KA90322022030`is the device ID.
 
----
-##**Verify that your system recognizes a Device using ADB (Android Debug Bridge)**
+* If your device is not displayed in the response, it indicates a hardware or communication problem between Android and your PC. Follow the below steps to troubleshoot the issue.
 
-Verify if the system is able to recognize the device:
-1. Open Command Prompt.
-2. Type ‘adb devices’.
-3. Press Enter.
 
 [[info | NOTE:]]
-|You need to make sure that the Android SDK is installed in your system and its environment path is set before running the ADB command.
+|We need to make sure that the Android SDK is installed in the system and its environment path is set, before running the ADB command.
 
-The device name should be listed in the response. If only one device is attached, the name of that device will be listed. For instance, ‘AVY9KA90322022030’.
+### **How to troubleshoot**
+<ol>
+<li>Restart your Android device.</li>
+<li>If restarting does not resolve the issue, then try the following: 
+     <ol type="a">
+     <li>On your device, turn off USB debugging and then turn it back on again.</li>
+     <li>Plug the USB cable into a different USB port on your computer.</li>
+     <li>Unplug or replug the USB cable from your Android device. Ensure that the USB cable fits tightly into your Android device’s USB port, then try syncing again.</li>
+     <li>Try replacing the USB cable with one that fits more tightly into your Android device's USB port.</li>
+     </ol>
+</ol>
 
-This command displays all devices connected to the system at a time. If the device is not displayed in the response, then there might be some issue with the device connection or the USB debugging mode may not be enabled.
 
-![adb devices command execution](https://docs.testsigma.com/images/mobile-device-not-displayed-recorder/adb-devices-command-execution.png)
+##  **iOS device**
 
-If the issue persists, [connect with Testsigma Support on Discord](https://discord.com/invite/5caWS7R6QX) or reach out to support@testsigma.com. 
+For iOS devices follow the below steps to resolve the issue.
+
+### **How to troubleshoot**
+
+<ol>
+<li>Turn off the iOS device.</li>
+<li>Turn off the Testsigma agent.</li>
+<li>Open <strong>Task Manager</strong> on your computer, and terminate the following applications or processes:
+<ol>
+<li>NodeJS</li>
+<li>tidevice</li></ol>
+</li>
+<li>Delete Testsigma agent logs. <em>For more information on locating agent logs, refer to <a href="https://testsigma.com/docs/agent/troubleshooting/logs/">fetching agent test logs</a>.</em>
+</li>
+<li>Restart the Testsigma agent.</li>
+<li>Restart the iOS device and connect it to your computer.</li>
+<li>If the iOS device does not appear on the list of connected devices, connect the device with a different USB port on your computer.</li>
+</ol>
+
+If the above troubleshooting steps did not help and the issue persists, [connect with Testsigma Support on Discord](https://discord.com/invite/5caWS7R6QX) or reach out to s     [support@testsigma.com](mailto:support@testsigma.com).
+
+---
