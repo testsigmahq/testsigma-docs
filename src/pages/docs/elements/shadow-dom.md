@@ -1,73 +1,67 @@
 ---
-title: "Element List Actions"
-metadesc: "Actions you can perform in the Elements List View, such as search, sort and filter."
+title: "Locating elements in shadow DOM with Testsigma"
+metadesc: "How to locate shadow DOM elements with testsigma."
 noindex: false
-order: 6.11
-page_id: "Element List Actions"
+order: 6.47
+page_id: "Shadow DOM"
 warning: false
 contextual_links:
 - type: section
   name: "Contents"
 - type: link
-  name: "Affected List"
-  url: "#affected-list "
-- type: link
-  name: "Sort Elements"
-  url: "#sort-elements-elements-sort"
-- type: link
-  name: "Filter Elements"
-  url: "#filter-elements"
----
+  name: "Locate shadow DOM elements "
+  url: "#locate-shadow-DOM-elements "
 
 ---
 
-Elements Repository is a shared list that contains all the elements created in a specific Application Version. All the Test Cases within the Application Version can use these elements in their Test Steps.
-
-<br>
-
 ---
-##**Affected List**
-The affected List column in the Elements page shows the Test Cases that will be affected by modification on the corresponding element.
+<em>Document object model (DOM)</em> is an API that represents the content of HTML or XML document as a tree structure.
+<em>Shadow DOM</em> provides a way to attach a hidden DOM to a DOM element of your choice, with local styles and markup detached from the rest of the web page. This helps web developers in better encapsulating their code.
+But this also poses a challenge for automation testing, because elements inside a shadow root technically doesn’t exist in the main DOM. And finding the right elements is a critical requirement when creating automation test cases. Failure to identify them may result in less reliable tests.
 
-The Test Suites and the Test Plans containing these Test Cases can also be viewed from this page.
+![Shadow DOM diagram](https://s3.amazonaws.com/static-docs.testsigma.com/new_images/elements/shadow-dom/Shadow_dom_diagram.png)
 
-<br>
+## **Locate shadow DOM elements**
 
----
-##**Sort Elements $elements-sort**
-The Elements list can be sorted on the basis of Name, Created Date, and Update Date in ascending or descending order.
+In this section, we demonstrate how to locate shadow DOM elements with Testsigma for creating test cases.
 
-![Sort-Elements](https://s3.amazonaws.com/static-docs.testsigma.com/new_images/elements/overview/Sort-Elements.png)
+We are using the shopping website [shop.polymer-project](https://shop.polymer-project.org/) for our demo.
 
+1. On the website, navigate to the child object or the element you want to interact.
 
----
-##**Filter Elements**
-To filter Elements, click on the Filter icon on the top left corner of the Elements List page. In the overlay that opens up, you can see the following options for filtering the Elements:
-* Name
-* Type
-* Screen name
-* Created By
-* Created Date
-* Updated Date
-* Value
-* Labels
-* Usage in Test Case
+2. **Right click > inspect**. The Chrome developer tool opens and highlights its elements.
 
-![Element-List-Filters-overlay](https://s3.amazonaws.com/static-docs.testsigma.com/new_images/elements/overview/Element-List-Filters-overlay.png)
+![Inspect shadow DOM element](https://s3.amazonaws.com/static-docs.testsigma.com/new_images/elements/shadow-dom/shadow_dom_inspect.png)
 
-* Name: Filter the Elements by their Name. This can be used to search Elements by name as well.
-* Type: Filter the Elements on the basis of locator type
-* Screen name: Filter by Screen name of the Element
-* Created By: Filter by the creator of Element
-* Created Date, Updated Date: Filter by created and updated dates
-* Value: Filter the Elements by their locator value. This can be used to search Elements by their locator value as well.
-* Labels: Filter by the tag/label for an element
-* Usage in Test Cases: Filter on the basis of the Element’s usage in Test Cases - Used, unused, or all.
+3.  Right click on the element. Select **Copy> Copy selector**. Save the value for future use.
 
-Modify the filtering options and click on the Filter button to filter the list. 
-When you click on the Filter button, the Elements list would be filtered as per your selected filtering options. If you want to filter more, make changes to the filtering options and click on Filter again.
-Click on the Close button to get to the filtered list.
+![Inspect shadow DOM element](https://s3.amazonaws.com/static-docs.testsigma.com/new_images/elements/shadow-dom/inspect_shadow_dom.png)
 
-Saving and updating Element Filters work the same as Test Case Filters. Refer to the [Test Case Filters](https://testsigma.com/docs/test-cases/manage/filters/) article to learn more about Filter Actions.
+![Copy CSS selector of DOM element](https://s3.amazonaws.com/static-docs.testsigma.com/new_images/elements/shadow-dom/copy_selector_shadow_dom.png)
 
+4. Now identify all the shadow host elements of the same shadow DOM element upto its shadow root element.
+
+5. Copy the value of each of the shadow host elements in the method described in the previous step. Save the values for future use.
+
+6. Now return to the Testsigma UI, to define the properties of the shadow DOM element on the **Create Element** window. *For more information on how to define elements manually, refer to [Creating elements manually](https://testsigma.com/docs/elements/web-apps/create-manually/)*.
+
+7. On the **Create Element** window, provide the following details:
+    1. Name
+    2. Screen Name
+
+8. Under the element type, select **CSS selector** from the drop-down menu. This is because Only CSS selector can access elements present inside shadow DOM.
+
+9. Paste the value of the CSS selector of the shadow DOM element in the **Enter the value** textbox.
+
+10. Select the checkbox **Present inside Shadow DOM**.
+
+![create element window](https://s3.amazonaws.com/static-docs.testsigma.com/new_images/elements/shadow-dom/create_elements_shadow_dom.png)
+
+11. Now specify CSS Selector value of each the shadow host elements identified in *Step 5* from parent host to current host in order.
+
+![specify shadow host elements](https://s3.amazonaws.com/static-docs.testsigma.com/new_images/elements/shadow-dom/CSs_selectors_specified.png)
+
+12. Click **Create**.
+
+13. Run the test case to verify if element is identified correctly.
 
