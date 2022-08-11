@@ -12,6 +12,9 @@ contextual_links:
   name: "Create a Step Group"
   url: "#create-a-step-group"
 - type: link
+  name: "Edit a Step Group"
+  url: "#edit-a-step-group"
+- type: link
   name: "Use Step Group in a Test Case"
   url: "#use-step-group-in-a-test-case"
 - type: link
@@ -70,6 +73,51 @@ https://docs.testsigma.com/images/step-group/click-create-step-group-button.png)
 ![add steps to step group](https://docs.testsigma.com/images/step-group/add-steps-to-step-group.png)
 
  * And now you will have a Step Group ready to use
+
+&emsp;
+
+---
+##**Edit A Step Group**
+
+**To edit a step group, universally, for all test cases:**
+
+1. Navigate to Test Development > Test Cases > Step Groups
+2. Click on the Step Group you want to edit
+3. Now you can make the changes you want to the step group. The changes will be reflected in all the test cases that use the step group. 
+
+The number of test cases impacted by the changes in a step group will be visible on the step group page, for example, in the screenshot below, any change in the step group will impact 2 test cases: 
+
+![the number of test cases impacted by a change in the step group](https://s3.amazonaws.com/static-docs.testsigma.com/new_images/test-cases/step-types/step-group/step-group-edit-impacts-test-cases.png)
+
+**To edit a step group for a specific test case:**
+
+1. Navigate to Test Development > Test Cases
+2. Click on the specific test case for which you want to edit the step group.
+3. Inside the test case, go to the step group you want to edit.
+1. You can spot edit any element being used in the step group. To spot edit, follow below steps. 
+
+
+&emsp;&emsp;i. Click on the test data or the element that needs to be changed.
+<br>&emsp;&emsp;ii. The required field should become editable.
+<br>&emsp;&emsp;iii. Do the changes inline.
+<br>&emsp;&emsp;iv. Click outside the step.
+<br>&emsp;&emsp;v. The change should be saved.
+
+
+<br>Alternatively, refer the attached gif to see the changes:
+
+![element spot edit in a step group](https://s3.amazonaws.com/static-docs.testsigma.com/new_images/test-cases/step-types/step-group/step-group-element-spot-edit.gif)
+
+**To edit the test data profile associated with a for loop in a step group**
+
+1. Navigate to Test Development > Test Cases
+2. Click on the specific test case for which you want to edit the step group.
+3. Inside the test case, go to the step group you want to edit.
+4. Inside the step group, go to the for loop for which you want to edit the associated test data profile.
+5. Click on edit button corresponding to the for loop and change the associated  test data profile. For example, as also can be seen in the below gif: 
+
+![edit the test data profile associated with a for loop in a step group](https://s3.amazonaws.com/static-docs.testsigma.com/new_images/test-cases/step-types/step-group/edit-step-group-for-loop-tdp-gif.gif)
+
 
 &emsp;
 

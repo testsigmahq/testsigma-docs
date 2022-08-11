@@ -62,6 +62,42 @@ And if above option is enabled, there will be an option to enable/disable this f
 
 ![New Test Plan UI - run test cases in parallel on test suite](https://s3.amazonaws.com/static-docs.testsigma.com/new_images/test-management/test-plans/run-tests-in-parallel/new-test-plan-ui-run-test-cases-in-parallel-on-test-suite.png)
 
+
+
+In case of an Android, iOS or a mobile web application - when you add a new machine for a test suite, by default - the test cases will run in parallel. The number of test cases that run in parallel will depend on the license you have. You can change this configuration from the “Add Machine” layover by going to the settings icon and unchecking the “Run Test cases inside the Test Suite in Parallel” checkbox. The checkbox is also highlighted in the screenshot below.
+
+![The checkbox on the Add Machine Layover to run test cases inside a test case in parallel](https://s3.amazonaws.com/static-docs.testsigma.com/new_images/test-management/test-plans/run-tests-in-parallel/add-test-machine-checkbox-run-test-cases-inside-the-test-suite-in-parallel.png)
+
+Again, specifically in the case of an Android, iOS or a mobile web application, if you see that a machine does not get triggered (could be because of unavailability) for execution then you can add backup devices. These backup devices would be launched for test execution if the original device is not triggered successfully. The steps to add(link)/delete(link)/edit(link) a backup device are as below:
+
+**Add a backup device**
+1. Select a Test suite
+2. Add a Test Machine corresponding to the selected Test Suite
+3. On the “Add Machine/Device” layover, click on the “Add backup devices” button, the button is highlighted in the screenshot below:
+
+![add backup device button on the Add Machine Layover](https://s3.amazonaws.com/static-docs.testsigma.com/new_images/test-management/test-plans/run-tests-in-parallel/add-test-machine-add-backup-device-button.png)
+
+4. Select the OS Version, Device Name for the added backup device
+5. Fill in any other needed details and click on *Create*
+
+[[info | Note:]]
+|If your test case was configured for visual testing and the test was executed on a backup device, then the visual test execution will report the differences accordingly.
+
+Alternatively, below is a gif demonstrating the workflow to add a backup device for test execution for an Android, iOS or a mobile web application:
+
+![gif demonstrating how to add a backup device to a test machine](https://s3.amazonaws.com/static-docs.testsigma.com/new_images/test-management/test-plans/run-tests-in-parallel/add-test-machine-add-back-up-device-gif.gif)
+
+**Edit a backup device**
+1. Go to the Test Machine, corresponding to which you want to edit the backup device.
+2. Edit the needed configuration for the backup device - OS Version/Device Name/Browser
+3. Click on Update
+
+**Delete a backup device**
+1. Go to the Test Machine, corresponding to which you want to delete the backup device. You can do this by click on the edit button corresponding to the Test Machine.
+2. On the "Add Machine/Device" layover that appears, click on the Delete button corresponding to the device that you want to delete. The delete button corresponding to a backup device is highlighted for your reference in the screenshot below:
+
+![Button to delete an added backup device for a test machine](https://s3.amazonaws.com/static-docs.testsigma.com/new_images/test-management/test-plans/run-tests-in-parallel/add-test-machine-delete-backup-device-button.png)
+
 ---
 
 ## **Configure tests to run in parallel while creating a new Test Plan via the Classic UI**
