@@ -65,6 +65,9 @@
   "step-group": {
     "/docs/test-cases/step-types/step-group/": "Type: Step Group"
   },
+  "block": {
+    "/docs/test-cases/step-types/block/": "Type: Block"
+  },
   "rest-api": {
     "/docs/test-cases/step-types/rest-api/": "Type: REST API",
     "/docs/continuous-integration/rest-api/": "REST API(Generic)"

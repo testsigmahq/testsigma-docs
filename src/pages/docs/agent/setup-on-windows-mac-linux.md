@@ -154,7 +154,10 @@ Next, you will have to register the agent. To Register the agent, refer to the s
 2. Navigate to the Testsigma Agent installation folder
 3. Inside the Testsigma Agent installation folder, go to the wrapper folder.
 4. Inside the wrapper folder, go to the bin folder. 
-5. Inside the bin folder, you can start the Testsigma Agent as a service by giving the command - `TestsigmaAgent start`
+5. If you want to install the agent as a service, do that by giving the command `TestsigmaAgent install`
+[[info | NOTE:]]
+|At present, the option to install Testsigma Agent to start automatically when system boots is only supported for windows.
+6. Inside the bin folder, you can start the Testsigma Agent as a service by giving the command - `TestsigmaAgent start`
 
 
 To stop the service started above, you can run the command `TestsigmaAgent stop` from the same location 
@@ -175,8 +178,7 @@ remove       Uninstall.
 dump         Request a Java thread dump if running.
 ```
 
-[[info | NOTE:]]
-|At present, the option to install Testsigma Agent to start automatically when system boots is only supported for windows.
+
 
 Next, you will have to register the agent. To Register the agent, refer to the section here: [Register the Testsigma agent](#register-the-testsigma-agent)
 
