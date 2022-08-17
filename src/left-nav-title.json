@@ -243,6 +243,9 @@
     "/docs/elements/android-apps/creating-locators-manually-strategies/": "Different Strategies for Formulating Elements",
     "/docs/elements/ios-apps/creating-locators-manually-strategies/": "Different Strategies for Formulating Elements"
   },
+  "shadow-DOM": {
+    "/docs/elements/web-apps/shadow-DOM/": "Shadow DOM"
+  },
   "import-export": {
     "/docs/elements/import-export": "Import/Export Elements"
   },
