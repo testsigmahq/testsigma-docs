@@ -12,7 +12,7 @@ warning: false
 If your given website URL is somehow inaccessible, try the following before proceeding further:
  
 1. If there is an issue in the URL, for example, HTTP instead of HTTPS or / instead of //, please verify your URL by running it on a browser. 
-2. Copy & Paste the URL in the browser's address bar and verify that the site is accessible from your workstation.
+2. Copy & Paste the URL in the browser's address bar(open browser in incognito mode) and verify that the site is accessible from your workstation.
 3. Ensure the URL is written correctly in your test case.
 4. Make note of any VPN connections that are required to run this application.
 
