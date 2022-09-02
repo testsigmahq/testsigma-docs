@@ -186,12 +186,12 @@ Next, you will have to register the agent. To Register the agent, refer to the s
 ---
 ##**Register The Testsigma Agent**
 
-##**Checking Agent Running Status**
+###**Checking Agent Running Status**
 Once the Agent has started you will get a System Tray icon. The status will show as **STARTED** once it's ready. If it is showing the status as **STARTING**, please wait for a few moments for it to start. 
 
 You can use the menu options to **Quit** and **Restart the Agent**.
 
-##**Connecting The Agent To Testsigma App**
+###**Connecting The Agent To Testsigma App**
 
 1. Once your Testsigma agent is up and running and shows the STARTED status, click on the Agent tab on the Left-hand side Navigation bar.
    
