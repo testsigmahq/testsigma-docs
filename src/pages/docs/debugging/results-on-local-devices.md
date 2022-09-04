@@ -21,7 +21,7 @@ There might be times when you face an issue during your test execution, and you 
 
 ---
 
-## **Pre-requisites**
+## **Prerequisites**
 
 1. A mobile app test case to debug. To know more on how to create a test case for mobile, check [here](https://testsigma.com/docs/test-cases/manage/add-edit-delete/)
 2. A local mobile device configured to run with Testsigma. Here are two links that would help:
