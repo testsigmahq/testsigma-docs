@@ -17,7 +17,7 @@ jobs:
         run: |
           npm ci --ignore-scripts --unsafe-perm
       - name: Force installing sharp
-        run: npm install --ignore-scripts=false --verbose sharp
+        run: npm install --ignore-scripts=false --verbose sharp@0.30.7
       - name: 'Create env file'
         run: |
           touch .env
