@@ -12,7 +12,7 @@ contextual_links:
   name: "Approach 1: Add/Edit Test Suite via the Edit Test Plan Page"
   url: "#approach-1-addedit-test-suite-via-the-edit-test-plan-page"
 - type: link
-  name: "Approach 2: Add/Edit Test Suite via the Test Plan Details Specific Tab"
+  name: "Approach 2: Add or edit test suite via the test plan details specific tab"
   url: "#approach-2-addedit-test-suite-via-the-test-plan-details-specific-tab"
 ---
 
@@ -29,6 +29,7 @@ There are two ways to add or edit a test suite in a test plan:
 2. Via the **Test plan details specific** tab
 
 ---
+
 ## **Approach 1: Add or edit test suite via the edit test plan page**
 
 1. Navigate to **Select project > Test development > Test plan**.
@@ -53,7 +54,8 @@ There are two ways to add or edit a test suite in a test plan:
 4. Click on the **Next** button and then on the **Update** button to finalize the changes.
 
 ---
-## **Approach 2: Add/Edit Test Suite via the Test Plan Details Specific Tab**
+
+## **Approach 2: Add or edit test suite via the test plan details specific tab**
 
 1. Navigate to **Select Project > Test Development > Test Plan**.
 

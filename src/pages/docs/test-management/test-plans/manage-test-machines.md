@@ -18,7 +18,7 @@ contextual_links:
 
 ---
 
-As discussed under the [create test plan section](https://testsigma.com/docs/test-management/test-plans/overview/#create-test-plan), at least one test machine need to be added to a test plan to successfully create a test plan. Test machines can be added for both *cross browser testing* and for *distributed testing*.
+As discussed under the [create test plan section](https://testsigma.com/docs/test-management/test-plans/overview/#steps-to-create-a-test-plan), at least one test machine need to be added to a test plan to successfully create a test plan. Test machines can be added for both *cross browser testing* and for *distributed testing*.
 
 For *cross browser testing* ,test machines and test suites are selected separately. On execution, all the selected test suites are run on all selected test machines ( in parallel or sequentially - depending on your selection).
 

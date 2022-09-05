@@ -10,7 +10,7 @@ contextual_links:
   name: "Contents" 
 - type: link
   name: "Prerequisites"
-  url: "#pre-requisites"
+  url: "#prerequisites"
 - type: link
   name: "Schedule a test plan"
   url: "#schedule-a-test-plan"
@@ -22,17 +22,18 @@ contextual_links:
 ---
 With Testsigma, you can execute your test plans in real-time or schedule them for execution in the future. You can also set the test plans execution to be recurring. You can use this to start regression tests outside office hours so that production time is not lost and hardware resources are freely available.
 
-&emsp;
-
 ---
-##**Prerequisites:**
+
+## **Prerequisites:**
+
 Know how to [create, edit or delete test plans](https://testsigma.com/docs/test-management/test-plans/overview/).
 
 We will look into the process of scheduling a test execution for an existing test plan in this article.
 
-&emsp;
 ---
-##**Schedule a test plan**
+
+## **Schedule a test plan**
+
 1. Navigate to **Test Case Development > Test Plans**.
 You will be taken to the test plans page and you can see a list of already created test plans there as shown below:
 
@@ -70,7 +71,7 @@ e. **Frequency:** How often does the test plan execute? By default, frequency is
 
 ---
 
-##**Schedule partial test run**
+## **Schedule partial test run**
 
 Similarly, we can schedule partial test runs with Testsigma. Lets see how we can do that:
 
@@ -91,6 +92,7 @@ Similarly, we can schedule partial test runs with Testsigma. Lets see how we can
 The Schedule Test Plan Layover has the following fields:
 
 Fields specific to scheduling:
+
    1. **Name**: Name the test plan schedule so it’s easier to find and run. For instance, full regression weekly.<br>
    2. **Description(optional)**: Use this field to add any description that would accurately describe the test plan schedule for you.<br>
    3. **Date:** the date when the scheduled execution starts for this test plan. of the By default, the value is set to the current date, and you can change that.<br>
@@ -119,6 +121,7 @@ Fields specific to filtering the test cases:
 8. **Reviewer**: Filter the test cases according to their reviewers.<br>
 
 Once you have applied the filters, you can:
+
 * View filtered test cases by click on the **View filtered test cases** button.<br>
 * Save the configuration as a favourite for later use by click on the **Save as favorite** button.<br>
 * Start the execution of the filtered test cases by click on the **Run now** button.<br>
@@ -127,7 +130,8 @@ Once you have applied the filters, you can:
 &emsp;
 
 ---
-##**Edit test plan schedule**
+
+## **Edit test plan schedule**
 
 1. Navigate to **Select project > Test development > Test plans**.
 2. On the Test plans page, go to the Test plan that you want to edit.

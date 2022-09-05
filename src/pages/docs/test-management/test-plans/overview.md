@@ -10,8 +10,8 @@ contextual_links:
 - type: section
   name: "Contents"
 - type: link
-  name: "Create test plan"
-  url: "#create-test-plan" 
+  name: "Steps to create a test plan"
+  url: "#steps-to-create-a-test-plan" 
 - type: link
   name: "List test plans"
   url: "#list-test-plans"
