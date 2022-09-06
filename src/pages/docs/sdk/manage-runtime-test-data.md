@@ -9,7 +9,7 @@ contextual_links:
 - type: section
   name: "Contents"
 - type: link
-  name: "Pre-Requisites"
+  name: "Prerequisites"
   url: "#prerequisites"
 - type: link
   name: "RunTimeData on Addons"

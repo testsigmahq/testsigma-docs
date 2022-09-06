@@ -53,8 +53,8 @@ contextual_links:
 &emsp;&emsp;&emsp;[For Mac/Linux](#for-maclinux)<br>
 [Start The Testsigma Agent Server As A Service](#start-the-testsigma-agent-server-as-a-service)<br>
 [Register The Testsigma Agent](#register-the-testsigma-agent)<br>
-&emsp;&emsp;&emsp;[Checking Agent Running Status](#checking-agent-running-status)<br>
-&emsp;&emsp;&emsp;[Connecting The Agent To Testsigma App](#connecting-the-agent-to-testsigma-app)<br>
+&emsp;&emsp;&emsp;[Checking Agent Running Status](https://testsigma.com/docs/agent/setup-on-windows-mac-linux/#checking-agent-running-status)<br>
+&emsp;&emsp;&emsp;[Connecting The Agent To Testsigma App](https://testsigma.com/docs/agent/setup-on-windows-mac-linux/#connecting-the-agent-to-testsigma-app)<br>
 &emsp;&emsp;&emsp;[Delay The Activation Of Your Testsigma Agent](#delay-the-activation-of-your-testsigma-agent)<br>
 [Run Testsigma Agent Via Docker](#run-testsigma-agent-via-docker)<br>
 
