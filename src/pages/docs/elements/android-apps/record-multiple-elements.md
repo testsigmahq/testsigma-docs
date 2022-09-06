@@ -2,6 +2,7 @@
 title: "Record Multiple Elements for an Android Application"
 metadesc: "How to record multiple elements for an android project in Testsigma."
 noindex: false
+canonical: "https://testsigma.com/docs/elements/android-apps/record-multiple-elements/"
 order: 6.32
 page_id: "Record Multiple Elements for an Android Application"
 warning: false

@@ -2,6 +2,7 @@
 title: "Testsigma Docker Setup"
 page_title: "Testsigma Community Edition Docker Setup"
 metadesc: "How to setup Testsigma  Community Edition with Docker"
+canonical: "https://testsigma.com/docs/getting-started/setup/docker/"
 noindex: false
 order: 1.32
 page_id: "Testsigma Docker Setup"

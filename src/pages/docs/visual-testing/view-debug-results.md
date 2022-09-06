@@ -2,6 +2,7 @@
 title: "Visual Testing - How to view and debug results"
 metadesc: "How to view and debug results for visual testing in Testsigma"
 noindex: false
+canonical: "https://testsigma.com/docs/visual-testing/view-debug-results/"
 order: 14.3
 page_id: "Visual Testing - How to view and debug results"
 warning: false

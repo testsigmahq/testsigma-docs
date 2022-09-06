@@ -2,6 +2,7 @@
 title: "Reuse Elements in an iOS Project"
 metadesc: "How to reuse pre-recorded elements via Testsigma’s mobile inspector for an iOS project"
 noindex: false
+canonical: "https://testsigma.com/docs/test-cases/create-steps-recorder/ios-apps/reuse-elements/"
 order: 4.536
 page_id: "Reuse Elements in an iOS Project"
 warning: false

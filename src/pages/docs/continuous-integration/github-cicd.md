@@ -1,6 +1,7 @@
 ---
 title: "Integrate Testsigma with Github"
-metadecs: "This document describes the step-by-step instructions for integrating Testsigma with Github " 
+metadecs: "This document describes the step-by-step instructions for integrating Testsigma with Github "
+canonical: "https://testsigma.com/docs/continuous-integration/github-cicd/"
 order: 12.21
 page_id: "github-cicd"
 warning: false

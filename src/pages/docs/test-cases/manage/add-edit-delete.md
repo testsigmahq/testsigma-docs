@@ -3,6 +3,7 @@ title: "Add, Edit & Delete Test Cases"
 pagetitle: "Add, Edit & Delete Test Cases in Testsigma"
 metadesc: "How to create, edit and delete Test Cases in Testsigma"
 noindex: false
+canonical: "https://testsigma.com/docs/test-cases/manage/add-edit-delete/"
 order: 4.10
 page_id: "Add, Edit, Delete Test Cases"
 warning: false

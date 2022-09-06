@@ -2,6 +2,7 @@
 title: "Rerun from test results in Testsigma"
 metadesc: "How to rerun test cases from test run results in Testsigma."
 noindex: false
+canonical: "https://testsigma.com/docs/reports/runs/rerun/"
 order: 13.22
 page_id: "Rerun from test results in Testsigma"
 warning: false

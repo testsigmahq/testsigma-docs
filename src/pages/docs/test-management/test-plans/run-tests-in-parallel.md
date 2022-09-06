@@ -2,6 +2,7 @@
 title: "Run tests in parallel"
 metadesc: "How to run tests in parallel in a test plan in Testsigma."
 noindex: false
+canonical: "https://testsigma.com/docs/test-management/test-plans/run-tests-in-parallel/"
 order: 8.25
 page_id: "Run Tests in Parallel"
 warning: false

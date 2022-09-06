@@ -1,6 +1,7 @@
 ---
 title: "Create Test Data Profiles"
 metadesc: "How to create test data profiles that can be used in a test case in Testsigma."
+canonical: "https://testsigma.com/docs/test-data/create-data-profiles/"
 noindex: false
 order: 5.21
 page_id: "Create Test Data Profiles"

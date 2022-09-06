@@ -2,6 +2,7 @@
 title: "Test Data in Steps for a Web Project"
 metadesc: "How to add test data in recorded test steps for a web project in Testsigma"
 noindex: false
+canonical: "https://testsigma.com/docs/test-cases/create-steps-recorder/web-apps/test-data-options/"
 order: 4.514
 page_id: "Test Data in Steps for a Web Project"
 warning: false

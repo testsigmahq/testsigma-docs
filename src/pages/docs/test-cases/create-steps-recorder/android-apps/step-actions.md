@@ -2,6 +2,7 @@
 title: "Test Step Actions on the Test Recorder for an Android Project"
 metadesc: "Actions you can take for a recorded test step in Testsigma’s Recorder UI for an android project"
 noindex: false
+canonical: "https://testsigma.com/docs/test-cases/create-steps-recorder/android-apps/step-actions/"
 order: 4.522
 page_id: "Test Step Actions on the Test Recorder for an Android Project"
 warning: false

@@ -2,6 +2,7 @@
 title: "Supported Locator Types in an iOS Project"
 metadesc: "The meta description should provide an accurate description of the content of the page."
 noindex: false
+canonical: "https://testsigma.com/docs/elements/ios-apps/supported-locator-types/"
 order: 6.45
 page_id: "Supported Locator Types in an iOS Project"
 warning: false

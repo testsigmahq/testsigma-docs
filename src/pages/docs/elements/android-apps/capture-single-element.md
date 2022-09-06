@@ -2,6 +2,7 @@
 title: "Create One Element at a Time (Using Mobile Inspector) for an Android Project"
 metadesc: " How to create one element at a time using the Testsigma mobile inspector for an android project in Testsigma."
 noindex: false
+canonical: "https://testsigma.com/docs/elements/android-apps/capture-single-element/"
 order: 6.33
 page_id: "Create One Element at a Time (Using Mobile Inspector) for an Android Project"
 warning: false

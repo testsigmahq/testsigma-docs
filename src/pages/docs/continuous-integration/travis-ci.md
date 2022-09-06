@@ -2,6 +2,7 @@
 title: " Integrate Testsigma with Travis CI"
 metadesc: "How to integrate Testsigma with Travis CI"
 order: 12.19
+canonical: "https://testsigma.com/docs/continuous-integration/travis-ci/"
 page_id: " Integrate Testsigma with Travis CI"
 warning: false
 contextual_links:

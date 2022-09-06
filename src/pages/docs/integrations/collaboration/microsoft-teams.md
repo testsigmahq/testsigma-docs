@@ -2,6 +2,7 @@
 title: "Integrating MS Team with Testsigma for test run notifications"
 metsdesc: "How to configure your MS Teams channel to receive notifications about Test Results in real-time from Testsigma"
 order: 16.22
+canonical: "https://testsigma.com/docs/integrations/collaboration/microsoft-teams/"
 page_id: "Integrating MS Team with Testsigma for test run notifications"
 warning: false
 contextual_links:

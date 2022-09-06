@@ -3,6 +3,7 @@ title: "Users & Role Management"
 metadesc: "How to manage users and roles in Testsigma."
 noindex: false
 order: 3.1
+canonical: "https://testsigma.com/docs/collaboration/users-roles/"
 page_id: "Users & Role Management"
 warning: false
 contextual_links:

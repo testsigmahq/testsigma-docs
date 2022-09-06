@@ -2,6 +2,7 @@
 title: "Fetching Agent logs"
 metadesc: "How to obtain the logs files from the Testsigma Agent to troubleshoot the errors."
 noindex: false
+canonical: "https://testsigma.com/docs/agent/troubleshooting/logs/"
 order: 11.92
 page_id: "Fetching Agent logs"
 search_keyword: ""

@@ -2,6 +2,7 @@
 title: "Test Data in Steps in Steps for an Android Project"
 metadesc: "How to add test data in test steps using Testsigma Recorder for an Android project"
 noindex: false
+canonical: "https://testsigma.com/docs/test-cases/create-steps-recorder/android-apps/test-data-options/"
 order: 4.524
 page_id: "Test Data in Steps in Steps for an Android Project"
 warning: false

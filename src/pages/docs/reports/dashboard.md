@@ -3,6 +3,7 @@ title: "Testsigma Dashboard - Overview"
 page_title: "Testsigma Dashboard"
 metadesc: " Overview of test automation details you can find on the Testsigma Dashboard"
 noindex: false
+canonical: "https://testsigma.com/docs/reports/dashboard/"
 order: 13.1
 page_id: "Testsigma Dashboard - Overview"
 warning: false

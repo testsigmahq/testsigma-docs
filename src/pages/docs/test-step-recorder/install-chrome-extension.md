@@ -6,6 +6,7 @@ page_title: "Trigger Test Plans remotely using Testsigma"
 metadesc: "How to trigger Test Plan Execution remotely using Testsigma REST API Endpoints"
 warning: false
 noindex: false
+canonical: "https://testsigma.com/docs/test-step-recorder/install-chrome-extension/"
 contextual_links:
 - type: section
   name: "Contents"

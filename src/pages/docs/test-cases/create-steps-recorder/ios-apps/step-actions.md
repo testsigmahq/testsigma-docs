@@ -2,6 +2,7 @@
 title: "Test Step Actions on the Test Recorder for an iOS Project"
 metadesc: "Test step actions for a recorded test step in Testsigma’s Recorder UI for an ios project."
 noindex: false
+canonical: "https://testsigma.com/docs/test-cases/create-steps-recorder/ios-apps/step-actions/"
 order: 4.532
 page_id: "Test Step Actions on the Test Recorder for an iOS ProjectMore Actions"
 warning: false

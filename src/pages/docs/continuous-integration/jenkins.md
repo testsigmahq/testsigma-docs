@@ -1,6 +1,7 @@
 ---
 title: "Integrate Testsigma with Jenkins "
 metadesc: "How to integrate Testsigma with Jenkins"
+canonical: "https://testsigma.com/docs/continuous-integration/jenkins/"
 noindex: false
 order: 12.13
 page_id: "Integrate Testsigma with Jenkins "

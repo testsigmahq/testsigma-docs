@@ -2,6 +2,7 @@
 title: "Recorder - Reorder Test Steps in an Android Project"
 metadesc: "How to reorder recorded test steps in an Android Project via Testsigma’s Recorder UI."
 noindex: false
+canonical: "https://testsigma.com/docs/test-cases/create-steps-recorder/android-apps/reorder/"
 order: 4.529
 page_id: "Recorder - Reorder Test Steps in an Android Project"
 warning: false

@@ -1,6 +1,7 @@
 ---
 title: "Supported Methods in REST API Testing in Testsigma"
 metadesc: "REST API HTTP Request Types"
+canonical: "https://testsigma.com/docs/test-cases/create-steps-restapi/methods/"
 noindex: false
 order: 4.62
 page_id: "Supported Methods in REST API Testing in Testsigma"

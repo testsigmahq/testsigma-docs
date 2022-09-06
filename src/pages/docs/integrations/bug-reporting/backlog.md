@@ -3,6 +3,7 @@ title: "Backlog Bug Reporting Integration"
 page_title: "Backlog Bug Reporting Integration in Testsigma"
 metadesc: "How to integrate Testsigma with Backlog for realtime bug reporting during Test Runs"
 noindex: false
+canonical: "https://testsigma.com/docs/integrations/bug-reporting/backlog/"
 order: 16.33
 page_id: "Backlog Bug Reporting Integration"
 warning: false

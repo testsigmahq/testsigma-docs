@@ -2,6 +2,7 @@
 title: "Import and Export Elements"
 metadesc: "How to import and export Elements to the Elements list"
 noindex: false
+canonical: "https://testsigma.com/docs/elements/import-export/"
 order: 6.5
 page_id: "Import and Export Elements
 "

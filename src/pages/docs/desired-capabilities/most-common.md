@@ -1,6 +1,7 @@
 ---
 title: "Common Desired Capabilities"
 metadesc: "Commonly used Desired Capabilities and explainer articles"
+canonical: "https://testsigma.com/docs/desired-capabilities/most-common/"
 noindex: false
 order: 15.2
 page_id: "Common Desired Capabilities"

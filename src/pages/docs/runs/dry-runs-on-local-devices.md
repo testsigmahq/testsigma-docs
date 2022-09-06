@@ -2,6 +2,7 @@
 title: "Dry Runs on Local Devices"
 metadesc: "How to perform dry runs on local devices in Testsigma."
 noindex: false
+canonical: "https://testsigma.com/docs/runs/dry-runs-on-local-devices/"
 order: 9.31
 page_id: "Dry Runs on Local Devices"
 warning: false

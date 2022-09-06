@@ -2,6 +2,7 @@
 title: "Test Step Settings"
 metadesc: "What are the available Test step settings in Testsigma and how to use them"
 noindex: false
+canonical: "https://testsigma.com/docs/test-cases/create-steps-nl/step-settings/"
 order: 4.41
 page_id: "Test Step Settings"
 warning: false

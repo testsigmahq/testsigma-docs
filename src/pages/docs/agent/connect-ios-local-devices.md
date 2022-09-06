@@ -4,6 +4,7 @@ order: 11.5
 page_id: "Setup: iOS Local Devices"
 metadesc: "How to use Testsigma Agent on your local machine and test runs on Android Local Devices."
 noindex: false
+canonical: "https://testsigma.com/docs/agent/connect-ios-local-devices/"
 search_keyword: ""
 warning: false
 contextual_links:

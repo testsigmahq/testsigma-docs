@@ -2,6 +2,7 @@
 title: "Test Plan Local Executions"
 metadesc: "How to perform test plan executions on local devices in Testsigma."
 noindex: false
+canonical: "https://testsigma.com/docs/runs/test-plans-on-local-devices/"
 order: 9.41
 page_id: "Test Plan Local Executions"
 warning: false

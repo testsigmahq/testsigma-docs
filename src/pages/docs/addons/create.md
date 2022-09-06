@@ -2,6 +2,7 @@
 title: "Create a Testsigma add-on"
 metadesc: "How to create a Testsigma add-on"
 noindex: false
+canonical: "https://testsigma.com/docs/addons/create/"
 order: 17.5
 page_id: "Create a Testsigma add-on"
 search_keyword: ""

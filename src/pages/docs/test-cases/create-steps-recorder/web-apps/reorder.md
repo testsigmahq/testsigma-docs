@@ -2,6 +2,7 @@
 title: "Test Recorder - Reorder Test Steps in a Web Project"
 metadesc: "This article is a guide for a new user that describes the step-by-step workflow to reorder recorded test steps in a Web Project via Testsigma’s test recorder UI. "
 noindex: false
+canonical: "https://testsigma.com/docs/test-cases/create-steps-recorder/web-apps/reorder/"
 order: 4.519
 page_id: "Test Recorder - Reorder Test Steps in a Web Project"
 warning: false

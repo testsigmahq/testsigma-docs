@@ -2,6 +2,7 @@
 title: "FAQs"
 page_title: "Testsigma FAQs"
 metadesc: "Frequently Asked Questions about Testsigma"
+canonical: "https://testsigma.com/docs/getting-started/faqs/"
 noindex: false
 order: 1.5
 page_id: "FAQs"

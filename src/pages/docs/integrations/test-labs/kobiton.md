@@ -2,6 +2,7 @@
 title: "Integrate Testsigma with Kobiton"
 metadesc: "How to integrate the Kobiton Cloud Test Execution Platform with Testsigma"
 noindex: false
+canonical: "https://testsigma.com/docs/integrations/test-labs/kobiton/"
 order: 16.44
 page_id: "Integrate Testsigma with Kobiton"
 warning: false

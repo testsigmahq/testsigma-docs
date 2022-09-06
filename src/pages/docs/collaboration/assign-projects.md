@@ -3,6 +3,7 @@ title: " Assign Projects to Users"
 metadesc: "How to assign projects to a user in Testsigma."
 noindex: false
 order: 3.2
+canonical: "https://testsigma.com/docs/collaboration/assign-projects/"
 page_id: "Assign Projects to Users"
 warning: false
 contextual_links:

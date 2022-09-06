@@ -2,6 +2,7 @@
 title: "Add Steps Before & After a Test Step for an Android Project"
 metadesc: " How to add a step before and after a pre-existing test step in an android project in Testsigma."
 noindex: false
+canonical: "https://testsigma.com/docs/test-cases/create-steps-recorder/android-apps/add-steps-before-after/"
 order: 4.5292
 page_id: "Add Steps Before & After a Test Step for an Android Project"
 warning: false

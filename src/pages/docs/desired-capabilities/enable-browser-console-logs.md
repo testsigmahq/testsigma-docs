@@ -1,6 +1,7 @@
 ---
 title: "Enable Browser Console Debug Logs"
 metadesc: "How to add Desired Capabilities to tests to output more debugging information such as Browser Console logs."
+canonical: "https://testsigma.com/docs/desired-capabilities/enable-browser-console-logs/"
 noindex: false
 order: 15.3
 page_id: "Enable Browser Console Debug Logs"

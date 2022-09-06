@@ -4,6 +4,7 @@ page_title: "Test Step Actions on the Test Recorder for a Web Project"
 metadesc: "Actions you can take on recorded test steps in a Web Project
 in Testsigma"
 noindex: false
+canonical: "https://testsigma.com/docs/test-cases/create-steps-recorder/web-apps/step-actions/"
 order: 4.512
 page_id: "Actions you can take on recorded Test Steps in a Web Project"
 warning: false

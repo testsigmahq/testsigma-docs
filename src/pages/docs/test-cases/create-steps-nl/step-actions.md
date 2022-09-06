@@ -2,6 +2,7 @@
 title: "Test Step Actions"
 metadesc: "About different actions you can perform on Test Steps in Testsigma"
 noindex: false
+canonical: "https://testsigma.com/docs/test-cases/create-steps-nl/step-actions/"
 order: 4.42
 page_id: "Test Step Actions"
 warning: false

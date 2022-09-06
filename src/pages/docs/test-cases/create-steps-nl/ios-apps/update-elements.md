@@ -2,6 +2,7 @@
 title: "Update Elements for an iOS Project"
 metadesc: "How to update the elements in an iOS project in Testsigma"
 noindex: false
+canonical:"https://testsigma.com/docs/test-cases/create-steps-nl/ios-apps/update-elements/"
 order: 4.462
 page_id: "Update Elements for an iOS Project"
 warning: false

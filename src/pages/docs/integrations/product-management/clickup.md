@@ -2,6 +2,7 @@
 title: "Integrate Testsigma with Clickup"
 metadecs: "This document describes the step-by-step instructions for integrating Testsigma with Clickup " 
 order: 16.55
+canonical: "https://testsigma.com/docs/integrations/product-management/clickup/"
 page_id: "Clickup"
 warning: false
 

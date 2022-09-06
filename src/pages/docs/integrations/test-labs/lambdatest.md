@@ -2,6 +2,7 @@
 title: "Integrate Testsigma with LambdaTest"
 metadesc: "How to integrate the LambdaTest Cloud Test Execution Platform with Testsigma"
 noindex: false
+canonical: "https://testsigma.com/docs/integrations/test-labs/lambdatest/"
 order: 16.43
 page_id: "Integrate Testsigma with LambdaTest"
 warning: false

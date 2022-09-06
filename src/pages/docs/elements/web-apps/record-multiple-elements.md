@@ -2,6 +2,7 @@
 title: "Record Multiple Elements Using Chrome Extension for a web application"
 metadesc: "How to record multiple elements using Testsigma’s test recorder chrome extension"
 order: 6.22
+canonical: "https://testsigma.com/docs/elements/web-apps/record-multiple-elements/"
 page_id: "Record Multiple Elements Using Chrome Extension for a web application"
 warning: false
 contextual_links:

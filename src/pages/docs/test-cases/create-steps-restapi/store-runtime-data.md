@@ -1,6 +1,7 @@
 ---
 title: "Store REST API response in to Runtime variables"
 metadesc: "Store REST API Response into runtime valiables"
+canonical: "https://testsigma.com/docs/test-cases/create-steps-restapi/store-runtime-data/"
 noindex: false
 order: 4.64
 page_id: "Store REST API response in to Runtime variables"

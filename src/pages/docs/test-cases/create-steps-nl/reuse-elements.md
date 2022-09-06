@@ -2,6 +2,7 @@
 title: "Reuse Elements"
 metadesc: " How to reuse elements that were previously added to your project in Testsigma."
 noindex: false
+canonical: "https://testsigma.com/docs/test-cases/create-steps-nl/reuse-elements/"
 order: 4.47
 page_id: "Reuse Elements"
 warning: false

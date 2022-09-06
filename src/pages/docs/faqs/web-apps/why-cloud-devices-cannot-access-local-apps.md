@@ -2,6 +2,7 @@
 title: "Cloud based test machines unable to access locally hosted applications"
 metadesc: "This article explains why test machines on cloud are unable to access locally hosted applications."
 noindex: false
+canonical: "https://testsigma.com/docs/faqs/web-apps/why-cloud-devices-cannot-access-local-apps/"
 order: 24.12
 page_id: "Cloud based test machines unable to access locally hosted applications"
 warning: false

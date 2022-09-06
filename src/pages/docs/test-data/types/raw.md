@@ -2,6 +2,7 @@
 title: "Test Data - Plain Text"
 metadesc: "How to use plain text test data in a test case in Testsigma."
 noindex: false
+canonical: "https://testsigma.com/docs/test-data/types/raw/"
 order: 5.112
 page_id: "Test Data - Plain Text"
 warning: false

@@ -4,6 +4,7 @@ page_title: "Configuring Okta Single Sign-On Integration with SAML in Testsigma"
 metadesc: " How to set up Single Sign-On (SSO) with SAML login easily in Testsigma"
 noindex: false
 order: 19.23
+canonical: "https://testsigma.com/docs/configuration/security/okta-sso/"
 page_id: "Setting Up Okta Single Sign-On Integration with SAML Login in Testsigma"
 search_keyword: ""
 warning: false

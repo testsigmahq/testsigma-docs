@@ -3,6 +3,7 @@ title: "Testsigma Development Environment"
 page_title: "Testsigma Development Environment"
 metadesc: "How to setup Testsigma  Development Environment to contribute"
 noindex: false
+canonical: "https://testsigma.com/docs/contributing/setup-dev-environment/"
 order: 22.1
 page_id: "Testsigma Development Environment"
 warning: false
