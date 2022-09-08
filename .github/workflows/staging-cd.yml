@@ -4,7 +4,7 @@ on:
     branches:
       - 'grunt/staging-cd'
 jobs:
-  Deploy:
+  StagingDeploy:
     runs-on: ubuntu-latest
     steps:
       - name: Install libvips
