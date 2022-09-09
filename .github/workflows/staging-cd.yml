@@ -2,7 +2,7 @@ name: 'Staging CD'
 on:
   push:
     branches:
-      - 'grunt/staging-cd'
+      - 'dev'
 jobs:
   StagingDeploy:
     runs-on: ubuntu-latest
