@@ -18,8 +18,11 @@ This may be due to the presence of security controls and capabilities in the app
 </ul>
 </p>
 
-But while executing test cases, Testsigma enables these capabilities by default. That is, the capabilities <kbd>testsigma.cameraImageInjection</kbd> and <kbd>testsigma.networkLogs</kbd> are enabled.<br><br>
+But while executing test cases, Testsigma enables these capabilities by default. <br>
+
 The capability<kbd> testsigma.networkLogs</kbd> is enabled to collect and view network logs for your test session, whereas the capability <kbd>testsigma.cameraImageInjection</kbd> is enabled to allow testsigma to spoof camera usage and inject images for scanning or uploading via the camera application.<br>
+Other capabilities that are enabled by testsigma include <kbd>testsigma.allowTouchIdEnroll</kbd> and <kbd>testsigma.resigningEnabled</kbd>. The capability <kbd>testsigma.allowTouchIdEnroll</kbd> enables the interception of biometric input, allowing the test to simulate Touch ID interactions and the capability <kbd>testsigma.resigningEnabled</kbd> allows you to sign your app using your own provisioning profile. 
+
 To disable the above capabilities, set the following values to false under the desired capabilities section. <em>For more information, refer to <a href="https://testsigma.com/docs/desired-capabilities/overview/">adding desired capabilities</a></em>.
 
 <style>
@@ -60,7 +63,7 @@ To disable the above capabilities, set the following values to false under the d
 </body>
 
 [[info | NOTE:]]
-|If you choose to disable the capability testsigma.cameraImageInjection, you will not be able to use the NLP for image injection. For more information, refer to Image injection.
+|If you choose to disable the capability <kbd>testsigma.cameraImageInjection</kbd>, you will not be able to use the NLP for image injection. For more information, refer to Image injection.
 
 If the issue persists, contact our [support](support@testsigma.com) team.
 
