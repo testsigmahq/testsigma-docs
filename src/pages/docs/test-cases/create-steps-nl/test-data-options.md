@@ -1,16 +1,16 @@
 ---
-title: "Test Data in Steps"
+title: "Test data in steps"
 metadesc: " How to add test data in steps when tests are created using simple English in Testsigma"
 noindex: false
 order: 4.43
-page_id: "Test Data in Steps"
+page_id: "Test data in steps"
 warning: false
 contextual_links:
 - type: section
   name: "Contents"
 - type: link
-  name: "Pre-requisites"
-  url: "#pre-requisites"
+  name: "Prerequisites"
+  url: "#prerequisites"
 - type: link
   name: "Steps to follow"
   url: "#steps-to-follow"
@@ -41,10 +41,10 @@ This document assumes that you know how to:
 
 ![simple english example steps that contain test data in Testsigma](https://docs.testsigma.com/images/test-data-options/test-data-example-simple-english-steps-testsigma1.png)
 
- 2. Test data’ text is blue in placeholder text for your test data. Remove that to see the types of test data you can add to the test step. Here’s what it looks like:
+ 2. *Test data* text is blue in placeholder text for your test data. Hover the cursor on test data to see the types of test data you can add to the test step. Here’s what it looks like:
 
 ![test-data-types-that-appear-when-adding-test-data-in-steps-in-Testsigma](https://s3.amazonaws.com/static-docs.testsigma.com/new_images/test-cases/create-steps-nl/test-data-options/test-data-types-that-appear-when-adding-test-data-in-steps-in-Testsigma.png)
 
-Select the type of test data you want to add and proceed. Learn more about [test data types](https://testsigma.com/docs/test-data/types/overview/).
+Select the type of test data you want to add and proceed. For more information, refer to [test data types](https://testsigma.com/docs/test-data/types/overview/).
 
 
