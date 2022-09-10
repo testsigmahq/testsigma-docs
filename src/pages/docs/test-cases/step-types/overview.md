@@ -3,7 +3,7 @@ title: "Test Step Types - Overview"
 pagetitle: "Test Step Types in Testsigma"
 metadesc: "What are Test Step types in Testsigma and how to create and use them"
 noindex: false
-order: 4.20
+order: 4.22
 page_id: "Test Step Types - Overview"
 warning: false
 ---
