@@ -20,9 +20,39 @@ This may be due to the presence of security controls and capabilities in the app
 
 But while executing test cases, Testsigma enables these capabilities by default. <br>
 
-The capability<kbd> testsigma.networkLogs</kbd> is enabled to collect and view network logs for your test session, whereas the capability <kbd>testsigma.cameraImageInjection</kbd> is enabled to allow testsigma to spoof camera usage and inject images for scanning or uploading via the camera application.<br>
-Other capabilities that are enabled by testsigma include <kbd>testsigma.allowTouchIdEnroll</kbd> and <kbd>testsigma.resigningEnabled</kbd>. The capability <kbd>testsigma.allowTouchIdEnroll</kbd> enables the interception of biometric input, allowing the test to simulate Touch ID interactions and the capability <kbd>testsigma.resigningEnabled</kbd> allows you to sign your app using your own provisioning profile. 
+Refer to the below table to know more about the capabilities and its functions.
+<style>
+   table {
+  border-collapse: collapse;
+  width: 100%;
+  }
+ </style>
+<table>
+  <tr>
+    <th style="background-color:#ADD8E6">Capability</th>
+    <th style="background-color:#ADD8E6">Function</th>
+  </tr>
+  <tr>
+    <td><kbd>testsigma.cameraImageInjection</kbd></td>
+    <td>Enabled to collect and view network logs for your test session</td>
+</td>
+  </tr>
+  <tr>
+    <td><kbd>testsigma.networkLogs</kbd></td>
+    <td>Enabled to allow testsigma to spoof camera usage and inject images for scanning or uploading via the camera application.</td>
+  </tr>
 
+  <tr>
+    <td><kbd>testsigma.allowTouchIdEnroll</kbd></td>
+    <td>Enabled to allow the interception of biometric input, allowing the test to simulate Touch ID interactions</td>
+  </tr>
+  <tr>
+    <td><kbd>testsigma.resigningEnabled</kbd></td>
+    <td>Enabled to allow you to sign your app using your own provisioning profile.</td>
+  </tr>
+</table>
+</body> 
+<br>
 To disable the above capabilities, set the following values to false under the desired capabilities section. <em>For more information, refer to <a href="https://testsigma.com/docs/desired-capabilities/overview/">adding desired capabilities</a></em>.
 
 <style>
@@ -63,7 +93,7 @@ To disable the above capabilities, set the following values to false under the d
 </body>
 
 [[info | NOTE:]]
-|If you choose to disable the capability <kbd>testsigma.cameraImageInjection</kbd>, you will not be able to use the NLP for image injection. For more information, refer to Image injection.
+|If you choose to disable the capability <kbd>testsigma.cameraImageInjection</kbd>, you will not be able to use the NLP for image injection. *For more information, refer to [Image injection](https://testsigma.com/docs/test-cases/image-injection/)*.
 
 If the issue persists, contact our [support](support@testsigma.com) team.
 
