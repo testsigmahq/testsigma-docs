@@ -1,0 +1,43 @@
+name: 'Staging CD'
+on:
+  push:
+    branches:
+      - 'dev'
+jobs:
+  StagingDeploy:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Install libvips
+        run: sudo apt-get install libvips
+      - uses: actions/checkout@v2
+      - name: Setup Node 12
+        uses: actions/setup-node@v2
+        with:
+          node-version: '12'
+      - name: Install dependencies
+        run: |
+          npm ci --ignore-scripts --unsafe-perm
+      - name: Force installing sharp
+        run: npm install --ignore-scripts=false --verbose sharp@0.30.7
+      - name: 'Create env file'
+        run: |
+          touch .env
+          echo GATSBY_ALGOLIA_APP_ID=${{ secrets.STAGING_GATSBY_ALGOLIA_APP_ID }} >> .env
+          echo GATSBY_ALGOLIA_SEARCH_KEY=${{ secrets.STAGING_GATSBY_ALGOLIA_SEARCH_KEY }} >> .env
+          echo ALGOLIA_ADMIN_KEY=${{ secrets.STAGING_ALGOLIA_ADMIN_KEY }} >> .env
+          echo BUCKET_NAME=${{ secrets.STAGING_BUCKET_NAME }} >> .env
+          echo HOST_NAME=${{ secrets.STAGING_HOST_NAME }} >> .env
+          echo ASSET_HOST=${{ secrets.STAGING_ASSET_HOST }} >> .env
+          echo FRESHCHAT_TOKEN=${{ secrets.STAGING_FRESHCHAT_TOKEN }} >> .env
+          echo GA_TRACKING_ID=${{ secrets.STAGING_GA_TRACKING_ID }} >> .env
+          echo GTAG_TRACKING_ID_FOR_GA4=${{ secrets.STAGING_GTAG_TRACKING_ID_FOR_GA4 }} >> .env
+          echo GTAG_TRACKING_ID_FOR_GTAG=${{ secrets.STAGING_GTAG_TRACKING_ID_FOR_GTAG }} >> .env
+          cat .env
+      - name: Build
+        run: |
+          PREFIX_PATHS=true npm run build && npm run deploy
+        env:
+          AWS_ACCESS_KEY_ID: ${{ secrets.STAGING_AWS_ACCESS_KEY_ID }}
+          AWS_SECRET_ACCESS_KEY: ${{ secrets.STAGING_AWS_SECRET_ACCESS_KEY }}
+          AWS_DEFAULT_REGION: 'us-east-1'
+          AWS_DEFAULT_OUTPUT: json

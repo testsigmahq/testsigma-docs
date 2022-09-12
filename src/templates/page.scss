@@ -1,0 +1,552 @@
+@import '../components/variables';
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+html {
+  overflow: hidden;
+  height: 100%;
+}
+* {
+  font-size: 15px;
+  font-family:'Source Sans Pro',Helvetica,Arial,sans-serif;
+  color: #183247;
+  box-sizing: border-box;
+  &::after,
+  &::before {
+    box-sizing: inherit;
+  }
+}
+body {
+  overflow-x: hidden;
+  height: 100%;
+}
+// main container
+.container {
+  max-width: 100% !important;
+  margin: 0 auto;
+  @media (max-width: 767px) {
+    display: block;
+  }
+}
+// header styles
+.header-block {
+  > .container {
+    @media (min-width: 1280px) {
+      padding: 0;
+    }
+  }
+  @media (max-width: 767px) {
+    display: block;
+  }
+}
+.logo-block  {
+  @media (max-width: 767px) {
+    width: 100%;
+    justify-content: center;
+  }
+  svg {
+    @media (max-width: 1279px) {
+      margin: 1rem 0;
+    }
+  }
+}
+.primary-nav {
+  @media (max-width: 767px) {
+    display: block;
+    width: 100%;
+  }
+  > nav,
+  > .search-block {
+    @media (max-width: 767px) {
+      width: 100%;
+    }
+    .text-green-600 {
+      font-weight: 600;
+    }
+  }
+  > nav {
+    @media (min-width: 768px) {
+      order: 1;
+    }
+    @media (max-width: 767px) {
+      overflow-x: auto;
+      white-space: nowrap;
+      padding: 1rem 0;
+      justify-content: center;
+    }
+    @media (min-width: 1280px) {
+      padding-left: 3.5rem;
+    }
+    > a {
+      font-weight: 600;
+      @media (max-width: 1279px) {
+        margin-left: 0.9rem;
+      }
+      &:nth-child(3),
+      &:nth-child(4),
+      &:nth-child(5),
+      &:nth-child(6),
+      &:nth-child(7) {
+        @media (max-width: 1023px) {
+          display: none;
+        }
+      }
+    }
+  }
+  > .search-block {
+    @media (max-width: 767px) {
+      width: 100%;
+      padding: 0 0 1rem;
+    }
+    @media (min-width: 768px) {
+      order: 2;
+    }
+    @media (min-width: 768px) {
+      width: 60%;
+    }
+    @media (min-width: 1024px) {
+      width: 40%;
+    }
+    @media (max-width: 1279px) {
+      padding: 0;
+    }
+    > a {
+      @media (min-width: 768px) {
+        white-space: nowrap;
+      }
+    }
+  }
+}
+.search-block-child {
+  overflow: hidden;
+  @media (max-width: 767px) {
+    width: 50%;
+  }
+  > div {
+    @media (max-width: 767px) {
+      width: 100%;
+    }
+    input {
+      @media (max-width: 767px) {
+        width: 100%;
+      }
+      @media (min-width: 768px) {
+        width: 80px;
+      }
+    }
+  }
+}
+.isTablet {
+  @media (max-width: 767px) {
+    display: none;
+  }
+}
+.doc-page {
+  line-height: 25px;
+  @media (max-width: 1279px) {
+    width: 100%;
+  }
+  > div {
+    @media (max-width: 1279px) {
+        padding: 1.5rem;
+    }
+  }
+  h2 > * {
+    font-size: 25px;
+    @media (max-width: 1279px) {
+      font-size: 21px;
+    }
+    @media (max-width: 767px) {
+      font-size: 16px;
+    }
+  }
+  img {
+      position: relative;
+      max-width: 100%;
+      height: auto;
+      width: 100%;
+      min-height: 50px;
+      line-height: 2;  
+      text-align: center;
+      background: #f4f4f4;
+      padding: 16px;
+      margin: 16px 0;
+      border-radius: 4px;
+  }
+  // WIP - need to get ul li markers to move away from text
+  ///////////////////////////////////////////////////////////////////
+  ul {
+    list-style-type: disc;
+    margin-left: 40px;
+    margin-bottom: 10px;
+    li::marker {
+      padding-inline-start: 39px;
+      color: #183247 !important;
+      b , strong{
+        font-weight: 800!important;
+      }
+    }
+
+    &::after,
+    &::before {
+      display: inline-block;
+      direction: rtl !important;
+      margin-left: -28px !important;
+      padding-right: 16px !important;
+      width: 28px !important;
+    }
+    li {
+      padding: 10px !important;
+      margin-bottom: -10px;
+      li::before {
+        direction: rtl !important;
+        margin-left: -28px !important;
+        padding-right: 16px !important;
+        width: 28px !important;
+      }
+      p {
+        margin-top: 0px!important;
+        margin-bottom: 0px!important;
+      }
+    }
+    li::marker {
+      color: #183247 !important;
+    }
+  }
+
+  ol {
+    padding-left: 25px !important;
+    li {
+      list-style:decimal!important;
+      padding-left: 10px !important;
+      margin-bottom: 8px;
+    }
+    li::marker {
+      color: $grey_70;
+    }
+  }
+  /////////////////////////////////////////////////////////////////////////
+  a {
+    height: 24px;
+    color: #03A973;
+    font-weight:600;
+    text-decoration: none;
+    &:hover {
+      text-decoration: none;
+    }
+    &.alternative {
+      color: #fff;
+    }
+    &.alternative:hover {
+      color: #fff;
+      background-position: top 22px right -4px;
+      padding-right: 4px;
+      padding-bottom: 2px;
+      text-decoration: none;
+    }
+  }
+}
+.isGithubEdit {
+  @media (max-width: 1279px) {
+    display: none;
+  }
+}
+.pagination_buttons {
+  @media (min-width: 568px) {
+    margin: 0 1.5rem;
+  }
+  @media (min-width: 1279px) {
+    margin: 0 0 0 5rem;
+    max-width: 70%;
+  }
+  .footer_docs,
+  .footer_greenbox {
+    @media (max-width: 767px) {
+      margin: 1.5rem;
+    }
+  }
+  .footer_text {
+    @media (max-width: 767px) {
+      margin: 0 1rem;
+    }
+  }
+}
+.navigation-block {
+  @media (max-width: 576px) {
+    margin: 0 1.5rem;
+  }
+  &.flex.justify-between {
+    @media (max-width: 576px) {
+      display: block;
+      justify-content: inherit;
+    }
+  }
+  h3 {
+    color: #000000;
+    font-size: 1.1rem !important;
+    margin-top: 0 !important;
+    margin-bottom: 0 !important;
+  }
+  span {
+    color: #78757a;
+  }
+  .next_button,
+  .prev_button {
+    width: 42%;
+    padding: 15px 20px;
+    box-shadow: 4px 4px 5px #f3f3f3;
+    border:1px solid #DEDEDE;
+    border-radius: 4px;
+    @media (max-width: 1279px) {
+      width: 49%;
+    }
+    @media (max-width: 576px) {
+      width: 100%;
+    }
+    svg {
+      position: relative;
+      top: 10px;
+    }
+  }
+  .next_button {
+    float: right;
+    @media (max-width: 576px) {
+      float: inherit;
+    }
+    span {
+      margin-right: 2px;
+      @media (max-width: 576px) {
+        margin-left: 0px;
+      }
+    }
+    @media (max-width: 576px) {
+      margin-left: 0px;
+      margin-top: 30px;
+    }
+    svg {
+      float: right;
+    }
+  }
+  .prev_button {
+    text-align: right;
+    svg {
+      float: left;
+    }
+  }
+}
+.float-searchBox {
+  position: fixed;
+  top: 0;
+  right: 0;
+  z-index: 3;
+  padding: 1.6rem 1rem;
+  height: 100%;
+  display: block;
+  border-left: 1px solid rgba(229, 231, 235, var(--tw-border-opacity));
+  background-color: #fff;
+  @media (max-width: 767px) {
+    width: 85% !important;
+  }
+  @media (min-width: 768px) {
+    width: 34%;
+  }
+  @media (min-width: 1024px) {
+    width: 28%;
+  }
+  @media (min-width: 1280px) {
+    width: 24.1%;
+  }
+  .ais-SearchBox,
+  .search-icon {
+    display: inline-block;
+    vertical-align: middle;
+  }
+  .search-icon {
+    width: 4%;
+  }
+  .ais-SearchBox,
+  .ais-SearchBox-input {
+    width: 95%;
+  }
+  .search_results{
+    top: 71px;
+    left: 0;
+    bottom: 0;
+    z-index: 2;
+    width: 100%;
+    border-left: 0;
+    background-color: #f5f5f5;
+    overflow-y: auto;
+    @media (max-width: 767px) {
+      top: 71px;
+    }
+    @media (max-width: 1279px) {
+      top: 56px;
+    }
+    .ais-Pagination-list {
+      display: flex;
+      padding: 0.25rem 0 0.5rem;
+      justify-content: center;
+      li {
+        margin: 0 6px;
+      }
+      .ais-Pagination-link--selected {
+        font-weight: bold;
+      }
+    }
+  }
+}
+.ais-SearchBox-input{
+  outline: none!important;
+}
+
+/* Blockquotes */
+blockquote {
+  padding: 0 24px;
+  color: #6a737d;
+  border-left: 5px solid #dfe2e5;
+}
+.edit-button {
+  padding-top: 40px;
+  @media (min-width:992px) {
+    padding-top: 0;
+  }
+  svg {
+    overflow: hidden;
+    vertical-align: middle;
+    margin-bottom: 4px;
+  }
+}
+.edit-button-styles {
+  border: 1px solid $grey_40 !important;
+  border-radius: 4px !important;
+  padding: 8px 16px !important;
+  &:hover {
+    border: 1px solid $grey_70 !important;
+    background-color: transparent !important;
+  }
+}
+tr:hover {
+  background-color: #FAE1D4;
+}
+th:first-child,
+td:first-child {
+  padding-left:10px;
+}
+thead:first-child:hover tr{
+  background-color: white;
+}
+/**
+* add syntax highlighting
+*/
+.gatsby-highlight {
+  position: relative;
+  max-width: 100%;
+}
+.gatsby-highlight pre,
+.gatsby-highlight code {
+  top: 0;
+  padding: 0.5rem;
+  margin: 0 !important;
+}
+:not(pre) > code[class*="language-"] {
+  top: 0 !important;
+  font-family: $ibm;
+  background-color: $grey_30 !important;
+  color: $grey_90;
+  padding: 3px 28px 3px 6px !important;
+  font-size: 16px !important;
+}
+code[class*="language-"] {
+  word-break: break-word !important;
+  word-wrap: break-word !important;
+  overflow-wrap: break-word !important;
+}
+.copytoclipboard {
+  display: block;
+  position: absolute;
+  top: 3px;
+  right: 3px;
+  width: 15px;
+  height: 15px;
+  line-height: 0;
+  cursor: pointer;
+  &.copied::after,
+  &.copied::before {
+      background-color: #03a973;
+      border-color: $white;
+  }
+  &::after,
+  &::before {
+      content: '';
+      display: block;
+      position: absolute;
+      top: 1px;
+      right: 1px;
+      z-index: 0;
+      width: 12px;
+      height: 12px;
+      background-color: $white;
+      border-radius: 3px;
+      border: 2px solid $grey_80;
+  }
+  &::before {
+      top: 4px;
+      right: 4px;
+      z-index: 1;
+  }
+}
+.alert {
+  margin-bottom: 15px;
+  padding: 20px 20px;
+  margin-top: 30px;
+  margin-bottom: 30px;
+  border-radius: 4px;
+  &.alert-danger {
+    background: #FFE0CF;
+    >.custom-block-heading {
+      font-weight: bold;
+      color: #FF6767;
+    }
+  }
+
+  .sticky {
+    margin-top: 64px;
+    position: -webkit-sticky;
+    position: sticky !important;
+    top: 160px;
+    // top: 0;
+  }
+
+  &.alert-info {
+    border-left: 3px solid rgb(247, 125, 5);
+    background: #F8F9FA;
+    >.custom-block-heading {
+      font-weight: bold;
+    }
+  }
+  >.custom-block-body p{
+    margin: 0 !important;
+  }
+}
+
+.text-xs {
+  font-size: 0.90rem;
+  line-height: 1rem;
+  @media (max-width: 1280px) {
+    font-size: 0.85rem;
+  }
+}
+
+.max-w-sm {
+  max-width: 26rem;
+}
+
+.mt-15{
+  margin-top: 15px;
+}
+
+.perviousLink{
+  margin-left: -4px;
+}
