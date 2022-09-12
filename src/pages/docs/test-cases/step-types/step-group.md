@@ -106,6 +106,7 @@ The number of test cases impacted by the changes in a step group will be visible
 Click on the element the required field should become editable.You can either create a new element or edit the existing element.</li>
 </ul>
 
+
 ![edit element](https://s3.amazonaws.com/static-docs.testsigma.com/new_images/test-cases/image-injection/edit_element_step_groups.png)
 
 <br>Alternatively, you can edit the element name inline,refer the attached GIF to see the changes:

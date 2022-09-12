@@ -20,6 +20,7 @@ This may be due to the presence of security controls and capabilities in the app
 
 But while executing test cases, Testsigma enables these capabilities by default. <br>
 
+
 Refer to the below table to know more about the capabilities and its functions.
 <style>
    table {
@@ -53,6 +54,7 @@ Refer to the below table to know more about the capabilities and its functions.
 </table>
 </body> 
 <br>
+
 To disable the above capabilities, set the following values to false under the desired capabilities section. <em>For more information, refer to <a href="https://testsigma.com/docs/desired-capabilities/overview/">adding desired capabilities</a></em>.
 
 <style>
@@ -94,6 +96,7 @@ To disable the above capabilities, set the following values to false under the d
 
 [[info | NOTE:]]
 |If you choose to disable the capability <kbd>testsigma.cameraImageInjection</kbd>, you will not be able to use the NLP for image injection. *For more information, refer to [Image injection](https://testsigma.com/docs/test-cases/image-injection/)*.
+
 
 If the issue persists, contact our [support](support@testsigma.com) team.
 

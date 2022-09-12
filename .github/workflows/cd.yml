@@ -2,7 +2,7 @@ name: 'CD'
 on:
   push:
     branches:
-      - 'dev'
+      - 'main'
 jobs:
   Deploy:
     runs-on: ubuntu-latest
@@ -25,6 +25,13 @@ jobs:
           echo GATSBY_ALGOLIA_APP_ID=${{ secrets.GATSBY_ALGOLIA_APP_ID }} >> .env
           echo GATSBY_ALGOLIA_SEARCH_KEY=${{ secrets.GATSBY_ALGOLIA_SEARCH_KEY }} >> .env
           echo ALGOLIA_ADMIN_KEY=${{ secrets.ALGOLIA_ADMIN_KEY }} >> .env
+          echo BUCKET_NAME=${{ secrets.BUCKET_NAME }} >> .env
+          echo HOST_NAME=${{ secrets.HOST_NAME }} >> .env
+          echo ASSET_HOST=${{ secrets.ASSET_HOST }} >> .env
+          echo FRESHCHAT_TOKEN=${{ secrets.FRESHCHAT_TOKEN }} >> .env
+          echo GA_TRACKING_ID=${{ secrets.GA_TRACKING_ID }} >> .env
+          echo GTAG_TRACKING_ID_FOR_GA4=${{ secrets.GTAG_TRACKING_ID_FOR_GA4 }} >> .env
+          echo GTAG_TRACKING_ID_FOR_GTAG=${{ secrets.GTAG_TRACKING_ID_FOR_GTAG }} >> .env
           cat .env
       - name: Build
         run: |

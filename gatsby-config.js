@@ -57,7 +57,7 @@ const queries = [
 
 
 module.exports = {
-  assetPrefix: `https://d3qczh57rxoojd.cloudfront.net`,
+  assetPrefix: process.env.ASSET_HOST,
   siteMetadata: {
     title: 'Testsigma Documentation',
     description: '',
@@ -132,9 +132,9 @@ module.exports = {
     {
       resolve: `gatsby-plugin-s3`,
       options: {
-        bucketName: "docs.testsigma.com",
+        bucketName: process.env.BUCKET_NAME,
         protocol: "https",
-        hostname: "testsigma.com/docs/",
+        hostname: process.env.HOST_NAME,
         generateRedirectObjectsForPermanentRedirects: true
       },
     },
@@ -160,14 +160,14 @@ module.exports = {
     {
       resolve: `gatsby-plugin-freshchat`,
       options: {
-          token: "b905859c-c256-471f-ab0a-a4d0829d27ee", // process.env.FRESHCHAT_TOKEN,
+          token: process.env.FRESHCHAT_TOKEN,
           host: "https://wchat.freshchat.com",
       },
     },
     {
       resolve: `gatsby-plugin-google-analytics`,
       options: {
-        trackingId: "UA-99606664-1",
+        trackingId: process.env.GA_TRACKING_ID,
         head: false,
         anonymize: true,
         respectDNT: true,
@@ -178,8 +178,8 @@ module.exports = {
       resolve: `gatsby-plugin-google-gtag`,
       options: {
         trackingIds: [
-          "G-ZE2Z1J3VPK", // Google Analytics 4
-          "AW-777462306", // Google Tag Manager
+          process.env.GTAG_TRACKING_ID_FOR_GA4, // Google Analytics 4
+          process.env.GTAG_TRACKING_ID_FOR_GTAG, // Google Tag Manager
         ],
         pluginConfig: {
           head: false,
