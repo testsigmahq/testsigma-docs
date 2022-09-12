@@ -84,30 +84,32 @@ https://docs.testsigma.com/images/step-group/click-create-step-group-button.png)
 2. Click on the step group you want to edit.
 3. Now you can make the changes you want to the step group. The changes will be reflected in all the test cases that use the step group.
 
-The number of test cases impacted by the changes in a step group will be visible on the step group page, for example, in the screenshot below, any change in the step group will impact 2 test cases: 
+The number of test cases impacted by the changes in a step group will be visible on the step group page, for example, in the screenshot below, any change in the step group will impact 4 test cases: 
 
-![the number of test cases impacted by a change in the step group](https://s3.amazonaws.com/static-docs.testsigma.com/new_images/test-cases/step-types/step-group/step-group-edit-impacts-test-cases.png)
+![the number of test cases impacted by a change in the step group](https://s3.amazonaws.com/static-docs.testsigma.com/new_images/test-cases/step-types/step-group/edit_step_group.png)
 
 <h3><strong>To edit a step group for a specific test case:</strong></h3>
 
 1. Navigate to **Test Development > Test Cases**.
 2. Click on the specific test case for which you want to edit the step group.
 3. Inside the test case, go to the step group you want to edit.
-4. You can spot edit any test data or element being used in the step group.After editing click outside the step to save the changes.
+4. You can spot edit any test data or element being used in the step group. After editing click outside the step to save the changes.
 
 
 <ul>
  <li>To spot edit test data: <br>Click on the test data to see the type of test data that can be added to the step.Select the type of test data you want to add and proceed. </li>
 </ul>
+
+![edit test data](https://s3.amazonaws.com/static-docs.testsigma.com/new_images/test-cases/step-types/step-group/spot_edit_test_element.png)
 <ul>
 <li> To spot edit element:<br>
 Click on the element the required field should become editable.You can either create a new element or edit the existing element.</li>
 </ul>
 
+
 ![edit element](https://s3.amazonaws.com/static-docs.testsigma.com/new_images/test-cases/image-injection/edit_element_step_groups.png)
 
-
-<br>Alternatively, refer the attached GIF to see the changes:
+<br>Alternatively, you can edit the element name inline,refer the attached GIF to see the changes:
 
 ![element spot edit in a step group](https://s3.amazonaws.com/static-docs.testsigma.com/new_images/test-cases/step-types/step-group/step-group-element-spot-edit.gif)
 
@@ -119,7 +121,7 @@ Click on the element the required field should become editable.You can either cr
 4. Inside the step group, go to the *for loop* for which you want to edit the associated test data profile.
 5. Click on the **Edit** button corresponding to the *for loop* and change the associated  test data profile. For example, as also can be seen in the below GIF: 
 
-![edit the test data profile associated with a for loop in a step group](https://s3.amazonaws.com/static-docs.testsigma.com/new_images/test-cases/step-types/step-group/edit-step-group-for-loop-tdp-gif.gif)
+![edit the test data profile associated with a for loop in a step group](https://s3.amazonaws.com/static-docs.testsigma.com/new_images/test-cases/step-types/step-group/for_loop_test_case_gif.gif)
 
 
 &emsp;
