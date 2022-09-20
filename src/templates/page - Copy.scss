@@ -216,11 +216,9 @@ body {
   }
 
   ol {
-    list-style-type: decimal;
     padding-left: 25px !important;
     li {
-      /*list-style:decimal!important;*/
-      
+      list-style:decimal!important;
       padding-left: 10px !important;
       margin-bottom: 8px;
     }
