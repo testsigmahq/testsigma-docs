@@ -2,7 +2,7 @@
 title: "Unable to retrieve value stored in text element"
 metadesc: "Unable to retrieve value"
 noindex: false
-order: 23.10
+order: 23.1
 page_id: "Unable to retrieve value"
 warning: false
 ---
