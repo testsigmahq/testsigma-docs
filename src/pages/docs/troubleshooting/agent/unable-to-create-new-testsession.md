@@ -2,7 +2,6 @@
 title: "Unable to create new test session due to unexpected error"
 metadesc: "Unable to create new test session due to unexpected error"
 noindex: false
-<<<<<<< HEAD
 order: 23.20
 page_id: "Unable to create new test session due to unexpected error"
 warning: false
@@ -35,10 +34,3 @@ ul.circle {
 <li>Rerun the test case.</li>
 <li>After following the above steps, if you see the same error message reach out to Testsigma support for the test logs.</li>
 </ol>
-=======
-order: 23.14
-page_id: "Unable to create new test session due to unexpected error"
-warning: false
----
-dsggs
->>>>>>> f881fc48345ddad1219fcd8c882ff4259529e500
