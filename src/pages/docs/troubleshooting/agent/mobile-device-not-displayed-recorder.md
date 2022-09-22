@@ -16,27 +16,32 @@ contextual_links:
   name: "Android device"
   url: "#Android-device"
 - type: link
+  name: "ADB does not recognize the device connected to the system"
+  url: "#adb-does-not-recognize-the-device-connected-to-the-system"
+- type: link
   name: "iOS device"
   url: "#iOS-device"
 
 ---
 
 ---
-
-This article provides methods to solve the error “Testsigma agent not detecting local devices for mobile test recorder” for Android and iOS devices.
+<p>
+This article provides methods to solve the error <em>Testsigma agent not detecting local devices for mobile test recorder</em> for Android and iOS devices.
+</p>
 
 ## **Causes**
 
 Testsigma agent may be unable to detect your local mobile device for the test recorder for the following reasons:
 <ul>
 
-<li>Testsigma agent is not up-to-date. For more information on updating Testsigma agent, 
-<a href="https://testsigma.com/docs/agent/update-agent-manually">updating Testsigma agent manually</a>.
+<li>Testsigma agent is not up-to-date. <em>For more information on updating Testsigma agent, 
+<a href="https://testsigma.com/docs/agent/update-agent-manually/">updating Testsigma agent manually</a></em>.
 </li>
 
 <li>Damaged or faulty USB ports or cables (in this case, you should try to change the USB port or cable).</li>
 <li>A weak Wi-Fi signal, if your device is connected via Wi-Fi.</li>
 </ul>
+<br>
 
 ## **Android device**
 
@@ -48,7 +53,7 @@ For Android device, before troubleshooting you will need to make sure of the fol
 <li>Desired capabilities are modified as per device or application. <em>For more information on desired capabilities, refer to <a href="https://testsigma.com/docs/desired-capabilities/overview/">desired capabilities</a> and a <a href="https://testsigma.com/docs/desired-capabilities/most-common/">list of desired capabilities</a>.</em></li>
 </ul>
 
-### **ADB does not recognize the device connected to the system**
+## **Android Debug Bridge does not recognize the device connected to the system**
 
 To verify if the ADB interface does not recognize your Android device, follow the below steps:
 
