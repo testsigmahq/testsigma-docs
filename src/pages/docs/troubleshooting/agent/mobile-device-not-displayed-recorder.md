@@ -34,7 +34,7 @@ This article provides methods to solve the error <em>Testsigma agent not detecti
 Testsigma agent may be unable to detect your local mobile device for the test recorder for the following reasons:
 <ul>
 
-<li>Testsigma agent is not up-to-date. <em>For more information on updating Testsigma agent, 
+<li>Testsigma agent is not up-to-date. <em>For more information on updating Testsigma agent,
 <a href="https://testsigma.com/docs/agent/update-agent-manually/">updating Testsigma agent manually</a></em>.
 </li>
 
