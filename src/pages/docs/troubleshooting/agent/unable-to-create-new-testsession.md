@@ -32,5 +32,5 @@ ul.circle {
 <li>If the issue persists, on the dry run page under App details sections, select Use details. Rerun the test case.</li>
 <li>If the error continues, uninstall the app on the device and reinstall it.</li> 
 <li>Rerun the test case.</li>
-<li>After following the above steps, if you see the same error message reach out to Testsigma support for the test logs.</li>
+<li>After following the above steps, if you see the same error message reach out to Testsigma support with the test logs.</li>
 </ol>
