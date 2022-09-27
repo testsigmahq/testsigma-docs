@@ -1,9 +1,9 @@
 ---
-title: "Recording tests with webview for hybrid apps"
-metadesc: " Recording tests with webview for hybrid apps"
+title: "Recording tests with webview for hybrid Andoid apps"
+metadesc: " Recording tests with webview for hybrid Android apps"
 noindex: false
 order: 4.5294
-page_id: "Recording tests with webview for hybrid apps"
+page_id: "Recording tests with webview for hybrid Android apps"
 warning: false
 ---
 ---
