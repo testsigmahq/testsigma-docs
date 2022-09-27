@@ -562,5 +562,11 @@
   },
   "storage-types": {
     "/docs/configuration/storage-types/": "Storage Types (Community)"
+  },
+  "multiple-we-view":{
+    "/docs/test-cases/create-steps-recorder/android-apps/multiple-we-view/":"Multiple webview"
+  },
+  "multiple-webview-hybrid-ios":{
+    "/docs/test-cases/create-steps-recorder/ios-apps/multiple-webview-hybrid-ios/":"Multiple webview"
   }
 }
