@@ -537,7 +537,7 @@
     "/docs/faqs/web-apps/why-chrome-extension/": "Why Install Chrome Extension"
   },
   "why-cloud-devices-cannot-access-local-apps": {
-    "/docs/faqs/web-apps/why-cloud-devices-cannot-access-local-apps/": "Why cloud based test machines can't access locally hosted applications?"
+    "/docs/FAQs/web-apps/why-cloud-devices-cannot-access-local-apps/": "Why cloud based test machines can't access locally hosted applications?"
   },
   "examples": {
     "/docs/api/examples/" : "Usage Examples"
