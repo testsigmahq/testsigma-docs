@@ -568,5 +568,8 @@
   },
   "multiple-webview-hybrid-ios":{
     "/docs/test-cases/create-steps-recorder/ios-apps/multiple-webview-hybrid-ios/":"Multiple webview"
+  },
+  "desktop-windows":{
+    "/docs/projects/setup/desktop-windows/": "Desktop Windows"
   }
 }
