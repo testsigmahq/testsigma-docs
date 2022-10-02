@@ -2,7 +2,7 @@
 title: "Create Elements [Manually]"
 metadesc: "How to create elements manually for an iOS project in Testsigma."
 noindex: false
-order: 6.44
+order: 6.54
 page_id: "Create Elements [Manually]"
 warning: false
 contextual_links:
