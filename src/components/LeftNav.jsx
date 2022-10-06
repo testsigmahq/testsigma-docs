@@ -34,14 +34,29 @@ class ListItem extends React.Component {
         const { active } = this.state;
         if (active.indexOf(name) === -1) {
             this.setState((prev) => ({ active: [...prev.active, name] }));
+            const { expandedPanels } = this.state;
+            if(!expandedPanels){
+                this.setState(() => ({ expandedPanels: [ name] }));
+            }
         }
     } // sets a given list item as active
 
+
+    toggleExpansion(identifier) {
+        const { expandedPanels } = this.state;
+        if (expandedPanels?.indexOf(identifier) === -1) {
+            this.setState((prev) => ({ expandedPanels: [...prev.expandedPanels, identifier] }));
+        } else if(expandedPanels){
+            expandedPanels.splice(expandedPanels.indexOf(identifier), 1);
+            this.setState(() => ({ expandedPanels: [...expandedPanels] }));
+        }
+    }
+    
     toggleActive = (e) => {
         let title;
         if (e.target.attributes.identifier) {
             title = e.target.attributes.identifier.value;
-        } else if (e.target.nextSibling.attributes.identifier) {
+        } else if (e.target.nextSibling?.attributes.identifier) {
             title = e.target.nextSibling.attributes.identifier.value;
         }
         const { active } = this.state;
@@ -84,7 +99,7 @@ class ListItem extends React.Component {
         // Appending overview page link to Parent node (which has arrow icon with title)
         // Instead of having overview as a separate link.
         let overviewLink = null;
-        Object.keys(data).map(key => {
+        Object.keys(data).reverse().map(key => {
             if (data.hasOwnProperty('overview')) {
                 if (data['overview'].url.indexOf(`/${name}/overview/`) !== -1)
                     overviewLink =  data['overview'].url;
@@ -92,16 +107,18 @@ class ListItem extends React.Component {
             else if (data[key].hasOwnProperty('overview')) {
                 if (data[key]['overview'].url.indexOf(`/${name}/overview/`) !== -1)
                     overviewLink = data[key]['overview'].url;
+            } else {
+                overviewLink  = data [key].url;
             }
         })
 
         return (
             <ul
                 key={`${name}-${uuidv4()}`}
-                className={` ${(active.indexOf(name) !== -1) ? 'active' : 'inactive'} ${isRoot ? ' root' : ''} `}
+                className={` ${(this.state.expandedPanels?.indexOf(name) !== -1) ? 'active' : 'inactive'} ${isRoot ? ' root' : ''} `}
             >
                 <li data-parent={this.state.identifier} className={`parent${this.inUrl(`/${this.state.identifier || 'docs'}/${name}/`) ? ' currentUrl text_green' : ''}`} onClick={this.toggleActive} identifier={name}>
-                    <svg onClick={this.toggleActive} identifier={name} className={`inline float_left relative folder-icon parent_caret${this.isActive(name) ? ' active_parent_caret' : ''}`} xmlns="http://www.w3.org/2000/svg" fill="none" height="24"
+                    <svg onClick={(e)=>{this.toggleActive(e); this.toggleExpansion(name)}} identifier={name} className={`inline float_left relative folder-icon parent_caret${(this.state.expandedPanels?.indexOf(name) !== -1) ? ' active_parent_caret' : ''}`} xmlns="http://www.w3.org/2000/svg" fill="none" height="24"
                          viewBox="0 0 24 24" width="24">
                         <path clipRule="evenodd"
                               d="m16.5303 8.96967c.2929.29289.2929.76777 0 1.06063l-4 4c-.2929.2929-.7677.2929-1.0606 0l-4.00003-4c-.29289-.29286-.29289-.76774 0-1.06063s.76777-.29289 1.06066 0l3.46967 3.46963 3.4697-3.46963c.2929-.29289.7677-.29289 1.0606 0z"
@@ -109,7 +126,7 @@ class ListItem extends React.Component {
 
                         </path>
                     </svg>
-                    <svg onClick={this.toggleActive} identifier={name} className={`-mr-3 inline caret${this.isActive(name) ? ' active-caret' : ''}`} xmlns="http://www.w3.org/2000/svg" fill="none" height="24" viewBox="0 0 24 24" width="24"><path clipRule="evenodd" d="m16.5303 8.96967c.2929.29289.2929.76777 0 1.06063l-4 4c-.2929.2929-.7677.2929-1.0606 0l-4.00003-4c-.29289-.29286-.29289-.76774 0-1.06063s.76777-.29289 1.06066 0l3.46967 3.46963 3.4697-3.46963c.2929-.29289.7677-.29289 1.0606 0z" fill="#333333" fillRule="evenodd" /></svg>
+                    <svg onClick={(e)=>{this.toggleActive(e); this.toggleExpansion(name)}} identifier={name} className={`-mr-3 inline caret${this.isActive(name) ? ' active-caret' : ''}`} xmlns="http://www.w3.org/2000/svg" fill="none" height="24" viewBox="0 0 24 24" width="24"><path clipRule="evenodd" d="m16.5303 8.96967c.2929.29289.2929.76777 0 1.06063l-4 4c-.2929.2929-.7677.2929-1.0606 0l-4.00003-4c-.29289-.29286-.29289-.76774 0-1.06063s.76777-.29289 1.06066 0l3.46967 3.46963 3.4697-3.46963c.2929-.29289.7677-.29289 1.0606 0z" fill="#333333" fillRule="evenodd" /></svg>
                     { overviewLink && (<Link to={overviewLink} onClick={this.toggleActive} identifier={name}>{ data.leftNavTitle || name.replace(/-/g, ' ')} </Link>) }
                     { !overviewLink && (<button type="button" onClick={this.toggleActive} identifier={name}>
                         {data.leftNavTitle || name.replace(/-/g, ' ')}
