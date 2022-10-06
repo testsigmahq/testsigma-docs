@@ -2,7 +2,7 @@
 title: "Import and Export Elements"
 metadesc: "How to import and export Elements to the Elements list"
 noindex: false
-order: 6.5
+order: 6.7
 page_id: "Import and Export Elements"
 warning: false
 contextual_links:
