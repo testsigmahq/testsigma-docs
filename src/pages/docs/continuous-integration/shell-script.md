@@ -353,7 +353,7 @@ BUILD_NO=$(date +"%Y%m%d%H%M")
 #********END USER_INPUTS***********
  
 #********GLOBAL variables**********
-POLL_COUNT=5
+POLL_COUNT=30
 SLEEP_TIME=$(((MAX_WAIT_TIME_FOR_SCRIPT_TO_EXIT*60)/$POLL_COUNT))
 JSON_REPORT_FILE_PATH=./testsigma.json
 TESTSIGMA_TEST_PLAN_REST_URL=https://app.testsigma.com/api/v1/execution_results
@@ -422,8 +422,10 @@ get_status(){
   RUN_BODY=$(echo $RUN_RESPONSE | sed -e 's/HTTPSTATUS\:.*//g')
   # extract the response status
   RUN_STATUS=$(echo $RUN_RESPONSE | tr -d '\n' | sed -e 's/.*HTTPSTATUS://')
+  echo "Test Plan Result Response: $RUN_BODY"
   # extract exec status
   EXECUTION_STATUS=$(echo $RUN_BODY | getJsonValue status)
+
 }
  
 function checkTestPlanRunStatus(){
@@ -431,10 +433,14 @@ function checkTestPlanRunStatus(){
   for ((i=0;i<=POLL_COUNT;i++))
   do
     get_status
-    if [ $EXECUTION_STATUS = "STATUS_IN_PROGRESS" ]; then
+    echo " Exceution Status:: $EXECUTION_STATUS "
+    if [[ $EXECUTION_STATUS =~ "STATUS_IN_PROGRESS" ]]; then
       echo "Poll #$(($i+1)) - Test Execution in progress... Wait for $SLEEP_TIME seconds before next poll.."
       sleep $SLEEP_TIME
-    elif [ $EXECUTION_STATUS = "STATUS_COMPLETED" ]; then
+    elif [[ $EXECUTION_STATUS =~ "STATUS_CREATED" ]]; then
+      echo "Poll #$(($i+1)) - Test Execution/Re-run Created... Wait for $SLEEP_TIME seconds before next poll.."
+      sleep $SLEEP_TIME  
+    elif [[ $EXECUTION_STATUS =~ "STATUS_COMPLETED" ]]; then
       IS_TEST_RUN_COMPLETED=1
       echo "Poll #$(($i+1)) - Tests Execution completed..."
       TOTALRUNSECONDS=$(($(($i+1))*$SLEEP_TIME))
@@ -535,6 +541,7 @@ function setExitCode(){
   else
     EXITCODE=1
   fi
+  echo "exit Code:$EXITCODE"
 }
 #******************************************************
  
