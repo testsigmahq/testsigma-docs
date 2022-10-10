@@ -1,5 +1,5 @@
 ---
-title: "Adding For Loop in Test Cases"
+title: "Adding for loops in test cases"
 metadesc: "How to create For Loop test steps while creating a test case in Testsigma"
 noindex: false
 order: 4.25
@@ -12,20 +12,18 @@ contextual_links:
   name: "Prerequisites"
   url: "#prerequisites"
 - type: link
-  name: "How to create a For loop test step"
-  url: "#how-to-create-a-for-loop-test-step"
-- type: link
-  name: "Add For Loop to Test Case"
+  name: "Add for loop to test case"
   url: "#add-for-loop-to-test-case"
 - type: link
-  name: "Additional Actions Possible on Iteration Count"
+  name: "Additional actions possible on iteration count"
   url: "#additional-actions-possible-on-iteration-count"
 ---
 
 ---
 
+<em>For Loops</em> are a powerful tool that will let us repeat operations. A <em>for loop </em> loops a block of steps through each dataset (which is a multi-column, multi-row variable) in a test data profile. The loop ends when it reaches the end of the dataset or when a <em>Break</em> is encountered.
 
-Using For loops, you can run the same test with a subset of test data. For instance, say you have a test data profile in the format below
+Thus using <em>for loops</em>, you can run the same test with a subset of test data. For instance, say you have a test data profile in the format below
 
 ![test data example](https://docs.testsigma.com/images/for-loop/test-data-example.png)
 
@@ -33,91 +31,39 @@ If you want to run a test case based on the above test data profile, but you jus
 
 &emsp;
 
----
 ##**Prerequisites**
-This document assumes that you know how to create a test case, if not, please refer to the document [here](https://testsigma.com/docs/test-cases/manage/add-edit-delete/)
+<ul>
+<li><a href="https://testsigma.com/docs/test-cases/manage/add-edit-delete/">Create a test case</a></li>
+<li><a href="https://testsigma.com/docs/test-data/create-data-profiles/">Create a test data profile</a></li>
+</ul>
 
 &emsp;
 
----
-##**How to create a For loop test step**
 
-### **Create a Test Data Profile**
+##**Add for loop to test case**
 
-Start by creating a test data profile with ‘n’ rows:
+<ol>
+<li>Create a test case and inside the test case, create test steps to be run before the <em>for loop</em>.</li>
+<li>Create the test data profile . Once the test data profile has been created, the <em>for loop </em>can be added in the test case to iterate through the rows of the profile. </li>
+<li>Hover over the menu adjacent to the test step on the left. This should open the menu with different test step options as shown below:
+<img src="https://s3.amazonaws.com/static-docs.testsigma.com/new_images/test-cases/step-types/for-loop/select_for_loop.png" alt="for loop"> </li>
+<li>Select <em>for loop</em> from the list. This option opens a drop down of NLP’s that can be used inside the test step.
+<img src="https://s3.amazonaws.com/static-docs.testsigma.com/new_images/test-cases/step-types/for-loop/for_loop_NLP_options.png" alt="for loop nlp options">
+<ul>
+<li>If you want to iterate through all the data sets of your test data profile from start to end use the below NLP:<img src="https://s3.amazonaws.com/static-docs.testsigma.com/new_images/test-cases/step-types/for-loop/for_loop_start_index_to_end_index.png" alt="index start to end"></li>
+<li>If you want to start the index at a specific number and end the index at a specific number use the below NLP:<img src="https://s3.amazonaws.com/static-docs.testsigma.com/new_images/test-cases/step-types/for-loop/for_loop_specific_index_number.png" alt="specific_index_number"><br>
+Refer to the below GIF for the usage of the NLP:<img src="https://s3.amazonaws.com/static-docs.testsigma.com/new_images/test-cases/step-types/for-loop/for_loop_specific_index.gif" alt="specific index number"><br>Sometimes you only want to work with a subset of the data sets of your test data profile.The subset of the data sets can be filtered based on data set name and parameter</li>
+<li>To filter test data profile based on data set name use the following NLP <img src="https://s3.amazonaws.com/static-docs.testsigma.com/new_images/test-cases/step-types/for-loop/for_loop_set_name.png" alt="for loop set name">The data set names can be subjected to advanced filtering based on the keywords <kbd>contains</kbd>,<kbd>startswith</kbd>,<kbd>endswith</kbd>,<kbd>IN</kbd> and the different data types supported by Testsigma. <em>For more information refer to <a href="https://testsigma.com/docs/test-data/types/overview/">data types </a></em>.<br>Refer to the below GIF for the sample usage of the NLP<img src="https://s3.amazonaws.com/static-docs.testsigma.com/new_images/test-cases/step-types/for-loop/for_loop_setname_contain.gif" alt="for loop setname contain"></li>
+<li>To filter test data profile based on parameter value use the below NLP<img src="https://s3.amazonaws.com/static-docs.testsigma.com/new_images/test-cases/step-types/for-loop/for_loop_parameter_value.png" alt="for loop parameter value"><br>Refer to the below GIF for the sample usage of the NLP:<img src="https://s3.amazonaws.com/static-docs.testsigma.com/new_images/test-cases/step-types/for-loop/for_loop_parameter_value.gif" alt="parameter value"></li>
+</ul>
+</li>
+<li>Select the suitable NLP to include in the test step. </li>
+<li>Finish creating the <em>for loop</em> test step by clicking on <strong>Create</strong> button.</li>
+</ol>
+<br>
 
- 1. Navigate to Test Development
- 2. Click on Test Data Profiles and click Create
 
-![navigate to test data profile](https://s3.amazonaws.com/static-docs.testsigma.com/new_images/test-cases/step-types/for-loop/navigate-to-test-data-profile1.png)
-
- 3. Enter details in the Test Data profile, a sample data profile is attached in the screenshot below for your reference: 
-
-![test data profile creation](https://docs.testsigma.com/images/for-loop/test-data-profile-creation.png)
-
- 4. Once the test data profile has been created, the for loop can be added in the test case to iterate through the rows of the profile. 
-
-&emsp;
-
----
-##**Add For Loop to Test Case**
-
- 1. Create a test case 
- 2. Create test steps to be run before the for loop
-
-![create test steps](https://docs.testsigma.com/images/for-loop/create-test-steps.png)
-
- 3. Hover over the menu adjacent to the test step on the left. This should open up the menu with different test step options
-
-![hover over test step menu](https://docs.testsigma.com/images/for-loop/hover-over-test-step-menu.png)
-
- 4. Choose “For Loop” from the drop-down menu
-
-![choose test data profile start end](https://docs.testsigma.com/images/for-loop/choose-test-data-profile-start-end.png)
-
- 5. Select the Test Data profile that you want to iterate over in the For loop. In this case, the test data profile we have chosen is “Test Data Example”
-You can choose to start and end the iteration in between with the following options - Loop start and Loop end
-    
-    1. Loop Start: Mention the serial number of Test Data set in the associated Test Data profile where the iteration is to start from
-    2. Loop End: Mention the serial number of Test Data set in the associated Test Data profile where the iteration is to end
-
-&emsp;
-
- 6. Now, finish creating the For loop Test Step by clicking on ‘Create’ button
-
- 7. The For loop step has been added and we can continue adding Steps inside the For loop now. To do that, hover over the For loop and click on the “Add Step” button as also shown in the screenshot below
-
-![hover over test step for loop](https://docs.testsigma.com/images/for-loop/hover-over-test-step-for-loop.png)
-
-This will create a new test step 4.1 which will be a part of the for loop which is step 4
-
-![new step under for loop](https://docs.testsigma.com/images/for-loop/new-step-under-for-loop.png)
-
- 8. In test step 4.1, write the step that needs to be parameterized and looped
-
-    * To perform this, choose the action, example - Enter <span style="color:blue">test data</span> in the <span style="color:green">element field</span>
-    * Delete test data in the action text and choose the @|Parameter| from the suggestion
-    * Choose the parameter from the same test data profile selected in the for loop as shown below
-
-![create new step under for loop](https://docs.testsigma.com/images/for-loop/create-new-step-under-for-loop.png)
-
- 9. Similarly mouseover on the 4.1 step again to add more steps inside For Loop
- 10. When you run the test case, the results will be shown like this:
-
-![run results for loop](https://docs.testsigma.com/images/for-loop/run-results-for-loop.png)
-
-[[info | Note:]]
-|There can be Step Groups or If-Else statements inside the For loop.
-
-Here’s a gif to demonstrate how to add for loop test steps into your test case.
-
-![gif choose for loop test type](https://docs.testsigma.com/images/for-loop/gif-choose-for-loop-test-type1.gif)
-
-![gif test data profile for loop test type](https://docs.testsigma.com/images/for-loop/gif-test-data-profile-for-loop-test-type.gif)
-
----
-
-##**Additional Actions Possible on Iteration Count**
+##**Additional actions possible on iteration count**
 
 1. **Store**: Iteration count is the current count that is being iterated in a for loop in Testsigma. This Iteration Count can be stored into a variable for later use. Below is how the syntax for the Store NLP looks like:
 
