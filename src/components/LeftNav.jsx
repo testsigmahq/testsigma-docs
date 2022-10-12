@@ -14,6 +14,7 @@ let slugs;
 class ListItem extends React.Component {
 
     constructor(props) {
+        console.log("in", props);
         super(props);
         const { data, isRoot, identifier } = this.props;
         this.state = {
