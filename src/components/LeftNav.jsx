@@ -35,8 +35,11 @@ class ListItem extends React.Component {
         if (active.indexOf(name) === -1) {
             this.setState((prev) => ({ active: [...prev.active, name] }));
             const { expandedPanels } = this.state;
+            console.log("in");
             if(!expandedPanels){
+                console.log("set expandedPanels");
                 this.setState(() => ({ expandedPanels: [ name] }));
+                console.log(this.state.expandedPanels);
             }
         }
     } // sets a given list item as active
