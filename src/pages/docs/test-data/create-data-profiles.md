@@ -106,7 +106,7 @@ You should know how to create a test case, if not, please refer to the document 
 * Also enable the data-driven testing toggle button.
 * Click **Create**.
 
-![associate a test data profile to a test case in Testsigma](https://s3.amazonaws.com/static-docs.testsigma.com/new_images/test-data/create-data-profiles/create_test_case_data_profile.gif)
+![associate a test data profile to a test case in Testsigma](https://s3.amazonaws.com/static-docs.testsigma.com/new_images/test-cases/overview/create_data_driven_test_case.gif)
 
 ---
 ##Step 2: Insert the test data into your test case
