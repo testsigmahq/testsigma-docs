@@ -1,30 +1,30 @@
 ---
-title: "Update Browser drivers for Testsigma Agent manually"
+title: "Update browser drivers for Testsigma agent manually"
 metadesc: "How to update the Browser Driver files for Testsigma Agent manually."
 noindex: false
 order: 11.7
-page_id: "Update Browser drivers for Testsigma Agent manually"
+page_id: "Update browser drivers for Testsigma agent manually"
 warning: false
 contextual_links:
 - type: section
   name: "Contents"
 - type: link
-  name: "Location of Driver files"
+  name: "Location of driver files"
   url: "#location-of-driver-files"
 - type: link
-  name: "Downloading the Driver files"
+  name: "Downloading the driver files"
   url: "#downloading-the-driver-files"
 - type: link
-  name: "Adding Drivers Manually"
+  name: "Adding drivers manually"
   url: "#adding-drivers-manually"
 - type: link
-  name: "Additional Steps for Mac/Linux"
+  name: "Additional steps for Mac or Linux"
   url: "#additional-steps-for-maclinux"
 
 ---
 
 ---
-During a Local Execution, Testsigma Agent communicates with the Web Browser installed on your machine using the driver files specific to the respective browser. Driver files for all the popular browser versions are included in Testsigma Agent automatic updates.
+During a local execution, Testsigma agent communicates with the Web Browser installed on your machine using the driver files specific to the respective browser. Driver files for all the popular browser versions are included in Testsigma Agent automatic updates.
 
 **Why is updating the browser driver files necessary?**<br>
 Sometimes, the update fails, due to bad network conditions or Firewall restrictions. You might need to manually download the driver files specific to your Web Browser and Operating System and place them in the correct directory within the Testsigma Agent directory.
@@ -32,13 +32,13 @@ Sometimes, the update fails, due to bad network conditions or Firewall restricti
 <br>
 
 ---
-##**Location of Driver files**
+##**Location of driver files**
 
-The Driver files are located under the following directories for the different Web Browsers:<br>
-- Google Chrome: < TestsigmaAgentDirectory >/drivers/googlechrome
-- Edge: < TestsigmaAgentDirectory >/drivers/edge
-- Mozilla Firefox: < TestsigmaAgentDirectory >/drivers/mozilla
-- InternetExplorer: < TestsigmaAgentDirectory >/drivers/internetexplorer
+Driver files are located under the following directories for the different Web Browsers:<br>
+- Google Chrome: <kbd>< TestsigmaAgentDirectory >/drivers/googlechrome</kbd>
+- Edge: <kbd>< TestsigmaAgentDirectory >/drivers/edge </kbd>
+- Mozilla Firefox:<kbd> < TestsigmaAgentDirectory >/drivers/mozilla</kbd>
+- InternetExplorer:<kbd> < TestsigmaAgentDirectory >/drivers/internetexplorer</kbd>
 
 [[info | NOTE:]]
 |The InternetExplorer folder is present only for Windows version of the Agent
@@ -46,24 +46,24 @@ The Driver files are located under the following directories for the different W
 <br>
 
 ---
-##**Downloading the Driver files**
+##**Downloading the driver files**
 
 When new browser versions are released, a newer driver version will be released on [SeleniumHQ Downloads page](http://www.seleniumhq.org/download/).
 
 And here are the direct links to WebDrivers of the most popular Browsers:<br>
-[Firefox - GeckoDriver(Hosted on Github)](https://github.com/mozilla/geckodriver/releases)<br>
-[Chrome - ChromeDriver(Hosted on Google Sites)](https://sites.google.com/a/chromium.org/chromedriver/downloads)<br>
-[Microsoft Internet Explorer - InternetExplorerDriver](https://www.seleniumhq.org/download/)<br>
-[Microsoft Edge - Edge Driver](https://developer.microsoft.com/en-us/microsoft-edge/tools/webdriver/)<br>
+* [Firefox - GeckoDriver (Hosted on Github)](https://github.com/mozilla/geckodriver/releases)<br>
+* [Chrome - ChromeDriver (Hosted on Google Sites)](https://sites.google.com/chromium.org/driver/)<br>
+* [Microsoft Internet Explorer - InternetExplorerDriver](https://www.seleniumhq.org/download/)<br>
+* [Microsoft Edge - Edge Driver](https://developer.microsoft.com/en-us/microsoft-edge/tools/webdriver/)<br>
 
 <br>
 
 ---
-##**Adding Drivers Manually**
+##**Adding drivers manually**
 
 We just need to download the corresponding file from the above link and place it in the correct directory.
 
-For Example, let us assume that the installed version of the Google Chrome browser is v93 and a new version v94 is released today. When a new Browser version is released, a new browser driver version will also be released shortly.
+For example, let us assume that the installed version of the Google Chrome browser is v93 and a new version v94 is released today. When a new Browser version is released, a new browser driver version will also be released shortly.
 
 In case the recent Agent update didn’t include driver v94, we need to do the following steps to add the browser driver manually:
 
@@ -87,8 +87,8 @@ Here’s a screenshot of the Agents folder for Testsigma Agent in Mac OS:
 <br>
 
 ---
-##**Additional Steps for Mac/Linux**
-Apart from the above steps, there are some additional steps to be performed to avoid permission issues in Mac/Linux. This is due to the presence of executable bit permission for Unix-based Operating Systems.
+##**Additional steps for Mac or Linux**
+Apart from the above steps, there are some additional steps to be performed to avoid permission issues in Mac or Linux. This is due to the presence of executable bit permission for Unix-based Operating Systems.
 
 After placing the downloaded driver in the newly created folder, we need to perform the following steps:
 

@@ -1,5 +1,5 @@
 ---
-title: "Update Testsigma Agent manually"
+title: "Update Testsigma agent manually"
 metadesc: "How to update Testsigma Agent manually"
 order: 11.6
 page_id: "Update Testsigma Agent manually"
