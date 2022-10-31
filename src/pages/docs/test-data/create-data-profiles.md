@@ -18,11 +18,8 @@ contextual_links:
   name: "Steps to follow to create test data that is expected to fail the test case:"
   url: "#steps-to-follow-to-create-test-data-that-is-expected-to-fail-the-test-case"
 - type: link
-  name: "How to use this data in your test case"
-  url: "#how-to-use-this-data-in-your-test-case"
-- type: link
-  name: "Prerequisites:"
-  url: "#prerequisites"
+  name: "How to use a test data profile in your test case"
+  url: "#how-to-use-a-test-data-profile-in-your-test-case"
 - type: link
   name: "Additional Actions Possible on Test Data Set Name"
   url: "#additional-actions-possible-on-test-data-set-name"
@@ -83,45 +80,46 @@ Alternatively, below is a quick GIF that demonstrates the workflow to create a t
 
 ---
 ##**Steps to follow to create test data that is expected to fail the test case:**
-The steps to create test data that is expected to fail a test case is similar to the steps to create general test data that would pass the test case. The difference is just that the toggle button under the column **EXPECTED TO FALL** needs to be enabled and would look like the screenshot below:
+The steps to create test data that is expected to fail a test case is similar to the steps to create general test data that would pass the test case. The difference is just that the toggle button under the column **EXPECTED TO FAIL** needs to be enabled and would look like the screenshot below:
 
    ![creating test data profile to fail a test case in Testsigma](https://docs.testsigma.com/images/test-data/creating-test-data-profile-to-fail-test-case.png)
 
 
 ---
-##**How to use this data in your test case**
-Below, we discuss an example that associates the test data with a test case. 
+##**How to use a test data profile in your test case**
+
+Below, we discuss with an example on how to associate the test data profile with a test case. 
+
+
+## Step 1: Associate test data profile with your test case 
+
+1. Create a new test case or edit an exisiting test case. *For more information refer to [create test case](https://testsigma.com/docs/test-cases/manage/add-edit-delete/)*.
+2. In the **Advanced options** menu, select the test data profile from the dropdown.
+3. Enable the **Data-driven** testing toggle button. Once you have enable the data driven testing in your test case, you can narrow and customize the various data sets from your test data profile that are being used in your test case using the filters *iteration*, *parameter*, *set name*.
+<ul>
+<li>Iteration: This type of filtering is applicable only to sequential data sets. The data sets can be filtered using the filter operations <em>greater than</em>, <em>less than</em>, or <em>between</em>.</li>
+<li>Set name: This type of filtering is applicable for non sequential data sets. Here the data sets are filtered by data set names using the operations <em>between</em>, <em>equals</em>, <em>contains</em>, <em>starts with</em>, <em>ends with</em>. Any data set names containing the set name or part of it are used in the test case.</li>
+<li>Parameter:This type of filtering is applicable for non sequential data sets. Here the data sets are filtered using parameters used in data sets.</li>
+</ul>
+4. Create the test case.
+
+![associate a test data profile to a test case in Testsigma](https://s3.amazonaws.com/static-docs.testsigma.com/new_images/test-data/create-data-profiles/data_driven_test.gif)
 
 ---
-##**Prerequisites:**
+## Step 2: Insert the test data into your test case
 
+Create test steps as below :<br>
 
-You should know how to create a test case, if not, please refer to the document [here](https://testsigma.com/docs/test-cases/manage/add-edit-delete/).
-
----
-##Step 1: Associate this test data profile with your test case
-
-* Create a new test case.
-* In the advanced options menu, choose the test data profile from the dropdown.
-* Also enable the data-driven testing toggle button.
-* Click **Create**.
-
-![associate a test data profile to a test case in Testsigma](https://s3.amazonaws.com/static-docs.testsigma.com/new_images/test-cases/overview/create_data_driven_test_case.gif)
-
----
-##Step 2: Insert the test data into your test case
-* Create test steps as below 
-Navigate to https://travel.testsigma.com/signup
-
-  Enter **test data** in the **elements** field
-
-* Delete test data placeholder from the above line and choose parameters from the drop-down. 
-
-* Choose your test data from the right-side panel.
+1. Navigate to https://travel.testsigma.com/signup
+2. Enter **test data** in the **elements** field
+3. Delete test data placeholder from the above line and choose parameters from the drop-down. 
+4. Choose your test data from the right-side panel.
 
 The above workflow is depicted in the below GIF too:
 
-   ![gif demonstrating the insertion of test data into a test case in Testsigma](https://s3.amazonaws.com/static-docs.testsigma.com/new_images/test-data/insert-test-data-to-test-case.gif)
+   ![gif demonstrating the insertion of test data into a test case in Testsigma](https://s3.amazonaws.com/static-docs.testsigma.com/new_images/test-data/create-data-profiles/using_data_profile.gif)
+
+Test data profile can also be included in test steps using *while loops* and *for loops*. *For more information refer to [while loop](https://testsigma.com/docs/test-cases/step-types/while-loop/) and [for loop](https://testsigma.com/docs/test-cases/step-types/for-loop/)*
 
 The test data can also be imported from an excel sheet, explained [here](https://testsigma.com/docs/test-data/import-data-profiles/).
 

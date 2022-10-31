@@ -1,9 +1,9 @@
 ---
-title: "Test Case Types in Testsigma"
-metadesc: "What are Test Case Types in Testsigma and how to use them while creating and maintaining Test Cases."
+title: "Test case types"
+metadesc: "What are test case types in Testsigma and how to use them while creating and maintaining test cases."
 noindex: false
 order: 2.40
-page_id: "Test Case Types in Testsigma"
+page_id: "Test case types"
 warning: false
 contextual_links:
 - type: section
@@ -12,30 +12,31 @@ contextual_links:
   name: "Prerequisites"
   url: "#prerequisites"
 - type: link
-  name: "Add a new Test Case Type"
+  name: "Add a new test case type"
   url: "#add-a-new-test-case-type"
 - type: link
-  name: "Delete a Test Case Type"
+  name: "Delete a test case type"
   url: "#delete-a-test-case-type"
 - type: link
-  name: "Edit a Test Case Type"
+  name: "Edit a test case type"
   url: "#edit-a-test-case-type"
 - type: link
-  name: "Assign a Test Case Type to a Test Case"
+  name: "Assign a test case type to a test Case"
   url: "#assign-a-test-case-type-to-a-test-case"
 ---
 
 ---
-Test Case Types are used to group test cases into a certain type. For example : Functional, Non-functional, User experience, etc. They are best used when:
+Test case types are used to group test cases into categories with similar characteristics. Common types of test cases are *Functional*, *Non-functional*, *User experience*, and so on.
+ They are best used when:
+
   1. You want to analyze your test results by test case types. 
   2. You need to filter test cases by test case types.
   
   &emsp;
+While creating a test case on Testsigma, you can assign a type to it, to differentiate it from other test cases. 
 
+**In this article, we will discuss:**
 
-Testsigma has an interface to create test cases with a test type attribute. While creating a test case, you can assign a type to it, to differentiate it from other test cases. 
-
-**In this document, we will discuss:**
   1. How to access test case types.
   2. How to add new test case types.
   3. How to edit/delete test case types.
@@ -46,61 +47,53 @@ Testsigma has an interface to create test cases with a test type attribute. Whil
 ---
 ##**Prerequisites**
 
-This document assumes that you know how to create a test case. If not, refer to [Creating a Test Case](https://testsigma.com/docs/test-cases/manage/add-edit-delete/).
+* Know how to create a test case. *For more information refer to, [create a test case](https://testsigma.com/docs/test-cases/manage/add-edit-delete/)*.
 
-&emsp;
-
-  **Navigation:**
-
-Select Project > Project Settings > Test Case Types
-
-  1. Select the Project
-  2. Go to Project Settings and select Test case Types, as highlighted in the screenshot below:
-     
-  ![test case types menu](https://docs.testsigma.com/images/test-case-types/test-case-types-menu.png)
-
-&emsp;
 
 ---
-##**Add a new Test Case Type**
+##**Add a new test case type**
 
+1. **Select Project > Project Settings > Test Case Types**.
+2. Click on the button **+Add Type** on the top right corner, also highlighted in the screenshot below:![test case types add button](https://docs.testsigma.com/images/test-case-types/test-case-types-add-button.png)
+3. A new blank row will appear where you can start typing to add the new test case type. Once you’re done, press **Enter**.
+
+  ![ add new test case type](https://docs.testsigma.com/images/test-case-types/add-new-test-case-type.png)
 Here’s how a new test case type can be added to a Testsigma project:
       
   ![view and add test case types](https://docs.testsigma.com/images/test-case-types/view-and-add-test-case-types.gif)   
 
   &emsp;
 
-  1. Click on the button ‘+Add Type’ on the top right corner, also highlighted in the screenshot below:
-
-  ![test case types add button](https://docs.testsigma.com/images/test-case-types/test-case-types-add-button.png)
-  
-  &emsp;
-
-  2. A new blank row will appear where you can start typing to add the new test case type. Once you’re done, press enter.
-
-  ![ add new test case type](https://docs.testsigma.com/images/test-case-types/add-new-test-case-type.png)
-
-&emsp;
 
 ---
-##**Delete a Test Case Type**
+##**Delete a test case type**
 
-Hover over the test case type you want to delete and click on the Delete icon that appears. 
+1. To delete a test case type, hover over the test case type you want to delete and click on the **Delete** icon that appears. 
 
   ![ test case type delete button](https://docs.testsigma.com/images/test-case-types/test-case-type-delete-button.png)
+2. On the **Delete confirmation** window, unlink all test cases linked to the test case type.
+![delete confirmation window](https://s3.amazonaws.com/static-docs.testsigma.com/new_images/test-data/create-data-profiles/delete_test_type_confirmation.png)
 
+   1. To unlink test case, click on **View test case**, on the right side of each individual test case. This would take you to the **Edit test case** page.
+   2. On the **Edit test** case page, change the test case type to any other available test case type.
+   3. Click **Update**. 
+   4. Repeat the steps 1 to 4, to unlink all the linked test cases.
+   5. After unlinking all the required test cases, click **Done**.
+
+3. Click the **Delete** button on the right of the test case type you want to delete.
+4.  On the **Delete test case type** window, type <kbd>DELETE</kbd> to confirm deletion.![delete test case type](https://s3.amazonaws.com/static-docs.testsigma.com/new_images/projects/settings/test-case-types/delete_test_case_type_confirmation_new.png)
 &emsp;
 
 ---
-##**Edit a Test Case Type**
+##**Edit a test case type**
 
-  1. Hover over the test case type and click on the edit icon
+  1. Hover over the test case type and click on the **Edit** icon
 
   ![ test ase type edit button](https://docs.testsigma.com/images/test-case-types/test-case-type-edit-button.png)
 
   &emsp;
   
-  2. Now, you will be able to edit the text of the test case type. Clicking ‘enter’ will save the changes. 
+  2. Now, you will be able to edit the text of the test case type. Clicking **Enter** will save the changes. 
     
   ![ test case type edit text](https://docs.testsigma.com/images/test-case-types/test-case-type-edit-text.png)
 
@@ -112,23 +105,23 @@ Hover over the test case type you want to delete and click on the Delete icon th
 &emsp;
 
 ---
-##**Assign a Test Case Type to a Test Case**
+##**Assign a test case type to a test case**
 
-A ‘Test Case Type’ can be assigned to a ‘Test Case’ when a new test case is being created.
+A **Test Case Type** can be assigned to a **Test Case** when a new test case is being created.
 
   ![assign test case type to a test case](https://s3.amazonaws.com/static-docs.testsigma.com/new_images/projects/settings/test-case-types/assign-test-case-type-to-a-test-case2.gif)
 
   &emsp;
 
-To create test cases of a specific type, choose the test case type from the “Advanced Options” dropdown. Alternatively, follow the steps below to assign a test case type to a test case:
+To create test cases of a specific type, choose the test case type from the **Advanced Options** dropdown. Alternatively, follow the steps below to assign a test case type to a test case:
 
 
-1. Select the project you want to add the test case to
-2. Navigate to the ‘Test Development’ menu
-3. Click on ‘Test Cases’ menu 
-4. Create a new Test Case by clicking on the ‘Create’ button
+1. Select the project you want to add the test case to.
+2. Navigate to the **Test Development** menu.
+3. Click on **Test Cases** menu. 
+4. Create a new Test Case by clicking on the **Create** button.
 5. Enter a meaningful name and a description of the test case.
-6. Click on the ‘Show Advanced Options’ text that appears on the ‘Create Test Case’ page:
+6. Click on the **Show Advanced Options** text that appears on the **Create test case** page:
 
   ![create test case show advanced options](https://s3.amazonaws.com/static-docs.testsigma.com/new_images/projects/settings/test-case-types/create-test-case-show-advanced-options.png)
 
