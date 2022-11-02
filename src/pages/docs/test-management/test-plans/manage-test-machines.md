@@ -34,7 +34,7 @@ The following article discusses about how to add, edit, or delete test machines 
 1. Navigate to **Select project**> **Test development**>**Test plan**.
 2. Click on an existing test plan and click on **Edit Button** on the top right corner.
 3. On the **Edit test plan** page, navigate to the tab **Test devices and suites**.
-![test device and suites](https://s3.amazonaws.com/static-docs.testsigma.com/new_images/test-management/test-plans/overview/edit_test_suite_edit_machine.png)
+![test device and suites](https://s3.amazonaws.com/static-docs.testsigma.com/new_images/test-management/test-plans/overview/test_devices_test_suites.png)
 4. On the **Test devices and suites** tab, select the test suite for which you want to add the test machine for test execution.
 5. On the **Select test device(edit)** overlay, add or edit the necessary details.
 ![select test device overlay](https://s3.amazonaws.com/static-docs.testsigma.com/new_images/test-management/test-plans/overview/select_test_device_edit.png)

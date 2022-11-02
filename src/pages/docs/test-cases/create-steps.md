@@ -1,5 +1,5 @@
 ---
-title: "Create Test Steps in Testsigma"
+title: "Create test steps in Testsigma"
 metadesc: "How to create Test Steps in Testsigma "
 noindex: false
 order: 4.30
@@ -9,8 +9,8 @@ contextual_links:
 - type: section
   name: "Contents"
 - type: link
-  name: "Pre-requisites"
-  url: "#pre-requisites"
+  name: "Prerequisites"
+  url: "#prerequisites"
 - type: link
   name: "Ways to create Test Steps"
   url: "#ways-to-create-test-steps"

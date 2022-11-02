@@ -1,6 +1,6 @@
 ---
-title: "Import and Export Test Cases"
-metadesc: "Importing and Exporting Test Cases to and from the Test Cases list"
+title: "Import and export test cases"
+metadesc: "Importing and exporting test cases to and from the test cases list"
 noindex: false
 order: 4.14
 page_id: "Import and Export Test Cases"
@@ -9,13 +9,13 @@ contextual_links:
 - type: section
   name: "Contents"
 - type: link
-  name: "Import File Format"
+  name: "Import file format"
   url: "#import-file-format"
 - type: link
-  name: "Import Test Cases"
+  name: "Import test cases"
   url: "#import-test-cases"
 - type: link
-  name: "Export Test Case"
+  name: "Export test case"
   url: "#export-test-case"
 ---
 
@@ -35,7 +35,7 @@ You can use test case import and export to populate a new Testing Project with p
 &emsp;
 
 ---
-##**Import File Format**
+##**Import file format**
 
 The Import file has the following Columns:
 
@@ -67,39 +67,39 @@ The Import file has the following Columns:
 &emsp;
 
 ---
-##**Import Test Cases**
+##**Import test cases**
 
 From the Test Cases list, click on the Import button on the top right corner to open the Import Dialog as shown below:
 
-![Test-Cases-Import-Dialog](https://s3.amazonaws.com/static-docs.testsigma.com/new_images/test-cases/manage/import-export/Test-Cases-Import-Dialog.png)
+![Test-Cases-Import-Dialog](https://s3.amazonaws.com/static-docs.testsigma.com/new_images/test-management/test-plans/overview/import_test_case.png)
 
 &emsp;
 
 
- 1. Click on the Choose File button to upload the Test Case Import file.
+ 1. Click on the **Choose File** button to upload the test case import file.
 
 
 [[info | Note:]]
-|We need to use a specific Test Case Import Template for importing the data. Click on the Sample File link to download the Test Case Import file template, update your Test Cases data and re-upload the file to Import your Test Cases.
+|We need to use a specific test case import template for importing the data. Click on the Sample File link to download the test case Import file template, update your test cases data and re-upload the file to Import your test cases.
 
- 2. Click on the Import button to import the Test Cases. You would see a success notification saying that the Import has been successfully completed. The Import would happen in the background after which you will be notified by email.
+ 2. Click on the **Import** button to import the Test Cases. You would see a success notification saying that the Import has been successfully completed. The Import would happen in the background after which you will be notified by email.
     
   If the import has failed due to some reason, you will receive an email with the reason for the failure.
 
 &emsp;
 
 ---
-##**Export Test Case**
+##**Export test case**
 
-From the Test Cases list, click on the Export button on the top right corner to open the Export Dialog as shown below:
+From the Test cases list, click on the **Export** button on the top right corner to open the Export Dialog as shown below:
 
-![Test-Case-Export-Dialog](https://s3.amazonaws.com/static-docs.testsigma.com/new_images/test-cases/manage/import-export/Test-Case-Export-Dialog.png)
+![Test-Case-Export-Dialog](https://s3.amazonaws.com/static-docs.testsigma.com/new_images/test-management/test-plans/overview/export_test_case.png)
 &emsp;
 
 We have two options here:
 
- * Test Case XLS Export - Export the Test Cases to a Spreadsheet file. Use this option for exporting the Test Cases and importing them back later with or without changes to the Test Case Details.
- * Test Case XML Export - Back up the Test Case data in XML Format.
+ * **Test Case XLS Export** - Export the Test Cases to a Spreadsheet file. Use this option for exporting the Test Cases and importing them back later with or without changes to the Test Case Details.
+ * **Test Case XML Export** - Back up the Test Case data in XML Format.
   
 &emsp;
 

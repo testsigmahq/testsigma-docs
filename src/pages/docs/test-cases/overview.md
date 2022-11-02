@@ -8,25 +8,23 @@ warning: false
 ---
 
 ---
+Test cases  are a set of steps or user actions that are automated to play out a test scenario. *For more information, refer to [Testsigma terminology](https://testsigma.com/docs/getting-started/terminology/)*.
 
-Test Cases **[[?](https://testsigma.com/docs/getting-started/terminology/)]** are a set of steps (aka user actions) that are automated to play out a test scenario.
+You can view the test cases under your current application by navigating to **Test development> Test cases** from the Testsigma dashboard.
 
-From the Testsigma Dashboard, navigate to your Test Cases (under your current Application’s Version) list by going to **Test Development** > **Test Cases**.
+![test cases](https://s3.amazonaws.com/static-docs.testsigma.com/new_images/test-cases/overview/view_your_test_cases.png)
 
-To learn how to create a Test Case, refer to [Create Test Case](https://testsigma.com/docs/test-cases/manage/add-edit-delete/).
+To learn how to create a test case, *refer to [create test case](https://testsigma.com/docs/test-cases/manage/add-edit-delete/)*.
 
 &emsp;
 
-From the Test Cases page, you can:
+From the **Test cases** page, you can:
 
- * [Search for a Test Case by Name](https://testsigma.com/docs/test-cases/manage/list-actions/).
- * [Sort Test Cases](https://testsigma.com/docs/test-cases/manage/list-actions/) on various criteria.
- * [Filter Test Cases](https://testsigma.com/docs/test-cases/manage/list-actions/) list to organize the Test Cases list.
- * [Import Test Cases](https://testsigma.com/docs/test-cases/manage/import-export/) from an exported list.
- * [Export Test Cases](https://testsigma.com/docs/test-cases/manage/import-export/).
- * [Bulk Delete one or more Test Cases together](https://testsigma.com/docs/test-cases/create-steps-nl/bulk-actions/).
+ * [Search for a test case by name](https://testsigma.com/docs/test-cases/manage/list-actions/).
+ * [Sort test cases](https://testsigma.com/docs/test-cases/manage/list-actions/) based on various criteria.
+ * [Filter test cases](https://testsigma.com/docs/test-cases/manage/list-actions/) to  narrow and customize your search for test cases from the test cases list.
+ * [Import test cases](https://testsigma.com/docs/test-cases/manage/import-export/) from an exported list.
+ * [Export test cases](https://testsigma.com/docs/test-cases/manage/import-export/).
+ * [Bulk delete one or more test cases together](https://testsigma.com/docs/test-cases/create-steps-nl/bulk-actions/).
   
 
-Click on a Test Case to view its  details, as shown below:
-
-![Test Case Details](https://docs.testsigma.com/images/test-cases/test-case-details.png)
