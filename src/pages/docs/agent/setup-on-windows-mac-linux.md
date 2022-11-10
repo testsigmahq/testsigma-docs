@@ -175,19 +175,19 @@ You can use the menu options to **Quit** and **Restart the Agent**.
 It will try to establish a connection to the agent running on your machine as shown below:
 ![Testsigma Agents Register Agent Overlay page](https://s3.amazonaws.com/static-docs.testsigma.com/new_images/agent/setup-on-windows-mac-linux/registering_new_agent.png)
 
-3. Enter a title/name for your machine and click on the Save button.
+3. On the **Add new Agent** overlay provide the following and click on the **Save** button.:
+    - **Title**: Enter a name for your machine.
+    - **HTTP and HTTPS Port**: The default ports are 8080 and 8443 respectively. If these ports are unavailable Testsigma automatically detects the next availble ports. If no ports are available, refer to [troubleshooting HTTP and HTTPS port numbers](https://testsigma.com/docs/agent/troubleshooting/setup-issues/).
+    - **Visible to Everyone**: By default, Agent will be visible to everyone. If you want to make this agent private, uncheck the checkbox **Visible to Everyone**.
 
 ![Add new agent form](https://s3.amazonaws.com/static-docs.testsigma.com/new_images/agent/setup-on-windows-mac-linux/add_a_new_agent_registration_form.png)
 
-[[info | NOTE:]]
-|By default, Agent will be **Visible to Everyone**. You can make this agent private to your account by unchecking **Visible to Everyone**<br>
-|Also, the values given for **HTTP** and **HTTPS port** can be left as it is. Only if you want to run the agent on different ports, change the values.
 
-4. Once you have entered the Title, click on save to save the Agent. After saving, the agent that you registered will be displayed with all the available browsers in that Agent machine:
+4. After saving, the agent that you registered will be displayed with all the available browsers in that Agent machine:
 
 ![Testsigma Agents list new Agent](https://s3.amazonaws.com/static-docs.testsigma.com/new_images/agent/setup-on-windows-mac-linux/agent_registered.png)
 
-It might take a couple of minutes for the operating system version and the Browser names to show up. Refer to the [Testsigma Agent troubleshooting guide](https://testsigma.com/docs/agent/troubleshooting/setup-issues/) if the details don’t show up after 10 minutes.
+It might take a couple of minutes for the operating system version and the browser names to appear. Refer to the [Testsigma Agent troubleshooting guide](https://testsigma.com/docs/agent/troubleshooting/setup-issues/) if the details does not show up after 10 minutes.
 
 ---
 
