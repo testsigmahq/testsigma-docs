@@ -1,5 +1,5 @@
 ---
-title: "Troubleshooting Agent Startup/Registration Errors"
+title: "Troubleshooting Agent startup and registration errors"
 metadesc: "Common Agent startup or registration issues and how to troubleshoot them."
 noindex: false
 order: 11.91
@@ -9,62 +9,61 @@ contextual_links:
 - type: section
   name: "Contents"
 - type: link
-  name: "Troubleshooting URLs and Port Numbers"
-  url: "#troubleshooting-urls-and-port-numbers"
+  name: "Port not available"
+  url: "#1-port-not-available"
 - type: link
-  name: "Common causes of Agent startup, register and auto-update Errors"
-  url: "#common-causes-of-agent-startup-register-and-auto-update-errors"
+  name: "Unable to register"
+  url: "#2-unable-to-register"
 - type: link
-  name: " "
-  url: " "
+  name: "Certificate errors"
+  url: "#3-certificate-errors "
+- type: link
+  name: "Permission issues"
+  url: "#4-permission-issues"
+
+- type: link
+  name: "Agent out of sync"
+  url: "#5-agent-out-of-sync"
+
 
 ---
 
 ---
 
-If  the Agent is not starting, or is starting and terminating immediately, please check the Agent logs for the root cause. See [How to get Agent Logs](https://testsigma.com/docs/agent/troubleshooting/logs/) for the error. If you need some help understanding the error from the logs, please [contact Support](mailto:support@testsigma.com).
-
+If  the Agent is not starting, or is starting and terminating immediately, see the Agent logs for details.  *For more information refer to, [fetching Agent logs](https://testsigma.com/docs/agent/troubleshooting/logs/)*. If you need some help understanding the error from the logs, reach out to [support](mailto:support@testsigma.com).<br>
+The below sections discusses common errors and troubleshooting suggestions:
 <br>
 
 ---
-##**Troubleshooting URLs and Port Numbers**
 
-Default HTTP Port - 8080<br>
-Default HTTPS Port - 8443<br>
-Once the Testsigma Agent is started, Testsigma Agent Web UI is accessible at 
+## **1. Port not available**
 
-Once the Testsigma Agent is started, Testsigma Agent Web UI is accessible at<br>
-   http://localhost:8383/agent (HTTP) 
-OR
-   https://local.testsigmaagent.com:8484/agent/ (HTTPS)
+The ports required for Testsigma agent to run smoothly are 8080, 8383, 8443, and 8484.The default HTTP port is 8080 and default HTTPS port is 8443. If these ports are unavailable Testsigma automatically detects the next available ports.  You can manually check the availability of the ports using the below commands:
 
-<br>
-
----
-##**Common causes of Agent startup, register and auto-update Errors**
-Here’s how you can troubleshoot the Agent startup Error yourself:
-
-**1. Port not available**
-
-Check with your IT team to see if the ports 8080, 8383, 8443, and 8484 are free. They might be already in use by some other software running on those ports. Testsigma Agent needs these ports to be free to run successfully.
-
-You may use the below commands in Terminal for Linux/Unix: **lsof -i :8080**<br>
+**Linux**<br>
+Use the below command in terminal for Linux/Unix<br>
+`lsof -i :8080`<br>
 Try the same command with the other port numbers given above.
 
-For Windows, try the below command in Powershell: Get-Process -Id<br>
-**(Get-NetTCPConnection -LocalPort 8080).OwningProcess**
+**Windows**<br>
+For Windows, try the below command in Powershell:<br>
+`Get-Process -Id`
+<br>
+`(Get-NetTCPConnection -LocalPort 8080).OwningProcess`
+<br>Try the same command with the other port numbers given above.
 
-Try the same command with the other port numbers given above.
-
-If any of the ports are in use, check with your IT Team. Else, proceed to the next step.
-
+If the default ports 8080 and 8443 are already in use, try changing the HTTP port to 8081 and HTTPS port to 8444 to register the Agent.
+&nbspIf no ports are available,check with your IT team to see if they might be already in use by some other software.
 <br>
 
-**2. Unable to register**
+## **2. Unable to register**
 
-Try accessing the below localhost URLs after starting the agent<br>
-[http://localhost:8383/agent](http://localhost:8383/agent)<br>
-[https://local.testsigmaagent.com:8484/agent](https://local.testsigmaagent.com:8484/agent)<br>
+Once the Testsigma Agent is started, Testsigma Agent web UI is accessible at
+
+- <http://localhost:8383/agent> (HTTP) OR
+- <https://local.testsigmaagent.com:8484/agent/> (HTTPS).
+
+Try accessing the above localhost URLs after starting the agent.
 
 The reason behind doing so is to understand if the agent is accessible and has all permission from the system administrator.
 
@@ -74,45 +73,50 @@ If the above pages are accessible, proceed to the next step.
 
 <br>
 
-**3. Certificate Errors**
+## **3. Certificate errors**
 
 This error on the Agent logs will also help you understand there is a firewall blockage from your network side:
 
----
+```
 
 javax.net.ssl.SSLHandshakeException: sun.security.validator.ValidatorException: PKIX path building failed:  
-sun.security.provider.certpath.SunCertPathBuilderException: unable to find valid certification path to requested     	target
+sun.security.provider.certpath.SunCertPathBuilderException: unable to find valid certification path to requested      target
 at java.base/sun.security.ssl.Alerts.getSSLException(Alerts.java:198)
 at java.base/sun.security.ssl.SSLSocketImpl.fatal(SSLSocketImpl.java:196
 
----
+```
 
-**4. Permission Issues**
+<br><br>
 
-Sometimes while trying to register the Testsigma Agent, we might face errors due to our system's security settings. 
+## **4. Permission issues**
 
-  **For Mac**
+Sometimes while trying to register the Testsigma Agent, we might face errors due to our system's security settings. This usually happens when your system's privacy settings do not *Allow apps downloaded from App Store and Identified developers*. Follow the below steps to troubleshoot the errors.
 
-  This usually happens when your system's privacy settings don’t "Allow apps downloaded from App Store and Identified developers".
+  **Mac**
 
-  Navigate to your privacy **settings - Apple menu > System Preferences > click Security & Privacy > click General.**
+  1. Navigate to your **Privacy settings** :<br> **Apple menu > System Preferences > click Security & Privacy > click General**.
+  2. Under the **General** tab, change the privacy settings to *Allow apps downloaded from App Store and Identified developers* after giving the system's credentials.
 
-  Once you are in the General Tab, change the privacy settings to "Allow apps downloaded from App Store and Identified developers" after giving the system's credentials.
+  **Windows**
+
+  1. Search for **Allowed apps** settings in the search box.
+  2. Once you are in the **Allowed Apps**, change the privacy settings to **Allow apps downloaded from App Store and Identified developers** after giving the system's credentials.
+
+Try the agent registration process once again after restarting the agent. 
 
 
-  **For Windows**
-
-  Search for Allowed apps settings in the search box
-
-  Once you are in the Allowed Apps, change the privacy settings to "Allow apps downloaded from App Store and Identified developers" after giving the system's credentials.
-
-Try the agent registration process once after restarting the agent again. If the issue is still not resolved, proceed to the next step.
 
 <br>
 
-**5. Used Ports**
+##**5. Agent out of sync**
 
-While registering an Agent, try changing the HTTP port to 8081 and HTTPS port to 8444. This will use the given ports to register the Agent and thereby allow the Agent to be registered successfully if the default ports 8080 and 8443 are already in use.
+Follow the below steps to fix the issue.
 
-If the issues persist, please contact Testsigma support. While contacting the Testsigma Support team, please provide Agent logs files. See [How to get Agent Logs](https://testsigma.com/docs/agent/troubleshooting/logs/).
+1. Refresh the Testsigma app.
+2. Restart the Agent.
+3. If the Agent is not updated, update the Agent. *For more information, refer to [update Agents](https://testsigma.com/docs/agent/update-agent-manually/)*.
+
+If the above troubleshooting steps does not resolve the issue, contact Testsigma support with the Agent logs files.
+
+---
 
