@@ -33,7 +33,7 @@ contextual_links:
   name: "Proxy Error"
   url: "#7-proxy-error"
 
-  
+
 ---
 
 ---
@@ -96,11 +96,31 @@ Once the Testsigma Agent is started, Testsigma Agent web UI is accessible at
 
 Try accessing the above localhost URLs after starting the agent.
 
-The reason behind doing so is to understand if the agent is accessible and has all permission from the system administrator.
-
-If this is not accessible, it indicates that there is some hindrance in the system like firewall blocks or certain antivirus blocking the access. In such conditions, you may contact your IT  Team for help.
+The reason behind doing so is to understand if the agent is accessible and has all permission from the system administrator. If this is not accessible, it indicates that there is some hindrance in the system like firewall blocks or certain antivirus blocking the access. In such conditions, you may contact your IT  Team for help.
 
 If the above pages are accessible, proceed to the next step.
+
+<br>
+
+
+But if <kbd>https://local.testsigmaagent.com:8484/agent/</kbd> is unreachable but <kbd>http://127.0.0.1:8383/agent/ </kbd>is reachable, the following entry needs to be added to hosts file:
+
+`127.0.0.1    local.testsigmaagent.com`
+
+### **Windows**
+
+In Windows, the hosts file is located at <kbd>C:\Windows\System32\Drivers\etc\hosts</kbd>.
+
+- Right click on **Notepad** in the **Start** menu and select **Run as Administrator**. This is crucial to ensure you can make the required changes to the file. Now click **File > Open** and browse to <kbd>: c:\Windows\System32\Drivers\etc\hosts</kbd>.
+
+
+### **macOS and Linux**
+
+On macOS and Linux, the host file is located at <kbd>/etc/hosts</kbd>. You may need superuser privileges (sudo) to edit this file.
+
+1. Open Terminal. 
+2. Type sudo nano /etc/hosts
+3. When you’re done adding the entry, use **Ctrl + O** (followed by Enter) to save the file and then **Ctrl + X** to exit.<br>
 
 <br>
 
