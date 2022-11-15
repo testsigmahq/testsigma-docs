@@ -102,11 +102,15 @@ After the installation is complete, you can either run the Testsigma agent serve
 
   Navigate to the Testsigma Agent installation folder and double click the <kbd>start.bat</kbd> or run <kbd>start.bat</kbd> in the command line file to start the Testsigma Agent.
    ![testsigma agent start](https://s3.amazonaws.com/static-docs.testsigma.com/new_images/agent/setup-on-windows-mac-linux/starting_agent.png)
-  Wait for a few minutes for the Testsigma Agent to start up. Check the Testsigma Agent icon in the System Tray.
+  Wait for a few minutes for the Testsigma Agent to start up.
 
-  ![Testsigma Agent windows System Tray icon](https://docs.testsigma.com/images/setup-on-windows-mac-linux/ts-agent-windows-tray-icon.png)
+  ![Testsigma Agent started](https://s3.amazonaws.com/static-docs.testsigma.com/new_images/agent/setup-on-windows-mac-linux/agent_started.png)
 
-  If the icon doesn’t appear in 10 minutes, please contact Testsigma Support.
+  If the icon doesn’t appear in 10 minutes, reach out to us at [support@testsigma.com](support@testsigma.com).
+
+  After registering you will be directed to the agent registration page![agent registration](https://s3.amazonaws.com/static-docs.testsigma.com/new_images/agent/setup-on-windows-mac-linux/agent_register_page.png)<br>
+  For more information on registering the agent refer to the section,  *[Register the Testsigma agent](#register-the-testsigma-agent)*
+
 
 ### **For Mac/Linux**
 
@@ -116,7 +120,7 @@ After the installation is complete, you can either run the Testsigma agent serve
 
   ![Testsigma Agent Mac System Tray icon](https://docs.testsigma.com/images/setup-on-windows-mac-linux/ts-agent-mac-tray-icon.png)
 
-  If the icon doesn’t appear in 10 minutes, please contact Testsigma Support.
+  If the icon doesn’t appear in 10 minutes, reach out to us at [support@testsigma.com](support@testsigma.com).
 
 <br>
 
@@ -155,32 +159,27 @@ dump         Request a Java thread dump if running.
 Next, you will have to register the agent. To register the agent, refer to the section *[Register the Testsigma agent](#register-the-testsigma-agent)*
 
 ---
+
 ## **Register the Testsigma Agent**
 
 ### **Checking Agent running status**
+
 Once the Agent has started you will get a System Tray icon. The status will show as **STARTED** once it's ready. If it is showing the status as **STARTING**, please wait for a few moments for it to start.
 
 You can use the menu options to **Quit** and **Restart the Agent**.
 
 ### **Connecting the Agent to Testsigma App**
 
-1. Once your Testsigma agent is up and running and shows the **STARTED** status, click on the Agent tab on the Left-hand side Navigation bar.
 
-![Testsigma Dashboard Agents Icon](https://s3.amazonaws.com/static-docs.testsigma.com/new_images/agent/setup-on-windows-mac-linux/adding_agents.png)
-
-2. On the Agent page click on **Add a new Agent**
-
-![Testsigm Agents page Download button](https://docs.testsigma.com/images/setup-on-windows-mac-linux/ts-agent-page-download-button.png)
-
-It will try to establish a connection to the agent running on your machine as shown below:
-![Testsigma Agents Register Agent Overlay page](https://s3.amazonaws.com/static-docs.testsigma.com/new_images/agent/setup-on-windows-mac-linux/registering_new_agent.png)
+1. Once your Testsigma agent is up and running and shows the **STARTED** status, you will be directed to the agent registration page.
+2. Click on **Register** to start the Agent registration process.
 
 3. On the **Add new Agent** overlay provide the following and click on the **Save** button.:
     - **Title**: Enter a name for your machine.
-    - **HTTP and HTTPS Port**: The default ports are 8080 and 8443 respectively. If these ports are unavailable Testsigma automatically detects the next availble ports. If no ports are available, refer to [troubleshooting HTTP and HTTPS port numbers](https://testsigma.com/docs/agent/troubleshooting/setup-issues/).
+    
     - **Visible to Everyone**: By default, Agent will be visible to everyone. If you want to make this agent private, uncheck the checkbox **Visible to Everyone**.
 
-![Add new agent form](https://s3.amazonaws.com/static-docs.testsigma.com/new_images/agent/setup-on-windows-mac-linux/add_a_new_agent_registration_form.png)
+![Add new agent form](https://s3.amazonaws.com/static-docs.testsigma.com/new_images/agent/setup-on-windows-mac-linux/regsitering_new_agent.png)
 
 
 4. After saving, the agent that you registered will be displayed with all the available browsers in that Agent machine:
@@ -198,13 +197,13 @@ There may be instances when you want to add the Testsigma agents to your Testsig
 1. On the **All Agents** page, click on the **Add a new Agent** button on the top right corner of the Agents page.
 2. On the **Add a new Agent** form, add the name/title for the agent. Make sure to check the **Activate Later** checkbox, as also highlighted in the screenshot below:
 
-![Add new agent form with activate later checkbox checked](https://s3.amazonaws.com/static-docs.testsigma.com/new_images/agent/setup-on-windows-mac-linux/add-a-new-agent-form-activate-later-checked.png)
+![Add new agent form with activate later checkbox checked](https://s3.amazonaws.com/static-docs.testsigma.com/new_images/agent/setup-on-windows-mac-linux/activate_later.png)
 
 4. Now click on the **Save**  button to save the agent.
 
 5. On successfully saving the agent, you will be taken to the agent configuration page that contains the command that you can use to activate the agent later, as also shown in the screenshot below:
 
- ![Configs page on a newly added agent with command too activate the agent](https://s3.amazonaws.com/static-docs.testsigma.com/new_images/agent/setup-on-windows-mac-linux/agent-config-command-to-activate.png)
+ ![Configs page on a newly added agent with command too activate the agent](https://s3.amazonaws.com/static-docs.testsigma.com/new_images/agent/setup-on-windows-mac-linux/agent_details.png)
 
  ---
 
@@ -225,12 +224,12 @@ We will discuss both the ways below:
   2. Click on the **Add a new Agent** button on the top right corner of the Agents page.
   3. On the **Add a new Agent** form, add the name/title for the agent. Make sure to check the **Activate Later** checkbox, as also highlighted in the screenshot below:
 
-  ![Add new agent form with activate later checkbox checked](https://s3.amazonaws.com/static-docs.testsigma.com/new_images/agent/setup-on-windows-mac-linux/add-a-new-agent-form-activate-later-checked.png)
+  ![Add new agent form with activate later checkbox checked](https://s3.amazonaws.com/static-docs.testsigma.com/new_images/agent/setup-on-windows-mac-linux/activate_later.png)
 
   4. Now you can click on the **Save** button to save the agent.
   5. On successfully saving the agent, you will be taken to the agent configuration page that will contain the activation key, as also shown in the screenshot below:
 
-  ![activation key for an added agent](https://s3.amazonaws.com/static-docs.testsigma.com/new_images/agent/setup-on-windows-mac-linux/get-activation-key.png)
+  ![activation key for an added agent](https://s3.amazonaws.com/static-docs.testsigma.com/new_images/agent/setup-on-windows-mac-linux/agent_details.png)
 
   6. Get the activation key, and use in the command below:
 
