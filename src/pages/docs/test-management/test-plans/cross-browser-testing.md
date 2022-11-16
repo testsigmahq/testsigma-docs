@@ -1,5 +1,5 @@
 ---
-title: "Test Plan: Cross Browser Testing"
+title: "Test Plan: Cross browser testing"
 page_title: "Cross Browser Testing : Test Plan"
 metadesc: "How to create a Test Plan with ‘Testing Type’ as ‘Cross-Browser Testing’."
 noindex: false
@@ -10,89 +10,36 @@ contextual_links:
 - type: section
   name: "Contents" 
 - type: link
-  name: "Creating a new Test Plan with Cross Browser Testing type"
-  url: "#creating-a-new-test-plan-with-cross-browser-testing-type"
-- type: link
-  name: "Changing an existing Test Plan to Cross Browser Testing type"
-  url: "#changing-an-existing-test-plan-to-cross-browser-testing-type"
----
+  name: "Steps to enable cross browser testing"
+  url: "#steps-to-enable-cross-browser-testing"
 
 ---
 
-When you create a Test plan in Testsigma, using the classic UI, you have the option to either create them for cross-browser testing or for distributed testing. In this article, we will discuss how to create a Test Plan for ‘Cross-Browser Testing’.
+---
 
+Cross Browser testing is a type of non-functional testing that enables you to check whether your application works as expected in:
 
-You should already know how to [List/Create/Edit/Delete Test Plans using the Classic UI](https://testsigma.com/docs/test-management/test-plans/overview/).
-
+- Different Browser-OS combinations that is, on popular browsers like Firefox, Chrome, Edge, Safari and on any of the different operating systems such as Windows, macOS,Linux, iOS and Android.
+- Different devices such as smartphones, tablets, desktops and laptops produced by different companies.
 &emsp;
 
-### When to use:
-The main scenario when you should be using the testing type as ‘Cross browser testing’ for a test plan is when you want to execute one or more test suites on multiple test machines. For example, if you want to execute your sanity tests on all web browsers or when you want to test your mobile app’s UI on all the mobile devices and versions that your customers might have. 
-
-Learn more about [cross-browser testing](https://testsigma.com/cross-browser-testing).
+*For more information refer to, [cross-browser testing](https://testsigma.com/cross-browser-testing)*.
 
 &emsp;
+To enable *Cross-browser testing* 
+
+1. Create a test plan. You can also enable Cross browser testing in exisiting test plans.
+2. Select the browsers to run the test on.
+3. Select the devices to account for application behavior on different operating systems.
 
 ---
-##**Creating a new Test Plan with Cross Browser Testing type**
-1. On the Test Plan page, click on the ‘+Test Plan’ button:
 
-![Test Plans page in Testsigma](https://docs.testsigma.com/images/cross-browser-testing/test-plans-page-testsigma.png)
+## **Steps to enable cross browser testing**
 
-2. Create Test Plan page would open as shown below:
-
-![Create Test Plan Page in Testsigma](https://s3.amazonaws.com/static-docs.testsigma.com/new_images/test-management/test-plans/cross-browser-testing/Create-test-plan-first-tab.png)
-
-   
-On this page, select the device lab which you want to use for your cross-browser tests. For more information, see [Test Labs](https://testsigma.com/docs/test-management/test-plans/supported-test-lab-types/).
-
-3. On the Create Test Plan tab, enter the required details and click on the Next Button.
-
-4. The “Test Machines & Suites Selection” tab will open:
-
-![Testing Type selection on Create Test Plan page in Testsigma](https://s3.amazonaws.com/static-docs.testsigma.com/new_images/test-management/test-plans/cross-browser-testing/Create-test-plan-second-tab-cross-browser-testing-tab.png)
-
-Select the radio button ‘Cross-Browser Testing’ next to the label ‘Testing Type’ as mentioned in the screenshot above.
-
-5. Now, you can add as many different test machines as you want to execute your tests on
-   
-6. Select as many test suites as you want to run on those test machines. All these test suites will run parallelly/ sequentially (based on your selection) on the corresponding test machines.
-
-![multiple Test Machines and multiple Test Suites in Test Plan in Testsigma](https://s3.amazonaws.com/static-docs.testsigma.com/new_images/test-management/test-plans/cross-browser-testing/Multiple-test-machines-multiple-test-suites-test-plan-second-tab-testsigma.png)
-   
-7. Fill up the rest of the required fields, then click on the “Create” button on the ‘Test Plan Settings’ tab.
-
-Your Test Plan is now ready to run your cross-browser tests on the configured test machines. 
-
-&emsp;
-
----
-##**Changing an existing Test Plan to Cross Browser Testing type**
-
-On the Test Plans page, click on a Test Plan name to open the details page for that Test Plan, which looks like this
-
-![test plan details page in Testsigma](https://docs.testsigma.com/images/cross-browser-testing/test-plan-details-page-testsigma.png)
-
-1. Click on the Edit button on the top right corner as shown below: 
-
-![Edit Button in Test Plan Details Page in Testsigma](https://docs.testsigma.com/images/cross-browser-testing/edit-button-test-plan-details-page-testsigma.png)
-
-2. The ‘Edit Test Plan’ Page opens, as shown below:
-
-![Edit Test Plan page in Testsigma](https://s3.amazonaws.com/static-docs.testsigma.com/new_images/test-management/test-plans/cross-browser-testing/edit-test-plan-page-testsigma.png)
-
-3. Go to the tab ‘Test Machines & Suites Selection’.
-
-![Test Machines and Suites Selection section in Edit Test Plan page in Testsigma](https://docs.testsigma.com/images/cross-browser-testing/test-machines-and-suites-selection-edit-test-plan-page-testsigma.png)
-
-4. Select the radio button ‘Cross-Browser Testing’ to make your Test plan as Cross-Browser Testing Type. 
-   
-5. Now, you can add as many different test machines as you want to execute your tests on
-   
-6. Select as many test suites as you want to be executed on those test machines. All these test suites will run parallelly/ sequentially(based on your selection) on the corresponding test machines.
-   
-7. Once done, click on the “Update” button on the ‘Test Plan Settings’ tab to finalize your changes.
-
-
-
-
+1. Navigate to **Test Machines & Suites Selection** under the **Create test plan** form.  *If you are not familiar with creating a test plan, refer to [add, edit,delete a test plan](https://testsigma.com/docs/test-management/test-plans/overview/)*.
+2. Under the **Test machines & suites selection** tab,select the test suite for which you want to add the test machine for test execution.*For more information refer to [adding test suites](https://testsigma.com/docs/test-management/test-plans/manage-test-suites/)*
+3. Once you have selected the test suites, select the test machines to run the coressponding test suite. *For more information refer to [add test machines](https://testsigma.com/docs/test-management/test-plans/manage-test-machines/)*
+ 
+ Note that,for *Cross-browser testing* ,test machines and test suites are selected separately. On execution, all the selected test suites are run on all selected test machines ( in parallel or sequentially - depending on your selection).
+ See the below GIF to understand the workflow to enable cross browser testing:
+![Cross browser testing](https://s3.amazonaws.com/static-docs.testsigma.com/new_images/test-management/test-plans/cross-browser-testing/cross_browser_testing.gif)
