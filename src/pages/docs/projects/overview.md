@@ -41,7 +41,7 @@ Here’s a snapshot of the Testsigma Dashboard page:
     ![Project switcher on Dashboard](https://docs.testsigma.com/images/projects/dashboard-project-selection-overlay.png)
 
 2. Creating a Project using one of the above methods takes you to the Create Project page shown below:
-![Create Project Form](https://docs.testsigma.com/images/projects/create-project-page1.png)
+![Create Project Form](https://s3.amazonaws.com/static-docs.testsigma.com/new_images/projects/overview/project_creation.png)
 3. Enter a Name and Description for the Project and click    Next.
 
     [[info | NOTE:]]
