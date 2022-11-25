@@ -1,9 +1,9 @@
 ---
-title: "Import test data profile - Parameter"
+title: "Import test data profile"
 metadesc: "How to import a test data profile to use it as test data in a test case in Testsigma."
 noindex: false
 order: 5.22
-page_id: "Import Test Data Profile - Parameter"
+page_id: "Import test data profile"
 warning: false
 contextual_links:
 - type: section
