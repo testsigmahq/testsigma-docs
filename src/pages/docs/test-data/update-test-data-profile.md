@@ -35,5 +35,5 @@ The following article discusses about updating an existing test data profile. *F
     - Select the columns you want to encrypt.![Login credentials pop-up window](https://s3.amazonaws.com/static-docs.testsigma.com/new_images/projects/applications/import_tdp_login.png)
     - Click on **Import**.
 
- 5. On successful update of test data profile, **Refresh** to see the updated test data profile on the **All test data profile page**.
+ 5. On the successful update of test data profile, you will receive an email. Click **Refresh** to see the updated test data profile on the **All test data profile page**.
 ![Successful update of TDP](https://s3.amazonaws.com/static-docs.testsigma.com/new_images/projects/applications/successful_upload_tdp.png)
