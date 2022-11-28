@@ -1,10 +1,10 @@
 ---
-title: "Integrating monday.com with Testsigma"
-page_title: "monday.com bug reporting integration in Testsigma"
-metadesc: " How to integrate Testsigma with Mantis for realtime bug reporting during Test Runs"
+title: "Monday.com"
+page_title: "monday.com"
+metadesc: "How to integrate Testsigma with monday.com for realtime bug reporting during Test Runs"
 noindex: false
 order: 16.38
-page_id: " Mantis Bug Reporting Integration"
+page_id: "monday.com"
 warning: false
 contextual_links:
 - type: section
