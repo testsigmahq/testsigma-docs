@@ -21,82 +21,67 @@ contextual_links:
 ---
 
 ---
-A **Project in Testsigma** is similar to a real-life Project that consists of different types of Applications. An example of a Testsigma Project would be an e-commerce product that has a variety of application channels such as web app, mobile web app, Android, iOS, or a public REST API.
+A **Project in Testsigma** is similar to a real-life project that consists of different types of applications. An example of a Testsigma project would be an e-commerce product that has a variety of application channels, such as a web app, a mobile web app, an Android or iOS, or a public REST API.
 
-This organization provides a logical separation between different Applications and Projects. A user is allowed to create any number of projects and applications. 
+This organisation provides a logical separation between different applications and projects. A user is allowed to create any number of projects and applications. 
 
-Your Testsigma account comes with 4 sample Projects, populated with different sample test cases for web, mobile web, Android, and iOS application types. You can use and edit them to start off your own test automation quickly. 
+Your Testsigma account comes with four sample projects, each populated with different sample test cases for web, mobile web, Android, and iOS application types. You can use and modify them to quickly get started with your own test automation. 
 
 ---
 ##**Create Project**
 
-Here’s a snapshot of the Testsigma Dashboard page:
-![Highlighted are the methods to create Projects](https://docs.testsigma.com/images/projects/dashboard-project-selection-area.png)
+Navigate to **Testsigma Dashboard**:
+![Testsigma Dashboard](https://s3.amazonaws.com/static-docs.testsigma.com/new_images/projects/overview/ts_dashboard.png)
 
-1. To create a new Project:
-
-    **a.** Click the **Create New** button (highlighted on the top right corner) and select **Project** option from the dropdown menu. OR
-
-    **b.** Click on the Project switcher (highlighted on the top left corner) to open the Project Switcher overlay, and then click on the **Create New Project** link near the **Go** button.
-    ![Project switcher on Dashboard](https://docs.testsigma.com/images/projects/dashboard-project-selection-overlay.png)
-
-2. Creating a Project using one of the above methods takes you to the Create Project page shown below:
-![Create Project Form](https://s3.amazonaws.com/static-docs.testsigma.com/new_images/projects/overview/project_creation.png)
-3. Enter a Name and Description for the Project and click    Next.
-
-    [[info | NOTE:]]
-    | *If you have created Custom Fields for your projects under Settings > Custom Fields, those fields will also show up here.
-4. In the next page, choose if your project is a single Application project or a multi Application project:
-    ![Select Multiple Applications option on Creating Project](https://docs.testsigma.com/images/projects/create-project-page2-multiapp-multiversion.png)
+1. To create a new project: 
+    - Click the **Create new** button and select **Project** from the drop-down menu.
+    ![Create new Project Button in right align](https://s3.amazonaws.com/static-docs.testsigma.com/new_images/projects/overview/ts_createprojectrs.png)
+    Alternatively,
+     - Click on the project switcher, and click on the **Create new project** .
+    ![Create new Project in left align](https://s3.amazonaws.com/static-docs.testsigma.com/new_images/projects/overview/ts_createprojectls.png)
     
-    **a.** Single application: if you have only one Application in the project. For example, if your online shopping Project only has a Web App.
-    
-    **b.** Multiple applications: if you have multiple applications, select this option and add the multiple applications in the next page. For example, if your online shopping Project has a Web App and Mobile App.
-5. Also, if you want to have multiple versions for each of the Applications, you can enable the **Enable versioning option in this project** radio button and add the Application Version in the next page. Click Next to proceed.
+2. Enter **Project name**, **Description** and click on **Create**.
+![Create New Project Name](https://s3.amazonaws.com/static-docs.testsigma.com/new_images/projects/overview/ts_projectname.png)
 
-    [[info | NOTE:]]
-    | *You can also add these settings later by editing the Project as well.*
-6. In the next page, select the Application type from the given options - web application, mobile web application, Android Native App, iOS Native App, RESTful API and click Create.
-    ![Choose Application Type on Creating project](https://docs.testsigma.com/images/projects/create-project-page3-select-apptype.png)
-    Your Project is created and you will be taken to the Test Cases page directly. You can start automating your Test Cases from here.
-    ![Test Cases page after creating project](https://docs.testsigma.com/images/projects/create-project-redirect-test-cases.png)
+3. If your product has multiple applications, 
+    - Click the **toggle** button to enable them.
+    ![Select Multiple Applications option on Creating Project](https://s3.amazonaws.com/static-docs.testsigma.com/new_images/projects/overview/ts_multipleapps.png)
+    - Click on **Add new application**.
+    ![Add new applications](https://s3.amazonaws.com/static-docs.testsigma.com/new_images/projects/overview/ts_addnewapps.png)
 
-    Before you proceed, if you want to assign users and manage roles for projects, refer to  [Assign projects](https://testsigma.com/docs/collaboration/assign-projects/).
+4. To enable versions in each application, click toggle button.
+![Enabling Toggle button](https://s3.amazonaws.com/static-docs.testsigma.com/new_images/projects/overview/ts_enableversioninapps.png)
+
+[[info | NOTE:]]
+| You can also add these settings later by editing the Project as well.
+5. Your project has been created, and you will be taken to the **Test Cases** page. 
 
 ---
 ##**Edit Project**
 
-To edit an existing project, select the project from the Project Switcher and then navigate to the Project Settings page via **Dashboard > Project Settings**
+1. To edit an existing project, navigate to **Dashboard > Project settings**
 
-![Project Settings](https://docs.testsigma.com/images/projects/project-settings.png)
-
-Click on the edit button (pencil icon) on the top left corner to open the Edit Project page as shown below:
-![Edit Project page from Project Settings](https://docs.testsigma.com/images/projects/edit-project.png)
-
-You can also enable/disable multiple Application or multiple Application Versions from here.
-
-If Multiple Applications are enabled, you can manage them from the **Dashboard > Project Settings > Applications** page.
-
-If Multiple Application Versions are enabled, you can manage them from the **Dashboard > Project Settings > Applications > Versions** page.
+2. Click on the **Edit**.
+![Edit Project Settings](https://s3.amazonaws.com/static-docs.testsigma.com/new_images/projects/overview/ts_editprojectedit.png)
+3. Edit project details and click on **Update**.
+![Edit Project page from Project Settings](https://s3.amazonaws.com/static-docs.testsigma.com/new_images/projects/overview/ts_editprojectupdate.png)
+[[info | NOTE:]]
+| You can also enable or disable multiple applications or multiple application versions from here.
 
 ---
 ##**Delete Project**
 
-To delete an existing project, select the project from the Project Switcher and then navigate to the Project Settings page via **Dashboard > Project Settings**
+1. To delete an existing project, navigate to **Dashboard > Project settings**.
 
-Click on the delete button(trash icon) on the top left corner to delete the project.
-
-**Deleting a Project will lead to loss of all data within the project including**
-
-  &emsp;**-** All Applications within the Project
-
-  &emsp;**-** All Application Versions within all those Applications
-
-  &emsp;**-** All the Test Cases, Test Data, Uploads within all those Application Versions
-
-**Please make sure that you are okay with losing all the above data before proceeding with the Project deletion.**
-
-If you still want to delete the Project, confirm the Project deletion in the popup dialog.
+2. Click on **Delete**.
+![Delete project settings](https://s3.amazonaws.com/static-docs.testsigma.com/new_images/projects/overview/ts_editprojectdelete.png)
+3. Clicking on the Delete button for the application shows a warning prompt as shown below. In the box highlighted, enter DELETE, and click I understand, delete this project to confirm the deletion.
+![Delete prompt](https://s3.amazonaws.com/static-docs.testsigma.com/new_images/projects/overview/ts_deleteprojectconfirm.png)
+[[info | NOTE:]]
+| Deleting a project leads to the loss of all data within the application including:
+|    - All applications within the project.
+|    - All application versions within the application.
+|    - All the test cases, test data, and uploads within all those application versions.
 
 
 

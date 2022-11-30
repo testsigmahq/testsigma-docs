@@ -1,9 +1,9 @@
 
 require('dotenv').config({
   path: `.env`,
-});
-
-const pageQuery = `{
+ });
+ 
+ const pageQuery = `{
   docs: allMarkdownRemark(
     filter: {
       fileAbsolutePath: { regex: "/docs/" },
@@ -22,7 +22,7 @@ const pageQuery = `{
             type
             name
             url
-          }
+          }3
         }
         fields {
           slug
@@ -33,30 +33,30 @@ const pageQuery = `{
       }
     }
   }
-}`;
-
-
-function pageToAlgoliaRecord({ node: { id, frontmatter, ...rest } }) {
+ }`;
+ 
+ 
+ function pageToAlgoliaRecord({ node: { id, frontmatter, ...rest } }) {
   return {
     objectID: id,
     ...frontmatter,
     ...rest,
   };
-}
-
-const settings = { attributesToSnippet: ['excerpt:20'] };
-
-const queries = [
+ }
+ 
+ const settings = { attributesToSnippet: ['excerpt:20'] };
+ 
+ const queries = [
   {
     query: pageQuery,
     transformer: ({ data }) => data.docs.edges.map(pageToAlgoliaRecord),
     indexName: 'OS Docs',
     settings,
   },
-];
-
-
-module.exports = {
+ ];
+ 
+ 
+ module.exports = {
   assetPrefix: process.env.ASSET_HOST,
   siteMetadata: {
     title: 'Testsigma Documentation',
@@ -129,7 +129,7 @@ module.exports = {
     },
     "gatsby-plugin-sharp",
     "gatsby-transformer-sharp",
-    {
+    /*{
       resolve: `gatsby-plugin-s3`,
       options: {
         bucketName: process.env.BUCKET_NAME,
@@ -137,7 +137,7 @@ module.exports = {
         hostname: process.env.HOST_NAME,
         generateRedirectObjectsForPermanentRedirects: true
       },
-    },
+    },*/
     {
       resolve: 'gatsby-source-filesystem',
       options: {
@@ -145,7 +145,7 @@ module.exports = {
         path: `${__dirname}/src/`,
       },
     },
-    {
+    /*{
       resolve: 'gatsby-plugin-algolia',
       options: {
         appId: process.env.GATSBY_ALGOLIA_APP_ID,
@@ -156,25 +156,14 @@ module.exports = {
         matchFields: ['excerpt', 'contextual_links', 'search_keyword', 'headings', 'fields', 'modified'],
         concurrentQueries: false,
       },
-    },
-    {
-      resolve: `gatsby-plugin-ts-freshchat`,
+    },*/
+    /*{
+      resolve: `gatsby-plugin-freshchat`,
       options: {
           token: process.env.FRESHCHAT_TOKEN,
           host: "https://wchat.freshchat.com",
-          appEmbedUrl: "https://prestaging.testsigma.com/ui/dashboard"
       },
-    },
-    {
-      resolve: `gatsby-plugin-google-analytics`,
-      options: {
-        trackingId: process.env.GA_TRACKING_ID,
-        head: false,
-        anonymize: true,
-        respectDNT: true,
-        enableWebVitalsTracking: true,
-      },
-    },
+    },*/
     {
       resolve: `gatsby-plugin-google-gtag`,
       options: {
@@ -189,4 +178,6 @@ module.exports = {
       }
     },
   ],
-};
+ };
+ 
+ 
