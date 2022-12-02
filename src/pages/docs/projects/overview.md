@@ -75,7 +75,7 @@ Navigate to **Testsigma Dashboard**:
 
 2. Click on **Delete**.
 ![Delete project settings](https://s3.amazonaws.com/static-docs.testsigma.com/new_images/projects/overview/ts_editprojectdelete.png)
-3. Clicking on the Delete button for the application shows a warning prompt as shown below. In the box highlighted, enter DELETE, and click I understand, delete this project to confirm the deletion.
+3. Clicking on the **Delete** button for the application shows a warning prompt as shown below. In the box highlighted, enter **DELETE**, and click **I understand, delete this project** to confirm the deletion.
 ![Delete prompt](https://s3.amazonaws.com/static-docs.testsigma.com/new_images/projects/overview/ts_deleteprojectconfirm.png)
 [[info | NOTE:]]
 | Deleting a project leads to the loss of all data within the application including:
