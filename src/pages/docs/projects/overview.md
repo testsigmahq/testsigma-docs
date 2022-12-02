@@ -81,10 +81,4 @@ Navigate to **Testsigma Dashboard**:
 | Deleting a project leads to the loss of all data within the application including:
 |    - All applications within the project.
 |    - All application versions within the application.
-|    - All the test cases, test data, and uploads within all those application versions.
-
-
-
-
-
-
+|    - All the test cases, test data, and uploads within all those application versions.  
