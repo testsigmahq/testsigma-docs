@@ -15,8 +15,8 @@ contextual_links:
   name: "Import test cases"
   url: "#import-test-cases"
 - type: link
-  name: "Export test case"
-  url: "#export-test-case"
+  name: "Export test cases"
+  url: "#export-test-cases"
 ---
 
 ---
@@ -67,54 +67,55 @@ The Import file has the following Columns:
 &emsp;
 
 ---
-##**Import test cases**
+Navigate to **Testsigma dashbord**.
+![testsigma dashboard](https://s3.amazonaws.com/static-docs.testsigma.com/new_images/projects/applications/TS_DB.png)
 
-From the Test Cases list, click on the Import button on the top right corner to open the Import Dialog as shown below:
+## **Import test cases**
 
-![Test-Cases-Import-Dialog](https://s3.amazonaws.com/static-docs.testsigma.com/new_images/test-management/test-plans/overview/import_test_case.png)
+1. Click the **Project** from where you want to import the test cases.
+![dashboard project choosing](https://s3.amazonaws.com/static-docs.testsigma.com/new_images/projects/applications/Click_project.png)
 
-&emsp;
+2. Navigate to **Settings > Imports and Exports**.
+![Imports and exports](https://s3.amazonaws.com/static-docs.testsigma.com/new_images/projects/applications/navigate_imports.png)
 
+3. Click on **Import**.
+![Click On Import](https://s3.amazonaws.com/static-docs.testsigma.com/new_images/projects/applications/Clickon_import.png) 
 
- 1. Click on the **Choose File** button to upload the test case import file.
+4. On the **Import Xml** pop-up box,
+    - Choose the file you want to import, select respective **project, application,** and **version** in which you're trying to import on the left side of export pop-up screen.
+    ![Left pop-up](https://s3.amazonaws.com/static-docs.testsigma.com/new_images/projects/applications/import_leftpopup.png)
+    - Choose all the fields you want to include while importing the project on the right side of export pop-up screen.
+    ![Right pop-up](https://s3.amazonaws.com/static-docs.testsigma.com/new_images/projects/applications/import_rightpopup.png)
+5. Navigate to **Settings > Imports and Exports**.
+6. You will be able to see imported file here.
+![Imports and Exports](https://s3.amazonaws.com/static-docs.testsigma.com/new_images/projects/applications/Fin_imports.png)
 
+<br>
 
-[[info | Note:]]
-|We need to use a specific test case import template for importing the data. Click on the Sample File link to download the test case Import file template, update your test cases data and re-upload the file to Import your test cases.
+## **Export test cases**
 
- 2. Click on the **Import** button to import the Test Cases. You would see a success notification saying that the Import has been successfully completed. The Import would happen in the background after which you will be notified by email.
-    
-  If the import has failed due to some reason, you will receive an email with the reason for the failure.
+1. Click the **Project** from project switcher, from where you want to export the test cases.
+![Select Project](https://s3.amazonaws.com/static-docs.testsigma.com/new_images/projects/applications/Click_project.png)
 
-&emsp;
+2. Navigate to **Settings > Imports and exports**.
+![settings import and export](https://s3.amazonaws.com/static-docs.testsigma.com/new_images/projects/applications/navigate_imports.png)
 
----
-##**Export test case**
+3. Click on the **Export** button on the top right screen.
+![Click on Export](https://s3.amazonaws.com/static-docs.testsigma.com/new_images/projects/applications/clickon_exports.png)
 
-From the Test cases list, click on the **Export** button on the top right corner to open the Export Dialog as shown below:
+4. On the **Export** pop-up screen, 
+    - Choose the respective project, application, and version you're trying to export under **Select project, Select applications, and Select Version** on the left side of **export** pop-up screen. 
+    ![Left Pop-up](https://s3.amazonaws.com/static-docs.testsigma.com/new_images/projects/applications/left_popup.png)
+    - Choose all the fields you want to include while exporting the project on the right side of **export** pop-up screen.
+    ![Right Pop-up](https://s3.amazonaws.com/static-docs.testsigma.com/new_images/projects/applications/right_popup.png)
+    - Click on **Export**.
+    ![Click on Export](https://s3.amazonaws.com/static-docs.testsigma.com/new_images/projects/applications/clickonexport.png)
 
-![Test-Case-Export-Dialog](https://s3.amazonaws.com/static-docs.testsigma.com/new_images/test-management/test-plans/overview/export_test_case.png)
-&emsp;
+7. Navigate to **Imports and Exports**. 
+8. Hover on **Exported file**,
+    - You will be able to see two options.
+    ![Two options](https://s3.amazonaws.com/static-docs.testsigma.com/new_images/projects/applications/two_options.png)
+    - Click on **Download**.
+    ![Click On Download](https://s3.amazonaws.com/static-docs.testsigma.com/new_images/projects/applications/Clickondownload.png)
 
-We have two options here:
-
- * **Test Case XLS Export** - Export the Test Cases to a Spreadsheet file. Use this option for exporting the Test Cases and importing them back later with or without changes to the Test Case Details.
- * **Test Case XML Export** - Back up the Test Case data in XML Format.
-  
-&emsp;
-
-We will go ahead with the first option in this case. Clicking on the first option shows a message saying that the Test Case Export has been started successfully. The Export would happen in the background after which you will be notified by email.
-
-If the export has failed due to some reason, you will receive an email with the reason for the failure
-
-
-
-
-
-
-
-
-
-
-
-
+8. A zip file will be downloaded to your local device.
