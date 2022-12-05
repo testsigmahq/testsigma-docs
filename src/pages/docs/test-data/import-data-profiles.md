@@ -1,9 +1,9 @@
 ---
-title: "Import test data profile - Parameter"
+title: "Import test data profile"
 metadesc: "How to import a test data profile to use it as test data in a test case in Testsigma."
 noindex: false
 order: 5.22
-page_id: "Import Test Data Profile - Parameter"
+page_id: "Import test data profile"
 warning: false
 contextual_links:
 - type: section
@@ -18,14 +18,13 @@ contextual_links:
 
 ---
 
-In Testsigma, you can import a test data profile and then use it as test data in your test cases. Importing a test data profile is simple. In this document, we will discuss how to do that.
+Apart from creating a test data profile on Testsigma, you can also import a test data profile and view the profile in Testsigma. *For more information on creating a test data profile, refer to [create a test data profile](https://testsigma.com/docs/test-data/create-data-profiles/).*<br> The following article discusses on how to import a test data profile. 
 
----
-##**Prerequisites:**
+<br>
 
-To import a test data profile, you first need an xlsx file that has the data in a supported format. 
+To import a test data profile, you first need an XLSX file that has the data in a supported format. 
 
-Below is an example of the data that an xlsx file should have. Testsigma expects:
+Below is an example of the data that an XLSX file should have. Testsigma expects:
 1. Name - Name of the test data set that the corresponding row would contain
 2. Description - Description for that row of that test data
 3. ExpectedToFail - would have either ‘YES’ or ‘NO’, depending on whether you expect the test case to fail with this test data or you expect it to pass.
@@ -45,32 +44,18 @@ Below is an example of the data that an xlsx file should have. Testsigma expects
 |Iteration10|Tenth value|NO|username10|password10|
 
 ---
-##**Steps to follow:**
 
+1. Navigate to **Test development > Test data profiles**. 
+![TDP Button](https://s3.amazonaws.com/static-docs.testsigma.com/new_images/projects/applications/testdata_button.png)
 
-1. Navigate to the **Test Development > Test Data Profile** page
+2. Click on **Import**.
+![Import TDP](https://s3.amazonaws.com/static-docs.testsigma.com/new_images/projects/applications/import_testdata_profile.png)
 
-   ![all test data profiles page with already created test data profiles in Testsigma](https://s3.amazonaws.com/static-docs.testsigma.com/new_images/test-data/create-data-profiles/test_data_profile_list.png)
+3. On the **Import** pop-up window, <br>
+    - Click on **Browse** and select the file you want to import. Alternatively, you can drag or drop the file.
+![Browse TDP](https://s3.amazonaws.com/static-docs.testsigma.com/new_images/projects/applications/Browse_TDP.png) 
+    - Select the columns you want to encrypt.![Import pop-up window](https://s3.amazonaws.com/static-docs.testsigma.com/new_images/projects/applications/Import_pop-up.png)
+    - Click on **Import**.
 
-2. Click on the **Import** icon on the top right corner of the screen, also highlighted in the screenshot below:
-
-   ![import button highlighted on the all test data profiles page](https://docs.testsigma.com/images/import-data-profiles/all-test-data-profiles-adding-values-import-button.png)
-
-3. A menu will appear with an option to choose the file that you want to import, as also shown in the screenshot below. To proceed, click on Choose File:
-
-   ![import window to import a test data profile in Testsigma](https://s3.amazonaws.com/static-docs.testsigma.com/new_images/test-data/create-data-profiles/import_test_data_profile.png)
-
-4. Choose the xlsx file (from your system) that you want to import. Note that the number of rows in the test data profile should not exceed 200.
-![more than 200 rows](https://s3.amazonaws.com/static-docs.testsigma.com/new_images/test-data/create-data-profiles/200_rows_test_data_profile.png)
-
-5. You will see an empty text box for **Title**, enter the title you want to assign to the test data profile you are importing.
-6. Additionally, you can choose to encrypt any of the columns in the test data profile.
-7. Specify if you want to ignore or overwrite any of the data duplicates in your test data profile. 
-6. Click on the **Import** button.
-
-All the rows will now be visible in your test data profile.
-
-
-
-
-
+4. On the successful import of test data profile, you will receive an email. Click **Refresh** to see the imported test data profile on the **All test data profile page**.
+![Successful Import of TDP](https://s3.amazonaws.com/static-docs.testsigma.com/new_images/projects/applications/successful_import_TDP.png)
