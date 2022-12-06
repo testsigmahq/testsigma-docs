@@ -66,31 +66,10 @@ The Import file has the following Columns:
 
 &emsp;
 
----
+<br>
+
 Navigate to **Testsigma dashbord**.
 ![testsigma dashboard](https://s3.amazonaws.com/static-docs.testsigma.com/new_images/projects/applications/TS_DB.png)
-
-## **Import test cases**
-
-1. Click the **Project** from where you want to import the test cases.
-![dashboard project choosing](https://s3.amazonaws.com/static-docs.testsigma.com/new_images/projects/applications/Click_project.png)
-
-2. Navigate to **Settings > Imports and Exports**.
-![Imports and exports](https://s3.amazonaws.com/static-docs.testsigma.com/new_images/projects/applications/navigate_imports.png)
-
-3. Click on **Import**.
-![Click On Import](https://s3.amazonaws.com/static-docs.testsigma.com/new_images/projects/applications/Clickon_import.png) 
-
-4. On the **Import Xml** pop-up box,
-    - Choose the file you want to import, select respective **project, application,** and **version** in which you're trying to import on the left side of export pop-up screen.
-    ![Left pop-up](https://s3.amazonaws.com/static-docs.testsigma.com/new_images/projects/applications/import_leftpopup.png)
-    - Choose all the fields you want to include while importing the project on the right side of export pop-up screen.
-    ![Right pop-up](https://s3.amazonaws.com/static-docs.testsigma.com/new_images/projects/applications/import_rightpopup.png)
-5. Navigate to **Settings > Imports and Exports**.
-6. You will be able to see imported file here.
-![Imports and Exports](https://s3.amazonaws.com/static-docs.testsigma.com/new_images/projects/applications/Fin_imports.png)
-
-<br>
 
 ## **Export test cases**
 
@@ -111,7 +90,7 @@ Navigate to **Testsigma dashbord**.
     - Click on **Export**.
     ![Click on Export](https://s3.amazonaws.com/static-docs.testsigma.com/new_images/projects/applications/clickonexport.png)
 
-7. Navigate to **Imports and Exports**. 
+7. Navigate to **Imports and exports**. 
 8. Hover on **Exported file**,
     - You will be able to see two options.
     ![Two options](https://s3.amazonaws.com/static-docs.testsigma.com/new_images/projects/applications/two_options.png)
@@ -119,3 +98,25 @@ Navigate to **Testsigma dashbord**.
     ![Click On Download](https://s3.amazonaws.com/static-docs.testsigma.com/new_images/projects/applications/Clickondownload.png)
 
 8. A zip file will be downloaded to your local device.
+
+<br>
+
+## **Import test cases**
+
+1. Click the **Project** from where you want to import the test cases.
+![dashboard project choosing](https://s3.amazonaws.com/static-docs.testsigma.com/new_images/projects/applications/Click_project.png)
+
+2. Navigate to **Settings > Imports and exports**.
+![Imports and exports](https://s3.amazonaws.com/static-docs.testsigma.com/new_images/projects/applications/navigate_imports.png)
+
+3. Click on **Import**.
+![Click On Import](https://s3.amazonaws.com/static-docs.testsigma.com/new_images/projects/applications/Clickon_import.png) 
+
+4. On the **Import Xml** pop-up box,
+    - Choose the file you want to import, select respective **project, application,** and **version** in which you're trying to import on the left side of export pop-up screen.
+    ![Left pop-up](https://s3.amazonaws.com/static-docs.testsigma.com/new_images/projects/applications/import_leftpopup.png)
+    - Choose all the fields you want to include while importing the project on the right side of export pop-up screen.
+    ![Right pop-up](https://s3.amazonaws.com/static-docs.testsigma.com/new_images/projects/applications/import_rightpopup.png)
+5. Navigate to **Settings > Imports and exports**.
+6. You will be able to see imported file here.
+![Imports and Exports](https://s3.amazonaws.com/static-docs.testsigma.com/new_images/projects/applications/Fin_imports.png)
