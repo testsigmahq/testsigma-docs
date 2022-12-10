@@ -1,21 +1,44 @@
 ---
-title: "Screen shot capture"
-page_title: "Enable Screen shot capture"
-metadesc: "How to Screen shot capture"
+title: "Enable capturing screenshots for Android and iOS"
+page_title: "Enable capturing screenshots for Android and iOS"
+metadesc: "How to enable capturing screenshots for Android and iOS"
 noindex: false
 order: 15.95
-page_id: "How to enable Screen shot capture"
+page_id: "How to enable Screen shot capture for Android and iOS"
 search_keyword: ""
 warning: false
 contextual_links:
 - type: section
   name: "Contents"
 - type: link
-  name: "Setting Desired Capabilities in different Browsers"
-  url: "#setting-desired-capabilities-in-different-browsers"
+  name: "For Android applications"
+  url: "#for-android-applications"
 - type: link
-  name: "Example websites to test current location"
-  url: "#example-websites-to-test-current-location"
+  name: "For iOS Applications"
+  url: "#for-ios-applications"
 ---
 
-To be updated....
+<br>
+
+In some applications, we can not take a screenshot as the developer will secure the screen. While testing your application in Testsigma, it is important to enable capturing screenshots.
+
+This article discusses how to enable capturing screenshots for Android and iOS. 
+
+[[info | **NOTE**:]]
+|By default, screenshots will be allowed in both Android and iOS. If for some reason the developer has disabled it in **MainActivity** or any other **Activity** you want to inspect inside the app then you have to enable it by removing the code which adds the restriction.
+
+<br>
+
+## **For Android Applications**
+You can enable capturing screenshots by simply removing the code below in the MainActivity.java or any other Activity you want to inspect.<br>
+
+***getWindow().setFlags(WindowManager.LayoutParams.FLAG_SECURE,***<br>
+                ***WindowManager.LayoutParams.FLAG_SECURE);***
+<br>
+
+Find the complete code for the **MainActivity.java** file below.
+
+![MainActivity Code](https://s3.amazonaws.com/static-docs.testsigma.com/new_images/projects/applications/java_code_MA.png)
+
+## **For iOS Applications**
+In iOS applications, if you’re using thirdarty tools to disable screenshot, you need to remove that restriction to allow inspection in Testsigma.
