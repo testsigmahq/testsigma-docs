@@ -26,7 +26,7 @@ contextual_links:
 
 For inspecting WebView elements in Testsigma, WebView debugging must be enabled within your application. 
 
-This article discusses how to enable capturing screenshots for Android and iOS.
+This article discusses how to inspect WebView elements in Android.
 
 To enable WebView debugging, call the static method ***setWebContentsDebuggingEnabled(true)*** on the WebView class.
 ![Enable Debugging](https://s3.amazonaws.com/static-docs.testsigma.com/new_images/projects/applications/DbTrue.png)
