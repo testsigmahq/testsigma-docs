@@ -23,7 +23,7 @@ ul.circle {
 <ol>
 <li>Make sure the agent and device are in an active state.
 <ul class="disc">
-<li>To know if the Testsigma agent is running, navigate to <strong>Agents</strong>. Select <strong>Active agents</strong> from the drop-down. Check if your local agent is part of the list. If not, refer to <a href="https://testsigma.com/docs/agent/troubleshooting/setup-issues/com">troubleshooting Testsigma agent issues</a>.</li>
+<li>To know if the Testsigma agent is running, navigate to <strong>Agents</strong>. Select <strong>Active agents</strong> from the drop-down. Check if your local agent is part of the list. If not, refer to <a href="https://testsigma.com/docs/agent/troubleshooting/setup-issues/">troubleshooting Testsigma agent issues</a>.</li>
 <li>To know if the local device is active, navigate to <strong>Agents >Testsigma agent > Devices</strong>. Under devices, you can see the device connected to the Testsigma agent. If your device is unlisted, refer to following guides : <a href="https://testsigma.com/docs/agent/connect-android-local-devices/" >Android</a> and <a href="https://testsigma.com/docs/agent/connect-ios-local-devices/" >iOS</a></li>
 </ul>
 </li>

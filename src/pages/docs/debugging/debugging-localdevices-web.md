@@ -21,7 +21,7 @@ contextual_links:
 Debugging issues in complex test cases might require enhanced techniques. This article describes Testsigma's interactive debugging feature for web applications that will not only fix test step issues but also save a good amount of debugging time.
 
 [[info | **NOTE**:]]
-|This feature is available in beta version only. Contact [support](support@testsigma.com) for enabling the feature in your account.
+|This feature is available in beta version only. Contact [support](mailto:support@testsigma.com) for enabling the feature in your account.
 
 ---
 
