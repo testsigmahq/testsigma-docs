@@ -106,7 +106,7 @@ After the installation is complete, you can either run the Testsigma agent serve
 
   ![Testsigma Agent started](https://s3.amazonaws.com/static-docs.testsigma.com/new_images/agent/setup-on-windows-mac-linux/agent_started.png)
 
-  If the icon doesn’t appear in 10 minutes, reach out to us at [support@testsigma.com](support@testsigma.com).
+  If the icon doesn’t appear in 10 minutes, reach out to us at [support@testsigma.com](mailto:support@testsigma.com).
 
   After registering you will be directed to the agent registration page![agent registration](https://s3.amazonaws.com/static-docs.testsigma.com/new_images/agent/setup-on-windows-mac-linux/agent_register_page.png)<br>
   For more information on registering the agent refer to the section,  *[Register the Testsigma agent](#register-the-testsigma-agent)*
@@ -120,7 +120,7 @@ After the installation is complete, you can either run the Testsigma agent serve
 
   ![Testsigma Agent Mac System Tray icon](https://docs.testsigma.com/images/setup-on-windows-mac-linux/ts-agent-mac-tray-icon.png)
 
-  If the icon doesn’t appear in 10 minutes, reach out to us at [support@testsigma.com](support@testsigma.com).
+  If the icon doesn’t appear in 10 minutes, reach out to us at [support@testsigma.com](mailto:support@testsigma.com).
 
 <br>
 

@@ -98,5 +98,5 @@ To disable the above capabilities, set the following values to false under the d
 |If you choose to disable the capability <kbd>testsigma.cameraImageInjection</kbd>, you will not be able to use the NLP for image injection. *For more information, refer to [Image injection](https://testsigma.com/docs/test-cases/image-injection/)*.
 
 
-If the issue persists, contact our [support](support@testsigma.com) team.
+If the issue persists, contact our [support](mailto:support@testsigma.com) team.
 

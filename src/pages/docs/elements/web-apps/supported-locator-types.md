@@ -84,7 +84,7 @@ CSS Selector for the Email field using the Class name is **input.inputtext**
 Learn how to create [Dynamic Element locators](https://testsigma.com/docs/elements/dynamic-elements/with-parameter-test-data/) using Xpath and CSS Locators.
 
 Also only a CSS selector can access elements present inside shadow DOM. *For more information on shadow dom,refer to
-[locating shadow DOM](https://testsigma.com/docs/elements/web-apps/shadow-DOM/)*.
+[locating shadow DOM](https://testsigma.com/docs/elements/web-apps/shadow-dom/)*.
 
 <br>
 

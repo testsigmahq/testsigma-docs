@@ -167,7 +167,7 @@ Follow the below steps to fix the issue.
 2. Restart the Agent.
 3. If the Agent is not updated, update the Agent. *For more information, refer to [update Agents](https://testsigma.com/docs/agent/update-agent-manually/)*.
 
-If the above troubleshooting steps does not resolve the issue, contact Testsigma support at [support@testsigma.com](support@testsigma.com) with the Agent logs files. *For more information on how to fetch agent logs refer to, [agent logs](https://testsigma.com/docs/agent/troubleshooting/logs/)*.
+If the above troubleshooting steps does not resolve the issue, contact Testsigma support at [support@testsigma.com](mailto:support@testsigma.com) with the Agent logs files. *For more information on how to fetch agent logs refer to, [agent logs](https://testsigma.com/docs/agent/troubleshooting/logs/)*.
 
 
 
