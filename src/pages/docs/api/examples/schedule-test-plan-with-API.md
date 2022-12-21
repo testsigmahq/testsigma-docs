@@ -13,8 +13,8 @@ contextual_links:
   name: "Test plan details using REST API"
   url: "#test-plan-details-using-rest-api"
 - type: link
-  name: "Schedule a test plan"
-  url: "#schedule-a-test-plan"
+  name: "Schedule a test plan using REST API"
+  url: "#schedule-a-test-plan-using-rest-api"
 - type: link
   name: "Update a scheduled test plan using REST API"
   url: "#update-a-scheduled-test-plan-using-rest-api"
@@ -25,7 +25,7 @@ contextual_links:
 
 <br>
 
-With Testsigma, you can create a schedule for the test plan to execute at a scheduled time using API. You can also set the test plan execution in the queue to start tests outside office hours so that production time is not lost.
+With Testsigma, you can create, update, and delete a schedule for test plan using API. You can also set the test plan execution in the queue to start tests outside office hours so that production time is not lost.
 
 *For more information on test plans, [refer to manage test plans](https://testsigma.com/docs/test-management/test-plans/overview/).*
 
@@ -42,7 +42,7 @@ This endpoint allows users to get all test plans using REST API.
 [[info | **NOTE**:]]
 |**applicationVersionId:** The ID of the application version where you want to schedule the test plan.
 
-## **Schedule a test plan**
+## **Schedule a test plan using REST API**
 This endpoint allows users to schedule a test plan using REST API.
 
 |**Request Type**|**POST**|
