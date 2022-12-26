@@ -9,8 +9,8 @@ contextual_links:
 - type: section
   name: "Contents" 
 - type: link
-  name: "Add a test machine to an existing test plan"
-  url: "#add-a-test-machine-to-an-existing-test-plan"
+  name: "Add test machine to an existing test plan"
+  url: "#add-test-machine-to-an-existing-test-plan"
 - type: link
   name: "Delete test machine"
   url: "#delete-test-machine"
@@ -18,31 +18,35 @@ contextual_links:
 
 ---
 
-As discussed under the [create test plan section](https://testsigma.com/docs/test-management/test-plans/overview/#steps-to-create-a-test-plan), you must add at least one test machine to a test plan to create a test plan successfully. Test machines can be added for  *cross-browser testing* and *distributed testing*.
+As discussed under the [create test plan section](https://testsigma.com/docs/test-management/test-plans/overview/#steps-to-create-a-test-plan), at least one test machine need to be added to a test plan to successfully create a test plan. Test machines can be added for both *cross browser testing* and for *distributed testing*.
 
-For *cross-browser testing*, test machines and test suites are selected separately. On execution, all the selected test suites are run on all selected test machines (in parallel or sequentially, depending on your selection).
+For *cross browser testing* ,test machines and test suites are selected separately. On execution, all the selected test suites are run on all selected test machines ( in parallel or sequentially - depending on your selection).
 
-For *distributed testing*, you can split test suite execution across multiple machines. To do this, Testsigma lets you select different test suites for each selected test machine. This helps reduce execution time too.
 
-The following article discusses adding, editing, or deleting test machines from an existing test plan. *For more information on how to add a test machine while creating a test plan, refer to [test plan](https://testsigma.com/docs/test-management/test-plans/overview/)*.
+For *distributed testing* , test suite execution can be split across multiple machines. To do this, Testsigma lets you select different test suites for each selected test machine. This in effect helps reduce execution time too.
+
+The following article discusses about how to add, edit, or delete test machines from an exisiting test plan.*For more information on how to add a test machine while creating a test plan, refer to [test plan](https://testsigma.com/docs/test-management/test-plans/overview/)*.
 
 ---
 
-## **Add a test machine to an existing test plan**
+## **Add test machine to an existing test plan**
 
 1. Navigate to **Select project**> **Test development**>**Test plan**.
-2. Click on an existing test plan.![clicking Test plan](https://s3.amazonaws.com/static-docs.testsigma.com/new_images/projects/overview/ts_openingexistingtestplan.png)
+2. Click on an existing test plan and click on **Edit Button** on the top right corner.
+3. On the **Edit test plan** page, navigate to the tab **Test devices and suites**.
+![test device and suites](https://s3.amazonaws.com/static-docs.testsigma.com/new_images/test-management/test-plans/overview/test_devices_test_suites.png)
+4. On the **Test devices and suites** tab, select the test suite for which you want to add the test machine for test execution.
+5. On the **Select test device(edit)** overlay, add or edit the necessary details.
+![select test device overlay](https://s3.amazonaws.com/static-docs.testsigma.com/new_images/test-management/test-plans/overview/select_test_device_edit.png)
+6. Click **Update**.
 
-3. In the  **Test devices and suites** tab. Click **Add new** to add the test machine for test execution.![test device and suites](https://s3.amazonaws.com/static-docs.testsigma.com/new_images/projects/overview/ts_testsuitesmachinesaddnew.png)
-
-4. Add or edit the necessary details on the **Select test machines/ suites** overlay.![select test device overlay](https://s3.amazonaws.com/static-docs.testsigma.com/new_images/projects/overview/ts_selectedtestmachinesandsuites.png)
-5. Click **Update**.
 
 
 
-Alternatively, you can add a new test machine by **editing the test plan**. *For more information on editing the test plan, refer to [updating test plan](https://testsigma.com/docs/test-management/test-plans/overview/#edit-test-plan)*.
 
-![Edit test plan](https://s3.amazonaws.com/static-docs.testsigma.com/new_images/projects/overview/ts_editanddetails.png).
+Alternatively, you can add a new test machine by **editing the test plan**.*For more information on editing test plan,refer to [updating test plan](https://testsigma.com/docs/test-management/test-plans/overview/#edit-test-plan)*.
+
+![Edit test plan](https://s3.amazonaws.com/static-docs.testsigma.com/new_images/test-management/test-plans/overview/add_or_edit_test_machine.png).
 
 1. Navigate to the **Edit test plan** page.
 2. Under the **Test machines & suites selection** tab,select the test suite for which you want to add the test machine for test execution.
@@ -62,8 +66,16 @@ Alternatively, you can add a new test machine by **editing the test plan**. *For
 
 ## **Delete test machine**
 
-In case you need to delete an already added test machine in a test plan, follow below steps:
+In case you need to delete an already added test machine in a test plan,follow below steps:
 
-You can delete the test machine through the **Edit test plan** > **Test machine & suites selection** tab.
+1. Navigate to the **Test plans** page>**Test devices and suites** section as explained in the previous section.
+2. On the **Test devices and suites** tab, hover over the Test Machine you want to delete and click on the **Delete** icon on the test machine as shown in the screen shot below:
 
-1. On the **Test machine & suites selection** tab, hover over the test machine you want to delete and click **Delete** on the test machine.![delete test machine](https://s3.amazonaws.com/static-docs.testsigma.com/new_images/projects/overview/ts_testsuitesdeleteeditpage.png)
+![New Test Plan UI - delete test machine button](https://s3.amazonaws.com/static-docs.testsigma.com/new_images/test-management/test-plans/overview/delete_test_machine.png)
+
+
+Alternatively, you can delete the test machine through the **Edit test plan>Test machine and suites selection** tab.
+
+1. On the **Test machine and suites selection** tab, hover over the test machine you want to delete and click on the **Delete** icon on the test machine as shown in the screen shot below:
+![delete test machine](https://s3.amazonaws.com/static-docs.testsigma.com/new_images/test-management/test-plans/overview/delete_test_machine2.png)
+
