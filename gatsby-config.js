@@ -130,15 +130,6 @@ module.exports = {
     "gatsby-plugin-sharp",
     "gatsby-transformer-sharp",
     {
-      resolve: `gatsby-plugin-s3`,
-      options: {
-        bucketName: process.env.BUCKET_NAME,
-        protocol: "https",
-        hostname: process.env.HOST_NAME,
-        generateRedirectObjectsForPermanentRedirects: true
-      },
-    },
-    {
       resolve: 'gatsby-source-filesystem',
       options: {
         name: 'src',
@@ -163,16 +154,6 @@ module.exports = {
           token: process.env.FRESHCHAT_TOKEN,
           host: "https://wchat.freshchat.com",
           appEmbedUrl: "https://app.testsigma.com/ui/dashboard"
-      },
-    },
-    {
-      resolve: `gatsby-plugin-google-analytics`,
-      options: {
-        trackingId: process.env.GA_TRACKING_ID,
-        head: false,
-        anonymize: true,
-        respectDNT: true,
-        enableWebVitalsTracking: true,
       },
     },
     {
