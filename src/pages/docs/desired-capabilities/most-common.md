@@ -48,7 +48,7 @@ Below are a few of the most commonly used Desired Capabilities in executions usi
 |Settings user-defined maximum test duration - As a safety measure to prevent tests from running indefinitely, Sauce limits the duration of tests to 30 minutes by default.|maxDuration|Integer|3600<br><br>minimum - 0<br>default - 3600<br>maximum - 10800<br><br>More details:<br>[How to set Sauce Labs environment-specific settings(step timeout, maximum test duration ) in Testsigma](https://testsigma.com/docs/integrations/test-labs/sauce-labs/)|
 ||||
 |**Environment Customizations (Testsigma Labs)**|
-|Setting the Timezone of the execution Environment|timeZone|String|Madrid<br>You can get the list of Timezone locations from here:<br>https://en.wikipedia.org/wiki/List\_of\_tz\_database\_time\_zones<br><br>Use the City name without the Continent Name and replace underscores with space|
+|Setting the Timezone of the execution Environment|timeZone|String|Madrid<br>You can get the list of Timezone locations from here:<br>https://en.wikipedia.org/wiki/List_of_tz_database_time_zones<br><br>Use the City name without the Continent Name and replace underscores with space|
 |Getting Excecution Console log of each url|extendedDebugging|Boolean|True<br><br>More details:<br>[Enable Browser Console Debugging logs](https://testsigma.com/docs/desired-capabilities/enable-browser-console-logs/)|
 ||||
 |**Environment Customizations (BrowserStack)**|
