@@ -67,3 +67,5 @@ In case you need to delete an already added test machine in a test plan, follow 
 You can delete the test machine through the **Edit test plan** > **Test machine & suites selection** tab.
 
 1. On the **Test machine & suites selection** tab, hover over the test machine you want to delete and click **Delete** on the test machine.![delete test machine](https://s3.amazonaws.com/static-docs.testsigma.com/new_images/projects/overview/ts_testsuitesdeleteeditpage.png)
+
+---

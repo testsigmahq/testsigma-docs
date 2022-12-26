@@ -72,3 +72,5 @@ Under the **Filters** section, you can filter the test suites by name. You can e
 6. **Select Test Machines** & **Selected Test Suites** overlay appear in the screen. Give the required details and click **Add Test Suties**. ![Selected Test Suites Button on Test Plan Details page in Testsigma](https://s3.amazonaws.com/static-docs.testsigma.com/new_images/projects/overview/ts_addtestsuitesnew.png)
 
 7. The **Selected Test Suites** pop-up screen appears, and you can add or remove test suites as needed, and then click **Add** at the bottom right. Click **Create** to add new test suites.![Selected Test Suites layover in Testsigma](https://docs.testsigma.com/images/manage-test-suites/selected-test-suites-layover-testsigma.png)
+
+---
