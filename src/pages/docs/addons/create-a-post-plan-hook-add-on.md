@@ -35,7 +35,7 @@ You should already know about Testsigma add-ons. See:
 - [What is an add-on?](https://testsigma.com/docs/addons/what-is-an-addon/)
 - [Prerequisites for creating an add-on.](https://testsigma.com/docs/addons/pre-requisite-to-create-addon/)
 
-For information on how to create an add-on, refer to [*create an add-on*](https://testsigma.com/docs/addons/create/).
+For information on how to create an add-on, refer to *[create an add-on](https://testsigma.com/docs/addons/create/)*.
 
 ## **Update the action code as required for the post plan hook**
 
