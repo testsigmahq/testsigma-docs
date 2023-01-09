@@ -22,8 +22,8 @@ Users can customise the actions within these add-ons to fit their needs and link
 
 [[info | NOTE:]]
 | You should create an add-on that supports the post-plan hook to run after the test plan execution is complete and customise the actions according to your preference. <br><br>
-| *For information on how to create an add-on, refer to [create an add-on](https://testsigma.com/docs/addons/create/)*
-![Quick loop through the post-plan hook in gif](https://s3.amazonaws.com/static-docs.testsigma.com/new_images/projects/overview/postplanhook.gif)
+| *For information on how to create a post plan hook add-on, refer to [create a post plan hook add-on](https://testsigma.com/docs/addons/create-a-post-plan-hook-add-on/)*
+![Quick loop through the post-plan hook in gif](https://s3.amazonaws.com/static-docs.testsigma.com/new_images/projects/overview/postplanhookgif.gif)
 
 ---
 
