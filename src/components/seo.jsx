@@ -143,6 +143,31 @@ function SEO({ lang,
             {/* Algolia API v4 IE11 support  */}
             <script src="https://polyfill.io/v3/polyfill.min.js?features=Promise%2CObject.entries%2CObject.assign" />
 
+            <script type="application/ld+json">
+                {'{'+
+
+                        '"@context": "https://schema.org/",'+
+                        '"@type": "BreadcrumbList",'+
+                        '"itemListElement":'+ '['+'{'+
+                            '"@type":'+ '"ListItem",'+
+                            '"position":'+ '1,'+
+                            '"name":'+ '"Testsigma",'+
+                            '"item":'+ '"https://testsigma.com/"'+
+                        '},'+ '{'+
+                            '"@type":'+ '"ListItem",'+
+                            '"position":'+ '2,'+
+                            '"name":'+ '"Docs",'+
+                            '"item":'+ '"https://testsigma.com/docs/"'+
+                        '},'+ '{'+
+                            '"@type":'+ '"ListItem",'+
+                            '"position":'+ '3,'+
+                            '"name":'+ '"'+title+'"'+',' +
+                            '"item":'+ '"https://testsigma.com'+ slug +'"'+
+                        '}'+']'+
+                '}'
+                }
+            </script>
+
         </Helmet>
     );
 }
