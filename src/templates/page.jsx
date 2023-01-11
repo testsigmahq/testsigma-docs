@@ -30,8 +30,9 @@ export default ({ data, pageContext }) => {
         : null;
 
     const post = data.markdownRemark;
-    if(window.location.hostname=="website.testsigma.com") {
-        post.frontmatter.noindex = false;
+    const isBrowser = () => typeof window !== "undefined"
+    if(isBrowser() && window.location.hostname=="website.testsigma.com") {
+        post.frontmatter.noindex = true;
     }
 
     let contextualLinks;
