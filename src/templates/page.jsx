@@ -30,6 +30,10 @@ export default ({ data, pageContext }) => {
         : null;
 
     const post = data.markdownRemark;
+    if(window.location.hostname=="website.testsigma.com") {
+        post.frontmatter.noindex = false;
+    }
+
     let contextualLinks;
     if (post.frontmatter.contextual_links) {
         contextualLinks = <SideBar links={post.frontmatter.contextual_links} />;
