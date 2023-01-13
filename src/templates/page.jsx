@@ -12,6 +12,7 @@ import Footer from "../components/Footer";
 
 import 'prismjs/themes/prism-tomorrow.css';
 import './page.scss';
+import {environment} from "../environment";
 
 export default ({ data, pageContext }) => {
 
@@ -30,8 +31,7 @@ export default ({ data, pageContext }) => {
         : null;
 
     const post = data.markdownRemark;
-    const isBrowser = () => typeof window !== "undefined"
-    if(isBrowser() && window.location.hostname=="website.testsigma.com") {
+    if(environment.isStaging()) {
         post.frontmatter.noindex = true;
     }
 
