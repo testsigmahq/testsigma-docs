@@ -7,7 +7,7 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - name: Update Ubuntu Package Manager
-        run: apt-get update
+        run: sudo apt-get update
       - name: Install libvips
         run: sudo apt-get install libvips
       - uses: actions/checkout@v2
