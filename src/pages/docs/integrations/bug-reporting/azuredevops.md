@@ -44,7 +44,7 @@ Here is a quick gif to help you find the access key from Azure DevOps.
     - Enter the following details- 
         - Account URL 
         - API Key 
-  ![Click on Create](https://s3.amazonaws.com/static-docs.testsigma.com/new_images/projects/applications/clickoncreate.png)
+        ![Click on Create](https://s3.amazonaws.com/static-docs.testsigma.com/new_images/projects/applications/clickoncreate.png)
         - Click on **Create**
 
 
@@ -74,4 +74,4 @@ Here is a quick gif to help you find the access key from Azure DevOps.
 ![Linked TC](https://s3.amazonaws.com/static-docs.testsigma.com/new_images/projects/applications/testcaselinked.png)
 
 [[info | **NOTE**:]]
-|You can edit and delete the linked Azure Devops Test Cases by clicking on the respective icons.
+|You can edit and delete the linked Azure Devops Test Cases by clicking on the respective icons. 
