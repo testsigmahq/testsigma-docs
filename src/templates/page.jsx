@@ -12,6 +12,7 @@ import Footer from "../components/Footer";
 
 import 'prismjs/themes/prism-tomorrow.css';
 import './page.scss';
+import {environment} from "../environment";
 
 export default ({ data, pageContext }) => {
 
@@ -30,6 +31,10 @@ export default ({ data, pageContext }) => {
         : null;
 
     const post = data.markdownRemark;
+    if(environment.isStaging()) {
+        post.frontmatter.noindex = true;
+    }
+
     let contextualLinks;
     if (post.frontmatter.contextual_links) {
         contextualLinks = <SideBar links={post.frontmatter.contextual_links} />;
