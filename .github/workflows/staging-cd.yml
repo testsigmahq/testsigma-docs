@@ -33,6 +33,8 @@ jobs:
           echo GTAG_TRACKING_ID_FOR_GA4=${{ secrets.STAGING_GTAG_TRACKING_ID_FOR_GA4 }} >> .env
           echo GTAG_TRACKING_ID_FOR_GTAG=${{ secrets.STAGING_GTAG_TRACKING_ID_FOR_GTAG }} >> .env
           cat .env
+      - name: Set environment
+        run : sed -i 's/localhost/website.testsigma.com/g' src/environment.ts
       - name: Build
         run: |
           PREFIX_PATHS=true npm run build && npm run deploy
