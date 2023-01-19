@@ -38,7 +38,7 @@ This article explains how to import projects from **TestProject** and upload to 
 ![Import](https://s3.amazonaws.com/static-docs.testsigma.com/new_images/projects/applications/nnn.png)
 
 4. On the import prompt, click on **Import from TestProject**.
-![Prompt](https://s3.amazonaws.com/static-docs.testsigma.com/new_images/projects/applications/prompt.png)
+![Prompt](https://s3.amazonaws.com/static-docs.testsigma.com/new_images/projects/applications/image2.png)
 
 
 [[info | **NOTE**:]]
