@@ -50,8 +50,8 @@ This endpoint allows users to schedule a test plan using REST API.
 |**Endpoint**|https://app.testsigma.com/api/v1/schedule_executions|
 |**Authorization**|Bearer **<API\_Token>**<br>Same as the Testsigma API key mentioned above.|
 |**Request Body Type (JSON)**|Raw|
-|**Payload**|{<br>&emsp;"name": "New Test Plan Schedule",<br>&emsp;"executionId": 180,<br>&emsp;"scheduleType": "ONCE",<br>&emsp;"status": "ACTIVE",<br>&emsp;"nextInterval": "2022-12-14T11:13:00.000",<br>&emsp;"timezone": "EST"<br>&emsp;}|
-|**Response Body(JSON)**|{<br>&emsp;"id": 21,<br>&emsp;"executionId": 180,<br>&emsp;"name": "New Test Plan Schedule",<br>&emsp;"comments": null,<br>&emsp;"scheduleType": "WEEKLY",<br>&emsp;"nextInterval": 1671016380000,<br>&emsp;"nextIntervalUTC": "2022-12-14T11:13:00Z",<br>&emsp;"createdById": 10,<br>&emsp;"createdDate": 1671006911289,<br>&emsp;"updatedById": 10,<br>&emsp;"updatedDate": 1671006911289,<br>&emsp;"status": "ACTIVE"<br>&emsp;}|
+|**Payload**|<pre>{<br>  "name": "New Test Plan Schedule",<br>  "executionId": 180,<br>  "scheduleType": "ONCE",<br>  "status": "ACTIVE",<br>  "nextInterval": "2022-12-14T11:13:00.000",<br>  "timezone": "EST"<br>  }<pre>|
+|**Response Body(JSON)**|<pre>{<br>  "id": 21,<br>  "executionId": 180,<br>  "name": "New Test Plan Schedule",<br>  "comments": null,<br>  "scheduleType": "WEEKLY",<br>  "nextInterval": 1671016380000,<br>  "nextIntervalUTC": "2022-12-14T11:13:00Z",<br>  "createdById": 10,<br>  "createdDate": 1671006911289,<br>  "updatedById": 10,<br>  "updatedDate": 1671006911289,<br>  "status": "ACTIVE"<br>  }<pre>|
 
 **Request fields**<br>
 **name:** The name you want to give to test schedule.<br>
@@ -78,8 +78,8 @@ This endpoint allows users to update a scheduled test plan using REST API.
 |**Endpoint**|https://app.testsigma.com/api/v1/schedule_executions/&lt;executionId&gt|
 |**Authorization**|Bearer **<API\_Token>**<br>Same as the Testsigma API key mentioned above.|
 |**Request Body Type (JSON)**|Raw|
-|**Request Body**|{<br>&emsp;"name": "Updated schedule",<br>&emsp;"executionId": 180,<br>&emsp;"scheduleType": "WEEKLY",<br>&emsp;"status": "ACTIVE"<br>&emsp;"nextInterval": "2022-12-20T15:28:00.000",<br>&emsp;"timezone": "PST"<br>&emsp;}<br>|
-|**Response Body(JSON)**|{<br>&emsp;"id": 16,<br>&emsp;"executionId": 180,<br>&emsp;"name": "Updated schedule",<br>&emsp;"comments": null,<br>&emsp;"scheduleType": "WEEKLY",<br>&emsp;"nextInterval": 1671578880000,<br>&emsp;"nextIntervalUTC": "2022-12-20T23:28:00Z",<br>&emsp;"createdById": 9,<br>&emsp;"createdDate": 1670995456000,<br>&emsp;"updatedById": 10,<br>&emsp;"updatedDate": 1671548631732,<br>&emsp;"status": "ACTIVE"<br>&emsp;}|
+|**Request Body**|<pre>{<br>  "name": "Updated schedule",<br>  "executionId": 180,<br>  "scheduleType": "WEEKLY",<br>  "status": "ACTIVE",<br>  "nextInterval": "2022-12-20T15:28:00.000",<br>  "timezone": "PST"<br>  }<pre>|
+|**Response Body(JSON)**|<pre>{<br>  "id": 16,<br>  "executionId": 180,<br>  "name": "Updated schedule",<br>  "comments": null,<br>  "scheduleType": "WEEKLY",<br>  "nextInterval": 1671578880000,<br>  "nextIntervalUTC": "2022-12-20T23:28:00Z",<br>  "createdById": 9,<br>  "createdDate": 1670995456000,<br>  "updatedById": 10,<br>  "updatedDate": 1671548631732,<br>  "status": "ACTIVE"<br> }<pre>|
 
 [[info | **NOTE**:]]
 |**executionId:** The ID of the scheduled the test plan from GET API.
