@@ -1,7 +1,7 @@
 ---
 title: "Testsigma Product Roadmap"
 metadesc: "Coming soon..."
-noindex: true
+noindex: false
 order: 25.1
 page_id: "Testsigma Product Roadmap"
 warning: false
