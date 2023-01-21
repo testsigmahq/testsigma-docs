@@ -20,6 +20,8 @@ contextual_links:
 
 While creating web or mobile application test cases, you can include REST API related test steps within them as well. You can also create a REST API standalone testing project.
 
+New **RESTful API version 2** is now available. Check out [RESTful API Testing Version 2](https://testsigma.com/docs/api/restful-api-testing-version-2/add-restful-api-in-test-steps/) for more information.
+
 &emsp;
 
 ---
