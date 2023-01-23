@@ -36,7 +36,7 @@ Desired capabilities have now been added to the browser's Incognito/Private tab 
 ---
 ## **Add Desired capabilities in Ad-hoc Run Screen**
 
-![gif for test case](https://s3.amazonaws.com/static-docs.testsigma.com/new_images/projects/overview/dcd_ad_testplan.gif)
+![gif for test case](https://s3.amazonaws.com/static-docs.testsigma.com/new_images/projects/overview/dc_ad_hoc_run.gif)
 
 1. Navigate to **Test Development** > **Test Cases**. Create a new project or open an existing project.
 ![Choose Project](https://s3.amazonaws.com/static-docs.testsigma.com/new_images/projects/overview/testcase_dc.png)
