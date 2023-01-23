@@ -14,15 +14,6 @@ contextual_links:
   name: "Response Body Verification"
   url: "#response-body-verification"
 - type: link
-  name: "Add Verification in Response Body"
-  url: "#add-verification-in-response-body"
-- type: link
-  name: "Copy Response from Response body"
-  url: "#copy-response-from-response-body"
-- type: link
-  name: "Verify Response body"
-  url: "#verify-response-body"  
-- type: link
   name: "Headers Verification"
   url: "#headers-verification"
 - type: link
@@ -54,7 +45,7 @@ You can verify the response body in three ways.
 ![Add Verification in Verification Tab](https://s3.amazonaws.com/static-docs.testsigma.com/new_images/projects/overview/responsebody_verification_restapi.gif)
 
 [[info | NOTE:]]
-| - You can manually enter the field by clicking **Add Verification** in the response body.
+| - Navigate to **Verification** > **Response Body** tab, and click **Add Verification** to add the field manually.
 | - Validate values of a key received in a response body.
 
 ### **Copy Response from Response body**
