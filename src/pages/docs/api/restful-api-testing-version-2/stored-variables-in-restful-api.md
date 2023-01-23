@@ -33,7 +33,7 @@ Stored variables in RESTful API testing are variables that are used to store dat
 ![store response body in tab](https://s3.amazonaws.com/static-docs.testsigma.com/new_images/projects/overview/storevariable_restapioutline.gif)
 
 [[info | NOTE:]]
-| - You can manually enter the field by clicking **Store Variable** in the response body.
+| - Navigate to **Stored Variables** > **Response Body** tab, and click **Store Variable** to add the field manually.
 
 ## **Store Variable in Headers tab**
 
