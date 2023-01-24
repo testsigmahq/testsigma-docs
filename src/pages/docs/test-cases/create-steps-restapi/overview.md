@@ -11,8 +11,11 @@ warning: false
 
 Creation of a Test Case for Web Service/API Testing is no different than the creation of a Test Case for a web or mobile application in Testsigma.
 See [add, edit, and delete test cases](https://testsigma.com/docs/test-cases/manage/add-edit-delete/).
+
+New **RESTful API version 2** is now available. Check out [RESTful API Testing Version 2](https://testsigma.com/docs/api/restful-api-testing-version-2/add-restful-api-in-test-steps/) for more information.
+
  
-Navigate to the Test Cases page by going to **Applications > Create/Select Application > Create/Select Version > Create/Select Test Case**
+Navigate to the Test Cases page by going to **Applications > Create/Select Application** > **Create/Select Version** > **Create/Select Test Case**
 
 Selecting the Test Case takes us to the Test Case details page. We will create the RESTful Test Steps here. The API Test Step page will open, as shown below:
 
