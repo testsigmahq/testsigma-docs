@@ -322,7 +322,7 @@ The Script will trigger the executions and also wait until the Timeout (MAX_WAIT
 Now, let’s look at the script for the Unix shell:
 
 ```
-'#!/bin/bash
+#!/bin/bash
 #**********************************************************************
 #
 # TESTSIGMA_API_KEY -> API key generated under Testsigma App >> Configuration >> API Keys
@@ -591,7 +591,7 @@ fi
 echo "************************************************"
 echo "Result JSON Response: $RUN_BODY"
 echo "************ Testsigma: Completed executing automated tests ************"
-exit $EXITCODE'
+exit $EXITCODE
 ```
  
 In case you have any questions, [contact Testsigma support](mailto:support@testsigma.com).
