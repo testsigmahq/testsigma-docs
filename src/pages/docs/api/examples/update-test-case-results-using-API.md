@@ -25,12 +25,12 @@ This endpoint allows users to update the Test Case result using REST API.
 |**Endpoint**|https://app.testsigma.com/api/v1/executions/results/&lt;run_id&gt;/override<br> The &lt;run_id&gt; can be obtained from the Run Results.|
 |**Authorization**|Bearer **<API\_Token>**<br>Same as the Testsigma API key mentioned above.|
 |**Request Body Type (JSON)**|Raw|
-|**Request Body**|[{<br>"testcaseresultId": 2429,<br>"commit": "Marking as failed as comment 1"<br>"Result": "SUCCESS"<br>}]<br>|
+|**Request Body**|[<br>{<br>"testCaseResultId": 3646,<br>"comment": "Modifying the results 1",<br>"result": "SUCCESS"<br>}<br>]<br>|
 |**Response Body(JSON)**|{<br>"errors": [],<br>"message": "Overridden the results successfully"<br>}|
 
 **Request fields**<br>
-**testcaseresultId:** ID of Test Case result.<br>
-**commit:** Comment you want to add to change the result.<br> 
+**testCaseResultId:** ID of Test Case result.<br>
+**comment:** Comment you want to add to change the result.<br> 
 **result:** The result you want to override the current result.<br> 
 
 **Response fields**<br>
