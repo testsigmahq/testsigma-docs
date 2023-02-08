@@ -75,21 +75,21 @@ This endpoint allows users to update a scheduled test plan using REST API.
 
 |**Request Type**|**PUT**|
 |---|---|
-|**Endpoint**|https://app.testsigma.com/api/v1/schedule_executions/&lt;executionId&gt|
+|**Endpoint**|https://app.testsigma.com/api/v1/schedule_executions/&lt;scheduleId&gt|
 |**Authorization**|Bearer **<API\_Token>**<br>Same as the Testsigma API key mentioned above.|
 |**Request Body Type (JSON)**|Raw|
 |**Request Body**|<pre>{<br>  "name": "Updated schedule",<br>  "executionId": 180,<br>  "scheduleType": "WEEKLY",<br>  "status": "ACTIVE",<br>  "nextInterval": "2022-12-20T15:28:00.000",<br>  "timezone": "PST"<br>  }<pre>|
 |**Response Body(JSON)**|<pre>{<br>  "id": 16,<br>  "executionId": 180,<br>  "name": "Updated schedule",<br>  "comments": null,<br>  "scheduleType": "WEEKLY",<br>  "nextInterval": 1671578880000,<br>  "nextIntervalUTC": "2022-12-20T23:28:00Z",<br>  "createdById": 9,<br>  "createdDate": 1670995456000,<br>  "updatedById": 10,<br>  "updatedDate": 1671548631732,<br>  "status": "ACTIVE"<br> }<pre>|
 
 [[info | **NOTE**:]]
-|**executionId:** The ID of the scheduled the test plan from GET API.
+|**scheduleId:** The ID of the required schedule of the plan selected
 
 ## **Delete a scheduled test plan using REST API**
 This endpoint allows users to delete a scheduled test plan using REST API.
 
 |**Request Type**|**DELETE**|
 |---|---|
-|**Endpoint**|https://staging.testsigma.com/api/v1/schedule_executions/&lt;executionId&gt|
+|**Endpoint**|https://staging.testsigma.com/api/v1/schedule_executions/&lt;scheduleId&gt|
 
 [[info | **NOTE**:]]
 |DELETE method will delete the respective schedule and return status code 202.
