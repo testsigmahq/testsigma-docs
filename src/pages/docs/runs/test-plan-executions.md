@@ -14,7 +14,15 @@ contextual_links:
 - type: link
   name: "Steps to create and execute test plan"
   url: "#steps-to-create-and-execute-test-plan"
-
+- type: link
+  name: "Partial test runs"
+  url: "#partial-test-runs"
+- type: link
+  name: "Test Plan Run Results"
+  url: "#test-plan-run-results"
+- type: link
+  name: "Steps to check Test Plan Run Results"
+  url: "#steps-to-check-test-plan-run-results"
 ---
 
 ---
@@ -103,4 +111,19 @@ Once you have applied the filters, you can:
 
 ---
 
+## **Test Plan Run Results**
+A Test Plan is a collection of Test Suites grouped based on a specific feature or a requirement. You can follow the steps below to check the Test Plan Run Results.
 
+## **Steps to check Test Plan Run Results**
+1. Navigate to **Test Development > Run Results**.
+![Navigate to Run Results](https://s3.amazonaws.com/static-docs.testsigma.com/new_images/projects/applications/naviagte.png)
+
+2. Hover over to the Test Plan Result you want and click on **View Reports**.
+![View Reports](https://s3.amazonaws.com/static-docs.testsigma.com/new_images/projects/applications/viewreports2.png)
+
+3. You can see the results page below:
+![Results page](https://s3.amazonaws.com/static-docs.testsigma.com/new_images/projects/applications/resultpageoftp.png)
+
+[[info | **NOTE**:]]
+|You can check results at the Test case level, Test Suite level, and Test Plan level. Refer to the following GIF to understand better.
+| ![Results GIF](https://s3.amazonaws.com/static-docs.testsigma.com/new_images/projects/applications/Resultsgif.gif)
