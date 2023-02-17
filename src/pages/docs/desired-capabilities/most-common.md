@@ -25,7 +25,7 @@ Below are a few of the most commonly used Desired Capabilities in executions usi
 |Setting custom profile for Browser data|goog:chromeOptions|String|{"args":["user-data-dir=/path/to/your/custom/profile"]}<br><br>More details:<br>[How to open Chrome with the user-defined profile in Testsigma using Desired Capabilities](https://testsigma.com/docs/desired-capabilities/custom-user-profile-chrome/)|
 |Setting the Geolocation (Chrome)|goog:chromeOptions<br><br>geolocation|String<br><br>String|{"profile.default\_content\_setting\_values.geolocation": 1 }<br><br>51.50735, -0.12776, 100<br><br>More details:<br>[How to manually set a geographical location for Test Cases using Desired Capabilities](https://testsigma.com/docs/desired-capabilities/set-geo-location/)|
 |Bypassing Chrome download protection<br>(Keep/discard promptly for file downloads)|goog:chromeOptions|String|{"prefs":{"safebrowsing.enabled":"true"}}<br><br>More details:<br>[How to bypass or avoid unsafe download prompt for Google Chrome?](https://testsigma.com/docs/desired-capabilities/avoid-unsafe-download-prompt/)|
-||||
+|Disable Chrome Alert Notifications|goog:chromeOptions|String|{"args":["--disable-notifications"]}
 ||||
 ||||
 |**Firefox**|
