@@ -86,28 +86,16 @@ Endpoint: https://app.testsigma.com/api/v1/environments
 
 Body Contents:
 
-{
-
-	
-&emsp;&emsp;&emsp;"name": "Dev Environment",
-
-&emsp;&emsp;&emsp;"description": "Dev Environment",
-
-&emsp;&emsp;&emsp;"parameters": {
-
-&emsp;&emsp;&emsp;"url1": "http://dev.testsigma.com/test1",
-
-&emsp;&emsp;&emsp;"url2": "http://dev.testsigma.com/test2"
-
-&emsp;&emsp;&emsp;},
-
-&emsp;&emsp;&emsp;"passwords" : [
-
-&emsp;&emsp;&emsp;"url2"
-
-&emsp;&emsp;&emsp;]
-
-}
+{<br>
+  "parameters": { <br>
+    "url": "https://travel.testsigma.com/" <br>
+  },<br>
+  "passwords": [], <br>
+  "projectId": 191, <br>
+  "name": "newEnvironment", <br>
+  "description": null, <br>
+  "parametersJson": "{\n  \"url\": \"https://travel.testsigma.com/\"\n}" <br>
+} <br>
 
 **Parameters:** Parameters contain a JSON representation of the data to be created.
 
