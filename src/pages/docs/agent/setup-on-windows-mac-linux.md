@@ -9,26 +9,14 @@ contextual_links:
 - type: section
   name: "Contents"
 - type: link
-  name: "Table of Contents"
-  url: "#table-of-contents"
+  name: "Download Testsigma Agent as ZIP file"
+  url: "#download-testsigma-agent-as-zip-file"
 - type: link
-  name: "Download Testsigma Agent As Zip File"
-  url: "#download-testsigma-agent"
-- type: link
-  name: "Install Via Executables"
-  url: "#install-via-executables"
-- type: link
-  name: "Extract the Testsigma Agent Zip file"
-  url: "#extract-the-testsigma-agent-zip-file"
+  name: "Download Testsigma Agent as exe file"
+  url: "#download-testsigma-agent-as-exe-file"
 - type: link
   name: "Start The Testsigma Agent Server As A Process"
   url: "#start-the-testsigma-agent-server-as-a-process"
-- type: link
-  name: "For Windows"
-  url: "#for-windows"
-- type: link
-  name: "For Mac/Linux"
-  url: "#for-maclinux"
 - type: link
   name: "Start The Testsigma Agent Server As A Service"
   url: "#start-the-testsigma-agent-server-as-a-service"
@@ -36,27 +24,33 @@ contextual_links:
   name: "Register the Testsigma Agent"
   url: "#register-the-testsigma-agent"
 - type: link
-  name: "Run Testsigma Agent Via Docker"
-  url: "#run-testsigma-agent-via-docker"
+  name: "Delay the activation of your Testsigma Agent"
+  url: "#delay-the-activation-of-your-testsigma-agent"
+- type: link
+  name: "Run Testsigma Agent using Docker"
+  url: "#run-testsigma-agent-using-docker"
 
 ---
 
-<br><br>
+---
+
 The Testsigma Agents are available in  the following forms, namely:
 
-1. ZIP files
-2. Executable files
-3. DMG files
-3. Docker image
-<br><br>
+1. **ZIP files**
+2. **Executable files**
+3. **DMG files**
+3. **Docker image**
+<br>
 
-You can choose the format that suits you the best. <br><br>
+You can choose the format that suits you the best. <br>
+
+---
 
 ## **Download Testsigma Agent as ZIP file**
 
 To download the Testsigma agent as a ZIP file, follow below steps:
 
-1. Navigate to **Agents> Download Agent** to download the latest version of Testsigma Agent.
+1. Navigate to **Agents** > **Download Agent** to download the latest version of **Testsigma Agent**.
 ![agents page and the button to download agent](https://s3.amazonaws.com/static-docs.testsigma.com/new_images/agent/setup-on-windows-mac-linux/download_agent.png)
 2. After you have downloaded the agent ZIP file, extract the Testsigma agent ZIP file to a location of your choice. Some suggested locations to place the Testsigma agent folder are mentioned in the table below:<br>
 
@@ -72,15 +66,15 @@ To download the Testsigma agent as a ZIP file, follow below steps:
 
 You can either start the Testsigma agent server as a process via the command line or terminal when needed. Or, you can run the Testsigma agent server as a server. *For more information, refer to the below sections to see how to start the Testsigma Agent [as a process](#start-the-testsigma-agent-server-as-a-process) or [as a service](#start-the-testsigma-agent-server-as-a-service)*
 
-## **Download Testsigma Agent as .exe file**
+## **Download Testsigma Agent as exe file**
 
 To download the Testsigma agent as an executable file, follow below steps:
 
 1. Navigate to **Agents > Download Agent**.
 2. From the dropdown that appears, select the executable file supported by your machine.
-    - For Windows, select on <kbd>exe</kbd>,
-    - For mac, select <kbd>dmg</kbd>,
-    - For Linux select <kbd>bin</kbd> to download the latest version of Testsigma Agent.
+    - For **Windows**, select on <kbd>**exe**</kbd>,
+    - For **mac**, select <kbd>**dmg**</kbd>,
+    - For **Linux**, select <kbd>**bin**</kbd> to **download** the latest version of **Testsigma Agent**.
 
  The dropdown on the agents page looks like below:
 
@@ -209,14 +203,14 @@ There may be instances when you want to add the Testsigma agents to your Testsig
 
 ## **Run Testsigma Agent using docker**
 
-There are two ways of starting testsigma local agent using docker:
+Testsigma's local agent can be started in two ways using Docker:
 
-- Create an agent in app.testsigma.com and get the activation key and use that while booting the docker container to register the agent. OR
-- Create and register a new agent entirely while booting the docker container.
+- Create an agent in app.testsigma.com, obtain the activation key, and use it to register the agent while the Docker container is booting. OR
+- Create and register a new agent entirely while booting the Docker container.
 
-We will discuss both the ways below:
+We will discuss both ways below.
 
-**1. Create an agent in app.testsigma.com**
+### **1. Create an agent in app.testsigma.com**
 
   Follow below steps:
 
@@ -231,53 +225,207 @@ We will discuss both the ways below:
 
   ![activation key for an added agent](https://s3.amazonaws.com/static-docs.testsigma.com/new_images/agent/setup-on-windows-mac-linux/agent_details.png)
 
-  6. Get the activation key, and use in the command below:
+  6. Create a **docker-compose.yml** file with **TS\_ACTIVATION\_KEY** environment variables.
 
-    docker run --name testsigma-agent \
-    -e TS_ACTIVATION_KEY="<ACTIVATION_KEY>" \
-    testsigmainc/testsigma-agent:latest
+  The following docker compose snippet can be used to start a Testsigma Agent with headless Chrome, Firefox & Edge browsers:
+  <br>
 
-  In the above command we need to replace <kbd>\<ACTIVATION_KEY></kbd> with the actual activation key obtained in step 5.
+    version: "3.9"
+    services:
+      testsigma-agent:
+        image: testsigmainc/testsigma-agent:latest
+        container_name: testsigma-agent
+        depends_on:
+          - chrome
+          - firefox
+          - edge
+        volumes:
+          - ./data/agent_data:/var/ts/agent
+        environment:
+          TS_ACTIVATION_KEY: "REPLACE_WITH_YOUR_ACTIVATION_KEY"
+          CHROME: "http://chrome:4444"
+          FIREFOX: "http://firefox:4444"
+          EDGE: "http://edge:4444"
+          
+      chrome:
+        image: selenium/standalone-chrome:latest
+        shm_size: 1gb
+        ports:
+          - "4444:4444"
 
-  Once you already have the docker image for testsigma agent and have used the above command already, then next time when you need to start the testsigma agent, use the command below:
+      firefox:
+        image: selenium/standalone-firefox:latest
+        shm_size: 1gb
+        ports:
+          - "4445:4444"
+         
+      edge:
+        image: selenium/standalone-edge:latest
+        shm_size: 1gb
+        ports:
+          - "4446:4444"
 
-    docker start -a testsigma-agent
+ <br><br>
+  This docker-compose snippet spins up 4 containers:<br>
+  1. Testsigma Agent<br>
+  2. Standalone selenium with pre-installed Chrome<br>
+  3. Standalone selenium with pre-installed Firefox<br>
+  4. Standalone selenium with pre-installed Edge
+    
+  Testsigma Agent will detect browser versions through the Environment Variables CHROME, FIREFOX, and EDGE. Note that these Environment Variables are all optional. 
 
-  One example of a docker run command is:<br>
+  If you plan to run your test solely on the Chrome browser, there's no need to specify the FIREFOX and EDGE environment variables. Here's an example docker-compose file: 
+  <br>
+
+    version: "3.9"
+    services:
+      testsigma-agent:
+        image: testsigmainc/testsigma-agent:latest
+        container_name: testsigma-agent
+        depends_on:
+          - chrome
+        volumes:
+          - ./data/agent_data:/var/ts/agent
+        environment:
+          TS_ACTIVATION_KEY: "REPLACE_WITH_YOUR_ACTIVATION_KEY"
+          CHROME: "http://chrome:4444"
+
+      chrome:
+        image: selenium/standalone-chrome:latest
+        shm_size: 1gb
+        ports:
+          - "4444:4444"
+
+ <br><br>
+   If your system lacks sufficient resources, you have the option to distribute browser containers across multiple systems and specify a remote debugging URL. Here's an example docker-compose file: <br>   
+
   
-    docker run --name testsigma-agent \
-    -e TS_ACTIVATION_KEY="***********" \
-    testsigmainc/testsigma-agent:latest
+    version: "3.9"
+    services:
+      testsigma-agent:
+        image: testsigmainc/testsigma-agent:latest
+        container_name: testsigma-agent
+        volumes:
+          - ./data/agent_data:/var/ts/agent
+        environment:
+          TS_ACTIVATION_KEY: "REPLACE_WITH_YOUR_ACTIVATION_KEY"
+          CHROME: "<REMOTE_CHROME_URL>"
+          FIREFOX: "<REMOTE_FIREFOX_URL>"
+          EDGE: "<REMOTE_EDGE_URL>"
+          
+  <br><br>
+  Testsigma Agent container allows controlling minimum and maximum heap memory settings using MIN and MAX envinroment variables. The default values for MIN and MAX will be 1GB and 8GB respectively. Here's an example docker-compose file:
+
+
+    version: "3.9"
+    services:
+      testsigma-agent:
+        image: testsigmainc/testsigma-agent:latest
+        container_name: testsigma-agent
+        volumes:
+          - ./data/agent_data:/var/ts/agent
+        environment:
+          TS_ACTIVATION_KEY: "REPLACE_WITH_YOUR_ACTIVATION_KEY"
+          MIN: "-Xms1g"
+          MAX: "-Xmx8g"
+          CHROME: "<CHROME_URL>"
+          FIREFOX: "<FIREFOX_URL>"
+          EDGE: "<EDGE_URL>"
+
+<br><br>
+ For **ARM based System (Mac M1 processors)**:<br>
+  Google does not build Chrome for Linux ARM platforms. Instead, docker-seleniarm uses the open source Chromium browser instead, which is built for ARM. Here's an example docker-compose file:
 <br>
+
+    version: "3.9"
+    services:
+      testsigma-agent:
+        image: testsigmainc/testsigma-agent:latest
+        container_name: testsigma-agent
+        depends_on:
+          - chrome
+          - firefox
+        volumes:
+          - ./data/agent_data:/var/ts/agent
+        environment:
+          TS_ACTIVATION_KEY: "REPLACE_WITH_YOUR_ACTIVATION_KEY"
+          CHROME: "http://chrome:4444"
+          FIREFOX: "http://firefox:4444"
+          EDGE: "<REMOTE_EDGE_URL>"
+      chrome:
+        image: seleniarm/standalone-chrome:latest
+        shm_size: 1gb
+        ports:
+          - "4444:4444"
+      firefox:
+        image: seleniarm/standalone-firefox:latest
+        shm_size: 1gb
+        ports:
+          - "4445:4444"
+
+<br><br>
+
+7. Start the **Agent**. 
+
+    - Save the **docker-compose.yml** file in an appropriate directory.
+    - Open a command-line interface and navigate to the directory.
+    - Execute the command **docker compose up** to download the necessary images and start the Testsigma Agent.
+ 
+
 
 **2. Create and register a new agent entirely while booting the docker container**
 
-  Follow below steps:
+To create and register the Agent Automatically in one step, you must specify the environment variables below instead of TS\_ACTIVATION\_KEY.
 
-  1. If you are running the testsigma agent for the first time, then you need to use the command below:
+ TS\_AUTO\_REGISTRATION\_KEY - Testsigma API key<br>
+ TS\_AUTO\_REGISTRATION\_TITLE - Title of the Agent<br>
+ TS\_AUTO\_REGISTRATION\_HTTP\_PORT - HTTP Port for internal communication between Agent and Testsigma
+ TS\_AUTO\_REGISTRATION\_HTTPS\_PORT - HTTPS Port for internal communication between Agent and Testsigma
 
-    docker run --name testsigma-agent \
-    -e TS_AUTO_REGISTRATION_KEY="<API_KEY>" \
-    -e TS_AUTO_REGISTRATION_TITLE="\<TITLE>" \
-    -e TS_AUTO_REGISTRATION_HTTP_PORT="<HTTP_PORT>" \
-    -e TS_AUTO_REGISTRATION_HTTPS_PORT="<HTTPS_PORT>" \
-    -p <HTTP_PORT>:<HTTP_PORT> \
-    -p <HTTPS_PORT>:<HTTPS_PORT> \
-    testsigmainc/testsigma-agent:latest
+Here's an example docker-compose file: 
 
-  In the above command
-  -  <kbd>\<API_KEY></kbd> needs to be replaced by the actual key. To know how to generate an API key, refer to <https://testsigma.com/docs/configuration/api-keys/>
-  - <kbd>\<TITLE> </kbd> needs to be replaced with the name you would like to give the agent
-  - <kbd>\<HTTP\_PORT></kbd> and <kbd>\<HTTPS_PORT></kbd> need to be replaced with the ports that you would like the agent to use while booting it up. <br>
 
-  Once you already have the docker image for testsigma agent and have used the above command already, then next time when you need to start the testsigma agent, use the command below:
+    version: "3.9"
+    services:
+      testsigma-agent:
+        image: testsigmainc/testsigma-agent:latest
+        container_name: testsigma-agent
+        depends_on:
+          - chrome
+          - firefox
+          - edge
+        volumes:
+          - ./data/agent_data:/var/ts/agent
+        environment:
+          TS_AUTO_REGISTRATION_KEY: "REPLACE_WITH_API_KEY"
+          TS_AUTO_REGISTRATION_TITLE: "REPLACE_WITH_TITLE"
+          TS_AUTO_REGISTRATION_HTTP_PORT: "REPLACE_WITH_ANY_AVAILABLE_PORT_NUMBER"
+          TS_AUTO_REGISTRATION_HTTPS_PORT: "REPLACE_WITH_ANY_AVAILABLE_PORT_NUMBER"
+          CHROME: "http://chrome:4444"
+          FIREFOX: "http://firefox:4444"
+          EDGE: "http://edge:4444"
 
-    docker start -a testsigma-agent
+      chrome:
+        image: selenium/standalone-chrome:latest
+        shm_size: 1gb
+        ports:
+          - "4444:4444"
 
-  One example of a docker run command is:<br>
+      firefox:
+        image: selenium/standalone-firefox:latest
+        shm_size: 1gb
+        ports:
+          - "4445:4444"
 
-    docker run --name testsigma-agent \
-    -e TS_ACTIVATION_KEY="***********" \
-    testsigmainc/testsigma-agent:latest
+      edge:
+        image: selenium/standalone-edge:latest
+        shm_size: 1gb
+        ports:
+          - "4446:4444"    
+
+
+<br><br>
+Alternative configuration methods for the docker-compose file can be found in the Activation Key sections. 
+Please refer to the Activation Key sections for instructions on starting the agent using the docker-compose file.
 
 ---
