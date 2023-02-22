@@ -29,10 +29,8 @@ You must use different test data depending on the environment when you have mult
 ---
 ## **Create environment-specific test data in Testsigma:**
 
-
   1. Navigate to **Test Development** > **Environments** and click on the **create** button on the top right. 
   ![create button on the environments page in Testsigma](https://s3.amazonaws.com/static-docs.testsigma.com/new_images/projects/overview/addingvalues_environment.gif)
-
 
 Here, you create an environment and add the **parameter names** and **values** that will be specific to this environment. Below are the fields you see on this form:
 
@@ -41,10 +39,6 @@ Here, you create an environment and add the **parameter names** and **values** t
 - **Parameter Name, Parameter Value:** Here you mention the name of a parameter specific to this environment and its corresponding value. When you enter the values for one **key**-**value** pair, the text fields for adding another will automatically appear. As a result, you can add as many key-value pairs as you need. You can add these values to the JSON format; you need to select the tab labelled **JSON Format**.
 
 Alternatively, a quick GIF below demonstrates the workflow for creating environment by adding JSON format.
-
-   ![json format tab to display environment parameters in json format in Testsigma](https://s3.amazonaws.com/static-docs.testsigma.com/new_images/projects/overview/json_environment.gif)
-  
-###
 
 2. Once you have added all the values, click the **Create** button on the top right to finalise the changes.
 

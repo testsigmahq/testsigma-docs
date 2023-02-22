@@ -18,6 +18,7 @@ contextual_links:
 - type: link
   name: "Use Environment in Test Plan"
   url: "#use-environment-in-test-plan"
+  
 ---
 
 ---
@@ -62,8 +63,8 @@ Here is a quick GIF demonstrating the above workflow:
 
 2. Select **Environmet** from the drop-down list.
 
+
 Here is a quick GIF demonstrating the above workflow:
 ![Environment in Test Plan](https://s3.amazonaws.com/static-docs.testsigma.com/new_images/projects/overview/environment_tp.gif)
 
 ---
-
