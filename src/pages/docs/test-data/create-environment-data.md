@@ -39,6 +39,7 @@ Here, you create an environment and add the **parameter names** and **values** t
 - **Parameter Name, Parameter Value:** Here you mention the name of a parameter specific to this environment and its corresponding value. When you enter the values for one **key**-**value** pair, the text fields for adding another will automatically appear. As a result, you can add as many key-value pairs as you need. You can add these values to the JSON format; you need to select the tab labelled **JSON Format**.
 
 Alternatively, a quick GIF below demonstrates the workflow for creating environment by adding JSON format.
+![JSON environment](https://s3.amazonaws.com/static-docs.testsigma.com/new_images/projects/overview/json_environment.gif)
 
 2. Once you have added all the values, click the **Create** button on the top right to finalise the changes.
 
