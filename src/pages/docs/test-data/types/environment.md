@@ -28,7 +28,7 @@ Environment-based test data refers to data that is specific to the environment i
 
 ### **Prerequisite**:
 
-You'll need to know how to [create an environment parameter](https://testsigma.com/docs/test-d  ata/create-environment-data/), [create a test case](https://testsigma.com/docs/test-cases/manage/add-edit-delete/#creating-a-test-case), [write NLP test steps in Testsigma](https://testsigma.com/docs/test-cases/step-types/natural-language/), [perform an ad-hoc run page](https://testsigma.com/docs/runs/adhoc-runs/#steps-to-perform-ad-hoc-runs-for-a-test-case),  and [create a test plan](https://testsigma.com/docs/runs/test-plan-executions/#steps-to-create-and-execute-test-plan).
+You'll need to know how to [create an environment parameter](https://testsigma.com/docs/test-data/create-environment-data/), [create a test case](https://testsigma.com/docs/test-cases/manage/add-edit-delete/#creating-a-test-case), [write NLP test steps in Testsigma](https://testsigma.com/docs/test-cases/step-types/natural-language/), [perform an ad-hoc run page](https://testsigma.com/docs/runs/adhoc-runs/#steps-to-perform-ad-hoc-runs-for-a-test-case),  and [create a test plan](https://testsigma.com/docs/runs/test-plan-executions/#steps-to-create-and-execute-test-plan).
 
 ---
 
@@ -64,3 +64,6 @@ Here is a quick GIF demonstrating the above workflow:
 
 Here is a quick GIF demonstrating the above workflow:
 ![Environment in Test Plan](https://s3.amazonaws.com/static-docs.testsigma.com/new_images/projects/overview/environment_tp.gif)
+
+---
+
