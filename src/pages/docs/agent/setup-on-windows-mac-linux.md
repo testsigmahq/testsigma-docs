@@ -39,7 +39,7 @@ The Testsigma Agents are available in  the following forms, namely:
 1. **ZIP files**
 2. **Executable files**
 3. **DMG files**
-3. **Docker image**
+4. **Docker image**
 <br>
 
 You can choose the format that suits you the best. <br>
@@ -55,7 +55,7 @@ To download the Testsigma agent as a ZIP file, follow below steps:
 2. After you have downloaded the agent ZIP file, extract the Testsigma agent ZIP file to a location of your choice. Some suggested locations to place the Testsigma agent folder are mentioned in the table below:<br>
 
   | Operating System     | Preferred Agent location |
-  | :---        | :---   |
+  | :---:        | :---:   |
   | Windows     | <kbd>C:\Users\<your_username>\ </kbd>      |
   | Mac   |<kbd> /Users/<your_username>/ </kbd>   |
   | Linux   | <kbd>/Users/<your_username>/</kbd>   |
@@ -104,7 +104,6 @@ After the installation is complete, you can either run the Testsigma agent serve
 
   After registering you will be directed to the agent registration page![agent registration](https://s3.amazonaws.com/static-docs.testsigma.com/new_images/agent/setup-on-windows-mac-linux/agent_register_page.png)<br>
   For more information on registering the agent refer to the section,  *[Register the Testsigma agent](#register-the-testsigma-agent)*
-
 
 ### **For Mac/Linux**
 
@@ -164,17 +163,15 @@ You can use the menu options to **Quit** and **Restart the Agent**.
 
 ### **Connecting the Agent to Testsigma App**
 
-
 1. Once your Testsigma agent is up and running and shows the **STARTED** status, you will be directed to the agent registration page.
 2. Click on **Register** to start the Agent registration process.
 
 3. On the **Add new Agent** overlay provide the following and click on the **Save** button.:
     - **Title**: Enter a name for your machine.
-    
+
     - **Visible to Everyone**: By default, Agent will be visible to everyone. If you want to make this agent private, uncheck the checkbox **Visible to Everyone**.
 
 ![Add new agent form](https://s3.amazonaws.com/static-docs.testsigma.com/new_images/agent/setup-on-windows-mac-linux/regsitering_new_agent.png)
-
 
 4. After saving, the agent that you registered will be displayed with all the available browsers in that Agent machine:
 
@@ -203,31 +200,31 @@ There may be instances when you want to add the Testsigma agents to your Testsig
 
 ## **Run Testsigma Agent using docker**
 
-Testsigma's local agent can be started in two ways using Docker:
+There are two ways of starting the testsigma local agent using docker:
 
 - Create an agent in app.testsigma.com, obtain the activation key, and use it to register the agent while the Docker container is booting. OR
 - Create and register a new agent entirely while booting the Docker container.
 
 We will discuss both ways below.
 
-### **1. Create an agent in app.testsigma.com**
+### **Method 1: Creating an agent in app.testsigma.com**
 
-  Follow below steps:
+  Follow the below steps:
 
   1. Go to the Agents Page from the left navigation menu.
-  2. Click on the **Add a new Agent** button on the top right corner of the Agents page.
+  2. Click the **Add a new Agent** button on the top right corner of the Agents page.
   3. On the **Add a new Agent** form, add the name/title for the agent. Make sure to check the **Activate Later** checkbox, as also highlighted in the screenshot below:
 
   ![Add new agent form with activate later checkbox checked](https://s3.amazonaws.com/static-docs.testsigma.com/new_images/agent/setup-on-windows-mac-linux/activate_later.png)
 
-  4. Now you can click on the **Save** button to save the agent.
+  4. Now, you can click on the **Save** button to save the agent.
   5. On successfully saving the agent, you will be taken to the agent configuration page that will contain the activation key, as also shown in the screenshot below:
 
   ![activation key for an added agent](https://s3.amazonaws.com/static-docs.testsigma.com/new_images/agent/setup-on-windows-mac-linux/agent_details.png)
 
   6. Create a **docker-compose.yml** file with **TS\_ACTIVATION\_KEY** environment variables.
 
-  The following docker compose snippet can be used to start a Testsigma Agent with headless Chrome, Firefox & Edge browsers:
+  The following docker-compose snippet can be used to start a Testsigma Agent with headless Chrome, Firefox & Edge browsers:
   <br>
 
     version: "3.9"
@@ -265,16 +262,16 @@ We will discuss both ways below.
         ports:
           - "4446:4444"
 
- <br><br>
-  This docker-compose snippet spins up 4 containers:<br>
-  1. Testsigma Agent<br>
-  2. Standalone selenium with pre-installed Chrome<br>
-  3. Standalone selenium with pre-installed Firefox<br>
-  4. Standalone selenium with pre-installed Edge
-    
-  Testsigma Agent will detect browser versions through the Environment Variables CHROME, FIREFOX, and EDGE. Note that these Environment Variables are all optional. 
+  This docker-compose snippet spins up four containers:<br>
 
-  If you plan to run your test solely on the Chrome browser, there's no need to specify the FIREFOX and EDGE environment variables. Here's an example docker-compose file: 
+  1. Testsigma Agent<br>
+  2. Standalone Selenium with pre-installed Chrome<br>
+  3. Standalone Selenium with pre-installed Firefox<br>
+  4. Standalone Selenium with pre-installed Edge
+
+  Testsigma Agent will detect browser versions through the Environment Variables CHROME, FIREFOX, and EDGE. Note that these Environment Variables are all optional.
+<br><br><br>
+  If you plan to run your test solely on the Chrome browser, there's no need to specify the FIREFOX and EDGE environment variables. Here's an example docker-compose file:
   <br>
 
     version: "3.9"
@@ -297,9 +294,8 @@ We will discuss both ways below.
           - "4444:4444"
 
  <br><br>
-   If your system lacks sufficient resources, you have the option to distribute browser containers across multiple systems and specify a remote debugging URL. Here's an example docker-compose file: <br>   
+   If your system lacks sufficient resources, you can distribute browser containers across multiple systems and specify a remote debugging URL. Here's an example docker-compose file: <br>
 
-  
     version: "3.9"
     services:
       testsigma-agent:
@@ -311,11 +307,9 @@ We will discuss both ways below.
           TS_ACTIVATION_KEY: "REPLACE_WITH_YOUR_ACTIVATION_KEY"
           CHROME: "<REMOTE_CHROME_URL>"
           FIREFOX: "<REMOTE_FIREFOX_URL>"
-          EDGE: "<REMOTE_EDGE_URL>"
-          
+          EDGE: "<REMOTE_EDGE_URL>"          
   <br><br>
-  Testsigma Agent container allows controlling minimum and maximum heap memory settings using MIN and MAX envinroment variables. The default values for MIN and MAX will be 1GB and 8GB respectively. Here's an example docker-compose file:
-
+  Testsigma Agent container allows controlling minimum and maximum heap memory settings using MIN and MAX environment  variables. The default values for MIN and MAX will be 1GB and 8GB, respectively. Here's an example docker-compose file:
 
     version: "3.9"
     services:
@@ -333,9 +327,8 @@ We will discuss both ways below.
           EDGE: "<EDGE_URL>"
 
 <br><br>
- For **ARM based System (Mac M1 processors)**:<br>
-  Google does not build Chrome for Linux ARM platforms. Instead, docker-seleniarm uses the open source Chromium browser instead, which is built for ARM. Here's an example docker-compose file:
-<br>
+ For **ARM-based Systems (Mac M1 processors)**:<br>
+  Google does not build Chrome for Linux ARM platforms. Instead, docker-seleniarm uses the open-source Chromium browser built for ARM. Here's an example docker-compose file:  
 
     version: "3.9"
     services:
@@ -363,17 +356,15 @@ We will discuss both ways below.
         ports:
           - "4445:4444"
 
-<br><br>
+<br>
 
-7. Start the **Agent**. 
+7. Save the **docker-compose.yml** file in an appropriate directory.
 
-    - Save the **docker-compose.yml** file in an appropriate directory.
-    - Open a command-line interface and navigate to the directory.
-    - Execute the command **docker compose up** to download the necessary images and start the Testsigma Agent.
- 
+8. Open a command-line interface and navigate to the directory. Execute the command **docker-compose up**, which will download the necessary images and start the Testsigma Agent.
 
+<br>
 
-**2. Create and register a new agent entirely while booting the docker container**
+### **Method 2: Register a new agent while booting the Docker container.**
 
 To create and register the Agent Automatically in one step, you must specify the environment variables below instead of TS\_ACTIVATION\_KEY.
 
@@ -382,8 +373,7 @@ To create and register the Agent Automatically in one step, you must specify the
  TS\_AUTO\_REGISTRATION\_HTTP\_PORT - HTTP Port for internal communication between Agent and Testsigma
  TS\_AUTO\_REGISTRATION\_HTTPS\_PORT - HTTPS Port for internal communication between Agent and Testsigma
 
-Here's an example docker-compose file: 
-
+Here's an example docker-compose file:
 
     version: "3.9"
     services:
@@ -423,9 +413,7 @@ Here's an example docker-compose file:
         ports:
           - "4446:4444"    
 
-
 <br><br>
-Alternative configuration methods for the docker-compose file can be found in the Activation Key sections. 
-Please refer to the Activation Key sections for instructions on starting the agent using the docker-compose file.
+Please refer to the Activation Key sections for alternative methods of configuring the docker-compose file and starting the Agent using the docker-compose file.
 
 ---
