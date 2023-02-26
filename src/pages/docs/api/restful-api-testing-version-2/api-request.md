@@ -16,6 +16,9 @@ contextual_links:
 - type: link
   name: "Selecting Method Request"
   url: "#selecting-method-request"
+- type: link
+  name: "Supporting Other Unicode Characters"
+  url: "#supporting-other-unicode-characters"
 ---
 
 ---
@@ -49,3 +52,12 @@ By Default, Testsigma will select the **GET** method for new requests. **GET** m
  
  ---
 
+## **Supporting Other Unicode Characters**
+
+In Testsigma, we support Unicode characters in various aspects of testing, such as [parameters](https://testsigma.com/docs/api/restful-api-testing-version-2/adding-parameters/), [request body data](https://testsigma.com/docs/api/restful-api-testing-version-2/add-body-data/), [verifications](https://testsigma.com/docs/api/restful-api-testing-version-2/verifications-request/), [stored variables](https://testsigma.com/docs/api/restful-api-testing-version-2/stored-variables-in-restful-api/), and [stored objects](https://testsigma.com/docs/api/restful-api-testing-version-2/stored-objects/). This enables you to enter and retrieve data in your native language and script, making the testing process more user-friendly and accessible. Moreover, adding Unicode characters to verifications ensures the verification process accurately represents the tested data.
+
+Here is a quick gif demonstrating how to add Unicode in RESTful API.
+![Unicode in Restful API](https://s3.amazonaws.com/static-docs.testsigma.com/new_images/projects/overview/Unicode.gif)
+
+[[info | NOTE:]]
+| To enter Unicode characters, copy & paste the characters into the required field.
