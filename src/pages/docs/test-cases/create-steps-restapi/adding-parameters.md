@@ -3,7 +3,7 @@ title: "Parameters"
 page_title: "Adding Parameters in API Request"
 metadesc: "Adding Parameters in API Request in Testsigma"
 noindex: false
-order: 21.72
+order: 4.63
 page_id: "Adding Parameters in API Request"
 search_keyword: ""
 warning: false

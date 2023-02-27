@@ -11,9 +11,6 @@ contextual_links:
 - type: link
   name: "Change Test Step Stettings"
   url: "#change-test-step-stettings"
-- type: link
-  name: "Test Step Retries"
-  url: "#test-step-retries"
 ---
 
 ---
@@ -26,7 +23,7 @@ Every test step in the test authoring interface has a few settings that help you
 This document assumes you understand how to create a test case; if not, see [Creating Test Cases](https://testsigma.com/docs/test-cases/manage/add-edit-delete/#creating-a-test-case). 
 
 ---
-##**Change Test Step Stettings**
+## **Change Test Step Settings**
 
 On the Test Steps page, click the ellipsis icon on a particular test step to open the Test Step Settings panel.
 
@@ -49,25 +46,6 @@ Every test step has a few settings, which are described in the table below.
 Here’s how to access and use test step settings.
 
 ![gif for test step settings usage](https://s3.amazonaws.com/static-docs.testsigma.com/new_images/projects/overview/teststepdetails.gif)
-
----
-
-## **Test Step Retries**
-
-In Testsigma, we support Test Step Retries, which enables you to automatically retry failed test steps to increase test reliability and accuracy. You can set the duration of each retry and the number of times a failed test step should be retried before marking the test as failed. Testsigma also provides detailed reports on test execution and results, including the number of retries performed for each failed test step. 
-
-### **Enable Test Step Retries**
-
-1. In the test step, enter **Wait for test data seconds** NLP, **delete** the placeholder for **test data**, and replace it with a **number**. ![Duration in Test Step](https://s3.amazonaws.com/static-docs.testsigma.com/new_images/projects/overview/duration_tsr.png)
-
-2. Click the ellipsis icon on the test steps page to open the **Test Step Details** panel for a particular test step, which appears on the right side of the screen. ![Click Ellipsis](https://s3.amazonaws.com/static-docs.testsigma.com/new_images/projects/overview/ellipsis_tsr.png)
-
-3. Select the **number of retries on step failure** (maximum 10 times) from the drop-down menu. ![Select No of retries](https://s3.amazonaws.com/static-docs.testsigma.com/new_images/projects/overview/timesretry_tsr.png)
-
-4. Click **Create**/ **Update** to save your test step details. ![Click Update to save](https://s3.amazonaws.com/static-docs.testsigma.com/new_images/projects/overview/updatets_tsr.png)
-
-Here is a quick gif demonstrating how to enable test steps retries.
-![Test step enable](https://s3.amazonaws.com/static-docs.testsigma.com/new_images/projects/overview/teststepretries.gif)
 
 ---
 
