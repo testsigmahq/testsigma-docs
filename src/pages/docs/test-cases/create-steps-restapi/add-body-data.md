@@ -1,9 +1,9 @@
 ---
-title: "Body"
+title: "Body Data"
 page_title: "Adding Body Data in API Request"
 metadesc: "Adding Body Data in API Request in Testsigma"
 noindex: false
-order: 21.73
+order: 4.64
 page_id: "Adding Body Data in API Request"
 search_keyword: ""
 warning: false

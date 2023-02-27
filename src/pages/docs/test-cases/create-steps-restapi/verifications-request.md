@@ -3,7 +3,7 @@ title: "Verifications "
 page_title: "Verifications Request"
 metadesc: "Verifications Request in Testsigma"
 noindex: false
-order: 21.76
+order: 4.67
 page_id: "Verifications Request"
 search_keyword: ""
 warning: false
@@ -94,4 +94,3 @@ At the bottom of the page, click the **Status tab**, mouse over to the variable,
 ![Status adding for verify](https://s3.amazonaws.com/static-docs.testsigma.com/new_images/projects/overview/status_tabaddverfication_restapi.png)
 
 ---
-

@@ -3,7 +3,7 @@ title: "Store Variables"
 page_title: "Store Variables"
 metadesc: "Store Variables in Testsigma"
 noindex: false
-order: 21.77
+order: 4.68
 page_id: "Store Variables"
 search_keyword: ""
 warning: false
@@ -20,7 +20,7 @@ contextual_links:
 
 ---
 
-Stored variables in RESTful API testing are variables that are used to store data from a response body or response headers. This data can then be used in subsequent requests or assertions. You can use this throughout the test case or test session. Equivalent to [runtime variable](https://testsigma.com/docs/test-cases/create-steps-restapi/store-runtime-data/).
+Stored variables in RESTful API testing are variables that are used to store data from a response body or response headers. This data can then be used in subsequent requests or assertions. You can use this throughout the test case or test session.
 
 ---
 

@@ -23,7 +23,7 @@ Every test step in the test authoring interface has a few settings that help you
 This document assumes you understand how to create a test case; if not, see [Creating Test Cases](https://testsigma.com/docs/test-cases/manage/add-edit-delete/#creating-a-test-case). 
 
 ---
-##**Change Test Step Stettings**
+## **Change Test Step Settings**
 
 On the Test Steps page, click the ellipsis icon on a particular test step to open the Test Step Settings panel.
 

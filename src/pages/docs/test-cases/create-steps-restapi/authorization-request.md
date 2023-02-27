@@ -3,7 +3,7 @@ title: "Authorization "
 page_title: "Authorization in API Request"
 metadesc: "Authorization in API Request in Testsigma"
 noindex: false
-order: 21.75
+order: 4.66
 page_id: "Authorization in API Request"
 search_keyword: ""
 warning: false
@@ -23,3 +23,5 @@ APIs require authentication information, which you can provide in Testsigma. Aut
 - Once your authorization details are set up, click **Create** and save your request.
 
 ![Authorization in API Request](https://s3.amazonaws.com/static-docs.testsigma.com/new_images/projects/applications/NTLM.gif)
+
+---
