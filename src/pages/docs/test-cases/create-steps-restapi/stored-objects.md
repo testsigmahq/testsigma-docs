@@ -3,7 +3,7 @@ title: "Stored Objects"
 page_title: "Stored Objects"
 metadesc: "Stored Objects in RESTful API"
 noindex: false
-order: 21.79
+order: 4.692
 page_id: "Stored Objects"
 search_keyword: ""
 warning: false
@@ -27,6 +27,4 @@ Stored objects have **GLOBAL** scope, which can be used for cross-test case veri
 ![Store Objects from Save response](https://s3.amazonaws.com/static-docs.testsigma.com/new_images/projects/overview/storeobjects_as_an_object_restapi.gif)
 
 ---
-
-
 
