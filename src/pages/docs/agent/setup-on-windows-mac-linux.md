@@ -125,13 +125,13 @@ Next, you will have to register the agent. To register the agent, refer to the s
 
 1. For windows - go to the command line. For Mac/linux - go to the terminal.
 2. Navigate to the Testsigma Agent installation folder.
-3. Inside the Testsigma Agent installation folder, navigate to **wrapper folder> bin folder**.
-4. If you want to install the agent as a service, use the command <kbd>TestsigmaAgent install</kbd>
+3. Inside the Testsigma Agent installation folder, navigate to **Wrapper folder > Bin folder**.
+4. If you want to install the agent as a service, use the command - `TestsigmaAgent install`
 [[info | NOTE:]]
 |At present, the option to install Testsigma Agent to start automatically when system boots is only supported for windows.
-5. Inside the bin folder, you can start the Testsigma Agent as a service by using the command - <kbd>TestsigmaAgent start</kbd>
+5. Inside the bin folder, you can start the Testsigma Agent as a service by using the command - `TestsigmaAgent start`
 
-To stop the service started above, you can run the command <kbd>TestsigmaAgent stop</kbd> from the same location
+To stop the service started above, you can run the command - `TestsigmaAgent stop` from the same location
 
 Commands that work with TestsigmaAgent:
 

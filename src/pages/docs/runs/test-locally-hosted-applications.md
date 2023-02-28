@@ -18,9 +18,9 @@ In development/QA environments, it is common to keep your application hosted on 
 
 Testsigma Labs has reserved the following IP blocks for our services. Please whitelist these IP addresses to allow traffic in a restricted network setting.
 
-Login to https://app.testsigma.com and go to Settings > About to see the IP range to whitelist
+Login to https://app.testsigma.com and go to **Settings > About** to see the IP range to whitelist
 
-![about Testsigma](https://docs.testsigma.com/images/test-locally-hosted-applications/about-testsigma.png)
+![About Testsigma](https://s3.amazonaws.com/static-docs.testsigma.com/new_images/projects/applications/newips.png)
 
 ---
 ### Hybrid Execution
