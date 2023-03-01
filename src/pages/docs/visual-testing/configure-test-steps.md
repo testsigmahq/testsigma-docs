@@ -1,6 +1,6 @@
 ---
 title: "Visual Testing - Configure Test Steps"
-metadesc: "How to configure visual testing for your test steps"
+metadesc: "Know how to configure test steps for effective visual testing in software development. This article covers steps for a successful visual testing process."
 noindex: false
 order: 14.1
 page_id: "Visual Testing - Configure Test Steps"
