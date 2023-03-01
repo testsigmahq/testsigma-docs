@@ -23,8 +23,6 @@ contextual_links:
 
 You can configure your test plans to run in parallel at any time. However, the number of tests you can execute at once in parallel depends on your account plan and the parallel tests you have left.
 
-### Navigation: Select Project > Test Development > Test Plans
-
 ### You can
 
 1. Configure tests to run in parallel while creating a new Test Plan.
@@ -111,3 +109,14 @@ On the Test Plans page, click on a Test Plan name to open the details page for t
 1. Click on the Edit button on the top right corner as shown above:
 
 2. Go to the tab **Test Machines & Suites Selection**, follow the same steps as mentioned under **Configure tests to run in parallel while creating a new Test Plan**
+
+[[info | NOTE:]]
+|You can configure your test plans per your subscription and the parallel/queued executions you have left.<br>
+|<br>
+|For example, if you have a license for 1 parallel run and 1 queued run, you can run one test plan on one machine in parallel while queuing another test on a different machine for execution.<br>
+|<br>
+|
+|When you run a third test machine, it will not execute and will be thrown out of the execution queue since your subscription plan only allows one parallel run and one queued run at a time.<br>
+|<br>
+|
+|To run more test machines simultaneously, you need to upgrade to a higher subscription plan with more parallel and queued runs allowed.<br>
