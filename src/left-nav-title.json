@@ -350,6 +350,9 @@
   "bitbucket-ci": {
     "/docs/continuous-integration/bitbucket-ci/": "Bitbucket CICD"
   },
+  "gitlab-cicd": {
+    "/docs/continuous-integration/gitlab-cicd/": "GitLab CI/CD"
+  },
   "shell-script": {
     "/docs/continuous-integration/shell-script/": "Shell Script(Generic)"
   },
