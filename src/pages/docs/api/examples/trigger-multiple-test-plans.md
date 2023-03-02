@@ -66,7 +66,7 @@ Here’s a snapshot of the REST API Step in TCTrigger used to trigger the Mobile
 
 Once the Test Plan Mobile-TP is triggered by the REST API Step in TCTrigger, the runtime parameter ‘admin\_username’ is also passed to that Test Plan. You can use those parameters in any Test Case within Mobile-TP now.
 
-Learn more about [using Run-time Parameter Test Data in REST API Test Steps](https://testsigma.com/docs/test-cases/create-steps-restapi/store-runtime-data/)
+Learn more about REST APIs, refer to [Rest APIs](https://testsigma.com/docs/api/overview/)
 
 
 

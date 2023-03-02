@@ -186,7 +186,9 @@ Observe the GIF below to understand how to create a step group.
 
 ![ gif showing how to create step group](https://s3.amazonaws.com/static-docs.testsigma.com/new_images/test-cases/step-types/step-group/gif-create-step-group.gif)
 
-
+[[info | **NOTE**:]]
+|Deleting a Step Group will also be deleted the associated Test Cases.
+|![Step Group](https://s3.amazonaws.com/static-docs.testsigma.com/new_images/projects/applications/stepgrooupdelete.gif)
 
 ---
 ##**Create a data-driven step group**

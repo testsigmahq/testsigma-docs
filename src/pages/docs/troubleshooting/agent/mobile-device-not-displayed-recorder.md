@@ -1,7 +1,7 @@
 ---
 title: "Testsigma Agent not detecting local devices for mobile test recorder"
 page_title: " Troubleshooting “Testsigma Agent not detecting Local Devices for Mobile Test Recorder” error"
-metadesc: "See why Testsigma Agent may  not be detecting Local Devices for Mobile Test Recorder."
+metadesc: "Know the possible reasons why Testsigma Agent not detecting Local Devices for Mobile Test Recorder and learn steps to fix the issue by troubleshooting"
 noindex: false
 order: 23.2
 page_id: "Testsigma Agent not detecting Local Devices for Mobile Test Recorder"
