@@ -1,6 +1,6 @@
 ---
 title: "Troubleshooting “Failed to perform action Mobile Test Recorder” error"
-metadesc: "Learn how to troubleshoot the "Failed to perform action Mobile Test Recorder" error. These steps will help you fix the issue and continue mobile testing."
+metadesc: "Learn how to troubleshoot the “Failed to perform action Mobile Test Recorder” error. These steps will help you fix the issue and continue mobile testing."
 noindex: false
 order: 23.5
 page_id: "Troubleshooting “Failed to perform action Mobile Test Recorder” error"
