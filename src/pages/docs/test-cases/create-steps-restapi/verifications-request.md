@@ -11,6 +11,9 @@ contextual_links:
 - type: section
   name: "Contents" 
 - type: link
+  name: "Verification Types"
+  url: "#verification-types"
+- type: link
   name: "Response Body Verification"
   url: "#response-body-verification"
 - type: link
@@ -24,6 +27,19 @@ contextual_links:
 ---
 
 In Testsigma, you can check whether the Rest API is functioning correctly by adding verification and assertions. This involves testing the API endpoints, the data returned, and the response codes. Verification also includes validating the API against the requirements and ensuring that the API is secure. For verification, you need to add an API request and click **Create** to check the response. At the bottom of the screen, you can see the response and add verification. There are some steps to adding verification.
+
+---
+## **Verification Types**
+
+These types of verification are available for JSON and XML:
+
+|Verification Types|Function|
+|    :----:   |    :----:   |
+| **Strict** | In strict verification, all conditions and rules must be met exactly as specified. If any requirements are met, the verification will succeed.|
+| **Strict Order** | In strict order verification, the conditions and rules must be met in the specified order. The verification will only succeed if any requirement is met or is in order. |
+| **Lenient**  | In lenient verification, some conditions and rules may be ignored or relaxed, and the verification will still pass as long as the essential requirements are met.|
+|  **Non-extensible** | In non-extensible verification, the verification rules cannot be modified or extended. Only the pre-defined rules can be applied. |
+| **Schema** | A schema is a set of rules defining data or documents' structure, format, and constraints. It can validate, verify, or transform data in different contexts, such as databases, APIs, or file formats. |
 
 ---
 
@@ -56,9 +72,16 @@ Click **copy response**. It will copy to the **clipboard**, paste the **JSON** o
 
 ### **Verify Response body**
 
-Click **verify response body**. The Verify Response Body overlay screen will appear. Open the comparison and **verification types** drop-down lists to select them. Click **Create** to add verification.
+The following are two ways to verify the response body.
 
-![Verify Response Body in Response Body](https://s3.amazonaws.com/static-docs.testsigma.com/new_images/projects/overview/verify_response_body_restapi.gif)
+1. **Before Invoking API**
+    1. Click the **Verify Response Body**. This will open the Verify Response Body overlay screen.
+    2. Select the **Comparison Type**, **Response Body Type**, and **Verification type** from the drop-down list. Enter the expected value that you wish to compare and verify, then click the **Create** to save your API. ![Before Invoking API](https://s3.amazonaws.com/static-docs.testsigma.com/new_images/projects/overview/compareverify.gif)
+
+2. **After Invoking API**
+
+    1. Click **verify response body**. The Verify Response Body overlay screen will appear. 
+    2. Open the comparison and **verification types** drop-down lists to select them. Click **Create** to add verification. ![Verify Response Body in Response Body](https://s3.amazonaws.com/static-docs.testsigma.com/new_images/projects/overview/verify_response_body_restapi.gif)
 
 ---
 

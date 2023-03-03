@@ -7,7 +7,7 @@ page_id: "Troubleshooting API test case failure"
 warning: false
 ---
 ---
-If your API test cases are failing, there can be many possible reasons. This guide lists some common errors that occur while processing API requests and their causes. *For more information on API testing using Testsigma, refer to [creating test steps for API testing using Testsigma](https://testsigma.com/docs/test-cases/create-steps-restapi/overview/)*.
+If your API test cases are failing, there can be many possible reasons. This guide lists some common errors that occur while processing API requests and their causes. *For more information on API testing using Testsigma, refer to [API testing.](https://testsigma.com/docs/api/overview/)*.
 
 <table>
   <tr>
