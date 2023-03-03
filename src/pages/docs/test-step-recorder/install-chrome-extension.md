@@ -3,7 +3,7 @@ title: "Install Chrome Extension"
 order: 7.11
 page_id: "Install Chrome Extension"
 page_title: "Trigger Test Plans remotely using Testsigma"
-metadesc: "How to trigger Test Plan Execution remotely using Testsigma REST API Endpoints"
+metadesc: "Learn how to effortlessly Trigger Test Plans remotely using Testsigma. You can save time and increase productivity by Triggering Test Plans remotely"
 warning: false
 noindex: false
 contextual_links:

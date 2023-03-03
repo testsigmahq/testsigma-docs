@@ -1,6 +1,6 @@
 ---
 title: "Unable to create new test session due to unexpected error"
-metadesc: "Unable to create new test session due to unexpected error"
+metadesc: "Learn what to do if you cannot create a new test session due to an unexpected error. Follow these troubleshooting steps to continue your testing sessions."
 noindex: false
 order: 23.20
 page_id: "Unable to create new test session due to unexpected error"

@@ -1,6 +1,6 @@
 ---
 title: "Unable to retrieve value stored in text element"
-metadesc: "Unable to retrieve value"
+metadesc: "This article helps you troubleshoot if you cannot retrieve a stored value in a text element | Learn how to retrieve a value stored in text element"
 noindex: false
 order: 23.1
 page_id: "Unable to retrieve value"
