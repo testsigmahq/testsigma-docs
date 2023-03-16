@@ -16,6 +16,9 @@ contextual_links:
   name: "Create Application Version"
   url: "#ii-create-application-version"
 - type: link
+  name: "Steps to Create Application Version"
+  url: "#steps-to-create-application-version"
+- type: link
   name: "Edit Version"
   url: "#iii-edit-version"
 - type: link
@@ -36,17 +39,17 @@ In this case, you can simply make a Version copy of **v1.0.0** in Testsigma and 
 Navigate to **Project Settings > Applications > Versions** to check details about all the Versions that are available in the current Project and Application.
 
 ---
-##**I. Enabling version tracking**
+## **I. Enabling version tracking**
 
 If there’s only one Version in your Project, the Versions table will be hidden. As shown in the screenshot below, you will not find the versions column next to comments section.
 
 ![applications option under project settings in Testsigma](https://docs.testsigma.com/images/versions/applications-option-under-project-settings.png)
 
-To enable the Versions menu, you need to have chosen the “Enable Multiple Versions” option while [creating the project or by editing the project](https://testsigma.com/docs/projects/overview/). Here is how **enabling versioning option in the project** looks while creating the project.
+To enable the Versions menu, you need to have chosen the **Enable Multiple Versions** option while [creating the project or by editing the project](https://testsigma.com/docs/projects/overview/). Here is how **enabling versioning option in the project** looks while creating the project.
 
 ![option to enable versioning option for a project in Testsigma](https://docs.testsigma.com/images/versions/option-to-enable-versioning-option.png)
 
-Alternatively, you can go to **Project settings > Edit** and click on “Enable versioning option in this project” as shown below.
+Alternatively, you can go to **Project settings > Edit** and click on **Enable versioning option in this project** as shown below.
 
 ![option to enable versioning for a project on the edit project form in Testsigma](https://docs.testsigma.com/images/versions/option-to-enable-versioning-edit-project-form.png)
 
@@ -55,41 +58,47 @@ Once the Versions menu is enabled, you will be able to see all the Versions crea
 ![versions created under a specific application for a project in Testsigma](https://docs.testsigma.com/images/versions/versions-for-an-application-project-Testsigma.png)
 
 ---
-##**II. Create Application Version**
+## **II. Create Application Version**
 
-Make sure the version tracking is enabled as mentioned in section I, navigate to the Versions page by going through **Project Settings > Applications > Versions menu**. Then, click on **+ New Version** as shown below.
+Here's a quick GIF demonstrating how to create an application version. 
+![Version Creation](https://s3.amazonaws.com/static-docs.testsigma.com/new_images/projects/applications/versionsgif.gif)
 
-![new version button for a specific application for a project in Testsigma](https://docs.testsigma.com/images/versions/new-version-button-for-an-application-project-Testsigma.png)
+## **Steps to Create Application Version**
+1. Navigate to **Project Settings > Applications > Versions** menu, and click **New Version**.
+![Navigate](https://s3.amazonaws.com/static-docs.testsigma.com/new_images/projects/applications/newversion.png)
 
-You will see the following elements i.e, Version Name, a Description, Start and Completion Date, and the versions dropdown. Press Create button to create the version.
+2. On **Add New Version** page, 
+    - Enter **Version Name**.
+    - Turn on **Copy data from previous versions** toggle.
+      ![Toggle](https://s3.amazonaws.com/static-docs.testsigma.com/new_images/projects/applications/toggle.png)
+    - On **Copy Data from Previous Version** prompt, select **Project, Application, Version,** and **entities** you want to transfer.
+      ![Entities Selection](https://s3.amazonaws.com/static-docs.testsigma.com/new_images/projects/applications/entities.png)
+    - Click on **Save**.
 
-![add new version form for a specific application for a project in Testsigma](https://docs.testsigma.com/images/versions/add-new-version-form-for-an-application-project-Testsigma.png)
-
-Once you click on **create** button, you will be able to view your created version in the **versions column** as shown below.
-
-![view created versions for a specific application for a project in Testsigma](https://docs.testsigma.com/images/versions/view-created-versions-for-an-application-project-Testsigma.png)
+3. Click on **Create**.
+![Create button](https://s3.amazonaws.com/static-docs.testsigma.com/new_images/projects/applications/create.png)
 
 ---
-##**III. Edit Version**
+## **III. Edit Version**
 
 Make sure the version tracking is enabled as mentioned in section I, navigate to the Versions page by going through **Project Settings > Applications > Versions** menu.
 Click on the specific Application Version from the Versions list. The Version details page opens up like this:
 
 ![edit button for a specific version of an application for a project in Testsigma](https://docs.testsigma.com/images/versions/edit-button-application-version-project-Testsigma.png)
 
-Click on the Edit button (pencil icon beside version name) for the Application Version highlighted below to open the Edit Version page.
+Click on **Edit** for the Application Version highlighted below to open the **Edit Version** page.
 
 ![edit version form of an application for a project in Testsigma](https://docs.testsigma.com/images/versions/edit-version-form.png)
 
-Make the required changes and click on the Update button to save the changes.
+Make the required changes and click on **Update** to save the changes.
 
 ---
-##**IV. Delete Version**
+## **IV. Delete Version**
 
 Make sure the version tracking is enabled as mentioned in section I, navigate to the Versions page by going through **Project Settings > Applications > Versions** Menu.
 Click on the specific Application Version from the Versions list. The Version details page opens up.
 
-Click on the Delete button (trash icon beside version name) for the Application Version (marked area). This will show a warning prompt.
+Click on **Delete** for the Application Version. This will show a warning prompt.
 
 ![delete button corresponding to a version for an application in a project in Testsigma](https://docs.testsigma.com/images/versions/delete-button-for-a-version.png)
 
@@ -102,7 +111,7 @@ Click on the Delete button (trash icon beside version name) for the Application 
 If you still want to delete the Application Version, confirm the Application Version deletion in the dialog box.
 
 ---
-##**V. Cloning of Version**
+## **V. Cloning of Version**
 
 Make sure the version tracking is enabled as mentioned in section I, navigate to the Versions page by going through **Project Settings > Applications > Versions** Menu.
 
@@ -119,4 +128,3 @@ On clicking on the clone button, the **Copy version** dialogue box will appear a
 Here is a screenshot that shows the Copy of **(Sample version 1)** version under the web application that was cloned.
 
 ![new copied version corresponding to an application in a project in Testsigma](https://docs.testsigma.com/images/versions/new-copied-version.png)
-
