@@ -119,7 +119,7 @@ class ListItem extends React.Component {
         return (
             <ul
                 key={`${name}-${uuidv4()}`}
-                className={` ${(this.state.expandedPanels?.indexOf(name) !== -1) ? 'active' : 'inactive'} ${isRoot ? ' root' : ''} `}
+                className={` ${(this.state.expandedPanels?.indexOf(name) === 0) ? 'active' : 'inactive'} ${isRoot ? ' root' : ''} `}
             >
                 <li data-parent={this.state.identifier} className={`parent${this.inUrl(`/${this.state.identifier || 'docs'}/${name}/`) ? ' currentUrl text_green' : ''}`} onClick={this.toggleActive} identifier={name}>
                     <svg onClick={(e)=>{this.toggleActive(e); this.toggleExpansion(name)}} identifier={name} className={`inline float_left relative folder-icon parent_caret${(this.state.expandedPanels?.indexOf(name) !== -1) ? ' active_parent_caret' : ''}`} xmlns="http://www.w3.org/2000/svg" fill="none" height="24"
@@ -182,6 +182,7 @@ const LeftNav = () => {
     return (
         <>
             <div className="leftNav bg-gray-50 px-14 pt-5">
+                <Link to={"/docs/"} className="homepage_btn">Testsigma Docs</Link>
                 <ListItem data={data.leftNavLinks.value} isRoot />
             </div>
         </>

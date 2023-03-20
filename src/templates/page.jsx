@@ -13,6 +13,8 @@ import Footer from "../components/Footer";
 import 'prismjs/themes/prism-tomorrow.css';
 import './page.scss';
 import {environment} from "../environment";
+import * as url from "url";
+import Index from "../pages/docs/index";
 
 export default ({ data, pageContext }) => {
 
@@ -39,6 +41,8 @@ export default ({ data, pageContext }) => {
     if (post.frontmatter.contextual_links) {
         contextualLinks = <SideBar links={post.frontmatter.contextual_links} />;
     }
+
+    const isIndexPage = window.location.pathname === '/docs/';
 
     const copyToClipBoard = (e) => {
       const str = e.target.parentNode.innerText;
@@ -168,23 +172,27 @@ export default ({ data, pageContext }) => {
                         <LeftNav />
                     </nav>
                     <div className="flex-auto w-4/5">
-                        <div className="flex items-stretch w-full">
-                            <main className="doc-page w-4/5">
-                                <div className="px-20 py-14">
-                                    <h1>{post.frontmatter.title}</h1>
-                                    <span dangerouslySetInnerHTML={{ __html: post.html }} />
-                                </div>
-                            </main>
-                            <aside className="isGithubEdit w-1/5">
-                                <hr className="d-block lg:hidden"/>
-                                <div className="top-0 top-1 border-l pl-4 py-16 sticky">
-                                    <div className="edit-button">
-                                        <EditDoc className="items-end btn edit-button-styles flex inline-flex items-center" />
+                        {isIndexPage ? (
+                            <Index/>
+                        ) : (
+                            <div className="flex items-stretch w-full">
+                                <main className="doc-page w-4/5">
+                                    <div className="px-20 py-14">
+                                        <h1>{post.frontmatter.title}</h1>
+                                        <span dangerouslySetInnerHTML={{ __html: post.html }} />
                                     </div>
-                                    {contextualLinks}
-                                </div>
-                            </aside>
-                        </div>
+                                </main>
+                                <aside className="isGithubEdit w-1/5">
+                                    <hr className="d-block lg:hidden"/>
+                                    <div className="top-0 top-1 border-l pl-4 py-16 sticky">
+                                        <div className="edit-button">
+                                            <EditDoc className="items-end btn edit-button-styles flex inline-flex items-center" />
+                                        </div>
+                                        {contextualLinks}
+                                    </div>
+                                </aside>
+                            </div>
+                            )}
                         <div className="pagination_buttons">
                           <div className={prev ? 'navigation-block flex justify-between' : 'navigation-block overflow-hidden'}>
                             {prev && (

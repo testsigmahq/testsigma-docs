@@ -1,0 +1,39 @@
+@import '_variables.scss';
+
+.card{
+  width: 48%;
+  border: 1px solid #DDDDDD;
+  border-radius: 2px;
+  @media (max-width: 425px) {
+    width: 100%;
+  }
+  &:hover{
+    background: #F2F3F3;
+    .right-arrow {
+      background-color: $white;
+      box-shadow: 1px 3px 8px rgba(0, 0, 0, 0.12);
+      svg{
+        path{
+          fill: #1AA874;
+        }
+      }
+    }
+  }
+  .right-arrow{
+    border-radius: 50%;
+  }
+  .card_heading{
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 45px;
+    color: #183247;
+    margin-bottom: 0 !important;
+  }
+  .card_desc{
+    font-weight: 400;
+    font-size: 15px;
+    color: #183247;
+    margin-top: 0 !important;
+    margin-bottom: 0 !important;
+  }
+}
