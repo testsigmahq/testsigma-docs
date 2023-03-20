@@ -24,7 +24,7 @@ contextual_links:
 
 In Testsigma, you can re-run the test cases from a test run result using API. This article discusses how to rerun failed test cases, all test cases, or custom test cases from a particular test run result using REST API.
 
-## **Execution details using REST API**
+## **Test case Execution details using REST API**
 This endpoint allows users to get execution details using REST API.
 
 |**Request Type**|**GET**|
