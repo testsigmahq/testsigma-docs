@@ -58,3 +58,23 @@ This endpoint allows users to trigger rerun using REST API.
 
 [[info | **NOTE**:]]
 | If you want to stop only one execution run instead, you need to pass **"canStopAll": false**. By default it is **true**.
+
+### **Request/Response fields**
+**Id:** ID of the Test Plan Result
+**Execution:** The Test Plan details are located within the nested Execution JSON Object including the Test Plan ID as "id", Application Version ID as "applicationVersionId", Test Plan name as "name", Test Plan Description as "description" and so on.
+**result:** Result Status of the Test Plan - QUEUED, PASSED, FAILED, ABORTED, or STOPPED
+**status:** Current Status of the Test Plan creation - STATUS_CREATED
+**executedBy:** ID of the executor
+**buildNo:** Build Number specified in the Test Plan Trigger call
+**environment:** Environment parameter selected for the Test Plan
+**triggeredType:** Triggered type for the Test Plan whether by API or via Testsigma App
+**totalRunningCount:** Total number of running tests
+**page_timeout:** Global Page load timeout in seconds
+**element_timeout:** Global Element load timeout in seconds
+**recovery_action:** Action to be performed on test failure - "Run_Next_Testcase"
+**on_aborted_action:** Action to be performed on test abort - "Reuse_Session"
+**screenshot_option:** When to take screenshots - "FAILED_STEPS", "ALL_STEPS", "NONE"
+**group_prerequisite_fail:** Action to perform on Test Suite prerequisite failure
+**test_case_prerequisite_fail:** Action to perform on Test Case prerequisite failure
+**test_step_prerequisite_fail:** Action to perform on Test Step prerequisite failure
+**totalQueuedCount:** Total number of queued tests
