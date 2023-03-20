@@ -25,7 +25,7 @@ contextual_links:
 In Testsigma, you can re-run the test cases from a test run result using API. This article discusses how to rerun failed test cases, all test cases, or custom test cases from a particular test run result using REST API.
 
 ## **Test case Execution details using REST API**
-This endpoint allows users to get execution details using REST API.
+This endpoint allows users to get Test Case execution details using REST API.
 
 |**Request Type**|**GET**|
 |---|---|
@@ -60,21 +60,21 @@ This endpoint allows users to trigger rerun using REST API.
 | If you want to stop only one execution run instead, you need to pass **"canStopAll": false**. By default it is **true**.
 
 ### **Request/Response fields**
-**Id:** ID of the Test Plan Result
-**Execution:** The Test Plan details are located within the nested Execution JSON Object including the Test Plan ID as "id", Application Version ID as "applicationVersionId", Test Plan name as "name", Test Plan Description as "description" and so on.
-**result:** Result Status of the Test Plan - QUEUED, PASSED, FAILED, ABORTED, or STOPPED
-**status:** Current Status of the Test Plan creation - STATUS_CREATED
-**executedBy:** ID of the executor
-**buildNo:** Build Number specified in the Test Plan Trigger call
-**environment:** Environment parameter selected for the Test Plan
-**triggeredType:** Triggered type for the Test Plan whether by API or via Testsigma App
-**totalRunningCount:** Total number of running tests
-**page_timeout:** Global Page load timeout in seconds
-**element_timeout:** Global Element load timeout in seconds
-**recovery_action:** Action to be performed on test failure - "Run_Next_Testcase"
-**on_aborted_action:** Action to be performed on test abort - "Reuse_Session"
-**screenshot_option:** When to take screenshots - "FAILED_STEPS", "ALL_STEPS", "NONE"
-**group_prerequisite_fail:** Action to perform on Test Suite prerequisite failure
-**test_case_prerequisite_fail:** Action to perform on Test Case prerequisite failure
-**test_step_prerequisite_fail:** Action to perform on Test Step prerequisite failure
-**totalQueuedCount:** Total number of queued tests
+**Id:** ID of the Test Plan Result<br>
+**Execution:** The Test Plan details are located within the nested Execution JSON Object including the Test Plan ID as "id", Application Version ID as "applicationVersionId", Test Plan name as "name", Test Plan Description as "description" and so on.<br>
+**result:** Result Status of the Test Plan - QUEUED, PASSED, FAILED, ABORTED, or STOPPED<br>
+**status:** Current Status of the Test Plan creation - STATUS_CREATED<br>
+**executedBy:** ID of the executor<br>
+**buildNo:** Build Number specified in the Test Plan Trigger call<br>
+**environment:** Environment parameter selected for the Test Plan<br>
+**triggeredType:** Triggered type for the Test Plan whether by API or via Testsigma App<br>
+**totalRunningCount:** Total number of running tests<br>
+**page_timeout:** Global Page load timeout in seconds<br>
+**element_timeout:** Global Element load timeout in seconds<br>
+**recovery_action:** Action to be performed on test failure - "Run_Next_Testcase"<br>
+**on_aborted_action:** Action to be performed on test abort - "Reuse_Session"<br>
+**screenshot_option:** When to take screenshots - "FAILED_STEPS", "ALL_STEPS", "NONE"<br>
+**group_prerequisite_fail:** Action to perform on Test Suite prerequisite failure<br>
+**test_case_prerequisite_fail:** Action to perform on Test Case prerequisite failure<br>
+**test_step_prerequisite_fail:** Action to perform on Test Step prerequisite failure<br>
+**totalQueuedCount:** Total number of queued tests<br>
