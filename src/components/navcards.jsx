@@ -166,8 +166,8 @@ const Card = ({ title, description, path }) => {
     return (
         <a href={path} className="card md:w-5/12 p-7 cursor-pointer justify-between flex mr-2 mb-2 w-full ">
             <div className="w-fit">
-                <h2 className="card_heading">{title}</h2>
-                <p className="card_desc">{description}</p>
+                <span className="card_heading">{title}</span><br/>
+                <span className="card_desc">{description}</span>
             </div>
             <div className="w-fit content-center grid">
                 <a className="block p-4 right-arrow">

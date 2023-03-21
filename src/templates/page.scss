@@ -558,7 +558,7 @@ code[class*="language-"] {
 .chat_btn{
   padding: 1rem;
   margin-right: 1rem;
-  background: linear-gradient(0deg, #183E46, #183E46), #03A973;
+  background: linear-gradient(0deg, $nile_blue, $nile_blue), #03A973;
   border-radius: .2rem;
   span{
     padding-left: .5rem;
@@ -569,15 +569,15 @@ code[class*="language-"] {
 }
 .community_btn{
   padding: 1rem;
-  border: 1px solid #183E46;
+  border: 1px solid $nile_blue;
   border-radius: 2px;
   span{
     padding-left: .5rem;
-    color: #183E46;
+    color: $nile_blue;
     font-weight: 600;
     font-size: 17px;
   }
-  @media (max-width: 425px) {
+  @media (max-width: $screen_425) {
     margin-top: 1rem;
   }
 }
@@ -586,13 +586,13 @@ code[class*="language-"] {
   justify-content: space-between;
   margin-bottom: 4rem;
   .pagination_buttons{
-    @media (min-width: 768px) {
+    @media (min-width: $screen_768) {
       margin: 0;
     }
   }
   .next_button{
     width: fit-content;
-    @media (min-width: 768px) {
+    @media (min-width: $screen_768) {
       margin-top: 1rem;
     }
   }

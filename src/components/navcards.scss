@@ -2,19 +2,19 @@
 
 .card{
   width: 48%;
-  border: 1px solid #DDDDDD;
+  border: .1rem solid $light-grey;
   border-radius: 2px;
-  @media (max-width: 425px) {
+  @media (max-width: $screen_425) {
     width: 100%;
   }
   &:hover{
-    background: #F2F3F3;
+    background: $black_haze;
     .right-arrow {
       background-color: $white;
       box-shadow: 1px 3px 8px rgba(0, 0, 0, 0.12);
       svg{
         path{
-          fill: #1AA874;
+          fill: $Mountain_Meadow;
         }
       }
     }
@@ -26,14 +26,14 @@
     font-weight: 600;
     font-size: 18px;
     line-height: 45px;
-    color: #183247;
-    margin-bottom: 0 !important;
+    color: $dark_blue;
+    margin-bottom: 0;
   }
   .card_desc{
     font-weight: 400;
     font-size: 15px;
-    color: #183247;
-    margin-top: 0 !important;
-    margin-bottom: 0 !important;
+    color: $dark_blue;
+    margin-top: 0;
+    margin-bottom: 0;
   }
 }
