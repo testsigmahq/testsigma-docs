@@ -604,4 +604,9 @@ code[class*="language-"] {
   margin-bottom: 1rem;
   padding-top: 5rem;
   padding-bottom: 6rem;
+  @media (max-width: $screen_768) {
+    padding: 1rem;
+    background-size: cover;
+    background-position: center;
+  }
 }
