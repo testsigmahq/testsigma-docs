@@ -2,7 +2,7 @@
 title: "Update Test Case result in a Test Plan"
 metadesc: "This article explains how to update Test Case result in a Test Plan"
 noindex: false
-order: 4.16
+order: 4.17
 page_id: "Update Test Case result in a Test Plan"
 warning: false
 contextual_links:
