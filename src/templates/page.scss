@@ -552,3 +552,61 @@ code[class*="language-"] {
 .perviousLink{
   margin-left: -4px;
 }
+.card_container{
+  padding-bottom: 2rem;
+}
+.chat_btn{
+  padding: 1rem;
+  margin-right: 1rem;
+  background: linear-gradient(0deg, $nile_blue, $nile_blue), $jade_green;
+  border-radius: .2rem;
+  span{
+    padding-left: .5rem;
+    color: $white;
+    font-weight: 600;
+    font-size: 17px;
+  }
+}
+.community_btn{
+  padding: 1rem;
+  border: 1px solid $nile_blue;
+  border-radius: 2px;
+  span{
+    padding-left: .5rem;
+    color: $nile_blue;
+    font-weight: 600;
+    font-size: 17px;
+  }
+  @media (max-width: $screen_425) {
+    margin-top: 1rem;
+  }
+}
+.homepage_footer{
+  flex-basis: 100%;
+  justify-content: space-between;
+  margin-bottom: 4rem;
+  .pagination_buttons{
+    @media (min-width: $screen_768) {
+      margin: 0;
+    }
+  }
+  .next_button{
+    width: fit-content;
+    @media (min-width: $screen_768) {
+      margin-top: 1rem;
+    }
+  }
+}
+.home-page_banner{
+  background-image: url("~/src/components/images/bg-banner.svg");
+  background-size: contain;
+  background-repeat: no-repeat;
+  margin-bottom: 1rem;
+  padding-top: 5rem;
+  padding-bottom: 6rem;
+  @media (max-width: $screen_768) {
+    padding: 1rem;
+    background-size: cover;
+    background-position: center;
+  }
+}
