@@ -1,5 +1,5 @@
 ---
-title: "Default test data generators"
+title: "Default Test Data Generators"
 metadesc: "Lists out the built-in Data Generator functions available in Testsigma and describe its usage"
 noindex: false
 order: 5.32
@@ -9,10 +9,7 @@ warning: false
 
 ---
 
-To know how to use the default test data generators in your test steps, refer to [test data generator usage in test steps](https://testsigma.com/docs/test-data/types/data-generator/)
-
-If you don't find the data generator that you are looking for, create your own.For more information refer to [create test data generators using addons](https://testsigma.com/tutorials/addons/how-create-addons-test-data-generators/)
-
+Testsigma offers a variety of predefined data types, including text, number, date, email, phone number, and others. You can use these data types to create test data for various field types. Refer to [test data generator usage in test steps](https://testsigma.com/docs/test-data/data-generators/default-list/) to learn how to use the default test data generators in your test steps.
 
 Given below is the list of default test data generators available in Testsigma:
 
@@ -34,145 +31,535 @@ Given below is the list of default test data generators available in Testsigma:
     <td>DomainFunction</td>
     <td>emailWithDomain</td>
     <td>Generates an email with a domain</td>
-    <td>Domain name.<br><em>For example:google.com,testsigma.com</em></td>
+    <td>Preferred Domain name.<br><em>For example: Domain - google.com, testsigma.com</em></td>
   </tr>
   <tr>
     <td>EmailFunctions</td>
     <td>username</td>
     <td>Generate a username</td>
-    <td>Length of username</td>
+    <td>Required length of username(actual names)<br><em>For example: Length - 8</em></td>
   </tr>
   <tr>
     <td>EmailFunctions</td>
     <td>randomAlphanumaricEmail</td>
     <td>Generates a random email with both numbers and letters</td>
-    <td>Length of email</td>
+    <td>Required length of email(random alphanumeric characters)<br><em>For example: Length - 8</em></td>
   </tr>
   <tr>
     <td>EmailFunctions</td>
     <td>randomAlphaNumericEmailWithDomain</td>
     <td>Generate a random email string with both alphabet and numbers</td>
-    <td><ul><li>Length of email</li><li>Domain name</li></ul></td>
+    <td><li>Length of email before @</li><li>Preferred domain name for the email</li><em>For example: Length - 8, Domain - google.com</em></td>
 </tr>
 <tr>
     <td>EmailFunctions</td>
     <td>randomEmail</td>
     <td>Generates a random email</td>
-    <td><ul><li>Length of email</li><li>Domain name</li></ul></td>
+    <td><li>Length of email before @ (Valid Names)</li><li>Preferred domain name for the email</li><em>For example: Length - 8, Domain - testsigma.com</em></td>
+</tr>
+<tr>
+    <td>EmailFunctions</td>
+    <td>randomEmail</td>
+    <td>Generates a random email</td>
+    <td>Length of email before @ (Valid Names)<br><em>For example: Length - 7</em></td>
 </tr>
 <tr>
     <td>NameFunctions</td>
     <td>uniqueUsername</td>
     <td>Generates a unique username</td>
-    <td></td>
+    <td>Generates a unique username</td>
   </tr>
   <tr>
     <td>PhoneNumberFunctions</td>
     <td>getOTP</td>
     <td>Fetch OTP from an SMS</td>
-    <td><ul><li>Regex or regular expression(a sequence of characters that specifies a search pattern in text)</li><li>Phone number</li><li>timeout in seconds</li></ul></td>
+    <td><li>Regex</li><li>Phone number</li><li>timeout in seconds</li><em>For Example: Regex - \d{6}, Phone number - Select Linked Phone Number, Timeout - 30</em></td>
   </tr>
   <tr>
     <td>MailBoxFunctions</td>
     <td>getEmailOTP</td>
     <td>Fetch OTP sent to the email box into a variable.</td>
-    <td><ul><li>Regex or regular expression(a sequence of characters that specifies a search pattern in text)</li><li>linked mailbox to which the OTP should be recieved</li><li>timeout in seconds</li></ul></td>
+    <td><li>Regex</li><li>Mailbox</li><li>Timeout in seconds</li><em>For Example: Regex - \d{4}, Mailbox - Select Linked Mailbox, Timeout - 30</em></td>
   </tr>
   <tr>
     <td>MailBoxFunctions</td>
     <td>getLinkFromContent</td>
     <td>Fetch link from a piece of content</td>
-    <td>Same as above</td>
+    <td><li>Regex</li><li>Mailbox</li><li>Timeout in seconds</li><em>For Example: Regex - \bhttps?:\/\/\S+, Mailbox - Select Linked Mailbox, Timeout - 30</em></td>
   </tr>
   <tr>
     <td>MailBoxFunctions</td>
     <td>subjectVerification</td>
     <td>Verify subject of email</td>
-    <td>Same as above</td>
+    <td><li>Regex</li><li>Linked Mailbox</li><li>Timeout in seconds</li><em>For Example: Regex - ^[a-zA-Z0-9._%+-]+\.[a-zA-Z]{2,}$, Mailbox - Select Linked Mailbox, Timeout - 30</em></td>
   </tr>
   <tr>
     <td>MailBoxFunctions</td>
     <td>contentVerification</td>
     <td>Verify content of email</td>
-    <td><ul><li>Regex</li><li>linked mailbox</li><li>timeout in seconds</li><li>the character string to compare</li></ul></td>
+    <td><li>Regex</li><li>Linked Mailbox</li><li>Timeout in seconds</li><li>Character String to compare</li></td>
   </tr>
- <tr>
-    <td>MailBoxFunctions</td>
+  <tr>
+    <td>MailBoxAliasFunctions</td>
     <td>generateMailBoxAlias</td>
-    <td>Generate a unique mailbox every time it is executed during a test execution.</td>
-    <td>linked mailbox</td>
+    <td>Generate a unique mailbox every time it is executed during test execution.</td>
+    <td>Mailbox - Select Linked Mailbox to create a new email address.</td>
   </tr>
   <tr>
-    <td>MailBoxFunctions</td>
+    <td>MailBoxAliasFunctions</td>
     <td>getEmailContent</td>
-    <td>Fetch the entire email content into a variable</td>
-    <td><ul><li>Runtimevariable</li><li>timeout in seconds</li></ul></td>
-  </tr> 
-<tr>
-    <td>MailBoxFunctions</td>
+    <td>Fetch the entire email content into a variable.</td>
+    <td><li>Runtime Variable</li><li>Timeout in seconds</li><em>For Example: Runtime Variable - content, Timeout - 30</em></td>
+  </tr>
+  <tr>
+    <td>MailBoxAliasFunctions</td>
     <td>getEmailSubject</td>
-    <td>Fetch the subject of the email in to a variable</td>
-    <td>Same as above</td>
-  </tr> 
+    <td>Fetch the subject of the email in to a variable.</td>
+    <td><li>Runtime Variable</li><li>Timeout in seconds</li><em>For Example: Runtime Variable - subject, Timeout - 30</em></td>
+  </tr>
   <tr>
-    <td>MailBoxFunctions</td>
+    <td>MailBoxAliasFunctions</td>
     <td>getOTP</td>
-    <td>Fetch OTP from the email</td>
-    <td><ul><li>Regex</li><li>runtimeVariable</li><li>timeout in seconds</li></ul></td>
-  </tr> 
+    <td>Fetch OTP from the email.</td>
+    <td><li>Regex</li><li>Runtime Variable</li><li>Timeout in seconds</li><em>For Example: Regex - \d{4,6}, Runtime Variable - otp, Timeout - 30</em></td>
+  </tr>
   <tr>
-    <td>MailBoxFunctions</td>
+    <td>MailBoxAliasFunctions</td>
     <td>urlWithText</td>
     <td>Fetch the URL that contains some required text.</td>
-    <td><ul><li>Text</li><li>runtimeVariable</li><li>timeout in seconds</li></ul></td>
-  </tr> 
+    <td><li>Text</li><li>Runtime Variable</li><li>Timeout in seconds</li><em>For Example: Text - randomtext, Runtime Variable - url, Timeout - 30</em></td>
+  </tr>
   <tr>
-    <td>MailBoxFunctions</td>
-    <td>urlWhichContain</td>
+    <td>MailBoxAliasFunctions</td>
+    <td>urlWhichContains</td>
     <td>Fetch the URL that contains some required parameters.</td>
-    <td><ul><li>Substring</li><li>runtimeVariable</li><li>timeout in seconds</li></ul></td>
-  </tr> 
+    <td><li>Substring</li><li>Runtime Variable</li><li>Timeout in seconds</li><em>For Example: Substring - example, Runtime Variable - random_text, Timeout - 30</em></td>
+  </tr>
   <tr>
-    <td>MailBoxFunctions</td>
-    <td>UrlMatchingRegex</td>
+    <td>MailBoxAliasFunctions</td>
+    <td>urlMatchingRegex</td>
     <td>Fetch the URL that contains a URL matching the required regular expression.</td>
+    <td><li>Regex</li><li>Runtime Variable</li><li>Timeout in seconds</li><em>For Example: Regex - r'https://\w+\.com/\w+', Runtime Variable - path, Timeout - 30</em></td>
+  </tr>
+  <tr>
+    <td>TestDataFromProfile</td>
+    <td>getTestDataBySetName</td>
     <td></td>
+    <td><li>Test Data Profile</li><li>Data Set Name</li><li>Parameter</li></td>
+  </tr>
+  <tr>
+    <td>TestDataFromProfile</td>
+    <td>getTestDataByRowNumber</td>
+    <td></td>
+    <td><li>Test Data Profile</li><li>Row Number</li><li>Parameter</li></td>
   </tr>
   <tr>
     <td>RandomStringFunctions</td>
     <td>randomStringFromGivenCharactersWithLength</td>
     <td>Generates a random string from the given set of characters</td>
-    <td><ul><li>Stringlength= length of the string to be generated in <kbd>integer</kbd> format</li><li> list = list of characters</li></ul></td>
+    <td><li>Stringlength - length of the string to be generated in integer format</li><li> List - List of characters</li></ul></td>
   </tr>
    <tr>
-    <td>Randomtext</td>
+    <td>Random Text</td>
     <td>phrases</td>
     <td>Generates random text phrases</td>
-    <td><ul><li>Stringlength = length of the string to be generated in <kbd>integer</kbd> format </li> <li>list = list of characters</li></ul></td>
+    <td><li>Stringlength - length of the string to be generated in integer format.</li> <li>List - list of characters</li></td>
   </tr>
   <tr>
     <td>Number</td>
     <td>random number</td>
     <td>Generates a random number between a given range</td>
-    <td><ul><li>min = minimum value of range of numbers</li><li>max = maximum value of range of numbers</li></ul></td>
+    <td><li>min - minimum value of range of numbers</li><li>max - maximum value of range of numbers</li></td>
   </tr>
   <tr>
     <td>Number</td>
     <td>randomDigit</td>
     <td>Generates random digits between 0-9</td>
-    <td></td>
+    <td>Generates random digits between 0-9</td>
   </tr>
   <tr>
     <td>Number</td>
     <td>randomDigitNotZero</td>
     <td>Generates random digits between 1-9</td>
-    <td></td>
+    <td>Generates random digits between 1-9</td>
   </tr>
   <tr>
     <td>Number</td>
     <td>number of digits</td>
     <td>Generates n number of digits</td>
-    <td><ul><li>number of digits</li><li>boolean value</li></ul></td>
+    <td><li>Number of digits</li><li>Boolean - True/ False</li></td>
+  </tr>
+  <tr>
+    <td>Number</td>
+    <td>randomNumber</td>
+    <td></td>
+    <td><li>Integer - no. of digits of generated random number</li><li>Boolean - True/ False</li></td>
+  </tr>
+  <tr>
+    <td>Number</td>
+    <td>randomDouble</td>
+    <td></td>
+    <td><li>Integer - Maximum Number of Decimals</li><li>Integer - Minimum value</li><li>Integer - Maximum value</li></td>
+  </tr>
+  <tr>
+    <td>Number</td>
+    <td>randomDouble</td>
+    <td></td>
+    <td><li>Integer - Maximum Number of Decimals</li><li>Long - Minimum value</li><li>Long - Maximum value</li></td>
+  </tr>
+  <tr>
+    <td>Number</td>
+    <td>digits</td>
+    <td></td>
+    <td>Integer - Number of digits</td>
+  </tr>
+  <tr>
+    <td>Number</td>
+    <td>digit</td>
+    <td></td>
+    <td></td>
+  </tr>
+  <tr>
+    <td>Name</td>
+    <td>name</td>
+    <td></td>
+    <td>Integer - Number of digits</td>
+  </tr>
+  <tr>
+    <td>Name</td>
+    <td>nameWithMiddle</td>
+    <td></td>
+    <td>Integer - Number of digits</td>
+  </tr>
+  <tr>
+    <td>Name</td>
+    <td>fullName</td>
+    <td></td>
+    <td>Integer - Number of digits</td>
+  </tr>
+  <tr>
+    <td>Name</td>
+    <td>firstName</td>
+    <td></td>
+    <td>Integer - Number of digits</td>
+  </tr>
+  <tr>
+    <td>Name</td>
+    <td>lastName</td>
+    <td></td>
+    <td>Integer - Number of digits</td>
+  </tr>
+  <tr>
+    <td>Name</td>
+    <td>prefix</td>
+    <td></td>
+    <td>Integer - Number of digits</td>
+  </tr>
+  <tr>
+    <td>Name</td>
+    <td>suffix</td>
+    <td></td>
+    <td>Integer - Number of digits</td>
+  </tr>
+  <tr>
+    <td>Name</td>
+    <td>title</td>
+    <td></td>
+    <td>Integer - Number of digits</td>
+  </tr>
+  <tr>
+    <td>Name</td>
+    <td>username</td>
+    <td></td>
+    <td>Integer - Number of digits</td>
+  </tr>
+  <tr>
+    <td>PhoneNumber</td>
+    <td>cellPhone</td>
+    <td></td>
+    <td></td>
+  </tr>
+  <tr>
+    <td>PhoneNumber</td>
+    <td>phoneNumber</td>
+    <td></td>
+    <td></td>
+  </tr>
+  <tr>
+    <td>Internet</td>
+    <td>domainName</td>
+    <td></td>
+    <td></td>
+  </tr>
+  <tr>
+    <td>Internet</td>
+    <td>domainWord</td>
+    <td></td>
+    <td></td>
+  </tr>
+  <tr>
+    <td>Internet</td>
+    <td>domainSuffix</td>
+    <td></td>
+    <td></td>
+  </tr>
+  <tr>
+    <td>Internet</td>
+    <td>emailAddress</td>
+    <td></td>
+    <td></td>
+  </tr>
+  <tr>
+    <td>Internet</td>
+    <td>emailAddress</td>
+    <td></td>
+    <td>String - local Part</td>
+  </tr>
+  <tr>
+    <td>Internet</td>
+    <td>safeEmailAddress</td>
+    <td></td>
+    <td></td>
+  </tr>
+  <tr>
+    <td>Internet</td>
+    <td>safeEmailAddress</td>
+    <td></td>
+    <td>String - local Part</td>
+  </tr>
+  <tr>
+    <td>Internet</td>
+    <td>url</td>
+    <td></td>
+    <td></td>
+  </tr>
+  <tr>
+    <td>Internet</td>
+    <td>image</td>
+    <td></td>
+    <td></td>
+  </tr>
+  <tr>
+    <td>Internet</td>
+    <td>password</td>
+    <td></td>
+    <td></td>
+  </tr>
+  <tr>
+    <td>Internet</td>
+    <td>uuid</td>
+    <td></td>
+    <td></td>
+  </tr>
+  <tr>
+    <td>File</td>
+    <td>mimeType</td>
+    <td></td>
+    <td></td>
+  </tr>
+  <tr>
+    <td>File</td>
+    <td>fileName</td>
+    <td></td>
+    <td></td>
+  </tr>
+  <tr>
+    <td>File</td>
+    <td>fileName</td>
+    <td></td>
+    <td></td>
+  </tr>
+  <tr>
+    <td>File</td>
+    <td>fileName</td>
+    <td></td>
+    <td><li>Argument 0</li><li>Argument 1</li><li>Argument 2</li><li>Argument 3</li></td>
+  </tr>
+  <tr>
+    <td>Friends</td>
+    <td>character</td>
+    <td></td>
+    <td></td>
+  </tr>
+  <tr>
+    <td>Friends</td>
+    <td>location</td>
+    <td></td>
+    <td></td>
+  </tr>
+  <tr>
+    <td>Friends</td>
+    <td>location</td>
+    <td></td>
+    <td></td>
+  </tr>
+  <tr>
+    <td>IdNumber</td>
+    <td>valid</td>
+    <td></td>
+    <td></td>
+  </tr>
+  <tr>
+    <td>IdNumber</td>
+    <td>invalid</td>
+    <td></td>
+    <td></td>
+  </tr>
+  <tr>
+    <td>IdNumber</td>
+    <td>ssnValid</td>
+    <td></td>
+    <td></td>
+  </tr>
+  <tr>
+    <td>IdNumber</td>
+    <td>validSvSeSsn</td>
+    <td></td>
+    <td></td>
+  </tr>
+  <tr>
+    <td>IdNumber</td>
+    <td>invalidSvSeSsn</td>
+    <td></td>
+    <td></td>
+  </tr>
+  <tr>
+    <td>Address</td>
+    <td>streetName</td>
+    <td></td>
+    <td></td>
+  </tr>
+  <tr>
+    <td>Address</td>
+    <td>streetAddressNumber</td>
+    <td></td>
+    <td></td>
+  </tr>
+  <tr>
+    <td>Address</td>
+    <td>streetAddress</td>
+    <td></td>
+    <td></td>
+  </tr>
+  <tr>
+    <td>Address</td>
+    <td>streetAddress</td>
+    <td></td>
+    <td>Argument 0</td>
+  </tr>
+  <tr>
+    <td>Address</td>
+    <td>secondaryAddress</td>
+    <td></td>
+    <td></td>
+  </tr>
+  <tr>
+    <td>Address</td>
+    <td>zipCode</td>
+    <td></td>
+    <td></td>
+  </tr>
+  <tr>
+    <td>Address</td>
+    <td>zipCodeByState</td>
+    <td></td>
+    <td>Argument 0</td>
+  </tr>
+  <tr>
+    <td>Address</td>
+    <td>streetSuffix</td>
+    <td></td>
+    <td></td>
+  </tr>
+  <tr>
+    <td>Address</td>
+    <td>streetPrefix</td>
+    <td></td>
+    <td></td>
+  </tr>
+  <tr>
+    <td>Address</td>
+    <td>citySuffix</td>
+    <td></td>
+    <td></td>
+  </tr>
+  <tr>
+    <td>Address</td>
+    <td>cityPrefix</td>
+    <td></td>
+    <td></td>
+  </tr>
+  <tr>
+    <td>Address</td>
+    <td>city</td>
+    <td></td>
+    <td></td>
+  </tr>
+  <tr>
+    <td>Address</td>
+    <td>cityName</td>
+    <td></td>
+    <td></td>
+  </tr>
+  <tr>
+    <td>Address</td>
+    <td>state</td>
+    <td></td>
+    <td></td>
+  </tr>
+  <tr>
+    <td>Address</td>
+    <td>stateAbbr</td>
+    <td></td>
+    <td></td>
+  </tr>
+  <tr>
+    <td>Address</td>
+    <td>firstName</td>
+    <td></td>
+    <td></td>
+  </tr>
+  <tr>
+    <td>Address</td>
+    <td>lastName</td>
+    <td></td>
+    <td></td>
+  </tr>
+  <tr>
+    <td>Address</td>
+    <td>latitude</td>
+    <td></td>
+    <td></td>
+  </tr>
+  <tr>
+    <td>Address</td>
+    <td>longitude</td>
+    <td></td>
+    <td></td>
+  </tr>
+  <tr>
+    <td>Address</td>
+    <td>timeZone</td>
+    <td></td>
+    <td></td>
+  </tr>
+  <tr>
+    <td>Address</td>
+    <td>country</td>
+    <td></td>
+    <td></td>
+  </tr>
+  <tr>
+    <td>Address</td>
+    <td>countryCode</td>
+    <td></td>
+    <td></td>
+  </tr>
+  <tr>
+    <td>Address</td>
+    <td>buildingNumber</td>
+    <td></td>
+    <td></td>
   </tr>
    <tr>
     <td>Address</td>
@@ -233,67 +620,86 @@ Given below is the list of default test data generators available in Testsigma:
     <td>joinSampleOfEachList</td>
     <td></td>
     <td></td>
+  </tr>
+  <tr>
+    <td>Email</td>
+    <td>mailbox</td>
+    <td></td>
+    <td></td>
   </tr> 
   <tr>
     <td>DateFunctions</td>
     <td>future</td>
     <td>Generates future date within atmost 'x' time units</td>
-    <td><ul><li>atmost = at the maximum 'x' units in integer format</li> <li>unit= unit of time like day,hours,minutes,seconds etc;</li><li>Reference dates= any date</li><li> format = format of date, example:ddmmyyy or mmddyyyy</li></ul></td>
+    <td><li>atmost = at the maximum 'x' units in integer format</li> <li>Unit - Unit of time like day,hours,minutes,seconds etc;</li><li>Reference dates - any date</li><li> Format = Format of date, example:ddmmyyy or mmddyyyy</li></td>
+  </tr>
+  <tr>
+    <td>DateFunctions</td>
+    <td>future</td>
+    <td>Generates future date within atmost 'x' time units</td>
+    <td><li>Integer - Upper limit of value to be added (any random value between 0 and this value can be used)</li><li>String - Format of Date to be generated</li></td>
   </tr>
   <tr>
     <td>DateFunctions</td>
     <td>current</td>
     <td>Generates current date within atmost 'x' units of time</td>
-    <td><ul><li>format:dd-mm-yyyy</li><li>atmost = at the maximum 'x' units in <kbd>integer</kbd> format</li><li>unit=unit of time like day/hours/minute etc.</li></ul></td>
+    <td><li>Format : dd-mm-yyyy</li><li>atmost = at the maximum 'x' units in integer format</li><li>Unit - unit of time like day/hours/minute etc.</li></td>
   </tr> 
-<tr>
+  <tr>
     <td>DateFunctions</td>
     <td>past</td>
     <td>Generates past date within atmost 'x' units of time</td>
-    <td><ul><li>atMost= at the maximum 'x' units in <kbd>integer</kbd> format</li><li>TimeUnit = unit of time</li><li>referenceDateformat:dd-mm-yyyy</li></ul></td>
+    <td><li>atMost= at the maximum 'x' units in integer format</li><li>TimeUnit - unit of time</li><li>ReferenceDateformat : dd-mm-yyyy</li></td>
+  </tr>
+  <tr>
+    <td>DateFunctions</td>
+    <td>past</td>
+    <td>Generates past date within atmost 'x' units of time</td>
+    <td><li>Integer - Upper limit of value to be added (any random value between 0 and this value can be used)</li><li>TimeUnit - Unit of Time</li><li>String - Format of Date to be generated</li></td>
   </tr>
  <tr>
     <td>DateFunctions</td>
     <td>between</td>
     <td>Generates dates in between two dates</td>
-    <td><ul><li>from = starting date</li><li>to = ending date</li><li>format = date format dd-yy-mmmm</li></ul></td>
+    <td><li>From - Starting date</li><li>To - Ending date</li><li>Format - Date format dd-yy-mmmm</li></td>
   </tr> 
     <tr>
     <td>DateFunctions</td>
     <td>birthday</td>
     <td>Generates a random birthday</td>
-    <td><ul><li>format = Date format.<em>For example, ddmmyyyy</em></li></ul></td>
+    <td><li>Format = Date format.<em>For example, ddmmyyyy</em></li></td>
+  </tr>
+  </tr> 
+    <tr>
+    <td>StringAndDateTime</td>
+    <td>concatWithCurrentTime</td>
+    <td></td>
+    <td></td>
   </tr> 
   <tr>
     <td>DateFunctions</td>
-    <td>Date before today</td>
-    <td>Generates a date which is before today’s date</td>
-    <td><ul><li>noOfDays= number of days before the present date in <kbd>integer</kbd>format</li><li>format= Date format</li></ul> </td>
+    <td>dateBeforeToday</td>
+    <td>Generates a date which is before today's date</td>
+    <td><li>noOfDays - number of days before the present date in integer format</li><li>Format - Date format</li></td>
   </tr> 
   <tr>
     <td>DateFunctions</td>
-    <td>Date after today</td>
+    <td>dateAfterToday</td>
     <td>Generates a date which is after today’s date</td>
-    <td><ul><li>noOfDays = number of days after the present date in <kbd>integer</kbd>format</li><li>format = Date format</li></ul></td>
-  </tr>  
+    <td><li>noOfDays - number of days after the present date in integer format</li><li>Format - Date format</li></td>
+  </tr>
   <tr>
-    <td>DateFunctions</td>
-    <td>daysBeforeGivenDate</td>
-    <td>Generates a date which is before ‘x’ number of days from the given date</td>
-    <td><ul><li>date = reference date</li><li> noOfDays = number of days in integer</li><li> format = date format </li></ul></td>
-  </tr> 
-   <tr>
-    <td>DateFunctions</td>
-    <td>daysAfterGivenDate</td>
-    <td>Generates a date which is after 'x' number of days from the given date</td>
-    <td><ul><li>noOfDays = number of days in integer format</li><li>format = date format</li></ul></td>
-  </tr> 
+    <td>StringConcatenation</td>
+    <td>concatWithRandomString</td>
+    <td></td>
+    <td></td>
+  </tr>
   <tr>
-    <td>DateFunctions</td>
-    <td>currentTime</td>
-    <td>Generates current time</td>
-    <td><ul><li>format = format of time. <em>For example, hh:mm:ss dd-mm-yyyy </em></li></ul></td>
-  </tr> 
+    <td>RestTestCustom</td>
+    <td>getAdd</td>
+    <td></td>
+    <td></td>
+  </tr>   
   <tr>
     <td>Cookies</td>
     <td>getCookieNames</td>
@@ -305,7 +711,42 @@ Given below is the list of default test data generators available in Testsigma:
     <td>getCookieWithName</td>
     <td>Fetch only the cookie whose name is given</td>
     <td></td>
+  </tr>
+  <tr>
+    <td>RandomStringUtil</td>
+    <td>alphabeticString</td>
+    <td></td>
+    <td></td>
+  </tr> 
+  <tr>
+    <td>RandomStringUtil</td>
+    <td>alphabetic</td>
+    <td></td>
+    <td></td>
+  </tr>  
+  <tr>
+    <td>CustomStepTest</td>
+    <td>sampleCustomStep</td>
+    <td></td>
+    <td></td>
+  </tr> 
+  <tr>
+    <td>RestTestCustomTest</td>
+    <td>getAdd</td>
+    <td></td>
+    <td></td>
+  </tr> 
+  <tr>
+    <td>CustomFunctionSample</td>
+    <td>getAdd</td>
+    <td></td>
+    <td></td>
   </tr> 
 </table>
 </body>
 
+[[info | NOTE:]]
+| - You can create your own Data Generator and customise the actions according to your preference. For more information, refer to [create test data generators using addons](https://testsigma.com/tutorials/addons/how-create-addons-test-data-generators/)
+| - For some Data Generators, Regex is used to find a sequence of characters that specifies a search pattern in the text; if you're unfamiliar, refer to the [Regex guide - MDN Docs](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Guide/Regular_Expressions).
+
+---

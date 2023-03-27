@@ -1,9 +1,5 @@
 [
   {
-    "from": "/docs/",
-    "to": "/docs/getting-started/introduction-cloud/"
-  }, 
-  {
     "from": "/docs/addons",
     "to": "/docs/addons/what-is-an-addon"
   }

@@ -113,8 +113,8 @@ In the overlay that opens up on the right, enter the name of the app you are int
    ![Choose identity provider as SAML](https://docs.testsigma.com/images/azure-sso/choose-identity-provider-saml.png)
 
    You will see an exclusive SAML token identifier for your account. 
-   ![Configuration id for saml configuration on Azure](https://docs.testsigma.com/images/azure-sso/configuration-id-saml-configuration.png)&emsp;
-
+   ![Configuration id for saml configuration on Azure](https://s3.amazonaws.com/static-docs.testsigma.com/new_images/projects/applications/saml.png)
+   
    4. You need to put this identifier in place of **\<id>** in Step 3 and click Save.
    ![Fill in basic configuration details for saml configuration](https://docs.testsigma.com/images/azure-sso/fill-saml-configuration-settings-basic-details.png)
 
