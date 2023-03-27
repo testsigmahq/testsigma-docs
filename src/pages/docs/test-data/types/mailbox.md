@@ -1,5 +1,5 @@
 ---
-title: "Mailbox type Test Data"
+title: "Mailbox Test Data Types"
 page_title: "Mailbox type Test Data in Testsigma"
 metadesc: "How to use Mailbox Test Data type to automate test scenarios that involve Email OTPs for two factor authentication"
 noindex: false
@@ -38,7 +38,7 @@ Mailbox test data can be utilized in Testsigma for various purposes
 Here's how you can use the built-in feature in Testsigma to access the mailbox, check if the mail has been received, open the email, read it, and process it.
 
 [[info | NOTE:]]
-| Testsigma has designed the Mailbox feature to retrieve only the latest email's relevant details, such as content, OTP, and subject information.
+| Testsigma designed the Mailbox feature to retrieve only the first email's relevant details, such as content, OTP, and subject information.
 
 ---
 
@@ -113,10 +113,12 @@ In the test step; you can create a mailbox alias that associates an additional e
 1. Create a **new step** in the **test case**, including two placeholders for **test data** in the **NLP** to create a mailbox alias.
 2. **Replace** the **test-data-1** placeholder by selecting **!|Data Generator|** from the test data types dropdown menu.
 3. Search and select the Test Data generator function **!|MailBoxAliasFunctions :: generateMailBoxAlias|**.
-4. **Delete** the **test-data-2** placeholder and enter text by creating a runtime variable and storing the email. Here, for example, we are given **Email1** as a runtime variable. Alternatively, select **$|Runtime|** from the **test data types** and store the email by selecting the runtime variable from the right side of the panel.
+4. Select Linked Mailbox to create a unique mailbox every time and click **Save**.
+5. **Delete** the **test-data-2** placeholder and enter text by creating a runtime variable and storing the email. Here, for example, we are given **Email1** as a runtime variable. Alternatively, select **$|Runtime|** from the **test data types** and store the email by selecting the runtime variable from the right side of the panel.
 
 Here is a quick GIF demonstrating the above workflow:
 ![Mailbox Alias in Test Step](https://s3.amazonaws.com/static-docs.testsigma.com/new_images/projects/overview/mailboxalias_ts.gif)
+
 ---
 
 ## **Generate Mailbox Alias for Test Cases Execution**
@@ -128,12 +130,12 @@ Below are the NLP tools that you can use for the same. It would be best to use a
 
 |**Data Generators**|**Actions**|**Inputs**|
 |---|---|---|
-|**!\|MailBoxAliasFunctions :: getEmailContent\|**|This will get the entire email's content into a variable.|Runtime Variable, Timeout in seconds|
-|**!\|MailBoxAliasFunctions :: getEmailSubject\|**|This will get the entire email's subject into a variable.|Runtime Variable, Timeout in seconds|
-|**!\|MailBoxAliasFunctions :: getOTP\|**|This will fetch the OTP sent to the email box into a variable.|Regex, Runtime Variable,Timeout in seconds|
-|**!\|MailBoxAliasFunctions :: urlWithText\|**|This will fetch the URL that contains some required text.|Text, Runtime Variable,Timeout in seconds|
-|**!\|MailBoxAliasFunctions :: urlWhichContains\|**|This will fetch the URL that contains some required parameters.|Substring, Runtime Variable,Timeout in seconds|
-|**!\|MailBoxAliasFunctions :: urlMatchingRegex\|**|This will fetch the URL that contains a URL matching the required regex.|Regex, Runtime Variable,Timeout in seconds|
+|**!\|MailBoxAliasFunctions :: getEmailContent\|**|This will get the entire email's content into a variable.|<li>Runtime Variable</li><li>Timeout in seconds</li>*For Example: Runtime Variable - content, Timeout - 30*|
+|**!\|MailBoxAliasFunctions :: getEmailSubject\|**|This will get the entire email's subject into a variable.|<li>Runtime Variable</li><li>Timeout in seconds</li>*For Example: Runtime Variable - subject, Timeout - 30*|
+|**!\|MailBoxAliasFunctions :: getOTP\|**|This will fetch the OTP sent to the email box into a variable.|<li>Regex</li><li>Runtime Variable</li><li>Timeout in seconds</li>*For Example: Regex - \d{4,6}, Runtime Variable - otp, Timeout - 30*|
+|**!\|MailBoxAliasFunctions :: urlWithText\|**|This will fetch the URL that contains some required text.|<li>Text</li><li>Runtime Variable</li><li>Timeout in seconds</li>*For Example: Text - randomtext, Runtime Variable - url, Timeout - 30*|
+|**!\|MailBoxAliasFunctions :: urlWhichContains\|**|This will fetch the URL that contains some required parameters.|<li>Substring</li><li>Runtime Variable</li><li>Timeout in seconds</li>*For Example: Substring - example, Runtime Variable - random_text, Timeout - 30*|
+|**!\|MailBoxAliasFunctions :: urlMatchingRegex\|**|This will fetch the URL that contains a URL matching the required regex.|<li>Regex</li><li>Runtime Variable</li><li>Timeout in seconds</li>*For Example: Regex - r'https://\w+\.com/\w+', Runtime Variable - path, Timeout - 30*|
 
 Below is a screenshot showing a test case generating a mailbox alias and getting content from the email.
 ![A test case displaying how to generate unique email address and how to use it](https://s3.amazonaws.com/static-docs.testsigma.com/new_images/test-data/types/mailbox/generate-unique-email.png)

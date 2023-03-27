@@ -31,67 +31,67 @@ Given below is the list of default test data generators available in Testsigma:
     <td>DomainFunction</td>
     <td>emailWithDomain</td>
     <td>Generates an email with a domain</td>
-    <td>Preferred Domain name.<br><em>For example: google.com, testsigma.com</em></td>
+    <td>Preferred Domain name.<br><em>For example: Domain - google.com, testsigma.com</em></td>
   </tr>
   <tr>
     <td>EmailFunctions</td>
     <td>username</td>
     <td>Generate a username</td>
-    <td>Required length of username(actual names).<br><em>For example: Length - 8</em></td>
+    <td>Required length of username(actual names)<br><em>For example: Length - 8</em></td>
   </tr>
   <tr>
     <td>EmailFunctions</td>
     <td>randomAlphanumaricEmail</td>
     <td>Generates a random email with both numbers and letters</td>
-    <td>Required length of email(random alphanumeric characters)</td>
+    <td>Required length of email(random alphanumeric characters)<br><em>For example: Length - 8</em></td>
   </tr>
   <tr>
     <td>EmailFunctions</td>
     <td>randomAlphaNumericEmailWithDomain</td>
     <td>Generate a random email string with both alphabet and numbers</td>
-    <td><li>Length of email before @</li><li>Preferred domain name for the email</li></td>
+    <td><li>Length of email before @</li><li>Preferred domain name for the email</li><em>For example: Length - 8, Domain - google.com</em></td>
 </tr>
 <tr>
     <td>EmailFunctions</td>
     <td>randomEmail</td>
     <td>Generates a random email</td>
-    <td><li>Length of email before @ (Valid Names)</li><li>Preferred domain name for the email</li></td>
+    <td><li>Length of email before @ (Valid Names)</li><li>Preferred domain name for the email</li><em>For example: Length - 8, Domain - testsigma.com</em></td>
 </tr>
 <tr>
     <td>EmailFunctions</td>
     <td>randomEmail</td>
     <td>Generates a random email</td>
-    <td>Length of email before @ (Valid Names)</td>
+    <td>Length of email before @ (Valid Names)<br><em>For example: Length - 7</em></td>
 </tr>
 <tr>
     <td>NameFunctions</td>
     <td>uniqueUsername</td>
     <td>Generates a unique username</td>
-    <td></td>
+    <td>Generates a unique username</td>
   </tr>
   <tr>
     <td>PhoneNumberFunctions</td>
     <td>getOTP</td>
     <td>Fetch OTP from an SMS</td>
-    <td><li>Regex</li><li>Phone number</li><li>timeout in seconds</li></td>
+    <td><li>Regex</li><li>Phone number</li><li>timeout in seconds</li><em>For Example: Regex - \d{6}, Phone number - Select Linked Phone Number, Timeout - 30</em></td>
   </tr>
   <tr>
     <td>MailBoxFunctions</td>
     <td>getEmailOTP</td>
     <td>Fetch OTP sent to the email box into a variable.</td>
-    <td><li>Regex</li><li>Linked mailbox to which the OTP should be recieved</li><li>Timeout in seconds</li></td>
+    <td><li>Regex</li><li>Mailbox</li><li>Timeout in seconds</li><em>For Example: Regex - \d{4}, Mailbox - Select Linked Mailbox, Timeout - 30</em></td>
   </tr>
   <tr>
     <td>MailBoxFunctions</td>
     <td>getLinkFromContent</td>
     <td>Fetch link from a piece of content</td>
-    <td><li>Regex</li><li>Linked Mailbox</li><li>Timeout in seconds</li></td>
+    <td><li>Regex</li><li>Mailbox</li><li>Timeout in seconds</li><em>For Example: Regex - \bhttps?:\/\/\S+, Mailbox - Select Linked Mailbox, Timeout - 30</em></td>
   </tr>
   <tr>
     <td>MailBoxFunctions</td>
     <td>subjectVerification</td>
     <td>Verify subject of email</td>
-    <td><li>Regex</li><li>Linked Mailbox</li><li>Timeout in seconds</li></td>
+    <td><li>Regex</li><li>Linked Mailbox</li><li>Timeout in seconds</li><em>For Example: Regex - ^[a-zA-Z0-9._%+-]+\.[a-zA-Z]{2,}$, Mailbox - Select Linked Mailbox, Timeout - 30</em></td>
   </tr>
   <tr>
     <td>MailBoxFunctions</td>
@@ -103,55 +103,55 @@ Given below is the list of default test data generators available in Testsigma:
     <td>MailBoxAliasFunctions</td>
     <td>generateMailBoxAlias</td>
     <td>Generate a unique mailbox every time it is executed during test execution.</td>
-    <td>Select Linked Mailbox to create a new email address.</td>
+    <td>Mailbox - Select Linked Mailbox to create a new email address.</td>
   </tr>
   <tr>
     <td>MailBoxAliasFunctions</td>
     <td>getEmailContent</td>
     <td>Fetch the entire email content into a variable.</td>
-    <td><li>Runtime Variable</li><li>Timeout in seconds</li></td>
+    <td><li>Runtime Variable</li><li>Timeout in seconds</li><em>For Example: Runtime Variable - content, Timeout - 30</em></td>
   </tr>
   <tr>
     <td>MailBoxAliasFunctions</td>
     <td>getEmailSubject</td>
     <td>Fetch the subject of the email in to a variable.</td>
-    <td><li>Runtime Variable</li><li>Timeout in seconds</li></td>
+    <td><li>Runtime Variable</li><li>Timeout in seconds</li><em>For Example: Runtime Variable - subject, Timeout - 30</em></td>
   </tr>
   <tr>
     <td>MailBoxAliasFunctions</td>
     <td>getOTP</td>
     <td>Fetch OTP from the email.</td>
-    <td><li>Regex</li><li>Runtime Variable</li><li>Timeout in seconds</li></td>
+    <td><li>Regex</li><li>Runtime Variable</li><li>Timeout in seconds</li><em>For Example: Regex - \d{4,6}, Runtime Variable - otp, Timeout - 30</em></td>
   </tr>
   <tr>
     <td>MailBoxAliasFunctions</td>
     <td>urlWithText</td>
     <td>Fetch the URL that contains some required text.</td>
-    <td><li>Text</li><li>Runtime Variable</li><li>Timeout in seconds</li></td>
+    <td><li>Text</li><li>Runtime Variable</li><li>Timeout in seconds</li><em>For Example: Text - randomtext, Runtime Variable - url, Timeout - 30</em></td>
   </tr>
   <tr>
     <td>MailBoxAliasFunctions</td>
     <td>urlWhichContains</td>
     <td>Fetch the URL that contains some required parameters.</td>
-    <td><li>Substring</li><li>Runtime Variable</li><li>Timeout in seconds</li></td>
+    <td><li>Substring</li><li>Runtime Variable</li><li>Timeout in seconds</li><em>For Example: Substring - example, Runtime Variable - random_text, Timeout - 30</em></td>
   </tr>
   <tr>
     <td>MailBoxAliasFunctions</td>
     <td>urlMatchingRegex</td>
     <td>Fetch the URL that contains a URL matching the required regular expression.</td>
-    <td><li>Regex</li><li>Runtime Variable</li><li>Timeout in seconds</li></td>
+    <td><li>Regex</li><li>Runtime Variable</li><li>Timeout in seconds</li><em>For Example: Regex - r'https://\w+\.com/\w+', Runtime Variable - path, Timeout - 30</em></td>
   </tr>
   <tr>
     <td>TestDataFromProfile</td>
     <td>getTestDataBySetName</td>
     <td></td>
-    <td></td>
+    <td><li>Test Data Profile</li><li>Data Set Name</li><li>Parameter</li></td>
   </tr>
   <tr>
     <td>TestDataFromProfile</td>
     <td>getTestDataByRowNumber</td>
     <td></td>
-    <td></td>
+    <td><li>Test Data Profile</li><li>Row Number</li><li>Parameter</li></td>
   </tr>
   <tr>
     <td>RandomStringFunctions</td>
@@ -160,7 +160,7 @@ Given below is the list of default test data generators available in Testsigma:
     <td><li>Stringlength - length of the string to be generated in integer format</li><li> List - List of characters</li></ul></td>
   </tr>
    <tr>
-    <td>CustomerFriends</td>
+    <td>Random Text</td>
     <td>phrases</td>
     <td>Generates random text phrases</td>
     <td><li>Stringlength - length of the string to be generated in integer format.</li> <li>List - list of characters</li></td>
@@ -175,13 +175,13 @@ Given below is the list of default test data generators available in Testsigma:
     <td>Number</td>
     <td>randomDigit</td>
     <td>Generates random digits between 0-9</td>
-    <td></td>
+    <td>Generates random digits between 0-9</td>
   </tr>
   <tr>
     <td>Number</td>
     <td>randomDigitNotZero</td>
     <td>Generates random digits between 1-9</td>
-    <td></td>
+    <td>Generates random digits between 1-9</td>
   </tr>
   <tr>
     <td>Number</td>
@@ -215,54 +215,60 @@ Given below is the list of default test data generators available in Testsigma:
   </tr>
   <tr>
     <td>Number</td>
+    <td>digit</td>
+    <td></td>
+    <td></td>
+  </tr>
+  <tr>
+    <td>Name</td>
     <td>name</td>
     <td></td>
     <td>Integer - Number of digits</td>
   </tr>
   <tr>
-    <td>Number</td>
+    <td>Name</td>
     <td>nameWithMiddle</td>
     <td></td>
     <td>Integer - Number of digits</td>
   </tr>
   <tr>
-    <td>Number</td>
+    <td>Name</td>
     <td>fullName</td>
     <td></td>
     <td>Integer - Number of digits</td>
   </tr>
   <tr>
-    <td>Number</td>
+    <td>Name</td>
     <td>firstName</td>
     <td></td>
     <td>Integer - Number of digits</td>
   </tr>
   <tr>
-    <td>Number</td>
+    <td>Name</td>
     <td>lastName</td>
     <td></td>
     <td>Integer - Number of digits</td>
   </tr>
   <tr>
-    <td>Number</td>
+    <td>Name</td>
     <td>prefix</td>
     <td></td>
     <td>Integer - Number of digits</td>
   </tr>
   <tr>
-    <td>Number</td>
+    <td>Name</td>
     <td>suffix</td>
     <td></td>
     <td>Integer - Number of digits</td>
   </tr>
   <tr>
-    <td>Number</td>
+    <td>Name</td>
     <td>title</td>
     <td></td>
     <td>Integer - Number of digits</td>
   </tr>
   <tr>
-    <td>Number</td>
+    <td>Name</td>
     <td>username</td>
     <td></td>
     <td>Integer - Number of digits</td>
@@ -367,7 +373,7 @@ Given below is the list of default test data generators available in Testsigma:
     <td>File</td>
     <td>fileName</td>
     <td></td>
-    <td><li>"Argument 1 ": "Argument 1 "</li><li>"Argument 1 ": "Argument 1 "</li><li>"argument2 ": "argument2 "</li><li>"argument3 ": "argument3 "</li></td>
+    <td><li>Argument 0</li><li>Argument 1</li><li>Argument 2</li><li>Argument 3</li></td>
   </tr>
   <tr>
     <td>Friends</td>
@@ -439,7 +445,7 @@ Given below is the list of default test data generators available in Testsigma:
     <td>Address</td>
     <td>streetAddress</td>
     <td></td>
-    <td>Argument 1: Argument 1</td>
+    <td>Argument 0</td>
   </tr>
   <tr>
     <td>Address</td>
@@ -457,7 +463,7 @@ Given below is the list of default test data generators available in Testsigma:
     <td>Address</td>
     <td>zipCodeByState</td>
     <td></td>
-    <td>Argument 1: Argument 1</td>
+    <td>Argument 0</td>
   </tr>
   <tr>
     <td>Address</td>
