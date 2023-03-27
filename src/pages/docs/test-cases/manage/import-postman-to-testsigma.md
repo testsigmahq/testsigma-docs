@@ -15,6 +15,9 @@ contextual_links:
   name: "Export Postman Environments"
   url: "#export-postman-environments"
 - type: link
+  name: "Export Postman Data Dump"
+  url: "#export-postman-data-dump"
+- type: link
   name: "Import Postman Collections"
   url: "#import-postman-collections"
 - type: link
@@ -54,9 +57,20 @@ Export your Postman Environments in JSON format. Follow below the simple steps:
 
 ---
 
+## **Export Postman Data Dump**
+
+You can export a data dump of all your Collections, Environments, and Globals from Postman settings in Zipped format by following the steps below. 
+
+1. In Postman Application, click the **Settings** icon on the top-right corner of the screen, and then select **Settings** from the drop-down list. ![Select Settings Icon](https://s3.amazonaws.com/static-docs.testsigma.com/new_images/projects/overview/settings_postman.png)
+2. Select the **Data** tab, then click **Export Data**, It will redirect to Postman Web Application. ![Export Data in Data Tab](https://s3.amazonaws.com/static-docs.testsigma.com/new_images/projects/overview/export_data_pm.png)
+3. Click **Export Data**, and a **Request Data Export** pop-up window will appear. Select the checkbox for the data you want to export, and click the **Request Data Export**. ![Request Data Export from Postman](https://s3.amazonaws.com/static-docs.testsigma.com/new_images/projects/overview/reqdataexport_pm.png)
+4. Postman will generate the data dump, create a zipped file containing all the selected data, and ready the file for download. You can click on **Download** to download the zipped file. ![Download Zipped File](https://s3.amazonaws.com/static-docs.testsigma.com/new_images/projects/overview/download_datadump_pm.png)
+
+---
+
 ## **Import Postman Collections**
 
-Once you have exported your Postman Collection as a JSON file, you can import it into Testsigma using the following steps:
+Import your Postman Collection into Testsigma; follow these steps after exporting it as a JSON or Zipped format.
 
 1. In Testsigma, Navigate to **Settings** > **Imports and Exports**. ![Navigate to Import & Export](https://s3.amazonaws.com/static-docs.testsigma.com/new_images/projects/overview/ie_ts.png)
 2. Click the **Import Postman Collections** button on the top right screen. ![Select Import Postman Collections](https://s3.amazonaws.com/static-docs.testsigma.com/new_images/projects/overview/import_pm_ts.png)
@@ -64,13 +78,13 @@ Once you have exported your Postman Collection as a JSON file, you can import it
 4. Select **Import Location** to choose the respective project, application, and version you're trying to import under **Select Project**, **Select Application**, and **Select Version** from the drop-down menu. ![Choose Import Locations](https://s3.amazonaws.com/static-docs.testsigma.com/new_images/projects/overview/importlocation_ts.png)
 5. Click **Start Importing** to transfer a collection into Testsigma. ![Start Importing](https://s3.amazonaws.com/static-docs.testsigma.com/new_images/projects/overview/startimporting_im_ts.png)
 6. Testsigma will notify you via email (to the email address you used to log into Testsigma) once it completes importing Collections. Click **Here** to view the imported collections in Testsigma. ![Email Notification](https://s3.amazonaws.com/static-docs.testsigma.com/new_images/projects/overview/notify_import_ts.png)
-7. After completing the import process, Testsigma maps Collections into Test Suites, Test Cases, Test Data Profiles, and API steps that allow you to view and edit the imported tests. ![Collection Mapping in Testsigma](https://s3.amazonaws.com/static-docs.testsigma.com/new_images/projects/overview/collectionsmapped_ts.gif)
+7. After completing the import process, Testsigma maps **Collections** into **Test Suites**, **Test Cases**, **Test Data Profiles**, and **API steps** that allow you to view and edit the imported tests. ![Collection Mapping in Testsigma](https://s3.amazonaws.com/static-docs.testsigma.com/new_images/projects/overview/collectionsmapped_ts.gif)
 
 ---
 
 ## **Import Postman Environments**
 
-Import your Postman Environments to Testsigma. Follow below the simple steps:
+Import your Postman Environments to Testsigma in JSON or Zipped format. Follow below the simple steps:
 
 1. In Testsigma, Navigate to **Settings** > **Imports and Exports**. ![Navigate to Import & Export](https://s3.amazonaws.com/static-docs.testsigma.com/new_images/projects/overview/ie_ts.png)
 2. Click the **Import Postman Collections** button on the top right screen. ![Select Import Postman Collections](https://s3.amazonaws.com/static-docs.testsigma.com/new_images/projects/overview/import_pm_ts.png)
@@ -78,7 +92,7 @@ Import your Postman Environments to Testsigma. Follow below the simple steps:
 4. Select **Import Location** to choose the respective project, application, and version you're trying to import under **Select Project**, **Select Application**, and **Select Version** from the drop-down menu. ![Import Environment File](https://s3.amazonaws.com/static-docs.testsigma.com/new_images/projects/overview/importlocation_envi_ts.png)
 5. Click **Start Importing** to transfer Environments into Testsigma. ![Start Importing Environment File](https://s3.amazonaws.com/static-docs.testsigma.com/new_images/projects/overview/startimporting_envi_im_ts.png)
 6. Testsigma will notify you via email (to the email address you used to log into Testsigma) once it completes importing Environments. Click **Here** to view the imported collections in Testsigma. ![Email Notification Environments](https://s3.amazonaws.com/static-docs.testsigma.com/new_images/projects/overview/notify_envi_import_ts.png)
-7. After completing the import process, Testsigma maps Environments, Variables into the Environment, allowing you to view and edit the imported tests. ![Environment Mapping in Testsigma](https://s3.amazonaws.com/static-docs.testsigma.com/new_images/projects/overview/collectionsmapped_envi_ts.png)
+7. After completing the import process, Testsigma maps **Environments**, **Variables** into the **Environments**, allowing you to view and edit the imported tests. ![Environment Mapping in Testsigma](https://s3.amazonaws.com/static-docs.testsigma.com/new_images/projects/overview/collectionsmapped_envi_ts.png)
 
 [[info | NOTE:]]
 | The Collections and Environments file that was imported subsequently can be verified by downloading it.
