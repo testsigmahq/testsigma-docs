@@ -1,8 +1,8 @@
 ---
 title: "Post-installation checklist for On-premise setup"
-order: 26.3
+order: 26.4
 page_id: "Post-installation checklist"
-metadesc: "Post-installation checklist for On-premise setup by Testsigma | Refer and verufy this checklist after On-premise setup is done by Testsigma"
+metadesc: "Post-installation checklist for On-premise setup by Testsigma | Refer and verify this checklist after On-premise setup is done by Testsigma"
 noindex: false
 search_keyword: ""
 warning: false
