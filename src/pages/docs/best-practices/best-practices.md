@@ -3,7 +3,7 @@ title: "Best Practices to Ensure Tests Follow Testsigma Automation Standards"
 page_title: "Best Practices to follow Testsigma Automation Standards"
 metadesc: "Test Automation empowers quality engineers to test more in less time and with minimal effort. This article discusses the best practices to ensure tests follow Testsigma automation standards "
 noindex: false
-order: 22.3
+order: 27.1
 page_id: "Best Practices to follow Testsigma Automation Standards"
 warning: false
 ---
@@ -11,6 +11,8 @@ warning: false
 <br>
 
 Testing applications is a continuous process. Whenever any code is changed for the application under test, we should test different workflows in various machine configurations and operating systems. Manually testing all the possible combinations and user journeys requires enormous testing effort, which is associated with higher costs and time. Test Automation empowers quality engineers to test more in less time and with minimal effort. However, the reusability of automated cases contributes to this and makes the whole testing process faster. To set up all kinds of repetitive, thorough, and data-intensive tests for success, there are several test automation best practices that you need to be aware of.
+
+--- 
 
 ## **Below are the Best Practices to Ensure Tests Follow Testsigma's Automation Standards**
 - Write small, atomic, independent, and autonomous test cases.
