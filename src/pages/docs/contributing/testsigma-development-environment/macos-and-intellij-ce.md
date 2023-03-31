@@ -1,10 +1,10 @@
 ---
-title: "macOS and IntelliJ Ultimate Edition"
-page_title: "Testsigma Development Environment with macOS and IntelliJ Ultimate Edition"
-metadesc: "This article discusses how to setup Testsigma  Development Environment to contribute to Testsigma open source | Learn how to setup Testsigma  Development Environment"
+title: "macOS and IntelliJ Community Edition"
+page_title: "Testsigma Development Environment with macOS and IntelliJ Community Edition"
+metadesc: "This article discusses how to setup Testsigma Development Environment with macOS and IntelliJ Community Edition | Learn how to setup Testsigma Development Environment"
 noindex: false
-order: 22.2
-page_id: "Testsigma Development Environment with macOS and IntelliJ Ultimate Edition"
+order: 22.1
+page_id: "Testsigma Development Environment with macOS and IntelliJ Community Edition"
 warning: false
 contextual_links:
 - type: section
@@ -28,6 +28,9 @@ contextual_links:
   name: "MYSQL"
   url: "#mysql"
 - type: link
+  name: "Angular CLI"
+  url: "#angular-cli"
+- type: link
   name: "Setup"
   url: "#setup"
 ---
@@ -36,15 +39,16 @@ contextual_links:
 
 ## **Pre-Requisites**
 - **OS:** macOS / Linux
-- **IDE:** IntelliJ IDE Editor - Ultimate Edition
+- **IDE:** IntelliJ IDE Editor - Community Edition
 
 <br>
 
 ## **Pre-Requisite Software and Service Installation**
 - Open JDK 11
-- npm and nodejs (>= 12)
 - Apache httpd
+- npm and nodejs (>= 12)
 - mysql5.7
+- angular CLI 12
 
 <br>
 
@@ -83,6 +87,7 @@ brew install httpd
 ```
 sudo brew services start httpd 
 ```
+
 <br>
 
 ## **MySQL**
@@ -106,6 +111,19 @@ mysql -u root -p
 
 <br>
 
+## **Angular CLI**
+- Install angular CLI using the following command from the terminal.
+```
+sudo npm install -g @angular/cli@12
+```
+
+- Once the installation is complete, confirm the installation by checking the version using the below command:
+```
+ng --version
+```
+
+<br>
+
 ## **Setup**
 - Download the source from GitHub: git clone https://github.com/Testsigmahq/testsigma and place it on your system. The downloaded source will have the below folders.
     - agent
@@ -115,78 +133,83 @@ mysql -u root -p
     - server
     - ui
 - Now, open IntelliJ IDE and create a new JAVA project. 
-- The next step is to import the automator, agent, agent launcher, server, and ui as individual modules in the project created.
-
-- **How to import modules in IntelliJ IDE:**
-    - **Go to File → Project structure**
-    - In the Project structure window, you can see modules under the project settings section. 
-    - Click on the modules tab and click the + icon and select import module. 
-    ![Import Module](https://s3.amazonaws.com/static-docs.testsigma.com/new_images/projects/applications/modules.png)
-    - Now select each folder i.e. automator, agent, agent-launcher, server, ui, and import them. 
-    - While importing modules (automator, agent, agent-launcher, server), select the option **Import module from external module** and then choose **Maven** and click on **create**.
-    ![Maven](https://s3.amazonaws.com/static-docs.testsigma.com/new_images/projects/applications/maven.png)
-    - Only while importing **ui** as a module, choose the option **Create module from existing sources** and click on **Next**.
-        - The framework will be detected as **angular**
-        - Click on **Create**
-        ![Framework](https://s3.amazonaws.com/static-docs.testsigma.com/new_images/projects/applications/angular.png)
-
+- The next step is to import the automator, agent, agent launcher and server as individual modules in the project created.
+- ## **How to import modules in IntelliJ IDE:**
+- Go to **File → Project structure**.
+- In the Project structure window, you can see modules under the project settings section.
+- Click on the modules tab and click the + icon and select import module.
+![Import Module](https://s3.amazonaws.com/static-docs.testsigma.com/new_images/projects/applications/importmodule.png)
+- Now select each folder i.e. automator, agent, agent-launcher, and server, and import them. 
+- Select the option **Import module from external module** and then choose **Maven** and click on **create**.
+![Maven](https://s3.amazonaws.com/static-docs.testsigma.com/new_images/projects/applications/maven.png)
 - Build each module using the command mentioned, in the following order:
-    - automator: ***mvn clean install***
-    - agent: ***mvn clean install***
-    - agent-launcher: ***mvn clean install***
-    - server: ***mvn clean install***
-    - ui: ***npm install***
+    - **automator:** ***mvn clean install***
+    - **agent:** ***mvn clean install***
+    - **agent-launcher:** ***mvn clean install***
+    - **server:** ***mvn clean install***
 
-- **Downloading required tools:**
+- **Building ui module:**
+    - Open terminal 
+    - Go to the **ui** folder location in the terminal and give the below command:
+    ```
+    npm install
+    ```
+- Downloading required tools:
     - Create a folder **testsigma_os** in the home directory. This can be done by running the below command from the terminal:
     ```
-    mkdir $HOME/.testsigma_o
+    mkdir $HOME/.testsigma_os
     ```
     - Download the Android, Appium, JRE, and iOS tools from this URL and store them in the above folder created. Make sure you extract the zip and place the contents in the folder created.
-    For mac Os you need to give explicit permission to remove the quarantine attribute. You can do this by running,
+    - For mac Os you need to give explicit permission to remove the quarantine attribute. You can do this by running,
     ```
     sudo xattr -d -r com.apple.quarantine $HOME/.testsigma_os/
     ```
     - Also, if you have already downloaded the Testsigma Agent, you can copy Android, Appium, drivers, and iOS and put the same on testsigma_os.
 
 - **HTTPD Config Changes:**
-    - From the finder window on Mac, press **command+shift+g** and mention the path ***opt/homebrew/etc/httpd***
-    - Create a new file called **testsigma-os.conf**. Enter the below contents in it and save the file.
+- From the finder window on Mac, press **command+shift+g** and mention the path ***opt/homebrew/etc/httpd***
+- Create a new file called **testsigma-os.conf**. Enter the below contents in it and save the file.
     ```
     RewriteEngine On
+    
     RewriteCond %{HTTP_HOST} "devos.testsigma.com"
     RewriteCond %{REQUEST_URI} "^/ui/"
     RewriteRule .* http://localhost:4202%{REQUEST_URI} [P]
     #ProxyPassReverse .* "http://devos.testsigma.com/ui"
-    RewriteCond %{HTTP_HOST} "devos.testsigma.com"
+    
+    RewriteCond %{HTTP_HOST} "devos.testsigma.com
     RewriteCond %{REQUEST_URI} "^/assets/"
     RewriteRule .* http://localhost:4202%{REQUEST_URI} [P]
     #ProxyPassReverse .* "http://devos.testsigma.com/assets"
+    
     RewriteCond %{HTTP_HOST} "devos.testsigma.com"
     RewriteRule .* http://localhost:9090%{REQUEST_URI} [P]
     #ProxyPassReverse .* "http://devos.testsigma.com/"
+    
     RewriteCond %{HTTP_HOST} "devos.testsigma.com"
     RewriteCond %{REQUEST_URI} "^/ui"
     RewriteRule .* http://localhost:4202%{REQUEST_URI} [P]
     #ProxyPassReverse .* "http://devos.testsigma.com/ui"
     ```
 
-- Open **httpd.conf** present in the same path and add the below content at the bottom of the file and save it.
-    - Include ***/opt/homebrew/etc/httpd/testsigma-os.conf***
+    - Open “httpd.conf” present in the same path and add the below content at the bottom of the file and save it.
+    ```
+    Include /opt/homebrew/etc/httpd/testsigma-os.conf
+    ```
+    - Restart the httpd services using the following command from the terminal.
+    ```
+    brew services restart httpd
+    ```
 
-- Restart the httpd services using the following command from the terminal
-    - ***brew services restart httpd***
-
-### **Setting up UI, Server, and Agent component as a service**
-Once the above configuration is done, we need to add UI, Server, and Agent as a service so that the entire application runs.
+## **Setting up UI, Server, and Agent component as a service:**
 - **Setting up server component as a service:**
     - Go to **Run → Edit Configurations**
     - Select + Icon in the Run/Debug Configurations window
-    - Select Sprint Boot as the configuration type
+    - Select **Application** as the configuration type
     - Enter the name as **server**.
-    - Select Java 11 as the JDK version and **testsigma-agent** as the classpath
+    - Select Java 11 as the JDK version and **testsigma-agent** as the classpath.
     - Enter **com.testsigma.agent.TestsigmaWebApplication** as the class to be compiled.
-    - If the Environment Variables field is not visible, Click the **Modify option** and select **Environment Variables**.
+    - If the Environment Variables field is not visible, Click the **Modify option** and select **Environment Variables**
         - Enter the below values for **Environment Variables**.
         ```
         TESTSIGMA_SERVER_URL=http://devos.testsigma.com;TS_DATA_DIR=/Users/{USERHOMEDIR}/Documents/server-os-data
@@ -198,7 +221,7 @@ Once the above configuration is done, we need to add UI, Server, and Agent as a 
     - Click **Ok**
     - The server module is added as a service now.
     - Reference:
-    ![Reference](https://s3.amazonaws.com/static-docs.testsigma.com/new_images/projects/applications/ref.png)
+    ![Server](https://s3.amazonaws.com/static-docs.testsigma.com/new_images/projects/applications/server.png)
 
 - **Setting up agent component as a service:**
     - Go to **Run → Edit Configurations**
@@ -218,32 +241,24 @@ Once the above configuration is done, we need to add UI, Server, and Agent as a 
    - Click **Ok**
    - The agent module is added as a service now.
    - Reference:
-   ![Rerun/Debug](https://s3.amazonaws.com/static-docs.testsigma.com/new_images/projects/applications/rundebug.png)
+   ![Agent Module as a Service](https://s3.amazonaws.com/static-docs.testsigma.com/new_images/projects/applications/agentmoduleasservice.png)
 
-- **Setting ui agent component as a service:**
-    - Go to **Run → Edit Configurations**
-    - Select + Icon in the Run/Debug Configurations window
-    - Select **npm** as the configuration type
-    - Enter the name as **ui**
-    - For **package.json**: select the **package.json** file present in the ui folder from the downloaded source.
-    - Select **run** for command and **start** for Scripts.
-    ![UI](https://s3.amazonaws.com/static-docs.testsigma.com/new_images/projects/applications/ui.png)
-    - Click **Ok**
-    - ui is added as a service now.
+- **Start the services:**
+    - **ui**
+        - Open the terminal
+        - Go to the **ui** folder location and give the below command:
+            ```
+            npm start
+            ```
+    - Server and agent can be started from the services tab in IntelliJ.
 
-- **Running the application as a service:**
-    - You can now start the services one by one from the services tab in IntelliJ.
-        - ui
-        - server
-        - agent
-        ![Services](https://s3.amazonaws.com/static-docs.testsigma.com/new_images/projects/applications/services.png)
-
-- **Mapping  localhost to devos.testsigma.com:**
-    - From the finder window on Mac, press **command+shift+g** and mention the path ***private/etc/hosts***
-    - Open the hosts file and add an entry as below:
-    ```
-    127.0.0.1       devos.testsigma.com
-    ```
+- **Map localhost to devos.testsigma.com:** 
+    - From the finder window on Mac, press “command+shift+g” and mention the path “private/etc/hosts”
+    - Open the host's file and add an entry as below:
+        ```
+        127.0.0.1       devos.testsigma.com
+        ```
 
 - **You can now access the server at http://devos.testsigma.com/ui/**
-![Access Testsigma](https://s3.amazonaws.com/static-docs.testsigma.com/new_images/projects/applications/testsigma.png)
+![Access Server](https://s3.amazonaws.com/static-docs.testsigma.com/new_images/projects/applications/testsigma.png)
+
