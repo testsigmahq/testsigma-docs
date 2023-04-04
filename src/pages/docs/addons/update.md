@@ -20,3 +20,6 @@ The only difference is that the add-on will already be present in the My Add-ons
 See the demonstration in the gif below:
 
 ![Updating Testsigma add-on](https://docs.testsigma.com/images/addon-update/update-testsigma-add-on.gif.gif)
+
+After updating the addon file, update the version in your pom file as well. Refer to the image below for better understanding.
+![Version Update](https://s3.amazonaws.com/static-docs.testsigma.com/new_images/projects/applications/addon.png)
