@@ -53,9 +53,9 @@ This document contains information about adding while loop using testsigma’s t
 
 ![create button to create a test case to create a while loop in Testsigma](https://s3.amazonaws.com/static-docs.testsigma.com/new_images/test-cases/step-types/while-loop/create-button-test-cases-while-loop.png)
 
- 2. Enter a name, a description, and choose the different options available in the Advanced options menu as required
+ 2. Enter a **name, a description,** and choose the different options available in the **Advanced options** menu as required
 
- 3. Click create. This will take you to the test case details page
+ 3. Click on **Create**. This will take you to the test case details page
 
  4. Create test steps to navigate to the URL. Example: <https://www.spotify.com/us/signup>
 
@@ -67,11 +67,11 @@ This document contains information about adding while loop using testsigma’s t
 
  6. This will open up a side panel
 
- 7. In this side panel, click on While loop
+ 7. In this side panel, click on **While loop**.
 
 ![step type while loop when creating a while loop in Testsigma](https://docs.testsigma.com/images/while-loop/step-type-while-loop.png)
 
- 8. This will add a while condition in your test step
+ 8. This will add a while condition in your test step.
 
 ![types of while loop that can be added when creating a while loop in Testsigma](https://docs.testsigma.com/images/while-loop/types-of-while-loop.png)
 
@@ -81,11 +81,11 @@ This document contains information about adding while loop using testsigma’s t
 
  10. The Actions that we have added is: While element <span Style="color:green">Sign up with Facebook</span> is <span style="color:blue">visible</span> on the page.
 
- 11. Click on Add Step to add more steps under the While condition which will execute if the condition is true. The “Add Step” button will be visible once you hover over the while condition.
+ 11. Click on **Add Step** to add more steps under the While condition which will execute if the condition is true. The **Add Step** button will be visible once you hover over the while condition.
 
 ![add conditions when creating a while loop in Testsigma](https://docs.testsigma.com/images/while-loop/add-conditions-for-while-loop.png)
 
- 12. Click on the Add step and add the Action   **Click on Element**.
+ 12. Click on the **Add step** and add the Action **Click on Element**.
 
 This will create a test step number 2.1 which will be under step 2. This is a sub-step.
 
@@ -100,8 +100,9 @@ In the test steps details overlay provide the following details:<br>
 </ul>
 
 ![Add number of iterations](https://s3.amazonaws.com/static-docs.testsigma.com/new_images/test-management/test-plans/overview/while_loop_test_step_2.png)
- 13. You can continue to add test steps numbered as either 2.2, 2.3, or as 3,4, etc
-The test steps numbers 2.2, 2.3, etc will be executed only if the “while condition” is processed as true
+
+ 14. You can continue to add test steps numbered as either 2.2, 2.3, or as 3,4, etc
+The test steps numbers 2.2, 2.3, etc will be executed only if the **while condition** is processed as true
 
 The GIF below shows how While loop test steps are created.
 
@@ -185,3 +186,11 @@ Repeat the steps in the first section of this document from Step 5.
 2. **if**: The test data set values, from a test data profile being iterated, can be compared within an if condition too. Below screenshot shows the NLP (The NLP can be added as a part of add-on “String Compare”. You can find the add-ons to use here: <https://testsigma.com/addons>):
 
 ![the verify if NLP that is available with the addon String Compare](https://s3.amazonaws.com/static-docs.testsigma.com/new_images/test-cases/step-types/step-group/verify-with-if-with-string-compare.png)
+
+[[info | **NOTE**:]]
+| - If the step and condition both pass, it will show **Condition True** on the test step. 
+|![Condition True](https://s3.amazonaws.com/static-docs.testsigma.com/new_images/projects/applications/ctwhileloop.png)
+|- In case of step failure also it will show **Condition False** on the test step.
+|![Condition False](https://s3.amazonaws.com/static-docs.testsigma.com/new_images/projects/applications/cfwhileloop.png)
+|- If the condition fails and step passes, it will show **Condition False** on the test step.  
+|![Both](https://s3.amazonaws.com/static-docs.testsigma.com/new_images/projects/applications/whileloopboth.png)
