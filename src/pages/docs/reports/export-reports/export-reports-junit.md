@@ -1,8 +1,8 @@
 ---
-title: "Export Test Execution Reports in XML (Junit) Format"
-metadesc: "How to export the result of test reports in XML (junit) format in Testsigma"
+title: "Export Reports - JUnit"
+metadesc: "This article discusses in detail on how to export the result of test reports in JUint format in Testsigma | Learn how to download test execution reports in JUnit format"
 noindex: false
-order: 13.28
+order: 13.30
 page_id: "Export Test Execution Reports in XML (Junit) Format"
 warning: false
 contextual_links:
