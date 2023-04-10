@@ -1,8 +1,8 @@
 ---
 title: "Export Reports - PDF"
-metadesc: "How to export the result of test reports in PDF format in Testsigma"
+metadesc: "This article discusses in detail on how to export the result of test reports in PDF format in Testsigma | Learn how to download test execution reports in PDF format"
 noindex: false
-order: 13.30
+order: 13.32
 page_id: "Export Test Execution Reports in PDF Format"
 warning: false
 contextual_links:

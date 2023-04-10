@@ -1,8 +1,8 @@
 ---
-title: "Export Test Execution Report in Excel Format"
-metadesc: " How to export the result of test reports in excel format in Testsigma."
+title: "Export Reports - XLS"
+metadesc: "This article discusses in detail on how to export the result of test reports in XLS format in Testsigma | Learn how to download test execution reports in XLS format"
 noindex: false
-order: 13.29
+order: 13.31
 page_id: "Export Test Execution Report in Excel Format"
 warning: false
 contextual_links:
