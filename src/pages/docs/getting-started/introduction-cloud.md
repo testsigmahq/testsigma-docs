@@ -51,7 +51,7 @@ The easiest way to get started is by[ signing up for an account on our cloud-hos
  
 ---
 ##**Getting help**
-  * Learn how to use, build, and extend the platform. Visit [documentation.](https://testsigma.com/docs/getting-started/introduction-cloud/)
+  * Learn how to use, build, and extend the platform. Visit [documentation.](https://testsigma.com/docs/)
 
   * Connect with product experts on the team and in the Community on our [Discord.](https://discord.com/invite/5caWS7R6QX)
 

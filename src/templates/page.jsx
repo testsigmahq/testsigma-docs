@@ -140,7 +140,7 @@ export default ({ data, pageContext }) => {
                             <a className="border-b-2 border-green-500 btn btn-ghost btn-sm pr-2 rounded-btn text-green-600">
                             Docs
                             </a>
-                            <a className="btn btn-ghost btn-sm rounded-btn ml-10" href={'/tutorials/getting-started/automate-web-applications/'}>
+                            <a className="btn btn-ghost btn-sm rounded-btn ml-10" href={'/tutorials/'}>
                             Tutorials
                             </a>
                             <a className="btn btn-ghost btn-sm rounded-btn ml-10" target={'_blank'} href={'https://github.com/Testsigmahq/testsigma/'}>
