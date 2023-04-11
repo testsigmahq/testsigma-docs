@@ -1,7 +1,7 @@
 ---
 title: "Runtime Test Data Usage"
 page_title: "Runtime Test Data in Testsigma"
-metadesc: "How to create and use session-specific runtime test data for storing temporary values as test data and performing validation using the stored data"
+metadesc: "Runtime test data in Testsigma stores data obtained during the execution of Test Cases. Learn how to store runtime test data with example use cases."
 noindex: false
 order: 5.114
 page_id: "Runtime Test Data Usage"
@@ -28,7 +28,7 @@ Assume that your Test Case involves copying a piece of data from one page and ve
 The same applies to any case where data needs to be stored earlier and used in a later step.
 
 ---
-##**Example Use Cases**
+## **Example Use Cases**
 
 1. **Bill payment:** You want to save the system-generated Bill ID and reuse it in the next step for verification after the payment is successful.
 
@@ -46,7 +46,7 @@ The same applies to any case where data needs to be stored earlier and used in a
 |**Usage for retrieving the value**|**Enter $[ssid] in the SSIDNumber field**|
 
 ---
-##**How to use Runtime Test Data in test steps**
+## **How to use Runtime Test Data in test steps**
 
 To use runtime parameters in test steps, we will need to store actions to save data in the runtime variable. In the example above, you can see that we have used:
 
@@ -88,7 +88,7 @@ Below is a gif demonstrating the execution of above 2 steps.
 
 
 ---
-##**Related Addons**
+## **Related Addons**
 
 There are 2 add-ons available to the Testsigma community, that extend the functionality of runtime variables in Testsigma: 
 
@@ -111,14 +111,3 @@ You can get above addons here: [Testsigma Addons](https://testsigma.com/addons).
 To know more about addons, read here: [What Is An Addon?](https://testsigma.com/docs/addons/what-is-an-addon/)
 
 ---
-
-
-
-
-
-
-
-
-
-
-

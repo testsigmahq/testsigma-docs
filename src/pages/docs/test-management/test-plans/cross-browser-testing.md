@@ -1,7 +1,7 @@
 ---
 title: "Test Plan: Cross browser testing"
 page_title: "Cross Browser Testing : Test Plan"
-metadesc: "How to create a Test Plan with ‘Testing Type’ as ‘Cross-Browser Testing’."
+metadesc: "Test the functionality of your web application in Testsigma across all platforms. Test your application on multiple browsers and versions easily."
 noindex: false
 order: 8.26
 page_id: "Test Plan: Cross Browser Testing"

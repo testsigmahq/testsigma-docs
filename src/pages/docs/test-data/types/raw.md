@@ -1,6 +1,6 @@
 ---
 title: "Test Data - Plain Text"
-metadesc: "How to use plain text test data in a test case in Testsigma."
+metadesc: "Type anything you want as test data input to your test cases in Testsigma. Learn how to use plain text as test data type for your test cases in Test Automation"
 noindex: false
 order: 5.112
 page_id: "Test Data - Plain Text"
@@ -21,7 +21,7 @@ Simply erase the “test data” placeholder and choose “Plain Text” to type
 Plain Text also serves as a hard-coded input. 
 
 ---
-##**When do you use Plain Text?**
+## **When do you use Plain Text?**
 
 Plain Text or Raw data is used when you want to hardcode an input in your test.
 In cases where the input data is unique and doesn’t have to be a part of a test data profile or any other test data types, we use plain text data.
@@ -69,7 +69,7 @@ In conclusion, Plain Text is simply the hard-coded text that you can use in your
 2. Create a test case by entering a name, description and choosing options from the advanced menu
 3. Click Create
 
-![ create new test case](https://docs.testsigma.com/images/raw/create-new-test-case.png)
+![create new test case](https://docs.testsigma.com/images/raw/create-new-test-case.png)
 
 4. Testsigma will automatically navigate you to the test case details/test steps page
 5. Here create the first step for navigating to the application
@@ -82,7 +82,3 @@ In conclusion, Plain Text is simply the hard-coded text that you can use in your
 ![choose plain text option](https://docs.testsigma.com/images/raw/choose-plain-text-option.png)
 
 8. Enter the text of your choice
-
-
-
-

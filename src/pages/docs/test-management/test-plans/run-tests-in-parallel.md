@@ -1,6 +1,6 @@
 ---
 title: "Run tests in parallel"
-metadesc: "How to run tests in parallel in a test plan in Testsigma."
+metadesc: "Learn how to run tests in parallel in Testsigma, which improves your testing efficiency. Running tests in parallel speeds up test execution and saves time."
 noindex: false
 order: 8.25
 page_id: "Run Tests in Parallel"

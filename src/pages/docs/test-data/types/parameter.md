@@ -1,6 +1,6 @@
 ---
 title: "Test Data - Parameter"
-metadesc: "How to use test data of type parameter in a test case in Testsigma"
+metadesc: "Use parameter test data input from your test data profile in Testsigma. Learn how to use parameter from you test data profile for Test Automation"
 noindex: false
 order: 5.113
 page_id: "Test Data - Parameter"

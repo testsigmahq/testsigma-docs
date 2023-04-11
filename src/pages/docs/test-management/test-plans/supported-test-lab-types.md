@@ -1,6 +1,6 @@
 ---
 title: "Test Lab Types"
-metadesc: "Various types of test labs that can be integrated with your automated"
+metadesc: "Execute your tests on different Test Lab Types with Testsigma application. Choose from Testsigma Labs, Local Devices, BrowserStack, Sauce Labs, and more."
 noindex: false
 order: 8.29
 page_id: "Test Lab Types"
