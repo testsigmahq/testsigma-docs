@@ -35,7 +35,7 @@ Testsigma Community Edition is an open-source end-to-end test automation platfor
 
 ---
 ##**Getting help** 
-* Learn how to use, build, and extend the platform. Visit [documentation](https://testsigma.com/docs/getting-started/introduction-cloud/).
+* Learn how to use, build, and extend the platform. Visit [documentation](https://testsigma.com/docs/).
 * Connect with product experts on the team and in the Community on our [Discord](https://discord.com/invite/5caWS7R6QX).
 * Troubleshooting problems? Report bugs as [Github issues](https://github.com/testsigmahq/testsigma/issues).
 * Refer to our [FAQ ](https://testsigma.com/docs/getting-started/faqs/) section for answers to commonly asked questions.
