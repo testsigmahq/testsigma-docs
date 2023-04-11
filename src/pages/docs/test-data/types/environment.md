@@ -1,7 +1,7 @@
 ---
 title: "Environment Test Data"
 page_title: "Environment Test Data in Testsigma"
-metadesc: "What is Environment test data and how to use it in Testsigma"
+metadesc: "Learn how to use environment type test data that is specific to the environment in which the application is being tested | Environment test data type in Testsigma"
 noindex: false
 order: 5.24
 page_id: "Environment Test Data"

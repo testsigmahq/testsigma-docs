@@ -1,7 +1,7 @@
 ---
 title: "Phone number type test data"
 page_title: "Phone Number type Test Data in Testsigma"
-metadesc: "How to use Phone Number Test Data type to automate test scenarios that contain two factor authentication"
+metadesc: "Type phone number data as test data input to your test cases in Testsigma. Learn how to use phone number as test data type for your test cases in Test Automation"
 noindex: false
 order: 5.118
 page_id: "Phone Number type Test Data"
