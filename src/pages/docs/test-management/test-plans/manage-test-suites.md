@@ -1,6 +1,6 @@
 ---
 title: "Manage test suites in test plans"
-metadesc: "How to add, edit and delete test suites in a test plan in Testsigma. "
+metadesc: "Managing test suites in Test Plans makes test execution more efficient. Learn how to add, remove, and organize test suites in test plans in Testsigma."
 noindex: false
 order: 8.23
 page_id: "Manage Test Suites in Test Plans"

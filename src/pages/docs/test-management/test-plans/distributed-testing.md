@@ -1,7 +1,7 @@
 ---
 title: "Distributed testing"
 page_title: "Distributed Testing in Testsigma"
-metadesc: " How to create a Test Plan with ‘Testing Type’ as ‘Distributed Testing’. "
+metadesc: "Improve your testing efficiency with Testsigma's distributed testing. Learn how to execute tests across multiple machines and increase test coverage quickly."
 noindex: false
 order: 8.27
 page_id: "Distributed Testing "

@@ -1,6 +1,6 @@
 ---
 title: "Test Suites"
-metadesc: "How to list, create, edit and delete a Test Suite in Testsigma."
+metadesc: "Learn how to create, edit, manage, and run test suites in Testsigma. This documentation helps you organize test cases and make test execution more efficient."
 noindex: false
 order: 8.11
 page_id: "Test Suites"
