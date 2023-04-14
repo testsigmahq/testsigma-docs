@@ -46,6 +46,6 @@ Here is a quick gif that demonstrates how to group reports on the basis of test 
 ## **These actions are:**
 1. **Search the results:** the run results can be filtered by name here
 2. **Rerun the failed test cases or rerun all test cases:** You can click on any of the options to initiate reruns of the test cases accordingly. Read more about [test reruns](https://testsigma.com/docs/reports/runs/rerun/).
-3. **Export the results:** Here, you can export the run results in the form of xls or xml. Read more about [exporting as xls](https://testsigma.com/docs/reports/runs/export-report-xls/) and [exporting as xml](https://testsigma.com/docs/reports/runs/export-report-junit/).
+3. **Export the results:** Here, you can export the run results in the form of xls or xml. Read more about [exporting as xls](https://testsigma.com/docs/reports/export-reports/export-report-xls/) and [exporting as xml](https://testsigma.com/docs/reports/export-reports/export-reports-junit/).
 4. **Filter the results:** You can filter the results by different criteria that appear on click on the filter button, read more about it [here](https://testsigma.com/docs/reports/runs/filter-custom-reports/).
 5. **Display details of the result:** There is a toggle button in the end for more run details.
