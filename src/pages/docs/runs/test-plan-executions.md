@@ -38,7 +38,7 @@ This article guides the user to prepare and execute test plans in Testsigma plat
 ---
 
 
-##**Prerequisites**
+## **Prerequisites**
 
 You should be familiar with the following:
 
@@ -68,7 +68,7 @@ You should be familiar with the following:
 
 There would be instances when you might need to execute your test plan only partially instead of executing the complete test plan. With Testsigma, you can do that. You can filter the tests based on some attributes or select the test suites that you’d like to include or exclude for test execution, and then, only execute the selected test cases.
 
-Lets see how we can do that:
+**Lets see how we can do that:**
 
 1. Go to the test plan that you want to execute partially. You can either go to the test plan list page. The option for partial run for a test plan on a test plan list page would be available as below:
 
@@ -82,13 +82,13 @@ Lets see how we can do that:
 
 ![Partial test run layover](https://s3.amazonaws.com/static-docs.testsigma.com/new_images/runs/test-plan-executions/partial_test_plan_run_overlay.png)
 
-Below are the options you see:
+**Below are the options you see:**
 
 1. **Include or Exclude test suites** : You can include or exclude the test suites from the partial test run by selecting the radio button **Include** or **Exclude**.
 2. **Test suites**: Specify the test suites that should be included from the dropdown.
 
 
-2. **Test case filters**: You can identify the test cases to be included in the test suites using the below filters:
+3. **Test case filters**: You can identify the test cases to be included in the test suites using the below filters:
     - **Labels**: Filter the test cases according to the labels assigned to them.
     - **Type**: Filter the test cases according to the type of test cases there are. 
     
@@ -107,6 +107,13 @@ Once you have applied the filters, you can:
 - Save the configuration as a favourite for later use by clicking on the **Save As Favorite** button.
 - Start the execution of the filtered test cases by clicking on the **Run Now** button.
 
+
+[[info | NOTE:]]
+|- The Runtime variables during the initial run of the test will be stored and available for future runs. In case of a test failure and the need to re-run the test, the runtime variables from the initial run will automatically apply.
+|- If you enter a variable name without storing the value, you will see the following error in the run report. Make sure to always store the value into a variable before using it.
+
+[[info | Error Message:]]
+| No data available for runtime test data variable %s. Refer previous Test Steps in this Test Case or Test Steps in other Test Cases to know the variable names saved by using store(naturalText) action Test Steps. Go to https://testsigma.com/docs/test-data/types/runtime/ to know more about runtime test data.";
 
 
 ---
