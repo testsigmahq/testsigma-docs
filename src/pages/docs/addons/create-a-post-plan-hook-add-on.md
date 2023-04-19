@@ -1,6 +1,6 @@
 ---
 title: "Create a Post Plan Hook add-on in Testsigma"
-metadesc: "How to Create a Post Plan Hook add-on in Testsigma"
+metadesc: "This article discusses how to create an addon for Post Plan Hook in Testsigma app. These hooks run after the execution of a test plan irrespective of the result"
 noindex: false
 order: 17.8
 page_id: "Create a Post Plan Hook add-on in Testsigma"
@@ -31,7 +31,8 @@ Testsigma supports **Post Plan Hooks**, which are user-described actions via add
 
 Users can customise the actions within these add-ons to fit their needs and link them through test plan settings.
 
-You should already know about Testsigma add-ons. See:
+To create addons, you should already know about Testsigma addons. <br>
+Refer to:
 - [What is an add-on?](https://testsigma.com/docs/addons/what-is-an-addon/)
 - [Prerequisites for creating an add-on.](https://testsigma.com/docs/addons/pre-requisite-to-create-addon/)
 

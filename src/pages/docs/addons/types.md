@@ -1,6 +1,6 @@
 ---
 title: "Types of add-ons in Testsigma"
-metadesc: "Ways in which you can extend automation in Testsigma using add-ons"
+metadesc: "This article discusses the ways in which you can extend automation in Testsigma using add-ons | Learn the types of addons you can create in Testsigma"
 noindex: false
 order: 17.7
 page_id: "Types of add-ons in Testsigma"
@@ -19,7 +19,7 @@ contextual_links:
 You should already know about Testsigma add-ons. See: [What is an add-on?](https://testsigma.com/docs/addons/what-is-an-addon/) | [Prerequisites for creating an add-on](https://testsigma.com/docs/addons/pre-requisite-to-create-addon/).
 
 ---
-##In Testsigma you can create add-ons for the following use case:
+## In Testsigma you can create add-ons for the following use case:
 
 1. **Custom Actions:** Testsigma has a comprehensive, built-in actions that lets you automate most user actions in simple English. But sometimes you may need to automate actions unique to your AUT. You can build your own actions and automate those unique actions using add-ons. See: [How to build a custom action in add-ons](https://testsigma.com/tutorials/addons/how-create-addons-actions/).
 

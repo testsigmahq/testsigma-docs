@@ -1,9 +1,9 @@
 ---
 title: "How to create OCR Text Extraction Addon"
-metadesc: "How to Create a Post Plan Hook add-on in Testsigma"
+metadesc: "This article discusses how to create an addon for OCR text extraction for Testsigma app | OCR Text Extraction addon will help you to extract texts from images"
 noindex: false
 order: 17.81
-page_id: "Create a Post Plan Hook add-on in Testsigma"
+page_id: "Create a OCR Text Extraction Addon in Testsigma"
 warning: false
 contextual_links:
 - type: section
@@ -14,6 +14,9 @@ contextual_links:
 - type: link
   name: "Overview of the method to extract text"
   url: "#overview-of-the-method-to-extract-text"
+- type: link
+  name: "Using OCR Addon in a Test case"
+  url: "#using-ocr-addon-in-a-test-case"
 ---
 
 <br>
@@ -42,3 +45,8 @@ In this article, we will discuss how to create an addon for OCR text extraction.
 
 [[info | **NOTE**:]]
 | All three methods mentioned above will return a List of OCRTextPoint objects, which represent the location of the text within the source.
+
+## **Using OCR Addon in a Test case**
+Once you publish the addon, the NLPs will be available in the application. Refer to the gif below to learn how to use the NLP in the Test Cases.
+
+![Addon GIF](https://s3.amazonaws.com/static-docs.testsigma.com/new_images/projects/applications/ocrtc.gif)
