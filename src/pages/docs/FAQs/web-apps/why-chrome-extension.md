@@ -1,6 +1,6 @@
 ---
 title: "About Testsigma Chrome extension"
-metadesc: "Test Recorder Chrome extension and how it works."
+metadesc: "Testsigma Chrome Extension let's you capture the elements and record the user actions as test steps. This article discusses about Testsigma Chrome Extensions"
 noindex: false
 order: 24.11
 page_id: "About Testsigma Chrome extension"

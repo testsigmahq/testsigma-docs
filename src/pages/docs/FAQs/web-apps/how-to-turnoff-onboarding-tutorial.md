@@ -1,6 +1,6 @@
 ---
 title: "How to turnoff onboading tutorial?"
-metadesc: "This article explains how to turnoff onboading tutorial."
+metadesc: "Tutorials help users understand how to get started with automation in Testsigma. This article discusses how to turn off onboarding tutorials"
 noindex: false
 order: 24.13
 page_id: "Turnoff onboading tutorial"
