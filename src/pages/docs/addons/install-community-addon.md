@@ -1,6 +1,6 @@
 ---
 title: "Installing Community Add-ons"
-metadesc: "How to install add-ons from the Add-ons Community Marketplace."
+metadesc: "Learn how to install add-ons from the Add-ons Community Marketplace | Addons from Testsigma Community Marketplace will help you boost your Test Automation"
 noindex: false
 order: 17.3
 page_id: "Installing Community Add-ons"
@@ -28,7 +28,7 @@ Navigate to the Add-ons page via **Dashboard > Add-ons**.
 Before proceeding, you should be familiar with [add-ons](https://testsigma.com/docs/addons/what-is-an-addon/) and [how to create Test Steps using simple English](https://testsigma.com/docs/test-cases/step-types/natural-language/).
 
 ---
-##**Installing an Add-on**
+## **Installing an Add-on**
 
 Click on the Community Tab and find the add-on you want to install. You can either browse through the list or search for an Add-on using a name or description.
 
@@ -37,7 +37,7 @@ Hover over one of the add-ons and click on the Install button. The selected add-
 ![Add-on details Popup when clicking on Add-on tile in Installed Add-ons tab](https://docs.testsigma.com/images/community-marketplace/add-on-details.gif.gif)
 
 ---
-##**Using an installed add-on**
+## **Using an installed add-on**
 
 Navigate to the Add-ons page via **Dashboard > Add-ons** and switch to the Installed Add-ons tab.
 

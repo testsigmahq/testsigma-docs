@@ -2,7 +2,7 @@
 title: "Updating a Testsigma add-on"
 order: 17.6
 page_id: "Update Addon"
-metadesc: "How to update your Testsigma add-ons"
+metadesc: "This article discusses how to update an addons for customized actions in Testsigma application | Updating addons will help you customize actions in Tests"
 noindex: false
 search_keyword: ""
 warning: false

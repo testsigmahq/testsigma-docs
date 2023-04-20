@@ -74,41 +74,11 @@ This script file contains commands to trigger the Testsigma Test Plan remotely.
 version: 1.0
 jobs:
  build:
-   docker:
-     # specify the version you desire here
-     - image: circleci/openjdk:8-jdk
-     - image: debian:stretch
-     # Specify service dependencies here if necessary
-     # CircleCI maintains a library of pre-built images
-     # documented at https://circleci.com/docs/2.0/circleci-images/
-     # - image: circleci/postgres:9.4
-   working_directory: ~/repo
-   environment:
-     # Customize the JVM maximum heap limit
-     MAVEN_OPTS: -Xmx3200m
    steps:
-     - checkout
-     # Download and cache dependencies
-     - restore_cache:
-         keys:
-           - v1-dependencies-{{ checksum "pom.xml" }}
-           # fallback to using the latest cache if no exact match is found
-           - v1-dependencies-
-     - run: mvn dependency:go-offline
-     - save_cache:
-         paths:
-           - ~/.m2
-         key: v1-dependencies-{{ checksum "pom.xml" }}
-     # run tests!
-     # Trigger test on Testsigma and wait until completion or timeout!
      - run: chmod a+x ./trigger_testsigma_tests_and_wait.sh
      - run: ./trigger_testsigma_tests_and_wait.sh
-    
-     # deploy!
-     - run: ./deploy_to_cloud.sh
-
 ```
-'
+
 Check the section that starts with the comment **run tests!**
 
 Set executable permission for the script file that triggers test run on Testsigma using the following:
