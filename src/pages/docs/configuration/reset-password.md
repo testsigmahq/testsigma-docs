@@ -3,7 +3,7 @@ title: "Reset Password"
 page_title: "How to reset password in Testsigma Community Edition"
 order: 19.4
 page_id: "Reset password"
-metadesc: "How to reset password in Testsigma Community Edition"
+metadesc: "Learn steps in detail on how to reset username and password in Testsigma Community Edition. Follow these steps to reset username and password."
 search_keyword: "Reset password"
 warning: false
 contextual_links:
@@ -87,14 +87,4 @@ contextual_links:
   5. Save the file
   
 <iframe src="https://docs.testsigma.com/videos/Troubleshooting/Setup/ResetPassword/second.mp4" width="300" height="200"></iframe>
-
-
-
-
-
-
-
-
-
-
 
