@@ -158,7 +158,13 @@ const data = [
         id: 26,
         title: "On Premise Setup",
         description: "On Premise setup prerequisites, steps to install & more.",
-        path: "/docs/product-updates/roadmap/",
+        path: "/docs/on-premise%20setup/prerequisites/",
+    },
+    {
+        id: 27,
+        title: "Best Practices",
+        description: "Best Practices to follow for Testsigma Automation",
+        path: "/docs/best-practices/best-practices/",
     },
 ];
 
