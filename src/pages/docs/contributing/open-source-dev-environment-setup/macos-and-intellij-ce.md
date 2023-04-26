@@ -137,7 +137,7 @@ ng --version
 - ## **How to import modules in IntelliJ IDE:**
 - Go to **File → Project structure**.
 - In the Project structure window, you can see modules under the project settings section.
-- Click on the modules tab and click the + icon and select import module.
+- Click on the modules tab and click the **+ icon** and select import module.
 ![Import Module](https://s3.amazonaws.com/static-docs.testsigma.com/new_images/projects/applications/importmodule.png)
 - Now select each folder i.e. automator, agent, agent-launcher, and server, and import them. 
 - Select the option **Import module from external module** and then choose **Maven** and click on **create**.
@@ -159,7 +159,7 @@ ng --version
     ```
     mkdir $HOME/.testsigma_os
     ```
-    - Download the Android, Appium, JRE, and iOS tools from this URL and store them in the above folder created. Make sure you extract the zip and place the contents in the folder created.
+    - Download the Android, Appium, JRE, and iOS tools from this [URL](https://github.com/testsigmahq/testsigma/releases) and store them in the above folder created. Make sure you extract the zip and place the contents in the folder created.
     - For mac Os you need to give explicit permission to remove the quarantine attribute. You can do this by running,
     ```
     sudo xattr -d -r com.apple.quarantine $HOME/.testsigma_os/
@@ -203,9 +203,9 @@ ng --version
 
 ## **Setting up UI, Server, and Agent component as a service:**
 - **Setting up server component as a service:**
-    - Go to **Run → Edit Configurations**
-    - Select + Icon in the Run/Debug Configurations window
-    - Select **Application** as the configuration type
+    - Go to **Run → Edit Configurations**.
+    - Select + Icon in the Run/Debug Configurations window.
+    - Select **Application** as the configuration type.
     - Enter the name as **server**.
     - Select Java 11 as the JDK version and **testsigma-agent** as the classpath.
     - Enter **com.testsigma.agent.TestsigmaWebApplication** as the class to be compiled.
@@ -224,9 +224,9 @@ ng --version
     ![Server](https://s3.amazonaws.com/static-docs.testsigma.com/new_images/projects/applications/server.png)
 
 - **Setting up agent component as a service:**
-    - Go to **Run → Edit Configurations**
-    - Select + Icon in the Run/Debug Configurations window
-    - Select Sprint Boot as the configuration type
+    - Go to **Run → Edit Configurations**.
+    - Select **+ Icon** in the Run/Debug Configurations window.
+    - Select Sprint Boot as the configuration type.
     - Enter the name as **agent**.
     - Select Java 11 as the JDK version and **testsigma-agent** as the classpath
     - Enter ***com.testsigma.agent.TestsigmaAgent*** as the class to be compiled.
@@ -253,7 +253,7 @@ ng --version
     - Server and agent can be started from the services tab in IntelliJ.
 
 - **Map localhost to devos.testsigma.com:** 
-    - From the finder window on Mac, press “command+shift+g” and mention the path “private/etc/hosts”
+    - From the finder window on Mac, press **command+shift+g** and mention the path ***private/etc/hosts***”
     - Open the host's file and add an entry as below:
         ```
         127.0.0.1       devos.testsigma.com
@@ -261,4 +261,3 @@ ng --version
 
 - **You can now access the server at http://devos.testsigma.com/ui/**
 ![Access Server](https://s3.amazonaws.com/static-docs.testsigma.com/new_images/projects/applications/testsigma.png)
-

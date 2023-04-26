@@ -88,7 +88,7 @@ You can set up download MySQL from this link - [MySQL :: Download MySQL Communit
 
 ## **Downloading Required Tools**
 1. Create a folder with the name **testsigma_os**.
-2. Download the ANDROID, APPIUM, DRIVERS, and IOS tools from this URL and store them in the above folder created. Make sure you extract the zip and place the contents in the folder created. 
+2. Download the ANDROID, APPIUM, DRIVERS, and IOS tools from this [URL](https://github.com/testsigmahq/testsigma/releases) and store them in the above folder created. Make sure you extract the zip and place the contents in the folder created. 
 
 Also, if you have already downloaded the Testsigma Agent, you can copy Android, Appium, drivers, and iOS and put the same on testsigma_os.
 
@@ -138,11 +138,11 @@ Once the above configuration is done, we need to add UI, Server, and Agent as a 
 ![Ui Component as Service](https://s3.amazonaws.com/static-docs.testsigma.com/new_images/projects/applications/uicomponent.png)
 
 **Setting up Server Component as a service:**
-- Go to **Run → Edit Configurations**
-- Select + Icon in the **Run/Debug Configurations** window
-- Select Sprint Boot as the configuration type
+- Go to **Run → Edit Configurations**.
+- Select + Icon in the **Run/Debug Configurations** window.
+- Select Sprint Boot as the configuration type.
 - Enter the name as **Server**.
-- Select Java 11 as the JDK version and **testsigma-agent** as the classpath
+- Select Java 11 as the JDK version and **testsigma-agent** as the classpath.
 - Enter **com.testsigma.agent.TestsigmaWebApplication** as the class to be compiled.
 - If the Environment Variables field is not visible, Click the **Modify option** and select **Environment Variables**.
     - Enter the below values for **Environment Variables**
@@ -158,9 +158,9 @@ Once the above configuration is done, we need to add UI, Server, and Agent as a 
 ![Server Module](https://s3.amazonaws.com/static-docs.testsigma.com/new_images/projects/applications/servermodule.png)
 
 **Setting up Agent component as service:** 
-- Go to **Run → Edit Configurations**
-- Select + Icon in the Run/Debug Configurations window
-- Select **Sprint Boot** as the configuration type
+- Go to **Run → Edit Configurations**.
+- Select **+ Icon** in the Run/Debug Configurations window.
+- Select **Sprint Boot** as the configuration type.
 - Enter the name as **agent**.
 - Select **Java 11** as the JDK version and **testsigma-agent** as the classpath.
 - Enter **com.testsigma.agent.TestsigmaAgent** as the class to be compiled.
