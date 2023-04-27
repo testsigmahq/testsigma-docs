@@ -1,9 +1,9 @@
 ---
 title: "Rerun Test Cases from Run Results"
-metadesc: "How to rerun test cases from test run results in Testsigma."
+metadesc: "Learn in detail how to rerun failed test cases, all test cases, or custom test cases from a particular test run result in Testsigma application"
 noindex: false
 order: 13.22
-page_id: "Learn in detail how to rerun failed test cases, all test cases, or custom test cases from a particular test run result in Testsigma"
+page_id: "How to rerun test cases from test run results in Testsigma"
 warning: false
 contextual_links:
 - type: section
