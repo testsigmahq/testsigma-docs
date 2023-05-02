@@ -79,12 +79,16 @@ The following list categorises the available default test data generators.
 
 |Category(Class)| Function(Method)|Usage|Inputs|
 |---|---|---|---|
-|MailBoxFunctions|getEmailOTP|Fetch OTP from an SMS|<li>Regex</li><li>Phone number</li><li>Timeout in seconds</li>*e.g. Regex - \d{4}, Phone number - Select Linked Phone Number, Timeout - 30*|
-|MailBoxFunctions|getEmailOTP|Fetch OTP sent to the email box into a variable|<li>Regex</li><li>Mailbox</li><li>Timeout in seconds</li>*e.g. Regex - \d{6}, Mailbox - Select Linked Mailbox, Timeout - 45*|
+|MailBoxFunctions|getEmailOTP|Fetch OTP from the email|<li>Regex</li><li>Mailbox</li><li>Timeout in seconds</li>*e.g. Regex - \d{6}, Mailbox - Select Linked Mailbox, Timeout - 45*|
 |MailBoxFunctions|getLinkFromContent|Fetch link from a piece of content|<li>Regex</li><li>Mailbox</li><li>Timeout in seconds</li>*e.g. Regex - Regex - \bhttps?:\/\/\S+, Mailbox - Select Linked Mailbox, Timeout - 60*|
 |MailBoxFunctions|subjectVerification|Verify subject of email|<li>Regex</li><li>Mailbox</li><li>Timeout in seconds</li>*e.g. Regex - Regex - ^[a-zA-Z0-9._%+-]+\.[a-zA-Z]{2,}$, Mailbox - Select Linked Mailbox, Timeout - 90*|
 |MailBoxFunctions|contentVerification|Verify content of email|<li>Regex</li><li>Mailbox</li><li>Compare String</li><li>Timeout in seconds</li>*e.g. Regex - ^[a-zA-Z0-9._%+-]+\.[a-zA-Z]{2,}$, Mailbox - Select Linked Mailbox, CompareString - , Timeout - 45*|
-|Email|mailbox||Function does not need the user's input|
+|MailBoxFunctions|getEmailContent|Store the entire email content in a variable|<li>Runtime Variable</li><li>Timeout in seconds</li>*e.g. Runtime Variable - content, Timeout - 30*|
+|MailBoxFunctions|getEmailSubject|Store the subject of the email into a variable by fetching it|<li>Runtime Variable</li><li>Timeout in seconds</li>*e.g. Runtime Variable - content, Timeout - 45*|
+|MailBoxFunctions|urlWithText|Fetches the URL of the Element containing the provided text|<li>Text</li><li>Runtime Variable</li><li>Timeout in seconds</li>*e.g. Text - randomtext, Runtime Variable - url, Timeout - 30*|
+|MailBoxFunctions|urlWhichContains|Fetch the URL that contains some required parameters.|<li>Substring</li><li>Runtime Variable</li><li>Timeout in seconds</li>*e.g. Substring - example, Runtime Variable - random_text, Timeout - 15*|
+|MailBoxFunctions|urlMatchingRegex|Retrieve the URL that matches the required regular expression|<li>Regex</li><li>Runtime Variable</li><li>Timeout in seconds</li>*e.g. Regex - r'https://\w+\.com/\w+', Runtime Variable - path, Timeout - 30*|
+|Email|mailbox||Input's not required|
 
 ---
 
@@ -117,14 +121,14 @@ The following list categorises the available default test data generators.
 |---|---|---|---|
 |NumberFunctions|Custom Calculation|Performs multiple mathematic calculations|Using any Test Data<li>Plain Text</li><li>Parameter</li><li>Runtime</li><li>Environment</li>_e.g. Test Data - [(25*25+50/45)+456]_|
 |Number|random number|Generates a random number between a given range|<li>min - minimum value of range of numbers</li><li>max - maximum value of range of numbers</li>*e.g. min - 2, max - 9*|
-|Number|randomDigit|Generates random digits between 0-9|Function does not need the user's input|
-|Number|randomDigitNotZero|Generates random digits between 1-9|Function does not need the user's input|
+|Number|randomDigit|Generates random digits between 0-9|Input's not required|
+|Number|randomDigitNotZero|Generates random digits between 1-9|Input's not required|
 |Number|number of digits|Generates n number of digits|<li>Number of digits</li><li>Boolean - True/ False</li>*e.g. No of Digits - 6, Boolean - True*|
-|Number|randomNumber|Generates a Random Number Between Min and Max Values|Function does not need the user's input|
+|Number|randomNumber|Generates a Random Number Between Min and Max Values|Input's not required|
 |Number|randomDouble|Generates a Random Number Generator with Min, Max and Number of Decimals|<li>Max No of Decimals</li><li>Min - Minimum value</li><li>Max - Maximum value</li> *e.g. Max No of Decimanls - , Min - , Max-*|
 |Number|randomDouble|Generates a Random Number Generator with Min, Max and Number of Decimals|<li>Max No of Decimanls</li><li>Min - Minimum value</li><li>Max - Maximum value</li> *e.g. Max No of Decimanls - , Min - , Max-*|
 |Number|digits|Generates a randomn number|Count - Number of digits<br> *e.g. Count -*|
-|Number|digit|Generates a randomn number with the length mentioned|Function does not need the user's input|
+|Number|digit|Generates a randomn number with the length mentioned|Input's not required|
 
 ---
 
@@ -132,16 +136,16 @@ The following list categorises the available default test data generators.
 
 |Category(Class)| Function(Method)|Usage|Inputs|
 |---|---|---|---|
-|NameFunctions|uniqueUsername|Generates a unique username|Function does not need the user's input|
-|Name|name|Generates a randomn name|Function does not need the user's input|
-|Name|nameWithMiddle|Generates a name with Middle Name|Function does not need the user's input|
-|Name|fullName|Generates a Full Name|Function does not need the user's input|
-|Name|firstName|Generates a random name that can be used as First Name|Function does not need the user's input|
-|Name|lastName|Generates a random name that can be used as Last Name|Function does not need the user's input|
-|Name|prefix|Generates a random Prefix|Function does not need the user's input|
-|Name|suffix|Generates a random Suffix|Function does not need the user's input|
-|Name|title|Generates random Title|Function does not need the user's input|
-|Name|username|Generates a random Username|Function does not need the user's input|
+|NameFunctions|uniqueUsername|Generates a unique username|Input's not required|
+|Name|name|Generates a randomn name|Input's not required|
+|Name|nameWithMiddle|Generates a name with Middle Name|Input's not required|
+|Name|fullName|Generates a Full Name|Input's not required|
+|Name|firstName|Generates a random name that can be used as First Name|Input's not required|
+|Name|lastName|Generates a random name that can be used as Last Name|Input's not required|
+|Name|prefix|Generates a random Prefix|Input's not required|
+|Name|suffix|Generates a random Suffix|Input's not required|
+|Name|title|Generates random Title|Input's not required|
+|Name|username|Generates a random Username|Input's not required|
 
 ---
 
@@ -150,8 +154,8 @@ The following list categorises the available default test data generators.
 |Category(Class)| Function(Method)|Usage|Inputs|
 |---|---|---|---|
 |PhoneNumberFunctions|getOTP|Fetch OTP from an SMS|<li>Regex</li><li>Phone number</li><li>Timeout in seconds</li>*e.g. Regex - \d{6}, Phone number - Select Linked Phone Number, Timeout - 30*|
-|PhoneNumber|cellPhone|Generates a random Mobile Number|Function does not need the user's input|
-|PhoneNumber|phoneNumber|Generates a random Phone Number|Function does not need the user's input|
+|PhoneNumber|cellPhone|Generates a random Mobile Number|Input's not required|
+|PhoneNumber|phoneNumber|Generates a random Phone Number|Input's not required|
 
 ---
 
@@ -159,17 +163,17 @@ The following list categorises the available default test data generators.
 
 |Category(Class)| Function(Method)|Usage|Inputs|
 |---|---|---|---|
-|Internet|domainName||Function does not need the user's input|
-|Internet|domainWord||Function does not need the user's input|
-|Internet|domainSuffix||Function does not need the user's input|
-|Internet|emailAddress||Function does not need the user's input|
-|Internet|emailAddress||Localpart<br>*e.g. Localpart -*|
-|Internet|safeEmailAddress||Function does not need the user's input|
-|Internet|safeEmailAddress||Localpart<br>*e.g. Localpart -*|
-|Internet|url||Function does not need the user's input|
-|Internet|image||Function does not need the user's input|
-|Internet|password||Function does not need the user's input|
-|Internet|uuid||Function does not need the user's input|
+|Internet|domainName|Generates random domain name|Input's not required|
+|Internet|domainWord|Generates random domain|Input's not required|
+|Internet|domainSuffix|Generates random domain suffix|Input's not required|
+|Internet|emailAddress|Generates random email address|Input's not required|
+|Internet|emailAddress|Generates random email address with given locapart|Localpart<br>*e.g. Localpart -*|
+|Internet|safeEmailAddress|Generates random email|Input's not required|
+|Internet|safeEmailAddress|Generates random email address with given|Localpart<br>*e.g. Localpart -*|
+|Internet|url|Generates random URL|Input's not required|
+|Internet|image|Generates random image file URL|Input's not required|
+|Internet|password|Generates random password|Input's not required|
+|Internet|uuid|Generates random unique user id|Input's not required|
 
 ---
 
@@ -177,9 +181,9 @@ The following list categorises the available default test data generators.
 
 |Category(Class)| Function(Method)|Usage|Inputs|
 |---|---|---|---|
-|File|mimeType||Function does not need the user's input|
-|File|fileName||Function does not need the user's input|
-|File|fileName||<li>Argument 0</li><li>Argument 1</li><li>Argument 2</li><li>Argument 3</li>*e.g. Argument 0 - , Argument 1 - , Argument 2 - , Argument 3 -*|
+|File|mimeType|Generates random two part file type|Input's not required|
+|File|fileName|Generates random file name|Input's not required|
+|File|fileName|Generates file name using given data|<li>Argument 0</li><li>Argument 1</li><li>Argument 2</li><li>Argument 3</li>*e.g. Argument 0 - , Argument 1 - , Argument 2 - , Argument 3 -*|
 
 ---
 
@@ -187,8 +191,8 @@ The following list categorises the available default test data generators.
 
 |Category(Class)| Function(Method)|Usage|Inputs|
 |---|---|---|---|
-|Friends|character||Function does not need the user's input|
-|Friends|location||Function does not need the user's input|
+|Friends|character|Gives random name |Input's not required|
+|Friends|location|Gives random location|Input's not required|
 
 ---
 
@@ -196,11 +200,11 @@ The following list categorises the available default test data generators.
 
 |Category(Class)| Function(Method)|Usage|Inputs|
 |---|---|---|---|
-|IdNumber|valid||Function does not need the user's input|
-|IdNumber|invalid||Function does not need the user's input|
-|IdNumber|ssnValid||Function does not need the user's input|
-|IdNumber|validSvSeSsn||Function does not need the user's input|
-|IdNumber|invalidSvSeSsn||Function does not need the user's input|
+|IdNumber|valid|Geneates random id|Input's not required|
+|IdNumber|invalid|Geneates random id|Input's not required|
+|IdNumber|ssnValid||Input's not required|
+|IdNumber|validSvSeSsn||Input's not required|
+|IdNumber|invalidSvSeSsn||Input's not required|
 
 ---
 
@@ -208,30 +212,30 @@ The following list categorises the available default test data generators.
 
 |Category(Class)| Function(Method)|Usage|Inputs|
 |---|---|---|---|
-|Address|streetName||Function does not need the user's input|
-|Address|streetAddressNumber||Function does not need the user's input|
-|Address|streetAddress||Function does not need the user's input|
-|Address|streetAddress||Argument 0<br>*e.g. Argument 0 -*|
-|Address|secondaryAddress||Function does not need the user's input|
-|Address|zipCode||Function does not need the user's input|
+|Address|streetName|Generates random street name|Input's not required|
+|Address|streetAddressNumber|Generates random street address|Input's not required|
+|Address|streetAddress|Generates random street address|Input's not required|
+|Address|streetAddress|Generates street address with given data|Argument 0<br>*e.g. Argument 0 -*|
+|Address|secondaryAddress|Generates random address|Input's not required|
+|Address|zipCode|Generates random zipcode|Input's not required|
 |Address|zipCodeByState||Argument 0<br>*e.g. Argument 0 -*|
-|Address|streetSuffix||Function does not need the user's input|
-|Address|streetPrefix||Function does not need the user's input|
-|Address|citySuffix||Function does not need the user's input|
-|Address|cityPrefix||Function does not need the user's input|
-|Address|city||Function does not need the user's input|
-|Address|cityName||Function does not need the user's input|
-|Address|state||Function does not need the user's input|
-|Address|stateAbbr||Function does not need the user's input|
-|Address|firstName||Function does not need the user's input|
-|Address|lastName||Function does not need the user's input|
-|Address|latitude||Function does not need the user's input|
-|Address|longitude||Function does not need the user's input|
-|Address|timeZone||Function does not need the user's input|
-|Address|country||Function does not need the user's input|
-|Address|countryCode||Function does not need the user's input|
-|Address|buildingNumber||Function does not need the user's input|
-|Address|fullAddress|Generates random full address|Function does not need the user's input|
+|Address|streetSuffix|Generates random street Suffix|Input's not required|
+|Address|streetPrefix|Generates random street Prefix|Input's not required|
+|Address|citySuffix|Generates random Street City Suffix|Input's not required|
+|Address|cityPrefix|Generates random Street City Prefix |Input's not required|
+|Address|city|Generates random city|Input's not required|
+|Address|cityName||Input's not required|
+|Address|state||Input's not required|
+|Address|stateAbbr||Input's not required|
+|Address|firstName||Input's not required|
+|Address|lastName||Input's not required|
+|Address|latitude||Input's not required|
+|Address|longitude||Input's not required|
+|Address|timeZone||Input's not required|
+|Address|country||Input's not required|
+|Address|countryCode||Input's not required|
+|Address|buildingNumber||Input's not required|
+|Address|fullAddress|Generates random full address|Input's not required|
 
 ---
 
@@ -239,13 +243,13 @@ The following list categorises the available default test data generators.
 
 |Category(Class)| Function(Method)|Usage|Inputs|
 |---|---|---|---|
-|Company|name||Function does not need the user's input|
-|Company|suffix||Function does not need the user's input|
-|Company|industry||Function does not need the user's input|
-|Company|buzzword||Function does not need the user's input|
-|Company|catchphrase||Function does not need the user's input|
-|Company|bs||Function does not need the user's input|
-|Company|logo||Function does not need the user's input|
+|Company|name||Input's not required|
+|Company|suffix||Input's not required|
+|Company|industry||Input's not required|
+|Company|buzzword||Input's not required|
+|Company|catchphrase||Input's not required|
+|Company|bs||Input's not required|
+|Company|logo||Input's not required|
 |Company|joinSampleOfEachList||<li>Argument 0</li><li>Argument 1</li>*e.g. Argument 0 - , Argument 1 -*|
 
 ---

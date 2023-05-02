@@ -142,7 +142,7 @@ mysql -u root -p
     ```
     mkdir $HOME/.testsigma_o
     ```
-    - Download the Android, Appium, JRE, and iOS tools from this URL and store them in the above folder created. Make sure you extract the zip and place the contents in the folder created.
+    - Download the Android, Appium, JRE, and iOS tools from this [URL](https://github.com/testsigmahq/testsigma/releases) and store them in the above folder created. Make sure you extract the zip and place the contents in the folder created.
     For mac Os you need to give explicit permission to remove the quarantine attribute. You can do this by running,
     ```
     sudo xattr -d -r com.apple.quarantine $HOME/.testsigma_os/
@@ -180,11 +180,11 @@ mysql -u root -p
 ### **Setting up UI, Server, and Agent component as a service**
 Once the above configuration is done, we need to add UI, Server, and Agent as a service so that the entire application runs.
 - **Setting up server component as a service:**
-    - Go to **Run → Edit Configurations**
-    - Select + Icon in the Run/Debug Configurations window
-    - Select Sprint Boot as the configuration type
+    - Go to **Run → Edit Configurations**.
+    - Select + Icon in the Run/Debug Configurations window.
+    - Select Sprint Boot as the configuration type.
     - Enter the name as **server**.
-    - Select Java 11 as the JDK version and **testsigma-agent** as the classpath
+    - Select Java 11 as the JDK version and **testsigma-agent** as the classpath.
     - Enter **com.testsigma.agent.TestsigmaWebApplication** as the class to be compiled.
     - If the Environment Variables field is not visible, Click the **Modify option** and select **Environment Variables**.
         - Enter the below values for **Environment Variables**.
@@ -201,11 +201,11 @@ Once the above configuration is done, we need to add UI, Server, and Agent as a 
     ![Reference](https://s3.amazonaws.com/static-docs.testsigma.com/new_images/projects/applications/ref.png)
 
 - **Setting up agent component as a service:**
-    - Go to **Run → Edit Configurations**
-    - Select + Icon in the Run/Debug Configurations window
-    - Select Sprint Boot as the configuration type
+    - Go to **Run → Edit Configurations**.
+    - Select + Icon in the Run/Debug Configurations window.
+    - Select Sprint Boot as the configuration type.
     - Enter the name as **agent**.
-    - Select Java 11 as the JDK version and **testsigma-agent** as the classpath
+    - Select Java 11 as the JDK version and **testsigma-agent** as the classpath.
     - Enter ***com.testsigma.agent.TestsigmaAgent*** as the class to be compiled.
     - Add **VM options** from Modify options if it's not visible and add the Virtual Machine agents in the below format.
         ```
@@ -221,10 +221,10 @@ Once the above configuration is done, we need to add UI, Server, and Agent as a 
    ![Rerun/Debug](https://s3.amazonaws.com/static-docs.testsigma.com/new_images/projects/applications/rundebug.png)
 
 - **Setting ui agent component as a service:**
-    - Go to **Run → Edit Configurations**
-    - Select + Icon in the Run/Debug Configurations window
-    - Select **npm** as the configuration type
-    - Enter the name as **ui**
+    - Go to **Run → Edit Configurations**.
+    - Select + Icon in the Run/Debug Configurations window.
+    - Select **npm** as the configuration type.
+    - Enter the name as **ui**.
     - For **package.json**: select the **package.json** file present in the ui folder from the downloaded source.
     - Select **run** for command and **start** for Scripts.
     ![UI](https://s3.amazonaws.com/static-docs.testsigma.com/new_images/projects/applications/ui.png)

@@ -1,6 +1,6 @@
 ---
 title: "Generate API Key"
-metadesc: "How to generate an API Key to integrate Testsigma with 3rd party tools (like CI/CD, bug reporting tools, and more)"
+metadesc: "Learn how to generate an API Keys to integrate Testsigma Application with third party tools like CI/CD, bug reporting tools, and more."
 noindex: false
 order: 19.1
 page_id: "Generate API Key"
@@ -26,10 +26,3 @@ To integrate Testsigma with any 3rd party tool (for CI/CD, bug reporting, and so
 5. The key will now be visible on the API keys page. To get the details, click on the API key you created. The details will look something like this:
 
    ![API key details in Testsigma](https://docs.testsigma.com/images/api-keys/api-key-details-testsigma.png)
-
-
-
-
-
-
-

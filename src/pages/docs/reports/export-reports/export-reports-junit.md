@@ -9,8 +9,8 @@ contextual_links:
 - type: section
   name: "Contents"
 - type: link
-  name: "Steps to export the result of test reports in XML (junit) format"
-  url: "#steps-to-export-the-result-of-test-reports-in-xml-junit-format-in-testsigma"
+  name: "How to export the result of test reports in XML format in Testsigma"
+  url: "#how-to-export-the-result-of-test-reports-in-xml-format-in-testsigma"
 ---
 
 ---
@@ -24,7 +24,7 @@ Here is a quick gif that demonstrates how to export the result of test reports i
 
 
 ---
-## **How to export the result of test reports in XML (junit) format in Testsigma**
+## **How to export the result of test reports in XML format in Testsigma**
 
 1. Navigate to **Select Project > Test Development > Run Results** page.
 
