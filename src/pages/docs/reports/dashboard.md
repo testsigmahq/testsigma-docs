@@ -37,4 +37,4 @@ On the right corner, you see a link to the Offers page, Tutorials page, Feedback
 * **Review Management:** View Elements and Test Cases submitted for review and assigned to you
 * Test Case breakup on the basis of status, type, priority, custom fields
 
-![Dashboard Overview](https://docs.testsigma.com/images/dashoard/dashboard-overview-gif.gif)
+![Dashboard Overview](https://s3.amazonaws.com/static-docs.testsigma.com/new_images/projects/applications/runsdb.gif)
