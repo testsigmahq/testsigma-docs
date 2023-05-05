@@ -51,4 +51,4 @@ Next time you run the test plan, the new base image will be compared to the visu
 
 Here is a quick gif demonstrating the same:
 
-![gif demonstrating the checkbox to mark reference image as baseline image](https://docs.testsigma.com/images/update-baseline/gif-update-baseline-image-checkbox-check-testsigma.gif)
+![gif demonstrating the checkbox to mark reference image as baseline image](https://s3.amazonaws.com/static-docs.testsigma.com/new_images/projects/applications/Baseimagegif.gif)
