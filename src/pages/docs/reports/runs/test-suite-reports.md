@@ -19,7 +19,7 @@ A Test Suite is a collection of test cases grouped on the basis of a specific fe
 
 Here is a quick gif that demonstrates how to group reports on the basis of test suites.
 
-![gif to access test suite     reports in Testsigma](https://docs.testsigma.com/images/test-suite-reports/gif-get-test-suite-reports-testsigma.gif)
+![gif to access test suite reports in Testsigma](https://s3.amazonaws.com/static-docs.testsigma.com/new_images/projects/applications/testsuitegif.gif)
 
 
 ---

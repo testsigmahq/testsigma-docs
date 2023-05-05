@@ -33,7 +33,7 @@ You can use Testsigma APIs to update or add  files during test runtime as part o
 You should know how to [Upload Android and iOS Apps](https://testsigma.com/docs/uploads/upload-apps/) **in Testsigma.**
 
 [[info | NOTE:]]
-| You need to authenticate these requests with your Testsigma API Key.  See [How to generate API Keys](https://testsigma.com/docs/configuration/api-keys/)
+| Testsigma issues a valid [API key](https://testsigma.com/docs/configuration/api-keys/) that is required to [authorize](https://testsigma.com/docs/test-cases/create-steps-restapi/authorization-request/) access to Testsigma API resources.
 
 ---
 
@@ -273,6 +273,6 @@ Will Return All Versions of the UploadID/File
 - **sauceLabsAppId (string)**: The ID of the Sauce Labs App associated with the file, if any.
 - **fileSize (integer):**: The size of the uploaded file in bytes.
 - **preSignedURL (string)**: The pre-signed URL of the uploaded file.
-- **signed (boolean)**: A boolean value indicates whether the file upload is signed.
+- **signed (boolean)  **: A boolean value indicates whether the file upload is signed.
 
 ---

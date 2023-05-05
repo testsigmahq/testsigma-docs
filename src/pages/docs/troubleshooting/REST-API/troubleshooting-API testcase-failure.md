@@ -27,8 +27,8 @@ Wait a few seconds and try the operation again. If the problem persists, contact
   <li>The specified URL Path value doesn't start with/in the definition of the REST API.</li>
   <li>The opening and closing curly braces ({and}) don't match the URL of the REST API</li>
   <li>In the URL of the REST API, there are curly braces ('{' and '}') without the parameter name inside.</li>
-  <li>You have an invalid URL set in the URL Path property of a method from a REST API.
-</li>
+  <li>You have an invalid URL set in the URL Path property of a method from a REST API.</li>
+  <li>Replace the space in the URL with %20 in the Rest API tests.</li>
 <li>You used reserved characters like<em> ;</em>,<em>?</em>,<em>#</em>,<em>$</em>,<em>*</em>,<em>@</em>,<em>{</em>,<em>}</em> or <em>=</em> in the URL Path property.</li>
 </ul></td>
 <td>Review syntax of the URL path.</td>
