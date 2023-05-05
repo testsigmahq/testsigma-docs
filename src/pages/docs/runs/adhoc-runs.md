@@ -1,6 +1,6 @@
 ---
 title: "Dry runs or ad-hoc runs"
-metadesc: "How to perform ad-hoc runs for a test case in Testsigma."
+metadesc: "Ad-hoc runs will verify the correctness of the test steps in a test case. Learn how to perform ad-hoc runs for a test case in Testsigma."
 noindex: false
 order: 9.11
 page_id: "Ad-hoc Runs"
@@ -152,7 +152,7 @@ In the **Ad-hoc run** layover provide the following configuration settings:
 ## **Dry run result**
 
 After clicking the **Run Now** button, wait for the test to run. The results will appear on your screen automatically.
-![adhoc run result in Testsigma](https://docs.testsigma.com/images/adhoc-runs/dryrun_2.gif)
+![Adhoc run result in Testsigma](https://s3.amazonaws.com/static-docs.testsigma.com/new_images/projects/applications/adhoc.gif)
 
 Below is a GIF demonstrating how the step-by-step real-time test case execution would look like for a web application:
 ![step-by-step adhoc run in Testsigma](https://s3.amazonaws.com/static-docs.testsigma.com/new_images/runs/adhoc-runs/step-by-step-adhoc-run-gif.gif)

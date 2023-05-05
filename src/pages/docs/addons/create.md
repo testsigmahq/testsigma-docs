@@ -105,7 +105,7 @@ Here’s some modified code for an Android add-on that swipes left n times:
 
 Here’s a GIF that shows all available annotations and their arguments:
 
-![Snapshot of the sample code showing most common annotations and options](https://docs.testsigma.com/images/create/add-ons-template-code-ide-common-annotations.gif)
+![Snapshot of the sample code showing most common annotations and options](https://s3.amazonaws.com/static-docs.testsigma.com/new_images/projects/applications/Addonnew.gif)
 
 ---
 ## **3.** **Test the code**
