@@ -1,6 +1,6 @@
 ---
 title: "Run on cloud vendor platforms"
-metadesc: "How to run test cases and test plans on cloud vendor platforms with Testsigma"
+metadesc: "When executing your test cases on Testsigma you have the option to execute them on a cloud vendor platform. Learn how to run tests on cloud vendor platforms in Testsigma"
 noindex: false
 order: 9.41
 page_id: "Run on cloud vendor platforms"
@@ -70,4 +70,4 @@ While creating a Test Plan, in the first tab, you will get all the options for c
 
 Please choose one as shown below. 
 
-![choose selected testlab for test plan execution in Testsigma](https://docs.testsigma.com/images/run-on-cloud-vendor-platforms/testplancloudfarm.gif)
+![choose selected testlab for test plan execution in Testsigma](https://s3.amazonaws.com/static-docs.testsigma.com/new_images/projects/applications/vendorpf.gif)

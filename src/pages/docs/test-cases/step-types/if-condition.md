@@ -1,6 +1,6 @@
 ---
 title: "Adding If, Else, Else If Conditions in Test Cases"
-metadesc: "How to use if, else, and else if conditions as test steps while creating a test case in Testsigma"
+metadesc: "The conditional if lets you execute a set of steps based on a condition being true or false. Learn how to use these conditions in Testsigma"
 noindex: false
 order: 4.27
 page_id: "Adding If, Else, Else If Conditions in Test Cases"
@@ -65,7 +65,7 @@ This document contains information about adding Conditional If using testsigma�
 
 ![add first step navigate to](https://docs.testsigma.com/images/if-condition/add-first-step-navigate-to.png)
 
- 5. In the next test step, click on the option on the left side of the test step
+ 5. In the next test step, click on the option on the left side of the test step.
 
 ![add if condition to first step navigate to](https://docs.testsigma.com/images/if-condition/add-first-step-navigate-to-add-if.png)
 
@@ -100,14 +100,14 @@ The test steps numbers 2.2, 2.3, etc will be executed only if the **Conditional 
 
 &emsp;
 
-The gif below shows how Conditional If test steps are created.
+The GIF below shows how Conditional If test steps are created.
 
-![gif add step under if condition](https://docs.testsigma.com/images/if-condition/gif-add-step-under-if-condition.gif)
+![gif add step under if condition](https://s3.amazonaws.com/static-docs.testsigma.com/new_images/projects/applications/condif.gif)
 
 &emsp;
 
 ---
-##**How to create “Else If” or “Else” conditions**
+## **How to create “Else If” or “Else” conditions**
 
  1. Create an If condition. Hover over the If statement, you will see Else If and Else.
 
@@ -122,7 +122,7 @@ The screenshot below depicts the Else-if condition that we will use to **click o
 &emsp;
 
 ---
-##**Adding If Condition in Testsigma’s Test Step Recorder [Web & Mobile Web]**
+## **Adding If Condition in Testsigma’s Test Step Recorder [Web & Mobile Web]**
 
 We can also add the If Condition while creating test steps using Testsigma’s Test Recorder.
 
@@ -152,7 +152,7 @@ Follow the steps below steps to add an If Condition:
 
 **Step 7:** This will add an If Condition to your test step.
 
-Follow the rest of the steps mentioned in the first section from Step 9 to add steps under If   Condition and to add Else and Else-if conditions.
+Follow the rest of the steps mentioned in the first section from Step 9 to add steps under **If Condition** and to add **Else** and **Else-if** conditions.
 
 &emsp;
 
@@ -160,8 +160,6 @@ Follow the rest of the steps mentioned in the first section from Step 9 to add s
 ## **Adding If Condition in Testsigma’s Test Step Recorder[Android &iOS]**
 
 We can also add the If Condition while creating test steps using Testsigma’s Test Recorder for native Android and iOS apps.
-
-
 
 Follow the steps below to add an If Condition:
 
