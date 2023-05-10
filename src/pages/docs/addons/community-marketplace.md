@@ -11,9 +11,6 @@ contextual_links:
 - type: section
   name: "Contents"
 - type: link
-  name: "Navigate to: Dashboard > add-ons"
-  url: "#navigate-to-dashboard--add-ons-to-find-the-available-community-add-ons"
-- type: link
   name: "Available Categories"
   url: "#available-categories"
 - type: link
@@ -30,22 +27,20 @@ Testsigma has a marketplace for add-ons where Testsigma users publish add-ons th
 
 If the add-ons feature is enabled in your account, you will see an add-ons icon below the Settings icon on the leftmost Navigation bar.
 
----
-## **Navigate to:** **Dashboard > add-ons** to find the available community add-ons.
+Refer to the GIF below to find the available community add-ons.
 
-![add-ons marketplace](https://docs.testsigma.com/images/community-marketplace/add-ons-marketplace-gif.gif)
-
+![add-ons marketplace](https://s3.amazonaws.com/static-docs.testsigma.com/new_images/projects/applications/addon.gif)
 ---
 ## **Available Categories**
 
 Add-ons will be categorized as follows:
-* Community: Contains add-ons published publicly by the community and available to the community.
-  * Featured: Most popular and top-rated add-ons are listed under the Featured category.
-  * New and Updated add-ons: New and recently updated add-ons are listed in this category.
-  * Testsigma add-ons: These are the add-ons provided by the Testsigma Team for the community.
+* **Community:** Contains add-ons published publicly by the community and available to the community.
+  * **Featured:** Most popular and top-rated add-ons are listed under the Featured category.
+  * **New and Updated add-ons:** New and recently updated add-ons are listed in this category.
+  * **Testsigma add-ons:** These are the add-ons provided by the Testsigma Team for the community.
 
-* Installed add-ons: These are already installed and activated in your account.
-* My add-ons: These are add-ons created by you(Public & Private).
+* **Installed add-ons:** These are already installed and activated in your account.
+* **My add-ons:** These are add-ons created by you(Public & Private).
 
 You can publish a custom add-on either as a private or public add-on. All add-ons that are created publicly are shared and available on the Testsigma Add-ons Community Marketplace.
 
@@ -56,7 +51,7 @@ If you can’t find an add-on that suits your requirements, we encourage you to 
 
 To find a specific add-on, you can use the search feature (just below the New add-on button) on the add-ons community page.
 
-You can also sort the add-ons list by package name, created, and updated date.
+You can also sort the add-ons list by package **name, created, and updated date**.
 
 ![Dropdown showing sort options in add-ons list](https://docs.testsigma.com/images/community-marketplace/add-ons-marketplace-sort-list.png)
 

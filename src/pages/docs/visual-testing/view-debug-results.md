@@ -25,7 +25,7 @@ Visual Testing in Testsigma helps you test the visual design of your application
  2. Compare it with a reference image. (which would be a changed/updated version of the original image)
  3. Find the differences between the base image and the reference image. 
 
-In this document, we will discuss how to view and debug the results of visual testing in Testsigma.
+In this document, we will discuss how to view and debug the results of Visual Testing in Testsigma.
 
 ---
 ## **Pre-requisites:**
@@ -54,22 +54,22 @@ Let’s learn how to view and debug Visual differences in 4 steps.
 
  **1. Test Case:** Write a test case that navigates to the news website and clicks on two tabs to view the content.
 
- ![gif demonstrating sample test case to understand how to view and debug results for visual testing in Testsigma](https://docs.testsigma.com/images/view-debug-results/gif-sample-test-case-visual-testing-testsigma.gif)
+ ![Gif demonstrating sample test case to understand how to view and debug results for visual testing in Testsigma](https://s3.amazonaws.com/static-docs.testsigma.com/new_images/projects/applications/vtestcase.gif)
 
  **2. Test Plan creation:** Create a test suite and a test plan for this test case.
 
 ![gif demonstrating test plan and test suite with a visual testing test case in Testsigma](https://s3.amazonaws.com/static-docs.testsigma.com/new_images/projects/applications/teststepsforvt.gif)
 
 **3. Run the test plan, view the results as follows:**`<br>
-     &nbsp;a.  Navigate to **Run Results**<br>
-     &nbsp;b.  Open the test plan for which you need to  view the results<br>
-     &nbsp;c.  Open the test case from the test plan<br>
+     &nbsp;a.  Navigate to **Run Results**.<br>
+     &nbsp;b.  Open the test plan for which you need to  view the results.<br>
+     &nbsp;c.  Open the test case from the test plan.<br>
      &nbsp;d.  On the right side of each test step, you should see a camera icon either in green or red. A green icon means that there are no visual differences. A red icon means there are visual differences.<br>
-     &nbsp;e.  Click on the icon to see the visual differences<br>
+     &nbsp;e.  Click on the icon to see the visual differences.<br>
 
-Here is a quick gif that shows how to view the results.
+Here is a quick GIF that shows how to view the results.
 
-![gif to run and view results for visual testing in Testsigma](https://s3.amazonaws.com/static-docs.testsigma.com/new_images/projects/applications/vtss.gif)
+![Gif to run and view results for visual testing in Testsigma](https://s3.amazonaws.com/static-docs.testsigma.com/new_images/projects/applications/vtss.gif)
 
 **4. To find the visual error and debug it:**<br>
        &nbsp;a. Click on the red camera icon, it'll navigate you to the page which shows the base image and the reference image.<br>
@@ -77,6 +77,10 @@ Here is a quick gif that shows how to view the results.
 
 This will show you all the differences. 
 
-Here is a quick gif to demonstrate the same:
+Here is a quick GIF to demonstrate the same:
 
 ![gif demonstrating the debugging of visual testing results in Testsigma](https://s3.amazonaws.com/static-docs.testsigma.com/new_images/projects/applications/VTgif.gif)
+
+
+
+
