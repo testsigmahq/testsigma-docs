@@ -25,7 +25,7 @@ Navigate to the Agents page, click on **Download**, choose your Operating System
 
 Once it is downloaded, unzip it and save it to an accessible location.
 
-![Download agent for test plan local executions in Testsigma](https://docs.testsigma.com/images/test-plans-on-local-devices/downloadaget.gif)
+![Download agent for test plan local executions in Testsigma](https://s3.amazonaws.com/static-docs.testsigma.com/new_images/projects/applications/agentdownload.gif)
 
 &emsp;
 ### Step 2: Start the Agent

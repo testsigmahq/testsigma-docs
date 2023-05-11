@@ -40,7 +40,7 @@ Once the Webhook URL is obtained, navigate to the Plugins page through **Dashboa
 
    2. Enter the incoming webhook URL obtained from Google Chat in the **Google Chat Details** field.<br>
 
- After entering the details, click on the Create button to add the Integration.
+ After entering the details, click on the **Create** button to add the Integration.
 ---
 ## **Enabling Google Chat notifications in Test Plan**
 
@@ -57,6 +57,4 @@ From the **Send Notification When** section on the Test Plan Settings page,<br>
 
 ![Integrating Testsigma with Google Chat Message](https://s3.amazonaws.com/static-docs.testsigma.com/new_images/projects/applications/gcintegration.gif)
 
-![Integrating Testsigma with Google Chat](https://docs.testsigma.com/images/google-chat/google-chat-testsigma-integration.gif)
-
-
+![Integrating Testsigma with Google Chat](https://s3.amazonaws.com/static-docs.testsigma.com/new_images/projects/applications/gchatint.gif)

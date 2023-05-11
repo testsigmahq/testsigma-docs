@@ -20,36 +20,36 @@ contextual_links:
 
 A parameter test data type is an input that is injected into your test from a test data profile.
 
-![test data profile image for test parameters](https://docs.testsigma.com/images/parameter/test-data-profile-test-case-image-test-parameters.png)
+![Test data profile image for test parameters](https://docs.testsigma.com/images/parameter/test-data-profile-test-case-image-test-parameters.png)
 
 ---
-##**Here is how it works** 
+## **Here is how it works** 
 
 1. A user creates a test data profile :
 
-    **a.** Navigate to the Test Data Profile page under Test Development
+    **a.** Navigate to the **Test Data Profile** page under Test Development.
 
-    **b.** Create a new Test Data profile with different column names
+    **b.** Create a new Test Data profile with different column names.
 
 2.  [Create a test case](https://www.testsigma.com/docs/test-cases/manage/add-edit-delete/)
 
-    **a.** In the test case, add a test step with “test data”
+    **a.** In the test case, add a test step with **test data**.
 
-    **b.** Delete the test data placeholder and choose Parameter from the dropdown
+    **b.** Delete the test data placeholder and choose Parameter from the dropdown.
 
-    **c.** Choose one of the parameters that you just created
+    **c.** Choose one of the parameters that you just created.
 
-    **d.** Insert the parameter into the test case
+    **d.** Insert the parameter into the test case.
 
 Let’s see how to insert a username parameter from a test data profile: 
 
-1. Create a test data profile by navigating to Test Development > Test Data Profile > Create
+1. Create a test data profile by navigating to **Test Development > Test Data Profile > Create**.
 
     ![create test data profile](https://docs.testsigma.com/images/parameter/create-test-data-profile.png)
 
-    ![gift to create test data profile](https://docs.testsigma.com/images/parameter/gift-to-create-test-data-profile.gif)
+    ![gift to create test data profile](https://s3.amazonaws.com/static-docs.testsigma.com/new_images/projects/applications/tdpparameter.gif)
 
-2. Create a test case by navigating to Test Development → Test Cases → Create
+2. Create a test case by navigating to **Test Development → Test Cases → Create**
 
     ![navigate to create test case](https://s3.amazonaws.com/static-docs.testsigma.com/new_images/test-data/types/parameter/navigate-to-create-test-case.png)
 
@@ -75,12 +75,12 @@ Let’s see how to insert a username parameter from a test data profile:
 Now, your test case will use the parameter from your test data profile.
 
 ---
-##**Associate the test data profile with the pre-existing test case**
+## **Associate the test data profile with the pre-existing test case**
 
-![gif to associate parameter type test data with a test case](https://docs.testsigma.com/images/parameter/gif-associate-parameter-test-data-with-test-case.gif)
+![gif to associate parameter type test data with a test case](https://s3.amazonaws.com/static-docs.testsigma.com/new_images/projects/applications/parameter.gif)
 
 ---
-##**Using Multiple Test Data Profiles in a Test Case**
+## **Using Multiple Test Data Profiles in a Test Case**
 
 When you associate multiple test data profiles with a test case, you have the capability of using any test data parameter associated with any of the associate test data profiles in a test step. 
 
@@ -90,17 +90,8 @@ For nested steps - any parameter from the test data profile associated with the 
 
 The test data parameter(in the associated test data profiles) can be iterated in a step group, a for loop, or, a while loop. It can also be used with an if condition or any other NLP.
 
-Below is a gif demonstrating the use of three Test Data Profiles in one Test Case three nested for loops.
+Below is a GIF demonstrating the use of three Test Data Profiles in one Test Case three nested for loops.
 
  ![A gif demonstrating creation of 3 nested for loops with 3 test data profiles](https://s3.amazonaws.com/static-docs.testsigma.com/new_images/test-data/types/parameter/3TestDataProfilesInATestCase.gif)
 
 ---
-
-
-
-
-
-
-
-
-
