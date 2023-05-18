@@ -2,7 +2,7 @@
 title: "Post-installation checklist for On-premise setup"
 order: 26.4
 page_id: "Post-installation checklist"
-metadesc: "Post-installation checklist for On-premise setup by Testsigma | Refer and verify this checklist after On-premise setup is done by Testsigma"
+metadesc: "Post-installation checklist for On-premise setup by Testsigma | Refer and verify this checklist once the On-premise setup is done by Testsigma"
 noindex: false
 search_keyword: ""
 warning: false
@@ -21,3 +21,4 @@ Post-installation of an on-premise setup, it's important to check whether everyt
 7. Validate system functionality by executing a test case and verifying results.
 8. Check that the SMTP setup for email communication is appropriately configured.
 9. Check whether screenshots are captured in execution reports to support visual testing process documentation.
+10. Verify that the customer does not receive any emails from Testsigma cloud. The developer should check that the property should not be set to cloud.
