@@ -2,7 +2,7 @@
 title: "On-Premise setup with docker-compose file"
 order: 26.3
 page_id: "Onprem Installation Steps"
-metadesc: "Learn how to deploy docker-compose file for Onprem setup of Testsigma"
+metadesc: "This article discusses steps to deploy the docker compose file for Testsigma On-prem setup, how to access the application, how to stop and remove the containers, and more."
 noindex: false
 search_keyword: ""
 warning: false
