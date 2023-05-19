@@ -56,8 +56,13 @@ build-code-job:
 ```
 
 [[info | **NOTE**:]]
-| 1.  In the above YML file, we are calling a sh script i.e gitlabcicd.sh which has the command that helps trigger the test plan and fetch the run result. To get the sh script, refer to [Shell Script](https://testsigma.com/docs/continuous-integration/shell-script/).
-| 2. You can place the sh script in the same project and call the file inside the YML file or get it from any external sources by providing the appropriate path.
+| 1.  Refer to the [Shell Script](https://testsigma.com/docs/continuous-integration/shell-script/) to get the sh script, which contains the command that triggers the test plan and fetches the run result. We call this sh script, gitlabcicd.sh, in the above YML file.
+| 2. You can place the sh script in the same project, call the file inside the YML file, or obtain it from any external sources by providing the appropriate path.
+| 3. Any bash runner can work with the provided YML file. For instance, if you are using the Docker runner, you can use the YML file as it is. However, if you have a different runner like Powershell, you must modify the YML file to make it executable in the Powershell runner. Additionally, ensure that Powershell is version seven or above.
+ 
+
+ 
+
 
 6. Once you have access to the shell script, you need to provide the ID of that Test Plan and the API Key along with other parameters. 
     - To get the Test Plan ID, refer to [get Test Plan ID](https://testsigma.com/docs/continuous-integration/get-test-plan-details/). 
