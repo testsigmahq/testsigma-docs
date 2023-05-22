@@ -1,7 +1,7 @@
 ---
-title: "Steps to install Docker on an Unix OS in Azure infrastructure"
+title: "Install Docker on an Unix OS in Azure infrastructure"
 order: 26.5
-page_id: "Onprem Installation Steps"
+page_id: "Install Docker on Azure infrastructure"
 metadesc: "This article discusses in detail a step-by-step guide to installing and verifying docker on a Unix-based OS within Azure infrastructure."
 noindex: false
 search_keyword: ""
