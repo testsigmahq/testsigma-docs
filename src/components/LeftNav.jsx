@@ -178,7 +178,7 @@ const LeftNav = () => {
     return (
         <>
             <div className="leftNav bg-gray-50 px-14 pt-5">
-                <ListItem data={data.leftNavLinks.value} isRoot currentUrl={window.location.pathname} />
+                <ListItem data={data.leftNavLinks.value} isRoot />
             </div>
         </>
     );
