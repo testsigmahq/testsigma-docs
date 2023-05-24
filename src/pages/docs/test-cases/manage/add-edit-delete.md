@@ -1,17 +1,16 @@
 ---
 title: "Manage Test Cases"
-pagetitle: "Create, Edit, Delete and Recover Deleted Test Cases in Testsigma"
-metadesc: "How to create, edit, delete, recover deleted Test Cases in Testsigma"
+pagetitle: "Add, Edit & Delete Test Cases in Testsigma"
+metadesc: "Effortlessly manage your test cases in Testsigma by seamlessly creating, editing, deleting, and recovering them. Streamline your test case management process, adapt to changing project needs, and ensure comprehensive test coverage."
 noindex: false
 order: 4.10
-page_id: "Create, Edit, Delete and Recover Deleted Test Cases"
+page_id: "Add, Edit, Delete Test Cases"
 warning: false
 contextual_links:
 - type: section
   name: "Contents"
 - type: link
-  name: "Creating a Test Case.
-  "
+  name: "Creating a Test Case"
   url: "#creating-a-test-case"
 - type: link
   name: "Test Case - Advanced Options"
@@ -105,19 +104,19 @@ Click on **Show Advanced Options** on the **Create Test Case page** to view the 
     - **Set Name**: You can use this type of filtering for non-sequential data sets. You can filter the data sets by their names using operations such as _between_, _equals_, _contains_, _starts with_, and _ends with_. The test case uses any data set names that contain the specified name or a part of it. 
     - **Parameter**: This type of filtering applies to non-sequential data sets. You filter the data set using parameters within the data sets.
 
-13.  **After Test Case**: Testsigma allows you to specify actions to be performed after the execution of a test case. You can define custom steps or tasks that must be completed after the test case execution, facilitating cleanup or preparation for subsequent test cases. *For more information, refer to [After Test Case](https://testsigma.com/docs/test-management/test-plans/after-test/#after-test-in-test-cases)*.
+13. **After Test Case**: Testsigma allows you to specify actions to be performed after the execution of a test case. You can define custom steps or tasks that must be completed after the test case execution, facilitating cleanup or preparation for subsequent test cases. *For more information, refer to [After Test Case](https://testsigma.com/docs/test-management/test-plans/after-test/#after-test-in-test-cases)*.
     - **Run After all iterations - Show Test Case Result**: Perform an action or task after executing all iterations of a test case to display the overall result.
     - **Run After all iterations - Fail the Test**: Perform an action or task after executing all iterations of a test case to mark the entire test case as failed.
     - **Run After Each iteration - Show iteration result**: Perform an action or task after executing each iteration of a test case to display the result of that specific iteration.
     - **Run After Each iteration - Fail the iteration**: Perform an action or task after executing each test case iteration to mark that specific iteration as failed.
 
-14.  **Mark this for AfterTest Suite**: By marking a test case for the **AfterTest Suite**, you ensure that the test case is executed as part of the cleanup or finalisation process after the execution of a test suite. This option helps maintain the test environment and ensure the proper closure of testing activities.
+14. **Mark this for AfterTest Suite**: By marking a test case for the **AfterTest Suite**, you ensure that the test case is executed as part of the cleanup or finalisation process after the execution of a test suite. This option helps maintain the test environment and ensure the proper closure of testing activities.
 
-15.  **Co-Reviewer**: In Testsigma, you can assign a co-reviewer to a test case. The co-reviewer can collaborate with the primary reviewer and provide additional feedback or suggestions, enhancing the quality and effectiveness of the test case review process.
+15. **Co-Reviewer**: In Testsigma, you can assign a co-reviewer to a test case. The co-reviewer can collaborate with the primary reviewer and provide additional feedback or suggestions, enhancing the quality and effectiveness of the test case review process.
 
-16.  **Version**: Testsigma supports versioning for test cases, allowing you to maintain different test case versions. This feature lets you track changes, compare versions, and roll back to previous versions if necessary.
+16. **Version**: Testsigma supports versioning for test cases, allowing you to maintain different test case versions. This feature lets you track changes, compare versions, and roll back to previous versions if necessary.
 
-17.  **Description**: Testsigma provides a description field for test cases, allowing you to provide detailed information about the purpose, scope, or specific instructions for executing the test case. This information enhances the understanding of the test case and facilitates smooth execution.
+17. **Description**: Testsigma provides a description field for test cases, allowing you to provide detailed information about the purpose, scope, or specific instructions for executing the test case. This information enhances the understanding of the test case and facilitates smooth execution.
 
 ---
 

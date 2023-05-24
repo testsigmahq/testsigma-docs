@@ -1,5 +1,5 @@
 ---
-title: "Debug results on local devices (Web applications )"
+title: "Debug results on local devices (Web applications)"
 order: 10.3
 page_id: "Debug Results on Local Devices"
 search_keyword: ""
