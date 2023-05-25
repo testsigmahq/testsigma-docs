@@ -1,6 +1,6 @@
 ---
 title: "Troubleshooting Agent startup and registration errors"
-metadesc: "Common Agent startup or registration issues and how to troubleshoot them."
+metadesc: "Common Agent startup or registration issues and how to troubleshoot them. Learn how to resolve issue if the Agent stops working, or is starts and terminating immediately"
 noindex: false
 order: 11.91
 page_id: "Troubleshooting Agent Startup/Registration Errors"
@@ -63,7 +63,7 @@ For Windows, try the below command in Powershell:<br>
 <br>If no ports are available,try the below steps to free up the ports
 <br>
 
-###**Windows**
+### **Windows**
 
 1. Open CMD with Admin privileges (Run as Administrator).
 2. Find the process that's using the required port. Use the below command to find the processes running on port 8383:<br>`netstat -ano | findstr :8383` <br>
@@ -74,7 +74,7 @@ You will see the following output:![process id](https://s3.amazonaws.com/static-
 5. Try the above steps for port 8484 as well.
 
 
-###**Linux and macOS**
+### **Linux and macOS**
 
 
 
@@ -85,7 +85,8 @@ You will see the following output:![process id](https://s3.amazonaws.com/static-
  5. Repeat the same command in *Step 2* and confirm the result is empty. If the process is still present, use the below command to force kill using kill<br>`kill -SIGKILL typeyourPIDhere`
  6. Repeat the same steps for other ports 8484 as well.
 
-<br>
+
+---
 
 ## **2. Unable to register**
 
@@ -99,8 +100,6 @@ Try accessing the above localhost URLs after starting the agent.
 The reason behind doing so is to understand if the agent is accessible and has all permission from the system administrator. If this is not accessible, it indicates that there is some hindrance in the system like firewall blocks or certain antivirus blocking the access. In such conditions, you may contact your IT  Team for help.
 
 If the above pages are accessible, proceed to the next step.
-
-<br>
 
 
 But if <kbd>https://local.testsigmaagent.com:8484/agent/</kbd> is unreachable but <kbd>http://127.0.0.1:8383/agent/ </kbd>is reachable, the following entry needs to be added to hosts file:
@@ -122,7 +121,9 @@ On macOS and Linux, the host file is located at <kbd>/etc/hosts</kbd>. You may n
 2. Type sudo nano /etc/hosts
 3. When you’re done adding the entry, use **Ctrl + O** (followed by Enter) to save the file and then **Ctrl + X** to exit.<br>
 
-<br>
+
+
+---
 
 ## **3. Certificate errors**
 
@@ -137,7 +138,9 @@ at java.base/sun.security.ssl.SSLSocketImpl.fatal(SSLSocketImpl.java:196
 
 ```
 
-<br><br>
+
+---
+
 
 ## **4. Permission issues**
 
@@ -157,9 +160,10 @@ Try the agent registration process once again after restarting the agent.
 
 
 
-<br>
+---
 
-##**5. Agent out of sync**
+
+## **5. Agent out of sync**
 
 Follow the below steps to fix the issue.
 
@@ -170,13 +174,17 @@ Follow the below steps to fix the issue.
 If the above troubleshooting steps does not resolve the issue, contact Testsigma support at [support@testsigma.com](mailto:support@testsigma.com) with the Agent logs files. *For more information on how to fetch agent logs refer to, [agent logs](https://testsigma.com/docs/agent/troubleshooting/logs/)*.
 
 
+--- 
 
-##**6. Server connection failed**
+
+## **6. Server connection failed**
 
 This occurs because Testsigma Agent cannot reach our servers.It might be due to connection issue or proxy errors. Ensure <kbd>app.testsigma.com</kbd> is reachable.
-<br>
 
-##**7. Proxy Error**
+
+---
+
+## **7. Proxy Error**
 
 
 If a proxy is configured for your network, whitelist the domains <kbd>app.testsigma.com </kbd>and <kbd>local.testsigmaagent.com</kbd>.
@@ -211,8 +219,4 @@ Add <kbd>wrapper.java.additional.15=-Djava.net.useSystemProxies=true</kbd> at th
 
 \<INSTALLATION-FOLDER> is the folder into which ZIP or bin is extracted.
 
-
-
-
 ---
-

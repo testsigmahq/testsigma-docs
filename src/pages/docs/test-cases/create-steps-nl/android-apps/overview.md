@@ -1,6 +1,6 @@
 ---
 title: "Add Test Steps in a Test Case in an Android Project"
-metadesc: "How to add test steps in simple English for an android project in Testsigma."
+metadesc: "Add test steps more steps to a pre-existing test case manually. Learn how to add test steps in simple English for an android project in Testsigma."
 noindex: false
 order: 4.450
 page_id: "Add Test Steps in a Test Case in an Android Project"
@@ -23,7 +23,7 @@ You can add more test steps to a pre-existing test case manually. In this docume
 &emsp;
 
 ---
-##**Pre-requisites:**
+## **Pre-requisites:**
 You should already know how to
  1. [create a test case.](https://testsigma.com/docs/test-cases/manage/add-edit-delete/)
  2. [create test steps for an android application.](https://testsigma.com/docs/test-cases/create-steps/)
@@ -31,7 +31,7 @@ You should already know how to
 &emsp;
 
 ---
-##**How to add steps manually in simple English for an android project in Testsigma:**
+## **How to add steps manually in simple English for an android project in Testsigma:**
 
  1. Create a test case for an android application.
  2. Once the test case is created and the test steps added, go to the created test steps in the Testsigma UI.
@@ -45,6 +45,3 @@ You should already know how to
 ![new blank step that appears on adding new step for adding steps manually in an android project in Testsigma](https://docs.testsigma.com/images/android-apps/new-blank-step-add-steps-manually-android-testsigma.png)
 
 Add the test step using simple English. See how to [add test steps for android.](https://testsigma.com/docs/test-cases/create-steps/)
-
-
-

@@ -1,7 +1,7 @@
 ---
 title: "Verifications "
 page_title: "Verifications Request"
-metadesc: "Verifications Request in Testsigma"
+metadesc: "Check whether the Rest API is functioning correctly by adding verification and assertions. Learn about Verifications Request in Testsigma"
 noindex: false
 order: 4.67
 page_id: "Verifications Request"

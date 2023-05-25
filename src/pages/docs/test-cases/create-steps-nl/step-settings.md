@@ -1,6 +1,6 @@
 ---
 title: "Test Step Settings"
-metadesc: "What are the available Test step settings in Testsigma and how to use them"
+metadesc: "Test steps have few settings that help you do necessary changes. Learn about the the available Test step settings in Testsigma and how to use them"
 noindex: false
 order: 4.41
 page_id: "Test Step Settings"

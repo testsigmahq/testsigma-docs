@@ -1,7 +1,7 @@
 ---
 title: "Upload Files using API"
 page_title: "Upload Files via API in Testsigma"
-metadesc: "REST API endpoints used for uploading the Apps and Attachments in Testsigma"
+metadesc: "REST API endpoints used for uploading the Apps and Attachments in Testsigma | You can use APIs to update or add  files during test runtime as part of a CI pipeline."
 noindex: false
 order: 21.5
 page_id: "Upload Files using API"

@@ -1,6 +1,6 @@
 ---
 title: "Force Delete Testsigma Agent Manually"
-metadesc: "How to delete Testsigma Agent manually."
+metadesc: "This article discusses in Detail on how to locate Testsigma Agent Configuration file and how to stop/delete Testsigma Agent manually."
 noindex: false
 order: 11.8
 page_id: "Force Delete Testsigma Agent Manually"
@@ -26,10 +26,11 @@ Click on the Testsigma Agent icon to reveal the menu and click on the Quit optio
 3. Delete Agent entry in Testsigma agents list view.
 4. Delete agent.properties file.
 
-<br>
+
+
 
 ---
-##**Location of Testsigma Agent Configuration file (agent.properties)**
+## **Location of Testsigma Agent Configuration file (agent.properties)**
 
 The Testsigma Configuration/Log files are located at the following locations depending on the Operating System used:
 
@@ -42,4 +43,6 @@ The Testsigma Configuration/Log files are located at the following locations dep
 - The %userprofile% points to the C:\Users\<username> folder where <username> is replaced by your Windows login username.
 
 - $HOME in Linux/Mac also points to the user's home folder
+
+
 

@@ -1,7 +1,7 @@
 ---
 title: "Body Data"
 page_title: "Adding Body Data in API Request"
-metadesc: "Adding Body Data in API Request in Testsigma"
+metadesc: "Adding body data in RESTful API testing is sending additional data to the server in the body of the request. Learn how to add Body Data in API Request in Testsigma"
 noindex: false
 order: 4.64
 page_id: "Adding Body Data in API Request"

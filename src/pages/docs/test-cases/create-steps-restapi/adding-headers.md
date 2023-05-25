@@ -1,7 +1,7 @@
 ---
 title: "Headers"
 page_title: "Headers in API Request"
-metadesc: "Headers in API Request in Testsigma"
+metadesc: "APIs require particular headers and requests, to provide more metadata about your operation. Learn about headers in API Request in Testsigma"
 noindex: false
 order: 4.65
 page_id: "Headers in API Request"

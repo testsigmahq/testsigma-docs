@@ -1,6 +1,6 @@
 ---
 title: "Testsigma Agent - Overview"
-metadesc: "What is Testsigma Agent, how it works, why is it useful, and other frequently asked questions regarding it."
+metadesc: "To execute tests locally, you need Testsigma Agent running on the machine. Learn what is Testsigma Agent, how it works, why is it useful, and other FAQs regarding it."
 noindex: false
 order: 11.1
 page_id: "Testsigma Agent - Overview"

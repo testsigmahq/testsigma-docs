@@ -1,6 +1,6 @@
 ---
 title: "Integrations in Testsigma"
-metadesc: "Different types of tools that you can integrate with Testsigma"
+metadesc: "Integration with different test labs lets you execute your Testsigma tests on those tools. Learn how to integrate test labs with Testsigma application."
 noindex: false
 order: 16.1
 page_id: "Integrations in Testsigma"
@@ -18,7 +18,7 @@ contextual_links:
 Testsigma integrates with various tools in your software delivery cycle to make continuous testing easier.
 
 ---
-##**Testsigma has built-in integrations with the following tools:**
+## **Testsigma has built-in integrations with the following tools:**
 
 ### **1. Collaboration**
 
@@ -86,5 +86,3 @@ Testsigma integrates with various tools in your software delivery cycle to make 
    * [Bitrise CI](https://testsigma.com/docs/continuous-integration/bitrise-ci/)
    * [github CICD](https://testsigma.com/docs/continuous-integration/github-cicd/)
    
-
-

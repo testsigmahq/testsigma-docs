@@ -1,7 +1,7 @@
 ---
 title: "Authorization "
 page_title: "Authorization in API Request"
-metadesc: "Authorization in API Request in Testsigma"
+metadesc: "Authorization in RESTful API testing verifies that a user has the all permissions to access a specific resource. Learn about Authorization in API Request in Testsigma"
 noindex: false
 order: 4.66
 page_id: "Authorization in API Request"
