@@ -1,6 +1,6 @@
 ---
 title: "Test data in steps"
-metadesc: " How to add test data in steps when tests are created using simple English in Testsigma"
+metadesc: "There are different types of test data that you can use while creating Test steos. Learn how to add test data in steps when tests are created in Testsigma"
 noindex: false
 order: 4.43
 page_id: "Test data in steps"
@@ -25,7 +25,7 @@ To know more about the test data types supported in Testsigma, refer to [test da
 &emsp;
 
 ---
-##**Pre-requisites:**
+## **Pre-requisites:**
 
 This document assumes that you know how to:
 
@@ -35,7 +35,7 @@ This document assumes that you know how to:
 &emsp;
 
 ---
-##**Steps to follow:**
+## **Steps to follow:**
 
  1. Add a test step containing test data to a test case. For inspiration on the simple english test steps that can be added, see the screenshot below:
 

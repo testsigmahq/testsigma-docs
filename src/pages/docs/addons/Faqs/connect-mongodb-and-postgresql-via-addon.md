@@ -1,6 +1,6 @@
 ---
 title: "Connect MongoDB & PostgreSQL Databases"
-metadesc: "How to Connect MongoDB & PostgreSQL Databases"
+metadesc: "Install an addon to connect MongoDB and PostgreSQL databases in Testsigma. Learn how to set up a database connection to MongoDB in Testsigma Application"
 noindex: false
 order: 17.9
 page_id: "Connect MongoDB & PostgreSQL Databases"

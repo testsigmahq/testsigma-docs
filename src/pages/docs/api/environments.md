@@ -1,7 +1,7 @@
 ---
 title: "Update Environment parameters using REST API"
 page_title: "Update Environment parameters using REST API in Testsigma"
-metadesc: "How to use the REST API Endpoints available in Testsigma for reading and updating Environment data"
+metadesc: "How to use the REST API Endpoints available in Testsigma for reading and updating Environment data | Environments API lets you read & update the URL of the AUT dynamically"
 noindex: false
 order: 21.2
 page_id: "Update Environment parameters using REST API"
@@ -31,7 +31,7 @@ For some CI/CD pipelines, the URL of the Application Under Test (AUT) changes wi
 | You need to authenticate these requests with your Testsigma API Key.  See [How to generate API Keys.](https://testsigma.com/docs/configuration/api-keys/)
 
 ---
-##**Get An Environment**
+## **Get An Environment**
 Request Method: **GET**
 
 Endpoint: [https://app.testsigma.com/api/v1/environments/](https://app.testsigma.com/api/v1/environments)<ENVIRONMENT\_ID>
@@ -40,14 +40,14 @@ Endpoint: [https://app.testsigma.com/api/v1/environments/](https://app.testsigma
 
 
 ---
-##**Get All Environments**
+## **Get All Environments**
 Request Method: **GET**
 
 Endpoint: https://app.testsigma.com/api/v1/environments
 
 
 ---
-##**Update Environment**
+## **Update Environment**
 |**Request Type**| PUT                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                       |
 |---|--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 |**Endpoint**| [https://app.testsigma.com/api/v1/environments/](https://app.testsigma.com/api/v1/environments)<ENVIRONMENT\_ID><br><ENVIRONMENT\_ID> can be found from the Environment details page URL                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                         |

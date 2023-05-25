@@ -1,7 +1,7 @@
 ---
 
 title: "Create Test Steps using natural language"
-metadesc: "How to create Test Steps in Testsigma using Natural Language"
+metadesc: "Testsigma follows a codeless approach for test step creation. Learn how to create Test Steps in Testsigma using Natural Language (NLPs)"
 noindex: false
 order: 4.40
 page_id: "Create Test Steps using natural language"
@@ -32,7 +32,7 @@ The steps would be:
 &emsp;
 
 ---
-##**Creating Test Steps**
+## **Creating Test Steps**
 After creating a new Test Case or opening an existing Test Case, we will be taken to the Test Case page as shown below:
 
 ![Default navigate step present on creating Test Case](https://docs.testsigma.com/images/create-steps-nl/simply-travel-test-case-default-navigate-step.png)
@@ -94,27 +94,9 @@ As soon as the first step is created, a new Test Step is created and in focus.
   To learn more ways to create Elements, refer to: [Create Elements - Overview](https://testsigma.com/docs/elements/web-apps/create-manually/)
 
 
- 6.   Finally, click on the Create button to create the Step
+ 6.   Finally, click on **Create**.
   
  
-
-   
-  
-  
-
 ### **Step 3 & 4**
 
 Similarly, create the remaining steps by repeating the same steps from Step 1 to Step 4 by entering the action you wish to perform, selecting the appropriate Action Statement, and updating the ‘test data’ and/or ‘element’.
-
-
-
-
-  
-
-
-   
- 
-
-   
-
-

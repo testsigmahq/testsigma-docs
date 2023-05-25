@@ -33,8 +33,6 @@ We will use the following **API Endpoints** and **JSON object** for our examples
 
 https://jsonplaceholder.typicode.com/
 
-https://jsonplaceholder.typicode.com/get/
-
 https://jsonplaceholder.typicode.com/posts/
 
 https://jsonplaceholder.typicode.com/?name=Joel&email=abcxyz@mail.com

@@ -46,5 +46,11 @@ start chrome.exe --remote-debugging-port=9222 --user-data-dir="C:\selenum\Chrome
 
 By following these steps, you can launch Chrome with the remote DevTools protocol enabled on the specified port  and with a custom chrome profile specified by the ```--user-data-dir``` flag. This allows you to communicate with Chrome using ChromeDriver and perform automation tasks.
 
+
+
+
 [[info | **NOTE**:]]
-|When you launch Chrome with remote debugging enabled, you need to launch it in a new profile. 
+|* When you launch Chrome with remote debugging enabled, you need to launch it in a new profile.<br>
+|* When you want to launch the debugger in the new window, by default, it will be a new profile and doesn't need to be launched separately.
+
+

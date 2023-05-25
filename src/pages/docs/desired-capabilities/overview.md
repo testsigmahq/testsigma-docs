@@ -86,4 +86,4 @@ While editing a Test Plan or Ad-hoc Run Configuration, click on the delete butto
 
 Here are some links to some of the available Desired Capabilities:
 
-[Desired Capabilities in Selenium](https://github.com/SeleniumHQ/selenium/wiki/DesiredCapabilities) | [Appium Desired Capabilities](http://appium.io/docs/en/writing-running-appium/caps/) | [Capabilities & ChromeOptions](https://sites.google.com/a/chromium.org/chromedriver/capabilities)
+[Desired Capabilities in Selenium](https://github.com/SeleniumHQ/selenium/wiki/DesiredCapabilities) | [Capabilities & ChromeOptions](https://sites.google.com/a/chromium.org/chromedriver/capabilities)
