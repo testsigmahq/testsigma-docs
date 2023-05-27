@@ -22,16 +22,16 @@ jobs:
       - name: 'Create env file'
         run: |
           touch .env
-          echo GATSBY_ALGOLIA_APP_ID=${{ secrets.STAGING_GATSBY_ALGOLIA_APP_ID }} >> .env
-          echo GATSBY_ALGOLIA_SEARCH_KEY=${{ secrets.STAGING_GATSBY_ALGOLIA_SEARCH_KEY }} >> .env
-          echo ALGOLIA_ADMIN_KEY=${{ secrets.STAGING_ALGOLIA_ADMIN_KEY }} >> .env
-          echo BUCKET_NAME=${{ secrets.STAGING_BUCKET_NAME }} >> .env
-          echo HOST_NAME=${{ secrets.STAGING_HOST_NAME }} >> .env
-          echo ASSET_HOST=${{ secrets.STAGING_ASSET_HOST }} >> .env
-          echo FRESHCHAT_TOKEN=${{ secrets.STAGING_FRESHCHAT_TOKEN }} >> .env
-          echo GA_TRACKING_ID=${{ secrets.STAGING_GA_TRACKING_ID }} >> .env
-          echo GTAG_TRACKING_ID_FOR_GA4=${{ secrets.STAGING_GTAG_TRACKING_ID_FOR_GA4 }} >> .env
-          echo GTAG_TRACKING_ID_FOR_GTAG=${{ secrets.STAGING_GTAG_TRACKING_ID_FOR_GTAG }} >> .env
+          echo GATSBY_ALGOLIA_APP_ID=${{ secrets.WEBSITE_STAGING_GATSBY_ALGOLIA_APP_ID }} >> .env
+          echo GATSBY_ALGOLIA_SEARCH_KEY=${{ secrets.WEBSITE_STAGING_GATSBY_ALGOLIA_SEARCH_KEY }} >> .env
+          echo ALGOLIA_ADMIN_KEY=${{ secrets.WEBSITE_STAGING_ALGOLIA_ADMIN_KEY }} >> .env
+          echo BUCKET_NAME=${{ secrets.WEBSITE_STAGING_BUCKET_NAME }} >> .env
+          echo HOST_NAME=${{ secrets.WEBSITE_STAGING_HOST_NAME }} >> .env
+          echo ASSET_HOST=${{ secrets.WEBSITE_STAGING_ASSET_HOST }} >> .env
+          echo FRESHCHAT_TOKEN=${{ secrets.WEBSITE_STAGING_FRESHCHAT_TOKEN }} >> .env
+          echo GA_TRACKING_ID=${{ secrets.WEBSITE_STAGING_GA_TRACKING_ID }} >> .env
+          echo GTAG_TRACKING_ID_FOR_GA4=${{ secrets.WEBSITE_STAGING_GTAG_TRACKING_ID_FOR_GA4 }} >> .env
+          echo GTAG_TRACKING_ID_FOR_GTAG=${{ secrets.WEBSITE_STAGING_GTAG_TRACKING_ID_FOR_GTAG }} >> .env
           cat .env
       - name: Set environment
         run : sed -i 's/localhost/website.testsigma.com/g' src/environment.ts
@@ -39,7 +39,7 @@ jobs:
         run: |
           PREFIX_PATHS=true npm run build && npm run deploy
         env:
-          AWS_ACCESS_KEY_ID: ${{ secrets.STAGING_AWS_ACCESS_KEY_ID }}
-          AWS_SECRET_ACCESS_KEY: ${{ secrets.STAGING_AWS_SECRET_ACCESS_KEY }}
+          AWS_ACCESS_KEY_ID: ${{ secrets.WEBSITE_STAGING_AWS_ACCESS_KEY_ID }}
+          AWS_SECRET_ACCESS_KEY: ${{ secrets.WEBSITE_STAGING_AWS_SECRET_ACCESS_KEY }}
           AWS_DEFAULT_REGION: 'us-east-1'
           AWS_DEFAULT_OUTPUT: json
