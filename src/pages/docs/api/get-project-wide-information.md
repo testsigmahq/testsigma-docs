@@ -1,7 +1,7 @@
 ---
 title: "Get Project wide information"
 page_title: "Get information for your Testsigma Project"
-metadesc: "Get information for your Testsigma Project - users, suites, tags, requirement, testcase priority"
+metadesc: "Learn how to get detailed information for your Testsigma Project - users, suites, tags, requirement, and testcase priority using APIs"
 noindex: false
 order: 21.6
 page_id: "Get Testsigma wide information"
@@ -9,9 +9,6 @@ warning: false
 contextual_links:
 - type: section
   name: "Contents"
-- type: link
-  name: "Test Plan - Start Test Execution API"
-  url: "#test-plan---start-test-execution-api"
 - type: link
   name: "Obtaining the Run ID"
   url: "#obtaining-the-run-id"
@@ -26,7 +23,7 @@ contextual_links:
 
 
 ---
-##**API Specification**
+## **API Specification**
 
 ## **Get Users**
 
@@ -428,9 +425,3 @@ Get all the available Test Case Requirements in the Project.
 &emsp;
 
 ---
-
-
-
-
-
-

@@ -1,7 +1,7 @@
 ---
 title: " Mantis Bug Reporting Integration"
 page_title: "Mantis Bug Reporting Integration in Testsigma"
-metadesc: " How to integrate Testsigma with Mantis for realtime bug reporting during Test Runs"
+metadesc: "Mantis Bug Reporting integration helps you in creating issues in Mantis from the Testsigma. Learn how to integrate Testsigma with Mantis for real-time bug reporting"
 noindex: false
 order: 16.34
 page_id: " Mantis Bug Reporting Integration"
@@ -28,7 +28,7 @@ Testsigma Mantis integration lets you create issues in Mantis directly from the 
 In this document, we will discuss how to establish Integration with Mantis from your Testsigma account and how to create the first bug from Testsigma which can flow into Mantis.
 
 ---
-##**Prerequisites**
+## **Prerequisites**
 
 To integrate Mantis with Testsigma, we need the following information from your Mantis Account
   * Account URL - Your organization’s Mantis Account URL
@@ -38,7 +38,7 @@ To integrate Mantis with Testsigma, we need the following information from your 
 You should already know about [Test Plan Runs and results](https://testsigma.com/docs/runs/test-plan-executions/).
 
 ---
-##**Integrating Mantis with Testsigma**
+## **Integrating Mantis with Testsigma**
 
 Once the above details are obtained, navigate to the Plugins page through **Dashboard > Settings > Plugins** and select Mantis under the Bug Reporting Tab.
 
@@ -49,7 +49,7 @@ Click on the Disabled Icon on **Mantis**. Mantis Details overlay opens up as sho
 Enter the details as mentioned in Prerequisites. After entering the details, click on the Create button to add the Integration.
 
 ---
-##**Creating a bug**
+## **Creating a bug**
 
 We can create a bug within Testsigma from the run results page for a particular Test Plan with the following steps:
 
@@ -71,3 +71,6 @@ We can create a bug within Testsigma from the run results page for a particular 
   4.  Click on Create to create the Bug.
 
 When the bug is created, some additional details regarding the Test Result such as the Test Execution Video and Step Screenshots are added automatically by Testsigma. This helps the developer who checks the issue in Mantis to understand the issue/bug better with more context.
+
+
+

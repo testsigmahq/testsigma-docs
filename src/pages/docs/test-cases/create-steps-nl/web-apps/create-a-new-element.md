@@ -1,6 +1,6 @@
 ---
 title: "Create Elements while Adding Steps"
-metadesc: "How to create elements while adding test steps to a test case in Testsigma."
+metadesc: "You can add new elements while adding test steps to your test case manually in an android project in Testsigma. Learn how to create an Element for an web app"
 noindex: false
 order: 4.441
 page_id: "Create Elements while Adding Steps"

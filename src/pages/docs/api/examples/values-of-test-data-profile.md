@@ -44,3 +44,6 @@ This endpoint allows users to update the value in Test Data Profile using REST A
 |**Request Body Type (JSON)**|Raw|
 |**Request Body(JSON)**|<pre> {<br> "id": 48,<br> "testDataName": "update parameter with api call",<br> "testData": null,<br> "data": [{<br> "name": "Iteration name",<br> "expectedToFail": true,<br> "data": {<br> "Username": "bhanu",<br> "Password": "7893",<br> "User1": "bsk@450.com",<br> "User2": "1479",<br> "User3": "bhanuprakash"<br> }<br> }]<br> } <br>  <pre>|
 |**Response Body(JSON)**|<pre> {<br> "id": 48,<br> "testDataName": "update",<br> "data": null,<br> "createdById": 9,<br> "updatedById": 14,<br> "columns": ["User2", "Username", "User1", "User3", "Password"],<br> "createdDate": 1677479567000,<br> "updatedDate": 1677492944204,<br> "passwords": null,<br> "versionId": 46,<br> "message": null <br> } <pre>|
+
+
+

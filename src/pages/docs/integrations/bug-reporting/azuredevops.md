@@ -1,7 +1,7 @@
 ---
 title: "Azure DevOps"
 page_title: "Azure DevOps"
-metadesc: "How to integrate Azure DevOps with Testsigma to link Test Cases"
+metadesc: "Azure DevOps integration with Testsigma helps you to link Test Cases. Learn how to integrate Azure DevOps with Testsigma Application"
 noindex: false
 order: 16.39
 page_id: "Azure DevOps"

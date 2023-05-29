@@ -1,7 +1,7 @@
 ---
 title: "Update Test Case results using API"
 page_title: "Update Test Case results using API"
-metadesc: "Learn how to update Test Case results using API using REST API in Testsigma. "
+metadesc: "This article discusses in detail on how to update Test Case results as Passed, Failed, and Not Executed using API using REST API in Testsigma."
 noindex: false
 order: 21.65
 page_id: "Update Test Case results using API"
@@ -37,8 +37,13 @@ This endpoint allows users to update the Test Case result using REST API.
 **errors:** Errors in request fields if there are any.<br> 
 **message:** Message of overridden results.<br> 
 
+
+
 [[info | **NOTE**:]]
 |1. In case of an invalid request, you will get the response body below and return the status code as 400.<br>
 |<pre><code>{<br>"timeStamp": null,<br>"error": "Failed to override the result, <br> cause :Given test case result id 2288 is not related to execution run 239 <br> Given test case result id 2286 is not related to execution run 239 <br> Given test case result id 2287 is not related to execution run 239",<br>"code": null,<br>"fieldErrors": null,<br>"objectErrors": null<br>}</code></pre>
 |2. In case of multiple requests which have both valid and invalid queries, you will get the response body as below as return status as 200.<br>
 |<pre><code>{<br>"errors": [<br>"Given test case result id 2286 is not related to execution run 239",<br>"Given test case result id 2287 is not related to execution run 239"<br>],<br>"message": "Overridden the result partially"<br>}</code></pre>
+
+
+

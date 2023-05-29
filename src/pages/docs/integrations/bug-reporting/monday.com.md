@@ -1,7 +1,7 @@
 ---
 title: "Monday.com"
 page_title: "monday.com"
-metadesc: "How to integrate Testsigma with monday.com for realtime bug reporting during Test Runs"
+metadesc: "Monday.com integration helps you in creating issues in Monday.com from the Testsigma. Learn how to integrate Testsigma with Monday.com for real-time bug reporting"
 noindex: false
 order: 16.38
 page_id: "monday.com"

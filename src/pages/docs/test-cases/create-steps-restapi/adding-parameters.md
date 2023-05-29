@@ -1,7 +1,7 @@
 ---
 title: "Parameters"
 page_title: "Adding Parameters in API Request"
-metadesc: "Adding Parameters in API Request in Testsigma"
+metadesc: "Adding parameters in RESTful API Testing is sending data to a server in order to get a response. Learn how to add Parameters in API Request in Testsigma"
 noindex: false
 order: 4.63
 page_id: "Adding Parameters in API Request"
