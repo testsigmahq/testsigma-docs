@@ -10,7 +10,6 @@ import LeftNav from "../../components/LeftNav";
 import 'prismjs/themes/prism-tomorrow.css';
 import '../../templates/page.scss';
 import CardList from "../../components/navcards";
-import {environment} from "../../environment";
 
 const IndexContent = () => {
     return (
