@@ -4,3 +4,4 @@ public
 .idea/*
 *.iml
 .env
+package-lock.json
