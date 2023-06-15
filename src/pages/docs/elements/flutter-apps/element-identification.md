@@ -1,6 +1,6 @@
 ---
 title: "Element identification"
-metadesc: "How to identify element in flutter applications"
+metadesc: "Testsigma supports automating mobile apps built using Flutter SDK, if app enables element identification. Learn how to identify element in flutter applications"
 noindex: false
 order: 6.7
 page_id: "Element identification"

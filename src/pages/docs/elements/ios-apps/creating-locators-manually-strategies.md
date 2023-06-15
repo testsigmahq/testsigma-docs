@@ -1,9 +1,9 @@
 ---
 title: " Different ways to create Elements in an iOS Project"
-metadesc: "The meta description should provide an accurate description of the content of the page."
+metadesc: "Elements refer to the different objects in your iOS application. Leaen two ways to create/locate Elements in Testsigma Application."
 noindex: false
 order: 6.46
-page_id: " Different ways to create Elements in an iOS Project"
+page_id: "Different ways to create Elements in an iOS Project"
 warning: false
 ---
 
