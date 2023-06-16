@@ -1,6 +1,6 @@
 ---
 title: "Create Element Manually"
-metadesc: "Dynamic Element locators and how to create Elements manually in Testsigma."
+metadesc: "Element path plays an important role in dynamic websites. Learn how to create elements manually for a Web Application project in Testsigma."
 noindex: false
 order: 6.24
 page_id: "Create Element Manually"

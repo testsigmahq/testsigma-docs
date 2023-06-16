@@ -1,6 +1,6 @@
 ---
-title: " Different strategies for formulating Elements"
-metadesc: " How to find and create locators for the Elements using single attributes, text, or Xpath and CSS Selectors"
+title: "Different strategies for formulating Elements"
+metadesc: "Learn how to find and create locators for the Elements using single attributes, text, or Xpath and CSS Selectors in Testsigma Application"
 noindex: false
 order: 6.26
 page_id: "Different Strategies for Formulating Elements"

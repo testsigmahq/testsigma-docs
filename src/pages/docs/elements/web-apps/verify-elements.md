@@ -1,6 +1,6 @@
 ---
 title: "Verifying elements in Chrome DevTools"
-metadesc: "Learn how to verify elements in Chrome DevTools during testing in Testsigma to avoid test case failures. Click here to know how to verify elements in DevTools."
+metadesc: "Learn how to verify elements in Chrome DevTools during testing in Testsigma to avoid test case failures. Click here to know how to verify elements in Chrome DevTools."
 noindex: false
 order: 6.28
 page_id: "Verify elements in Chrome DevTools"
