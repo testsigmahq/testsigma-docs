@@ -22,9 +22,6 @@ jobs:
       - name: 'Create env file'
         run: |
           touch .env
-          echo GATSBY_ALGOLIA_APP_ID=${{ secrets.WEBSITE_STAGING_GATSBY_ALGOLIA_APP_ID }} >> .env
-          echo GATSBY_ALGOLIA_SEARCH_KEY=${{ secrets.WEBSITE_STAGING_GATSBY_ALGOLIA_SEARCH_KEY }} >> .env
-          echo ALGOLIA_ADMIN_KEY=${{ secrets.WEBSITE_STAGING_ALGOLIA_ADMIN_KEY }} >> .env
           echo BUCKET_NAME=${{ secrets.WEBSITE_STAGING_BUCKET_NAME }} >> .env
           echo HOST_NAME=${{ secrets.WEBSITE_STAGING_HOST_NAME }} >> .env
           echo ASSET_HOST=${{ secrets.WEBSITE_STAGING_ASSET_HOST }} >> .env
@@ -32,6 +29,12 @@ jobs:
           echo GA_TRACKING_ID=${{ secrets.WEBSITE_STAGING_GA_TRACKING_ID }} >> .env
           echo GTAG_TRACKING_ID_FOR_GA4=${{ secrets.WEBSITE_STAGING_GTAG_TRACKING_ID_FOR_GA4 }} >> .env
           echo GTAG_TRACKING_ID_FOR_GTAG=${{ secrets.WEBSITE_STAGING_GTAG_TRACKING_ID_FOR_GTAG }} >> .env
+          echo TYPESENSE_HOST=${{ secrets.WEBSITE_STAGING_TYPESENSE_HOST }} >> .env
+          echo TYPESENSE_PORT=${{ secrets.WEBSITE_STAGING_TYPESENSE_PORT }} >> .env
+          echo TYPESENSE_PROTOCOL=${{ secrets.WEBSITE_STAGING_TYPESENSE_PROTOCOL }} >> .env
+          echo TYPESENSE_COLLECTION=${{ secrets.WEBSITE_STAGING_TYPESENSE_COLLECTION }} >> .env
+          echo TYPESENSE_API_KEY=${{ secrets.WEBSITE_STAGING_TYPESENSE_API_KEY }} >> .env
+          echo TYPESENSE_SEARCH_API_KEY=${{ secrets.WEBSITE_STAGING_TYPESENSE_SEARCH_API_KEY }} >> .env
           cat .env
       - name: Set environment
         run : sed -i 's/localhost/website.testsigma.com/g' src/environment.ts
