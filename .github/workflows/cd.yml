@@ -44,3 +44,21 @@ jobs:
           AWS_SECRET_ACCESS_KEY: ${{ secrets.AWS_SECRET_ACCESS_KEY }}
           AWS_DEFAULT_REGION: 'us-east-1'
           AWS_DEFAULT_OUTPUT: json
+      
+      - name: Start Gatsby server
+        run: npm run develop &
+        env:
+          GATSBY_TELEMETRY_DISABLED: 1
+
+      - name: Wait for Gatsby server to start
+        run: |
+          sleep 10
+          until $(curl --output /dev/null --silent --head --fail http://localhost:8000); do
+            sleep 2
+          done
+
+      - name: Run indexing script
+        run: npm run postbuild
+
+      - name: Stop Gatsby server
+        run: lsof -i :8000 -t | xargs kill
