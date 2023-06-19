@@ -1,7 +1,7 @@
 ---
 title: "Enable app resigning in iOS"
 page_title: "Enable app resigning"
-metadesc: "How to enable app resigning in iOS"
+metadesc: "Learn how to set a desired capability to re-sign the app with the uploaded provisioning profile to install your app on the device during test execution"
 noindex: false
 order: 15.94
 page_id: "How to enable app resigning"
@@ -17,7 +17,7 @@ If you set **ResignEnabled** desiried capability as ***true*** then Testsigma wi
 [[info | **NOTE**:]]
 |This process will result in the deletion of entitlements in your iOS app.
 
-However, if your app is already signed with ***Apple developer enterprise program***, you can disable this behavior by setting **ResignEnabled** desiried capability as ***false***.
+However, if your app is already signed with ***Apple developer enterprise program***, you can disable this behavior by setting **ResignEnabled** desiried capability as ***false***. <br>
 
 |Key|Description|
 |---|---|

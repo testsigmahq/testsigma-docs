@@ -1,7 +1,7 @@
 ---
 title: "Set Geolocation for Tests in Chrome and Firefox"
 page_title: "Set Geolocation for your Tests"
-metadesc: "How to set the location of your Test Machine by using desired capabilities in Testsigma"
+metadesc: "Learn how to set the location of your Test Environment where tests are run by using a pair of desired capabilities in Testsigma Application."
 noindex: false
 order: 15.6
 page_id: "Set Geolocation for Tests in Chrome and Firefox"
@@ -25,7 +25,7 @@ For setting the location of the Test Environment where the Tests are run, we jus
 You should already know how to add Desired Capabilities to your Tests. See [Desired Capabilities - Overview](https://testsigma.com/docs/desired-capabilities/overview/)
 
 ---
-##**Setting Desired Capabilities in different Browsers**
+## **Setting Desired Capabilities in different Browsers**
 
 ### **Google Chrome**
 
@@ -60,7 +60,7 @@ Similarly, the value for the location **'Central Park, NYC, USA'** will be **{"l
 | Setting the Geolocation is not yet supported in IE and Safari
 
 ---
-##**Example websites to test current location**
+## **Example websites to test current location**
 
 You can use [https://www.mapcoordinates.net/en](https://www.mapcoordinates.net/en) for the latitude and longitude information for your desired location, and  [https://mycurrentlocation.net/](https://mycurrentlocation.net/) to check current location.
 

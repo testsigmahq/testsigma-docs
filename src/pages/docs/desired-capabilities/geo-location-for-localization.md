@@ -1,6 +1,6 @@
 ---
 title: "Geolocation emulation for Localization Testing"
-metadesc: "How to use Desired Capabilities to set the Geographical Location for running tests in Mobile Web."
+metadesc: "Learn how to use Desired Capabilities to set the Geographical Location for running tests in Mobile Web in Testsigma Application."
 noindex: false
 order: 15.4
 page_id: "Geolocation emulation for Localization Testing"
@@ -28,7 +28,7 @@ This article mainly focuses on how to use Desired Capabilities to set the Geogra
 | To Enable Localization Testing, please contact Testsigma Support
 
 ---
-##**Desired Capabilities for setting location**
+## **Desired Capabilities for setting location**
 
 In order to set the geolocation in a mobile Web test, we can use the following desired capability:
 
@@ -92,7 +92,7 @@ Below given is the list of countries with their country codes that can be used i
 |United States|US|
 
 ---
-##**Using Desired Capability to set the Location**
+## **Using Desired Capability to set the Location**
 
 In case of an Ad Hoc run, click on the Run button from the Test Case details page to open the Ad-hoc Run overlay.
 
@@ -103,7 +103,7 @@ After clicking on Desired Capabilities link, we can enter ‘BrowserStack.geoLoc
 That's all. Now you can click on ‘Run Now’ to start the execution. The execution will start on the cloud device and the location will be detected as the specified one, in this case, Argentina.
 
 ---
-##**Sample Use Case**
+## **Sample Use Case**
 
 In this sample use case, we shall use [www.google.com](https://www.google.com) for a particular country name i.e Italy and their country code is ‘IT’.
 

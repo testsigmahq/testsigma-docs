@@ -18,7 +18,7 @@ contextual_links:
 
 <br>
 
-In Testsigma, you can easily create Test Cases for Desktop Windows. This article discusses how to create Test Cases for Desktop Windows.
+In Testsigma, you can easily create Test Cases for Mobile Web Application. This article discusses how to create Test Cases for Mobile Web Application.
 
 
 ## **Prerequisites**

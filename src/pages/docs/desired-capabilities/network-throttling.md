@@ -1,6 +1,6 @@
 ---
 title: "Network throttling"
-metadesc: "How to enable and use Network Throttling feature in Testsigma"
+metadesc: "Network throttling is an intentional slowing down of internet speed. Learn how to enable and use Network Throttling feature in Testsigma"
 noindex: false
 order: 15.91
 page_id: "Network Throttling"
@@ -9,7 +9,7 @@ warning: false
 ---
 
 ---
-<p><em>Network throttling</em> is an intentional slowing down of internet speed. It is used to simulate user experience under low bandwidth conditions. This is useful from a testing perspective as developers and quality analysts get an understanding of how the website loads and functions when accessed from different network environments, especially environments wherein poor network speed is experienced.
+Network throttling is an intentional slowing down of internet speed. It is used to simulate user experience under low bandwidth conditions. This is useful from a testing perspective as developers and quality analysts get an understanding of how the website loads and functions when accessed from different network environments, especially environments wherein poor network speed is experienced.
 
 This article demonstrates the method to enable the network throttling feature, with which testers can simulate poor network conditions while testing web applications using Testsigma.
 
@@ -90,5 +90,3 @@ You have now added the network throttling feature to your test case. With networ
 </ol>
 
 Testsigma support <em>Network throttling</em> to test your apps and websites under various network scenarios.For more information, reach out to us at [support@testsigma.com](mailto:support@testsigma.com) or through our [support channel on Testsigma Discord](https://discord.com/invite/SjYKkSTUq9).
-
----

@@ -1,7 +1,7 @@
 ---
 title: "Run Browser in Incognito/Private mode"
 page_title: "Incognito Mode"
-metadesc: "How to run tests in Incognito/Private mode"
+metadesc: "Learn how to run tests in Incognito/Private mode by adding desired capabilities in Ad-hoc Run Screen/Test Plan in Testsigma Application."
 noindex: false
 order: 15.99
 page_id: "IC/PM"
@@ -72,5 +72,3 @@ Desired capabilities have now been added to the browser's Incognito/Private tab 
 ![Enter Capabilities in field](https://s3.amazonaws.com/static-docs.testsigma.com/new_images/projects/overview/desired_capabilities_field_testplan_dc.png)
 
 6. To update the test plan, click **Next** > **Update**.
-
----

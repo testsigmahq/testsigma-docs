@@ -1,7 +1,7 @@
 ---
 title: "Enable capturing screenshots for Android and iOS"
 page_title: "Enable capturing screenshots for Android and iOS"
-metadesc: "How to enable capturing screenshots for Android and iOS"
+metadesc: "While testing application in Testsigma, it is important to enable capturing screenshots. Learn how to enable capturing screenshots for Android and iOS"
 noindex: false
 order: 15.95
 page_id: "How to enable Screen shot capture for Android and iOS"
@@ -41,4 +41,4 @@ Find the complete code for the **MainActivity.java** file below.
 ![MainActivity Code](https://s3.amazonaws.com/static-docs.testsigma.com/new_images/projects/applications/java_code_MA.png)
 
 ## **For iOS Applications**
-In iOS applications, if you’re using thirdarty tools to disable screenshot, you need to remove that restriction to allow inspection in Testsigma.
+In iOS applications, if you’re using third party tools to disable screenshot, you need to remove that restriction to allow inspection in Testsigma.
