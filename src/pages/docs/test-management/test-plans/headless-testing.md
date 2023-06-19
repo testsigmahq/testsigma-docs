@@ -1,7 +1,7 @@
 ---
 title: "Headless Browser Testing"
 page_title: "Headless Browser Testing in Testsigma: Automate Web Testing Efficiently"
-metadesc: "Learn how to test in headless browsers in Testsigma. Enable headless mode and execute GUI-free tests for faster execution and improved scalability."
+metadesc: "Learn how to perform headless browser testing in Testsigma. Automate tests without a visual browser interface, ensuring efficient and reliable web app testing."
 noindex: false
 order: 8.28
 page_id: "headless-browser-testing-testsigma"
