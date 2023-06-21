@@ -1,7 +1,7 @@
 ---
 title: "Run Browser in Incognito/Private mode"
 page_title: "Incognito Mode"
-metadesc: "Learn how to run tests in Incognito/Private mode by adding desired capabilities in Ad-hoc Run Screen/Test Plan in Testsigma Application."
+metadesc: "Learn how to run tests in Incognito/Private mode by adding desired capabilities in Ad-hoc Run or Test Plan in Testsigma Application."
 noindex: false
 order: 15.99
 page_id: "IC/PM"
