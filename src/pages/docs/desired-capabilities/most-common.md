@@ -1,6 +1,6 @@
 ---
 title: "Common Desired Capabilities"
-metadesc: "Commonly used Desired Capabilities and explainer articles"
+metadesc: "Learn about most commonly used Desired Capabilities for Chrome, Mozilla Firefox, Microsoft Edge, Execution Timeouts Specific and Environment Customizations in Testsigma Labs in Testsigma"
 noindex: false
 order: 15.2
 page_id: "Common Desired Capabilities"
