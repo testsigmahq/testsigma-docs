@@ -1,7 +1,7 @@
 ---
 title: "Configure Android WebViews"
 page_title: "webviews"
-metadesc: "How to configure Android WebViews"
+metadesc: "To inspect WebView elements in Testsigma, WebView debugging must be enabled within your application. Learn how to configure Android WebViews."
 noindex: false
 order: 15.98
 page_id: "webviews"

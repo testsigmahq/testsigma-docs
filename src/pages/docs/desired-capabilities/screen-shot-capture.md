@@ -1,7 +1,7 @@
 ---
 title: "Enable capturing screenshots for Android and iOS"
 page_title: "Enable capturing screenshots for Android and iOS"
-metadesc: "How to enable capturing screenshots for Android and iOS"
+metadesc: "While testing application in Testsigma, it is important to enable capturing screenshots. Learn how to enable capturing screenshots for Android and iOS"
 noindex: false
 order: 15.95
 page_id: "How to enable Screen shot capture for Android and iOS"

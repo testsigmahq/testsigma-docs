@@ -26,7 +26,7 @@ However, there are times when the reason for failure is not enough to fix the fa
 To learn how to add Desired Capabilities, see [Desired Capabilities - Overview](https://testsigma.com/docs/desired-capabilities/overview/)
 
 ---
-##**Enable Browser Console - Extended Debugging**
+## **Enable Browser Console - Extended Debugging**
 
 Pass the below given desired capabilities in case of respective Test Lab Type
 
@@ -39,7 +39,7 @@ Pass the below given desired capabilities in case of respective Test Lab Type
 | The above desired capabilities are valid for Adhoc Runs and Test Plan Runs.
 
 ---
-##**View Browser Logs**
+## **View Browser Logs**
 
 Once the desired Capabilities are added, you can execute it. The Test Result will show up as shown below:
 
