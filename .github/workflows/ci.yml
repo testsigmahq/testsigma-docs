@@ -31,6 +31,12 @@ jobs:
           echo GA_TRACKING_ID=${{ secrets.GA_TRACKING_ID }} >> .env
           echo GTAG_TRACKING_ID_FOR_GA4=${{ secrets.GTAG_TRACKING_ID_FOR_GA4 }} >> .env
           echo GTAG_TRACKING_ID_FOR_GTAG=${{ secrets.GTAG_TRACKING_ID_FOR_GTAG }} >> .env
+          echo TYPESENSE_HOST=${{ secrets.WEBSITE_STAGING_TYPESENSE_HOST }} >> .env
+          echo TYPESENSE_PORT=${{ secrets.WEBSITE_STAGING_TYPESENSE_PORT }} >> .env
+          echo TYPESENSE_PROTOCOL=${{ secrets.WEBSITE_STAGING_TYPESENSE_PROTOCOL }} >> .env
+          echo TYPESENSE_COLLECTION=${{ secrets.WEBSITE_STAGING_TYPESENSE_COLLECTION }} >> .env
+          echo TYPESENSE_API_KEY=${{ secrets.WEBSITE_STAGING_TYPESENSE_API_KEY }} >> .env
+          echo TYPESENSE_SEARCH_API_KEY=${{ secrets.WEBSITE_STAGING_TYPESENSE_SEARCH_API_KEY }} >> .env
           cat .env
       - name: Build
         run: |
