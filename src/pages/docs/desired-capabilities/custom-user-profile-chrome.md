@@ -1,7 +1,7 @@
 ---
 title: "Using custom User Profile in Chrome for Tests"
 page_title: "Using custom User Profile in Chrome for Tests in Testsigma"
-metadesc: "How to start the Chrome Browser with a custom User Profile in Test Session using Testsigma"
+metadesc: "Custom user profiles help you emulate settings such as pre-installed extensions. Learn how to start the Chrome Browser with a custom User Profile in Test Session using Testsigma"
 noindex: false
 order: 15.7
 page_id: "Using custom User Profile in Chrome for Tests"
@@ -24,7 +24,7 @@ To do the same, create a new profile, customize it as per your requirements by i
 You should already know how to add Desired Capabilities to your Tests. See [Desired Capabilities - Overview](https://testsigma.com/docs/desired-capabilities/overview/)
 
 ---
-##**Steps for using Custom User Profile in Testsigma**
+## **Steps for using Custom User Profile in Testsigma**
 
 1. Finding your current Profile path
 2. Making changes in the Profile folder

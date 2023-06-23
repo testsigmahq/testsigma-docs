@@ -1,7 +1,7 @@
 ---
 title: "Enable app resigning in iOS"
 page_title: "Enable app resigning"
-metadesc: "How to enable app resigning in iOS"
+metadesc: "Learn how to set a desired capability to re-sign the app with the uploaded provisioning profile to install your app on the device during test execution"
 noindex: false
 order: 15.94
 page_id: "How to enable app resigning"

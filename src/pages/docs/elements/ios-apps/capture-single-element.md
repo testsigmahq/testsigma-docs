@@ -1,6 +1,6 @@
 ---
 title: "Create One Element at a Time (Using Mobile Inspector) for an iOS Project"
-metadesc: "How to create one element at a time by using the Testsigma mobile inspector for an iOS project in Testsigma."
+metadesc: "Learn how to selectively capture elements one at a time by using the Testsigma mobile inspector for an iOS project in Testsigma application."
 noindex: false
 order: 6.43
 page_id: "Create One Element at a Time (Using Mobile Inspector) for an iOS Project"
@@ -27,20 +27,14 @@ In an iOS project in Testsigma, you can selectively capture elements one at a ti
 <br>
 
 ---
-##**Pre-requisites**
+## **Pre-requisites**
 1. You should have an iOS project in Testsigma. See [creating a project](https://testsigma.com/docs/projects/overview/).
 2. Your iOS applications’ apk should be uploaded in Testsigma so that the Test recorder can record elements from it. See [uploading apps to Testsigma](https://testsigma.com/docs/uploads/upload-apps/).
 
 <br>
 
-**Navigation**
-
-**Test development > Elements**
-
-<br>
-
 ---
-##**How to create one element at a time by using the Test recorder for an iOS project in Testsigma**
+## **How to create one element at a time by using the Test recorder for an iOS project in Testsigma**
 1. On the ‘All Elements’ page, click on the ‘Create’ button on the top right corner of the page:
 ![create button on elements page under create one element at a time for an iOS project in Testsigma](https://s3.amazonaws.com/static-docs.testsigma.com/new_images/elements/ios-apps/capture-single-element/create-button-create-one-element-ios-testsigma.png)
 

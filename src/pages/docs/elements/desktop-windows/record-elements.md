@@ -1,6 +1,6 @@
 ---
 title: "Recording elements"
-metadesc: "How to record one element at a time by using the Testsigma mobile inspector for an dekstop application project in Testsigma."
+metadesc: "Learn how to record one element at a time by using the Testsigma mobile inspector for a dekstop application project in Testsigma application."
 noindex: false
 order: 6.51
 page_id: "Create One Element at a Time (Using Mobile Inspector) for an desktop windows project"

@@ -1,15 +1,18 @@
 ---
 title: "Run Browser in Incognito/Private mode"
-page_title: "Incognito Mode"
-metadesc: "How to run tests in Incognito/Private mode"
+page_title: "Incognito/Private Mode Browser Testing - Testsigma"
+metadesc: "Execute browser tests in incognito/private mode with Testsigma for secure and confidential testing environments, safeguarding your web application's privacy."
 noindex: false
 order: 15.99
-page_id: "IC/PM"
+page_id: "run-browser-incognito-tests"
 search_keyword: ""
 warning: false
 contextual_links:
 - type: section
   name: "Contents"
+- type: link
+  name: "Desired Capabilities for Incognito or Private Browser"
+  url: "#desired-capabilities-for-incognito-or-private-browser"  
 - type: link
   name: "Add Desired capabilities in Ad-hoc Run Screen"
   url: "#add-desired-capabilities-in-ad-hoc-run-screen"
@@ -23,9 +26,15 @@ Desired Capabilities are a set of properties used for customizing the Test Envir
 
 Desired capabilities have now been added to the browser's Incognito/Private tab to launch the new browser or not save details and run every time a new test case in browsers.
 
-[[info | NOTE:]]
-| - You should know how to [Create Ad-hoc Runs](https://testsigma.com/docs/runs/adhoc-runs/), [Create Test Cases](https://testsigma.com/docs/test-cases/manage/add-edit-delete/#creating-a-test-case), and [Create Test Plans](https://testsigma.com/docs/test-management/test-plans/overview/).<br>
-| - Desired Capabilities for Incognito/Private Tab Browsers Support **Google Chrome**, **Mozilla Firefox**, and **Microsoft Edge**.
+---
+
+### **Prerequisites**
+
+Before using the Incognito/Private Mode Browser Testing feature, you should understand the concepts of [Create Ad-hoc Runs](https://testsigma.com/docs/runs/adhoc-runs/), [Create Test Cases](https://testsigma.com/docs/test-cases/manage/add-edit-delete/#creating-a-test-case), and [Create Test Plans](https://testsigma.com/docs/test-management/test-plans/overview/). in Testsigma.
+
+---
+
+## **Desired Capabilities for Incognito or Private Browser**
 
 |Capability - Key|Data Type|Value|Function|
 |---|---|---|---|
@@ -33,10 +42,12 @@ Desired capabilities have now been added to the browser's Incognito/Private tab 
 |testsigma.privateBrowsing|Boolean|False|The selected browser will be launched in **Normal mode**|
 |No Capability|Boolean|False|The selected browser will be launched in **Normal mode**| 
 
----
-## **Add Desired capabilities in Ad-hoc Run Screen**
+[[info | NOTE:]]
+| Desired Capabilities for Incognito/Private Tab Browsers Support **Google Chrome**, **Mozilla Firefox**, and **Microsoft Edge**.
 
-![gif for test case](https://s3.amazonaws.com/static-docs.testsigma.com/new_images/projects/overview/dc_ad_hoc_run.gif)
+---
+
+## **Add Desired capabilities in Ad-hoc Run Screen**
 
 1. Navigate to **Test Development** > **Test Cases**. Create a new project or open an existing project.
 ![Choose Project](https://s3.amazonaws.com/static-docs.testsigma.com/new_images/projects/overview/testcase_dc.png)
@@ -52,9 +63,11 @@ Desired capabilities have now been added to the browser's Incognito/Private tab 
 
 5. Test steps will be executed in the Incognito/Private tab.
 
-## **Add Desired capabilities in Test Plan**
+Here is a quick GIF demonstrating the above workflow: ![gif for test case](https://s3.amazonaws.com/static-docs.testsigma.com/new_images/projects/overview/dc_ad_hoc_run.gif)
 
-![Test Plan Gif](https://s3.amazonaws.com/static-docs.testsigma.com/new_images/projects/overview/dcd_ad_testplan.gif)
+---
+
+## **Add Desired capabilities in Test Plan**
 
 1. Navigate to **Select project** > **Test Development** > **Test plan**.
 ![Choose Test plan](https://s3.amazonaws.com/static-docs.testsigma.com/new_images/projects/overview/testplan_dc.png)
@@ -72,5 +85,7 @@ Desired capabilities have now been added to the browser's Incognito/Private tab 
 ![Enter Capabilities in field](https://s3.amazonaws.com/static-docs.testsigma.com/new_images/projects/overview/desired_capabilities_field_testplan_dc.png)
 
 6. To update the test plan, click **Next** > **Update**.
+
+Here is a quick GIF demonstrating the above workflow: ![Test Plan Gif](https://s3.amazonaws.com/static-docs.testsigma.com/new_images/projects/overview/dcd_ad_testplan.gif)
 
 ---

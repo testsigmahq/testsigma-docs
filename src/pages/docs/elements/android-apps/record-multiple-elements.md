@@ -1,6 +1,6 @@
 ---
 title: "Record Multiple Elements for an Android Application"
-metadesc: "How to record multiple elements for an android project in Testsigma."
+metadesc: "Elements path play an important role in Automation Testsing. Learn how to record multiple elements for a Mobile Web Application project in Testsigma."
 noindex: false
 order: 6.32
 page_id: "Record Multiple Elements for an Android Application"
@@ -23,26 +23,20 @@ contextual_links:
 ---
 
 ---
-##**Introduction**
+## **Introduction**
 When automating test cases for an android application, you can capture multiple elements from the application in one go. This article covers how to do that.
 
 <br>
 
 ---
-##**Pre-requisites**
+## **Pre-requisites**
 1. You should have an android project in Testsigma. See [creating a project](https://testsigma.com/docs/projects/overview/).
 2. Your android applications’ apk should be uploaded in Testsigma so that the mobile test recorder can record elements from it. See [uploading apps to Testsigma](https://testsigma.com/docs/uploads/upload-apps/).
 
 <br>
 
-**Navigation**
-
-**Test Development > Elements**
-
-<br>
-
 ---
-##**How to record multiple elements for an android project in Testsigma**
+## **How to record multiple elements for an android project in Testsigma**
 1. On the ‘All Elements’ page, click on the ‘Record’ button on the top right corner of the page:
 
 ![record-button-under-record-multiple-elements-for-an-android-project-in-Testsigma](https://s3.amazonaws.com/static-docs.testsigma.com/new_images/elements/android-apps/record-multiple-elements/record-button-under-record-multiple-elements-for-an-android-project-in-Testsigma.png)
