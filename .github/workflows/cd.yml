@@ -64,7 +64,7 @@ jobs:
           done
 
       - name: Run indexing script
-        run: npm run postbuild
+        run: npm run index
         env:
           TYPESENSE_HOST: ${{ secrets.TYPESENSE_HOST }}
           TYPESENSE_PORT: ${{ secrets.TYPESENSE_PORT }}
