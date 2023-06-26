@@ -1,6 +1,6 @@
 ---
 title: "Using Environment Test Data for Dynamic locators"
-metadesc: "How to use Environment parameters for creating dynamic locator values in Elements."
+metadesc: "Leanr how to use Environment parameters for creating dynamic locator values in Elements. Automate the testing of dynamic elements in Testsigma application."
 noindex: false
 order: 6.63
 page_id: "Using Environment Test Data for Dynamic locators"

@@ -1,6 +1,6 @@
 ---
 title: "Capture Single Element for a Web Project"
-metadesc: "How to capture a single element using Testsigma’s test recorder chrome extension."
+metadesc: "Elements play an important role in Automation Testsing. Learn how to capture single element for a Web Application project in Testsigma"
 noindex: false
 order: 6.23
 page_id: "Capture Single Element for a Web Project"

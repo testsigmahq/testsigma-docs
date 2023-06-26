@@ -1,6 +1,6 @@
 ---
 title: "Create Elements [Manually]"
-metadesc: "How to create elements manually for an android project in Testsigma."
+metadesc: "Element path plays an important role in dynamic websites. Learn how to create elements manually for a android apps in Testsigma."
 noindex: false
 order: 6.34
 page_id: "Create Elements [Manually]"

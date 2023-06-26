@@ -1,6 +1,6 @@
 ---
 title: "Record Multiple Elements Using Chrome Extension for a web application"
-metadesc: "How to record multiple elements using Testsigma’s test recorder chrome extension"
+metadesc: "Elements play an important role in Test Automation. Learn how to create elements using Testsigma's test recorder extension for a Web Application."
 order: 6.22
 page_id: "Record Multiple Elements Using Chrome Extension for a web application"
 warning: false
@@ -19,7 +19,7 @@ Sometimes, during test creation, we need to capture the details of multiple elem
 <br>
 
 ---
-##**Pre-requisite**
+## **Pre-requisite**
 
 You should have the Testsigma test step recorder chrome extension already installed. If not, then refer to the document [here](https://testsigma.com/docs/test-step-recorder/install-chrome-extension/).
 
@@ -28,7 +28,7 @@ You should have the Testsigma test step recorder chrome extension already instal
 
 Here we will be capturing multiple elements via the Elements page. Learn more about [Elements](https://testsigma.com/docs/elements/web-apps/overview/).
 
-1. Go to the Elements page via **Test Development > Elements.** The Elements page should look something like the below screenshot:
+1. Go to the Elements page via **Test Development > Elements**. The Elements page should look something like the below screenshot:
 
 ![all-Elements-page-in-Testsigma](https://s3.amazonaws.com/static-docs.testsigma.com/new_images/elements/web-apps/record-multiple-elements/all-Elements-page-in-Testsigma.png)
 
@@ -37,7 +37,7 @@ Here we will be capturing multiple elements via the Elements page. Learn more ab
 ![record button on All Elements page in Testsigma](https://docs.testsigma.com/images/record-multiple-elements/record-button-all-elements-page-testsigma.png)
 
 
-3. When you click on the ‘Record’ button, a new tab will open. 
+3. When you click on the **Record** button, a new tab will open. 
 
 4. Enter the URL from which you want to capture the elements. For example, we opened a new tab and entered the URL for orangehrmlive.
 
@@ -47,7 +47,7 @@ Here we will be capturing multiple elements via the Elements page. Learn more ab
 
 ![hover over element to record Elements in Testsigma](https://docs.testsigma.com/images/record-multiple-elements/hover-over-element-record-elements-testsigma.png)
 
-7. Now click on the hovered element and wait for the element to appear in the ‘Record Elements’ window as shown below:
+7. Now click on the hovered element and wait for the element to appear in the **Record Elements** window as shown below:
 
 ![click hovered element while recording Elements in Testsigma](https://docs.testsigma.com/images/record-multiple-elements/click-hovered-element-record-elements-testsigma.png)
 
@@ -55,11 +55,11 @@ Here we will be capturing multiple elements via the Elements page. Learn more ab
 
 ![record multiple elements via test step recorder in Testsigma](https://docs.testsigma.com/images/record-multiple-elements/record-multiple-elements-test-step-recorder-testsigma.png)
 
-9. Now click on the save button on the ‘Record Elements’ window. The Element will be saved and a message ‘Elements created successfully’ will appear, the message is also highlighted below:
+9. Now click on the save button on the **Record Elements** window. The Element will be saved and a message **Elements created successfully** will appear, the message is also highlighted below:
 
 ![Elements created successfully via the test step recorder in Testsigma](https://docs.testsigma.com/images/record-multiple-elements/elements-created-successfully-test-step-recorder-testsigma.png)
 
-10. You can also check if the Element was created successfully by searching for it on the ‘Elements’ page as shown below:
+10. You can also check if the Element was created successfully by searching for it on the **Elements** page as shown below:
 
 ![filter-Elements-in-Testsigma](https://s3.amazonaws.com/static-docs.testsigma.com/new_images/elements/web-apps/record-multiple-elements/filter-Elements-in-Testsigma.png)
 
