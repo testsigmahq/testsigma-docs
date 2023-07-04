@@ -37,7 +37,7 @@ function SEO({ lang,
     `,
     );
 
-    const isIndexed = !noindex ? 'index, follow' : 'noindex, nofollow'
+    const isIndexed = !noindex ? 'index,follow' : 'noindex,nofollow'
 
     return (
         <Helmet
