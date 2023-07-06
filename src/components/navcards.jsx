@@ -62,7 +62,7 @@ const data = [
         id: 10,
         title: "Debugging",
         description: "Debug dry runs, test plans, and results on local devices.",
-        path: "/docs/debugging/dry-runs-on-cloud-devices/",
+        path: "/docs/debugging/debugging-localdevices-web/",
     },
     {
         id: 11,
@@ -110,7 +110,7 @@ const data = [
         id: 18,
         title: "Testsigma SDK",
         description: "Perform specific actions in Addons using Testsigma SDK.",
-        path: "/docs/sdk/manage-parameter-test-data/",
+        path: "/docs/sdk/manage-runtime-test-data/",
     },
     {
         id: 19,
@@ -150,18 +150,12 @@ const data = [
     },
     {
         id: 25,
-        title: "Product Updates",
-        description: "Learn what's new on Testsigma.",
-        path: "/docs/product-updates/roadmap/",
-    },
-    {
-        id: 26,
         title: "On Premise Setup",
         description: "On Premise setup prerequisites, steps to install & more.",
         path: "/docs/on-premise%20setup/prerequisites/",
     },
     {
-        id: 27,
+        id: 26,
         title: "Best Practices",
         description: "Best Practices to follow for Testsigma Automation",
         path: "/docs/best-practices/best-practices/",
