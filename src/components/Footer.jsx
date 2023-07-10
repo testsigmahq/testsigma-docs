@@ -49,7 +49,7 @@ const Footer = ()=> {
                 </div>
                 <div className="flex_item">
                     <p className="text_end">
-                        ©2022 Copyright , Testsigma Technologies Inc
+                        ©2023 Copyright , Testsigma Technologies Inc
                     </p>
                 </div>
             </div>
