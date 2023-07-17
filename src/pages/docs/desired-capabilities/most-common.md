@@ -114,15 +114,6 @@ Below are a few of the most commonly used Desired Capabilities in executions usi
 |Description|Capability|Data Type|Value|
 |---|---|---|---|
 |Persist App data in local Android devices across Hybrid Test sessions|noReset|boolean|true|
+||||
 
 ---
-
-
-
-
-
-
-
-
-
-
