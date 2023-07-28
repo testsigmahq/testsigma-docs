@@ -1,6 +1,6 @@
 ---
 title: "Test execution state is Queued for a long time"
-metadesc: "This page explains how to debug and fix the “test execution state is queued for a long time” error for web-apps"
+metadesc: "Understand why your test execution state is stuck in Queued for a long time while executing parallel runs and learn how to troubleshoot the issue effectively."
 noindex: false
 order: 23.4
 page_id: "Troubleshooting “Test execution state is Queued for a long time” error"

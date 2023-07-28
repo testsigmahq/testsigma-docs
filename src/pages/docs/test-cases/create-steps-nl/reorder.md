@@ -1,6 +1,6 @@
 ---
 title: "Reorder Test Steps"
-metadesc: "How to reorder test steps in Testsigma UI."
+metadesc: "Testsigma has an amazing feature for the order of test steps. Learn how to reorder test steps in test cases in the order of preferred execution of Test steps"
 noindex: false
 order: 4.48
 page_id: "Reorder Test Steps"
@@ -23,7 +23,7 @@ You can reorder test steps in a test case. Here’s how.
 &emsp;
 
 ---
-##**Pre-requisites:**
+## **Pre-requisites:**
 
 You should already know how to
 
@@ -33,7 +33,7 @@ You should already know how to
 &emsp;
 
 ---
-##**Steps to follow**
+## **Steps to follow**
 
  1. Go to the test case where you want to reorder the test steps.
  2. On the Test Case Details page, you will see a ‘Reorder’ button on the top right of the test steps section as also shown in the screenshot below:
@@ -44,4 +44,4 @@ To reorder the steps, click on the reorder button. Drag and drop the steps in th
 
 ![interface to reorder test steps in a test case in Testsigma](https://docs.testsigma.com/images/reorder/reorder-interface-reorder-test-steps-testsigma.png)
 
-Click ‘Update’ to save the changes. 
+Click **Update** to save the changes. 

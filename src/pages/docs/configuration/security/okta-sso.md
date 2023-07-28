@@ -1,7 +1,7 @@
 ---
 title: "Setting Up Okta Single Sign-On Integration with SAML Login in Testsigma"
 page_title: "Configuring Okta Single Sign-On Integration with SAML in Testsigma"
-metadesc: " How to set up Single Sign-On (SSO) with SAML login easily in Testsigma"
+metadesc: "Single Sign-On (SSO) provides faster, easier, and trusted access to applications. Learn how to set up Single Sign-On (SSO) with SAML login easily in Testsigma."
 noindex: false
 order: 19.23
 page_id: "Setting Up Okta Single Sign-On Integration with SAML Login in Testsigma"
@@ -34,7 +34,7 @@ You can enable Single Sign-On (SSO) in Testsigma with Okta. Once configured, you
 
 
 ---
-##**Terminology**
+## **Terminology**
 
 Here are a few entities that you need to be aware of before we move on to the details:
 
@@ -45,7 +45,7 @@ Here are a few entities that you need to be aware of before we move on to the de
 |Entity ID|Entity ID is an identifier(an alphanumeric string or URI given by the Service Provider (SP) that uniquely identifies it. It's often part of a metadata file (an XML file with a certificate, entity ID, and endpoint URLs). You would get this from the IP (Okta, Onelogin e.t.c).|
 
 ---
-##**I. Getting the Testsigma Configuration for Okta**
+## **I. Getting the Testsigma Configuration for Okta**
 
 Navigate to **Settings > Security**
 
@@ -66,7 +66,7 @@ The important ones are **‘Entity ID’** and **‘Single Sign-On(ACS) URL’**
 Note these down to use in the next section - section II.
 
 ---
-##**II. Create and configure OKTA**
+## **II. Create and configure OKTA**
 
 [[info | NOTE:]]
 |*We strongly suggest you check with your IT team before trying the below steps since they might have exclusive admin access to the IdP configuration.*
@@ -93,12 +93,12 @@ Click on **Next** to proceed.
 
 3. On the second page - **Configure SAML,** we need to provide the Configuration details we got from Testsigma App following the steps in section I.
 
- ![Fill up form to generate XML for Testsigma's SAML request](https://docs.testsigma.com/images/security/form-testsigma-saml-request.png)
-   **a.** **Single Sign-on URL:** https://app.testsigma.com
+ ![Fill up form to generate XML for Testsigma's SAML request](https://s3.amazonaws.com/static-docs.testsigma.com/new_images/projects/applications/SAML.png)
+   **a.** **Single Sign-on URL:** https://app.testsigma.com/saml/77/metadata
 
    **b.** **Audience URI:** https://app.testsigma.com/saml/77/metadata
    
-   **c.** **Default Relay State :** https://app.testsigma.com/saml/77/login
+   **c.** **Default Relay State :** https://app.testsigma.com
    
    **d.** **Name ID Format :** EmailAddress (default)
    
@@ -122,7 +122,7 @@ We will need the same on the Testsigma SAML SSO Configuration page in the next s
 Now, let's move on to the configuration that we need to perform in the Testsigma App.
 
 ---
-##**III. Configuring Testsigma for Okta**
+## **III. Configuring Testsigma for Okta**
 
 You would need to enter the Entity ID, SSO URL, and SAML Certificate you got from the last step (Step 5. b) in the previous section.
 
@@ -144,6 +144,3 @@ And, you are done.
 To disable the SSO login using Okta, click the **Disable** button on the SAML option anytime.
 
 After this, every user in your account would need to log in to Testsigma via the Okta Dashboard once logged out from the current session.
-
-
-

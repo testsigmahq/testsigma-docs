@@ -1,6 +1,6 @@
 ---
 title: "Create One Element at a Time (Using Mobile Inspector) for an Android Project"
-metadesc: " How to create one element at a time using the Testsigma mobile inspector for an android project in Testsigma."
+metadesc: "Learn how to create one element at a time using the Testsigma mobile inspector for an android project in Testsigma application."
 noindex: false
 order: 6.33
 page_id: "Create One Element at a Time (Using Mobile Inspector) for an Android Project"
@@ -28,20 +28,14 @@ In an Android project in Testsigma, you can selectively capture elements one at 
 <br>
 
 ---
-##**Pre-requisites**
+## **Pre-requisites**
 1. You should have an android project in Testsigma. See [creating a project](https://testsigma.com/docs/projects/overview/).
 2. Your android applications’ apk should be uploaded in Testsigma so that the mobile test recorder can record elements from it. See [uploading apps to Testsigma](https://testsigma.com/docs/uploads/upload-apps/).
 
 <br>
 
-**Navigation**
-
-**Test development > Elements**
-
-<br>
-
 ---
-##**How to create one element at a time using the Testsigma mobile test recorder for an android project in Testsigma**
+## **How to create one element at a time using the Testsigma mobile test recorder for an android project in Testsigma**
 
 1. On the ‘All Elements’ page, click on the ‘Create’ button on the top right corner of the page:
 

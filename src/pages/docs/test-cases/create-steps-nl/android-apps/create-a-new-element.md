@@ -1,6 +1,6 @@
 ---
 title: "Create an Element for an Android Project"
-metadesc: " How to create an element while adding test steps to a test case for an android project in Testsigma."
+metadesc: "You can add new elements while adding test steps to your test case manually in an android project in Testsigma. Learn how to create an Element for an Android Project"
 noindex: false
 order: 4.451
 page_id: "Create an Element for an Android Project"

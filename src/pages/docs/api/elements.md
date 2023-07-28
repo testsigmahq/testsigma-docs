@@ -1,7 +1,7 @@
 ---
 title: "Manage Elements using REST API"
 page_title: "Manage Elements using REST API in Testsigma"
-metadesc: "How to use Testsigma Elements API to manage Elements within Testsigma"
+metadesc: "How to use Testsigma Elements API to manage Elements within Testsigma | Learn about Element parameters, API Specification, and how to create element using API"
 noindex: false
 order: 21.3
 page_id: "Manage Elements using REST API"
@@ -23,7 +23,7 @@ contextual_links:
 | You need to authenticate these requests with your Testsigma API Key.  See  [How to generate API Keys.](https://testsigma.com/docs/configuration/api-keys/)
 
 ---
-##**Element parameters**
+## **Element parameters**
 
 Before we check the actual requests, let’s go through some Element properties that you will find in the Request and Response
 
@@ -44,7 +44,7 @@ Before we check the actual requests, let’s go through some Element properties 
 - **createdType:** Creation Mode of the Element. Either ‘Chrome’, ‘Advanced’, or ‘Manual’
 
 ---
-##**API Specification**
+## **API Specification**
 
 ### **Get Elements**
 

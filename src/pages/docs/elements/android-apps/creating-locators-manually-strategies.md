@@ -1,6 +1,6 @@
 ---
 title: "Different ways to create Elements in an Android Project"
-metadesc: "Various ways to create elements for an android project in Testsigma."
+metadesc: "Elements refer to the different objects in your android application. Learn about various ways to create elements for an android project in Testsigma."
 noindex: false
 order: 6.36
 page_id: "Different ways to create Elements in an Android Project"

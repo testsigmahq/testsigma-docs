@@ -1,10 +1,10 @@
 ---
 title: "Setting up SAML-based SSO login for Testsigma in Azure"
 page_title: "Setting up SAML-based Single Sign-On (SSO) for Testsigma with Azure AD"
-metadesc: "How to enable single sign-on for Testsigma with Azure AD"
+metadesc: "Learn how to enable single sign-on for Testsigma with Azure AD. "
 noindex: false
 order: 19.24
-page_id: "Setting up SAML-based SSO login for Testsigma in Azure"
+page_id: "Learn how to Set up SAML-based SSO login for Testsigma in Azure. With Azure Active Directory, users can automatically sign into their cloud-hosted/on-premise apps"
 search_keyword: ""
 warning: false
 contextual_links:
@@ -38,7 +38,7 @@ You can use the Azure Active Directory Admin Center to enable single sign-on (SS
 
 
 ---
-##**Prerequisites**
+## **Prerequisites**
 
 **-** Azure Account with Active Directory enabled
 
@@ -46,7 +46,7 @@ You can use the Azure Active Directory Admin Center to enable single sign-on (SS
 
 
 ---
-##**I. Adding Testsigma Enterprise Application**
+## **I. Adding Testsigma Enterprise Application**
 
 1. Login to Azure portal using the URL :  https://portal.azure.com
 
@@ -69,7 +69,7 @@ In the overlay that opens up on the right, enter the name of the app you are int
     ![Testsigma properties on Azure](https://docs.testsigma.com/images/azure-sso/Testsigma-properties.png)
 
 ---
-##**II. Adding Users to the Enterprise Application**
+## **II. Adding Users to the Enterprise Application**
 
    1. Click the **Assign users and groups card** to add the users in Azure AD to the recently added Testsigma app.
 
@@ -85,7 +85,7 @@ In the overlay that opens up on the right, enter the name of the app you are int
    5. To add assignments to these users, click **Assign**.
 
 ---
-##**III. SAML Configuration on Azure in Testsigma**
+## **III. SAML Configuration on Azure in Testsigma**
 
    1. Back in Testsigma Overview page on Azure, click option 2 i.e, **Set up single sign on**.
    ![set up sso login for Testsigma](https://docs.testsigma.com/images/azure-sso/setup-sso-for-login.png)
@@ -113,8 +113,8 @@ In the overlay that opens up on the right, enter the name of the app you are int
    ![Choose identity provider as SAML](https://docs.testsigma.com/images/azure-sso/choose-identity-provider-saml.png)
 
    You will see an exclusive SAML token identifier for your account. 
-   ![Configuration id for saml configuration on Azure](https://docs.testsigma.com/images/azure-sso/configuration-id-saml-configuration.png)&emsp;
-
+   ![Configuration id for saml configuration on Azure](https://s3.amazonaws.com/static-docs.testsigma.com/new_images/projects/applications/saml.png)
+   
    4. You need to put this identifier in place of **\<id>** in Step 3 and click Save.
    ![Fill in basic configuration details for saml configuration](https://docs.testsigma.com/images/azure-sso/fill-saml-configuration-settings-basic-details.png)
 
@@ -154,7 +154,7 @@ In the overlay that opens up on the right, enter the name of the app you are int
    We will use the **X509Certificate** value, also the values above in Testsigma app in the next section.
 
 ---
-##**IV. Azure Specific SAML Configuration in Testsigma**
+## **IV. Azure Specific SAML Configuration in Testsigma**
 
 Inside your Testsigma account, navigate to **Settings>Security**
   1. Click **Proceed** under SAML
@@ -177,7 +177,7 @@ SAML will now be enabled,
 Let’s test the SSO.
 
 ---
-##**V. Test the SAML Config**
+## **V. Test the SAML Config**
 
  1. On Section 5 of the Single Sign-On option, you will find the option to test. Click 
  **Test**.
@@ -188,4 +188,3 @@ This will test the SAML-based login with the currently logged-in user.
 ![Test Testsigma SIngle Sign On](https://docs.testsigma.com/images/azure-sso/test-testsigma-sso.png)
 
 This will automatically log you into Testsigma.
-

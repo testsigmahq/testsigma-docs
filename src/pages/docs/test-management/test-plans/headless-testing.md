@@ -1,113 +1,74 @@
 ---
-title: "Headless Testing in Testsigma"
-metadesc: "How to create a test plan for headless execution in Testsigma"
+title: "Headless Browser Testing"
+page_title: "Headless Browser Testing in Testsigma: Automate Web Testing Efficiently"
+metadesc: "Learn how to perform headless browser testing in Testsigma. Automate tests without a visual browser interface, ensuring efficient and reliable web app testing."
 noindex: false
 order: 8.28
-page_id: "Headless Testing in Testsigma"
+page_id: "headless-browser-testing-testsigma"
 warning: false
 contextual_links:
 - type: section
   name: "Contents" 
 - type: link
-  name: "Pre-requisites"
-  url: "#pre-requisites"
+  name: "Enabling Headless Browser Testing in Test Case"
+  url: "#enabling-headless-browser-testing-in-test-case"
 - type: link
-  name: "Creating a test plan"
-  url: "#creating-a-test-plan"
+  name: "Enabling Headless Browser Testing in Test Plan"
+  url: "#enabling-headless-browser-testing-in-test-plan"
 - type: link
-  name: "How to edit a test plan"
-  url: "#how-to-edit-a-test-plan"
----
+  name: "Results of Headless Browser Testing"
+  url: "#results-of-headless-browser-testing"
+- type: link
+  name: "Benefits of Headless Browser Testing"
+  url: "#benefits-of-headless-browser-testing"     
 
 ---
 
-A headless browser is a browser without a graphical user interface. Executing your web tests on a headless browser is called headless testing. 
-
-In Testsigma, you can add headless test execution on a machine while creating a test plan and also while editing it. In this document, we will discuss both the approaches as:
-Steps to follow while creating a test plan
-Steps to follow while editing a test plan
-
-&emsp;
-
-### When to use:
-When you need quick results for your testing and your test cases aren’t supposed to evaluate graphical elements on your website.
-
-[[info | Warning:]]
-|Headless testing are not accompanied by video recordings of executions on Testsigma cloud.
- 
-
-&emsp;
-
 ---
-##**Pre-requisites:**
-You should already know how to [create test cases](https://testsigma.com/tutorials/getting-started/automate-web-applications/).
 
-Since a Test Suite is pre-requisite for the creation of Test Plans, see [How to add/edit/delete Test Suite](https://testsigma.com/docs/test-management/test-suites/overview/).
+Headless browser testing simulates browser behaviour without a graphical interface to enable efficient automation and validation of different aspects of web applications.
 
-&emsp;
-
----
-##**Creating a test plan:**
-
-The Test Plan UI has been revamped, but you still have the option to switch to the classic UI. So, you can configure headless test execution while creating a test plan in 2 ways:
-
-1. [Creating A Test Plan Via The New UI](#creating-a-test-plan-via-the-new-ui)
-2. [Creating A Test Plan Via The Classic UI](#creating-a-test-plan-via-the-classic-ui)
+This guide will explain how to do headless browser testing in Testsigma. It will cover what you need to know beforehand, how to enable headless testing in a test case and plan, verify the results of headless testing, and discuss the benefits.
 
 ---
 
-## **Creating A Test Plan Via The New UI**
+### **Prerequisites**
 
-1. When you are creating a new test plan, this action can be taken on tab 2 - Test Machines and Suites Selection.
-2. When you add a machine on the tab 2, you can enable the “Headlest Test” on the “Add Machine” layover. The “Headless Test” toggle button is also highlighted in the screenshot below: 
+Before using the Headless browser testing feature, you should understand the concepts of [Projects](https://testsigma.com/docs/projects/overview/), [Test Cases](https://testsigma.com/docs/test-cases/manage/add-edit-delete/), [Test Plans](https://testsigma.com/docs/test-management/test-plans/overview/), [Ad-hoc Runs](https://testsigma.com/docs/runs/adhoc-runs/), and [Test Machines](https://testsigma.com/docs/test-management/test-plans/manage-test-machines/) in Testsigma.
 
-![New Test Plan UI - Headless Test Toggle Button ](https://s3.amazonaws.com/static-docs.testsigma.com/new_images/test-management/test-plans/headless-testing/new-test-plan-ui-headless-test-toggle-button.png)
+[[info | NOTE:]]
+| Headless testing can test web applications
+
+---
+
+## **Enabling Headless Browser Testing in Test Case**
+
+Click the toggle button for **Headless Tes**t on the **Ad-hoc Run** page of the test case to enable headless testing for a specific test case. Then, start the test by clicking **Run Now**. ![Headless Test in Test Case](https://s3.amazonaws.com/static-docs.testsigma.com/new_images/projects/overview/headlesstest_testcase.gif)
 
 ---
 
-## **Creating A Test Plan Via The Classic UI**
+## **Enabling Headless Browser Testing in Test Plan**
 
+1. To enable headless testing for a test plan, navigate to the **Test Machines & Suites Selection** tab on the **Create** or **Edit Test Plan** page. ![Add Machine in Test Plan](https://s3.amazonaws.com/static-docs.testsigma.com/new_images/projects/overview/addmachines_testplan_ht.png)
+2. Enable the toggle for **Headless Test** on the **Add** or **Edit Machine/Device page** and click **Update**. ![Enable Headless in Test Plan](https://s3.amazonaws.com/static-docs.testsigma.com/new_images/projects/overview/enable_ht_testplan.png)
 
-1. On the Test Plan page, click on the +Test Plan button:
-
-![add test plan button for headless testing configuration in Testsigma](https://docs.testsigma.com/images/headless-testing/add-test-plan-button-headless-testing-testsigma.png)
-
-2. Create Test Plan page would open as shown below:
-
-![create Test Plan page in Testsigma](https://s3.amazonaws.com/static-docs.testsigma.com/new_images/test-management/test-plans/overview/create-test-plan-page-overview-testsigma.png)
-
-3. On the Create Test Plan page, enter all the required details:
-
-4. Click on “Next Button” once all options are filled. The “Test Machines & Suites Selection” tab will open, like this:
-
-![Test Machines and Suites Selection section on the Create Test Plan Page in Testsigma](https://s3.amazonaws.com/static-docs.testsigma.com/new_images/test-management/test-plans/overview/test-machines-and-suites-selection-overview-testsigma.png)
-
-5. In the “Test Machines & Suites Selection” tab, add the machines. Each machine will have a toggle button with the text ‘Headless Test’:
-
-![headless test toggle button on create test plan page in Testsigma](https://s3.amazonaws.com/static-docs.testsigma.com/new_images/test-management/test-plans/headless-testing/test-machines-and-suites-selection-headless-testsigma.png)
-
-To execute your test plan on the selected machine via a headless browser, you just have to enable the headless test button.
-
-
-6. You can now finish creating the test plan as usual.
+Here is a quick GIF demonstrating the above workflow: ![Headless in Test Plan](https://s3.amazonaws.com/static-docs.testsigma.com/new_images/projects/overview/headlesstest_testplan.gif)
 
 ---
-##**How to edit a test plan**
-On the Test Plans page, click on a Test Plan name to open the details page for that Test Plan:
 
-![Test Plan details page for headless testing in Testsigma](https://docs.testsigma.com/images/headless-testing/test-plan-details-page-headless-testing-testsigma.png)
+## **Results of Headless Browser Testing**
 
-1. Click on the Edit button on the top right corner as shown below: 
+After running the test case, click on the **Watch Video** tab in the test execution results to check if the browser was running in headless mode. Please note that Testsigma does not record videos during headless testing. ![Results of Headless Test](https://s3.amazonaws.com/static-docs.testsigma.com/new_images/projects/overview/watchvideo_ht.png)
 
-![edit button on cross-browser testing test plan page for headless testing in Testsigma](https://docs.testsigma.com/images/headless-testing/edit-button-cross-browser-testing-test-plan-headless-testing-testsigma.png)
+---
 
-2. The ‘Edit Test Plan’ Page opens, as shown below:
- 
-![Edit Test Plan page in Testsigma](https://s3.amazonaws.com/static-docs.testsigma.com/new_images/test-management/test-plans/cross-browser-testing/edit-test-plan-page-testsigma.png)
+## **Benefits of Headless Browser Testing**
 
-2. Go to the ‘Test Machines & Suites Selection’ tab to add/edit test machines for headless testing. You just will have to enable the ‘Headless Test’ toggle button for the test machines on which you need to perform headless testing.
- 
-3. To finalize the updates, click on the “Update” button that would appear on the last tab “Test Plan Settings”.
+|Benefits|Description|
+|---|---|
+|**Faster Execution**|Headless browsers can run tests faster than traditional GUI-based testing because they do not render graphical elements.|
+|**Improved Scalability**|Headless browser testing enables faster test cycles and improved scalability by allowing parallel execution of tests on multiple virtual machines or containers.|
+|**Lower Resource Consumption**|Headless testing allows you to maximise resource allocation for other critical tasks without needing a GUI by requiring fewer system resources.|
+|**Compatibility Testing**|Headless browser testing allows you to test web applications on different browsers and versions without manual intervention.|
 
-
-
+---

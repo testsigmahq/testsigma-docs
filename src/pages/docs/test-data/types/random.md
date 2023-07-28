@@ -1,6 +1,6 @@
 ---
 title: "Random Test Data in Testsigma"
-metadesc: "What is Random test data and how to use it in Testsigma"
+metadesc: "Type random data as test data input to your test cases in Testsigma. Learn how to use random text as test data type for your test cases in Test Automation"
 noindex: false
 order: 5.116
 page_id: "Random Test Data in Testsigma"

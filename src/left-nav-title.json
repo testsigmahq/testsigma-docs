@@ -350,6 +350,9 @@
   "bitbucket-ci": {
     "/docs/continuous-integration/bitbucket-ci/": "Bitbucket CICD"
   },
+  "gitlab-cicd": {
+    "/docs/continuous-integration/gitlab-cicd/": "GitLab CI/CD"
+  },
   "shell-script": {
     "/docs/continuous-integration/shell-script/": "Shell Script(Generic)"
   },
@@ -534,7 +537,7 @@
     "/docs/troubleshooting/mobile-apps/failed-to-launch-test-recorder/": "Failed to Start Mobile Test Recorder"
   },
   "why-chrome-extension": {
-    "/docs/faqs/web-apps/why-chrome-extension/": "Why Install Chrome Extension"
+    "/docs/FAQs/web-apps/why-chrome-extension/": "Why Install Chrome Extension"
   },
   "why-cloud-devices-cannot-access-local-apps": {
     "/docs/FAQs/web-apps/why-cloud-devices-cannot-access-local-apps/": "Why cloud based test machines can't access locally hosted applications?"

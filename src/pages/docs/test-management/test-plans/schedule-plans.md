@@ -1,6 +1,6 @@
 ---
 title: "Schedule Test Plans"
-metadesc: "How to schedule executions for a test plan in Testsigma."
+metadesc: "Learn how to create test plans and schedule the test plans for efficient testing in Testsigma. Understand how to create and manage test plans."
 noindex: false
 order: 8.24
 page_id: "Schedule Test Plans"

@@ -1,6 +1,6 @@
 ---
 title: "Create Elements [Manually]"
-metadesc: "How to create elements manually for an iOS project in Testsigma."
+metadesc: "Element path plays an important role in dynamic websites. Learn how to create elements manually for a iOS Applications in Testsigma."
 noindex: false
 order: 6.44
 page_id: "Create Elements [Manually]"

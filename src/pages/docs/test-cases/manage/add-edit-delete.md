@@ -1,7 +1,7 @@
 ---
-title: "Add, edit and delete test cases"
+title: "Manage Test Cases"
 pagetitle: "Add, Edit & Delete Test Cases in Testsigma"
-metadesc: "How to create, edit and delete Test Cases in Testsigma"
+metadesc: "Effortlessly manage your test cases in Testsigma by seamlessly creating, editing, deleting, and recovering them. Streamline your test case management process, adapt to changing project needs, and ensure comprehensive test coverage."
 noindex: false
 order: 4.10
 page_id: "Add, Edit, Delete Test Cases"
@@ -10,10 +10,10 @@ contextual_links:
 - type: section
   name: "Contents"
 - type: link
-  name: "Creating a test case"
+  name: "Creating a Test Case"
   url: "#creating-a-test-case"
 - type: link
-  name: "Test case - Advanced options"
+  name: "Test Case - Advanced Options"
   url: "#test-case----advanced-options"
 - type: link
   name: "Edit Test Case"
@@ -21,163 +21,136 @@ contextual_links:
 - type: link
   name: "Delete Test Case"
   url: "#delete-test-case"
----
+- type: link
+  name: "Recover Deleted Test Case"
+  url: "#recover-deleted-test-case" 
 
 ---
 
-Test cases  are a set of steps or user actions that are automated to play out a test scenario.
+---
+
+We will explore the key functionalities within Testsigma that allow you to create, edit, delete, and recover deleted test cases. Test case automation plays out a test scenario by executing steps or user actions.
 
 Before you can start creating test cases,  you should have created a **Project** in Testsigma and  should have a basic understanding of  Project organization that is, how the projects, applications, versions and test cases are organized hierarchically in Testsigma.
 
 A sample project will be created by default in your Testsigma Account when you first sign up. If you want to create a new project, *refer to [create new project](https://testsigma.com/docs/projects/overview/#create-project)*.
-&emsp;
 
 ---
-##**Creating a test case**
 
-1. From the Testsigma dashboard, navigate to the **Test cases** page by going to **Test development > Test case**.
+## **Creating a Test Case**
 
-![Test Cases List](https://s3.amazonaws.com/static-docs.testsigma.com/new_images/test-cases/overview/view_your_test_cases.png)
+1. To create a new Project: <br>
+    a. Mousehover to **Create New** in the top-right corner of the Testsigma Dashboard screen and select **Test Case** from the drop-down menu. ![Create Test Cases in Dashbord](https://s3.amazonaws.com/static-docs.testsigma.com/new_images/projects/overview/testcase_dashboard_ts.png)
+    b. Alternatively, Navigate to **Test Development** > **Test Cases** and click the **Create** button on the top right corner of the Test Cases page to open the **Create Test Case** page. ![Create Test Case Form Test Cases Page](https://s3.amazonaws.com/static-docs.testsigma.com/new_images/projects/overview/testcase_page_create_ts.png)
 
-2. On the **Test cases** page, click the **Create** button on the top right corner.
-The **Create test case** page will appear as shown below (For web and mobile web):
-
-![Create Test Case Form](https://s3.amazonaws.com/static-docs.testsigma.com/new_images/test-cases/overview/create_test_case.png)
-
-3. Enter the details as given below:<br><ul>
-<li><strong>Name (Required)</strong>: Enter a title for the Test Case.</li>
-<li><strong>URL</strong>: Enter the URL of the application with which you want to execute the test case.</li> </ul>
-
-Note that for Android and iOS projects - you will be required to select the corresponding app instead of the URL.<br> 
-To create the test steps for your test case, you can either **Record steps** using Testsigma recorder or **Write test  manually**. 
-&emsp;
+2. On the **Create Test Case** Page, you should enter the following details: :
+    - **Name** (Required): Enter a title for the Test Case.
+    - **URL**: Enter the URL of the application you want to execute the test case (for Web App and Mobile Web App).
 
 [[info | NOTE:]]
-|In order to record the test steps for a web project or a mobile web project, you should have the Testsigma teststep recorder extension installed. Check how to install that [here](https://testsigma.com/docs/test-step-recorder/install-chrome-extension/). 
----
-##**Test case  - Advanced options**
+| In the Create Test Case page of the Android and iOS Apps project, select Apk for Android and IPA for iOS instead of the URL. Refer to [Manage Projects](https://testsigma.com/docs/projects/overview/) and [Upload Android and iOS Apps](https://testsigma.com/docs/uploads/upload-apps/) for more information.
+ 
+3. You can use Testsigma recorder to **Record steps** or **Write Test Manually** to create the test steps for your test case. ![Enter Details for Test Case](https://s3.amazonaws.com/static-docs.testsigma.com/new_images/projects/overview/enterdetails_testcase_ts.png). 
 
-Test case advanced options help you manage or group test cases better while creating test suites, test plans and understanding the test coverage.
-
-To view the advanced options for you test case, click on **Show advanced options** on the **Create test case** page
-
-The advanced options available are as follows:
-
-1. **Requirement (Required)**: In Testsigma, each test case can be mapped to an individual software requirement for better organization of your test cases. Select the requirement to which you want to map this test case. *For more information, refer to [requirements](https://testsigma.com/docs/projects/requirements/)*. 
-2. **Assignee**: Select the user (team member)  you want to assign this test case to.
- The assigned team member will get notified for test case failures and during test case reviews.
-3. **Reviewer**: Select the user (team member) who will review this test case.
- *For more information, refer to [test case review management](https://testsigma.com/docs/collaboration/test-cases-review-management/)*.
-4. **Priority (Required)**: Select the priority level that you want to set for this test case. *For more information refer to [test case priorities](https://testsigma.com/docs/projects/settings/test-case-priorities/)*<ul>
-<li><strong>Critical</strong> – Highest priority </li>
-<li><strong>Major</strong> – Test case for a major feature</li>
-<li><strong>Medium</strong> – Medium priority</li>
-<li><strong>Minor</strong> – Test case for a minor feature</li>
-</ul>
-
-5. **Type (Required)**: Select any of the below test method type that needs to be gratified using this test case.*For more information, refer to  [test case types](https://testsigma.com/docs/projects/settings/test-case-types/)*.
-<ul>
-<li><strong>Unit test</strong></li>
-  <li><strong>Integration</strong></li>
-  <li><strong>Functional</strong></li>
-  <li><strong>Non-functional</strong></li>
-  <li><strong>User Experience</strong></li></ul>
-
-6. **Status (Required)**: Test case status is used for organizing and managing the testing workflow. Select the appropriate status for the Test Case.<ul>
-  <li>Draft – Test case is in an abstract mode.</li>
-  <li>Review- Test Case is under inspection.</li>
-  <li>Ready- Test Case is active and ready to be executed.</li>
-  <li>Obsolete- Test Case is no longer valid.</li>
-  <li>Rework – Test Case needs to be updated.</li></ul>
-&emsp;
-7. **Prerequisite (Required)**: Select another Test Case as a prerequisite for this Test Case. This will help you save execution time when a prerequisite condition is not met.<br>For example, in the case of an e-commerce shopping website, the test case **Add Items to Cart** would be a prerequisite for **Place Order** since an order cannot be placed in an empty Cart. If the **Add Items to Cart** Test Case is not added to the Test Suite, the Test will fail in most cases. Therefore, it would be beneficial to add it as a prerequisite for the **Place Order** Test Case.
-
-8. **Labels**: You can assign existing tags to the test cases or create new tags.
-
-9. **Test Data Profile**: Select the Test Data profile to be used in the Test Case. This is required only if you are going to use parameter type test data in your test steps.
-For more information, refer to [test data profile](https://testsigma.com/docs/test-data/create-data-profiles/)
-
-10. **Test data set**: Specify the data set in the test data profile that is used in the test case.
-
-10.  **Data-Driven (toggle)**: Enable this if you want to run the same test case repeatedly, each time with a different set of data for the input fields. You will need to add a Test Data Profile before enabling this option.<br>*For more information, refer to [data-driven testing](https://testsigma.com/tutorials/test-cases/data-driven-testing/)*.<br><br>
-If you enable the data driven testing in your test case you can narrow and customize the various data sets from your test data profile that are being used in your test case using the filters *iteration*, *parameter*, *set name*.<br><ul>
-<li>Iteration: This type of filtering is applicable only to sequential data sets. The data sets can be filtered using the filter operations <em>greater than</em>,<em>less than</em>, or <em>between</em></li>
-<li>Set name: This type of filtering is applicable for non sequential data sets. Here the data sets are filtered by data set names using the operations <em>between</em>, <em>equals</em>, <em>contains</em>, <em>starts with</em>, <em>ends with</em>. Any data set names containing the set name or part of it are used in the test case.</li>
-<li>Parameter:This type of filtering is applicable for non sequential data sets. Here the data sets are filtered using parameters used in data sets.</li>
-</ul>
-
-![Advanced options](https://s3.amazonaws.com/static-docs.testsigma.com/new_images/test-cases/overview/adavanced_options_create_test_case.png)
-
-&emsp;
-
-
-
-
-
+[[info | NOTE:]]
+| You should install the Testsigma test step recorder extension to record the test steps for a web app or mobile web app project. Check [here](https://testsigma.com/docs/test-step-recorder/install-chrome-extension/) for instructions on how to install it.
 
 ---
 
-##**Edit Test Case**
+## **Test Case  - Advanced Options**
 
-In the list of test cases, click on the test case name to open the test case details page as shown below:
+Click on **Show Advanced Options** on the **Create Test Case page** to view the advanced options for your test case. The available advanced options help you better manage or group test cases while creating test suites and plans and understanding the test coverage.
 
-![Test Case Details](https://s3.amazonaws.com/static-docs.testsigma.com/new_images/test-cases/overview/edit_test_case.png)
+![Test Case Advance Options](https://s3.amazonaws.com/static-docs.testsigma.com/new_images/projects/overview/tc_advanceoptions.png)
+ 
+1. **Automation/ Manual Testing**: Testsigma allows you to choose whether to create an automated or manual test case.
+2. **Requirement (Required)**: You can associate specific requirements with test cases. This option enables you to establish traceability between requirements and test cases, ensuring that all necessary functionalities are adequately tested. *For more information, refer to [requirements](https://testsigma.com/docs/projects/requirements/)*. 
+3. **Assignee**: Select the user (team member) you want to assign to this test case. The team member you assign will receive notifications about test case failures during test case reviews.
+4. **Reviewer**: Testsigma allows users to assign a reviewer (team member) to each test case so that the reviewer can evaluate the accuracy, completeness, and adherence to testing standards of the test case. This promotes collaboration and ensures the quality of the test cases. *For more information, refer to [test case review management](https://testsigma.com/docs/collaboration/test-cases-review-management/)*.
+5. **Priority (Required)**: Select the priority level that you want to set for this test case. *For more information refer to [test case priorities](https://testsigma.com/docs/projects/settings/test-case-priorities/)*.
+    - **Critical**: Highest priority
+    - **Major**: Test case for a major feature
+    - **Medium**: Medium priority
+    - **Minor**: Test case for a minor feature
 
-Click on the **Edit** button(pencil icon) on the top right corner to edit the test case settings. 
+6. **Type (Required)**: Select any of the below test method type that needs to be gratified using this test case.*For more information, refer to  [test case types](https://testsigma.com/docs/projects/settings/test-case-types/)*.
+    - **Unit Test**: Testing individual components or modules of the software to ensure their functionality in isolation.
+    - **Integration**: Testing the interaction and compatibility between multiple components or modules to ensure they work together correctly.
+    - **Functional**: Testing the functional requirements of a software application to ensure it meets the intended specifications.
+    - **Non-functional**: Testing a software application's performance, usability, security, and other non-functional aspects.
+    - **User Experience**: Testing a software application's overall user experience, usability, and user interface to ensure it meets user expectations.
+    - **Content Verification**: Testing the accuracy and correctness of the content displayed or presented in a software application or website.
 
-![Edit Test Case](https://s3.amazonaws.com/static-docs.testsigma.com/new_images/test-cases/overview/edit_test_case_details.png)
+7. **Status (Required)**: Test case status is used for organizing and managing the testing workflow. Select the appropriate status for the Test Case.
+    - **Draft**: Test case is in an abstract mode.
+    - **Review**: Test Case is under inspection.
+    - **Ready**: Test Case is active and ready to be executed.
+    - **Obsolete**: Test Case is no longer valid.
+    - **Rework**: Test Case needs to be updated.
 
-Make the required changes and click on the **Update** button to confirm the changes.
-To edit the test steps, hover over the corresponding step to reveal the test step actions. Click on the **Edit** button(pencil icon) to edit the test step. While editing a test step, you may:
+8. **Prerequisite (Required)**: Testsigma enables you to define prerequisites for test cases. Prerequisites specify any necessary conditions or steps to be completed before executing a test case, ensuring the test environment is properly set up.
 
-* Change the simple English based grammar used
-* Edit the test data
-* Change the element
+[[info | Example:]]
+| For an e-commerce shopping website, the testing team should add the test case **Add Items to Cart** as a prerequisite for **Place Order** since an order cannot be placed in an empty cart. If they omit the **Add Items to Cart** test case from the test suite, the test will fail in most cases. Therefore, including it as a prerequisite for the **Place Order** test case is beneficial.
 
-*For more information on how to add or edit test steps, refer to  [create or edit test steps](https://testsigma.com/docs/test-cases/create-steps-nl/overview/)*.
+9. **Labels**: Applying labels to test cases helps the group categorise them based on specific attributes such as modules, components, or testing phases. Labels facilitate efficient filtering and searching, allowing for easier management and retrieval of relevant test cases.
 
-&emsp;
+10. **Test Data Profile**: Select the Test Data profile to be used in the Test Case. This is only required if you use parameter-type test data in your test steps. *For more information, refer to [test data profile](https://testsigma.com/docs/test-data/create-data-profiles/)*
+
+11. **Test data set**: Specify the data set in the test data profile used in the test case.
+
+12. **Data-Driven (toggle)**: Enable the Data-Driven (toggle) to repeatedly run the same test case with different input field data sets. Before enabling this option, add a Test Data Profile.  Once enabled, you can customise the various data sets from your test data profile used in your test case using filters such as iteration, parameter, and set name. *For more information, refer to [data-driven testing](https://testsigma.com/tutorials/test-cases/data-driven-testing/)*.
+    - **Iteration**: You can filter sequential data sets using filter operations such as _greater than_, _less than_, or _between_. This type of filtering only applies to sequential data sets.
+    - **Set Name**: You can use this type of filtering for non-sequential data sets. You can filter the data sets by their names using operations such as _between_, _equals_, _contains_, _starts with_, and _ends with_. The test case uses any data set names that contain the specified name or a part of it. 
+    - **Parameter**: This type of filtering applies to non-sequential data sets. You filter the data set using parameters within the data sets.
+
+13. **After Test Case**: Testsigma allows you to specify actions to be performed after the execution of a test case. You can define custom steps or tasks that must be completed after the test case execution, facilitating cleanup or preparation for subsequent test cases. *For more information, refer to [After Test Case](https://testsigma.com/docs/test-management/test-plans/after-test/#after-test-in-test-cases)*.
+    - **Run After all iterations - Show Test Case Result**: Perform an action or task after executing all iterations of a test case to display the overall result.
+    - **Run After all iterations - Fail the Test**: Perform an action or task after executing all iterations of a test case to mark the entire test case as failed.
+    - **Run After Each iteration - Show iteration result**: Perform an action or task after executing each iteration of a test case to display the result of that specific iteration.
+    - **Run After Each iteration - Fail the iteration**: Perform an action or task after executing each test case iteration to mark that specific iteration as failed.
+
+14. **Mark this for AfterTest Suite**: By marking a test case for the **AfterTest Suite**, you ensure that the test case is executed as part of the cleanup or finalisation process after the execution of a test suite. This option helps maintain the test environment and ensure the proper closure of testing activities.
+
+15. **Co-Reviewer**: In Testsigma, you can assign a co-reviewer to a test case. The co-reviewer can collaborate with the primary reviewer and provide additional feedback or suggestions, enhancing the quality and effectiveness of the test case review process.
+
+16. **Version**: Testsigma supports versioning for test cases, allowing you to maintain different test case versions. This feature lets you track changes, compare versions, and roll back to previous versions if necessary.
+
+17. **Description**: Testsigma provides a description field for test cases, allowing you to provide detailed information about the purpose, scope, or specific instructions for executing the test case. This information enhances the understanding of the test case and facilitates smooth execution.
 
 ---
 
-##**Delete Test Case**
+## **Edit Test Case**
 
-You can delete a test case either from the test case details page or from the test cases list.
+1. Click on the test case you want to edit in the list of test cases. ![Test Case List](https://s3.amazonaws.com/static-docs.testsigma.com/new_images/projects/overview/testcase_list_ts.png)
 
-On the test case details page, click on the **Delete** button(trash icon) on the top right corner to delete the test case. <br>The Test Case will be moved to the trash and you can restore the deleted test case later.
+2. To edit the test case settings, click the **Edit** button in the top right corner. ![Edit Test Case](https://s3.amazonaws.com/static-docs.testsigma.com/new_images/projects/overview/edit_testcase_ts.png)
 
-Note that if you proceed with deleting the test case, all the associated test suites, test plans and any prerequisite will also be removed.
-![delete test case](https://s3.amazonaws.com/static-docs.testsigma.com/new_images/test-cases/overview/delete_test_case.png)
+3. Click the **Update** button after making the required changes to confirm the changes. ![Update Edited Changes](https://s3.amazonaws.com/static-docs.testsigma.com/new_images/projects/overview/update_testcase_ts.png)
 
-From the test cases list, select one or more test cases by clicking on the checkbox beside it and click on the Delete button(trash icon) on top of the list to delete the test cases together.
-![bulk delete test cases](https://s3.amazonaws.com/static-docs.testsigma.com/new_images/test-cases/overview/bulk_delete_test_cases.png)
-A dialog box will open up asking to confirm your choice of deleting the test case. Select the checkbox and click on the **Delete** button to confirm the deletion.
+---
 
-Deleting test cases from the list sends it to the trash folder. You can access the trash folder from the **Test case filters** overlay screen.
+## **Delete Test Case**
 
-![Test Case Filters overlay](https://docs.testsigma.com/images/add-edit-delete/test-case-filters1.png)
+1. Delete a test case from the Test Case Details page or the Test Case list.<br><br>
+    a. To delete the test case, click the **Delete** button in the top right corner of the **Test Case Details** page. ![delete from test case details](https://s3.amazonaws.com/static-docs.testsigma.com/new_images/projects/overview/delete_testcasedetails_ts.png)
+    b. Click the **Checkbox** beside one or more test cases in the **Test Cases List** and click the **Delete** button on top of the list to delete the test cases together. ![bulk delete test cases](https://s3.amazonaws.com/static-docs.testsigma.com/new_images/projects/overview/delete_testcaselist_ts.png)
+2. Click the **Yes, Delete** button when the dialog box opens to confirm the deletion of the test case. ![Delete Confirmation](https://s3.amazonaws.com/static-docs.testsigma.com/new_images/projects/overview/delete_prompt_ts.png)
 
-From the trash, you can open a test case, restore it, or delete it permanently.
+[[info | NOTE:]]
+| - When you delete test cases from the list, you send them to the trash folder. You can restore or permanently delete the test case from the trash folder.
+| - Deleting the test case will remove all the associated test suites, test plans, and any prerequisites.
 
-If you try to delete a test case permanently, a dialog box will open up asking you to remove the test case associations from test suites if there are any.
+---
 
-![Remove Test Case Suite Mapping](https://docs.testsigma.com/images/add-edit-delete/remove-test-case-suite-mapping1.png)
+## **Recover Deleted Test Case**
 
-Click on the **Delete** button to confirm test case deletion.
+1. Navigate to the **Test Development** tab. And click on the **Hamburger** icon in the top left corner of the screen to open the **Switch View** options. ![Click Hamburger Icon](https://s3.amazonaws.com/static-docs.testsigma.com/new_images/projects/overview/switchviews_testdeve_ts.png)
+2. Select the **Trash (Deleted Test Cases)** option in the switch view options. This will take you to a list of all the test cases that have been deleted. ![Select Trash Deleted Test Cases](https://s3.amazonaws.com/static-docs.testsigma.com/new_images/projects/overview/switchviews_list_ts.png)
+3. Locate the test case you want to recover in the **Trash (Deleted Test Cases)**. You can either scroll through the list or use the search bar to find the test case. ![Select Deleted Test Case](https://s3.amazonaws.com/static-docs.testsigma.com/new_images/projects/overview/trash_testcase_ts.png)
+4. Once you locate the deleted test case, select the **Restore** button to recover it. If you select the **Delete Forever** button, you will permanently delete the test case, which cannot be recovered. ![Select Restore or Delete Forever](https://s3.amazonaws.com/static-docs.testsigma.com/new_images/projects/overview/restore_deleteforever_ts.png)
+5. After you restore the test case, it will be visible on the Test Cases page. ![Visible in Test Cases Page](https://s3.amazonaws.com/static-docs.testsigma.com/new_images/projects/overview/restored_testcase_ts.png)
 
-![Delete Test Case Confirmation](https://docs.testsigma.com/images/add-edit-delete/confirm-delete-test-case1.png)
+Here is a quick GIF demonstrating the above workflow: ![Restore Deleted Test Cases](https://s3.amazonaws.com/static-docs.testsigma.com/new_images/projects/overview/recover_deletedtc.gif )
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+---

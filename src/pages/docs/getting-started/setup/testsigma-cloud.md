@@ -34,38 +34,38 @@ contextual_links:
 This guide walks you through creating an account and using Testsigma Cloud
 
 ---
-##**Creating an account**
+## **Creating an account**
 Go to [https://testsigma.com/signup](https://testsigma.com/signup) to create an account.
 
 ![Create a new project](https://docs.testsigma.com/images/testsigma-cloud/create-a-new-project.png)
 
 ---
-##**Create a new project**
+## *Create a new project**
 * Click on **create a new project** and fill in the name and description
 * Select the number of applications to be included. You can turn on versioning if you need it
 * Select the type of application you’d like to test from - Web, Mobile-Web, Android, iOS or API
 * And that’s it! You’re ready to start testing
 
 ---
-##**Creating and running a test**
-###Step 1: Create test case
+## **Creating and running a test**
+### Step 1: Create test case
 
 ![Create test case](https://s3.amazonaws.com/static-docs.testsigma.com/new_images/getting-started/setup/testsigma-cloud/create-test-case.png)
 
 * In the left nav click on **Test Development** and click on **Test cases**. Fill in the required fields. Next, if you want to write NLP test steps for the test case, click on "Write Tests", or else, if you want to record the test steps then click on "Record Test"
 
-###Step 2: Add Test Steps
+### Step 2: Add Test Steps
 
 [Check out this tutorial](https://testsigma.com/docs/test-cases/step-types/natural-language/) to learn how to create & add test steps
 
-###Step 3: Run your test
+### Step 3: Run your test
 ![Run your test](https://docs.testsigma.com/images/testsigma-cloud/run-your-test.png)
 
 * Once you’ve created your test steps, click on the **Run** button
 * You can choose from several browser/OS version combinations as well as devices if you’re testing your mobile app
 * You can also run your tests locally through the [agent](https://testsigma.com/docs/runs/dry-runs-on-local-devices/)
 
-###Step 4: View results & debug errors
+### Step 4: View results & debug errors
 ![View results and debug errors](https://docs.testsigma.com/images/testsigma-cloud/view-results-and-debug-errors.png)
 
 * After you run your test you’ll automatically see the results show up in real time on your screen
@@ -75,15 +75,15 @@ Go to [https://testsigma.com/signup](https://testsigma.com/signup) to create an 
 [Click here](https://testsigma.com/docs/runs/adhoc-runs/) to learn more about Ad-Hoc runs
 
 ---
-##**Check your reports**
+## **Check your reports**
 You can go to the run results section located in the test development tab to take a deep dive into detailed reports of your executions and use various filters to get different insights
 
 ---
-##**Try running data driven tests**
+## **Try running data driven tests**
 Testsigma’s integrated test data profiles let you easily create or upload data sets to be used in your test cases. 
 
 ---
-##**Troubleshooting**
+## **Troubleshooting**
 
 * Connect with product experts on the team and in the Community on our [Discord](https://discord.com/invite/5caWS7R6QX/)
 * Troubleshooting problems? Report bugs as [Github issues](https://github.com/testsigmahq/testsigma/discussions)
@@ -91,15 +91,8 @@ Testsigma’s integrated test data profiles let you easily create or upload data
 * Refer to our [FAQ](https://testsigma.com/docs/getting-started/faqs/) section for answers to commonly asked questions.
 
 ---
-##**Next Steps**
+## **Next Steps**
 
-* [Take the complete course](https://testsigma.com/tutorials): Learn how to use Testsigma end-to-end, using our tutorials
+* [Take the complete course](https://testsigma.com/tutorials/): Learn how to use Testsigma end-to-end, using our tutorials
 * [Create your own add-ons](https://testsigma.com/docs/addons/what-is-an-addon/): Cover more test scenarios by creating add ons in Testsigma
-* [Integrate with your CI/CD pipeline](https://testsigma.com/docs/continuous-integration/jenkins/): Enable continuous testing by integrating with your CI/CD tools
-
-
-
-
-
-
-
+* [Integrate with your CI/CD pipeline](https://testsigma.com/docs/continuous-integration/jenkins/): Enable continuous testing by integrating with your CI/CD tools. 

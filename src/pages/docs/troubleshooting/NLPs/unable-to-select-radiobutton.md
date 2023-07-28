@@ -1,6 +1,6 @@
 ---
 title: "Unable to Select Radiobutton"
-metadesc: " What to do if your NLP for Select or Unselect of Radiobutton does not seem to work."
+metadesc: "Follow these steps if you're unable to select a radio button | This article guides you to follow a few steps if you can't access radiobutton & continue testing."
 noindex: false
 order: 23.7
 page_id: "Unable to Select Radiobutton"

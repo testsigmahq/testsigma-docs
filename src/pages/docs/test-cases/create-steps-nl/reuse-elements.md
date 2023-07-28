@@ -1,6 +1,6 @@
 ---
 title: "Reuse Elements"
-metadesc: " How to reuse elements that were previously added to your project in Testsigma."
+metadesc: "When you add elements to a test case, they are saved in the corresponding project in Testsigma. Learn how to reuse these elements to your project."
 noindex: false
 order: 4.47
 page_id: "Reuse Elements"
@@ -23,7 +23,7 @@ When you add elements to a test case, they are saved in the corresponding projec
 &emsp;
 
 ---
-##**Pre-requisites**
+## **Pre-requisites**
 
 You should know how to
 
@@ -33,14 +33,14 @@ You should know how to
 &emsp;
 
 ---
-##**Steps to follow**
+## **Steps to follow**
 
  1. Create a new test case in the Project that has the elements you want to use.
  2. Create test steps. Let’s say you want to add a test step where you want to use Elements, some example test steps that would use an Element are:
 
 ![example of test steps that contain Elements in Testsigma](https://docs.testsigma.com/images/reuse-elements/test-steps-that-contain-ui-identifiers-in-testsigma.png)
 
- 3. Add the test step and click on the green text that says ‘element’. The Elements’ layover appears on screen, as shown in the screenshot below. This will show all Elements in the project.
+ 3. Add the test step and click on the green text that says **element**. The Elements’ layover appears on screen, as shown in the screenshot below. This will show all Elements in the project.
 
 ![ui-identifiers-layover-to-reuse-elements-testsigma](https://docs.testsigma.com/images/create-a-new-element/the-elements-layover-over-test-case-page-testsigma.png)
 

@@ -1,6 +1,6 @@
 ---
 title: "Using Parameter Test Data for Dynamic locators"
-metadesc: "Elaborates on the usage of Parameter Test Data for creating dynamic locators for use in Data-driven Testing."
+metadesc: "This article discusses the usage of Parameter Test Data for creating dynamic locators to use in Data-driven Testing | Learn about Parameter Test Data"
 noindex: false
 order: 6.61
 page_id: "Using Parameter Test Data for Dynamic locators"

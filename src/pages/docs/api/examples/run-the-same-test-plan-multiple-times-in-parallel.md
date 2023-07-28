@@ -1,6 +1,6 @@
 ---
 title: "Run the same Test Plan multiple times in Parallel"
-metadesc: "This document discusses how one test plan can be run multiple times, in parallel, using the REST API calls."
+metadesc: "This document discusses how one test plan can be run multiple times, in parallel, using the REST API calls | Run same test plan multiple times"
 noindex: false
 order: 21.63
 page_id: "Run the same Test Plan multiple times in Parallel"
@@ -14,4 +14,5 @@ To know how to get the Test Plan Rest API to initiate its execution, refer here:
 
 The Test Plan can also be executed on a specific environment. To know how to get the Environment ID, refer here: [get Environment ID](https://testsigma.com/docs/api/environments/#get-an-environment)
 
----
+
+

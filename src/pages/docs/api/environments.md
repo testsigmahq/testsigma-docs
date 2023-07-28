@@ -1,7 +1,7 @@
 ---
 title: "Update Environment parameters using REST API"
 page_title: "Update Environment parameters using REST API in Testsigma"
-metadesc: "How to use the REST API Endpoints available in Testsigma for reading and updating Environment data"
+metadesc: "How to use the REST API Endpoints available in Testsigma for reading and updating Environment data | Environments API lets you read & update the URL of the AUT dynamically"
 noindex: false
 order: 21.2
 page_id: "Update Environment parameters using REST API"
@@ -31,48 +31,47 @@ For some CI/CD pipelines, the URL of the Application Under Test (AUT) changes wi
 | You need to authenticate these requests with your Testsigma API Key.  See [How to generate API Keys.](https://testsigma.com/docs/configuration/api-keys/)
 
 ---
-##**Get An Environment**
-Request Method: GET 
+## **Get An Environment**
+Request Method: **GET**
 
-Endpoint: [https://app.testsigma.com/api/v1/environments/](https://app.testsigma.com/api/v1/environments)<ENVIRONMENT_ID>
+Endpoint: [https://app.testsigma.com/api/v1/environments/](https://app.testsigma.com/api/v1/environments)<ENVIRONMENT\_ID>
 
-<ENVIRONMENT_ID> can be found from the Environment details page URL
+<ENVIRONMENT\_ID> can be found from the Environment details page URL
 
 
 ---
-##**Get All Environments**
-Request Method: GET
+## **Get All Environments**
+Request Method: **GET**
 
 Endpoint: https://app.testsigma.com/api/v1/environments
 
 
 ---
-##**Update Environment**
-Request Type: PUT
+## **Update Environment**
+|**Request Type**| PUT                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                       |
+|---|--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
+|**Endpoint**| [https://app.testsigma.com/api/v1/environments/](https://app.testsigma.com/api/v1/environments)<ENVIRONMENT\_ID><br><ENVIRONMENT\_ID> can be found from the Environment details page URL                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                         |
+|**Authorization**| Bearer <api\_token><br><api\_token> is the same as the Testsigma API Key mentioned above.                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                       |
+|**Request Body Type**| JSON                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                       |                                                                                                                                                      
+|**Request Body**| {<br>&emsp;"id": 53,<br>&emsp;"name": "newEnvironment",<br>&emsp;"description": null,<br>&emsp;"createdById": 9,<br>&emsp;"updatedById": 9,<br>&emsp;"parameters": {<br>&emsp;&emsp;"url": "https://travel.testsigma.com/"<br>&emsp;},<br>&emsp;"passwords": []<br>}|
 
-Endpoint: https://app.testsigma.com/api/v1/environments/<ENVIRONMENT_ID>
 
-<ENVIRONMENT_ID> can be found from the Environment details page URL
+### **Request/Response fields**
 
-Body Content:
+- **id**: The unique identifier for the environment. In this case, it's **53**.
 
-{
+- **Name**: The name of the environment. In this case, it's **newEnvironment**.
 
-&emsp;&emsp;&emsp;"name": "Dev Environment",
+- **Description**: The description of the environment. In this case, it's **null**.
 
-&emsp;&emsp;&emsp;"description": "Test Description"
+- **createdById**: The ID of the user who created the environment. In this case, it's **9**.
 
-&emsp;&emsp;&emsp;"passwords": [],
+- **updatedById**: The ID of the user who last updated the environment. In this case, it's also **9**.
 
-&emsp;&emsp;&emsp;"parameters": {
+- **Parameters**: An object containing the parameters for the environment. In this case, there is only one parameter with the key **url** and value https://travel.testsigma.com/.
 
-&emsp;&emsp;&emsp;"url1": "http://dev.testsigma.com/test1",
+- **Passwords**: Passwords is a String array containing the names of parameters that need to be encrypted. In this case, it's an empty array.
 
-&emsp;&emsp;&emsp;"url2":"http://dev.testsigma.com/test2"
-
-&emsp;&emsp;&emsp;}
-
-}
 
 [[info | NOTE:]]
 | Only include the contents that need to be updated and remove the others from the Request Body
@@ -80,36 +79,29 @@ Body Content:
 
 ---
 ##**Create Environment**
-Request Method: POST
 
-Endpoint: https://app.testsigma.com/api/v1/environments
+|**Request Type**| POST                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                       |
+|---|--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
+|**Endpoint**| https://app.testsigma.com/api/v1/environments                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                         |
+|**Authorization**| Bearer <api\_token><br><api\_token> is the same as the Testsigma API Key mentioned above.                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                  |
+|**Request Body Type**| JSON                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                       |                                                                                                                                                      
+|**Request Body**| {<br>&emsp; "parameters": {<br>&emsp;&emsp;"url": "https://travel.testsigma.com/"<br>&emsp;},<br>&emsp;"passwords": [],<br>&emsp;"projectId": 191,<br>&emsp;"name": "newEnvironment",<br>&emsp;"description": null,<br>&emsp;"parametersJson": "{\n  \\"url\\": \\"https://travel.testsigma.com/\"\n}"<br>} |
 
-Body Contents:
 
-{
+### **Request/Response fields**
 
-	
-&emsp;&emsp;&emsp;"name": "Dev Environment",
+- **Parameters**: An object containing the parameters for the environment. In this case, there is only one parameter with the key **url** and value https://travel.testsigma.com/.
 
-&emsp;&emsp;&emsp;"description": "Dev Environment",
+- **Passwords**: Passwords is a String array containing the names of parameters that need to be encrypted. In this case, it's an empty array.
 
-&emsp;&emsp;&emsp;"parameters": {
+- **ProjectId**: The ID of the project that the environment belongs to. In this case, it's **191**.
 
-&emsp;&emsp;&emsp;"url1": "http://dev.testsigma.com/test1",
+- **Name**: The name of the environment. In this case, it's **newEnvironment**.
 
-&emsp;&emsp;&emsp;"url2": "http://dev.testsigma.com/test2"
+- **Description**: The description of the environment. In this case, it's **null**.
 
-&emsp;&emsp;&emsp;},
+- **ParametersJson**: A JSON string representation of the parameters object. It's the same as the **parameters** object.
 
-&emsp;&emsp;&emsp;"passwords" : [
+---
 
-&emsp;&emsp;&emsp;"url2"
-
-&emsp;&emsp;&emsp;]
-
-}
-
-**Parameters:** Parameters contain a JSON representation of the data to be created.
-
-**Passwords:** Passwords is a String array containing the names of parameters that need to be encrypted.
 

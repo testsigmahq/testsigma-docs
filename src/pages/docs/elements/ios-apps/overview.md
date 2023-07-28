@@ -1,6 +1,6 @@
 ---
 title: "Overview of Elements for an iOS Project"
-metadesc: "What are elements in an iOS project in Testsigma."
+metadesc: "What are elements in an iOS project in Testsigma | Learn different ways to create elements of iOS application in Testsigma application."
 noindex: false
 order: 6.41
 page_id: "Overview of Elements for an iOS Project"
@@ -8,7 +8,7 @@ warning: false
 ---
 
 ---
-An element in an iOS project in Testsigma refers to an object that forms a part of the UI of the application and can be located or identified. Testsigma stores all elements corresponding to a project at one place under ‘Test Development > Elements’.
+An element in an iOS project in Testsigma refers to an object that forms a part of the UI of the application and can be located or identified. 
 
 These elements can be captured in 2 different ways in Testsigma:
 

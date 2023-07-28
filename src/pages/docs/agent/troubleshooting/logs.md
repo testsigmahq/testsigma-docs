@@ -1,6 +1,6 @@
 ---
 title: "Fetching Agent logs"
-metadesc: "How to obtain the logs files from the Testsigma Agent to troubleshoot the errors."
+metadesc: "How to obtain the logs files from the Testsigma Agent to troubleshoot the errors. These files help you resolve Execution issues quickly in Testsigma App."
 noindex: false
 order: 11.92
 page_id: "Fetching Agent logs"
@@ -31,7 +31,7 @@ There are two ways you can provide the logs to the Testsigma Support team
 
 
 ---
-##**Send a Flare Request**
+## **Send a Flare Request**
 
 Once the agent is started, you can see the Testsigma Agent icon on the status bar(Mac/Linux) or System Tray(Windows). Here’s a preview from Mac:
 
@@ -44,10 +44,8 @@ Once the flare request is sent, follow up with the Support team to confirm deliv
 [[info | NOTE:]]
 |Sending flare requests might fail if the Agent is not already registered or if there are restrictions in your network. In that case, follow the manual method of sending the logs as given in the next section.
 
-<br>
-
 ---
-##**Send the Logs manually**
+## **Send the Logs manually**
 
 You can find the Testsigma Agent logs folder for your machine as mentioned below:
 
@@ -61,18 +59,21 @@ The Testsigma Configuration/Log files are located at the following locations dep
 | Linux  | $HOME/.testsigma/agent/        | 
 | Mac   | $HOME/Library/Application Support/Testsigma/Agent/  |
 
-- The %userprofile% points to the C:\Users\< username > folder where < username > is replaced by your Windows login username.
+- The **%userprofile%** points to the **C:\Users\< username > folder where < username >** is replaced by your Windows login username.
 - $HOME in Linux/Mac also points to the user's home folder
 
-There would be a logs folder in the above directory. Inside the 'logs' directory, you can find a number of files such as agent.log, Testengine.log e.t.c.
+There would be a logs folder in the above directory. Inside the **logs** directory, you can find a number of files such as agent.log, Testengine.log e.t.c.
 
-Please zip the 'Agent' folder mentioned above and attach them in a mail to support@testsigma.com describing the issue.
+Please zip the **Agent** folder mentioned above and attach them in a mail to support@testsigma.com describing the issue.
 
 <br>
 
 **Debugging Errors**
 
 For a technical user, the logs will serve as a great tool for debugging the issues themselves. However, if you need an extra hand, we are always there for you. Just drop in a mail to support@testsigma.com describing the issue and with the above-mentioned log files attached. Remember, adding as much detail as possible will help us resolve the issue in the shortest time.
+
+
+
 
 Please mention the following details in the mail:
 

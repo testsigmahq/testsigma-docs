@@ -1,7 +1,7 @@
 ---
 title: "Test plans"
 page_title: "Test Plans - List, Create, Edit, Delete"
-metadesc: "How to list, create, edit, and delete a Test Plan in Testsigma"
+metadesc: "Test Plans in Testsigma help manage test cases and test suites. Learn how to create, edit, delete, and organize test plans for effective testing."
 noindex: false
 order: 8.21
 page_id: "Test Plans - List, Create, Edit, Delete"
@@ -67,7 +67,7 @@ The following article details the process of creating, editing, and deleting a t
       8. **Resolution**: Select the resolution of the device.
       9. **Backup Devices**: Add backup devices for test execution. When the primary device is unavailable, Testsigma will use the backup device. Note that for mobile applications when you add a new machine for a test suite, by default - the test cases will run in parallel.![Add machines](https://s3.amazonaws.com/static-docs.testsigma.com/new_images/test-management/test-plans/overview/add_machine_or_device.png)<br> To add backup devices for sequential executions click on **Settings** icon on the top right corner. Uncheck the checkbox **Run test cases inside the test suites in parallel** option.![serial execution](https://s3.amazonaws.com/static-docs.testsigma.com/new_images/test-management/test-plans/overview/test_cases_serial_executions.png)<br>
       [[info | **NOTE**:]]
-|Back up devices are available for only mobile application - iOS, Android, and mobile web applications. 
+      |Back up devices are available for only mobile application - iOS, Android, and mobile web applications. 
 13. Click **Next**.
 14. Under **Test Plan Settings**,
     1. Specify notification settings: Select the instances when the notifications are to be sent. For example, when the test suites executions have been *Passed*, *Aborted*, *Queued*, *Stopped* and so on.

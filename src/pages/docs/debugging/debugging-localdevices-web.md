@@ -1,7 +1,8 @@
 ---
-title: "Debug results on local devices (Web applications )"
+title: "Debug results on local devices (Web applications)"
 order: 10.3
 page_id: "Debug Results on Local Devices"
+metadesc: "Debugging issues in complex tests might require enhanced techniques. This article discusses in detail step-by-step guide on how to debug results on local devices in Testsigma."
 search_keyword: ""
 warning: false
 contextual_links:
@@ -21,7 +22,7 @@ contextual_links:
 Debugging issues in complex test cases might require enhanced techniques. This article describes Testsigma's interactive debugging feature for web applications that will not only fix test step issues but also save a good amount of debugging time.
 
 [[info | **NOTE**:]]
-|This feature is available in beta version only. Contact [support](support@testsigma.com) for enabling the feature in your account.
+|This feature is available in beta version only. Contact [support](mailto:support@testsigma.com) for enabling the feature in your account.
 
 ---
 

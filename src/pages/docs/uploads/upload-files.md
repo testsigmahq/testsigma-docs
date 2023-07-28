@@ -1,7 +1,7 @@
 ---
 title: "Upload Files"
 page_title: "Upload Files in Testsigma"
-metadesc: "How to upload files on Testsigma and get corresponding links to use while creating test steps"
+metadesc: "Know the detailed steps to upload files in Testsigma for effective test automation. This guide covers the steps for uploading files in Testsigma effectively."
 noindex: false
 order: 20.11
 page_id: "Upload Files"

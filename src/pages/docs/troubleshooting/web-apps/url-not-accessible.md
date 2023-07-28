@@ -1,6 +1,6 @@
 ---
 title: "Unable to Access URL from Testsigma Servers?"
-metadesc: " How to handle the launching of URLs from your test cases to your web applications and  Local devices."
+metadesc: "Learn the procedure to access URLs from Testsigma Servers. This guide covers the steps for accessing the URL if the given URL is somehow inaccessible."
 noindex: false
 order: 23.3
 page_id: "Unable to Access URL from Testsigma Servers?"

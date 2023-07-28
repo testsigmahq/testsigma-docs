@@ -1,6 +1,6 @@
 ---
 title: "Single Sign-on options available in Testsigma"
-metadesc: "List of all SSO types supported in Testsigma.."
+metadesc: "Setting up of all SSO types supported in Testsigma Application. With SSO, there's no need to store and manage passwords for the websites."
 noindex: false
 order: 19.21
 page_id: "Single Sign-on options available in Testsigma"
@@ -33,7 +33,3 @@ Follow one of the links below to set up SSO depending on your provider:
 **-** [Set up SAML-based SSO login - Okta](https://testsigma.com/docs/configuration/security/okta-sso/).
 
 **-** [Set up SAML-based SSO login - Azure](https://testsigma.com/docs/configuration/security/azure-sso/).
- 
-More coming up soon..
- 
-
