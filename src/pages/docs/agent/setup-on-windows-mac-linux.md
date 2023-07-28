@@ -1,6 +1,6 @@
 ---
 title: " Setting up Testsigma Agent on your local machine"
-metadesc: "How to install Testsigma Agent on your local machine and register it to your Testsigma Account for local inspection and test runs."
+metadesc: "Learn how to install Testsigma Agent on your local machine and register it to your Testsigma Account for local inspection and test runs."
 noindex: false
 order: 11.3
 page_id: " Setting up Testsigma Agent on your local machine"
@@ -9,26 +9,14 @@ contextual_links:
 - type: section
   name: "Contents"
 - type: link
-  name: "Table of Contents"
-  url: "#table-of-contents"
+  name: "Download Testsigma Agent as ZIP file"
+  url: "#download-testsigma-agent-as-zip-file"
 - type: link
-  name: "Download Testsigma Agent As Zip File"
-  url: "#download-testsigma-agent"
-- type: link
-  name: "Install Via Executables"
-  url: "#install-via-executables"
-- type: link
-  name: "Extract the Testsigma Agent Zip file"
-  url: "#extract-the-testsigma-agent-zip-file"
+  name: "Download Testsigma Agent as exe file"
+  url: "#download-testsigma-agent-as-exe-file"
 - type: link
   name: "Start The Testsigma Agent Server As A Process"
   url: "#start-the-testsigma-agent-server-as-a-process"
-- type: link
-  name: "For Windows"
-  url: "#for-windows"
-- type: link
-  name: "For Mac/Linux"
-  url: "#for-maclinux"
 - type: link
   name: "Start The Testsigma Agent Server As A Service"
   url: "#start-the-testsigma-agent-server-as-a-service"
@@ -36,131 +24,114 @@ contextual_links:
   name: "Register the Testsigma Agent"
   url: "#register-the-testsigma-agent"
 - type: link
-  name: "Run Testsigma Agent Via Docker"
-  url: "#run-testsigma-agent-via-docker"
+  name: "Delay the activation of your Testsigma Agent"
+  url: "#delay-the-activation-of-your-testsigma-agent"
+- type: link
+  name: "Run Testsigma Agent using Docker"
+  url: "#run-testsigma-agent-using-docker"
 
 ---
 
-
 ---
-## **Table of Contents**
 
-[Download And Install The Testsigma Agent](#download-and-install-the-testsigma-agent)<br>
-&emsp;&emsp;&emsp;[Download Testsigma Agent As Zip File](#download-testsigma-agent-as-zip-file)<br>
-&emsp;&emsp;&emsp;[Install Via Executables](#install-via-executables)<br>
-[Start The Testsigma Agent Server As A Process](#start-the-testsigma-agent-server-as-a-process)<br>
-&emsp;&emsp;&emsp;[For Windows](#for-windows)<br>
-&emsp;&emsp;&emsp;[For Mac/Linux](#for-maclinux)<br>
-[Start The Testsigma Agent Server As A Service](#start-the-testsigma-agent-server-as-a-service)<br>
-[Register The Testsigma Agent](#register-the-testsigma-agent)<br>
-&emsp;&emsp;&emsp;[Checking Agent Running Status](https://testsigma.com/docs/agent/setup-on-windows-mac-linux/#checking-agent-running-status)<br>
-&emsp;&emsp;&emsp;[Connecting The Agent To Testsigma App](https://testsigma.com/docs/agent/setup-on-windows-mac-linux/#connecting-the-agent-to-testsigma-app)<br>
-&emsp;&emsp;&emsp;[Delay The Activation Of Your Testsigma Agent](#delay-the-activation-of-your-testsigma-agent)<br>
-[Run Testsigma Agent Via Docker](#run-testsigma-agent-via-docker)<br>
+The Testsigma Agents are available in  the following forms, namely:
 
+1. **ZIP files**
+2. **Executable files**
+3. **DMG files**
+4. **Docker image**
 <br>
 
+You can choose the format that suits you the best. <br>
+
 ---
 
-The Testsigma Agents are available via 3 forms, namely:
-1. Zip Files
-2. Executable Files
-3. Docker Image
+## **Download Testsigma Agent as ZIP file**
 
+To download the Testsigma agent as a ZIP file, follow below steps:
 
+1. Navigate to **Agents** > **Download Agent** to download the latest version of **Testsigma Agent**.
+![agents page and the button to download agent](https://s3.amazonaws.com/static-docs.testsigma.com/new_images/agent/setup-on-windows-mac-linux/download_agent.png)
+2. After you have downloaded the agent ZIP file, extract the Testsigma agent ZIP file to a location of your choice. Some suggested locations to place the Testsigma agent folder are mentioned in the table below:<br>
 
-##**Download And Install The Testsigma Agent**
+  | Operating System     | Preferred Agent location |
+  | :---:        | :---:   |
+  | Windows     | <kbd>C:\Users\<your_username>\ </kbd>      |
+  | Mac   |<kbd> /Users/<your_username>/ </kbd>   |
+  | Linux   | <kbd>/Users/<your_username>/</kbd>   |
 
-Testsigma Agents are available to download and install either as zip files or as executables. You can choose the approach that suits you the best. 
-
-##**Download Testsigma Agent As Zip File**
-
-To download the Testsigma agent as a zip file, follow below steps:
-
-1. Go to the Agents page (Navigation Bar > Agents)
-2. Click on the ‘Download Agent’ button on the top right corner to download the latest version of Testsigma Agent.
-![agents page and the button to download agent](https://docs.testsigma.com/images/setup-on-windows-mac-linux/agents-page-download-agent-button.png)
-3. After you have downloaded the agent zip file, extract the Testsigma agent zip file to location of your choice. Some suggested locations to place the Testsigma agent folder are mentioned in the table below:
-
-
-  | Operating System     | Preferred Agent location | 
-  | :---        | :---   |        
-  | Windows     | C:\Users\<your_username>\      | 
-  | Mac   | /Users/<your_username>/    | 
-  | Linux   | /Users/<your_username>/     | 
-
-  Replace the <your_username> part with your Account username.
+  Replace the<kbd> <your_username></kbd> part with your account username.
 
   The home directory is recommended so as to avoid hassles of setting file permissions and ownership and also to avoid file corruption due to syncing with iCloud or Google Drive.
 
-You can either start the Testsigma agent server as a process via the command line/terminal when needed. Or, you can run the Testsigma agent server as a Server. Refer the links below to see how:
+You can either start the Testsigma agent server as a process via the command line or terminal when needed. Or, you can run the Testsigma agent server as a server. *For more information, refer to the below sections to see how to start the Testsigma Agent [as a process](#start-the-testsigma-agent-server-as-a-process) or [as a service](#start-the-testsigma-agent-server-as-a-service)*
 
-1. [Start the Testsigma Agent Server as a process](#start-the-testsigma-agent-server-as-a-process)
-2. [Start the Testsigma Agent Server as a Service](#start-the-testsigma-agent-server-as-a-service)
-
-
-
-
-
-##**Install Via Executables**
+## **Download Testsigma Agent as exe file**
 
 To download the Testsigma agent as an executable file, follow below steps:
 
-1. Go to the Agents page (Navigation Bar > Agents)
-2. Hover on the ‘Download Agent’ button on the top right corner.  
-3. From the dropdown that appears, you need to click on the executable supported by your machine. For windows - click on 'exe', for mac - click on 'dmg', for linux - click on 'bin' to download the latest version of Testsigma Agent. The drop-down on the agents page looks like below:
+1. Navigate to **Agents > Download Agent**.
+2. From the dropdown that appears, select the executable file supported by your machine.
+    - For **Windows**, select on <kbd>**exe**</kbd>,
+    - For **mac**, select <kbd>**dmg**</kbd>,
+    - For **Linux**, select <kbd>**bin**</kbd> to **download** the latest version of **Testsigma Agent**.
 
-![Dropdown to download executables for agent installation](https://s3.amazonaws.com/static-docs.testsigma.com/new_images/agent/setup-on-windows-mac-linux/agents-page-executables-dropdown.png)
+ The dropdown on the agents page looks like below:
+
+![Dropdown to download executables for agent installation](https://s3.amazonaws.com/static-docs.testsigma.com/new_images/agent/setup-on-windows-mac-linux/download_agent_executable_file.png)
 4. Double click on the downloaded file.
 5. The installer will prompt you choose the path for installation. Choose the path where you would like to install the agent.
 6. Let the installer run till completion.
 
-After the installation is complete, you can either run the Testsigma agent server as a process via the command line/terminal when needed. Or, you can run the Testsigma agent server as a Server. Refer the links below to see how:
+After the installation is complete, you can either run the Testsigma agent server as a process via the command line/terminal when needed. Or, you can run the Testsigma agent server as a Server. *For more information, refer the following sections:*
 
-1. [Start the Testsigma Agent Server as a process](#start-the-testsigma-agent-server-as-a-process)
-2. [Start the Testsigma Agent Server as a Service](#start-the-testsigma-agent-server-as-a-service)
+1. [Start the Testsigma Agent server as a process](#start-the-testsigma-agent-server-as-a-process)
+2. [Start the Testsigma Agent server as a service](#start-the-testsigma-agent-server-as-a-service)
 
+<br>
 
-##**Start The Testsigma Agent Server As A Process**
+## **Start the Testsigma Agent server as a process**
 
-##**For Windows**
-  Navigate to the Testsigma Agent installation folder and double-click the ‘start.bat’ or run “start.bat” in the command line file to start the Testsigma Agent.
+### **For Windows**
 
-  Wait for a few minutes for the Testsigma Agent to start up. Check the Testsigma Agent icon in the System Tray.
+  Navigate to the Testsigma Agent installation folder and double click the <kbd>start.bat</kbd> or run <kbd>start.bat</kbd> in the command line file to start the Testsigma Agent.
+   ![testsigma agent start](https://s3.amazonaws.com/static-docs.testsigma.com/new_images/agent/setup-on-windows-mac-linux/starting_agent.png)
+  Wait for a few minutes for the Testsigma Agent to start up.
 
-  ![Testsigma Agent windows System Tray icon](https://docs.testsigma.com/images/setup-on-windows-mac-linux/ts-agent-windows-tray-icon.png)
+  ![Testsigma Agent started](https://s3.amazonaws.com/static-docs.testsigma.com/new_images/agent/setup-on-windows-mac-linux/agent_started.png)
 
-  If the icon doesn’t appear in 10 minutes, please contact Testsigma Support.
+  If the icon doesn’t appear in 10 minutes, reach out to us at [support@testsigma.com](mailto:support@testsigma.com).
 
+  After registering you will be directed to the agent registration page![agent registration](https://s3.amazonaws.com/static-docs.testsigma.com/new_images/agent/setup-on-windows-mac-linux/agent_register_page.png)<br>
+  For more information on registering the agent refer to the section,  *[Register the Testsigma agent](#register-the-testsigma-agent)*
 
-##**For Mac/Linux**
+### **For Mac/Linux**
 
-  Navigate to the Testsigma Agent installation folder and double-click the ‘start.sh’  or run “start.bat” in the command line to start the Testsigma Agent startup in a new Terminal window.
+  Navigate to the Testsigma Agent installation folder and double-click the **start.sh**  or run **start.bat** in the command line to start the Testsigma Agent startup in a new terminal window.
 
   Wait for a few minutes for the Testsigma Agent to start up. Check the Testsigma Agent icon in the System Tray.
 
   ![Testsigma Agent Mac System Tray icon](https://docs.testsigma.com/images/setup-on-windows-mac-linux/ts-agent-mac-tray-icon.png)
 
-  If the icon doesn’t appear in 10 minutes, please contact Testsigma Support.
+  If the icon doesn’t appear in 10 minutes, reach out to us at [support@testsigma.com](mailto:support@testsigma.com).
 
 <br>
 
-Next, you will have to register the agent. To Register the agent, refer to the section here: [Register the Testsigma agent](#register-the-testsigma-agent)
+Next, you will have to register the agent. To register the agent, refer to the section  *[Register the Testsigma agent](#register-the-testsigma-agent)*
 
 ---
 
-##**Start The Testsigma Agent Server As A Service**
+## **Start the Testsigma Agent server as a service**
+
 1. For windows - go to the command line. For Mac/linux - go to the terminal.
-2. Navigate to the Testsigma Agent installation folder
-3. Inside the Testsigma Agent installation folder, go to the wrapper folder.
-4. Inside the wrapper folder, go to the bin folder. 
-5. If you want to install the agent as a service, do that by giving the command `TestsigmaAgent install`
+2. Navigate to the Testsigma Agent installation folder.
+3. Inside the Testsigma Agent installation folder, navigate to **Wrapper folder > Bin folder**.
+4. If you want to install the agent as a service, use the command - `TestsigmaAgent install`
 [[info | NOTE:]]
 |At present, the option to install Testsigma Agent to start automatically when system boots is only supported for windows.
-6. Inside the bin folder, you can start the Testsigma Agent as a service by giving the command - `TestsigmaAgent start`
+5. Inside the bin folder, you can start the Testsigma Agent as a service by using the command - `TestsigmaAgent start`
 
-
-To stop the service started above, you can run the command `TestsigmaAgent stop` from the same location 
+To stop the service started above, you can run the command - `TestsigmaAgent stop` from the same location
 
 Commands that work with TestsigmaAgent:
 
@@ -178,140 +149,271 @@ remove       Uninstall.
 dump         Request a Java thread dump if running.
 ```
 
-
-
-Next, you will have to register the agent. To Register the agent, refer to the section here: [Register the Testsigma agent](#register-the-testsigma-agent)
-
+Next, you will have to register the agent. To register the agent, refer to the section *[Register the Testsigma agent](#register-the-testsigma-agent)*
 
 ---
-##**Register The Testsigma Agent**
 
-###**Checking Agent Running Status**
-Once the Agent has started you will get a System Tray icon. The status will show as **STARTED** once it's ready. If it is showing the status as **STARTING**, please wait for a few moments for it to start. 
+## **Register the Testsigma Agent**
+
+### **Checking Agent running status**
+
+Once the Agent has started you will get a System Tray icon. The status will show as **STARTED** once it's ready. If it is showing the status as **STARTING**, please wait for a few moments for it to start.
 
 You can use the menu options to **Quit** and **Restart the Agent**.
 
-###**Connecting The Agent To Testsigma App**
+### **Connecting the Agent to Testsigma App**
 
-1. Once your Testsigma agent is up and running and shows the STARTED status, click on the Agent tab on the Left-hand side Navigation bar.
-   
-![Testsigma Dashboard Agents Icon](https://docs.testsigma.com/images/setup-on-windows-mac-linux/dashboard-agent-icon.png)
+1. Once your Testsigma agent is up and running and shows the **STARTED** status, you will be directed to the agent registration page.
+2. Click on **Register** to start the Agent registration process.
 
-2. On the Agent page click on **Add a new Agent**
+3. On the **Add new Agent** overlay provide the following and click on the **Save** button.:
+    - **Title**: Enter a name for your machine.
 
-![Testsigm Agents page Download button](https://docs.testsigma.com/images/setup-on-windows-mac-linux/ts-agent-page-download-button.png)
+    - **Visible to Everyone**: By default, Agent will be visible to everyone. If you want to make this agent private, uncheck the checkbox **Visible to Everyone**.
 
+![Add new agent form](https://s3.amazonaws.com/static-docs.testsigma.com/new_images/agent/setup-on-windows-mac-linux/regsitering_new_agent.png)
 
-It will try to establish a connection to the agent running on your machine as shown below:
-![Testsigma Agents Register Agent Overlay page](https://docs.testsigma.com/images/setup-on-windows-mac-linux/ts-agent-register-agent-overlay.png)
+4. After saving, the agent that you registered will be displayed with all the available browsers in that Agent machine:
 
-3. Enter a title/name for your machine and click on the Save button.
+![Testsigma Agents list new Agent](https://s3.amazonaws.com/static-docs.testsigma.com/new_images/agent/setup-on-windows-mac-linux/agent_registered.png)
 
-![Add new agent form](https://s3.amazonaws.com/static-docs.testsigma.com/new_images/agent/setup-on-windows-mac-linux/add-a-new-agent-form-activate-later.png)
-
-[[info | NOTE:]]
-|By default, Agent will be **Visible to Everyone**. You can make this agent private to your account by unchecking **Visible to Everyone**<br>
-|Also, the values given for **HTTP** and **HTTPS port** can be left as it is. Only if you want to run the agent on different ports, change the values.
-
-4. Once you have entered the Title, click on save to save the Agent. After saving, the agent that you registered will be displayed with all the available browsers in that Agent machine: 
-
-![Testsigma Agents list new Agent](https://docs.testsigma.com/images/setup-on-windows-mac-linux/ts-agent-list-new-agent.png)
-
-It might take a couple of minutes for the Operating System version and the Browser names to show up. Refer to the [Testsigma Agent troubleshooting guide](https://testsigma.com/docs/agent/troubleshooting/setup-issues/) if the details don’t show up after 10 minutes.
+It might take a couple of minutes for the operating system version and the browser names to appear. Refer to the [Testsigma Agent troubleshooting guide](https://testsigma.com/docs/agent/troubleshooting/setup-issues/) if the details does not show up after 10 minutes.
 
 ---
 
-##**Delay The Activation Of Your Testsigma Agent**
+## **Delay the activation of your Testsigma Agent**
 
-There might be times when you want to add the Testsigma agents to your Testsigma account but want to activate them later. Below is how you can do that:
-1. Go to the Agents Page from the Left Navigation Menu.
-2. Click on the "Add a new Agent" Button on the top right corner of the Agents page.
-3. On the "Add a new Agent" form, add the name/title for the agent. Make sure to check the "Activate Later" checkbox, as also highlighted in the screenshot below:
+There may be instances when you want to add the Testsigma agents to your Testsigma account but want to activate them later. Below is how you can do that:
 
-![Add new agent form with activate later checkbox checked](https://s3.amazonaws.com/static-docs.testsigma.com/new_images/agent/setup-on-windows-mac-linux/add-a-new-agent-form-activate-later-checked.png)
+1. On the **All Agents** page, click on the **Add a new Agent** button on the top right corner of the Agents page.
+2. On the **Add a new Agent** form, add the name/title for the agent. Make sure to check the **Activate Later** checkbox, as also highlighted in the screenshot below:
 
-4. Now you can click on the 'Save' button to save the agent. 
-5. On successfully saving the agent, you will be taken to the agent config page that contains the command that you can use to activate the agent later, as also shown in the screenshot below:
+![Add new agent form with activate later checkbox checked](https://s3.amazonaws.com/static-docs.testsigma.com/new_images/agent/setup-on-windows-mac-linux/activate_later.png)
 
- ![Configs page on a newly added agent with command too activate the agent](https://s3.amazonaws.com/static-docs.testsigma.com/new_images/agent/setup-on-windows-mac-linux/agent-config-command-to-activate.png)
+4. Now click on the **Save**  button to save the agent.
+
+5. On successfully saving the agent, you will be taken to the agent configuration page that contains the command that you can use to activate the agent later, as also shown in the screenshot below:
+
+ ![Configs page on a newly added agent with command too activate the agent](https://s3.amazonaws.com/static-docs.testsigma.com/new_images/agent/setup-on-windows-mac-linux/agent_details.png)
 
  ---
 
-##**Run Testsigma Agent Via Docker**
+## **Run Testsigma Agent using docker**
 
-There are two ways of starting testsigma local agent using docker:
-1. Create an agent in app.testsigma.com and get the activation key and use that while booting the docker container to register the agent.
-2. Create and register a new agent entirely while booting the docker container.
+There are two ways of starting the testsigma local agent using docker:
 
+- Create an agent in app.testsigma.com, obtain the activation key, and use it to register the agent while the Docker container is booting. OR
+- Create and register a new agent entirely while booting the Docker container.
 
-We will discuss both the ways below:
+We will discuss both ways below.
 
-**1. Create an agent in app.testsigma.com first**
+### **Method 1: Creating an agent in app.testsigma.com**
 
-  Follow below steps:
-  1. Go to the Agents Page from the Left Navigation Menu.
-  2. Click on the "Add a new Agent" Button on the top right corner of the Agents page.
-  3. On the "Add a new Agent" form, add the name/title for the agent. Make sure to check the "Activate Later" checkbox, as also highlighted in the screenshot below:
+  Follow the below steps:
 
-  ![Add new agent form with activate later checkbox checked](https://s3.amazonaws.com/static-docs.testsigma.com/new_images/agent/setup-on-windows-mac-linux/add-a-new-agent-form-activate-later-checked.png)
+  1. Go to the Agents Page from the left navigation menu.
+  2. Click the **Add a new Agent** button on the top right corner of the Agents page.
+  3. On the **Add a new Agent** form, add the name/title for the agent. Make sure to check the **Activate Later** checkbox, as also highlighted in the screenshot below:
 
-  4. Now you can click on the 'Save' button to save the agent. 
-  5. On successfully saving the agent, you will be taken to the agent config page that will contain the activation key, as also shown in the screenshot below:
+  ![Add new agent form with activate later checkbox checked](https://s3.amazonaws.com/static-docs.testsigma.com/new_images/agent/setup-on-windows-mac-linux/activate_later.png)
 
-  ![activation key for an added agent](https://s3.amazonaws.com/static-docs.testsigma.com/new_images/agent/setup-on-windows-mac-linux/get-activation-key.png)
+  4. Now, you can click on the **Save** button to save the agent.
+  5. On successfully saving the agent, you will be taken to the agent configuration page that will contain the activation key, as also shown in the screenshot below:
 
-  6. Get the activation key, and use in the command below:
+  ![activation key for an added agent](https://s3.amazonaws.com/static-docs.testsigma.com/new_images/agent/setup-on-windows-mac-linux/agent_details.png)
 
-    docker run --name testsigma-agent \
-    -e TS_ACTIVATION_KEY="<ACTIVATION_KEY>" \
-    testsigmainc/testsigma-agent:latest
+  6. Create a **docker-compose.yml** file with **TS\_ACTIVATION\_KEY** environment variables.
 
-  In the above command we need to replace <ACTIVATION_KEY> with the actual activation key obtained in step 5.
+  The following docker-compose snippet can be used to start a Testsigma Agent with headless Chrome, Firefox & Edge browsers:
+  <br>
 
-  Once you already have the docker image for testsigma agent and have used the above command already, then next time when you need to start the testsigma agent, use the command below:
+    version: "3.9"
+    services:
+      testsigma-agent:
+        image: testsigmainc/testsigma-agent:latest
+        container_name: testsigma-agent
+        depends_on:
+          - chrome
+          - firefox
+          - edge
+        volumes:
+          - ./data/agent_data:/var/ts/agent
+        environment:
+          TS_ACTIVATION_KEY: "REPLACE_WITH_YOUR_ACTIVATION_KEY"
+          CHROME: "http://chrome:4444"
+          FIREFOX: "http://firefox:4444"
+          EDGE: "http://edge:4444"
+          
+      chrome:
+        image: selenium/standalone-chrome:latest
+        shm_size: 1gb
+        ports:
+          - "4444:4444"
 
-    docker start -a testsigma-agent
+      firefox:
+        image: selenium/standalone-firefox:latest
+        shm_size: 1gb
+        ports:
+          - "4445:4444"
+         
+      edge:
+        image: selenium/standalone-edge:latest
+        shm_size: 1gb
+        ports:
+          - "4446:4444"
 
-  One example of a docker run command is:<br>
-  
-    docker run --name testsigma-agent \
-    -e TS_ACTIVATION_KEY="***********" \
-    testsigmainc/testsigma-agent:latest
+  This docker-compose snippet spins up four containers:<br>
 
+  1. Testsigma Agent<br>
+  2. Standalone Selenium with pre-installed Chrome<br>
+  3. Standalone Selenium with pre-installed Firefox<br>
+  4. Standalone Selenium with pre-installed Edge
 
+  Testsigma Agent will detect browser versions through the Environment Variables CHROME, FIREFOX, and EDGE. Note that these Environment Variables are all optional.
+<br><br><br>
+  If you plan to run your test solely on the Chrome browser, there's no need to specify the FIREFOX and EDGE environment variables. Here's an example docker-compose file:
+  <br>
 
-**2. Create and register a new agent entirely while booting the docker container**
+    version: "3.9"
+    services:
+      testsigma-agent:
+        image: testsigmainc/testsigma-agent:latest
+        container_name: testsigma-agent
+        depends_on:
+          - chrome
+        volumes:
+          - ./data/agent_data:/var/ts/agent
+        environment:
+          TS_ACTIVATION_KEY: "REPLACE_WITH_YOUR_ACTIVATION_KEY"
+          CHROME: "http://chrome:4444"
 
-  Follow below steps:
+      chrome:
+        image: selenium/standalone-chrome:latest
+        shm_size: 1gb
+        ports:
+          - "4444:4444"
 
-  1. If you are running the testsigma agent for the first time, then you need to use the command below:
+ <br><br>
+   If your system lacks sufficient resources, you can distribute browser containers across multiple systems and specify a remote debugging URL. Here's an example docker-compose file: <br>
 
-    docker run --name testsigma-agent \
-    -e TS_AUTO_REGISTRATION_KEY="<API_KEY>" \
-    -e TS_AUTO_REGISTRATION_TITLE="\<TITLE>" \
-    -e TS_AUTO_REGISTRATION_HTTP_PORT="<HTTP_PORT>" \
-    -e TS_AUTO_REGISTRATION_HTTPS_PORT="<HTTPS_PORT>" \
-    -p <HTTP_PORT>:<HTTP_PORT> \
-    -p <HTTPS_PORT>:<HTTPS_PORT> \
-    testsigmainc/testsigma-agent:latest
+    version: "3.9"
+    services:
+      testsigma-agent:
+        image: testsigmainc/testsigma-agent:latest
+        container_name: testsigma-agent
+        volumes:
+          - ./data/agent_data:/var/ts/agent
+        environment:
+          TS_ACTIVATION_KEY: "REPLACE_WITH_YOUR_ACTIVATION_KEY"
+          CHROME: "<REMOTE_CHROME_URL>"
+          FIREFOX: "<REMOTE_FIREFOX_URL>"
+          EDGE: "<REMOTE_EDGE_URL>"          
+  <br><br>
+  Testsigma Agent container allows controlling minimum and maximum heap memory settings using MIN and MAX environment  variables. The default values for MIN and MAX will be 1GB and 8GB, respectively. Here's an example docker-compose file:
 
+    version: "3.9"
+    services:
+      testsigma-agent:
+        image: testsigmainc/testsigma-agent:latest
+        container_name: testsigma-agent
+        volumes:
+          - ./data/agent_data:/var/ts/agent
+        environment:
+          TS_ACTIVATION_KEY: "REPLACE_WITH_YOUR_ACTIVATION_KEY"
+          MIN: "-Xms1g"
+          MAX: "-Xmx8g"
+          CHROME: "<CHROME_URL>"
+          FIREFOX: "<FIREFOX_URL>"
+          EDGE: "<EDGE_URL>"
 
-  In the above command<br>
-    - <API_KEY> needs to be replaced by the actual key. To know how to generate an API key, refer here: https://testsigma.com/docs/configuration/api-keys/ <br>
-    - \<TITLE> needs to be replaced with the name you would like to give the agent<br> 
-    - <HTTP_PORT> and <HTTPS_PORT> need to be replaced with the ports that you would like the agent to use while booting it up. <br>
+<br><br>
+ For **ARM-based Systems (Mac M1 processors)**:<br>
+  Google does not build Chrome for Linux ARM platforms. Instead, docker-seleniarm uses the open-source Chromium browser built for ARM. Here's an example docker-compose file:  
 
+    version: "3.9"
+    services:
+      testsigma-agent:
+        image: testsigmainc/testsigma-agent:latest
+        container_name: testsigma-agent
+        depends_on:
+          - chrome
+          - firefox
+        volumes:
+          - ./data/agent_data:/var/ts/agent
+        environment:
+          TS_ACTIVATION_KEY: "REPLACE_WITH_YOUR_ACTIVATION_KEY"
+          CHROME: "http://chrome:4444"
+          FIREFOX: "http://firefox:4444"
+          EDGE: "<REMOTE_EDGE_URL>"
+      chrome:
+        image: seleniarm/standalone-chrome:latest
+        shm_size: 1gb
+        ports:
+          - "4444:4444"
+      firefox:
+        image: seleniarm/standalone-firefox:latest
+        shm_size: 1gb
+        ports:
+          - "4445:4444"
 
-  Once you already have the docker image for testsigma agent and have used the above command already, then next time when you need to start the testsigma agent, use the command below:
+<br>
 
-    docker start -a testsigma-agent
+7. Save the **docker-compose.yml** file in an appropriate directory.
 
-  One example of a docker run command is:<br>
+8. Open a command-line interface and navigate to the directory. Execute the command **docker-compose up**, which will download the necessary images and start the Testsigma Agent.
 
-    docker run --name testsigma-agent \
-    -e TS_ACTIVATION_KEY="***********" \
-    testsigmainc/testsigma-agent:latest
+<br>
 
+### **Method 2: Register a new agent while booting the Docker container.**
 
+To create and register the Agent Automatically in one step, you must specify the environment variables below instead of TS\_ACTIVATION\_KEY.
+
+ TS\_AUTO\_REGISTRATION\_KEY - Testsigma API key<br>
+ TS\_AUTO\_REGISTRATION\_TITLE - Title of the Agent<br>
+ TS\_AUTO\_REGISTRATION\_HTTP\_PORT - HTTP Port for internal communication between Agent and Testsigma
+ TS\_AUTO\_REGISTRATION\_HTTPS\_PORT - HTTPS Port for internal communication between Agent and Testsigma
+
+Here's an example docker-compose file:
+
+    version: "3.9"
+    services:
+      testsigma-agent:
+        image: testsigmainc/testsigma-agent:latest
+        container_name: testsigma-agent
+        depends_on:
+          - chrome
+          - firefox
+          - edge
+        volumes:
+          - ./data/agent_data:/var/ts/agent
+        environment:
+          TS_AUTO_REGISTRATION_KEY: "REPLACE_WITH_API_KEY"
+          TS_AUTO_REGISTRATION_TITLE: "REPLACE_WITH_TITLE"
+          TS_AUTO_REGISTRATION_HTTP_PORT: "REPLACE_WITH_ANY_AVAILABLE_PORT_NUMBER"
+          TS_AUTO_REGISTRATION_HTTPS_PORT: "REPLACE_WITH_ANY_AVAILABLE_PORT_NUMBER"
+          CHROME: "http://chrome:4444"
+          FIREFOX: "http://firefox:4444"
+          EDGE: "http://edge:4444"
+
+      chrome:
+        image: selenium/standalone-chrome:latest
+        shm_size: 1gb
+        ports:
+          - "4444:4444"
+
+      firefox:
+        image: selenium/standalone-firefox:latest
+        shm_size: 1gb
+        ports:
+          - "4445:4444"
+
+      edge:
+        image: selenium/standalone-edge:latest
+        shm_size: 1gb
+        ports:
+          - "4446:4444"    
+
+<br><br>
+Please refer to the Activation Key sections for alternative methods of configuring the docker-compose file and starting the Agent using the docker-compose file.
 
 ---

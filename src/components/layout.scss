@@ -60,6 +60,9 @@ h2,
     color: inherit!important;
     font-weight: 700!important;
     font-size: 25px !important;
+    @media screen and (max-width: 768px) {
+      overflow-wrap: anywhere;
+    }
   }
 }
 
@@ -92,6 +95,11 @@ p {
   @media (max-width: 576px) {
     font-size: 14px;
   }
+  a{
+    @media screen and (max-width: 768px) {
+      overflow-wrap: anywhere;
+    }
+  }
 }
 
 span{
@@ -123,6 +131,10 @@ b, strong{
 
 table{
   margin-bottom: 30px;
+  @media screen and (max-width: 768px) {
+    display: block;
+    overflow-y: auto;
+  }
 }
 
 table, th, td {

@@ -1,6 +1,6 @@
 ---
 title: "Prerequisites for creating add-ons"
-metadesc: "Things you need to create add-ons in Testsigma"
+metadesc: "Creating Testsigma add-ons let you automate non-standard actions easily and at scale. This article discusses things you need to create add-ons in Testsigma"
 noindex: false
 order: 17.4
 page_id: "Prerequisites for creating add-ons"
@@ -19,7 +19,7 @@ contextual_links:
 Creating Testsigma add-ons let you automate non-standard actions easily and at scale. You can use add-ons created by others and share your own with others through the Add-ons Marketplace. Here’s what you need to create an add-on:
 
 ---
-##**Prerequisites**
+## **Prerequisites**
 
 1. Core Java (Version - OpenJDK 11)
 2. A modern IDE such IntelliJ or Eclipse

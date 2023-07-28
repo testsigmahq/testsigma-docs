@@ -1,6 +1,6 @@
 ---
 title: "Test Runs - An Overview"
-metadesc: "Brief overview of test run results in Testsigma."
+metadesc: " To understand the quality you need to understand the results of your test execution. Here is a overview of test run results in Testsigma."
 noindex: false
 order: 13.21
 page_id: "Test Runs - An Overview"
@@ -20,11 +20,11 @@ The purpose of test automation is to be able to quickly understand the state of 
 In Testsigma, these reports can be viewed directly in the Testsigma application or can be downloaded. Reports are automatically created and are useful for debugging failing tests and helping managers understand the state of quality of the application under test (AUT). 
 
 Testsigma provides a central repository for all the test results. 
-Simply navigate to the “Test Development” > “Run Results” page
+Simply navigate to the **Test Development > Run Results** page.
 
 
 ---
-##**What can you do on the Run Results page**
+## **What can you do on the Run Results page**
 
 1. Observe results for all Test Plan executions: Search, Sort & Filter
 
@@ -32,7 +32,7 @@ Simply navigate to the “Test Development” > “Run Results” page
 
 &emsp;&emsp;b. **Sort:** Click on the sort button — the button next to the search button on the top right to sort the list of Run Results according to your preference.
 
-![sort option on Run Results page on Testsigma](https://s3.amazonaws.com/static-docs.testsigma.com/new_images/reports/runs/overview/sort-option-run-results-page-testsigma-updated.png)
+![Sort option on Run Results page on Testsigma](https://s3.amazonaws.com/static-docs.testsigma.com/new_images/reports/runs/overview/sort-option-run-results-page-testsigma-updated.png)
 
 &emsp;&emsp;You can sort the list Ascending or Descending based on the below fields
 
@@ -75,7 +75,7 @@ Simply navigate to the “Test Development” > “Run Results” page
 
 
 ---
-##To know more about the different components of the run results page, refer to the documents below:
+## To know more about the different components of the run results page, refer to the documents below:
 
 1. [Drill-down Reports](https://testsigma.com/docs/reports/runs/drill-down-reports/)
 
@@ -87,7 +87,8 @@ Simply navigate to the “Test Development” > “Run Results” page
 
 5. [Filter and Custom Reports](https://testsigma.com/docs/reports/runs/filter-custom-reports/)
 
-6. [Export Reports - JUnit](https://testsigma.com/docs/reports/runs/export-report-junit/)
+6. [Export Reports - JUnit](https://testsigma.com/docs/reports/export-reports/export-reports-junit/)
 
-7. [Export Reports - XLS](https://testsigma.com/docs/reports/runs/export-report-xls/)
+7. [Export Reports - XLS](https://testsigma.com/docs/reports/export-reports/export-report-xls/)
 
+8. [Export Reports - PDF](https://testsigma.com/docs/reports/export-reports/export-report-pdf/)

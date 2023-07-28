@@ -1,6 +1,6 @@
 ---
 title: "Filters & Custom Reports"
-metadesc: "How to drill down reports of test runs in Testsigma"
+metadesc: "Filters in Run Results will help you create custom reports based on different criteria for your team. Learn how filters in run results in Testsigma"
 noindex: false
 order: 13.27
 page_id: "Filters & Custom Reports"
@@ -143,12 +143,5 @@ When you click on the details icon you can see the Run Details popup page at the
 
   
 ![Test Plan result details view](https://docs.testsigma.com/images/analytics-reports/gif-run-details-test-machine-results.gif)
-
-
-
-
-
-
-
 
 

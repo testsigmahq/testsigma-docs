@@ -3,7 +3,7 @@ title: "Storage Types Supported in Testsigma"
 page_title: "How to configuration Storage Types in Testsigma Community Edition"
 order: 19.5
 page_id: "Storage Types Supported in Testsigma"
-metadesc: "How to configuration Storage Types in Testsigma Community Edition"
+metadesc: "Storage allows you to store files on your integrated cloud storage provider. How to configuration Storage Types in Testsigma Community Edition"
 search_keyword: "Storage Types"
 warning: false
 contextual_links:

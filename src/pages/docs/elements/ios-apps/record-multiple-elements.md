@@ -1,6 +1,6 @@
 ---
 title: "Record Multiple Elements for an iOS Application"
-metadesc: "How to record multiple elements for an iOS project in Testsigma."
+metadesc: "Elements play an important role in Automation Testsing. Learn how to record multiple elements for a iOS project in Testsigma Appication."
 noindex: false
 order: 6.42
 page_id: "Record Multiple Elements for an iOS Application"
@@ -28,7 +28,7 @@ When automating test cases for an iOS application, you may sometimes want to cap
 <br>
 
 ---
-##**Pre-requisites** 
+## **Pre-requisites** 
 
 You should already know:
 1. About Projects overview.
@@ -37,14 +37,8 @@ See uploading apps to Testsigma.
 
 <br>
 
-**Navigation**
-
-**Test Development > Element**
-
-<br>
-
 ---
-##**How to record multiple elements for an iOS project in Testsigma**
+## **How to record multiple elements for an iOS project in Testsigma**
 
 1. On the ‘All Elements’ page, click on the ‘Record’ button on the top right corner of the page:
 ![record button under record multiple elements for an iOS project in Testsigma](https://s3.amazonaws.com/static-docs.testsigma.com/new_images/elements/ios-apps/record-multiple-elements/record-button-record-multiple-elements-ios-testsigma.png)
@@ -69,7 +63,7 @@ See uploading apps to Testsigma.
 The elements can also be edited or deleted from this list using the ‘edit’ and ‘delete’ buttons that appear at the end of the element rows.
 
 8. Repeat steps 6 and 7 for every element you want to capture.
-9. Once you have captured the elements, click on the ‘Save’ button on the ‘Elements’ list to save the changes in the project. Once saved, a checkmark icon will appear corresponding to all the saved elements in the element list:
+9. Once you have captured the elements, click on the **Save** button on the **Elements** list to save the changes in the project. Once saved, a checkmark icon will appear corresponding to all the saved elements in the element list:
 
 ![Multiple Elements Saved in Element Recorder for iOS](https://s3.amazonaws.com/static-docs.testsigma.com/new_images/elements/ios-apps/record-multiple-elements/iOS-element-recorder-multiple-elements-saved-1.png)
 

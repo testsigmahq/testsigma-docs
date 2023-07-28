@@ -1,6 +1,6 @@
 ---
 title: "Create a Testsigma add-on"
-metadesc: "How to create a Testsigma add-on"
+metadesc: "This article discusses how to create an addons for customized actions in Testsigma application | Creating addons will boost your Test Automation"
 noindex: false
 order: 17.5
 page_id: "Create a Testsigma add-on"
@@ -82,7 +82,7 @@ In Testsigma you can create add-ons for the following use case:
 &emsp;
 
 ---
-##**2.**  **Update the action code as required**
+## **2.**  **Update the action code as required**
 
 Unzip the downloaded zip file and open the extracted folder in your favorite IDE as a Java project (with Maven as the build tool). The downloaded folder is a Java Maven project folder 
 consisting of a pom.xml file along with example templates for Web/Android/iOS.
@@ -105,15 +105,15 @@ Here’s some modified code for an Android add-on that swipes left n times:
 
 Here’s a GIF that shows all available annotations and their arguments:
 
-![Snapshot of the sample code showing most common annotations and options](https://docs.testsigma.com/images/create/add-ons-template-code-ide-common-annotations.gif)
+![Snapshot of the sample code showing most common annotations and options](https://s3.amazonaws.com/static-docs.testsigma.com/new_images/projects/applications/Addonnew.gif)
 
 ---
-##**3.** **Test the code**
+## **3.** **Test the code**
 
 Test the code to verify the add-on you have written. You can use either JUnit or TestNG as the Test Runner. Right-click on the Test class to run it as a TestNG or JUnit test and confirm if your code is performing as expected.
 
 ---
-##**4.** **Upload the updated code to Testsigma**
+## **4.** **Upload the updated code to Testsigma**
 
 Once you have validated the code, save the changes you made and zip the project folder. You may use the below command on a bash shell:
 
@@ -131,7 +131,7 @@ Other available options:
 &emsp;
 
 ---
-##**5**. **Publish the add-on**
+## **5**. **Publish the add-on**
 
   Once the code is uploaded, the add-on options dropdown would show an additional option, **Publish**:
 
@@ -151,7 +151,7 @@ Once requested for publishing, an automatic security check is done internally. U
 
 
 ---
-##**6.** **Try using the add-on in a test case**
+## **6.** **Try using the add-on in a test case**
 
 To try out the add-on you just created, create a new test case or open an existing test case and add a new test step. Search for the keywords of the action you just created, select the action from the suggestions, and update the Test Data and Element.
 

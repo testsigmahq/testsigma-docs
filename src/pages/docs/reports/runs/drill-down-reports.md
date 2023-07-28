@@ -1,6 +1,6 @@
 ---
 title: "Drill Down Reports in Testsigma"
-metadesc: "How to use drill-down reports in the test execution results of automated tests in Testsigma."
+metadesc: "Drill-down reports let you access data at all layers. Learn how to use drill-down reports in the test execution results of automated tests in Testsigma"
 noindex: false
 order: 13.23
 page_id: "Drill Down Reports in Testsigma"
@@ -37,13 +37,13 @@ Testsigma provides you an easy way to find and understand all this data.
 
 
 ---
-##**Navigation:**
+## **Navigation:**
 
 Select Project > Test Development > Run Results
 
 
 ---
-##**How to use drill-down reports in Testsigma:**
+## **How to use drill-down reports in Testsigma:**
 
 1. Navigate to **Run Results** page.
    ![Run Results page for drill down reports in Testsigma](https://s3.amazonaws.com/static-docs.testsigma.com/new_images/reports/runs/drill-down-reports/run-results-page-drill-down-reports-testsigma.png)
@@ -61,5 +61,3 @@ Select Project > Test Development > Run Results
 See the steps above in action in the gif below:
 
 ![gif to help drill down reports in Testsigma](https://s3.amazonaws.com/static-docs.testsigma.com/new_images/reports/runs/drill-down-reports/gif-to-help-drill-down-reports-in-testsigma.gif)
-
-

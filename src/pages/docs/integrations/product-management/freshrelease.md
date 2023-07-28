@@ -1,7 +1,7 @@
 ---
 title: "Freshrelease Bug Reporting Integration"
 page_title: "Freshrelease Bug Reporting Integration in Testsigma"
-metadesc: "How to integrate Testsigma with Freshrelease for real-time bug reporting during Test Runs"
+metadesc: "How to integrate Testsigma with Freshrelease for real-time bug reporting during Test Runs | Push bugs directly from Testsigma to your Freshrelease project"
 noindex: false
 order: 16.54
 page_id: "Freshrelease Bug Reporting Integration"
@@ -30,7 +30,7 @@ With Testsigma and Freshrelease integration, you can push bugs directly from Tes
 In this document, we will discuss how to establish Integration with Freshrelease from your Testsigma account and how to create the first bug from Testsigma which can flow into Freshrelease.
 
 ---
-##**Prerequisites**
+## **Prerequisites**
 
 To integrate Freshrelease with Testsigma, you need the following information from your Freshrelease Account:
 
@@ -41,13 +41,13 @@ Check the below section **Creating Freshrelease API Key** to learn how to obtain
 You should also be familiar with [Test Plan Runs](https://testsigma.com/docs/runs/test-plan-executions/).
 
 ---
-##**Creating Freshrelease API Key**
+## **Creating Freshrelease API Key**
 
 First, log into Freshrelease Admin Account.
 On the bottom left corner, click on Profile Settings. The profile settings page will have the API Key and the URL to which you have logged in is your Account URL.
 
 ---
-##**Integrating Freshrelease with Testsigma**
+## **Integrating Freshrelease with Testsigma**
 
 Once the above details are obtained, navigate to the Plugins page through **Dashboard > Settings > Plugins** and select Freshrelease under the Bug Reporting Tab.
 
@@ -58,7 +58,7 @@ Click on the Disabled Icon on **Freshrelease**. Freshrelease Details overlay ope
 Enter the details as mentioned in Prerequisites. After entering the details, click on the Create button to add the Integration.
 
 ---
-##**Creating a bug**
+## **Creating a bug**
 
 We can create a bug within Testsigma from the run results page for a particular Test Plan with the following steps:
 

@@ -1,13 +1,13 @@
 ---
 title: "Troubleshooting API test case failure"
-metadesc: " What to do if your NLP for Select or Unselect of Radiobutton does not seem to work."
+metadesc: "Understand practical troubleshooting methods to efficiently identify and resolve API test case failures in Testsigma, ensuring a seamless testing process."
 noindex: false
 order: 23.8
 page_id: "Troubleshooting API test case failure"
 warning: false
 ---
 ---
-If your API test cases are failing, there can be many possible reasons. This guide lists some common errors that occur while processing API requests and their causes. *For more information on API testing using Testsigma, refer to [creating test steps for API testing using Testsigma](https://testsigma.com/docs/test-cases/create-steps-restapi/overview/)*.
+If your API test cases are failing, there can be many possible reasons. This guide lists some common errors that occur while processing API requests and their causes. *For more information on API testing using Testsigma, refer to [API testing.](https://testsigma.com/docs/api/overview/)*
 
 <table>
   <tr>
@@ -27,8 +27,8 @@ Wait a few seconds and try the operation again. If the problem persists, contact
   <li>The specified URL Path value doesn't start with/in the definition of the REST API.</li>
   <li>The opening and closing curly braces ({and}) don't match the URL of the REST API</li>
   <li>In the URL of the REST API, there are curly braces ('{' and '}') without the parameter name inside.</li>
-  <li>You have an invalid URL set in the URL Path property of a method from a REST API.
-</li>
+  <li>You have an invalid URL set in the URL Path property of a method from a REST API.</li>
+  <li>Replace the space in the URL with %20 in the Rest API tests.</li>
 <li>You used reserved characters like<em> ;</em>,<em>?</em>,<em>#</em>,<em>$</em>,<em>*</em>,<em>@</em>,<em>{</em>,<em>}</em> or <em>=</em> in the URL Path property.</li>
 </ul></td>
 <td>Review syntax of the URL path.</td>

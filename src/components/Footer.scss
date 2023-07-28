@@ -74,7 +74,7 @@
 }
 
 .footer_greenbox{
-  margin-top: 30px;
+  margin-top: 3.5rem;
   background-color: #CDF0EA;
   margin-bottom: 20px;
   display: -webkit-box;
@@ -84,44 +84,27 @@
   display: flex;
   padding: 18px 18px 18px 28px;
   border-radius: 6px;
+  flex-direction: column;
   @media (max-width: 576px) {
     display: block;
     padding: 18px;
   }
   .green_text{
-    font-size: 16px;
+    font-size: 18px;
     line-height: 26px;
     font-weight: bold;
-    text-align: initial;
-    padding-left: 15px;
+    text-align: center;
     padding-right: 20px;
     margin-top: 3px;
     margin-bottom: 0px;
   }
-  form{
-    margin-top: -15px;
-    input{
-      height: 40px;
-      margin-top: 11px;
+  .flex_item{
+    width: 60%;
+    max-width: 60%;
+    margin: auto;
+    @media only screen and (max-width: 767px){
       width: 100%;
-      padding-left: 40px;
-      padding-right: 15px;
-      border-radius: 4px;
-      &:focus{
-        outline: none;
-      }
-      &::placeholder{
-        position: relative;
-        left: 0px;
-        color: #cacaca;
-        font-size: 15px;
-      }
-    }
-    svg{
-      display: block;
-      position: relative;
-      top: 39px;
-      left: 15px;
+      max-width: 100%;
     }
   }
   .btn_width{
@@ -179,6 +162,88 @@
     align-items: center;
     h4 {
       color: #03A973;
+    }
+  }
+}
+#hubspot-form-wrapper{
+  padding: 1rem 0;
+  padding-left: 1rem;
+  @media only screen and (max-width: 767px) {
+    padding-left: 0;
+  }
+  fieldset{
+    .hs-form-field{
+      padding: 0.7rem 0;
+      label{
+        span{
+          height: 18px;
+          color: #666779;
+          font-size: 16px;
+          font-weight: 500;
+          letter-spacing: 0px;
+          margin-left: 1px;
+          margin-bottom: 12px;
+          line-height: 18px;
+          text-align: center;
+        }
+        .hs-form-required{
+          color: #FE6B6B;
+        }
+      }
+      .input{
+        @media only screen and (max-width: 767px) {
+          margin: 0;
+        }
+        input{
+          box-sizing: border-box;
+          height: 44px;
+          border: 1px solid #EEEEEE;
+          border-radius: 3px;
+          background-color: #FFF;
+          box-shadow: 0px 2px 3px 0px rgba(0, 0, 0, 0.03);
+          @media only screen and (max-width: 767px) {
+            max-width: 100%;
+            width: 100%;
+          }
+        }
+      }
+    }
+  }
+  .hs_recaptcha{
+    display: none;
+  }
+  .hs_submit{
+    .actions{
+      input[type="submit"]{
+        color: #FFF;
+        margin-top: 11px;
+        margin-left: 0px;
+        background: #03A973 !important;
+        border: 1px solid #03A973 !important;
+        max-width: 100%;
+        width: 92%;
+        height: 40px;
+        border-radius: 4px;
+        -webkit-border-radius: 2px;
+        -moz-border-radius: 2px;
+        line-height: 39px;
+        text-align: center;
+        justify-content: center;
+        align-items: center;
+        font-size: 1.3rem;
+        -webkit-transition: 0.5s;
+        -moz-transition: 0.5s;
+        -ms-transition: 0.5s;
+        -o-transition: 0.5s;
+        transition: 0.5s;
+        cursor: pointer;
+        padding-left: 20px;
+        padding-right: 20px;
+        @media (max-width: 576px) {
+          right: 0;
+          min-width: 100%;
+        }
+      }
     }
   }
 }

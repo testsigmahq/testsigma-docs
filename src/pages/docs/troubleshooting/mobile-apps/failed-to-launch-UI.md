@@ -1,6 +1,6 @@
 ---
 title: "Mobile app keeps stopping after successful launch"
-metadesc: "This page explains how to debug when the mobile application frequently stops after successful launch"
+metadesc: "Know why your mobile app keeps stopping after a successful launch. Learn effective troubleshooting methods to fix the issue if your mobile app keeps stopping."
 noindex: false
 order: 23.7
 page_id: "Mobile app keeps stopping after successful launch "
@@ -98,5 +98,5 @@ To disable the above capabilities, set the following values to false under the d
 |If you choose to disable the capability <kbd>testsigma.cameraImageInjection</kbd>, you will not be able to use the NLP for image injection. *For more information, refer to [Image injection](https://testsigma.com/docs/test-cases/image-injection/)*.
 
 
-If the issue persists, contact our [support](support@testsigma.com) team.
+If the issue persists, contact our [support](mailto:support@testsigma.com) team.
 

@@ -1,6 +1,6 @@
 ---
 title: "Unable to Click Checkbox"
-metadesc: " What to do if your NLP for Click Checkbox does not seem to work."
+metadesc: "This document will help you troubleshoot if you are unable to click the checkbox | Learn how to click the checkbox when it is inaccessible while testing"
 noindex: false
 order: 23.8
 page_id: "Unable to Click Checkbox"

@@ -1,6 +1,6 @@
 ---
 title: "How to locate shadow DOM elements"
-metadesc: "How to locate shadow DOM elements with testsigma."
+metadesc: "Shadow DOM provides a way to attach a hidden DOM to a DOM element of your choice. Learn how to locate shadow DOM elements with testsigma."
 noindex: false
 order: 6.27
 page_id: "Shadow DOM"

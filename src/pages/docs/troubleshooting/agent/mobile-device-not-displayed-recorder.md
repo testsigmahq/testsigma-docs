@@ -1,7 +1,7 @@
 ---
 title: "Testsigma Agent not detecting local devices for mobile test recorder"
 page_title: " Troubleshooting “Testsigma Agent not detecting Local Devices for Mobile Test Recorder” error"
-metadesc: "See why Testsigma Agent may  not be detecting Local Devices for Mobile Test Recorder."
+metadesc: "Know the possible reasons why Testsigma Agent not detecting Local Devices for Mobile Test Recorder and learn steps to fix the issue by troubleshooting"
 noindex: false
 order: 23.2
 page_id: "Testsigma Agent not detecting Local Devices for Mobile Test Recorder"
@@ -29,35 +29,38 @@ contextual_links:
 This article provides methods to solve the error <em>Testsigma agent not detecting local devices for mobile test recorder</em> for Android and iOS devices.
 </p>
 
-## **Causes**
+## **General causes**
 
 Testsigma agent may be unable to detect your local mobile device for the test recorder for the following reasons:
 <ul>
 
-<li>Testsigma agent is not up-to-date. <em>For more information on updating Testsigma agent,
+<li><strong>Testsigma Agent is not up-to-date</strong>: Testsigma Agent includes an automatic update feature. However, if the auto-update fails due to bad network conditions or incorrect configuration, you can update the Agent manually. <em>For more information refer to,
 <a href="https://testsigma.com/docs/agent/update-agent-manually/">updating Testsigma agent manually</a></em>.
 </li>
 
-<li>Damaged or faulty USB ports or cables (in this case, you should try to change the USB port or cable).</li>
+<li><strong>Damaged or faulty USB ports or cables</strong>: In this case, you should try connecting to a different the USB port or use a different cable.</li>
 <li>A weak Wi-Fi signal, if your device is connected via Wi-Fi.</li>
 </ul>
 <br>
 
+---
+
 ## **Android device**
 
-For Android device, before troubleshooting you will need to make sure of the following:
+**Causes**
 <ul>
-<li>Developer options and USB debugging are enabled. <em>For more information on enabling developer options and USB debugging, refer to <a href="https://testsigma.com/docs/agent/connect-android-local-devices/">setting up local Android device</a>.
-</em></li>
-<li>Android Debug Bridge (ADB) fails to recognize the device connected to the system. <em>To verify if ADB recognizes your device, refer to the section below (ADB does not recognize the device connected to the system).</em></li>
-<li>Desired capabilities are modified as per device or application. <em>For more information on desired capabilities, refer to <a href="https://testsigma.com/docs/desired-capabilities/overview/">desired capabilities</a> and a <a href="https://testsigma.com/docs/desired-capabilities/most-common/">list of desired capabilities</a>.</em></li>
+<li><strong>Developer options and USB debugging are disabled</strong>: To enable developer options and USB debugging, refer to <a href="https://testsigma.com/docs/agent/connect-android-local-devices/">setting up local Android device</a>.
+</li>
+<li><strong>Android Debug Bridge (ADB) fails to recognize the device connected to the system</strong>: To verify if ADB recognizes your device, refer to the section below (ADB does not recognize the device connected to the system).</li>
+<li><strong>Desired capabilities are not modified as per device or application.</strong> To modify desired capabilities, refer to <a href="https://testsigma.com/docs/desired-capabilities/overview/">desired capabilities</a> and a <a href="https://testsigma.com/docs/desired-capabilities/most-common/">list of desired capabilities</a>.</li>
+<li><strong>Driver installation error</strong>: Testsigma agent installs <kbd>AppiumSettings</kbd> and <kbd>UIAutomator Server</kbd> apps to aid running executions on Android devices. If this fails, a notification is displayed reading <em>Failed to install drivers</em>. In such instances, ensure your device remains connected for some time to finish installing drivers.</li>
 </ul>
 
 ## **Android Debug Bridge does not recognize the device connected to the system**
 
 To verify if the ADB interface does not recognize your Android device, follow the below steps:
 
-* Navigate to the folder containing ADB and open the command prompt. From the command line, type`adb devices`.If connected, you will see the list of devices attached. If the device is connected successfully, the response would be as shown in the figure below:</li>
+* Navigate to the folder containing ADB and open the command prompt. From the command line, type <kbd>adb devices</kbd>.If connected, you will see the list of devices attached. If the device is connected successfully, the response would be as shown in the figure below:</li>
 
 ![adb devices command execution](https://docs.testsigma.com/images/mobile-device-not-displayed-recorder/adb-devices-command-execution.png) where `AVY9KA90322022030`is the device ID.
 
@@ -79,8 +82,19 @@ To verify if the ADB interface does not recognize your Android device, follow th
      </ol>
 </ol>
 
+---
 
 ##  **iOS device**
+
+###**Causes**
+
+<ul>
+<li><strong>Device locked</strong>: iOS devices require the device to be unlocked to allow Testsigma Agent to mount developer image and run apps on the device.
+If the device is locked, a notification is displayed reading 'Unlock device'.</li>
+<li><strong>Computer not trusted</strong>: iOS devices require the connected computer running Testsigma Agent to be Trusted. This is required to mount developer image and run apps on the device.To <strong>Trust</strong> your computer,select your device in <strong>Finder</strong> and click <strong>Trust</strong>.</li>
+<li><strong>Developer image could not be mounted</strong>: iOS devices require developer disk image to be mounted to allow Testsigma Agent run apps on the device. Ensure provisioning profile is added on Settings > iOS Settings page.
+If profile is not configured, a notification reading 'Ensure profile exists in iOS Settings' is displayed.</li>
+</ul>
 
 For iOS devices follow the below steps to resolve the issue.
 

@@ -1,6 +1,6 @@
 ---
 title: "Integrate Testsigma with Clickup"
-metadecs: "This document describes the step-by-step instructions for integrating Testsigma with Clickup " 
+metadecs: "How to integrate Testsigma with Clickup for real-time bug reporting during Test Runs | Push bugs directly from Testsigma to your Clickup project" 
 order: 16.55
 page_id: "Clickup"
 warning: false
@@ -23,7 +23,7 @@ contextual_links:
 With Testsigma and Clickup integration, you can push bugs directly from Testsigma to your Clickup project, capture screenshots, annotate bugs, and share them with your teammates and colleagues.
 In this document, we will discuss how to establish Integration with Clickup from your Testsigma account and how to create the first bug from Testsigma which can flow into Clickup.
 
-##**Prerequisites**
+## **Prerequisites**
 
 To integrate Clickup with Testsigma, you need the following information from your Clickup Account (Check how to get the API key here: https://docs.clickup.com/en/articles/1367130-getting-started-with-the-clickup-api)
 
@@ -33,7 +33,7 @@ You should also be familiar with [Test Plan Runs](https://testsigma.com/docs/run
 
 ---
 
-##**Integrating Clickup with Testsigma**
+## **Integrating Clickup with Testsigma**
 
 1. Once the above details are obtained, navigate to the Plugins page through Dashboard > Settings > Plugins and select Clickup under the Bug Reporting Tab.
 2. Click on the Disabled Icon on Clickup. Clickup Details overlay opens up, as shown below:
@@ -44,7 +44,7 @@ You should also be familiar with [Test Plan Runs](https://testsigma.com/docs/run
 
 ---
 
-##**Creating a bug**
+## **Creating a bug**
 
 We can create a bug within Testsigma from the run results page for a particular Test Plan with the following steps:
 1. Navigate to the run results test case level page where you want to add a bug.

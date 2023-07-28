@@ -12,9 +12,7 @@ const { v4: uuidv4 } = require('uuid');
 let slugs;
 
 class ListItem extends React.Component {
-
     constructor(props) {
-        console.log("in", props);
         super(props);
         const { data, isRoot, identifier } = this.props;
         this.state = {
@@ -23,8 +21,10 @@ class ListItem extends React.Component {
             identifier,
             active: [],
             currentUrl: '',
+            expandedPanels: [], // Initialize expandedPanels state as an empty array
         };
         this.toggleActive = this.toggleActive.bind(this);
+        this.toggleExpansion = this.toggleExpansion.bind(this); // Bind toggleExpansion method
     }
 
     componentDidMount() {
@@ -32,27 +32,23 @@ class ListItem extends React.Component {
     }
 
     setActive = (name) => {
-        const { active } = this.state;
+        const { active, expandedPanels } = this.state;
         if (active.indexOf(name) === -1) {
             this.setState((prev) => ({ active: [...prev.active, name] }));
-            const { expandedPanels } = this.state;
-            console.log("in");
-            if(!expandedPanels){
-                console.log("set expandedPanels");
-                this.setState(() => ({ expandedPanels: [ name] }));
-                console.log(this.state.expandedPanels);
+
+            if (!expandedPanels.includes(name)) { // Check if name is already in expandedPanels
+                this.setState((prev) => ({ expandedPanels: [...prev.expandedPanels, name] }));
             }
         }
-    } // sets a given list item as active
-
+    };
 
     toggleExpansion(identifier) {
         const { expandedPanels } = this.state;
-        if (expandedPanels?.indexOf(identifier) === -1) {
+        if (expandedPanels.includes(identifier)) {
+            const updatedExpandedPanels = expandedPanels.filter((panel) => panel !== identifier);
+            this.setState({ expandedPanels: updatedExpandedPanels });
+        } else {
             this.setState((prev) => ({ expandedPanels: [...prev.expandedPanels, identifier] }));
-        } else if(expandedPanels){
-            expandedPanels.splice(expandedPanels.indexOf(identifier), 1);
-            this.setState(() => ({ expandedPanels: [...expandedPanels] }));
         }
     }
     

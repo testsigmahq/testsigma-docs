@@ -1,0 +1,6 @@
+{
+  "name": "gatsby-plugin-ts-freshchat",
+  "version": "1.0.0",
+  "description": "Gatsby Plugin to add Freshchat to Testsigma sites",
+  "main": "index.js"
+}

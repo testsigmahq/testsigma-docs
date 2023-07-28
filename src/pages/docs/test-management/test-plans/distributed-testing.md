@@ -1,7 +1,7 @@
 ---
-title: "Distributed Testing"
+title: "Distributed testing"
 page_title: "Distributed Testing in Testsigma"
-metadesc: " How to create a Test Plan with ‘Testing Type’ as ‘Distributed Testing’. "
+metadesc: "Improve your testing efficiency with Testsigma's distributed testing. Learn how to execute tests across multiple machines and increase test coverage quickly."
 noindex: false
 order: 8.27
 page_id: "Distributed Testing "
@@ -10,110 +10,42 @@ contextual_links:
 - type: section
   name: "Contents" 
 - type: link
-  name: "When creating a new Test Plan"
-  url: "#when-creating-a-new-test-plan"
-- type: link
-  name: "When editing an existing Test Plan"
-  url: "#when-editing-an-existing-test-plan"
----
+  name: "Steps to enable distributed testing"
+  url: "#steps-to-enable-distributed-testing"
 
 ---
 
-When you create a Test plan in Testsigma, using the Classic UI, you have the option to either create them for cross-browser testing or for distributed testing. In this article, we will discuss how to create a Test Plan for ‘Distributed Testing’.
-
-With Distributed Testing, you can configure different test cases to run on different test machines at the same time. Thus, your testing can be distributed.
-
-For example, let’s say your customers mostly use Chrome Browser. So, you decide to execute all your automated tests on Chrome Browser but only the high-priority ones on other browsers like Firefox, Safari, and Internet Explorer. With Distributed testing, you can distribute all your test cases to be executed on Chrome Browser and the high priority ones on Firefox, Safari, and Internet Explorer.
-
-
-You should already know how to [List/Create/Edit/Delete Test Plans Using the Classic UI](https://testsigma.com/docs/test-management/test-plans/overview/).
-
-### Navigation: Select Project > Test Development > Test Plan > Test Machines & Suites Selection 
-
-How to create a Test Plan with ‘Testing Type’ as ‘Distributed Testing’:
-When creating a new Test Plan. 
-When editing an existing Test Plan.
-
-&emsp;
-
 ---
-##**When creating a new Test Plan**
-1. On the Test Plan page, click on the +Test Plan button:
 
-![test plan page in Testsigma](https://docs.testsigma.com/images/cross-browser-testing/test-plan-page-testsigma.png)
+*Distributed testing* means that a test scenario is segmented into several parts and each of them is performed on a separate machine either sequentially or in parallel. It also suggests that the test parts interact with each other during a test run which make them coordinated and synchronized. 
 
-2.Create Test Plan page would open as shown below:
+This type of testing is generally used to test distributed software — systems with
+components which run on different machines, and interact with each other,
+such as a client-server system, or an Internet-based application web or intranet sites, with major
+functional units running in multiple locations.
 
-![create test plan page in Testsigma](https://s3.amazonaws.com/static-docs.testsigma.com/new_images/test-management/test-plans/distributed-testing/create-test-plan-page-distributed-testing-testsigma.png)
+The goal of distributed testing is to know how different components of the system interact with each other. While multiple computers will be running simultaneously during the test, each
+one will be running a different component of the application, and will be
+playing a different role.
 
+Distributed testing is achieved in Testsigma by splitting up test plan execution across multiple machines. To do this, Testsigma lets you select different test suites for each selected test machine where each test suite encompasses one or more component of the application.
 
-On this page, select the device lab which you want to use for your cross-browser tests. 
+<br>
 
-3. On the Create Test Plan tab, enter the required details and click on the Next Button.
-
-4. The “Test Machines & Suites Selection” tab would open, which would look like below:
-
-Select the radio button ‘Distributed Testing’. 
-
-![Distributed Testing selected in Testsigma](https://s3.amazonaws.com/static-docs.testsigma.com/new_images/test-management/test-plans/distributed-testing/distributed-testing-selected-in-testsigma.png)
+## **Steps to enable distributed testing**
 
 
-5.  Now, you will have to add test machines and the test suites that you want to execute on each of those machines. For example, in the screenshot below, we have configured a windows test machine with 2 test suites.
+1. Navigate to **Test Machines & Suites Selection** under the **Create test plan** form.  *If you are not familiar with creating a test plan, refer to [add, edit,delete a test plan](https://testsigma.com/docs/test-management/test-plans/overview/)*.
 
-![added Test Suites with Distributed Testing in Testsigma](https://s3.amazonaws.com/static-docs.testsigma.com/new_images/test-management/test-plans/distributed-testing/added-test-suites-with-distributed-testing-testsigma.png)
+2. Under the **Test machines & suites selection** tab,select the test suite for which you want to add the test machine for test execution. *For more information refer to [adding test suites](https://testsigma.com/docs/test-management/test-plans/manage-test-suites/)*
 
-6. You can select different test suites for the different test machines. For example, in the screenshot below, 2 different test suites are added to all the 3 test machines:
-
-![Added new Test Machine with new Test Suites in Testsigma](https://s3.amazonaws.com/static-docs.testsigma.com/new_images/test-management/test-plans/distributed-testing/added-new-test-machine-with-new-test-suites-testsigma.png)
-
-7.  Now, click on the ‘Update’ button to finalize the changes.
-   
-8. Fill up the rest of the required fields, then click on the “Create” button on the ‘Test Plan Settings’ tab.
-
-Your Test Plan is now all set to run your distributed tests on the configured test machines. 
-
+3. Once you have selected the test suites, select the test machines to run the coressponding test suite. *For more information refer to [add test machines](https://testsigma.com/docs/test-management/test-plans/manage-test-machines/)*.
 [[info | Note:]]
-|Once you have configured different test suites for different test machines under ‘Distributed Testing’, you won’t be able to change the Testing Type back to ‘Cross-Browser Testing’
+|To enable distributed testing you have to select different test suites for different test machines. 
 
-&emsp;
-
----
-##**When editing an existing Test Plan**
-Here, we will edit a Test Plan that was created with Test type ‘Cross-Browser Testing’ to ‘Distributed Testing’.
- 
-1. On the Test Plans page, click on a Test Plan name to open the details page for that Test Plan, the Test Plan Details page will look something like below
-
-2. Click on the Edit button on the top right corner as shown below
- 
-![edit button for an existing Test Plan in Testsigma](https://docs.testsigma.com/images/distributed-testing/edit-button-test-plan-testsigma.png)
-
-3. The ‘Edit Test Plan’ page opens.
-   
-4. Go to the tab ‘Test Machines & Suites Selection’ and it will look like below.
-
-![edit test machines & suites selection tab in Edit Test Plan page in Testsigma](https://docs.testsigma.com/images/distributed-testing/edit-test-machines-and-suites-selection-tab-in-edit-test-plan-page-in-testsigma.png)
-
-5. Now to convert to distributed testing, we will switch the ‘Testing Type’ to ‘Distributed Testing’. 
-
-![distributed testing edit in edit test plan on test machines and suites selection tab in Testsigma](https://docs.testsigma.com/images/distributed-testing/distributed-testing-edit-test-machines-and-suites-selection-testsigma.png)
-
-6. To add Test Suites to a test machine, we will click on the corresponding Test Machine. When the first test machine is clicked, the option to select test suites appears:
-
-![add Test Suites for Test Machines for Distributed Testing in Testsigma](https://s3.amazonaws.com/static-docs.testsigma.com/new_images/test-management/test-plans/distributed-testing/add-test-suites-for-machines-distributed-testing-testsigma.png)
-
-7. You can select different test suites for the different test machines. For example, in the screenshot below, 2 different test suites are added to all the 3 test machines:
-
-![different test suites for different test machines in Testsigma](https://s3.amazonaws.com/static-docs.testsigma.com/new_images/test-management/test-plans/distributed-testing/different-test-suites-different-test-machines-testsigma.png)
+See the below GIF to understand the workflow to enable distributed testing:![distributed testin](https://s3.amazonaws.com/static-docs.testsigma.com/new_images/test-management/test-plans/distributed-testing/distributed_testing.gif)
 
 
-8. Now, click on the ‘Update’ button to finalize the changes.
-   
-9.  Then click on the “Next” button and then the “Update” button on the ‘Test Plan Settings’ tab.
-
-Your Test Plan is now all set to run your distributed tests on the configured test machines. 
-
-[[info | Note:]]
-|Once you have configured different test suites for different test machines under ‘Distributed Testing’, you won’t be able to change the Testing Type back to ‘Cross-Browser Testing’
 
 
 

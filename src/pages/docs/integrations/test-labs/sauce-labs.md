@@ -1,6 +1,6 @@
 ---
 title: "Integrate Testsigma with SauceLabs"
-metadesc: " How to integrate the SauceLabs Cloud Test Execution Platform with Testsigma"
+metadesc: "SauceLabs integration lets you execute your Testsigma tests on BrowserStack. Learn how to integrate the SauceLabs Test Execution Platform with Testsigma"
 noindex: false
 order: 16.42
 page_id: "Integrate Testsigma with SauceLabs"
@@ -25,7 +25,7 @@ SauceLabs integration with Testsigma lets you run your Testsigma tests on SauceL
 If your organization has an existing account with SauceLabs, you can author tests for Web, Mobile Web, and Mobile applications on Testsigma, and then run those tests on SauceLabs’ cloud devices.
 
 ---
-##**Prerequisites**
+## **Prerequisites**
 
 You just need the username and API Key for SauceLabs which can be obtained from your SauceLabs account dashboard.
 
@@ -36,9 +36,9 @@ This can be obtained from the Account Settings page as shown below :
 You should already know about different [Test Lab Types in Testsigma](https://testsigma.com/docs/test-management/test-plans/supported-test-lab-types/)
 
 ---
-##**Integrating with SauceLabs**
+## **Integrating with SauceLabs**
 
-Once the username and API key is obtained, navigate to the Plugins page through Dashboard > Settings > Plugins and select SauceLabs under the Test Lab Tab.
+Once the username and API key is obtained, navigate to the Plugins page through **Dashboard > Settings > Plugins** and select **SauceLabs** under the Test Lab Tab.
 
  1. Click on the disabled Icon on SauceLabs. SauceLabs Details overlay opens up.
  2. Enter the username and API Key obtained from SauceLabs here.
@@ -48,7 +48,7 @@ After entering the details, click on the Create button to add the Integration.
 ![window to add sauce labs integration to Testsigma](https://docs.testsigma.com/images/sauce-labs/add-sauce-labs-integration.png)
 
 ---
-##**Using SauceLabs for Test Runs**
+## **Using SauceLabs for Test Runs**
 
 Once the account details are added to the Plugins page, select SauceLabs as the Test Lab type instead of Testsigma Lab while creating an Ad-hoc run or Test Plan Run.
 

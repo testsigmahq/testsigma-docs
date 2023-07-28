@@ -1,6 +1,6 @@
 ---
 title: "Visual Testing : How to update the baseline image"
-metadesc: "How to update the baseline image for a test step for visual testing in Testsigma"
+metadesc: "Learn how to update the baseline image for visual testing. This article covers the detailed steps to update a baseline image for visual testing."
 noindex: false
 order: 14.4
 page_id: "Visual Testing : How to update the baseline image"
@@ -51,4 +51,4 @@ Next time you run the test plan, the new base image will be compared to the visu
 
 Here is a quick gif demonstrating the same:
 
-![gif demonstrating the checkbox to mark reference image as baseline image](https://docs.testsigma.com/images/update-baseline/gif-update-baseline-image-checkbox-check-testsigma.gif)
+![gif demonstrating the checkbox to mark reference image as baseline image](https://s3.amazonaws.com/static-docs.testsigma.com/new_images/projects/applications/Baseimagegif.gif)

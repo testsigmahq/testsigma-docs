@@ -1,7 +1,7 @@
 ---
 title: "Testsigma Dashboard - Overview"
 page_title: "Testsigma Dashboard"
-metadesc: " Overview of test automation details you can find on the Testsigma Dashboard"
+metadesc: "Testsigma dashboard is the control panel that gives an overview of the currently selected project & its components. This article discusses Testsigma dashboards"
 noindex: false
 order: 13.1
 page_id: "Testsigma Dashboard - Overview"
@@ -29,7 +29,7 @@ On the top left corner, you can find the **Project Switcher** that helps you to 
 On the right corner, you see a link to the Offers page, Tutorials page, Feedback page, and a **Create New** button that helps you to create any entity quickly.
 
 ---
-##There are a number of sections within the page that gives us detailed information regarding various components such as:
+## There are a number of sections within the page that gives us detailed information regarding various components such as:
 * **Latest Runs:** Details of the Latest Executions for the current Project are included here.
 * **Run Details:** Detailed descriptions of the Latest Executions with links to the Run Results are given here.
 * **Test Cases Overview:** One-click links to filtered list of Test Cases on the basis of latest Test Run Result
@@ -37,8 +37,4 @@ On the right corner, you see a link to the Offers page, Tutorials page, Feedback
 * **Review Management:** View Elements and Test Cases submitted for review and assigned to you
 * Test Case breakup on the basis of status, type, priority, custom fields
 
-![Dashboard Overview](https://docs.testsigma.com/images/dashoard/dashboard-overview-gif.gif)
-
-
-
-
+![Dashboard Overview](https://s3.amazonaws.com/static-docs.testsigma.com/new_images/projects/applications/runsdb.gif)
