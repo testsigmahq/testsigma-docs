@@ -39,5 +39,10 @@ The following article discusses how to bulk delete test data profiles. *For more
 
 The selected Test Data Profiles deleted from the list.
 
+
+Here's a quick GIF demonstrating the bulk deletion of the Test Data Profile.
+
+![GIF](https://s3.amazonaws.com/static-docs.testsigma.com/new_images/projects/applications/bulkdelete.gif)
+
 ---
 
