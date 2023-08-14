@@ -96,7 +96,7 @@ GraphQL enables you to communicate and execute queries using pre-existing data. 
 | You can optionally use variables in GraphQL.
 4. When adding variables in **JSON** format, enter keys and variables in the form **{ "code": "US" }**.
 5. Alternatively, when you select the **Table** format for adding variables, you can conveniently select **Keys** from a dropdown menu and provide corresponding **Values**. You can include **Test Data** (**Parameter**, **Environment**, **Runtime**) in the **Value** section of the table to try out different scenarios with different variable values. ![Adding TDT in Varaibles](https://s3.amazonaws.com/static-docs.testsigma.com/new_images/projects/overview/graphql_variables_tdt.png)
-6. Click **Send** button to initiate the request once you have configured the queries and variables. This action will result in a **JSON Response**.
+6. Click **Send** button to initiate the request once you have set up the queries and variables. This action will result in a **JSON Response**.
 7. Finally, you can **Store Variables** or **Add Verification** for validation after generating the **JSON Response**. The specified test data values will trigger corresponding responses during the execution of test cases. ![GraphQL Request](https://s3.amazonaws.com/static-docs.testsigma.com/new_images/projects/overview/graphql_sendrequest.gif)
 
 ---
