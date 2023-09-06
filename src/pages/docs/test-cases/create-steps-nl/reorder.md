@@ -17,10 +17,8 @@ contextual_links:
 ---
 
 ---
-
+ 
 You can reorder test steps in a test case. Here’s how.
-
-&emsp;
 
 ---
 ## **Pre-requisites:**
