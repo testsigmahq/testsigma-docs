@@ -164,7 +164,7 @@ const data = [
 
 const Card = ({ title, description, path }) => {
     return (
-        <a href={path} className="card md:w-5/12 p-7 cursor-pointer justify-between flex mr-2 mb-2 w-full ">
+        <a href={path} className="card md:w-5/12 p-7 cursor-pointer justify-between flex w-full ">
             <div className="w-fit">
                 <span className="card_heading">{title}</span><br/>
                 <span className="card_desc">{description}</span>
@@ -182,7 +182,7 @@ const Card = ({ title, description, path }) => {
 
 const CardList = () => {
     return (
-        <div className="w-full flex flex-wrap">
+        <div className="w-full flex flex-wrap gap-2 justify-center">
             {data.map((item) => (
                 <Card key={item.id} title={item.title} description={item.description} path={item.path}/>
             ))}
