@@ -110,7 +110,7 @@ body {
       width: 60%;
     }
     @media (min-width: 1024px) {
-      width: 40%;
+      width: 55%;
     }
     @media (max-width: 1279px) {
       padding: 0;
@@ -118,6 +118,11 @@ body {
     > a {
       @media (min-width: 768px) {
         white-space: nowrap;
+      }
+      @media only screen and (max-width: 767px) {
+        &:last-child{
+          display: none;
+        }
       }
     }
   }
@@ -569,6 +574,9 @@ code[class*="language-"] {
     color: $white;
     font-weight: 600;
     font-size: 17px;
+  }
+  @media only screen and (max-width: 767px) {
+    display: none;
   }
 }
 .community_btn{

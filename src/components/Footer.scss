@@ -323,14 +323,22 @@
 .footer-cta{
   background-color: #EFEFEF;
   padding: 2rem 6rem;
+  @media only screen and (max-width: 767px) {
+    padding: 2rem;
+  }
   .cta-heading{
     flex: 0 0 70%;
     font-size: 24px !important;
     line-height: 38px !important;
     margin: 0 !important;
+    @media only screen and (max-width: 767px) {
+      flex: 0 0 100%;
+      padding: 0 0 2rem;
+    }
   }
   .cta-link{
     font-weight: 600;
     font-size: 18px;
+    height: fit-content;
   }
 }
