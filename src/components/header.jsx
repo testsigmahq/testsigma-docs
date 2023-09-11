@@ -3,23 +3,6 @@ import SearchInputBox from './SearchInputBox';
 
 const Header = () => {
 
-    document.addEventListener("DOMContentLoaded", function () {
-        const header = document.getElementById("root_header");
-
-        window.addEventListener("scroll", () => {
-            const scrollPosition = window.scrollY;
-            console.log("Scroll position:", scrollPosition);
-
-            // Check the scroll position and add/remove a class as needed
-            if (scrollPosition >= 70) {
-                header.classList.add("fixed");
-            } else {
-                header.classList.remove("fixed");
-            }
-        });
-    });
-
-
     const isHomepage = window.location.pathname == '/docs/';
 
     return (
