@@ -322,7 +322,7 @@
 }
 .footer-cta{
   background-color: #EFEFEF;
-  padding: 2rem 6rem;
+  padding: 2rem 3rem;
   @media only screen and (max-width: 767px) {
     padding: 2rem;
   }
@@ -331,7 +331,7 @@
     font-size: 24px !important;
     line-height: 38px !important;
     margin: 0 !important;
-    @media only screen and (max-width: 767px) {
+    @media only screen and (max-width: 1023px) {
       flex: 0 0 100%;
       padding: 0 0 2rem;
     }
@@ -340,5 +340,6 @@
     font-weight: 600;
     font-size: 18px;
     height: fit-content;
+    text-align: center;
   }
 }
