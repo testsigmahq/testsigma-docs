@@ -1,7 +1,5 @@
 .footer_docs{
-  margin-top: 0px;
-  position: relative;
-  top: 40px;
+  margin: 2rem 0;
   @media (max-width: 576px) {
     overflow: hidden;
     top: 20px;
@@ -201,6 +199,7 @@
           border-radius: 3px;
           background-color: #FFF;
           box-shadow: 0px 2px 3px 0px rgba(0, 0, 0, 0.03);
+          width: 100%;
           @media only screen and (max-width: 767px) {
             max-width: 100%;
             width: 100%;
@@ -221,7 +220,7 @@
         background: #03A973 !important;
         border: 1px solid #03A973 !important;
         max-width: 100%;
-        width: 92%;
+        width: 97%;
         height: 40px;
         border-radius: 4px;
         -webkit-border-radius: 2px;
@@ -319,5 +318,28 @@
   }
   .text_end{
     text-align: end!important;
+  }
+}
+.footer-cta{
+  background-color: #EFEFEF;
+  padding: 2rem 3rem;
+  @media only screen and (max-width: 767px) {
+    padding: 2rem;
+  }
+  .cta-heading{
+    flex: 0 0 70%;
+    font-size: 24px !important;
+    line-height: 38px !important;
+    margin: 0 !important;
+    @media only screen and (max-width: 1023px) {
+      flex: 0 0 100%;
+      padding: 0 0 2rem;
+    }
+  }
+  .cta-link{
+    font-weight: 600;
+    font-size: 18px;
+    height: fit-content;
+    text-align: center;
   }
 }

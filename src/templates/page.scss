@@ -31,6 +31,10 @@ body {
 }
 // header styles
 .header-block {
+  position: sticky;
+  top: 0;
+  z-index: 99;
+  background-color: #fff;
   > .container {
     @media (min-width: 1280px) {
       padding: 0;
@@ -61,7 +65,7 @@ body {
     @media (max-width: 767px) {
       width: 100%;
     }
-    .text-green-600 {
+    .text-green-600, .text-white {
       font-weight: 600;
     }
   }
@@ -106,7 +110,7 @@ body {
       width: 60%;
     }
     @media (min-width: 1024px) {
-      width: 40%;
+      width: 55%;
     }
     @media (max-width: 1279px) {
       padding: 0;
@@ -114,6 +118,11 @@ body {
     > a {
       @media (min-width: 768px) {
         white-space: nowrap;
+      }
+      @media only screen and (max-width: 767px) {
+        &:last-child{
+          display: none;
+        }
       }
     }
   }
@@ -566,6 +575,9 @@ code[class*="language-"] {
     font-weight: 600;
     font-size: 17px;
   }
+  @media only screen and (max-width: 767px) {
+    display: none;
+  }
 }
 .community_btn{
   padding: 1rem;
@@ -584,7 +596,7 @@ code[class*="language-"] {
 .homepage_footer{
   flex-basis: 100%;
   justify-content: space-between;
-  margin-bottom: 4rem;
+  margin: 2rem 0 4rem;
   .pagination_buttons{
     @media (min-width: $screen_768) {
       margin: 0;
@@ -609,4 +621,24 @@ code[class*="language-"] {
     background-size: cover;
     background-position: center;
   }
+}
+.float-cta{
+  @apply px-4 py-8 flex justify-center flex-col;
+  background-color: #EFEFEF;
+  width: 95%;
+  margin: 3rem 0 0;
+  .cta-title{
+    margin: 0 !important;
+    font-size: 24px !important;
+    line-height: 36px !important;
+    text-align: center;
+  }
+  .signup-btn{
+    margin: 1rem 0 0;
+    @apply flex justify-center;
+  }
+}
+
+.fixed{
+  display: none;
 }

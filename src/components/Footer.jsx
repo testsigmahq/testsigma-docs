@@ -10,7 +10,13 @@ const Footer = ()=> {
     return (
         <>
             <FeedbackButtons />
-            <SubscribeButton />
+            {/* <SubscribeButton /> */}
+            <div className='footer-cta rounded'>
+                <div className='flex items-center justify-between flex-wrap'>
+                    <h3 className='cta-heading m-0'>Learn how to execute low code tests across 3000+ device / browser environments.</h3>
+                    <a href='/request-demo' target={'_blank'} className='cta-link border border-green-600 px-4 py-1.5 bg-green-600 text-white rounded h-10'>Schedule a free demo</a>
+                </div>
+            </div>
             <div className="footer_greyBox">
                 <svg width="109" height="26" viewBox="0 0 109 26" fill="none" xmlns="http://www.w3.org/2000/svg">
                     <path
