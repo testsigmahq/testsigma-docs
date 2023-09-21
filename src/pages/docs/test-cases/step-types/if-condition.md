@@ -9,192 +9,110 @@ contextual_links:
 - type: section
   name: "Contents"
 - type: link
-  name: "Pre-requisites:"
-  url: "#pre-requisites"
+  name: "Prerequisites:"
+  url: "#prerequisites"
 - type: link
-  name: "How to use if, else and else if conditions as test steps while creating a test case:"
-  url: "##how-to-use-if-else-and-else-if-conditions-as-test-steps-while-creating-a-test-case"
+  name: "Using If, Else and Else If conditions in Test Cases"
+  url: "#using-if-else-and-else-if-conditions-in-test-cases"
 - type: link
-  name: "How to create “Else If” or “Else” conditions"
-  url: "#how-to-create-else-if-or-else-conditions"
+  name: "Creating “Else If” or “Else” Conditions"
+  url: "#creating-else-if-or-else-conditions"
 - type: link
-  name: "Adding If Condition in Testsigma’s Test Step Recorder [Web & Mobile Web]"
-  url: "#adding-if-condition-in-testsigmas-test-step-recorder-web--mobile-web"
+  name: "Using Testsigma’s Test Step Recorder for If Conditions [Web and Mobile Web]"
+  url: "#using-testsigmas-test-step-recorder-for-if-conditions-web-and-mobile-web"
 - type: link
-  name: "Adding If Condition in Testsigma’s Test Step Recorder[Android &iOS]"
-  url: "#adding-if-condition-in-testsigmas-test-step-recorderandroid-ios"
+  name: "Using Testsigma’s Test Step Recorder for If Conditions [Mobile Apps]"
+  url: "#using-testsigmas-test-step-recorder-for-if-conditions-mobile-apps"
 ---
 
 ---
-
-
-The conditional if lets you execute a set of steps based on a condition being true or false. Let us consider a simple example where we need to click on an element depending on the application URL. 
-
-**If ( application URL is ‘xyz’) or (button is clickable )
-Then Click on ‘a’ button
-Enter data into ‘b’ element**
-
-
-The If conditions may be more complicated and may involve more steps as well. Let’s see how to incorporate them in your test cases in Testsigma
-
-&emsp;
+In Testsigma, you can add **If**, **Else**, and **Else If** in your test cases based on a true or false condition. For example, **If** verifies the login status in a login test case, and **Else** will check credentials and redirections. This article discusses using **If**, **Else**, and **Else If** Conditions in Testsigma. 
 
 ---
-## **Pre-requisites:**
+## **Prerequisites**
 
-You should already know how to:
-
- 1. [Create Test case](https://testsigma.com/docs/test-cases/manage/add-edit-delete/)
- 2. [Create Test steps using Actions](https://testsigma.com/docs/test-cases/create-steps-nl/overview/)
- 3. [Create Test steps using Testsigma’s test step recorder](https://testsigma.com/docs/test-cases/create-steps-recorder/web-apps/overview/)
-   
-This document contains information about adding Conditional If using testsigma’s test step recorder option in Web, Mobile web, Android and iOS applications.
-
-&emsp;
+- You should also know how to [create a test case](https://testsigma.com/docs/test-cases/manage/add-edit-delete/).
+- You should have Testsigma recorder extension. See [install chrome extension](https://testsigma.com/docs/test-step-recorder/install-chrome-extension/).
 
 ---
-## **How to use if, else and else if conditions as test steps while creating a test case:**
+## **Using If, Else and Else If conditions in Test Cases**
+1. Navigate to **Create Tests > Test Cases**, and click on **Create Test Case**.
+![Navigate to Test Cases](https://s3.amazonaws.com/static-docs.testsigma.com/new_images/projects/applications/FLNavTCs.png)
 
- 1. Navigate to **Test Development > Test Cases > Create**.
+2. Create a test step to navigate to the URL. Example: https://travel.testsigma.com/login
+![Test Step](https://s3.amazonaws.com/static-docs.testsigma.com/new_images/projects/applications/Ts1.png)
 
-![create new test case](https://s3.amazonaws.com/static-docs.testsigma.com/new_images/test-cases/step-types/if-condition/create-new-test-cases.png)
+3. Click on the option on the left side of the test step. This will open a side panel. 
+![Side Panel](https://s3.amazonaws.com/static-docs.testsigma.com/new_images/projects/applications/sidepanelfl.png)
 
- 2. Enter **a name, a description,** and choose the different options available in the **Advanced options** menu as required.
- 3. Click on **Create**. This will take you to the test case details page.
- 4. Create test steps to navigate to the URL. Example: https://www.spotify.com/us/signup
+4. Hover over to the **Conditional Step Types** and click on **If Natural Language**. 
+![If Natural Language](https://s3.amazonaws.com/static-docs.testsigma.com/new_images/projects/applications/ifnaturallang.png)
 
-![add first step navigate to](https://docs.testsigma.com/images/if-condition/add-first-step-navigate-to.png)
+5. This will add an **IF** condition to your test step.
+![If Condition](https://s3.amazonaws.com/static-docs.testsigma.com/new_images/projects/applications/ifcondstep.png)
 
- 5. In the next test step, click on the option on the left side of the test step.
+6. Now add the test step within the **IF** statement by choosing the specific NLP.
+![NLP with IF](https://s3.amazonaws.com/static-docs.testsigma.com/new_images/projects/applications/step1.png)
 
-![add if condition to first step navigate to](https://docs.testsigma.com/images/if-condition/add-first-step-navigate-to-add-if.png)
+7. Hover over the test step and click on **Step Inside IF** to add sub-steps under the **IF** condition. 
+![Step Inside IF](https://s3.amazonaws.com/static-docs.testsigma.com/new_images/projects/applications/stepinsideif.png)
 
- 6. This will open up a side panel.
+8. This will create a test step number **2.1** which will be under step 2.
+![Step 2.1](https://s3.amazonaws.com/static-docs.testsigma.com/new_images/projects/applications/stepinif.png)
 
- 7. In this side panel, toggle on the **Conditional If** option at the bottom.
+9. You can continue to add sub steps numbered as **2.2, 2.3,** etc. The test steps numbers **2.2, 2.3,** etc will be executed only if the **Conditional IF** is true.
+![Conditional IF Steps](https://s3.amazonaws.com/static-docs.testsigma.com/new_images/projects/applications/ifteststeps.png)
 
-![add conditional if to test step](https://docs.testsigma.com/images/if-condition/add-conditional-if-to-test-step.png)
+Here’s a quick GIF demonstrating how to create **Conditional IF** test steps. 
+![Conditional IF Steps](https://s3.amazonaws.com/static-docs.testsigma.com/new_images/projects/applications/ForLoopManual.gif)
+---
 
- 8. This will add an **If condition** to your test step.
+## **Creating “Else If” or “Else” Conditions**
+1. Create **IF condition** in the test step and hover over the **IF statement**, you will see **Else If** and **Else**.
+![Else if, Else](https://s3.amazonaws.com/static-docs.testsigma.com/new_images/projects/applications/elseifelse.png)
 
-![conditional if test step](https://docs.testsigma.com/images/if-condition/conditional-if-test-step.png)
+2. Click on either **Else If** or **Else** to create a test step. All other steps are the same as mentioned in the previous section of this article.
+![Else](https://s3.amazonaws.com/static-docs.testsigma.com/new_images/projects/applications/else.png)
 
- 9. Now add the condition within the IF statement by choosing the specific Actions.
-
-![add Actionsto conditional if test step](https://docs.testsigma.com/images/if-condition/add-Actions-to-conditional-if-test-step.png)
-
- 10. The Actions that we have added is: **Current URL is** https://www.spotify.com/us/signup
-
- 11. Click on **Add Step** to add more steps under the IF condition which will execute if the condition is true. The **Add Step** button will be visible once you hover over the IF condition.
-
-![ hover over if condition to find Add step Button](https://docs.testsigma.com/images/if-condition/hover-over-if-condition-to-find-Add-step-Button.png)
-
- 12. In the next step, add the Actions **Enter** <span style="color:blue">test data</span> **in the** <span style="color:green">element</span> **field**
-   
-     This will create a test step number 2.1 which will be under step 2. This is a sub-step.
-
-![add step under if condition](https://docs.testsigma.com/images/if-condition/add-step-under-if-condition.png)
-
-13. You can continue to add test steps numbered as either 2.2, 2.3, or as 3,4, etc
-The test steps numbers 2.2, 2.3, etc will be executed only if the **Conditional If** is processed as true
-
-&emsp;
-
-The GIF below shows how Conditional If test steps are created.
-
-![gif add step under if condition](https://s3.amazonaws.com/static-docs.testsigma.com/new_images/projects/applications/condif.gif)
-
-&emsp;
+The screenshot above shows the usage of **Else If** condition.
 
 ---
-## **How to create “Else If” or “Else” conditions**
 
- 1. Create an If condition. Hover over the If statement, you will see Else If and Else.
+## **Using Testsigma’s Test Step Recorder for If Conditions [Web and Mobile Web]**
+We can also add the **If Condition** while creating test steps using Testsigma’s test recorder. Follow the steps below to add the If condition using recorder. 
+1. Navigate to **Create Tests > Test Cases**, and click on **Create Test Case**.
+![Navigate to Test Cases](https://s3.amazonaws.com/static-docs.testsigma.com/new_images/projects/applications/FLNavTCs.png)
 
-![add else if else conditional step](https://docs.testsigma.com/images/if-condition/add-else-if-else-conditional-step.png)
+2. On Test Case details page, click on **Record**.
+![Record](https://s3.amazonaws.com/static-docs.testsigma.com/new_images/projects/applications/record.png)
 
- 2. Click on either **+Else If** or **+Else** to create a test step. All other steps are the same as mentioned in the previous section of this tutorial.
+3. A new window will be opened along with the test step recorder. 
+![Window](https://s3.amazonaws.com/static-docs.testsigma.com/new_images/projects/applications/newwindowfl.png)
 
-The screenshot below depicts the Else-if condition that we will use to **click on the Continue button if a banner is visible.**
+4. Enter the URL https://travel.testsigma.com/login and navigate to the page. This will automatically open the site record a test step in the test step recorder sub-window.
+![Recorder Window](https://s3.amazonaws.com/static-docs.testsigma.com/new_images/projects/applications/recorderwindow.png)
 
-![if and else if conditional step added](https://docs.testsigma.com/images/if-condition/if-and-else-if-conditional-step-added.png)
+5. Click on the option on the left side of the recorder and enable the **Conditional If** toggle.
+![Conditional If](https://s3.amazonaws.com/static-docs.testsigma.com/new_images/projects/applications/enablecondtoggle.png)
 
-&emsp;
+5. Record the steps and click on **Done**.
+![Done](https://s3.amazonaws.com/static-docs.testsigma.com/new_images/projects/applications/DoneFL.png)
 
----
-## **Adding If Condition in Testsigma’s Test Step Recorder [Web & Mobile Web]**
+*For more information on creating steps using recorder, refer to [recording test steps](https://testsigma.com/docs/test-cases/create-steps-recorder/web-apps/overview/).*
 
-We can also add the If Condition while creating test steps using Testsigma’s Test Recorder.
-
-Follow the steps below steps to add an If Condition:
-
-**Step 1:** Create a test case.
-
-**Step 2:** Click on the **Record** option on the top right corner.
-
-![record button on the test case details page when recording if condition via Testsigma recorder](https://docs.testsigma.com/images/if-condition/record-button-test-case-details-page-if-condition.png)
-
-**Step 3:** A new window will be opened along with the Record Test steps sub-window on the bottom right corner of the page, as shown in the image below.
-
-![new window that opens on click on record button when recording if condition via Testsigma recorder](https://docs.testsigma.com/images/if-condition/new-window-on-click-on-record-button-if-condition.png)
-
-**Step 4:** Enter the URL https://www.spotify.com/us/signup and navigate to the page. This will automatically record a test step in the Record Test Steps sub-window.
-
-![start recording test steps when recording if condition via Testsigma recorder](https://docs.testsigma.com/images/if-condition/start-recording-test-steps-if-condition.png)
-
- 
-**Step 5:** Click on the + icon on the left side of the test step
-
-**Step 6:** A side panel will appear. Toggle on the Conditional If option at the bottom.
-
-![test step types when recording if condition via Testsigma recorder](https://docs.testsigma.com/images/if-condition/test-step-type-when-recording-test-steps-if-condition.png)
-
-
-**Step 7:** This will add an If Condition to your test step.
-
-Follow the rest of the steps mentioned in the first section from Step 9 to add steps under **If Condition** and to add **Else** and **Else-if** conditions.
-
-&emsp;
+Here’s a quick GIF demonstrating how to add If conditions for web apps using recorder. 
+![Conditional IF for Web & Mobile Web](https://s3.amazonaws.com/static-docs.testsigma.com/new_images/projects/applications/ConditionalIFweb.gif)
 
 ---
-## **Adding If Condition in Testsigma’s Test Step Recorder[Android &iOS]**
 
-We can also add the If Condition while creating test steps using Testsigma’s Test Recorder for native Android and iOS apps.
+## **Using Testsigma’s Test Step Recorder for If Conditions [Mobile Apps]**
+1. Navigate to **Create Tests > Test Cases**, and click on **Create Test Case**.
+![Navigate to Test Cases](https://s3.amazonaws.com/static-docs.testsigma.com/new_images/projects/applications/FLNavTCs.png)
 
-Follow the steps below to add an If Condition:
+2. Click on **Record**.
+![Record](https://s3.amazonaws.com/static-docs.testsigma.com/new_images/projects/applications/recordFL.png)
 
-**Step 1:** Create a test case.
+3. Record the steps and stop the recorder. 
+![Record Steps](https://s3.amazonaws.com/static-docs.testsigma.com/new_images/projects/applications/rsmob.png)
 
-**Step 2:** Click on the **Record** option on the top right corner.
-
-**Step 3:** A Record Element window will open up. In it, under Testsigma Lab, select mobile OS version, device, apk/IPA file (or upload the apk/IPA file). Here we are using the Wikipedia application apk/IPA file.
-
-**Step 4:** Click on **Record**.
-
-![record button when recording elements when adding if condition via Testsigma recorder](https://docs.testsigma.com/images/if-condition/record-button-when-recording-elements-if-condition.png)
-
-**Step 5:** Wait for a few seconds for  the virtual app to load.
-
-![Recorder to record if condition via Testsigma recorder](https://docs.testsigma.com/images/if-condition/Recorder-to-record-if-condition.png)
-
-**Step 6:** Click on **inspection mode**.
-
-**Step 7:** Tap on **Skip** on the application UI.
-
-**Step 8:** Under Selected Element, click on **Tap**. This will do a tap action on that particular element in the application UI.
-
-![tap button on Recorder to record if condition via Testsigma recorder](https://docs.testsigma.com/images/if-condition/tap-button-Recorder-to-record-if-condition.png)
-
-**Step 9:**  In the **Test Steps** section, hover on the option seen left to test step and click on it to open a side panel. Enable Conditional If option to convert the step to a conditional if step.
-
-![if condition test step when recording via Recorder on Testsigma recorder](https://docs.testsigma.com/images/if-condition/if-condition-test-step-Recorder.png)
-
-Repeat the remaining steps as laid out in the previous section of this document, starting from Step 5. 
-
-[[info | **NOTE**:]]
-| - If the condition fails and step passes, it will show **Condition False** on the test step. 
-|![Condition False](https://s3.amazonaws.com/static-docs.testsigma.com/new_images/projects/applications/conditionfalse.png)
-|- If the step and condition both pass, it will show **Condition True** on the test step.
-|![Condition True](https://s3.amazonaws.com/static-docs.testsigma.com/new_images/projects/applications/conditiontrue.png)
-|- In case of step failure also it will show **Condition** False on the test step. 
-|![Both](https://s3.amazonaws.com/static-docs.testsigma.com/new_images/projects/applications/both.png)
+---
