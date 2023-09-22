@@ -57,3 +57,5 @@ We will use the test data generators available in Testsigma to fetch the OTP fro
 ![PhoneNumberFubctions](https://s3.amazonaws.com/static-docs.testsigma.com/new_images/projects/applications/phdatagensave.png)
 
 We have successfully created a test case for 2FA authentication. 
+
+---

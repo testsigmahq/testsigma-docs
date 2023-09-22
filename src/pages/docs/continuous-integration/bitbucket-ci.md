@@ -3,8 +3,17 @@ title: " Integrate Testsigma with Bitbucket CI"
 metadesc: "How to integrate Testsigma with Bitbucket CI"
 noindex: false
 order: 12.22
-page_id: " Integrate Testsigma with Bitbucket CI"
+page_id: "Integrate Testsigma with Bitbucket CI"
 warning: false
+contextual_links:
+- type: section
+  name: "Contents"
+- type: link
+  name: "Prerequisites:"
+  url: "#prerequisites"
+- type: link
+  name: "Steps to Integrate Bitbucket with Testsigma"
+  url: "#steps-to-integrate-bitbucket-with-testsigma"
 ---
 ---
 

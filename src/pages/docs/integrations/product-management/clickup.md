@@ -4,16 +4,15 @@ metadecs: "How to integrate Testsigma with Clickup for real-time bug reporting d
 order: 16.55
 page_id: "Clickup"
 warning: false
-
 contextual_links:
 - type: section
   name: "Contents"
 - type: link
-  name: "Prerequisites:"
+  name: "Prerequisites"
   url: "#prerequisites"
 - type: link
-  name: "Integrating Clickup with Testsigma"
-  url: "#integrating-clickup-with-testsigma"
+  name: "Steps to Integrate Clickup with Testsigma"
+  url: "#steps-to-integrate-clickup-with-testsigma"
 - type: link
   name: "Creating a bug"
   url: "#creating-a-bug"
