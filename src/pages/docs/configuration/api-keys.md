@@ -1,28 +1,32 @@
 ---
 title: "Generate API Key"
-metadesc: "Learn how to generate an API Keys to integrate Testsigma Application with third party tools like CI/CD, bug reporting tools, and more."
+pagetitle: "Generating API Key: Steps to Access Testsigma Programmatically"
+metadesc: "Learn how to generate your API key in Testsigma to access and control Testsigma programmatically. Follow these simple steps for smooth integration and automation."
 noindex: false
 order: 19.1
 page_id: "Generate API Key"
 warning: false
+contextual_links:
+- type: section
+  name: "Contents"
+- type: link
+  name: "Steps to Generate API Key"
+  url: "#steps-to-generate-api-key"
 ---
 
 ---
 
-To integrate Testsigma with any 3rd party tool (for CI/CD, bug reporting, and so on), you need to authenticate the connection, and to do that, you need an API key. Here is how you can generate the API key via Testsigma to authenticate Testsigma for integration with your 3rd party tool.
+You can access and control it programmatically once you generate the API key. Testsigma will authenticate the connection and integrate with any 3rd party tool (for CI/CD, bug reporting, and so on). This document will guide you through generating the necessary API keys.
 
-1. log in to your Testsigma account.
-2. Navigate to **Settings > API keys.**
-3. Click on the ‘Create’ button on the top right corner to generate a new API key.
-   ![API Keys page in Testsigma](https://docs.testsigma.com/images/api-keys/api-keys-page-in-testsigma.png)
+---
 
-   
-4. This will open the ‘New API Key’ form:
+## **Steps to Generate API Key**
 
-   <img src="https://docs.testsigma.com/images/api-keys/new-api-key-page-testsigma.png
-" alt="new API key page in Testsigma" width="300"/>
+Follow the below steps to generate an API key in Testsigma:
 
-   Enter the name you want to give to the API key, and if required, enter a description for the API key. Click the ‘Create’ button on the form.
-5. The key will now be visible on the API keys page. To get the details, click on the API key you created. The details will look something like this:
+1. Navigate to **Settings** > **API Keys** in the left-side navbar.
+2. Click the **Generate new API Key** button in the top right corner of the screen on the **API Keys** page, and a **Generate API Key** pop-up overlay will appear.
+3. In the pop-up overlay for **Generate API Key**, you can enter a **Name** for your **API Key** and specify the **number of parallel test** executions for this key. The overlay provides a toggle for restricting parallel test execution for this key.
+4. After entering a name and configuring parallel settings, click the **Generate Key** button. The API key will be displayed on the screen. Click the **Copy API Key** button to copy it to your clipboard for use in your applications or scripts. ![Generate API Key](https://s3.amazonaws.com/static-docs.testsigma.com/new_images/projects/applications/generate_apikey.gif)
 
-   ![API key details in Testsigma](https://docs.testsigma.com/images/api-keys/api-key-details-testsigma.png)
+---
