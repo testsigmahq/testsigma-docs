@@ -1,6 +1,7 @@
 ---
-title: "How to locate shadow DOM elements"
-metadesc: "Shadow DOM provides a way to attach a hidden DOM to a DOM element of your choice. Learn how to locate shadow DOM elements with testsigma."
+title: "Shadow DOM Elements"
+pagetitle: "Locate Shadow DOM Elements in Testsigma - A Comprehensive Guide"
+metadesc: "Learn how to identify and interact with shadow DOM elements in Testsigma. Follow step-by-step instructions to perform effective testing on webpages that use shadow DOM."
 noindex: false
 order: 6.27
 page_id: "Shadow DOM"
@@ -9,91 +10,67 @@ contextual_links:
 - type: section
   name: "Contents"
 - type: link
-  name: "Basic shadow DOM terminologies "
-  url: "#basic-shadow-dom-terminologies "
+  name: "Identifying Shadow DOM in a Webpage"
+  url: "#identifying-shadow-dom-in-a-webpage"
 - type: link
-  name: "Identifying if a webpage uses shadow DOM "
-  url: "#identifying-if-a-webpage-uses-shadow-dom "
+  name: "Basic Shadow DOM Terminologies"
+  url: "#basic-shadow-dom-terminologies"  
 - type: link
-  name: "Viewing DOM structure on the browser "
-  url: "#viewing-dom-structure-on-the-browser "
-- type: link
-  name: "Locate shadow DOM elements "
-  url: "#locate-shadow-DOM-elements "
+  name: "Create Element for Shadow DOM"
+  url: "#create-element-for-shadow-dom"
 ---
 
 ---
-<em>Document object model (DOM)</em> is an API that represents the content of HTML or XML document as a tree structure.
-<em>Shadow DOM</em> provides a way to attach a hidden DOM to a DOM element of your choice, with local styles and markup detached from the rest of the web page. This helps web developers in better encapsulating their code.
-But this also poses a challenge for automation testing, because elements inside a shadow root technically doesn’t exist in the main DOM. And finding the right elements is a critical requirement when creating automation test cases. Failure to identify them may result in less reliable tests.
 
-## **Basic shadow DOM terminologies**
+Shadow DOM elements allow you to encapsulate and isolate styling and functionality in a webpage, maintaining a clean structure. The Document Object Model (DOM) attaches a hidden DOM to a chosen element, keeping local styles and markup separate. Although it benefits developers, it poses challenges for automation testing since shadow root elements do not exist in the main DOM. 
 
-![Shadow DOM diagram](https://s3.amazonaws.com/static-docs.testsigma.com/new_images/elements/shadow-dom/Shadow_dom_diagram.png)
+To perform reliable tests, you need to find these elements. This guide will explain how Testsigma can help you locate and capture Shadow DOM elements for effective testing.
 
-1. **Shadow host**: The regular DOM node that the shadow DOM is attached to.
-2. **Shadow tree**: The DOM tree inside the shadow DOM.
-3. **Shadow boundary**: The place where the shadow DOM ends, and the regular DOM begins.
-4. **Shadow root**: The root node of the shadow tree.
+---
 
+### **Prerequisites**
 
-## **Identifying if a webpage uses shadow DOM**
+You must understand specific concepts such as creating [Projects](https://testsigma.com/docs/projects/overview/), [Test Cases](https://testsigma.com/docs/test-cases/manage/add-edit-delete/), [Elements](https://testsigma.com/docs/elements/overview/), and [Recording Test Steps](https://testsigma.com/docs/test-cases/create-steps-recorder/web-apps/overview/).
 
-To identify if a webpage uses Shadow DOM:
+---
 
-1. On the website, **Right click>inspect**. The chrome developer tool opens and highlights its elements.  
+## **Identifying Shadow DOM in a Webpage**
 
-2.	On the **Elements** tab, expand the `<body>` tag. Verify if the `<body>` element contains `#shadow-root` which indicates the existence of shadow DOM on the website.
+Follow the below steps to identify if a webpage uses Shadow DOM:
 
-## **Viewing DOM structure on the browser**
+1. To open the **Chrome Developer Tools** and highlight webpage **elements**, right-click on the webpage and select **Inspect**.
+2. Expand the **`<body>`** tag in the **Elements** tab and verify if it contains **`#shadow-root`** to indicate the presence of Shadow DOM on the webpage.
 
-1. On the website, **Right click>Inspect**.
+![Identify Shadowdom Element](https://s3.amazonaws.com/static-docs.testsigma.com/new_images/projects/applications/identify_shadowdom.png)
 
-2.  Navigate to **Settings** on the top right corner of the console.
+---
 
-3.  On the Settings page, navigate to the **Preferences** tab> **Elements** section.
+## **Basic Shadow DOM Terminologies**
 
-4.  Select the checkbox **Show user agent shadow DOM**. Then examine the elements to see the DOM structure.
+1. **Shadow Host**: The HTML element is the entry point for encapsulated components by attaching a shadow DOM.
+2. **Shadow Tree**: A component encapsulates and isolates its internal structure and styling through a hidden tree of DOM elements within a shadow DOM.
+3. **Shadow Boundary**: An invisible wall separates the shadow DOM from the main DOM, keeping styles and functionality isolated.
+4. **Shadow Root**: The shadow DOM's starting point is the hidden tree's root node, where everything begins. 
 
-## **Locate shadow DOM elements**
+![Shadow DOM diagram](https://s3.amazonaws.com/static-docs.testsigma.com/new_images/projects/applications/basic_shadowdom.png)
 
-In this section, we demonstrate how to locate shadow DOM elements with Testsigma for creating test cases.We are using the shopping website [shop.polymer-project](https://shop.polymer-project.org/) for our demo.
+---
 
-1. On the website, navigate to the child object or the element you want to interact.
+## **Create Element for Shadow DOM**
 
-2. **Right click > inspect**. The Chrome developer tool opens and highlights its elements.
+This section will demonstrate how to capture and store shadow DOM elements using Testsigma. For this demonstration, we'll use the shopping website [shop.polymer-project](https://shop.polymer-project.org/).
 
-![Inspect shadow DOM element](https://s3.amazonaws.com/static-docs.testsigma.com/new_images/elements/shadow-dom/shadow_dom_inspect.png)
+1. Navigate to **Create Tests** > **Elements** in the left side navbar. Click on **Create Element** at the top right corner of the **Elements List** page to capture the Element on the webpage. ![Create Elements](https://s3.amazonaws.com/static-docs.testsigma.com/new_images/projects/applications/elementstab_shadowdom.png)
+2. Click **Create Element** to open an overlay screen on the right side of the page. Click **Record Element** within this overlay to easily capture the Element. Open the webpage in a new tab and click on the **Element** you want to capture. Then, click **Capture** to record the Element in the Record Element pop-up menu. ![Record Shadowdom Element](https://s3.amazonaws.com/static-docs.testsigma.com/new_images/projects/applications/record_element_shadowdom.gif)
+3. Alternatively, manually fill in the **Name** and **Screen Name**, **Element Type**, **Element Value**, and **Host Values** fields to capture the Element.
+4. Fill in the fields with the element **Name** and **Screen Name**. Then, choose **CSS Selector** as the **Element Type** from the dropdown menu since only CSS selectors can access elements within shadow DOM.
+5. To obtain the CSS Selector, **right-click** on the webpage and choose **Inspect** to open **Chrome Developer Tools**. Then, you must locate the Element you need using the **Select Element in the page to inspect it** icon. 
+6. Once you have located the Element, right-click on it and choose **Copy** from the menu. Next, select **Selector** from the dropdown menu and copy the **CSS selector** value that appears. Finally, paste it into the **Enter the value** field. ![Capture Shadow Dom Element](https://s3.amazonaws.com/static-docs.testsigma.com/new_images/projects/applications/captureelement_shadowdom.gif)
+7. Check the box **Present inside Nested Context** to specify the hosts from the parent host to the current element host in the order.
+8. Follow the order from the **Parent Host** to the **Current Host** and specify each shadow host element's **Shadow DOM** and **CSS Selector** values.
+9. Click **Create Element** and use it in Test Cases. ![Shadow Host Capture](https://s3.amazonaws.com/static-docs.testsigma.com/new_images/projects/applications/hostcapture_shadowdom.gif)
 
-3.  Right click on the element. Select **Copy> Copy selector**. Save the value for future use.
+[[info | NOTE:]]
+| To create an element in a **Test Case**, use **NLP** to add a **new step** to the test case and include a placeholder for the **Element**. Capture elements on the webpage by clicking **Create Element**, or use **Testsigma Record** to capture the steps and their associated elements during test step recording.
 
-![Inspect shadow DOM element](https://s3.amazonaws.com/static-docs.testsigma.com/new_images/elements/shadow-dom/inspect_shadow_dom.png)
-
-![Copy CSS selector of DOM element](https://s3.amazonaws.com/static-docs.testsigma.com/new_images/elements/shadow-dom/copy_selector_shadow_dom.png)
-
-4. Now identify  the shadow host elements of the same shadow DOM element upto its shadow root element.For this, navigate the shadow DOM structure to find the immediate `#shadow-root(open)`element and its `shadow host`.
-
-    1.  Save the value of the CSS selector of the `shadow host`. To save the value of the CSS selector repeat *step 3*.
-    2.  Repeat *step 4*,until the CSS selector values of all the parent shadow host elements are saved for future use.
-
-6. Now return to the Testsigma UI, to define the properties of the shadow DOM element on the **Create Element** window. *For more information on how to define elements manually, refer to [Creating elements manually](https://testsigma.com/docs/elements/web-apps/create-manually/)*.
-
-7. On the **Create Element** window, provide the following details:
-    1. Name
-    2. Screen Name
-
-8. Under the element type, select **CSS selector** from the drop-down menu. This is because only CSS selector can access elements present inside shadow DOM.
-
-9. Paste the value of the CSS selector of the shadow DOM element saved in *Step 3*, in the **Enter the value** textbox.
-
-10. Select the checkbox **Present inside Shadow DOM**.
-
-![create element window](https://s3.amazonaws.com/static-docs.testsigma.com/new_images/elements/shadow-dom/create_elements_shadow_dom.png)
-
-11. Now specify CSS Selector value of each the shadow host elements identified in *Step 5* from parent host to current host in order.
-
-![specify shadow host elements](https://s3.amazonaws.com/static-docs.testsigma.com/new_images/elements/shadow-dom/CSs_selectors_specified.png)
-
-12. Click **Create**.
-
-13. Run the test case to verify if element is identified correctly.
+---

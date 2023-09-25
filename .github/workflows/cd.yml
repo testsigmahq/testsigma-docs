@@ -21,6 +21,7 @@ jobs:
         run: npm install --ignore-scripts=false --verbose sharp@0.30.7 --unsafe-perm --force
       - name: 'Create env file'
         run: |
+          rm -rf .env
           touch .env
           echo BUCKET_NAME=${{ secrets.BUCKET_NAME }} >> .env
           echo HOST_NAME=${{ secrets.HOST_NAME }} >> .env

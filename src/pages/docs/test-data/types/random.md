@@ -5,17 +5,34 @@ noindex: false
 order: 5.116
 page_id: "Random Test Data in Testsigma"
 warning: false
+contextual_links:
+- type: section
+  name: "Contents"
+- type: link
+  name: "Prerequisites"
+  url: "#prerequisites"
+- type: link
+  name: "Using Random Test Data"
+  url: "#using-random-test-data"
 ---
 
 ---
 
-Many of your Test Cases require inputs which are random in nature. For example, entering an Account number, ID number, phone number e.t.c. With Testsigma you can create a random alphanumeric block of data using Random Test Data.
+Many test cases need random inputs such as inputting an account number, ID number, phone number, etc. With Testsigma, you can create random alphanumeric data blocks through its Random Test Data.
 
+--- 
 
-We assume that you are already familiar with creating Test Steps using simple English with NLP and updating test data type while creating Test Step. If not, refer to [Creating Test Steps using Natural Language](https://testsigma.com/docs/test-cases/create-steps-nl/overview/).
+## **Prerequisites**
+- You should be familiar with [test step creation using NLPs](https://testsigma.com/docs/test-cases/create-steps-nl/overview/).
 
-The Random Test Data is invoked by using the ~|<integer>| format where <integer> is a number between 1 and 256. This will generate a random alphanumeric string that has length as specified by integer during execution of the Test Case.
+---
 
-For example, ~|35| is replaced by a 35 character-long alphanumeric string during execution.
+## **Using Random Test Data**
+You can use the Random Test Data feature in your test cases by specifying a number ranging from 1 to 256. This will generate a random alphanumeric string with a length as specified by the number during the execution of the test case.
 
-![Using Random Test Data in Test Steps](https://s3.amazonaws.com/static-docs.testsigma.com/new_images/test-data/types/random/random-testdata-usage-test-steps.gif)
+For example, you have a test case that requires entering an account number, and you want to generate a random 10-digit account number for every execution. You can achieve this using the format ~|10| within your Test Case.
+
+![Random Test Data](https://s3.amazonaws.com/static-docs.testsigma.com/new_images/projects/applications/RTDTDT.png)
+
+Here is a quick GIF demonstrating how to add Random Data to a Test Case in Testsigma.
+![Random Test Data](https://s3.amazonaws.com/static-docs.testsigma.com/new_images/projects/applications/rdtdgif.gif)

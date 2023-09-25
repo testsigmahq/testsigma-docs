@@ -10,52 +10,29 @@ contextual_links:
 - type: section
   name: "Contents"
 - type: link
-  name: "Test Plan - Start Test Execution API"
-  url: "#test-plan---start-test-execution-api"
-- type: link
-  name: "Obtaining the Run ID"
-  url: "#obtaining-the-run-id"
-- type: link
-  name: "Test Plan Status API"
-  url: "#test-plan-status-api"
-
+  name: "Steps to Install Chrome Extension"
+  url: "#steps-to-install-chrome-extension"
+---
 
 ---
----
-Testsigma’s chrome extension can be used to record your test steps and can also be used to create elements or UI identifiers in Testsigma.
+With Testsigma's Chrome extension, users can quickly record test steps by capturing user interactions, such as clicking buttons, entering text, navigating through pages, etc. The extension will also help users create elements interacting with the application during testing. This article explains how to install Testsigma's Chrome extension. 
 
 ---
-##**Steps to follow:**
-1. Go to: https://chrome.google.com/webstore/detail/testsigma/epmomlhdjfgdobefcpocockpjihaabdp
+## **Steps to Install Chrome Extension**
+1. Go to: [Testsigma Recorder](https://chrome.google.com/webstore/detail/testsigma-recorder/epmomlhdjfgdobefcpocockpjihaabdp)
 
-OR
+2. Click on **Add to Chrome**.
+![Add to Chrome](https://s3.amazonaws.com/static-docs.testsigma.com/new_images/projects/applications/addtoce.png)
 
-2. Go to the Chrome web store for extensions: https://chrome.google.com/webstore/category/extensions
-3. Search the webstore for ‘testsigma’ 
-4. You will see a chrome extension named ‘Testsigma’ like below:
+3. On the permission prompt, click on **Add extension**.
+![Add Extension](https://s3.amazonaws.com/static-docs.testsigma.com/new_images/projects/applications/promptce.png)
 
-![Testsigma Chrome Extension](https://s3.amazonaws.com/static-docs.testsigma.com/new_images/test-step-recorder/install-chrome-extension/chrome-extension-testsigma.png)
+4. On successful installation, the following message will appear:
+![Message](https://s3.amazonaws.com/static-docs.testsigma.com/new_images/projects/applications/msgce.png)
 
-5. Click on the extension.
-6. On the page that opens, click on the button ‘Add to Chrome’.
-7. You will be asked for permission before Testsigma extension is added to chrome:
+Here’s a quick GIF demonstrating how to add Testsigma's Chrome extension.
+![Chrome Extension](https://s3.amazonaws.com/static-docs.testsigma.com/new_images/projects/applications/ChromeExt.gif)
 
-![Add Testsigma question while chrome extension installation](https://s3.amazonaws.com/static-docs.testsigma.com/new_images/test-step-recorder/install-chrome-extension/add-testsigma-question-chrome-extension-installation.png)
+*For more information on creating test steps using recorder, refer to [recording test steps](https://testsigma.com/docs/test-cases/create-steps-recorder/web-apps/overview/).*
 
-8. Click on the ‘Add extension’ button.
-9. Once the Testsigma chrome extension is installed successfully, this message will appear:
-
-![Affirmation message for Testsigma extension installation on chrome](https://s3.amazonaws.com/static-docs.testsigma.com/new_images/test-step-recorder/install-chrome-extension/testsigma-extension-added-to-chrome-affirmation.png)
-
-Now Testsigma is successfully installed on your chrome browser. Read more about how to use the Testsigma Test Recorder Chrome extension to record test steps here: [Recording Test Steps: An Overview](https://testsigma.com/docs/test-cases/create-steps-recorder/web-apps/overview/)
-
-
-
-
-
-
-
-
-
-
-
+---

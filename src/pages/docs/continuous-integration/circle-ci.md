@@ -9,57 +9,62 @@ contextual_links:
 - type: section
   name: "Contents"
 - type: link
-  name: "Prerequisites:"
-  url: "#pre-requisite"
+  name: "Prerequisites"
+  url: "#prerequisites"
 - type: link
   name: "Steps to follow"
   url: "#steps-to-follow"
+- type: link
+  name: "Obtain API and Test Plan ID from Testsigma App"
+  url: "#obtain-api-and-test-plan-id-from-testsigma-app"
+- type: link
+  name: "Add the Shell Script to Code Repository"
+  url: "#add-the-shell-script-to-code-repository"
+- type: link
+  name: "Configure the CircleCI Pipeline"
+  url: "#configure-the-circleci-pipeline"
 ---
 
 ---
 
-Testsigma offers webhooks for triggering Testsigma Executions remotely from any third-party tool that provides a Command Line Interface (CLI). In this guide, we will see how we can integrate Testsigma in CircleCI for automatically triggering Test Executions after some code is changed on your code repository. We will also configure it to wait for the tests to complete execution and then check if they passed, before proceeding to deployment.
+Testsigma offers webhooks for triggering Testsigma Executions remotely from any third-party tool that provides a Command Line Interface (CLI). This article will help you to integrate Testsigma with CircleCI for automatically triggering Test Executions after some code is changed on your code repository. 
  
 ---
-##**Pre-requisite:**
+## **Prerequisites**
 
->Before we begin, you will need:
->- A CircleCI Account with connected Source Code Management (SCM) tool (Github, Azure, etc.)
-> - A CI/CD pipeline set up in CircleCI. Please check with your DevOps team if you need help with this.
+- A CircleCI Account with connected Source Code Management (SCM) tool (Github, Azure, etc.)
+- A CI/CD pipeline set up in CircleCI. 
 
 ---
-##**Steps to follow:**
+
+## **Steps to follow:**
 We will complete the integration in 3 parts:
-* Obtain API and Test Plan ID from Testsigma App
-* Add the Shell Script to Code Repository
-* Configure the CircleCI Pipeline
+- Obtain API and Test Plan ID from Testsigma App
+- Add the Shell Script to Code Repository
+- Configure the CircleCI Pipeline
 
+---
 
-Let’s begin.
+## **Obtain API and Test Plan ID from Testsigma App**
+1. Create API Key by navigating to **Settings > API Keys**.
+![API Key](https://s3.amazonaws.com/static-docs.testsigma.com/new_images/projects/applications/APIKeyGen.png)
+We will use this API Key to authenticate our remote Test Plan trigger requests from CircleCI. 
 
+2. Create a Test Plan in Testsigma that you will execute as part of the CircleCI Pipeline. Obtain the **Test Plan ID** for the Test Plan from the **CI/CD Integrations** tab within **Test Plan details** as shown below:
+![Test Plan ID](https://s3.amazonaws.com/static-docs.testsigma.com/new_images/projects/applications/TPAPIcall.png)
+We will add Testsigma API Key and the Test Plan ID to a Shell script, and the shell script file to your Code Repository.
 
-### Part1: Obtain API and Test Plan ID from Testsigma App
-1. If you have not created a Testsigma API key already, please create one by navigating to Settings > API Keys and clicking on Create button on the top right corner.
-
-![API key details in Testsigma](https://docs.testsigma.com/images/circle-ci/api-key-details-testsigma.png)
-We will use this API Key to authenticate our remote Test Plan trigger requests from CircleCI (explained in next article section - Set up Code Repository)
-
-2. Create a Test Plan in Testsigma that you will execute as part of the CircleCI Pipeline. Obtain the Test Plan ID for the Test Plan from the CI/CD Integrations tab within Test Plan details as shown below:
-![get test plan id from a test plan in Testsigma](https://docs.testsigma.com/images/circle-ci/get-test-plan-id-test-plan-testsigma.png)
-We will use this Test Plan ID to specify which Test Plan to trigger from CircleCI (explained in next article section - **Set up Code Repository**)
-]
-So, we have noted down the Testsigma API Key and the Test Plan ID now. We will add those to a Shell script, and the shell script file to your Code Repository, in the next section.
+---
  
-### Part 2: Add the Shell Script to Code Repository
-You need to add a script file in your Code Repository stored on Github, Bitbucket, Azure, or any such platform.
-This script file contains commands to trigger the Testsigma Test Plan remotely.
-1. Copy the shell script from the article: [Generic Shell Script for Integrating with CI/CD Tools](https://testsigma.com/docs/continuous-integration/shell-script/) and customize the script file as mentioned in the next steps.
+## **Add the Shell Script to Code Repository**
+You need to add a script file in your Code Repository stored on Github, Bitbucket, Azure, or any such platform. This script file contains commands to trigger the Testsigma Test Plan remotely.
+1. Copy the shell script from the article: [Generic Shell Script for Integrating with CI/CD Tools](https://testsigma.com/docs/continuous-integration/shell-script/).
+2. Update your [Testsigma API Key](https://testsigma.com/docs/configuration/api-keys/) and [Test Plan ID](https://testsigma.com/docs/continuous-integration/get-test-plan-details/) in the above script.
+3. Now upload the script file to your Code Repository and commit.
 
-2 Update your [Testsigma API Key](https://testsigma.com/docs/configuration/api-keys/) and [Test Plan ID](https://testsigma.com/docs/continuous-integration/get-test-plan-details/) in the above script.
+--- 
 
-3. Now upload the script file to your Code Repository (preferably root folder) and commit.
- 
-### Part 3: Configure the CircleCI Pipeline
+## **Configure the CircleCI Pipeline**
 1. In CircleCI, create a new project or select the Project that you want to integrate with Testsigma.
 2. Clicking on **Setup Project** takes us to the Set Up page as shown below:
 

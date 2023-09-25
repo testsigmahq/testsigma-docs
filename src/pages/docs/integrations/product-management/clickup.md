@@ -4,65 +4,66 @@ metadecs: "How to integrate Testsigma with Clickup for real-time bug reporting d
 order: 16.55
 page_id: "Clickup"
 warning: false
-
 contextual_links:
 - type: section
   name: "Contents"
 - type: link
-  name: "Prerequisites:"
+  name: "Prerequisites"
   url: "#prerequisites"
 - type: link
-  name: "Integrating Clickup with Testsigma"
-  url: "#integrating-clickup-with-testsigma"
+  name: "Steps to Integrate Clickup with Testsigma"
+  url: "#steps-to-integrate-clickup-with-testsigma"
 - type: link
   name: "Creating a bug"
   url: "#creating-a-bug"
 ---
 ---
 
-With Testsigma and Clickup integration, you can push bugs directly from Testsigma to your Clickup project, capture screenshots, annotate bugs, and share them with your teammates and colleagues.
-In this document, we will discuss how to establish Integration with Clickup from your Testsigma account and how to create the first bug from Testsigma which can flow into Clickup.
-
-## **Prerequisites**
-
-To integrate Clickup with Testsigma, you need the following information from your Clickup Account (Check how to get the API key here: https://docs.clickup.com/en/articles/1367130-getting-started-with-the-clickup-api)
-
-- Personal API Key 
-
-You should also be familiar with [Test Plan Runs](https://testsigma.com/docs/runs/test-plan-executions/).
+You can integrate Testsigma with Clickup to push bugs directly to Clickup’s project. You can also capture screenshots, annotate bugs, and share them with your team. In this document, we will discuss how to integrate Clickup with Testsigma and also how to create the first bug from Testsigma which can flow into Clickup.
 
 ---
 
-## **Integrating Clickup with Testsigma**
+## **Prerequisites**
+To integrate Clickup with Testsigma, you need the following:
+- **API Key:** API Token from Clickup. 
 
-1. Once the above details are obtained, navigate to the Plugins page through Dashboard > Settings > Plugins and select Clickup under the Bug Reporting Tab.
-2. Click on the Disabled Icon on Clickup. Clickup Details overlay opens up, as shown below:
+[[info | **NOTE**:]]
+|*For more information on how to create API token in Clickup, refer to Clickup [personal API key](https://help.clickup.com/hc/en-us/articles/6303426241687-Getting-Started-with-the-ClickUp-API).*
 
-![the clickup overlay to integrate with Testsigma](https://s3.amazonaws.com/static-docs.testsigma.com/new_images/integrations/product-management/clickup/clickup-overlay-to-integrate.png)
+---
 
-3. Enter the details as mentioned in Prerequisites. After entering the details, click on the Create button to add the Integration.
+## **Steps to Integrate Clickup with Testsigma**
+1. Navigate to **Settings > Integrations**.
+![Integrations](https://s3.amazonaws.com/static-docs.testsigma.com/new_images/projects/applications/ytintegrations.png)
+
+2. Enable toggle on **Clickup** widget.
+![Enable Toggle](https://s3.amazonaws.com/static-docs.testsigma.com/new_images/projects/applications/toggleclickup.png)
+
+3. On the **ClickUp details** prompt, enter the **Personal Token** and click on **Save & Enable**.
+![Save & Enable](https://s3.amazonaws.com/static-docs.testsigma.com/new_images/projects/applications/cusaveenable.png)
+
 
 ---
 
 ## **Creating a bug**
+1. Navigate to **Run Results > Test Case Result**, where you want to add a bug.
+![Run Results](https://s3.amazonaws.com/static-docs.testsigma.com/new_images/projects/applications/tcresultyt.png)
 
-We can create a bug within Testsigma from the run results page for a particular Test Plan with the following steps:
-1. Navigate to the run results test case level page where you want to add a bug.
-2. Click on the Report Bug button(bug icon on the top right corner) to open the Bug Reporting overlay.
+2. Click on **Report Bug**.
+![Report Bug](https://s3.amazonaws.com/static-docs.testsigma.com/new_images/projects/applications/reportbugyt.png)
 
- ![report but on a test case execution result page](https://s3.amazonaws.com/static-docs.testsigma.com/new_images/integrations/product-management/clickup/run-test-case-report-bug-clickup.png)
+3. On **Report** overlay, click on the **Clickup** icon.
+![Report Overlay](https://s3.amazonaws.com/static-docs.testsigma.com/new_images/projects/applications/clickupreport.png)
 
-3. Choose Clickuup and enter the detailed information of your bug.
+4. On the **Create New Issue** prompt, click on **Create Ticket**.
+![Create Ticket](https://s3.amazonaws.com/static-docs.testsigma.com/new_images/projects/applications/cucreateticket.png)
 
-[[info | NOTE:]]
-|Only the bug reporting tools that have been enabled via the plugins page (add link) will be displayed here.
-
-If you want to link to an existing issue on Clickup, click on the Link to Issue button, search for an existing issue in the search field and click on Link Issue to add a link to an existing Issue on Clickup. Otherwise, enter the bug details in the form as required.
-
-4. Click on Create to create the Bug.
-
-When the bug is created, some additional details regarding the Test Result such as the Test Execution Video and Step Screenshots are added to the Issue on Clickup automatically by Testsigma. This helps the developer who checks the issue in Clickup to understand the issue/bug better with more context.
+[[info | **NOTE**:]]
+| If you want to link to an existing issue on Clickup, click on the **Link to Issue** button, search for an existing issue in the search field and click on **Link Issue** to add a link to an existing Issue.
+|![Link to Isse](https://s3.amazonaws.com/static-docs.testsigma.com/new_images/projects/applications/culinktoissue.png)
 
 
+Here's a quick GIF demonstrating how to integrate Clickup and add a bug to Clickup from Testsigma. 
+![Clickup Integration](https://s3.amazonaws.com/static-docs.testsigma.com/new_images/projects/applications/clickupgif.gif)
 
-
+---
