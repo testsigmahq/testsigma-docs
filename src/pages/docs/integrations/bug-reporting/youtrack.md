@@ -87,4 +87,5 @@ Once the above details are obtained, navigate to the Plugins page through **Dash
 
 Here's a quick GIF demonstrating how to integrate Youtrack and add a bug to Youtrack from Testsigma. 
 ![YouTrtack](https://s3.amazonaws.com/static-docs.testsigma.com/new_images/projects/applications/youtrackint.gif)
+
 ---
