@@ -27,7 +27,7 @@ The phone number data type is used to automate two-factor authentication (2FA) a
 ---
 ## **Prerequisites**
 - You should be familiar with regular expressions. Refer to the [regex guide](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Guide/Regular_Expressions).
-- Contact @support@testsigma.com to get a phone number.
+- Contact [Testsigma support](support@testsigma.com) to get a phone number.
 
 ---
 ## **Use Case**
@@ -57,3 +57,5 @@ We will use the test data generators available in Testsigma to fetch the OTP fro
 ![PhoneNumberFubctions](https://s3.amazonaws.com/static-docs.testsigma.com/new_images/projects/applications/phdatagensave.png)
 
 We have successfully created a test case for 2FA authentication. 
+
+---
