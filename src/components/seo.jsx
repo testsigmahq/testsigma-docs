@@ -143,7 +143,7 @@ function SEO({ lang,
             {/* Algolia API v4 IE11 support  */}
             <script src="https://polyfill.io/v3/polyfill.min.js?features=Promise%2CObject.entries%2CObject.assign" />
             <script async defer type='text/javascript' charSet='utf-8' src='https://js.hsforms.net/forms/embed/v2.js' />
-            <script type="text/javascript" id="hs-script-loader" async defer src="//js.hs-scripts.com/23422177.js"></script>
+            <script type="text/javascript" id="hs-script-loader" async defer src="//js.hs-scripts.com/23341221.js"></script>
 
             <script type="application/ld+json">
                 {'{'+
