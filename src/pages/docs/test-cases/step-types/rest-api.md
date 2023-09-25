@@ -76,3 +76,4 @@ Here is a quick GIF demonstrating the above workflow: ![Configure Rest API test 
 | For more information on RESTful API testing in a test case, refer to [RESTful API Testing](https://testsigma.com/docs/test-cases/create-steps-restapi/restful-api-overview/).
 
 ---
+
