@@ -1,50 +1,56 @@
 ---
 title: "Upload Android and iOS Apps"
-metadesc: "Detailed steps to upload Android and iOS apps in Testsigma for seamless app testing. This document covers the steps to upload Android and iOS apps."
+pagetitle: "Upload Android and iOS Apps for Testing in Testsigma"
+metadesc: "Learn how to upload Android and iOS apps for efficient testing in Testsigma. Ensure app quality and reliability effortlessly. Step-by-step guide provided."
 noindex: false
 order: 20.12
-page_id: "Upload Android and iOS Apps"
+page_id: "upload-android-ios-apps-testsigma"
 warning: false
 contextual_links:
 - type: section
   name: "Contents"
 - type: link
-  name: "Uploading the app"
-  url: "#uploading-the-app"
+  name: "Upload Applications"
+  url: "#upload-applications"
+- type: link
+  name: "Manage Upload Application"
+  url: "#manage-upload-application"
 ---
 
 ---
 
-To automate testing of your native Android and iOS apps, you need to make sure the app exists on one or more of the below locations: 
+Upload your Android and iOS apps to the Testsigma Cloud to quickly develop and execute mobile automation. Ensure you make your native Android and iOS apps accessible for testing in one of these locations.
+  1. On your local machine (for Local Hybrid Execution).
+  2. On your server and accessible via a direct internet link.
+  3. On the Testsigma Cloud.
 
-   * Local machine (Local Hybrid Execution).
-   * Your server, and is accessible via direct link on the internet.
-   * Testsigma Cloud.
-
-   The fastest way to develop and execute mobile automation is by uploading your apps to Testsigma cloud. Let’s see how to do that.
-
----
-##**Uploading the app**
-1. Go to the project in which you need to upload the app. For example, your Android app will need to be uploaded in an Android Project/Application in Testsigma, and an iOS app will need to be uploaded in an iOS Project/Application in Testsigma.
-2. Go to **Test Development > Uploads.**
-3. On the Uploads page, click on the **Upload** button. A window will appear where you can choose the file to upload:
-![ upload window while uploading apps in Testsigma](https://s3.amazonaws.com/static-docs.testsigma.com/new_images/uploads/upload-apps/upload-window-upload-apps-testsigma.png)
-
-4. Choose the file to upload. Check that the name and the version are added correctly on the upload window. 
-5. Click on the **Upload** button.
-6. Wait for the file to be uploaded successfully:
- ![ uploads page with 2 uploaded apps in a project in Testsigma](https://s3.amazonaws.com/static-docs.testsigma.com/new_images/uploads/upload-apps/uploads-page-upload-apps-testsigma.png)
-This uploaded file can be used while developing and executing your tests.
+This guide will demonstrate how to do this and automate your mobile app testing, ensuring the quality and reliability of your applications.
 
 ---
-##**Editing an uploaded app with an updated version**
-Once you have uploaded an app, you might want to add an updated version of the app. You can do that by following below steps:
-1. Go to Test Development > Uploads
-2. On the Uploads page, go to the app that you want to update
-3. Corresponding to the app, click on the edit button, as highlighted in the screenshot below:
-![edit button to upload an updated app](https://s3.amazonaws.com/static-docs.testsigma.com/new_images/uploads/upload-apps/edit-button-upload-updated-app.png)
-4. On the update file pop-up that appears, choose the file you want to update the app to. 
-5. Once the file is uploaded, you would see the name and version text boxes appear as shown in the screenshot below:
-![Update App window under Uploads](https://s3.amazonaws.com/static-docs.testsigma.com/new_images/uploads/upload-apps/uploads-updated-app-window.png)
-6. Fill in the name and version text boxes with the needed information.
-7. Click on the button “Update” for the changes to be reflected.
+### **Prerequisites**
+
+Before uploading the Android and iOS applications, you must understand specific concepts, such as creating [Projects](https://testsigma.com/docs/projects/overview/) and [Test Cases](https://testsigma.com/docs/test-cases/manage/add-edit-delete/) and uploading the **Android** app as a **.apk** file and the **iOS** app as a **.ipa** file for testing.
+
+---
+
+## **Upload Applications**
+
+1. Navigate to the **Project** where you want to upload the app, and then go to the left-side navbar and click on **Test Data** > **Uploads**. ![Open Uploads List page](https://s3.amazonaws.com/static-docs.testsigma.com/new_images/projects/applications/upload_testdata_nb.gif)
+
+[[info | NOTE:]]
+| For instance, if you want to upload your Android app, navigate to an Android project. Similarly, if you want to upload an iOS app, navigate to an iOS project.
+
+2. Click the **Upload** button in the top right corner of the screen on the **Uploads List page**. An **Upload a file** overlay will appear on the screen. Click **Browse file** to upload the application file from your local device.
+3. After uploading the application, verify that you have correctly added the **Name** and **Version** in the **Upload a file** window. You can edit the name and version for the uploaded application if the name and version need to be corrected.
+4. Wait for the file to upload successfully, and use the uploaded file while developing and executing your tests. ![Upload application](https://s3.amazonaws.com/static-docs.testsigma.com/new_images/projects/applications/uploadapp_testdata.gif)
+
+[[info | NOTE:]]
+| You can Upload files not more than **300 Mb**.
+
+---
+
+## **Manage Upload Application**
+
+Click the **ellipsis** icon next to the uploaded application you want to manage on the Upload Page. The dropdown menu will appear, and you can then select options like **Upload a new version**, **Download**, or **Delete** the application. ![Manage Upload Apps](https://s3.amazonaws.com/static-docs.testsigma.com/new_images/projects/applications/manage_uploadapps.gif)
+
+---
