@@ -1,128 +1,97 @@
 ---
 title: "Test Step Type: Blocks"
-metadesc: "Blocks in Testsigma and how to use them."
+pagetitle: "Streamline Test Steps with Step Blocks in Testsigma"
+metadesc: "Optimise test management with Testsigma Test Step Type: Blocks for streamlined steps. Avoid nesting or converting Step Blocks for streamlined processes."
 noindex: false
 order: 4.26
-page_id: "Test Step Type: Blocks"
+page_id: "step-blocks-testsigma"
 warning: false
 contextual_links:
 - type: section
   name: "Contents"
 - type: link
-  name: "Create a Step Group"
-  url: "#create-a-step-group"
+  name: "Create a Block using Test Step Type"
+  url: "#create-a-block-using-test-step-type"
 - type: link
-  name: "Edit a Step Group"
-  url: "#edit-a-step-group"
+  name: "Create a Block using Bulk Action"
+  url: "#create-a-block-using-bulk-action"
 - type: link
-  name: "Edit A Block"
-  url: "#edit-a-block"
+  name: "Editing a Block"
+  url: "#editing-a-block"
 - type: link
-  name: "Delete A Block"
-  url: "#delete-a-block"
+  name: "Deleting a Block"
+  url: "#deleting-a-block"
 - type: link
-  name: "Actions Possible On A Block"
+  name: "Actions Possible on a Block"
   url: "#actions-possible-on-a-block"
 - type: link
-  name: "Actions Not Possible On A Block"
+  name: "Actions not Possible On A Block"
   url: "#actions-not-possible-on-a-block"
 ---
 ---
 
+In Testsigma, you can combine several test steps into one block using Step Blocks. This feature makes your test cases more organised, efficient, and simpler. You can make logical groups of actions, validations, or other steps that must be done together. This guide will explain how to use Step Blocks in Testsigma. 
 
-There might be times when you would want to group certain test cases and assign them a label. Testsigma lets you do that via blocks.
-
-When you add certain test steps inside a block, the test steps will be treated same as the test steps outside the block, the only difference will be that they will have an added label. 
-
----
-
-## **Create A Block**
-
-In Testsigma, a block can be created in 2 ways:
-1. [Create A Block By Adding As A Test Step Type](#create-a-block-by-adding-as-a-test-step-type)
-2. [Create A Block Via Bulk Action](#create-a-block-via-bulk-action)
-
-Because a block is same as a label, block test steps will not be given any test step numbers.
+In Testsigma, a step block can be created using two different methods:
+1. Create a Block using Test Step Type
+2. Create a Block using Bulk Action
 
 ---
 
-## **Create A Block By Adding As A Test Step Type**
+### **Prerequisites**
 
-Follow below steps to create a block by adding it as a test step type:
-1. Go to the test case where you want to add a block.
-2. Add a test step where you want to add a block.
-3. Go to the tiny box on the left end of the test step and hover over it. A drop down appears, with the types of test steps that you can add, as also highlighted in the screenshot below:
-
-![the tiny box on the left of a new test step](https://s3.amazonaws.com/static-docs.testsigma.com/new_images/test-cases/step-types/block/tiny-box-on-the-left-end-of-a-test-step.png)
-
-4. From the drop down that appears select the test step type "Block".
-5. Once you select the block, you would see text "Enter your step block label here" on the step. So, in this step you add the label you want to assign to the block. 
-6. Once you have added the label, click on the button "Create".
-7. Once the block is created, you can add test steps inside the block by using the button "Add a Step Inside". This button appears when you hover over the added block step.
-
-Below gif demonstrates above steps:
-
-![gif demonstrating how to add a block as a new test step](https://s3.amazonaws.com/static-docs.testsigma.com/new_images/test-cases/step-types/block/add-a-block-by-adding-as-a-new-test-step-gif.gif)
-
-
+Before using the Step Block, you must understand specific concepts such as creating [Projects](https://testsigma.com/docs/projects/overview/), [Test Cases](https://testsigma.com/docs/test-cases/manage/add-edit-delete/), [Test Steps](https://testsigma.com/docs/test-cases/create-steps-nl/overview/), and understanding [Test Step Types](https://testsigma.com/docs/test-cases/step-types/overview/) and [Bulk Actions](https://testsigma.com/docs/test-cases/create-steps-nl/bulk-actions/).
 
 ---
 
-## **Create A Block Via Bulk Action**
+## **Create a Block using Test Step Type**
 
-Follow below steps to create a block via bulk action:
-1. Go to the test case where you want to add a block.
-2. Select the test steps that you want to add in the block. Note that only consecutive test steps can be added to a block. 
-3. Bulk actions panel will appear on the top right of the test steps, with option to "+Create Block", as also shown in the screenshot below:
+Follow the below steps to add a block using the test step type:
 
-![create block button as bulk action](https://s3.amazonaws.com/static-docs.testsigma.com/new_images/test-cases/step-types/block/create-block-button-as-bulk-action.png)
-
-4. On click on the "+Create Block" button, a pop-up window will appear where you need to enter block's name and click on the button "Create". 
-5. A collapsed block will be created with the given name, containing the selected steps. You can expand the block by click on the ">" icon on the left. The icon is highlighted in the screenshot below:
-
-![collapsed blocks in Testsigma](https://s3.amazonaws.com/static-docs.testsigma.com/new_images/test-cases/step-types/block/collapsed-blocks.png)
-
+1. Click **+ Add new step** on the **Test Case Details** page where you want to insert a block.
+2. Click on the **Test Step Type** button located before the new **test step** and select **Create a Block** from the dropdown list that appears.
+3. Once you've selected the block, enter a title and click **Create Step**. ![Create Block in Test Step Type](https://s3.amazonaws.com/static-docs.testsigma.com/new_images/projects/applications/createblock_teststeptype.gif)
+4. To add a step within the block, click **Step Inside Block**, and to add a test step after the block, click **Step After Block**. ![Add Step Inside](https://s3.amazonaws.com/static-docs.testsigma.com/new_images/projects/applications/stepinside_block.gif)
 
 ---
 
-## **Edit A Block**
+## **Create a Block using Bulk Action**
 
-You can edit a block by clicking the "edit" button corresponding to the Block Step. A click on the edit button will let you edit the name of the block, this will not impact the test steps inside the block. The edit button is highlighted for your reference in the screenshot below:
+Follow the below steps to add a block using the bulk action:
 
-![edit button for a block step](https://s3.amazonaws.com/static-docs.testsigma.com/new_images/test-cases/step-types/block/edit-button-for-a-block-step.png)
-
-
-
----
-
-## **Delete A Block**
-
-
-You can delete a block by clicking the "delete" button corresponding to the Block Step. A click on the delete button will let you delete the block only(as it is only considered as a label for the test steps), the test steps inside it will remain intact. The delete button is highlighted for your reference in the screenshot below:
-
-![delete button for a block step](https://s3.amazonaws.com/static-docs.testsigma.com/new_images/test-cases/step-types/block/delete-button-for-a-block-step.png)
+1. Add the **test steps** you want to the block by selecting them on the **Test Case Details** page.
+[[info | NOTE:]]
+| You can only add consecutive test steps to a block.
+2. Click the **Create Block** option in the menu bar, and a **Create Block** pop-up window will appear. Enter the **title** and click **Create**.
+3. Click the **>** icon on the left to see the selected steps to make a collapsed block with the given title. ![Block in Bulk Action](https://s3.amazonaws.com/static-docs.testsigma.com/new_images/projects/applications/block_bulkactions.gif)
+[[info | NOTE:]]
+| If you selected a Block step in the Test Steps, you cannot create a Block again. Please remove or deselect the Block step and try again.
 
 ---
 
-## **Actions Possible On A Block**
+## **Editing a Block**
 
-Below are the actions possible on a block:
-
-1. **Edit A Block**: Discussed [here](#edit-a-block)
-2. **Delete A Block**: Discussed [here](#delete-a-block)
-3. **Add A Test Step Above The Block**: You can add a test step above the block by click on the "+ Add Step" button that appears above the block on hover on the block.
-4. **Add A Test Step Below The Block**: You can add a test step below the block by click on the "+ Add Step" button that appears below the block on hover on the block.
-5. **Add A Test Step Inside The Block**: You can add a test step inside the block by click on the "+ Add a Step Inside" button that appears on hover on the block. 
-6. You can select steps inside a block and add them to a step group. 
-7. You can reorder the test steps inside a block, as if there was no block there. This is because block is just a label.
+Open the test case with the Step Block you want to edit. Choose the **block**, edit its **name**, and click **Update Step** to save. Click the **>** icon to view the steps within the block. To add a Test Step, click **Step Inside Block**, or click the **ellipsis** icon in the test step for perform [Test Step Options](https://testsigma.com/docs/test-cases/create-steps-nl/step-actions/). ![Edit Block](https://s3.amazonaws.com/static-docs.testsigma.com/new_images/projects/applications/edit_block.gif)
 
 ---
 
-## **Actions Not Possible On A Block**
+## **Deleting a Block**
 
-Actions that are not possible on the block are:
-1. If you try to add steps from multiple blocks to one step group ,then, the steps would be added but the blocks would not be added to the step group.
-2. A block test steps cannot be reordered, but the test steps inside it can be. This is possible irrespective of where the block is.
+To delete a Step Block, open the test case containing it and click the **Delete** button corresponding to the Block Step. Clicking on the delete button will delete the block, as it is only considered a label for the test steps, and the test steps inside it will remain intact. ![Delete Block](https://s3.amazonaws.com/static-docs.testsigma.com/new_images/projects/applications/delete_block.gif)
 
+---
+
+## **Actions Possible on a Block**
+
+- **Reordering Steps**: Within a Step Block, you can change the order of steps.
+- **Copying Block**: You can copy a Step Block and its contained steps and paste it into the same or another test case.
+- **Moving Block**: You can move a Step Block and its contained steps to a different location within the same test case.
+
+---
+
+## **Actions not Possible on a Block**
+
+- **Nesting Blocks**: You cannot nest Step Blocks inside other Step Blocks.
+- **Converting to Regular Steps**: Once created, you cannot directly convert a Step Block into an individual test step.
 
 ---
