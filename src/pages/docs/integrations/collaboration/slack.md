@@ -1,5 +1,5 @@
 ---
-title: "Integrating Slack with Testsigma for test run notifications"
+title: "Slack Interation with Testsigma"
 metadesc: "Learn how to configure your Slack channel to receive Pass/Fail/Abort notifications about Test Results as in real-time from Testsigma application"
 noindex: false
 order: 16.21
@@ -12,8 +12,8 @@ contextual_links:
   name: "Prerequisites"
   url: "#prerequisites"
 - type: link
-  name: "Integrating Slack with Testsigma"
-  url: "#integrating-slack-with-testsigma"
+  name: "Steps to Integrate Slack with Testsigma"
+  url: "#steps-to-integrate-slack-with-testsigma"
 - type: link
   name: "Enabling Slack notifications in Test Plan"
   url: "#enabling-slack-notifications-in-test-plan"
@@ -21,40 +21,36 @@ contextual_links:
 
 ---
 
-Testsigma Slack integration sends Test **Pass/Fail/Abort** notifications in real-time to your specified Slack channel directly. This ensures that you can collaborate with your teammates by sharing the test results in real-time.
+Testsigma Slack integration sends ***Test Pass/Fail/Abort*** notifications in real-time to your specified Slack channel directly. This ensures that you can collaborate with your teammates by sharing the test results in real-time.
 
 ---
 ## **Prerequisites**
-We need a Slack Incoming Webhook URL to integrate with Testsigma and we will be using this to post the Test Results to your slack channels.
-
-To know how to generate an Incoming Webhook in Slack, refer to [Sending messages using Incoming Webhooks | Slack](https://api.slack.com/messaging/webhooks)
+- Slack Incoming Webhook URL. *For more information, refer to [Incoming Webhooks](https://api.slack.com/messaging/webhooks).*
 
 ---
-## **Integrating Slack with Testsigma**
-Once the Webhook URL is obtained, navigate to the **Plugins page** through **Dashboard > Settings > Plugins** and select **Slack** under the **Collaborations** Tab.
-  1. Click on the **Disabled Icon**. Slack Details overlay opens up as shown below:
-![Add Slack Integration form](https://docs.testsigma.com/images/slack/add-slack-integration-form.png)
-  2. Enter the details as given below:
+## **Steps to Integrate Slack with Testsigma**
+1. Navigate to **Settings > Integrations** and enable the toggle on **Slack** widget. 
+![Integrations](https://s3.amazonaws.com/static-docs.testsigma.com/new_images/projects/applications/navsetslack.png)
 
-      a. **Webhook URL:** The incoming webhook URL obtained from Slack.
-
-      b. **Post to channel(optional):** Name of the channel if you would like to post to a specific Slack Channel in your organization.  
-
-      c. **The username that this integration is posted as (optional):** The intended author of the posted message.
-
-After entering the details, click on the **Create button** to add the Integration.
+2. On the **Slack details** prompt, enter all the details and click on **Save & Enable**. 
+![Slack Details](https://s3.amazonaws.com/static-docs.testsigma.com/new_images/projects/applications/sldetailspr.png)
 
 ---
-## **Enabling Slack notifications in Test Plan**
+## **Enabling Slack Notifications in Test Plan**
+1. Navigate to **Test Plans > Select/Create a Test Plan > Test Plan Settings**. 
+![Test Plan Settings](https://s3.amazonaws.com/static-docs.testsigma.com/new_images/projects/applications/tpdslack.png)
 
-Once the slack integration is added, you can enable the **Slack notifications** for your Test Plans while editing any of your existing Test Plans or while creating a new Test Plan.
+2. On the **Edit Test Plan** page, enable **Send Notification** toggle. 
+![Toggle](https://s3.amazonaws.com/static-docs.testsigma.com/new_images/projects/applications/togglesltps.png)
 
-From the **Send Notification When** section on the Test Plan Settings page,
- * Under the **On** dropdown, select the Test Plan status for which you want to be notified. You can select multiple statuses from the list.
+3. Select the status for which you want to receive the notification. 
+![Status](https://s3.amazonaws.com/static-docs.testsigma.com/new_images/projects/applications/notonsl.png)
 
- * Under the **send message to** dropdown, select **Slack**.
-![Send notification settings under Test Plan Settings ](https://docs.testsigma.com/images/slack/create-edit-test-plan-send-notification-when.png)
+4. Select **Slack** from ‘Also send messages to’ dropdown menu.  
+![Select Slack](https://s3.amazonaws.com/static-docs.testsigma.com/new_images/projects/applications/asmtsl.png)
 
 Here’s what the Notification looks like on Slack:
-![Slack notification for Test Results ](https://s3.amazonaws.com/static-docs.testsigma.com/new_images/projects/applications/slack.png)
+![Slack](https://s3.amazonaws.com/static-docs.testsigma.com/new_images/projects/applications/slack.png)
 
+Here's a quick GIF demonstrating Slack integration with Testsigma. 
+![Slack Integration](https://s3.amazonaws.com/static-docs.testsigma.com/new_images/projects/applications/SlackInt.gif)

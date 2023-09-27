@@ -20,83 +20,57 @@ contextual_links:
 ---
 
 ---
+
 When a user is added in Testsigma, they can be assigned various roles. This document covers how to add users and assign them different roles and accesses within Testsigma.
 
-&emsp;
-
 ---
-##**Roles in Testsigma**
+
+## **Roles in Testsigma**
 Below are the four roles that can be assigned to a project member in Testsigma:
 
-1.**Super Administrator**
-A user in a ‘Super Administrator’ role will have complete control over the Testsigma project but will be restricted from viewing Account or Billing-related information.
+1. **Super Administrator:** A user in a ‘Super Administrator’ role will have complete control over the Testsigma project but will be restricted from viewing Account or Billing-related information.
 
-2.**Test Manager**
-A user in the role of ‘Test Manager’ will be able to manage multiple projects - including assigning users to the projects, adding applications, versions in each project.
+2. **Test Manager:** A user in the role of ‘Test Manager’ will be able to manage multiple projects - including assigning users to the projects, adding applications, versions in each project.
 
-3.**Test Lead**
-A user in the role of ‘Test Lead’ will be able to manage everything in the assigned project - including adding applications, versions in that project.
+3. **Test Lead:** A user in the role of ‘Test Lead’ will be able to manage everything in the assigned project - including adding applications, versions in that project.
 
-4.**Automation Engineer/Developer**
-A user in the role of ‘Automation Engineer/Developer’ can write, view, update test cases, and everything required to write test cases like test data profiles, Elements, custom functions, etc.
+4. **Automation Engineer/Developer:** A user in the role of ‘Automation Engineer/Developer’ can write, view, update test cases, and everything required to write test cases like test data profiles, Elements, custom functions, etc.
 
-5.**Account Administrator** 
-A user in the role of ‘Account Administrator’ has all the rights as a Super Administrator. In addition, they will also have access to billing-related information for that particular account.
+5. **Account Administrator:** A user in the role of ‘Account Administrator’ has all the rights as a Super Administrator. In addition, they will also have access to billing-related information for that particular account.
 
-&emsp;
+
 
 ---
-##**Edit Users to Assign New Roles**
 
-1.Go to ‘Settings > Users’, you should see a page like this:
+## **Edit Users to Assign New Roles**
+1. Navigate to **Settings > Users**.
+![Settings](https://s3.amazonaws.com/static-docs.testsigma.com/new_images/projects/applications/urmnavsets.png)
 
-![Users page in Testsigma](https://docs.testsigma.com/images/users-roles/users-page-testsigma.png)
+2. Hover over the user and click on kebab menu. 
+![Kebab Menu](https://s3.amazonaws.com/static-docs.testsigma.com/new_images/projects/applications/urmkm.png)
 
-2.Click on the user that you want to edit. You can also search for the user from the search field on the top. 
+3. Click on **Edit user role**.
+![Edit User](https://s3.amazonaws.com/static-docs.testsigma.com/new_images/projects/applications/nuroleurm.png)
 
-3.On the User details page, click on the ‘edit’ button on the top right corner.
-
-![Edit Button on the User Details page in Testsigma](https://docs.testsigma.com/images/users-roles/edit-button-user-details-page-testsigma.png)
-
-1.A form should appear like the one shown below:
-
-![Update User Details form in Testsigma](https://docs.testsigma.com/images/users-roles/update-user-details-form-testsigma.png)
-
-From here, you can fill up the required fields, and change the user role as needed.
-
-2.Once all the required changes are made, click on the ‘Update’ button
-
-&emsp;
+4. On **Edit User Role / Assign Projects** prompt, select roles and click on **Update**. 
+![Edit User Roles](https://s3.amazonaws.com/static-docs.testsigma.com/new_images/projects/applications/roleurm.png)
 
 ---
-##**Assign Roles to Users**
 
-1.To assign a project with a particular role to an existing user, refer to [assigning projects](https://testsigma.com/docs/collaboration/assign-projects/)
+## **Assign Roles to Users**
+1. Navigate to **Project > Project Settings**, click on **Project members**. 
+![Project Members](https://s3.amazonaws.com/static-docs.testsigma.com/new_images/projects/applications/urmpmem.png)
 
-2.To create a new user and then assign them to one or multiple projects, refer to [Inviting team members](https://testsigma.com/docs/collaboration/invite-team-members/)
+2. Click on **Invite**.
+![Invite](https://s3.amazonaws.com/static-docs.testsigma.com/new_images/projects/applications/urminvite.png)
 
+3. On **Add New Member to Project** prompt, enter **Email** and select the **Role** you want to assign. 
+![Email & Role](https://s3.amazonaws.com/static-docs.testsigma.com/new_images/projects/applications/urmear.png)
 
-&emsp;
+4. Click on **Update**. 
+![New User](https://s3.amazonaws.com/static-docs.testsigma.com/new_images/projects/applications/urmud.png)
 
-### Steps to follow
-
-1.Select the project that you want to add users with different roles to. 
-
-2.Go to Project settings>Project Members
-
-3.Click on the ‘Invite’ button on the top right corner.
-
-4.On the ‘Add New Member to Project’ form that opens, add all the required information. You will be able to select the required role from the ‘role’ dropdown field.
-
-![Add New Member to Project form in Testsigma](https://docs.testsigma.com/images/users-roles/add-new-member-to-project-form-testsigma.png)
-
-5.Once all the required fields are filled, click on the ‘Invite’ button on the form.
-
-[[info | Note:]]
-|This form only allows adding users in ‘Test Manager’, ‘Test Lead’, and ‘Automation Engineer/Developer’ Roles. To read about creating users with Super admin roles, go to the section [“Assign Projects”](https://testsigma.com/docs/collaboration/assign-projects/).
-
+[[info | **NOTE**:]]
+| You can only add users as **Test Manager**, **Test Lead**, and **Automation Engineer/Developer**. To assign **Super Admin** roles, refer to [Assign Projects](https://testsigma.com/docs/collaboration/assign-projects/).
 
 The invited user should receive an invitation email. They will need to join via the link sent in the email. Once they have joined they should be able to work on the project according to the role assigned to them.
-
-
-
