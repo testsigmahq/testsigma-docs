@@ -81,7 +81,7 @@ You can use user-defined custom fields and the default fields to filter elements
 2. Click **Add Filter** to open the drop-down list and select the desired filters.
 3. Click **Save Filter** will make the drop-down list appear for saving the current filter, and select **As New** will open a pop-up window named **Save filter config as**. Click **Reset** to discard the current filter.
 4. Enter a name for the configuration in the **Config Name** field and mark the checkbox to make it **Public** (Visible for all users with access to the project). Then, click **Save** to save the filter.
-5. Click **Saved Filters** in the menu bar on the **Elements List** page to open the drop-down list. In **Custom Filters**, locate the saved filter, mouse over to the filter, and click the **Edit** button next to the filter name to edit it. To delete the saved filter, click the **Delete** button. ![Save Elememts Filter](https://s3.amazonaws.com/static-docs.testsigma.com/new_images/projects/applications/save_elementslist.gif)
+5. Click **Saved Filters** in the menu bar on the **Elements List** page to open the drop-down list. In **Custom Filters**, locate the saved filter, select the filter and mouse over to the filter, and click the **Edit** button next to the filter name to edit it. To delete the saved filter, click the **Delete** button. ![Save Elememts Filter](https://s3.amazonaws.com/static-docs.testsigma.com/new_images/projects/applications/save_elementslist.gif)
 
 ---
 
@@ -97,8 +97,7 @@ You can use user-defined custom fields and the default fields to filter elements
 1. In the **Elements List** Page, click **Saved Filters** from the menu bar.
 2. Open the drop-down list by clicking **Add Filter** and choose the additional filtering options you want to apply to the existing ones.
 3. Once you have made your desired changes, click on **Save Filter**. This will display a drop-down list, allowing you to save the updated filter. If you want to replace the existing filter, click **Replace Existing**, which will prompt a pop-up window named **Update filter config**.
-4. In the **Update filter config** pop-up window, you can enter a new name for the updated filter if necessary. Additionally, you can continue configuring by marking the checkbox to make it **Public** (visible for all users with access to the project). Finally, click **Update** to save the changes to the filter.
-5. Enter an updated name if needed or can continue for the configuration in the **Config Name** field and mark the checkbox to make it **Public** (Visible for all users with access to the project). Then, click **Update** to save the filter. ![Update Saved Filters](https://s3.amazonaws.com/static-docs.testsigma.com/new_images/projects/applications/updatesavedfilter_elementslist.gif)
+4. In the **Update filter config** pop-up window, you can enter a new name for the updated filter if necessary. Additionally, you can continue configuring by marking the checkbox to make it **Public** (visible for all users with access to the project). Finally, click **Update** to save the changes to the filter. ![Update Saved Filters](https://s3.amazonaws.com/static-docs.testsigma.com/new_images/projects/applications/updatesavedfilter_elementslist.gif)
 
 [[info | NOTE:]]
 | If you wish to discard the current filter, click All in the menu bar on the Elements List page.
