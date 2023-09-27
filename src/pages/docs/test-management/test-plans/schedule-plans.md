@@ -1,7 +1,7 @@
 ---
 title: "Schedule Test Plans"
 page_title: "Schedule Test Plan: Automate Your Testing | Testsigma"
-metadesc: "Learn how to schedule a Test Plan and Partial Test Plan today and effortlessly automate your testing with Testsigma to save time and streamline your testing process."
+metadesc: "Learn how to automate your testing process and save time by scheduling Test Plan in Testsigma. You can schedule, edit, and view scheduled Test Plans."
 noindex: false
 order: 8.24
 page_id: "schedule-test-plan-testsigma"

@@ -1,10 +1,10 @@
 ---
 title: "Review Management for Test Cases"
-page_title: "Test Case List Actions: Streamline Test Case Management | Testsigma"
-metadesc: "How to review test cases created in Testsigma."
+page_title: "Test Case Review Management | Testsigma Documentaion"
+metadesc: "Learn how Testsigma's Test Case Review Management enhances collaboration, improves accuracy, and streamlines testing processes to boost testing efficiency."
 noindex: false
 order: 3.3
-page_id: "Review Management for Test Cases"
+page_id: "test-case-review-management-testsigma"
 warning: false
 contextual_links:
 - type: section

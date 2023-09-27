@@ -1,7 +1,7 @@
 ---
 title: "Element List Actions"
-pagetitle: "Element List Actions: Enhancing Element Management in Testsigma"
-metadesc: "Explore how Testsigma's Element List Actions streamline element handling, from sorting and filtering to saving filters. Effortlessly optimise your test automation workflow."
+pagetitle: "Element List Actions | Testsigma Documentaion"
+metadesc: "Learn how Element List Actions in Testsigma empower your test automation. Sort, filter, search, save, and manage elements efficiently for improved testing."
 noindex: false
 order: 6.11
 page_id: "element-list-actions-testsigma"

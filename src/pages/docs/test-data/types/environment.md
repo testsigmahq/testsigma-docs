@@ -1,7 +1,7 @@
 ---
 title: "Environment Test Data"
 page_title: "Environment Test Data: Streamlining Test Execution in Testsigma"
-metadesc: "Learn how to use Environment Test Data in Testsigma to enhance testing efficiency. Streamline your testing process by using it in test steps, ad-hoc runs, and test plans now!"
+metadesc: "Integrate environment test data to enhance testing efficiency in Testsigma. Optimise specific environment for test steps, ad-hoc runs, and test plans."
 noindex: false
 order: 5.24
 page_id: "environment-test-data-testsigma"

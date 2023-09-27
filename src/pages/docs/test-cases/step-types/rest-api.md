@@ -70,7 +70,7 @@ Follow the steps below on the Rest API screen, which will appear, to configure y
 8. **Global Objects**: You can link or utilise the predefined global objects in your Testsigma project (such as reusable test data or functions) within your Rest API Test Step to ensure consistency and reusability across your tests.
 9. Click **Create** at the bottom of the screen after configuring the Rest API Test Step to create the Rest API in the Test Step. You can now execute it to test the RESTful API.
 
-Here is a quick GIF demonstrating the above workflow: ![Configure Rest API test step](https://s3.amazonaws.com/static-docs.testsigma.com/new_images/projects/applications/config_restapi_tst.gif)
+Here is a quick GIF demonstrating the above workflow: ![Configure Rest API test step](https://s3.amazonaws.com/static-docs.testsigma.com/new_images/projects/applications/config_restapitst.png)
 
 [[info | NOTE:]]
 | For more information on RESTful API testing in a test case, refer to [RESTful API Testing](https://testsigma.com/docs/test-cases/create-steps-restapi/restful-api-overview/).
