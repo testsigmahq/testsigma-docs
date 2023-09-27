@@ -1,6 +1,6 @@
 ---
 title: "Test Case List Actions"
-page_title: "Test Case List Actions: Streamline Test Case Management | Testsigma"
+page_title: "Test Case List Actions | Testsigma Documentaion"
 metadesc: "Effortlessly streamline your testing process by using Testsigma's List Actions to search, sort, filter, save, view, and manage test cases, and optimise."
 noindex: false
 order: 4.12

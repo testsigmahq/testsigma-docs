@@ -1,6 +1,6 @@
 ---
 title: "Test Step Type: Rest API"
-pagetitle: "Rest API: Building Powerful Interfaces for Seamless Communication"
+pagetitle: "Test Step Type: Rest API | Testsigma Documentaion"
 metadesc: "Discover how to create powerful and secure REST APIs from scratch in this comprehensive guide that covers best practices, authentication, and error handling."
 noindex: false
 order: 4.23
