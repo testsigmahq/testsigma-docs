@@ -25,7 +25,10 @@ contextual_links:
 
 ---
 
-In Testsigma, you can collaborate with your teams on test case creation and maintenance with the Review Management feature. This feature allows you to easily submit test cases for review, review test cases created by your team members, and even perform self-reviews to ensure the quality and accuracy of your test cases.
+You can work together with your team to create and maintain test cases in Testsigma using the Review Management feature. This feature enables you to send your test cases for review easily, review the test cases created by your team, and even check your own work for accuracy and quality. Testsigma provides two ways to assist with test case reviews.
+
+1. **Self-review**: The person who created the test can review their work. 
+2. **Review involving other team members**: The person who created the test can ask other team members to review their test cases.
 
 This documentation will guide you through enabling and using Test Case Review Management in Testsigma.
 
@@ -33,7 +36,7 @@ This documentation will guide you through enabling and using Test Case Review Ma
 
 ### **Prerequisites**
 
-Before using Test Case Review Management, you must understand specific concepts such as creating [Projects](https://testsigma.com/docs/projects/overview/), [Test Cases](https://testsigma.com/docs/test-cases/manage/add-edit-delete/), and [managing Users and Roles](https://testsigma.com/docs/collaboration/users-roles/).
+Before using Test Case Review Management, you must understand specific concepts such as creating [Projects](https://testsigma.com/docs/projects/overview/), [Test Cases](https://testsigma.com/docs/test-cases/manage/add-edit-delete/), and managing [Users and Roles](https://testsigma.com/docs/collaboration/users-roles/).
 
 ---
 
