@@ -10,35 +10,31 @@ contextual_links:
 - type: section
   name: "Contents"
 - type: link
-  name: "Desired Capabilities for setting location"
-  url: "#desired-capabilities-for-setting-location"
+  name: "How to Set the Geolocation?"
+  url: "#how-to-set-the-geolocation"
 - type: link
   name: "Using Desired Capability to set the Location"
   url: "#using-desired-capability-to-set-the-location"
-- type: link
-  name: "Sample Use Case"
-  url: "#sample-use-case"
 ---
 
 ---
 
-This article mainly focuses on how to use Desired Capabilities to set the Geographical Location for running tests in Mobile Web.
-
-[[info | NOTE:]]
-| To Enable Localization Testing, please contact Testsigma Support
+Geolocation desired capability is a configuration used to set the geographic location for a web or mobile web during testing. This capability is helpful while testing location related web and mobile web features. This article discusses how to set Geolocation desired capabilities on the Ad-Hoc Run page in Testsigma. 
 
 ---
-##**Desired Capabilities for setting location**
 
-In order to set the geolocation in a mobile Web test, we can use the following desired capability:
+## **How to Set the Geolocation?**
 
-browserstack.geoLocation = "Two-letter Country Code"
+In order to set the geolocation for a web or mobile web test, we can use the following desired capability:
 
-For Example:
+**browserstack.geoLocation = "&lt;Two-letter Country Code&gt;"**
 
-browserstack.geoLocation = "AR"
 
-Below given is the list of countries with their country codes that can be used in the value field for Desired Capability:
+For Example: <br>
+<br>
+**browserstack.geoLocation = "AR"**
+
+Here is the list of countries with their country codes that can be used in the value field for desired capability:
 
 |Country Name|Country Code|
 |---|---|
@@ -92,33 +88,20 @@ Below given is the list of countries with their country codes that can be used i
 |United States|US|
 
 ---
-##**Using Desired Capability to set the Location**
 
-In case of an Ad Hoc run, click on the Run button from the Test Case details page to open the Ad-hoc Run overlay.
+## **Using Desired Capability to set the Location**
+1. Click on **Run** from **Test Case Details** page. 
+![Run Test Case](https://s3.amazonaws.com/static-docs.testsigma.com/new_images/projects/applications/glrun.png)
 
-After clicking on Desired Capabilities link, we can enter ‘BrowserStack.geoLocation’ in the name field, select ‘String’ as data type, and set the value as per the required country's country code as shown in the below screenshot:
+2. On **Ad-Hoc Run** overlay, click on **Desired Capabilities**.
+![AdHoc Run](https://s3.amazonaws.com/static-docs.testsigma.com/new_images/projects/applications/glahrun.png)
 
-![Adhoc Run Desired Capability Geolocation](https://docs.testsigma.com/images/geo-location-for-localization/adhoc-run-desired-caps-geolocation.png)
+3. Enter ***BrowserStack.geoLocation*** in the **Key** field, select ***String*** as **Data type**, and set the **Value** as per country's country code.
+![Desired Capability](https://s3.amazonaws.com/static-docs.testsigma.com/new_images/projects/applications/gldc.png)
 
-That's all. Now you can click on ‘Run Now’ to start the execution. The execution will start on the cloud device and the location will be detected as the specified one, in this case, Argentina.
+4. Click on **Run Now** to execute the test case. 
+![Run Now](https://s3.amazonaws.com/static-docs.testsigma.com/new_images/projects/applications/glrunnow.png)
 
+Here’s a quick GIF demonstrating how to set geolocation desired capability.
+![Geo Location Work Flow](https://s3.amazonaws.com/static-docs.testsigma.com/new_images/projects/applications/GeoLocationWF.gif)
 ---
-##**Sample Use Case**
-
-In this sample use case, we shall use [www.google.com](https://www.google.com) for a particular country name i.e Italy and their country code is ‘IT’.
-
-In this particular test case, we have used the following test steps and our intention is to see the Google homepage that is shown in Italy.
-
-![Geolocation Test Case Test Steps](https://docs.testsigma.com/images/geo-location-for-localization/desired-caps-geolocation-test-case.png)
-
-After creating the test cases, click on the Run Test case and set the desired capabilities as per the above syntax.
-
-After the test case runs you can see the screenshot (if enabled) in the run result to ensure that the URL shown is specific to Italy.
-
-
-
-
-
-
-
-
