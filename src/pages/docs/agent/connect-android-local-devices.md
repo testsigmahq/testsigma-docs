@@ -10,7 +10,7 @@ contextual_links:
 - type: section
   name: "Contents"
 - type: link
-  name: "Pre-Requisites"
+  name: "Prerequisites"
   url: "#prerequisites"
 - type: link
   name: "Setup Instructions"
@@ -19,41 +19,49 @@ contextual_links:
 
 ---
 
-Testsigma allows you to run tests on your local Android devices in addition to Testsigma Cloud machines/devices. Step by step guid for running the tests on Android Local Devices.
+Testsigma allows you to run tests on your local Android devices in addition to Testsigma cloud machines/devices. This article discusses how to set up Android local devices in Testsigma.
 
 ---
 ## **Prerequisites**
-
-  - Testsigma Agent is successfully registered. For details on registering Testsigma Agent visit [Setting up Testsigma Agent on your local machine](https://testsigma.com/docs/agent/setup-on-windows-mac-linux/)
+- You should have Testsigma agent on your local machine. For more information, refer to https://testsigma.com/docs/agent/setup-on-windows-mac-linux/.
+- Enable Developer options in your Android device. 
 
 ---
 ## **Setup Instructions:**
+1. Open **Settings** and tap on **About Phone**.
+![About Phone](https://s3.amazonaws.com/static-docs.testsigma.com/new_images/projects/applications/slaaphone3.png)
 
- 1. Enable Developer options in your Android device. Usually Developer options can be enabled by tapping on **Settings-->About Phone-->Build number** for 7 times.
-	 ![image description](https://docs.testsigma.com/images/android-setup/android_about_phone.png)
+2. Go to **Software information** and tap on **Build number** 7 times. 
+![Build Number](https://s3.amazonaws.com/static-docs.testsigma.com/new_images/projects/applications/slabuildno.png)
 
 
- 2. Navigate to Developer Options and enable USB debugging as shown below.
- ![image description](https://docs.testsigma.com/images/android-setup/android_usb_debugging.png)
- 
- 3. Under Developer Options, if an option is present to **install apps over USB**, make sure this is enabled.
- 4. After enabling USB debugging, connect your Android device to the machine(Where Testsigma Agent is installed and registered). Accept the the alert "Allow USB Debugging". You can select the checkbox "Always allow from this computer" if present.
-	 ![image description](https://docs.testsigma.com/images/android-setup/android_trust_computer_alert.png)
-	 
- 5. Start the agent and navigate to agents page in Testsigma app and click on the registered agent.
- 6. Under devices, you can see the device name that is connected to the registered Agent as shown below. 
-	 ![image description](https://docs.testsigma.com/images/android-setup/agent-device.png)
-	 
- 7. To execute Android tests on this Device, you can choose Local **Devices-->Select the Registered Agent-->Select the connected device** as shown below.
- ![image description](https://docs.testsigma.com/images/android-setup/agent-device-selection-dry-run.png)
+3. Open **Developer Options** from **Settings**.
+![Developer Options](https://s3.amazonaws.com/static-docs.testsigma.com/new_images/projects/applications/sladevops.png)
+
+
+4. Enable **USB Debugging** toggle. 
+![USB Debugging](https://s3.amazonaws.com/static-docs.testsigma.com/new_images/projects/applications/slausbd.png)
+
+
+5. Connect your Android device to the machine (Where Testsigma Agent is installed and registered). Accept the alert **Allow USB Debugging**. You can select the checkbox **Always allow from this computer** if present.
+![Allow USB Debugging](https://s3.amazonaws.com/static-docs.testsigma.com/new_images/projects/applications/slausbdbconnect.png)
+
+
+6. Navigate to **Agents** page in Testsigma app and click on the registered agent.
+![Agents](https://s3.amazonaws.com/static-docs.testsigma.com/new_images/projects/applications/slaapge.png)
+
+
+7. Under **Devices**, you can see the device that is connected to the registered agent as shown below.
+![Devices](https://s3.amazonaws.com/static-docs.testsigma.com/new_images/projects/applications/sladevices.png)
+
+
+8. To execute android tests on this Device, you can select the **Connected Machine** and **Device**. 
+![Connected Machine](https://s3.amazonaws.com/static-docs.testsigma.com/new_images/projects/applications/slacmd.png)
+
 
 [[info | NOTE:]]
-|For more info on executing Tests on local devices, visit below links <br/>
-|[Dry Runs on Local Devices](https://testsigma.com/docs/runs/dry-runs-on-local-devices/) <br/>
-|[Test Plan Local Executions](https://testsigma.com/docs/runs/test-plans-on-local-devices/)<br/>
+|For more info on executing Tests on local devices, refer to: <br/>
+|- [Dry Runs on Local Devices](https://testsigma.com/docs/runs/dry-runs-on-local-devices/) <br/>
+|- [Test Plan Local Executions](https://testsigma.com/docs/runs/test-plans-on-local-devices/)<br/>
 
- 
-
-
-
-  
+---

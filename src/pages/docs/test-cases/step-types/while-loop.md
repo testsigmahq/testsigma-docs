@@ -132,12 +132,4 @@ Here's a quick GIF demonstrating adding While Loop in test cases using the recor
 
 ![The verify if NLP that is available with the addon String Compare](https://s3.amazonaws.com/static-docs.testsigma.com/new_images/test-cases/step-types/step-group/verify-with-if-with-string-compare.png)
 
-[[info | **NOTE**:]]
-| - If the step and condition both pass, it will show **Condition True** on the test step. 
-|![Condition True](https://s3.amazonaws.com/static-docs.testsigma.com/new_images/projects/applications/ctwhileloop.png)
-|- In case of step failure also it will show **Condition False** on the test step.
-|![Condition False](https://s3.amazonaws.com/static-docs.testsigma.com/new_images/projects/applications/cfwhileloop.png)
-|- If the condition fails and step passes, it will show **Condition False** on the test step.  
-|![Both](https://s3.amazonaws.com/static-docs.testsigma.com/new_images/projects/applications/whileloopboth.png)
-
-
+---
