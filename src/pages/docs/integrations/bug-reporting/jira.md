@@ -22,53 +22,51 @@ contextual_links:
 
 ---
 
-Testsigma Jira integration lets you create issues in Jira directly from the Testsigma app. With simple one-click integration, you can push annotated issues to a project of your choice, assign them to a teammate, and attach screenshots, all while in the middle of a test session in the Testsigma platform. The fields populated by you when marking a bug through Testsigma are displayed as information on the Jira ticket for a testing instance.
-
-In this document, we will discuss how to establish Integration with Jira from your Testsigma account and how to create bug reports from Testsigma which can flow into Jira as issues.
+You can integrate Testsigma with Jira to push bugs directly to Jira's project. You can also capture screenshots, annotate bugs, and share them with your team. In this document, we will discuss how to integrate Jira with Testsigma and also how to create the first bug from Testsigma which can flow into Jira.
 
 ---
+
 ## **Prerequisites**
-
-To integrate Jira with Testsigma, you need the following information from your Jira Account
-* Account URL - Your organization’s Jira Account URL like ‘https://yourcompany.atlassian.net’
- * User Name - Your Account username/email
- * API Key - [Find your Atlassian API Token](https://support.atlassian.com/atlassian-account/docs/manage-api-tokens-for-your-atlassian-account/)
-
-You should already know about [Test Plan Runs and results](https://testsigma.com/docs/runs/test-plan-executions/)
+To integrate Jira with Testsigma, you need the following:
+- **Account URL**: Your Jira Account URL
+- **Username**: Your account username/email
+- **API Key**: API Token from Jira
 
 ---
 
 ## **Integrating Jira with Testsigma**
+1. Navigate to **Settings > Integrations**.
+![Settings](https://s3.amazonaws.com/static-docs.testsigma.com/new_images/projects/applications/jrsettings.png)
 
-Once the above details are obtained, navigate to the Plugins page through **Dashboard > Settings > Plugins** and select Jira under the Bug Reporting Tab.
+2. Enable toggle on **Jira** widget. 
+![Jira Toggle](https://s3.amazonaws.com/static-docs.testsigma.com/new_images/projects/applications/jrnav.png)
 
-Click on the Disabled Icon on **Jira**. Jira Details overlay opens up as shown below:
-
-![Add Jira Integration form](https://docs.testsigma.com/images/jira/add-jira-integration-form.png)
-
-Enter the details as mentioned in Prerequisites. After entering the details, click on the Create button to add the Integration.
+3. On the **Jira Details** prompt, enter **Account URL**, **User Name**, **API Key** and click on **Save & Enable**.
+![Jira Details](https://s3.amazonaws.com/static-docs.testsigma.com/new_images/projects/applications/jrdetails.png)
 
 ---
 
 ## **Creating a bug**
+1. Navigate to **Run Results > Test Case Result**, where you want to add a bug.
+![Test Case Report](https://s3.amazonaws.com/static-docs.testsigma.com/new_images/projects/applications/jrtcresults.png)
 
-We can create a bug within Testsigma from the run results page for a particular Test Plan with the following steps:
+2. Click on **Report Bug**.
+![Report Bug](https://s3.amazonaws.com/static-docs.testsigma.com/new_images/projects/applications/jrreportbug.png)
 
-  1.  Navigate to the run results test case level page where you want to add a bug.
-  2.  Click on the **Report Bug** button (bug icon on the top right corner) to open the Bug Reporting   overlay.
+3. On **Report** overlay, click on the **Jira** icon. 
+![Jira Icon](https://s3.amazonaws.com/static-docs.testsigma.com/new_images/projects/applications/jrreportoverlay.png)
 
-![report bug button on the run test case page for run results](https://docs.testsigma.com/images/jira/run-results-test-case-page-report-bug-button.png)
+4. On the **Create New Issue** prompt, click on **Create Ticket**.
+![Create New Issue](https://s3.amazonaws.com/static-docs.testsigma.com/new_images/projects/applications/jrnewtickt.png)
 
-  3. Choose Jira to reveal the Create new Issue dialog as shown below: 
+[[info | **NOTE**:]]
+| If you want to link to an existing issue on Jira, click on the **Link to Issue** button, search for an existing issue in the search field and click on **Link to Ticket** to add a link to an existing Issue.
+|![Link](https://s3.amazonaws.com/static-docs.testsigma.com/new_images/projects/applications/jrlinktoissu.png)
 
-  ![Sample Task reported from Testsigma Bug Reporting Integration in Test Results page](https://docs.testsigma.com/images/jira/plugins-bug-reporting-create-bug-jira.png)
 
-[[info | NOTE:]]
-|Only the bug reporting tools that have been enabled via the plugins page (add link) will be displayed here.
 
-  If you want to link to an existing issue on JIRA, click on the **Link to Issue button**, search for an existing issue in the search field and click on Link Issue to add a link to an existing Issue on JIRA. Otherwise, enter the bug details in the form as required.
-  
-  4. Click on Create to create the Bug.
+Here's a quick GIF demonstrating how to integrate Jira and add a bug to Jira from Testsigma.
+![Jira Work Flow GIF](https://s3.amazonaws.com/static-docs.testsigma.com/new_images/projects/applications/JiraIntGif.gif)
 
-  When the bug is created, some additional details regarding the Test Result such as the Test Execution Video and Step Screenshots are automatically added to the Issue on JIRA by Testsigma. This helps the developer who checks the issue in JIRA to understand the issue/bug better with more context.
 
+---
