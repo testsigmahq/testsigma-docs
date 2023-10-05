@@ -1,106 +1,79 @@
 ---
 title: "Review Management for Test Cases"
-metadesc: "How to review test cases created in Testsigma."
+page_title: "Test Case Review Management | Testsigma Documentaion"
+metadesc: "Learn how Testsigma's Test Case Review Management enhances collaboration, improves accuracy, and streamlines testing processes to boost testing efficiency."
 noindex: false
 order: 3.3
-page_id: "Review Management for Test Cases"
+page_id: "test-case-review-management-testsigma"
 warning: false
 contextual_links:
 - type: section
   name: "Contents"
 - type: link
-  name: "Pre-requisites"
-  url: "#pre-requisites"
+  name: "Enable Test Case Review Management and Self Review"
+  url: "#enable-test-case-review-management-and-self-review"
 - type: link
-  name: "How to send a test case for review"
-  url: "#how-to-send-a-test-case-for-review"
+  name: "Submit Test Case for Review"
+  url: "#submit-test-case-for-review"
 - type: link
-  name: "Steps to follow when you want a team member to review your test case"
-  url: "#steps-to-follow-when-you-want-a-team-member-to-review-your-test-case"
+  name: "Reviewing a Test Case"
+  url: "#reviewing-a-test-case"    
 - type: link
-  name: "How to self-review a test case"
-  url: "#how-to-self-review-a-test-case"    
+  name: "Self Review a Test Case"
+  url: "#self-review-a-test-case"   
 ---
 
 ---
 
+You can work together with your team to create and maintain test cases in Testsigma using the Review Management feature. This feature enables you to send your test cases for review easily, review the test cases created by your team, and even check your own work for accuracy and quality. Testsigma provides two ways to assist with test case reviews.
 
-Once a test case is created in Testsigma, it can be submitted for review. Testsigma provides two different ways of managing test case reviews.
+1. **Self-review**: The person who created the test can review their work. 
+2. **Review involving other team members**: The person who created the test can ask other team members to review their test cases.
 
-1. **Self-review:** Here the test creator is able to review their own test cases.
-   
-2. **Review management involving other team members:** Here, the test creator can submit the test cases for review to other team members.
-
-In this document, we will cover both ways of reviewing and subsequently managing test case reviews.
-
-&emsp;
+This documentation will guide you through enabling and using Test Case Review Management in Testsigma.
 
 ---
-##**Pre-requisites:**
-1. You should know how to create a test case in Testsigma. If not, refer to [creating a test case](https://testsigma.com/docs/test-cases/manage/add-edit-delete/).
-   
-2. To enable review management in Testsigma, make sure the option ‘Test Case Review Management’  is enabled under ‘Settings > Preferences’
 
-![ test case review management and self review management options in Testsigma](https://docs.testsigma.com/images/test-cases-review-management/test-case-review-management-self-review-management-options-testsigma.png)
+### **Prerequisites**
 
-3.  To enable self-review, hit the toggle in ‘Self-review management’.
-
-&emsp;
+Before using Test Case Review Management, you must understand specific concepts such as creating [Projects](https://testsigma.com/docs/projects/overview/), [Test Cases](https://testsigma.com/docs/test-cases/manage/add-edit-delete/), and managing [Users and Roles](https://testsigma.com/docs/collaboration/users-roles/).
 
 ---
-##**How to send a test case for review:**
-1. Go to the Project
-   
-2. Go to Test Development > Test Cases
-   
-3. Create a new test case
-   
-4. Once you have created the test case, click on the ‘Submit for Review’ button that appears in the top right corner.
 
-![submit for review button on a test case page in Testsigma](https://docs.testsigma.com/images/test-cases-review-management/submit-for-review-button-test-case-page-testsigma.png)
+## **Enable Test Case Review Management and Self Review**
 
-5. The ‘Submit for Review’ form will show up. By default the test creator is selected as the reviewer here:
+Follow these steps to enable Test Case Review Management and Self Review in your Testsigma account:
 
-![Submit for Review form for a test case in Testsigma](https://docs.testsigma.com/images/test-cases-review-management/submit-for-review-form-test-case-Testsigma.png)
-
-6. From the reviewer drop-down, select the user that should review your test case, add any comments you have in the comments section, and click on the ‘Submit’ button.
-
-7. Once submitted, the reviewer will receive an email notifying them that they have been assigned a test case to review. You can also track the status of the review from the ‘SUBMITTED FOR REVIEW’ section displayed on the dashboard. 
-
-&emsp;
+1. Click on the **Settings** tab in the left-side navbar of the Dashboard. Then, select Preferences and turn on the **Test Case Review Management** toggle. This will enable you to submit test cases for review and review test cases created by your team members.
+2. After you enable **Test Case Review Management**, you can also enable **Self-Review Management**. This feature helps you to perform self-reviews as part of the software testing and quality assurance process. ![Enable Test Case Review Management](https://s3.amazonaws.com/static-docs.testsigma.com/new_images/projects/applications/enable_testcasereviewmanagement.gif)
 
 ---
-##**Steps to follow when you want a team member to review your test case:**
-1. When you receive a test case to review, you will be notified of the same in an email. In addition, you can also track the status of the received review requests under the section: ‘Waiting for your review’ on the dashboard:
 
-![Submitted for Review and Waiting for Review test cases on dashboard in Testsigma](https://docs.testsigma.com/images/test-cases-review-management/submitted-for-review-waiting-for-review-test-cases-dashboard-testsigma.png)
+## **Submit Test Case for Review**
 
-2. To proceed you can click on the test case link received in the email or click on the test case shown under the ‘WAITING FOR YOUR REVIEW’ section:
+Here's how to submit test cases for review and get feedback from your team members after enabling Test Case Review Management:
 
-3. You will be taken to the test case to review.
-   
-4. After you have reviewed the test case, to give your review input, click on the ‘Review Test Case’ button on the top right: 
+1. Create a **Test Case** with a list of **test steps**. Then, click **Submit for Review** at the top right of the screen to bring up an overlay.
+2. Select a **Reviewer** from the dropdown list, check the box next to **Notify Assignee and Reviewer**, you can add comments in the box, and then click **Submit**. ![Submit Test case for review](https://s3.amazonaws.com/static-docs.testsigma.com/new_images/projects/applications/submitreview_testcase.gif)
 
-![Review Test Case Button on Test Case Page in Testsigma](https://docs.testsigma.com/images/test-cases-review-management/review-test-case-button-test-case-page-testsigma.png)
+[[info | NOTE:]]
+| Check the **Submitted for Review** section on the Dashboard to view the **Test Cases** that you have submitted for review.
+---
 
-5. This will bring up the ‘Review test case’ form:
+## **Reviewing a Test Case**
 
-![review test case form in Testsigma](https://docs.testsigma.com/images/test-cases-review-management/review-test-case-form-Testsigma.png)
+Follow these steps to review a test case if you have been assigned as a reviewer:
 
-
-**Here you can:**
-
-a. Add in your comments
-
-b. Check the box ‘Send comment notification to assignee and reviewer’ if you want to send out notification for your comments.
-
-c. Click on ‘Rework’ or ‘Approve’ according to the status of your review
-
-These steps can be repeated until the test case is approved.
-
-&emsp;
+1. An email notification will inform you when you receive a test case to review. You can also check the **Assigned for your Review** section on the dashboard to keep track of review requests you have received.
+2. To start, click either the test case link in the email or select the test case from the **Assigned for your Review** section. It will take you to the test case for review.
+3. Click the **Review Testcase** button in the top right corner to provide feedback once you've finished reviewing the test case.
+4. After you click the **Review Testcase** button, the **Update Review Status** overlay will appear. You can check the **Notify Assignee and Reviewer** box, add comments, and click **Approve** or **Rework** based on your review assessment. You can repeat these steps as needed until the test case is approved. ![Review Test Case](https://s3.amazonaws.com/static-docs.testsigma.com/new_images/projects/applications/review_testcase.gif)
 
 ---
-##**How to self-review a test case:**
-The steps to self-review a test case are the same as when you assign another team-member a test case for review. The only difference is that the creator assigns the test case for review to themselves and all stages of reviews are completed by the creator.
+
+## **Self Review a Test Case**
+
+You can check your test cases by enabling the **Self Review** feature. You assign the test case for review to yourself and handle all stages of the review, which is identical to when you assign a test case to another team member for review.
+
+---
 

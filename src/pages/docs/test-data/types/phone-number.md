@@ -27,6 +27,7 @@ The phone number data type is used to automate two-factor authentication (2FA) a
 ---
 ## **Prerequisites**
 - You should be familiar with regular expressions. Refer to the [regex guide](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Guide/Regular_Expressions).
+
 - Contact [Testsigma support](support@testsigma.com) to get a phone number.
 
 ---

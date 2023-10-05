@@ -1,5 +1,5 @@
 ---
-title: "Create test data profiles"
+title: "Create Test Data Profiles"
 metadesc: "This article discusses steps in detail on how to create test data profiles that can be used in a test cases in Testsigma application."
 noindex: false
 order: 5.21
@@ -9,17 +9,14 @@ contextual_links:
 - type: section
   name: "Contents"
 - type: link
-  name: "Test data required -"
-  url: "#test-data-required--"
+  name: "Steps to Create Test Data Profiles"
+  url: "#steps-to-create-test-data-profiles"
 - type: link
-  name: "Create a test data profile"
-  url: "#create-a-test-data-profile"
+  name: "Steps to Associate Test Data Profile to a Test Case"
+  url: "#steps-to-associate-test-data-profile-to-a-test-case"
 - type: link
-  name: "Steps to follow to create test data that is expected to fail the test case:"
-  url: "#steps-to-follow-to-create-test-data-that-is-expected-to-fail-the-test-case"
-- type: link
-  name: "How to use a test data profile in your test case"
-  url: "#how-to-use-a-test-data-profile-in-your-test-case"
+  name: "Using Test Data Profile in a Test Case"
+  url: "#using-test-data-profile-in-a-test-case"
 - type: link
   name: "Additional Actions Possible on Test Data Set Name"
   url: "#additional-actions-possible-on-test-data-set-name"
@@ -27,114 +24,81 @@ contextual_links:
 
 ---
 
-This document explains how to create a test data profile in Testsigma, using an example test case of signing up for Spotify. 
-
-Let’s begin:
-
-**Application under test** - https://travel.testsigma.com/signup
+Test data profiles can significantly help the efficiency of your testing process, especially when dealing with large sets of similar data. For example, we need 1000s of data sets to test the login functionality of any website. Test data profiles are helpful in such cases. This article will discuss how to create a test data profile. 
 
 ---
-## **Test data required:**
 
-Let’s say this data is required every time you test the sign up on Spotify:
-1. Email
-2. Username
-3. Date of Birth
-4. Password
-5. Gender
-
-The test data set needs to contain thousands of combinations of the above test data to ensure that millions of potential Spotify users can sign up without any issues. To test this signup for 1000 test data sets, instead of manually hardcoding each, you can create test data profiles.
-
-In this example, we show you how to create a subset of the Spotify sign-up test data with just 5 rows. 
-
-Then there will be times when you will write test data for which the test case should fail. We will discuss that scenario in the section **Expected to fail test data**.
+## **Prerequisites**
+- You should know how to [create a test case](https://testsigma.com/docs/test-cases/manage/add-edit-delete/).
 
 ---
-## **Create a test data profile:**
-Follow these steps to create and use test data profiles in your tests.
 
-1. Navigate to **Test development > Test data profiles**
-2. Click on the **Create**.
+## **Steps to Create Test Data Profiles**
+1. Navigate to **Test Data > Test Data Profiles** and click on **Create Test Data Profile**. 
+![Create Test Data Profile](https://s3.amazonaws.com/static-docs.testsigma.com/new_images/projects/applications/tdpcreate.png)
 
-    ![create button on the all test data profiles page for creating test data profiles in Testsigma](https://s3.amazonaws.com/static-docs.testsigma.com/new_images/test-data/create-data-profiles/create_test_data_profile.png)
+2. On the **Test Data Profile** page that opens, go to **Test Data Profile Info** and enter the name you want to assign to your test data profile.
+![Test Data Profile Name](https://s3.amazonaws.com/static-docs.testsigma.com/new_images/projects/applications/tdpname.png)
 
-3. On the **Create Test Data Profile**  page that opens, go to the text field **Name** and enter the name you want to assign to your test data profile.
-4. Enter names for the data set you want to create. Here we added names  for two data sets **Valid** and **Invalid**.
+3. Add rows and columns as per the requirements by clicking on **Add New Row** and **Add New Column** respectively. 
+![Rowns & Columns](https://s3.amazonaws.com/static-docs.testsigma.com/new_images/projects/applications/tdprowsacolumns.png)
 
-    ![Set names while creating test data profiles in Testsigma](https://s3.amazonaws.com/static-docs.testsigma.com/new_images/test-data/create-data-profiles/valid_invalid_data_profile.png)
+[[info | **NOTE**:]]
+| If you want to create test data that is expected to fail, you can enable the toggle button in the column **ETP** (Expected to Fail). 
+|[ETF](https://s3.amazonaws.com/static-docs.testsigma.com/new_images/projects/applications/tdpetf.png)
 
-5. Enter the names of columns that will be the set of values that each data set will have, more columns can be added by clicking on the **+** button on the top right.
+5. Click on **Create**. 
+![Create](https://s3.amazonaws.com/static-docs.testsigma.com/new_images/projects/applications/tdpcbutton.png)
 
-    ![Adding columns to set names while creating test data profiles in Testsigma](https://s3.amazonaws.com/static-docs.testsigma.com/new_images/test-data/create-data-profiles/columns_test_data_profile.png)
-
-  
-6. Once the columns are added, add the corresponding
-
-    ![adding values to columns while creating test data profiles in Testsigma](https://s3.amazonaws.com/static-docs.testsigma.com/new_images/test-data/create-data-profiles/test_data_profile_create.png)
-
-7. Click on the **Create** button on the top right to finally save the created test data profile.
-
-Alternatively, below is a quick GIF that demonstrates the workflow to create a test data profile
-
-   ![gif demonstrating creating test data profiles in Testsigma](https://s3.amazonaws.com/static-docs.testsigma.com/new_images/projects/applications/createtdp.gif)
+Here’s a quick GIF that demonstrates how to create a test data profile. 
+![Create Test Data Profile](https://s3.amazonaws.com/static-docs.testsigma.com/new_images/projects/applications/CreateTDPWF.gif)
 
 ---
-## **Steps to follow to create test data that is expected to fail the test case:**
-The steps to create test data that is expected to fail a test case is similar to the steps to create general test data that would pass the test case. The difference is just that the toggle button under the column **EXPECTED TO FAIL** needs to be enabled and would look like the screenshot below:
 
-   ![creating test data profile to fail a test case in Testsigma](https://docs.testsigma.com/images/test-data/creating-test-data-profile-to-fail-test-case.png)
+## **Steps to Associate Test Data Profile to a Test Case**
+1. Navigate to **Create Tests > Test Cases** and click on **Create Test Case**.
+![Create Test Case](https://s3.amazonaws.com/static-docs.testsigma.com/new_images/projects/applications/tdpctdp.png)
 
+2. On **Test Case details** page, go to right side navigation bar and click on **Test Case Settings**.
+![Test Case Settings](https://s3.amazonaws.com/static-docs.testsigma.com/new_images/projects/applications/tdptcdprnb.png)
 
----
-## **How to use a test data profile in your test case**
+3. From **Test Case Settings** page, choose **Test Data Profile** from the drodown. 
+![Test Data Profile](https://s3.amazonaws.com/static-docs.testsigma.com/new_images/projects/applications/tdpatdpftcsp.png)
 
-Below, we discuss with an example on how to associate the test data profile with a test case. 
+4. Enable the **Data Driven** toggle. Once you have enable the data driven testing in your test case, you can narrow and customize the various data sets from your test data profile that are being used in your test case using the filters iteration, parameter, set name.
+![Data-driven](https://s3.amazonaws.com/static-docs.testsigma.com/new_images/projects/applications/tdptcsipsn.png)
+    
+    - **Iteration**: This type of filtering applies only to sequential data sets. The data sets can be filtered using the filter operations greater than, less than, or between.
+    - **Set name**: This filtering type applies to nonsequential data sets. Here, the data sets are filtered by data set names using the operations between, equals, contains, starts with, and ends with. Any data set names containing the set name or part of it are used in the test case.
+    - **Parameter**: This type of filtering is applicable for nonsequential data sets. Here, the data sets are filtered using parameters used in data sets.
 
-
-## Step 1: Associate test data profile with your test case 
-
-1. Create a new test case or edit an exisiting test case. *For more information refer to [create test case](https://testsigma.com/docs/test-cases/manage/add-edit-delete/)*.
-2. In the **Advanced options** menu, select the test data profile from the dropdown.
-3. Enable the **Data-driven** testing toggle button. Once you have enable the data driven testing in your test case, you can narrow and customize the various data sets from your test data profile that are being used in your test case using the filters *iteration*, *parameter*, *set name*.
-<ul>
-<li>Iteration: This type of filtering is applicable only to sequential data sets. The data sets can be filtered using the filter operations <em>greater than</em>, <em>less than</em>, or <em>between</em>.</li>
-<li>Set name: This type of filtering is applicable for non sequential data sets. Here the data sets are filtered by data set names using the operations <em>between</em>, <em>equals</em>, <em>contains</em>, <em>starts with</em>, <em>ends with</em>. Any data set names containing the set name or part of it are used in the test case.</li>
-<li>Parameter:This type of filtering is applicable for non sequential data sets. Here the data sets are filtered using parameters used in data sets.</li>
-</ul>
-4. Create the test case.
-
-![associate a test data profile to a test case in Testsigma](https://s3.amazonaws.com/static-docs.testsigma.com/new_images/test-data/create-data-profiles/data_driven_test.gif)
+4. The **Test Data Profile** is linked to **Test Case**. 
 
 ---
-## Step 2: Insert the test data into your test case
 
-Create test steps as below :<br>
+## **Using Test Data Profile in a Test Case**
+1. Navigate to **Create Tests > Test Cases** and click on **Create Test Case**.
+![Create Test Case](https://s3.amazonaws.com/static-docs.testsigma.com/new_images/projects/applications/tdpctdp.png)
 
-1. Navigate to https://travel.testsigma.com/signup.
-2. Enter **test data** in the **elements** field.
-3. Delete test data placeholder from the above line and choose parameters from the drop-down. 
-4. Choose your test data from the right-side panel.
+2. Create test steps as mentioned in the screenshot below:
+![Test Steps](https://s3.amazonaws.com/static-docs.testsigma.com/new_images/projects/applications/tdptcts.png)
 
-The above workflow is depicted in the below GIF too:
+3. Delete ***test data*** placeholder from the above line and choose ***@ Parameters*** from the drop-down.
+![Parameter](https://s3.amazonaws.com/static-docs.testsigma.com/new_images/projects/applications/tdpcpdd.png)
 
-   ![gif demonstrating the insertion of test data into a test case in Testsigma](https://s3.amazonaws.com/static-docs.testsigma.com/new_images/test-data/create-data-profiles/using_data_profile.gif)
+4. On **@ Parameter** overlay, select **Test Data Profile** and **Parameter Name**.
+![Parameter Overlay](https://s3.amazonaws.com/static-docs.testsigma.com/new_images/projects/applications/tdppddtdppn.png)
 
-Test data profile can also be included in test steps using *while loops* and *for loops*. *For more information refer to [while loop](https://testsigma.com/docs/test-cases/step-types/while-loop/) and [for loop](https://testsigma.com/docs/test-cases/step-types/for-loop/)*
-
-The test data can also be imported from an excel sheet, explained [here](https://testsigma.com/docs/test-data/import-data-profiles/).
-
-
-You can now also create Data-Driven Step Groups to use powerful iterative and reusable components inside a test case. [Click Here](https://testsigma.com/docs/test-cases/step-types/step-group/#create-a-data-driven-step-group) to understand how
+Here’s a quick GIF that demonstrates how to associate and use test data profile in a test case. 
+![TDP in Test Cases](https://s3.amazonaws.com/static-docs.testsigma.com/new_images/projects/applications/TDPinTCs.gif)
 
 ---
-## **Additional actions possible on test data set name**
 
-
+## **Additional Actions Possible on Test Data Set Name**
 1. **Store**: When a test data profile is associated with a test case. The test data set name associated with the test data profile can be stored into a variable for later use as well. Below is how the syntax for the Store NLP looks like:
-
 ![store-iteration-count-test-data-set-name](https://s3.amazonaws.com/static-docs.testsigma.com/new_images/test-cases/step-types/for-loop/store-iteration-count-test-data-set-name.png)
 
 2. **if**: The test data set values, from a test data profile being iterated, can be compared within an if condition too. Below screenshot shows the NLP (The NLP can be added as a part of add-on “String Compare”. You can find the add-ons to use here: https://testsigma.com/addons):
-
-
 ![the verify if NLP that is available with the addon String Compare](https://s3.amazonaws.com/static-docs.testsigma.com/new_images/test-cases/step-types/step-group/verify-with-if-with-string-compare.png)
+
+---

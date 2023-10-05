@@ -1,152 +1,89 @@
 ---
 title: "Schedule Test Plans"
-metadesc: "Learn how to create test plans and schedule the test plans for efficient testing in Testsigma. Understand how to create and manage test plans."
+page_title: "Schedule Test Plan: Automate Your Testing | Testsigma"
+metadesc: "Learn how to automate your testing process and save time by scheduling Test Plan in Testsigma. You can schedule, edit, and view scheduled Test Plans."
 noindex: false
 order: 8.24
-page_id: "Schedule Test Plans"
+page_id: "schedule-test-plan-testsigma"
 warning: false
 contextual_links:
 - type: section
   name: "Contents" 
 - type: link
-  name: "Prerequisites"
-  url: "#prerequisites"
-- type: link
-  name: "Schedule a test plan"
+  name: "Schedule a Test Plan"
   url: "#schedule-a-test-plan"
 - type: link
-  name: "Edit test plan schedule"
-  url: "#edit-test-plan-schedule"
+  name: "Schedule a Partial Test Plan"
+  url: "#schedule-a-partial-test-plan"
+- type: link
+  name: "Manage Test Plan Schedule"
+  url: "#manage-test-plan-schedule"
 ---
 
 ---
-With Testsigma, you can execute your test plans in real-time or schedule them for execution in the future. You can also set the test plans execution to be recurring. You can use this to start regression tests outside office hours so that production time is not lost and hardware resources are freely available.
+
+In Testsigma, you can schedule your test plans to automate their execution and monitor your application's performance over time. You can schedule them for specific times and dates or run them immediately. You can even set them to run at regular intervals. Scheduling your tests for regression outside of office hours is a valuable way to minimise production disruptions and ensure optimal resource usage. This guide will show you how to schedule a test plan in Testsigma.
 
 ---
 
-## **Prerequisites:**
+### **Prerequisites**
 
-Know how to [create, edit or delete test plans](https://testsigma.com/docs/test-management/test-plans/overview/).
-
-We will look into the process of scheduling a test execution for an existing test plan in this article.
+Before you schedule a test plan in Testsigma, you must understand the concepts of creating the [Test Plan](https://testsigma.com/docs/test-management/test-plans/overview/).
 
 ---
 
-## **Schedule a test plan**
+## **Schedule a Test Plan**
 
-1. Navigate to **Test Case Development > Test Plans**.
-You will be taken to the test plans page and you can see a list of already created test plans there as shown below:
-
-![Test-Plans-page-in-Testsigma](https://s3.amazonaws.com/static-docs.testsigma.com/new_images/test-management/test-plans/schedule-plans/Test-Plans-page-in-Testsigma.png)
-
-2. Click the button named **Schedule** located beside the test plan you want to schedule on the **Test plans** page. **Schedule test plan** layout will appear:
-
-![Schedule Test Plan in Testsigma](https://docs.testsigma.com/images/schedule-plans/schedule-test-plan-testsigma.png)
-
-The **Schedule test plan** page has the following fields:
-
-a. **Name:** Name the test plan schedule so it’s easier to find and run. For instance, full regression weekly.<br>
-
-b. **Description(optional):** Use this field to add any description that would accurately describe the test plan schedule for you.<br>
-
-c. **Date:** the date when the scheduled execution starts for this test plan. of the By default, the value is set to the current date, and you can change that.<br>
-
-d. **Time:** By default, it would have the current time mentioned, you can change the time to the time you would like the test plan to execute.<br>
-
-e. **Frequency:** How often does the test plan execute? By default, frequency is set to **Don’t repeat**. This is a drop-down box with the following values:<br>
-  
-* Don’t Repeat<br>
-  
-* Hourly<br>
-  
-* Daily<br>
-  
-* Weekly on < weekday >: the weekday will be selected according to the day of the schedule.<br>
-  
-* Monthly on < nth > day: the day of month will be selected according to the day of schedule<br>
-
-3. After filling up the test plan schedule details, click on the **Schedule** button. The schedule will be created according to your selections.
-
-&emsp;
+1. Click the **Test Plan** tab in the left sidebar of the dashboard to access the **Test Plan List** page.
+2. Hover your mouse over the **Schedule** button next to the Test Plan you want to schedule on the **Test Plan List** page and select the **Schedule Run** option from the dropdown list. ![Schedule test plan in Test plan list page](https://s3.amazonaws.com/static-docs.testsigma.com/new_images/projects/applications/scheduletp_tpl.gif)
+3. Alternatively, hover your mouse over the **Schedule** button in the top right corner of the Test Plan Details page and select the **Schedule Run** option from the dropdown list. ![Schedule Test Plan Details](https://s3.amazonaws.com/static-docs.testsigma.com/new_images/projects/applications/scheduletp_tpd.gif)
+4. Click **Schedule Run**, and the **Schedule Test Plan** overlay will appear. You must provide a **Name** and enable the **Description** toggle to provide description for the scheduled test plan.
+5. Click the **Calendar** icon to choose the **Date** for the scheduled execution of this test plan. You can change the default value, which is set to the current date.
+6. Click on the **Clock** icon to choose the **Time**. By default, it displays the current time, but you can change it to the desired time for executing the test plan.
+7. Click **Repeat** to select the **Frequency** for executing the test plan. The available options are:
+   - **Don't Repeat**
+   - **Hourly**
+   - **Daily**
+   - **Weekly on** <weekday>: The weekday will be chosen based on the scheduled day.
+   - **Monthly on** <nth> day: The day of the month will be selected according to the scheduled day.
+8. Click on the **Schedule** button after filling up the test plan schedule details. It will create the schedule according to your selections. ![Schedule a Test Plan](https://s3.amazonaws.com/static-docs.testsigma.com/new_images/projects/applications/scheduletp.gif)
 
 ---
 
-## **Schedule partial test run**
+## **Schedule a Partial Test Plan**
 
-Similarly, we can schedule partial test runs with Testsigma. Lets see how we can do that:
-
-1. Go to the test plan that you want to schedule partial run for. You can either go to the test plan list page. The option for scheduling partial run for a test plan on a test plan list page would be available as below:
-
-![Schedule partial test run test plan list page](https://s3.amazonaws.com/static-docs.testsigma.com/new_images/test-management/test-plans/schedule-plans/schedule-partial-test-run-test-plan-list-page.png)
-
-2. Or you can go to the test plan details page for the particular test plan that you want to schedule the partial run for. The option is available as shown in the screenshot below: 
-
-![Schedule Partial test run test details page](https://s3.amazonaws.com/static-docs.testsigma.com/new_images/test-management/test-plans/schedule-plans/schedule-partial-test-run-test-plan-details-page.png)
-
-
-3. A **Schedule Partial Test Run** layover appears as shown in the screenshot below:
-
-![Schedule Partial Run Layover](https://s3.amazonaws.com/static-docs.testsigma.com/new_images/test-management/test-plans/schedule-plans/schedule-partial-test-run-layover.png)
-
-
-The Schedule Test Plan Layover has the following fields:
-
-Fields specific to scheduling:
-
-   1. **Name**: Name the test plan schedule so it’s easier to find and run. For instance, full regression weekly.<br>
-   2. **Description(optional)**: Use this field to add any description that would accurately describe the test plan schedule for you.<br>
-   3. **Date:** the date when the scheduled execution starts for this test plan. of the By default, the value is set to the current date, and you can change that.<br>
-   4. **Time:** By default, it would have the current time mentioned, you can change the time to the time you would like the test plan to execute.<br>
-   5. **Frequency:** How often does the test plan execute? By default, frequency is set to **Don’t repeat**. This is a drop-down box with the following values:<br>
-   
-     * Don’t Repeat<br>
-     * Hourly<br>
-     * Daily<br>
-     * Weekly on < weekday >: the weekday will be selected according to the day of the schedule.<br>
-     * Monthly on < nth > day: the day of month will be selected according to the day of schedule<br>
-     * After filling up the test plan schedule details, click on the **Schedule** button. The schedule will be created according to your selections.<br>
-
-Fields specific to filtering the test cases:
-
-* **Include or exclude test suites** : You can include or exclude the test cases from the partial test run here. <br>
-* **Test case filters**:<br>
-
-1. **Labels**: Filter the test cases according to the labels assigned to them.<br>
-2. **Type**: Filter the test cases according to the type of test cases there are. <br>
-3. **Requirement**: Filter the test cases according to the requirements assigned to them. <br>
-4. **Requirement type**: Filter the test cases according to the requirement types assigned to them.<br>
-5. **Priority**: Filter the test cases according to priority.<br>
-6. **Created by**: Filter the test cases according to their creators.<br>
-7. **Assignee**: Filter the test cases according to their assignees.<br>
-8. **Reviewer**: Filter the test cases according to their reviewers.<br>
-
-Once you have applied the filters, you can:
-
-* View filtered test cases by click on the **View filtered test cases** button.<br>
-* Save the configuration as a favourite for later use by click on the **Save as favorite** button.<br>
-* Start the execution of the filtered test cases by click on the **Run now** button.<br>
-
-
-&emsp;
+1. Click the **Test Plan** tab in the left sidebar of the dashboard to access the **Test Plan List** page.
+2. Hover your mouse over the **Schedule** button next to the Test Plan you want to schedule on the **Test Plan List** page and select the **Schedule Partial Run** option from the dropdown list. ![Schedule partial test plan in Test plan list page](https://s3.amazonaws.com/static-docs.testsigma.com/new_images/projects/applications/scheduleptp_tpl.gif)
+3. Alternatively, hover your mouse over the **Schedule** button in the top right corner of the Test Plan Details page and select the **Schedule Partial Run** option from the dropdown list. ![Schedule Partial Test Plan Details](https://s3.amazonaws.com/static-docs.testsigma.com/new_images/projects/applications/schedulestp_tpd.gif)
+4. Click **Schedule Run**, and the **Schedule Test Plan** overlay will appear. You must provide a **Name** and enable the **Description** toggle to provide description for the scheduled test plan.
+5. Click the **Calendar** icon to choose the **Date** for the scheduled execution of this test plan. You can change the default value, which is set to the current date.
+6. Click on the **Clock** icon to choose the **Time**. By default, it displays the current time, but you can change it to the desired time for executing the test plan.
+7. Click **Repeat** to select the **Frequency** for executing the test plan. The available options are:
+   - **Don't Repeat**
+   - **Hourly**
+   - **Daily**
+   - **Weekly on** <weekday>: The weekday will be chosen based on the scheduled day.
+   - **Monthly on** <nth> day: The day of the month will be selected according to the scheduled day.
+8. Select either **Include** or **Exclude** for the test plan to choose which test suites to include or exclude for the partial test run. Choose the specific test suites to be included or excluded based on your selection.
+9. Enable the **Filter Test Cases from included test suites** toggle option. Then, select the test case filters from the dropdown list based on:
+   - **Labels**: Filter test cases by their assigned labels.
+   - **Type**: Categorise test cases by their types.
+   - **Requirement Type**: Classify test cases based on their requirement types.
+   - **Priority**: Filter test cases according to their priorities.
+   - **Created by**: Filter test cases by their creators.
+   - **Assignee**: Categorise test cases based on their assignees.
+   - **Reviewer**: Filter test cases by their reviewers.
+   - **Reset**: Reset any applied filters and return to the default view.
+10. Click on the **View filtered test cases** button in the bottom corner of the screen to view filtered test cases.
+11. Click the **Save as Favourite** button in the bottom corner of the screen to save the configuration as a favourite for later use.
+12. Click on the **Schedule** button after filling up the test plan schedule details. It will create the schedule according to your selections. ![Schedule a Partial Test Plan](https://s3.amazonaws.com/static-docs.testsigma.com/new_images/projects/applications/schedulestp.gif)
 
 ---
 
-## **Edit test plan schedule**
+## **Manage Test Plan Schedule**
 
-1. Navigate to **Select project > Test development > Test plans**.
-2. On the Test plans page, go to the Test plan that you want to edit.
-3. On the Test Plan Details page for the corresponding test plan, go to the schedules tab:
+1. Select the **Schedule** tab on the **Test Plans Details** page to manage your scheduled test plans.
+2. Click the **ellipsis** icon to open a dropdown list and select **Edit**. The **Edit Schedule** layout will appear, enabling you to make the necessary changes. Finally, save your modifications by clicking the **Schedule** button.
+3. Click the **ellipsis** icon to open a dropdown list and choose **Delete**. A **Delete Confirmation** pop-up will appear. Type **DELETE** to confirm the deletion and click **I understand, delete this Schedule**. ![manage schedule test plan](https://s3.amazonaws.com/static-docs.testsigma.com/new_images/projects/applications/manage_scheduletp.gif)
 
-![schedules section in Test Plan page in Testsigma](https://docs.testsigma.com/images/schedule-plans/schedules-section-test-plan-page-testsigma.png)
-4. On the Schedules tab, you will see the already created schedules for the test plan. Hover on the schedule that you want to edit by clicking on the edit button:
-
-![edit button for test plan schedule in Testsigma](https://docs.testsigma.com/images/schedule-plans/edit-button-test-plan-schedule-testsigma.png)
-
-5. On click on the edit button, the **Edit Schedule** layout will appear as shown below:
-
-![Edi Schedule layout in Testsigma](https://docs.testsigma.com/images/schedule-plans/edit-schedule-layout-testsigma.png)
-
-
-Here, you can edit the required field and then click on the **Schedule** button to finalize the changes.
-
-
+---
