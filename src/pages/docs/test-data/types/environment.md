@@ -1,10 +1,10 @@
 ---
 title: "Environment Test Data"
-page_title: "Environment Test Data in Testsigma"
-metadesc: "Learn how to use environment type test data that is specific to the environment in which the application is being tested | Environment test data type in Testsigma"
+page_title: "Environment Test Data | Testsigma Documentaion"
+metadesc: "Integrate environment test data to enhance testing efficiency in Testsigma. Optimise specific environment for test steps, ad-hoc runs, and test plans."
 noindex: false
 order: 5.24
-page_id: "Environment Test Data"
+page_id: "environment-test-data-testsigma"
 warning: false
 contextual_links:
 - type: section
@@ -23,48 +23,34 @@ contextual_links:
 
 ---
 
-Environment-based test data refers to data that is specific to the environment in which the application is being tested. This can include things like server names, port numbers, database credentials, and other configuration details that are unique to the environment. Including environment-based test data in test cases can help ensure that the application behaves correctly in different environments, such as **development**, **testing**, **staging**, and **production**.
+In Testsigma, you can handle and use specific sets of test data linked to different test environments with Environment Test Data. You can include this data in the specific environment where the app is tested, like server names, port numbers, and database credentials. Integrating this environment-specific data into test cases allows you to verify the app's behaviour across different environments such as development, testing, staging, and production. This guide provides an overview of using Environment Test Data in Testsigma across test steps, ad-hoc runs, and test plans.
 
 ---
 
 ### **Prerequisite**:
 
-You'll need to know how to [create an environment parameter](https://testsigma.com/docs/test-data/create-environment-data/), [create a test case](https://testsigma.com/docs/test-cases/manage/add-edit-delete/#creating-a-test-case), [write NLP test steps in Testsigma](https://testsigma.com/docs/test-cases/step-types/natural-language/), [perform an ad-hoc run page](https://testsigma.com/docs/runs/adhoc-runs/#steps-to-perform-ad-hoc-runs-for-a-test-case),  and [create a test plan](https://testsigma.com/docs/runs/test-plan-executions/#steps-to-create-and-execute-test-plan).
+Before using Environment Test Data, you must understand specific concepts such as creating a [Test Case](https://testsigma.com/docs/test-cases/manage/add-edit-delete/#creating-a-test-case), [Test Steps](https://testsigma.com/docs/test-cases/step-types/natural-language/), [Environment](https://testsigma.com/docs/test-data/create-environment-data/), and [Test Plan](https://testsigma.com/docs/runs/test-plan-executions/#steps-to-create-and-execute-test-plan) and how to use them with [Test Data Types](https://testsigma.com/docs/test-data/types/overview/), [Ad-hoc Runs](https://testsigma.com/docs/runs/adhoc-runs/#steps-to-perform-ad-hoc-runs-for-a-test-case).
 
 ---
 
 ## **Use Environment in Test Steps**
 
-1. Create a **test step** with a **test data** placeholder in the **NLP**.
+1. Use **NLP** to create a **new step** in the **Test Case** and include a placeholder for **test data**.
+2. Click the **test data** placeholder to replace it, and then select the *** Environment** from the **Test Data Types** dropdown menu.
+3. Select **Environment** in the **Environments** overlay screen from the right-side panel. ![Environment in Test Step](https://s3.amazonaws.com/static-docs.testsigma.com/new_images/projects/applications/teststeps_environment.gif)
 
-2. Delete the **test data** placeholder and choose **Environment** from the drop-down.
-
-3. Choose the specific **test data** you need from the right-side panel.
-
-Here is a quick GIF demonstrating the above workflow:
-
- ![ a gif demonstrating the use of environment based test data in test case](https://s3.amazonaws.com/static-docs.testsigma.com/new_images/test-data/create-environment-data/gif-use-environment-based-test-data-in-test-case.gif)
-
- ---
+---
 
 ## **Use Environment in Ad-hoc Run page**
 
 1. On the **Ad-hoc Run** page, click the right arrow before **Additional Settings** to reveal the feature.
-2. Select **Environmet** from the drop-down list.
-
-Here is a quick GIF demonstrating the above workflow:
-![Environment in ad-hoc run page](https://s3.amazonaws.com/static-docs.testsigma.com/new_images/projects/overview/environment_adhocrun.gif)
+2. Select **Environmet** from the drop-down list. ![Environment in Ad-hoc Run](https://s3.amazonaws.com/static-docs.testsigma.com/new_images/projects/applications/adhoc_run_environment.png)
 
 ---
 
 ## **Use Environment in Test Plan**
 
-1. On the **Create** or **Edit test plan** page, navigate to the **Test Plan Settings** tab and click the right arrow before **Additional Settings** to reveal the feature.
-
-2. Select **Environmet** from the drop-down list.
-
-
-Here is a quick GIF demonstrating the above workflow:
-![Environment in Test Plan](https://s3.amazonaws.com/static-docs.testsigma.com/new_images/projects/overview/environment_tp.gif)
+1. Navigate to the **Test Plan Settings** tab on the **Create** or **Edit Test Plan** page.
+2. In the **Additional Settings** section, select **Environment** from the drop-down list. ![Environment in Test Plan](https://s3.amazonaws.com/static-docs.testsigma.com/new_images/projects/applications/testplan_environment.png)
 
 ---

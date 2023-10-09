@@ -1,5 +1,5 @@
 ---
-title: "Test Data - Plain Text"
+title: "Plain Text"
 metadesc: "Type anything you want as test data input to your test cases in Testsigma. Learn how to use plain text as test data type for your test cases in Test Automation"
 noindex: false
 order: 5.112
@@ -9,76 +9,48 @@ contextual_links:
 - type: section
   name: "Contents"
 - type: link
-  name: "When do you use Plain Text?"
-  url: "#when-do-you-use-plain-text"
+  name: "When to Use Plain Text in a Test Case?"
+  url: "#when-to-use-plain-text-in-a-test-case"
+- type: link
+  name: "How to Use Plain Text in a Test Case?"
+  url: "#how-to-use-plain-text-in-a-test-case"
 ---
 
 ---
 
-Plain Text is the simplest type of text data that can be used in your test case. 
-Simply erase the “test data” placeholder and choose “Plain Text” to type anything you want as the input to your test. 
+Raw or Plain Text is the simplest text data type you can use in your test case. Use the NLP that has test data in it. 
 
-Plain Text also serves as a hard-coded input. 
+For example, ‘**Enter *test data* in *element* field**’ is a NLP. Here, you can erase the ***test data*** placeholder and choose ***Plain Text*** from the dropdown to type anything you want as the input to your test.
 
 ---
-## **When do you use Plain Text?**
 
-Plain Text or Raw data is used when you want to hardcode an input in your test.
-In cases where the input data is unique and doesn’t have to be a part of a test data profile or any other test data types, we use plain text data.
+## **When to Use Plain Text in a Test Case?**
+Plain Text or Raw data is used when you want to hardcode an input in your test. In cases where the input data is unique and doesn’t have to be a part of a test data profile or any other test data types, we use plain text data.
 
+**For Example:**
+Here we are using the NLP, **Wait for *test data* seconds**. 
 
-
-### **For example :**
-
-Verify that the **elements** list has option with text test data selected 
-
-→
-
- Verify that the **elements** list has option with text Option1 selected
-
-![plain-text-test-data-input](https://docs.testsigma.com/images/raw/plain-text-test-data-input.gif)
-
-In the above example , Option1 is the Plain Text test data that we have used in place of the placeholder “test data”. You can use any text input to verify the text. 
-
-### **Another Example :**
-
-Long Press on the element **elements** for **test data** seconds 
-
-→ 
-
-Long Press on the element **elements** for **10** seconds 
+![Plain Text Example](https://s3.amazonaws.com/static-docs.testsigma.com/new_images/projects/applications/pttsteps.png)
 
 
-In the above example, we have entered a value of ‘10’ for test data. So the test will press on an element for 10 seconds.
+We’ll select **Plain Text** from the dropdown and enter a number to create a test step. 
 
+---
 
-In conclusion, Plain Text is simply the hard-coded text that you can use in your text. 
+## **How to Use Plain Text in a Test Case?**
+1. Navigate to **Create Tests > Test Cases** and click on **Create Test Case**.
+![Test Cases](https://s3.amazonaws.com/static-docs.testsigma.com/new_images/projects/applications/ptntcs.png)
 
+2. Create a test step with NLP that has ***test data*** in it and choose **Plain Text** from the dropdown. 
+![Plain Text](https://s3.amazonaws.com/static-docs.testsigma.com/new_images/projects/applications/pttsnllp.png)
 
+3. Here, erase ***test data*** and enter a number to create the test step.
+![Erase Test Data](https://s3.amazonaws.com/static-docs.testsigma.com/new_images/projects/applications/ptetd.png)
 
+[[info | **NOTE**:]]
+| You can replace plain text with anything depending on the test case scenario. 
 
+Here’s a quick GIF demonstrating how to use Plain Text in a test case. 
+![Plain Text](https://s3.amazonaws.com/static-docs.testsigma.com/new_images/projects/applications/PlainTextWF.gif)
 
-
-### **To use plain text in your test cases, follow these steps**
-
-1. Create a test case by navigating to Test Development > Test Cases > Create
-
-![navigate to create test case](https://s3.amazonaws.com/static-docs.testsigma.com/new_images/test-data/types/raw/navigate-to-create-test-case.png)
-
-
-2. Create a test case by entering a name, description and choosing options from the advanced menu
-3. Click Create
-
-![create new test case](https://docs.testsigma.com/images/raw/create-new-test-case.png)
-
-4. Testsigma will automatically navigate you to the test case details/test steps page
-5. Here create the first step for navigating to the application
-6. In the next step, choose the actions containing “test data” like Enter **test data** in the **elements** field
-
-![choose nlp with test data](https://docs.testsigma.com/images/raw/choose-nlp-with-test-data.png)
-
-7. Now delete the “test data“ placeholder and choose Plain Text from the drop-down options
-
-![choose plain text option](https://docs.testsigma.com/images/raw/choose-plain-text-option.png)
-
-8. Enter the text of your choice
+---
