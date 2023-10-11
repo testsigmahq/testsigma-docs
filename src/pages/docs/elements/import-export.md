@@ -12,29 +12,41 @@ contextual_links:
   name: "Import File Format"
   url: "#import-file-format"
 - type: link
-  name: "Import Elements"
-  url: "#import-elements"
+  name: "Steps to Import Elements"
+  url: "#steps-to-import-elements"
 - type: link
-  name: "Export Elements"
-  url: "#export-elements"
+  name: "Steps to Export Elements"
+  url: "#steps-to-export-elements"
 
 ---
 
 ---
 
-One of the most common use cases for the Import functionality is to copy Elements between Application Versions within Testsigma. You can export the Elements from the source Version and import them into the target Version across the same or different Projects.
 
-Another common use case is to perform bulk-update on the Elements easily. You can export the Elements, make modifications for each element in the exported file as required and import it back to make changes for a set of Elements together easily.
-[[info | NOTE:]]
-|If you are trying to update the Elements using Import-Export, make sure to keep the UUID column intact so that the correct Element gets updated while importing back. You may change the other fields as required.
+One of the most common use cases for the Import functionality is to copy elements between application versions within Testsigma. You can export the elements from the source version and import them into the target version across the same or different projects.
 
-Another less common application is when we want to load the Test locators for the Application under Test provided by the development team. The development team can add custom attributes to the elements for increasing the testability of the Application and provide that to the testing team. This can be easily loaded using the Element Import functionality. They can create a large number of Elements together by adding the Element details to a Spreadsheet file of suitable format and importing it which in turn creates all of the Elements with the required details within the Project.
+
+Another common use case is to perform bulk-update on the elements easily. You can export the elements, modify each element in the exported file as required, and import it back to make changes for a set of elements easily.
+
+
+[[info | **NOTE**:]]
+| If you are trying to update the elements using Import/Export, keep the UUID column intact so that the correct element gets updated while importing back. You may change the other fields as required.
+
+
+Another less common application is when we want to load the Test locators for the UAT provided by the development team. The development team can add custom attributes to the elements to increase the application's testability and provide that to the testing team. This can be easily loaded using the Element Import functionality. They can create many Elements together by adding the Element details to a Spreadsheet file of suitable format and importing it, which creates all elements with the required details within the project.
+
 
 *If you are trying to create new Elements in bulk, make sure to clear both the UUID columns.*
 
-<br>
 
 ---
+
+
+## **Prerequisites**
+- You should have a file to import. 
+
+---
+
 ## **Import File Format**
 The Import file has the following Columns:
 
@@ -48,40 +60,51 @@ The Import file has the following Columns:
 | Created Using / createType   | Mentions how the Element was created      | 
 
 [[info | NOTE:]]
-|A Sample Element Import Template file has been provided in the Element Import dialog.
+| A Sample Element Import Template file has been provided in the Element Import dialog.
 
-<br>
 
 ---
-## **Import Elements**
-From the Elements page, click on the Import button to open the Import Element Dialog which appears as shown below:
-![Import Elements overlay in Elements page](https://s3.amazonaws.com/static-docs.testsigma.com/new_images/elements/import-export/elements-page-import-elements-overlay.png)
 
-1. Click on the Choose File button to upload the Excel file containing the Elements and click on the Upload button to upload the file.
+## **Steps to Import Elements**
+1. Navigate to **Create Tests > Elements**. 
+![Elements](https://s3.amazonaws.com/static-docs.testsigma.com/new_images/projects/applications/imelnavelem.png)
 
-   [[info | NOTE:]]
-   |We need to use a specific Elements file Template for importing the data. Click on the Sample File link to download the Elements file template, update your Elements data and re-upload the file to Import your Elements.
+2. From the **Elements** page, click on the **Import** button to open the Import dialog. 
+![Import Dialog](https://s3.amazonaws.com/static-docs.testsigma.com/new_images/projects/applications/imelid.png)
 
-2. Once the file is uploaded, you will get two options to handle the duplicate Elements in the sheet as shown below:
+3. Click on **Browse File** to upload the file containing the **Elements**.
+![Browse Files](https://s3.amazonaws.com/static-docs.testsigma.com/new_images/projects/applications/imelbrf.png)
 
-   ![Import Elements overlay focussed](https://docs.testsigma.com/images/import-export/elements-page-import-elements-overlay-focussed.png)
+4. Once the file is uploaded, you will get two options to handle the duplicate elements.
+![Options](https://s3.amazonaws.com/static-docs.testsigma.com/new_images/projects/applications/imelto.png)
+    - Select the Overwrite option if you want to overwrite the data in the elements list.
+    - Select the Ignore option if you want to ignore the data from the elements file.
 
-   **Overwrite:** Select this option if you want to overwrite the data in the Elements list on Testsigma when there is a clash between uploaded Elements and existing Elements.
+5. Click on **Import**.
+![Import](https://s3.amazonaws.com/static-docs.testsigma.com/new_images/projects/applications/elimcone.png)
 
-   **Ignore:** Select this option if you want to ignore the data from the Elements file when there is a clash between uploaded Elements and existing Elements.
 
+The elements will be imported in the background and you will receive an email once the import is complete.
 
-3. Click on the **Import** button to upload the file and import the data into the Elements list. 
-It will show a success message saying that the import has started. The Elements will be imported in the background and you will receive an Email once the Import process is complete.
-
-<br>
 
 ---
-## **Export Elements**
-From the Elements page, click on the Export button to export all the Elements to a Spreadsheet file.
-
-It will show a success message saying that the export has started. The Elements will be exported in the background and you will receive an Email once the Export process is complete.
 
 
+## **Steps to Export Elements**
+1. Navigate to **Create Tests > Elements**. 
+![Elements](https://s3.amazonaws.com/static-docs.testsigma.com/new_images/projects/applications/imelnavelem.png)
+
+
+2. From the **Elements** page, click on the **Export**.
+![Export](https://s3.amazonaws.com/static-docs.testsigma.com/new_images/projects/applications/imelexp.png)
+
+
+It will show a success message saying that the export has started. The Elements will be exported in the background, and you will receive an email once the export process is complete.
+
+
+Here's a quick GIF demonstrating how to import & export elements.
+![Import & Export Elements](https://s3.amazonaws.com/static-docs.testsigma.com/new_images/projects/applications/ImportExportElementsWorkFlow.gif)
+
+---
 
 
