@@ -1,62 +1,59 @@
 ---
-title: "Setting up Google Single Sign-On(SSO) login in Testsigma"
+title: "Setting Up Google Single Sign-On(SSO) Login in Testsigma"
 page_title: "Setting up Google Single Sign-On (SSO) login"
-metadesc: "Learn how to set up Single Sign-On (SSO) with Google in Testsigma."
+metadesc: "Learn how to set up Single Sign-On (SSO) with Google in Testsigma. With Google SSO, you are not required to store and manage passwords for the websites."
 noindex: false
 order: 19.22
-page_id: "Setting up Google Single Sign-On(SSO) login in Testsigma Application. With SSO, you are not required to store and manage passwords for the websites."
+page_id: "Setting up Google Single Sign-On(SSO) login in Testsigma Application."
 search_keyword: ""
 warning: false
 contextual_links:
 - type: section
   name: "Contents"
 - type: link
-  name: "Enabling SSO in Testsigma"
-  url: "#enabling-sso-in-testsigma"
+  name: "Prerequisites"
+  url: "#prerequisites"
 - type: link
-  name: "Navigation: Settings > Security"
-  url: "#navigation-settings--security"
-- type: link
-  name: "Here’s how you set up your Google SSO in 3 simple steps"
-  url: "#heres-how-you-set-up-your-google-sso-in-3-simple-steps"
+  name: "Steps to Enable SSO in Testsigma"
+  url: "#steps-to-enable-sso-in-testsigma"
 ---
 
 ---
 
-With SSO, you are not required to store and manage passwords for the websites you use regularly. Instead of using passwords, applications that allow SSO login accept secured tokens that grant access to the application. This is mostly used for enterprises and SMBs for easy workforce identity management.
 
-Here’s how you can configure Testsigma to allow Google Single Sign-On (SSO).
+With SSO, you are not required to store and manage passwords for the websites you use regularly. Instead of using passwords, applications that allow SSO login accept secured tokens that grant access to the application. This article discusses configuring Testsigma to enable Google to Single Sign-On (SSO).
+
 
 ---
-## **Enabling SSO in Testsigma**
-
-### **Navigation: Settings > Security**
 
 
-You will see two options (Google SSO, SAML) in the Identity Provider pane.
-Since we are configuring Google SSO, we will choose the first card.
+## **Prerequisites**
+- You should have an active Testsigma account.
 
-If you are currently logged in to your GSuite account, skip to Step 3.
-
-If you are not already logged in, the Google SSO option (**‘Proceed’** button) will be disabled as shown in the image below.
-
-![Navigation to opt for Single Sign-On in Testsigma](https://docs.testsigma.com/images/google-sso/single-sign-on-login-testsigma.png)
 
 ---
-## **Here’s how you set up your Google SSO in 3 simple steps:**
 
-1. Click on the **‘Click here’** link to log in via your Google account.
+## **Steps to Enable SSO in Testsigma**
 
-2. A window to authenticate your Google account will open. Choose the right account (below is an example).
+1. Navigate to **Settings > Security (SSO)**.
+![Security](https://s3.amazonaws.com/static-docs.testsigma.com/new_images/projects/applications/ssognav.png)
 
-    ![Google authentication dummy accounts example](https://docs.testsigma.com/images/google-sso/google-choose-an-account-sso-dummy.png)
+2. Enable the toggle on **Google** widget. 
+![Toggle](https://s3.amazonaws.com/static-docs.testsigma.com/new_images/projects/applications/ssotg.png)
 
-3. Your Google SSO login option will now be enabled. Click **Proceed** on the Google SSO card.
+[[info | **NOTE**:]]
+| The toggle will be disabled if you’re not logged into **G Suite**. You can login by clicking on **Click** here.
+| ![G Suite](https://s3.amazonaws.com/static-docs.testsigma.com/new_images/projects/applications/ssoch.png)
 
-[[info | NOTE:]]
-|The account you used to login with Testsigma and GSuite needs to be of the same domain (Ex. testsigma.com, facebook.com).
+3. Your Google SSO login option will now be enabled. 
+![Google Enabled](https://s3.amazonaws.com/static-docs.testsigma.com/new_images/projects/applications/ssownbe.png)
+
+The next time you login to Testsigma, you and your teammates can log in using Google.
+
+![Login Google](https://s3.amazonaws.com/static-docs.testsigma.com/new_images/projects/applications/ssosiugs.png)
 
 
-  The next time you log in to Testsigma, you and your teammates can log in using the Google sign-in button (highlighted in yellow).
- 
-  ![SSO enabled Testsigma login](https://docs.testsigma.com/images/google-sso/sso-enabled-login-via-google-account-testsigma.png)
+---
+
+
+
