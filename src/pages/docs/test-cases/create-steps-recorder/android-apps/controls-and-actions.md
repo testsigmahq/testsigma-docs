@@ -10,206 +10,65 @@ contextual_links:
 - type: section
   name: "Contents"
 - type: link
-  name: "Pre-requisites"
-  url: "#pre-requisites"
+  name: "Prerequisites"
+  url: "#prerequisites"
 - type: link
-  name: "1. Mirroring Mode"
-  url: "#1-mirroring-mode"
-- type: link
-  name: "2. Inspection Mode"
-  url: "#2-inspection-mode"
-- type: link
-  name: "3. Do Swipe Action"
-  url: "#3-do-swipe-action"
-- type: link
-  name: "4. Do click Action"
-  url: "#4-do-click-action"
-- type: link
-  name: "5. Go Back"
-  url: "#5-go-back"
-- type: link
-  name: "6. Home"
-  url: "#6-home"
-- type: link
-  name: "7. Refresh Screenshot"
-  url: "#7-refresh-screenshot"
-- type: link
-  name: "8. Change to Landscape/Portrait mode"
-  url: "#8-change-to-landscapeportrait-mode"
-- type: link
-  name: "9. Search Element"
-  url: "#9-search-element"
-- type: link
-  name: "10. Switch to Native view"
-  url: "#10-switch-to-native-view"
-- type: link
-  name: "11. Switch to hybrid view"
-  url: "#11-switch-to-hybrid-view"
-- type: link
-  name: "12. Tap"
-  url: "#12-tap"
-- type: link
-  name: "13. Enter data"
-  url: "#13-enter-data"
-- type: link
-  name: "14. Clear"
-  url: "#14-clear"
+  name: "Controls and Actions Available in Test Recorder"
+  url: "#controls-and-actions-available-in-test-recorder"
 ---
 
 ---
 
-Testsigma test Recorder lets you generate test steps automatically in plain English, by recording your actions in the application UI. For this, we need some control options. This document contains information about the control options and actions available in Testsigma’s Test Recorder for recording test steps. 
-
-&emsp;
+The test recorder in Testsigma lets you generate test steps automatically in plain English by recording your actions in the application UI. There are some control options that allow record test steps. This article discusses the control options and actions available in Testsigma's Test Recorder.
 
 ---
-##**Pre-requisites**:
 
-This document assumes that you know how to:
-
- 1. [Create Test case](https://testsigma.com/docs/test-cases/manage/add-edit-delete/)
- 2. [Create Test steps using action](https://testsigma.com/docs/test-cases/create-steps-nl/overview/)
- 3. [Create Test steps using Testsigma’s test step recorder](https://testsigma.com/docs/test-cases/create-steps-recorder/web-apps/overview/)
-
-&emsp;
-
-Given below are the controls and actions available in Testsigma’s test step recorder:
- 
- &emsp;
+## **Prerequisites**
+- You should know [how to create test cases](https://testsigma.com/docs/test-cases/manage/add-edit-delete/).
+- You should know [how to create test steps using the recorder](https://testsigma.com/docs/test-cases/create-steps-recorder/android-apps/overview/).
 
 ---
-##**1. Mirroring Mode**
 
- Mirror mode will allow you to use the app via Testsigma to mirror real live physical device use
+## **Controls and Actions Available in Test Recorder**
 
-![Mirroring mode in Test recorder interface for Android](https://s3.amazonaws.com/static-docs.testsigma.com/new_images/test-cases/create-steps-recorder/android-apps/overview/test-recorder-interface-android-1-mirroring-mode.png)
+The recording screen will have two sections:
+- **Device Controlling Section**
+![DCS](https://s3.amazonaws.com/static-docs.testsigma.com/new_images/projects/applications/dcsanov.png)
 
+- **Test Steps Section**
+![Test Step Section](https://s3.amazonaws.com/static-docs.testsigma.com/new_images/projects/applications/tscsandov.png)
 
-&emsp;
+Let’s review all the options available in the **Device Controlling Section**.
+1. **Mirroring mode**: Mirror mode will allow you to use the app via Testsigma to mirror real live physical device use.
+![Mirroring Mode](https://s3.amazonaws.com/static-docs.testsigma.com/new_images/projects/applications/mmodeanov.png)
 
----
-##**2. Select Element**
- When the "Select Element" button is enabled, the mode can be used for capturing the element details.
-    - Click on "Select Element".
-    - Tap on any element you need to do tap action.
-    - Click on Tap on the top.
+2. **Select Element**: You can click on elements and get more information about them. 
+![Select Elements](https://s3.amazonaws.com/static-docs.testsigma.com/new_images/projects/applications/seandov.png)
 
-![Select Element in Test recorder interface for Android](https://s3.amazonaws.com/static-docs.testsigma.com/new_images/test-cases/create-steps-recorder/android-apps/overview/test-recorder-interface-android-1-select-element.png)
+For example, if we click on **Login**, the information will be displayed under the section **Selected element attributes**. If you click on **Tap**, the step recorder will create the step as ***Tap on Login***.
+![Tap](https://s3.amazonaws.com/static-docs.testsigma.com/new_images/projects/applications/tapanov.png)
 
-![tap option on selected elements via android step recorder in Testsigma](https://docs.testsigma.com/images/controls-and-actions/tap-option-selected-elements-android-step-recorder.png)
+3. **Swipe By Coordinates**: The swiping action will be recorded with this option.
+![Swipe by Coordinates](https://s3.amazonaws.com/static-docs.testsigma.com/new_images/projects/applications/sbcandov.png)
 
-&emsp;
+4. **Tap By Coordinates:** It lets you click on an element on the screen and record the coordinates of the click.
+![Tap by Coordinates](https://s3.amazonaws.com/static-docs.testsigma.com/new_images/projects/applications/tbcandov.png)
 
----
-##**3. Swipe By Coordinates**
-  For performing any swipe action in the application.
-    - Click on 'Swipe By Coordinates' option.
-    - Double click on the area in the application UI from  where you need to start swiping.
-    - Swipe down /Up/Left/Right to do a swipe action down,  up, left, or right and release the cursor.
-    - This will perform a swipe action on the application.
+5. **Search Element**: This option can be used to search for an element in the app source.
+![Select Elements](https://s3.amazonaws.com/static-docs.testsigma.com/new_images/projects/applications/seandrov.png)
 
-![Swipe by coordinates  in Test recorder interface for Android](https://s3.amazonaws.com/static-docs.testsigma.com/new_images/test-cases/create-steps-recorder/android-apps/overview/test-recorder-interface-android-1-swipe-by-coordinates.png)
+6. **Go back**: This button records the **go back** action from the current screen.
+![Go Back](https://s3.amazonaws.com/static-docs.testsigma.com/new_images/projects/applications/gobackandov.png)
 
-&emsp;
+7. **Home**: This button displays the home screen of the device.
+![Home](https://s3.amazonaws.com/static-docs.testsigma.com/new_images/projects/applications/homeandov.png)
 
----
-##**4. Tap By Coordinates**
- For clicking on elements in the application.
-    - Click on the 'Tap By Coordinates' option.
-    - Tap on any element on the application to do a click action.
+8. **Hide Keyboard**: This button lets you hide the keyboard in the application.
+![Hide Keyboard](https://s3.amazonaws.com/static-docs.testsigma.com/new_images/projects/applications/hidekbondov.png)
 
-![Tap by coordinates  in Test recorder interface for Android](https://s3.amazonaws.com/static-docs.testsigma.com/new_images/test-cases/create-steps-recorder/android-apps/overview/test-recorder-interface-android-1-tap-by-coordinates.png)
+9. **Change to landscape mode**: This button lets you switch between landscape and portrait mode.
+![Change to Landscape Mode](https://s3.amazonaws.com/static-docs.testsigma.com/new_images/projects/applications/landscmandov.png)
 
-&emsp;
-
----
-##**5. Go Back**
- For going back to the previous page of the app.
-
-![go back to previous page on android step recorder in Testsigma](https://docs.testsigma.com/images/controls-and-actions/go-back-android-step-recorder.png)
-
-&emsp;
+The **Test Steps Section** will display the actions performed on the device. 
 
 ---
-## **6. Home**
- For going to the device home screen.
-
-![go to homepage for android step recorder in Testsigma](https://docs.testsigma.com/images/controls-and-actions/go-to-homepage-android-step-recorder.png)
-
-&emsp;
-
----
-##**7. Refresh Screenshot**
- For refreshing the current application page.
-
-![refresh screenshot for android step recorder in Testsigma](https://docs.testsigma.com/images/controls-and-actions/refresh-screenshot-android-step-recorder.png)
-
-&emsp;
-
----
-##**8. Change to Landscape/Portrait mode**
-
-Changes the screen orientation to Landscape/Portrait mode. 
-
-![change screen orientation on android step recorder in Testsigma](https://docs.testsigma.com/images/controls-and-actions/change-screen-orientation-android-step-recorder.png)
-
-&emsp;
-
----
-## **9. Search Element**
- To search for a particular element by its XPATH, Accessibility id, id, etc.
-    * Click on the Search Element option
-    * A window opens up. Click on the Element type drop-down to Select any element type
-    * Type the value in Search your queries box
-    * Click on the Search button
-
-![elements box to search elements on android step recorder in Testsigma](https://docs.testsigma.com/images/controls-and-actions/elements-box-to-search-android-step-recorder.png)
-
-![android step recorder in Testsigma](https://docs.testsigma.com/images/controls-and-actions/search-element-by-type-android-step-recorder.png)
-
-&emsp;
-
----
-##**10. Switch to Native view**
-Switches the app to the native view context.
-
-&emsp;
-
----
-##**11. Switch to hybrid view**
- Switches to the web view context for hybrid apps.
-
-&emsp;
-
----
-## **12. Tap**
- To tap on an element in the application UI.
-
-&emsp;
-
----
-## **13. Enter data**
-To enter any data in the application text box.
- * Click Enter data.
- * A window will open to enter the data. Enter the data in the box.
- * Click on Enter data.
-
-&emsp;
-
----
-## **14. Clear**
- To clear a value displayed in the text box in the application UI.
-
-&emsp;
-
-The snippet below shows the Tap, Enter data, and Clear options.
-
-![actions for selected element in android step recorder in Testsigma](https://docs.testsigma.com/images/controls-and-actions/actions-for-selected-element-android-step-recorder.png)
-
-
-
-
-
-
-
-
