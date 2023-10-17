@@ -1,7 +1,7 @@
 ---
 title: "Controls and Actions"
 page_title: "Controls and Actions in Android Test Recorder"
-metadesc: "Controls and actions for Testsigma’s Test Recorder Chrome extension"
+metadesc: "With Testsigma test recorder, you can generate test steps automatically in plain English by recording your actions in the application UI. This article discusses controls and actions available on recorder in Testsigma"
 noindex: false
 order: 4.5293
 page_id: "Controls and Actions"
