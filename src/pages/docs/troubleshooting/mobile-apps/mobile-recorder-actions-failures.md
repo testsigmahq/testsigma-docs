@@ -51,31 +51,30 @@ contextual_links:
 
 ---
 
-The easiest way to debug the error is to check the Logs for the Mobile test recorder. It contains the actual reason for the error.
-
-<br>
-
-Below given are some of the most common reasons:
+The easiest way to debug an error is to check the Logs for the Mobile test recorder. It contains the actual reason for the error. This article discusses some of the most common reasons. 
 
 ---
-##**1.  There are already running sessions for the user**
+## **1.  There are already running sessions for the user**
+
 There could be a couple of reasons for this error to appear. The reasons are listed below:
 
-**Reason #1**
+**Reason 1:**
 
 You got disconnected from an ongoing mobile inspector session. One reason could be a forced refresh of the page. In such a scenario, a new session cannot be created as the previous session was not properly closed. 
 
 **Solution:**
 
-The inactive sessions are automatically closed after a wait of 2 minutes. So, either you can wait for 2 minutes for the next session to start, or, you can go to “Usage Details” > “Mobile Inspector Sessions” and stop the old session manually. Once the session is closed, you will have to relaunch the mobile inspector session. 
+The inactive sessions are automatically closed after a wait of 2 minutes. So, either you can wait for 2 minutes for the next session to start, or, you can go to **Usage Details > Mobile Inspector Sessions** and stop the old session manually. Once the session is closed, you will have to relaunch the mobile inspector session. 
 
 The steps to do stop an old session, manually, are mentioned below:
 
-1. Go to main menu on the left and click on the “Usage Details” icon as also highlighted in the screenshot below:
-![usage-details](https://s3.amazonaws.com/static-docs.testsigma.com/new_images/troubleshooting/mobile-apps/mobile-recorder-actions-failures/usage-details.png)
-2. On the “Usage Details” window that opens up, click on the “Mobile Inspector Sessions” as also highlighted below:
+1. Go to main menu on the left and click on the **Usage Details** icon as also highlighted in the screenshot below:
+![usage-details](https://s3.amazonaws.com/static-docs.testsigma.com/new_images/projects/applications/usdtls.png)
+
+2. On the **Usage Details** window that opens up, click on the **Mobile Inspector Sessions** as also highlighted below:
  ![mobile inspector sessions](https://s3.amazonaws.com/static-docs.testsigma.com/new_images/troubleshooting/mobile-apps/mobile-recorder-actions-failures/mobile-inspector-sessions.png)
-3. Delete the ongoing mobile inspector session.
+
+1. Delete the ongoing mobile inspector session.
 
 Now the old session has been deleted and new one can be created. 
 
@@ -87,13 +86,14 @@ A session was already running in one of the already open tabs/browsers while the
 
 **Solution**
 
-If you want to start a new session in the new tab/browser, you will have to stop the already running session first. For this you can go to “Usage Details” > “Mobile Inspector Sessions” and stop the old session manually. The details steps for stopping an already running session are mentioned with solution for Reason #1 above.
+If you want to start a new session in the new tab/browser, you will have to stop the already running session first. For this you can go to **Usage Details > Mobile Inspector Sessions** and stop the old session manually. The details steps for stopping an already running session are mentioned with solution for Reason #1 above.
 
 
 <br>
 
 ---
-##**2.  Tapped point is out of the screen bounds**
+
+## **2.  Tapped point is out of the screen bounds**
 
 **Reason:** 
 
@@ -109,11 +109,12 @@ At all times, ensure that the tap point is within the screen.
 
 
 ---
-##**3.  Mobile inspection session expired**
+
+## **3.  Mobile inspection session expired**
 
 **Reason:**
 
-This error appears when due to some reasons the Testsigma servers are not able to reach to the mobile inspector session. One of the main reasons could be an issue with your browser network. At such times, the keep-alive requests from the browser don’t go through to the Testsigma servers and the Testsigma servers assume that the session was closed abruptly - thus, marking the session as ‘expired’.
+This error appears when due to some reasons the Testsigma servers are not able to reach to the mobile inspector session. One of the main reasons could be an issue with your browser network. At such times, the keep-alive requests from the browser don’t go through to the Testsigma servers and the Testsigma servers assume that the session was closed abruptly - thus, marking the session as **expired**.
 
 
 **Solution:**
@@ -123,7 +124,8 @@ Check and rectify any network-related issues and relaunch.
 <br>
 
 ---
-##**4. Failed to start mobile inspection session**
+
+## **4. Failed to start mobile inspection session**
 
 This error could appear because of few different reasons, as listed below:
 
@@ -145,7 +147,7 @@ To reach out to Testsigma support, you can:
 
 **Reason #2:**
 
-The selected app, that needed to be launched for the mobile inspector session, cannot be installed on the device
+The selected app, that needed to be launched for the mobile inspector session, cannot be installed on the device.
  
 **Solution:** 
 
@@ -161,8 +163,8 @@ To reach out to Testsigma support, you can:
 
 **Reason #3:**
 
-The reason could be related to app size, and could be, one of the 2 related reasons mentioned below: 
-The selected app size has exceeded the allowed size limit.
+The reason could be related to app size, and could be, one of the 2 related reasons mentioned below: <br>
+The selected app size has exceeded the allowed size limit.<br>
 The large size of the app is causing the session to take a long time to initiate and the session wait time has exceeded the allowed limit.
  
 **Solution:**
@@ -202,13 +204,17 @@ For local device sessions, this error can be avoided by following below steps:
 
 **Solution #2:**
 
-You can also confirm the values for ‘app activity’ and ‘app package’ from the concerned developer and then mention them under ‘optional desired capabilities’ when you launch a mobile inspector session. The ‘optional desired capabilities’ is highlighted for your reference, in the screenshot below:
-![mobile inspector sessions](https://s3.amazonaws.com/static-docs.testsigma.com/new_images/troubleshooting/mobile-apps/mobile-recorder-actions-failures/desired-capabilities-optional.png)
+You can also confirm the values for *app activity* and *app package* from the concerned developer and then mention them under *desired capabilities* when you launch a mobile inspector session.
+
+![mobile inspector sessions](https://s3.amazonaws.com/static-docs.testsigma.com/new_images/projects/applications/tsemadc.png)
+
+
 
 <br>
 
 ---
-##**5.  Failed to clear the element's text**
+
+## **5.  Failed to clear the element's text**
 
 There could be a couple of reasons for this error to appear. The reasons are listed below:
  
@@ -230,8 +236,11 @@ Please verify that the element that you wanted to clear the text for is a text t
 
 <br>
 
+
 ---
-##**6.  Failed to tap on the element**
+
+
+## **6.  Failed to tap on the element**
 
 There could be a couple of reasons for this error to appear. The reasons are listed below:
 
@@ -254,7 +263,8 @@ Make sure that element you are trying to tap can be clicked or tapped and is not
 <br>
 
 ---
-##**7.  Failed to Swipe**
+
+## **7.  Failed to Swipe**
 
 There could be a couple of reasons for this error to appear. The reasons are listed below:
  
@@ -277,7 +287,8 @@ Make sure that the intended destination of the swipe action allows a swipe to it
 <br>
 
 ---
-##**8.  Failed to Navigate back**
+
+## **8.  Failed to Navigate back**
 
 **Reason:** 
 
@@ -289,8 +300,11 @@ Make sure that the the device allows back navigation.
 
 <br>
 
+
 ---
-##**9.  Failed to enter data into the element**
+
+
+## **9.  Failed to enter data into the element**
 
 There could be a couple of reasons for this error to appear. The reasons are listed below:
  
@@ -312,8 +326,11 @@ Make sure that text can be entered into the element and if enter data doesn't wo
 
 <br>
 
+
 ---
-##**10.  Failed to Change Orientation**
+
+
+## **10.  Failed to Change Orientation**
 
 There could be a couple of reasons for this error to appear. The reasons are listed below: 
 
@@ -344,7 +361,9 @@ To reach out to Testsigma support, you can:
 <br>
 
 ---
-##**11.  Failed to Navigate to home**
+
+
+## **11.  Failed to Navigate to home**
 
 **Reason:** 
 
@@ -362,7 +381,8 @@ To reach out to Testsigma support, you can:
  <br>
 
 ---
-##**12.  Failed to Search**
+
+## **12.  Failed to Search**
 
 There could be a couple of reasons for this error to appear. The reasons are listed below: 
 
@@ -389,7 +409,8 @@ To resolve this, perform below steps:
 <br>
 
 ---
-##**13.  Mobile inspector session closed by a colleague**
+
+## **13.  Mobile inspector session closed by a colleague**
 
 **Reason:**
 
@@ -405,6 +426,7 @@ To reach out to Testsigma support, you can:
  * Join the Testsigma community’s discord here: https://discord.com/invite/5caWS7R6QX
 
 <br>
+
 
 ---
 

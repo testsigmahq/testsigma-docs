@@ -25,12 +25,14 @@ contextual_links:
 The phone number data type is used to automate two-factor authentication (2FA) and mobile number-based login. Testsigma provides you with a valid mobile phone number on request, with which you can create test cases that require a valid phone number. 
 
 ---
+
 ## **Prerequisites**
 - You should be familiar with regular expressions. Refer to the [regex guide](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Guide/Regular_Expressions).
 
-- Contact [Testsigma support](support@testsigma.com) to get a phone number.
+- Contact **support@testsigma.com** to get a phone number.
 
 ---
+
 ## **Use Case**
 Let’s add 2FA for a test case which includes 2 steps:
 - First we enter the phone number to which the OTP will be sent. 
@@ -57,6 +59,8 @@ We will use the test data generators available in Testsigma to fetch the OTP fro
 6. Select the **PhoneNumberFunctions** in ***Function Type** dropdown menu, enter the details, and click on **Save**. 
 ![PhoneNumberFubctions](https://s3.amazonaws.com/static-docs.testsigma.com/new_images/projects/applications/phdatagensave.png)
 
+
 We have successfully created a test case for 2FA authentication. 
+
 
 ---

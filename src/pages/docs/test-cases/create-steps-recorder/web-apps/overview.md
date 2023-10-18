@@ -1,6 +1,6 @@
 ---
 title: "Recording Test Steps: An Overview"
-metadesc: "How to record test steps using Testsigma’s step recorder chrome extension."
+metadesc: "This article discusses how to use the recorder to record your test steps and generate automated tests for web apps | Record Test Steps with Recorder for Web Apps"
 noindex: false
 order: 4.511
 page_id: "Recording Test Steps: An Overview"
@@ -12,68 +12,61 @@ contextual_links:
   name: "Prerequisites"
   url: "#prerequisites"
 - type: link
-  name: "Recording test steps using Testsigma’s step recorder chrome extension"
-  url: "#recording-test-steps-using-testsigmas-step-recorder-chrome-extension"
+  name: "Recording Test Steps Using Recorder"
+  url: "#recording-test-steps-using-recorder"
 ---
 
 ---
 
-Testsigma Step Recorder chrome extension lets you *generate* automated test scripts from a series of manual actions you take to play out a test scenario. The automated test scripts can then be run on all the available Web Browsers. 
 
-&emsp;
+Testsigma recorder allows you to record your interactions with the application as test steps. This article discusses recording test steps for Web applications using the recorder.
+
 
 ---
-##**Prerequisites:**
 
-This document will take you through the process of creating test steps using the Testsigma Step Recorder. You should already know how-to, or have:
+## **Prerequisites**
 
- 1. [Testsigma step recorder chrome extension](https://testsigma.com/docs/test-step-recorder/install-chrome-extension/).
- 2. [create a Test case.](https://testsigma.com/docs/test-cases/manage/add-edit-delete/)
+- You should know how to [create test cases](https://testsigma.com/docs/test-cases/manage/add-edit-delete/).
 
-&emsp;
+- You should know how to [create test steps using the recorder](https://testsigma.com/docs/test-cases/create-steps-recorder/android-apps/overview/).
 
 ---
-##**Recording test steps using Test recorder**
- 
- 1. Create a new Test Case in your Testsigma project.
- 2. Enter the Application URL that you want to automate and click on the 'Create’ button. 
-(This will add ‘Navigate to’ as the first test step.)
 
-![test case page with navigate step in Testsigma](https://docs.testsigma.com/images/web-apps/test-case-page-with-navigate-step-testsigma.png)
-
- 3. Click on the Record button on the top right corner to start recording.
-
-![record button on test case details page in Testsigma](https://docs.testsigma.com/images/web-apps/record-button-test-case-details-page-testsigma.png)
-
- &emsp;
-
-A new Chrome window will open on your workstation. You are ready to record the Test Steps now.
-
-[[info | Note:]]
-| Please wait a few seconds until the Web Page is fully loaded so that the extension can profile the page in background.
- 
- 1. Once the first Web page is fully loaded, start interacting and performing actions on the page.
- 
- 2. Highlight the required element by hovering over the element first.
- 
- 3. Once the correct element is highlighted, perform the action you want to record. 
- 
- 4. Repeat steps 2 and 3 for all the actions you want to record. The steps performed by you will be recorded in the background and added to the Test Case in Testsigma.
-You may perform actions like Click on the element, Type value into the element e.t.c. 
-
-![hover over an element to record it in Testsigma via test step recorder](https://docs.testsigma.com/images/web-apps/hover-over-element-to-record-testsigma.png)
-
- 5. Once the required actions are complete, switch back to the Testsigma Test Case page to see the recorded steps.
-
-![sample test case via test step recorder in Testsigma](https://docs.testsigma.com/images/web-apps/test-step-recorder-sample-test-case-testsigma.png)
-
- 6. Rename the Elements if needed.
- 
- 7. Perform a dry run to check the correctness of the Test Steps and modify or delete unwanted steps if any.
-[How to perform Dry Run to verify Test Case is correct](https://testsigma.com/docs/runs/dry-runs-on-local-devices/)
- 
- 8. Check the Test Results to find the issues, fix the issues, and repeat until the Test Case is passed.
- 
- 9. Finally, add Assertions or verification steps as required.
+## **Recording Test Steps Using Recorder**
 
 
+1. Navigate to **Create Tests > Test Cases**, and click on **Create Test Case**.
+![Test Cases](https://s3.amazonaws.com/static-docs.testsigma.com/new_images/projects/applications/warnavctstcswa.png)
+
+
+2. Create a test step using the URL that you want to automate and click on **Create Step**.
+![Create Step](https://s3.amazonaws.com/static-docs.testsigma.com/new_images/projects/applications/warcs.png)
+
+
+3. Click on **Record**.
+![Record](https://s3.amazonaws.com/static-docs.testsigma.com/new_images/projects/applications/warrecord.png)
+
+
+4. A new window will open the given URL and you can record the test steps.
+![New Window](https://s3.amazonaws.com/static-docs.testsigma.com/new_images/projects/applications/warnwindow.png)
+
+
+[[info | **NOTE**:]]
+| Please wait a few seconds until the web page is fully loaded so the extension can collect information from the page in the background. 
+
+5. Once the first web page is fully loaded, start interacting and performing actions on the page.
+
+
+6. The actions will be recorded and added to the test case in the background. 
+
+
+7. Once the required actions are complete, click on **Done** to switch back to the test case details page.
+![Done](https://s3.amazonaws.com/static-docs.testsigma.com/new_images/projects/applications/warcodone.png)
+
+8. You can see the steps recorded in the test case details page. 
+![Test Steps](https://s3.amazonaws.com/static-docs.testsigma.com/new_images/projects/applications/warrcst.png)
+
+
+Here's a quick GIF demonstrating creating test steps using the recorder. 
+
+![Record Test Steps for WebApps](https://s3.amazonaws.com/static-docs.testsigma.com/new_images/projects/applications/RecordStepswappsWF.gif)

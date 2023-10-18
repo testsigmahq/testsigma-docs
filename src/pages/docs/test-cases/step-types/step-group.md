@@ -1,6 +1,6 @@
 ---
-title: "Test step type: Step groups"
-metadesc: "Step groups in Testsigma and how to use them to author tests at a faster pace"
+title: "Test Step Type: Step Groups"
+metadesc: "Instead of writing the same steps repeatedly, you can create a step group and use it in the test cases when required. This article discusses how to use step groups in Testsigma"
 noindex: false
 order: 4.23
 page_id: "Test step type: Step groups"
@@ -32,7 +32,7 @@ contextual_links:
 
 Sometimes, a group of steps is common to multiple test cases.
 
-**For example:**
+**For Example:**
 1. You must log into an account before performing a fund transfer.
 2. You must log into an account before deleting a beneficiary account.
 3. You must log into an account before downloading the account statement.
@@ -65,8 +65,10 @@ Alternatively, you can click on Record to record steps for the step group.
 |     ![Data Driven](https://s3.amazonaws.com/static-docs.testsigma.com/new_images/projects/applications/sgddtoggle.png)
 |     - Now, create all the steps and your data-driven step group will be ready to use across test cases.
 
+
 Here's a quick GIF demonstrating how to create a step group in Testsigma.
 ![Step Group Creation](https://s3.amazonaws.com/static-docs.testsigma.com/new_images/projects/applications/StepGroupCreateWF.gif)
+
 ---
 
 ## **Edit a Step Group**
@@ -79,23 +81,31 @@ Here's a quick GIF demonstrating how to create a step group in Testsigma.
 [[info | **NOTE**:]]
 | The changes will affect all the test cases that use the step group.
 
+
 ---
+
 
 ## **Edit a Step Group for a Specific Test Case**
 1. Navigate to **Create Tests > Test Cases**.
 ![Test Cases](https://s3.amazonaws.com/static-docs.testsigma.com/new_images/projects/applications/sgnavtcs.png)
 
+
 2. Click on the **Test Case** in which you want to edit the Step Group.
 ![Test Case to Edit](https://s3.amazonaws.com/static-docs.testsigma.com/new_images/projects/applications/sgstoedit.png)
+
 
 3. Click on the **Step Group** to edit any test data or element being used in the step group. 
 ![Edit Step Group](https://s3.amazonaws.com/static-docs.testsigma.com/new_images/projects/applications/sgtstedit.png)
 
+
 4. After editing click outside the step to save the changes.
 ![Save Changes](https://s3.amazonaws.com/static-docs.testsigma.com/new_images/projects/applications/sgedelements.png)
 
+
 [[info | **NOTE**:]]
-| To edit the test data profile associated with a for loop in a step group, click on the test data profile on the test step associated with the for loop and change the test data profile. 
+| 1. You can edit test data and elements for specific test cases but not the NLP. 
+| 2. Edits made for a step group within a test case do not affect the original step group.
+
 
 ---
 
@@ -103,39 +113,50 @@ Here's a quick GIF demonstrating how to create a step group in Testsigma.
 1. Navigate to **Create Tests > Test Cases** and hover over the test case from you want to create a step group and click on it. 
 ![Test Case](https://s3.amazonaws.com/static-docs.testsigma.com/new_images/projects/applications/sgcsgftc.png)
 
+
 2. Once you start selecting the test steps, an option bar will appear on top of the test steps. Select all the steps you want in a step group and click on **Create Step Group**.
 ![Create Step Group](https://s3.amazonaws.com/static-docs.testsigma.com/new_images/projects/applications/sgcsgftcsteps.png)
    
+
 3. This will open a pop-up as below:
    ![Create](https://s3.amazonaws.com/static-docs.testsigma.com/new_images/projects/applications/sgftcsscsr.png)
     - If you click on the **Create**, a new step group with the selected test steps and the given name would be created. 
     - If you click on the **Create and Replace** button, a new step group with the selected test steps and the given name would be created and the selected test steps would be replaced by the created step group.
 
+
 [[info | **NOTE**:]]
 | If you don't select consecutive test steps then the pop-up that appears won't show you the Create and Replace button.
 | ![Only Create](https://s3.amazonaws.com/static-docs.testsigma.com/new_images/projects/applications/sgocacancel.png)
 
+
 ---
 
+
 ## **Use Step Group in a Test Case**
+
 1. Navigate to **Create Tests > Test Cases**. Either click on **Create Test Case** or hover over the existing test case and click on it. 
 ![Test Cases](https://s3.amazonaws.com/static-docs.testsigma.com/new_images/projects/applications/sgtccpage.png)
+
 
 2. On the test case details page, click on the option on the left side of the test step and select **Step Group**.
 ![Add Step Group](https://s3.amazonaws.com/static-docs.testsigma.com/new_images/projects/applications/sgaddftcdp.png)
 
+
 4. From the **Step Group** list overlay, select the step group you want to add. 
 ![Step Group Overlay](https://s3.amazonaws.com/static-docs.testsigma.com/new_images/projects/applications/sglistoverlay.png)
+
 
 5. Click on **Create Step**.
 ![Create Step](https://s3.amazonaws.com/static-docs.testsigma.com/new_images/projects/applications/sgcreatestitc.png)
 
-Here’s a GIF demonstrating how to use a step group in a test case. 
+
 
 [[info | **NOTE**:]]
 | You can also add a data driven step group to a data driven test case. This allows iterating through multiple data sets via the step group for every single iteration of your data-driven test case.
 
+
 ---
+
 
 ## **Additional actions possible on iteration count**
 
@@ -149,5 +170,7 @@ Here’s a GIF demonstrating how to use a step group in a test case.
 
 
 ![the verify if NLP that is available with the addon String Compare](https://s3.amazonaws.com/static-docs.testsigma.com/new_images/test-cases/step-types/step-group/verify-with-if-with-string-compare.png)
+
+
 
 ---
