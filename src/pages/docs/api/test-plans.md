@@ -10,6 +10,9 @@ contextual_links:
 - type: section
   name: "Contents"
 - type: link
+  name: "Prerequisites"
+  url: "#prerequisites"
+- type: link
   name: "Test Plan - Start Test Execution API"
   url: "#test-plan---start-test-execution-api"
 - type: link
@@ -22,15 +25,19 @@ contextual_links:
 
 ---
 
+
 You can use Testsigma API to trigger test executions remotely. This is useful when you want to fully automate continuous testing within your CI/CD pipeline, and have already integrated Testsigma with a CI tool you use, such as Jenkins, TravisCI, GitLab, Codeship, CircleCI, etc..
 
-You should be familiar with creating and running Test Plans. See [Manage Test Plans](https://testsigma.com/docs/test-management/test-plans/overview/)
+---
 
-[[info | NOTE:]]
-| You need to authenticate these requests with your Testsigma API Key. See [How to generate API Keys](https://testsigma.com/docs/configuration/api-keys/)
+## **Prerequisites**
+
+- You should be familiar with creating and running Test Plans. See [manage test plans](https://testsigma.com/docs/test-management/test-plans/overview/)
+- You should have Testsigma API key. See [how to generate API keys](https://testsigma.com/docs/configuration/api-keys/).
+
 
 ---
-##**Test Plan - Start Test Execution API**
+## **Test Plan - Start Test Execution API**
 This endpoint allows users to trigger a Test Plan execution remotely.
 
 |**Request Type**| POST                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                       |
@@ -78,8 +85,9 @@ This endpoint allows users to trigger a Test Plan execution remotely.
 - **test\_step\_prerequisite\_fail:** Action to perform on Test Step prerequisite failure
 
 - **totalQueuedCount:** Total number of queued tests
-- Get Device ID from the **Test Development > Test Plan Details page >Test Devices**
-![Device ID from Test Plan Details Page](https://docs.testsigma.com/images/api/test-plans/test-plan-device-id.png)
+
+
+
 - Execution Config name and ID are the saved configurations for [Partial Test Plan Runs](https://testsigma.com/docs/runs/test-plan-executions/#partial-test-runs). 
 - In the POST request, you can either use the name or the ID for the Execution Config.
 - Get the Execution Config ID and name via this GET Request: https://testsigma.com/docs/api/test-plans/#get-test-plan-favouritesconfig
@@ -89,7 +97,7 @@ This endpoint allows users to trigger a Test Plan execution remotely.
 
 For a Test Plan, you can get the **Test Plan ID** and the complete **cURL request** to trigger the execution from the Test Plan Details page:
 
-![Test Plan detains inside the CICD tab of a test plan](https://s3.amazonaws.com/static-docs.testsigma.com/new_images/api/test-plans/testplan-cicd-tab-rest-api-updated.png)
+![Test Plan detains inside the CICD tab of a test plan](https://s3.amazonaws.com/static-docs.testsigma.com/new_images/projects/applications/rapitestplan.png)
 
 The Run ID is returned as ‘id’ in the response for the request if the execution was started successfully.
 
@@ -103,20 +111,26 @@ Each Test Plan Run in Testsigma has a unique Run ID. This Run ID can be used to 
 | You need to authenticate these requests with your Testsigma API Key. See [How to generate API Keys](https://testsigma.com/docs/configuration/api-keys/)
 
 ---
-##**Obtaining the Run ID**
+
+
+## **Obtaining the Run ID**
 
 If the Test Plan Run was started from within the Testsigma App, the Run ID can be found from the Run Results page as shown below:
 
-![run ids that can be used to trigger test plans in Testsigma](https://docs.testsigma.com/images/test-plans/run-ids-trigger-test-plans.png)
+![Run IDs](https://s3.amazonaws.com/static-docs.testsigma.com/new_images/projects/applications/rapitpbid.png)
 
-The values from 295 to 302 are Run IDs of consecutive Test Plan Runs.
+The values from 295 to 299 are Run IDs of consecutive Test Plan Runs.
 
 If the Test Plan was started by the Test Plan Trigger API Call, the Run ID can be obtained from the API Response under the JSON key ‘id’.
 
 ![run ids from API response under the json key id](https://docs.testsigma.com/images/test-plans/run-id-api-response-json-key.png)
 
+
+
 ---
-##**Test Plan Status API**
+
+
+## **Test Plan Status API**
 
 This endpoint allows users to check the status of an already triggered Test Plan Run.
 
@@ -173,7 +187,7 @@ The Response contains a lot of information regarding the Test Plan Run. Here’s
 
 ![example of a json response](https://docs.testsigma.com/images/test-plans/example-json-response.png)
 
-You can see the result as “FAILURE” and the current status as “STATUS\_COMPLETED” (along with other information).
+You can see the result as **FAILURE** and the current status as **STATUS\_COMPLETED** (along with other information).
 
 ---
 
@@ -188,6 +202,10 @@ This endpoint allows users to get all the Test Plan Favourites/Config that have 
 |**Authorization**|Bearer <api\_token><br>The <api\_token> is the same as the Testsigma API key mentioned above.|
 |**Response Body**|[<br>{<br>&emsp;&emsp;&emsp;&emsp;"id": 2,<br>&emsp;&emsp;&emsp;&emsp;"name": "rest conf inc 1",<br>&emsp;&emsp;&emsp;&emsp;"query": "[{\"key\": \"suiteId\", \"value\": [114], \"operation\": \"NOT_IN\"}]",<br>&emsp;&emsp;&emsp;&emsp;"executionConfigType": "SAVED_CONFIG",<br>&emsp;&emsp;&emsp;&emsp;"executionConfigCondition": "EXCLUDED",<br>&emsp;&emsp;&emsp;&emsp;"createdByUser": null<br>&emsp;&emsp;},<br>&emsp;&emsp;{<br>&emsp;&emsp;&emsp;&emsp;"id": 3,<br>&emsp;&emsp;&emsp;&emsp;"name": "plan o1 exclude 2",<br>&emsp;&emsp;&emsp;&emsp;"query": "[{\"key\": \"suiteId\", \"value\": [132, 130], \"operation\": <br>\"NOT_IN\"}]",<br>&emsp;&emsp;&emsp;&emsp;"executionConfigType": "SAVED_CONFIG",<br>&emsp;&emsp;&emsp;&emsp;"executionConfigCondition": "EXCLUDED",<br>&emsp;&emsp;&emsp;&emsp;"createdByUser": {<br>&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;"id": 9,<br>&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;"email": "bhanu@qateamtestingsprint.com",<br>&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;"firstName": "Bhanu",<br>&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;"lastName": "prakash",<br>&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;"userName": "bhanu",<br>&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;"status": "Active",<br>&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;"isDeleted": false,<br>&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;"isAdmin": true,<br>&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;"isSuperAdmin": true,<br>&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;"userType": null,<br>&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;"isAPIUser": false,<br>&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;"isCrowdUser": false,<br>&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;"isMasked": false,<br>&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;"gdpr": false,<br>&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;"createdDate": 1657951985000,<br>&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;"updatedDate": 1657951992000,<br>&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;"createdById": null,<br>&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;"updatedById": 9,<br>&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;"privileges": [],<br>&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;"authType": null,<br>&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;"identityServiceId": "7308"<br>&emsp;&emsp;&emsp;&emsp;}<br>&emsp;&emsp;},<br>&emsp;&emsp;{<br>&emsp;&emsp;&emsp;&emsp;"id": 4,<br>&emsp;&emsp;&emsp;&emsp;"name": "update inc to exc 2 suites to 3 suites",<br>&emsp;&emsp;&emsp;&emsp;"query": "[{\"key\": \"suiteId\", \"value\": [132, 131, 130], \"operation\": \"NOT_IN\"}, {\"key\": \"reviewedBy\", \"value\": [9], \"operation\": \"NOT_IN\"}, {\"key\": \"assignee\", \"value\": [9], \"operation\": \"NOT_IN\"}]",<br>&emsp;&emsp;&emsp;&emsp;"executionConfigType": "SAVED_CONFIG",<br>&emsp;&emsp;&emsp;&emsp;"executionConfigCondition": "EXCLUDED",<br>&emsp;&emsp;&emsp;&emsp;"createdByUser": null<br>&emsp;&emsp;}<br>]<br>|
 
+
+---
+
+
 ## **Test Case Execution details using REST API**
 This endpoint allows users to get details of all Test case executions using REST API.
 
@@ -196,4 +214,5 @@ This endpoint allows users to get details of all Test case executions using REST
 |**Endpoint**|https://app.testsigma.com/api/v1/execution_results/986/test_case_results|
 |**Authorization**|Bearer **<API\_Token>**<br>Same as the Testsigma API key mentioned above.|
 |**Request Body**|<pre>{ <br> "executionId": 268,<br> "executionResultId": 986,<br> "result": "FAILURE",<br> "status": "STATUS_COMPLETED",<br> "testCases": [<br> {<br> "testCaseId": 413,<br> "testCaseName": "03 data driven small",<br> "testCaseResultId": 7975,<br> "result": "FAILURE",<br> "isDataDrivenCase": true,<br> "iterationResults": [<br> {<br> "iterationResultId": 7963,<br> "setName": "examples",<br> "result": "SUCCESS"<br> },<br> {<br> "iterationResultId": 7976,<br> "setName": "travels",<br> "result": "FAILURE"<br> },<br> {<br> "iterationResultId": 7965,<br> "setName": "examples 1",<br> "result": "FAILURE"<br> }<br> ],<br> "testSuiteId": 197,<br> "testSuiteName": "02 DD Small",<br> "testSuiteResultId": 2295,<br> "machineId": 414,<br> "machineTitle": "machine 2",<br> "machineResultId": 2370<br> }<br> ]<br> }<pre>|
+
 ---
