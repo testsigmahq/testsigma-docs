@@ -48,7 +48,6 @@ function SEO({ lang,
     useEffect(() => {
     if (loadGTM) {
         const script = document.createElement('script');
-        const noscript = document.createElement('noscript');
         script.type = 'text/javascript';
         script.innerHTML = `
         (function(w,d,s,l,i){
@@ -60,13 +59,7 @@ function SEO({ lang,
             f.parentNode.insertBefore(j,f);
         })(window,document,'script','dataLayer','GTM-5F8HTVT');
         `;
-        noscript.innerHTML = `
-        <iframe src="https://www.googletagmanager.com/ns.html?id=GTM-5F8HTVT"
-        height="0" width="0" style="display:none;visibility:hidden">
-        </iframe>
-        `
         document.head.appendChild(script);
-        document.head.appendChild(noscript);
     }
     }, []);
 
@@ -203,6 +196,18 @@ function SEO({ lang,
                     }
                 </script>
             </Helmet>
+
+            {loadGTM && (
+                <>
+                    <noscript>
+                        {`
+                        <iframe src="https://www.googletagmanager.com/ns.html?id=GTM-5F8HTVT"
+                        height="0" width="0" style="display:none;visibility:hidden">
+                        </iframe>
+                        `}
+                    </noscript>
+                </>
+            )}
         </>
     );
 }
