@@ -12,17 +12,17 @@ import { useStaticQuery, graphql } from 'gatsby';
 import favicon from './../images/favicon-new.ico';
 
 function SEO({ lang,
-                meta,
-                title,
-                slug,
-                canonical,
-                metadesc,
-                keywords,
-                social_share_summary,
-                social_share_desc,
-                social_share_image,
-                noindex
-}) {
+               meta,
+               title,
+               slug,
+               canonical,
+               metadesc,
+               keywords,
+               social_share_summary,
+               social_share_desc,
+               social_share_image,
+               noindex
+             }) {
     const { site } = useStaticQuery(
         graphql`
       query {
@@ -170,8 +170,7 @@ function SEO({ lang,
             <script async defer type='text/javascript' charSet='utf-8' src='https://js.hsforms.net/forms/embed/v2.js' />
             <script type="text/javascript" id="hs-script-loader" async defer src="//js.hs-scripts.com/23341221.js"></script>
             <script type="application/ld+json">
-                {'{'+
-                        
+                {'{'+   
                         '"@context": "https://schema.org/",'+
                         '"@type": "BreadcrumbList",'+
                         '"itemListElement":'+ '['+'{'+
