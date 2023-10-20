@@ -4,7 +4,7 @@ page_title: "Runtime Test Data | Testsigma Documentation"
 metadesc: "Runtime test data in Testsigma stores data obtained during the execution of Test Cases. Learn how to store runtime test data with example use cases."
 noindex: false
 order: 5.114
-page_id: "Runtime Test Data Usage"
+page_id: "runtime-test-data-testsigma"
 warning: false
 contextual_links:
 - type: section
