@@ -656,3 +656,29 @@ table{
     }
   }
 }
+
+// Cookie banner
+#hs-banner-parent{
+  .hs-cookie-notification-position-bottom{
+    width: calc(min(25em, 100%));
+    @apply left-[12%];
+    @media only screen and (max-width: 767px) {
+      @apply left-[3%] w-[95%];
+    }
+    @media only screen and (min-width:768px) and (max-width: 1023px) {
+      @apply left-[20%] w-[35%];
+    }
+    #hs-eu-cookie-confirmation-inner{
+      @apply p-8;
+      #hs-eu-policy-wording{
+        @apply mr-0 mb-4;
+      }
+      #hs-eu-cookie-confirmation-buttons-area{
+        @apply justify-center mr-0;
+        #hs-eu-decline-button{
+          @apply hidden;
+        }
+      }
+    }
+  }
+}
