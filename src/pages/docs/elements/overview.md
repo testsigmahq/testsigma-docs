@@ -58,16 +58,7 @@ Click the **Sort by** option in the menu bar on the **Elements List** page and a
 ## **Filter Elements**
 
 1. Click on **Show Filters** in the menu bar on the **Elements List** page.
-2. Select **Add Filter** from the drop-down list. Choose from the following filtering options:
-   - **Element Value**
-   - **Name**
-   - **Linked to Test Case**
-   - **Labels**
-   - **Screen Name**
-   - **Element Type**
-   - **Created By**
-   - **Created Date**
-   - **Updated Date** 
+2. Select **Add Filter** from the drop-down list. Choose from the following filtering options: **Element Value**, **Name**, **Linked to Test Case**, **Labels**, **Screen Name**, **Element Type**, **Created By**, **Created Date** and **Updated Date**.
 
 ![Filter Elements](https://s3.amazonaws.com/static-docs.testsigma.com/new_images/projects/applications/filter_elementslist.gif)
 

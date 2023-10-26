@@ -1,10 +1,10 @@
 ---
-title: "Manage Test Cases"
-pagetitle: "Add, Edit & Delete Test Cases in Testsigma"
+title: "Test Cases"
+pagetitle: "Manage Test Cases | Testsigma Documentaion"
 metadesc: "Effortlessly manage your test cases in Testsigma by seamlessly creating, editing, deleting, and recovering them. Streamline your test case management process, adapt to changing project needs, and ensure comprehensive test coverage."
 noindex: false
 order: 4.10
-page_id: "Add, Edit, Delete Test Cases"
+page_id: "test-cases-testsigma"
 warning: false
 contextual_links:
 - type: section

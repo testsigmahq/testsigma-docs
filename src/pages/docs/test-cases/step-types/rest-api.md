@@ -47,8 +47,8 @@ Here is a quick GIF demonstrating the above workflow: ![Add Rest API in Test Ste
 
 Follow the steps below on the Rest API screen, which will appear, to configure your Rest API Test Step.
 
-1. **Title**: Provide a title for the API test step, *for example, Verify User*.
-2. **API Endpoints**: Specify the URL of the RESTful API you want to interact with. This URL should point to the specific endpoint you intend to test, *for example, Endpoint: https://jsonplaceholder.typicode.com/posts/*.
+1. **Title**: Provide a title for the API test step, *for example, Get User details*.
+2. **API Endpoints**: Specify the URL of the RESTful API you want to interact with. This URL should point to the specific endpoint you intend to test, *for example, Endpoint: https://reqres.in/*.
 3. **HTTP Methods**: Select the appropriate HTTP method for your API request, and methods include:
     - **GET**: Retrieve data from the API.
     - **POST**: Create new data or perform actions.
@@ -56,9 +56,9 @@ Follow the steps below on the Rest API screen, which will appear, to configure y
     - **PATCH**: Update some existing data fields.
     - **DELETE**: Remove data from the API.
 4. **API Request**: You should configure the API request details, including parameters, request body, headers, authorisation, and additional settings.
-    - **Parameters**: Enter the query parameters here if your API endpoint needs them, *for example, https://jsonplaceholder.typicode.com/?name=Joel&email=abcxyz@mail.com*.
+    - **Parameters**: Enter the query parameters here if your API endpoint needs them, *for example, https://reqres.in/api/users?page=2*.
     - **Request Body**: Specify the body content if you include data in the request body of your API request *(e.g., for POST or PUT requests)*.
-    - **Headers**: Add any necessary headers to the request, such as authentication tokens, content type, or custom headers.
+    - **Headers**: Add any necessary headers to the request, such as authentication tokens, content type, or custom headers, *for example, API Key: Accept, Vaule: application/json*.
     - **Authorization**: Set up the necessary authorization method (e.g., Basic Auth, OAuth tokens) if the API requires authentication, *for example, Authorization: Bearer token12345*.
     - **Settings**: You should adjust any specific settings related to your API request.
 5. **Verification**: Define the criteria for verifying the API response:
@@ -70,7 +70,7 @@ Follow the steps below on the Rest API screen, which will appear, to configure y
 8. **Global Objects**: You can link or utilise the predefined global objects in your Testsigma project (such as reusable test data or functions) within your Rest API Test Step to ensure consistency and reusability across your tests.
 9. Click **Create** at the bottom of the screen after configuring the Rest API Test Step to create the Rest API in the Test Step. You can now execute it to test the RESTful API.
 
-Here is a quick GIF demonstrating the above workflow: ![Configure Rest API test step](https://s3.amazonaws.com/static-docs.testsigma.com/new_images/projects/applications/config_restapitst.png)
+Here is a quick GIF demonstrating the above workflow: ![Configure Rest API test step](https://s3.amazonaws.com/static-docs.testsigma.com/new_images/projects/applications/config_restapitst2.gif)
 
 [[info | NOTE:]]
 | For more information on RESTful API testing in a test case, refer to [RESTful API Testing](https://testsigma.com/docs/test-cases/create-steps-restapi/restful-api-overview/).

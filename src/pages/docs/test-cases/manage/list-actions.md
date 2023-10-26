@@ -49,20 +49,7 @@ Click the **Sort by** option in the menu bar on the **Test Cases List** page and
 ## **Filter Test Cases**
 
 1. Click on **Show Filters** in the menu bar on the **Test Cases List** page.
-2. Select **Add Filter** from the drop-down list. Choose from the following filtering options:
-    - **Status**
-    - **Priority**
-    - **Last run result**
-    - **Added to Test Suite**
-    - **Assignee**
-    - **Created By**
-    - **Created Date**
-    - **Updated Date**
-    - **Reviewer**
-    - **Test Case Type**
-    - **Labels**
-    - **Requirement**
-    - **Requirement Type**
+2. Select **Add Filter** from the drop-down list. Choose from the following filtering options: **Status**, **Priority**, **Last run result**, **Added to Test Suite**, **Assignee**, **Created By**, **Created Date**, **Updated Date**, **Reviewer**, **Test Case Type**, **Labels**, **Requirement** and **Requirement Type**.
 
 ![Filter Test Cases](https://s3.amazonaws.com/static-docs.testsigma.com/new_images/projects/applications/filters_testcase.gif)
 

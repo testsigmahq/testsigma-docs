@@ -16,6 +16,9 @@ contextual_links:
   name: "Schedule a Partial Test Plan"
   url: "#schedule-a-partial-test-plan"
 - type: link
+  name: "View Test Plan Schedules"
+  url: "#view-test-plan-schedules"  
+- type: link
   name: "Manage Test Plan Schedule"
   url: "#manage-test-plan-schedule"
 ---
@@ -77,6 +80,13 @@ Before you schedule a test plan in Testsigma, you must understand the concepts o
 10. Click on the **View filtered test cases** button in the bottom corner of the screen to view filtered test cases.
 11. Click the **Save as Favourite** button in the bottom corner of the screen to save the configuration as a favourite for later use.
 12. Click on the **Schedule** button after filling up the test plan schedule details. It will create the schedule according to your selections. ![Schedule a Partial Test Plan](https://s3.amazonaws.com/static-docs.testsigma.com/new_images/projects/applications/schedulestp.gif)
+
+---
+
+## **View Test Plan Schedules**
+
+1. Navigate to **Test Plans** on the left-side side navbar. Click the **Schedules** tab on the Test Plan list page.
+2. You can view the **Schedule Name**, **Test Plan**, **Frequency**, and **Next Run At** of the scheduled test plans on the Schedules list page. Click the **ellipsis** icon to open a dropdown menu and select **Edit** or **Delete** the scheduled test plan. ![Schedule List Test plan](https://s3.amazonaws.com/static-docs.testsigma.com/new_images/projects/applications/schedulestp_list.png)
 
 ---
 
