@@ -642,3 +642,17 @@ code[class*="language-"] {
 .fixed{
   display: none;
 }
+
+table{
+  thead, tbody{
+    @apply w-full;
+    tr{
+      td, th{
+        word-wrap: break-word;
+        li{
+          @apply break-all w-full;
+        }
+      }
+    }
+  }
+}
