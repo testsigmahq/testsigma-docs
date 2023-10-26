@@ -1,110 +1,78 @@
 ---
-title: "Runtime Test Data Usage"
-page_title: "Runtime Test Data in Testsigma"
+title: "Test Data Type: Runtime"
+page_title: "Runtime Test Data | Testsigma Documentation"
 metadesc: "Runtime test data in Testsigma stores data obtained during the execution of Test Cases. Learn how to store runtime test data with example use cases."
 noindex: false
 order: 5.114
-page_id: "Runtime Test Data Usage"
+page_id: "runtime-test-data-testsigma"
 warning: false
 contextual_links:
 - type: section
   name: "Contents"
 - type: link
-  name: "Example Use Cases"
-  url: "#example-use-cases"
+  name: "Store Data as a Runtime Variable"
+  url: "#store-data-as-a-runtime-variable"
 - type: link
-  name: "How to use Runtime Test Data in test steps"
-  url: "#how-to-use-runtime-test-data-in-test-steps"
+  name: "Use Runtime Variables in Test Step"
+  url: "#use-runtime-variables-in-test-step"
+- type: link
+  name: "Example Use Cases"
+  url: "#example-use-cases"  
 ---
 
 ---
 
-Runtime Test Data in Testsigma is used to store data obtained during the run-time i.e during the execution of Test Cases.
-
-To proceed, you should know how to [Creating Test Steps using Natural Language](https://testsigma.com/docs/test-cases/create-steps-nl/overview/)
-
-Assume that your Test Case involves copying a piece of data from one page and verifying if the same data is present on a different page. This can be accomplished by using the Runtime Test Data Type.
-
-The same applies to any case where data needs to be stored earlier and used in a later step.
+In Testsigma, Runtime Test Data allows you to save data gathered while running a Test Case. For example, you can utilise the Runtime Test Data Type to copy data from one page and confirm its presence on another page. The Runtime Test Data Type in Testsigma lets you dynamically store and use data during the test. You can keep this data as a runtime variable, making automated tests more flexible and adaptable.
 
 ---
-## **Example Use Cases**
+### **Prerequisites**
 
-1. **Bill payment:** You want to save the system-generated Bill ID and reuse it in the next step for verification after the payment is successful.
-
-
-| Action to use| Store the value displayed in the text box ui identifier field into a variable test data|
-|----|-----|
-|**Actual statement used**|**Store the value displayed in the text box Bill\_ID field into a variable bill_id**|
-|**Usage for retrieving the value**| **Enter $[bill_id] in the BillNumber field**|
-
-2. **SSID Creation for Router:** You want to save the SSID used in a form on the first page so that it can be inserted in a form on the last page.
-
-|**Action to use**|**Store text from the element ui identifier into a variable test data**|
-|----|----|
-|**Actual statement used**|**Store text from the element SSID into a variable ssid**|
-|**Usage for retrieving the value**|**Enter $[ssid] in the SSIDNumber field**|
+Before using Runtime Test Data, ensure you understand specific concepts such as creating a [Project](https://testsigma.com/docs/projects/overview/), [Test Case](https://testsigma.com/docs/test-cases/manage/add-edit-delete/#creating-a-test-case), and [Elements](https://testsigma.com/docs/elements/overview/), managing [Test Steps](https://testsigma.com/docs/test-cases/step-types/natural-language/), and effectively using them with [Test Data Types](https://testsigma.com/docs/test-data/types/overview/).
 
 ---
-## **How to use Runtime Test Data in test steps**
 
-To use runtime parameters in test steps, we will need to store actions to save data in the runtime variable. In the example above, you can see that we have used:
+## **Store Data as a Runtime Variable**
 
-1. Store the value displayed in the text box **Bill_ID** field into a variable **bill_id**, 
-
-This means that an auto-generated id will be saved in a variable called ***bill_id***
-
-
-![step using runtime test data in test steps](https://docs.testsigma.com/images/runtime/runtime-test-data-in-test-steps.png)
-
-
-2. In the subsequent steps or test cases we can use the ***bill_id*** variable as shown below
-
-Example, Enter **$|bill_id|** in the **BillNumber** field 
-
-This step will enter the value stored in bill_id into the BillNumber field.
-
-![use-runtime-data-via-variable-test-step](https://s3.amazonaws.com/static-docs.testsigma.com/new_images/docs/test-data/types/runtime/use-runtime-data-via-variable-test-step.png)
-
-When, in a test step, you choose the test data to be of the type **runtime**, a **Runtime Variables** overlay appears on the right. This overlay contains a list of runtime variables that have already been created. Do note that this list will only contain runtime variables that are part of the same project as the test case and have been set using the Store NLP. Below is a screenshot of how the overlay appears:
-
-![A gif demonstrating how to store value in runtime variable and how to use it in another test step](https://s3.amazonaws.com/static-docs.testsigma.com/new_images/test-data/types/runtime/runtime-variables-overaly.png )
-
-
-Below is a gif demonstrating the execution of above 2 steps. 
-
-![Runtime Variables overlay showing list of runtime variables already created](https://s3.amazonaws.com/static-docs.testsigma.com/new_images/test-data/types/runtime/runtime-variable-selection-gif.gif)
-
-
+1. Use the **Store** keyword in **NLP** to create a **new step** in the **test case** for saving a dynamic value as Runtime data.
+2. **Remove** the **test data** placeholder, enter the **text** by storing the data in the text, and click **Create Step** to generate a runtime variable.
 
 [[info | NOTE:]]
-|- The Runtime variables during the initial run of the test will be stored and available for future runs. In case of a test failure and the need to re-run the test, the runtime variables from the initial run will automatically apply.
-|- If you enter a variable name without storing the value, you will see the following error in the run report. Make sure to always store the value into a variable before using it.
+| During the first test run, the application stores the runtime variables and keeps them accessible for future runs. If you need to rerun a test that fails, the application will automatically apply the runtime variables from the initial run.
 
-[[info | Error Message:]]
-| No data available for runtime test data variable %s. Refer previous Test Steps in this Test Case or Test Steps in other Test Cases to know the variable names saved by using store(naturalText) action Test Steps. Go to https://testsigma.com/docs/test-data/types/runtime/ to know more about runtime test data."
+![Store Data as Runtime Variable](https://s3.amazonaws.com/static-docs.testsigma.com/new_images/projects/applications/storedata_runtime.gif)
 
+[[info | EXAMPLE:]]
+| Following the steps above, we use NLP to **Store the value displayed in the text box element field into a variable test data**. We click on the **element** in the **NLP** to select or create an element and replace the **test data** placeholder. We enter the **text** by storing the data in the text. The NLP stores the value displayed in the text box with the given UI Identifier **Enteryouremailaddress::inputEmail**(element) into a variable called **simplyemail1**(test data).
 
 ---
-## **Related Addons**
 
-There are 2 add-ons available to the Testsigma community, that extend the functionality of runtime variables in Testsigma: 
+## **Use Runtime Variables in Test Step**
 
-1. **Testdata Values To Runtime Data Transfer**: This addon contains actions to copy testdata from testdata profile to runtime variables. If runtime variable is already present, the variable value will be overridden.
+1. Use **NLP** to create a **new step** in the **Test Case** and include a placeholder for **test data**.
+2. Click the **test data** placeholder to replace it, and then select the **$ Runtime** from the **Test Data Types** dropdown menu.
+3. A list of runtime variables already created in the project will appear in the **Runtime Variables** overlay.
+4. Select the **Runtime Variable** from the overlay or **search** for a runtime variable and insert it into the test steps. You can also click the **Switch Project** button in the overlay, select the **Project**, Application, and Version, and use a Runtime Variable created in other projects. ![Use Runtime Variable in Test Step](https://s3.amazonaws.com/static-docs.testsigma.com/new_images/projects/applications/useruntime_teststep.gif)
   
-     An example NLP from the Addon: 
-       **_Store testdata-parameter value into a runtime variable Variable-name_**
- 
-       Above example Stores test data parameter value into runtime
+[[info | NOTE:]]
+| The run report will show the following error if you enter a variable name without storing a value. Always remember to store the value in a variable before using it. <br><br>
+| No data available for runtime test data variable %s. Refer previous Test Steps in this Test Case or Test Steps in other Test Cases to know the variable names saved by using store(naturalText) action Test Steps. Go to https://testsigma.com/docs/test-data/types/runtime/ to know more about runtime test data."
 
-2. **String Data Generators**: This addon provides string utilities that can be used to manipulate strings in various ways. 
-  
-     An example NLP from the Addon: 
-       **_If test-data starts with/ends with/contains value_**
- 
-       Above example checks if a given string contains or starts or ends with a provided string.
- 
-You can get above addons here: [Testsigma Addons](https://testsigma.com/addons). 
+---
 
-To know more about addons, read here: [What Is An Addon?](https://testsigma.com/docs/addons/what-is-an-addon/)
+## **Example Use Cases**
+
+1. **Bill Payment**: After successfully making the payment, you need to save the system-generated Bill ID and use it in the next step for verification.
+
+|Action to use|Store the value displayed in the text box element field into a variable test data.|
+|---|---|
+|**Actual statement used**|Store the value displayed in the text box **Bill_ID** field into a variable **billid_no**.|
+|**Usage for retrieving the value**|Enter **$ billid_no** in the **Enteryour::BillNumber** field.|
+
+2. **SSID Creation for Router**: You want to save the SSID used in a form on the first page so that you can insert it in a form on the last page.
+
+|Action to use|Store text from the element element into a variable test data.|
+|---|---|
+|**Actual statement used**|Store text from the element **SSID** into a variable **ssid_no**.|
+|**Usage for retrieving the value**|Enter **$ ssid_no** in the **Enteryour::SSIDNumber** field.|
+
 ---

@@ -79,6 +79,9 @@ Open the test case with the Step Block you want to edit. Choose the **block**, e
 
 To delete a Step Block, open the test case containing it and click the **Delete** button corresponding to the Block Step. Clicking on the delete button will delete the block, as it is only considered a label for the test steps, and the test steps inside it will remain intact. ![Delete Block](https://s3.amazonaws.com/static-docs.testsigma.com/new_images/projects/applications/delete_block.gif)
 
+[[info | NOTE:]]
+| Deleting the block will only remove the block and not delete the steps.
+
 ---
 
 ## **Actions Possible on a Block**
