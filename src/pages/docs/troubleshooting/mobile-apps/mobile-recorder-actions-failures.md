@@ -54,6 +54,7 @@ contextual_links:
 The easiest way to debug an error is to check the Logs for the Mobile test recorder. It contains the actual reason for the error. This article discusses some of the most common reasons. 
 
 ---
+
 ## **1.  There are already running sessions for the user**
 
 There could be a couple of reasons for this error to appear. The reasons are listed below:
@@ -114,12 +115,13 @@ At all times, ensure that the tap point is within the screen.
 
 **Reason:**
 
-This error appears when due to some reasons the Testsigma servers are not able to reach to the mobile inspector session. One of the main reasons could be an issue with your browser network. At such times, the keep-alive requests from the browser don’t go through to the Testsigma servers and the Testsigma servers assume that the session was closed abruptly - thus, marking the session as **expired**.
+This error appears when Testsigma servers cannot reach the mobile inspector session. One of the main reasons could be an issue with your browser network. At such times, the keep-alive requests from the browser don't go through to the Testsigma servers, and the Testsigma servers assume that the session was closed abruptly, thus marking the session as **expired**.
 
+![Network Error](https://s3.amazonaws.com/static-docs.testsigma.com/new_images/projects/applications/Networkerrorminsp.png)
 
 **Solution:**
 
-Check and rectify any network-related issues and relaunch.
+Check and resolve any network-related issues and relaunch.
 
 <br>
 

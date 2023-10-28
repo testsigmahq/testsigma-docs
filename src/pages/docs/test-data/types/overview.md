@@ -10,6 +10,9 @@ contextual_links:
 - type: section
   name: "Contents"
 - type: link
+  name: "Prerequisites"
+  url: "#prerequisites"
+- type: link
   name: "Add Test Data in Test Steps"
   url: "#add-test-data-in-test-steps"
 - type: link
@@ -43,19 +46,20 @@ contextual_links:
 
 ---
 
-Testsigma enhances your test automation by supporting different Test Data types. You can input various values and scenarios into your test cases using Test Data. You require a lot of test data to validate different scenarios in many test cases. A bug-free feature that passes these test data inputs is ready for production.
+Testsigma enhances your test automation by supporting different test data types. You can input various values and scenarios into your test cases using test data. You require a lot of test data to validate different scenarios in many test cases. A bug-free feature that passes these test data inputs is ready for production.
 
-In simpler terms, Test Data is the information or values needed to set up and run a test. For instance, the test data for a login feature includes the username and password. The test data for a ticket booking feature includes the source and destination, and for a fund transfer feature, the source account and beneficiary account numbers serve as test data.
+In simpler terms, test data is the information or values needed to set up and run a test. For instance, the test data for a login feature includes the username and password. The test data for a ticket booking feature includes the source and destination, and for a fund transfer feature, the source account and beneficiary account numbers serve as test data.
 
-This documentation will explain the different Test Data types supported in Testsigma, their uses, and guide how to use them.
+This documentation will explain the different test data types supported in Testsigma, their uses, and guide how to use them.
+
+---
+
+## **Prerequisites**
+
+Before using test data type, you must understand specific concepts such as creating [projects](https://testsigma.com/docs/projects/overview/), [test cases](https://testsigma.com/docs/test-cases/manage/add-edit-delete/), and [test steps](https://testsigma.com/docs/test-cases/create-steps-nl/overview/).
 
 ---
 
-### **Prerequisite**
-
-Before using Test Data Type, you must understand specific concepts such as creating [Projects](https://testsigma.com/docs/projects/overview/), [Test Cases](https://testsigma.com/docs/test-cases/manage/add-edit-delete/), and [Test Steps](https://testsigma.com/docs/test-cases/create-steps-nl/overview/).
-
----
 ## **Add Test Data in Test Steps**
 
 1. Add a new step to the **Test Case** using **NLP** and include a placeholder for the **test data**.
@@ -78,11 +82,22 @@ Here is a quick GIF demonstrating the above workflow: ![Select Test Data Types](
 
 ## **Plain Text**
 
-You can use Plain Text as a Test Data Type in Testsigma. It is perfect for entering static and fixed values in your test cases. This type is suitable for providing constant information like usernames, passwords, or text that doesn't change during testing. Raw Data, where the data is directly specified, frequently uses Plain Text Test Data for test steps. For more information, refer to [Plain Text - Raw Data](https://testsigma.com/docs/test-data/types/raw/).
+You can use Plain Text as a test data type in Testsigma. It is perfect for entering static and fixed values in your test cases. This type is suitable for providing constant information like usernames, passwords, or text that doesn't change during testing. Raw Data, where the data is directly specified, frequently uses Plain Text test data for test steps. For more information, refer to [Plain Text - Raw Data](https://testsigma.com/docs/test-data/types/raw/).
 
-For example, at the start of the Test Case, we specify the URL to navigate as shown below:
+For example, at the start of the test case, we specify the URL to navigate as shown below:
 ![Plain Text data type](https://s3.amazonaws.com/static-docs.testsigma.com/new_images/projects/applications/plaintext_testdata.png)
-In this instance, we use Plain Text Test Data by directly providing the test data, which is the URL, within the Test Step.
+
+In this instance, we use Plain Text test data by directly providing the test data, which is the URL, within the test step.
+
+
+[[info | **NOTE**:]]
+| You can also provide a blank value as test data, an additional option with Plain Text test data. To use this functionality, we must replace the *test data* part with the string **key_blank**. This will enter a blank value in the field where *test data* is passed.
+|
+| <br>
+|
+| Here's a quick GIF demonstrating using blank value as test data.
+|
+| ![Blank Value](https://s3.amazonaws.com/static-docs.testsigma.com/new_images/projects/applications/BlankValue.gif)
 
 ---
 
@@ -107,7 +122,8 @@ In this instance, we use Plain Text Test Data by directly providing the test dat
 
 ## **Environment**
 
-- Manage Environment Test Data Type on the Environments page with a limited scope to a project. The Environment Test Data Type contains environment-related information like URLs, API endpoints, and database connection details. You must configure test cases to work in various environments (e.g., development, staging, production). 
+- Manage Environment Test Data Type on the Environments page with a limited scope to a project. The Environment Test Data Type contains environment-related information like URLs, API endpoints, and database connection details. You must configure test cases to work in various environments (e.g., development, staging, production).
+
 - You can use the *** Environment** type and substitute the parameter's name for "**Environment**" to use Testsigma's most versatile Test Data Type, the Environment Parameter. Refer to the [Environment](https://testsigma.com/docs/test-data/types/environment/) for more information. ![Environment Test data type](https://s3.amazonaws.com/static-docs.testsigma.com/new_images/projects/applications/environment_testdata_type.png)
 
 [[info | EXAMPLE:]]
@@ -126,24 +142,24 @@ Random Test Data Type generates random data such as numbers, email addresses, an
 
 ## **Data Generator**
 
-Data Generator Test Data Type generates realistic and structured data for testing purposes, such as names, addresses, and emails. You can obtain dynamic data by using the **Default Test Data Generator Functions**. To use them, you must substitute "**Data Generator**" with the specific name required in the **! Data Generator** format. Refer to the [Data Generator](https://testsigma.com/docs/test-data/types/data-generator/) for more information. ![Data Generator Data Type](https://s3.amazonaws.com/static-docs.testsigma.com/new_images/projects/applications/datagenerator_datatype.png)
+Data Generator test data type generates realistic and structured data for testing purposes, such as names, addresses, and emails. You can obtain dynamic data by using the **Default Test Data Generator Functions**. To use them, you must substitute "**Data Generator**" with the specific name required in the **! Data Generator** format. Refer to the [Data Generator](https://testsigma.com/docs/test-data/types/data-generator/) for more information. ![Data Generator Data Type](https://s3.amazonaws.com/static-docs.testsigma.com/new_images/projects/applications/datagenerator_datatype.png)
 
 ---
 
 ## **Phone Number**
 
-Phone Number Test Data Type allows you to create random or predefined phone numbers for testing SMS or phone number validation features. If you need a valid phone number to receive SMS codes for scenarios like two-factor authentication testing, Testsigma provides a test phone number that you can use as test data in your test steps. Refer to the [Phone Number](https://testsigma.com/docs/test-data/types/phone-number/) and [2-step Authentication](https://testsigma.com/tutorials/advanced/sms-based-two-factor-authentication-2fa/) for more information. ![Phone Number Data Type](https://s3.amazonaws.com/static-docs.testsigma.com/new_images/projects/applications/phonenumber_testdatatype.png)
+Phone Number test data type allows you to create random or predefined phone numbers for testing SMS or phone number validation features. If you need a valid phone number to receive SMS codes for scenarios like two-factor authentication testing, Testsigma provides a test phone number that you can use as test data in your test steps. Refer to the [Phone Number](https://testsigma.com/docs/test-data/types/phone-number/) and [2-step Authentication](https://testsigma.com/tutorials/advanced/sms-based-two-factor-authentication-2fa/) for more information. ![Phone Number Data Type](https://s3.amazonaws.com/static-docs.testsigma.com/new_images/projects/applications/phonenumber_testdatatype.png)
 
 ---
 
 ## **Mail Box**
 
-Mailbox Test Data Type generates email addresses and mailbox data for testing email-related functions, particularly for workflows involving OTPs or activation links. Testsigma enables you to use provisioned mailbox email addresses to input test data. Refer to the [Mail Box](https://testsigma.com/docs/test-data/types/mailbox/) for more information. ![Mail Box Data Type](https://s3.amazonaws.com/static-docs.testsigma.com/new_images/projects/applications/mailbox_testdatatype.png)
+Mailbox test data type generates email addresses and mailbox data for testing email-related functions, particularly for workflows involving OTPs or activation links. Testsigma enables you to use provisioned mailbox email addresses to input test data. Refer to the [Mail Box](https://testsigma.com/docs/test-data/types/mailbox/) for more information. ![Mail Box Data Type](https://s3.amazonaws.com/static-docs.testsigma.com/new_images/projects/applications/mailbox_testdatatype.png)
 
 ---
 
 ## **Upload**
 
-Upload Test Data Type enables you to easily upload files and applications to your tests using NLP, streamlining the process of adding attachments to your test cases. Refer to the [Upload Files](https://testsigma.com/docs/uploads/upload-files/) & [Apps](https://testsigma.com/docs/uploads/upload-apps/) for more information. ![Upload data type](https://s3.amazonaws.com/static-docs.testsigma.com/new_images/projects/applications/upload_testdata_type.png)
+Upload test data type enables you to easily upload files and applications to your tests using NLP, streamlining the process of adding attachments to your test cases. Refer to the [Upload Files](https://testsigma.com/docs/uploads/upload-files/) & [Apps](https://testsigma.com/docs/uploads/upload-apps/) for more information. ![Upload data type](https://s3.amazonaws.com/static-docs.testsigma.com/new_images/projects/applications/upload_testdata_type.png)
 
 ---
