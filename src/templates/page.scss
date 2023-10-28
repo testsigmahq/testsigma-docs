@@ -660,8 +660,8 @@ table{
 // Cookie banner
 #hs-banner-parent{
   .hs-cookie-notification-position-bottom{
-    width: calc(min(25em, 100%));
-    left: 12%;
+    width: calc(min(28em, 100%));
+    left: 14%;
     @media only screen and (max-width: 767px) {
       left: 3%;
       width: 95%;
