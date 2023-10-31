@@ -6,34 +6,32 @@ noindex: false
 order: 21.65
 page_id: "Update Test Case results using API"
 warning: false
-contextual_links:
-- type: section
-  name: "Contents"
-- type: link
-  name: "Update Test Case results using REST API"
-  url: "#update-test-case-results-using-rest-api"
 ---
 
-<br>
+---
 
 In Testsigma, you can update the Test Case Results using API. This article discusses how to update Test Case results as Passed, Failed, and Not Executed using REST API.
 
+
 This endpoint allows users to update the Test Case result using REST API.
+
 
 |**Request Type**|**PUT**|
 |---|---|
-|**Endpoint**|https://app.testsigma.com/api/v1/executions/results/&lt;run_id&gt;/override<br> The &lt;run_id&gt; can be obtained from the Run Results.|
+|**Endpoint**|https://app.testsigma.com/api/v1/execution_results/&lt;run_id&gt;/override<br> The &lt;run_id&gt; can be obtained from the Run Results.|
 |**Authorization**|Bearer **<API\_Token>**<br>Same as the Testsigma API key mentioned above.|
 |**Request Body Type (JSON)**|Raw|
 |**Request Body**|[<br>{<br>"testCaseResultId": 3646,<br>"comment": "Modifying the results 1",<br>"result": "SUCCESS"<br>}<br>]<br>|
 |**Response Body(JSON)**|{<br>"errors": [],<br>"message": "Overridden the results successfully"<br>}|
 
-**Request fields**<br>
+
+### **Request fields**
 **testCaseResultId:** ID of Test Case result.<br>
 **comment:** Comment you want to add to change the result.<br> 
 **result:** The result you want to override the current result.<br> 
 
-**Response fields**<br>
+
+### **Response fields**
 **errors:** Errors in request fields if there are any.<br> 
 **message:** Message of overridden results.<br> 
 
@@ -47,3 +45,4 @@ This endpoint allows users to update the Test Case result using REST API.
 
 
 
+---
