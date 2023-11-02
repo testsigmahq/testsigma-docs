@@ -20,6 +20,8 @@ html {
 body {
   overflow-x: hidden;
   height: 100%;
+  scroll-behavior: smooth;
+  scroll-padding-top: 90px;
 }
 // main container
 .container {
