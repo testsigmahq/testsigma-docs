@@ -1,164 +1,104 @@
 ---
-title: "Test plans"
-page_title: "Test Plans - List, Create, Edit, Delete"
-metadesc: "Test Plans in Testsigma help manage test cases and test suites. Learn how to create, edit, delete, and organize test plans for effective testing."
+title: "Test Plans"
+page_title: "Test Plans Management - Streamline Testing with Testsigma"
+metadesc: "Organise your testing efficiently with Test Plans in Testsigma. You can easily create, edit, delete, and manage test plans for high-quality software."
 noindex: false
 order: 8.21
-page_id: "Test Plans - List, Create, Edit, Delete"
+page_id: "test-plans-management-testsigma"
 warning: false
 contextual_links:
 - type: section
   name: "Contents"
 - type: link
-  name: "Steps to create a test plan"
-  url: "#steps-to-create-a-test-plan" 
+  name: "Prerequisites"
+  url: "#prerequisites"
 - type: link
-  name: "List test plans"
-  url: "#list-test-plans"
+  name: "Listing Test Plans"
+  url: "#listing-test-plans"
 - type: link
-  name: "Edit test plan"
-  url: "#edit-test-plan"
+  name: "Creating a Test Plan"
+  url: "#creating-a-test-plan"
 - type: link
-  name: "Delete test plan"
-  url: "#delete-test-plan"
+  name: "Editing a Test Plan"
+  url: "#editing-a-test-plan"   
+- type: link
+  name: "Deleting a Test Plan"
+  url: "#deleting-a-test-plan"  
 ---
 
 ---
 
-Test plan is a document which details and identifies amongst others, test items, the features to be tested, the testing tasks, the test environment, the test design techniques and so on. It is a comprehensive record of the test planning process.
-The following article details the process of creating, editing, and deleting a test plan in Testsigma.
+In Testsigma, the Test Plan helps plan and organise software testing. The Test Plan efficiently executes the tests, manages test data, and reports results. It includes details such as the scope of testing, objectives, features to be tested, testing resources, testing environment, test cases, schedules, and risk assessment. The Test Plan makes sure testing is organised and helps find problems early. It also helps the team work together.
 
 ---
 
-## **Steps to create a test plan**
+## **Prerequisites**
 
-1. Click on the **Test Development** icon on the left and navigate to Test Plans. This will take you to the **Test Plans** page.
-![Create test plan](https://s3.amazonaws.com/static-docs.testsigma.com/new_images/test-management/test-plans/overview/create_a_test_plan.png)
-2. On the test plans page, click **+ Create Test Plan**, to create a new test plan.
-3. Under the **Create test plan** tab, provide the following details, and click **Next**:
-   * **Test plan name**: Enter the name of the test plan.
-   * **Description** (optional): Enter a clear and precise description to describe the test plan you are creating.
-   * **Testing type**: You can choose either **Automated testing** or **Manual testing** for your test plan.
-   * **Labels** (optional): You can add labels to your test plan. This is useful for test management and identification of test cases.
-   ![test plan details](https://s3.amazonaws.com/static-docs.testsigma.com/new_images/test-management/test-plans/overview/create_testplan_page.png)
-4. To add test suites to the test plan, click **Add Test Suites**.
-![Add test suites](https://s3.amazonaws.com/static-docs.testsigma.com/new_images/test-management/test-plans/overview/add_test_suites.png)
-6. On the **Selected Test Suites** window:
-    1. Click the toggle **Enable End-To-end Testing**,if you want to test your application from start to end from the end user’s experience by simulating the real user scenario.
-       1. If you choose to enable end to end testing select **Project** from the dropdown menu, to see the associated test suites.
-       2. Select the test suites from the **Available Test Suites** list.
-       3. Click **>>Add Selected**, to add the selected test suites to the test plan.
-7. Click **Add**.
-![Add available test suites](https://s3.amazonaws.com/static-docs.testsigma.com/new_images/test-management/test-plans/overview/selected_test_suites_window.png)
-8. To select the environment to run the test suite against, select **Add Machine**.
-   1. To run individual test suites on multiple environments, click **+Add Machine**,associated with each test suites.
-9. You can either choose to create a new machine or choose to run the test suit .
-   1. Select **Create New Machine**, to create a new machine.
-   2. Select **Add to Existing Machine**, to run the test suite on an existing machine.
-10. If you have selected **Create New Machine**, on the **Add Machine** pane:
-1. Provide the following details:
-      1. **Name**: Name of the test environment should be a minimum of 4 characters.
-      2. **Test Lab Type**: This option allows you to select the test lab your test suites are executed on. This includes your local device, the test lab plugins installed or the Testsigma cloud infrastructure. The test lab plugins include BrowserStack, Sauce Labs, Lambda Test, and so on.
-      3. **Prerequisites**: This is a condition or set of conditions to be met for the test suite to be executed.
-      4. **Operating System**: Select the operating system to run the test suits.
-      5. **OS Version**: Select the operating system version.
-      6. **Browser**: Select the browser.
-      7. **Browser version**: Select the browser version.
-      8. **Resolution**: Select the resolution of the device.
-      9. **Backup Devices**: Add backup devices for test execution. When the primary device is unavailable, Testsigma will use the backup device. Note that for mobile applications when you add a new machine for a test suite, by default - the test cases will run in parallel.![Add machines](https://s3.amazonaws.com/static-docs.testsigma.com/new_images/test-management/test-plans/overview/add_machine_or_device.png)<br> To add backup devices for sequential executions click on **Settings** icon on the top right corner. Uncheck the checkbox **Run test cases inside the test suites in parallel** option.![serial execution](https://s3.amazonaws.com/static-docs.testsigma.com/new_images/test-management/test-plans/overview/test_cases_serial_executions.png)<br>
-      [[info | **NOTE**:]]
-      |Back up devices are available for only mobile application - iOS, Android, and mobile web applications. 
-13. Click **Next**.
-14. Under **Test Plan Settings**,
-    1. Specify notification settings: Select the instances when the notifications are to be sent. For example, when the test suites executions have been *Passed*, *Aborted*, *Queued*, *Stopped* and so on.
-       1. Specify the email to which the notifications have to be sent. If the collaboration plugins such as Google Chat, Slack, or MS Teams have been enabled the notifications will be sent to the associated accounts.
-       ![Notification settings](https://s3.amazonaws.com/static-docs.testsigma.com/new_images/test-management/test-plans/overview/add_my_email.png)
-    3. Specify additional settings: Click **Additional Settings**, to expand the additional settings section.Under **Additional Settings** section,
-       1. Specify the **Page Load Timeout** in the text field provided.
-       2. Specify the **Element Timeout** in the text field provided.
-       3. Select the **Environment**.
-       4. Specify the instances to record the screen shots. For example, you can either choose to capture screen shots for **All Tests**, or capture screen shots only for **Failed Steps**.
-    4. Specify recovery actions: Click **Recovery Actions**, to expand the recovery actions section and specify the recovery actions to be performed.
-    ![Additional settings and recovery actions](https://s3.amazonaws.com/static-docs.testsigma.com/new_images/test-management/test-plans/overview/additional-settings-and-recovery-actions.png)
-15. Click **Create**. You have now successfully created a test plan.
-
-## **List test plans**
-
-If you have already created one or more test plans, then you can see them listed on the **Test Plans** page. You can see them in **Test Development > Test Plans**.
-
-A sample test plans page list would look like this:
-
-![Test Plans Page in Testsigma](https://s3.amazonaws.com/static-docs.testsigma.com/new_images/test-management/test-plans/overview/test_plan_list.png)
-On the Test Plans page, you will have the below options:
-
-1. **Search option on the top right:**  To search for a test plan by name, use this. The search will filter all the test plan names that contain your search query.
-
-2. **Refresh Button:** Click on the refresh button on the top right corner of the page to reload the list of test plans being displayed.
-
-3. **+Test Plan Button:** Click on the **+Test Plan** button on the top right corner of the page to start creating a new Test Plan.
-
-4. **Sort:** Click on the **Sort** button — the button next to the **+Test Plan** button—on the top right to sort the list of test plans according to your preference.
-
-![sort option on Test Plans page on Testsigma](https://s3.amazonaws.com/static-docs.testsigma.com/new_images/test-management/test-plans/overview/sort_test_plan_list.png)
-
-You can sort the list on ascending or descending order based on the below fields:
-
-* Name<br>
-* Type<br>
-* Status<br>
-* Created Date<br>
-* Updated Date<br>
-
-&emsp;
-
-5. **Filter:** Click on the **Filter** button - the button next to sort button on the top right. A 'Filters' layover, as shown in the screenshot below, appears.
-
-![Filters Layover in Test Plans Page in Testsigma](https://s3.amazonaws.com/static-docs.testsigma.com/new_images/test-management/test-plans/overview/filter_test_case_list.png)
-
-You can filter the test plans based on the below options:
-
-* Name
-
-* Test Case Name
-
-* Created By
-
-* Status
-
-* Created Date
-
-* Updated Date
-
-* Last Run Date
-
-* Labels
-
-&emsp;
+Before using a Test Plan, you must understand specific concepts, such as creating [Projects](https://testsigma.com/docs/projects/overview/), [Test Cases](https://testsigma.com/docs/test-cases/manage/add-edit-delete/) and [Test Suites](https://testsigma.com/docs/test-management/test-suites/overview/).
 
 ---
 
-## **Edit test plan**
+## **Listing Test Plans**
 
-On the **Test Plans page**, click on a test plan name to open the details page for that test plan. A sample test plan details page will be as shown below:
-
-![Test Plan details page in Testsigma](https://s3.amazonaws.com/static-docs.testsigma.com/new_images/test-management/test-plans/overview/test_case_details.png)
-
-1. Click on the **Edit** button on the top right corner to edit the test plan configurations.
-
-2. The **Edit Test Plan** page opens, as shown below:
-
-![edit test plan page in Testsigma](https://s3.amazonaws.com/static-docs.testsigma.com/new_images/test-management/test-plans/overview/edit_test_plan_details.png)
-
-3. Make the necessary changes and click on the **Update** button that would appear on the last tab **Test Plan Settings**. This would finalize your changes.
-
-&emsp;
+1. Navigate to **Test Plans** in the left-side navbar.
+2. You can easily manage test suites on the **Test Plans** List page by **sorting**, **filtering**, or **searching**. The page displays test plans with **titles**, **types**, **actions**, **test labs** and **test machines**.
+3. Click the **Schedules** tab on the Test Plan List page to view test plan schedules.
+4. Click on the **Refresh** button on the top right corner of the Test Plan list page to reload the list of test plans being displayed.
+5. Click **Create Test Plan** in the top right corner of the Test Plan list page. ![Test Plan List Page](https://s3.amazonaws.com/static-docs.testsigma.com/new_images/projects/applications/listingtestplan.gif)
 
 ---
 
-## **Delete test plan**
+## **Creating a Test Plan**
 
-1. On the test plan details page for a particular execution, click on the **Delete** button on the top right corner near the Edit button, as also shown in the screenshot below:
+1. Navigate to **Test Plans** in the left-side navbar. Click the **Create Test Plan** button in the top right corner of the Test Plans List page.
+2. In the **Basic Details** tab, provide the following details and then click **Continue**:
+    - **Name** (Required): Enter the Test Plan's title in the **Name** field on the **Basic Details** page.
+    - **Description**: Enable the toggle for **Description** and briefly explain the Test Plan's purpose and scope. This helps your team understand what the Test Plan aims to do.
+    - **Labels**: You can label the Test Plan. Labels make it easier to manage multiple Test Plans, as they help with sorting and grouping.
+    - **Test Plan Type**: Select either the test plan type: **Cross Browser Testing** (Use single/ multiple browsers to test all the test suites; for more information, refer to [Cross Browser Testing](https://testsigma.com/docs/test-management/test-plans/cross-browser-testing/)) or **Custom Test Plan** (Manually add test machine profiles to individual test suites).
+3. In the **Add Test Suites & Link Machine Profiles** tab, provide the following details and then click **Continue**:
+    - Click **Add Test Suites** to include test suites in the test plan (for more information, refer to [Manage Test Suites in Test Plan](https://testsigma.com/docs/test-management/test-plans/manage-test-suites/)).
+    - Next, click the **Test Machine** icon to add machine profiles to the test plan. An overlay will appear, and you can select a pre-defined machine or create a new test machine. Once you have selected, click **Save Selection** (for more information, refer to [Manage Test Machines in Test Plan](https://testsigma.com/docs/test-management/test-plans/manage-test-machines/)).
+4. In the **Test Plan Settings** tab, provide the following details, and click **Create**:
+    - **Send Notification**: Enable the toggle for Send Notification and specify when to receive the notifications (for example, select to receive notifications when your test plans are **Passed**, **Failed**, **Not Executed**, **Queued**, **Stopped**, or **Running**. You can enter the emails or check the box to **Add my email** for receiving notifications through email. Messages can also be sent to collaboration tools like Google Chat, Slack, or MS Teams.
+    - **Additional Settings**: Provide the following details under additional settings:
+        - **Environment**: Select the test environment.
+        - **Screenshot Capture**: Select when the screenshots need to be taken, for **None**, **All Steps** or **Failed Steps alone**.
+        - **Page Timeout**: Duration for which the test should wait for the page to load.
+        - **Element Timeout**: Duration for which the test should wait for the element to load.
+    - **Recovery Actions**: Click **Recovery Actions** to open the recovery actions section and define what actions should happen.
+    - **Post Plan Hook**: Select the Post Plan Hook and define actions or tasks to be performed once the test plan is executed and conditions are met (for more information, refer to [Post Plan Hook](https://testsigma.com/docs/test-management/test-plans/post-plan-hook/)).
+![Create Test Plan](https://s3.amazonaws.com/static-docs.testsigma.com/new_images/projects/applications/creatinga_testplan.gif)
 
-![delete button on Test Plan details page in Testsigma](https://s3.amazonaws.com/static-docs.testsigma.com/new_images/test-management/test-plans/overview/delete_test_plan.png)
+---
 
-2. We will get a confirmation dialog to confirm the deletion. Select the checkbox and click on the **Delete** button to confirm the deletion.
+## **Editing a Test Plan**
+
+1. Navigate to **Test Plans** in the left-side navbar. Locate the **Test Plan** you want to edit in the list.
+2. Click the **Edit** icon at the top right on the Test Plan details page, and the **Edit Test Plan** page will appear. You should follow the steps in the [Creating a Test Plan](https://testsigma.com/docs/test-management/test-plans/overview/#creating-a-test-plan) section to update the test plan. ![Edit Test Plan in Edit Test Plan](https://s3.amazonaws.com/static-docs.testsigma.com/new_images/projects/applications/editinga1_testplan.gif)
+3. Alternatively, you can edit the test plan on the Test Plan details page:
+    - **Test Plan Info**: Click **Test Plan Info** in the right-side navbar. You can change the Test Plan **Name** and **Description** here and view details about when it was created and last updated.
+    - **Test Plan Settings**: Click **Test Plan Settings** in the right-side navbar to update the **Test Plan Type**, **Send Notification**, **Additional Settings**, **Recovery Actions**, and **Post Plan Hook**.
+     [[info | NOTE:]]
+     | You cannot switch the test plan type once you have set up Test Machines.
+    - **Activity**: Click **Activity** in the right-side navbar to view the **History** and **Comments** related to the test plan.
+![Edit Test Plan in Test Plan details page](https://s3.amazonaws.com/static-docs.testsigma.com/new_images/projects/applications/editinga2_testplan.gif)
+4. In the **Test Machine & Suites** tab, you can view **Machine Name**, **Configuration**, **No of Suites**, **Parallel Settings** and **Session Settings** on the Test Suites details page.
+    - Click the **ellipsis** icon and select **Edit** or **Delete** to manage the Test Machine.
+    - **Toggle** the Test Machine switch in the test plan to turn the test machine on or off.
+    - Click the **Search** icon to search for a test machine in the test plan, and then click **Add Machine** to add a new Test Machine to the plan (for more information, refer to the [Manage Test Machines](https://testsigma.com/docs/test-management/test-plans/manage-test-machines/)).
+5. In the **CI/CD Integrations** tab, view **Default Integrations tools** and **Rest API to integrate with other tools** (for more information, refer to the [Integrations](https://testsigma.com/docs/integrations/overview/)).
+6. In the **Schedules** tab, view **Test Plan Schedules**, and you can edit and delete the schedules (for more information, refer to the [Schedule Test Plans](https://testsigma.com/docs/test-management/test-plans/schedule-plans/)). ![Manage Test Plan](https://s3.amazonaws.com/static-docs.testsigma.com/new_images/projects/applications/manage_testplan.gif)
+
+---
+
+## **Deleting a Test Plan**
+
+1. Navigate to **Test Plans** in the left-side navbar. Locate the **Test Plan** you want to delete from the list.
+2. Click the **Delete** button in the top right corner of the Test Plan details page.
+3. A **Delete Confirmation** pop-up will appear. To delete the Test Plan, you need to confirm the deletion by entering **DELETE** and then clicking on **I understand, delete this Test Plan**. ![Delete Test Plan](https://s3.amazonaws.com/static-docs.testsigma.com/new_images/projects/applications/deleting_a_testplan.gif)
+
+[[info | NOTE:]]
+| If you delete the Test Plan, you will lose all Schedules, Run reports and configurations associated with it.
+
+---
