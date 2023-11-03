@@ -107,7 +107,7 @@ Testsigma Agent is a microservice that processes test case data and runs tests o
   - Open a command prompt<br>
   - Navigate to the extracted folder<br>
 - Run start\_nginx.bat to start Nginx<br>
-- If you want to stop nginx at any point   in time then, run the  start\_nginx.bat script <br>
+- If you want to stop nginx at any point in time then, run the stop\_nginx.bat script <br>
 
 ####**Starting API Server:**<br>
 - Open a command prompt<br>
