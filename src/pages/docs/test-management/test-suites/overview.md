@@ -1,6 +1,6 @@
 ---
 title: "Test Suites"
-page_title: "Test Suites Management - Streamline Testing with Testsigma"
+page_title: "Test Suites Management to Streamline Testing"
 metadesc: "Learn how to create, edit, manage, and run test suites in Testsigma. This documentation helps you organise test cases and make test execution more efficient."
 noindex: false
 order: 8.11

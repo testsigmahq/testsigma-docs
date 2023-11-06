@@ -1,6 +1,6 @@
 ---
 title: "Test Plans"
-page_title: "Test Plans Management - Streamline Testing with Testsigma"
+page_title: "Streamline Test Plans Management for Efficiency"
 metadesc: "Organise your testing efficiently with Test Plans in Testsigma. You can easily create, edit, delete, and manage test plans for high-quality software."
 noindex: false
 order: 8.21
