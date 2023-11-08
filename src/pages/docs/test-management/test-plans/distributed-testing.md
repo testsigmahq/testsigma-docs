@@ -14,7 +14,7 @@ contextual_links:
   url: "#prerequisites"
 - type: link
   name: "Steps to Create Distributed Testing"
-  url: "#steps-to-enable-distributed-testing"
+  url: "#steps-to-create-distributed-testing"
 ---
 
 
@@ -42,7 +42,7 @@ Distributed testing is achieved in Testsigma by splitting up test plan execution
 
 ---
 
-## **Steps to enable distributed testing**
+## **Steps to Create Distributed Testing**
 
 1. Navigate to **Test Plans** and click on **Create Test Plan**.
 
