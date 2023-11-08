@@ -1,29 +1,53 @@
 ---
-title: "Test execution state is Queued for a long time"
-metadesc: "Understand why your test execution state may be stuck in Queued state for an extended period | Know the possible reasons and solutions to resolve the issue"
+title: "Test Execution State is Queued for a Long Time"
+metadesc: "Understand why your test execution state may be stuck in Queued state for an extended period | Know the possible reasons why  your test execution is Queued"
 noindex: false
 order: 23.6
 page_id: "Troubleshooting “Test execution state is Queued for a long time” error"
 warning: false
+contextual_links:
+- type: section
+  name: "Contents"
+- type: link
+  name: "Steps to Troubleshoot the Issue"
+  url: "#steps-to-troubleshoot-the-issue"
+---
+
 ---
 
 
+If the execution status for your tests has been in the state **Queued** for a long time then, one of the possible reasons is that the number of total parallel runs allowed on your license are already in use. 
 
-If the execution status for your tests has been in the state "Queued" for a long time then, one of the possible reasons is that the number of total parallel runs allowed on your license are already in use. To check if this is the issue, follow below steps:
-1. Click on the "Usage Details" button on the Left Navigation Menu, as also highlighted in the screenshot below:
 
-![Usage details button](https://s3.amazonaws.com/static-docs.testsigma.com/new_images/troubleshooting/web-apps/test-execution-queued-for-a-long-time/usage-details-button.png)
+---
 
-2. Check the number of Parallel Tests. 
+## **Steps to Troubleshoot the Issue**
 
-![parallel tests usage](https://s3.amazonaws.com/static-docs.testsigma.com/new_images/troubleshooting/web-apps/test-execution-queued-for-a-long-time/parallel-tests-usage.png)
+1. On **Dashboard**, click on **Usage details**.
 
-In this screenshot, 3/5 means - 3 tests are running in parallel and 5 is the number of parallel runs allowed at a moment.
+![Dashboard](https://s3.amazonaws.com/static-docs.testsigma.com/new_images/projects/applications/udtails.png)
 
-3. If the number of parallel runs is equal to the number of parallel licenses for your Testsigma account then you can take following actions to fix the issue:
-	i. You can wait for other tests to complete execution.
-	ii. You can talk to Testsigma support to increase the number of parallel runs allowed on your license.
-	iii. You can click on the name of the test displayed in the Usage Details window and check its details. This can only be done if you have access to the test case.
-	 ![parallel run name](https://s3.amazonaws.com/static-docs.testsigma.com/new_images/troubleshooting/web-apps/test-execution-queued-for-a-long-time/parallel-run-name.png)
+2. Check the number of **Parallel Tests**.
 
-	iv. If you have appropriate rights, you can also stop the execution of one of the test cases by clicking on the corresponding stop button. 
+![Parallel Tests](https://s3.amazonaws.com/static-docs.testsigma.com/new_images/projects/applications/udparalleltests.png)
+
+
+Here, we have a license for 3 parallel executions & 3 allowed queues. We can set up a maximum of 3 test runs to run in parallel, which means executing up to 3 tests simultaneously. In addition to the 3 tests running in parallel, you can have up to 3 tests in the queue. The queued tests will execute once the ongoing parallel executions are complete.
+
+In the above example, we have **Parallel Tests 2/3**, which means 2 tests are running in parallel, and 3 is the number of parallel runs allowed at a moment.
+
+3. Suppose the number of parallel runs is equal to the number of parallel licenses for your Testsigma account. In that case, the tests in the queue will remain in the same status until the parallel test runs are completed. 
+
+
+**You can take the following actions to fix the issue:**  
+
+- You can wait for other tests to complete execution. 
+
+- You can connect with Testsigma support (**support@testsigma.com**) to increase the number of parallel runs allowed on your license.
+
+<br>
+
+Here’s the GIF demonstrating how to check the usage details in Testsigma.
+![Workflow GIF](https://s3.amazonaws.com/static-docs.testsigma.com/new_images/projects/applications/UsageDetails.gif)
+
+---

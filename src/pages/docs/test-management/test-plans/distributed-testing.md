@@ -1,51 +1,88 @@
 ---
-title: "Distributed testing"
+title: "Distributed Testing"
 page_title: "Distributed Testing in Testsigma"
 metadesc: "Improve your testing efficiency with Testsigma's distributed testing. Learn how to execute tests across multiple machines and increase test coverage quickly."
 noindex: false
 order: 8.27
-page_id: "Distributed Testing "
+page_id: "Distributed Testing"
 warning: false
 contextual_links:
 - type: section
-  name: "Contents" 
+  name: "Contents"
 - type: link
-  name: "Steps to enable distributed testing"
+  name: "Prerequisites"
+  url: "#prerequisites"
+- type: link
+  name: "Steps to Create Distributed Testing"
   url: "#steps-to-enable-distributed-testing"
+---
+
 
 ---
 
+
+Distributed testing means that a test scenario is segmented into several parts, and each of them is performed on a separate machine, either sequentially or in parallel. It also suggests that the test parts interact with each other during a test run, which makes them coordinated and synchronized.
+
+This type of testing is generally used to test distributed software — systems with components that run on different machines and interact with each other, such as a client-server system or an internet-based application web or intranet sites, with significant functional units running in multiple locations.
+
+The goal of distributed testing is to know how different components of the system interact with each other. While multiple computers will run simultaneously during the test, each one will be running a different application component and playing a different role.
+
+Distributed testing is achieved in Testsigma by splitting up test plan execution across multiple machines. To do this, Testsigma lets you select different test suites for each selected test machine, where each test suite encompasses one or more components of the application.
+
 ---
 
-*Distributed testing* means that a test scenario is segmented into several parts and each of them is performed on a separate machine either sequentially or in parallel. It also suggests that the test parts interact with each other during a test run which make them coordinated and synchronized. 
 
-This type of testing is generally used to test distributed software — systems with
-components which run on different machines, and interact with each other,
-such as a client-server system, or an Internet-based application web or intranet sites, with major
-functional units running in multiple locations.
+## **Prerequisites**
 
-The goal of distributed testing is to know how different components of the system interact with each other. While multiple computers will be running simultaneously during the test, each
-one will be running a different component of the application, and will be
-playing a different role.
+- You should know [how to create a test suite](https://testsigma.com/docs/test-management/test-suites/overview/#creating-a-test-suite).
 
-Distributed testing is achieved in Testsigma by splitting up test plan execution across multiple machines. To do this, Testsigma lets you select different test suites for each selected test machine where each test suite encompasses one or more component of the application.
+- You should know [how to create a test plan](https://testsigma.com/docs/test-management/test-plans/overview/#steps-to-create-a-test-plan).
 
-<br>
+- You should know [how to manage test machines](https://testsigma.com/docs/test-management/test-plans/manage-test-machines/).
+
+---
 
 ## **Steps to enable distributed testing**
 
+1. Navigate to **Test Plans** and click on **Create Test Plan**.
 
-1. Navigate to **Test Machines & Suites Selection** under the **Create test plan** form.  *If you are not familiar with creating a test plan, refer to [add, edit,delete a test plan](https://testsigma.com/docs/test-management/test-plans/overview/)*.
+![Test Plan](https://s3.amazonaws.com/static-docs.testsigma.com/new_images/projects/applications/ditenav.png)
 
-2. Under the **Test machines & suites selection** tab,select the test suite for which you want to add the test machine for test execution. *For more information refer to [adding test suites](https://testsigma.com/docs/test-management/test-plans/manage-test-suites/)*
+2. On the **Create Test Plan** page, select **Custom test plan** from **Test Plan Type**.
 
-3. Once you have selected the test suites, select the test machines to run the coressponding test suite. *For more information refer to [add test machines](https://testsigma.com/docs/test-management/test-plans/manage-test-machines/)*.
-[[info | Note:]]
-|To enable distributed testing you have to select different test suites for different test machines. 
+![Create Test Plan](https://s3.amazonaws.com/static-docs.testsigma.com/new_images/projects/applications/ditecustomtp.png)
 
-See the below GIF to understand the workflow to enable distributed testing:![distributed testin](https://s3.amazonaws.com/static-docs.testsigma.com/new_images/test-management/test-plans/distributed-testing/distributed_testing.gif)
+3. Click on **Add Test Suites & Link Machine Profiles**.
+
+![Link Machines](https://s3.amazonaws.com/static-docs.testsigma.com/new_images/projects/applications/ditelmachines.png)
+
+4. Click on **Add Test Suites**.
+
+![Add Test Suites](https://s3.amazonaws.com/static-docs.testsigma.com/new_images/projects/applications/diteaddts.png)
+
+5. Select test suites and click on **Add to Plan**.
+
+![Add to Plan](https://s3.amazonaws.com/static-docs.testsigma.com/new_images/projects/applications/diteatp.png)
+
+6. Click on **Test Machine** to add test machines to run the test suite. 
+
+![Add Machines](https://s3.amazonaws.com/static-docs.testsigma.com/new_images/projects/applications/ditemachines.png)
+
+7. On **Select test machine profiles** overlay, select test machines and click on **Save selections**. 
+
+![Overlay](https://s3.amazonaws.com/static-docs.testsigma.com/new_images/projects/applications/ditetmoverlay.png)
+
+[[info | **NOTE**:]]
+| For distributed testing, you must select different test suites for different test machines. You can hover over the test suite and click on the test machine corresponding to it to add a different test machine to the test suite. 
+
+8. Go to **Test Plan Settings** and click on **Create**. 
+![Create](https://s3.amazonaws.com/static-docs.testsigma.com/new_images/projects/applications/ditecocreate.png)
 
 
+<br>
 
+Here’s a quick GIF demonstrating how to create distributed testing in Testsigma.
 
+![Distributed Testing](https://s3.amazonaws.com/static-docs.testsigma.com/new_images/projects/applications/DistributedTesting.gif)
 
+---
