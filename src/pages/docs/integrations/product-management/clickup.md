@@ -1,6 +1,6 @@
 ---
 title: "Integrate Testsigma with Clickup"
-metadecs: "How to integrate Testsigma with Clickup for real-time bug reporting during Test Runs | Push bugs directly from Testsigma to your Clickup project" 
+metadecs: "Learn how to integrate Testsigma with Clickup for real-time bug reporting during Test Runs | Push bugs directly from Testsigma to your Clickup project" 
 order: 16.55
 page_id: "Clickup"
 warning: false
@@ -28,7 +28,7 @@ To integrate Clickup with Testsigma, you need the following:
 - **API Key:** API Token from Clickup. 
 
 [[info | **NOTE**:]]
-|*For more information on how to create API token in Clickup, refer to Clickup [personal API key](https://help.clickup.com/hc/en-us/articles/6303426241687-Getting-Started-with-the-ClickUp-API).*
+| *For more information on how to create API token in Clickup, refer to Clickup [personal API key](https://help.clickup.com/hc/en-us/articles/6303426241687-Getting-Started-with-the-ClickUp-API).*
 
 ---
 
