@@ -1,6 +1,6 @@
 ---
 title: " Integrate Testsigma with AWS DevOps"
-metadecs: "How to integrate Testsigma with AWS DevOps" 
+metadecs: "This article discusses step-by-step instructions for integrating Testsigma application with AWS DevOps | Learn how to integrate AWS DevOps with Testsigma Application" 
 order: 12.15
 page_id: "Integrate Testsigma with AWS DevOps"
 warning: false
@@ -16,13 +16,16 @@ contextual_links:
 
 AWS services that are used as a part of CI/CD pipeline are:
 
-**CodeCommit:** AWS CodeCommit is a version control service that enables you to privately store and manage Git repositories in the AWS cloud.
-**CodeBuild:** CodeBuild compiles your source code, runs unit tests, and produces artifacts that are ready to deploy.
+**CodeCommit:** AWS CodeCommit is a version control service that enables you to privately store and manage Git repositories in the AWS cloud.<br>
+
+**CodeBuild:** CodeBuild compiles your source code, runs unit tests, and produces artifacts that are ready to deploy.<br>
+
 **CodeDeploy:** AWS CodeDeploy is a deployment service that enables developers to automate the deployment of applications to instances and to update the applications as required.
 
  
 ---
-##**AWS DevOps integration methods:**
+
+## **AWS DevOps integration methods:**
 
 Below are the 2 methods to integrate and trigger Testsigma tests via AWS DevOps:
 
@@ -114,3 +117,4 @@ That's all we need to automate Test Execution when a successful build is trigger
 
 
  
+---

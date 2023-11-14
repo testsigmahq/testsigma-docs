@@ -1,188 +1,99 @@
 ---
 title: "Test Suites"
-metadesc: "Learn how to create, edit, manage, and run test suites in Testsigma. This documentation helps you organize test cases and make test execution more efficient."
+page_title: "Test Suites Management to Streamline Testing"
+metadesc: "Learn how to create, edit, manage, and run test suites in Testsigma. This documentation helps you organise test cases and make test execution more efficient."
 noindex: false
 order: 8.11
-page_id: "Test Suites"
+page_id: "test-suites-management-testsigma"
 warning: false
 contextual_links:
 - type: section
   name: "Contents" 
 - type: link
-  name: "List Test Suites"
-  url: "#list-test-suites"
+  name: "Prerequisites"
+  url: "#prerequisites"
 - type: link
-  name: "Create Test Suite"
-  url: "#create-test-suite"
+  name: "Listing Test Suites"
+  url: "#listing-test-suites"
 - type: link
-  name: "Adding Test Cases to Test Suite"
-  url: "#adding-test-cases-to-test-suite"
+  name: "Creating a Test Suite"
+  url: "#creating-a-test-suite"
 - type: link
-  name: "Edit a Test Suite"
-  url: "#edit-a-test-suite"   
+  name: "Editing a Test Suite"
+  url: "#editing-a-test-suite"   
 - type: link
-  name: "Delete a Test Suite"
-  url: "#delete-a-test-suite"  
+  name: "Deleting a Test Suite"
+  url: "#deleting-a-test-suite"  
 ---
 
 ---
 
-The Test Suite is a set of Test Cases. It helps testers organize the Test Cases while executing and reporting the Test plan status, namely In progress, Aborted, Stopped, Not Executed, or Completed depending on the consolidated run result of the test cases in that particular test suite. A Test Case can be added to multiple Test Suites.
-
-### Navigation: Test Development > Test Suites
-
-&emsp;
+Organise your test cases into test suites based on common functionalities or scenarios to manage and execute them effectively. Test suites will help you in executing and reporting the test plan status. You can add a test case to multiple test suites. This document will provide an overview and guidelines to create, edit, delete, and list test suites in Testsigma.
 
 ---
-##**List Test Suites**
-On the Test Suites page, you will have the below options:
 
-1. **Search option on the top right:**  To search for a test suite by name, use this. The search will filter all the test suite names that contain your search query.
+## **Prerequisites**
 
-![Search Option in Test Suites Page in Testsigma](https://s3.amazonaws.com/static-docs.testsigma.com/new_images/test-management/test-suites/overview/search-option-in-test-suites-page-in-testsigma-updated.png)
-
-2. **Create Button:** Click on the create button on the top right corner of the page to start creating a new Test Suite. We will discuss more on it under the section “Create Test Suite”.
- 
-![Create button in nTest Suites Page in Testsigma](https://s3.amazonaws.com/static-docs.testsigma.com/new_images/test-management/test-suites/overview/create-button-in-test-suites-page-in-testsigma-updated.png)
-
-3. **Sort:** Click on the sort button—the button next to the create button—on the top right to sort the list of Test Suites according to your preference.
-
-![sort option on Test Suites page on Testsigma](https://s3.amazonaws.com/static-docs.testsigma.com/new_images/test-management/test-suites/overview/sort-option-test-suites-page-testsigma-updated.png)
-
-You can sort the list Ascending or Descending based on the below fields
-
-* Name
-  
-* Type
-
-* Status
-  
-* Created Date
-  
-* Updated Date<br>
-
-&emsp;
-
-4. **Filter:** Click on the filter button - the button next to sort button on the top right. A 'Filters' layover, as shown in the screenshot below, appears. 
-
-![Filters Layover in Test Suites Page in Testsigma](https://s3.amazonaws.com/static-docs.testsigma.com/new_images/test-management/test-suites/overview/filters-layover-test-suites-page-testsigma-updated.png)
-
-
-You can filter the Test Suites based on the below options:
-
-* Name
-
-* Test Case Name
-
-* Created By
-
-* Status
-
-* Created Date
-
-* Updated Date
-
-* Last Run Date
-
-* Labels 
-
-&emsp;
-4. **When you hover over a Test Suite Name, you will see options to Edit the Test Suite:** We will discuss this in detail in section “Edit Test Suite” Below.
-
-![edit test suite button in Testsigma](https://docs.testsigma.com/images/test-suites/edit-test-suite-button-testsigma.png)
-
-5.  **Delete The Test Suite:** We will discuss this in detail in the section “Delete Test Suite” Below.
-
-![delete test suite button in Testsigma](https://docs.testsigma.com/images/test-suites/delete-test-suite-button-testsigma.png)
-
-6. **Status:** In the status column you can see the recent run result for each test suite.
-
-7. **To see the details of an existing Test Suite, click on it from List View. An opened Test Suite Details page would look something like the screenshot below:**
-
-![Test Suite Details page in Testsigma](https://docs.testsigma.com/images/test-suites/test-suite-details-page-testsigma.png)
-
-More Test Cases can be added and removed from this page by clicking on the “Add Test Case” button.
- 
-&emsp;
+Ensure that you create [Test Cases](https://testsigma.com/docs/test-cases/manage/add-edit-delete/) in the Same [Project](https://testsigma.com/docs/projects/overview/) before you can manage test suites in Testsigma.
 
 ---
-##**Create Test Suite**
-Clicking on the Create button takes us to the Create Test Suite page as shown below
 
-![create tests suite page in Testsigma](https://docs.testsigma.com/images/test-suites/create-test-suite-page-testsigma.png)
+## **Listing Test Suites**
 
- 
-Enter the following details:
- 
-**Enter the Test Suite Name (Required):** Enter a name for the Test Suite you are creating.
+On the Test Suites List page, you will have the below options:
 
-**Description(Optional):** Enter a meaningful description for this requirement elaborating about it.
-
-**Automated/Manual radio button:** Select Automated / Manual depending on the type of Test Cases to be included in the Test Suite.
-
-**Prerequisite:** Select another Test Suite as a prerequisite to be included in a test plan with this Test Suite.
-
-**Select Test Cases:** Click on the button “+Add Test Cases” to add Test Cases to the Test Suite. A “Select Test Cases” overlay opens up where we need to select the Test Cases to be included in the Test Case.
-
-[[info | Note:]]
-|Please check the below section **Adding Test Cases to Test Suite** for more details on adding Test Cases.
-
-**Labels:** If needed, you can add labels to the test suite you are creating here. It should accept string values.
- 
-&emsp;
+1. Navigate to **Test Suites** in the left-side navbar.
+2. You can easily manage test suites on the **Test Suites** list page by **sorting**, **filtering**, or **searching**. The page displays test suites with **titles**, **types**, **creation dates**, **creators**, and **statuses**.
+3. Click **Create Test Suite** in the top right corner of the screen. ![Test Suites List Page](https://s3.amazonaws.com/static-docs.testsigma.com/new_images/projects/applications/listing_a_testsuite.gif)
 
 ---
-##**Adding Test Cases to Test Suite**
-A click on “+ Add Test Cases”, from the “Create Test Suite” Page Or from an existing test suite page will take you to “Select Test Cases” overlay on the the onTest Suites page, as shown below:
 
-![Select Test Cases Overlay to add test cases to test suites in Testsigma](https://docs.testsigma.com/images/test-suites/select-test-cases-overlay-test-suites-testsigma.png)
+## **Creating a Test Suite**
 
-The following options are present in the “Select Test Cases” overlay page: 
- 
-1. You can **filter** Test Cases using the drop-down fields **Requirement Name, Type, Priority, Created By, and Labels**
-   
-2. Filter the Requirements according to your needs and choose the Test Cases to be  included in the current Test Suite by selecting the check box next to the Test Case
+1. Navigate to **Test Suites** in the left-side navbar. Click the **Create Test Suite** button in the top right corner of the Test Suites List page. Provide below details to **Create Test Suite**:
+2. **Name(Required)**: Enter the **title** of the Test Suite in the Name field on the Create Test Suite page.
+3. **Description**: You can enable the toggle switch for the **Description** and provide a brief description explaining the test suite's purpose and scope. This will help your team members understand the objectives of the test suite.
+4. **Pre-Requisite**: Specify any **Pre-Requisite** for executing the test suite, such as specific test data, system configurations, or test environment setup.
+5. **Label**: You can assign a **Label** to the test suite. This will allow easier management of multiple test suites, as labels can be used for categorisation and filtering.
+6. **Add/Remove Test Cases**: Click the **Add/Remove Test Cases** button to add or remove test cases from the Test Suite. An **Add/Remove Test Case** overlay will appear, allowing you to select test cases from the **Available Test Case** list by checking the box next to them or clicking the **+** icon to select individual test cases.
+7. **Add to Suite**: Click the **>>** icon to move the desired test cases from **Available Test Case** to **Selected for Test Suite**. You can drag and drop the test cases to change their order in the Test Suite. Finally, add the selected test cases to the Test Suite by clicking the **Add to Suite** button. To remove test cases from the Test Suite, select them from **Selected Test Cases** and click the **<<** icon.
+8. **After Test Suite**: Enable the **AfterTest Suite** feature toggle switch, which enables you to define actions or test cases to execute after completing all test cases within the suite. You can use this feature to perform clean-up or post-test activities.
+    - **When to execute After Test Suite - Once After All Test Cases**: Select this option to execute the actions or test cases within the **After Test Suite** section only once after all the test cases have completed execution.
+    - **When to execute After Test Suite - For Every Test Case**: Select this option to execute the actions or test cases within the **After Test Suite** section for every individual test case within the suite after each test case is executed.
+    - **If After Test Suite fails - Fail the test suite**: Choose this option to mark the test suite as failed during execution if any of the actions or test cases within the **After Test Suite** section fails.
+    - **If After Test Suite fails - Show the test suite result**: Select this option to display the test suite result even if any of the actions or test cases within the **After Test Suite** section fail during execution.
+9.  **Add After Suite Test Cases**: You can add specific test cases within the After Test Suite section that will execute after completing all the other test cases in the suite. ![Create Test Suite](https://s3.amazonaws.com/static-docs.testsigma.com/new_images/projects/applications/creating_a_testsuite.gif)
 
-![select test cases overlay filters for Test Suites page in Testsigma](https://docs.testsigma.com/images/test-suites/select-test-cases-overlay-filters-testsigma.png)
-
-3. Add test cases to the “Selected Test Cases” section by clicking on “+” icon next to the test cases displayed in the “Available Test Cases” section
- 
-4. Once you have selected all the test cases you need to add to your test suite, click on the “Save” button to finalize the selection. Your Test Case would be selected and you can see the change in the Create Test Suite page.
-
-[[info | Note:]] 
-|You can also change the order of the test cases added in the test suite by drag-and-drop of the test cases.
- 
-A sample Test Suite with all the required details and Test Cases selected is shown below
-
-![create Test Suite page to add test cases in Testsigma](https://docs.testsigma.com/images/test-suites/create-test-suite-add-test-cases--testsigma.png)
-
-[[info | Note:]]
-|Under the ‘Selected Test Cases’ section, the order of the selected test cases can also be changed by simple drag and drop.
- 
-5. Click on the Create button to Create the Test Suite.
-
-&emsp;
+[[info | NOTE:]]
+| Carefully consider the order and dependencies between test cases when defining the After Test Suite section to ensure effectiveness and that it does not impact the subsequent test cases or cause environmental conflicts.
 
 ---
-##**Edit a Test Suite**
-To edit a test suite, click on the edit button next to the Test Suite name. Once the ‘Edit Test Suite’ page opens, you can follow the steps as mentioned in the Create Test Suite section above.
 
-&emsp;
+## **Editing a Test Suite**
+
+1. Navigate to **Test Suites** in the left-side navbar. 
+2. You can edit the test case using any of the following methods:
+    - Click on the **ellipsis** icon for the **Test Suite** you want to edit from the Test Suite List page, and select **Edit** from the drop-down menu. ![Edit Test Suite in Test Suite Details page](https://s3.amazonaws.com/static-docs.testsigma.com/new_images/projects/applications/edittestuite_listpage.png)
+    - Click the **Test Suite** you want to edit and open the Test Suite Details Page.
+3. You can view **Test Cases** and **Test Plans** linked to your Test Suite on the **Test Suites Details** page.
+4. Click the **Add/Remove Test Cases** button in the top right corner of the Test Suite details page. An **Add/Remove Test Case** overlay will appear, allowing you to select test cases from the **Available Test Case** list by checking the box next to them or clicking the **+** icon to select individual test cases.
+5. Click **Test Suite Settings** in the right-side navbar, and follow steps 4 & 8 in the [Creating a Test Suite](https://testsigma.com/docs/test-management/test-suites/overview/#creating-a-test-suite) section to add **Pre-Requisite**, **After Test Suite** for the Test Suite.
+6. Click **Test Suite Info** in the right-side navbar. You can update the Test Suite **Name**, **Type** and **Description** from there and view information about the Test Suite's creation and last update.
+7. Click **Activity** in the right-side navbar and view the **History** and **Comments** of test suite. ![Edit Test Suite](https://s3.amazonaws.com/static-docs.testsigma.com/new_images/projects/applications/edit_a_testsuite.gif)
 
 ---
-##**Delete a Test Suite**
-1. Hover over a Test Suite on the Tests Suites page and click on the “Delete button” next to the test suite name:
 
-![delete button on test suites page in Testsigma](https://docs.testsigma.com/images/test-suites/delete-button-test-suites-page-testsigma.png)
+## **Deleting a Test Suite**
 
-2. A confirmation dialog will open up, select the checkbox and click on Delete to confirm the deletion.
- 
-Your Test Suite will be deleted and you will be taken to the Test Suites page.
+1. Navigate to **Test Suites** in the left-side navbar.
+2. You can delete the test suite using any of the following methods:
+    - Click on the **ellipsis** icon for the **Test Suite** you want to delete from the Test Suite List page, and select **Delete** from the drop-down menu to remove the test suite. ![Delete Test Suite in Test Suite Details page](https://s3.amazonaws.com/static-docs.testsigma.com/new_images/projects/applications/deletetestuite_listpage.png)
+    - Click the **Test Suite** you want to delete and open the Test Suite Details Page. Then, click the **Delete** Button in the screen's top right corner.
+[[info | NOTE:]]
+| Note: If you attempt to delete a Test Suite linked to a Test Plan, the application will display a warning and prevent the deletion. You must remove the Test Suite from the associated Test Plans before trying to delete it again.
+3. A **Delete Confirmation** pop-up will appear. To delete the Test Suite, you need to confirm the deletion by entering **DELETE** and then clicking on **I understand, delete this Test Suite**. ![Delete Confirmation](https://s3.amazonaws.com/static-docs.testsigma.com/new_images/projects/applications/deleting_a_testsuite.gif)
 
+[[info | NOTE:]]
+| If you delete the Test Suite, you will lose all Run reports and Run configuration associated with it.
 
-
-
- 
-
-
-
+---

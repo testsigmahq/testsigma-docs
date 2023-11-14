@@ -1,6 +1,6 @@
 ---
 title: "Integrate Testsigma with Github"
-metadecs: "This document describes detailed step-by-step instructions for integrating Testsigma with Github | Learn how to integrate Github with Testsigma" 
+metadecs: "This article discusses step-by-step instructions for integrating Testsigma application with Github | Learn how to integrate Github with Testsigma Application" 
 order: 12.21
 page_id: "github-cicd"
 warning: false
@@ -19,6 +19,7 @@ contextual_links:
 When you want to automate, customize, and, execute your software development workflows right in your github repository, you need to use github actions. In this document, we will discuss how to integrate Github with Testsigma for CI/CD purposes.
 
 ---
+
 ## **Pre-requisites:**
 You should already know:
  1. The basics of github actions. If not, please refer here: [Quickstart with github actions](https://docs.github.com/en/actions/quickstart)
@@ -26,6 +27,7 @@ You should already know:
  2. [How to get Test Plan ID from an existing Test Plan.](https://testsigma.com/docs/continuous-integration/get-test-plan-details/)
 
 ---
+
 ## **For Github CICD Integration:**
 
 To start with Github Actions, create a .github/workflows directory in your repository on GitHub if this directory does not already exist.
