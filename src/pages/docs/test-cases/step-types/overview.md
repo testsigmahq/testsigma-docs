@@ -1,7 +1,7 @@
 ---
 title: "Test Step Types - Overview"
-pagetitle: "There are test step types that logically simulate user interactions on a web/android/iOS screen. This article discusses test step types available in Testsigma"
-metadesc: "What are Test Step types in Testsigma and how to create and use them"
+pagetitle: "Test Step Types"
+metadesc: "There are test step types that logically simulate user interactions on a web/android/iOS screen. This article discusses test step types available in Testsigma"
 noindex: false
 order: 4.22
 page_id: "Test Step Types - Overview"
