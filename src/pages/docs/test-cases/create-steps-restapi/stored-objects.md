@@ -3,7 +3,7 @@ title: "Stored Objects"
 page_title: "Stored Objects"
 metadesc: "Stored objects refer to the data that is stored in the database and is used to test the API. Learn about Stored Objects in RESTful API in Testsigma"
 noindex: false
-order: 4.692
+order: 4.992
 page_id: "Stored Objects"
 search_keyword: ""
 warning: false

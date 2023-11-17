@@ -3,7 +3,7 @@ title: "Store Variables"
 page_title: "Store Variables"
 metadesc: "tored variables are variables that are used to store data from a response body or response headers | Learn about Store Variables in Testsigma"
 noindex: false
-order: 4.68
+order: 4.98
 page_id: "Store Variables"
 search_keyword: ""
 warning: false
