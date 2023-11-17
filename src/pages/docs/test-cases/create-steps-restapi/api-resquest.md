@@ -3,7 +3,7 @@ title: "API Request"
 page_title: "Add API Request in RESTful API in Testsigma"
 metadesc: "Add API Request in RESTful API | Run your request with the help of the URL, method, and other optional values such as parameters, body, headers, and authorization"
 noindex: false
-order: 4.62
+order: 4.92
 page_id: "Add API Request in RESTful API"
 search_keyword: ""
 warning: false

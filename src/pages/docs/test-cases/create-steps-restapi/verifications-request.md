@@ -1,9 +1,9 @@
 ---
-title: "Verifications "
+title: "Verifications"
 page_title: "Verifications Request"
 metadesc: "Check whether the Rest API is functioning correctly by adding verification and assertions. Learn about Verifications Request in Testsigma"
 noindex: false
-order: 4.67
+order: 4.97
 page_id: "Verifications Request"
 search_keyword: ""
 warning: false
