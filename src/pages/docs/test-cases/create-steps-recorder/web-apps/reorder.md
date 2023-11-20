@@ -33,6 +33,7 @@ You can reorder the test steps you record in a test case. Here’s how.
 &emsp;
 
 ---
+
 ##**Reordering recorded test steps in a Web Project:**
 
  1. Create a Test Case using Test recorder with multiple test steps.

@@ -28,8 +28,8 @@ contextual_links:
   name: "View Saved Element Filters"
   url: "#view-saved-element-filters"
 - type: link
-  name: "Update Saved Element Filter"
-  url: "#update-saved-element-filter"
+  name: "Reusing Saved Elements"
+  url: "#reusing-saved-elements"
 ---
 
 ---
@@ -95,3 +95,8 @@ You can use user-defined custom fields and the default fields to filter elements
 
 ---
 
+## **Reusing Saved Elements**
+
+Once you create and add elements to a test case, they are saved in the corresponding project in Testsigma. You can reuse these elements in new test steps in the same project. 
+
+---
