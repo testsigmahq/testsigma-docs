@@ -3,7 +3,7 @@ title: "Bulk Actions"
 pagetitle: "Manage test steps efficiently with bulk actions in Testsigma."
 metadesc: "Streamline your testing process by using Testsigma's Bulk Actions feature to perform actions like selecting all, updating settings, creating blocks, and more in bulk."
 noindex: false
-order: 4.63
+order: 4.613
 page_id: "Bulk Actions"
 warning: false
 contextual_links:

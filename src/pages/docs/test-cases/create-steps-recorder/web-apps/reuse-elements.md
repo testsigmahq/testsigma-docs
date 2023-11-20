@@ -35,7 +35,7 @@ When you record elements via Test recorder chrome extension, they are saved as e
 &emsp;
 
 ---
-##**Reusing elements recorded via the Testsigma test recorder chrome extension:**
+## **Reusing elements recorded via the Testsigma test recorder chrome extension:**
 
  1. Create a new test case in the same Project.
  2. Start recording the test steps.

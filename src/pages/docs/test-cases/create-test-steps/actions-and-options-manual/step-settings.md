@@ -3,7 +3,7 @@ title: "Test Step Settings"
 page_title: "Test Step Settings | Testsigma Documentation"
 metadesc: "Configure wait times, retries, visuals, and other settings for efficient test automation in Testsigma using Test Step Settings and customise test execution."
 noindex: false
-order: 4.62
+order: 4.612
 page_id: "test-step-settings-testsigma"
 warning: false
 contextual_links:

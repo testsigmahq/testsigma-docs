@@ -20,6 +20,12 @@ contextual_links:
 - type: link
   name: "Steps to Create an Element From the Test Case Result Page"
   url: "#steps-to-create-an-element-from-the-test-case-result-page"
+- type: link
+  name: "Updating elements via Test recorder"
+  url: "#updating-elements-via-test-recorder"
+- type: link
+  name: "Reusing elements recorded"
+  url: "#reusing-elements-recorded"
 ---
 
 ---
@@ -102,5 +108,60 @@ Here’s a quick GIF demonstrating how to create an element from the Elements pa
 
 ---
 
+## **Updating elements via Test recorder**
+
+ 1. Create a Test Case using the Test recorder. 
+ 2. Click on the element/Elements that you want to edit. The Elements appear in green on the Test recorder UI. 
+
+![Highlighted example Elements in Test recorder](https://docs.testsigma.com/images/update-elements/highlighted-example-Elements-testsigma-recorder.png)
+
+ 3. Click ‘edit Elements’ from the three dots on the far right
+
+![Multiple options on the edit Elements screen window in Test recorder](https://docs.testsigma.com/images/update-elements/edit-Element-screen-multiple-options-testsigma-recorder.png)
+
+These are the fields that will appear:
+
+ * **Name**
+ * **Screen Name**
+ * **Identifier Type**: This is a drop-down field that has values:
+   1. Xpath
+   2. CSS Selector
+   3. ID
+   4. Name
+   5. Link Text
+   6. Partial Link Text
+   7. Class Name
+   8. Tag Name
+
+You can select any of these options for identifier type.
+ * **Enter Value**: Here, the value should correspond to the identifier type selected.
+ * **View details**: Once you click on this, you will be able to see more details about the Elements.
+
+Click ‘Update’ button to finalize the changes.
 
 
+---
+
+## **Reusing Elements Recorded**
+
+ 1. Create a new test case in the same Project.
+ 2. Start recording the test steps.
+ 3. Add a test step as follows:
+
+
+![example of test steps that contain Element in Testsigma](https://docs.testsigma.com/images/reuse-elements/test-steps-that-contain-Element-testsigma.png)
+
+You can also record a test step that uses an Element.
+
+![example of recorded test steps that contain Elements in Testsigma](https://docs.testsigma.com/images/reuse-elements/recorded-test-steps-that-contain-Element-testsigma.png)
+
+ 4. Hover on the test step that you want to edit and click on the corresponding edit button. 
+ 5. Click on the green text that says ‘Element’. The ‘Elements’ page appears on the Test recorder UI. This will have all the Elements in the project:
+
+![Elements screen to reuse elements in Testsigma recorder](https://docs.testsigma.com/images/reuse-elements/Elements-screen-reuse-elements-testsigma-recorder.png)
+
+ 6. Start typing the name of the Element that you want to use. The Elements can be filtered by name. You can also search the identifiers by name or by Screen name.
+ 7. From the filtered results, you can click on the Element that you want to use, and the Element text in your test step will be replaced by the chosen Element.
+ 8. Click on ‘Update’ button corresponding to the test step on the Test recorder UI to finalize the change.
+
+---
