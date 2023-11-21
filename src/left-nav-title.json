@@ -574,5 +574,14 @@
   },
   "desktop-windows":{
     "/docs/projects/setup/desktop-windows/": "Desktop Windows"
+  },
+  "actions-and-options-recorder":{
+  "/docs/test-cases/create-test-steps/actions-and-options-recorder/": "Actions & Options (Recorder)"
+  },
+  "actions-and-options-manual":{
+    "/docs/test-cases/create-test-steps/actions-and-options-manual/": "Actions & Options (Manual)"
+  },
+  "multiple-webviews":{
+    "/docs/test-cases/create-test-steps/actions-and-options-recorder/multiple-webviews/": "Tests for Multiple WebViews"
   }
 }

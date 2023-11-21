@@ -1,6 +1,6 @@
 ---
 title: "Test Step Settings"
-metadesc: "How to get details of a test step recorded via Testsigma’s test recorder chrome extension"
+metadesc: "With test step settings, you can control how each test step behaves in your test cases | This article discussses test step settings in Testsigma"
 noindex: false
 order: 4.622
 page_id: "Test Recorder - Test Step Details for Web Project"
@@ -9,63 +9,54 @@ contextual_links:
 - type: section
   name: "Contents"
 - type: link
-  name: "Pre-requisites:"
-  url: "#pre-requisites"
+  name: "Prerequisites"
+  url: "#prerequisites"
 - type: link
-  name: "Reordering Test Steps"
-  url: "#reordering-test-steps"
+  name: "Using Test Step Settings"
+  url: "#using-test-step-settings"
 
 ---
 
 ---
 
-You can view details for each test step recorded through Testsigma’s test step recorder chrome extension.  
-
-&emsp;
-
----
-##**Pre-requisites:**
-
-This document will take you through the process of creating test steps using the Testsigma Step Recorder. You should already know how-to, or have:
-
- 1. [Testsigma's step Test recorder.](https://testsigma.com/docs/test-step-recorder/install-chrome-extension/)
- 2. [record test steps via the Test recorder.](https://testsigma.com/docs/test-cases/create-steps-recorder/web-apps/overview/)
-
-&emsp;
-
+In Testsigma, you can control how each test step behaves in your test cases by using Test Step Settings. These settings allow you to decide how your test cases run and show results. This article discusses all test step settings in Testsigma's test step recorder. 
 
 ---
 
-## **How to get details of a test step recorded via Test recorder**
 
- 1. Create a Test Case using Test recorder
- 2. Hover on one of the recorded test steps. 
- 3. Click on the three vertical dots at the far right end of the highlighted row:
-
-![additional test step actions that appear for a test step in Testsigma Recorder, to get test step details](https://docs.testsigma.com/images/step-settings/available-additional-actions-test-step-details-testsigma-recorder.png)
-
- 4. Click ‘Step details.’ The step details will appear as follows:
-
-![test step details in Testsigma recorder’s UI](https://docs.testsigma.com/images/step-settings/test-step-details-ui-testsigma-recorder.png)
+## **Prerequisites**
 
 
-## **Reordering Test Steps**
+- You should have [Testsigma's step test recorder](https://testsigma.com/docs/test-step-recorder/install-chrome-extension/) installed. 
+ 
 
- 1. Create a Test Case using Test recorder with multiple test steps.
- 2. Hover on the settings button on the top right corner of the step Test recorder UI:
+- You should know how to create **test steps** and [manage a test case](https://testsigma.com/docs/test-cases/manage/add-edit-delete/).
 
-![settings highlighted for reorder in Test recorder UI](https://docs.testsigma.com/images/reorder/settings-highlighted-reorder-recorder-testsigma.png)
+---
 
-&emsp;
+## **Using Test Step Settings**
+
+1. Hover on one of the recorded test steps and click on **Step Details**.
+
+![Step Details](https://s3.amazonaws.com/static-docs.testsigma.com/new_images/projects/applications/ctsursdirec.png)
+
+2. On **Step Details** prompt, you can edit the following options.
+
+![Step Details Prompt](https://s3.amazonaws.com/static-docs.testsigma.com/new_images/projects/applications/ctsurstepdetailsu.png)
+
+| **Settings** | **Description** |
+|:------------------|:-------------|
+|**Max wait time**|Set the Maximum Wait Time limit for completing the test step. It will fail if the test step takes longer than the specified time (up to a maximum of 120 seconds).|
+|**Pre-Requisite**|Select a prerequisite step from the list of available steps in the same test case. This step must be successfully done before the current step runs.|
+|**Stop Test Case execution on Test Step**|It allows you to terminate test execution if the test fails at any step. By default, this option is checked, and test case execution will stop if the test step fails.|
+|**Ignore this step result in Test Case Result**|It allows you to exclude the outcome of a particular step from the overall test result.|
+|**Enable Visual Testing for the Step**|You can disable the test step by choosing this option, and the test step will not run. By default, this option is unchecked.|
+|**Disable Step**|It allows you to capture and compare the visual appearance of an application's user interface between different builds or versions.|
 
 
- 3. From the menu that appears on hover, click ‘Reorder’. The test step UI in the test step recorder changes into something like this:
 
-![reorder UI on Test recorder UI](https://docs.testsigma.com/images/reorder/reorder-ui-testsigma-recorder-ui.png)
+Here's a quick GIF exploring all options available in test step setttings.
 
-Reorder the steps by dragging-and-dropping the test steps as you like. To finalize the changes, click ‘Reorder’. 
-
-[[info | **NOTE**:]]
-| **Test Step Settings** on the Test Recorder will be the same across all application types.
+![Step Settings](https://s3.amazonaws.com/static-docs.testsigma.com/new_images/projects/applications/teststepsettings.gif)
 
 ---

@@ -62,6 +62,6 @@ Here is a quick GIF demonstrating the above workflow: ![Test Step Settings](http
 To update several test steps, click the **checkboxes** next to the **test steps** you want to update and then click on **Update Settings** in the menu bar to open a popup window where you can make changes to the settings. ![Update Step Settings](https://s3.amazonaws.com/static-docs.testsigma.com/new_images/projects/applications/update_testsettings.gif)
 
 [[info | NOTE:]]
-| Update Step Setting does not allow updating the **Pre-Requisite** and **Number of Retries on Step Failure**. You should use Test Step Settings for each step individually.
+| Update Step Setting does not allow updating the **Pre-Requisite** and **Number of Retries on Step Failure**. You should use **Test Step Settings** for each step individually.
 
 ---

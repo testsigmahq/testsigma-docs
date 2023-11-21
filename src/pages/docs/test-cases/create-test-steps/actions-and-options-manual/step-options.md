@@ -43,27 +43,13 @@ contextual_links:
 
 ---
 
-In Testsigma, you can customise test steps within a test case using Test Step Options. These options allow you to control and customise various aspects of test execution, such as data inputs, assertions, and behaviour, enhancing the test scenario's flexibility and accuracy.
-
-Here is a list of all options you can perform on a test step.
-
-1. **Clear Step**
-2. **Step Settings**
-3. **Disable Step**
-4. **Ignore Step Result**
-5. **Enable Visual Testing**
-6. **Clone Step**
-7. **Delete Step**
-8. **Steps Above and Below**
-9. **Reorder Test Step**
+In Testsigma, you can customize test steps within a test case using test step options. These options allow you to control and customize various aspects of test execution, such as data inputs, assertions, and behavior, enhancing the test scenario's flexibility and accuracy. This article discusses all test step options available in Testsigma. 
 
 ---
 
 ## **Prerequesties**
 
-- You should know how to [manage a test case](https://testsigma.com/docs/test-cases/manage/add-edit-delete/).
-
-- You should know how to [manage test steps](https://testsigma.com/docs/test-cases/step-types/natural-language/).
+- You should know how to create **test steps** and [manage a test case](https://testsigma.com/docs/test-cases/manage/add-edit-delete/).
 
 
 ---
