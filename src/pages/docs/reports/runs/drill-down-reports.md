@@ -12,153 +12,117 @@ contextual_links:
   name: "Prerequisites"
   url: "#prerequisites"
 - type: link
-  name: "How to use drill-down reports in Testsigma"
+  name: "How to Use Drill-down Reports in Testsigma"
   url: "#how-to-use-drill-down-reports-in-testsigma"
 - type: link
   name: "Steps to Generate Test Case Reports"
   url: "#steps-to-generate-test-case-reports"
 - type: link
+  name: "Steps to Generate Test Suite Reports"
+  url: "#steps-to-generate-test-suite-reports"
+- type: link
   name: "Steps to Generate Test Machine Reports"
   url: "#steps-to-generate-test-machine-reports"
 - type: link
-  name: "Steps to Generate Test Suite Reports"
-  url: "#steps-to-generate-test-suite-reports"
+  name: "Additional Actions on Results"
+  url: "#additional-actions-on-results"
 ---
 
 ---
 
-If the quality of an application is inversely proportional to the number of bugs / technical glitches / performance issues / usability issues, etc, then
+The users will have better satisfaction when the application does not have bugs, technical glitches, performance issues, or usability issues. When these issues increase, the quality decreases, which results in bad UX. That's when drill-down reports come in handy. 
 
-&emsp;
-   Quality = Customer Satisfaction * ( 1/ bugs ) * (1 / usability issues )
-
-&emsp;
-   Quality of an application reduces with more bugs. 
-
-This is where drill-down reports really come in handy. Drill-down reports let you access data at all layers. They help you understand the quality of the application and how your test automation is helping contribute to it. **Drilling down can help you uncover granular details about your testing, such as**
-
-1. Number of test cases failed
-2. Why did a specific test fail
-3. Number of distinct test suites with bad quality
-4. Which test machine is showing more bugs 
-
-Testsigma provides you an easy way to find and understand all this data.
+In Testsigma, you can view/download reports at multiple levels and find specific details, like the number of tests failed and the reason for failures or machines causing more problems. You can assess the application's quality and address issues from this data.
 
 ---
 
 ## **Prerequisites**
+
 - You should know how to [create a test case](https://testsigma.com/docs/test-cases/manage/add-edit-delete/#creating-a-test-case). 
 
-- You should know how to [create a test plan](https://testsigma.com/docs/test-management/test-plans/overview/#steps-to-create-a-test-plan).
+- You should know how to [create a test suite](https://testsigma.com/docs/test-management/test-plans/overview/#steps-to-create-a-test-plan).
+
+- You should know how to [create a test plan](https://testsigma.com/docs/test-management/test-suites/overview/#creating-a-test-suit).
 
 ---
 
-## **How to use drill-down reports in Testsigma:**
+## **How to Use Drill-down Reports in Testsigma:**
 
-1. Navigate to **Run Results** page.
-   ![Run Results page for drill down reports in Testsigma](https://s3.amazonaws.com/static-docs.testsigma.com/new_images/reports/runs/drill-down-reports/run-results-page-drill-down-reports-testsigma.png)
+1. Navigate to **Run Results** page and click on a **Test Plan Result**.
+![Test Plan Result](https://s3.amazonaws.com/static-docs.testsigma.com/new_images/projects/applications/ddrrnav.png)
 
-2. Click on a Test Plan Result. The test plan result page will look like this:
-   ![Test Plan Run Result Page to Drill Down reports in Testsigma](https://docs.testsigma.com/images/drill-down-reports/test-plan-run-result-page-drill-down-reports-testsigma.png)
 
-3. Click on a test case. OR if you choose Test suites from the drop-down, click on a test suite. This is how results will appear if you choose ‘Test Suite Results. 
-   ![Test Suite Results Dropdown highlighted to help drill down reports in Testsigma](https://docs.testsigma.com/images/drill-down-reports/test-suite-results-dropdown-highlighted-testsigma.png)
+2. From **Test Plan Result** page, you can view **Test Case** reports. 
+![Test Case Report](https://s3.amazonaws.com/static-docs.testsigma.com/new_images/projects/applications/ddrrtcr.png)
 
-4. The right side of the screen shows the test results for a specific test suite or a test machine. 
 
-5. Choose the different build numbers on the left side, under Run History, to view how the results have changed over time
+[[info | **NOTE**:]]
+| You can also view reports at test suite and test machine level by clicking on **Test Suite** and **Test Machine**. 
+| ![Reoprts](https://s3.amazonaws.com/static-docs.testsigma.com/new_images/projects/applications/ddrrtstm.png)
 
-See the steps above in action in the gif below:
-
-![gif to help drill down reports in Testsigma](https://s3.amazonaws.com/static-docs.testsigma.com/new_images/reports/runs/drill-down-reports/gif-to-help-drill-down-reports-in-testsigma.gif)
-
+3. You can choose the different runs from the dropdown to see how the results have changed for different builds.
+![Runs](https://s3.amazonaws.com/static-docs.testsigma.com/new_images/projects/applications/ddrrrabuilds.png)
 
 
 ---
 
 
 ## **Steps to Generate Test Case Reports**
-1. On your dashboard click on **Run Results**. 
-![Run Results](https://s3.amazonaws.com/static-docs.testsigma.com/new_images/projects/applications/tcrrresults.png)
 
-2. Click anywhere on the test plan result for which you need the report.
-![Test Plan Results](https://s3.amazonaws.com/static-docs.testsigma.com/new_images/projects/applications/tcrrrtp.png)
 
-3. Results are available in **Test Case**, **Test Suite**, and **Test Plan** level. Click on **Test Case** to view the results grouped by **Test Cases**.
-![Available Reports](https://s3.amazonaws.com/static-docs.testsigma.com/new_images/projects/applications/tcrartctstp.png)
+1. Navigate to **Run Results** page and click on a **Test Plan Result**.
+![Test Plan Result](https://s3.amazonaws.com/static-docs.testsigma.com/new_images/projects/applications/ddrrnav.png)
 
-[[info | **NOTE**:]]
-| You can also download the report in Junit and MS Excel Sheet by following the steps below:
-| 1. Click on the Export icon. 
-|![Export Icon](https://s3.amazonaws.com/static-docs.testsigma.com/new_images/projects/applications/tcrdicon.png)
-| 2. Select the format from the drop down in which you want to export. 
-|![Export Format](https://s3.amazonaws.com/static-docs.testsigma.com/new_images/projects/applications/tcrdineju.png)
+2. Results are available in **Test Case**, **Test Suite**, and **Test Machine** level. Click on **Test Case** to view the results grouped by **Test Cases**.
+![Test Case Report](https://s3.amazonaws.com/static-docs.testsigma.com/new_images/projects/applications/ddrrtcr.png)
 
-Here’s a quick GIF demonstrating how to generate Test Case Reports.
-![Test Case Reports](https://s3.amazonaws.com/static-docs.testsigma.com/new_images/projects/applications/Tcreport.gif)
 
 ---
 
+
+## **Steps to Generate Test Suite Reports**
+
+1. Navigate to **Run Results** page and click on a **Test Plan Result**.
+![Test Plan Result](https://s3.amazonaws.com/static-docs.testsigma.com/new_images/projects/applications/ddrrnav.png)
+
+2. Results are available in **Test Case**, **Test Suite**, and **Test Machine** level. Click on **Test Suite** to view the results grouped by **Test Suites**.
+![Test Suite](https://s3.amazonaws.com/static-docs.testsigma.com/new_images/projects/applications/ddrrtestsuite.png)
+
+3. You can also check test case results inside test suite by clicking on the **Test suite** of your choice. 
+![Test Case in Test Suites](https://s3.amazonaws.com/static-docs.testsigma.com/new_images/projects/applications/ddrrtstclr.png)
+
+
+---
 
 ## **Steps to Generate Test Machine Reports**
 
-1. Select the project for which you need the reports
-2. Navigate to **Test Development > Run Results**, you should see a page like this:
+1. Navigate to **Run Results** page and click on a **Test Plan Result**.
+![Test Plan Result](https://s3.amazonaws.com/static-docs.testsigma.com/new_images/projects/applications/ddrrnav.png)
 
-   ![Run Results page to get test machine reports in Testsigma](https://s3.amazonaws.com/static-docs.testsigma.com/new_images/reports/runs/test-machine-reports/run-results-page-to-get-test-machine-reports-testsigma.png)
+2. Results are available in **Test Case**, **Test Suite**, and **Test Machine** level. Click on **Test Machine** to view the results grouped by **Test Machines**.
+![Test Machine Reports](https://s3.amazonaws.com/static-docs.testsigma.com/new_images/projects/applications/ddrrtmr.png)
 
-3. Click on the Test Plan for which you need the report, you should see a test runs page like this:
+3. You can also check test suite results inside test machine by clicking on the **Test Machine** of your choice. 
+![Test Suite in Test Machine](https://s3.amazonaws.com/static-docs.testsigma.com/new_images/projects/applications/ddrrtsitm.png)
 
-   ![test run page to get test machine reports in Testsigma](https://docs.testsigma.com/images/test-machine-reports/test-run-page-to-get-test-machine-reports-in-testsigma.png)
 
-4. In the drop-down menu in the middle column, choose “Test Machine Results”. The drop-down is highlighted below for your reference:
-   ![test machine results dropdown highlighted in testsigma](https://docs.testsigma.com/images/test-machine-reports/test-machine-results-dropdown-highlighted-testsigma.png)
 
-5. You will be able to view the results grouped by Test Machines.
+Here is a quick GIF demonstrating how to view test reports in Testsigma.
+![Reports](https://s3.amazonaws.com/static-docs.testsigma.com/new_images/projects/applications/DrillDownReports.gif)
+
+---
+
+## **Additional Actions on Results**
  
+There are multiple actions that you can take on these results. These actions are:
 
-   There are multiple actions that you can take on these results. These actions can be initiated via the buttons available on the top right column of the results column:
-   ![Other options to filter and search test machine results in Testsigma](https://docs.testsigma.com/images/test-machine-reports/test-machine-results-other-options-to-filter-search-testsigma.png)
+1. **Rerun**: You can initiate reruns of the test cases by clicking on Rerrun. 
+![Rerun](https://s3.amazonaws.com/static-docs.testsigma.com/new_images/projects/applications/ddrrrerun.png)
 
-  These actions are:
+2. **Export Reports**: You can download the report in Junit and MS Excel Sheet at test case/test suite/test machine levels by clicking on the **Export** icon. 
+![Export Icon](https://s3.amazonaws.com/static-docs.testsigma.com/new_images/projects/applications/ddrreicon.png)
 
-  1. **Search the results:** the run results can be filtered by name here
-  2. **Rerun the failed test cases or rerun all test cases:** You can click on any of the options to initiate reruns of the test cases accordingly. Read more about [test reruns](https://testsigma.com/docs/reports/runs/rerun/).
-  3. **Export the results:** Here, you can export the run results in the form of xls or xml. Read more about [exporting as xls](https://testsigma.com/docs/reports/export-reports/export-report-xls/) and [exporting as Junit](https://testsigma.com/docs/reports/export-reports/export-reports-junit/).
-  4. **Filter the results:** You can filter the results by different criteria that appear on click on the filter button, read more about it here.
-  5. **Display details of the result:** There is a toggle button in the end for more run details.
-
----
-
-
-## **Steps to generate Test Suite Reports**
-
-1. Select the project for which you need the reports
-2. Navigate to **Test Development > Run Results**.
-   ![Run Results page to get test suite reports in Testsigma](https://s3.amazonaws.com/static-docs.testsigma.com/new_images/reports/runs/test-suite-reports/run-results-page-to-get-test-suite-reports-testsigma.png)
-
-3. Click on the **Test Plan** for which you need the report.
-
-   ![test run page to get test suite reports in Testsigma](https://docs.testsigma.com/images/test-suite-reports/test-run-page-to-get-test-suite-reports-in-testsigma.png)
-
-4. From the drop-down menu, click on **Test Suite Results**. The drop-down is also highlighted below for your reference:
-
-   ![test suite results dropdown highlighted in testsigma](https://docs.testsigma.com/images/test-suite-reports/test-suite-results-dropdown-highlighted-testsigma.png)
-
-5. You will be able to view the results grouped by Test Suites.
-
-
-   There are multiple actions that you can take on these results. These actions can be initiated via the buttons available on the top right column of the results column as also shown in the screenshot below:
-
-   ![Other options to filter and search test suite results in Testsigma](https://docs.testsigma.com/images/test-suite-reports/test-suite-results-other-options-to-filter-search-testsigma.png)
-
----
-
-## **These actions are:**
-1. **Search the results:** the run results can be filtered by name here
-2. **Rerun the failed test cases or rerun all test cases:** You can click on any of the options to initiate reruns of the test cases accordingly. Read more about [test reruns](https://testsigma.com/docs/reports/runs/rerun/).
-3. **Export the results:** Here, you can export the run results in the form of xls or xml. Read more about [exporting as xls](https://testsigma.com/docs/reports/export-reports/export-report-xls/) and [exporting as xml](https://testsigma.com/docs/reports/export-reports/export-reports-junit/).
-4. **Filter the results:** You can filter the results by different criteria that appear on click on the filter button, read more about it [here](https://testsigma.com/docs/reports/runs/filter-custom-reports/).
-5. **Display details of the result:** There is a toggle button in the end for more run details.
+3. **Test Run Details**: You can see the test run details below the result overview. 
+![Test Run Details](https://s3.amazonaws.com/static-docs.testsigma.com/new_images/projects/applications/ddrrtrdetails.png)
 
 ---

@@ -13,8 +13,8 @@ contextual_links:
   name: "Prerequisites"
   url: "#prerequisites"
 - type: link
-  name: "Use Bulk Action in Test Step"
-  url: "#use-bulk-action-in-test-step"
+  name: "Using Bulk Actions on Test Steps"
+  url: "#using-bulk-actions-on-test-steps"
 ---
 
 ---
@@ -33,7 +33,7 @@ Using Bulk Actions in Testsigma simplifies managing multiple test steps. You can
 
 ---
 
-## **Use Bulk Action in Test Step**
+## **Using Bulk Actions on Test Steps**
 
 Follow these steps to use Bulk Actions for your test steps:
 
