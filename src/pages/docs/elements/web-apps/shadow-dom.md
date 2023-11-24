@@ -13,6 +13,9 @@ contextual_links:
   name: "Identifying Shadow DOM in a Webpage"
   url: "#identifying-shadow-dom-in-a-webpage"
 - type: link
+  name: "Prerequisites"
+  url: "#prerequisites"
+- type: link
   name: "Basic Shadow DOM Terminologies"
   url: "#basic-shadow-dom-terminologies"  
 - type: link
@@ -28,7 +31,7 @@ To perform reliable tests, you need to find these elements. This guide will expl
 
 ---
 
-### **Prerequisites**
+## **Prerequisites**
 
 You must understand specific concepts such as creating [Projects](https://testsigma.com/docs/projects/overview/), [Test Cases](https://testsigma.com/docs/test-cases/manage/add-edit-delete/), [Elements](https://testsigma.com/docs/elements/overview/), and [Recording Test Steps](https://testsigma.com/docs/test-cases/create-steps-recorder/web-apps/overview/).
 

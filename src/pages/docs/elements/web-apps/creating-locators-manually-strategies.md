@@ -1,5 +1,5 @@
 ---
-title: "Different strategies for formulating Elements"
+title: "Strategies for Formulating Elements"
 metadesc: "Learn how to find and create locators for the Elements using single attributes, text, or Xpath and CSS Selectors in Testsigma Application"
 noindex: false
 order: 6.26
@@ -30,11 +30,7 @@ contextual_links:
 
 ---
 
-For this guide, it would be recommended to get familiar with the Chrome Developer Tools and Elements Panel for finding the Elements and their attributes.
-
-External Link: [Get Started With Viewing And Changing The DOM](https://developer.chrome.com/docs/devtools/dom/)
-
-We will be primarily talking about creating the Element locators manually. For an easier method, refer: [Create Element using test Recorder](https://testsigma.com/docs/elements/web-apps/record-multiple-elements/)
+For this guide, it would be recommended to get familiar with the Chrome Developer Tools and Elements Panel for finding the Elements and their attributes. For more information, see [getting started with viewing and changing the DOM](https://developer.chrome.com/docs/devtools/dom/).
 
 Elements can be created from the attributes/properties of an HTML Element, using:
 1. Attributes of the element like id, name, placeholder
@@ -44,35 +40,36 @@ Elements can be created from the attributes/properties of an HTML Element, using
 <br>
 
 ---
-##**1. Using unique single Element Attributes**
+## **1. Using Unique Single Element Attributes**
 
 You can use any of the element attributes such as ID, Name, Class Name, etc if their value is unique. ID locator is the most preferred and recommended single attribute.
 
 Check the below section “Get Locators value manually using Chrome Developer Tools” to learn how to use Chrome Developer Tools to get the attribute value.
 
-<br>
 
 ---
-##**2. Using Link Text and Partial Link Text**
+
+## **2. Using Link Text and Partial Link Text**
 
 You can use the visible text(fully or partially) on a link(anchor tag) for formulating Elements.
 
 Check the below section “Get Locators value manually using Chrome Developer Tools” to learn how to use Chrome Developer Tools to get the link text.
 
-<br>
+
 
 ---
-##**3. Using XPath/CSS Selectors**
+
+## **3. Using XPath/CSS Selectors**
 
 You can generate XPath/ CSS Selectors for elements using Chrome Developer tools if you are familiar with XPath/CSS Selector creation.
 
 Check the below section “Get Locators value manually using Chrome Developer Tools” to learn how to use Chrome Developer Tools to get the XPath or CSS Selector.
 
-<br>
-
 
 ---
-##**Get Locators value manually using Chrome Developer Tools**
+
+## **Get Locators value manually using Chrome Developer Tools**
+
 For demonstration, we will take the example of a simple Login button on the [OrangeHRM Login page](http://opensource.demo.orangehrmlive.com/). We will try to get the Attribute values for the Login button below:
 
 1. Navigate to the page in your Google Chrome Browser.
@@ -93,17 +90,18 @@ The general format of HTML code for a HTML Page Element is:<br>
 This is the code for the LOGIN button on above OrangeHRM Web page.<br>
 < input type = "submit" name="Submit" class="button" id="btnLogin" value="LOGIN">
 
-<br>
+
 
 ---
-##**Finding Element attributes and their values**
+
+## **Finding Element attributes and their values**
 
 In this case, the tag name is ‘input’. Attribute names are ‘type’, ‘name’, ‘class’, ‘id’, and ‘value’ and their respective values are the strings in quotes following their name and equal sign. For example, the value of the ‘name’ attribute is ‘Submit’. Similarly, you can find the attribute values for ID, Class, etc
 
-<br>
 
 ---
-##**Find XPath or CSS Locator**
+
+## **Find XPath or CSS Locator**
 
 In the Elements panel, right-click on the highlighted element, hover over the Copy option, and select ‘Copy XPath’ or ‘Copy Selector’ from the popup menu.
 
@@ -112,11 +110,4 @@ In the Elements panel, right-click on the highlighted element, hover over the Co
 Your Xpath or CSS Locator will be copied to the clipboard.
 
 
-
-
-
-
-
-
-
-
+---

@@ -1,22 +1,19 @@
 ---
-title: "Create One Element at a Time (Using Mobile Inspector) for an Android Project"
+title: "Capture Single Element Using Recorder"
 metadesc: "Learn how to create one element at a time using the Testsigma mobile inspector for an android project in Testsigma application."
 noindex: false
-order: 6.33
+order: 6.32
 page_id: "Create One Element at a Time (Using Mobile Inspector) for an Android Project"
 warning: false
 contextual_links:
 - type: section
   name: "Contents"
 - type: link
-  name: "Introduction"
-  url: "#introduction"
+  name: "Prerequisites"
+  url: "#prerequisites"
 - type: link
-  name: "Pre-requisites"
-  url: "#pre-requisites"
-- type: link
-  name: "How to create one element at a time using the Testsigma mobile inspector for an android project in Testsigma"
-  url: "#how-to-create-one-element-at-a-time-using-the-testsigma-mobile-inspector-for-an-android-project-in-testsigma"
+  name: "Steps to Create an Element"
+  url: "#steps-to-create-an-element"
 - type: link
   name: "Updating an Element"
   url: "#updating-an-element"
@@ -27,114 +24,113 @@ contextual_links:
 
 
 ---
-## **Introduction**
-In an Android project in Testsigma, you can selectively capture elements one at a time using the Testsigma mobile test recorder. 
 
-<br>
 
----
-## **Pre-requisites**
-1. You should have an android project in Testsigma. See [creating a project](https://testsigma.com/docs/projects/overview/).
-2. Your android applications’ apk should be uploaded in Testsigma so that the mobile test recorder can record elements from it. See [uploading apps to Testsigma](https://testsigma.com/docs/uploads/upload-apps/).
+In an Android project in Testsigma, you can selectively capture elements one at a time using the Testsigma recorder. This article discusses how to capture single element using recorder. 
 
-<br>
 
 ---
-## **How to create one element at a time using the Testsigma mobile test recorder for an android project in Testsigma**
 
-1. On the ‘All Elements’ page, click on the ‘Create’ button on the top right corner of the page:
+## **Prerequisites**
+- You should know how to create an android [project](https://testsigma.com/docs/projects/overview/) in Testsigma.
 
-![create-button-on-elements-page-under-create-one-element-at-a-time-for-an-android-project-in-Testsigma](https://s3.amazonaws.com/static-docs.testsigma.com/new_images/elements/android-apps/capture-single-element/create-button-on-elements-page-under-create-one-element-at-a-time-for-an-android-project-in-Testsigma.png)
+- You should have [Testsigma chrome extension installed](https://testsigma.com/docs/test-step-recorder/install-chrome-extension/). 
 
-2. On the ‘Create Element’ layover that appears, select the option ‘Element Inspector’:
+- An Android app to test.
 
-![element-inspector-radio-button-on-create-element-layover-under-create-one-element-at-a-time-for-an-android-project-in-Testsigma](https://s3.amazonaws.com/static-docs.testsigma.com/new_images/elements/android-apps/capture-single-element/element-inspector-radio-button-on-create-element-layover-under-create-one-element-at-a-time-for-an-android-project-in-Testsigma.png)
+---
 
-3. Now select the lab, version, device, and the apk you want to capture the element from, and then click on the button ‘Launch’. This launches the Mobile test recorder which should look something like this:
+## **Steps to Create an Element**
 
-![Single Element recorder interface for Android](https://s3.amazonaws.com/static-docs.testsigma.com/new_images/elements/android-apps/capture-single-element/android-single-element-recorder-interface.png)
+1. Navigate to **Create Tests > Elements**.
+![Elements](https://s3.amazonaws.com/static-docs.testsigma.com/new_images/projects/applications/cseapnavele.png)
 
-4. Make sure that the "Select Element" Button is selected, using the button highlighted below:
 
-![Select Element Button in Element recorder interface](https://s3.amazonaws.com/static-docs.testsigma.com/new_images/elements/android-apps/capture-single-element/android-single-element-recorder-interface-select-button.png)
+2. Click on **Record**.
+![Record](https://s3.amazonaws.com/static-docs.testsigma.com/new_images/projects/applications/ceurcorec.png)
 
-5. Now click on the element that you want to capture. On the element form that opens up, enter the ‘element name’ and ‘screen name’. You can also change the element type according to your preference in this form:
 
-![Single Element Recorder Interface Element Form](https://s3.amazonaws.com/static-docs.testsigma.com/new_images/elements/android-apps/capture-single-element/android-single-element-recorder-interface-element-form.png)
+3. On **Record elements** overlay, select **Test Lab**, **Test Machine**, **Upload App Source** and click on **Record**.
+![Record](https://s3.amazonaws.com/static-docs.testsigma.com/new_images/projects/applications/ceurstltmar.png)
 
-6. Once you enter the required details in the element form, click on the button ‘Save & Close’. The element will be saved in the project’s element list and the mobile test recorder  will be closed. 
 
-You can also [capture multiple elements at once via mobile test recorder](https://testsigma.com/docs/elements/android-apps/record-multiple-elements/).
+4. Wait for the app to load fully.
+
+
+5. Once the app is loaded, click on element you want to capture. 
+![Element to Capture](https://s3.amazonaws.com/static-docs.testsigma.com/new_images/projects/applications/ceuraacoe.png)
+
+
+6. On the **Create Element** section, enter the **Name**, **Screen Name**, select the **Element Type**. 
+![Create Element](https://s3.amazonaws.com/static-docs.testsigma.com/new_images/projects/applications/ceuraaces.png)
+
+
+7. Click on **Create**.
+![Create](https://s3.amazonaws.com/static-docs.testsigma.com/new_images/projects/applications/ceuraacocrt.png)
+
+
+8. The element will be saved in the elements list. 
+![Saved](https://s3.amazonaws.com/static-docs.testsigma.com/new_images/projects/applications/ceuraaecrted.png)
+
+9. Stop the recorder to close the session.
+
+### **Creating an Element While Creating Test Case**
+
+Alternatively, you can also create the element while creating test case by following the steps below. 
+
+1. Hover over the element on the test step and click on **Create Element** from the dropdown.
+![Create Element](https://s3.amazonaws.com/static-docs.testsigma.com/new_images/projects/applications/ceuraacrelwctc.png)
+
+2. On **Create Element** overlay, enter **Name**, **Screen Name**, select the **Element Type** and click on **Create Element**.
+![Create](https://s3.amazonaws.com/static-docs.testsigma.com/new_images/projects/applications/ceuraacrelem.png)
+
+
+---
 
 
 ## **Updating an Element**
 
- 1. Create a Test Case using Testsigma’s test Recorder in your Android Project. 
- 2. On the Recorder UI, hover over the step that has the element you want to edit. The elements appear in green on the Testsigma test Recorder UI
+1. Hover over the element and click on **Edit**. 
+![Edit](https://s3.amazonaws.com/static-docs.testsigma.com/new_images/projects/applications/ioseceditelm.png)
 
-![Highlighted example elements in Testsigma Recorder](https://docs.testsigma.com/images/update-elements/highlighted-example-elements-android-testsigma-Recorder.png)
- 
+2. On the **Update Element** section, update the **Name**, **Screen Name**, select the **Element Type**. 
+![Update Element](https://s3.amazonaws.com/static-docs.testsigma.com/new_images/projects/applications/ioseceditelm.png) 
 
- 3. Click on the ‘More Details’ button corresponding to the step that you want to edit. The button corresponding to the step is highlighted in the screenshot below:
+3. Click on **Update**.
+![Click on Update](https://s3.amazonaws.com/static-docs.testsigma.com/new_images/projects/applications/ioseceaupdate.png)
 
-![more details button for a test step in an Android Project in Testsigma while using the Recorder](https://docs.testsigma.com/images/update-elements/more-details-button-for-a-test-step-android-testsigma-Recorder.png)
+### **Updating an Element While Creating Test Case**
 
- 4. Click on ‘More details’ button:
+Alternatively, you can also update the element while creating test case by following the steps below. 
 
-![test step details for an Android test case on Testsigma Recorder UI](https://docs.testsigma.com/images/update-elements/test-step-details-testsigma-Recorder-android.png)
+1. Hover over the element on the test step and click on **Edit Element**.
+![Edit Element](https://s3.amazonaws.com/static-docs.testsigma.com/new_images/projects/applications/iosecuewctc.png)
 
- 5. Click on the edit button corresponding to the element on the Test Step Details:
+2. On **Update Element** overlay, update the **Name**, **Screen Name**, select the **Element Type**.
+![Update](https://s3.amazonaws.com/static-docs.testsigma.com/new_images/projects/applications/iosecuewctcdtls.png)
 
-![edit element button on test step details section for testsigma Recorder for android](https://docs.testsigma.com/images/update-elements/edit-element-button-test-step-details-testsigma-Recorder-android.png)
-
-&emsp;
-
-![edit element UI from test step details section on the Recorder UI for an android project in Testsigma](https://docs.testsigma.com/images/update-elements/edit-element-ui-from-test-step-details-Recorder-android-testsigma.png)
-
-&emsp;
-
-Here are the fields that appear on the ‘Edit Element’ window:
-
- * **Name**: Text input field, you can edit the name of the Element here
- * **Screen Name**: This is an editable field, you can edit the screen name for the Element here.
- * **Element Type**: This is a drop-down field that has values:
-   1. Xpath
-   2. ID
-   3. Name
-   4. Class Name
-   5. Accessibility ID
-
-You can select any of these options for element type.
- * **Enter Value**: Here, the value should correspond to the element type selected. This is also an editable field.
-
-
-6. Click on the ‘Update’ button to finalize the changes.
+3. Click on **Update Element**
+![Update Element](https://s3.amazonaws.com/static-docs.testsigma.com/new_images/projects/applications/iosecupdewctc.png)
 
 ---
 
 
 ## **Reusing Elements Recorded**
 
- 1. Create a test case in which you will be reusing your pre-recorded elements.
- 2. Start recording test steps for the test case.
- 3. Manually add a test step where you want to reuse elements:
+1. Create a test case in which you will be reusing your pre-recorded elements.
 
+2. Start recording test steps for the test case.
 
-![example of test steps that contain elements in an android project in Testsigma](https://docs.testsigma.com/images/reuse-elements/test-steps-that-contain-elements-testsigma-android.png)
+3. Hover over the element on the test step where you want to reuse the saved element and click on **Change Element**.
+![Change Element](https://s3.amazonaws.com/static-docs.testsigma.com/new_images/projects/applications/ceuraachangeelem.png)
 
-&emsp;
+4. On **Elements** overlay, select the element you want to reuse. 
+![Reuse](https://s3.amazonaws.com/static-docs.testsigma.com/new_images/projects/applications/ceuraachangeelemn.png)
 
-Alternatively, you can record a test step that uses an element. Given below is an example of test steps as they appear on Recorder UI. The text in green is an element.
+5. Click on **Update Step** to finalize the change. 
+![Update Step](https://s3.amazonaws.com/static-docs.testsigma.com/new_images/projects/applications/ceuraaustep.png)
 
-![example of recorded test steps that contain elements for an android project in Testsigma](https://docs.testsigma.com/images/reuse-elements/recorded-test-steps-that-contain-element-testsigma-android.png)
-
- 4. Hover on the test step that you want to edit and click on the corresponding edit button. 
- 5. Click on the green text that represents ‘element’. The ‘Elements’ section appears on the test Recorder UI, listing all pre-recorded elements in the project:
-
-![Elements screen to reuse elements in Testsigma Recorder for an android project](https://docs.testsigma.com/images/reuse-elements/Element-screen-reuse-elements-testsigma-Recorder-android.png)
-
- 6. Start typing the name of the element that you want to reuse, the elements will be filtered by name. You can search the elements by name or by Screen name.
- 7. From the filtered results, you can click on the element that you want to use, and the element text in your test step will be replaced by the chosen element.
- 8. Click on ‘Update’ button corresponding to the test step on the Testsigma test Recorder UI to finalize the change.
+[[info | **NOTE**:]]
+| You can also reuse the element by following the same steps while creating a test case manually.
 
 ---

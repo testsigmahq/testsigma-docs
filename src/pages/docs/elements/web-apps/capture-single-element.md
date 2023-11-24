@@ -12,76 +12,75 @@ contextual_links:
   name: "Prerequisites"
   url: "#prerequisites"
 - type: link
-  name: "Steps to Create an Element From the Elements Page"
-  url: "#steps-to-create-an-element-from-the-elements-page"
+  name: "Steps to Capture an Element"
+  url: "#steps-to-capture-an-element"
 - type: link
-  name: "Steps to Create an Element From the Test Case Creation Page"
-  url: "#steps-to-create-an-element-from-the-test-case-creation-page"
+  name: "Creating an Element While Creating Test Case"
+  url: "#creating-an-element-while-creating-test-case"
 - type: link
   name: "Steps to Create an Element From the Test Case Result Page"
   url: "#steps-to-create-an-element-from-the-test-case-result-page"
 - type: link
-  name: "Updating elements via Test recorder"
-  url: "#updating-elements-via-test-recorder"
+  name: "Updating Elements Using Recorder"
+  url: "#updating-elements-using-recorder"
 - type: link
-  name: "Reusing elements recorded"
+  name: "Reusing Elements Recorded"
   url: "#reusing-elements-recorded"
 ---
 
 ---
 
-Sometimes while creating tests, we only need to capture the details of a single Element. You can employ the following methods to capture the single element. 
-1. Create an element from the Elements page.
-2. Create an element while creating a test case.
-3. Create an element from a test case result.
-
-This article discusses all 3 ways to capture a single element.
+In a Web project in Testsigma, you can selectively capture elements one at a time using the Testsigma recorder. This article discusses how to capture single element using recorder. 
 
 ---
 
 ## **Prerequisites**
-- You should have a web application project in Testsigma. See [creating a project](https://testsigma.com/docs/projects/overview/).
-- You should have Testsigma Recorder Extension. See [install chrome extension](https://testsigma.com/docs/test-step-recorder/install-chrome-extension/).
-- You should also know how to [create a test case](https://testsigma.com/docs/test-cases/manage/add-edit-delete/) and [test executions](https://testsigma.com/docs/runs/test-plan-executions/).
+
+- You should know how to create an web [project](https://testsigma.com/docs/projects/overview/) in Testsigma.
+
+- You should have [Testsigma chrome extension installed](https://testsigma.com/docs/test-step-recorder/install-chrome-extension/). 
+
+- A Web app to test.
 
 ---
 
-## **Steps to Create an Element From the Elements Page**
+## **Steps to Capture an Element**
+
 1. Navigate to **Create Tests > Elements**.
 ![Elements](https://s3.amazonaws.com/static-docs.testsigma.com/new_images/projects/applications/sielelements.png)
 
-2. Click on **Create Element**.
-![Create Elements](https://s3.amazonaws.com/static-docs.testsigma.com/new_images/projects/applications/sielcoce.png)
+2. Click on **Record**.
+![Record Element](https://s3.amazonaws.com/static-docs.testsigma.com/new_images/projects/applications/waeccorec.png)
 
-3. On **Create Element** overlay, click on **Record Element**.
-![Record Element](https://s3.amazonaws.com/static-docs.testsigma.com/new_images/projects/applications/sielcoce.png)
-
-4. Open the new tab and enter the URL from which you want to capture the single element. The Testsigma test recorder will appear and will be ready to start recording. Here, we opened a new tab and entered the URL for Simply Travel.
+3. This will open a new tab. Enter the URL from which you want to capture the single element. The Testsigma test recorder will appear and will be ready to start recording. Here, we opened a new tab and entered the URL for Simply Travel.
 ![New Tab](https://s3.amazonaws.com/static-docs.testsigma.com/new_images/projects/applications/sielstweb.png)
 
-5. Hover over the element you want to capture and make sure that it is highlighted in green (here we are capturing the username field):
+4. Hover over the element you want to capture and make sure that it is highlighted in green (here we are capturing the username field):
 ![Element to Capture](https://s3.amazonaws.com/static-docs.testsigma.com/new_images/projects/applications/sielungreen.png)
 
-6. Click on the hovered element and wait for the element to appear in the recorder. 
+5. Click on the hovered element and wait for the element to appear in the recorder. 
 ![Element in Recorder](https://s3.amazonaws.com/static-docs.testsigma.com/new_images/projects/applications/sielwfrta.png)
 
-7. Click on **Capture**, you will be redirected to the **Elements** page. 
+6. Click on **Capture**, you will be redirected to the **Elements** page. 
 ![Capture](https://s3.amazonaws.com/static-docs.testsigma.com/new_images/projects/applications/sielcocapture.png)
 
-8. Check all the options and click on **Create Element**. 
+7. Check all the options and click on **Create Element**. 
 ![Create Element](https://s3.amazonaws.com/static-docs.testsigma.com/new_images/projects/applications/sielcsdcoc.png)
 
-Here’s a quick GIF demonstrating how to create an element from the Elements page.
+Here’s a quick GIF demonstrating how to create an element from the **Elements** page.
 ![Element from Elements page](https://s3.amazonaws.com/static-docs.testsigma.com/new_images/projects/applications/CreateSingleElemWF.gif)
 
 ---
 
-## **Steps to Create an Element From the Test Case Creation Page**
+## **Creating an Element While Creating Test Case**
+
 1. Navigate to **Create Tests > Test Cases**, create a new test case or select an existing test case.
 ![Test Cases](https://s3.amazonaws.com/static-docs.testsigma.com/new_images/projects/applications/sieltcsstc.png)
 
+
 2. Click on **Create Element**.
 ![Create Element](https://s3.amazonaws.com/static-docs.testsigma.com/new_images/projects/applications/sielcocelemftc.png)
+
 
 3. Follow the steps 3-8, mentioned in **steps to create an element from the elements page** to create an element. 
 
@@ -90,16 +89,21 @@ Here’s a quick GIF demonstrating how to create an element from the Elements pa
 ---
 
 ## **Steps to Create an Element From the Test Case Result Page**
+
 1. Navigate to **Run Results** and click on the run result you want to edit.
 ![Run Result](https://s3.amazonaws.com/static-docs.testsigma.com/new_images/projects/applications/sielrr.png)
+
 
 2. On the **Run Results Details** page, click on the test case result in which you want to edit the element.
 ![Details](https://s3.amazonaws.com/static-docs.testsigma.com/new_images/projects/applications/sielstcr.png)
 
+
 3. Click the test step in which you want to edit the element and hover over the test step details on the right side of the page and click on edit.
 ![Edit Icon](https://s3.amazonaws.com/static-docs.testsigma.com/new_images/projects/applications/sielclickineicon.png)
 
+
 4. You’ll get an **Update Element** overlay. 
+
 
 5. Click on **Record Element** to capture a new element. *Refer to steps 3-8 from creating an element from the elements section for detailed information*.
 ![Update Elements](https://s3.amazonaws.com/static-docs.testsigma.com/new_images/projects/applications/sielements.png)
@@ -108,60 +112,46 @@ Here’s a quick GIF demonstrating how to create an element from the Elements pa
 
 ---
 
-## **Updating elements via Test recorder**
+## **Updating Elements Using Recorder**
 
- 1. Create a Test Case using the Test recorder. 
- 2. Click on the element/Elements that you want to edit. The Elements appear in green on the Test recorder UI. 
 
-![Highlighted example Elements in Test recorder](https://docs.testsigma.com/images/update-elements/highlighted-example-Elements-testsigma-recorder.png)
+1. Navigate to **Create Tests > Elements** and create a test case using the recorder. 
+![Elements](https://s3.amazonaws.com/static-docs.testsigma.com/new_images/projects/applications/mwaecnavel.png)
 
- 3. Click ‘edit Elements’ from the three dots on the far right
 
-![Multiple options on the edit Elements screen window in Test recorder](https://docs.testsigma.com/images/update-elements/edit-Element-screen-multiple-options-testsigma-recorder.png)
+2. Hover over the element you want to update and click on **Edit Element**. 
+![Edit](https://s3.amazonaws.com/static-docs.testsigma.com/new_images/projects/applications/waecee.png)
 
-These are the fields that will appear:
 
- * **Name**
- * **Screen Name**
- * **Identifier Type**: This is a drop-down field that has values:
-   1. Xpath
-   2. CSS Selector
-   3. ID
-   4. Name
-   5. Link Text
-   6. Partial Link Text
-   7. Class Name
-   8. Tag Name
+3. On the **Update Element** overlay, you can update the **Element Name**, **Screen Name**, select the **Element Type & Location**. 
+![Update Element](https://s3.amazonaws.com/static-docs.testsigma.com/new_images/projects/applications/waecueol.png) 
 
-You can select any of these options for identifier type.
- * **Enter Value**: Here, the value should correspond to the identifier type selected.
- * **View details**: Once you click on this, you will be able to see more details about the Elements.
 
-Click ‘Update’ button to finalize the changes.
+4. Click on **Update** to finalize the changes.
+![Update](https://s3.amazonaws.com/static-docs.testsigma.com/new_images/projects/applications/waecueur.png)
 
 
 ---
 
 ## **Reusing Elements Recorded**
 
- 1. Create a new test case in the same Project.
- 2. Start recording the test steps.
- 3. Add a test step as follows:
+1. Create a test case in which you will be reusing your pre-recorded elements.
 
 
-![example of test steps that contain Element in Testsigma](https://docs.testsigma.com/images/reuse-elements/test-steps-that-contain-Element-testsigma.png)
+2. Start recording test steps for the test case.
 
-You can also record a test step that uses an Element.
 
-![example of recorded test steps that contain Elements in Testsigma](https://docs.testsigma.com/images/reuse-elements/recorded-test-steps-that-contain-Element-testsigma.png)
+3. Hover over the element on the test step where you want to reuse the saved element and click on **Change Element**.
+![Change Element](https://s3.amazonaws.com/static-docs.testsigma.com/new_images/projects/applications/waecchangeelm.png)
 
- 4. Hover on the test step that you want to edit and click on the corresponding edit button. 
- 5. Click on the green text that says ‘Element’. The ‘Elements’ page appears on the Test recorder UI. This will have all the Elements in the project:
 
-![Elements screen to reuse elements in Testsigma recorder](https://docs.testsigma.com/images/reuse-elements/Elements-screen-reuse-elements-testsigma-recorder.png)
+4. On **Elements** overlay, select the element you want to reuse. 
+![Reuse](https://s3.amazonaws.com/static-docs.testsigma.com/new_images/projects/applications/waecselm.png)
 
- 6. Start typing the name of the Element that you want to use. The Elements can be filtered by name. You can also search the identifiers by name or by Screen name.
- 7. From the filtered results, you can click on the Element that you want to use, and the Element text in your test step will be replaced by the chosen Element.
- 8. Click on ‘Update’ button corresponding to the test step on the Test recorder UI to finalize the change.
+
+5. The element will be automatically updated. 
+
+[[info | **NOTE**:]]
+| You can also reuse the element by following the same steps while creating a test case manually.
 
 ---
