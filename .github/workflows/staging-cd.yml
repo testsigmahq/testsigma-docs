@@ -7,6 +7,8 @@ jobs:
   StagingDeploy:
     runs-on: ubuntu-latest
     steps:
+      - name: Update package information with default mirror
+        run: sudo sed -i 's|mirror+file:/etc/apt/apt-mirrors.txt|http://archive.ubuntu.com/ubuntu|' /etc/apt/sources.list && sudo apt-get update
       - name: Install libvips
         run: sudo apt-get install libvips
       - uses: actions/checkout@v2
@@ -38,7 +40,7 @@ jobs:
           echo TYPESENSE_SEARCH_API_KEY=${{ secrets.WEBSITE_STAGING_TYPESENSE_SEARCH_API_KEY }} >> .env
           cat .env
       - name: Set environment
-        run : sed -i 's/localhost/website.testsigma.com/g' src/environment.ts
+        run: sed -i 's/localhost/website.testsigma.com/g' src/environment.ts
       - name: Build
         run: |
           PREFIX_PATHS=true npm run build && npm run deploy

@@ -1,5 +1,5 @@
 ---
-title: "Manage test suites in test plans"
+title: "Manage Test Suites in Test Plans"
 metadesc: "Managing test suites in Test Plans makes test execution more efficient. Learn how to add, remove, and organize test suites in test plans in Testsigma."
 noindex: false
 order: 8.23
@@ -9,68 +9,94 @@ contextual_links:
 - type: section
   name: "Contents" 
 - type: link
-  name: "Add or Edit a Test Suite via the Edit Test Plan Page"
-  url: "#add-or-edit-a-test-suite-via-the-edit-test-plan-page"
+  name: "Prerequisites"
+  url: "#prerequisites"
 - type: link
-  name: "Delete a test suite via the edit test plan page"
-  url: "#delete-a-test-suite-via-the-edit-test-plan-page"
+  name: "Editing Test Suites in a Test Plan"
+  url: "#editing-test-suites-in-a-test-plan"
 - type: link
-  name: "Add or edit a test suite via the test plan details specific tab"
-  url: "#add-or-edit-a-test-suite-via-the-test-plan-details-specific-tab"
+  name: "Manage Test Suites from Test Plan Details Page"
+  url: "#manage-test-suites-from-test-plan-details-page"
 ---
 
 ---
 
-As discussed under the [create test plan](https://testsigma.com/docs/test-management/test-plans/overview/) section, at least one *test suite* must be added to a test plan to develop it successfully.
-
-Here, we will discuss how to add, edit, or delete test suites in an existing test plan.
-
-There are two ways to add or edit a test suite in a test plan:
-
-1. Via the **Edit test plan** page
-
-2. Via the **Test plan details specific** tab
+While creating a test plan, you need to add at least one test suite to the test plan to develop it successfully. This article discusses how to manage test suites in test plans. 
 
 ---
 
-## **Add or edit a test suite via the edit test plan page**
+## **Prerequisites**
 
-1. Navigate to **Select project** > **Test development** > **Test plan**.
-2. Click on an existing test plan. ![clicking Test plan](https://s3.amazonaws.com/static-docs.testsigma.com/new_images/projects/overview/ts_openingexistingtestplan.png)
-3. Click **Edit** on the top right corner of the test plan page.![edit in test plan homepage](https://s3.amazonaws.com/static-docs.testsigma.com/new_images/projects/overview/ts_testplanedit.png)
-4. On the **Edit test plan** page, go to the **Test machines & suites selection** tab.
-5. Under the **Test machines & suites selection** tab - click **Add test suites**.![New Test Plan UI - add test suites area highlighted](https://s3.amazonaws.com/static-docs.testsigma.com/new_images/projects/overview/ts_addtestsuites.png)
-[[info | NOTE:]]
-| You should Associate Test Machine with Test Suites to create Test Plan
-
-6. The **Selected Test Suites** window will appear.![New Test Plan UI - selected test suites layover](https://s3.amazonaws.com/static-docs.testsigma.com/new_images/test-management/test-plans/manage-test-suites/new-test-plan-ui-selected-test-suites-layover.png) 
-Under the **Filters** section, you can filter the test suites by name. You can enable end-to-end testing if you want to execute test suites across multiple platforms. You can add more test cases by clicking on the **+** icon, and you can remove test cases by clicking on the **-** icon.
-7. Once the **Selected Test Suites** section contains the needed test suites, click **Add**.
+- You need to know [how to create a test plan](https://testsigma.com/docs/test-management/test-plans/overview/#steps-to-create-a-test-plan).
 
 ---
 
-## **Delete a test suite via the edit test plan page**
+## **Editing Test Suites in a Test Plan**
 
-1. Go to the Edit Test Plan page, click **Test machines & suites** tab section.
-2. Under the **Test machines & suites selection** tab, hover over the test suite you want to delete.![New Test Plan UI - delete test suite button](https://s3.amazonaws.com/static-docs.testsigma.com/new_images/projects/overview/ts_testsuitesdelete.png)
-3. Click **delete** corresponding to the test suite you want to delete, this will remove the entry from the **Test suites** section.
-4. Click on **Next** and then **Update** to finalise the changes.
+1. Navigate to **Test Plans**, create a test plan or click on any existing test plan.
+
+![Test Plans](https://s3.amazonaws.com/static-docs.testsigma.com/new_images/projects/applications/matsnavtps.png)
+
+
+2. Click on **Edit**.
+
+![Edit Test Plan](https://s3.amazonaws.com/static-docs.testsigma.com/new_images/projects/applications/matpetp.png)
+
+
+3. On the **Edit Test Plan** page, there are 3 sections. 
+    - **Basic Details**: You edit test plan Name, Labels and Test Plan Type on this section. 
+      ![Section 1](https://s3.amazonaws.com/static-docs.testsigma.com/new_images/projects/applications/matpbd.png)
+
+    - **Add Test Suites & Link Machine Profiles**: You can add/remove test suites and test machines on this section.
+      ![Section 2](https://s3.amazonaws.com/static-docs.testsigma.com/new_images/projects/applications/matps2.png)
+
+    - **Test Plan Settings**: You can edit **Additional Settings** on this section. 
+      ![Section 3](https://s3.amazonaws.com/static-docs.testsigma.com/new_images/projects/applications/matps3.png)
+
+
+Here’s the GIF demonstrating how to manage test suites in test plans.
+![Manage Test Suites from Edit Page](https://s3.amazonaws.com/static-docs.testsigma.com/new_images/projects/applications/TestSuiteManage1.gif)
+
+
+Alternatively, you can also add/remove test suites directly from the test plan details page. 
 
 ---
 
-## **Add or edit a test suite via the test plan details specific tab**
+## **Manage Test Suites from Test Plan Details Page**
 
-1. Navigate to **Select Project** > **Test Development** > **Test Plan**.
+1. Navigate to Test Plans and click on any existing test plan. 
 
-2. Click on an existing test plan.![clicking Test plan](https://s3.amazonaws.com/static-docs.testsigma.com/new_images/projects/overview/ts_openingexistingtestplan.png)
-3. Click **Edit** on the top right corner of the test plan page.![edit in test plan homepage](https://s3.amazonaws.com/static-docs.testsigma.com/new_images/projects/overview/ts_testplanedit.png)
+![Test Plans](https://s3.amazonaws.com/static-docs.testsigma.com/new_images/projects/applications/matsnavtps.png)
 
-4. The test plan details page should look something like this:![a test plan details page in Testsigma](https://docs.testsigma.com/images/manage-test-suites/test-plan-details-page-testsigma.png)
+2. On the test plan details page, hover over the test machine for which you want to add/remove test suites, click on **Kebab Menu**, and click on **Edit**.
 
-5. Go to the tab **Test machines & suites** on the test plan details page. A list of test suites will appear. You can **Edit** or **Delete** the test suites by hovering your mouse over the test suite. Click **Add New** to add test suites.![Test Suites Tab on Test Plan Details page in Testsigma](https://s3.amazonaws.com/static-docs.testsigma.com/new_images/projects/overview/ts_testsuitesmachines.png)
+![Edit](https://s3.amazonaws.com/static-docs.testsigma.com/new_images/projects/applications/matpdpedit.png)
 
-6. **Select Test Machines** & **Selected Test Suites** overlay appear in the screen. Give the required details and click **Add Test Suties**. ![Selected Test Suites Button on Test Plan Details page in Testsigma](https://s3.amazonaws.com/static-docs.testsigma.com/new_images/projects/overview/ts_addtestsuitesnew.png)
 
-7. The **Selected Test Suites** pop-up screen appears, and you can add or remove test suites as needed, and then click **Add** at the bottom right. Click **Create** to add new test suites.![Selected Test Suites layover in Testsigma](https://docs.testsigma.com/images/manage-test-suites/selected-test-suites-layover-testsigma.png)
+3. On the **Edit test machine/device profile** overlay, click on **Add/Remove Test Suites**.
+
+![Edit test machine profile](https://s3.amazonaws.com/static-docs.testsigma.com/new_images/projects/applications/matpdpaddremove.png)
+
+4. An overlay of **Add test suites to plan** opens. 
+
+![Add test suites to plan](https://s3.amazonaws.com/static-docs.testsigma.com/new_images/projects/applications/matpdpatp.png)
+
+5. To add a test suite, click on the ‘**+**’ button of the test suite of your choice from **Available Test Suites**.
+
+![Add Test Suites](https://s3.amazonaws.com/static-docs.testsigma.com/new_images/projects/applications/matpavailablets.png)
+
+
+6. To remove a test suite, click on the ‘**-**’ button of the test suite of your choice from **Selected for Test Plan**.
+
+![Remove test suite](https://s3.amazonaws.com/static-docs.testsigma.com/new_images/projects/applications/matpdpavailtsre.png)
+
+
+7. Once the Test Suites are added/removed from the test plan, click on **Update Machine** from **Edit test machine/device profile** overlay. 
+
+![Update Machine](https://s3.amazonaws.com/static-docs.testsigma.com/new_images/projects/applications/matputestmachine.png)
+
+Here’s the GIF demonstrating how to manage test suites in test plans from test plan details page.
+
+![Workflow GIF](https://s3.amazonaws.com/static-docs.testsigma.com/new_images/projects/applications/ManageTestSuite2.gif)
 
 ---

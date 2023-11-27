@@ -22,12 +22,14 @@ When you update the structure of your iOS application, you will need to update t
 &emsp;
 
 ---
-##**Pre-requisites:**
+
+## **Pre-requisites:**
 You should already know [how to capture elements using Test Recorder](https://testsigma.com/docs/test-cases/create-steps-recorder/ios-apps/overview/).
 
 &emsp;
 
 ---
+
 ##**How to update an element via Test Recorder:**
 1. Create a Test Case using Test Recorder in your iOS Project. 
    

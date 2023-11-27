@@ -61,5 +61,4 @@ You can select any of these options for identifier type.
 
 Click ‘Update’ button to finalize the changes.
 
-
-
+---
