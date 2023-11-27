@@ -7,6 +7,8 @@ jobs:
   Deploy:
     runs-on: ubuntu-latest
     steps:
+      - name: Update package information with default mirror
+        run: sudo sed -i 's|mirror+file:/etc/apt/apt-mirrors.txt|http://archive.ubuntu.com/ubuntu|' /etc/apt/sources.list && sudo apt-get update
       - name: Install libvips
         run: sudo apt-get install libvips
       - uses: actions/checkout@v2
@@ -51,7 +53,7 @@ jobs:
           TYPESENSE_COLLECTION: ${{ secrets.TYPESENSE_COLLECTION }}
           TYPESENSE_API_KEY: ${{ secrets.TYPESENSE_API_KEY }}
           TYPESENSE_SEARCH_API_KEY: ${{ secrets.TYPESENSE_SEARCH_API_KEY }}
-      
+
       - name: Start Gatsby server
         run: npm run develop &
         env:
