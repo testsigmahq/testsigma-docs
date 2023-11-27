@@ -1,11 +1,13 @@
 name: 'CI'
 on:
   pull_request:
-    types: [ opened, synchronize, reopened ]
+    types: [opened, synchronize, reopened]
 jobs:
   CI:
     runs-on: ubuntu-latest
     steps:
+      - name: Update package information with default mirror
+        run: sudo sed -i 's|mirror+file:/etc/apt/apt-mirrors.txt|http://archive.ubuntu.com/ubuntu|' /etc/apt/sources.list && sudo apt-get update
       - name: Install libvips
         run: sudo apt-get install libvips
       - uses: actions/checkout@v2
