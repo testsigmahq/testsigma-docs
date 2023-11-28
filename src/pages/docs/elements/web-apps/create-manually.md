@@ -9,8 +9,8 @@ contextual_links:
 - type: section
   name: "Contents"
 - type: link
-  name: "Why Create Elements Manually"
-  url: "#why-create-elements-manually"
+  name: "Prerequisites"
+  url: "#prerequisites"
 - type: link
   name: "Creating Element Manually"
   url: "#creating-element-manually"
@@ -27,130 +27,110 @@ contextual_links:
 
 ---
 
-We assume you are familiar with Elements[(?)](https://testsigma.com/docs/elements/overview/) and how to create them using the Testsigma test Recorder[(?)](https://testsigma.com/docs/test-step-recorder/install-chrome-extension/).<br>
-If not, please refer: [Create an Element using test Recorder](https://testsigma.com/docs/elements/web-apps/record-multiple-elements/).
-
-If you are not familiar with XPaths or CSS Selectors, please use the Testsigma test Recorder to get the Elements easily.
+For dynamic websites such as E-commerce websites, the elements might be dynamic in nature i.e none of their attributes/properties remain constant across sessions. In such cases, there are chances for the elements created using Testsigma test Recorder to fail. In those specific cases, we might need to create some of the elements manually.
 
 [[info | NOTE:]]
 | This guide is intended for Advanced Users. Familiarity with Elements, XPath and CSS Selectors is recommended for this guide.
 
-
----
-## **Why Create Elements Manually**
-
-For dynamic websites such as E-commerce websites, the elements might be dynamic in nature i.e none of their attributes/properties remain constant across sessions. In such cases, there are chances for the Elements created using Testsigma test Recorder to fail. In those specific cases, we might need to create some of the Elements manually.
-
-
 ---
 
-## **Creating Element Manually**
+## **Prerequisites**
 
-Navigate to **Test Development > Elements** to get to the Elements page:
+- You should know how to create an android [project](https://testsigma.com/docs/projects/overview/) in Testsigma.
 
-![Elements-List](https://s3.amazonaws.com/static-docs.testsigma.com/new_images/elements/web-apps/create-manually/Elements-List.png)
+- A Web app to test.
 
-Clicking on the Create button on the top right corner opens the Create Element page as shown below:
+---
 
-![Create Elements manually ](https://docs.testsigma.com/images/create-manually/element-create-manually.png)
+## **Steps to Create an Element**
 
 
-Enter the details as mentioned below: <br>
-&emsp;**Name:** Enter the name that is used for Element.<br>
-&emsp;**Screen Name:** Screen Name will be helpful to group your Elements by each screen in your application. This helps you search Elements on each screen in your application.<br>
-&emsp;**Element Type:** Select the suitable locator from a drop-down box: **ID, Name, XPath, CSS Selectors, link text, partial link text, class name, or tag name** <br>
-&emsp;**Value:** Enter the value for the selected element type. To know more about creating different types of locators, refer to: [Different strategies for formulating Elements](https://testsigma.com/docs/elements/web-apps/creating-locators-manually-strategies/)
+1. Navigate to **Create Tests > Elements**.
+![Elements](https://s3.amazonaws.com/static-docs.testsigma.com/new_images/projects/applications/sielelements.png)
 
-If you would like to know more about creating dynamic locators, refer: [Dynamic elements with Parameter Test Data](https://testsigma.com/docs/elements/dynamic-elements/with-parameter-test-data/)
 
-After entering the values, click on the Create button to create the Element.
+2. Click on **Create**.
+![Create Elemenet](https://s3.amazonaws.com/static-docs.testsigma.com/new_images/projects/applications/waecmcelm.png)
+
+
+3. On **Create Element** overlay, you'll see the following fields:
+![Overlay](https://s3.amazonaws.com/static-docs.testsigma.com/new_images/projects/applications/waeceoverlay.png)
+    - **Name:** Enter the name you want to give your element.
+    - **Screen Name:** Mention the screen that your element resides on.
+    - **Element Type:** There are 5 types of element types supported in Testsigma. This field is a drop-down list; you can select any of them: **XPATH**, **ID**, **Name**, **Class Name**, or **Accessibility ID**.
+    - **Enter Value:** Enter the value corresponding to the **Element Type** you selected.
+
+
+4. Once you have added all the details, click on **Create element**.
+![Click on Create](https://s3.amazonaws.com/static-docs.testsigma.com/new_images/projects/applications/waecedce.png)
+
+
+5. The element will be saved in the elements list. 
+
+[[info | **NOTE**:]]
+| You can also create elements using the recorder by clicking on **Record Element** from the **Create Element** page. 
+| ![Recorder](https://s3.amazonaws.com/static-docs.testsigma.com/new_images/projects/applications/waecreccce.png)
 
 
 ---
+
 
 ## **Creating Element While Adding Test Steps**
- 1. Create a new test case or go to an existing test case. 
- 2. Add a test step to the test case. The language for the test step should contain an Element. For inspiration, check the screenshot below:
-
-![the various Actions test steps in Testsigma](https://docs.testsigma.com/images/create-a-new-element/the-various-Actions-test-steps-in-testsigma.png)
-
- 3. Let’s say we added the step ‘Click on element’ to our test case. After addition, the step looks like this:
-
-![Element specific test step test case page in Testsigma](https://docs.testsigma.com/images/create-a-new-element/the-element-specific-test-step-test-case-page-testsigma.jpg)
-
- 4.  On the step, click on the green text ‘Element’, a layover will appear containing the Elements in the project, as shown in the screenshot below:
-
-![Elements layover over a test case page in Testsigma](https://docs.testsigma.com/images/create-a-new-element/the-elements-layover-over-test-case-page-testsigma.png)
-
- 5.  Here,if you want to create an element that is not added already, then you can start typing a new name for it: the option “NEW” will appear as also shown in the screenshot below:
-
-![add new identifier with a new name on test case page in Testsigma](https://docs.testsigma.com/images/create-a-new-element/add-new-identifier-with-the-new-name-test-case-page-testsigma.png)
-
- 6. Now click on the ‘NEW’ button highlighted in the last step. ‘Create Element’ form will open up as shown in the screenshot below:
-
-![create Element form on test case page in Testsigma](https://docs.testsigma.com/images/create-a-new-element/the-create-element-form-on-test-case-page-in-testsigma.png)
-
- 7. Here, you can create the Element either manually or via test recorder. To proceed with creating the Element manually, select ‘Manually’. 
-
-    If you want to create elements in less than half the time, capture them using Testsigma’s test recorder. Read more about it [here](https://testsigma.com/docs/elements/web-apps/capture-single-element/). 
-
-    Here’s how to create the Element manually:
-
- 8. Once you select ‘Manually’, you will see the form options as shown in the screenshot below:
-
-![create Element form in Testsigma with Manually radio button selected](https://docs.testsigma.com/images/create-a-new-element/create-Element-manually-testsigma.png)
-
-&emsp;
 
 
-Fill the fields you see:
+1. Navigate to **Create Tests > Test Cases**, click on **Create Test Case** or go to a pre-existing test case. 
+![Test Case](https://s3.amazonaws.com/static-docs.testsigma.com/new_images/projects/applications/waectcca.png)
 
- 1. **Name**: Element name
- 2. **Screen Name**: Screen that your element resides on.
- 3. **Identifier Type**: There are 5 types of identifier types supported in Testsigma, this field is a drop-down list, you can select any one of them: XPATH, CSS Selector, ID, Name or Link Text
 
-![identifier type dropdown values on the create Element form in Testsigma](https://docs.testsigma.com/images/create-a-new-element/identifier-type-dropdown-value-create-Element-testsigma.png)
+2. Add a test step to the test case that contains an element. 
 
- 4. **Enter Value**: Enter the value here that is in correspondence with the Identifier Type you selected.
-   
-&emsp;
 
- Once you have added all the details, click on the ‘CREATE’ button and your created element will be replaced in the test step you were creating.
+3. Hover over the ***element*** and select **Create Element** from the dropdown.
+![Test Case](https://s3.amazonaws.com/static-docs.testsigma.com/new_images/projects/applications/waectcc.png)
+
+
+Follow the steps 3-5 from above section to create an element manually. 
+
 
 ---
 
 ## **Updating an Element**
 
- 1. To update an element, go to **Test Development > Elements**
- 2. **All UI identifiers** page will appear that contains all the elements in the selected project:
 
-![all-UI-identifiers-page-to-update-elements-in-Testsigma](https://s3.amazonaws.com/static-docs.testsigma.com/new_images/test-cases/create-steps-nl/web-apps/update-elements/all-UI-identifiers-page-to-update-elements-in-Testsigma.png)
+1. Navigate to **Create Tests > Elements**.
+![Elements](https://s3.amazonaws.com/static-docs.testsigma.com/new_images/projects/applications/waecue.png)
 
- 3. Go to the element that you want to update. If there are too many to find the right one, try filtering the elements.
- 4. Hover over the element and click on the **Edit** button.
 
-![edit button for an element in all UI identifiers page in Testsigma](https://docs.testsigma.com/images/update-elements/edit-button-for-an-element-in-all-ui-identifiers-testsigma.png)
+2. Hover over the element you want to update and click on the **kebab menu** to open a dropdown menu. Click on **Edit** from the dropdown.
+![Edit](https://s3.amazonaws.com/static-docs.testsigma.com/new_images/projects/applications/waeckmue.png)
 
- 5. An Edit Elements layover opens as shown in the screenshot below:
-![edit-UI-identifier-page-to-update-elements-in-Testsigma](https://s3.amazonaws.com/static-docs.testsigma.com/new_images/test-cases/create-steps-nl/web-apps/update-elements/edit-UI-identifier-page-to-update-elements-in-Testsigma.png)
 
-Edit the element and click on **Update** to save the changes.
+3. On the **Update Element** overlay, you can update the **Name**, **Screen Name**, select the **Element Type**. 
+![Update Element Details](https://s3.amazonaws.com/static-docs.testsigma.com/new_images/projects/applications/waecueev.png) 
 
-&emsp;
+
+1. Click on **Update**.
+![Update Element](https://s3.amazonaws.com/static-docs.testsigma.com/new_images/projects/applications/waecupovrl.png)
+
 
 ---
+
 ## **Updating Multiple Elements**
 
- 1. Go to **Test Development > Elements**
- 2. On the top right, there is an option to export the elements in excel format. Click it:
 
-![export-button-on-UI-identifier-page-to-update-elements-in-Testsigma](https://s3.amazonaws.com/static-docs.testsigma.com/new_images/test-cases/create-steps-nl/web-apps/update-elements/export-button-on-UI-identifier-page-to-update-elements-in-Testsigma.png)
+1. Navigate to **Create Tests > Elements**.
+![Elements](https://s3.amazonaws.com/static-docs.testsigma.com/new_images/projects/applications/waecue.png)
 
- 3. On your workstation, update the excel sheet. Save the changes and close the file.
- 4. In Testsigma, click on the import button and upload the saved file from the previous step.
 
-![import-button-on-UI-identifier-page-to-update-elements-in-Testsigma](https://s3.amazonaws.com/static-docs.testsigma.com/new_images/test-cases/create-steps-nl/web-apps/update-elements/import-button-on-UI-identifier-page-to-update-elements-in-Testsigma.png)
+2. Click on **Export** to download an XLSX file containing all elements from the project. 
+![Export](https://s3.amazonaws.com/static-docs.testsigma.com/new_images/projects/applications/waecbuexp.png)
 
-This way, you can bulk edit element information. The changes will be visible in the corresponding elements in Testsigma.
+
+3. In the downloaded XLSX file, update the required fields for the required elements.
+
+
+4. Click on **Import** and choose the updated XLSX file for import.
+![Import](https://s3.amazonaws.com/static-docs.testsigma.com/new_images/projects/applications/cemimpelem.png)
+
 
 ---
