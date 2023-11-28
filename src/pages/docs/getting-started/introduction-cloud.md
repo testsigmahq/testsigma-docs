@@ -30,36 +30,44 @@ contextual_links:
 ---
 
 ---
- Testsigma Cloud is a fully-managed test automation platform that includes all the core features of the open-source platform, without any  infra-requirements. It also offers enhanced security, extensive test  lab, project and review management, powerful reporting capabilities, and  [much more.](https://testsigma.com/products)
+
+Testsigma Cloud is a fully managed test automation platform that includes all the core features of the open-source platform without any  infra-requirements. It also offers enhanced security, extensive test  lab, project and review management, powerful reporting capabilities, and [much more.](https://testsigma.com/products)
+
 
 <br>
 <iframe src="https://s3.amazonaws.com/static-docs.testsigma.com/new_images/projects/applications/testsigma_overview.mp4" width="600" height="400"></iframe>
  &emsp;
 
+
 ---
+
 ## **Setup Testsigma**
-The easiest way to get started is by[ signing up for an account on our cloud-hosted version. ](https://testsigma.com/signup)
+
+The easiest way to get started is by[ signing up for an account on our cloud-hosted version](https://testsigma.com/signup).
 
 
 ---
-## **Getting started**
- * [Tutorials](https://testsigma.com/tutorials/getting-started/automate-web-applications/)
- * [Core Concepts](https://testsigma.com/docs/test-cases/overview/)
- * [CI/CD Integrations](https://testsigma.com/docs/continuous-integration/jenkins/)
- * [Creating Add-ons](https://testsigma.com/docs/addons/what-is-an-addon/) 
+
+## **Getting Started**
+
+- [Tutorials](https://testsigma.com/tutorials/getting-started/automate-web-applications/)
+- [Core Concepts](https://testsigma.com/docs/test-cases/overview/)
+- [CI/CD Integrations](https://testsigma.com/docs/continuous-integration/jenkins/)
+- [Creating Add-ons](https://testsigma.com/docs/addons/what-is-an-addon/) 
   
  
 ---
-##**Getting help**
-  * Learn how to use, build, and extend the platform. Visit [documentation.](https://testsigma.com/docs/)
 
-  * Connect with product experts on the team and in the Community on our [Discord.](https://discord.com/invite/5caWS7R6QX)
+## **Getting Help**
 
-  * Troubleshooting problems? Report bugs as [Github issues.](https://github.com/testsigmahq/testsigma/issues/)
+- Learn how to use, build, and extend the platform. Visit [documentation.](https://testsigma.com/docs/)
 
-  * Refer to our [FAQ](https://testsigma.com/docs/getting-started/faqs/) section for answers to commonly asked questions.
+- Connect with product experts on the team and in the Community on our [Discord.](https://discord.com/invite/5caWS7R6QX)
 
-  * Reach out to us at **[support@testsigma.com](mailto:support@testsigma.com)**
+- Troubleshooting problems? Report bugs as [Github issues.](https://github.com/testsigmahq/testsigma/issues/)
 
+- Refer to our [FAQ](https://testsigma.com/docs/getting-started/faqs/) section for answers to commonly asked questions.
 
+- Reach out to us at **[support@testsigma.com](mailto:support@testsigma.com)**
 
+---
