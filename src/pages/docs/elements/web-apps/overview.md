@@ -1,5 +1,5 @@
 ---
-title: "Overview of Elements for a Web Project"
+title: "Elements for a Web Project (Overview)"
 metadesc: "Elements for a web project are needed to direct the interactions of UI. Here's an overview of Elements for a web project in Testsigma. "
 noindex: false
 order: 6.21
@@ -9,108 +9,70 @@ contextual_links:
 - type: section
   name: "Contents"
 - type: link
-  name: "Creating Elements"
-  url: "#creating-elements"
+  name: "Ways to Create Elements"
+  url: "#ways-to-create-elements"
 - type: link
-  name: "Filter Elements "
-  url: "#filter-elements"
+  name: "Actions on Elements Page"
+  url: "#actions-on-elements-page"
 - type: link
   name: "Element Review Management"
   url: "#element-review-management"
-- type: link
-  name: "Dynamic Elements with Test Data"
-  url: "#dynamic-elements-with-test-data"
 ---
 
 ---
 
-**Elements** in Testsigma represent the locators for the actual elements on your Web Pages or App Screens. These are needed to direct the interactions as Test Steps.
+Elements in web applications refer to components that make up the content and structure of a web page. They represent different types of content, such as text, images, links, forms, and more. In order to interact with any of these elements on the page, we have to create an element in Testsigma Elements Repository. This article discusses an overview of elements for a Web project.
 
-On the below page - Full name, Email-id, Age Group, Gender, etc. are all elements in the web page.
 
-![alt text](https://docs.testsigma.com/images/web-apps/sample-elements.png)
-
-In order to interact with any of these elements on the page, we have to create an Element in Testsigma Elements Repository.
-
-An element, in Testsigma Elements Repository, contains details that identify and locate those elements on the page. These can be a combination of HTML attributes and their parent, child, or sibling relationships with other elements on the page.
-
-We will be using an Element’s name in the Test Steps while writing Test Cases.
-
-<br>
 
 ---
-## **Creating Elements**
 
-We can [create multiple Elements using Testsigma test Recorder](https://testsigma.com/docs/elements/web-apps/record-multiple-elements/) which is the easiest and recommended way. Creating all the Elements in advance helps you to speed up the Test Case creation process.
-
-We can also [create a single Element using Testsigma test Recorder](https://testsigma.com/docs/elements/web-apps/capture-single-element/)
-
-Otherwise, if you are comfortable with XPaths and CSS Selectors, you can [create the Element manually](https://testsigma.com/docs/elements/web-apps/create-manually/) using the HTML attributes/properties.
+## **Ways to Create Elements**
 
 
-The following actions can be done from the Elements list:
-* Affected List
-* Sort the Elements 
-* Import/Export Elements: Read more about it in the document [here](https://testsigma.com/docs/elements/import-export/).
-* Filter the Elements
-* Bulk Delete the elements
+There are 2 different ways to create elements in Testsigma:
 
-Let’s discuss more details about element actions affected list, sort and filter below:
-1. **Affected List:** The affected List button in the Elements list shows the Test Cases that are affected by modification on the corresponding element.
-The Test Suites and the Test Plans containing these Test Cases can also be viewed from this page.
-2. **Sort the Elements:** The Elements list can be sorted on the basis of Name, Created Date and Update Date in ascending or descending order
 
-![Sort-Elements](https://s3.amazonaws.com/static-docs.testsigma.com/new_images/elements/web-apps/overview/Sort-Elements.png)
+1. **Manual Creation:** Here, you manually give the details of the element to create them. For more information, see [creating elements manually](https://testsigma.com/docs/elements/web-apps/create-manually/).
+
+2. **Using Test Recorder:** Here, you access your application’s UI using test recorder and inspect the elements that you want to capture. For more information, see [capturing elements using test recorder](https://testsigma.com/docs/elements/web-apps/capture-single-element/).
+
 
 ---
-## **Filter Elements** 
-To filter Elements, click on the Filter icon on the top left corner of the Elements List page. In the overlay that opens up, you can see the following options for filtering the Elements:
 
-* Name
-* Type
-* Screen name
-* Created By
-* Created Date
-* Updated Date
-* Value
-* Labels
-* Usage in Test Case
+## **Actions on Elements Page**
 
-![Element-List-Filters-overlay](https://s3.amazonaws.com/static-docs.testsigma.com/new_images/elements/web-apps/overview/Element-List-Filters-overlay.png)
+1. **Affected List:** The affected list button in the elements list shows the test cases that are affected by modification on the corresponding element. The test suites and the test plans containing these test cases can also be viewed from this page.
 
-* Name: Filter the Elements by their Name. This can be used to search Elements by name as well.
-* Type: Filter the Elements on the basis of locator type
-* Screen name: Filter by Screen name of the Element
-* Created By: Filter by the creator of Element
-* Created Date, Updated Date: Filter by created and updated dates
-* Value: Filter the Elements by their locator value. This can be used to search Elements by their locator value as well.
-* Labels: Filter by the tag/label for an element
-* Usage in Test Cases: Filter on the basis of the Element’s usage in Test Cases - Used, unused, or all.
 
-Modify the filtering options and click on the Filter button to filter the list. 
+2. **Sort the Elements:** The Elements list can be sorted on the basis of **Element Name**, **Created Date**, **Update Date**, **Old** or **New**.
+![Sort Elements](https://s3.amazonaws.com/static-docs.testsigma.com/new_images/projects/applications/waoelem.png)
 
-When you click on the Filter button, the Elements list would be filtered as per your selected filtering options. If you want to filter more, make changes to the filtering options and click on Filter again.
 
-Click on the Close button to get to the filtered list.
+3. **Filter Elements:** Filter option lets you filter element list as per your selected options. You can filter list as per the following options: 
+    - **Name**: Filter the elements by their Name. This can be used to search elements by name as well.
+    
+    - **Type**: Filter the elements on the basis of locator type.
+    
+    - **Screen Name**: Filter by screen name of the element.
+    
+    - **Created By**: Filter by the creator of element.
+    
+    - **Created Date/Updated Date**: Filter by created and updated dates.
+    
+    - **Element Value**: Filter the elements by their locator value. This can be used to search elements by their locator value as well.
+    
+    - **Labels**: Filter by the tag/label for an element.
+    
+    - **Usage in Test Cases**: Filter on the basis of the element’s usage in test cases - Used, unused, or all.
 
-Saving and updating Element Filters work the same as Test Case Filters. Refer to the [Test Case Filters](https://testsigma.com/docs/test-cases/manage/filters/) article to learn more about Filter Actions
+![Filters](https://s3.amazonaws.com/static-docs.testsigma.com/new_images/projects/applications/cewaov.png)
 
-<br>
 
 ---
+
 ## **Element Review Management**
-Larger teams can enable Review Management for the Elements so that the Elements used in the Test Cases are reviewed similar to a Test Case before finalizing and adding to the Regression Test Suite. [Learn more here](https://testsigma.com/docs/collaboration/elements-review-management/)
 
-<br>
+Larger teams can enable **Review Management** for the elements so that the elements used in the test cases are reviewed similar to a test case before finalizing and adding to the regression test suite. Learn more about review management [here](https://testsigma.com/docs/collaboration/elements-review-management/).
 
 ---
-## **Dynamic Elements with Test Data**
-Some advanced use-cases call for Elements with dynamic locators. A few of them are listed below:
-
-[Using Parameter Test Data for Dynamic locators](https://testsigma.com/docs/elements/dynamic-elements/with-parameter-test-data/)<br>
-[Using Runtime Test Data for Dynamic locators](https://testsigma.com/docs/elements/dynamic-elements/with-runtime-test-data/)<br>
-[Using Environment Test Data for Dynamic locators](https://testsigma.com/docs/elements/dynamic-elements/with-environment-data/)<br>
-
-
-
-

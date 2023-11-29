@@ -662,14 +662,16 @@ table{
 // Cookie banner
 #hs-banner-parent{
   .hs-cookie-notification-position-bottom{
-    width: calc(min(28em, 100%));
-    left: 14%;
+    width: calc(min(28em, 100%)) !important;
+    left: calc(min(15em, 100%)) !important;
     @media only screen and (max-width: 767px) {
       left: 3%;
+      bottom: 2%;
       width: 95%;
     }
     @media only screen and (min-width:768px) and (max-width: 1023px) {
       left: 20%;
+      bottom: 10%;
       width: 35%;
     }
     #hs-eu-cookie-confirmation-inner{
@@ -682,6 +684,52 @@ table{
         #hs-eu-decline-button{
           @apply hidden;
         }
+      }
+    }
+  }
+}
+
+//Black-friday hello bar design
+#leadinModal-4801049{
+  .leadinModal-content {
+    background: linear-gradient(
+      92deg,
+      #4dd795 37.61%,
+      rgba(96, 217, 188, 0.83) 76.64%
+    ) !important;
+    .leadinModal-content-wrapper {
+      .leadin-content-body {
+        .leadin-preview-wrapper {
+          h4 {
+            @apply font-bold;
+            font-size: 16px;
+            line-height: normal;
+            color: #000000 !important;
+            margin: 0 auto;
+            margin-left: auto !important;
+            margin-right: auto;
+            text-align: center !important;
+            font-style: normal;
+          }
+          .advance-wrapper {
+            @media (max-width: 767px) {
+              @apply mt-8;
+            }
+            .leadin-button {
+              @apply font-bold text-center;
+              font-size: 14px;
+              color: #fff !important;
+              border-radius: 3px;
+              background-color: #191919 !important;
+              font-style: normal;
+            }
+          }
+        }
+      }
+    }
+    .leadinModal-close{
+      &::before{
+        color: #000000 !important;
       }
     }
   }

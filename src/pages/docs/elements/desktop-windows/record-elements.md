@@ -1,5 +1,5 @@
 ---
-title: "Recording elements"
+title: "Recording Elements for Desktop Windows"
 metadesc: "Learn how to record one element at a time by using the Testsigma mobile inspector for a dekstop application project in Testsigma application."
 noindex: false
 order: 6.51
@@ -15,38 +15,51 @@ contextual_links:
   name: "Steps to record an element"
   url: "#steps-to-record-an-element"
 ---
+
 ---
-<p>
 
-To add a new UI element to your Desktop Windows project you can create it manually or record each element using Testsigma's <em>Element inspector</em>. This article discusses on how to record a UI element of your desktop application. </p>
 
+
+To add a new UI element to your Desktop Windows project you can create it manually or record each element using Testsigma's test recorder. This article discusses on how to record a UI element of your desktop application.
+
+---
 
 ## **Prerequisites**
 
-<ol>
-<li>
-You should have an Desktop Windows project in Testsigma. <em>For more information refer to <a href="https://testsigma.com/docs/projects/overview/#create-project">creating a project</a></em>.</li>
-<li>Your applications <kbd>.exe</kbd> file should be installed on your local machine. </li>
-<li>Install Testsigma local agent.<em> For more information refer to <a href="https://testsigma.com/docs/agent/setup-on-windows-mac-linux/">installing Testsigma local agent on Windows</a></em></li>
-</ol>
-<br>
+- You should know how to create Desktop Windows [project](https://testsigma.com/docs/projects/overview/) in Testsigma.
+
+- You should have **.exe** file installed on your local machine.. 
+
+- You should have [Testsigma local agent](https://testsigma.com/docs/agent/setup-on-windows-mac-linux/) installed .
+
+---
+
+## **Steps to Record an Element**
+
+1. Navigate to **Create Tests > Elements**.
+![Elements](https://s3.amazonaws.com/static-docs.testsigma.com/new_images/projects/applications/dwenav.png)
 
 
-## **Steps to record an element**
+2. Click on **Record**.
+![Record](https://s3.amazonaws.com/static-docs.testsigma.com/new_images/projects/applications/dwecor.png)
 
-<ol>
-<li>Navigate to <strong>Test development > Elements</strong>
-<img src=https://s3.amazonaws.com/static-docs.testsigma.com/new_images/elements/desktop-windows/record-elements/desktop_windows_record_element.png> </li>
-<li>Click <strong>Record</strong>.</li>
-<li>On the <strong>Record element </strong> window,
-<ol>
-<li>Select the agent from the drop-down list.</li>
-<li>Provide the executable file path of your desktop application.</li>
-<li>Click <strong>Record</strong>.</li>
-</ol>
-<img src="https://s3.amazonaws.com/static-docs.testsigma.com/new_images/elements/desktop-windows/record-elements/select_agent_desktop_windows.png"></li>
-This launches the Element inspector and the workflow would look something like the below:
-<img src="https://s3.amazonaws.com/static-docs.testsigma.com/new_images/elements/desktop-windows/record-elements/record_element_desktop_window.gif" alt="recording elements for desktop windows">
-</ol>
-The all recorded elements are listed in the <strong>All elements</strong> page.
-<img src="https://s3.amazonaws.com/static-docs.testsigma.com/new_images/elements/desktop-windows/record-elements/elements_details_desktop_windows.png" alt="all elements">
+
+3. On **Record elements** overlay, select **Test Lab**, **Test Machine** and provide **App path**.
+![Overlay](https://s3.amazonaws.com/static-docs.testsigma.com/new_images/projects/applications/dweed.png)
+
+
+4. Click on **Record**.
+![Record](https://s3.amazonaws.com/static-docs.testsigma.com/new_images/projects/applications/dweconr.png)
+
+
+5. This will open element inspector. 
+
+
+6. Record the elements and stop the recorder to close the session. 
+
+
+7. The element will be saved in the elements list. 
+![Recorded Element](https://s3.amazonaws.com/static-docs.testsigma.com/new_images/projects/applications/dweseiel.png)
+
+
+---

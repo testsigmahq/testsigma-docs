@@ -219,19 +219,19 @@
     "/docs/api/elements/": "Elements"
   },
   "record-multiple-elements": {
-    "/docs/elements/web-apps/record-multiple-elements/": "Record Multiple Elements[Recorder]",
-    "/docs/elements/android-apps/record-multiple-elements/": "Record Multiple Elements[Recorder]",
-    "/docs/elements/ios-apps/record-multiple-elements/": "Record Multiple Elements[Recorder]"
+    "/docs/elements/web-apps/record-multiple-elements/": "Record Multiple Elements",
+    "/docs/elements/android-apps/record-multiple-elements/": "Record Multiple Elements",
+    "/docs/elements/ios-apps/record-multiple-elements/": "Record Multiple Elements"
   },
   "capture-single-element": {
-    "/docs/elements/web-apps/capture-single-element/": "Capture Single Element[Recorder]",
-    "/docs/elements/android-apps/capture-single-element/": "Capture Single Element[Recorder]",
-    "/docs/elements/ios-apps/capture-single-element/": "Capture Single Element[Recorder]"
+    "/docs/elements/web-apps/capture-single-element/": "Record Single Element",
+    "/docs/elements/android-apps/capture-single-element/": "Record Single Element",
+    "/docs/elements/ios-apps/capture-single-element/": "Record Single Element"
   },
   "create-manually": {
-    "/docs/elements/web-apps/create-manually/": "Create Elements [Manually]",
-    "/docs/elements/android-apps/create-manually/": "Create Elements [Manually]",
-    "/docs/elements/ios-apps/create-manually/": "Create Elements [Manually]"
+    "/docs/elements/web-apps/create-manually/": "Create Elements",
+    "/docs/elements/android-apps/create-manually/": "Creating Elements Manually",
+    "/docs/elements/ios-apps/create-manually/": "Create Elements"
   },
   "supported-locator-types": {
     "/docs/elements/web-apps/supported-locator-types/": "Supported Locator Types",
@@ -239,7 +239,7 @@
     "/docs/elements/ios-apps/supported-locator-types/": "Supported Locator Types"
   },
   "creating-locators-manually-strategies": {
-    "/docs/elements/web-apps/creating-locators-manually-strategies/": "Different Strategies for Formulating Elements",
+    "/docs/elements/web-apps/creating-locators-manually-strategies/": "Formulating Elements",
     "/docs/elements/android-apps/creating-locators-manually-strategies/": "Different Strategies for Formulating Elements",
     "/docs/elements/ios-apps/creating-locators-manually-strategies/": "Different Strategies for Formulating Elements"
   },
@@ -592,5 +592,8 @@
   },
   "add-values-to-test-data-profile":{
     "/docs/test-data/add-values-to-test-data-profile/": "Updating Value in TDP"
+  }
+  "ios-apps":{
+    "/docs/elements/ios-apps/overview/": "iOS Apps"
   }
 }
