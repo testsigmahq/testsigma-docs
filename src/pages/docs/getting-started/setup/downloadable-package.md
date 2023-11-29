@@ -10,14 +10,14 @@ contextual_links:
 - type: section
   name: "Contents"
 - type: link
-  name: "Pre-requisites"
-  url: "#pre-requisites"
+  name: "Prerequisites"
+  url: "#prerequisites"
 - type: link
-  name: "Step1: Download the Package"
-  url: "#step1-download-the-package"
+  name: "Step 1: Download the Package"
+  url: "#step-1-download-the-package"
 - type: link
-  name: "Step2: Run Services"
-  url: "#step2-run-services"
+  name: "Step 2: Run Services"
+  url: "#step-2-run-services"
 - type: link
   name: "Update to new Version"
   url: "#update-to-new-version"
@@ -31,14 +31,16 @@ contextual_links:
 
 
 ---
-##**Pre-requisites**
+
+## **Prerequisites**
 
 Create a folder called testsigma where you would like to install Testsigma. 
 
 **cd** cmd into this installation folder(testsigma)
 
 ---
-##**Step1: Download the Package**
+
+## **Step 1: Download the Package**
 
 Download the Testsigma zip into the installation folder(testsigma) from https://github.com/testsigmahq/testsigma/releases/latest/
 
@@ -58,9 +60,9 @@ We need 4 components for the Testsigma community server to work:
 
 ---
 
-###MySQL
+### MySQL
 
-####**Install MySQL**
+#### **Install MySQL**
 
  1. Download and install MySQL from https://dev.mysql.com/downloads/mysql/
 
@@ -78,12 +80,13 @@ You can also connect with an external/existing MYSQL server instance. Set the fo
 
 ---
 
-###Nginx
+### Nginx
 
 Since we have UI components and API server separately we need a single application to route the requests between them. Nginx is the one that facilitates this. Nginx listens to 443 ports for HTTPS connections and forwards them to the API server, so make sure this port is not occupied by another service.
 
 ---
-###Testsigma Server
+
+### Testsigma Server
 
 Testsigma follows API first approach, all APIs are served from this service. This service contains all APIs and business logic to support the Testsigma UI and all other backend processes. Testsigma Server is a Spring Boot application that runs on port 9090 by default. Make sure that 9090 is free. If you want to change the port follow the steps below.  <br>
    
@@ -93,7 +96,8 @@ Testsigma follows API first approach, all APIs are served from this service. Thi
 - Before starting the Testsigma agent, set the environment variable LOCAL\_SERVER\_URL to http://localhost:<port> here you can replace <port> with the port you would like to use.<br>
    
 ---
-###Testsigma Agent
+
+### Testsigma Agent
 
 Testsigma Agent is a microservice that processes test case data and runs tests on browsers and mobile devices. The Testsigma agent runs on ports 9393 (HTTP) and 9494 (HTTPS) by default. If you want to change these ports, follow the steps below: <br>
 - Before changing the ports, stop Nginx, Testsigma Server, and Testsigma Agent.<br>
@@ -101,20 +105,20 @@ Testsigma Agent is a microservice that processes test case data and runs tests o
 - Before starting the Testsigma agent you need to set the environment variables TESTSIGMA\_AGENT\_HTTP\_PORT for HTTP port and TESTSIGMA\_AGENT\_HTTPS\_PORT for HTTPS port.<br>
 
 ---
-##**Step2: Run Services**
-###Windows
-####Starting Nginx
-  - Open a command prompt<br>
-  - Navigate to the extracted folder<br>
+## **Step 2: Run Services**
+### Windows
+#### **Starting Nginx:**
+- Open a command prompt<br>
+- Navigate to the extracted folder<br>
 - Run start\_nginx.bat to start Nginx<br>
 - If you want to stop nginx at any point   in time then, run the  start\_nginx.bat script <br>
 
-####**Starting API Server:**<br>
+#### **Starting API Server:**<br>
 - Open a command prompt<br>
 - Navigate to the extracted folder<br>
 - Navigate to the TestsigmaServer folder<br>
 - Run start.bat file to start the Testsigma API server<br>
-- You can run stop.bat if you want to stop the API server at any point in time<br>
+- You can run **stop.bat** if you want to stop the API server at any point in time<br>
 
 #### **Starting Local Agent:**<br>
 - Open a command prompt<br>
@@ -137,7 +141,7 @@ Testsigma Agent is a microservice that processes test case data and runs tests o
 - Navigate to the extracted folder<br>
 - Navigate to the TestsigmaServer folder<br>
 - Run start.sh file to start the Testsigma API server<br>
-- You can run stop.sh if you want to stop the API server at any point in time<br>
+- You can run **stop.sh** if you want to stop the API server at any point in time<br>
 
 
 #### **Starting Local Agent:**<br>
@@ -148,12 +152,14 @@ Testsigma Agent is a microservice that processes test case data and runs tests o
 - You can run stop.sh if you want to stop the agent at any point in time<br>
 
 ---
-##**Verifying the installation**
+
+## **Verifying the installation**
 
 Your Testsigma server should be up and running now. Testsigma server will be accessible at https://local.testsigmaos.com/ui
 
 ---
-##**Update to new Version**
+
+## **Update to new Version**
 
  1. Stop Nginx, TestsigmaServer, TestsigmaAgent
  2. Delete the Testsigma Installation folder 
@@ -162,12 +168,14 @@ Your Testsigma server should be up and running now. Testsigma server will be acc
  5. Now login to check the updated version of Testsigma Server here  https://local.testsigmaos.com/ui
 
 ---
-##**Troubleshooting**
+
+## **Troubleshooting**
 
  If you encounter any errors during this process, check out our guide on [debugging deployment errors](https://testsigma.com/docs/troubleshooting/setup/server-docker-deployment-errors/). If you are still facing any issue, please reach out to [support@testsigma.com](mailto:support@testsigma.com) or join our [Discord Server](https://discord.com/invite/5caWS7R6QX) to speak to the Testsigma team directly!
 
 ---
-##**Next Steps**
+
+## **Next Steps**
 
 1. [Get Started with Automating Web Applications](https://testsigma.com/tutorials/getting-started/automate-web-applications/)
 2. [Get Started with Automating Mobile Web Applications](https://testsigma.com/tutorials/getting-started/automate-mobile-web-applications/)
@@ -175,3 +183,6 @@ Your Testsigma server should be up and running now. Testsigma server will be acc
 4. [Get Started with Automating iOS Apps](https://testsigma.com/tutorials/getting-started/automate-ios-applications/)
 5. [How to automate tests for Android Apps using local devices](https://testsigma.com/tutorials/test-cases/mobile-apps/build-tests-using-local-android-devices/)
 6. [How to automate tests for iOS Apps using local devices](https://testsigma.com/tutorials/test-cases/mobile-apps/build-tests-using-local-ios-devices/)
+
+
+---

@@ -206,7 +206,7 @@
     "/docs/test-data/create-data-profiles/": "Create Test Data [Parameter]"
   },
   "import-data-profiles": {
-    "/docs/test-data/import-data-profiles/": "Import Test Data [Parameter]"
+    "/docs/test-data/import-data-profiles/": "Import TDP"
   },
   "create-environment-data": {
     "/docs/test-data/create-environment-data/": "Create Test Data [Environment]"
@@ -583,6 +583,15 @@
   },
   "multiple-webviews":{
     "/docs/test-cases/create-test-steps/actions-and-options-recorder/multiple-webviews/": "Tests for Multiple WebViews"
+  },
+  "faqs":{
+    "/docs/getting-started/faqs/": "FAQs"
+  },
+  "manage-execution-stops":{
+    "/docs/collaboration/manage-execution-stops/": "Execution Controls"
+  },
+  "add-values-to-test-data-profile":{
+    "/docs/test-data/add-values-to-test-data-profile/": "Updating Value in TDP"
   },
   "ios-apps":{
     "/docs/elements/ios-apps/overview/": "iOS Apps"

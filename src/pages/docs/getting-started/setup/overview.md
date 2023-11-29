@@ -23,9 +23,9 @@ contextual_links:
 
 
 ---
-##**Using Testsigma Cloud**
+## **Using Testsigma Cloud**
 
-Recommended as the easiest and fastest way to kickstart your automation journey
+This is recommended as the easiest and fastest way to kickstart your automation journey. 
 
 Comes with a fully managed test lab, enhanced security and robust features that bring additional stability & maintainability to your testing environments.
 
@@ -33,7 +33,8 @@ Comes with a fully managed test lab, enhanced security and robust features that 
 
 
 ---
-##**Deploy on your Local Servers**
+
+## **Deploy on your Local Servers**
 
 Testsigma Community Edition (CE) is an open-source platform that you can install on your local machine or private server instance using the following options:
 
@@ -42,12 +43,14 @@ Testsigma Community Edition (CE) is an open-source platform that you can install
 
 
 ---
-##**Getting help**
 
-If you face any problems or issues when installing Testsigma on any platform, reach out to us at <a href="mailto:support@testsigma.com">support@testsigma.com</a> or join our [Discord Server](https://discord.com/invite/5caWS7R6QX).
+## **Getting help**
+
+If you face any problems or issues when installing Testsigma on any platform, reach out to us at <a href="mailto:support@testsigma.com">support@testsigma.com</a> or join our [discord derver](https://discord.com/invite/5caWS7R6QX).
 
   * Learn how to use, build, and extend the platform. Visit [documentation](https://testsigma.com/docs/) 
-  * Connect with product experts on the team and in the Community on our [Discord](https://discord.com/invite/5caWS7R6QX).
-  * Troubleshooting problems? Report bugs as [Github issues](https://github.com/testsigmahq/testsigma/issues).
-  * Refer to our [FAQ](https://testsigma.com/docs/getting-started/faqs/) section for answers to commonly asked questions.
+  * Connect with product experts on the team and in the Community on our [discord](https://discord.com/invite/5caWS7R6QX).
+  * Troubleshooting problems? Report bugs as [github issues](https://github.com/testsigmahq/testsigma/issues).
+  * Refer to our [FAQs](https://testsigma.com/docs/getting-started/faqs/) section for answers to commonly asked questions.
 
+---

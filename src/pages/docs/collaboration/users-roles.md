@@ -2,7 +2,7 @@
 title: "Users & Role Management"
 metadesc: "How to manage users and roles in Testsigma."
 noindex: false
-order: 3.1
+order: 3.2
 page_id: "Users & Role Management"
 warning: false
 contextual_links:
@@ -15,8 +15,11 @@ contextual_links:
   name: "Edit Users to Assign New Roles"
   url: "#edit-users-to-assign-new-roles"
 - type: link
-  name: "Assign Roles to Users"
-  url: "#assign-roles-to-users"  
+  name: "Assign Roles to Users From Project Settings"
+  url: "#assign-roles-to-users-from-project-settings"
+- type: link
+  name: "Deleting Users From a Project"
+  url: "#deleting-users-from-a-project"  
 ---
 
 ---
@@ -57,20 +60,51 @@ Below are the four roles that can be assigned to a project member in Testsigma:
 
 ---
 
-## **Assign Roles to Users**
-1. Navigate to **Project > Project Settings**, click on **Project members**. 
+## **Assign Roles to Users from Project Settings**
+
+1. Navigate to **Project > Project Settings**, click on **Project Members**. 
 ![Project Members](https://s3.amazonaws.com/static-docs.testsigma.com/new_images/projects/applications/urmpmem.png)
+
 
 2. Click on **Invite**.
 ![Invite](https://s3.amazonaws.com/static-docs.testsigma.com/new_images/projects/applications/urminvite.png)
 
-3. On **Add New Member to Project** prompt, enter **Email** and select the **Role** you want to assign. 
+
+3. On **Invite new member** prompt, enter **Email** and select the **Role** you want to assign. 
 ![Email & Role](https://s3.amazonaws.com/static-docs.testsigma.com/new_images/projects/applications/urmear.png)
 
 4. Click on **Update**. 
 ![New User](https://s3.amazonaws.com/static-docs.testsigma.com/new_images/projects/applications/urmud.png)
 
+
 [[info | **NOTE**:]]
 | You can only add users as **Test Manager**, **Test Lead**, and **Automation Engineer/Developer**. To assign **Super Admin** roles, refer to [Assign Projects](https://testsigma.com/docs/collaboration/assign-projects/).
 
 The invited user should receive an invitation email. They will need to join via the link sent in the email. Once they have joined they should be able to work on the project according to the role assigned to them.
+
+
+
+---
+
+## **Deleting Users From a Project**
+
+
+If you're the super administrator of the project, you can delete users. 
+
+1. Navigate to **Project > Project Settings**, click on **Project Members**. 
+![Project Members](https://s3.amazonaws.com/static-docs.testsigma.com/new_images/projects/applications/autpmemm.png)
+
+
+2. Hover over the user you want to delete and click on **Delete**. 
+![Delete](https://s3.amazonaws.com/static-docs.testsigma.com/new_images/projects/applications/autpcodelete.png)
+
+
+3. On **Delete member**, enter **DELETE** and click on **Delete**.
+![Delete](https://s3.amazonaws.com/static-docs.testsigma.com/new_images/projects/applications/autpdlprompt.png)
+
+
+Alternatively, you can also delete user from global settings by navigating to **Settings > Users**.
+
+
+
+---
