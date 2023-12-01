@@ -16,60 +16,74 @@ contextual_links:
   name: "Integrating Zepel with Testsigma"
   url: "#integrating-zepel-with-testsigma"
 - type: link
-  name: "Creating a bug"
+  name: "Creating a Bug"
   url: "#creating-a-bug"
 ---
 
 ---
 
-With Testsigma Zepel integration, you can push bugs directly from Testsigma to your Zepel's project, capture screenshots, annotate bugs, and share them with your teammates.
+With Testsigma Zepel integration, you can push bugs directly from Testsigma to your Zepel project, capture screenshots, annotate bugs, and share them with your teammates.
 
-In this document, we will discuss how to establish Integration with Zepel from your Testsigma account and how to create the first bug from Testsigma which can flow into Zepel.
+In this document, we will discuss how to establish Integration with Zepel from your Testsigma account and create the first bug from Testsigma that can flow into Zepel.
 
 ---
+
 ## **Prerequisites**
 
-To integrate Zepel with Testsigma, we need the following information from your Zepel Account
-  * Account URL - Your organization’s Zepel Account URL
-  * API Key - Refer to [Creating your Zepel API Token](https://zepel.io/developers/api/v1/#authentication)
+1. To integrate Zepel with Testsigma, we need the following information from your Zepel account:
+    - Account URL
+    - API Key (For more information, refer to [creating your Zepel API token](https://zepel.io/developers/api/v1/#authentication))
 
-You should already know about [Test Plan Runs and results](https://testsigma.com/docs/runs/test-plan-executions/).
+2. You should know about [test plan runs and results](https://testsigma.com/docs/runs/test-plan-executions/).
+
+
 
 ---
+
 ## **Integrating Zepel with Testsigma**
 
-Once you’ve obtained the prerequisite details, navigate to the Plugins page through **Dashboard > Settings > Plugins** and select Zepel under the Bug Reporting Tab.
+1. Navigate to **Settings > Integrations**.
+![Integrations](https://s3.amazonaws.com/static-docs.testsigma.com/new_images/projects/applications/mstinav.png)
 
-Click on the Disabled Icon on **Zepel**. Zepel Details overlay opens up as shown below:
 
-![Add Zepel Integration form](https://docs.testsigma.com/images/zepel/add-zepel-integration-form.png)
+2. Enable toggle on **Zepel** widget.
+![Zepel Widget](https://s3.amazonaws.com/static-docs.testsigma.com/new_images/projects/applications/zitgl.png)
 
-Enter the details mentioned in Prerequisites. After entering the details, click on the Create button to add the Integration.
+3. On the **Zepel details** prompt, **Account URL**, **API Key** and click on **Save & Enable**.
+![Save & Enable](https://s3.amazonaws.com/static-docs.testsigma.com/new_images/projects/applications/zidtails.png)
+
+
 
 ---
-## **Creating a bug**
 
-We can create a bug within Testsigma from the run results page for a particular Test Plan with the following steps:
 
- 1. Navigate to the run results test case level page where you want to add a bug.
- 2. Click on the **Report Bug** button (bug icon on the top right corner) to open the Bug Reporting overlay.
+## **Creating a Bug**
 
- ![report bug button on the run test case page for run results ](https://docs.testsigma.com/images/zepel/run-results-test-case-page-report-bug-button-zepel.png)
+1. Navigate to **Run Results > Test Case Result**, where you want to add a bug.
+![Run Results](https://s3.amazonaws.com/static-docs.testsigma.com/new_images/projects/applications/tcresultyt.png)
 
- 3. Choose Zepel and enter information about your bug.
+
+2. Click on **Report Bug**.
+![Report Bug](https://s3.amazonaws.com/static-docs.testsigma.com/new_images/projects/applications/reportbugyt.png)
+
+
+3. Choose **Zepel** and enter information about your bug.
 
 ![Sample Task reported from Testsigma Bug Reporting Integration in Test Results page](https://docs.testsigma.com/images/zepel/plugins-create-zepel-bug-form-filled.png)
 
 [[info | NOTE:]]
-|Only the bug reporting tools that have been enabled via the plugins page (add link) will be displayed here.
+| Only the bug reporting tools that have been enabled via the plugins page (add link) will be displayed here.
 
-If you want to link to an existing issue on Zepel, click on the **Link to Issue** button, search for an existing issue in the search field and click on Link Issue to add a link to an existing Issue on Zepel. Otherwise, enter the bug details in the form as required.
+If you want to link to an existing issue on Zepel, click on the **Link to Issue** button, search for an existing issue in the search field, and click on Link Issue to add a link to an existing Issue on Zepel. Otherwise, enter the bug details in the form as required.
 
- 4. Click on Create to create the Bug.
-
-When the bug is created, some additional details regarding the Test Result such as the Test Execution Video and Step Screenshots are added automatically by Testsigma. This helps the developer who checks the issue in Zepel to understand the issue/bug better with more context.
+4. Click on **Create Ticket**.
 
 
 
+When the bug is created, some additional details regarding the test result, such as the test execution video and step screenshots, are automatically added to the issue on Zepel by Testsigma. This helps the developer who checks the issue in Zepel better understand the issue/bug with more context.
 
 
+
+
+
+---
