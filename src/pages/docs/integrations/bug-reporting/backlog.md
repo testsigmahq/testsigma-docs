@@ -34,7 +34,7 @@ Testsigma Mantis integration lets you create issues directly from the Testsigma 
     - **Account URL**: Your organization’s Backlog account URL
     - **API Key**: Backlog API Token
 
-2. You should already know about [test plan runs and results](https://testsigma.com/docs/runs/test-plan-executions/)
+2. You should already know about [test plan runs and results](https://testsigma.com/docs/runs/test-plan-executions/).
 
 ---
 
