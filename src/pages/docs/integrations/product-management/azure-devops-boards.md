@@ -73,8 +73,9 @@ The Testsigma Azure DevOps Integration allows you to create work items within yo
 
 
 [[info | **NOTE**:]]
-| If you want to link to an existing issue on Azure DevOps, click on the **Link to Issue** button, search for an existing issue in the search field and click on **Link Issue** to add a link to an existing Issue.
+| - If you want to link to an existing issue on Azure DevOps, click on the **Link to Issue** button, search for an existing issue in the search field and click on **Link Issue** to add a link to an existing Issue.
 | ![Link to Issue](https://s3.amazonaws.com/static-docs.testsigma.com/new_images/projects/applications/adoicolti.png)
+| - You can also link the Azure DevOps test case with Testsigma test case. Get the test case ID from Azure DevOps, navigate to **Create Tests > Test Cases > Test Case**, and enter the ID in the top right corner of the test case details page with the text box **Enter Azure DevOps ID**. The test case will be linked with the Azure DevOps test case.
 
 
 
