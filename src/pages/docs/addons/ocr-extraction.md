@@ -19,34 +19,57 @@ contextual_links:
   url: "#using-ocr-addon-in-a-test-case"
 ---
 
-<br>
+
+---
 
 In this article, we will discuss how to create an addon for OCR text extraction. The creation part for the addon is similar except we set a class that implements the OCR interface.
+
+
+## **Prerequisites**
+
 - To know about the prerequisites for addons, refer to [prerequisites for creating an add-on](https://testsigma.com/docs/addons/pre-requisite-to-create-addon/).
+
 - To know how to create an addon, refer to [create a Testsigma addon](https://testsigma.com/docs/addons/create/).
 
-<br>
+---
 
 ## **Update the Action Code**
+
 1. Unzip the downloaded zip file and open the extracted folder in your favorite IDE as a Java module. This Java module contain the following template files which need to be updated:
 ![Folder](https://s3.amazonaws.com/static-docs.testsigma.com/new_images/projects/applications/folder.png)
+
 - **pom.xml:** Contains all your dependencies needed to code your functionality.
+
 - **src folder:** Sample source java files with sample add-on functions.
 
+
 2. From your IDE, import the downloaded Java module as Maven/Gradle.
+
 
 3. The Template Java module contains all necessary dependencies required to develop an Addon. For OCR Text Extraction action, you can add the following to pom.xml.
 ![OCR code update](https://s3.amazonaws.com/static-docs.testsigma.com/new_images/projects/applications/ocr.png)
 
+---
+
 ## **Overview of the method to extract text**
+
 - ***extractTextFromPage():*** This method will extract text from an entire page.
+
 - ***extractTextFromImage(OCRImage image):*** This method will extract text from a specified OCRImage object.
+
 - ***extractTextFromElement(Element element):*** This method will extract text from a specific Element object.
 
 [[info | **NOTE**:]]
 | All three methods mentioned above will return a List of OCRTextPoint objects, which represent the location of the text within the source.
 
-## **Using OCR Addon in a Test case**
-Once you publish the addon, the NLPs will be available in the application. Refer to the gif below to learn how to use the NLP in the Test Cases.
+---
 
-![Addon GIF](https://s3.amazonaws.com/static-docs.testsigma.com/new_images/projects/applications/ocrtc.gif)
+
+## **Using OCR Addon in a Test case**
+
+Once you publish the addon, the NLPs will be available in the application. Example NLP, 'Click on the ***Element*** by the text ***test-data***'.
+
+
+
+
+---
