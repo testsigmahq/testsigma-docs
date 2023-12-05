@@ -595,5 +595,11 @@
   },
   "ios-apps":{
     "/docs/elements/ios-apps/overview/": "iOS Apps"
+  },
+  "after-test":{
+    "/docs/test-management/test-plans/after-test/": "AfterTest Case"
+  },
+  "partial-test-plan-run-via-api":{
+    "/docs/test-management/test-plans/partial-test-plan-run-via-api/": "Execute Partial Test Plans via API"
   }
 }

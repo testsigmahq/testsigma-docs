@@ -17,30 +17,38 @@ contextual_links:
   url: "#specify-the-extensions-path-in-the-desired-capabilities"
 ---
 
----
-
-You can add a Chrome Extension to your Automation Session in 2 simple steps:
-
-1.Obtain the CRX/CRX3 file for the extension/s and get the path.
-
-2.Specify the Extensions path in the Desired Capabilities.
 
 ---
+
+
+You can add a Chrome Extension to your automation session in 2 simple steps:
+
+1. Obtain the CRX/CRX3 file for the extension/s and get the path.
+
+2. Specify the Extensions path in the Desired Capabilities.
+
+
+---
+
+
 ## **Obtaining the CRX file for the extension**
 
-1.If you already have the CRX file, you can skip to the next step.
+1. If you already have the CRX file, you can skip to the next step.
 
-2.If you have the chrome extension folder(uncompressed) in your local machine, you can compile it to CRX format by using the Google Chrome Browser installed in your machines. See **[Compiling chrome extension folder to CRX/CRX3 format](https://support.testsigma.com/support/solutions/articles/32000027752-compiling-chrome-extension-folder-to-crx-crx3-format)**
+2. If you have the chrome extension folder(uncompressed) in your local machine, you can compile it to CRX format by using the Google Chrome Browser installed in your machines. See **[Compiling chrome extension folder to CRX/CRX3 format](https://support.testsigma.com/support/solutions/articles/32000027752-compiling-chrome-extension-folder-to-crx-crx3-format)**
 
-3.If you don't have the chrome extension URL from Chrome Web Store, you can use [https://chrome-extension-downloader.com/](https://chrome.google.com/webstore/detail/testsigma/epmomlhdjfgdobefcpocockpjihaabdp) to download the file. Search for the extension, open the extension details page and copy the page URL.
+3. If you don't have the chrome extension URL from Chrome Web Store, you can use [https://chrome-extension-downloader.com/](https://chrome.google.com/webstore/detail/testsigma/epmomlhdjfgdobefcpocockpjihaabdp) to download the file. Search for the extension, open the extension details page and copy the page URL.
 
 ![chrome extension to install for recording your test steps with Testsigma](
 https://docs.testsigma.com/images/add-chrome-extension/chrome-extension-to-install-testsigma.png)
 
+
 ---
+
+
 ## **Specify the Extensions path in the Desired Capabilities**
 
-Add an Execution Configuration in Testsigma and add the following Desired Capability:
+Add an execution configuration in Testsigma and add the following desired capability:
 
 |Name|Data Type|Value|
 |---|---|---|
@@ -52,6 +60,8 @@ To add more than one extension, give the value in the format:
 
 That's all we need to do in order to add an extension to an Automation Session in Testsigma using Desired Capabilities.
 
-Once the execution starts, it will automatically take the file and install it to the Browser. To confirm whether the given extension is added or not, you can check the extension icon in the top right corner of the browser as shown in the below screenshot.
+Once the execution starts, it will automatically take the file and install it to the Browser. 
 
-![check if chrome extension is installed for recording your test steps with Testsigma](https://docs.testsigma.com/images/add-chrome-extension/check-chrome-extension-installed-testsigma.png)
+
+
+---

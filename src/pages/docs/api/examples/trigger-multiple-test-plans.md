@@ -22,9 +22,10 @@ contextual_links:
 
 ---
 
-This article explains how to trigger multiple Test Plans consecutively. You might need this to run a Mobile Test Plan after executing a Web Test Plan.
+This article explains how to trigger multiple test plans consecutively. You might need this to run a mobile test plan after executing a web test plan.
 
 ---
+
 ## **Sample Test Scenario**
 
 Let’s create a User using the Admin HR portal that is accessible only via a Desktop Browser and then manage that user on the Mobile HR App.
@@ -55,14 +56,16 @@ For example, if there’s a username that you would pass from Admin-TP to Mobile
 
 Here’s a sample Request Body for passing runtime parameters:
 
+```
 {
+  "executionid": "274",
+  "runtimeData": {
+    "data": "$|admin_username|"
+  }
+}
+```
 
-&emsp;&emsp;&emsp;&emsp;"runtimeData" :  {<br>&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;"data":"$|admin_username|"
-<br>&emsp;&emsp;&emsp;&emsp;}<br>}
 
-Here’s a snapshot of the REST API Step in TCTrigger used to trigger the Mobile-TP Test Plan:
-
-![Testsigma REST API Step to trigger new Test Plan](https://docs.testsigma.com/images/trigger-multiple-test-plans/trigger-multiple-test-plans-testsigma-rest-api-step.png)
 
 Once the Test Plan Mobile-TP is triggered by the REST API Step in TCTrigger, the runtime parameter ‘admin\_username’ is also passed to that Test Plan. You can use those parameters in any Test Case within Mobile-TP now.
 
