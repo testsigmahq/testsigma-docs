@@ -9,64 +9,50 @@ contextual_links:
 - type: section
   name: "Contents" 
 - type: link
-  name: "Steps to follow"
-  url: "#steps-to-follow"
+  name: "Prerequisites"
+  url: "#prerequisites"
+- type: link
+  name: "Steps for Test Case Local Executions"
+  url: "#steps-for-test-case-local-executions"
 ---
 
 ---
 
 
-Local device testing can be used for testing applications which are not accessible publicly i.e they are restricted to the local network.
+Local device testing can be used for testing applications that are not accessible publicly, i.e., they are restricted to the local network. You can execute the test case either as a dry run or as a part of a test plan. This article discusses running a test case on your local device.
 
-As we already know, a Test Case can be run either as a Dry Run or as a part of a Test Plan. In this document, we discuss how to run a Test Case as a Dry Run on your local device.
-
-&emsp;
 
 ---
-## **Steps to follow:**
-There are four steps to performing a dry run on a local device.
 
-### Step 1 :Download the Agent
-Navigate to the Agents page, click on Download, choose your Operating System. This will trigger the download of the Agents zip file which is about 500 MB in size.
+## **Prerequisites**
 
-Once it is downloaded, unzip it and save it to an accessible location.
+- You should know [how to set up Testsigma agent](https://testsigma.com/docs/agent/setup-on-windows-mac-linux/).
 
-![gif demonstrating download of an agent for local device execution ](https://s3.amazonaws.com/static-docs.testsigma.com/new_images/projects/applications/agentdownload.gif)
+- You should know [how to create a test case](https://testsigma.com/docs/test-cases/manage/add-edit-delete/).
 
 
-### Step 2 drop-down: Start the Agent
-Navigate inside the unzipped folder and start the Agent by running the start.bat file for windows or start.sh file for Mac / Linux. To start the Agent, use your command prompt or terminal and type the name of the bat file / sh file.
-
-This will start the agent.
-
-![Gif demonstrating start of an agent for local device execution](https://docs.testsigma.com/images/dry-runs-on-local-devices/agentstart.gif)
+---
 
 
-### Step 3 : Add the Agent
+## **Steps for Test Case Local Executions**
 
-Navigate to the Agents page, click on Add Agent.
 
-This will automatically add the Agent that you started in step 2. 
+1. Create a **Test Case** and click on **Run** to execute the test case. 
+![Test Case](https://s3.amazonaws.com/static-docs.testsigma.com/new_images/projects/applications/tcletcrun.png)
 
-Change the name as required and save it.
 
-![Gif demonstrating the addition of a new agent in Testsigma](https://docs.testsigma.com/images/dry-runs-on-local-devices/addagent.gif)
+2. On **Ad-Hoc Run** overlay, select **Local Devices** as **Test lab**, and choose **Connected Machine** and a **Browser** in which you want to execute the test case. 
+![Ad-Hoc Run](https://s3.amazonaws.com/static-docs.testsigma.com/new_images/projects/applications/tcleahr.png)
+
+
+3. Make necessary changes in **Additional Settings & Desired Capabilities**. 
 
 
 
-### Step 4: Dry Run - Local Device
-
-1. Navigate inside the test case, click on **Run**.
-   
-2. When selecting the test lab, choose **Local Device**.
-   
-3. From the drop down, choose the Agent that you just added.
-   
-4. Choose the browser.
-   
-5. Make necessary changes in **Advanced options** and click on **Run Now**.
+4. Click on **Run Now** to execute the **Test Case**.
+![Run Now](https://s3.amazonaws.com/static-docs.testsigma.com/new_images/projects/applications/tclernow.png)
 
 
-![Gif demonstrating initiating a dry run on a local device](https://docs.testsigma.com/images/dry-runs-on-local-devices/gif-dry-run-on-local-devie.gif)
 
 
+---
