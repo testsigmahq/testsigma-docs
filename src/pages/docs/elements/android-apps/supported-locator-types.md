@@ -24,5 +24,7 @@ When creating elements for an application, you need to provide a way to identify
 
 5. **Name:** This will be the value assigned to the attribute **Name** for the element you want to capture.
 
+6. **Resource ID:** This will be the value assigned to the attribute **Resource ID** for the element you want to capture. Resource ID allows alphanumeric values along with special characters like dot(.), underscore(_), colon(:), and forward-slash(/).
+
 
 ---
