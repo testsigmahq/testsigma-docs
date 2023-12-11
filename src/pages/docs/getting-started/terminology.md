@@ -27,8 +27,8 @@ contextual_links:
   name: "Elements Repository"
   url: "#elements-repository"
 - type: link
-  name: "Testsigma Test Step Recorder"
-  url: "#testsigma-test-step-recorder"
+  name: "Test Recorder"
+  url: "#test-recorder"
 - type: link
   name: "Testsigma Agent"
   url: "#testsigma-agent"
@@ -51,7 +51,8 @@ contextual_links:
 
 
 ---
-##**Natural Language Action**
+
+## **Natural Language Action**
 
 The Natural Language Actions provided by Testsigma consists of most of the actions that a user might need while automating their Tests.
 
@@ -65,87 +66,78 @@ The Natural Language Actions provided by Testsigma consists of most of the actio
   &emsp;
 
 ---
-##**Test Case**
 
-A test case is a list of steps, or user actions, that you list out in a specific order to automate a test  scenario.
+## **Test Case**
 
-&emsp;
-
----
-##**Step Group**
-
-Step Groups let you save and reuse a set of test steps. For example, let us assume we are automating a lot of scenarios that each require logging into a website. To do that, we can create a Step Group for the test steps necessary to ‘logging in’. This will let you reuse the Step Group in all those Test Cases that require login, instead of adding the same steps repeatedly in every Test Case that needs ‘Log in’.
-
-&emsp;
+A test case is a list of steps or user actions that you list in a specific order to automate a test scenario.
 
 ---
-##**Test Data**
+
+## **Step Group**
+
+Step Groups let you save and reuse a set of test steps. For example, let us assume we are automating a lot of scenarios that each require logging into a website. We can create a Step Group for the test steps necessary to log in. This will let you reuse the Step Group in all those Test Cases requiring login instead of repeatedly adding the same steps in every Test Case that needs Log in.
+
+---
+
+## **Test Data**
 
 Test Data Profiles are primarily used for Data-Driven Testing. You can create test data in tabular format within Testsigma or import Test Data from Excel files into Testsigma. This can be used for data-driven testing.
 
-&emsp;
+---
+
+## **Element**
+
+Elements are links, buttons, input fields, etc., on the Web Page or App Screen, as captured by Testsigma. Elements contain locator details such as  XPath or CSS Locator, ID, Name, etc., along with details used for organizing the elements such as Screen Names, Element review status, etc.
 
 ---
-##**Element**
 
-Elements are links, buttons, input fields, etc. on the Web Page or App Screen, as captured by Testsigma. Elements contain locator details such as  XPath or CSS Locator, ID, Name etc.  along with details used for organizing the elements such as Screen Names, Element review status, etc.
-
-&emsp;
-
----
-##**Elements Repository**
+## **Elements Repository**
 
 Element Repository is a shared repository that contains all Elements created in a specific Application Version. All Test Cases within the Application Version can use these elements.
 
-&emsp;
+---
+
+## **Test Recorder**
+
+Test Recorder lets you capture Elements and actions within Testsigma. We recommend using the Test Step Recorder since it's quicker and easier and captures more locator details than manually creating elements.
 
 ---
-##**Test Recorder**
 
-Test Recorder lets you capture Elements and actions within Testsigma. We recommend using the Test Step Recorder since it’s quicker, easier, and captures more locator details than manually creating elements would.
+## **Testsigma Agent**
 
-&emsp;
+You can run the tests you create on Testsigma on your local Machines. For running the tests locally, you need a Testsigma Agent utility running on the machine for Test Orchestration (queueing Tests, running the Tests, fetching the Test Results, etc.).
 
----
-##**Testsigma Agent**
-
-You can run the tests you create on Testsigma on your local Machines. For running the tests locally, you need a Testsigma Agent utility running on the machine for Test Orchestration (queueing Tests, running the Tests, fetching the Test Results e.t.c).
-
-&emsp;
 
 ---
-##**Custom Fields**
 
-You can create user-defined fields for the entities such as Test Cases, Versions, Applications, Projects, etc for better organization. 
+## **Custom Fields**
 
-&emsp;
+You can create user-defined fields for the entities, such as Test Cases, Versions, Applications, Projects, etc, for better organization. 
 
 ---
-##**Uploads**
+
+## **Uploads**
 
 Mobile Apps or entities used in the Test Case can be uploaded here and accessed within the Test Steps.
 
-&emsp;
+---
+
+## **Environments**
+
+Environments are a high-level abstraction of a test environment that allows you to run test cases once created on multiple environments such as QA, UAT, and staging servers without any modifications in the tests.
 
 ---
-##**Environments**
 
-Environments are a high-level abstraction of Test Environment that allows you to run Test Cases once created on multiple Environments such as QA, UAT, Staging servers without any modifications in the Tests.
+## **Ad-hoc Test Runs**
 
-&emsp;
 
----
-##**Ad-hoc Test Runs**
-
-Ad hoc Test Runs are used to check the correctness of the Test Case created. It executes a single Test Case in isolation and shouldn’t have any Prerequisites outside this Test Case.
-The user can do ad-hoc runs for a single Test Case to verify that the Test Case works as expected and later mark it as Ready, add it to a Test Suite etc.
-
-&emsp;  
+Ad hoc Test Runs are used to check the correctness of the Test Case created. It executes a single Test Case in isolation and shouldn't have any Prerequisites outside this Test Case.
+The user can do ad-hoc runs for a single Test Case to verify that it works as expected and later mark it as Ready, add it to a Test Suite, etc. 
 
 ---
-##**Plugins**
 
-Plugins are extensions that enable integration with third-party applications such as Jenkins, MS Teams, Slack e.t.c.
+## **Plugins**
 
+Plugins are extensions that enable integration with third-party applications such as Jenkins, MS Teams, Slack, etc.
 
-
+---

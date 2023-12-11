@@ -21,41 +21,63 @@ contextual_links:
 
 ---
 
-The Testsigma Azure DevOps Integration allows you to create a work item directly in your Azure project from Testsigma. You can push a bug, epic, task, story to a project while testing on Testsigma. The fields populated by you when marking a bug through Testsigma are displayed as information on the work item in the Azure DevOps project.
+The Testsigma Azure DevOps Integration allows you to create work items within your Azure project directly from the Testsigma. You can also effortlessly transfer various work items, including bugs, epics, tasks, and stories, to your Azure projects while executing tests on the Testsigma. This article discusses how to integrate Azure DevOps with Testsigma.
+
 
 ---
-##**Prerequisites**
 
-**Azure DevOps Organization URL:** Azure DevOps URL will be the domain name. Log into your Azure DevOps account and you will find it under your organization.<br>
-**Personal Access Token(PAT):** In your Azure Application, you can find the Personal Access Token under **Security > Personal Access Tokens**
+## **Prerequisites**
+
+- **Azure DevOps Organization URL**: Azure DevOps URL will be the domain name.
+- **Personal Access Token**: In your Azure Application, you can find the Personal Access Token under **Security > Personal Access Tokens**.
 
 [[info | NOTE:]]
-| Please check with your Azure Admin if you need help with finding the above details
+| Please check with your Azure Admin if you need help with finding the above details.
+
 
 ---
-##**Integrate Azure DevOps With Testsigma**
 
-Once the Azure DevOps URL and PAT are obtained, navigate to the Plugins page through Dashboard > Settings > Plugins and select Azure DevOps under the Product Management tab.
 
-Click on the Disabled Icon on Azure DevOps Boards. Azure Details overlay opens up as shown below:
+## **Steps to Integrate Azure DevOps with Testsigma**
 
-![Azure Details form in Plugins Page ](https://docs.testsigma.com/images/azure-devops-boards/plugins-azure-integration-form.png)
+1. Navigate to **Settings > Integrations**.
+![Integrations](https://s3.amazonaws.com/static-docs.testsigma.com/new_images/projects/applications/mstinav.png)
+
+
+2. Enable the toggle on the **Azure DevOps Boards** widget. 
+![Toggle](https://s3.amazonaws.com/static-docs.testsigma.com/new_images/projects/applications/adoitgl.png)
+
+3. On **Azure DevOps Boards details** prompt, enter **Organization URL**, **Access Key**, and click on **Save & Enable**.
+![Details](https://s3.amazonaws.com/static-docs.testsigma.com/new_images/projects/applications/adoidtls.png)
+
 
 ---
-##**Creating Work Item on Azure from Testsigma**
 
-Let us see how we can create a Bug on Azure DevOps Board from Testsigma.
 
-![Report Bug icon on the Failed Test Results page](https://docs.testsigma.com/images/azure-devops-boards/test-result-failed-report-bug-icon.png)
+## **Creating Work Item on Azure from Testsigma**
 
-From the Test Run Results page, click on the Report Bug icon to open the Report Bug Overlay.
+1. Navigate to **Run Results > Test Case Result**, where you want to add a bug.
+![Run Results](https://s3.amazonaws.com/static-docs.testsigma.com/new_images/projects/applications/tcresultyt.png)
 
-![Report Bug Overlay on the Failed Test Results page](https://docs.testsigma.com/images/azure-devops-boards/test-result-failed-report-bug-overlay-azure-form-filled.png)
 
-Enter the details as shown below:
-  * Project: Name of the Azure Project.
-  * Issue Type: Type of the Issue - Bug, Task, etc.
-  * Title: Title of the Item to be created in Azure DevOps Board.
-  * Description: Add a meaningful description for the item with as much detail as you can provide.
+2. Click on **Report Bug**.
+![Report Bug](https://s3.amazonaws.com/static-docs.testsigma.com/new_images/projects/applications/reportbugyt.png)
 
-After entering the details, submit the form. An item will be created in the Azure DevOps Board.
+
+3. On **Report** overlay, click on the **Azure DevOps** icon. 
+![Report Overlay](https://s3.amazonaws.com/static-docs.testsigma.com/new_images/projects/applications/adoirovlay.png)
+
+
+4. On the **Create New Issue** prompt, click on **Create Ticket**.
+![Create Ticket](https://s3.amazonaws.com/static-docs.testsigma.com/new_images/projects/applications/adoiccto.png)
+
+
+[[info | **NOTE**:]]
+| - If you want to link to an existing issue on Azure DevOps, click on the **Link to Issue** button, search for an existing issue in the search field and click on **Link Issue** to add a link to an existing Issue.
+| ![Link to Issue](https://s3.amazonaws.com/static-docs.testsigma.com/new_images/projects/applications/adoicolti.png)
+| - You can also link the Azure DevOps test case with Testsigma test case. Get the test case ID from Azure DevOps, navigate to **Create Tests > Test Cases > Test Case**, and enter the ID in the top right corner of the test case details page with the text box **Enter Azure DevOps ID**. The test case will be linked with the Azure DevOps test case.
+
+
+
+
+---

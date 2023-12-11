@@ -10,8 +10,8 @@ contextual_links:
 - type: section
   name: "Contents"
 - type: link
-  name: "Pre-requisites"
-  url: "#pre-requisitesbr"
+  name: "Prerequisites"
+  url: "#prerequisites"
 - type: link
   name: "Setting up Testsigma Community Edition with Docker"
   url: "#setting-up-testsigma-community-edition-with-docker"
@@ -40,30 +40,32 @@ contextual_links:
 This guide will help you setup [Testsigma Server](https://github.com/testsigmahq/testsigma) and MySQL as Docker containers using Docker Compose. This is the easiest way to set up Testsigma on your local machines.
 
 ---
-##**Pre-requisites**<br>
+
+## **Prerequisites**
   * [Docker](https://docs.docker.com/install/)
   * [Docker Compose](https://docs.docker.com/compose/install/)
 
 ---
-##**Setting up Testsigma Community Edition with Docker**
 
-Create a folder called “testsigma” where you would like to install Testsigma and store the logs and runtime data.
+## **Setting up Testsigma Community Edition with Docker**
+
+Create a folder called **testsigma** where you would like to install Testsigma and store the logs and runtime data.
 
 **cd** cmd into this installation folder (testsigma)
 
 ---
 
-## **Step1: Download docker-compose.yml file**
+## **Step 1: Download docker-compose.yml file**
 
 Download docker-compose.yml file into the testsigma installation folder from [here](https://github.com/testsigmahq/testsigma/tree/dev/deploy/docker). Download the appropriate file based on your OS.
 
 
 [[info | NOTE:]]
-|- If you are using Apple M1 machines then you should replace the testsigmahq/server image version in docker-compose.yml with the M1 docker image tag. For example if the version is v1.0.0 then you should add "-m1" and make it v1.0.0-m1. So the final image name looks like this "testsigmahq/server:v1.0.0-m1"
+| - If you are using Apple M1 machines then you should replace the testsigmahq/server image version in docker-compose.yml with the M1 docker image tag. For example if the version is v1.0.0 then you should add "-m1" and make it v1.0.0-m1. So the final image name looks like this "testsigmahq/server:v1.0.0-m1"
 
 ---
 
-## **Step2: Run Testsigma Server**
+## **Step 2: Run Testsigma Server**
 
 The following command will run Testsigma along with a MySQL database to store data.
 
@@ -88,14 +90,16 @@ You should see a message: “Testsigma is Running!” once the container is read
 Your Testsigma server should be up and running now. Testsigma server will be accessible at https://local.testsigmaos.com/ui
 
 ---
-##**Verifying the installation**
 
- By default folders db\_data, ts\_data will be created in the installation folder to store the application data and MySQL data. If you want to change this folder path you can open **docker-compose.yml** and change the db\_data volume path under mysql service and ts\_data path under testsigma_server.
+## **Verifying the installation**
+
+By default folders db\_data, ts\_data will be created in the installation folder to store the application data and MySQL data. If you want to change this folder path you can open **docker-compose.yml** and change the db\_data volume path under mysql service and ts\_data path under testsigma_server.
 
 ---
+
 ## **Connecting to External MySQL**
 
-  If you want to connect to an external/existing MySQL database, add the below environment variables 
+If you want to connect to an external/existing MySQL database, add the below environment variables 
  
 MYSQL\_HOST\_NAME = < mysql \_host\_name> where mysql\_host\_name is your database url<br>
 MYSQL\_PORT = < port\_number> where mysql is running<br>
@@ -105,7 +109,7 @@ MYSQL\_PASSWORD = < password><br>
 
 ---
 
-## **Step3: Install and configure Testsigma Agent**
+## **Step 3: Install and configure Testsigma Agent**
 
 When we run the Testsigma server using Docker it runs in a separate container(child process), where it cannot access the applications installed in the host machine. But in order to automate Web and Mobile Apps the Testsigma Server (running in docker) has to access Browsers and Mobile Devices connected to the host machine. 
 
@@ -117,7 +121,7 @@ Login to https://local.testsigmaos.com/ui and follow the steps mentioned here([S
  
 ---
 
-##**Update to new Version(Testsigma Server)**
+## **Update to new Version(Testsigma Server)**
 
   1. Stop the Docker images/container with name testsigma in Docker Desktop, alternatively you can use the below commands to kill the processes<br>
        &nbsp;a. `sudo su`<br>
@@ -132,7 +136,7 @@ Login to https://local.testsigmaos.com/ui and follow the steps mentioned here([S
 
 ---
 
-##**Update to new Version(Testsigma Agent)**
+## **Update to new Version(Testsigma Agent)**
 
   1. Stop the running agent by executing the stop.sh
   2. Delete the TestsigmaAgent folder 
@@ -145,13 +149,15 @@ Login to https://local.testsigmaos.com/ui and follow the steps mentioned here([S
 |- If you are still facing the issue, delete the [agent manually](https://testsigma.com/docs/agent/force-delete/) and install again.
 
 ---
-##**Troubleshooting**
+
+## **Troubleshooting**
 
 - If you encounter any errors during this process, check out our guide on [debugging deployment errors](https://testsigma.com/docs/troubleshooting/setup/server-docker-deployment-errors/) and for [logs](https://testsigma.com/docs/troubleshooting/setup/server-docker-deployment-errors/#checking-logs)
 - If you are still facing any issue, please reach out to [support@testsigma.com](mailto:support@testsigma.com) or join our [Discord Server](https://discord.com/invite/5caWS7R6QX) to speak to the Testsigma team directly!
 
 ---
-##**Next Steps**
+
+## **Next Steps**
 
 1. [Get Started with Automating Web Applications](https://testsigma.com/tutorials/getting-started/automate-web-applications/)
 2. [Get Started with Automating Mobile Web Applications](https://testsigma.com/tutorials/getting-started/automate-mobile-web-applications/)
@@ -160,3 +166,4 @@ Login to https://local.testsigmaos.com/ui and follow the steps mentioned here([S
 5. [How to automate tests for Android Apps using local devices](https://testsigma.com/tutorials/test-cases/mobile-apps/build-tests-using-local-android-devices/)
 6. [How to automate tests for iOS Apps using local devices](https://testsigma.com/tutorials/test-cases/mobile-apps/build-tests-using-local-ios-devices/)
 
+---

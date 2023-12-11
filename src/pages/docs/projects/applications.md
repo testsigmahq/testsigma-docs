@@ -1,7 +1,7 @@
 ---
 title: "Manage Applications"
 page_title: "Managing Applications in Testsigma"
-metadesc: "How to manage Applications within Testsigma projects"
+metadesc: "Applications tab provides details about all applications available in the project | Learn how to manage applications within Testsigma projects"
 noindex: false
 order: 2.1
 page_id: "Manage Applications"
@@ -21,55 +21,73 @@ contextual_links:
 ---
 
 
-<br>
+---
 
-The **Applications** tab within the **Dashboard > Project settings** menu provides details about all the Applications that are available in the current project.
 
-Note that if your project contains only a single application, the **Applications** tab will be hidden. To enable multiple applications, edit your project details. *For more information, refer to [Project settings](https://testsigma.com/docs/projects/overview/)*.
+The **Applications** tab within the **Project settings > Edit Project** menu provides details about all the Applications that are available in the current project.
+
+
+[[info | **NOTE**:]]
+| If your project contains only a single application, the **Applications** tab will be hidden. To enable multiple applications, edit your project details. *For more information, refer to [project settings](https://testsigma.com/docs/projects/overview/)*.
+
 
 Once the **Applications** tab is enabled, you will be able to see all the applications created under the specific project.
 
-1. Navigate to **Project settings > Applications**.
 
- ![Project Settings Pop Up](https://s3.amazonaws.com/static-docs.testsigma.com/new_images/projects/applications/Project_settings_Applications.png)
-
-<br>
+---
 
 
-## **Add application**
+## **Add Application**
 
-Depending on your requirements, you can add applications to your project in **Project settings > Applications page**.
-
-1. Click on **+ New Application** to create a new Application under the current Project.
-![Create Application](https://s3.amazonaws.com/static-docs.testsigma.com/new_images/projects/applications/create_application_new.png)
-2. Enter a name, description, and type of application.
-![Project Description Box](https://s3.amazonaws.com/static-docs.testsigma.com/new_images/projects/applications/Project_Description_box.png)
-
-<br>
+1. Navigate to **Project Settings > Edit Project > Applications**.
+![Applications](https://s3.amazonaws.com/static-docs.testsigma.com/new_images/projects/applications/apsnav.png)
 
 
-## **Edit application**
-
-1. To edit your application, go to **Project settings > Applications** and select application you want to edit.  
-![Edit Application](https://s3.amazonaws.com/static-docs.testsigma.com/new_images/projects/applications/edit_application.png)
-2. Click on the **Edit** button for the application to open the **Edit application** page.
-
-3. Make the required changes and click on the **Update** button to save the changes.
-
-![Edit Application Box](https://s3.amazonaws.com/static-docs.testsigma.com/new_images/projects/applications/edit_app_box.png)
-
-<br>
+2. Click on **Add Application**.
+![Add Application](https://s3.amazonaws.com/static-docs.testsigma.com/new_images/projects/applications/apscnapp.png)
 
 
-##  **Delete application**
-1. To delete your application, go to **Project settings > Applications** and select application you want to delete.
-![Delete box](https://s3.amazonaws.com/static-docs.testsigma.com/new_images/projects/applications/delete_application.png)
-2. Clicking on the **Delete** button for the application shows a warning prompt as shown below. In the box highlighted, enter **DELETE**, and click **I understand, delete this application** button to confirm the deletion.
+3. On **New application** prompt, enter **Application name**, **Description**, **Version name**, and select **Application type**. 
+![Prompt](https://s3.amazonaws.com/static-docs.testsigma.com/new_images/projects/applications/apspromdtls.png)
 
-![Delete Prompt](https://s3.amazonaws.com/static-docs.testsigma.com/new_images/projects/applications/delete_app_dialogue.png)
 
-**NOTE:**
-Deleting an Application leads to loss of all data within the application including
-* All **Application versions** within the application.
-* All the test cases, test data, uploads within all those Application versions.
+4. Click on **Create**.
+![Create](https://s3.amazonaws.com/static-docs.testsigma.com/new_images/projects/applications/apscocrete.png)
 
+---
+
+
+## **Edit Application**
+
+
+1. Navigate to **Project Settings > Edit Project > Applications**, and select application you want to edit from the dropdown.  
+![Edit Application](https://s3.amazonaws.com/static-docs.testsigma.com/new_images/projects/applications/apssapptoedit.png)
+
+
+
+1. Make the required changes and click on the **Update** to save the changes.
+![Edit Application](https://s3.amazonaws.com/static-docs.testsigma.com/new_images/projects/applications/apscoupdate.png)
+
+
+---
+
+##  **Delete Application**
+
+1. Navigate to **Project Settings > Edit Project > Applications**, select application you want to edit from the dropdown.
+![Applications](https://s3.amazonaws.com/static-docs.testsigma.com/new_images/projects/applications/apsdapp.png)
+
+
+2. Click on **Delete Application**. 
+![Delete App](https://s3.amazonaws.com/static-docs.testsigma.com/new_images/projects/applications/apsdbutton.png)
+
+
+3. Clicking on the **Delete** button for the application shows a warning **Delete project** prompt. Enter **DELETE**, and click **Delete** to confirm the deletion.
+![Delete Prompt](https://s3.amazonaws.com/static-docs.testsigma.com/new_images/projects/applications/apsdletion.png)
+
+
+[[info | **NOTE**:]]
+| Deleting an Application leads to loss of all data within the application including:
+| - All **application versions** within the application.
+| - All the test cases, test data, uploads within all those Application versions.
+
+---

@@ -1,36 +1,71 @@
 ---
-title: "How to add value to test data profile using NLP"
-metadesc: "How to add values to test data profile in Testsigma."
+title: "Updating Value in Test Data Profile"
+metadesc: "In Testsigma, you can update values of test data profile using specific NLP in a test case. Learn how to update values in test data profiles in Testsigma."
 noindex: false
 order: 5.22
 page_id: "Add values to test data profile"
 warning: false
+contextual_links:
+- type: section
+  name: "Contents"
+- type: link
+  name: "Prerequisites"
+  url: "#prerequisites"
+- type: link
+  name: "Updating Value in TDP Using Test Case"
+  url: "#updating-value-in-tdp-using-test-case"
 ---
 
 
-<br>
+---
 
 
-This article discusses how to update the values of a test data profile using NLP's. *For more information on the test data profile, refer to [create a test data profile](https://testsigma.com/docs/test-data/create-data-profiles/).*
+This article discusses how to update the values of a test data profile from a test case. *For more information on the test data profile, refer to [create a test data profile](https://testsigma.com/docs/test-data/create-data-profiles/).*
 
-## **Steps to add value to test data profile**
-1. In the test cases, use *write value test data to test-data-profile column parameter* NLP and follow the steps below:
-    - Hover over **test data** and select **plain text** from the dropdown menu.
-    ![Hover Test data](https://s3.amazonaws.com/static-docs.testsigma.com/new_images/projects/applications/hover_testdata.png)
+
+---
+
+## **Prerequisites**
+
+
+- You should know how to [create a test case](https://testsigma.com/docs/test-cases/manage/add-edit-delete/).
+
+- You should know how to [create a test data profile](https://testsigma.com/docs/test-data/create-data-profiles/).
+
+---
+
+## **Updating Value in TDP Using Test Case**
+
+
+
+1. Navigate to **Create Tests > Test Cases**, and click on **Create Test Case**.
+![Test Case](https://s3.amazonaws.com/static-docs.testsigma.com/new_images/projects/applications/cctdtcnav.png)
+
+
+
+2. To update value of a test data profile, we use the following NLP in our test case. 
+![NLP](https://s3.amazonaws.com/static-docs.testsigma.com/new_images/projects/applications/tdpvunlp.png)
+
+
+
+3. On the above NLP,
+
+    - Hover over **test data** and select **plain text** from the dropdown menu and replace it with the text you want to update. 
+     ![plain text](https://s3.amazonaws.com/static-docs.testsigma.com/new_images/projects/applications/tdpvupt.png)
+
     - Hover over the **test data profile** to select the test data profile you want to update.
-    ![Hover Test data profile](https://s3.amazonaws.com/static-docs.testsigma.com/new_images/projects/applications/hover_tdp.png)
+     ![tdp](https://s3.amazonaws.com/static-docs.testsigma.com/new_images/projects/applications/tdpvustdp.png)
+
     - Hover over the **parameter** to choose a column in the test data profile.
-    ![Hover parameter](https://s3.amazonaws.com/static-docs.testsigma.com/new_images/projects/applications/hover_parameter.png)
+     ![column](https://s3.amazonaws.com/static-docs.testsigma.com/new_images/projects/applications/tdpvuparam.png)
 
-2. Click on **Create**.
-![Click on create](https://s3.amazonaws.com/static-docs.testsigma.com/new_images/projects/applications/create_testcase_button.png)
 
-3. Click on **Run** to update the test data profile. *For more information, refer to [Ad-hoc run](https://testsigma.com/docs/runs/adhoc-runs/)*
-![Click on Run](https://s3.amazonaws.com/static-docs.testsigma.com/new_images/projects/applications/click_on_run.png)
+4. Click on **Run** to execute the test case and update the value of the test data profile.
+![Run](https://s3.amazonaws.com/static-docs.testsigma.com/new_images/projects/applications/tdpvurun.png)
 
-4. Navigate to **Test development > Test data profile**. 
-    - Select the test data profile you have added value.
-    ![Navigate to TDP](https://s3.amazonaws.com/static-docs.testsigma.com/new_images/projects/applications/navigate_TDP_.png)
 
-5. You can see the changes in the test data profile.
-![Changes in TDP](https://s3.amazonaws.com/static-docs.testsigma.com/new_images/projects/applications/changes_TDP.png)
+
+5. On successful execution of the test case, the value will be updated in the test data profile. 
+
+
+---

@@ -1,5 +1,5 @@
 ---
-title: "Record Multiple Elements Using Chrome Extension for a web application"
+title: "Capture Multiple Elements for a Web Project"
 metadesc: "Elements play an important role in Test Automation. Learn how to create elements using Testsigma's test recorder extension for a Web Application."
 order: 6.22
 page_id: "Record Multiple Elements Using Chrome Extension for a web application"
@@ -8,59 +8,66 @@ contextual_links:
 - type: section
   name: "Contents"
 - type: link
-  name: "Pre-requisite"
-  url: "#pre-requisite"
+  name: "Prerequisites"
+  url: "#prerequisites"
+- type: link
+  name: "Steps to Create Multiple Elements"
+  url: "#steps-to-create-multiple-elements"
 ---
 
 ---
 
-Sometimes, during test creation, we need to capture the details of multiple elements. In this article, we will discuss how to do that using Testsigma’s test recorder chrome extension.
+Sometimes, during test creation, we need to capture the details of multiple elements.  This article discusses how to capture multiple elements using recorder. 
 
-<br>
 
 ---
-## **Pre-requisite**
-
-You should have the Testsigma test step recorder chrome extension already installed. If not, then refer to the document [here](https://testsigma.com/docs/test-step-recorder/install-chrome-extension/).
 
 
-**Steps**
+## **Prerequisites**
 
-Here we will be capturing multiple elements via the Elements page. Learn more about [Elements](https://testsigma.com/docs/elements/web-apps/overview/).
+- You should know how to create an web [project](https://testsigma.com/docs/projects/overview/) in Testsigma.
 
-1. Go to the Elements page via **Test Development > Elements**. The Elements page should look something like the below screenshot:
+- You should have [Testsigma chrome extension installed](https://testsigma.com/docs/test-step-recorder/install-chrome-extension/). 
 
-![all-Elements-page-in-Testsigma](https://s3.amazonaws.com/static-docs.testsigma.com/new_images/elements/web-apps/record-multiple-elements/all-Elements-page-in-Testsigma.png)
-
-2. To capture elements via the Test recorder chrome extension, click on the record button on the top right corner of the Elements page, the button is also highlighted in the screenshot below:
-
-![record button on All Elements page in Testsigma](https://docs.testsigma.com/images/record-multiple-elements/record-button-all-elements-page-testsigma.png)
+- A Web app to test.
 
 
-3. When you click on the **Record** button, a new tab will open. 
-
-4. Enter the URL from which you want to capture the elements. For example, we opened a new tab and entered the URL for orangehrmlive.
-
-![record Elements start recording in Testsigma](https://docs.testsigma.com/images/record-multiple-elements/record-elements-start-recording-testsigma.png)
-
-6. Now, hover over the element you want to capture and make sure that is highlighted in green as shown in the screenshot below where we wanted to capture the username field:
-
-![hover over element to record Elements in Testsigma](https://docs.testsigma.com/images/record-multiple-elements/hover-over-element-record-elements-testsigma.png)
-
-7. Now click on the hovered element and wait for the element to appear in the **Record Elements** window as shown below:
-
-![click hovered element while recording Elements in Testsigma](https://docs.testsigma.com/images/record-multiple-elements/click-hovered-element-record-elements-testsigma.png)
-
-8. Repeat steps 6 and 7 for all the elements you want to capture, you may navigate to another page if you need to. For your reference, below is a screenshot where we captured multiple elements following the above steps.
-
-![record multiple elements via test step recorder in Testsigma](https://docs.testsigma.com/images/record-multiple-elements/record-multiple-elements-test-step-recorder-testsigma.png)
-
-9. Now click on the save button on the **Record Elements** window. The Element will be saved and a message **Elements created successfully** will appear, the message is also highlighted below:
-
-![Elements created successfully via the test step recorder in Testsigma](https://docs.testsigma.com/images/record-multiple-elements/elements-created-successfully-test-step-recorder-testsigma.png)
-
-10. You can also check if the Element was created successfully by searching for it on the **Elements** page as shown below:
-
-![filter-Elements-in-Testsigma](https://s3.amazonaws.com/static-docs.testsigma.com/new_images/elements/web-apps/record-multiple-elements/filter-Elements-in-Testsigma.png)
+---
 
 
+## **Steps to Create Multiple Elements**
+
+
+1. Navigate to **Create Tests > Elements**.
+![Elements](https://s3.amazonaws.com/static-docs.testsigma.com/new_images/projects/applications/sielelements.png)
+
+
+2. Click on **Record**.
+![Create Elements](https://s3.amazonaws.com/static-docs.testsigma.com/new_images/projects/applications/waeccorec.png)
+
+
+3. This will open a new tab. Enter the URL from which you want to capture the elements. The Testsigma test recorder will appear and will be ready to start recording. Here, we entered the URL for Simply Travel Web.
+![Simply Travel URL](https://s3.amazonaws.com/static-docs.testsigma.com/new_images/projects/applications/waecmerec.png)
+
+
+4. Hover over the element you want to capture and make sure that it is highlighted in green (here we are capturing the login/signup field):
+![Element Highlight](https://s3.amazonaws.com/static-docs.testsigma.com/new_images/projects/applications/waechgr.png)
+
+
+5. Click on the hovered element and wait for the element to appear in the recorder. 
+![Click](https://s3.amazonaws.com/static-docs.testsigma.com/new_images/projects/applications/waecwfetrec.png)
+
+
+6. Repeat steps 4 and 5 for every element you want to capture.
+
+
+7. Once you have captured the elements, click on **Done**.
+![Done](https://s3.amazonaws.com/static-docs.testsigma.com/new_images/projects/applications/waeccodone.png)
+
+
+8. You'll be redirected to the **Elements** page, where you can see all recorded elements. 
+![Elements Page](https://s3.amazonaws.com/static-docs.testsigma.com/new_images/projects/applications/waecallelm.png)
+
+
+
+---

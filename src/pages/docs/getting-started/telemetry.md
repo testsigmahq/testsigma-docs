@@ -18,25 +18,24 @@ contextual_links:
 
 ---
 
-As a standard practice, we collect anonymous telemetry data during and after Testsigma CE is installed on your local machine. The data is statistical in nature and cannot be used to uniquely identify a user.
+As a standard practice, we collect anonymous telemetry data during and after Testsigma CE is installed on your local machine. The data is statistical and cannot be used to identify a user uniquely.
 
 We collect this data to understand how Testsigma CE is being used and what steps we can take to improve and enhance the experience. This data is not shared with 3rd parties. Access to this data is strictly limited to the Testsigma team.  
 
-As a user you can choose to opt-out of Telemetry data any time by navigating to Testsigma CE portal admin settings and then navigating to Telemetry section .
-  
-
-**Note:**
-
--   The data collected is completely anonymous and cannot interpret, indicate or uniquely identify a user.
-    
--   Testsigma is a proxy and does not capture any data returned by your APIs, databases, or third-party tools.
-    
+As a user, you can opt out of Telemetry data anytime by navigating to Testsigma CE portal admin settings and then to the Telemetry section.
 
   
 
-#### What data is collected?
+[[info | **NOTE**:]]
+| - The data collected is anonymous and cannot interpret, indicate, or uniquely identify a user.
+| - Testsigma is a proxy and does not capture any data returned by your APIs, databases, or third-party tools.
+    
+---
 
-#### Testsigma server
+
+## **What data is collected?**
+
+### **Testsigma server**
 
 The Testsigma server sends a ping when it first starts and updates every 12 hours as an ‘is-alive’ status and the last server up-time. The TS server also captures anonymous usage data around plugins and integrations but no data is ever captured from the source.
 
@@ -156,12 +155,16 @@ UploadStatRequest:
     "eventType": "CREATE"
     }
 
-#### Disable Telemetry
+---
 
-To disable telemetry data capture you can do so using the following steps:
+## **Disable Telemetry**
 
- 1.  Navigate to Testsigma app in browser
+To turn off telemetry data capture, you can do so using the following steps:
+
+1. Navigate to Testsigma app in browser.
     
- 3.  Click Settings icon which is on left navigation bar
+2. Click **Settings** icon, which is on left navigation bar.
     
- 4.  Check Disable Telemetry option
+3. Check the **Disable Telemetry** option.
+
+---

@@ -64,5 +64,3 @@ Before creating the OCR Text Extraction addon, ensure you have met the prerequis
 Once the addon is published, NLPs become available in the application. Follow these GIF below to use the OCR addon in Test Cases: ![Addon GIF](https://s3.amazonaws.com/static-docs.testsigma.com/new_images/projects/applications/ocr_text_extraction_addon.gif)
 
 ---
-
-

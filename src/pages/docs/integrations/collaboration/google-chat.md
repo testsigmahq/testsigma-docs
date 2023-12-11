@@ -1,5 +1,5 @@
 ---
-title: "Integrating Google Chat with Testsigma for test run notifications"
+title: "Integrating Google Chat with Testsigma"
 metadesc: "Learn how to configure a Google Chat channel to receive notifications about Test Results in real-time from Testsigma Application"
 noindex: false
 order: 16.23
@@ -12,49 +12,65 @@ contextual_links:
   name: "Prerequisites"
   url: "#prerequisites"
 - type: link
-  name: "Integrating Google Chat with Testsigma"
-  url: "#integrating-google-chat-with-testsigma"
+  name: "Steps to Integrate Google Chat with Testsigma"
+  url: "#steps-to-integrate-google-chat-with-testsigma"
 - type: link
-  name: "Enabling Google Chat notifications in Test Plan"
+  name: "Enabling Google Chat Notifications in Test Plan"
   url: "#enabling-google-chat-notifications-in-test-plan"
 ---
 
 ---
 
-Testsigma can send test status notifications to a specific Google Chat room.
+In Testsigma, you can send test plan status notifications to a specific Google Chat room with Google Chat integration. This article discusses how to integrate Google Chat with Testsigma. 
+
 
 ---
+
 ## **Prerequisites**
 
-You need a Google Chat Incoming webhook to integrate with Testsigma. To know how to generate an Incoming Webhook in Google Chat, see [Using incoming webhooks - Google Chat](https://developers.google.com/chat/how-tos/webhooks)
+- You need a Google Chat Incoming webhook to integrate with Testsigma. For more information, refer to [incoming webhooks Google Chat](https://developers.google.com/chat/how-tos/webhooks)
 
-Google Chat Incoming Webhook is mapped to a specific Channel in your organization and Testsigma will post the alerts on that channel.
+- You should know [how to create a test plan](https://testsigma.com/docs/test-management/test-plans/overview/#steps-to-create-a-test-plan).
+
 
 ---
-## **Integrating Google Chat with Testsigma**
 
-Once the Webhook URL is obtained, navigate to the Plugins page through **Dashboard > Settings > Plugins** and select Google Chat under the Collaborations Tab.
+## **Steps to Integrate Google Chat with Testsigma**
 
-   1. Click on the disabled Icon on Google Chat. Google Chat Details overlay opens up as shown below:
-   ![Add Google Chat Integration form](https://docs.testsigma.com/images/google-chat/plugins-collaboration-google-chat-integration-form.png)
 
-   2. Enter the incoming webhook URL obtained from Google Chat in the **Google Chat Details** field.<br>
+1. Navigate to **Settings > Integrations**.
+![Integrations](https://s3.amazonaws.com/static-docs.testsigma.com/new_images/projects/applications/mstinav.png)
 
- After entering the details, click on the **Create** button to add the Integration.
+
+2. Enable toggle on **Google Chat** widget.
+![G Chat Toggle](https://s3.amazonaws.com/static-docs.testsigma.com/new_images/projects/applications/gcietgle.png)
+
+
+3. On the **Google Chat details** prompt, enter **Name**, **Connector URL** and click on **Save & Enable**.
+![Details](https://s3.amazonaws.com/static-docs.testsigma.com/new_images/projects/applications/gcisae.png)
+
 ---
-## **Enabling Google Chat notifications in Test Plan**
 
-Once the Google Chat integration is added, you can enable the Google Chat notifications for your Test Plans while editing any of your existing Test Plans or while creating a new Test Plan.
+## **Enabling Google Chat Notifications in Test Plan**
 
-From the **Send Notification When** section on the Test Plan Settings page,<br>
-  * Under the **On** dropdown, select the Test Plan status for which you want to be notified. You can select multiple statuses from the list.
-  * Under the **send message to** dropdown, select Google Chat.
-  ![Send notification settings under Test Plan Settings](https://docs.testsigma.com/images/google-chat/create-edit-test-plan-send-notification-when.png)
- Here’s what the Notification looks like on Google Chat:
 
- ![Integrating Testsigma with Google Chat](https://docs.testsigma.com/images/google-chat/google-chat-testsigma-notifications.png)
- Click on the **View in Testsigma** link to check the details inside the Testsigma App.  
+Once the Google Chat integration is added, you can enable the Google Chat notifications for your test plans while editing any existing ones or creating a new one.
 
-![Integrating Testsigma with Google Chat Message](https://s3.amazonaws.com/static-docs.testsigma.com/new_images/projects/applications/gcintegration.gif)
 
-![Integrating Testsigma with Google Chat](https://s3.amazonaws.com/static-docs.testsigma.com/new_images/projects/applications/gchatint.gif)
+1. On **Create Test Plan/Edit Test Plan** page, click on **Test Plan Settings**. 
+![TP Settings](https://s3.amazonaws.com/static-docs.testsigma.com/new_images/projects/applications/mstitpse.png)
+
+
+2. Enable **Send Notification** toggle.
+![Send Notification](https://s3.amazonaws.com/static-docs.testsigma.com/new_images/projects/applications/mstiet.png)
+
+
+3. Under the **Notify On** section, select the status for which you want to be notified. You can select multiple statuses from the list.
+![Status](https://s3.amazonaws.com/static-docs.testsigma.com/new_images/projects/applications/mstimss.png)
+
+
+4. Under the **Also send messages to** dropdown, select **Google Chat**.
+![MS Teams](https://s3.amazonaws.com/static-docs.testsigma.com/new_images/projects/applications/gcisgc.png)
+
+
+---

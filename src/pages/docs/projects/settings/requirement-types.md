@@ -9,14 +9,14 @@ contextual_links:
 - type: section
   name: "Contents"
 - type: link
-  name: "Add a new Requirement Type"
+  name: "Add a New Requirement Type"
   url: "#add-a-new-requirement-type"
-- type: link
-  name: "Delete a Requirement Type"
-  url: "#delete-a-requirement-type"
 - type: link
   name: "Edit a Requirement Type"
   url: "#edit-a-requirement-type"
+- type: link
+  name: "Delete a Requirement Type"
+  url: "#delete-a-requirement-type"
 ---
 
 ---
