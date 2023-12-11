@@ -1,44 +1,44 @@
 ---
-title: "Export Reports - JUnit"
-metadesc: "This article discusses in detail on how to export the result of test reports in JUint format in Testsigma | Learn how to download test execution reports in JUnit format"
+title: "Exporting JUnit Reports"
+page_title: "Start Exporting JUnit Reports: Simplify Test Analysis"
+metadesc: "Effortlessly export JUnit reports for simplified test analysis. Learn the easy steps to generate and download reports. Optimize your testing process now."
 noindex: false
 order: 13.30
-page_id: "Export Test Execution Reports in XML (Junit) Format"
+page_id: "exporting-test-reports-in-junit-xml-format-testsigma"
 warning: false
 contextual_links:
 - type: section
   name: "Contents"
 - type: link
-  name: "How to export the result of test reports in XML format in Testsigma"
-  url: "#how-to-export-the-result-of-test-reports-in-xml-format-in-testsigma"
+  name: "Prerequisites"
+  url: "#prerequisites"
+- type: link
+  name: "Exporting Test Reports in JUnit XML Format"
+  url: "#exporting-test-reports-in-junit-xml-format"
 ---
 
 ---
 
-
-With Testsigma, you can export the test plan reports in XML format. In this document, we will discuss how to do that. 
-
-Here is a quick gif that demonstrates how to export the result of test reports in XML (junit) format in Testsigma
-
-![Run results page in Testsigma](https://s3.amazonaws.com/static-docs.testsigma.com/new_images/reports/runs/export-report-junit/run-results-page-testsigma.gif)
-
+You can conveniently export your test plan reports in XML format, specifically in JUnit format, using Testsigma. Follow the steps outlined below to effortlessly export your test results.
 
 ---
-## **How to export the result of test reports in XML format in Testsigma**
 
-1. Navigate to **Select Project > Test Development > Run Results** page.
+## **Prerequisites**
 
-2. Click on the **Test Plan / Test Run** that you need the test report for. The page will look like this:
+Before exporting reports, you must understand specific concepts, such as creating [Test Plans](https://testsigma.com/docs/test-management/test-plans/overview/), conducting [Test Runs](https://testsigma.com/docs/reports/runs/overview/), and having access to export test reports.
 
-   ![A test run page for a test plan in Testsigma](https://docs.testsigma.com/images/export-report-junit/test-run-page-for-test-plan-testsigma.png)
+[[info | **NOTE**:]]
+| Please contact us at **support@testsigma.com** or use the **Instant Chat** option to enable this exclusive feature provided by **Testsigma Enterprise**.
 
-3. Hover over the export icon just beside the Rerun button, highlighted below:
+---
 
-   ![export icon on the test results page for a test plan in Testsigma](https://docs.testsigma.com/images/export-report-junit/export-icon-test-results-page-test-plan-testsigma.png)
+## **Exporting Test Reports in JUnit XML Format**
 
-4. Click on the Export icon. A drop-down with 2 options will appear. Choose **Export as Junit Report** option from there:
+1. Navigate to **Run Results**.
+2. Open the specific **Test Run** from the **Run Result** list page to export the test report file.
+3. Locate the **Export** icon next to the **Rerun** button for the chosen test plan on the run results page.
+4. Click the **Export** icon, and a dropdown list will appear.
+5. Select **JUnit Report** from the dropdown list to initiate the export of the Test Plan results.
+6. A report will be promptly generated and automatically downloaded in **XML** format. ![Export reports in JUint](https://s3.amazonaws.com/static-docs.testsigma.com/new_images/projects/applications/exporting_reports_junit.gif)
 
-   ![Export as Junit report for a test run report in Testsigma](https://docs.testsigma.com/images/export-report-junit/export-as-junit-report-test-run-report-testsigma.png)
-
-
-  A report will be generated and downloaded for you in XML format.
+---
