@@ -11,30 +11,33 @@ contextual_links:
 - type: section
   name: "Contents"
 - type: link
+  name: "Prerequisites"
+  url: "#prerequisites"
+- type: link
   name: "Desired Capabilities for Incognito or Private Browser"
   url: "#desired-capabilities-for-incognito-or-private-browser"  
 - type: link
-  name: "Add Desired capabilities in Ad-hoc Run Screen"
-  url: "#add-desired-capabilities-in-ad-hoc-run-screen"
+  name: "Adding Desired Capabilities in Test Case"
+  url: "#adding-desired-capabilities-in-test-case"
 - type: link
-  name: "Add Desired capabilities in Test Plan"
-  url: "#add-desired-capabilities-in-test-plan"
+  name: "Adding Desired Capabilities in Test Plan"
+  url: "#adding-desired-capabilities-in-test-plan"
 ---
 
 ---
-Desired Capabilities are a set of properties used for customizing the Test Environment. The customization includes adding browser extensions to the automation sessions, setting the Geographical locations for the test machine, bypassing browser alerts, etc.
-
-Desired capabilities have now been added to the browser's Incognito/Private tab to launch the new browser or not save details and run every time a new test case in browsers.
+Desired Capabilities allow you to customise the test environment by adding browser extensions, setting geographical locations, and bypassing alerts. Testsigma enables you to run tests in Incognito/Private mode to ensure a clean testing space. This guide helps you easily configure your testing environment for this mode.
 
 ---
 
-### **Prerequisites**
+## **Prerequisites**
 
-Before using the Incognito/Private Mode Browser Testing feature, you should understand the concepts of [Create Ad-hoc Runs](https://testsigma.com/docs/runs/adhoc-runs/), [Create Test Cases](https://testsigma.com/docs/test-cases/manage/add-edit-delete/#creating-a-test-case), and [Create Test Plans](https://testsigma.com/docs/test-management/test-plans/overview/). in Testsigma.
+Before starting testing in Incognito/Private Mode, you must understand specific concepts, such as creating [Test Cases](https://testsigma.com/docs/test-cases/manage/add-edit-delete/) and [Test Plans](https://testsigma.com/docs/test-management/test-plans/overview/), managing [Ad-hoc runs](https://testsigma.com/docs/runs/adhoc-runs/) and [Test Machines](https://testsigma.com/docs/test-management/test-plans/manage-test-machines/) in Testsigma.
 
 ---
 
 ## **Desired Capabilities for Incognito or Private Browser**
+
+Use the following Desired Capabilities to enable Incognito or Private mode:
 
 |Capability - Key|Data Type|Value|Function|
 |---|---|---|---|
@@ -43,49 +46,25 @@ Before using the Incognito/Private Mode Browser Testing feature, you should unde
 |No Capability|Boolean|False|The selected browser will be launched in **Normal mode**| 
 
 [[info | NOTE:]]
-| Desired Capabilities for Incognito/Private Tab Browsers Support **Google Chrome**, **Mozilla Firefox**, and **Microsoft Edge**.
+| **Google Chrome**, **Mozilla Firefox**, and **Microsoft Edge** support the desired capabilities for Incognito/Private Tab Browsers.
 
 ---
 
-## **Add Desired capabilities in Ad-hoc Run Screen**
+## **Adding Desired Capabilities in Test Case**
 
-1. Navigate to **Test Development** > **Test Cases**. Create a new project or open an existing project.
-![Choose Project](https://s3.amazonaws.com/static-docs.testsigma.com/new_images/projects/overview/testcase_dc.png)
-
-2. Click **Run** after adding the test steps.
-![Run test case](https://s3.amazonaws.com/static-docs.testsigma.com/new_images/projects/overview/run_testcase_dc.png)
-
-3. The **Ad-hoc Run** screen will appear; select **Test Lab** and **Test Machines**. Click on **Desired Capabilities (Optional)**.
-![Enable Desired Capabilities](https://s3.amazonaws.com/static-docs.testsigma.com/new_images/projects/overview/ad_hoc_run_e_dc.png)
-
-4. Enter **testsigma.privateBrowsing** in the key, select data type **Boolean** from the drop-down list, and enter **true** for the value in the Desired Capabilities field. Click **Run Now**.
-![Enter capabilities](https://s3.amazonaws.com/static-docs.testsigma.com/new_images/projects/overview/capabilities_adhocrun_dc.png)
-
-5. Test steps will be executed in the Incognito/Private tab.
-
-Here is a quick GIF demonstrating the above workflow: ![gif for test case](https://s3.amazonaws.com/static-docs.testsigma.com/new_images/projects/overview/dc_ad_hoc_run.gif)
+1. Click **Run** in the top right corner of the screen on the Test Case details page.
+2. In the **Ad-hoc Run** screen, you should select **Test Lab** and **Test Machine**. Then, you can click on **Desired Capabilities (Optional)**.
+3. Enter **testsigma.privateBrowsing** in the key. Select **Boolean** as the data type and enter **true** for the value in the Desired Capabilities field.
+4. Click **Run Now** to execute the Incognito/Private tab test steps. ![Add capabilities in Test Case](https://s3.amazonaws.com/static-docs.testsigma.com/new_images/projects/applications/adding_ic_testcase.gif)
 
 ---
 
-## **Add Desired capabilities in Test Plan**
+## **Adding Desired Capabilities in Test Plan**
 
-1. Navigate to **Select project** > **Test Development** > **Test plan**.
-![Choose Test plan](https://s3.amazonaws.com/static-docs.testsigma.com/new_images/projects/overview/testplan_dc.png)
-
-2. Click an existing test plan and click **Edit** in the top right corner.
-![Edit in test plan](https://s3.amazonaws.com/static-docs.testsigma.com/new_images/projects/overview/testplanedit_dc.png)
-
-3. On the **Edit test plan** page, navigate to the **Test devices & suites** tab. Add test suites to the test plan and Click **Add Machine Device**.
-![Edit test plan](https://s3.amazonaws.com/static-docs.testsigma.com/new_images/projects/overview/edittestplan_dc.png)
-
-4.  On the screen, an **Add Machine/Device** overlay will appear. Enter the machine's **name**, select **Lab** from the drop-down list, and then select **Machines**. Click on **Desired Capabilities (Optional)**.
-![Enable DC in test plan](https://s3.amazonaws.com/static-docs.testsigma.com/new_images/projects/overview/desired_capabilities_testplan_dc.png)
-
-5. Enter **testsigma.privateBrowsing** in the key, select data type **Boolean** from the drop-down list, and enter **true** for the value in the Desired Capabilities field. Click **Create**.
-![Enter Capabilities in field](https://s3.amazonaws.com/static-docs.testsigma.com/new_images/projects/overview/desired_capabilities_field_testplan_dc.png)
-
-6. To update the test plan, click **Next** > **Update**.
-
-Here is a quick GIF demonstrating the above workflow: ![Test Plan Gif](https://s3.amazonaws.com/static-docs.testsigma.com/new_images/projects/overview/dcd_ad_testplan.gif)
+1. Navigate to the **Test Machines & Suites Selection** tab on the **Create** or **Edit Test Plan** page.
+2. Clicking **Add Machine**/**Device** allows you to add a test machine. You can edit existing machines by clicking **Test Machine Settings**.
+3. On the **Add** or **Edit test machine/device** profile screen, enter the **machine's name**, select a **lab**, and select a **machine** from the drop-down list. Click on **Desired Capabilities (Optional)**.
+4. Enter **testsigma.privateBrowsing** in the key. Select **Boolean** as the data type and enter **true** for the value in the Desired Capabilities field. Then click **Create**/ **Update** profile to save the configuration.
+5. Click **Create/Update** to save and update the test plan. ![Add capabilities in Test Plan](https://s3.amazonaws.com/static-docs.testsigma.com/new_images/projects/applications/adding_ic_testplan.gif)
 
 ---

@@ -1,6 +1,7 @@
 ---
-title: "Import Test Cases from YAML/GIT"
-metadesc: "This article explains how to import test cases from yaml or git"
+title: "Import Test Project Test Cases"
+pagetitle: "Start Importing Test Cases from YAML/GIT with Ease"
+metadesc: "Seamlessly transfer projects from Test Project using YAML/GIT in Testsigma to learn how to improve your test automation workflow for efficient testing."
 noindex: false
 order: 4.15
 page_id: "Import Test Cases from YAML/GIT"
@@ -9,53 +10,43 @@ contextual_links:
 - type: section
   name: "Contents"
 - type: link
-  name: "Steps to import project from TestProject"
-  url: "#steps-to-import-project-from-testProject"
+  name: "Prerequisites"
+  url: "#prerequisites"  
+- type: link
+  name: "Importing from Test Project to Testsigma"
+  url: "#importing-from-test-project-to-testsigma"
 ---
 
-<br>
+---
 
-This article explains how to import projects from **TestProject** and upload to **Testsigma** with simple steps. 
+You will understand how to import projects from Test Project using YAML/GIT and smoothly move them to Testsigma through this Documentation.
 
-[[info | **NOTE**:]]
-|You need to have a YAML/Zip file of the project or a GitHub repository of your project to import projects. Refer to the GIF below to know to download your projects from TestProject.
+---
 
-![Import TP to TS](https://s3.amazonaws.com/static-docs.testsigma.com/new_images/projects/applications/importtpts.gif)
+## **Prerequisites**
 
-## **Steps to import project from TestProject**
-1. Enable **TestProject** Plugin. 
-    - Navigate to **Settings**.
-    ![Settings](https://s3.amazonaws.com/static-docs.testsigma.com/new_images/projects/applications/navsettings.png)
-    - Click on **Plugins**
-    ![Plugins](https://s3.amazonaws.com/static-docs.testsigma.com/new_images/projects/applications/plugins.png)
-    - Click on the toggle to enable the **TestProject** plugin.
-    ![TP Plugin](https://s3.amazonaws.com/static-docs.testsigma.com/new_images/projects/applications/TPtoggle.png)
+Before using the import from Test Project in Testsigma, ensure that you are familiar with exporting the Test Project file as a YAML/Zip of the project or a GitHub repository for your project.
 
+---
+
+## **Importing from TestProject to Testsigma**
+
+1. Navigate to **Settings** > **Plugins**. Click on the toggle to enable the **Test Project** plugin.
 2. Navigate to **Settings > Imports and Exports**.
-![Imports and Exports](https://s3.amazonaws.com/static-docs.testsigma.com/new_images/projects/applications/importsandexports.png)
-
-3. Click on **Import**.
-![Import](https://s3.amazonaws.com/static-docs.testsigma.com/new_images/projects/applications/nnn.png)
-
-4. On the import prompt, click on **Import from TestProject**.
-![Prompt](https://s3.amazonaws.com/static-docs.testsigma.com/new_images/projects/applications/image2.png)
-
-
+3. Click **Import** and select **Import from Test Project** tab.
+4. You have two options for importing TestProject projects or test cases.
+      - From **YAML/Zip** section:
+        - Click on **Browse** to choose the file for import, or alternatively, you can drag and drop the file.
+      - From **GitHub** section: 
+        - Enter the **Repository URL** and **Access Token**.
 [[info | **NOTE**:]]
-|You can import TestProject’s projects or test cases in two ways. 
-|    - From **YAML/Zip**
-|    - From **GitHub**
+| - We use the information to bring in the project from GitHub and we will not save the Repository URL or Token.
+| - Please click here to generate a new access token and give the necessary permissions under the repositories section.
 
-5. For **YAML/Zip** type, click on **Browse** and select the file you want to import. 
-![YAML](https://s3.amazonaws.com/static-docs.testsigma.com/new_images/projects/applications/zip.png)
-Alternatively, you can drag or drop the file.
+![Import YAML/ZIP/ GIT file](https://s3.amazonaws.com/static-docs.testsigma.com/new_images/projects/applications/navi_import_testproject.gif)
+5. Click on **Start Import** to transfer projects into Testsigma.
+6. You can view your imported projects or test cases in **Imports and Exports**.
+7. Testsigma will automatically recognize the project and application and create test cases, steps, and elements from the imported data. ![Start Importing YAML/ZIP](https://s3.amazonaws.com/static-docs.testsigma.com/new_images/projects/applications/import_testproject_file.gif)
 
-6. For **GitHub** import, 
-    - Enter the Repository URL and Access Token.
-    ![GitHub](https://s3.amazonaws.com/static-docs.testsigma.com/new_images/projects/applications/yaml.png)
-    - Click on **Import**.
+---
 
-7. You can see your imported projects or test cases in **Imports and Exports**.
-![File in Imports and Exports](https://s3.amazonaws.com/static-docs.testsigma.com/new_images/projects/applications/impexp.png)
-
-Testsigma will auto-identify the project and application and create test cases, steps, and elements from the import.

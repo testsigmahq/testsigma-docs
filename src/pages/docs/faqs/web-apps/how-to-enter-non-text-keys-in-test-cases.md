@@ -1,6 +1,7 @@
 ---
-title: "How to enter non-text keys in Test Cases?"
-metadesc: "You can use non-text keys from keyboard in your test cases in Testsigma Application | Learn how to use non-text keys from keyboard in your test cases"
+title: "Entering Non-Text Keys in Test Cases"
+page_title: "Efficiently enter Non-Text Keys in Test Cases for Testing"
+metadesc: "Learn how to simulate non-text key inputs seamlessly in your test cases, ensuring precise testing outcomes. Explore the guide for effective testing strategies."
 noindex: false
 order: 24.2
 page_id: "Enter non-text keys in Test Cases"
@@ -9,15 +10,20 @@ contextual_links:
 - type: section
   name: "Contents"
 - type: link
-  name: "Keys and Values"
-  url: "#keys-and-values"
+  name: "Keys and Corresponding Values"
+  url: "#keys-and-corresponding-values"
 ---
-<br>
 
-Simulating the pressing of non-text keys such as backspace, enter, control, tab, arrow keys, function keys, and others is a common requirement during testing. Refer to the table below and use the corresponding values for each key in your test cases.
+---
 
+Testing applications requires simulating non-text keys' input on an everyday basis. This includes replicating actions like pressing backspace, enter, control, tab, arrow keys, and function keys. To accomplish this in Testsigma, you should follow the guide below and include the specified values for each key in your test cases.
 
-## **Keys and Values**
+---
+
+## **Keys and Corresponding Values**
+
+Use NLPs in your test cases to input non-text values. For example, utilise the NLP **Press Test Data key** and substitute the values for **Test Data**. Consult the table below for the mapping of keys to their corresponding values. ![Enter non-text vaules in Test Cases](https://s3.amazonaws.com/static-docs.testsigma.com/new_images/projects/applications/entering-non-text-keys.gif)
+
 |**Keyboard’s Key**|**Values**|
 |---|---|
 |Arrow Key – Down|ARROW\_DOWN|
@@ -51,11 +57,5 @@ Simulating the pressing of non-text keys such as backspace, enter, control, tab,
 |Function Key F11|F11|
 |Function Key F12|F12|
 
-
-Refer to the sample GIF below to understand how to use Non-text keys in Test Cases.
-![GIF](https://s3.amazonaws.com/static-docs.testsigma.com/new_images/projects/applications/nontext.gif)
-
-
-
-
+---
 
