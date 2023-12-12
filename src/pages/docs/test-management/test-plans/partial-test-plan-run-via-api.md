@@ -1,10 +1,10 @@
 ---
 title: "Execute Partial Test Plan Run via API"
-page_title: "Execute Partial Test Plan Run via API with Specific test suites."
-metadesc: "Automate and execute partial test plan runs via API call in Testsigma. Configure customized test suites, apply filters, and schedule future executions. Improve testing workflow efficiency."
+page_title: "Execute Partial Test Plan Run via API - Test Automation"
+metadesc: "Automate the running of partial test plans in Testsigma via APIs. Configure suites, apply filters, and schedule executions for efficient testing."
 noindex: false
 order: 8.35
-page_id: ""
+page_id: "partial-test-plan-run-via-api-in-testsigma"
 warning: false
 contextual_links:
 - type: section
@@ -40,10 +40,10 @@ Ensure you fulfil the following prerequisites before proceeding with the steps:
 Follow these steps to configure a partial test plan run.
 
 1. Open the **Test Plan Details** page for the specific Test Plan to configure Partial Test Plan Run.
-2. Select **Partial Run** from the drop-down menu by hovering your mouse over the **Down Arrow** next to **Run Now** in the top-right corner of the screen. ![Click Partial Run - PTPR](https://s3.amazonaws.com/static-docs.testsigma.com/new_images/projects/overview/partialrun_testplan_ts.png)
+2. Select **Partial Run** from the drop-down menu by hovering your mouse over the **Down Arrow** next to **Run Now** in the top-right corner of the screen.
 3. Set up the configuration according to your requirements in the **Partial Test Plan Run** layover on the right side of the screen. This includesThis involves selecting the **Test Suites** you want to add or exclude, applying filters based on specific criteria, and making any other necessary adjustments.
-4. Click **Save As Favorite** once you finalize the partial run configuration. ![Click Save as Favorite - PTPR](https://s3.amazonaws.com/static-docs.testsigma.com/new_images/projects/overview/partialrun_setup_ts.png)
-5. Click **Save** after naming your favorite. ![Click Save - PTPR](https://s3.amazonaws.com/static-docs.testsigma.com/new_images/projects/overview/save_configpartialrun_ts.png)
+4. Click **Save As Favorite** once you finalize the partial run configuration.
+5. Click **Save** after naming your favorite. ![Click Save - PTPR](https://s3.amazonaws.com/static-docs.testsigma.com/new_images/projects/applications/save_configpartialrun_ts.gif)
 
 [[info | NOTE:]]
 | Remember the name used for the favorite configuration, as the API call will require it.
@@ -74,10 +74,10 @@ Follow these steps to run the partial test plan via API call:
 Follow these steps to schedule a partial test run for future execution.
 
 1. Open the **Test Plan Details** page for the specific Test Plan to configure Schedule Partial Test Run.
-2. Select **Partial Run** from the drop-down menu by hovering your mouse over the **Down Arrow** next to the **Schedule** button in the top-right corner of the screen. ![Click Partial Run - SPTPR](https://s3.amazonaws.com/static-docs.testsigma.com/new_images/projects/overview/sch_partialrun_testplan_ts.png)
+2. Select **Partial Run** from the drop-down menu by hovering your mouse over the **Down Arrow** next to the **Schedule** button in the top-right corner of the screen.
 3. Set up the configuration according to your requirements in the **Schedule Partial Test Run** layover on the right side of the screen. This includes **Naming the scheduled partial run, selecting the time, date, repeat frequency, and additional settings** for the partial run, choosing the **test suites** to include or exclude, and applying any necessary filters or adjustments to the configuration.
-4. Click **Save As Favorite** once you finalize the schedule partial run configuration. ![Click Save as Favorite - SPTPR](https://s3.amazonaws.com/static-docs.testsigma.com/new_images/projects/overview/sch-partialrun_setup_ts.png)
-5. Click **Save** after naming your favorite configuration. ![Click Save - SPTPR](https://s3.amazonaws.com/static-docs.testsigma.com/new_images/projects/overview/sch_save_configpartialrun_ts.png)
+4. Click **Save As Favorite** once you finalize the schedule partial run configuration.
+5. Click **Save** after naming your favorite configuration. ![Click Save - SPTPR](https://s3.amazonaws.com/static-docs.testsigma.com/new_images/projects/applications/sch_save_configpartialrun_ts.gif)
 
 [[info | NOTE:]]
 | Remember the time, date, and name you used for the favorite configuration because the API call will require it.
