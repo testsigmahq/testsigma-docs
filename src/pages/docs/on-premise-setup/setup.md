@@ -1,5 +1,5 @@
 ---
-title: "On-Premise setup with docker-compose file"
+title: "On-Premise Setup with Docker-Compose File"
 order: 26.3
 page_id: "Onprem Installation Steps"
 metadesc: "This article discusses steps to deploy the docker compose file for Testsigma On-prem setup, how to access the application, how to stop and remove the containers, and more."
@@ -10,30 +10,39 @@ contextual_links:
 - type: section
   name: "Contents"
 - type: link
-  name: "Steps to deploy docker compose file"
+  name: "Steps to Deploy Docker Compose File"
   url: "#steps-to-deploy-docker-compose-file"
 - type: link
   name: "Accessing Application"
   url: "#accessing-application"
 - type: link
-  name: "To stop and remove the containers"
+  name: "To Stop and Remove the Containers"
   url: "#to-stop-and-remove-the-containers"
 - type: link
-  name: "Containers defined in the docker compose file"
+  name: "Containers Defined in the Docker Compose File"
   url: "#containers-defined-in-the-docker-compose-file"
 - type: link
-  name: "How to change the Domain Name"
+  name: "How to Change the Domain Name"
   url: "#how-to-change-the-domain-name"
 ---
 
-<br>
+
+---
 
 You'll receive ***docker-compose.yml*** files based on your requested configuration from Testsigma that specifies the configuration for a multi-container app that contains a MySQL server, a global HTTPD server, a Faktory worker service, and several UI services for various components of the application.
 
-## **Steps to deploy docker compose file**
+---
+
+## **Steps to Deploy Docker Compose File**
+
 1. Install Docker and Docker Compose on your system.
+
 2. Open a terminal and navigate to the directory where the docker-compose.yml file is located.
+
 3. Run the command ***docker-compose up***  to start the containers defined in the docker-compose.yml file given by Testsigma. This will start all the services in the background and keep them running even if you close the terminal window.
+
+
+---
 
 ## **Accessing Application**
 Along with the given docker-compose files you will receive a list of URLs for accessing the application.
@@ -50,10 +59,16 @@ Once the application is up and running, you can access it using the IP address o
 
 For Example, the sample **docker-compose.yml** file mentions that the web service is accessible on port 80. You can access it by navigating to **http://&lt;server-ip&gt;80** in your web browser.
 
-## **To stop and remove the containers**
+---
+
+
+## **To Stop and Remove the Containers**
 To stop and remove the containers, you can run the command ***docker-compose down***.  This command will stop and remove all the containers and networks created by the **docker-compose.yml** file.
 
-## **Containers defined in the docker compose file**
+---
+
+
+## **Containers Defined in the Docker Compose File**
 
 - The MySQL server is named **testsigma\_mysql** and uses the image, **testsigmainc/onprem:mysql-&lt;companyName&gt;-trial-&lt;Version&gt;**. It has a volume mounted to persist data. (Users can also  set up their own mysql server and map it in the docker-compose file. For more information on connecting to external/existing MySQL database, refer to [connecting to external MySQL.](https://testsigma.com/docs/getting-started/setup/docker/#connecting-to-external-mysql))
 - The Faktory worker service is named as testsigma_worker and it uses the image,  **testsigmainc/onprem:worker-&lt;companyName&gt;-trial-&lt;Version&gt;**.
@@ -97,7 +112,11 @@ TS_APP_SERVER_PROTOCOL: https
 [[info | **NOTE**:]]
 |All services will connect to a custom network named ***testsigma-network***. Each service will have a health check specified with different intervals, timeouts, and retries, depending on the service.
 
-## **How to change the Domain Name** 
+---
+
+
+## **How to Change the Domain Name** 
+
 1. From testsigma request the docker image with new domain names using Github Actions. 
 2. Customer need to replace the HTTPS Certificate in **testsigma-load-balancer** container.
 For this they can keep the public key and private key files in the host machine and specify it as volume in the ***'docker-compose'*** file.
@@ -123,3 +142,7 @@ volumes:
 - Here, replace ***'/path/to/new/server.crt'*** with the path to the new ***'server.crt'*** file on your host machine, and replace ***'/path/to/new/server.key'*** with the path to the new ***'server.key'*** file on your host machine.
 
 - When you run ***docker-compose up***, the ***'server.crt'*** and ***'server.key'*** files in the container will be replaced with the new files from the host machine.
+
+
+
+---
