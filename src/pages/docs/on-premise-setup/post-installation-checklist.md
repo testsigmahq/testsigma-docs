@@ -1,5 +1,5 @@
 ---
-title: "Post-installation checklist for On-premise setup"
+title: "Post-Installation Checklist for On-Premise Setup"
 order: 26.4
 page_id: "Post-installation checklist"
 metadesc: "Post-installation checklist for On-premise setup by Testsigma | Refer and verify this checklist once the On-premise setup is done by Testsigma"
