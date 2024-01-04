@@ -8,7 +8,10 @@ page_id: "Test Plan: Cross Browser Testing"
 warning: false
 contextual_links:
 - type: section
-  name: "Contents" 
+  name: "Contents"
+- type: link
+  name: "Prerequisites"
+  url: "#prerequisites"
 - type: link
   name: "Steps to Enable Cross Browser Testing"
   url: "#steps-to-enable-cross-browser-testing"
