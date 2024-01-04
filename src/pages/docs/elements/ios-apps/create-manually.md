@@ -1,5 +1,5 @@
 ---
-title: "Create Elements [Manually]"
+title: "Create Elements Manually"
 metadesc: "Element path plays an important role in dynamic websites. Learn how to create elements manually for a iOS Applications in Testsigma application"
 noindex: false
 order: 6.44
@@ -32,127 +32,95 @@ contextual_links:
 
 ---
 
-In this document, we will discuss how to create elements manually for your iOS project in Testsigma i.e. without the use of a Test recorder.
+In Testsigma, you can also create elements manually for your iOS project without using recorder. This article discusses how to create elements manually with simple steps.
 
 
 
 ---
 
 ## **Prerequisites**
-You should have an iOS project in Testsigma. See [creating a project](https://testsigma.com/docs/projects/overview/).
+
+- You should know how to create an android [project](https://testsigma.com/docs/projects/overview/) in Testsigma.
+
+- An iOS app to test.
 
 ---
 
-## **Creating Elements**
+## **Steps to Create an Element**
 
-1. Go to your iOS project, then go to Test Development > Elements.
-2. On the ‘All Elements’ page that appears, click on the create button on the top right:
-![all elements page for an iOS project with Manually radio button selected](https://s3.amazonaws.com/static-docs.testsigma.com/new_images/elements/ios-apps/create-manually/all-elements-page-create-element-manually-ios-testsigma.png)
 
-3. The ‘Create Element’ form opens up, as shown in the screenshot below:
-![create element form in Testsigma for an iOS project with Manually radio button selected](https://s3.amazonaws.com/static-docs.testsigma.com/new_images/elements/ios-apps/create-manually/create-element-form-highlighted-manually-ios-testsigma.png)
+1. Navigate to **Create Tests > Elements**.
+![Elements](https://s3.amazonaws.com/static-docs.testsigma.com/new_images/projects/applications/ceminav.png)
 
-4. Create the element either manually or via element inspector. In this document, we will cover how to create elements ‘manually’. You can also [capture elements via Test recorder](https://testsigma.com/docs/elements/ios-apps/capture-single-element/). For now, select the radio button ‘Manually’.
+2. Click on **Create Element**.
+![Create Element](https://s3.amazonaws.com/static-docs.testsigma.com/new_images/projects/applications/cemice.png)
 
-5.  You will see the form options as shown in the screenshot below:
-![create element form in Testsigma for an iOS project with Manually radio button selected ](https://docs.testsigma.com/images/create-manually/create-element-manually-ios-testsigma.png)
+3. On **Create Element** overlay, you'll see the following fields:
+![Overlay](https://s3.amazonaws.com/static-docs.testsigma.com/new_images/projects/applications/cemidtls.png)
+    - **Name:** Enter the name you want to give your element.
+    - **Screen Name:** Mention the screen that your element resides on.
+    - **Element Type:** There are 5 types of element types supported in Testsigma. This field is a drop-down list; you can select any of them: **XPATH**, **ID**, **Name**, **Class Name**, or **Accessibility ID**.
+    - **Enter Value:** Enter the value corresponding to the **Element Type** you selected.
 
-Here are the fields that you will see:<br>
-&emsp;&emsp; 1. **Name:** Enter the name you want to give your element.<br>
-&emsp;&emsp; 2. **Screen Name:** Mention the screen that your element resides on.<br>
-&emsp;&emsp; 3. **Element Type:** There are 5 types of identifier types supported in Testsigma. This field is a drop-down list and you can select any one of them: XPATH, ID, Name, Class Name, or Accessibility ID<br>
+4. Once you have added all the details, click on **Create element**.
+![Create](https://s3.amazonaws.com/static-docs.testsigma.com/new_images/projects/applications/ceiceb.png)
 
-![element type dropdown values on the create element form for iOS project in Testsigma](https://docs.testsigma.com/images/create-manually/element-type-dropdown-value-create-an-element-ios-testsigma.png)
-&emsp;&emsp;4. **Enter Value:** Enter the value here that is in correspondence with the Identifier Type you selected.
+5. The element will be saved in the elements list. 
 
-<br>
+[[info | **NOTE**:]]
+| You can also create elements using the recorder by clicking on **Record Element** from the **Create Element** page. 
+| ![Recorder](https://s3.amazonaws.com/static-docs.testsigma.com/new_images/projects/applications/cemirelm.png)
 
-6. Once you have added all the details, click on the ‘Create’ button and the element you created will be added to the project.
 
 ---
 
 ## **Creating Element While Adding Test Steps**
 
- 1. Create a test case or go to a pre-existing test case. 
-   
- 2. Add a test step to the test case that contains an element. The language for the test step should contain an element. Some examples of such steps for an iOS application are shown in the screenshot below:
+1. Navigate to **Create Tests > Test Cases**, click on **Create Test Case** or go to a pre-existing test case. 
+![Test Case](https://s3.amazonaws.com/static-docs.testsigma.com/new_images/projects/applications/cemiwcts.png)
 
-![the various Action test steps for iOS application in Testsigma](https://docs.testsigma.com/images/create-a-new-element/the-various-Actions-test-steps-ios-testsigma.png)
 
- 3. Let’s say we added the step ‘Tap on element’ to our test case:
+2. Add a test step to the test case that contains an element. 
 
-![Element specific test step test case page for iOS project in Testsigma](https://docs.testsigma.com/images/create-a-new-element/the-element-specific-test-step-test-case-page-ios-testsigma.png)
 
- 4. On the step, click on the green text ‘element’, a layover will appear containing the elements in the project like this:
+3. Hover over the ***element*** and select **Create Element** from the dropdown.
+![Dropdown](https://s3.amazonaws.com/static-docs.testsigma.com/new_images/projects/applications/cemicets.png)
 
-![Elements layover over a test case page for iOS project in Testsigma](https://docs.testsigma.com/images/create-a-new-element/the-elements-layover-over-test-case-page-ios-testsigma.png)
+Follow the steps 3-5 from above section to create an element manually. 
 
- 5. Here, to create an element that is not in the list, start typing a new name for the element, the option “NEW” will appear like this:
-
-![add new element with a new name on test case page for iOS project in Testsigma](https://docs.testsigma.com/images/create-a-new-element/add-new-element-with--new-name-test-case-page-ios-testsigma.png)
-
- 6. Click on the ‘NEW’ button highlighted in the last step. ‘Create Element’ form will open up as shown in the screenshot below:
-
-![create element form on test case page for iOS project in Testsigma](https://docs.testsigma.com/images/create-a-new-element/the-create-element-form-on-test-case-page-ios-testsigma.png)
-
- 7. Create the element either manually or via element inspector. In this document, we will cover how to create elements ‘manually’. You can also [capture elements via Test recorder](https://testsigma.com/docs/elements/ios-apps/capture-single-element/). For now, select the radio button ‘Manually’.
-
- 8. You will see the form options as shown in the screenshot below:
-
-![create element form in Testsigma for an iOS project with Manually radio button selected ](https://docs.testsigma.com/images/create-a-new-element/create-element-manually-ios-testsigma.png)
-
-Here are the fields that you will see:
-
-**Name**: Enter the name you want to give your element.
-
-**Screen Name**: Mention the screen that your element resides on.
-
-**Element Type**: There are 5 types of identifier types supported in Testsigma. This field is a drop-down list and you can select any one of them: XPATH, ID, Name, Class Name, or Accessibility ID
-
-**Enter Value**: Enter the value here that is in correspondence with the Identifier Type you selected.
-
-![element type dropdown values on the create element form for iOS project in Testsigma](https://docs.testsigma.com/images/create-a-new-element/element-type-dropdown-value-create-an-element-ios-testsigma.png)
-
- 8. Once you have added all the details, click on the ‘Create’ button. The green text ‘element’ will be replaced in the test step you were creating. 
-
-You can now continue adding the test step for your iOS project.
 
 ---
 
 ## **Updating an Element**
 
- 1. Select your project and then navigate to **Test Development > Elements**.
- 2. **All Elements** page will appear. This contains all the elements that you have created for the selected iOS project, like this:
+1. Navigate to **Create Tests > Elements**.
+![Elements](https://s3.amazonaws.com/static-docs.testsigma.com/new_images/projects/applications/cemunav.png)
 
-![all elements page to update elements for iOS project in Testsigma](https://s3.amazonaws.com/static-docs.testsigma.com/new_images/test-cases/create-steps-nl/ios-apps/update-elements/all-elements-page-update-elements-ios-testsigma.png)
 
- 3. Scroll or filter to find the element you want to update.
- 4. Hover over the element and click on the **Edit**. 
+2. Hover over the element you want to update and click on the **kebab menu** to open a dropdown menu. Click on **Edit** from the dropdown.
+![Edit](https://s3.amazonaws.com/static-docs.testsigma.com/new_images/projects/applications/cemiedit.png)
 
-![edit button for an element in all elements page for iOS project in Testsigma](https://docs.testsigma.com/images/update-elements/edit-button-for-an-element-in-all-elements-ios-testsigma.png)
 
-The Edit Element layover will appear:
+3. On the **Update Element** overlay, you can update the **Name**, **Screen Name**, select the **Element Type**. 
+![Update Element](https://s3.amazonaws.com/static-docs.testsigma.com/new_images/projects/applications/cemuedtls.png) 
 
-![edit element page to update elements for iOS project in Testsigma](https://s3.amazonaws.com/static-docs.testsigma.com/new_images/test-cases/create-steps-nl/ios-apps/update-elements/edit-element-page-update-elements-ios-testsigma.png)
 
-There is a radio button that lets you choose between **Manually** or **Element Inspector**. When **Manually** is selected, you can make the changes you need to make in this element on the form and click on **Update** to finalize the changes. For Test recorder approach, see how to [update elements using Test recorder.](https://testsigma.com/docs/test-cases/create-steps-recorder/ios-apps/update-elements/)
-
-&emsp;
+4. Click on **Update**.
+![Click on Update](https://s3.amazonaws.com/static-docs.testsigma.com/new_images/projects/applications/cemiueae.png)
 
 ---
 
 ## **Updating Multiple Elements**
 
- 1. Select your iOS project and then navigate to ‘Test Development > Elements’
- 2. On the top right, there is an option to export the elements in excel format:
+1. Navigate to **Create Tests > Elements**.
+![Elements](https://s3.amazonaws.com/static-docs.testsigma.com/new_images/projects/applications/cemunav.png)
 
-![export button on all elements page to update elements for an iOS project Testsigma](https://s3.amazonaws.com/static-docs.testsigma.com/new_images/test-cases/create-steps-nl/ios-apps/update-elements/export-button-all-elements-page-update-elements-ios-testsigma.png)
+2. Click on **Export**.
+![Export](https://s3.amazonaws.com/static-docs.testsigma.com/new_images/projects/applications/cemiume.png)
 
- 3. In the excel sheet, update the required fields for the required elements.
- 4. Click on the import button highlighted in the screenshot below. Select the excel sheet you updated in step 3 for import.
+3. In the downloaded XLSX file, update the required fields for the required elements.
 
-![import button on all elements page to update elements for an iOS project in Testsigma](https://s3.amazonaws.com/static-docs.testsigma.com/new_images/test-cases/create-steps-nl/ios-apps/update-elements/import-button-all-elements-page-update-elements-ios-testsigma.png)
-
-With import, the edits done in step 3 will be visible in the corresponding elements in your iOS project in Testsigma.
+4. Click on **Import** and choose the updated XLSX file for import.
+![Import](https://s3.amazonaws.com/static-docs.testsigma.com/new_images/projects/applications/cemiueimp.png)
 
 ---
