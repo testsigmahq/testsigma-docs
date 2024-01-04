@@ -12,11 +12,11 @@ contextual_links:
   name: "Introduction"
   url: "#introduction"
 - type: link
-  name: "Pre-requisites"
-  url: "#pre-requisites"
+  name: "Prerequisites"
+  url: "#prerequisites"
 - type: link
-  name: "Creating Elements"
-  url: "#creating-elements"
+  name: "Steps to Create an Element"
+  url: "#steps-to-create-an-element"
 - type: link
   name: "Creating Element While Adding Test Steps"
   url: "#creating-element-while-adding-test-steps"
