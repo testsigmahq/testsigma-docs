@@ -1,5 +1,5 @@
 ---
-title: "Integrating MS Team with Testsigma for test run notifications"
+title: "Integrating MS Team with Testsigma"
 metsdesc: "Configure Microsoft Teams channel to receive notifications about Test Results in real-time from Testsigma Application | Testsigms Integration with MS Team"
 order: 16.22
 page_id: "Integrating MS Team with Testsigma for test run notifications"
@@ -11,10 +11,10 @@ contextual_links:
   name: "Prerequisites"
   url: "#prerequisites"
 - type: link
-  name: "Integrating Microsoft Teams with Testsigma"
-  url: "#integrating-microsoft-teams-with-testsigma"
+  name: "Steps to Integrate Microsoft Teams with Testsigma"
+  url: "#steps-to-integrate-microsoft-teams-with-testsigma"
 - type: link
-  name: "Enabling MS Teams notifications in Test Plan"
+  name: "Enabling MS Teams Notifications in Test Plan"
   url: "#enabling-ms-teams-notifications-in-test-plan"
 ---
 
@@ -26,39 +26,57 @@ Integrating Testsigma with Microsoft Teams is similar to integrating with other 
 
 ## **Prerequisites**
 
-We need a Microsoft Teams Connector to integrate with Testsigma. To know how to generate an Incoming Webhook in MS Teams, refer [Create an incoming Webhooks | MS Teams](https://docs.microsoft.com/en-us/microsoftteams/platform/webhooks-and-connectors/how-to/add-incoming-webhook)<br>
-Microsoft Teams Connector is an Incoming Webhook mapped to a specific Channel in your organization and we will be using the connector to post the Test Results on that Teams channel.
+- Microsoft Teams Connector to integrate with Testsigma. For more information, refer to [create an incoming MS Team webhook](https://docs.microsoft.com/en-us/microsoftteams/platform/webhooks-and-connectors/how-to/add-incoming-webhook). 
+
+
+- You should know [how to create a test plan](https://testsigma.com/docs/test-management/test-plans/overview/#steps-to-create-a-test-plan).
 
 ---
 
-## **Integrating Microsoft Teams with Testsigma**
+## **Steps to Integrate Microsoft Teams with Testsigma**
 
-Once the Connector URL is obtained, navigate to the Plugins page through **Dashboard > Settings > Plugins** and select **MS Teams** under the **Collaborations** Tab.
-   1. Click on the disabled Icon on MS Teams. MS Teams Details overlay opens up as shown below:
-   ![Add MS Teams Integration form](https://docs.testsigma.com/images/microsoft-teams/plugins-ms-teams-add-integration-form.png)
-   2. Enter the incoming webhook URL obtained from MS Teams in the **Connector URL** field.<br>
-   After entering the details, click on the Create button to add the Integration.
+
+1. Navigate to **Settings > Integrations**.
+![Integrations](https://s3.amazonaws.com/static-docs.testsigma.com/new_images/projects/applications/mstinav.png)
+
+
+2. Enable toggle on **MS Teams** widget.
+![MS Teams Toggle](https://s3.amazonaws.com/static-docs.testsigma.com/new_images/projects/applications/mstitgle.png)
+
+
+3. On the **MS Teams details** prompt, enter **Name**, **Connector URL** and click on **Save & Enable**.
+![Details](https://s3.amazonaws.com/static-docs.testsigma.com/new_images/projects/applications/mstisaen.png)
+
 
 ---
 
-## **Enabling MS Teams notifications in Test Plan**
-
-Once the MS Teams integration is added, you can enable the MS Teams notifications for your Test Plans while editing any of your existing Test Plans or while creating a new Test Plan.
-
-From the **Send Notification When** section on the Test Plan Settings page,
- * Under the ‘On’ dropdown, select the Test Plan status for which you want to be notified. You can select multiple statuses from the list.
- * Under the ‘send message to’ dropdown, select MS Teams.
- ![Send notification settings under Test Plan Settings](https://docs.testsigma.com/images/microsoft-teams/create-edit-test-plan-send-notification-when.png)
- Here’s what the Notification looks like on MS Teams:
- ![MS Teams notification for Test Results](https://docs.testsigma.com/images/microsoft-teams/ms-teams-testsigma-notifications.png)
-
-The first and second line shows the integration added to the channel.<br>
-The third line shows the **Test Plan Completed** notification when the Test Plan completes.
+## **Enabling MS Teams Notifications in Test Plan**
 
 
-Click on the **View in Testsigma** link to check the details inside the Testsigma App.
+Once the MS Teams integration is added, you can enable the MS Teams notifications for your test plans while editing any existing ones or creating a new one.
 
 
-![MS Teams Integration for Testsigma](https://s3.amazonaws.com/static-docs.testsigma.com/new_images/projects/applications/msint.gif)
+1. On **Create Test Plan/Edit Test Plan** page, click on **Test Plan Settings**. 
+![TP Settings](https://s3.amazonaws.com/static-docs.testsigma.com/new_images/projects/applications/mstitpse.png)
+
+
+2. Enable **Send Notification** toggle.
+![Send Notification](https://s3.amazonaws.com/static-docs.testsigma.com/new_images/projects/applications/mstiet.png)
+
+
+3. Under the **Notify On** section, select the status for which you want to be notified. You can select multiple statuses from the list.
+![Status](https://s3.amazonaws.com/static-docs.testsigma.com/new_images/projects/applications/mstimss.png)
+
+
+4. Under the **Also send messages to** dropdown, select **MS Teams**.
+![MS Teams](https://s3.amazonaws.com/static-docs.testsigma.com/new_images/projects/applications/mstismst.png)
+
+
+
+Here’s what the notification looks like on MS Teams:
+![MS Teams notification for Test Results](https://docs.testsigma.com/images/microsoft-teams/ms-teams-testsigma-notifications.png)
+
+
+
 
 ---

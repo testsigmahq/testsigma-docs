@@ -1,5 +1,5 @@
 ---
-title: "Install Docker on an Unix OS in Azure infrastructure"
+title: "Install Docker on an Unix OS in Azure Infrastructure"
 order: 26.5
 page_id: "Install Docker on Azure infrastructure"
 metadesc: "This article discusses in detail a step-by-step guide to installing and verifying docker on a Unix-based OS within Azure infrastructure."
@@ -10,15 +10,18 @@ contextual_links:
 - type: section
   name: "Contents"
 - type: link
-  name: "Steps to install Docker on an Unix OS in Azure infrastructure"
+  name: "Steps to Install Docker on an Unix OS in Azure Infrastructure"
   url: "#steps-to-install-docker-on-an-unix-os-in-azure-infrastructure"
 ---
 
-<br>
+
+---
 
 This article discusses a step-by-step guide to installing Docker on a Unix-based OS within Azure infrastructure. 
 
-## **Steps to install Docker on an Unix OS in Azure infrastructure**
+---
+
+## **Steps to Install Docker on an Unix OS in Azure Infrastructure**
 
 1. Connect to your Azure virtual machine.
 
@@ -77,3 +80,4 @@ Refer to this page https://github.com/datahub-project/datahub/issues/2020 for av
 
 
 
+---

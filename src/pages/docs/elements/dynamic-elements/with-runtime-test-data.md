@@ -1,7 +1,7 @@
 ---
 title: "Using Runtime Test Data for Dynamic locators"
 metadesc: "This article discusses the usage of Runtime Test Data for creating dynamic locators | Learn about Runtime Test Data in Testsigma application"
-order: 6.62
+order: 6.82
 page_id: "Using Runtime Test Data for Dynamic locators"
 warning: false
 contextual_links:

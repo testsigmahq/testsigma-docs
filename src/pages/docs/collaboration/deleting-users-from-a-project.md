@@ -44,7 +44,7 @@ In Testsigma, you can delete users from your project. This article will discuss 
 
 ---
 
-##**Delete user via Settings**
+## **Delete user via Settings**
 
 1. Navigate to **Settings** > **Users**.
 ![Global Settings](https://s3.amazonaws.com/static-docs.testsigma.com/new_images/projects/overview/ts_globalsettingsuser.png)
@@ -57,3 +57,5 @@ In Testsigma, you can delete users from your project. This article will discuss 
 ![Confirmation in Global settings](https://s3.amazonaws.com/static-docs.testsigma.com/new_images/projects/overview/ts_deletingmemberglobalconfirm.png)
 
 5. The user will be successfully removed from the project.
+
+---

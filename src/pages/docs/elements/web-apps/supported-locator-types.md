@@ -9,8 +9,8 @@ contextual_links:
 - type: section
   name: "Contents"
 - type: link
-  name: "Locators supported by Testsigma to create Elements"
-  url: "#locators-supported-by-testsigma-to-create-elements"
+  name: "Supported Locators in Testsigma"
+  url: "#supported-locators-in-testsigma"
 - type: link
   name: "XPath"
   url: "#1-xpath"
@@ -36,12 +36,11 @@ contextual_links:
 
 ---
 
-Webpages offer a bunch of location mechanisms to search and locate Elements on the page for interacting with it. The most prominent ones are XPath and CSS Selectors.
-
-<br>
+Webpages offer many location mechanisms to search and locate elements on the page to interact with. The most prominent ones are XPath and CSS Selectors. This article discusses locators supported by Testsigma to create elements.
 
 ---
-## **Locators supported by Testsigma to create Elements**
+
+## **Supported Locators in Testsigma**
 * XPath<br>
 * CSS Selector<br>
 * Link Text and Partial Link Text<br>
@@ -50,9 +49,9 @@ Webpages offer a bunch of location mechanisms to search and locate Elements on t
 * Class Name<br>
 * Tag Name<br>
 
-![Create Element Locator Type Dropdown](https://docs.testsigma.com/images/supported-locator-types/create-element-locator-dropdown.png)
 
 ---
+
 ## **1. XPath**
 
 XPath is a query language used to navigate through elements and attributes in an XML document. XPath locators are very powerful and flexible.
@@ -64,12 +63,12 @@ Any element on the page can be located using multiple XPath definitions and most
 
 XPath for the Email field in the above image is **//input[@id="email"]**
 
-Learn how to create [Dynamic Element locators](https://testsigma.com/docs/elements/dynamic-elements/with-parameter-test-data/) using Xpath and CSS Locators
-
-<br>
+*Learn how to create [Dynamic Element locators](https://testsigma.com/docs/elements/dynamic-elements/with-parameter-test-data/) using Xpath and CSS Locators.*
 
 
 ---
+
+
 ## **2. CSS Selector**
 
 CSS Selector is a string pattern used to identify an element based on a combination of HTML tag, id, class, and/or attributes.
@@ -81,15 +80,11 @@ CSS Selector for the Email field using the ID is **input#email**
 
 CSS Selector for the Email field using the Class name is **input.inputtext**
 
-Learn how to create [Dynamic Element locators](https://testsigma.com/docs/elements/dynamic-elements/with-parameter-test-data/) using Xpath and CSS Locators.
-
-Also only a CSS selector can access elements present inside shadow DOM. *For more information on shadow dom,refer to
-[locating shadow DOM](https://testsigma.com/docs/elements/web-apps/shadow-dom/)*.
-
-<br>
-
+Also only a CSS selector can access elements present inside shadow DOM. *For more information on shadow dom,refer to [locating shadow DOM](https://testsigma.com/docs/elements/web-apps/shadow-dom/)*.
 
 ---
+
+
 ## **3. Link Text & Partial Link Text**
 
 Finding an element with Link Text/Partial Link Text is very simple. But make sure that the link text is unique on the web page. If there are multiple links with the same link text (such as repeated header and footer menu links), in such cases action will be performed on the first matching element with the link.
@@ -101,9 +96,10 @@ Link text of the element is **“Forgot password?”**
 
 Partial link text of the element can be **Forgot**, **password**, or **For**
 
-<br>
 
 ---
+
+
 ## **4. ID**
 
 ID is the most common way of locating elements since IDs are supposed to be unique for each element as per the W3C standard. If ID tags are available for an Element and they are unique, it is the most preferred option.
@@ -113,10 +109,10 @@ ID is the most common way of locating elements since IDs are supposed to be uniq
 
 The ID of the element is **“email”**
 
-<br>
-
 
 ---
+
+
 ## **5. Name**
 
 Locating elements by Name is very similar to locating by ID, except that we use the value of the name attribute instead of the ID. And moreover, name attributes are not strictly unique.
@@ -126,10 +122,10 @@ Locating elements by Name is very similar to locating by ID, except that we use 
 
 The name of the element is **“userName”**
 
-<br>
-
 
 ---
+
+
 ## **6. Class Name**
 
 Class name locator selects the element which matches the values specified in the attribute name “class”.
@@ -139,10 +135,10 @@ Class name locator selects the element which matches the values specified in the
 
 The class name of the element is **“inputtext”**
 
-<br>
-
 
 ---
+
+
 ## **7. Tag Name**
 
 Tag Name locator is used to find the elements matching the specified Tag/Type Name. It is very helpful when we want to extract the content within a Tag.
@@ -153,3 +149,4 @@ Tag Name locator is used to find the elements matching the specified Tag/Type Na
 The tag name of the element is **“input”**
 
 
+---

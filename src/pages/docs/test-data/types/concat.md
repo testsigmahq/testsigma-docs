@@ -9,37 +9,59 @@ contextual_links:
 - type: section
   name: "Contents"
 - type: link
+  name: "Prerequisites"
+  url: "#prerequisites"
+- type: link
   name: "Steps to Concat Test Data"
   url: "#steps-to-concat-test-data"
 ---
 
-<br>
+
+---
 
 In Testsigma, users can concat test data, which combines multiple sets of test data. This article discusses how to concat test data. 
 
-Here is a quick GIF demonstrating how to concat test data in Testsigma.
-![Concat GIF DEMO](https://s3.amazonaws.com/static-docs.testsigma.com/new_images/projects/applications/cctestdata.gif)
+---
+
+## **Prerequisites**
+
+- You should know how to [create a test case](https://testsigma.com/docs/test-cases/manage/add-edit-delete/).
+   
+- You should know how to use a [data generator](https://testsigma.com/docs/test-data/types/data-generator/).
+
+---
+
 
 ## **Steps to Concat Test Data**
-1. Navigate to **Test Development > Test cases**, click on **Create**.
-![Create TC](https://s3.amazonaws.com/static-docs.testsigma.com/new_images/projects/applications/testcase.png)
 
-2. On the **Test Case create page**, enter the test steps & use the highlighted **NLP** below to concat the Test data.
-![Test Steps](https://s3.amazonaws.com/static-docs.testsigma.com/new_images/projects/applications/steps.png)
 
-3. In this **NLP**, 
-    - Click on **test data**, and select **Data Generator** from the dropdown.
-    ![Dropdown](https://s3.amazonaws.com/static-docs.testsigma.com/new_images/projects/applications/nlp.png)
-    - On **Test Data Generators** overlay, select ***!|StringFunctions :: Concat|*** string.
-    ![Test Data Generators](https://s3.amazonaws.com/static-docs.testsigma.com/new_images/projects/applications/datagenerators.png)
-    - Enter **testdata** in all the strings and click on **Save** and **Create**.
-    ![Inputs](https://s3.amazonaws.com/static-docs.testsigma.com/new_images/projects/applications/inputs1.png)
-    [[info | **NOTE**:]]
-    |By clicking on **Add input testdata**, you can add multiple inputs to concat. 
-    - Click on **test-data**, choose where you want to store the test data from the dropdown.
-    ![Storing Data](https://s3.amazonaws.com/static-docs.testsigma.com/new_images/projects/applications/storedata.png)
 
-4.  After adding all the steps, execute the Test Case.
+1. Navigate to **Create Tests > Test Cases**, and click on **Create Test Case**.
+![Test Case](https://s3.amazonaws.com/static-docs.testsigma.com/new_images/projects/applications/cctdtcnav.png)
 
-5.  In the **Test Case result page**, you click on the step to validate the result.
-![Validate Result](https://s3.amazonaws.com/static-docs.testsigma.com/new_images/projects/applications/result1.png)
+
+2. To concat test data, we use the following NLP in our test case. 
+![NLP](https://s3.amazonaws.com/static-docs.testsigma.com/new_images/projects/applications/cctdstditd.png)
+
+
+3. Click on **test data1**, and select **Data Generator** from the dropdown.
+![Data Generator](https://s3.amazonaws.com/static-docs.testsigma.com/new_images/projects/applications/cctddgen.png)
+
+
+4. On **! Data Generators** overlay, select ***StringFunctions*** for **Function Type** and ***Concat*** for **Function**.
+![Concat](https://s3.amazonaws.com/static-docs.testsigma.com/new_images/projects/applications/cctdsfftc.png)
+
+
+5. Click on **Save**.
+![Save](https://s3.amazonaws.com/static-docs.testsigma.com/new_images/projects/applications/cctdsave.png)
+
+
+6. Click on **test data2**, choose where you want to store the test data from the dropdown.
+![Storing Data](https://s3.amazonaws.com/static-docs.testsigma.com/new_images/projects/applications/cctdstore.png)
+
+
+7. After adding all the steps, execute the test case and validate the result.
+
+
+
+---

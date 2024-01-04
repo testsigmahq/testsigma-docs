@@ -9,60 +9,59 @@ contextual_links:
 - type: section
   name: "Contents" 
 - type: link
-  name: "How to perform test plan executions on local devices in Testsigma"
-  url: "#how-to-perform-test-plan-executions-on-local-devices-in-testsigma"
+  name: "Prerequisites"
+  url: "#prerequisites"
+- type: link
+  name: "Steps for Test Plan Local Executions"
+  url: "#steps-for-test-plan-local-executions"
 ---
 
----
-You can execute your test plans on your local devices using Testsigma. Local execution is preferred for testing applications that are only available locally, for security or other purposes.
 
 ---
-## **How to perform test plan executions on local devices in Testsigma:**
-There are four steps to running a test plan on a local device.
 
-### Step 1: Download the Agent
-Navigate to the Agents page, click on **Download**, choose your Operating System. This will trigger the download of the Agents zip file which is about 500 MB in size.
+You can execute your test plans on your local devices using Testsigma. Local execution is preferred for testing applications only available locally, for security or other purposes.
 
-Once it is downloaded, unzip it and save it to an accessible location.
+---
 
-![Download agent for test plan local executions in Testsigma](https://s3.amazonaws.com/static-docs.testsigma.com/new_images/projects/applications/agentdownload.gif)
+## **Prerequisites**
 
-&emsp;
-### Step 2: Start the Agent
-Navigate inside the unzipped folder and start the Agent by running the *start.bat* file for windows or *start.sh* file for Mac / Linux. To start the Agent, use your command prompt or terminal and type the name of the bat file / sh file.
+- You should know [how to set up Testsigma agent](https://testsigma.com/docs/agent/setup-on-windows-mac-linux/).
 
-This will start the agent.
-
-![Start agent for local test plan executions in Testsigma](https://s3.amazonaws.com/static-docs.testsigma.com/new_images/projects/applications/localruns.gif)
+- You should know [how to create a test plan](https://testsigma.com/docs/test-management/test-plans/overview/#steps-to-create-a-test-plan).
 
 
-&emsp;
-### Step 3: Add the Agent 
-Navigate to the Agents page, click on **Add Agent**.
+---
 
-This will automatically add the Agent that you started in step 2. 
-
-Change the name as required and save it.
-
-![Add agent for local test plan executions in Testsigma](https://s3.amazonaws.com/static-docs.testsigma.com/new_images/projects/applications/agent.gif)
+## **Steps for Test Plan Local Executions**
 
 
-&emsp;
-### Step 4: Test Plan Run - Local Device
-1. Create a new Test Plan.
-   
-2. When Selecting the test lab, choose **Local Device**.
-   
-3. In the next tab, from the drop-down menu, choose the Agent that you just added.
-   
-4. Add the machine.
-   
-5. Choose the browser.
-   
-6. Add the specific test suites that you want to run locally.
-   
-7. Make necessary changes in **Test Plan Settings** page and click **Create**.
-   
-8. Click **Run Now** to run the test plan.
+1. Create a **Test Plan**, go to **Add Test Suites & Link Machine Profiles**, and click on **Machine** highlighted to add **Test Machines**.
+![Machines](https://s3.amazonaws.com/static-docs.testsigma.com/new_images/projects/applications/tpleatm.png)
 
-![run test plans on local device executions in Testsigma](https://s3.amazonaws.com/static-docs.testsigma.com/new_images/projects/applications/tpexe.gif)
+
+
+2. On **Select test machine profiles** overlay, click on **Add Machine**. 
+![Add Machine](https://s3.amazonaws.com/static-docs.testsigma.com/new_images/projects/applications/tpleamac.png)
+
+
+
+3. On **Add test machine/device profile** overlay, enter **Name**, select **Local Devices** as **Test lab**, and choose **Connected Machine** and a **Browser** in which you want to execute the test plan. 
+![Select Local Machine](https://s3.amazonaws.com/static-docs.testsigma.com/new_images/projects/applications/tplesmptmad.png)
+
+
+
+4. Click on **Create Profile**.
+![Profile](https://s3.amazonaws.com/static-docs.testsigma.com/new_images/projects/applications/tplecprofile.png)
+
+
+
+5. Make necessary changes in the **Test Plan Settings** page and click **Create**.
+![Create Test plan](https://s3.amazonaws.com/static-docs.testsigma.com/new_images/projects/applications/tplecoc.png)
+
+
+
+6. Click on **Run Now** to execute the **Test Plan**.
+![Run Now](https://s3.amazonaws.com/static-docs.testsigma.com/new_images/projects/applications/tpleexe.png)
+
+
+---

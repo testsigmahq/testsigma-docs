@@ -1,74 +1,45 @@
 ---
-title: "Disable Test cases in Test plans"
-page_title: "Disable Test cases in Test plans"
-metadesc: "This article discusses how to disable test cases while creating or editing a test plan."
+title: "Disabling Test Cases in Test Plans"
+page_title: "Start Disabling Test Cases in Test Plans for Test Control"
+metadesc: "Learn how to efficiently disable test cases in your test plans, gaining precise control over your testing processes. Follow the steps for test management."
 noindex: false
 order: 8.30
-page_id: "Disable Test Cases"
+page_id: "disabling-testcases-in-testplan"
 warning: false
 contextual_links:
 - type: section
-  name: "Contents" 
+  name: "Contents"
 - type: link
-  name: "Disable Test Cases while creating a Test plan"
-  url: "#disable-test-cases-while-creating-a-test-plan"
+  name: "Prerequisites"
+  url: "#prerequisites" 
+- type: link
+  name: "Managing Test Cases in Test Plan"
+  url: "#managing-test-cases-in-test-plan"
 - type: link
   name: "Disable Test Cases while editing a Test plan"
   url: "#disable-test-cases-while-editing-a-test-plan"
 
 ---
 
-<br>
-You can now disable Test cases in Test suits while creating and editing a test plan. The following article discusses disabling Test cases while creating or editing a test plan in Testsigma.
+---
 
-*For more on how to create a test plan, refer to [test plans](https://website.testsigma.com/docs/test-management/test-plans/overview/).*
+In Testsigma, you can disable specific test cases within your test plans by using the feature that allows you to control the execution of individual test cases based on your testing requirements. This guide will provide step-by-step instructions on disabling test cases while creating or editing a test plan in Testsigma.
 
-## **Disable Test Cases while creating a Test plan**
+---
 
-1. Navigate to **Test development > Test plan**.
-![Navigate to Test Paln](https://s3.amazonaws.com/static-docs.testsigma.com/new_images/projects/applications/testplans_nav.png)
+## **Prerequisites**
 
-2. Click on **Test plan**.
-![Test Plan](https://s3.amazonaws.com/static-docs.testsigma.com/new_images/projects/applications/clickontestplan.png)
+Before proceeding, ensure you know how [Test Plans](https://testsigma.com/docs/test-management/test-plans/overview/) work in Testsigma, are familiar with the Add Test Suites & Link Machine Profiles tab in Create or Edit Test Plan page.
 
-3. On **Create test plan** page, enter all the details and click on **Next**.
-![Click on Next](https://s3.amazonaws.com/static-docs.testsigma.com/new_images/projects/applications/clickonnext.png)
+---
 
-4. On **Test machines & suites selection** page, click on **Add test suits**.
-![Add test suits](https://s3.amazonaws.com/static-docs.testsigma.com/new_images/projects/applications/clickonaddtestsuits.png)
+## **Managing Test Cases in Test Plan**
 
-5. Select the Test suits you want to add to Test plan and click on **Add**.
-![Click on Add](https://s3.amazonaws.com/static-docs.testsigma.com/new_images/projects/applications/clickonadd.png)
+1. Navigate to **Test Plans** in the left-side navbar. Click the **Create Test Plan** button at the top right of the Test Plans list page.
+2. Alternatively, open an existing Test Plan from the list and click the **Edit** icon at the top right on the Test Plan details page to edit it.
+3. Navigate to the **Add Test Suites & Link Machine Profiles** tab on the **Create** or **Edit Test Plan** page.
+4. Click the **ellipsis** icon in the **Test Suites** section and select **Manage Test Case** from the dropdown list.
+5. A pop-up screen for the Manage Test Case will appear. Enable or disable the test cases by **checking** or **unchecking** the boxes.
+6. Click **Update Test Suites** to save the changes. ![Disable Test Cases in Test Suites](https://s3.amazonaws.com/static-docs.testsigma.com/new_images/projects/applications/disable_testcases.gif)
 
-6. Hover over to Test suit in which you want to disable the Test cases and clik on **Edit**.
-![Click on edit](https://s3.amazonaws.com/static-docs.testsigma.com/new_images/projects/applications/clickoneditsectcases.png)
-
-7. On **Select test cases for execution prompt**, uncheck the Test cases which you want disable and click on **Done**.
-![Select Test cases](https://s3.amazonaws.com/static-docs.testsigma.com/new_images/projects/applications/clickondone.png)
-
-8. You can see the Test cases disabled as shown below.
-![Image reference](https://s3.amazonaws.com/static-docs.testsigma.com/new_images/projects/applications/youcansee.png)
-
-<br>
-
-## **Disable Test Cases while editing a Test plan**
-
-1. Navigate to **Test development > Test plan**.
-![Navigate to Test Paln](https://s3.amazonaws.com/static-docs.testsigma.com/new_images/projects/applications/testplans_nav.png)
-
-2. Click on the test plan you want to edit. 
-
-3. On the test plan details page, click on **Edit**.
-![Edit TP](https://s3.amazonaws.com/static-docs.testsigma.com/new_images/projects/applications/testplans_clickonedit.png)
-
-4. On the Edit test plan page, click on **Test machines & suites selection**.
-![Test suits selection](https://s3.amazonaws.com/static-docs.testsigma.com/new_images/projects/applications/testplans_edittestplan.png)
-
-5. Hover over the test suit in which you want to disable the test case, and click on **Edit**.
-![Edit test cases](https://s3.amazonaws.com/static-docs.testsigma.com/new_images/projects/applications/testplans_addtestsuits.png)
-
-6. On **Select test cases for execution prompt**, uncheck the Test cases which you want disable and click on **Done**.
-![Click on done](https://s3.amazonaws.com/static-docs.testsigma.com/new_images/projects/applications/testplans_checkboxes.png)
-
-7. You can see the Test cases disabled as shown below.
-![Image reference](https://s3.amazonaws.com/static-docs.testsigma.com/new_images/projects/applications/youcansee2.png)
+---

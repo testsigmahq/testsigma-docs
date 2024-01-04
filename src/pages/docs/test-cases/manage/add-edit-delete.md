@@ -10,6 +10,9 @@ contextual_links:
 - type: section
   name: "Contents"
 - type: link
+  name: "Prerequisites"
+  url: "#prerequisites"
+- type: link
   name: "Create Test Case"
   url: "#create-test-case"
 - type: link
@@ -33,9 +36,9 @@ Testsigma provides a comprehensive and user-friendly solution for efficiently cr
 
 ---
 
-### **Prerequisites**
+## **Prerequisites**
 
-Ensure you create a [Project](https://testsigma.com/docs/projects/overview/) before creating or editing test cases in Testsigma. 
+Ensure you create a [project](https://testsigma.com/docs/projects/overview/) before creating or editing test cases in Testsigma. 
 
 ---
 

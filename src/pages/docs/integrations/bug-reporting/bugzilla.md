@@ -22,47 +22,61 @@ contextual_links:
 
 ---
 
-Testsigma Bugzilla integration helps you in creating issues in Bugzilla directly from the Testsigma app. With simple one-click integration, you can push annotated issues to Bugzilla while in the middle of a test session. The fields populated by you when marking as a bug through Testsigma are displayed as information on the Bugzilla ticket for a testing instance.
-
-In this document, we will discuss how to establish Integration with Bugzilla from your Testsigma account and how to create the first bug from Testsigma into Bugzilla.
+Testsigma Mantis integration lets you create issues directly from the Testsigma app in Bugzilla. With just one click, you can push annotated issues to a project of your choice, assign them to a teammate, and attach screenshots, all while in the middle of a test session in the Testsigma. This article discusses how to integrate Bugzilla with Testsigma.
 
 ---
+
 ## **Prerequisites**
 
-To integrate Bugzilla with Testsigma, you need the following information from your Bugzilla Account
-* Account URL - Your organization’s Bugzilla Account URL
-* API Key - Bugzilla API Token
 
-You should already know about [Test Plan Runs and results](https://testsigma.com/docs/runs/test-plan-executions/).
+1. To integrate Bugzilla with Testsigma, you need the following information from your Bugzilla account:
+    - **Account URL**: Your organization’s Bugzilla account URL
+    - **API Key**: Bugzilla API Token
+
+
+2. You should know about [test plan runs and results](https://testsigma.com/docs/runs/test-plan-executions/).
 
 ---
+
 ## **Integrating Bugzilla with Testsigma**
 
-Navigate to the Plugins page through **Dashboard > Settings > Plugins** and select Bugzilla under the Bug Reporting Tab.
+1. Navigate to **Settings > Integrations**.
+![Integrations](https://s3.amazonaws.com/static-docs.testsigma.com/new_images/projects/applications/mstinav.png)
 
-Click on the Disabled Icon on **Bugzilla**. Bugzilla Details overlay opens up as shown below:
 
-![Add BugZilla Integration form ](https://docs.testsigma.com/images/bugzilla/add-Bugzilla-integration-form.png)
+2. Enable toggle on **Bugzilla** widget.
+![Bugzilla widget](https://s3.amazonaws.com/static-docs.testsigma.com/new_images/projects/applications/bzintgl.png)
 
-Enter the details as mentioned in Prerequisites. After entering the details, click on the Create button to add the Integration.
+
+3. On the **Bugzilla details** prompt, **Account URL**, **API Key** and click on **Save & Enable**.
+![Save & Enable](https://s3.amazonaws.com/static-docs.testsigma.com/new_images/projects/applications/bzsae.png)
+
 
 ---
-## **Creating a bug**
 
-We can create a bug within Testsigma from the run results page for a particular Test Plan with the following steps:
 
-  1. Navigate to the run results test case level page where you want to add a bug.
-  2. Click on the **Report Bug** button (bug icon on the top right corner) to open the Bug Reporting overlay.
+## **Creating a Bug**
 
-  ![report bug button on the run test case page for run results](https://docs.testsigma.com/images/bugzilla/run-results-test-case-page-report-bug-button-bugzilla.png)
 
-  3. Choose Bugzilla to reveal the Create Issue form.
+1. Navigate to **Run Results > Test Case Result**, where you want to add a bug.
+![Run Results](https://s3.amazonaws.com/static-docs.testsigma.com/new_images/projects/applications/tcresultyt.png)
+
+
+2. Click on **Report Bug**.
+![Report Bug](https://s3.amazonaws.com/static-docs.testsigma.com/new_images/projects/applications/reportbugyt.png)
+
+
+3. Choose **Bugzilla** and enter details of the bug.
 
 [[info | NOTE:]]
-|Only the bug reporting tools that have been enabled via the plugins page (add link) will be displayed here.
+| - Only the bug reporting tools that have been enabled via the plugins page (add link) will be displayed here.
+| - If you want to link to an existing issue on Bugzilla, click on the **Link to Issue** button, search for an existing issue in the search field, and click on **Link Issue** to add a link to an existing Issue on Bugzilla. Otherwise, enter the bug details in the form as required.
 
-If you want to link to an existing issue on Bugzilla, click on the **Link to Issue** button, search for an existing issue in the search field and click on Link Issue to add a link to an existing Issue on Bugzilla. Otherwise, enter the bug details in the form as required.
-
-  4. Click on **Create**.
+4. Click on **Create Ticket**.
   
- When the bug is created, some additional details regarding the Test Result such as the Test Execution Video and Step Screenshots are added automatically by Testsigma. This helps the developer who checks the issue in Bugzilla to understand the issue/bug better with more context.
+
+When the bug is created, some additional details regarding the test result, such as the test execution video and step screenshots, are automatically added to the issue on Bugzilla by Testsigma. This helps the developer who checks the issue in Bugzilla better understand the issue/bug with more context.
+
+
+
+---

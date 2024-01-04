@@ -19,7 +19,8 @@ When creating elements for an application, you need to provide a way to uniquely
 4. **Class Name:** This will be the value assigned to the attribute ‘Class Name’ for the element you want to capture.
 5. **Name:** This will be the value assigned to the attribute ‘Name’ for the element you want to capture.
 6. **iOS Chain:**  A hybrid between XPath and predicate strings
-7. **Predicate String:** For basic comparisons and matching. 
+7. **Predicate String:** For basic comparisons and matching.
+8. **Resource ID:** This will be the value assigned to the attribute **Resource ID** for the element you want to capture. Resource ID allows alphanumeric values along with special characters like dot(.), underscore(_), colon(:), and forward-slash(/).
 <br>
 
 To know how these can be used while creating elements in Testsigma, please refer to the documents below:
