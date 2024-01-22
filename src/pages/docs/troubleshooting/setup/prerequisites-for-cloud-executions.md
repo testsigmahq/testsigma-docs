@@ -1,25 +1,25 @@
 ---
-title: "Prerequisites for Cloud Executions"
+title: "Secured Business Application Support"
 metadesc: "In Testsigma, some prerequisites are necessary to avoid issues and enhance the flexibility. This article discusses prerequisites for cloud executions"
 noindex: false
-order: 1.9
+order: 23.2
 page_id: "Testsigma Sample Apps"
 warning: false
 contextual_links:
 - type: section
   name: "Contents"
 - type: link
-  name: "Important Prerequisites for Cloud Executions"
-  url: "#important-prerequisites-for-cloud-executions"
+  name: "Prerequisites for Cloud Executions of Secured Applications"
+  url: "#prerequisites-for-cloud-executions-of-secured-applications"
 ---
 
 ---
 
-For cloud executions, some prerequisites are necessary to avoid issues and enhance the flexibility, security, and efficiency of the testing. This article discusses recommendations and requirements for smooth cloud executions in Testsigma.  
+For cloud executions of secured business apps, some prerequisites are necessary to avoid issues and enhance the flexibility, security, and efficiency of the testing. This article discusses recommendations and requirements for smooth cloud executions of secured business apps/intranet apps in Testsigma.
 
 ---
 
-## **Important Prerequisites for Cloud Executions**
+## **Prerequisites for Cloud Executions of Secured Applications**
 
 **1. IP Whitelisting**: When the application is hosted on servers with restricted access from unknown sources, you can use Testsigma Labs to execute tests by whitelisting Testsigma IP Addresses on your server. 
 For more information, refer to access locally hosted applications. 
