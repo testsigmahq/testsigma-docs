@@ -44,6 +44,17 @@ Before using Runtime Test Data, ensure you understand specific concepts such as 
 [[info | EXAMPLE:]]
 | Following the steps above, we use NLP to **Store the value displayed in the text box element field into a variable test data**. We click on the **element** in the **NLP** to select or create an element and replace the **test data** placeholder. We enter the **text** by storing the data in the text. The NLP stores the value displayed in the text box with the given UI Identifier **Enteryouremailaddress::inputEmail**(element) into a variable called **simplyemail1**(test data).
 
+[[info | NOTE:]]
+| If NLP is utilized to store the test data value in a runtime variable, denoted as $|runtimeVariable|, the system will attempt to evaluate the runtime value represented by $|runtimeVariable| and then store in the result of the evaluation.
+| Example:
+| Store 'title' in $|runtimeVariable|
+| In this case, 'title' will be stored in the evaluated value of the runtimeVariable, not in a variable named 'runtimeVariable'.
+<br><br>
+| Alternatively, if the goal is to simply store the test data value into a variable without any evaluation, a plain text value 'runtimeVariable' should be used.
+| Example:
+| Store 'title' in runtimeVariable
+| Here, 'title' will be stored in the variable named 'runtimeVariable'. Subsequently, in the following steps, the variable can be employed in NLP commands, such as entering $|runtimeVariable| in an element."
+
 ---
 
 ## **Use Runtime Variables in Test Step**
