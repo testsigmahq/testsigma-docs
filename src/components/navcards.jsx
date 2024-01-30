@@ -134,7 +134,7 @@ const data = [
         id: 22,
         title: "Contributing",
         description: "Contribute to Testsigma community.",
-        path: "/docs/api/overview/",
+        path: "/docs/contributing/open-source-dev-environment-setup/macos-and-intellij-ce/",
     },
     {
         id: 23,
