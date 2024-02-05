@@ -59,7 +59,7 @@ contextual_links:
 - Set env path in zshrc profile.
     - Open the terminal and type ***vi ~/.zshrc***
     - Enter the below to set the path and save it.
-    - ***Export JAVA_HOME=/Library/Java/JavaVirtualMachines/jdk-11.0.2.jdk/Contents/Home***
+    - ***export JAVA_HOME=/Library/Java/JavaVirtualMachines/jdk-11.0.2.jdk/Contents/Home***
 
 <br>
 
