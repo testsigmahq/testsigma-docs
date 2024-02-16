@@ -27,7 +27,12 @@ contextual_links:
 - type: link
   name: "Generate Mail Box Alias for Test Cases Execution"
   url: "#generate-mail-box-alias-for-test-cases-execution"
-
+- type: link
+  name: "Sample Test Case for 2FA using Mailbox"
+  url: "#sample-test-case-for-2fa-using-mailbox"
+- type: link
+  name: "Creating Test Case for 2FA Using MailBox"
+  url: "#creating-test-case-for-2fa-using-mailbox"
 ---
 
 ---
@@ -136,5 +141,51 @@ With Testsigma, you can generate new mailbox aliases every time during test case
 
 Below is a screenshot showing a test case generating a mailbox alias and getting content from the email.
 ![A test case displaying how to generate unique email address and how to use it](https://s3.amazonaws.com/static-docs.testsigma.com/new_images/projects/applications/generate_mailboxalias.gif)
+
+
+
+---
+
+
+## **Sample Test Case for 2FA using Mailbox**
+
+Two-factor authentication provides additional protection for your application. With Testsigma, you can easily set up Mailbox, retrieve OTP using mailbox functions, and perform tests securely. This article discusses testing 2FA for MailBox. 
+
+### **Prerequisites:**
+
+- You should know how to [create a test case](https://testsigma.com/docs/test-cases/manage/add-edit-delete/).
+  
+- You should know how to use [mailbox](https://testsigma.com/docs/test-data/types/mailbox/) & [data generator](https://testsigma.com/docs/test-data/types/data-generator/) test data types.
+
+- You need to have a dedicated Mailbox for your account. Contact **support@testsigma.com** for more information.
+
+---
+
+## **Creating Test Case for 2FA Using MailBox**
+
+1. Navigate to **Create Tests > Test Cases**, and click on **Create Test Case**.
+
+![Test Cases](https://s3.amazonaws.com/static-docs.testsigma.com/new_images/projects/applications/mb2fatcnav.png)
+
+2. On the **Test Case details** page, create test steps manually or using the recorder.  
+
+![Test Steps](https://s3.amazonaws.com/static-docs.testsigma.com/new_images/projects/applications/mb2fatcs.png)
+
+  - For Step 4, we use **& Mailbox** and enter the email linked to the account in the email input field. 
+  ![& Mailbox](https://s3.amazonaws.com/static-docs.testsigma.com/new_images/projects/applications/mb2famxdd.png)
+    
+  
+  - In Step 5, we click on the **! Data Generator**. This will open **! Data Generator** overlay. 
+  ![! Data Generator](https://s3.amazonaws.com/static-docs.testsigma.com/new_images/projects/applications/mb2fadgdd.png)
+
+  
+  - On the **! Data Generator** overlay, select **Type**, **Function Type**, **Function**, **Enter Regex**, **Runtime Variable**, **Timeout** and click on **Save**. Here, we add regex [0 - 9]+, which extracts the first encountered series of numbers. The extracted data, which is OTP, will be stored in the runtime variable. For more information on examples of regex, refer to https://regex101.com/.
+  ![Data Generator Overlay](https://s3.amazonaws.com/static-docs.testsigma.com/new_images/projects/applications/mb2fadgvl.png)
+
+  - This will help fetch OTP and enter it in the input element.
+  ![Fetch OTP](https://s3.amazonaws.com/static-docs.testsigma.com/new_images/projects/applications/mb2fafotp.png)
+
+3. Click on **Run** to execute the test case. 
+![Run TC](https://s3.amazonaws.com/static-docs.testsigma.com/new_images/projects/applications/mb2farun.png)
 
 ---
