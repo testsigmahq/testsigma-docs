@@ -601,5 +601,17 @@
   },
   "partial-test-plan-run-via-api":{
     "/docs/test-management/test-plans/partial-test-plan-run-via-api/": "Execute Partial Test Plans via API"
+  },
+  "basic-authentication":{
+    "/docs/FAQs/web-apps/basic-authentication/": "Basic Authentication for Web"
+  },
+  "monday.com":{
+      "/docs/integrations/bug-reporting/monday.com/": "Monday.com"
+  },
+  "how-to-enter-non-text-keys-in-test-cases":{
+    "/docs/FAQs/web-apps/how-to-enter-non-text-keys-in-test-cases/": "Non-Text Keys in Test Cases"
+  },
+  "why-cloud-devices-cannot-access-local-apps":{
+    "/docs/FAQs/web-apps/why-cloud-devices-cannot-access-local-apps/": "Steps to Test Locally Hosted Apps"
   }
 }

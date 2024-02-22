@@ -190,7 +190,6 @@ There are two ways of starting the testsigma local agent using docker:
 
 ---
 
-## **Creating an Agent in Testsigma Application**
 1. On the dashboard, click on **Agents**.
 ![Agents](https://s3.amazonaws.com/static-docs.testsigma.com/new_images/projects/applications/agdashla.png)
 
