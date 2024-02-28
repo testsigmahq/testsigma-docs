@@ -38,7 +38,7 @@ Desired Capabilities are a set of properties used for customizing the Test Envir
 
 ## **Desired Capabilities Format**
 Desired Capabilities are entered as **key-value** pairs. Enter the details for Desired Capabilities as specified below:
-- **Key:** Enter the name of the capability.
+- **Key:** Specific properties or attributes that can be set for the test environment. 
 - **Data Type:** The data type of the value of the specific Desired Capability.
 - **Value:** The value of the Desired Capability.
 ![Format](https://s3.amazonaws.com/static-docs.testsigma.com/new_images/projects/applications/dcformat.png)
