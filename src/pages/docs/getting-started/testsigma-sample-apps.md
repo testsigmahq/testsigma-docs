@@ -25,9 +25,10 @@ This article provides a few sample applications for users to practice testing in
 *For more information on how to create test cases, refer to [test cases](https://testsigma.com/docs/test-cases/overview/).*
 
 
-2. Use the following links for practicing mobile app testing.
+2. Use the following apps for practicing mobile app testing.
     - [Sample IPA Application](https://s3.amazonaws.com/static-docs.testsigma.com/new_images/projects/applications/SimplyTravel.ipa)
     - [Sample APK Application](https://s3.amazonaws.com/static-docs.testsigma.com/new_images/projects/applications/appdebug.apk)
+    - [SMS Forwarder Application](https://s3.amazonaws.com/static-docs.testsigma.com/new_images/projects/applications/smsforward.apk)
 
 
 *For more information on uploading mobile apps for testing, refer to [upload android and iOS apps](https://testsigma.com/docs/uploads/upload-apps/).*
