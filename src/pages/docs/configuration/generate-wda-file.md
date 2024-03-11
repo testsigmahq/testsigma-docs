@@ -56,7 +56,7 @@ WebDriverAgent (WDA) plays an important role in automating iOS tests. It bridges
 [[info | **NOTE**:]]
 | Replace **<DEVICE_UDID>** with the actual **UDID** (Unique Device Identifier) of the iOS device or simulator where you want to run the tests.
 
-5. Create a Zip Archive from the Products Folder
+5. Create a Zip Archive from the Products Folder <br>
 Locate the **Products** folder within the Xcode derived data directory. The path looks like this: <br>
     
     ```
