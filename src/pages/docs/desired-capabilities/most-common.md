@@ -1,9 +1,10 @@
 ---
 title: "Common Desired Capabilities"
-metadesc: "Learn about most commonly used Desired Capabilities for Chrome, Mozilla Firefox, Microsoft Edge, Execution Timeouts Specific and Environment Customizations in Testsigma Labs in Testsigma"
+page_title: "Streamline Testing Processes with Advanced Capabilities"
+metadesc: "Enhance efficiency with common desired capabilities in testing. Optimise workflows, boost collaboration, and ensure quality with cutting-edge testing features."
 noindex: false
 order: 15.2
-page_id: "Common Desired Capabilities"
+page_id: "common-desired-capabilities"
 search_keyword: ""
 warning: false
 contextual_links:
@@ -30,6 +31,9 @@ contextual_links:
 - type: link
   name: "Android Specific"
   url: "#android-specific"   
+- type: link
+  name: "iOS Specific"
+  url: "#ios-specific"
 ---
 
 ---
@@ -114,15 +118,15 @@ Below are a few of the most commonly used Desired Capabilities in executions usi
 |Description|Capability|Data Type|Value|
 |---|---|---|---|
 |Persist App data in local Android devices across Hybrid Test sessions|noReset|boolean|true|
+|Automatically grant required app permissions based on the [Android manifest](https://developer.android.com/guide/topics/manifest/manifest-intro) during installation.|autoGrantPermissions|boolean|true|
 
 ---
 
+## **iOS Specific**
 
+|Description|Capability|Data Type|Value|
+|---|---|---|---|
+|Automatically approve all permission pop-ups, including privacy access requests for location, contacts, and photos.|autoAcceptAlerts|boolean|true|
+|Automatically dismiss all permission pop-ups, including privacy access permissions like location, contacts, and photos.|autoDismissAlerts|boolean|true|
 
-
-
-
-
-
-
-
+---
