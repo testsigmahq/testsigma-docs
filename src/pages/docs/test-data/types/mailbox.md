@@ -33,6 +33,9 @@ contextual_links:
 - type: link
   name: "Creating Test Case for 2FA Using MailBox"
   url: "#creating-test-case-for-2fa-using-mailbox"
+- type: link
+  name: "Setup the Email Forwarding for Automation Mailbox"
+  url: "#setup-the-email-forwarding-for-automation-mailbox"
 ---
 
 ---
@@ -187,5 +190,69 @@ Two-factor authentication provides additional protection for your application. W
 
 3. Click on **Run** to execute the test case. 
 ![Run TC](https://s3.amazonaws.com/static-docs.testsigma.com/new_images/projects/applications/mb2farun.png)
+
+---
+
+## **Setup the Email Forwarding for Automation Mailbox**
+
+In some cases, app restrictions will prevent the delivery of OTPs to the Testsigma Mailbox. In this case, you can use the Testsigma SMS Forwarder App, which forwards messages to a designated mailbox and allows you to retrieve OTPs conveniently. 
+
+---
+
+### **Prerequisites**
+
+- You should have [Testsigma SMS Forwarder](https://s3.amazonaws.com/static-docs.testsigma.com/new_images/projects/applications/smsforward.apk) application.
+
+- You should know how to use [mailbox](https://testsigma.com/docs/test-data/types/mailbox/) & [data generator](https://testsigma.com/docs/test-data/types/data-generator/) test data types.
+
+- You need to have a dedicated Mailbox for your account. Contact **support@testsigma.com** for more information.
+
+---
+
+### **Setting Up Forwarding Rules (Gmail)**
+
+**Access Gmail Settings**
+
+- Open your **Gmail account**.
+
+- Click on the gear icon in the upper-right corner.
+
+- Select **See all settings**.
+
+![All Settings](https://s3.amazonaws.com/static-docs.testsigma.com/new_images/projects/applications/gmsgear.png)
+
+
+**Navigate to Filters and Blocked Addresses**
+
+- From the settings, click on the **Filters and Blocked Addresses** tab.
+
+- Create a filter to forward emails with specific content or subject. In this case, we can have text that is constant and is present in all emails that we want to forward. 
+
+![Filters & Blocked Addresses](https://s3.amazonaws.com/static-docs.testsigma.com/new_images/projects/applications/fabgmstgs.png)
+
+**Create a New Filter**
+
+- Click on **Create a new filter**.
+- Specify the criteria for the filter:
+      - **Subject:** Define the subject of the email that you wish to forward.
+      - **Has the words/Doesn’t have words:** Include text that is present in all emails you want to forward.
+
+![New Filter](https://s3.amazonaws.com/static-docs.testsigma.com/new_images/projects/applications/hwsetgsa.png)
+
+
+**Configure Forwarding Address**
+
+- After creating the filter, click on **Add forwarding address** on **When a message is an exact match for your search criteria** overlay. 
+
+- Click on **Add Forwarding address** and add the designated automation email ID.
+
+- Complete the setup by entering the OTP.
+
+![Add Forwarding Address](https://s3.amazonaws.com/static-docs.testsigma.com/new_images/projects/applications/afeagmstgs.png)
+
+
+[[info | **NOTE**:]]
+| - You can contact the support team for OTP retrieval, which involves fetching data from the backend.
+| - For a sample test case associated with the Testsigma SMS Forwarder app, refer to [setup & use message forwarding](https://testsigma.com/docs/test-data/types/phone-number/#set-up-and-use-message-forwarding).
 
 ---
