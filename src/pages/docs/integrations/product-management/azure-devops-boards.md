@@ -12,8 +12,8 @@ contextual_links:
   name: "Prerequisites"
   url: "#prerequisites"
 - type: link
-  name: "Integrate Azure DevOps With Testsigma"
-  url: "#integrate-azure-devops-with-testsigma"
+  name: "Steps to Integrate Azure DevOps with Testsigma"
+  url: "#steps-to-integrate-azure-devops-with-testsigma"
 - type: link
   name: "Creating Work Item on Azure from Testsigma"
   url: "#creating-work-item-on-azure-from-testsigma"
