@@ -1,7 +1,7 @@
 ---
 title: "Reset Password"
 page_title: "How to reset password in Testsigma Community Edition"
-order: 19.3
+order: 28.4
 page_id: "Reset password"
 metadesc: "Learn steps in detail on how to reset username and password in Testsigma Community Edition. Follow these steps to reset username and password."
 search_keyword: "Reset password"
@@ -30,9 +30,11 @@ contextual_links:
 ---
 
 ---
+
 ## [(I). Via Downloadable package](#)
 
 ---
+
 ## [Prerequisite](#zip-prerequisite)
    1. Download the testsigma_opensource latest build [click here](https://testsigma.com/docs/getting-started/setup/downloadable-package/)
    2. Run nginx server
@@ -40,6 +42,7 @@ contextual_links:
    4. Register with username and password
 
 ---
+
 ## [If you want to reset the password follow the steps below:](#zip-reset-passwrod)
 
   1. Stop all the servers currently running.(i.e, nginx and testsigma server)
@@ -51,13 +54,14 @@ contextual_links:
   7. Testsigma servers and login with new credentials.
   
 ---
+
 ## [If you want to reset the username :](#zip-reset-user-name)
 
   1. Stop all the servers currently running.(i.e, nginx and testsigma server)
   2. Navigate to testsigma server folder from downloads 
   3. Go to authentication properties
-  4. change the username (authentication.form.username = enter new user name)
-  5. save the file
+  4. Change the username (authentication.form.username = enter new user name)
+  5. Save the file
   
 <iframe src="https://docs.testsigma.com/videos/Troubleshooting/Setup/ResetPassword/first.mp4" width="300" height="200"></iframe>
 
@@ -65,11 +69,13 @@ contextual_links:
 ## [(II). Downloaded Via Docker](#)
 
 ---
+
 ## [Prerequisite](#docker-prerequisite)
   1. Download the docker  [click here](https://testsigma.com/docs/getting-started/setup/docker/)
   2. Register with username and password
 
 ---
+
 ## [If you want to reset the password follow the steps below:](#docker-reset-passwrod)
   1. Go to docker the folder
   2. Go to the  ts-data folder
@@ -78,6 +84,7 @@ contextual_links:
   5. Save the file
 
 ---
+
 ## [If you want to reset the username :](#zip-reset-user-name)
 
   1. Go to docker the folder
@@ -88,3 +95,4 @@ contextual_links:
   
 <iframe src="https://docs.testsigma.com/videos/Troubleshooting/Setup/ResetPassword/second.mp4" width="300" height="200"></iframe>
 
+---

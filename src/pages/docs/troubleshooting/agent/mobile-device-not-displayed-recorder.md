@@ -50,7 +50,7 @@ Testsigma agent may be unable to detect your local mobile device for the test re
 <li><strong>Disabled Developer Options and USB Debugging</strong>: Follow the steps to <a href="https://testsigma.com/docs/agent/connect-android-local-devices/">set up a local Android device</a> to enable Developer Options and USB debugging.</li>
 <li><strong>Android Debug Bridge (ADB) Recognition Failure</strong>: Verify the ADB recognition by following the steps below if <a href="https://testsigma.com/docs/troubleshooting/agent/mobile-device-not-displayed-recorder/#adb-does-not-recognize-the-device-connected-to-the-system"> ADB does not recognize the device connected to the system </a>.</li>
 <li><strong>Desired Capabilities Not Modified</strong>: Use the guide on <a href="https://testsigma.com/docs/desired-capabilities/overview/">desired capabilities</a> to modify desired capabilities according to your device or application.</li>
-<li id="driver-install-error"><strong>Driver installation error</strong>: If you encounter a <strong>Failed to install drivers</strong> message, follow these steps: <img src="https://s3.amazonaws.com/static-docs.testsigma.com/new_images/projects/applications/diver_installation_android.png" alt="driver-install-error"></a>
+<li id="driver-install-error"><strong>Driver installation error</strong>: If you encounter a <strong>Failed to install drivers</strong> message, follow these steps: <img src="https://s3.amazonaws.com/static-docs.testsigma.com/new_images/projects/applications/diver_installation_error.png" alt="driver-install-error"></a>
      <ol type="a">
      <li>Allow time for the driver installation to finish.</li>
      <li>Check device memory for sufficient space.</li>

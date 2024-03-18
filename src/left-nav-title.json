@@ -613,5 +613,11 @@
   },
   "why-cloud-devices-cannot-access-local-apps":{
     "/docs/FAQs/web-apps/why-cloud-devices-cannot-access-local-apps/": "Steps to Test Locally Hosted Apps"
+  },
+  "issues-with-ui-Identifiers":{
+    "/docs/troubleshooting/web-apps/issues-with-ui-Identifiers/": "Issues with UI Identifiers"
+  },
+  "test-execution-queued-for-a-long-time":{
+  "/docs/troubleshooting/web-apps/test-execution-queued-for-a-long-time/": "Test Queued for a Long Time"
   }
 }

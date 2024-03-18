@@ -1,86 +1,206 @@
 ---
-title: "Best Practices to Ensure Tests Follow Testsigma Automation Standards"
-page_title: "Best Practices to follow Testsigma Automation Standards"
-metadesc: "Test Automation empowers quality engineers to test more in less time and with minimal effort. This article discusses the best practices to ensure tests follow Testsigma automation standards "
+title: "Testsigma Automation Standards and Best Practices"
+page_title: "Enhance Efficiency with Automated Testing Best Practices"
+metadesc: "Explore best practices for enhancing efficiency and reliability in automated testing through modular design, dynamic waits, and data-driven testing."
 noindex: false
 order: 27.1
 page_id: "Best Practices to follow Testsigma Automation Standards"
 warning: false
+contextual_links:
+- type: section
+  name: "Contents"
+- type: link
+  name: "Test Case Structure and Execution"
+  url: "#test-case-structure-and-execution"
+- type: link
+  name: "Assertions and Verifications"
+  url: "#assertions-and-verifications"
+- type: link
+  name: "Test Case Organization and Management"
+  url: "#test-case-organization-and-management"
+- type: link
+  name: "Customisation and Extensibility"
+  url: "#customisation-and-extensibility"
+- type: link
+  name: "Reusability and Modularity"
+  url: "#reusability-and-modularity"
+- type: link
+  name: "Element Management"
+  url: "#element-management"
+- type: link
+  name: "Variables and Scopes"
+  url: "#variables-and-scopes"
+- type: link
+  name: "Data-Driven Testing"
+  url: "#data-driven-testing"        
+- type: link
+  name: "Test Data Types"
+  url: "#test-data-types"
+- type: link
+  name: "Configuration for Test Execution"
+  url: "#configuration-for-test-execution"
+- type: link
+  name: "Execution and Test Plan Run"
+  url: "#execution-and-test-plan-run"
+- type: link
+  name: "Testsigma Recorder Extension"
+  url: "#testsigma-recorder-extension"
+- type: link
+  name: "Third-Party Integration"
+  url: "#third-party-integration"
 ---
 
-<br>
+---
 
-Testing applications is a continuous process. Whenever any code is changed for the application under test, we should test different workflows in various machine configurations and operating systems. Manually testing all the possible combinations and user journeys requires enormous testing effort, which is associated with higher costs and time. Test Automation empowers quality engineers to test more in less time and with minimal effort. However, the reusability of automated cases contributes to this and makes the whole testing process faster. To set up all kinds of repetitive, thorough, and data-intensive tests for success, there are several test automation best practices that you need to be aware of.
+Testsigma Automation Standards emphasise the reusability of automated test cases to enhance the testing process and maximise efficiency. Quality engineers can accelerate the overall testing process by leveraging this reusability. Successful implementation requires a solid understanding of test automation best practices, which enable the setup of repetitive, thorough, and data-intensive tests. These best practices ensure reliable and accurate results while optimising testing efforts.
 
 --- 
 
-## **Below are the Best Practices to Ensure Tests Follow Testsigma's Automation Standards**
-- Write small, atomic, independent, and autonomous test cases.
-- Avoid using static waits. Instead, wait for certain actions to be completed.
-- Use soft assertions wherever possible. An assertion is a way you say what you expect out of the automated test case. Like how a sequence of NLPs decides the test steps to be performed on the application under test, verify NLPs tell about the validations to be performed on the application at that specific point in time. The status of the test case depends on the verifications made as part of the test case.
-    - NLPs for the assertions in Testsigma are listed under **Test Development > Actions List > Verify**
-    - By default, when verification in the test case fails, the status of the test case is marked as Failed, test case execution will be aborted, and the remaining test steps are skipped.
-    - If you want to perform soft assertion where you need to execute the remaining steps after a test step fails, you can change it for a specific step
-        - **Edit the test step > More details > Uncheck**  ```Stop Test Case execution on Test Step failure```
-- Filter, segment, and organize the test cases which helps you to easily identify the test quickly. 
-    - Add a label or map test case to the relevant requirement which would help the user to filter the tests. 
-    - One of the main advantages of adding a label or mapping the test case to a requirement is that they make it easier to locate and access test cases. You can filter and save the resulting test cases in a separate well-organized view which helps users to find test cases faster.
-    - In Testsigma, you can add a label either by creating the test case or whilst editing it. Labels is the default field in the test case.
-        - In the below example, we have saved a view for login-related tests.
-        ![Login Steps Page](https://s3.amazonaws.com/static-docs.testsigma.com/new_images/projects/applications/loginrelated.png)
-- If you want to perform any action and you don't see an NLP for the same under the actions list, then you can create your own NLP that is specific to your application by using add-ons. An add-on is a way to extend Testsigma’s built-in repository of actions.
-    - You can use the existing add-ons or share your own with the rest of the test automation community through the [Add-ons Community Marketplace](https://testsigma.com/docs/addons/community-marketplace/).
-    - An example of an add-on is an NLP to verify text from two DOM elements.
-- We can create and use a common reusable function (```Step Groups```) across test cases to avoid duplicate actions and redundant effort in maintaining tests. It is a good practice to separate the reusable components from the test flow to ease the test maintenance to a greater extent.
-   - For example, if there is a change in any of the modules, it should be reflected in all the test cases invoking that module with little to no effort. This is a far better approach than making changes at each place in a non-modular scenario.
-   - An example is to have login into the application as a step group.
+## **Test Case Structure and Execution**
 
-- Automate redundant UI actions via REST API steps. This will help in increasing the stability of the test and reduce the duration of the test since API actions are less time-consuming than performing the same action in UI.
-- When you create an element manually, follow the proper naming convention that will help in reusing the same element in multiple test cases.
-- When you create an element that is inside an iFrame or Shadow DOM context, map the add the appropriate context details.
-![Mapping Details](https://s3.amazonaws.com/static-docs.testsigma.com/new_images/projects/applications/mapdetails.png)
-- To easily access elements, you can save filters and create a view based on the screen name. This filter might help the user to check for the presence of elements in Testsigma’s repository before recreating it again.
-![Add filters](https://s3.amazonaws.com/static-docs.testsigma.com/new_images/projects/applications/addfilters.png)
-- Use Test Data Profiles to maintain project configuration data, database connection details or project settings, etc. A test data set inside a test data profile is like a JSON key-value pair where each key is the header of the row in the data set.
-    - In the below example, ```Login Credentials``` is the Test Data Profile that can be linked to any test case in the current application inside the project.
-    - When you link the test data profile and test data set to the test case, you can use the type ```@paramater``` test-data type in NLP to select the column.
-    ![Test Data Profile](https://s3.amazonaws.com/static-docs.testsigma.com/new_images/projects/applications/tdp.png)
-    ![Test Data Profile Example](https://s3.amazonaws.com/static-docs.testsigma.com/new_images/projects/applications/tdpex.png)
-- Use Test Data Profile for data-driven testing.
-    - When you want to perform the same action for a different set of test data, you can create the test case, link it to the test data profile, and enable a data-driven toggle.
-    - There is an NLP to even update any column in the test data profile that is linked to the test case.
-    ![Update TDP](https://s3.amazonaws.com/static-docs.testsigma.com/new_images/projects/applications/updatetdp.png)
-- Use variables at the relevant scope. The scope of a variable is its lifetime in test execution.
+1. Write small, atomic, independent, and autonomous test cases to focus, modularise, and maintain them easily. 
+2. Use **Soft Assertions** wherever possible. Soft assertions allow test execution to continue even if a verification step fails and provide more comprehensive test results.
+3. Use **Dynamic Waits** to improve test efficiency and reduce the chances of false positives or negatives in test results.
+4. You should structure your test cases in the AAA pattern with three distinct sections: **Arrange**, **Act**, and **Assert**. In the arranged section, you set the preconditions for the test. In the act section, you perform the tested actions; in the assert section, you verify the expected outcomes.
 
-|**Type**|**Scope**|**Initialization**|**Usage**|
-|---|---|---|---|
-|[Environment](https://testsigma.com/docs/elements/dynamic-elements/with-environment-data/)| <li> It can be accessed from any test case in any test suite. <br>  <li> It holds the same value throughout the execution.<br> <li> Values assigned to an environment variable cannot be overwritten.| **Test development → Environments → Create** <br> <br> **Example:** ![Environment](https://s3.amazonaws.com/static-docs.testsigma.com/new_images/projects/applications/env.png)| <li> Use ```*|Environment|``` data type for test-data during test step creation. <br> <li> Use ```*|Environment|``` inside locator value while creating the element. <br> <br> **Example:** ```//button[text()=’*|username|’]```|
-|[Runtime](https://testsigma.com/docs/elements/dynamic-elements/with-runtime-test-data/)|<li> It holds the same value throughout the test run when you run the tests sequentially.<br> <li>When you run the tests in parallel, every session holds different value (value that is assigned as part of test run)<br> <li>Value of a runtime variable can be updated from any other tests.|**Test development → Actions List → Store** <br> <br> **Example:** ![Run Time Variables](https://s3.amazonaws.com/static-docs.testsigma.com/new_images/projects/applications/variables.png)|<li> Use ```$|Runtime|``` data type for test-data during test step creation. An overlay appears from where we can select the runtime variable. <br> <li> Use ```*|Runtime|``` inside locator value while creating the element. <br> <br> **Example:** ```//button[text()='$|divText|']``` |
-|[Test Data Profile](https://testsigma.com/docs/elements/dynamic-elements/with-parameter-test-data/)| <li> Test Data Profile and sets in it can be linked to any testcase.<br> <li> Values in test data profile can be updated from any other tests.|**Test development → Test Data Profiles → Create** <br> <br> **Example:** ![Create TDP](https://s3.amazonaws.com/static-docs.testsigma.com/new_images/projects/applications/tdplogin.png)|<li> Use ```@|Parameter|``` data type for test-data during test step creation. An overlay appears from where we can select the test data set. <br> <li> Use ```@|Parameter|``` inside locator value while creating the element. <br> <br> **Example:**  ```//input[@id='@|elementName|']```|
+---
 
-- Use relevant [test data types](https://testsigma.com/docs/test-data/types/overview/) that are supported in Testsigma at the right place.
+## **Assertions and Verifications**
 
-|**Data Type**|**Usage**|
-|---|---|
-|Plain Text|Use when the input is constant|
-|Parameter|Use when the input is data driven|
-|Run Time|Use when the input cannot be initialized but retrieved during runtime|
-|Environment|Use when the input is constant and it is setting that might get changed|
-|Random|Use to select one from the range of input|
-|Data Generator|Use to generate fake data|
-|Phone Number|Configure a phone number and use for OTP, 2FA which requires phone number that actually receives SMS|
-|Mailbox|Configure a mailbox and use for activation link, OTP which requires actual mailbox that receives email|
+1. You define the expected outcomes of automated test cases and specify the validations to be performed at specific points in time as verifications to understand the concept of assertions.
+2. Navigate to **Help** > **Actions List** on the Test Case details page to find **NLPs** with assertions in Testsigma. ![Action Lists](https://s3.amazonaws.com/static-docs.testsigma.com/new_images/projects/applications/action_list.png)
+3. A failed verification in a test case marks the overall test case as failed by default. If validation fails, the remaining test steps will be skipped, and the test case execution will be aborted.
+4. To implement soft assertions for scenarios that require execution of remaining steps after a test step failure, follow the steps below and for more information, refer to [Test Step Settings](https://testsigma.com/docs/test-cases/create-test-steps/actions-and-options-recorder/step-settings/):
+     - Hover over the test step, click **Option**, and choose **Step Settings** from the dropdown.
+     - Uncheck **Stop Test Case execution on Test Step failure** and click **Update**.
+     - You can configure specific steps to continue executing even if verification fails.
 
-- When you need to use attachments, upload them in **Test Development > Uploads**, copy the path and use it in the test step.
-    - Max file size allowed is 300 MB
-    - The latest version of the uploaded file is always considered
-- When you want to perform cross-browser testing with certain [capabilities](https://www.selenium.dev/documentation/legacy/desired_capabilities/) set to browsers, use ```Desired Capabilities```.
-    - You can set ```Desired Capabilities``` to both ad-hoc runs and test plans.
-- Make sure that test cases are in ```Ready``` state so that they can be added to Test Suite. Relevant tests can be grouped into a test suite.
-- Run the test plan in a headless mode which helps in reducing the time taken for execution and gets rid of the element loading time.
-- Exclude consistently failing test suites from run by selecting ```Partial Run```from Test Plan.
-- You can exclude tests from the test plan or disable tests for execution from **Test Plan > Test Machines & Suites Selection**.
-![Test Machines & Suites Selection](https://s3.amazonaws.com/static-docs.testsigma.com/new_images/projects/applications/tstm.png)
-- Use the ```Schedule``` feature to run the test plan without manual intervention.
-- When you need to record the tests and debug step-by-step execution, launch the test in debugging mode.
-- Avoid interacting directly with third-party plugins via UI actions. Depending on the third party’s UI makes the test feeble. We can either use their APIs or a mock server to set the actual scenario in AUT.
+---
+
+## **Test Case Organization and Management**
+
+1. Filter, segment, and organise test cases for easy identification to streamline test management processes and quickly locate specific tests.
+2. **Label or map relevant requirements** to test cases to facilitate filtering and improve accessibility. Users can filter and save test cases in separate views based on labelled or mapped requirements.
+3. During test case creation or editing, you can add labels. The label field is available by default in the test case. ![Requirements and Labels](https://s3.amazonaws.com/static-docs.testsigma.com/new_images/projects/applications/req_labels.png)
+4. You can **Save Filters** to quickly access and manage test cases associated with a particular functionality or scenario, such as those related to login. For more information, refer to [Save Test Case Filter](https://testsigma.com/docs/test-cases/manage/list-actions/#save-test-case-filter).
+
+---
+
+## **Customisation and Extensibility**
+
+1. You can use **add-ons to extend Testsigma's repository** of actions and create custom NLPs for specific actions that are not available in the built-in Actions List.
+2. Share your add-ons or leverage existing ones with the test automation community through the Add-ons Community Marketplace. You can use add-ons to provide additional functionality and expand the capabilities of Testsigma. For more information, refer to [Create an Add-on](https://testsigma.com/docs/addons/create/).
+
+[[info | Example:]]
+| You create an add-on for verifying text from two DOM elements.
+
+---
+
+## **Reusability and Modularity**
+
+1. To avoid duplication and simplify test maintenance, use **Step Groups** as common reusable functions across test cases. Step Groups promote modular test design and easy maintenance by separating reusable components from the test flow. Any changes made to a Step Group will be reflected in all test cases that invoke it. For more information, refer to [Step Groups](https://testsigma.com/docs/test-cases/step-types/step-group/).
+
+[[info | Example:]]
+| Create a Step Group to reuse login functionality in multiple test cases.
+
+2. Use **REST API Steps** to automate redundant UI actions. Performing these actions through REST API steps will improve test stability and reduce test execution time compared to using the UI. For more information, refer to [Rest API](https://testsigma.com/docs/test-cases/step-types/rest-api/).
+
+---
+
+## **Element Management**
+
+1. Create elements with proper naming conventions to enable reuse in multiple test cases. For more information, refer to [Create an Element](https://testsigma.com/docs/elements/web-apps/create-manually/).
+
+[[info | Example:]]
+| Use descriptive names such as "UsernameInput" or "LoginButton" to make them easy to identify.
+
+2. You should map appropriate context details when you create elements inside **iFrames** or **Shadow DOM** contexts. Mapping context details will ensure you correctly identify and interact with elements within specific contexts. For more information refer to Shadow DOM Element. For more information, refer to [Create a Shadow DOM element](https://testsigma.com/docs/elements/web-apps/shadow-dom/#create-element-for-shadow-dom).
+3. You can easily access elements by saving filters and creating views based on screen names. They can check for the presence of elements in Testsigma's repository before recreating them. Element management is facilitated by adding filters. For more information, refer to [Save Element Filters](https://testsigma.com/docs/elements/overview/#save-element-filter).
+
+[[info | Example:]]
+| Create a view that displays elements related to the ''Login'' screen for quick reference.
+
+---
+
+## **Variables and Scopes**
+
+|Scope|Description|Usage|
+|---|---|---|
+|**Environment**|<li>The value stays constant during the test execution. The environment variable's values cannot be overwritten.</li><li>Any test case in any test suite can be accessed.</li><li>To create an Environment, navigate to **Test Data** > **Environments** > **Create**. For more information, refer to [Environments](https://testsigma.com/docs/test-data/create-environment-data/)</li>|<li>Define base URLs or configuration settings specific to the environment.</li><li>Create test steps using the data type <strong>* url</strong>.</li><li>Example: //button[text()=’*\|url\|’]</li>|
+|**Runtime**|The values are the same throughout a sequential test run; other tests can update them. For more information, refer to [Runtime Variable](https://testsigma.com/docs/test-data/types/runtime/).|<li>During test execution, store session-specific data or dynamic values.</li><li>Create test steps using the data type <strong>$ divText</strong>.</li><li>Example: //button[text()=’$\|divText\|’] </li>|
+|**Test Data Profile**|<li>You can link specific test cases. You can update the values in test data profiles from other test cases.</li><li>To create a Test Data Profile, navigate to **Test Data** > **Test Data Profile** > **Create**. For more information, refer to [Test Data Profile](https://testsigma.com/docs/test-data/create-data-profiles/)</li>|<li>Use data-driven testing and maintain test data sets.</li><li>Create test steps using the data type **@ username**.</li><li>Example: //button[text()=’@\|username\|’]</li>|
+
+---
+
+## **Data-Driven Testing**
+
+1. Enable the data-driven toggle in test cases and use Test Data Profiles to perform the same action with different test data sets for data-driven testing. For more information, refer to [Data-Driven Testing](https://testsigma.com/tutorials/test-cases/data-driven-testing/).
+2. Test Data Profiles use key-value pair format to store project configuration data, database connection details, and project settings for easy access and reuse of test data.
+
+[[info | Example:]]
+| Create a Test Data Profile named "ConfigData" to store configuration-related test data.
+
+3. Linking test cases to test data profiles and data sets using the **@ parameter** test-data type in NLP allows you to use specific columns from the test data set in your test steps.
+
+[[info | Example:]]
+| Link login credentials to a test data profile and use it to test different user logins in a test case.
+
+---
+
+## **Test Data Types**
+
+|Data Type|Usage|Examples|
+|---|---|---|
+|**Plain Text**|Used for storing general textual data.|“Hello World", “Test123”|
+|**@ Parameter**|Dynamically changeable values in a test case.|@ username, @ password|
+|**$ Runtime**|Values assigned/updated during test execution.|$ name, $ currenttime|
+|<strong>* Environment</strong>|Stores information about the current environment.|* url, * website|
+|**~ Random**|Generates random values within specified constraints.|Random item from a list|
+|**! Data Generator**|Generates test data based on predefined rules.|! TestDataFromProfile :: getTestDataBySetName|
+|**% Phone Number**|Stores phone numbers|% +123456789|
+|**& Mail Box**|Stores email addresses.|& automation@name.testsigma.com|
+
+---
+
+## **Configuration for Test Execution**
+
+1. Upload attachments for test steps in **Test Data** > **Uploads** and follow the maximum file size limit of **1024 MB**. The system always considers the latest version of the uploaded file. For more information, refer to [Uploads](https://testsigma.com/docs/uploads/upload-files/).
+2. Configure **Desired Capabilities** for cross-browser testing with specific browser configurations. You can configure Desired Capabilities for ad-hoc runs and test plans. For more information, refer to [Desired Capabilities](https://testsigma.com/docs/desired-capabilities/overview/).
+
+[[info | Example:]]
+| Specify the desired capabilities of the targeted testing, such as browser version or device type.
+
+3. Ensure you put test cases in the Ready state before adding them to a Test Suite. Organise relevant tests into test suites for better organisation and execution. For more information, refer to [Test Suites](https://testsigma.com/docs/test-management/test-suites/overview/).
+
+[[info | Example:]]
+| Create a "Login Suite" and add all relevant login-related test cases for efficient execution.
+
+---
+
+## **Execution and Test Plan Run**
+
+1. Run test case and test plan in **Headless** mode to reduce execution time and eliminate element loading time. For more information, refer to [Headless Browser Testing](https://testsigma.com/docs/test-management/test-plans/headless-testing/).
+
+[[info | Example:]]
+| To achieve faster test execution, execute the test plan without a visible browser.
+
+2. Use the **Partial Run** option in the Test Plan to exclude consistently failing test suites from runs; you can exclude or disable tests for execution from the Test Machines & Suites Selection in the Test Plan. For more information, refer to [Partial Run](https://testsigma.com/docs/runs/test-plan-executions/#partial-test-runs).
+3. Use the **Schedule** feature to run the test plan automatically without manual intervention. For more information, refer to [Schedule a Test Plan](https://testsigma.com/docs/test-management/test-plans/schedule-plans/).
+
+[[info | Example:]]
+| Schedule unattended testing during non-business hours by executing the test plan.
+
+---
+
+## **Testsigma Recorder Extension**
+
+1. Use the Testsigma Recorder Extension to record user interactions on web applications. Customise and modify the recorded test steps to align with the desired test case behaviour. For more information, refer to [Recording Test Steps](https://testsigma.com/docs/test-cases/create-steps-recorder/web-apps/overview/).
+2. Use the **Automatic Element Identification** feature of the recorder extension to easily capture elements and apply validations and verifications during recording to ensure that test steps include necessary assertions.
+
+---
+
+## **Third-Party Integration**
+
+Avoid relying on third-party UI elements for UI actions and instead use APIs or a mock server to simulate actual scenarios in the Application Under Test (AUT). This reduces the fragility of tests.
+
+---
