@@ -2,8 +2,8 @@
 title: "Install Chrome Extension"
 order: 7.11
 page_id: "Install Chrome Extension"
-page_title: "Trigger Test Plans remotely using Testsigma"
-metadesc: "Learn how to effortlessly Trigger Test Plans remotely using Testsigma. You can save time and increase productivity by Triggering Test Plans remotely"
+page_title: "Installing Chrome Extension"
+metadesc: "To record test steps in chrome, you need to install Testsigma Recorder Chrome Extension | This article discusses how to download and install Testsigma chrome extension"
 warning: false
 noindex: false
 contextual_links:
@@ -35,8 +35,8 @@ With Testsigma's Chrome extension, users can quickly record test steps by captur
 4. On successful installation, the following message will appear:
 ![Message](https://s3.amazonaws.com/static-docs.testsigma.com/new_images/projects/applications/tscesa.png)
 
-Here’s a quick GIF demonstrating how to add Testsigma's Chrome extension.
-![Chrome Extension](https://s3.amazonaws.com/static-docs.testsigma.com/new_images/projects/applications/ChromeExt.gif)
+Here’s a GIF demonstrating how to add Testsigma's Chrome extension.
+![Chrome Extension](https://s3.amazonaws.com/static-docs.testsigma.com/new_images/projects/applications/ChromeExtensionDS.gif)
 
 *For more information on creating test steps using recorder, refer to [recording test steps](https://testsigma.com/docs/test-cases/create-steps-recorder/web-apps/overview/).*
 
