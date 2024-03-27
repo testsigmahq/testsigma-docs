@@ -271,7 +271,7 @@
     "/docs/test-management/test-plans/headless-testing": "Headless Testing "
   },
   "runs": {
-    "/docs/runs/" : "Test Runs/ Executions",
+    "/docs/runs/" : "Test Runs / Executions",
     "/docs/reports/runs/" : "Test Runs"
   },
   "run-on-cloud-vendor-platforms": {
@@ -619,5 +619,8 @@
   },
   "test-execution-queued-for-a-long-time":{
   "/docs/troubleshooting/web-apps/test-execution-queued-for-a-long-time/": "Test Queued for a Long Time"
+  },
+  "install-firefox-extension":{
+    "/docs/test-step-recorder/install-firefox-extension/": "Install Firefox Extension"
   }
 }
