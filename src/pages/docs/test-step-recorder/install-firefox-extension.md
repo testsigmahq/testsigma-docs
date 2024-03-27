@@ -1,5 +1,5 @@
 ---
-title: "Install Testsigma Recorder Extension in Firefox"
+title: "Install Testsigma Recorder Extension: Firefox"
 page_title: "Install Testsigma Recorder Extension in Firefox Easily"
 metadesc: "Effortlessly start installing the Testsigma Recorder Extension in Firefox. Follow simple steps to record interactions for efficient testing. Learn more now."
 noindex: false
@@ -43,7 +43,7 @@ After installing the extension, configure it as follows:
 1. Click the **Extension** icon in the top right corner.
 2. Navigate to **Manage Your Extensions**.
 3. In the **Testsigma Recorder** extension and click on the **Menu** icon, then select **Manage**.
-4. Under **Testsigma Recorder** details, go to the **Permission** tab and toggle on **Access your data for all windows** ![Allow Extension to access data](https://s3.amazonaws.com/static-docs.testsigma.com/new_images/projects/applications/config_firefox_extensions.gif)
+4. Under **Testsigma Recorder** details, go to the **Permission** tab and toggle on **Access your data for all windows**. ![Allow Extension to access data](https://s3.amazonaws.com/static-docs.testsigma.com/new_images/projects/applications/config_firefox_extensions.gif)
 
 ### **Privacy & Security Settings** 
 
