@@ -622,5 +622,11 @@
   },
   "install-firefox-extension":{
     "/docs/test-step-recorder/install-firefox-extension/": "Install Firefox Extension"
+  },
+  "install-edge-extension":{
+    "/docs/test-step-recorder/install-edge-extension/": "Install Edge Extension"
+  },
+  "install-chrome-extension":{
+    "/docs/test-step-recorder/install-chrome-extension/": "Install Chrome Extension"
   }
 }
