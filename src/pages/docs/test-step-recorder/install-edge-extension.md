@@ -30,10 +30,10 @@ With Testsigma's Edge Extension, users can quickly record test steps and create 
 2. Click on **Get**.
 ![Get](https://s3.amazonaws.com/static-docs.testsigma.com/new_images/projects/applications/egget.png)
 
-1. On the permission prompt, click on **Add Extension**.
+3. On the permission prompt, click on **Add Extension**.
 ![Add Extension](https://s3.amazonaws.com/static-docs.testsigma.com/new_images/projects/applications/egaext.png)
 
-1. On successful installation, the following message will appear:
+4. On successful installation, the following message will appear:
 ![Success Messaga](https://s3.amazonaws.com/static-docs.testsigma.com/new_images/projects/applications/egsmosi.png)
 
 
