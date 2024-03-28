@@ -25,7 +25,7 @@ With Testsigma's Edge Extension, users can quickly record test steps and create 
 
 ## **Steps to Install Edge Extension**
 
-1. Go to [Testsigma Recorder](https://microsoftedge.microsoft.com/addons/detail/testsigma-recorder/pdgdbfedjpffcnmgedicplikkejikhif)
+1. Go to <a href="https://microsoftedge.microsoft.com/addons/detail/testsigma-recorder/pdgdbfedjpffcnmgedicplikkejikhif" target="_blank">Testsigma Recorder</a>
 
 2. Click on **Get**.
 ![Get](https://s3.amazonaws.com/static-docs.testsigma.com/new_images/projects/applications/egget.png)
