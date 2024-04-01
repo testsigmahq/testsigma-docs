@@ -1,5 +1,5 @@
 ---
-title: "Install Chrome Extension"
+title: "Install Testsigma Recorder Extension: Chrome"
 order: 7.11
 page_id: "Install Chrome Extension"
 page_title: "Installing Chrome Extension"
@@ -22,9 +22,10 @@ contextual_links:
 With Testsigma's Chrome extension, users can quickly record test steps by capturing user interactions, such as clicking buttons, entering text, navigating through pages, etc. The extension will also help users create elements interacting with the application during testing. This article explains how to install Testsigma's Chrome extension. 
 
 ---
+
 ## **Steps to Install Chrome Extension**
 
-1. Go to: [Testsigma Recorder](https://chrome.google.com/webstore/detail/testsigma-recorder/epmomlhdjfgdobefcpocockpjihaabdp)
+1. Go to <a href="https://chrome.google.com/webstore/detail/testsigma-recorder/epmomlhdjfgdobefcpocockpjihaabdp" target="_blank">Testsigma Recorder</a>
 
 2. Click on **Add to Chrome**.
 ![Add to Chrome](https://s3.amazonaws.com/static-docs.testsigma.com/new_images/projects/applications/tsceatc.png)
@@ -36,7 +37,8 @@ With Testsigma's Chrome extension, users can quickly record test steps by captur
 ![Message](https://s3.amazonaws.com/static-docs.testsigma.com/new_images/projects/applications/tscesa.png)
 
 Here’s a GIF demonstrating how to add Testsigma's Chrome extension.
-![Chrome Extension](https://s3.amazonaws.com/static-docs.testsigma.com/new_images/projects/applications/ChromeExtensionDS.gif)
+
+![Chrome Extension](https://s3.amazonaws.com/static-docs.testsigma.com/new_images/projects/applications/EnableChromeExt.gif)
 
 *For more information on creating test steps using recorder, refer to [recording test steps](https://testsigma.com/docs/test-cases/create-steps-recorder/web-apps/overview/).*
 
@@ -68,6 +70,6 @@ You can record steps in incognito mode by enabling the "Allow in Incognito" opti
 
 Here’s a GIF demonstrating how to enable the **Allow in Incognito** option and record steps in Incognito.
 
-![Allow in Incognito](https://s3.amazonaws.com/static-docs.testsigma.com/new_images/projects/applications/TestsOnIncognitoMode.gif)
+![Allow in Incognito](https://s3.amazonaws.com/static-docs.testsigma.com/new_images/projects/applications/IncognitoGifNew.gif)
 
 ---
