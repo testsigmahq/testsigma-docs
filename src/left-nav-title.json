@@ -396,7 +396,7 @@
     "/docs/visual-testing/update-baseline/": "Update Baseline"
   },
   "most-common": {
-    "/docs/desired-capabilities/most-common/": "Most Common Desired Capabilities List"
+    "/docs/desired-capabilities/most-common/": "Most Common Desired Capabilities"
   },
   "enable-browser-console-logs": {
     "/docs/desired-capabilities/enable-browser-console-logs/": "Enable Browser Console Debugging logs"
@@ -405,16 +405,16 @@
     "/docs/desired-capabilities/geo-location-for-localization/": "Geo location for Localization(L10N)"
   },
   "avoid-unsafe-download-prompt": {
-    "/docs/desired-capabilities/avoid-unsafe-download-prompt/": "Avoid unsafe download prompt(Chrome)"
+    "/docs/desired-capabilities/avoid-unsafe-download-prompt/": "Bypass Unsafe Download Prompt"
   },
   "set-geo-location": {
-    "/docs/desired-capabilities/set-geo-location/": "Set geo location(latitude, longitude) Chrome & Firefox"
+    "/docs/desired-capabilities/set-geo-location/": "Geolocation for Chrome & Firefox"
   },
   "custom-user-profile-chrome": {
-    "/docs/desired-capabilities/custom-user-profile-chrome/": "Custom User Profile - Chrome"
+    "/docs/desired-capabilities/custom-user-profile-chrome/": "Custom User Profile in Chrome"
   },
   "emulate-mobile-devices-with-chrome": {
-    "/docs/desired-capabilities/emulate-mobile-devices-with-chrome/": "Emulate Mobile devices with Chrome Browser"
+    "/docs/desired-capabilities/emulate-mobile-devices-with-chrome/": "Emulate Mobile Devices (Chrome)"
   },
   "add-chrome-extension": {
     "/docs/desired-capabilities/add-chrome-extension/": "Add Chrome Extension"
@@ -631,5 +631,17 @@
   },
   "automating-captcha":{
     "/docs/FAQs/web-apps/automating-captcha/": "Why Bypass CAPTCHA?"
+  },
+  "enable-browser-console-logs":{
+    "/docs/desired-capabilities/enable-browser-console-logs/": "Browser Console Debug Logs"
+  },
+  "geo-location-for-localization":{
+    "/docs/desired-capabilities/geo-location-for-localization/": "Geolocation Emulation"
+  },
+  "screen-shot-capture":{
+    "/docs/desired-capabilities/screen-shot-capture/": "Enable Capturing Screenshots (Android & iOS)"
+  },
+  "incognito-mode": {
+    "/docs/desired-capabilities/incognito-mode/": "Incognito/Private mode"
   }
 }
