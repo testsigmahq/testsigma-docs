@@ -349,9 +349,9 @@ There are two ways of starting the testsigma local agent using docker:
 
 <br>
 
-1. Save the **docker-compose.yml** file in an appropriate directory.
+7. Save the **docker-compose.yml** file in an appropriate directory.
 
-2. Open a command-line interface and navigate to the directory. Execute the command **docker-compose up**, which will download the necessary images and start the Testsigma Agent.
+8. Open a command-line interface and navigate to the directory. Execute the command **docker-compose up**, which will download the necessary images and start the Testsigma Agent.
 
 ---
 
