@@ -224,6 +224,7 @@ There are two ways of starting the testsigma local agent using docker:
           - edge
         volumes:
           - ./data/agent_data:/var/ts/agent
+          - ./<foldername>:/root/.testsigma/agent/logs
         environment:
           TS_ACTIVATION_KEY: "REPLACE_WITH_YOUR_ACTIVATION_KEY"
           CHROME: "http://chrome:4444"
@@ -269,6 +270,7 @@ There are two ways of starting the testsigma local agent using docker:
           - chrome
         volumes:
           - ./data/agent_data:/var/ts/agent
+          - ./<foldername>:/root/.testsigma/agent/logs
         environment:
           TS_ACTIVATION_KEY: "REPLACE_WITH_YOUR_ACTIVATION_KEY"
           CHROME: "http://chrome:4444"
@@ -289,6 +291,7 @@ There are two ways of starting the testsigma local agent using docker:
         container_name: testsigma-agent
         volumes:
           - ./data/agent_data:/var/ts/agent
+          - ./<foldername>:/root/.testsigma/agent/logs
         environment:
           TS_ACTIVATION_KEY: "REPLACE_WITH_YOUR_ACTIVATION_KEY"
           CHROME: "<REMOTE_CHROME_URL>"
@@ -304,6 +307,7 @@ There are two ways of starting the testsigma local agent using docker:
         container_name: testsigma-agent
         volumes:
           - ./data/agent_data:/var/ts/agent
+          - ./<foldername>:/root/.testsigma/agent/logs
         environment:
           TS_ACTIVATION_KEY: "REPLACE_WITH_YOUR_ACTIVATION_KEY"
           MIN: "-Xms1g"
@@ -326,6 +330,7 @@ There are two ways of starting the testsigma local agent using docker:
           - firefox
         volumes:
           - ./data/agent_data:/var/ts/agent
+          - ./<foldername>:/root/.testsigma/agent/logs
         environment:
           TS_ACTIVATION_KEY: "REPLACE_WITH_YOUR_ACTIVATION_KEY"
           CHROME: "http://chrome:4444"
@@ -344,9 +349,9 @@ There are two ways of starting the testsigma local agent using docker:
 
 <br>
 
-7. Save the **docker-compose.yml** file in an appropriate directory.
+1. Save the **docker-compose.yml** file in an appropriate directory.
 
-8. Open a command-line interface and navigate to the directory. Execute the command **docker-compose up**, which will download the necessary images and start the Testsigma Agent.
+2. Open a command-line interface and navigate to the directory. Execute the command **docker-compose up**, which will download the necessary images and start the Testsigma Agent.
 
 ---
 
@@ -372,6 +377,7 @@ Here's an example docker-compose file:
           - edge
         volumes:
           - ./data/agent_data:/var/ts/agent
+          - ./<foldername>:/root/.testsigma/agent/logs
         environment:
           TS_AUTO_REGISTRATION_KEY: "REPLACE_WITH_API_KEY"
           TS_AUTO_REGISTRATION_TITLE: "REPLACE_WITH_TITLE"
