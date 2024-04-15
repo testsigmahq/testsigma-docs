@@ -3,7 +3,7 @@ title: "Configure Android WebViews"
 page_title: "webviews"
 metadesc: "To inspect WebView elements in Testsigma, WebView debugging must be enabled within your application. Learn how to configure Android WebViews."
 noindex: false
-order: 15.98
+order: 15.96
 page_id: "webviews"
 search_keyword: ""
 warning: false
@@ -22,7 +22,8 @@ contextual_links:
 ---
 
 
-<br>
+---
+
 
 For inspecting WebView elements in Testsigma, WebView debugging must be enabled within your application. 
 
@@ -34,11 +35,18 @@ To enable WebView debugging, call the static method ***setWebContentsDebuggingEn
 [[info | **NOTE**:]]
 |The setting applies to all of the Android WebViews of the app.
 
+---
+
+
 ## **Example React Native generated code**
 ![React Native Code](https://s3.amazonaws.com/static-docs.testsigma.com/new_images/projects/applications/RN.png)
 
+---
+
 ## **Example Java Android code**
 ![Java Code](https://s3.amazonaws.com/static-docs.testsigma.com/new_images/projects/applications/java_debug.png)
+
+---
 
 ## **Example Kotlin Android code**
 ![Kotlin Code](https://s3.amazonaws.com/static-docs.testsigma.com/new_images/projects/applications/kotlin.png)
@@ -47,3 +55,5 @@ To enable WebView debugging, call the static method ***setWebContentsDebuggingEn
 |    
 |   - Android WebView debugging isn't affected by the state of the debuggable flag in the manifest of the app.
 |   - If you want to enable WebView debugging only when debuggable is true, set the flag as ***WebView.setWebContentsDebuggingEnabled(BuildConfig.DEBUG)***
+
+---

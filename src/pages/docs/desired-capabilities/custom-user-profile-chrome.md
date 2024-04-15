@@ -1,5 +1,5 @@
 ---
-title: "Using custom User Profile in Chrome for Tests"
+title: "Using Custom User Profile in Chrome"
 page_title: "Using custom User Profile in Chrome for Tests in Testsigma"
 metadesc: "Custom user profiles help you emulate settings such as pre-installed extensions. Learn how to start the Chrome Browser with a custom User Profile in Test Session using Testsigma"
 noindex: false

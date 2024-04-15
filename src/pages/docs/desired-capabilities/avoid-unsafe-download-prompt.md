@@ -1,5 +1,5 @@
 ---
-title: "Bypass unsafe download prompt in Chrome"
+title: "Bypass Unsafe Download Prompt in Chrome"
 metadesc: "Learn how to bypass the unsafe download warning prompt by setting a desired capability while downloading a file in your test using Testsigma application"
 noindex: false
 order: 15.5
@@ -32,3 +32,6 @@ You should already know how to add Desired Capabilities to your Tests. See [Desi
 |goog:chromeOptions|String|{ "prefs" : { "safebrowsing.enabled" : "true" } }|
 
 Just add the above Desired Capability in your Execution that contains the Test Step for clicking on the Download link. The browser warning will be silenced for the Test Session.
+
+
+---

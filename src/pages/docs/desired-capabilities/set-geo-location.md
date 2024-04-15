@@ -1,5 +1,5 @@
 ---
-title: "Set Geolocation for Tests in Chrome and Firefox"
+title: "Set Geolocation for Tests in Chrome & Firefox"
 page_title: "Set Geolocation for your Tests"
 metadesc: "Learn how to set the location of your Test Environment where tests are run by using a pair of desired capabilities in Testsigma Application."
 noindex: false
