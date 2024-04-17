@@ -643,5 +643,8 @@
   },
   "incognito-mode": {
     "/docs/desired-capabilities/incognito-mode/": "Incognito/Private mode"
+  },
+  "introduction":{
+    "/docs/salesforce-testing/introduction/": "Intro: Testsigma for Salesforce Testing"
   }
 }
