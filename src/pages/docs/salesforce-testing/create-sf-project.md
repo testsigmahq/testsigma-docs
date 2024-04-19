@@ -1,7 +1,7 @@
 ---
 title: "Creating a Salesforce Project"
 page_title: "Introduction: Testsigma for Salesforce Test Automation"
-metadesc: "Salesforce Testing with Testsigma helps reduce average test authoring time by 50%, and test case execution will be 2X faster with a user-friendly interface"
+metadesc: "Create and manage projects for Salesforce applications. This article discusses how to create a project for Salesforce testing in Testsigma."
 noindex: false
 order: 29.3
 page_id: "Testsigma for Salesforce Test Automation"
@@ -12,8 +12,39 @@ contextual_links:
 - type: link
   name: "Prerequisites"
   url: "#prerequisites"
+- type: link
+  name: "Steps to Create a Salesforce Project"
+  url: "#steps-to-create-a-salesforce-project"
 ---
 
 ---
 
-Coming Soon!
+
+In Testsigma, users can create and manage multiple projects and applications. Creating a Salesforce project is the same process as any other project. This article discusses how to create a project for Salesforce testing in Testsigma.
+
+
+---
+
+## **Prerequisites**
+
+- A Salesforce org with test setup
+- Salesforce Connected App
+
+---
+
+## **Steps to Create a Salesforce Project**
+
+1. From the **Dashboard**, go to **Project** and click on **New Project**.
+![New SF Project](https://s3.amazonaws.com/static-docs.testsigma.com/new_images/projects/applications/sfpccnp.png)
+
+2. On the **New project** page, 
+    - Enter **Project name** and choose **Salesforce** from the **Application type** dropdown. 
+      ![Name & App Type](https://s3.amazonaws.com/static-docs.testsigma.com/new_images/projects/applications/sfnpc.png)
+    - Enter **Application** name, **Version** and click on **Create**.
+      ![App Name & Version](https://s3.amazonaws.com/static-docs.testsigma.com/new_images/projects/applications/sfpccoc.png)
+
+3. You’ll be redirected to the Salesforce connections page. 
+![SF Connections](https://s3.amazonaws.com/static-docs.testsigma.com/new_images/projects/applications/sfprtsfc.png)
+
+
+---
