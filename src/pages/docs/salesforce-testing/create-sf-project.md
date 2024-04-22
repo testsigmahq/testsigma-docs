@@ -3,7 +3,7 @@ title: "Creating a Salesforce Project"
 page_title: "Creating a Salesforce Project"
 metadesc: "Create and manage projects for Salesforce applications. This article discusses how to create a project for Salesforce testing in Testsigma."
 noindex: false
-order: 29.3
+order: 27.3
 page_id: "Testsigma for Salesforce Test Automation"
 warning: false
 contextual_links:
@@ -27,8 +27,8 @@ In Testsigma, users can create and manage multiple projects and applications. Cr
 
 ## **Prerequisites**
 
-- A Salesforce org with test setup
-- Salesforce connected app
+- Salesforce organization with the test setup.
+- Salesforce connected app. For more information, refer to [creating a connected app](https://testsigma.com/docs/salesforce-testing/special-nlps/).
 
 ---
 

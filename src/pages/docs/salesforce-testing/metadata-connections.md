@@ -3,7 +3,7 @@ title: "Creating Metadata Connections"
 page_title: "Metadata Connections"
 metadesc: "A Metadata connection enables actions like refreshing metadata, configurations, creating objects, & managing components that define how the application behaves"
 noindex: false
-order: 29.4
+order: 27.4
 page_id: "Creating Metadata Connections"
 warning: false
 contextual_links:
@@ -31,8 +31,8 @@ In Testsigma, you can create a Salesforce application and establish a Metadata c
 
 ## **Prerequisites**
 
-- You need to have Salesforce org with test setup
-- Salesforce connected app
+- Salesforce organization with the test setup.
+- Salesforce connected app. For more information, refer to [creating a connected app](https://testsigma.com/docs/salesforce-testing/special-nlps/).
 
 ---
 

@@ -3,7 +3,7 @@ title: "Adding User Connections"
 page_title: "User Connections"
 metadesc: "Add user connections for a Salesforce project in Testsigma. These connections are associated with Salesforce user profiles like Salesforce admin/sales rep"
 noindex: false
-order: 29.5
+order: 27.5
 page_id: "User Connections"
 warning: false
 contextual_links:
@@ -31,9 +31,9 @@ Once you've set up the Salesforce Metadata connection, you can add user connecti
 
 ## **Prerequisites**
 
-- A Salesforce organization with the test setup
-- A Salesforce connected app
-- Salesforce metadata connected to Testsigma
+- Salesforce organization with the test setup.
+- Salesforce connected app. For more information, refer to [creating a connected app](https://testsigma.com/docs/salesforce-testing/special-nlps/).
+- Salesforce metadata connected to Testsigma. For more information, refer to [creating metadata connections](https://testsigma.com/docs/salesforce-testing/metadata-connections/).
 
 ---
 
