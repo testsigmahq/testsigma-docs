@@ -3,7 +3,7 @@ title: "Test Cases for Salesforce (Manual + Live)"
 page_title: "Build Test Cases for Salesforce Testing"
 metadesc: "Creating test cases for Salesforce automation is easy with Salesforce metadata artifacts and capabilities from Testsigma like smart NLPs, and the debugger"
 noindex: false
-order: 29.6
+order: 27.6
 page_id: "Test Cases for Salesforce"
 warning: false
 contextual_links:
@@ -33,9 +33,9 @@ Here’s a quick video demonstrating how create test cases for Salesforce testin
 
 ## **Prerequisites**
 
-- A Salesforce organization with the test setup
-- A Salesforce connected app
-- Salesforce metadata connected to Testsigma
+- Salesforce organization with the test setup.
+- Salesforce connected app. For more information, refer to [creating a connected app](https://testsigma.com/docs/salesforce-testing/special-nlps/).
+- Salesforce metadata connected to Testsigma. For more information, refer to [creating metadata connections](https://testsigma.com/docs/salesforce-testing/metadata-connections/).
 - [Testsigma Chrome Extension](https://chromewebstore.google.com/detail/testsigma-recorder/epmomlhdjfgdobefcpocockpjihaabdp)
 
 ---
