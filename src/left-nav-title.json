@@ -646,5 +646,8 @@
   },
   "introduction":{
     "/docs/salesforce-testing/introduction/": "Intro: Testsigma for Salesforce Testing"
+  },
+  "sf-test-cases":{
+    "/docs/salesforce-testing/sf-test-cases/": " Build Test Cases: Manual+Live"
   }
 }
