@@ -70,7 +70,7 @@
   },
   "rest-api": {
     "/docs/test-cases/step-types/rest-api/": "Type: REST API",
-    "/docs/continuous-integration/rest-api/": "REST API(Generic)"
+    "/docs/continuous-integration/rest-api/": "REST API (Generic)"
   },
   "while-loop": {
     "/docs/test-cases/step-types/while-loop/": "Type: While Loop"
