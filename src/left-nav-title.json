@@ -649,5 +649,11 @@
   },
   "sf-test-cases":{
     "/docs/salesforce-testing/sf-test-cases/": " Build Test Cases: Manual+Live"
+  },
+  "collecting-har-file": {
+    "/docs/troubleshooting/web-apps/collecting-har-file/": "Collecting HAR File"
+  },
+  "chrome-settings": {
+    "/docs/troubleshooting/web-apps/chrome-settings/": "Missing Elements in Recorder"
   }
 }
