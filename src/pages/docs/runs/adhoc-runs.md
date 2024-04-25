@@ -55,6 +55,10 @@ Before using the Ad-hoc Run, you must understand specific concepts such as creat
 5. The Ad-hoc Run overlay will be automatically pre-filled with the saved configuration for your next runs when selected.
 6. In the **Test Case Details** page, click **Ad-Hoc Runs** in the right Navigation Bar to open the right sidebar. This will enable you to view the history and details of Ad-Hoc Run results for the Test Case. ![View History of Ad-Hoc Run](https://s3.amazonaws.com/static-docs.testsigma.com/new_images/projects/applications/view_adhocrundetails.png)
 
+
+[[info | **NOTE**:]]
+| Whitelisting of Testsigma IP addresses is necessary to ensure that the Testsigma servers and lab environments can securely interact with your applications and systems for testing activities. For more information, refer to [whitelisting Testsigma IP addresses](https://testsigma.com/docs/runs/test-locally-hosted-applications/#whitelisting-testsigma-ip-addresses)
+
 ---
 
 ## **Web Application**
