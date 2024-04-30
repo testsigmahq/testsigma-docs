@@ -70,7 +70,7 @@
   },
   "rest-api": {
     "/docs/test-cases/step-types/rest-api/": "Type: REST API",
-    "/docs/continuous-integration/rest-api/": "REST API(Generic)"
+    "/docs/continuous-integration/rest-api/": "REST API (Generic)"
   },
   "while-loop": {
     "/docs/test-cases/step-types/while-loop/": "Type: While Loop"
@@ -649,5 +649,11 @@
   },
   "sf-test-cases":{
     "/docs/salesforce-testing/sf-test-cases/": " Build Test Cases: Manual+Live"
+  },
+  "collecting-har-file": {
+    "/docs/troubleshooting/web-apps/collecting-har-file/": "Collecting HAR File"
+  },
+  "chrome-settings": {
+    "/docs/troubleshooting/web-apps/chrome-settings/": "Missing Elements in Recorder"
   }
 }
