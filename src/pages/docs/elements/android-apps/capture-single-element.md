@@ -1,9 +1,9 @@
 ---
 title: "Capture Single Element Using Recorder"
-metadesc: "Learn how to create one element at a time using the Testsigma mobile inspector for an android project in Testsigma application."
+metadesc: "Learn how to create single element at a time using the Testsigma test recorder for an android project in Testsigma application."
 noindex: false
 order: 6.32
-page_id: "Create One Element at a Time (Using Mobile Inspector) for an Android Project"
+page_id: "Create Single Element for an Android Application"
 warning: false
 contextual_links:
 - type: section

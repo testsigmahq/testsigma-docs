@@ -70,7 +70,7 @@
   },
   "rest-api": {
     "/docs/test-cases/step-types/rest-api/": "Type: REST API",
-    "/docs/continuous-integration/rest-api/": "REST API(Generic)"
+    "/docs/continuous-integration/rest-api/": "REST API (Generic)"
   },
   "while-loop": {
     "/docs/test-cases/step-types/while-loop/": "Type: While Loop"
@@ -271,7 +271,7 @@
     "/docs/test-management/test-plans/headless-testing": "Headless Testing "
   },
   "runs": {
-    "/docs/runs/" : "Test Runs/ Executions",
+    "/docs/runs/" : "Test Runs / Executions",
     "/docs/reports/runs/" : "Test Runs"
   },
   "run-on-cloud-vendor-platforms": {
@@ -396,7 +396,7 @@
     "/docs/visual-testing/update-baseline/": "Update Baseline"
   },
   "most-common": {
-    "/docs/desired-capabilities/most-common/": "Most Common Desired Capabilities List"
+    "/docs/desired-capabilities/most-common/": "Most Common Desired Capabilities"
   },
   "enable-browser-console-logs": {
     "/docs/desired-capabilities/enable-browser-console-logs/": "Enable Browser Console Debugging logs"
@@ -405,16 +405,16 @@
     "/docs/desired-capabilities/geo-location-for-localization/": "Geo location for Localization(L10N)"
   },
   "avoid-unsafe-download-prompt": {
-    "/docs/desired-capabilities/avoid-unsafe-download-prompt/": "Avoid unsafe download prompt(Chrome)"
+    "/docs/desired-capabilities/avoid-unsafe-download-prompt/": "Bypass Unsafe Download Prompt"
   },
   "set-geo-location": {
-    "/docs/desired-capabilities/set-geo-location/": "Set geo location(latitude, longitude) Chrome & Firefox"
+    "/docs/desired-capabilities/set-geo-location/": "Geolocation for Chrome & Firefox"
   },
   "custom-user-profile-chrome": {
-    "/docs/desired-capabilities/custom-user-profile-chrome/": "Custom User Profile - Chrome"
+    "/docs/desired-capabilities/custom-user-profile-chrome/": "Custom User Profile in Chrome"
   },
   "emulate-mobile-devices-with-chrome": {
-    "/docs/desired-capabilities/emulate-mobile-devices-with-chrome/": "Emulate Mobile devices with Chrome Browser"
+    "/docs/desired-capabilities/emulate-mobile-devices-with-chrome/": "Emulate Mobile Devices (Chrome)"
   },
   "add-chrome-extension": {
     "/docs/desired-capabilities/add-chrome-extension/": "Add Chrome Extension"
@@ -537,7 +537,7 @@
     "/docs/troubleshooting/mobile-apps/failed-to-launch-test-recorder/": "Failed to Start Mobile Test Recorder"
   },
   "why-chrome-extension": {
-    "/docs/FAQs/web-apps/why-chrome-extension/": "Why Install Chrome Extension"
+    "/docs/FAQs/web-apps/why-chrome-extension/": "Why Install Chrome Extension?"
   },
   "why-cloud-devices-cannot-access-local-apps": {
     "/docs/FAQs/web-apps/why-cloud-devices-cannot-access-local-apps/": "Why cloud based test machines can't access locally hosted applications?"
@@ -619,5 +619,41 @@
   },
   "test-execution-queued-for-a-long-time":{
   "/docs/troubleshooting/web-apps/test-execution-queued-for-a-long-time/": "Test Queued for a Long Time"
+  },
+  "install-firefox-extension":{
+    "/docs/test-step-recorder/install-firefox-extension/": "Install Firefox Extension"
+  },
+  "install-edge-extension":{
+    "/docs/test-step-recorder/install-edge-extension/": "Install Edge Extension"
+  },
+  "install-chrome-extension":{
+    "/docs/test-step-recorder/install-chrome-extension/": "Install Chrome Extension"
+  },
+  "automating-captcha":{
+    "/docs/FAQs/web-apps/automating-captcha/": "Why Bypass CAPTCHA?"
+  },
+  "enable-browser-console-logs":{
+    "/docs/desired-capabilities/enable-browser-console-logs/": "Browser Console Debug Logs"
+  },
+  "geo-location-for-localization":{
+    "/docs/desired-capabilities/geo-location-for-localization/": "Geolocation Emulation"
+  },
+  "screen-shot-capture":{
+    "/docs/desired-capabilities/screen-shot-capture/": "Enable Capturing Screenshots (Android & iOS)"
+  },
+  "incognito-mode": {
+    "/docs/desired-capabilities/incognito-mode/": "Incognito/Private mode"
+  },
+  "introduction":{
+    "/docs/salesforce-testing/introduction/": "Intro: Testsigma for Salesforce Testing"
+  },
+  "sf-test-cases":{
+    "/docs/salesforce-testing/sf-test-cases/": " Build Test Cases: Manual+Live"
+  },
+  "collecting-har-file": {
+    "/docs/troubleshooting/web-apps/collecting-har-file/": "Collecting HAR File"
+  },
+  "chrome-settings": {
+    "/docs/troubleshooting/web-apps/chrome-settings/": "Missing Elements in Recorder"
   }
 }

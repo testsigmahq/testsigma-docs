@@ -1,98 +1,78 @@
 ---
-title: "Using Runtime Test Data for Dynamic locators"
-metadesc: "This article discusses the usage of Runtime Test Data for creating dynamic locators | Learn about Runtime Test Data in Testsigma application"
+title: "Dynamic Locators using Runtime"
+page_title: "Dynamic Locators using Runtime: Enhance Test Stability"
+metadesc: "Learn how to dynamically locate elements at runtime to stable automated tests. Efficiently manage elements in your testing workflow without interruptions."
 order: 6.82
-page_id: "Using Runtime Test Data for Dynamic locators"
+page_id: "dynamic-locators-using-runtime-in-testsigma"
 warning: false
 contextual_links:
 - type: section
   name: "Contents"
 - type: link
-  name: "Case Study - OrangeHRM"
-  url: "#case-study---orangehrm"
+  name: "Prerequisites"
+  url: "#prerequisites"
 - type: link
-  name: "Actual Steps - Implementation"
-  url: "#actual-steps---implementation"
+  name: "Store Element into Runtime Variable"
+  url: "#store-element-into-runtime-variable"
 - type: link
-  name: "Creating Dynamic Elements using run-time test data"
-  url: "#creating-dynamic-elements-using-run-time-test-data"
+  name: "Creating Dynamic Elements using Runtime Test Data"
+  url: "#creating-dynamic-elements-using-runtime-test-data"
+- type: link
+  name: "Implementing Dynamic Locators using Runtime"
+  url: "#implementing-dynamic-locators-using-runtime"  
 ---
 
 ---
 
-In Testsigma, one of the ways we can automate the testing of dynamic elements is by using parameterized XPath or CSS Selectors. Let’s see how.
-
-You should be familiar with [Runtime Test Data](https://testsigma.com/docs/test-data/types/runtime/).
-
-<br>
+Dynamic locators are essential in handling web elements that may undergo attribute changes during test execution. Traditional locators like XPath or CSS selectors may lose reliability when these dynamic changes occur. Testsigma offers a solution that enables you to create dynamic locators at runtime, guaranteeing the stability and dependability of your automated tests. This documentation guides you through utilising dynamic locators in Testsigma by storing elements into Runtime Variables.
 
 ---
-## **Case Study - OrangeHRM**
 
-Here, we will be using a popular application such as OrangeHRM for our demonstration. We will be doing the following steps on the OrangeHRM website:
-1. **Navigate to the OrangeHRM website**<br>
-2. **Enter the username**<br>
-3. **Enter the password**<br>
-4. **Store the username to a run-time variable (for reuse in dynamic Element)**<br>
-5. **Click on the login button**<br>
-6. **Verify that an element with the text 'Welcome ' followed by the stored user name is displayed on the page**<br>
+## **Prerequisites**
 
-<br>
+Before implementing dynamic locators using Runtime in Testsigma, ensure you have a solid understanding of key concepts such as creating a [Test Case](https://testsigma.com/docs/test-cases/manage/add-edit-delete/#creating-a-test-case), managing [Runtime Test Data](https://testsigma.com/docs/test-data/types/runtime/) and [Elements](https://testsigma.com/docs/elements/web-apps/capture-single-element/), handling [Test Steps](https://testsigma.com/docs/test-cases/step-types/natural-language/), and effectively utilising different [Test Data Types](https://testsigma.com/docs/test-data/types/overview/).
 
 ---
-## **Actual Steps - Implementation**
-1. **Navigate to https://opensource-demo.orangehrmlive.com**<br>
-This step is self-explanatory. Navigate to the OrangeHRM website using grammar Navigate to test data.
 
-2. **Enter Admin in Username field**<br>
-Enter the user name in the Username field using grammar Type test data in the Element field.
-We can create the step with a dummy Element named  Username and later update the Element value for the field. 
+## **Store Element into Runtime Variable**
 
-3. **Enter admin123 in Password field**<br>
-Enter the password in the  Password field using grammar Type test data in the Element field.
-This step is similar to the above step. You just need to modify the test data and Element.
+We will manually create an element and store it in a Runtime Variable to create dynamic locators. This is important because recording dynamic elements may not be reliable.
 
-4. **Store the value displayed in the text box Username field into a variable user_name**<br>
-Store the user name from the  Username field to a run-time variable named 'user_name' using the grammar Store the value displayed in the text box Element field into a variable test data.
-   [[info | NOTE:]]
-   |In this case, the value 'Admin' from the 'Username' field is stored inside the run-time variable 'user_name'
+1. Create a **new step** in your **Test Case** using **NLP**. Use placeholders for **elements** and **test data** to create an element and store it as a Runtime Variable. ![Use Element Test Data NLP](https://s3.amazonaws.com/static-docs.testsigma.com/new_images/projects/applications/element_testdata_runtime_ts.png)
 
-5. **Click on login_button**<br>
-Click on the Login button using the grammar Click on Element. This step is similar to the 2nd and 3rd steps. You just need to modify the Element since there's no test data for this step.
+    [[info | Example:]]
+   | Use NLP "Store text from the **element** into a variable **test data**". The NLP helps you store text from an element identified into a variable.
 
-6. **Verify that the current page displays an element welcome_ username_ link**<br>
-Verify that an element(welcome_ username_ link) with dynamic XPath containing the stored run_ time parameter 'user_ name' is present using the grammar Verify that the current page displays an element Element.
+2. Click on the element, then select **Create Element** from the dropdown list. The Create Element overlay screen will appear on the right side of the page. Manually enter the **Element Name**, **Screen Name**, **Element Type**, and **Element Value**. Finally, click **Create Element** to complete the element creation. ![Create Element to store](https://s3.amazonaws.com/static-docs.testsigma.com/new_images/projects/applications/storeelement_ts_dr.gif)
 
-![OrangeHRM Dashboard with Chrome Devtools elements tab focusing login avatar on the right side](https://docs.testsigma.com/images/with-runtime-test-data/orangehrm-dashboard-page-source-login-avatar.png)
+3. Substitute specific **text** for the **test data** placeholder and click **Create Step** to save the test step, storing the element within the text as a Runtime Variable. ![Store Element in Runtime](https://s3.amazonaws.com/static-docs.testsigma.com/new_images/projects/applications/storeelement_runimte.gif)
 
-<br>
+   [[info | Example:]]
+   | - We are using the **Simply Travel Flight** website as an example. If we want to locate the **Login or Sign Up** button and its XPath is **(//\*[@id="login-signup"]/div)**, we can store its value in a runtime variable **($|login|)**. 
+   | - When we run the test, we can use this variable to locate the button. If the value changes later, we can update it without affecting the test. This method works even if the button is used in different test steps and its value changes.
 
 ---
-## **Creating Dynamic Elements using run-time test data**
-In step #6, we are verifying that the page displays an Element 'welcome_ username_ link' containing text 'Welcome Admin'. Here, 'Admin' is the username that we got from the 'Username' field in step #4. 
 
-The username of the currently logged-in user can be dynamic and so we need to create a dynamic XPath containing the current Username.
+## **Creating Dynamic Elements using Runtime Test Data**
 
-For example,<br>
-**//a[@id='welcome'][text()='Welcome Admin']**
+1. Use **NLP** to create a **new step** in the **Test Case** and include a placeholder for the **element**. ![Use Element NLP](https://s3.amazonaws.com/static-docs.testsigma.com/new_images/projects/applications/use_element_nlp.png)
 
-We have already got the username of the currently logged-in user 'Admin' into the run-time parameter named 'user_name' in Step #4. We just need to use the same in the dynamic XPath. That can be done as given below:
+   [[info | Example:]]
+   | Utilise NLP "Click on **Element**" to click an element with a given UI Identifier.
 
-**//a[@id='welcome'][text()='Welcome $|user_name|']**
+2. Click on the element, then select **Create Element** from the dropdown list. The Create Element overlay screen will appear on the right side of the page. Manually enter the **Element Name**, **Screen Name**, and **Element Type**.
+3. Provide Dynamic Element Value **//*["$|login|"]/div**, where '**login**' is the stored Runtime Variable. Click **Create Element** to complete element creation. ![create_element using runtime](https://s3.amazonaws.com/static-docs.testsigma.com/new_images/projects/applications/create_runtimeelement.gif)
 
-Now we can use the above XPath as the Element value of "welcome_ username_ link" and the $|user_ name| part will be translated to the value of runtime parameter 'user_ name' when the Test Step is executed.
+   [[info | Example:]]
+   | During testing, accurately locate the actual 'Login or Sign Up' element on the Simply Travel Flight website with the dynamic XPath **//*["$|login|"]/div** using the Runtime Variable 'login'.
 
-![Edit Element overlay with dynamic locator using runtime parameter](https://docs.testsigma.com/images/with-runtime-test-data/dynamic-locator-runtime-parameter.png)
+---
 
+## **Implementing Dynamic Locators using Runtime**
 
-Here's a screenshot of the Test Case:
-![OrangeHRM Test Steps with dynamic locator containing Runtime data](https://docs.testsigma.com/images/with-runtime-test-data/dynamic-locator-runtime-parameter-test-steps-example.png)
+With the Runtime Variable in place, follow these steps to implement dynamic locators in your test cases:
 
-That’s all we need to create Dynamic Elements using Runtime Parameter Test Data.
+1. Add a new step in the test case where interaction with the dynamic element is required.
+2. Manually select the dynamic element and proceed with your test steps. Testsigma will dynamically locate the element during test execution. ![Use Runtime for Elements](https://s3.amazonaws.com/static-docs.testsigma.com/new_images/projects/applications/usedynamic_runtimevariable.gif)
 
-Once the Test Case is updated with the dynamic Element as given above, we can execute the Tests. You may also perform a dry run by clicking on the Run button on the Test Case details page.
-
-
-
-
-
+---

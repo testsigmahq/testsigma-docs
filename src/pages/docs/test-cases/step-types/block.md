@@ -87,7 +87,6 @@ To delete a Step Block, open the test case containing it and click the **Delete*
 ## **Actions Possible on a Block**
 
 - **Reordering Steps**: Within a Step Block, you can change the order of steps.
-- **Copying Block**: You can copy a Step Block and its contained steps and paste it into the same or another test case.
 - **Moving Block**: You can move a Step Block and its contained steps to a different location within the same test case.
 
 ---

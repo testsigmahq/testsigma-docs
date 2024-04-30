@@ -62,7 +62,8 @@ This article guides the user to prepare and execute test plans in Testsigma plat
 1. Click on the **Run Now** to start the test plan execution.
 ![Test plan execution](https://s3.amazonaws.com/static-docs.testsigma.com/new_images/projects/applications/rntptpexe.png)
 
-
+[[info | **NOTE**:]]
+| Whitelisting of Testsigma IP addresses is necessary to ensure that the Testsigma servers and lab environments can securely interact with your applications and systems for testing activities. For more information, refer to [whitelisting Testsigma IP addresses](https://testsigma.com/docs/runs/test-locally-hosted-applications/#whitelisting-testsigma-ip-addresses)
 
 ---
 

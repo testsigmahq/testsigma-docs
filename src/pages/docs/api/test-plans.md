@@ -13,8 +13,11 @@ contextual_links:
   name: "Prerequisites"
   url: "#prerequisites"
 - type: link
-  name: "Test Plan - Start Test Execution API"
-  url: "#test-plan---start-test-execution-api"
+  name: "Trigger Test Plans Using API"
+  url: "#trigger-test-plans-using-api"
+- type: link
+  name: "Trigger Test Plans in Different Environments"
+  url: "#trigger-test-plans-in-different-environments"
 - type: link
   name: "Obtaining the Run ID"
   url: "#obtaining-the-run-id"
@@ -37,7 +40,7 @@ You can use Testsigma API to trigger test executions remotely. This is useful wh
 
 
 ---
-## **Test Plan - Start Test Execution API**
+## **Trigger Test Plans Using API**
 This endpoint allows users to trigger a Test Plan execution remotely.
 
 |**Request Type**| POST                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                       |
@@ -112,6 +115,41 @@ Each Test Plan Run in Testsigma has a unique Run ID. This Run ID can be used to 
 
 ---
 
+
+## **Trigger Test Plans in Different Environments**
+
+To execute a test plan with different Environments, you need to have an Environment ID. You can find the Environment ID by following the steps below. 
+
+### **Get Environment ID**
+
+1. Navigating to **Test Data > Environments**, and click on an **Environment**.
+
+
+2. On the Environment page, the <ENVIRONMENT\_ID> in the URL `https://app.testsigma.com/ui/td/88/environments/<ENVIRONMENT_ID>/details` is the ID of the environment. 
+
+![Environments](https://s3.amazonaws.com/static-docs.testsigma.com/new_images/projects/applications/ttpuapienv.png)
+
+- For Example, if the URL is `https://app.testsigma.com/ui/td/88/environments/10/details`, the **ID** is **10**. 
+
+### **Executing Tests Plans with Different Environments**
+
+1. Navigate to **Test Plans > Test Plan > CI/CD Integrations**, and copy **CURL request** under **REST API to integrate with other tools > REST API call to start Test Plan**.
+![CURL](https://s3.amazonaws.com/static-docs.testsigma.com/new_images/projects/applications/ttpuapicurl.png)
+
+2. Provide the Environment ID in the request body. 
+
+```
+curl -X POST \
+-H "Content-type: application/json" \
+-H "Accept:application/json" \
+-H "Authorization: Bearer <API_KEY>" \
+https://app.testsigma.com/api/v1/execution_results \
+-d "{\"executionId\": \"301\", \"environmentId\": \"<ENVIRONMENT_ID>\"}"
+```
+
+You can execute this CURL command in your computer's command-line interface (CLI) to trigger test plan with the environment specific to the given ID. 
+
+---
 
 ## **Obtaining the Run ID**
 
@@ -216,3 +254,4 @@ This endpoint allows users to get details of all Test case executions using REST
 |**Request Body**|<pre>{ <br> "executionId": 268,<br> "executionResultId": 986,<br> "result": "FAILURE",<br> "status": "STATUS_COMPLETED",<br> "testCases": [<br> {<br> "testCaseId": 413,<br> "testCaseName": "03 data driven small",<br> "testCaseResultId": 7975,<br> "result": "FAILURE",<br> "isDataDrivenCase": true,<br> "iterationResults": [<br> {<br> "iterationResultId": 7963,<br> "setName": "examples",<br> "result": "SUCCESS"<br> },<br> {<br> "iterationResultId": 7976,<br> "setName": "travels",<br> "result": "FAILURE"<br> },<br> {<br> "iterationResultId": 7965,<br> "setName": "examples 1",<br> "result": "FAILURE"<br> }<br> ],<br> "testSuiteId": 197,<br> "testSuiteName": "02 DD Small",<br> "testSuiteResultId": 2295,<br> "machineId": 414,<br> "machineTitle": "machine 2",<br> "machineResultId": 2370<br> }<br> ]<br> }<pre>|
 
 ---
+
