@@ -2,7 +2,7 @@
 title: "Missing Elements in the Recorder"
 metadesc: "There might be instances where you miss elements on the recorder screen while recording | This article discusses troubleshooting steps for missing elements "
 noindex: false
-order: 23.6
+order: 23.54
 page_id: "Troubleshooting Missing Elements in the Recorder"
 warning: false
 contextual_links:

@@ -655,5 +655,17 @@
   },
   "chrome-settings": {
     "/docs/troubleshooting/web-apps/chrome-settings/": "Missing Elements in Recorder"
+  },
+  "unable-to-retrieve-value":{
+    "/docs/troubleshooting/NLPs/unable-to-retrieve-value/": "Retrieve Value in Text Element"
+  },
+  "unable-to-capture-dropdown-element":{
+    "/docs/troubleshooting/NLPs/unable-to-capture-dropdown-element/": "Capture Dropdown Elements"
+  },
+  "issues-with-browser-sessions":{
+    "/docs/troubleshooting/web-apps/issues-with-browser-sessions/": "Errors with Browser Session"
+  },
+  "page-loading-issues":{
+    "/docs/troubleshooting/web-apps/page-loading-issues/": "Page Loading Issues"
   }
 }

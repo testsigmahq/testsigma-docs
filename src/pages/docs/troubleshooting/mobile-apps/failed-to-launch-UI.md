@@ -2,7 +2,7 @@
 title: "Mobile app keeps stopping after successful launch"
 metadesc: "Know why your mobile app keeps stopping after a successful launch. Learn effective troubleshooting methods to fix the issue if your mobile app keeps stopping."
 noindex: false
-order: 23.7
+order: 23.64
 page_id: "Mobile app keeps stopping after successful launch "
 warning: false
 ---

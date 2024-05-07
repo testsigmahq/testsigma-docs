@@ -2,7 +2,7 @@
 title: "Troubleshooting Restricted Access to Testsigma"
 metadesc: "This article discusses accessing the Testsigma application by whitelisting the necessary URLs, if you have network restrictions set by your administrator"
 noindex: false
-order: 23.3
+order: 23.23
 page_id: "Troubleshooting Restricted Access"
 warning: false
 contextual_links:

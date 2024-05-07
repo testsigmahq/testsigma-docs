@@ -2,7 +2,7 @@
 title: "Finding App Package & App Activity (Android)"
 metadesc: "Testing Android apps in Testsigma requires a few details about the app in order to locate and test activity in app. This article discusses finding app package & activity"
 noindex: false
-order: 23.92
+order: 23.68
 page_id: App Package & App Activity
 warning: false
 contextual_links:

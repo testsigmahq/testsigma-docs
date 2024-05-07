@@ -38,7 +38,7 @@ Login to https://app.testsigma.com and go to **Settings > Testsigma IP** info to
 ![Testsigma IPs](https://s3.amazonaws.com/static-docs.testsigma.com/new_images/projects/applications/ipwhitelisting.png)
 
 - **Testsigma Server IP:** Whitelisting this IP will allow you to access the Testsigma server, where the test executions happen on Testsigma's very own device cloud infrastructure. 
-- 
+
 - **Testsigma Lab IPs:** Whitelisting these IP ranges will allow you to access Testsigma Labs, where all the account's test assets and data are hosted and stored.
 
 

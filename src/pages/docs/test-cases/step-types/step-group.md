@@ -15,6 +15,9 @@ contextual_links:
   name: "Edit a step group"
   url: "#edit-a-step-group"
 - type: link
+  name: "Delete a Step Group"
+  url: "#delete-a-step-group"
+- type: link
   name: "Edit a Step Group for a Specific Test Case"
   url: "#edit-a-step-group-for-a-specific-test-case"
 - type: link
@@ -81,6 +84,26 @@ Here's a quick GIF demonstrating how to create a step group in Testsigma.
 [[info | **NOTE**:]]
 | The changes will affect all the test cases that use the step group.
 
+---
+
+## **Delete a Step Group**
+
+1. From the **Step Group** list overlay, click on kebab menu on the step group you want to delete and click on **Delete**.
+
+   ![Delete](https://s3.amazonaws.com/static-docs.testsigma.com/new_images/projects/applications/sgdlte.png)
+
+2. This will open **Deletion Warning** popup. 
+
+   ![PopUp](https://s3.amazonaws.com/static-docs.testsigma.com/new_images/projects/applications/sgdltpop.png)
+
+   [[info | **NOTE**:]]
+   | This will show the list of affected test cases. Deletion of the step group will remove the step group in the linked test cases.
+
+3. Enter **DELETE** and click on **I understand, delete this Step Group**. 
+
+   ![Delete](https://s3.amazonaws.com/static-docs.testsigma.com/new_images/projects/applications/sgdtltdcod.png)
+
+4. The step group will be deleted successfully. 
 
 ---
 
@@ -154,9 +177,7 @@ Here's a quick GIF demonstrating how to create a step group in Testsigma.
 [[info | **NOTE**:]]
 | You can also add a data driven step group to a data driven test case. This allows iterating through multiple data sets via the step group for every single iteration of your data-driven test case.
 
-
 ---
-
 
 ## **Additional actions possible on iteration count**
 
