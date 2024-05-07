@@ -29,7 +29,10 @@ contextual_links:
   url: "#desktop-windows"
 - type: link
   name: "Rest API Application"
-  url: "#rest-api-application"  
+  url: "#rest-api-application" 
+- type: link
+  name: "Adding Prerequisite Test Case"
+  url: "#adding-prerequisite-test-case" 
 ---
 
 ---
@@ -167,3 +170,15 @@ In the Ad-hoc run layover, provide the following configuration settings for a Re
 
 ---
 
+## **Adding Prerequisite Test Case**
+
+You can add a prerequisite test case for any test case while executing the test case as dry runs. Follow the steps below to add a prerequisite test case for dry runs. 
+
+1. Navigate to **Create Tests > Test Cases**, select a test case for which you want to add prerequisites and click on **Test Case Settings**.
+   ![Test Case Settings](https://s3.amazonaws.com/static-docs.testsigma.com/new_images/projects/applications/tcsfapr.png)
+
+2. Select the prerequisite test case from the dropdown.
+   ![Prereq TC](https://s3.amazonaws.com/static-docs.testsigma.com/new_images/projects/applications/sprtcitcs.png)
+
+3. For **Dry Runs**, the test case will be executed after the prerequisite test case.  You can check the **Execution sequence** on the test case results page. 
+   ![Dry Runs](https://s3.amazonaws.com/static-docs.testsigma.com/new_images/projects/applications/vprtcie.png)
