@@ -667,5 +667,8 @@
   },
   "page-loading-issues":{
     "/docs/troubleshooting/web-apps/page-loading-issues/": "Page Loading Issues"
+  },
+  "locator-precedence":{
+    "/docs/elements/locator-precedence/": "Locator Precedence (Web Apps)"
   }
 }
