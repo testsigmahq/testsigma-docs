@@ -36,7 +36,7 @@ In a Web project in Testsigma, you can selectively capture elements one at a tim
 
 ## **Prerequisites**
 
-- You should know how to create an web [project](https://testsigma.com/docs/projects/overview/) in Testsigma.
+- You should know how to create a web [project](https://testsigma.com/docs/projects/overview/) in Testsigma.
 
 - You should have [Testsigma chrome extension installed](https://testsigma.com/docs/test-step-recorder/install-chrome-extension/). 
 

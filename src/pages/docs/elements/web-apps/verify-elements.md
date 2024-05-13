@@ -23,6 +23,7 @@ Verifying elements in Chrome DevTools during testing ensures that the right elem
 ---
 
 ## **Steps to verify elements in Chrome DevTools**
+
 1. Open the Chrome DevTools panel with **Ctrl+Shift+C** and select the **Elements** tab. 
 2. Use the mouse pointer to hover over the element you want to verify. As the pointer move, the corresponding HTML code will be highlighted in the **Elements** panel.
 3. Once you have found the element you want to verify, you can inspect its properties in the **Elements** panel.

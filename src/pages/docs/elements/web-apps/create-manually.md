@@ -36,7 +36,7 @@ For dynamic websites such as E-commerce websites, the elements might be dynamic 
 
 ## **Prerequisites**
 
-- You should know how to create an android [project](https://testsigma.com/docs/projects/overview/) in Testsigma.
+- You should know how to create a [project](https://testsigma.com/docs/projects/overview/) in Testsigma.
 
 - A Web app to test.
 
