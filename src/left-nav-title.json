@@ -670,5 +670,8 @@
   },
   "locator-precedence":{
     "/docs/elements/locator-precedence/": "Locator Precedence (Web Apps)"
+  },
+  "error-handling": {
+    "/docs/salesforce-testing/error-handling/": "Error Handling On Metadata Refresh"
   }
 }

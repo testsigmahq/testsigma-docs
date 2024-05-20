@@ -21,6 +21,9 @@ contextual_links:
 - type: link
   name: "Steps to Refresh Metadata Connection"
   url: "#steps-to-refresh-metadata-connection"
+- type: link
+  name: "Activity Logs"
+  url: "#activity-logs"
 ---
 
 ---
@@ -39,10 +42,10 @@ In Testsigma, you can create a Salesforce application and establish a Metadata c
 ## **Steps to Create Metadata Connection**
 
 1. Click on **Create metadata connection** on **Salesforce connections page**. 
-![Create Metadata](https://s3.amazonaws.com/static-docs.testsigma.com/new_images/projects/applications/sfmdcm.png)
+   ![Create Metadata](https://s3.amazonaws.com/static-docs.testsigma.com/new_images/projects/applications/sfmdcm.png)
 
 2. This will open the **Metadata connection** prompt. 
-![Prompt](https://s3.amazonaws.com/static-docs.testsigma.com/new_images/projects/applications/sfmaprm.png)
+   ![Prompt](https://s3.amazonaws.com/static-docs.testsigma.com/new_images/projects/applications/sfmaprm.png)
 
 3. On **Metadata connection** prompt, 
     - Enter **Connection name**, which is generally the user role you connect through, e.g., **Admin**.
@@ -78,20 +81,20 @@ There are two ways to Authenticate:
       ![Wait](https://s3.amazonaws.com/static-docs.testsigma.com/new_images/projects/applications/sfmdsipg.png)
 
 4. Once Metadata sync is successful, you can create test cases by clicking **Create Test Case**.
-![Create Tests](https://s3.amazonaws.com/static-docs.testsigma.com/new_images/projects/applications/sfmdctc.png)
+   ![Create Tests](https://s3.amazonaws.com/static-docs.testsigma.com/new_images/projects/applications/sfmdctc.png)
 
 ---
 
 ## **Steps to Edit Metadata Connection**
 
 1. From the **Dashboard**, click on **SF Connections**.
-![Edit Metadata](https://s3.amazonaws.com/static-docs.testsigma.com/new_images/projects/applications/sfmdedt.png)
+   ![Edit Metadata](https://s3.amazonaws.com/static-docs.testsigma.com/new_images/projects/applications/sfmdedt.png)
 
 2. In the **Metadata connection** section, hover over the connection, click on the kebab menu, and choose **Edit connection** from the dropdown menu. 
-![Edit Connection](https://s3.amazonaws.com/static-docs.testsigma.com/new_images/projects/applications/sfmdec.png)
+   ![Edit Connection](https://s3.amazonaws.com/static-docs.testsigma.com/new_images/projects/applications/sfmdec.png)
 
 3. On the **Metadata connection** prompt, make the necessary changes and click on **Authorise & Connect**.
-![Metadata Connection](https://s3.amazonaws.com/static-docs.testsigma.com/new_images/projects/applications/sfmdecetd.png)
+   ![Metadata Connection](https://s3.amazonaws.com/static-docs.testsigma.com/new_images/projects/applications/sfmdecetd.png)
 
 [[info | **NOTE**:]]
 | You can not update the Metadata connection with a different environment.
@@ -103,9 +106,23 @@ There are two ways to Authenticate:
 To refresh metadata, you have two options:
 
 1. From the **Dashboard**, go to **SF Connections** and click on **Refresh Metadata**. 
-![Refresh](https://s3.amazonaws.com/static-docs.testsigma.com/new_images/projects/applications/sfmdref1.png)
+   ![Refresh](https://s3.amazonaws.com/static-docs.testsigma.com/new_images/projects/applications/sfmdref1.png)
 
 2. Click on **Refresh Metadata** directly from the dashboard.
-![Refresh](https://s3.amazonaws.com/static-docs.testsigma.com/new_images/projects/applications/sfmdref2.png)
+   ![Refresh](https://s3.amazonaws.com/static-docs.testsigma.com/new_images/projects/applications/sfmdref2.png)
+
+---
+
+## **Activity Logs**
+
+The activity log tab on the connection details page displays the information about all metadata sync triggers status, and the start time of metadata edit/refresh triggers. This article discusses the activity logs in the Salesforce metadata connection.
+
+### **Steps to View Metadata Activity Logs**
+
+1. Navigate to **SF connections** and click on **Activity log**. This will open the **Activity log** dialog. 
+   ![Activity Log](https://s3.amazonaws.com/static-docs.testsigma.com/new_images/projects/applications/acvtlognav.png)
+
+2. The **Activity log** dialog displays information regarding past metadata sync triggers. 
+   ![Logs](https://s3.amazonaws.com/static-docs.testsigma.com/new_images/projects/applications/logsdisplay.png)
 
 ---
