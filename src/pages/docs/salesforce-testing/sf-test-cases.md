@@ -80,6 +80,13 @@ Here, we open the edit form with the record ID stored in the variable in the pre
 5. Click on **Record**. This will open a Chrome window along with the test recorder. All the steps will be executed up to that point, and you can start recording UI interactions by clicking on the play icon. 
 ![Record](https://s3.amazonaws.com/static-docs.testsigma.com/new_images/projects/applications/sftccor.png)
 
+    [[info | **NOTE**:]]
+    | When recording test steps through the debugger, if you switch to other organizations for which metadata is not synced, the debugger treats the application as any other web application. A warning will notify you of this, and you can continue recording test steps or elements similar to web applications by clicking **Okay, Got it**.
+    |
+    |![Warning](https://s3.amazonaws.com/static-docs.testsigma.com/new_images/projects/applications/alrtonorgswtch.png)
+
+
+
 6. Perform the actions and click on **Stop Recording**. This will open the **Stop Web Debugger** warning prompt. 
 ![Stop Recording](https://s3.amazonaws.com/static-docs.testsigma.com/new_images/projects/applications/sftcdbp.png)
 
