@@ -27,4 +27,10 @@ In such cases, it is recommended to use only the **&lt;id_value&gt;** portion of
 
 Testsigma simplifies this process by automatically appending the appropriate package name, from the test app selected, to the resource ID.
 
+**One more example:** Testsigma shows the attributes of selected elements on the login page below with ID values only.
+
+![Example](https://s3.amazonaws.com/static-docs.testsigma.com/new_images/projects/applications/dynlocandroid.png)
+
+*For more information, refer to [create dynamic elements using parameter](https://testsigma.com/docs/elements/dynamic-elements/with-parameter-test-data/#creating-dynamic-elements-using-parameter).*
+
 ---
