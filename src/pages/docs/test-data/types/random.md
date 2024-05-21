@@ -28,14 +28,15 @@ Many test cases need random inputs such as inputting an account number, ID numbe
 ---
 
 ## **Using Random Test Data**
+
 You can use the Random Test Data feature in your test cases by specifying a number ranging from 1 to 256. This will generate a random alphanumeric string with a length as specified by the number during the execution of the test case.
 
-For example, you have a test case that requires entering an account number, and you want to generate a random 10-digit account number for every execution. You can achieve this using the format ~|10| within your Test Case.
+For example, you have a test case that requires entering a passport number, and you want to generate a random 9-digit passport number for every execution. You can achieve this using Random test data type in your Test Case.
 
-![Random Test Data](https://s3.amazonaws.com/static-docs.testsigma.com/new_images/projects/applications/RTDTDT.png)
+![Random Test Data](https://s3.amazonaws.com/static-docs.testsigma.com/new_images/projects/applications/rndmtdtype.png)
 
 Here is a quick GIF demonstrating how to add Random Data to a Test Case in Testsigma.
-![Random Test Data](https://s3.amazonaws.com/static-docs.testsigma.com/new_images/projects/applications/rdtdgif.gif)
+![Random Test Data](https://s3.amazonaws.com/static-docs.testsigma.com/new_images/projects/applications/RandomTestData.gif)
 
 
 [[info | **NOTE**:]]
