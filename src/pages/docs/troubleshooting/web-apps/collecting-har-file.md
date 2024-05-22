@@ -2,7 +2,7 @@
 title: "Collecting HAR File for Support Tickets"
 metadesc: "A HAR file will help in identifying and diagnosing product performance or latency issues in the application. This article discusses the collecting HAR file"
 noindex: false
-order: 23.7
+order: 23.55
 page_id: "Collecting HAR File"
 warning: false
 contextual_links:

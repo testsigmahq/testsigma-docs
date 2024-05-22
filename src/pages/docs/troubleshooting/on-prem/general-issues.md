@@ -1,6 +1,6 @@
 ---
 title: "Troubleshooting General Issues"
-order: 23.52
+order: 23.72
 page_id: "Troubleshooting Issues"
 metadesc: "This article discusses how to troubleshoot some general issues with respect to On-prem setup. Quick troubleshooting solutions for some on-prem general issues"
 noindex: false

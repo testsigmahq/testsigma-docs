@@ -1,25 +1,19 @@
 ---
-title: "Unable to create new test session due to unexpected error"
+title: "Unable to Create New Test Session"
 metadesc: "Learn what to do if you cannot create a new test session due to an unexpected error. Follow these troubleshooting steps to continue your testing sessions."
 noindex: false
-order: 23.20
+order: 23.32
 page_id: "Unable to create new test session due to unexpected error"
 warning: false
 ---
-<head>
-<style>
-ul.disc {
-  list-style-type: disc;
-}
-ul.circle {
-  list-style-type: circle;
-}
-</style>
-</head>
 
-<br><p>In this article, we will take you through a series of troubleshooting steps to try and help you figure out the cause of the error <em>Unable to create a new test session due to unexpected failure- Error while creating driver</em>.</p>
+---
 
-<h2><strong>Troubleshooting steps</strong></h2>
+In this article, we will take you through a series of troubleshooting steps to try and help you figure out the cause of the error *Unable to create a new test session due to unexpected failure - Error while creating driver*.
+
+---
+
+<h2><strong>Troubleshooting Steps</strong></h2>
 <ol>
 <li>Make sure the agent and device are in an active state.
 <ul class="disc">
@@ -34,3 +28,5 @@ ul.circle {
 <li>Rerun the test case.</li>
 <li>After following the above steps, if you see the same error message reach out to Testsigma support with the test logs.</li>
 </ol>
+
+---

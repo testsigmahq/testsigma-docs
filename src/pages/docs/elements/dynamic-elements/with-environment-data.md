@@ -1,6 +1,6 @@
 ---
-title: "Using Environment Test Data for Dynamic locators"
-metadesc: "Leanr how to use Environment parameters for creating dynamic locator values in Elements. Automate the testing of dynamic elements in Testsigma application."
+title: "Using Environment Test Data for Dynamic Locators"
+metadesc: "Learn how to use Environment parameters for creating dynamic locator values in Elements. Automate the testing of dynamic elements in Testsigma application."
 noindex: false
 order: 6.83
 page_id: "Using Environment Test Data for Dynamic locators"
@@ -15,18 +15,17 @@ contextual_links:
 ---
 
 ---
-In Testsigma, one of the ways we can automate the testing of dynamic elements is by using parameterized XPath.
 
-We assume you are familiar with the different types of Test Data used in Testsigma. If not, please refer to [Different Test Data Types in Testsigma](https://testsigma.com/docs/test-data/types/overview/).
+In Testsigma, one of the ways we can automate the testing of dynamic elements is by using parameterized XPath. We assume you are familiar with the different types of Test Data used in Testsigma. If not, please refer to [different test data types in Testsigma](https://testsigma.com/docs/test-data/types/overview/).
 
-We can use Environment Parameters to parameterize the locator similar to how we use Test Data Profiles. Learn more about [using Parameter Test Data to create dynamic locators](https://testsigma.com/docs/elements/dynamic-elements/with-parameter-test-data/).
+We can use Environment Parameters to parameterize the locator similar to how we use test data profiles. Learn more about [using Parameter Test Data to create dynamic locators](https://testsigma.com/docs/elements/dynamic-elements/with-parameter-test-data/).
 
 In this article, we will be outlining how to create dynamic locators using Environment parameters.
 
-<br>
-
 ---
-##**Using Environment Test Data to parameterize locators**
+
+## **Using Environment Test Data to parameterize locators**
+
 Suppose we need to locate the below element with the username text i.e  ‘admin’:
 ![Dropdown on profile avatar icon showing logout link and profile name](https://docs.testsigma.com/images/with-environment-data/profile-icon-dropdown-links-username.png)
 
@@ -54,3 +53,4 @@ With the above dynamic locator, the locator value would be dynamically updated a
 | QA  | //button[text()=’qa-admin’]  | 
 
 
+---

@@ -2,7 +2,7 @@
 title: "Unable to capture dropdown element"
 metadesc: " What to do if you are not able to capture drop-down element."
 noindex: false
-order: 23.14
+order: 23.12
 page_id: "Unable to capture dropdown element"
 warning: false
 contextual_links:
@@ -21,8 +21,9 @@ contextual_links:
 
 ---
 
-A dropdown list is a commonly used graphical control element that allows users to select a value from the list. Many modern day applications implement dropdowns using **\<select>**,**\<div>**, **\<a>**, or **\<span>** .
-This article discusses on how to handle dropdowns using NLP's in Testsigma.
+A dropdown list is a commonly used graphical control element that allows users to select a value from the list. Many modern day applications implement dropdowns using **\<select>**,**\<div>**, **\<a>**, or **\<span>**. This article discusses on how to handle dropdowns using NLP's in Testsigma.
+
+---
 
 ## **Dropdowns using \<select> tag**
 
@@ -99,10 +100,15 @@ Use any of the below NLP's for dropdown associated with **\<div>**, **\<a>**, or
 - *Click on element*
 -*Click on element using javascript executor*
 
+---
+
 ## **Verify if a dropdown has a select tag**
 
 1.	Right-click on the element and select **Inspect** from the drop-down list.![inspect element](https://s3.amazonaws.com/static-docs.testsigma.com/new_images/troubleshooting/NLPs/unable-to-capture-select-element/inspect_drop_down.png)
-2.	Check if the element is attached to the  \<select> tag as shown in the below screen shot.![select tag](https://s3.amazonaws.com/static-docs.testsigma.com/new_images/troubleshooting/NLPs/unable-to-capture-select-element/select_tag.png)<br>
-If the element is attached to the \<select> tag use any of the following suitable NLP’s explained in the section [Dropdowns using \<select> tag](#dropdowns-using-select-tag).<br>
-If the element uses any of the non \<select> dropdown use cases, use any of the suitable NLPs explained in the section [Dropdowns using non \<select> tag](#dropdowns-using-non-select-tag). 
+2.	Check if the element is attached to the  \<select> tag as shown in the below screen shot.![select tag](https://s3.amazonaws.com/static-docs.testsigma.com/new_images/troubleshooting/NLPs/unable-to-capture-select-element/select_tag.png)<br><br>
 
+If the element is attached to the \<select> tag use any of the following suitable NLP’s explained in the section [dropdowns using \<select> tag](#dropdowns-using-select-tag).<br><br>
+If the element uses any of the non \<select> dropdown use cases, use any of the suitable NLPs explained in the section [dropdowns using non \<select> tag](#dropdowns-using-non-select-tag). 
+
+
+---

@@ -40,6 +40,7 @@ Elements can be created from the attributes/properties of an HTML Element, using
 <br>
 
 ---
+
 ## **1. Using Unique Single Element Attributes**
 
 You can use any of the element attributes such as ID, Name, Class Name, etc if their value is unique. ID locator is the most preferred and recommended single attribute.
