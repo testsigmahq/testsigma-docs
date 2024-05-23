@@ -67,26 +67,13 @@ Here is a quick gif demonstrating how to add Unicode in RESTful API.
 
 ## **Invoke SOAP APIs**
 
-In Testsigma, users can also invoke SOAP APIs by adding an API test step in the test case. Follow the steps below to create SOAP APIs in test steps.
+In Testsigma, users can invoke SOAP APIs by adding an API test step in the test case. Follow the steps below to create SOAP APIs in test steps.
 
 ### **Steps to Invoke SOAP APIs**
 
-1. From the **Dashboard**, navigate to **Create Tests > Test Cases**, create a test case by clicking on **Create Test Case**. 
-![Test Cases](https://s3.amazonaws.com/static-docs.testsigma.com/new_images/projects/applications/sapinav.png)
-
-
-2. Select the option on the left side of the test step, and then choose **API** from the panel.
-![API Step](https://s3.amazonaws.com/static-docs.testsigma.com/new_images/projects/applications/sapiapits.png)
-
-
-3. Click on the test step to create the API step. 
-![Add API Test Step](https://s3.amazonaws.com/static-docs.testsigma.com/new_images/projects/applications/sapichtaapi.png)
-
-<br>
-
 <details style="border: 1px solid gray; border-radius: 4px; padding: 0.5em; margin: 0.5em 0; background-color: #f2f2f2;">
   <summary style="color: darkgreen; font-weight: bold; list-style: none; font-size: 1em; cursor: pointer;" onclick="if(this.parentNode.open) this.parentNode.style.border='1px solid gray'; else this.parentNode.style.border='none';">
-    <span style="margin-right: 5px;">📘</span>Example SOAP API:
+    <span style="margin-right: 5px;">📘</span>Click here to read an example SOAP API:
   </summary><br>
   Let's retrieve a list of countries using SOAP API.
   <br><br>
@@ -133,15 +120,16 @@ function copyToClipboard(elementId) {
 
 <br>
 
-4. Enter the above example details in the API test step. 
+1. Enter the above example details in the API test step. 
 ![API Details](https://s3.amazonaws.com/static-docs.testsigma.com/new_images/projects/applications/sapidetails.png)
 
+   *For more information, refer to [API test steps](https://testsigma.com/docs/test-cases/step-types/rest-api/).*
 
-5. Click on **Send** and verify the **Response**. 
+1. Click on **Send** and verify the **Response**. 
 ![Send Request](https://s3.amazonaws.com/static-docs.testsigma.com/new_images/projects/applications/sapisend.png)
 
 
-6. Click on **Create** to save the test step. 
+3. Click on **Create** to save the test step. 
 ![Create API](https://s3.amazonaws.com/static-docs.testsigma.com/new_images/projects/applications/sapicreate.png)
 
 
