@@ -1,7 +1,7 @@
 ---
 title: "Verifications"
 page_title: "Verifications Request"
-metadesc: "Check whether the Rest API is functioning correctly by adding verification and assertions. Learn about Verifications Request in Testsigma"
+metadesc: "Check whether the Rest API is functioning correctly by adding verification and assertions. Learn more about Verifications Request in Testsigma"
 noindex: false
 order: 4.97
 page_id: "Verifications Request"
@@ -29,6 +29,7 @@ contextual_links:
 In Testsigma, you can check whether the Rest API is functioning correctly by adding verification and assertions. This involves testing the API endpoints, the data returned, and the response codes. Verification also includes validating the API against the requirements and ensuring that the API is secure. For verification, you need to add an API request and click **Create** to check the response. At the bottom of the screen, you can see the response and add verification. There are some steps to adding verification.
 
 ---
+
 ## **Verification Types**
 
 These types of verification are available for JSON and XML:
@@ -58,17 +59,27 @@ You can verify the response body in three ways.
 
 2. Click **Outline**, then select **Add verification** to upload it directly into **Verification** tab.
 
-![Add Verification in Verification Tab](https://s3.amazonaws.com/static-docs.testsigma.com/new_images/projects/overview/responsebody_verification_restapi.gif)
+   ![Add Verification in Verification Tab](https://s3.amazonaws.com/static-docs.testsigma.com/new_images/projects/overview/responsebody_verification_restapi.gif)
 
 [[info | NOTE:]]
 | - Navigate to **Verification** > **Response Body** tab, and click **Add Verification** to add the field manually.
 | - Validate values of a key received in a response body.
 
+
+### **Add Verification in Response Body (HTML)**
+
+1. Send an **API Request**. The **Response Body** for your request will appear at the bottom of the screen.
+
+2. Hover over the HTML lines in the **Response Body** and select the attribute to add for verification. This action automatically adds the attribute and its value to the **Verifications** tab.
+
+   ![Verificatications](https://s3.amazonaws.com/static-docs.testsigma.com/new_images/projects/applications/VerificationHTML.gif)
+
+
 ### **Copy Response from Response body**
 
 Click **copy response**. It will copy to the **clipboard**, paste the **JSON** or **XPATH** path field, and select the **verification type** from the drop-down list. Enter an **expected value** by using plain text or **test data types**. Click **Create** to add verification.
 
-![Copy Response in Verification](https://s3.amazonaws.com/static-docs.testsigma.com/new_images/projects/overview/copyresponse_verification_restapi.gif)
+   ![Copy Response in Verification](https://s3.amazonaws.com/static-docs.testsigma.com/new_images/projects/overview/copyresponse_verification_restapi.gif)
 
 ### **Verify Response body**
 
@@ -89,12 +100,12 @@ The following are two ways to verify the response body.
 
 Headers Verification in RESTful API Testing is the process of verifying that the response headers returned by the API are as expected. This includes verifying the status code, content type, and other headers that are returned. It is important to ensure that the headers are correct, as they can affect how the API is used and how the response is interpreted.
 
-### **Add Verification in Headers tab**
+### **Add Verification in Headers Tab**
 
 Click **Add Verification** in the **Headers** tab. Enter the **JSON path**, enter the **expected value** in the field, and you can enter **test data types** in the Value field. Choose the **verification type** by opening the drop-down list. Click **Create** to add verification.
 ![Add verification in Headers](https://s3.amazonaws.com/static-docs.testsigma.com/new_images/projects/overview/headersadd_headers_restapi.png)
 
-### **Mousehover to Response field**
+### **Mousehover to Response Field**
 
 At the bottom of the page, click the **Headers** tab, mouse over to the variable, and click **Add Verification**; it will update in the Verification **headers** tab.
 ![Mousehover and Click Add Verification](https://s3.amazonaws.com/static-docs.testsigma.com/new_images/projects/overview/headersadd_tabheaders_restapi.png)
@@ -105,12 +116,12 @@ At the bottom of the page, click the **Headers** tab, mouse over to the variable
 
 Status verification in RESTful API testing is the process of verifying that the response from the API is in the expected format and contains the expected data. This is done by comparing the response from the API to the expected response. 
 
-### **Add Verification in Status tab**
+### **Add Verification in Status Tab**
 
 Click **Add Verification** in the **Status tab**. Select the **key name** by opening the drop-down list, enter the **expected value** in the field, and you can enter **test data types** in the Value field. Select the **verification type** by opening the drop-down list. 
 ![Add Verification in Status Tab](https://s3.amazonaws.com/static-docs.testsigma.com/new_images/projects/overview/status_addverfication_restapi.png)
 
-### **Mousehover to Response field**
+### **Mousehover to Response Field**
 
 At the bottom of the page, click the **Status tab**, mouse over to the variable, and click **Add Verification**; it will update in the Verification Status tab.
 
