@@ -16,6 +16,9 @@ contextual_links:
   name: "Create Test Case"
   url: "#create-test-case"
 - type: link
+  name: "Test Step Settings"
+  url: "#test-step-settings"
+- type: link
   name: "Test Case - Advanced Options"
   url: "#test-case----advanced-options"
 - type: link
@@ -53,6 +56,28 @@ Ensure you create a [project](https://testsigma.com/docs/projects/overview/) bef
 
 [[info | NOTE:]]
 | You should install the Testsigma test step recorder extension to record the test steps for a web or mobile web app project. Check [here](https://testsigma.com/docs/test-step-recorder/install-chrome-extension/) for instructions on how to install it.
+
+---
+
+## **Test Step Settings**
+
+You can access the test step settings by clicking the kebab menu for any test step.
+
+**1. Max. wait time (<120 secs.)**: Specify the maximum wait time for the test step to execute, which should be less than 120 seconds.
+
+**2. Retries on step failure (<=10)**: Specify the number of retries on test step failure, which should not exceed 10 retries.
+
+**3. Screenshot capture**: Specify one of the following options for screenshot capture at the test step level:
+
+- **Always**: Captures a screenshot irrespective of the test step result.
+
+- **Only on step failure**: Captures a screenshot only if the test step fails.
+
+- **No screenshot required**: Does not capture a screenshot.
+
+Here’s a quick GIF demonstrating how to access the test step settings. 
+
+![Test Step Settings](https://s3.amazonaws.com/static-docs.testsigma.com/new_images/projects/applications/teststepsettings.gif)
 
 ---
 
