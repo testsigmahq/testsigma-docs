@@ -3,6 +3,7 @@
 Testsigma docs are built using [Gatsby](https://www.gatsbyjs.com/) and deployed to [https://testsigma.com/docs.](https://testsigma.com/docs)
 
 ## **Getting started with Testsigma Docs**
+
 Testsigma documentation helps you from the basics to more specific tutorials & how-to’s. This project contains everything you need to know about Testsigma by getting your fundamentals right.
 
 We are working hard to keep our documentation up to date. However, we might not be able to cover everything. If you think we need to include something here, create an issue [here](https://github.com/testsigmahq/testsigma-docs/issues)! Alternatively, you can drop a line at community@testsigma.com, and we’ll work on it with you.
