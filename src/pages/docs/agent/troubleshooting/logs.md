@@ -1,6 +1,6 @@
 ---
-title: "Fetching Agent logs"
-metadesc: "How to obtain the logs files from the Testsigma Agent to troubleshoot the errors. These files help you resolve Execution issues quickly in Testsigma App."
+title: "Agent Logs"
+metadesc: "How to fetach the logs files from the Testsigma Agent to troubleshoot the errors. These files help you resolve execution issues quickly in Testsigma App."
 noindex: false
 order: 11.92
 page_id: "Fetching Agent logs"
@@ -10,6 +10,9 @@ contextual_links:
 - type: section
   name: "Contents"
 - type: link
+  name: "Send the Logs Automatically"
+  url: "#send-the-logs-automatically"
+- type: link
   name: "Send the Logs manually"
   url: "#send-the-logs-manually"
 
@@ -17,15 +20,32 @@ contextual_links:
 
 ---
 
-To execute Testsigma tests on your local machines, a small utility program named Testsigma Agent needs to be on each local machine. In this article, we will discuss how to get the log files for the Testsigma Agent. Providing these files to the Testsigma Support Team will help us resolve Execution issues quickly.
+To execute Testsigma tests on your local machines, a small utility program named Testsigma agent needs to be on each local machine. In this article, we will discuss how to send the log files of the Testsigma agent. Providing these files to the Testsigma Support Team will help us resolve execution issues quickly.
 
 
 ---
 
+## **Send the Logs Automatically**
+
+1. From the dashboard, go to **Agents**.
+
+2. Hover over the agent of which you want to send logs, and click **Report Agent**.
+
+3. In the warning dialog, provide a description of the problem you're facing with the agent and click **Report**.
+
+4. The logs will be reported to Testsigma support automatically.
+
+
+Here’s a quick GIF demonstrating how to send the logs automatically. 
+
+![Send Logs Automatically](https://s3.amazonaws.com/static-docs.testsigma.com/new_images/projects/applications/agentlogsauto.gif)
+
+
+---
 
 ## **Send the Logs manually**
 
-You can find the Testsigma Agent logs folder for your machine as mentioned below:
+You can find the Testsigma agent logs folder for your machine as mentioned below:
 
 **Location of Testsigma Agent Configuration/Logs**
 
@@ -42,7 +62,17 @@ The Testsigma Configuration/Log files are located at the following locations dep
 
 There would be a logs folder in the above directory. Inside the **logs** directory, you can find a number of files such as agent.log, Testengine.log e.t.c.
 
-Please zip the **Agent** folder mentioned above and attach them in a mail to support@testsigma.com describing the issue.
+1. Please zip the **Agent** folder mentioned above.
+
+2. Once you have the agent logs ZIP file, hover the agent of which you want to send logs and click **Report Agent**.
+
+3. Click **Upload manually**. This will open a warning dialog. 
+
+4. In the warning dialog, provide a description of the problem you're facing with the agent, attach agent logs ZIP file click **Report**.
+
+Here’s a quick GIF demonstrating how to send the logs manually. 
+
+![Agent Logs Manually](https://s3.amazonaws.com/static-docs.testsigma.com/new_images/projects/applications/agentlogsmanual.gif)
 
 ---
 
