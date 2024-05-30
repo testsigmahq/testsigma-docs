@@ -39,7 +39,7 @@ Testsigma lets you push agents to an obsolete state, to hide them from the agent
 4. The agent will move to the obsolete state.
 
 [[info | **NOTE**:]]
-| - You can restore an obsolete agent by navigating to Agents > Obsolete Agent and clicking Restore.s
+| - You can restore an obsolete agent by navigating to **Agents > Obsolete Agent** and clicking Restore.
 | - An agent in the obsolete state will not allow the user to execute tests.
 
 
