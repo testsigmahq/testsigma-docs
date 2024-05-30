@@ -166,5 +166,4 @@ Login to https://local.testsigmaos.com/ui and follow the steps mentioned here([S
 5. [How to automate tests for Android Apps using local devices](https://testsigma.com/tutorials/test-cases/mobile-apps/build-tests-using-local-android-devices/)
 6. [How to automate tests for iOS Apps using local devices](https://testsigma.com/tutorials/test-cases/mobile-apps/build-tests-using-local-ios-devices/)
 
-
 ---
