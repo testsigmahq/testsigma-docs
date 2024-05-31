@@ -1,5 +1,5 @@
 ---
-title: "Get Project wide information"
+title: "Get Project Wide Information"
 page_title: "Get information for your Testsigma Project"
 metadesc: "Learn how to get detailed information for your Testsigma Project - users, suites, tags, requirement, and testcase priority using APIs"
 noindex: false
