@@ -1,9 +1,9 @@
 ---
-title: "Schedule, Update and Delete a test plan using API"
+title: "Schedule, Update & Delete a Test Plan Using API"
 page_title: "Schedule a test plan using API"
 metadesc: "With Testsigma, you can create, update, and delete a schedule for test plan using API. Learn how to schedule, update and delete a test plan using REST API"
 noindex: false
-order: 21.64
+order: 21.84
 page_id: "Schedule, Update and Delete a test plan using API"
 warning: false
 contextual_links:

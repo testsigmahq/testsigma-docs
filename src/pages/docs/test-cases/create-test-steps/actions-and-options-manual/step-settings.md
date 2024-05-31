@@ -1,5 +1,5 @@
 ---
-title: "Test Step Settings"
+title: "Test Step Settings for Test Cases"
 page_title: "Test Step Settings | Testsigma Documentation"
 metadesc: "Configure wait times, retries, visuals, and other settings for efficient test automation in Testsigma using Test Step Settings and customise test execution."
 noindex: false
@@ -22,7 +22,7 @@ contextual_links:
 
 ---
 
-In Testsigma, you can control how each test step behaves in your test cases by using test step settings. These settings allow you to decide how your test cases run and show results. You can also use them to set step conditions and attempt them again if required.
+Controlling the behavior of each test step can be important to enhance your test coverage. Test Step Settings in Testsigma helps you decide how test cases run and show their results. With these settings, you can define step conditions, determine actions to take when test steps fail, set no of retries if necessary, and more. This enhanced control over the test step also improves the reliability of test results.
 
 ---
 
@@ -39,21 +39,25 @@ In Testsigma, you can control how each test step behaves in your test cases by u
 
 ## **Use Test Step Settings**
 
-To use **test step settings**, click either the **Settings** icon or the **ellipsis** icon on a particular test step. Then, choose **Step Settings** from the list that appears to open the **Test Step Settings** panel on the test case page. 
+To access **Test Step Settings**, click **kebab menu** on any test step, and choose **Step Settings** from the list. 
 
 Below is a summary of the available settings:
 
 | **Settings** | **Description** |
 |:------------------|:-------------|
-|**Max wait time**|Set the Maximum Wait Time limit for completing the test step. It will fail if the test step takes longer than the specified time (up to a maximum of 120 seconds).|
-|**No. of Retries on Step Failure**|Select the **Number of Retries on Step Failure** from the dropdown menu (up to 10 times) to decide how many times you want to attempt to execute the test step again if it fails.|
+|**Max. wait time (<120 secs)**|Set the maximum wait time limit for completing the test step. It will fail if the test step takes longer than the specified time (up to a maximum of 120 seconds).|
+|**Retries on step failure (<=10)**|Give the number of retries on step failure to decide how many times you want to attempt to execute the test step if it fails.|
+|**Screenshot capture**|Specify one of the following options for screenshot capture at the step level:<br><ul><li><strong>Always</strong>: Captures a screenshot irrespective of the step result.</li><li><strong>Only on step failure</strong>: Captures a screenshot only if the step fails.</li><li><strong>No screenshot required</strong>: Does not capture a screenshot.</li><li>**Use step level settings**: This option leaves the settings the same &nbsp;&nbsp; as saved at the test step level. (Only available during execution)</li></ul>|
 |**Pre-Requisite**|Select a prerequisite step from the list of available steps in the same test case. This step must be successfully done before the current step runs.|
 |**Stop Test Case execution on Test Step**|It allows you to terminate test execution if the test fails at any step. By default, this option is checked, and test case execution will stop if the test step fails.|
 |**Ignore this step result in Test Case Result**|It allows you to exclude the outcome of a particular step from the overall test result.|
 |**Disable Step**|It allows you to capture and compare the visual appearance of an application's user interface between different builds or versions.|
 |**Enable Visual Testing for the Step**|You can disable the test step by choosing this option, and the test step will not run. By default, this option is unchecked.|
+|**Highlight element in screenshot**|Choose this option to highlight elements on the product screen for each step. Contact Testsigma support to enable this feature. <br> <br> Navigation: **Settings > Preferences > Highlight element in screenshot** <br> |
 
-Here is a quick GIF demonstrating the above workflow: ![Test Step Settings](https://s3.amazonaws.com/static-docs.testsigma.com/new_images/projects/applications/teststep_setting.gif)
+Here’s a quick GIF demonstrating how to access & update the test step settings. 
+
+![Test Step Settings](https://s3.amazonaws.com/static-docs.testsigma.com/new_images/projects/applications/teststepsettingsnew.gif)
 
 ---
 

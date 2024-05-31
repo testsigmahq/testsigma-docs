@@ -1,9 +1,9 @@
 ---
-title: "Update Test Case results using API"
+title: "Update Test Case Results Using API"
 page_title: "Update Test Case results using API"
 metadesc: "This article discusses in detail on how to update Test Case results as Passed, Failed, and Not Executed using API using REST API in Testsigma."
 noindex: false
-order: 21.65
+order: 21.85
 page_id: "Update Test Case results using API"
 warning: false
 ---
