@@ -674,5 +674,8 @@
   "error-handling": {
     "/docs/salesforce-testing/error-handling/": "Error Handling On Metadata Refresh"
   },
-  "test-results-at-all-levels": { "/docs/api/test-results-at-all-levels/": "Fetch Test Results (All Levels)" }
+  "test-results-at-all-levels": { "/docs/api/test-results-at-all-levels/": "Fetch Test Results (All Levels)" },
+  "project-and-application": {"/docs/windows-automation/project-and-application/": "Windows (Adv) Project & Application"},
+  "object-learning": {"/docs/windows-automation/object-learning": "Object Learning (Using UFT One)"},
+  "import-tsrx-files": { "/docs/windows-automation/import-tsrx-files/": "Importing/Updating TSRx Files" }
 }
