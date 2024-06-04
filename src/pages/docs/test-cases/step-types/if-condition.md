@@ -98,7 +98,7 @@ We can also add the **If Condition** while creating test steps using Testsigmaâ€
 5. Record the steps and click on **Done**.
 ![Done](https://s3.amazonaws.com/static-docs.testsigma.com/new_images/projects/applications/DoneFL.png)
 
-*For more information on creating steps using recorder, refer to [recording test steps](https://testsigma.com/docs/test-cases/create-steps-recorder/web-apps/overview/).*
+*For more information on creating steps using recorder, refer to [recording test steps](https://testsigma.com/docs/test-cases/create-test-steps/overview/#creating-test-steps-using-test-recorder).*
 
 Hereâ€™s a quick GIF demonstrating how to add If conditions for web apps using recorder. 
 ![Conditional IF for Web & Mobile Web](https://s3.amazonaws.com/static-docs.testsigma.com/new_images/projects/applications/ConditionalIFweb.gif)
