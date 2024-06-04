@@ -3,7 +3,7 @@ title: "Testsigma Automation Standards and Best Practices"
 page_title: "Enhance Efficiency with Automated Testing Best Practices"
 metadesc: "Explore best practices for enhancing efficiency and reliability in automated testing through modular design, dynamic waits, and data-driven testing."
 noindex: false
-order: 29.1
+order: 30.1
 page_id: "Best Practices to follow Testsigma Automation Standards"
 warning: false
 contextual_links:

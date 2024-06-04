@@ -85,7 +85,7 @@ There are two ways to Authenticate:
     - Wait until the sync is complete. This will take some time.
       ![Wait](https://s3.amazonaws.com/static-docs.testsigma.com/new_images/projects/applications/sfmdsipg.png)
 
-4. Once Metadata sync is successful, you can create test cases by clicking **Create Test Case**.
+1. Once Metadata sync is successful, you can create test cases by clicking **Create Test Case**.
    ![Create Tests](https://s3.amazonaws.com/static-docs.testsigma.com/new_images/projects/applications/sfmdctc.png)
 
 ---
