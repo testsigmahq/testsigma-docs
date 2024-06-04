@@ -42,11 +42,11 @@ In Testsigma terminology, each automated action executed by the test script is a
 
 1. Navigate to **Create Tests > Test Cases**, and click on **Create Test Cases**.
 
-![Test Cases](https://s3.amazonaws.com/static-docs.testsigma.com/new_images/projects/applications/ctsmctcs.png)
+   ![Test Cases](https://s3.amazonaws.com/static-docs.testsigma.com/new_images/projects/applications/ctsmctcs.png)
 
 2. Enter **Name** and click on **Add new step**. 
 
-![New Step](https://s3.amazonaws.com/static-docs.testsigma.com/new_images/projects/applications/ctsmanstep.png)
+   ![New Step](https://s3.amazonaws.com/static-docs.testsigma.com/new_images/projects/applications/ctsmanstep.png)
 
 3. Use NLPs to create test steps as per the test case scenario. For example, if you’re creating test steps for the login page, your test steps will be:
 
@@ -59,18 +59,18 @@ In Testsigma terminology, each automated action executed by the test script is a
     7. Click on **Submit**
 
 Here's a screenshot of reproduced test steps in Testsigma application.
-![Test Steps in Testsigma App](https://s3.amazonaws.com/static-docs.testsigma.com/new_images/projects/applications/ctsmsavedsteps.png)
+    ![Test Steps in Testsigma App](https://s3.amazonaws.com/static-docs.testsigma.com/new_images/projects/applications/ctsmsavedsteps.png)
 
 
 ### **iOS Apps**
 
 1. Navigate to **Create Tests > Test Cases**, and click on **Create Test Cases**.
 
-![Test Cases](https://s3.amazonaws.com/static-docs.testsigma.com/new_images/projects/applications/ctsmiostcs.png)
+   ![Test Cases](https://s3.amazonaws.com/static-docs.testsigma.com/new_images/projects/applications/ctsmiostcs.png)
 
 2. Enter **Name** and click on **Add new step**.
 
-![New Step](https://s3.amazonaws.com/static-docs.testsigma.com/new_images/projects/applications/ctsmiosts.png)
+   ![New Step](https://s3.amazonaws.com/static-docs.testsigma.com/new_images/projects/applications/ctsmiosts.png)
 
 3. Use NLPs to create test steps as per the test case scenario.
 
@@ -78,18 +78,18 @@ Here's a screenshot of reproduced test steps in Testsigma application.
 
 1. Navigate to **Create Tests > Test Cases**, and click on **Create Test Cases**.
 
-![Test Cases](https://s3.amazonaws.com/static-docs.testsigma.com/new_images/projects/applications/ctsmandtcs.png)
+   ![Test Cases](https://s3.amazonaws.com/static-docs.testsigma.com/new_images/projects/applications/ctsmandtcs.png)
 
 2. Enter **Name** and click on **Add new step**. 
 
-![New Step](https://s3.amazonaws.com/static-docs.testsigma.com/new_images/projects/applications/ctsmandnewstep.png)
+   ![New Step](https://s3.amazonaws.com/static-docs.testsigma.com/new_images/projects/applications/ctsmandnewstep.png)
 
 3. Use NLPs to create test steps as per the test case scenario.
 
 [[info | **NOTE**:]]
 | - By default the first step for Android and iOS applications is **Launch App**.
 | - You can also add steps above and below a test step by clicking on **Step Above** & **Step Below**. 
-| ![Add Step Above or Below](https://s3.amazonaws.com/static-docs.testsigma.com/new_images/projects/applications/ctsmasaab.png)
+|   ![Add Step Above or Below](https://s3.amazonaws.com/static-docs.testsigma.com/new_images/projects/applications/ctsmasaab.png)
 
 <br>
 
@@ -106,22 +106,22 @@ Here's a sample GIF demonstrating creating test steps manually for a Web Applica
 
 1. Navigate to **Create Tests > Test Cases**, and click on **Create Test Case**.
 
-![Test Cases](https://s3.amazonaws.com/static-docs.testsigma.com/new_images/projects/applications/warnavctstcswa.png)
+   ![Test Cases](https://s3.amazonaws.com/static-docs.testsigma.com/new_images/projects/applications/warnavctstcswa.png)
 
 
 2. Create a test step using the URL that you want to automate and click on **Create Step**.
 
-![Create Step](https://s3.amazonaws.com/static-docs.testsigma.com/new_images/projects/applications/warcs.png)
+   ![Create Step](https://s3.amazonaws.com/static-docs.testsigma.com/new_images/projects/applications/warcs.png)
 
 
 3. Click on **Record**.
 
-![Record](https://s3.amazonaws.com/static-docs.testsigma.com/new_images/projects/applications/warrecord.png)
+   ![Record](https://s3.amazonaws.com/static-docs.testsigma.com/new_images/projects/applications/warrecord.png)
 
 
 4. A new window will open the given URL and you can record the test steps.
 
-![New Window](https://s3.amazonaws.com/static-docs.testsigma.com/new_images/projects/applications/warnwindow.png)
+   ![New Window](https://s3.amazonaws.com/static-docs.testsigma.com/new_images/projects/applications/warnwindow.png)
 
 
 [[info | **NOTE**:]]
@@ -134,25 +134,31 @@ Here's a sample GIF demonstrating creating test steps manually for a Web Applica
 
 
 7. Once the required actions are complete, click on **Done** to switch back to the test case details page.
-![Done](https://s3.amazonaws.com/static-docs.testsigma.com/new_images/projects/applications/warcodone.png)
+   
+   ![Done](https://s3.amazonaws.com/static-docs.testsigma.com/new_images/projects/applications/warcodone.png)
 
 8. You can see the steps recorded in the test case details page. 
-![Test Steps](https://s3.amazonaws.com/static-docs.testsigma.com/new_images/projects/applications/warrcst.png)
+   
+   ![Test Steps](https://s3.amazonaws.com/static-docs.testsigma.com/new_images/projects/applications/warrcst.png)
 
 
 ### **Android & iOS Apps**
 
 1. Navigate to **Create Tests > Test Cases**, click on **Create Test Case**.
-![Test Cases](https://s3.amazonaws.com/static-docs.testsigma.com/new_images/projects/applications/iosoctc.png)
+   
+   ![Test Cases](https://s3.amazonaws.com/static-docs.testsigma.com/new_images/projects/applications/iosoctc.png)
 
 2. On **Test Case Details** page, click on **Record**.
-![Record](https://s3.amazonaws.com/static-docs.testsigma.com/new_images/projects/applications/iosoreco.png)
+   
+   ![Record](https://s3.amazonaws.com/static-docs.testsigma.com/new_images/projects/applications/iosoreco.png)
 
 3. On **Record test steps** overlay, select **Test Lab**, **Test Machine** and **App Source** you want to test. 
-![Record Steps Overlay](https://s3.amazonaws.com/static-docs.testsigma.com/new_images/projects/applications/iosotltmas.png)
+   
+   ![Record Steps Overlay](https://s3.amazonaws.com/static-docs.testsigma.com/new_images/projects/applications/iosotltmas.png)
 
 4. Click on **Record**.
-![Record](https://s3.amazonaws.com/static-docs.testsigma.com/new_images/projects/applications/iosorctso.png)
+   
+   ![Record](https://s3.amazonaws.com/static-docs.testsigma.com/new_images/projects/applications/iosorctso.png)
 
 5. Perform the actions on the application and once the required actions are complete, stop the recording to switch back to the test case details page.
 
@@ -162,6 +168,6 @@ Here's a sample GIF demonstrating creating test steps manually for a Web Applica
 
 Here's a sample GIF demonstrating creating test steps using the recorder for a Web Application. 
 
-![Record Test Steps for WebApps](https://s3.amazonaws.com/static-docs.testsigma.com/new_images/projects/applications/RecordStepswappsWF.gif)
+   ![Record Test Steps for WebApps](https://s3.amazonaws.com/static-docs.testsigma.com/new_images/projects/applications/RecordStepswappsWF.gif)
 
 ---
