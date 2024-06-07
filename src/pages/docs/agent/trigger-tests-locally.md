@@ -2,7 +2,7 @@
 title: "Triggering Tests on Local Devices"
 metadesc: "Execute the tests on local agents from another device using the same Testsigma account | Learn how to trigger tests on local devices from different machines"
 noindex: false
-order: 11.81
+order: 11.82
 page_id: "Trigger Tests Locally"
 warning: false
 contextual_links:

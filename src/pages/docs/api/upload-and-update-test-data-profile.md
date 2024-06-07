@@ -1,5 +1,5 @@
 ---
-title: "Upload and update test data profile"
+title: "Upload & Update Test Data Profile"
 page_title: "Upload/update test data profile via API in Testsigma"
 metadesc: "This article discusses in detail on REST API endpoints used for uploading the Apps and Attachments for test data profile in Testsigma Application."
 noindex: false

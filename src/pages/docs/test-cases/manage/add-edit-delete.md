@@ -1,6 +1,6 @@
 ---
-title: "Test Cases"
-pagetitle: "Manage Test Cases | Testsigma Documentaion"
+title: "Manage Test Cases"
+pagetitle: "Manage Test Cases"
 metadesc: "Effortlessly manage your test cases in Testsigma by seamlessly creating, editing, deleting, and recovering them. Streamline your test case management process, adapt to changing project needs, and ensure comprehensive test coverage."
 noindex: false
 order: 4.10
@@ -38,7 +38,7 @@ Testsigma provides a comprehensive and user-friendly solution for efficiently cr
 
 ## **Prerequisites**
 
-Ensure you create a [project](https://testsigma.com/docs/projects/overview/) before creating or editing test cases in Testsigma. 
+- Ensure you create a [project](https://testsigma.com/docs/projects/overview/) before creating test cases in Testsigma. 
 
 ---
 

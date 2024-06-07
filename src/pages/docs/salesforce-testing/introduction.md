@@ -49,6 +49,6 @@ Salesforce is a cloud-based Customer Relationship Management (CRM) platform that
 
 ## **Getting Help**
 
-- Reach out to Testsigma support at **support@testsigma.com**.
+- For inquiries or help, reach out to Testsigma support at **support@testsigma.com**.
 
 ---

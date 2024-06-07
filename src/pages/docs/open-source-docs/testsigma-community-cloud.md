@@ -2,7 +2,7 @@
 title: "Testsigma Community Cloud"
 metadesc: "Integrate self-hosted open-source platform with Testsigma Community Cloud. This will provide free access to test labs, addons, visual testing, our discord, etc."
 noindex: false
-order: 28.2
+order: 29.2
 page_id: "Testsigma Community Cloud"
 warning: false
 contextual_links:
