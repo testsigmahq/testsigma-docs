@@ -12,17 +12,17 @@ We are working hard to keep our documentation up to date. However, we might not 
 
 If you are new and want to see Testsigma in action try Testsigma by creating an account on the Cloud. Alternatively, you can also deploy Testsigma on your local machine or private server instance. Follow the links below for more information:
 
-- [Create an account on Testsigma Cloud (Recommended)](https://testsigma.com/docs/getting-started/setup/testsigma-cloud/)
-- [Deploy Testsigma on my machine](https://testsigma.com/docs/getting-started/setup/overview/)
+-   [Create an account on Testsigma Cloud (Recommended)](https://testsigma.com/docs/getting-started/setup/testsigma-cloud/)
+-   [Deploy Testsigma on my machine](https://testsigma.com/docs/getting-started/setup/overview/)
 
 ## **Contributing**
 
 We love our contributors! If you'd like to contribute anything from updating existing docs to adding new docs, start here:
 
-- 📖 Read our [Contribution Guide](CONTRIBUTING.md)
-- 🧩 [Set up your local environment](CONTRIBUTING.md#setup-for-local-development)
-- 👾 Explore some [good first docs](https://github.com/testsigmahq/testsigma-docs/issues?q=is%3Aissue+is%3Aopen+label%3A%22good+first+doc%22)
-- 📕 Read our [Code of Conduct](CODE_OF_CONDUCT.md)
+-   📖 Read our [Contribution Guide](CONTRIBUTING.md)
+-   🧩 [Set up your local environment](CONTRIBUTING.md#setup-for-local-development)
+-   👾 Explore some [good first docs](https://github.com/testsigmahq/testsigma-docs/issues?q=is%3Aissue+is%3Aopen+label%3A%22good+first+doc%22)
+-   📕 Read our [Code of Conduct](CODE_OF_CONDUCT.md)
 
 Check out the [contributing](CONTRIBUTING.md) guide for more details.
 
