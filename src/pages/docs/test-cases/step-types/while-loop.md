@@ -70,6 +70,7 @@ Here's a quick GIF demonstrating using While Loop in Test Cases.
 ![While Loop GIF](https://s3.amazonaws.com/static-docs.testsigma.com/new_images/projects/applications/wlsteptype.gif)
 
 ---
+
 ## **Adding While Loop in Test Cases Using Recorder [Web & Mobile web]**
 1. Navigate to **Create Tests > Test Cases**, and click on **Create Test Case**.
 ![Test Cases](https://s3.amazonaws.com/static-docs.testsigma.com/new_images/projects/applications/navtcwl.png)
@@ -92,12 +93,14 @@ Here's a quick GIF demonstrating using While Loop in Test Cases.
 7. Click on **Done**.
 ![Done](https://s3.amazonaws.com/static-docs.testsigma.com/new_images/projects/applications/donewlr.png)
 
-*For more information on creating steps using recorder, refer to [recording test steps](https://testsigma.com/docs/test-cases/create-steps-recorder/web-apps/overview/).*
+*For more information on creating steps using recorder, refer to [recording test steps](https://testsigma.com/docs/test-cases/create-test-steps/overview/#creating-test-steps-using-test-recorder).*
 
 
 
 ---
+
 ## **Adding While Loop in Test Cases Using Recorder [Android & iOS]**
+
 1. Navigate to **Create Tests > Test Cases**, and click on **Create Test Case**.
 ![Test Cases](https://s3.amazonaws.com/static-docs.testsigma.com/new_images/projects/applications/wlmapptc.png)
 
@@ -115,7 +118,7 @@ Here's a quick GIF demonstrating using While Loop in Test Cases.
 6. Record all the steps and click on **Stop Recording** to quit the session. 
 ![Stop Recording](https://s3.amazonaws.com/static-docs.testsigma.com/new_images/projects/applications/aswlsr.png)
 
-7.You’ll be redirected to the test case creation page where you can see the recorded steps.
+7. You’ll be redirected to the test case creation page where you can see the recorded steps.
 ![Test Case Details](https://s3.amazonaws.com/static-docs.testsigma.com/new_images/projects/applications/redirectwltcpage.png)
 
 Here's a quick GIF demonstrating adding While Loop in test cases using the recorder.
