@@ -51,6 +51,7 @@ With Testsigma's special NLPs, you can scale and enhance Salesforce Testing. The
 | Enter test data in the **element** richInput **textbox** | This NLP enters the provided test data into the richInput textbox element. This NLP can also be recorded. <br><br> **User Inputs in NLP:** <br> 1. Test Data <br> 2. Element |
 | Search **test data** on **element** lookup | This NLP searches for the specified test data within the element lookup. This NLP can also be recorded. <br><br> **User Inputs in NLP:** <br> 1. Test Data <br> 2. Element |
 | Select option **test data** from **element** picklist | This NLP selects the specified option from the picklist element using test data. This NLP can also be recorded. <br><br> **User Inputs in NLP:** <br> 1. Test Data <br> 2. Element |
+| Clear and enter **test data** in the **element** field | This NLP will clear any existing data in the element field and then enter the test data into that field. <br><br> **User Inputs in NLP:** <br> 1. Test Data <br> 2. Element |
 
 
 ---
