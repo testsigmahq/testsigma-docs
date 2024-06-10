@@ -1,6 +1,6 @@
 ---
 title: "Verify Elements from Test Recorder"
-metadesc: "Enhance element recording process by defining locator precedence on the test recorder for Link Text, Name, ID, CSS Selector, and XPath based on the priority."
+metadesc: "You can verify elements during recording to quickly resolve issues in execution. This article discusses verifying elements from the Test Recorder in Testsigma"
 noindex: false
 order: 6.93
 page_id: "Verify Elements"
