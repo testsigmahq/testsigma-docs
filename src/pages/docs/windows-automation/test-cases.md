@@ -27,13 +27,13 @@ In case you have missed it, refer to [learning objects 🔍](https://testsigma.c
 
 ---
 
-## **Prerequisites**
-
-- A Windows Application 
-
-- TSRx File Imported into Elements
-
-- Testsigma Agent Setup
+> ## **Prerequisites**
+> 
+> - A Windows Application 
+>
+> - TSRx File Imported into Elements
+> 
+> - Testsigma Agent Setup
 
 ---
 

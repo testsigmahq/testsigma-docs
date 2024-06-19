@@ -25,11 +25,11 @@ Once the TSRx file is ready, you can import it with just a few clicks and start 
 
 ---
 
-## **Prerequisites**
-
-- A Windows Project in Testsigma
-
-- TSRx File to Import
+> ## **Prerequisites**
+> 
+> - A Windows Project in Testsigma
+> 
+> - TSRx File to Import
 
 ---
 

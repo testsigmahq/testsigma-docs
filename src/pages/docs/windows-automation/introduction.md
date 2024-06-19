@@ -32,11 +32,13 @@ You can also quickly jump to one of the following topics to learn about Windows 
 
 ---
 
-## **Prerequisites**
-
-- A Licensed Version of UFT One
-- [Testsigma Agent](https://testsigma.com/docs/agent/overview/)
-- A Windows Based Desktop Application
+> ## **Prerequisites**
+> 
+> - A Licensed Version of UFT One
+> 
+> - [Testsigma Agent](https://testsigma.com/docs/agent/overview/)
+> 
+> - A Windows Based Desktop Application
 
 ---
 

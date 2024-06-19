@@ -33,9 +33,9 @@ When you update the elements by uploading an updated TSRx file, you might encoun
 
 ---
 
-## **Prerequisites**
-
-- An Updated TSRx File to Import
+> ## **Prerequisites**
+> 
+> - An Updated TSRx File to Import
 
 ---
 

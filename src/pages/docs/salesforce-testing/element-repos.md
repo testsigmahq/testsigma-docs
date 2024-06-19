@@ -23,13 +23,13 @@ In Testsigma, elements from Salesforce are automatically learned after successfu
 
 ---
 
-## **Naming Conventions**
-
-1. **Field Names:** This will be in the **ObjectName_FieldName** format.
-    - **Example:** If the element name is **Account_CreatedDate**, **Account** is the object, and the created date **Field** is **CreatedDate**.
-
-2. **Screen Names:** Generally, the name displayed on the UI screen is the object name.
-    - **Example:** A screen displaying account details should be named **Account**.
+> ## **Naming Conventions**
+> 
+> 1. **Field Names:** This will be in the **ObjectName_FieldName** format.
+>    - **Example:** If the element name is **Account_CreatedDate**, **Account** is the object, and the created date **Field** is **CreatedDate**.
+>
+> 2. **Screen Names:** Generally, the name displayed on the UI screen is the object name.
+>    - **Example:** A screen displaying account details should be named **Account**.
 
 [[info | **NOTE**:]]
 | Element names should be unique to avoid conflicts.

@@ -25,10 +25,11 @@ In Testsigma, users can create and manage multiple projects and applications. Cr
 
 ---
 
-## **Prerequisites**
-
-- Salesforce organization with the test setup.
-- Salesforce connected app. For more information, refer to [creating a connected app](https://testsigma.com/docs/salesforce-testing/special-nlps/).
+> ## **Prerequisites**
+> 
+> - Salesforce organization with the test setup.
+> 
+> - Salesforce connected app. For more information, refer to [creating a connected app](https://testsigma.com/docs/salesforce-testing/special-nlps/).
 
 ---
 
