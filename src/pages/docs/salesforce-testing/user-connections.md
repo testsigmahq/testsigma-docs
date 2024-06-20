@@ -29,11 +29,13 @@ Once you've set up the Salesforce Metadata connection, you can add user connecti
 
 ---
 
-## **Prerequisites**
-
-- Salesforce organization with the test setup.
-- Salesforce connected app. For more information, refer to [creating a connected app](https://testsigma.com/docs/salesforce-testing/special-nlps/).
-- Salesforce metadata connected to Testsigma. For more information, refer to [creating metadata connections](https://testsigma.com/docs/salesforce-testing/metadata-connections/).
+> ## **Prerequisites**
+> 
+> - Salesforce organization with the test setup.
+> 
+> - Salesforce connected app. For more information, refer to [creating a connected app](https://testsigma.com/docs/salesforce-testing/special-nlps/).
+> 
+> - Salesforce metadata connected to Testsigma. For more information, refer to [creating metadata connections](https://testsigma.com/docs/salesforce-testing/metadata-connections/).
 
 ---
 

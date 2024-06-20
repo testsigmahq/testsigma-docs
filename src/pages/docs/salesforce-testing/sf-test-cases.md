@@ -27,15 +27,15 @@ With Testsigma, creating test cases for Salesforce is easy as we can leverage Me
 
 ---
 
-## **Prerequisites**
-
-- Salesforce organization with the test setup.
-
-- Salesforce connected app. For more information, refer to [creating a connected app](https://testsigma.com/docs/salesforce-testing/special-nlps/).
-
-- Salesforce metadata connected to Testsigma. For more information, refer to [creating metadata connections](https://testsigma.com/docs/salesforce-testing/metadata-connections/).
-
-- [Testsigma Chrome Extension](https://chromewebstore.google.com/detail/testsigma-recorder/epmomlhdjfgdobefcpocockpjihaabdp)
+> ## **Prerequisites**
+> 
+> - Salesforce organization with the test setup.
+> 
+> - Salesforce connected app. For more information, refer to [creating a connected app](https://testsigma.com/docs/salesforce-testing/special-nlps/).
+>
+> - Salesforce metadata connected to Testsigma. For more information, refer to [creating metadata connections](https://testsigma.com/docs/salesforce-testing/metadata-connections/).
+>
+> - [Testsigma Chrome Extension](https://chromewebstore.google.com/detail/testsigma-recorder/epmomlhdjfgdobefcpocockpjihaabdp)
 
 ---
 

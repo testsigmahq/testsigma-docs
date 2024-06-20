@@ -29,11 +29,11 @@ This article discusses creating a project and adding a Windows (Advanced) applic
 
 ---
 
-## **Prerequisites**
-
-- A Windows Machine with Testsigma Agent
-
-- A Licensed Version of UFT One
+> ## **Prerequisites**
+> 
+> - A Windows Machine with Testsigma Agent
+> 
+> - A Licensed Version of UFT One
 
 ---
 
