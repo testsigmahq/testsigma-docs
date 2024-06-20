@@ -663,16 +663,16 @@ table{
 #hs-banner-parent{
   .hs-cookie-notification-position-bottom{
     width: calc(min(28em, 100%)) !important;
-    left: calc(min(15em, 100%)) !important;
+    left: calc(min(2em, 100%)) !important;
     @media only screen and (max-width: 767px) {
-      left: 3%;
-      bottom: 2%;
-      width: 95%;
+      left: 3% !important;
+      bottom: 2% !important;
+      max-width: 95% !important;
     }
     @media only screen and (min-width:768px) and (max-width: 1023px) {
-      left: 20%;
-      bottom: 10%;
-      width: 35%;
+      left: 20% !important;
+      bottom: 10% !important;
+      max-width: 35% !important;
     }
     #hs-eu-cookie-confirmation-inner{
       @apply p-8;
