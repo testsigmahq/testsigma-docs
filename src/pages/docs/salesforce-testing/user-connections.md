@@ -51,6 +51,8 @@ Once you've set up the Salesforce Metadata connection, you can add user connecti
 3. On the **User connection** prompt, 
      - Enter **Connection name**
        ![Connection Name](https://s3.amazonaws.com/static-docs.testsigma.com/new_images/projects/applications/sfucncname.png)
+     - Choose the environment of the user that you want to use.
+       ![Environment](https://s3.amazonaws.com/static-docs.testsigma.com/new_images/projects/applications/ucsfts.png)
      - Choose the Authentication type from the dropdown. 
          - For **OAuth**, enter **Username**, **Consumer key**, **Consumer secret**, and **Callback URL**.
          - For **User name & Password**, enter the **Username**, **Password**, **Security token**, **Consumer key**, and **Consumer secret**. In this example, we are choosing **OAuth 2.0**.
