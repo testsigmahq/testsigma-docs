@@ -45,8 +45,12 @@ Using the **Testsigma Recorder**, you can swiftly capture elements in mobile web
 2. This will open a new window. Enter the URL from which you want to capture the elements. The **Testsigma Recorder** will appear and be ready to start recording. In this case, we are recording elements for the 1mg website.
 ![New Window](https://s3.amazonaws.com/static-docs.testsigma.com/new_images/projects/applications/mwaelmcdt.png)
 
-3. Press **F12** to open **Chrome Developer Tools**.
+3. Press **F12** to open **Chrome Developer Tools** and dock the tools to the right side of the window for a better experience.
 ![Dev Tools](https://s3.amazonaws.com/static-docs.testsigma.com/new_images/projects/applications/mwaelmcdo.png)
+
+[[info | **NOTE**:]]
+| Make sure you have selected **Companion Mode** located in the action bar at the top.
+| ![Companion Mode](https://s3.amazonaws.com/static-docs.testsigma.com/new_images/projects/applications/compmode.png)
 
 4. Click on **>>** and select **Testsigma Recorder** from the dropdown menu. 
 ![Testsigma Recorder](https://s3.amazonaws.com/static-docs.testsigma.com/new_images/projects/applications/mwaelmstsrec.png)
