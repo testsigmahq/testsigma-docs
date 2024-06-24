@@ -18,6 +18,9 @@ contextual_links:
 - type: link
   name: "Sample Test Case for Salesforce Automation"
   url: "#sample-test-case-for-salesforce-automation"
+- type: link
+  name: "Parametrization of Login NLP"
+  url: "#parametrization-of-login-nlp"
 ---
 
 
@@ -95,5 +98,24 @@ Here, we open the edit form with the record ID stored in the variable in the pre
 8. Refresh the **Test Case Details** page to see all the recorded steps. 
 ![Test Case Details](https://s3.amazonaws.com/static-docs.testsigma.com/new_images/projects/applications/sftcalltss.png)
 
+
+---
+
+## **Parametrization of Login NLP**
+
+1. From the **Test Case Details** page, create the test steps using the inbuilt Login NLP.
+![Test Step](https://s3.amazonaws.com/static-docs.testsigma.com/new_images/projects/applications/polnts.png)
+
+2. Click on **Salesforce Connections**, type ‘**/**’ and choose ***Environment** from the dropdown menu. 
+![Parametrize](https://s3.amazonaws.com/static-docs.testsigma.com/new_images/projects/applications/polnen.png)
+
+[[info | **NOTE**:]]
+| You can choose any **test data type** as needed from the dropdown menu.
+
+4. In the ***Environment** overlay, select an environment from the available Environments.
+![Env Overlay](https://s3.amazonaws.com/static-docs.testsigma.com/new_images/projects/applications/polnenol.png)
+
+[[info | **NOTE**:]]
+| Make sure that the value added in **Environment** has the same name as in **User Connections**.
 
 ---
