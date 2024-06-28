@@ -677,5 +677,7 @@
   "test-results-at-all-levels": { "/docs/api/test-results-at-all-levels/": "Fetch Test Results (All Levels)" },
   "project-and-application": {"/docs/windows-automation/project-and-application/": "Windows (Adv) Project & Application"},
   "object-learning": {"/docs/windows-automation/object-learning": "Object Learning (Using UFT One)"},
-  "import-tsrx-files": { "/docs/windows-automation/import-tsrx-files/": "Importing/Updating TSRx Files" }
+  "import-tsrx-files": { "/docs/windows-automation/import-tsrx-files/": "Importing/Updating TSRx Files" },
+  "record-elements": {"/docs/elements/mobile-web-application/record-elements/": "Record Multiple Elements" },
+  "add-test-cases-for-mobile-web-app": {"/docs/test-cases/manage/add-test-cases-for-mobile-web-app/": "Test Cases (Mobile Web App)" }
 }

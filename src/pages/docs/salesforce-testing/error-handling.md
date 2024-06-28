@@ -27,11 +27,11 @@ On metadata refresh, Testsigma identifies potential causes of test case failures
 
 ---
 
-## **Prerequisites**
-
-- A Salesforce connected app. For more information, refer to [creating a connected app](https://testsigma.com/docs/salesforce-testing/connected-app/).
-
-- You should know how to [refresh metadata](https://testsigma.com/docs/salesforce-testing/metadata-connections/#steps-to-refresh-metadata-connection).
+> ## **Prerequisites**
+> 
+> - A Salesforce connected app. For more information, refer to [creating a connected app](https://testsigma.com/docs/salesforce-testing/connected-app/).
+> 
+> - You should know how to [refresh metadata](https://testsigma.com/docs/salesforce-testing/metadata-connections/#steps-to-refresh-metadata-connection).
 
 ---
 

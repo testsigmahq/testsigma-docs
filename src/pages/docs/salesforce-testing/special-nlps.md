@@ -24,11 +24,11 @@ With Testsigma's special NLPs, you can scale and enhance Salesforce Testing. The
 
 ---
 
-## **Prerequisites**
-
-- Salesforce connected app. For more information, refer to [creating a connected app](https://testsigma.com/docs/salesforce-testing/special-nlps/).
-
-- Salesforce metadata connected to Testsigma. For more information, refer to [creating metadata connections](https://testsigma.com/docs/salesforce-testing/metadata-connections/).
+> ## **Prerequisites**
+>
+> - Salesforce connected app. For more information, refer to [creating a connected app](https://testsigma.com/docs/salesforce-testing/special-nlps/).
+> 
+> - Salesforce metadata connected to Testsigma. For more information, refer to [creating metadata connections](https://testsigma.com/docs/salesforce-testing/metadata-connections/).
 
 ---
 
@@ -52,6 +52,7 @@ With Testsigma's special NLPs, you can scale and enhance Salesforce Testing. The
 | Search **test data** on **element** lookup | This NLP searches for the specified test data within the element lookup. This NLP can also be recorded. <br><br> **User Inputs in NLP:** <br> 1. Test Data <br> 2. Element |
 | Select option **test data** from **element** picklist | This NLP selects the specified option from the picklist element using test data. This NLP can also be recorded. <br><br> **User Inputs in NLP:** <br> 1. Test Data <br> 2. Element |
 | Clear and enter **test data** in the **element** field | This NLP will clear any existing data in the element field and then enter the test data into that field. <br><br> **User Inputs in NLP:** <br> 1. Test Data <br> 2. Element |
-
+| Edit record with **RECORD_ID** using **User Connection** in **Salesforce Object** | This NLP updates a record using RECORD\_ID for a specific Salesforce object using the update record API. <br><br> **User Inputs in NLP:** <br> 1. RECORD_ID <br> 2. User Connection<br> 3. Salesforce Object |
+| Delete record with **RECORD_ID** using **User Connection** in **Salesforce Object** | This NLP deletes a record using RECORD\_ID for a specific Salesforce object using the delete record API. <br><br> **User Inputs in NLP:** <br> 1. RECORD_ID <br> 2. User Connection<br> 3. Salesforce Object |
 
 ---
