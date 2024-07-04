@@ -67,7 +67,7 @@ There are two ways to Authenticate:
   <ul>
     <li><b>User name & Password:</b> For User name & Password, enter Username, Password, Security token, Consumer key, and Consumer secret. </li>
     <li><b>OAuth:</b> For OAuth, enter Username, Consumer key, and Consumer secret.
-    <li><b>Callback URL:</b> <span style="font-family: monospace; font-size: 0.875em; background-color: #f8f8f8; padding: 0.2em 0.4em; border-radius: 4px;">https://salesforce-callback.testsigma.com/authorize</span></li>
+    <li><b>Callback URL:</b> Use the below mentioned Callback URL. <br> <br> <pre>https://salesforce-callback.testsigma.com/authorize/</pre></li>
       </ul>
     </li>
   </ul>
@@ -86,7 +86,7 @@ There are two ways to Authenticate:
     - Wait until the sync is complete. This will take some time.
       ![Wait](https://s3.amazonaws.com/static-docs.testsigma.com/new_images/projects/applications/sfmdsipg.png)
 
-1. Once Metadata sync is successful, you can create test cases by clicking **Create Test Case**.
+4. Once Metadata sync is successful, you can create test cases by clicking **Create Test Case**.
    ![Create Tests](https://s3.amazonaws.com/static-docs.testsigma.com/new_images/projects/applications/sfmdctc.png)
 
 ---
