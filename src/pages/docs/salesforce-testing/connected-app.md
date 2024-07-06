@@ -52,7 +52,7 @@ Creating a connected app is important to link external applications and the Sale
 
 5. In the **API** section, select the **Enable OAuth Settings** checkbox to set **Callback URL** and **Selected OAuth Scopes**. The **Selected OAuth Scopes** are mandatory in the **Connected App** to connect & download the metadata.
     
-    - Use this Callback URL: <span style="font-family: monospace; font-size: 0.875em; background-color: #f8f8f8; padding: 0.2em 0.4em; border-radius: 4px;">https://salesforce-callback.testsigma.com/authorize</span>
+    - Use this Callback URL: <span style="font-family: monospace; font-size: 0.875em; background-color: #f8f8f8; padding: 0.2em 0.4em; border-radius: 4px;">https://salesforce-callback.testsigma.com/authorize/</span>
 
 
 ![API Details](https://s3.amazonaws.com/static-docs.testsigma.com/new_images/projects/applications/sfcaapiinfo.png)
