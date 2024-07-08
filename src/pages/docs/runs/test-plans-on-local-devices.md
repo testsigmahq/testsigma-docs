@@ -2,7 +2,7 @@
 title: "Test Plan Local Executions"
 metadesc: "Local execution is preferred for testing apps that are only available locally, for security purposes. How to perform test plan executions on local devices in Testsigma."
 noindex: false
-order: 9.41
+order: 9.42
 page_id: "Test Plan Local Executions"
 warning: false
 contextual_links:
