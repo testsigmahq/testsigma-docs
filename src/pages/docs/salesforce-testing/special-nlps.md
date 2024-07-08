@@ -15,6 +15,9 @@ contextual_links:
 - type: link
   name: "List of Special NLPs"
   url: "#list-of-special-nlps"
+- type: link
+  name: "Using API NLP Test Steps"
+  url: "#using-api-nlp-test-steps"
 ---
 
 ---
@@ -54,5 +57,38 @@ With Testsigma's special NLPs, you can scale and enhance Salesforce Testing. The
 | Clear and enter **test data** in the **element** field | This NLP will clear any existing data in the element field and then enter the test data into that field. <br><br> **User Inputs in NLP:** <br> 1. Test Data <br> 2. Element |
 | Edit record with **RECORD_ID** using **User Connection** in **Salesforce Object** | This NLP updates a record using RECORD\_ID for a specific Salesforce object using the update record API. <br><br> **User Inputs in NLP:** <br> 1. RECORD_ID <br> 2. User Connection<br> 3. Salesforce Object |
 | Delete record with **RECORD_ID** using **User Connection** in **Salesforce Object** | This NLP deletes a record using RECORD\_ID for a specific Salesforce object using the delete record API. <br><br> **User Inputs in NLP:** <br> 1. RECORD_ID <br> 2. User Connection<br> 3. Salesforce Object |
+
+---
+
+## **Using API NLP Test Steps**
+
+1. Let's say you want to automate the creation of a Salesforce Lead record.
+
+   To create a lead record, navigate to the **Leads** tab, click **New**, and fill out the form with details such as the lead's name, company, contact information, and descriptions. After entering the necessary information, save the record. The lead will be available for future actions, such as follow-ups or conversion into an account, contact, or opportunity.
+
+   Guess what? With Testsigma, you can perform all these actions in a single API step using the following NLP:
+
+   ![Create Lead](https://s3.amazonaws.com/static-docs.testsigma.com/new_images/projects/applications/apinlpcl.png)
+
+   Here’s a quick GIF demonstrating how to create a Salesforce lead record.
+
+   ![Create Lead](https://s3.amazonaws.com/static-docs.testsigma.com/new_images/projects/applications/CreateAPISF.gif)
+
+2. To edit any lead record using **RECORD_ID**, you can use the following NLP:
+
+   ![Edit Lead](https://s3.amazonaws.com/static-docs.testsigma.com/new_images/projects/applications/apinlpedit.png)
+
+   Here’s a quick GIF demonstrating how to edit a Salesforce lead record.
+
+   ![Edit Lead](https://s3.amazonaws.com/static-docs.testsigma.com/new_images/projects/applications/Editleadsf.gif)
+
+
+3. To delete any lead record using **RECORD_ID**, you can use the following NLP:
+
+   ![Delete Lead](https://s3.amazonaws.com/static-docs.testsigma.com/new_images/projects/applications/appinlpdlt.png)
+
+   Here’s a quick GIF demonstrating how to delete a Salesforce lead record.
+
+   ![Delete Lead](https://s3.amazonaws.com/static-docs.testsigma.com/new_images/projects/applications/deletesflead.gif)
 
 ---
