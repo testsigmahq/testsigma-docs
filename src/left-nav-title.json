@@ -679,5 +679,6 @@
   "object-learning": {"/docs/windows-automation/object-learning": "Object Learning (Using UFT One)"},
   "import-tsrx-files": { "/docs/windows-automation/import-tsrx-files/": "Importing/Updating TSRx Files" },
   "record-elements": {"/docs/elements/mobile-web-application/record-elements/": "Record Multiple Elements" },
-  "add-test-cases-for-mobile-web-app": {"/docs/test-cases/manage/add-test-cases-for-mobile-web-app/": "Test Cases (Mobile Web App)" }
+  "add-test-cases-for-mobile-web-app": {"/docs/test-cases/manage/add-test-cases-for-mobile-web-app/": "Test Cases (Mobile Web App)" },
+  "most-common-issues": { "/docs/troubleshooting/salesforce-testing/most-common-issues/": "Most Common Issues" }
 }
