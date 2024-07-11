@@ -15,11 +15,11 @@ contextual_links:
   name: "Using While Loop in Test Cases"
   url: "#using-while-loop-in-test-cases"
 - type: link
-  name: "Adding while loop in Testsigma’s test step recorder [Web and Mobile web]"
-  url: "#adding-while-loop-in-test-cases-using-recorder-web-and-mobile-web"
+  name: "Adding While Loop in Test Cases Using Recorder [Web & Mobile web]"
+  url: "#adding-while-loop-in-test-cases-using-recorder-web--mobile-web"
 - type: link
-  name: "Adding while loop in Testsigma’s Test Step Recorder [Android &iOS]"
-  url: "#adding-while-loop-in-testsigmas-test-step-recorder-android-ios"
+  name: "Adding While Loop in Test Cases Using Recorder [Android & iOS]"
+  url: "#adding-while-loop-in-test-cases-using-recorder-android--ios"
 - type: link
   name: "Additional Actions Possible on Iteration Count"
   url: "#additional-actions-possible-on-iteration-count"
@@ -30,41 +30,36 @@ contextual_links:
 In Testsigma, you can create a while loop to execute a test step repeatedly if a specified condition remains true. While Loop iterates through the step until the condition becomes false and then stops executing the test step and moves to the next test step. This article discusses using While Loop in Testsigma. 
 
 ---
-## **Prerequisites:**
-- You should also know how to [create a test case](https://testsigma.com/docs/test-cases/manage/add-edit-delete/).
-- You should have Testsigma Recorder Extension. See [install chrome extension](https://testsigma.com/docs/test-step-recorder/install-chrome-extension/).
+
+> ## **Prerequisites**
+> 
+> - You should also know how to [create a test case](https://testsigma.com/docs/test-cases/manage/add-edit-delete/).
+> 
+> - You should have Testsigma Recorder Extension. See [install chrome extension](https://testsigma.com/docs/test-step-recorder/install-chrome-extension/).
 
 ---
 
 ## **Using While Loop in Test Cases**
+
 1. Navigate to **Create Tests > Test Cases**, and click on **Create Test Case**.
-![Test Cases](https://s3.amazonaws.com/static-docs.testsigma.com/new_images/projects/applications/navtcwl.png)
+   ![Create Test Case](https://s3.amazonaws.com/static-docs.testsigma.com/new_images/projects/applications/ForLoop_Navigation.png)
 
-2. Create a test step to navigate to the URL. Example: https://demoqa.com/webtables
-![Navigate to Website](https://s3.amazonaws.com/static-docs.testsigma.com/new_images/projects/applications/tcwebwl.png)
+2. On **Test Case Details** page, click on the option on the left side of the test step.
+   ![Option on Test Step](https://s3.amazonaws.com/static-docs.testsigma.com/new_images/projects/applications/WhileLoop_OptionLeft.png)
 
-3. Click on the option on the left side of the test step.
-![Option](https://s3.amazonaws.com/static-docs.testsigma.com/new_images/projects/applications/opwlts.png)
+3. This will open a side panel.
+   ![Side Panel](https://s3.amazonaws.com/static-docs.testsigma.com/new_images/projects/applications/WhileLoop_SidePanel.png)
 
-4. This will open a side panel.
-![Side Panel](https://s3.amazonaws.com/static-docs.testsigma.com/new_images/projects/applications/wlsidepanel.png)
+4. Hover over to the options and click on **While Loop**. This will add a while condition in your test step.
+   ![While Loop](https://s3.amazonaws.com/static-docs.testsigma.com/new_images/projects/applications/WhileLoop_Select.png)
 
-5. Hover over to the options and click on **While Loop**.
-![While Loop](https://s3.amazonaws.com/static-docs.testsigma.com/new_images/projects/applications/wlbuttoninsp.png)
+5. Hover over the test step and click on **Step Inside Loop** to add sub-steps under the **While Loop**.
+   ![Step Inside While Loop](https://s3.amazonaws.com/static-docs.testsigma.com/new_images/projects/applications/WhileLoop_StepInside.png)
 
-6. This will add a while condition in your test step.
-![While Condition](https://s3.amazonaws.com/static-docs.testsigma.com/new_images/projects/applications/wladdtcs.png)
+6. This will create a test step number 2.1 which will be under step 2. 
+   ![Step 2.1](https://s3.amazonaws.com/static-docs.testsigma.com/new_images/projects/applications/WhileLoop_steps.png)
 
-7. Now add the test step within the **While Loop** by choosing the specific NLP.
-![While Loop Step](https://s3.amazonaws.com/static-docs.testsigma.com/new_images/projects/applications/wlstepsa.png)
 
-8. Hover over the test step and click on **Step Inside Loop** to add sub-steps under the **While Loop**.
-![Step Inside While Loop](https://s3.amazonaws.com/static-docs.testsigma.com/new_images/projects/applications/siwls.png)
-
-9. This will create a test step number 2.1 which will be under step 2. 
-![Step 2.1](https://s3.amazonaws.com/static-docs.testsigma.com/new_images/projects/applications/step2.1.png)
-
-10. You can continue to add sub steps numbered as either 2.2, 2.3, or as 3,4, etc. The test steps numbers 2.2, 2.3, etc will be executed only if the **While Loop** stops.
 
 Here's a quick GIF demonstrating using While Loop in Test Cases.
 ![While Loop GIF](https://s3.amazonaws.com/static-docs.testsigma.com/new_images/projects/applications/wlsteptype.gif)
@@ -72,26 +67,27 @@ Here's a quick GIF demonstrating using While Loop in Test Cases.
 ---
 
 ## **Adding While Loop in Test Cases Using Recorder [Web & Mobile web]**
+
 1. Navigate to **Create Tests > Test Cases**, and click on **Create Test Case**.
-![Test Cases](https://s3.amazonaws.com/static-docs.testsigma.com/new_images/projects/applications/navtcwl.png)
+   ![Create Test Case](https://s3.amazonaws.com/static-docs.testsigma.com/new_images/projects/applications/ForLoop_Navigation.png)
 
 2. Click on **Record**.
-![Record](https://s3.amazonaws.com/static-docs.testsigma.com/new_images/projects/applications/wlrecordwmw.png)
+   ![Record](https://s3.amazonaws.com/static-docs.testsigma.com/new_images/projects/applications/WhileLoop_Record.png)
 
 3. A new window will be opened with recorder. 
-![New Window](https://s3.amazonaws.com/static-docs.testsigma.com/new_images/projects/applications/wlnewwindow.png)
+   ![New Window](https://s3.amazonaws.com/static-docs.testsigma.com/new_images/projects/applications/WhileLoop_NewWindow.png)
 
 4. Go to https://demoqa.com/webtables. 
-![Website](https://s3.amazonaws.com/static-docs.testsigma.com/new_images/projects/applications/gotodqa.png)
+   ![Website](https://s3.amazonaws.com/static-docs.testsigma.com/new_images/projects/applications/WhileLoop_demoQA.png)
 
-5. Hover over the option highlighted on the recorder and click on **While Loop**.
-![While Loop](https://s3.amazonaws.com/static-docs.testsigma.com/new_images/projects/applications/recwlnw.png)
+5. Click on the option on the left side of the test step and choose **While Loop**. This will add a while condition in your test step.
+   ![While Loop](https://s3.amazonaws.com/static-docs.testsigma.com/new_images/projects/applications/WhileLoop_ChooseLeft.png)
 
-6. Add the step and click on **Add Step Inside** to record the steps inside the while loop.
-![Add Step Inside](https://s3.amazonaws.com/static-docs.testsigma.com/new_images/projects/applications/siwlr.png)
+6. Hover over the test step and click on **Step Inside Loop** to add sub-steps under the **While Loop**.
+   ![Add Step Inside](https://s3.amazonaws.com/static-docs.testsigma.com/new_images/projects/applications/WhileLoop_WebStepInside.png)
 
-7. Click on **Done**.
-![Done](https://s3.amazonaws.com/static-docs.testsigma.com/new_images/projects/applications/donewlr.png)
+7. You can continue to add sub-steps and click on **Stop Recording** once all steps are added. 
+   ![Done](https://s3.amazonaws.com/static-docs.testsigma.com/new_images/projects/applications/WhileLoop_StopRecording.png)
 
 *For more information on creating steps using recorder, refer to [recording test steps](https://testsigma.com/docs/test-cases/create-test-steps/overview/#creating-test-steps-using-test-recorder).*
 
@@ -102,24 +98,25 @@ Here's a quick GIF demonstrating using While Loop in Test Cases.
 ## **Adding While Loop in Test Cases Using Recorder [Android & iOS]**
 
 1. Navigate to **Create Tests > Test Cases**, and click on **Create Test Case**.
-![Test Cases](https://s3.amazonaws.com/static-docs.testsigma.com/new_images/projects/applications/wlmapptc.png)
+   ![Test Cases](https://s3.amazonaws.com/static-docs.testsigma.com/new_images/projects/applications/WhileLoop_MobileNav.png)
 
 2. Click on **Record**. This will open **Record test steps** overlay.
-![Record](https://s3.amazonaws.com/static-docs.testsigma.com/new_images/projects/applications/recmawl.png)
+   ![Record](https://s3.amazonaws.com/static-docs.testsigma.com/new_images/projects/applications/WhileLoop_RecordSteps.png)
 
-3. Select the **Test Lab**, **Test Machine**, App Source and click on **Record**.
-![Test Lab, Test Machine, App Source](https://s3.amazonaws.com/static-docs.testsigma.com/new_images/projects/applications/tltmasrecwl.png)
+3. Select the **Test Lab**, **Test Machine**, **App Source** and click on **Record**.
+   ![Test Lab, Test Machine, App Source](https://s3.amazonaws.com/static-docs.testsigma.com/new_images/projects/applications/WhileLoop_RecStepOvrlay.png)
 
 4. Wait until the virtual app is loaded.
 
-5. On **Testsigma Recorder**, click on the option highlighted and click on **While Loop**.
-![While Loop](https://s3.amazonaws.com/static-docs.testsigma.com/new_images/projects/applications/wlbutsr.png)
+5. On **Test Recorder**, click on the option on the left side of the test step and choose **While Loop**. This will add a while condition in your test step.
+   ![While Loop](https://s3.amazonaws.com/static-docs.testsigma.com/new_images/projects/applications/WhileLoop_MobileRecorder_OptionLeft.png)
 
-6. Record all the steps and click on **Stop Recording** to quit the session. 
-![Stop Recording](https://s3.amazonaws.com/static-docs.testsigma.com/new_images/projects/applications/aswlsr.png)
+6. Hover over the test step and click on **Step Inside Loop** to add sub-steps under the **While Loop**.
+   ![Add Step Inside](https://s3.amazonaws.com/static-docs.testsigma.com/new_images/projects/applications/WhileLoop_StepInside_Mobile.png)
 
-7. You’ll be redirected to the test case creation page where you can see the recorded steps.
-![Test Case Details](https://s3.amazonaws.com/static-docs.testsigma.com/new_images/projects/applications/redirectwltcpage.png)
+7. Record all the steps and click on **Stop Recording** to quit the session. 
+![Stop Recording](https://s3.amazonaws.com/static-docs.testsigma.com/new_images/projects/applications/WhileLoop_Stop_Mobile.png)
+
 
 Here's a quick GIF demonstrating adding While Loop in test cases using the recorder.
 ![GIF Mobile Apps](https://s3.amazonaws.com/static-docs.testsigma.com/new_images/projects/applications/whileloopMapp.gif)

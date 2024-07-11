@@ -24,25 +24,25 @@ In Testsigma, you can control how each test step behaves in your test cases by u
 ---
 
 
-## **Prerequisites**
-
-
-- You should have [Testsigma's step test recorder](https://testsigma.com/docs/test-step-recorder/install-chrome-extension/) installed. 
- 
-
-- You should know how to create **test steps** and [manage a test case](https://testsigma.com/docs/test-cases/manage/add-edit-delete/).
+> ## **Prerequisites**
+> 
+> - You should have [Testsigma's step test recorder](https://testsigma.com/docs/test-step-recorder/install-chrome-extension/) installed. 
+>
+> - You should know how to create **test steps** and [manage a test case](https://testsigma.com/docs/test-cases/manage/add-edit-delete/).
 
 ---
 
 ## **Using Test Step Settings**
 
-1. Hover on one of the recorded test steps and click on **Step Details**.
+1. Hover on one of the recorded test steps, click the **Kebab Menu** and choose **Step Settings** from the dropdown.
 
-![Step Details](https://s3.amazonaws.com/static-docs.testsigma.com/new_images/projects/applications/ctsursdirec.png)
+   ![Step Details](https://s3.amazonaws.com/static-docs.testsigma.com/new_images/projects/applications/TestStep_Settings.png)
 
 2. On **Step Details** prompt, you can edit the following options.
 
-![Step Details Prompt](https://s3.amazonaws.com/static-docs.testsigma.com/new_images/projects/applications/ctsurstepdetailsu.png)
+   ![Step Details Prompt](https://s3.amazonaws.com/static-docs.testsigma.com/new_images/projects/applications/StepDetails_TSettings.png)
+
+### **Available Settings:**
 
 | **Settings** | **Description** |
 |:------------------|:-------------|
