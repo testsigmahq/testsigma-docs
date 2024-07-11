@@ -12,8 +12,8 @@ contextual_links:
   name: "Prerequisites"
   url: "#prerequisites"
 - type: link
-  name: "Add for loop to test case"
-  url: "#add-for-loop-to-test-case"
+  name: "Using For Loop in Test Cases"
+  url: "#using-for-loop-in-test-cases"
 - type: link
   name: "Additional actions possible on iteration count"
   url: "#additional-actions-possible-on-iteration-count"
