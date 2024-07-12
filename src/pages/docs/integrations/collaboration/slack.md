@@ -1,5 +1,5 @@
 ---
-title: "Slack Interation with Testsigma"
+title: "Slack Integration with Testsigma"
 metadesc: "Learn how to configure your Slack channel to receive Pass/Fail/Abort notifications about Test Results as in real-time from Testsigma application"
 noindex: false
 order: 16.21
@@ -24,10 +24,13 @@ contextual_links:
 Testsigma Slack integration sends ***Test Pass/Fail/Abort*** notifications in real-time to your specified Slack channel directly. This ensures that you can collaborate with your teammates by sharing the test results in real-time.
 
 ---
-## **Prerequisites**
-- Slack Incoming Webhook URL. *For more information, refer to [Incoming Webhooks](https://api.slack.com/messaging/webhooks).*
+
+> ## **Prerequisites**
+> 
+> - Slack Incoming Webhook URL. *For more information, refer to [Incoming Webhooks](https://api.slack.com/messaging/webhooks).*
 
 ---
+
 ## **Steps to Integrate Slack with Testsigma**
 1. Navigate to **Settings > Integrations** and enable the toggle on **Slack** widget. 
 ![Integrations](https://s3.amazonaws.com/static-docs.testsigma.com/new_images/projects/applications/navsetslack.png)
