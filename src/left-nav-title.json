@@ -680,5 +680,6 @@
   "import-tsrx-files": { "/docs/windows-automation/import-tsrx-files/": "Importing/Updating TSRx Files" },
   "record-elements": {"/docs/elements/mobile-web-application/record-elements/": "Record Multiple Elements" },
   "add-test-cases-for-mobile-web-app": {"/docs/test-cases/manage/add-test-cases-for-mobile-web-app/": "Test Cases (Mobile Web App)" },
-  "most-common-issues": { "/docs/troubleshooting/salesforce-testing/most-common-issues/": "Most Common Issues" }
+  "most-common-issues": { "/docs/troubleshooting/salesforce-testing/most-common-issues/": "Most Common Issues" },
+  "developer-mode-for-ios": {"/docs/troubleshooting/mobile-apps/developer-mode-for-ios/": "Developer Mode (iOS 16 & Above)" }
 }
