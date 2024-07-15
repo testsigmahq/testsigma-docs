@@ -9,11 +9,14 @@ contextual_links:
 - type: section
   name: "Contents" 
 - type: link
-  name: "Whitelisting Testsigma IP Addresses"
-  url: "#whitelisting-testsigma-ip-addresses"
+  name: "1. Whitelisting Testsigma IP Addresses"
+  url: "#1-whitelisting-testsigma-ip-addresses"
 - type: link
-  name: "Secure Tunnel/VPN"
-  url: "#secure-tunnelvpn"
+  name: "2. Secure Tunnel/VPN"
+  url: "#2-secure-tunnelvpn"
+- type: link
+  name: "3. Testsigma Agent"
+  url: "#3-testsigma-agent"
 ---
 
 ---
@@ -25,7 +28,7 @@ Testsigma’s access to applications deployed on your local machine/network is l
 
 ---
 
-## **Whitelisting Testsigma IP Addresses**
+## **1. Whitelisting Testsigma IP Addresses**
 
 Whitelisting of Testsigma IP addresses is necessary to ensure that the Testsigma servers and lab environments can securely interact with your applications and systems for testing activities. It's a security practice to prevent unauthorized access, and only trusted and verified computers or networks can connect to and interact with the Testsigma environment. This article discusses the whitelisting of Testsigma IPs. 
 
@@ -54,9 +57,26 @@ For more information, see [Guide to IP Whitelisting](https://www.linkedin.com/pu
 
 ---
 
-## **Secure Tunnel/VPN**
+## **2. Secure Tunnel/VPN**
 
 Contact support **support@testsigma.com** to learn more about this. Our team will set up this for you.
+
+
+---
+
+## **3. Testsigma Agent**
+
+You can also test locally hosted applications using the Testsigma Agent, which allows test executions on your local machines. To do this, set up the Testsigma Agent utility on your local machine. 
+
+**For setup and execution, refer to the following links:**
+
+- [Setting Up Testsigma Agent](https://testsigma.com/docs/agent/setup-on-windows-mac-linux/)
+
+- [Triggering Tests on Local Devices](https://testsigma.com/docs/agent/trigger-tests-locally/)
+
+- [Executing Test Plans on Local Devices](https://testsigma.com/docs/runs/test-plans-on-local-devices/)
+
+- [Performing Dry Runs on Local Devices](https://testsigma.com/docs/runs/dry-runs-on-local-devices/)
 
 
 ---
