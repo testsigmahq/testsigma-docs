@@ -19,8 +19,8 @@ contextual_links:
   name: "Use Environment in Test Plan"
   url: "#use-environment-in-test-plan"
 - type: link
-  name: "Environment List View Management"
-  url: "#environment-list-view-management"
+  name: "Environment Variables"
+  url: "#environment-variables"
 ---
 
 ---
@@ -62,7 +62,7 @@ In Testsigma, you can handle and use specific sets of test data linked to differ
 ---
 
 
-## **Environment List View Management**
+## **Environment Variables**
 
 You can effectively manage environmental variables, which ensures consistency across various environments.
 
