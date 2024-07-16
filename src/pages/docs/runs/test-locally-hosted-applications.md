@@ -66,7 +66,7 @@ Contact support **support@testsigma.com** to learn more about this. Our team wil
 
 ## **3. Testsigma Agent**
 
-You can also test locally hosted applications using the Testsigma Agent, which allows test executions on your local machines. To do this, set up the Testsigma Agent utility on your local machine. 
+You can also test locally hosted applications using the Testsigma Agent, which allows test executions on your local machines and mobile devices. To do this, set up the Testsigma Agent utility on your local machine. 
 
 **For setup and execution, refer to the following links:**
 
