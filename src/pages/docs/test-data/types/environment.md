@@ -18,7 +18,9 @@ contextual_links:
 - type: link
   name: "Use Environment in Test Plan"
   url: "#use-environment-in-test-plan"
-  
+- type: link
+  name: "Environment Variables"
+  url: "#environment-variables"
 ---
 
 ---
@@ -27,9 +29,12 @@ In Testsigma, you can handle and use specific sets of test data linked to differ
 
 ---
 
-### **Prerequisite**:
-
-Before using Environment Test Data, you must understand specific concepts such as creating a [Test Case](https://testsigma.com/docs/test-cases/manage/add-edit-delete/#creating-a-test-case), [Test Steps](https://testsigma.com/docs/test-cases/step-types/natural-language/), [Environment](https://testsigma.com/docs/test-data/create-environment-data/), and [Test Plan](https://testsigma.com/docs/runs/test-plan-executions/#steps-to-create-and-execute-test-plan) and how to use them with [Test Data Types](https://testsigma.com/docs/test-data/types/overview/), [Ad-hoc Runs](https://testsigma.com/docs/runs/adhoc-runs/#steps-to-perform-ad-hoc-runs-for-a-test-case).
+> ## **Prerequisites**
+> 
+> - You should know how to create a [Test Case](https://testsigma.com/docs/test-cases/manage/add-edit-delete/#creating-a-test-case) and [Test Steps](https://testsigma.com/docs/test-cases/step-types/natural-language/). 
+> - You should know how to create an [Environment](https://testsigma.com/docs/test-data/create-environment-data/).
+> - You should know how to create a [Test Plan](https://testsigma.com/docs/runs/test-plan-executions/#steps-to-create-and-execute-test-plan) and how to use them with [Test Data Types](https://testsigma.com/docs/test-data/types/overview/).
+> - You should know how to perform [Ad-Hoc Runs](https://testsigma.com/docs/runs/adhoc-runs/#steps-to-perform-ad-hoc-runs-for-a-test-case).
 
 ---
 
@@ -52,5 +57,68 @@ Before using Environment Test Data, you must understand specific concepts such a
 
 1. Navigate to the **Test Plan Settings** tab on the **Create** or **Edit Test Plan** page.
 2. In the **Additional Settings** section, select **Environment** from the drop-down list. ![Environment in Test Plan](https://s3.amazonaws.com/static-docs.testsigma.com/new_images/projects/applications/testplan_environment.png)
+
+
+---
+
+
+## **Environment Variables**
+
+You can effectively manage environmental variables, which ensures consistency across various environments.
+
+Testsigma introduced a centralized master list of environment variables, where users can maintain a clean and organized list of Variables, streamlining the selection process during test authoring.
+
+You can modify environment variable values directly on the Ad-Hoc Run page before execution. 
+
+Testsigma also automates the creation of new and updated keys across all environments, eliminating the need for manual replication and ensuring that changes are cloned consistently. 
+
+---
+
+## **Add Keys & Values to all Environments Globally**
+
+1. From the left navigation bar, go to **Test Data > Environments** and click the **Variables** tab.
+   ![Variables](https://s3.amazonaws.com/static-docs.testsigma.com/new_images/projects/applications/VariablesTab.png)
+
+2. Enter the **Variable** name and **Value** and click **Add**. 
+   ![Add Variables](https://s3.amazonaws.com/static-docs.testsigma.com/new_images/projects/applications/Variable_and_Value.png)
+
+[[info | **NOTE**:]]
+| **Variable** names should be unique and can not be changed once added. 
+
+3. Once the **Variable** is added to the list, click **Update**. 
+   ![Update](https://s3.amazonaws.com/static-docs.testsigma.com/new_images/projects/applications/UpdateVariable.png)
+
+4. Verify the **Variable** added in the **Environments**. 
+   ![Verify Variable](https://s3.amazonaws.com/static-docs.testsigma.com/new_images/projects/applications/VerifyVariable.png)
+
+> Alternatively, you can also add Variables by clicking on **Add Variable**. This will open the **Add Environment Variable** prompt. 
+> ![Add Variable](https://s3.amazonaws.com/static-docs.testsigma.com/new_images/projects/applications/AddVariable.png)
+> 
+> - Enter the **Variable** name and **Value** and click **Create**.
+>   ![Variable Details](https://s3.amazonaws.com/static-docs.testsigma.com/new_images/projects/applications/AddVariablePrompt.png)
+
+5. There will be a default indication with the letter **D** for all the **Variables** added globally. 
+   ![Default Indication](https://s3.amazonaws.com/static-docs.testsigma.com/new_images/projects/applications/DafaultVariableIndication.png)
+
+[[info | **NOTE**:]]
+| Once you edit the **Variable** from the **Environment** page, the default indication with the letter **D** will not be displayed.
+| ![No Default Indication](https://s3.amazonaws.com/static-docs.testsigma.com/new_images/projects/applications/NoIndicationMark.png)
+
+6. From the **Test Case Details** page, click **Run**. This will open the **Ad-Hoc Run** overlay. 
+   ![Ad-Hoc Run](https://s3.amazonaws.com/static-docs.testsigma.com/new_images/projects/applications/VariableAdHoc_Run.png)
+
+7. Go to the **Environment** section and confirm the variables by clicking on **Manage Variables**.
+   ![Manage Variables](https://s3.amazonaws.com/static-docs.testsigma.com/new_images/projects/applications/ManageVariables.png)
+
+8. Update the changes and click **Apply**. 
+   ![New Changes](https://s3.amazonaws.com/static-docs.testsigma.com/new_images/projects/applications/UpdateVariableandApply.png)
+
+9. Click on **Run Now** to execute the test with updated **Environment** and **Variable**. 
+   ![Run Now](https://s3.amazonaws.com/static-docs.testsigma.com/new_images/projects/applications/RunNowwithNewVariables.png)
+
+[[info | **NOTE**:]]
+| Some existing users may notice some empty values in their Environment list. This happens as we have curated your Environment list into a master list. The empty values indicate that the corresponding Environment variables were not previously part of your Environment. With the transition to a master list, these variables are added to ensure the proper usage of the Environment functionality. This change will not impact your existing test cases.
+
+
 
 ---
