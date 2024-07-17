@@ -1,10 +1,10 @@
 ---
-title: "Name Function Type"
-pagetitle: "Generate Random Names Easily with Data Generators"
-metadesc: "Name function in Testsigma data generators allows you to create realistic random names effortlessly. Learn how to use Name and its functions in Testsigma."
+title: "Company Function Type"
+pagetitle: "Generate Realistic Company with Data Generator Functions"
+metadesc: "Explore how the Company function in data generators generates random names for testing and simulations, including first and last names."
 noindex: false
-order: 5.33
-page_id: "name-function-type"
+order: 5.35
+page_id: "company-function-type"
 warning: false
 contextual_links:
 - type: section
@@ -13,40 +13,40 @@ contextual_links:
   name: "Prerequisites"
   url: "#prerequisites"
 - type: link
-  name: "Selecting Name as a Function Type for Data Generator"
-  url: "#selecting-name-as-a-function-type-for-data-generator"
+  name: "Selecting Address as a Function Type for Data Generator"
+  url: "#selecting-adress-as-a-function-type-for-data-generator"
 - type: link
   name: "Name"
   url: "#name"
 - type: link
-  name: "Name with Middle"
-  url: "#name-with-middle"
-- type: link
-  name: "Full Name"
-  url: "#full-name"
-- type: link
-  name: "First Name"
-  url: "#first-name"
-- type: link
-  name: "Last Name"
-  url: "#last-name"
-- type: link
-  name: "Prefix"
-  url: "#prefix"
-- type: link
   name: "Suffix"
   url: "#suffix"
 - type: link
-  name: "Title"
-  url: "#title"
+  name: "Industry"
+  url: "#industry"
 - type: link
-  name: "Username"
-  url: "#username"
+  name: "Profession"
+  url: "#profession"
+- type: link
+  name: "Buzzword"
+  url: "#buzzword"
+- type: link
+  name: "Catch Phrase"
+  url: "#catch-phrase"
+- type: link
+  name: "BS"
+  url: "#bs"
+- type: link
+  name: "Logo"
+  url: "#logo"
+- type: link
+  name: "Join Sample of Each List"
+  url: "#join-sample-of-each-list"
 ---
 
 ---
 
-The Name Function within data generators offers a variety of functions designed to generate random names. These functions include first names, middle names, last names, prefixes, suffixes, titles, and usernames. The Name Function in data generators is invaluable for generating realistic names for testing scenarios, simulations, or database populations. This document outlines the various functions available within the Name Function type of data generators.
+The Company Function Type within data generators facilitates the creation of diverse and realistic company-related data for various applications. This feature suite includes functions that generate essential attributes of fictional companies, ranging from names and industry classifications to branding elements like catchphrases and logos.
 
 ---
 
@@ -56,21 +56,21 @@ Before utilising the different data generator functions, it's essential to under
 
 ---
 
-## **Selecting Name as a Function Type for Data Generator**
+## **Selecting Company as a Function Type for Data Generator**
 
 1. Use **NLP** to create a **new step** in the test case and include a placeholder for **test data**.
 2. Click on the **test data** placeholder. From the **Test Data Types** dropdown menu, select the **! Data Generator** option.
 3. On the **! Data Generators** overlay screen, select the **Type** to **Default**. This will enable you to use a collection of built-in test data generators.
-4. Select **Name** from the **Function Type** dropdown list. ![select name function type from data generators](https://s3.amazonaws.com/static-docs.testsigma.com/new_images/projects/applications/name_functiontype_dg.gif)
+4. Select **Company** from the **Function Type** dropdown list. ![select company function type from data generators](https://s3.amazonaws.com/static-docs.testsigma.com/new_images/projects/applications/company_functiontype_dg.gif)
 
 [[info | NOTE:]]
-| This action will display a list of built-in functions associated with the Name function type, allowing you to select the appropriate function based on your requirements.
+| This action will display a list of built-in functions associated with the Address function type, enabling you to select the appropriate function based on your requirements.
 
 ---
 
-##  **Name**
+## **Name**
 
-- Enables you to generate random first and last names. Use it to create user profiles or generate names for forms.
+- Enables you to generate a random company name to provide realistic names for fictional companies. It is useful for generating sample company names in forms, applications, and databases.
 
 <style>
   .example-container {
@@ -106,250 +106,10 @@ Before utilising the different data generator functions, it's essential to under
     <li><b>Input:</b> None (This function does not require any specific input)</li>
     <li><b>Output:</b></li>
     <ul>
-      <li>Neha Grant</li>
-      <li>Vern Sanford</li>
-      <li>Michael Johnson</li>
-      <li>Sarah Davis</li>
-    </ul>
-  </ul>
-</div>
-
----
-
-## **Name with Middle**
-
-- Allows you to generate more detailed name data including middle names for forms that require middle name fields.
-
-<style>
-  .example-container {
-    border: 1px solid gray;
-    border-radius: 4px;
-    padding: 0.5em;
-    margin: 0.5em 0;
-    background-color: #f2f2f2;
-  }
-  .example-title {
-    color: darkgreen;
-    font-weight: bold;
-    display: flex;
-    align-items: center;
-  }
-  .example-title span {
-    margin-right: 5px;
-  }
-  .example-list {
-    list-style: none;
-    padding: 0;
-  }
-  .example-list li {
-    margin-bottom: 0.5em;
-  }
-</style>
-
-<div class="example-container">
-  <div class="example-title">
-    <span>ℹ️</span>Example:
-  </div>
-  <ul class="example-list">
-    <li><b>Input:</b> None (This function does not require any specific input)</li>
-    <li><b>Output:</b></li>
-    <ul>
-      <li>Roel Roel Ziemann</li>
-      <li>Alysa Alysa Williamson</li>
-      <li>John John Michael</li>
-      <li>Emily Emily Brown</li>
-    </ul>
-  </ul>
-</div>
-
----
-
-## **Full Name**
-
-- Enables you to generate complete random names including first, middle, and last names. This is useful for detailed entries where all name parts are required.
-
-<style>
-  .example-container {
-    border: 1px solid gray;
-    border-radius: 4px;
-    padding: 0.5em;
-    margin: 0.5em 0;
-    background-color: #f2f2f2;
-  }
-  .example-title {
-    color: darkgreen;
-    font-weight: bold;
-    display: flex;
-    align-items: center;
-  }
-  .example-title span {
-    margin-right: 5px;
-  }
-  .example-list {
-    list-style: none;
-    padding: 0;
-  }
-  .example-list li {
-    margin-bottom: 0.5em;
-  }
-</style>
-
-<div class="example-container">
-  <div class="example-title">
-    <span>ℹ️</span>Example:
-  </div>
-  <ul class="example-list">
-    <li><b>Input:</b> None (This function does not require any specific input)</li>
-    <li><b>Output:</b></li>
-    <ul>
-      <li>John Michael Doe</li>
-      <li>Eden Gaylord Jr.</li>
-      <li>Emily Anne Brown</li>
-      <li>Michael Lee Johnson</li>
-    </ul>
-  </ul>
-</div>
-
----
-
-## **First Name**
-
-- Allows you to generate random first names using it for filling out fields where only the first name is required.
-
-<style>
-  .example-container {
-    border: 1px solid gray;
-    border-radius: 4px;
-    padding: 0.5em;
-    margin: 0.5em 0;
-    background-color: #f2f2f2;
-  }
-  .example-title {
-    color: darkgreen;
-    font-weight: bold;
-    display: flex;
-    align-items: center;
-  }
-  .example-title span {
-    margin-right: 5px;
-  }
-  .example-list {
-    list-style: none;
-    padding: 0;
-  }
-  .example-list li {
-    margin-bottom: 0.5em;
-  }
-</style>
-
-<div class="example-container">
-  <div class="example-title">
-    <span>ℹ️</span>Example:
-  </div>
-  <ul class="example-list">
-    <li><b>Input:</b> None (This function does not require any specific input)</li>
-    <li><b>Output:</b></li>
-    <ul>
-      <li>John</li>
-      <li>Daron</li>
-      <li>Emily</li>
-      <li>Sarah</li>
-    </ul>
-  </ul>
-</div>
-
----
-
-## **Last Name**
-
-- Enables you to generate random last names, which are useful for scenarios requiring surnames.
-
-<style>
-  .example-container {
-    border: 1px solid gray;
-    border-radius: 4px;
-    padding: 0.5em;
-    margin: 0.5em 0;
-    background-color: #f2f2f2;
-  }
-  .example-title {
-    color: darkgreen;
-    font-weight: bold;
-    display: flex;
-    align-items: center;
-  }
-  .example-title span {
-    margin-right: 5px;
-  }
-  .example-list {
-    list-style: none;
-    padding: 0;
-  }
-  .example-list li {
-    margin-bottom: 0.5em;
-  }
-</style>
-
-<div class="example-container">
-  <div class="example-title">
-    <span>ℹ️</span>Example:
-  </div>
-  <ul class="example-list">
-    <li><b>Input:</b> None (This function does not require any specific input)</li>
-    <li><b>Output:</b></li>
-    <ul>
-      <li>Smith</li>
-      <li>Hilpert</li>
-      <li>Brown</li>
-      <li>Johnson</li>
-    </ul>
-  </ul>
-</div>
-
----
-
-## **Prefix**
-
-- Enables you to generate random name prefixes, add titles, and other formal honorifics. Prefixes denote titles, honorifics, or social standing. They provide a formal data to the name, showing respect, profession, or marital status.
-
-<style>
-  .example-container {
-    border: 1px solid gray;
-    border-radius: 4px;
-    padding: 0.5em;
-    margin: 0.5em 0;
-    background-color: #f2f2f2;
-  }
-  .example-title {
-    color: darkgreen;
-    font-weight: bold;
-    display: flex;
-    align-items: center;
-  }
-  .example-title span {
-    margin-right: 5px;
-  }
-  .example-list {
-    list-style: none;
-    padding: 0;
-  }
-  .example-list li {
-    margin-bottom: 0.5em;
-  }
-</style>
-
-<div class="example-container">
-  <div class="example-title">
-    <span>ℹ️</span>Example:
-  </div>
-  <ul class="example-list">
-    <li><b>Input:</b> None (This function does not require any specific input)</li>
-    <li><b>Output:</b></li>
-    <ul>
-      <li>Mr.</li>
-      <li>Mrs.</li>
-      <li>Dr.</li>
-      <li>Ms.</li>
+      <li>Tech Innovations Inc.</li>
+      <li>Global Healthcare Solutions</li>
+      <li>Quantum Dynamics Group</li>
+      <li>Innovative Financial Strategies</li>
     </ul>
   </ul>
 </div>
@@ -358,7 +118,7 @@ Before utilising the different data generator functions, it's essential to under
 
 ## **Suffix**
 
-- Allows you to generate a random suffix for a name. Suffixes indicate generational ties, professional qualifications, or honorifics. They frequently signify a person's rank, lineage, or achievements.
+- Allows you to generate a random company suffix to add common legal suffixes to company names. This is ideal for completing company names in legal documents, business forms, and official records.
 
 <style>
   .example-container {
@@ -394,19 +154,19 @@ Before utilising the different data generator functions, it's essential to under
     <li><b>Input:</b> None (This function does not require any specific input)</li>
     <li><b>Output:</b></li>
     <ul>
-      <li>Jr.</li>
-      <li>MD</li>
-      <li>Sr.</li>
-      <li>PhD</li>
+      <li>LLC</li>
+      <li>Inc.</li>
+      <li>Corp.</li>
+      <li>Ltd.</li>
     </ul>
   </ul>
 </div>
 
 ---
 
-## **Title**
+## **Industry**
 
-- Allows you to generate a random title, such as a job title or an honorific, to simulate professional scenarios requiring job titles, such as HR systems or organizational charts.
+- Enables you to generate a random industry name. This is beneficial for filtering and categorizing companies in databases, market analysis, and business simulations.
 
 <style>
   .example-container {
@@ -442,20 +202,67 @@ Before utilising the different data generator functions, it's essential to under
     <li><b>Input:</b> None (This function does not require any specific input)</li>
     <li><b>Output:</b></li>
     <ul>
-      <li>Engineer</li>
-      <li>Chief Assurance Engineer</li>
-      <li>Professor</li>
+      <li>Information Technology</li>
+      <li>Healthcare</li>
+      <li>Financial Services</li>
+      <li>Manufacturing</li>
+    </ul>
+  </ul>
+</div>
+
+---
+
+## **Profession**
+
+- Allows you to generate a random profession related to the company's industry. This is useful for creating employee profiles, job listings, and role-based testing scenarios.
+
+<style>
+  .example-container {
+    border: 1px solid gray;
+    border-radius: 4px;
+    padding: 0.5em;
+    margin: 0.5em 0;
+    background-color: #f2f2f2;
+  }
+  .example-title {
+    color: darkgreen;
+    font-weight: bold;
+    display: flex;
+    align-items: center;
+  }
+  .example-title span {
+    margin-right: 5px;
+  }
+  .example-list {
+    list-style: none;
+    padding: 0;
+  }
+  .example-list li {
+    margin-bottom: 0.5em;
+  }
+</style>
+
+<div class="example-container">
+  <div class="example-title">
+    <span>ℹ️</span>Example:
+  </div>
+  <ul class="example-list">
+    <li><b>Input:</b> None (This function does not require any specific input)</li>
+    <li><b>Output:</b></li>
+    <ul>
+      <li>Software Engineer</li>
+      <li>Financial Analyst</li>
       <li>Doctor</li>
+      <li>Operations Manager</li>
     </ul>
   </ul>
 </div>
 
-
 ---
 
-## **Username**
+## **Buzzword**
 
-- Enables you to generate a random username, typically based on the first and last names or random alphanumeric characters, for testing login systems, user registration processes, and other scenarios requiring unique usernames. 
+- Enables you to generate a random business buzzword. This is useful for to convey a concept or idea succinctly, often associated with current trends or technology.
 
 <style>
   .example-container {
@@ -491,13 +298,232 @@ Before utilising the different data generator functions, it's essential to under
     <li><b>Input:</b> None (This function does not require any specific input)</li>
     <li><b>Output:</b></li>
     <ul>
-      <li>johnsmith</li>
-      <li>edmond.heller</li>
-      <li>emily.brown</li>
-      <li>sarah.davis</li>
+      <li>Disruptive Innovation</li>
+      <li>Customer-Centric Approach</li>
+      <li>Blockchain Integration</li>
+      <li>AI-driven Solutions</li>
     </ul>
   </ul>
 </div>
 
+---
+
+## **Catch Phrase**
+
+- Allows you to generate a random company catchphrase using it. It is designed to be catchy, memorable, and often used in marketing campaigns to leave a lasting impression.
+
+<style>
+  .example-container {
+    border: 1px solid gray;
+    border-radius: 4px;
+    padding: 0.5em;
+    margin: 0.5em 0;
+    background-color: #f2f2f2;
+  }
+  .example-title {
+    color: darkgreen;
+    font-weight: bold;
+    display: flex;
+    align-items: center;
+  }
+  .example-title span {
+    margin-right: 5px;
+  }
+  .example-list {
+    list-style: none;
+    padding: 0;
+  }
+  .example-list li {
+    margin-bottom: 0.5em;
+  }
+</style>
+
+<div class="example-container">
+  <div class="example-title">
+    <span>ℹ️</span>Example:
+  </div>
+  <ul class="example-list">
+    <li><b>Input:</b> None (This function does not require any specific input)</li>
+    <li><b>Output:</b></li>
+    <ul>
+      <li>Empowering Your Future</li>
+      <li>Transforming Healthcare Delivery</li>
+      <li>Driving Financial Success</li>
+      <li>Leading Manufacturing Innovation</li>
+    </ul>
+  </ul>
+</div>
 
 ---
+
+## **BS**
+
+- Enables you to generate a random business strategy (BS) phrase. It is useful for testing humor recognition, text processing algorithms, and generating playful business dialogues.
+
+<style>
+  .example-container {
+    border: 1px solid gray;
+    border-radius: 4px;
+    padding: 0.5em;
+    margin: 0.5em 0;
+    background-color: #f2f2f2;
+  }
+  .example-title {
+    color: darkgreen;
+    font-weight: bold;
+    display: flex;
+    align-items: center;
+  }
+  .example-title span {
+    margin-right: 5px;
+  }
+  .example-list {
+    list-style: none;
+    padding: 0;
+  }
+  .example-list li {
+    margin-bottom: 0.5em;
+  }
+</style>
+
+<div class="example-container">
+  <div class="example-title">
+    <span>ℹ️</span>Example:
+  </div>
+  <ul class="example-list">
+    <li><b>Input:</b> None (This function does not require any specific input)</li>
+    <li><b>Output:</b></li>
+    <ul>
+      <li>Leveraging Agile Methodologies</li>
+      <li>Pioneering Data Analytics</li>
+      <li>Optimizing Supply Chain Efficiency</li>
+      <li>Revolutionizing Customer Experience</li>
+    </ul>
+  </ul>
+</div>
+
+---
+
+## **Logo**
+
+- Allows you to generate a random URL for a company logo. This is useful for testing image display functionality, logo uploads, and visual elements in applications and websites.
+
+<style>
+  .example-container {
+    border: 1px solid gray;
+    border-radius: 4px;
+    padding: 0.5em;
+    margin: 0.5em 0;
+    background-color: #f2f2f2;
+  }
+  .example-title {
+    color: darkgreen;
+    font-weight: bold;
+    display: flex;
+    align-items: center;
+  }
+  .example-title span {
+    margin-right: 5px;
+  }
+  .example-list {
+    list-style: none;
+    padding: 0;
+  }
+  .example-list li {
+    margin-bottom: 0.5em;
+  }
+</style>
+
+<div class="example-container">
+  <div class="example-title">
+    <span>ℹ️</span>Example:
+  </div>
+  <ul class="example-list">
+    <li><b>Input:</b> None (This function does not require any specific input)</li>
+    <li><b>Output:</b></li>
+    <ul>
+      <li>"https://dummyimage.com/100x100/000/fff&text=Logo1"</li>
+      <li>"https://dummyimage.com/100x100/000/fff&text=Logo2"</li>
+      <li>"https://dummyimage.com/100x100/000/fff&text=Logo3"</li>
+      <li>"https://dummyimage.com/100x100/000/fff&text=Logo4"</li>
+    </ul>
+  </ul>
+</div>
+
+--- 
+
+## **Join Sample of Each List**
+
+- Enables you to generate Joins samples from multiple lists into one compound word. By combining outputs from Name, Suffix, Industry, Profession, Buzzword, CatchPhrase, BS, and Logo functions, you can rapidly generate complete company profiles.
+
+<style>
+  .example-container {
+    border: 1px solid gray;
+    border-radius: 4px;
+    padding: 0.5em;
+    margin: 0.5em 0;
+    background-color: #f2f2f2;
+  }
+  .example-title {
+    color: darkgreen;
+    font-weight: bold;
+    display: flex;
+    align-items: center;
+  }
+  .example-title span {
+    margin-right: 5px;
+  }
+  .example-list {
+    list-style: none;
+    padding: 0;
+  }
+  .example-list li {
+    margin-bottom: 0.5em;
+  }
+  table {
+    border-collapse: collapse;
+    width: 100%;
+  }
+  th, td {
+    border: 1px solid #ddd;
+    padding: 8px;
+    text-align: left;
+  }
+  th {
+    background-color: #f2f2f2;
+  }
+</style>
+<div class="example-container">
+  <div class="example-title">
+    <span>ℹ️</span>Example:
+  </div><br>
+<table>
+  <thead>
+    <tr>
+      <th>Input</th>
+      <th>Output</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td><b>arg0</b>: Tech Innovations Inc.,<br><b>arg1</b>: Empowering Your Future</td>
+      <td>Tech Innovations Inc., Empowering Your Future</td>
+    </tr>
+    <tr>
+      <td><b>arg0</b>: Global Healthcare Solutions, Inc.,<br><b>arg1</b>: Transforming Healthcare Delivery</td>
+      <td>Global Healthcare Solutions, Transforming Healthcare Delivery</td>
+    </tr>
+    <tr>
+      <td><b>arg0</b>: Quantum Dynamics Group,<br><b>arg1</b>: Driving Financial Success</td>
+      <td>Quantum Dynamics Group, Driving Financial Success</td>
+    </tr>
+    <tr>
+      <td><b>arg0</b>: Innovative Financial Strategies,<br><b>arg1</b>: Leading Manufacturing Innovation</td>
+      <td>Innovative Financial Strategies, Leading Manufacturing Innovation</td>
+    </tr>
+  </table>
+</div>
+
+---
+
+
