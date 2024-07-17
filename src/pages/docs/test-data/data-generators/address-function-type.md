@@ -14,7 +14,7 @@ contextual_links:
   url: "#prerequisites"
 - type: link
   name: "Selecting Address as a Function Type for Data Generator"
-  url: "#selecting-adress-as-a-function-type-for-data-generator"
+  url: "#selecting-address-as-a-function-type-for-data-generator"
 - type: link
   name: "Street Name"
   url: "#street-name"

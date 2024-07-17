@@ -13,8 +13,8 @@ contextual_links:
   name: "Prerequisites"
   url: "#prerequisites"
 - type: link
-  name: "Selecting Address as a Function Type for Data Generator"
-  url: "#selecting-adress-as-a-function-type-for-data-generator"
+  name: "Selecting Company as a Function Type for Data Generator"
+  url: "#selecting-company-as-a-function-type-for-data-generator"
 - type: link
   name: "Name"
   url: "#name"

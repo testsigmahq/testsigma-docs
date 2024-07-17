@@ -10,6 +10,12 @@ contextual_links:
 - type: section
   name: "Contents"
 - type: link
+  name: "Prerequisites"
+  url: "#prerequisites"
+- type: link
+  name: "Selecting File as a Function Type for Data Generator"
+  url: "#selecting-file-as-a-function-type-for-data-generator"
+- type: link
   name: "Extension"
   url: "#extension"  
 - type: link
