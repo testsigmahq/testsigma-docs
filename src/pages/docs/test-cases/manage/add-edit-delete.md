@@ -27,7 +27,6 @@ contextual_links:
 - type: link
   name: "Recover Deleted Test Case"
   url: "#recover-deleted-test-case" 
-
 ---
 
 ---
@@ -36,9 +35,9 @@ Testsigma provides a comprehensive and user-friendly solution for efficiently cr
 
 ---
 
-## **Prerequisites**
-
-- Ensure you create a [project](https://testsigma.com/docs/projects/overview/) before creating test cases in Testsigma. 
+> ## **Prerequisites**
+>
+> Ensure you create a [Project](https://testsigma.com/docs/projects/overview/) before creating Test Cases in Testsigma. 
 
 ---
 
@@ -135,5 +134,6 @@ Use the right-side navbar on the **Test Case Details** page to access Advanced O
 
 [[info | NOTE:]]
 | Deleting the test case permanently will result in losing all Run reports and associated configurations.
+
 
 ---
