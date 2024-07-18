@@ -1,6 +1,6 @@
 ---
 title: "Test Step Settings for Test Cases"
-page_title: "Test Step Settings | Testsigma Documentation"
+page_title: "Test Step Settings"
 metadesc: "Configure wait times, retries, visuals, and other settings for efficient test automation in Testsigma using Test Step Settings and customise test execution."
 noindex: false
 order: 4.612
@@ -26,14 +26,13 @@ Controlling the behavior of each test step can be important to enhance your test
 
 ---
 
-## **Prerequisites** 
-
-
-- You should know about [projects](https://testsigma.com/docs/projects/overview/) in Testsigma. 
-   
-- You should know how to [manage a test case](https://testsigma.com/docs/test-cases/manage/add-edit-delete/).
-
-- You should know how to [manage test steps](https://testsigma.com/docs/test-cases/step-types/natural-language/).
+> ## **Prerequisites**
+> 
+> - You should know about [Projects](https://testsigma.com/docs/projects/overview/) in Testsigma. 
+>   
+> - You should know how to [manage a Test Case](https://testsigma.com/docs/test-cases/manage/add-edit-delete/).
+>
+> - You should know how to [manage Test Steps](https://testsigma.com/docs/test-cases/step-types/natural-language/).
 
 ---
 

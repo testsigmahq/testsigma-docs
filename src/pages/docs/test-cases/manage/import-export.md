@@ -28,8 +28,9 @@ You can easily use test case import and export to populate a new Testsigma proje
 
 ---
 
-## **Prerequisites**
-- You should know how to [manage projects](https://testsigma.com/docs/projects/overview/).
+> ## **Prerequisites**
+> 
+> - You should know how to [Manage Projects](https://testsigma.com/docs/projects/overview/).
 
 ---
 

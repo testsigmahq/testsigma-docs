@@ -23,13 +23,13 @@ Using Bulk Actions in Testsigma simplifies managing multiple test steps. You can
 
 ---
 
-## **Prerequisites**
-
-- You should know about [projects](https://testsigma.com/docs/projects/overview/) in Testsigma. 
-   
-- You should know how to [manage a test case](https://testsigma.com/docs/test-cases/manage/add-edit-delete/).
-
-- You should know how to [manage test steps](https://testsigma.com/docs/test-cases/step-types/natural-language/).
+> ## **Prerequisites**
+> 
+> - You should know about [Projects](https://testsigma.com/docs/projects/overview/) in Testsigma. 
+>   
+> - You should know how to [manage a Test Case](https://testsigma.com/docs/test-cases/manage/add-edit-delete/).
+>
+> - You should know how to [manage Test Steps](https://testsigma.com/docs/test-cases/step-types/natural-language/).
 
 ---
 
