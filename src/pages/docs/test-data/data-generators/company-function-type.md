@@ -46,7 +46,7 @@ contextual_links:
 
 ---
 
-The Company Function Type within data generators facilitates the creation of diverse and realistic company-related data for various applications. This feature suite includes functions that generate essential attributes of fictional companies, ranging from names and industry classifications to branding elements like catchphrases and logos.
+Company Functions are data generator tools that create realistic company-related data elements. These functions generate company names, suffixes, industries, professions, buzzwords, catchphrases, business strategy phrases, and logo URLs. This enables you to create comprehensive company profiles for testing and development purposes.
 
 ---
 

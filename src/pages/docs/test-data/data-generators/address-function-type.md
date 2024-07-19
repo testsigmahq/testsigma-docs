@@ -79,7 +79,7 @@ contextual_links:
 
 ---
 
-The Address Function Type provides various functions that generate realistic and varied address components. These functions help in creating complete and detailed addresses, which are crucial for ensuring the proper handling of various address formats and elements in different applications. Each function focuses on a specific address part, allowing for the creation of comprehensive and authentic address data for diverse purposes.
+Address functions generate various components of address data, such as street names, city names, and postal codes. These functions help create realistic and comprehensive address information for testing and data simulation purposes. You can generate complete addresses or individual elements like building numbers and ZIP codes.
 
 ---
 
@@ -1003,7 +1003,7 @@ Before utilising the different data generator functions, it's essential to under
 
 ## **Building Number**
 
-- Allows you to generate random building numbers. It provides numeric identifiers for buildings or addresses in applications that require specific location details.
+- Allows you to generates a random building number for address data and ensures that the generated addresses include a realistic building number.
 
 <style>
   .example-container {
