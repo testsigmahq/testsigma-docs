@@ -105,19 +105,19 @@ Before utilising the different data generator functions, it's essential to under
     </thead>
     <tbody>
     <tr>
-      <td>username length: 10</td>
+      <td><b>username length</b>: 10</td>
       <td>johnsmith1</td>
     </tr>
     <tr>
-      <td>username length: 6</td>
+      <td><b>username length</b>: 6</td>
       <td>sarah5</td>
     </tr>
     <tr>
-      <td>username length: 10</td>
+      <td><b>username length</b>: 10</td>
       <td>sarahglenn</td>
     </tr>
     <tr>
-      <td>username length: 6</td>
+      <td><b>username length</b>: 6</td>
       <td>robert</td>
     </tr>
     </tbody>
@@ -175,19 +175,19 @@ Before utilising the different data generator functions, it's essential to under
     </thead>
     <tbody>
       <tr>
-        <td>username length: 8</td>
+        <td><b>username length</b>: 8</td>
         <td>abc12345@example.com</td>
       </tr>
       <tr>
-        <td>username length: 12</td>
+        <td><b>username length</b>: 12</td>
         <td>xyz67890abcd@example.com</td>
       </tr>
       <tr>
-        <td>username length: 10</td>
+        <td><b>username length</b>: 10</td>
         <td>pqrs9876@example.com</td>
       </tr>
       <tr>
-        <td>username length: 6</td>
+        <td><b>username length</b>: 6</td>
         <td>mno345@example.com</td>
       </tr>
     </tbody>
@@ -247,19 +247,19 @@ Before utilising the different data generator functions, it's essential to under
     </thead>
     <tbody>
       <tr>
-        <td>username length: 10,<br>Domain: mydomain.com</td>
+        <td><b>username length</b>: 10,<br><b>Domain</b>: mydomain.com</td>
         <td>user1234ab@mydomain.com</td>
       </tr>
       <tr>
-        <td>username length: 8,<br>Domain: example.org</td>
+        <td><b>username length</b>: 8,<br><b>Domain</b>: example.org</td>
         <td>test5678@example.org</td>
       </tr>
       <tr>
-        <td>username length: 12,<br>Domain: mail.com</td>
+        <td><b>username length</b>: 12,<br><b>Domain</b>: mail.com</td>
         <td>alpha890beta@mail.com</td>
       </tr>
       <tr>
-        <td>username length: 6,<br>Domain: customdomain.com</td>
+        <td><b>username length</b>: 6,<br><b>Domain</b>: customdomain.com</td>
         <td>abc456@customdomain.com</td>
       </tr>
     </tbody>
@@ -319,19 +319,19 @@ Before utilising the different data generator functions, it's essential to under
     </thead>
     <tbody>
       <tr>
-        <td>username length: 6,<br>Domain: sample.com</td>
+        <td><b>username length</b>: 6,<br><b>Domain</b>: sample.com</td>
         <td>user12@sample.com</td>
       </tr>
       <tr>
-        <td>username length: 8,<br>Domain: example.com</td>
+        <td><b>username length</b>: 8,<br><b>Domain</b>: example.com</td>
         <td>test4567@example.com</td>
       </tr>
       <tr>
-        <td>username length: 10,<br>Domain: domain.org</td>
+        <td><b>username length</b>: 10,<br><b>Domain</b>: domain.org</td>
         <td>randomuser@domain.org</td>
       </tr>
       <tr>
-        <td>username length: 7,<br>Domain: mail.net</td>
+        <td><b>username length</b>: 7,<br><b>Domain</b>: mail.net</td>
         <td>abc1234@mail.net</td>
       </tr>
     </tbody>
@@ -391,19 +391,19 @@ Before utilising the different data generator functions, it's essential to under
     </thead>
     <tbody>
       <tr>
-        <td>username length: 12</td>
+        <td><b>username length</b>: 12</td>
         <td>randomuser@domain.com</td>
       </tr>
       <tr>
-        <td>username length: 10</td>
+        <td><b>username length</b>: 10</td>
         <td>sampleuser@domain.com</td>
       </tr>
       <tr>
-        <td>username length: 8</td>
+        <td><b>username length</b>: 8</td>
         <td>testuser@domain.com</td>
       </tr>
       <tr>
-        <td>username length: 6</td>
+        <td><b>username length</b>: 6</td>
         <td>user01@domain.com</td>
       </tr>
     </tbody>
