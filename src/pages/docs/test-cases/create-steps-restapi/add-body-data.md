@@ -31,6 +31,7 @@ contextual_links:
 ---
 
 ---
+
 Adding body data in RESTful API testing is the process of sending additional data to the server in the body of the request. You will need to send body data with requests whenever you need to add or update structured data. For example, if you're sending a request to add a new customer to a database, you might include the customer details in **JSON**. Typically, you will use body data with **PUT**, **POST**, and **PATCH** requests.
 
 [[info | NOTE:]]

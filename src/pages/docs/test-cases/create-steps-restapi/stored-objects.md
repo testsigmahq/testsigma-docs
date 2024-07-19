@@ -16,7 +16,10 @@ contextual_links:
 ---
 
 ---
+
 Stored objects have **GLOBAL** scope, which can be used for cross-test case verification. Objects can be saved using the Rest API.  Stored objects in RESTful API testing refer to the data that is stored in the database and is used to test the API. This data can include user accounts, product information, and other data that is used to test the API. The stored objects are used to ensure that the API is functioning correctly and that the data is being returned correctly. You can **download** objects from **save response** and **stored objects** tab.
+
+---
 
 ## **Store Objects from Save response**
 

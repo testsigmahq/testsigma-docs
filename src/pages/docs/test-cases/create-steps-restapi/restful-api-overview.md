@@ -11,6 +11,9 @@ contextual_links:
 - type: section
   name: "Contents" 
 - type: link
+  name: "Prerequisites"
+  url: "#prerequisites"
+- type: link
   name: "Resources"
   url: "#resources"
 
@@ -21,9 +24,11 @@ Testsigma supports Restful APIs Testing. RESTful APIs allow you to access resour
 
 ---
 
-### **Prerequisites**
-
-You'll need to know how to [create a test case](https://testsigma.com/docs/test-cases/manage/add-edit-delete/#creating-a-test-case) and [add RESTful API in the test steps](https://testsigma.com/docs/test-cases/step-types/rest-api/#add-restful-api-in-test-steps).
+> ## **Prerequisites**
+>
+> - You should know how to [create a Test Case](https://testsigma.com/docs/test-cases/manage/add-edit-delete/#creating-a-test-case). 
+> 
+> - You should know how to [add Rest API in the test steps](https://testsigma.com/docs/test-cases/step-types/rest-api/#add-restful-api-in-test-steps).
 
 ---
 
