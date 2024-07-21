@@ -3,7 +3,7 @@ title: "Internet Function Type"
 pagetitle: "Internet Function for Generating Domain Names and Emails"
 metadesc: "Learn how the Internet Function Type generates domain names, email addresses, URLs, and images for various testing scenarios with practical examples."
 noindex: false
-order: 5.40
+order: 5.42
 page_id: "internet-function-type"
 warning: false
 contextual_links:
@@ -70,7 +70,7 @@ Before utilising the different data generator functions, it's essential to under
 4. Select **Internet** from the **Function Type** dropdown list. ![select internet function type from data generators](https://s3.amazonaws.com/static-docs.testsigma.com/new_images/projects/applications/internet_functiontype_dg.gif)
 
 [[info | NOTE:]]
-| This action will display a list of built-in functions associated with the Address function type, enabling you to select the appropriate function based on your requirements.
+| This action will display a list of built-in functions associated with the Internet function type, enabling you to select the appropriate function based on your requirements.
 
 ---
 

@@ -3,7 +3,7 @@ title: "File Function Type"
 pagetitle: "Importing File Function Type for Dynamic File Handling"
 metadesc: "Learn to utilize the File Function Type for dynamic file handling in your applications to generate random file extensions, MIME types, and file names."
 noindex: false
-order: 5.37
+order: 5.39
 page_id: "file-function-type"
 warning: false
 contextual_links:
@@ -49,7 +49,7 @@ Before utilising the different data generator functions, it's essential to under
 4. Select **File** from the **Function Type** dropdown list. ![select datefunctions function type from data generators](https://s3.amazonaws.com/static-docs.testsigma.com/new_images/projects/applications/file_functiontype_dg.gif)
 
 [[info | NOTE:]]
-| This action will display a list of built-in functions associated with the Address function type, enabling you to select the appropriate function based on your requirements.
+| This action will display a list of built-in functions associated with the File function type, enabling you to select the appropriate function based on your requirements.
 
 ---
 

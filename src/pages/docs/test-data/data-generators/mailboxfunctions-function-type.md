@@ -3,7 +3,7 @@ title: "MailboxFunctions Function Type"
 pagetitle: "Explore MailBoxFunctions for Efficient Email Handling"
 metadesc: "Explore how MailBoxFunctions streamlines email data retrieval for improved workflow efficiency and clarity. Discover examples and detailed instructions."
 noindex: false
-order: 5.42
+order: 5.44
 page_id: "mailboxfunctions-function-type"
 warning: false
 contextual_links:
@@ -70,7 +70,7 @@ Before utilising the different data generator functions, it's essential to under
 4. Select **MailboxFunctions** from the **Function Type** dropdown list. ![select number function type from data generators](https://s3.amazonaws.com/static-docs.testsigma.com/new_images/projects/applications/mailboxfuntions_functiontype_dg.gif)
 
 [[info | NOTE:]]
-| This action will display a list of built-in functions associated with the Address function type, enabling you to select the appropriate function based on your requirements.
+| This action will display a list of built-in functions associated with the MailboxFunctions function type, enabling you to select the appropriate function based on your requirements.
 
 ---
 

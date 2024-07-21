@@ -70,7 +70,7 @@ Before utilising the different data generator functions, it's essential to under
 4. Select **DateFunctions** from the **Function Type** dropdown list. ![select datefunctions function type from data generators](https://s3.amazonaws.com/static-docs.testsigma.com/new_images/projects/applications/datefuntions_functiontype_dg.gif)
 
 [[info | NOTE:]]
-| This action will display a list of built-in functions associated with the Address function type, enabling you to select the appropriate function based on your requirements.
+| This action will display a list of built-in functions associated with the DateFunctions function type, enabling you to select the appropriate function based on your requirements.
 
 ---
 

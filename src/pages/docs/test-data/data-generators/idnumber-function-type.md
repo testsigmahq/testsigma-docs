@@ -3,7 +3,7 @@ title: "IdNumber Function Type"
 pagetitle: "Generate Valid and Invalid Identification Numbers"
 metadesc: "The IdNumber function in data generators allows you to simulate US standard identification numbers, including valid SSNs, validSvSeSSn and unique formats."
 noindex: false
-order: 5.38
+order: 5.41
 page_id: "idnumber-function-type"
 warning: false
 contextual_links:
@@ -52,7 +52,7 @@ Before utilising the different data generator functions, it's essential to under
 4. Select **IdNumber** from the **Function Type** dropdown list. ![select datefunctions function type from data generators](https://s3.amazonaws.com/static-docs.testsigma.com/new_images/projects/applications/idnumber_functiontype_dg.gif)
 
 [[info | NOTE:]]
-| This action will display a list of built-in functions associated with the Address function type, enabling you to select the appropriate function based on your requirements.
+| This action will display a list of built-in functions associated with the IdNumber function type, enabling you to select the appropriate function based on your requirements.
 
 ---
 
