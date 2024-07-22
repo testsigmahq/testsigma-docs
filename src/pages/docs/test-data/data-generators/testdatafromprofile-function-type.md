@@ -3,7 +3,7 @@ title: "TestDataFromProfile Function Type"
 pagetitle: "Generate and Manage Email Addresses with EmailFunctions"
 metadesc: "TestDataFromProfile function type allows you to create various email addresses with ease. Learn to generate usernames, random emails, and domain-specific emails."
 noindex: false
-order: 5.45
+order: 5.54
 page_id: "testdatafromprofile-function-type"
 warning: false
 contextual_links:
@@ -43,7 +43,7 @@ Before utilising the different data generator functions, it's essential to under
 4. Select **TestDataFromProfile** from the **Function Type** dropdown list. ![select testdatafromprofile function type from data generators](https://s3.amazonaws.com/static-docs.testsigma.com/new_images/projects/applications/testdatafromprofile_functiontype_dg.gif)
 
 [[info | NOTE:]]
-| This action will display a list of built-in functions associated with the Address function type, enabling you to select the appropriate function based on your requirements.
+| This action will display a list of built-in functions associated with the TestDataFromProfile function type, enabling you to select the appropriate function based on your requirements.
 
 ---
 

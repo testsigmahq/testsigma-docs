@@ -3,7 +3,7 @@ title: "Number Function Type"
 pagetitle: "Generate Random Numbers and Digits | Data Generator Function"
 metadesc: "Explore efficient data generator functions for seamlessly creating random numbers, digits, and decimals in diverse applications and scenarios."
 noindex: false
-order: 5.41
+order: 5.47
 page_id: "number-function-type"
 warning: false
 contextual_links:
@@ -61,7 +61,7 @@ Before utilising the different data generator functions, it's essential to under
 4. Select **Number** from the **Function Type** dropdown list. ![select number function type from data generators](https://s3.amazonaws.com/static-docs.testsigma.com/new_images/projects/applications/number_functiontype_dg.gif)
 
 [[info | NOTE:]]
-| This action will display a list of built-in functions associated with the Address function type, enabling you to select the appropriate function based on your requirements.
+| This action will display a list of built-in functions associated with the Number function type, enabling you to select the appropriate function based on your requirements.
 
 ---
 
@@ -114,19 +114,19 @@ Before utilising the different data generator functions, it's essential to under
     </thead>
     <tbody>
       <tr>
-      <td>min: 1, max: 100</td>
+      <td><b>min</b>: 1,<br><b>max</b>: 100</td>
       <td>73</td>
     </tr>
     <tr>
-      <td>min: 10, max: 50</td>
+      <td><b>min</b>: 10,<br><b>max</b>: 50</td>
       <td>32</td>
     </tr>
     <tr>
-      <td>min: 100, max: 500</td>
+      <td><b>min</b>: 100,<br><b>max</b>: 500</td>
       <td>418</td>
     </tr>
     <tr>
-      <td>min: 5, max: 20</td>
+      <td><b>min</b>: 5,<br><b>max</b>: 20</td>
       <td>15</td>
     </tr>
     </tbody>
@@ -292,19 +292,19 @@ Before utilising the different data generator functions, it's essential to under
     </thead>
     <tbody>
       <tr>
-      <td>Digits: 5, Boolean: True</td>
+      <td><b>Digits</b>: 5,<br><b>Boolean</b>: True</td>
       <td>39485</td>
     </tr>
     <tr>
-      <td>Digits: 4, Boolean: False</td>
+      <td><b>Digits</b>: 4,<br><b>Boolean</b>: False</td>
       <td>-3276</td>
     </tr>
     <tr>
-      <td>Digits: 3, Boolean: True</td>
+      <td><b>Digits</b>: 3,<br><b>Boolean</b>: True</td>
       <td>821</td>
     </tr>
     <tr>
-      <td>Digits: 6, Boolean: False</td>
+      <td><b>Digits</b>: 6,<br><b>Boolean</b>: False</td>
       <td>-491257</td>
     </tr>
     </tbody>
@@ -410,25 +410,25 @@ Before utilising the different data generator functions, it's essential to under
   <table class="example-table">
     <thead>
       <tr>
-        <th>Input</th>
-        <th>Output</th>
+        <th>Inputs</th>
+        <th>Outputs</th>
       </tr>
     </thead>
     <tbody>
       <tr>
-      <td>Max No of Decimals: 2, Min: 1.5, Max: 5.5</td>
+      <td><b>Max No of Decimals</b>: 2,<br><b>Min</b>: 1.5,<br><b>Max</b>: 5.5</td>
       <td>3.47</td>
     </tr>
     <tr>
-      <td>Max No of Decimals: 3, Min: 10.1, Max: 20.5</td>
+      <td><b>Max No of Decimals</b>: 3,<br><b>Min</b>: 10.1,<br><b>Max</b>: 20.5</td>
       <td>15.234</td>
     </tr>
     <tr>
-      <td>Max No of Decimals: 1, Min: 100.0, Max: 200.0</td>
+      <td><b>Max No of Decimals</b>: 1,<br><b>Min</b>: 100.0,<br><b>Max</b>: 200.0</td>
       <td>145.7</td>
     </tr>
     <tr>
-      <td>Max No of Decimals: 4, Min: 0.1, Max: 1.0</td>
+      <td><b>Max No of Decimals</b>: 4,<br><b>Min</b>: 0.1,<br><b>Max</b>: 1.0</td>
       <td>0.7564</td>
     </tr>
     </tbody>
@@ -480,25 +480,25 @@ Before utilising the different data generator functions, it's essential to under
   <table class="example-table">
     <thead>
       <tr>
-        <th>Input</th>
-        <th>Output</th>
+        <th>Inputs</th>
+        <th>Outputs</th>
       </tr>
     </thead>
     <tbody>
       <tr>
-      <td>Count: 3</td>
+      <td><b>Count</b>: 3</td>
       <td>593</td>
     </tr>
     <tr>
-      <td>Count: 5</td>
+      <td><b>Count</b>: 5</td>
       <td>48291</td>
     </tr>
     <tr>
-      <td>Count: 2</td>
+      <td><b>Count</b>: 2</td>
       <td>47</td>
     </tr>
     <tr>
-      <td>Count: 6</td>
+      <td><b>Count</b>: 6</td>
       <td>384719</td>
     </tr>
     </tbody>

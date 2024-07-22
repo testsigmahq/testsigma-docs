@@ -3,7 +3,7 @@ title: "Name Function Type"
 pagetitle: "Generate Random Names Easily with Data Generators"
 metadesc: "Name function in Testsigma data generators allows you to create realistic random names effortlessly. Learn how to use Name and its functions in Testsigma."
 noindex: false
-order: 5.33
+order: 5.45
 page_id: "name-function-type"
 warning: false
 contextual_links:

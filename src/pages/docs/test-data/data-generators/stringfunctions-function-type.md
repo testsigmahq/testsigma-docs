@@ -3,7 +3,7 @@ title: "StringFunctions Function Type"
 pagetitle: "Transform Text Easily with StringFunctions"
 metadesc: "StringFunctions in Testsigma enable dynamic string manipulation, including concatenation and variable substitution, which is ideal for flexible data generation."
 noindex: false
-order: 5.44
+order: 5.53
 page_id: "stringfunctions-function-type"
 warning: false
 contextual_links:
@@ -43,7 +43,7 @@ Before utilising the different data generator functions, it's essential to under
 4. Select **StringFunctions** from the **Function Type** dropdown list. ![select stringfunctions function type from data generators](https://s3.amazonaws.com/static-docs.testsigma.com/new_images/projects/applications/stringfunctions_functiontype_dg.gif)
 
 [[info | NOTE:]]
-| This action will display a list of built-in functions associated with the Address function type, enabling you to select the appropriate function based on your requirements.
+| This action will display a list of built-in functions associated with the StringFunctions function type, enabling you to select the appropriate function based on your requirements.
 
 ---
 
