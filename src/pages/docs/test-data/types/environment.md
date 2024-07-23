@@ -21,6 +21,12 @@ contextual_links:
 - type: link
   name: "Environment Variables"
   url: "#environment-variables"
+- type: link
+  name: "Add Keys & Values to all Environments Globally"
+  url: "#add-keys--values-to-all-environments-globally"
+- type: link
+  name: "Use Environment Variables to Select Test Data Values"
+  url: "#use-environment-variables-to-select-test-data-values"
 ---
 
 ---
@@ -119,6 +125,17 @@ Testsigma also automates the creation of new and updated keys across all environ
 [[info | **NOTE**:]]
 | Some existing users may notice some empty values in their Environment list. This happens as we have curated your Environment list into a master list. The empty values indicate that the corresponding Environment variables were not previously part of your Environment. With the transition to a master list, these variables are added to ensure the proper usage of the Environment functionality. This change will not impact your existing test cases.
 
-
-
 ---
+
+## **Use Environment Variables to Select Test Data Values**
+
+Environment variables can filter test data sets by name during data-driven testing. This method provides flexibility and reusability, making your test cases more adaptable to different scenarios.
+
+1. Create an **Environment** and add the name-value pairs that match the set names and values in your Test Data Profile. ![create environment parameter using tdp](https://s3.amazonaws.com/static-docs.testsigma.com/new_images/projects/applications/create_environment_using_tdp.gif)
+2. On the Test Case Details page, click the **Test Case Settings** icon in the right navigation bar.
+3. Select the **Test Data Profile** from the dropdown menu to associate it with the test case. Enable the **Data-Driven** toggle. ![enable data driven to use environment parameter](https://s3.amazonaws.com/static-docs.testsigma.com/new_images/projects/applications/enable_data_driven_env.gif)
+4. Choose **Parameters** as the **Filter type**. Select **Equals**, **Contains**, **Starts with** or **Ends with** as the **Comparison Metric** from the dropdown menu. Choose **Parameter Set Name** from the dropdown.
+5. Type <strong>*|</strong> to open the Environment overlay and choose the **Environment Parameter Name** to add the filters. ![use environment variables to select test data values](https://s3.amazonaws.com/static-docs.testsigma.com/new_images/projects/applications/use_environment_choose_test_data_values.gif)
+6. When you run the test case, it will execute using the specified filters. 
+
+

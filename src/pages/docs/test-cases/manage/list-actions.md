@@ -34,6 +34,7 @@ contextual_links:
 You can efficiently manage and organise your test cases in Testsigma through the Test Case List Actions. The Test Case List Actions allows you to easily search, sort, filter, and save your test cases.
 
 ---
+
 ## **Search Test Cases**
 
 Click inside the **Search** bar in the top right corner of the **Test Case List** page and type the name of the Test Case you want to find. As you type, Testsigma will show you matching test cases. View the test case you want by clicking on it in the search results ![Search-Test-Cases](https://s3.amazonaws.com/static-docs.testsigma.com/new_images/projects/applications/search_testcases.gif)
