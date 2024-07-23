@@ -136,8 +136,8 @@ Before utilising the different data generator functions, it's essential to under
     <span>ℹ️</span>Example:
   </div>
   <ul class="example-list">
-    <li><b>Input:</b> None (This function does not require any specific input)</li>
-    <li><b>Output:</b></li>
+    <li><b>Inputs:</b> None (This function does not require any specific input)</li>
+    <li><b>Outputs:</b></li>
     <ul>
       <li>Willow</li>
       <li>Cedar</li>
@@ -184,8 +184,8 @@ Before utilising the different data generator functions, it's essential to under
     <span>ℹ️</span>Example:
   </div>
   <ul class="example-list">
-    <li><b>Input:</b> None (This function does not require any specific input)</li>
-    <li><b>Output:</b></li>
+    <li><b>Inputs:</b> None (This function does not require any specific input)</li>
+    <li><b>Outputs:</b></li>
     <ul>
       <li>1234</li>
       <li>567</li>
@@ -233,23 +233,23 @@ Before utilising the different data generator functions, it's essential to under
   </div><br>
   <table>
     <tr>
-      <th>Input</th>
-      <th>Output</th>
+      <th>Inputs</th>
+      <th>Outputs</th>
     </tr>
     <tr>
-      <td>Secondary Address: True</td>
+      <td><b>Secondary Address</b>: True</td>
       <td>456 Oak Street, Apt. 12</td>
     </tr>
     <tr>
-      <td>Secondary Address: True</td>
+      <td><b>Secondary Address</b>: True</td>
       <td>789 Pine Avenue, Suite 5B</td>
     </tr>
     <tr>
-      <td>Secondary Address: False</td>
+      <td><b>Secondary Address</b>: False</td>
       <td>456 Oak Street</td>
     </tr>
     <tr>
-      <td>Secondary Address: False</td>
+      <td><b>Secondary Address</b>: False</td>
       <td>789 Pine Avenue</td>
     </tr>
   </table>
@@ -292,8 +292,8 @@ Before utilising the different data generator functions, it's essential to under
     <span>ℹ️</span>Example:
   </div>
   <ul class="example-list">
-    <li><b>Input:</b> None (This function does not require any specific input)</li>
-    <li><b>Output:</b></li>
+    <li><b>Inputs:</b> None (This function does not require any specific input)</li>
+    <li><b>Outputs:</b></li>
     <ul>
       <li>Apt. 12</li>
       <li>Suite 5B</li>
@@ -340,8 +340,8 @@ Before utilising the different data generator functions, it's essential to under
     <span>ℹ️</span>Example:
   </div>
   <ul class="example-list">
-    <li><b>Input:</b> None (This function does not require any specific input)</li>
-    <li><b>Output:</b></li>
+    <li><b>Inputs:</b> None (This function does not require any specific input)</li>
+    <li><b>Outputs:</b></li>
     <ul>
       <li>12345</li>
       <li>67890</li>
@@ -401,8 +401,8 @@ Before utilising the different data generator functions, it's essential to under
   </div><br>
   <table>
     <tr>
-      <th>Input: State Abbreviation</th>
-      <th>Output: Zip Code</th>
+      <th>Inputs: State Abbreviation</th>
+      <th>Outputs: Zip Code</th>
     </tr>
     <tr>
       <td>CA</td>
@@ -460,8 +460,8 @@ Before utilising the different data generator functions, it's essential to under
     <span>ℹ️</span>Example:
   </div>
   <ul class="example-list">
-    <li><b>Input:</b> None (This function does not require any specific input)</li>
-    <li><b>Output:</b></li>
+    <li><b>Inputs:</b> None (This function does not require any specific input)</li>
+    <li><b>Outputs:</b></li>
     <ul>
       <li>Street</li>
       <li>Avenue</li>
@@ -508,8 +508,8 @@ Before utilising the different data generator functions, it's essential to under
     <span>ℹ️</span>Example:
   </div>
   <ul class="example-list">
-    <li><b>Input:</b> None (This function does not require any specific input)</li>
-    <li><b>Output:</b></li>
+    <li><b>Inputs:</b> None (This function does not require any specific input)</li>
+    <li><b>Outputs:</b></li>
     <ul>
       <li>North</li>
       <li>South</li>
@@ -556,8 +556,8 @@ Before utilising the different data generator functions, it's essential to under
     <span>ℹ️</span>Example:
   </div>
   <ul class="example-list">
-    <li><b>Input:</b> None (This function does not require any specific input)</li>
-    <li><b>Output:</b></li>
+    <li><b>Inputs:</b> None (This function does not require any specific input)</li>
+    <li><b>Outputs:</b></li>
     <ul>
       <li>Heights</li>
       <li>Village</li>
@@ -604,8 +604,8 @@ Before utilising the different data generator functions, it's essential to under
     <span>ℹ️</span>Example:
   </div>
   <ul class="example-list">
-    <li><b>Input:</b> None (This function does not require any specific input)</li>
-    <li><b>Output:</b></li>
+    <li><b>Inputs:</b> None (This function does not require any specific input)</li>
+    <li><b>Outputs:</b></li>
     <ul>
       <li>North</li>
       <li>East</li>
@@ -652,8 +652,8 @@ Before utilising the different data generator functions, it's essential to under
     <span>ℹ️</span>Example:
   </div>
   <ul class="example-list">
-    <li><b>Input:</b> None (This function does not require any specific input)</li>
-    <li><b>Output:</b></li>
+    <li><b>Inputs:</b> None (This function does not require any specific input)</li>
+    <li><b>Outputs:</b></li>
     <ul>
       <li>New York</li>
       <li>Los Angeles</li>
@@ -700,8 +700,8 @@ Before utilising the different data generator functions, it's essential to under
     <span>ℹ️</span>Example:
   </div>
   <ul class="example-list">
-    <li><b>Input:</b> None (This function does not require any specific input)</li>
-    <li><b>Output:</b></li>
+    <li><b>Inputs:</b> None (This function does not require any specific input)</li>
+    <li><b>Outputs:</b></li>
     <ul>
       <li>California</li>
       <li>Texas</li>
@@ -748,8 +748,8 @@ Before utilising the different data generator functions, it's essential to under
     <span>ℹ️</span>Example:
   </div>
   <ul class="example-list">
-    <li><b>Input:</b> None (This function does not require any specific input)</li>
-    <li><b>Output:</b></li>
+    <li><b>Inputs:</b> None (This function does not require any specific input)</li>
+    <li><b>Outputs:</b></li>
     <ul>
       <li>CA</li>
       <li>TX</li>
@@ -796,8 +796,8 @@ Before utilising the different data generator functions, it's essential to under
     <span>ℹ️</span>Example:
   </div>
   <ul class="example-list">
-    <li><b>Input:</b> None (This function does not require any specific input)</li>
-    <li><b>Output:</b></li>
+    <li><b>Inputs:</b> None (This function does not require any specific input)</li>
+    <li><b>Outputs:</b></li>
      <ul>
       <li>34.0522</li>
       <li>40.7128</li>
@@ -844,8 +844,8 @@ Before utilising the different data generator functions, it's essential to under
     <span>ℹ️</span>Example:
   </div>
   <ul class="example-list">
-    <li><b>Input:</b> None (This function does not require any specific input)</li>
-    <li><b>Output:</b></li>
+    <li><b>Inputs:</b> None (This function does not require any specific input)</li>
+    <li><b>Outputs:</b></li>
      <ul>
       <li>118.2437</li>
       <li>74.0060</li>
@@ -892,8 +892,8 @@ Before utilising the different data generator functions, it's essential to under
     <span>ℹ️</span>Example:
   </div>
   <ul class="example-list">
-    <li><b>Input:</b> None (This function does not require any specific input)</li>
-    <li><b>Output:</b></li>
+    <li><b>Inputs:</b> None (This function does not require any specific input)</li>
+    <li><b>Outputs:</b></li>
     <ul>
       <li>Asia/Baku</li>
       <li>Africa/Lagos</li>
@@ -940,8 +940,8 @@ Before utilising the different data generator functions, it's essential to under
     <span>ℹ️</span>Example:
   </div>
   <ul class="example-list">
-    <li><b>Input:</b> None (This function does not require any specific input)</li>
-    <li><b>Output:</b></li>
+    <li><b>Inputs:</b> None (This function does not require any specific input)</li>
+    <li><b>Outputs:</b></li>
     <ul>
       <li>United States</li>
       <li>Canada</li>
@@ -988,8 +988,8 @@ Before utilising the different data generator functions, it's essential to under
     <span>ℹ️</span>Example:
   </div>
   <ul class="example-list">
-    <li><b>Input:</b> None (This function does not require any specific input)</li>
-    <li><b>Output:</b></li>
+    <li><b>Inputs:</b> None (This function does not require any specific input)</li>
+    <li><b>Outputs:</b></li>
     <ul>
       <li>US</li>
       <li>CA</li>
@@ -1036,8 +1036,8 @@ Before utilising the different data generator functions, it's essential to under
     <span>ℹ️</span>Example:
   </div>
   <ul class="example-list">
-    <li><b>Input:</b> None (This function does not require any specific input)</li>
-    <li><b>Output:</b></li>
+    <li><b>Inputs:</b> None (This function does not require any specific input)</li>
+    <li><b>Outputs:</b></li>
     <ul>
       <li>123</li>
       <li>789</li>
@@ -1084,8 +1084,8 @@ Before utilising the different data generator functions, it's essential to under
     <span>ℹ️</span>Example:
   </div>
   <ul class="example-list">
-    <li><b>Input:</b> None (This function does not require any specific input)</li>
-    <li><b>Output:</b></li>
+    <li><b>Inputs:</b> None (This function does not require any specific input)</li>
+    <li><b>Outputs:</b></li>
     <ul>
       <li>456 Oak Street, Los Angeles, CA 90001</li>
       <li>789 Pine Avenue, New York, NY 10001</li>

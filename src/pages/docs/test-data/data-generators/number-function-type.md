@@ -114,19 +114,19 @@ Before utilising the different data generator functions, it's essential to under
     </thead>
     <tbody>
       <tr>
-      <td><b>min</b>: 1,<br><b>max</b>: 100</td>
+      <td><b>min</b>: 1<br><b>max</b>: 100</td>
       <td>73</td>
     </tr>
     <tr>
-      <td><b>min</b>: 10,<br><b>max</b>: 50</td>
+      <td><b>min</b>: 10<br><b>max</b>: 50</td>
       <td>32</td>
     </tr>
     <tr>
-      <td><b>min</b>: 100,<br><b>max</b>: 500</td>
+      <td><b>min</b>: 100<br><b>max</b>: 500</td>
       <td>418</td>
     </tr>
     <tr>
-      <td><b>min</b>: 5,<br><b>max</b>: 20</td>
+      <td><b>min</b>: 5<br><b>max</b>: 20</td>
       <td>15</td>
     </tr>
     </tbody>
@@ -292,19 +292,19 @@ Before utilising the different data generator functions, it's essential to under
     </thead>
     <tbody>
       <tr>
-      <td><b>Digits</b>: 5,<br><b>Boolean</b>: True</td>
+      <td><b>Digits</b>: 5<br><b>Boolean</b>: True</td>
       <td>39485</td>
     </tr>
     <tr>
-      <td><b>Digits</b>: 4,<br><b>Boolean</b>: False</td>
+      <td><b>Digits</b>: 4<br><b>Boolean</b>: False</td>
       <td>-3276</td>
     </tr>
     <tr>
-      <td><b>Digits</b>: 3,<br><b>Boolean</b>: True</td>
+      <td><b>Digits</b>: 3<br><b>Boolean</b>: True</td>
       <td>821</td>
     </tr>
     <tr>
-      <td><b>Digits</b>: 6,<br><b>Boolean</b>: False</td>
+      <td><b>Digits</b>: 6<br><b>Boolean</b>: False</td>
       <td>-491257</td>
     </tr>
     </tbody>
@@ -416,19 +416,19 @@ Before utilising the different data generator functions, it's essential to under
     </thead>
     <tbody>
       <tr>
-      <td><b>Max No of Decimals</b>: 2,<br><b>Min</b>: 1.5,<br><b>Max</b>: 5.5</td>
+      <td><b>Max No of Decimals</b>: 2<br><b>Min</b>: 1.5<br><b>Max</b>: 5.5</td>
       <td>3.47</td>
     </tr>
     <tr>
-      <td><b>Max No of Decimals</b>: 3,<br><b>Min</b>: 10.1,<br><b>Max</b>: 20.5</td>
+      <td><b>Max No of Decimals</b>: 3<br><b>Min</b>: 10.1<br><b>Max</b>: 20.5</td>
       <td>15.234</td>
     </tr>
     <tr>
-      <td><b>Max No of Decimals</b>: 1,<br><b>Min</b>: 100.0,<br><b>Max</b>: 200.0</td>
+      <td><b>Max No of Decimals</b>: 1<br><b>Min</b>: 100.0<br><b>Max</b>: 200.0</td>
       <td>145.7</td>
     </tr>
     <tr>
-      <td><b>Max No of Decimals</b>: 4,<br><b>Min</b>: 0.1,<br><b>Max</b>: 1.0</td>
+      <td><b>Max No of Decimals</b>: 4<br><b>Min</b>: 0.1<br><b>Max</b>: 1.0</td>
       <td>0.7564</td>
     </tr>
     </tbody>

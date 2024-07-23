@@ -93,7 +93,7 @@ Before utilising the different data generator functions, it's essential to under
       <th>Outputs</th>
     </tr>
     <tr>
-      <td><b>Test Data 1</b>: Hello,<br><b>Test Data 2</b>: World</td>
+      <td><b>Test Data 1</b>: Hello<br><b>Test Data 2</b>: World</td>
       <td>HelloWorld</td>
     </tr>
     <tr>

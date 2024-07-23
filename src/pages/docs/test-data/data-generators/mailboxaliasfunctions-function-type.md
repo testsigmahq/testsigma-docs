@@ -70,8 +70,8 @@ Before utilising the different data generator functions, it's essential to under
 
 ## **Generate Mailbox Alias**
 
-- Allows you to create a unique email alias associated with your primary email account during a test step. 
-- Each alias generates a separate mailbox, enabling multiple email addresses to direct emails to the same inbox for testing and automation purposes.
+- Allows you to create a unique mailbox alias associated with your primary email account. 
+- Each alias creates a unique mailbox address, allowing multiple mailboxes to be directed to the same inbox for testing and automation.
 
 <style>
   .example-container {
@@ -138,8 +138,7 @@ Before utilising the different data generator functions, it's essential to under
 
 ## **Get Email Content**
 
-- Enables you to retrieve the subject line of an email message based on specified runtime variables using this feature. 
-- It captures email subjects dynamically during test execution.
+- Enables you to retrieve the entire content of an email in a variable. It fetches the body content of an email dynamically during test execution.
 
 <style>
   .example-container {
@@ -183,19 +182,19 @@ Before utilising the different data generator functions, it's essential to under
       <th>Output</th>
     </tr>
     <tr>
-      <td><b>Runtime Variable</b>: inbox,<br><b>Timeout: 30</b></td>
+      <td><b>Runtime Variable</b>: inbox<br><b>Timeout: 30</b></td>
       <td>Hello! This is the content of your email.</td>
     </tr>
     <tr>
-      <td><b>Runtime Variable</b>: promotions,<br><b>Timeout</b>: 30</td>
+      <td><b>Runtime Variable</b>: promotions<br><b>Timeout</b>: 30</td>
       <td>Get 50% off on your next purchase.</td>
     </tr>
     <tr>
-      <td><b>Runtime Variable</b>: updates,<br><b>Timeout</b>: 30</td>
+      <td><b>Runtime Variable</b>: updates<br><b>Timeout</b>: 30</td>
       <td>Your order has been shipped.</td>
     </tr>
     <tr>
-      <td><b>Runtime Variable</b>: spam,<br><b>Timeout</b>: 30</td>
+      <td><b>Runtime Variable</b>: spam<br><b>Timeout</b>: 30</td>
       <td>Congratulations! You've won a prize.</td>
     </tr>
   </table>
@@ -205,8 +204,7 @@ Before utilising the different data generator functions, it's essential to under
 
 ## **Get Email Subject**
 
-- Allows you to retrieve the subject line of an email message based on specified runtime variables. 
-- It is used to capture email subjects dynamically during test execution.
+- Allows you to retrieve the subject of an email in a variable. It is used to capture email subjects dynamically during test execution.
 
 <style>
   .example-container {
@@ -251,19 +249,19 @@ Before utilising the different data generator functions, it's essential to under
       <th>Output</th>
     </tr>
     <tr>
-      <td><b>Runtime Variable</b>: inbox,<br><b>Timeout</b>: 30</td>
+      <td><b>Runtime Variable</b>: inbox<br><b>Timeout</b>: 30</td>
       <td>Your Order Confirmation</td>
     </tr>
     <tr>
-      <td><b>Runtime Variable</b>: promotions,<br><b>Timeout</b>: 30</td>
+      <td><b>Runtime Variable</b>: promotions<br><b>Timeout</b>: 30</td>
       <td>Special Offer Just for You</td>
     </tr>
     <tr>
-      <td><b>Runtime Variable</b>: updates,<br><b>Timeout</b>: 30</td>
+      <td><b>Runtime Variable</b>: updates<br><b>Timeout</b>: 30</td>
       <td>Account Verification Required</td>
     </tr>
     <tr>
-      <td><b>Runtime Variable</b>: spam,<br><b>Timeout</b>: 30</td>
+      <td><b>Runtime Variable</b>: spam<br><b>Timeout</b>: 30</td>
       <td>You've Been Selected!</td>
     </tr>
   </table>
@@ -273,8 +271,7 @@ Before utilising the different data generator functions, it's essential to under
 
 ## **Get OTP**
 
-- Enables you to extract an OTP from an email message based on a provided regex pattern and runtime variables. 
-- It facilitates the automated retrieval of OTPs for testing authentication flows.
+- Enables you to extract the OTP sent to the mailbox into a variable based on a regex pattern. 
 
 <style>
   .example-container {
@@ -318,19 +315,19 @@ Before utilising the different data generator functions, it's essential to under
       <th>Output</th>
     </tr>
     <tr>
-      <td><b>Regex</b>: \d{6},<br><b>Runtime Variable</b>: inbox,<br><b>Timeout</b>: 30</td>
+      <td><b>Regex</b>: \d{6}<br><b>Runtime Variable</b>: inbox,<br><b>Timeout</b>: 30</td>
       <td>123456</td>
     </tr>
     <tr>
-      <td><b>Regex</b>: \d{4},<br><b>Runtime Variable</b>: inbox,<br><b>Timeout</b>: 30</td>
+      <td><b>Regex</b>: \d{4}<br><b>Runtime Variable</b>: inbox<br><b>Timeout</b>: 30</td>
       <td>7890</td>
     </tr>
     <tr>
-      <td><b>Regex</b>: \d{5},<br><b>Runtime Variable</b>: promotions,<br><b>Timeout</b>: 30</td>
+      <td><b>Regex</b>: \d{5}<br><b>Runtime Variable</b>: promotions<br><b>Timeout</b>: 30</td>
       <td>54321</td>
     </tr>
     <tr>
-      <td><b>Regex</b>: \d{6},<br><b>Runtime Variable</b>: updates,<br><b>Timeout</b>: 30</td>
+      <td><b>Regex</b>: \d{6}<br><b>Runtime Variable</b>: updates<br><b>Timeout</b>: 30</td>
       <td>654321</td>
     </tr>
   </table>
@@ -340,8 +337,7 @@ Before utilising the different data generator functions, it's essential to under
 
 ## **URL with Text**
 
-- Allows you to retrieve a URL from an email containing specified text. 
-- It searches for URLs embedded in email content that match the provided text criteria.
+- Allows you to extract a URL containing specific text from the email.
 
 <style>
   .example-container {
@@ -385,19 +381,19 @@ Before utilising the different data generator functions, it's essential to under
       <th>Output</th>
     </tr>
     <tr>
-      <td><b>Text</b>: Verify,<br><b>Runtime Variable</b>: inbox,<br><b>Timeout</b>: 30</td>
+      <td><b>Text</b>: Verify<br><b>Runtime Variable</b>: inbox<br><b>Timeout</b>: 30</td>
       <td>https://example.com/verify</td>
     </tr>
     <tr>
-      <td><b>Text</b>: Confirm,<br><b>Runtime Variable</b>: promotions,<br><b>Timeout</b>: 30</td>
+      <td><b>Text</b>: Confirm<br><b>Runtime Variable</b>: promotions<br><b>Timeout</b>: 30</td>
       <td>https://example.com/confirm</td>
     </tr>
     <tr>
-      <td><b>Text</b>: Reset,<br><b>Runtime Variable</b>: updates,<br><b>Timeout</b>: 30</td>
+      <td><b>Text</b>: Reset<br><b>Runtime Variable</b>: updates<br><b>Timeout</b>: 30</td>
       <td>https://example.com/reset</td>
     </tr>
     <tr>
-      <td><b>Text</b>: Activate,<br><b>Runtime Variable</b>: spam,<br><b>Timeout</b>: 30</td>
+      <td><b>Text</b>: Activate<br><b>Runtime Variable</b>: spam<br><b>Timeout</b>: 30</td>
       <td>https://example.com/activate</td>
     </tr>
   </table>
@@ -407,8 +403,7 @@ Before utilising the different data generator functions, it's essential to under
 
 ## **URL which Contains**
 
-- Enables you to retrieve a URL from an email message containing specified substrings or parameters. 
-- It searches for URLs embedded in email content that include the provided substring.
+- Enables you to extract a URL containing specific parameters from the email.
 
 <style>
   .example-container {
@@ -452,19 +447,19 @@ Before utilising the different data generator functions, it's essential to under
       <th>Output</th>
     </tr>
     <tr>
-      <td><b>Substring</b>: verify,<br><b>Runtime Variable</b>: inbox,<br><b>Timeout</b>: 30</td>
+      <td><b>Substring</b>: verify<br><b>Runtime Variable</b>: inbox<br><b>Timeout</b>: 30</td>
       <td>https://example.com/verify</td>
     </tr>
     <tr>
-      <td><b>Substring</b>: confirm,<br><b>Runtime Variable</b>: promotions,<br><b>Timeout</b>: 30</td>
+      <td><b>Substring</b>: confirm<br><b>Runtime Variable</b>: promotions<br><b>Timeout</b>: 30</td>
       <td>https://example.com/confirm</td>
     </tr>
     <tr>
-      <td><b>Substring</b>: reset,<br><b>Runtime Variable</b>: updates,<br><b>Timeout</b>: 30</td>
+      <td><b>Substring</b>: reset<br><b>Runtime Variable</b>: updates<br><b>Timeout</b>: 30</td>
       <td>https://example.com/reset</td>
     </tr>
     <tr>
-      <td><b>Substring</b>: activate,<br><b>Runtime Variable</b>: spam,<br><b>Timeout</b>: 30</td>
+      <td><b>Substring</b>: activate<br><b>Runtime Variable</b>: spam<br><b>Timeout</b>: 30</td>
       <td>https://example.com/activate</td>
     </tr>
   </table>
@@ -474,8 +469,7 @@ Before utilising the different data generator functions, it's essential to under
 
 ## **URL Matching Regex**
 
-- Allows you to retrieve a URL from an email message that matches a specified regex pattern. 
-- It enables flexible URL extraction based on custom regex patterns defined by the user.
+- Allows you to extract a URL from the email that matches a specific regex pattern. 
 
 <style>
   .example-container {
@@ -519,19 +513,19 @@ Before utilising the different data generator functions, it's essential to under
       <th>Output</th>
     </tr>
     <tr>
-      <td><b>Regex</b>: r'https://\w+\.com/\w+',<br><b>Runtime Variable</b>: inbox,<br><b>Timeout</b>: 30</td>
+      <td><b>Regex</b>: r'https://\w+\.com/\w+'<br><b>Runtime Variable</b>: inbox<br><b>Timeout</b>: 30</td>
       <td>https://example.com/verify</td>
     </tr>
     <tr>
-      <td><b>Regex</b>: r'https://\w+\.com/\w+',<br><b>Runtime Variable</b>: promotions,<br><b>Timeoutv: 30</td>
+      <td><b>Regex</b>: r'https://\w+\.com/\w+'<br><b>Runtime Variable</b>: promotions<br><b>Timeoutv: 30</td>
       <td>https://promo.com/deal</td>
     </tr>
     <tr>
-      <td><b>Regex</b>: r'https://\w+\.com/\w+',<br><b>Runtime Variable</b>: updates,<br><b>Timeout</b>: 30</td>
+      <td><b>Regex</b>: r'https://\w+\.com/\w+'<br><b>Runtime Variable</b>: updates<br><b>Timeout</b>: 30</td>
       <td>https://updates.com/info</td>
     </tr>
     <tr>
-      <td><b>Regex</b>: r'https://\w+\.com/\w+',<br><b>Runtime Variable</b>: spam,<br><b>Timeout</b>: 30</td>
+      <td><b>Regex</b>: r'https://\w+\.com/\w+'<br><b>Runtime Variable</b>: spam<br><b>Timeout</b>: 30</td>
       <td>https://spam.com/win</td>
     </tr>
   </table>
@@ -541,8 +535,7 @@ Before utilising the different data generator functions, it's essential to under
 
 ## **Get Sender Email**
 
-- Enables you to retrieve the sender's email address from an email message based on specified runtime variables. 
-- It simplifies fetching sender information during test execution.
+- Enables you to extract the sender's email address from an email for testing purposes.
 
 <style>
   .example-container {
@@ -586,19 +579,19 @@ Before utilising the different data generator functions, it's essential to under
       <th>Output</th>
     </tr>
     <tr>
-      <td><b>Runtime Variable</b>: inbox,<br><b>Timeout</b>: 30</td>
+      <td><b>Runtime Variable</b>: inbox<br><b>Timeout</b>: 30</td>
       <td>sender@example.com</td>
     </tr>
     <tr>
-      <td><b>Runtime Variable</b>: promotions,<br><b>Timeout</b>: 30</td>
+      <td><b>Runtime Variable</b>: promotions<br><b>Timeout</b>: 30</td>
       <td>promo@example.com</td>
     </tr>
     <tr>
-      <td><b>Runtime Variable</b>: updates,<br><b>Timeout</b>: 30</td>
+      <td><b>Runtime Variable</b>: updates<br><b>Timeout</b>: 30</td>
       <td>updates@example.com</td>
     </tr>
     <tr>
-      <td><b>Runtime Variable</b>: spam,<br><b>Timeout</b>: 30</td>
+      <td><b>Runtime Variable</b>: spam<br><b>Timeout</b>: 30</td>
       <td>spam@example.com</td>
     </tr>
   </table>
@@ -608,8 +601,7 @@ Before utilising the different data generator functions, it's essential to under
 
 ## **Get Sender Name**
 
-- Allows you to retrieve the sender's name from an email message based on specified runtime variables. 
-- It facilitates fetching sender information during test execution.
+- Allows you to extract the sender's name from an email for testing purposes. 
 
 <style>
   .example-container {
@@ -653,19 +645,19 @@ Before utilising the different data generator functions, it's essential to under
       <th>Output</th>
     </tr>
     <tr>
-      <td><b>Runtime Variable</b>: inbox,<br><b>Timeout</b>: 30</td>
+      <td><b>Runtime Variable</b>: inbox<br><b>Timeout</b>: 30</td>
       <td>John Doe</td>
     </tr>
     <tr>
-      <td><b>Runtime Variable</b>: promotions,<br><b>Timeout</b>: 30</td>
+      <td><b>Runtime Variable</b>: promotions<br><b>Timeout</b>: 30</td>
       <td>Promo Sender</td>
     </tr>
     <tr>
-      <td><b>Runtime Variable</b>: updates,<br><b>Timeout</b>: 30</td>
+      <td><b>Runtime Variable</b>: updates<br><b>Timeout</b>: 30</td>
       <td>Update Sender</td>
     </tr>
     <tr>
-      <td><b>Runtime Variable</b>: spam,<br><b>Timeout</b>: 30</td>
+      <td><b>Runtime Variable</b>: spam<br><b>Timeout</b>: 30</td>
       <td>Spam Sender</td>
     </tr>
   </table>

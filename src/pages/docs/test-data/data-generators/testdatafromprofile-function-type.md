@@ -94,19 +94,19 @@ Before utilising the different data generator functions, it's essential to under
       <th>Output</th>
     </tr>
     <tr>
-      <td><strong>Profile:</strong> Customer Data Profile,<br><strong>Dataset:</strong> Active Customers, <br><strong>Parameter:</strong> Customer ID,<br><strong>Data Set:</strong> 1</td>
+      <td><strong>Profile:</strong> Customer Data Profile<br><strong>Dataset:</strong> Active Customers<br><strong>Parameter:</strong> Customer ID<br><strong>Data Set:</strong> 1</td>
       <td>12345</td>
     </tr>
     <tr>
-      <td><strong>Profile:</strong> Order Data Profile,<br><strong>Dataset:</strong> Pending Orders,<br><strong>Parameter:</strong> Order ID,<br><strong>Data Set:</strong> 2</td>
+      <td><strong>Profile:</strong> Order Data Profile<br><strong>Dataset:</strong> Pending Orders<br><strong>Parameter:</strong> Order ID<br><strong>Data Set:</strong> 2</td>
       <td>67890</td>
     </tr>
     <tr>
-      <td><strong>Profile:</strong> Employee Data Profile,<br><strong>Dataset:</strong> Current Employees, <br><strong>Parameter:</strong> "Employee ID",<br><strong>Data Set:</strong> 3</td>
+      <td><strong>Profile:</strong> Employee Data Profile<br><strong>Dataset:</strong> Current Employees<br><strong>Parameter:</strong> Employee ID<br><strong>Data Set:</strong> 3</td>
       <td>54321</td>
     </tr>
     <tr>
-      <td><strong>Profile:</strong> Product Data Profile,<br><strong>Dataset:</strong> Available Products, <br><strong>Parameter:</strong> Product Code,<br><strong>Data Set:</strong> 4</td>
+      <td><strong>Profile:</strong> Product Data Profile<br><strong>Dataset:</strong> Available Products <br><strong>Parameter:</strong> Product Code<br><strong>Data Set:</strong> 4</td>
       <td>P001</td>
     </tr>
   </table>
