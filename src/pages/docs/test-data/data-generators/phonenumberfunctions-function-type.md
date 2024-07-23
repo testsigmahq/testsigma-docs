@@ -96,8 +96,8 @@ Before utilising the different data generator functions, it's essential to under
       <!-- Example 1 -->
       <tr>
         <td>
-          <b>Regex</b>: \d{4},,<br>
-          <b>Select Phone Number</b>,<br>
+          <b>Regex</b>: \d{4}<br>
+          <b>Select Phone Number</b><br>
           <b>Timeout</b>: 30
         </td>
         <td>OTP: 1234</td>
@@ -105,8 +105,8 @@ Before utilising the different data generator functions, it's essential to under
       <!-- Example 2 -->
       <tr>
         <td>
-          <b>Regex</b>: \d{6},<br>
-          <b>Select Phone Number</b>,<br>
+          <b>Regex</b>: \d{6}<br>
+          <b>Select Phone Number</b><br>
           <b>Timeout</b>: 600
         </td>
         <td>654321</td>
@@ -114,8 +114,8 @@ Before utilising the different data generator functions, it's essential to under
       <!-- Example 3 -->
       <tr>
         <td>
-          <b>Regex</b>: \d{4,6},<br>
-          <b>Select Phone Number</b>,<br>
+          <b>Regex</b>: \d{4,6}<br>
+          <b>Select Phone Number</b><br>
           <b>Timeout</b>: 120
         </td>
         <td>OTP: 4982, 789012</td>
@@ -123,8 +123,8 @@ Before utilising the different data generator functions, it's essential to under
       <!-- Example 4 -->
       <tr>
         <td>
-          <b>Regex</b>: \d{5},<br>
-          <b>Select Phone Number</b>,<br>
+          <b>Regex</b>: \d{5}<br>
+          <b>Select Phone Number</b><br>
           <b>Timeout</b>: 45
         </td>
         <td>OTP: 45178</td>

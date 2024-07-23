@@ -22,7 +22,7 @@ contextual_links:
 
 ---
 
-ChangeDataType function lets you convert data from one type to another, ensuring compatibility for different operations or storage needs. It can transform data formats, such as converting strings into numbers or booleans for calculations or logical operations.
+Change Data Type function allows you to transform an input value into a specified data type. It can transform data for calculations, logical operations, or display purposes, ensuring seamless integration with different processes.
 
 ---
 
@@ -44,10 +44,9 @@ Before utilising the different data generator functions, it's essential to under
 
 ---
 
-## **ConvertInputDataType**
+## **Convert Input Data Type**
 
-- Allows you to convert a given input value to a specified data type. 
-- It is useful when data compatibility is essential, such as when you transform strings to numerical values for calculations, convert strings to booleans for logical operations, or change numerical values to strings for display purposes.
+- Allows you to transform an input value into a specified data type.
 
 <style>
   .example-container {
@@ -92,19 +91,19 @@ Before utilising the different data generator functions, it's essential to under
       <th>Outputs</th>
     </tr>
     <tr>
-      <td><b>Input</b>: 123,<br><b>Data Type</b>: int</td>
+      <td><b>Input</b>: 123<br><b>Data Type</b>: int</td>
       <td>123</td>
     </tr>
     <tr>
-      <td><b>Input</b>: true,<br><b>Data Type</b>: boolean</td>
+      <td><b>Input</b>: 0<br><b>Data Type</b>: boolean</td>
       <td>true</td>
     </tr>
     <tr>
-      <td><b>Input</b>: 65,<br><b>Data Type</b>: char</td>
+      <td><b>Input</b>: 65<br><b>Data Type</b>: char</td>
       <td>A</td>
     </tr>
     <tr>
-      <td><b>Input</b>: 3.14,<br><b>Data Type</b>: double</td>
+      <td><b>Input</b>: 3.14<br><b>Data Type</b>: double</td>
       <td>3.14</td>
     </tr>
   </table>

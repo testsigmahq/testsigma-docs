@@ -124,22 +124,22 @@ Before utilising the different data generator functions, it's essential to under
     <tbody>
       <!-- Example 1 -->
       <tr>
-        <td><b>Regex</b>: \d{4},<br><b>Select MailBox</b>, <br><b>Timeout: 60 </td>
+        <td><b>Regex</b>: \d{4}<br><b>Select MailBox</b><br><b>Timeout</b>: 60 </td>
         <td>1234</td>
       </tr>
       <!-- Example 2 -->
       <tr>
-        <td><b>Regex</b>: \d{6},<br><b>Select MailBox</b>, <br><b>Timeout: 120</td>
+        <td><b>Regex</b>: \d{6}<br><b>Select MailBox</b><br><b>Timeout</b>: 120</td>
         <td>987654</td>
       </tr>
       <!-- Example 3 -->
       <tr>
-        <td><b>Regex</b>: \d{5},<br><b>Select MailBox</b>, <br><b>Timeout: 90</td>
+        <td><b>Regex</b>: \d{5}<br><b>Select MailBox</b><br><b>Timeout</b>: 90</td>
         <td>54321</td>
       </tr>
       <!-- Example 4 -->
       <tr>
-        <td><b>Regex</b>: \d{4,6},<br><b>Select MailBox</b>, <br><b>Timeout: 180</td>
+        <td><b>Regex</b>: \d{4,6}<br><b>Select MailBox</b><br><b>Timeout</b>: 180</td>
         <td>1234, 56789, 456789</td>
       </tr>
     </tbody>
@@ -199,22 +199,22 @@ Before utilising the different data generator functions, it's essential to under
     <tbody>
       <!-- Example 1 -->
       <tr>
-        <td><b>Regex</b>: \bhttps:\/\/example\.com\b,<br><b>Select MailBox</b>,<br><b>Timeout</b>: 60</td>
+        <td><b>Regex</b>: \bhttps:\/\/example\.com\b<br><b>Select MailBox</b><br><b>Timeout</b>: 60</td>
         <td>https://example.com</td>
       </tr>
       <!-- Example 2 -->
       <tr>
-        <td><b>Regex</b>: \bhttp:\/\/test\.com\/\w+,<br><b>select MailBox</b>,<br><b>Timeout</b>: 120</td>
+        <td><b>Regex</b>: \bhttp:\/\/test\.com\/\w+<br><b>select MailBox</b><br><b>Timeout</b>: 120</td>
         <td>http://test.com/12345</td>
       </tr>
       <!-- Example 3 -->
       <tr>
-        <td><b>Regex</b>: \bhttps:\/\/www\.website\.com\/\w+,<br><b>Select MailBox</b>,<br><b>Timeout</b>: 90</td>
+        <td><b>Regex</b>: \bhttps:\/\/www\.website\.com\/\w+<br><b>Select MailBox</b><br><b>Timeout</b>: 90</td>
         <td>https://www.website.com/page123</td>
       </tr>
       <!-- Example 4 -->
       <tr>
-        <td><b>Regex</b>: \bhttps:\/\/\w+\.com\/\w+,<br><b>Select MailBox</b>,<br><b>Timeout</b>: 180</td>
+        <td><b>Regex</b>: \bhttps:\/\/\w+\.com\/\w+<br><b>Select MailBox</b><br><b>Timeout</b>: 180</td>
         <td>https://example.com/page1, https://test.com/12345, https://anotherwebsite.com/home</td>
       </tr>
     </tbody>
@@ -273,22 +273,22 @@ Before utilising the different data generator functions, it's essential to under
     <tbody>
       <!-- Example 1 -->
       <tr>
-        <td><b>Regex</b>: \bSubject: Order #[0-9]+\b,<br><b>Select MailBox</b>,<br><b>Compare String</b>: Subject: Order #12345,<br><b>Timeout</b>: 60 seconds</td>
+        <td><b>Regex</b>: \bSubject: Order #[0-9]+\b<br><b>Select MailBox</b><br><b>Compare String</b>: Subject: Order #12345<br><b>Timeout</b>: 60</td>
         <td>true</td>
       </tr>
       <!-- Example 2 -->
       <tr>
-        <td><b>Regex</b>: \bSubject: OTP - [0-9]{4}\b,<br><b>Select MailBox</b>,<br><b>Compare String</b>: Subject: OTP - 5678,<br><b>Timeout</b>: 120 seconds</td>
+        <td><b>Regex</b>: \bSubject: OTP - [0-9]{4}\b<br><b>Select MailBox</b><br><b>Compare String</b>: Subject: OTP - 5678<br><b>Timeout</b>: 120</td>
         <td>true</td>
       </tr>
       <!-- Example 3 -->
       <tr>
-        <td><b>Regex</b>: \bSubject: Invitation to event\b,<br><b>Select MailBox</b>,<br><b>Compare String</b>: Subject: Invitation to event,<br><b>Timeout</b>: 90 seconds</td>
+        <td><b>Regex</b>: \bSubject: Invitation to event\b<br><b>Select MailBox</b><br><b>Compare String</b>: Subject: Invitation to event<br><b>Timeout</b>: 90</td>
         <td>true</td>
       </tr>
       <!-- Example 4 -->
       <tr>
-        <td><b>Regex</b>: \bSubject: Verification Code: [0-9]{6}\b,<br><b>Select MailBox</b>,<br><b>Compare String</b>: Subject: Verification Code: 123456,<br><b>Timeout</b>: 180 seconds</td>
+        <td><b>Regex</b>: \bSubject: Verification Code: [0-9]{6}\b,<br><b>Select MailBox</b>,<br><b>Compare String</b>: Subject: Verification Code: 123456,<br><b>Timeout</b>: 180</td>
         <td>true</td>
       </tr>
     </tbody>
@@ -347,22 +347,22 @@ Before utilising the different data generator functions, it's essential to under
     <tbody>
       <!-- Example 1 -->
       <tr>
-        <td><b>Regex</b>: \bOrder #[0-9]+\b,<br><b>Select MailBox</b>,<br><b>Compare String</b>: Order #12345,<br><b>Timeout</b>: 60</td>
+        <td><b>Regex</b>: \bOrder #[0-9]+\b<br><b>Select MailBox</b><br><b>Compare String</b>: Order #12345<br><b>Timeout</b>: 60</td>
         <td>true</td>
       </tr>
       <!-- Example 2 -->
       <tr>
-        <td><b>Regex</b>: \bOTP - [0-9]{4}\b,<br><b>Select MailBox</b>,<br><b>Compare String</b>: OTP - 5678,<br><b>Timeout</b>: 120</td>
+        <td><b>Regex</b>: \bOTP - [0-9]{4}\b<br><b>Select MailBox</b><br><b>Compare String</b>: OTP - 5678<br><b>Timeout</b>: 120</td>
         <td>true</td>
       </tr>
       <!-- Example 3 -->
       <tr>
-        <td><b>Regex</b>: \bInvitation to event\b,<br><b>Select MailBox</b>,<br><b>Compare String</b>: Invitation to event,<br><b>Timeout</b>: 90</td>
+        <td><b>Regex</b>: \bInvitation to event\b<br><b>Select MailBox</b><br><b>Compare String</b>: Invitation to event<br><b>Timeout</b>: 90</td>
         <td>true</td>
       </tr>
       <!-- Example 4 -->
       <tr>
-        <td><b>Regex</b>: \bVerification Code: [0-9]{6}\b,<br><b>Select MailBox</b>,<br><b>Compare String</b>: Verification Code: 123456,<br><b>Timeout</b>: 180</td>
+        <td><b>Regex</b>: \bVerification Code: [0-9]{6}\b<br><b>Select MailBox</b><br><b>Compare String</b>: Verification Code: 123456<br><b>Timeout</b>: 180</td>
         <td>true</td>
       </tr>
     </tbody>
@@ -571,22 +571,22 @@ Before utilising the different data generator functions, it's essential to under
     <tbody>
       <!-- Example 1 -->
       <tr>
-        <td><b>Text</b>: "Click here for more info",<br><b>Select MailBox</b>, <br><b>Timeout</b>: 60</td>
+        <td><b>Text</b>: Click here for more info<br><b>Select MailBox</b><br><b>Timeout</b>: 60</td>
         <td>URL linked to "Click here for more info" from MailBox</td>
       </tr>
       <!-- Example 2 -->
       <tr>
-        <td><b>Text</b>: "Visit our website",<br><b>Select MailBox</b>,<br><b>Timeoutv: 120</td>
+        <td><b>Text</b>: Visit our website<br><b>Select MailBox</b><br><b>Timeoutv: 120</td>
         <td>URL linked to "Visit our website" from MailBox</td>
       </tr>
       <!-- Example 3 -->
       <tr>
-        <td><b>Text</b>: "Check out the new products",<br><b>Select MailBox</b>, <br><b>Timeout</b>: 90</td>
+        <td><b>Text</b>: Check out the new products<br><b>Select MailBox</b><br><b>Timeout</b>: 90</td>
         <td>URL linked to "Check out the new products" from MailBox</td>
       </tr>
       <!-- Example 4 -->
       <tr>
-        <td><b>Text</b>: "Click here or here for updates",<br><b>Select MailBox</b>, <br><b>Timeout</b>: 180</td>
+        <td><b>Text</b>: Click here or here for updates<br><b>Select MailBox</b><br><b>Timeout</b>: 180</td>
         <td>URLs linked to "Click here or here for updates" from MailBox</td>
       </tr>
     </tbody>
@@ -646,22 +646,22 @@ Before utilising the different data generator functions, it's essential to under
     <tbody>
       <!-- Example 1 -->
       <tr>
-        <td><b>Substring</b>: "more info",<br> <b>Select MailBox</b>, <br><b>Timeout</b>: 60</td>
+        <td><b>Substring</b>: more info<br> <b>Select MailBox</b><br><b>Timeout</b>: 60</td>
         <td>URLs containing "more info" MailBox</td>
       </tr>
       <!-- Example 2 -->
       <tr>
-        <td><b>Substring</b>: "website",<br> <b>Select MailBox</b>, <br><b>Timeout</b>: 120</td>
+        <td><b>Substring</b>: website<br> <b>Select MailBox</b><br><b>Timeout</b>: 120</td>
         <td>URLs containing "website" from MailBox</td>
       </tr>
       <!-- Example 3 -->
       <tr>
-        <td><b>Substring</b>: "products",<br> <b>Select MailBox</b>, <br><b>Timeout</b>: 90</td>
+        <td><b>Substring</b>: products<br><b>Select MailBox</b><br><b>Timeout</b>: 90</td>
         <td>URLs containing "products" from MailBox</td>
       </tr>
       <!-- Example 4 -->
       <tr>
-        <td><b>Substring</b>: "updates",<br> <b>Select MailBox</b>, <br><b>Timeout</b>: 180</td>
+        <td><b>Substring</b>: updates<br><b>Select MailBox</b><br><b>Timeout</b>: 180</td>
         <td>URLs containing "updates" from MailBox</td>
       </tr>
     </tbody>
@@ -721,22 +721,22 @@ Before utilising the different data generator functions, it's essential to under
     <tbody>
       <!-- Example 1 -->
       <tr>
-        <td><b>Regex</b>: \d{4},<br> <b>Select MailBox</b>, <br><b>Timeout</b>: 60</td>
+        <td><b>Regex</b>: \d{4}<br> <b>Select MailBox</b><br><b>Timeout</b>: 60</td>
         <td>URLs containing numbers (e.g., 1234) from MailBox within 60</td>
       </tr>
       <!-- Example 2 -->
       <tr>
-        <td><b>Regex</b>: \w{6},<br><b>Select MailBox</b>, <br><b>Timeout</b>: 120</td>
+        <td><b>Regex</b>: \w{6}<br><b>Select MailBox</b><br><b>Timeout</b>: 120</td>
         <td>URLs containing alphanumeric strings (e.g., abc123) from MailBox within 120</td>
       </tr>
       <!-- Example 3 -->
       <tr>
-        <td><b>Regex</b>: https?,<br> <b>Select MailBox</b>, <br><b>Timeout</b>: 90</td>
+        <td><b>Regex</b>: https?<br><b>Select MailBox</b><br><b>Timeout</b>: 90</td>
         <td>URLs starting with "http" or "https" from MailBox within 90</td>
       </tr>
       <!-- Example 4 -->
       <tr>
-        <td><b>Regex</b>: \.com$,<br> <b>Select MailBox</b>, <br><b>Timeout</b>: 180</td>
+        <td><b>Regex</b>: \.com$<br><b>Select MailBox</b><br><b>Timeout</b>: 180</td>
         <td>URLs ending with ".com" from MailBox within 180</td>
       </tr>
     </tbody>
@@ -795,22 +795,22 @@ Before utilising the different data generator functions, it's essential to under
     <tbody>
       <!-- Example 1 -->
       <tr>
-        <td><b>Select MailBoxFunctions</b>, <br><b>Timeout</b>: 60 seconds</td>
+        <td><b>Select MailBoxFunctions</b><br><b>Timeout</b>: 60 seconds</td>
         <td>sender1@example.com</td>
       </tr>
       <!-- Example 2 -->
       <tr>
-        <td><b>Select MailBoxFunctions</b>,<br><b>Timeout</b>: 120 seconds</td>
+        <td><b>Select MailBoxFunctions</b><br><b>Timeout</b>: 120 seconds</td>
         <td>sender2@example.com</td>
       </tr>
       <!-- Example 3 -->
       <tr>
-        <td><b>Select MailBoxFunctions</b>,<br><b>Timeout</b>: 90 seconds</td>
+        <td><b>Select MailBoxFunctions</b><br><b>Timeout</b>: 90 seconds</td>
         <td>sender3@example.com</td>
       </tr>
       <!-- Example 4 -->
       <tr>
-        <td><b>Select MailBoxFunctions</b>,<br><b>Timeout</b>: 180 seconds</td>
+        <td><b>Select MailBoxFunctions</b><br><b>Timeout</b>: 180 seconds</td>
         <td>sender4@example.com</td>
       </tr>
     </tbody>
@@ -869,22 +869,22 @@ Before utilising the different data generator functions, it's essential to under
     <tbody>
       <!-- Example 1 -->
       <tr>
-        <td><b>Select MailBoxFunctions</b>, <br><b>Timeout</b>: 60 seconds</td>
+        <td><b>Select MailBoxFunctions</b><br><b>Timeout</b>: 60 seconds</td>
         <td>John Doe</td>
       </tr>
       <!-- Example 2 -->
       <tr>
-        <td><b>Select MailBoxFunctions</b>, <br><b>Timeout</b>: 120 seconds</td>
+        <td><b>Select MailBoxFunctions</b><br><b>Timeout</b>: 120 seconds</td>
         <td>Jane Smith</td>
       </tr>
       <!-- Example 3 -->
       <tr>
-        <td><b>Select MailBoxFunctions</b>, <br><b>Timeout</b>: 90 seconds</td>
+        <td><b>Select MailBoxFunctions</b><br><b>Timeout</b>: 90 seconds</td>
         <td>Alice Johnson</td>
       </tr>
       <!-- Example 4 -->
       <tr>
-        <td><b>Select MailBoxFunctions</b>, <br><b>Timeout</b>: 180 seconds</td>
+        <td><b>Select MailBoxFunctions</b><br><b>Timeout</b>: 180 seconds</td>
         <td>Bob Brown</td>
       </tr>
     </tbody>

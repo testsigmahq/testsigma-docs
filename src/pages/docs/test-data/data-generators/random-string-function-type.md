@@ -95,22 +95,22 @@ Before utilising the different data generator functions, it's essential to under
     <tbody>
       <!-- Example 1 -->
       <tr>
-        <td><b>String Length:</b> 5,<br><b>List:</b> ['A', 'B', 'C', 'D', 'E', '1', '2', '3']</td>
+        <td><b>String Length:</b> 5<br><b>List:</b> ['A', 'B', 'C', 'D', 'E', '1', '2', '3']</td>
         <td>B3C1A</td>
       </tr>
       <!-- Example 2 -->
       <tr>
-        <td><b>String Length:</b> 8,<br><b>List:</b> ['X', 'Y', 'Z', '1', '2', '3', '4', '5']</td>
+        <td><b>String Length:</b> 8<br><b>List:</b> ['X', 'Y', 'Z', '1', '2', '3', '4', '5']</td>
         <td>X2Y5Z341</td>
       </tr>
       <!-- Example 3 -->
       <tr>
-        <td><b>String Length:</b> 4,<br><b>List:</b> ['a', 'b', 'c', '1', '2', '3', '!', '@']</td>
+        <td><b>String Length:</b> 4<br><b>List:</b> ['a', 'b', 'c', '1', '2', '3', '!', '@']</td>
         <td>a2@c</td>
       </tr>
       <!-- Example 4 -->
       <tr>
-        <td><b>Input String Length:</b> 6,<br><b>List:</b> ['0', '1', '2', 'A', 'B', 'C', '!', '#']</td>
+        <td><b>Input String Length:</b> 6<br><b>List:</b> ['0', '1', '2', 'A', 'B', 'C', '!', '#']</td>
         <td>C1#A20</td>
       </tr>
     </tbody>

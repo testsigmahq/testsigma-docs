@@ -78,9 +78,7 @@ Before utilising the different data generator functions, it's essential to under
 
 - Allows you to generate dates up to a specified number of days in the future from a given reference date.
 - Simulating future interactions or events based on a specific starting point, such as upcoming meetings or planned activities, is useful.
-
-Here's a comprehensive example using the provided code template. The examples for all DateFunctions are presented in a tabular format:
-
+  
 <style>
   .example-container {
     border: 1px solid #ccc;
@@ -124,19 +122,19 @@ Here's a comprehensive example using the provided code template. The examples fo
       <th>Outputs</th>
     </tr>
     <tr>
-      <td><b>At most</b>: 30,<br><b>Unit</b>: DAYS,<br><b>Format</b>: 'dd/MM/yyyy'</b></td>
+      <td><b>At most</b>: 30<br><b>Unit</b>: DAYS<br><b>Format</b>: dd/MM/yyyy</b></td>
       <td>15/08/2024</td>
     </tr>
     <tr>
-      <td><b>At most</b>: 60,<br><b>Unit</b>: DAYS,<br><b>Format</b>: 'dd/MM/yyyy'</b></td>
+      <td><b>At most</b>: 60<br><b>Unit</b>: DAYS<br><b>Format</b>: dd/MM/yyyy</b></td>
       <td>08/09/2024</td>
     </tr>
     <tr>
-      <td><b>At most</b>: 90,<br><b>Unit</b>: DAYS,<br><b>Format</b>: 'dd/MM/yyyy'</b></td>
+      <td><b>At most</b>: 90<br><b>Unit</b>: DAYS<br><b>Format</b>: dd/MM/yyyy</b></td>
       <td>14/10/2024</td>
     </tr>
     <tr>
-      <td><b>At most</b>: 30,<br><b>Unit</b>: DAYS,<br><b>Format</b>: 'dd/MM/yyyy'</b>/td>
+      <td><b>At most</b>: 30<br><b>Unit</b>: DAYS<br><b>Format</b>: dd/MM/yyyy</b></td>
       <td>09/08/2024</td>
     </tr>
   </table>
@@ -147,7 +145,7 @@ Here's a comprehensive example using the provided code template. The examples fo
 ## **Future**
 
 - Enables you to generate dates up to a specified number of days in the future from today's date.
-- Generate dates for future events or reminders without specifying a reference date, making it ideal.
+- Generate dates for future events or reminders with specifying a reference date, making it ideal.
 
 <style>
   .example-container {
@@ -192,19 +190,19 @@ Here's a comprehensive example using the provided code template. The examples fo
       <th>Outputs</th>
     </tr>
     <tr>
-      <td><b>At most</b>: 30,<br><b>Unit</b>: DAYS,<br><b>Reference Date</b>: '10/07/2024',<br><b>Format</b>: 'dd/MM/yyyy'</td>
+      <td><b>At most</b>: 30<br><b>Unit</b>: DAYS<br><b>Reference Date</b>: 10/07/2024<br><b>Format</b>: dd/MM/yyyy</td>
       <td>15/08/2024</td>
     </tr>
     <tr>
-      <td><b>At most</b>: 60,<br><b>Unit</b>: DAYS,<br><b>Reference Date</b>: '10/07/2024',<br><b>Format</b>: 'dd/MM/yyyy'</td>
+      <td><b>At most</b>: 60<br><b>Unit</b>: DAYS<br><b>Reference Date</b>: 10/07/2024<br><b>Format</b>: dd/MM/yyyy</td>
       <td>08/09/2024</td>
     </tr>
     <tr>
-      <td><b>At most</b>: 90,<br><b>Unit</b>: DAYS,<br><b>Reference Date</b>: '10/07/2024',<br><b>Format</b>: 'dd/MM/yyyy'</td>
+      <td><b>At most</b>: 90<br><b>Unit</b>: DAYS<br><b>Reference Date</b>: 10/07/2024<br><b>Format</b>: dd/MM/yyyy</td>
       <td>14/10/2024</td>
     </tr>
     <tr>
-      <td><b>At most</b>: 30,<br><b>Unit</b>: DAYS,<br><b>Reference Date</b>: '10/07/2024',<br><b>Format</b>: 'dd/MM/yyyy'</td>
+      <td><b>At most</b>: 30<br><b>Unit</b>: DAYS<br><b>Reference Date</b>: 10/07/2024<br><b>Format</b>: dd/MM/yyyy</td>
       <td>09/08/2024</td>
     </tr>
   </table>
@@ -262,19 +260,19 @@ Here's a comprehensive example using the provided code template. The examples fo
       <th>Outputs</th>
     </tr>
     <tr>
-      <td><b>Format</b>: 'dd/MM/yyyy'</td>
+      <td><b>Format</b>: dd/MM/yyyy</td>
       <td>20/07/2024</td>
     </tr>
     <tr>
-      <td><b>Format</b>: 'dd/MM/yyyy'</td>
+      <td><b>Format</b>: dd/MM/yyyy</td>
       <td>16/07/2024</td>
     </tr>
     <tr>
-      <td><b>Format</b>: 'dd/MM/yyyy'</td>
+      <td><b>Format</b>: dd/MM/yyyy</td>
       <td>30/04/2020</td>
     </tr>
     <tr>
-      <td><b>Format</b>: 'dd/MM/yyyy'</td>
+      <td><b>Format</b>: dd/MM/yyyy</td>
       <td>12/12/2024</td>
     </tr>
   </table>
@@ -331,19 +329,19 @@ Here's a comprehensive example using the provided code template. The examples fo
       <th>Outputs</th>
     </tr>
     <tr>
-      <td><b>From</b>: '01/01/2022',<br><b>To</b>: '31/12/2022',<br><b>Format</b>: 'dd/MM/yyyy'</td>
+      <td><b>From</b>: 01/01/2022<br><b>To</b>: 31/12/2022<br><b>Format</b>: dd/MM/yyyy</td>
       <td>14/05/2022</td>
     </tr>
     <tr>
-      <td><b>From</b>: '01/01/2022',<br><b>To</b>: '31/12/2022',<br><b>Format</b>: 'dd/MM/yyyy'</td>
+      <td><b>From</b>: 01/01/2022<br><b>To</b>: 31/12/2022<br><b>Format</b>: dd/MM/yyyy</td>
       <td>22/08/2022</td>
     </tr>
     <tr>
-      <td><b>From</b>: '01/01/2022',<br><b>To</b>: '31/12/2022',<br><b>Format</b>: 'dd/MM/yyyy'</td>
+      <td><b>From</b>: 01/01/2022<br><b>To</b>: 31/12/2022<br><b>Format</b>: dd/MM/yyyy</td>
       <td>11/11/2022</td>
     </tr>
     <tr>
-      <td><b>From</b>: '01/01/2022',<br><b>To</b>: '31/12/2022',<br><b>Format</b>: 'dd/MM/yyyy'</td>
+      <td><b>From</b>: 01/01/2022<br><b>To</b>: 31/12/2022<br><b>Format</b>: dd/MM/yyyy</td>
       <td>02/03/2022</td>
     </tr>
   </table>
@@ -401,19 +399,19 @@ Here's a comprehensive example using the provided code template. The examples fo
       <th>Outputs</th>
     </tr>
     <tr>
-      <td><b>At most</b>: 60,<br><b>Unit</b>: days,<br><b>Format</b>: 'dd/MM/yyyy'</td>
+      <td><b>At most</b>: 60<br><b>Unit</b>: DAYS<br><b>Format</b>: dd/MM/yyyy</td>
       <td>11/05/2024</td>
     </tr>
     <tr>
-      <td><b>At most</b>: 30,<br><b>Unit</b>: days,<br><b>Format</b>: 'dd/MM/yyyy'</td>
+      <td><b>At most</b>: 30<br><b>Unit</b>: DAYS<br><b>Format</b>: dd/MM/yyyy</td>
       <td>16/06/2024</td>
     </tr>
     <tr>
-      <td><b>At most</b>: 60,<br><b>Unit</b>: days,<br><b>Format</b>: 'dd/MM/yyyy'</td>
+      <td><b>At most</b>: 60<br><b>Unit</b>: DAYS<br><b>Format</b>: dd/MM/yyyy</td>
       <td>17/05/2024</td>
     </tr>
     <tr>
-      <td><b>At most</b>: 90,<br><b>Unit</b>: days,<br><b>Format</b>: 'dd/MM/yyyy'</td>
+      <td><b>At most</b>: 90<br><b>Unit</b>: DAYS<br><b>Format</b>: dd/MM/yyyy</td>
       <td>17/04/2024</td>
     </tr>
   </table>
@@ -469,19 +467,19 @@ Here's a comprehensive example using the provided code template. The examples fo
       <th>Outputs</th>
     </tr>
     <tr>
-      <td><strong>At most</strong>: 30,<br><strong>Unit</strong>: days,<br><strong>Reference Date</strong>: '10/07/2024',<br><strong>Format</strong>: 'dd/MM/yyyy'</td>
+      <td><strong>At most</strong>: 30<br><strong>Unit</strong>: DAYS<br><strong>Reference Date</strong>: 10/07/2024<br><strong>Format</strong>: dd/MM/yyyy</td>
       <td>15/08/2024</td>
     </tr>
     <tr>
-      <td><strong>At most</strong>: 60,<br><strong>Unit</strong>: days,<br><strong>Reference Date</strong>: '10/07/2024',<br><strong>Format</strong>: 'dd/MM/yyyy'</td>
+      <td><strong>At most</strong>: 60<br><strong>Unit</strong>: DAYS<br><strong>Reference Date</strong>: 10/07/2024<br><strong>Format</strong>: dd/MM/yyyy</td>
       <td>08/09/2024</td>
     </tr>
     <tr>
-      <td><strong>At most</strong>: 90,<br><strong>Unit</strong>: days,<br><strong>Reference Date</strong>: '10/07/2024',<br><strong>Format</strong>: 'dd/MM/yyyy'</td>
+      <td><strong>At most</strong>: 90<br><strong>Unit</strong>: DAYS<br><strong>Reference Date</strong>: 10/07/2024<br><strong>Format</strong>: dd/MM/yyyy</td>
       <td>14/10/2024</td>
     </tr>
     <tr>
-      <td><strong>At most</strong>: 30,<br><strong>Unit</strong>: days,<br><strong>Reference Date</strong>: '10/07/2024',<br><strong>Format</strong>: 'dd/MM/yyyy'</td>
+      <td><strong>At most</strong>: 30<br><strong>Unit</strong>: DAYS<br><strong>Reference Date</strong>: 10/07/2024<br><strong>Format</strong>: dd/MM/yyyy</td>
       <td>09/08/2024</td>
     </tr>
   </table>
@@ -537,19 +535,19 @@ Here's a comprehensive example using the provided code template. The examples fo
       <th>Outputs</th>
     </tr>
     <tr>
-      <td>Offset: 30,<br><strong>Format: 'dd/MM/yyyy'</td>
+      <td><strong>Offset</strong>: 30<br><strong>Format</strong>: dd/MM/yyyy</td>
       <td>16/07/1994</td>
     </tr>
     <tr>
-      <td>Offset: 25,<br><strong>Format: 'dd/MM/yyyy'</td>
+      <td><strong>Offset</strong>: 25<br><strong>Format</strong>: dd/MM/yyyy</td>
       <td>16/07/1999</td>
     </tr>
     <tr>
-      <td>Offset: 40,<br><strong>Format: 'dd/MM/yyyy'</td>
+      <td><strong>Offset</strong>: 40<br><strong>Format</strong>: dd/MM/yyyy</td>
       <td>16/07/1984</td>
     </tr>
     <tr>
-      <td>Offset: 18,<br><strong>Format: 'dd/MM/yyyy'</td>
+      <td><strong>Offset</strong>: 18<br><strong>Format</strong>: dd/MM/yyyy</td>
       <td>16/07/2006</td>
     </tr>
   </table>
@@ -605,19 +603,19 @@ Here's a comprehensive example using the provided code template. The examples fo
       <th>Outputs</th>
     </tr>
     <tr>
-      <td><strong>At most</strong>: 30,<br><strong>Unit</strong>: days,<br><strong>Format</strong>: 'dd/MM/yyyy'</td>
+      <td><strong>At most</strong>: 30<br><strong>Unit</strong>: DAYS<br><strong>Format</strong>: dd/MM/yyyy</td>
       <td>16/06/2024</td>
     </tr>
     <tr>
-      <td><strong>At most</strong>: 60,<br><strong>Unit</strong>: days,<br><strong>Format</strong>: 'dd/MM/yyyy'</td>
+      <td><strong>At most</strong>: 60<br><strong>Unit</strong>: DAYS<br><strong>Format</strong>: dd/MM/yyyy</td>
       <td>17/05/2024</td>
     </tr>
     <tr>
-      <td><strong>At most</strong>: 90,<br><strong>Unit</strong>: days,<br><strong>Format</strong>: 'dd/MM/yyyy'</td>
+      <td><strong>At most</strong>: 90<br><strong>Unit</strong>: DAYS<br><strong>Format</strong>: dd/MM/yyyy</td>
       <td>17/04/2024</td>
     </tr>
     <tr>
-      <td><strong>At most</strong>: 45,<br><strong>Unit</strong>: days,<br><strong>Format</strong>: 'dd/MM/yyyy'</td>
+      <td><strong>At most</strong>: 45<br><strong>Unit</strong>: DAYS<br><strong>Format</strong>: dd/MM/yyyy</td>
       <td>01/06/2024</td>
     </tr>
   </table>
@@ -673,19 +671,19 @@ Here's a comprehensive example using the provided code template. The examples fo
       <th>Outputs</th>
     </tr>
     <tr>
-      <td><strong>At most</strong>: 30,<br><strong>Unit</strong>: days,<br><strong>Format</strong>: 'dd/MM/yyyy'</td>
+      <td><strong>At most</strong>: 30<br><strong>Unit</strong>: DAYS<br><strong>Format</strong>: dd/MM/yyyy</td>
       <td>15/08/2024</td>
     </tr>
     <tr>
-      <td><strong>At most</strong>: 60,<br><strong>Unit</strong>: days,<br><strong>Format</strong>: 'dd/MM/yyyy'</td>
+      <td><strong>At most</strong>: 60<br><strong>Unit</strong>: DAYS<br><strong>Format</strong>: dd/MM/yyyy</td>
       <td>14/09/2024</td>
     </tr>
     <tr>
-      <td><strong>At most</strong>: 90,<br><strong>Unit</strong>: days,<br><strong>Format</strong>: 'dd/MM/yyyy'</td>
+      <td><strong>At most</strong>: 90<br><strong>Unit</strong>: DAYS<br><strong>Format</strong>: dd/MM/yyyy</td>
       <td>14/10/2024</td>
     </tr>
     <tr>
-      <td><strong>At most</strong>: 45,<br><strong>Unit</strong>: days,<br><strong>Format</strong>: 'dd/MM/yyyy'</td>
+      <td><strong>At most</strong>: 45<br><strong>Unit</strong>: DAYS<br><strong>Format</strong>: dd/MM/yyyy</td>
       <td>30/08/2024</td>
     </tr>
   </table>
@@ -741,19 +739,19 @@ Here's a comprehensive example using the provided code template. The examples fo
       <th>Outputs</th>
     </tr>
     <tr>
-      <td><strong>At most</strong>: 30,<br><strong>Unit</strong>: days,<br><strong>Reference Date</strong>: '10/07/2024',<br><strong>Format</strong>: 'dd/MM/yyyy'</td>
+      <td><strong>At most</strong>: 30<br><strong>Unit</strong>: DAYS<br><strong>Reference Date</strong>: 10/07/2024<br><strong>Format</strong>: dd/MM/yyyy</td>
       <td>10/06/2024</td>
     </tr>
     <tr>
-      <td><strong>At most</strong>: 60,<br><strong>Unit</strong>: days,<br><strong>Reference Date</strong>: '10/07/2024',<br><strong>Format</strong>: 'dd/MM/yyyy'</td>
+      <td><strong>At most</strong>: 60<br><strong>Unit</strong>: DAYS<br><strong>Reference Date</strong>: 10/07/2024<br><strong>Format</strong>: dd/MM/yyyy</td>
       <td>11/05/2024</td>
     </tr>
     <tr>
-      <td><strong>At most</strong>: 90,<br><strong>Unit</strong>: days,<br><strong>Reference Date</strong>: '10/07/2024',<br><strong>Format</strong>: 'dd/MM/yyyy'</td>
+      <td><strong>At most</strong>: 90<br><strong>Unit</strong>: days<br><strong>Reference Date</strong>: 10/07/2024<br><strong>Format</strong>: dd/MM/yyyy</td>
       <td>11/04/2024</td>
     </tr>
     <tr>
-      <td><strong>At most</strong>: 45,<br><strong>Unit</strong>: days,<br><strong>Reference Date</strong>: '10/07/2024',<br><strong>Format</strong>: 'dd/MM/yyyy'</td>
+      <td><strong>At most</strong>: 45<br><strong>Unit</strong>: DAYS<br><strong>Reference Date</strong>: 10/07/2024<br><strong>Format</strong>: dd/MM/yyyy</td>
       <td>26/05/2024</td>
     </tr>
   </table>
@@ -776,19 +774,19 @@ Here's a comprehensive example using the provided code template. The examples fo
       <th>Outputs</th>
     </tr>
     <tr>
-      <td><strong>At most</strong>: 30,<br><strong>Unit</strong>: days,<br><strong>Reference Date</strong>: '10/07/2024',<br><strong>Format</strong>: 'dd/MM/yyyy'</td>
+      <td><strong>At most</strong>: 30<br><strong>Unit</strong>: DAYS<br><strong>Reference Date</strong>: 10/07/2024<br><strong>Format</strong>: dd/MM/yyyy</td>
       <td>09/08/2024</td>
     </tr>
     <tr>
-      <td><strong>At most</strong>: 60,<br><strong>Unit</strong>: days,<br><strong>Reference Date</strong>: '10/07/2024',<br><strong>Format</strong>: 'dd/MM/yyyy'</td>
+      <td><strong>At most</strong>: 60<br><strong>Unit</strong>: DAYS<br><strong>Reference Date</strong>: 10/07/2024<br><strong>Format</strong>: dd/MM/yyyy</td>
       <td>08/09/2024</td>
     </tr>
     <tr>
-      <td><strong>At most</strong>: 90,<br><strong>Unit</strong>: days,<br><strong>Reference Date</strong>: '10/07/2024',<br><strong>Format</strong>: 'dd/MM/yyyy'</td>
+      <td><strong>At most</strong>: 90<br><strong>Unit</strong>: DAYS<br><strong>Reference Date</strong>: 10/07/2024<br><strong>Format</strong>: dd/MM/yyyy</td>
       <td>08/10/2024</td>
     </tr>
     <tr>
-      <td><strong>At most</strong>: 45,<br><strong>Unit</strong>: days,<br><strong>Reference Date</strong>: '10/07/2024',<br><strong>Format</strong>: 'dd/MM/yyyy'</td>
+      <td><strong>At most</strong>: 45<br><strong>Unit</strong>: DAYS<br><strong>Reference Date</strong>: 10/07/2024<br><strong>Format</strong>: dd/MM/yyyy</td>
       <td>24/08/2024</td>
     </tr>
   </table>
