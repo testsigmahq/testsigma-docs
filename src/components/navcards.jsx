@@ -156,6 +156,18 @@ const data = [
     },
     {
         id: 26,
+        title: "Salesforce Testing",
+        description: "Learn how to test applications built on Salesforce using Testsigma.",
+        path: "/docs/salesforce-testing/introduction/",
+    },
+    {
+        id: 27,
+        title: "Windows Automation",
+        description: "Learn a comprehensive approach for Windows Automation using Testsigma.",
+        path: "/docs/windows-automation/introduction/",
+    },
+    {
+        id: 28,
         title: "Best Practices",
         description: "Best Practices to follow for Testsigma Automation",
         path: "/docs/best-practices/best-practices/",
