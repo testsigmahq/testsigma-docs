@@ -81,5 +81,11 @@ Creating a connected app is important to link external applications and the Sale
 4. For Security Token, go to **My Personal Information > Reset My Security Token** and click on **Reset Security Token**. A new token will be sent to admin mail. 
 ![Reset Security Token](https://s3.amazonaws.com/static-docs.testsigma.com/new_images/projects/applications/sfcarst.png)
 
+<br>
+
+
+
+> Refer to this [Salesforce troubleshooting]((https://testsigma.com/docs/troubleshooting/salesforce-testing/most-common-issues/)) guide for the most common issues while creating a connected app.
+
 
 ---
