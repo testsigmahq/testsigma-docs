@@ -1,105 +1,95 @@
 ---
-title: "Debug results on local devices (Web applications)"
+title: "Debugging Results on Local Devices for Web Applications"
+pagetitle: "Debugging Web Application Results on Local Devices"
+metadesc: "Learn how to debug test cases on local devices for web applications, using detailed steps and troubleshooting tips to ensure accurate and efficient testing."
+noindex: false
 order: 10.3
-page_id: "Debug Results on Local Devices"
-metadesc: "Debugging issues in complex tests might require enhanced techniques. This article discusses in detail step-by-step guide on how to debug results on local devices in Testsigma."
+page_id: "debugging-results-local-devices-web-applications"
 search_keyword: ""
 warning: false
 contextual_links:
 - type: section
   name: "Contents"
 - type: link
-  name: "Steps to execute test cases in debugger mode"
-  url: "#steps-to-execute-test-cases-in-debugger-mode"
+  name: "Prerequisites"
+  url: "#prerequisites"
 - type: link
-  name: "Adding debug points to debug the test"
-  url: "#adding-debug-points-to-debug-the-test"
+  name: "Executing Test Cases in Debugger Mode"
+  url: "#executing-test-cases-in-debugger-mode"
 - type: link
-  name: "Fixing an error using debugging feature"
-  url: "#fixing-an-error-using-debugging-feature"
+  name: "Adding Debug Points"
+  url: "#adding-debug-points"
+- type: link
+  name: "Interacting with Debug Points"
+  url: "#interacting-with-debug-points"
+- type: link
+  name: "Identifying and Fixing Errors During Test Case Execution"
+  url: "#identifying-and-fixing-errors-during-test-case-execution"
+- type: link
+  name: "Troubleshooting Element Not Found Error"
+  url: "#troubleshooting-element-not-found-error"  
 ---
----
-Debugging issues in complex test cases might require enhanced techniques. This article describes Testsigma's interactive debugging feature for web applications that will not only fix test step issues but also save a good amount of debugging time.
-
-[[info | **NOTE**:]]
-|This feature is available in beta version only. Contact [support](mailto:support@testsigma.com) for enabling the feature in your account.
 
 ---
-
-## **Steps to execute test cases in debugger mode**
-
-1. Navigate to the test case you want to debug and interact with.<br>
-[[info | **NOTE**:]]
-|If the test case uses a test data profile, users can choose only one data profile to use the debugging feature.
-2. On the test case details page, click the drop-down arrow beside the **Run** button.
-
-3. Select **Run in debug mode** from the drop-down list. ![Run in debug mode](https://s3.amazonaws.com/static-docs.testsigma.com/new_images/debugging/debugging-localdevices-web/run_in_debug_mode.png)<br>Optionally you can select **Record in debug mode** to capture screen shots during test execution for each UI-interactive action. Looking at the screen shots it is easier to identify where your test cases failed.
-![Record in debug mode](https://s3.amazonaws.com/static-docs.testsigma.com/new_images/debugging/debugging-localdevices-web/record_in_debug_mode.png)
-4. On the **Ad-hoc run** overlay window,
-    1. Specify the test lab. The default test lab in debugging mode for web applications is **Local Device**.
-    2. Select the checkbox **Run only if the configured browser version is available in the Agent machine**.
-    3. Select your local test machine. To run tests on your local machine you need to set up a Testsigma agent. *For more information, refer to [set up Testsigma agent](https://testsigma.com/docs/agent/setup-on-windows-mac-linux/)*.
-    4. If you want to execute the test steps until the failed step, select the toggle **Run till failed step**. If this toggle button is disabled, the test case will be executed from start to end. Thereby, identifying the test step that is failing would be difficult.
-    5. If you want to execute the step till a particular step (that is setting a debug point), select the step from the **Run till step** drop-down list. For more information on debug points, refer to the section debug points.
-    6. Click **Run now** to execute the test case.
+Debugging in Testsigma helps identify and resolve errors in test cases through its interactive debugging feature. This feature lets you execute tests step-by-step, pausing at specific points to inspect behaviour. It provides users with detailed resources like step results, metadata, screenshots, source codes, and step settings to pinpoint failures accurately, thus saving time and enhancing the reliability of test executions.
 
 ---
 
-## **Adding debug points to debug the test**
+## **Prerequisites**
 
-Debug points are locations in your test steps where you want the test step to start or pause test case executions. This helps to observe the behavior of the test case. Multiple debug points can be added in a test case. Breaking up test execution this way ensures that you can carefully investigate each of the steps for potential bugs, instead of using a more inconvenient alternative. For example, letting the test case run at once and then trying to figure out in which step the things went wrong.
-To add debug points to your test case, follow the below steps:
+Before you begin debugging in Testsigma, ensure the following:
 
-1. To add a debug point, click on the **Show more** icon next to the test step.
-
-2. Select **Add debug point** from the drop-down list. When the test case is executed, the execution is performed until the debug point. Multiple debug points can be added as and when desired.
-![Add debug points](https://s3.amazonaws.com/static-docs.testsigma.com/new_images/debugging/debugging-localdevices-web/add_debug_point.png)
+- The Testsigma Agent is started and active.
+- Debugging can only be done through a Local Device.
+- If the test case uses a test data profile, only one test data profile can be selected for debugging.
 
 ---
 
-## **Fixing an error using debugging feature**
+## **Executing Test Cases in Debugger Mode**
 
-On the execution of the test case, a user can visually view the execution move from step to step. Thus, it is easy to understand the execution workflow.
-The execution is paused when an error is encountered or at a debug point. On the test steps window, Testsigma highlights the step that failed and caused the execution to stop.
-With the execution paused, the debugging feature offers various resources to help you debug the error in the test step.
+1. Navigate to the test case you want to debug.
+2. On the test case details page, click the **Launch Debugger** button in the top right corner of the screen.
+3. On the Run in Debug Overlay, ensure the **Test Lab** is set to **Local Device** and that the **Agent** is in **Active Status** for debugging.
+4. To execute the test steps until a failed step, enable the **Run till failed step toggle** and set a debug point by selecting the test step from the dropdown. If this toggle is disabled, the test case will execute from start to end.
+5. Click **Debug now** to execute the test case. ![click launch debugger in test case details page](https://s3.amazonaws.com/static-docs.testsigma.com/new_images/projects/applications/launch_debugger_in_web_application.gif)
 
-### **Debug resources**
+---
 
-The debug resources provide a detailed and interactive analysis of the issue. The debugging resources include step results, metadata, screenshots, source codes, and step settings. These resources are available for all test steps including passed and failed test steps.
+## **Adding Debug Points**
 
-1. To view the debugging resources, click **More**.
-![view debugging resources](https://s3.amazonaws.com/static-docs.testsigma.com/new_images/debugging/debugging-localdevices-web/debugging_resources_more.png)
-2. Hover the mouse over each icon to find the details related to step results, metadata, screenshots, source codes, and step settings.
+Debug points are specific locations in your test steps where you want the execution to start or pause. These points help you observe the behaviour of the test case more closely.
 
-### **Troubleshoot ‘element not found error’**
+1. A new window with the webpage's URL provided will open to debug the test steps.
+2. In the Testsigma Debugger overlay, hover over the yet to execute test step and click the **Place Debug Point** icon to add a debug point.
+3. To add multiple debug points, hover over the test step and click on the corresponding debug point that appears to enable it.
+4. Execution will pause when it reaches an enabled debug point. ![add debug point in debugger mode](https://s3.amazonaws.com/static-docs.testsigma.com/new_images/projects/applications/adding_debugging_point_in_web_applications.gif)
 
-A common failure while executing test cases is that a particular element is not found during test execution. In some cases, the element is visibly available on the page but is still reported as not found by Testsigma. In such cases, follow the below steps to debug the error.
+---
 
-1. **Explore debug resources**: To explore debug resources, click on **More** next to the failed step. The debug resources provide a detailed analysis of the issue.![explore debug resources](https://s3.amazonaws.com/static-docs.testsigma.com/new_images/debugging/debugging-localdevices-web/element_not_found_error_2.png)
+## **Interacting with Debug Points**
 
-2. **Check the UI element**: To check the UI element which cannot be found, click **Show more**>**Element search** next to the test step. The relevant element is highlighted for 2 sec. You can compare the properties of the saved element with that of the element displayed on the screen.
+1. When the test execution pauses at a debug point, you can perform the following actions by clicking **Options** for the test step that has yet to be executed and selecting the option from the dropdown:
+     - **Resume Execution**: Continue the test execution.
+     - **Run this Step**: Execute the current step.
+     - **Step Over**: Skip the current step.
+2. Interact with the page to skip the failed test step, click **Step Over** to skip the current step, and continue the executions. ![interact with debug points in web](https://s3.amazonaws.com/static-docs.testsigma.com/new_images/projects/applications/interact_debugg_web_application.gif)
 
-3. **Edit element**: To edit an element, click on **Show more**>**Edit step** next to the failed step.
-     1. Click on the saved element.
+---
 
-     2. You can add the element from the list of elements provided.
+## **Identifying and Fixing Errors During Test Case Execution**
 
-     3. Optionally, you can create a new element. To create an element, click on **Create element**.![create an element](https://s3.amazonaws.com/static-docs.testsigma.com/new_images/debugging/debugging-localdevices-web/create_elements_debugger.png)
+During test case execution, you can visually follow each step. If an error occurs or a debug point is reached, execution pauses, and Testsigma highlights the problematic step. Various resources are provided to help you debug the error, offering a detailed and interactive analysis.
 
-     4. Click on your desired element to automatically populate the element details field.![create element 2](https://s3.amazonaws.com/static-docs.testsigma.com/new_images/debugging/debugging-localdevices-web/capture_element_webdebugger.png) 
-     
-     5. Click **Create**. 
+- Hover over the Step **Options** for Executed Test Step and then click **Step Result** to view the outcome of each test step. ![identifying and fixing errors during test case execution](https://s3.amazonaws.com/static-docs.testsigma.com/new_images/projects/applications/identifing_error_teststep_debug.gif)
 
-     6. Optionally, you can add element details and click **Verify** to view the element highlighted on the page.
+---
 
-     7. Click **Update**, to update the test step.
+## **Troubleshooting Element Not Found Error**
 
-4. **Test Execution**: To re-execute, the test step after editing, click **Show more > Re-run**.
-5. To resume the execution of a test case from the previously paused test step, click **Show more**>**Resume**.
+A common issue during test execution is the "Element Not Found" error, where an element visible on the page is still reported as not found. To debug this issue, follow these steps:
 
-  
+- View the message for the test step. If the element is not found, click **Element** to view its properties, analyse the issue, and [update the element](https://testsigma.com/docs/elements/web-apps/create-manually/).
+- After updating the element, click **Options** and select **Resume Execution** from the previously paused step. ![troubleshoot element not found error](https://s3.amazonaws.com/static-docs.testsigma.com/new_images/projects/applications/troubleshooting_element_error.gif)
 
- 
-
-
+---
 
