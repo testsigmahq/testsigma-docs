@@ -682,5 +682,11 @@
   "add-test-cases-for-mobile-web-app": {"/docs/test-cases/manage/add-test-cases-for-mobile-web-app/": "Test Cases (Mobile Web App)" },
   "most-common-issues": { "/docs/troubleshooting/salesforce-testing/most-common-issues/": "Most Common Issues" },
   "developer-mode-for-ios": {"/docs/troubleshooting/mobile-apps/developer-mode-for-ios/": "Developer Mode (iOS 16 & Above)" },
-  "mock-apis": {"/docs/test-cases/create-steps-restapi/mock-apis/": "Mock API Support" }
+  "mock-apis": {"/docs/test-cases/create-steps-restapi/mock-apis/": "Mock API Support" },
+  "testsigma-on-prem-architecture": {"/docs/on-premise-setup/pre-installation/testsigma-on-prem-architecture/": "On-Premise System Architecture" },
+  "prerequisites-and-machine-configurations": {"/docs/on-premise-setup/pre-installation/prerequisites-and-machine-configurations/": "Prerequisites" },
+  "setup": {"/docs/on-premise-setup/installation-process/setup/": "Installation Steps" },
+  "post-installation-checklist": {"/docs/on-premise-setup/post-installation/post-installation-checklist/": "Post-Installation Checklist" },
+  "troubleshooting": {"/docs/on-premise-setup/post-installation/troubleshooting/": "Troubleshooting" },
+  "faqs": {"/docs/on-premise-setup/post-installation/faqs/": "FAQs" }
 }

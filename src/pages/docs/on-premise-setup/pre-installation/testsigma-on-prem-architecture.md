@@ -1,0 +1,126 @@
+---
+title: "Testsigma's On-Premise Architecture"
+order: 26.11
+page_id: "Testsigma's On-premise Architecture"
+metadesc: "Learn how Testsigma on-premise system architecture provides a secure environment for creating and executing automated tests within your organization's local infrastructure"
+noindex: false
+search_keyword: ""
+warning: false
+contextual_links:
+- type: section
+  name: "Contents"
+- type: link
+  name: "Important Components"
+  url: "#important-components"
+- type: link
+  name: "Interactions"
+  url: "#interactions"
+- type: link
+  name: "Testsigma Central Server Architecture"
+  url: "#testsigma-central-server-architecture"
+---
+
+---
+
+The Testsigma On-Premise System Architecture provides a secure environment for creating and executing automated tests within your organization's local infrastructure. This article discusses Testsigma's On-Premise System Architecture.
+
+This architecture includes three main components: 
+1. Client Systems
+2. Central Server
+3. Database
+
+Here’s a high level illustration of Testsigma’s On-prem Architecture:
+
+![Architecture](https://s3.amazonaws.com/static-docs.testsigma.com/new_images/projects/applications/tsarchitecture.png)
+
+---
+
+## **Important Components**
+
+### **1. Client Systems:**
+- **Agents:**
+    - Software programs that are installed on each client system for test creation and execution. 
+    - These Agents communicate with test browsers and mobile devices to execute tests, using various ports, including 8383, 8484, 8100, and 5037, and a range from 10000 to 65535. 
+    - The Agents send test results to the Central Server.
+
+- **Browsers:**
+    - Browsers on the Client Systems provide users access to the Testsigma application via a web interface for seamless interaction.
+
+### **2. Central Server:** 
+   - The Central Server is the main hub of the Testsigma On-Premise System Architecture. 
+   - It processes and stores all data received from the Agents. 
+   - It provides a web interface to access the Testsigma application. 
+   - It communicates with the Database to store and retrieve data and ensures that retrieved data is organized. 
+   - It also offers storage capabilities for data and test results.
+ 
+### **3. Database:**
+   - The Database is the backbone of data storage within the Testsigma On-Premise System Architecture. 
+   - It stores all relevant information, including test results, user data, and other necessary details. The Database communicates with the Central Server using TCP on port 3307.
+
+---
+
+## **Interactions**
+
+Here's the detailed explanation of communication between components:
+
+![Detailed Communication](https://s3.amazonaws.com/static-docs.testsigma.com/new_images/projects/applications/DetailedArchitecture.png)
+
+### **1. Client Access**
+- Clients access the Testsigma application using web browsers and interact with the application's features and functionalities. 
+- Communication between the Client and the Central Server happens via HTTPS protocol. 
+
+### **2. Agent Communication**
+- The Agent on client machines executes tests on browsers and mobile devices by communicating with the Central Server using HTTPS. 
+- The Agent also handles the test execution process and returns the results to the Central Server. 
+
+### **3. Central Server to Database**
+- The Central Server communicates with the Database using TCP on port 3307 to store and retrieve necessary data.
+
+---
+
+## **Testsigma Central Server Architecture**
+
+The Testsigma Central Server Architecture is designed within a Docker environment, providing containerization benefits such as isolation, scalability, and easy deployment. The architecture consists of servers responsible for specific tasks and a MySQL database to manage data storage.
+ 
+![Central Server Architecture](https://s3.amazonaws.com/static-docs.testsigma.com/new_images/projects/applications/CentralServerAchitecture.png)
+
+### **Components**
+
+**1. Load Balancer**
+- **Role:** Acts as the entry point to the system, distributing incoming traffic among multiple servers to prevent any single server from becoming a bottleneck.
+
+**2. ID Server**
+- **Role:** Handles user identity, authentication, and authorization services.
+- **Ports:** 8084, 9095, 4203
+
+**3. App Server**
+- **Role:** Manages the main application logic and user requests.
+- **Ports:** 8080, 9096, 4211
+
+**4. Addon Server**
+- **Role:** Supports additional features or plugins that extend the main application functionality.
+- **Ports:** 8082, 9097, 4201
+
+**5. Audit Server**
+- **Role:** Manages logging, monitoring, and auditing of system activities and transactions.
+- **Ports:** 9090, 4230
+
+**6. Visual Testing Server**
+- **Role:** Handles visual testing tasks, such as UI validation and automated visual regression testing.
+- **Port:** 7010
+
+**7. MySQL Database**
+- **Roles:** 
+   - Stores all the application data, including user information, transactions, logs, etc. 
+   - Communicates with all servers to provide necessary data access.
+- **Port:** 3307
+
+
+### **Interactions**
+**1. Load Balancer:**
+- Routes traffic to the ID, App, Addon, Audit, and Visual Testing servers.
+
+**2. Servers:**
+- Each server interacts with the MySQL database to store and retrieve data as needed.
+
+---
