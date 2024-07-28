@@ -1,6 +1,6 @@
 ---
 title: "SMTP Configuration in Testsigma"
-order: 26.6
+order: 19.7
 page_id: "SMTP Configuration Setup"
 metadesc: "This article discusses a step-by-step guide to setup Simple Mail Transfer Protocol (SMTP) to trigger emails from a configured email address."
 noindex: false
@@ -40,24 +40,15 @@ You'll need the following for SMTP Configuration:
 ## **Steps to Configure SMTP in Testsigma**
 
 1. Navigate to **Settings > SMTP Configuration**.
-![SMTP Configuration](https://s3.amazonaws.com/static-docs.testsigma.com/new_images/projects/applications/smtp.png)
-
 
 2. Turn on the **SMTP Configuration** toggle.
-![SMTP Toggle](https://s3.amazonaws.com/static-docs.testsigma.com/new_images/projects/applications/smtp_toggle.png)
-
 
 [[info | **NOTE**:]]
 | You will stop getting emails if you turn off the SMTP Configuration toggle. 
 
-
 3. Select **@own**, and enter all the details.
-![Own](https://s3.amazonaws.com/static-docs.testsigma.com/new_images/projects/applications/SMTP_details.png)
-
 
 4. Click on **Save**.
-![Save](https://s3.amazonaws.com/static-docs.testsigma.com/new_images/projects/applications/Save.png) 
-
 
 [[info | **NOTE**:]]
 |If you select Testsigma, the mails will go with default email. For **@own** configuration, you need to enter the following details:<br>
@@ -97,7 +88,7 @@ Here’s a quick GIF demonstrating how to generate the password.
 
 
 [[info | **NOTE**:]]
-|These steps are specific for generating an app password in a Google account. The process may be different for other email clients/services.
+| These steps are specific for generating an app password in a Google account. The process may be different for other email clients/services.
 
 
 
