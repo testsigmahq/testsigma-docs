@@ -698,10 +698,10 @@ table{
         #hs-eu-confirmation-button-group {
           flex-flow: row;
           #hs-eu-cookie-settings-button {
-            padding: 1rem 2.5rem !important;
+            padding: 10px 25px !important;
             text-align: center !important;
             font-size: 14px !important;
-            line-height: 2rem !important;
+            line-height: 20px !important;
             border: 0.5px solid #d0d5dd !important;
             color: #0a1a2a !important;
             min-width: 12em !important;
@@ -710,7 +710,7 @@ table{
             #hs-eu-confirmation-button,
             #hs-eu-cookie-settings-button {
               font-weight: 600 !important;
-              border-radius: 0.5rem !important;
+              border-radius: 5px !important;
             &:hover {
               color: white !important;
               background-color: #007d85 !important;
@@ -730,12 +730,12 @@ table{
     color: #09c0a1 !important;
   }
   #hs-modal-introduction {
-    font-size: 1.6rem !important;
+    font-size: 16px !important;
   }
   #hs-modal-introduction-description {
     p {
-      font-size: 1.4rem !important;
-      line-height: 2.4rem !important;
+      font-size: 14px !important;
+      line-height: 24px !important;
       font-weight: 400 !important;
       color: #5f5f5f !important;
     }
@@ -744,18 +744,18 @@ table{
    gap: 0 !important; 
   }
   #hs-categories-container {
-    padding-top: 2rem !important;
+    padding-top: 20px !important;
     .hs-category-row {
       border-top: #d0d5ddbd !important;
       border-style: solid !important;
       border-width: 1px 0 0 0 !important;
-      padding: 1.5rem 1rem 0 !important;
+      padding: 15px 10px 0 !important;
       .hs-toggle-switch {
         width: calc(3.4em + 2px) !important;
         height: calc(1.7em + 2px) !important;
         .hs-toggle-switch-nob{
-          height: 1.4em !important;
-          width: 1.4em !important;
+          height: 14px !important;
+          width: 14px !important;
         }
       }
       .hs-toggle-selected-flag{
@@ -764,7 +764,7 @@ table{
         }
       }
       .hs-category-label{
-        gap: .5rem !important;
+        gap: 5px !important;
       }
     }
     #hs-category-analytics,
@@ -772,25 +772,25 @@ table{
     #hs-category-advertisement,
     #hs-category-functionality {
       span {
-        font-size: 1.8rem !important;
-        line-height: 2.4rem !important;
+        font-size: 18px !important;
+        line-height: 24px !important;
         font-weight: 600 !important;
       }
     }
     .hs-category-description {
-      font-size: 1.4rem !important;
-      line-height: 2rem !important;
+      font-size: 14px !important;
+      line-height: 20px !important;
       font-weight: 400 !important;
       color: #5f5f5f !important;
     }
     .visible {
-      padding-top: 1.5rem;
-      padding-left: 2rem !important;
+      padding-top: 15px;
+      padding-left: 20px !important;
     }
   }
   .hs-always-active-label {
-    font-size: 1.4rem !important;
-    line-height: 2rem !important;
+    font-size: 14px !important;
+    line-height: 20px !important;
     font-weight: 600 !important;
     color: #09c0a1 !important;
   }
@@ -809,7 +809,7 @@ table{
     }
   }
   #hs-modal-footer{
-    padding-top: 1.2rem !important;
+    padding-top: 12px !important;
   }
 }
 
