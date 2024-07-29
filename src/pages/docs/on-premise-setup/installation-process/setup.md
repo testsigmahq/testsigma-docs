@@ -1,8 +1,8 @@
 ---
-title: "On-Premise Setup with Docker-compose File"
-order: 26.3
-page_id: "Onprem Installation Steps"
-metadesc: "This article discusses steps to deploy the docker compose file for Testsigma On-prem setup, how to access the application, how to stop and remove the containers, and more."
+title: "On-Premise Installation Steps"
+order: 26.21
+page_id: "On-premise setup"
+metadesc: "Learn how to setup Testsigma On-premise using docker compose file | Steps to Deploy Docker Compose File for Testsigma's on-prem setup"
 noindex: false
 search_keyword: ""
 warning: false
@@ -21,11 +21,8 @@ contextual_links:
 - type: link
   name: "Containers Defined in the Docker Compose File"
   url: "#containers-defined-in-the-docker-compose-file"
-- type: link
-  name: "How to Change the Domain Name"
-  url: "#how-to-change-the-domain-name"
----
 
+---
 
 ---
 
@@ -35,29 +32,30 @@ You'll receive ***docker-compose.yml*** files based on your requested configurat
 
 ## **Steps to Deploy Docker Compose File**
 
-1. Install Docker and Docker Compose on your system.
+1. Install **Docker** and **Docker Compose** on your system.
 
-2. Open a terminal and navigate to the directory where the docker-compose.yml file is located.
+2. Open the **Terminal** and navigate to the directory where the **docker-compose.yml** file is located.
 
-3. Run the command ***docker-compose up***  to start the containers defined in the docker-compose.yml file given by Testsigma. This will start all the services in the background and keep them running even if you close the terminal window.
+3. Run the command ***docker-compose up***  to start the containers defined in the **docker-compose.yml** file given by Testsigma. This will start all the services in the background and keep them running even if you close the terminal window.
 
 
 ---
 
 ## **Accessing Application**
+
 Along with the given docker-compose files you will receive a list of URLs for accessing the application.
 
 **Example:** <br>
-<company\_name>-addon.testsigmaprivate.com <br>
-<company\_name>-addon.testsigmaprivate.com <br>
-<company\_name>-testsigmaprivate.com <br> 
-<company\_name>-visualtesting.testsigmaprivate.com.
+- **<company\_name>-addon.testsigmaprivate.com** 
+- **<company\_name>-addon.testsigmaprivate.com** 
+- **<company\_name>-testsigmaprivate.com**
+- **<company\_name>-visualtesting.testsigmaprivate.com**
 
 You will have to add the mapping in the ‘hosts’ file.
 
 Once the application is up and running, you can access it using the IP address of your on-premise server and the port number specified in your docker-compose file.
 
-For Example, the sample **docker-compose.yml** file mentions that the web service is accessible on port 80. You can access it by navigating to **http://&lt;server-ip&gt;80** in your web browser.
+> For Example, the sample **docker-compose.yml** file mentions that the web service is accessible on port 80. You can access it by navigating to **http://&lt;server-ip&gt;80** in your web browser.
 
 ---
 
@@ -110,39 +108,6 @@ TS_APP_SERVER_PROTOCOL: https
 - The WebApp server is named **testsigma\_app\_server\_ui**. The container is pre-configured with the necessary software and settings for hosting web applications and capturing screenshots.
 
 [[info | **NOTE**:]]
-|All services will connect to a custom network named ***testsigma-network***. Each service will have a health check specified with different intervals, timeouts, and retries, depending on the service.
-
----
-
-
-## **How to Change the Domain Name** 
-
-1. From testsigma request the docker image with new domain names using Github Actions. 
-2. Customer need to replace the HTTPS Certificate in **testsigma-load-balancer** container.
-For this they can keep the public key and private key files in the host machine and specify it as volume in the ***'docker-compose'*** file.
-
-**For Example:**
-
-```
-version: '3.9'
-services:
-testsigma_load_balancer:
-container_name: testsigma-load-balancer
-image: testsigmainc/onprem:load-balancer-samsung-trial-v120
-ports:
-"443:443"
-networks:
-testsigma-network
-volumes:
-./data/ts_load_balancer_data:/opt/app/ts_load_balancer_data
-/path/to/new/server.crt:/usr/local/apache2/ssl/server.crt
-/path/to/new/server.key:/usr/local/apache2/ssl/server.key
-```
-
-- Here, replace ***'/path/to/new/server.crt'*** with the path to the new ***'server.crt'*** file on your host machine, and replace ***'/path/to/new/server.key'*** with the path to the new ***'server.key'*** file on your host machine.
-
-- When you run ***docker-compose up***, the ***'server.crt'*** and ***'server.key'*** files in the container will be replaced with the new files from the host machine.
-
-
+| All services will connect to a custom network named ***testsigma-network***. Each service will have a health check specified with different intervals, timeouts, and retries, depending on the service.
 
 ---

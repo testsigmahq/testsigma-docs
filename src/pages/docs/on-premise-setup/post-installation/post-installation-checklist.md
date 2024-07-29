@@ -1,8 +1,8 @@
 ---
-title: "Post-Installation Checklist for On-Premise Setup"
-order: 26.4
-page_id: "Post-installation checklist"
-metadesc: "Post-installation checklist for On-premise setup by Testsigma | Refer and verify this checklist once the On-premise setup is done by Testsigma"
+title: "On-Premise: Post-Installation Checklist"
+order: 26.31
+page_id: "Post-Installation Checklist"
+metadesc: "This checklist helps you verify that your Testsigma on-premise setup is installed, configured, and functioning as expected a few mandatory action items post upgrade"
 noindex: false
 search_keyword: ""
 warning: false
@@ -10,22 +10,21 @@ contextual_links:
 - type: section
   name: "Contents"
 - type: link
-  name: "Refer to the checklist below after the on-premise setup"
-  url: "#refer-to-the-checklist-below-after-the-on-premise-setup"
+  name: "Refer to the Checklist below:"
+  url: "#refer-to-the-checklist-below"
 - type: link
-  name: "Mandatory action items post upgrade"
+  name: "Mandatory Action Items Post Upgrade:"
   url: "#mandatory-action-items-post-upgrade"
 ---
 
+---
+
+This article discusses the checklist to verify that your Testsigma on-premise setup is installed, configured, and functioning as expected. 
 
 ---
 
-Post-installation of an on-premise setup, it's important to check whether everything is configured correctly and functioning as expected. 
 
----
-
-
-## **Refer to the checklist below after the on-premise setup:**
+## **Refer to the Checklist below:**
 
 1. Check whether the recorder setup properly captures actions during the testing process.
 
@@ -49,7 +48,7 @@ Post-installation of an on-premise setup, it's important to check whether everyt
 
 ---
 
-## **Mandatory action items post upgrade:**
+## **Mandatory Action Items Post Upgrade:**
 
 1. Stop the old agent and make sure it is no longer active.
 
@@ -61,3 +60,4 @@ Post-installation of an on-premise setup, it's important to check whether everyt
 
 5. Check the agent's current status and version number to ensure the update was successful.
 
+---

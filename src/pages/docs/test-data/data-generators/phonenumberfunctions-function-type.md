@@ -100,7 +100,7 @@ Before utilising the different data generator functions, it's essential to under
           <b>Select Phone Number</b><br>
           <b>Timeout</b>: 30
         </td>
-        <td>OTP: 1234</td>
+        <td>1234</td>
       </tr>
       <!-- Example 2 -->
       <tr>
@@ -118,7 +118,7 @@ Before utilising the different data generator functions, it's essential to under
           <b>Select Phone Number</b><br>
           <b>Timeout</b>: 120
         </td>
-        <td>OTP: 4982, 789012</td>
+        <td>4982, 789012</td>
       </tr>
       <!-- Example 4 -->
       <tr>
@@ -127,7 +127,7 @@ Before utilising the different data generator functions, it's essential to under
           <b>Select Phone Number</b><br>
           <b>Timeout</b>: 45
         </td>
-        <td>OTP: 45178</td>
+        <td>45178</td>
       </tr>
     </tbody>
   </table>
