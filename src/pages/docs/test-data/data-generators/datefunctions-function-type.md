@@ -603,19 +603,19 @@ Here's a comprehensive example using the provided code template. The examples fo
       <th>Outputs</th>
     </tr>
     <tr>
-      <td><strong>At most</strong>: 30<br><strong>Unit</strong>: DAYS<br><strong>Format</strong>: dd/MM/yyyy</td>
+      <td><strong>Unit</strong>: DAYS<br><strong>Format</strong>: dd/MM/yyyy</td>
       <td>16/06/2024</td>
     </tr>
     <tr>
-      <td><strong>At most</strong>: 60<br><strong>Unit</strong>: DAYS<br><strong>Format</strong>: dd/MM/yyyy</td>
+      <td><strong>Unit</strong>: DAYS<br><strong>Format</strong>: dd/MM/yyyy</td>
       <td>17/05/2024</td>
     </tr>
     <tr>
-      <td><strong>At most</strong>: 90<br><strong>Unit</strong>: DAYS<br><strong>Format</strong>: dd/MM/yyyy</td>
+      <td><strong>Unit</strong>: DAYS<br><strong>Format</strong>: dd/MM/yyyy</td>
       <td>17/04/2024</td>
     </tr>
     <tr>
-      <td><strong>At most</strong>: 45<br><strong>Unit</strong>: DAYS<br><strong>Format</strong>: dd/MM/yyyy</td>
+      <td><strong>Unit</strong>: DAYS<br><strong>Format</strong>: dd/MM/yyyy</td>
       <td>01/06/2024</td>
     </tr>
   </table>
@@ -671,19 +671,19 @@ Here's a comprehensive example using the provided code template. The examples fo
       <th>Outputs</th>
     </tr>
     <tr>
-      <td><strong>At most</strong>: 30<br><strong>Unit</strong>: DAYS<br><strong>Format</strong>: dd/MM/yyyy</td>
+      <td><strong>Unit</strong>: DAYS<br><strong>Format</strong>: dd/MM/yyyy</td>
       <td>15/08/2024</td>
     </tr>
     <tr>
-      <td><strong>At most</strong>: 60<br><strong>Unit</strong>: DAYS<br><strong>Format</strong>: dd/MM/yyyy</td>
+      <td><strong>Unit</strong>: DAYS<br><strong>Format</strong>: dd/MM/yyyy</td>
       <td>14/09/2024</td>
     </tr>
     <tr>
-      <td><strong>At most</strong>: 90<br><strong>Unit</strong>: DAYS<br><strong>Format</strong>: dd/MM/yyyy</td>
+      <td><strong>Unit</strong>: DAYS<br><strong>Format</strong>: dd/MM/yyyy</td>
       <td>14/10/2024</td>
     </tr>
     <tr>
-      <td><strong>At most</strong>: 45<br><strong>Unit</strong>: DAYS<br><strong>Format</strong>: dd/MM/yyyy</td>
+      <td><strong>Unit</strong>: DAYS<br><strong>Format</strong>: dd/MM/yyyy</td>
       <td>30/08/2024</td>
     </tr>
   </table>
@@ -739,7 +739,7 @@ Here's a comprehensive example using the provided code template. The examples fo
       <th>Outputs</th>
     </tr>
     <tr>
-      <td><strong>At most</strong>: 30<br><strong>Unit</strong>: DAYS<br><strong>Reference Date</strong>: 10/07/2024<br><strong>Format</strong>: dd/MM/yyyy</td>
+      <td><strong>Unit</strong>: DAYS<br><strong>Reference Date</strong>: 10/07/2024<br><strong>Format</strong>: dd/MM/yyyy</td>
       <td>10/06/2024</td>
     </tr>
     <tr>
