@@ -186,14 +186,14 @@ Now, let’s look at the script for the Unix shell:
 #********START USER_INPUTS*********
 TESTSIGMA_API_KEY=eyJhbGciOixxxxxxxxxxxxxxxTNpgv0w
 TESTSIGMA_TEST_PLAN_ID=2090
-MAX_WAIT_TIME_FOR_SCRIPT_TO_EXIT=1
+MAX_WAIT_TIME_FOR_SCRIPT_TO_EXIT=20
 JUNIT_REPORT_FILE_PATH=./junit-report-$(date +"%Y%m%d%H%M").xml
 RUNTIME_DATA_INPUT="url=https://the-internet.herokuapp.com/login,test=1221"
 BUILD_NO=$(date +"%Y%m%d%H%M")
 #********END USER_INPUTS***********
  
 #********GLOBAL variables**********
-POLL_COUNT=30
+POLL_COUNT=60
 SLEEP_TIME=$(((MAX_WAIT_TIME_FOR_SCRIPT_TO_EXIT*60)/$POLL_COUNT))
 JSON_REPORT_FILE_PATH=./testsigma.json
 TESTSIGMA_TEST_PLAN_REST_URL=https://app.testsigma.com/api/v1/execution_results
