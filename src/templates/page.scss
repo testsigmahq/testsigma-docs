@@ -660,32 +660,156 @@ table{
 }
 
 // Cookie banner
-#hs-banner-parent{
-  .hs-cookie-notification-position-bottom{
-    width: calc(min(28em, 100%)) !important;
-    left: calc(min(15em, 100%)) !important;
+#hs-banner-parent {
+  a {
+    color: #09c0a1 !important;
+    &:hover {
+      color: #007d85 !important;
+      text-decoration: underline !important;
+    }
+  }
+  .hs-cookie-notification-position-bottom {
+    width: calc(min(26.5em, 100%)) !important;
+    left: calc(min(18.7em, 100%)) !important;
     @media only screen and (max-width: 767px) {
-      left: 3%;
-      bottom: 2%;
-      width: 95%;
+      left: 3% !important;
+      bottom: 2% !important;
+      max-width: 95% !important;
     }
-    @media only screen and (min-width:768px) and (max-width: 1023px) {
-      left: 20%;
-      bottom: 10%;
-      width: 35%;
+    @media only screen and (min-width: 768px) and (max-width: 1023px) {
+      left: 20% !important;
+      bottom: 10% !important;
+      max-width: 35% !important;
     }
-    #hs-eu-cookie-confirmation-inner{
-      @apply p-8;
-      #hs-eu-policy-wording{
-        @apply mr-0 mb-4;
-      }
-      #hs-eu-cookie-confirmation-buttons-area{
-        @apply justify-center mr-0;
-        #hs-eu-decline-button{
-          @apply hidden;
+    #hs-eu-cookie-confirmation-inner {
+      padding: 2rem;
+      #hs-eu-policy-wording {
+        strong {
+          margin: 0 0 1rem 0;
+          font-size: 14px !important;
+          line-height: 24px !important;
+          color: #5f5f5f !important;
+          font-weight: 300 !important;
         }
       }
+      #hs-eu-cookie-confirmation-buttons-area {
+        justify-content: center;
+        margin-right: 0;
+        #hs-eu-confirmation-button-group {
+          flex-flow: row;
+          #hs-eu-cookie-settings-button {
+            padding: 1rem 2.5rem !important;
+            text-align: center !important;
+            font-size: 14px !important;
+            line-height: 2rem !important;
+            border: 0.5px solid #d0d5dd !important;
+            color: #0a1a2a !important;
+            min-width: 12em !important;
+            text-decoration: none !important;
+            }
+            #hs-eu-confirmation-button,
+            #hs-eu-cookie-settings-button {
+              font-weight: 600 !important;
+              border-radius: 0.5rem !important;
+            &:hover {
+              color: white !important;
+              background-color: #007d85 !important;
+              border-color: #007d85 !important;
+            }
+          }
+        }
+      }
+      #hs-eu-decline-button {
+        display: none;
+      }
     }
+  }
+}
+#hs-modal {
+  a {
+    color: #09c0a1 !important;
+  }
+  #hs-modal-introduction {
+    font-size: 1.6rem !important;
+  }
+  #hs-modal-introduction-description {
+    p {
+      font-size: 1.4rem !important;
+      line-height: 2.4rem !important;
+      font-weight: 400 !important;
+      color: #5f5f5f !important;
+    }
+  }
+  #hs-modal-body-container{
+   gap: 0 !important; 
+  }
+  #hs-categories-container {
+    padding-top: 2rem !important;
+    .hs-category-row {
+      border-top: #d0d5ddbd !important;
+      border-style: solid !important;
+      border-width: 1px 0 0 0 !important;
+      padding: 1.5rem 1rem 0 !important;
+      .hs-toggle-switch {
+        width: calc(3.4em + 2px) !important;
+        height: calc(1.7em + 2px) !important;
+        .hs-toggle-switch-nob{
+          height: 1.4em !important;
+          width: 1.4em !important;
+        }
+      }
+      .hs-toggle-selected-flag{
+        .hs-toggle-switch-nob{
+          left: 56% !important;
+        }
+      }
+      .hs-category-label{
+        gap: .5rem !important;
+      }
+    }
+    #hs-category-analytics,
+    #hs-category-necessary,
+    #hs-category-advertisement,
+    #hs-category-functionality {
+      span {
+        font-size: 1.8rem !important;
+        line-height: 2.4rem !important;
+        font-weight: 600 !important;
+      }
+    }
+    .hs-category-description {
+      font-size: 1.4rem !important;
+      line-height: 2rem !important;
+      font-weight: 400 !important;
+      color: #5f5f5f !important;
+    }
+    .visible {
+      padding-top: 1.5rem;
+      padding-left: 2rem !important;
+    }
+  }
+  .hs-always-active-label {
+    font-size: 1.4rem !important;
+    line-height: 2rem !important;
+    font-weight: 600 !important;
+    color: #09c0a1 !important;
+  }
+  #hs-modal-footer-container {
+    #hs-modal-accept-all {
+      order: 2 !important;
+    }
+    #hs-modal-accept-all,
+    #hs-modal-save-settings {
+      font-weight: 600 !important;
+      &:hover {
+        background-color: #007d85 !important;
+        border: #007d85 !important;
+        color: white !important;
+      }
+    }
+  }
+  #hs-modal-footer{
+    padding-top: 1.2rem !important;
   }
 }
 
