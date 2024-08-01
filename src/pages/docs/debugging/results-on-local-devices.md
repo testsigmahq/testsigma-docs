@@ -1,85 +1,109 @@
 ---
-title: "Debug Results on Local Devices"
-order: 10.3
-page_id: "Debug Results on Local Devices"
-metadesc: "Debug issues in complex test cases with enhanced techniques. This article discusses in detail step-by-step guide on how to debug results on local devices in Testsigma."
+title: "Debugging Mobile Applications on Local Devices"
+pagetitle: "Debugging Web Application Results on Local Devices"
+metadesc: "Learn how to debug test cases on local devices for web applications, using detailed steps and troubleshooting tips to ensure accurate and efficient testing."
+noindex: false
+order: 10.4
+page_id: "debugging-results-local-devices-mobile-applications"
 search_keyword: ""
 warning: false
 contextual_links:
 - type: section
   name: "Contents"
 - type: link
-  name: "Pre-requisites"
-  url: "#pre-requisites"
+  name: "Prerequisites"
+  url: "#prerequisites"
 - type: link
-  name: "Steps"
-  url: "#steps"
+  name: "Running Debugging on Android or iOS Devices"
+  url: "#running-debugging-on-android-or-i0s-devices"
+- type: link
+  name: "Adding and Managing Debug Points on Mobile Devices"
+  url: "#adding-and-managing-debug-points-on-mobile-devices"
+- type: link
+  name: "Interacting with Debug Points during Mobile Debugging"
+  url: "#interacting-with-debug-points-during-mobile-debugging"
+- type: link
+  name: "Inspecting Test Execution Details on Mobile"
+  url: "#inspecting-test-execution-details-on-mobile"
+- type: link
+  name: "Identifying and Fixing Errors during Mobile Test Case Execution"
+  url: "#identifying-and-fixing-errors-during-mobile-test-case-execution"
+- type: link
+  name: "Troubleshooting Element Not Found Error on Mobile Devices"
+  url: "#troubleshooting-element-not-found-error-on-mobile-devices"  
 ---
 
 ---
 
-There might be times when you face an issue during your test execution, and you need more than screenshots, videos, or logs to see where the error was. With Testsigma, now you can debug any such issues on your local devices via step-wise debugging. In this document we will discuss how to do that.
+Debugging mobile applications on local devices with Testsigma allows you to inspect and resolve errors by running test cases step-by-step. This interactive debugging feature lets you pause at specific points, inspect behavior, and analyze resources like step results, metadata, and screenshots, ensuring accurate problem identification and efficient resolution.
 
 ---
 
 ## **Prerequisites**
 
-1. A mobile app test case to debug. To know more on how to create a test case for mobile, check [here](https://testsigma.com/docs/test-cases/manage/add-edit-delete/)
-2. A local mobile device configured to run with Testsigma. Here are two links that would help:
-    1. [Set Up Android Local Devices](https://testsigma.com/docs/agent/connect-android-local-devices/)
-    2. [Set Up iOS Local Devices](https://testsigma.com/docs/agent/connect-ios-local-devices/)
+Before starting the debugging process, ensure the following:
+- A local mobile device with [Android](https://testsigma.com/docs/agent/connect-android-local-devices/) or [iOS](https://testsigma.com/docs/agent/connect-ios-local-devices/) applications configured with Testsigma. The Testsigma Agent is active on your local device.
+- Debugging must be performed on a local device.
+- If your test case uses a test data profile, only one test data profile can be selected for debugging.
 
 ---
 
-## **Steps**
+## **Running Debugging on Android or iOS Devices**
 
-1. Go to the test case that you want to debug on your local device.
-2. On the test case details page, click on the downward arrow beside the run button on the top right of the page. For your reference, the downward arrow is also highlighted in the screenshot below:
-
-![The drop down to run a test case in debug mode.](https://s3.amazonaws.com/static-docs.testsigma.com/new_images/debugging/results-on-local-devices/run-debug-mode-dropdown-button.png)
-
-3. You will see two options in the drop-down that appears, choose the option **Run In Debug Mode**.
-
-4. The **Ad-hoc Run** layover will appear as also shown in the screenshot below.
-
-![The drop down to run a test case in debug mode.](https://s3.amazonaws.com/static-docs.testsigma.com/new_images/debugging/results-on-local-devices/ad-hoc-run-layover-debug-mode.png)
-
-5. On this layover, make sure the **Test Lab** is selected as **Local Devices**. Select the Test Device by choosing the **Test Machine** and **Device Name**.
-
-6. If you want the test cases to execute till the step that fails, then you have to enable toggle **Run till failed step**. 
-
-Or, if you want the test cases to execute till a particular step then you can choose that step from the dropdown with label **Run till step**. 
-
-If you enable the toggle **Run till failed step** and also choose a particular step under **Run till step** then execution will run till the condition is met first. For example, if a failure is encountered first it will run till the step that fails, and vice versa. 
-
-If you enabled toggle **Run till failed step** then the debug point will appear at the failed step during test execution, if any.  And, if you selected a step under 'Run till step', then a debug point will appear for that step. 
-
-7. Configure the section Use Path/Use Uploads according to your setup.
-
-8. Once you have filled the required fields, click on the button **Run Now** on the bottom right of the **Ad-hoc Run** layover.
-
-9. Now the debugger screen will open where you will see the test steps, related information and the device screen. The device screen will display the current screen being under test. The screen will appear something like the screenshot below:
-
-![The debug screen for debugging a test case for a mobile test case.](https://s3.amazonaws.com/static-docs.testsigma.com/new_images/debugging/results-on-local-devices/debugger-screen-mobile.png)
-
-10. On this screen you would be able to see the test execution. The enabled debug point will be displayed like the red icon highlighted in the screenshot below.
-
-![Enabled debug point for a test step.](https://s3.amazonaws.com/static-docs.testsigma.com/new_images/debugging/results-on-local-devices/enabled-debug-point.png)
-
-[[info | **NOTE**:]]
-|On this screen, the debug point can be enabled for any test step by hovering on the test step and clicking on the corresponding debug point that appears. When a debug point is enabled for a test step, the test execution will pause on reaching that step. 
-
-11. When the test execution pauses on any of these steps, you can check the related details under the section **Add Source/Selected Element/Step Result**. In addition, you see below options on the test step:
-	1. **Resume**: To resume the test execution from that step.
-	2. **Rerun**: To execute the selected step again.
-	3. **Step Over**: To start debugging the next step. If you click on the “step over” button on a debug step, you will see that the debug point will appear for the next step. The execution control would move to the next step too.
-
-
-
-
-
-The test step actions are highlighted in the screenshot below for your reference:
-
-![The test step actions for debug](https://s3.amazonaws.com/static-docs.testsigma.com/new_images/debugging/results-on-local-devices/debug-test-step-actions.png)
+1. Navigate to the test case you want to debug.
+2. On the test case details page, click the **Launch Debugger** button in the top-right corner of the screen.
+3. In the **Run in Debug Mode** overlay, ensure the following:
+    - Default the **Test Lab** is set to **Local Device**
+    - Select the **Test Machine** Device from the dropdown menu to choose the device for the debug session.
+    - Enable the **Run till Failed** step toggle to execute the test steps until a specific step fails. If this toggle is disabled, the test case will execute from start to end.
+    - Set a debug point by selecting a test step from the dropdown menu.
+    - Select **External Path** and provide the application's publicly accessible URL or **Uploaded Apps** and select the application from uploaded apps in Testsigma.
+4. Click **Debug Now** to start the debugging process. The debugger screen will open, showing the test steps, related information, and the device screen.
 
 ---
+
+## **Adding and Managing Debug Points on Mobile Devices**
+
+Debug points are specific locations in your test steps where you want the execution to pause or start. To add and manage debug points:
+
+1. In the Testsigma Debugger overlay, hover over the test step where you want to place a debug point.
+2. Click the **Place Debug Point** icon to add a debug point.
+3. To add multiple debug points, repeat the process for other test steps.
+4. Execution will pause when it reaches an enabled debug point, allowing you to observe the behavior of the test case at that specific step.
+
+---
+
+## **Interacting with Debug Points during Mobile Debugging**
+
+When the execution pauses at a debug point, you can perform the following actions:
+- **Resume Execution**: Continue the test execution from the paused point.
+- **Run This Step**: Execute the current step immediately.
+- **Step Over:** Skip the current step and move to the next one.
+
+---
+
+## *Inspecting Test Execution Details on Mobile**
+
+- **Add Source**: When you reach a debug point, the **Add Source** section provides information about the test step's source code, allowing you to understand the context and behavior of the code being executed.
+- **Selected Element**: In the **Selected Element** section, view details about the UI elements involved in the test step. This includes properties and attributes that are crucial for debugging element-related issues.
+- **Step Result**: The **Step Result** section shows the outcome of the test step, including pass/fail status and any associated error messages. This information helps diagnose issues and verify whether the test step has behaved as expected.
+
+---
+
+## **Identifying and Fixing Errors during Mobile Test Case Execution**
+
+During test case execution, you can visually follow each step. If an error occurs or a debug point is reached:
+- Testsigma will highlight the problematic step.
+- Use the provided resources, including Add Source, Selected Element, and Step Result, to analyze the issue and determine the necessary fixes.
+
+---
+
+## **Troubleshooting Element Not Found Error on Mobile Devices**
+
+A common issue is the **Element Not Found** error, where an element visible on the device is reported as not found. To address this:
+
+1. View the message for the test step. If the element is not found, click **Element** to view its properties.
+2. Analyze the issue, update the element properties if needed, then click **Options** and select **Resume Execution** from the previously paused step.
+
+---
+
