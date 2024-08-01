@@ -49,7 +49,7 @@ Before you begin debugging in Testsigma, ensure the following:
 
 1. Navigate to the test case you want to debug.
 2. On the test case details page, click the **Launch Debugger** button in the top right corner of the screen.
-3. On the Run in Debug Overlay, ensure the **Test Lab** is set to **Local Device** and that the **Agent** is in **Active Status** for debugging.
+3. On the Run in Debug Overlay, default the **Test Lab** is set to **Local Device** and that the **Agent** is in **Active Status** for debugging.
 4. To execute the test steps until a failed step, enable the **Run till failed step toggle** and set a debug point by selecting the test step from the dropdown. If this toggle is disabled, the test case will execute from start to end.
 5. Click **Debug now** to execute the test case. ![click launch debugger in test case details page](https://s3.amazonaws.com/static-docs.testsigma.com/new_images/projects/applications/launch_debugger_in_web_application.gif)
 

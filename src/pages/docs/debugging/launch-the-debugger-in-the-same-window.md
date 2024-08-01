@@ -1,6 +1,6 @@
 ---
 title: "Launch Debugger in the Same Window"
-order: 10.4
+order: 10.5
 page_id: "Launch debugger"
 metadesc: "This article discusses in detail step-by-step guide on how to run tests in debugger mode in the same window as well as new window in Testsigma application."
 search_keyword: ""
