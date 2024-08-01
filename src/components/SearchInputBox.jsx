@@ -13,16 +13,11 @@ import { SearchHits } from './SearchHits';
 
 import TypesenseInstantsearchAdapter from "typesense-instantsearch-adapter";
 
-// window.$ = $;
-
-/* Algolia Search Bar */
 const ClickOutHandler = require('react-onclickout');
-
 // Create the Typesense InstantSearch Adapter instance
-
 // @ts-ignore
-console.log(process.env.TYPESENSE_SEARCH_API_KEY);
-console.log(process.env.TYPESENSE_HOST);
+// console.log(process.env.TYPESENSE_SEARCH_API_KEY);
+// console.log(process.env.TYPESENSE_HOST);
 const typesenseInstantsearchAdapter = new TypesenseInstantsearchAdapter({
   server: {
     apiKey: process.env.TYPESENSE_SEARCH_API_KEY, // Use your Typesense search-only API key here
@@ -43,6 +38,16 @@ const typesenseInstantsearchAdapter = new TypesenseInstantsearchAdapter({
 
 export const searchClient = typesenseInstantsearchAdapter.searchClient;
 
+const debounce = (func, delay) => {
+    let timer;
+    return function (...args) {
+        clearTimeout(timer);
+        timer = setTimeout(() => {
+            func.apply(this, args);
+        }, delay);
+    };
+};
+
 class SearchInputBox extends React.Component {
     constructor(props) {
         super(props);
@@ -52,10 +57,12 @@ class SearchInputBox extends React.Component {
             cookie: '',
             hasInput: false,
             refresh: false,
+            searchQuery: ''
         };
+
+        this.debouncedSearch = debounce(this.handleSearch, 300);
     }
 
-    // Algolia - clicking out exits searchbox
     onClickOut = (event) => {
         const searchInput = document.getElementsByClassName(
             'ais-SearchBox-input',
@@ -63,18 +70,33 @@ class SearchInputBox extends React.Component {
         const domNode = ReactDOM.findDOMNode(this);
         if (searchInput === '' || !domNode || !domNode.contains(event.target))
             this.setState({ hasInput: false });
-    } // end onClickOut
+    }
 
+    handleKeyUp = (event) => {
+        const query = event.currentTarget.value;
+        this.setState({
+            hasInput: query.length > 2,
+        });
 
-    /* eslint-enabe class-methods-use-this */
+        this.setState({ searchQuery: '' }, () => {
+            this.debouncedSearch(query);
+        });
+    }
+
+    handleSearch = (query) => {
+        console.log('Searching for:', query);
+        this.setState({ 
+            refresh: !this.state.refresh,
+            searchQuery: query
+        });
+    }
 
     render() {
         const {
-            refresh, hasInput
+            refresh, hasInput, searchQuery
         } = this.state;
         return (
             <>
-                
                 <div className={!hasInput ? 'form-inline flex w-1/5 items-center pl-4' : 'form-inline flex w-1/5 items-center pl-4 float-searchBox'}>
                     <label htmlFor="search-lc" />
 
@@ -84,9 +106,8 @@ class SearchInputBox extends React.Component {
                             indexName={process.env.TYPESENSE_COLLECTION}
                             refresh={refresh}
                         >
-                            <Configure hitsPerPage={5} />
+                            <Configure hitsPerPage={10} />
 
-                            {/* forcefeed className because component does not accept natively as prop */}
                             <div className="search-icon">
                                 <svg
                                     width="15"
@@ -97,7 +118,6 @@ class SearchInputBox extends React.Component {
                                 >
                                     <path d="M8 16C9.77498 15.9996 11.4988 15.4054 12.897 14.312L17.293 18.708L18.707 17.294L14.311 12.898C15.405 11.4997 15.9996 9.77544 16 8C16 3.589 12.411 0 8 0C3.589 0 0 3.589 0 8C0 12.411 3.589 16 8 16ZM8 2C11.309 2 14 4.691 14 8C14 11.309 11.309 14 8 14C4.691 14 2 11.309 2 8C2 4.691 4.691 2 8 2Z" fill="black"/>
                                 </svg>
-
                             </div>
                             <SearchBox
                                 className="w-full pl-2"
@@ -107,30 +127,25 @@ class SearchInputBox extends React.Component {
                                 translations={{
                                     placeholder: 'Search',
                                 }}
-                                onKeyUp={(event) => {
-                                    this.setState({
-                                        hasInput: event.currentTarget.value.length > 2,
-                                    });
-                                }}
+                                onKeyUp={this.handleKeyUp}
                             />
 
                             <div className={!hasInput ? 'input-empty' : 'absolute bg-white search_results border'}>
                                 <div className="container">
                                     <div className="row">
                                         <div className="col-12">
-                                            <SearchHits hitComponent={Hits} />
+                                            {searchQuery && <SearchHits hitComponent={Hits} />}
                                         </div>
                                     </div>
                                     <div className="row">
                                         <div className="col-12">
-                                            <Pagination />
+                                            {searchQuery && <Pagination />}
                                         </div>
                                     </div>
                                 </div>
                             </div>
                         </InstantSearch>
                     </ClickOutHandler>
-
                 </div>
             </>
         );

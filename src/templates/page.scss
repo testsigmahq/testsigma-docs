@@ -350,22 +350,27 @@ body {
 }
 .float-searchBox {
   position: fixed;
-  top: 0;
-  right: 0;
+  top: 30px;
+  right: 30px;
   z-index: 3;
   padding: 1.6rem 1rem;
-  height: 100%;
+  max-height: 94vh;
   display: block;
   border-left: 1px solid rgba(229, 231, 235, var(--tw-border-opacity));
-  background-color: #fff;
+  border-radius: 8px;
+  backdrop-filter: blur(26px);
+  padding: 0.9rem 1rem;
+  transition: all 0.25s ease-in;
   @media (max-width: 767px) {
     width: 85% !important;
+    height: 90vh !important;
   }
   @media (min-width: 768px) {
-    width: 34%;
+    width: 45%;
+    height: 90vh !important;
   }
   @media (min-width: 1024px) {
-    width: 28%;
+    width: 35%;
   }
   @media (min-width: 1280px) {
     width: 24.1%;
@@ -391,6 +396,7 @@ body {
     border-left: 0;
     background-color: #f5f5f5;
     overflow-y: auto;
+    border-radius: 8px;
     @media (max-width: 767px) {
       top: 71px;
     }
@@ -408,6 +414,11 @@ body {
         font-weight: bold;
       }
     }
+  }
+  .ais-SearchBox-input{
+    font-size: 18px;
+    border-radius: 5px;
+    padding: .5rem 1rem;
   }
 }
 .ais-SearchBox-input{
