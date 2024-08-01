@@ -23,10 +23,10 @@ export const CustomSearchBox = connectSearchBox(SearchBox);
 /* eslint-disable react/no-danger */
 const Hits = ({ hits }) => (
     <ul className="style">
-        {hits.length < 1 ? <li>No search results found</li> : ''}
+        {hits.length < 1 ? <li className='px-5 py-3 rounded-lg text-center'>No search results found</li> : ''}
         {hits.map((hit) => (
             <li key={hit.title} className="shadow sm:rounded-lg">
-                <Link to={hit.fields.slug}>
+                <Link to={hit?.slug}>
                     <span className="search-title" dangerouslySetInnerHTML={{ __html: hit._highlightResult.title.value }} />
                     <p dangerouslySetInnerHTML={{ __html: hit._snippetResult.excerpt.value }} />
                 </Link>
