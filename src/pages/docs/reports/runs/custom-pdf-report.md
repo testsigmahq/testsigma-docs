@@ -23,11 +23,8 @@ contextual_links:
   name: "Using Preferences to Generate Custom PDF Report"
   url: "#using-preferences-to-generate-custom-pdf-report"
 - type: link
-  name: "Identifying and Fixing Errors During Test Case Execution"
-  url: "#identifying-and-fixing-errors-during-test-case-execution"
-- type: link
-  name: "Troubleshooting Element Not Found Error"
-  url: "#troubleshooting-element-not-found-error"  
+  name: "Preferences for Custom Report Generation"
+  url: "#preferences-for-custom-report-generation"
 ---
 
 ---
