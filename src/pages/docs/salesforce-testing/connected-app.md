@@ -70,7 +70,7 @@ Creating a connected app is important to link external applications and the Sale
 ## **Fetch Consumer Details**
 
 1. Edit the connected app and click on **Manage Consumer Details**. This will open a new window. 
-![Edit](https://s3.amazonaws.com/static-docs.testsigma.com/new_images/projects/applications/sfcaed.png)
+![Edit](https://s3.amazonaws.com/static-docs.testsigma.com/new_images/projects/applications/SF_Manage_Consumer_Details.png)
 
 2. On the **Verify Your Identity** window, enter OTP sent to the admin email. 
 ![Verify](https://s3.amazonaws.com/static-docs.testsigma.com/new_images/projects/applications/sfcavyi.png)
@@ -85,7 +85,7 @@ Creating a connected app is important to link external applications and the Sale
 
 
 
-> Refer to this [Salesforce troubleshooting]((https://testsigma.com/docs/troubleshooting/salesforce-testing/most-common-issues/)) guide for the most common issues while creating a connected app.
+> Refer to this [Salesforce troubleshooting](https://testsigma.com/docs/troubleshooting/salesforce-testing/most-common-issues/) guide for the most common issues while creating a connected app.
 
 
 ---
