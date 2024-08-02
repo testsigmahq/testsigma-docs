@@ -29,7 +29,7 @@ const pageQuery = `
           fields {
             slug
           }
-          excerpt(pruneLength: 6700)
+          excerpt(pruneLength: 100)
         }
       }
     }
@@ -37,11 +37,16 @@ const pageQuery = `
 `;
 
 function pageToTypesenseRecord({ node }) {
-  const { id, frontmatter, ...rest } = node;
-  console.log('node', node);
+  const { id, frontmatter, fields = {}, headings = [], ...rest } = node;
+
+  const formattedHeadings = headings.map(h => h.value || '').filter(Boolean);
   return {
     objectID: id,
-    ...frontmatter,
+    title: frontmatter.title || '',
+    search_keyword: String(frontmatter.search_keyword || ''),
+    slug: fields.slug || '',
+    excerpt: frontmatter.excerpt || '',
+    headings: formattedHeadings,
     ...rest,
   };
 }
