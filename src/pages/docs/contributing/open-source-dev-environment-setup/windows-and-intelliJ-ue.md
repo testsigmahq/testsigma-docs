@@ -109,7 +109,7 @@ RewriteEngine On
 RewriteCond %{HTTP_HOST} "devos.testsigma.com"
 RewriteCond %{REQUEST_URI} "^/$"
 #RewriteRule .* http://localhost:4202%{REQUEST_URI} [P]
-RewriteRule .* http://devos.testsigma.com/ui/ [L,R=301]
+RewriteRule .* https://devos.testsigma.com/ui/ [L,R=301]
 RewriteCond %{HTTP_HOST} "devos.testsigma.com"
 RewriteCond %{REQUEST_URI} "^/ui/"
 RewriteRule .* http://localhost:4202%{REQUEST_URI} [P]
