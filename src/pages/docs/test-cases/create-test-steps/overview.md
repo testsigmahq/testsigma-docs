@@ -199,34 +199,54 @@ Boost your test automation and deliver high-quality software with Testsigma Copi
 
 1. From the left-side navbar, select **Create Tests > Test Cases** and then click **Create Test Case**.
 
+   ![Test Case](https://s3.amazonaws.com/static-docs.testsigma.com/new_images/projects/applications/GenAI_TestCase.png)
+
 2. On the **Test Case Details** page, enter a name for the test case and click **Record** in the top-right corner. A new window will open.
+
+   ![Record](https://s3.amazonaws.com/static-docs.testsigma.com/new_images/projects/applications/GenAI_Record.png)
 
 3. In the opened window, input the URL of the web page from which you want to generate test scenarios. The **Testsigma Recorder** will activate and prepare for recording.
 
-4. Click **Generate Scenarios** in the Testsigma Recorder. The Testsigma Copilot will start generating test scenarios based on the current page content.
+4. Click **Testsigma Copilot**.
+   ![Copilot](https://s3.amazonaws.com/static-docs.testsigma.com/new_images/projects/applications/Copilot_Button.png)
 
-5. Wait until the test scenarios are generated.
+5. Click **Generate Scenarios** in the **Testsigma Copilot** overlay. The Testsigma Copilot will start generating test scenarios based on the current page content.
 
-6. Click on any generated test case scenario to view its corresponding test steps.
+   ![Generate Scenarios](https://s3.amazonaws.com/static-docs.testsigma.com/new_images/projects/applications/Generate_Scenarios.png)
 
-7. Click **Save Test Steps** to import the displayed test steps into the recorder.
+6. Wait until the test scenarios are generated.
 
-8. Modify the test steps as per the desired test case behavior. Once the necessary modifications are done, click **Stop** to return to the test case details page.
+7. Click on any generated test case scenario to view its corresponding test steps.
+   
+   ![View test Steps](https://s3.amazonaws.com/static-docs.testsigma.com/new_images/projects/applications/View_Scenarios.png)
+
+8. Click **Add to test case** to import the displayed test steps into the recorder.
+   
+   ![Add to Test Case](https://s3.amazonaws.com/static-docs.testsigma.com/new_images/projects/applications/Add_AI_Test_Steps.png)
+
+9.  Modify the test steps as per the desired test case behavior. Once the necessary modifications are done, click **Stop** to return to the test case details page.
+    
+    ![Stop](https://s3.amazonaws.com/static-docs.testsigma.com/new_images/projects/applications/Stop_Rec_AI_TestSteps.png)
 
 ---
 
 ## **Generate Test Steps with Prompts**
 
-Follow the steps from 1-3 from the above section.
+Follow the same steps from 1-3 from the above section.
 
-4. Click **Write Prompt** in the Testsigma Recorder.
+4. On prompt input, enter the prompt for which you want to fetch test steps. 
+   ![Prompt](https://s3.amazonaws.com/static-docs.testsigma.com/new_images/projects/applications/Prompt_AI.png)
 
-5. Enter a prompt with accurate details and click **Generate**.
+5. Press **Enter**.
    
 6. Wait until the test steps are generated. 
 
-7. Click **Save Test Steps** to import the displayed test steps into the recorder.
+7. Click **Add to test case** to import the displayed test steps into the recorder.
+
+   ![Add to Test Case](https://s3.amazonaws.com/static-docs.testsigma.com/new_images/projects/applications/AddtoTestCase_AI.png)
 
 8. Modify the test steps as per the desired test case behavior. Once the necessary modifications are done, click **Stop** to return to the test case details page.
+
+   ![Stop](https://s3.amazonaws.com/static-docs.testsigma.com/new_images/projects/applications/Stop_PromptSteps.png)
 
 ---

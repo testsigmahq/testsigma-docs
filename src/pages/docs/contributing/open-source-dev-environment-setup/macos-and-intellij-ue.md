@@ -245,5 +245,5 @@ Once the above configuration is done, we need to add UI, Server, and Agent as a 
     127.0.0.1       devos.testsigma.com
     ```
 
-- **You can now access the server at http://devos.testsigma.com/ui/**
+- **You can now access the server at https://devos.testsigma.com/ui/**
 ![Access Testsigma](https://s3.amazonaws.com/static-docs.testsigma.com/new_images/projects/applications/testsigma.png)
