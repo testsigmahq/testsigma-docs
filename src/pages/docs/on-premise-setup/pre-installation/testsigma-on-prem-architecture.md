@@ -10,6 +10,9 @@ contextual_links:
 - type: section
   name: "Contents"
 - type: link
+  name: "Physical Layout Deployment Diagram"
+  url: "#physical-layout-deployment-diagram"
+- type: link
   name: "Important Components"
   url: "#important-components"
 - type: link
@@ -34,6 +37,29 @@ Here’s a high level illustration of Testsigma’s On-prem Architecture:
 ![Architecture](https://s3.amazonaws.com/static-docs.testsigma.com/new_images/projects/applications/tsarchitecture.png)
 
 ---
+
+## **Physical Layout Deployment Diagram**
+
+
+![Deployment Diagram](https://s3.amazonaws.com/static-docs.testsigma.com/new_images/projects/applications/Deployment_Diagram.png)
+
+
+The physical layout deployment diagram above illustrates how tests are created and executed in Testsigma's on-premise environment.
+
+
+- The client systems with the Testsigma Agent installed connect to a load balancer.
+
+- The load balancer distributes incoming traffic across various containers in the Testsigma Server based on their roles for efficiently handling requests and responses.
+
+- All the containers communicate with a central database that stores application data.
+
+- Each container has specific ports for organized and efficient communication within the system.
+
+For more information, see the [Testsigma Central Server Architecture](https://testsigma.com/docs/on-premise-setup/pre-installation/testsigma-on-prem-architecture/#testsigma-central-server-architecture) section of this document.
+
+
+---
+
 
 ## **Important Components**
 
