@@ -43,14 +43,15 @@ You can also quickly jump to one of the following topics to learn about Windows 
 ---
 
 ## **Getting Started** 
-- Creating a Windows Project
-- Agent Installation Requirements
-- Element Learning through UFT
-- Importing/Updating TSRx File into Testsigma
-- Building Test Cases for Windows Based Applications
-- Test Case Execution for the Windows Based Applications
+- [Creating a Windows Project](https://testsigma.com/docs/windows-automation/project-and-application/)
+- [Agent Installation Requirements](https://testsigma.com/docs/agent/setup-on-windows-mac-linux/)
+- [Element Learning through UFT](https://testsigma.com/docs/windows-automation/object-learning/)
+- [Importing/Updating TSRx File into Testsigma](https://testsigma.com/docs/windows-automation/import-tsrx-files/)
+- [Building Test Cases for Windows Based Applications](https://testsigma.com/docs/windows-automation/test-cases/)
+- [Test Case Execution for the Windows Based Applications](https://testsigma.com/docs/windows-automation/test-cases/)
 - List of Technologies Supported in Testsigma
-    - Oracle
+    - **Oracle**
+    - **Java**
 
 ---
 
