@@ -64,6 +64,35 @@ async function indexData() {
       apiKey: process.env.TYPESENSE_API_KEY,
     });
 
+
+    let collectionExists = false;
+    try {
+      await client.collections(process.env.TYPESENSE_COLLECTION).retrieve();
+      collectionExists = true;
+    } catch (error) {
+      if (error.httpStatus !== 404) {
+        throw error;
+      }
+    }
+
+    if (collectionExists) {
+      await client.collections(process.env.TYPESENSE_COLLECTION).delete();
+      console.log(`Collection ${process.env.TYPESENSE_COLLECTION} deleted successfully.`);
+    }
+
+    await client.collections().create({
+      name: process.env.TYPESENSE_COLLECTION,
+      fields: [
+        { name: 'objectID', type: 'string' },
+        { name: 'title', type: 'string' },
+        { name: 'search_keyword', type: 'string' },
+        { name: 'slug', type: 'string' },
+        { name: 'excerpt', type: 'string' },
+        { name: 'headings', type: 'string[]', facet: false }
+      ]
+    });
+    console.log(`Collection ${process.env.TYPESENSE_COLLECTION} created successfully.`);
+
     const response = await request('http://localhost:8000/___graphql', pageQuery);
     console.log('response', response);
     const data = await response;

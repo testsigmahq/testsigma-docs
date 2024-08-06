@@ -52,7 +52,6 @@ class Layout extends React.Component {
                 const navElement = document.querySelector(
                     `.contextual-links a.dynamic-link__internal[href*="#${entry.target.id}"]`,
                 )
-                console.log(entry);
                 if (entry.isIntersecting) {
                     if (navElement && !navElement.classList.contains('border-red-100')) {
                         document.querySelectorAll('.contextual-links__link a.border-red-100.border-b-2').forEach(previousActive => {
