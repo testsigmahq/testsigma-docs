@@ -39,19 +39,27 @@ This troubleshooting guide for Salesforce Testing in Testsigma provides solution
 ### **Steps to Resolve**
 
 **1. Verify ClientId and Secret:**
-- Doubl check the **ClientId** and **Secret** provided by the service and ensure there are no typos.
+
+- Double check the **ClientId** and **Secret** provided by the service and ensure there are no typos.
+
 - Regenerate the **ClientId** and **Secret** if necessary.
 
 **2. Check Environment Settings:**
+
 - Ensure the correct **Environment** is selected (development, staging, production).
+
 - Confirm your application's configuration.
 
 **3. Check Callback URL:**
+
 - Ensure the **Callback URL** matches the service provider's settings and check if there are typos.
+
 - Ensure your server is configured to handle the callback request.
 
 **4. Additional Notes:**
+
 - Ensure the application's **permissions** and **scopes** are set correctly while creating a connected app.
+
 - Check network & firewall settings for blocks on the authorization endpoint.
 
 For more information, refer to [creating a connected application](https://testsigma.com/docs/salesforce-testing/connected-app/).
