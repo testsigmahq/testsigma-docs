@@ -131,4 +131,9 @@ The activity log tab on the connection details page displays the information abo
 2. The **Activity log** dialog displays information regarding past metadata sync triggers. 
    ![Logs](https://s3.amazonaws.com/static-docs.testsigma.com/new_images/projects/applications/logsdisplay.png)
 
+<br>
+
+> Refer to this [Salesforce troubleshooting](https://testsigma.com/docs/troubleshooting/salesforce-testing/most-common-issues/) guide for the most common issues while creating the metadata connection.
+
+
 ---

@@ -14,7 +14,7 @@ import { SearchHits } from './SearchHits';
 import TypesenseInstantsearchAdapter from "typesense-instantsearch-adapter";
 
 const ClickOutHandler = require('react-onclickout');
-// Create the Typesense InstantSearch Adapter instance
+
 // @ts-ignore
 // console.log(process.env.TYPESENSE_SEARCH_API_KEY);
 // console.log(process.env.TYPESENSE_HOST);
@@ -60,7 +60,7 @@ class SearchInputBox extends React.Component {
             searchQuery: ''
         };
 
-        this.debouncedSearch = debounce(this.handleSearch, 300);
+        this.debouncedSearch = debounce(this.handleSearch, 500);
     }
 
     onClickOut = (event) => {
@@ -78,9 +78,11 @@ class SearchInputBox extends React.Component {
             hasInput: query.length > 2,
         });
 
-        this.setState({ searchQuery: '' }, () => {
-            this.debouncedSearch(query);
-        });
+        if (this.state.searchQuery !== query) {
+            this.setState({ searchQuery: '' }, () => {
+                this.debouncedSearch(query);
+            });
+        }
     }
 
     handleSearch = (query) => {

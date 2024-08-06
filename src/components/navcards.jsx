@@ -152,7 +152,7 @@ const data = [
         id: 25,
         title: "On Premise Setup",
         description: "On Premise setup prerequisites, steps to install & more.",
-        path: "/docs/on-premise-setup/prerequisites/",
+        path: "/docs/on-premise-setup/installation-process/setup/",
     },
     {
         id: 26,
