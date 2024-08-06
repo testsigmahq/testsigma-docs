@@ -70,7 +70,10 @@ Creating a connected app is important to link external applications and the Sale
 ## **Fetch Consumer Details**
 
 1. Edit the connected app and click on **Manage Consumer Details**. This will open a new window. 
-![Edit](https://s3.amazonaws.com/static-docs.testsigma.com/new_images/projects/applications/SF_Manage_Consumer_Details.png)
+![Edit](https://s3.amazonaws.com/static-docs.testsigma.com/new_images/projects/applications/SF_Manage_Consumer_Details_API.png)
+
+[[info | **NOTE**:]]
+| Ensure that none of the checkboxes in the API section are selected.
 
 2. On the **Verify Your Identity** window, enter OTP sent to the admin email. 
 ![Verify](https://s3.amazonaws.com/static-docs.testsigma.com/new_images/projects/applications/sfcavyi.png)
