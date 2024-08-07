@@ -1,122 +1,110 @@
 ---
-title: "Run tests in parallel"
-metadesc: "Learn how to run tests in parallel in Testsigma, which improves your testing efficiency. Running tests in parallel speeds up test execution and saves time."
+title: "Efficient Test Execution with Parallel Runs and Backup Devices"
+pagetitle: "Efficient Test Execution with Parallel Runs & Backups"
+metadesc: "Start efficient test execution with parallel runs and backup devices. Ensure minimal disruption and faster results with our easy setup guide."
 noindex: false
 order: 8.25
-page_id: "Run Tests in Parallel"
+page_id: "executing-test-with-parallel-runs-and-backup-devices"
+search_keyword: ""
 warning: false
 contextual_links:
 - type: section
   name: "Contents" 
 - type: link
-  name: "Configure tests to run in parallel while creating a new test plan"
-  url: "#configure-tests-to-run-in-parallel-while-creating-a-new-test-plan"
+  name: "Prerequisites"
+  url: "#prerequisites"
 - type: link
-  name: "Configure test cases inside a test suite to run in parallel, while creating a new Test Plan"
-  url: "#configure-test-cases-inside-a-test-suite-to-run-in-parallel-while-creating-a-new-test-plan"
+  name: "Configure Parallel Test Execution"
+  url: "#configure-parallel-test-execution"
 - type: link
-  name: "Configure tests to run in parallel with editing an existing Test Plan"
-  url: "#configure-tests-to-run-in-parallel-with-editing-an-existing-test-plan"
+  name: "Adding Backup Devices for Android and iOS Devices"
+  url: "#adding-backup-devices-for-android-and-ios-devices"
 ---
 
 ---
 
-You can configure your test plans to run in parallel at any time. However, the number of tests you can execute at once in parallel depends on your account plan and the parallel tests you have left.
-
-### You can
-
-1. Configure tests to run in parallel while creating a new Test Plan.
-
-2. Configure tests to run in parallel with editing an existing Test Plan.
-
-[[info | Note:]]
-|You should already know how to [List,create,edit or delete test plans](https://testsigma.com/docs/test-management/test-plans/overview/).
-
-&emsp;
+Executing tests in parallel significantly improves testing efficiency by reducing overall execution time. Additionally, adding backup devices ensures test execution proceeds smoothly, even if the primary device is unavailable. This documentation provides a comprehensive guide on configuring parallel test execution and adding backup devices for Android and iOS applications.
 
 ---
 
-## **Configure tests to run in parallel while creating a new test plan**
+## **Prerequisites**
 
-1. When you are creating a new test plan, this action can be taken on tab 2 - **Test Machines and Suites Selection**
-2. On the **Test Machines and Suites Selection** tab, you can either:
-   - **Run Test Suites in Parallel**: This option will be available for your test machine, if it has more than one test suite added. As highlighted in the screenshot below, OR![New Test Plan UI - run test suites in parallel ](https://s3.amazonaws.com/static-docs.testsigma.com/new_images/test-management/test-plans/run-tests-in-parallel/new-test-plan-ui-run-test-suites-in-parallel.png)
-   - **Run Test Cases inside the Test Suite in Parallel**: This option will be available for your test machine as shown in the screenshot below:![New Test Plan UI - run test cases inside the test suites in parallel](https://s3.amazonaws.com/static-docs.testsigma.com/new_images/test-management/test-plans/run-tests-in-parallel/new-test-plan-ui-run-test-cases-inside-the-test-suites-in-parallel.png)
-   <br>And if above option is enabled, there will be an option to **Enable/Disable** this for individual test suites too, as also shown in the screenshot below:![New Test Plan UI - run test cases in parallel on test suite](https://s3.amazonaws.com/static-docs.testsigma.com/new_images/test-management/test-plans/run-tests-in-parallel/new-test-plan-ui-run-test-cases-in-parallel-on-test-suite.png)
-
-In case of an *Android, iOS or a mobile web application* - when you add a new machine for a test suite, by default - the test cases will run in parallel. The number of test cases that run in parallel will depend on the license you have. You can change this configuration from the **Add Machine** layover by going to the **Settings** icon and unchecking the **Run Test cases inside the Test Suite in Parallel** checkbox. The checkbox is also highlighted in the screenshot below.![The checkbox on the Add Machine Layover to run test cases inside a test case in parallel](https://s3.amazonaws.com/static-docs.testsigma.com/new_images/test-management/test-plans/run-tests-in-parallel/add-test-machine-checkbox-run-test-cases-inside-the-test-suite-in-parallel.png)
-
-Again, specifically in the case of an Android, iOS or a mobile web application, if you see that a machine does not get triggered (could be because of unavailability) for execution then you can add backup devices. These backup devices would be launched for test execution if the original device is not triggered successfully. The steps to add(link)/delete(link)/edit(link) a backup device are as below:
-
-**Add a backup device**
-
-1. Select a **Test suite**.
-2. Add a **Test Machine** corresponding to the selected **Test Suite**
-3. On the **Add Machine/Device** layover, click on the **Add backup devices** button, the button is highlighted in the screenshot below:![add backup device button on the Add Machine Layover](https://s3.amazonaws.com/static-docs.testsigma.com/new_images/test-management/test-plans/run-tests-in-parallel/add-test-machine-add-backup-device-button.png)
-
-4. Select the **OS Version**, **Device Name** for the added backup device.
-5. Fill in any other needed details and click on **Create**.
-
-[[info | Note:]]
-|If your test case was configured for visual testing and the test was executed on a backup device, then the visual test execution will report the differences accordingly.
-
-Alternatively, below is a GIF demonstrating the workflow to add a backup device for test execution for an Android, iOS or a mobile web application:
-
-![gif demonstrating how to add a backup device to a test machine](https://s3.amazonaws.com/static-docs.testsigma.com/new_images/test-management/test-plans/run-tests-in-parallel/add-test-machine-add-back-up-device-gif.gif)
-
-**Edit a backup device**
-
-1. Go to the Test Machine, corresponding to which you want to edit the backup device.
-2. Edit the needed configuration for the backup device - OS Version/Device Name/Browser
-3. Click on Update
-
-**Delete a backup device**
-
-1. Go to the Test Machine, corresponding to which you want to delete the backup device. You can do this by click on the edit button corresponding to the Test Machine.
-2. On the "Add Machine/Device" layover that appears, click on the Delete button corresponding to the device that you want to delete. The delete button corresponding to a backup device is highlighted for your reference in the screenshot below:
-
-![Button to delete an added backup device for a test machine](https://s3.amazonaws.com/static-docs.testsigma.com/new_images/test-management/test-plans/run-tests-in-parallel/add-test-machine-delete-backup-device-button.png)
+You should know how to create a [Test Plan](https://testsigma.com/docs/test-management/test-plans/overview/), add [Test Suites](https://testsigma.com/docs/test-management/test-plans/manage-test-suites/), and configure [Test Machines](https://testsigma.com/docs/test-management/test-plans/manage-test-machines/).
 
 ---
-## **Configure test cases inside a test suite to run in parallel, while creating a new test plan**
 
-[[info | Note:]]
-|By default, this feature is disabled for all accounts. If you need this feature enabled, please contact support.
+## **Configure Parallel Test Execution**
 
-You can also configure the test cases within a test suite to run in parallel.
+Running tests in parallel allows multiple tests to run simultaneously, which reduces execution time. This approach is particularly useful for large test suites, as it delivers faster feedback and optimizes resource usage. Here are the steps to configure:
 
-**Steps to configure**:
-
-1. Start creating a test plan, as also done in the section above, and go to the second tab **Test Machines & Suites Selection**
-2. On the second tab, go to step 2 and add test suites for execution.
-3. Click on the **Settings** icon on the top right section of the test machine, and select the option **Run test cases in test suite in parallel**.
-
-![Setting to run test cases in a test suite in parallel](https://s3.amazonaws.com/static-docs.testsigma.com/new_images/test-management/test-plans/run-tests-in-parallel/run_testsuites_in_parallel.png)
-
-
-5. Now, when you hover over the **Settings** icon corresponding to the added test suites - you will see the option **Run in Parallel/Sequential**. ![run test cases sequentially/parallely](https://s3.amazonaws.com/static-docs.testsigma.com/new_images/test-management/test-plans/run-tests-in-parallel/run_in_parallel_or_sequential.png)If you want to run the test cases within a test suite parallely, enable the toggle button **Run Test Cases in Parallel** corresponding to that test suite, as shown in the screenshot below:
-
-![The option to run test cases in a test suite in parallel corresponding to a test suite](https://s3.amazonaws.com/static-docs.testsigma.com/new_images/test-management/test-plans/run-tests-in-parallel/run_test_cases_in_parallel.png)
-
-&emsp;
-
----
-## **Configure tests to run in parallel with editing an existing test plan**
-On the Test Plans page, click on a Test Plan name to open the details page for that Test Plan, the Test Plan Details page will look something like this:
-
-![Test Plan Details Page in Testsigma](https://docs.testsigma.com/images/run-tests-in-parallel/test-plan-details-page-testsigma.png)
-
-1. Click on the Edit button on the top right corner as shown above:
-
-2. Go to the tab **Test Machines & Suites Selection**, follow the same steps as mentioned under **Configure tests to run in parallel while creating a new Test Plan**
+1. Navigate to **Test Plans** and create a new test plan or open an existing one.
+2. On the **Create** or **Edit Test Plan** page, go to the **Add Test Suites & Link Machine Profiles** tab.
+3. If you have already set up the test machine, click the **Settings** icon under the **Test Machine** tab. Alternatively, click the **Link to Test Machine** icon to add a new machine profile to the test suite.
+4. On the **Edit Test Machine or Device Profile** overlay, select the checkboxes for below:
+   - **Run Test Suites in Parallel**: Lets you run multiple test suites at the same time.
+   - **Run Test Cases inside the Test Suite in Parallel**: Lets you run multiple test cases within a test suite at the same time.
+5. Click **Create** or **Update Profile** to save the configuration. ![configure parallel test execution](https://s3.amazonaws.com/static-docs.testsigma.com/new_images/projects/applications/configure_parallel_test_execution.gif)
 
 [[info | NOTE:]]
-|You can configure your test plans per your subscription and the parallel/queued executions you have left.<br>
-|<br>
-|For example, if you have a license for 1 parallel run and 1 queued run, you can run one test plan on one machine in parallel while queuing another test on a different machine for execution.<br>
-|<br>
-|
-|When you run a third test machine, it will not execute and will be thrown out of the execution queue since your subscription plan only allows one parallel run and one queued run at a time.<br>
-|<br>
-|
-|To run more test machines simultaneously, you need to upgrade to a higher subscription plan with more parallel and queued runs allowed.<br>
+| - When you add a new machine to a test suite, the **Run in Parallel** checkbox is selected by default.
+| - To remove the parallel execution settings, follow the steps above and uncheck the boxes for **Run Test Suites in Parallel** and **Run Test Cases inside the Test Suite in Parallel**.
+| - Your account plan and the remaining parallel test slots determine how many parallel tests you can run.
+
+<style>
+  .example-container {
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    padding: 0.5em;
+    margin: 0.5em 0;
+    background-color: #f9f9f9;
+  }
+  .example-title {
+    color: #004d00;
+    font-weight: bold;
+    display: flex;
+    align-items: center;
+  }
+  .example-title span {
+    margin-right: 5px;
+  }
+  .example-list {
+    list-style: none;
+    padding: 0;
+  }
+  .example-list li {
+    margin-bottom: 0.5em;
+  }
+</style>
+
+<div class="example-container">
+  <div class="example-title">
+    <span>ℹ️</span>Example:
+  </div>
+  <ul class="example-list">
+    <p>If your subscription allows 1 parallel run and 1 queued run:</p>
+    <ul>
+      <li>You can run one test plan in parallel and queue another test plan.</li>
+      <li>A third test machine will not execute and will be removed from the queue.</li>
+      <li>To run more tests simultaneously, upgrade your subscription to include additional parallel and queued runs.</li>
+    </ol>
+  </ul>
+</div>
+
+
+---
+
+## **Adding Backup Devices for Android and iOS Devices**
+
+Adding backup devices ensures that tests run smoothly even if the primary device is unavailable. This is useful for Android and iOS apps. If the primary device fails, a backup device will take over, minimizing disruptions and ensuring reliable results. Follow the steps below to add a backup device:
+
+1. On the **Create** or **Edit Test Plan** page, go to the **Add Test Suites & Link Machine Profiles** tab.
+2. If you have already set up the test machine, click the **Settings** icon under the **Test Machine** tab. Alternatively, click the **Link to Test Machine** icon to add a new machine profile to the test suite.
+3. On the **Edit Test Machine or Device Profile** overlay, click **Add Backup Devices** under **Select Backup Devices**. 
+4. Choose the **OS** and **Version**, then select the **Device** from the dropdown menu. 
+5. You can add multiple backup devices and then click **Create** or **Update Profile**. ![adding backup devices](https://s3.amazonaws.com/static-docs.testsigma.com/new_images/projects/applications/adding_backup_devices.gif)
+
+[[info | NOTE:]]
+| Click the **Delete** button next to the backup device you want to remove.
+
+---
+
