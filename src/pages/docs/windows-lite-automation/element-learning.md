@@ -6,6 +6,15 @@ noindex: false
 order: 28.3
 page_id: "Windows (Lite) Automation Element Learning"
 warning: false
+contextual_links:
+- type: section
+  name: "Contents"
+- type: link
+  name: "Prerequisites"
+  url: "#prerequisites"
+- type: link
+  name: "Steps to Learn Windows (Lite) Elements Using Test Recorder"
+  url: "#steps-to-learn-windows-lite-elements-using-test-recorder"
 ---
 
 
@@ -18,13 +27,13 @@ For applications built on UWP, WinForms, WPF, and Classic Windows, you can provi
 
 > ## **Prerequisites**
 > - You should know how to create a [project](https://testsigma.com/docs/projects/overview/) and [application](https://testsigma.com/docs/projects/applications/) in Testsigma.
-> - You should have the Testsigma’s test recorder extension installed.
-> - You should have the Testsigma Agent setup. 
+> - You should have the Testsigma’s [Test Recorder](https://chromewebstore.google.com/detail/testsigma-recorder/epmomlhdjfgdobefcpocockpjihaabdp?hl=en-GB&utm_source=ext_sidebar) installed.
+> - You should have the [Testsigma Agent](https://testsigma.com/docs/agent/setup-on-windows-mac-linux/) setup. 
 > - Any Windows app to capture elements.
 
 ---
 
-## **Steps to Learn Windows Lite Elements using Test Recorder**
+## **Steps to Learn Windows (Lite) Elements Using Test Recorder**
 
 1. From the left navigation bar, go to **Create Tests > Elements** and click **Record**.
    

@@ -10,11 +10,8 @@ contextual_links:
 - type: section
   name: "Contents"
 - type: link
-  name: "Prerequisites"
-  url: "#prerequisites"
-- type: link
-  name: "Steps to Create a Windows (Advanced) Project and Application"
-  url: "#steps-to-create-a-windows-advanced-project-and-application"
+  name: "Steps to Create a Windows (Lite) Project and Application"
+  url: "#steps-to-create-a-windows-lite-project-and-application"
 ---
 
 ---

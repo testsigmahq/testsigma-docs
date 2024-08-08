@@ -35,10 +35,10 @@ Jump to one of the following topics to learn about Windows Automation (Lite) in 
 
 > ## **Prerequisites**
 >
-> - Testsigma Agent Setup
+> - [Testsigma Agent Setup](https://testsigma.com/docs/agent/setup-on-windows-mac-linux/)
 > - An Application Built on UWP/WinForms/WPF/Classic Windows
-> - Testsigma’s Test Recorder Installed
-> - Enable Developer Mode on Windows Machine
+> - Testsigma’s [Test Recorder](https://chromewebstore.google.com/detail/testsigma-recorder/epmomlhdjfgdobefcpocockpjihaabdp?hl=en-GB&utm_source=ext_sidebar) installed
+> - Enable **Developer Mode** on Windows Machine
 
 
 ---

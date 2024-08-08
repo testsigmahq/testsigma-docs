@@ -13,8 +13,8 @@ contextual_links:
   name: "Prerequisites"
   url: "#prerequisites"
 - type: link
-  name: "Create & Execute Test Cases for Windows"
-  url: "#create--execute-test-cases-for-windows"
+  name: "Create & Execute Test Cases for Windows (Lite)"
+  url: "#create--execute-test-cases-for-windows-lite"
 ---
 
 ---
@@ -25,7 +25,7 @@ Test cases for Windows (Lite) applications depend on the elements captured using
 
 > ## **Prerequisites**
 > - You should know how to create a [project](https://testsigma.com/docs/projects/overview/) and [application](https://testsigma.com/docs/projects/applications/) in Testsigma.
-> - You should have the Testsigma chrome extension installed.
+> - You should have the Testsigma’s [Test Recorder](https://chromewebstore.google.com/detail/testsigma-recorder/epmomlhdjfgdobefcpocockpjihaabdp?hl=en-GB&utm_source=ext_sidebar) installed.
 > - You should have the [Testsigma Agent](https://testsigma.com/docs/agent/setup-on-windows-mac-linux/) setup. 
 > - A Windows app to test.
 > - Elements captured using Testsigma Recorder. 
