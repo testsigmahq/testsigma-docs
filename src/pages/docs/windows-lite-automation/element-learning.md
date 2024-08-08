@@ -1,7 +1,7 @@
 ---
 title: "Element Learning (Using Test Recorder)"
 page_title: "Object Learning (Using Test Recorder)"
-metadesc: "To automate windows advanced applications, you need to have elements captured from Test Recorder. This article discusses how to learn elements using Test Recorder in Testsigma"
+metadesc: "To automate windows applications, you need to have elements captured from Test Recorder. This article discusses how to learn elements using Test Recorder in Testsigma"
 noindex: false
 order: 28.3
 page_id: "Windows (Lite) Automation Element Learning"
