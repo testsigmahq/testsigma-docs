@@ -48,7 +48,7 @@ Running tests in parallel allows multiple tests to run simultaneously, which red
 [[info | NOTE:]]
 | - When you add a new machine to a test suite, the **Run in Parallel** checkbox is selected by default.
 | - To remove the parallel execution settings, follow the steps above and uncheck the boxes for **Run Test Suites in Parallel** and **Run Test Cases inside the Test Suite in Parallel**.
-| - Your account plan and the remaining parallel test slots determine how many parallel tests you can run.
+| - Upgrade your subscription for parallel and queued runs to run more tests simultaneously.
 
 <style>
   .example-container {
@@ -85,7 +85,7 @@ Running tests in parallel allows multiple tests to run simultaneously, which red
     <ul>
       <li>You can run one test plan in parallel and queue another test plan.</li>
       <li>A third test machine will not execute and will be removed from the queue.</li>
-      <li>To run more tests simultaneously, upgrade your subscription to include additional parallel and queued runs.</li>
+      <li>Upgrade your subscription for parallel and queued runs to run more tests simultaneously.</li>
     </ol>
   </ul>
 </div>
