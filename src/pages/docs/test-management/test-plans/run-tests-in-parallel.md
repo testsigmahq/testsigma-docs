@@ -85,7 +85,7 @@ Running tests in parallel allows multiple tests to run simultaneously, which red
     <ul>
       <li>You can run one test plan in parallel and queue another test plan.</li>
       <li>A third test machine will not execute and will be removed from the queue.</li>
-      <li>To run more tests simultaneously, upgrade your subscription to include additional parallel and queued runs.</li>
+      <li>Upgrade your subscription for parallel and queued runs to run more tests simultaneously.</li>
     </ol>
   </ul>
 </div>
