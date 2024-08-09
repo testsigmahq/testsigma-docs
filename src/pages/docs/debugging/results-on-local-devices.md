@@ -58,7 +58,7 @@ Before starting the debugging process, ensure the following:
     - Enable the **Run till Failed** step toggle to execute the test steps until a specific step fails. If this toggle is disabled, the test case will execute from start to end.
     - Set a debug point by selecting a test step from the dropdown menu.
     - Select **External Path** and provide the application's publicly accessible URL or **Uploaded Apps** and select the application from uploaded apps in Testsigma.
-4. Click **Debug Now** to start the debugging process. The debugger screen will open, showing the test steps, related information, and the device screen.
+4. Click **Debug Now** to start the debugging process. The debugger screen will open, showing the test steps, related information, and the device screen. ![launch debug mode on android or ios devices](https://s3.amazonaws.com/static-docs.testsigma.com/new_images/projects/applications/running_debugging_on-android_or_ios_device.gif)
 
 ---
 
@@ -78,14 +78,14 @@ Debug points are specific locations in your test steps where you want the execut
 When the execution pauses at a debug point, you can perform the following actions:
 - **Resume Execution**: Continue the test execution from the paused point.
 - **Run This Step**: Execute the current step immediately.
-- **Step Over:** Skip the current step and move to the next one.
+- **Step Over:** Skip the current step and move to the next one. ![interacting with debug points during mobile debugging](https://s3.amazonaws.com/static-docs.testsigma.com/new_images/projects/applications/interacting_with_debug_points_during_mobile_debugging.png)
 
 ---
 
-## *Inspecting Test Execution Details on Mobile**
+## **Inspecting Test Execution Details on Mobile**
 
 - **Add Source**: When you reach a debug point, the **Add Source** section provides information about the test step's source code, allowing you to understand the context and behavior of the code being executed.
-- **Selected Element**: In the **Selected Element** section, view details about the UI elements involved in the test step. This includes properties and attributes that are crucial for debugging element-related issues.
+- **Selected Element Details**: In the **Selected Element** section, view details about the UI elements involved in the test step. This includes properties and attributes that are crucial for debugging element-related issues.
 - **Step Result**: The **Step Result** section shows the outcome of the test step, including pass/fail status and any associated error messages. This information helps diagnose issues and verify whether the test step has behaved as expected.
 
 ---
@@ -94,7 +94,7 @@ When the execution pauses at a debug point, you can perform the following action
 
 During test case execution, you can visually follow each step. If an error occurs or a debug point is reached:
 - Testsigma will highlight the problematic step.
-- Use the provided resources, including Add Source, Selected Element, and Step Result, to analyze the issue and determine the necessary fixes.
+- Use the provided resources, including Add Source, Selected Element, and Step Result, to analyze the issue and determine the necessary fixes. ![identifying errors during mobile test case execution](https://s3.amazonaws.com/static-docs.testsigma.com/new_images/projects/applications/identifying_mobile_test_case_execution.gif)
 
 ---
 
@@ -103,7 +103,7 @@ During test case execution, you can visually follow each step. If an error occur
 A common issue is the **Element Not Found** error, where an element visible on the device is reported as not found. To address this:
 
 1. View the message for the test step. If the element is not found, click **Element** to view its properties.
-2. Analyze the issue, update the element properties if needed, then click **Options** and select **Resume Execution** from the previously paused step.
+2. Analyze the issue, update the element properties if needed, then click **Options** and select **Resume Execution** from the previously paused step. ![troubleshooting element not found error on mobile devices](https://s3.amazonaws.com/static-docs.testsigma.com/new_images/projects/applications/troubleshooting_element_not_found_error_on_mobile_devices.gif)
 
 ---
 

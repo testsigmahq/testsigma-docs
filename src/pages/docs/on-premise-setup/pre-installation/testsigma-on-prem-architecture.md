@@ -16,25 +16,13 @@ contextual_links:
   name: "Important Components"
   url: "#important-components"
 - type: link
-  name: "Interactions"
-  url: "#interactions"
-- type: link
-  name: "Testsigma Central Server Architecture"
-  url: "#testsigma-central-server-architecture"
+  name: "Ports Used in Different Containers"
+  url: "#ports-used-in-different-containers"
 ---
 
 ---
 
-The Testsigma On-Premise System Architecture provides a secure environment for creating and executing automated tests within your organization's local infrastructure. This article discusses Testsigma's On-Premise System Architecture.
-
-This architecture includes three main components: 
-1. Client Systems
-2. Central Server
-3. Database
-
-Here’s a high level illustration of Testsigma’s On-prem Architecture:
-
-![Architecture](https://s3.amazonaws.com/static-docs.testsigma.com/new_images/projects/applications/tsarchitecture.png)
+The Testsigma On-Premise System Architecture provides a secure environment for creating and executing automated tests within your organization's local infrastructure. This article discusses physical layout deployment diagram of Testsigma's on-premise setup.
 
 ---
 
@@ -54,8 +42,6 @@ The physical layout deployment diagram above illustrates how tests are created a
 - All the containers communicate with a central database that stores application data.
 
 - Each container has specific ports for organized and efficient communication within the system.
-
-For more information, see the [Testsigma Central Server Architecture](https://testsigma.com/docs/on-premise-setup/pre-installation/testsigma-on-prem-architecture/#testsigma-central-server-architecture) section of this document.
 
 
 ---
@@ -85,32 +71,7 @@ For more information, see the [Testsigma Central Server Architecture](https://te
 
 ---
 
-## **Interactions**
-
-Here's the detailed explanation of communication between components:
-
-![Detailed Communication](https://s3.amazonaws.com/static-docs.testsigma.com/new_images/projects/applications/DetailedArchitecture.png)
-
-### **1. Client Access**
-- Clients access the Testsigma application using web browsers and interact with the application's features and functionalities. 
-- Communication between the Client and the Central Server happens via HTTPS protocol. 
-
-### **2. Agent Communication**
-- The Agent on client machines executes tests on browsers and mobile devices by communicating with the Central Server using HTTPS. 
-- The Agent also handles the test execution process and returns the results to the Central Server. 
-
-### **3. Central Server to Database**
-- The Central Server communicates with the Database using TCP on port 3307 to store and retrieve necessary data.
-
----
-
-## **Testsigma Central Server Architecture**
-
-The Testsigma Central Server Architecture is designed within a Docker environment, providing containerization benefits such as isolation, scalability, and easy deployment. The architecture consists of servers responsible for specific tasks and a MySQL database to manage data storage.
- 
-![Central Server Architecture](https://s3.amazonaws.com/static-docs.testsigma.com/new_images/projects/applications/CentralServerAchitecture.png)
-
-### **Components**
+## **Ports Used in Different Containers**
 
 **1. Load Balancer**
 - **Role:** Acts as the entry point to the system, distributing incoming traffic among multiple servers to prevent any single server from becoming a bottleneck.

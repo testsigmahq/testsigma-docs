@@ -3,7 +3,7 @@ title: "Intro: Windows Desktop Automation"
 page_title: "Introduction: Windows Desktop Automation"
 metadesc: "Testsigma simplifies Windows Automation with special NLPs & object based authoring | This article discusses how to create & execute tests for Windows Automation"
 noindex: false
-order: 28.1
+order: 29.1
 page_id: "Testsigma for Windows Automation"
 warning: false
 contextual_links:

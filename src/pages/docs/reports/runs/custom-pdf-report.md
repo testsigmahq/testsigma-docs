@@ -17,8 +17,11 @@ contextual_links:
   name: "Retrieving Result IDs"
   url: "#retrieving-result-ids"
 - type: link
-  name: "Executing the JAR File"
-  url: "#executing-the-jar-file"
+  name: "Executing Custom PDF Report for Test Plans"
+  url: "#executing-the-jar-file-for-test-plans"
+- type: link
+  name: "Executing Custom PDF Report for Test Case, Test Suite, or Test Machine Level"
+  url: "#executing-custom-pdf-report-for-test-case-test-suite-or-test-machine-level"
 - type: link
   name: "Using Preferences to Generate Custom PDF Report"
   url: "#using-preferences-to-generate-custom-pdf-report"
@@ -38,18 +41,296 @@ Custom PDF Report Generator in Testsigma allows you to create detailed and custo
 Before you begin, ensure you have the following:
 
 - An [API Key ](https://testsigma.com/docs/reports/runs/filter-custom-reports/) from your Testsigma account.
-- An HTML template for the PDF report.
-- Java 17 or a newer version installed on your system.
-- The JAR file from Testsigma Customer Support.
+- **Java 17** or a newer version installed on your system.
+- You can request the **JAR file** from the Customer Support team and download it before executing a Custom PDF Report Generation.
+- An **HTML template** for the PDF report.
+
+<details style="border: 1px solid gray; border-radius: 4px; padding: 0.5em; margin: 0.5em 0; background-color: #f2f2f2;">
+  <summary style="color: darkgreen; font-weight: bold; cursor: pointer;">
+    <span style="margin-right: 5px;">ℹ️</span>Example HTML Template
+  </summary>
+  <div style="padding: 0.5em;">
+    <!DOCTYPE HTML>
+    <html xmlns:th="http://www.thymeleaf.org">
+
+    <head>
+        <style>
+            @page {
+                size: A3 landscape;
+                background-color: #efefef;
+            }
+
+            body {
+                text-align: center;
+                font-family: 'Helvetica', sans-serif;
+                background-color: #efefef;
+            }
+
+            .landing-page {
+                position: relative;
+                text-align: center;
+            }
+
+            .main-heading {
+                color: #0c865d;
+                position: absolute;
+                top: 40%;
+                left: 10%;
+                font-size: 36px;
+                font-weight: bold;
+            }
+
+            .report {
+                width: 50%;
+                margin: 0 auto;
+            }
+
+            .support {
+                width: 60%;
+                padding-top: 30%;
+                margin: 0 auto;
+            }
+
+            a {
+                text-decoration: none;
+                color: blue;
+            }
+
+            table {
+                table-layout: fixed;
+                margin: 0 auto;
+                width: 80%;
+                border-collapse: collapse;
+            }
+
+            h1, h2 {
+                color: #0c865d;
+                text-align: left;
+                margin-left: 5%;
+            }
+
+            .left {
+                text-align: left;
+                color: #304c64;
+            }
+
+            .right {
+                text-align: right;
+            }
+
+            .fail {
+                background-color: #fee2e2;
+            }
+
+            .highlight {
+                background-color: #ecf8f3;
+            }
+
+            .row {
+                background-color: #ffffff;
+            }
+
+            .report-table, .support-table {
+                width: 50%;
+                margin: 0 auto;
+            }
+
+            .report-table td, .support-table td {
+                width: 50%;
+                padding: 7px;
+                border-top: 2px solid #efefef;
+                word-wrap: break-word;
+                text-align: left;
+            }
+
+            .report-table tr td:nth-child(odd) {
+                text-align: left;
+                color: #304c64;
+            }
+
+            .report-table tr td:nth-child(even) {
+                text-align: right;
+            }
+
+            .support-table tr td:nth-child(odd) {
+                text-align: left;
+                color: #304c64;
+                width: 30%;
+            }
+
+            .support-table tr td:nth-child(even) {
+                text-align: right;
+                width: 70%;
+            }
+
+            .message {
+                color: dimgray;
+                font-weight: bold;
+                font-size: large;
+                margin: 0 auto;
+                padding: 10%;
+            }
+
+            th {
+                font-weight: bold;
+                word-wrap: break-word;
+                padding: 7px;
+                text-align: left;
+            }
+
+            tr {
+                page-break-inside: avoid;
+            }
+
+            td {
+                border-top: 2px solid #efefef;
+                word-wrap: break-word;
+                padding: 7px;
+                text-align: left;
+            }
+
+            .support {
+                table-layout: fixed;
+                width: 30%;
+                padding-top: 30%;
+                margin: 0 auto;
+            }
+        </style>
+    </head>
+
+    <body>
+
+        <img th:src="${relativePath + 'ts_logo.png'}" alt="Company Logo" style="height: 30px; margin-top: 10px;" />
+        <div class="landing-page">
+            <img th:src="${relativePath + 'ts_bg_landing_page.png'}" width="100%" alt="Full Size Image" />
+            <div class="main-heading">
+                <h1>EXECUTIVE</h1>
+                <h1>REPORT</h1>
+            </div>
+        </div>
+
+        <div class="report">
+
+            <h1 th:text="${level + ' REPORT'}"></h1>
+            <table class="report-table">
+                <tr th:if="${#lists.contains(summaryField, 'name')}">
+                    <td>Name</td>
+                    <td th:text="${reportData.name != null ? reportData.name : 'N/A'}"></td>
+                </tr>
+                <tr th:if="${#lists.contains(summaryField, 'executor')}">
+                    <td>Executed By</td>
+                    <td th:text="${reportData.executor != null ? reportData.executor : 'N/A'}"></td>
+                </tr>
+                <tr th:if="${#lists.contains(summaryField, 'environment')}">
+                    <td>Environment</td>
+                    <td th:text="${reportData.environment != null ? reportData.environment : 'N/A'}"></td>
+                </tr>
+                <tr th:if="${#lists.contains(summaryField, 'testPlanName') && level != 'PLAN'}">
+                    <td>Test Plan</td>
+                    <td th:text="${reportData.testPlanName != null ? reportData.testPlanName : 'N/A'}"></td>
+                </tr>
+                <tr th:if="${#lists.contains(summaryField, 'testDeviceName') && level != 'MACHINE' && level != 'PLAN'}">
+                    <td>Test Device</td>
+                    <td th:text="${reportData.testDeviceName != null ? reportData.testDeviceName : 'N/A'}"></td>
+                </tr>
+                <tr th:if="${#lists.contains(summaryField, 'testSuiteName') && level == 'CASE'}">
+                    <td>Test Suite</td>
+                    <td th:text="${reportData.testSuiteName != null ? reportData.testSuiteName : 'N/A'}"></td>
+                </tr>
+                <tr th:if="${#lists.contains(summaryField, 'result')}">
+                    <td>Result</td>
+                    <td th:text="${reportData.result != null ? reportData.result : 'N/A'}"
+                        th:style="'color: ' + ${reportData.resultColor} + ';'"></td>
+                </tr>
+                <tr th:if="${#lists.contains(summaryField, 'buildNo')}">
+                    <td>Build No</td>
+                    <td th:text="${reportData.buildNo != null ? reportData.buildNo : 'N/A'}"></td>
+                </tr>
+                <tr th:if="${#lists.contains(summaryField, 'runId')}">
+                    <td>Run ID</td>
+                    <td th:if="${reportData.url != null}">
+                        <a th:href="${reportData.url}" target="_blank"
+                            th:text="${reportData.runId != null ? reportData.runId : 'N/A'}"></a>
+                    </td>
+                    <td th:if="${reportData.url == null}" th:text="${reportData.runId != null ? reportData.runId : 'N/A'}">
+                    </td>
+                </tr>
+                <tr th:if="${#lists.contains(summaryField, 'screenshotCapturedFor')}">
+                    <td>Screenshot captured for</td>
+                    <td th:text="${reportData.screenshot != null ? reportData.screenshot : 'N/A'}"></td>
+                </tr>
+                <tr th:if="${#lists.contains(summaryField, 'screenshotMode')}">
+                    <td>Screenshot mode</td>
+                    <td th:text="${reportData.screenshotMode != null ? reportData.screenshotMode : 'N/A'}"></td>
+                </tr>
+            </table>
+            <br />
+            <br />
+
+            <div>
+                <h2>OVERALL SUMMARY</h2>
+                <img th:src="'data:image/png;base64,' + ${imageSrc}" alt="Chart Image" style="margin: 0 auto;" />
+            </div>
+
+        </div>
+
+        <div style="page-break-before: always;"></div>
+
+        <h2 th:if="${isNotTestCase}">TEST CASES LIST</h2>
+        <table th:if="${isNotTestCase}">
+            <tr class="highlight">
+                <th style="width: 5%;"><img th:src="${relativePath + 'ts_icon_list_item.png'}" width="30" alt="Result" /></th>
+                <th>Test Case</th>
+                <th th:if="${#lists.contains(caseListColumns, 'testSuite')}">Test Suite</th>
+                <th th:if="${#lists.contains(caseListColumns, 'testMachine')}">Test Machine</th>
+                <th th:if="${#lists.contains(caseListColumns, 'assignee')}">Assignee</th>
+                <th th:if="${#lists.contains(caseListColumns, 'reviewer')}">Reviewer</th>
+            </tr>
+            <tr th:each="testCaseResult : ${testCaseResultList}"
+                th:class="${testCaseResult.result == 'FAILURE' ? 'fail' : 'row'}">
+                <td style="width: 5%;">
+                    <img th:src="${relativePath + testCaseResult.icon}" style="border-radius: 50%;" width="30"
+                        alt="Result" />
+                </td>
+                <td th:text="${testCaseResult.testCase}"></td>
+                <td th:if="${#lists.contains(caseListColumns, 'testSuite')}" th:text="${testCaseResult.testSuite}"></td>
+                <td th:if="${#lists.contains(caseListColumns, 'testMachine')}" th:text="${testCaseResult.testMachine}">
+                </td>
+                <td th:if="${#lists.contains(caseListColumns, 'assignee')}" th:text="${testCaseResult.assignee}">
+                </td>
+                <td th:if="${#lists.contains(caseListColumns, 'reviewer')}" th:text="${testCaseResult.reviewer}">
+                </td>
+            </tr>
+        </table>
+
+        <div style="page-break-before: always;"></div>
+
+        <div class="support">
+            <h2>SUPPORT</h2>
+            <table class="support-table">
+                <tr>
+                    <td>For any assistance, contact:</td>
+                    <td>
+                        <a href="mailto:support@example.com">support@example.com</a><br />
+                        Phone: 123-456-7890
+                    </td>
+                </tr>
+            </table>
+        </div>
+
+    </body>
+    </html>
+  </div>
+</details>
 
 ---
 
 ## **Retrieving Result IDs**
 
-To retrieve the Run ID from a run result:
+To generate reports, you need specific IDs depending on the level of detail you want:
 
 1. Navigate to the **Run Result** from which you want to retrieve the Run ID.
-2. For **test plan** level reports, use the **Run ID** from the RunResult page or **URL endpoint**. ![retrieving runid for test plan level](https://s3.amazonaws.com/static-docs.testsigma.com/new_images/projects/applications/testplan_run_id.cpr.gif)
+2. For **test plan** level reports, Use the Run ID directly from the Run Result page. You can find this in the Execution ID or the URL endpoint. Copy the Run ID from the Run Result page. ![retrieving runid for test plan level](https://s3.amazonaws.com/static-docs.testsigma.com/new_images/projects/applications/testplan_run_id.cpr.gif)
 3. For Test Machine, Test Suite, or Test Case level reports:
       - Right-click on the page and select **Inspect** to open Developer Tools. 
       - Go to the **Network** tab.
@@ -59,12 +340,36 @@ To retrieve the Run ID from a run result:
 
 ---
 
-## **Executing the JAR File**
+## **Executing the JAR File for Test Plans**
 
 Run the Custom Report Generator with the required inputs to create a PDF report. This step converts your HTML template into a PDF based on your preferences. To execute the JAR file, follow these steps:
 
 1. Open Terminal or Command Prompt and navigate to the folder containing the JAR file.
 2. Run the following command, replacing the placeholders with your actual values:
+```bash
+java -jar custom_pdf_generator-0.0.1-SNAPSHOT.jar \
+  --config.apiKey=YOUR-API-KEY \
+  --config.plan.runId=YOUR-PLAN-RUN-ID \
+  --config.template.location=/path/to/your/template.html \
+  --config.pdf.directory=/path/to/save/report.pdf
+```
+
+<br>
+Replace the placeholders with your actual values:
+
+- **YOUR-API-KEY**: Your API key for authentication with Testsigma.
+- **YOUR-PLAN-RUN-ID**: The run ID of your test plan.
+- **/path/to/your/template.html**: Path to your HTML template file.
+- **/path/to/save/report.pdf**: Location where the generated PDF report will be saved.
+
+---
+
+## **Executing Custom PDF Report for Test Case, Test Suite, or Test Machine Level**
+
+Generate reports at the Test Case, Test Suite, or Test Machine level by following these steps::
+
+1. Get the Run ID as explained in the [Retrieving Result IDs](https://testsigma.com/docs/reports/runs/custom-pdf-report/#retrieving-result-ids) section.
+2. Use the following command, including your specific preferences:
 ```bash
 java -jar custom_pdf_generator-0.0.1-SNAPSHOT.jar \
   --config.apiKey=YOUR-API-KEY \

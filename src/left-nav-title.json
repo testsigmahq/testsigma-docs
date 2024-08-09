@@ -688,5 +688,10 @@
   "setup": {"/docs/on-premise-setup/installation-process/setup/": "Installation Steps" },
   "post-installation-checklist": {"/docs/on-premise-setup/post-installation/post-installation-checklist/": "Post-Installation Checklist" },
   "troubleshooting": {"/docs/on-premise-setup/post-installation/troubleshooting/": "Troubleshooting" },
-  "faqs": {"/docs/on-premise-setup/post-installation/faqs/": "FAQs" }
+  "faqs": {"/docs/on-premise-setup/post-installation/faqs/": "FAQs" },
+  "windows-lite-automation": {"/docs/windows-lite-automation/": "Windows Automation (Lite)"},
+  "windows-automation": {"/docs/windows-automation/": "Windows Automation (Advanced)"},
+  "projects-and-applications": {"/docs/windows-lite-automation/projects-and-applications/": "Windows (Lite) Project & Application"},
+  "element-learning": {"/docs/windows-lite-automation/element-learning/": "Element Learning with Test Recorder"},
+  "test-cases": {"/docs/windows-lite-automation/test-cases/": "Test Cases for Windows (Lite)" }
 }
