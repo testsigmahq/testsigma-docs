@@ -1,46 +1,49 @@
 ---
-title: "Installing Community Add-ons"
-metadesc: "Learn how to install add-ons from the Add-ons Community Marketplace | Addons from Testsigma Community Marketplace will help you boost your Test Automation"
+title: "Install and Use Community Addons in Testsigma"
+page_title: "Install and Use Community Add-ons | Enhance Test Automation"
+metadesc: "Install and use community add-ons to extend functionality and simplify test automation. Learn how to browse, install, and apply add-ons in your test cases."
 noindex: false
 order: 17.3
-page_id: "Installing Community Add-ons"
+page_id: "Installing Community Addon"
 search_keyword: ""
 warning: false
 contextual_links:
 - type: section
   name: "Contents"
 - type: link
-  name: "Installing an Add-on"
-  url: "#installing-an-add-on"
+  name: "Installing a Community Addon"
+  url: "#installing-a-community-addon"
 - type: link
-  name: "Using an installed add-on"
-  url: "#using-an-installed-add-on"
+  name: "Using an Installed Addon"
+  url: "#using-an-installed-addon"
 ---
 
 ---
 
-Navigate to the Add-ons page via **Dashboard > Add-ons**.
-
-* Community Tab shows all the add-ons available for installation.
-* The Installed Add-ons Tab shows the currently installed add-ons.
-* My Add-ons shows add-ons developed and published by you.
-
-Before proceeding, you should be familiar with [add-ons](https://testsigma.com/docs/addons/what-is-an-addon/) and [how to create Test Steps using simple English](https://testsigma.com/docs/test-cases/step-types/natural-language/).
+Community Addon in Testsigma extend the functionality of your test cases by allowing you to use pre-built actions created by the community. This guide explains how to install and use these addon in your test cases.
 
 ---
-## **Installing an Add-on**
 
-Click on the Community Tab and find the add-on you want to install. You can either browse through the list or search for an Add-on using a name or description.
+## **Installing a Community Addon**
 
-Hover over one of the add-ons and click on the Install button. The selected add-on will be installed and will be available in your Test Cases after a page refresh.
-
-![Add-on details Popup when clicking on Add-on tile in Installed Add-ons tab](https://s3.amazonaws.com/static-docs.testsigma.com/new_images/projects/applications/communityaddons.gif)
+1. Click on the **Addons** icon from the left navigation bar.
+2. On the **Addon Marketplace** Page, you will find a list of all available addons in the **Community** tab. You can either browse through the list or use the search function to find a specific addon by name or description.
+3. Click **Install** button you wish to install addon.
+4. The addon will be installed and available for use in your test cases after refreshing the page. ![installing community addon](https://s3.amazonaws.com/static-docs.testsigma.com/new_images/projects/applications/install_addon_marketplace.png)
 
 ---
-## **Using an installed add-on**
 
-Navigate to the Add-ons page via **Dashboard > Add-ons** and switch to the Installed Add-ons tab.
+## **Using an Installed Addon**
 
-Click on the add-on you want to use. Add-on details popup will open up. Observe the actions for the add-on in the Actions section of the popup. Once an add-on is installed, its actions will be available in your test step Suggestions while you author test cases. You can type in the action while creating a Test Step and select them from the suggestions.
+Once you've installed an addon, you can use it in your test cases:
 
-![Using custom actions in test steps](https://docs.testsigma.com/images/community-marketplace/custom-addons-in-test-steps.png)
+1. Go to the **Addon** page from the Dashboard and switch to the **Installed Addon** tab.
+2. Click on the installed addon to view its details. A popup will display the addon's available actions. ![view details for installed addon](https://s3.amazonaws.com/static-docs.testsigma.com/new_images/projects/applications/view_installed_community_addon.png)
+3. When authoring a test case, start typing the action related to the installed addon in the test step.
+4. The action will appear in the suggestions list, and you can select it to include in your test step. ![use installed addon](https://s3.amazonaws.com/static-docs.testsigma.com/new_images/projects/applications/using_installed_addon.png)
+
+[[info | NOTE:]]
+| - **Refresh the Page**: After installing an addon, always refresh the page to ensure the actions become available in your test cases.
+| - **Custom Actions**: Installed addon offer custom actions that you can integrate into your test steps, simplifying the test authoring process.
+
+---
