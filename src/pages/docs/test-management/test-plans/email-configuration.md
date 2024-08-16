@@ -1,61 +1,50 @@
 ---
 title: "Email Configuration in Test Plan"
-page_title: "Email Configuration in Test Plan"
-metadesc: "how to configure email Test Plans."
+page_title: "Email Configuration in Test Plan: Easy Setup Guide"
+metadesc: "Email configuration in test plans helps you stay updated with test results. Follow this simple guide to set up notifications for efficient workflow management."
 noindex: false
 order: 8.34
-page_id: ""
+page_id: "email-configuration-in-test-plan"
+search_keyword: ""
 warning: false
 contextual_links:
 - type: section
   name: "Contents" 
 - type: link
-  name: "Configure email in test plan"
+  name: "Prerequisites"
+  url: "#prerequisites"  
+- type: link
+  name: "Configure email in Test Plan"
   url: "#configure-email-in-test-plan"
-
 ---
-<br>
----
-
-Testsigma allows you to customise your notification settings to receive email alerts when test plan results are available. This feature lets you stay updated on your test plan results even when you are not actively monitoring the application.
-
-Here is a quick GIF demonstrating how to configure email in test plans.
-![Configure Email in Test Plan](https://s3.amazonaws.com/static-docs.testsigma.com/new_images/projects/overview/configureemail_tp.gif)
 
 ---
 
-### **Prerequisites**
+Setting up email notifications for test plans in Testsigma helps you stay informed about test plan results and related events without constantly monitoring the application. By configuring these notifications, you receive timely updates in your inbox whenever key milestones are reached, or issues arise, enabling you to take prompt action and maintain efficient workflow management. 
+
+---
+
+## **Prerequisites**
 
 You'll need to know how to [create a test plan](https://testsigma.com/docs/test-management/test-plans/overview/#steps-to-create-a-test-plan).
 
 ---
 
-## **Configure email in test plan**
+## **Configure email in Test Plan**
 
-1. Navigate to **Test development** > **Test plan**.
-
-2. Click a new or existing **test plan** to configure email settings in the test plan.
-![Open test plan](https://s3.amazonaws.com/static-docs.testsigma.com/new_images/projects/overview/testplan_hp.png)
-
-3. In the existing test plan, click **Edit** in the top right corner.
-![edit in existing test plan](https://s3.amazonaws.com/static-docs.testsigma.com/new_images/projects/overview/testplan_edit.png)
-
-4. On the **Create** or **Edit Test Plan** page, navigate to the **Test Plan Settings** tab.
-![Test plan settings](https://s3.amazonaws.com/static-docs.testsigma.com/new_images/projects/overview/emailconfige_tp.png)
-
-5. Click under **Send Notifications When On**, and the **Notifications options** drop-down list will appear.
-![Notification option](https://s3.amazonaws.com/static-docs.testsigma.com/new_images/projects/overview/notification_tp.png)
-
-6. Select the **notification options** from the drop-down list to receive an email notification for test plan results.
-![Select Notification option](https://s3.amazonaws.com/static-docs.testsigma.com/new_images/projects/overview/notificationchoosed_tp.png)
-
-7. To receive email notifications, you can enter your email address by clicking next to **Email us**. If you want to add your Testsigma-signed email address, click the **checkbox** before **Add my email**.
-![Add email id](https://s3.amazonaws.com/static-docs.testsigma.com/new_images/projects/overview/email_tp.png)
-
-8. To receive messages, you can select the **chat channels** from a drop-down list next to the **send messages to** option.
-![Chat Channels](https://s3.amazonaws.com/static-docs.testsigma.com/new_images/projects/overview/chat_tp.png)
-
-9. Click **Create** or **Update** to save test plan settings.
-
+1. Navigate to **Test Plans** and create a new test plan or open an existing one.
+2. On the **Create** or **Edit Test Plan** page, go to **Test Plan Settings** tab.
+3. Enable **Send Notifications** toggle, select when to Notify On from below:
+    - **Passed**
+    - **Failed**
+    - **Not Executed**
+    - **Queued**
+    - **Stopped**
+    - **Running**
+4. In the **Send Notification to** field, enter the **email address** where you want to receive the notifications.
+5. If you want to use your Testsigma-registered email address, check the box labeled **Add my email**.
+6. If you prefer to receive notifications via chat, click the drop-down list below **Also Send messages to**.
+7. Select the chat channels where you want to receive the notifications, such as **Google Chat**, **Slack** or **Microsoft Teams**.
+8. Once all your preferences are set, click on **Create** or **Update** to save the changes. ![set up email configuration](https://s3.amazonaws.com/static-docs.testsigma.com/new_images/projects/applications/email_configuration_test_plan.gif)
 
 ---

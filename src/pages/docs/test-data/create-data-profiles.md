@@ -25,6 +25,9 @@ contextual_links:
   name: "Data-driven Testing with Dynamic Data Sets"
   url: "#data-driven-testing-with-dynamic-data-sets"
 - type: link
+  name: "Creating Data-Driven Test Cases with Dynamic Data Sets"
+  url: "#creating-data-driven-test-cases-with-dynamic-data-sets"
+- type: link
   name: "Additional Actions Possible on Test Data Set Name"
   url: "#additional-actions-possible-on-test-data-set-name"
 ---
@@ -57,100 +60,98 @@ Here’s a quick GIF that demonstrates how to create a test data profile.
 
 ## **Associate a Test Data Profile with a Test Case**
 
-1. Navigate to **Create Tests** > **Test Cases** and click on **Create Test Case**. ![create test case](https://s3.amazonaws.com/static-docs.testsigma.com/new_images/projects/applications/create_testcase_associate_tdp.png)
+1. Navigate to **Create Tests** > **Test Cases** and click on **Create Test Case**. ![navigate to assoicate test data profile](https://s3.amazonaws.com/static-docs.testsigma.com/new_images/projects/applications/create_testcase_associate_tdp.png)
 
-2. On the Test Case details page, click on **Test Case Settings** from the right navigation bar.
-![Test Case Settings](https://s3.amazonaws.com/static-docs.testsigma.com/new_images/projects/applications/tdptcdprnb.png)
-
-1. From **Test Case Settings** page, choose **Test Data Profile** from the drodown. 
-![Test Data Profile](https://s3.amazonaws.com/static-docs.testsigma.com/new_images/projects/applications/tdpatdpftcsp.png)
-
-1. Enable the **Data Driven** toggle. Once you have enable the data driven testing in your test case, you can narrow and customize the various data sets from your test data profile that are being used in your test case using the filters iteration, parameter, set name.
-![Data-driven](https://s3.amazonaws.com/static-docs.testsigma.com/new_images/projects/applications/tdptcsipsn.png)
-    
-    - **Iteration**: This type of filtering applies only to sequential data sets. The data sets can be filtered using the filter operations greater than, less than, or between.
-    - **Set name**: This filtering type applies to nonsequential data sets. Here, the data sets are filtered by data set names using the operations between, equals, contains, starts with, and ends with. Any data set names containing the set name or part of it are used in the test case.
-    - **Parameter**: This type of filtering is applicable for nonsequential data sets. Here, the data sets are filtered using parameters used in data sets.
-
-1. The **Test Data Profile** is linked to **Test Case**. 
+2. On the Test Case details page, click on **Test Case Settings** from the right navigation bar. ![test case settings](https://s3.amazonaws.com/static-docs.testsigma.com/new_images/projects/applications/test_case_setting_tdp_associate.png)
+3. In the **Test Case Settings** page, choose a **Test Data Profile** from the dropdown menu. ![assoicate test data profile](https://s3.amazonaws.com/static-docs.testsigma.com/new_images/projects/applications/associate_tdp_in_testcase.png)
+4. Enable the **Data-Driven** toggle. Once enabled, you can filter and customise the data sets from your test data profile for use in your test case using the filters Iteration, Set Name, and Parameter.
+    - **Iteration**: Filters sequential data sets using greater than, less than, or between operations.
+    - **Set Name**: Filters non-sequential data sets by set names using operations like equals, contains, starts with, and ends with.
+    - **Parameter**: Filters non-sequential data sets using parameters used in data sets. ![select data driven filters](https://s3.amazonaws.com/static-docs.testsigma.com/new_images/projects/applications/filtertype_dd_testcase.png)
 
 ---
 
 ## **Using Test Data Profile in a Test Case**
-1. Navigate to **Create Tests > Test Cases** and click on **Create Test Case**.
-![Create Test Case](https://s3.amazonaws.com/static-docs.testsigma.com/new_images/projects/applications/tdpctdp.png)
 
-2. Create test steps as mentioned in the screenshot below:
-![Test Steps](https://s3.amazonaws.com/static-docs.testsigma.com/new_images/projects/applications/tdptcts.png)
+1. In **Test Case detials** page, click **Add new** step, and use **NLP** to create a new test step. ![use test data placeholder](https://s3.amazonaws.com/static-docs.testsigma.com/new_images/projects/applications/select_parameter_testdatatypes_testcase.png)
+2. Include a placeholder for the **test data**. Click the **test data** placeholder, select <strong>@ Parameter</strong> from the test data types dropdown, and choose the parameter from right overlay. ![select parameter from overlay](https://s3.amazonaws.com/static-docs.testsigma.com/new_images/projects/applications/select_parameter_fromtdp.png)
 
-3. Delete ***test data*** placeholder from the above line and choose ***@ Parameters*** from the drop-down.
-![Parameter](https://s3.amazonaws.com/static-docs.testsigma.com/new_images/projects/applications/tdpcpdd.png)
-
-4. On **@ Parameter** overlay, select **Test Data Profile** and **Parameter Name**.
-![Parameter Overlay](https://s3.amazonaws.com/static-docs.testsigma.com/new_images/projects/applications/tdppddtdppn.png)
-
-Here’s a quick GIF that demonstrates how to associate and use test data profile in a test case. 
-![TDP in Test Cases](https://s3.amazonaws.com/static-docs.testsigma.com/new_images/projects/applications/TDPinTCs.gif)
-
+Here is a quick GIF demonstrating the above workflow: ![use test data profile in test case](https://s3.amazonaws.com/static-docs.testsigma.com/new_images/projects/applications/associating_tdp_in_testcase.gif)
 
 ---
 
-## **Data-driven Testing with Dynamic Data Sets**
-In data-driven testing, you can only iterate values from start to end. If you want to iterate from data sets from the middle, you have to set the variables in a prerequisite test case and use the variables as start and end by enabling data-driven testing to the test case.
+## **Data-Driven Testing with Dynamic Data Sets**
 
+In data-driven testing, you can iterate values from start to end. To iterate from the middle, set variables in a prerequisite test case and use them as start and end points by enabling data-driven testing.
 
-### **Set the Variables in a Prerequisite Test Case**
+**Set Variables in a Prerequisite Test Case**
 
-1. Create a **Test Case** by navigating to **Create Tests > Test Cases**.
+1. Navigate to Create Tests > Test Cases. 
+2. Store the start and end data values in your test steps using the variables <strong>RunTime\_TestData\_Set\_Start</strong> and **RunTime\_TestData\_Set\_End**. ![create dynamic sets in data driven](https://s3.amazonaws.com/static-docs.testsigma.com/new_images/projects/applications/dynamic_data_sets_testcase.png)
 
-![Test Case](https://s3.amazonaws.com/static-docs.testsigma.com/new_images/projects/applications/tsapitc.png)
+<style>
+  .example-container {
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    padding: 1em;
+    margin: 1em 0;
+    background-color: #f9f9f9;
+  }
+  .example-title {
+    color: #004d00;
+    font-weight: bold;
+    display: flex;
+    align-items: center;
+    font-size: 1.2em;
+  }
+  .example-title span {
+    margin-right: 8px;
+  }
+  .example-list {
+    list-style-type: none;
+    padding-left: 1em;
+    margin-top: 0.5em;
+  }
+  .example-list li {
+    margin-bottom: 0.75em;
+    font-family: "Courier New", Courier, monospace;
+    color: #333;
+  }
+  .code-block {
+    background-color: #f1f1f1;
+    padding: 0.5em;
+    border-radius: 4px;
+    border: 1px solid #ddd;
+    font-family: "Courier New", Courier, monospace;
+    color: #333;
+  }
+</style>
 
-
-2. Store start and end data values in ***RunTime\_TestData\_Set\_Start*** and ***RunTime\_TestData\_Set\_End***, respectively in your test steps. 
-
-![Store Values](https://s3.amazonaws.com/static-docs.testsigma.com/new_images/projects/applications/dvsdv.png)
-
-
-For example, in the above test case, we store **delhi** in ***RunTime\_TestData\_Set\_Start*** and **chennai** in ***RunTime\_TestData\_Set\_End***. 
-
-
-### **Creating Data-driven Test Cases with Dynamic Data Sets**
-
-
-1. Create a **Test Case** by navigating to **Create Tests > Test Cases**.
-
-![Test Case](https://s3.amazonaws.com/static-docs.testsigma.com/new_images/projects/applications/tsapitc.png)
-
-
-2. Click on **Test Case Settings** and select the above test case as a prerequisite from the dropdown. 
-
-![Test Case Settings](https://s3.amazonaws.com/static-docs.testsigma.com/new_images/projects/applications/ddssprereq.png)
-
-
-3. Select the **Test Data Profile**, enable the **Data Driven** toggle, and select **Overwrite Test Data Set with runtime variable for Data iterates from/to** dropdowns.
-
-![Set Settings](https://s3.amazonaws.com/static-docs.testsigma.com/new_images/projects/applications/ddstcsettings.png)
-
-
-4. Create test steps and click on run to execute the test case. 
-
-
-Alternatively, you can also set values using **Data iterates from/to** dropdowns. 
-
-![Alternatively](https://s3.amazonaws.com/static-docs.testsigma.com/new_images/projects/applications/ddsalternative.png)
+<div class="example-container">
+  <div class="example-title">
+    <span>ℹ️</span>Example:
+  </div>
+  <ul class="example-list">
+    <p>For example, assign</p>
+    <li class="code-block">
+      RunTime_TestData_Set_Start = "delhi";<br>
+      RunTime_TestData_Set_End = "bangalore";
+    </li>
+  </ul>
+</div>
 
 ---
 
+## **Creating Data-Driven Test Cases with Dynamic Data Sets**
 
-## **Additional Actions Possible on Test Data Set Name**
-
-1. **Store**: When a test data profile is associated with a test case. The test data set name associated with the test data profile can be stored into a variable for later use as well. Below is how the syntax for the Store NLP looks like:
-
-![store-iteration-count-test-data-set-name](https://s3.amazonaws.com/static-docs.testsigma.com/new_images/test-cases/step-types/for-loop/store-iteration-count-test-data-set-name.png)
-
-
-2. **if**: The test data set values, from a test data profile being iterated, can be compared within an if condition too. Below screenshot shows the NLP (The NLP can be added as a part of add-on “String Compare”. You can find the add-ons to use here: https://testsigma.com/addons):
-
-![the verify if NLP that is available with the addon String Compare](https://s3.amazonaws.com/static-docs.testsigma.com/new_images/test-cases/step-types/step-group/verify-with-if-with-string-compare.png)
+1. In **Test Case detials** page, click on **Test Case Settings** and select the **Prerequisite** test case from the dropdown. ![select prerequiste for test case](https://s3.amazonaws.com/static-docs.testsigma.com/new_images/projects/applications/select_prerequsties_testcases.png)
+2. Enable the **Data-Driven** toggle and select **Overwrite Test Data Set with a runtime variable for the Data iterates from/to** dropdowns. ![select data driven test with dynamic set](https://s3.amazonaws.com/static-docs.testsigma.com/new_images/projects/applications/select_data_iterates_from_variables.png)
+3. Create test steps and click **Run** to execute the test case.
 
 ---
+
+## **Additional Actions on Test Data Set Name**
+
+- **Store**: The test data set name associated with a test data profile can be stored in a variable for later use. The syntax for the Store NLP is **store-iteration-count-test-data-set-name**.
+
+- **If Condition**: The test data set values from a test data profile can be used in an if condition. The screenshot below shows the NLP, which can be added as part of the "String Compare" add-on. Find the add-ons to use [here](https://testsigma.com/addons).

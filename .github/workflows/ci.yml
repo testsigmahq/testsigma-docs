@@ -11,15 +11,15 @@ jobs:
       - name: Install libvips
         run: sudo apt-get install libvips
       - uses: actions/checkout@v2
-      - name: Setup Node 12
+      - name: Setup Node 18
         uses: actions/setup-node@v2
         with:
-          node-version: '12'
+          node-version: '18'
       - name: Install dependencies
         run: |
-          npm i --force --unsafe-perm
+          rm -rf node_modules && npm i --force --unsafe-perm
       - name: Force installing sharp
-        run: npm install --ignore-scripts=false --verbose sharp@0.30.7
+        run: npm install --ignore-scripts=false --verbose sharp@0.30.7 --force --unsafe-perm
       - name: 'Create env file'
         run: |
           touch .env
