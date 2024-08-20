@@ -3,7 +3,7 @@ title: "Object Learning (Using UFT One)"
 page_title: "Object Learning (Using UFT One)"
 metadesc: "To automate windows advanced applications, you need to have objects captured & converted them to application models. This article discusses how to learn objects using UFT One"
 noindex: false
-order: 28.3
+order: 29.3
 page_id: "Testsigma for Windows Automation"
 warning: false
 ---
