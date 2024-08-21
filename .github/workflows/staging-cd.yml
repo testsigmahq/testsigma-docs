@@ -45,8 +45,8 @@ jobs:
         run: |
           PREFIX_PATHS=true npm run build && npm run deploy
         env:
-          AWS_ACCESS_KEY_ID: ${{ secrets.WEBSITE_STAGING_AWS_ACCESS_KEY_ID }}
-          AWS_SECRET_ACCESS_KEY: ${{ secrets.WEBSITE_STAGING_AWS_SECRET_ACCESS_KEY }}
+          AWS_ACCESS_KEY_ID: ${{ secrets.WEBSITE_STAGING_AWS_ACCESS_KEY_ID_V1 }}
+          AWS_SECRET_ACCESS_KEY: ${{ secrets.WEBSITE_STAGING_AWS_SECRET_ACCESS_KEY_V1 }}
           AWS_DEFAULT_REGION: 'us-east-1'
           AWS_DEFAULT_OUTPUT: json
           TYPESENSE_HOST: ${{ secrets.WEBSITE_STAGING_TYPESENSE_HOST }}
