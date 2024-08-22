@@ -62,7 +62,6 @@ jobs:
           npm run clean
           rm -rf .cache public
           npm run develop &
-          sleep 10 # Wait for server to start up
           if curl http://localhost:8000; then
             echo "URL exists: http://localhost:8000"
           else
