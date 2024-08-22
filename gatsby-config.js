@@ -1,17 +1,17 @@
-
-require('dotenv').config({
+require("dotenv").config({
   path: `.env`,
 });
-
-
 
 module.exports = {
   assetPrefix: process.env.ASSET_HOST,
   siteMetadata: {
-    title: 'Testsigma Documentation',
-    description: '',
-    author: 'Testsigma',
-    siteUrl: 'https://testsigma.com/docs/'
+    title: "Testsigma Documentation",
+    description: "",
+    author: "Testsigma",
+    siteUrl: "https://testsigma.com/docs/",
+  },
+  flags: {
+    DEV_SSR: true,
   },
   plugins: [
     "gatsby-plugin-postcss",
@@ -21,7 +21,7 @@ module.exports = {
       resolve: `gatsby-transformer-remark`,
       options: {
         plugins: [
-            'gatsby-plugin-react-helmet',
+          "gatsby-plugin-react-helmet",
           {
             resolve: "gatsby-remark-embed-video",
             options: {
@@ -30,16 +30,16 @@ module.exports = {
               height: 400,
               related: false,
               noIframeBorder: true,
-              loadingStrategy: 'lazy',
+              loadingStrategy: "lazy",
               containerClass: "embedVideo-container",
               iframeId: false,
             },
           },
-          'gatsby-remark-responsive-iframe',
+          "gatsby-remark-responsive-iframe",
           {
-            resolve: 'gatsby-remark-prismjs',
+            resolve: "gatsby-remark-prismjs",
             options: {
-              classPrefix: 'language-',
+              classPrefix: "language-",
               inlineCodeMarker: null,
               aliases: {},
               showLineNumbers: false,
@@ -58,7 +58,7 @@ module.exports = {
               elements: [`h2`],
             },
           },
-          'gatsby-remark-check-links',
+          "gatsby-remark-check-links",
           {
             resolve: "gatsby-remark-custom-blocks",
             options: {
@@ -85,22 +85,22 @@ module.exports = {
         bucketName: process.env.BUCKET_NAME,
         protocol: "https",
         hostname: process.env.HOST_NAME,
-        generateRedirectObjectsForPermanentRedirects: true
+        generateRedirectObjectsForPermanentRedirects: true,
       },
     },
     {
-      resolve: 'gatsby-source-filesystem',
+      resolve: "gatsby-source-filesystem",
       options: {
-        name: 'src',
+        name: "src",
         path: `${__dirname}/src/`,
       },
     },
     {
       resolve: `gatsby-plugin-ts-freshchat`,
       options: {
-          token: process.env.FRESHCHAT_TOKEN,
-          host: "https://wchat.freshchat.com",
-          appEmbedUrl: "https://app.testsigma.com/ui/dashboard"
+        token: process.env.FRESHCHAT_TOKEN,
+        host: "https://wchat.freshchat.com",
+        appEmbedUrl: "https://app.testsigma.com/ui/dashboard",
       },
     },
     {
@@ -124,12 +124,19 @@ module.exports = {
           head: false,
           respectDNT: true,
         },
-      }
+      },
     },
     {
-      resolve: 'gatsby-plugin-env-variables',
+      resolve: "gatsby-plugin-env-variables",
       options: {
-        allowList: ['TYPESENSE_HOST', 'TYPESENSE_PORT', 'TYPESENSE_PROTOCOL', 'TYPESENSE_API_KEY', "TYPESENSE_SEARCH_API_KEY", "TYPESENSE_COLLECTION"],
+        allowList: [
+          "TYPESENSE_HOST",
+          "TYPESENSE_PORT",
+          "TYPESENSE_PROTOCOL",
+          "TYPESENSE_API_KEY",
+          "TYPESENSE_SEARCH_API_KEY",
+          "TYPESENSE_COLLECTION",
+        ],
       },
     },
   ],
