@@ -13,10 +13,6 @@ module.exports = {
   flags: {
     DEV_SSR: true,
     FAST_DEV: true,
-    PRESERVE_FILE_DOWNLOAD_CACHE: true,
-    PARALLEL_SOURCING: true,
-    PARALLEL_QUERY_RUNNING: true,
-    LMDB_STORE: false,
   },
   plugins: [
     "gatsby-plugin-postcss",
