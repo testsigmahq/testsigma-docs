@@ -61,11 +61,13 @@ jobs:
         run: |
           npm run clean
           rm -rf .cache public
-          npm run develop
+          npm run develop &
+          sleep 10 # Wait for server to start up
           if curl http://localhost:8000; then
             echo "URL exists: http://localhost:8000"
           else
             echo "URL does not exist: http://localhost:8000"
+            exit 1 # Fail the step if the server is not reachable
           fi
         env:
           GATSBY_TELEMETRY_DISABLED: 1
