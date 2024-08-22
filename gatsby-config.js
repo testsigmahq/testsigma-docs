@@ -15,7 +15,7 @@ module.exports = {
     FAST_DEV: true,
     PRESERVE_FILE_DOWNLOAD_CACHE: true,
     PARALLEL_SOURCING: true,
-    LMDB_STORE: true,
+    PARALLEL_QUERY_RUNNING: true,
   },
   plugins: [
     "gatsby-plugin-postcss",
