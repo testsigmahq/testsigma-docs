@@ -59,10 +59,10 @@ jobs:
       - name: Start Gatsby server
         run: |
           npm run develop &
-          if curl http://localhost:8000/___graphql; then
-            echo "URL exists: http://localhost:8000/___graphql"
+          if curl http://localhost:8000; then
+            echo "URL exists: http://localhost:8000"
           else
-            echo "URL does not exist: http://localhost:8000/___graphql"
+            echo "URL does not exist: http://localhost:8000"
           fi
         env:
           GATSBY_TELEMETRY_DISABLED: 1
