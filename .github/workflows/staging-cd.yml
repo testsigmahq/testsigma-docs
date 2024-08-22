@@ -19,6 +19,7 @@ jobs:
       - name: Install dependencies
         run: |
           rm -rf .cache node_modules
+          npm i --force --unsafe-perm
       - name: Force installing sharp
         run: npm install --ignore-scripts=false --verbose sharp@0.30.7 --unsafe-perm --force
       - name: "Create env file"
@@ -59,7 +60,7 @@ jobs:
       - name: Start Gatsby server
         run: |
           npm run clean
-          npm install --force --unsafe-perm
+          rm -rf .cache public
           npm run develop
           if curl http://localhost:8000; then
             echo "URL exists: http://localhost:8000"
