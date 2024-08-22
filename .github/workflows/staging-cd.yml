@@ -67,7 +67,7 @@ jobs:
 
       - name: Wait for Gatsby server to start
         run: |
-          sleep 10
+          sleep 20
           until $(curl --output /dev/null --silent --head --fail http://localhost:8000); do
             curl -v http://localhost:8000
             sleep 2
