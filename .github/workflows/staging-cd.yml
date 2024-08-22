@@ -60,7 +60,9 @@ jobs:
 
       - name: Start Gatsby server
         run: |
-          gatsby develop
+          npm run clean
+          npm install --force --unsafe-perm
+          npm run develop
           if curl http://localhost:8000; then
             echo "URL exists: http://localhost:8000"
           else
