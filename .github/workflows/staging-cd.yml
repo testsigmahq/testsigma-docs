@@ -59,7 +59,7 @@ jobs:
       - name: Start Gatsby server
         run: |
           npm run develop &
-          if curl --output /dev/null --silent --head --fail http://localhost:8000/___graphql; then
+          if curl http://localhost:8000/___graphql; then
             echo "URL exists: http://localhost:8000/___graphql"
           else
             echo "URL does not exist: http://localhost:8000/___graphql"
