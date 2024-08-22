@@ -19,8 +19,6 @@ jobs:
       - name: Install dependencies
         run: |
           rm -rf .cache node_modules
-          npm run clean
-          npm install --force --unsafe-perm
       - name: Force installing sharp
         run: npm install --ignore-scripts=false --verbose sharp@0.30.7 --unsafe-perm --force
       - name: "Create env file"
