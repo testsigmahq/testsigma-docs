@@ -58,7 +58,7 @@ jobs:
 
       - name: Start Gatsby server
         run: |
-          npm run develop &
+          npm run clean && npm run develop &
           if curl http://localhost:8000; then
             echo "URL exists: http://localhost:8000"
           else
