@@ -12,10 +12,10 @@ jobs:
       - name: Install libvips
         run: sudo apt-get install libvips
       - uses: actions/checkout@v2
-      - name: Setup Node 18
+      - name: Setup Node 16
         uses: actions/setup-node@v2
         with:
-          node-version: '18'
+          node-version: '16'
       - name: Install dependencies
         run: |
           npm i --force --unsafe-perm
@@ -71,7 +71,7 @@ jobs:
         run: |
           sleep 10
           until $(curl --output /dev/null --silent --head --fail http://localhost:8000); do
-            curl http://localhost:8000
+            curl -v http://localhost:8000
             sleep 2
           done
 
