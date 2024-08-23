@@ -72,6 +72,8 @@ jobs:
             curl -v http://localhost:8000
             sleep 2
           done
+          sleep 300
+          curl -v http://localhost:8000
 
       - name: Run indexing script
         run: npm run index
