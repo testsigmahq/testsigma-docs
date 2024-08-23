@@ -71,6 +71,7 @@ jobs:
           until $(curl --output /dev/null --silent --head --fail http://localhost:8000); do
           sleep 1
           done
+          curl -v http://localhost:8000/___graphql
           npm run index
         env:
           TYPESENSE_HOST: ${{ secrets.WEBSITE_STAGING_TYPESENSE_HOST }}
