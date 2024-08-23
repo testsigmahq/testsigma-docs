@@ -71,8 +71,9 @@ jobs:
           until $(curl --output /dev/null --silent --head --fail http://localhost:8000); do
           sleep 1
           done
-          curl -v http://localhost:8000/___graphql
-          npm run index
+
+      - name: Run indexing script
+        run: npm run index
         env:
           TYPESENSE_HOST: ${{ secrets.WEBSITE_STAGING_TYPESENSE_HOST }}
           TYPESENSE_PORT: ${{ secrets.WEBSITE_STAGING_TYPESENSE_PORT }}
@@ -80,16 +81,6 @@ jobs:
           TYPESENSE_COLLECTION: ${{ secrets.WEBSITE_STAGING_TYPESENSE_COLLECTION }}
           TYPESENSE_API_KEY: ${{ secrets.WEBSITE_STAGING_TYPESENSE_API_KEY }}
           TYPESENSE_SEARCH_API_KEY: ${{ secrets.WEBSITE_STAGING_TYPESENSE_SEARCH_API_KEY }}
-
-      # - name: Run indexing script
-      #   run: npm run index
-      #   env:
-      #     TYPESENSE_HOST: ${{ secrets.WEBSITE_STAGING_TYPESENSE_HOST }}
-      #     TYPESENSE_PORT: ${{ secrets.WEBSITE_STAGING_TYPESENSE_PORT }}
-      #     TYPESENSE_PROTOCOL: ${{ secrets.WEBSITE_STAGING_TYPESENSE_PROTOCOL }}
-      #     TYPESENSE_COLLECTION: ${{ secrets.WEBSITE_STAGING_TYPESENSE_COLLECTION }}
-      #     TYPESENSE_API_KEY: ${{ secrets.WEBSITE_STAGING_TYPESENSE_API_KEY }}
-      #     TYPESENSE_SEARCH_API_KEY: ${{ secrets.WEBSITE_STAGING_TYPESENSE_SEARCH_API_KEY }}
 
       - name: Stop Gatsby server
         run: lsof -i :8000 -t | xargs kill

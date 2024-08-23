@@ -1,7 +1,7 @@
-require('dotenv').config({
+require("dotenv").config({
   path: `.env`,
 });
-const Typesense = require('typesense');
+const Typesense = require("typesense");
 const { request } = require("graphql-request");
 
 const pageQuery = `
@@ -39,13 +39,13 @@ const pageQuery = `
 function pageToTypesenseRecord({ node }) {
   const { id, frontmatter, fields = {}, headings = [], ...rest } = node;
 
-  const formattedHeadings = headings.map(h => h.value || '').filter(Boolean);
+  const formattedHeadings = headings.map((h) => h.value || "").filter(Boolean);
   return {
     objectID: id,
-    title: frontmatter.title || '',
-    search_keyword: String(frontmatter.search_keyword || ''),
-    slug: fields.slug || '',
-    excerpt: frontmatter.excerpt || '',
+    title: frontmatter.title || "",
+    search_keyword: String(frontmatter.search_keyword || ""),
+    slug: fields.slug || "",
+    excerpt: frontmatter.excerpt || "",
     headings: formattedHeadings,
     ...rest,
   };
@@ -64,7 +64,6 @@ async function indexData() {
       apiKey: process.env.TYPESENSE_API_KEY,
     });
 
-
     let collectionExists = false;
     try {
       await client.collections(process.env.TYPESENSE_COLLECTION).retrieve();
@@ -77,42 +76,51 @@ async function indexData() {
 
     if (collectionExists) {
       await client.collections(process.env.TYPESENSE_COLLECTION).delete();
-      console.log(`Collection ${process.env.TYPESENSE_COLLECTION} deleted successfully.`);
+      console.log(
+        `Collection ${process.env.TYPESENSE_COLLECTION} deleted successfully.`
+      );
     }
 
     await client.collections().create({
       name: process.env.TYPESENSE_COLLECTION,
       fields: [
-        { name: 'objectID', type: 'string' },
-        { name: 'title', type: 'string' },
-        { name: 'search_keyword', type: 'string' },
-        { name: 'slug', type: 'string' },
-        { name: 'excerpt', type: 'string' },
-        { name: 'headings', type: 'string[]', facet: false }
-      ]
+        { name: "objectID", type: "string" },
+        { name: "title", type: "string" },
+        { name: "search_keyword", type: "string" },
+        { name: "slug", type: "string" },
+        { name: "excerpt", type: "string" },
+        { name: "headings", type: "string[]", facet: false },
+      ],
     });
-    console.log(`Collection ${process.env.TYPESENSE_COLLECTION} created successfully.`);
+    console.log(
+      `Collection ${process.env.TYPESENSE_COLLECTION} created successfully.`
+    );
 
-    const response = await request('http://localhost:8000/___graphql', pageQuery);
-    console.log('response', response);
+    const response = await request(
+      "http://127.0.0.1:8000/___graphql",
+      pageQuery
+    );
+    console.log("response", response);
     const data = await response;
 
     const records = data.docs.edges.map(pageToTypesenseRecord);
 
-    await client.collections(process.env.TYPESENSE_COLLECTION).documents().import(records).then((typesenseResponse) => {
-      // check the output of the response in the console
-      console.log('typesenseResponse', typesenseResponse);
-      console.log(
-        `🎉 Successfully indexed records to Typesense search.`
-      );
-    })
-    .catch((error) => {
-      console.error(error);
-    });
+    await client
+      .collections(process.env.TYPESENSE_COLLECTION)
+      .documents()
+      .import(records)
+      .then((typesenseResponse) => {
+        // check the output of the response in the console
+        console.log("typesenseResponse", typesenseResponse);
+        console.log(`🎉 Successfully indexed records to Typesense search.`);
+      })
+      .catch((error) => {
+        console.error(error);
+      });
 
-    console.log('Indexing complete!');
+    console.log("Indexing complete!");
   } catch (error) {
-    console.error('Indexing error:', error);
+    console.error("Indexing error:", error);
   }
 }
 
