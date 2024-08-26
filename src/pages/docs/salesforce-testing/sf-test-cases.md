@@ -70,24 +70,28 @@ Here, we can choose a connection or create a connection by clicking on **Add Con
 2. Use the NLP, **Switch to *Application*** and replace application from the dropdown. 
 ![Sales](https://s3.amazonaws.com/static-docs.testsigma.com/new_images/projects/applications/sftcsapp.png)
 
-3. Use the NLP, **Create record using *Salesforce Connection* in *Salesforce Object Form* and store *RECORD_ID* in variable *test data***.
-![API Step](https://s3.amazonaws.com/static-docs.testsigma.com/new_images/projects/applications/sftsflr.png)
+3. Use the NLP, **Create record using *Salesforce Connection* in *Salesforce Object* Form and store *RECORD_ID* in variable test data**. This is an API step.
+![API Step](https://s3.amazonaws.com/static-docs.testsigma.com/new_images/projects/applications/Choose_SalesforceConnection.png)
+   - Click **Salesforce Connection** and choose the available connection from the dropdown menu. 
+    ![Salesforce Connection](https://s3.amazonaws.com/static-docs.testsigma.com/new_images/projects/applications/Choose_SF_Connection.png)
 
-   This is API Step where we create a **Lead** record using **Salesforce Connection** in **Lead** and store the record ID in a **Variable**. We will use this variable to open the editing form with the **record ID**.
+   - Click **Salesforce Object Form**. This will open **Create record using API** overlay. 
+    ![API Overlay](https://s3.amazonaws.com/static-docs.testsigma.com/new_images/projects/applications/API_Overlay_SF.png)
 
-4. Use the NLP, **Open edit form for record with *Record ID* on *Salesforce Object***.
-Here, we open the edit form with the record ID stored in the variable in the previous step. 
-![Edit Form](https://s3.amazonaws.com/static-docs.testsigma.com/new_images/projects/applications/sfofwrtvold.png)
+   - Choose the object form **Select object** dropdown menu. Alternatively, you can also search & choose the **Object Form**. This will open the form where we need to enter the details.
+    ![Object Form](https://s3.amazonaws.com/static-docs.testsigma.com/new_images/projects/applications/Objects_Dropdown_SF.png)
+
+   - The form populates for the selected object. Enter data in the fields and click **Save**. Only the selected fields are sent in the API request. 
+    ![Save Form](https://s3.amazonaws.com/static-docs.testsigma.com/new_images/projects/applications/Save_Details_SFAPI.png)
+    
+   - Store the **Record ID** in a variable, which we’ll call **Lead Records** here. We can use this variable in the next test step to edit a record or across any test cases.
+    ![Lead Records](https://s3.amazonaws.com/static-docs.testsigma.com/new_images/projects/applications/LeadRecord_SF.png)
+
+4. Use the NLP, **Open the edit form for the record with the *Record ID* on the *Salesforce Object***. Here, you open the edit form using the **$ Runtime** test data type with the **Record ID** stored in the variable from the previous step.
+![Runtime Variable](https://s3.amazonaws.com/static-docs.testsigma.com/new_images/projects/applications/Runtime_Variable_SF.png)
 
 5. Click on **Debug & Record**. This will open a Chrome window along with the test recorder. All the steps will be executed up to that point, and you can start recording UI interactions by clicking on the play icon. 
 ![Record](https://s3.amazonaws.com/static-docs.testsigma.com/new_images/projects/applications/sftcdbarec.png)
-
-    [[info | **NOTE**:]]
-    | When recording test steps through the debugger, if you switch to other organizations for which metadata is not synced, the debugger treats the application as any other web application. A warning will notify you of this, and you can continue recording test steps or elements similar to web applications by clicking **Okay, Got it**.
-    |
-    |![Warning](https://s3.amazonaws.com/static-docs.testsigma.com/new_images/projects/applications/alrtonorgswtch.png)
-
-
 
 6. Perform the actions and click on **Stop**. This will open the **End session** warning prompt. 
 ![Stop Recording](https://s3.amazonaws.com/static-docs.testsigma.com/new_images/projects/applications/sftctsdbarcscn.png)
