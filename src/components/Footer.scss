@@ -1,10 +1,10 @@
-.footer_docs{
+.footer_docs {
   margin: 2rem 0;
   @media (max-width: 576px) {
     overflow: hidden;
     top: 20px;
   }
-  hr{
+  hr {
     margin-top: 30px;
     margin-bottom: 30px;
     @media (max-width: 576px) {
@@ -12,14 +12,14 @@
       margin-bottom: 15px;
     }
   }
-  h2{
-    margin-top: 3px!important;
-    margin-bottom: 5px!important;
+  h2 {
+    margin-top: 3px !important;
+    margin-bottom: 5px !important;
     text-align: center;
-    font-weight: 700!important;
-    font-size: 22px!important;
+    font-weight: 700 !important;
+    font-size: 22px !important;
   }
-  .helpfull{
+  .helpfull {
     display: flex;
     justify-content: center;
     @media (max-width: 576px) {
@@ -27,7 +27,7 @@
       justify-content: inherit;
       text-align: center;
     }
-    .text_h2{
+    .text_h2 {
       margin-left: 0;
       margin-right: 50px;
       @media (max-width: 576px) {
@@ -52,28 +52,28 @@
       cursor: default;
       pointer-events: none;
     }
-    svg{
+    svg {
       margin-top: 8px;
       margin-right: 15px;
       margin-left: 15px;
     }
-    .yes{
+    .yes {
       margin-right: 20px;
       color: #2b58da;
-      font-size: 22px!important;
+      font-size: 22px !important;
     }
   }
 }
 
-.flex_item{
+.flex_item {
   flex-grow: 1;
   flex-shrink: 1;
   flex-basis: 0;
 }
 
-.footer_greenbox{
+.footer_greenbox {
   margin-top: 3.5rem;
-  background-color: #CDF0EA;
+  background-color: #cdf0ea;
   margin-bottom: 20px;
   display: -webkit-box;
   display: -moz-box;
@@ -87,7 +87,7 @@
     display: block;
     padding: 18px;
   }
-  .green_text{
+  .green_text {
     font-size: 18px;
     line-height: 26px;
     font-weight: bold;
@@ -96,28 +96,28 @@
     margin-top: 3px;
     margin-bottom: 0px;
   }
-  .flex_item{
+  .flex_item {
     width: 60%;
     max-width: 60%;
     margin: auto;
-    @media only screen and (max-width: 767px){
+    @media only screen and (max-width: 767px) {
       width: 100%;
       max-width: 100%;
     }
   }
-  .btn_width{
+  .btn_width {
     max-width: 30%;
     @media (max-width: 576px) {
       max-width: 100%;
     }
-    button{
-      color: #FFF;
+    button {
+      color: #fff;
       margin-top: 11px;
       margin-left: 0px;
       position: relative;
       right: 15px;
-      background: #03A973 !important;
-      border: 1px solid #03A973 !important;
+      background: #03a973 !important;
+      border: 1px solid #03a973 !important;
       min-width: 150px;
       height: 40px;
       border-radius: 4px;
@@ -151,7 +151,7 @@
     margin: 2px 0 !important;
   }
   .email-error {
-    color: #ED4B48;
+    color: #ed4b48;
   }
   .subscribe-success {
     display: flex;
@@ -159,21 +159,21 @@
     flex-basis: 40%;
     align-items: center;
     h4 {
-      color: #03A973;
+      color: #03a973;
     }
   }
 }
-#hubspot-form-wrapper{
+#hubspot-form-wrapper {
   padding: 1rem 0;
   padding-left: 1rem;
   @media only screen and (max-width: 767px) {
     padding-left: 0;
   }
-  fieldset{
-    .hs-form-field{
+  fieldset {
+    .hs-form-field {
       padding: 0.7rem 0;
-      label{
-        span{
+      label {
+        span {
           height: 18px;
           color: #666779;
           font-size: 16px;
@@ -184,20 +184,20 @@
           line-height: 18px;
           text-align: center;
         }
-        .hs-form-required{
-          color: #FE6B6B;
+        .hs-form-required {
+          color: #fe6b6b;
         }
       }
-      .input{
+      .input {
         @media only screen and (max-width: 767px) {
           margin: 0;
         }
-        input{
+        input {
           box-sizing: border-box;
           height: 44px;
-          border: 1px solid #EEEEEE;
+          border: 1px solid #eeeeee;
           border-radius: 3px;
-          background-color: #FFF;
+          background-color: #fff;
           box-shadow: 0px 2px 3px 0px rgba(0, 0, 0, 0.03);
           width: 100%;
           @media only screen and (max-width: 767px) {
@@ -208,17 +208,17 @@
       }
     }
   }
-  .hs_recaptcha{
+  .hs_recaptcha {
     display: none;
   }
-  .hs_submit{
-    .actions{
-      input[type="submit"]{
-        color: #FFF;
+  .hs_submit {
+    .actions {
+      input[type="submit"] {
+        color: #fff;
         margin-top: 11px;
         margin-left: 0px;
-        background: #03A973 !important;
-        border: 1px solid #03A973 !important;
+        background: #03a973 !important;
+        border: 1px solid #03a973 !important;
         max-width: 100%;
         width: 97%;
         height: 40px;
@@ -247,19 +247,19 @@
   }
 }
 
-.footer_greyBox{
+.footer_greyBox {
   margin-top: 30px;
-  background-color: #F6F7F9;
+  background-color: #f6f7f9;
   padding: 30px 15px 15px 15px;
-  svg{
+  svg {
     margin: auto;
     display: block;
   }
-  p{
+  p {
     font-weight: 300;
     text-align: center;
   }
-  .p_flex{
+  .p_flex {
     display: flex;
     justify-content: center;
     width: 100%;
@@ -268,34 +268,34 @@
       margin-left: 0;
       margin-bottom: 20px;
     }
-    p{
+    p {
       line-height: 12px;
       padding: 0px 10px;
       height: 15px;
       @media (max-width: 576px) {
         height: auto;
       }
-      a{
-        color: #03A973;
+      a {
+        color: #03a973;
         text-decoration: underline;
       }
     }
-    .right_border{
+    .right_border {
       border-right: 2px solid #000;
     }
   }
-  .p_0{
-    margin-top: 0px!important;
-    a{
-      color: #03A973;
+  .p_0 {
+    margin-top: 0px !important;
+    a {
+      color: #03a973;
     }
   }
-  .link_underline{
+  .link_underline {
     text-decoration: underline;
   }
 }
 
-.footer_text{
+.footer_text {
   display: -webkit-box;
   display: -moz-box;
   display: -ms-flexbox;
@@ -306,27 +306,24 @@
   @media (max-width: 576px) {
     margin-bottom: 15px;
   }
-  p{
-    a{
+  p {
+    a {
       font-size: 12px;
-      color: #7F7F7F;
+      color: #7f7f7f;
       text-align: initial;
     }
-    font-size: 12px;
-    color: #7F7F7F;
-    text-align: initial;
   }
-  .text_end{
-    text-align: end!important;
+  .text_end {
+    text-align: end !important;
   }
 }
-.footer-cta{
-  background-color: #EFEFEF;
+.footer-cta {
+  background-color: #efefef;
   padding: 2rem 3rem;
   @media only screen and (max-width: 767px) {
     padding: 2rem;
   }
-  .cta-heading{
+  .cta-heading {
     flex: 0 0 70%;
     font-size: 24px !important;
     line-height: 38px !important;
@@ -336,7 +333,7 @@
       padding: 0 0 2rem;
     }
   }
-  .cta-link{
+  .cta-link {
     font-weight: 600;
     font-size: 18px;
     height: fit-content;
