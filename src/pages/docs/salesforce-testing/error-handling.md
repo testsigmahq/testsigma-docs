@@ -99,12 +99,21 @@ When you select **Metadata Refresh**, Testsigma downloads the metadata from your
 To resolve this, you need to:
 
 - **Disable** the step associated with the deprecated element.
+  
+  ![Disable Element](https://s3.amazonaws.com/static-docs.testsigma.com/new_images/projects/applications/Disable_Deprecated_Element.png)
 
 - Create a new element in the same context and replace the deprecated one by using the **Change Element** option.
 
-   ![Disable/Review](https://s3.amazonaws.com/static-docs.testsigma.com/new_images/projects/applications/ehvoeelement.png)
+   ![Change Elemennt](https://s3.amazonaws.com/static-docs.testsigma.com/new_images/projects/applications/Change_Deprecated_Element.png)
 
 This ensures that tests continue to execute without issues.
+
+<br>
+
+Here's a quick GIF demonstrating how to resolve this error.  
+
+![Resolving deprecated element error](https://s3.amazonaws.com/static-docs.testsigma.com/new_images/projects/applications/DeprecartedFlowSF.gif)
+
 
 *For more information on creating elements for Salesforce apps, see [Creating Elements While Creating Test Steps](https://testsigma.com/docs/salesforce-testing/element-repos/#creating-elements-while-creating-test-steps).*
 
