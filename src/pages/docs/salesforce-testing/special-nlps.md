@@ -18,6 +18,54 @@ contextual_links:
 - type: link
   name: "Using API NLP Test Steps"
   url: "#using-api-nlp-test-steps"
+- type: link
+  name: "NLP 1:"
+  url: "#nlp-1"
+- type: link
+  name: "NLP 2:"
+  url: "#nlp-2"
+- type: link
+  name: "NLP 3:"
+  url: "#nlp-3"
+- type: link
+  name: "NLP 4:"
+  url: "#nlp-4"
+- type: link
+  name: "NLP 5:"
+  url: "#nlp-5"
+- type: link
+  name: "NLP 6:"
+  url: "#nlp-6"
+- type: link
+  name: "NLP 7:"
+  url: "#nlp-7"
+- type: link
+  name: "NLP 8:"
+  url: "#nlp-8"
+- type: link
+  name: "NLP 9:"
+  url: "#nlp-9"
+- type: link
+  name: "NLP 10:"
+  url: "#nlp-10"
+- type: link
+  name: "NLP 11:"
+  url: "#nlp-11"
+- type: link
+  name: "NLP 12:"
+  url: "#nlp-12"
+- type: link
+  name: "NLP 13:"
+  url: "#nlp-13"
+- type: link
+  name: "NLP 14:"
+  url: "#nlp-14"
+- type: link
+  name: "NLP 15:"
+  url: "#nlp-15"
+- type: link
+  name: "NLP 16:"
+  url: "#nlp-16"
 ---
 
 ---
@@ -40,7 +88,7 @@ With Testsigma's special NLPs, you can scale and enhance Salesforce Testing. The
 
 | **NLP** | **Description** |
 |----------|----------|
-| Login to **Salesforce Application** using **Salesforce Connectio**n | This NLP logs into the Salesforce instance configured in Testsigma with the selected application and user connection. <br><br> **User Inputs in NLP:** <br> 1. Salesforce Application <br> 2. Salesforce Connection |
+| Login to **Salesforce Application** using **Salesforce Connection** | This NLP logs into the Salesforce instance configured in Testsigma with the selected application and user connection. <br><br> **User Inputs in NLP:** <br> 1. Salesforce Application <br> 2. Salesforce Connection |
 | Login to Salesforce using **Salesforce Connection** | This NLP logs into the Salesforce instance configured in Testsigma with a chosen user connection. <br><br> **User Inputs in NLP:** <br>Salesforce Application <br> <br> **Note:** This is the default NLP for any test case. |
 | Switch to **Salesforce Application** | This NLP switches to the application chosen from the list. <br><br> **User Inputs in NLP:** <br> Salesforce Application |
 | Navigate to **Salesforce** tab | This NLP navigates to the chosen tab within the same Salesforce application. <br><br> **User Inputs in NLP:** <br>Salesforce Tab |
@@ -62,33 +110,212 @@ With Testsigma's special NLPs, you can scale and enhance Salesforce Testing. The
 
 ## **Using API NLP Test Steps**
 
-1. Let's say you want to automate the creation of a Salesforce Lead record.
+Let's say you want to automate the creation of a Salesforce Lead record.
+To create a lead record, navigate to the **Leads** tab, click **New**, and fill out the form with details such as the lead's name, company, contact information, and descriptions. After entering the necessary information, save the record. The lead will be available for future actions, such as follow-ups or conversion into an account, contact, or opportunity.
 
-   To create a lead record, navigate to the **Leads** tab, click **New**, and fill out the form with details such as the lead's name, company, contact information, and descriptions. After entering the necessary information, save the record. The lead will be available for future actions, such as follow-ups or conversion into an account, contact, or opportunity.
+Guess what? With Testsigma, you can perform all these actions in a single API step using the following NLP:
 
-   Guess what? With Testsigma, you can perform all these actions in a single API step using the following NLP:
+## **NLP 1:** 
 
-   ![Create Lead](https://s3.amazonaws.com/static-docs.testsigma.com/new_images/projects/applications/apinlpcl.png)
+"Create record in **Salesforce Object Form** using **Salesforce Connection** connection and store the record id in variable **test data**"
 
-   Here’s a quick GIF demonstrating how to create a Salesforce lead record.
+This NLP creates a new record for the selected **Salesforce object**.
 
-   ![Create Lead](https://s3.amazonaws.com/static-docs.testsigma.com/new_images/projects/applications/CreateAPISF.gif)
+See the GIF below demonstrating how to use this NLP.
 
-2. To edit any lead record using **RECORD_ID**, you can use the following NLP:
+![Create Lead](https://s3.amazonaws.com/static-docs.testsigma.com/new_images/projects/applications/CreateAPISF.gif)
 
-   ![Edit Lead](https://s3.amazonaws.com/static-docs.testsigma.com/new_images/projects/applications/apinlpedit.png)
+---
 
-   Here’s a quick GIF demonstrating how to edit a Salesforce lead record.
+## **NLP 2:** 
 
-   ![Edit Lead](https://s3.amazonaws.com/static-docs.testsigma.com/new_images/projects/applications/Editleadsf.gif)
+"Open the edit **Salesforce Object** form where record id is **Record ID**"
+
+This NLP opens edit form of the selected **Salesforce object** using **Record ID**.
+
+See the GIF below demonstrating how to use this NLP.
+
+![Edit Lead](https://s3.amazonaws.com/static-docs.testsigma.com/new_images/projects/applications/Editleadsf.gif)
+
+---
+
+## **NLP 3:** 
+
+"Delete record in **Salesforce Object** where record id is **test data** using **Salesforce Connection** connection"
+
+This NLP deletes a record for the selected **Salesforce object** using **Record ID**.
+
+See the GIF below demonstrating how to use this NLP.
+
+![Delete Lead](https://s3.amazonaws.com/static-docs.testsigma.com/new_images/projects/applications/deletesflead.gif)
 
 
-3. To delete any lead record using **RECORD_ID**, you can use the following NLP:
+---
 
-   ![Delete Lead](https://s3.amazonaws.com/static-docs.testsigma.com/new_images/projects/applications/appinlpdlt.png)
+## **NLP 4:** 
 
-   Here’s a quick GIF demonstrating how to delete a Salesforce lead record.
+"Login to Salesforce using **Salesforce Connection** connection"
 
-   ![Delete Lead](https://s3.amazonaws.com/static-docs.testsigma.com/new_images/projects/applications/deletesflead.gif)
+This NLP enables users to log in to Salesforce with a selected user connection.
+
+See the GIF below demonstrating how to use this NLP.
+
+![Login NLP](https://s3.amazonaws.com/static-docs.testsigma.com/new_images/projects/applications/LoginSFNLP.gif)
+
+---
+
+## **NLP 5:**
+
+"Login to **Salesforce Application** application using **Salesforce Connection** connection"
+
+This NLP allows users to log in directly to a specific **Salesforce Application** using a selected **User Connection**.
+
+For example, select **Sales** from the dropdown to log in to **Sales CRM**.
+
+See the GIF below demonstrating how to use this NLP.
+
+![Login NLP 2](https://s3.amazonaws.com/static-docs.testsigma.com/new_images/projects/applications/LoginSpecificAppNLP.gif)
+
+---
+
+## **NLP 6:**
+
+"Switch to **Salesforce Application** application"
+
+This NLP lets users switch to a specific **Salesforce Application**. Choose the application from the available options in the dropdown.
+
+For example, select the **HubSpot** application from the dropdown to switch from **Sales** to **HubSpot**.
+
+See the GIF below demonstrating how to use this NLP.
+
+![Switch NLP](https://s3.amazonaws.com/static-docs.testsigma.com/new_images/projects/applications/SwitchNLPUpdated.gif)
+
+---
+
+## **NLP 7:**
+
+"Navigate to **Salesforce** tab"
+
+This NLP navigates users to any standard tabs on the **Salesforce** platform. 
+
+See the GIF below demonstrating how to use this NLP.
+
+![Navigation NLP](https://s3.amazonaws.com/static-docs.testsigma.com/new_images/projects/applications/NavigateNLP.gif)
+
+---
+
+## **NLP 8:**
+
+"Open the **Salesforce Object** details page where record id is **Record ID**"
+
+This NLP navigates to the record details page using the **Record ID** on the selected **Salesforce object**. 
+
+For example, to open the record details page of a specific lead, use this NLP.
+
+See the GIF below demonstrating how to use this NLP.
+
+![Object Details](https://s3.amazonaws.com/static-docs.testsigma.com/new_images/projects/applications/ViewSFObject.gif)
+
+---
+
+## **NLP 9:**
+
+"Open the create **Salesforce Object** record form"
+
+This NLP opens the create new record form for the selected **Salesforce object**.
+
+For example, to create a new lead, use this NLP.
+
+See the GIF below demonstrating how to use this NLP.
+
+![New Record](https://s3.amazonaws.com/static-docs.testsigma.com/new_images/projects/applications/OpenNewObject.gif)
+
+---
+
+## **NLP 10:**
+
+"Clear and enter **test data** in the **element** field"
+
+This NLP clears the data in a specified form field and replaces it with **test data**.
+
+For example, to replace a URL in the website field of the lead details form, use this NLP.
+
+See the GIF below demonstrating how to use this NLP.
+
+![Clear & Enter](https://s3.amazonaws.com/static-docs.testsigma.com/new_images/projects/applications/ClearEnterNLPSF.gif)
+
+---
+
+## **NLP 11:**
+
+"Undo field in **element**"
+
+Use this NLP to undo changes in a specified field, restoring the previous data.
+
+For example, to replace a URL with a previous one in the website field of the lead details form, use this NLP.
+
+See the GIF below demonstrating how to use this NLP.
+
+![Undo NLP](https://s3.amazonaws.com/static-docs.testsigma.com/new_images/projects/applications/UndoFieldSF.gif)
+
+---
+
+## **NLP 12:**
+
+"Select multiple options using value **test data** in the **element** multipicklist"
+
+Use this NLP to select values in **multipicklist** into an **element**.
+
+See the GIF below demonstrating how to use this NLP.
+
+![Select Multiple Values](https://s3.amazonaws.com/static-docs.testsigma.com/new_images/projects/applications/MultiSelectRemoveNLP.gif) 
+
+---
+
+## **NLP 13:**
+
+"Remove multiple options using value **test data** in the **element** multipicklist"
+
+Use this NLP to remove multiple options from a **multipicklist** into an **element**.
+
+See the GIF below demonstrating how to use this NLP.
+
+![Remove Multiple Values](https://s3.amazonaws.com/static-docs.testsigma.com/new_images/projects/applications/MultiSelectRemoveNLP.gif)
+
+---
+
+## **NLP 14:**
+
+"Enter **test data** in the **element** richInput text box"
+
+Use this NLP to enter data in a **RichInput text box**.
+
+See the GIF below demonstrating how to use this NLP.
+
+![Rich Input](https://s3.amazonaws.com/static-docs.testsigma.com/new_images/projects/applications/RichInputsNLP.gif)
+
+---
+
+## **NLP 15:**
+
+"Search test data on element lookup"
+
+Use this NLP to select or record in a lookup field.
+
+See the GIF below demonstrating how to use this NLP.
+
+![Lookup NLP](https://s3.amazonaws.com/static-docs.testsigma.com/new_images/projects/applications/LookupNLPSF.gif)
+
+---
+
+## **NLP 16:**
+
+"Select option **test data** from **element** picklist"
+    
+Use this NLP to select an option from a picklist element.
+
+See the GIF below demonstrating how to use this NLP.
+
+![Element Picklist](https://s3.amazonaws.com/static-docs.testsigma.com/new_images/projects/applications/SinglePickNLP.gif)
 
 ---
