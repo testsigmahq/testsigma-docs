@@ -197,7 +197,7 @@ add the following parameter in a configuration file in TestsigmaAgent installati
 
 Add <kbd>wrapper.java.additional.9=-Djava.net.useSystemProxies=true</kbd> 
 at the end of *Java Additional Parameters* section in <br>
-`<INSTALLATION-FOLDER>/wrapper/conf/wrapper-service-custom.conf`
+`<INSTALLATION-FOLDER>/wrapper/conf/wrapper-script-custom.conf`
 
 - If Agent is installed using **.exe** file, \<INSTALLATION-FOLDER> is by default at <kbd>C:\Testsigma\TestsigmaAgent</kbd>.<br>
 

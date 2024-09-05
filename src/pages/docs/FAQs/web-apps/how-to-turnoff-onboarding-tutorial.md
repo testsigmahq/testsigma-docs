@@ -1,5 +1,5 @@
 ---
-title: "How to turnoff onboading tutorial?"
+title: "How to Turnoff Onboading Tutorial?"
 metadesc: "Tutorials help users understand how to get started with automation in Testsigma. This article discusses how to turn off onboarding tutorials"
 noindex: false
 order: 24.13
@@ -9,18 +9,25 @@ contextual_links:
 - type: section
   name: "Contents"
 - type: link
-  name: "Steps to turn off the onboarding tutorial"
+  name: "Steps to Turn Off the Onboarding Tutorial"
   url: "#steps-to-turn-off-the-onboarding-tutorial"
 ---
-<br>
-<br>
-Testsigma displays informative tutorials while onboarding new users. By default onboarding tutorial is enabled for all accounts. These tutorials help users understand how to get started with automation in our application. The following article discusses how to turn off Onboarding Tutorial for logged in user.
-<br>
 
-<br> 
 
-## **Steps to turn off the onboarding tutorial**
-1. Navigate to **Settings > Preferences**.
-![Navigate to Preferences](https://s3.amazonaws.com/static-docs.testsigma.com/new_images/projects/applications/pref_button.png)
-2. Click on the toggle button to diable onboarding tutorial.
-![Onboarding Tutorial RB](https://s3.amazonaws.com/static-docs.testsigma.com/new_images/projects/applications/obnav.png)
+---
+
+Testsigma displays informative tutorials while onboarding new users. By default, the onboarding tutorial is enabled for all accounts. These tutorials help users understand how to get started with Testsigma. This article discusses how to turn off the onboarding tutorial for logged-in users.
+
+---
+
+## **Steps to Turn Off the Onboarding Tutorial**
+
+1. From the left navigation bar, go to to **Settings > Preferences**.
+   
+   ![Navigate to Preferences](https://s3.amazonaws.com/static-docs.testsigma.com/new_images/projects/applications/Pref_Button_OT.png)
+
+2. Disable the toggle on **Disable Onboarding Tutorials**.
+   
+   ![Onboarding Tutorial Toggle](https://s3.amazonaws.com/static-docs.testsigma.com/new_images/projects/applications/DisableToggle_OT.png)
+
+---
