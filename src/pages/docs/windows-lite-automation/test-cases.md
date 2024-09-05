@@ -3,7 +3,7 @@ title: "Test Cases for Windows (Lite) Automation"
 page_title: "Test Cases for Windows Automation"
 metadesc: "With Testsigma, you can create & execute tests for Windows Applications using Testsigma Agent | Learn how to build tests for Windows Automation"
 noindex: false
-order: 28.4
+order: 29.4
 page_id: "Test Cases for Windows Automation"
 warning: false
 contextual_links:

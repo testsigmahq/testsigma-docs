@@ -1,0 +1,105 @@
+---
+title: "Accessibility Testing with Testsigma"
+page_title: "Accessibility Testing"
+metadesc: "A connected app is important to link external applications & the Salesforce ecosystem. This article discusses how to create a connected app in Salesforce."
+noindex: false
+order: 27.1
+page_id: "Accessibility Testing Automation with Testsigma"
+warning: false
+contextual_links:
+- type: section
+  name: "Contents"
+- type: link
+  name: "Prerequisites"
+  url: "#prerequisites"
+- type: link
+  name: "Steps to Enable Accessibility Testing in Test Plans"
+  url: "#Steps to Enable Accessibility Testing in Test Plans"
+- type: link
+  name: "Fetch Consumer Details"
+  url: "#fetch-consumer-details"
+---
+
+
+---
+
+With Testsigma, you can easily implement accessibility testing to comply with accessibility guidelines. This helps you test and monitor the accessibility of your websites and applications, to enhance the user experience for people with disabilities. This article discusses how to perform Accessibility Testing in Testsigma.
+
+---
+
+
+> ## **Prerequisites**
+>
+> Before you proceed, ensure you understand the concepts of creating a [Test Plan](https://testsigma.com/docs/test-management/test-plans/overview/), [Test Suite](https://testsigma.com/docs/test-management/test-suites/overview/), and [Test Machine](https://testsigma.com/docs/test-management/test-plans/manage-test-machines/).
+
+---
+
+## **Steps to Enable Accessibility Testing in Test Plans**
+
+1. While creating a test plan, turn on the **Accessibility Testing** toggle in **Additional Settings**.
+
+
+2. To execute the test plan, click the **Run Now** button.
+
+
+3. After the test plan execution completes, click **View Reports** for that test plan.
+
+---
+
+
+## **Interacting with Accessibility Report**
+
+### **Top Bar**
+
+- **Title**: Displays the title of the report (e.g., Accessibility Demo).
+
+- **Run Information**: Indicates the specific test run ID (e.g., Run - 45).
+
+- **Compliance Standard**: Shows the accessibility standards considered for the test (Here, we have used WCAG 2.1 AA).
+
+---
+
+### **Test URL Dropdown**
+
+- This dropdown helps you filter the report by specific URLs that have tested for accessibility compliance. 
+
+   [[info | **NOTE**:]]
+   | By default, all URLs are selected, but you can choose a specific URL from the dropdown to focus on issues with one URL at a time.
+
+---
+
+### **Issue Overview**
+
+- **Total Issues**: The Donut Chart displays the total number of issues detected during the test. Depending on severity, issues are categorized as Critical, Serious, Moderate, and Minor. 
+
+- **Issues by Category**: This categorization provides users insights into specific accessibility challenges that were identified with a horizontal progress bar showing the number of issues under that category.
+
+---
+
+### **Violations/Review Tabs**
+
+- **Violations**: This lists all accessibility issues that need immediate action.
+
+- **Review Required**: This lists all accessibility issues that need manual review. Although Testsigma has identified these issues, we recommend a closer review for accuracy.
+
+[[info | **NOTE**:]]
+| The issues are color-coded with labels to indicate their severity level. You can also filter the issues based on severity and category. 
+
+---
+
+### **Issue Navigation Panel**
+
+- **Pagination Controls**: Provides navigation between the individual issues of specific issues selected under Violations and Review Tabs.
+
+- **Next/Previous Buttons**: Allows users to scroll through the list of identified issues.
+
+- **Issue Details**: This section briefly explains the detected issue with the affected **URL**, **page**, **element details**, and **screenshots**. 
+
+<br>
+
+Here's a quick GIF demonstrating how to enable the Accessibility Testing in Testsigma. 
+
+![Accessibility Testing](https://s3.amazonaws.com/static-docs.testsigma.com/new_images/projects/applications/AccessibilityTesting.gif)
+
+
+---

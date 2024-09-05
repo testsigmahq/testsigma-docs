@@ -3,7 +3,7 @@ title: "Creating a Connected App"
 page_title: "Create a Connected App"
 metadesc: "A connected app is important to link external applications & the Salesforce ecosystem. This article discusses how to create a connected app in Salesforce."
 noindex: false
-order: 27.2
+order: 28.2
 page_id: "Create Connected Application"
 warning: false
 contextual_links:

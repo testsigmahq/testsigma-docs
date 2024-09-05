@@ -3,7 +3,7 @@ title: "Intro: Testsigma for Salesforce Testing"
 page_title: "Introduction: Testsigma for Salesforce Test Automation"
 metadesc: "Salesforce Testing with Testsigma helps reduce average test authoring time by 50%, and test case execution will be 2X faster with a user-friendly interface"
 noindex: false
-order: 27.1
+order: 28.1
 page_id: "Testsigma for Salesforce Test Automation"
 warning: false
 contextual_links:
