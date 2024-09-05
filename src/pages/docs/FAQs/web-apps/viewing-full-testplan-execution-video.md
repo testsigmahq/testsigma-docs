@@ -1,5 +1,5 @@
 ---
-title: "Why Complete Video of the Test Plan is Unavailable in Some Cases?"
+title: "Why Is a Single Video for All Test Cases in a Test Plan Unavailable in Some Cases?"
 pagetitle: "Full Test Plan Execution Video: Steps to Access and View"
 metadesc: "Viewing the full video of the test plan execution is easy. Re-run your test plan with the reset session disabled to see the complete execution video."
 noindex: false
@@ -19,6 +19,7 @@ contextual_links:
 ---
 
 ---
+
 
 When you enable the **Reset session for every test case** option in **Parallel Settings**, Testsigma assigns a fresh machine to execute the next queued test case. This process continues until all test case executions are complete. In this case, the complete video of the test plan is unavailable. To capture a single video of the entire test plan execution, you need to disable **Reset session for every test case** option.
 
@@ -41,5 +42,8 @@ When you enable the **Reset session for every test case** option in **Parallel S
 4. Uncheck this box to disable the reset session for all test cases. 
 
 5. Click **Create** or **Update Profile** to save your changes. ![disable reset session for test machine](https://s3.amazonaws.com/static-docs.testsigma.com/new_images/projects/applications/disabling_reset_session_for_machine.gif)
+
+6. You can now watch the complete video for each test suite under **Run Results > Test Suite > Watch Video**.
+   ![Watch Video](https://s3.amazonaws.com/static-docs.testsigma.com/new_images/projects/applications/WatchVideo_TestSuiteLevel.png)
 
 ---

@@ -96,6 +96,11 @@ When you conduct visual testing using Testsigma, you should compare the **curren
 
 ## **Optimizing Visual Testing with Ignore Sections**
 
+[[info | NOTE:]]
+| Ignoring specific sections will exclude dynamic elements from the comparison process, which reduces false positives from content such as ads, timestamps, or user-specific data. This ensures that only meaningful changes are flagged for review. 
+
+### **Steps to Configure Ignore Sections for Visual Testing**
+
 1. Click **Ad-hoc Runs** in the right navigation bar, then click **View Details** to open the test case result page. 
    ![view test case result details page](https://s3.amazonaws.com/static-docs.testsigma.com/new_images/projects/applications/view_details_test_case_result.png)
 
@@ -107,9 +112,6 @@ When you conduct visual testing using Testsigma, you should compare the **curren
 4. You can resize or move the ignored area by selecting **Resize/Move Ignored Regions** and adjusting the selected region on the screen as needed.
 
 5. Review the regions you marked as ignored and click **Save**. 
-
-[[info | NOTE:]]
-| Ignoring specific sections will exclude dynamic elements from the comparison process, which reduces false positives from content such as ads, timestamps, or user-specific data. This ensures that only meaningful changes are flagged for review. 
 
 
 ---
