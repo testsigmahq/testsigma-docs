@@ -18,6 +18,9 @@ contextual_links:
 - type: link
   name: "Steps to Resolve Errors in Test Case"
   url: "#steps-to-resolve-errors-in-test-case"
+- type: link
+  name: "Handling Deprecated Elements"
+  url: "#handling-deprecated-elements"
 ---
 
 ---
@@ -30,6 +33,8 @@ On metadata refresh, Testsigma identifies potential causes of test case failures
 > ## **Prerequisites**
 > 
 > - A Salesforce connected app. For more information, refer to [creating a connected app](https://testsigma.com/docs/salesforce-testing/connected-app/).
+>
+> - Salesforce metadata connected to Testsigma. For more information, refer to [creating metadata connections](https://testsigma.com/docs/salesforce-testing/metadata-connections/).
 > 
 > - You should know how to [refresh metadata](https://testsigma.com/docs/salesforce-testing/metadata-connections/#steps-to-refresh-metadata-connection).
 
@@ -75,14 +80,41 @@ On metadata refresh, Testsigma identifies potential causes of test case failures
    ![Element Details](https://s3.amazonaws.com/static-docs.testsigma.com/new_images/projects/applications/ehelemerroverl.png)
 
 5. To resolve the error, replace them with new elements or disable/remove the test step as needed.
-  
-   ![Disable/Review](https://s3.amazonaws.com/static-docs.testsigma.com/new_images/projects/applications/ehvoeelement.png)
+
 
 [[info | **NOTE**:]]
 | This feature is also available at the **Step Group** level. 
 
+
 Here's a quick GIF demonstrating how to check errors due to metadata refresh in Testsigma. 
 
 ![View Errors](https://s3.amazonaws.com/static-docs.testsigma.com/new_images/projects/applications/Errorhandling.gif)
+
+---
+
+## **Handling Deprecated Elements**
+
+When you select **Metadata Refresh**, Testsigma downloads the metadata from your organization and identifies any fields that are no longer available due to customization.
+
+To resolve this, you need to:
+
+- **Disable** the step associated with the deprecated element.
+  
+  ![Disable Element](https://s3.amazonaws.com/static-docs.testsigma.com/new_images/projects/applications/Disable_Deprecated_Element.png)
+
+- Create a new element in the same context and replace the deprecated one by using the **Change Element** option.
+
+   ![Change Elemennt](https://s3.amazonaws.com/static-docs.testsigma.com/new_images/projects/applications/Change_Deprecated_Element.png)
+
+This ensures that tests continue to execute without issues.
+
+<br>
+
+Here's a quick GIF demonstrating how to resolve this error.  
+
+![Resolving deprecated element error](https://s3.amazonaws.com/static-docs.testsigma.com/new_images/projects/applications/DeprecartedFlowSF.gif)
+
+
+*For more information on creating elements for Salesforce apps, see [Creating Elements While Creating Test Steps](https://testsigma.com/docs/salesforce-testing/element-repos/#creating-elements-while-creating-test-steps).*
 
 ---

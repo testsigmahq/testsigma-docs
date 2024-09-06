@@ -10,6 +10,9 @@ contextual_links:
 - type: section
   name: "Contents"
 - type: link
+  name: "Prerequisites"
+  url: "#prerequisites"
+- type: link
   name: "Enable Visual Testing in Test Steps"
   url: "#enable-visual-testing-in-test-steps"
 - type: link
@@ -20,7 +23,10 @@ contextual_links:
   url: "#mark-baseline-image" 
 - type: link
   name: "Perform Visual Testing in Test Case"
-  url: "#perform-visual-testing-in-test-case"  
+  url: "#perform-visual-testing-in-test-case"
+- type: link
+  name: "Optimizing Visual Testing with Ignore Sections"
+  url: "#optimizing-visual-testing-with-ignore-sections"    
 - type: link
   name: "Benefits of Visual Testing"
   url: "#benefits-of-visual-testing"    
@@ -32,7 +38,7 @@ Testsigma allows you to check your app's appearance during tests using its Visua
 
 ---
 
-### **Prerequisites**
+## **Prerequisites**
 
 Before using Visual Testing, you must understand specific concepts such as creating [Projects](https://testsigma.com/docs/projects/overview/), [Test Cases](https://testsigma.com/docs/test-cases/manage/add-edit-delete/), [Test Steps](https://testsigma.com/docs/test-cases/create-steps-nl/overview/), utilising [Test Step Options](https://testsigma.com/docs/test-cases/create-steps-nl/step-settings/), [Ad-hoc Run](https://testsigma.com/docs/runs/adhoc-runs/), and [Test Case - Advanced Options](https://testsigma.com/docs/test-cases/manage/add-edit-delete/#test-case----advanced-options).
 
@@ -75,7 +81,7 @@ When you conduct visual testing using Testsigma, you should compare the **curren
    - **Merge base image and current image**: Combine the original and current images for comparison.
    - **Zoom in** and **Zoom out**: Enlarge or reduce the view for closer inspection.
 
-![Mark Baseline image](https://s3.amazonaws.com/static-docs.testsigma.com/new_images/projects/applications/markbaselineimage_visualt.gif)
+      ![Mark Baseline image](https://s3.amazonaws.com/static-docs.testsigma.com/new_images/projects/applications/markbaselineimage_visualt.gif)
 
 6. Next time you run the test case, you will compare the visuals from future runs with the new base image.
 
@@ -85,6 +91,28 @@ When you conduct visual testing using Testsigma, you should compare the **curren
 
 1. Follow the steps in the above section to Enable Visual Testing in Test Steps using [Test Step Options](https://testsigma.com/docs/visual-testing/configure-test-steps/#enable-visual-testing-in-test-steps) or [Update Settings](https://testsigma.com/docs/visual-testing/configure-test-steps/#bulk-action-for-visual-testing-steps). [Mark the Baseline Image](https://testsigma.com/docs/visual-testing/configure-test-steps/#bulk-action-for-visual-testing-steps) and run the test case to identify visual differences in the UI.
 2. Click on **Test Case Settings** in the right-side navbar and enable the **Fail Test Case if Visual Testing Fails** toggle to automatically mark a test case as failed if it detects visual differences during execution. ![Perform Visual Testing](https://s3.amazonaws.com/static-docs.testsigma.com/new_images/projects/applications/perform_visualtesting.gif)
+
+---
+
+## **Optimizing Visual Testing with Ignore Sections**
+
+[[info | NOTE:]]
+| Ignoring specific sections will exclude dynamic elements from the comparison process, which reduces false positives from content such as ads, timestamps, or user-specific data. This ensures that only meaningful changes are flagged for review. 
+
+### **Steps to Configure Ignore Sections for Visual Testing**
+
+1. Click **Ad-hoc Runs** in the right navigation bar, then click **View Details** to open the test case result page. 
+   ![view test case result details page](https://s3.amazonaws.com/static-docs.testsigma.com/new_images/projects/applications/view_details_test_case_result.png)
+
+2. Click the **Camera** icon to open the **Visual Difference** overlay screen.
+
+3. Select **Select region to ignore from visual comparison** and choose the areas you want to exclude from the visual comparison. 
+   ![highlight the region to igonre](https://s3.amazonaws.com/static-docs.testsigma.com/new_images/projects/applications/select_ignore_region_from_visual_comparison.gif)
+
+4. You can resize or move the ignored area by selecting **Resize/Move Ignored Regions** and adjusting the selected region on the screen as needed.
+
+5. Review the regions you marked as ignored and click **Save**. 
+
 
 ---
 

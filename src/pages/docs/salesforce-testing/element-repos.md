@@ -15,6 +15,12 @@ contextual_links:
 - type: link
   name: "Steps to Check Element Repositories"
   url: "#steps-to-check-element-repositories"
+- type: link
+  name: "Creating Elements While Creating Test Steps"
+  url: "#creating-elements-while-creating-test-steps"
+- type: link
+  name: "Verifying Pre-learnt Salesforce Elements"
+  url: "#verifying-pre-learnt-salesforce-elements"
 ---
 
 ---
@@ -52,8 +58,37 @@ In Testsigma, elements from Salesforce are automatically learned after successfu
 [[info | **NOTE**:]]
 | Since the elements are auto-learned, you can't edit them.
 
-4. You can also create the element manually by clicking on **Create Element**. 
 
-ℹ️   For more information, refer to [creating elements manually](https://testsigma.com/docs/elements/web-apps/create-manually/).
+---
+
+## **Creating Elements While Creating Test Steps**
+
+1. Create a test case and click **Debug & Record**.
+   ![Debug and Record](https://s3.amazonaws.com/static-docs.testsigma.com/new_images/projects/applications/debug_Record_SF_Elem.png)
+
+2. In the **Debug & Record** overlay, verify that the agent is live, then click **Proceed**.
+   ![Proceed](https://s3.amazonaws.com/static-docs.testsigma.com/new_images/projects/applications/Proceed_SF_Elem.png)
+
+3. In the **Testsigma Debugger & Recorder**, click element in the NLP and select **Create Element** from the dropdown menu.
+   ![Create Element](https://s3.amazonaws.com/static-docs.testsigma.com/new_images/projects/applications/CreateElement_SF.png)
+
+4. Click the UI element, which you want to capture. The recorder automatically captures the element details.
+   ![Element Details](https://s3.amazonaws.com/static-docs.testsigma.com/new_images/projects/applications/Elem_Details_SF.png)
+
+5. Verify the element, then click **Create**.
+   ![Create Element](https://s3.amazonaws.com/static-docs.testsigma.com/new_images/projects/applications/VerifyandCreate_SF_Elem.png)
+
+---
+
+
+## **Verifying Pre-learnt Salesforce Elements**
+
+1. Click element which has the [naming conventions](https://testsigma.com/docs/salesforce-testing/element-repos/#naming-conventions) as mentioned in the above section.
+
+2. Click **View/Edit Element** from the dropdown menu on the **Testsigma Debugger & Recorder**.
+   ![View/Edit Element](https://s3.amazonaws.com/static-docs.testsigma.com/new_images/projects/applications/SF_VieworEdit_Elem.png)
+
+3. A new overlay appears, indicating that the element is a standard Salesforce element and has been pre-learned.
+   ![Pre-learnt Elements](https://s3.amazonaws.com/static-docs.testsigma.com/new_images/projects/applications/Prelearnt_Widget.png)
 
 ---
