@@ -8,26 +8,26 @@ page_id: "custom-pdf-report-generation"
 search_keyword: ""
 warning: false
 contextual_links:
-- type: section
-  name: "Contents"
-- type: link
-  name: "Prerequisites"
-  url: "#prerequisites"
-- type: link
-  name: "Retrieving Result IDs"
-  url: "#retrieving-result-ids"
-- type: link
-  name: "Executing Custom PDF Report for Test Plans"
-  url: "#executing-the-jar-file-for-test-plans"
-- type: link
-  name: "Executing Custom PDF Report for Test Case, Test Suite, or Test Machine Level"
-  url: "#executing-custom-pdf-report-for-test-case-test-suite-or-test-machine-level"
-- type: link
-  name: "Using Preferences to Generate Custom PDF Report"
-  url: "#using-preferences-to-generate-custom-pdf-report"
-- type: link
-  name: "Preferences for Custom Report Generation"
-  url: "#preferences-for-custom-report-generation"
+  - type: section
+    name: "Contents"
+  - type: link
+    name: "Prerequisites"
+    url: "#prerequisites"
+  - type: link
+    name: "Retrieving Result IDs"
+    url: "#retrieving-result-ids"
+  - type: link
+    name: "Executing Custom PDF Report for Test Plans"
+    url: "#executing-the-jar-file-for-test-plans"
+  - type: link
+    name: "Executing Custom PDF Report for Test Case, Test Suite, or Test Machine Level"
+    url: "#executing-custom-pdf-report-for-test-case-test-suite-or-test-machine-level"
+  - type: link
+    name: "Using Preferences to Generate Custom PDF Report"
+    url: "#using-preferences-to-generate-custom-pdf-report"
+  - type: link
+    name: "Preferences for Custom Report Generation"
+    url: "#preferences-for-custom-report-generation"
 ---
 
 ---
@@ -320,6 +320,7 @@ Before you begin, ensure you have the following:
 
     </body>
     </html>
+
   </div>
 </details>
 
@@ -332,11 +333,11 @@ To generate reports, you need specific IDs depending on the level of detail you 
 1. Navigate to the **Run Result** from which you want to retrieve the Run ID.
 2. For **test plan** level reports, Use the Run ID directly from the Run Result page. You can find this in the Execution ID or the URL endpoint. Copy the Run ID from the Run Result page. ![retrieving runid for test plan level](https://s3.amazonaws.com/static-docs.testsigma.com/new_images/projects/applications/testplan_run_id.cpr.gif)
 3. For Test Machine, Test Suite, or Test Case level reports:
-      - Right-click on the page and select **Inspect** to open Developer Tools. 
-      - Go to the **Network** tab.
-      - In the Testsigma application, select the test case, suite, or test machine in the Run Result details page to get the response.
-      - In the Developer Tools, under the **Network** tab, find the response results in the name section and click **Preview**.
-      - Unhide the **Content** and copy the required **ID**. ![retrieving result ids](https://s3.amazonaws.com/static-docs.testsigma.com/new_images/projects/applications/case-machine-suitelevel-id-cpr.gif)
+   - Right-click on the page and select **Inspect** to open Developer Tools.
+   - Go to the **Network** tab.
+   - In the Testsigma application, select the test case, suite, or test machine in the Run Result details page to get the response.
+   - In the Developer Tools, under the **Network** tab, find the response results in the name section and click **Preview**.
+   - Unhide the **Content** and copy the required **ID**. ![retrieving result ids](https://s3.amazonaws.com/static-docs.testsigma.com/new_images/projects/applications/case-machine-suitelevel-id-cpr.gif)
 
 ---
 
@@ -346,6 +347,7 @@ Run the Custom Report Generator with the required inputs to create a PDF report.
 
 1. Open Terminal or Command Prompt and navigate to the folder containing the JAR file.
 2. Run the following command, replacing the placeholders with your actual values:
+
 ```bash
 java -jar custom_pdf_generator-0.0.1-SNAPSHOT.jar \
   --config.apiKey=YOUR-API-KEY \
@@ -370,6 +372,7 @@ Generate reports at the Test Case, Test Suite, or Test Machine level by followin
 
 1. Get the Run ID as explained in the [Retrieving Result IDs](https://testsigma.com/docs/reports/runs/custom-pdf-report/#retrieving-result-ids) section.
 2. Use the following command, including your specific preferences:
+
 ```bash
 java -jar custom_pdf_generator-0.0.1-SNAPSHOT.jar \
   --config.apiKey=YOUR-API-KEY \
@@ -395,6 +398,7 @@ Replace the placeholders with your actual values:
 ## **Using Preferences to Generate Custom PDF Report**
 
 Customize your report content and structure using various preferences:
+
 ```bash
 java -jar custom_pdf_generator-0.0.1-SNAPSHOT.jar \
   --config.apiKey=YOUR-API-KEY \
@@ -450,7 +454,6 @@ List of configurable preferences to tailor your PDF reports according to your ne
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Custom Report Preferences</title>
     <style>
         body {
             font-family: Arial, sans-serif;
@@ -542,5 +545,3 @@ List of configurable preferences to tailor your PDF reports according to your ne
 </html>
 
 ---
-
-
