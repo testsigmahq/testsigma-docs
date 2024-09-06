@@ -1,7 +1,7 @@
 ---
 title: "Accessibility Testing with Testsigma"
 page_title: "Accessibility Testing"
-metadesc: "A connected app is important to link external applications & the Salesforce ecosystem. This article discusses how to create a connected app in Salesforce."
+metadesc: "Learn how to implement and manage accessibility testing in Testsigma. Accessibility testing ensures your websites & apps comply with accessibility guidelines"
 noindex: false
 order: 27.1
 page_id: "Accessibility Testing Automation with Testsigma"
