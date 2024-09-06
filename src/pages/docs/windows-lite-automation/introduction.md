@@ -3,7 +3,7 @@ title: "Intro: Windows Automation (Lite)"
 page_title: "Introduction: Windows (Lite) Automation"
 metadesc: "Testsigma simplifies Windows Automation with NLPs for the apps built on UWP, WPF, WinForms & Win32 | This article discusses how to create & execute tests for Windows Automation"
 noindex: false
-order: 28.1
+order: 29.1
 page_id: "Testsigma for Windows Automation"
 warning: false
 contextual_links:

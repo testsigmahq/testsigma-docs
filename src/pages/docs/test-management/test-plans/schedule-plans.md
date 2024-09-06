@@ -13,6 +13,9 @@ contextual_links:
   name: "Schedule a Test Plan"
   url: "#schedule-a-test-plan"
 - type: link
+  name: "Prerequisites"
+  url: "#prerequisites"
+- type: link
   name: "Schedule a Partial Test Plan"
   url: "#schedule-a-partial-test-plan"
 - type: link
@@ -29,9 +32,9 @@ In Testsigma, you can schedule your test plans to automate their execution and m
 
 ---
 
-### **Prerequisites**
-
-Before you schedule a test plan in Testsigma, you must understand the concepts of creating the [Test Plan](https://testsigma.com/docs/test-management/test-plans/overview/).
+> ## **Prerequisites**
+>
+> Before you schedule a test plan in Testsigma, you must understand the concepts of creating the [Test Plan](https://testsigma.com/docs/test-management/test-plans/overview/).
 
 ---
 

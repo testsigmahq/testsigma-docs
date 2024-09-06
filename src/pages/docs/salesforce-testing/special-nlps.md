@@ -3,7 +3,7 @@ title: "Intro: Testsigma Special NLPs"
 page_title: "Special NLPs"
 metadesc: "With special NLPs, you can build & enhance Salesforce tests with ease, reducing test authoring time by 50%. This article discusses the capabilities of these special NLPs"
 noindex: false
-order: 27.8
+order: 28.8
 page_id: "Special NLPs"
 warning: false
 contextual_links:

@@ -2,7 +2,7 @@
 title: "Intro: Testsigma Community Edition"
 metadesc: "Testsigma Community Edition is an open-source automation platform | This article discusses installing Testsigma on your workstation & start test automation"
 noindex: false
-order: 30.1
+order: 31.1
 page_id: "Introduction to Testsigma Community Edition"
 warning: false
 contextual_links:

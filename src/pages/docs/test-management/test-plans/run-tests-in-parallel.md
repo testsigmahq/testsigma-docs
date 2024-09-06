@@ -27,9 +27,9 @@ Executing tests in parallel significantly improves testing efficiency by reducin
 
 ---
 
-## **Prerequisites**
-
-You should know how to create a [Test Plan](https://testsigma.com/docs/test-management/test-plans/overview/), add [Test Suites](https://testsigma.com/docs/test-management/test-plans/manage-test-suites/), and configure [Test Machines](https://testsigma.com/docs/test-management/test-plans/manage-test-machines/).
+> ## **Prerequisites**
+>
+> Before you proceed, ensure you understand the concepts of creating a [Test Plan](https://testsigma.com/docs/test-management/test-plans/overview/), [Test Suite](https://testsigma.com/docs/test-management/test-suites/overview/), and [Test Machine](https://testsigma.com/docs/test-management/test-plans/manage-test-machines/).
 
 ---
 

@@ -26,9 +26,9 @@ Testsigma allows you to create custom actions with add-ons using its powerful Po
 
 ---
 
-## **Prerequisites**
-
-Before using Post Plan Hooks in Testsigma, ensure you know how [Test Plans](https://testsigma.com/docs/test-management/test-plans/overview/) work in Testsigma, are familiar with the Test Plan Settings tab, [manage add-ons](https://testsigma.com/docs/addons/create/), and create an [add-on](https://testsigma.com/docs/addons/create-a-post-plan-hook-add-on/) to support the Post Plan hook.
+> ## **Prerequisites**
+>
+> Before using Post Plan Hooks in Testsigma, ensure you know how [Test Plans](https://testsigma.com/docs/test-management/test-plans/overview/) work in Testsigma, are familiar with the Test Plan Settings tab, [manage add-ons](https://testsigma.com/docs/addons/create/), and create an [add-on](https://testsigma.com/docs/addons/create-a-post-plan-hook-add-on/) to support the Post Plan hook.
 
 ---
 

@@ -3,7 +3,7 @@ title: "Salesforce Element Repositories"
 page_title: "Element Repositories"
 metadesc: "Elements repositories from Salesforce are imported after successfully synchronizing metadata. This article discusses Salesforce elements repositories."
 noindex: false
-order: 27.7
+order: 28.7
 page_id: "Element Repositories"
 warning: false
 contextual_links:

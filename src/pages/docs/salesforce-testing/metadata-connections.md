@@ -3,7 +3,7 @@ title: "Creating Metadata Connections"
 page_title: "Metadata Connections"
 metadesc: "A Metadata connection enables actions like refreshing metadata, configurations, creating objects, & managing components that define how the application behaves"
 noindex: false
-order: 27.4
+order: 28.4
 page_id: "Creating Metadata Connections"
 warning: false
 contextual_links:

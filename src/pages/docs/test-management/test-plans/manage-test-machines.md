@@ -30,11 +30,9 @@ While creating a test plan, you must add at least one test machine to a test sui
 
 ---
 
-## **Prerequisites**
-
-- You should know how to [create a test suite](https://testsigma.com/docs/test-management/test-suites/overview/#creating-a-test-suite).
-
-- You should know how to [create a test plan](https://testsigma.com/docs/test-management/test-plans/overview/#steps-to-create-a-test-plan).
+> ## **Prerequisites**
+>
+> Before you proceed, ensure you understand the concepts of creating a [Test Suite](https://testsigma.com/docs/test-management/test-suites/overview/) and [Test Plan](https://testsigma.com/docs/test-management/test-plans/overview/).
 
 
 ---
