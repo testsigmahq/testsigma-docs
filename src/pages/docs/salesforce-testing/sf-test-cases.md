@@ -3,7 +3,7 @@ title: "Test Cases for Salesforce (Manual + Live)"
 page_title: "Build Test Cases for Salesforce Testing"
 metadesc: "Creating test cases for Salesforce automation is easy with Salesforce metadata artifacts and capabilities from Testsigma like smart NLPs, and the debugger"
 noindex: false
-order: 27.6
+order: 28.6
 page_id: "Test Cases for Salesforce"
 warning: false
 contextual_links:

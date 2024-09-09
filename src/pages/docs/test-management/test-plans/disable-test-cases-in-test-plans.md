@@ -27,9 +27,9 @@ In Testsigma, you can disable specific test cases within your test plans by usin
 
 ---
 
-## **Prerequisites**
-
-Before proceeding, ensure you know how [Test Plans](https://testsigma.com/docs/test-management/test-plans/overview/) work in Testsigma, are familiar with the Add Test Suites & Link Machine Profiles tab in Create or Edit Test Plan page.
+> ## **Prerequisites**
+> 
+> Before proceeding, ensure you know how [Test Plans](https://testsigma.com/docs/test-management/test-plans/overview/) work in Testsigma, are familiar with the **Add Test Suites & Link Machine Profiles** tab in **Create or Edit Test Plan** page.
 
 ---
 

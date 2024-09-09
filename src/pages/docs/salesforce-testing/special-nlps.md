@@ -3,7 +3,7 @@ title: "Intro: Testsigma Special NLPs"
 page_title: "Special NLPs"
 metadesc: "With special NLPs, you can build & enhance Salesforce tests with ease, reducing test authoring time by 50%. This article discusses the capabilities of these special NLPs"
 noindex: false
-order: 27.8
+order: 28.8
 page_id: "Special NLPs"
 warning: false
 contextual_links:
@@ -66,6 +66,9 @@ contextual_links:
 - type: link
   name: "NLP 16:"
   url: "#nlp-16"
+- type: link
+  name: "NLP 17:"
+  url: "#nlp-17"
 ---
 
 ---
@@ -95,7 +98,8 @@ With Testsigma's special NLPs, you can scale and enhance Salesforce Testing. The
 | [Open the edit Salesforce Object form where record id is Record ID](https://website.testsigma.com/docs/salesforce-testing/special-nlps/#nlp-2)| This NLP opens the edit form in Salesforce for a specific record on the selected tab. <br><br> **User Inputs in NLP:** <br> 1. User Record ID <br> 2. Salesforce Object |
 | [Open the create Salesforce Object record form](https://testsigma.com/docs/salesforce-testing/special-nlps/#nlp-9) | This NLP opens the Create Record form in Salesforce on the selected tab.<br><br> **User Inputs in NLP:** <br>Salesforce Object |
 | [Open the Salesforce Object details page where record id is Record ID](https://testsigma.com/docs/salesforce-testing/special-nlps/#nlp-8) | This NLP Opens the View in Salesforce for a specific record on the selected tab. <br><br> **User Inputs in NLP:** <br> 1. User Record ID <br> 2. Salesforce Object |
-| [Create record in Salesforce Object Form using Salesforce Connection connection and store the record id in variable test data](https://testsigma.com/docs/salesforce-testing/special-nlps/#nlp-1) | This NLP creates a record for a specific Salesforce object using the create record API. This process stores the RECORD\_ID in a variable for test data. <br><br> **User Inputs in NLP:** <br> 1. Salesforce Connection<br> 2. Salesforce Object Form<br> 3. Variable to store RECORD\_ID |
+| [Create record in Salesforce Object Form using Salesforce Connection connection and store the record id in variable test data](https://testsigma.com/docs/salesforce-testing/special-nlps/#nlp-1) | This NLP creates a record for a specific Salesforce object using the create record API. This process stores the RECORD\_ID in a variable. <br><br> **User Inputs in NLP:** <br> 1. Salesforce Connection<br> 2. Salesforce Object Form<br> 3. Variable to store RECORD\_ID |
+| [Update record in Salesforce object form where record id is test data using  Salesforce connection connection](https://testsigma.com/docs/salesforce-testing/special-nlps/#nlp-17) | This NLP updates a record for a specific Salesforce object using the update record API. <br><br> **User Inputs in NLP:** <br> 1. Salesforce Connection<br> 2. Salesforce Object Form<br> 3. RECORD\_ID |
 | [Select multiple options using value test data in the element multipicklist](https://testsigma.com/docs/salesforce-testing/special-nlps/#nlp-12) | This NLP selects values from a multipicklist. This NLP can also be recorded. <br><br> **User Inputs in NLP:** <br> 1. Test Data <br> 2. Choose Element <br> <br> **Note:** All the values should match the criteria for the NLP to work effectively.|
 | [Remove multiple options using value test data in the element multipicklist](https://testsigma.com/docs/salesforce-testing/special-nlps/#nlp-13) | This NLP removes values from a multipicklist. This NLP can also be recorded. <br><br> **User Inputs in NLP:** <br> 1. Test Data <br> 2. Choose Element <br> <br> **Note:** All the values should match the criteria for the NLP to work effectively.|
 | [Undo field in element](https://testsigma.com/docs/salesforce-testing/special-nlps/#nlp-11) | This NLP undoes the update on the selected field. This NLP can also be recorded. <br><br> **User Inputs in NLP:** <br> Choose Element |
@@ -316,5 +320,17 @@ Use this NLP to select an option from a picklist element.
 See the GIF below demonstrating how to use this NLP.
 
 ![Element Picklist](https://s3.amazonaws.com/static-docs.testsigma.com/new_images/projects/applications/SinglePickNLP.gif)
+
+---
+
+## **NLP 17:**
+
+"Update record in **Salesforce object** form where record id is **test data** using  **Salesforce connection** connection"
+    
+This NLP feature updates a Salesforce record with the details you enter in the API step using the specified **Record ID**.
+
+See the GIF below demonstrating how to use this NLP.
+
+![Element Picklist](https://s3.amazonaws.com/static-docs.testsigma.com/new_images/projects/applications/SalesforceUpdateNLP.gif)
 
 ---
