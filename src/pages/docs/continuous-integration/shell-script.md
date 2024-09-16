@@ -187,7 +187,7 @@ Now, let’s look at the script for the Unix shell:
 TESTSIGMA_API_KEY=eyJhbGciOixxxxxxxxxxxxxxxTNpgv0w
 TESTSIGMA_TEST_PLAN_ID=2090
 MAX_WAIT_TIME_FOR_SCRIPT_TO_EXIT=1
-JUNIT_REPORT_FILE_PATH=./junit-report-$(date +"%Y%m%d%H%M").xml
+JUNIT_REPORT_FILE_PATH=./junit-report.xml
 RUNTIME_DATA_INPUT="url=https://the-internet.herokuapp.com/login,test=1221"
 BUILD_NO=$(date +"%Y%m%d%H%M")
 #********END USER_INPUTS***********
