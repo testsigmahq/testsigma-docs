@@ -15,7 +15,9 @@ contextual_links:
   name: "Steps to integrate GitLab with Testsigma"
   url: "#steps-to-integrate-gitLab-with-testsigma"
 ---
-<br>
+
+
+---
 
 This article explains how to integrate GitLab with Testsigma for CI/CD purposes.
 
@@ -83,3 +85,6 @@ Once the job is completed you can see the execution report as an XML report base
 
 9. Post completion of the job, you can see the details below:
 ![Post Run](https://s3.amazonaws.com/static-docs.testsigma.com/new_images/projects/applications/postrun.png)
+
+
+---
