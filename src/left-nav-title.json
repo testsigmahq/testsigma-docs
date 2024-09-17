@@ -693,5 +693,6 @@
   "windows-automation": {"/docs/windows-automation/": "Windows Automation (Advanced)"},
   "projects-and-applications": {"/docs/windows-lite-automation/projects-and-applications/": "Windows (Lite) Project & Application"},
   "element-learning": {"/docs/windows-lite-automation/element-learning/": "Element Learning with Test Recorder"},
-  "test-cases": {"/docs/windows-lite-automation/test-cases/": "Test Cases for Windows (Lite)" }
+  "test-cases": {"/docs/windows-lite-automation/test-cases/": "Test Cases for Windows (Lite)" },
+  "copado-integration": {"/docs/continuous-integration/copado-integration/": "Copado CI/CD" }
 }
