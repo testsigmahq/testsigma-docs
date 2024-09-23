@@ -51,7 +51,7 @@ The easiest way to get started is by[ signing up for an account on our cloud-hos
 ## **Getting Started**
 
 - [Tutorials](https://testsigma.com/tutorials/getting-started/automate-web-applications/)
-- [Core Concepts](https://testsigma.com/docs/test-cases/overview/)
+- [Core Concepts](https://testsigma.com/docs/test-cases/manage/add-edit-delete/)
 - [CI/CD Integrations](https://testsigma.com/docs/continuous-integration/jenkins/)
 - [Creating Add-ons](https://testsigma.com/docs/addons/what-is-an-addon/) 
   

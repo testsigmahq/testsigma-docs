@@ -25,7 +25,7 @@ This article provides a few sample applications for users to practice testing in
 
     - https://mobile-simply-travel.testsigma.com/
 
-*For more information on how to create test cases, refer to [test cases](https://testsigma.com/docs/test-cases/overview/).*
+*For more information on how to create test cases, refer to [test cases](https://testsigma.com/docs/test-cases/manage/add-edit-delete/).*
 
 
 2. Use the following apps for practicing mobile app testing.
