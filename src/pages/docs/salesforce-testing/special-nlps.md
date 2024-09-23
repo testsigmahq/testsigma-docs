@@ -128,6 +128,10 @@ See the GIF below demonstrating how to use this NLP.
 
 ![Create Lead](https://s3.amazonaws.com/static-docs.testsigma.com/new_images/projects/applications/CreateAPISF.gif)
 
+[[info | **NOTE**:]]
+| You can also select the **Record Type** when entering details in the API step. However, ensure you only enter details relevant to that specific Record Type, or the test case will fail.
+| ![Record Type](https://s3.amazonaws.com/static-docs.testsigma.com/new_images/projects/applications/API_Record_Type.png)
+
 ---
 
 ## **NLP 2:** 

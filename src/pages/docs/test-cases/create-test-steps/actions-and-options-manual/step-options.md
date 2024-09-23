@@ -64,7 +64,7 @@ Click on the **test step**, then click the **Eraser** icon to clear the step in 
 
 ## **Step Settings**
 
-Click on the **test step**, then click the **Settings** icon or the **ellipsis** icon to open a dropdown list of **Test Step Settings**. Select the **Step Settings** option from this list to configure particular settings for the test step, such as timeouts, retries, prerequisites, or other settings. Refer to [Test Step Settings](https://testsigma.com/docs/test-cases/create-steps-nl/step-settings/) for more information. ![Step Settings](https://s3.amazonaws.com/static-docs.testsigma.com/new_images/projects/applications/teststep_setting_stepsetting.png)
+Click on the **test step**, then click the **Settings** icon or the **ellipsis** icon to open a dropdown list of **Test Step Settings**. Select the **Step Settings** option from this list to configure particular settings for the test step, such as timeouts, retries, prerequisites, or other settings. Refer to [Test Step Settings](https://testsigma.com/docs/test-cases/create-test-steps/actions-and-options-manual/step-settings/) for more information. ![Step Settings](https://s3.amazonaws.com/static-docs.testsigma.com/new_images/projects/applications/teststep_setting_stepsetting.png)
 
 ---
 
