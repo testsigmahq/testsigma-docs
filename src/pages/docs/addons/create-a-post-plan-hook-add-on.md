@@ -34,7 +34,7 @@ Users can customise the actions within these add-ons to fit their needs and link
 To create addons, you should already know about Testsigma addons. <br>
 Refer to:
 - [What is an add-on?](https://testsigma.com/docs/addons/what-is-an-addon/)
-- [Prerequisites for creating an add-on.](https://testsigma.com/docs/addons/pre-requisite-to-create-addon/)
+- [Prerequisites for creating an add-on.](https://testsigma.com/docs/addons/create/)
 
 For information on how to create an add-on, refer to *[create an add-on](https://testsigma.com/docs/addons/create/)*.
 
