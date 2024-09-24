@@ -71,7 +71,7 @@ contextual_links:
 ---
 
 ## [Prerequisite](#docker-prerequisite)
-  1. Download the docker  [click here](https://testsigma.com/docs/getting-started/setup/docker/)
+  1. Download the docker  [click here](https://testsigma.com/docs/open-source-docs/docker/)
   2. Register with username and password
 
 ---

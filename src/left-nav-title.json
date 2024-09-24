@@ -5,9 +5,6 @@
   "testsigma-cloud": {
     "/docs/getting-started/setup/testsigma-cloud/": "Using Testsigma Cloud"
   },
-  "docker": {
-    "/docs/getting-started/setup/docker/": "Using Docker"
-  },
   "downloadable-package": {
     "/docs/getting-started/setup/downloadable-package/": "Using Downloadable Package"
   },
@@ -135,11 +132,6 @@
     "/docs/test-cases/create-steps-recorder/web-apps/reuse-elements/": "Reuse Elements",
     "/docs/test-cases/create-steps-recorder/android-apps/reuse-elements/": "Reuse Elements",
     "/docs/test-cases/create-steps-recorder/ios-apps/reuse-elements/": "Reuse Elements"
-  },
-  "reorder": {
-    "/docs/test-cases/create-steps-recorder/web-apps/reorder/": "Reorder Test Steps",
-    "/docs/test-cases/create-steps-recorder/android-apps/reorder/": "Reorder Test Steps",
-    "/docs/test-cases/create-steps-recorder/ios-apps/reorder/": "Reorder Test Steps"
   },
   "bulk-actions" : {
     "/docs/test-cases/create-steps-recorder/web-apps/bulk-actions/": "Bulk Actions",
@@ -481,12 +473,6 @@
   },
   "community-marketplace": {
     "/docs/addons/community-marketplace/": "Addons Community Marketplace"
-  },
-  "install-community-addon": {
-    "/docs/addons/install-community-addon/": "Install Community Addon"
-  },
-  "pre-requisite-to-create-addon": {
-    "/docs/addons/pre-requisite-to-create-addon/": "Prerequisites(Create/Update Addon)"
   },
   "create": {
     "/docs/addons/create/": "Create an Addon"
