@@ -46,7 +46,7 @@ Before you begin, ensure you have the following:
 
 - You can request the **JAR file** from the Customer Support team and download it before executing a Custom PDF Report Generation.
 
-- An **HTML template** for the PDF report. [Click here](https://s3.amazonaws.com/static-docs.testsigma.com/new_images/projects/applications/Custom_Report_Template.html) to download the HTML template. 
+- An **HTML template** for the PDF report. [Click here](https://s3.amazonaws.com/static-docs.testsigma.com/new_images/projects/applications/Custom_Report_Template.txt) to download the HTML template. 
 
 ---
 
