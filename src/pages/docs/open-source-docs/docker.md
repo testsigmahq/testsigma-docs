@@ -117,7 +117,7 @@ To achieve this we use Testsigma Agent that connects the Testsigma Server with t
 
 ### **Download and Install Testsigma Agent**
 
-Login to https://local.testsigmaos.com/ui and follow the steps mentioned here([Setup: Windows, Mac, Linux](https://testsigma.com/docs//agent/setup-on-windows-mac-linux/)) to Install and configure the the Agent
+Login to https://local.testsigmaos.com/ui and follow the steps mentioned here([Setup: Windows, Mac, Linux](https://testsigma.com/docs/agent/setup-on-windows-mac-linux/)) to Install and configure the the Agent
  
 ---
 
