@@ -184,7 +184,7 @@ Once the three components are set up as service, you can run them one by one as 
 The final step is to navigate to ```%WinDir%\System32\Drivers\Etc``` and add ```127.0.0.1       localhost devos.testsigma.com```
 ![Mapping URL](https://s3.amazonaws.com/static-docs.testsigma.com/new_images/projects/applications/mappingurl.png)
 
-Once this is done, you can save the host file and navigate to http://devos.testsigma.com/ui and see the below screen:
+Once this is done, you can save the host file and navigate to https://devos.testsigma.com/ui and see the below screen:
 ![Access Testsigma](https://s3.amazonaws.com/static-docs.testsigma.com/new_images/projects/applications/testsigma.png)
 
 [[info | **NOTE**:]]
