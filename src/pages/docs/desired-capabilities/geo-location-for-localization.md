@@ -19,24 +19,24 @@ contextual_links:
 
 ---
 
-Geolocation desired capability is a configuration used to set the geographic location for a web or mobile web during testing. This capability is helpful while testing location related web and mobile web features. This article discusses how to set Geolocation desired capabilities on the Ad-Hoc Run page in Testsigma. 
+The Geolocation Desired Capability sets the geographic location for web or mobile web apps during test executions. This capability is useful when testing location-specific features. This article discusses configuring the Geolocation Desired Capability on the Ad-Hoc Run page in Testsigma.
 
 ---
 
 ## **How to Set the Geolocation?**
 
-In order to set the geolocation for a web or mobile web test, we can use the following desired capability:
+To set the geolocation, use the following desired capability:
 
-**browserstack.geoLocation = "&lt;Two-letter Country Code&gt;"**
+**geoLocation = "&lt;Two-letter Country Code&gt;"**
 
 
-For Example: <br>
-<br>
-**browserstack.geoLocation = "AR"**
+### **Example:** 
 
-Here is the list of countries with their country codes that can be used in the value field for desired capability:
+**geoLocation = "AR"**
 
-|Country Name|Country Code|
+Below is a list of countries with their corresponding two-letter country codes that can be used in the value field for the Geolocation desired capability:
+
+|**Country Name**|**Country Code**|
 |---|---|
 |Argentina|AR|
 |Australia|AU|
@@ -90,18 +90,17 @@ Here is the list of countries with their country codes that can be used in the v
 ---
 
 ## **Using Desired Capability to set the Location**
-1. Click on **Run** from **Test Case Details** page. 
-![Run Test Case](https://s3.amazonaws.com/static-docs.testsigma.com/new_images/projects/applications/glrun.png)
 
-2. On **Ad-Hoc Run** overlay, click on **Desired Capabilities**.
-![AdHoc Run](https://s3.amazonaws.com/static-docs.testsigma.com/new_images/projects/applications/glahrun.png)
+1. Click **Run** from **Test Case Details** page. 
+![Run Test Case](https://s3.amazonaws.com/static-docs.testsigma.com/new_images/projects/applications/AdHoc_Run_DC.png)
 
-3. Enter ***BrowserStack.geoLocation*** in the **Key** field, select ***String*** as **Data type**, and set the **Value** as per country's country code.
-![Desired Capability](https://s3.amazonaws.com/static-docs.testsigma.com/new_images/projects/applications/gldc.png)
+2. On the **Ad-Hoc Run** overlay, click **Desired Capabilities**.
+![AdHoc Run](https://s3.amazonaws.com/static-docs.testsigma.com/new_images/projects/applications/Desired_Capabilities_AdHoc_Page.png)
 
-4. Click on **Run Now** to execute the test case. 
-![Run Now](https://s3.amazonaws.com/static-docs.testsigma.com/new_images/projects/applications/glrunnow.png)
+3. Enter ***geoLocation*** in the **Key** field, select ***String*** as **Data type**, and set the **Value** as per country's country code.
+![Desired Capability](https://s3.amazonaws.com/static-docs.testsigma.com/new_images/projects/applications/Desired_Capabilities_GeoLocation.png)
 
-Here’s a quick GIF demonstrating how to set geolocation desired capability.
-![Geo Location Work Flow](https://s3.amazonaws.com/static-docs.testsigma.com/new_images/projects/applications/GeoLocationWF.gif)
+4. Click **Run Now** to execute the test case. 
+![Run Now](https://s3.amazonaws.com/static-docs.testsigma.com/new_images/projects/applications/RunNow_geoLocation.png)
+
 ---
