@@ -3,7 +3,7 @@ title: "Manage Test Cases"
 pagetitle: "Manage Test Cases"
 metadesc: "Effortlessly manage your test cases in Testsigma by seamlessly creating, editing, deleting, and recovering them. Streamline your test case management process, adapt to changing project needs, and ensure comprehensive test coverage."
 noindex: false
-order: 4.10
+order: 4.11
 page_id: "test-cases-testsigma"
 warning: false
 contextual_links:

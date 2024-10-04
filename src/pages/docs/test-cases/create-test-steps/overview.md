@@ -175,11 +175,22 @@ Here's a sample GIF demonstrating creating test steps manually for a Web Applica
 
 <br>
 
+<div style="background-color: #f8f9fa; padding: 20px; border-radius: 5px; border: 1px solid #dee2e6;">
+  <p style="font-size: 16px; color: #495057;">
+    <span style="color: #17a2b8; font-size: 20px;"></span>
+    <b>⚡ New:</b> You can now directly interact with mobile elements, and the recorder will automatically capture the action and convert it into the corresponding NLPs.
+  </p>
+</div>
+
+[[info | **NOTE**:]]
+| If direct recording doesn't work, revert to the old method and use the **TAP** button to record the element.
+
+<br>
+
 Here's a sample GIF demonstrating creating test steps using the recorder for a Web Application. 
 
    ![Record Test Steps for WebApps](https://s3.amazonaws.com/static-docs.testsigma.com/new_images/projects/applications/RecordStepswappsWF.gif)
 
----
 
 ---
 
