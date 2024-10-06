@@ -52,6 +52,10 @@ You can also quickly jump to one of the following topics to learn about Windows 
 - List of Technologies Supported in Testsigma
     - **Oracle**
     - **Java**
+    - **SAP GUI**
+    - **SAP UI5**
+    - **Insight**
+    - **Terminal Emulator**
 
 ---
 

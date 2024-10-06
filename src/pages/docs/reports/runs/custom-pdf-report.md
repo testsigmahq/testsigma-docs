@@ -70,19 +70,23 @@ To generate reports, you need specific IDs depending on the level of detail you 
 Run the Custom Report Generator with the required inputs to create a PDF report. This step converts your HTML template into a PDF based on your preferences. To execute the JAR file, follow these steps:
 
 1. Open Terminal or Command Prompt and navigate to the folder containing the JAR file.
-2. Run the following command, replacing the placeholders with your actual values:
+2. Run the following command,<br>
+   - **For Mac**
+    ```bash
+    java -jar custom_pdf_generator-0.0.1-SNAPSHOT.jar \
+      --config.apiKey=YOUR-API-KEY \
+      --config.plan.runId=YOUR-PLAN-RUN-ID \
+      --config.template.location=/path/to/your/template.html \
+      --config.pdf.directory=/path/to/save/report.pdf
+    ```
 
-```bash
-java -jar custom_pdf_generator-0.0.1-SNAPSHOT.jar \
-  --config.apiKey=YOUR-API-KEY \
-  --config.plan.runId=YOUR-PLAN-RUN-ID \
-  --config.template.location=/path/to/your/template.html \
-  --config.pdf.directory=/path/to/save/report.pdf
-```
-
+   - **For Windows**
+    ```bash
+    java -jar custom_pdf_generator-0.0.1-SNAPSHOT.jar --config.apiKey=<API-KEY> --config.plan.runId=97040 --config.template.location=/path/to/template.html --config.pdf.directory=/path/to/save/report.pdf
+    ```
 <br>
-Replace the placeholders with your actual values:
 
+Replace the placeholders with your actual values:
 - **YOUR-API-KEY**: Your API key for authentication with Testsigma.
 - **YOUR-PLAN-RUN-ID**: The run ID of your test plan.
 - **/path/to/your/template.html**: Path to your HTML template file.
