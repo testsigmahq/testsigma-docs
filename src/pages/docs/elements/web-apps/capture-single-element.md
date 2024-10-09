@@ -15,6 +15,9 @@ contextual_links:
   name: "Steps to Capture an Element"
   url: "#steps-to-capture-an-element"
 - type: link
+  name: "Steps to Update an Element"
+  url: "#steps-to-update-an-element"
+- type: link
   name: "Creating an Element While Creating Test Case"
   url: "#creating-an-element-while-creating-test-case"
 - type: link
@@ -58,19 +61,57 @@ You can also selectively capture single element of a web application using Tests
 5. Click on the hovered element and wait for the element to appear in the recorder.
 ![Element in Recorder](https://s3.amazonaws.com/static-docs.testsigma.com/new_images/projects/applications/rmecoelm.png)
 
-[[info | **NOTE**:]]
-| - To update an element, hover over the recorded element and select the edit icon. Change the element details manually and click **Update** to finalize the changes.
-|   ![Update Element](https://s3.amazonaws.com/static-docs.testsigma.com/new_images/projects/applications/cseuelm.png)
-| - You can also update the element from the run results by navigating to **Ad-Hoc Runs > Test Step > Element > Edit Element**.
-
 6. Once you have captured the necessary element, click on **Stop**.
 ![Stop](https://s3.amazonaws.com/static-docs.testsigma.com/new_images/projects/applications/rsecosp.png)
 
 7. You'll be redirected to the **Elements** page, where you can see all recorded elements.
 
+[[info | **NOTE**:]]
+| While recording elements, the recorder will also capture the page image, highlighting the respective element. This provides visual context along with the element details.
+
 Here’s a quick GIF demonstrating how to record multiple elements for a web application. 
 ![Record Multiple Element](https://s3.amazonaws.com/static-docs.testsigma.com/new_images/projects/applications/RecordMultipleElements.gif)
 
+
+---
+
+
+## **Steps to Update an Element**
+
+1. From the left navigation bar, select **Create Tests > Elements**.
+![Elements](https://s3.amazonaws.com/static-docs.testsigma.com/new_images/projects/applications/Update_Elements_Nav.png)
+
+2. From the **Elements list** page. This will open the **Element Details** overlay. 
+![Element Details](https://s3.amazonaws.com/static-docs.testsigma.com/new_images/projects/applications/Element_List_Page.png)
+
+3. In the **Element Details** overlay, click **Edit**. This will open the **Update Element** overlay. 
+![Update Details Overlay](https://s3.amazonaws.com/static-docs.testsigma.com/new_images/projects/applications/Element_Details_Overlay.png)
+
+4. In the **Update Element** overlay, manually update the details you want to change, and click **Update Element**.
+![Update Element Overlay](https://s3.amazonaws.com/static-docs.testsigma.com/new_images/projects/applications/Update_Element_Overlay.png)
+
+<br>
+
+   <div style="background-color: #f8f9fa; padding: 20px; border-radius: 5px; border: 1px solid #dee2e6;">
+     <p style="font-size: 16px; color: #495057;">
+       <b>💡 Additional Info:</b><br><br>
+       You can update the following fields:
+       <ul style="list-style-type: disc; padding-left: 20px;">
+         <li><b>Name</b></li>
+         <li><b>Screen Name</b></li>
+         <li><b>Element Type</b></li>
+         <li><b>Value</b></li>
+       </ul>
+     </p>
+   </div>
+
+<br>
+
+5. You can also check the highlighted element in the **Element Image** section in the same overlay for your reference.
+![Element Image](https://s3.amazonaws.com/static-docs.testsigma.com/new_images/projects/applications/Image_Captured_for_Element.png)
+
+[[info | **NOTE**:]]
+| You can also update the element from the run results by navigating to **Ad-Hoc Runs > Test Step > Element > Edit Element**.
 
 ---
 
