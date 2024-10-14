@@ -1,10 +1,10 @@
 ---
-title: "Mock API Support in Testsigma"
-page_title: "Mock API Support in Testsigma"
-metadesc: "Learn how to handle mock APIs and experiment with the different types of test data | Testsigma allows you give inputs while mocking an API in Testsigma"
+title: "Testing API Responses with Custom Values"
+page_title: "Sending Custom Variable Values While Creating API Steps"
+metadesc: "Learn how to send custom values and experiment with the different types of test data | Testsigma allows you give inputs while testing an API responses in Testsigma"
 noindex: false
 order: 4.993
-page_id: "Mock APIs"
+page_id: "Send Custom Variables in API Steps"
 search_keyword: ""
 warning: false
 contextual_links:
@@ -14,15 +14,16 @@ contextual_links:
   name: "Prerequisites"
   url: "#prerequisites"
 - type: link
-  name: "Adding Various Inputs for Mock APIs"
-  url: "#adding-various-inputs-for-mock-apis"
+  name: "Steps to Send Custom Variables in API Steps"
+  url: "#steps-to-send-custom-variables-in-api-steps"
 ---
 
 ---
 
-The goal of mocking an API is to ensure that users can experiment with the data before authoring the API step. With Testsigma, users can select default and custom values associated with each key for various variables, such as parameters, runtime, environment, random data generator, phone number, and mailbox, and verify responses.
+The goal of sending custom values while creating API steps is to ensure that all input sources are accurately parsed while testing API responses as you send the request. This allows you to experiment with the data and make necessary changes while designing API tests. 
 
-This article discusses providing test data inputs while mocking an API in Testsigma. 
+With Testsigma, you can choose default and custom values for various variables such as parameters, runtime, environment, random data generators, phone numbers, and mailboxes and verify responses. This article discusses providing custom test data inputs while creating API steps.
+
 
 ---
 
@@ -34,7 +35,7 @@ This article discusses providing test data inputs while mocking an API in Testsi
 
 ---
 
-## **Adding Various Inputs for Mock APIs**
+## **Steps to Send Custom Variables in API Steps**
 
 1. From the left-side navbar, select **Create Tests > Test Cases** and then click **Create Test Case**.
 
@@ -55,8 +56,8 @@ This article discusses providing test data inputs while mocking an API in Testsi
 9. Click **Send** and verify the response received from the API.
 
 
-Here’s a quick GIF demonstrating an example of adding an input for mocking API. 
+Here’s a quick GIF demonstrating an example of sending custom variable values in API Steps. 
 
-![Mock APIs](https://s3.amazonaws.com/static-docs.testsigma.com/new_images/projects/applications/MockAPI.gif)
+![Custom Variable Values](https://s3.amazonaws.com/static-docs.testsigma.com/new_images/projects/applications/MockAPI.gif)
 
 ---
