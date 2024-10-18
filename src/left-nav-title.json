@@ -195,7 +195,7 @@
     "/docs/test-data/types/mailbox/": "Mail Box"
   },
   "create-data-profiles": {
-    "/docs/test-data/create-data-profiles/": "Create Test Data [Parameter]"
+    "/docs/test-data/create-data-profiles/": "Create Test Data Profile"
   },
   "import-data-profiles": {
     "/docs/test-data/import-data-profiles/": "Import TDP"
