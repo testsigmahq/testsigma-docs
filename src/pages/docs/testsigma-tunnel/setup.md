@@ -34,7 +34,7 @@ Testsigma Tunnel establishes a secure connection between your system and Testsig
 
 There are five key components in the Testsigma Tunnel architecture:
 
-![Tunnel Architecture](https://s3.amazonaws.com/static-docs.testsigma.com/new_images/projects/applications/Tunnel_Architecture.png)
+![Tunnel Architecture](https://s3.amazonaws.com/static-docs.testsigma.com/new_images/projects/applications/TS_Tunnel_Arch.png)
 
 **1. Testsigma Tunnel Client**
 - The Testsigma Tunnel Client is a distributed binary that must be installed on the machine where you have access to locally hosted websites or applications.
