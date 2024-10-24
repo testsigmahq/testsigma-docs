@@ -1,7 +1,7 @@
 ---
 title: "Reset Password"
 page_title: "How to reset password in Testsigma Community Edition"
-order: 31.4
+order: 32.4
 page_id: "Reset password"
 metadesc: "Learn steps in detail on how to reset username and password in Testsigma Community Edition. Follow these steps to reset username and password."
 search_keyword: "Reset password"

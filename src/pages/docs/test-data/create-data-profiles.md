@@ -1,7 +1,7 @@
 ---
-title: "Create and Use Test Data Profiles"
+title: "Create & Use Test Data Profiles"
 pagetitle: "Create and Use Test Data Profiles"
-metadesc: "This article discusses steps in detail on how to create test data profiles that can be used in a test cases in Testsigma application."
+metadesc: "This article discusses steps in detail on how to create test data profiles that can be used in a test cases in Testsigma application"
 noindex: false
 order: 5.21
 page_id: "Create Test Data Profiles"
@@ -28,8 +28,11 @@ contextual_links:
   name: "Creating Data-Driven Test Cases with Dynamic Data Sets"
   url: "#creating-data-driven-test-cases-with-dynamic-data-sets"
 - type: link
-  name: "Additional Actions Possible on Test Data Set Name"
-  url: "#additional-actions-possible-on-test-data-set-name"
+  name: "Additional Actions on Test Data Set Name"
+  url: "#additional-actions-on-test-data-set-name"
+- type: link
+  name: "Generate Test Data Profile Using Copilot"
+  url: "#generate-test-data-profile-using-copilot"
 ---
 
 ---
@@ -155,3 +158,58 @@ In data-driven testing, you can iterate values from start to end. To iterate fro
 - **Store**: The test data set name associated with a test data profile can be stored in a variable for later use. The syntax for the Store NLP is **store-iteration-count-test-data-set-name**.
 
 - **If Condition**: The test data set values from a test data profile can be used in an if condition. The screenshot below shows the NLP, which can be added as part of the "String Compare" add-on. Find the add-ons to use [here](https://testsigma.com/addons).
+
+---
+
+## **Generate Test Data Profile Using Copilot**
+
+With Testsigma Copilot, you can quickly generate a Test Data Profile. This eliminates the need to manually create multiple test data sets and allows you to focus on more critical aspects while testing. This article discusses generating a Test Data Profile using Testsigma Copilot.
+
+
+### **Prerequisites**
+
+- Ensure you know how to create a test case using copilot in Testsigma.
+
+
+
+### **Steps to Generate Test Data Profile Using Copilot**
+
+1. From the left navigation bar, go to **Create Tests > Test Cases**.
+
+2. Select the **+ icon** next to the **Scenario** where you want to add the test case.
+
+3. On the dialog that opens, enter the test case name and click **Create**.
+
+3. In the **Test Case Details** page, click **Record** to open the **Testsigma Test Recorder** in a new window.
+
+4. Create test steps by performing actions or use **Copilot** to generate steps automatically. *For more information, see [Creating Test Cases Using Copilot](https://testsigma.com/docs/test-cases/create-test-steps/overview/#ai-test-automation-with-testsigma-copilot-).*
+5. When you're done, click **Stop** to end the session. You will be redirected to the **Test Case Details** page.
+
+6. A confirmation dialog will appear.
+   
+   - Select **Convert** to generate a **Test Data Profile** and convert the test case to a data-driven one.
+     ![Gen AI TDP](https://s3.amazonaws.com/static-docs.testsigma.com/new_images/projects/applications/Copilot_TDP_SneakPeak.png)
+   - Once you are satisfied with the data, click **Create and Replace**.
+
+[[info | **NOTE**:]]
+| - You can click **Add more rows** to generate additional data. 
+| - You can also provide prompts to customize the data further. For example, we successfully changed the entire dataset to reflect the Indian context with a simple prompt. 
+| ![Prompt Update](https://s3.amazonaws.com/static-docs.testsigma.com/new_images/projects/applications/GenAI_TDP_Prompt.png)
+
+
+
+### **Steps to Generate Test Data Profile from Test Case Settings**
+
+1. On the **Test Case Details** page, go to **Test Case Settings > Test Data Profile**.
+
+2. Click the **Test Data Profile** dropdown menu.
+
+3. Click **Generate TDP with AI**. This will open the **Test Data Generation** dialog.
+
+4. In the **Test Data Generation** dialog, validate the **Field Names**, then click **Generate**.
+
+5. Wait for the data to be generated. Once you are satisfied with the data, click **Create and Replace**.
+
+6. Your test data in the test steps will be replaced with the generated data.
+
+---
