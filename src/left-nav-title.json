@@ -681,5 +681,6 @@
   "element-learning": {"/docs/windows-lite-automation/element-learning/": "Element Learning with Test Recorder"},
   "test-cases": {"/docs/windows-lite-automation/test-cases/": "Test Cases for Windows (Lite)" },
   "copado-integration": {"/docs/continuous-integration/copado-integration/": "Copado CI/CD" },
-  "features-and-scenarios": {"/docs/test-cases/manage/features-and-scenarios/": "Features & Scenarios" }
+  "features-and-scenarios": {"/docs/test-cases/manage/features-and-scenarios/": "Features & Scenarios" },
+  "key-components": {"/docs/testsigma-tunnel/key-components/": "Components & Requirements" }
 }
