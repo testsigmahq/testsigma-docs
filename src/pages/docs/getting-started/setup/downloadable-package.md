@@ -91,9 +91,9 @@ Since we have UI components and API server separately we need a single applicati
 Testsigma follows API first approach, all APIs are served from this service. This service contains all APIs and business logic to support the Testsigma UI and all other backend processes. Testsigma Server is a Spring Boot application that runs on port 9090 by default. Make sure that 9090 is free. If you want to change the port follow the steps below.  <br>
    
 - Before changing the ports, stop Nginx, Testsigma Server and Testsigma Agent.<br>
-- Navigate to the Nginx folder from the downloaded Testsigma zip and open nginx.conf. In the text http://localhost:9090 replace the port you would like to use and save it.<br>
+- Navigate to the Nginx folder from the downloaded Testsigma zip and open nginx.conf. In the text ```http://localhost:9090``` replace the port you would like to use and save it.<br>
 - Before starting the Testsigma server set the environment variable TESTSIGMA\_SERVER\_PORT to the port you want<br>
-- Before starting the Testsigma agent, set the environment variable LOCAL\_SERVER\_URL to http://localhost:<port> here you can replace <port> with the port you would like to use.<br>
+- Before starting the Testsigma agent, set the environment variable LOCAL\_SERVER\_URL to ```http://localhost:<port>``` here you can replace <port> with the port you would like to use.<br>
    
 ---
 
@@ -101,7 +101,7 @@ Testsigma follows API first approach, all APIs are served from this service. Thi
 
 Testsigma Agent is a microservice that processes test case data and runs tests on browsers and mobile devices. The Testsigma agent runs on ports 9393 (HTTP) and 9494 (HTTPS) by default. If you want to change these ports, follow the steps below: <br>
 - Before changing the ports, stop Nginx, Testsigma Server, and Testsigma Agent.<br>
-- Before starting the Testsigma server you need to set the environment variable LOCAL\_AGENT\_URL= https://localhost:<http\_port>, here you can replace the <http\_port> with the port you want to use for the agent.<br>
+- Before starting the Testsigma server you need to set the environment variable LOCAL\_AGENT\_URL= ```https://localhost:<http_port>```, here you can replace the <http\_port> with the port you want to use for the agent.<br>
 - Before starting the Testsigma agent you need to set the environment variables TESTSIGMA\_AGENT\_HTTP\_PORT for HTTP port and TESTSIGMA\_AGENT\_HTTPS\_PORT for HTTPS port.<br>
 
 ---
@@ -155,7 +155,7 @@ Testsigma Agent is a microservice that processes test case data and runs tests o
 
 ## **Verifying the installation**
 
-Your Testsigma server should be up and running now. Testsigma server will be accessible at https://local.testsigmaos.com/ui
+Your Testsigma server should be up and running now. Testsigma server will be accessible at ```https://local.testsigmaos.com/ui```
 
 ---
 
@@ -165,7 +165,7 @@ Your Testsigma server should be up and running now. Testsigma server will be acc
  2. Delete the Testsigma Installation folder 
  3. Download the latest version from here https://github.com/testsigmahq/testsigma/releases/latest/
  4. Repeat the steps explained in “Step2: Run Services” section
- 5. Now login to check the updated version of Testsigma Server here  https://local.testsigmaos.com/ui
+ 5. Now login to check the updated version of Testsigma Server here  ```https://local.testsigmaos.com/ui```
 
 ---
 

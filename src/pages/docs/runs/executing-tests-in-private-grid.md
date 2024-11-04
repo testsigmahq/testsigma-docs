@@ -102,7 +102,7 @@ To start the **Private Grid Hub**, open the **Terminal** at **Private Grid** fol
 
 <pre><code>java -jar selenium-server-4.13.0.jar hub</code></pre>
 
-Once the **Private Grid** starts, open http://localhost:4444
+Once the **Private Grid** starts, open ```http://localhost:4444```
 
 To start the Web Nodes, open the new tab on the same Terminal and use the following command:
 

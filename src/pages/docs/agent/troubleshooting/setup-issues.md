@@ -1,5 +1,5 @@
 ---
-title: "Troubleshooting Agent startup and registration errors"
+title: "Troubleshooting Agent Startup & Registration Errors"
 metadesc: "Common Agent startup or registration issues and how to troubleshoot them. Learn how to resolve issue if the Agent stops working, or is starts and terminating immediately"
 noindex: false
 order: 11.91
@@ -92,8 +92,8 @@ You will see the following output:![process id](https://s3.amazonaws.com/static-
 
 Once the Testsigma Agent is started, Testsigma Agent web UI is accessible at
 
-- <http://localhost:8383/agent> (HTTP) OR
-- <https://local.testsigmaagent.com:8484/agent/> (HTTPS).
+- ```http://localhost:8383/agent``` (HTTP) OR
+- ```https://local.testsigmaagent.com:8484/agent/``` (HTTPS).
 
 Try accessing the above localhost URLs after starting the agent.
 
@@ -102,7 +102,7 @@ The reason behind doing so is to understand if the agent is accessible and has a
 If the above pages are accessible, proceed to the next step.
 
 
-But if <kbd>https://local.testsigmaagent.com:8484/agent/</kbd> is unreachable but <kbd>http://127.0.0.1:8383/agent/ </kbd>is reachable, the following entry needs to be added to hosts file:
+But if ```https://local.testsigmaagent.com:8484/agent/``` is unreachable but ```http://127.0.0.1:8383/agent/``` is reachable, the following entry needs to be added to hosts file:
 
 `127.0.0.1    local.testsigmaagent.com`
 
