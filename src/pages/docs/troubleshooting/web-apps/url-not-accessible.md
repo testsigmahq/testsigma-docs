@@ -31,7 +31,7 @@ In the above scenarios, Testsigma's cloud servers will not be able to access the
 
 ### **Follow these steps to automate locally hosted applications:**
 
-1. If your application is deployed only on your local machine and is not publicly accessible, for example, **http://localhost:8080**. This is a locally hosted application. No one else can access it via the internet. For more information, refer the following:
+1. If your application is deployed only on your local machine and is not publicly accessible, for example, ```http://localhost:8080```. This is a locally hosted application. No one else can access it via the internet. For more information, refer the following:
     - [Dry Runs on Local Devices](https://testsigma.com/docs/runs/dry-runs-on-local-devices/) 
     - [Test Plans on Local Devices](https://testsigma.com/docs/runs/test-plans-on-local-devices/)
 
@@ -44,17 +44,17 @@ In the above scenarios, Testsigma's cloud servers will not be able to access the
 
 If you are not able to access URL's from using the extension, you may have one of the below issues:
 
-**What to do for chrome extension error "Not able to record as third-party cookies are blocked by the browser"?**
+1. **What to do for chrome extension error "Not able to record as third-party cookies are blocked by the browser"?**
 
-Go to this URL in Chrome **chrome://settings/cookies** and select **Allow all cookies** or **Block third-party cookies incognito**, you should not see this error post this.
+   **Sol:** Go to this URL in Chrome **chrome://settings/cookies** and select **Allow all cookies** or **Block third-party cookies incognito**, you should not see this error post this.
 
-<iframe src="https://docs.testsigma.com/videos/url-not-accesible/Allow_cookies_or_Block_thirdparty_cookies.mp4" width="300" height="200"></iframe>
+   <iframe src="https://docs.testsigma.com/videos/url-not-accesible/Allow_cookies_or_Block_thirdparty_cookies.mp4" width="300" height="200"></iframe>
 
-**What to do for chrome extensions error "Not able to access local files and urls"?**
+2. **What to do for chrome extensions error "Not able to access local files and urls"?**
 
-Please go to the following Extensions icon in **Chrome > Manage Extenstion > Testsigma Extension > Details** and Toggle on **Allow access to File URL’s**
+   **Sol:** Go to the following Extensions icon in **Chrome > Manage Extenstion > Testsigma Extension > Details** and Toggle on **Allow access to File URL’s**
 
-<iframe src="https://docs.testsigma.com/videos/url-not-accesible/Local_File_access.mp4" width="300" height="200"></iframe>
+   <iframe src="https://docs.testsigma.com/videos/url-not-accesible/Local_File_access.mp4" width="300" height="200"></iframe>
 
 
 ---
