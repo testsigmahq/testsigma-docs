@@ -34,7 +34,101 @@ To prevent issues during testing, ensure the app accesses these entitlements pro
 
 ### **2. Handling Keychain Access Groups**
 
-Resigning the app changes the Team ID, which can cause issues if keychain access groups are hardcoded. To avoid this, ensure that the Team ID is retrieved programmatically during runtime instead of relying on fixed values. 
+While resigning the app, Testsigma uses a wildcard Team ID, which may conflict with the access group expected by the app, resulting in a keychain access error. 
+
+![Error](https://s3.amazonaws.com/static-docs.testsigma.com/new_images/projects/applications/errormsgipa.gif)
+
+### **Generic Error Message:**
+
+```
+<Notice>: [App Name][PID]/1#4 LF=0 copy_matching Error
+Domain=NSOSStatusErrorDomain Code=-34018
+"Client explicitly specifies access group [App-Specific-Access-Group] but is only entitled for (
+    "[Testsigma-TeamId].*",
+    "com.apple.token"
+)"
+UserInfo={numberOfErrorsDeep=0, NSDescription=Client explicitly specifies access group
+[App-Specific-Access-Group] but is only entitled for (
+    "[Testsigma-TeamId].*",
+    "com.apple.token"
+)}
+<Notice>: ERROR ::: KeyChainTokenStore ::: getUser Failed: The operation couldn't be completed. (OSStatus error -34018.)
+
+```
+
+### **How to Avoid this Error?**
+Modify the app in such a way that it dynamically retrieves the Team ID from its entitlements instead of hardcoding it. This flexibility ensures compatibility with Testsigma’s resigning process.
+
+### **Examples for Dynamic Retrieval**
+
+**Example 1:**
+```
+import Foundation
+
+func getTeamIDFromEntitlements() -> String? {
+    guard let entitlements = Bundle.main.infoDictionary else {
+        return nil
+    }
+    if let teamID = entitlements["AppIdentifierPrefix"] as? [String] {
+        return teamID.first?.trimmingCharacters(in: .whitespaces)
+    }
+    return nil
+}
+
+// Usage
+if let teamID = getTeamIDFromEntitlements() {
+    print("Team ID: \(teamID)")
+} else {
+    print("Failed to retrieve Team ID")
+}
+
+```
+
+**Example 2:**
+
+```
+import Foundation
+import Security
+
+class KeychainHelper {
+    static let shared = KeychainHelper()
+    
+    enum KeyChainAccessError: Error {
+        case accessGroupNotFound
+    }
+    
+    func getAccessGroup() throws -> String {
+        guard let path = Bundle.main.path(forResource: "sample_keychain_access", ofType: "entitlements") else {
+            print("Entitlements file path not found.")
+            throw KeyChainAccessError.accessGroupNotFound
+        }
+
+        print("Entitlements file path: \(path)")
+
+        guard let dict = NSDictionary(contentsOfFile: path) as? [String: Any] else {
+            print("Failed to read contents of the entitlements file.")
+            throw KeyChainAccessError.accessGroupNotFound
+        }
+
+        print("Entitlements contents: \(dict)")
+
+        guard let accessGroups = dict["keychain-access-groups"] as? [String],
+              let accessGroup = accessGroups.first else {
+            print("No access groups found.")
+            throw KeyChainAccessError.accessGroupNotFound
+        }
+
+        return accessGroup
+    }
+}
+```
+
+### **Dynamic Prefix for App Identifier**
+In the example below, **Item 1** provides explicit app identifier prefixes, minimizing risks, while **Item 2** leads to ambiguity. It is recommended that you follow **Item 1** to  avoid the error. 
+![Dynamic Prefix](https://s3.amazonaws.com/static-docs.testsigma.com/new_images/projects/applications/ipafiledynamicprefix.png)
+
+
+Using a flexible approach to access group verification like retrieving the Team ID programmatically and applying a wildcard format, the app can be made compatible with Testsigma's resigning process. This approach reduces errors like `OSStatus error -34018` and ensures a smoother testing experience across various environments.
 
 
 ---
