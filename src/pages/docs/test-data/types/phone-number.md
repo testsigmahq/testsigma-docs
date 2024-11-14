@@ -29,10 +29,15 @@ The phone number data type is used to automate two-factor authentication (2FA) a
 
 ---
 
-## **Prerequisites**
-- You should be familiar with regular expressions. Refer to the [regex guide](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Guide/Regular_Expressions).
+> ## **Prerequisites**
+> 
+> - You should be familiar with regular expressions. Refer to the [regex guide](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Guide/Regular_Expressions).
 
-- Contact **support@testsigma.com** to get a phone number.
+[[info | NOTE:]]
+| - You can enable Phone Number for your account by contacting **support@testsigma.com** or using the **instant chat** option.
+| - You can now access the Phone Numbers outside of test executions. This allows you to retrieve messages, OTPs, and authentication codes when you enable the toggle.
+| - For test executions, the toggle does not affect the execution. The test will continue to run regardless of whether the toggle is enabled or not.
+
 
 ---
 
@@ -75,9 +80,9 @@ Providing phone numbers for OTP and login purposes is restricted in certain coun
 
 ---
 
-## **Prerequisites**
-
-- You should have Testsigma SMS Forwarder application.
+> ## **Prerequisites**
+>
+> - You should have Testsigma SMS Forwarder application.
 
 
 ---
