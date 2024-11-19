@@ -22,11 +22,9 @@ Testsigma Copado integration allows you to trigger test plan execution every tim
 
 ---
 
-## **Prerequisites**
-> Before you proceed, ensure you the following:
-> - An [API](https://testsigma.com/docs/configuration/api-keys/#steps-to-generate-api-key) Key from your Testsigma account.
-> - [Test Cases](https://testsigma.com/docs/test-cases/create-test-steps/overview/) for Salesforce in Testsigma. 
-> - A [Test Plan](https://testsigma.com/docs/test-management/test-plans/overview/) in your Salesforce project. 
+> ## **Prerequisites**
+> 
+> Before you begin, ensure you are familiar with the concepts of [Test Cases](https://testsigma.com/docs/test-cases/manage/add-edit-delete/) for Salesforce, [Test Plans](https://testsigma.com/docs/test-management/test-plans/overview/) for Salesforce, and [Generating API Keys](https://testsigma.com/docs/configuration/api-keys/#steps-to-generate-api-key) in Testsigma.
 
 ---
 

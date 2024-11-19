@@ -337,10 +337,10 @@
     "/docs/continuous-integration/codeship-ci/": "CodeShip CI"
   },
   "github-cicd": {
-    "/docs/continuous-integration/github-cicd/": "GitHub CICD"
+    "/docs/continuous-integration/github-cicd/": "GitHub CI/CD"
   },
   "bitbucket-ci": {
-    "/docs/continuous-integration/bitbucket-ci/": "Bitbucket CICD"
+    "/docs/continuous-integration/bitbucket-ci/": "Bitbucket CI/CD"
   },
   "gitlab-cicd": {
     "/docs/continuous-integration/gitlab-cicd/": "GitLab CI/CD"
@@ -683,5 +683,6 @@
   "copado-integration": {"/docs/continuous-integration/copado-integration/": "Copado CI/CD" },
   "features-and-scenarios": {"/docs/test-cases/manage/features-and-scenarios/": "Features & Scenarios" },
   "key-components": {"/docs/testsigma-tunnel/key-components/": "Components & Requirements" },
-  "basic-authentication-safari": {"/docs/desired-capabilities/basic-authentication-safari/": "Basic Authentication [Safari]" }
+  "basic-authentication-safari": {"/docs/desired-capabilities/basic-authentication-safari/": "Basic Authentication [Safari]" },
+  "gearset": {"/docs/continuous-integration/gearset/": "Gearset CI/CD" }
 }
