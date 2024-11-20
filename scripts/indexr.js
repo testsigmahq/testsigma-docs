@@ -1,8 +1,8 @@
-require("dotenv").config({
+require('dotenv').config({
   path: `.env`,
 });
-const Typesense = require("typesense");
-const { request } = require("graphql-request");
+const Typesense = require('typesense');
+const { request } = require('graphql-request');
 
 const pageQuery = `
   query {
@@ -13,7 +13,7 @@ const pageQuery = `
     ) {
       edges {
         node {
-          headings(depth: h3) {
+          headings(depth: h4) {
             value
           }
           objectID: id
@@ -29,7 +29,7 @@ const pageQuery = `
           fields {
             slug
           }
-          excerpt(pruneLength: 100)
+          excerpt(pruneLength: 200000)
         }
       }
     }
@@ -39,13 +39,13 @@ const pageQuery = `
 function pageToTypesenseRecord({ node }) {
   const { id, frontmatter, fields = {}, headings = [], ...rest } = node;
 
-  const formattedHeadings = headings.map((h) => h.value || "").filter(Boolean);
+  const formattedHeadings = headings.map((h) => h.value || '').filter(Boolean);
   return {
     objectID: id,
-    title: frontmatter.title || "",
-    search_keyword: String(frontmatter.search_keyword || ""),
-    slug: fields.slug || "",
-    excerpt: frontmatter.excerpt || "",
+    title: frontmatter.title || '',
+    search_keyword: String(frontmatter.search_keyword || ''),
+    slug: fields.slug || '',
+    excerpt: frontmatter.excerpt || '',
     headings: formattedHeadings,
     ...rest,
   };
@@ -84,12 +84,12 @@ async function indexData() {
     await client.collections().create({
       name: process.env.TYPESENSE_COLLECTION,
       fields: [
-        { name: "objectID", type: "string" },
-        { name: "title", type: "string" },
-        { name: "search_keyword", type: "string" },
-        { name: "slug", type: "string" },
-        { name: "excerpt", type: "string" },
-        { name: "headings", type: "string[]", facet: false },
+        { name: 'objectID', type: 'string' },
+        { name: 'title', type: 'string' },
+        { name: 'search_keyword', type: 'string' },
+        { name: 'slug', type: 'string' },
+        { name: 'excerpt', type: 'string' },
+        { name: 'headings', type: 'string[]', facet: false },
       ],
     });
     console.log(
@@ -97,10 +97,10 @@ async function indexData() {
     );
 
     const response = await request(
-      "http://127.0.0.1:8000/___graphql",
+      'http://127.0.0.1:8000/___graphql',
       pageQuery
     );
-    console.log("response", response);
+    console.log('response', response);
     const data = await response;
 
     const records = data.docs.edges.map(pageToTypesenseRecord);
@@ -111,16 +111,16 @@ async function indexData() {
       .import(records)
       .then((typesenseResponse) => {
         // check the output of the response in the console
-        console.log("typesenseResponse", typesenseResponse);
+        console.log('typesenseResponse', typesenseResponse);
         console.log(`🎉 Successfully indexed records to Typesense search.`);
       })
       .catch((error) => {
         console.error(error);
       });
 
-    console.log("Indexing complete!");
+    console.log('Indexing complete!');
   } catch (error) {
-    console.error("Indexing error:", error);
+    console.error('Indexing error:', error);
   }
 }
 
