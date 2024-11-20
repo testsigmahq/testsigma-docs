@@ -47,12 +47,14 @@ Testsigma provides a digital inbox called Mail Box to verify OTP accuracy, check
 
 ---
 
-## **Prerequisites**
-
-Before using Mailbox Test Data, ensure that you understand specific concepts such as creating a [Test Case](https://testsigma.com/docs/test-cases/manage/add-edit-delete/#creating-a-test-case), managing [Test Steps](https://testsigma.com/docs/test-cases/step-types/natural-language/), and effectively using them with [Test Data Types](https://testsigma.com/docs/test-data/types/overview/) and [Data Generators](https://testsigma.com/docs/test-data/types/data-generator/). Additionally, familiarise yourself with [Regular expressions](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Guide/Regular_Expressions) if necessary.
+> ## **Prerequisites**
+> 
+> Before using Mailbox Test Data, ensure that you understand specific concepts such as creating a [Test Case](https://testsigma.com/docs/test-cases/manage/add-edit-delete/#creating-a-test-case), managing [Test Steps](https://testsigma.com/docs/test-cases/step-types/natural-language/), and effectively using them with [Test Data Types](https://testsigma.com/docs/test-data/types/overview/) and [Data Generators](https://testsigma.com/docs/test-data/types/data-generator/). Additionally, familiarise yourself with [Regular expressions](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Guide/Regular_Expressions) if necessary.
 
 [[info | NOTE:]]
-| You can enable Mail Box for your account by contacting **support@testsigma.com** or using the **instant chat** option.
+| - You can enable Mail Box for your account by contacting **support@testsigma.com** or using the **instant chat** option.
+| - You can now access the Mail Box & Phone Numbers outside of test executions. This allows you to retrieve messages, OTPs, and authentication codes when you enable the toggle. 
+| - For test executions, the toggle does not affect the execution. The test will continue to run regardless of whether the toggle is enabled or not.
 
 ---
 
@@ -83,7 +85,8 @@ Here is a quick GIF demonstrating the above workflow:
 ![Fetch OTP from Mail Box](https://s3.amazonaws.com/static-docs.testsigma.com/new_images/projects/applications/fetchotp_mailbox.gif)
 
 [[info | NOTE:]]
-| You must perform both [Add Mail Box in Test Step](https://testsigma.com/docs/test-data/types/mailbox/#add-mailbox-in-test-step) and [Fetch OTP from Mail Box](https://testsigma.com/docs/test-data/types/mailbox/#fetch-otp-from-mailbox) for Two-Factor Authentication.
+| - You must perform both [Add Mail Box in Test Step](https://testsigma.com/docs/test-data/types/mailbox/#add-mailbox-in-test-step) and [Fetch OTP from Mail Box](https://testsigma.com/docs/test-data/types/mailbox/#fetch-otp-from-mailbox) for Two-Factor Authentication.
+
 
 ---
 

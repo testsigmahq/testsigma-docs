@@ -16,6 +16,9 @@ contextual_links:
   name: "Use Test Step Settings"
   url: "#use-test-step-settings"
 - type: link
+  name: "Configuring Global Timeouts (New)"
+  url: "#configuring-global-timeouts-new"
+- type: link
   name: "Update Step Settings"
   url: "#update-step-settings"
 ---
@@ -60,6 +63,23 @@ Here’s a quick GIF demonstrating how to access & update the test step settings
 
 ---
 
+## **Configuring Global Timeouts (New)**
+
+The following table outlines how the **Global Step Timeout** settings & **Test Step Timeout** interact based on different configurations.
+
+| Scenario | Test Step Timeout                        | Global Step Timeout | Toggle | Outcome                                                                                     |
+|----------|-----------------------------------------|----------------------|--------|---------------------------------------------------------------------------------------------|
+| **Case 1**   | 30 seconds (default)                    | 30 seconds (default)| OFF    | Global timeout (30 seconds) applies universally, as it matches the default step timeout.    |
+| **Case 2**   | 30 seconds (default)                    | 60 seconds          | OFF    | Global timeout (60 seconds) applies, as it overrides the default step timeout (30 seconds). |
+| **Case 3**   | Some steps customized, some unchanged   | Updated value       | OFF    | Customized steps use their specific timeouts and steps without custom timeouts use the global timeout. |
+| **Case 4**   | Some steps customized, some unchanged   | Any value           | ON     | Global timeout applies to all steps, overriding step-specific timeouts.                     |
+
+
+Refer to the screenshot below to enable the **Global Step Timeout** toggle in the **Additional Settings** section of the **Adhoc Run** overlay.
+
+![Global Timeouts](https://s3.amazonaws.com/static-docs.testsigma.com/new_images/projects/applications/Global_Settings.png)
+
+---
 ## **Update Step Settings**
 
 To update several test steps, click the **checkboxes** next to the **test steps** you want to update and then click on **Update Settings** in the menu bar to open a popup window where you can make changes to the settings. ![Update Step Settings](https://s3.amazonaws.com/static-docs.testsigma.com/new_images/projects/applications/update_testsettings.gif)
