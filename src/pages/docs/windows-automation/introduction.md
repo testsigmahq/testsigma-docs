@@ -3,7 +3,7 @@ title: "Intro: Windows Desktop Automation"
 page_title: "Introduction: Windows Desktop Automation"
 metadesc: "Testsigma simplifies Windows Automation with special NLPs & object based authoring | This article discusses how to create & execute tests for Windows Automation"
 noindex: false
-order: 30.1
+order: 31.1
 page_id: "Testsigma for Windows Automation"
 warning: false
 contextual_links:
@@ -33,14 +33,10 @@ You can also quickly jump to one of the following topics to learn about Windows 
 ---
 
 > ## **Prerequisites**
-> 
-> - A Licensed Version of UFT One
-> 
-> - [Testsigma Agent](https://testsigma.com/docs/agent/overview/)
-> 
-> - A Windows Based Desktop Application
+>
+> Before you begin, ensure you have a licensed version of UFT One, [Testsigma Agent](https://testsigma.com/docs/agent/overview/) installed, and a Windows based Desktop application. 
 
----
+--- 
 
 ## **Getting Started** 
 - [Creating a Windows Project](https://testsigma.com/docs/windows-automation/project-and-application/)

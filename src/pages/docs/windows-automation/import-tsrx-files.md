@@ -3,7 +3,7 @@ title: "Importing/Updating TSRx Files into Testsigma"
 page_title: "Import TSRx Files"
 metadesc: "For Windows Advanced automation, you need to have objects captured in TSRx format. This article discusses how to import TSRx files into Testsigma application"
 noindex: false
-order: 30.5
+order: 31.5
 page_id: "Import TSRx Files"
 warning: false
 contextual_links:
@@ -26,10 +26,8 @@ Once the TSRx file is ready, you can import it with just a few clicks and start 
 ---
 
 > ## **Prerequisites**
-> 
-> - A Windows Project in Testsigma
-> 
-> - TSRx File to Import
+>
+> Before you begin, ensure you have a Windows Project and a TSRx File to Import. 
 
 ---
 

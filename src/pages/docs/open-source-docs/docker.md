@@ -3,7 +3,7 @@ title: "Testsigma Docker Setup"
 page_title: "Testsigma Community Edition Docker Setup"
 metadesc: "Learn how to set up Testsigma Server and MySQL as docker containers using Docker Compose | Easiest way to set up Testsigma on your local machines"
 noindex: false
-order: 32.3
+order: 33.3
 page_id: "Testsigma Docker Setup"
 warning: false
 contextual_links:
@@ -41,9 +41,9 @@ This guide will help you setup [Testsigma Server](https://github.com/testsigmahq
 
 ---
 
-## **Prerequisites**
-  * [Docker](https://docs.docker.com/install/)
-  * [Docker Compose](https://docs.docker.com/compose/install/)
+> ## **Prerequisites**
+> 
+>  Before you begin, ensure you have installed [Docker](https://docs.docker.com/install/) and [Docker Compose](https://docs.docker.com/compose/install/).
 
 ---
 

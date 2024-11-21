@@ -3,7 +3,7 @@ title: "Converting TSR Files to TSRx"
 page_title: "Converting TSR Files to TSRx"
 metadesc: "To automate windows advanced applications, you need to have objects captured in TSRx format. This article discusses how to convert TSR files to TSRx using ORAppModelConverter"
 noindex: false
-order: 30.4
+order: 31.4
 page_id: "Converting TSR Files to TSRx"
 warning: false
 contextual_links:

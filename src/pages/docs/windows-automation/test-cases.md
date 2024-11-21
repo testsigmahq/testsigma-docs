@@ -3,7 +3,7 @@ title: "Test Cases for Windows Automation"
 page_title: "Test Cases for Windows Automation"
 metadesc: "With Testsigma, you can create & execute tests for Windows Applications from the cloud using Testsigma Agent | Learn how to build tests for Windows Automation"
 noindex: false
-order: 30.6
+order: 31.6
 page_id: "Test Cases for Windows Automation"
 warning: false
 contextual_links:
@@ -28,12 +28,8 @@ In case you have missed it, refer to [learning objects 🔍](https://testsigma.c
 ---
 
 > ## **Prerequisites**
-> 
-> - A Windows Application 
 >
-> - TSRx File Imported into Elements
-> 
-> - Testsigma Agent Setup
+> Before you begin, ensure you have a Windows project, a TSRx File to import and Testsigma Agent setup.
 
 ---
 

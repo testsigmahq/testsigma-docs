@@ -1,7 +1,7 @@
 ---
 title: "Reset Password"
 page_title: "How to reset password in Testsigma Community Edition"
-order: 32.4
+order: 33.4
 page_id: "Reset password"
 metadesc: "Learn steps in detail on how to reset username and password in Testsigma Community Edition. Follow these steps to reset username and password."
 search_keyword: "Reset password"
@@ -35,11 +35,11 @@ contextual_links:
 
 ---
 
-## [Prerequisite](#zip-prerequisite)
-   1. Download the testsigma_opensource latest build [click here](https://testsigma.com/docs/getting-started/setup/downloadable-package/)
-   2. Run nginx server
-   3. Run testsigma server
-   4. Register with username and password
+> ## [Prerequisite](#zip-prerequisite)
+>   1. Download the testsigma_opensource latest build [click here](https://testsigma.com/docs/getting-started/setup/downloadable-package/)
+>   2. Run nginx server
+>   3. Run testsigma server
+>   4. Register with username and password
 
 ---
 

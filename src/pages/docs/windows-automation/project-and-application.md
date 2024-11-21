@@ -3,7 +3,7 @@ title: "Creating a Windows Project & Application"
 page_title: "Create a Windows Project & App"
 metadesc: "Testsigma supports various apps, including Web, Mobile Web, Android, iOS, Salesforce, Windows, & APIs | This article discusses how to create a Windows Advanced app"
 noindex: false
-order: 30.2
+order: 31.2
 page_id: "Testsigma for Windows Automation"
 warning: false
 contextual_links:
@@ -30,10 +30,9 @@ This article discusses creating a project and adding a Windows (Advanced) applic
 ---
 
 > ## **Prerequisites**
-> 
-> - A Windows Machine with Testsigma Agent
-> 
-> - A Licensed Version of UFT One
+>
+> Before you begin, ensure you have a licensed version of UFT One and a Windows machine with Testsigma Agent. 
+
 
 ---
 

@@ -684,5 +684,8 @@
   "features-and-scenarios": {"/docs/test-cases/manage/features-and-scenarios/": "Features & Scenarios" },
   "key-components": {"/docs/testsigma-tunnel/key-components/": "Components & Requirements" },
   "basic-authentication-safari": {"/docs/desired-capabilities/basic-authentication-safari/": "Basic Authentication [Safari]" },
-  "gearset": {"/docs/continuous-integration/gearset/": "Gearset CI/CD" }
+  "gearset": {"/docs/continuous-integration/gearset/": "Gearset CI/CD" },
+  "copilot": {"/docs/genai-capabilities/copilot/": "Testsigma Copilot"},
+  "genai-capabilities": {"/docs/genai-capabilities/": "GenAI Capabilities" },
+  "generate-tdp": {"/docs/genai-capabilities/generate-tdp/": "Generate TDP Using Copilot"}
 }
