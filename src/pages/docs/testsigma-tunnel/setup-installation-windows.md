@@ -2,7 +2,7 @@
 title: "Setup and Installation: Windows"
 metadesc: "Learn how to set up & use Testsigma Tunnel (windows) for testing of locally hosted applications across real browsers, bypassing firewalls & proxy restrictions."
 noindex: false
-order: 31.4
+order: 32.4
 page_id: "Testsigma Tunnel Setup: Windows"
 warning: false
 contextual_links:
