@@ -27,8 +27,9 @@ With SSO, you are not required to store and manage passwords for the websites yo
 ---
 
 
-## **Prerequisites**
-- You should have an active Testsigma account.
+> ## **Prerequisites**
+>
+> Before you begin, ensure you have an active Testsigma account.
 
 
 ---

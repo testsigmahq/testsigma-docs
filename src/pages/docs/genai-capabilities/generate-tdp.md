@@ -47,7 +47,11 @@ With Testsigma Copilot, you can quickly generate a Test Data Profile. This elimi
    
    - Select **Convert** to generate a **Test Data Profile** and convert the test case to a data-driven one.
      ![Gen AI TDP](https://s3.amazonaws.com/static-docs.testsigma.com/new_images/projects/applications/Copilot_TDP_SneakPeak.png)
-   - Once you are satisfied with the data, click **Create and Replace**.
+     
+     Alternatively, you can generate a **Test Data Profile** by selecting **Generate TDP with AI** from the dropdown menu under **Test Case Settings > Test Data Profile** in the **Right Utility Panel**. 
+     ![Generate TDP from Test Case Settings](https://s3.amazonaws.com/static-docs.testsigma.com/new_images/projects/applications/Generate_TDP_from_TC_Settings.png)
+     
+   - Once you are satisfied with the data, click **Create and Replace**. 
 
 [[info | **NOTE**:]]
 | - You can click **Add more rows** to generate additional data. 

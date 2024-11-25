@@ -69,7 +69,7 @@ Testsigma Copilot redefines test automation with the power of generative AI 🤖
 
 9.  Modify the test steps as per the desired test case behavior. Once the necessary modifications are done, click **Stop** to return to the test case details page.
     
-    ![Stop](https://s3.amazonaws.com/static-docs.testsigma.com/new_images/projects/applications/Stop_Rec_AI_TestSteps.png)
+    ![Stop](https://s3.amazonaws.com/static-docs.testsigma.com/new_images/projects/applications/Stop_Rec_GenAI.png)
 
 ---
 
