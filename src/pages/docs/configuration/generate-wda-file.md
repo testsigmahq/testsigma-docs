@@ -39,11 +39,11 @@ WebDriverAgent (WDA) plays an important role in automating iOS tests. It bridges
 
 2. Open **WDA Xcode Project** in **Xcode**. 
 
-![Xcode Project](https://s3.amazonaws.com/static-docs.testsigma.com/new_images/projects/applications/repimgwda.png)
+   ![Xcode Project](https://s3.amazonaws.com/static-docs.testsigma.com/new_images/projects/applications/repimgwda.png)
 
 3. On **Signing & Capabilities**, add Apple Account for wherever necessary in **Target OS & Integrations**.
 
-![Signing & Capabilities](https://s3.amazonaws.com/static-docs.testsigma.com/new_images/projects/applications/setcap.png)
+   ![Signing & Capabilities](https://s3.amazonaws.com/static-docs.testsigma.com/new_images/projects/applications/setcap.png)
 
 4. Once the signing is done, run the following command to build the latest WDA WebDriverAgent. This command will build the WDA project and prepare it for testing. 
 
@@ -68,16 +68,16 @@ Locate the **Products** folder within the Xcode derived data directory. The path
 
 6. Generating a New WDA for Installation
 
-Run the following commands to create a new WDA package for installation. 
+   Run the following commands to create a new WDA package for installation. 
 
-  ```
+    ```
     xcodebuild -scheme WebDriverAgentRunner -sdk iphoneos -configuration Release -derivedDataPath /tmp/derivedDataPath
     cd /tmp/derivedDataPath/Build/Products/Release-iphoneos
     mkdir -p Payload
     mv WebDriverAgentRunner-Runner Payload
     zip Payload wda.zip
     mv wda.zip wda.ipa
-  ```
+    ```
 
 The above commands will generate a new **wda.ipa** file.
 

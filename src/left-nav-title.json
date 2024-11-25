@@ -687,5 +687,7 @@
   "gearset": {"/docs/continuous-integration/gearset/": "Gearset CI/CD" },
   "copilot": {"/docs/genai-capabilities/copilot/": "Testsigma Copilot"},
   "genai-capabilities": {"/docs/genai-capabilities/": "GenAI Capabilities" },
-  "generate-tdp": {"/docs/genai-capabilities/generate-tdp/": "Generate TDP Using Copilot"}
+  "generate-tdp": {"/docs/genai-capabilities/generate-tdp/": "Generate TDP Using Copilot"},
+  "smtp-configuration": {"/docs/configuration/smtp-configuration/": "SMTP Configuration"},
+  "generate-wda-file": {"/docs/configuration/generate-wda-file/": "Create WDA File" }
 }

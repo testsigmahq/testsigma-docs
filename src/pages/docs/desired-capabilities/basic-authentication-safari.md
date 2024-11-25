@@ -64,4 +64,8 @@ Safari restricts automated Basic Authentication login by blocking credentials in
 4. After execution completes, refer to the screenshot captured at the test step level.
    ![Screenshot of Execution](https://s3.amazonaws.com/static-docs.testsigma.com/new_images/projects/applications/Screenshot_Run_BA.png)
 
+
+[[info | **NOTE**:]]
+| This capability is available only for the Safari browser.
+
 ---

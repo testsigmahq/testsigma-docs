@@ -46,7 +46,7 @@ This article discusses generating end to end automated test cases based on user 
 6. Perform the actions for which you want to create test cases. 
 
 [[info | **NOTE**:]]
-| Test case generation is available only for **1 minute & 30 seconds**.
+| The recording option for user actions is available only for **1 minute and 30 seconds**.
 
 7. Wait while Copilot generates the test cases.
 
