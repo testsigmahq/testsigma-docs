@@ -1,8 +1,8 @@
-name: 'Staging CD'
+name: "Staging CD"
 on:
   push:
     branches:
-      - 'dev'
+      - "dev"
 jobs:
   StagingDeploy:
     runs-on: ubuntu-latest
@@ -15,14 +15,14 @@ jobs:
       - name: Setup Node 18
         uses: actions/setup-node@v2
         with:
-          node-version: '18'
+          node-version: "18"
       - name: Install dependencies
         run: |
           rm -rf .cache node_modules
           npm i --force --unsafe-perm
       - name: Force installing sharp
         run: npm install --ignore-scripts=false --verbose sharp@0.30.7 --unsafe-perm --force
-      - name: 'Create env file'
+      - name: "Create env file"
         run: |
           rm -rf .env
           touch .env
@@ -44,11 +44,11 @@ jobs:
         run: sed -i 's/localhost/website.testsigma.com/g' src/environment.ts
       - name: Build
         run: |
-          PREFIX_PATHS=true npm run clean && npm run build && npm run deploy
+          PREFIX_PATHS=true npm run build && npm run deploy
         env:
           AWS_ACCESS_KEY_ID: ${{ secrets.WEBSITE_STAGING_AWS_ACCESS_KEY_ID }}
           AWS_SECRET_ACCESS_KEY: ${{ secrets.WEBSITE_STAGING_AWS_SECRET_ACCESS_KEY }}
-          AWS_DEFAULT_REGION: 'us-east-1'
+          AWS_DEFAULT_REGION: "us-east-1"
           AWS_DEFAULT_OUTPUT: json
           TYPESENSE_HOST: ${{ secrets.WEBSITE_STAGING_TYPESENSE_HOST }}
           TYPESENSE_PORT: ${{ secrets.WEBSITE_STAGING_TYPESENSE_PORT }}
