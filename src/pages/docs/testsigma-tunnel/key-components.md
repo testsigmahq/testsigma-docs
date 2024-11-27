@@ -2,7 +2,7 @@
 title: "Key Components & System Requirements"
 metadesc: "Ensure seamless connection of Testsigma tunnel by understanding these key components and system requirements for testing locally hosted applications."
 noindex: false
-order: 31.2
+order: 32.2
 page_id: "Testsigma Tunnel: Key Components"
 warning: false
 contextual_links:

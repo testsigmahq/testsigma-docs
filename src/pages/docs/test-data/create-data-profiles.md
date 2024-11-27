@@ -30,9 +30,6 @@ contextual_links:
 - type: link
   name: "Additional Actions on Test Data Set Name"
   url: "#additional-actions-on-test-data-set-name"
-- type: link
-  name: "Generate Test Data Profile Using Copilot"
-  url: "#generate-test-data-profile-using-copilot"
 ---
 
 ---
@@ -41,9 +38,9 @@ Test data profiles can significantly enhance the efficiency of your testing proc
 
 ---
 
-## **Prerequisites**
-
-You should know how to create a [test case](https://testsigma.com/docs/test-cases/manage/add-edit-delete/) in Testsigma.
+> ## **Prerequisites**
+>
+> Before you begin, ensure you're familiar with concepts of [Test Cases](https://testsigma.com/docs/test-cases/manage/add-edit-delete/) in Testsigma.
 
 ---
 
@@ -160,43 +157,6 @@ In data-driven testing, you can iterate values from start to end. To iterate fro
 - **If Condition**: The test data set values from a test data profile can be used in an if condition. The screenshot below shows the NLP, which can be added as part of the "String Compare" add-on. Find the add-ons to use [here](https://testsigma.com/addons).
 
 ---
-
-## **Generate Test Data Profile Using Copilot**
-
-With Testsigma Copilot, you can quickly generate a Test Data Profile. This eliminates the need to manually create multiple test data sets and allows you to focus on more critical aspects while testing. This article discusses generating a Test Data Profile using Testsigma Copilot.
-
-
-### **Prerequisites**
-
-- Ensure you know how to create a test case using copilot in Testsigma.
-
-
-
-### **Steps to Generate Test Data Profile Using Copilot**
-
-1. From the left navigation bar, go to **Create Tests > Test Cases**.
-
-2. Select the **+ icon** next to the **Scenario** where you want to add the test case.
-
-3. On the dialog that opens, enter the test case name and click **Create**.
-
-3. In the **Test Case Details** page, click **Record** to open the **Testsigma Test Recorder** in a new window.
-
-4. Create test steps by performing actions or use **Copilot** to generate steps automatically. *For more information, see [Creating Test Cases Using Copilot](https://testsigma.com/docs/test-cases/create-test-steps/overview/#ai-test-automation-with-testsigma-copilot-).*
-5. When you're done, click **Stop** to end the session. You will be redirected to the **Test Case Details** page.
-
-6. A confirmation dialog will appear.
-   
-   - Select **Convert** to generate a **Test Data Profile** and convert the test case to a data-driven one.
-     ![Gen AI TDP](https://s3.amazonaws.com/static-docs.testsigma.com/new_images/projects/applications/Copilot_TDP_SneakPeak.png)
-   - Once you are satisfied with the data, click **Create and Replace**.
-
-[[info | **NOTE**:]]
-| - You can click **Add more rows** to generate additional data. 
-| - You can also provide prompts to customize the data further. For example, we successfully changed the entire dataset to reflect the Indian context with a simple prompt. 
-| ![Prompt Update](https://s3.amazonaws.com/static-docs.testsigma.com/new_images/projects/applications/GenAI_TDP_Prompt.png)
-
-
 
 ### **Steps to Generate Test Data Profile from Test Case Settings**
 

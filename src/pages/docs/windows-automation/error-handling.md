@@ -3,7 +3,7 @@ title: "Error Handling Post TSRx File Update"
 page_title: "Error Handling Post TSRx File Update"
 metadesc: "On updating TSRx file, Testsigma identifies potential errors in test cases, step groups and elements linked to updates in the application structure"
 noindex: false
-order: 30.7
+order: 31.7
 page_id: "Error Handling Post TSRx File Update"
 warning: false
 contextual_links:
@@ -34,8 +34,8 @@ When you update the elements by uploading an updated TSRx file, you might encoun
 ---
 
 > ## **Prerequisites**
-> 
-> - An Updated TSRx File to Import
+>
+> Before you begin, ensure you have an Updated TSRx File to Import. 
 
 ---
 

@@ -2,7 +2,7 @@
 title: "Setup and Installation: Linux"
 metadesc: "Learn how to set up & use Testsigma Tunnel (Linux) for testing of locally hosted applications across real browsers, bypassing firewalls & proxy restrictions."
 noindex: false
-order: 31.5
+order: 32.5
 page_id: "Testsigma Tunnel"
 warning: false
 contextual_links:

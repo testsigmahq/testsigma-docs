@@ -39,12 +39,9 @@ You can use the Azure Active Directory Admin Center to enable single sign-on (SS
 
 ---
 
-## **Prerequisites**
-
-- Azure Account with Active Directory enabled
-
-- Admin Access to Azure Account
-
+> ## **Prerequisites**
+> 
+> Before you begin, ensure you have an **Azure Account** with **Active Directory** enabled and admin access to the Azure account.
 
 ---
 
@@ -55,7 +52,7 @@ You can use the Azure Active Directory Admin Center to enable single sign-on (SS
 
 2. Click the **View** button below **“Manage Microsoft Entra ID”.**
 
-3. In the Active Directory Overview page, click on **+ New application** and choose **Enterprise Application**
+3. In the **Active Directory Overview** page, click on **+ New application** and choose **Enterprise Application**
 
 
 4. Click on **+ Create your own application**

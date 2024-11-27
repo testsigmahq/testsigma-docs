@@ -14,10 +14,13 @@ contextual_links:
   name: "Terminology"
   url: "#terminology"
 - type: link
+  name: "Prerequisites"
+  url: "#prerequisites"
+- type: link
   name: "Getting the Testsigma Configuration for Okta"
   url: "#getting-the-testsigma-configuration-for-okta"
 - type: link
-  name: "Create and configure Okta"
+  name: "Create and Configure Okta"
   url: "#create-and-configure-okta"
 - type: link
   name: "Configure Testsigma for Okta SSO"
@@ -25,6 +28,9 @@ contextual_links:
 - type: link
   name: "Sign in to Testsigma with SAML SSO"
   url: "#sign-in-to-testsigma-with-saml-sso"
+- type: link
+  name: "Assign App to Users in Okta"
+  url: "#assign-app-to-users-in-okta"
 - type: link
   name: "Disable Configured SSO"
   url: "#disable-configured-sso"
@@ -53,6 +59,12 @@ Familiarise yourself with these key terms before proceeding:
 
 ---
 
+> ## **Prerequisites**
+>
+> Before you begin, ensure you have an active Okta account.
+
+---
+
 ## **Getting the Testsigma Configuration for Okta**
 
 1. Navigate to **Settings** > **Security (SSO)**.
@@ -63,7 +75,7 @@ Familiarise yourself with these key terms before proceeding:
 
 ---
 
-## **Create and configure Okta**
+## **Create and Configure Okta**
 
 1. Log in to the [Okta Admin Console](https://www.okta.com/login).
 [[info | NOTE:]]
@@ -105,6 +117,26 @@ After configuring your Testsigma account with SAML, you can log in using SSO.
 [[info | NOTE:]]
 | - Install the Okta mobile app for the first-time authentication. 
 | - You cannot log in through SSO without configuring your email.
+
+---
+
+## **Assign App to Users in Okta**
+
+
+1. From the **Dashboard**, go to **Applications** and select the application you want to assign to users.
+   ![OKTA Dashboard](https://s3.amazonaws.com/static-docs.testsigma.com/new_images/projects/applications/Okta_DB.png)
+
+2. On the **Application Details** page, click **Assign** and select **Assign to People** from the dropdown menu.
+   ![App Details Page](https://s3.amazonaws.com/static-docs.testsigma.com/new_images/projects/applications/Assign_Users_Okta.png)
+
+3. In the **Assign &lt;App&gt; to People** dialog box, click the **Assign** button next to the user's ID.
+   ![Assign Button Okta](https://s3.amazonaws.com/static-docs.testsigma.com/new_images/projects/applications/Assign_User_Button.png)
+
+4. Validate the email in the dialog box, then click **Save and Go Back**.
+   ![Save the ID](https://s3.amazonaws.com/static-docs.testsigma.com/new_images/projects/applications/Save_ID_Okta.png)
+
+5. Click **Done**. The assigned user can now access the application through Okta.
+   ![Done Assigning User](https://s3.amazonaws.com/static-docs.testsigma.com/new_images/projects/applications/Done_Adding_User_In_Okta.png)
 
 ---
 
