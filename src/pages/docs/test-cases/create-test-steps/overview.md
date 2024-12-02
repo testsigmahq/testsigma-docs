@@ -92,7 +92,8 @@ In Testsigma terminology, each automated action executed by the test script is a
 | - You can also add steps above and below a test step by clicking on **Step Above** & **Step Below**. 
 |   ![Create New Steps](https://s3.amazonaws.com/static-docs.testsigma.com/new_images/projects/applications/Create_New_Steps.png)
 
-
+Here's a sample GIF demonstrating creating test steps manually for a Web Application.
+   ![Create test step manually for Web](https://s3.amazonaws.com/static-docs.testsigma.com/new_images/projects/applications/Create_test_step_record_Web.gif)
 ---
 
 ## **Creating Test Steps Using Test Recorder**
@@ -171,7 +172,8 @@ In Testsigma terminology, each automated action executed by the test script is a
 | 
 | - If direct recording doesn't work, revert to the old method and use the **TAP** button to record the element.
 
-
+Here's a sample GIF demonstrating creating test steps using the recorder for a Web Application.
+   ![Create test steps record web](https://s3.amazonaws.com/static-docs.testsigma.com/new_images/projects/applications/Create_test_steps_Record_Web.gif)
 
 
 
