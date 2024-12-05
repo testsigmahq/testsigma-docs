@@ -99,17 +99,3 @@ Testsigma allows you to add customized information to your test cases by creatin
    ![Filter custom fields 4](https://s3.amazonaws.com/static-docs.testsigma.com/new_images/projects/applications/Filter_custom_fields_4.png)
 
 ---
-
-
-
-
-
-
-
-
-
-
-
-
-
-
