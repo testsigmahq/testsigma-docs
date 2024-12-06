@@ -69,6 +69,9 @@ contextual_links:
 - type: link
   name: "NLP 17:"
   url: "#nlp-17"
+- type: link
+  name: "NLP 18:"
+  url: "#nlp-18"
 ---
 
 ---
@@ -336,5 +339,34 @@ This NLP feature updates a Salesforce record with the details you enter in the A
 See the GIF below demonstrating how to use this NLP.
 
 ![Element Picklist](https://s3.amazonaws.com/static-docs.testsigma.com/new_images/projects/applications/SalesforceUpdateNLP.gif)
+
+
+---
+
+## **NLP 18:**
+
+“Get record details from **Salesforce Object Form** for **RECORD\_ID** test data using **Salesforce Connection** connection”
+
+
+### **Using the NLP in a Test Case**
+
+
+1. Click on **Salesforce Object Form**, choose **Record** from the dropdown menu, and click **Select Fields**.
+
+2. On the **Manage Fields for Account** overlay, select the fields for which you want to retrieve info and click **Save**.
+
+   [[info | **NOTE**:]]
+   | If no fields are selected, the response body will include all available fields.
+
+3. Go to the **Request Info** tab, enter the **Record ID** and select the available **Salesforce Connection**. You can parameterize the **Record ID** by entering a slash (**/**). Add mock values by clicking **Add Request Values** if the field is parameterized.
+
+4. Click **Send Request**.
+
+5. From the **Response Body**, you can store **Variables** and add **Verifications** directly as needed.
+
+
+See the GIF below demonstrating how to use this NLP.
+
+![Get Record Details](https://s3.amazonaws.com/static-docs.testsigma.com/new_images/projects/applications/SF_Read_API.gif)
 
 ---
