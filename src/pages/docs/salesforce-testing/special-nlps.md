@@ -111,6 +111,7 @@ With Testsigma's special NLPs, you can scale and enhance Salesforce Testing. The
 | [Select option test data from element picklist](https://testsigma.com/docs/salesforce-testing/special-nlps/#nlp-16) | This NLP selects the specified option from the picklist element using test data. This NLP can also be recorded. <br><br> **User Inputs in NLP:** <br> 1. Test Data <br> 2. Element |
 | [Clear and enter test data in the element field](https://testsigma.com/docs/salesforce-testing/special-nlps/#nlp-10) | This NLP will clear any existing data in the element field and then enter the test data into that field. <br><br> **User Inputs in NLP:** <br> 1. Test Data <br> 2. Element |
 | [Delete record in Salesforce Object where record id is test data using Salesforce Connection connection](https://testsigma.com/docs/salesforce-testing/special-nlps/#nlp-3) | This NLP deletes a record using RECORD\_ID for a specific Salesforce object using the delete record API. <br><br> **User Inputs in NLP:** <br> 1. RECORD_ID <br> 2. User Connection<br> 3. Salesforce Object |
+|[Get record details from Salesforce Object Form for RECORD\_ID test data using Salesforce Connection connection](https://testsigma.com/docs/salesforce-testing/special-nlps/#nlp-18)| This NLP will fetch record details of the Salesforce Object Form with the selected object fields. It also allows you to store Variables and add Verifications directly from the Response Body. <br><br> **User Inputs in NLP:** <br> 1. Salesforce Object Form <br> 2. RECORD_ID <br> 3. Salesforce Connection |
 
 ---
 
