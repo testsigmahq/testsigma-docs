@@ -31,7 +31,7 @@ With Testsigma, you can create test cases directly from Jira stories and epics b
 
 ## **Steps to Generate Test Cases from Requirements**
 
-1. From the left-side navbar, go to **Create Tests > Test Cases**.
+1. From the left navigation bar, go to **Create Tests > Test Cases**.
 
 2. Click **Copilot**, and then select **Generate from Requirements** from the dropdown menu. 
 
