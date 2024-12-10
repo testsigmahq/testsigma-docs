@@ -33,7 +33,7 @@ This article discusses generating end to end automated test cases based on user 
 
 ## **Steps to Test Scenarios from User Actions**
 
-1. From the left-side navbar, go to **Create Tests > Test Cases**. 
+1. From the left navigation bar, go to **Create Tests > Test Cases**. 
 
 2. Click **Copilot** and choose **Test Scenarios from User Actions** from the dropdown menu. This will open the **Generate End-to-End Test Cases** dialog box.
 
