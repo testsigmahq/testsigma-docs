@@ -1,9 +1,9 @@
 ---
-title: "Filters & Custom Reports"
-metadesc: "Filters in Run Results will help you create custom reports based on different criteria for your team. Learn how filters in run results in Testsigma"
+title: "Filters on the Run Results Page"
+metadesc: "Quickly view the enhanced run results for the selected test plan by applying filters | Learn how to apply filters on run results page in Testsigma"
 noindex: false
 order: 13.27
-page_id: "Filters & Custom Reports"
+page_id: "Filters on Run Results"
 warning: false
 contextual_links:
 - type: section
@@ -12,66 +12,53 @@ contextual_links:
   name: "Prerequisites"
   url: "#prerequisites"
 - type: link
-  name: "Steps to Generate Filtered Reports"
-  url: "#steps-to-generate-filtered-reports"
-- type: link
-  name: "Test Plan Run History Filters and reports"
-  url: "#test-plan-run-history-filters-and-reports"
-- type: link
-  name: "Test case result list view"
-  url: "#test-case-result-list-view"
+  name: "Applying Filters on the Run Results Page"
+  url: "#applying-filters-on-the-run-results-page"
 ---
 
 ---
 
-Once the test plan execution is complete, you can filter out the data based on different criteria. Filters in run results will help you create custom reports for your team. 
+In Testsigma, you can quickly view the Run Results by using filters. The filters are available for Test Runs, Test Levels, and the Donut Chart in the Run Overview section. This article discusses using filters on the Run Results page in Testsigma.
+
+Quickly view the run results of a test plan by applying filters | Learn how to apply filters on run results page in Testsigma
 
 ---
 
-## **Prerequisites**
-
-
-- You should know [how to create a test plan](https://testsigma.com/docs/test-management/test-plans/overview/#steps-to-create-a-test-plan).
-
-- You should know about [drill down reports in Testsigma](https://testsigma.com/docs/reports/runs/drill-down-reports/).
+> ## **Prerequisites**
+>
+> Before you begin, make sure you have created and executed a [test plan](https://testsigma.com/docs/test-management/test-plans/overview/).
 
 
 ---
 
-## **Steps to Generate Filtered Reports**
+## **Applying Filters on the Run Results Page**
+
+1. From the left navigation bar, go to **Run Results** and click on the test plan for which you want to check the results.
+   ![Test Suites](https://s3.amazonaws.com/static-docs.testsigma.com/new_images/projects/applications/Run_Results_Test_Suites.png)
+
+2. By default, you’ll see the results at test suite level. 
+   ![Results at Test Suite Level](https://s3.amazonaws.com/static-docs.testsigma.com/new_images/projects/applications/Run_Results_Default_Page.png)
+
+3. To apply filters to the **Test Runs** panel, click the **Filters** icon on the panel.
+   ![Test Runs Filter](https://s3.amazonaws.com/static-docs.testsigma.com/new_images/projects/applications/Test_Runs_Filter.png)
+ 
+4. Add the desired filters and click **Apply**.
+   ![Apply Filter to Test Runs](https://s3.amazonaws.com/static-docs.testsigma.com/new_images/projects/applications/Apply_Test_Runs_Filter.png)
+
+5. To apply filters to the tests, select **Test Cases, Suites, or Machines** from the dropdown menu, then click the **Filters** icon.
+   ![Filter for Tests](https://s3.amazonaws.com/static-docs.testsigma.com/new_images/projects/applications/Tests_Filters_On_Run_Results.png)
+
+6. Add the desired filters and click **Apply**.
+   ![Apply Filters to Tests](https://s3.amazonaws.com/static-docs.testsigma.com/new_images/projects/applications/Apply_Filters_To_Tests.png)
+
+7. You can also click the status on the chart in the **Run Overview** and apply filters using the same icon highlighted in **Step 6**. 
 
 
-1. Navigation to **Dashboard > Run Results** and click on a test plan result. 
-![Run Results](https://s3.amazonaws.com/static-docs.testsigma.com/new_images/projects/applications/fcrnavrr.png)
+Here's a quick GIF demonstrating how to apply filters on the run results Page.
 
+   ![Applying Filters](https://s3.amazonaws.com/static-docs.testsigma.com/new_images/projects/applications/Filters_On_RunResults.gif)
 
-2. On **Results** page, **click** on **Add Filters**.
-![Add Filters](https://s3.amazonaws.com/static-docs.testsigma.com/new_images/projects/applications/fcecoaf.png)
-
-
-3. You can filter by **Last Run Result**, **Type**, **Priority**, **Created By**, **Assignee**, **Reviewer**, **Requirement**, **Test Suites**, **Requirement Type**, **Labels**, **Created Date** and **Updated Date**.
-![Filters](https://s3.amazonaws.com/static-docs.testsigma.com/new_images/projects/applications/fcrafilters.png)
-
-
-[[info | **NOTE**:]]
-| Once the filter is applied, you can export the filtered data to an **Excel** or a **JUnit XML** report by clicking on **Export** icon.
-| ![Export Icon](https://s3.amazonaws.com/static-docs.testsigma.com/new_images/projects/applications/fceexprt.png)
-
-
-
-
-### **Some Important Filters**
-
-- **Type**: If you want to filter out the results based on the test plan run result type, you need to select the appropriate result type in the filter. 
-
-- **Assignee**: If you want to filter out the results based on the test case assignee, select the appropriate assignee in the filter.
-
-
-Similarly, you can apply other filters to filter your test cases based on Result, Type, Priority, Created By, Reviewer, Requirement, Requirement Type, etc.
-
-
-
-*For more information on filtering and downloading reports on test case, test suite or test machine levels, refer to [drill down reports](https://testsigma.com/docs/reports/runs/drill-down-reports/).*
+*For more information on viewing and downloading results of a test plan on test case, test suite or test machine levels, see [Test Plan Run Results](https://testsigma.com/docs/reports/runs/drill-down-reports/).*
 
 
 

@@ -18,9 +18,7 @@ contextual_links:
 
 ---
 
-The purpose of test automation is to be able to understand the state of quality in your application quickly. To understand the quality, you need to understand the results of your test execution, and that's where test reports come in.
-
-In Testsigma, you can view reports directly in the application. Reports are automatically created and help debug failing tests and help managers understand the state of quality of the application under test (AUT). This article discusses the overview of run results page in Testsigma.
+In Testsigma, you can view results directly in the application. Results are automatically created and help debug failing tests and help managers understand the state of quality of the application under test (AUT). This article discusses the overview of Run Results page in Testsigma.
 
 ---
 
@@ -42,29 +40,5 @@ Here is a quick GIF demonstrating actions possible on run results page.
 ![Actions](https://s3.amazonaws.com/static-docs.testsigma.com/new_images/projects/applications/actionsontcrpage.gif)
 
 Testers may need to rerun failed test cases, or all test cases from a particular test run result, after a hotfix or a change in environment. Follow the steps below to rerun test cases from test run results in Testsigma.
-
----
-
-## **Steps to Rerun from Run Results**
-
-1. Navigate to **Run Results** page and click on a **Test Plan Result**.
-![Test Plan Result](https://s3.amazonaws.com/static-docs.testsigma.com/new_images/projects/applications/ddrrnav.png)
-
-
-2. From results page, click on **Rerun**.
-![Rerun](https://s3.amazonaws.com/static-docs.testsigma.com/new_images/projects/applications/rrtresults.png)
-
-
-3. On the **Re-run options** prompt, you will see the following options:
-![Options](https://s3.amazonaws.com/static-docs.testsigma.com/new_images/projects/applications/rrtrstcs.png)
-    - **All Test Cases:** This will rerun all the test cases in the selected run.
-    - **All Failed Test Cases:** This will rerun all the failed test cases in the selected run. 
-    - **Select Cases for Re-Run:** This will allow you to select the test cases you want to rerun.
-
-4. Choose the option and click on **Start execution** to rerun.
-![Start execution](https://s3.amazonaws.com/static-docs.testsigma.com/new_images/projects/applications/rrstexec.png)
-
-Here is a quick GIF demonstrating how to rerun tests from run results in Testsigma.
-![Rerun](https://s3.amazonaws.com/static-docs.testsigma.com/new_images/projects/applications/reruntp.gif)
 
 ---

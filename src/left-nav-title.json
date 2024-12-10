@@ -358,7 +358,7 @@
     "/docs/reports/runs/rerun/": "ReRun"
   },
   "drill-down-reports": {
-    "/docs/reports/runs/drill-down-reports/": "Drill-down Reports"
+    "/docs/reports/runs/drill-down-reports/": "Test Plan Run Results"
   },
   "test-machine-reports": {
     "/docs/reports/runs/test-machine-reports/": "Test Machine Level Reports"
@@ -370,7 +370,7 @@
     "/docs/reports/runs/test-case-reports/": "Test Case Reports"
   },
   "filter-custom-reports": {
-    "/docs/reports/runs/filter-custom-reports": "Filters & Custom Reports"
+    "/docs/reports/runs/filter-custom-reports": "Filters on Run Results"
   },
   "export-report-junit": {
     "/docs/reports/runs/export-report-junit/": "Export Reports - JUnit"
@@ -690,5 +690,6 @@
   "generate-tdp": {"/docs/genai-capabilities/generate-tdp/": "Generate TDP Using Copilot"},
   "smtp-configuration": {"/docs/configuration/smtp-configuration/": "SMTP Configuration"},
   "generate-wda-file": {"/docs/configuration/generate-wda-file/": "Create WDA File" },
-  "environments": {"/docs/api/environments/": "Manage Environments"}
+  "environments": {"/docs/api/environments/": "Manage Environments"},
+  "runs": {"/docs/reports/runs/": "Results & Reports"}
 }
