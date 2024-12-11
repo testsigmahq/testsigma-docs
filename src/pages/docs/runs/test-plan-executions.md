@@ -118,18 +118,16 @@ Once you have applied the filters, you can:
 ## **Test Plan Run Results**
 
 
-1. Navigate to **Run Results** page and click on a **Test Plan Result**.
-![Test Plan Result](https://s3.amazonaws.com/static-docs.testsigma.com/new_images/projects/applications/ddrrnav.png)
+1. From the left navigation bar, go to **Run Results** and click on the test plan for which you want to check the results.
+   ![Test Suites](https://s3.amazonaws.com/static-docs.testsigma.com/new_images/projects/applications/Run_Results_Test_Suites.png)
 
-
-2. From **Test Plan Result** page, you can view **Test Case** reports. 
-![Test Case Report](https://s3.amazonaws.com/static-docs.testsigma.com/new_images/projects/applications/ddrrtcr.png)
-
+2. By default, you’ll see the results at test suite level. 
+   ![Results at Test Suite Level](https://s3.amazonaws.com/static-docs.testsigma.com/new_images/projects/applications/Run_Results_Default_Page.png)
 
 [[info | **NOTE**:]]
 | You can also view reports at test suite and test machine level by clicking on **Test Suite** and **Test Machine**. 
-| ![Reoprts](https://s3.amazonaws.com/static-docs.testsigma.com/new_images/projects/applications/ddrrtstm.png)
+| ![Results](https://s3.amazonaws.com/static-docs.testsigma.com/new_images/projects/applications/Dropdown_Run_Results.gif)
 
-
+*For more information on viewing and downloading results of a test plan on test case, test suite or test machine levels, see [Test Plan Run Results](https://testsigma.com/docs/reports/runs/drill-down-reports/).*
 
 ---

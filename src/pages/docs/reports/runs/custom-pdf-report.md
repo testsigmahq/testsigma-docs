@@ -36,17 +36,17 @@ Custom PDF Report Generator in Testsigma allows you to create detailed and custo
 
 ---
 
-## **Prerequisites**
-
-Before you begin, ensure you have the following:
-
-- An [API Key ](https://testsigma.com/docs/reports/runs/filter-custom-reports/) from your Testsigma account.
-
-- **Java 17** or a newer version installed on your system.
-
-- You can request the **JAR file** from the Customer Support team and download it before executing a Custom PDF Report Generation.
-
-- An **HTML template** for the PDF report. [Click here](https://s3.amazonaws.com/static-docs.testsigma.com/new_images/projects/applications/Custom_Report_Template.txt) to download the HTML template. 
+> ## **Prerequisites**
+>
+> Before you begin, ensure you have the following:
+>
+> - An [API Key ](https://testsigma.com/docs/reports/runs/filter-custom-reports/) from your Testsigma account.
+>
+> - **Java 17** or a newer version installed on your system.
+>
+> - You can request the **JAR file** from the Customer Support team and download it before executing a Custom PDF Report Generation.
+> 
+> - An **HTML template** for the PDF report. [Click here](https://s3.amazonaws.com/static-docs.testsigma.com/new_images/projects/applications/Custom_Report_Template.txt) to download the HTML template. 
 
 ---
 
