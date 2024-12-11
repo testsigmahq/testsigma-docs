@@ -51,7 +51,7 @@ Quickly view the run results of a test plan by applying filters | Learn how to a
 6. Add the desired filters and click **Apply**.
    ![Apply Filters to Tests](https://s3.amazonaws.com/static-docs.testsigma.com/new_images/projects/applications/Apply_Filters_To_Tests.png)
 
-7. You can also click the status on the chart in the **Run Overview** and apply filters using the same icon highlighted in **Step 6**. 
+7. You can click a status in the chart within the **Run Overview** to apply additional filters on top of it.
 
 
 Here's a quick GIF demonstrating how to apply filters on the run results Page.
