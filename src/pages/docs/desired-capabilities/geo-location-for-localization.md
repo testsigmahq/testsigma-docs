@@ -27,12 +27,12 @@ The Geolocation Desired Capability sets the geographic location for web or mobil
 
 To set the geolocation, use the following desired capability:
 
-**geoLocation = "&lt;Two-letter Country Code&gt;"**
+**geolocation = "&lt;Two-letter Country Code&gt;"**
 
 
 ### **Example:** 
 
-**geoLocation = "AR"**
+**geolocation = "AR"**
 
 Below is a list of countries with their corresponding two-letter country codes that can be used in the value field for the Geolocation desired capability:
 
@@ -97,7 +97,7 @@ Below is a list of countries with their corresponding two-letter country codes t
 2. On the **Ad-Hoc Run** overlay, click **Desired Capabilities**.
 ![AdHoc Run](https://s3.amazonaws.com/static-docs.testsigma.com/new_images/projects/applications/Desired_Capabilities_AdHoc_Page.png)
 
-3. Enter ***geoLocation*** in the **Key** field, select ***String*** as **Data type**, and set the **Value** as per country's country code.
+3. Enter ***geolocation*** in the **Key** field, select ***String*** as **Data type**, and set the **Value** as per country's country code.
 ![Desired Capability](https://s3.amazonaws.com/static-docs.testsigma.com/new_images/projects/applications/Desired_Capabilities_GeoLocation.png)
 
 4. Click **Run Now** to execute the test case. 
