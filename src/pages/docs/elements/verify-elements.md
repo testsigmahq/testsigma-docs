@@ -29,11 +29,10 @@ When using the Test Recorder to create test steps and elements, you might encoun
 
 ---
 
-## **Prerequisites**
-
-- You should know how to create a [project](https://testsigma.com/docs/projects/overview/) in Testsigma.
-
-- An application to test.
+> ## **Prerequisites**
+>
+>
+> Before you begin, ensure that the [Testsigma Chrome Extension](https://testsigma.com/docs/test-step-recorder/install-chrome-extension/) is installed and a web application is available for testing.
 
 ---
 

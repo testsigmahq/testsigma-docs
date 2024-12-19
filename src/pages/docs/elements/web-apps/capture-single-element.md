@@ -34,11 +34,8 @@ You can also selectively capture single element of a web application using Tests
 
 > ## **Prerequisites**
 >
-> - You should know how to create a [project](https://testsigma.com/docs/projects/overview/) and [application](https://testsigma.com/docs/projects/applications/) in Testsigma.
 >
-> - You should have [Testsigma chrome extension installed](https://testsigma.com/docs/test-step-recorder/install-chrome-extension/). 
->
-> - A Web app to test.
+> Before you begin, ensure that the [Testsigma Chrome Extension](https://testsigma.com/docs/test-step-recorder/install-chrome-extension/) is installed and a web application is available for testing.
 
 
 ---
