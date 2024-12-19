@@ -25,12 +25,10 @@ While writing test cases for web applications that involve iframes, it is import
 
 ---
 
-## **Prerequisites**
-
-
-1. You should have an web application project in Testsigma. See [creating a project](https://testsigma.com/docs/projects/overview/).
-
-2. You should have Testsigma Recorder Extension. See [install chrome extension](https://testsigma.com/docs/test-step-recorder/install-chrome-extension/).
+> ## **Prerequisites**
+>
+>
+> Before you begin, ensure that you've a [Project](https://testsigma.com/docs/projects/overview/) in Testsigma and a web application is available for testing.
 
 
 ---

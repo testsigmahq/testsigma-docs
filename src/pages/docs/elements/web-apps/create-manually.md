@@ -34,11 +34,11 @@ For dynamic websites such as E-commerce websites, the elements might be dynamic 
 
 ---
 
-## **Prerequisites**
 
-- You should know how to create a [project](https://testsigma.com/docs/projects/overview/) in Testsigma.
-
-- A Web app to test.
+> ## **Prerequisites**
+>
+>
+> Before you begin, ensure that you've a [Project](https://testsigma.com/docs/projects/overview/) in Testsigma and a web application is available for testing.
 
 ---
 
