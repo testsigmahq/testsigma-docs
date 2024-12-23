@@ -42,8 +42,10 @@ Another less common application is when we want to load the Test locators for th
 ---
 
 
-## **Prerequisites**
-- You should have a file to import. 
+> ## **Prerequisites**
+>
+>
+> Before you begin, ensure that you have a file to import. 
 
 ---
 
