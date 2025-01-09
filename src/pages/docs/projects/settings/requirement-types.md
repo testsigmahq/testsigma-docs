@@ -80,7 +80,7 @@ With Testsigma, you can organize your test cases based on **Requirements**. You 
 
 Here's a quick GIF demonstrating how to add, edit and delete a requirement type in Testsigma.
 
-![Requirement Type WF](https://s3.amazonaws.com/static-docs.testsigma.com/new_images/projects/applications/ReqTypes.gif)
+![Requirement Type WF](https://s3.amazonaws.com/static-docs.testsigma.com/new_images/projects/applications/Requirement_type.gif)
 
 
 
