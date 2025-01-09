@@ -12,13 +12,13 @@ contextual_links:
   name: "Prerequisites"
   url: "#prerequisites"
 - type: link
-  name: "Add a new test case type"
+  name: "Add a New Test Case Type"
   url: "#add-a-new-test-case-type"
 - type: link
-  name: "Delete a test case type"
+  name: "Delete a Test Case Type"
   url: "#delete-a-test-case-type"
 - type: link
-  name: "Edit a test case type"
+  name: "Edit a Test Case Type"
   url: "#edit-a-test-case-type"
 - type: link
   name: "Steps to Assign a Test Case Type to a Test case"
@@ -57,6 +57,9 @@ You should know how to [create a test case](https://testsigma.com/docs/test-case
 5. A new blank row will appear where you can start typing to add the new test case type. Once you’re done, press **Enter**.
 ![Blank Row](https://s3.amazonaws.com/static-docs.testsigma.com/new_images/projects/applications/tcttets.png)
 
+Here's a quick GIF demonstrating how to add a test case type: 
+![Add a test case type](https://s3.amazonaws.com/static-docs.testsigma.com/new_images/projects/applications/Add_a_Test_Case_Type_1.gif)
+
 
 ---
 
@@ -69,8 +72,11 @@ You should know how to [create a test case](https://testsigma.com/docs/test-case
 
 [[info | **NOTE**:]]
 | 1. From the Delete Confirmation prompt, you need to unlink all the test cases associated with the test case type by clicking on the View Test Case link and change the test case type to any other available test case type. 
-|![Unlink](https://s3.amazonaws.com/static-docs.testsigma.com/new_images/projects/applications/tctutctbd.png)
+|![Unlink](https://s3.amazonaws.com/static-docs.testsigma.com/new_images/projects/applications/Delete_a_test_case_type_note.png)
 | 2. Alternatively, you can also unlink test cases associated with the test case type from the edit test case page. For more information, refer to edit test cases.
+
+Here's a quick GIF demonstrating how to delete a test case type:
+![Delete a Test Case Type](https://s3.amazonaws.com/static-docs.testsigma.com/new_images/projects/applications/Delete_a_test_case_type.gif)
 
 ---
 
@@ -82,20 +88,22 @@ You should know how to [create a test case](https://testsigma.com/docs/test-case
 ![Enter](https://s3.amazonaws.com/static-docs.testsigma.com/new_images/projects/applications/tcteets.png)
 
 Here is a quick GIF demonstrating how to edit a test case type.
-
-![Test Case Types](https://s3.amazonaws.com/static-docs.testsigma.com/new_images/projects/applications/TestCaseTypesGIF.gif)
+![Test Case Types](https://s3.amazonaws.com/static-docs.testsigma.com/new_images/projects/applications/Edit_a_test_case_type.gif)
 ---
 
 ## **Steps to Assign a Test Case Type to a Test case**
-1. Navigate to **Create Tests > Test Cases**, and click on **Crete Test Case**.
-![Test Cases](https://s3.amazonaws.com/static-docs.testsigma.com/new_images/projects/applications/tcttcc.png)
+1. From the left navigation bar, go to **Create Tests > Test Cases**.
+![Test Cases](https://s3.amazonaws.com/static-docs.testsigma.com/new_images/projects/applications/Assign_a_test_case_to_a_type_1.png)
 
-2. From the right side navigation bar, click on **Manage Test Case**. 
-![Manage Test Case](https://s3.amazonaws.com/static-docs.testsigma.com/new_images/projects/applications/tcttcmanagetc.png)
+2. In the **Test Case Explorer** section, locate the **Feature** and **Scenario** containing the test case you wish to assign to a test case type and select the test case. 
+![Manage Test Case](https://s3.amazonaws.com/static-docs.testsigma.com/new_images/projects/applications/Assign_a_test_case_to_a_type_2.png)
 
-3. On **Manage Test Case** overlay, scroll down to **Test Type** and select test case type from the drop down menu.
-![Test Case Type from Dropdown](https://s3.amazonaws.com/static-docs.testsigma.com/new_images/projects/applications/tctstctfdd.png)
+3. From the right navigation bar, click on **Manage Test Case**.  
+![Manage Test Case Overlay](https://s3.amazonaws.com/static-docs.testsigma.com/new_images/projects/applications/Assign_a_test_case_to_a_type_3.png)
+
+4. On **Manage Test Case** overlay, scroll down to **Test Type** and select test case type from the drop down menu.
+![Test Case Type from Dropdown](https://s3.amazonaws.com/static-docs.testsigma.com/new_images/projects/applications/Assign_a_test_case_to_a_type_4.1.png)
 
 Here is a quick GIF demonstrating how to assign test case type to a test case.
-![Assigning Test Case Type](https://s3.amazonaws.com/static-docs.testsigma.com/new_images/projects/applications/TestCaseTypeAssign.gif)
+![Assigning Test Case Type](https://s3.amazonaws.com/static-docs.testsigma.com/new_images/projects/applications/Assign_a_test_case_to_a_test_case_type.gif)
 ---

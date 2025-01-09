@@ -47,16 +47,16 @@ Below are the four roles that can be assigned to a project member in Testsigma:
 
 ## **Edit Users to Assign New Roles**
 1. Navigate to **Settings > Users**.
-![Settings](https://s3.amazonaws.com/static-docs.testsigma.com/new_images/projects/applications/urmnavsets.png)
+![Settings](https://s3.amazonaws.com/static-docs.testsigma.com/new_images/projects/applications/Edit_users_to_assign_new_rules_1.1.png)
 
 2. Hover over the user and click on kebab menu. 
-![Kebab Menu](https://s3.amazonaws.com/static-docs.testsigma.com/new_images/projects/applications/urmkm.png)
+![Kebab Menu](https://s3.amazonaws.com/static-docs.testsigma.com/new_images/projects/applications/Edit_users_to_assign_new_roles_2.1.png)
 
 3. Click on **Edit user role**.
-![Edit User](https://s3.amazonaws.com/static-docs.testsigma.com/new_images/projects/applications/nuroleurm.png)
+![Edit User](https://s3.amazonaws.com/static-docs.testsigma.com/new_images/projects/applications/Edit_users_to_assign_new_rules_3.png)
 
 4. On **Edit User Role / Assign Projects** prompt, select roles and click on **Update**. 
-![Edit User Roles](https://s3.amazonaws.com/static-docs.testsigma.com/new_images/projects/applications/roleurm.png)
+![Edit User Roles](https://s3.amazonaws.com/static-docs.testsigma.com/new_images/projects/applications/Edit_users_to_assign_new_rules_4.2.png)
 
 ---
 
@@ -92,10 +92,10 @@ The invited user should receive an invitation email. They will need to join via 
 If you're the super administrator of the project, you can delete users. 
 
 1. Navigate to **Project > Project Settings**, click on **Project Members**. 
-![Project Members](https://s3.amazonaws.com/static-docs.testsigma.com/new_images/projects/applications/autpmemm.png)
+![Project Members](https://s3.amazonaws.com/static-docs.testsigma.com/new_images/projects/applications/Deleteing_Users_from_a_Project_1.1.png)
 
 
-2. Hover over the user you want to delete and click on **Delete**. 
+1. Hover over the user you want to delete and click on **Delete**. 
 ![Delete](https://s3.amazonaws.com/static-docs.testsigma.com/new_images/projects/applications/autpcodelete.png)
 
 
