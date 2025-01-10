@@ -1,5 +1,5 @@
 ---
-title: "Testsigma Copilot for Android Applications 📱 "
+title: "Testsigma Copilot for Android Applications (New ✨)"
 page_title: "Testsigma Copilot for Android Applications"
 metadesc: "In Testsigma, you can create test cases for Android Applications using Testsigma Copilot | Learn how to create test cases for Android Applications using GenAI capabilities"
 noindex: false
