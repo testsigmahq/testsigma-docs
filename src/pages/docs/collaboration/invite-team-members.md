@@ -39,11 +39,11 @@ You can add unlimited team members to your project and assign them different rol
 
 
 1. Navigate to **Project > Project Settings**, click on **Project Members**. 
-![Project Members](https://s3.amazonaws.com/static-docs.testsigma.com/new_images/projects/applications/urmpmem.png)
+![Inviting Team Members to a Project 1](https://s3.amazonaws.com/static-docs.testsigma.com/new_images/projects/applications/Inviting_Team_Members_to_a_Project_Step_1.png)
 
 
 2. Click on **Invite**.
-![Invite](https://s3.amazonaws.com/static-docs.testsigma.com/new_images/projects/applications/urminvite.png)
+![Inviting Team Members to a Project 2](https://s3.amazonaws.com/static-docs.testsigma.com/new_images/projects/applications/Inviting_Team_Members_to_a_Project_Step_2.png)
 
 
 3. On **Invite new member** prompt, enter **Email** and select the **Role** you want to assign. 
