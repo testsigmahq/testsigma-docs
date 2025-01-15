@@ -84,7 +84,7 @@ Alternatively, you can also add users from **Project Settings**. For more inform
 
 
 
-1. The user will be assigned the selected projects with the selected access roles.
+4. The user will be assigned the selected projects with the selected access roles.
 
 
 ---
