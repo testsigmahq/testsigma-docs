@@ -28,7 +28,7 @@ The **Applications** tab within the **Project settings > Edit Project** menu pro
 
 
 [[info | **NOTE**:]]
-| If your project contains only a single application, the **Applications** tab will be hidden. To enable multiple applications, edit your project details. *For more information, refer to [project settings](https://testsigma.com/docs/projects/overview/)*.
+| If your project contains only a single application, the **Applications** tab will be hidden. To enable multiple applications, edit your project details. *For more information, refer to [Project Settings](https://testsigma.com/docs/projects/overview/)*.
 
 
 Once the **Applications** tab is enabled, you will be able to see all the applications created under the specific project.
@@ -43,11 +43,11 @@ Once the **Applications** tab is enabled, you will be able to see all the applic
 ![Applications](https://s3.amazonaws.com/static-docs.testsigma.com/new_images/projects/applications/apsnav.png)
 
 
-2. Click on **Add Application**.
+2. Click on **New Application**.
 ![Add Application](https://s3.amazonaws.com/static-docs.testsigma.com/new_images/projects/applications/apscnapp.png)
 
 
-3. On **New application** prompt, enter **Application name**, **Description**, **Version name**, and select **Application type**. 
+3. On **New application** dialog, enter **Application name**, **Description**, **Version name**, and select **Application type**. 
 ![Prompt](https://s3.amazonaws.com/static-docs.testsigma.com/new_images/projects/applications/apspromdtls.png)
 
 

@@ -62,10 +62,10 @@ Here is a quick GIF demonstrating how to create a Project.
 1. Navigate to **Project > Project Settings**.
 ![Project Settings](https://s3.amazonaws.com/static-docs.testsigma.com/new_images/projects/applications/prnavprtprs.png)
 
-2. This will open the **Edit Project** prompt. 
+2. This will open the **Edit Project** dialog. 
 ![Edit Project](https://s3.amazonaws.com/static-docs.testsigma.com/new_images/projects/applications/preditprompt.png)
 
-3. You can update **Project Details**, **Multiple Applications** and **Versions** from here. Also, you can add **Project Members**, **Test Case Types**, and **Requirement Types** on the same prompt. 
+3. You can update **Project Details**, **Multiple Applications** and **Versions** from here. Also, you can add **Project Members**, **Test Case Types**, and **Requirement Types** on the same dialog. 
 ![Update Details](https://s3.amazonaws.com/static-docs.testsigma.com/new_images/projects/applications/prdetailsall.png) 
 
 4. Click on **Update** to save the changes. 
@@ -99,7 +99,7 @@ Here is a quick GIF demonstrating how to switch projects.
 2. Click on **Delete**.
 ![Delete](https://s3.amazonaws.com/static-docs.testsigma.com/new_images/projects/applications/prdelete.png)
 
-3. On the **Delete project** prompt, enter **DELETE** and click on **Delete**.
+3. On the **Delete project** dialog, enter **DELETE** and click on **Delete**.
 ![DELETE](https://s3.amazonaws.com/static-docs.testsigma.com/new_images/projects/applications/prdelefin.png) 
 
 

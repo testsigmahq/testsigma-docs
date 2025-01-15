@@ -33,7 +33,7 @@ Super Admins control the stopping of executions by users in **Usage Details** an
 ## **Prerequisites**
 
 
-- You should know about [users & role management](https://testsigma.com/docs/collaboration/users-roles/).
+- You should know about [Users & Role Management](https://testsigma.com/docs/collaboration/users-roles/).
 
 
 ---
@@ -41,10 +41,10 @@ Super Admins control the stopping of executions by users in **Usage Details** an
 ## **Enabling Stop Executions Preference**
 
 1. Navigate to **Settings** > **Preferences**.
-![Preferences](https://s3.amazonaws.com/static-docs.testsigma.com/new_images/projects/applications/secspref.png)
+![Preferences](https://s3.amazonaws.com/static-docs.testsigma.com/new_images/projects/applications/Enabling_Stop_Executions_Preference_1.1.png)
 
 2. Enable the toggle switch for the **Control Who Can Stop Executions** feature flag, which will be toggled off by default. 
-![Enable](https://s3.amazonaws.com/static-docs.testsigma.com/new_images/projects/applications/secprefer.png)
+![Enable](https://s3.amazonaws.com/static-docs.testsigma.com/new_images/projects/applications/Enabling_Stop_Executions_Preference_2.png)
 
 
 [[info | NOTE:]]

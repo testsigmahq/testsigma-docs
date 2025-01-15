@@ -35,7 +35,7 @@ With Testsigma, you can organize your test cases based on **Requirements**. You 
 1. Navigate to **Project** and click on **Project Settings**.
 ![Project Settings](https://s3.amazonaws.com/static-docs.testsigma.com/new_images/projects/applications/tctnav.png)
 
-2. This will open **Edit Project** prompt. 
+2. This will open **Edit Project** dialog. 
 ![Edit Project](https://s3.amazonaws.com/static-docs.testsigma.com/new_images/projects/applications/tctepp.png)
 
 3. Click on **Requirement Types**.
@@ -70,7 +70,7 @@ With Testsigma, you can organize your test cases based on **Requirements**. You 
 ![Delete](https://s3.amazonaws.com/static-docs.testsigma.com/new_images/projects/applications/rtydelete.png)
 
 
-2. On the **Delete Requirement Type** prompt, enter **DELETE** and click on **Delete**.
+2. On the **Delete Requirement Type** dialog, enter **DELETE** and click on **Delete**.
 ![Delete Req](https://s3.amazonaws.com/static-docs.testsigma.com/new_images/projects/applications/rtyedcd.png)
 
 

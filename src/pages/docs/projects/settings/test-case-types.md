@@ -38,14 +38,14 @@ While creating a test case on Testsigma, you can assign a type to it, to differe
 ---
 ## **Prerequisites**
 
-You should know how to [create a test case](https://testsigma.com/docs/test-cases/manage/add-edit-delete/). 
+You should know how to [Create a Test Case](https://testsigma.com/docs/test-cases/manage/add-edit-delete/). 
 
 ---
 ## **Add a New Test Case Type**
 1. Navigate to **Project** and click on **Project Settings**.
 ![Project Settings](https://s3.amazonaws.com/static-docs.testsigma.com/new_images/projects/applications/tctnav.png)
 
-2. This will open **Edit Project** prompt. 
+2. This will open **Edit Project** dialog. 
 ![Edit Project](https://s3.amazonaws.com/static-docs.testsigma.com/new_images/projects/applications/tctepp.png)
 
 3. Click on **Test Case Types**.
@@ -67,11 +67,11 @@ Here's a quick GIF demonstrating how to add a test case type:
 1. Hover over the test case type you want to delete and click on **Delete**.
 ![DELETE](https://s3.amazonaws.com/static-docs.testsigma.com/new_images/projects/applications/tctdeleteb.png)
 
-2. On the **Delete Test Case Type** prompt, enter **DELETE** and click on **Delete**.
+2. On the **Delete Test Case Type** dialog, enter **DELETE** and click on **Delete**.
 ![Confirm Deletion](https://s3.amazonaws.com/static-docs.testsigma.com/new_images/projects/applications/tctdctct.png)
 
 [[info | **NOTE**:]]
-| 1. From the Delete Confirmation prompt, you need to unlink all the test cases associated with the test case type by clicking on the View Test Case link and change the test case type to any other available test case type. 
+| 1. From the Delete Confirmation dialog, you need to unlink all the test cases associated with the test case type by clicking on the View Test Case link and change the test case type to any other available test case type. 
 |![Unlink](https://s3.amazonaws.com/static-docs.testsigma.com/new_images/projects/applications/Delete_a_test_case_type_note.png)
 | 2. Alternatively, you can also unlink test cases associated with the test case type from the edit test case page. For more information, refer to edit test cases.
 

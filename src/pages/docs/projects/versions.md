@@ -32,7 +32,7 @@ Due to constantly changing requirements and application features, version contro
 ---
 
 ## **Prerequisites**
-- You should know how to [manage applications](https://testsigma.com/docs/projects/applications/).
+- You should know how to [Manage Applications](https://testsigma.com/docs/projects/applications/).
 
 
 ---
@@ -42,11 +42,11 @@ Due to constantly changing requirements and application features, version contro
 1. Navigate to **Project Settings > Versions**.
 ![Versions](https://s3.amazonaws.com/static-docs.testsigma.com/new_images/projects/applications/navvers.png)
 
-2. On **Edit Project** prompt, 
+2. On **Edit Project** dialog, 
      - Click on **New version**.
      ![New Version](https://s3.amazonaws.com/static-docs.testsigma.com/new_images/projects/applications/vconv.png) 
 
-     - On the **New version** prompt, enter **Name**, **Description**, and click on **Create**. 
+     - On the **New version** dialog, enter **Name**, **Description**, and click on **Create**. 
      ![Version Details](https://s3.amazonaws.com/static-docs.testsigma.com/new_images/projects/applications/vdetailsa.png)
 
 
@@ -94,7 +94,7 @@ Due to constantly changing requirements and application features, version contro
 ![Delete Version](https://s3.amazonaws.com/static-docs.testsigma.com/new_images/projects/applications/verdeclick.png)
 
 
-4. On **Delete Delete Version?** prompt, enter **DELETE** and click on **I understand, delete this**.
+4. On **Delete Delete Version?** dialog, enter **DELETE** and click on **I understand, delete this**.
 ![Delete Version Warning](https://s3.amazonaws.com/static-docs.testsigma.com/new_images/projects/applications/verdelwarning.png)
 
 
