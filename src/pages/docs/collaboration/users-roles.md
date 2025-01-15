@@ -55,7 +55,8 @@ Below are the four roles that can be assigned to a project member in Testsigma:
 3. Click on **Edit user role**.
 ![Edit User](https://s3.amazonaws.com/static-docs.testsigma.com/new_images/projects/applications/Edit_users_to_assign_new_rules_3.png)
 
-4. On **Edit User Role / Assign Projects** dialog, select roles and click on **Update**. 
+
+4. On **Edit User Role / Assign Projects** prompt, select roles and click on **Update**. 
 ![Edit User Roles](https://s3.amazonaws.com/static-docs.testsigma.com/new_images/projects/applications/Edit_users_to_assign_new_rules_4.2.png)
 
 ---
@@ -98,8 +99,11 @@ If you're the super administrator of the project, you can delete users.
 2. Hover over the user you want to delete and click on **Delete**. 
 ![Delete](https://s3.amazonaws.com/static-docs.testsigma.com/new_images/projects/applications/Deleting_Users_From_a_Project_2.png)
 
+3. Hover over the user you want to delete and click on **Delete**. 
+![Delete](https://s3.amazonaws.com/static-docs.testsigma.com/new_images/projects/applications/autpcodelete.png)
 
-3. On **Delete member** dialog, enter **DELETE** and click on **Delete**.
+
+4. On **Delete member** dialog, enter **DELETE** and click on **Delete**.
 ![Delete](https://s3.amazonaws.com/static-docs.testsigma.com/new_images/projects/applications/Deleting_Users_From_a_Project_3.1.png)
 
 
