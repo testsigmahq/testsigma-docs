@@ -28,7 +28,7 @@ The **Applications** tab within the **Project settings > Edit Project** menu pro
 
 
 [[info | **NOTE**:]]
-| If your project contains only a single application, the **Applications** tab will be hidden. To enable multiple applications, edit your project details. *For more information, refer to [project settings](https://testsigma.com/docs/projects/overview/)*.
+| If your project contains only a single application, the **Applications** tab will be hidden. To enable multiple applications, edit your project details. *For more information, refer to [Project Settings](https://testsigma.com/docs/projects/overview/)*.
 
 
 Once the **Applications** tab is enabled, you will be able to see all the applications created under the specific project.
@@ -42,16 +42,19 @@ Once the **Applications** tab is enabled, you will be able to see all the applic
 1. Navigate to **Project Settings > Edit Project > Applications**.
 ![Add an application 1](https://s3.amazonaws.com/static-docs.testsigma.com/new_images/projects/applications/Add_an_application_Step_1.png)
 
+2. Click on **New Application**.
+![Add Application](https://s3.amazonaws.com/static-docs.testsigma.com/new_images/projects/applications/apscnapp.png)
 
-2. Click on **Add Application**.
+3. On **New application** dialog, enter **Application name**, **Description**, **Version name**, and select **Application type**. 
+![Prompt](https://s3.amazonaws.com/static-docs.testsigma.com/new_images/projects/applications/apspromdtls.png)
+
+4. Click on **Add Application**.
 ![Add an application 2](https://s3.amazonaws.com/static-docs.testsigma.com/new_images/projects/applications/Add_an_application_Step_2.png)
 
-
-3. On **New application** prompt, enter **Application name**, **Description**, **Version name**, and select **Application type**. 
+5. On **New application** prompt, enter **Application name**, **Description**, **Version name**, and select **Application type**. 
 ![Add an application 3](https://s3.amazonaws.com/static-docs.testsigma.com/new_images/projects/applications/Add_an_application_step_3.png)
 
-
-4. Click on **Create**.
+6. Click on **Create**.
 ![Add an application 4](https://s3.amazonaws.com/static-docs.testsigma.com/new_images/projects/applications/Add_an_Application_step_4.3.png)
 
 ---

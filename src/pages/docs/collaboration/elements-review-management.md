@@ -34,11 +34,11 @@ There are two ways to review an element:
 
 ## **Prerequisites**
 
-- You should know how to create an element. If not, refer to [create elements](https://testsigma.com/docs/elements/overview/).
+- You should know how to create an element. If not, refer to [Create Elements](https://testsigma.com/docs/elements/overview/).
 
 
 - To enable review management, make sure the option **Element Review Management**  is enabled under **Settings > Preferences**. 
-![Element Review Management](https://s3.amazonaws.com/static-docs.testsigma.com/new_images/projects/applications/urmelmma.png)
+![Element Review Management](https://s3.amazonaws.com/static-docs.testsigma.com/new_images/projects/applications/Review_Management_for_Elemets_Prereq.png)
 
 
 ---
@@ -47,22 +47,22 @@ There are two ways to review an element:
 ## **Steps to Submit Elements for Review**
 
 1. Navigate to **Create Tests > Elements**. 
-![Elements](https://s3.amazonaws.com/static-docs.testsigma.com/new_images/projects/applications/ersnavelm.png)
+![Elements](https://s3.amazonaws.com/static-docs.testsigma.com/new_images/projects/applications/Steps_to_Submit_Elements_for_Review_1.1.png)
 
 
 2. Hover over the element you want to submit for review and click on it. This will open element details overlay. 
 
 
 3. On **Element Details** overlay, click on **Edit**. 
-![Edit](https://s3.amazonaws.com/static-docs.testsigma.com/new_images/projects/applications/erscoedit.png)
+![Edit](https://s3.amazonaws.com/static-docs.testsigma.com/new_images/projects/applications/Steps_to_Submit_Elements_for_Review_2.png)
 
 
-4. On **Update Element** overlay, click on **Submit for Review**. This will open a prompt for submission details. 
-![Submit](https://s3.amazonaws.com/static-docs.testsigma.com/new_images/projects/applications/erssfre.png)
+4. On **Update Element** overlay, click on **Submit for Review**. This will open a dialog for submission details. 
+![Submit](https://s3.amazonaws.com/static-docs.testsigma.com/new_images/projects/applications/Steps_to_Submit_Elements_for_Review_4.2.png)
 
 
-5. On **Submit for Review** prompt, select **Reviewer** from the dropdown, add comments (optional) and click on **Submit**. 
-![Submit for Review](https://s3.amazonaws.com/static-docs.testsigma.com/new_images/projects/applications/erssfrprompt.png)
+5. On **Submit for Review** dialog, select **Reviewer** from the dropdown, add comments (optional) and click on **Submit**. 
+![Submit for Review](https://s3.amazonaws.com/static-docs.testsigma.com/new_images/projects/applications/Steps_to_Submit_Elements_for_Review_5.2.png)
 
 
 
@@ -72,27 +72,27 @@ There are two ways to review an element:
 ## **Steps to Review Element**
 
 1. On the **Dashboard**, go to **Assigned for your review** section and click on **Elements**. 
-![Elements](https://s3.amazonaws.com/static-docs.testsigma.com/new_images/projects/applications/ersdnav.png)
+![Elements](https://s3.amazonaws.com/static-docs.testsigma.com/new_images/projects/applications/Steps_to_Review_Element_1.png)
 
 
 2. Click on the **element** you are assigned to review. This will open **Elements** page with elements assigned for review. 
-![Element to review](https://s3.amazonaws.com/static-docs.testsigma.com/new_images/projects/applications/erscoewinreview.png)
+![Element to review](https://s3.amazonaws.com/static-docs.testsigma.com/new_images/projects/applications/Steps_to_Review_Element_2.png)
 
 
 3. Hover over the element and click on the kebab menu and select **Edit** from the dropdown.  
-![Edit](https://s3.amazonaws.com/static-docs.testsigma.com/new_images/projects/applications/erskmedit.png)
+![Edit](https://s3.amazonaws.com/static-docs.testsigma.com/new_images/projects/applications/Steps_to_Review_Element_3.png)
 
 
-4. On **Update Element** ovarlay, click on **Review element**. 
-![Review Element](https://s3.amazonaws.com/static-docs.testsigma.com/new_images/projects/applications/rsecorelement.png)
+4. On **Update Element** overlay, click on **Review element**. 
+![Review Element](https://s3.amazonaws.com/static-docs.testsigma.com/new_images/projects/applications/Steps_to_Review_Element_4.1.png)
 
 
-5. On the **Update review status** prompt, you can either mark the status as **Approv** or **Rework** as per your review. 
-![Status](https://s3.amazonaws.com/static-docs.testsigma.com/new_images/projects/applications/ersaprw.png)
+5. On the **Update review status** dialog, you can either mark the status as **Approve** or **Rework** as per your review. 
+![Status](https://s3.amazonaws.com/static-docs.testsigma.com/new_images/projects/applications/Steps_to_Review_Element_5.png)
 
 
 6. Once the status is marked, you'll be redirected to the **Update Element** overlay. Click on **Update Element** to save the review status. 
-![Update Element](https://s3.amazonaws.com/static-docs.testsigma.com/new_images/projects/applications/erscouear.png)
+![Update Element](https://s3.amazonaws.com/static-docs.testsigma.com/new_images/projects/applications/Steps_to_Review_Element_6.1.png)
 
 
 

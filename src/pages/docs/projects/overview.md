@@ -62,13 +62,19 @@ Here is a quick GIF demonstrating how to create a Project.
 1. Navigate to **Project > Project Settings**.
 ![Edit a Project 1](https://s3.amazonaws.com/static-docs.testsigma.com/new_images/projects/applications/Edit_a_Project_Step_1.png)
 
-2. This will open the **Edit Project** prompt. 
+2. This will open the **Edit Project** dialog. 
+![Edit Project](https://s3.amazonaws.com/static-docs.testsigma.com/new_images/projects/applications/preditprompt.png)
+
+3. You can update **Project Details**, **Multiple Applications** and **Versions** from here. Also, you can add **Project Members**, **Test Case Types**, and **Requirement Types** on the same dialog. 
+![Update Details](https://s3.amazonaws.com/static-docs.testsigma.com/new_images/projects/applications/prdetailsall.png) 
+
+4. This will open the **Edit Project** prompt. 
 ![Edit a Project 2](https://s3.amazonaws.com/static-docs.testsigma.com/new_images/projects/applications/Edit_a_Project_Step_2.png)
 
-3. You can update **Project Details**, **Multiple Applications** and **Versions** from here. Also, you can add **Project Members**, **Test Case Types**, and **Requirement Types** on the same prompt. 
+5. You can update **Project Details**, **Multiple Applications** and **Versions** from here. Also, you can add **Project Members**, **Test Case Types**, and **Requirement Types** on the same prompt. 
 ![Edit a Project 3](https://s3.amazonaws.com/static-docs.testsigma.com/new_images/projects/applications/Edit_a_Project_Step_3.png) 
 
-4. Click on **Update** to save the changes. 
+6. Click on **Update** to save the changes. 
 ![Edit a Project 4](https://s3.amazonaws.com/static-docs.testsigma.com/new_images/projects/applications/Edit_Project_4_2.png)
 
 **Adding**, **Editing**, and **Deleting** Applications & Versions can be done under **Project Settings > Applications**.
@@ -99,7 +105,10 @@ Here is a quick GIF demonstrating how to switch projects.
 2. Click on **Delete**.
 ![Delete a Project 2](https://s3.amazonaws.com/static-docs.testsigma.com/new_images/projects/applications/Delete_a_Project_Step_2.png)
 
-3. On the **Delete project** prompt, enter **DELETE** and click on **Delete**.
+3. On the **Delete project** dialog, enter **DELETE** and click on **Delete**.
+![DELETE](https://s3.amazonaws.com/static-docs.testsigma.com/new_images/projects/applications/prdelefin.png) 
+
+4. On the **Delete project** prompt, enter **DELETE** and click on **Delete**.
 ![Delete a Project 3](https://s3.amazonaws.com/static-docs.testsigma.com/new_images/projects/applications/Delete_a_Project_step_3.png)
 
 

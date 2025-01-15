@@ -27,10 +27,10 @@ You can add unlimited team members to your project and assign them different rol
 ## **Prerequisites**
 
 
-- You should know how to create a [project](https://testsigma.com/docs/projects/overview/). 
+- You should know how to create a [Project](https://testsigma.com/docs/projects/overview/). 
    
 
-- To add a user to a project, you should have the role of either test manager or admin. *For more information, see [user roles](https://testsigma.com/docs/collaboration/users-roles/).*
+- To add a user to a project, you should have the role of either test manager or admin. *For more information, see [User Roles](https://testsigma.com/docs/collaboration/users-roles/).*
 
 
 ---
@@ -46,8 +46,8 @@ You can add unlimited team members to your project and assign them different rol
 ![Inviting Team Members to a Project 2](https://s3.amazonaws.com/static-docs.testsigma.com/new_images/projects/applications/Inviting_Team_Members_to_a_Project_Step_2.png)
 
 
-3. On **Invite new member** prompt, enter **Email** and select the **Role** you want to assign. 
-![Email & Role](https://s3.amazonaws.com/static-docs.testsigma.com/new_images/projects/applications/autpnewmemeber.png)
+3. On **Invite new member** dialog, enter **Email** and select the **Role** you want to assign. 
+![Email & Role](https://s3.amazonaws.com/static-docs.testsigma.com/new_images/projects/applications/Steps_to_Invite_Team_Members_3.1.png)
 
 
 4. The invited user should receive an invitation email.
