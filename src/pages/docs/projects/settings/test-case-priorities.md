@@ -11,7 +11,7 @@ warning: false
 
 Test case prioritization is done to prioritize test cases in the test suite based on factors such as code coverage, risk/critical modules, functionality, features, etc. Many teams classify priority as **Critical**, **Major**, **Medium**, and **Minor**. An internet banking organization might have test case priorities ranging from Extremely Critical, Critical to Basic. A content management system can have priorities based on whether the content is static or dynamic. 
 
-Testsigma provides a default set of Test Case Priorities which can be edited and modified as necessary. 
+Testsigma provides a default set of Test Case Priorities, which can be edited and modified as necessary. 
 
 Default **Test Case Priorities** available:  **Critical**, **Major**, **Medium**, **Minor**
 

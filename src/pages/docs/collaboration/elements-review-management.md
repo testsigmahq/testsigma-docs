@@ -50,15 +50,15 @@ There are two ways to review an element:
 2. Hover over the element you want to submit for review and click on it. This will open element details overlay. 
 
 
-3. On **Element Details** overlay, click **Edit**. 
+3. On the **Element Details** overlay, click **Edit**. 
 ![Edit](https://s3.amazonaws.com/static-docs.testsigma.com/new_images/projects/applications/Steps_to_Submit_Elements_for_Review_2.png)
 
 
-1. On **Update Element** overlay, click **Submit for Review**. This will open a dialog for submission details. 
+4. On the **Update Element** overlay, click **Submit for Review**. This will open a dialog for submission details. 
 ![Submit](https://s3.amazonaws.com/static-docs.testsigma.com/new_images/projects/applications/Steps_to_Submit_Elements_for_Review_4.2.png)
 
 
-1. On **Submit for Review** dialog, select **Reviewer** from the dropdown, add comments (optional) and click **Submit**. 
+5. On the **Submit for Review** dialog, select **Reviewer** from the dropdown, add comments (optional) and click **Submit**. 
 ![Submit for Review](https://s3.amazonaws.com/static-docs.testsigma.com/new_images/projects/applications/Steps_to_Submit_Elements_for_Review_5.2.png)
 
 
@@ -72,15 +72,15 @@ There are two ways to review an element:
 ![Elements](https://s3.amazonaws.com/static-docs.testsigma.com/new_images/projects/applications/Steps_to_Review_Element_1.png)
 
 
-2. Click on the **element** you are assigned to review. This will open **Elements** page with elements assigned for review. 
+2. Click the **element** you are assigned to review. This will open **Elements** page with elements assigned for review. 
 ![Element to review](https://s3.amazonaws.com/static-docs.testsigma.com/new_images/projects/applications/Steps_to_Review_Element_2.png)
 
 
-3. Hover over the element and click on the kebab menu and select **Edit** from the dropdown.  
+3. Hover over the element and click the kebab menu and select **Edit** from the dropdown.  
 ![Edit](https://s3.amazonaws.com/static-docs.testsigma.com/new_images/projects/applications/Steps_to_Review_Element_3.png)
 
 
-4. On **Update Element** overlay, click **Review element**. 
+4. On the **Update Element** overlay, click **Review element**. 
 ![Review Element](https://s3.amazonaws.com/static-docs.testsigma.com/new_images/projects/applications/Steps_to_Review_Element_4.1.png)
 
 

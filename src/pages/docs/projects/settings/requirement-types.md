@@ -59,7 +59,7 @@ With Testsigma, you can organize your test cases based on **Requirements**. You 
 ![Edit a Requirement Type 1](https://s3.amazonaws.com/static-docs.testsigma.com/new_images/projects/applications/Edit_a_new_requirement_type_step_1.1.png)
 
 
-2. Edit the text of the test case type, press **Enter** to save the changes.
+2. Edit the text of the test case type, then press **Enter** to save the changes.
 ![Enter](https://s3.amazonaws.com/static-docs.testsigma.com/new_images/projects/applications/rtyeasave.png)
 
 

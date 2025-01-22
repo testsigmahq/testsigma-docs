@@ -72,13 +72,10 @@ Here's a quick GIF demonstrating how to add a test case type in Testsigma.
 1. Hover over the test case type you want to delete and click on **Delete**.
 ![Delet a test case type 1](https://s3.amazonaws.com/static-docs.testsigma.com/new_images/projects/applications/Delete_a_new_test_case_type_step_1.png)
 
-2. On the **Delete Test Case Type** dialog, enter **DELETE** and click on **Delete**.
-![Confirm Deletion](https://s3.amazonaws.com/static-docs.testsigma.com/new_images/projects/applications/tctdctct.png)
-
 [[info | **NOTE**:]]
 | 1. From the **Delete Confirmation** dialog, you need to unlink all the test cases associated with the test case type by clicking on the View Test Case link and change the test case type to any other available test case type. 
 
-3. On the **Delete Test Case Type** prompt, enter **DELETE** and click on **Delete**.
+2. On the **Delete Test Case Type** prompt, enter **DELETE** and click on **Delete**.
 ![Delete a test case type 2](https://s3.amazonaws.com/static-docs.testsigma.com/new_images/projects/applications/Delete_a_new_test_case_type_step_2.png)
 
 [[info | **NOTE**:]]
@@ -101,6 +98,7 @@ Here's a quick GIF demonstrating how to delete a test case type:
 
 Here is a quick GIF demonstrating how to edit a test case type.
 ![Test Case Types](https://s3.amazonaws.com/static-docs.testsigma.com/new_images/projects/applications/Edit_a_test_case_type.gif)
+
 ---
 
 ## **Steps to Assign a Test Case Type to a Test case**

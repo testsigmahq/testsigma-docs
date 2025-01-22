@@ -100,11 +100,7 @@ If you're the super administrator of the project, you can delete users.
 ![Delete](https://s3.amazonaws.com/static-docs.testsigma.com/new_images/projects/applications/Deleting_Users_From_a_Project_2.png)
 
 
-3. Hover over the user you want to delete and click **Delete**. 
-![Delete](https://s3.amazonaws.com/static-docs.testsigma.com/new_images/projects/applications/autpcodelete.png)
-
-
-1. On **Delete Member** dialog, enter **DELETE** and click **Delete**.
+3. On **Delete Member** dialog, enter **DELETE** and click **Delete**.
 ![Delete](https://s3.amazonaws.com/static-docs.testsigma.com/new_images/projects/applications/Deleting_Users_From_a_Project_3.1.png)
 
 

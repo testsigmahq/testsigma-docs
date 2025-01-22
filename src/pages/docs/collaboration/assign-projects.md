@@ -45,15 +45,15 @@ In Testsigma, you can create multiple projects and assign users to those project
 ![Users](https://s3.amazonaws.com/static-docs.testsigma.com/new_images/projects/applications/Assigning_New_Users_to_a_Project_1.png)
 
 
-1. Click **Add New User**. This will open a dialog. 
+2. Click **Add New User**. This will open a dialog. 
 ![New User](https://s3.amazonaws.com/static-docs.testsigma.com/new_images/projects/applications/Assigning_New_Users_to_a_Project_2.1.png)
 
 
-3. On **Add New User** dialog, enter **Email**, check **Projects** you want to assign and **Roles** corresponding to projects. 
+3. On the **Add New User** dialog, enter **Email**, check **Projects** you want to assign and **Roles** corresponding to projects. 
 ![Add new users](https://s3.amazonaws.com/static-docs.testsigma.com/new_images/projects/applications/Assigning_New_Users_to_a_Project_3.png)
 
 
-1. Click **Send Invite**.
+4. Click **Send Invite**.
 ![Invite](https://s3.amazonaws.com/static-docs.testsigma.com/new_images/projects/applications/Assigning_New_Users_to_a_Project_4.1.png)
 
 
