@@ -34,9 +34,7 @@ In Testsigma, you can create a Salesforce application and establish a Metadata c
 
 > ## **Prerequisites**
 > 
-> - Salesforce organization with the test setup.
-> 
-> - Salesforce connected app. For more information, refer to [creating a connected app](https://testsigma.com/docs/salesforce-testing/special-nlps/).
+> Before you begin, ensure you have a Salesforce organization setup with a [Salesforce Connected App](https://testsigma.com/docs/salesforce-testing/connected-app/).
 
 ---
 

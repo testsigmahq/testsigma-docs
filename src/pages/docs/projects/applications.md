@@ -10,7 +10,7 @@ contextual_links:
 - type: section
   name: "Contents"
 - type: link
-  name: "Add application"
+  name: "Add Application"
   url: "#add-application"
 - type: link
   name: "Edit Application"
@@ -42,19 +42,13 @@ Once the **Applications** tab is enabled, you will be able to see all the applic
 1. Navigate to **Project Settings > Edit Project > Applications**.
 ![Add an application 1](https://s3.amazonaws.com/static-docs.testsigma.com/new_images/projects/applications/Add_an_application_Step_1.png)
 
-2. Click on **New Application**.
-![Add Application](https://s3.amazonaws.com/static-docs.testsigma.com/new_images/projects/applications/apscnapp.png)
-
-3. On **New application** dialog, enter **Application name**, **Description**, **Version name**, and select **Application type**. 
-![Prompt](https://s3.amazonaws.com/static-docs.testsigma.com/new_images/projects/applications/apspromdtls.png)
-
-4. Click on **Add Application**.
+1. Click **New Application**.
 ![Add an application 2](https://s3.amazonaws.com/static-docs.testsigma.com/new_images/projects/applications/Add_an_application_Step_2.png)
 
-5. On **New application** prompt, enter **Application name**, **Description**, **Version name**, and select **Application type**. 
+1. On the **New Application** prompt, enter **Application Name**, **Description**, **Version Name**, and select **Application Type**. 
 ![Add an application 3](https://s3.amazonaws.com/static-docs.testsigma.com/new_images/projects/applications/Add_an_application_step_3.png)
 
-6. Click on **Create**.
+1. Click **Create**.
 ![Add an application 4](https://s3.amazonaws.com/static-docs.testsigma.com/new_images/projects/applications/Add_an_Application_step_4.3.png)
 
 ---
@@ -65,7 +59,6 @@ Once the **Applications** tab is enabled, you will be able to see all the applic
 
 1. Navigate to **Project Settings > Edit Project > Applications**, and select application you want to edit from the dropdown.  
 ![Edit an application 1](https://s3.amazonaws.com/static-docs.testsigma.com/new_images/projects/applications/Edit_application_Step_1.png)
-
 
 
 2. Make the required changes and click on the **Update** to save the changes.
@@ -80,11 +73,11 @@ Once the **Applications** tab is enabled, you will be able to see all the applic
 ![Delete an Application 1](https://s3.amazonaws.com/static-docs.testsigma.com/new_images/projects/applications/Delete_an_application_step_1.png)
 
 
-2. Click on **Delete Application**. 
+1. Click **Delete Application**. 
 ![Delete an Application 2](https://s3.amazonaws.com/static-docs.testsigma.com/new_images/projects/applications/Delete_an_application_step_2.png)
 
 
-3. Clicking on the **Delete** button for the application shows a warning **Delete project** prompt. Enter **DELETE**, and click **Delete** to confirm the deletion.
+3. Clicking on the **Delete** button for the application shows a warning **Delete Project** prompt. Enter **DELETE**, and click **Delete** to confirm the deletion.
 ![Delete an Application 3](https://s3.amazonaws.com/static-docs.testsigma.com/new_images/projects/applications/Delete_an_application_step_3.1.png)
 
 

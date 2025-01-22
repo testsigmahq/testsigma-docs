@@ -24,16 +24,16 @@ contextual_links:
 ---
 
 
-Super Admins control the stopping of executions by users in **Usage Details** and **Run Results** via the **Control Who Can Stop Executions** feature. This prevents accidental stopping of executions and avoids disruptions in testing. Users cannot access the **Stop** button and must contact **Super Admins** to halt execution. This documentation explains how to enable and configure this feature.
+Super Admins control the stopping of executions by users in **Usage Details** and **Run Results** via the **Control Who Can Stop Executions** feature. This prevents accidental stopping of executions and avoids disruptions in testing. Users cannot access the **Stop** button and must contact **Super Admins** to halt execution. This article discusses enabling and configuring Execution Controls in Testsigma.
 
 
 ---
 
 
-## **Prerequisites**
-
-
-- You should know about [Users & Role Management](https://testsigma.com/docs/collaboration/users-roles/).
+> ## **Prerequisites**
+>
+> 
+> Before you begin, ensure you know how to [Manage User Roles](https://testsigma.com/docs/collaboration/users-roles/).
 
 
 ---
