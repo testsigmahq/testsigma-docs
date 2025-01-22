@@ -28,7 +28,7 @@ Salesforce is a cloud-based Customer Relationship Management (CRM) platform that
 
 ## **Setup**
 
-- For setup, refer to [creating a connected app](https://testsigma.com/docs/salesforce-testing/connected-app/) and [configuring metadata connection](https://testsigma.com/docs/salesforce-testing/metadata-connections/).
+- For setup, refer to [Creating a Connected App](https://testsigma.com/docs/salesforce-testing/connected-app/) and [Configuring Metadata Connection](https://testsigma.com/docs/salesforce-testing/metadata-connections/).
 
 ---
 

@@ -1,6 +1,6 @@
 ---
 title: "Assign Projects to Users"
-metadesc: "In Testsigma, users can be assigned to multiple projects when required | This article discusses how to add users to multiple projects"
+metadesc: "In Testsigma, users can be assigned to multiple projects for better collaboration among the team | This article discusses how to add users to multiple projects in Testsigma application"
 noindex: false
 order: 3.1
 page_id: "Assign Projects to Users"
@@ -26,16 +26,14 @@ In Testsigma, you can create multiple projects and assign users to those project
 
 ---
 
-## **Prerequisites**
+> ## **Prerequisites**
+>
+>
+> Before you begin, ensure you know how to create a [Project](https://testsigma.com/docs/projects/overview/), [Add Team Members to a Project](https://testsigma.com/docs/collaboration/invite-team-members/), and have the role of either **Test Manager** or **Admin**.
+>
+>
+> *For more information, see [User Roles](https://testsigma.com/docs/collaboration/users-roles/).*
 
-
-- You should know how to create a [Project](https://testsigma.com/docs/projects/overview/). 
-   
-
-- To add a user to a project, you should have the role of either test manager or admin for that project. *For more information, see [User Roles](https://testsigma.com/docs/collaboration/users-roles/).*
-   
-
-- You should know how to invite team members to Testsigma, see [Adding Team Members](https://testsigma.com/docs/collaboration/invite-team-members/).
 
 
 ---
@@ -47,22 +45,22 @@ In Testsigma, you can create multiple projects and assign users to those project
 ![Users](https://s3.amazonaws.com/static-docs.testsigma.com/new_images/projects/applications/Assigning_New_Users_to_a_Project_1.png)
 
 
-2. Click on **Add new user**. This will open a dialog. 
+2. Click **Add New User**. This will open a dialog. 
 ![New User](https://s3.amazonaws.com/static-docs.testsigma.com/new_images/projects/applications/Assigning_New_Users_to_a_Project_2.1.png)
 
 
-3. On **Add new user** dialog, enter **Email**, check **projects** you want to assign and **roles** corresponding to projects. 
+3. On the **Add New User** dialog, enter **Email**, check **Projects** you want to assign and **Roles** corresponding to projects. 
 ![Add new users](https://s3.amazonaws.com/static-docs.testsigma.com/new_images/projects/applications/Assigning_New_Users_to_a_Project_3.png)
 
 
-4. Click on **Send Invite**.
+4. Click **Send Invite**.
 ![Invite](https://s3.amazonaws.com/static-docs.testsigma.com/new_images/projects/applications/Assigning_New_Users_to_a_Project_4.1.png)
 
 
 5. The user will get an email with the link to join the required project(s).
 
 
-Alternatively, you can also add users from **Project Settings**. For more information, refer to [User Roles](https://testsigma.com/docs/collaboration/users-roles/). 
+Alternatively, you can also add users from **Project Settings**. *For more information, refer to [User Roles](https://testsigma.com/docs/collaboration/users-roles/).* 
 
 
 ---
@@ -75,13 +73,12 @@ Alternatively, you can also add users from **Project Settings**. For more inform
 ![Kebab Menu](https://s3.amazonaws.com/static-docs.testsigma.com/new_images/projects/applications/Assigning_Existing_Users_to_a_Project_1.png)
 
 
-2. From the dropdown, click on **Edit user role**. This will open a dialog. 
+2. From the dropdown, click on **Edit User Role**. This will open a dialog. 
 ![Dropdown](https://s3.amazonaws.com/static-docs.testsigma.com/new_images/projects/applications/Assigning_Existing_Users_to_a_Project_2.png)
 
 
 3. On **Edit User Role / Assign Projects** dialog, edit the details and click on **Update**.
 ![Update](https://s3.amazonaws.com/static-docs.testsigma.com/new_images/projects/applications/Assigning_Existing_Users_to_a_Project_3.2.png)
-
 
 
 4. The user will be assigned the selected projects with the selected access roles.

@@ -20,9 +20,11 @@ contextual_links:
   url: "#stop-rerun-using-rest-api"
 ---
 
-<br>
+---
 
 In Testsigma, you can re-run the test cases from a test run result using API. This article discusses how to rerun failed test cases, all test cases, or custom test cases from a particular test run result using REST API.
+
+---
 
 ## **Test Case Execution details using REST API**
 This endpoint allows users to get details of all Test case executions using REST API.
@@ -42,6 +44,7 @@ This endpoint allows users to get details of all Test case executions using REST
 **testSuiteId:** ID of Test Suite<br>
 **testSuiteResultId:**  ID of Test Suite result<br>
 
+---
 
 ## **Trigger Rerun using REST API**
 This endpoint allows users to trigger the rerun of selected test cases using REST API.
@@ -84,6 +87,7 @@ This endpoint allows users to trigger the rerun of selected test cases using RES
 **test\_step\_prerequisite\_fail:** Action to perform on Test Step prerequisite failure<br>
 **totalQueuedCount:** Total number of queued tests<br>
 
+---
 
 ## **Stop Rerun using REST API**
 This endpoint allows users to stop the rerun of already executed test cases using REST API.
@@ -122,3 +126,7 @@ This endpoint allows users to stop the rerun of already executed test cases usin
 **test\_case\_prerequisite\_fail:** Action to perform on Test Case prerequisite failure<br>
 **test\_step\_prerequisite\_fail:** Action to perform on Test Step prerequisite failure<br>
 **totalQueuedCount:** Total number of queued tests<br>
+
+
+
+---
