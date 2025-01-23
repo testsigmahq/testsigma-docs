@@ -31,8 +31,9 @@ Due to constantly changing requirements and application features, version contro
 
 ---
 
-## **Prerequisites**
-- You should know how to [Manage Applications](https://testsigma.com/docs/projects/applications/).
+> ## **Prerequisites**
+> 
+> Before you begin, ensure you know how to [Manage Applications](https://testsigma.com/docs/projects/applications/).
 
 
 ---
@@ -43,10 +44,10 @@ Due to constantly changing requirements and application features, version contro
 ![Create a Version 1](https://s3.amazonaws.com/static-docs.testsigma.com/new_images/projects/applications/Create_a_Version_step_1.png)
 
 2. On **Edit Project** dialog, 
-     - Click on **New version**.
+     - Click **New Version**.
      ![Create a Version 2](https://s3.amazonaws.com/static-docs.testsigma.com/new_images/projects/applications/Create_a_Version_step_2.png) 
      
-     - On the **New version** prompt, enter **Name**, **Description**, and click on **Create**. 
+     - On the **New Version** dialog, enter **Name**, **Description**, and click on **Create**. 
      ![Create a Version 3](https://s3.amazonaws.com/static-docs.testsigma.com/new_images/projects/applications/Create_aaplication_version_3.png)
 
 
@@ -54,10 +55,10 @@ Due to constantly changing requirements and application features, version contro
 
 
 [[info | **NOTE**:]]
-| 1. You have to select **Allow multiple versions** while creating a project to be able to create multiple versions.  
+| 1. You have to select **Allow Multiple Versions** while creating a project to be able to create multiple versions.  
 | ![Create a Version 4](https://s3.amazonaws.com/static-docs.testsigma.com/new_images/projects/applications/Create_a_Version_step_4.png)
 |
-| 2. If you want to copy data from previous versions, enable **Copy Data from previous Versions** toggle and select the models you want to transfer. 
+| 2. If you want to copy data from previous versions, enable **Copy Data from Previous Versions** toggle and select the models you want to transfer. 
 | ![Create a Version 5](https://s3.amazonaws.com/static-docs.testsigma.com/new_images/projects/applications/Create_application_version_step_5.png)
 
 ---
@@ -72,10 +73,10 @@ Due to constantly changing requirements and application features, version contro
 ![Edit Application Version 2](https://s3.amazonaws.com/static-docs.testsigma.com/new_images/projects/applications/Edit_a_Version_step_2.png)
 
 
-3. Click on **Edit Version**. 
+3. Click **Edit Version**. 
 ![Edit Application Version 3](https://s3.amazonaws.com/static-docs.testsigma.com/new_images/projects/applications/Edit_a_Version_step_3.png)
 
-4. Make the changes and click on **Update**.
+4. Make the changes and click **Update**.
 ![Edit Application Version 4](https://s3.amazonaws.com/static-docs.testsigma.com/new_images/projects/applications/Edit_application_version_step_4.png)
 
 
@@ -90,10 +91,10 @@ Due to constantly changing requirements and application features, version contro
 2. On **Versions**, hover over the version you want to delete and click on the kebab menu.
 ![Delete Application Version 2](https://s3.amazonaws.com/static-docs.testsigma.com/new_images/projects/applications/Delete_a_Version_step_2.png)
 
-3. Click on **Delete Version**. 
+3. Click **Delete Version**. 
 ![Delete Application Version 3](https://s3.amazonaws.com/static-docs.testsigma.com/new_images/projects/applications/Delete_a_Version_step_3.png)
 
-4. On **Delete Delete Version?** prompt, enter **DELETE** and click on **I understand, delete this**.
+4. On the **Delete Delete Version?** dialog, enter **DELETE** and click on **I understand, delete this**.
 ![Delete Application Version 4](https://s3.amazonaws.com/static-docs.testsigma.com/new_images/projects/applications/Delete_Application_Version_Step_4.png)
 
 

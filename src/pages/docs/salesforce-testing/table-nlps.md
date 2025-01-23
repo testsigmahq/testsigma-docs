@@ -31,12 +31,7 @@ In Salesforce, listview virtual tables have various cell properties: some cells 
 
 > ## **Prerequisites**
 > 
-> - Salesforce organization with the test setup.
-> 
-> - Salesforce connected app. For more information, refer to [creating a connected app](https://testsigma.com/docs/salesforce-testing/special-nlps/).
->
-> - Salesforce metadata connected to Testsigma. For more information, refer to [creating metadata connections](https://testsigma.com/docs/salesforce-testing/metadata-connections/).
->
+> Before you begin, ensure you have a Salesforce organization setup with a [Salesforce Connected App](https://testsigma.com/docs/salesforce-testing/connected-app/) and [Salesforce Metadata](https://testsigma.com/docs/salesforce-testing/metadata-connections/) connected to Testsigma.
 
 ---
 
