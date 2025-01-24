@@ -61,10 +61,10 @@ When there are changes in metadata, users must refresh it before executing the t
 
 ### **Request fields / Response fields**<br>
 
-- **id:** Salesforce Connection ID<br>
-- **metadataSyncResult:** Status of metadata sync process<br>
-- **metadataSyncType:** Type of metadata sync<br>
-- **salesforceConnectionId:** Salesforce Connection ID<br>
+- **id:** Refresh Trigger ID.<br>
+- **metadataSyncResult:** Status of metadata sync process.<br>
+- **metadataSyncType:** Type of metadata sync.<br>
+- **salesforceConnectionId:** Salesforce Connection ID.<br>
 
 ---
 
@@ -83,8 +83,8 @@ When there are changes in metadata, users must refresh it before executing the t
 
 ### **Request fields / Response fields**<br>
 
-- **status:** Status of metadata sync process<br>
-- **message:** Additional information of sync process<br>
+- **status:** Status of metadata sync process.<br>
+- **message:** Additional information of sync process.<br>
 
 
 ---
