@@ -691,5 +691,9 @@
   "smtp-configuration": {"/docs/configuration/smtp-configuration/": "SMTP Configuration"},
   "generate-wda-file": {"/docs/configuration/generate-wda-file/": "Create WDA File" },
   "environments": {"/docs/api/environments/": "Manage Environments"},
-  "runs": {"/docs/reports/runs/": "Results & Reports"}
+  "runs": {"/docs/reports/runs/": "Results & Reports"},
+  "byok": {"/docs/genai-capabilities/byok/": "Bring Your Own Key (BYOK)" },
+  "llms": {"/docs/genai-capabilities/byok/llms": "Supported LLMs" },
+  "azure": {"/docs/genai-capabilities/byok/llms/azure-llm/": "Azure OpenAI" },
+  "openai": {"/docs/genai-capabilities/byok/llms/openai/": "OpenAI" }
 }
