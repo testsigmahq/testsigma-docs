@@ -32,21 +32,31 @@ An automated test case is a step-by-step logic that simulates user interactions 
 
 ## **Steps to Add Test Step Types**
 
-1. Navigate to **Create Tests > Test Cases**, and click on **Create Test Cases**.
+1. From the left navigation bar, go to **Create Tests > Test Cases**.
+   ![Steps to add test step types 1](https://s3.amazonaws.com/static-docs.testsigma.com/new_images/projects/applications/Steps_to_Add_Test_Step_Types_1.png)
+   
+2. In the **Test Case Explorer** section, expand the required feature and click the **+** icon next to the target scenario. This will open a dialog box.
+   ![Steps to add test step types 2](https://s3.amazonaws.com/static-docs.testsigma.com/new_images/projects/applications/Steps_to_Add_Test_Step_Types_2.1.png)
 
-![Test Cases](https://s3.amazonaws.com/static-docs.testsigma.com/new_images/projects/applications/ctsmctcs.png)
+3. On the dialog box, validate the target feature and scenario, enter the name, and click **Create**.
+   ![Steps to add test step types 3](https://s3.amazonaws.com/static-docs.testsigma.com/new_images/projects/applications/Steps_to_Add_Test_Step_Types_3.png)
 
+   Alternatively, click the **+** icon next to the search bar and select **New Test Case** from the drop-down menu. Follow the same steps as above.
+   ![Search bar test case](https://s3.amazonaws.com/static-docs.testsigma.com/new_images/projects/applications/Search_bar_test_case.png)
 
-2. Enter **Name** and click on **Add new step**. 
+[[info | **NOTE**:]]
+|
+| - You can edit the target feature and scenario by clicking on the **Edit** icon. This will open the **Select Location** dialog.
+|   ![]() 
+| - In the **Select Location** dialog, select the target feature and scenario and click **Confirm**.  
+|   ![]()
+| - This feature functions consistently across all applications.
 
-![New Step](https://s3.amazonaws.com/static-docs.testsigma.com/new_images/projects/applications/ctsmanstep.png)
-
-
-3. Click on the option on the left side of the test step.
+4. Click on the option on the left side of the test step.
 
 ![Option](https://s3.amazonaws.com/static-docs.testsigma.com/new_images/projects/applications/tstypesovopt.png)
 
-4. This will open a side panel from where you can choose different test steps.
+5. This will open a side panel from where you can choose different test steps.
 
 ![Side Panel](https://s3.amazonaws.com/static-docs.testsigma.com/new_images/projects/applications/tstypesidepanel.png)
 
