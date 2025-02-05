@@ -10,6 +10,9 @@ contextual_links:
 - type: section
   name: "Contents"
 - type: link
+  name: "Prerequisites"
+  url: "#prerequisites"
+- type: link
   name: "Element parameters"
   url: "#element-parameters"
 - type: link
@@ -19,10 +22,16 @@ contextual_links:
 
 ---
 
-[[info | NOTE:]]
-| You need to authenticate these requests with your Testsigma API Key.  See  [How to generate API Keys.](https://testsigma.com/docs/configuration/api-keys/)
+Testsigma allows you to create and update elements using REST APIs. This article explains how to manage elements using APIs in Testsigma.
 
 ---
+
+> ## **Prerequisites**
+>
+> Before you begin, ensure you have an [API Key](https://testsigma.com/docs/configuration/api-keys/) from Testsigma application.
+
+---
+
 ## **Element parameters**
 
 Before we check the actual requests, let’s go through some Element properties that you will find in the Request and Response
@@ -44,83 +53,56 @@ Before we check the actual requests, let’s go through some Element properties 
 - **createdType:** Creation Mode of the Element. Either ‘Chrome’, ‘Advanced’, or ‘Manual’
 
 ---
+
 ## **API Specification**
 
 ### **Get Elements**
 
-Get all the available elements in the Project
-- Request Type: GET
-- Endpoint: https://app.testsigma.com/api/v1/ui_identifiers
-- Authorization: Bearer <API_Token>
+This endpoint retrieves all the available elements in the Project. 
+
+| **Request Type**  | **GET**  |
+|-------------------|---------|
+| **Endpoint**      | `https://app.testsigma.com/api/v1/ui_identifiers` |
+| **Authorization** | Bearer `<API_Token>` |
 
 
 
 ### **Get an Element**
-Get a specific element in the Project by Element Id
-- Request Type: GET
-- Endpoint: https://app.testsigma.com/api/v1/ui_identifiers/<ELEMENT_ID>
-- Authorization: Bearer <API_Token>
+This endpoint retrieves a specific element in the Project by Element ID. 
 
-<ELEMENT_ID> is the id of the specific element you want to fetch.
+| **Request Type**  | **GET**  |
+|-------------------|---------|
+| **Endpoint**      | `https://app.testsigma.com/api/v1/ui_identifiers/<ELEMENT_ID>` |
+| **Authorization** | Bearer `<API_Token>` |
+
+
+**<ELEMENT_ID>** is the id of the specific element you want to fetch.
 
 
 
 ### **Create Element**
-Create a new Element
 
-- Request Type: POST
-- Endpoint: https://app.testsigma.com/api/v1/ui_identifiers
-- Authorization: Bearer <API_Token>
+This endpoint creates an element in the application. 
 
-Request Body:
-
-{	
-
-&emsp;&emsp;&emsp;"name": "TestUIID",
-
-&emsp;&emsp;&emsp;"locatorType": "xpath",
-
-&emsp;&emsp;&emsp;"definition" : "//test/div",
-
-&emsp;&emsp;&emsp;"createdBy": "USED\_ID",
-
-&emsp;&emsp;&emsp;"status": "READY",
-
-&emsp;&emsp;&emsp;"screenNameId": "<SCREEN\_NAME\_ID>",
-
-&emsp;&emsp;&emsp;"applicationVersionId": "<VERSION\_ID>",
-
-&emsp;&emsp;&emsp;"createdType": "CHROME"
-
-}
+| **Request Type**  | **POST**  |
+|-------------------|---------|
+| **Endpoint**      | `https://app.testsigma.com/api/v1/ui_identifiers` |
+| **Authorization** | Bearer `<API_Token>` |
+| **Request Body**  | <pre>{<br>    "name": "TestUIID",<br>    "locatorType": "xpath",<br>    "definition": "//test/div",<br>    "createdBy": "USED\_ID",<br>    "status": "READY",<br>    "screenNameId": "<SCREEN\_NAME\_ID>",<br>    "applicationVersionId": "<VERSION\_ID>",<br>    "createdType": "CHROME"<br>} </pre> |
 
 
 
 ### **Update Element**
-Update the details regarding an existing element
 
-- Request Type: PUT
-- Endpoint: https://app.testsigma.com/api/v1/ui_identifiers/<Element_ID>
-- Authorization: Bearer <API_Token>
+This endpoint updates the existing element in the application. 
 
-Request Body:
 
-{
+| **Request Type**  | **PUT**  |
+|-------------------|---------|
+| **Endpoint**      | `https://app.testsigma.com/api/v1/ui_identifiers/<Element_ID>` |
+| **Authorization** | Bearer `<API_Token>` |
+| **Request Body**  | <pre>{<br>    "name": "TestUIID",<br>    "locatorType": "xpath",<br>    "definition": "//test/div",<br>    "createdBy": "USED\_ID",<br>    "status": "READY",<br>    "screenNameId": "<SCREEN\_NAME\_ID>",<br>    "applicationVersionId": "<VERSION\_ID>",<br>    "createdType": "CHROME"<br>} </pre> |
 
-&emsp;&emsp;&emsp;"name": "TestUIID",
 
-&emsp;&emsp;&emsp;"locatorType": "xpath",
 
-&emsp;&emsp;&emsp;"definition" : "//test/div",
-
-&emsp;&emsp;&emsp;"createdBy": "USED\_ID",
-
-&emsp;&emsp;&emsp;"status": "READY",
-
-&emsp;&emsp;&emsp;"screenNameId": "<SCREEN\_NAME\_ID>",
-
-&emsp;&emsp;&emsp;"applicationVersionId": "<VERSION\_ID>",
-
-&emsp;&emsp;&emsp;"createdType": "CHROME"
-
-}
+---

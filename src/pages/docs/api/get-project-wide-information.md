@@ -34,10 +34,9 @@ Testsigma provides APIs that allow users to retrieve comprehensive project detai
 
 ---
 
-
 > ## **Prerequisites**
 >
-> - You should have an API Key. See, [generate API Keys in Testsigma](https://testsigma.com/docs/configuration/api-keys/).
+> Before you begin, ensure you have an [API Key](https://testsigma.com/docs/configuration/api-keys/) from Testsigma application.
 
 ---
 
