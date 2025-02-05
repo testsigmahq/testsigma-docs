@@ -40,7 +40,7 @@ const IndexContent = () => {
           <a
             href='/request-demo'
             target={'_blank'}
-            className='cta-link border border-green-600 px-4 py-1.5 bg-green-600 text-white rounded h-10'
+            className='cta-link border border-primary_teal_green px-4 py-1.5 bg-primary_teal_green text-white rounded h-10'
           >
             Schedule a free demo
           </a>
