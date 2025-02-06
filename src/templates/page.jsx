@@ -153,7 +153,7 @@ export default ({ data, pageContext }) => {
                     <a
                       href='/request-demo'
                       target='_blank'
-                      className='signup-btn border border-primary_teal_green px-4 py-1.5 bg-primary_teal_green font-bold text-white rounded'
+                      className='signup-btn border border-primary_teal_green px-4 py-1.5 base-teal-gradient font-bold text-white rounded'
                     >
                       Book a free demo
                     </a>

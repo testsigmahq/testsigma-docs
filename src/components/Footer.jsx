@@ -21,7 +21,7 @@ const Footer = () => {
           <a
             href='/request-demo'
             target={'_blank'}
-            className='cta-link border border-primary_teal_green px-4 py-1.5 bg-primary_teal_green text-white rounded h-10'
+            className='cta-link border border-primary_teal_green base-teal-gradient px-4 py-1.5 text-white rounded h-10'
           >
             Schedule a free demo
           </a>

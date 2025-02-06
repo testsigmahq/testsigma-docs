@@ -5,7 +5,7 @@ module.exports = {
     extend: {
       colors: {
         primary_teal_green: '#00b2bd',
-        secondary_teal_green: '#00b2bd'
+        secondary_teal_green: '#09c0a1',
       },
     },
   },
