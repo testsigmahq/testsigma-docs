@@ -67,7 +67,7 @@ body {
     @media (max-width: 767px) {
       width: 100%;
     }
-    .text-green-600, .text-white {
+    .text-primary_teal_green, .text-white {
       font-weight: 600;
     }
   }
@@ -868,4 +868,7 @@ table{
       }
     }
   }
+}
+.base-teal-gradient {
+  background: linear-gradient(91.7deg, #00b2bd 0.51%, #09c0a1 68.87%);
 }
