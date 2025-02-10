@@ -454,19 +454,19 @@
     "/docs/integrations/test-labs/kobiton/": "Kobiton"
   },
   "azure-devops-boards": {
-    "/docs/integrations/product-management/azure-devops-boards/": "Azure DevOps Boards"
+    "/docs/integrations/test-management/azure-devops-boards/": "Azure DevOps Boards"
   },
   "linear": {
-    "/docs/integrations/product-management/linear/": "Linear"
+    "/docs/integrations/test-management/linear/": "Linear"
   },
   "trello": {
-    "/docs/integrations/product-management/trello/": "Trello"
+    "/docs/integrations/test-management/trello/": "Trello"
   },
   "freshrelease": {
-    "/docs/integrations/product-management/freshrelease/": "Freshrelease"
+    "/docs/integrations/test-management/freshrelease/": "Freshrelease"
   },
     "clickup": {
-    "/docs/integrations/product-management/clickup/": "Clickup"
+    "/docs/integrations/test-management/clickup/": "Clickup"
   },
   "what-is-an-addon": {
     "/docs/addons/what-is-an-addon/": "What is an Addon?"
@@ -695,5 +695,8 @@
   "byok": {"/docs/genai-capabilities/byok/": "Bring Your Own Key (BYOK)" },
   "llms": {"/docs/genai-capabilities/byok/llms": "Supported LLMs" },
   "azure": {"/docs/genai-capabilities/byok/llms/azure-llm/": "Azure OpenAI" },
-  "openai": {"/docs/genai-capabilities/byok/llms/openai/": "OpenAI" }
+  "openai": {"/docs/genai-capabilities/byok/llms/openai/": "OpenAI" },
+  "xray": {"/docs/integrations/test-management/xray/": "Xray"},
+  "qtest": {"/docs/integrations/test-management/qtest/": "qTest"},
+  "testrail": {"/docs/integrations/test-management/testrail/": "TestRail"}
 }
