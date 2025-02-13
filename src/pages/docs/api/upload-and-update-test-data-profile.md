@@ -10,6 +10,9 @@ contextual_links:
 - type: section
   name: "Contents"
 - type: link
+  name: "Prerequisites"
+  url: "#prerequisites"
+- type: link
   name: "Upload test data profile with REST API"
   url: "#upload-test-data-profile-with-rest-api"
 - type: link
@@ -17,21 +20,29 @@ contextual_links:
   url: "#update-test-data-profile-with-rest-api"
 ---
 
-<br>
+---
 
 The following article discusses about uploading and updating a test data profile using API. *For more information on creating a test data profile refer to, [create a test data profile](https://testsigma.com/docs/test-data/create-data-profiles/).*
+
+---
+
+> ## **Prerequisites**
+>
+> Before you begin, ensure you have an [API Key](https://testsigma.com/docs/configuration/api-keys/) and XLS file.
+
+---
 
 ## **Upload test data profile with REST API**
 
 This endpoint allows users to upload XLSX files into Testsigma using REST API.
 
-|**Request Type**|POST|
+|**Request Type**|**POST**|
 |---|---|
 |**Endpoint**|https://app.testsigma.com/api/v1/test_data/upload|
 |**Authorization**|Bearer **<API\_Token>**<br>Same as the Testsigma API key mentioned above.|
-|**Request body type**|Multipart form-data|
-|**Request body (form data)**|file = @"/Users/manohar/Downloads/SampleTestaDataFile.xlsx"<br>encryptedColumns = "Password"<br>applicationVersionId = "10"<br>name = "TestData01"<br>notificationEmail= "manoharkrishna@testsigma.com"|
-|**Response Body(JSON)**|{<br>&emsp;"id": 78,<br>&emsp;"testDataName": "API 01",<br>&emsp;"testData": null,<br>&emsp;"data": null,<br>&emsp;"createdById": 10,<br>&emsp;"updatedById": 10,<br>&emsp;"columns": null,<br>&emsp; "createdDate": 1669806564576,<br>&emsp;"updatedDate": 1669806564576,<br>&emsp;"passwords": null,<br>&emsp;"versionId": 69,<br>&emsp;"isMigrated": null,<br>&emsp;"message": "We will send an email once the Test data profile is created successfully."<br>&emsp;}|
+|**Request Body Type**|Multipart form-data|
+|**Request Body (form data)**|- **file** = @"<local\_path>"<br> - **encryptedColumns** = "Password"<br> - **applicationVersionId** = "10"<br> - **name** = "TestData01"<br> - **notificationEmail**= "example@testsigma.com"|
+|**Response Body (JSON)**|{<br>&emsp;"id": 78,<br>&emsp;"testDataName": "API 01",<br>&emsp;"testData": null,<br>&emsp;"data": null,<br>&emsp;"createdById": 10,<br>&emsp;"updatedById": 10,<br>&emsp;"columns": null,<br>&emsp; "createdDate": 1669806564576,<br>&emsp;"updatedDate": 1669806564576,<br>&emsp;"passwords": null,<br>&emsp;"versionId": 69,<br>&emsp;"isMigrated": null,<br>&emsp;"message": "We will send an email once the Test data profile is created successfully."<br>&emsp;}|
 
 ### **Request fields**
 
@@ -51,7 +62,7 @@ For example, In the URL - https://app.testsigma.com/ui/projects/11/details, the 
 For example, in https://app.testsigma.com/ui/projects/11/apps/25/versions/364/details URL, the version ID is 364.<br>
 **message:** the email which will be sent as notification for the uploaded file.<br>
 
-<br>
+---
 
 ## **Update test data profile with REST API**
 
@@ -61,8 +72,8 @@ This endpoint allows users to update test data profile in Testsigma using REST A
 |---|---|
 |**Endpoint**|https://app.testsigma.com/api/v1/test_data/upload|
 |**Authorization**|Bearer **<API\_Token>**<br>Same as the Testsigma API key mentioned above.|
-|**Request body type**|Multipart form-data|
-|**Request body (form data)**|file = @"/Users/manohar/Downloads/SampleTestaDataFile.xlsx"<br>encryptedColumns = "Password"<br>applicationVersionId = "10"<br>name = "TestData01"<br>notificationEmail= "manoharkrishna@testsigma.com"|
+|**Request Body Type**|Multipart form-data|
+|**Request Body (form data)**|- **file** = @"<local\_path>"<br> - **encryptedColumns** = "Password"<br> - **applicationVersionId** = "10"<br> - **name** = "TestData01"<br> - **notificationEmail**= "example@testsigma.com"|
 |**Response Body(JSON)**|{<br>"id": 77,<br>&emsp;"testDataName": "TD01",<br>&emsp;"testData": null,<br>&emsp;"data": null,<br>&emsp;"createdById": 9,<br>&emsp;"updatedById": 9,<br>&emsp;"columns": [ <br>&emsp;"description",<br>&emsp;"city",<br>&emsp;"man"<br>&emsp;],<br>&emsp;<br>&emsp;"createdDate": 1669806346000,<br>&emsp;"updatedDate": 1669806369000,<br>&emsp;"passwords": null,<br>&emsp;"versionId": 69,<br>&emsp;"isMigrated": true,<br>&emsp;"message": "We will send an email once the Test data profile is created successfully."<br>&emsp;}|
 
 ### **Request fields**
@@ -83,3 +94,6 @@ For example, In the URL - https://app.testsigma.com/ui/projects/11/details, the 
 **versionId:** The ID of the application version where the file is to be uploaded.<br>
 For example, in https://app.testsigma.com/ui/projects/11/apps/25/versions/364/details URL, the version ID is 364.<br>
 **message:** the email which will be sent as notification for the uploaded file.<br>
+
+
+---
