@@ -12,6 +12,9 @@ contextual_links:
   name: "Prerequisites"
   url: "#prerequisites"
 - type: link
+  name: "Steps to Fetch Connector URL"
+  url: "#steps-to-fetch-connector-url"
+- type: link
   name: "Steps to Integrate Google Chat with Testsigma"
   url: "#steps-to-integrate-google-chat-with-testsigma"
 - type: link
@@ -27,10 +30,30 @@ In Testsigma, you can send test plan status notifications to a specific Google C
 ---
 
 > ## **Prerequisites**
+>
 > 
-> - You need a Google Chat Incoming webhook to integrate with Testsigma. For more information, refer to [incoming webhooks Google Chat](https://developers.google.com/chat/how-tos/webhooks)
-> 
-> - You should know [how to create a test plan](https://testsigma.com/docs/test-management/test-plans/overview/#steps-to-create-a-test-plan).
+> Before you begin, ensure you have a valid **Google Chat Incoming Webhook URL** and know [how to Create a Test Plan](https://testsigma.com/docs/test-management/test-plans/overview/#steps-to-create-a-test-plan).
+
+---
+
+## **Steps to Fetch Connector URL**
+
+1. Open [Google Chat](https://chat.google.com/), and select the **Chat Space** where you want to add the connector.
+
+2. Click the **Space Name**, and select **Apps & Integrations**.
+   ![Apps & Integrations](https://s3.amazonaws.com/static-docs.testsigma.com/new_images/projects/applications/gchat_Integrations.png)
+
+3. Under **Integrations**, go to **Webhooks** and click **Add Webhook**.
+   ![Add Webhook](https://s3.amazonaws.com/static-docs.testsigma.com/new_images/projects/applications/Add_Webhook_gchat.png)
+
+4. In the **Incoming webhooks** dialog, enter a **Webhook Name**, and optionally upload an image/avatar URL.
+   ![Name & Image](https://s3.amazonaws.com/static-docs.testsigma.com/new_images/projects/applications/WebhookName_URL_gchat.png)
+
+5. Click **Save**.
+   ![Save](https://s3.amazonaws.com/static-docs.testsigma.com/new_images/projects/applications/Save_Details_gchat.png)
+
+6. Click **Copy link** to copy the generated Webhook URL.
+   ![Copy URL](https://s3.amazonaws.com/static-docs.testsigma.com/new_images/projects/applications/Copy_gchat_webhookURL.png)
 
 
 ---
