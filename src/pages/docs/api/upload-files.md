@@ -1,7 +1,7 @@
 ---
 title: "Upload Files using API"
 page_title: "Upload Files via API in Testsigma"
-metadesc: "REST API endpoints used for uploading the Apps and Attachments in Testsigma | You can use APIs to update or add  files during test runtime as part of a CI pipeline."
+metadesc: "REST API endpoints used for uploading the Apps and Attachments in Testsigma | You can use APIs to update or add files during test runtime as part of a CI pipeline."
 noindex: false
 order: 21.5
 page_id: "Upload Files using API"
@@ -9,6 +9,9 @@ warning: false
 contextual_links:
 - type: section
   name: "Contents"
+- type: link
+  name: "Prerequisites"
+  url: "#prerequisites"
 - type: link
   name: "Upload New File API"
   url: "#upload-new-file-api"
@@ -28,26 +31,29 @@ contextual_links:
 
 ---
 
-You can use Testsigma APIs to update or add  files during test runtime as part of a CI pipeline. The updated build can be used in a Testsigma Test Plan by updating the existing App on Testsigma with the newly built one via API. 
+You can easily update or add files during test runs in your Continuous Integration (CI) pipeline using APIs. Once the updated file is uploaded, it becomes available for subsequent executions. This article discusses uploading and updating files using APIs.
 
-You should know how to [Upload Android and iOS Apps](https://testsigma.com/docs/uploads/upload-apps/) **in Testsigma.**
+---
 
-[[info | NOTE:]]
-| Testsigma issues a valid [API key](https://testsigma.com/docs/configuration/api-keys/) that is required to [authorize](https://testsigma.com/docs/test-cases/create-steps-restapi/authorization-request/) access to Testsigma API resources.
+
+> ## **Prerequisites**
+>
+> Before you begin, ensure you have an [API Key](https://testsigma.com/docs/configuration/api-keys/) from Testsigma application.
+
 
 ---
 
 ## **Upload New File API**
 
-This endpoint allows users to upload Attachments, IPA or APK Files into Testsigma Uploads using REST API.
+This endpoint allows users to upload attachments, such as IPA or APK files, to Testsigma Uploads using the REST API.
 
-|**Request Type**|POST|
+|**Request Type**|**POST**|
 |---|---|
 |**Endpoint**|https://app.testsigma.com/api/v1/uploads|
 |**Authorization**|Bearer **<API\_Token>**<br>Same as the Testsigma API Key mentioned above.|
 |**Request Body Type**|Multipart form-data|
-|**Request Body(form data)**|projectId: 24<br>name: APIFileExample<br>uploadType: Attachment<br>platformType: TestsigmaLab<br>isPublic: true<br>applicationId: 43<br>version:v101|
-|**Response Body(JSON)**|{<br>&emsp;"id": 62,<br>&emsp;"createdById": 10,<br>&emsp;"updatedById": 10,<br>&emsp;"createdDate": 1681974022556,<br>&emsp;"updatedDate": 1681974022769,<br>&emsp;"name": " APIFileExample",<br>&emsp;"latestVersionId": 68,<br>&emsp;"latestVersion": {<br>&emsp;&emsp;"id": 68,<br>&emsp;&emsp;"createdById": 10,<br>&emsp;&emsp;"updatedById": 10,<br>&emsp;&emsp;"createdDate": 1681974023000,<br>&emsp;&emsp;"updatedDate": 1681974023000,<br>&emsp;&emsp;"name": "v101",<br>&emsp;&emsp;"path": "46091/uploads/24/68/example.png",<br>&emsp;&emsp;"fileName": "example.png",<br>&emsp;&emsp;"uploadType": "Attachment",<br>&emsp;&emsp;"testsigmaSauceLabsAppId": null,<br>&emsp;&emsp;"testsigmaBrowserstackAppId": null,<br>&emsp;&emsp;"testsigmaKobitonAppId": null,<br>&emsp;&emsp;"testsigmaLambdatestAppId": null,<br>&emsp;&emsp;"fileSize": 181368,<br>&emsp;&emsp;"preSignedURL": null,<br>&emsp;&emsp;"signed": false,<br>&emsp;&emsp;"errorMessage": null,<br>&emsp;&emsp;"status": "SUCCESS",<br>&emsp;&emsp;"uploadName": " APIFileExample",<br>&emsp;&emsp;"signStatus": "NONE",<br>&emsp;&emsp;"uploadId": 62<br>&emsp;&emsp;},<br>&emsp;"versions": null,<br>&emsp;"supportedDeviceType": null,<br>&emsp;"isFlutter": false<br>}<br><br>**Note: The Response Body may contain additional information besides the mentioned keys. You can ignore that information.**
+|**Request Body(form data)**|- **projectId**: 24<br> - **name**: APIFileUpload<br> - **uploadType**: Attachment<br> - **platformType**: TestsigmaLab<br> - **isPublic**: true<br> - **applicationId**: 43<br> - **version**: v101 <br> - **fileContent**: UploadFile_Here |
+|**Response Body(JSON)**|{<br>&emsp;&emsp;"id": 62,<br>&emsp;&emsp;"createdById": 10,<br>&emsp;&emsp;"updatedById": 10,<br>&emsp;&emsp;"createdDate": 1681974022556,<br>&emsp;&emsp;"updatedDate": 1681974022769,<br>&emsp;&emsp;"name": " APIFileExample",<br>&emsp;&emsp;"latestVersionId": 68,<br>&emsp;&emsp;"latestVersion": {<br>&emsp;&emsp;&emsp;&emsp;"id": 68,<br>&emsp;&emsp;&emsp;&emsp;"createdById": 10,<br>&emsp;&emsp;&emsp;&emsp;"updatedById": 10,<br>&emsp;&emsp;&emsp;&emsp;"createdDate": 1681974023000,<br>&emsp;&emsp;&emsp;&emsp;"updatedDate": 1681974023000,<br>&emsp;&emsp;&emsp;&emsp;"name": "v101",<br>&emsp;&emsp;&emsp;&emsp;"path": "46091/uploads/24/68/example.png",<br>&emsp;&emsp;&emsp;&emsp;"fileName": "example.png",<br>&emsp;&emsp;&emsp;&emsp;"uploadType": "Attachment",<br>&emsp;&emsp;&emsp;&emsp;"testsigmaSauceLabsAppId": null,<br>&emsp;&emsp;&emsp;&emsp;"testsigmaBrowserstackAppId": null,<br>&emsp;&emsp;&emsp;&emsp;"testsigmaKobitonAppId": null,<br>&emsp;&emsp;&emsp;&emsp;"testsigmaLambdatestAppId": null,<br>&emsp;&emsp;&emsp;&emsp;"fileSize": 181368,<br>&emsp;&emsp;&emsp;&emsp;"preSignedURL": null,<br>&emsp;&emsp;&emsp;&emsp;"signed": false,<br>&emsp;&emsp;&emsp;&emsp;"errorMessage": null,<br>&emsp;&emsp;&emsp;&emsp;"status": "SUCCESS",<br>&emsp;&emsp;&emsp;&emsp;"uploadName": " APIFileExample",<br>&emsp;&emsp;&emsp;&emsp;"signStatus": "NONE",<br>&emsp;&emsp;&emsp;&emsp;"uploadId": 62<br>&emsp;&emsp;},<br>&emsp;&emsp;"versions": null,<br>&emsp;&emsp;"supportedDeviceType": null,<br>&emsp;&emsp;"isFlutter": false<br>} <br><br>**Note: The Response Body may contain additional information besides the mentioned keys. You can ignore that information.**|
 
 ### **Request fields**
 
@@ -98,15 +104,15 @@ This endpoint allows users to upload Attachments, IPA or APK Files into Testsigm
 
 ## **Update File API**
 
-This endpoint allows users to upload Attachments, IPA or APK Files via REST API for use in Test Plans.
+This endpoint allows users to upload updated attachments, such as IPA or APK files, to Testsigma Uploads using the REST API.
 
-|**Request Type**|POST|
+|**Request Type**|**PUT**|
 |---|---|
-|**Endpoint**|https://app.testsigma.com/api/v1/uploads<Upload\_ID><br>The Upload ID can be obtained from the Uploads Page as mentioned in the below section|
+|**Endpoint**|https://app.testsigma.com/api/v1/uploads/<Upload\_ID><br>The Upload ID can be obtained from the Uploads Page as mentioned in the below section|
 |**Authorization**|Bearer **<API\_Token>**<br>Same as the Testsigma API Key mentioned above.|
 |**Request Body Type**|Multipart form-data|
-|**Request Body(form data)**|projectId: 24<br>name: APIFileUpdated<br>uploadType: Attachment<br>platformType: TestsigmaLab<br>isPublic: true<br>applicationId: 43<br>version:v101|
-|**Response Body(JSON)**|{<br>&emsp;"id": 62,<br>&emsp;"createdById": 10,<br>&emsp;"updatedById": 10,<br>&emsp;"createdDate": 1681974023000,<br>&emsp;"updatedDate": 1681974187126,<br>&emsp;"name": " APIFileUpdated",<br>&emsp;"latestVersionId": 68,<br>&emsp;"latestVersion": {<br>&emsp;&emsp;"id": 68,<br>&emsp;&emsp;"createdById": 10,<br>&emsp;&emsp;"updatedById": 10,<br>&emsp;&emsp;"createdDate": 1681974023000,<br>&emsp;&emsp;"updatedDate": 1681974023000,<br>&emsp;&emsp;"name": "v101",<br>&emsp;&emsp;"path": "46091/uploads/24/68/example.png",<br>&emsp;&emsp;"fileName": "example.png",<br>&emsp;&emsp;"uploadType": "Attachment",<br>&emsp;&emsp;"testsigmaSauceLabsAppId": null,<br>&emsp;&emsp;"testsigmaBrowserstackAppId": null,<br>&emsp;&emsp;"testsigmaKobitonAppId": null,<br>&emsp;&emsp;"testsigmaLambdatestAppId": null,<br>&emsp;&emsp;"fileSize": 181368,<br>&emsp;&emsp;"preSignedURL":"https://s3.amazonaws.com/attachments-production.testsigma.com/testsigmatech.com/uploads/11/147/Testfile.pdf?X-Amz-Security-Token=IQoJb3JpZ2luX2VjEPDYqAbdKsCA%3D%3D&X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Date=20211027T080801Z&X-Amz-SignedHeaders=host&X-Amz-Expires=10799&X-Amz-Credential=AS211027%2Fus-east-1%2Fs3%2Faws4_request&X-Amz-Signature=0e2f85ef6c0069e014",<br>&emsp;&emsp;"signed": false,<br>&emsp;&emsp;"errorMessage": null,<br>&emsp;&emsp;"status": "SUCCESS",<br>&emsp;&emsp;"uploadName": " APIFileUpdated",<br>&emsp;&emsp;"signStatus": "NONE",<br>&emsp;&emsp;"uploadId": 62<br>&emsp;&emsp;},<br>&emsp;"versions": null,<br>&emsp;"supportedDeviceType": null,<br>&emsp;"isFlutter": false<br>}<br><br>**Note: The Response Body may contain additional information besides the mentioned keys. You can ignore that information.**|
+|**Request Body(form data)**| - **projectId**: 24<br> - **name**: APIFileUpdated<br> - **uploadType**: Attachment<br> - **platformType**: TestsigmaLab<br> - **isPublic**: true<br> - **applicationId**: 43<br> - **version**: v101 <br> - **fileContent**: UploadFile_Here |
+|**Response Body(JSON)**|{<br>&emsp;"id": 62,<br>&emsp;"createdById": 10,<br>&emsp;"updatedById": 10,<br>&emsp;"createdDate": 1681974023000,<br>&emsp;"updatedDate": 1681974187126,<br>&emsp;"name": " APIFileUpdated",<br>&emsp;"latestVersionId": 68,<br>&emsp;"latestVersion": {<br>&emsp;&emsp;"id": 68,<br>&emsp;&emsp;"createdById": 10,<br>&emsp;&emsp;"updatedById": 10,<br>&emsp;&emsp;"createdDate": 1681974023000,<br>&emsp;&emsp;"updatedDate": 1681974023000,<br>&emsp;&emsp;"name": "v101",<br>&emsp;&emsp;"path": "46091/uploads/24/68/example.png",<br>&emsp;&emsp;"fileName": "example.png",<br>&emsp;&emsp;"uploadType": "Attachment",<br>&emsp;&emsp;"testsigmaSauceLabsAppId": null,<br>&emsp;&emsp;"testsigmaBrowserstackAppId": null,<br>&emsp;&emsp;"testsigmaKobitonAppId": null,<br>&emsp;&emsp;"testsigmaLambdatestAppId": null,<br>&emsp;&emsp;"fileSize": 181368,<br>&emsp;&emsp;"preSignedURL":"https://s3.amazonaws.com/attachments-production.testsigma.com/testsigmatech.com/uploads/11/147/Testfile.pdf?X-Amz-Security-Token=IQoJb3JpZ2luX2VjEPDYqAbdKsCA%3D%3D&X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Date=20211027T080801Z&X-Amz-SignedHeaders=host&X-Amz-Expires=10799&X-Amz-Credential=AS211027%2Fus-east-1%2Fs3%2Faws4_request&X-Amz-Signature=0e2f85ef6c0069e014",<br>&emsp;&emsp;"signed": false,<br>&emsp;&emsp;"errorMessage": null,<br>&emsp;&emsp;"status": "SUCCESS",<br>&emsp;&emsp;"uploadName": " APIFileUpdated",<br>&emsp;&emsp;"signStatus": "NONE",<br>&emsp;&emsp;"uploadId": 62<br>&emsp;&emsp;},<br>&emsp;"versions": null,<br>&emsp;"supportedDeviceType": null,<br>&emsp;"isFlutter": false<br>}<br><br> **Note: The Response Body may contain additional information besides the mentioned keys. You can ignore that information.** |
 
 ### **Request fields**
 
@@ -168,7 +174,7 @@ For example, In the URL: testsigma-storage:/testsigma.com/uploads/101/147/file.p
 ## **GET Upload API**
 Will Return the Upload details  
 
-| **Request Type**| GET |
+| **Request Type**| **GET** |
 |-----------------------------|--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | **Endpoint**| https://app.testsigma.com/api/v1/uploads/<Upload_ID><br>The Upload ID can be obtained from the Uploads Page as mentioned in below section|
 | **Authorization**| Bearer **<API\_Token>**<br>Same as the Testsigma API Key mentioned above.|
@@ -208,7 +214,7 @@ Will Return the Upload details
 ## **GET Uploads API**
 Will Return the Upload details
 
-| **Request Type**| GET|
+| **Request Type**| **GET**|
 |-----------------------------|--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | **Endpoint**| https://app.testsigma.com/api/v1/uploads?query=name:<upload_name><br>The Upload ID can be obtained from the Uploads Page as mentioned in below section|
 | **Authorization**| Bearer **<API\_Token>**<br>Same as the Testsigma API Key mentioned above.|
@@ -250,7 +256,7 @@ Will Return the Upload details
 ## **GET Upload Versions API**
 Will Return All Versions of the UploadID/File
 
-| **Request Type**| GET|
+| **Request Type**| **GET** |
 |-----------------------------|--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | **Endpoint**| https://app.testsigma.com/api/v1/upload_versions?query=uploadId:<uploadID><br>The Upload ID can be obtained from the Uploads Page as mentioned in below section|
 | **Authorization**| Bearer **<API\_Token>**<br>Same as the Testsigma API Key mentioned above.|
@@ -273,6 +279,6 @@ Will Return All Versions of the UploadID/File
 - **sauceLabsAppId (string)**: The ID of the Sauce Labs App associated with the file, if any.
 - **fileSize (integer):**: The size of the uploaded file in bytes.
 - **preSignedURL (string)**: The pre-signed URL of the uploaded file.
-- **signed (boolean)  **: A boolean value indicates whether the file upload is signed.
+- **signed (boolean)**: A boolean value indicates whether the file upload is signed.
 
 ---
