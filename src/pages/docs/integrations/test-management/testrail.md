@@ -62,9 +62,9 @@ You can integrate Testsigma with TestRail to streamline test management and trac
 1. Open the test case in **TestRail** and copy its **ID**.
    ![TestRail Test Case ID](https://s3.amazonaws.com/static-docs.testsigma.com/new_images/projects/applications/TestRail_TestCase.png)
 
-> ## **💡 Info** 
-> 
-> Before mapping TestRail test cases in Testsigma, ensure you have a project, test runs, and test cases set up in TestRail.
+[[info | **INFO 💡**:]]
+|
+| **Before mapping TestRail test cases in Testsigma, ensure you have a project, test runs, and test cases set up in TestRail.**
 
 
 2. Navigate to the test case you want to link in Testsigma and select **Manage Test Case** from the **Utility Panel**.
@@ -94,11 +94,10 @@ Here's a structured hierarchy flow of test case linkage between Testsigma and Te
 3. Enter the project name in the **PROJECT_NAME** text box. 
    ![Project Name](https://s3.amazonaws.com/static-docs.testsigma.com/new_images/projects/applications/TestRail_Project_Name.png)
 
-> ## **💡 Info** 
-> 
-> If you're selecting **TestRail Custom with Case Match** Addon, you need to enter the project name in the **PROJECT_NAME** text box, API key in the **API_KEY** text box, and the template URL in the **TEMPLATE_URL** text box.
->
-> ![CaseMatcher Addon](https://s3.amazonaws.com/static-docs.testsigma.com/new_images/projects/applications/CaseMatcher_Addon.png)
+[[info | **INFO 💡**:]]
+| If you're selecting **TestRail Custom with Case Match** Addon, you need to enter the project name in the **PROJECT_NAME** text box, API key in the **API_KEY** text box, and the template URL in the **TEMPLATE_URL** text box.
+|
+| ![CaseMatcher Addon](https://s3.amazonaws.com/static-docs.testsigma.com/new_images/projects/applications/CaseMatcher_Addon.png)
 
 [[info | **NOTE**:]]
 | - Ensure that the project name entered in the **Test Plan Settings** matches exactly with the name in **TestRail**.

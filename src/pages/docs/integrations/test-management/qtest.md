@@ -105,7 +105,9 @@ qTest is a manual test management tool. With qTest integration in Testsigma, you
      ![Addon Details](https://s3.amazonaws.com/static-docs.testsigma.com/new_images/projects/applications/Addon_Details_qTest.png)
 
     [[info | **NOTE**:]]
-    | The **Template URL** must be publicly accessible.
+    | - The **Template URL** must be publicly accessible.
+    | 
+    | - If the **Release ID** and **Cycle ID** are not provided when triggering the execution, Testsigma automatically generates them in qTest for the execution.
 
 4. Go to **Test Plans** and click **Run Now** to execute the test plan. A duplicate test run is created, and results are displayed upon completion.
    ![Run Test Plan](https://s3.amazonaws.com/static-docs.testsigma.com/new_images/projects/applications/Run_qTest_Plan.png)
