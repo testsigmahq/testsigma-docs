@@ -13,6 +13,9 @@ contextual_links:
   name: "Steps to Install Chrome Extension"
   url: "#steps-to-install-chrome-extension"
 - type: link
+  name: "Testsigma Recorder Extension Options"
+  url: "#testsigma-recorder-extension-options"
+- type: link
   name: "Record Steps in Incognito Mode"
   url: "#record-steps-in-incognito-mode"
 ---
@@ -41,6 +44,53 @@ Here’s a GIF demonstrating how to add Testsigma's Chrome extension.
 ![Chrome Extension](https://s3.amazonaws.com/static-docs.testsigma.com/new_images/projects/applications/EnableChromeExt.gif)
 
 *For more information on creating test steps using recorder, refer to [recording test steps](https://testsigma.com/docs/test-cases/create-test-steps/overview/#creating-test-steps-using-test-recorder).*
+
+
+---
+
+## **Testsigma Recorder Extension Options**
+
+
+1. Navigate to **Extensions > Manage Extensions**. 
+   ![Manage Extensions](https://s3.amazonaws.com/static-docs.testsigma.com/new_images/projects/applications/Manage_Extensions_Chrome.png)
+
+
+2. Click **Details** on the **Testsigma Widget**.
+   ![Recorder Details](https://s3.amazonaws.com/static-docs.testsigma.com/new_images/projects/applications/Recorder_Extension_Details.png)
+
+
+3. On the **Testsigma Recorder** menu, click **Extension Options**.
+   ![Extension Options](https://s3.amazonaws.com/static-docs.testsigma.com/new_images/projects/applications/Extension_Options_Recorder.png)
+
+
+4. You can see the following options:
+   
+   - Enable Inspect Popover on Elements
+   
+   - Disable Recording Mouse Scroll
+   
+   - Enable Developer Mode 
+
+![All Options](https://s3.amazonaws.com/static-docs.testsigma.com/new_images/projects/applications/Extension_Options_TSRecorder.png)
+
+
+### **a. Enable Inspect Popover on Elements** 
+
+This option highlights elements with a green rectangular box during web recording, which helps you with visual guidance for accurate element selection. 
+![Popover](https://s3.amazonaws.com/static-docs.testsigma.com/new_images/projects/applications/PopOver_Option.png)
+
+### **b. Disable Recording Mouse Scroll**
+
+This option will prevent the automatic addition of scroll NLPs in test cases, which helps you create clean test cases, especially for static applications without infinite loading.
+![Mouse Scroll NLP](https://s3.amazonaws.com/static-docs.testsigma.com/new_images/projects/applications/Scroll_NLP_Step.png)
+
+[[info | **NOTE**:]]
+| The above two options will be selected by default.
+
+
+### **c. Enable Developer Mode**
+
+Activates Browser Developer Mode for advanced debugging, enabling element inspection, troubleshooting locators, and gaining deeper insights into application behavior.
 
 
 ---
