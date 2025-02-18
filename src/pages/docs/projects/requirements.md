@@ -35,11 +35,6 @@ According to IEEE standard 729, a requirement is defined as follows:
 * A condition or capability needed by a user to solve a problem or achieve an objective
 * A condition or capability that must be met or possessed by a system or system component to satisfy a contract, standard, specification or other formally imposed documents
 * A documented representation of a condition or capability as in 1 and 2
-
-
-
-A software requirement can be of 3 types:
-
 * Functional requirements
 * Non-functional requirements
 * Domain requirements
@@ -69,6 +64,7 @@ A software requirement can be of 3 types:
    ![Create a requriement 5](https://s3.amazonaws.com/static-docs.testsigma.com/new_images/projects/applications/Create_a_Requirement_5.png)
 
 
+
 You will see below options on the form:
 * **Name** <br>
 * **Description(optional**)<br>
@@ -90,14 +86,6 @@ You will see below options on the form:
 
 3. Click **Update**.
    ![Edit a requriement 3](https://s3.amazonaws.com/static-docs.testsigma.com/new_images/projects/applications/Edit_a_requirement_3.1.png) 
-
-This article discusses Requirements in Testsigma.
-
----
-
-> ## **Prerequisites**
->
-> Before you begin, ensure that you are familiar with concepts of [Create Test Case](https://testsigma.com/docs/test-cases/manage/add-edit-delete/) and [Requirement Type](https://testsigma.com/docs/projects/settings/requirement-types/).
 
 ---
 
@@ -130,16 +118,11 @@ This article discusses Requirements in Testsigma.
 
 
 
----
-##**Associate a Requirement to a Test Case**
-
-1. In the **Manage Test Case** overlay, expand the requirement field and select the required option. 
-   ![Assign a requirement 1](https://s3.amazonaws.com/static-docs.testsigma.com/new_images/projects/applications/Assign_a_requirement_1.png)
-
 ## **Edit a Requirement**
 
 1. In the **Manage Test Case** overlay, expand the requirement field and click **Edit** for a requirement.
    ![Edit a requirement 1](https://s3.amazonaws.com/static-docs.testsigma.com/new_images/projects/applications/Edit_a_Requriement_1.png)
+
 
 2. In the **Edit Requirement** dialog, edit the required details.
    ![Edit a requirement 2](https://s3.amazonaws.com/static-docs.testsigma.com/new_images/projects/applications/Edit_a_requirement_2.png)
@@ -160,3 +143,4 @@ This article discusses Requirements in Testsigma.
 
 
 ---
+

@@ -33,11 +33,11 @@ There are two ways to review an element:
 ---
 
 
+
 > ## **Prerequisites**
 >
 > 
 > Before using **Test Case Review Management**, you must understand specific concepts such as creating [Elements](https://testsigma.com/docs/elements/overview/), [Test Cases](https://testsigma.com/docs/test-cases/manage/add-edit-delete/), and managing [Users and Roles](https://testsigma.com/docs/collaboration/users-roles/). Also, make sure the option **Element Review Management** is enabled under **Settings > Preferences**.
-
 
 
 ---
@@ -58,9 +58,7 @@ There are two ways to review an element:
 4. On the **Update Element** overlay, click **Submit for Review**. This will open a dialog for submission details. 
 ![Submit](https://s3.amazonaws.com/static-docs.testsigma.com/new_images/projects/applications/Steps_to_Submit_Elements_for_Review_4.2.png)
 
-
 5. On the **Submit for Review** dialog, select **Reviewer** from the dropdown, add comments (optional) and click **Submit**. 
-
 ![Submit for Review](https://s3.amazonaws.com/static-docs.testsigma.com/new_images/projects/applications/Steps_to_Submit_Elements_for_Review_5.2.png)
 
 
@@ -82,8 +80,7 @@ There are two ways to review an element:
 ![Edit](https://s3.amazonaws.com/static-docs.testsigma.com/new_images/projects/applications/Steps_to_Review_Element_3.png)
 
 
-4. On the **Update Element** overlay, click **Review element**. 
-
+4. On the **Update Element** overlay, click **Review element**.
 ![Review Element](https://s3.amazonaws.com/static-docs.testsigma.com/new_images/projects/applications/Steps_to_Review_Element_4.1.png)
 
 
@@ -92,7 +89,6 @@ There are two ways to review an element:
 
 
 6. Once the status is marked, you'll be redirected to the **Update Element** overlay. Click **Update Element** to save the review status. 
-
 ![Update Element](https://s3.amazonaws.com/static-docs.testsigma.com/new_images/projects/applications/Steps_to_Review_Element_6.1.png)
 
 
