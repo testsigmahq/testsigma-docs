@@ -36,31 +36,31 @@ This document will walk you through **creating**, **editing**, **switching**, an
 
 ## **Creating a Project**
 1. Navigate to **Create New** and click on **Project** from the dropdown menu. 
-![Projects](https://s3.amazonaws.com/static-docs.testsigma.com/new_images/projects/applications/prnavcl.png)
+![Projects and Settings 1](https://s3.amazonaws.com/static-docs.testsigma.com/new_images/projects/applications/Projects_and_Settings_Step_1.png)
 
 2. Enter the **Project Name** and **Description** (Optional).
-![Project Name & Description](https://s3.amazonaws.com/static-docs.testsigma.com/new_images/projects/applications/prnad.png)
+![Project and Settings 2](https://s3.amazonaws.com/static-docs.testsigma.com/new_images/projects/applications/Projects_and_Settings_Step_2.png)
 
 [[info | **NOTE**:]]
 | Custom fields you create for your projects under **Settings > Custom Fields > Projects** will appear here.
 
 3. If your project involves multiple applications, check **Allow adding multiple applications in this project** checbox. To add an application, click **Add Application**, select the **Application Type** from the drop-down menu, and give it a **Name**. By default, the project is set up for a single application.
-![New project](https://s3.amazonaws.com/static-docs.testsigma.com/new_images/projects/applications/prnpamv.png)
+![Project and Settings 3](https://s3.amazonaws.com/static-docs.testsigma.com/new_images/projects/applications/Projects_and_Settings_Step_3.png)
 
 4. Also, if you want multiple versions for each application, check **Allow multiple versions for applications** checbox.
-![Multiple Versions](https://s3.amazonaws.com/static-docs.testsigma.com/new_images/projects/applications/pramversions.png)
+![Project and Settings 4](https://s3.amazonaws.com/static-docs.testsigma.com/new_images/projects/applications/Projects_and_Settings_Step_4.png)
 
 5. Click on **Create**. 
-![Create](https://s3.amazonaws.com/static-docs.testsigma.com/new_images/projects/applications/prcreate.png)
+![Project and Settings 5](https://s3.amazonaws.com/static-docs.testsigma.com/new_images/projects/applications/Projects_and_Settings_Step_5.png)
 
 Here is a quick GIF demonstrating how to create a Project. 
-![Create Project](https://s3.amazonaws.com/static-docs.testsigma.com/new_images/projects/applications/createproject.gif)
+![Create Project](https://s3.amazonaws.com/static-docs.testsigma.com/new_images/projects/applications/Create_a_Project.gif)
 
 ---
 
 ## **Editing a Project**
 1. Navigate to **Project > Project Settings**.
-![Project Settings](https://s3.amazonaws.com/static-docs.testsigma.com/new_images/projects/applications/prnavprtprs.png)
+![Edit a Project 1](https://s3.amazonaws.com/static-docs.testsigma.com/new_images/projects/applications/Edit_a_Project_Step_1.png)
 
 2. This will open the **Edit Project** dialog. 
 ![Edit Project](https://s3.amazonaws.com/static-docs.testsigma.com/new_images/projects/applications/preditprompt.png)
@@ -68,39 +68,48 @@ Here is a quick GIF demonstrating how to create a Project.
 3. You can update **Project Details**, **Multiple Applications** and **Versions** from here. Also, you can add **Project Members**, **Test Case Types**, and **Requirement Types** on the same dialog. 
 ![Update Details](https://s3.amazonaws.com/static-docs.testsigma.com/new_images/projects/applications/prdetailsall.png) 
 
-4. Click on **Update** to save the changes. 
-![Update](https://s3.amazonaws.com/static-docs.testsigma.com/new_images/projects/applications/pruclick.png)
+4. This will open the **Edit Project** prompt. 
+![Edit a Project 2](https://s3.amazonaws.com/static-docs.testsigma.com/new_images/projects/applications/Edit_a_Project_Step_2.png)
+
+5. You can update **Project Details**, **Multiple Applications** and **Versions** from here. Also, you can add **Project Members**, **Test Case Types**, and **Requirement Types** on the same prompt. 
+![Edit a Project 3](https://s3.amazonaws.com/static-docs.testsigma.com/new_images/projects/applications/Edit_a_Project_Step_3.png) 
+
+6. Click on **Update** to save the changes. 
+![Edit a Project 4](https://s3.amazonaws.com/static-docs.testsigma.com/new_images/projects/applications/Edit_Project_4_2.png)
 
 **Adding**, **Editing**, and **Deleting** Applications & Versions can be done under **Project Settings > Applications**.
 
 Here is a quick GIF demonstrating how to edit a Project. 
-![Edit Project](https://s3.amazonaws.com/static-docs.testsigma.com/new_images/projects/applications/editproject.gif)
+![Edit Project](https://s3.amazonaws.com/static-docs.testsigma.com/new_images/projects/applications/Edit_a_Project.gif)
 
 ---
 
 ## **Switching Projects**
 1. Click on the current **Project** from **Dashboard**. 
-![Project](https://s3.amazonaws.com/static-docs.testsigma.com/new_images/projects/applications/prswitch.png)
+![Switching Project 1](https://s3.amazonaws.com/static-docs.testsigma.com/new_images/projects/applications/Switching_Project_Step_1.png)
 
 2. Select **Project**, **Application**, and **Version** from respective dropdowns and click on **Go to project**. 
-![Switch Dropdowns](https://s3.amazonaws.com/static-docs.testsigma.com/new_images/projects/applications/prspgtp.png)
+![Switch Project 2](https://s3.amazonaws.com/static-docs.testsigma.com/new_images/projects/applications/Switching_Project_Step_2.png)
 
 3. You’ll be redirected to the dashboard of the selected project.
 
 Here is a quick GIF demonstrating how to switch projects. 
-![Switch Projects](https://s3.amazonaws.com/static-docs.testsigma.com/new_images/projects/applications/switchpr.gif)
+![Switch Projects](https://s3.amazonaws.com/static-docs.testsigma.com/new_images/projects/applications/Switching_Project.gif)
 
 ---
 
 ## **Deleting a Project**
 1. Navigate to **Project > Project Settings**.
-![Project Settings](https://s3.amazonaws.com/static-docs.testsigma.com/new_images/projects/applications/prnavprtprs.png)
+![Delete a Project 1](https://s3.amazonaws.com/static-docs.testsigma.com/new_images/projects/applications/Delete_a_Project_Step_1.png)
 
 2. Click on **Delete**.
-![Delete](https://s3.amazonaws.com/static-docs.testsigma.com/new_images/projects/applications/prdelete.png)
+![Delete a Project 2](https://s3.amazonaws.com/static-docs.testsigma.com/new_images/projects/applications/Delete_a_Project_Step_2.png)
 
 3. On the **Delete project** dialog, enter **DELETE** and click on **Delete**.
 ![DELETE](https://s3.amazonaws.com/static-docs.testsigma.com/new_images/projects/applications/prdelefin.png) 
+
+4. On the **Delete project** prompt, enter **DELETE** and click on **Delete**.
+![Delete a Project 3](https://s3.amazonaws.com/static-docs.testsigma.com/new_images/projects/applications/Delete_a_Project_step_3.png)
 
 
 [[info | **NOTE**:]]
@@ -109,6 +118,6 @@ Here is a quick GIF demonstrating how to switch projects.
 | - All Test cases, Elements, Test data profiles, Custom functions, Uploads, Requirements, Test suites, Test plans, Run results and Environments associated with this project.
 
 Here is a quick GIF demonstrating how to delete a project. 
-![Delete](https://s3.amazonaws.com/static-docs.testsigma.com/new_images/projects/applications/deletepr.gif)
+![Delete a Project](https://s3.amazonaws.com/static-docs.testsigma.com/new_images/projects/applications/Delete_a_project.gif)
 
 ---

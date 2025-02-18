@@ -27,8 +27,8 @@ Creating a connected app is important to link external applications and the Sale
 ---
 
 > ## **Prerequisites**
-> 
-> - Salesforce organization with the test setup. 
+>
+> Before you begin, ensure you have a Salesforce organization setup. 
 
 ---
 
