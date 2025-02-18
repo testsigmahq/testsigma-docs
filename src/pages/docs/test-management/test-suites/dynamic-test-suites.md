@@ -30,7 +30,7 @@ contextual_links:
 
 ---
 
-Dynamic Test Suites in Testsigma provide an efficient way to streamline test execution by automatically selecting test cases based on predefined filters. Unlike Static test suites, where test cases are manually chosen, dynamic test suites continuously update to include all relevant test cases that match the applied filters. 
+Dynamic Test Suites in Testsigma provide an efficient way to streamline test execution by automatically selecting test cases based on any filters. Unlike Static test suites, where test cases are manually chosen, dynamic test suites continuously update to include all relevant test cases that match the applied filters. 
 
 ---
 
