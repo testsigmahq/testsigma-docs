@@ -36,6 +36,7 @@ Super Admins control the stopping of executions by users in **Usage Details** an
 > Before you begin, ensure you know how to [Manage User Roles](https://testsigma.com/docs/collaboration/users-roles/).
 
 
+
 ---
 
 ## **Enabling Stop Executions Preference**

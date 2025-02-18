@@ -24,7 +24,6 @@ You can add unlimited team members to your project and assign them different rol
 
 ---
 
-
 > ## **Prerequisites**
 >
 > 
