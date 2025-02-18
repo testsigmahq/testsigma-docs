@@ -1,6 +1,6 @@
 ---
 title: "Inviting Team Members to a Project"
-metadesc: "In Testsigma, you can add team members to your project & assign them different roles | Learn how to add team members to a Project in Testsigma."
+metadesc: "In Testsigma, you can add team members to your project & assign them different roles for better collaboration within your team | Learn how to add team members to a Project in Testsigma."
 noindex: false
 order: 3.0
 page_id: "Adding Team Members to a Project"
@@ -24,13 +24,12 @@ You can add unlimited team members to your project and assign them different rol
 
 ---
 
-## **Prerequisites**
-
-
-- You should know how to create a [Project](https://testsigma.com/docs/projects/overview/). 
-   
-
-- To add a user to a project, you should have the role of either test manager or admin. *For more information, see [User Roles](https://testsigma.com/docs/collaboration/users-roles/).*
+> ## **Prerequisites**
+>
+> 
+> Before you begin, ensure you know create a [Project](https://testsigma.com/docs/projects/overview/) and have the role of either test manager or admin.
+>
+> *For more information, see [User Roles](https://testsigma.com/docs/collaboration/users-roles/).* 
 
 
 ---
