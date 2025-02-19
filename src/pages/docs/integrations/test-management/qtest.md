@@ -139,7 +139,7 @@ You can also trigger qTest test plans using APIs. Click [here](https://s3.amazon
       
       - **Project ID:** The project ID from qTest.
       
-      - **Template URL:** The URL of the template JUnit file used to configure result data (Optional).
+      - **Template URL:** The URL of the template JUnit file used to configure result data.
    
    - **Title:** Provide a title.
    
