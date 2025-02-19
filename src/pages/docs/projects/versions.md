@@ -31,6 +31,7 @@ Due to constantly changing requirements and application features, version contro
 
 ---
 
+
 > ## **Prerequisites**
 > 
 > Before you begin, ensure you know how to [Manage Applications](https://testsigma.com/docs/projects/applications/).
@@ -44,6 +45,7 @@ Due to constantly changing requirements and application features, version contro
 ![Create a Version 1](https://s3.amazonaws.com/static-docs.testsigma.com/new_images/projects/applications/Create_a_Version_step_1.png)
 
 2. On **Edit Project** dialog, 
+
      - Click **New Version**.
      ![Create a Version 2](https://s3.amazonaws.com/static-docs.testsigma.com/new_images/projects/applications/Create_a_Version_step_2.png) 
      

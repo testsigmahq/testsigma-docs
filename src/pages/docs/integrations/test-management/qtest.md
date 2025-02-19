@@ -10,8 +10,8 @@ contextual_links:
 - type: section
   name: "Contents"
 - type: link
-  name: "Prerequisites"
-  url: "#prerequisites"
+  name: "Trigger qTest Test Plans Using APIs"
+  url: "#trigger-qtest-test-plans-using-apis"
 - type: link
   name: "Steps to Integrate Testsigma with qTest"
   url: "#steps-to-integrate-testsigma-with-qtest"
@@ -21,6 +21,9 @@ contextual_links:
 - type: link
   name: "Steps to Execute Test Plan"
   url: "#steps-to-execute-test-plan"
+- type: link
+  name: "Trigger qTest Test Plans Using APIs"
+  url: "#trigger-qtest-test-plans-using-apis"
 ---
 
 ---
@@ -115,5 +118,35 @@ qTest is a manual test management tool. With qTest integration in Testsigma, you
 5. Click **qTest Result Link** in the top right corner to navigate to the qTest run results.
    ![qTest Result Link](https://s3.amazonaws.com/static-docs.testsigma.com/new_images/projects/applications/qTest_Result_Link.png)
 
+
+---
+
+
+## **Trigger qTest Test Plans Using APIs**
+
+You can also trigger qTest test plans using APIs. Click [here](https://s3.amazonaws.com/static-docs.testsigma.com/new_images/projects/applications/TR_QT.postman_collection.json.zip) to download the Postman collection.
+
+
+**a. Authorization:** Bearer Token (copied from [Settings > API](https://testsigma.com/docs/configuration/api-keys/) Keys in Testsigma).
+
+**b. Provide the following details in Request Body**
+   
+   - **Build Number:** The unique identifier for the qTest execution.
+   
+   - **Hook Data:** Includes the following parameters:
+      
+      - **Testsigma API Key:** Copied from Settings > API Keys in Testsigma.
+      
+      - **Project ID:** The project ID from qTest.
+      
+      - **Template URL:** The URL of the template JUnit file used to configure result data.
+   
+   - **Title:** Provide a title.
+   
+   - **Execution Lab:** Specifies the execution environment or lab used for running the test cases.
+
+Here's a quick GIF demonstrating steps to trigger qTest test plan using APIs.
+
+![qTest GIF](https://s3.amazonaws.com/static-docs.testsigma.com/new_images/projects/applications/qTest_CICD.gif)
 
 ---
