@@ -21,6 +21,9 @@ contextual_links:
 - type: link
   name: "Steps to Execute Test Plan"
   url: "#steps-to-execute-test-plan"
+- type: link
+  name: "Trigger TestRail Test Runs Using APIs"
+  url: "#trigger-testrail-test-runs-using-apis"
 ---
 
 ---
@@ -115,5 +118,33 @@ Here's a structured hierarchy flow of test case linkage between Testsigma and Te
 [[info | **NOTE**:]]
 | The rerun will update the results in the same link. However, if you execute the test plan instead of rerunning, it will create a new link for the run results.
 
+
+---
+
+## **Trigger TestRail Test Runs Using APIs**
+
+You can also trigger TestRail test runs using APIs. Click [here](https://s3.amazonaws.com/static-docs.testsigma.com/new_images/projects/applications/TR_QT.postman_collection.json.zip) to download the Postman collection.
+
+
+**a. Authorization:** Bearer Token (copied from [Settings > API](https://testsigma.com/docs/configuration/api-keys/) Keys in Testsigma).
+
+**b. Provide the following details in Request Body**
+   
+   - **TestRail Run ID:** The unique identifier for the test run in TestRail.
+   
+   - **Hook Data:** Includes the following parameters:
+      
+      - **Testsigma API Key:** Copied from Settings > API Keys in Testsigma.
+      
+      - **Project Name:** The name of the project associated with the test execution.
+      
+      - **Template URL:** The URL of the template JUnit file used to configure result data.
+   
+   - **Title:** Provide a title.
+   
+   - **Execution Lab:** Specifies the execution environment or lab used for running the test cases.
+
+Here's a quick GIF demonstrating steps to trigger TestRail runs using APIs.
+![TestRail GIF](https://s3.amazonaws.com/static-docs.testsigma.com/new_images/projects/applications/TestRail_API_Trigger.gif)
 
 ---
