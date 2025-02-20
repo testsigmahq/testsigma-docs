@@ -4,7 +4,7 @@ page_title: "Accessibility Testing"
 metadesc: "Learn how to implement and manage mobile accessibility testing in Testsigma. Mobile accessibility testing ensures your websites & apps comply with accessibility guidelines"
 noindex: false
 order: 27.2
-page_id: "Mobile Accessibility Testing Automation with Testsigma"
+page_id: "Accessibility Testing for Android & iOS"
 warning: false
 contextual_links:
 - type: section
@@ -155,18 +155,18 @@ With Testsigma, you can implement accessibility testing for Android and iOS appl
 
 | **Rule ID**                      | **Description**                                                             | **Platform**         | **WCAG Compliance**      |
 |------------------------------|-------------------------------------------------------------------------|------------------|----------------------|
-| TEXT\_COLOR\_CONTRAST          | Ensures text contrast meets minimum readability standards.              | Android & iOS   | 2.0 - 1.4.3 AA      |
-| NESTED\_CONTROL               | Ensures interactive elements are not nested within each other.         | Android         | 2.0 - 2.1.1 A       |
-| IMAGE\_VIEW\_DESCRIPTION       | Ensures images have meaningful descriptions for assistive technologies. | Android & iOS   | 2.0 - 1.1.1 A       |
-| INTERACTIVE\_ELEMENT\_LABEL    | Ensures interactive elements have clear accessibility labels.           | Android         | 2.1 - 2.4.6 AA      |
-| LABEL\_IN\_NAME                | Ensures text labels match their accessibility labels.                   | Android & iOS   | 2.1 - 2.5.3 A       |
-| BUTTON\_IN\_NAME               | Ensures button labels start with capital letters.                       | Android         | 2.1 - 3.1.6 AAA     |
-| EDITABLE\_TEXT\_LABEL          | Ensures editable elements have both name and value.                     | Android         | 2.0 - 4.1.2 A       |
-| DUPLICATE\_TEXT\_LABEL         | Ensures no duplicate accessibility labels exist on the same screen.     | Android         | 2.1 - 4.1.2 A       |
-| TOUCH\_TARGET\_SIZE            | Ensures interactive elements have a minimum tappable area.              | Android & iOS | 2.1 - 2.5.5 AAA |
-| NESTED\_ELEMENT\_NAME          | Ensures visible text is included in accessible names.                   | iOS              | 2.0 - 1.3.2 A       |
-| ACTIVE\_CONTROL               | Ensures interactive elements have accessible names.                      | iOS              | 2.0 - 4.1.2 A       |
-| COLLIDING\_ELEMENT            | Ensures elements do not overlap.                                        | iOS platform guideline | - |
+| TEXT\_COLOR\_CONTRAST          | Ensures text contrast meets minimum readability standards.              | Android & iOS   | 2.0 – 1.4.3 AA      |
+| NESTED\_CONTROL               | Ensures interactive elements are not nested within each other.         | Android         | 2.0 – 2.1.1 A       |
+| IMAGE\_VIEW\_DESCRIPTION       | Ensures images have meaningful descriptions for assistive technologies. | Android & iOS   | 2.0 – 1.1.1 A       |
+| INTERACTIVE\_ELEMENT\_LABEL    | Ensures interactive elements have clear accessibility labels.           | Android         | 2.1 – 2.4.6 AA      |
+| LABEL\_IN\_NAME                | Ensures text labels match their accessibility labels.                   | Android & iOS   | 2.1 – 2.5.3 A       |
+| BUTTON\_IN\_NAME               | Ensures button labels start with capital letters.                       | Android         | 2.1 – 3.1.6 AAA     |
+| EDITABLE\_TEXT\_LABEL          | Ensures editable elements have both name and value.                     | Android         | 2.0 – 4.1.2 A       |
+| DUPLICATE\_TEXT\_LABEL         | Ensures no duplicate accessibility labels exist on the same screen.     | Android         | 2.1 – 4.1.2 A       |
+| TOUCH\_TARGET\_SIZE            | Ensures interactive elements have a minimum tappable area.              | Android & iOS | 2.1 – 2.5.5 AAA |
+| NESTED\_ELEMENT\_NAME          | Ensures visible text is included in accessible names.                   | iOS              | 2.0 – 1.3.2 A       |
+| ACTIVE\_CONTROL               | Ensures interactive elements have accessible names.                      | iOS              | 2.0 – 4.1.2 A       |
+| COLLIDING\_ELEMENT            | Ensures elements do not overlap.                                        | iOS platform guideline | – |
 
 
 

@@ -4,7 +4,7 @@ page_title: "Accessibility Testing"
 metadesc: "Learn how to implement and manage accessibility testing in Testsigma. Accessibility testing ensures your websites & apps comply with accessibility guidelines"
 noindex: false
 order: 27.1
-page_id: "Accessibility Testing Automation with Testsigma"
+page_id: "Accessibility Testing"
 warning: false
 contextual_links:
 - type: section
