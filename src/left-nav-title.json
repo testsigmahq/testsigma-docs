@@ -699,5 +699,6 @@
   "xray": {"/docs/integrations/test-management/xray/": "Xray"},
   "qtest": {"/docs/integrations/test-management/qtest/": "qTest"},
   "testrail": {"/docs/integrations/test-management/testrail/": "TestRail"},
-  "label-management": {"/docs/test-cases/manage/label-management/": "Label Management" }
+  "label-management": {"/docs/test-cases/manage/label-management/": "Label Management" },
+  "mobile-accessibility-testing": {"/docs/accessibility-testing/mobile-accessibility-testing/": "Accessibility Testing for Android & iOS"}
 }
