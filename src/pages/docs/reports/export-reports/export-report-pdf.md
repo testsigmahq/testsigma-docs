@@ -51,7 +51,7 @@ In Testsigma, you can effortlessly export PDF reports with screenshots for your 
 8. Click on the file named **(Test Plan Name with build run YYYYMMDD).pdf** to access the exported results. ![notify pdf report in email](https://s3.amazonaws.com/static-docs.testsigma.com/new_images/projects/applications/notify_pdf_exportrepot.png)
 
 [[info | **NOTE**:]]
-| To add a logo to the PDF report, navigate to **Settings** > **Customize Reports** and enable the **Customer Report** toggle. ![Toggle](https://s3.amazonaws.com/static-docs.testsigma.com/new_images/projects/applications/toggle.png)
+| To add a logo to the PDF report, navigate to **Settings** > **Customize Reports** and enable the **Customer Report** toggle.
 
 ---
 

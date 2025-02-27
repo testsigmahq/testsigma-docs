@@ -1,10 +1,10 @@
 ---
-title: "Accessibility Testing with Testsigma"
+title: "Accessibility Testing for Web Applications"
 page_title: "Accessibility Testing"
 metadesc: "Learn how to implement and manage accessibility testing in Testsigma. Accessibility testing ensures your websites & apps comply with accessibility guidelines"
 noindex: false
 order: 27.1
-page_id: "Accessibility Testing Automation with Testsigma"
+page_id: "Accessibility Testing"
 warning: false
 contextual_links:
 - type: section
@@ -23,7 +23,7 @@ contextual_links:
 
 ---
 
-With Testsigma, you can easily implement accessibility testing to comply with accessibility guidelines. This helps you test and monitor the accessibility of your websites and applications, to enhance the user experience for people with disabilities. This article discusses how to perform Accessibility Testing in Testsigma.
+With Testsigma, you can easily implement accessibility testing to comply with accessibility guidelines. This helps you test and monitor the accessibility of your websites to enhance the user experience for people with disabilities. This article discusses how to perform Accessibility Testing for web applications in Testsigma.
 
 ---
 
