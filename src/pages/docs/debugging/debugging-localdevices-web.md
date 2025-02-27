@@ -3,7 +3,7 @@ title: "Debugging Results on Local Devices for Web Applications"
 pagetitle: "Debugging Web Application Results on Local Devices"
 metadesc: "Learn how to debug test cases on local devices for web applications, using detailed steps and troubleshooting tips to ensure accurate and efficient testing."
 noindex: false
-order: 10.3
+order: 34.1
 page_id: "debugging-results-local-devices-web-applications"
 search_keyword: ""
 warning: false
