@@ -55,7 +55,7 @@ Testsigma allows you to fix test case issues instantly using Live Editor. To use
 
 ## **Steps to Uninstall Testsigma Lite**
 
-1. Uninstall/Remove **Testsigma Lite** apllication.
+1. Uninstall/Remove **Testsigma Lite** application.
    
    ![Remove App](https://s3.amazonaws.com/static-docs.testsigma.com/new_images/projects/applications/Remove_Testsigma_Lite.png)
 

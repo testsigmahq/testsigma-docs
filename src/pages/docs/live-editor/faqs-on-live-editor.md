@@ -52,7 +52,7 @@ warning: false
 ---
 
 ### **9. Can I start, stop, or restart the Agent directly from the Testsigma application?**
-**Answer:** This feature is in the plan for a future release. Currently its only possible through Testsigma Lite Application.
+**Answer:** This feature is in the plan for a future release. Currently, it's only possible through the Testsigma Lite application.
 
 ---
 
