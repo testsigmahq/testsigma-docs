@@ -16,8 +16,12 @@ warning: false
 
 ---
 
-### **2. Are other formats available for the Testsigma Lite App besides .dmg and .exe?**
-**Answer:** The app can also be distributed in **.zip** and .**tar.gz** formats. However, some enterprise security policies may block these formats.
+### **2. What are the formats available for Testsigma Lite App installation?**
+**Answer:** Testsigma Lite is available in the following formats:
+   - .dmg (for macOS)
+   - .msi (for Windows)
+
+Additionally, Testsigma Lite can also be distributed in **.zip** and **.tar.gz** formats. However, some enterprise security policies may block these formats.
 
 ---
 
