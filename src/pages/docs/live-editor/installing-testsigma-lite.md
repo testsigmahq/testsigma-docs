@@ -45,14 +45,15 @@ Testsigma allows you to fix test case issues instantly using Live Editor. To use
 > ### **3. Installation Size**
 >    - **Download Size**: 850 MB
 >    - **Extracted Size**: 1.5 GB
->    - **Download Location**: The ZIP file is automatically deleted after successful extraction.
+>    - **Download Location**: The ZIP file is automatically deleted after successful extraction. 
+>        - **For macOS**: .testsigma/TestsigmaLite/agent/TestsigmaAgent (**Note:** .testsigma is a hidden folder)
 
 ---
 
 ## **Download Formats Available**
 
 **Testsigma Lite** is available in the following formats:
-   - Executable files (.exe)
+   - Executable files (.msi)
    - DMG files (.dmg)
    - Compressed files (.tar.gz)
 
@@ -73,7 +74,7 @@ Testsigma allows you to fix test case issues instantly using Live Editor. To use
    ![Preparing Agent](https://s3.amazonaws.com/static-docs.testsigma.com/new_images/projects/applications/PreparingAgent.png)
 
 5. Once **Testsigma Lite** starts, users can either continue using the existing agent by clicking **Use Existing** or install a new agent by clicking **Install New Agent**.
-   ![Register Agent](https://s3.amazonaws.com/static-docs.testsigma.com/new_images/projects/applications/Register_Agent_TSLite.png)
+   ![Register Agent](https://s3.amazonaws.com/static-docs.testsigma.com/new_images/projects/applications/Lite_Installer_Options.png)
 
 5. Follow the instructions [here](https://testsigma.com/docs/agent/setup-on-windows-mac-linux/#register-the-testsigma-agent) to register the **Agent**.
 
