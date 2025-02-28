@@ -23,6 +23,7 @@ warning: false
 
 Additionally, Testsigma Lite can also be distributed in **.zip** and **.tar.gz** formats. However, some enterprise security policies may block these formats.
 
+
 ---
 
 ### **3. What happens to my existing Agent? Will it be upgraded?**
