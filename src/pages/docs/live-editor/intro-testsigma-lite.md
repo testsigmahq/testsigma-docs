@@ -28,8 +28,21 @@ Testsigma Lite provides complete control over test case execution and debugging,
 ---
 
 > ## **Prerequisites**
+>
+> Ensure you have the following requirements:
 > 
-> - Before you begin, ensure you are familiar with **Testsigma Agent** installation and have **Testsigma Recorder** installed.
+> ### **1. System Requirements**
+>    - **Memory**: Minimum 8 GB (dedicated for tests).
+>    - **Disk Space**: At least 20 GB (includes reserved space for test resources such as screenshots and downloaded files).
+>    - **Processor**: Dual-Core Processor or higher.
+>   
+> ### **2. Ports Required**
+>    - Ensure these ports are available: 8383, 8484, 18329.
+> 
+> ### **3. Installation Size**
+>    - **Download Size**: 850 MB
+>    - **Extracted Size**: 1.5 GB
+>    - **Download Location**: The ZIP file is automatically deleted after successful extraction.
 
 ---
 

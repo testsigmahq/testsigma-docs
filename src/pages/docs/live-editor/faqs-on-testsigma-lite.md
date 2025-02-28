@@ -1,5 +1,5 @@
 ---
-title: "FAQs on Live Editor"
+title: "FAQs on Testsigma Lite"
 pagetitle: "FAQs on Testsigma Live Editor"
 metadesc: "Find answers to frequently questions about Testsigma's Live Editor (Testsigma Lite), including its features, installation, usage, and how it helps resolve issues in test cases in real time"
 noindex: false
@@ -12,7 +12,7 @@ warning: false
 ---
 
 ### **1. Can I run the Old Java Agent and the Testsigma Lite on the same machine?**
-**Answer:** No, Only single agent is allowed.
+**Answer:** No, only single agent is allowed.
 
 ---
 
@@ -42,7 +42,7 @@ warning: false
 ---
 
 ### **7. Which Agent is used for remote executions or ad-hoc runs?**
-**Answer:** Active agent will be used for any type of local Execution.
+**Answer:** Active agent will be used for any type of local execution.
 
 ---
 
@@ -52,12 +52,36 @@ warning: false
 ---
 
 ### **9. Can I start, stop, or restart the Agent directly from the Testsigma application?**
-**Answer:** This feature is in the plan for a future release. Currently, it's only possible through the Testsigma Lite application.
+**Answer:** This feature is planned for a future release. However, you can manage the Agent only through the Testsigma Lite Desktop application.
+
+**A. Managing Testsigma Lite**
+   - **Stop**: Click **Quit Live Editor** to stop Testsigma Lite.
+   - **Start**: Search for the **Testsigma Lite** application and launch it.
+   - **Restart**: Stop and start **Testsigma Lite** again.
+
+**B. Managing the Agent**
+- **Start**: The Agent starts automatically when **Testsigma Lite** is launched.
+
+   **To start manually:**
+      - Navigate to the **Agent Location**.
+      - Open **Terminal/Command Prompt** in the **Agent** folder.
+      - Run the command: `sh Start.sh`
+
+- **Stop**: The Agent runs in the background to support local executions.
+
+   **To stop manually:**
+      - Navigate to the **Agent Location**.
+      - Open **Terminal/Command Prompt** in the Agent folder.
+      - Run the command: `sh Stop.sh`
+
+- **Restart**: The Agent restarts automatically when **Testsigma Lite** is relaunched.
+   
+   **To restart manually**: Click the **Restart** button on the **Testsigma Lite** homepage (Live Editor).
 
 ---
 
 ### **10. Can I manually start or stop the Agent?**
-**Answer:** Troubleshooting Agent Startup & Registration Errors  Stopping one may affect functionality.
+**Answer:** The Debugger Agent and Java Agent work together as a single entity. Stopping one may affect functionality.
 
 ---
 

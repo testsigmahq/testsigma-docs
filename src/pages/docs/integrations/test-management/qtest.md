@@ -53,6 +53,11 @@ qTest is a manual test management tool. With qTest integration in Testsigma, you
 4. Click **Save & Enable**.
    ![Save qTest Details](https://s3.amazonaws.com/static-docs.testsigma.com/new_images/projects/applications/qTest_Details_Save.png)
 
+[[info | **NOTE**:]]
+| You must obtain the **Bearer Token** from the **Download qTest Resources** page. *For more information, see [qTest Documentation](https://documentation.tricentis.com/qtest/od/en/content/overview/download_qtest_resources_page.htm).*
+| ![Bearer Token](https://s3.amazonaws.com/static-docs.testsigma.com/new_images/projects/applications/qTest_BearerToken.png)
+
+
 ---
 
 
@@ -103,8 +108,7 @@ qTest is a manual test management tool. With qTest integration in Testsigma, you
      Click **Project** & copy the numeric value after `/p/` in the URL, which is your **Project ID**.
      ![Project ID](https://s3.amazonaws.com/static-docs.testsigma.com/new_images/projects/applications/ProjectID_qTest.png)
    
-   - **TEMPLATE_URL:** URL of the JUnit template file used to configure result data for the Testsigma test plan run 
-  
+   - **TEMPLATE_URL:** URL of the JUnit template file used to configure result data for the Testsigma test plan run. (This is an optional field and is required only if customization is needed. For customization requests, contact **support@testsigma.com**.)
      ![Addon Details](https://s3.amazonaws.com/static-docs.testsigma.com/new_images/projects/applications/Addon_Details_qTest.png)
 
     [[info | **NOTE**:]]
@@ -112,10 +116,10 @@ qTest is a manual test management tool. With qTest integration in Testsigma, you
     | 
     | - If the **Release ID** and **Cycle ID** are not provided when triggering the execution, Testsigma automatically generates them in qTest for the execution.
 
-4. Go to **Test Plans** and click **Run Now** to execute the test plan. A duplicate test run is created, and results are displayed upon completion.
+1. Go to **Test Plans** and click **Run Now** to execute the test plan. A duplicate test run is created, and results are displayed upon completion.
    ![Run Test Plan](https://s3.amazonaws.com/static-docs.testsigma.com/new_images/projects/applications/Run_qTest_Plan.png)
 
-5. Click **qTest Result Link** in the top right corner to navigate to the qTest run results.
+2. Click **qTest Result Link** in the top right corner to navigate to the qTest run results.
    ![qTest Result Link](https://s3.amazonaws.com/static-docs.testsigma.com/new_images/projects/applications/qTest_Result_Link.png)
 
 
