@@ -47,6 +47,7 @@ Testsigma allows you to fix test case issues instantly using Live Editor. To use
 >    - **Extracted Size**: 1.5 GB
 >    - **Download Location**: The ZIP file is automatically deleted after successful extraction. 
 >        - **For macOS**: .testsigma/TestsigmaLite/agent/TestsigmaAgent (**Note:** .testsigma is a hidden folder)
+>        - **For Windows**: %userprofile%\AppData\Roaming\Testsigma\Agent\config\
 
 ---
 
