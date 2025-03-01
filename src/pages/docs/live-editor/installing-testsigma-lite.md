@@ -96,30 +96,49 @@ Testsigma allows you to fix test case issues instantly using Live Editor. To use
    
    ![Remove App](https://s3.amazonaws.com/static-docs.testsigma.com/new_images/projects/applications/Remove_Testsigma_Lite.png)
 
-3. Go to **Disk > Users > `user_folder` > Library > Application Support > Testsigma** and remove **Testsigma** folder.
+3. Go to **Disk > Users > `user_folder` > Library > Application Support** and remove **Testsigma** folder.
    
    ![Delete Folder](https://s3.amazonaws.com/static-docs.testsigma.com/new_images/projects/applications/Remove_Testsigma_Folder.png)
 
-4. To stop the agent running in the background, follow these steps to find and terminate the process:
+   $HOME/Library/Application Support/Testsigma/Agent/config/agent.properties
 
+4. To stop the agent running in the background, Run the following command in the terminal:
+   ```bash
+   cd $HOME/.testsigma/TestsigmaLite/agent/TestsigmaAgent
+   ./stop.sh
+   ```
 
-   ### **For macOS/Linux**
-      - Open the **Terminal**.
-      - Run the following command to get the Process ID (PID): <br>
-        `lsof -i :8383`
-      - Copy the PID and use the following command to terminate the process:<br>
-        `kill -SIGKILL <PID>`
+   ```powershell
+   cd %user_profile%\.testsigma\TestsigmaLite\agent\TestsigmaAgent
+   stop.bat
+   ```
+&nbsp;
 
+## Instuctions to Force Stop the Agent (If the previous step fails and the agent is still running)
 
-   ### **For Windows**
-      - Open PowerShell.
-      - Run the following command to get the Process ID (PID):<br>
-        `Get-Process -Id (Get-NetTCPConnection -LocalPort 8383).OwningProcess`
-      - Copy the PID and use the following command to terminate the process:<br>
-        `Stop-Process -Id <PID> -Force`
+**For macOS/Linux**
 
+* Open the Terminal.
 
----
+* Run the following command to get the Process ID (PID):
+   
+   ```lsof -i :8383```
+
+* Copy the PID and use the following command to terminate the process:
+
+   ```kill -TERM <PID>```
+
+**For Windows**
+
+* Open PowerShell.
+* Run the following command to get the Process ID (PID):
+  
+  ```Get-Process -Id (Get-NetTCPConnection -LocalPort 8383).OwningProcess```
+* Copy the PID and use the following command to terminate the process: 
+
+  ```Stop-Process -Id <PID> -Force```
+
+&nbsp;
 
 ## **File/Folder Locations of Testsigma Lite**
 
@@ -127,7 +146,7 @@ Testsigma allows you to fix test case issues instantly using Live Editor. To use
 ### **Agent Properties**
    - **Windows**: %user_profile%\AppData\Roaming\Testsigma\Agent\config\agent.properties
    - **Linux**: $HOME/.testsigma/agent/config/agent.properties
-   - **Mac**: /$HOME/Library/Application Support/Testsigma/Agent/config/agent.properties
+   - **Mac**: $HOME/Library/Application Support/Testsigma/Agent/config/agent.properties
 
 
 ### **Remove Testsigma Agent Traces**
