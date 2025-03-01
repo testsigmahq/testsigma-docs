@@ -22,6 +22,9 @@ contextual_links:
 - type: link
   name: "Steps to Uninstall Testsigma Lite"
   url: "#steps-to-uninstall-testsigma-lite"
+- type: link
+  name: "File/Folder Locations of Testsigma Lite"
+  url: "#filefolder-locations-of-testsigma-lite"
 ---
 
 ---
@@ -46,8 +49,9 @@ Testsigma allows you to fix test case issues instantly using Live Editor. To use
 >    - **Download Size**: 850 MB
 >    - **Extracted Size**: 1.5 GB
 >    - **Download Location**: The ZIP file is automatically deleted after successful extraction. 
->        - **For macOS**: .testsigma/TestsigmaLite/agent/TestsigmaAgent (**Note:** .testsigma is a hidden folder)
->        - **For Windows**: %userprofile%\AppData\Roaming\Testsigma\Agent\config\
+>        - **Windows**: %user_profile%\ .testsigma\TestsigmaLite\
+>        - **Linux**: $HOME/.testsigma/TestsigmaLite/
+>        - **Mac**: /$HOME/.testsigma/TestsigmaLite/
 
 ---
 
@@ -114,5 +118,36 @@ Testsigma allows you to fix test case issues instantly using Live Editor. To use
       - Copy the PID and use the following command to terminate the process:<br>
         `Stop-Process -Id <PID> -Force`
 
+
+---
+
+## **File/Folder Locations of Testsigma Lite**
+
+
+### **Agent Properties**
+   - **Windows**: %user_profile%\AppData\Roaming\Testsigma\Agent\config\agent.properties
+   - **Linux**: $HOME/.testsigma/agent/config/agent.properties
+   - **Mac**: /$HOME/Library/Application Support/Testsigma/Agent/config/agent.properties
+
+
+### **Remove Testsigma Agent Traces**
+
+   - **Windows**: %user_profile%\AppData\Roaming\Testsigma\Agent\
+   - **Linux**: $HOME/.testsigma/agent/
+   - **Mac**: /$HOME/Library/Application Support/Testsigma/Agent/
+
+### **Remove Testsigma Lite Traces**
+
+**Testsigma Lite state.**
+   - **Windows**: %user_profile%\AppData\Roaming\com.testsigma.testsigmalite\
+   - **Linux**: $HOME/.testsigma/com.testsigma.testsigmalite/
+   - **Mac**: /$HOME/Library/Application Support/com.testsigma.testsigmalite/
+
+[[info | **NOTE**:]]
+| To access **.testsigma** folder in the above path, you need to unhide hidden folders in your `user_folder`.
+
+### **Shortcuts to View Hidden Files:**
+   - **Mac:** Press **Command (⌘) + Shift + .** in **Finder**. <br>
+   - **Windows:** Press **Windows + R**, type control folders, go to the **View** tab, and select **Show hidden files, folders, and drives**.
 
 ---
