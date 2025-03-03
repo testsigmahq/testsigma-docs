@@ -75,15 +75,28 @@ Testsigma allows you to fix test case issues instantly using Live Editor. To use
 3. Install and open the **Testsigma Lite** application.
    ![Open Testsigma Lite](https://s3.amazonaws.com/static-docs.testsigma.com/new_images/projects/applications/Testsigma_Lite.png)
 
+---
+
+Try this interactive demo to learn how to download Testsigma Lite!
+
+<div>
+  <script async src="https://js.storylane.io/js/v2/storylane.js"></script>
+  <div class="sl-embed" style="position:relative;padding-bottom:calc(57.41% + 25px);width:100%;height:0;transform:scale(1)">
+    <iframe loading="lazy" class="sl-demo" src="https://app.storylane.io/demo/4pokktnswqli?embed=inline" name="sl-embed" allow="fullscreen" allowfullscreen style="position:absolute;top:0;left:0;width:100%!important;height:100%!important;border:1px solid rgba(63,95,172,0.35);box-shadow: 0px 0px 18px rgba(26, 19, 72, 0.15);border-radius:10px;box-sizing:border-box;"></iframe>
+  </div>
+</div>
+
+---
+
 4. Wait until Testsigma Lite downloads the necessary files, extracts them, and starts the agent in the background.
    ![Preparing Agent](https://s3.amazonaws.com/static-docs.testsigma.com/new_images/projects/applications/PreparingAgent.png)
 
 5. Once **Testsigma Lite** starts, users can either continue using the existing agent by clicking **Use Existing** or install a new agent by clicking **Install New Agent**.
    ![Register Agent](https://s3.amazonaws.com/static-docs.testsigma.com/new_images/projects/applications/Lite_Installer_Options.png)
 
-5. Follow the instructions [here](https://testsigma.com/docs/agent/setup-on-windows-mac-linux/#register-the-testsigma-agent) to register the **Agent**.
+6. Follow the instructions [here](https://testsigma.com/docs/agent/setup-on-windows-mac-linux/#register-the-testsigma-agent) to register the **Agent**.
 
-6. Once the Agent is activated, you can start debugging the test cases.
+7. Once the Agent is activated, you can start debugging the test cases.
 
 ---
 
