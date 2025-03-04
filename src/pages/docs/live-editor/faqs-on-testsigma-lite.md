@@ -11,111 +11,146 @@ warning: false
 
 ---
 
-### **1. Can I run the Old Java Agent and the Testsigma Lite on the same machine?**
-**Answer:** No, only single agent is allowed.
+
+### **1. Can I run the old Java agent and Testsigma Lite on the same machine?**
+
+**Answer:** No, only one active agent can run at a time. Testsigma Lite automatically detects an existing Java agent and uses it for **Live Editor** and test executions.
 
 ---
 
-### **2. What are the formats available for Testsigma Lite App installation?**
-**Answer:** Testsigma Lite is available in the following formats:
-   - .dmg (for macOS)
-   - .msi (for Windows)
+### **2. What installation formats are available for Testsigma Lite?**
 
-Additionally, Testsigma Lite can also be distributed in **.zip** and **.tar.gz** formats. However, some enterprise security policies may block these formats.
+**Answer:** Testsigma Lite is available in the following formats:
 
-
----
-
-### **3. What happens to my existing Agent? Will it be upgraded?**
-**Answer:** If you have an existing agent and have also installed a new agent through Testsigma Lite, The existing Agent will continue to function. However, some compatibility issues may arise when running multiple agents. Two agents cannot run simultaneously, as first agent will consume the ports.
+- **.dmg** (macOS)
+    
+- **.msi** (Windows)
+    
+- **.zip** and **.tar.gz** (Alternative formats, but availability may be restricted by enterprise security policies)
+    
 
 ---
 
-### **4. Can the old Agent be converted into the new Testsigma Lite Java Agent?**
-**Answer:** If an existing agent is present during Testsigma Lite installation, the system prompts the user to either use the existing agent or install a new one. If the user selects the existing agent, Testsigma Lite will continue using it.
+### **3. Will my existing agent be upgraded when I install Testsigma Lite?**
+
+**Answer:** Testsigma Lite detects and integrates with the existing agent. If an update is available, the agent is upgraded automatically.
 
 ---
 
-### **5. If the Old Java Agent was registered but inactive, will the new Testsigma Lite register under the same name?**
-**Answer:** No, each Agent will have a unique name and identifier to avoid conflicts.
+### **4. Can the old Java agent be converted into the new Testsigma Lite Java agent?**
+
+**Answer:** During installation, the old agent is detected, upgraded, and converted into the new Testsigma Lite Java agent.
 
 ---
 
-### **6. What happens if the Old Java Agent becomes active again?**
-**Answer:** The system is designed to support multiple agents, but for a single machine only single agent can be active.
+### **5. If my old Java agent was registered but inactive, will Testsigma Lite reuse its name?**
+
+**Answer:** If Testsigma Lite does not detect the inactive agent, it installs a new one, requiring re-registration.
 
 ---
 
-### **7. Which Agent is used for remote executions or ad-hoc runs?**
-**Answer:** Active agent will be used for any type of local execution.
+### **6. What happens if the old Java agent becomes active again?**
+
+**Answer:** The old Java agent cannot become active while Testsigma Lite is running, as only one agent can be active at a time.
 
 ---
 
-### **8. How does the Testsigma Lite Java Agent register with Testsigma?**
-**Answer:** There is no change in the registration process. For more info, refer to [Setting Up Testsigma Agent Locally](https://testsigma.com/docs/agent/setup-on-windows-mac-linux/).
+### **7. Which agent is used for remote executions or ad-hoc runs?**
+
+**Answer:** Testsigma Lite integrates with the existing agent, which is used for remote executions, ad-hoc runs, and Live Editor.
 
 ---
 
-### **9. Can I start, stop, or restart the Agent directly from the Testsigma application?**
-**Answer:** This feature is planned for a future release. However, you can manage the Agent only through the Testsigma Lite Desktop application.
+### **8. How does the Testsigma Lite Java agent register with Testsigma?**
 
-**A. Managing Testsigma Lite**
-   - **Stop**: Click **Quit Live Editor** to stop Testsigma Lite.
-   - **Start**: Search for the **Testsigma Lite** application and launch it.
-   - **Restart**: Stop and start **Testsigma Lite** again.
+**Answer:** The registration process remains unchanged. Refer to [Setting Up Testsigma Agent Locally](https://testsigma.com/docs/agent/setup-on-windows-mac-linux/) for details.
 
-**B. Managing the Agent**
-- **Start**: The Agent starts automatically when **Testsigma Lite** is launched.
+---
 
-   **To start manually:**
-      - Navigate to the **Agent Location**.
-      - Open **Terminal/Command Prompt** in the **Agent** folder.
-      - Run the command: `sh Start.sh`
+### **9. Can I start, stop, or restart the Agent from the Testsigma application?**
 
-- **Stop**: The Agent runs in the background to support local executions.
+**Answer:** Not yet. Currently, the agent can only be managed via the Testsigma Lite desktop application.
 
-   **To stop manually:**
-      - Navigate to the **Agent Location**.
-      - Open **Terminal/Command Prompt** in the Agent folder.
-      - Run the command: `sh Stop.sh`
+#### **Managing Testsigma Lite**
 
-- **Restart**: The Agent restarts automatically when **Testsigma Lite** is relaunched.
-   
-   **To restart manually**: Click the **Restart** button on the **Testsigma Lite** homepage (Live Editor).
+- **Stop:** Click **Quit Live Editor**.
+    
+- **Start:** Launch **Testsigma Lite** from your applications.
+    
+- **Restart:** Stop and restart **Testsigma Lite**.
+    
+
+#### **Managing the Agent**
+
+- **Start:** The agent starts automatically when **Testsigma Lite** launches.
+    
+    - To start manually:
+        
+        - Navigate to the **Agent Location**.
+            
+        - Open **Terminal/Command Prompt**.
+            
+        - Run: `sh Start.sh`
+            
+- **Stop:** The agent runs in the background.
+    
+    - To stop manually:
+        
+        - Navigate to the **Agent Location**.
+            
+        - Open **Terminal/Command Prompt**.
+            
+        - Run: `sh Stop.sh`
+            
+- **Restart:** Relaunch **Testsigma Lite** or click the **Restart** button on the **Live Editor** homepage.
+    
 
 ---
 
 ### **10. Can I manually start or stop the Agent?**
-**Answer:** The Debugger Agent and Java Agent work together as a single entity. Stopping one may affect functionality.
+
+**Answer:** Yes, but it is not recommended. The agent runs in the background, and stopping it may impact Testsigma Lite’s functionality.
 
 ---
 
-### **11. How can I collect logs from the Testsigma Lite?**
-**Answer:** Logs are stored locally and can be accessed via a button on the home screen. <br>
-**Manual Path for Logs:**  *Disk > Users > `user_folder` > Library > Application Support > Testsigma > Testsigma Lite > Logs > .log file*
+### **11. How can I collect logs from Testsigma Lite?**
+
+**Answer:** Logs are stored locally and can be accessed via **Logs** button on Testsigma Lite home screen.
+
+**Manual Log Path:**  
+`Disk > Users > user_folder > Library > Application Support > Testsigma > Testsigma Lite > Logs > .log file`
 
 [[info | **NOTE**:]]
 | To access **Library** folder in the above path, you need to unhide hidden folders in your `user_folder`.
 
-### **Shortcuts to View Hidden Files:**
-   - **Mac:** Press **Command (⌘) + Shift + .** in **Finder**. <br>
-   - **Windows:** Press **Windows + R**, type control folders, go to the **View** tab, and select **Show hidden files, folders, and drives**.
+#### **Shortcut to View Hidden Files:**
+
+- **Mac:** Press **Command (⌘) + Shift + .** in **Finder**.
+    
+- **Windows:** Press **Windows + R**, type `control folders`, go to **View**, and select **Show hidden files, folders, and drives**.
+    
 
 ---
 
-### **12. If the Old Agent is running, will I be asked for permission before installing the new Testsigma Lite?**
-**Answer:** At the start of the installation, Testsigma Lite will detect existing agents on your system and prompts you to either use the existing agent or install a new one.
+### **12. If the old agent is running, will I be prompted before installing Testsigma Lite?**
+
+**Answer:** Yes. Testsigma Lite detects existing agents and prompts you to either use the existing agent or install a new one.
 
 ---
 
-### **13. Can I find where the Java Agent files are stored on my machine?**
-**Answer:** **Path for Agent Files & Logs:** *Disk > Users > `user_folder` > Library > Application Support > Testsigma > Agent > Logs*
+### **13. Where are the Java agent files stored on my machine?**
+
+**Answer:** Java agent files are stored in the path below:
+`Disk > Users > user_folder > Library > Application Support > Testsigma > Agent > Logs`
 
 [[info | **NOTE**:]]
 | To access **Library** folder in the above path, you need to unhide hidden folders in your `user_folder`.
 
-### **Shortcuts to View Hidden Files:**
-   - **Mac:** Press **Command (⌘) + Shift + .** in **Finder**. <br>
-   - **Windows:** Press **Windows + R**, type control folders, go to the **View** tab, and select **Show hidden files, folders, and drives**.
+#### **Shortcut to View Hidden Files:**
+
+- **Mac:** Press **Command (⌘) + Shift + .** in **Finder**.
+    
+- **Windows:** Press **Windows + R**, type `control folders`, go to **View**, and select **Show hidden files, folders, and drives**.
+    
 
 ---
