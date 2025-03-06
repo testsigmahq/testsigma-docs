@@ -45,6 +45,7 @@ Once the **Applications** tab is enabled, you will be able to see all the applic
 2. Click **New Application**.
 ![Add an application 2](https://s3.amazonaws.com/static-docs.testsigma.com/new_images/projects/applications/Add_an_application_Step_2.png)
 
+
 3. On **New application** dialog, enter **Application name**, **Description**, **Version name**, and select **Application type**. 
 ![Prompt](https://s3.amazonaws.com/static-docs.testsigma.com/new_images/projects/applications/apspromdtls.png)
 

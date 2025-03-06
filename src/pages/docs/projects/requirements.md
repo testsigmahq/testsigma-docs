@@ -32,20 +32,24 @@ In Testsigma, you can map each test case to a specific requirement, allowing for
 
 According to IEEE standard 729, a requirement is defined as follows:
 
-- A condition or capability needed by a user to solve a problem or achieve an objective
-- A condition or capability that must be met or possessed by a system or system component to satisfy a contract, standard, specification or other formally imposed documents
-- A documented representation of a condition or capability as in 1 and 2
+
+* A condition or capability needed by a user to solve a problem or achieve an objective
+* A condition or capability that must be met or possessed by a system or system component to satisfy a contract, standard, specification or other formally imposed documents
+* A documented representation of a condition or capability as in 1 and 2
 
 A software requirement can be of 3 types:
 
-- Functional requirements
-- Non-functional requirements
-- Domain requirements
+* Functional requirements
+* Non-functional requirements
+* Domain requirements
+<br>
+<br>
 
 ---
 ##**Prerequisites** <br> 
 
 - Before you begin, ensure that you are familiar with concepts of [Create Test Case](https://testsigma.com/docs/test-cases/manage/add-edit-delete/) and [Requirement Type](https://testsigma.com/docs/projects/settings/requirement-types/).
+
 
 
 ## **Steps to Create a Requirement
@@ -106,5 +110,6 @@ You will see below options on the form:
 
 
 ---
+
 
 

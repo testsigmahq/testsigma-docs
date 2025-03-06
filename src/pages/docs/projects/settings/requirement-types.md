@@ -33,6 +33,7 @@ With Testsigma, you can organize your test cases based on **Requirements**. You 
 
 ## **Add a New Requirement Type**
 
+
 1. Navigate to **Project** and click **Project Settings**.
 ![Add New Requirement Type Step 1](https://s3.amazonaws.com/static-docs.testsigma.com/new_images/projects/applications/Add_a_new_requirement_type_step_1.png)
 
@@ -82,8 +83,7 @@ With Testsigma, you can organize your test cases based on **Requirements**. You 
 | 2. Alternatively, you can also unlink test cases associated with the test case type from the edit test case page. For more information, refer to [edit test cases](https://testsigma.com/docs/test-cases/manage/add-edit-delete/#edit-test-case). 
 
 Here's a quick GIF demonstrating how to add, edit and delete a requirement type in Testsigma.
-
-![Requirement Type Workflow](https://s3.amazonaws.com/static-docs.testsigma.com/new_images/projects/applications/Requirement_type.gif)
+![Requirement Type WF](https://s3.amazonaws.com/static-docs.testsigma.com/new_images/projects/applications/Requirement_type.gif)
 
 
 

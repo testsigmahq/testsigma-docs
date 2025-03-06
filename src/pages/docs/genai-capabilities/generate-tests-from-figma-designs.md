@@ -61,7 +61,8 @@ With Testsigma, you can effortlessly generate test cases directly from Figma des
 
 Before generating test cases from Figma design, it’s essential to understand how Figma and its features work. Figma is a powerful, cloud-based design tool that is widely used for UI/UX design, prototypes, and collaboration.
 
-When you log into Figma, you land on the home page, projects, files, and shared workspaces. Understanding the core components of Figma - such as Projects, files, pages, sections, and frames, helps efficiently manage designs and facilitates the extraction of design elements for testing. 
+A Figma file hierarchy is in this way **Project** > **Design File** > **Pages** > **Sections** > **Frames**.
+
 
 ### **Projects**
 
@@ -72,30 +73,28 @@ To view all projects, navigate to the left panel and select **All Projects**.
 
 ### **Files**
 
-Files contain the actual design work. Each file contains multiple pages where designers create and store UI elements, prototypes, and other assets.
+Files contain the actual design work. Each file contains multiple pages where designers create and store UI elements, prototypes, etc. 
 
 To access the files within a project, double-click on the project.
 ![Files](https://s3.amazonaws.com/static-docs.testsigma.com/new_images/projects/applications/Figma__Files__Final.png)
 
 ### **Pages**
 
-Pages help structure the design file by separating different versions, screens, or design elements. For example, a file may have separate pages for designs, prototypes, etc.
-
-Double-clicking on a file reveals all the pages contained within it.
+Pages logically structure a design file by dividing it into separate sections. 
 ![Pages](https://s3.amazonaws.com/static-docs.testsigma.com/new_images/projects/applications/Figma__Pages.png)
 
 ### **Sections**
 
-Sections are used within a page to organize related frames visually. They help in grouping similar designs, making navigating and understanding different parts of the project easier. 
+Sections are used within a page to organize related frames visually. 
 
 A page's sections are displayed, providing a clear structure for different design components.
 ![Section](https://s3.amazonaws.com/static-docs.testsigma.com/new_images/projects/applications/Figma__Section__1.png)
 
 ### **Frames**
 
-Frames are the primary design components in Figma, acting like artboards where designers place UI elements. Each UI/UX design screen is typically represented by a frame, which can be resized and structured for responsive designs.
+Frames are the primary design components in Figma. Each UI/UX design screen is typically represented by a frame, which can be resized and structured for responsive designs.
 
-Frames are visible within sections, allowing for a well-organized design layout.
+Frames are visible within sections. 
 ![Frames](https://s3.amazonaws.com/static-docs.testsigma.com/new_images/projects/applications/Figma__Frames.png)
 
 ---

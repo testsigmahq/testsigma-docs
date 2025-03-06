@@ -33,7 +33,6 @@ You can add unlimited team members to your project and assign them different rol
 > *For more information, see [User Roles](https://testsigma.com/docs/collaboration/users-roles/).* 
 
 
-
 ---
 
 ## **Steps to Invite Team Members**

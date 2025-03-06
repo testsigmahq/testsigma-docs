@@ -31,11 +31,10 @@ Due to constantly changing requirements and application features, version contro
 
 ---
 
-
-
 > ## **Prerequisites**
 > 
-> Before you begin, ensure you know how to [Manage Applications](https://testsigma.com/docs/projects/applications/).
+> You should know how to [Manage Applications](https://testsigma.com/docs/projects/applications/).
+
 
 
 ---
@@ -52,7 +51,6 @@ Due to constantly changing requirements and application features, version contro
      
      - On the **New Version** dialog, enter **Name**, **Description**, and click on **Create**. 
      ![Create a Version 3](https://s3.amazonaws.com/static-docs.testsigma.com/new_images/projects/applications/Create_aaplication_version_3.png)
-
 
 3. A new version will be created. 
 
@@ -101,8 +99,8 @@ Due to constantly changing requirements and application features, version contro
 ![Delete Application Version 4](https://s3.amazonaws.com/static-docs.testsigma.com/new_images/projects/applications/Delete_Application_Version_Step_4.png)
 
 
-Here's a quick GIF demonstrating how to add, edit and delete versions in Testsigma. 
 
+Here's a quick GIF demonstrating how to add, edit and delete versions in Testsigma. 
 ![Versions Workflow](https://s3.amazonaws.com/static-docs.testsigma.com/new_images/projects/applications/Create_a_Version.gif)
 
 
