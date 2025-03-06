@@ -27,34 +27,28 @@ contextual_links:
 ---
 
 ---
+
 In Testsigma, you can map each test case to a specific requirement, allowing for a more organized approach to testing. This ensures that every software requirement is effectively addressed and improves test coverage.
 
 According to IEEE standard 729, a requirement is defined as follows:
 
-* A condition or capability needed by a user to solve a problem or achieve an objective
-* A condition or capability that must be met or possessed by a system or system component to satisfy a contract, standard, specification or other formally imposed documents
-* A documented representation of a condition or capability as in 1 and 2
-
-
+- A condition or capability needed by a user to solve a problem or achieve an objective
+- A condition or capability that must be met or possessed by a system or system component to satisfy a contract, standard, specification or other formally imposed documents
+- A documented representation of a condition or capability as in 1 and 2
 
 A software requirement can be of 3 types:
 
-* Functional requirements
-* Non-functional requirements
-* Domain requirements
-<br>
-<br>
+- Functional requirements
+- Non-functional requirements
+- Domain requirements
 
 ---
 ##**Prerequisites** <br> 
 
 - Before you begin, ensure that you are familiar with concepts of [Create Test Case](https://testsigma.com/docs/test-cases/manage/add-edit-delete/) and [Requirement Type](https://testsigma.com/docs/projects/settings/requirement-types/).
 
-<br>
 
----
-##**Create a Requirement**<br>
-
+## **Steps to Create a Requirement
 1. From the left navigation bar, go to **Create Tests > Test Cases**.
    ![Create a requirement 1](https://s3.amazonaws.com/static-docs.testsigma.com/new_images/projects/applications/Create_a_Requirement_1.png)
 
@@ -94,7 +88,15 @@ You will see below options on the form:
    ![Edit a requriement 3](https://s3.amazonaws.com/static-docs.testsigma.com/new_images/projects/applications/Edit_a_requirement_3.1.png) 
 
 ---
-##**Delete a Requirement**
+
+##**Associate a Requirement to a Test Case**
+
+1. In the **Manage Test Case** overlay, expand the requirement field and select the required option. 
+   ![Assign a requirement 1](https://s3.amazonaws.com/static-docs.testsigma.com/new_images/projects/applications/Assign_a_requirement_1.png)
+
+
+## **Delete a Requirement**
+
 
 1. In the **Manage Test Case** overlay, expand the requirement field and click **Delete** for a requirement. 
    ![Delete a requirement 1](https://s3.amazonaws.com/static-docs.testsigma.com/new_images/projects/applications/Delete_a_requirement_1.png)
@@ -102,13 +104,7 @@ You will see below options on the form:
 2. In the **Delete Requirement** dialog, click on **Delete**. 
    ![Delete a requirement 2](https://s3.amazonaws.com/static-docs.testsigma.com/new_images/projects/applications/Delete_a_requirement_2.1.png)
 
+
 ---
-##**Associate a Requirement to a Test Case**
-
-1. In the **Manage Test Case** overlay, expand the requirement field and select the required option. 
-   ![Assign a requirement 1](https://s3.amazonaws.com/static-docs.testsigma.com/new_images/projects/applications/Assign_a_requirement_1.png)
-
-
-
 
 

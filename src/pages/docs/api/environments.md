@@ -10,6 +10,9 @@ contextual_links:
 - type: section
   name: "Contents"
 - type: link
+  name: "Prerequisites"
+  url: "#prerequisites"
+- type: link
   name: "Get an Environment"
   url: "#get-an-environment"
 - type: link
@@ -24,8 +27,12 @@ contextual_links:
 
 For some CI/CD pipelines, the URL of the Application Under Test (AUT) changes with every deployment. Manually updating it within the Testsigma App for every build can get tedious at scale. Environments API lets you read and update the URL of the Application under Test (AUT) dynamically after every build in your CI Pipeline.
 
-[[info | NOTE:]]
-| To authenticate these requests, you must use your Testsigma API Key.  See *[How to generate API Keys.](https://testsigma.com/docs/configuration/api-keys/)*
+
+---
+
+> ## **Prerequisites**
+>
+> Before you begin, ensure you have an [API Key](https://testsigma.com/docs/configuration/api-keys/) from Testsigma application.
 
 ---
 

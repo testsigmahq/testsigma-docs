@@ -55,13 +55,13 @@
     button {
     font-weight: 600;
       &:hover {
-        color: #1AA874;
+        color: #00b2bd;
       }
     }
   }
   .parent:hover button,
   .parent:hover svg path {
-    fill: #1AA874;
+    fill: #00b2bd;
   }
   .parent {
     list-style-type: none;
@@ -91,7 +91,7 @@
       outline: inherit;
       text-transform: capitalize;
       &:hover{
-        color: #1AA874;
+        color: #00b2bd;
       }
       @media (max-width: 576px) {
         font-size: 13px;
@@ -134,7 +134,7 @@
     }
     &.currentUrl {
       font-weight: 700;
-      color: #1AA874;
+      color: #00b2bd;
       margin-left: 0px!important;
       > * {
         vertical-align: middle;
@@ -157,7 +157,7 @@
       &:hover {
         background-color: inherit;
         border-radius: 3px;
-        color: #1AA874;
+        color: #00b2bd;
       }
     }
   }
@@ -204,7 +204,7 @@
   transform: rotate(0deg);
 }
 .text_green {
-  color: #1AA874;
+  color: #00b2bd;
 }
 .float_left {
     float:left;
