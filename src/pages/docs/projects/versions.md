@@ -32,6 +32,7 @@ Due to constantly changing requirements and application features, version contro
 ---
 
 
+
 > ## **Prerequisites**
 > 
 > Before you begin, ensure you know how to [Manage Applications](https://testsigma.com/docs/projects/applications/).
@@ -98,7 +99,6 @@ Due to constantly changing requirements and application features, version contro
 
 4. On the **Delete Delete Version?** dialog, enter **DELETE** and click on **I understand, delete this**.
 ![Delete Application Version 4](https://s3.amazonaws.com/static-docs.testsigma.com/new_images/projects/applications/Delete_Application_Version_Step_4.png)
-
 
 
 Here's a quick GIF demonstrating how to add, edit and delete versions in Testsigma. 

@@ -32,14 +32,15 @@ In Testsigma, you can map each test case to a specific requirement, allowing for
 
 According to IEEE standard 729, a requirement is defined as follows:
 
-* A condition or capability needed by a user to solve a problem or achieve an objective
-* A condition or capability that must be met or possessed by a system or system component to satisfy a contract, standard, specification or other formally imposed documents
-* A documented representation of a condition or capability as in 1 and 2
-* Functional requirements
-* Non-functional requirements
-* Domain requirements
-<br>
-<br>
+- A condition or capability needed by a user to solve a problem or achieve an objective
+- A condition or capability that must be met or possessed by a system or system component to satisfy a contract, standard, specification or other formally imposed documents
+- A documented representation of a condition or capability as in 1 and 2
+
+A software requirement can be of 3 types:
+
+- Functional requirements
+- Non-functional requirements
+- Domain requirements
 
 ---
 ##**Prerequisites** <br> 
@@ -62,7 +63,6 @@ According to IEEE standard 729, a requirement is defined as follows:
 
 5. The **Create Requirement** dialog will appear as shown in the screenshot below: 
    ![Create a requriement 5](https://s3.amazonaws.com/static-docs.testsigma.com/new_images/projects/applications/Create_a_Requirement_5.png)
-
 
 
 You will see below options on the form:
@@ -89,48 +89,11 @@ You will see below options on the form:
 
 ---
 
-## **Create a Requirement**
+##**Associate a Requirement to a Test Case**
 
-1. From the left navigation bar, go to **Create Tests > Test Cases**.
-   ![Create a requirement 1](https://s3.amazonaws.com/static-docs.testsigma.com/new_images/projects/applications/Create_a_Requirement_1.png)
+1. In the **Manage Test Case** overlay, expand the requirement field and select the required option. 
+   ![Assign a requirement 1](https://s3.amazonaws.com/static-docs.testsigma.com/new_images/projects/applications/Assign_a_requirement_1.png)
 
-2. In the **Test Case Explorer** section, locate the Feature and Scenario containing the Test Case for which you want to create a requirement and select the test case.
-   ![Create a requirement 2](https://s3.amazonaws.com/static-docs.testsigma.com/new_images/projects/applications/Create_a_requirement_2.1.png)
-
-3. From the right navigation bar, click **Manage Test Case**.
-   ![Create a requirement 3](https://s3.amazonaws.com/static-docs.testsigma.com/new_images/projects/applications/Create_a_Requirement_3.png)
-
-4. In the **Manage Test Case** overlay, click **Create New** in the **Requirement** field.
-   ![Create a requirement 4](https://s3.amazonaws.com/static-docs.testsigma.com/new_images/projects/applications/Create_a_Requirement_4.png)
-
-5. The **Create Requirement** dialog, add the following:
-   -  Enter the **Name** and an optional **Description**.
-   -  Select the **Type** from the dropdown menu.
-   -  Choose the **Start Date** and **Completion Date** based on the testing requirement timeline.
-      
-      ![Create a requriement 5](https://s3.amazonaws.com/static-docs.testsigma.com/new_images/projects/applications/Create_a_Requirement_5.png)
-
-6. Click **Create**. 
-![Create a requirement 6](https://s3.amazonaws.com/static-docs.testsigma.com/new_images/projects/applications/Create_a_Requirement_6.1.png)
-
-
----
-
-
-
-## **Edit a Requirement**
-
-1. In the **Manage Test Case** overlay, expand the requirement field and click **Edit** for a requirement.
-   ![Edit a requirement 1](https://s3.amazonaws.com/static-docs.testsigma.com/new_images/projects/applications/Edit_a_Requriement_1.png)
-
-
-2. In the **Edit Requirement** dialog, edit the required details.
-   ![Edit a requirement 2](https://s3.amazonaws.com/static-docs.testsigma.com/new_images/projects/applications/Edit_a_requirement_2.png)
-
-3. Click **Update**.
-   ![Edit a requriement 3](https://s3.amazonaws.com/static-docs.testsigma.com/new_images/projects/applications/Edit_a_requirement_3.1.png) 
-
----
 
 ## **Delete a Requirement**
 
@@ -143,4 +106,5 @@ You will see below options on the form:
 
 
 ---
+
 

@@ -63,7 +63,6 @@ In Testsigma, you can create multiple projects and assign users to those project
 
 5. The user will get an email with the link to join the required project(s).
 
-
 Alternatively, you can also add users from **Project Settings**. For more information, refer to [User Roles](https://testsigma.com/docs/collaboration/users-roles/). 
 
 ---
@@ -81,9 +80,6 @@ Alternatively, you can also add users from **Project Settings**. For more inform
 
 3. On **Edit User Role / Assign Projects** dialog, edit the details and click on **Update**.
 ![Update](https://s3.amazonaws.com/static-docs.testsigma.com/new_images/projects/applications/Assigning_Existing_Users_to_a_Project_3.2.png)
-=======
-
-3. The user will be assigned the selected projects with the selected access roles.
 
 
 ---
