@@ -1,21 +1,21 @@
-const path = require("path");
-const glob = require("glob");
-const fs = require("fs");
-const frontmatter = require("@github-docs/frontmatter");
-const { v4: uuidv4 } = require("uuid");
-const { createFilePath } = require("gatsby-source-filesystem");
-const redirects = require("./src/redirects.json");
-const leftNavTitle = require("./src/left-nav-title.json");
+const path = require('path');
+const glob = require('glob');
+const fs = require('fs');
+const frontmatter = require('@github-docs/frontmatter');
+const { v4: uuidv4 } = require('uuid');
+const { createFilePath } = require('gatsby-source-filesystem');
+const redirects = require('./src/redirects.json');
+const leftNavTitle = require('./src/left-nav-title.json');
 
 const ignorePaths = [];
 
 exports.onCreateNode = ({ node, getNode, actions }) => {
   const { createNodeField } = actions;
-  if (node.internal.type === "MarkdownRemark") {
-    const slug = createFilePath({ node, getNode, basePath: "pages" });
+  if (node.internal.type === 'MarkdownRemark') {
+    const slug = createFilePath({ node, getNode, basePath: 'pages' });
     createNodeField({
       node,
-      name: "slug",
+      name: 'slug',
       value: slug,
     });
   }
@@ -57,8 +57,8 @@ exports.createPages = async ({ graphql, actions }) => {
     }
   `);
   result.data.allMarkdownRemark.edges.forEach(({ node }, index) => {
-    if (node.fields.slug.includes("-")) {
-      const underscoreSlug = node.fields.slug.replace(/-/g, "_");
+    if (node.fields.slug.includes('-')) {
+      const underscoreSlug = node.fields.slug.replace(/-/g, '_');
 
       createRedirect({
         fromPath: underscoreSlug,
@@ -69,7 +69,7 @@ exports.createPages = async ({ graphql, actions }) => {
     }
     createPage({
       path: node.fields.slug,
-      component: path.resolve("./src/templates/page.jsx"),
+      component: path.resolve('./src/templates/page.jsx'),
       context: {
         slug: node.fields.slug,
         prev:
@@ -83,6 +83,18 @@ exports.createPages = async ({ graphql, actions }) => {
       },
     });
   });
+};
+
+exports.onPostBuild = () => {
+  const sourcePath = path.join(__dirname, 'src/pages/docs/sitemap.xml');
+  const destinationPath = path.join(__dirname, 'public/docs/sitemap.xml');
+
+  if (fs.existsSync(sourcePath)) {
+    fs.copyFileSync(sourcePath, destinationPath);
+    console.log('Sitemap.xml copied to public folder!');
+  } else {
+    console.error('Sitemap.xml not found in src/pages/docs/');
+  }
 };
 
 /* Create Header and Footer
@@ -104,7 +116,7 @@ exports.sourceNodes = async ({
       children: [],
       internal: {
         type: name,
-        mediaType: "text/json",
+        mediaType: 'text/json',
         content: node,
         contentDigest: createContentDigest(data),
       },
@@ -117,8 +129,8 @@ exports.sourceNodes = async ({
   const { createNode } = actions;
 
   const getDirectories = (src) => glob.sync(`${src}/**/*`);
-  const paths = getDirectories("./src/pages/docs")
-    .filter((val) => val.slice(-3) === ".md")
+  const paths = getDirectories('./src/pages/docs')
+    .filter((val) => val.slice(-3) === '.md')
     .map((val) => {
       const { data } = frontmatter(fs.readFileSync(val));
       const order = data.order || 200;
@@ -126,11 +138,11 @@ exports.sourceNodes = async ({
     })
     .sort((a, b) => Number(a[1]) - Number(b[1]))
     .map((val) => {
-      let newVal = "";
-      newVal = val[0].replace(/\.\/src\/pages/g, "");
+      let newVal = '';
+      newVal = val[0].replace(/\.\/src\/pages/g, '');
       newVal = newVal.substring(0, newVal.length - 3);
       newVal =
-        newVal.slice(-5) === "index"
+        newVal.slice(-5) === 'index'
           ? newVal.substring(0, newVal.length - 5)
           : newVal;
       return `${newVal}/`;
@@ -140,8 +152,8 @@ exports.sourceNodes = async ({
   const output = {};
 
   paths.forEach((val) => {
-    let split = val.split("/");
-    split = split.filter((url) => url !== "");
+    let split = val.split('/');
+    split = split.filter((url) => url !== '');
 
     let current = output;
     split.forEach((part) => {
@@ -159,10 +171,10 @@ exports.sourceNodes = async ({
       }
       current = current[part];
     });
-    current.url = `/${split.join("/")}/`;
+    current.url = `/${split.join('/')}/`;
   });
   //console.log(output.docs)
-  createNode(prepareNode(output.docs, "leftNavLinks"));
+  createNode(prepareNode(output.docs, 'leftNavLinks'));
 };
 
 exports.createSchemaCustomization = ({ actions }) => {

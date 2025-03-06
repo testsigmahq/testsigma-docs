@@ -66,7 +66,7 @@ A Figma file hierarchy is in this way **Project** > **Design File** > **Pages** 
 
 ### **Projects**
 
-Projects act as containers for organizing related design files and can hold multiple design files. 
+Projects act as containers for organizing related design files. A project can hold multiple design files, making managing work for different teams or features easier. 
 
 To view all projects, navigate to the left panel and select **All Projects**.
 ![Projects](https://s3.amazonaws.com/static-docs.testsigma.com/new_images/projects/applications/Figma__Project_Final.png)

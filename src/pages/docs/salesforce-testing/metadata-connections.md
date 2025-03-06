@@ -34,9 +34,7 @@ In Testsigma, you can create a Salesforce application and establish a Metadata c
 
 > ## **Prerequisites**
 > 
-> - Salesforce organization with the test setup.
-> 
-> - Salesforce connected app. For more information, refer to [creating a connected app](https://testsigma.com/docs/salesforce-testing/special-nlps/).
+> Before you begin, ensure you have a Salesforce organization setup with a [Salesforce Connected App](https://testsigma.com/docs/salesforce-testing/connected-app/).
 
 ---
 
@@ -114,8 +112,14 @@ To refresh metadata, you have two options:
 1. From the **Dashboard**, go to **SF Connections** and click on **Refresh Metadata**. 
    ![Refresh](https://s3.amazonaws.com/static-docs.testsigma.com/new_images/projects/applications/sfmdref1.png)
 
+
 2. Click on **Refresh Metadata** directly from the dashboard.
    ![Refresh](https://s3.amazonaws.com/static-docs.testsigma.com/new_images/projects/applications/sfmdref2.png)
+
+
+[[info | **NOTE**:]]
+| 
+| You can also refresh metadata using API. *For more details, see [Salesforce Metadata Refresh Using API](https://testsigma.com/docs/api/examples/trigger-sf-metadata/)*.
 
 ---
 

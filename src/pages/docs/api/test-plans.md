@@ -29,17 +29,17 @@ contextual_links:
 ---
 
 
-You can use Testsigma API to trigger test executions remotely. This is useful when you want to fully automate continuous testing within your CI/CD pipeline, and have already integrated Testsigma with a CI tool you use, such as Jenkins, TravisCI, GitLab, Codeship, CircleCI, etc..
+You can use Testsigma API to trigger test executions remotely. This is useful when you want to fully automate continuous testing within your CI/CD pipeline, and have already integrated Testsigma with a CI tool you use, such as Jenkins, TravisCI, GitLab, Codeship, and CircleCI.
 
 ---
 
-## **Prerequisites**
-
-- You should be familiar with creating and running Test Plans. See [manage test plans](https://testsigma.com/docs/test-management/test-plans/overview/)
-- You should have Testsigma API key. See [how to generate API keys](https://testsigma.com/docs/configuration/api-keys/).
+> ## **Prerequisites**
+>
+> Before you begin, ensure you have an [API Key](https://testsigma.com/docs/configuration/api-keys/) and know how to [Manage Test Plans](https://testsigma.com/docs/test-management/test-plans/overview/).
 
 
 ---
+
 ## **Trigger Test Plans Using API**
 This endpoint allows users to trigger a Test Plan execution remotely.
 
