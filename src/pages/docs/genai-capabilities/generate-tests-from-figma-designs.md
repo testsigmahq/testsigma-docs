@@ -61,7 +61,7 @@ With Testsigma, you can effortlessly generate test cases directly from Figma des
 
 Before generating test cases from Figma design, it’s essential to understand how Figma and its features work. Figma is a powerful, cloud-based design tool that is widely used for UI/UX design, prototypes, and collaboration.
 
-When you log into Figma, you land on the home page, projects, files, and shared workspaces. A Figma file hierarchy is in this way **Project** > **Design File** > **Pages** > **Sections** > **Frames**.
+A Figma file hierarchy is in this way **Project** > **Design File** > **Pages** > **Sections** > **Frames**.
 
 
 ### **Projects**
