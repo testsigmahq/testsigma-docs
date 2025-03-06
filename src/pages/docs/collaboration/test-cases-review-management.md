@@ -10,6 +10,9 @@ contextual_links:
 - type: section
   name: "Contents"
 - type: link
+  name: "Prerequisites"
+  url: "#prerequisites"
+- type: link
   name: "Enable Test Case Review Management and Self Review"
   url: "#enable-test-case-review-management-and-self-review"
 - type: link
@@ -34,9 +37,10 @@ This documentation will guide you through enabling and using Test Case Review Ma
 
 ---
 
-### **Prerequisites**
-
-Before using Test Case Review Management, you must understand specific concepts such as creating [Projects](https://testsigma.com/docs/projects/overview/), [Test Cases](https://testsigma.com/docs/test-cases/manage/add-edit-delete/), and managing [Users and Roles](https://testsigma.com/docs/collaboration/users-roles/).
+> ## **Prerequisites**
+>
+> 
+> Before using Test Case Review Management, you must understand specific concepts such as creating [Projects](https://testsigma.com/docs/projects/overview/), [Test Cases](https://testsigma.com/docs/test-cases/manage/add-edit-delete/), and managing [Users and Roles](https://testsigma.com/docs/collaboration/users-roles/).
 
 ---
 

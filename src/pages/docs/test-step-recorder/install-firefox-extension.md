@@ -13,6 +13,9 @@ contextual_links:
   name: "Add Testsigma Recorder Extension to Firefox"
   url: "#add-testsigma-recorder-extension-to-firefox"
 - type: link
+  name: "Testsigma Recorder Extension Options"
+  url: "#testsigma-recorder-extension-options"
+- type: link
   name: "Enable Access Permissions in Firefox"
   url: "#enable-access-permissions-in-firefox"
 ---
@@ -31,6 +34,50 @@ Testsigma Recorder extensions in Firefox allow you to record end-to-end interact
 
 [[info | NOTE:]]
 | Check the box that says **Allow this extension to run in Private Windows** to enable this extension to work in **Private Windows**.
+
+
+---
+
+
+## **Testsigma Recorder Extension Options**
+
+
+1. Navigate to **Extensions > Extension Settings > Manage Extensions**. 
+   ![Manage Extensions](https://s3.amazonaws.com/static-docs.testsigma.com/new_images/projects/applications/Firefox_Extensions.png)
+
+
+2. On **Testsigma Recorder Extension Details**, click **Meatballs** icon and select **Preferences**.
+   ![Recorder Details](https://s3.amazonaws.com/static-docs.testsigma.com/new_images/projects/applications/FF_Extension_Preferences.png)
+
+
+3. You can see the following options:
+   
+   - Enable Inspect Popover on Elements
+   
+   - Disable Recording Mouse Scroll
+   
+   - Enable Developer Mode 
+
+![All Options](https://s3.amazonaws.com/static-docs.testsigma.com/new_images/projects/applications/Recorder_Options_Firefox.png)
+
+
+### **a. Enable Inspect Popover on Elements** 
+
+This option highlights elements with a green rectangular box during web recording, which helps you with visual guidance for accurate element selection. 
+
+
+### **b. Disable Recording Mouse Scroll**
+
+This option will prevent the automatic addition of scroll NLPs in test cases, which helps you create clean test cases, especially for static applications without infinite loading.
+
+[[info | **NOTE**:]]
+| The above two options will be selected by default.
+
+
+### **c. Enable Developer Mode**
+
+Activates Browser Developer Mode for advanced debugging, enabling element inspection, troubleshooting locators, and gaining deeper insights into application behavior.
+
 
 ---
 
