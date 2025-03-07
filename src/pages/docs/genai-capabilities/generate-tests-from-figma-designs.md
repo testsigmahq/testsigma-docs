@@ -66,7 +66,7 @@ A Figma file hierarchy is in this way **Project** > **Design File** > **Pages** 
 
 ### **Projects**
 
-Projects act as containers for organizing related design files. A project can hold multiple design files, making managing work for different teams or features easier. 
+Projects act as containers for organizing related design files and can hold multiple design files. 
 
 To view all projects, navigate to the left panel and select **All Projects**.
 ![Projects](https://s3.amazonaws.com/static-docs.testsigma.com/new_images/projects/applications/Figma__Project_Final.png)
@@ -92,7 +92,7 @@ A section inside a page, can have a set of Frames.
 
 ### **Frames**
 
-Frames are the primary design components in Figma. Each UI/UX design screen is typically represented by a frame, which can be resized and structured for responsive designs.
+Frames are the primary design components in Figma. Each UI/UX design screen is typically represented by a frame. 
 
 A frame inside a page or a section represents a screen of web or mobile app.
 ![Frames](https://s3.amazonaws.com/static-docs.testsigma.com/new_images/projects/applications/Figma__Frames.png)
