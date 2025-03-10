@@ -43,6 +43,7 @@ Once the **Applications** tab is enabled, you will be able to see all the applic
 
 2. Click **New Application**.
 
+
 3. On **New application** dialog, enter **Application name**, **Description**, **Version name**, and select **Application type**. 
 
 4. Click on **Create**.
