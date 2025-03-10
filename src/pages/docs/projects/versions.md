@@ -84,7 +84,7 @@ Due to constantly changing requirements and application features, version contro
 
 3. Click **Delete Version**. 
 
-4. On the **Delete Delete Version?** dialog, enter **DELETE** and click **I understand, delete this**.
+4. On the **Delete Version?** dialog, enter **DELETE** and click **I understand, delete this**.
 
 
 
@@ -103,3 +103,4 @@ Due to constantly changing requirements and application features, version contro
 </div>
 
 
+---
