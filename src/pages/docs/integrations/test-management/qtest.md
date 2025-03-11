@@ -19,6 +19,9 @@ contextual_links:
   name: "Steps to Link qTest ID with Testsigma Test Case"
   url: "#steps-to-link-qtest-id-with-testsigma-test-case"
 - type: link
+  name: "qTest Automation Settings"
+  url: "#qtest-automation-settings"
+- type: link
   name: "Steps to Execute Test Plan"
   url: "#steps-to-execute-test-plan"
 - type: link
@@ -80,6 +83,26 @@ qTest is a manual test management tool. With qTest integration in Testsigma, you
 
 ---
 
+## **qTest Automation Settings**
+
+In **qTest**, activate **Automation Integration** and map automation statuses accordingly. For more info, see [Automation Settings](https://documentation.tricentis.com/qtest/od/en/content/manager/settings/automation_settings.htm).
+
+### **Automation Status Mapping**
+
+   | **Automation Status** | **qTest Status** |
+   |----------------------|----------------|
+   | **PASSED**         | Passed         |
+   | **FAILED**         | Failed         |
+   | **INCOMPLETE**     | Incomplete     |
+   | **BLOCKED**        | Blocked        |
+
+
+Make sure that the above mentioned statuses are correctly mapped within **qTest** to maintain consistency in test result tracking.
+
+![qTest Automation Settings](https://s3.amazonaws.com/static-docs.testsigma.com/new_images/projects/applications/qTest_Automation_Settings.png)
+
+
+---
 
 ## **Steps to Execute Test Plan**
 
