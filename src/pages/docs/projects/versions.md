@@ -21,6 +21,9 @@ contextual_links:
 - type: link
   name: "Delete Application Version"
   url: "#delete-application-version"
+- type: link
+  name: "Interactive Demo"
+  url: "#interactive-demo"
 ---
 
 ---
@@ -42,44 +45,32 @@ Due to constantly changing requirements and application features, version contro
 ## **Create Application Version**
 
 1. Navigate to **Project Settings > Versions**.
-![Create a Version 1](https://s3.amazonaws.com/static-docs.testsigma.com/new_images/projects/applications/Create_a_Version_step_1.png)
 
 2. On **Edit Project** dialog, 
 
      - Click **New Version**.
-     ![Create a Version 2](https://s3.amazonaws.com/static-docs.testsigma.com/new_images/projects/applications/Create_a_Version_step_2.png) 
      
-     - On the **New Version** dialog, enter **Name**, **Description**, and click on **Create**. 
-     ![Create a Version 3](https://s3.amazonaws.com/static-docs.testsigma.com/new_images/projects/applications/Create_aaplication_version_3.png)
+     - On the **New Version** dialog, enter **Name**, **Description**, and click **Create**. 
 
 3. A new version will be created. 
 
 
 [[info | **NOTE**:]]
 | 1. You have to select **Allow Multiple Versions** while creating a project to be able to create multiple versions.  
-| ![Create a Version 4](https://s3.amazonaws.com/static-docs.testsigma.com/new_images/projects/applications/Create_a_Version_step_4.png)
 |
 | 2. If you want to copy data from previous versions, enable **Copy Data from Previous Versions** toggle and select the models you want to transfer. 
-| ![Create a Version 5](https://s3.amazonaws.com/static-docs.testsigma.com/new_images/projects/applications/Create_application_version_step_5.png)
 
 ---
 
 ## **Edit Application Version**
 
 1. Navigate to **Project Settings > Versions**.
-![Edit Application Version 1](https://s3.amazonaws.com/static-docs.testsigma.com/new_images/projects/applications/Edit_a_Version_step_1.png)
 
-
-2. On **Versions**, hover over the version you want to edit and click on the kebab menu. 
-![Edit Application Version 2](https://s3.amazonaws.com/static-docs.testsigma.com/new_images/projects/applications/Edit_a_Version_step_2.png)
-
+2. On **Versions**, hover over the version you want to edit and click the kebab menu. 
 
 3. Click **Edit Version**. 
-![Edit Application Version 3](https://s3.amazonaws.com/static-docs.testsigma.com/new_images/projects/applications/Edit_a_Version_step_3.png)
 
 4. Make the changes and click **Update**.
-![Edit Application Version 4](https://s3.amazonaws.com/static-docs.testsigma.com/new_images/projects/applications/Edit_application_version_step_4.png)
-
 
 ---
 
@@ -87,21 +78,28 @@ Due to constantly changing requirements and application features, version contro
 ## **Delete Application Version**
 
 1. Navigate to **Project Settings > Versions**.
-![Delete Application Version 1](https://s3.amazonaws.com/static-docs.testsigma.com/new_images/projects/applications/Delete_a_Version_step_1.png)
 
-2. On **Versions**, hover over the version you want to delete and click on the kebab menu.
-![Delete Application Version 2](https://s3.amazonaws.com/static-docs.testsigma.com/new_images/projects/applications/Delete_a_Version_step_2.png)
+2. On **Versions**, hover over the version you want to delete and click the kebab menu.
 
 3. Click **Delete Version**. 
-![Delete Application Version 3](https://s3.amazonaws.com/static-docs.testsigma.com/new_images/projects/applications/Delete_a_Version_step_3.png)
 
-4. On the **Delete Delete Version?** dialog, enter **DELETE** and click on **I understand, delete this**.
-![Delete Application Version 4](https://s3.amazonaws.com/static-docs.testsigma.com/new_images/projects/applications/Delete_Application_Version_Step_4.png)
+4. On the **Delete Version?** dialog, enter **DELETE** and click **I understand, delete this**.
 
 
 
-Here's a quick GIF demonstrating how to add, edit and delete versions in Testsigma. 
-![Versions Workflow](https://s3.amazonaws.com/static-docs.testsigma.com/new_images/projects/applications/Create_a_Version.gif)
+---
+
+## **Interactive Demo**
+
+### **Try this interactive demo to learn how to add, edit and delete a Version!**
+
+<div>
+  <script async src="https://js.storylane.io/js/v2/storylane.js"></script>
+  <div class="sl-embed" style="position:relative;padding-bottom:calc(57.41% + 25px);width:100%;height:0;transform:scale(1)">
+    <iframe loading="lazy" class="sl-demo" src="https://app.storylane.io/demo/izafangglzqd?embed=inline" name="sl-embed" allow="fullscreen" allowfullscreen style="position:absolute;top:0;left:0;width:100%!important;height:100%!important;border:1px solid rgba(63,95,172,0.35);box-shadow: 0px 0px 18px rgba(26, 19, 72, 0.15);border-radius:10px;box-sizing:border-box;"></iframe>
+  </div>
+</div>
+
 
 
 ---
