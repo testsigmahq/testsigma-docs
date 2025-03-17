@@ -63,9 +63,10 @@ Testsigma Gearset integration allows you to trigger test plan execution every ti
 
     [[info | **NOTE**:]]
     | You can find the **Execution ID** under **Test Plans > CI/CD Integrations > REST API call to start Test Plan**
-    | ![Env ID](https://s3.amazonaws.com/static-docs.testsigma.com/new_images/projects/applications/Gearset_EnvID.png)
+    | ![Env ID](https://s3.amazonaws.com/static-docs.testsigma.com/new_images/projects/applications/Gearset_Exe_ID.png)
 
-1. Go to **Notifications**, click **Save CI Job**. 
+
+2. Go to **Notifications**, click **Save CI Job**. 
 
 
 3. Once the metadata is downloaded, verify that the test plan is triggered from Gearset. 
