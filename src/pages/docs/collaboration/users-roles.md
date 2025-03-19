@@ -48,33 +48,32 @@ Below are the four roles that can be assigned to a project member in Testsigma:
 ## **Edit Users to Assign New Roles**
 
 1. Navigate to **Settings > Users**.
-
-![Settings](https://s3.amazonaws.com/static-docs.testsigma.com/new_images/projects/applications/Edit_users_to_assign_new_rules_1.1.png.
+   ![Settings](https://s3.amazonaws.com/static-docs.testsigma.com/new_images/projects/applications/Edit_users_to_assign_new_rules_1.1.png.
 
 2. Hover over the user and click the kebab menu. 
-![Kebab Menu](https://s3.amazonaws.com/static-docs.testsigma.com/new_images/projects/applications/Edit_users_to_assign_new_roles_2.1.png)
+   ![Kebab Menu](https://s3.amazonaws.com/static-docs.testsigma.com/new_images/projects/applications/Edit_users_to_assign_new_roles_2.1.png)
 
 3. Click **Edit User Role**.
-![Edit User](https://s3.amazonaws.com/static-docs.testsigma.com/new_images/projects/applications/Edit_users_to_assign_new_rules_3.png)
+   ![Edit User](https://s3.amazonaws.com/static-docs.testsigma.com/new_images/projects/applications/Edit_users_to_assign_new_rules_3.png)
 
 4. On **Edit User Role / Assign Projects** prompt, select roles and click **Update**. 
-![Edit User Roles](https://s3.amazonaws.com/static-docs.testsigma.com/new_images/projects/applications/Edit_users_to_assign_new_rules_4.2.png)
+   ![Edit User Roles](https://s3.amazonaws.com/static-docs.testsigma.com/new_images/projects/applications/Edit_users_to_assign_new_rules_4.2.png)
 
 ---
 
 ## **Assign Roles to Users from Project Settings**
 
 1. Navigate to **Project > Project Settings**, click on **Project Members**. 
-![Project Members](https://s3.amazonaws.com/static-docs.testsigma.com/new_images/projects/applications/Assign_Roles_to_Users_from_Project_Settings_1.1.png)
+   ![Project Members](https://s3.amazonaws.com/static-docs.testsigma.com/new_images/projects/applications/Assign_Roles_to_Users_from_Project_Settings_1.1.png)
 
 2. Click **Invite**.
-![Invite](https://s3.amazonaws.com/static-docs.testsigma.com/new_images/projects/applications/Assign_Roles_to_Users_from_Project_Settings_2.4.png)
+   ![Invite](https://s3.amazonaws.com/static-docs.testsigma.com/new_images/projects/applications/Assign_Roles_to_Users_from_Project_Settings_2.4.png)
 
 3. On **Invite New Member** dialog, enter **Email** and select the **Role** you want to assign. 
-![Email & Role](https://s3.amazonaws.com/static-docs.testsigma.com/new_images/projects/applications/Assign_Roles_to_Users_from_Project_Settings_3.png)
+   ![Email & Role](https://s3.amazonaws.com/static-docs.testsigma.com/new_images/projects/applications/Assign_Roles_to_Users_from_Project_Settings_3.png)
 
 4. Click **Invite**. 
-![New User](https://s3.amazonaws.com/static-docs.testsigma.com/new_images/projects/applications/Assign_Roles_to_Users_from_Project_Settings_4.1.png)
+   ![New User](https://s3.amazonaws.com/static-docs.testsigma.com/new_images/projects/applications/Assign_Roles_to_Users_from_Project_Settings_4.1.png)
 
 
 [[info | **NOTE**:]]
@@ -92,14 +91,13 @@ The invited user should receive an invitation email. They will need to join via 
 If you're the super administrator of the project, you can delete users. 
 
 1. Navigate to **Project > Project Settings**, click **Project Members**. 
-![Project Members](https://s3.amazonaws.com/static-docs.testsigma.com/new_images/projects/applications/Deleteing_Users_from_a_Project_1.1.png)
+   ![Project Members](https://s3.amazonaws.com/static-docs.testsigma.com/new_images/projects/applications/Deleteing_Users_from_a_Project_1.1.png)
 
 2. Hover over the user you want to delete and click **Delete**. 
-![Delete](https://s3.amazonaws.com/static-docs.testsigma.com/new_images/projects/applications/Deleting_Users_From_a_Project_2.png)
-
+   ![Delete](https://s3.amazonaws.com/static-docs.testsigma.com/new_images/projects/applications/Deleting_Users_From_a_Project_2.png)
 
 3. On **Delete Member** dialog, enter **DELETE** and click **Delete**.
-![Delete](https://s3.amazonaws.com/static-docs.testsigma.com/new_images/projects/applications/Deleting_Users_From_a_Project_3.1.png)
+   ![Delete](https://s3.amazonaws.com/static-docs.testsigma.com/new_images/projects/applications/Deleting_Users_From_a_Project_3.1.png)
 
 
 Alternatively, you can also delete user from global settings by navigating to **Settings > Users**.

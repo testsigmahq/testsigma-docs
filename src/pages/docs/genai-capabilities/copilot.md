@@ -18,6 +18,9 @@ contextual_links:
 - type: link
   name: "Generate Test Steps with Prompts"
   url: "#generate-test-steps-with-prompts"
+- type: link
+  name: "Interactive Demo"
+  url: "#interactive-demo"
 ---
 
 ---
@@ -91,5 +94,19 @@ Follow the same steps from 1-3 from the above section.
 8. Modify the test steps as per the desired test case behavior. Once the necessary modifications are done, click **Stop** to return to the test case details page.
 
    ![Stop](https://s3.amazonaws.com/static-docs.testsigma.com/new_images/projects/applications/Stop_PromptSteps.png)
+
+---
+
+## **Interactive Demo**
+
+Try this interactive demo to learn how to generate test cases for web apps using Testsigma Copilot!
+
+<div>
+  <script async src="https://js.storylane.io/js/v2/storylane.js"></script>
+  <div class="sl-embed" style="position:relative;padding-bottom:calc(53.41% + 25px);width:100%;height:0;transform:scale(1)">
+    <iframe loading="lazy" class="sl-demo" src="https://app.storylane.io/demo/1doy1j2vsbdt?embed=inline" name="sl-embed" allow="fullscreen" allowfullscreen style="position:absolute;top:0;left:0;width:100%!important;height:100%!important;border:1px solid rgba(63,95,172,0.35);box-shadow: 0px 0px 18px rgba(26, 19, 72, 0.15);border-radius:10px;box-sizing:border-box;"></iframe>
+  </div>
+</div>
+
 
 ---
