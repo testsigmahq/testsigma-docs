@@ -49,4 +49,11 @@ With Testsigma, you can create test cases directly from Jira stories and epics b
 
 7. You’ll be redirected to the Test Cases page, where the generated test cases appear under the **AI Generated Feature** Scenario.
 
+
+[[info | **NOTE**:]]
+| To generate Salesforce test cases from requirements, click **Settings** in the prompt text box. By default, the **Prefer API steps** is selected. To generate UI-based test steps, clear the **Prefer API steps** option.
+| 
+| ![API Steps Checkbox](https://s3.amazonaws.com/static-docs.testsigma.com/new_images/projects/applications/SF_Generate_Steps_Jira.png)
+
+
 ---
