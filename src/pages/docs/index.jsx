@@ -3,7 +3,6 @@ import React, { useEffect } from 'react';
 import { graphql, Link } from 'gatsby';
 import Layout from '../../components/layout';
 import SEO from '../../components/seo';
-import SearchInputBox from '../../components/SearchInputBox';
 import MobileView from '../../components/MobileView';
 import LeftNav from '../../components/LeftNav';
 
