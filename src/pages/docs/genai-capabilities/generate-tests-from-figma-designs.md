@@ -200,7 +200,7 @@ If you want to remove all the selections that you have made, click **Clear Selec
 
 ## **Interactive Demo**
 
-Try this interactive demo to learn generate test cases from Figma designs!
+Try this interactive demo to learn how to generate test cases from Figma designs!
 
 <div>
   <script async src="https://js.storylane.io/js/v2/storylane.js"></script>
