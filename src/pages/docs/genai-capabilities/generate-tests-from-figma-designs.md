@@ -1,7 +1,7 @@
 ---
 title: "Generate Tests from Figma Designs"
 page_title: "Generate Tests from Figma Designs"
-metadesc: "In Testsigma, you can create test cases from Figma designs by integrating Figma | Learn how to create test cases from Figma Designs using GenAI capabilities"
+metadesc: "In Testsigma, you can generate test cases from Figma designs by integrating Figma | Learn how to create test cases from Figma Designs using GenAI capabilities"
 noindex: false
 order: 31.6
 page_id: "Generate Tests from Figma Designs"
@@ -13,6 +13,9 @@ contextual_links:
   name: "Prerequisites"
   url: "#prerequisites"
 - type: link
+  name: "Prerequisites for Figma Integration"
+  url: "#prerequisites-for-figma-integration"
+- type: link
   name: "Integrating Figma with Testsigma"
   url: "#integrating-figma-with-testsigma"
 - type: link
@@ -21,6 +24,9 @@ contextual_links:
 - type: link
   name: "Steps to Generate Test Cases from Figma Designs"
   url: "#steps-to-generate-test-cases-from-figma-designs"
+- type: link
+  name: "Interactive Demo"
+  url: "#interactive-demo"
 ---
 
 ---
@@ -32,14 +38,62 @@ With Testsigma, you can effortlessly generate test cases directly from Figma des
 
 > ## **Prerequisites**
 >
-> Before you begin, enable AI features from Settings > Preferences > Generative AI features and ensure you are familiar with the concepts of Test Cases. 
-> 
-> To integrate Figma with Testsigma, the user must provide the following prerequisites:
->
-> - **Team ID:** The unique identifier for the Figma team, which can be found in the team URL.
-> - **API Key:** An API Token from Figma, used for authentication and accessing Figma resources.
-> 
-> Example: In the [Example Link](https://www.figma.com/files/team/1401640279360365014/all-projects) the **Team ID** is **1401640279360365014**.
+> Before you begin, enable AI features from **Settings > Preferences > Generative AI features** and ensure you are familiar with the concepts of [Test Cases](https://testsigma.com/docs/test-cases/manage/add-edit-delete/#create-test-case). 
+
+
+---
+
+
+## **Prerequisites for Figma Integration**
+
+### **Getting Team ID in Figma**
+
+1. Open **Figma** in a web browser.
+   ![Figma in Browser](https://s3.amazonaws.com/static-docs.testsigma.com/new_images/projects/applications/Figma_in_Browser.png)
+
+2. In the left navigation bar, select the team from the dropdown menu.
+   ![Teams Dropdown](https://s3.amazonaws.com/static-docs.testsigma.com/new_images/projects/applications/Figma_Team_DD.png)
+
+3. In the address bar, locate the URL in the following format:
+   
+      > https://www.figma.com/files/team/{TEAM_ID}/your-team-name
+      >
+      > The **{TEAM_ID}** in the URL is your Figma Team ID.
+   
+   ![ID in URL](https://s3.amazonaws.com/static-docs.testsigma.com/new_images/projects/applications/Figma_TeamID_URL.png)
+
+[[info | **NOTE**:]]
+| If you don’t have access to the team page, contact your **Admin** to get the **Team ID**.
+
+
+### **Generating a Personal Access Token in Figma**
+
+1. Open Figma in a web browser.
+   ![Figma in Browser](https://s3.amazonaws.com/static-docs.testsigma.com/new_images/projects/applications/Figma_in_Browser.png)
+
+2. In the top-right corner, click your profile icon, and select **Settings**.
+   ![Figma Profile Settings](https://s3.amazonaws.com/static-docs.testsigma.com/new_images/projects/applications/Figma_Profile_Settings.png)
+
+3. Navigate to **Security > Personal access tokens** section.
+   ![PAT](https://s3.amazonaws.com/static-docs.testsigma.com/new_images/projects/applications/Figma_PATs.png)
+
+4. Click **Generate new token**.
+   ![New PAT](https://s3.amazonaws.com/static-docs.testsigma.com/new_images/projects/applications/Figma_PATs_New.png)
+
+5. In the **Generate new token** dialog, enter a **Token name**.
+   ![Token Name](https://s3.amazonaws.com/static-docs.testsigma.com/new_images/projects/applications/Figma_Token_Name.png)
+
+6. From the **Expiration** dropdown, select an expiration period.
+   ![Select Expiry](https://s3.amazonaws.com/static-docs.testsigma.com/new_images/projects/applications/Figma_PAT_Expiry.png)
+
+7. Click **Generate token**.
+   ![Generate Token](https://s3.amazonaws.com/static-docs.testsigma.com/new_images/projects/applications/Figma_PAT_Generate.png)
+
+8. Click **Copy this token** to copy the key.
+   ![Copy Token](https://s3.amazonaws.com/static-docs.testsigma.com/new_images/projects/applications/Copy_Figma_PAT.png)
+
+[[info | **NOTE**:]]
+| Store the token securely. You won’t be able to view it again.
 
 
 ---
@@ -97,6 +151,7 @@ Frames are the primary design components in Figma. Each UI/UX design screen is t
 A frame inside a page or a section represents a screen of web or mobile app.
 ![Frames](https://s3.amazonaws.com/static-docs.testsigma.com/new_images/projects/applications/Figma__Frames.png)
 
+
 ### **Try this interactive demo to learn how Figma components work!**
 
 <div>
@@ -105,6 +160,7 @@ A frame inside a page or a section represents a screen of web or mobile app.
     <iframe loading="lazy" class="sl-demo" src="https://app.storylane.io/demo/4u8naqbpmpxu?embed=inline" name="sl-embed" allow="fullscreen" allowfullscreen style="position:absolute;top:0;left:0;width:100%!important;height:100%!important;border:1px solid rgba(63,95,172,0.35);box-shadow: 0px 0px 18px rgba(26, 19, 72, 0.15);border-radius:10px;box-sizing:border-box;"></iframe>
   </div>
 </div>
+
 
 ---
 
@@ -116,7 +172,7 @@ A frame inside a page or a section represents a screen of web or mobile app.
 
 3. In the **Generate Test Cases** screen, select **Figma Designs**.
 
-4. On the **Add Figma Designs** overlay, the Copilot automatically selects a project. You can expand the **Project** field and select the required project if you need to. 
+4. In the **Add Figma Designs** overlay, the Copilot automatically selects a project. You can expand the **Project** field and select the required project. 
 
 5. Select the required file from the **Figma File** drop-down menu. 
 
@@ -140,8 +196,18 @@ If you want to remove all the selections that you have made, click **Clear Selec
 
 11.  Select the test cases you want to add to the test case list and select **Save Test Cases**.
 
+---
+
+## **Interactive Demo**
+
+Try this interactive demo to learn generate test cases from Figma designs!
+
+<div>
+  <script async src="https://js.storylane.io/js/v2/storylane.js"></script>
+  <div class="sl-embed" style="position:relative;padding-bottom:calc(57.41% + 25px);width:100%;height:0;transform:scale(1)">
+    <iframe loading="lazy" class="sl-demo" src="https://app.storylane.io/demo/5vfpvycfhuwl?embed=inline" name="sl-embed" allow="fullscreen" allowfullscreen style="position:absolute;top:0;left:0;width:100%!important;height:100%!important;border:1px solid rgba(63,95,172,0.35);box-shadow: 0px 0px 18px rgba(26, 19, 72, 0.15);border-radius:10px;box-sizing:border-box;"></iframe>
+  </div>
+</div>
 
 
-
-
-
+---
