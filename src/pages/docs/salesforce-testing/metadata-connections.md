@@ -16,6 +16,9 @@ contextual_links:
   name: "Steps to Create Metadata Connection"
   url: "#steps-to-create-metadata-connection"
 - type: link
+  name: "Steps to Add Multiple Metadata Connections"
+  url: "#steps-to-add-multiple-metadata-connections"
+- type: link
   name: "Steps to Edit Metadata Connection"
   url: "#steps-to-edit-metadata-connection"
 - type: link
@@ -86,6 +89,64 @@ There are two ways to Authenticate:
 
 4. Once Metadata sync is successful, you can create test cases by clicking **Create Test Case**.
    ![Create Tests](https://s3.amazonaws.com/static-docs.testsigma.com/new_images/projects/applications/sfmdctc.png)
+
+
+---
+
+## **Steps to Add Multiple Metadata Connections**
+
+1. Navigate to **Settings > SF Metadata**.
+   ![SF Metadata](https://s3.amazonaws.com/static-docs.testsigma.com/new_images/projects/applications/Settings_SF_Metadata.png)
+
+2. Select a **Project** and **Application** from the dropdown menu where you want to add metadata connections.
+   ![Select Project & App](https://s3.amazonaws.com/static-docs.testsigma.com/new_images/projects/applications/Multiple_MetaData_SF_Connections.png)
+
+3. Click **Add New**. This will open the **Metadata Connection** dialog. 
+   ![Add New](https://s3.amazonaws.com/static-docs.testsigma.com/new_images/projects/applications/Add_New_SF_Metadata.png)
+
+4. Follow the steps in [Creating Salesforce Metadata Connections](https://testsigma.com/docs/salesforce-testing/metadata-connections/#steps-to-create-metadata-connection) to add the **Metadata Connections**. 
+   ![Metadata Connection](https://s3.amazonaws.com/static-docs.testsigma.com/new_images/projects/applications/Add_Multiple_SF_Metadata.png)
+
+[[info | **NOTE**:]]
+| You can also copy existing metadata from multiple metadata connections added in older versions while creating a new version by following these steps.
+| 
+| <br>
+|
+| 1. Go to **Project > Project Settings > Versions**, and click **New Version**.
+|    ![New Version](https://s3.amazonaws.com/static-docs.testsigma.com/new_images/projects/applications/New_Version_SF_Metadata.png)
+| 
+| 2. Enter a **Name** and optional **Description**.
+|    ![Name & Description](https://s3.amazonaws.com/static-docs.testsigma.com/new_images/projects/applications/SF_Metadata_New_Version.png)
+| 
+| 3. Go to **Projects**, and then navigate to the newly created **Version**. The system redirects you to the **Salesforce Connections** page.
+|    ![Salesforce Connections](https://s3.amazonaws.com/static-docs.testsigma.com/new_images/projects/applications/New_OR_Existing_SF_Metadata.png)
+|
+|    - Click **Select Existing Metadata Connection** to copy metadata from a previous version.
+|    - Click **Create Metadata Connection** to create a new metadata connection. 
+
+---
+
+## **Executing Test Case against a Salesforce Metadata Connection**
+
+1. Create a Test Case and click **Run** on the **Action Panel**. 
+   ![Run Test Case](https://s3.amazonaws.com/static-docs.testsigma.com/new_images/projects/applications/Run_with_Multiple_Metadata.png)
+
+[[info | **NOTE**:]]
+| Before you configure **Ad-Hoc Run**, you need to add user connections as **Environments** in Testsigma. For information on creating Environments, see [Environments](https://testsigma.com/docs/test-data/types/environment/).
+| ![User Connection Envs](https://s3.amazonaws.com/static-docs.testsigma.com/new_images/projects/applications/SF_User_Connection_Envs.png)
+  
+
+2. On the **Ad-Hoc Run** overlay, 
+   
+   - Select an Environment with which the user connection is linked in the test steps. 
+   
+   - Select a  Salesforce Metadata Connection against which you want to execute the test case. 
+   
+   ![Ad-Hoc Run](https://s3.amazonaws.com/static-docs.testsigma.com/new_images/projects/applications/Select_Env_SF_Environment.png)
+
+[[info | **NOTE**:]]
+| You can also configure the same for **Test Plans** in **Test Plan Settings > Additional Settings** by selecting **Environment** and a **Salesforce Metadata Connection**.
+| ![SF Metadata](https://s3.amazonaws.com/static-docs.testsigma.com/new_images/projects/applications/Select_Env_SF_Env_in_Test_Plans.png)
 
 ---
 
