@@ -57,8 +57,9 @@ qTest is a manual test management tool. With qTest integration in Testsigma, you
    ![Save qTest Details](https://s3.amazonaws.com/static-docs.testsigma.com/new_images/projects/applications/qTest_Details_Save.png)
 
 [[info | **NOTE**:]]
-| You must obtain the **Bearer Token** from the **Download qTest Resources** page. *For more information, see [qTest Documentation](https://documentation.tricentis.com/qtest/od/en/content/overview/download_qtest_resources_page.htm).*
+| 1.  You must obtain the **Bearer Token** from the **Download qTest Resources** page. *For more information, see [qTest Documentation](https://documentation.tricentis.com/qtest/od/en/content/overview/download_qtest_resources_page.htm).*
 | ![Bearer Token](https://s3.amazonaws.com/static-docs.testsigma.com/new_images/projects/applications/qTest_BearerToken.png)
+| 2. Please copy the token except **Bearer**. 
 
 
 ---
