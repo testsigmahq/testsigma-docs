@@ -1,6 +1,6 @@
 ---
 title: "Apple Pay Automation with Testsigma"
-metadesc: "Apple Pay Automation is complex due to Apple's strict security standards and testing challenges."
+metadesc: "Apple Pay Automation is complex due to Apple's strict security standards and testing challenges | Learn about Apple Pay Automation with Testsigma application"
 noindex: false
 order: 24.21
 page_id: "Apple Pay Automation with Testsigma"
@@ -25,7 +25,7 @@ contextual_links:
 
 ---
 
-Apple Pay Automation is a complex process that requires careful implementation due to Apple's rigorous security standards and testing challenges. This guide provides a comprehensive walkthrough of the automation process in Testsigma, key considerations, and implementation steps.
+Apple Pay Automation is a complex process that requires careful implementation due to Apple's rigorous security standards and testing challenges. This article discusses the automation process for Apple Pay, including key considerations and implementation steps.
 
 ---
 
@@ -57,7 +57,7 @@ Implementation with TestSigma is simple and straightforward.
 1. Download the addon: Testsigma has an built-in addon to automate this flow, you can download the addon and use the addon inside your test step. The addon screenshot is added below 
    ![Autopay](https://s3.amazonaws.com/static-docs.testsigma.com/new_images/projects/applications/Auto-pay.png)
 
-2. Use Desired capability: Before you execute the test case, you can use the desired capability listed below and choose the compatible devices shared in the previous list. 
+2. Add Desired capability: Before you execute the test case, you can add the desired capability listed below and choose the compatible devices shared in the previous list. 
 
    |Key|Data Type|Value|
    |    :----:   |    :----:   |    :----:   |
