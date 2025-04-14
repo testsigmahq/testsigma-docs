@@ -126,7 +126,6 @@ Once you have applied the filters, you can:
 
 [[info | **NOTE**:]]
 | You can also view reports at test suite and test machine level by clicking on **Test Suite** and **Test Machine**. 
-| ![Results](https://s3.amazonaws.com/static-docs.testsigma.com/new_images/projects/applications/Dropdown_Run_Results.gif)
 
 *For more information on viewing and downloading results of a test plan on test case, test suite or test machine levels, see [Test Plan Run Results](https://testsigma.com/docs/reports/runs/drill-down-reports/).*
 
