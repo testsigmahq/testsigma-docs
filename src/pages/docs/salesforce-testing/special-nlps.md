@@ -3,7 +3,7 @@ title: "Intro: Testsigma Special NLPs"
 page_title: "Special NLPs"
 metadesc: "With special NLPs, you can build & enhance Salesforce tests with ease, reducing test authoring time by 50%. This article discusses the capabilities of these special NLPs"
 noindex: false
-order: 28.8
+order: 28.9
 page_id: "Special NLPs"
 warning: false
 contextual_links:
@@ -72,6 +72,9 @@ contextual_links:
 - type: link
   name: "NLP 18:"
   url: "#nlp-18"
+- type: link
+  name: "NLP 19:"
+  url: "#nlp-19"
 ---
 
 ---
@@ -110,6 +113,7 @@ With Testsigma's special NLPs, you can scale and enhance Salesforce Testing. The
 | [Clear and enter test data in the element field](https://testsigma.com/docs/salesforce-testing/special-nlps/#nlp-10) | This NLP will clear any existing data in the element field and then enter the test data into that field. <br><br> **User Inputs in NLP:** <br> 1. Test Data <br> 2. Element |
 | [Delete record in Salesforce Object where record id is test data using Salesforce Connection connection](https://testsigma.com/docs/salesforce-testing/special-nlps/#nlp-3) | This NLP deletes a record using RECORD\_ID for a specific Salesforce object using the delete record API. <br><br> **User Inputs in NLP:** <br> 1. RECORD_ID <br> 2. User Connection<br> 3. Salesforce Object |
 |[Get record details from Salesforce Object Form for RECORD\_ID test data using Salesforce Connection connection](https://testsigma.com/docs/salesforce-testing/special-nlps/#nlp-18)| This NLP will fetch record details of the Salesforce Object Form with the selected object fields. It also allows you to store Variables and add Verifications directly from the Response Body. <br><br> **User Inputs in NLP:** <br> 1. Salesforce Object Form <br> 2. RECORD_ID <br> 3. Salesforce Connection |
+| [Store the recordID from details page into variable](https://testsigma.com/docs/salesforce-testing/special-nlps/#nlp-19)| This NLP extracts the current record ID and stores it in your specified runtime variable name. <br><br> **User Inputs in NLP:** <br> 1. RecordID <br> 2. Variable Name |
 
 ---
 
@@ -367,5 +371,12 @@ See the GIF below demonstrating how to use this NLP.
 See the GIF below demonstrating how to use this NLP.
 
 ![Get Record Details](https://s3.amazonaws.com/static-docs.testsigma.com/new_images/projects/applications/SF_Read_API.gif)
+
+## **NLP 19:**
+
+Use this NLP to extract the current record ID and stores it in your specified runtime variable name. 
+
+See the GIF below demonstrating how to use this NLP.
+
 
 ---

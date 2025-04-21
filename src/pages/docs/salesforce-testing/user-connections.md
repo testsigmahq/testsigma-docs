@@ -3,7 +3,7 @@ title: "Adding User Connections"
 page_title: "User Connections"
 metadesc: "Add user connections for a Salesforce project in Testsigma. These connections are associated with Salesforce user profiles like Salesforce admin/sales rep"
 noindex: false
-order: 28.5
+order: 28.6
 page_id: "User Connections"
 warning: false
 contextual_links:
