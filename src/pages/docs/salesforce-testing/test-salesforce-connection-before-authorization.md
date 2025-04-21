@@ -12,9 +12,6 @@ contextual_links:
 - type: link
   name: "Steps to Test the Salesforce Connection"
   url: "#steps-to-test-the-salesforce-connection"
-- type: link
-  name: "Troubleshoot"
-  url: "#troubleshoot"
 ---
 
 ---
