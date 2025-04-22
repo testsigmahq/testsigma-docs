@@ -14,7 +14,7 @@ contextual_links:
   url: "#prerequisites"
 - type: link
   name: "Interactive Demo"
-  url: "#interactive demo"
+  url: "#interactive-demo"
 - type: link
   name: "Managing Access"
   url: "#managing-access"
