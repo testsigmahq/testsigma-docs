@@ -245,22 +245,22 @@
     "/docs/elements/dynamic-elements/": "Dynamic Elements with Test Data"
   },
   "manage-test-machines": {
-    "/docs/test-management/test-plans/manage-test-machines": "Add, Edit, Delete Test Machines"
+    "/docs/test-plans/manage-test-machines": "Add, Edit, Delete Test Machines"
   },
   "manage-test-suites": {
-    "/docs/test-management/test-plans/manage-test-suites": "Add, Edit, Delete Test Suites"
+    "/docs/test-plans/manage-test-suites": "Add, Edit, Delete Test Suites"
   },
   "schedule-plans": {
-    "/docs/test-management/test-plans/schedule-plans": "Schedule Test Plans"
+    "/docs/test-plans/schedule-plans": "Schedule Test Plans"
   },
   "run-tests-in-parallel": {
-    "/docs/test-management/test-plans/run-tests-in-parallel": "Run Test Suites In Parallel"
+    "/docs/test-plans/run-tests-in-parallel": "Run Test Suites In Parallel"
   },
   "cross-browser-testing": {
-    "/docs/test-management/test-plans/cross-browser-testing": "Cross Browser Testing "
+    "/docs/test-plans/cross-browser-testing": "Cross Browser Testing "
   },
   "headless-testing": {
-    "/docs/test-management/test-plans/headless-testing": "Headless Testing "
+    "/docs/test-plans/headless-testing": "Headless Testing "
   },
   "runs": {
     "/docs/runs/" : "Test Runs / Executions",
@@ -583,10 +583,10 @@
     "/docs/elements/ios-apps/overview/": "iOS Apps"
   },
   "after-test":{
-    "/docs/test-management/test-plans/after-test/": "AfterTest Case"
+    "/docs/test-plans/after-test/": "AfterTest Case"
   },
   "partial-test-plan-run-via-api":{
-    "/docs/test-management/test-plans/partial-test-plan-run-via-api/": "Execute Partial Test Plans via API"
+    "/docs/test-plans/partial-test-plan-run-via-api/": "Execute Partial Test Plans via API"
   },
   "basic-authentication":{
     "/docs/FAQs/web-apps/basic-authentication/": "Basic Authentication for Web"
