@@ -46,11 +46,11 @@ Before you begin, ensure the Salesforce app is connected to Testsigma with a val
 For example, 
 
 ```sql
-SELECT Id, Name, Phone, Industry, BillingCity, BillingState
+SELECT Type, RecordTypeId, Phone, Industry
 FROM Account
-WHERE Industry = 'Technology' AND BillingState = 'CA'
-ORDER BY Name
-LIMIT 50
+WHERE Industry = 'Energy'
+ORDER BY RecordTypeId ASC NULLS LAST
+LIMIT 100
 ```
 
 7. Click **Run Query** to execute the SOQL query.
