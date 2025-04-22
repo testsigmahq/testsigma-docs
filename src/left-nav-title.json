@@ -701,5 +701,6 @@
   "testrail": {"/docs/integrations/test-management/testrail/": "TestRail"},
   "label-management": {"/docs/test-cases/manage/label-management/": "Label Management" },
   "mobile-accessibility-testing": {"/docs/accessibility-testing/mobile-accessibility-testing/": "Accessibility Testing for Android & iOS"},
-  "live-editor": {"/docs/live-editor/": "Testsigma Lite (Live Editor)" }
+  "live-editor": {"/docs/live-editor/": "Testsigma Lite (Live Editor)" },
+  "manage-access": {"/docs/configuration/manage-access/": "Manage Access"}
 }
