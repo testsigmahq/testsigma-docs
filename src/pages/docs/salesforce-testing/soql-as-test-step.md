@@ -32,29 +32,34 @@ Before you begin, ensure the Salesforce app is connected to Testsigma with a val
 ## **Steps to Create SOQL as a Test Step**
 
 1. From the left navigation bar, navigate to **Create Tests > Test Cases**. 
+   ![soql as test step 1](https://s3.amazonaws.com/static-docs.testsigma.com/new_images/projects/salesforce-testing/soql_test_step_1.png)
 
 2. In the **Test Case Details** page, click on the test step options list and select **SOQL**. 
+   ![soql as test step 2](https://s3.amazonaws.com/static-docs.testsigma.com/new_images/projects/salesforce-testing/SOQL_as_Test_Step_2.png)
 
 3. Select a Salesforce connection from the **Salesforce Connection** dropdown.
+   ![soql as test step 3](https://s3.amazonaws.com/static-docs.testsigma.com/new_images/projects/salesforce-testing/SOQL_as_Test_Step_3.png)
 
-4. Enter your SOQL query in the editor. 
+4. Enter your SOQL query in the editor and click **Run Query** to fetch the results. 
 
-For example, 
+   For example, 
 
-```sql
-SELECT Id, Name, Phone, Industry, BillingCity, BillingState
-FROM Account
-WHERE Industry = 'Technology' AND BillingState = 'CA'
-ORDER BY Name
-LIMIT 50
-```
+   ```sql
+   SELECT Id, Name, Phone, Industry, BillingCity, BillingState
+   FROM Account
+   WHERE Industry = 'Technology' AND BillingState = 'CA'
+   ORDER BY Name
+   LIMIT 50
+   ```
+   ![soql test step 4](https://s3.amazonaws.com/static-docs.testsigma.com/new_images/projects/salesforce-testing/soql_test_step_4.png)
 
-5. Click **Run Query** to fetch the results.
+5. View the response in **Table**, **Outline**, or **JSON** format by switching between the tabs.
+   ![soql as test step 5](https://s3.amazonaws.com/static-docs.testsigma.com/new_images/projects/salesforce-testing/SOQL_as_Test_Step_5.png)
 
-6. View the response in **Table**, **Outline**, or **JSON** format by switching between the tabs.
+6. In the **Outline** tab, store values as variables or add verifications directly from the response.
+   ![soql as test step 6](https://s3.amazonaws.com/static-docs.testsigma.com/new_images/projects/salesforce-testing/SOQL_as_Test_Step_6.png)
 
-7. In the **Outline** tab, store values as variables or add verifications directly from the response.
-
-8. Click **Create** to save and add the SOQL step to your test case.
+7. Click **Create** to save and add the SOQL step to your test case.
+   ![soql as test step 7](https://s3.amazonaws.com/static-docs.testsigma.com/new_images/projects/salesforce-testing/soql_test_step_7.1.png)
 
 ---

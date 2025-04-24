@@ -85,8 +85,10 @@ Admin in the Testsigma account can grant temporary access to the Testsigma Suppo
 ## **View Access Logs**
 
 - View access-related logs by clicking **Activity** in the **Utility Panel**. The system stores logs for 3 years.
+  ![Access Logs](https://s3.amazonaws.com/static-docs.testsigma.com/new_images/projects/manage-access/Manage_Access_Button.png)
 
 - You can also view logs in the relevant test cases, elements, test suites, and test plans for actions performed by **Testsigma Guest**.
+  ![Action Logs](https://s3.amazonaws.com/static-docs.testsigma.com/new_images/projects/applications/Test_New.png)
 
 
 ---
