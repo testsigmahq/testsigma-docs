@@ -374,9 +374,13 @@ See the GIF below demonstrating how to use this NLP.
 
 ## **NLP 19:**
 
+"Store the recordID from details page into variable **test data**
+
 Use this NLP to extract the current record ID and stores it in your specified runtime variable name. 
 
 See the GIF below demonstrating how to use this NLP.
+
+![NLP use case](https://s3.amazonaws.com/static-docs.testsigma.com/new_images/projects/salesforce-testing/NLP_Use_Case.gif)
 
 
 ---
