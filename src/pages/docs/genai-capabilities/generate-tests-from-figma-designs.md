@@ -3,7 +3,7 @@ title: "Generate Tests from Figma Designs"
 page_title: "Generate Tests from Figma Designs"
 metadesc: "In Testsigma, you can generate test cases from Figma designs by integrating Figma | Learn how to create test cases from Figma Designs using GenAI capabilities"
 noindex: false
-order: 31.6
+order: 31.7
 page_id: "Generate Tests from Figma Designs"
 warning: false
 contextual_links:

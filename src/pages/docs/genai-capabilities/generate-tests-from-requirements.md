@@ -3,7 +3,7 @@ title: "Generate Tests from Requirements (Jira)"
 page_title: "Generate Tests from Requirements (Jira)"
 metadesc: "In Testsigma, you can create test cases from Jira stories & epics by integrating Jira | Learn how to create test cases from Jira using GenAI capabilities"
 noindex: false
-order: 31.4
+order: 31.5
 page_id: "Generate Tests from Requirements (Jira)"
 warning: false
 contextual_links:
