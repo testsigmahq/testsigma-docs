@@ -49,7 +49,7 @@ const Header = () => {
             </div>
             <a
               className='btn btn-ghost btn-sm rounded-btn border-b-2 border-white hover:border-primary_teal_green'
-              href='/docs/tms'
+              href='/docs/test-management/'
             >
               Test Management
             </a>
