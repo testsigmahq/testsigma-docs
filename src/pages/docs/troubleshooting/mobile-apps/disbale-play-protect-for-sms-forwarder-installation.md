@@ -46,7 +46,6 @@ When you try to install the SMS Forwarder application on your Android device, Go
    ![Disable Play 2](https://s3.amazonaws.com/static-docs.testsigma.com/new_images/projects/troubleshooting/Disable_2.1.png)
 
 7. After installing the SMS Forwarder app, go to the **Play Protect settings** and turn the **Scan apps with Play Protect** toggle back on.
-
 ---
 
 
