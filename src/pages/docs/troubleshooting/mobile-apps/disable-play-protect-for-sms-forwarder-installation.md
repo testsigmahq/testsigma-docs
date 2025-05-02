@@ -4,14 +4,11 @@ page_title: "Disable Play Protect for SMS Forwarder Installation"
 metadesc: "Learn how to disable Google Play Protect on your Android device to install the SMS Forwarder app without being blocked, flagged, or getting security warnings."
 noindex: false
 order: 23.696
-page_id: Disable Play Protect for SMS Forwarder Installation
+page_id: "disable-play-protect-for-sms-forwarder-installation"
 warning: false
 contextual_links:
 - type: section
   name: "Contents"
-- type: link
-  name: "Prerequisites"
-  url: "#prerequisites"
 - type: link
   name: "Steps to Disable Play Protect for SMS Forwarder Installation "
   url: "#steps-to-disable-play-protect-for-sms-forwarder-installation"
@@ -20,12 +17,6 @@ contextual_links:
 ---
 
 When you try to install the SMS Forwarder application on your Android device, Google Play Protect may block the installation. This article discusses how to temporarily disable Play Protect to allow the installation of the SMS Forwarder application. 
-
----
-
-> ## **Prerequisites**
->
-> Before you begin, ensure that you have downloaded the SMS Forwarder application. 
 
 ---
 
@@ -46,10 +37,5 @@ When you try to install the SMS Forwarder application on your Android device, Go
    <img src="https://s3.amazonaws.com/static-docs.testsigma.com/new_images/projects/troubleshooting/Disable_2.1.png" alt="Turnoff Play Protect" style="width: 400px;" /> 
 
 7. After installing the SMS Forwarder app, go to the **Play Protect settings** and turn the **Scan apps with Play Protect** toggle back on.
-   
+
 ---
-
-
-
-
-
