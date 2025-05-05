@@ -3,7 +3,7 @@ title: "Generate Test Scenarios from User Actions"
 page_title: "Generate Tests from User Actions"
 metadesc: "With Testsigma, you can generate automated test cases based on user actions using the test recorder to by capturing the UI interactions."
 noindex: false
-order: 31.3
+order: 31.4
 page_id: "Generate Tests from User Actions"
 warning: false
 contextual_links:
