@@ -113,7 +113,7 @@ With Testsigma's special NLPs, you can scale and enhance Salesforce Testing. The
 | [Clear and enter test data in the element field](https://testsigma.com/docs/salesforce-testing/special-nlps/#nlp-10) | This NLP will clear any existing data in the element field and then enter the test data into that field. <br><br> **User Inputs in NLP:** <br> 1. Test Data <br> 2. Element |
 | [Delete record in Salesforce Object where record id is test data using Salesforce Connection connection](https://testsigma.com/docs/salesforce-testing/special-nlps/#nlp-3) | This NLP deletes a record using RECORD\_ID for a specific Salesforce object using the delete record API. <br><br> **User Inputs in NLP:** <br> 1. RECORD_ID <br> 2. User Connection<br> 3. Salesforce Object |
 |[Get record details from Salesforce Object Form for RECORD\_ID test data using Salesforce Connection connection](https://testsigma.com/docs/salesforce-testing/special-nlps/#nlp-18)| This NLP will fetch record details of the Salesforce Object Form with the selected object fields. It also allows you to store Variables and add Verifications directly from the Response Body. <br><br> **User Inputs in NLP:** <br> 1. Salesforce Object Form <br> 2. RECORD_ID <br> 3. Salesforce Connection |
-| [Store the recordID from details page into variable](https://testsigma.com/docs/salesforce-testing/special-nlps/#nlp-19)| This NLP extracts the current record ID and stores it in your specified runtime variable name. <br><br> **User Inputs in NLP:** <br> 1. RecordID <br> 2. Variable Name |
+| [Store the recordID from details page into variable](https://testsigma.com/docs/salesforce-testing/special-nlps/#nlp-19)| This NLP automatically captures the record ID from the currently displayed record details page and saves it to a runtime variable with your specified variable name. The extraction happens during execution, allowing you to reference this record ID in subsequent automation steps. <br><br> **User Inputs in NLP:** <br> 1. RecordID <br> 2. Variable Name |
 
 ---
 
@@ -376,10 +376,10 @@ See the GIF below demonstrating how to use this NLP.
 
 "Store the recordID from details page into variable **test data**"
 
-Use this NLP to extract the current record ID and stores it in your specified runtime variable name. 
+Use this NLP to automatically capture the record ID from the currently displayed record details page and save it to a runtime variable with your specified variable name. 
 
 See the GIF below demonstrating how to use this NLP.
 
-![NLP use case](https://s3.amazonaws.com/static-docs.testsigma.com/new_images/projects/salesforce-testing/NLP_Use_Case.gif)
+![NLP use case](https://s3.amazonaws.com/static-docs.testsigma.com/new_images/projects/salesforce_testing/NLP_Salesforce_GIF.gif)
 
 ---

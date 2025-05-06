@@ -37,7 +37,7 @@ Before you begin, ensure the Salesforce app is connected to Testsigma with a val
 2. In the **Test Case Details** page, click on the test step options list and select **SOQL**. 
    ![soql as test step 2](https://s3.amazonaws.com/static-docs.testsigma.com/new_images/projects/salesforce-testing/SOQL_as_Test_Step_2.png)
 
-3. Select a Salesforce connection from the **Salesforce Connection** dropdown.
+3. Select a Salesforce connection from the **Salesforce Connection** dropdown or you can parameterize your connection. 
    ![soql as test step 3](https://s3.amazonaws.com/static-docs.testsigma.com/new_images/projects/salesforce-testing/SOQL_as_Test_Step_3.png)
 
 4. Enter your SOQL query in the editor and click **Run Query** to fetch the results. 
