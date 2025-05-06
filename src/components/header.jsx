@@ -16,7 +16,7 @@ const Header = () => {
           <img src={tsLogo} alt='Testsigma' className='ml-10 my-6' />
         </a>
         <div className='primary-nav flex-auto flex items-center'>
-          <div className='search-block relative flex items-center justify-between w-2/5 pl-9 pr-9 gap-4'>
+          <div className='search-block relative flex items-center justify-between w-2/5 pr-9 gap-4'>
             <div className='search-block-child'>
               <SearchInputBox></SearchInputBox>
             </div>
@@ -37,49 +37,42 @@ const Header = () => {
               BOOK A DEMO
             </a>
           </div>
-          <nav className='flex w-4/5'>
-            {isHomepage ? (
-              <span className='border-b-2 border-primary_teal_green btn btn-ghost btn-sm pr-2 rounded-btn text-primary_teal_green'>
-                Docs
-              </span>
-            ) : (
-              <a
-                className='border-b-2 border-primary_teal_green btn btn-ghost btn-sm pr-2 rounded-btn text-primary_teal_green'
-                href='/docs/'
-              >
-                Docs
-              </a>
-            )}
+          <nav className='flex w-11/12 gap-7'>
             <a
-              className='btn btn-ghost btn-sm rounded-btn ml-10'
-              href={'/tutorials/'}
+              className='btn btn-ghost btn-sm rounded-btn border-b-2 border-white hover:border-primary_teal_green'
+              href='/docs/getting-started/introduction-cloud/'
             >
-              Tutorials
+              Test Automation
             </a>
             <a
-              className='btn btn-ghost btn-sm rounded-btn ml-10'
-              target={'_blank'}
-              href={'https://github.com/Testsigmahq/testsigma/'}
+              className='btn btn-ghost btn-sm rounded-btn border-b-2 border-white hover:border-primary_teal_green'
+              href='/docs/test-management/atto/overview/'
             >
-              GitHub
+              Atto
             </a>
             <a
-              className='btn btn-ghost btn-sm rounded-btn ml-10'
-              href={'https://discord.com/invite/5caWS7R6QX'}
+              className='btn btn-ghost btn-sm rounded-btn border-b-2 border-white hover:border-primary_teal_green'
+              href='/docs/test-management/'
             >
-              Discord
+              Test Management
             </a>
             <a
-              className='btn btn-ghost btn-sm rounded-btn ml-10'
-              href={'https://testsigma.com/pricing'}
+              className='btn btn-ghost btn-sm rounded-btn border-b-2 border-white hover:border-primary_teal_green'
+              href='/docs/salesforce-testing/introduction/'
             >
-              Enterprise
+              Salesforce
             </a>
             <a
-              className='btn btn-ghost btn-sm rounded-btn ml-10'
-              href={'https://testsigma.com/'}
+              className='btn btn-ghost btn-sm rounded-btn border-b-2 border-white hover:border-primary_teal_green'
+              href='/docs/desktop-testing/introduction/'
             >
-              Testsigma Cloud
+              Desktop
+            </a>
+            <a
+              className='btn btn-ghost btn-sm rounded-btn border-b-2 border-white hover:border-primary_teal_green'
+              href='/docs/genai-capabilities/copilot/'
+            >
+              Testsigma Copilot
             </a>
           </nav>
         </div>
