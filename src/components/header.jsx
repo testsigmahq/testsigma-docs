@@ -44,9 +44,12 @@ const Header = () => {
             >
               Test Automation
             </a>
-            <div className='btn btn-ghost btn-sm rounded-btn font-semibold border-b-2 border-white hover:border-primary_teal_green'>
-              ATOM
-            </div>
+            <a
+              className='btn btn-ghost btn-sm rounded-btn border-b-2 border-white hover:border-primary_teal_green'
+              href='/docs/test-management/atto/overview/'
+            >
+              Atto
+            </a>
             <a
               className='btn btn-ghost btn-sm rounded-btn border-b-2 border-white hover:border-primary_teal_green'
               href='/docs/test-management/'
