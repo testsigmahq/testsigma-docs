@@ -38,11 +38,7 @@ function SEO({
     `
   );
 
-  let isStaging = false;
-
-  if (typeof window !== 'undefined') {
-    isStaging = window.location.hostname.includes('website.testsigma.com');
-  }
+  let isStaging = process.env.HOST_ENV === 'staging';
 
   const isIndexed =
     !noindex && !isStaging ? 'index,follow' : 'noindex,nofollow';
