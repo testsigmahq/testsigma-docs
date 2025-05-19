@@ -38,7 +38,10 @@ function SEO({
     `
   );
 
-  const isIndexed = !noindex ? 'index,follow' : 'noindex,nofollow';
+  let isStaging = process.env.HOST_ENV === 'staging';
+
+  const isIndexed =
+    !noindex && !isStaging ? 'index,follow' : 'noindex,nofollow';
 
   let loadGTM = false;
 
@@ -73,7 +76,6 @@ function SEO({
         htmlAttributes={{
           lang,
         }}
-        title={title}
         titleTemplate={`%s | ${site.siteMetadata.title}`}
         meta={[
           {
@@ -146,6 +148,7 @@ function SEO({
           },
         ].concat(meta)}
       >
+        <title>{title}</title>
         {/* fav icon */}
         <link rel='icon' href={favicon} />
         <link
