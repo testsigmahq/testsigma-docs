@@ -13,7 +13,7 @@ contextual_links:
   name: "Prerequisites"
   url: "#prerequisites"
 - type: link
-  name: "Getiing Started"
+  name: "Getting Started"
   url: "#getting-started"
 - type: link
   name: "Getting Help"
