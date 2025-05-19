@@ -4,7 +4,7 @@ page_title: "Selective Element Recorder for SAP Automation"
 metadesc: "Selective Element Recorder lets you capture UI elements one at a time in SAP apps and view them in a tree structure. This article explains how to use it."
 noindex: false
 order: 29.21
-page_id: "Selective Element Recorder to SAP Automation"
+page_id: "Selective Element Recorder for SAP Automation"
 warning: false
 contextual_links:
 - type: section
