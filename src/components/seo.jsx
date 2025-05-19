@@ -246,7 +246,10 @@ function SEO({
             '"position":' +
             '2,' +
             '"name":' +
-            '"Docs",' +
+            '"' +
+            title +
+            '"' +
+            ',' +
             '"item":' +
             '"https://testsigma.com/docs/"' +
             '},' +
