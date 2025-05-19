@@ -38,7 +38,9 @@ function SEO({
     `
   );
 
-  const isIndexed = !noindex ? 'index,follow' : 'noindex,nofollow';
+  let isStaging = process.env.HOST_ENV === 'staging';
+
+  const isIndexed = isStaging || noindex ? 'noindex,nofollow' : 'index,follow';
 
   let loadGTM = false;
 
