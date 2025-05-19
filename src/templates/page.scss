@@ -608,7 +608,7 @@ code[class*="language-"] {
 }
 .home-page_banner{
   background-image: url("~/src/components/images/bg-banner.svg");
-  background-size: contain;
+  background-size: cover;
   background-repeat: no-repeat;
   margin-bottom: 1rem;
   padding-top: 5rem;

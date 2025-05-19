@@ -16,7 +16,7 @@ const IndexContent = () => {
     <>
       <div className='w-full md:px-16 home-page_banner'>
         <h1 className='text-4xl font-bold'>
-          Testsigma's Documentation Support
+          Testsigma Knowledge and Documentation Support | Testsigma
         </h1>
         <br />
         <span className='text-base font-normal'>
