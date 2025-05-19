@@ -19,7 +19,7 @@ contextual_links:
 
 ---
 
-In Testsgima, you can create a desktop application by adding it to an existing project or while setting up a new one. This article discusses creating a project and adding a desktop application to the project in Testsigma. 
+In Testsigma, you can create a desktop application by adding it to an existing project or while setting up a new one. This article discusses creating a project and adding a desktop application to the project in Testsigma. 
 
 For more information, see [projects](https://testsigma.com/docs/projects/overview/) and [applications](https://testsigma.com/docs/projects/applications/).
 
