@@ -3,7 +3,7 @@ title: "Error Handling Post TSRx File Update"
 page_title: "Error Handling Post TSRx File Update"
 metadesc: "On updating TSRx file, Testsigma identifies potential errors in test cases, step groups and elements linked to updates in the application structure"
 noindex: false
-order: 31.7
+order: 33.7
 page_id: "Error Handling Post TSRx File Update"
 warning: false
 contextual_links:

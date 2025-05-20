@@ -3,7 +3,7 @@ title: "Generate Test Data Profile Using Copilot"
 page_title: "Generate TDP Using Copilot"
 metadesc: "With Testsigma Copilot, you can quickly generate a Test Data Profile, eliminating the need to manually create multiple test data sets!"
 noindex: false
-order: 31.3
+order: 32.3
 page_id: "Generate TDP"
 warning: false
 contextual_links:

@@ -3,7 +3,7 @@ title: "AI Test Automation with Testsigma Copilot"
 page_title: "AI Test Automation with Testsigma Copilot"
 metadesc: "In Testsigma you can now generate diverse test scenarios with a single click and also comprehensive test cases using simple prompts using GenAI"
 noindex: false
-order: 31.2
+order: 32.2
 page_id: "Testsigma for Windows Automation"
 warning: false
 contextual_links:

@@ -2,7 +2,7 @@
 title: "Setup and Installation: Mac"
 metadesc: "Learn how to set up & use Testsigma Tunnel (Mac) for testing of locally hosted applications across real browsers, bypassing firewalls & proxy restrictions."
 noindex: false
-order: 32.3
+order: 34.3
 page_id: "Testsigma Tunnel Setup: Mac"
 warning: false
 contextual_links:

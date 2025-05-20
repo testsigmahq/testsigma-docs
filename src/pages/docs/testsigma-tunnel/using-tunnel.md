@@ -2,7 +2,7 @@
 title: "Using Testsigma Tunnel"
 metadesc: "Learn how to use Testsigma Tunnel for Test Automation and Live Testing of REST APIs. This article discusses configuring desired capabilities & API Settings."
 noindex: false
-order: 32.7
+order: 34.7
 page_id: "Using Testsigma Tunnel"
 warning: false
 contextual_links:
