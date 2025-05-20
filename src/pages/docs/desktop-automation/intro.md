@@ -4,7 +4,7 @@ page_title: "Introduction: Desktop Automation"
 metadesc: "Testsigma enables seamless Desktop Automation using actions for Windows apps | Learn how to create and run tests effortlessly for desktop applications."
 noindex: false
 order: 30.1
-page_id: "Testsigma for Desktop Automation"
+page_id: "testsigma-for-desktop-automation"
 warning: false
 contextual_links:
 - type: section

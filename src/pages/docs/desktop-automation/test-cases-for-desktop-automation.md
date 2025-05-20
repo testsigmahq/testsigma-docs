@@ -1,10 +1,10 @@
 ---
-title: "Create and Execute Test Cases for Desktop Automation"
-page_title: "Create and Execute Test Cases for Desktop Automation"
+title: "Creating Test Cases for Desktop Automation"
+page_title: "Creating Test Cases for Desktop Automation"
 metadesc: "Desktop test cases use elements captured via Testsigma Lite. Based on element type, Testsigma suggests actions. This article covers creating and running tests."
 noindex: false
-order: 30.4
-page_id: "Create and Execute Test Cases for Desktop Automation"
+order: 30.5
+page_id: "creating-test-cases-for-desktop-automation"
 warning: false
 contextual_links:
 - type: section
@@ -16,8 +16,8 @@ contextual_links:
   name: "Interactive Demo"
   url: "#interactive-demo" 
 - type: link
-  name: "Steps to Create and Execute Test Cases for Desktop Automation"
-  url: "#steps-to-create-and-execute-test-cases-for-desktop-automation"
+  name: "Steps to Create Test Cases for Desktop Automation"
+  url: "#steps-to-create-test-cases-for-desktop-automation"
 ---
 
 ---
@@ -51,7 +51,7 @@ Test cases for desktop applications rely on the elements captured through Testsi
 
 ---
 
-## **Steps to Create and Execute Test Cases for Desktop Automation**
+## **Steps to Create Test Cases for Desktop Automation**
 
 1. From the left navigation bar, go to **Create Tests > Test Cases**.
 

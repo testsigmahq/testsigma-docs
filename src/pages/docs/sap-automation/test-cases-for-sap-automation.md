@@ -1,10 +1,10 @@
 ---
-title: "Create and Execute Test Cases for SAP Automation"
-page_title: "Create and Execute Test Cases for SAP Automation"
+title: "Creating Test Cases for SAP Automation"
+page_title: "Creating Test Cases for SAP Automation"
 metadesc: "SAP test cases use elements captured via Testsigma Lite. Based on element type, Testsigma suggests actions. This article covers creating and running tests."
 noindex: false
-order: 29.3
-page_id: "Create and Execute Test Cases for SAP Automation"
+order: 29.4
+page_id: "creating-test-cases-for-sap-automation"
 warning: false
 contextual_links:
 - type: section
@@ -16,8 +16,8 @@ contextual_links:
   name: "Interactive Demo"
   url: "#interactive-demo"
 - type: link
-  name: "Steps to Create and Execute Test Cases for SAP Automation"
-  url: "#steps-to-create-and-execute-test-cases-for-sap-automation"
+  name: "Steps to Create Test Cases for SAP Automation"
+  url: "#steps-to-create-test-cases-for-sap-automation"
 ---
 
 ---
@@ -55,7 +55,7 @@ With Testsigma’s no-code platform, you can create test cases using the capture
 
 ---
 
-## **Steps to Create and Execute Test Cases for SAP Automation**
+## **Steps to Create Test Cases for SAP Automation**
 
 1. From the left navigation bar, go to **Create Tests > Test Cases**.
 
