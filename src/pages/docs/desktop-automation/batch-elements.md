@@ -3,8 +3,8 @@ title: "Batch Element Recorder for Desktop Automation"
 page_title: "Batch Element Recorder for Desktop Automation"
 metadesc: "Batch Element Recorder captures all UI elements in a desktop app window at once and displays them in a tree structure. This article explains how to use it."
 noindex: false
-order: 30.32
-page_id: "Batch Element Recorder for Desktop Automation"
+order: 30.4
+page_id: "batch-element-recorder-for-desktop-automation"
 warning: false
 contextual_links:
 - type: section

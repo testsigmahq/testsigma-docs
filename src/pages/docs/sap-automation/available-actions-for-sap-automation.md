@@ -1,10 +1,10 @@
 ---
-title: "List of Actions Available for SAP Automation"
-page_title: "List of Actions Available for SAP Automation"
+title: "List of Actions"
+page_title: "List of Actions"
 metadesc: "This article lists the available actions based on the type of element in SAP desktop applications, helping you choose the right steps while creating tests."
 noindex: false
-order: 29.4
-page_id: "List of Actions Available for SAP Automation"
+order: 29.5
+page_id: "list-of-actions"
 warning: false
 contextual_links:
 - type: section

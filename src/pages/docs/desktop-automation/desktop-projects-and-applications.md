@@ -1,10 +1,10 @@
 ---
-title: "Create a Desktop Project and an Application"
-page_title: "Create a Desktop Project and an Application"
+title: "Create Projects and Applications"
+page_title: "Create Projects and Applications"
 metadesc: "In Testsigma, you can create a desktop app by adding it to a new or existing project. This article explains how to create a project and add a desktop app."
 noindex: false
 order: 30.2
-page_id: "Create a Desktop Project and an Application"
+page_id: "create-projects-and-applications"
 warning: false
 contextual_links:
 - type: section
@@ -13,8 +13,8 @@ contextual_links:
   name: "Interactive Demo"
   url: "#interactive-demo"
 - type: link
-  name: "Steps to Create a Desktop Project and an Application"
-  url: "#steps-to-create-a-desktop-project-and-an-application"
+  name: "Steps to Create a Project and an Application"
+  url: "#steps-to-create-a-project-and-an-application"
 ---
 
 ---
@@ -36,7 +36,7 @@ For more information, see [projects](https://testsigma.com/docs/projects/overvie
 
 ---
 
-## **Steps to Create a Desktop Project and an Application**
+## **Steps to Create a Project and an Application**
 
 1. Navigate to **Project** on the left navigation bar, and click **New Project**.
 
