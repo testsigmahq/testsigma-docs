@@ -29,7 +29,6 @@ function SEO({
       query {
         site {
           siteMetadata {
-            title
             description
             author
           }
@@ -38,7 +37,9 @@ function SEO({
     `
   );
 
-  const isIndexed = !noindex ? 'index,follow' : 'noindex,nofollow';
+  let isStaging = process.env.HOST_ENV === 'staging';
+
+  const isIndexed = isStaging || noindex ? 'noindex,nofollow' : 'index,follow';
 
   let loadGTM = false;
 
@@ -74,7 +75,6 @@ function SEO({
           lang,
         }}
         title={title}
-        titleTemplate={`%s | ${site.siteMetadata.title}`}
         meta={[
           {
             name: 'description',
@@ -246,7 +246,10 @@ function SEO({
             '"position":' +
             '2,' +
             '"name":' +
-            '"Docs",' +
+            '"' +
+            title +
+            '"' +
+            ',' +
             '"item":' +
             '"https://testsigma.com/docs/"' +
             '},' +
