@@ -702,5 +702,10 @@
   "label-management": {"/docs/test-cases/manage/label-management/": "Label Management" },
   "mobile-accessibility-testing": {"/docs/accessibility-testing/mobile-accessibility-testing/": "Accessibility Testing for Android & iOS"},
   "live-editor": {"/docs/live-editor/": "Testsigma Lite (Live Editor)" },
-  "manage-access": {"/docs/configuration/manage-access/": "Manage Access"}
+  "manage-access": {"/docs/configuration/manage-access/": "Manage Access"},
+  "sap-automation": {"/docs/sap-automation/": "SAP Automation"},
+  "selective-elements": {"/docs/desktop-automation/selective-elements/": "Selective Element Recorder"},
+  "batch-elements": {"/docs/desktop-automation/batch-elements/": "Batch Element Recorder"},
+  "selective-element-recorder": {"/docs/sap-automation/selective-element-recorder/": "Selective Element Recorder"},
+  "batch-element-recorder": {"/docs/sap-automation/batch-element-recorder/": "Batch Element Recorder"}
 }

@@ -3,7 +3,7 @@ title: "Creating a Windows Project & Application"
 page_title: "Create a Windows Project & App"
 metadesc: "Testsigma supports various apps, including Web, Mobile Web, Android, iOS, Salesforce, Windows Lite, Windows Advanced, & APIs | This article discusses how to create a Windows Lite app"
 noindex: false
-order: 29.2
+order: 31.2
 page_id: "Windows Automation Project & Application"
 warning: false
 contextual_links:
