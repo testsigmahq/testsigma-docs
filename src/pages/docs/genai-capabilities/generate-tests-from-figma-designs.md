@@ -174,7 +174,7 @@ A frame inside a page or a section represents a screen of web or mobile app.
 
 1. From the left navigation bar, go to **Create Tests > Test Cases**. 
 
-2. Click **Copilot** and then select **Generate Test Cases** from the drop-down menu. 
+2. Click **Copilot** and then select **Generate Test Cases** from the dropdown menu. 
 
 3. In the **Generate Test Cases** screen, select **Figma Designs**.
 
@@ -194,7 +194,7 @@ A frame inside a page or a section represents a screen of web or mobile app.
 
 7. Select the test cases you want to save, and click **Save Test Cases**.
 
-8. You’ll be redirected to the Test Cases page, where the generated test cases appear under the **AI Generated Feature / Scenario**.
+8. You’ll be redirected to the Test Cases page, where the generated test cases appear under the **AI-Generated Feature / Scenario**.
 
 <br>
 
@@ -228,7 +228,7 @@ A frame inside a page or a section represents a screen of web or mobile app.
 
 7. Select the test cases you want to save, and click **Save Test Cases**.
 
-8. You’ll be redirected to the Test Cases page, where the generated test cases appear under the **AI Generated Feature / Scenario**.
+8. You’ll be redirected to the Test Cases page, where the generated test cases appear under the **AI-Generated Feature / Scenario**.
 
 <br>
 
