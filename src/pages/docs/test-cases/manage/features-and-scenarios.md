@@ -1,5 +1,5 @@
 ---
-title: "Organizing Test Cases in Folders (✨ New)"
+title: "Organizing Test Cases in Folders"
 pagetitle: "Organize Test Cases"
 metadesc: "Effortlessly organize test cases by features & scenarios, which provides a complete view of test coverage. The folder structure also simplifies the navigation."
 noindex: false
