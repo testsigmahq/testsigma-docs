@@ -40,11 +40,16 @@ Testsigma is revolutionizing test case creation using GenAI Capabilities. You ca
 
 - [Generate Test Scenarios from User Actions](https://testsigma.com/docs/genai-capabilities/generate-tests-from-user-actions/)
 
-- [Generate Test Scenarios from Requirements](https://testsigma.com/docs/genai-capabilities/generate-tests-from-requirements/)
+- [Generate Test Scenarios from Requirements (Web)](https://testsigma.com/docs/genai-capabilities/generate-tests-from-requirements/)
+
+- [Generate Test Scenarios from Requirements (Android & iOS)](https://testsigma.com/docs/genai-capabilities/generate-tests-from-requirements/)
 
 - [Generate Test Scenarios from Swagger Schema](https://testsigma.com/docs/genai-capabilities/generate-tests-from-swagger/)
 
-- [Generate Tests from Figma Designs](https://testsigma.com/docs/genai-capabilities/generate-tests-from-figma-designs/)
+- [Generate Tests from Figma Designs (Web)](https://testsigma.com/docs/genai-capabilities/generate-tests-from-figma-designs/#generate-test-cases-for-web-apps)
+
+- [Generate Tests from Figma Designs (Android & iOS)](https://testsigma.com/docs/genai-capabilities/generate-tests-from-figma-designs/#generate-test-cases-for-android--ios-apps)
+
 
 ---
 

@@ -1,5 +1,5 @@
 ---
-title: "Testsigma Copilot for Mobile Apps (New ✨)"
+title: "Testsigma Copilot for Mobile Apps"
 page_title: "Testsigma Copilot for Mobile Applications"
 metadesc: "In Testsigma, you can create test cases for Mobile Applications using Testsigma Copilot | Learn how to create test cases for Mobile Applications using GenAI capabilities"
 noindex: false

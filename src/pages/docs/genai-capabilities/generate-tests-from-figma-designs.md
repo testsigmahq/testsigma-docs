@@ -22,11 +22,17 @@ contextual_links:
   name: "Components of Figma"
   url: "#components-of-figma"
 - type: link
-  name: "Steps to Generate Test Cases from Figma Designs"
-  url: "#steps-to-generate-test-cases-from-figma-designs"
+  name: "Generate Test Cases for Web Apps"
+  url: "#generate-test-cases-for-web-apps"
 - type: link
-  name: "Interactive Demo"
-  url: "#interactive-demo"
+  name: "Interactive Demo for Web Apps"
+  url: "#interactive-demo-for-web-apps"
+- type: link
+  name: "Generate Test Cases for Android & iOS Apps"
+  url: "#generate-test-cases-for-android--ios-apps"
+- type: link
+  name: "Interactive Demo for Android & iOS Apps"
+  url: "#interactive-demo-for-android--ios-apps"
 ---
 
 ---
@@ -164,43 +170,35 @@ A frame inside a page or a section represents a screen of web or mobile app.
 
 ---
 
-## **Steps to Generate Test Cases from Figma Designs**
+## **Generate Test Cases for Web Apps**
 
 1. From the left navigation bar, go to **Create Tests > Test Cases**. 
 
-2. Click **Copilot** and then select **Generate Test Cases** from the drop-down menu. 
+2. Click **Copilot** and then select **Generate Test Cases** from the dropdown menu. 
 
 3. In the **Generate Test Cases** screen, select **Figma Designs**.
 
-4. In the **Add Figma Designs** overlay, the Copilot automatically selects a project. You can expand the **Project** field and select the required project. 
-
-5. Select the required file from the **Figma File** drop-down menu. 
-
-6. Select the required page from the **Page** drop-down menu. 
-
-7. Select the required section from the **Section** field drop-down menu. 
+4. In the **Add Figma Designs** section, 
+   - Select a **Project**, **Figma File**, **Section** and **Page** from the respective dropdown menus.
+   - Click **+ Select Frames**, select the required frames in the **Select Frames** screen, and click **Add Frames**.
+   - If you want to remove all the selections that you have made, click **Clear Selection**. 
 
 [[info | **NOTE**:]]
-| If the selected page has no sections, you can directly select the frames.
+| - If the selected page has no sections, you can directly select the frames.
+| 
+| - The maximum limit for selecting frames is 10. 
 
-8. In the **Frames** field, click **+ Select Frames**.
+5. In the prompt field, enter the required details, and click the **Play** button.
 
-9. Select the required frames in the **Select Frames** screen and click **Add Frames**.  
+6. Wait for Testsigma to generate the test cases with the test steps.
 
-If you want to remove all the selections that you have made, click **Clear Selection**. 
+7. Select the test cases you want to save, and click **Save Test Cases**.
 
-[[info | **NOTE**:]]
-| The maximum limit for selecting frames is 10. 
+8. You’ll be redirected to the Test Cases page, where the generated test cases appear under the **AI-Generated Feature / Scenario**.
 
-10.  Enter a prompt and click **Send**. 
+<br>
 
-11.  Select the test cases you want to add to the test case list and select **Save Test Cases**.
-
----
-
-## **Interactive Demo**
-
-Try this interactive demo to learn how to generate test cases from Figma designs!
+## **Interactive Demo for Web Apps**
 
 <div>
   <script async src="https://js.storylane.io/js/v2/storylane.js"></script>
@@ -209,5 +207,38 @@ Try this interactive demo to learn how to generate test cases from Figma designs
   </div>
 </div>
 
+
+---
+
+## **Generate Test Cases for Android & iOS Apps** 
+
+1. From the left navigation bar, go to **Create Tests > Test Cases**.
+
+2. Click **Copilot**, and then select **Generate Test Cases** from the dropdown menu.
+
+3. In the **Generate Test Cases** page, select **Figma Designs** as input source. 
+
+4. In the **Add Figma Designs** section, 
+   - Select a **Project**, **Figma File**, **Section** and **Page** from the respective dropdown menus.
+   - Click **+ Select Frames**, select the required frames in the **Select Frames** screen, and click **Add Frames**.
+
+5. In the prompt field, enter the required details, and click the **Play** button.
+
+6. Wait for Testsigma to generate the test cases with the test steps.
+
+7. Select the test cases you want to save, and click **Save Test Cases**.
+
+8. You’ll be redirected to the Test Cases page, where the generated test cases appear under the **AI-Generated Feature / Scenario**.
+
+<br>
+
+## **Interactive Demo for Android & iOS Apps**
+
+<div>
+  <script async src="https://js.storylane.io/js/v2/storylane.js"></script>
+  <div class="sl-embed" style="position:relative;padding-bottom:calc(57.41% + 25px);width:100%;height:0;transform:scale(1)">
+    <iframe loading="lazy" class="sl-demo" src="https://app.storylane.io/demo/gben4vh6j94t?embed=inline" name="sl-embed" allow="fullscreen" allowfullscreen style="position:absolute;top:0;left:0;width:100%!important;height:100%!important;border:1px solid rgba(63,95,172,0.35);box-shadow: 0px 0px 18px rgba(26, 19, 72, 0.15);border-radius:10px;box-sizing:border-box;"></iframe>
+  </div>
+</div>
 
 ---
