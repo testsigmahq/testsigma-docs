@@ -3,7 +3,7 @@ title: "Attachments"
 page_title: "Attachments"
 metadesc: "Attachments in RESTful API testing is the ability to send/receive files such as images, docs, and videos as part of an API request or response"
 noindex: false
-order: 4.991
+order: 4.691
 page_id: "Attachments"
 search_keyword: ""
 warning: false

@@ -3,7 +3,7 @@ title: "API Request"
 page_title: "Add API Request in RESTful API in Testsigma"
 metadesc: "Configuring API test steps made easy with Testsigma low code automation tool | Learn how to add API test steps to your Test Cases in Testsigma"
 noindex: false
-order: 4.92
+order: 4.62
 page_id: "Add API Request in RESTful API"
 search_keyword: ""
 warning: false

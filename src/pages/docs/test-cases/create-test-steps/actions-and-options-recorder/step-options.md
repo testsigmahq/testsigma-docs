@@ -3,7 +3,7 @@ title: "Test Step Options"
 page_title: "Test Step Actions on the Test Recorder for a Web Project"
 metadesc: "This article discusses all actions available in Testsigma test recorder to control and customize various aspects of test execution"
 noindex: false
-order: 4.621
+order: 4.321
 page_id: "Actions you can take on recorded Test Steps in a Web Project"
 warning: false
 contextual_links:

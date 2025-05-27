@@ -3,7 +3,7 @@ title: "Importing Postman Collections and Environments"
 pagetitle: "Effortless Postman Collection Import | Simplify API Testing"
 metadesc: "Import Postman collections and environments seamlessly to enhance your API testing. Streamline the process effortlessly with our user-friendly guide."
 noindex: false
-order: 4.16
+order: 4.18
 page_id: "import-postman-collection"
 warning: false
 contextual_links:

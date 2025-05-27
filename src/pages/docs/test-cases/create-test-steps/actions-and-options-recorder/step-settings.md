@@ -2,7 +2,7 @@
 title: "Test Step Settings"
 metadesc: "With test step settings, you can control how each test step behaves in your test cases | This article discussses test step settings in Testsigma"
 noindex: false
-order: 4.622
+order: 4.322
 page_id: "Test Recorder - Test Step Details for Web Project"
 warning: false
 contextual_links:

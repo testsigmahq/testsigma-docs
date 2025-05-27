@@ -177,99 +177,84 @@ Replace the placeholders with your actual values:
 
 List of configurable preferences to tailor your PDF reports according to your needs.
 
-<!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <style>
-        body {
-            font-family: Arial, sans-serif;
-            margin: 20px;
-        }
-        table {
-            width: 100%;
-            border-collapse: collapse;
-        }
-        th, td {
-            border: 1px solid #dddddd;
-            text-align: left;
-            padding: 8px;
-        }
-        th {
-            background-color: #f2f2f2;
-        }
-        tr:nth-child(even) {
-            background-color: #f9f9f9;
-        }
-        caption {
-            font-weight: bold;
-            margin: 10px 0;
-        }
-    </style>
-</head>
-<body>
-    <table>
-        <thead>
-            <tr>
-                <th>Preference</th>
-                <th>Description</th>
-                <th>Allowed Values</th>
-                <th>Input Type</th>
-            </tr>
-        </thead>
-        <tbody>
-            <tr>
-                <td>config.preference.resultLevel</td>
-                <td>Defines the level of detail for the report</td>
-                <td>PLAN, MACHINE, SUITE, CASE</td>
-                <td>Single value</td>
-            </tr>
-            <tr>
-                <td>config.preference.step</td>
-                <td>Specifies which steps to include in the report</td>
-                <td>PASSED, FAILED, EXECUTED, NOT_EXECUTED, ALL, NONE</td>
-                <td>Single value</td>
-            </tr>
-            <tr>
-                <td>config.preference.screenshot</td>
-                <td>Indicates which screenshots to include</td>
-                <td>PASSED, FAILED, ALL, NONE</td>
-                <td>Single value</td>
-            </tr>
-            <tr>
-                <td>config.preference.visualDifference</td>
-                <td>Specifies which visual screenshots to include</td>
-                <td>PASSED, FAILED, ALL, NONE</td>
-                <td>Single value</td>
-            </tr>
-            <tr>
-                <td>config.preference.summaryFields</td>
-                <td>Fields to display in the report summary</td>
-                <td>name, executedBy, environment, testPlanName, testDeviceName, testSuiteName, result, buildNo, runId, screenshotCapturedFor, screenshotMode</td>
-                <td>Multi-value (comma-separated)</td>
-            </tr>
-            <tr>
-                <td>config.preference.caseListColumns</td>
-                <td>Columns to show in the test case list</td>
-                <td>ETF, testSuite, testMachine, assignee, reviewer</td>
-                <td>Multi-value (comma-separated)</td>
-            </tr>
-            <tr>
-                <td>config.preference.caseDetailsHeaders</td>
-                <td>Columns to show in case details headers</td>
-                <td>testCaseName, testSuiteName</td>
-                <td>Multi-value (comma-separated)</td>
-            </tr>
-            <tr>
-                <td>config.preference.stepListColumns</td>
-                <td>Columns to show in the step list</td>
-                <td>reasonForFailure, testDataDetails, duration, apiResponseUrl</td>
-                <td>Multi-value (comma-separated)</td>
-            </tr>
-        </tbody>
-    </table>
-</body>
-</html>
+<style>
+    table {
+        width: 100%;
+        border-collapse: collapse;
+        font-family: Arial, sans-serif;
+    }
+    th, td {
+        border: 1px solid #dddddd;
+        text-align: left;
+        padding: 8px;
+    }
+    th {
+        background-color: #f2f2f2;
+    }
+    tr:nth-child(even) {
+        background-color: #f9f9f9;
+    }
+</style>
+
+<table>
+    <thead>
+        <tr>
+            <th>Preference</th>
+            <th>Description</th>
+            <th>Allowed Values</th>
+            <th>Input Type</th>
+        </tr>
+    </thead>
+    <tbody>
+        <tr>
+            <td>config.preference.resultLevel</td>
+            <td>Defines the level of detail for the report</td>
+            <td>PLAN, MACHINE, SUITE, CASE</td>
+            <td>Single value</td>
+        </tr>
+        <tr>
+            <td>config.preference.step</td>
+            <td>Specifies which steps to include in the report</td>
+            <td>PASSED, FAILED, EXECUTED, NOT_EXECUTED, ALL, NONE</td>
+            <td>Single value</td>
+        </tr>
+        <tr>
+            <td>config.preference.screenshot</td>
+            <td>Indicates which screenshots to include</td>
+            <td>PASSED, FAILED, ALL, NONE</td>
+            <td>Single value</td>
+        </tr>
+        <tr>
+            <td>config.preference.visualDifference</td>
+            <td>Specifies which visual screenshots to include</td>
+            <td>PASSED, FAILED, ALL, NONE</td>
+            <td>Single value</td>
+        </tr>
+        <tr>
+            <td>config.preference.summaryFields</td>
+            <td>Fields to display in the report summary</td>
+            <td>name, executedBy, environment, testPlanName, testDeviceName, testSuiteName, result, buildNo, runId, screenshotCapturedFor, screenshotMode</td>
+            <td>Multi-value (comma-separated)</td>
+        </tr>
+        <tr>
+            <td>config.preference.caseListColumns</td>
+            <td>Columns to show in the test case list</td>
+            <td>ETF, testSuite, testMachine, assignee, reviewer</td>
+            <td>Multi-value (comma-separated)</td>
+        </tr>
+        <tr>
+            <td>config.preference.caseDetailsHeaders</td>
+            <td>Columns to show in case details headers</td>
+            <td>testCaseName, testSuiteName</td>
+            <td>Multi-value (comma-separated)</td>
+        </tr>
+        <tr>
+            <td>config.preference.stepListColumns</td>
+            <td>Columns to show in the step list</td>
+            <td>reasonForFailure, testDataDetails, duration, apiResponseUrl</td>
+            <td>Multi-value (comma-separated)</td>
+        </tr>
+    </tbody>
+</table>
 
 ---

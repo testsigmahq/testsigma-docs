@@ -2,7 +2,7 @@
 title: "Update Test Case Result in a Test Plan"
 metadesc: "Change the status of test cases in test plan reports to ignore test case result of known issues | This article discusses how to update the status of a test case in a test plan"
 noindex: false
-order: 4.17
+order: 4.19
 page_id: "Update Test Case Result in a Test Plan"
 warning: false
 contextual_links:

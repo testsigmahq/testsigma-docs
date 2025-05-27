@@ -3,7 +3,7 @@ title: "RESTful API Testing - Overview"
 page_title: "RESTful API Testing in Testsigma"
 metadesc: "RESTful APIs allow you to access resources using uniform methods & protocols | This article discusses RESTful API Testing in Testsigma"
 noindex: false
-order: 4.91
+order: 4.61
 page_id: "Add RESTful API Testing in Test Step"
 search_keyword: ""
 warning: false

@@ -707,5 +707,7 @@
   "selective-elements": {"/docs/desktop-automation/selective-elements/": "Selective Element Recorder"},
   "batch-elements": {"/docs/desktop-automation/batch-elements/": "Batch Element Recorder"},
   "selective-element-recorder": {"/docs/sap-automation/selective-element-recorder/": "Selective Element Recorder"},
-  "batch-element-recorder": {"/docs/sap-automation/batch-element-recorder/": "Batch Element Recorder"}
+  "batch-element-recorder": {"/docs/sap-automation/batch-element-recorder/": "Batch Element Recorder"},
+  "generate-tests-from-user-actions": {"/docs/genai-capabilities/generate-tests-from-user-actions/": "Generate Tests from User Actions"},
+  "imports-and-exports": {"/docs/test-cases/imports-and-exports/": "Imports & Exports"}
 }

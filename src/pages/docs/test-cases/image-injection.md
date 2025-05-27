@@ -3,7 +3,7 @@ title: "Image Injection"
 pagetitle: "Image Injection in Testsigma: Enhance Mobile App Testing"
 metadesc: "Enhance your testing process by seamlessly incorporating images into test steps using Image Injection. Streamline workflows and improve accuracy."
 noindex: false
-order: 4.70
+order: 4.40
 page_id: "image-injection-testsigma"
 warning: false
 contextual_links:

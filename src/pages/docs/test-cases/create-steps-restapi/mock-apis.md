@@ -3,7 +3,7 @@ title: "Testing API Responses with Custom Values"
 page_title: "Sending Custom Variable Values While Creating API Steps"
 metadesc: "Learn how to send custom values and experiment with the different types of test data | Testsigma allows you give inputs while testing an API responses in Testsigma"
 noindex: false
-order: 4.993
+order: 4.693
 page_id: "Send Custom Variables in API Steps"
 search_keyword: ""
 warning: false
