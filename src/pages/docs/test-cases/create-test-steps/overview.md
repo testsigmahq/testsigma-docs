@@ -2,7 +2,7 @@
 title: "Create Test Steps in Testsigma"
 metadesc: "This article discusses creating test steps manually using simple English (NLPs) as well as with a recorder for web, mobile web, Android, & iOS app in Testsigma"
 noindex: false
-order: 4.60
+order: 4.30
 page_id: "Create Test Steps in Testsigma"
 warning: false
 contextual_links:
