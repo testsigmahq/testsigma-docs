@@ -3,7 +3,7 @@ title: "Import Test Project Test Cases"
 pagetitle: "Start Importing Test Cases from YAML/GIT with Ease"
 metadesc: "Seamlessly transfer projects from Test Project using YAML/GIT in Testsigma to learn how to improve your test automation workflow for efficient testing."
 noindex: false
-order: 4.15
+order: 4.17
 page_id: "Import Test Cases from YAML/GIT"
 warning: false
 contextual_links:
