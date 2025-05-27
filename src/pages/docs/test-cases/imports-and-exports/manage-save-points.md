@@ -3,7 +3,7 @@ title: "Manage Save Points"
 page_title: "Manage Save Points"
 metadesc: "The Save Points feature lets you create, edit, delete, and restore checkpoints manually or during import to revert the project to its exact saved state anytime."
 noindex: false
-order: 4.22
+order: 4.72
 page_id: "manage-save-points"
 warning: false
 contextual_links:

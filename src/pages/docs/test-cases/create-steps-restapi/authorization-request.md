@@ -3,7 +3,7 @@ title: "Authorization "
 page_title: "Authorization in API Request"
 metadesc: "Authorization in RESTful API testing verifies that a user has the all necessary permissions to access a specific resource"
 noindex: false
-order: 4.96
+order: 4.66
 page_id: "Authorization in API Request"
 search_keyword: ""
 warning: false

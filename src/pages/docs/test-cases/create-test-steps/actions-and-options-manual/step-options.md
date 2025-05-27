@@ -3,7 +3,7 @@ title: "Test Step Options"
 page_title: "Test Step Options"
 metadesc: "Explore Testsigma's Test Step Options - Configure, manage, and optimise your test steps efficiently. Enhance testing workflow with customisation and control."
 noindex: false
-order: 4.611
+order: 4.311
 page_id: "Test Step Actions"
 warning: false
 contextual_links:

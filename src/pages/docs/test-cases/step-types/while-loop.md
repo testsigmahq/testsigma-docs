@@ -2,7 +2,7 @@
 title: "While Loop in Test Cases"
 metadesc: "A while loop iterates through a few steps depending on a condition being true. How to use while loop in a test case in Testsigma"
 noindex: false
-order: 4.35
+order: 4.25
 page_id: "Adding While Loops in test Cases"
 warning: false
 contextual_links:

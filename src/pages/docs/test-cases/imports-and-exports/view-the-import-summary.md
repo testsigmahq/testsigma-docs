@@ -3,7 +3,7 @@ title: "View the Import Summary"
 page_title: "View the Import Summary"
 metadesc: "Use the Import Summary feature to check the status and details of your import and verify that the process completed successfully with all items imported."
 noindex: false
-order: 4.23
+order: 4.73
 page_id: "view-the-import-summary"
 warning: false
 contextual_links:
