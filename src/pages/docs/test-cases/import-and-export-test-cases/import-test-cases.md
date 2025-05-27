@@ -3,7 +3,7 @@ title: "Import Test Cases"
 page_title: "Import Test Cases"
 metadesc: "Import test cases between Testsigma projects by matching application types in both source and target projects to ensure full compatibility and smooth transfer process."
 noindex: false
-order: 4.14
+order: 4.21
 page_id: "import-test-cases"
 warning: false
 contextual_links:
