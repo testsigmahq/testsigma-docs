@@ -28,7 +28,8 @@ You can use the Import Summary feature to view the status and details of your im
 
 > ## **Prerequisites**
 > 
-> - Make sure you have imported artefacts from the current project to the destination project.
+>  Ensure you have imported artefacts from the current project to the destination project.
+
 ---
 
 ## **Interactive Demo**
