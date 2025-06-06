@@ -92,7 +92,7 @@ const Index = () => {
   return (
     <Layout>
       <SEO
-        title={`Testsigma Knowledge and  Documentation Support | Testsigma`}
+        title={`Testsigma Knowledge and Documentation Support`}
         slug={`/docs/`}
         canonical={`/docs/`}
         metadesc={`Learn more about testsigma products and extend the platform from this documentation support and get answers to your common questions.`}
