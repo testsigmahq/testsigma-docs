@@ -3,7 +3,7 @@ title: "Azure OpenAI"
 page_title: "Integrating Azure OpenAI"
 metadesc: "Testsigma integration with Azure OpenAI allows you to map various features within the application | This article discusses how to get these details from Azure OpenAI"
 noindex: false
-order: 32.721
+order: 32.921
 page_id: "Integrating Azure OpenAI"
 warning: false
 contextual_links:

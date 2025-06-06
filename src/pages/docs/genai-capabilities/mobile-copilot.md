@@ -3,7 +3,7 @@ title: "Testsigma Copilot for Mobile Apps"
 page_title: "Testsigma Copilot for Mobile Applications"
 metadesc: "In Testsigma, you can create test cases for Mobile Applications using Testsigma Copilot | Learn how to create test cases for Mobile Applications using GenAI capabilities"
 noindex: false
-order: 32.7
+order: 32.8
 page_id: "Generate Test Cases for Mobile Applications"
 warning: false
 contextual_links:
