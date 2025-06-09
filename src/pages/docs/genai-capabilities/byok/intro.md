@@ -3,7 +3,7 @@ title: "Introduction: BYOK ֎ "
 page_title: "Intro to Bring Your Own Keys"
 metadesc: "In Testsigma, you can integrate your preferred LLMs using your own API keys, ensuring data sovereignty & privacy | This article discusses Bring Your Own Keys model in Testsigma"
 noindex: false
-order: 32.71
+order: 32.92
 page_id: "Intro to Bring Your Own Keys"
 warning: false
 contextual_links:

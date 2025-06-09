@@ -3,7 +3,7 @@ title: "Integrating OpenAI"
 page_title: "Integrating OpenAI"
 metadesc: "In Testsigma, you can create test cases for Mobile Applications using Testsigma Copilot | Learn how to create test cases for Mobile Applications using GenAI capabilities"
 noindex: false
-order: 32.722
+order: 32.922
 page_id: "Integrating OpenAI"
 warning: false
 contextual_links:
