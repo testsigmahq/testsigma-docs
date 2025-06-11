@@ -158,10 +158,27 @@ Sprint: <Sprint name>
 
 Testsigma Info Ends
 
+<br>
+
+<div style="background-color: #f8f9fa; padding: 20px; border-radius: 5px; border: 1px solid #dee2e6;">
+  <p style="font-size: 16px; color: #495057;">
+    <b>💡 Additional Info:</b><br><br>
+    <ul style="list-style-type: disc; padding-left: 20px;">
+      <li><b>ApplicationVersionId</b> is the Version ID of the application in Testsigma. To learn how to find the Version ID, see <a href="https://testsigma.com/docs/projects/versions/#getting-version-id">Version ID</a>.</li>
+      <li><b>EnvironmentId</b> is the Environment ID in Testsigma. To learn how to find the Environment ID, see <a href="https://testsigma.com/docs/test-data/types/environment/#getting-environment-id">Environment ID</a>.</li>
+    </ul>
+  </p>
+</div>
+
+<br>
+
+
 **Here’s how the formatted PR will look:**
    ![GiHub Demo PR](https://s3.amazonaws.com/static-docs.testsigma.com/new_images/projects/GitHub_int/GitHub_Demo_PR.png)
 
 [[info | **NOTE**:]]
 | If your PR template includes **Jira**, **Xray**, or **Figma URLs**, ensure these integrations are also added under **Settings > Integrations** in Testsigma.
+
+
 
 ---
