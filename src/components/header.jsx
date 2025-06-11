@@ -47,23 +47,27 @@ const Header = () => {
               id={'signup-btn'}
               target={'_blank'}
               className='border border-primary_teal_green px-4 py-1.5 text-secondary_teal_green rounded'
-              href='/signup'
+              href='/request-demo'
             >
-              GET STARTED FREE
+              BOOK A DEMO
             </a>
             <a
               id={'signup-btn'}
               target={'_blank'}
               className='border border-primary_teal_green px-4 py-1.5 base-teal-gradient text-white rounded'
-              href='/request-demo'
+              href='/signup'
             >
-              BOOK A DEMO
+              GET STARTED FREE
             </a>
           </div>
           <nav className='flex w-11/12 gap-4'>
             <a
               className={`btn btn-ghost btn-sm rounded-btn border-b-2 hover:border-primary_teal_green ${
-                !isAttoDocs && !isTestManagementDocs && !isDesktopDocs && !isSalesforceDocs && !isCopilotDocs
+                !isAttoDocs &&
+                !isTestManagementDocs &&
+                !isDesktopDocs &&
+                !isSalesforceDocs &&
+                !isCopilotDocs
                   ? 'border-primary_teal_green'
                   : 'border-white'
               }`}
