@@ -22,6 +22,9 @@ contextual_links:
   name: "Delete Application Version"
   url: "#delete-application-version"
 - type: link
+  name: "Getting Version ID"
+  url: "#getting-version-id"
+- type: link
   name: "Interactive Demo"
   url: "#interactive-demo"
 ---
@@ -85,7 +88,15 @@ Due to constantly changing requirements and application features, version contro
 
 4. On the **Delete Version?** dialog, enter **DELETE** and click **I understand, delete this**.
 
+---
 
+## **Getting Version ID**
+
+1. Navigate to **Project Settings > Versions**.
+
+2. In the **EDIT PROJECT** dialog, hover over the version name to view its ID.
+
+3. Click **Copy** to copy the version ID.
 
 ---
 

@@ -27,6 +27,10 @@ contextual_links:
 - type: link
   name: "Use Environment Variables to Select Test Data Values"
   url: "#use-environment-variables-to-select-test-data-values"
+- type: link
+  name: "Getting Environment ID"
+  url: "#getting-environment-id"
+
 ---
 
 ---
@@ -139,3 +143,16 @@ Environment variables can filter test data sets by name during data-driven testi
 6. When you run the test case, it will execute using the specified filters. 
 
 
+---
+
+## **Getting Environment ID**
+
+1. Navigate to **Test Data > Environments**. 
+
+2. Click Environment for which you want to get **Environment ID**. 
+
+3. The <ENV_ID> can be found in the URL of the Environment details page.
+   
+   ![Env ID](https://s3.amazonaws.com/static-docs.testsigma.com/new_images/projects/applications/Env_ID.png)
+
+---
