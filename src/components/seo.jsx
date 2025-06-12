@@ -177,6 +177,22 @@ function SEO({
           href={'./../images/favicons/safari-pinned-tab.svg'}
           color='#00B2BD'
         />
+        <meta
+          httpEquiv='Content-Security-Policy'
+          content="default-src 'self' https://*.testsigma.com https://stream.mux.com https://stream.hubilo.com https://s3.us-east-1.amazonaws.com 'unsafe-inline'; style-src 'self' https://*.testsigma.com 'unsafe-inline'; img-src * https: data: blob: about:; script-src * https: 'unsafe-inline' 'unsafe-eval'; worker-src https: blob: 'unsafe-eval' 'unsafe-inline'; frame-ancestors https://testsigma.com https://*.testsigma.com https://app.storylane.io/; upgrade-insecure-requests; frame-src * https:; connect-src 'self' https: http: wss: 'unsafe-inline'; style-src-elem  https: 'unsafe-inline' https://*.testsigma.com https://*.googleapis.com https://*.freshchat.com; font-src  https: https://*.testsigma.com data: blob: 'unsafe-inline' https://*.gstatic.com https://*.googleapis.com; object-src https: http:"
+        />
+        <meta httpEquiv='X-XSS-Protection' content='1; mode=block' />
+        <meta
+          httpEquiv='Strict-Transport-Security'
+          content='max-age=31536000'
+        />
+        <meta httpEquiv='X-Content-Type-Options' content='nosniff' />
+        <meta
+          httpEquiv='cache-control'
+          content='private, must-revalidate, post-check=0, pre-check=0'
+        />
+        <meta httpEquiv='cache-control' content='max-age=31536000' />
+
         {/* fonts */}
         <link rel='dns-prefetch' href='https://fonts.gstatic.com' />
         <link rel='dns-prefetch' href='https://fonts.googleapis.com' />
