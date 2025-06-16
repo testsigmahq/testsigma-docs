@@ -1,10 +1,10 @@
 ---
-title: "Enable Developer Mode (iOS 16 or Above)"
+title: "How to enable Developer Mode? (iOS 16 or Above)"
 page_title: "Enable Developer Mode (iOS 16 or Above)"
 metadesc: "In case you cannot see the developer mode for an iOS device running iOS 16 or above, follow this troubleshooting guide | Enable Developer Mode on iOS 16 & above"
 noindex: false
 order: 23.694
-page_id: Enable Developer Mode (iOS 16 or Above)
+page_id: "enable-developer-mode"
 warning: false
 contextual_links:
 - type: section

@@ -1,9 +1,9 @@
 ---
-title: "Most Common causes for Click/Tap NLP failure"
+title: "What are the Most Common causes for Click/Tap NLP Failure?"
 metadesc: "Understand the functionality of click or tap NLP while creating a test step inside a test case & learn most common causes for Click/Tap NLP failure"
 noindex: false
 order: 23.67
-page_id: Common causes for Click/Tap NLP failure
+page_id: "common-causes-for-click-or-tap-nlp-failure"
 warning: false
 contextual_links:
 - type: section
@@ -19,7 +19,7 @@ contextual_links:
 ---
 
 
-Click/ Tap is one of the most used NLP in our product and it has been observed that many first time users often get an error message while using this NLP initially. So, this article will help you understand the functionality of click/tap NLP while creating a test step inside a test case.
+Click/Tap is one of the most used NLP in our product and it has been observed that many first time users often get an error message while using this NLP initially. So, this article will help you understand the functionality of click/tap NLP while creating a test step inside a test case.
 
 
 ---

@@ -1,10 +1,10 @@
 ---
-title: "Common Android Issues & Proposed Solutions"
+title: "What are Common Android Issues & Proposed Solutions?"
 page_title: "Common Android Issues & Proposed Solutions"
 metadesc: "Learn why accessibility IDs are preferred over other Locators. This article discusses why Accessibility IDs are favored in mobile app development & testing"
 noindex: false
 order: 23.692
-page_id: Common Android Issues & Proposed Solutions
+page_id: "common-android-issues-and-proposed-solutions"
 warning: false
 ---
 

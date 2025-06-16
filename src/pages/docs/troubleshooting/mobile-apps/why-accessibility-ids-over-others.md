@@ -4,7 +4,7 @@ page_title: "Accessibility IDs Over other Locators"
 metadesc: "Learn why accessibility IDs are preferred over other Locators. This article discusses why Accessibility IDs are favored in mobile app development & testing"
 noindex: false
 order: 23.691
-page_id: Why Accessibility IDs Over other Locators?
+page_id: "why-accessibility-ids-over-other-locators"
 warning: false
 ---
 

@@ -39,7 +39,7 @@ const Header = () => {
           <img src={tsLogo} alt='Testsigma' className='ml-10 my-6' />
         </a>
         <div className='primary-nav flex-auto flex items-center'>
-          <div className='search-block relative flex items-center justify-between w-2/5 pr-3 gap-2'>
+          <div className='search-block relative flex items-center justify-between w-2/5 pr-14 gap-2'>
             <div className='search-block-child'>
               <SearchInputBox></SearchInputBox>
             </div>
