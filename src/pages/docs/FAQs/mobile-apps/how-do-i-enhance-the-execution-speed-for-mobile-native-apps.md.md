@@ -1,8 +1,8 @@
 ---
-title: "Enhance Execution Speed for Mobile Native Apps"
+title: "How do I Enhance the Execution Speed for Mobile Native Apps?"
 metadesc: "Test execution and recording for React Native or Flutter apps can be slower in Testsigma. | Learn how to speed up actions using desired capabilities."
 order: 24.22
-page_id: "enhance-execution-speed-for-mobile-native-apps"
+page_id: "how-do-i-enhance-the-execution-speed-for-mobile-native-apps-?"
 warning: false
 contextual_links:
 - type: section
@@ -41,7 +41,7 @@ In Testsigma, executing and recording test steps for mobile applications, partic
 
 4. In the **Ad-Hoc Run/ Record test steps** overlay, expand the **Desired Capabilities** field and specify the desired capability. 
 
-   | **Name**     | **Data Type**  | **Value** |
+   | **Name** | **Data Type** | **Value** |
    | ------------- | ------------- | ------------- |
    | appium:waitForIdleTimeout | String | 1000L |
 

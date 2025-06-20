@@ -1,8 +1,8 @@
 ---
-title: "Unable to Download the XLS File from the Edge Browser?"
+title: "Why am I Unable to Download the XLS File from the Edge Browser?"
 metadesc: "Edge may open XLS files in Office Online instead of downloading them. This article explains how to fix it by adjusting a browser setting."
-order: 24
-page_id: "unable-to-download-the-xls-file-from-the-edge-browser-?"
+order: 24.31
+page_id: "why-am-i-unable-to-download-the-xls-file-from-the-edge-browser-?"
 warning: false
 contextual_links:
 - type: section
@@ -26,8 +26,12 @@ To ensure the file downloads instead of opening in the browser, disable the **Op
 
 1. Open **Microsoft Edge** on your device. 
 
-2. Navigate to **edge://settings/downloads**
+2. Navigate to **Settings**.
 
-3. On the **Downloads** page, disable the **Open Office files in the browser** toggle to make Edge download Office files instead of opening them.
+3. In the **Settings** panel, click **Downloads**.
+
+4. On the **Downloads** page, disable the **Open Office files in the browser** toggle to make Edge download Office files instead of opening them.
+
+![Disable the Open Office files in browser](https://s3.amazonaws.com/static-docs.testsigma.com/new_images/projects/faq/Unable_to_download_XLS.png)
 
 ---
