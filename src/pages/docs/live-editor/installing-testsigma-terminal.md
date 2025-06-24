@@ -18,13 +18,13 @@ contextual_links:
   url: "#download-formats-available"
 - type: link
   name: "Steps to Install Testsigma Terminal"
-  url: "#steps-to-install-testsigma-lite"
+  url: "#steps-to-install-testsigma-terminal"
 - type: link
   name: "Steps to Uninstall Testsigma Terminal"
-  url: "#steps-to-uninstall-testsigma-lite"
+  url: "#steps-to-uninstall-testsigma-terminal"
 - type: link
   name: "File/Folder Locations of Testsigma Terminal"
-  url: "#filefolder-locations-of-testsigma-lite"
+  url: "#filefolder-locations-of-testsigma-terminal"
 ---
 
 ---
@@ -49,9 +49,9 @@ Testsigma allows you to fix test case issues instantly using Live Editor. To use
 >    - **Download Size**: 850 MB
 >    - **Extracted Size**: 1.5 GB
 >    - **Download Location**: The ZIP file is automatically deleted after successful extraction. 
->        - **Windows**: %user_profile%\ .testsigma\TestsigmaLite\
->        - **Linux**: $HOME/.testsigma/TestsigmaLite/
->        - **Mac**: /$HOME/.testsigma/TestsigmaLite/
+>        - **Windows**: %user_profile%\ .testsigma\TestsigmaTerminal\
+>        - **Linux**: $HOME/.testsigma/TestsigmaTerminal/
+>        - **Mac**: /$HOME/.testsigma/TestsigmaTerminal/
 
 ---
 
@@ -152,9 +152,9 @@ Try this interactive demo to learn how to download Testsigma Terminal!
 ### **Remove Testsigma Terminal Traces**
 
 **Testsigma Terminal state.**
-   - **Windows**: %user_profile%\AppData\Roaming\com.testsigma.testsigmalite\
-   - **Linux**: $HOME/.testsigma/com.testsigma.testsigmalite/
-   - **Mac**: /$HOME/Library/Application Support/com.testsigma.testsigmalite/
+   - **Windows**: %user_profile%\AppData\Roaming\com.testsigma.testsigmaterminal\
+   - **Linux**: $HOME/.testsigma/com.testsigma.testsigmaterminal/
+   - **Mac**: /$HOME/Library/Application Support/com.testsigma.testsigmaterminal/
 
 [[info | **NOTE**:]]
 | To access **.testsigma** folder in the above path, you need to unhide hidden folders in your `user_folder`.
