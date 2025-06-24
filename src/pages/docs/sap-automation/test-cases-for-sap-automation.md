@@ -1,7 +1,7 @@
 ---
 title: "Creating Test Cases for SAP Automation"
 page_title: "Creating Test Cases for SAP Automation"
-metadesc: "SAP test cases use elements captured via Testsigma Lite. Based on element type, Testsigma suggests actions. This article covers creating and running tests."
+metadesc: "SAP test cases use elements captured via Testsigma Terminal. Based on element type, Testsigma suggests actions. This article covers creating and running tests."
 noindex: false
 order: 29.4
 page_id: "creating-test-cases-for-sap-automation"
@@ -32,7 +32,7 @@ With Testsigma’s no-code platform, you can create test cases using the capture
 > 
 >  - You should know how to create a [project](https://testsigma.com/docs/projects/overview/) and [application](https://testsigma.com/docs/projects/applications/) in Testsigma.
 > 
-> - You should have the **Testsigma Lite** installed.
+> - You should have the **Testsigma Terminal** installed.
 > 
 > - The **WinTest Automation** folder must exist in the **Testsigma Agent** directory. 
 > 
@@ -40,7 +40,7 @@ With Testsigma’s no-code platform, you can create test cases using the capture
 > 
 > - A working connection to your **SAP** system has been created using **SAP Logon**.
 > 
-> - Elements captured using Testsigma Lite.
+> - Elements captured using Testsigma Terminal.
 
 ---
 

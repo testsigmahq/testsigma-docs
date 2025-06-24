@@ -94,13 +94,11 @@ You will be taken to the Setup Single Sign-on with SAML screen as shown below:
 
 3. Click on the Edit button on Section **1 - Basic SAML Configuration,** enter the following details, and click Save:
    
-    - **Entity ID :** https://app.testsigma.com/saml/&lt;id&gt;/metadata
-
-    - **Reply URL :** https://app.testsigma.com/saml/&lt;id&gt;/callback
+    - **Entity ID :** https://id.testsigma.com/saml/2e76496a-9409-42d8-9fb9-280c48994aa5/metadata
    
-    - **Sign on URL :** (Leave it empty)
+    - **Sign on URL :** https://id.testsigma.com/saml/2e76496a-9409-42d8-9fb9-280c48994aa5/callback
    
-    - **Relay State :** https://app.testsigma.com/saml/&lt;id&gt;/callback
+    - **Relay State :**  https://id.testsigma.com/
    
     - **Logout URL :** (Leave it empty)
 
@@ -109,10 +107,10 @@ You will be taken to the Setup Single Sign-on with SAML screen as shown below:
 |    - Back in your Testsigma account, navigate to **Settings > Security**. Choose the SAML card and click **Proceed**.
 |    ![Choose identity provider as SAML](https://docs.testsigma.com/images/azure-sso/choose-identity-provider-saml.png)
 |    - You will see an exclusive SAML token identifier for your account. \
-|    ![Configuration id for saml configuration on Azure](https://s3.amazonaws.com/static-docs.testsigma.com/new_images/projects/applications/saml.png)
+|    <img src="https://s3.amazonaws.com/static-docs.testsigma.com/new_images/projects/faq/Enable_SMAIL_SSo_Half.png" style="width: 400px;" />
    
 4. You need to put this identifier in place of **\<id>** in Step 3 and click **Save**.
-   ![Fill in basic configuration details for saml configuration](https://docs.testsigma.com/images/azure-sso/fill-saml-configuration-settings-basic-details.png)
+   ![Fill in basic configuration details for saml configuration](https://s3.amazonaws.com/static-docs.testsigma.com/new_images/projects/faq/first_three_steps_2.png)
 
 5. Click on the Edit button of Section 2 - **User Attributes & Claims**. Under **Required claim**, click the Claim name/Claim value.
 
@@ -126,6 +124,7 @@ You will be taken to the Setup Single Sign-on with SAML screen as shown below:
     -  **Signing Option:** SAML response and assertion
 
     - **Signing Algorithm:** SHA-256
+![Drop-down](https://s3.amazonaws.com/static-docs.testsigma.com/new_images/projects/faq/drop_down_2.png)
 
 That's all the configuration you need to perform on Azure App for SAML-based Sign-on.
 
@@ -144,6 +143,7 @@ You can just search for **\<X509Certificate>** and copy the value between first 
 11.   Note down the following values from **Section 4 - Set Up Testsigma App**.
     - **Azure AD Identifier**
     - **Login URL**
+    ![Azure AD Identifier](https://s3.amazonaws.com/static-docs.testsigma.com/new_images/projects/faq/set_up_4.png)
 
 We will use the **X509Certificate** value, also the values above in Testsigma app in the next section.
 
@@ -159,12 +159,9 @@ Inside your Testsigma account, navigate to **Settings>Security**
     - **SAML certificate:** Downloaded **\<X509Certificate>** value (obtained in previous section from downloaded XML file).
 This value resides within the tag: **\<X509Certificate>\<X509Certificate>** Paste this value.
 
-![Azure Specific SAML Configuration On Testsigma](https://s3.amazonaws.com/static-docs.testsigma.com/new_images/projects/applications/mazcreds.png)
-
-
+![Azure Specific SAML Configuration On Testsigma](https://s3.amazonaws.com/static-docs.testsigma.com/new_images/projects/faq/Enable_SMAIL_SSO_full.png)
 
 2. Click the **Confirm** button to finalize the changes. SAML will now be enabled. 
-
 
 ---
 

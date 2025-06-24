@@ -32,7 +32,7 @@ The Batch Element Recorder enables you to capture all visible UI elements in an 
 > 
 >  - You should know how to create a [project](https://testsigma.com/docs/projects/overview/) and [application](https://testsigma.com/docs/projects/applications/) in Testsigma.
 > 
-> - You should have the **Testsigma Lite** installed.
+> - You should have the **Testsigma Terminal** installed.
 > 
 > - The **WinTest Automation** folder must exist in the **Testsigma Agent** directory. 
 > 
