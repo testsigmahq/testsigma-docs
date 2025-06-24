@@ -1,10 +1,10 @@
 ---
-title: "Introduction: Testsigma Lite"
-pagetitle: "Testsigma Lite for Live Editing"
-metadesc: "Learn how to debug test cases on local devices using Testsigma Lite, which is a live editor. With Testsigma Lite, you have complete control over test case execution and debugging."
+title: "Introduction: Testsigma Terminal"
+pagetitle: "Testsigma Terminal for Live Editing"
+metadesc: "Learn how to debug test cases on local devices using Testsigma Terminal, which is a live editor. With Testsigma Terminal, you have complete control over test case execution and debugging."
 noindex: false
 order: 10.1
-page_id: "Testsigma Lite for Debugging"
+page_id: "Testsigma Terminal for Debugging"
 search_keyword: ""
 warning: false
 contextual_links:
@@ -23,7 +23,7 @@ contextual_links:
 
 ---
 
-Testsigma Lite provides complete control over test case execution and debugging, allowing you to inspect and modify test steps immediately without requiring a re-run on failure. You can run, repeat, pause (including pause on failure), move forward or backward, edit or add steps, and modify step properties. With real-time adjustments and full control over every step, the debugger ensures precise execution and improves test reliability.
+Testsigma Terminal provides complete control over test case execution and debugging, allowing you to inspect and modify test steps immediately without requiring a re-run on failure. You can run, repeat, pause (including pause on failure), move forward or backward, edit or add steps, and modify step properties. With real-time adjustments and full control over every step, the debugger ensures precise execution and improves test reliability.
 
 ---
 
@@ -48,13 +48,13 @@ Testsigma Lite provides complete control over test case execution and debugging,
 
 ## **Getting Started**
 
-   - **Installing Testsigma Lite**
+   - **Installing Testsigma Terminal**
    
    - **Editing a Test Case Using Live Editor**
    
-   - **FAQs on Testsigma Lite**
+   - **FAQs on Testsigma Terminal**
    
-   - **Troubleshooting Guide for Testsigma Lite**
+   - **Troubleshooting Guide for Testsigma Terminal**
 
 ---
 

@@ -27,7 +27,7 @@ In Testsigma, Live Editor gives you complete control over test cases while execu
 
 > ## **Prerequisites**
 > 
-> Before you begin, ensure you know how to create [Test Cases](https://testsigma.com/docs/test-cases/manage/add-edit-delete/) and install **Testsigma Lite** application.
+> Before you begin, ensure you know how to create [Test Cases](https://testsigma.com/docs/test-cases/manage/add-edit-delete/) and install **Testsigma Terminal** application.
 
 
 ---
@@ -60,7 +60,7 @@ In Testsigma, Live Editor gives you complete control over test cases while execu
    ![Stop Live Editor](https://s3.amazonaws.com/static-docs.testsigma.com/new_images/projects/applications/Stop_Live_Editor.png)
 
 [[info | **NOTE**:]]
-| Clicking **Stop** stops the current execution but does not close the **Live Editor**. To close the **Live Editor**, open **Testsigma Lite** application and click **Quit Live Editor**.
+| Clicking **Stop** stops the current execution but does not close the **Live Editor**. To close the **Live Editor**, open **Testsigma Terminal** application and click **Quit Live Editor**.
 | ![Quit Live Editor](https://s3.amazonaws.com/static-docs.testsigma.com/new_images/projects/applications/Quit_Testsigma_Lite.png)
 
 ---
