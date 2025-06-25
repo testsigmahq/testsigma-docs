@@ -16,6 +16,8 @@ contextual_links:
 
 Whenever you face browser-related pop-up issues, you can resolve them by configuring a specific desired capability. This article explains how to use that capability to resolve such pop-up problems.
 
+<img src="https://s3.amazonaws.com/static-docs.testsigma.com/new_images/projects/faq/pop_up.png" style="width: 400px;" />
+
 ---
 
 ## **Steps to Resolve Pop-Up Issues**
