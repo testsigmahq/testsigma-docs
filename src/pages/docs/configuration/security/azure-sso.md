@@ -94,9 +94,9 @@ You will be taken to the Setup Single Sign-on with SAML screen as shown below:
 
 3. Click on the Edit button on Section **1 - Basic SAML Configuration,** enter the following details, and click Save:
    
-    - **Entity ID :** https://id.testsigma.com/saml/2e76496a-9409-42d8-9fb9-280c48994aa5/metadata
+    - **Entity ID :** https://id.testsigma.com/saml/&lt;id&gt;/metadata
    
-    - **Sign on URL :** https://id.testsigma.com/saml/2e76496a-9409-42d8-9fb9-280c48994aa5/callback
+    - **Sign on URL :** https://id.testsigma.com/saml/&lt;id&gt;/callback
    
     - **Relay State :**  https://id.testsigma.com/
    
@@ -104,9 +104,12 @@ You will be taken to the Setup Single Sign-on with SAML screen as shown below:
 
 [[info | NOTE:]]
 | You need to replace the **&lt;id&gt;** with the SAML token identifier for your account. To get your **id**, you need to follow the steps below.
-|    - Back in your Testsigma account, navigate to **Settings > Security**. Choose the SAML card and click **Proceed**.
-|    ![Choose identity provider as SAML](https://docs.testsigma.com/images/azure-sso/choose-identity-provider-saml.png)
-|    - You will see an exclusive SAML token identifier for your account. \
+|    - Back in your **Testsigma** account, navigate to your profile and click **Switch Account**.
+|    - Click **Settings** under the **Others** section on the home screen. 
+|    - In the **Settings** panel, scroll down to **Organization Settings** and click **Security (SSO)**.
+|    - In the **Single Sign-On (SSO)** settings, enable the **SAML** toggle.  
+|    ![Choose identity provider as SAML](https://s3.amazonaws.com/static-docs.testsigma.com/new_images/projects/faq/SAML_image.png)
+|    - You will see an exclusive SAML token identifier for your account. When you hover over the **Entity ID**, **Sign On URL**, and **Relay State**, you will see an option to copy each value. You can click on it to copy the URLs directly.
 |    <img src="https://s3.amazonaws.com/static-docs.testsigma.com/new_images/projects/faq/Enable_SMAIL_SSo_Half.png" style="width: 400px;" />
    
 4. You need to put this identifier in place of **\<id>** in Step 3 and click **Save**.
