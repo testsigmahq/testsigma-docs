@@ -115,6 +115,9 @@ body {
 }
 .search-block-child {
   overflow: hidden;
+  @media (min-width: 768px) {
+    width: 33%;
+  }
   @media (max-width: 767px) {
     width: 50%;
   }

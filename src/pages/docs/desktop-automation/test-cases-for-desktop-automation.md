@@ -1,7 +1,7 @@
 ---
 title: "Creating Test Cases for Desktop Automation"
 page_title: "Creating Test Cases for Desktop Automation"
-metadesc: "Desktop test cases use elements captured via Testsigma Lite. Based on element type, Testsigma suggests actions. This article covers creating and running tests."
+metadesc: "Desktop test cases use elements captured via Testsigma Terminal. Based on element type, Testsigma suggests actions. This article covers creating and running tests."
 noindex: false
 order: 30.5
 page_id: "creating-test-cases-for-desktop-automation"
@@ -22,7 +22,7 @@ contextual_links:
 
 ---
 
-Test cases for desktop applications rely on the elements captured through Testsigma Lite. Once the elements are available, Testsigma automatically suggests relevant actions based on the type of element you select in a test step. This article discusses creating and executing test cases for Desktop Applications in Testsigma. 
+Test cases for desktop applications rely on the elements captured through Testsigma Terminal. Once the elements are available, Testsigma automatically suggests relevant actions based on the type of element you select in a test step. This article discusses creating and executing test cases for Desktop Applications in Testsigma. 
 
 ---
 
@@ -30,13 +30,13 @@ Test cases for desktop applications rely on the elements captured through Testsi
 > 
 >  - You should know how to create a [project](https://testsigma.com/docs/projects/overview/) and [application](https://testsigma.com/docs/projects/applications/) in Testsigma.
 > 
-> - You should have the **Testsigma Lite** installed.
+> - You should have the **Testsigma Terminal** installed.
 > 
 > - The **WinTest Automation** folder must exist in the **Testsigma Agent** directory. 
 > 
 > - A Windows application to test and make sure it’s open on your device. 
 > 
-> - Elements captured using **Testsigma Lite**. 
+> - Elements captured using **Testsigma Terminal**. 
 
 ---
 

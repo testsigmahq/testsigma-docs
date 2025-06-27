@@ -1,10 +1,10 @@
 ---
-title: "Installing Testsigma Lite"
-pagetitle: "Installing Testsigma Lite for Live Editing"
-metadesc: "Learn how to install Testsigma Lite, which is a live editor for Test Cases | Testsigma Lite gives you complete control over test case execution and debugging to modify test steps immediately"
+title: "Installing Testsigma Terminal"
+pagetitle: "Installing Testsigma Terminal for Live Editing"
+metadesc: "Learn how to install Testsigma Terminal, which is a live editor for Test Cases | Testsigma Terminal gives you complete control over test case execution and debugging to modify test steps immediately"
 noindex: false
 order: 10.2
-page_id: "Installing Testsigma Lite for Debugging"
+page_id: "Installing Testsigma Terminal for Debugging"
 search_keyword: ""
 warning: false
 contextual_links:
@@ -17,19 +17,19 @@ contextual_links:
   name: "Download Formats Available"
   url: "#download-formats-available"
 - type: link
-  name: "Steps to Install Testsigma Lite"
-  url: "#steps-to-install-testsigma-lite"
+  name: "Steps to Install Testsigma Terminal"
+  url: "#steps-to-install-testsigma-terminal"
 - type: link
-  name: "Steps to Uninstall Testsigma Lite"
-  url: "#steps-to-uninstall-testsigma-lite"
+  name: "Steps to Uninstall Testsigma Terminal"
+  url: "#steps-to-uninstall-testsigma-terminal"
 - type: link
-  name: "File/Folder Locations of Testsigma Lite"
-  url: "#filefolder-locations-of-testsigma-lite"
+  name: "File/Folder Locations of Testsigma Terminal"
+  url: "#filefolder-locations-of-testsigma-terminal"
 ---
 
 ---
 
-Testsigma allows you to fix test case issues instantly using Live Editor. To use this feature, you must install the Testsigma Lite application. This article discusses downloading, installing, and setting it up on your machine.
+Testsigma allows you to fix test case issues instantly using Live Editor. To use this feature, you must install the Testsigma Terminal application. This article discusses downloading, installing, and setting it up on your machine.
 
 ---
 
@@ -49,35 +49,35 @@ Testsigma allows you to fix test case issues instantly using Live Editor. To use
 >    - **Download Size**: 850 MB
 >    - **Extracted Size**: 1.5 GB
 >    - **Download Location**: The ZIP file is automatically deleted after successful extraction. 
->        - **Windows**: %user_profile%\ .testsigma\TestsigmaLite\
->        - **Linux**: $HOME/.testsigma/TestsigmaLite/
->        - **Mac**: /$HOME/.testsigma/TestsigmaLite/
+>        - **Windows**: %user_profile%\ .testsigma\TestsigmaTerminal\
+>        - **Linux**: $HOME/.testsigma/TestsigmaTerminal/
+>        - **Mac**: /$HOME/.testsigma/TestsigmaTerminal/
 
 ---
 
 ## **Download Formats Available**
 
-**Testsigma Lite** is available in the following formats:
+**Testsigma Terminal** is available in the following formats:
    - Executable files (.msi)
    - DMG files (.dmg)
    - Compressed files (.tar.gz)
 
 ---
 
-## **Steps to Install Testsigma Lite**
+## **Steps to Install Testsigma Terminal**
 
-1. From the left navigation bar, go to **Agents**, and click **Testsigma Lite** in the top-right corner.
+1. From the left navigation bar, go to **Agents**, and click **Testsigma Terminal** in the top-right corner.
    ![Agents](https://s3.amazonaws.com/static-docs.testsigma.com/new_images/projects/applications/Testsigma_Lite_Agents.png)
 
-2. In the dialog box that appears, select the machine configuration. Testsigma automatically downloads **Testsigma Lite** application.
-   ![Testsigma Lite App](https://s3.amazonaws.com/static-docs.testsigma.com/new_images/projects/applications/Download_Testsigma_Lite_Dropdown.png)
+2. In the dialog box that appears, select the machine configuration. Testsigma automatically downloads **Testsigma Terminal** application.
+   ![Testsigma Terminal App](https://s3.amazonaws.com/static-docs.testsigma.com/new_images/projects/applications/Download_Testsigma_Lite_Dropdown.png)
 
-3. Install and open the **Testsigma Lite** application.
-   ![Open Testsigma Lite](https://s3.amazonaws.com/static-docs.testsigma.com/new_images/projects/applications/Testsigma_Lite.png)
+3. Install and open the **Testsigma Terminal** application.
+   ![Open Testsigma Terminal](https://s3.amazonaws.com/static-docs.testsigma.com/new_images/projects/applications/Testsigma_Lite.png)
 
 ---
 
-Try this interactive demo to learn how to download Testsigma Lite!
+Try this interactive demo to learn how to download Testsigma Terminal!
 
 <div>
   <script async src="https://js.storylane.io/js/v2/storylane.js"></script>
@@ -88,10 +88,10 @@ Try this interactive demo to learn how to download Testsigma Lite!
 
 ---
 
-4. Wait until Testsigma Lite downloads the necessary files, extracts them, and starts the agent in the background.
+4. Wait until Testsigma Terminal downloads the necessary files, extracts them, and starts the agent in the background.
    ![Preparing Agent](https://s3.amazonaws.com/static-docs.testsigma.com/new_images/projects/applications/PreparingAgent.png)
 
-5. Once **Testsigma Lite** starts, users can either continue using the existing agent by clicking **Use Existing** or install a new agent by clicking **Install New Agent**.
+5. Once **Testsigma Terminal** starts, users can either continue using the existing agent by clicking **Use Existing** or install a new agent by clicking **Install New Agent**.
    ![Register Agent](https://s3.amazonaws.com/static-docs.testsigma.com/new_images/projects/applications/Lite_Installer_Options.png)
 
 6. Follow the instructions [here](https://testsigma.com/docs/agent/setup-on-windows-mac-linux/#register-the-testsigma-agent) to register the **Agent**.
@@ -100,12 +100,12 @@ Try this interactive demo to learn how to download Testsigma Lite!
 
 ---
 
-## **Steps to Uninstall Testsigma Lite**
+## **Steps to Uninstall Testsigma Terminal**
 
 1. Click **Quit Live Editor** to exit the **Live Editor**.
    ![Quit Live Editor](https://s3.amazonaws.com/static-docs.testsigma.com/new_images/projects/applications/Quit_Live_Editor.png)
    
-2. Uninstall/Remove **Testsigma Lite** application.
+2. Uninstall/Remove **Testsigma Terminal** application.
    
    ![Remove App](https://s3.amazonaws.com/static-docs.testsigma.com/new_images/projects/applications/Remove_Testsigma_Lite.png)
 
@@ -134,7 +134,7 @@ Try this interactive demo to learn how to download Testsigma Lite!
 
 ---
 
-## **File/Folder Locations of Testsigma Lite**
+## **File/Folder Locations of Testsigma Terminal**
 
 
 ### **Agent Properties**
@@ -149,12 +149,12 @@ Try this interactive demo to learn how to download Testsigma Lite!
    - **Linux**: $HOME/.testsigma/agent/
    - **Mac**: /$HOME/Library/Application Support/Testsigma/Agent/
 
-### **Remove Testsigma Lite Traces**
+### **Remove Testsigma Terminal Traces**
 
-**Testsigma Lite state.**
-   - **Windows**: %user_profile%\AppData\Roaming\com.testsigma.testsigmalite\
-   - **Linux**: $HOME/.testsigma/com.testsigma.testsigmalite/
-   - **Mac**: /$HOME/Library/Application Support/com.testsigma.testsigmalite/
+**Testsigma Terminal state.**
+   - **Windows**: %user_profile%\AppData\Roaming\com.testsigma.testsigmaterminal\
+   - **Linux**: $HOME/.testsigma/com.testsigma.testsigmaterminal/
+   - **Mac**: /$HOME/Library/Application Support/com.testsigma.testsigmaterminal/
 
 [[info | **NOTE**:]]
 | To access **.testsigma** folder in the above path, you need to unhide hidden folders in your `user_folder`.
