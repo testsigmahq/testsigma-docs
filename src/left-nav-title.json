@@ -731,7 +731,7 @@
   "xray": {"/docs/atto/generative-ai/integrations/xray/": "Xray"},
   "qtest": {"/docs/atto/generative-ai/integrations/qtest/": "qTest"},
   "github": {"/docs/atto/generative-ai/integrations/github/": "GitHub"},
-  "data-generator": {"/docs/atto/ai-agents/data-generator/": "Data Generator"},
+  "test-data-generator": {"/docs/atto/ai-agents/test-data-generator/": "Test Data Generator"},
   "generator": {"/docs/atto/ai-agents/generator/": "Generator"},
   "optimizer": {"/docs/atto/ai-agents/optimizer/": "Optimizer"},
   "coverage-planner": {"/docs/atto/ai-agents/coverage-planner/": "Coverage Planner"},

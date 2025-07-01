@@ -58,4 +58,7 @@ The Live Editor in Testsigma helps you debug, execute, and modify test cases in 
 
 12. Click **Add to test case** to add the generated steps into the current test case.
 
+
+> For troubleshooting details and frequently asked questions, see [Terminal FAQs](https://testsigma.com/docs/live-editor/faqs-on-testsigma-terminal/).
+
 ---
