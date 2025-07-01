@@ -1,7 +1,7 @@
 ---
-title: "Data Generator in Testsigma"
-page_title: "Data Generator in Testsigma"
-metadesc: "The Data Generator in Testsigma helps you quickly create a Test Data Profile for data-driven test cases | Generate the data automatically using the Data Generator agent"
+title: "Test Data Generator in Testsigma"
+page_title: "Test Data Generator in Testsigma"
+metadesc: "The Test Data Generator in Testsigma helps you quickly create a Test Data Profile for data-driven test cases | Generate the data automatically using the Test Data Generator agent"
 noindex: false
 order: 4.7463
 page_id: "data-generator"
@@ -19,7 +19,7 @@ contextual_links:
 
 ---
 
-The Data Generator in Testsigma helps you quickly create a Test Data Profile (TDP) for data-driven test cases. Instead of manually creating multiple datasets, you can generate the data automatically using the Data Generator agent. This allows you to focus on test logic and validations rather than repetitive data entry. This article discusses using Data Generator to create and customize test data.
+The Test Data Generator in Testsigma helps you quickly create a Test Data Profile (TDP) for data-driven test cases. Instead of manually creating multiple datasets, you can generate the data automatically using the Test Data Generator agent. This allows you to focus on test logic and validations rather than repetitive data entry. This article discusses using Test Data Generator to create and customize test data.
 
 
 ---
@@ -46,7 +46,7 @@ The Data Generator in Testsigma helps you quickly create a Test Data Profile (TD
 6. Click **Generate**.
    ![Generate](https://s3.amazonaws.com/static-docs.testsigma.com/new_images/projects/Atto_Testsigma/Generate_Atto.png)
 
-7. Wait for the **Data Generator** to create data for the selected fields.
+7. Wait for the **Test Data Generator** to create data for the selected fields.
 
 8. You can click **Add more rows** to generate additional data.
 

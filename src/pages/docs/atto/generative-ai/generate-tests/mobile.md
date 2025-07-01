@@ -65,13 +65,13 @@ You can generate test cases for android and iOS applications using Testsigma’s
 
 9. Click **Generate**.
 
-10. Wait for **Generator Agent** to generate multiple test cases are generated based on the selected inputs. 
+10. Wait for **Generator Agent** to generate multiple test cases based on the selected inputs. 
 
 ---
 
 ## **Next Steps** 
 
-1. Click **Generate NLPs** to generate NLP-based test steps from manual test steps.
+Click **Generate NLPs** to generate NLP-based test steps from manual test steps.
    
    ![Generate NLPs](https://s3.amazonaws.com/static-docs.testsigma.com/new_images/projects/Atto_Testsigma/Next_Steps_Mobile.png)
 

@@ -13,11 +13,11 @@ contextual_links:
   name: "Prerequisites"
   url: "#prerequisites"
 - type: link
-  name: "Interactive Demo"
-  url: "#interactive-demo"
+  name: "Generate Test Cases Using Generator Agent"
+  url: "#generate-test-cases-using-generator-agent"
 - type: link
-  name: "Steps to Import Test Cases"
-  url: "#steps-to-import-test-cases"
+  name: "Learn the Live Application Using Live Editor"
+  url: "#learn-the-live-application-using-live-editor"
 ---
 
 ---
@@ -65,7 +65,7 @@ The Generator Agent in Testsigma allows you to quickly generate and automate tes
 
 ---
 
-## **Learn Elements Using Live Editor**
+## **Learn the Live Application Using Live Editor**
 
 1. From the generated test cases list, select a test case.
 
@@ -96,6 +96,6 @@ The Generator Agent in Testsigma allows you to quickly generate and automate tes
    ![Accept](https://s3.amazonaws.com/static-docs.testsigma.com/new_images/projects/Atto_Testsigma/Accept_Test_Case.png)
 
 [[info | **NOTE**:]]
-| If there is any discrepancy during execution, click **Reject**.
+| Even if a test case fails, you can accept it and update it later. **Reject** a test case only if it’s completely unrelated or unusable.
 
 ---
