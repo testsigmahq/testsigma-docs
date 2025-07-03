@@ -736,5 +736,6 @@
   "optimizer": {"/docs/atto/ai-agents/optimizer/": "Optimizer"},
   "coverage-planner": {"/docs/atto/ai-agents/coverage-planner/": "Coverage Planner"},
   "analyzer": {"/docs/atto/ai-agents/analyzer/": "Analyzer"},
-  "bug-reporter": {"/docs/atto/ai-agents/bug-reporter/": "Bug Reporter"}
+  "bug-reporter": {"/docs/atto/ai-agents/bug-reporter/": "Bug Reporter"},
+  "codemagic-ci" : {"/docs/continuous-integration/codemagic-ci/": "Codemagic CI/CD"} 
 }
