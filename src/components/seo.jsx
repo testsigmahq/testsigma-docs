@@ -56,7 +56,6 @@ export default function SEO({
 
   return (
     <>
-      <html lang={lang} />
       <title>{title}</title>
       {canonical ? (
         <link rel='canonical' href={canonical} />
