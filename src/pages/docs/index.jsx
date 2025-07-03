@@ -94,7 +94,7 @@ const Index = () => {
       <SEO
         title={`Testsigma Knowledge and Documentation Support`}
         slug={`/docs/`}
-        canonical={`/docs/`}
+        canonical={`https://testsigma.com/docs/`}
         metadesc={`Learn more about testsigma products and extend the platform from this documentation support and get answers to your common questions.`}
         keywords={`Testsigma Docs`}
         social_share_summary={`summary_large_image`}
