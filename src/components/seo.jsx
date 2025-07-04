@@ -71,8 +71,32 @@ function SEO({
   return (
     <>
       <HelmetProvider>
-        <Helmet
-        >
+        <Helmet prioritizeSeoTags>
+          <title>{title}</title>
+          <meta name='robots' content={isIndexed} />
+          <meta name='description' content={metadesc} />
+          <meta name='keywords' content={keywords} />
+          <meta
+            name='google-site-verification'
+            content='58TM3lGyGn6c2Bj0PvPQSNzrd9_yBsHs2BjJ6KMHlRU'
+          />
+          <meta name='author' content={site.siteMetadata.author} />
+          <meta name='og:title' content={title} />
+          <meta name='og:description' content={social_share_desc} />
+          <meta name='og:image' content={social_share_image} />
+          <meta name='og:url' content={`https://testsigma.com${slug}`} />
+          <meta name='og:type' content='website' />
+          <meta name='og:site_name' content='Testsigma Docs' />
+          <meta name='twitter:creator' content={site.siteMetadata.author} />
+          <meta name='twitter:card' content={social_share_summary} />
+          <meta name='twitter:title' content={title} />
+          <meta name='twitter:description' content={social_share_desc} />
+          <meta name='twitter:image' content={social_share_image} />
+          <meta
+            name='twitter:domain'
+            content={`https://testsigma.com${slug}`}
+          />
+          <meta name='twitter:site' content='@testsigmainc' />
           {/* fav icon */}
           <link rel='icon' href={favicon} />
           <link
@@ -224,31 +248,6 @@ function SEO({
               ']' +
               '}'}
           </script>
-          <title>{title}</title>
-          <meta name='robots' content={isIndexed} />
-          <meta name='description' content={metadesc} />
-          <meta name='keywords' content={keywords} />
-          <meta
-            name='google-site-verification'
-            content='58TM3lGyGn6c2Bj0PvPQSNzrd9_yBsHs2BjJ6KMHlRU'
-          />
-          <meta name='author' content={site.siteMetadata.author} />
-          <meta name='og:title' content={title} />
-          <meta name='og:description' content={social_share_desc} />
-          <meta name='og:image' content={social_share_image} />
-          <meta name='og:url' content={`https://testsigma.com${slug}`} />
-          <meta name='og:type' content='website' />
-          <meta name='og:site_name' content='Testsigma Docs' />
-          <meta name='twitter:creator' content={site.siteMetadata.author} />
-          <meta name='twitter:card' content={social_share_summary} />
-          <meta name='twitter:title' content={title} />
-          <meta name='twitter:description' content={social_share_desc} />
-          <meta name='twitter:image' content={social_share_image} />
-          <meta
-            name='twitter:domain'
-            content={`https://testsigma.com${slug}`}
-          />
-          <meta name='twitter:site' content='@testsigmainc' />
         </Helmet>
       </HelmetProvider>
       {loadGTM && (
