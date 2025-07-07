@@ -115,7 +115,8 @@ workflows:
 
 [[info | **NOTE**:]]
 | - Ensure the **magictrigger.sh** file is present in the same repository and marked as executable. For information on the generic shell script, see [Shell Script](https://testsigma.com/docs/continuous-integration/shell-script/).
-| ![codemagic 12](https://s3.amazonaws.com/static-docs.testsigma.com/new_images/projects/faq/Codemagic_1.9.png)
+| - Ensure you have an **API key** and a **Test Plan ID**. For more information, see [API Keys](https://testsigma.com/docs/configuration/api-keys/) and [Get Test Plan ID](https://docs.testsigma.com/images/azure-devops/get-test-plan-id.png).
+| ![shell script for Azure DevOps](https://docs.testsigma.com/images/azure-devops/shell-script-azure-devops.png)
 
 ---
 
