@@ -248,19 +248,19 @@ function SEO({
               ']' +
               '}'}
           </script>
-        </Helmet>
-      </HelmetProvider>
-      {loadGTM && (
-        <>
-          <noscript>
-            {`
+          {loadGTM && (
+            <>
+              <noscript>
+                {`
                     <iframe src="https://www.googletagmanager.com/ns.html?id=GTM-5F8HTVT"
                     height="0" width="0" style="display:none;visibility:hidden">
                     </iframe>
                     `}
-          </noscript>
-        </>
-      )}
+              </noscript>
+            </>
+          )}
+        </Helmet>
+      </HelmetProvider>
     </>
   );
 }
