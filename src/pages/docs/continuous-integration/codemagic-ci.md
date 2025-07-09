@@ -12,81 +12,121 @@ contextual_links:
   name: "Prerequisites"
   url: "#prerequisites"
 - type: link
-  name: "Steps to Integrate Testsigma with Codemagic"
-  url: "#steps-to-integrate-testsigma-with-codemagic"
+  name: "Sign Up and Authorize Codemagic"
+  url: "#sign-up-and-authorize-codemagic"
+- type: link
+  name: "Select and Configure Your Repository"
+  url: "#select-and-configure-your-repository"
+- type: link
+  name: "Configure the YAML Workflow"
+  url: "#configure-the-yaml-workflow"
+- type: link
+  name: "Add the YAML Configuration File"
+  url: "#add-the-yaml-configuration-file"
+- type: link
+  name: "Trigger the Workflow"
+  url: "#trigger-the-workflow"
 ---
 
 ---
 
-To streamline your testing workflow, you can integrate Codemagic with Testsigma and automate test execution directly from your CI/CD pipeline. This article explains how to set up Codemagic to trigger Testsigma test execution using a shell script stored in your GitHub repository.
+You can integrate Codemagic with your version control system to automate test execution using a shell script that triggers Testsigma tests via CI/CD. This article discusses configuring Codemagic with a repository and executing test automation workflows using a codemagic.yaml file.
 
 ---
 
 > ## **Prerequisites**
 > 
-> Ensure you have the following:
+> Before you begin, ensure:
 > 
->   - A **GitHub** repository
->   - A **Codemagic** trial account
+>   - You have a repository on a supported version control system (e.g., **GitHub**).
+>   - You have a **Codemagic** account.
+>   - You have a shell script in your repository that triggers Testsigma test execution.
 >
 ---
 
-## **Steps to Integrate Testsigma with Codemagic**
+## **Sign Up and Authorize Codemagic**
 
-1. Navigate to [Codemagic](https://codemagic.io/start/) and sign up using your **GitHub** account. 
+1. Navigate to [Codemagic](https://codemagic.io).
 
-2. Click **Authorize Codemagic CI/CD**. 
-<img src="https://s3.amazonaws.com/static-docs.testsigma.com/new_images/projects/faq/Codemagic_2.png" style="width: 400px;" />
+2. Sign up using your version control system (We’re using **GitHub**).
 
-3. On the **How will you be using Codemagic?** page, click the **Get Started** in the **Individual** option.
-![codemagic 3](https://s3.amazonaws.com/static-docs.testsigma.com/new_images/projects/faq/Codemagic_3.png)
+3. After signing in, authorize Codemagic by clicking **Authorize Codemagic CI/CD**.
+<img src="https://s3.amazonaws.com/static-docs.testsigma.com/new_images/projects/faq/Codemagic_1.1.png" style="width: 400px;" />
 
-4. On the **Welcome Onboard** page, under the **Connect Code** section, select **GitHub**.
-![codemagic 4](https://s3.amazonaws.com/static-docs.testsigma.com/new_images/projects/faq/Codemagic_4.png)
+4. On the **How will you be using Codemagic?** page, select the preferred option.
+![codemagic 4](https://s3.amazonaws.com/static-docs.testsigma.com/new_images/projects/faq/Codemagic_1.2.png)
+
+5. On the **Welcome Onboard** page, under **Connect Code**, choose your version control provider (e.g., **GitHub**).
+![codemagic 5](https://s3.amazonaws.com/static-docs.testsigma.com/new_images/projects/faq/Codemagic_1.3.png)
 
 [[info | **NOTE**:]]
-| If you face any trouble, click **Click here** and then click **Install and Authorize**. Your **GitHub** repositories will appear in Codemagic.
+| -  If your repositories do not appear, click **Click here**, then select **Install and Authorize** to refresh the connection.
 
-5. Select the required option from the drop-down and click **Select repository**.
-![codemagic 5](https://s3.amazonaws.com/static-docs.testsigma.com/new_images/projects/faq/Codemagic_5.png)
+---
 
-6. Enter the project path in the **Project path** field and click **Retry** to let **Codemagic** scan the repository again. Alternatively, click **Set Type Manually** to choose the project type yourself.
-![codemagic 6](https://s3.amazonaws.com/static-docs.testsigma.com/new_images/projects/faq/Codemagic_6.png)
+## **Select and Configure Your Repository**
 
-7. After selecting the project type, click **Create Application** to continue.
-![codemagic 7](https://s3.amazonaws.com/static-docs.testsigma.com/new_images/projects/faq/Codemagic_7.png)
+1. Under **Select repository**, choose the appropriate repository from the dropdown menu and click **Select repository**.
+![codemagic 6](https://s3.amazonaws.com/static-docs.testsigma.com/new_images/projects/faq/Codemagic_1.4.png)
 
-8. You will be taken to the following page:
-![Codemagic 8](https://s3.amazonaws.com/static-docs.testsigma.com/new_images/projects/faq/Codemagic_8.png)
+2. Enter the relative path to your project in the **Project path** field.
 
-9. In your **GitHub** repository, create a new file named **codemagic.yaml**.
+3. Click **Retry** to allow Codemagic to scan the repository.
 
-10. Add the following content to the file:
+Alternatively, click **Set Type Manually** to specify the project type.
+![codemagic 7](https://s3.amazonaws.com/static-docs.testsigma.com/new_images/projects/faq/Codemagic_1.5.png)
 
-    ```
- workflows:
-   run-testsigma:
+4. Select the project type and click **Create Application**.
+![codemagic 8](https://s3.amazonaws.com/static-docs.testsigma.com/new_images/projects/faq/Codemagic_1.6.png)
+
+---
+
+## **Configure the YAML Workflow**
+
+1. On the workflow screen, click **Switch to YAML configuration**.
+![codemagic 9](https://s3.amazonaws.com/static-docs.testsigma.com/new_images/projects/faq/Codemagic_2.3.png)
+
+2. In the **Update Settings** dialog, select the **codemagic.yaml** radio button and click **Save changes**.
+![odemagic 10](https://s3.amazonaws.com/static-docs.testsigma.com/new_images/projects/faq/Codemagic_2.4.png)
+
+---
+
+## **Add the YAML Configuration File**
+
+1. In your repository, create a new file named **codemagic.yaml** at the root directory.
+
+2. Add the following YAML script:
+
+```
+workflows:
+  run-testsigma:
     name: Run Testsigma Shell Script
     scripts:
       - name: Trigger Testsigma
         script: |
           chmod +x ./magictrigger.sh
           ./magictrigger.sh
-    ``` 
-![codemagic 9](https://s3.amazonaws.com/static-docs.testsigma.com/new_images/projects/faq/Codemagic_9.png)
+```
+![codemagic 11](https://s3.amazonaws.com/static-docs.testsigma.com/new_images/projects/faq/Codemagic_1.8.png)
 
-11. Once you add the **codemagic.yaml** file to your **GitHub** repository, it will automatically appear on the **Codemagic** page.
-![codemagic 10](https://s3.amazonaws.com/static-docs.testsigma.com/new_images/projects/faq/Codemagic_10.png)
+3. Commit and push the file to your repository.
 
-12. You can configure **environment variables** and **webhooks** in **Codemagic** if required.
+4. **(Optional)** Configure **Environment Variables**, **Webhooks**, and other settings in **Codemagic** if necessary.
 
-13. Before starting the build, make sure you have a **GitHub** repository and create a **.sh** file with the required script. Please refer to [Testsigma Shell Script Integration](https://testsigma.com/docs/continuous-integration/shell-script/) for more details. 
-![codemagic 11](https://s3.amazonaws.com/static-docs.testsigma.com/new_images/projects/faq/Codemagic_11.png)
+[[info | **NOTE**:]]
+| - Ensure the **magictrigger.sh** file is present in the same repository and marked as executable. For information on the generic shell script, see [Shell Script](https://testsigma.com/docs/continuous-integration/shell-script/).
+| - Ensure you have an **API key** and a **Test Plan ID**. For more information, see [API Keys](https://testsigma.com/docs/configuration/api-keys/) and [Get Test Plan ID](https://docs.testsigma.com/images/azure-devops/get-test-plan-id.png).
+| ![shell script for Azure DevOps](https://docs.testsigma.com/images/azure-devops/shell-script-azure-devops.png)
 
-14. Return to the **Codemagic** and click **Start new build**.
-![codemagic 12](https://s3.amazonaws.com/static-docs.testsigma.com/new_images/projects/faq/Codemagic_12.png)
+---
 
-15. **Codemagic** will pick up your **codemagic.yaml** and begin execution. You can view the results and logs after opening the build.
-![codemagic 13](https://s3.amazonaws.com/static-docs.testsigma.com/new_images/projects/faq/Codemagic_13.png)
+## **Trigger the Workflow**
+
+1. Navigate to **Codemagic**.
+
+2. Click **Start new build**.
+![codemagic 13](https://s3.amazonaws.com/static-docs.testsigma.com/new_images/projects/faq/Codemagic_2.1.png)
+
+Codemagic will detect the **codemagic.yaml** file and initiate the workflow. After the build completes, you can view the execution logs and test results.
 
 ---
