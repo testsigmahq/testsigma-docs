@@ -67,36 +67,26 @@ Testsigma allows you to fix test case issues instantly using Live Editor. To use
 ## **Steps to Install Testsigma Terminal**
 
 1. From the left navigation bar, go to **Agents**, and click **Testsigma Terminal** in the top-right corner.
-   ![Agents](https://s3.amazonaws.com/static-docs.testsigma.com/new_images/projects/applications/Testsigma_Lite_Agents.png)
+   ![Testsigma Terminal](https://s3.amazonaws.com/static-docs.testsigma.com/new_images/projects/terminal/Terminal_1.1.png)
 
-2. In the dialog box that appears, select the machine configuration. Testsigma automatically downloads **Testsigma Terminal** application.
-   ![Testsigma Terminal App](https://s3.amazonaws.com/static-docs.testsigma.com/new_images/projects/applications/Download_Testsigma_Lite_Dropdown.png)
+2. In the dialog box that appears, select the machine configuration. Testsigma automatically downloads the **Testsigma Terminal** application.
+   ![Machine configuration](https://s3.amazonaws.com/static-docs.testsigma.com/new_images/projects/terminal/Terminal_2.1.png)
 
 3. Install and open the **Testsigma Terminal** application.
-   ![Open Testsigma Terminal](https://s3.amazonaws.com/static-docs.testsigma.com/new_images/projects/applications/Testsigma_Lite.png)
+   
+4. Click **Login to Testsigma**. You will be redirected to Testsigma. 
+   ![login to testsigma](https://s3.amazonaws.com/static-docs.testsigma.com/new_images/projects/terminal/Terminal_3.png)
 
----
+[[info | **NOTE**:]]
+| Once you log in to your agent, the session stays valid for 24 hours. Even if you close and reopen the application during this time, the agent will register automatically. After 24 hours, you'll need to log in manually, after which the agent will be registered automatically.
 
-Try this interactive demo to learn how to download Testsigma Terminal!
+5. Click **Open the desktop app**. The **Testsigma Terminal** opens. 
+   ![Open the desktop App](https://s3.amazonaws.com/static-docs.testsigma.com/new_images/projects/terminal/Terminal_4.2.png)
 
-<div>
-  <script async src="https://js.storylane.io/js/v2/storylane.js"></script>
-  <div class="sl-embed" style="position:relative;padding-bottom:calc(57.41% + 25px);width:100%;height:0;transform:scale(1)">
-    <iframe loading="lazy" class="sl-demo" src="https://app.storylane.io/demo/4pokktnswqli?embed=inline" name="sl-embed" allow="fullscreen" allowfullscreen style="position:absolute;top:0;left:0;width:100%!important;height:100%!important;border:1px solid rgba(63,95,172,0.35);box-shadow: 0px 0px 18px rgba(26, 19, 72, 0.15);border-radius:10px;box-sizing:border-box;"></iframe>
-  </div>
-</div>
+6. Wait until **Testsigma Terminal** downloads the necessary files, extracts them, and registers the agent.
 
----
-
-4. Wait until Testsigma Terminal downloads the necessary files, extracts them, and starts the agent in the background.
-   ![Preparing Agent](https://s3.amazonaws.com/static-docs.testsigma.com/new_images/projects/applications/PreparingAgent.png)
-
-5. Once **Testsigma Terminal** starts, users can either continue using the existing agent by clicking **Use Existing** or install a new agent by clicking **Install New Agent**.
-   ![Register Agent](https://s3.amazonaws.com/static-docs.testsigma.com/new_images/projects/applications/Lite_Installer_Options.png)
-
-6. Follow the instructions [here](https://testsigma.com/docs/agent/setup-on-windows-mac-linux/#register-the-testsigma-agent) to register the **Agent**.
-
-7. Once the Agent is activated, you can start debugging the test cases.
+[[info | **NOTE**:]]
+| If you encounter any issues with the **Testsigma Terminal**, click **Report Issue** from the left panel. Provide a description of the problem, upload the agent log, and make sure to include the **App Session ID** and **Debugging ID**. To obtain the Debugging ID, ensure the agent was started through Testsigma.
 
 ---
 
