@@ -67,11 +67,27 @@ Familiarise yourself with these key terms before proceeding:
 
 ## **Getting the Testsigma Configuration for Okta**
 
-1. Navigate to **Settings** > **Security (SSO)**.
-2. On the **Security SSO** page, you will see options for **Google** and **SAML**. Enable the **SAML** toggle.
+1. Navigate to your profile and click **Switch Account**.
+
+2. Click **Settings** under the **Others** section on the home screen.
+
+3. In the **Settings** panel, scroll down to **Organization Settings** and click **Security (SSO)**.
+
+4. In the **Single Sign-On (SSO)** settings, enable the toggle on **SAML** widget. 
+   
 [[info | NOTE:]]
-| You can use only one SSO for your account. If you are using Google SSO, turn it off first.
-3. In the **Enable SSO** pop-up, record the **Entity ID (Identifier)** and **Single Sign-On (ACS) URL** for use in Okta configuration. ![getting testsigma configuration](https://s3.amazonaws.com/static-docs.testsigma.com/new_images/projects/applications/getting_testsigma_configuration.gif)
+| You can use only one SSO for your account. If you are using **Google SSO**, turn it off first.
+
+5. In the **Enable SSO** pop-up, record the **Entity ID (Identifier)** and **Single Sign-On (ACS) URL** for use in Okta configuration. 
+
+Here's an interactive demo:
+
+<div>
+  <script async src="https://js.storylane.io/js/v2/storylane.js"></script>
+  <div class="sl-embed" style="position:relative;padding-bottom:calc(55.43% + 25px);width:100%;height:0;transform:scale(1)">
+    <iframe loading="lazy" class="sl-demo" src="https://app.storylane.io/demo/p0nweevh9rsj?embed=inline" name="sl-embed" allow="fullscreen" allowfullscreen style="position:absolute;top:0;left:0;width:100%!important;height:100%!important;border:1px solid rgba(63,95,172,0.35);box-shadow: 0px 0px 18px rgba(26, 19, 72, 0.15);border-radius:10px;box-sizing:border-box;"></iframe>
+  </div>
+</div>
 
 ---
 
