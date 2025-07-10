@@ -737,5 +737,6 @@
   "coverage-planner": {"/docs/atto/ai-agents/coverage-planner/": "Coverage Planner"},
   "analyzer": {"/docs/atto/ai-agents/analyzer/": "Analyzer"},
   "bug-reporter": {"/docs/atto/ai-agents/bug-reporter/": "Bug Reporter"},
-  "codemagic-ci" : {"/docs/continuous-integration/codemagic-ci/": "Codemagic CI/CD"} 
+  "codemagic-ci" : {"/docs/continuous-integration/codemagic-ci/": "Codemagic CI/CD"},
+  "google-cloud-build-ci" : {"/docs/continuous-integration/google-cloud-build-ci/": "Google Cloud Build CI/CD"}
 }
