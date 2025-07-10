@@ -13,6 +13,9 @@ contextual_links:
   name: "Prerequisites"
   url: "#prerequisites"
 - type: link
+  name: "Single Sign-on Options Available"
+  url: "#single-sign-on-options-available"
+- type: link
   name: "Steps to Enable SSO in Testsigma"
   url: "#steps-to-enable-sso-in-testsigma"
 ---
@@ -42,10 +45,17 @@ Single Sign-On (SSO) is an authentication process that allows you to access an a
     ![onelogin logo](https://docs.testsigma.com/images/security/onelogin-logo.png)
     ![microsoft azure logo](https://docs.testsigma.com/images/security/microsoft-azure-logo.png)
 
+## **Steps to Enable SSO in Testsigma**
 
-You can navigate to **Settings > Security (SSO)** on Testsigma application to enable SSO depending on your provider.
+1. Navigate to your profile and click **Switch Account**.
 
-![Security](https://s3.amazonaws.com/static-docs.testsigma.com/new_images/projects/applications/ssognav.png)
+2. Click **Settings** under the **Others** section on the home screen.
+
+3. In the **Settings** panel, scroll down to **Organization Settings** and click **Security (SSO)**.
+
+4. In the **Single Sign-On (SSO)** settings, you can enable the SSO depending on your provider.
+
+![enable sso](https://s3.amazonaws.com/static-docs.testsigma.com/new_images/projects/sso/SAML_image.1.png)
 
 Follow one of the links below to set up SSO depending on your provider:
 
