@@ -77,7 +77,8 @@ Below are a few of the most commonly used Desired Capabilities in executions usi
 
 |Description|Capability Name|Data Type|Value|
 |---|---|---|---|
-|Accept insecure/expired certificates|acceptInsecureCerts|boolean|True|
+|Accept insecure/expired certificates|acceptInsecureCerts|Boolean|True|
+|Execute tests in Private browsing|MsOptions|String|{"args":["--inprivate"]}|
 
 ---
 
