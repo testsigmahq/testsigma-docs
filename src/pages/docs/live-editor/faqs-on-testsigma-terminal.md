@@ -154,8 +154,8 @@ warning: false
     
 ### **14. Why is the Testsigma Terminal not launching on Linux (.appimage file not opening)?**
 
-**Answer:** The issue occurs because Linux users receive the **Testsigma Terminal** in **.appimage** format, which requires all necessary dependencies to be available on the system. If dependencies are missing, the **.appimage** may not run and become unclickable. 
+**Answer:** The issue occurs because Linux users receive the **Testsigma Terminal** in **.appimage** format, which requires all necessary dependencies to be available on the system. If dependencies are missing, the **.appimage** may not launch the installer.
 
-**Workaround:** A quick way to fix is to install the missing dependencies and try again. 
+**Workaround:** Please install the missing dependencies shown in the error screen and try again. 
 
 ---
