@@ -152,5 +152,10 @@ warning: false
     
 - **Windows:** Press **Windows + R**, type `control folders`, go to **View**, and select **Show hidden files, folders, and drives**.
     
+### **14. Why is the Testsigma Terminal not launching on Linux (.appimage file not opening)?**
+
+**Answer:** The issue occurs because Linux users receive the **Testsigma Terminal** in **.appimage** format, which requires all necessary dependencies to be available on the system. If dependencies are missing, the **.appimage** may not launch the installer.
+
+**Workaround:** Please install the missing dependencies shown in the error screen and try again. 
 
 ---

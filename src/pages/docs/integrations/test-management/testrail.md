@@ -101,10 +101,27 @@ Here's a structured hierarchy flow of test case linkage between Testsigma and Te
 | If you're selecting **TestRail Custom with Case Match** Addon, you need to enter the project name in the **PROJECT_NAME** text box, API key in the **API_KEY** text box, and the template URL in the **TEMPLATE_URL** text box.
 |
 | ![CaseMatcher Addon](https://s3.amazonaws.com/static-docs.testsigma.com/new_images/projects/applications/CaseMatcher_Addon.png)
-
-[[info | **NOTE**:]]
+|
 | - Ensure that the project name entered in the **Test Plan Settings** matches exactly with the name in **TestRail**.
 | - Obtain valid Testsigma API Key from **Settings > API** Keys.
+
+[[info | **INFO 💡**:]]
+| ### **Steps to Create a Template URL for TestRail Custom with Case Match Add-on**
+| - #### **Download the JUnit Template XML File**
+|    - Go to the [Download JUnit Template XML](https://drive.google.com/file/d/1caC7QFZKoShFsRubnIZ-Vze-BcxJqta1/view). 
+|    - Download the XML file to your local system. 
+|    ![Download JUnit Template](https://s3.amazonaws.com/static-docs.testsigma.com/new_images/projects/integration/Testrail_1.png).
+| - #### **Copy the Downloaded File’s URL**
+|    - Open your browser’s **Download History** page. 
+|    - Locate the downloaded JUnit XML file. 
+|    - Right-click the file and select **Copy link address** or click the **Copy download link** icon.  
+|    ![Copy link address](https://s3.amazonaws.com/static-docs.testsigma.com/new_images/projects/integration/Testrail_2.png)
+|  > **Note:**  The URL is valid for a limited time. Copy and use it immediately in the next step.
+| - #### **Create/Update the Test Plan with the Template URL**
+|    - Navigate to the **Test Plan Settings** in the **TestRail** integration screen.
+|    - Paste the copied URL in the **TEMPLATE_URL** field.
+|    - Click **Create** or **Update**.
+|    ![Template URL](https://s3.amazonaws.com/static-docs.testsigma.com/new_images/projects/integration/TestRail_3.1.png)
 
 4. Go to **Test Plans** and click **Run Now** to execute the test plan. This will create a duplicate of the test run and display the result once the execution is complete.
    ![Test Plan Execution](https://s3.amazonaws.com/static-docs.testsigma.com/new_images/projects/applications/TestRail_TestPlan.png)

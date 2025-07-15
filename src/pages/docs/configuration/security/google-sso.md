@@ -36,18 +36,19 @@ With SSO, you are not required to store and manage passwords for the websites yo
 
 ## **Steps to Enable SSO in Testsigma**
 
-1. Navigate to **Settings > Security (SSO)**.
-![Security](https://s3.amazonaws.com/static-docs.testsigma.com/new_images/projects/applications/ssognav.png)
+1. Navigate to your profile and click **Switch Account**.
 
-2. Enable the toggle on **Google** widget. 
-![Toggle](https://s3.amazonaws.com/static-docs.testsigma.com/new_images/projects/applications/ssotg.png)
+2. Click **Settings** under the **Others** section on the home screen.
+
+3. In the **Settings** panel, scroll down to **Organization Settings** and click **Security (SSO)**.
+
+4. In the **Single Sign-On (SSO)** settings, enable the toggle on **Google** widget. 
 
 [[info | **NOTE**:]]
 | The toggle will be disabled if you’re not logged into **G Suite**. You can login by clicking on **Click** here.
-| ![G Suite](https://s3.amazonaws.com/static-docs.testsigma.com/new_images/projects/applications/ssoch.png)
+| ![G Suite](https://s3.amazonaws.com/static-docs.testsigma.com/new_images/projects/sso/SAML_google.png)
 
-3. Your Google SSO login option will now be enabled. 
-![Google Enabled](https://s3.amazonaws.com/static-docs.testsigma.com/new_images/projects/applications/ssownbe.png)
+5. Your Google SSO login option will now be enabled. 
 
 The next time you login to Testsigma, you and your teammates can log in using Google.
 
@@ -55,6 +56,3 @@ The next time you login to Testsigma, you and your teammates can log in using Go
 
 
 ---
-
-
-
