@@ -22,16 +22,13 @@ If you encounter browser-related permission issues during execution in Testsigma
 ## **Steps to Resolve Permission Issues**
 
 1. From the left navigation bar, go to **Create Tests** and click **Test Cases**.
-   ![Test Cases](https://s3.amazonaws.com/static-docs.testsigma.com/new_images/projects/faq/Permission_issue_1.png)
 
 2. In the **Test Case Explorer** section, expand the required **Feature** and **Scenario** and select the required test case.
-   ![Select a test case](https://s3.amazonaws.com/static-docs.testsigma.com/new_images/projects/faq/Permission_Issue_2.png)
 
 3. In the **Test Case Details** page, click **Run**.
-   ![Run button](https://s3.amazonaws.com/static-docs.testsigma.com/new_images/projects/faq/Permission_issue_3.png)
 
 4. In the **Ad-Hoc Run** overlay, expand the **Desired Capabilities** field and specify the following desired capability.
-   ![desired capability](https://s3.amazonaws.com/static-docs.testsigma.com/new_images/projects/faq/Permission_issue_4.png)
+   ![desired capability](https://s3.amazonaws.com/static-docs.testsigma.com/new_images/projects/faq/Permission_issue_4.1.png)
 
 ### **For Firefox**
 
