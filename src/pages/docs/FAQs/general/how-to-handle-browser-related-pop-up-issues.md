@@ -32,7 +32,7 @@ Whenever you face browser-related pop-up issues, you can resolve them by configu
 
    | **Name** | **Data Type** | **Value** |
    | ------------- | ------------- | ------------- |
-   | goog:chromeOptions | String | {"prefs": {"profile.password_manager_leak_detection": false}} |
+   | goog:chromeOptions | String | {"prefs": {"profile.password\_manager\_leak\_detection": false}} |
 
 5. Click **Run Now**. 
 
