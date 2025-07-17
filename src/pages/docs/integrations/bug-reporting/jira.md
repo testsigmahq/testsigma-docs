@@ -41,8 +41,29 @@ To integrate Jira with Testsigma, you need the following:
 2. Enable toggle on **Jira** widget. 
 ![Jira Toggle](https://s3.amazonaws.com/static-docs.testsigma.com/new_images/projects/applications/jrnav.png)
 
-3. On the **Jira Details** prompt, enter **Account URL**, **User Name**, **API Key** and click on **Save & Enable**.
+3. On the **Jira Details** prompt, enter the following and click **Save & Enable**. 
+
+   - **Account URL:** https://(organizationname).atlassian.net/ 
+   - **User Name:** Please enter your email ID.
+   - **API Key:** Paste the token you generated from your Jira account.
+ 
 ![Jira Details](https://s3.amazonaws.com/static-docs.testsigma.com/new_images/projects/applications/jrdetails.png)
+
+[[info | **INFO 💡**:]]
+| ### **Steps to Generate API Key**
+| 1. Sign in to your Jira account.
+| 2. Click your Profile icon and select **Account Settings**.
+| ![Account Settings](https://s3.amazonaws.com/static-docs.testsigma.com/new_images/projects/integration/Jira_Server_6.png)
+| 3. In the **Account** page, go to the **Security** tab.
+| ![Security](https://s3.amazonaws.com/static-docs.testsigma.com/new_images/projects/integration/Jira_Server_7.1.png)
+| 4. In the **Security** page, under **API Tokens**, click **Create and manage API tokens** or **API Tokens**.
+| ![API Tokens](https://s3.amazonaws.com/static-docs.testsigma.com/new_images/projects/integration/Jira_Server_8.png)
+| 5. In the **API Tokens** page, click **Create API token**.
+| ![Create API Token](https://s3.amazonaws.com/static-docs.testsigma.com/new_images/projects/integration/Jira_Server_9.png)
+| 6. In the **Create an API token** dialog, enter a name and click **Create**.
+| ![Create](https://s3.amazonaws.com/static-docs.testsigma.com/new_images/projects/faq/API_Token.png)
+| 7. In the **Copy your API token** dialog, click **Copy** and then click **Done**.
+| ![Done](https://s3.amazonaws.com/static-docs.testsigma.com/new_images/projects/integration/Jira_Server_11.png)
 
 ---
 

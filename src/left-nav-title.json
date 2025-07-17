@@ -738,5 +738,6 @@
   "analyzer": {"/docs/atto/ai-agents/analyzer/": "Analyzer"},
   "bug-reporter": {"/docs/atto/ai-agents/bug-reporter/": "Bug Reporter"},
   "codemagic-ci" : {"/docs/continuous-integration/codemagic-ci/": "Codemagic CI/CD"},
-  "google-cloud-build-ci" : {"/docs/continuous-integration/google-cloud-build-ci/": "Google Cloud Build CI/CD"}
+  "google-cloud-build-ci" : {"/docs/continuous-integration/google-cloud-build-ci/": "Google Cloud Build CI/CD"},
+  "jira-server" : {"/docs/atto/generative-ai/integrations/jira-server/": "Jira Server"}
 }
