@@ -3,7 +3,7 @@ title: "Integrating Figma with Testsigma"
 page_title: "Integrating Figma with Testsigma"
 metadesc: "Effortlessly generate test cases directly from Figma designs for efficient testing. You can integrate your Figma account & generate multiple test cases with a click."
 noindex: false
-order: 4.7442
+order: 4.7443
 page_id: "tntegrating-figma-with-testsigma"
 warning: false
 contextual_links:
