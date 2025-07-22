@@ -71,7 +71,7 @@ Let’s learn more about these grids.
 
    Use this option only if the application that you need to test is accessible over the Internet and not blocked by the firewall of a company network.
 
-5. **Private Grid**   
+7. **Private Grid**   
 
    Similar to Local Devices, a Private grid allows you to configure a set of Machines for local Execution. Please contact the Testsigma Support team for more details as this involves Advanced Steps.
 
