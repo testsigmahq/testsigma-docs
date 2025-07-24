@@ -26,7 +26,10 @@ contextual_links:
   url: "#perform-visual-testing-in-test-case"
 - type: link
   name: "Optimizing Visual Testing with Ignore Sections"
-  url: "#optimizing-visual-testing-with-ignore-sections"    
+  url: "#optimizing-visual-testing-with-ignore-sections"
+- type: link
+  name: "Visual Testing Mode"
+  url: "#visual-testing-mode"     
 - type: link
   name: "Benefits of Visual Testing"
   url: "#benefits-of-visual-testing"    
@@ -113,6 +116,37 @@ When you conduct visual testing using Testsigma, you should compare the **curren
 
 5. Review the regions you marked as ignored and click **Save**. 
 
+---
+
+## **Visual Testing Mode**
+
+In Testsigma, Visual Testing helps compare base and current images using two modes: **Strict** and **Lenient**. Strict mode performs a full pixel-by-pixel comparison for exact matches. Lenient mode also compares pixel by pixel but allows you to set a threshold percentage. For example, if you set the threshold to 70%, Testsigma checks that 70% of the pixels are identical and ignores differences in the other 30%.
+
+If you don’t want to compare entire images, you can focus on specific areas using the **Select Region** feature and apply **Strict** or **Lenient** mode as needed. Similarly, the **Ignore Region** option lets you exclude certain areas from comparison.
+
+### **Steps to Set the Visual Testing Mode**
+
+1. Click **Ad-hoc Runs** in the **Utility Panel**, then click **View Details** to open the test case result page.
+   ![View Details](https://s3.amazonaws.com/static-docs.testsigma.com/new_images/projects/visual_testing/Visual_Testing_1.png)
+
+2. Click the **Camera** icon to open the **Visual Difference** overlay screen.
+   ![Visual Difference](https://s3.amazonaws.com/static-docs.testsigma.com/new_images/projects/visual_testing/Visual_testsing_2.png)
+
+3. Expand the **Visual Testing Mode** field and select **Strict** or **Lenient**.
+   ![Visual Testing Mode](https://s3.amazonaws.com/static-docs.testsigma.com/new_images/projects/visual_testing/Visual_Testing_3.png)
+
+4. If you select **Lenient**, enter the desired percentage in the **Threshold** field.
+   ![Threshold](https://s3.amazonaws.com/static-docs.testsigma.com/new_images/projects/visual_testing/visual_Testing_4.png)
+
+[[info | **NOTE**:]]
+| To apply **Lenient** mode to a specific area of the base image, click the **Select region to highlight for visual comparison** icon to enable it. Then expand the option and choose **Select selection**.
+| ![Select selection](https://s3.amazonaws.com/static-docs.testsigma.com/new_images/projects/visual_testing/Visual_Testing_5.png)
+
+[[info | **NOTE**:]]
+| **AI Insights** in Testsigma provides a detailed UI Difference Analysis Report whenever visual differences are detected between the base and current images.
+| This report helps you quickly identify the root cause of UI mismatches and offers suggestions for resolution. You can also copy these insights for debugging purposes.
+
+---
 
 ---
 
