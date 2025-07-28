@@ -1,8 +1,8 @@
-name: "CD"
+name: 'CD'
 on:
   push:
     branches:
-      - "main"
+      - 'main'
 jobs:
   Deploy:
     runs-on: ubuntu-latest
@@ -15,13 +15,13 @@ jobs:
       - name: Setup Node 18
         uses: actions/setup-node@v2
         with:
-          node-version: "18"
+          node-version: '18'
       - name: Install dependencies
         run: |
           npm i --force --unsafe-perm
       - name: Force installing sharp
         run: npm install --ignore-scripts=false --verbose sharp@0.30.7 --unsafe-perm --force
-      - name: "Create env file"
+      - name: 'Create env file'
         run: |
           rm -rf .env
           touch .env
@@ -36,8 +36,8 @@ jobs:
           echo TYPESENSE_PORT=${{ secrets.TYPESENSE_PORT }} >> .env
           echo TYPESENSE_PROTOCOL=${{ secrets.TYPESENSE_PROTOCOL }} >> .env
           echo TYPESENSE_COLLECTION=${{ secrets.TYPESENSE_COLLECTION }} >> .env
-          echo TYPESENSE_API_KEY=${{ secrets.TYPESENSE_API_KEY }} >> .env
-          echo TYPESENSE_SEARCH_API_KEY=${{ secrets.TYPESENSE_SEARCH_API_KEY }} >> .env
+          echo TYPESENSE_API_KEY=T1Fw9aDmbvKn4rqtr2b5PIJxTW8alwW5 >> .env
+          echo TYPESENSE_SEARCH_API_KEY=TH4P4Mo070MqtFzfsWHvpUv1JN9YN4Bm >> .env
           cat .env
       - name: Build
         run: |
@@ -45,14 +45,14 @@ jobs:
         env:
           AWS_ACCESS_KEY_ID: ${{ secrets.AWS_ACCESS_KEY_ID }}
           AWS_SECRET_ACCESS_KEY: ${{ secrets.AWS_SECRET_ACCESS_KEY }}
-          AWS_DEFAULT_REGION: "us-east-1"
+          AWS_DEFAULT_REGION: 'us-east-1'
           AWS_DEFAULT_OUTPUT: json
           TYPESENSE_HOST: ${{ secrets.TYPESENSE_HOST }}
           TYPESENSE_PORT: ${{ secrets.TYPESENSE_PORT }}
           TYPESENSE_PROTOCOL: ${{ secrets.TYPESENSE_PROTOCOL }}
           TYPESENSE_COLLECTION: ${{ secrets.TYPESENSE_COLLECTION }}
-          TYPESENSE_API_KEY: ${{ secrets.TYPESENSE_API_KEY }}
-          TYPESENSE_SEARCH_API_KEY: ${{ secrets.TYPESENSE_SEARCH_API_KEY }}
+          TYPESENSE_API_KEY: T1Fw9aDmbvKn4rqtr2b5PIJxTW8alwW5
+          TYPESENSE_SEARCH_API_KEY: TH4P4Mo070MqtFzfsWHvpUv1JN9YN4Bm
 
       - name: Start Gatsby server
         run: npm run develop &
@@ -73,8 +73,8 @@ jobs:
           TYPESENSE_PORT: ${{ secrets.TYPESENSE_PORT }}
           TYPESENSE_PROTOCOL: ${{ secrets.TYPESENSE_PROTOCOL }}
           TYPESENSE_COLLECTION: ${{ secrets.TYPESENSE_COLLECTION }}
-          TYPESENSE_API_KEY: ${{ secrets.TYPESENSE_API_KEY }}
-          TYPESENSE_SEARCH_API_KEY: ${{ secrets.TYPESENSE_SEARCH_API_KEY }}
+          TYPESENSE_API_KEY: T1Fw9aDmbvKn4rqtr2b5PIJxTW8alwW5
+          TYPESENSE_SEARCH_API_KEY: TH4P4Mo070MqtFzfsWHvpUv1JN9YN4Bm
 
       - name: Stop Gatsby server
         run: lsof -i :8000 -t | xargs kill
