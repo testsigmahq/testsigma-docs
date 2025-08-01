@@ -57,14 +57,7 @@ For more information, see [Guide to IP Whitelisting](https://www.linkedin.com/pu
 
 ---
 
-## **2. Secure Tunnel/VPN**
-
-Contact support **support@testsigma.com** to learn more about this. Our team will set up this for you.
-
-
----
-
-## **3. Testsigma Agent**
+## **2. Testsigma Agent**
 
 You can also test locally hosted applications using the Testsigma Agent, which allows test executions on your local machines and mobile devices. To do this, set up the Testsigma Agent utility on your local machine. 
 
