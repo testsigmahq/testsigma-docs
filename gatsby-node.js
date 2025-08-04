@@ -177,11 +177,11 @@ exports.sourceNodes = async ({
   createNode(prepareNode(output.docs, 'leftNavLinks'));
 };
 
-// exports.createSchemaCustomization = ({ actions }) => {
-//   const { createTypes } = actions;
-//   createTypes(`
-//     type MarkdownRemark implements Node {
-//       pluginCreator___NODE: String
-//     }
-//   `);
-// };
+exports.createSchemaCustomization = ({ actions }) => {
+  const { createTypes } = actions;
+  createTypes(`
+    type MarkdownRemark implements Node {
+      pluginCreator___NODE: String
+    }
+  `);
+};
