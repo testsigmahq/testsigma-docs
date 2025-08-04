@@ -17,7 +17,7 @@ jobs:
           node-version: '18'
       - name: Install dependencies
         run: |
-          rm -rf node_modules && npm i --force --unsafe-perm
+          npm run clean && rm -rf node_modules && npm i --force --unsafe-perm
       - name: Force installing sharp
         run: npm install --ignore-scripts=false --verbose sharp@0.30.7 --force --unsafe-perm
       - name: 'Create env file'
@@ -42,5 +42,4 @@ jobs:
           cat .env
       - name: Build
         run: |
-          npm install gatsby-transformer-remark --force
           PREFIX_PATHS=true npm run build
