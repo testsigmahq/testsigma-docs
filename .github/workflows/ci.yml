@@ -42,4 +42,5 @@ jobs:
           cat .env
       - name: Build
         run: |
+          npm install gatsby-transformer-remark
           PREFIX_PATHS=true npm run build
