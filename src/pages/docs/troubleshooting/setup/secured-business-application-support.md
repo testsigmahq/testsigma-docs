@@ -47,11 +47,5 @@ For more information, refer to:
 
 **5. Addons (To access NLPs)**: Installing Testsigma addons will extend built-in actions with custom actions. These actions can be anything from clicking first, then scrolling, clicking again, scrolling indefinitely till the bottom of the page, and so on. 
 - For more information, refer to [addons](https://testsigma.com/docs/addons/what-is-an-addon/).
-  
-
-**6. VPN Tunneling**: For security reasons, sometimes the recorder cannot access the application while testing Android and iOS apps. In this case, VPN tunneling can be used to establish a secure and encrypted connection over the internet. You can connect with Testsigma support (*support@testsigma.com*) to know more. 
-
-
-
 
 ---
