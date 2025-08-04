@@ -17,7 +17,7 @@ jobs:
           node-version: '18'
       - name: Install dependencies
         run: |
-          npm run clean && rm -rf node_modules && npm i --force --unsafe-perm
+          rm -rf node_modules && npm i --force --unsafe-perm && npm run clean
       - name: Force installing sharp
         run: npm install --ignore-scripts=false --verbose sharp@0.30.7 --force --unsafe-perm
       - name: 'Create env file'
