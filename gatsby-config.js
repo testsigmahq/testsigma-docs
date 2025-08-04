@@ -18,6 +18,7 @@ module.exports = {
     'gatsby-plugin-postcss',
     'gatsby-plugin-sass',
     'gatsby-plugin-image',
+    'gatsby-plugin-react-helmet',
     {
       resolve: 'gatsby-source-filesystem',
       options: {
@@ -29,7 +30,6 @@ module.exports = {
       resolve: `gatsby-transformer-remark`,
       options: {
         plugins: [
-          'gatsby-plugin-react-helmet',
           {
             resolve: 'gatsby-remark-embed-video',
             options: {
