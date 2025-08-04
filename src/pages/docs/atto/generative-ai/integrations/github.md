@@ -3,7 +3,7 @@ title: "Integrating GitHub with Testsigma"
 page_title: "Agentic Test Generation with GitHub"
 metadesc: "Integrate GitHub with Testsigma to automatically generate test cases using Atto when a pull request is raised | GitHub Integration for Agentic Tests in Testsigma"
 noindex: false
-order: 4.7446
+order: 4.7445
 page_id: "agentic-test-generation-with-github"
 warning: false
 contextual_links:

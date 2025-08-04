@@ -3,7 +3,7 @@ title: "FAQs on Testsigma Terminal"
 pagetitle: "FAQs on Testsigma Live Editor"
 metadesc: "Find answers to frequently questions about Testsigma's Live Editor (Testsigma Terminal), including its features, installation, usage, and how it helps resolve issues in test cases in real time"
 noindex: false
-order: 10.6
+order: 10.4
 page_id: "Frequently Asked Questions on Live Editor"
 search_keyword: ""
 warning: false

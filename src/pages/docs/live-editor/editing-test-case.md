@@ -3,7 +3,7 @@ title: "Editing a Test Case Using Live Editor"
 pagetitle: "Editing a Test Case Live Using Testsigma Live Editor"
 metadesc: "Learn how to edit a test case live using Testsigma Live Editor | Testsigma Live Editor allows you to check step details of the test case without having to re-run on test failure"
 noindex: false
-order: 10.5
+order: 10.3
 page_id: "Editing a Test Case Using Live Editor"
 search_keyword: ""
 warning: false
