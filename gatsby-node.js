@@ -3,7 +3,7 @@ const glob = require('glob');
 const fs = require('fs');
 const frontmatter = require('@github-docs/frontmatter');
 const { v4: uuidv4 } = require('uuid');
-const { createFilePath } = require('gatsby-source-filesystem');
+const { File } = require('gatsby-source-filesystem');
 const redirects = require('./src/redirects.json');
 const leftNavTitle = require('./src/left-nav-title.json');
 
@@ -12,7 +12,7 @@ const ignorePaths = [];
 exports.onCreateNode = ({ node, getNode, actions }) => {
   const { createNodeField } = actions;
   if (node.internal.type === 'MarkdownRemark') {
-    const slug = createFilePath({ node, getNode, basePath: 'pages' });
+    const slug = File({ node, getNode, basePath: 'pages' });
     createNodeField({
       node,
       name: 'slug',
