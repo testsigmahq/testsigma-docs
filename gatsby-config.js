@@ -39,7 +39,9 @@ module.exports = {
       resolve: `gatsby-transformer-remark`,
       options: {
         plugins: [
-          //
+          'gatsby-plugin-react-helmet',
+          'gatsby-remark-responsive-iframe',
+          'gatsby-remark-check-links',
         ],
       },
     },
