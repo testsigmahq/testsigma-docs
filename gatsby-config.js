@@ -39,9 +39,18 @@ module.exports = {
       resolve: `gatsby-transformer-remark`,
       options: {
         plugins: [
-          'gatsby-plugin-react-helmet',
-          'gatsby-remark-responsive-iframe',
-          'gatsby-remark-check-links',
+          {
+            resolve: `gatsby-remark-images`,
+            options: {
+              maxWidth: 800, // as this doc repo does not require more than 900px size images.
+            },
+          },
+          {
+            resolve: `gatsby-remark-autolink-headers`,
+            options: {
+              elements: [`h2`],
+            },
+          },
         ],
       },
     },
