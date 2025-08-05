@@ -24,7 +24,15 @@ module.exports = {
       resolve: 'gatsby-source-filesystem',
       options: {
         name: 'src',
+        path: `${__dirname}/src/pages/`,
+      },
+    },
+    {
+      resolve: 'gatsby-source-filesystem',
+      options: {
+        name: 'src',
         path: `${__dirname}/src/`,
+        ignore: [`**/docs/**`], // Ignore the docs folder here to prevent duplicates
       },
     },
     {
