@@ -1,10 +1,10 @@
 ---
-title: "Agent Logs"
+title: "How to Configure Agent Logs?"
 page_title: "Agent Logs: Configuration, Sending, and Debugging Guide"
 metadesc: "Learn to configure agent log levels, send logs automatically or manually, and debug errors efficiently to resolve execution issues quickly."
 noindex: false
 order: 11.92
-page_id: "testsigma-agent-logs"
+page_id: "how-to-configure-agent-logs-?"
 search_keyword: ""
 warning: false
 contextual_links:
