@@ -1,9 +1,9 @@
 ---
-title: "Upgrade Testsigma Agent Automatically"
+title: "How to Upgrade Testsigma Agent Automatically?"
 metadesc: "Testsigma application has the capability to download & install the agent automatically. This article discusses how to upgrade Testsigma agent automatically"
 noindex: false
 order: 11.93
-page_id: "Upgrade Testsigma Agent Automatically"
+page_id: "how-to-upgrade-testsigma-agent-automatically-?"
 search_keyword: ""
 warning: false
 contextual_links:
@@ -36,20 +36,20 @@ Testsigma can download and install the agent automatically if there's a higher v
 
 2. Once you start the agent, if a higher version is available, it'll automatically download the agent. 
 
-![Agent Start](https://s3.amazonaws.com/static-docs.testsigma.com/new_images/projects/applications/agentupstart.png)
+   ![Agent Start](https://s3.amazonaws.com/static-docs.testsigma.com/new_images/projects/applications/agentupstart.png)
 
 
 [[info | **NOTE**:]]
 | - You'll get the following message if there's an interruption in the network. 
 |
-| ![Upgrade Failed](https://s3.amazonaws.com/static-docs.testsigma.com/new_images/projects/applications/upgradefailed.png)
+|   ![Upgrade Failed](https://s3.amazonaws.com/static-docs.testsigma.com/new_images/projects/applications/upgradefailed.png)
 |
 | - Once the network is stable, the download will start from the beginning once again.
 
 
 3. Post download, the agent will start automatically, and you'll get the **Upgrade Success** message. 
 
-![Upgrade Success](https://s3.amazonaws.com/static-docs.testsigma.com/new_images/projects/applications/agentupgrade.png)
+   ![Upgrade Success](https://s3.amazonaws.com/static-docs.testsigma.com/new_images/projects/applications/agentupgrade.png)
 
 
 ---
