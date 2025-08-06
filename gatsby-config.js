@@ -57,6 +57,12 @@ module.exports = {
               noInlineHighlight: false,
             },
           },
+          {
+            resolve: `gatsby-remark-autolink-headers`,
+            options: {
+              elements: [`h2`],
+            },
+          },
         ],
       },
     },
