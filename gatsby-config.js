@@ -47,41 +47,6 @@ module.exports = {
               },
             },
           },
-          {
-            resolve: 'gatsby-remark-prismjs',
-            options: {
-              classPrefix: 'language-',
-              inlineCodeMarker: null,
-              aliases: {},
-              showLineNumbers: false,
-              noInlineHighlight: false,
-            },
-          },
-          {
-            resolve: `gatsby-remark-images`,
-            options: {
-              maxWidth: 800, // as this doc repo does not require more than 900px size images.
-            },
-          },
-          {
-            resolve: `gatsby-remark-autolink-headers`,
-            options: {
-              elements: [`h2`],
-            },
-          },
-          {
-            resolve: 'gatsby-remark-embed-video',
-            options: {
-              width: 800,
-              ratio: 1.77,
-              height: 400,
-              related: false,
-              noIframeBorder: true,
-              loadingStrategy: 'lazy',
-              containerClass: 'embedVideo-container',
-              iframeId: false,
-            },
-          },
         ],
       },
     },
