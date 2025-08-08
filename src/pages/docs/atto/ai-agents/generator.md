@@ -69,6 +69,10 @@ The Generator Agent in Testsigma allows you to quickly generate and automate tes
 
 1. From the generated test cases list, select a test case.
 
+   [[info | **NOTE**:]]
+   | To start automating and interact live with the app, make sure the **Generator (Live App)** toggle is turned on. Go to **Settings > Preferences > Agentic AI > Generator**, and enable the toggle.
+   | ![Generator toggle](https://s3.amazonaws.com/static-docs.testsigma.com/new_images/projects/Atto_Testsigma/Generator_Toggle.png)
+
 2. Click **Start Automating**.
    ![Start Automating](https://s3.amazonaws.com/static-docs.testsigma.com/new_images/projects/Atto_Testsigma/Start_Automating_Tests.png)
 
