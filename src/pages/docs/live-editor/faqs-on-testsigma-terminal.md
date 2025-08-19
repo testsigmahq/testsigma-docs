@@ -218,10 +218,10 @@ warning: false
 5. Download and install the latest **Testsigma Terminal** from the **Testsigma** app.
 
 
-For instructions on installing the **Testsigma Terminal**, see:
-   - [Terminal installation for macOS](https://testsigma.com/docs/live-editor/installing-testsigma-terminal/)
-   - [Terminal installation for Windows](https://testsigma.com/docs/live-editor/installing-testsigma-terminal-on-windows/)
-   - [Terminal installation for Linux](https://testsigma.com/docs/live-editor/installing-testsigma-terminal-on-linux/)
+> For instructions on installing the **Testsigma Terminal**, see:
+>    - [Terminal installation for macOS](https://testsigma.com/docs/live-editor/installing-testsigma-terminal/)
+>    - [Terminal installation for Windows](https://testsigma.com/docs/live-editor/installing-testsigma-terminal-on-windows/)
+>    - [Terminal installation for Linux](https://testsigma.com/docs/live-editor/installing-testsigma-terminal-on-linux/)
 
 ---
 
@@ -231,6 +231,7 @@ For instructions on installing the **Testsigma Terminal**, see:
 **Answer:** Authentication errors during installation occur if the user switches accounts through the installation or if leftover processes or files from a previous installation remain. To resolve this, perform the common cleanup process as described in the port busy issue.
 
    ![Authentication Error in Live Editor](https://s3.amazonaws.com/static-docs.testsigma.com/new_images/projects/Atto_Testsigma/auth_error_terminal.png)
+
 ---
 
 **17. Why do test steps not update and features not work in the Live Editor?**
