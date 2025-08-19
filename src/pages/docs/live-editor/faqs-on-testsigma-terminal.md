@@ -151,11 +151,76 @@ warning: false
 - **Mac:** Press **Command (⌘) + Shift + .** in **Finder**.
     
 - **Windows:** Press **Windows + R**, type `control folders`, go to **View**, and select **Show hidden files, folders, and drives**.
-    
+
+---
+
 ### **14. Why is the Testsigma Terminal not launching on Linux (.appimage file not opening)?**
 
 **Answer:** The issue occurs because Linux users receive the **Testsigma Terminal** in **.appimage** format, which requires all necessary dependencies to be available on the system. If dependencies are missing, the **.appimage** may not launch the installer.
 
 **Workaround:** Please install the missing dependencies shown in the error screen and try again. 
+
+---
+
+### **15. What should I do if I see a port error during Terminal or Live Editor installation?**
+
+**Answer:** You may see an error screen during the download of a new Terminal or Live Editor if all required ports are in use. This usually occurs when processes from a previous installation are still running. This article discusses resolving port-in-use errors when installing the Terminal.
+
+![Error](https://s3.amazonaws.com/static-docs.testsigma.com/new_images/projects/Atto_Testsigma/Terminal_Port_Error.png)
+
+**Steps to Resolve for macOS:**
+
+1. Quit the **Live Editor** if it is open. 
+   ![Quit Live Editor](https://s3.amazonaws.com/static-docs.testsigma.com/new_images/projects/Atto_Testsigma/Quit_Live_Editor_PE.png)
+
+2. Open Activity Monitor and end any **wrapper** or **atto** processes.
+   ![Kill Tasks](https://s3.amazonaws.com/static-docs.testsigma.com/new_images/projects/Atto_Testsigma/Kill_Tasks_in_Activity_Monitor.png)
+
+3. Go to your **Users** folder and show hidden files by pressing **Command+Shift+.**.
+   ![Hidden Folders](https://s3.amazonaws.com/static-docs.testsigma.com/new_images/projects/Atto_Testsigma/Hidden_Files_in_Users.png)
+
+[[info | **NOTE**:]]
+| **For Windows**: In **File Explorer**, go to **View** and select **Hidden items**.
+| **For Linux**: Press **Ctrl + H**.
+
+4. Delete all subfolders inside **/Users/&lt;username&gt;/.testsigma/**.
+   ![Delete Folders in .testsigma](https://s3.amazonaws.com/static-docs.testsigma.com/new_images/projects/Atto_Testsigma/hidden_folder_testsigma.png)
+
+5. Delete all subfolders inside **/Users/&lt;username&gt;/Library/Application Support/Testsigma/**.
+   ![Delete Folders in Testsigma](https://s3.amazonaws.com/static-docs.testsigma.com/new_images/projects/Atto_Testsigma/Hidden_Folder_Testsigma2.png)
+
+6. Download and install the latest **Testsigma Terminal** from the Testsigma app. 
+
+[[info | **NOTE**:]]
+| You must remove all files from both **.testsigma** and **Testsigma** folders before reinstalling.
+
+
+**Steps to Resolve for Windows:**
+
+1. Close the **Live Editor** and any previously running agent.
+
+2. Open **Task Manager** and end the following processes, if they are running:
+   - **abd.exe**
+   - **Winautomation.exe**
+   - **appium.exe**
+   - **ios.exe**
+   - **atto-browser.exe**
+   - **chromeDriver.exe**
+
+   ![Task Manager Windows](https://s3.amazonaws.com/static-docs.testsigma.com/new_images/projects/Atto_Testsigma/Task_Manager_Windows.png)
+
+3. Delete all subfolders inside **%UserProfile%\\.testsigma**.
+   ![.testsigma folder](https://s3.amazonaws.com/static-docs.testsigma.com/new_images/projects/Atto_Testsigma/Testsigma_folder_windows.png)
+
+4. Delete all subfolders inside **%UserProfile%\AppData\Roaming\Testsigma**.
+   ![Testsigma Folder](https://s3.amazonaws.com/static-docs.testsigma.com/new_images/projects/Atto_Testsigma/Testsigma_folder_windows2.png)
+
+5. Download and install the latest **Testsigma Terminal** from the **Testsigma** app.
+
+
+For instructions on installing the **Testsigma Terminal**, see:
+   - [Terminal installation for macOS](https://testsigma.com/docs/live-editor/installing-testsigma-terminal/)
+   - [Terminal installation for Windows](https://testsigma.com/docs/live-editor/installing-testsigma-terminal-on-windows/)
+   - [Terminal installation for Linux](https://testsigma.com/docs/live-editor/installing-testsigma-terminal-on-linux/)
 
 ---
