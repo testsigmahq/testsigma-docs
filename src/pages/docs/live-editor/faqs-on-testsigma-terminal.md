@@ -224,3 +224,17 @@ For instructions on installing the **Testsigma Terminal**, see:
    - [Terminal installation for Linux](https://testsigma.com/docs/live-editor/installing-testsigma-terminal-on-linux/)
 
 ---
+
+
+**16. What should I do if I see an authentication error while installing the Terminal or Live Editor?**
+
+**Answer:** Authentication errors during installation occur if the user switches accounts through the installation or if leftover processes or files from a previous installation remain. To resolve this, perform the common cleanup process as described in the port busy issue.
+
+   ![Authentication Error in Live Editor](https://s3.amazonaws.com/static-docs.testsigma.com/new_images/projects/Atto_Testsigma/auth_error_terminal.png)
+---
+
+**17. Why do test steps not update and features not work in the Live Editor?**
+
+**Answer:** The Live Editor may launch the local browser and execute test steps but fail to update results or allow recording additional steps due to agent incompatibility with Chrome version 139. To fix this issue, delete the entire **.testsigma** folder and restart the Terminal. This will trigger a new agent download and restore full Live Editor functionality. 
+
+---
