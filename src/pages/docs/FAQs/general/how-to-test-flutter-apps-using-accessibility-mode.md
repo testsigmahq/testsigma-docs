@@ -55,4 +55,7 @@ $0.click();
 11. Run your test. It should now successfully interact with the Flutter UI using accessibility-based locators.
     ![Flutter apps 3](https://s3.amazonaws.com/static-docs.testsigma.com/new_images/projects/faq/Flutter_3.png)
     
+[[info | NOTE:]]
+| - Accessibility mode is not supported on iOS devices when using the Safari browser.
+
 ---
