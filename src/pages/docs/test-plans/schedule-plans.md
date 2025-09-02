@@ -34,7 +34,7 @@ In Testsigma, you can schedule your test plans to automate their execution and m
 
 > ## **Prerequisites**
 >
-> Before you schedule a test plan in Testsigma, you must understand the concepts of creating the [Test Plan](https://testsigma.com/docs/test-management/test-plans/overview/).
+> Before you begin, ensure that you have referred to the documentation for [creating test plan](https://testsigma.com/docs/test-management/test-plans/overview/) before scheduling a test plan in Testsigma.
 
 ---
 

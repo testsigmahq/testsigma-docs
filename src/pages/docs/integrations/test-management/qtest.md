@@ -38,7 +38,7 @@ qTest is a manual test management tool. With qTest integration in Testsigma, you
 > ## **Prerequisites**
 >
 > 
-> Before you begin, ensure you have a valid **Host URL** and **Bearer Token** from qTest. Also, make sure you know how to create [Test Cases](https://testsigma.com/docs/test-cases/manage/add-edit-delete/) and [Test Plans](https://testsigma.com/docs/test-management/test-plans/overview/) in Testsigma.
+> Before you begin, ensure you have a valid **Host URL** and **Bearer Token** from qTest and have referred to the documentation for [creating test cases](https://testsigma.com/docs/test-cases/manage/add-edit-delete/) and [test plans](https://testsigma.com/docs/test-management/test-plans/overview/) in Testsigma. 
 
 ---
 

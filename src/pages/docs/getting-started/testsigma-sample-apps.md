@@ -25,7 +25,7 @@ This article provides a few sample applications for users to practice testing in
 
     - https://mobile-simply-travel.testsigma.com/
 
-*For more information on how to create test cases, refer to [test cases](https://testsigma.com/docs/test-cases/manage/add-edit-delete/).*
+*For more information on how to create test cases, refer to the documentation on [test cases](https://testsigma.com/docs/test-cases/manage/add-edit-delete/).*
 
 
 2. Use the following apps for practicing mobile app testing.
@@ -36,7 +36,7 @@ This article provides a few sample applications for users to practice testing in
     - [SMS Forwarder Application](https://s3.amazonaws.com/static-docs.testsigma.com/new_images/projects/applications/smsforward.apk)
 
 
-*For more information on uploading mobile apps for testing, refer to [upload android and iOS apps](https://testsigma.com/docs/uploads/upload-apps/).*
+*For more information on uploading mobile apps for testing, refer to the documentation on [upload android and iOS apps](https://testsigma.com/docs/uploads/upload-apps/).*
 
 3. Use the following link for practicing API testing:
 

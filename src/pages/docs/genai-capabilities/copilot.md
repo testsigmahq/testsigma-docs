@@ -36,7 +36,7 @@ Testsigma Copilot redefines test automation with the power of generative AI 🤖
 
 > ## **Prerequisites**
 > 
-> Before you begin, enable AI Features from **Settings > Preferences > Generative AI features** and ensure you're familiar with the concepts of [Test Cases](https://testsigma.com/docs/test-cases/manage/add-edit-delete/).
+> Before you begin, enable AI Features from **Settings > Preferences > Generative AI features** and and referred to the documentation for creating test cases [documentation for creating test sases](https://testsigma.com/docs/test-cases/manage/add-edit-delete/) in Testsigma. 
 
 
 ---

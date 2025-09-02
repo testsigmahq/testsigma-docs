@@ -32,7 +32,7 @@ To perform reliable tests, you need to find these elements. This guide will expl
 ---
 > ## **Prerequisites**
 >
-> Before you begin, ensure that you understand specific concepts such as creating [projects](https://testsigma.com/docs/projects/overview/), [test cases](https://testsigma.com/docs/test-cases/manage/add-edit-delete/), [elements](https://testsigma.com/docs/elements/overview/), and [recording test steps](https://testsigma.com/docs/test-cases/create-test-steps/overview/#creating-test-steps-using-test-recorder).
+> Before you begin, ensure that you have referred to the documentation for [creating projects](https://testsigma.com/docs/projects/overview/), [test cases](https://testsigma.com/docs/test-cases/manage/add-edit-delete/), [elements](https://testsigma.com/docs/elements/overview/), and for [recording test steps](https://testsigma.com/docs/test-cases/create-test-steps/overview/#creating-test-steps-using-test-recorder).
 
 ---
 

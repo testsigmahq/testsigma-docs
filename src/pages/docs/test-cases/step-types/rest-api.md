@@ -26,7 +26,7 @@ Using Rest API Testing in Testsigma, you can validate the behaviour of RESTful A
 ---
 ### **Prerequisites**
 
-Before using the Rest API in a test step, you must understand specific concepts such as creating [Projects](https://testsigma.com/docs/projects/overview/), [Test Cases](https://testsigma.com/docs/test-cases/manage/add-edit-delete/), using [Test Step Types](https://testsigma.com/docs/test-cases/step-types/overview/) and understanding [RESTful API Testing](https://testsigma.com/docs/test-cases/create-steps-restapi/restful-api-overview/).
+Before you begin, ensure that you have referred to the documentation for [creating projects](https://testsigma.com/docs/projects/overview/), [test cases](https://testsigma.com/docs/test-cases/manage/add-edit-delete/),  [test step types](https://testsigma.com/docs/test-cases/step-types/overview/), and [RESTful API testing](https://testsigma.com/docs/test-cases/create-steps-restapi/restful-api-overview/).
 
 ---
 
@@ -39,7 +39,7 @@ Before using the Rest API in a test step, you must understand specific concepts 
 Here is a quick GIF demonstrating the above workflow: ![Add Rest API in Test Step](https://s3.amazonaws.com/static-docs.testsigma.com/new_images/projects/applications/addrestapi_teststep.gif)
 
 [[info | NOTE:]]
-| Refer to how to [Create a Project](https://testsigma.com/docs/projects/overview/#creating-a-project) for Rest API to create a separate **Rest API Application** in the project for conducting RESTful API Testing.
+| For more information on how to create a project, refer to the documentation on [creating a project](https://testsigma.com/docs/projects/overview/#creating-a-project) to set up a separate REST API Application within the project for performing RESTful API testing.
 
 ---
 
@@ -73,7 +73,7 @@ Follow the steps below on the Rest API screen, which will appear, to configure y
 Here is a quick GIF demonstrating the above workflow: ![Configure Rest API test step](https://s3.amazonaws.com/static-docs.testsigma.com/new_images/projects/applications/config_restapitst2.gif)
 
 [[info | NOTE:]]
-| For more information on RESTful API testing in a test case, refer to [RESTful API Testing](https://testsigma.com/docs/test-cases/create-steps-restapi/restful-api-overview/).
+| For more information on RESTful API testing in a test case, refer to the documentation on [RESTful API testing](https://testsigma.com/docs/test-cases/create-steps-restapi/restful-api-overview/).
 
 ---
 

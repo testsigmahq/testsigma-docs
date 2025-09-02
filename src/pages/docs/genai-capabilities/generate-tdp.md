@@ -25,8 +25,7 @@ With Testsigma Copilot, you can quickly generate a Test Data Profile. This elimi
 
 > ## **Prerequisites**
 > 
-> Before you begin, enable AI Features from **Settings > Preferences > Generative AI features** and ensure you're familiar with the concepts of [Test Cases](https://testsigma.com/docs/test-cases/manage/add-edit-delete/) and [Test Data Profiles](https://testsigma.com/docs/test-data/create-data-profiles/) in Testsigma.
-
+> Before you begin, enable AI Features from **Settings > Preferences > Generative AI features** and have referred to the documentation for [understanding test cases](https://testsigma.com/docs/test-cases/manage/add-edit-delete/) and [test data profiles](https://testsigma.com/docs/test-data/create-data-profiles/) in Testsigma.
 
 ---
 
@@ -40,7 +39,7 @@ With Testsigma Copilot, you can quickly generate a Test Data Profile. This elimi
 
 3. In the **Test Case Details** page, click **Record** to open the **Testsigma Test Recorder** in a new window.
 
-4. Create test steps by performing actions or use **Copilot** to generate steps automatically. *For more information, see [Creating Test Cases Using Copilot](https://testsigma.com/docs/test-cases/create-test-steps/overview/#ai-test-automation-with-testsigma-copilot-).*
+4. Create test steps by performing actions or use **Copilot** to generate steps automatically. *For more information on creating test cases uisng Copilot, refer to the documentation on [creating test cases using Copilot](https://testsigma.com/docs/test-cases/create-test-steps/overview/#ai-test-automation-with-testsigma-copilot-).*
 5. When you're done, click **Stop** to end the session. You will be redirected to the **Test Case Details** page.
 
 6. A confirmation dialog will appear.

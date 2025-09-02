@@ -27,8 +27,7 @@ In Testsigma, Live Editor gives you complete control over test cases while execu
 
 > ## **Prerequisites**
 > 
-> Before you begin, ensure you know how to create [Test Cases](https://testsigma.com/docs/test-cases/manage/add-edit-delete/) and install **Testsigma Terminal** application.
-
+> Before you begin, ensure that you have referred to the documentation for [creating test cases](https://testsigma.com/docs/test-cases/manage/add-edit-delete/) and installing the Testsigma Terminal application.
 
 ---
 

@@ -37,7 +37,7 @@ This guide will explain how to do headless browser testing in Testsigma. It will
 
 > ## **Prerequisites**
 >
-> Before using the Headless browser testing feature, you should understand the concepts of [Projects](https://testsigma.com/docs/projects/overview/), [Test Cases](https://testsigma.com/docs/test-cases/manage/add-edit-delete/), [Test Plans](https://testsigma.com/docs/test-management/test-plans/overview/), [Ad-hoc Runs](https://testsigma.com/docs/runs/adhoc-runs/), and [Test Machines](https://testsigma.com/docs/test-management/test-plans/manage-test-machines/) in Testsigma.
+> Before you begin, ensure that you have referred to the documentation for [projects](https://testsigma.com/docs/projects/overview/), [test cases](https://testsigma.com/docs/test-cases/manage/add-edit-delete/), [test plans](https://testsigma.com/docs/test-management/test-plans/overview/),  [Ad-Hoc runs](https://testsigma.com/docs/runs/adhoc-runs/), and [test machines](https://testsigma.com/docs/test-management/test-plans/manage-test-machines/) in Testsigma. 
 
 [[info | NOTE:]]
 | Headless testing can test web applications

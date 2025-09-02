@@ -27,7 +27,7 @@ This article discusses generating end to end automated test cases based on user 
 
 > ## **Prerequisites**
 > 
-> Before you begin, enable AI Features from **Settings > Preferences > Generative AI features** and ensure you're familiar with the concepts of [Test Cases](https://testsigma.com/docs/test-cases/manage/add-edit-delete/).
+> Before you begin, enable AI Features from **Settings > Preferences > Generative AI features** and have referred to the documentation for [understanding test case](https://testsigma.com/docs/test-cases/manage/add-edit-delete/) in Testsigma.
 
 ---
 

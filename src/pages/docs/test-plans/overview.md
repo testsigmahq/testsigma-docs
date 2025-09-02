@@ -34,7 +34,7 @@ In Testsigma, the Test Plan helps plan and organise software testing. The Test P
 
 > ## **Prerequisites**
 >
-> Before using a Test Plan, you must understand specific concepts, such as creating [Projects](https://testsigma.com/docs/projects/overview/), [Test Cases](https://testsigma.com/docs/test-cases/manage/add-edit-delete/) and [Test Suites](https://testsigma.com/docs/test-management/test-suites/overview/).
+> Before you begin, ensure that you have referred to the documentation for [creating projects](https://testsigma.com/docs/projects/overview/), [test cases](https://testsigma.com/docs/test-cases/manage/add-edit-delete/), and [test suites](https://testsigma.com/docs/test-management/test-suites/overview/).
 
 ---
 
@@ -57,17 +57,17 @@ In Testsigma, the Test Plan helps plan and organise software testing. The Test P
     - **Labels**: You can label the Test Plan. Labels make it easier to manage multiple Test Plans, as they help with sorting and grouping.
     - **Test Plan Type**: Select either the test plan type: **Cross Browser Testing** (Use single/ multiple browsers to test all the test suites; for more information, refer to [Cross Browser Testing](https://testsigma.com/docs/test-management/test-plans/cross-browser-testing/)) or **Custom Test Plan** (Manually add test machine profiles to individual test suites).
 3. In the **Add Test Suites & Link Machine Profiles** tab, provide the following details and then click **Continue**:
-    - Click **Add Test Suites** to include test suites in the test plan (for more information, refer to [Manage Test Suites in Test Plan](https://testsigma.com/docs/test-management/test-plans/manage-test-suites/)).
-    - Next, click the **Test Machine** icon to add machine profiles to the test plan. An overlay will appear, and you can select a pre-defined machine or create a new test machine. Once you have selected, click **Save Selection** (for more information, refer to [Manage Test Machines in Test Plan](https://testsigma.com/docs/test-management/test-plans/manage-test-machines/)).
+    - Click **Add Test Suites** to include test suites in the test plan (for more information on how to manage test suites in test plan, refer to the documentation on [manage test suites in test plan](https://testsigma.com/docs/test-management/test-plans/manage-test-suites/)).
+    - Next, click the **Test Machine** icon to add machine profiles to the test plan. An overlay will appear, and you can select a pre-defined machine or create a new test machine. Once you have selected, click **Save Selection** (for more information on how to manage test machines in test plans, refer to the documentation on [manage test machines in test plan](https://testsigma.com/docs/test-management/test-plans/manage-test-machines/)).
 4. In the **Test Plan Settings** tab, provide the following details, and click **Create**:
-    - **Send Notification**: Enable the toggle for Send Notification and specify when to receive the notifications (for example, select to receive notifications when your test plans are **Passed**, **Failed**, **Not Executed**, **Queued**, **Stopped**, or **Running**. You can enter the emails or check the box to **Add my email** for receiving notifications through email. Messages can also be sent to collaboration tools like Google Chat, Slack, or MS Teams.
+    - **Send Notification**: Enable the toggle for Send Notification and specify when to receive the notifications (for example, select to receive notifications when your test plans are **Passed**, **Failed**, **Not Executed**, **Queued**, **Stopped**, or **Running**). You can enter the emails or check the box to **Add my email** for receiving notifications through email. Messages can also be sent to collaboration tools like Google Chat, Slack, or MS Teams.
     - **Additional Settings**: Provide the following details under additional settings:
         - **Environment**: Select the test environment.
         - **Screenshot Capture**: Select when the screenshots need to be taken, for **None**, **All Steps** or **Failed Steps alone**.
         - **Page Timeout**: Duration for which the test should wait for the page to load.
         - **Element Timeout**: Duration for which the test should wait for the element to load.
     - **Recovery Actions**: Click **Recovery Actions** to open the recovery actions section and define what actions should happen.
-    - **Post Plan Hook**: Select the Post Plan Hook and define actions or tasks to be performed once the test plan is executed and conditions are met (for more information, refer to [Post Plan Hook](https://testsigma.com/docs/test-management/test-plans/post-plan-hook/)).
+    - **Post Plan Hook**: Select the Post Plan Hook and define actions or tasks to be performed once the test plan is executed and conditions are met (for more information on post plan hook, refer to the documentation on [post plan hook](https://testsigma.com/docs/test-management/test-plans/post-plan-hook/)).
 ![Create Test Plan](https://s3.amazonaws.com/static-docs.testsigma.com/new_images/projects/applications/creatinga_testplan.gif)
 
 ---
@@ -86,9 +86,9 @@ In Testsigma, the Test Plan helps plan and organise software testing. The Test P
 4. In the **Test Machine & Suites** tab, you can view **Machine Name**, **Configuration**, **No of Suites**, **Parallel Settings** and **Session Settings** on the Test Suites details page.
     - Click the **ellipsis** icon and select **Edit** or **Delete** to manage the Test Machine.
     - **Toggle** the Test Machine switch in the test plan to turn the test machine on or off.
-    - Click the **Search** icon to search for a test machine in the test plan, and then click **Add Machine** to add a new Test Machine to the plan (for more information, refer to the [Manage Test Machines](https://testsigma.com/docs/test-management/test-plans/manage-test-machines/)).
-5. In the **CI/CD Integrations** tab, view **Default Integrations tools** and **Rest API to integrate with other tools** (for more information, refer to the [Integrations](https://testsigma.com/docs/integrations/overview/)).
-6. In the **Schedules** tab, view **Test Plan Schedules**, and you can edit and delete the schedules (for more information, refer to the [Schedule Test Plans](https://testsigma.com/docs/test-management/test-plans/schedule-plans/)). ![Manage Test Plan](https://s3.amazonaws.com/static-docs.testsigma.com/new_images/projects/applications/manage_testplan.gif)
+    - Click the **Search** icon to search for a test machine in the test plan, and then click **Add Machine** to add a new Test Machine to the plan (for more information on how to manage test machines, refer to the documentation on [manage test machines](https://testsigma.com/docs/test-management/test-plans/manage-test-machines/)).
+5. In the **CI/CD Integrations** tab, view **Default Integrations tools** and **Rest API to integrate with other tools** (for more information on integrations, refer to the documentation on [integrations](https://testsigma.com/docs/integrations/overview/)).
+6. In the **Schedules** tab, view **Test Plan Schedules**, and you can edit and delete the schedules (for more information on how to schedule test plans, refer to the documentation on [schedule test plans](https://testsigma.com/docs/test-management/test-plans/schedule-plans/)). ![Manage Test Plan](https://s3.amazonaws.com/static-docs.testsigma.com/new_images/projects/applications/manage_testplan.gif)
 
 ---
 

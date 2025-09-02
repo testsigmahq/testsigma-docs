@@ -56,9 +56,9 @@ The Internet Function Type and Function for Data Generators offer various functi
 
 ---
 
-## **Prerequisites**
-
-Before utilising the different data generator functions, it's essential to understand basic concepts such as creating [Test Cases](https://testsigma.com/docs/test-cases/manage/add-edit-delete/#create-test-case) and [Test Steps](https://testsigma.com/docs/test-cases/create-test-steps/overview/) and [adding data generators](https://testsigma.com/docs/test-data/types/data-generator/#add-data-generators-in-test-steps) in test steps.
+> ## **Prerequisites**
+> 
+> Before you begin, ensure that you have referred to the documentation for creating [creating test cases](https://testsigma.com/docs/test-cases/manage/add-edit-delete/#create-test-case) and [test steps](https://testsigma.com/docs/test-cases/create-test-steps/overview/), and [adding data generators](https://testsigma.com/docs/test-data/types/data-generator/#add-data-generators-in-test-steps) in test steps in Testsigma. 
 
 ---
 

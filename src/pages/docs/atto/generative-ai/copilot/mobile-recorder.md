@@ -42,7 +42,7 @@ This article discusses test case generation for mobile applications using Testsi
 
 ## **Prerequisites**
 
-Before you begin, enable AI Features from **Settings > Preferences > Generative AI features** and ensure you're familiar with the concepts of [Test Cases](https://testsigma.com/docs/test-cases/manage/add-edit-delete/).
+Before you begin, enable AI Features from **Settings > Preferences > Generative AI features** and have referred to the documentation on [creating test cases](https://testsigma.com/docs/test-cases/manage/add-edit-delete/).
 
 ---
 

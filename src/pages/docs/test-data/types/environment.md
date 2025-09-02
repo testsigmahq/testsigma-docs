@@ -41,10 +41,7 @@ In Testsigma, you can handle and use specific sets of test data linked to differ
 
 > ## **Prerequisites**
 > 
-> - You should know how to create a [Test Case](https://testsigma.com/docs/test-cases/manage/add-edit-delete/#creating-a-test-case) and [Test Steps](https://testsigma.com/docs/test-cases/step-types/natural-language/). 
-> - You should know how to create an [Environment](https://testsigma.com/docs/test-data/create-environment-data/).
-> - You should know how to create a [Test Plan](https://testsigma.com/docs/runs/test-plan-executions/#steps-to-create-and-execute-test-plan) and how to use them with [Test Data Types](https://testsigma.com/docs/test-data/types/overview/).
-> - You should know how to perform [Ad-Hoc Runs](https://testsigma.com/docs/runs/adhoc-runs/#steps-to-perform-ad-hoc-runs-for-a-test-case).
+> Before you begin, ensure that you have referred to the documentation for [creating test case](https://testsigma.com/docs/test-cases/manage/add-edit-delete/#creating-a-test-case), [test steps](https://testsigma.com/docs/test-cases/step-types/natural-language/), [environment](https://testsigma.com/docs/test-data/create-environment-data/), [test plans](https://testsigma.com/docs/runs/test-plan-executions/#steps-to-create-and-execute-test-plan) with [test data types](https://testsigma.com/docs/test-data/types/overview/), and [performing Ad-Hoc runs](https://testsigma.com/docs/runs/adhoc-runs/#steps-to-perform-ad-hoc-runs-for-a-test-case) in Testsigma.
 
 ---
 

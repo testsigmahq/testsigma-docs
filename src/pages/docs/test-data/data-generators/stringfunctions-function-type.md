@@ -29,9 +29,9 @@ StringFunctions allow you to manipulate and transform text strings effortlessly.
 
 ---
 
-## **Prerequisites**
-
-Before utilising the different data generator functions, it's essential to understand basic concepts such as creating [Test Cases](https://testsigma.com/docs/test-cases/manage/add-edit-delete/#create-test-case) and [Test Steps](https://testsigma.com/docs/test-cases/create-test-steps/overview/) and [adding data generators](https://testsigma.com/docs/test-data/types/data-generator/#add-data-generators-in-test-steps) in test steps. Additionally, familiarize yourself with [Parameters](https://testsigma.com/docs/test-data/types/parameter/), [Runtime](https://testsigma.com/docs/test-data/types/runtime/) and [Environments](https://testsigma.com/docs/test-data/types/environment/).
+> ## **Prerequisites**
+> 
+> Before you begin, ensure that you have referred to the documentation for [creating test cases](https://testsigma.com/docs/test-cases/manage/add-edit-delete/#create-test-case) and [test steps](https://testsigma.com/docs/test-cases/create-test-steps/overview/), [adding data generators](https://testsigma.com/docs/test-data/types/data-generator/#add-data-generators-in-test-steps) in test steps, [parameters](https://testsigma.com/docs/test-data/types/parameter/), [runtime](https://testsigma.com/docs/test-data/types/runtime/), and [environments](https://testsigma.com/docs/test-data/types/environment/).
 
 ---
 

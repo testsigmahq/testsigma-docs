@@ -29,7 +29,7 @@ This guide will demonstrate how to do this and automate your mobile app testing,
 ---
 ### **Prerequisites**
 
-Before uploading the Android and iOS applications, you must understand specific concepts, such as creating [Projects](https://testsigma.com/docs/projects/overview/) and [Test Cases](https://testsigma.com/docs/test-cases/manage/add-edit-delete/) and uploading the **Android** app as a **.apk** file and the **iOS** app as a **.ipa** file for testing.
+Before uploading the Android and iOS applications, ensure that you have referred to the documentation for [projects](https://testsigma.com/docs/projects/overview/) and [test cases](https://testsigma.com/docs/test-cases/manage/add-edit-delete/) and uploading the **Android** app as a **.apk** file and the **iOS** app as a **.ipa** file for testing.
 
 ---
 
