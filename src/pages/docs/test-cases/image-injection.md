@@ -26,9 +26,9 @@ Testsigma enables you to enhance your testing process by inserting images into y
 
 ---
 
-## **Prerequisites**
-
-Before using Image Injection, you must understand specific concepts such as creating [Projects](https://testsigma.com/docs/projects/overview/), [Test Cases](https://testsigma.com/docs/test-cases/manage/add-edit-delete/), [Test Steps](https://testsigma.com/docs/test-cases/create-steps-nl/overview/), [Test Data Types](https://testsigma.com/docs/test-data/types/overview/), [Uploading Applications](https://testsigma.com/docs/uploads/upload-apps/), [Uploading Files](https://testsigma.com/docs/uploads/upload-files/), recording steps for [Android](https://testsigma.com/docs/test-cases/create-test-steps/actions-and-options-recorder/step-settings/#reordering-test-steps) and [iOS](https://testsigma.com/docs/test-cases/create-test-steps/actions-and-options-manual/step-options/#reorder-test-step), and performing Ad-hoc runs in [Android](https://testsigma.com/docs/runs/adhoc-runs/#android-application) and [iOS](https://testsigma.com/docs/runs/adhoc-runs/#ios-application).
+> ## **Prerequisites**
+> 
+> Before you begin, ensure that you have referred to the documentation for [creating projects](https://testsigma.com/docs/projects/overview/), [test cases](https://testsigma.com/docs/test-cases/manage/add-edit-delete/), [test steps](https://testsigma.com/docs/test-cases/create-steps-nl/overview/), [test data types](https://testsigma.com/docs/test-data/types/overview/), [uploading applications](https://testsigma.com/docs/uploads/upload-apps/) and [files](https://testsigma.com/docs/uploads/upload-files/), recording steps for [android](https://testsigma.com/docs/test-cases/create-test-steps/actions-and-options-recorder/step-settings/#reordering-test-steps)  and[iOS](https://testsigma.com/docs/test-cases/create-test-steps/actions-and-options-manual/step-options/#reorder-test-step), and performing Ad-hoc Runs in [android](https://testsigma.com/docs/runs/adhoc-runs/#android-application) and [iOS](https://testsigma.com/docs/runs/adhoc-runs/#ios-application).
 
 [[info | Note:]]
 | Ensure that you upload image files in **PNG** format for Image Injection, which is exclusively available for **Android** and **iOS** apps, and allow a few seconds for the scanner to complete the image scan.

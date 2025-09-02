@@ -31,7 +31,7 @@ TestDataFromProfile functions enable users to retrieve specific test data from d
 
 ## **Prerequisites**
 
-Before utilising the different data generator functions, it's essential to understand basic concepts such as creating [Test Cases](https://testsigma.com/docs/test-cases/manage/add-edit-delete/#create-test-case) and [Test Steps](https://testsigma.com/docs/test-cases/create-test-steps/overview/) and [adding data generators](https://testsigma.com/docs/test-data/types/data-generator/#add-data-generators-in-test-steps) in test steps. Additionally, familiarize yourself with [Test Data Profile](https://testsigma.com/docs/test-data/create-data-profiles/).
+Before you begin, ensure that you have referred to the documentation for [creating test cases](https://testsigma.com/docs/test-cases/manage/add-edit-delete/#create-test-case), [creating test steps](https://testsigma.com/docs/test-cases/create-test-steps/overview/), [adding data generators in test steps](https://testsigma.com/docs/test-data/types/data-generator/#add-data-generators-in-test-steps), and [Test Data Profiles](https://testsigma.com/docs/test-data/create-data-profiles/).
 
 ---
 

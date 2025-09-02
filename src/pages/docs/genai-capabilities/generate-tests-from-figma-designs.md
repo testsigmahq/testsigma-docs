@@ -44,7 +44,7 @@ With Testsigma, you can effortlessly generate test cases directly from Figma des
 
 > ## **Prerequisites**
 >
-> Before you begin, enable AI features from **Settings > Preferences > Generative AI features** and ensure you are familiar with the concepts of [Test Cases](https://testsigma.com/docs/test-cases/manage/add-edit-delete/#create-test-case). 
+> Before you begin, enable AI features from **Settings > Preferences > Generative AI features** and referred to the documentation for [creating test cases](https://testsigma.com/docs/test-cases/manage/add-edit-delete/#create-test-case) in Testsigma.
 
 
 ---

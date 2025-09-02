@@ -10,6 +10,9 @@ contextual_links:
 - type: section
   name: "Contents"
 - type: link
+  name: "Prerequisites"
+  url: "#prerequisites"
+- type: link
   name: "Store Data as a Runtime Variable"
   url: "#store-data-as-a-runtime-variable"
 - type: link
@@ -25,9 +28,10 @@ contextual_links:
 In Testsigma, Runtime Test Data allows you to save data gathered while running a Test Case. For example, you can utilise the Runtime Test Data Type to copy data from one page and confirm its presence on another page. The Runtime Test Data Type in Testsigma lets you dynamically store and use data during the test. You can keep this data as a runtime variable, making automated tests more flexible and adaptable.
 
 ---
-### **Prerequisites**
 
-Before using Runtime Test Data, ensure you understand specific concepts such as creating a [Project](https://testsigma.com/docs/projects/overview/), [Test Case](https://testsigma.com/docs/test-cases/manage/add-edit-delete/#creating-a-test-case), and [Elements](https://testsigma.com/docs/elements/overview/), managing [Test Steps](https://testsigma.com/docs/test-cases/step-types/natural-language/), and effectively using them with [Test Data Types](https://testsigma.com/docs/test-data/types/overview/).
+> ## **Prerequisites**
+> 
+> Before you begin, ensure that you have referred to the documentation for [creating a project](https://testsigma.com/docs/projects/overview/), [test case](https://testsigma.com/docs/test-cases/manage/add-edit-delete/#creating-a-test-case), [elements](https://testsigma.com/docs/elements/overview/), managing [test steps](https://testsigma.com/docs/test-cases/step-types/natural-language/), and using them with [test data types](https://testsigma.com/docs/test-data/types/overview/).
 
 ---
 

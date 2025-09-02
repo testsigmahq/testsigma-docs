@@ -40,7 +40,7 @@ Test data profiles can significantly enhance the efficiency of your testing proc
 
 > ## **Prerequisites**
 >
-> Before you begin, ensure you're familiar with concepts of [Test Cases](https://testsigma.com/docs/test-cases/manage/add-edit-delete/) in Testsigma.
+> Before you begin, ensure that you have referred to the documentation for [understanding test cases](https://testsigma.com/docs/test-cases/manage/add-edit-delete/) in Testsigma.
 
 ---
 

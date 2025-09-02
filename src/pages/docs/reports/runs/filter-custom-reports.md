@@ -26,8 +26,7 @@ Quickly view the run results of a test plan by applying filters | Learn how to a
 
 > ## **Prerequisites**
 >
-> Before you begin, make sure you have created and executed a [test plan](https://testsigma.com/docs/test-management/test-plans/overview/).
-
+> Before you begin, ensure that you have referred to the documentation for [creating test plan](https://testsigma.com/docs/test-management/test-plans/overview/).
 
 ---
 

@@ -57,7 +57,7 @@ contextual_links:
 
 ---
 
-Testsigma offers a variety of predefined data types, including text, number, date, email, phone number, and others. You can use these data types to create test data for various field types. Refer to [test data generator usage in test steps](https://testsigma.com/docs/test-data/types/data-generator/) to learn how to use the default test data generators in your test steps.
+Testsigma offers a variety of predefined data types, including text, number, date, email, phone number, and others. You can use these data types to create test data for various field types. For more information on test data generator usage in test steps, refer to the documentation on [test data generator usage in test steps](https://testsigma.com/docs/test-data/types/data-generator/). 
 
 The following list categorises the available default test data generators.
 

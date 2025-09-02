@@ -26,9 +26,9 @@ In Testsigma, you can quickly create test steps using natural language or simple
 
 ---
 
-## **Prerequisites**
-- You should know how to create [Test Data](https://testsigma.com/docs/test-data/types/overview/) and [Elements](https://testsigma.com/docs/elements/web-apps/overview/). 
-- You should know how to [create a Test Case](https://testsigma.com/docs/test-cases/manage/add-edit-delete/). 
+> ## **Prerequisites**
+> 
+> Before you begin, ensure that you have referred to the documentation for [creating test data](https://testsigma.com/docs/test-data/types/overview/), [elements](https://testsigma.com/docs/elements/web-apps/overview/), and [test case](https://testsigma.com/docs/test-cases/manage/add-edit-delete/). 
 
 ---
 

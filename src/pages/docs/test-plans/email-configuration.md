@@ -26,7 +26,7 @@ Setting up email notifications for test plans in Testsigma helps you stay inform
 
 > ## **Prerequisites**
 >
-> Before you proceed, ensure you understand the concept of creating a [Test Plan](https://testsigma.com/docs/test-management/test-plans/overview/).
+> Before you begin, ensure that you have referred to the documentation for  [creating a test plan](https://testsigma.com/docs/test-management/test-plans/overview/) in Testsigma.
 
 ---
 

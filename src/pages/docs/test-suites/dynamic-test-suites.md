@@ -37,9 +37,10 @@ Dynamic Test Suites in Testsigma provide an efficient way to streamline test exe
 
 ---
 
-## **Prerequisites**
+> ## **Prerequisites**
+> 
+> Before you begin, ensure that you have referred to the documentation for understanding the concept of [test cases](https://testsigma.com/docs/test-cases/manage/add-edit-delete/) in Testsigma.
 
-Before you begin, ensure that you are familiar with the concept of [Test Cases](https://testsigma.com/docs/test-cases/manage/add-edit-delete/) in Testsigma. 
 
 ---
 

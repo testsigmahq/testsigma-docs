@@ -50,9 +50,7 @@ In Testsigma, you can customize test steps within a test case using test step op
 
 > ## **Prerequisites**
 >   
-> - You should know how to [manage a Test Case](https://testsigma.com/docs/test-cases/manage/add-edit-delete/).
->
-> - You should know how to [manage Test Steps](https://testsigma.com/docs/test-cases/step-types/natural-language/).
+> Before you begin, ensure that you have referred to the documentation for [managing a test case](https://testsigma.com/docs/test-cases/manage/add-edit-delete/) and [test steps](https://testsigma.com/docs/test-cases/step-types/natural-language/).
 
 ---
 

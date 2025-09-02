@@ -50,7 +50,7 @@ An automated test case is a step-by-step logic that simulates user interactions 
 
 ![Side Panel](https://s3.amazonaws.com/static-docs.testsigma.com/new_images/projects/applications/tstypesidepanel.png)
 
-You can choose the type of test step you want to add to your test case from the panel. Read more about the different test steps and how to create them in the links below:
+You can choose the type of test step you want to add to your test case from the panel. For more information, refer to the documentation on: 
 
 - [Natural Language](https://testsigma.com/docs/test-cases/step-types/natural-language/)
 
