@@ -85,13 +85,6 @@ This endpoint allows users to create one step in a test case.
      - **NLP\_TEXT**: For Natural Language Processing text steps.
      - **STEP\_GROUP**: For a group of multiple steps executed together.
 
-[[info | **NOTE**:]]
-| - For a **NLP\_TEXT** step, **templateId** is mandatory and stepGroupId should be set to null in the payload.
-| - For a **STEP\_GROUP** step, **stepGroupId** is mandatory and templateId should be set to null in the payload.
-|   - **conditionType**: Specifies if the step has a condition. null in this case means no condition is set.
-|   - **testCaseId**: The ID of the test case this step belongs to.
-|   - **stepGroupId**: The ID of the group this step belongs to. null means it's not part of a group.
-
 ---
 
 ## **Create Multiple Test Steps Using API**
@@ -130,7 +123,7 @@ This endpoint allows users to fetch a specific test step by ID.
 
 |**Request Type**|**GET**|
 |---|---|
-|**Endpoint**|https://app.testsigma.com/api/v1/test_steps/<id>|
+|**Endpoint**|https://app.testsigma.com/api/v1/test_steps/{id}|
 |**Path Parameter**|`id` – Identifier of the Test Step|
 |**Response Body (JSON)**|<pre>{<br>  "id": 12345,<br>  "action": "Click on the login button",<br>  "type": "NLP\_TEXT",<br>  "stepOrder": 1.0,<br>  "testCaseId": 123,<br>  "templateId": 456,<br>  ...<br>}<pre>|
 
@@ -163,7 +156,7 @@ This endpoint allows users to search NLP templates for creating steps.
 
 |**Request Type**|**GET**|
 |---|---|
-|**Endpoint**|https://app.testsigma.com/api/v1/test_steps/nlp/<applicationType>/templates/<searchText>|
+|**Endpoint**|https://app.testsigma.com/api/v2/test_steps/nlp/{applicationType}/templates/{searchText}|
 |**Path Parameter**|`applicationType`: WebApplication, MobileWeb, IOSNative, AndroidNative, Rest, Salesforce <br><br>`searchText`: Keywords used to search for templates|
 |**Response Body (JSON)**|<pre>[<br>  {<br>    "id": 456,<br>    "keyword": "click",<br>    "grammar": "Click on the ${ui-identifier}",<br>    "action": "click"<br>  }<br>]<pre>|
 
@@ -171,11 +164,7 @@ This endpoint allows users to search NLP templates for creating steps.
 - **id**: Unique identifier of the created test step
 - **keyword**: Keyword associated with the step (e.g., click)
 - **grammar**: NLP grammar expression for the step
-- - : Action executed by the step
-
-[[info | **NOTE**:]]
-| - Templates containing {ui-identifier} in their grammar require elementId.
-| - Templates with placeholders like Wait for ${test-data} seconds require you to pass the value as raw text in the text field.
+- **action** : Action executed by the step
 
 ---
 
@@ -185,8 +174,9 @@ This endpoint allows users to update an existing test step.
 
 |**Request Type**|**PUT**|
 |---|---|
-|**Endpoint**|https://app.testsigma.com/api/v2/test_steps/<id>|
+|**Endpoint**|https://app.testsigma.com/api/v2/test_steps/{id}|
 |**Authorization**|Bearer **<API_Token>**|
+|**Path Parameter**|**id**: The test step ID that needs to be updated.|
 |**Request Body Type (JSON)**|Raw|
 |**Payload**|<pre>{<br>  "testCaseId": 9,<br>  "templateId": 1044,<br>  "text": "your password",<br>  "type": "NLP\_TEXT"<br>}<pre>|
 |**Response Body(JSON)**|<pre>{<br>  "id": 12,<br>  "action": "Enter password in the Enter Password field",<br>  "type": "NLP\_TEXT",<br>  "conditionType": null,<br>  "testCaseId": 1,<br>  "stepGroupId": null<br>}<pre>|
@@ -210,13 +200,6 @@ This endpoint allows users to update an existing test step.
    - **NLP\_TEXT**: For Natural Language Processing text steps.
    - **STEP\_GROUP**: For a group of multiple steps executed together.
 
-[[info | **NOTE**:]]
-| - For a **NLP\_TEXT** step, **templateId** is mandatory and stepGroupId should be set to null in the payload.
-| - For a **STEP\_GROUP** step, **stepGroupId** is mandatory and templateId should be set to null in the payload.
-|    - **conditionType**: Step condition type (if applicable, otherwise null)
-|    - **testCaseId**: Parent test case ID
-|    - **stepGroupId**: Step group ID if the step belongs to a group
-
 ---
 
 ## **Delete a Test Step Using API**
@@ -225,7 +208,7 @@ This endpoint allows users to delete a specific test step from a test case.
 
 |**Request Type**|**DELETE**|
 |---|---|
-|**Endpoint**|https://app.testsigma.com/api/v2/test_steps/<id>|
+|**Endpoint**|https://app.testsigma.com/api/v2/test_steps/{id}|
 |**Path Parameter**|**id**: Specifies the unique identifier of the test step that should be deleted.|
 |**Request Body**|None|
 |**Response Body**|Status Code: **204 No Content**<br>Body: Empty response body|
