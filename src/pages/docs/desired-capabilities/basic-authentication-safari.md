@@ -28,8 +28,11 @@ Safari restricts automated Basic Authentication login by blocking credentials in
 ---
 
 > <p id="prerequisites">Prerequisites</p>
-> 
-> Before you begin, ensure you are familiar with the concepts of [Test Cases](https://testsigma.com/docs/test-cases/manage/add-edit-delete/), [Ad-hoc Runs](https://testsigma.com/docs/runs/adhoc-runs/), and [Desired Capabilities](https://testsigma.com/docs/desired-capabilities/overview/) in Testsigma.
+>
+> Before you begin, ensure that you have referred to:
+> 1. [Documentation on creating test cases](https://testsigma.com/docs/test-cases/manage/add-edit-delete/#create-test-case).
+> 2. [Documentation on performing Ad-Hoc runs](https://testsigma.com/docs/runs/adhoc-runs/).
+> 3. [Documentation on managing desired capabilities](https://testsigma.com/docs/desired-capabilities/overview/) in Testsigma.
 
 ---
 

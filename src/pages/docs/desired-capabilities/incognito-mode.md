@@ -29,9 +29,13 @@ Desired Capabilities allow you to customise the test environment by adding brows
 
 ---
 
-<p id="prerequisites">Prerequisites</p>
-
-Before starting testing in Incognito/Private Mode, you must understand specific concepts, such as creating [Test Cases](https://testsigma.com/docs/test-cases/manage/add-edit-delete/) and [Test Plans](https://testsigma.com/docs/test-management/test-plans/overview/), managing [Ad-hoc runs](https://testsigma.com/docs/runs/adhoc-runs/) and [Test Machines](https://testsigma.com/docs/test-management/test-plans/manage-test-machines/) in Testsigma.
+> <p id="prerequisites">Prerequisites</p>
+>
+> Before you begin, ensure that you have referred to:
+> 1. [Documentation on creating test cases](https://testsigma.com/docs/test-cases/manage/add-edit-delete/#create-test-case).
+> 2. [Documentation on creating test plans](https://testsigma.com/docs/test-management/test-plans/overview/).
+> 3. [Documentation on managing Ad-Hoc runs](https://testsigma.com/docs/runs/adhoc-runs/).
+> 4. [Documentation on creating test machines](https://testsigma.com/docs/test-management/test-plans/manage-test-machines/) in Testsigma.
 
 ---
 

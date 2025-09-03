@@ -49,10 +49,10 @@ In Testsigma, you can customize test steps within a test case using test step op
 
 
 > <p id="prerequisites">Prerequisites</p>
->   
-> - You should know how to [manage a Test Case](https://testsigma.com/docs/test-cases/manage/add-edit-delete/).
 >
-> - You should know how to [manage Test Steps](https://testsigma.com/docs/test-cases/step-types/natural-language/).
+> Before you begin, ensure that you have referred to:
+> 1. [Documentation on creating test cases](https://testsigma.com/docs/test-cases/manage/add-edit-delete/#create-test-case).
+> 2. [Documentation on creating test steps](https://testsigma.com/docs/test-cases/create-test-steps/overview/).
 
 ---
 

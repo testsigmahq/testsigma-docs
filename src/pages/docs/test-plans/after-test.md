@@ -25,7 +25,7 @@ contextual_links:
 
 AfterTest in Testsigma lets you create a block of steps after the test case as well as add a step group to execute irrespective of the result of the test case. Both test case and after test blocks execute independently. This article will discuss how to enable and use after test in test cases and step groups. 
 
-*For more information on Test Cases, refer to [test cases](https://testsigma.com/docs/test-cases/manage/add-edit-delete/).*
+*For more information on test cases, refer to [ documentation on creating test cases](https://testsigma.com/docs/test-cases/manage/add-edit-delete/).*
 
 
 ---

@@ -49,7 +49,12 @@ Testsigma provides a digital inbox called Mail Box to verify OTP accuracy, check
 
 > <p id="prerequisites">Prerequisites</p>
 > 
-> Before using Mailbox Test Data, ensure that you understand specific concepts such as creating a [Test Case](https://testsigma.com/docs/test-cases/manage/add-edit-delete/#creating-a-test-case), managing [Test Steps](https://testsigma.com/docs/test-cases/step-types/natural-language/), and effectively using them with [Test Data Types](https://testsigma.com/docs/test-data/types/overview/) and [Data Generators](https://testsigma.com/docs/test-data/types/data-generator/). Additionally, familiarise yourself with [Regular expressions](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Guide/Regular_Expressions) if necessary.
+> Before you begin, ensure that you have referred to:
+> 1. [Documentation on creating test cases](https://testsigma.com/docs/test-cases/manage/add-edit-delete/#creating-a-test-case).
+> 2. [Documentation on managing test steps](https://testsigma.com/docs/test-cases/step-types/natural-language/).
+> 3. [Documentation on creating test data types](https://testsigma.com/docs/test-data/types/overview/).
+> 4. [Documentation on data generators](https://testsigma.com/docs/test-data/types/data-generator/). 
+> 5. [Documentation on regular expressions](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Guide/Regular_Expressions) if necessary.
 
 [[info | NOTE:]]
 | - You can enable Mail Box for your account by contacting **support@testsigma.com** or using the **instant chat** option.
