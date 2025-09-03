@@ -35,7 +35,7 @@ Testsigma provides a comprehensive and user-friendly solution for efficiently cr
 
 ---
 
-> ## **Prerequisites**
+> <p id="prerequisites">Prerequisites</p>
 >
 > Ensure you create a [Project](https://testsigma.com/docs/projects/overview/) before creating Test Cases in Testsigma. 
 

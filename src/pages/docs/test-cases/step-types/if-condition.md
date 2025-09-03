@@ -35,7 +35,7 @@ In Testsigma, you can add **If**, **Else**, and **Else If** in your test cases b
 ---
 
 
-> ## **Prerequisites**
+> <p id="prerequisites">Prerequisites</p>
 > 
 > - You should also know how to [create a test case](https://testsigma.com/docs/test-cases/manage/add-edit-delete/).
 > 

@@ -23,7 +23,7 @@ The Selective Element Recorder allows you to capture specific UI elements in a S
 
 ---
 
-> ## **Prerequisites**
+> <p id="prerequisites">Prerequisites</p>
 > 
 > Before you begin, ensure the following:
 > 

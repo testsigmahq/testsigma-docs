@@ -23,7 +23,7 @@ Testsigma integrates with Xray to support test case generation from your existin
 
 ---
  
-> ## **Prerequisites**
+> <p id="prerequisites">Prerequisites</p>
 >
 > Before you begin, ensure JIRA and Xray integrations are active, and you have the JIRA account URL, client ID, and client secret.
 > 

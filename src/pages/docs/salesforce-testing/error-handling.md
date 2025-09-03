@@ -30,7 +30,7 @@ On metadata refresh, Testsigma identifies potential causes of test case failures
 
 ---
 
-> ## **Prerequisites**
+> <p id="prerequisites">Prerequisites</p>
 > 
 > Before you begin, ensure you have a [Salesforce Connected App](https://testsigma.com/docs/salesforce-testing/connected-app/), [Salesforce Metadata](https://testsigma.com/docs/salesforce-testing/metadata-connections/) connected to Testsigma, and know how to [Refresh Metadata](https://testsigma.com/docs/salesforce-testing/metadata-connections/#steps-to-refresh-metadata-connection).
 

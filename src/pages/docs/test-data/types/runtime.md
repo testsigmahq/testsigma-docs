@@ -25,7 +25,7 @@ contextual_links:
 In Testsigma, Runtime Test Data allows you to save data gathered while running a Test Case. For example, you can utilise the Runtime Test Data Type to copy data from one page and confirm its presence on another page. The Runtime Test Data Type in Testsigma lets you dynamically store and use data during the test. You can keep this data as a runtime variable, making automated tests more flexible and adaptable.
 
 ---
-### **Prerequisites**
+#<p id="prerequisites">Prerequisites</p>
 
 Before using Runtime Test Data, ensure you understand specific concepts such as creating a [Project](https://testsigma.com/docs/projects/overview/), [Test Case](https://testsigma.com/docs/test-cases/manage/add-edit-delete/#creating-a-test-case), and [Elements](https://testsigma.com/docs/elements/overview/), managing [Test Steps](https://testsigma.com/docs/test-cases/step-types/natural-language/), and effectively using them with [Test Data Types](https://testsigma.com/docs/test-data/types/overview/).
 

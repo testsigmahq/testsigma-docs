@@ -33,7 +33,7 @@ You can use Testsigma API to trigger test executions remotely. This is useful wh
 
 ---
 
-> ## **Prerequisites**
+> <p id="prerequisites">Prerequisites</p>
 >
 > Before you begin, ensure you have an [API Key](https://testsigma.com/docs/configuration/api-keys/) and know how to [Manage Test Plans](https://testsigma.com/docs/test-management/test-plans/overview/).
 

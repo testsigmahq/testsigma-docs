@@ -24,7 +24,7 @@ Local device testing can be used for testing applications that are not accessibl
 
 ---
 
-## **Prerequisites**
+<p id="prerequisites">Prerequisites</p>
 
 - You should know [how to set up Testsigma agent](https://testsigma.com/docs/agent/setup-on-windows-mac-linux/).
 

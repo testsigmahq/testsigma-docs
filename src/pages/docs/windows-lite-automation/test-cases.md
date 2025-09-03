@@ -23,7 +23,7 @@ Test cases for Windows (Lite) applications depend on the elements captured using
 
 ---
 
-> ## **Prerequisites**
+> <p id="prerequisites">Prerequisites</p>
 > - You should know how to create a [project](https://testsigma.com/docs/projects/overview/) and [application](https://testsigma.com/docs/projects/applications/) in Testsigma.
 > - You should have the Testsigma’s [Test Recorder](https://chromewebstore.google.com/detail/testsigma-recorder/epmomlhdjfgdobefcpocockpjihaabdp?hl=en-GB&utm_source=ext_sidebar) installed.
 > - You should have the [Testsigma Agent](https://testsigma.com/docs/agent/setup-on-windows-mac-linux/) setup. 

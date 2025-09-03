@@ -20,11 +20,12 @@ When you want to automate, customize, and, execute your software development wor
 
 ---
 
-## **Pre-requisites:**
-You should already know:
- 1. The basics of github actions. If not, please refer here: [Quickstart with github actions](https://docs.github.com/en/actions/quickstart)
- 2. [How to generate an API key from Settings.](https://testsigma.com/docs/configuration/api-keys/)
- 2. [How to get Test Plan ID from an existing Test Plan.](https://testsigma.com/docs/continuous-integration/get-test-plan-details/)
+> <p id="prerequisites">Prerequisites</p>
+> 
+>  Before you begin, ensure you know how to:
+>  - The basics of github actions. If not, please refer to [Quickstart with github actions](https://docs.github.com/en/actions/quickstart).
+>  - [generate an API key from Settings.](https://testsigma.com/docs/configuration/api-keys/)
+>  - [get Test Plan ID from an existing Test Plan.](https://testsigma.com/docs/continuous-integration/get-test-plan-details/)
 
 ---
 

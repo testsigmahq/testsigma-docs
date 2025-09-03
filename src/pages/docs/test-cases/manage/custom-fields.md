@@ -30,7 +30,7 @@ Testsigma allows you to add customized information to your test cases by creatin
 
 ---
 
-> ## **Prerequisites**
+> <p id="prerequisites">Prerequisites</p>
 > 
 >  - Before you begin, you must be familiar with the concepts of [Test Case Advanced Options](https://testsigma.com/docs/test-cases/manage/add-edit-delete/#test-case----advanced-options).
 

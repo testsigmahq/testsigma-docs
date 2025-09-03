@@ -32,7 +32,7 @@ In Testsigma, the Test Plan helps plan and organise software testing. The Test P
 
 ---
 
-> ## **Prerequisites**
+> <p id="prerequisites">Prerequisites</p>
 >
 > Before using a Test Plan, you must understand specific concepts, such as creating [Projects](https://testsigma.com/docs/projects/overview/), [Test Cases](https://testsigma.com/docs/test-cases/manage/add-edit-delete/) and [Test Suites](https://testsigma.com/docs/test-management/test-suites/overview/).
 

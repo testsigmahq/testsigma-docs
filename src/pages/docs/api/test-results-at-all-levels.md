@@ -36,7 +36,7 @@ You can leverage Testsigma APIs to fetch detailed test results at all levels. Wh
 
 ---
 
-> ## **Prerequisites**
+> <p id="prerequisites">Prerequisites</p>
 >
 > Before you begin, ensure you have an [API Key](https://testsigma.com/docs/configuration/api-keys/) and a [Test Plan Run ID](https://testsigma.com/docs/api/test-plans/#obtaining-the-run-id) from Testsigma application.
 

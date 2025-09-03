@@ -23,10 +23,11 @@ Microsoft Azure, aka Azure, is a cloud computing service created by Microsoft fo
 
 ---
 
-## **Prerequisites:** 
-- API key for Azure. For more information, refer to [API keys](https://testsigma.com/docs/configuration/api-keys/).
-
-2. A Test Plan ID. For more information, refer to [get test plan id](https://docs.testsigma.com/images/azure-devops/get-test-plan-id.png).
+> <p id="prerequisites">Prerequisites</p>
+> 
+>    - API key for Azure. For more information, refer to [API keys](https://testsigma.com/docs/configuration/api-keys/).
+> 
+>    - A Test Plan ID. For more information, refer to [get test plan id](https://docs.testsigma.com/images/azure-devops/get-test-plan-id.png).
 
 ---
 ## **How to integrate with Azure DevOps**

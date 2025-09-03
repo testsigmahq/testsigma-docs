@@ -28,9 +28,10 @@ contextual_links:
 
 ---
 
-## **Pre-Requisite:**
-- **OS:** Microsoft Windows
-- **IDE:** Intellij IDE Editor - Ultimate Edition
+> <p id="prerequisites">Prerequisites</p>
+> 
+> - **OS:** Microsoft Windows
+> - **IDE:** Intellij IDE Editor - Ultimate Edition
 
 <br>
 

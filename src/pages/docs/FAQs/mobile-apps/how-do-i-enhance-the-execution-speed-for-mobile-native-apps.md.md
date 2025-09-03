@@ -22,7 +22,7 @@ In Testsigma, executing and recording test steps for mobile applications, partic
 
 ---
 
-> ## **Prerequisites**
+> <p id="prerequisites">Prerequisites</p>
 > 
 > - Ensure that you have test cases created for a mobile native application
 

@@ -23,7 +23,7 @@ In Testsigma, users can concat test data, which combines multiple sets of test d
 
 ---
 
-## **Prerequisites**
+<p id="prerequisites">Prerequisites</p>
 
 - You should know how to [create a test case](https://testsigma.com/docs/test-cases/manage/add-edit-delete/).
    

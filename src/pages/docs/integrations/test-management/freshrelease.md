@@ -31,7 +31,7 @@ This document will discuss how to establish Integration with Freshrelease from y
 
 ---
 
-## **Prerequisites**
+<p id="prerequisites">Prerequisites</p>
 
 1. To integrate Freshrelease with Testsigma, you need the following information from your Freshrelease Account:
     - Freshrelease Organization URL

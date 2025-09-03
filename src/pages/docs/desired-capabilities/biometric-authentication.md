@@ -27,7 +27,7 @@ With Testsigma, you can simulate biometric authentication while testing Android 
 
 ---
 
-## **Prerequisites**
+<p id="prerequisites">Prerequisites</p>
 - You should have a Testsigma account. 
 - A mobile application to test. 
 

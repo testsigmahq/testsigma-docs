@@ -23,7 +23,7 @@ When test steps are recorded using test recorder, Testsigma gives you the option
 
 ---
 
-> ## **Prerequisites**
+> <p id="prerequisites">Prerequisites</p>
 >
 > - You should know about [projects](https://testsigma.com/docs/projects/overview/) in Testsigma. 
 >  

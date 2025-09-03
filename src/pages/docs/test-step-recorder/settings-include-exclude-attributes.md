@@ -22,7 +22,7 @@ Sometimes, while capturing elements from your website, you would want to exclude
 
 ---
 
-## **Prerequisites**
+<p id="prerequisites">Prerequisites</p>
 
 1. You should have Chrome Extension Installed.
    

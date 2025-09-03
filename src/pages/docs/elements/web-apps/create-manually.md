@@ -35,7 +35,7 @@ For dynamic websites such as E-commerce websites, the elements might be dynamic 
 ---
 
 
-> ## **Prerequisites**
+> <p id="prerequisites">Prerequisites</p>
 >
 >
 > Before you begin, ensure that you've a [Project](https://testsigma.com/docs/projects/overview/) in Testsigma and a web application is available for testing.

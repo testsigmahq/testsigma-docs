@@ -68,7 +68,7 @@ Let's say you're creating test cases for an **Online Shopping App**.
 
 ---
 
-> ## **Prerequisites**
+> <p id="prerequisites">Prerequisites</p>
 >
 > Ensure you create a [Project](https://testsigma.com/docs/projects/overview/) before creating Test Cases in Testsigma. 
 

@@ -27,7 +27,7 @@ With Testsigma, you can choose default and custom values for various variables s
 
 ---
 
-> ## **Prerequisites**
+> <p id="prerequisites">Prerequisites</p>
 >
 > - You should know how to [create a Test Case](https://testsigma.com/docs/test-cases/manage/add-edit-delete/#creating-a-test-case). 
 > 

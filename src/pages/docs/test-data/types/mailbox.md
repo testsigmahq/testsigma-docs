@@ -47,7 +47,7 @@ Testsigma provides a digital inbox called Mail Box to verify OTP accuracy, check
 
 ---
 
-> ## **Prerequisites**
+> <p id="prerequisites">Prerequisites</p>
 > 
 > Before using Mailbox Test Data, ensure that you understand specific concepts such as creating a [Test Case](https://testsigma.com/docs/test-cases/manage/add-edit-delete/#creating-a-test-case), managing [Test Steps](https://testsigma.com/docs/test-cases/step-types/natural-language/), and effectively using them with [Test Data Types](https://testsigma.com/docs/test-data/types/overview/) and [Data Generators](https://testsigma.com/docs/test-data/types/data-generator/). Additionally, familiarise yourself with [Regular expressions](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Guide/Regular_Expressions) if necessary.
 
@@ -202,7 +202,7 @@ In some cases, app restrictions will prevent the delivery of OTPs to the Testsig
 
 ---
 
-### **Prerequisites**
+#<p id="prerequisites">Prerequisites</p>
 
 - You should have [Testsigma SMS Forwarder](https://s3.amazonaws.com/static-docs.testsigma.com/new_images/projects/applications/smsforward.apk) application.
 

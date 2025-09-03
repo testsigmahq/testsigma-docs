@@ -24,7 +24,7 @@ Software testing focuses on verifying the functionality and performance of RESTf
 Using Rest API Testing in Testsigma, you can validate the behaviour of RESTful APIs within your application. We will guide you on how to use it.
 
 ---
-### **Prerequisites**
+#<p id="prerequisites">Prerequisites</p>
 
 Before using the Rest API in a test step, you must understand specific concepts such as creating [Projects](https://testsigma.com/docs/projects/overview/), [Test Cases](https://testsigma.com/docs/test-cases/manage/add-edit-delete/), using [Test Step Types](https://testsigma.com/docs/test-cases/step-types/overview/) and understanding [RESTful API Testing](https://testsigma.com/docs/test-cases/create-steps-restapi/restful-api-overview/).
 

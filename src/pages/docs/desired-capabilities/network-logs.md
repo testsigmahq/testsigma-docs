@@ -32,7 +32,7 @@ This documentation will guide you on how to enable the network log in Test Case 
 
 ---
 
-## **Prerequisites**
+<p id="prerequisites">Prerequisites</p>
 
 Before starting, understand the concepts of [Projects](https://testsigma.com/docs/projects/overview/), [Test Cases](https://testsigma.com/docs/test-cases/manage/add-edit-delete/), [Test Plans](https://testsigma.com/docs/test-management/test-plans/overview/), [Ad-hoc Runs](https://testsigma.com/docs/runs/adhoc-runs/), and [Test Machines](https://testsigma.com/docs/test-management/test-plans/manage-test-machines/) in Testsigma. Familiarising yourself with these concepts will make working with the Network Log feature easier.
 

@@ -23,7 +23,7 @@ With qTest integrated into Testsigma, you can generate test cases by selecting s
 
 ---
 
-> ## **Prerequisites**
+> <p id="prerequisites">Prerequisites</p>
 >
 > Before you begin, ensure you have a valid **Host URL** and **Bearer Token** from qTest.
 

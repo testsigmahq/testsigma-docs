@@ -26,7 +26,7 @@ In Testsigma, you can quickly create test steps using natural language or simple
 
 ---
 
-## **Prerequisites**
+<p id="prerequisites">Prerequisites</p>
 - You should know how to create [Test Data](https://testsigma.com/docs/test-data/types/overview/) and [Elements](https://testsigma.com/docs/elements/web-apps/overview/). 
 - You should know how to [create a Test Case](https://testsigma.com/docs/test-cases/manage/add-edit-delete/). 
 

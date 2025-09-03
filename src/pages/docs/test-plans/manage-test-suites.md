@@ -25,9 +25,9 @@ While creating a test plan, you need to add at least one test suite to the test 
 
 ---
 
-## **Prerequisites**
+<p id="prerequisites">Prerequisites</p>
 
-> ## **Prerequisites**
+> <p id="prerequisites">Prerequisites</p>
 >
 > Before you proceed, ensure you understand the concepts of creating a [Test Plan](https://testsigma.com/docs/test-management/test-plans/overview/), [Test Suite](https://testsigma.com/docs/test-management/test-suites/overview/), and [Test Machine](https://testsigma.com/docs/test-management/test-plans/manage-test-machines/).
 

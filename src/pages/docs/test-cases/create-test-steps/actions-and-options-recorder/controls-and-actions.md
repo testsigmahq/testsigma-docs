@@ -23,7 +23,7 @@ The test recorder in Testsigma lets you generate test steps automatically in pla
 
 ---
 
-> ## **Prerequisites**
+> <p id="prerequisites">Prerequisites</p>
 > 
 > - You should know [how to create test cases](https://testsigma.com/docs/test-cases/manage/add-edit-delete/).
 > 

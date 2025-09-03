@@ -54,7 +54,7 @@ This documentation will explain the different test data types supported in Tests
 
 ---
 
-## **Prerequisites**
+<p id="prerequisites">Prerequisites</p>
 
 Before using test data type, you must understand specific concepts such as creating [projects](https://testsigma.com/docs/projects/overview/), [test cases](https://testsigma.com/docs/test-cases/manage/add-edit-delete/), and [test steps](https://testsigma.com/docs/test-cases/create-steps-nl/overview/).
 

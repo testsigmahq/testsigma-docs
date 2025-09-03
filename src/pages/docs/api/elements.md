@@ -26,7 +26,7 @@ Testsigma allows you to create and update elements using REST APIs. This article
 
 ---
 
-> ## **Prerequisites**
+> <p id="prerequisites">Prerequisites</p>
 >
 > Before you begin, ensure you have an [API Key](https://testsigma.com/docs/configuration/api-keys/) from Testsigma application.
 

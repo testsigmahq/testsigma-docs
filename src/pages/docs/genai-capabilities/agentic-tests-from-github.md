@@ -32,7 +32,7 @@ You can integrate GitHub with Testsigma to automatically generate test cases usi
 
 ---
 
-> ## **Prerequisites**
+> <p id="prerequisites">Prerequisites</p>
 > 
 > Before you begin, ensure you have admin access to your GitHub organization.
 

@@ -27,7 +27,7 @@ Upload your Android and iOS apps to the Testsigma Cloud to quickly develop and e
 This guide will demonstrate how to do this and automate your mobile app testing, ensuring the quality and reliability of your applications.
 
 ---
-### **Prerequisites**
+#<p id="prerequisites">Prerequisites</p>
 
 Before uploading the Android and iOS applications, you must understand specific concepts, such as creating [Projects](https://testsigma.com/docs/projects/overview/) and [Test Cases](https://testsigma.com/docs/test-cases/manage/add-edit-delete/) and uploading the **Android** app as a **.apk** file and the **iOS** app as a **.ipa** file for testing.
 

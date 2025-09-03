@@ -23,7 +23,7 @@ WebDriverAgent (WDA) plays an important role in automating iOS tests. It bridges
 
 ---
 
-## **Prerequisites**
+<p id="prerequisites">Prerequisites</p>
 
 - Paid Apple Developer Account
 

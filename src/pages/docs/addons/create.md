@@ -42,7 +42,7 @@ Testsigma enables you to extend its functionality by creating add-ons. You can u
 
 ---
 
-## **Prerequisites**
+<p id="prerequisites">Prerequisites</p>
 
 Before you start creating an addon, ensure you have:
 

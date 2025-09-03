@@ -25,7 +25,7 @@ In Testsigma, Live Editor gives you complete control over test cases while execu
 ---
 
 
-> ## **Prerequisites**
+> <p id="prerequisites">Prerequisites</p>
 > 
 > Before you begin, ensure you know how to create [Test Cases](https://testsigma.com/docs/test-cases/manage/add-edit-delete/) and install **Testsigma Terminal** application.
 

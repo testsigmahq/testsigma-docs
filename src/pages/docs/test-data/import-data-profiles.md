@@ -25,7 +25,7 @@ Apart from creating a test data profile, you can also import a test data profile
 
 ---
 
-## **Prerequisites**
+<p id="prerequisites">Prerequisites</p>
 - You should know about test data profiles. 
 - You should have a file to import. 
 

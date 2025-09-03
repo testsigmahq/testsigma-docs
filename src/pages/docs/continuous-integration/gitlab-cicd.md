@@ -21,13 +21,14 @@ contextual_links:
 
 This article explains how to integrate GitLab with Testsigma for CI/CD purposes.
 
-## **Pre-requisites:**
-To integrate GitLab with Testsigma, you need the following information:
-1. You should have a GitLab account.
-2. Testsigma API key.
-3. Testsigma Testplan ID, for more information on test plan ID, refer to [get test plan ID](https://testsigma.com/docs/continuous-integration/get-test-plan-details/).
+> <p id="prerequisites">Prerequisites</p>
+> 
+> Before you begin, ensure you have:
+> - A GitLab account.
+> - Testsigma API key.
+> - Testsigma Testplan ID. For more information, see [get test plan ID](https://testsigma.com/docs/continuous-integration/get-test-plan-details/).
 
-<br>
+---
 
 ## **Steps to integrate GitLab with Testsigma**
 

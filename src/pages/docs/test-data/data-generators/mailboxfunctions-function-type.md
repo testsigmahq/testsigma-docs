@@ -56,7 +56,7 @@ MailBoxFunctions are specialized tools that facilitate efficient email managemen
 
 ---
 
-## **Prerequisites**
+<p id="prerequisites">Prerequisites</p>
 
 Before utilising the different data generator functions, it's essential to understand basic concepts such as creating [Test Cases](https://testsigma.com/docs/test-cases/manage/add-edit-delete/#create-test-case) and [Test Steps](https://testsigma.com/docs/test-cases/create-test-steps/overview/) and [adding data generators](https://testsigma.com/docs/test-data/types/data-generator/#add-data-generators-in-test-steps) in test steps. Additionally, familiarize yourself with [MailBoxFunctions](https://testsigma.com/docs/test-data/types/mailbox/) for accessing and manipulating email content and metadata 
 

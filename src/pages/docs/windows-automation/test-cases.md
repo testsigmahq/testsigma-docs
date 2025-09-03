@@ -27,7 +27,7 @@ In case you have missed it, refer to [learning objects 🔍](https://testsigma.c
 
 ---
 
-> ## **Prerequisites**
+> <p id="prerequisites">Prerequisites</p>
 >
 > Before you begin, ensure you have a Windows project, a TSRx File to import and Testsigma Agent setup.
 

@@ -26,7 +26,7 @@ The Batch Element Recorder enables you to capture all visible UI elements in an 
 
 ---
 
-> ## **Prerequisites**
+> <p id="prerequisites">Prerequisites</p>
 > 
 > Before you begin, ensure the following:
 > 

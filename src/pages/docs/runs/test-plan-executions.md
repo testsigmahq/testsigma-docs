@@ -35,7 +35,7 @@ This article guides the user to prepare and execute test plans in Testsigma plat
 ---
 
 
-## **Prerequisites**
+<p id="prerequisites">Prerequisites</p>
 
 
 1. You should know how to [create a test case.](https://testsigma.com/docs/test-cases/manage/add-edit-delete/).

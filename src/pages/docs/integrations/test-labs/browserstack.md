@@ -26,7 +26,7 @@ If your organization has an existing account with BrowserStack, you can author t
 
 ---
 
-## **Prerequisites**
+<p id="prerequisites">Prerequisites</p>
 
 You need the username and API Key for BrowserStack which can be obtained from your BrowserStack account dashboard.
 

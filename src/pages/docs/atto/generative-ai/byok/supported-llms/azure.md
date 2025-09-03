@@ -23,7 +23,7 @@ Testsigma supports integration with Azure OpenAI, which allows you to map variou
 
 ---
 
-> ## **Prerequisites**
+> <p id="prerequisites">Prerequisites</p>
 >
 > Before you begin, ensure you have an active **Azure** account.
 

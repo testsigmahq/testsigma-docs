@@ -48,7 +48,7 @@ A software requirement can be of 3 types:
 
 ---
 
-> ## **Prerequisites**
+> <p id="prerequisites">Prerequisites</p>
 > 
 > Before you begin, ensure you are familiar with concept of [Creating a Test Case](https://testsigma.com/docs/test-cases/manage/add-edit-delete/).
 

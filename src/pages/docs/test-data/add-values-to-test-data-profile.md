@@ -25,7 +25,7 @@ This article discusses how to update the values of a test data profile from a te
 
 ---
 
-## **Prerequisites**
+<p id="prerequisites">Prerequisites</p>
 
 
 - You should know how to [create a test case](https://testsigma.com/docs/test-cases/manage/add-edit-delete/).

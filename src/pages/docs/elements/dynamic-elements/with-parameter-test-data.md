@@ -33,7 +33,7 @@ Dynamic locators are necessary for data-driven testing because they help adjust 
 
 ---
 
-## **Prerequisites**
+<p id="prerequisites">Prerequisites</p>
 
 Before implementing dynamic locators using parameters in Testsigma, ensure familiarity with fundamental concepts such as creating a [Test Case](https://testsigma.com/docs/test-cases/manage/add-edit-delete/#creating-a-test-case), managing [Test Steps](https://testsigma.com/docs/test-cases/step-types/natural-language/), handling [Test Data Profiles](https://testsigma.com/docs/test-data/create-data-profiles/) and [Parameters](https://testsigma.com/docs/test-data/types/parameter/), and effectively utilising different [Test Data Types](https://testsigma.com/docs/test-data/types/overview/).
 

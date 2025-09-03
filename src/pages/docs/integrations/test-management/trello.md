@@ -30,7 +30,7 @@ This document discusses establishing Integration with Trello from your Testsigma
 
 ---
 
-## **Prerequisites**
+<p id="prerequisites">Prerequisites</p>
 
 1. To integrate Trello with Testsigma, you need the following information from your Trello Account:<br>
     - User Token

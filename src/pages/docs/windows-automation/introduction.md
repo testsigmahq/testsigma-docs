@@ -32,7 +32,7 @@ You can also quickly jump to one of the following topics to learn about Windows 
 
 ---
 
-> ## **Prerequisites**
+> <p id="prerequisites">Prerequisites</p>
 >
 > Before you begin, ensure you have a licensed version of UFT One, [Testsigma Agent](https://testsigma.com/docs/agent/overview/) installed, and a Windows based Desktop application. 
 

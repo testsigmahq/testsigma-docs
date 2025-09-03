@@ -23,7 +23,7 @@ An automated test case is a step-by-step logic that simulates user interactions 
 
 ---
 
-## **Prerequisites**
+<p id="prerequisites">Prerequisites</p>
 
 - You should have Testsigma account.
 

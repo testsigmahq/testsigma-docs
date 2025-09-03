@@ -41,7 +41,7 @@ With Testsigma, you can create, update, retrieve, and delete test steps in a tes
 
 ---
 
-> ## **Prerequisites**
+> <p id="prerequisites">Prerequisites</p>
 > 
 > Before you begin, ensure you have:
 > - **testCaseId**: You can find it in the URL of the test case in the Testsigma app.

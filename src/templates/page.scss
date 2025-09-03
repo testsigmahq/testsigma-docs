@@ -418,6 +418,23 @@ blockquote {
   color: #6a737d;
   border-left: 5px solid #dfe2e5;
 }
+blockquote:has(#prerequisites){
+  border-left: 3px solid rgb(247, 125, 5);
+  background: #F8F9FA;
+  padding: 22px 20px 18px;
+  margin-top: 30px;
+  margin-bottom: 30px;
+  border-radius: 4px;
+  background-image: url("data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIyMDAiIGhlaWdodD0iMjAwIiB2aWV3Qm94PSIwIDAgMjQgMjQiIGZpbGw9IiMwMDAwMDAiPjxwYXRoIGZpbGw9IiMwMDAwMDAiIGQ9Ik0xMSAxN2gydi02aC0ydjZabTEtOHEuNDI1IDAgLjcxMy0uMjg4VDEzIDhxMC0uNDI1LS4yODgtLjcxM1QxMiA3cS0uNDI1IDAtLjcxMy4yODhUMTEgOHEwIC40MjUuMjg4LjcxM1QxMiA5Wm0wIDEzcS0yLjA3NSAwLTMuOS0uNzg4dC0zLjE3NS0yLjEzN3EtMS4zNS0xLjM1LTIuMTM3LTMuMTc1VDIgMTJxMC0yLjA3NS43ODgtMy45dDIuMTM3LTMuMTc1cTEuMzUtMS4zNSAzLjE3NS0yLjEzN1QxMiAycTIuMDc1IDAgMy45Ljc4OHQzLjE3NSAyLjEzN3ExLjM1IDEuMzUgMi4xMzggMy4xNzVUMjIgMTJxMCAyLjA3NS0uNzg4IDMuOXQtMi4xMzcgMy4xNzVxLTEuMzUgMS4zNS0zLjE3NSAyLjEzOFQxMiAyMloiLz48L3N2Zz4=");
+  background-size: 1.5rem;
+  background-position: 1.5rem 2.1rem;
+  background-repeat: no-repeat;
+}
+#prerequisites{
+  font-size: 22px;
+  font-weight: 700;
+  padding-left: 2rem;
+}
 .edit-button {
   padding-top: 40px;
   @media (min-width:992px) {

@@ -32,7 +32,7 @@ If you want to run a test case based on the above test data profile, but you jus
 
 ---
 
-> ## **Prerequisites**
+> <p id="prerequisites">Prerequisites</p>
 > <ul>
 > <li><a href="https://testsigma.com/docs/test-cases/manage/add-edit-delete/">Create a test case</a></li>
 > <li><a href="https://testsigma.com/docs/test-data/create-data-profiles/">Create a test data profile</a></li>

@@ -25,7 +25,7 @@ You can add unlimited team members to your project and assign them different rol
 ---
 
 
-> ## **Prerequisites**
+> <p id="prerequisites">Prerequisites</p>
 >
 > 
 > Before you begin, ensure you know create a [Project](https://testsigma.com/docs/projects/overview/) and have the role of either test manager or admin. *For more information, see [User Roles](https://testsigma.com/docs/collaboration/users-roles/).* 

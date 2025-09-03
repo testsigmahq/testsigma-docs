@@ -23,7 +23,7 @@ While recording test steps, you may encounter situations where the recorder disp
 ---
 
 
-## **Prerequisites**
+<p id="prerequisites">Prerequisites</p>
 
 - You should have the [Testsigma chrome extension installed](https://testsigma.com/docs/test-step-recorder/install-chrome-extension/).
 
