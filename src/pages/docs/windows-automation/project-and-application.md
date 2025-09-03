@@ -29,7 +29,7 @@ This article discusses creating a project and adding a Windows (Advanced) applic
 
 ---
 
-> ## **Prerequisites**
+> <p id="prerequisites">Prerequisites</p>
 >
 > Before you begin, ensure you have a licensed version of UFT One and a Windows machine with Testsigma Agent. 
 

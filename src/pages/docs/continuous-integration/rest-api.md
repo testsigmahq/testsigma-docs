@@ -34,11 +34,10 @@ You can integrate Testsigma with your CI/CD tool and trigger test plans and chec
 
 ---
 
-## **Prerequisites**
-
-- You should already have the test plan that you want to execute. See [test plan management](https://testsigma.com/docs/test-management/test-plans/overview/)
-
-- You should also know how to [generate an API key from settings](https://testsigma.com/docs/configuration/api-keys/) and get **Test Plan ID** from an existing Test Plan. See [getting test plan details](https://testsigma.com/docs/continuous-integration/get-test-plan-details/). 
+> <p id="prerequisites">Prerequisites</p>
+> 
+>    - You should already have the test plan that you want to execute. See [test plan management](https://testsigma.com/docs/test-management/test-plans/overview/).
+>    - You should also know how to [generate an API key from settings](https://testsigma.com/docs/configuration/api-keys/) and get **Test Plan ID** from an existing Test Plan. See [getting test plan details](https://testsigma.com/docs/continuous-integration/get-test-plan-details/). 
 
 
 ---

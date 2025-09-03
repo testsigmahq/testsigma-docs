@@ -22,18 +22,17 @@ Testsigma offers powerful webhooks for triggering Testsigma executions remotely 
 
 ---
 
-## **Prerequisites**
-
-1. A CodeShip Account configured with your organization details and the Project that needs to be triggered. If you are new to CodeShip, please follow the following link to create an Account (using your email or OAuth), add your organization and create a Project. See [signing up for a new Codeship Account](https://documentation.codeship.com/general/account/new-user-signup/)
-
-2. Connect your Source Code Management (SCM) tool such as Github, BitBucket, or GitLab to your account.
-
-
-    In this Guide, we will be using GitHub as our SCM. Therefore, we need to install CodeShip App from GitHub Marketplace in our GitHub Account so that the repositories in the Github account are accessible. See how to [configure Github as your SCM in CodeShip](https://blog.codeship.com/build-faster-with-github-and-cloudbees-codeship/).
-
-    For help on configuring other SCMs, please check CodeShip Documentation or contact CodeShip Support.
-
-    You can view the Connected Services at Authentications page - [Connected Services](https://app.codeship.com/authentications) 
+> <p id="prerequisites">Prerequisites</p>
+> 
+> 1. A CodeShip Account configured with your organization details and the Project that needs to be triggered. If you are new to CodeShip, please follow the following link to create an Account (using your email or OAuth), add your organization and create a Project. See [signing up for a new Codeship Account](https://documentation.codeship.com/general/account/new-user-signup/).
+> 
+> 2. Connect your Source Code Management (SCM) tool such as Github, BitBucket, or GitLab to your account.
+> 
+>    In this Guide, we will be using GitHub as our SCM. Therefore, we need to install CodeShip App from GitHub Marketplace in our GitHub Account so that the repositories in the Github account are accessible. See how to [configure Github as your SCM in CodeShip](https://blog.codeship.com/build-faster-with-github-and-cloudbees-codeship/).
+> 
+>       - For help on configuring other SCMs, please check **CodeShip Documentation** or contact **CodeShip Support**.
+> 
+>       - You can view the Connected Services at Authentications page - [Connected Services](https://app.codeship.com/authentications) 
 
 
 ---

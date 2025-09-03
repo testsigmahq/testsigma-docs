@@ -23,7 +23,7 @@ You can execute your test plans on your local devices using Testsigma. Local exe
 
 ---
 
-## **Prerequisites**
+<p id="prerequisites">Prerequisites</p>
 
 - You should know [how to set up Testsigma agent](https://testsigma.com/docs/agent/setup-on-windows-mac-linux/).
 

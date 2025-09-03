@@ -37,7 +37,7 @@ With Xray integration, you can link:
 
 ---
  
-## **Prerequisites**
+<p id="prerequisites">Prerequisites</p>
 - A working JIRA integration. For more information, refer to [jira bug reporting](https://testsigma.com/docs/integrations/bug-reporting/jira/).
 - A working Xray integration. 
     - JIRA Account URL

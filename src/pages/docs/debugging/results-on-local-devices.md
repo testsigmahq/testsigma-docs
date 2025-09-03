@@ -39,7 +39,7 @@ Debugging mobile applications on local devices with Testsigma allows you to insp
 
 ---
 
-## **Prerequisites**
+<p id="prerequisites">Prerequisites</p>
 
 Before starting the debugging process, ensure the following:
 - A local mobile device with [Android](https://testsigma.com/docs/agent/connect-android-local-devices/) or [iOS](https://testsigma.com/docs/agent/connect-ios-local-devices/) applications configured with Testsigma. The Testsigma Agent is active on your local device.

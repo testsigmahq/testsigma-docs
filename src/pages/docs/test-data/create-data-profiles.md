@@ -38,7 +38,7 @@ Test data profiles can significantly enhance the efficiency of your testing proc
 
 ---
 
-> ## **Prerequisites**
+> <p id="prerequisites">Prerequisites</p>
 >
 > Before you begin, ensure you're familiar with concepts of [Test Cases](https://testsigma.com/docs/test-cases/manage/add-edit-delete/) in Testsigma.
 

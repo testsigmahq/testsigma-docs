@@ -26,7 +26,7 @@ Testsigma Mantis integration lets you create issues in Mantis directly from the 
 
 ---
 
-## **Prerequisites**
+<p id="prerequisites">Prerequisites</p>
 
 1. To integrate Mantis with Testsigma, we need the following information from your Mantis Account
     - Account URL: Your organization’s Mantis Account URL

@@ -26,7 +26,7 @@ The Testsigma Azure DevOps Integration allows you to create work items within yo
 
 ---
 
-## **Prerequisites**
+<p id="prerequisites">Prerequisites</p>
 
 - **Azure DevOps Organization URL**: Azure DevOps URL will be the domain name.
 - **Personal Access Token**: In your Azure Application, you can find the Personal Access Token under **Security > Personal Access Tokens**.

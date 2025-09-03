@@ -26,7 +26,7 @@ With Testsigma’s no-code platform, you can create test cases using the capture
 
 ---
 
-> ## **Prerequisites**
+> <p id="prerequisites">Prerequisites</p>
 > 
 > Before you begin, ensure the following:
 > 

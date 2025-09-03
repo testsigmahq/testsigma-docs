@@ -23,7 +23,7 @@ Use the Query Builder in Salesforce Testing to create and run SOQL (Salesforce O
 
 ---
 
-## **Prerequisites**
+<p id="prerequisites">Prerequisites</p>
 
 Before you begin, ensure the Salesforce app is connected to Testsigma with a valid metadata connection.
 

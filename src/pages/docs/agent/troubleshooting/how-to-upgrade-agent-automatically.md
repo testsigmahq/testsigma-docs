@@ -23,7 +23,7 @@ Testsigma can download and install the agent automatically if there's a higher v
 
 ---
 
-## **Prerequisites**
+<p id="prerequisites">Prerequisites</p>
 
 - You should know how to [set up Testsigma agent](https://testsigma.com/docs/agent/setup-on-windows-mac-linux/).
 

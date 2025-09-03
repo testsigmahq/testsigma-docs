@@ -29,7 +29,7 @@ Controlling the behavior of each test step can be important to enhance your test
 
 ---
 
-> ## **Prerequisites**
+> <p id="prerequisites">Prerequisites</p>
 > 
 > - You should know about [Projects](https://testsigma.com/docs/projects/overview/) in Testsigma. 
 >   

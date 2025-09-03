@@ -26,7 +26,7 @@ Testsigma is revolutionizing test case creation using GenAI Capabilities. You ca
 
 ---
 
-> ## **Prerequisites**
+> <p id="prerequisites">Prerequisites</p>
 >
 > Before you begin, ensure that the Generative AI Features toggle is enabled under **Settings > Preferences** in the Testsigma application. This is required to access AI-powered test generation capabilities.
 

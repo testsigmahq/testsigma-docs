@@ -26,7 +26,7 @@ You can integrate Testsigma with Jira Server or Data Center to simplify issue tr
 
 ---
 
-> ## **Prerequisites**
+> <p id="prerequisites">Prerequisites</p>
 > 
 > Before you begin, ensure you have admin access to your Jira Server or Data Center instance.
 

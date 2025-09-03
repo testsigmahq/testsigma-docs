@@ -27,7 +27,7 @@ In Testsigma, you can create multiple projects and assign users to those project
 ---
 
 
-> ## **Prerequisites**
+> <p id="prerequisites">Prerequisites</p>
 >
 
 - You should know how to create a [Project](https://testsigma.com/docs/projects/overview/). 

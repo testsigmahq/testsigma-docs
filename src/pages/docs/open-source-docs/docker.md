@@ -41,7 +41,7 @@ This guide will help you setup [Testsigma Server](https://github.com/testsigmahq
 
 ---
 
-> ## **Prerequisites**
+> <p id="prerequisites">Prerequisites</p>
 > 
 >  Before you begin, ensure you have installed [Docker](https://docs.docker.com/install/) and [Docker Compose](https://docs.docker.com/compose/install/).
 

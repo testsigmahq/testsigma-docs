@@ -30,7 +30,7 @@ With Testsigma, creating test cases for Salesforce is easy as we can leverage Me
 
 ---
 
-> ## **Prerequisites**
+> <p id="prerequisites">Prerequisites</p>
 >
 >
 > Before you begin, ensure you have a Salesforce organization set up with a [Salesforce Connected App](https://testsigma.com/docs/salesforce-testing/connected-app/) and [Salesforce Metadata](https://testsigma.com/docs/salesforce-testing/metadata-connections/) connected to Testsigma. Additionally, install the [Testsigma Chrome Extension](https://chromewebstore.google.com/detail/testsigma-recorder/epmomlhdjfgdobefcpocockpjihaabdp) on your browser.

@@ -30,7 +30,7 @@ You can now compare test execution screenshots with original design files in Fig
 
 ---
 
-> ## **Prerequisites**
+> <p id="prerequisites">Prerequisites</p>
 > 
 > Before you begin, make sure you know how to configure test steps for visual testing in Testsigma. For more information, see [Visual Testing](https://testsigma.com/docs/visual-testing/configure-test-steps/).
 

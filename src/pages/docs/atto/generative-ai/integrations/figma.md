@@ -23,7 +23,7 @@ With Figma integrated into Testsigma, you can generate test cases directly from 
 
 ---
 
-## **Prerequisites**
+<p id="prerequisites">Prerequisites</p>
 
 ### **Getting Team ID in Figma**
 

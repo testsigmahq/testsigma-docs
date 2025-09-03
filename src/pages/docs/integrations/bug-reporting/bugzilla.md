@@ -26,7 +26,7 @@ Testsigma Mantis integration lets you create issues directly from the Testsigma 
 
 ---
 
-## **Prerequisites**
+<p id="prerequisites">Prerequisites</p>
 
 
 1. To integrate Bugzilla with Testsigma, you need the following information from your Bugzilla account:

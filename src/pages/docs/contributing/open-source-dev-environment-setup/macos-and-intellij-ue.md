@@ -34,9 +34,10 @@ contextual_links:
 
 ---
 
-## **Pre-Requisites**
-- **OS:** macOS / Linux
-- **IDE:** IntelliJ IDE Editor - Ultimate Edition
+> <p id="prerequisites">Prerequisites</p>
+> 
+> - **OS:** macOS / Linux
+> - **IDE:** IntelliJ IDE Editor - Ultimate Edition
 
 <br>
 

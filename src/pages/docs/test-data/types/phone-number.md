@@ -29,7 +29,7 @@ The phone number data type is used to automate two-factor authentication (2FA) a
 
 ---
 
-> ## **Prerequisites**
+> <p id="prerequisites">Prerequisites</p>
 > 
 > - You should be familiar with regular expressions. Refer to the [regex guide](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Guide/Regular_Expressions).
 
@@ -80,7 +80,7 @@ Providing phone numbers for OTP and login purposes is restricted in certain coun
 
 ---
 
-> ## **Prerequisites**
+> <p id="prerequisites">Prerequisites</p>
 >
 > - You should have Testsigma SMS Forwarder application.
 

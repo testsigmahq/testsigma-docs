@@ -27,7 +27,7 @@ Connecting MongoDB and PostgreSQL databases to Testsigma enhances your testing c
 
 ---
 
-## **Prerequisites**
+<p id="prerequisites">Prerequisites</p>
 
 Before you proceed, ensure you know how to [install](https://testsigma.com/docs/addons/community-marketplace/) the community addon.
 

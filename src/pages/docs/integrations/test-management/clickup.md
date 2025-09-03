@@ -23,7 +23,7 @@ You can integrate Testsigma with Clickup to push bugs directly to Clickup’s pr
 
 ---
 
-## **Prerequisites**
+<p id="prerequisites">Prerequisites</p>
 To integrate Clickup with Testsigma, you need the following:
 - **API Key:** API Token from Clickup. 
 

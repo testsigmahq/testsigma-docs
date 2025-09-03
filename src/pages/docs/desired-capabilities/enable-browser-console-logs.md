@@ -30,7 +30,7 @@ Browser Console Debug logs can help you more effectively identify and troublesho
 
 ---
 
-## **Prerequisites**
+<p id="prerequisites">Prerequisites</p>
 
 Before you begin, grasp the basics of creating [Test Cases](https://testsigma.com/docs/test-cases/manage/add-edit-delete/) and [Test Plans](https://testsigma.com/docs/test-management/test-plans/overview/) and performing [Ad-hoc Runs](https://testsigma.com/docs/runs/adhoc-runs/) and [Test Machines](https://testsigma.com/docs/test-management/test-plans/manage-test-machines/).
 

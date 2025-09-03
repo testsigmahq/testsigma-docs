@@ -22,7 +22,7 @@ With Testsigma, you can execute the tests on local devices from another device u
 
 ---
 
-## **Prerequisites**
+<p id="prerequisites">Prerequisites</p>
 
 - You should have [Testsigma Agent installed & registered](https://testsigma.com/docs/agent/setup-on-windows-mac-linux/) on the target machine.
   

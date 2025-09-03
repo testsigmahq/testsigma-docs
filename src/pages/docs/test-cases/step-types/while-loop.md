@@ -31,7 +31,7 @@ In Testsigma, you can create a while loop to execute a test step repeatedly if a
 
 ---
 
-> ## **Prerequisites**
+> <p id="prerequisites">Prerequisites</p>
 > 
 > - You should also know how to [create a test case](https://testsigma.com/docs/test-cases/manage/add-edit-delete/).
 > 

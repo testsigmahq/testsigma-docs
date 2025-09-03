@@ -29,7 +29,7 @@ The following article discusses about updating an existing test data profile. *F
 
 ---
 
-## **Prerequisites**
+<p id="prerequisites">Prerequisites</p>
 
 - You should know how to [create a test data profile](https://testsigma.com/docs/test-data/create-data-profiles/).
    

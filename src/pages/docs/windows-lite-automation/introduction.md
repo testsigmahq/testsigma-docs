@@ -33,7 +33,7 @@ Jump to one of the following topics to learn about Windows Automation (Lite) in 
 
 ---
 
-> ## **Prerequisites**
+> <p id="prerequisites">Prerequisites</p>
 >
 > - [Testsigma Agent Setup](https://testsigma.com/docs/agent/setup-on-windows-mac-linux/)
 > - An Application Built on UWP/WinForms/WPF/Classic Windows

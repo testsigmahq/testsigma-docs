@@ -23,7 +23,7 @@ With Testsigma Copilot, you can quickly generate a Test Data Profile. This elimi
 
 ---
 
-> ## **Prerequisites**
+> <p id="prerequisites">Prerequisites</p>
 > 
 > Before you begin, enable AI Features from **Settings > Preferences > Generative AI features** and ensure you're familiar with the concepts of [Test Cases](https://testsigma.com/docs/test-cases/manage/add-edit-delete/) and [Test Data Profiles](https://testsigma.com/docs/test-data/create-data-profiles/) in Testsigma.
 

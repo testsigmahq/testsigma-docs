@@ -35,7 +35,7 @@ In Testsigma, you can create a Salesforce application and establish a Metadata c
 
 ---
 
-> ## **Prerequisites**
+> <p id="prerequisites">Prerequisites</p>
 > 
 > Before you begin, ensure you have a Salesforce organization setup with a [Salesforce Connected App](https://testsigma.com/docs/salesforce-testing/connected-app/).
 

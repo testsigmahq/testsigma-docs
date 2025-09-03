@@ -48,7 +48,7 @@ This article discusses executing tests in Testsigma Private Grid.
 
 ---
 
-> ## **Prerequisites**
+> <p id="prerequisites">Prerequisites</p>
 > 
 > - Testsigma Agent
 > - Core Java (OpenJDK 18) 

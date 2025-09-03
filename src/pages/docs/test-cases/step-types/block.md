@@ -38,7 +38,7 @@ In Testsigma, a step block can be created using two different methods:
 
 ---
 
-> ### **Prerequisites**
+> #<p id="prerequisites">Prerequisites</p>
 > 
 > Before using the Step Block, you must understand specific concepts such as creating [Projects](https://testsigma.com/docs/projects/overview/), [Test Cases](https://testsigma.com/docs/test-cases/manage/add-edit-delete/), [Test Steps](https://testsigma.com/docs/test-cases/create-steps-nl/overview/), and understanding [Test Step Types](https://testsigma.com/docs/test-cases/step-types/overview/) and [Bulk Actions](https://testsigma.com/docs/test-cases/create-steps-nl/bulk-actions/).
 

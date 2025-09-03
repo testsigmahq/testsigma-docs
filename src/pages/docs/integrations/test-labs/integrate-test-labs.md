@@ -29,7 +29,7 @@ Testsigma integrates with various test labs, allowing you to run your tests on c
 
 ---
 
-## **Prerequisites**
+<p id="prerequisites">Prerequisites</p>
 
 Before connecting Testsigma with other labs, ensure you know about the various types of [Test Labs](https://testsigma.com/docs/test-management/test-plans/supported-test-lab-types/) in Testsigma. Additionally, gather the necessary information for integration:
 - **BrowserStack**: Username and API Key from BrowserStack.

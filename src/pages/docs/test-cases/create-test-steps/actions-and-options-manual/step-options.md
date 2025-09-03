@@ -48,7 +48,7 @@ In Testsigma, you can customize test steps within a test case using test step op
 ---
 
 
-> ## **Prerequisites**
+> <p id="prerequisites">Prerequisites</p>
 >   
 > - You should know how to [manage a Test Case](https://testsigma.com/docs/test-cases/manage/add-edit-delete/).
 >

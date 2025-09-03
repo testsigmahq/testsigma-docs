@@ -27,7 +27,7 @@ You can generate test cases for android and iOS applications using Testsigma’s
 
 ---
 
-> ## **Prerequisites**
+> <p id="prerequisites">Prerequisites</p>
 > 
 > Before you begin, make sure your Figma account is integrated with Testsigma.
 

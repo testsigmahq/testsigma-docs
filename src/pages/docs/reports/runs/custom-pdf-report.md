@@ -36,7 +36,7 @@ Custom PDF Report Generator in Testsigma allows you to create detailed and custo
 
 ---
 
-> ## **Prerequisites**
+> <p id="prerequisites">Prerequisites</p>
 >
 > Before you begin, ensure you have the following:
 >

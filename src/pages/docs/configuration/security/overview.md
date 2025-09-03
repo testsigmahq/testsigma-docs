@@ -27,7 +27,7 @@ Single Sign-On (SSO) is an authentication process that allows you to access an a
 ---
 
 
-## **Prerequisites**
+<p id="prerequisites">Prerequisites</p>
 - You should have an active Testsigma account.
 
 

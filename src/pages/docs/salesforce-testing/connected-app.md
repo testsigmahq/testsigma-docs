@@ -29,7 +29,7 @@ Creating a connected app is important to link external applications and the Sale
 
 ---
 
-> ## **Prerequisites**
+> <p id="prerequisites">Prerequisites</p>
 >
 > Before you begin, ensure you have a Salesforce organization setup. 
 

@@ -27,7 +27,7 @@ With Testsigma, you can test Google Playstore in-app purchase flows, verify paym
 
 ---
 
-## **Prerequisites**
+<p id="prerequisites">Prerequisites</p>
 
 - You should know how to [create ad hoc runs](https://testsigma.com/docs/runs/adhoc-runs/).
 

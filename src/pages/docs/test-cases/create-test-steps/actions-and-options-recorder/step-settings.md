@@ -24,7 +24,7 @@ In Testsigma, you can control how each test step behaves in your test cases by u
 ---
 
 
-> ## **Prerequisites**
+> <p id="prerequisites">Prerequisites</p>
 > 
 > - You should have [Testsigma's step test recorder](https://testsigma.com/docs/test-step-recorder/install-chrome-extension/) installed. 
 >

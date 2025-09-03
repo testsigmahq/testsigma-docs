@@ -30,7 +30,7 @@ In automated testing, test failures often occur when the recorder captures link 
 
 ---
 
-## **Prerequisites**
+<p id="prerequisites">Prerequisites</p>
 
 Before you proceed, ensure you know how to create or update an [Element](https://testsigma.com/docs/elements/web-apps/create-manually/) and a [Test Case](https://testsigma.com/docs/test-cases/manage/add-edit-delete/).
 

@@ -25,7 +25,7 @@ Testsigma monday.com integration helps you create issues in monday.com directly 
 
 ---
 
-## **Prerequisites**
+<p id="prerequisites">Prerequisites</p>
 
 To integrate **monday.com** with Testsigma, you need the following information from your monday.com account:
 

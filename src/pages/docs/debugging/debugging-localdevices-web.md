@@ -35,7 +35,7 @@ Debugging in Testsigma helps identify and resolve errors in test cases through i
 
 ---
 
-## **Prerequisites**
+<p id="prerequisites">Prerequisites</p>
 
 Before you begin debugging in Testsigma, ensure the following:
 

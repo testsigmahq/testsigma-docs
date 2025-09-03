@@ -26,7 +26,7 @@ You can generate test cases for web and mobile web applications using Testsigmaâ
 
 ---
 
-> ## **Prerequisites**
+> <p id="prerequisites">Prerequisites</p>
 >
 > Before you begin, make sure your Jira account is integrated with Testsigma.
 

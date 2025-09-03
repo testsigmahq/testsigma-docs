@@ -33,7 +33,7 @@ There are two ways to review an element:
 ---
 
 
-> ## **Prerequisites**
+> <p id="prerequisites">Prerequisites</p>
 >
 > 
 > Before using **Test Case Review Management**, you must understand specific concepts such as creating [Elements](https://testsigma.com/docs/elements/overview/), [Test Cases](https://testsigma.com/docs/test-cases/manage/add-edit-delete/), and managing [Users and Roles](https://testsigma.com/docs/collaboration/users-roles/). Also, make sure the option **Element Review Management** is enabled under **Settings > Preferences**.

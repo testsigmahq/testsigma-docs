@@ -22,7 +22,7 @@ contextual_links:
 Testsigma allows you to run tests on your local iOS devices in addition to Testsigma Cloud machines/devices. Step by step guid for running the tests on iOS Local Devices.
 
 ---
-## **Prerequisites**
+<p id="prerequisites">Prerequisites</p>
 - Testsigma Agent is successfully registered. For details on registering Testsigma Agent visit [Setting up Testsigma Agent on your local machine](https://testsigma.com/docs/agent/setup-on-windows-mac-linux/)
 - Configure Provisioning profiles to allow local automation. For details on iOS Settings visit [Configure your Local iOS Devices](https://testsigma.com/docs/configuration/ios-settings/)
 

@@ -28,7 +28,7 @@ In this document, we will discuss how to establish Integration with Zepel from y
 
 ---
 
-## **Prerequisites**
+<p id="prerequisites">Prerequisites</p>
 
 1. To integrate Zepel with Testsigma, we need the following information from your Zepel account:
     - Account URL

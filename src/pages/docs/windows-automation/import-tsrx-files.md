@@ -25,7 +25,7 @@ Once the TSRx file is ready, you can import it with just a few clicks and start 
 
 ---
 
-> ## **Prerequisites**
+> <p id="prerequisites">Prerequisites</p>
 >
 > Before you begin, ensure you have a Windows Project and a TSRx File to Import. 
 

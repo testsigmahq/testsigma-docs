@@ -26,7 +26,7 @@ Testsigma enables you to enhance your testing process by inserting images into y
 
 ---
 
-## **Prerequisites**
+<p id="prerequisites">Prerequisites</p>
 
 Before using Image Injection, you must understand specific concepts such as creating [Projects](https://testsigma.com/docs/projects/overview/), [Test Cases](https://testsigma.com/docs/test-cases/manage/add-edit-delete/), [Test Steps](https://testsigma.com/docs/test-cases/create-steps-nl/overview/), [Test Data Types](https://testsigma.com/docs/test-data/types/overview/), [Uploading Applications](https://testsigma.com/docs/uploads/upload-apps/), [Uploading Files](https://testsigma.com/docs/uploads/upload-files/), recording steps for [Android](https://testsigma.com/docs/test-cases/create-test-steps/actions-and-options-recorder/step-settings/#reordering-test-steps) and [iOS](https://testsigma.com/docs/test-cases/create-test-steps/actions-and-options-manual/step-options/#reorder-test-step), and performing Ad-hoc runs in [Android](https://testsigma.com/docs/runs/adhoc-runs/#android-application) and [iOS](https://testsigma.com/docs/runs/adhoc-runs/#ios-application).
 

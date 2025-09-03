@@ -39,7 +39,7 @@ In Testsigma, you can handle and use specific sets of test data linked to differ
 
 ---
 
-> ## **Prerequisites**
+> <p id="prerequisites">Prerequisites</p>
 > 
 > - You should know how to create a [Test Case](https://testsigma.com/docs/test-cases/manage/add-edit-delete/#creating-a-test-case) and [Test Steps](https://testsigma.com/docs/test-cases/step-types/natural-language/). 
 > - You should know how to create an [Environment](https://testsigma.com/docs/test-data/create-environment-data/).

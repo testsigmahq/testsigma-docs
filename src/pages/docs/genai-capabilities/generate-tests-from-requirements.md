@@ -29,7 +29,7 @@ With Testsigma, you can create test cases directly from Jira stories and epics b
 
 ---
 
-> ## **Prerequisites**
+> <p id="prerequisites">Prerequisites</p>
 > 
 > Before you begin, enable AI Features from **Settings > Preferences > Generative AI features**, integrate [Jira with Testsigma](https://testsigma.com/docs/integrations/bug-reporting/jira/) and ensure you're familiar with the concepts of [Test Cases](https://testsigma.com/docs/test-cases/manage/add-edit-delete/).
 

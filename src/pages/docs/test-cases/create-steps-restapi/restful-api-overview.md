@@ -24,7 +24,7 @@ Testsigma supports Restful APIs Testing. RESTful APIs allow you to access resour
 
 ---
 
-> ## **Prerequisites**
+> <p id="prerequisites">Prerequisites</p>
 >
 > - You should know how to [create a Test Case](https://testsigma.com/docs/test-cases/manage/add-edit-delete/#creating-a-test-case). 
 > 

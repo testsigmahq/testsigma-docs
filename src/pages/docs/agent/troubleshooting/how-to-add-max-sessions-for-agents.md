@@ -23,7 +23,7 @@ When adding the Testsigma agent, you can specify the maximum number of sessions 
 
 ---
 
-## **Prerequisites**
+<p id="prerequisites">Prerequisites</p>
 
 - You should know how to [register agents](https://testsigma.com/docs/agent/setup-on-windows-mac-linux/#register-the-testsigma-agent) on Testsigma.
 

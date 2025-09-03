@@ -24,7 +24,7 @@ Updating an addon in Testsigma keeps your tools up-to-date and functional. First
 
 ---
 
-## **Prerequisites**
+<p id="prerequisites">Prerequisites</p>
 
 Before updating an addon, ensure you have:
 

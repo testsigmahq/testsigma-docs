@@ -31,7 +31,7 @@ https://github.com/Testsigmahq/testsigma-addon-archetype#testsigma-maven-archety
 In this document we will learn how to update runtime data using methods available in Testsigma SDK
 
 ---
-## **Prerequisites**
+<p id="prerequisites">Prerequisites</p>
 1. [Create an Addon](https://testsigma.com/docs/addons/create/)
 
 ---

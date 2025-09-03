@@ -37,7 +37,7 @@ Testsigma also integrates seamlessly with tools like Jira, Figma, Xray, GitHub, 
 
 ---
 
-## **Prerequisites**
+<p id="prerequisites">Prerequisites</p>
 
 1. From the **Dashboard**, go to **Settings > Preferences**.
 

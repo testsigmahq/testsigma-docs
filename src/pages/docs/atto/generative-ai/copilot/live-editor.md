@@ -23,7 +23,7 @@ The Live Editor in Testsigma helps you debug, execute, and modify test cases in 
 
 ---
 
-> ## **Prerequisites**
+> <p id="prerequisites">Prerequisites</p>
 >
 > Before you begin, ensure **Testsigma Terminal** is installed and the **Live Editor** is ready.
 

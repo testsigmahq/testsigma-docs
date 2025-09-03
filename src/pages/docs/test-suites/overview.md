@@ -32,7 +32,7 @@ Organise your test cases into test suites based on common functionalities or sce
 
 ---
 
-## **Prerequisites**
+<p id="prerequisites">Prerequisites</p>
 
 Ensure that you create [Test Cases](https://testsigma.com/docs/test-cases/manage/add-edit-delete/) in the Same [Project](https://testsigma.com/docs/projects/overview/) before you can manage test suites in Testsigma.
 

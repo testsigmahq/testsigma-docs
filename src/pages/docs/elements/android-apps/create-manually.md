@@ -32,7 +32,7 @@ In Testsigma, you can also create elements manually for your android project wit
 
 ---
 
-## **Prerequisites**
+<p id="prerequisites">Prerequisites</p>
 
 - You should know how to create an android [project](https://testsigma.com/docs/projects/overview/) in Testsigma.
 
