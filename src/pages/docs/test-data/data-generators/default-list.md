@@ -57,7 +57,7 @@ contextual_links:
 
 ---
 
-Testsigma offers a variety of predefined data types, including text, number, date, email, phone number, and others. You can use these data types to create test data for various field types. Refer to [test data generator usage in test steps](https://testsigma.com/docs/test-data/types/data-generator/) to learn how to use the default test data generators in your test steps.
+Testsigma offers a variety of predefined data types, including text, number, date, email, phone number, and others. You can use these data types to create test data for various field types. For more information on test data generator usage in test steps, refer to the [documentation on test data generator usage in test steps](https://testsigma.com/docs/test-data/types/data-generator/) to learn how to use the default test data generators in your test steps.
 
 The following list categorises the available default test data generators.
 
@@ -284,7 +284,7 @@ The following list categorises the available default test data generators.
 ---
 
 [[info | NOTE:]]
-| - You can create your own Data Generator and customise the actions according to your preference. For more information, refer to [create test data generators using addons](https://testsigma.com/tutorials/addons/how-create-addons-test-data-generators/)
-| - For some Data Generators, Regex is used to find a sequence of characters that specifies a search pattern in the text; if you're unfamiliar, refer to the [Regex guide - MDN Docs](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Guide/Regular_Expressions).
+| - You can create your own Data Generator and customise the actions according to your preference. For more information on creating test data generators using addons, refer to the [documentation on creating test data generators using addons](https://testsigma.com/tutorials/addons/how-create-addons-test-data-generators/)
+| - For some Data Generators, Regex is used to find a sequence of characters that specifies a search pattern in the text; if you're unfamiliar, refer to the [documentation on regex guide - MDN docs](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Guide/Regular_Expressions).
 
 ---
