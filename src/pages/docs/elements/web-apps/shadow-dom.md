@@ -30,9 +30,14 @@ Shadow DOM elements allow you to encapsulate and isolate styling and functionali
 To perform reliable tests, you need to find these elements. This guide will explain how Testsigma can help you locate and capture Shadow DOM elements for effective testing.
 
 ---
+
 > <p id="prerequisites">Prerequisites</p>
 >
-> Before you begin, ensure that you understand specific concepts such as creating [projects](https://testsigma.com/docs/projects/overview/), [test cases](https://testsigma.com/docs/test-cases/manage/add-edit-delete/), [elements](https://testsigma.com/docs/elements/overview/), and [recording test steps](https://testsigma.com/docs/test-cases/create-test-steps/overview/#creating-test-steps-using-test-recorder).
+> Before you begin, ensure that you have referred to:
+> 1. [Documentation on creating projects](https://testsigma.com/docs/projects/overview/).
+> 2. [Documentation on creating test cases](https://testsigma.com/docs/test-cases/manage/add-edit-delete/). 
+> 3. [Documentation on creating elements](https://testsigma.com/docs/elements/overview/).
+> 4. [Documentation on recording test steps](https://testsigma.com/docs/test-cases/create-test-steps/overview/#creating-test-steps-using-test-recorder).
 
 ---
 

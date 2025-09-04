@@ -32,8 +32,13 @@ The Label Management feature in Testsigma helps you manage labels linked to test
 
 
 > <p id="prerequisites">Prerequisites</p>
-> 
-> Before you begin, ensure you know how to create [Test Cases](https://testsigma.com/docs/test-cases/manage/add-edit-delete/), [Elements](https://testsigma.com/docs/elements/overview/), [Step Groups](https://testsigma.com/docs/test-cases/step-types/step-group/), [Test Suites](https://testsigma.com/docs/test-management/test-suites/overview/), and [Test Plans](https://testsigma.com/docs/test-management/test-plans/overview/).
+>
+> Before you begin, ensure that you have referred to:
+> 1. [Documentation on creating test cases](https://testsigma.com/docs/test-cases/manage/add-edit-delete/).
+> 2. [Documentation on creating elements](https://testsigma.com/docs/elements/overview/).
+> 3. [Documentation on creating step groups](https://testsigma.com/docs/test-cases/step-types/step-group/).
+> 4. [Documentation on creating test suites](https://testsigma.com/docs/test-management/test-suites/overview/).
+> 5. [Documentation on creating test plans](https://testsigma.com/docs/test-management/test-plans/overview/).
 
 ---
 
