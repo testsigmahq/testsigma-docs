@@ -27,7 +27,7 @@ contextual_links:
 
 With Testsigma, you can create, update, and delete a schedule for test plan using API. You can also set the test plan execution in the queue to start tests outside office hours so that production time is not lost.
 
-*For more information on test plans, [refer to manage test plans](https://testsigma.com/docs/test-management/test-plans/overview/).*
+*For more information on test plans, refer to the [documentation on managing test plans](https://testsigma.com/docs/test-management/test-plans/overview/).*
 
 ## **Test plan details using REST API**
 
@@ -93,3 +93,5 @@ This endpoint allows users to delete a scheduled test plan using REST API.
 
 [[info | **NOTE**:]]
 |DELETE method will delete the respective schedule and return status code 202.
+
+---

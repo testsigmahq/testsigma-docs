@@ -25,11 +25,10 @@ When test steps are recorded using test recorder, Testsigma gives you the option
 
 > <p id="prerequisites">Prerequisites</p>
 >
-> - You should know about [projects](https://testsigma.com/docs/projects/overview/) in Testsigma. 
->  
-> - You should have [Testsigma's step test recorder](https://testsigma.com/docs/test-step-recorder/install-chrome-extension/) installed. 
->
-> - You should know how to [manage a test case](https://testsigma.com/docs/test-cases/manage/add-edit-delete/).
+> Before you begin, ensure that:
+> 1. You have referred to the [documentation on creating projects](https://testsigma.com/docs/projects/overview/).
+> 1. You have installed the Testsigma's test step recorder. For more information on installing Testsigma's test step recorder, refer to the [documentation on installing Testsigma's step test recorder](https://testsigma.com/docs/test-step-recorder/install-chrome-extension/).
+> 2. You have referred to the [documentation on creating a test case](https://testsigma.com/docs/test-cases/manage/add-edit-delete/).
 
 ---
 

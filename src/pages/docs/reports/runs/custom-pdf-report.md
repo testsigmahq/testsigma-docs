@@ -38,15 +38,11 @@ Custom PDF Report Generator in Testsigma allows you to create detailed and custo
 
 > <p id="prerequisites">Prerequisites</p>
 >
-> Before you begin, ensure you have the following:
->
-> - An [API Key ](https://testsigma.com/docs/reports/runs/filter-custom-reports/) from your Testsigma account.
->
-> - **Java 17** or a newer version installed on your system.
->
-> - You can request the **JAR file** from the Customer Support team and download it before executing a Custom PDF Report Generation.
-> 
-> - An **HTML template** for the PDF report. [Click here](https://s3.amazonaws.com/static-docs.testsigma.com/new_images/projects/applications/Custom_Report_Template.txt) to download the HTML template. 
+> Before you begin, ensure that:
+> 1. You have referred to the [documentation on generating API keys](https://testsigma.com/docs/reports/runs/filter-custom-reports/) from your Testsigma account.
+> 2. **Java 17** or a newer version installed on your system.
+> 3. You can request the **JAR file** from the Customer Support team and download it before executing a Custom PDF Report Generation.
+> 4. An **HTML template** for the PDF report. [Click here](https://s3.amazonaws.com/static-docs.testsigma.com/new_images/projects/applications/Custom_Report_Template.txt) to download the HTML template. 
 
 ---
 
@@ -98,7 +94,7 @@ Replace the placeholders with your actual values:
 
 Generate reports at the Test Case, Test Suite, or Test Machine level by following these steps::
 
-1. Get the Run ID as explained in the [Retrieving Result IDs](https://testsigma.com/docs/reports/runs/custom-pdf-report/#retrieving-result-ids) section.
+1. Get the Run ID. Refer to the [documentation on retrieving result IDs](https://testsigma.com/docs/reports/runs/custom-pdf-report/#retrieving-result-ids) section.
 2. Use the following command, including your specific preferences:
 
 ```bash

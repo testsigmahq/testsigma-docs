@@ -29,13 +29,15 @@ Testsigma integrates with various test labs, allowing you to run your tests on c
 
 ---
 
-<p id="prerequisites">Prerequisites</p>
-
-Before connecting Testsigma with other labs, ensure you know about the various types of [Test Labs](https://testsigma.com/docs/test-management/test-plans/supported-test-lab-types/) in Testsigma. Additionally, gather the necessary information for integration:
-- **BrowserStack**: Username and API Key from BrowserStack.
-- **SauceLabs**: Username and API Key from SauceLabs.
-- **LambdaTest**: Username and API Key from LambdaTest.
-- **Kobiton**: Username/Email and API Key from Kobiton.
+> <p id="prerequisites">Prerequisites</p>
+>
+> Before you begin, ensure that: 
+> 1. You have referred to the [documentation on supported test labs in Testsigma](https://testsigma.com/docs/test-management/test-plans/supported-test-lab-types/). 
+> 2. You have the necessary information for integration:
+>    - **BrowserStack**: Username and API Key from BrowserStack.
+>    - **SauceLabs**: Username and API Key from SauceLabs.
+>    - **LambdaTest**: Username and API Key from LambdaTest.
+>    - **Kobiton**: Username/Email and API Key from Kobiton.
 
 ---
 

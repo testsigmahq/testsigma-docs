@@ -23,9 +23,10 @@ While recording test steps, you may encounter situations where the recorder disp
 ---
 
 
-<p id="prerequisites">Prerequisites</p>
-
-- You should have the [Testsigma chrome extension installed](https://testsigma.com/docs/test-step-recorder/install-chrome-extension/).
+> <p id="prerequisites">Prerequisites</p>
+> 
+> Before you begin, ensure that:
+> 1. You have installed the Testsigma Chrome Extension. For more information on installing Testsigma Chrome Extension, refer to the [documentation on installing Testsigma Chrome Extension](https://testsigma.com/docs/test-step-recorder/install-chrome-extension/).
 
 
 ---

@@ -29,11 +29,12 @@ In an iOS project in Testsigma, you can selectively capture elements one at a ti
 
 > <p id="prerequisites">Prerequisites</p>
 >
-> - You should know how to create a [project](https://testsigma.com/docs/projects/overview/) and [application](https://testsigma.com/docs/projects/applications/) in Testsigma.
->
-> - You should have [Testsigma chrome extension installed](https://testsigma.com/docs/test-step-recorder/install-chrome-extension/). 
->
-> - An iOS app to test.
+> Before you begin, ensure that:
+> 1. You have referred to the [documentation on creating projects](https://testsigma.com/docs/projects/overview/).
+> 2. You have referred to the [documentation on creating applications](https://testsigma.com/docs/projects/applications/).  
+> 3. You have installed the Testsigma Chrome Extension. For more information on installing Testsigma Chrome Extension, refer to the [documentation on Testsigma Chrome Extension](https://testsigma.com/docs/test-step-recorder/install-chrome-extension/). 
+> 4. You have an iOS application that is available for testing.
+
 
 ---
 

@@ -29,9 +29,9 @@ With Testsigma, you can choose default and custom values for various variables s
 
 > <p id="prerequisites">Prerequisites</p>
 >
-> - You should know how to [create a Test Case](https://testsigma.com/docs/test-cases/manage/add-edit-delete/#creating-a-test-case). 
-> 
-> - You should know how to [add Rest API in the test steps](https://testsigma.com/docs/test-cases/step-types/rest-api/#add-restful-api-in-test-steps).
+> Before you begin, ensure that you have referred to:
+> 1. [Documentation on creating test cases](https://testsigma.com/docs/test-cases/manage/add-edit-delete/#create-test-case).
+> 2. [Documentation on adding Rest API to the test steps](https://testsigma.com/docs/test-cases/step-types/rest-api/#add-restful-api-in-test-steps).
 
 ---
 

@@ -26,10 +26,10 @@ In this document, we will discuss the generic shell script - for both PowerShell
 ---
 
 > <p id="prerequisites">Prerequisites</p>
-> 
-> Before you begin, ensure you know how to:
-> 1. [generate an API key from Settings.](https://testsigma.com/docs/configuration/api-keys/)
-> 2. [Get Test Plan ID from an existing Test Plan.](https://testsigma.com/docs/continuous-integration/get-test-plan-details/)
+>
+> Before you begin, ensure that you have referred to:
+> 1. [Documentation on generating API keys](https://testsigma.com/docs/configuration/api-keys/).
+> 2. [Documentation on getting test plan details](https://testsigma.com/docs/continuous-integration/get-test-plan-details/). 
 
 ---
 

@@ -25,13 +25,11 @@ Testsigma monday.com integration helps you create issues in monday.com directly 
 
 ---
 
-<p id="prerequisites">Prerequisites</p>
-
-To integrate **monday.com** with Testsigma, you need the following information from your monday.com account:
-
-- **Account URL**: Your organization’s monday.com account URL
-
-- **API Key**: Find your monday.com API Token
+> <p id="prerequisites">Prerequisites</p>
+>
+>To integrate **monday.com** with Testsigma, you need the following information from your monday.com account:
+>    - **Account URL**: Your organization’s monday.com account URL.
+>    - **API Key**: Find your monday.com API Token. 
 
 ---
 

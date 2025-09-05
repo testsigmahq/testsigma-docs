@@ -34,7 +34,7 @@ Testsigma Community Edition is an open-source end-to-end test automation platfor
 
 ## **Setup Testsigma Community Edition**
 
-- [Deploy Testsigma on my workstation](https://testsigma.com/docs/getting-started/setup/overview/)
+- Refer to the [documentation on deploying Testsigma on my workstation](https://testsigma.com/docs/getting-started/setup/overview/)
 
 
 ---
@@ -51,6 +51,6 @@ Testsigma Community Edition is an open-source end-to-end test automation platfor
 
 ## **Telemetry Opt-In**
 
-As a standard practice, we collect anonymous telemetry data during and after Testsigma is installed on your local machine. You can learn more about Telemetry data and opt-in [here](https://testsigma.com/docs/getting-started/telemetry/).
+As a standard practice, we collect anonymous telemetry data during and after Testsigma is installed on your local machine. You can learn more about Telemetry data and opt-in [documentation on getting started on Telemetry](https://testsigma.com/docs/getting-started/telemetry/).
 
 ---

@@ -28,7 +28,7 @@ The **Applications** tab within the **Project settings > Edit Project** menu pro
 
 
 [[info | **NOTE**:]]
-| If your project contains only a single application, the **Applications** tab will be hidden. To enable multiple applications, edit your project details. *For more information, refer to [Project Settings](https://testsigma.com/docs/projects/overview/)*.
+| If your project contains only a single application, the **Applications** tab will be hidden. To enable multiple applications, edit your project details. *For more information, refer to the [documentation on configuring project settings](https://testsigma.com/docs/projects/overview/)*.
 
 
 Once the **Applications** tab is enabled, you will be able to see all the applications created under the specific project.

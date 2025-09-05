@@ -81,7 +81,7 @@ This script file contains commands to trigger the Testsigma Test Plan remotely.
 
 Follow the below steps:
 
-1. Copy the shell script from [generic shell script for integrating with CI/CD tools](https://testsigma.com/docs/continuous-integration/shell-script/)
+1. Copy the shell script from generic shell script for integrating with CI/CD tools. Refer to the [documentation on generic Shell script](https://testsigma.com/docs/continuous-integration/shell-script/). 
 
 2. Update your Testsigma API Key and Test Plan ID in the above script.
  

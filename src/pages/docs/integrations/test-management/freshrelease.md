@@ -31,13 +31,13 @@ This document will discuss how to establish Integration with Freshrelease from y
 
 ---
 
-<p id="prerequisites">Prerequisites</p>
-
-1. To integrate Freshrelease with Testsigma, you need the following information from your Freshrelease Account:
-    - Freshrelease Organization URL
-    - API Key
-
-2. You should also be familiar with [Test Plan Runs](https://testsigma.com/docs/runs/test-plan-executions/).
+> <p id="prerequisites">Prerequisites</p>
+> 
+> Before you begin, ensure that: 
+> 1. To integrate Freshrelease with Testsigma, you need the following information from your Freshrelease Account:
+>   - Freshrelease Organization URL
+>  - API Key
+> 2. You have referred to the [documentation on executing test plan runs](https://testsigma.com/docs/runs/test-plan-executions/).
 
 ---
 

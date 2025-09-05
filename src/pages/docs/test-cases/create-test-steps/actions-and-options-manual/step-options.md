@@ -64,7 +64,7 @@ Click on the **test step**, then click the **Eraser** icon to clear the step in 
 
 ## **Step Settings**
 
-Click on the **test step**, then click the **Settings** icon or the **ellipsis** icon to open a dropdown list of **Test Step Settings**. Select the **Step Settings** option from this list to configure particular settings for the test step, such as timeouts, retries, prerequisites, or other settings. Refer to [Test Step Settings](https://testsigma.com/docs/test-cases/create-test-steps/actions-and-options-manual/step-settings/) for more information. ![Step Settings](https://s3.amazonaws.com/static-docs.testsigma.com/new_images/projects/applications/teststep_setting_stepsetting.png)
+Click on the **test step**, then click the **Settings** icon or the **ellipsis** icon to open a dropdown list of **Test Step Settings**. Select the **Step Settings** option from this list to configure particular settings for the test step, such as timeouts, retries, prerequisites, or other settings. For more information on configuring test step settings, refer to the [documentation on configuring test step settings](https://testsigma.com/docs/test-cases/create-test-steps/actions-and-options-manual/step-settings/). ![Step Settings](https://s3.amazonaws.com/static-docs.testsigma.com/new_images/projects/applications/teststep_setting_stepsetting.png)
 
 ---
 
@@ -82,7 +82,7 @@ Click on the **test step**, and then click the **ellipsis** icon to open a dropd
 
 ## **Enable Visual Testing**
 
-Click on the **test step**, and then click the **ellipsis** icon to open a dropdown list of **Test Step Settings**. Select the **Enable Visual Testing** option from this list to capture and compare how the user interface of an application looks between different builds or versions. Refer to [Visual Testing](https://testsigma.com/docs/visual-testing/configure-test-steps/) for more information. ![Enable Visual Testing](https://s3.amazonaws.com/static-docs.testsigma.com/new_images/projects/applications/teststep_setting_enablevisual.png)
+Click on the **test step**, and then click the **ellipsis** icon to open a dropdown list of **Test Step Settings**. Select the **Enable Visual Testing** option from this list to capture and compare how the user interface of an application looks between different builds or versions. For more information on visula testing, refer to the [documentation on visual testing](https://testsigma.com/docs/visual-testing/configure-test-steps/). ![Enable Visual Testing](https://s3.amazonaws.com/static-docs.testsigma.com/new_images/projects/applications/teststep_setting_enablevisual.png)
 
 ---
 

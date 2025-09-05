@@ -59,7 +59,7 @@ Here's a quick GIF demonstrating how to apply filters on the run results Page.
 
    ![Applying Filters](https://s3.amazonaws.com/static-docs.testsigma.com/new_images/projects/applications/Filters_On_RunResults.gif)
 
-*For more information on viewing and downloading results of a test plan on test case, test suite or test machine levels, see [Test Plan Run Results](https://testsigma.com/docs/reports/runs/drill-down-reports/).*
+*For more information on viewing and downloading results of a test plan on test case, test suite or test machine levels, refer to the [documentation on test plan run results](https://testsigma.com/docs/reports/runs/drill-down-reports/).*
 
 
 

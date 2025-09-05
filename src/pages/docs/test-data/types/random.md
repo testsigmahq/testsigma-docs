@@ -22,8 +22,10 @@ Many test cases need random inputs such as inputting an account number, ID numbe
 
 --- 
 
-<p id="prerequisites">Prerequisites</p>
-- You should be familiar with [test step creation using NLPs](https://testsigma.com/docs/test-cases/create-steps-nl/overview/).
+> <p id="prerequisites">Prerequisites</p>
+>
+> Before you begin, ensure that you have referred to:
+> 1. [Documentation on creating test steps using NLPs](https://testsigma.com/docs/test-cases/create-steps-nl/overview/).
 
 ---
 

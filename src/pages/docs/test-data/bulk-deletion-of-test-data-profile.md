@@ -17,7 +17,7 @@ contextual_links:
 ---
 
 
-The following article discusses how to bulk delete test data profiles. *For more information on creating a test data profile refer to [create a test data profile](https://testsigma.com/docs/test-data/create-data-profiles/).*
+The following article discusses how to bulk delete test data profiles. *For more information on creating a test data profile refer to the [documentation on creating test data profiles](https://testsigma.com/docs/test-data/create-data-profiles/).*
 
 
 ---

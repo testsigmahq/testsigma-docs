@@ -82,7 +82,7 @@ Testsigma Automation Standards emphasise the reusability of automated test cases
 1. Filter, segment, and organise test cases for easy identification to streamline test management processes and quickly locate specific tests.
 2. **Label or map relevant requirements** to test cases to facilitate filtering and improve accessibility. Users can filter and save test cases in separate views based on labelled or mapped requirements.
 3. During test case creation or editing, you can add labels. The label field is available by default in the test case. ![Requirements and Labels](https://s3.amazonaws.com/static-docs.testsigma.com/new_images/projects/applications/req_labels.png)
-4. You can **Save Filters** to quickly access and manage test cases associated with a particular functionality or scenario, such as those related to login. For more information, refer to [save test case filter](https://testsigma.com/docs/test-cases/manage/list-actions/#save-test-case-filter).
+4. You can **Save Filters** to quickly access and manage test cases associated with a particular functionality or scenario, such as those related to login. For more information on saving test case filters, refer to the [documentation on saving test case filter](https://testsigma.com/docs/test-cases/manage/list-actions/#save-test-case-filter).
 
 ---
 

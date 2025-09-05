@@ -26,15 +26,14 @@ Testsigma Mantis integration lets you create issues directly from the Testsigma 
 
 ---
 
-<p id="prerequisites">Prerequisites</p>
+> <p id="prerequisites">Prerequisites</p>
+>
+> Before you begin, ensure that: 
+> 1. To integrate Bugzilla with Testsigma, you need the following information from your Backlog account
+>    - **Account URL**: Your organization’s Bugzilla account URL
+>    - **API Key**: Backlog API Token
+> 2. You have referred to the [documentation on creating test plan runs and results](https://testsigma.com/docs/runs/test-plan-executions/).
 
-
-1. To integrate Bugzilla with Testsigma, you need the following information from your Bugzilla account:
-    - **Account URL**: Your organization’s Bugzilla account URL
-    - **API Key**: Bugzilla API Token
-
-
-2. You should know about [test plan runs and results](https://testsigma.com/docs/runs/test-plan-executions/).
 
 ---
 

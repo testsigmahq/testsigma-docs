@@ -27,9 +27,9 @@ Single Sign-On (SSO) is an authentication process that allows you to access an a
 ---
 
 
-<p id="prerequisites">Prerequisites</p>
-- You should have an active Testsigma account.
-
+> <p id="prerequisites">Prerequisites</p>
+> 
+> Before you begin, ensure that you have an active Testsigma account.
 
 ---
 
@@ -59,8 +59,8 @@ Single Sign-On (SSO) is an authentication process that allows you to access an a
 
 Follow one of the links below to set up SSO depending on your provider:
 
-**-** [Set up Google Single Sign-On (SSO) login in Testsigma](https://testsigma.com/docs/configuration/security/google-sso/).
+**-** [Documentation on setting up Google Single Sign-On (SSO) login in Testsigma](https://testsigma.com/docs/configuration/security/google-sso/).
 
-**-** [Set up SAML-based SSO login - Okta](https://testsigma.com/docs/configuration/security/okta-sso/).
+**-** [Documentation on setting up SAML-based SSO login - Okta](https://testsigma.com/docs/configuration/security/okta-sso/).
 
-**-** [Set up SAML-based SSO login - Azure](https://testsigma.com/docs/configuration/security/azure-sso/).
+**-** [Documentation on setting up SAML-based SSO login - Azure](https://testsigma.com/docs/configuration/security/azure-sso/).

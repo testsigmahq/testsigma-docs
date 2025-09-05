@@ -28,15 +28,12 @@ LambdaTest integration with Testsigma lets you run your Testsigma tests on Lambd
 If your organization has an existing account with LambdaTest, you can author tests for Web, Mobile Web, and Mobile applications on Testsigma, and then run those tests on LamdaTest’s cloud devices.
 
 ---
-<p id="prerequisites">Prerequisites</p>
-
-You just need the username and API Key for LambdaTest which can be obtained from your LambdaTest account dashboard.
-
-This can be obtained from the Account Settings page as shown below:
-
-![Username and Access Token in LambdaTest Profile page ](https://docs.testsigma.com/images/lambdatest/lambdatest-profile-username-access-token.png)
-
-You should already know about different [Test Lab Types in Testsigma](https://testsigma.com/docs/test-management/test-plans/supported-test-lab-types/).
+> <p id="prerequisites">Prerequisites</p>
+> 
+> Before you begin, ensure that: 
+> 1. You have the username and API Key for LambdaTest which can be obtained from your LambdaTest account dashboard. This can be obtained from the Account Settings page as shown below:
+>   ![Username and Access Token in LambdaTest Profile page ](https://docs.testsigma.com/images/lambdatest/lambdatest-profile-username-access-token.png)
+> 2. You have referred to the [documentation on supported test lab types in Testsigma](https://testsigma.com/docs/test-management/test-plans/supported-test-lab-types/).
 
 ---
 ## **Integrating with LambdaTest**

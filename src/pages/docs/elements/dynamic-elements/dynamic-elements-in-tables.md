@@ -129,7 +129,7 @@ By inspecting the table, we know that **Prev Close (Rs)** is the third column in
 
 **Xpath:** ```//table//tr/td[1]/a[contains(text(),'NHPC')]/ancestor::tr/td[3]```
 
-*For more information, refer to [HTML tables](https://www.w3schools.com/html/html_tables.asp).* 
+*For more information on HTML tables, refer to the [documentation on HTML tables](https://www.w3schools.com/html/html_tables.asp).* 
 
 
 ---

@@ -26,14 +26,13 @@ Testsigma Mantis integration lets you create issues in Mantis directly from the 
 
 ---
 
-<p id="prerequisites">Prerequisites</p>
-
-1. To integrate Mantis with Testsigma, we need the following information from your Mantis Account
-    - Account URL: Your organization’s Mantis Account URL
-    - API Key: [Mantis API Token](https://mantisbt.org/documentation.php)
-
-2. You should already know about [test plan runs and results](https://testsigma.com/docs/runs/test-plan-executions/).
-
+> <p id="prerequisites">Prerequisites</p>
+>
+> Before you begin, ensure that: 
+> 1. To integrate Mantis with Testsigma, we need the following information from your Mantis Account
+>    - **Account URL**: Your organization’s Mantis account URL
+>    - **API Key**: [Mantis API Token](https://mantisbt.org/documentation.php)
+> 2. You have referred to the [documentation on creating test plan runs and results](https://testsigma.com/docs/runs/test-plan-executions/).
 
 ---
 

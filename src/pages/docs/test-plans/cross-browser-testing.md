@@ -37,11 +37,11 @@ Cross Browser Testing is testing web applications across multiple browsers to en
 
 ## **Steps to Enable Cross Browser Testing**
 
-1. Navigate to **Test Machines & Suites Selection** under the **Create Test Plan** page.  *If you are not familiar with creating a test plan, refer to [add, edit,delete a test plan](https://testsigma.com/docs/test-management/test-plans/overview/)*.
+1. Navigate to **Test Machines & Suites Selection** under the **Create Test Plan** page.  *For more information on creating a test plan, refer to the [documentation on creating test plans](https://testsigma.com/docs/test-management/test-plans/overview/)*.
 
-2. Under the **Test machines & suites selection** tab, select the test suite for which you want to add the test machine for test execution. *For more information refer to [adding test suites](https://testsigma.com/docs/test-management/test-plans/manage-test-suites/)*.
+2. Under the **Test machines & suites selection** tab, select the test suite for which you want to add the test machine for test execution. *For more information on adding test suites to a test plan, refer to the [documentation on adding test suites to a test plan](https://testsigma.com/docs/test-management/test-plans/manage-test-suites/)*.
 
-3. Once you have selected the test suites, select the test machines to run the coressponding test suite. *For more information refer to [add test machines](https://testsigma.com/docs/test-management/test-plans/manage-test-machines/)*.
+3. Once you have selected the test suites, select the test machines to run the coressponding test suite. *For more information on adding test machines to a test plan, refer to the [documentation on adding test machines to a test plan](https://testsigma.com/docs/test-management/test-plans/manage-test-machines/)*.
  
 Note that, for *Cross Browser Testing*, test machines and test suites are selected separately. On execution, all the selected test suites are run on all selected test machines (in parallel or sequentially - depending on your selection).
 

@@ -32,12 +32,12 @@ In the above scenarios, Testsigma's cloud servers will not be able to access the
 ### **Follow these steps to automate locally hosted applications:**
 
 1. If your application is deployed only on your local machine and is not publicly accessible, for example, ```http://localhost:8080```. This is a locally hosted application. No one else can access it via the internet. For more information, refer the following:
-    - [Dry Runs on Local Devices](https://testsigma.com/docs/runs/dry-runs-on-local-devices/) 
-    - [Test Plans on Local Devices](https://testsigma.com/docs/runs/test-plans-on-local-devices/)
+    - [Documentation on dry runs on local devices](https://testsigma.com/docs/runs/dry-runs-on-local-devices/) 
+    - [Documentation on test plans on local devices](https://testsigma.com/docs/runs/test-plans-on-local-devices/)
 
 2. If your application is behind a firewall, you still have an option to use tunneling mechanisms to connect your application to Testsigma. For more information, refer the following: 
     
-    - [Access Locally Hosted Applications](https://testsigma.com/docs/runs/test-locally-hosted-applications/)
+    - [Docuemntation on accessing locally hosted A\applications](https://testsigma.com/docs/runs/test-locally-hosted-applications/)
  
 
 ---

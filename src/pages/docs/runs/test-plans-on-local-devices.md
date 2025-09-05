@@ -23,11 +23,11 @@ You can execute your test plans on your local devices using Testsigma. Local exe
 
 ---
 
-<p id="prerequisites">Prerequisites</p>
-
-- You should know [how to set up Testsigma agent](https://testsigma.com/docs/agent/setup-on-windows-mac-linux/).
-
-- You should know [how to create a test plan](https://testsigma.com/docs/test-management/test-plans/overview/#steps-to-create-a-test-plan).
+> <p id="prerequisites">Prerequisites</p>
+>
+> Before you begin, ensure that you have referred to:
+> 1. [Documentation on setting up Testsigma agent](https://testsigma.com/docs/agent/setup-on-windows-mac-linux/).
+> 2. [Documentation on creating test plans](https://testsigma.com/docs/test-management/test-plans/overview/#steps-to-create-a-test-plan).
 
 
 ---

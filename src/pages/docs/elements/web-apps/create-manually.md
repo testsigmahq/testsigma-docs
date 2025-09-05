@@ -38,7 +38,8 @@ For dynamic websites such as E-commerce websites, the elements might be dynamic 
 > <p id="prerequisites">Prerequisites</p>
 >
 >
-> Before you begin, ensure that you've a [Project](https://testsigma.com/docs/projects/overview/) in Testsigma and a web application is available for testing.
+> Before you begin, ensure that you have referred to:
+> 1. [Documentation on creating projects](https://testsigma.com/docs/projects/overview/). 
 
 ---
 

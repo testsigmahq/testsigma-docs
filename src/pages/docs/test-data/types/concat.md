@@ -23,11 +23,11 @@ In Testsigma, users can concat test data, which combines multiple sets of test d
 
 ---
 
-<p id="prerequisites">Prerequisites</p>
-
-- You should know how to [create a test case](https://testsigma.com/docs/test-cases/manage/add-edit-delete/).
-   
-- You should know how to use a [data generator](https://testsigma.com/docs/test-data/types/data-generator/).
+> <p id="prerequisites">Prerequisites</p>
+> 
+> Before you begin, ensure that you have referred to:
+> 1. [Documentation on creating a test case](https://testsigma.com/docs/test-cases/manage/add-edit-delete/).
+> 2. [documentation on creating a data generator](https://testsigma.com/docs/test-data/types/data-generator/).
 
 ---
 

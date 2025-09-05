@@ -29,9 +29,9 @@ This guide will instruct you step-by-step on how to create an OCR Text Extractio
 
 ---
 
-<p id="prerequisites">Prerequisites</p>
-
-Before creating the OCR Text Extraction addon, ensure you have met the prerequisites for addon development. For more information, refer to the [Creating an Addon](https://testsigma.com/docs/addons/create/).
+> <p id="prerequisites">Prerequisites</p>
+>
+> Before creating the OCR Text Extraction addon, ensure you have met the prerequisites for addon development. For more information on creating add-ons, refer to the [documentation on creating add-on](https://testsigma.com/docs/addons/create/).
 
 ---
 

@@ -31,7 +31,10 @@ When there are changes in metadata, users must refresh it before executing the t
 
 > <p id="prerequisites">Prerequisites</p>
 > 
-> Before you begin, ensure you have a [Salesforce Connected App](https://testsigma.com/docs/salesforce-testing/connected-app/), [Salesforce Metadata](https://testsigma.com/docs/salesforce-testing/metadata-connections/) connected to Testsigma, and knowledge of how to [Refresh Metadata](https://testsigma.com/docs/salesforce-testing/metadata-connections/#steps-to-refresh-metadata-connection).
+> Before you begin, ensure that you have referred to:
+> 1. [Documentation on creating Salesforce Connected App](https://testsigma.com/docs/salesforce-testing/connected-app/).
+> 2. [Documentaion on creating Salesforce Metadata](https://testsigma.com/docs/salesforce-testing/metadata-connections/) connected to Testsigma.
+> 3. [Documentation on refreshing Metadata](https://testsigma.com/docs/salesforce-testing/metadata-connections/#steps-to-refresh-metadata-connection).
 
 ---
 

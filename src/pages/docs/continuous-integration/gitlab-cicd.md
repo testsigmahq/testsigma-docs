@@ -26,7 +26,7 @@ This article explains how to integrate GitLab with Testsigma for CI/CD purposes.
 > Before you begin, ensure you have:
 > - A GitLab account.
 > - Testsigma API key.
-> - Testsigma Testplan ID. For more information, see [get test plan ID](https://testsigma.com/docs/continuous-integration/get-test-plan-details/).
+> - Testsigma Testplan ID. For more information on getting test plan ID, refer to the [documentation on getting test plan ID](https://testsigma.com/docs/continuous-integration/get-test-plan-details/).
 
 ---
 
@@ -59,7 +59,7 @@ build-code-job:
 ```
 
 [[info | **NOTE**:]]
-| 1.  Refer to the [Shell Script](https://testsigma.com/docs/continuous-integration/shell-script/) to get the sh script, which contains the command that triggers the test plan and fetches the run result. We call this sh script, gitlabcicd.sh, in the above YML file.
+| 1.  Refer to the [documentation on generic Shell script](https://testsigma.com/docs/continuous-integration/shell-script/) to get the sh script, which contains the command that triggers the test plan and fetches the run result. We call this sh script, gitlabcicd.sh, in the above YML file.
 | 2. You can place the sh script in the same project, call the file inside the YML file, or obtain it from any external sources by providing the appropriate path.
 | 3. Any bash runner can work with the provided YML file. For instance, if you are using the Docker runner, you can use the YML file as it is. However, if you have a different runner like Powershell, you must modify the YML file to make it executable in the Powershell runner. Additionally, ensure that Powershell is version seven or above.
  
@@ -68,8 +68,8 @@ build-code-job:
 
 
 6. Once you have access to the shell script, you need to provide the ID of that Test Plan and the API Key along with other parameters. 
-    - To get the Test Plan ID, refer to [get Test Plan ID](https://testsigma.com/docs/continuous-integration/get-test-plan-details/). 
-    - To get the API key, refer to [generate API Key](https://testsigma.com/docs/configuration/api-keys/).
+    - To get the Test Plan ID, refer to the [documentation on getting test plan ID](https://testsigma.com/docs/continuous-integration/get-test-plan-details/). 
+    - To get the API key, refer to the [documentation on generating API keys](https://testsigma.com/docs/configuration/api-keys/).
 
 [[info | **NOTE**:]]
 |The keys **TESTSIGMAAPIKEY** and **TESTSIGMATESTPLAN_ID** in the script should be replaced with **API Key** and **Test Plan ID**, respectively. Refer to the example below. 

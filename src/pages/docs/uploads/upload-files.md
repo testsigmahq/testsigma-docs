@@ -67,6 +67,6 @@ Here’s a quick GIF demonstrating how to update a file with new version.
 From the Uploads page, copy the file path from the copy button and paste this URL when needed in the test steps. 
 ![Copy Path](https://s3.amazonaws.com/static-docs.testsigma.com/new_images/projects/applications/uplpath.png)
 
-*For more information about using uploaded files in Test Steps, refer to [test steps for uploaded files](https://testsigma.com/tutorials/test-cases/web-apps/automate-upload-buttons/)*
+*For more information about using uploaded files in Test Steps, refer to the [documentation on test steps for uploaded files](https://testsigma.com/tutorials/test-cases/web-apps/automate-upload-buttons/)*
 
 ---

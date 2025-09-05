@@ -27,18 +27,19 @@ Welcome! This section contains topics on how to get started with Windows Automat
 
 You can seamlessly test Windows applications built on Universal Windows Platform (UWP), Windows Forms (WinForms), Windows Presentation Foundation (WPF), and Classic Windows (Win32) in Testsigma. Simply upload the application path, record the elements using the Test Recorder, and execute tests locally using the Testsigma Agent. It's that simple!
 
-For legacy applications, see [Windows Advanced](https://testsigma.com/docs/windows-automation/introduction/).
+For legacy applications, refer to the [documentation on understanding Windows Advanced](https://testsigma.com/docs/windows-automation/introduction/).
 
 Jump to one of the following topics to learn about Windows Automation (Lite) in Testsigma. 
 
 ---
 
 > <p id="prerequisites">Prerequisites</p>
->
-> - [Testsigma Agent Setup](https://testsigma.com/docs/agent/setup-on-windows-mac-linux/)
-> - An Application Built on UWP/WinForms/WPF/Classic Windows
-> - Testsigma’s [Test Recorder](https://chromewebstore.google.com/detail/testsigma-recorder/epmomlhdjfgdobefcpocockpjihaabdp?hl=en-GB&utm_source=ext_sidebar) installed
-> - Enable **Developer Mode** on Windows Machine
+> 
+> Before you begin, ensure that:
+> 1. You have referred to the [documentation on settin up Testsigma Agent](https://testsigma.com/docs/agent/setup-on-windows-mac-linux/).
+> 2. You have an Application Built on UWP/WinForms/WPF/Classic Windows.
+> 3. You have referred to the [documentation on test recorder](https://chromewebstore.google.com/detail/testsigma-recorder/epmomlhdjfgdobefcpocockpjihaabdp?hl=en-GB&utm_source=ext_sidebar). 
+> 4. You have enabled **Developer Mode** on Windows Machine.
 
 
 ---

@@ -44,9 +44,9 @@ With Testsigma, you can create, update, retrieve, and delete test steps in a tes
 > <p id="prerequisites">Prerequisites</p>
 > 
 > Before you begin, ensure you have:
-> - **testCaseId**: You can find it in the URL of the test case in the Testsigma app.
-> - **previousStepId**: The ID of the step after which the new step should be added. You can get it from the response of List Test Case Steps Using the REST API. 
-> - **templateId**: The ID of the NLP template that defines the action. You can get it by searching with the Search NLP Templates Using REST API.
+> 1. **testCaseId**: You can find it in the URL of the test case in the Testsigma app.
+> 2. **previousStepId**: The ID of the step after which the new step should be added. You can get it from the response of List Test Case Steps Using the REST API. 
+> 3. **templateId**: The ID of the NLP template that defines the action. You can get it by searching with the Search NLP Templates Using REST API.
 
 ---
 

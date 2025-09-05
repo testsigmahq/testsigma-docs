@@ -41,13 +41,13 @@ Let’s learn more about these grids.
    [[info | **NOTE**:]]
    | You need to install a helper agent application on your local machine to use this option. This agent configures the connection between Testsigma servers and your machine to perform the Test Plan on your local machine. 
 
-   For more information, see [Create Test Plans to run tests on local machines](https://testsigma.com/tutorials/test-plans/using-local-devices/).
+   For more information on creating test plans, refer to the [documentation on creating test plans to run tests on local machines](https://testsigma.com/tutorials/test-plans/using-local-devices/).
 
 3. [BrowserStack](https://www.browserstack.com/#)
 
    Testsigma also allows us to use cloud devices on the BrowserStack Model to run your tests. You just need to integrate your BrowserStack account with your Testsigma Account by entering the login credentials. Also, while creating a test plan, provide the required device details on the test plan configurations page.
 
-   For more information, see [Configure BrowserStack](https://testsigma.com/docs/integrations/test-labs/browserstack/).
+   For more information on configuring BrowserStack, refer to the [documentation on configuring BrowserStack](https://testsigma.com/docs/integrations/test-labs/browserstack/).
 
    Use this option only if the application that you need to test is accessible over the Internet and not blocked by the firewall of a company network.
 
@@ -55,7 +55,7 @@ Let’s learn more about these grids.
 
    Similar to BrowserStack, it is possible to use Sauce Labs for your test execution by integrating it with Testsigma Account. You just need to integrate your Sauce Labs account with your Testsigma Account by entering the login credentials. Also, while creating a test plan, provide the required device details on the test plan configurations page.
 
-   For more information, see [Configure Sauce Labs](https://testsigma.com/docs/integrations/test-labs/sauce-labs/)
+   For more information on configuring Sauce Labs, refer to the [documentation on configuring Sauce Labs](https://testsigma.com/docs/integrations/test-labs/sauce-labs/)
 
    Use this option only if the application that you need to test is accessible over the Internet and not blocked by the firewall of a company network.
 
@@ -75,6 +75,6 @@ Let’s learn more about these grids.
 
    Similar to Local Devices, a Private grid allows you to configure a set of Machines for local Execution. Please contact the Testsigma Support team for more details as this involves Advanced Steps.
 
-   For more information, see [Testsigma Private Grid](https://testsigma.com/docs/runs/executing-tests-in-private-grid/)
+   For more information on executing tests in private grid, refer to the [documentation on executing tests on Testsigma private grid](https://testsigma.com/docs/runs/executing-tests-in-private-grid/)
 
 ---

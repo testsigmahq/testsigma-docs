@@ -42,13 +42,12 @@ Testsigma enables you to extend its functionality by creating add-ons. You can u
 
 ---
 
-<p id="prerequisites">Prerequisites</p>
-
-Before you start creating an addon, ensure you have:
-
-- Basic understanding of Java and Maven.
-- Ensure you have JUnit or TestNG configured as the Test Runner in your IDE.
-- Set up a development environment with an IDE for Java (e.g., IntelliJ IDEA, Eclipse).
+> <p id="prerequisites">Prerequisites</p>
+> 
+> Before you start creating an addon, ensure you have:
+>    - Basic understanding of Java and Maven.
+>    - Ensure you have JUnit or TestNG configured as the Test Runner in your IDE.
+>    - Set up a development environment with an IDE for Java (e.g., IntelliJ IDEA, Eclipse).
 
 ---
 
@@ -56,11 +55,11 @@ Before you start creating an addon, ensure you have:
 
 Addons in Testsigma enhance your testing capabilities by enabling you to create custom functionalities tailored to your specific needs. Each add-on action has a distinct purpose:
 
-- **Custom Actions**: You can automate tasks specific to your application using Custom Actions not covered by Testsigma's built-in actions. Integrate unique functionalities into your tests as needed with these actions. For more details, refer to the guide on how to build a [custom action in addons](https://testsigma.com/tutorials/addons/how-create-addons-actions/).
-- **Test Data Generators**: Create custom data generators for the specific test data your scripts require. Customize these generators to fit the unique data needs of your testing scenarios. For more information, refer to how to build a [custom data generator addon](https://testsigma.com/tutorials/addons/how-create-addons-test-data-generators/).
-- **Conditional If Actions**: Execute a sequence of steps based on specified conditions to control test flows dynamically. You can use these actions to manage test execution based on runtime conditions. For further details, check how to create [conditional if loop addon](https://testsigma.com/tutorials/addons/how-create-addons-conditional-if/).
-- **While Loops**: Repeat the steps until you meet a condition, which is useful for scenarios that require multiple iterations. Implement these loops to handle repetitive actions until you achieve the desired outcome. For guidance, see how to create [while loop addon](https://testsigma.com/tutorials/addons/how-create-addons-while-loops/).
-- **Post-Plan Hooks**: Define actions that run after the completion of a test plan, regardless of its outcome, using Post-Plan Hooks. Use these hooks to automate tasks that need to occur after a test plan finishes. For further details, here is how you can create a [Post-Plan Hook addon](https://testsigma.com/docs/addons/create-a-post-plan-hook-add-on/).
+- **Custom Actions**: You can automate tasks specific to your application using Custom Actions not covered by Testsigma's built-in actions. Integrate unique functionalities into your tests as needed with these actions. For more details on creating custom action in add-ons, refer to the [documentation on creating custom action in add-ons](https://testsigma.com/tutorials/addons/how-create-addons-actions/).
+- **Test Data Generators**: Create custom data generators for the specific test data your scripts require. Customize these generators to fit the unique data needs of your testing scenarios. For more information on creating custom data generator add-on, refer to the [documentation on creating custom data generator add-on](https://testsigma.com/tutorials/addons/how-create-addons-test-data-generators/).
+- **Conditional If Actions**: Execute a sequence of steps based on specified conditions to control test flows dynamically. You can use these actions to manage test execution based on runtime conditions. For further details on creating conditional if loop add-on, refer to the [documentation on creating conditional if loop add-on](https://testsigma.com/tutorials/addons/how-create-addons-conditional-if/).
+- **While Loops**: Repeat the steps until you meet a condition, which is useful for scenarios that require multiple iterations. Implement these loops to handle repetitive actions until you achieve the desired outcome. For more information on creating while loop add-on, refer to the [documentation on creating while loop add-on](https://testsigma.com/tutorials/addons/how-create-addons-while-loops/).
+- **Post-Plan Hooks**: Define actions that run after the completion of a test plan, regardless of its outcome, using Post-Plan Hooks. Use these hooks to automate tasks that need to occur after a test plan finishes. For more information on creating a post-plan hook add-on, refer to the [documentation on creating post-plan hook add-on](https://testsigma.com/docs/addons/create-a-post-plan-hook-add-on/).
 
 ---
 

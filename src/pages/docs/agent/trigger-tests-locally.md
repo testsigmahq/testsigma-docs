@@ -22,13 +22,12 @@ With Testsigma, you can execute the tests on local devices from another device u
 
 ---
 
-<p id="prerequisites">Prerequisites</p>
-
-- You should have [Testsigma Agent installed & registered](https://testsigma.com/docs/agent/setup-on-windows-mac-linux/) on the target machine.
-  
-- Before triggering the tests, you should [start the Testsigma Agent](https://testsigma.com/docs/agent/setup-on-windows-mac-linux/#start-the-testsigma-agent-server-as-a-process) on the target machine.
-
-- For CI/CD pipelines, you should integrate Testsigma commands to trigger test plans.
+> <p id="prerequisites">Prerequisites</p>
+> 
+> Before you begin, ensure that: 
+> 1. You have referred to the [documentation on installing Testsigma Agent](https://testsigma.com/docs/agent/setup-on-windows-mac-linux/) on the target machine.
+> 2. You have referred to the [documentation on starting the Testsigma Agent](https://testsigma.com/docs/agent/setup-on-windows-mac-linux/#start-the-testsigma-agent-server-as-a-process) on the target machine.
+> 3. You have integrated Testsigma commands to trigger test plans for CI/CD pipelines. 
 
 ---
 

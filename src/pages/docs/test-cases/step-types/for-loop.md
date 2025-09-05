@@ -33,10 +33,10 @@ If you want to run a test case based on the above test data profile, but you jus
 ---
 
 > <p id="prerequisites">Prerequisites</p>
-> <ul>
-> <li><a href="https://testsigma.com/docs/test-cases/manage/add-edit-delete/">Create a test case</a></li>
-> <li><a href="https://testsigma.com/docs/test-data/create-data-profiles/">Create a test data profile</a></li>
-> </ul>
+> 
+> Before you begin, ensure that you have referred to:
+> 1. [Documentation on creating test cases](https://testsigma.com/docs/test-cases/manage/add-edit-delete/).
+> 2. [Documentation on creating test data profiles](https://testsigma.com/docs/test-data/create-data-profiles/).
 
 ---
 

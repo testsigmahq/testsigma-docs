@@ -34,21 +34,21 @@ Testsigma is revolutionizing test case creation using GenAI Capabilities. You ca
 
 ## **Getting Started**
 
-- [Generate Test for Web Using Web Copilot](https://testsigma.com/docs/genai-capabilities/copilot/)
+- [Documentation on generating test for web using Web Copilot](https://testsigma.com/docs/genai-capabilities/copilot/)
 
-- [Generate Test for Mobile Using Mobile Copilot](https://testsigma.com/docs/genai-capabilities/mobile-copilot/)
+- [Documentation on generating test for mobile Using Mobile Copilot](https://testsigma.com/docs/genai-capabilities/mobile-copilot/)
 
-- [Generate Test Scenarios from User Actions](https://testsigma.com/docs/genai-capabilities/generate-tests-from-user-actions/)
+- [Documentation on generating test scenarios from User Actions](https://testsigma.com/docs/genai-capabilities/generate-tests-from-user-actions/)
 
-- [Generate Test Scenarios from Requirements (Web)](https://testsigma.com/docs/genai-capabilities/generate-tests-from-requirements/)
+- [Documentation on generating test scenarios from Requirements (Web)](https://testsigma.com/docs/genai-capabilities/generate-tests-from-requirements/)
 
-- [Generate Test Scenarios from Requirements (Android & iOS)](https://testsigma.com/docs/genai-capabilities/generate-tests-from-requirements/)
+- [Documentation on generating test scenarios from Requirements (Android & iOS)](https://testsigma.com/docs/genai-capabilities/generate-tests-from-requirements/)
 
-- [Generate Test Scenarios from Swagger Schema](https://testsigma.com/docs/genai-capabilities/generate-tests-from-swagger/)
+- [Documentation on generating test scenarios from Swagger Schema](https://testsigma.com/docs/genai-capabilities/generate-tests-from-swagger/)
 
-- [Generate Tests from Figma Designs (Web)](https://testsigma.com/docs/genai-capabilities/generate-tests-from-figma-designs/#generate-test-cases-for-web-apps)
+- [Documentation on generating tests from Figma Designs (Web)](https://testsigma.com/docs/genai-capabilities/generate-tests-from-figma-designs/#generate-test-cases-for-web-apps)
 
-- [Generate Tests from Figma Designs (Android & iOS)](https://testsigma.com/docs/genai-capabilities/generate-tests-from-figma-designs/#generate-test-cases-for-android--ios-apps)
+- [Documentation on generating tests from Figma Designs (Android & iOS)](https://testsigma.com/docs/genai-capabilities/generate-tests-from-figma-designs/#generate-test-cases-for-android--ios-apps)
 
 
 ---

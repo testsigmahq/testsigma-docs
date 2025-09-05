@@ -25,9 +25,9 @@ Microsoft Azure, aka Azure, is a cloud computing service created by Microsoft fo
 
 > <p id="prerequisites">Prerequisites</p>
 > 
->    - API key for Azure. For more information, refer to [API keys](https://testsigma.com/docs/configuration/api-keys/).
-> 
->    - A Test Plan ID. For more information, refer to [get test plan id](https://docs.testsigma.com/images/azure-devops/get-test-plan-id.png).
+> Before you begin, ensure that you have referred to:
+> 1. [DOcumentation on generating API keys](https://testsigma.com/docs/configuration/api-keys/).
+> 2. [Documentation on getting test plan id](https://docs.testsigma.com/images/azure-devops/get-test-plan-id.png).
 
 ---
 ## **How to integrate with Azure DevOps**
@@ -55,7 +55,7 @@ In this case, we already had an existing YAML file in the repo. So, once you sel
 5. Review the CI Configuration after selecting the Branch and Path,  click on **Continue**.
 ![Review CI configuration in Azure DevOps](https://docs.testsigma.com/images/azure-devops/review-ci-configuration-azure-devops.png)
 
-The YAML file contains the following code where you need to enter the filePath of the [Generic Shell Script](https://testsigma.com/docs/continuous-integration/shell-script/) (cicd-api.sh) to run it. This Shell script is the one that actually triggers the Test Plan execution and gives you the result of Test plan once it's complete.
+The YAML file contains the following code where you need to enter the filePath of the Generic Shell Script (cicd-api.sh) to run it. For more information on generic shell script, refer to the [documentation generic shell script](https://testsigma.com/docs/continuous-integration/shell-script/).  This Shell script is the one that actually triggers the Test Plan execution and gives you the result of Test plan once it's complete.
 
 ```yaml
 # Starter pipeline

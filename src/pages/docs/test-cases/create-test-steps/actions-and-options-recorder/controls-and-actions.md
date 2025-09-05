@@ -24,12 +24,11 @@ The test recorder in Testsigma lets you generate test steps automatically in pla
 ---
 
 > <p id="prerequisites">Prerequisites</p>
-> 
-> - You should know [how to create test cases](https://testsigma.com/docs/test-cases/manage/add-edit-delete/).
-> 
-> - You should know [how to create test steps using the recorder](https://testsigma.com/docs/test-cases/create-test-steps/overview/#creating-test-steps-using-test-recorder).
-> 
-> - An Androiod or iOS app to test. 
+>
+> Before you begin, ensure that you have referred to:
+> 1. [Documentation on creating a test case](https://testsigma.com/docs/test-cases/manage/add-edit-delete/).
+> 2. [Documentation on creating test steps using the recorder](https://testsigma.com/docs/test-cases/create-test-steps/overview/#creating-test-steps-using-test-recorder).
+> 3. Also, an Androiod or iOS app to test. 
 
 ---
 
