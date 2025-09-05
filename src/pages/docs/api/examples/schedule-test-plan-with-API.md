@@ -23,11 +23,13 @@ contextual_links:
   url: "#delete-a-scheduled-test-plan-using-rest-api"
 ---
 
-<br>
+---
 
 With Testsigma, you can create, update, and delete a schedule for test plan using API. You can also set the test plan execution in the queue to start tests outside office hours so that production time is not lost.
 
 *For more information on test plans, refer to the [documentation on managing test plans](https://testsigma.com/docs/test-management/test-plans/overview/).*
+
+---
 
 ## **Test plan details using REST API**
 
@@ -41,6 +43,8 @@ This endpoint allows users to get all test plans using REST API.
 
 [[info | **NOTE**:]]
 |**applicationVersionId:** The ID of the application version where you want to schedule the test plan.
+
+---
 
 ## **Schedule a test plan using REST API**
 This endpoint allows users to schedule a test plan using REST API.
@@ -69,6 +73,8 @@ This endpoint allows users to schedule a test plan using REST API.
 **createdById/updatedById:** The user ID of the creator/updater<br>
 **createdDate/updatedDate:** Date when the asset is created/updated.<br>
 **Payload:** The Request Body types.<br>
+
+---
 
 ## **Update a scheduled test plan using REST API**
 This endpoint allows users to update a scheduled test plan using REST API.

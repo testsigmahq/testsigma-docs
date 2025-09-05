@@ -6,15 +6,23 @@ noindex: false
 order: 21.85
 page_id: "Update Test Case results using API"
 warning: false
+contextual_links:
+- type: section
+  name: "Contents"
+- type: link
+  name: "API Specification"
+  url: "#api-specification"
 ---
 
 ---
 
 In Testsigma, you can update the Test Case Results using API. This article discusses how to update Test Case results as Passed, Failed, and Not Executed using REST API.
 
+---
+
+## **API Specification**
 
 This endpoint allows users to update the Test Case result using REST API.
-
 
 |**Request Type**|**PUT**|
 |---|---|
