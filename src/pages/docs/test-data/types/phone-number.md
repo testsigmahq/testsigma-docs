@@ -31,7 +31,8 @@ The phone number data type is used to automate two-factor authentication (2FA) a
 
 > <p id="prerequisites">Prerequisites</p>
 > 
-> - You should be familiar with regular expressions. Refer to the [regex guide](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Guide/Regular_Expressions).
+> Before you begin, ensure that you have referred to: 
+> 1. [Documentation on regular expressions](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Guide/Regular_Expressions).
 
 [[info | NOTE:]]
 | - You can enable Phone Number for your account by contacting **support@testsigma.com** or using the **instant chat** option.

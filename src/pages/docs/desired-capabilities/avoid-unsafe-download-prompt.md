@@ -22,7 +22,7 @@ While automating Test Cases with such flagged downloads, we can't generally hand
 
 However, there is a workaround for this issue and that is to enable the Safe Browsing option using CLI arguments for Chrome. Testsigma lets you add this argument to your Tests using Desired Capabilities in Execution Configuration. Let us see how it's done.
 
-You should already know how to add Desired Capabilities to your Tests. See [Desired Capabilities - Overview.](https://testsigma.com/docs/desired-capabilities/overview/)
+You should already know how to add Desired Capabilities to your Tests. Refer to the [documentation on configuring desired capabilities](https://testsigma.com/docs/desired-capabilities/overview/).
 
 ---
 ## **Adding the Capability**

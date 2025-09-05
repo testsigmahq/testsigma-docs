@@ -32,7 +32,8 @@ For some CI/CD pipelines, the URL of the Application Under Test (AUT) changes wi
 
 > <p id="prerequisites">Prerequisites</p>
 >
-> Before you begin, ensure you have an [API Key](https://testsigma.com/docs/configuration/api-keys/) from Testsigma application.
+> Before you begin, ensure that you have referred to:
+> 1. [Documentationon generating API keys](https://testsigma.com/docs/configuration/api-keys/) from Testsigma application.
 
 ---
 

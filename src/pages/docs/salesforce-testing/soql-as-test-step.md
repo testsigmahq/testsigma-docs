@@ -23,9 +23,9 @@ The SOQL step type allows you to run SOQL queries to retrieve real-time Salesfor
 
 ---
 
-<p id="prerequisites">Prerequisites</p>
-
-Before you begin, ensure the Salesforce app is connected to Testsigma with a valid metadata connection.
+> <p id="prerequisites">Prerequisites</p>
+> 
+> Before you begin, ensure the Salesforce app is connected to Testsigma with a valid metadata connection.
 
 ---
 

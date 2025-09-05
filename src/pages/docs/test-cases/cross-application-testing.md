@@ -9,7 +9,7 @@ warning: false
 <br>
 <br>
 
-One interesting feature of Testsigma is allowing users to create customized NLPs to author tests. This article discusses on how to use NLP's to automate cross-application testing across multiple versions. *For more information on how to upload applications, refer to [upload android and iOS apps](https://testsigma.com/docs/uploads/upload-apps/).*
+One interesting feature of Testsigma is allowing users to create customized NLPs to author tests. This article discusses on how to use NLP's to automate cross-application testing across multiple versions. *For more information on how to upload applications, refer to the [documentation on uploading android and iOS apps](https://testsigma.com/docs/uploads/upload-apps/).*
 <br>
 
 ## **Steps to automate cross-application testing using NLP’s**

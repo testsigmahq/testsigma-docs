@@ -25,10 +25,11 @@ Apart from creating a test data profile, you can also import a test data profile
 
 ---
 
-<p id="prerequisites">Prerequisites</p>
-- You should know about test data profiles. 
-- You should have a file to import. 
-
+> <p id="prerequisites">Prerequisites</p>
+>
+> Before you begin, ensure that: 
+> 1. You have referred to the [documentation on creating test data profiles](https://testsigma.com/docs/test-data/create-data-profiles/). 
+> 2. You should have a file to import. 
 
 ---
 

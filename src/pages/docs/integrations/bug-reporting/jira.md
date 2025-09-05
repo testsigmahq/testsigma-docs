@@ -26,11 +26,11 @@ You can integrate Testsigma with Jira to push bugs directly to Jira's project. Y
 
 ---
 
-<p id="prerequisites">Prerequisites</p>
-To integrate Jira with Testsigma, you need the following:
-- **Account URL**: Your Jira Account URL
-- **Username**: Your account username/email
-- **API Key**: API Token from Jira
+> <p id="prerequisites">Prerequisites</p>
+> To integrate Jira with Testsigma, you need the following:
+> - **Account URL**: Your Jira Account URL
+> - **Username**: Your account username/email
+> - **API Key**: API Token from Jira
 
 ---
 

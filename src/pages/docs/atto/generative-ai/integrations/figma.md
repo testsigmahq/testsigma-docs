@@ -10,8 +10,11 @@ contextual_links:
 - type: section
   name: "Contents"
 - type: link
-  name: "Prerequisites"
-  url: "#prerequisites"
+  name: "Getting Team ID in Figma"
+  url: "#getting-team-id-in-figma"
+- type: link
+  name: "Generating a Personal Access Token in Figma"
+  url: "#generating-a-personal-access-token-in-figma"
 - type: link
   name: "Integrating Figma with Testsigma"
   url: "#integrating-figma-with-testsigma"
@@ -23,9 +26,7 @@ With Figma integrated into Testsigma, you can generate test cases directly from 
 
 ---
 
-<p id="prerequisites">Prerequisites</p>
-
-### **Getting Team ID in Figma**
+## **Getting Team ID in Figma**
 
 1. Open **Figma** in a web browser.
    ![Figma in Browser](https://s3.amazonaws.com/static-docs.testsigma.com/new_images/projects/applications/Figma_in_Browser.png)
@@ -45,7 +46,7 @@ With Figma integrated into Testsigma, you can generate test cases directly from 
 | If you don’t have access to the team page, contact your **Admin** to get the **Team ID**.
 
 
-### **Generating a Personal Access Token in Figma**
+## **Generating a Personal Access Token in Figma**
 
 1. Open Figma in a web browser.
    ![Figma in Browser](https://s3.amazonaws.com/static-docs.testsigma.com/new_images/projects/applications/Figma_in_Browser.png)

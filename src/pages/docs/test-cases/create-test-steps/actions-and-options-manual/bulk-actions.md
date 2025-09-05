@@ -24,12 +24,11 @@ Using Bulk Actions in Testsigma simplifies managing multiple test steps. You can
 ---
 
 > <p id="prerequisites">Prerequisites</p>
-> 
-> - You should know about [Projects](https://testsigma.com/docs/projects/overview/) in Testsigma. 
->   
-> - You should know how to [manage a Test Case](https://testsigma.com/docs/test-cases/manage/add-edit-delete/).
 >
-> - You should know how to [manage Test Steps](https://testsigma.com/docs/test-cases/step-types/natural-language/).
+> Before you begin, ensure that you have referred to:
+> 1. [Documentation on creating projects](https://testsigma.com/docs/projects/overview/).
+> 2. [Documentation on creating test cases](https://testsigma.com/docs/test-cases/manage/add-edit-delete/#create-test-case).
+> 3. [Documentation on creating test steps](https://testsigma.com/docs/test-cases/create-test-steps/overview/).
 
 ---
 
@@ -42,9 +41,9 @@ Follow these steps to use Bulk Actions for your test steps:
 3. The bulk actions option appears when you've selected any test step in the **Test Case Details** page. To select all the steps at once, click the **Select All** button in the menu bar. ![Enable Bulk Actions](https://s3.amazonaws.com/static-docs.testsigma.com/new_images/projects/applications/steps_bulkactions.gif)
 4. You can perform bulk actions on multiple test steps by selecting them on the menu bar. The actions available are:
     - **Select All**: This option allows you to select all the test steps on the current page.
-    - **Update Settings**: You can use this option to update settings for the selected test steps all at once. For more information, refer to [Update Settings](https://testsigma.com/docs/test-cases/create-test-steps/actions-and-options-manual/step-settings/#update-settings).
-    - **Create Block**: Use this option to create a block from the selected test steps. This will help you manage and structure your test cases. For more information, refer to [Step Block](https://testsigma.com/docs/test-cases/step-types/block/#create-a-block-using-bulk-action).
-    - **Create Step Group**: This action lets you create a step group containing the selected test steps. Step groups help you organise and reuse test steps. For more information, refer to [Step Group](https://testsigma.com/docs/test-cases/step-types/step-group/#create-step-group-from-a-test-case).
+    - **Update Settings**: You can use this option to update settings for the selected test steps all at once. For more informationm on updating settings, refer to the [documentation on updating settings](https://testsigma.com/docs/test-cases/create-test-steps/actions-and-options-manual/step-settings/#update-settings).
+    - **Create Block**: Use this option to create a block from the selected test steps. This will help you manage and structure your test cases. For more information on creating step blocks, refer to the [documentation on creating step blocks](https://testsigma.com/docs/test-cases/step-types/block/#create-a-block-using-bulk-action).
+    - **Create Step Group**: This action lets you create a step group containing the selected test steps. Step groups help you organise and reuse test steps. For more information on creating step groups, refer to the [documentation on creating step groups](https://testsigma.com/docs/test-cases/step-types/step-group/#create-step-group-from-a-test-case).
     - **Delete**: You can delete the selected test steps in bulk if they are no longer needed. 
 5. Click on **Exit Bulk Action** in the top right corner of the screen within the menu bar to exit the Bulk Action mode. ![Perform Bulk Actions](https://s3.amazonaws.com/static-docs.testsigma.com/new_images/projects/applications/perform_bulkactions.gif)
    

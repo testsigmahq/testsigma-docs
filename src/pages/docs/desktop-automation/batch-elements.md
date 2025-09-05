@@ -28,13 +28,12 @@ The Batch Element Recorder lets you capture all UI elements in a desktop applica
 
 > <p id="prerequisites">Prerequisites</p>
 > 
->  - You should know how to create a [project](https://testsigma.com/docs/projects/overview/) and [application](https://testsigma.com/docs/projects/applications/) in Testsigma.
-> 
-> - You should have the **Testsigma Terminal** installed.
-> 
-> - The **WinTest Automation** folder must exist in the **Testsigma Agent** directory. 
-> 
-> - A Windows application to test and make sure it’s open on your device. 
+> Before you begin, ensure that:
+> 1. You have referred to the [documentation on creating projects](https://testsigma.com/docs/projects/overview/).
+> 2. You have referred to the [docuemntation on creating applications](https://testsigma.com/docs/projects/applications/) in Testsigma.
+> 3. You should have the **Testsigma Terminal** installed.
+> 4. The **WinTest Automation** folder must exist in the **Testsigma Agent** directory. 
+> 5. You have a Windows application to test and make sure it’s open on your device. 
 
 ---
 

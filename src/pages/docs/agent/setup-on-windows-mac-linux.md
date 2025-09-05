@@ -113,7 +113,7 @@ Once the installation is complete, you can either run the Testsigma Agent server
 1. After starting up you will be directed to the agent registration page. 
 ![Reg page](https://s3.amazonaws.com/static-docs.testsigma.com/new_images/projects/applications/Agent_Reg_Page.png)
 
-For more information on how to register Testsigma Agent, see [Register the Testsigma Agent](https://testsigma.com/docs/agent/setup-on-windows-mac-linux/#register-the-testsigma-agent).
+For more information on how to register Testsigma Agent, refer to the [documentation on registering the Testsigma Agent](https://testsigma.com/docs/agent/setup-on-windows-mac-linux/#register-the-testsigma-agent).
 
 ---
 
@@ -178,7 +178,7 @@ dump         Request a Java thread dump if running.
 | 2. On successfully adding the agent, you will be taken to the agent configuration page that contains the command that you can use to activate the agent later. 
 |![Config page](https://s3.amazonaws.com/static-docs.testsigma.com/new_images/projects/applications/Agent_Config.png)
 
-It might take a couple of minutes for the operating system version and the browser names to appear. Refer to the [troubleshooting guide](https://testsigma.com/docs/agent/troubleshooting/setup-issues/) if the details does not show up after 10 minutes.
+It might take a couple of minutes for the operating system version and the browser names to appear. For more information on troubleshooting setting up Testsigma Agent, refer to the [documentation on troubleshooting setting up Testsigma Agent](https://testsigma.com/docs/agent/troubleshooting/setup-issues/) if the details does not show up after 10 minutes.
 
 ---
 

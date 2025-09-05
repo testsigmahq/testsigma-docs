@@ -23,8 +23,9 @@ This article discusses getting the test plan ID from a pre-existing test plan in
 ---
 
 > <p id="prerequisites">Prerequisites</p>
-> 
->    - You should know how to [create a test plan](https://testsigma.com/docs/test-management/test-plans/overview/)
+>
+> Before you begin, ensure that you have referred to:
+> 1. [Documentation on creating test plans](https://testsigma.com/docs/test-management/test-plans/overview/).
 
 ---
 

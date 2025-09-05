@@ -38,7 +38,7 @@ In Testsigma, a step block can be created using two different methods:
 
 ---
 
-> #<p id="prerequisites">Prerequisites</p>
+> <p id="prerequisites">Prerequisites</p>
 > 
 > Before you begin, ensure that you have referred to:
 > 1. [Documentation on creating projects](https://testsigma.com/docs/projects/overview/).

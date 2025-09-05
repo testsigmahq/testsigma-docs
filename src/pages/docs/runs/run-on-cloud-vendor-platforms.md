@@ -35,7 +35,8 @@ When executing your test cases on Testsigma you have the option to execute them 
 
 > <p id="prerequisites">Prerequisites</p>
 > 
-> - Before you begin, ensure you know how to [run your test cases on the integrated cloud vendor platforms](https://testsigma.com/docs/runs/adhoc-runs/).
+> - Before you begin, ensure that you have referred to:
+> 1. [Documentation on running your test cases on the integrated cloud vendor platforms](https://testsigma.com/docs/runs/adhoc-runs/).
 
 ---
 

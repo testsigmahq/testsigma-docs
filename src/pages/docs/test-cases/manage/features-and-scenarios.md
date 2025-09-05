@@ -70,7 +70,8 @@ Let's say you're creating test cases for an **Online Shopping App**.
 
 > <p id="prerequisites">Prerequisites</p>
 >
-> Ensure you create a [Project](https://testsigma.com/docs/projects/overview/) before creating Test Cases in Testsigma. 
+> Before you begin, ensure that you have referred to:
+> 1. [Documentation on creating projects](https://testsigma.com/docs/projects/overview/).
 
 ---
 
@@ -109,7 +110,7 @@ Here's a quick GIF demonstrating steps to create scenarios.
 ![Scenarios](https://s3.amazonaws.com/static-docs.testsigma.com/new_images/projects/applications/ScenarioFlow.gif)
 
 [[info | **NOTE**:]]
-| - You can click **List View** and perform list actions here. For more information, see [List Actions](https://testsigma.com/docs/test-cases/manage/list-actions/).
+| - You can click **List View** and perform list actions here. For more information on managing list actions, refer to the [documentation on managing list actions](https://testsigma.com/docs/test-cases/manage/list-actions/).
 | - This will also help you filter test cases with **Scenarios** while creating test suites.
 | ![Filter While adding Test Cases](https://s3.amazonaws.com/static-docs.testsigma.com/new_images/projects/applications/FilterScenarios_TestSuites.png)
 

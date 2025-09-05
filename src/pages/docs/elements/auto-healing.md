@@ -32,7 +32,9 @@ Auto Healing helps prevent object flakiness and ensures your tests are reliable 
 > <p id="prerequisites">Prerequisites</p>
 >
 >
-> Before you begin, ensure that you know how to [Manage a Test Case](https://testsigma.com/docs/test-cases/manage/add-edit-delete/) and how to [Create Elements](https://testsigma.com/docs/elements/overview/).
+> Before you begin, ensure that you have referred to:
+> 1. [Documentation on managing test cases](https://testsigma.com/docs/test-cases/manage/add-edit-delete/).
+> 2. [Documentation on creating elements](https://testsigma.com/docs/elements/overview/).
 
 ---
 

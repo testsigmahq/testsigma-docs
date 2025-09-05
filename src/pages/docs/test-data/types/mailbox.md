@@ -90,7 +90,9 @@ Here is a quick GIF demonstrating the above workflow:
 ![Fetch OTP from Mail Box](https://s3.amazonaws.com/static-docs.testsigma.com/new_images/projects/applications/fetchotp_mailbox.gif)
 
 [[info | NOTE:]]
-| - You must perform both [Add Mail Box in Test Step](https://testsigma.com/docs/test-data/types/mailbox/#add-mailbox-in-test-step) and [Fetch OTP from Mail Box](https://testsigma.com/docs/test-data/types/mailbox/#fetch-otp-from-mailbox) for Two-Factor Authentication.
+| Ensure that you have referred to:
+| - [Documentation on adding Mail Box in a test step](https://testsigma.com/docs/test-data/types/mailbox/#add-mailbox-in-test-step). 
+| - [Documentation on fetching OTP from Mail Box for two-factor authentication](https://testsigma.com/docs/test-data/types/mailbox/#fetch-otp-from-mailbox).
 
 
 ---
@@ -162,13 +164,13 @@ Below is a screenshot showing a test case generating a mailbox alias and getting
 
 Two-factor authentication provides additional protection for your application. With Testsigma, you can easily set up Mailbox, retrieve OTP using mailbox functions, and perform tests securely. This article discusses testing 2FA for MailBox. 
 
-### **Prerequisites:**
-
-- You should know how to [create a test case](https://testsigma.com/docs/test-cases/manage/add-edit-delete/).
-  
-- You should know how to use [mailbox](https://testsigma.com/docs/test-data/types/mailbox/) & [data generator](https://testsigma.com/docs/test-data/types/data-generator/) test data types.
-
-- You need to have a dedicated Mailbox for your account. Contact **support@testsigma.com** for more information.
+> <p id="prerequisites">Prerequisites</p>
+>
+> Before you begin, ensure that: 
+> 1. You have referred to the [documentation on creating test cases](https://testsigma.com/docs/test-cases/manage/add-edit-delete/#create-test-case).
+> 2. You have referred to the [documentation on creating mailbox](https://testsigma.com/docs/test-data/types/mailbox/) &
+> 3. You have referred to the [documentation on creating data generator](https://testsigma.com/docs/test-data/types/data-generator/). 
+> 4. Also, you need to have a dedicated Mailbox for your account. Contact **support@testsigma.com** for more information.
 
 ---
 
@@ -207,13 +209,13 @@ In some cases, app restrictions will prevent the delivery of OTPs to the Testsig
 
 ---
 
-#<p id="prerequisites">Prerequisites</p>
-
-- You should have [Testsigma SMS Forwarder](https://s3.amazonaws.com/static-docs.testsigma.com/new_images/projects/applications/smsforward.apk) application.
-
-- You should know how to use [mailbox](https://testsigma.com/docs/test-data/types/mailbox/) & [data generator](https://testsigma.com/docs/test-data/types/data-generator/) test data types.
-
-- You need to have a dedicated Mailbox for your account. Contact **support@testsigma.com** for more information.
+> <p id="prerequisites">Prerequisites</p>
+>
+> Before you begin, ensure that: 
+> 1. You have the [Testsigma SMS Forwarder](https://s3.amazonaws.com/static-docs.testsigma.com/new_images/projects/applications/smsforward.apk) application.
+> 2. You have referred to the [documentation on creating mailbox](https://testsigma.com/docs/test-data/types/mailbox/) &
+> 3. You have referred to the [documentation on creating data generator](https://testsigma.com/docs/test-data/types/data-generator/). 
+> 4. Also, you need to have a dedicated Mailbox for your account. Contact **support@testsigma.com** for more information.
 
 ---
 
@@ -261,6 +263,6 @@ In some cases, app restrictions will prevent the delivery of OTPs to the Testsig
 
 [[info | **NOTE**:]]
 | - You can contact the support team for OTP retrieval, which involves fetching data from the backend.
-| - For a sample test case associated with the Testsigma SMS Forwarder app, refer to [setup & use message forwarding](https://testsigma.com/docs/test-data/types/phone-number/#set-up-and-use-message-forwarding).
+| - For a sample test case associated with the Testsigma SMS Forwarder app, refer to the [documentation on setup & use message forwarding](https://testsigma.com/docs/test-data/types/phone-number/#set-up-and-use-message-forwarding).
 
 ---

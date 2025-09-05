@@ -26,7 +26,7 @@ If the agent is not running, you will see that the last request time was not rec
 2. If registered properly, check the **Test Plans/Dry Runs** tab from the **Usage details** page and confirm there are no queued tests in **Test Plans & Dry Runs** tab. If there are queued tests, wait for them to finish or stop them for your new tests to run.
 
 
-If there are no queued tests, please contact **support@testsigma.com** with latest Testsigma Agent logs. For more information, refer to [send agent logs](https://testsigma.com/docs/agent/troubleshooting/logs/). 
+If there are no queued tests, please contact **support@testsigma.com** with latest Testsigma Agent logs. For more information, refer to the [documentation on sending agent logs](https://testsigma.com/docs/agent/troubleshooting/logs/). 
 
 
 

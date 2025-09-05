@@ -29,7 +29,9 @@ In Testsigma, you can disable specific test cases within your test plans by usin
 
 > <p id="prerequisites">Prerequisites</p>
 > 
-> Before proceeding, ensure you know how [Test Plans](https://testsigma.com/docs/test-management/test-plans/overview/) work in Testsigma, are familiar with the **Add Test Suites & Link Machine Profiles** tab in **Create or Edit Test Plan** page.
+> Before proceeding, ensure that:
+> 1. You have referred to the [documentation on creating test plans](https://testsigma.com/docs/test-management/test-plans/overview/). 
+> 2. You are familiar with the **Add Test Suites & Link Machine Profiles** tab in **Create or Edit Test Plan** page.
 
 ---
 

@@ -21,9 +21,9 @@ Parameters in Testsigma are variables used to customize test cases for different
 
 ---
 ## **How to Use Parameters in a Test Case?**
-1. Create a **Test Data Profile**. See, [create test data profile](https://testsigma.com/docs/test-data/create-data-profiles/). Alternatively, you can also import a Test Data Profile. 
+1. Create a **Test Data Profile**. For more information on creating test data profiles, refer to the [documentation on creating test data profiles](https://testsigma.com/docs/test-data/create-data-profiles/). Alternatively, you can also import a Test Data Profile. 
 
-2. Create a **Test Case** and associate **Test Data Profile** from **Test Case Settings**. See [create test case](https://testsigma.com/docs/test-cases/manage/add-edit-delete/#creating-a-test-case).
+2. Create a **Test Case** and associate **Test Data Profile** from **Test Case Settings**. For more information on creating test cases, refer to the [documentation on creating test case](https://testsigma.com/docs/test-cases/manage/add-edit-delete/#creating-a-test-case).
 ![Test Case Settings](https://s3.amazonaws.com/static-docs.testsigma.com/new_images/projects/applications/prmtcs.png)
 
 3. In your test steps, use *‘Enter ***test data*** in the ***element*** field’* NLP. 

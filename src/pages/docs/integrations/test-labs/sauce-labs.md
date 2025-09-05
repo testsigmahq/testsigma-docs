@@ -25,15 +25,12 @@ SauceLabs integration with Testsigma lets you run your Testsigma tests on SauceL
 If your organization has an existing account with SauceLabs, you can author tests for Web, Mobile Web, and Mobile applications on Testsigma, and then run those tests on SauceLabs’ cloud devices.
 
 ---
-<p id="prerequisites">Prerequisites</p>
-
-You just need the username and API Key for SauceLabs which can be obtained from your SauceLabs account dashboard.
-
-This can be obtained from the Account Settings page as shown below :
-
-![User credentials in Saucelabs Account Settings page](https://docs.testsigma.com/images/sauce-labs/saucelabs-user-creds-username-key.png)
-
-You should already know about different [Test Lab Types in Testsigma](https://testsigma.com/docs/test-management/test-plans/supported-test-lab-types/)
+> <p id="prerequisites">Prerequisites</p>
+> 
+> Before you begin, ensure that:
+> 1. You have the username and API Key for SauceLabs which can be obtained from your SauceLabs account dashboard. This can be obtained from the Account Settings page as shown below :
+>    ![User credentials in Saucelabs Account Settings page](https://docs.testsigma.com/images/sauce-labs/saucelabs-user-creds-username-key.png)
+> 2. You have referred to the [documentation on test lab types in Testsigma](https://testsigma.com/docs/test-management/test-plans/supported-test-lab-types/)
 
 ---
 ## **Integrating with SauceLabs**

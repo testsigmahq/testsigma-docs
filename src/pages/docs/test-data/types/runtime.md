@@ -72,7 +72,7 @@ In Testsigma, Runtime Test Data allows you to save data gathered while running a
   
 [[info | NOTE:]]
 | The run report will show the following error if you enter a variable name without storing a value. Always remember to store the value in a variable before using it. <br><br>
-| No data available for runtime test data variable %s. Refer previous Test Steps in this Test Case or Test Steps in other Test Cases to know the variable names saved by using store(naturalText) action Test Steps. Go to https://testsigma.com/docs/test-data/types/runtime/ to know more about runtime test data."
+| No data available for runtime test data variable %s. Refer previous Test Steps in this Test Case or Test Steps in other Test Cases to know the variable names saved by using store(naturalText) action Test Steps. For more information on runtime data type, refer to the [documentation on runtime data type](https://testsigma.com/docs/test-data/types/runtime/). 
 
 ---
 

@@ -27,9 +27,9 @@ You can use test case import to move test cases from one project to another with
 ---
 
 > <p id="prerequisites">Prerequisites</p>
-> 
-> Ensure you know how to [Manage Projects](https://testsigma.com/docs/projects/overview/).
-> 
+>
+> Before you begin, ensure that you have referred to:
+> 1. [Documentation on creating projects](https://testsigma.com/docs/projects/overview/).
 
 ---
 

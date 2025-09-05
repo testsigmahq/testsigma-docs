@@ -51,15 +51,15 @@ We suggest you get help from your Ops team in configuring the Build Pipeline if 
 1. Click on 'Add build step' to create a new Stage for Testsigma Test Plan Trigger and click on 'Testsigma Test Plan run'. This will create a new Stage using the installed Testsigma plugin (If you have not installed it yet, check the Prerequisites section)
 ![add test stage in jenkins with Testsigma](https://docs.testsigma.com/images/jenkins/add-test-stage-in-jenkins-with-Testsigma.png)
 2. Enter the following details:
-**Testsigma API Key:** Generated from [Settings > API Keys in Testsigma App](https://testsigma.com/docs/configuration/api-keys/)
-**Testsigma Test Plan ID:**You can [get the Test Plan specific ID](https://testsigma.com/docs/continuous-integration/get-test-plan-details/) from the Test Plan details page(Test Plans> Click on Test Plan name > CI/CD Integration Tab)
+**Testsigma API Key:** Refer to the [documentation on generating API keys](https://testsigma.com/docs/configuration/api-keys/).
+**Testsigma Test Plan ID:** Refer to the [documentation on getting the test plan ID](https://testsigma.com/docs/continuous-integration/get-test-plan-details/) from the Test Plan details page(Test Plans> Click on Test Plan name > CI/CD Integration Tab).
 **Maximum wait time for Task completion:** Specify the maximum time in minutes you want the Testsigma Plugin to wait before timing out. After this timeout, The execution will still continue in Testsigma and you can go to Testsigma to check the Test Plan status later.
 Report File Path: The File path where the JUnit report XML file is stored
  
 **Here's a sample entry:**
 
 ![sample entry while creating post-build Testsigma Trigger](https://docs.testsigma.com/images/jenkins/sample-entry-post-build-testsigma-trigger.png)
-3. Click on 'Save' to save the changes.
+1. Click on 'Save' to save the changes.
  
 ### **Step 4: Try a Sample Build**
 1. click on Build now to trigger the Pipeline manually to check.

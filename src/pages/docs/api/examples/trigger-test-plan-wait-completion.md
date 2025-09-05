@@ -24,10 +24,10 @@ contextual_links:
 
 If you are adding automated testing as an AUTOMATED stage in your CI/CD Pipeline, you will need to trigger the Tests from the Pipeline and get the test results into the Pipeline as well. You can use Testsigma Test Plan Execution Results API to do that..
 
-You should already be familiar with creating and running Test Plans. See [Manage Test Plans](https://testsigma.com/docs/test-management/test-plans/overview/).
+You should already be familiar with creating and running Test Plans. Refer to the [documentation on managing test plans](https://testsigma.com/docs/test-management/test-plans/overview/).
 
 [[info | NOTE:]]
-| You need to authenticate these requests with your Testsigma API Key.  To know more about obtaining API Keys, refer - [How to generate API Keys](https://testsigma.com/docs/configuration/api-keys/)
+| You need to authenticate these requests with your Testsigma API Key.  To know more about obtaining API Keys, refer to the [documentation on generating API keys](https://testsigma.com/docs/configuration/api-keys/)
 
 ---
 ##**Checking the Test Run Results**
@@ -35,15 +35,15 @@ You should already be familiar with creating and running Test Plans. See [Manage
 The below steps give an overview of how the script given at the bottom of this page works:
 
 1. Start the Test Plan Run using the ‘Test Plan Trigger API’
-See [How to trigger Test Plans remotely.](https://testsigma.com/docs/api/test-plans/)<br>The Response of the Trigger Test Plan API Call returns the ID of the specific Test Plan Run called ‘Run ID’. This Run ID can be used to check the status of the Test Plan Run once it starts.
+Refer to the [documentation on triggering test plans remotely.](https://testsigma.com/docs/api/test-plans/)<br>The Response of the Trigger Test Plan API Call returns the ID of the specific Test Plan Run called ‘Run ID’. This Run ID can be used to check the status of the Test Plan Run once it starts.
 
-2. Get the ‘id’ key in the JSON Response of Trigger Test Plan API
+1. Get the ‘id’ key in the JSON Response of Trigger Test Plan API
 The Run ID for the Test Plan Run is under the key ‘id’. This is unique for the current Test Plan Run.
 
 3. Use the above ‘id’ with the ‘Test Plan Status API’ to check Test Plan Run Status.
-See [How to check Test Plan Status.](https://testsigma.com/docs/api/test-plans/#test-plan-status-api)
+Refer to the [documentation on checking test plan status.](https://testsigma.com/docs/api/test-plans/#test-plan-status-api)
 
-4. Check if the value of the ‘status’ key is “STATUS\_COMPLETED”
+1. Check if the value of the ‘status’ key is “STATUS\_COMPLETED”
 We can poll the Test Plan Execution Results API with this Run ID at regular intervals to check for the status of the specific Test Plan execution by reading the ‘status’ key in the JSON Response for the Test Plan Execution Results API Call.
 
 5. If no, go to Step 3.
@@ -450,3 +450,4 @@ echo "************ Testsigma: Completed executing automated tests ************"
 exit $EXITCODE
 
 ```
+---

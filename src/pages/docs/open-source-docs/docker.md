@@ -43,7 +43,9 @@ This guide will help you setup [Testsigma Server](https://github.com/testsigmahq
 
 > <p id="prerequisites">Prerequisites</p>
 > 
->  Before you begin, ensure you have installed [Docker](https://docs.docker.com/install/) and [Docker Compose](https://docs.docker.com/compose/install/).
+>  Before you begin, ensure that you have referred to:
+> 1. [Documentation on installing Docker](https://docs.docker.com/install/).
+> 2. [Documentation on installing Docker Compose](https://docs.docker.com/compose/install/).
 
 ---
 
@@ -117,7 +119,7 @@ To achieve this we use Testsigma Agent that connects the Testsigma Server with t
 
 ### **Download and Install Testsigma Agent**
 
-Login to https://local.testsigmaos.com/ui and follow the steps mentioned here([Setup: Windows, Mac, Linux](https://testsigma.com/docs/agent/setup-on-windows-mac-linux/)) to Install and configure the the Agent
+Login to https://local.testsigmaos.com/ui and follow the steps mentioned in the ([documentation on setting up Testsigma Agent](https://testsigma.com/docs/agent/setup-on-windows-mac-linux/)) to Install and configure the the Agent
  
 ---
 
@@ -145,14 +147,14 @@ Login to https://local.testsigmaos.com/ui and follow the steps mentioned here([S
   5. Now start the Agent by executing start.sh
 
 [[info | NOTE:]]
-|- If you are facing any issues after updating Testsigma Agent refer to [Agent - Startup and Registration Errors](https://testsigma.com/docs/agent/troubleshooting/setup-issues/) .
+|- If you are facing any issues after updating Testsigma Agent refer to the [documentation on agent - startup and registration errors](https://testsigma.com/docs/agent/troubleshooting/setup-issues/) .
 |- If you are still facing the issue, delete the [agent manually](https://testsigma.com/docs/agent/force-delete/) and install again.
 
 ---
 
 ## **Troubleshooting**
 
-- If you encounter any errors during this process, check out our guide on [debugging deployment errors](https://testsigma.com/docs/troubleshooting/setup/server-docker-deployment-errors/) and for [logs](https://testsigma.com/docs/troubleshooting/setup/server-docker-deployment-errors/#checking-logs)
+- If you encounter any errors during this process, check out our guide on [documentation on debugging deployment errors](https://testsigma.com/docs/troubleshooting/setup/server-docker-deployment-errors/) and for [documentation on checking logs](https://testsigma.com/docs/troubleshooting/setup/server-docker-deployment-errors/#checking-logs)
 - If you are still facing any issue, please reach out to [support@testsigma.com](mailto:support@testsigma.com) or join our [Discord Server](https://discord.com/invite/5caWS7R6QX) to speak to the Testsigma team directly!
 
 ---

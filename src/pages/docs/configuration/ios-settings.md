@@ -25,9 +25,11 @@ Testsigma allows you to seamlessly test your applications on local iOS devices a
 
 ---
 
-#<p id="prerequisites">Prerequisites</p>
-
-Before configuring your local iOS devices, ensure you have a valid [Apple Developer account](https://developer.apple.com/account) and have installed [Testsigma Agent](https://testsigma.com/docs/agent/setup-on-windows-mac-linux/) on your local machine.
+> <p id="prerequisites">Prerequisites</p>
+> 
+> Before you begin, ensure that:
+> 1. You have a valid [Apple Developer account](https://developer.apple.com/account) 
+> 2. You have referred to the [documentation on installing Testsigma Agent](https://testsigma.com/docs/agent/setup-on-windows-mac-linux/) on your local machine.
 
 ---
 

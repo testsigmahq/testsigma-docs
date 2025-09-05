@@ -26,8 +26,10 @@ During the active development of a website, the dev environment might not always
 
 ---
 
-<p id="prerequisites">Prerequisites</p>
-- You should be familiar with the usage of Desired Capabilities in Testsigma. For more information, refer to [desired capabilities](https://testsigma.com/docs/desired-capabilities/overview/).
+> <p id="prerequisites">Prerequisites</p>
+>
+> Before you begin, ensure that you have referred to:
+> 1. [Documentation on configuring desired capabilities](https://testsigma.com/docs/desired-capabilities/overview/).
 
 ---
 

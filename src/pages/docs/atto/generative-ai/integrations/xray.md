@@ -27,7 +27,7 @@ Testsigma integrates with Xray to support test case generation from your existin
 >
 > Before you begin, ensure JIRA and Xray integrations are active, and you have the JIRA account URL, client ID, and client secret.
 > 
-> *For more information, refer to [global settings](https://docs.getxray.app/display/XRAYCLOUD/Global+Settings%3A+API+Keys).*
+> *For more information on configuring global settings, refer to the [documentation on configuring global settings](https://docs.getxray.app/display/XRAYCLOUD/Global+Settings%3A+API+Keys).*
 
 ---
  

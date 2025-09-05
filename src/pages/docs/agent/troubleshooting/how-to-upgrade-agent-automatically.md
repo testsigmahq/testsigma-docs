@@ -23,15 +23,16 @@ Testsigma can download and install the agent automatically if there's a higher v
 
 ---
 
-<p id="prerequisites">Prerequisites</p>
-
-- You should know how to [set up Testsigma agent](https://testsigma.com/docs/agent/setup-on-windows-mac-linux/).
+> <p id="prerequisites">Prerequisites</p>
+> 
+> Before you begin, ensure that you have referred to: 
+> 1. [Documentation on setting up Testsigma agent](https://testsigma.com/docs/agent/setup-on-windows-mac-linux/).
 
 ---
 
 ## **Steps to Upgrade Testsigma Agent Automatically**
 
-1. Start Testsigma agent. *For more information, refer to [start agent as a process](https://testsigma.com/docs/agent/setup-on-windows-mac-linux/#start-the-testsigma-agent-server-as-a-process).*
+1. Start Testsigma agent. *For more information, refer to the [documentation on starting agent as a process](https://testsigma.com/docs/agent/setup-on-windows-mac-linux/#start-the-testsigma-agent-server-as-a-process).*
 
 
 2. Once you start the agent, if a higher version is available, it'll automatically download the agent. 

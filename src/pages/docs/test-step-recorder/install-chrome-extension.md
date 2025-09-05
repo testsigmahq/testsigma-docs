@@ -43,7 +43,7 @@ Here’s a GIF demonstrating how to add Testsigma's Chrome extension.
 
 ![Chrome Extension](https://s3.amazonaws.com/static-docs.testsigma.com/new_images/projects/applications/EnableChromeExt.gif)
 
-*For more information on creating test steps using recorder, refer to [recording test steps](https://testsigma.com/docs/test-cases/create-test-steps/overview/#creating-test-steps-using-test-recorder).*
+*For more information on creating test steps using recorder, refer to the [documentation on recording test steps](https://testsigma.com/docs/test-cases/create-test-steps/overview/#creating-test-steps-using-test-recorder).*
 
 
 ---

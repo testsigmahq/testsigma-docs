@@ -26,10 +26,13 @@ For applications built on UWP, WinForms, WPF, and Classic Windows, you can provi
 ---
 
 > <p id="prerequisites">Prerequisites</p>
-> - You should know how to create a [project](https://testsigma.com/docs/projects/overview/) and [application](https://testsigma.com/docs/projects/applications/) in Testsigma.
-> - You should have the Testsigma’s [Test Recorder](https://chromewebstore.google.com/detail/testsigma-recorder/epmomlhdjfgdobefcpocockpjihaabdp?hl=en-GB&utm_source=ext_sidebar) installed.
-> - You should have the [Testsigma Agent](https://testsigma.com/docs/agent/setup-on-windows-mac-linux/) setup. 
-> - Any Windows app to capture elements.
+> 
+> Before you begin, ensure that:
+> 1. You have referred to the [documentation on creating projects](https://testsigma.com/docs/projects/overview/).
+> 2. You have referred to the [documentation on creating applications](https://testsigma.com/docs/projects/applications/).
+> 3. You have referred to the [documentation on test recorder](https://chromewebstore.google.com/detail/testsigma-recorder/epmomlhdjfgdobefcpocockpjihaabdp?hl=en-GB&utm_source=ext_sidebar). 
+> 4. You have referred to the [documentation on setting up Testsigma Agent](https://testsigma.com/docs/agent/setup-on-windows-mac-linux/) setup. 
+> 5. You have any Windows app to capture elements.
 
 ---
 

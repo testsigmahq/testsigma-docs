@@ -25,7 +25,7 @@ Go to one of your existing projects and create a new Windows (Advanced) applicat
 
 This article discusses creating a project and adding a Windows (Advanced) application to the project in Testsigma. 
 
-ℹ️ For more information, refer to [projects](https://testsigma.com/docs/projects/overview/) and [applications](https://testsigma.com/docs/projects/applications/). 
+ℹ️ For more information, refer to the [documentation on creating projects](https://testsigma.com/docs/projects/overview/) and [documentation on creating applications](https://testsigma.com/docs/projects/applications/). 
 
 ---
 

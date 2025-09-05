@@ -19,7 +19,7 @@ contextual_links:
 
 ---
 
-With Testsigma, you can create, and update values of the Test Data Profile using API. For more information on creating a test data profile, refer to [create a test data profile](https://testsigma.com/docs/test-data/create-data-profiles/).
+With Testsigma, you can create, and update values of the Test Data Profile using API. For more information on creating a test data profile, refer to the [documentation on creating a test data profile](https://testsigma.com/docs/test-data/create-data-profiles/).
 
 --- 
 

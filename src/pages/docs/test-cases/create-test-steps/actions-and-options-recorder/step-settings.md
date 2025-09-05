@@ -25,10 +25,10 @@ In Testsigma, you can control how each test step behaves in your test cases by u
 
 
 > <p id="prerequisites">Prerequisites</p>
-> 
-> - You should have [Testsigma's step test recorder](https://testsigma.com/docs/test-step-recorder/install-chrome-extension/) installed. 
 >
-> - You should know how to create **test steps** and [manage a test case](https://testsigma.com/docs/test-cases/manage/add-edit-delete/).
+> Before you begin, ensure that:
+> 1. You have installed the Testsigma's test step recorder. For more information on installing Testsigma's test step recorder, refer to the [documentation on installing Testsigma's step test recorder](https://testsigma.com/docs/test-step-recorder/install-chrome-extension/).
+> 2. You have referred to the [documentation on creating a test case](https://testsigma.com/docs/test-cases/manage/add-edit-delete/).
 
 ---
 
