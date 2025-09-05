@@ -62,7 +62,7 @@ This troubleshooting guide for Salesforce Testing in Testsigma provides solution
 
 - Check network & firewall settings for blocks on the authorization endpoint.
 
-For more information, refer to [creating a connected application](https://testsigma.com/docs/salesforce-testing/connected-app/).
+For more information, refer to the [documentation on creating a connected application](https://testsigma.com/docs/salesforce-testing/connected-app/).
 
 ---
 

@@ -16,9 +16,9 @@ contextual_links:
 
 ---
 
-In Testsigma, one of the ways we can automate the testing of dynamic elements is by using parameterized XPath. We assume you are familiar with the different types of Test Data used in Testsigma. If not, please refer to [different test data types in Testsigma](https://testsigma.com/docs/test-data/types/overview/).
+In Testsigma, one of the ways we can automate the testing of dynamic elements is by using parameterized XPath. We assume you are familiar with the different types of Test Data used in Testsigma. If not, please refer to the [documentation on different test data types in Testsigma](https://testsigma.com/docs/test-data/types/overview/).
 
-We can use Environment Parameters to parameterize the locator similar to how we use test data profiles. Learn more about [using Parameter Test Data to create dynamic locators](https://testsigma.com/docs/elements/dynamic-elements/with-parameter-test-data/).
+We can use Environment Parameters to parameterize the locator similar to how we use test data profiles. For more information on using parameter test data to create dynamic locators, refer to the [documentation on using Parameter Test Data to create dynamic locators](https://testsigma.com/docs/elements/dynamic-elements/with-parameter-test-data/).
 
 In this article, we will be outlining how to create dynamic locators using Environment parameters.
 

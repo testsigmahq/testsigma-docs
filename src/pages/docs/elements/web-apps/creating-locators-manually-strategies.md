@@ -30,7 +30,7 @@ contextual_links:
 
 ---
 
-For this guide, it would be recommended to get familiar with the Chrome Developer Tools and Elements Panel for finding the Elements and their attributes. For more information, see [getting started with viewing and changing the DOM](https://developer.chrome.com/docs/devtools/dom/).
+For this guide, it would be recommended to get familiar with the Chrome Developer Tools and Elements Panel for finding the Elements and their attributes. For more information on getting started with viewing and changing the DOM, refer to the [documentation on getting started with viewing and changing the DOM](https://developer.chrome.com/docs/devtools/dom/).
 
 Elements can be created from the attributes/properties of an HTML Element, using:
 1. Attributes of the element like id, name, placeholder

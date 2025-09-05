@@ -24,7 +24,7 @@ The Test Data Generator in Testsigma helps you quickly create a Test Data Profil
 
 ---
 
-> ## **Prerequisites**
+> <p id="prerequisites">Prerequisites</p>
 > 
 > Before you begin, enable **AI Features** from **Settings > Preferences > Generative AI** features.
 

@@ -35,7 +35,7 @@ After an automatic update of the Testsigma agent, you might face issues where th
 3. **Reinstall the Agent:** After removing the configuration files, download the latest version of the agent from the Testsigma application.
 
 
-4. **Start the Agent:** Start the Agent once the download is complete. *For more information, refer to [start Testsigma agent](https://testsigma.com/docs/agent/setup-on-windows-mac-linux/#start-the-testsigma-agent-server-as-a-process).*
+4. **Start the Agent:** Start the Agent once the download is complete. *For more information, refer to the [documentation on starting Testsigma agent](https://testsigma.com/docs/agent/setup-on-windows-mac-linux/#start-the-testsigma-agent-server-as-a-process).*
 
 
 ---

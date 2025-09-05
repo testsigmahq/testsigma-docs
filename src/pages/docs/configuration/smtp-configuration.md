@@ -26,14 +26,13 @@ Simple Mail Transfer Protocol (SMTP) is a standard protocol for sending mail fro
 
 ---
 
-## **Prerequisites:**
-
-You'll need the following for SMTP Configuration:
-
-- SMTP Server Address
-- Port Number
-- Valid Credentials
-- Additional Parameters
+> <p id="prerequisites">Prerequisites</p>
+>
+> Before you begin, ensure that you have: 
+> 1. SMTP Server Address
+> 2. Port Number
+> 3. Valid Credentials
+> 4. Additional Parameters
 
 ---
 

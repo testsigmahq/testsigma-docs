@@ -34,14 +34,13 @@ You can integrate Codemagic with your version control system to automate test ex
 
 ---
 
-> ## **Prerequisites**
+> <p id="prerequisites">Prerequisites</p>
 > 
-> Before you begin, ensure:
-> 
->   - You have a repository on a supported version control system (e.g., **GitHub**).
->   - You have a **Codemagic** account.
->   - You have a shell script in your repository that triggers Testsigma test execution.
->
+> Before you begin, ensure you have:
+>   - A repository on a supported version control system (e.g., **GitHub**).
+>   - A **Codemagic** account.
+>   - A shell script in your repository that triggers Testsigma test execution.
+
 ---
 
 ## **Sign Up and Authorize Codemagic**

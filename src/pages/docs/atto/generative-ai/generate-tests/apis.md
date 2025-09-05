@@ -23,7 +23,7 @@ With Testsigma, you can now generate API test cases effortlessly by importing Sw
 
 ---
 
-> ## **Prerequisites**
+> <p id="prerequisites">Prerequisites</p>
 > 
 > Before you begin, enable AI Features from **Settings > Preferences > Generative AI features**, and have a **Swagger JSON file** with tags arranged for endpoints.
 

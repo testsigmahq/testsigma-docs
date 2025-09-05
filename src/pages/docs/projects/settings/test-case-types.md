@@ -37,11 +37,10 @@ While creating a test case on Testsigma, you can assign a type to it, to differe
 
 ---
 
-> ## **Prerequisites**
+> <p id="prerequisites">Prerequisites</p>
 >
-> You should know how to [Create a Test Case](https://testsigma.com/docs/test-cases/manage/add-edit-delete/). 
-> 
-
+> Before you begin, ensure that you have referred to:
+> 1. [Documentation on creating test cases](https://testsigma.com/docs/test-cases/manage/add-edit-delete/).
 
 ---
 

@@ -33,7 +33,7 @@ Live Editor is the primary tool for test authoring and validating through local 
 
 ---
 
-> ## **Prerequisites**
+> <p id="prerequisites">Prerequisites</p>
 >
 > Ensure you have the following requirements:
 > 

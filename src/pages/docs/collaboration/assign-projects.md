@@ -27,17 +27,12 @@ In Testsigma, you can create multiple projects and assign users to those project
 ---
 
 
-> ## **Prerequisites**
->
-
-- You should know how to create a [Project](https://testsigma.com/docs/projects/overview/). 
-   
-
-- To add a user to a project, you should have the role of either test manager or admin for that project. *For more information, see [User Roles](https://testsigma.com/docs/collaboration/users-roles/).*
-   
-
-- You should know how to invite team members to Testsigma, see [Adding Team Members](https://testsigma.com/docs/collaboration/invite-team-members/).
-
+> <p id="prerequisites">Prerequisites</p>
+> 
+> Before you begin, ensure that you have referred to:
+> 1. [Documentation on creating projects](https://testsigma.com/docs/projects/overview/). 
+> 2. [Documentation on managing users & roles](https://testsigma.com/docs/collaboration/users-roles/).
+> 3. [Documentation on adding team members](https://testsigma.com/docs/collaboration/invite-team-members/).
 
 ---
 
@@ -61,7 +56,7 @@ In Testsigma, you can create multiple projects and assign users to those project
 
 
 
-Alternatively, you can also add users from **Project Settings**. For more information, refer to [User Roles](https://testsigma.com/docs/collaboration/users-roles/). 
+Alternatively, you can also add users from **Project Settings**. For more information on managing users & roles, refer to the [documentation on managing users & roles](https://testsigma.com/docs/collaboration/users-roles/). 
 
 ---
 

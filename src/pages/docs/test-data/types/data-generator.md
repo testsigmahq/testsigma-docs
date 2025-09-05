@@ -20,9 +20,15 @@ Testsigma allows you to automatically generate test data during test execution t
 
 ---
 
-### **Prerequisites**
-
-Before using the Data Generators, you must understand specific concepts such as [Projects](https://testsigma.com/docs/projects/overview/), [Test Cases](https://testsigma.com/docs/test-cases/manage/add-edit-delete/), [Create Test Steps](https://testsigma.com/docs/test-cases/create-steps-nl/overview/) and [Test Data Types](https://testsigma.com/docs/test-data/types/overview/). Testsigma offers a collection of built-in test data generators in [Default Test Data Generators](https://testsigma.com/docs/test-data/data-generators/default-list/). Furthermore, you can [create custom test data generators](https://testsigma.com/tutorials/addons/how-create-addons-test-data-generators/) using Java.
+> <p id="prerequisites">Prerequisites</p>
+>
+> Before you begin, ensure that you have referred to:
+> 1. [Documentation on creating test cases](https://testsigma.com/docs/test-cases/manage/add-edit-delete/#create-test-case).
+> 2. [Documentation on creating projects](https://testsigma.com/docs/projects/overview/). 
+> 3. [Documentation on creating test steps](https://testsigma.com/docs/test-cases/create-steps-nl/overview/).
+> 4. [Documentation on creating test data types](https://testsigma.com/docs/test-data/types/overview/). 
+> 5. [Documentation on managing default test data generators](https://testsigma.com/docs/test-data/data-generators/default-list/). 
+> 6. [Documentation on creating custom test data generators](https://testsigma.com/tutorials/addons/how-create-addons-test-data-generators/) using Java.
 
 ---
 

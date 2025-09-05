@@ -51,7 +51,7 @@ This is possible by specifying the device name in the Desired Capabilities while
 ---
 ##**Using available Devices for emulation**
 
-You should already know how to add Desired Capabilities to your Tests. See [Desired Capabilities - Overview.](https://testsigma.com/docs/desired-capabilities/overview/)
+You should already know how to add Desired Capabilities to your Tests. Refer to the [documentation on managing desired capabilities](https://testsigma.com/docs/desired-capabilities/overview/).
 
 Select the latest version of Google Chrome for your preferred OS and enter the following values below the Desired Capabilities field:
 

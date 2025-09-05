@@ -20,11 +20,12 @@ When you want to automate, customize, and, execute your software development wor
 
 ---
 
-## **Pre-requisites:**
-You should already know:
- 1. The basics of github actions. If not, please refer here: [Quickstart with github actions](https://docs.github.com/en/actions/quickstart)
- 2. [How to generate an API key from Settings.](https://testsigma.com/docs/configuration/api-keys/)
- 2. [How to get Test Plan ID from an existing Test Plan.](https://testsigma.com/docs/continuous-integration/get-test-plan-details/)
+> <p id="prerequisites">Prerequisites</p>
+>
+> Before you begin, ensure that you have referred to:
+> 1. [Documentation on quickstarting with github actions](https://docs.github.com/en/actions/quickstart).
+> 2. [Documentation on generating an API keys](https://testsigma.com/docs/configuration/api-keys/).
+> 3. [Documentation on getting Test Plan ID](https://testsigma.com/docs/continuous-integration/get-test-plan-details/). 
 
 ---
 
@@ -49,7 +50,7 @@ As you can see we are invoking the bash script contained in the file ***run_smok
 [[info | Note:]]
 |Refer https://testsigma.com/docs/continuous-integration/shell-script/ for a shell script to run/trigger Test plans in Testsigma.
 
-Similarly, the shell script [here](https://testsigma.com/docs/continuous-integration/shell-script/) can be used to trigger a particular test plan within your Testsigma account. For that, you need to provide the ID of that Test Plan and the API Key along with other parameters. To know how to get the Test Plan ID, refer [here](https://testsigma.com/docs/continuous-integration/get-test-plan-details/) and to get the API key, refer [here](https://testsigma.com/docs/configuration/api-keys/).
+Similarly, refer to the [documentation on generic shell script](https://testsigma.com/docs/continuous-integration/shell-script/) to trigger a particular test plan within your Testsigma account. For that, you need to provide the ID of that Test Plan and the API Key along with other parameters. To know how to get the Test Plan ID, refer to the [documentation on getting test plan details](https://testsigma.com/docs/continuous-integration/get-test-plan-details/) and to get the API key, refer to the [documentation on generating API keys](https://testsigma.com/docs/configuration/api-keys/).
 The key "TESTSIGMA_API_KEY" in the script needs to be provided the API Key value and the key "TESTSIGMA_TEST_PLAN_ID" needs to be provided the test plan ID. Below is how the script looks for our example:
 
 ![test plan API key and other parameters in Testsigma](https://s3.amazonaws.com/static-docs.testsigma.com/new_images/continuous-integration/github-cicd/test-plan-api-key-testsigma.png)

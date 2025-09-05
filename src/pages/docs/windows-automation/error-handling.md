@@ -33,7 +33,7 @@ When you update the elements by uploading an updated TSRx file, you might encoun
 
 ---
 
-> ## **Prerequisites**
+> <p id="prerequisites">Prerequisites</p>
 >
 > Before you begin, ensure you have an Updated TSRx File to Import. 
 

@@ -35,13 +35,12 @@ Debugging in Testsigma helps identify and resolve errors in test cases through i
 
 ---
 
-## **Prerequisites**
-
-Before you begin debugging in Testsigma, ensure the following:
-
-- The Testsigma Agent is started and active.
-- Debugging can only be done through a Local Device.
-- If the test case uses a test data profile, only one test data profile can be selected for debugging.
+> <p id="prerequisites">Prerequisites</p>
+> 
+> Before you begin debugging in Testsigma, ensure that:
+> 1. The Testsigma Agent is started and active.
+> 2. Debugging can only be done through a Local Device.
+> 3. If the test case uses a test data profile, only one test data profile can be selected for debugging.
 
 ---
 
@@ -88,7 +87,7 @@ During test case execution, you can visually follow each step. If an error occur
 
 A common issue during test execution is the "Element Not Found" error, where an element visible on the page is still reported as not found. To debug this issue, follow these steps:
 
-- View the message for the test step. If the element is not found, click **Element** to view its properties, analyse the issue, and [update the element](https://testsigma.com/docs/elements/web-apps/create-manually/).
+- View the message for the test step. If the element is not found, click **Element** to view its properties, analyse the issue, and update the element. FOr more information on updating the elements, refer to the [documentation on updating the element](https://testsigma.com/docs/elements/web-apps/create-manually/).
 - After updating the element, click **Options** and select **Resume Execution** from the previously paused step. ![troubleshoot element not found error](https://s3.amazonaws.com/static-docs.testsigma.com/new_images/projects/applications/troubleshooting_element_error.gif)
 
 ---

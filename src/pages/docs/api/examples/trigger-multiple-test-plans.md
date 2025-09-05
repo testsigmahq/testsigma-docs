@@ -49,8 +49,8 @@ So, the Test Cases in Admin-TS become TC1, TC2, and TC-TriggerNext.
 ---
 ## **How to Trigger next Test Plan**
 
-See [how to trigger a Test Plan using REST API Calls](https://testsigma.com/docs/api/examples/trigger-test-plan-wait-completion/)
-If you would like to pass some data from Admin-TP to the Mobile-TP, you can achieve this using the [Runtime test data/parameters.](https://testsigma.com/docs/test-data/types/runtime/)
+Refer to the [documentation on triggering a Test Plan using REST API Calls](https://testsigma.com/docs/api/examples/trigger-test-plan-wait-completion/)
+If you would like to pass some data from Admin-TP to the Mobile-TP, you can achieve this using the runtime test data/parameters. For more information on using runtime test data/parameters, refer to the [documentation on using runtime test data/parameters.](https://testsigma.com/docs/test-data/types/runtime/)
 
 For example, if there’s a username that you would pass from Admin-TP to Mobile-TP, you can store the username in a runtime variable such as **admin_username** and include it in the Request Body for the Trigger Test Plan REST API Call.
 
@@ -69,7 +69,6 @@ Here’s a sample Request Body for passing runtime parameters:
 
 Once the Test Plan Mobile-TP is triggered by the REST API Step in TCTrigger, the runtime parameter ‘admin\_username’ is also passed to that Test Plan. You can use those parameters in any Test Case within Mobile-TP now.
 
-Learn more about REST APIs, refer to [Rest APIs](https://testsigma.com/docs/api/overview/)
+Learn more about REST APIs, refer to the [documentation on understanding REST APIs](https://testsigma.com/docs/api/overview/)
 
-
-
+---

@@ -40,7 +40,7 @@ With AWS Lambda, you can run code for virtually any application or backend servi
     ![function code for Testsigma integration in AWS Lambda](https://docs.testsigma.com/images/aws-labmda/testsigma-integration-function-code-aws-lambda.png)
 
 
-5. The aws-testsigma.sh should contain the below information of the [Test Plan ID](https://testsigma.com/docs/continuous-integration/get-test-plan-details/) and [API Key](https://testsigma.com/docs/configuration/api-keys/) which you need to trigger:
+5. The aws-testsigma.sh should contain the below information of the [documentation on getting test plan ID](https://testsigma.com/docs/continuous-integration/get-test-plan-details/) and [API Key](https://testsigma.com/docs/configuration/api-keys/) which you need to trigger:
  
     ```shell
     #********START USER_INPUTS ********

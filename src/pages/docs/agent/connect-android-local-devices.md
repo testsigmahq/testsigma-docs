@@ -22,9 +22,12 @@ contextual_links:
 Testsigma allows you to run tests on your local Android devices in addition to Testsigma cloud machines/devices. This article discusses how to set up Android local devices in Testsigma.
 
 ---
-## **Prerequisites**
-- You should have Testsigma agent on your local machine. For more information, refer to https://testsigma.com/docs/agent/setup-on-windows-mac-linux/.
-- Enable Developer options in your Android device. 
+
+> <p id="prerequisites">Prerequisites</p>
+> 
+> Before you begin, ensure that:
+> 1. You have referred to the [documentation on setting up Testsigma Agent](https://testsigma.com/docs/agent/setup-on-windows-mac-linux/).
+> 2. You have enabled Developer options in your Android device. 
 
 ---
 ## **Setup Instructions:**
@@ -61,7 +64,7 @@ Testsigma allows you to run tests on your local Android devices in addition to T
 
 [[info | NOTE:]]
 |For more info on executing Tests on local devices, refer to: <br/>
-|- [Dry Runs on Local Devices](https://testsigma.com/docs/runs/dry-runs-on-local-devices/) <br/>
-|- [Test Plan Local Executions](https://testsigma.com/docs/runs/test-plans-on-local-devices/)<br/>
+|- [Documentation on dry runs on local devices](https://testsigma.com/docs/runs/dry-runs-on-local-devices/). <br/>
+|- [Documentation on executing test plans on local devices](https://testsigma.com/docs/runs/test-plans-on-local-devices/).<br/>
 
 ---

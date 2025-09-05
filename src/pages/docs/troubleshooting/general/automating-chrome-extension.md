@@ -44,7 +44,7 @@ A Chrome extension improves the browser's capabilities. Add extensions from the 
 
 ## **Hybrid Mode: Local Test Execution**
 
-1. Setup and start **Testsigma Agent**. For more information, refer to [Setup Testsigma Agent](https://testsigma.com/docs/agent/setup-on-windows-mac-linux/).
+1. Setup and start **Testsigma Agent**. For more information, refer to the [documentation on setting up Testsigma Agent](https://testsigma.com/docs/agent/setup-on-windows-mac-linux/).
 
 2. Place the CRX file to your **Testsigma Agent** folder.
 

@@ -27,7 +27,7 @@ Testsigma Terminal provides complete control over test case execution and debugg
 
 ---
 
-> ## **Prerequisites**
+> <p id="prerequisites">Prerequisites</p>
 >
 > Ensure you have the following requirements:
 > 

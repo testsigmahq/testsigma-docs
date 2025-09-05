@@ -23,7 +23,7 @@ You can integrate Testsigma with Jira to generate test cases directly from your 
 
 ---
 
-> ## **Prerequisites**
+> <p id="prerequisites">Prerequisites</p>
 >
 > Before you begin, ensure you have Jira account URL, email address, and API token.
 

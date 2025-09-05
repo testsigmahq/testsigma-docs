@@ -32,19 +32,21 @@ You can also quickly jump to one of the following topics to learn about Windows 
 
 ---
 
-> ## **Prerequisites**
+> <p id="prerequisites">Prerequisites</p>
 >
-> Before you begin, ensure you have a licensed version of UFT One, [Testsigma Agent](https://testsigma.com/docs/agent/overview/) installed, and a Windows based Desktop application. 
+> Before you begin, ensure that:
+> 1. You have referred to the [documentation on installing Testsigma Agent](https://testsigma.com/docs/agent/overview/).  
+> 2. You have a Windows based Desktop application. 
 
 --- 
 
 ## **Getting Started** 
-- [Creating a Windows Project](https://testsigma.com/docs/windows-automation/project-and-application/)
-- [Agent Installation Requirements](https://testsigma.com/docs/agent/setup-on-windows-mac-linux/)
-- [Element Learning through UFT](https://testsigma.com/docs/windows-automation/object-learning/)
-- [Importing/Updating TSRx File into Testsigma](https://testsigma.com/docs/windows-automation/import-tsrx-files/)
-- [Building Test Cases for Windows Based Applications](https://testsigma.com/docs/windows-automation/test-cases/)
-- [Test Case Execution for the Windows Based Applications](https://testsigma.com/docs/windows-automation/test-cases/)
+- [Documentation on creating a Windows project](https://testsigma.com/docs/windows-automation/project-and-application/)
+- [Documentation on agent tnstallation requirements](https://testsigma.com/docs/agent/setup-on-windows-mac-linux/)
+- [Documentation on element learning through UFT](https://testsigma.com/docs/windows-automation/object-learning/)
+- [Documentation on importing/updating TSRx file into Testsigma](https://testsigma.com/docs/windows-automation/import-tsrx-files/)
+- [Documentation on building test cases for Windows based applications](https://testsigma.com/docs/windows-automation/test-cases/)
+- [Documentation on test case execution for the Windows based applications](https://testsigma.com/docs/windows-automation/test-cases/)
 - List of Technologies Supported in Testsigma
     - **Oracle**
     - **Java**

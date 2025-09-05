@@ -1,5 +1,5 @@
 /* eslint-disable react/no-danger */
-import React, { useEffect } from 'react';
+import React from 'react';
 import { graphql, Link } from 'gatsby';
 import Layout from '../../components/layout';
 import SEO from '../../components/seo';
@@ -91,16 +91,6 @@ const IndexContent = () => {
 const Index = () => {
   return (
     <Layout>
-      <SEO
-        title={`Testsigma Knowledge and Documentation Support`}
-        slug={`/docs/`}
-        canonical={`https://testsigma.com/docs/`}
-        metadesc={`Learn more about testsigma products and extend the platform from this documentation support and get answers to your common questions.`}
-        keywords={`Testsigma Docs`}
-        social_share_summary={`summary_large_image`}
-        social_share_desc={`Learn more about testsigma products and extend the platform from this documentation support and get answers to your common questions.`}
-        social_share_image={`http://localhost/testsigma-docs/src/components/images/bg-banner.svg`}
-      />
       <Header />
       <hr />
       <div className='w-full'>
@@ -121,3 +111,15 @@ const Index = () => {
 };
 
 export default Index;
+export const Head = () => (
+  <SEO
+    title={`Testsigma Knowledge and Documentation Support`}
+    slug={`/docs/`}
+    canonical={`https://testsigma.com/docs/`}
+    metadesc={`Learn more about testsigma products and extend the platform from this documentation support and get answers to your common questions.`}
+    keywords={`Testsigma Docs`}
+    social_share_summary={`summary_large_image`}
+    social_share_desc={`Learn more about testsigma products and extend the platform from this documentation support and get answers to your common questions.`}
+    social_share_image={`http://localhost/testsigma-docs/src/components/images/bg-banner.svg`}
+  />
+);

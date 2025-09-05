@@ -25,9 +25,15 @@ contextual_links:
 In Testsigma, Runtime Test Data allows you to save data gathered while running a Test Case. For example, you can utilise the Runtime Test Data Type to copy data from one page and confirm its presence on another page. The Runtime Test Data Type in Testsigma lets you dynamically store and use data during the test. You can keep this data as a runtime variable, making automated tests more flexible and adaptable.
 
 ---
-### **Prerequisites**
-
-Before using Runtime Test Data, ensure you understand specific concepts such as creating a [Project](https://testsigma.com/docs/projects/overview/), [Test Case](https://testsigma.com/docs/test-cases/manage/add-edit-delete/#creating-a-test-case), and [Elements](https://testsigma.com/docs/elements/overview/), managing [Test Steps](https://testsigma.com/docs/test-cases/step-types/natural-language/), and effectively using them with [Test Data Types](https://testsigma.com/docs/test-data/types/overview/).
+> <p id="prerequisites">Prerequisites</p>
+>
+> Before you begin, ensure that you have referred to:
+> 1. [Documentation on creating test cases](https://testsigma.com/docs/test-cases/manage/add-edit-delete/#create-test-case).
+> 2. [Documentation on creating project](https://testsigma.com/docs/projects/overview/).
+> 3. [Documentation on creating test case](https://testsigma.com/docs/test-cases/manage/add-edit-delete/#creating-a-test-case).
+> 4. [Documentation on creating elements](https://testsigma.com/docs/elements/overview/). 
+> 5. [Documentation on creating test steps](https://testsigma.com/docs/test-cases/step-types/natural-language/).
+> 6. [Documentation on creating test data types](https://testsigma.com/docs/test-data/types/overview/).
 
 ---
 
@@ -66,7 +72,7 @@ Before using Runtime Test Data, ensure you understand specific concepts such as 
   
 [[info | NOTE:]]
 | The run report will show the following error if you enter a variable name without storing a value. Always remember to store the value in a variable before using it. <br><br>
-| No data available for runtime test data variable %s. Refer previous Test Steps in this Test Case or Test Steps in other Test Cases to know the variable names saved by using store(naturalText) action Test Steps. Go to https://testsigma.com/docs/test-data/types/runtime/ to know more about runtime test data."
+| No data available for runtime test data variable %s. Refer previous Test Steps in this Test Case or Test Steps in other Test Cases to know the variable names saved by using store(naturalText) action Test Steps. For more information on runtime data type, refer to the [documentation on runtime data type](https://testsigma.com/docs/test-data/types/runtime/). 
 
 ---
 

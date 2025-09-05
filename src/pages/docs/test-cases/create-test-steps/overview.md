@@ -25,7 +25,7 @@ In Testsigma terminology, each automated action executed by the test script is a
 
 ---
 
-> ## **Prerequisites**
+> <p id="prerequisites">Prerequisites</p>
 > 
 > Before you begin, ensure you're familiar with concepts of [Features and Scenarios](https://testsigma.com/docs/test-cases/manage/features-and-scenarios/), [Test Step Types](https://testsigma.com/docs/test-cases/step-types/overview/), have installed the [Test Recorder](https://testsigma.com/docs/test-step-recorder/install-chrome-extension/), and have a Web/Android/iOS app to test. 
 

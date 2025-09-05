@@ -33,9 +33,9 @@ Elements in web applications refer to components that make up the content and st
 There are 2 different ways to create elements in Testsigma:
 
 
-1. **Manual Creation:** Here, you manually give the details of the element to create them. For more information, see [creating elements manually](https://testsigma.com/docs/elements/web-apps/create-manually/).
+1. **Manual Creation:** Here, you manually give the details of the element to create them. For more information, refer to the [documentation on creating elements manually](https://testsigma.com/docs/elements/web-apps/create-manually/).
 
-2. **Using Test Recorder:** Here, you access your application’s UI using test recorder and inspect the elements that you want to capture. For more information, see [capturing elements using test recorder](https://testsigma.com/docs/elements/web-apps/capture-single-element/).
+2. **Using Test Recorder:** Here, you access your application’s UI using test recorder and inspect the elements that you want to capture. For more information, refer to the [documentation of capturing elements using test recorder](https://testsigma.com/docs/elements/web-apps/capture-single-element/).
 
 
 ---
@@ -73,6 +73,6 @@ There are 2 different ways to create elements in Testsigma:
 
 ## **Element Review Management**
 
-Larger teams can enable **Review Management** for the elements so that the elements used in the test cases are reviewed similar to a test case before finalizing and adding to the regression test suite. Learn more about review management [here](https://testsigma.com/docs/collaboration/elements-review-management/).
+Larger teams can enable **Review Management** for the elements so that the elements used in the test cases are reviewed similar to a test case before finalizing and adding to the regression test suite. For more information about review management, refer to the [documentation on elements review management](https://testsigma.com/docs/collaboration/elements-review-management/).
 
 ---

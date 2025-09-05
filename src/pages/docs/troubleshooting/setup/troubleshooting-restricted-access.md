@@ -25,7 +25,7 @@ If you cannot access the Testsigma application due to network restrictions set b
 
 - To access the application, ensure that the following domain is whitelisted:
     - ``` *.testsigma.com ```
-- To automate secured business applications refer to [secured business application support](https://testsigma.com/docs/troubleshooting/setup/prerequisites-for-cloud-executions/). 
+- To automate secured business applications refer to the [documentation on secured business application support](https://testsigma.com/docs/troubleshooting/setup/prerequisites-for-cloud-executions/). 
 
 
 ### **2. Customer Support Portals**

@@ -30,10 +30,12 @@ With Testsigma, creating test cases for Salesforce is easy as we can leverage Me
 
 ---
 
-> ## **Prerequisites**
->
->
-> Before you begin, ensure you have a Salesforce organization set up with a [Salesforce Connected App](https://testsigma.com/docs/salesforce-testing/connected-app/) and [Salesforce Metadata](https://testsigma.com/docs/salesforce-testing/metadata-connections/) connected to Testsigma. Additionally, install the [Testsigma Chrome Extension](https://chromewebstore.google.com/detail/testsigma-recorder/epmomlhdjfgdobefcpocockpjihaabdp) on your browser.
+> <p id="prerequisites">Prerequisites</p>
+> 
+> Before you begin, ensure that you have referred to:
+> 1. [Documentation on Salesforce Connected App](https://testsigma.com/docs/salesforce-testing/connected-app/).
+> 2. [Documentation on Salesforce Metadata](https://testsigma.com/docs/salesforce-testing/metadata-connections/) connected to Testsigma.
+> 3. [Documentation on installing Testsigma Chrome Extension](https://chromewebstore.google.com/detail/testsigma-recorder/epmomlhdjfgdobefcpocockpjihaabdp) on your browser.
 
 
 ---
@@ -52,7 +54,7 @@ With Testsigma, creating test cases for Salesforce is easy as we can leverage Me
 ![Run](https://s3.amazonaws.com/static-docs.testsigma.com/new_images/projects/applications/sftcrun.png)
 
 [[info | **NOTE**:]]
-| For advanced options, refer to [test case advanced options](https://testsigma.com/docs/test-cases/manage/add-edit-delete/#test-case----advanced-options).
+| For advanced options, refer to the [documentation on configuring test case advanced options](https://testsigma.com/docs/test-cases/manage/add-edit-delete/#test-case----advanced-options).
 
 ---
 

@@ -29,9 +29,11 @@ In Salesforce, listview virtual tables have various cell properties: some cells 
 
 ---
 
-> ## **Prerequisites**
+> <p id="prerequisites">Prerequisites</p>
 > 
-> Before you begin, ensure you have a Salesforce organization setup with a [Salesforce Connected App](https://testsigma.com/docs/salesforce-testing/connected-app/) and [Salesforce Metadata](https://testsigma.com/docs/salesforce-testing/metadata-connections/) connected to Testsigma.
+> Before you begin, ensure that you have referred to:
+> 1. [Documentation on Salesforce Connected App](https://testsigma.com/docs/salesforce-testing/connected-app/).
+> 2. [Documentation on Salesforce Metadata](https://testsigma.com/docs/salesforce-testing/metadata-connections/) connected to Testsigma.
 
 ---
 

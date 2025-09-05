@@ -21,9 +21,11 @@ You can trigger tests automatically with Bitbucket integration with Testsigma. T
 
 ---
 
-## **Prerequisites**
-- Testsigma API key. For more information, see [Generate API Key](https://testsigma.com/docs/configuration/api-keys/).
-- Testsigma Test Plan ID. For more information, refer to [Get Test Plan ID](https://testsigma.com/docs/continuous-integration/get-test-plan-details/).
+> <p id="prerequisites">Prerequisites</p>
+> 
+> Before you begin, ensure that you have referred to:
+> 1. [Documentation on generating API keys](https://testsigma.com/docs/configuration/api-keys/).
+> 2. [Documentation on getting test plan ID](https://testsigma.com/docs/continuous-integration/get-test-plan-details/).
 
 ---
 

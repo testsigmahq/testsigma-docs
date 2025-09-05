@@ -26,9 +26,11 @@ The following article discusses about uploading and updating a test data profile
 
 ---
 
-> ## **Prerequisites**
+> <p id="prerequisites">Prerequisites</p>
 >
-> Before you begin, ensure you have an [API Key](https://testsigma.com/docs/configuration/api-keys/) and XLS file.
+> Before you begin, ensure that:
+> 1. You have referred to the [documentationon generating API keys](https://testsigma.com/docs/configuration/api-keys/) from Testsigma application.
+> 2. You have an XLS file.
 
 ---
 

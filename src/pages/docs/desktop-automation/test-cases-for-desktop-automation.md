@@ -26,17 +26,14 @@ Test cases for desktop applications rely on the elements captured through Testsi
 
 ---
 
-> ## **Prerequisites**
+> <p id="prerequisites">Prerequisites</p>
 > 
->  - You should know how to create a [project](https://testsigma.com/docs/projects/overview/) and [application](https://testsigma.com/docs/projects/applications/) in Testsigma.
-> 
-> - You should have the **Testsigma Terminal** installed.
-> 
-> - The **WinTest Automation** folder must exist in the **Testsigma Agent** directory. 
-> 
-> - A Windows application to test and make sure it’s open on your device. 
-> 
-> - Elements captured using **Testsigma Terminal**. 
+> Before you begin, ensure that:
+> 1. You have referred to the [documentation on creating projects](https://testsigma.com/docs/projects/overview/).
+> 2. You have referred to the [docuemntation on creating applications](https://testsigma.com/docs/projects/applications/) in Testsigma.
+> 3. You should have the **Testsigma Terminal** installed.
+> 4. The **WinTest Automation** folder must exist in the **Testsigma Agent** directory. 
+> 5. You have a Windows application to test and make sure it’s open on your device. 
 
 ---
 

@@ -20,7 +20,7 @@ Creating a Windows (Lite) application in Testsigma is simple!
 
 Go to one of your existing projects and create a new Windows (Lite) application, or create a new project and add a Windows (Lite) application to it. This article discusses creating a project and adding a Windows (Lite) application to the project in Testsigma.
 
-For more information, see [projects](https://testsigma.com/docs/projects/overview/) and [applications](https://testsigma.com/docs/projects/applications/).
+For more information, refer to the [documentation on creating projects](https://testsigma.com/docs/projects/overview/) and [documentation on creating applications](https://testsigma.com/docs/projects/applications/).
 
 ---
 

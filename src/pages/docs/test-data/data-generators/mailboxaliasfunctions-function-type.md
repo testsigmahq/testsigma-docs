@@ -50,9 +50,13 @@ MailBoxAlias Functions enable dynamic interaction with email data in testing and
 
 ---
 
-## **Prerequisites**
-
-Before utilising the different data generator functions, it's essential to understand basic concepts such as creating [Test Cases](https://testsigma.com/docs/test-cases/manage/add-edit-delete/#create-test-case) and [Test Steps](https://testsigma.com/docs/test-cases/create-test-steps/overview/) and [adding data generators](https://testsigma.com/docs/test-data/types/data-generator/#add-data-generators-in-test-steps) in test steps. Additionally, familiarize yourself with [MailBoxFunctions](https://testsigma.com/docs/test-data/types/mailbox/) for accessing and manipulating email content and metadata.
+> <p id="prerequisites">Prerequisites</p>
+>
+> Before you begin, ensure that you have referred to:
+> 1. [Documentation on creating test cases](https://testsigma.com/docs/test-cases/manage/add-edit-delete/#create-test-case).
+> 2. [Documentation on creating test steps](https://testsigma.com/docs/test-cases/create-test-steps/overview/).
+> 3. [Documentation on adding data generators](https://testsigma.com/docs/test-data/types/data-generator/#add-data-generators-in-test-steps) in test steps.
+> 4. [Documentation on creating mailboxfunctions](https://testsigma.com/docs/test-data/types/mailbox/) for accessing and manipulating email content and metadata.
 
 ---
 

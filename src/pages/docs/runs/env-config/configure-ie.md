@@ -9,7 +9,7 @@ warning: false
 
 ---
 In this article, we will cover the configurations needed for running tests in Internet Explorer on your  local machine using Testsigma Agent. If you would like a low configuration approach, try Testsigma Cloud executions where the test environment is preconfigured.
-Learn more about [Ad-hoc executions using Testsigma Labs](https://testsigma.com/docs/runs/adhoc-runs/)
+For more information on Ad-Hoc executions using Testsigma Labs, refer to the [documentation on Ad-Hoc executions using Testsigma Labs](https://testsigma.com/docs/runs/adhoc-runs/).
 
 &emsp;
 

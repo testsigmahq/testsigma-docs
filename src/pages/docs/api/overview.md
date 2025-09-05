@@ -36,7 +36,7 @@ All Testsigma API Endpoints require authentication. The user authenticates the r
 
 **“Authentication” : “Bearer <API_Key>”**
 
-To know more about generating and obtaining API Keys, see [how to generate API keys](https://testsigma.com/docs/configuration/api-keys/)
+To know more about generating and obtaining API Keys, refer to the [documentation on generating API keys](https://testsigma.com/docs/configuration/api-keys/)
 
 
 ---
@@ -132,8 +132,8 @@ Here’s a quick GIF demonstrating how to retrieve IDs of projects, applications
 
 Here are some advanced use cases for Testsigma APIs:
 
-- [Trigger Multiple Application Type Test Plans](https://testsigma.com/docs/api/examples/trigger-multiple-test-plans/)
+- [Documentation on triggering multiple application type test plans](https://testsigma.com/docs/api/examples/trigger-multiple-test-plans/)
 
-- [Trigger Test Plan remotely and wait until Completion](https://testsigma.com/docs/api/examples/trigger-test-plan-wait-completion/)
+- [Documentation on triggering test plan remotely and wait until Completion](https://testsigma.com/docs/api/examples/trigger-test-plan-wait-completion/)
 
 ---

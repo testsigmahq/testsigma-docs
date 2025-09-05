@@ -63,7 +63,7 @@ warning: false
 
 ### **8. How does the Testsigma Terminal Java agent register with Testsigma?**
 
-**Answer:** The registration process remains unchanged. Refer to [Setting Up Testsigma Agent Locally](https://testsigma.com/docs/agent/setup-on-windows-mac-linux/) for details.
+**Answer:** The registration process remains unchanged. For more information on setting up Testsigma Agent locally, refer to the [documentation on setting Up Testsigma Agent locally](https://testsigma.com/docs/agent/setup-on-windows-mac-linux/). 
 
 ---
 
@@ -219,9 +219,9 @@ warning: false
 
 
 > For instructions on installing the **Testsigma Terminal**, see:
->   - [Terminal installation for macOS](https://testsigma.com/docs/live-editor/installing-testsigma-terminal/)
->   - [Terminal installation for Windows](https://testsigma.com/docs/live-editor/installing-testsigma-terminal-on-windows/)
->   - [Terminal installation for Linux](https://testsigma.com/docs/live-editor/installing-testsigma-terminal-on-linux/)
+>   - [Documentation on installing Terminal for macOS](https://testsigma.com/docs/live-editor/installing-testsigma-terminal/).
+>   - [Documentation on installing Terminal for Windows](https://testsigma.com/docs/live-editor/installing-testsigma-terminal-on-windows/).
+>   - [Documentation on installing Terminal for Linux](https://testsigma.com/docs/live-editor/installing-testsigma-terminal-on-linux/).
 
 ---
 

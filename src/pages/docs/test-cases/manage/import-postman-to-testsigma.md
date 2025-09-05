@@ -29,9 +29,13 @@ Testsigma simplifies API test case migration by seamlessly importing Collections
 
 ---
 
-> ## **Prerequisites**
-> 
-> Before using the import of Postman Collections and Environments in Testsigma, ensure that you are familiar with exporting Postman [Collections](https://learning.postman.com/docs/getting-started/importing-and-exporting/exporting-data/#export-collections), [Environments](https://learning.postman.com/docs/getting-started/importing-and-exporting/exporting-data/#export-environments), and [Data Dumps](https://learning.postman.com/docs/getting-started/importing-and-exporting/exporting-data/#export-data-dumps) and understand the [Mapping Format](https://testsigma.com/docs/test-cases/manage/import-postman-to-testsigma/#mapping-format-for-postman-collection-and-environment) for Importing Postman Collections.
+> <p id="prerequisites">Prerequisites</p>
+>
+> Before you begin, ensure that you have referred to:
+> 1. [Documentation on exporting Postman collections](https://learning.postman.com/docs/getting-started/importing-and-exporting/exporting-data/#export-collections).
+> 2. [Documentation on exporting environments](https://learning.postman.com/docs/getting-started/importing-and-exporting/exporting-data/#export-environments).
+> 3. [Documentation on exporting data dumps](https://learning.postman.com/docs/getting-started/importing-and-exporting/exporting-data/#export-data-dumps).
+> 4. [Documentation on understanding mapping format](https://testsigma.com/docs/test-cases/manage/import-postman-to-testsigma/#mapping-format-for-postman-collection-and-environment).
 
 ---
 

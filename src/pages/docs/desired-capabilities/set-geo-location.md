@@ -22,7 +22,7 @@ contextual_links:
 
 For setting the location of the Test Environment where the Tests are run, we just need to add a pair of Desired Capabilities in the Test Environment.
 
-You should already know how to add Desired Capabilities to your Tests. See [Desired Capabilities - Overview](https://testsigma.com/docs/desired-capabilities/overview/)
+You should already know how to add Desired Capabilities to your Tests. Refer to the [documentation on configuring desired capabilities](https://testsigma.com/docs/desired-capabilities/overview/)
 
 ---
 ##**Setting Desired Capabilities in different Browsers**

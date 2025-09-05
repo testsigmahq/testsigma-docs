@@ -39,12 +39,12 @@ Debugging mobile applications on local devices with Testsigma allows you to insp
 
 ---
 
-## **Prerequisites**
-
-Before starting the debugging process, ensure the following:
-- A local mobile device with [Android](https://testsigma.com/docs/agent/connect-android-local-devices/) or [iOS](https://testsigma.com/docs/agent/connect-ios-local-devices/) applications configured with Testsigma. The Testsigma Agent is active on your local device.
-- Debugging must be performed on a local device.
-- If your test case uses a test data profile, only one test data profile can be selected for debugging.
+> <p id="prerequisites">Prerequisites</p>
+> 
+> Before starting the debugging process, ensure that:
+> 1. You have a local mobile device with Android. For more information, refer to the [documentation on Android](https://testsigma.com/docs/agent/connect-android-local-devices/) or [documentation on iOS](https://testsigma.com/docs/agent/connect-ios-local-devices/) applications configured with Testsigma. The Testsigma Agent is active on your local device.
+> Debugging must be performed on a local device.
+> If your test case uses a test data profile, only one test data profile can be selected for debugging.
 
 ---
 

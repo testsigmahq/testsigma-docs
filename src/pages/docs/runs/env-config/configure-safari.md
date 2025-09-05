@@ -19,7 +19,7 @@ contextual_links:
 ---
 
 In this article, we will explore the configurations needed for running tests in Safari on your local machine using Testsigma Agent. If you would like a low-configuration approach to do the same, try Testsigma Cloud executions, where the test environments are preconfigured.
-Learn more about [Ad-hoc executions using Testsigma Labs](https://testsigma.com/docs/runs/adhoc-runs/)
+For more information on Ad-Hoc executions using Testsigma Labs, refer to the [documentation on Ad-Hoc executions using Testsigma Labs](https://testsigma.com/docs/runs/adhoc-runs/).
 
 Safari provides native support for the WebDriver API starting with Safari 10 on OS X El Capitan. Safari now comes bundled with a new Driver implementation that’s maintained by the Web Developer Experience team at Apple, so now there is no need to install and maintain the Webdriver ourselves since that’s already included by Apple in Safari.
 

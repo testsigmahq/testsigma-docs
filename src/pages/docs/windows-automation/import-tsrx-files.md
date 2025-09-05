@@ -25,7 +25,7 @@ Once the TSRx file is ready, you can import it with just a few clicks and start 
 
 ---
 
-> ## **Prerequisites**
+> <p id="prerequisites">Prerequisites</p>
 >
 > Before you begin, ensure you have a Windows Project and a TSRx File to Import. 
 
@@ -43,7 +43,7 @@ Once the TSRx file is ready, you can import it with just a few clicks and start 
 
 [[info | **NOTE**:]]
 | - You can replace the updated elements by clicking on **Update Elements** and following the same steps as above. 
-| - After updating the elements, changes in the app structure might affect some of them, which will be highlighted with a red underline. For information on handling these errors, refer to [error handling post TSRx update](https://testsigma.com/docs/windows-automation/error-handling/).
+| - After updating the elements, changes in the app structure might affect some of them, which will be highlighted with a red underline. For information on handling these errors, refer to the [documentation on error handling post TSRx update](https://testsigma.com/docs/windows-automation/error-handling/).
 
 Here's a quick GIF demonstrating how to import elements for Windows application.
 

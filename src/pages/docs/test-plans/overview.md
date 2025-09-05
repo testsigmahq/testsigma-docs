@@ -32,9 +32,12 @@ In Testsigma, the Test Plan helps plan and organise software testing. The Test P
 
 ---
 
-> ## **Prerequisites**
+> <p id="prerequisites">Prerequisites</p>
 >
-> Before using a Test Plan, you must understand specific concepts, such as creating [Projects](https://testsigma.com/docs/projects/overview/), [Test Cases](https://testsigma.com/docs/test-cases/manage/add-edit-delete/) and [Test Suites](https://testsigma.com/docs/test-management/test-suites/overview/).
+> Before you begin, ensure that you have referred to:
+> 1. [Documentation on creating projects](https://testsigma.com/docs/projects/overview/).
+> 2. [Documentation on creating test cases](https://testsigma.com/docs/test-cases/manage/add-edit-delete/).
+> 3. [Documentation on creating test suites](https://testsigma.com/docs/test-management/test-suites/overview/).
 
 ---
 
@@ -57,10 +60,10 @@ In Testsigma, the Test Plan helps plan and organise software testing. The Test P
     - **Labels**: You can label the Test Plan. Labels make it easier to manage multiple Test Plans, as they help with sorting and grouping.
     - **Test Plan Type**: Select either the test plan type: **Cross Browser Testing** (Use single/ multiple browsers to test all the test suites; for more information, refer to [Cross Browser Testing](https://testsigma.com/docs/test-management/test-plans/cross-browser-testing/)) or **Custom Test Plan** (Manually add test machine profiles to individual test suites).
 3. In the **Add Test Suites & Link Machine Profiles** tab, provide the following details and then click **Continue**:
-    - Click **Add Test Suites** to include test suites in the test plan (for more information, refer to [Manage Test Suites in Test Plan](https://testsigma.com/docs/test-management/test-plans/manage-test-suites/)).
+    - Click **Add Test Suites** to include test suites in the test plan (for more information on managing test suites in a test plan, refer to the [documentation on Manage Test Suites in Test Plan](https://testsigma.com/docs/test-management/test-plans/manage-test-suites/)).
     - Next, click the **Test Machine** icon to add machine profiles to the test plan. An overlay will appear, and you can select a pre-defined machine or create a new test machine. Once you have selected, click **Save Selection** (for more information, refer to [Manage Test Machines in Test Plan](https://testsigma.com/docs/test-management/test-plans/manage-test-machines/)).
 4. In the **Test Plan Settings** tab, provide the following details, and click **Create**:
-    - **Send Notification**: Enable the toggle for Send Notification and specify when to receive the notifications (for example, select to receive notifications when your test plans are **Passed**, **Failed**, **Not Executed**, **Queued**, **Stopped**, or **Running**. You can enter the emails or check the box to **Add my email** for receiving notifications through email. Messages can also be sent to collaboration tools like Google Chat, Slack, or MS Teams.
+    - **Send Notification**: Enable the toggle for Send Notification and specify when to receive the notifications (for example, select to receive notifications when your test plans are **Passed**, **Failed**, **Not Executed**, **Queued**, **Stopped**, or **Running**.) You can enter the emails or check the box to **Add my email** for receiving notifications through email. Messages can also be sent to collaboration tools like Google Chat, Slack, or MS Teams.
     - **Additional Settings**: Provide the following details under additional settings:
         - **Environment**: Select the test environment.
         - **Screenshot Capture**: Select when the screenshots need to be taken, for **None**, **All Steps** or **Failed Steps alone**.

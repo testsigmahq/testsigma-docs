@@ -50,12 +50,11 @@ In Testsigma, you can customize recorded test steps within a test case using tes
 
 ---
 
-> ## **Prerequisites:**
+> <p id="prerequisites">Prerequisites</p>
 >
-> - You should have [Testsigma's step test recorder](https://testsigma.com/docs/test-step-recorder/install-chrome-extension/) installed. 
-> 
->
-> - You should know how to create **test steps** and [manage a test case](https://testsigma.com/docs/test-cases/manage/add-edit-delete/).
+> Before you begin, ensure that:
+> 1. You have installed the Testsigma's test step recorder. For more information on installing Testsigma's test step recorder, refer to the [documentation on installing Testsigma's step test recorder](https://testsigma.com/docs/test-step-recorder/install-chrome-extension/).
+> 2. You have referred to the [documentation on creating a test case](https://testsigma.com/docs/test-cases/manage/add-edit-delete/).
 
 ---
 
@@ -85,7 +84,7 @@ You can click on any element on any test step to access these options.
 
 ![Edit Element](https://s3.amazonaws.com/static-docs.testsigma.com/new_images/projects/applications/aaopnelemopns.png)
 
-For more information, refer to [elements](https://testsigma.com/docs/elements/overview/) section. 
+For more information on creating elements, refer to the [documentation on creating elements](https://testsigma.com/docs/elements/overview/). 
 
 
 ---
@@ -123,7 +122,7 @@ You can check details of a test step by clicking on the option **Step Settings**
 ![Step Details](https://s3.amazonaws.com/static-docs.testsigma.com/new_images/projects/applications/step_details_actions_options.png)
 
 
-For more information, refer to [test step settings](https://testsigma.com/docs/test-cases/create-test-steps/actions-and-options-recorder/step-settings/).
+For more information on configuring test step settings, refer to the [documentation on configuring test step settings](https://testsigma.com/docs/test-cases/create-test-steps/actions-and-options-recorder/step-settings/).
 
 
 ---

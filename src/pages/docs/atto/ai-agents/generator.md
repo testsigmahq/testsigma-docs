@@ -26,7 +26,7 @@ The Generator Agent in Testsigma allows you to quickly generate and automate tes
 
 ---
 
-> ## **Prerequisites**
+> <p id="prerequisites">Prerequisites</p>
 >
 > Before you begin, ensure **Testsigma Terminal** is installed and the **Live Editor** is ready.
 

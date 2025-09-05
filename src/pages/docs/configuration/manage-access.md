@@ -35,7 +35,7 @@ Admin in the Testsigma account can grant temporary access to the Testsigma Suppo
 
 ---
 
-> ## **Prerequisites**
+> <p id="prerequisites">Prerequisites</p>
 > 
 > Before you begin, ensure you have **Admin** access to your Testsigma account.
 

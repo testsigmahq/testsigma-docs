@@ -26,7 +26,7 @@ The Bug Reporter Agent in Testsigma streamlines bug reporting by allowing users 
 
 ---
 
-> ## **Prerequisites**
+> <p id="prerequisites">Prerequisites</p>
 > 
 > Before you begin, ensure the Analyzer Agent has reviewed at least one failed test step and a bug tracking tool is integrated with Testsigma.
 

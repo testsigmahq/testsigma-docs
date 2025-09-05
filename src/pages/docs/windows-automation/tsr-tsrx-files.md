@@ -20,7 +20,7 @@ As discussed earlier, Testsigma only allows TSRx file for import!
 
 Once you have a TSR file captured from UFT One, you must convert it to TSRx file using the **OR2AppModelConverter.exe** utility. This article quickly discusses converting TSR files to TSRx files. 
 
-ℹ️ For more information, refer to [object model](https://admhelp.microfocus.com/uft/en/23.4-24.2/UFT_Help/Content/User_Guide/z_Ch_TestObjModel.htm) and [object spy](https://admhelp.microfocus.com/uft/en/23.4-24.2/UFT_Help/Content/User_Guide/Spy.htm). 
+ℹ️ For more information, refer to the [object model](https://admhelp.microfocus.com/uft/en/23.4-24.2/UFT_Help/Content/User_Guide/z_Ch_TestObjModel.htm) and [object spy](https://admhelp.microfocus.com/uft/en/23.4-24.2/UFT_Help/Content/User_Guide/Spy.htm). 
 
 ---
 

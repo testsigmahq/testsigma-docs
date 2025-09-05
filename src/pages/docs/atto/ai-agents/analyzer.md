@@ -26,7 +26,7 @@ The Analyzer Agent in Testsigma is your intelligent assistant that autonomously 
 
 ---
 
-> ## **Prerequisites**
+> <p id="prerequisites">Prerequisites</p>
 > 
 > Before you begin, ensure that test plans have been executed and at least one test case includes failed steps.
 

@@ -38,7 +38,7 @@ contextual_links:
 
 ---
 
-If  the Agent is not starting, or is starting and terminating immediately, see the Agent logs for details.  *For more information refer to, [fetching Agent logs](https://testsigma.com/docs/agent/troubleshooting/logs/)*. If you need some help understanding the error from the logs, reach out to [support](mailto:support@testsigma.com).<br>
+If  the Agent is not starting, or is starting and terminating immediately, see the Agent logs for details.  *For more information refer to the [documentation on fetching Agent logs](https://testsigma.com/docs/agent/troubleshooting/logs/)*. If you need some help understanding the error from the logs, reach out to [support](mailto:support@testsigma.com).<br>
 The below sections discusses common errors and troubleshooting suggestions:
 <br>
 
@@ -132,9 +132,9 @@ This error on the Agent logs will also help you understand there is a firewall b
 ```
 
 javax.net.ssl.SSLHandshakeException: sun.security.validator.ValidatorException: PKIX path building failed:  
-sun.security.provider.certpath.SunCertPathBuilderException: unable to find valid certification path to requested      target
+sun.security.provider.certpath.SunCertPathBuilderException: unable to find valid certification path to requested target
 at java.base/sun.security.ssl.Alerts.getSSLException(Alerts.java:198)
-at java.base/sun.security.ssl.SSLSocketImpl.fatal(SSLSocketImpl.java:196
+at java.base/sun.security.ssl.SSLSocketImpl.fatal(SSLSocketImpl.java:196)
 
 ```
 
@@ -169,9 +169,9 @@ Follow the below steps to fix the issue.
 
 1. Refresh the Testsigma app.
 2. Restart the Agent.
-3. If the Agent is not updated, update the Agent. *For more information, refer to [update Agents](https://testsigma.com/docs/agent/update-agent-manually/)*.
+3. If the Agent is not updated, update the Agent. *For more information, refer to the [documentation on updating Agents](https://testsigma.com/docs/agent/update-agent-manually/)*.
 
-If the above troubleshooting steps does not resolve the issue, contact Testsigma support at [support@testsigma.com](mailto:support@testsigma.com) with the Agent logs files. *For more information on how to fetch agent logs refer to, [agent logs](https://testsigma.com/docs/agent/troubleshooting/logs/)*.
+If the above troubleshooting steps does not resolve the issue, contact Testsigma support at [support@testsigma.com](mailto:support@testsigma.com) with the Agent logs files. *For more information on how to fetch agent logs refer to the [documentation on torubleshooting agent logs](https://testsigma.com/docs/agent/troubleshooting/logs/)*.
 
 
 --- 

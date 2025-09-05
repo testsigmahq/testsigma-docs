@@ -32,9 +32,12 @@ Distributed testing is achieved in Testsigma by splitting up test plan execution
 ---
 
 
-> ## **Prerequisites**
+> <p id="prerequisites">Prerequisites</p>
 >
-> Before you proceed, ensure you understand the concepts of creating a [Test Plan](https://testsigma.com/docs/test-management/test-plans/overview/), [Test Suite](https://testsigma.com/docs/test-management/test-suites/overview/), and [Test Machine](https://testsigma.com/docs/test-management/test-plans/manage-test-machines/).
+> Before you begin, ensure that you have referred to: 
+> 1. [Documentation on creating test plans](https://testsigma.com/docs/test-management/test-plans/overview/).
+> 2. [Documentation on creating test suites](https://testsigma.com/docs/test-management/test-suites/overview/).
+> 3. [Documentation on creating test machine](https://testsigma.com/docs/test-management/test-plans/manage-test-machines/).
 
 ---
 

@@ -39,7 +39,7 @@ You can use the Azure Active Directory Admin Center to enable single sign-on (SS
 
 ---
 
-> ## **Prerequisites**
+> <p id="prerequisites">Prerequisites</p>
 > 
 > Before you begin, ensure you have an **Azure Account** with **Active Directory** enabled and admin access to the Azure account.
 

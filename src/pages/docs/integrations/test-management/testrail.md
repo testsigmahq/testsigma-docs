@@ -36,10 +36,12 @@ You can integrate Testsigma with TestRail to streamline test management and trac
 
 ---
 
-> ## **Prerequisites**
+> <p id="prerequisites">Prerequisites</p>
 > 
-> Before you begin, ensure you have a valid **Host URL**, **Username**, and **Password** from TestRail. Also, make sure you know how to create [Test Cases](https://testsigma.com/docs/test-cases/manage/add-edit-delete/) and [Test Plans](https://testsigma.com/docs/test-management/test-plans/overview/) in Testsigma.
-
+> Before you begin, ensure that: 
+> 1. You have a valid **Host URL**, **Username**, and **Password** from TestRail.
+> 2. You have referred to the [documentation on creating test cases](https://testsigma.com/docs/test-cases/manage/add-edit-delete/).
+> 3. You have referred to the [documentation on creating test plans](https://testsigma.com/docs/test-management/test-plans/overview/).
 
 ---
 

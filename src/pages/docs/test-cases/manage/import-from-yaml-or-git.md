@@ -23,7 +23,7 @@ You will understand how to import projects from Test Project using YAML/GIT and 
 
 ---
 
-> ## **Prerequisites**
+> <p id="prerequisites">Prerequisites</p>
 >
 > Before using the import from Test Project in Testsigma, ensure that you are familiar with exporting the Test Project file as a YAML/Zip of the project or a GitHub repository for your project.
 

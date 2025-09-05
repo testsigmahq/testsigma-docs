@@ -17,7 +17,7 @@ contextual_links:
 ---
 
 ---
-You should already know about Testsigma Agent and its usage. If not, refer to [Testsigma Agent - Overview](https://testsigma.com/docs/agent/overview/).
+You should already know about Testsigma Agent and its usage. If not, refer to the [documentation on Testsigma Agent](https://testsigma.com/docs/agent/overview/).
 
 Testsigma Agent includes an automatic update feature. However, in case the auto-update fails due to bad network conditions or incorrect configuration, you can update the Agent manually.
 
@@ -68,7 +68,7 @@ For example, **cd /Users/< username >/TestsigmaAgent**
 **./start.sh**
 
 [[info | NOTE:]]
-|If you are facing any challenges connecting Testsigma Agent after updating, try deleting completely. [Refer to this doc to delete forcefully](https://testsigma.com/docs/agent/force-delete/).
+|If you are facing any challenges connecting Testsigma Agent after updating, try deleting completely. For more information on deleting the Testsigma Agent forcefully, refer to the [documentation on deleting the Testsigma Agent forcefully](https://testsigma.com/docs/agent/force-delete/).
 
 
 

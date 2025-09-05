@@ -77,7 +77,7 @@ Below are the four roles that can be assigned to a project member in Testsigma:
 
 
 [[info | **NOTE**:]]
-| You can only add users as **Test Manager**, **Test Lead**, and **Automation Engineer/Developer**. To assign **Super Admin** roles, refer to [Assign Projects](https://testsigma.com/docs/collaboration/assign-projects/).
+| You can only add users as **Test Manager**, **Test Lead**, and **Automation Engineer/Developer**. To assign **Super Admin** roles, refer to the [documentation on assigning projects](https://testsigma.com/docs/collaboration/assign-projects/).
 
 The invited user should receive an invitation email. They will need to join via the link sent in the email. Once they have joined they should be able to work on the project according to the role assigned to them.
 

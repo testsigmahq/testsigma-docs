@@ -63,7 +63,7 @@ Any element on the page can be located using multiple XPath definitions and most
 
 XPath for the Email field in the above image is **//input[@id="email"]**
 
-*Learn how to create [Dynamic Element locators](https://testsigma.com/docs/elements/dynamic-elements/with-parameter-test-data/) using Xpath and CSS Locators.*
+*For more information on dynamic element locators, refer to the [documentation on dynamic element locators](https://testsigma.com/docs/elements/dynamic-elements/with-parameter-test-data/) using Xpath and CSS Locators.*
 
 
 ---

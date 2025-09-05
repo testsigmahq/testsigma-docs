@@ -111,17 +111,6 @@ export default ({ data, pageContext }) => {
 
   return (
     <Layout>
-      <SEO
-        title={post.frontmatter.page_title || post.frontmatter.title}
-        slug={post.fields.slug}
-        canonical={post.frontmatter.canonical}
-        metadesc={post.frontmatter.metadesc}
-        keywords={post.frontmatter.keywords}
-        social_share_summary={post.frontmatter.social_share_summary}
-        social_share_desc={post.frontmatter.social_share_desc}
-        social_share_image={post.frontmatter.social_share_image}
-        noindex={post.frontmatter.noindex || false}
-      />
       <Header />
       <hr />
       {/*<SubNav></SubNav>*/}
@@ -246,3 +235,19 @@ export const query = graphql`
   }
 `;
 /* eslint-enaable */
+export const Head = ({ data }) => {
+  const post = data.markdownRemark;
+  return (
+    <SEO
+      title={post.frontmatter.page_title || post.frontmatter.title}
+      slug={post.fields.slug}
+      canonical={post.frontmatter.canonical}
+      metadesc={post.frontmatter.metadesc}
+      keywords={post.frontmatter.keywords}
+      social_share_summary={post.frontmatter.social_share_summary}
+      social_share_desc={post.frontmatter.social_share_desc}
+      social_share_image={post.frontmatter.social_share_image}
+      noindex={post.frontmatter.noindex || false}
+    />
+  );
+};

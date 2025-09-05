@@ -28,21 +28,21 @@ Salesforce is a cloud-based Customer Relationship Management (CRM) platform that
 
 ## **Setup**
 
-- For setup, refer to [Creating a Connected App](https://testsigma.com/docs/salesforce-testing/connected-app/) and [Configuring Metadata Connection](https://testsigma.com/docs/salesforce-testing/metadata-connections/).
+- For setup, refer to the [documentation on creating a connected app](https://testsigma.com/docs/salesforce-testing/connected-app/) and [documentation on configuring Metadata Connection](https://testsigma.com/docs/salesforce-testing/metadata-connections/).
 
 ---
 
 ## **Getting Started**
 
-- [Creating Salesforce Projects](https://testsigma.com/docs/salesforce-testing/create-sf-project/)
+- [Documentation on creating Salesforce projects](https://testsigma.com/docs/salesforce-testing/create-sf-project/)
 
-- [Adding User Connections](https://testsigma.com/docs/salesforce-testing/user-connections/)
+- [Documentation on adding user connections](https://testsigma.com/docs/salesforce-testing/user-connections/)
 
-- [Build Test Cases (Manual+Live)](https://testsigma.com/docs/salesforce-testing/sf-test-cases/)
+- [Documentation on building test cases (Manual+Live)](https://testsigma.com/docs/salesforce-testing/sf-test-cases/)
 
-- [Element Repositories](https://testsigma.com/docs/salesforce-testing/element-repos/)
+- [Documentation on element repositories](https://testsigma.com/docs/salesforce-testing/element-repos/)
 
-- [List of Special NLPs](https://testsigma.com/docs/salesforce-testing/special-nlps/)
+- [Documentation on list of special NLPs](https://testsigma.com/docs/salesforce-testing/special-nlps/)
 
 ---
 

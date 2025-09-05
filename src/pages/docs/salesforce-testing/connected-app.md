@@ -29,7 +29,7 @@ Creating a connected app is important to link external applications and the Sale
 
 ---
 
-> ## **Prerequisites**
+> <p id="prerequisites">Prerequisites</p>
 >
 > Before you begin, ensure you have a Salesforce organization setup. 
 
@@ -76,7 +76,7 @@ Creating a connected app is important to link external applications and the Sale
 | - Please wait for 10 - 15 minutes after creating the app, before trying to establish a connection.
 | - A connected app is limited to only a few approvals. The system can revoke the oldest approval when the limit exceeds automatically. As a best practice, you can create a different connected app for each new application connection/connection.
 | - Some Salesforce editions do not have API access. Generally, these editions are not used in development or production environments, and it is not possible to create connections within them. <br> <br>
-| For more information on these editions, refer to [Salesforce editions with API access](https://help.salesforce.com/s/articleView?id=000385436&type=1). 
+| For more information on these editions, refer to the [Salesforce editions with API access](https://help.salesforce.com/s/articleView?id=000385436&type=1). 
 
 ---
 
@@ -98,7 +98,7 @@ Creating a connected app is important to link external applications and the Sale
 
 <br>
 
-> Refer to this [Salesforce troubleshooting](https://testsigma.com/docs/troubleshooting/salesforce-testing/most-common-issues/) guide for the most common issues while creating a connected app.
+> Refer to the [documentation on Salesforce troubleshooting](https://testsigma.com/docs/troubleshooting/salesforce-testing/most-common-issues/) guide for the most common issues while creating a connected app.
 
 
 ---

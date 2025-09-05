@@ -29,8 +29,7 @@ Testsigma allows you to integrate your preferred LLMs using your own API keys (B
 
 ---
 
-> ## **Prerequisites**
->
+> <p id="prerequisites">Prerequisites</p>
 >
 > Before you begin, ensure you have the valid API keys and necessary details for your preferred LLM provider.
 

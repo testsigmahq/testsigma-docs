@@ -10,8 +10,8 @@ contextual_links:
 - type: section
   name: "Contents"
 - type: link
-  name: "Pre-Requisite"
-  url: "#pre-requisites"
+  name: "Prerequisite"
+  url: "#prerequisites"
 - type: link
   name: "Pre-Requisite Software and Service Installation"
   url: "#pre-requisite-software-and-service-installation"
@@ -28,9 +28,11 @@ contextual_links:
 
 ---
 
-## **Pre-Requisite:**
-- **OS:** Microsoft Windows
-- **IDE:** Intellij IDE Editor - Ultimate Edition
+> <p id="prerequisites">Prerequisites</p>
+> 
+> Before you begin, ensure that you have:
+> 1. **OS:** Microsoft Windows
+> 2. **IDE:** Intellij IDE Editor - Ultimate Edition
 
 <br>
 

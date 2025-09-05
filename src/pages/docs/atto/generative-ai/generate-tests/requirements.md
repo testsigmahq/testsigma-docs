@@ -36,7 +36,7 @@ Testsigma allows you to generate test cases from requirements using Generative A
 
 ---
 
-> ## **Prerequisites**
+> <p id="prerequisites">Prerequisites</p>
 > 
 > Before you begin, enable **AI Features** from **Settings > Preferences > Generative AI features** and ensure have necessary integrations with Testsigma.
 

@@ -19,6 +19,6 @@ You can create an object repository (TSR) file for any Window based application 
 ℹ️ For more information on how to capture Window based objects, refer to [object model](https://admhelp.microfocus.com/uft/en/23.4-24.2/UFT_Help/Content/User_Guide/z_Ch_TestObjModel.htm) and [object spy](https://admhelp.microfocus.com/uft/en/23.4-24.2/UFT_Help/Content/User_Guide/Spy.htm). 
 
 
-You can also quickly jump [here](https://testsigma.com/docs/windows-automation/tsr-tsrx-files/) to learn how to convert TSR to TSRx!
+For more information on converting TSR to TSX, refer to the [documentation on converting TSR to TSX](https://testsigma.com/docs/windows-automation/tsr-tsrx-files/) to learn how to convert TSR to TSRx!
 
 ---

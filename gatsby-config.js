@@ -33,16 +33,18 @@ module.exports = {
       options: {
         plugins: [
           {
-            resolve: 'gatsby-remark-custom-blocks',
+            resolve: `gatsby-remark-custom-blocks`,
             options: {
               blocks: {
                 danger: {
                   classes: 'alert alert-danger',
                   title: 'optional',
+                  details: true,
                 },
                 info: {
                   classes: 'alert alert-info',
                   title: 'optional',
+                  // details: true,
                 },
               },
             },

@@ -43,7 +43,7 @@ contextual_links:
 - **Preferred OS:** Ubuntu or RHEL 9.x
 
 [[info | **NOTE**:]]
-| If not using Ubuntu, RHEL 9.x is recommended. RHEL 8 is also supported. Refer to the [Docker installation guide](https://docs.docker.com/engine/install/rhel/) for RHEL for detailed instructions.
+| If not using Ubuntu, RHEL 9.x is recommended. RHEL 8 is also supported. For more information on installing Docker, refer to the [documentation on installing Docker](https://docs.docker.com/engine/install/rhel/) for RHEL for detailed instructions.
 
 **2. Machine Specifications:**
 - CPU: 16 Core
@@ -67,6 +67,6 @@ Note: Testsigma provides a MySQL Docker container. If opting for a hosted MySQL,
     - For accurate storage & memory needs, consult with the vendor to confirm the memory and number of vCPUs.
 
 
-For more information, refer to [Prerequisites & Machine Configurations](https://testsigma.com/docs/on-premise-setup/pre-installation/prerequisites-and-machine-configurations/).
+For more information on prerequisites and machine configurations, refer to the [documentation on prerequisites & machine configurations](https://testsigma.com/docs/on-premise-setup/pre-installation/prerequisites-and-machine-configurations/).
 
 ---

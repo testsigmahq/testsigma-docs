@@ -35,11 +35,13 @@ contextual_links:
 
 ---
 
-> ## [Prerequisite](#zip-prerequisite)
->   1. Download the testsigma_opensource latest build [click here](https://testsigma.com/docs/getting-started/setup/downloadable-package/)
->   2. Run nginx server
->   3. Run testsigma server
->   4. Register with username and password
+> <p id="prerequisites">Prerequisites</p>
+>
+> Before you begin, ensure that you have referred to:
+>  1. Download the testsigma_opensource latest build. For more infromation, refer to the [documentation on downloading package](https://testsigma.com/docs/getting-started/setup/downloadable-package/).
+>  2. Run nginx server
+>  3. Run testsigma server
+>  4. Register with username and password
 
 ---
 

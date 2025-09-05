@@ -59,7 +59,7 @@ Familiarise yourself with these key terms before proceeding:
 
 ---
 
-> ## **Prerequisites**
+> <p id="prerequisites">Prerequisites</p>
 >
 > Before you begin, ensure you have an active Okta account.
 

@@ -23,7 +23,7 @@ Testsigma supports integration with OpenAI, enabling you to map various features
 
 ---
 
-> ## **Prerequisites**
+> <p id="prerequisites">Prerequisites</p>
 > 
 > Before you begin, ensure you have an active **OpenAI** account.
 

@@ -24,9 +24,12 @@ Create environment test data in Testsigma to ensure effective and accurate testi
 
 ---
 
-### **Prerequisites**
-
-Before creating environment test data, you must understand specific concepts, such as creating [Projects](https://testsigma.com/docs/projects/overview/) and effectively using them with [Test Data Types](https://testsigma.com/docs/test-data/types/overview/) and [Environments](https://testsigma.com/docs/test-data/types/environment/).
+> <p id="prerequisites">Prerequisites</p>
+>
+> Before you begin, ensure that you have referred to:
+> 1. [Documentation on creating projects](https://testsigma.com/docs/projects/overview/).
+> 2. [Documentation on creating test data types](https://testsigma.com/docs/test-data/types/overview/).
+> 3. [Documentation on creating environments](https://testsigma.com/docs/test-data/types/environment/).
 
 ---
 

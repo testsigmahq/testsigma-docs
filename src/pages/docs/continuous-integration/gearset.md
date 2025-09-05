@@ -22,9 +22,12 @@ Testsigma Gearset integration allows you to trigger test plan execution every ti
 
 ---
 
-> ## **Prerequisites**
+> <p id="prerequisites">Prerequisites</p>
 > 
-> Before you begin, ensure you are familiar with the concepts of [Test Cases](https://testsigma.com/docs/test-cases/manage/add-edit-delete/) for Salesforce, [Test Plans](https://testsigma.com/docs/test-management/test-plans/overview/) for Salesforce, and [Generating API Keys](https://testsigma.com/docs/configuration/api-keys/#steps-to-generate-api-key) in Testsigma.
+> Before you begin, ensure that you have referred to:
+> 1. [Documentation on creating test cases](https://testsigma.com/docs/test-cases/manage/add-edit-delete/).
+> 2. [Documentation on creating test plans](https://testsigma.com/docs/test-management/test-plans/overview/).
+> 3. [Documentation on creating generating API keys](https://testsigma.com/docs/configuration/api-keys/#steps-to-generate-api-key). 
 
 ---
 

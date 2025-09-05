@@ -23,7 +23,7 @@ Testsigma’s Gen AI capabilities help you streamline test case creation for Des
 
 ---
 
-> ## **Prerequisites**
+> <p id="prerequisites">Prerequisites</p>
 >
 > Before you begin, ensure your Jira and Figma accounts are integrated with Testsigma and you have the necessary files ready for input.
 

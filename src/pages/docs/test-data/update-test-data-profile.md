@@ -20,7 +20,7 @@ contextual_links:
 ---
 
 
-The following article discusses about updating an existing test data profile. *For more information on creating a test data profile refer to, [create a test data profile](https://testsigma.com/docs/test-data/create-data-profiles/)*.
+The following article discusses about updating an existing test data profile. *For more information on creating a test data profile refer to the [documentation on creating a test data profile](https://testsigma.com/docs/test-data/create-data-profiles/)*.
 
 
 [[info | **NOTE**:]]
@@ -29,10 +29,10 @@ The following article discusses about updating an existing test data profile. *F
 
 ---
 
-## **Prerequisites**
-
-- You should know how to [create a test data profile](https://testsigma.com/docs/test-data/create-data-profiles/).
-   
+> <p id="prerequisites">Prerequisites</p>
+>
+> Before you begin, ensure that: 
+> 1. You have referred to the [documentation on creating test data profiles](https://testsigma.com/docs/test-data/create-data-profiles/).   
 
 ---
 

@@ -29,7 +29,7 @@ You can quickly generate test cases for Salesforce requirements in Testsigma usi
 
 ---
 
-> ## **Prerequisites**
+> <p id="prerequisites">Prerequisites</p>
 > 
 > Before you begin, ensure your Salesforce instance contains active Flows or Workflows and is connected to Testsigma.
 

@@ -24,9 +24,10 @@ Quickly view the run results of a test plan by applying filters | Learn how to a
 
 ---
 
-> ## **Prerequisites**
+> <p id="prerequisites">Prerequisites</p>
 >
-> Before you begin, make sure you have created and executed a [test plan](https://testsigma.com/docs/test-management/test-plans/overview/).
+> Before you begin, ensure that you have referred to:
+> 1. [Documentation on creating test plan](https://testsigma.com/docs/test-management/test-plans/overview/).
 
 
 ---
@@ -58,7 +59,7 @@ Here's a quick GIF demonstrating how to apply filters on the run results Page.
 
    ![Applying Filters](https://s3.amazonaws.com/static-docs.testsigma.com/new_images/projects/applications/Filters_On_RunResults.gif)
 
-*For more information on viewing and downloading results of a test plan on test case, test suite or test machine levels, see [Test Plan Run Results](https://testsigma.com/docs/reports/runs/drill-down-reports/).*
+*For more information on viewing and downloading results of a test plan on test case, test suite or test machine levels, refer to the [documentation on test plan run results](https://testsigma.com/docs/reports/runs/drill-down-reports/).*
 
 
 

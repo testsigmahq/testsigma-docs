@@ -10,6 +10,9 @@ contextual_links:
 - type: section
   name: "Contents"
 - type: link
+  name: "Prerequisites"
+  url: "#prerequisites"
+- type: link
   name: "Configure Partial Test Plan Run"
   url: "#configure-partial-test-plan-run"
 - type: link
@@ -28,10 +31,14 @@ contextual_links:
 
 Performing a partial run in a test plan via an API call in Testsigma enables you to execute specific test suites and apply filters programmatically, providing flexibility and automation in your testing workflow. This documentation will guide you through configuring a partial test plan run, executing it via an API call, and scheduling the partial run for future execution.
 
-Ensure you fulfil the following prerequisites before proceeding with the steps:
-- Create a [Test Plan](https://testsigma.com/docs/test-management/test-plans/overview/) 
-- Obtain an [API key for Authorization](https://testsigma.com/docs/configuration/api-keys/) 
-- [Get Test Plan ID](https://testsigma.com/docs/continuous-integration/get-test-plan-details/)
+---
+
+> <p id="prerequisites">Prerequisites</p>
+>
+> Before you begin, ensure that you have referred to:
+> 1. [Documentation on creating test plans](https://testsigma.com/docs/test-management/test-plans/overview/). 
+> 2. [Documentation on creating API key for authorization](https://testsigma.com/docs/configuration/api-keys/). 
+> 3. [Documentation on getting test plan ID](https://testsigma.com/docs/continuous-integration/get-test-plan-details/).
 
 ---
 

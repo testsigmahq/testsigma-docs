@@ -80,7 +80,7 @@ With Testsigma, you can organize your test cases based on **Requirements**. You 
 
 [[info | **NOTE**:]]
 | 1. You need to unlink all the test cases associated with the requirement type by clicking on the View Test Case link and change the requirement type to any other available requirement type. 
-| 2. Alternatively, you can also unlink test cases associated with the test case type from the edit test case page. For more information, refer to [edit test cases](https://testsigma.com/docs/test-cases/manage/add-edit-delete/#edit-test-case). 
+| 2. Alternatively, you can also unlink test cases associated with the test case type from the edit test case page. For more information on editing test cases, refer to the [documentation on editing test cases](https://testsigma.com/docs/test-cases/manage/add-edit-delete/#edit-test-case). 
 
 Here's a quick GIF demonstrating how to add, edit and delete a requirement type in Testsigma.
 ![Requirement Type WF](https://s3.amazonaws.com/static-docs.testsigma.com/new_images/projects/applications/Requirement_type.gif)

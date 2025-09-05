@@ -22,11 +22,11 @@ Sometimes, while capturing elements from your website, you would want to exclude
 
 ---
 
-## **Prerequisites**
-
-1. You should have Chrome Extension Installed.
-   
-2. You should know how to create test steps using recorder.
+> <p id="prerequisites">Prerequisites</p>
+>
+> Before you begin, ensure that:
+> 1. You have installed the Testsigma Chrome Extension. For more information on installing Testsigma Chrome Extension, refer to the [documentation on Testsigma Chrome Extension](https://testsigma.com/docs/test-step-recorder/install-chrome-extension/). 
+> 2. You have referred to the [documentation on creating test steps](https://testsigma.com/docs/test-cases/create-test-steps/overview/).
 
 ---
 

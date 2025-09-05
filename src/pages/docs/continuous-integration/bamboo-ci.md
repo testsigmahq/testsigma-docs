@@ -22,9 +22,10 @@ Bamboo is a continuous integration and delivery tool that ties automated builds,
  
 ---
 
-## **Prerequisites**
-
-- You need Testsigma Test Plan Run - Bamboo Plugin. You can install the **Testsigma Test Plan Run** plugin from the Bamboo Plugins page in your Bamboo Installation. You need to go to **Bamboo administration settings > Manage apps > Find new apps** and search for **Testsigma Test Plan Runner** in the search box to install it.
+> <p id="prerequisites">Prerequisites</p>
+> 
+>    - You need **Testsigma Test Plan Run - Bamboo Plugin**. 
+>    - You can install the **Testsigma Test Plan Run** plugin from the Bamboo Plugins page in your Bamboo Installation. You need to go to **Bamboo administration settings > Manage apps > Find new apps** and search for **Testsigma Test Plan Runner** in the search box to install it.
 
 You can also get it from [Testsigma Bamboo Plugin direct link](https://marketplace.atlassian.com/apps/1223253/testsigma-test-plan-runner?hosting=server&tab=installation)
  
@@ -64,15 +65,15 @@ You can also get it from [Testsigma Bamboo Plugin direct link](https://marketpla
 
 - **Task description:** A name for the Task.
 
-- **Testsigma API Key:** Generated from [Settings > API Keys](https://testsigma.com/docs/configuration/api-keys/) in Testsigma App.
+- **Testsigma API Key:** Refer to the [documentation on generating API keys](https://testsigma.com/docs/configuration/api-keys/) in Testsigma App.
 
-- **Testsigma Test Plan ID:** You can [get the Test Plan specific ID](https://testsigma.com/docs/continuous-integration/get-test-plan-details/) from the Test Plan details page in Testsigma App.
+- **Testsigma Test Plan ID:** Refer to the [documentation on getting the test plan ID](https://testsigma.com/docs/continuous-integration/get-test-plan-details/) from the Test Plan details page in Testsigma App.
 
 - **Maximum wait time for Task completion:** Specify the maximum time in minutes you want the Testsigma Plugin to wait before timing out. After this timeout, the Task will time out in Bamboo but the Test Execution will still continue in Testsigma. You can log into Testsigma App later to check the Test Plan status.
 
 - **Report File Path:** The File path where the JUnit report XML file is stored.
  
-3. Click on **Save** button to save the task details.
+1. Click on **Save** button to save the task details.
 
 ![save task details in Bamboo CI](https://docs.testsigma.com/images/bamboo-ci/save-task-details-save-button-bamboo-ci.png)
 
