@@ -20,13 +20,13 @@ contextual_links:
   url: "#build-an-app-file" 
 ---
 
-<br>
-<br>
+---
+
 Once you finish developing an Android/iOS application, you must build debug APK/IPA/APP application to carry out testing.
 
 This article discusses how to generate mobile builds for Android/iOS Applications.<br>
 
-<br>
+---
 
 ## **Build an APK file**
 1. Navigate to the **Toolbar > Build**.
@@ -36,7 +36,7 @@ This article discusses how to generate mobile builds for Android/iOS Application
     - On **Build APK(s)** pop-up,  click on **locate**.
 5. Your debug APK will be visible in your file explorer.
 
-<br>
+---
 
 ## **Build an IPA file**
 1. Open your app project in **Xcode**.
@@ -54,10 +54,12 @@ This article discusses how to generate mobile builds for Android/iOS Application
 9. This will generate your **.ipa** file.
 10. Once the file generation process completes, click on **Export**.
 
-<br>
+---
 
 ## **Build an APP file**
 1. Open your app project in **Xcode**.
 2. Select the simulator as per your product’s target device.
 3. On the Product menu, select **Clean** and select **Build**.
 4. You can find the generated **.app** file in your **Xcode project directory**.
+
+---
