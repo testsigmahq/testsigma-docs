@@ -32,11 +32,11 @@ contextual_links:
 
 ---
 
-<p id="prerequisites">Prerequisites</p>
-
-Create a folder called testsigma where you would like to install Testsigma. 
-
-**cd** cmd into this installation folder(testsigma)
+> <p id="prerequisites">Prerequisites</p>
+> 
+> Before you begin, ensure that: 
+> 1. You have created a folder called testsigma where you would like to install Testsigma. 
+> 2. **cd** cmd into this installation folder(testsigma). 
 
 ---
 
