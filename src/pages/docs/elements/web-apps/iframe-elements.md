@@ -25,10 +25,10 @@ While writing test cases for web applications that involve iframes, it is import
 
 ---
 
-> ## **Prerequisites**
+> <p id="prerequisites">Prerequisites</p>
 >
->
-> Before you begin, ensure that you've a [Project](https://testsigma.com/docs/projects/overview/) in Testsigma and a web application is available for testing.
+> Before you begin, ensure that you have referred to:
+> 1. [Documentation on creating project](https://testsigma.com/docs/projects/overview/). 
 
 
 ---

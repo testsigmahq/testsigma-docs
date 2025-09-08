@@ -23,9 +23,11 @@ You can conveniently export your test plan reports in XML format, specifically i
 
 ---
 
-> ## **Prerequisites**
+> <p id="prerequisites">Prerequisites</p>
 >
-> Before exporting reports, you must understand specific concepts, such as creating [Test Plans](https://testsigma.com/docs/test-management/test-plans/overview/), conducting [Test Runs](https://testsigma.com/docs/reports/runs/overview/), and having access to export test reports.
+> Before you begin, ensure that you have referred to:
+> 1. [Documentation on creaing test plans](https://testsigma.com/docs/test-management/test-plans/overview/).
+> 2. [Documentation on creaing test runs](https://testsigma.com/docs/reports/runs/overview/) and having access to export test reports.
 
 [[info | **NOTE**:]]
 | Please contact us at **support@testsigma.com** or use the **Instant Chat** option to enable this exclusive feature provided by **Testsigma Enterprise**.

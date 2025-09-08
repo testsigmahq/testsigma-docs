@@ -26,15 +26,12 @@ If your organization has an existing account with BrowserStack, you can author t
 
 ---
 
-## **Prerequisites**
-
-You need the username and API Key for BrowserStack which can be obtained from your BrowserStack account dashboard.
-
-This can be obtained from the Account Settings page under Automate as shown below :
-
-![BrowserStack Account Settings](https://docs.testsigma.com/images/browserstack/browserstack-account-settings-username-api-keys.png)
-
-You should already know about different [Test Lab Types in Testsigma](https://testsigma.com/docs/test-management/test-plans/supported-test-lab-types/)
+> <p id="prerequisites">Prerequisites</p>
+> 
+> Before you begin, ensure that: 
+> 1. You have the username and API Key for BrowserStack which can be obtained from your BrowserStack account dashboard. This can be obtained from the Account Settings page under Automate as shown below :
+> ![BrowserStack Account Settings](https://docs.testsigma.com/images/browserstack/browserstack-account-settings-username-api-keys.png).
+> 2. You have referred to the [documentation on supported test lab types](https://testsigma.com/docs/test-management/test-plans/supported-test-lab-types/).
 
 ---
 

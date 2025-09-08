@@ -24,13 +24,12 @@ Updating an addon in Testsigma keeps your tools up-to-date and functional. First
 
 ---
 
-## **Prerequisites**
-
-Before updating an addon, ensure you have:
-
-- Have an [existing](https://testsigma.com/docs/addons/create/#creating-an-addon-template) addon ready to update.
-- Understand the programming language (usually Java) and frameworks.
-- Know how [addons work](https://testsigma.com/docs/addons/create/#understanding-the-purpose-of-addons) in Testsigma, including actions and configurations.
+> <p id="prerequisites">Prerequisites</p>
+> 
+> Before updating an addon, ensure that: 
+> 1. You have referred to the [documentation on creating add-ons](https://testsigma.com/docs/addons/create/#creating-an-addon-template).
+> 2. You have an Understanding of the programming language (usually Java) and frameworks.
+> 3. You have referred to the [documentation on how addons work](https://testsigma.com/docs/addons/create/#understanding-the-purpose-of-addons) in Testsigma, including actions and configurations.
 
 ---
 

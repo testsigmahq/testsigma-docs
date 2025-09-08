@@ -35,13 +35,11 @@ This article guides the user to prepare and execute test plans in Testsigma plat
 ---
 
 
-## **Prerequisites**
-
-
-1. You should know how to [create a test case.](https://testsigma.com/docs/test-cases/manage/add-edit-delete/).
-
-
-2. You should know how to [create a test suite](https://testsigma.com/docs/test-management/test-suites/overview/#create-test-suite).
+> <p id="prerequisites">Prerequisites</p>
+>
+> Before you begin, ensure that you have referred to:
+> 1. [Documentation on creating test cases](https://testsigma.com/docs/test-cases/manage/add-edit-delete/#create-test-case).
+> 2. [Documentation on creating test suites](https://testsigma.com/docs/test-management/test-suites/overview/#create-test-suite).
 
 
 ---
@@ -63,7 +61,7 @@ This article guides the user to prepare and execute test plans in Testsigma plat
 ![Test plan execution](https://s3.amazonaws.com/static-docs.testsigma.com/new_images/projects/applications/rntptpexe.png)
 
 [[info | **NOTE**:]]
-| Whitelisting of Testsigma IP addresses is necessary to ensure that the Testsigma servers and lab environments can securely interact with your applications and systems for testing activities. For more information, refer to [whitelisting Testsigma IP addresses](https://testsigma.com/docs/runs/test-locally-hosted-applications/#whitelisting-testsigma-ip-addresses)
+| Whitelisting of Testsigma IP addresses is necessary to ensure that the Testsigma servers and lab environments can securely interact with your applications and systems for testing activities. For more information on whitelisting Testsigma IP addresses, refer to the [documentation on whitelisting Testsigma IP addresses](https://testsigma.com/docs/runs/test-locally-hosted-applications/#whitelisting-testsigma-ip-addresses)
 
 ---
 
@@ -127,6 +125,6 @@ Once you have applied the filters, you can:
 [[info | **NOTE**:]]
 | You can also view reports at test suite and test machine level by clicking on **Test Suite** and **Test Machine**. 
 
-*For more information on viewing and downloading results of a test plan on test case, test suite or test machine levels, see [Test Plan Run Results](https://testsigma.com/docs/reports/runs/drill-down-reports/).*
+*For more information on viewing and downloading results of a test plan on test case, test suite or test machine levels, refer to the [documentation on viewing test plan run results](https://testsigma.com/docs/reports/runs/drill-down-reports/).*
 
 ---

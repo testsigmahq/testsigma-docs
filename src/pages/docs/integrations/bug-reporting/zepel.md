@@ -28,15 +28,13 @@ In this document, we will discuss how to establish Integration with Zepel from y
 
 ---
 
-## **Prerequisites**
-
-1. To integrate Zepel with Testsigma, we need the following information from your Zepel account:
-    - Account URL
-    - API Key (For more information, refer to [creating your Zepel API token](https://zepel.io/developers/api/v1/#authentication))
-
-2. You should know about [test plan runs and results](https://testsigma.com/docs/runs/test-plan-executions/).
-
-
+> <p id="prerequisites">Prerequisites</p>
+>
+> Before you begin, ensure that: 
+> 1. To integrate Zepel with Testsigma, we need the following information from your Zepel account:
+>    - Account URL.
+>    - API Key (For more information, refer to [creating your Zepel API token](https://zepel.io/developers/api/v1/#authentication)).
+> 2. You have referred to the [documentation on creating test plan runs and results](https://testsigma.com/docs/runs/test-plan-executions/).
 
 ---
 

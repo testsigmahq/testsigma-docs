@@ -38,11 +38,13 @@ In Testsigma, you can also create elements manually for your iOS project without
 
 ---
 
-## **Prerequisites**
+> <p id="prerequisites">Prerequisites</p>
+>
+>
+> Before you begin, ensure that:
+> 1. You have referred to the [documentation on creating projects](https://testsigma.com/docs/projects/overview/).
+> 2. You have an iOS application that is available for testing.
 
-- You should know how to create an android [project](https://testsigma.com/docs/projects/overview/) in Testsigma.
-
-- An iOS app to test.
 
 ---
 

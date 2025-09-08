@@ -27,7 +27,7 @@ Testing SAP applications often involves complex workflows and repetitive tasks. 
 
 ---
 
-> ## **Prerequisites**
+> <p id="prerequisites">Prerequisites</p>
 > 
 > Ensure you have the following requirements:
 > 

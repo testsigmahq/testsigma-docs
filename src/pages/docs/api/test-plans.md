@@ -33,9 +33,11 @@ You can use Testsigma API to trigger test executions remotely. This is useful wh
 
 ---
 
-> ## **Prerequisites**
+> <p id="prerequisites">Prerequisites</p>
 >
-> Before you begin, ensure you have an [API Key](https://testsigma.com/docs/configuration/api-keys/) and know how to [Manage Test Plans](https://testsigma.com/docs/test-management/test-plans/overview/).
+> Before you begin, ensure that you have referred to:
+> 1. [Documentationon generating API keys](https://testsigma.com/docs/configuration/api-keys/) from Testsigma application.
+> 2. [Documentation on managing test plans](https://testsigma.com/docs/test-management/test-plans/overview/).
 
 
 ---
@@ -104,14 +106,14 @@ For a Test Plan, you can get the **Test Plan ID** and the complete **cURL reques
 
 The Run ID is returned as ‘id’ in the response for the request if the execution was started successfully.
 
-The Environment ID is optional. To know how to get an environment id check here: [Get an Environment ID](https://testsigma.com/docs/api/environments/#get-an-environment)
+The Environment ID is optional. To know how to get an environment id, refer to the [documentation on getting an environment ID](https://testsigma.com/docs/api/environments/#get-an-environment)
 
 **Test Plan Status**
 
 Each Test Plan Run in Testsigma has a unique Run ID. This Run ID can be used to check the live status of the Test Plan Run or Test Plan Status.
 
 [[info | NOTE:]]
-| You need to authenticate these requests with your Testsigma API Key. See [How to generate API Keys](https://testsigma.com/docs/configuration/api-keys/)
+| You need to authenticate these requests with your Testsigma API Key. Refer to the [documentation on generating API keys](https://testsigma.com/docs/configuration/api-keys/)
 
 ---
 
@@ -231,7 +233,7 @@ You can see the result as **FAILURE** and the current status as **STATUS\_COMPLE
 
 ## **GET Test Plan Favourites/Config**
 
-This endpoint allows users to get all the Test Plan Favourites/Config that have been set. To know more on how to create these Test Plan Favourites/Configurations refer to the doc [here](https://testsigma.com/docs/runs/test-plan-executions/#partial-test-runs) 
+This endpoint allows users to get all the Test Plan Favourites/Config that have been set. To know more on how to create these Test Plan Favourites/Configurations refer to the [documentation on executing partial test runs](https://testsigma.com/docs/runs/test-plan-executions/#partial-test-runs). 
 
 
 |**Request Type**|GET|

@@ -37,16 +37,16 @@ With Xray integration, you can link:
 
 ---
  
-## **Prerequisites**
-- A working JIRA integration. For more information, refer to [jira bug reporting](https://testsigma.com/docs/integrations/bug-reporting/jira/).
-- A working Xray integration. 
-    - JIRA Account URL
+> <p id="prerequisites">Prerequisites</p>
+> 
+> Before you begin, ensure that:
+> 1. You have a working JIRA integration. For more information on Jira bug reporting, refer to the [documentation on jira bug reporting](https://testsigma.com/docs/integrations/bug-reporting/jira/).
+> 2. You have a working Xray integration. 
+>    - JIRA Account URL
+>    - Client ID
+>    - Client Secret 
 
-    - Client ID
-
-    - Client Secret 
-
-*For more information, refer to [global settings](https://docs.getxray.app/display/XRAYCLOUD/Global+Settings%3A+API+Keys).*
+*For more information on configuring global settings, refer to the [documentation on configuring global settings](https://docs.getxray.app/display/XRAYCLOUD/Global+Settings%3A+API+Keys).*
 
 ---
  

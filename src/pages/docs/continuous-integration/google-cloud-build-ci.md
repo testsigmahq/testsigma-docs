@@ -35,13 +35,12 @@ You can integrate **Google Cloud Build** with your version control system to aut
 
 ---
 
-> ## **Prerequisites**
+> <p id="prerequisites">Prerequisites</p>
 >
-> Before you begin, ensure:
->
->  - You have a **GitHub** repository with your project code.
->  - You have a **Google Cloud** project with billing enabled.
->  - You have Admin permissions in both **GitHub** and **Google Cloud**.
+> Before you begin, ensure you have:
+> - A **GitHub** repository with your project code.
+> - A **Google Cloud** project with billing enabled.
+> - Admin permissions in both **GitHub** and **Google Cloud**.
 
 ---
 
@@ -81,8 +80,8 @@ You can integrate **Google Cloud Build** with your version control system to aut
    ![connect repository](https://s3.amazonaws.com/static-docs.testsigma.com/new_images/projects/integration/Google_cloud_7.png)
 
 [[info | NOTE:]]
-| - Ensure the tstrigger.sh file is present in the same repository and marked as executable. For information on the generic shell script, see [Shell Script](https://testsigma.com/docs/continuous-integration/shell-script/).
-| - Ensure you have an API key and a Test Plan ID. For more information, see [API Keys](https://testsigma.com/docs/configuration/api-keys/) and [Get Test Plan ID](https://docs.testsigma.com/images/azure-devops/get-test-plan-id.png).
+| - Ensure the tstrigger.sh file is present in the same repository and marked as executable. For information on the generic shell script, refer to the [documentation on generic Shell script](https://testsigma.com/docs/continuous-integration/shell-script/).
+| - Ensure you have an API key and a Test Plan ID. For more information, refer to the [documentation on generating API keys](https://testsigma.com/docs/configuration/api-keys/) and [documentation on getting test plan ID](https://docs.testsigma.com/images/azure-devops/get-test-plan-id.png).
 | -![tstrigger](https://s3.amazonaws.com/static-docs.testsigma.com/new_images/projects/integration/Google_cloud_8.png)
 
 2. On the **Connect repository** overlay, select your source code management provider from the list (we’re selecting **GitHub**), then click **Continue**.

@@ -28,9 +28,14 @@ Dynamic locators are essential in handling web elements that may undergo attribu
 
 ---
 
-## **Prerequisites**
-
-Before implementing dynamic locators using Runtime in Testsigma, ensure you have a solid understanding of key concepts such as creating a [Test Case](https://testsigma.com/docs/test-cases/manage/add-edit-delete/#creating-a-test-case), managing [Runtime Test Data](https://testsigma.com/docs/test-data/types/runtime/) and [Elements](https://testsigma.com/docs/elements/web-apps/capture-single-element/), handling [Test Steps](https://testsigma.com/docs/test-cases/step-types/natural-language/), and effectively utilising different [Test Data Types](https://testsigma.com/docs/test-data/types/overview/).
+> <p id="prerequisites">Prerequisites</p>
+>
+> Before you begin, ensure that you have referred to:
+> 1. [Documentation on creating test cases](https://testsigma.com/docs/test-cases/manage/add-edit-delete/#creating-a-test-case).
+> 2. [Documentation on managing runtime test data](https://testsigma.com/docs/test-data/types/runtime/).
+> 3. [Documentation on creating elements](https://testsigma.com/docs/elements/web-apps/capture-single-element/).
+> 4. [Documentation on creating test steps](https://testsigma.com/docs/test-cases/step-types/natural-language/).
+> 5. [Documentation on creating test data types](https://testsigma.com/docs/test-data/types/overview/).
 
 ---
 

@@ -30,13 +30,13 @@ This document discusses establishing Integration with Trello from your Testsigma
 
 ---
 
-## **Prerequisites**
-
-1. To integrate Trello with Testsigma, you need the following information from your Trello Account:<br>
-    - User Token
-    - API Key
-
-2. You should also be familiar with [test plan runs](https://testsigma.com/docs/runs/test-plan-executions/).
+> <p id="prerequisites">Prerequisites</p>
+> 
+> Before you begin, ensure that:
+> 1. To integrate Trello with Testsigma, you need the following information from your Trello Account:<br>
+>    - User Token
+>    - API Key
+> 2. You have referred to the [documentation on executing test plan runs](https://testsigma.com/docs/runs/test-plan-executions/).
 
 ---
 

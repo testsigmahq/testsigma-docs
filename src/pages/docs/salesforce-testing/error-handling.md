@@ -30,9 +30,12 @@ On metadata refresh, Testsigma identifies potential causes of test case failures
 
 ---
 
-> ## **Prerequisites**
+> <p id="prerequisites">Prerequisites</p>
 > 
-> Before you begin, ensure you have a [Salesforce Connected App](https://testsigma.com/docs/salesforce-testing/connected-app/), [Salesforce Metadata](https://testsigma.com/docs/salesforce-testing/metadata-connections/) connected to Testsigma, and know how to [Refresh Metadata](https://testsigma.com/docs/salesforce-testing/metadata-connections/#steps-to-refresh-metadata-connection).
+> Before you begin, ensure that you have referred to:
+> 1. [Documentation on Salesforce Connected App](https://testsigma.com/docs/salesforce-testing/connected-app/).
+> 2. [Documentation on Salesforce Metadata](https://testsigma.com/docs/salesforce-testing/metadata-connections/) connected to Testsigma.
+> 3. [Documentation on refreshing Metadata](https://testsigma.com/docs/salesforce-testing/metadata-connections/#steps-to-refresh-metadata-connection).
 
 ---
 
@@ -111,6 +114,6 @@ Here's a quick GIF demonstrating how to resolve this error.
 ![Resolving deprecated element error](https://s3.amazonaws.com/static-docs.testsigma.com/new_images/projects/applications/DeprecartedFlowSF.gif)
 
 
-*For more information on creating elements for Salesforce apps, see [Creating Elements While Creating Test Steps](https://testsigma.com/docs/salesforce-testing/element-repos/#creating-elements-while-creating-test-steps).*
+*For more information on creating elements for Salesforce apps, refer to the [documentation on creating elements while creating test steps](https://testsigma.com/docs/salesforce-testing/element-repos/#creating-elements-while-creating-test-steps).*
 
 ---

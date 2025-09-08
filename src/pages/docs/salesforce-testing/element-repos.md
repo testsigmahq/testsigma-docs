@@ -83,7 +83,7 @@ In Testsigma, elements from Salesforce are automatically learned after successfu
 
 ## **Verifying Pre-learnt Salesforce Elements**
 
-1. Click element which has the [naming conventions](https://testsigma.com/docs/salesforce-testing/element-repos/#naming-conventions) as mentioned in the above section.
+1. Click element which has the namig conventions as mentioned in the above section. For more information on naming conventions, refer to the [documentation on naming conventions](https://testsigma.com/docs/salesforce-testing/element-repos/#naming-conventions) 
 
 2. Click **View/Edit Element** from the dropdown menu on the **Testsigma Debugger & Recorder**.
    ![View/Edit Element](https://s3.amazonaws.com/static-docs.testsigma.com/new_images/projects/applications/SF_VieworEdit_Elem.png)

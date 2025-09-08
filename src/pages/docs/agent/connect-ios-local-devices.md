@@ -22,9 +22,12 @@ contextual_links:
 Testsigma allows you to run tests on your local iOS devices in addition to Testsigma Cloud machines/devices. Step by step guid for running the tests on iOS Local Devices.
 
 ---
-## **Prerequisites**
-- Testsigma Agent is successfully registered. For details on registering Testsigma Agent visit [Setting up Testsigma Agent on your local machine](https://testsigma.com/docs/agent/setup-on-windows-mac-linux/)
-- Configure Provisioning profiles to allow local automation. For details on iOS Settings visit [Configure your Local iOS Devices](https://testsigma.com/docs/configuration/ios-settings/)
+
+> <p id="prerequisites">Prerequisites</p>
+> 
+> Before you begin, ensure that you have referred to: 
+> 1. [Documentation on setting up Testsigma Agent](https://testsigma.com/docs/agent/setup-on-windows-mac-linux/).
+> 2. [Documentation on configuring your Local iOS Devices](https://testsigma.com/docs/configuration/ios-settings/)
 
 ---
 ## **Setup Instructions:**
@@ -37,6 +40,6 @@ Testsigma allows you to run tests on your local iOS devices in addition to Tests
    ![image description](https://docs.testsigma.com/images/ios-setup/agent-device-selection-dry-run.png)
 
 [[info | NOTE:]]
-|For more info on executing Tests on local devices, visit below links <br/>
-|[Dry Runs on Local Devices](https://testsigma.com/docs/runs/dry-runs-on-local-devices/) <br/>
-|[Test Plan Local Executions](https://testsigma.com/docs/runs/test-plans-on-local-devices/)<br/>
+|For more info on executing Tests on local devices, refer to: <br/>
+|- [Documentation on dry runs on local devices](https://testsigma.com/docs/runs/dry-runs-on-local-devices/). <br/>
+|- [Documentation on executing test plans on local devices](https://testsigma.com/docs/runs/test-plans-on-local-devices/).<br/>

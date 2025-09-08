@@ -31,11 +31,10 @@ Super Admins control the stopping of executions by users in **Usage Details** an
 
 
 
-> ## **Prerequisites**
->
+> <p id="prerequisites">Prerequisites</p>
 > 
-> Before you begin, ensure you know how to [Manage User Roles](https://testsigma.com/docs/collaboration/users-roles/).
-
+> Before you begin, ensure that you have referred to:
+> 1. [Documentation on managing users & roles](https://testsigma.com/docs/collaboration/users-roles/). 
 
 ---
 

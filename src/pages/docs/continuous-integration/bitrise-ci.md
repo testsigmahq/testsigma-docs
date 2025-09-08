@@ -20,8 +20,10 @@ contextual_links:
 Bitrise is a CI tool specifically designed for mobile continuous integration and delivery system for iOS and Android native apps. Bitrise is an enterprise product and hence provides support for build executions on Linux and Mac Os as well.
  
 ---
-##**Pre-requisite:**
-  User needs a repository where the steps mentioned in a shell script file can be uploaded and updated. 
+
+> <p id="prerequisites">Prerequisites</p>
+> 
+>    - User needs a repository where the steps mentioned in a shell script file can be uploaded and updated. 
 
 ---
 ##**Steps to follow:**

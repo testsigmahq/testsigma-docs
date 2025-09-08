@@ -37,10 +37,10 @@ Due to constantly changing requirements and application features, version contro
 
 ---
 
-> ## **Prerequisites**
+> <p id="prerequisites">Prerequisites</p>
 > 
-> You should know how to [Manage Applications](https://testsigma.com/docs/projects/applications/).
-
+> Before you begin, ensure that you have referred to:
+> 1. [Documentation on managing applications](https://testsigma.com/docs/projects/applications/).
 
 
 ---

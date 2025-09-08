@@ -28,13 +28,13 @@ contextual_links:
 Testsigma Mantis integration lets you create issues directly from the Testsigma app in Backlog. With just one click, you can push annotated issues to a project of your choice, assign them to a teammate, and attach screenshots, all while in the middle of a test session in the Testsigma. This article discusses how to integrate Backlog with Testsigma.
 
 ---
-## **Prerequisites**
-
-1. To integrate Backlog with Testsigma, you need the following information from your Backlog account
-    - **Account URL**: Your organization’s Backlog account URL
-    - **API Key**: Backlog API Token
-
-2. You should already know about [test plan runs and results](https://testsigma.com/docs/runs/test-plan-executions/).
+> <p id="prerequisites">Prerequisites</p>
+>
+> Before you begin, ensure that: 
+> 1. To integrate Backlog with Testsigma, you need the following information from your Backlog account
+>    - **Account URL**: Your organization’s Backlog account URL
+>    - **API Key**: Backlog API Token
+> 2. You have referred to the [documentation on creating test plan runs and results](https://testsigma.com/docs/runs/test-plan-executions/).
 
 ---
 

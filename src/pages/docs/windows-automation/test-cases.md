@@ -23,11 +23,11 @@ Build tests for a Windows application on any machine! 🚀
 
 Windows Automation usually requires a Windows environment to create and execute test cases. Testsigma takes a step forward and allows you to test cases for Windows applications on any operating system using UFT Objects and smart NLPs. 
 
-In case you have missed it, refer to [learning objects 🔍](https://testsigma.com/docs/windows-automation/object-learning/) that help you build test cases. 
+In case you have missed it, refer to the [documentation on learning objects 🔍](https://testsigma.com/docs/windows-automation/object-learning/) that help you build test cases. 
 
 ---
 
-> ## **Prerequisites**
+> <p id="prerequisites">Prerequisites</p>
 >
 > Before you begin, ensure you have a Windows project, a TSRx File to import and Testsigma Agent setup.
 

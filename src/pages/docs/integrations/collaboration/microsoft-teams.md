@@ -24,10 +24,11 @@ Integrating Testsigma with Microsoft Teams is similar to integrating with other 
 
 ---
 
-> ## **Prerequisites**
->
+> <p id="prerequisites">Prerequisites</p>
 > 
-> Before you begin, ensure you have a valid [Microsoft Teams Connector](https://docs.microsoft.com/en-us/microsoftteams/platform/webhooks-and-connectors/how-to/add-incoming-webhook) and know [how to Create a Test Plan](https://testsigma.com/docs/test-management/test-plans/overview/#steps-to-create-a-test-plan).
+> Before you begin, ensure that:
+> 1. You have a valid [Microsoft Teams Connector](https://docs.microsoft.com/en-us/microsoftteams/platform/webhooks-and-connectors/how-to/add-incoming-webhook) 
+> 2. You have referred to the [documentation on creating test plans](https://testsigma.com/docs/test-management/test-plans/overview/#steps-to-create-a-test-plan).
 
 
 

@@ -6,22 +6,31 @@ noindex: false
 order: 22.4
 page_id: "Testsigma Development Environment"
 warning: false
+contextual_links:
+- type: section
+  name: "Contents"
+- type: link
+  name: "Prerequisite"
+  url: "#prerequisites"
+- type: link
+  name: "Setup Instructions"
+  url: "#setup-instruction"
+- type: link
+  name: "Contributors"
+  url: "#contributors"
 ---
 
+
 ---
 
-## Prerequisites
-
- - macOS / Linux /Windows
-   
-  - JDK 11
-   
-  - Intellij IDE Editor (https://www.jetbrains.com/idea/download)
-   
-   - Create an Add-on in Testsigma application which will download a
-   sample Java project for add-on. Visit [Create a Testsigma
-   Add-on](https://testsigma.com/docs/addons/create/) for more details.
-   -   JAVA_HOME variable is set to JAVA 11
+> <p id="prerequisites">Prerequisites</p>
+>
+> Before you begin, ensure that you have referred to:
+> 1. macOS / Linux /Windows
+> 2. JDK 11
+> 3. Intellij IDE Editor (https://www.jetbrains.com/idea/download)
+> 4. Create an Add-on in Testsigma application which will download a sample Java project for add-on. For more information on creating an add-on, refer to the [documentation on creating an Add-on](https://testsigma.com/docs/addons/create/). 
+> 5. JAVA_HOME variable is set to JAVA 11
 
 ## Setup Instructions:
 
@@ -38,18 +47,18 @@ warning: false
 
  3. Import the downloaded Testsigma Add-on bundle as Maven/Gradle module
 
-![Importing a new module within existing IntelliJ project](https://docs.testsigma.com/images/setup-dev-environment-addons/intellij-import-module.png)
+![Documentation on importing a new module within existing IntelliJ project](https://docs.testsigma.com/images/setup-dev-environment-addons/intellij-import-module.png)
 
 
-![Selecting the addon folder to import the addon from](https://docs.testsigma.com/images/setup-dev-environment-addons/intellij-addon-folder.png)
+![Documentation on selecting the addon folder to import the addon from](https://docs.testsigma.com/images/setup-dev-environment-addons/intellij-addon-folder.png)
  
-![Importing module as a Maven project](https://docs.testsigma.com/images/setup-dev-environment-addons/intellij-meven-import.png)
+![Documentation on importing module as a Maven project](https://docs.testsigma.com/images/setup-dev-environment-addons/intellij-meven-import.png)
 
-![Selecting module settings in IntelliJ module settings](https://docs.testsigma.com/images/setup-dev-environment-addons/intellij-module-settings.png)
+![Documentation on selecting module settings in IntelliJ module settings](https://docs.testsigma.com/images/setup-dev-environment-addons/intellij-module-settings.png)
 
-![Selecting module SDK in IntelliJ module settings](https://docs.testsigma.com/images/setup-dev-environment-addons/intellij-module-sdk.png)
+![Documentation on selecting module SDK in IntelliJ module settings](https://docs.testsigma.com/images/setup-dev-environment-addons/intellij-module-sdk.png)
 
-![Project Explorer view in IntelliJ for an Addon](https://docs.testsigma.com/images/setup-dev-environment-addons/intellij-project-explorer.png)
+![Documentation on project xxplorer view in IntelliJ for an Addon](https://docs.testsigma.com/images/setup-dev-environment-addons/intellij-project-explorer.png)
 
 4. Add your own test Actions, zip and upload to Testsigma Add-ons
 

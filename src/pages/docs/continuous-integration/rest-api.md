@@ -34,11 +34,12 @@ You can integrate Testsigma with your CI/CD tool and trigger test plans and chec
 
 ---
 
-## **Prerequisites**
-
-- You should already have the test plan that you want to execute. See [test plan management](https://testsigma.com/docs/test-management/test-plans/overview/)
-
-- You should also know how to [generate an API key from settings](https://testsigma.com/docs/configuration/api-keys/) and get **Test Plan ID** from an existing Test Plan. See [getting test plan details](https://testsigma.com/docs/continuous-integration/get-test-plan-details/). 
+> <p id="prerequisites">Prerequisites</p>
+>
+> Before you begin, ensure that you have referred to:
+> 1. [Documentation on managing test plans](https://testsigma.com/docs/test-management/test-plans/overview/).
+> 2. [Documentation on generating API keys](https://testsigma.com/docs/configuration/api-keys/).
+> 3. [Documentation on getting test plan details](https://testsigma.com/docs/continuous-integration/get-test-plan-details/). 
 
 
 ---
@@ -77,9 +78,9 @@ You can execute this CURL command in your computer's command-line interface (CLI
 | **Request Body**  | { <br> "executionId": "<TEST\_PLAN\_ID>", <br> "buildNo": "<BUILD\_NO>" <br> "environmentId": <ENVIRONMENT\_ID> } |
 
 
- - The **<TEST\_PLAN\_ID>** is used to identify the Test Plan which is to be triggered. This can be obtained from the corresponding [test plan details page](https://testsigma.com/docs/continuous-integration/get-test-plan-details/).
+ - The **<TEST\_PLAN\_ID>** is used to identify the Test Plan which is to be triggered. This can be obtained from the corresponding test plan details page. Refer to the [documentation on getting test plan details](https://testsigma.com/docs/continuous-integration/get-test-plan-details/).
 
- - The **<API\_KEY>** is used to authenticate your user in Testsigma API. This can be obtained from the **Settings > API Keys** by [creating a new API key](https://testsigma.com/docs/configuration/api-keys/).
+ - The **<API\_KEY>** is used to authenticate your user in Testsigma API. This can be obtained from the **Settings > API Keys** by creating a new API key. Refer to the  [documentation on generating API keys](https://testsigma.com/docs/configuration/api-keys/).
 
 - The **<BUILD\_NO>** is the Build number/Version for your corresponding Application Build against which you are running the Tests. This can be obtained from the Dev team or Build Stage in the CI/CD Pipeline.
 
@@ -154,7 +155,7 @@ You can execute this CURL command in your computer's command-line interface (CLI
 
 ## **Script Method**
 
-If you want to start the Execution and then check the execution status in regular intervals you can make use of a [generic Shell Script for integrating with any CI/CD tool](https://testsigma.com/docs/continuous-integration/shell-script/).
+If you want to start the Execution and then check the execution status in regular intervals you can make use of a generic Shell Script for integrating with any CI/CD tool. Refer to the [documentation on generic Shell script](https://testsigma.com/docs/continuous-integration/shell-script/).
  
 That's all we need to automate Test Execution when a successful build is triggered using the CI server.
 

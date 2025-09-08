@@ -22,9 +22,10 @@ This article discusses setting up and installing Testsigma Tunnel on a Windows o
 
 ---
 
-> ## **Prerequisites**
+> <p id="prerequisites">Prerequisites</p>
 > 
-> - Ensure you have reviewed and have all the system requirements mentioned [here](https://testsigma.com/docs/testsigma-tunnel/key-components/).
+> Before you begin, ensure that you have referred to:
+> 1. [Documentation on key components](https://testsigma.com/docs/testsigma-tunnel/key-components/).
 
 ---
 

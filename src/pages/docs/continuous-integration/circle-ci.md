@@ -30,10 +30,11 @@ contextual_links:
 Testsigma offers webhooks for triggering Testsigma Executions remotely from any third-party tool that provides a Command Line Interface (CLI). This article will help you to integrate Testsigma with CircleCI for automatically triggering Test Executions after some code is changed on your code repository. 
  
 ---
-## **Prerequisites**
 
-- A CircleCI Account with connected Source Code Management (SCM) tool (Github, Azure, etc.)
-- A CI/CD pipeline set up in CircleCI. 
+> <p id="prerequisites">Prerequisites</p>
+> 
+>    - A CircleCI Account with connected Source Code Management (SCM) tool (Github, Azure, etc.)
+>    - A CI/CD pipeline set up in CircleCI. 
 
 ---
 
@@ -58,8 +59,8 @@ We will add Testsigma API Key and the Test Plan ID to a Shell script, and the sh
  
 ## **Add the Shell Script to Code Repository**
 You need to add a script file in your Code Repository stored on Github, Bitbucket, Azure, or any such platform. This script file contains commands to trigger the Testsigma Test Plan remotely.
-1. Copy the shell script from the article: [Generic Shell Script for Integrating with CI/CD Tools](https://testsigma.com/docs/continuous-integration/shell-script/).
-2. Update your [Testsigma API Key](https://testsigma.com/docs/configuration/api-keys/) and [Test Plan ID](https://testsigma.com/docs/continuous-integration/get-test-plan-details/) in the above script.
+1. Copy the shell script from Generic Shell Script. Refer to the [documentation on Generic Shell Script for Integrating with CI/CD tools](https://testsigma.com/docs/continuous-integration/shell-script/).
+2. Update your Testsigma API key and Test Plan ID in the above script. Refer to the [documentation on generating API keys](https://testsigma.com/docs/configuration/api-keys/) and [documentation on test plan ID](https://testsigma.com/docs/continuous-integration/get-test-plan-details/)
 3. Now upload the script file to your Code Repository and commit.
 
 --- 

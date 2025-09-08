@@ -23,7 +23,7 @@ An automated test case is a step-by-step logic that simulates user interactions 
 
 ---
 
-## **Prerequisites**
+<p id="prerequisites">Prerequisites</p>
 
 - You should have Testsigma account.
 
@@ -52,17 +52,17 @@ An automated test case is a step-by-step logic that simulates user interactions 
 
 You can choose the type of test step you want to add to your test case from the panel. Read more about the different test steps and how to create them in the links below:
 
-- [Natural Language](https://testsigma.com/docs/test-cases/step-types/natural-language/)
+- [Documentation on using natural language](https://testsigma.com/docs/test-cases/step-types/natural-language/).
 
-- [REST API](https://testsigma.com/docs/test-cases/step-types/rest-api/)
+- [Documentation on using REST API](https://testsigma.com/docs/test-cases/step-types/rest-api/).
 
-- [Step Group](https://testsigma.com/docs/test-cases/step-types/step-group/)
+- [Documentation on using step groups](https://testsigma.com/docs/test-cases/step-types/step-group/).
 
-- [For Loop](https://testsigma.com/docs/test-cases/step-types/for-loop/)
+- [Documentation on using For Loop](https://testsigma.com/docs/test-cases/step-types/for-loop/).
 
-- [While Loop](https://testsigma.com/docs/test-cases/step-types/while-loop/)
+- [Documentation on using While Loop](https://testsigma.com/docs/test-cases/step-types/while-loop/).
 
-- [If Condition](https://testsigma.com/docs/test-cases/step-types/if-condition/)
+- [Documentation on using If Condition](https://testsigma.com/docs/test-cases/step-types/if-condition/).
 
 
 ---

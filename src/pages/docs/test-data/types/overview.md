@@ -54,9 +54,12 @@ This documentation will explain the different test data types supported in Tests
 
 ---
 
-## **Prerequisites**
-
-Before using test data type, you must understand specific concepts such as creating [projects](https://testsigma.com/docs/projects/overview/), [test cases](https://testsigma.com/docs/test-cases/manage/add-edit-delete/), and [test steps](https://testsigma.com/docs/test-cases/create-steps-nl/overview/).
+> <p id="prerequisites">Prerequisites</p>
+>
+> Before you begin, ensure that you have referred to:
+> 1. [Documentation on creating projects](https://testsigma.com/docs/projects/overview/).
+> 2. [Documentation on creating test cases](https://testsigma.com/docs/test-cases/manage/add-edit-delete/).
+> 3. [Documentation on creting test steps](https://testsigma.com/docs/test-cases/create-steps-nl/overview/).
 
 ---
 
@@ -82,7 +85,7 @@ Here is a quick GIF demonstrating the above workflow: ![Select Test Data Types](
 
 ## **Plain Text**
 
-You can use Plain Text as a test data type in Testsigma. It is perfect for entering static and fixed values in your test cases. This type is suitable for providing constant information like usernames, passwords, or text that doesn't change during testing. Raw Data, where the data is directly specified, frequently uses Plain Text test data for test steps. For more information, refer to [Plain Text - Raw Data](https://testsigma.com/docs/test-data/types/raw/).
+You can use Plain Text as a test data type in Testsigma. It is perfect for entering static and fixed values in your test cases. This type is suitable for providing constant information like usernames, passwords, or text that doesn't change during testing. Raw Data, where the data is directly specified, frequently uses Plain Text test data for test steps. For more information on plain text - raw data, refer to the [documentation on plain text - raw data](https://testsigma.com/docs/test-data/types/raw/).
 
 For example, at the start of the test case, we specify the URL to navigate as shown below:
 ![Plain Text data type](https://s3.amazonaws.com/static-docs.testsigma.com/new_images/projects/applications/plaintext_testdata.png)
@@ -104,7 +107,7 @@ In this instance, we use Plain Text test data by directly providing the test dat
 ## **Parameter**
 
 - **Parameter Test Data** enables you to create a list of values for input during test execution and generate parameterised test cases to evaluate your application under different scenarios. This type of testing allows you to use parameters from your test data profile directly.
-- When selecting the parameter data type, you can choose the specific parameter required for your test case from a right-side panel with various available parameters. To perform data-driven testing, you can use Parameter Test Data. For more information, refer to the [Parameter Test Data Type](https://testsigma.com/docs/test-data/types/parameter/) and create [Test Data Profiles](https://testsigma.com/docs/test-data/create-data-profiles/) for [Data-driven Testing](https://testsigma.com/tutorials/test-cases/data-driven-testing/).
+- When selecting the parameter data type, you can choose the specific parameter required for your test case from a right-side panel with various available parameters. To perform data-driven testing, you can use Parameter Test Data. For more information on parameter test data type, refer to the [documentation on parameter test data type](https://testsigma.com/docs/test-data/types/parameter/), [documentation on creating test data profiles](https://testsigma.com/docs/test-data/create-data-profiles/), and  [documentation on data-driven testing](https://testsigma.com/tutorials/test-cases/data-driven-testing/).
 - To use Parameter Test Data, use the **@ Parameter** type and replace the word "**Parameter**" with the specified parameter name. For example, replace test data with **@ user 1**, where **user 1** corresponds to the parameter name in the **Test Data Profile**. ![Parameter Testdata Type](https://s3.amazonaws.com/static-docs.testsigma.com/new_images/projects/applications/parameter_testdatatypes.png)
 
 [[info | NOTE:]]
@@ -115,7 +118,7 @@ In this instance, we use Plain Text test data by directly providing the test dat
 ## **Runtime**
 
 - Use the **Store** keyword to store dynamic values, called **Runtime Variables**, that can change during a test. This keyword helps capture and reuse data within the same test Project, especially when dealing with values generated during the test.
-- You can use user-defined variables to define and manage Runtime data, and you don't need a separate interface for management. The execution of the test case is specific to the Runtime Test Data. Refer to the [Runtime Test Data](https://testsigma.com/docs/test-data/types/runtime/) for more information. ![Runtime Test Data Type](https://s3.amazonaws.com/static-docs.testsigma.com/new_images/projects/applications/runtime_testdata_type.png)
+- You can use user-defined variables to define and manage Runtime data, and you don't need a separate interface for management. The execution of the test case is specific to the Runtime Test Data. For more information on runtime test data, refer to the [documentation on runtime test data](https://testsigma.com/docs/test-data/types/runtime/). ![Runtime Test Data Type](https://s3.amazonaws.com/static-docs.testsigma.com/new_images/projects/applications/runtime_testdata_type.png)
 - Use a runtime data parameter to check a web page's title before and after a page reload. First, use a command to store the title in a runtime data parameter called "**Travel**". Then, verify the page title after reloading the page using the stored parameter with the statement You should see the page title as **$ Travel**.
 
 ---
@@ -124,7 +127,7 @@ In this instance, we use Plain Text test data by directly providing the test dat
 
 - Manage Environment Test Data Type on the Environments page with a limited scope to a project. The Environment Test Data Type contains environment-related information like URLs, API endpoints, and database connection details. You must configure test cases to work in various environments (e.g., development, staging, production).
 
-- You can use the *** Environment** type and substitute the parameter's name for "**Environment**" to use Testsigma's most versatile Test Data Type, the Environment Parameter. Refer to the [Environment](https://testsigma.com/docs/test-data/types/environment/) for more information. ![Environment Test data type](https://s3.amazonaws.com/static-docs.testsigma.com/new_images/projects/applications/environment_testdata_type.png)
+- You can use the *** Environment** type and substitute the parameter's name for "**Environment**" to use Testsigma's most versatile Test Data Type, the Environment Parameter. For more information on environment, refer to the [documentation on environment](https://testsigma.com/docs/test-data/types/environment/). ![Environment Test data type](https://s3.amazonaws.com/static-docs.testsigma.com/new_images/projects/applications/environment_testdata_type.png)
 
 [[info | EXAMPLE:]]
 | During executions, you can access separate Environment sets to store URLs and login details for environments like Production, Testing, Development, UAT, or Staging servers.
@@ -133,7 +136,7 @@ In this instance, we use Plain Text test data by directly providing the test dat
 
 ## **Random**
 
-Random Test Data Type generates random data such as numbers, email addresses, and passwords to add variety to your tests and create diverse test scenarios with unpredictable data. You can use the format **~ Random** and replace **~ Random** with an integer value from 1 to 256 to generate random values for Test Case execution. During Test Case Execution, you can specify the length of the alphanumeric character you want to receive by providing an integer value. Refer to the [Random Test Data](https://testsigma.com/docs/test-data/types/random/) for more information. ![Random Test data type](https://s3.amazonaws.com/static-docs.testsigma.com/new_images/projects/applications/random_testdata_type.png)
+Random Test Data Type generates random data such as numbers, email addresses, and passwords to add variety to your tests and create diverse test scenarios with unpredictable data. You can use the format **~ Random** and replace **~ Random** with an integer value from 1 to 256 to generate random values for Test Case execution. During Test Case Execution, you can specify the length of the alphanumeric character you want to receive by providing an integer value. For more information on random test data, refer to the [documentation on random test data](https://testsigma.com/docs/test-data/types/random/). ![Random Test data type](https://s3.amazonaws.com/static-docs.testsigma.com/new_images/projects/applications/random_testdata_type.png)
 
 [[info | EXAMPLE:]]
 | When you use **~|25|** in your test data, you will replace it with a **25**-character-long alphanumeric string during execution. Testsigma provides a random alphanumeric string of **N** characters when you include **~|N|** in a Test Step.
@@ -142,24 +145,24 @@ Random Test Data Type generates random data such as numbers, email addresses, an
 
 ## **Data Generator**
 
-Data Generator test data type generates realistic and structured data for testing purposes, such as names, addresses, and emails. You can obtain dynamic data by using the **Default Test Data Generator Functions**. To use them, you must substitute "**Data Generator**" with the specific name required in the **! Data Generator** format. Refer to the [Data Generator](https://testsigma.com/docs/test-data/types/data-generator/) for more information. ![Data Generator Data Type](https://s3.amazonaws.com/static-docs.testsigma.com/new_images/projects/applications/datagenerator_datatype.png)
+Data Generator test data type generates realistic and structured data for testing purposes, such as names, addresses, and emails. You can obtain dynamic data by using the **Default Test Data Generator Functions**. To use them, you must substitute "**Data Generator**" with the specific name required in the **! Data Generator** format. For more information on data generator, refer to the [documentation on data generator](https://testsigma.com/docs/test-data/types/data-generator/). ![Data Generator Data Type](https://s3.amazonaws.com/static-docs.testsigma.com/new_images/projects/applications/datagenerator_datatype.png)
 
 ---
 
 ## **Phone Number**
 
-Phone Number test data type allows you to create random or predefined phone numbers for testing SMS or phone number validation features. If you need a valid phone number to receive SMS codes for scenarios like two-factor authentication testing, Testsigma provides a test phone number that you can use as test data in your test steps. Refer to the [Phone Number](https://testsigma.com/docs/test-data/types/phone-number/) and [2-step Authentication](https://testsigma.com/tutorials/advanced/sms-based-two-factor-authentication-2fa/) for more information. ![Phone Number Data Type](https://s3.amazonaws.com/static-docs.testsigma.com/new_images/projects/applications/phonenumber_testdatatype.png)
+Phone Number test data type allows you to create random or predefined phone numbers for testing SMS or phone number validation features. If you need a valid phone number to receive SMS codes for scenarios like two-factor authentication testing, Testsigma provides a test phone number that you can use as test data in your test steps. For more information on phone number and 2-step authentication, refer to the [documentation on phone number](https://testsigma.com/docs/test-data/types/phone-number/) and [documentation on 2-step authentication](https://testsigma.com/tutorials/advanced/sms-based-two-factor-authentication-2fa/). ![Phone Number Data Type](https://s3.amazonaws.com/static-docs.testsigma.com/new_images/projects/applications/phonenumber_testdatatype.png)
 
 ---
 
 ## **Mail Box**
 
-Mailbox test data type generates email addresses and mailbox data for testing email-related functions, particularly for workflows involving OTPs or activation links. Testsigma enables you to use provisioned mailbox email addresses to input test data. Refer to the [Mail Box](https://testsigma.com/docs/test-data/types/mailbox/) for more information. ![Mail Box Data Type](https://s3.amazonaws.com/static-docs.testsigma.com/new_images/projects/applications/mailbox_testdatatype.png)
+Mailbox test data type generates email addresses and mailbox data for testing email-related functions, particularly for workflows involving OTPs or activation links. Testsigma enables you to use provisioned mailbox email addresses to input test data. For more information on mail box, refer to the [documentation on mail box](https://testsigma.com/docs/test-data/types/mailbox/). ![Mail Box Data Type](https://s3.amazonaws.com/static-docs.testsigma.com/new_images/projects/applications/mailbox_testdatatype.png)
 
 ---
 
 ## **Upload**
 
-Upload test data type enables you to easily upload files and applications to your tests using NLP, streamlining the process of adding attachments to your test cases. Refer to the [Upload Files](https://testsigma.com/docs/uploads/upload-files/) & [Apps](https://testsigma.com/docs/uploads/upload-apps/) for more information. ![Upload data type](https://s3.amazonaws.com/static-docs.testsigma.com/new_images/projects/applications/upload_testdata_type.png)
+Upload test data type enables you to easily upload files and applications to your tests using NLP, streamlining the process of adding attachments to your test cases. For more information on uploading files and apps, refer to the [documentation on uploading files](https://testsigma.com/docs/uploads/upload-files/) & [documentation on apps](https://testsigma.com/docs/uploads/upload-apps/). ![Upload data type](https://s3.amazonaws.com/static-docs.testsigma.com/new_images/projects/applications/upload_testdata_type.png)
 
 ---

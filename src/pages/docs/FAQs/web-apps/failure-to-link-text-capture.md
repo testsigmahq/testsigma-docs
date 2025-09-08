@@ -30,9 +30,11 @@ In automated testing, test failures often occur when the recorder captures link 
 
 ---
 
-## **Prerequisites**
-
-Before you proceed, ensure you know how to create or update an [Element](https://testsigma.com/docs/elements/web-apps/create-manually/) and a [Test Case](https://testsigma.com/docs/test-cases/manage/add-edit-delete/).
+> <p id="prerequisites">Prerequisites</p>
+>
+> Before you begin, ensure that you have referred to:
+> 1. [Documentation on updating elements](https://testsigma.com/docs/elements/web-apps/create-manually/).
+> 2. [Documentation on creating test cases](https://testsigma.com/docs/test-cases/manage/add-edit-delete/).
 
 ---
 

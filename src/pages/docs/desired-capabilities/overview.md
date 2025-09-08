@@ -29,10 +29,11 @@ Desired Capabilities are a set of properties used for customizing the Test Envir
 
 ---
 
-## **Prerequisites**
-
-- You know how to [Create Ad Hoc Runs](https://testsigma.com/docs/runs/adhoc-runs/).
-- You should know [Create Test Plans](https://testsigma.com/docs/test-management/test-plans/overview/).
+> <p id="prerequisites">Prerequisites</p>
+>
+> Before you begin, ensure that you have referred to:
+> 1. [Documentation on creating Ad-Hoc runs](https://testsigma.com/docs/runs/adhoc-runs/).
+> 2. [Documentation on creating test plans](https://testsigma.com/docs/test-management/test-plans/overview/).
 
 ---
 

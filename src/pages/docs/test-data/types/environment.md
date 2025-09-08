@@ -39,12 +39,16 @@ In Testsigma, you can handle and use specific sets of test data linked to differ
 
 ---
 
-> ## **Prerequisites**
+> <p id="prerequisites">Prerequisites</p>
 > 
-> - You should know how to create a [Test Case](https://testsigma.com/docs/test-cases/manage/add-edit-delete/#creating-a-test-case) and [Test Steps](https://testsigma.com/docs/test-cases/step-types/natural-language/). 
-> - You should know how to create an [Environment](https://testsigma.com/docs/test-data/create-environment-data/).
-> - You should know how to create a [Test Plan](https://testsigma.com/docs/runs/test-plan-executions/#steps-to-create-and-execute-test-plan) and how to use them with [Test Data Types](https://testsigma.com/docs/test-data/types/overview/).
-> - You should know how to perform [Ad-Hoc Runs](https://testsigma.com/docs/runs/adhoc-runs/#steps-to-perform-ad-hoc-runs-for-a-test-case).
+> 
+> Before you begin, ensure that you have referred to:
+> 1. [Documentation on creating test cases](https://testsigma.com/docs/test-cases/manage/add-edit-delete/#creating-a-test-case).
+> 2. [Documentation on creating test steps](https://testsigma.com/docs/test-cases/step-types/natural-language/).
+> 3. [Documentation on creating environment](https://testsigma.com/docs/test-data/create-environment-data/).
+> 4. [Documentation on creating test plan](https://testsigma.com/docs/runs/test-plan-executions/#steps-to-create-and-execute-test-plan).
+> 5. [Documentation on creating test data types](https://testsigma.com/docs/test-data/types/overview/).
+> 6. [Documentation on performing Ad-Hoc runs](https://testsigma.com/docs/runs/adhoc-runs/#steps-to-perform-ad-hoc-runs-for-a-test-case).
 
 ---
 

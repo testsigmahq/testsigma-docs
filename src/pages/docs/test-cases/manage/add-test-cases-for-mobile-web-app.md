@@ -24,13 +24,13 @@ Using the Testsigma test recorder, you can easily create test cases for mobile w
 
 ---
 
-> ## **Prerequisites**
+> <p id="prerequisites">Prerequisites</p>
 >
-> - You should know how to create a [project](https://testsigma.com/docs/projects/overview/) and [application](https://testsigma.com/docs/projects/applications/) in Testsigma.
->
-> - You should have [Testsigma chrome extension installed](https://testsigma.com/docs/test-step-recorder/install-chrome-extension/). 
->
-> - A mobile web app to test.
+> Before you begin, ensure that you have referred to:
+> 1. [Documentation on creating projects](https://testsigma.com/docs/projects/overview/).
+> 2. [Documentation on creating applications](https://testsigma.com/docs/projects/applications/). 
+> 3. [Documentation on Testsigma chrome extension installation](https://testsigma.com/docs/test-step-recorder/install-chrome-extension/). 
+> 4. Also, you have a mobile web app to test.
 
 ---
 

@@ -59,7 +59,7 @@ We need to add a local agent in Testsigma and link this agent as a Test Machine 
 
 We must configure the local machine once the local agent is added to Testsigma. This is done so that the local machine can accept communication in the form of HTTP packets from Testsigma servers. This step is preconfigured in other Cloud Execution Models such as Testsigma Labs, Sauce Labs, and BrowserStack. If you prefer the easy method, use the cloud execution models to select the execution environment from the list of available devices. 
 
-Continuing with the Hybrid Execution setup, we must first set up the Testsigma agent on the local Mac. Please check the following article for a detailed guide on [setting up Testsigma Agent](https://testsigma.com/docs/agent/setup-on-windows-mac-linux/). 
+Continuing with the Hybrid Execution setup, we must first set up the Testsigma agent on the local Mac. For more information on setting up Testsigma Agent, refer to the  [documentation on setting up Testsigma Agent](https://testsigma.com/docs/agent/setup-on-windows-mac-linux/). 
 
 Assuming you already have the prerequisites, such as Appium and XCode configured, we will run tests once the Testsigma Agent is configured. 
 

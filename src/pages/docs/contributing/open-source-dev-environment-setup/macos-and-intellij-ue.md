@@ -34,17 +34,16 @@ contextual_links:
 
 ---
 
-## **Pre-Requisites**
-- **OS:** macOS / Linux
-- **IDE:** IntelliJ IDE Editor - Ultimate Edition
+> <p id="prerequisites">Prerequisites</p>
+> 
+> Before you begin, ensure that you have:
+> 1. **OS:** macOS / Linux
+> 2. **IDE:** IntelliJ IDE Editor - Ultimate Edition
+> 3. Open JDK 11
+> 4. Apache httpd
+> 5. npm and nodejs (>= 12)
+> 6. mysql5.7
 
-<br>
-
-## **Pre-Requisite Software and Service Installation**
-- Open JDK 11
-- npm and nodejs (>= 12)
-- Apache httpd
-- mysql5.7
 
 <br>
 

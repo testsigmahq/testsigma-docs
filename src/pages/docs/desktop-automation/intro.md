@@ -27,9 +27,9 @@ Testsigma supports testing desktop applications on Windows systems for UIA and S
 
 ---
 
-## **Prerequisites**
-
-Before you begin, ensure that Testsigma Terminal is installed on your Windows system and that the WinTest Automation folder is present in the Testsigma Agent directory. 
+> <p id="prerequisites">Prerequisites</p>
+>
+> Before you begin, ensure that Testsigma Terminal is installed on your Windows system and that the WinTest Automation folder is present in the Testsigma Agent directory. 
 
 ---
 

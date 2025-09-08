@@ -43,9 +43,19 @@ This documentation will guide you through setting up Test Labs and Test Machines
 
 ---
 
-## **Prerequisites:**
-
-Before using the Ad-hoc Run, you must understand specific concepts such as creating [Projects](https://testsigma.com/docs/projects/overview/) and [Test Cases](https://testsigma.com/docs/test-cases/manage/add-edit-delete/), understanding [Test Labs](https://testsigma.com/docs/test-management/test-plans/supported-test-lab-types/), setting up [Local Devices with Testsigma Agent](https://testsigma.com/docs/agent/overview/), [Environments](https://testsigma.com/docs/test-data/types/environment/#use-environment-in-ad-hoc-run-page), [Headless Tests](https://testsigma.com/docs/test-management/test-plans/headless-testing/#enabling-headless-browser-testing-in-test-case), and [Desired Capabilities](https://testsigma.com/docs/desired-capabilities/overview/) for all applications. You should also be familiar with [Uploads](https://testsigma.com/docs/uploads/upload-apps/), [Camera Image Injection](https://testsigma.com/docs/test-cases/image-injection/) and [Network Logs](https://testsigma.com/docs/desired-capabilities/network-logs/#enable-network-logs-in-test-case) for Android and iOS applications.
+> <p id="prerequisites">Prerequisites</p>
+>
+> Before you begin, ensure that you have referred to:
+> 1. [Documentation on creating projects](https://testsigma.com/docs/projects/overview/).
+> 2. [Documentation on creating test cases](https://testsigma.com/docs/test-cases/manage/add-edit-delete/).
+> 3. [Documentation on creating test labs](https://testsigma.com/docs/test-management/test-plans/supported-test-lab-types/).
+> 4. [Documentation on setting up local devices with Testsigma Agent](https://testsigma.com/docs/agent/overview/).
+> 5. [Documentation on creating environments](https://testsigma.com/docs/test-data/types/environment/#use-environment-in-ad-hoc-run-page).
+> 6. [Documentation on creating headless tests](https://testsigma.com/docs/test-management/test-plans/headless-testing/#enabling-headless-browser-testing-in-test-case).
+> 7. [Documentation on managing desired capabilities](https://testsigma.com/docs/desired-capabilities/overview/) for all applications. 
+> 8. [Documentation on uploads](https://testsigma.com/docs/uploads/upload-apps/).
+> 9. [Documentation on creating camera image injection](https://testsigma.com/docs/test-cases/image-injection/).
+> 10. [Documentation on creating network logs](https://testsigma.com/docs/desired-capabilities/network-logs/#enable-network-logs-in-test-case) for Android and iOS applications.
 
 ---
 

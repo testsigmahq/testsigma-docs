@@ -29,8 +29,8 @@ Element in an Android project in Testsigma refers to an object that forms a part
 
 There are 2 different ways to create elements in Testsigma:
 
-1. **Manual Creation:** Here, you manually give the details of the element to create them. For more information, see [creating elements manually](https://testsigma.com/docs/elements/android-apps/create-manually/).
-2. **Using Test Recorder:** Here, you access your application’s UI using test recorder and inspect the elements that you want to capture. For more information, see [capturing elements using test recorder](https://testsigma.com/docs/elements/android-apps/capture-single-element/).
+1. **Manual Creation:** Here, you manually give the details of the element to create them. For more information on creating elements manually, refer to the [documentation on creating elements manually](https://testsigma.com/docs/elements/android-apps/create-manually/).
+2. **Using Test Recorder:** Here, you access your application’s UI using test recorder and inspect the elements that you want to capture. For more information on capturing elements using test recorder, refer to the [documentation on capturing elements using test recorder](https://testsigma.com/docs/elements/android-apps/capture-single-element/).
 
 ---
 

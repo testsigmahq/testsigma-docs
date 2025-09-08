@@ -37,18 +37,16 @@ contextual_links:
 
 ---
 
-## **Pre-Requisites**
-- **OS:** macOS / Linux
-- **IDE:** IntelliJ IDE Editor - Community Edition
-
-<br>
-
-## **Pre-Requisite Software and Service Installation**
-- Open JDK 11
-- Apache httpd
-- npm and nodejs (>= 12)
-- mysql5.7
-- angular CLI 12
+> <p id="prerequisites">Prerequisites</p>
+> 
+> Before you begin, ensure that you have:
+> 1. **OS:** macOS / Linux
+> 2. **IDE:** IntelliJ IDE Editor - Community Edition
+> 3. Open JDK 11
+> 4. Apache httpd
+> 5. npm and nodejs (>= 12)
+> 6. mysql5.7
+> 7. angular CLI 12
 
 <br>
 

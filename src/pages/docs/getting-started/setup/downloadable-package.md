@@ -32,7 +32,7 @@ contextual_links:
 
 ---
 
-## **Prerequisites**
+<p id="prerequisites">Prerequisites</p>
 
 Create a folder called testsigma where you would like to install Testsigma. 
 

@@ -35,11 +35,11 @@ In Testsigma, you can add **If**, **Else**, and **Else If** in your test cases b
 ---
 
 
-> ## **Prerequisites**
+> <p id="prerequisites">Prerequisites</p>
 > 
-> - You should also know how to [create a test case](https://testsigma.com/docs/test-cases/manage/add-edit-delete/).
-> 
-> - You should have Testsigma recorder extension. See [install chrome extension](https://testsigma.com/docs/test-step-recorder/install-chrome-extension/).
+> Before you begin, ensure that:
+> 1. You have installed the Testsigma Recorder Extension. For more information on installing chrome extension, refer to the [documentation on installing chrome extension](https://testsigma.com/docs/test-step-recorder/install-chrome-extension/).
+> 2. You have referred to the [documentation on creating test cases](https://testsigma.com/docs/test-cases/manage/add-edit-delete/). 
 
 
 ---
@@ -119,7 +119,7 @@ We can also add the **If Condition** while creating test steps using Testsigmaâ€
   
    ![Done](https://s3.amazonaws.com/static-docs.testsigma.com/new_images/projects/applications/IfCondition_StopRecording.png)
 
-*For more information on creating steps using recorder, refer to [recording test steps](https://testsigma.com/docs/test-cases/create-test-steps/overview/#creating-test-steps-using-test-recorder).*
+*For more information on creating steps using recorder, refer to the [documentation on recording test steps](https://testsigma.com/docs/test-cases/create-test-steps/overview/#creating-test-steps-using-test-recorder).*
 
 
 Hereâ€™s a quick GIF demonstrating how to add **If Conditions** for web apps using recorder. 

@@ -35,9 +35,10 @@ Testsigma provides a comprehensive and user-friendly solution for efficiently cr
 
 ---
 
-> ## **Prerequisites**
+> <p id="prerequisites">Prerequisites</p>
 >
-> Ensure you create a [Project](https://testsigma.com/docs/projects/overview/) before creating Test Cases in Testsigma. 
+> Before you begin, ensure that you have referred to:
+> 1. [Documentation on creating projects](https://testsigma.com/docs/projects/overview/).
 
 ---
 
@@ -91,11 +92,11 @@ Use the right-side navbar on the **Test Case Details** page to access Advanced O
            [[info | **NOTE**:]]
            | Choose the option based on the test case requirement & expected execution behavior.
     
-    - **Test Data Profile**: If you use parameter-type test data in your test steps, refer to the [Test Data Profile](https://testsigma.com/docs/test-data/create-data-profiles/) and select it in the Test Case.
+    - **Test Data Profile**: If you use parameter-type test data in your test steps, refer to the [documentation on creating test data profile](https://testsigma.com/docs/test-data/create-data-profiles/) and select it in the Test Case.
     
     - **Test Data Set**: Specify the data set in the test data profile used in the test case.
     
-    - **Data-Driven** (toggle): To repeatedly run the same test case with different input field data sets, add a Test Data Profile and enable the Data-Driven toggle. Once enabled, customise various data sets from your test data profile used in your test case using filters such as iteration, parameter, and set name. Refer to data-driven testing for more information.
+    - **Data-Driven** (toggle): To repeatedly run the same test case with different input field data sets, add a Test Data Profile and enable the Data-Driven toggle. Once enabled, customise various data sets from your test data profile used in your test case using filters such as iteration, parameter, and set name. For more information on data-driven testing, refer to the [documentation on data-driven testing](https://testsigma.com/tutorials/test-cases/data-driven-testing/).
     
       - **Iteration**: You can filter sequential data sets using greater than, less than, or between operations. Note that this filtering only applies to sequential data sets. 
       - **Set Name**: Filter non-sequential data sets using this type of filtering. Use operations such as between, equals, contains, starts with, and ends with to filter the data sets by their names. The test case checks for any data set names with the specified name or a part of it.
@@ -103,7 +104,7 @@ Use the right-side navbar on the **Test Case Details** page to access Advanced O
     
     - **Fail Test Case if Visual Testing Fails**: To ensure the accuracy and consistency of the application's user interface across different environments and iterations, enable this option that automatically marks a test case as failed if it detects any visual discrepancies during execution.
     
-    - **After Test Case**: Define custom steps or tasks to perform after executing a test case using Testsigma. These steps facilitate clean-up or preparation for subsequent test cases. For more information, refer to [After Test Case](https://testsigma.com/docs/test-management/test-plans/after-test/#after-test-in-test-cases).
+    - **After Test Case**: Define custom steps or tasks to perform after executing a test case using Testsigma. These steps facilitate clean-up or preparation for subsequent test cases. For more information on managing after test case, refer to the [documentation on managing after test case](https://testsigma.com/docs/test-management/test-plans/after-test/#after-test-in-test-cases).
       - **If After Test Fails** - **Fail the Test Case**: If the execution of after-test actions, such as post-validation checks or clean-up steps, encounters any failure or error, the test case will automatically fail. This ensures that any issues in the test's conclusion are promptly identified and resolved.
       - **If After Test Fails** - **Show Test Case Result**: The test case result will be shown even if the after-test actions fail. This gives you a complete view of the test's behaviour and provides valuable insights into the overall test case execution, including any possible issues that may arise during the post-validation or clean-up phases.
     
@@ -117,23 +118,23 @@ Use the right-side navbar on the **Test Case Details** page to access Advanced O
       - **Obsolete**: The test case is no longer valid.
       - **Rework**: The test case needs to be updated.
     
-    - **Priority**: Select the priority level you want to set for this test case. For more information, refer to [Test Case Priorities](https://testsigma.com/docs/projects/settings/test-case-priorities/).
+    - **Priority**: Select the priority level you want to set for this test case. For more information on configuring test case priorities, refer to the [documentation on configuring test case priorities](https://testsigma.com/docs/projects/settings/test-case-priorities/).
       - **Critical**: Highest priority
       - **Major**: Test case for a major feature
       - **Medium**: Medium priority
       - **Minor**: Test case for a minor feature
     - **Assignee**: Choose the team member you want to assign to this test case. The team member assigned will receive notifications regarding test case failures during test case reviews.
     
-    - **Reviewer**: Assign a team member to review the accuracy, completeness, and adherence to testing standards of the test case. This promotes collaboration and ensures the quality of the test cases. For more information, refer to [Test Case Review management](https://testsigma.com/docs/collaboration/test-cases-review-management/).
+    - **Reviewer**: Assign a team member to review the accuracy, completeness, and adherence to testing standards of the test case. This promotes collaboration and ensures the quality of the test cases. For more information on test case review management, refer to the [documentation on test case review management](https://testsigma.com/docs/collaboration/test-cases-review-management/).
     
-    - **Test Type**: You must select the appropriate test method to apply using this test case. For more information, refer to [Test Case Types](https://testsigma.com/docs/projects/settings/test-case-types/).
+    - **Test Type**: You must select the appropriate test method to apply using this test case. For more information on configuring test case types, refer to the [documentation on configuring test case types](https://testsigma.com/docs/projects/settings/test-case-types/).
       - **Unit Test**: Test individual components or modules of the software to ensure their functionality in isolation.
       - **Integration**: Test the interaction and compatibility between multiple components or modules to ensure they work together correctly.
       - **Functional**: Test the functional requirements of a software application to ensure it meets the intended specifications.
       - **Non-functional**: Test a software application's performance, usability, security, and other non-functional aspects.
       - **User Experience**: Test a software application's overall user experience, usability, and interface to ensure it meets user expectations.
     
-    - **Requirement**: Create new requirements and associate them with test cases to establish traceability between requirements and test cases. This ensures that all necessary functionalities are adequately tested. For more information, refer to [Requirements](https://testsigma.com/docs/projects/requirements/).
+    - **Requirement**: Create new requirements and associate them with test cases to establish traceability between requirements and test cases. This ensures that all necessary functionalities are adequately tested. For more information on creating requirements, refer to the [documentation on creating requirements](https://testsigma.com/docs/projects/requirements/).
     
     - **Labels**: Categorize test cases based on specific attributes such as modules, components, or testing phases by applying labels. Labels facilitate efficient filtering and searching, making managing and retrieving relevant test cases more manageable.
 
@@ -147,7 +148,7 @@ Use the right-side navbar on the **Test Case Details** page to access Advanced O
 
 1. Navigate to **Create Tests** > **Test Cases** in the left-side navbar. 
 
-2. Select the **Test Case** in the **Test Cases List** page and follow the steps mentioned in the [Test Case - Advanced Options](https://testsigma.com/docs/test-cases/manage/add-edit-delete/#test-case----advanced-options) section above to edit the test case.
+2. Select the **Test Case** in the **Test Cases List** page and follow the steps mentioned in the [documentation on configuring test case - advanced options](https://testsigma.com/docs/test-cases/manage/add-edit-delete/#test-case----advanced-options) section above to edit the test case.
 
 ---
 

@@ -28,7 +28,7 @@ contextual_links:
   name: "Search NLP Templates Using API"
   url: "#search-nlp-templates-using-api"
 - type: link
-  name: "Update a test step Using API"
+  name: "Update a Test Step Using API"
   url: "#update-a-test-step-using-api"
 - type: link
   name: "Delete a Test Step Using API"
@@ -41,12 +41,13 @@ With Testsigma, you can create, update, retrieve, and delete test steps in a tes
 
 ---
 
-> ## **Prerequisites**
+> <p id="prerequisites">Prerequisites</p>
 > 
 > Before you begin, ensure you have:
-> - **testCaseId**: You can find it in the URL of the test case in the Testsigma app.
-> - **previousStepId**: The ID of the step after which the new step should be added. You can get it from the response of List Test Case Steps Using the REST API. 
-> - **templateId**: The ID of the NLP template that defines the action. You can get it by searching with the Search NLP Templates Using REST API.
+>
+> 1. **testCaseId**: You can find it in the URL of the test case in the Testsigma app.
+> 2. **previousStepId**: The ID of the step after which the new step should be added. You can get it from the response of List Test Case Steps Using the REST API. 
+> 3. **templateId**: The ID of the NLP template that defines the action. You can get it by searching with the Search NLP Templates Using REST API.
 
 ---
 
@@ -56,16 +57,17 @@ This endpoint allows users to create one step in a test case.
 
 |**Request Type**|**POST**|
 |---|---|
-|**Endpoint**|https://app.testsigma.com/api/v1/test_steps|
+|**Endpoint**|https://app.testsigma.com/api/v2/test_steps|
 |**Authorization**|Bearer **<API_Token>**<br>Same as the Testsigma API key mentioned above.|
 |**Request Body Type (JSON)**|Raw|
-|**Payload**|<pre>{<br>  "testCaseId": 9,<br>  "templateId": 1044,<br>  "previousStepId": 223,<br>  "text": "https://www.google.com",<br>  "type": "NLP\_TEXT"<br>}<pre>|
+|**Payload**|<pre>{<br>  "testCaseId": 9,<br>  "templateId": 1044,<br>  "previousStepId": 223,<br>  "elementId": 567,<br>  "text": "https://www.google.com",<br>  "type": "NLP\_TEXT"<br>}<pre>|
 |**Response Body(JSON)**|<pre>{<br>  "id": 5846,<br>  "action": "Navigate to https://www.google.com",<br>  "type": "NLP\_TEXT",<br>  "conditionType": null,<br>  "testCaseId": 9,<br>  "stepGroupId": null<br>}<pre>|
 
 
 **Request Fields:**
 - **testCaseId**: The ID of the test case where you want to add the new step.
 - **templateId**: A unique identifier for the type of action you're performing (e.g., navigating to a URL).
+- **elementId**: The ID of the element associated with this step (required for templates with **${ui-identifier}** in grammar).
 - **previousStepId**: The ID of the step that the new step should follow.
 - **text**: The value of the step's action, in this case, the URL to navigate to.
 - **type**: The type of the test step. We support both:
@@ -93,20 +95,21 @@ This endpoint allows users to create multiple test steps in a single request.
 
 |**Request Type**|**POST**|
 |---|---|
-|**Endpoint**|https://app.testsigma.com/api/v1/test_steps/bulk|
+|**Endpoint**|https://app.testsigma.com/api/v2/test_steps/bulk|
 |**Authorization**|Bearer **<API_Token>**<br>Same as the Testsigma API key mentioned above.|
 |**Request Body Type (JSON)**|Raw|
-|**Payload**|<pre>{<br>  "testCaseId": 9,<br>  "steps": [<br>    {<br>      "templateId": 1044,<br>      "text": "https://www.google.com",<br>      "type": "NLP\_TEXT"<br>    },<br>    {<br>      "templateId": 37,<br>      "type": "NLP\_TEXT"<br>    }<br>  ]<br>}<pre>|
+|**Payload**|<pre>{<br>  "testCaseId": 9,<br>  "steps": [<br>    {<br>      "templateId": 1044,<br>      "elementId": 567,<br>      "text": "https://www.google.com",<br>      "type": "NLP\_TEXT"<br>    },<br>    {<br>      "templateId": 37,<br>      "type": "NLP\_TEXT"<br>    }<br>  ]<br>}<pre>|
 |**Response Body(JSON)**|<pre>Returns an array of newly created test step objects.<pre>|
 
 **Request Fields:**
-**testCaseId**: Target test case ID
-**steps**:  Array of step objects
-**templateId**:  NLP template ID for the step
-**text**: Step input or parameter value
-**type**: The type of the test step. We support both:
-**NLP\_TEXT**: For Natural Language Processing text steps.
-**STEP\_GROUP**: For a group of multiple steps executed together.
+- **testCaseId**: Target test case ID
+- **steps**:  Array of step objects
+- **templateId**:  NLP template ID for the step
+- **elementId**: The ID of the element associated with this step (required for templates with **${ui-identifier}** in grammar).
+- **text**: Step input or parameter value
+- **type**: The type of the test step. We support both:
+   - **NLP\_TEXT**: For Natural Language Processing text steps.
+   - **STEP\_GROUP**: For a group of multiple steps executed together.
 
 [[info | **NOTE**:]]
 | - For a **NLP\_TEXT** step, **templateId** is mandatory and stepGroupId should be set to null in the payload.
@@ -123,8 +126,8 @@ This endpoint allows users to fetch a specific test step by ID.
 
 |**Request Type**|**GET**|
 |---|---|
-|**Endpoint**|https://app.testsigma.com/api/v1/test_steps/{id}|
-|**Path Parameter**|`id` – Identifier of the Test Step|
+|**Endpoint**|https://app.testsigma.com/api/v2/test_steps/{id}|
+|**Path Parameter**|**id** – Identifier of the Test Step|
 |**Response Body (JSON)**|<pre>{<br>  "id": 12345,<br>  "action": "Click on the login button",<br>  "type": "NLP\_TEXT",<br>  "stepOrder": 1.0,<br>  "testCaseId": 123,<br>  "templateId": 456,<br>  ...<br>}<pre>|
 
 
@@ -144,8 +147,8 @@ This endpoint retrieves all steps of a specific test case in their execution ord
 
 |**Request Type**|**GET**|
 |---|---|
-|**Endpoint**|https://app.testsigma.com/api/v1/test_steps/find_all/{testCaseId}|
-|**Path Parameter**|`testCaseId`: Identifier of the test case|
+|**Endpoint**|https://app.testsigma.com/api/v2/test_steps/find_all/{testCaseId}|
+|**Path Parameter**|**testCaseId**: Identifier of the test case|
 |**Response Body (JSON)**|<pre>Returns an array of test step objects in step sequence order<pre>|
 
 ---
@@ -157,7 +160,7 @@ This endpoint allows users to search NLP templates for creating steps.
 |**Request Type**|**GET**|
 |---|---|
 |**Endpoint**|https://app.testsigma.com/api/v2/test_steps/nlp/{applicationType}/templates/{searchText}|
-|**Path Parameter**|`applicationType`: WebApplication, MobileWeb, IOSNative, AndroidNative, Rest, Salesforce <br><br>`searchText`: Keywords used to search for templates|
+|**Path Parameter**|**applicationType**: WebApplication, MobileWeb, IOSNative, AndroidNative, Rest, Salesforce <br><br>**searchText**: Keywords used to search for templates|
 |**Response Body (JSON)**|<pre>[<br>  {<br>    "id": 456,<br>    "keyword": "click",<br>    "grammar": "Click on the ${ui-identifier}",<br>    "action": "click"<br>  }<br>]<pre>|
 
 **Response Fields:**
@@ -178,12 +181,13 @@ This endpoint allows users to update an existing test step.
 |**Authorization**|Bearer **<API_Token>**|
 |**Path Parameter**|**id**: The test step ID that needs to be updated.|
 |**Request Body Type (JSON)**|Raw|
-|**Payload**|<pre>{<br>  "testCaseId": 9,<br>  "templateId": 1044,<br>  "text": "your password",<br>  "type": "NLP\_TEXT"<br>}<pre>|
+|**Payload**|<pre>{<br>  "testCaseId": 9,<br>  "templateId": 1044,<br>  "elementId": 567,<br>  "text": "your password",<br>  "type": "NLP\_TEXT"<br>}<pre>|
 |**Response Body(JSON)**|<pre>{<br>  "id": 12,<br>  "action": "Enter password in the Enter Password field",<br>  "type": "NLP\_TEXT",<br>  "conditionType": null,<br>  "testCaseId": 1,<br>  "stepGroupId": null<br>}<pre>|
 
 **Request Fields:**
 - **testCaseId**: Target test case ID where the step will be created
 - **templateId**: NLP template ID for the step
+- **elementId**: The ID of the element associated with this step (required for templates with **${ui-identifier}** in grammar).
 - **text**: Step input or parameter value
 - **type**: The type of the test step. We support both:
    - **NLP\_TEXT**: For Natural Language Processing text steps.

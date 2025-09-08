@@ -31,11 +31,11 @@ In Testsigma, you can create a while loop to execute a test step repeatedly if a
 
 ---
 
-> ## **Prerequisites**
+> <p id="prerequisites">Prerequisites</p>
 > 
-> - You should also know how to [create a test case](https://testsigma.com/docs/test-cases/manage/add-edit-delete/).
-> 
-> - You should have Testsigma Recorder Extension. See [install chrome extension](https://testsigma.com/docs/test-step-recorder/install-chrome-extension/).
+> Before you begin, ensure that:
+> 1. You have installed the Testsigma Recorder Extension. For more information on installing chrome extension, refer to the [documentation on installing chrome extension](https://testsigma.com/docs/test-step-recorder/install-chrome-extension/).
+> 2. You have referred to the [documentation on creating test cases](https://testsigma.com/docs/test-cases/manage/add-edit-delete/). 
 
 ---
 

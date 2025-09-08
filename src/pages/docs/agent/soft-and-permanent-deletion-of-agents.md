@@ -26,9 +26,10 @@ Managing a long list of Agents can make selecting the right Agent while executin
 
 ---
 
-## **Prerequisites**
-
-- You should have [registered agents](https://testsigma.com/docs/agent/setup-on-windows-mac-linux/#register-the-testsigma-agent) on Testsigma.
+> <p id="prerequisites">Prerequisites</p>
+> 
+> Before you begin, ensure that you have referred to: 
+> 1. [Documentation on setting up Testsigma Agent](https://testsigma.com/docs/agent/setup-on-windows-mac-linux/#register-the-testsigma-agent).
 
 ---
 

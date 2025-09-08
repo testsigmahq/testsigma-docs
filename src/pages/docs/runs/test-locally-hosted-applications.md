@@ -52,7 +52,7 @@ The whitelisting process involves adding Testsigma IP addresses to a list of all
 
 Connect with your *Network Administrator* or *Infosec Team* to whitelist the necessary Testsigma IP addresses.
 
-For more information, see [Guide to IP Whitelisting](https://www.linkedin.com/pulse/ip-whitelisting-definitive-guide-joshua-oyelalu-2knjf/).
+For more information on IP whiltelisting, refer to the [documentation on IP whitelisting](https://www.linkedin.com/pulse/ip-whitelisting-definitive-guide-joshua-oyelalu-2knjf/).
 
 
 ---
@@ -63,13 +63,13 @@ You can also test locally hosted applications using the Testsigma Agent, which a
 
 **For setup and execution, refer to the following links:**
 
-- [Setting Up Testsigma Agent](https://testsigma.com/docs/agent/setup-on-windows-mac-linux/)
+- [Documentation on setting up Testsigma Agent](https://testsigma.com/docs/agent/setup-on-windows-mac-linux/).
 
-- [Triggering Tests on Local Devices](https://testsigma.com/docs/agent/trigger-tests-locally/)
+- [Documentation on triggering tests on local devices](https://testsigma.com/docs/agent/trigger-tests-locally/).
 
-- [Executing Test Plans on Local Devices](https://testsigma.com/docs/runs/test-plans-on-local-devices/)
+- [Documentation on executing test plans on local devices](https://testsigma.com/docs/runs/test-plans-on-local-devices/).
 
-- [Performing Dry Runs on Local Devices](https://testsigma.com/docs/runs/dry-runs-on-local-devices/)
+- [Documentation on performing dry runs on local devices](https://testsigma.com/docs/runs/dry-runs-on-local-devices/).
 
 
 ---
