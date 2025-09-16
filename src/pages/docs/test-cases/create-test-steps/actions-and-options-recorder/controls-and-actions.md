@@ -21,6 +21,15 @@ contextual_links:
 
 The test recorder in Testsigma lets you generate test steps automatically in plain English by recording your actions in the application UI. This article discusses the control options and actions in Testsigma's Test Recorder for Android and iOS applications.
 
+<br>
+
+<div style="position: relative; padding-bottom: 56.25%; height: 0; overflow: hidden;">
+  <iframe src="https://s3.amazonaws.com/static-docs.testsigma.com/new_images/projects/New_Doc_Videos/Controls_Actions.mp4" 
+          style="position: absolute; top: 0; left: 0; width: 100%; height: 100%; border: 0;" 
+          allowfullscreen>
+  </iframe>
+</div>
+
 ---
 
 > <p id="prerequisites">Prerequisites</p>
