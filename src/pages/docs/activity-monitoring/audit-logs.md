@@ -48,10 +48,12 @@ Audit logs provide a complete record of all key activities in your Testsigma acc
 ## **View Audit Logs**
 
 1. From the left navigation bar, go to **Settings > Audit Logs**.
+   ![Audit Logs](https://s3.amazonaws.com/static-docs.testsigma.com/new_images/projects/Updated_Doc_Images/Audit_Logs_Navigation.png)
 
 2. The **Audit Logs** page lists all recorded activities.
 
 3. Each log entry includes the following details:
+   ![Log Details](https://s3.amazonaws.com/static-docs.testsigma.com/new_images/projects/Updated_Doc_Images/Log_details.png)   
    - **Time**: Date and time when the action occurred.
    - **Event Type**: The entity type in Testsigma (**Test Case, Test Suite, Test Plan, Test Data, Element, Environment, Authentication & Access Bridge**).
    - **Project/App/Version**: The project, application, and version where the change was made.
@@ -64,6 +66,8 @@ Audit logs provide a complete record of all key activities in your Testsigma acc
 ## **Filter Audit Logs**
 
 You can narrow down audit log results using the following filters:
+
+![Filters](https://s3.amazonaws.com/static-docs.testsigma.com/new_images/projects/Updated_Doc_Images/Filter_Audit_Logs.png)
 
 1. **Event Type**: Displays logs for a specific entity in Testsigma, such as Test Case, Test Suite, Test Plan, Test Data, Element, Environment, Authentication & Access Bridge. 
 
@@ -82,6 +86,7 @@ You can narrow down audit log results using the following filters:
 1. On the **Audit Logs** page, apply the required filters.
 
 2. In the top-right corner, click **Export**.
+   ![Export Audit Logs](https://s3.amazonaws.com/static-docs.testsigma.com/new_images/projects/Updated_Doc_Images/Export_Audit_Logs.png)
 
 3. In the confirmation dialog, click **Export**. A confirmation message appears indicating that the export has been initiated.
 
@@ -90,6 +95,6 @@ You can narrow down audit log results using the following filters:
 5. Go to **Settings > Exports**.
 
 6. On the **Exports** page, click **Download** next to the generated audit log report.
-
+   ![Download Audit Logs](https://s3.amazonaws.com/static-docs.testsigma.com/new_images/projects/Updated_Doc_Images/Download_Audit_Logs.png)
 
 ---
