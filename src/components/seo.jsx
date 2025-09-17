@@ -97,7 +97,7 @@ function SEO({
       <meta
         httpEquiv='Content-Security-Policy'
         content="default-src 'self' https://*.testsigma.com https://stream.mux.com https://stream.hubilo.com https://s3.us-east-1.amazonaws.com;
-    style-src 'self' https://*.testsigma.com https://fonts.googleapis.com 'unsafe-inline' https://*.freshchat.com;
+    style-src 'self' https://*.testsigma.com https://fonts.googleapis.com 'unsafe-inline' https://*.freshchat.com https://d2v000000sgbdea0.my.site.com;
     font-src 'self' https://fonts.gstatic.com https://*.testsigma.com data: blob:;
     img-src * https: data: blob: about:;
     script-src * https: 'unsafe-inline' 'unsafe-eval';
