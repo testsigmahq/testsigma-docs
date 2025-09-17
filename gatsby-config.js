@@ -91,14 +91,6 @@ module.exports = {
       },
     },
     {
-      resolve: `gatsby-plugin-ts-freshchat`,
-      options: {
-        token: process.env.FRESHCHAT_TOKEN,
-        host: 'https://wchat.freshchat.com',
-        appEmbedUrl: 'https://app.testsigma.com/ui/dashboard',
-      },
-    },
-    {
       resolve: `gatsby-plugin-google-analytics`,
       options: {
         trackingId: process.env.GA_TRACKING_ID,
