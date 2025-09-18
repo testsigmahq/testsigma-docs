@@ -3,7 +3,7 @@ title: "Testsigma Docker Setup"
 page_title: "Testsigma Community Edition Docker Setup"
 metadesc: "Learn how to set up Testsigma Server and MySQL as docker containers using Docker Compose | Easiest way to set up Testsigma on your local machines"
 noindex: false
-order: 35.3
+order: 36.3
 page_id: "Testsigma Docker Setup"
 warning: false
 contextual_links:
