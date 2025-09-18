@@ -57,10 +57,4 @@ You can perform following actions on selected test steps:
 
     ![Delete Selected](https://s3.amazonaws.com/static-docs.testsigma.com/new_images/projects/applications/Delete_BulkAction.png) 
 
-<br>
-
-Here's a quick GIF demonstrating how to perform bulk actions on test steps.
-
-![Bulk Action on Test Steps](https://s3.amazonaws.com/static-docs.testsigma.com/new_images/projects/applications/BulkActionsWF.gif)
-
 ---

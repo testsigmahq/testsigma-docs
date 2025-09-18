@@ -50,9 +50,20 @@ Testsigma enables you to enhance your testing process by inserting images into y
 You can manually add image injection to test steps using NLPs. Use the NLP to have the placeholders for **test data** and replace **test data** with the **˄ Upload** to add QR code images stored in your uploads.
 
 1. Use the NLP - **Scan image from test data** from the dropdown list of suggestions that appears in the test step by searching.
+![NLP](https://s3.amazonaws.com/static-docs.testsigma.com/new_images/projects/image_injection/Image_Injection_1.png)
+
 2. Click the **test data** placeholder to replace it by selecting the **˄ Upload** from the **Test Data Types** dropdown menu.
-3. Select the file you want to add to the test step from the **˄ Uploads** section on the right side of the screen. ![manual image injection](https://s3.amazonaws.com/static-docs.testsigma.com/new_images/projects/applications/manual_imageinjection.gif)
-4. Remember to enable the **Camera Image Injection** toggle for both **Ad-hoc runs** and when **Adding** or **Editing Test Machine/Device Profiles** before running tests. ![Perform Image Injection](https://s3.amazonaws.com/static-docs.testsigma.com/new_images/projects/applications/perform_imageinjection.gif)
+![Test Data](https://s3.amazonaws.com/static-docs.testsigma.com/new_images/projects/image_injection/Image_Injection_2.png)
+
+3. Select the file you want to add to the test step from the **˄ Uploads** section on the right side of the screen.
+![Uploads](https://s3.amazonaws.com/static-docs.testsigma.com/new_images/projects/image_injection/Image_Injection_3.png)
+
+4. Remember to enable the **Camera Image Injection** toggle in the **Ad-hoc runs** page.
+![camera image injection](https://s3.amazonaws.com/static-docs.testsigma.com/new_images/projects/image_injection/Image_Injection_4.1.png)
+
+[[info | **NOTE**:]]
+| Please remember to enable the **Camera Image Injection** toggle when **Adding** or **Editing Test Machine/Device Profiles** before running tests.
+| ![Add/edit test machine](https://s3.amazonaws.com/static-docs.testsigma.com/new_images/projects/image_injection/Image_injection_5.png)
 
 ---
 
