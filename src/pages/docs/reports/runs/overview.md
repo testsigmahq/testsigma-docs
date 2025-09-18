@@ -27,17 +27,13 @@ The following are the actions possible on **Run Results** page:
 
 
   - **Search**:  To search for a run result by name, use this. The search will filter all the run results names that contain your search query.
-  ![Search](https://s3.amazonaws.com/static-docs.testsigma.com/new_images/projects/applications/ddrrsrch.png)
+  ![Search](https://s3.amazonaws.com/static-docs.testsigma.com/new_images/projects/runs/test_runs_1.png)
 
   - **Sort by:** Click on the **Sort by** button to sort the list of Run Results according to your preference. You can sort the list based on the **Title**, **Created Date**, **Updated Date**, **Last Run**, **Ascending** or **Descending**.
-  ![Sort by](https://s3.amazonaws.com/static-docs.testsigma.com/new_images/projects/applications/ddrrsortby.png)
+  ![Sort by](https://s3.amazonaws.com/static-docs.testsigma.com/new_images/projects/runs/test_runs_2.png)
 
   - **Filter:** Click on **Show Filters** to add filter and sort results according to your preference. You can add filters based on the options **Created By**, **Last Run Date**, **Created Date**, **Updated Date**, **Last Run Date**, and **Labels**.
-  ![Filter](https://s3.amazonaws.com/static-docs.testsigma.com/new_images/projects/applications/ddrrfilters.png)
-
-
-Here is a quick GIF demonstrating actions possible on run results page.
-![Actions](https://s3.amazonaws.com/static-docs.testsigma.com/new_images/projects/applications/actionsontcrpage.gif)
+  ![Filter](https://s3.amazonaws.com/static-docs.testsigma.com/new_images/projects/runs/test_runs_3.png)
 
 Testers may need to rerun failed test cases, or all test cases from a particular test run result, after a hotfix or a change in environment. Follow the steps below to rerun test cases from test run results in Testsigma.
 

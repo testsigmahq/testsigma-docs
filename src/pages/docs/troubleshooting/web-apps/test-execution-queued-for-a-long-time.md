@@ -36,9 +36,4 @@ Suppose the number of parallel runs is equal to the number of parallel licenses 
 - You can wait for other tests to complete execution. 
 - You can talk to Testsigma support to increase the number of parallel runs allowed on your license. 
 
-
-Here’s the GIF demonstrating how to check the usage details in Testsigma.
-![Usage Details](https://s3.amazonaws.com/static-docs.testsigma.com/new_images/projects/applications/udgif.gif)
-
-
 ---
