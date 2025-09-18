@@ -84,11 +84,6 @@ On metadata refresh, Testsigma identifies potential causes of test case failures
 [[info | **NOTE**:]]
 | This feature is also available at the **Step Group** level. 
 
-
-Here's a quick GIF demonstrating how to check errors due to metadata refresh in Testsigma. 
-
-![View Errors](https://s3.amazonaws.com/static-docs.testsigma.com/new_images/projects/applications/Errorhandling.gif)
-
 ---
 
 ## **Handling Deprecated Elements**
@@ -106,12 +101,6 @@ To resolve this, you need to:
    ![Change Elemennt](https://s3.amazonaws.com/static-docs.testsigma.com/new_images/projects/applications/Change_Deprecated_Element.png)
 
 This ensures that tests continue to execute without issues.
-
-<br>
-
-Here's a quick GIF demonstrating how to resolve this error.  
-
-![Resolving deprecated element error](https://s3.amazonaws.com/static-docs.testsigma.com/new_images/projects/applications/DeprecartedFlowSF.gif)
 
 
 *For more information on creating elements for Salesforce apps, refer to the [documentation on creating elements while creating test steps](https://testsigma.com/docs/salesforce-testing/element-repos/#creating-elements-while-creating-test-steps).*
