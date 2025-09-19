@@ -235,3 +235,10 @@ div.col-sm-7.doc-page {
   padding-bottom: 56.25% !important; // 16:9 aspect ratio to remove black bars in html5 videos.
   margin-bottom: 24px;
 }
+
+.embedded-messaging {
+  img{
+    margin-top: 0 !important;
+    margin-bottom: 0 !important;
+  }
+}
