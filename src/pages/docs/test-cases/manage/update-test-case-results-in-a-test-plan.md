@@ -59,11 +59,4 @@ In Testsigma, you can change the status of test cases in test plan reports. This
 [[info | **NOTE**:]]
 | Test plan results will be automatically updated as per the changes in the test case results. For information on updating test case results using Rest API, refer to the  [documentation on updating test case run results using API](https://testsigma.com/docs/api/examples/update-test-case-results-using-API/).
 
-<br>
-
-Here is a quick GIF demonstrating how to update test case results in a test plan.
-
-![Update Test Case Result](https://s3.amazonaws.com/static-docs.testsigma.com/new_images/projects/applications/UpdateTestCaseResult.gif) 
-
-
 ---

@@ -26,7 +26,7 @@ This issue occurs because Testsigma attempts to download the required browser dr
 
 To fix this issue, ensure the following URLs are whitelisted in your network/firewall settings:
 
-1. https://msedgewebdriverstorage.blob.core.windows.net/
+1. https://msedgedriver.microsoft.com/ 
 2. https://github.com/mozilla/geckodriver/releases/download/
 3. https://storage.googleapis.com/chrome-for-testing-public/
 4. https://googlechromelabs.github.io/

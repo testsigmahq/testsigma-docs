@@ -62,11 +62,15 @@ This documentation will guide you through setting up Test Labs and Test Machines
 ## **Ad-hoc Run in Test Case**
 
 1. Create a **Test Case** with a list of the **test steps** and then click **Run** in the top right of the **Test Case Details** page to initiate an **Ad-hoc Run** overlay.
-2. Configure the ad-hoc run in the **Ad-hoc Run** overlay based on the application type in the below section. ![Perform Ad-hoc Run](https://s3.amazonaws.com/static-docs.testsigma.com/new_images/projects/applications/perform_adhoc.gif)
-3. Click **Save Configuration** in the screen's bottom right corner to save the Ad-hoc Run setups configuration. Then, enter a **Name** for the configuration in the pop-up window that appears and click **Save**.
-4. Click on **Saved Configs** at the top of the screen to reuse the saved configuration, and a drop-down list will appear. Select the Saved Config from this list. ![Save Config of Ad-Hoc](https://s3.amazonaws.com/static-docs.testsigma.com/new_images/projects/applications/saveadhocconfig.gif)
-5. The Ad-hoc Run overlay will be automatically pre-filled with the saved configuration for your next runs when selected.
-6. In the **Test Case Details** page, click **Ad-Hoc Runs** in the right Navigation Bar to open the right sidebar. This will enable you to view the history and details of Ad-Hoc Run results for the Test Case. ![View History of Ad-Hoc Run](https://s3.amazonaws.com/static-docs.testsigma.com/new_images/projects/applications/view_adhocrundetails.png)
+   ![Run](https://s3.amazonaws.com/static-docs.testsigma.com/new_images/projects/runs/Adhoc_run_5.png)
+2. Configure the ad-hoc run in the **Ad-hoc Run** overlay based on the application type in the below section. ![Perform Ad-hoc Run](https://s3.amazonaws.com/static-docs.testsigma.com/new_images/projects/runs/Adhoc_run_1.png)
+3. Click **Save Configuration** in the screen's bottom right corner to save the Ad-hoc Run setups configuration. 
+   ![Save COnfiguration](https://s3.amazonaws.com/static-docs.testsigma.com/new_images/projects/runs/Adhoc_run_2.png)
+4. Enter a **Name** for the configuration in the pop-up window that appears and click **Save**.
+   ![Configuration name](https://s3.amazonaws.com/static-docs.testsigma.com/new_images/projects/runs/Adhoc_run_3.png)
+5. Click on **Saved Configs** at the top of the screen to reuse the saved configuration, and a drop-down list will appear. Select the Saved Config from this list. ![Save Config of Ad-Hoc](https://s3.amazonaws.com/static-docs.testsigma.com/new_images/projects/runs/Adhoc_run_4.png)
+6. The Ad-hoc Run overlay will be automatically pre-filled with the saved configuration for your next runs when selected.
+7. In the **Test Case Details** page, click **Ad-Hoc Runs** in the right Navigation Bar to open the right sidebar. This will enable you to view the history and details of Ad-Hoc Run results for the Test Case. ![View History of Ad-Hoc Run](https://s3.amazonaws.com/static-docs.testsigma.com/new_images/projects/applications/view_adhocrundetails.png)
 
 
 [[info | **NOTE**:]]
@@ -109,7 +113,7 @@ In the Ad-hoc run layover, provide the following configuration settings for a mo
 4. **Camera Image Injection**: Click the toggle button for **Camera Image Injection** to enable camera image injection for a test case.
 5. **Network Logs**: Click the toggle button for **Network Logs** to enable network logs for a test case.
 6. **Desired Capabilities**: Provide **Key**, **Data Type** and **Value** under Desired Capabilities.
-7. Click on **Run Now**. ![Ad-hoc screen for Mobile Web Application](https://s3.amazonaws.com/static-docs.testsigma.com/new_images/projects/applications/mobilewebapplication_adhocrun.gif)
+7. Click on **Run Now**. ![Ad-hoc screen for Mobile Web Application](https://s3.amazonaws.com/static-docs.testsigma.com/new_images/projects/runs/Adhoc_run_6.png)
 
 ---
 
@@ -131,7 +135,7 @@ In the Ad-hoc run layover, provide the following configuration settings for an A
 5. **Camera Image Injection**: Click the toggle button for **Camera Image Injection** to enable camera image injection for a test case.
 6. **Network Logs**: Click the toggle button for **Network Logs** to enable network logs for a test case.
 7. **Desired Capabilities**: Provide **Key**, **Data Type** and **Value** under Desired Capabilities.
-8. Click on **Run Now**. ![Ad-hoc screen for Android Application](https://s3.amazonaws.com/static-docs.testsigma.com/new_images/projects/applications/androidapplication_adhocrun.gif)
+8. Click on **Run Now**. ![Ad-hoc screen for Android Application](https://s3.amazonaws.com/static-docs.testsigma.com/new_images/projects/runs/Adhoc_run_7.png)
 
 ---
 
@@ -154,7 +158,7 @@ In the Ad-hoc run layover, provide the following configuration settings for an i
 5. **Camera Image Injection**: Click the toggle button for **Camera Image Injection** to enable camera image injection for a test case.
 6. **Network Logs**: Click the toggle button for **Network Logs** to enable network logs for a test case.
 7. **Desired Capabilities**: Provide **Key**, **Data Type** and **Value** under Desired Capabilities. 
-8. Click on **Run Now**. ![Ad-hoc screen for iOS Application](https://s3.amazonaws.com/static-docs.testsigma.com/new_images/projects/applications/iosapp_adhocrun.gif)
+8. Click on **Run Now**. ![Ad-hoc screen for iOS Application](https://s3.amazonaws.com/static-docs.testsigma.com/new_images/projects/runs/Adhoc_run_8.png)
 
 ---
 

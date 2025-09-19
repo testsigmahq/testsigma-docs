@@ -36,10 +36,6 @@ With Testsigma's Edge Extension, users can quickly record test steps and create 
 4. On successful installation, the following message will appear:
 ![Success Messaga](https://s3.amazonaws.com/static-docs.testsigma.com/new_images/projects/applications/egsmosi.png)
 
-
-Here’s a GIF demonstrating how to add Testsigma's Edge Extension.
-![Add Edge Extension](https://s3.amazonaws.com/static-docs.testsigma.com/new_images/projects/applications/EdgeExtension.gif)
-
 ---
 
 ## **Record Steps in InPrivate Mode**
@@ -58,8 +54,5 @@ You can record steps in private mode by enabling the Allow in InPrivate option i
 
 **3. Enable Allow in InPrivate:** Toggle on **Allow in InPrivate** option. 
 ![Enable InPrivate](https://s3.amazonaws.com/static-docs.testsigma.com/new_images/projects/applications/egeipb.png)
-
-Here’s a GIF demonstrating how to enable the "Allow in InPrivate" option for Testsigma Edge Extension.
-![InPrivate Mode](https://s3.amazonaws.com/static-docs.testsigma.com/new_images/projects/applications/EdgeIncognito.gif)
 
 ---

@@ -163,7 +163,4 @@ You can also trigger TestRail test runs using APIs. Click [here](https://s3.amaz
    
    - **Execution Lab:** Specifies the execution environment or lab used for running the test cases.
 
-Here's a quick GIF demonstrating steps to trigger TestRail runs using APIs.
-![TestRail GIF](https://s3.amazonaws.com/static-docs.testsigma.com/new_images/projects/applications/TestRail_API_Trigger.gif)
-
 ---
