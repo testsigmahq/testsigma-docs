@@ -1,75 +1,92 @@
 ---
-title: "Integrate Testsigma with Jenkins "
-metadesc: "How to integrate Testsigma with Jenkins"
+title: "Integrate Testsigma with Jenkins"
+metadesc: "Integrate Jenkins with Testsigma to run test plans from your Jenkins CI/CD pipeline. Enable continuous testing and streamline software delivery."
 noindex: false
 order: 12.13
-page_id: "Integrate Testsigma with Jenkins "
+page_id: "integrate-testsigma-with-jenkins"
 warning: false
 contextual_links:
 - type: section
   name: "Contents"
 - type: link
-  name: "Pre-requisites"
-  url: "#pre-requisites"
+  name: "Prerequisites"
+  url: "#prerequisites"
 - type: link
-  name: "How to add the execution step in Jenkins pipeline"
-  url: "#how-to-add-the-execution-step-in-jenkins-pipeline"
+  name: "Trigger Testsigma Test Plans from Jenkins"
+  url: "#trigger-testsigma-test-plans-from-jenkins"
 ---
 
 ---
 
-Jenkins is an open-source automation server that automates the building, testing, and delivery of software. It is a very popular tool used for CI/CD Pipeline and Build automation.
+Jenkins is an open-source automation server used for CI/CD and build automation. You can trigger Testsigma test plans directly from Jenkins to streamline testing in your pipelines.
 
-Testsigma provides a Jenkins plugin to automate Test Execution in your Jenkins Pipeline.
+<br>
+
+<div style="position: relative; padding-bottom: 56.25%; height: 0; overflow: hidden;">
+  <iframe src="https://s3.amazonaws.com/static-docs.testsigma.com/new_images/projects/New_Doc_Videos/Trigger_Test_Plans_from_Jenkins.mp4" 
+          style="position: absolute; top: 0; left: 0; width: 100%; height: 100%; border: 0;" 
+          allowfullscreen>
+  </iframe>
+</div>
+
 
 ---
 
 > <p id="prerequisites">Prerequisites</p>
 > 
->    - Testsigma Test Plan Run - 1.1 - Jenkins Plugin
->    - You can install the Testsigma Test Plan run plugin installed from Jenkins Plugins page in your Jenkins Installation. You can also get it from here and place in your **JENKINS_HOME/plugins** directory - [Testsigma Jenkins Plugin direct link](https://plugins.jenkins.io/testsigma/).
+> Before you begin, ensure that you have:
+> - Reviewed the following documentation:
+>    1. [Generating API keys](https://testsigma.com/docs/configuration/api-keys/).
+>    2. [Getting a test plan ID](https://docs.testsigma.com/images/azure-devops/get-test-plan-id.png).
+> - A working **Jenkins** server with administrative access.
 
 ---
-## **How to add the execution step in Jenkins pipeline**
 
-If you have a Jenkins pipeline in place, skip to step 2. Otherwise, follow the steps below to create a new Pipeline. 
+## **Trigger Testsigma Test Plans from Jenkins**
 
-Log into your Jenkins Instance after starting the Jenkins instance. It will take you to the Jenkins Dashboard as shown below:
+1. Log in to your **Jenkins** instance.
 
-![Jenkins Dashboard](https://docs.testsigma.com/images/jenkins/Jenkins-Dashboard.png)
 
-### Step 1: Create a new pipeline
-Create a new pipeline by clicking on 'New Item' on the left menu in the Dashboard page above. Enter a name, select 'Freestyle Project' as the Project type and click on the 'Ok' button to create the Pipeline.
-![new-Job-Page-in-Jenkins](https://docs.testsigma.com/images/jenkins/new-Job-Page-in-Jenkins.png) 
-### **Step 2: Add Build Stage**
-Click on the 'Build' tab and then click on 'Add Build Step' to add your Build Stage using any of the available plugins such as Ant, Gradle, Shell script, etc.
-![add-build-stage-in-Jenkins](https://docs.testsigma.com/images/jenkins/add-build-stage-in-Jenkins.png)
-We suggest you get help from your Ops team in configuring the Build Pipeline if you are trying it for the first time.
+2. From the **Jenkins Dashboard**, click **+ New Item**.
+   ![Jenkins Dashboard](https://s3.amazonaws.com/static-docs.testsigma.com/new_images/projects/Updated_Doc_Images/Jenkins_Dashboard.png)
 
-### **Step 3: Add Test Stage using Testsigma Test Plan Run plugin**
 
-1. Click on 'Add build step' to create a new Stage for Testsigma Test Plan Trigger and click on 'Testsigma Test Plan run'. This will create a new Stage using the installed Testsigma plugin (If you have not installed it yet, check the Prerequisites section)
-![add test stage in jenkins with Testsigma](https://docs.testsigma.com/images/jenkins/add-test-stage-in-jenkins-with-Testsigma.png)
-2. Enter the following details:
-**Testsigma API Key:** Refer to the [documentation on generating API keys](https://testsigma.com/docs/configuration/api-keys/).
-**Testsigma Test Plan ID:** Refer to the [documentation on getting the test plan ID](https://testsigma.com/docs/continuous-integration/get-test-plan-details/) from the Test Plan details page(Test Plans> Click on Test Plan name > CI/CD Integration Tab).
-**Maximum wait time for Task completion:** Specify the maximum time in minutes you want the Testsigma Plugin to wait before timing out. After this timeout, The execution will still continue in Testsigma and you can go to Testsigma to check the Test Plan status later.
-Report File Path: The File path where the JUnit report XML file is stored
- 
-**Here's a sample entry:**
+3. Enter a **Name**, select **Freestyle Project**, and click **Ok**.
+   ![Ok](https://s3.amazonaws.com/static-docs.testsigma.com/new_images/projects/Updated_Doc_Images/Freestyle_Project_Jenkins.png)
 
-![sample entry while creating post-build Testsigma Trigger](https://docs.testsigma.com/images/jenkins/sample-entry-post-build-testsigma-trigger.png)
-1. Click on 'Save' to save the changes.
- 
-### **Step 4: Try a Sample Build**
-1. click on Build now to trigger the Pipeline manually to check.
 
-![post-build testsigma trigger build now](https://docs.testsigma.com/images/jenkins/post-build-testsigma-triggger-build-now.png)
-2. Click on the Build number and then click on the Console log to see the Logs for the execution. If everything went as expected, you would see a similar log.
+4. In the **Configuration** page, scroll to **Build Steps** and click **Add build steps**.
+   ![Configuration](https://s3.amazonaws.com/static-docs.testsigma.com/new_images/projects/Updated_Doc_Images/Jenkins_Configuration.png)
 
-![sample console output for post-build Testsigma Trigger](https://docs.testsigma.com/images/jenkins/post-build-testsigma-trigger-sample-console-output.png)
-You can log into Testsigma to learn more about the results. 
 
-That's all we need to automate the execution of a Testsigma test plan, when a successful build is triggered, using the Jenkins CI server.
- 
+5. Select **Execute Shell** from the dropdown menu.
+   ![Execute Shell](https://s3.amazonaws.com/static-docs.testsigma.com/new_images/projects/Updated_Doc_Images/Execute_Shell_Jenkins.png)
 
+
+6. Copy the **Unix Shell Script** from the [Generic Shell Script](https://testsigma.com/docs/continuous-integration/shell-script/#for-unix-shell-script-bash-script) page and paste it into the **Execute Shell** codebox.
+
+[[info | **NOTE**:]]
+| Replace values of **TESTSIGMA_API_KEY** and **TESTSIGMA_TEST_PLAN_ID** with your Testsigma **API Key** and **Test Plan Execution ID**.
+| ![Values in Shell Script](https://s3.amazonaws.com/static-docs.testsigma.com/new_images/projects/Updated_Doc_Images/Values_in_Script_Jenkins.png)
+
+7. Click **Save**.
+   ![Save](https://s3.amazonaws.com/static-docs.testsigma.com/new_images/projects/Updated_Doc_Images/Save_Jenkins_Build.png)
+
+
+8. In the project details page, click **Build Now** to trigger the Testsigma test plan.
+   ![Build Now](https://s3.amazonaws.com/static-docs.testsigma.com/new_images/projects/Updated_Doc_Images/Jenkins_Build_Now.png)
+
+
+9. In Testsigma **Dashboard > Test Plans**, verify the test plan execution has started.
+   ![Test Plans](https://s3.amazonaws.com/static-docs.testsigma.com/new_images/projects/Updated_Doc_Images/Test_Plans_Jenkins.png)
+
+
+10. Click **Build**, and select **Console Log** to view execution logs.
+    ![Console Log](https://s3.amazonaws.com/static-docs.testsigma.com/new_images/projects/Updated_Doc_Images/Console_Jenkins.png)
+
+
+11. Go to **Testsigma Dashboard > Run Results** to review detailed execution results.
+    ![Run Results](https://s3.amazonaws.com/static-docs.testsigma.com/new_images/projects/Updated_Doc_Images/Run_Results_in_TS_Jenkins.png)
+
+
+---
