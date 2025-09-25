@@ -26,7 +26,7 @@ Microsoft Azure, aka Azure, is a cloud computing service created by Microsoft fo
 > <p id="prerequisites">Prerequisites</p>
 > 
 > Before you begin, ensure that you have referred to:
-> 1. [DOcumentation on generating API keys](https://testsigma.com/docs/configuration/api-keys/).
+> 1. [Documentation on generating API keys](https://testsigma.com/docs/configuration/api-keys/).
 > 2. [Documentation on getting test plan id](https://docs.testsigma.com/images/azure-devops/get-test-plan-id.png).
 
 ---

@@ -32,6 +32,4 @@ There are a number of sections within the page that gives us detailed informatio
 * **Review Management:** View Elements and Test Cases submitted for review and assigned to you.
 * Test Case breakup on the basis of status, type, priority, custom fields.
 
-![Dashboard Overview](https://s3.amazonaws.com/static-docs.testsigma.com/new_images/projects/applications/dashboardwf.gif)
-
 ---
