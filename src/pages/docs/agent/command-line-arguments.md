@@ -9,11 +9,8 @@ contextual_links:
 - type: section
   name: "Contents"
 - type: link
-  name: "Prerequisites"
-  url: "#prerequisites"
-- type: link
-  name: "Steps to Trigger Tests on Local Devices"
-  url: "#steps-to-trigger-tests-on-local-devices"
+  name: "Arguments and Usage Details"
+  url: "#arguments-and-usage-details"
 ---
 
 ---

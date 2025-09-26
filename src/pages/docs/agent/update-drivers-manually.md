@@ -3,7 +3,7 @@ title: "Update browser drivers for Testsigma agent manually"
 metadesc: "Learn how to update the Browser Driver files for Testsigma Agent manually if update fails, due to bad network conditions or Firewall restrictions."
 noindex: false
 order: 11.7
-page_id: "update-bbrowser-drivers-for-testsigma-agent-manually"
+page_id: "update-browser-drivers-for-testsigma-agent-manually"
 warning: false
 contextual_links:
 - type: section
@@ -24,6 +24,7 @@ contextual_links:
 ---
 
 ---
+
 During a local execution, Testsigma agent communicates with the Web Browser installed on your machine using the driver files specific to the respective browser. Driver files for all the popular browser versions are included in Testsigma Agent automatic updates.
 
 **Why is updating the browser driver files necessary?**<br>
@@ -32,6 +33,7 @@ Sometimes, the update fails, due to bad network conditions or Firewall restricti
 <br>
 
 ---
+
 ## **Location of driver files**
 
 Driver files are located under the following directories for the different Web Browsers:<br>
@@ -46,6 +48,7 @@ Driver files are located under the following directories for the different Web B
 <br>
 
 ---
+
 ## **Downloading the driver files**
 
 When new browser versions are released, a newer driver version will be released on [SeleniumHQ Downloads page](http://www.seleniumhq.org/download/).
@@ -59,6 +62,7 @@ And here are the direct links to WebDrivers of the most popular Browsers:<br>
 <br>
 
 ---
+
 ## **Adding drivers manually**
 
 We just need to download the corresponding file from the above link and place it in the correct directory.
@@ -87,6 +91,7 @@ Here’s a screenshot of the Agents folder for Testsigma Agent in Mac OS:
 <br>
 
 ---
+
 ## **Additional steps for Mac or Linux**
 Apart from the above steps, there are some additional steps to be performed to avoid permission issues in Mac or Linux. This is due to the presence of executable bit permission for Unix-based Operating Systems.
 
@@ -105,4 +110,4 @@ chmod -R u+x ./*
 Once that is done, you can start executing tests on the newest version of the corresponding Browser. You can follow the same directions for other browsers as well.
 
 
-
+---
