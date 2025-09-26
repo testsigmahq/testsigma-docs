@@ -3,7 +3,7 @@ title: "Setting Up Testsigma Agent Locally"
 metadesc: "Learn how to install Testsigma Agent on your local machine and register it to your Testsigma Account for local inspection and test runs."
 noindex: false
 order: 11.3
-page_id: " Setting up Testsigma Agent on your local machine"
+page_id: "setting-up-testsigma-agent-on-your-local-machine"
 warning: false
 contextual_links:
 - type: section
@@ -48,6 +48,7 @@ With **Testsigma Agent** you can run tests on local machines/devices in addition
 ---
 
 ## **Steps to Download Testsigma Agent as a ZIP File**
+
 1. Navigate to **Agents** and click **Download Agent**.
 ![Agents Page](https://s3.amazonaws.com/static-docs.testsigma.com/new_images/projects/applications/Navigate_To_Agents.png)
 
@@ -67,6 +68,8 @@ With **Testsigma Agent** you can run tests on local machines/devices in addition
       The home directory is recommended so as to avoid hassles of setting file permissions and ownership and also to avoid file corruption due to syncing with iCloud or Google Drive.
 
 You can either start the Testsigma agent server as a process via the command line or terminal when needed. Or, you can run the Testsigma agent server as a server. For more information, refer to the below sections to see how to start the Testsigma Agent as a process or as a service.
+
+Note: You can
 
 ---
 
@@ -114,6 +117,12 @@ Once the installation is complete, you can either run the Testsigma Agent server
 ![Reg page](https://s3.amazonaws.com/static-docs.testsigma.com/new_images/projects/applications/Agent_Reg_Page.png)
 
 For more information on how to register Testsigma Agent, refer to the [documentation on registering the Testsigma Agent](https://testsigma.com/docs/agent/setup-on-windows-mac-linux/#register-the-testsigma-agent).
+
+
+[[info | **NOTE**:]]
+| - You can also double-click the executable file in the installation folder to start the agent directly.
+|   ![Exe File](https://s3.amazonaws.com/static-docs.testsigma.com/new_images/projects/Updated_Doc_Images/Agent_Exe_File_in_Folder.png)
+| - For Windows, locate **TestsigmaAgent.exe** and double-click to start the agent.
 
 ---
 
