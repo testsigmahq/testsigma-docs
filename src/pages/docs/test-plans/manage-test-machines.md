@@ -3,7 +3,7 @@ title: "Manage Test Machines in Test Plans"
 metadesc: "Easily manage test machines in Test Plans, which helps allocate tests to specific machines. Learn how to allot test machines for test plans in Testsigma."
 noindex: false
 order: 8.22
-page_id: "Manage Test Machines in Test Plans"
+page_id: "manage-test-machines-in-test-plans"
 warning: false
 contextual_links:
 - type: section

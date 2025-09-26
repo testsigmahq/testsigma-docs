@@ -3,7 +3,7 @@ title: "Concat Test Data"
 metadesc: "Learn how to concat test data which combines multiple sets of test data in Testsigma. This article discuss concatenation test data in Testsigma in detail"
 noindex: false
 order: 5.25
-page_id: "Concat Test Data in Testsigma"
+page_id: "concat-test-data-in-testsigma"
 warning: false
 contextual_links:
 - type: section

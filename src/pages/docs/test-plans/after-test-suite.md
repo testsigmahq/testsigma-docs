@@ -4,7 +4,7 @@ page_title: "AfterTest Suite in Testsigma"
 metadesc: "AfterTest Suite in Testsigma lets you add test cases for a test suite to execute after executing existing test cases in the test suite"
 noindex: false
 order: 8.32
-page_id: "AfterTest Suite in Testsigma"
+page_id: "aftertest-suite-in-testsigma"
 warning: false
 contextual_links:
 - type: section
