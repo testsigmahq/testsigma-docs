@@ -10,6 +10,9 @@ contextual_links:
 - type: section
   name: "Contents"
 - type: link
+  name: "Prerequisites"
+  url: "#prerequisites"
+- type: link
   name: "Store Data as a Runtime Variable"
   url: "#store-data-as-a-runtime-variable"
 - type: link
