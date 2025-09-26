@@ -4,7 +4,7 @@ page_title: "Data Generator | Testsigma Documentation"
 metadesc: "Discover how you can enable dynamic test data creation with Testsigma's Data Generators to optimise your test scenarios for enhanced efficiency and coverage."
 noindex: false
 order: 5.117
-page_id: "Data Generator in Testsigma"
+page_id: "data-generator-in-testsigma"
 warning: false
 contextual_links:
 - type: section

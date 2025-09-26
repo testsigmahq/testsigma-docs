@@ -4,7 +4,7 @@ page_title: "Distributed Testing in Testsigma"
 metadesc: "Improve your testing efficiency with Testsigma's distributed testing. Learn how to execute tests across multiple machines and increase test coverage quickly."
 noindex: false
 order: 8.27
-page_id: "Distributed Testing"
+page_id: "distributed-testing"
 warning: false
 contextual_links:
 - type: section

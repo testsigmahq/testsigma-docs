@@ -4,7 +4,7 @@ page_title: "Create Environment Test Data | Testsigma Documentation"
 metadesc: "Learn how to create environment test data for efficient testing. Follow our guide to streamline your test process and ensure accurate results in Testsigma."
 noindex: false
 order: 5.23
-page_id: "Create Test Data - Environment"
+page_id: "create-test-data-environment"
 warning: false
 contextual_links:
 - type: section
