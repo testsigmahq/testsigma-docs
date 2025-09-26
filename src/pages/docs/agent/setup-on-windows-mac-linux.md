@@ -69,7 +69,6 @@ With **Testsigma Agent** you can run tests on local machines/devices in addition
 
 You can either start the Testsigma agent server as a process via the command line or terminal when needed. Or, you can run the Testsigma agent server as a server. For more information, refer to the below sections to see how to start the Testsigma Agent as a process or as a service.
 
-Note: You can
 
 ---
 
