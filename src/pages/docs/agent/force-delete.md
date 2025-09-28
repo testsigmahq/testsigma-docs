@@ -2,7 +2,7 @@
 title: "Force Delete Testsigma Agent Manually"
 metadesc: "This article discusses in Detail on how to locate Testsigma Agent Configuration file and how to stop/delete Testsigma Agent manually."
 noindex: false
-order: 11.81
+order: 11.82
 page_id: "force-delete-testsigma-agent-manually"
 warning: false
 contextual_links:

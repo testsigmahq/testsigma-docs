@@ -2,7 +2,7 @@
 title: "Command-Line Arguments & Usage Guide"
 metadesc: "Customize the behavior of the Testsigma Agent by passing command-line arguments when starting it from the installation directory in Testsigma"
 noindex: false
-order: 11.4
+order: 11.6
 page_id: "using-command-line-arguments"
 warning: false
 contextual_links:
