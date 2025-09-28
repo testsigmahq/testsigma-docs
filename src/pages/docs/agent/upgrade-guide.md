@@ -9,6 +9,9 @@ contextual_links:
 - type: section
   name: "Contents"
 - type: link
+  name: "Prerequisites"
+  url: "#prerequisites"
+- type: link
   name: "Upgrade Agent Automatically"
   url: "#upgrade-agent-automatically"
 - type: link
@@ -19,6 +22,12 @@ contextual_links:
 ---
 
 You can upgrade Testsigma Agent automatically or manually when a new version is available. Automatic upgrades are enabled by default to ensure the agent always runs the latest version. If you prefer more control, you can switch to manual upgrades and choose when to install updates. This article discusses how to upgrade Testsigma Agent both automatically or manually.
+
+---
+
+> <p id="prerequisites">Prerequisites</p>
+> 
+> Before you begin, ensure that you have referred to the [documentation on setting up the Testsigma Agent on your local machine](https://testsigma.com/docs/agent/setup-on-windows-mac-linux/).
 
 ---
 
