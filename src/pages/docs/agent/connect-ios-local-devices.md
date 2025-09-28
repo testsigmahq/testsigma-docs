@@ -1,5 +1,5 @@
 ---
-title: "Setting up iOS Local Devices"
+title: "Setting Up iOS Local Devices"
 order: 11.5
 page_id: "setup-ios-local-devices"
 metadesc: "Run tests on your local iOS devices in addition to Testsigma Cloud machines/devices. Learn how to setup iOS Local Devices in Testsigma application."

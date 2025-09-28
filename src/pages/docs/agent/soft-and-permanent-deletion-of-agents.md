@@ -2,7 +2,7 @@
 title: "Delete Agents: Soft & Permanent"
 metadesc: "This article discusses how to soft/permanently delete Testsigma agents & push them to obsolete state & restore these agents when needed | Learn how to soft/permanently delete agents"
 noindex: false
-order: 11.82
+order: 11.83
 page_id: "agent-soft-delete"
 warning: false
 contextual_links:
