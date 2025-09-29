@@ -3,7 +3,7 @@ title: "Trigger Multiple Test Plans Consecutively"
 metadesc: "How to trigger multiple Test Plans remotely using REST API. With this you can run a Mobile Test Plan after executing a Web Test Plan"
 noindex: false
 order: 21.81
-page_id: "Trigger Multiple Test Plans Consecutively"
+page_id: "trigger-multiple-test-plans-consecutively"
 search_keyword: ""
 warning: false
 contextual_links:

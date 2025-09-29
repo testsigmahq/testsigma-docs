@@ -3,7 +3,7 @@ title: "Run on cloud vendor platforms"
 metadesc: "When executing your test cases on Testsigma you have the option to execute them on a cloud vendor platform. Learn how to run tests on cloud vendor platforms in Testsigma"
 noindex: false
 order: 9.41
-page_id: "Run on cloud vendor platforms"
+page_id: "run-on-cloud-vendor-platforms"
 warning: false
 contextual_links:
 - type: section
