@@ -9,21 +9,130 @@ contextual_links:
 - type: section
   name: "Contents"
 - type: link
-  name: "Arguments and Usage Details"
-  url: "#arguments-and-usage-details"
+  name: "Frequently Used Arguments"
+  url: "#frequently-used-arguments"
+- type: link
+  name: "Other Arguments"
+  url: "#other-arguments"
 ---
 
 ---
 
 You can customize the behavior of the Testsigma Agent by passing command-line arguments when starting it from the installation directory. These arguments let you configure registration, logging, memory usage, browsers, proxies, and other advanced settings. This article discusses the available arguments, their purpose, and how to use them.
 
+[[info | **NOTE**:]]
+| Pass these arguments only the first time you start the agent. For subsequent launches, start the agent by double-clicking the executable in the Agent folder.
+
 ---
 
-## **Arguments and Usage Details**
+## **Frequently Used Arguments**
+
+### Argument: **`--TS_AUTO_DETECT_PROXY`**
+
+Enables the Agent to automatically detect and use a network proxy, including proxies configured via PAC files.
+
+**Steps:**
+
+1. Confirm your network requires a proxy to access the internet or https://app.testsigma.com/.
+
+2. Open a terminal from the Agent installation directory.
+
+3. Run the following command:
+   ```bash
+   ./start.sh --TS_AUTO_DETECT_PROXY=true
+   ```
+
+4. The Agent automatically detects and uses the proxy settings.
+
+> **Other instances:**
+> - Useful in environments with multiple proxies where the active one needs to be selected dynamically.
+> - Ideal for users switching between office and home networks without reconfiguring the Agent.
+
+---
+
+### Argument: **`--TS_DELETEGATE_SSL_VALIDATION`**
+
+Delegates SSL validation to SSL inspection tools instead of Java, bypassing SSL certificate validation errors.
+
+**Steps:**
+
+1. Identify SSL errors during Agent startup (e.g., PKIX exception).
+
+2. Open a terminal from the Agent installation directory.
+
+3. Run the following command:
+   ```bash
+   ./start.sh --TS_DELETEGATE_SSL_VALIDATION=true
+   ```
+
+4. The Agent delegates SSL validation and starts successfully.
+
+> **Other instances:**
+> - Useful when SSL inspection tools like Zscaler, Blue Coat, or corporate firewalls interfere with Java SSL validation.
+> - Helps in test or sandbox environments where adding certificates to the trust store is not practical.
+
+---
+
+### Argument: **`--TS_TRUST_STORE_TYPE`**
+
+Configures the trust store the Agent should use for SSL certificates.
+
+**Supported Values**
+   - **JKS**: Java KeyStore (default).
+   - **PKCS12**: Public Key Cryptography Standard #12.
+   - **WINDOWS-ROOT**: Uses the Windows system certificate store.
+
+<br>
+
+**Steps:**
+1. Verify SSL inspection tools require certificates from Windows root store (Windows only).
+
+2. Open a terminal from the Agent installation directory.
+
+3. Run the following command:
+   ```bash
+   ./start.sh --TS_TRUST_STORE_TYPE=WINDOWS-ROOT
+   ```
+
+4. The Agent uses the Windows certificate store for SSL connections.
+
+> **Other instances:**
+> - Use **jsse** explicitly if you want the default Java trust store instead of Windows root.
+> - Useful when testing in environments with custom certificates installed only in Windows certificate store.
+
+---
+
+### Argument: **`--TS_USE_SYSTEM_PROXY`**
+
+Makes the Agent follow system-defined proxy settings automatically.
+
+**Steps:**
+
+1. Confirm system proxy settings are configured.
+
+2. Open a terminal from the Agent installation directory.
+
+3. Run the following command:
+   ```bash
+   ./start.sh --TS_USE_SYSTEM_PROXY=true
+   ```
+
+4. The Agent uses the system proxy to connect to the internet.
+
+> **Other instances:**
+> - Useful for corporate networks where proxy settings are centrally managed via system policies.
+> - Works when combined with **AUTO\_DETECT\_PROXY** to fallback to system proxy if auto-detection fails.
+
+
+---
+
+## **Other Arguments**
 
 ### Argument: **`--TS_ACTIVATION_KEY`**
 
 Use this argument to create an agent and activate it later. 
+
+**Steps:**
 
 1. Create an agent and select **Activate Later**.
 
@@ -34,7 +143,7 @@ Use this argument to create an agent and activate it later.
 
 3. Open a terminal and run the following command from the agent installation directory:
    ```bash
-   ./TestsigmaAgent --TS_ACTIVATION_KEY=<KEY>
+   ./start.sh --TS_ACTIVATION_KEY=<KEY>
    ```
 4. The agent activates.
 
@@ -44,6 +153,8 @@ Use this argument to create an agent and activate it later.
 
 Use these arguments to automatically register an agent with a title.
 
+**Steps:**
+
 1. From the **Dashboard**, go to **Settings > API Keys**.
 
 2. Click **Create API Key**, and copy the generated key.
@@ -51,7 +162,7 @@ Use these arguments to automatically register an agent with a title.
 3. Open a terminal and run the following command from the agent installation directory:
    
    ```bash
-   ./TestsigmaAgent --TS_AUTO_REGISTRATION_KEY=<KEY> --TS_AUTO_REGISTRATION_TITLE=<agent-title>
+   ./start.sh --TS_AUTO_REGISTRATION_KEY=<KEY> --TS_AUTO_REGISTRATION_TITLE=<agent-title>
    ```
 
 4. The agent registers and activates with the specified title.
@@ -62,10 +173,12 @@ Use these arguments to automatically register an agent with a title.
 
 Use these arguments to specify the HTTPS and HTTP ports for auto-registering the agent.
 
+**Steps:**
+
 1. Open a terminal and run the following command from the agent installation directory:
 
    ```bash
-   ./TestsigmaAgent \
+   ./start.sh \
    --TS_AUTO_REGISTRATION_KEY=<KEY> \
    --TS_AUTO_REGISTRATION_TITLE=<unique-agent-title> \
    --TS_AUTO_REGISTRATION_HTTPS_PORT=<port> \
@@ -77,7 +190,10 @@ Use these arguments to specify the HTTPS and HTTP ports for auto-registering the
 ---
 
 ### Argument: **`--TS_ADDITIONAL_JVM_ARGS`**
+
 Use this argument to pass additional Java Virtual Machine arguments to the agent. This is useful for advanced tuning, debugging, or custom runtime configurations.
+
+**Steps:**
 
 1. Identify the JVM arguments you want to pass.
    
@@ -89,7 +205,7 @@ Use this argument to pass additional Java Virtual Machine arguments to the agent
 2. Open a terminal and run the following command from the agent installation directory:
    
    ```bash
-   ./TestsigmaAgent --TS_ADDITIONAL_JVM_ARGS="-Dlogging.file.name=/var/log/testsigma/agent.log"
+   ./start.sh --TS_ADDITIONAL_JVM_ARGS="-Dlogging.file.name=/var/log/testsigma/agent.log"
    ```
 3. The agent starts with the specified JVM arguments.
 
@@ -97,7 +213,7 @@ Use this argument to pass additional Java Virtual Machine arguments to the agent
 | - Wrap multiple JVM arguments in quotes. <br>
 |   **Example**: 
 |    ```bash
-|    ./TestsigmaAgent --TS_ADDITIONAL_JVM_ARGS="-Dlogging.file.name=/var/log/testsigma/agent.log -Dlogging.level=debug"
+|    ./start.sh --TS_ADDITIONAL_JVM_ARGS="-Dlogging.file.name=/var/log/testsigma/agent.log -Dlogging.level=debug"
 |      ```
 | - Use this option to add custom properties that are not covered by predefined agent arguments.
 
@@ -107,12 +223,14 @@ Use this argument to pass additional Java Virtual Machine arguments to the agent
 
 Use this argument to specify the file system path to the agent.jar file. This is useful when the JAR is maintained in a custom directory. 
 
+**Steps:**
+
 1. Locate the `agent.jar` file on your system.
 
 2. Open a terminal and run the following command from the agent installation directory:
    
    ```bash
-   ./TestsigmaAgent --TS_AGENT_JAR_PATH=<path-to-jar-file>
+   ./start.sh --TS_AGENT_JAR_PATH=<path-to-jar-file>
    ```
 
 3. The agent runs using the JAR from the specified path.
@@ -123,6 +241,8 @@ Use this argument to specify the file system path to the agent.jar file. This is
 
 Use these arguments to specify the file system path for a browser executable. This ensures that the agent runs tests on the specified browser version.
 
+**Steps:**
+
 1. Install the required browser version on your system.
 
 2. Identify the full path to the browser executable.
@@ -130,7 +250,7 @@ Use these arguments to specify the file system path for a browser executable. Th
 3. Open a terminal and run the following command from the agent installation directory:
 
    ```bash
-   ./TestsigmaAgent --TS_CHROME_PATH=<path-to-chrome> \
+   ./start.sh --TS_CHROME_PATH=<path-to-chrome> \
    --TS_EDGE_PATH=<path-to-edge> \
    --TS_FIREFOX_PATH=<path-to-firefox>
    --TS_IE_PATH=<path-to-internet-explorer>
@@ -142,6 +262,8 @@ Use these arguments to specify the file system path for a browser executable. Th
 
 ### Argument: **`--TS_DATA_DIR`**
 
+**Steps:**
+
 Use this argument to specify the file system path where the agent stores its data.
 
 1. Identify the directory where you want the agent to store its data.
@@ -149,7 +271,7 @@ Use this argument to specify the file system path where the agent stores its dat
 2. Open a terminal and run the following command from the agent installation directory:
 
    ```bash
-   ./TestsigmaAgent --TS_DATA_DIR=<path-to-data-directory>
+   ./start.sh --TS_DATA_DIR=<path-to-data-directory>
    ```
 
 3. The agent stores all data in the specified directory.
@@ -160,6 +282,8 @@ Use this argument to specify the file system path where the agent stores its dat
 
 Use this argument to enable garbage collection logging which helps in diagnosing memory usage issues and performance.
 
+**Steps:**
+
 1. Decide whether to enable GC logging.
    - **To enable**: true
    - **To disable**: false (default)
@@ -167,7 +291,7 @@ Use this argument to enable garbage collection logging which helps in diagnosing
 2. Open a terminal and run the following command from the agent installation directory:
    
    ```bash
-   ./TestsigmaAgent --TS_ENABLE_GC_LOG=true
+   ./start.sh --TS_ENABLE_GC_LOG=true
    ```
 
 3. The agent starts with GC logging enabled.
@@ -178,6 +302,8 @@ Use this argument to enable garbage collection logging which helps in diagnosing
 
 Use this argument to enable heap dump generation if the agent process crashes.
 
+**Steps:**
+
 1. Decide whether to enable heap dump generation.
    **To enable**: true
    **To disable**: false (default)
@@ -185,28 +311,10 @@ Use this argument to enable heap dump generation if the agent process crashes.
 2. Open a terminal and run the following command from the agent installation directory:
    
    ```bash
-   ./TestsigmaAgent --TS_ENABLE_HEAP_DUMP=true
+   ./start.sh --TS_ENABLE_HEAP_DUMP=true
    ```
 
 3. If the agent process crashes, a heap dump file is created in the agent’s working directory.
-
----
-
-### Argument: **`--TS_DELEGATE_SSL_VALIDATION`**
-
-Use this argument to delegate SSL certificate validation to the operating system.
-
-1. Decide whether to enable or disable system-level SSL validation.
-   - **To enable**: true
-   - **To disable**: false (default)
-
-2. Open a terminal and run the following command from the agent installation directory:
-
-   ```bash
-   ./TestsigmaAgent --TS_DELEGATE_SSL_VALIDATION=true
-   ```
-
-3. The agent starts using the system certificate store for SSL validation.
 
 ---
 
@@ -214,10 +322,12 @@ Use this argument to delegate SSL certificate validation to the operating system
 
 Use this argument to run the agent in headless mode. In headless mode, the browsers controlled by the agent run without a visible user interface.
 
+**Steps:**
+
 1. Open a terminal and run the following command from the agent installation directory:
 
    ```bash
-   ./TestsigmaAgent --TS_IS_HEADLESS=true
+   ./start.sh --TS_IS_HEADLESS=true
    ```
 
 2. The agent starts in headless mode & executes all tests without opening browser windows.
@@ -228,10 +338,12 @@ Use this argument to run the agent in headless mode. In headless mode, the brows
 
 Use this argument to disable all mobile testing capabilities on the agent. Disabling mobile support reduces resource consumption and helps tests run faster.
 
+**Steps:**
+
 1. Open a terminal and run the following command from the agent installation directory:
 
    ```bash
-   ./TestsigmaAgent --TS_IS_MOBILE_DISABLED=true
+   ./start.sh --TS_IS_MOBILE_DISABLED=true
    ```
 
 2. The agent starts with mobile testing disabled.
@@ -242,12 +354,14 @@ Use this argument to disable all mobile testing capabilities on the agent. Disab
 
 Use this argument to specify the system path to the Java Runtime Environment that the agent should use.
 
+**Steps:**
+
 1. Identify the system path of the required Java installation.
 
 2. Open a terminal and run the following command from the agent installation directory:
 
    ```bash
-   ./TestsigmaAgent --TS_JAVA_HOME=<path-to-java>
+   ./start.sh --TS_JAVA_HOME=<path-to-java>
    ```
 
 3. The agent starts using the specified Java runtime.
@@ -271,7 +385,7 @@ Use this argument to specify the logging level for the agent. The logging level 
 2. Open a terminal and run the following command from the agent installation directory:
 
    ```bash
-   ./TestsigmaAgent --TS_LOGGING_LEVEL=DEBUG
+   ./start.sh --TS_LOGGING_LEVEL=DEBUG
    ```
 
 3. The agent starts with the specified logging level.
@@ -282,6 +396,8 @@ Use this argument to specify the logging level for the agent. The logging level 
 
 Use these arguments to configure Java heap memory allocation for the agent.
 
+**Steps:**
+
 1. Decide the memory values you want to allocate.
    - Use **m** to specify megabytes (for example, 1024m).
    - Use **g** to specify gigabytes (for example, 4g).
@@ -289,7 +405,7 @@ Use these arguments to configure Java heap memory allocation for the agent.
 2. Open a terminal and run the following command from the agent installation directory:
 
    ```bash
-   ./TestsigmaAgent --TS_MIN_MEMORY=1024m --TS_MAX_MEMORY=4096m
+   ./start.sh --TS_MIN_MEMORY=1024m --TS_MAX_MEMORY=4096m
    ```
 3. The agent starts with the specified memory settings.
 
@@ -299,6 +415,8 @@ Use these arguments to configure Java heap memory allocation for the agent.
 
 Use this argument to specify a comma-separated list of hosts that should bypass proxy settings.
 
+**Steps:**
+
 1. Identify the hosts that should bypass the proxy.
 
    **Example**: `localhost`, `127.0.0.1`, `my-internal-server`.
@@ -306,7 +424,7 @@ Use this argument to specify a comma-separated list of hosts that should bypass 
 2. Open a terminal and run the following command from the agent installation directory:
 
    ```bash
-   ./TestsigmaAgent --TS_NON_PROXY_HOSTS="localhost,127.0.0.1,my-internal-server"
+   ./start.sh --TS_NON_PROXY_HOSTS="localhost,127.0.0.1,my-internal-server"
    ```
 
 3. The agent connects directly to the specified hosts.
@@ -317,53 +435,16 @@ Use this argument to specify a comma-separated list of hosts that should bypass 
 
 Use this argument to specify the file system path where the agent is installed.
 
+**Steps:**
+
 1. Identify the directory where the agent is installed or should be installed.
 
 2. Open a terminal and run the following command from the agent installation directory:
 
    ```bash
-   ./TestsigmaAgent --TS_ROOT_DIR=<path-to-directory>
+   ./start.sh --TS_ROOT_DIR=<path-to-directory>
    ```
 
 3. The agent starts using the specified root directory.
-
----
-
-### Argument: **`--TS_USE_SYSTEM_PROXY`**
-
-Use this argument to configure the agent to use the system proxy settings for all network calls.
-
-1. Ensure your system proxy settings are correctly configured.
-
-2. Open a terminal and run the following command from the agent installation directory:
-
-   ```bash
-   ./TestsigmaAgent --TS_USE_SYSTEM_PROXY=true
-   ```
-
-3. The agent starts using the system-configured proxy settings.
-
----
-
-### Argument: **`--TS_TRUST_STORE_TYPE`**
-
-Use this argument to specify the type of trust store for SSL certificate validation.
-
-**Supported Values**
-   - **JKS**: Java KeyStore (default).
-   - **PKCS12**: Public Key Cryptography Standard #12.
-   - **WINDOWS-ROOT**: Uses the Windows system certificate store.
-
-**Steps**
-
-1. Decide which trust store type your environment requires.
-
-2. Open a terminal and run the following command from the agent installation directory:
-
-   ```bash
-   ./TestsigmaAgent --TS_TRUST_STORE_TYPE=WINDOWS-ROOT
-   ```
-
-3. The agent starts using the specified trust store type.
 
 ---
