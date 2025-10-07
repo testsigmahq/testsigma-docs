@@ -1,8 +1,8 @@
 ---
-title: "Why Does the iOS App Close Right After Opening in Testsigma??"
+title: "Why does the iOS App Close Right After Opening in Testsigma?"
 metadesc: "Fix the issue where an iOS app launched via Testsigma recorder or automation opens and closes immediately, preventing your test from running successfully."
 order: 24.25
-page_id: "why-does-the-ios-app-close-right-after-opening-in-testsigma-?"
+page_id: "why-does-the-ios-app-close-right-after-opening-in-testsigma"
 warning: false
 contextual_links:
 - type: section
