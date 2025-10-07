@@ -3,7 +3,7 @@ title: "Testsigma API - Overview"
 metadesc: "An overview of available REST API Endpoints in Testsigma | Learn about set of REST API Endpoints to manage the entities available in Testsigma."
 noindex: false
 order: 21.1
-page_id: "Testsigma API - Overview"
+page_id: "testsigma-api-overview"
 warning: false
 contextual_links:
 - type: section

@@ -3,7 +3,7 @@ title: "Test Data - Parameter"
 metadesc: "Use parameter test data input from your test data profile in Testsigma. Learn how to use parameter from you test data profile for Test Automation"
 noindex: false
 order: 5.113
-page_id: "Test Data - Parameter"
+page_id: "test-data-parameter"
 warning: false
 contextual_links:
 - type: section

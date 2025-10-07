@@ -3,7 +3,7 @@ title: "Updating Value in Test Data Profile"
 metadesc: "In Testsigma, you can update values of test data profile using specific NLP in a test case. Learn how to update values in test data profiles in Testsigma."
 noindex: false
 order: 5.22
-page_id: "Add values to test data profile"
+page_id: "add-values-to-test-data-profile"
 warning: false
 contextual_links:
 - type: section

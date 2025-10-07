@@ -3,7 +3,7 @@ title: "Parallel and Allowed queues"
 metadesc: "Execute your Test Suites and Test Cases based on your subscription plan. This article explains parallel execution and the allowed queues for Test Suites and Test Cases."
 noindex: false
 order: 9.62
-page_id: "Parallel and Allowed queues"
+page_id: "parallel-and-allowed-queues"
 warning: false
 contextual_links:
 - type: section

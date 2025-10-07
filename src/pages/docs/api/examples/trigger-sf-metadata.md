@@ -4,7 +4,7 @@ page_title: "Metadata Refresh Using API"
 metadesc: "Refresh metadata using API calls without logging into the Testsigma application or performing UI actions | Learn how to refresh metadata and check the status of refresh using API calls"
 noindex: false
 order: 21.88
-page_id: "Metadata Refresh Using API"
+page_id: "metadata-refresh-using-api"
 warning: false
 contextual_links:
 - type: section

@@ -1,9 +1,9 @@
 ---
-title: " Prerequisites for Testsigma Agent"
+title: "Prerequisites for Testsigma Agent"
 metadesc: "The pre-requisites or conditions that should be met before you can successfully install and execute Testsigma agent on your devices."
 noindex: false
 order: 11.2
-page_id: " Pre-requisites for Testsigma Agent"
+page_id: "pre-requisites-for-testsigma-agent"
 warning: false
 contextual_links:
 - type: section

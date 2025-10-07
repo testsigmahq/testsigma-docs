@@ -4,7 +4,7 @@ pagetitle: "Create and Use Test Data Profiles"
 metadesc: "This article discusses steps in detail on how to create test data profiles that can be used in a test cases in Testsigma application"
 noindex: false
 order: 5.21
-page_id: "Create Test Data Profiles"
+page_id: "create-test-data-profiles"
 warning: false
 contextual_links:
 - type: section

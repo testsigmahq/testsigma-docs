@@ -3,7 +3,7 @@ title: "Manage Test Suites in Test Plans"
 metadesc: "Managing test suites in Test Plans makes test execution more efficient. Learn how to add, remove, and organize test suites in test plans in Testsigma."
 noindex: false
 order: 8.23
-page_id: "Manage Test Suites in Test Plans"
+page_id: "manage-test-suites-in-test-plans"
 warning: false
 contextual_links:
 - type: section

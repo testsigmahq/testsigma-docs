@@ -3,7 +3,7 @@ title: "Update Test Data Profile"
 metadesc: "In Testsigma, you can replace the old test datav profile with new data sets in one go. This article discusses how to update a test data profile in Testsigma."
 noindex: false
 order: 5.21
-page_id: "Update Test Data Profile"
+page_id: "update-test-data-profile"
 warning: false
 contextual_links:
 - type: section

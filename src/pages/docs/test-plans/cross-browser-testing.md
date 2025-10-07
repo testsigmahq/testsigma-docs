@@ -1,10 +1,10 @@
 ---
 title: "Test Plan: Cross Browser Testing"
-page_title: "Cross Browser Testing : Test Plan"
+page_title: "Cross Browser Testing in Testsigma"
 metadesc: "Test the functionality of your web application in Testsigma across all platforms. Test your application on multiple browsers and versions easily."
 noindex: false
 order: 8.26
-page_id: "Test Plan: Cross Browser Testing"
+page_id: "cross-browser-testing"
 warning: false
 contextual_links:
 - type: section
