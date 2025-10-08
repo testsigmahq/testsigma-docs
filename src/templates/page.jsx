@@ -9,7 +9,6 @@ import LeftNav from '../components/LeftNav';
 import SideBar from '../components/SideBar';
 import EditDoc from '../components/EditButton';
 import Footer from '../components/Footer';
-import SalesforceChatbot from '../components/third-party-integrations/sf-chatbot';
 
 import 'prismjs/themes/prism-tomorrow.css';
 import './page.scss';
@@ -205,7 +204,6 @@ export default ({ data, pageContext }) => {
           </div>
         </div>
       </div>
-      <SalesforceChatbot />
     </Layout>
   );
 };
