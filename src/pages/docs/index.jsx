@@ -10,14 +10,8 @@ import 'prismjs/themes/prism-tomorrow.css';
 import '../../templates/page.scss';
 import CardList from '../../components/navcards';
 import Header from '../../components/header';
-import SalesforceChatbot, {
-  showChatbot,
-} from '../../components/third-party-integrations/sf-chatbot';
 
 const IndexContent = () => {
-  const handleShowChat = () => {
-    showChatbot();
-  };
   return (
     <>
       <div className='w-full md:px-16 home-page_banner'>
@@ -54,7 +48,7 @@ const IndexContent = () => {
       </div>
       <div className='flex flex-wrap homepage_footer'>
         <div className='flex flex-wrap'>
-          <button onClick={handleShowChat}>
+          <button onClick={() => window.fcWidget.open()}>
             <div className='flex items-center chat_btn'>
               <svg
                 width='15'
@@ -88,7 +82,6 @@ const IndexContent = () => {
               <span>Ask the Community</span>
             </div>
           </Link>
-          <SalesforceChatbot />
         </div>
       </div>
     </>
