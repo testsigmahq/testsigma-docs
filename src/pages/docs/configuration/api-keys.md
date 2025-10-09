@@ -25,12 +25,18 @@ You can access and control it programmatically once you generate the API key. Te
 Follow the below steps to generate an API key in Testsigma:
 
 1. Navigate to **Settings** > **API Keys** in the left-side navbar.
+   ![API Keys](https://s3.amazonaws.com/static-docs.testsigma.com/new_images/projects/configuration/API_key_1.png)
 
 2. Click the **Generate new API Key** button in the top right corner of the screen on the **API Keys** page, and a **Generate API Key** pop-up overlay will appear.
+   ![Generate new API Key](https://s3.amazonaws.com/static-docs.testsigma.com/new_images/projects/configuration/API_key_2.png)
 
 3. In the pop-up overlay for **Generate API Key**, you can enter a **Name** for your **API Key** and specify the **number of parallel test** executions for this key. The overlay provides a toggle for restricting parallel test execution for this key.
+   ![Generate API Key](https://s3.amazonaws.com/static-docs.testsigma.com/new_images/projects/configuration/API_key_3.png)
 
-4. After entering a name and configuring parallel settings, click the **Generate Key** button. The API key will be displayed on the screen. Click the **Copy API Key** button to copy it to your clipboard for use in your applications or scripts. ![Generate API Key](https://s3.amazonaws.com/static-docs.testsigma.com/new_images/projects/applications/generate_apikey.gif)
+4. After entering a name and configuring parallel settings, click the **Generate Key** button.
+   ![Generate Key](https://s3.amazonaws.com/static-docs.testsigma.com/new_images/projects/configuration/API_key_4.png) 
+   
+5. The API key will be displayed on the screen. Click the **Copy API Key** button to copy it to your clipboard for use in your applications or scripts. ![Generate API Key](https://s3.amazonaws.com/static-docs.testsigma.com/new_images/projects/configuration/API_key_5.png)
 
 [[info | **NOTE**:]]
 | Only users with **Admin** or **Super Admin** roles can generate API keys in Testsigma.

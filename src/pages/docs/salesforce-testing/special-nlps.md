@@ -134,7 +134,7 @@ This NLP creates a new record for the selected **Salesforce object**.
 
 See the GIF below demonstrating how to use this NLP.
 
-![Create Lead](https://s3.amazonaws.com/static-docs.testsigma.com/new_images/projects/applications/CreateAPISF.gif)
+![Create Lead](https://s3.amazonaws.com/static-docs.testsigma.com/new_images/projects/salesforce_testing/NLP_19_1.png)
 
 [[info | **NOTE**:]]
 | You can also select the **Record Type** when entering details in the API step. However, ensure you only enter details relevant to that specific **Record Type**, or the test case will fail.
@@ -150,7 +150,7 @@ This NLP opens edit form of the selected **Salesforce object** using **Record ID
 
 See the GIF below demonstrating how to use this NLP.
 
-![Edit Lead](https://s3.amazonaws.com/static-docs.testsigma.com/new_images/projects/applications/Editleadsf.gif)
+![Edit Lead](https://s3.amazonaws.com/static-docs.testsigma.com/new_images/projects/salesforce_testing/NLP_19_2.png)
 
 ---
 
@@ -162,7 +162,7 @@ This NLP deletes a record for the selected **Salesforce object** using **Record 
 
 See the GIF below demonstrating how to use this NLP.
 
-![Delete Lead](https://s3.amazonaws.com/static-docs.testsigma.com/new_images/projects/applications/deletesflead.gif)
+![Delete Lead](https://s3.amazonaws.com/static-docs.testsigma.com/new_images/projects/salesforce_testing/NLP_19_3.png)
 
 
 ---
@@ -175,7 +175,7 @@ This NLP enables users to log in to Salesforce with a selected user connection.
 
 See the GIF below demonstrating how to use this NLP.
 
-![Login NLP](https://s3.amazonaws.com/static-docs.testsigma.com/new_images/projects/applications/LoginSFNLP.gif)
+![Login NLP](https://s3.amazonaws.com/static-docs.testsigma.com/new_images/projects/salesforce_testing/NLP_19_4.png)
 
 ---
 
@@ -189,7 +189,7 @@ For example, select **Sales** from the dropdown to log in to **Sales CRM**.
 
 See the GIF below demonstrating how to use this NLP.
 
-![Login NLP 2](https://s3.amazonaws.com/static-docs.testsigma.com/new_images/projects/applications/LoginSpecificAppNLP.gif)
+![Login NLP 2](https://s3.amazonaws.com/static-docs.testsigma.com/new_images/projects/salesforce_testing/NLP_19_5.png)
 
 ---
 
@@ -203,7 +203,7 @@ For example, select the **HubSpot** application from the dropdown to switch from
 
 See the GIF below demonstrating how to use this NLP.
 
-![Switch NLP](https://s3.amazonaws.com/static-docs.testsigma.com/new_images/projects/applications/SwitchNLPUpdated.gif)
+![Switch NLP](https://s3.amazonaws.com/static-docs.testsigma.com/new_images/projects/salesforce_testing/NLP_19_6.png)
 
 ---
 
@@ -215,7 +215,7 @@ This NLP navigates users to any standard tabs on the **Salesforce** platform.
 
 See the GIF below demonstrating how to use this NLP.
 
-![Navigation NLP](https://s3.amazonaws.com/static-docs.testsigma.com/new_images/projects/applications/NavigateNLP.gif)
+![Navigation NLP](https://s3.amazonaws.com/static-docs.testsigma.com/new_images/projects/salesforce_testing/NLP_19_7.png)
 
 ---
 
@@ -229,7 +229,7 @@ For example, to open the record details page of a specific lead, use this NLP.
 
 See the GIF below demonstrating how to use this NLP.
 
-![Object Details](https://s3.amazonaws.com/static-docs.testsigma.com/new_images/projects/applications/ViewSFObject.gif)
+![Object Details](https://s3.amazonaws.com/static-docs.testsigma.com/new_images/projects/salesforce_testing/NLP_19_8.png)
 
 ---
 
@@ -243,7 +243,7 @@ For example, to create a new lead, use this NLP.
 
 See the GIF below demonstrating how to use this NLP.
 
-![New Record](https://s3.amazonaws.com/static-docs.testsigma.com/new_images/projects/applications/OpenNewObject.gif)
+![New Record](https://s3.amazonaws.com/static-docs.testsigma.com/new_images/projects/salesforce_testing/NLP_19_9.png)
 
 ---
 
@@ -257,7 +257,7 @@ For example, to replace a URL in the website field of the lead details form, use
 
 See the GIF below demonstrating how to use this NLP.
 
-![Clear & Enter](https://s3.amazonaws.com/static-docs.testsigma.com/new_images/projects/applications/ClearEnterNLPSF.gif)
+![Clear & Enter](https://s3.amazonaws.com/static-docs.testsigma.com/new_images/projects/salesforce_testing/NLP_19_10.png)
 
 ---
 
@@ -271,7 +271,7 @@ For example, to replace a URL with a previous one in the website field of the le
 
 See the GIF below demonstrating how to use this NLP.
 
-![Undo NLP](https://s3.amazonaws.com/static-docs.testsigma.com/new_images/projects/applications/UndoFieldSF.gif)
+![Undo NLP](https://s3.amazonaws.com/static-docs.testsigma.com/new_images/projects/salesforce_testing/NLP_19_11.png)
 
 ---
 
@@ -283,7 +283,7 @@ Use this NLP to select values in **multipicklist** into an **element**.
 
 See the GIF below demonstrating how to use this NLP.
 
-![Select Multiple Values](https://s3.amazonaws.com/static-docs.testsigma.com/new_images/projects/applications/MultiSelectRemoveNLP.gif) 
+![Select Multiple Values](https://s3.amazonaws.com/static-docs.testsigma.com/new_images/projects/salesforce_testing/NLP_19_12.png) 
 
 ---
 
@@ -295,7 +295,7 @@ Use this NLP to remove multiple options from a **multipicklist** into an **eleme
 
 See the GIF below demonstrating how to use this NLP.
 
-![Remove Multiple Values](https://s3.amazonaws.com/static-docs.testsigma.com/new_images/projects/applications/MultiSelectRemoveNLP.gif)
+![Remove Multiple Values](https://s3.amazonaws.com/static-docs.testsigma.com/new_images/projects/salesforce_testing/NLP_19_13.png)
 
 ---
 
@@ -307,7 +307,7 @@ Use this NLP to enter data in a **RichInput text box**.
 
 See the GIF below demonstrating how to use this NLP.
 
-![Rich Input](https://s3.amazonaws.com/static-docs.testsigma.com/new_images/projects/applications/RichInputsNLP.gif)
+![Rich Input](https://s3.amazonaws.com/static-docs.testsigma.com/new_images/projects/salesforce_testing/NLP_19_14.png)
 
 ---
 
@@ -319,7 +319,7 @@ Use this NLP to select or record in a lookup field.
 
 See the GIF below demonstrating how to use this NLP.
 
-![Lookup NLP](https://s3.amazonaws.com/static-docs.testsigma.com/new_images/projects/applications/LookupNLPSF.gif)
+![Lookup NLP](https://s3.amazonaws.com/static-docs.testsigma.com/new_images/projects/salesforce_testing/NLP_19_15.png)
 
 ---
 
@@ -331,7 +331,7 @@ Use this NLP to select an option from a picklist element.
 
 See the GIF below demonstrating how to use this NLP.
 
-![Element Picklist](https://s3.amazonaws.com/static-docs.testsigma.com/new_images/projects/applications/SinglePickNLP.gif)
+![Element Picklist](https://s3.amazonaws.com/static-docs.testsigma.com/new_images/projects/salesforce_testing/NLP_19_16.png)
 
 ---
 
@@ -343,7 +343,7 @@ This NLP feature updates a Salesforce record with the details you enter in the A
 
 See the GIF below demonstrating how to use this NLP.
 
-![Element Picklist](https://s3.amazonaws.com/static-docs.testsigma.com/new_images/projects/applications/SalesforceUpdateNLP.gif)
+![Element Picklist](https://s3.amazonaws.com/static-docs.testsigma.com/new_images/projects/salesforce_testing/NLP_19_17.png)
 
 
 ---
@@ -372,7 +372,7 @@ See the GIF below demonstrating how to use this NLP.
 
 See the GIF below demonstrating how to use this NLP.
 
-![Get Record Details](https://s3.amazonaws.com/static-docs.testsigma.com/new_images/projects/applications/SF_Read_API.gif)
+![Get Record Details](https://s3.amazonaws.com/static-docs.testsigma.com/new_images/projects/salesforce_testing/NLP_19_18.png)
 
 ## **NLP 19:**
 
@@ -382,6 +382,6 @@ Use this NLP to automatically capture the record ID from the currently displayed
 
 See the GIF below demonstrating how to use this NLP.
 
-![NLP use case](https://s3.amazonaws.com/static-docs.testsigma.com/new_images/projects/salesforce_testing/NLP_Salesforce_GIF.gif)
+![NLP use case](https://s3.amazonaws.com/static-docs.testsigma.com/new_images/projects/salesforce_testing/NLP_19_19.png)
 
 ---

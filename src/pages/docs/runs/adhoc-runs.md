@@ -70,7 +70,7 @@ This documentation will guide you through setting up Test Labs and Test Machines
    ![Configuration name](https://s3.amazonaws.com/static-docs.testsigma.com/new_images/projects/runs/Adhoc_run_3.png)
 5. Click on **Saved Configs** at the top of the screen to reuse the saved configuration, and a drop-down list will appear. Select the Saved Config from this list. ![Save Config of Ad-Hoc](https://s3.amazonaws.com/static-docs.testsigma.com/new_images/projects/runs/Adhoc_run_4.png)
 6. The Ad-hoc Run overlay will be automatically pre-filled with the saved configuration for your next runs when selected.
-7. In the **Test Case Details** page, click **Ad-Hoc Runs** in the right Navigation Bar to open the right sidebar. This will enable you to view the history and details of Ad-Hoc Run results for the Test Case. ![View History of Ad-Hoc Run](https://s3.amazonaws.com/static-docs.testsigma.com/new_images/projects/applications/view_adhocrundetails.png)
+7. In the **Test Case Details** page, click **Ad-Hoc Runs** in the right Navigation Bar to open the right sidebar. This will enable you to view the history and details of Ad-Hoc Run results for the Test Case. ![View History of Ad-Hoc Run](https://s3.amazonaws.com/static-docs.testsigma.com/new_images/projects/runs/Adhoc_run_1.1.png)
 
 
 [[info | **NOTE**:]]
@@ -93,7 +93,7 @@ In the Ad-hoc run layover, provide the following configuration settings for a we
    3. **Page Timeout**: Duration for which the test should wait for the page to load.
    4. **Element Timeout**: Duration for which the test should wait for the element to load.
 5. **Desired Capabilities**: Provide **Key**, **Data Type** and **Value** under Desired Capabilities.
-6. Click on **Run Now**. ![Ad-hoc screen for Web Application](https://s3.amazonaws.com/static-docs.testsigma.com/new_images/projects/applications/webappliaction_adhocrun.png)
+6. Click on **Run Now**. ![Ad-hoc screen for Web Application](https://s3.amazonaws.com/static-docs.testsigma.com/new_images/projects/runs/Adhoc_run_1.2.png)
 
 ---
 
@@ -113,7 +113,7 @@ In the Ad-hoc run layover, provide the following configuration settings for a mo
 4. **Camera Image Injection**: Click the toggle button for **Camera Image Injection** to enable camera image injection for a test case.
 5. **Network Logs**: Click the toggle button for **Network Logs** to enable network logs for a test case.
 6. **Desired Capabilities**: Provide **Key**, **Data Type** and **Value** under Desired Capabilities.
-7. Click on **Run Now**. ![Ad-hoc screen for Mobile Web Application](https://s3.amazonaws.com/static-docs.testsigma.com/new_images/projects/runs/Adhoc_run_6.png)
+7. Click on **Run Now**. ![Ad-hoc screen for Mobile Web Application](https://s3.amazonaws.com/static-docs.testsigma.com/new_images/projects/runs/Adhoc_run_1.3.png)
 
 ---
 
@@ -135,7 +135,7 @@ In the Ad-hoc run layover, provide the following configuration settings for an A
 5. **Camera Image Injection**: Click the toggle button for **Camera Image Injection** to enable camera image injection for a test case.
 6. **Network Logs**: Click the toggle button for **Network Logs** to enable network logs for a test case.
 7. **Desired Capabilities**: Provide **Key**, **Data Type** and **Value** under Desired Capabilities.
-8. Click on **Run Now**. ![Ad-hoc screen for Android Application](https://s3.amazonaws.com/static-docs.testsigma.com/new_images/projects/runs/Adhoc_run_7.png)
+8. Click on **Run Now**. ![Ad-hoc screen for Android Application](https://s3.amazonaws.com/static-docs.testsigma.com/new_images/projects/runs/Adhoc_run_1.4.png)
 
 ---
 
@@ -158,7 +158,7 @@ In the Ad-hoc run layover, provide the following configuration settings for an i
 5. **Camera Image Injection**: Click the toggle button for **Camera Image Injection** to enable camera image injection for a test case.
 6. **Network Logs**: Click the toggle button for **Network Logs** to enable network logs for a test case.
 7. **Desired Capabilities**: Provide **Key**, **Data Type** and **Value** under Desired Capabilities. 
-8. Click on **Run Now**. ![Ad-hoc screen for iOS Application](https://s3.amazonaws.com/static-docs.testsigma.com/new_images/projects/runs/Adhoc_run_8.png)
+8. Click on **Run Now**. ![Ad-hoc screen for iOS Application](https://s3.amazonaws.com/static-docs.testsigma.com/new_images/projects/runs/Adhoc_run_1.5.png)
 
 ---
 
@@ -170,7 +170,7 @@ In the Ad-hoc run layover, provide the following configuration settings for a De
 3. **Desktop App Location**: Provide the Local URL for the application path.
 4. **Environment**: Select the test environment.
 5. **Desired Capabilities**: Provide **Key**, **Data Type** and **Value** under Desired Capabilities.
-6. Click on **Run Now**. ![Ad-hoc screen for Desktop Windows](https://s3.amazonaws.com/static-docs.testsigma.com/new_images/projects/applications/dekstopwindows_adhocrun.png)
+6. Click on **Run Now**. ![Ad-hoc screen for Desktop Windows](https://s3.amazonaws.com/static-docs.testsigma.com/new_images/projects/runs/Adhoc_run_1.6.png)
 
 ---
 
@@ -180,7 +180,7 @@ In the Ad-hoc run layover, provide the following configuration settings for a Re
 1. **Test Lab**: Select the test lab, either **Testsigma Cloud Lab** or **Local Devices**, to run the test case.
 2. **Environment**: Select the test environment.
 3. **Desired Capabilities**: Provide **Key**, **Data Type** and **Value** under Desired Capabilities.
-4. Click on **Run Now**. ![Rest API Application](https://s3.amazonaws.com/static-docs.testsigma.com/new_images/projects/applications/restapiapp_adhocrun.png)
+4. Click on **Run Now**. ![Rest API Application](https://s3.amazonaws.com/static-docs.testsigma.com/new_images/projects/runs/Adhoc_run_1.7.png)
 
 ---
 
@@ -189,10 +189,10 @@ In the Ad-hoc run layover, provide the following configuration settings for a Re
 You can add a prerequisite test case for any test case while executing the test case as dry runs. Follow the steps below to add a prerequisite test case for dry runs. 
 
 1. Navigate to **Create Tests > Test Cases**, select a test case for which you want to add prerequisites and click on **Test Case Settings**.
-   ![Test Case Settings](https://s3.amazonaws.com/static-docs.testsigma.com/new_images/projects/applications/tcsfapr.png)
+   ![Test Case Settings](https://s3.amazonaws.com/static-docs.testsigma.com/new_images/projects/runs/Adhoc_1.png)
 
 2. Select the prerequisite test case from the dropdown.
-   ![Prereq TC](https://s3.amazonaws.com/static-docs.testsigma.com/new_images/projects/applications/sprtcitcs.png)
+   ![Prereq TC](https://s3.amazonaws.com/static-docs.testsigma.com/new_images/projects/runs/Adhoc_2.png)
 
 3. For **Dry Runs**, the test case will be executed after the prerequisite test case.  You can check the **Execution sequence** on the test case results page. 
-   ![Dry Runs](https://s3.amazonaws.com/static-docs.testsigma.com/new_images/projects/applications/vprtcie.png)
+   ![Dry Runs](https://s3.amazonaws.com/static-docs.testsigma.com/new_images/projects/runs/Adhoc_3.png)
