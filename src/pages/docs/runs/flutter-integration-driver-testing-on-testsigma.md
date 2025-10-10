@@ -1,9 +1,9 @@
 ---
-title: "Flutter Integration Driver Testing"
+title: "Flutter Integration Driver Testing on Testsigma"
 metadesc: "Automate end-to-end Flutter app testing by interacting with widgets for reliable, maintainable, and accurate tests across devices and screens."
 noindex: false
 order: 9.61
-page_id: "flutter-integration-driver-testing"
+page_id: "flutter-integration-driver-testing-on-testsigma"
 warning: false
 contextual_links:
 - type: section
@@ -72,7 +72,7 @@ void main() {
 
    - For Android: 
        ```
-       ./gradlew app:assembleDebug -Ptarget=`pwd`/../integration_test/appium_test.dart
+       flutter build apk --debug --target=integration_test/appium_test.dart
        ```
    - For iOS Simulator (Debug):
        ```
