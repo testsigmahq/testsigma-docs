@@ -33,22 +33,24 @@ To capture a HAR (HTTP Archive) file, you can use the developer tools available 
 - In **Mozilla Firefox:** Press F12 or Ctrl+Shift+I (Windows/Linux) or Cmd+Option+I (Mac) to open the **Developer Tools**. You can also right-click on the page and select **Inspect Element**.
 
 - In **Microsoft Edge:** Press F12 or Ctrl+Shift+I (Windows/Linux) or Cmd+Option+I (Mac) to open the **Developer Tools**. Alternatively, right-click on the page and select **Inspect**.
+![Inspect](https://s3.amazonaws.com/static-docs.testsigma.com/new_images/projects/troubleshooting/HAR_file_1.png)
 
 ### **2. Navigate to the Network Tab**
 
 - On the **Developer Tools,** click on **Network** to access network monitoring tools.
+  ![Network](https://s3.amazonaws.com/static-docs.testsigma.com/new_images/projects/troubleshooting/HAR_file_2.png)
 
 - On the **Network** tab, reload the web page for which you want to capture network activity. This will start recording all network requests and responses.
+  ![Refresh](https://s3.amazonaws.com/static-docs.testsigma.com/new_images/projects/troubleshooting/HAR_file_3.png)
 
 ### **3. Export HAR File**
-- **Google Chrome:** Right-click anywhere within the **Network** tab and select **Save all as HAR with content**.
+- **Google Chrome:** Right-click anywhere within the **Network** tab and select **Save all as HAR with content**. You can also click the **Export HAR** icon in the Network panel toolbar.
 - **Mozilla Firefox:** Right-click anywhere within the **Network** tab and select **Save All as HAR**.
-- **Microsoft Edge:** Right-click anywhere within the **Network** tab and select **Save as HAR with Content**.
+- **Microsoft Edge:** Right-click anywhere within the **Network** tab and select **Save as HAR with Content**. You can also click the **Export HAR** icon in the Network panel toolbar.
+
+![Export](https://s3.amazonaws.com/static-docs.testsigma.com/new_images/projects/troubleshooting/HAR_file_4.png)
 
 Save the HAR file to the desired location on your computer.
-
-Here’s a quick GIF demonstrating how to download a HAR file in Edge. 
-![HAR File GIF](https://s3.amazonaws.com/static-docs.testsigma.com/new_images/projects/applications/harfile.gif)
 
 ---
 
