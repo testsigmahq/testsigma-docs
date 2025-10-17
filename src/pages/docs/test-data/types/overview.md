@@ -4,7 +4,7 @@ page_title: "Test Data Types | Testsigma Documentaion"
 metadesc: "Explore the power of various Test Data Types in Testsigma for dynamic and robust test scenarios. Reuse, manage, and optimise your testing with ease."
 noindex: false
 order: 5.111
-page_id: "Test Data Types"
+page_id: "test-data-types"
 warning: false
 contextual_links:
 - type: section

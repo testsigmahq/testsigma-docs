@@ -3,7 +3,7 @@ title: "Run the Same Test Plan Multiple Times in Parallel"
 metadesc: "This document discusses how one test plan can be run multiple times, in parallel, using the REST API calls | Run same test plan multiple times"
 noindex: false
 order: 21.83
-page_id: "Run the same Test Plan multiple times in Parallel"
+page_id: "run-the-same-test-plan-multiple-times-in-parallel"
 search_keyword: ""
 warning: false
 ---

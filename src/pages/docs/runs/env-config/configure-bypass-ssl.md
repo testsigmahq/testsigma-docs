@@ -4,7 +4,7 @@ page_title: "Bypass the missing SSL certificate error"
 metadesc: "How to bypass the missing SSL certificate error while automating browser tests using Testsigma"
 noindex: false
 order: 9.83
-page_id: "How to bypass the missing SSL certificate error?"
+page_id: "bypass-the-missing-ssl-certificate-error"
 warning: false
 contextual_links:
 - type: section

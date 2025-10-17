@@ -3,7 +3,7 @@ title: "Run Tests on Private Grid"
 metadesc: "Testsigma Private Grid helps run parallel tests across multiple browsers, OS, and machines. This article discusses how to setup and execute tests on Private Grid"
 noindex: false
 order: 9.41
-page_id: "Test Plan Local Executions"
+page_id: "run-tests-on-private-grid"
 warning: false
 contextual_links:
 - type: section

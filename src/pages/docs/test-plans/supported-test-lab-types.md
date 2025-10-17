@@ -3,14 +3,13 @@ title: "Test Lab Types"
 metadesc: "Execute your tests on different Test Lab Types with Testsigma application. Choose from Testsigma Labs, Local Devices, BrowserStack, Sauce Labs, and more."
 noindex: false
 order: 8.29
-page_id: "Test Lab Types"
+page_id: "test-lab-types"
 warning: false
 ---
 
 ---
 
-Testsigma platform allows you to execute your tests using different Test
- Lab Types such as:
+Testsigma platform allows you to execute your tests using different Test Lab Types such as:
 
 1. Testsigma Labs
    

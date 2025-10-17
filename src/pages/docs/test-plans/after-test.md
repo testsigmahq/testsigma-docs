@@ -4,7 +4,7 @@ page_title: "After Test in Test cases and Step Groups"
 metadesc: "AfterTest in Testsigma lets you create a block of steps after the test case as well as add a step group. Learn about AfterTest block in Testsigma"
 noindex: false
 order: 8.31
-page_id: "After Test in Test Cases and Step Groups"
+page_id: "after-test-in-test-cases-and-step-groups"
 warning: false
 contextual_links:
 - type: section

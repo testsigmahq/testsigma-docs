@@ -3,7 +3,7 @@ title: "Import Test Data Profile"
 metadesc: "In Testsigma, you can also import a test data profile and use it in your tests. This article discusses how to import a test data profile with right file format"
 noindex: false
 order: 5.22
-page_id: "Import test data profile"
+page_id: "import-test-data-profile"
 warning: false
 contextual_links:
 - type: section

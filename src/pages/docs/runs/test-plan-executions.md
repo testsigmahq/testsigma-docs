@@ -1,7 +1,7 @@
 ---
 title: "Test Plan Executions"
 order: 9.21
-page_id: "Test Plan Executions"
+page_id: "test-plan-executions"
 metadesc: "This article discusses how to create and execute test plans in Testsigma platform | Understand normal test runs and partial test runs in the Testsigma"
 noindex: false
 warning: false

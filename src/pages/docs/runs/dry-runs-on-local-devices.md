@@ -3,7 +3,7 @@ title: "Dry Runs on Local Devices"
 metadesc: "A Test Case can be run either as a Dry Run or as a part of a Test Plan. Learn how to perform dry runs on local devices in Testsigma."
 noindex: false
 order: 9.31
-page_id: "Dry Runs on Local Devices"
+page_id: "dry-runs-on-local-devices"
 warning: false
 contextual_links:
 - type: section

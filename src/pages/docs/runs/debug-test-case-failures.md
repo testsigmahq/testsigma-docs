@@ -2,8 +2,8 @@
 title: "Debug Test Case Failures "
 metadesc: " How to debug a failed test case to identify the issue in Testsigma."
 noindex: false
-order: 9.61
-page_id: "Debug Test Case Failures "
+order: 9.71
+page_id: "debug-test-case-failures"
 warning: false
 ---
 

@@ -3,7 +3,7 @@ title: "Plain Text"
 metadesc: "Type anything you want as test data input to your test cases in Testsigma. Learn how to use plain text as test data type for your test cases in Test Automation"
 noindex: false
 order: 5.112
-page_id: "Test Data - Plain Text"
+page_id: "test-data-plain-text"
 warning: false
 contextual_links:
 - type: section

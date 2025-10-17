@@ -3,7 +3,7 @@ title: "Bulk Deletion of a Test Data Profile"
 metadesc: "This article discusses steps in detail on how to bulk delete test data profiles in Testsigma application | Delete Test Data Profiles in Testsigma"
 noindex: false
 order: 5.23
-page_id: "Bulk deletion of a Test Data Profile"
+page_id: "bulk-deletion-of-test-data-profile"
 warning: false
 contextual_links:
 - type: section

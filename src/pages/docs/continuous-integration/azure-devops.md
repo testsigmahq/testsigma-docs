@@ -26,8 +26,8 @@ Microsoft Azure, aka Azure, is a cloud computing service created by Microsoft fo
 > <p id="prerequisites">Prerequisites</p>
 > 
 > Before you begin, ensure that you have referred to:
-> 1. [DOcumentation on generating API keys](https://testsigma.com/docs/configuration/api-keys/).
-> 2. [Documentation on getting test plan id](https://docs.testsigma.com/images/azure-devops/get-test-plan-id.png).
+> 1. [Documentation on generating API keys](https://testsigma.com/docs/configuration/api-keys/).
+> 2. [Documentation on getting test plan ID](https://docs.testsigma.com/images/azure-devops/get-test-plan-id.png).
 
 ---
 ## **How to integrate with Azure DevOps**
@@ -58,26 +58,26 @@ In this case, we already had an existing YAML file in the repo. So, once you sel
 The YAML file contains the following code where you need to enter the filePath of the Generic Shell Script (cicd-api.sh) to run it. For more information on generic shell script, refer to the [documentation generic shell script](https://testsigma.com/docs/continuous-integration/shell-script/).  This Shell script is the one that actually triggers the Test Plan execution and gives you the result of Test plan once it's complete.
 
 ```yaml
-# Starter pipeline
-# Start with a minimal pipeline that you can customize to build and deploy your code.
-# Add steps that build, run tests, deploy, and more:
-# https://aka.ms/yaml
-trigger:- master
-pool:  
-vmImage: 'ubuntu-latest'
-steps:- 
-script: echo Hello, world!  
-displayName: 'Run a one-line script'
-//Settings
-- task: Bash@3 
- inputs:    
-filePath: './cicd-api.sh' //Generic Shell Script file
-//Settings
-- task: PublishTestResults@2  
-displayName: 'publish testsigma test results'  
-inputs:    
-testResultsFormat: 'Junit'// Test Result Format   
-testResultsFiles: '**/junit-report.xml' //Result File Type
+# Azure Pipelines YAML file
+trigger: master
+
+pool:
+  vmImage: 'ubuntu-latest'
+
+steps:
+- script: echo Hello, world!
+  displayName: Run a one-line script
+
+- task: Bash@3
+  displayName: Run Shell Script (./cd-api.sh)
+  inputs:
+    filePath: ./cd-api.sh
+
+- task: PublishTestResults@2
+  displayName: publish test-results
+  inputs:
+    testResultFormat: JUnit
+    testResultsFiles: '**/*junit-report.xml'
 ```
 
 

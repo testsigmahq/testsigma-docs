@@ -4,7 +4,7 @@ page_title: "Upload/update test data profile via API in Testsigma"
 metadesc: "This article discusses in detail on REST API endpoints used for uploading the Apps and Attachments for test data profile in Testsigma Application."
 noindex: false
 order: 21.6
-page_id: "Upload test data profile using API"
+page_id: "upload-test-data-profile-using-api"
 warning: false
 contextual_links:
 - type: section

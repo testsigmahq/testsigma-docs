@@ -3,7 +3,7 @@ title: "Access Locally Hosted Applications"
 metadesc: "When Testsigma servers are unable to access your locally hosted applications, you need to whitelist Testsigma IP addresses or access through secure Tunnel/VPN"
 noindex: false
 order: 9.51
-page_id: "Access Locally Hosted Applications"
+page_id: "access-locally-hosted-applications"
 warning: false
 contextual_links:
 - type: section
@@ -12,11 +12,8 @@ contextual_links:
   name: "1. Whitelisting Testsigma IP Addresses"
   url: "#1-whitelisting-testsigma-ip-addresses"
 - type: link
-  name: "2. Secure Tunnel/VPN"
-  url: "#2-secure-tunnelvpn"
-- type: link
-  name: "3. Testsigma Agent"
-  url: "#3-testsigma-agent"
+  name: "2. Testsigma Agent"
+  url: "#2-testsigma-agent"
 ---
 
 ---

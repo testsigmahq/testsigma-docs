@@ -1,8 +1,8 @@
 ---
 title: "Update Testsigma agent manually"
 metadesc: "In case the auto-update failures of Testsigma Agent due to bad network conditions or incorrect configuration, you can update the Agent manually."
-order: 11.6
-page_id: "Update Testsigma Agent manually"
+order: 11.8
+page_id: "update-testsigma-agent-manually"
 warning: false
 contextual_links:
 - type: section
@@ -27,7 +27,8 @@ Given below are the steps to be followed in order to update the Agent to the lat
 
 
 ---
-##**For Windows**
+
+## **For Windows**
 
 If the Testsigma Agent is already running, we need to stop it before updating the Agent. You will see a Testsigma Agent icon in the System Tray if it is already running. 
 
@@ -50,7 +51,8 @@ Else, skip to Step 3.
 
 
 ---
-##**For Mac/Linux**
+
+## **For Mac/Linux**
 If the Testsigma Agent is already running, we need to stop it before updating the Agent. You will  see a Testsigma Agent icon in the Status bar if it is already running. 
 
 ![Testsigma Agent Mac System Tray icon](https://docs.testsigma.com/images/update-agent-manually/ts-agent-mac-tray-icon.png)
@@ -71,9 +73,4 @@ For example, **cd /Users/< username >/TestsigmaAgent**
 |If you are facing any challenges connecting Testsigma Agent after updating, try deleting completely. For more information on deleting the Testsigma Agent forcefully, refer to the [documentation on deleting the Testsigma Agent forcefully](https://testsigma.com/docs/agent/force-delete/).
 
 
-
-
-
-
-
-
+---
