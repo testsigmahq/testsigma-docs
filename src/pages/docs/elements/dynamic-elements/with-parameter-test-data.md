@@ -50,9 +50,16 @@ Dynamic locators are necessary for data-driven testing because they help adjust 
 We are using the Simply Travel Flight website as an example and sorting the city names and the variable part of the element's ID attribute in the test data profile.
 
 1. Navigate to the website containing the elements you want to copy the **XPath**.
-2. **Right-click** on the desired and select **Inspect** to open **Chrome Developer Tools**.
-3. Use the **Select Element** icon to locate and inspect the element, then right-click the HTML tag and copy the **XPath**.
-4. We will use the Simply Travel Flight website as an example of the above test steps. Click **Select from Cities** and copy the **XPath** values for the cities. ![Copy Xpath for storing](https://s3.amazonaws.com/static-docs.testsigma.com/new_images/projects/applications/copy_xpath.gif)
+  
+2. We will use the Simply Travel Flight website as an example of the above test steps. Click **Select from Cities** and copy the **XPath** values for the cities. 
+  ![Website](https://s3.amazonaws.com/static-docs.testsigma.com/new_images/projects/elements/Dynamic_1.png)
+
+3. **Right-click** on the desired and select **Inspect** to open **Chrome Developer Tools**.
+   ![Inspect](https://s3.amazonaws.com/static-docs.testsigma.com/new_images/projects/elements/Dynamic_2.png)
+
+4. Use the **Select Element** icon to locate and inspect the element, then right-click the HTML tag and copy the **XPath**.
+   ![XPath](https://s3.amazonaws.com/static-docs.testsigma.com/new_images/projects/elements/Dynamic_3.png)
+
 5. The table below explains how the city names and their corresponding XPath for an element.
    <table>
   <tr>
@@ -78,37 +85,57 @@ We are using the Simply Travel Flight website as an example and sorting the city
 </table>
 
 6. In the provided XPath examples, the IDs of the cities have a common portion, **city-**, followed by a variable digit from **1** to **4**. We will parameterise this by storing the city and the variable portion using a Test Data profile.
-7. Navigate to **Test Data** > **Test Data Profile**. Click on **Create Test Data Profile**. ![Create TDP for storing element](https://s3.amazonaws.com/static-docs.testsigma.com/new_images/projects/applications/create_tdp_parameter.png)
-8. Below is the created Test Data profile for storing element ID attributes: ![Sample TDP](https://s3.amazonaws.com/static-docs.testsigma.com/new_images/projects/applications/sample_tdp_dynamic.png)
+7. Navigate to **Test Data** > **Test Data Profile**. Click on **Create Test Data Profile**. 
+   ![Create Test Data Profile](https://s3.amazonaws.com/static-docs.testsigma.com/new_images/projects/elements/Dynamic_4.png)
+
+8. Below is the created Test Data profile for storing element ID attributes: 
+   ![Attributes](https://s3.amazonaws.com/static-docs.testsigma.com/new_images/projects/elements/Dynamic_5.png)
 
 ---
 
 ## **Creating Dynamic Elements using Parameter**
 
-1. Use NLP to create a new step in the Test Case and include a placeholder for the element. ![Select Create Element](https://s3.amazonaws.com/static-docs.testsigma.com/new_images/projects/applications/select_create_element_dp.png)
+1. Use NLP to create a new step in the Test Case and include a placeholder for the element. 
+   ![NLP](https://s3.amazonaws.com/static-docs.testsigma.com/new_images/projects/elements/Dynamic_6.png)
+
    [[info | Example:]]
    | Utilise NLP "Click on **Element**" to click an element with a given UI Identifier.
 
 2. Click on the **Element**, then select **Create Element** from the dropdown list.
+   ![Elements](https://s3.amazonaws.com/static-docs.testsigma.com/new_images/projects/elements/Dynamic_7.png)
+
 3. Manually enter the **Element Name**, **Screen Name**, and **Element Type** in the **Create Element** overlay screen.
+   ![Element Name](https://s3.amazonaws.com/static-docs.testsigma.com/new_images/projects/elements/Dynamic_8.png)
+
 4. Provide the dynamic element value **//*[@id="@|cities|"]/div[2]/span[1]**, where **cities** is the parameter name containing dynamic data.
-5. Click **Create Element** to complete element creation and then **Create Step**. ![Create Dynamic ELement using Parameter](https://s3.amazonaws.com/static-docs.testsigma.com/new_images/projects/applications/create_element_usingparameter.gif)
+   ![XPath Value](https://s3.amazonaws.com/static-docs.testsigma.com/new_images/projects/elements/Dynamic_9.png)
+
+5. Click **Create Element** to complete element creation and then **Create Step**. 
+   ![Create Element](https://s3.amazonaws.com/static-docs.testsigma.com/new_images/projects/elements/Dynamic_10.png)
 
 ---
 
 ## **Configuring Test Data Profile in Test Case**
 
 1. In Test Case details page, click **Test Case Settings** in the right-side navbar.
+   ![Test Case Setings](https://s3.amazonaws.com/static-docs.testsigma.com/new_images/projects/elements/Dynamic_11.png)
+
 2. Choose the associated **Test Data Profile**.
-3. Enable the **Data-Driven** toggle and select **Filter Type**, **Comparison Metric**, and **Data Iteration**. ![Config TDP in test case](https://s3.amazonaws.com/static-docs.testsigma.com/new_images/projects/applications/config_tdp_dynamic.gif)
+   ![Test Data Profile](https://s3.amazonaws.com/static-docs.testsigma.com/new_images/projects/elements/Dynamic_12.png)
+
+3. Enable the **Data-Driven** toggle and select **Filter Type**, **Comparison Metric**, and **Data Iteration**. 
+   ![Data-Driven](https://s3.amazonaws.com/static-docs.testsigma.com/new_images/projects/elements/Dynamic_13.png)
 
 ---
 
 ## **Run Results for Dynamic Elements using Parameter**
 
 1. Once the test step created with the dynamic Element, execute the Test Case.
+   ![Run](https://s3.amazonaws.com/static-docs.testsigma.com/new_images/projects/elements/Dynamic_14.png)
+
 2. Wait until the Test Case execution is completed.
-3. The Test Case will iterate as many times as there are **Test Data Sets (rows)** in the Test Data Profile, resulting in four iterations based on the provided example. ![Results for Dynamic Elements](https://s3.amazonaws.com/static-docs.testsigma.com/new_images/projects/applications/results_dynamicparameter.gif)
+   
+3. The Test Case will iterate as many times as there are **Test Data Sets (rows)** in the Test Data Profile, resulting in four iterations based on the provided example.
+   ![Test Data Sets](https://s3.amazonaws.com/static-docs.testsigma.com/new_images/projects/elements/Dynamic_15.png)
 
 ---
-

@@ -41,6 +41,7 @@ Controlling the behavior of each test step can be important to enhance your test
 ## **Use Test Step Settings**
 
 To access **Test Step Settings**, click **kebab menu** on any test step, and choose **Step Settings** from the list. 
+![Step Settings](https://s3.amazonaws.com/static-docs.testsigma.com/new_images/projects/test_case/Test_step_settings_1.png)
 
 Below is a summary of the available settings:
 
@@ -56,11 +57,7 @@ Below is a summary of the available settings:
 |**Enable Visual Testing for the Step**|You can disable the test step by choosing this option, and the test step will not run. By default, this option is unchecked.|
 |**Highlight element in screenshot**|Choose this option to highlight elements on the product screen for each step. Contact Testsigma support to enable this feature. <br> <br> Navigation: **Settings > Preferences > Highlight element in screenshot** <br> |
 
-Here’s a quick GIF demonstrating how to access & update the test step settings. 
-
-![Test Step Settings](https://s3.amazonaws.com/static-docs.testsigma.com/new_images/projects/applications/teststepsettingsnew.gif)
-
----
+![Test Step Settings 2](https://s3.amazonaws.com/static-docs.testsigma.com/new_images/projects/test_case/Test_step_settings_2.png)
 
 ## **Configuring Global Timeouts (New)**
 
@@ -81,7 +78,7 @@ Refer to the screenshot below to enable the **Global Step Timeout** toggle in th
 ---
 ## **Update Step Settings**
 
-To update several test steps, click the **checkboxes** next to the **test steps** you want to update and then click on **Update Settings** in the menu bar to open a popup window where you can make changes to the settings. ![Update Step Settings](https://s3.amazonaws.com/static-docs.testsigma.com/new_images/projects/applications/update_testsettings.gif)
+To update several test steps, click the **checkboxes** next to the **test steps** you want to update and then click on **Update Settings** in the menu bar to open a popup window where you can make changes to the settings. ![Update Step Settings](https://s3.amazonaws.com/static-docs.testsigma.com/new_images/projects/test_case/Test_step_settings_3.png)
 
 [[info | NOTE:]]
 | Update Step Setting does not allow updating the **Pre-Requisite** and **Number of Retries on Step Failure**. You should use **Test Step Settings** for each step individually.
