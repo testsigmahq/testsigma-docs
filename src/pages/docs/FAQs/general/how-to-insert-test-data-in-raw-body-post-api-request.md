@@ -69,5 +69,4 @@ To quickly help you understand, this video demonstrates how to insert test data 
 - The name is parameterized with the **DogName** field from the **Test Data Profile**.
 - Other fields, such as category, tags, and status are static but can also be parameterized if needed.
 
-
 ---
