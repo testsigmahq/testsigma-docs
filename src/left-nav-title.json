@@ -742,5 +742,6 @@
   "jira-server" : {"/docs/atto/generative-ai/integrations/jira-server/": "Jira Server"},
   "audit-logs": {"/docs/activity-monitoring/audit-logs/": "Audit Logs" },
   "command-line-arguments": {"/docs/agent/command-line-arguments/": "Arguments Usage Details" },
-  "upgrade-guide": {"/docs/agent/upgrade-guide/": "Agent Upgrade Guide" }
+  "upgrade-guide": {"/docs/agent/upgrade-guide/": "Agent Upgrade Guide" },
+  "test-salesforce-connection-before-authorization": { "/docs/salesforce-testing/test-salesforce-connection-before-authorization/": "Test Salesforce Connection" }
 }
