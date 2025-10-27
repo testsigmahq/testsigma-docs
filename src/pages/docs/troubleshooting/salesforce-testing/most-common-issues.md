@@ -1,10 +1,10 @@
 ---
-title: "Issues While Testing Apps Built on Salesforce"
-page_title: "Troubleshooting Some General Issues"
+title: "Troubleshooting Common Issues in Salesforce Testing"
+page_title: "Troubleshooting Some General Issues in Salesforce Testing"
 metadesc: "Learn how to resolve some of the general issues while testing applications built on Salesforce | Troubleshooting general issues in Salesforce Testing"
 noindex: false
 order: 23.911
-page_id: "Troubleshooting Guide for Salesforce Testing"
+page_id: "troubleshooting-guide-for-salesforce-testing"
 warning: false
 contextual_links:
 - type: section
@@ -18,11 +18,17 @@ contextual_links:
 - type: link
   name: "MFA Challenge"
   url: "#mfa-challenge"
+- type: link
+  name: "Execution fails on Labs"
+  url: "#execution-fails-on-labs"
+- type: link
+  name: "MFA Dialog Appears During Execution"
+  url: "#mfa-dialog-appears-during-execution"
 ---
 
 ---
 
-This troubleshooting guide for Salesforce Testing in Testsigma provides solutions to common issues while testing applications built on Salesforce. 
+While testing applications built on Salesforce, you might face challenges that do not occur in traditional web applications. This is because security controls, session policies, and authentication rules are tightly enforced on the platform. As a result, executions may fail unexpectedly unless configurations are aligned correctly. This document discusses the most common issues faced while executing tests on Salesforce applications and provides actionable steps to resolve them quickly.
 
 ---
 
@@ -36,7 +42,7 @@ This troubleshooting guide for Salesforce Testing in Testsigma provides solution
 - **Environment** might be wrong (e.g., production vs. development).
 - **Callback URL** is incorrect.
 
-### **Steps to Resolve**
+### **Steps to Resolve** 
 
 **1. Verify ClientId and Secret:**
 
@@ -130,5 +136,66 @@ Users can sync metadata but encounter an MFA challenge during the process.
    - Create a new permission set specifically for automation users.
 
    - Assign this permission set to users who are performing Salesforce authentication.
+
+---
+
+## **Execution fails on Labs**
+
+### **Cause:**
+
+The execution fails when the session is generated from a different machine but the execution is done on a different browser or environment, such as when a lab is selected. This mismatch results in Salesforce treating the session as invalid, leading to execution failure.
+
+### **Steps to Resolve**
+
+**1. Verify User Privileges**
+
+Ensure the user executing the test has the same privileges as the **System Administrator**:
+
+   - Navigate to **Setup > Quick Finder > Users**.
+
+   - Click on the relevant user.
+
+   - In the **User Detail** section, check the **Profile** and compare it with the **System Admin** profile.
+
+![User Profile Settings](https://s3.amazonaws.com/static-docs.testsigma.com/new_images/projects/Updated_Doc_Images/User_Profile_Settings.png)
+
+**2. Execute via Local Agent**
+
+   - Run the test case on a local agent.
+
+   - If the test executes successfully, the issue is related to **Labs** session handling.
+
+**3. Update Session Settings (if issue is Labs-specific)**
+
+Navigate to **Setup > Quick Finder > Session Settings** and configure as follows:
+   
+   - **Disable**: Lock sessions to the IP address from which they originated
+   
+   - **Enable**: Lock sessions to the domain in which they were first used
+   
+   - **Enable**: Force relogin after Login-As-User
+
+![Session Security Levels](https://s3.amazonaws.com/static-docs.testsigma.com/new_images/projects/Updated_Doc_Images/Session_Security_Levels_Salesforce.png)
+
+---
+
+## **MFA Dialog Appears During Execution**
+
+### **Cause:**
+
+Salesforce enforces Multi-Factor Authentication for users logging in from untrusted devices or sessions. When tests are executed via Labs or agents, the sessions are considered untrusted, triggering the MFA Dialog.
+
+### **Steps to Resolve**
+Navigate to **Setup > Quick Finder > Session Settings > Session Security Levels**.
+
+Update the following options:
+   - **Remove**: Multi-Factor Authentication (MFA) requirement
+   - **Ensure**: Passwordless Login is enabled
+   - **Ensure**: Username & Password login is enabled
+
+![Session Settings](https://s3.amazonaws.com/static-docs.testsigma.com/new_images/projects/Updated_Doc_Images/Session_Settings_Salesforce.png)
+
+[[info | **NOTE**:]]
+| Configurations should match the screenshot in this reference guide.
 
 ---
