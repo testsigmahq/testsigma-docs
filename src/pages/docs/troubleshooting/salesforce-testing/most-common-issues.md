@@ -141,7 +141,7 @@ Users can sync metadata but encounter an MFA challenge during the process.
 
 ## **Execution Fails on Labs**
 
-<img src="https://s3.amazonaws.com/static-docs.testsigma.com/new_images/projects/Updated_Doc_Images/Salesforce_Execution_Fails_on_Labs.png" style="width: 700px;" />
+<img src="https://s3.amazonaws.com/static-docs.testsigma.com/new_images/projects/Updated_Doc_Images/Salesforce_Execution_Fails_on_Labs.png" alt="Salesforce Execution Fails on Labs error banner" style="width: 700px;" />
 
 ### **Cause:**
 
