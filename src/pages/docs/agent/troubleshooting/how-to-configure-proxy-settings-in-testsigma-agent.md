@@ -43,7 +43,7 @@ https.nonProxyHosts: "localhost|127.0.0.1|*.testsigma.com|*.amazonaws.com|<inter
 [[info | **NOTE**:]]
 | You can add multiple domains separated by **|** (pipe).
 
-5. Save the file and restart the Local Agent.
+4. Save the file and restart the Local Agent.
 
 ---
 
@@ -68,21 +68,24 @@ The following Java system properties are supported for configuring proxy setting
 ### **Example Configuration:**
 
 ```bash
-http.proxyHost="proxy.example.com"
-http.proxyPort="8080"
-http.proxyUser="username"
-http.proxyPassword="password"
+http.proxyHost: 'proxy.example.com'
+http.proxyPort: '8080'
+http.proxyUser: 'username'
+http.proxyPassword: 'password'
 
-https.proxyHost="proxy.example.com"
-https.proxyPort="8080"
-https.proxyUser="username"
-https.proxyPassword="password"
+https.proxyHost: 'proxy.example.com'
+https.proxyPort: '8080'
+https.proxyUser: 'username'
+https.proxyPassword: 'password'
 
-http.nonProxyHosts="localhost|127.0.0.1|*.example.com"
-https.nonProxyHosts="localhost|127.0.0.1|*.example.com"
+http.nonProxyHosts: 'localhost|127.0.0.1|*.example.com'
+https.nonProxyHosts: 'localhost|127.0.0.1|*.example.com'
 
-java.net.useSystemProxies=true
+java.net.useSystemProxies: true
 ```
 
 [[info | **NOTE**:]]
 | Replace **example.com** with your internal domain if specific proxies must be bypassed.
+
+
+---
