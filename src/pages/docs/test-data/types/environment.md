@@ -56,21 +56,21 @@ In Testsigma, you can handle and use specific sets of test data linked to differ
 
 1. Use **NLP** to create a **new step** in the **Test Case** and include a placeholder for **test data**.
 2. Click the **test data** placeholder to replace it, and then select the *** Environment** from the **Test Data Types** dropdown menu.
-3. Select **Environment** in the **Environments** overlay screen from the right-side panel. ![Environment in Test Step](https://s3.amazonaws.com/static-docs.testsigma.com/new_images/projects/applications/teststeps_environment.gif)
+   ![Environment](https://s3.amazonaws.com/static-docs.testsigma.com/new_images/projects/test_data/Environment_1.png)
+3. Select **Environment** in the **Environments** overlay screen from the right-side panel. ![Environment in Test Step](https://s3.amazonaws.com/static-docs.testsigma.com/new_images/projects/test_data/Environment_2.png)
 
 ---
 
 ## **Use Environment in Ad-hoc Run page**
 
-1. On the **Ad-hoc Run** page, click the right arrow before **Additional Settings** to reveal the feature.
-2. Select **Environmet** from the drop-down list. ![Environment in Ad-hoc Run](https://s3.amazonaws.com/static-docs.testsigma.com/new_images/projects/applications/adhoc_run_environment.png)
+1. On the **Ad-hoc Run** page, expand **Environment** and select an environment from the drop-down list. ![Environment in Ad-hoc Run](https://s3.amazonaws.com/static-docs.testsigma.com/new_images/projects/test_data/Environment_3.png)
 
 ---
 
 ## **Use Environment in Test Plan**
 
 1. Navigate to the **Test Plan Settings** tab on the **Create** or **Edit Test Plan** page.
-2. In the **Additional Settings** section, select **Environment** from the drop-down list. ![Environment in Test Plan](https://s3.amazonaws.com/static-docs.testsigma.com/new_images/projects/applications/testplan_environment.png)
+2. In the **Additional Settings** section, select **Environment** from the drop-down list. ![Environment in Test Plan](https://s3.amazonaws.com/static-docs.testsigma.com/new_images/projects/test_data/Environment_4.png)
 
 
 ---
@@ -91,44 +91,41 @@ Testsigma also automates the creation of new and updated keys across all environ
 ## **Add Keys & Values to all Environments Globally**
 
 1. From the left navigation bar, go to **Test Data > Environments** and click the **Variables** tab.
-   ![Variables](https://s3.amazonaws.com/static-docs.testsigma.com/new_images/projects/applications/VariablesTab.png)
+   ![Variables](https://s3.amazonaws.com/static-docs.testsigma.com/new_images/projects/test_data/Environment_5.png)
 
-2. Enter the **Variable** name and **Value** and click **Add**. 
-   ![Add Variables](https://s3.amazonaws.com/static-docs.testsigma.com/new_images/projects/applications/Variable_and_Value.png)
+2. Click **Add Varibale**. This will open the **Add Environment Variable** prompt.  
+   ![Add Variables](https://s3.amazonaws.com/static-docs.testsigma.com/new_images/projects/test_data/Environment_6.png)
+
+3. Enter the **Variable** name and **Value** and click **Create**.
+   ![Create](https://s3.amazonaws.com/static-docs.testsigma.com/new_images/projects/test_data/Environment_7.png)
 
 [[info | **NOTE**:]]
 | **Variable** names should be unique and can not be changed once added. 
 
-3. Once the **Variable** is added to the list, click **Update**. 
-   ![Update](https://s3.amazonaws.com/static-docs.testsigma.com/new_images/projects/applications/UpdateVariable.png)
+4. Once the **Variable** is added to the list, click **Update**. 
+   ![Update](https://s3.amazonaws.com/static-docs.testsigma.com/new_images/projects/test_data/Environment_8.png)
 
-4. Verify the **Variable** added in the **Environments**. 
-   ![Verify Variable](https://s3.amazonaws.com/static-docs.testsigma.com/new_images/projects/applications/VerifyVariable.png)
+5. Verify the **Variable** added in the **Environments**. 
+   ![Verify Variable](https://s3.amazonaws.com/static-docs.testsigma.com/new_images/projects/test_data/Environment_9.png)
 
-> Alternatively, you can also add Variables by clicking on **Add Variable**. This will open the **Add Environment Variable** prompt. 
-> ![Add Variable](https://s3.amazonaws.com/static-docs.testsigma.com/new_images/projects/applications/AddVariable.png)
-> 
-> - Enter the **Variable** name and **Value** and click **Create**.
->   ![Variable Details](https://s3.amazonaws.com/static-docs.testsigma.com/new_images/projects/applications/AddVariablePrompt.png)
-
-5. There will be a default indication with the letter **D** for all the **Variables** added globally. 
-   ![Default Indication](https://s3.amazonaws.com/static-docs.testsigma.com/new_images/projects/applications/DafaultVariableIndication.png)
+6. There will be a default indication with the letter **D** for all the **Variables** added globally. 
+   ![Default Indication](https://s3.amazonaws.com/static-docs.testsigma.com/new_images/projects/test_data/Environment_10.png)
 
 [[info | **NOTE**:]]
 | Once you edit the **Variable** from the **Environment** page, the default indication with the letter **D** will not be displayed.
-| ![No Default Indication](https://s3.amazonaws.com/static-docs.testsigma.com/new_images/projects/applications/NoIndicationMark.png)
+| ![No Default Indication](https://s3.amazonaws.com/static-docs.testsigma.com/new_images/projects/test_data/Environment_11.png)
 
-6. From the **Test Case Details** page, click **Run**. This will open the **Ad-Hoc Run** overlay. 
-   ![Ad-Hoc Run](https://s3.amazonaws.com/static-docs.testsigma.com/new_images/projects/applications/VariableAdHoc_Run.png)
+7. From the **Test Case Details** page, click **Run**. This will open the **Ad-Hoc Run** overlay. 
+   ![Ad-Hoc Run](https://s3.amazonaws.com/static-docs.testsigma.com/new_images/projects/test_data/Environment_12.png)
 
-7. Go to the **Environment** section and confirm the variables by clicking on **Manage Variables**.
-   ![Manage Variables](https://s3.amazonaws.com/static-docs.testsigma.com/new_images/projects/applications/ManageVariables.png)
+8. Go to the **Environment** section and confirm the variables by clicking on **Manage Variables**.
+   ![Manage Variables](https://s3.amazonaws.com/static-docs.testsigma.com/new_images/projects/test_data/Environment_13.png)
 
-8. Update the changes and click **Apply**. 
-   ![New Changes](https://s3.amazonaws.com/static-docs.testsigma.com/new_images/projects/applications/UpdateVariableandApply.png)
+9. Update the changes and click **Apply**. 
+   ![New Changes](https://s3.amazonaws.com/static-docs.testsigma.com/new_images/projects/test_data/Environment_14.png)
 
-9. Click on **Run Now** to execute the test with updated **Environment** and **Variable**. 
-   ![Run Now](https://s3.amazonaws.com/static-docs.testsigma.com/new_images/projects/applications/RunNowwithNewVariables.png)
+10. Click on **Run Now** to execute the test with updated **Environment** and **Variable**. 
+   ![Run Now](https://s3.amazonaws.com/static-docs.testsigma.com/new_images/projects/test_data/Environment_15.png)
 
 [[info | **NOTE**:]]
 | Some existing users may notice some empty values in their Environment list. This happens as we have curated your Environment list into a master list. The empty values indicate that the corresponding Environment variables were not previously part of your Environment. With the transition to a master list, these variables are added to ensure the proper usage of the Environment functionality. This change will not impact your existing test cases.
@@ -139,11 +136,12 @@ Testsigma also automates the creation of new and updated keys across all environ
 
 Environment variables can filter test data sets by name during data-driven testing. This method provides flexibility and reusability, making your test cases more adaptable to different scenarios.
 
-1. Create an **Environment** and add the name-value pairs that match the set names and values in your Test Data Profile. ![create environment parameter using tdp](https://s3.amazonaws.com/static-docs.testsigma.com/new_images/projects/applications/create_environment_using_tdp.gif)
+1. Create an **Environment** and add the name-value pairs that match the set names and values in your Test Data Profile. ![create environment parameter using tdp](https://s3.amazonaws.com/static-docs.testsigma.com/new_images/projects/test_data/Environment_16.png)
 2. On the Test Case Details page, click the **Test Case Settings** icon in the right navigation bar.
-3. Select the **Test Data Profile** from the dropdown menu to associate it with the test case. Enable the **Data-Driven** toggle. ![enable data driven to use environment parameter](https://s3.amazonaws.com/static-docs.testsigma.com/new_images/projects/applications/enable_data_driven_env.gif)
+3. Select the **Test Data Profile** from the dropdown menu to associate it with the test case. Enable the **Data-Driven** toggle. ![enable data driven to use environment parameter](https://s3.amazonaws.com/static-docs.testsigma.com/new_images/projects/test_data/Environment_17.png)
 4. Choose **Parameters** as the **Filter type**. Select **Equals**, **Contains**, **Starts with** or **Ends with** as the **Comparison Metric** from the dropdown menu. Choose **Parameter Set Name** from the dropdown.
-5. Type <strong>*|</strong> to open the Environment overlay and choose the **Environment Parameter Name** to add the filters. ![use environment variables to select test data values](https://s3.amazonaws.com/static-docs.testsigma.com/new_images/projects/applications/use_environment_choose_test_data_values.gif)
+   ![Parameters](https://s3.amazonaws.com/static-docs.testsigma.com/new_images/projects/test_data/Environment_18.png)
+5. Type <strong>*|</strong> to open the Environment overlay and choose the **Environment Parameter Name** to add the filters. ![use environment variables to select test data values](https://s3.amazonaws.com/static-docs.testsigma.com/new_images/projects/test_data/Environment_19.png)
 6. When you run the test case, it will execute using the specified filters. 
 
 
@@ -157,6 +155,6 @@ Environment variables can filter test data sets by name during data-driven testi
 
 3. The <ENV_ID> can be found in the URL of the Environment details page.
    
-   ![Env ID](https://s3.amazonaws.com/static-docs.testsigma.com/new_images/projects/applications/Env_ID.png)
+   ![Env ID](https://s3.amazonaws.com/static-docs.testsigma.com/new_images/projects/test_data/Environment_20.png)
 
 ---

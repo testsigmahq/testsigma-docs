@@ -56,6 +56,7 @@ In Testsigma, Runtime Test Data allows you to save data gathered while running a
 [[info | NOTE:]]
 | During the first test run, the application stores the runtime variables and keeps them accessible for future runs. If you need to rerun a test that fails, the application will automatically apply the runtime variables from the initial run.
 
+![Store Data as Runtime Variable](https://s3.amazonaws.com/static-docs.testsigma.com/new_images/projects/test_data/Runtime_1.png)
 
 ### **Example:**
 
@@ -85,11 +86,7 @@ In Testsigma, Runtime Test Data allows you to save data gathered while running a
    ![Runtime Test Data](https://s3.amazonaws.com/static-docs.testsigma.com/new_images/projects/Updated_Doc_Images/Runtime_Test_Data_Type.png)
   
 3. A list of runtime variables already created in the project will appear in the **Runtime Variables** overlay.
-
-4. Select the **Runtime Variable** from the overlay or **search** for a runtime variable and insert it into the test steps. 
-   ![Select Variable](https://s3.amazonaws.com/static-docs.testsigma.com/new_images/projects/Updated_Doc_Images/Runtime_Variable_Overlay.png)
-
-   You can also click the **Switch Project** button in the overlay, select the **Project**, Application, and Version, and use a Runtime Variable created in other projects. 
+4. Select the **Runtime Variable** from the overlay or **search** for a runtime variable and insert it into the test steps. You can also click the **Switch Project** button in the overlay, select the **Project**, Application, and Version, and use a Runtime Variable created in other projects. ![Use Runtime Variable in Test Step](https://s3.amazonaws.com/static-docs.testsigma.com/new_images/projects/test_data/Runtime_2.png)
   
 [[info | NOTE:]]
 | The run report will show the following error if you enter a variable name without storing a value. Always remember to store the value in a variable before using it. <br><br>

@@ -36,12 +36,18 @@ Updating an addon in Testsigma keeps your tools up-to-date and functional. First
 ## **Updating Addon**
 
 1. Modify the addon’s code to fix issues, add features, or adjust settings. Compress the file into **Zipped** Format.
-2. In Testsigma Application, Click on the **Addons** icon from the left navigation bar. Go to the **My Addons** page in Testsigma and select the addon you want to update.
-3. Select **Update** from the dropdown and In **Upload Zip File** Overlay, Browse and select the zipped file, then click **Update**. ![update addon](https://s3.amazonaws.com/static-docs.testsigma.com/new_images/projects/applications/update_addon.gif)
-4. After uploading the code, click on **Publish** from the dropdown menu. Then, choose your publish options:
+2. In Testsigma Application, click on the **Addons** icon from the left navigation bar. 
+   ![Addons](https://s3.amazonaws.com/static-docs.testsigma.com/new_images/projects/addon/Addon_1.png)
+3. Go to the **My Addons** page in Testsigma and select the addon you want to update.
+   ![My Addons](https://s3.amazonaws.com/static-docs.testsigma.com/new_images/projects/addon/Addon_2.png)
+4. Select **Upload Code** from the dropdown.
+   ![Upload Code](https://s3.amazonaws.com/static-docs.testsigma.com/new_images/projects/addon/Addon_3.png)
+5. In **Upload Zip File** Overlay, Browse and select the zipped file, then click **Update**. ![update addon](https://s3.amazonaws.com/static-docs.testsigma.com/new_images/projects/addon/Addon_4.1.png)
+6. After uploading the code, click on **Publish** from the dropdown menu. Then, choose your publish options:
     - **Public**: Make the addon available to the entire Testsigma community.
     - **Private**: Restrict availability to users within your organization.
-5. An automatic security check will be done. If it passes, the addon will be published. If it fails, you will get an email notification. ![publish addon](https://s3.amazonaws.com/static-docs.testsigma.com/new_images/projects/applications/publish_addon_ts.gif)
+     ![Publish](https://s3.amazonaws.com/static-docs.testsigma.com/new_images/projects/addon/Addon_5.png)
+7. An automatic security check will be done. If it passes, the addon will be published. If it fails, you will get an email notification. 
 
 ---
 

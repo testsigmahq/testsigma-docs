@@ -57,8 +57,12 @@ Testsigma allows you to check your app's appearance during tests using its Visua
 
 You can configure the visual testing for a test step on a test case details page or a test step recorder. Here are the steps to do it:
 1. Enable visual testing in the **test step** by clicking the **ellipsis** button (**Test Step Options**).
+   ![Test Step Options](https://s3.amazonaws.com/static-docs.testsigma.com/new_images/projects/visual_testing/Enable_visual_testing_1.png)
+
 2. Select **Enable Visual Testing** from the drop-down list that will appear.
-3. Click **Update Step** after enabling Visual Testing for the step. ![Enable Visual Testing in Test Step](https://s3.amazonaws.com/static-docs.testsigma.com/new_images/projects/applications/visualtesting_teststep.gif)
+   ![Enable Visual Testing](https://s3.amazonaws.com/static-docs.testsigma.com/new_images/projects/visual_testing/Enable_visual_testing_2.png)
+
+3. Click **Update Step** after enabling Visual Testing for the step. ![Enable Visual Testing in Test Step](https://s3.amazonaws.com/static-docs.testsigma.com/new_images/projects/visual_testing/Enable_visual_testing_3.png)
 
 [[info | NOTE:]]
 | After you enable visual testing, Testsigma requires a baseline image corresponding to the test step for executing visual testing. Visual testing will be available only after the next successful run, as Testsigma needs this baseline image.
@@ -69,9 +73,18 @@ You can configure the visual testing for a test step on a test case details page
 
 In Testsigma, you can save time and reduce redundant efforts by selecting multiple steps in a test case and simultaneously turning on/off the visual testing settings. Testsigma supports bulk action of steps for this purpose.
 1. Select the multiple test steps by clicking on **checkboxes** to enable Visual Testing.
-2. In the menu bar, click on **Update Settings**. Then, select **Enable Visual Testing** for the step from the pop-up menu that appears.
-3. Click **Update** after enabling Visual Testing for the steps.
-4. **Run** the Test Case to view the visual difference. ![Enable Visual Testing in Bulk Action](https://s3.amazonaws.com/static-docs.testsigma.com/new_images/projects/applications/visualtesting_bulkactions.gif)
+   ![Checkboxes](https://s3.amazonaws.com/static-docs.testsigma.com/new_images/projects/visual_testing/Enable_visual_testing_4.png)
+
+2. In the menu bar, click on **Update Settings**. 
+   ![Update Settings](https://s3.amazonaws.com/static-docs.testsigma.com/new_images/projects/visual_testing/Enable_visual_testing_5.png)
+
+3. Select **Enable Visual Testing** for the step from the pop-up menu that appears.
+   ![Enable Visual Testing](https://s3.amazonaws.com/static-docs.testsigma.com/new_images/projects/visual_testing/Enable_visual_testing_6.png)
+
+4. Click **Update** after enabling Visual Testing for the steps.
+   ![Update](https://s3.amazonaws.com/static-docs.testsigma.com/new_images/projects/visual_testing/Enable_visual_testing_7.png)
+
+5. **Run** the Test Case to view the visual difference.
 
 ---
 
@@ -80,17 +93,22 @@ In Testsigma, you can save time and reduce redundant efforts by selecting multip
 When you conduct visual testing using Testsigma, you should compare the **current image** (reference image) with the original image (baseline image) and ensure that the reference image matches the baseline image. You should update the baseline image whenever you apply changes to the UI using the following steps:
 
 1. You have two options to enable visual testing in your test steps: [Documentation on enabling visual testing in test steps](https://testsigma.com/docs/visual-testing/configure-test-steps/#enable-visual-testing-in-test-steps) or [Documentation on bulking action for visual testing steps](https://testsigma.com/docs/visual-testing/configure-test-steps/#bulk-action-for-visual-testing-steps). **Run** the test case after enabling it in Test Step.
-2. **Re-Run** the test case to enable visual testing and see any visual differences. ![Rerun Test Case](https://s3.amazonaws.com/static-docs.testsigma.com/new_images/projects/applications/reruntestcase_visualtesting.png)
+2. **Re-Run** the test case to enable visual testing and see any visual differences. ![Rerun Test Case](https://s3.amazonaws.com/static-docs.testsigma.com/new_images/projects/visual_testing/Enable_visual_testing_8.png)
 3. After executing a test case for visual testing, the **Test Case Result** page will display a **green camera** icon on steps with **no visual differences** between the reference and baseline images and a **red camera** icon where there are **visual differences**.
+   ![Test Case Result](https://s3.amazonaws.com/static-docs.testsigma.com/new_images/projects/visual_testing/Enable_visual_testing_9.png)
 4. Click on the **camera** icon to open the **Visual Difference** overlay screen. Then, go to the top right of the page and **check** the box **Mark as base image** as **Current Image**. This action will update your base image to match your current reference image.
+   ![Mark as base image](https://s3.amazonaws.com/static-docs.testsigma.com/new_images/projects/visual_testing/Enable_visual_testing_10.png)
 5. In Visual Difference overlay, you can perform the following options: 
    - **Highlight Differences**: Highlight variations in the display.
+    ![Highlight Differences](https://s3.amazonaws.com/static-docs.testsigma.com/new_images/projects/visual_testing/Enable_visual_testing_11.png)
    - **Hide Visual Differences**: Conceal any visible disparities.
+    ![Hide Visual Differences](https://s3.amazonaws.com/static-docs.testsigma.com/new_images/projects/visual_testing/Enable_visual_testing_12.png)
    - **Select region to ignore from visual comparison**: Select areas not to compare visually.
+    ![Select region to ignore from visual comparison](https://s3.amazonaws.com/static-docs.testsigma.com/new_images/projects/visual_testing/Enable_visual_testing_13.png)
    - **Merge base image and current image**: Combine the original and current images for comparison.
+    ![Megre base image and current image](https://s3.amazonaws.com/static-docs.testsigma.com/new_images/projects/visual_testing/Enable_visual_testing_14.png)
    - **Zoom in** and **Zoom out**: Enlarge or reduce the view for closer inspection.
-
-      ![Mark Baseline image](https://s3.amazonaws.com/static-docs.testsigma.com/new_images/projects/applications/markbaselineimage_visualt.gif)
+    ![Zoom in and Zoom out](https://s3.amazonaws.com/static-docs.testsigma.com/new_images/projects/visual_testing/Enable_visual_testing_15.png)
 
 6. Next time you run the test case, you will compare the visuals from future runs with the new base image.
 
@@ -99,7 +117,7 @@ When you conduct visual testing using Testsigma, you should compare the **curren
 ## **Perform Visual Testing in Test Case**
 
 1. Follow the steps in the above section to Enable Visual Testing in Test Steps using [documentation on utilising test step options](https://testsigma.com/docs/visual-testing/configure-test-steps/#enable-visual-testing-in-test-steps) or [documentation on updating settings](https://testsigma.com/docs/visual-testing/configure-test-steps/#bulk-action-for-visual-testing-steps). Refer to the [documentation on marking the baseline image](https://testsigma.com/docs/visual-testing/configure-test-steps/#bulk-action-for-visual-testing-steps) and run the test case to identify visual differences in the UI.
-2. Click on **Test Case Settings** in the right-side navbar and enable the **Fail Test Case if Visual Testing Fails** toggle to automatically mark a test case as failed if it detects visual differences during execution. ![Perform Visual Testing](https://s3.amazonaws.com/static-docs.testsigma.com/new_images/projects/applications/perform_visualtesting.gif)
+2. Click on **Test Case Settings** in the right-side navbar and enable the **Fail Test Case if Visual Testing Fails** toggle to automatically mark a test case as failed if it detects visual differences during execution. ![Perform Visual Testing](https://s3.amazonaws.com/static-docs.testsigma.com/new_images/projects/visual_testing/Enable_visual_testing_16.png)
 
 ---
 
@@ -111,16 +129,18 @@ When you conduct visual testing using Testsigma, you should compare the **curren
 ### **Steps to Configure Ignore Sections for Visual Testing**
 
 1. Click **Ad-hoc Runs** in the right navigation bar, then click **View Details** to open the test case result page. 
-   ![view test case result details page](https://s3.amazonaws.com/static-docs.testsigma.com/new_images/projects/applications/view_details_test_case_result.png)
+   ![view test case result details page](https://s3.amazonaws.com/static-docs.testsigma.com/new_images/projects/visual_testing/Enable_visual_testing_17.png)
 
 2. Click the **Camera** icon to open the **Visual Difference** overlay screen.
+   ![Camera](https://s3.amazonaws.com/static-docs.testsigma.com/new_images/projects/visual_testing/Enable_visual_testing_18.png)
 
 3. Select **Select region to ignore from visual comparison** and choose the areas you want to exclude from the visual comparison. 
-   ![highlight the region to igonre](https://s3.amazonaws.com/static-docs.testsigma.com/new_images/projects/applications/select_ignore_region_from_visual_comparison.gif)
+   ![highlight the region to igonre](https://s3.amazonaws.com/static-docs.testsigma.com/new_images/projects/visual_testing/Enable_visual_testing_19.png)
 
 4. You can resize or move the ignored area by selecting **Resize/Move Ignored Regions** and adjusting the selected region on the screen as needed.
 
 5. Review the regions you marked as ignored and click **Save**. 
+   ![Save](https://s3.amazonaws.com/static-docs.testsigma.com/new_images/projects/visual_testing/Enable_visual_testing_20.png)
 
 ---
 
@@ -133,20 +153,20 @@ If you don’t want to compare entire images, you can focus on specific areas us
 ### **Steps to Set the Visual Testing Mode**
 
 1. Click **Ad-hoc Runs** in the **Utility Panel**, then click **View Details** to open the test case result page.
-   ![View Details](https://s3.amazonaws.com/static-docs.testsigma.com/new_images/projects/visual_testing/Visual_Testing_1.png)
+   ![View Details](https://s3.amazonaws.com/static-docs.testsigma.com/new_images/projects/visual_testing/Enable_visual_testing_21.png)
 
 2. Click the **Camera** icon to open the **Visual Difference** overlay screen.
-   ![Visual Difference](https://s3.amazonaws.com/static-docs.testsigma.com/new_images/projects/visual_testing/Visual_testsing_2.png)
+   ![Visual Difference](https://s3.amazonaws.com/static-docs.testsigma.com/new_images/projects/visual_testing/Enable_visual_testing_22.png)
 
 3. Expand the **Visual Testing Mode** field and select **Strict** or **Lenient**.
-   ![Visual Testing Mode](https://s3.amazonaws.com/static-docs.testsigma.com/new_images/projects/visual_testing/Visual_Testing_3.png)
+   ![Visual Testing Mode](https://s3.amazonaws.com/static-docs.testsigma.com/new_images/projects/visual_testing/Enable_visual_testing_23.png)
 
 4. If you select **Lenient**, enter the desired percentage in the **Threshold** field.
-   ![Threshold](https://s3.amazonaws.com/static-docs.testsigma.com/new_images/projects/visual_testing/visual_Testing_4.png)
+   ![Threshold](https://s3.amazonaws.com/static-docs.testsigma.com/new_images/projects/visual_testing/Enable_visual_testing_24.png)
 
 [[info | **NOTE**:]]
 | To apply **Lenient** mode to a specific area of the base image, click the **Select region to highlight for visual comparison** icon to enable it. Then expand the option and choose **Select selection**.
-| ![Select selection](https://s3.amazonaws.com/static-docs.testsigma.com/new_images/projects/visual_testing/Visual_Testing_5.png)
+| ![Select selection](https://s3.amazonaws.com/static-docs.testsigma.com/new_images/projects/visual_testing/Enable_visual_testing_25.png)
 
 [[info | **NOTE**:]]
 | **AI Insights** in Testsigma provides a detailed UI Difference Analysis Report whenever visual differences are detected between the base and current images.

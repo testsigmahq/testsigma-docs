@@ -47,18 +47,13 @@ This article guides the user to prepare and execute test plans in Testsigma plat
 ## **Steps to Create and Execute Test Plan**
 
 1. Create a test case with all the necessary steps. 
-![create test case for test plan executions in Testsigma](https://s3.amazonaws.com/static-docs.testsigma.com/new_images/projects/applications/create_testcase_mtc.gif)
  
 2. Create a test suite and add the test case created in step 1 to this test suite.
-![create test suite for test plan executions in Testsigma](https://s3.amazonaws.com/static-docs.testsigma.com/new_images/projects/applications/creating_a_testsuite.gif)
-
 
 3. Create a test plan and add the test suite we just created to this test plan.
-![create test plan for test plan executions in Testsigma](https://s3.amazonaws.com/static-docs.testsigma.com/new_images/projects/applications/creatinga_testplan.gif)
 
-
-1. Click on the **Run Now** to start the test plan execution.
-![Test plan execution](https://s3.amazonaws.com/static-docs.testsigma.com/new_images/projects/applications/rntptpexe.png)
+4. Click on the **Run Now** to start the test plan execution.
+![Test plan execution](https://s3.amazonaws.com/static-docs.testsigma.com/new_images/projects/run/Test_plan_execution_1.png)
 
 [[info | **NOTE**:]]
 | Whitelisting of Testsigma IP addresses is necessary to ensure that the Testsigma servers and lab environments can securely interact with your applications and systems for testing activities. For more information on whitelisting Testsigma IP addresses, refer to the [documentation on whitelisting Testsigma IP addresses](https://testsigma.com/docs/runs/test-locally-hosted-applications/#whitelisting-testsigma-ip-addresses)
@@ -72,11 +67,11 @@ There are instances when you need to execute your test plan only partially inste
 **Lets see how we can do that:**
 
 1. Go to the test plan that you want to execute partially and open the dropdown and click on **Partial Run**. 
-![Partical Run](https://s3.amazonaws.com/static-docs.testsigma.com/new_images/projects/applications/ptpeexe.png)
+![Partical Run](https://s3.amazonaws.com/static-docs.testsigma.com/new_images/projects/run/Test_plan_execution_2.png)
 
 
 1. On **Partial  Test Plan Run** overlay, configure the options according to how you want to select the test cases for your partial test run:
-![Partial test run overlay](https://s3.amazonaws.com/static-docs.testsigma.com/new_images/projects/applications/ptprlo.png)
+![Partial test run overlay](https://s3.amazonaws.com/static-docs.testsigma.com/new_images/projects/run/Test_plan_execution_3.png)
 
 **Below are the options you see:**
 
@@ -85,7 +80,7 @@ There are instances when you need to execute your test plan only partially inste
 
 
 3. **Test Case Filters**: You can identify the test cases to be included in the test suites using the below filters:
-![Test Case Filters](https://s3.amazonaws.com/static-docs.testsigma.com/new_images/projects/applications/tpprtcfilt.png)
+![Test Case Filters](https://s3.amazonaws.com/static-docs.testsigma.com/new_images/projects/run/Test_plan_execution_4.png)
     - **Labels**: Filter the test cases according to the labels assigned to them.
     - **Type**: Filter the test cases according to the type of test cases there are. 
     - **Requirement**: Filter the test cases according to the requirements assigned to them. 
@@ -117,10 +112,10 @@ Once you have applied the filters, you can:
 
 
 1. From the left navigation bar, go to **Run Results** and click on the test plan for which you want to check the results.
-   ![Test Suites](https://s3.amazonaws.com/static-docs.testsigma.com/new_images/projects/applications/Run_Results_Test_Suites.png)
+   ![Test Suites](https://s3.amazonaws.com/static-docs.testsigma.com/new_images/projects/run/Test_plan_execution_result_1.png)
 
 2. By default, you’ll see the results at test suite level. 
-   ![Results at Test Suite Level](https://s3.amazonaws.com/static-docs.testsigma.com/new_images/projects/applications/Run_Results_Default_Page.png)
+   ![Results at Test Suite Level](https://s3.amazonaws.com/static-docs.testsigma.com/new_images/projects/run/Test_plan_execution_result_2.png)
 
 [[info | **NOTE**:]]
 | You can also view reports at test suite and test machine level by clicking on **Test Suite** and **Test Machine**. 
