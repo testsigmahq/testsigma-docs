@@ -19,7 +19,7 @@ contextual_links:
   name: "MFA Challenge"
   url: "#mfa-challenge"
 - type: link
-  name: "Execution fails on Labs"
+  name: "Execution Fails on Labs"
   url: "#execution-fails-on-labs"
 - type: link
   name: "MFA Dialog Appears During Execution"
@@ -139,7 +139,9 @@ Users can sync metadata but encounter an MFA challenge during the process.
 
 ---
 
-## **Execution fails on Labs**
+## **Execution Fails on Labs**
+
+<img src="https://s3.amazonaws.com/static-docs.testsigma.com/new_images/projects/Updated_Doc_Images/Salesforce_Execution_Fails_on_Labs.png" alt="Salesforce Execution Fails on Labs error banner" style="width: 700px;" />
 
 ### **Cause:**
 
