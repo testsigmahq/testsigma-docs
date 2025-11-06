@@ -3,7 +3,7 @@ title: "Bug Reporter Agent in Testsigma"
 page_title: "Bug Reporter Agent in Testsigma"
 metadesc: "The Bug Reporter Agent in Testsigma streamlines bug reporting by allowing users to log bugs directly from the Analyzer Agent panel | Learn about Bug Reporter in Testsigma"
 noindex: false
-order: 4.7466
+order: 4.816
 page_id: "bug-reporter-agent-in-testsigma"
 warning: false
 contextual_links:
@@ -59,5 +59,3 @@ The Bug Reporter Agent in Testsigma streamlines bug reporting by allowing users 
 9.  The issue will be created in Jira with all the details.
 
 ---
-
-
