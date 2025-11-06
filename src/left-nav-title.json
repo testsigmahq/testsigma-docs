@@ -747,5 +747,8 @@
   "ai-agents": {"/docs/ai-agents/": "AI Agents"},
   "ai-enabled-auto-healing-for-web-applications": {"/docs/ai-agents/auto-healing/ai-enabled-auto-healing-for-web-applications/": "AI-Enabled Auto-Healing for Web Applications"},
   "ai-enabled-auto-healing-for-mobile-applications": {"/docs/ai-agents/auto-healing/ai-enabled-auto-healing-for-mobile-applications/": "AI-Enabled Auto-Healing for Mobile Applications"},
-  "auto-healing-for-ai-generated-test-cases": {"/docs/ai-agents/auto-healing/auto-healing-for-ai-generated-test-cases/": "Auto-Healing for AI Generated Test Cases"}
+  "auto-healing-for-ai-generated-test-cases": {"/docs/ai-agents/auto-healing/auto-healing-for-ai-generated-test-cases/": "Auto-Healing for AI Generated Test Cases"},
+  "zephyr": {"/docs/integrations/test-management/zephyr/": "Zephyr Cloud"},
+  "xray": {"/docs/integrations/test-management/xray/": "Xray"},
+  "qtest": {"/docs/integrations/test-management/qtest/": "qTest"}
   }
