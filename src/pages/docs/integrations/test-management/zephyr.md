@@ -44,7 +44,7 @@ With the Zephyr Cloud integration in Testsigma, you can link Zephyr test cases a
 
 ## **Steps to Integrate Testsigma with Zephyr Cloud**
 
-1. In the left navigation bar, go to **Settings > Integrations**.
+1. From the left navigation bar, go to **Settings > Integrations**.
 
 2. Turn on the toggle for **Zephyr Cloud**.
    ![Zephyr Widget](https://s3.amazonaws.com/static-docs.testsigma.com/new_images/projects/Updated_Doc_Images/Zephyr_Widget.png)
@@ -52,7 +52,8 @@ With the Zephyr Cloud integration in Testsigma, you can link Zephyr test cases a
 3. In the **Zephyr Cloud Details** dialog box, select **Region of your Zephyr instance**, enter your **Personal Access Token** and **Jira Details**.
    ![Zephyr Cloud Details](https://s3.amazonaws.com/static-docs.testsigma.com/new_images/projects/Updated_Doc_Images/Zephyr_Cloud_Details.png)
 
-4. Click **Save & Enable**. 
+4. Click **Save & Enable**.
+   ![Save Details](https://s3.amazonaws.com/static-docs.testsigma.com/new_images/projects/Updated_Doc_Images/Save_Zephyr_Details.png)
 
 ---
 
