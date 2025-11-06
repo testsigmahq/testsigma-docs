@@ -19,7 +19,7 @@ contextual_links:
   name: "MFA Challenge"
   url: "#mfa-challenge"
 - type: link
-  name: "Execution fails on Labs"
+  name: "Execution Fails on Labs"
   url: "#execution-fails-on-labs"
 - type: link
   name: "MFA Dialog Appears During Execution"
