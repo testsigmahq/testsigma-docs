@@ -29,7 +29,7 @@ Testsigma’s AI-Enabled auto-healing automatically detects and fixes broken ele
 > ## **Prerequisites**
 > 
 > Before you begin, ensure that you have referred to:
->  1. [Documentation on enabling the auto-healing feature]((https://testsigma.com/docs/auto-healing/enable-the-auto-healing-feature/)).
+>  1. [Documentation on enabling the auto-healing feature](https://testsigma.com/docs/auto-healing/enable-the-auto-healing-feature/).
 >  2. [Documentation on managing test cases](https://testsigma.com/docs/test-cases/manage/add-edit-delete/).
 >  3. [Documentation on creating elements](https://testsigma.com/docs/elements/overview/).
 
