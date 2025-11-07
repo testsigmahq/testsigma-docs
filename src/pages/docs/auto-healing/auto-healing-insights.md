@@ -3,7 +3,7 @@ title: "Auto-Healing Insights"
 page_title: "Auto-Healing Insights"
 metadesc: "Review Auto-Heal Insights in Testsigma to see which elements were healed, how locators were updated, and decide if the changes should be made permanent."
 noindex: false
-order: 4.827
+order: 4.917
 page_id: "auto-healing-insights"
 warning: false
 contextual_links:

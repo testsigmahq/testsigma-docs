@@ -3,7 +3,7 @@ title: "Introduction: Auto-Healing"
 page_title: "Introduction: Auto-Healing"
 metadesc: "Maintain test reliability with AI-powered auto-healing in Testsigma. Automatically fix broken locators and reduce manual test maintenance."
 noindex: false
-order: 4.821
+order: 4.911
 page_id: "auto-healing"
 warning: false
 contextual_links:
@@ -29,17 +29,17 @@ You can also use auto-healing directly within the Live Editor to validate elemen
 
 ## **Auto-Healing Capabilities**
 
-- [Enable Auto-Healing Feature](https://testsigma.com/docs/ai-agents/auto-healing/enable-the-auto-healing-feature/)
+- [Enable Auto-Healing Feature](https://testsigma.com/docs/auto-healing/enable-the-auto-healing-feature/)
 
-- [AI-Enabled Auto-Healing for Web Applications](https://testsigma.com/docs/ai-agents/auto-healing/ai-enabled-auto-healing-for-web-applications/)
+- [AI-Enabled Auto-Healing for Web Applications](https://testsigma.com/docs/auto-healing/ai-enabled-auto-healing-for-web-applications/)
 
-- [AI-Enabled Auto-Healing for Mobile Applications](https://testsigma.com/docs/ai-agents/auto-healing/ai-enabled-auto-healing-for-mobile-applications/)
+- [AI-Enabled Auto-Healing for Mobile Applications](https://testsigma.com/docs/auto-healing/ai-enabled-auto-healing-for-mobile-applications/)
 
-- [Auto-healing for AI-Generated Test Cases](https://testsigma.com/docs/ai-agents/auto-healing/auto-healing-for-ai-generated-test-cases/)
+- [Auto-healing for AI-Generated Test Cases](https://testsigma.com/docs/auto-healing/auto-healing-for-ai-generated-test-cases/)
 
-- [Using Auto-Healing in Live Editor Test Execution](https://testsigma.com/docs/ai-agents/auto-healing/using-auto-healing-in-live-editor-test-execution/)
+- [Using Auto-Healing in Live Editor Test Execution](https://testsigma.com/docs/auto-healing/using-auto-healing-in-live-editor-test-execution/)
 
-- [Auto-healing Insights](https://testsigma.com/docs/ai-agents/auto-healing/auto-healing-insights/)
+- [Auto-healing Insights](https://testsigma.com/docs/auto-healing/auto-healing-insights/)
 
 ---
 
