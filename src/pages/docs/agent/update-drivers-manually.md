@@ -109,5 +109,4 @@ chmod -R u+x ./*
 
 Once that is done, you can start executing tests on the newest version of the corresponding Browser. You can follow the same directions for other browsers as well.
 
-
 ---
