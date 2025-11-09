@@ -50,15 +50,27 @@ This documentation will guide you on how to enable the network log in Test Case 
 ## **Enable Network Logs in Test Case**
 
 1. Click **Run** in the top right corner of the screen on the Test Case details page.
-2. Select **BrowserStack** as a Test Lab on the **Ad-hoc Ru**n page on the right side of the screen, enable the **Network Log** toggle, and click **Run Now** to start Test Execution. ![Enable Network Log in Test Case](https://s3.amazonaws.com/static-docs.testsigma.com/new_images/projects/applications/networklogs_adhoc.gif)
+  ![Run](https://s3.amazonaws.com/static-docs.testsigma.com/new_images/projects/desired_capabilities/Logs_1.png)
+
+2. Select **BrowserStack** as a Test Lab on the **Ad-hoc Run** overlay.
+   ![BrowserStack](https://s3.amazonaws.com/static-docs.testsigma.com/new_images/projects/desired_capabilities/Logs_2.png)
+
+3. Enable the **Network Log** toggle, and click **Run Now** to start test execution. 
+  ![BrowserStack](https://s3.amazonaws.com/static-docs.testsigma.com/new_images/projects/desired_capabilities/Logs_3.png)
 
 ---
 
 ## **Enable Network Logs in Test Plan**
 
 1. Navigate to the **Add Test Suites & Link Machine Profiles** tab on the **Create** or **Edit Test Plan** page.
+   ![Edit Test Plan](https://s3.amazonaws.com/static-docs.testsigma.com/new_images/projects/desired_capabilities/Logs_4.png)
+
 2. Click the **Test Machine Settings** icon, and the **Adding** or **Editing Test Machine/Device Profiles** overlay will appear.
-3. On the **Add** or **Edit Machine/Device Profile** overlay, select Test Lab Type as **BrowserStack**, enable the **Network Log** toggle, and click **Create/Update**. ![Enable Network Logs in Test Plan](https://s3.amazonaws.com/static-docs.testsigma.com/new_images/projects/applications/networklogs_testplan.gif)
+   ![Test Machine Settings](https://s3.amazonaws.com/static-docs.testsigma.com/new_images/projects/desired_capabilities/Logs_5.png)
+
+3. On the **Add** or **Edit Machine/Device Profile** overlay, select Test Lab Type as **BrowserStack**, enable the **Network Log** toggle, and click **Create/Update**. 
+   ![BrowserStack](https://s3.amazonaws.com/static-docs.testsigma.com/new_images/projects/desired_capabilities/Logs_6.png)
+   
 
 ---
 

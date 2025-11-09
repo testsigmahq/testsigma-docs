@@ -39,8 +39,10 @@ NameFunctions Function Type in data generators helps you create usernames. It pr
 
 1. Use **NLP** to create a **new step** in the test case and include a placeholder for **test data**.
 2. Click on the **test data** placeholder. From the **Test Data Types** dropdown menu, select the **! Data Generator** option.
+   ![Data Generator](https://s3.amazonaws.com/static-docs.testsigma.com/new_images/projects/test_data/Name_function_1.png)
 3. On the **! Data Generators** overlay screen, select the **Type** to **Default**. This will enable you to use a collection of built-in test data generators.
-4. Select **NameFunctions** from the **Function Type** dropdown list. ![select namefunctions function type from data generators](https://s3.amazonaws.com/static-docs.testsigma.com/new_images/projects/applications/namefunctions_functiontype_dg.gif)
+   ![Type](https://s3.amazonaws.com/static-docs.testsigma.com/new_images/projects/test_data/Name_function_2.png)
+4. Select **NameFunctions** from the **Function Type** dropdown list. ![select namefunctions function type from data generators](https://s3.amazonaws.com/static-docs.testsigma.com/new_images/projects/test_data/Name_function_3.png)
 
 [[info | NOTE:]]
 | This action will display a list of built-in functions associated with the NameFunctions function type, enabling you to select the appropriate function based on your requirements.
