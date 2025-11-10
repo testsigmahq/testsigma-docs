@@ -72,5 +72,4 @@ For example, **cd /Users/< username >/TestsigmaAgent**
 [[info | NOTE:]]
 |If you are facing any challenges connecting Testsigma Agent after updating, try deleting completely. For more information on deleting the Testsigma Agent forcefully, refer to the [documentation on deleting the Testsigma Agent forcefully](https://testsigma.com/docs/agent/force-delete/).
 
-
 ---

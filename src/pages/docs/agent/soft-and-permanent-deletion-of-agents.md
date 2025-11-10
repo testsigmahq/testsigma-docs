@@ -64,5 +64,4 @@ Here’s a quick GIF demonstrating how to soft delete and restore the obsoleted 
 
    ![Delete Permanently](https://s3.amazonaws.com/static-docs.testsigma.com/new_images/projects/applications/DeleteAgentsPermanently.gif)
 
-
 ---

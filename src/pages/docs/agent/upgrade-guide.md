@@ -62,5 +62,4 @@ You can switch to manual upgrades if you want to control when the agent updates.
 [[info | **NOTE**:]]
 | If a new upgrade becomes available during an execution, the upgrade does not start until the execution finishes. The agent upgrades automatically after the execution completes.
 
-
 ---

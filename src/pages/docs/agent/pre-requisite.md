@@ -27,5 +27,4 @@ Verify that the workstation where you install the Testsigma Agent satisfies the 
    
 - **Processor:** Dual-Core Processor or higher.
 
-
 ---

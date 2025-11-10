@@ -69,9 +69,16 @@ Use the following Endpoint to create Dynamic Agents with Private Grid configurat
 |**Payload**|<pre>{<br>    "name": "&lt;Unique Agent Name&gt;",<br>    "agentType": "TRANSIENT",<br>    "externalConfig": {<br>        "url": "http://localhost:4444",<br>        "authenticationEnabled": true,<br>        "userName": "root",<br>        "password": "root",<br>        "type": "SELENIUM",<br>        "browserList": ["Chrome", "Safari"]<br>    }<br> }<pre>|
 |**Response Body Type (JSON)**|<pre>{<br> "id": 9,<br> "uniqueId": "a3cceab7-5bc9-41d1-a905-e54e0a23c677",<br> "jwtApiKey": "&lt;Unique JWT Token&gt;",<br> "agentVersion": null,<br> "createdById": 2,<br> "updatedById": 2,<br> "createdDate": 1719222650559,<br> "updatedDate": 1719222650559,<br> "system": {<br> "title": "Dynamic Agent",<br> "id": 21,<br> "protocol": "http",<br> "port": null,<br> "httpsPort": null,<br> "ipAddress": "127.0.0.1",<br> "hostName": null,<br> "osType": null,<br> "osVersion": null,<br> "systemType": 4<br> },<br> "browserList": [],<br> "currentAgentVersion": "5.9.0",<br> "status": "REGISTERED",<br> "isActive": false<br>}<pre>|
 
-Here’s  a quick GIF demonstrating how to create a Dynamic Agent through API with the above mentioned endpoint.
+Here’s a quick demonstration on creating a Dynamic Agent through API with the above mentioned endpoint.
 
-![Create Dynamic Agent](https://s3.amazonaws.com/static-docs.testsigma.com/new_images/projects/applications/CreateDynamicAgent.gif)
+<br>
+
+<div style="position: relative; padding-bottom: 56.25%; height: 0; overflow: hidden;">
+  <iframe src="https://s3.amazonaws.com/static-docs.testsigma.com/new_images/projects/runs/CreateDynamicAgent.mp4" 
+          style="position: absolute; top: 0; left: 0; width: 100%; height: 100%; border: 0;" 
+          allowfullscreen>
+  </iframe>
+</div>
 
 ---
 
@@ -90,9 +97,16 @@ Open the terminal in the **Testsigma Agent directory** and use the following com
 
 Where &lt;JWT_KEY&gt; is **jwtApiKey** from the above response.
 
-Here’s  a quick GIF demonstrating how to start Dynamic Agent using jwtApiKey with the above command.
+Here’s a quick GIF demonstration on starting Dynamic Agent using jwtApiKey with the above command.
 
-![Up Testsigma Agent](https://s3.amazonaws.com/static-docs.testsigma.com/new_images/projects/applications/UpDynamicAgent.gif)
+<br>
+
+<div style="position: relative; padding-bottom: 56.25%; height: 0; overflow: hidden;">
+  <iframe src="https://s3.amazonaws.com/static-docs.testsigma.com/new_images/projects/runs/compressed-video.mp4" 
+          style="position: absolute; top: 0; left: 0; width: 100%; height: 100%; border: 0;" 
+          allowfullscreen>
+  </iframe>
+</div>
 
 ---
 
@@ -110,8 +124,15 @@ To start the Web Nodes, open the new tab on the same Terminal and use the follow
 
 Once the command runs, the registered **Nodes** will be added to the **Private Grid**.
 
-Here’s  a quick GIF demonstrating the steps to start the Private Grid Hub and add Web Nodes.
-![Private Grid Setup](https://s3.amazonaws.com/static-docs.testsigma.com/new_images/projects/applications/PrivateHub.gif)
+Here’s a quick demonstration on starting the Private Grid Hub and adding Web Nodes.
+<br>
+
+<div style="position: relative; padding-bottom: 56.25%; height: 0; overflow: hidden;">
+  <iframe src="https://s3.amazonaws.com/static-docs.testsigma.com/new_images/projects/runs/PrivateHub.mp4" 
+          style="position: absolute; top: 0; left: 0; width: 100%; height: 100%; border: 0;" 
+          allowfullscreen>
+  </iframe>
+</div>
 
 ---
 
@@ -127,9 +148,16 @@ Use the following **Endpoint** to execute the Testsigma’s test plan in **Priva
 |**Payload**|<pre> {<br>   "executionId" : &lt;Test Plan Exe ID&gt;,<br>   "testDevices" : [<br>       {<br>           "title" : "Dynamic Machine",<br>           "targetMachine" : 27,<br>           "browser" : "CHROME",<br>           "executionLabType" : "Hybrid",<br>           "suiteIds" : [&lt;Suite IDs&gt;],<br>           "isHeadless" : false,<br>           "runTestSuitesInParallel": true,<br>           "runTestCasesInParallel": true,<br>           "createSessionAtCaseLevel": true<br>       }<br>   ]<br>}<br><pre>|
 |**Sample Response Body (JSON)**|<pre>{<br>    "id": 581,<br>    "execution": null,<br>    "executionId": 346,<br>    "startTime": 1719400027825,<br>    "endTime": null,<br>    "duration": null,<br>    "result": "QUEUED",<br>    "status": "STATUS\_CREATED",<br>    "message": "Test Plan execution message",<br>    "executedBy": 29,<br>    "buildNo": null,<br>    "environmentId": null,<br>    "totalCount": null,<br>    "failedCount": null,<br>    "passedCount": null,<br>    "stoppedCount": null,<br>    "notExecutedCount": null,<br>    "queuedCount": null,<br>    "runningCount": null,<br>    "visualTestResult": null,<br>    "environment": null,<br>    "childResult": null,<br>    "reRunParentId": null,<br>    "triggeredType": "API",<br>    "totalRunningCount": 0,<br>    "executionDetails": {<br>        "page\_timeout": 30,<br>        "element\_timeout": 30,<br>        "recovery\_action": "Run\_Next\_Testcase",<br>        "on\_aborted\_action": "Reuse\_Session",<br>        "screenshot\_option": "ALL\_TYPES",<br>        "screenshot\_mode": null,<br>        "group\_prerequisite\_fail": "Abort",<br>        "test\_case\_prerequisite\_fail": "Abort",<br>        "test\_step\_prerequisite\_fail": "Run\_Next\_Testcase",<br>        "global\_param\_name": null<br>    },<br>    "totalQueuedCount": 0,<br>    "mobileInspectionId": null,<br>    "environmentResultsDTO": [],<br>    "executionResultConfig": null,<br>    "isReRunEnabled": false,<br>    "consolidatedResult": "QUEUED",<br>    "consolidatedStatus": "STATUS\_CREATED",<br>    "resultType": "ORIGINAL",<br>    "consolidatedDuration": null,<br>    "runTestCasesInParallel": false,<br>    "runTestSuitesInParallel": false,<br>    "scheduledId": null,<br>    "testPlanHookResults": null,<br>    "reRunType": null,<br>    "consolidatedPlanTotalCount": null,<br>    "consolidatedPlanFailedCount": null,<br>    "consolidatedPlanPassedCount": null,<br>    "consolidatedPlanStoppedCount": null,<br>    "consolidatedPlanNotExecutedCount": null,<br>    "consolidatedPlanQueuedCount": null,<br>    "consolidatedPlanRunningCount": null,<br>    "testDevicesNames": null,<br>    "latestResult": null,<br>    "testPlanResultMetric": null,<br>    "activeExecutionResultCount": 0<br>}<pre>|
 
-Here’s  a quick GIF demonstrating how to execute tests through a Dynamic Agent through API with the above mentioned endpoint.
-![Execute Tests using API](https://s3.amazonaws.com/static-docs.testsigma.com/new_images/projects/applications/executetestswithgrid.gif)
+Here’s  a quick demonstration on executing tests through a Dynamic Agent through API with the above mentioned endpoint.
 
+<br>
+
+<div style="position: relative; padding-bottom: 56.25%; height: 0; overflow: hidden;">
+  <iframe src="https://s3.amazonaws.com/static-docs.testsigma.com/new_images/projects/runs/executetestswithgrid.mp4" 
+          style="position: absolute; top: 0; left: 0; width: 100%; height: 100%; border: 0;" 
+          allowfullscreen>
+  </iframe>
+</div>
 ---
 
 ## **Execute Tests in Private Grid from Application**
@@ -170,13 +198,27 @@ Follow the steps below to set up ngrok on your device to fetch the Private Hub U
 
 1. For test case execution, select **Private Grid** as **Test Lab** on **Ad-hoc Run** overlay. 
 
-   Here’s a quick GIF demonstrating how to execute a test case in Private Grid.
-   ![Test Case Execution](https://s3.amazonaws.com/static-docs.testsigma.com/new_images/projects/applications/tcexeinPG.gif)
+   Here’s a quick demonstration on executing a test case in Private Grid.
+  <br>
+
+<div style="position: relative; padding-bottom: 56.25%; height: 0; overflow: hidden;">
+  <iframe src="https://s3.amazonaws.com/static-docs.testsigma.com/new_images/projects/runs/tcexein.mp4" 
+          style="position: absolute; top: 0; left: 0; width: 100%; height: 100%; border: 0;" 
+          allowfullscreen>
+  </iframe>
+</div>
 
 2. For test plan execution, add **Private Grid** while creating test machine profiles for execution. You need to go to **Add Test Suites & Link Machine Profiles > Select test machine profiles > Add Machine** and add **Private Grid** as **Test Lab**. 
 
-   Here’s a quick GIF demonstrating how to execute a test plan in Private Grid.
+   Here’s a quick demonstration on executing a test plan in Private Grid.
 
-   ![Test Plan Execution](https://s3.amazonaws.com/static-docs.testsigma.com/new_images/projects/applications/ExecuteTestinPGUI.gif)
+  <br>
+
+<div style="position: relative; padding-bottom: 56.25%; height: 0; overflow: hidden;">
+  <iframe src="https://s3.amazonaws.com/static-docs.testsigma.com/new_images/projects/runs/ExecuteTestinPGUI.mp4" 
+          style="position: absolute; top: 0; left: 0; width: 100%; height: 100%; border: 0;" 
+          allowfullscreen>
+  </iframe>
+</div>
 
 ---
