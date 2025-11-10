@@ -3,7 +3,7 @@ title: "Enable the Auto-Healing Feature"
 page_title: "Enable the Auto-Healing Feature"
 metadesc: "Enable Auto-Healing in Testsigma to keep tests stable. AI detects and updates outdated UI element locators automatically before execution."
 noindex: false
-order: 4.822
+order: 4.912
 page_id: "enable-the-auto-healing-feature"
 warning: false
 contextual_links:
