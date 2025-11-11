@@ -31,7 +31,4 @@ Testsigma allows you to run tests on your local machines/devices and Testsigma C
 
 - If you face any issues during the installation, starting or registering the Testsigma Agent, refer to the [documentation on Agent - Startup and Registration Errors](https://testsigma.com/docs/agent/troubleshooting/setup-issues/)
 
-
-
-
 ---

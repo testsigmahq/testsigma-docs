@@ -69,5 +69,4 @@ Now, your test plan is ready for execution from any machine.
 Here’s a quick GIF demonstrating triggering tests on local devices.
 ![Trigger Test Plans](https://s3.amazonaws.com/static-docs.testsigma.com/new_images/projects/applications/TriggerTP.gif)
 
-
 ---

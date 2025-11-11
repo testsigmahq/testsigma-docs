@@ -83,4 +83,4 @@ The Agent is a simple java utility that communicates exclusively with Testsigma 
 
 Therefore, it does not need to whitelist any IPs. However, you might need to allow the outgoing connection through the secure 443 port to ***.testsigma.com*** for the agent to communicate with the Testsigma Cloud Server.
 
-
+---

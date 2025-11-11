@@ -48,8 +48,15 @@ In case you have missed it, refer to the [documentation on learning objects 🔍
 
 5. The test case execution will start on the selected machine. 
 
-Here's a quick GIF demonstrating how to create & execute Test Cases for Windows application.
+Here's a quick demonstration on creating & executing Test Cases for Windows application.
 
-![Test Cases](https://s3.amazonaws.com/static-docs.testsigma.com/new_images/projects/applications/TestCasesWinAdv.gif)
+  <br>
+
+<div style="position: relative; padding-bottom: 56.25%; height: 0; overflow: hidden;">
+  <iframe src="https://s3.amazonaws.com/static-docs.testsigma.com/new_images/projects/desired_capabilities/viewnetworklogs.mp4" 
+          style="position: absolute; top: 0; left: 0; width: 100%; height: 100%; border: 0;" 
+          allowfullscreen>
+  </iframe>
+</div>
 
 ---

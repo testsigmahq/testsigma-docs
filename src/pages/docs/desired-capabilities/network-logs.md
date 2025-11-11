@@ -58,7 +58,15 @@ This documentation will guide you on how to enable the network log in Test Case 
 
 1. Navigate to the **Add Test Suites & Link Machine Profiles** tab on the **Create** or **Edit Test Plan** page.
 2. Click the **Test Machine Settings** icon, and the **Adding** or **Editing Test Machine/Device Profiles** overlay will appear.
-3. On the **Add** or **Edit Machine/Device Profile** overlay, select Test Lab Type as **BrowserStack**, enable the **Network Log** toggle, and click **Create/Update**. ![Enable Network Logs in Test Plan](https://s3.amazonaws.com/static-docs.testsigma.com/new_images/projects/applications/networklogs_testplan.gif)
+3. On the **Add** or **Edit Machine/Device Profile** overlay, select Test Lab Type as **BrowserStack**, enable the **Network Log** toggle, and click **Create/Update**. 
+   <br>
+
+<div style="position: relative; padding-bottom: 56.25%; height: 0; overflow: hidden;">
+  <iframe src="https://s3.amazonaws.com/static-docs.testsigma.com/new_images/projects/desired_capabilities/networklogstestplan.mp4" 
+          style="position: absolute; top: 0; left: 0; width: 100%; height: 100%; border: 0;" 
+          allowfullscreen>
+  </iframe>
+</div>
 
 ---
 
@@ -68,6 +76,14 @@ After completing the test execution on the Run Test Case Page, you should follow
 
 1. Click the **Show Logs** button on the Run Results page and locate the section dedicated to **Network Logs** under the **Logs** tab.
 2. In the **Network Logs** Previews, you can see a summary of captured network activity, including request URLs, HTTP methods, status codes, and response sizes. Quickly scan through the logs to identify anomalies or errors in the network interactions.
-3. Click **Download Log** File at the top-right of the screen to retrieve the network log file in **HAR** format. You can then analyse the network logs offline. ![View Network Logs](https://s3.amazonaws.com/static-docs.testsigma.com/new_images/projects/applications/view_networklogs.gif)
+3. Click **Download Log** File at the top-right of the screen to retrieve the network log file in **HAR** format. You can then analyse the network logs offline. 
+    <br>
+
+<div style="position: relative; padding-bottom: 56.25%; height: 0; overflow: hidden;">
+  <iframe src="https://s3.amazonaws.com/static-docs.testsigma.com/new_images/projects/desired_capabilities/viewnetworklogs.mp4" 
+          style="position: absolute; top: 0; left: 0; width: 100%; height: 100%; border: 0;" 
+          allowfullscreen>
+  </iframe>
+</div>
 
 ---

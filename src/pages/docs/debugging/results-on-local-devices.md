@@ -103,7 +103,16 @@ During test case execution, you can visually follow each step. If an error occur
 A common issue is the **Element Not Found** error, where an element visible on the device is reported as not found. To address this:
 
 1. View the message for the test step. If the element is not found, click **Element** to view its properties.
-2. Analyze the issue, update the element properties if needed, then click **Options** and select **Resume Execution** from the previously paused step. ![troubleshooting element not found error on mobile devices](https://s3.amazonaws.com/static-docs.testsigma.com/new_images/projects/applications/troubleshooting_element_not_found_error_mobiledebugger.gif)
+2. Analyze the issue, update the element properties if needed, then click **Options** and select **Resume Execution** from the previously paused step.
+
+ <br>
+
+<div style="position: relative; padding-bottom: 56.25%; height: 0; overflow: hidden;">
+  <iframe src="https://s3.amazonaws.com/static-docs.testsigma.com/new_images/projects/debugging/troubleshooting.mp4" 
+          style="position: absolute; top: 0; left: 0; width: 100%; height: 100%; border: 0;" 
+          allowfullscreen>
+  </iframe>
+</div>
 
 ---
 
