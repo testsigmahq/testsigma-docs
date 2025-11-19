@@ -47,7 +47,7 @@ You can use the Azure Active Directory Admin Center to enable single sign-on (SS
 
 ## **I. Adding Testsigma Enterprise Application**
 
-1. Login to [Azure](https://portal.azure.com) portal.
+1. Login to <a href="https://portal.azure.com" rel="nofollow">Azure</a> portal. 
 ![Azure management portal](https://s3.amazonaws.com/static-docs.testsigma.com/new_images/projects/applications/mazsso.png)
 
 2. Click the **View** button below **“Manage Microsoft Entra ID”.**
@@ -94,11 +94,11 @@ You will be taken to the Setup Single Sign-on with SAML screen as shown below:
 
 3. Click on the Edit button on Section **1 - Basic SAML Configuration,** enter the following details, and click Save:
    
-    - **Entity ID :** https://id.testsigma.com/saml/&lt;id&gt;/metadata
+    - **Entity ID :** <a href="https://id.testsigma.com/saml/&lt;id&gt;/metadata" rel="nofollow">https://id.testsigma.com/saml/&lt;id&gt;/metadata</a>.
    
-    - **Sign on URL :** https://id.testsigma.com/saml/&lt;id&gt;/callback
+    - **Sign on URL :** <a href="https://id.testsigma.com/saml/&lt;id&gt;/callback" rel="nofollow">https://id.testsigma.com/saml/&lt;id&gt;/callback</a>.
    
-    - **Relay State :**  https://id.testsigma.com/
+    - **Relay State :** <a href="https://id.testsigma.com/" rel="nofollow">https://id.testsigma.com/</a>.
    
     - **Logout URL :** (Leave it empty)
 
@@ -112,17 +112,17 @@ You will be taken to the Setup Single Sign-on with SAML screen as shown below:
 |    - You will see an exclusive SAML token identifier for your account. When you hover over the **Entity ID**, **Sign On URL**, and **Relay State**, you will see an option to copy each value. You can click on it to copy the URLs directly.
 |    <img src="https://s3.amazonaws.com/static-docs.testsigma.com/new_images/projects/faq/Enable_SMAIL_SSo_Half.png" style="width: 400px;" />
    
-4. You need to put this identifier in place of **\<id>** in Step 3 and click **Save**.
+1. You need to put this identifier in place of **\<id>** in Step 3 and click **Save**.
    ![Fill in basic configuration details for saml configuration](https://s3.amazonaws.com/static-docs.testsigma.com/new_images/projects/faq/first_three_steps_2.png)
 
-5. Click on the Edit button of Section 2 - **User Attributes & Claims**. Under **Required claim**, click the Claim name/Claim value.
+2. Click on the Edit button of Section 2 - **User Attributes & Claims**. Under **Required claim**, click the Claim name/Claim value.
 
-6. In the Manage Claim page that now appears, select **Source attribute** as **user.userprincipalname** from the dropdown.
+3. In the Manage Claim page that now appears, select **Source attribute** as **user.userprincipalname** from the dropdown.
    ![Key/value-pairs attached to the user in Azure AD](https://s3.amazonaws.com/static-docs.testsigma.com/new_images/projects/applications/ssoazure.png)
 
-7. Click **Save** and go back to the previous SAML-based Sign-on page.
+4. Click **Save** and go back to the previous SAML-based Sign-on page.
 
-8. Click on the Edit button for section 3 - **SAML Signing Certificate,** enter the following details, and click Save:
+5. Click on the Edit button for section 3 - **SAML Signing Certificate,** enter the following details, and click Save:
 
     -  **Signing Option:** SAML response and assertion
 

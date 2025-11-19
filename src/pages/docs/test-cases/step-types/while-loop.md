@@ -77,7 +77,7 @@ Here's a quick GIF demonstrating using While Loop in Test Cases.
 3. A new window will be opened with recorder. 
    ![New Window](https://s3.amazonaws.com/static-docs.testsigma.com/new_images/projects/applications/WhileLoop_NewWindow.png)
 
-4. Go to https://demoqa.com/webtables. 
+4. Go to <a href="https://demoqa.com/webtables" rel="nofollow">https://demoqa.com/webtables</a>.
    ![Website](https://s3.amazonaws.com/static-docs.testsigma.com/new_images/projects/applications/WhileLoop_demoQA.png)
 
 5. Click on the option on the left side of the test step and choose **While Loop**. This will add a while condition in your test step.

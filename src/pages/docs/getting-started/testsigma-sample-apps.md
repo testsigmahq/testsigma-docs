@@ -21,29 +21,29 @@ This article provides a few sample applications for users to practice testing in
 
 1. Use the following links for practicing web testing:<br>
 
-    - https://simply-travel.testsigma.com/
+    - <a href="https://simply-travel.testsigma.com/" rel="nofollow">https://simply-travel.testsigma.com/</a>
 
-    - https://mobile-simply-travel.testsigma.com/
+    - <a href="https://mobile-simply-travel.testsigma.com/" rel="nofollow">https://mobile-simply-travel.testsigma.com/</a>
 
 *For more information on how to create test cases, refer to the [documentation on creating test cases](https://testsigma.com/docs/test-cases/manage/add-edit-delete/).*
 
 
-2. Use the following apps for practicing mobile app testing.
-    - [Sample IPA Application](https://s3.amazonaws.com/static-docs.testsigma.com/new_images/projects/applications/SimplyTravel.ipa)
+1. Use the following apps for practicing mobile app testing.
+    - <a href="https://s3.amazonaws.com/static-docs.testsigma.com/new_images/projects/applications/SimplyTravel.ipa" rel="nofollow">Sample IPA Application</a>
     
-    - [Sample APK Application](https://s3.amazonaws.com/static-docs.testsigma.com/new_images/projects/applications/appdebug.apk)
+    - <a href="https://s3.amazonaws.com/static-docs.testsigma.com/new_images/projects/applications/appdebug.apk" rel="nofollow">Sample APK Application</a>
     
-    - [SMS Forwarder Application](https://s3.amazonaws.com/static-docs.testsigma.com/new_images/projects/applications/smsforward.apk)
+    - <a href="https://s3.amazonaws.com/static-docs.testsigma.com/new_images/projects/applications/smsforward.apk" rel="nofollow">SMS Forwarder Application</a>
 
 
 *For more information on uploading mobile apps for testing, refer to the [documentation on uploading android and iOS apps](https://testsigma.com/docs/uploads/upload-apps/).*
 
-3. Use the following link for practicing API testing:
+1. Use the following link for practicing API testing:
 
-    - https://flash-staging.testsigma.com/swagger-ui.html
+    - <a href="https://flash-staging.testsigma.com/swagger-ui.html" rel="nofollow">https://flash-staging.testsigma.com/swagger-ui.html</a>
 
 
-4. Also, refer to the following documents to automate:<br>
+2. Also, refer to the following documents to automate:<br>
     
     - [Android Apps](https://testsigma.com/tutorials/getting-started/automate-android-applications/)<br>
     

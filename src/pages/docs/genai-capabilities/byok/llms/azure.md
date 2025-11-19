@@ -33,11 +33,11 @@ Testsigma supports integration with Azure OpenAI, which allows you to map variou
    
    ![Azure OpenAI Details](https://s3.amazonaws.com/static-docs.testsigma.com/new_images/projects/applications/Azure_AI_Details.png)
 
-1. Request access to **Azure OpenAI** [here](https://learn.microsoft.com/en-us/legal/cognitive-services/openai/limited-access).
+1. Request access to **Azure OpenAI** <a href="https://learn.microsoft.com/en-us/legal/cognitive-services/openai/limited-access" rel="nofollow">here</a>. 
 
-2. Create a resource in the **Azure** portal [here](https://portal.azure.com/?microsoft%5Fazure%5Fmarketplace%5FItemHideKey=microsoft%5Fopenai%5Ftip#create/Microsoft.CognitiveServicesOpenAI). This resource will be your **Azure Resource Name**.
+2. Create a resource in the **Azure** portal <a href="https://portal.azure.com/?microsoft%5Fazure%5Fmarketplace%5FItemHideKey=microsoft%5Fopenai%5Ftip#create/Microsoft.CognitiveServicesOpenAI" rel="nofollow">here</a>. This resource will be your **Azure Resource Name**.
 
-3. Deploy a model in **Azure OpenAI Studio** [here](https://oai.azure.com/). The deployment name will be your **Deployment Name**.
+3. Deploy a model in **Azure OpenAI Studio** <a href="https://oai.azure.com/" rel="nofollow">here</a>. The deployment name will be your **Deployment Name**. 
 
 4. Select your **Foundation Model** from the dropdown menu.
 

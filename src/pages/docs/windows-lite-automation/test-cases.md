@@ -28,7 +28,7 @@ Test cases for Windows (Lite) applications depend on the elements captured using
 > Before you begin, ensure that:
 > 1. You have referred to the [documentation on settin up Testsigma Agent](https://testsigma.com/docs/agent/setup-on-windows-mac-linux/).
 > 2. You have an Application Built on UWP/WinForms/WPF/Classic Windows.
-> 3. You have referred to the [documentation on test recorder](https://chromewebstore.google.com/detail/testsigma-recorder/epmomlhdjfgdobefcpocockpjihaabdp?hl=en-GB&utm_source=ext_sidebar). 
+> 3. You have referred to the  <a href="https://chromewebstore.google.com/detail/testsigma-recorder/epmomlhdjfgdobefcpocockpjihaabdp?hl=en-GB&utm_source=ext_sidebar" rel="nofollow">documentation on test recorder</a>. 
 > 4. You have a Windows app to test.
 > 5. You have elements captured using Testsigma Recorder. 
 

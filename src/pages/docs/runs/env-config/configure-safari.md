@@ -52,7 +52,6 @@ As specified earlier, you do not need to download anything extra since everythin
 
 [[info | Note:]]
 |This is a workaround for Safari version less than 10.1. It is highly recommended to install Safari 10.1+ to avoid hassles.<br>
-|Reference: [Webkit.org](https://webkit.org/blog/6900/webdriver-support-in-safari-10/)
+|Reference: <a href="https://webkit.org/blog/6900/webdriver-support-in-safari-10/" rel="nofollow">Webkit.org</a>
 
-
-
+---

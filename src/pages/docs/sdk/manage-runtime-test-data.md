@@ -22,11 +22,11 @@ Testsigma SDK helps you perform specific actions in Addons, like updating runtim
 
 You can also get the maven dependency from 
 
-https://github.com/testsigmahq/testsigma-java-sdk#testsigma-sdk-dependency
+<a href="https://github.com/testsigmahq/testsigma-java-sdk#testsigma-sdk-dependency" rel="nofollow">https://github.com/testsigmahq/testsigma-java-sdk#testsigma-sdk-dependency</a>
 
-Or you can generate using Testsigma Addon archetype
+Or you can generate using Testsigma Addon archetype 
 
-https://github.com/Testsigmahq/testsigma-addon-archetype#testsigma-maven-archetype-for-creating-add-on-project
+<a href="https://github.com/Testsigmahq/testsigma-addon-archetype#testsigma-maven-archetype-for-creating-add-on-project" rel="nofollow">https://github.com/Testsigmahq/testsigma-addon-archetype#testsigma-maven-archetype-for-creating-add-on-project</a>
 
 In this document we will learn how to update runtime data using methods available in Testsigma SDK
 

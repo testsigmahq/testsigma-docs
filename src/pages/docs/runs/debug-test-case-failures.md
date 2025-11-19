@@ -82,5 +82,6 @@ If an Element has failed, navigate to the Elements page
 ---
 ##**Support**
 
-If you’re unable to resolve the test failure, you can connect with our [Support team on Discord](https://discord.com/invite/5caWS7R6QX) or send us a mail at **[support@testsigma.com](mailto:support@testsigma.com)** describing the issue.
+If you’re unable to resolve the test failure, you can connect with our <a href="https://discord.com/invite/5caWS7R6QX" rel="nofollow">Support team on Discord</a> or send us a mail at **[support@testsigma.com](mailto:support@testsigma.com)** describing the issue.
 
+---

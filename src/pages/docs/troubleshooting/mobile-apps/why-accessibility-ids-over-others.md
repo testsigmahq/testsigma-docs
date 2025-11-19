@@ -29,10 +29,10 @@ Here's an infographic which gives more info:
 
 ### **References:**
 
-[Android Developer - Accessibility](https://developer.android.com/guide/topics/ui/accessibility)
+<a href="https://developer.android.com/guide/topics/ui/accessibility" rel="nofollow">Android Developer - Accessibility</a>
 
-[Buildfire - App Accessibility Mobile Development](https://buildfire.com/app-accessibility-mobile-development/)
+<a href="https://buildfire.com/app-accessibility-mobile-development/" rel="nofollow">Buildfire - App Accessibility Mobile Development</a>
 
-[Appium Pro - Pick Right Locator Strategy](https://appiumpro.com/editions/60-how-to-pick-the-right-locator-strategy)
+<a href="https://appiumpro.com/editions/60-how-to-pick-the-right-locator-strategy" rel="nofollow">Appium Pro - Pick Right Locator Strategy</a>
 
 ---

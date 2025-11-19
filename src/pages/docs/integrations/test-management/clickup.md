@@ -30,7 +30,7 @@ You can integrate Testsigma with Clickup to push bugs directly to Clickup’s pr
 >    - **API Key:** API Token from Clickup. 
 
 [[info | **NOTE**:]]
-| *For more information on how to create API token in Clickup, refer to the [personal API key](https://help.clickup.com/hc/en-us/articles/6303426241687-Getting-Started-with-the-ClickUp-API).*
+| *For more information on how to create API token in Clickup, refer to the *<a href="https://help.clickup.com/hc/en-us/articles/6303426241687-Getting-Started-with-the-ClickUp-API" rel="nofollow">personal API key</a>.*
 
 ---
 

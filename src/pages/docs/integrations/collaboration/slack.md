@@ -32,7 +32,7 @@ Testsigma Slack integration sends ***Test Pass/Fail/Abort*** notifications in re
 >
 > 
 > Before you begin, ensure that:
-> 1. You have a valid [Slack Incoming Webhook URL](https://api.slack.com/messaging/webhooks). 
+> 1. You have a valid <a href="https://api.slack.com/messaging/webhooks" rel="nofollow">Slack Incoming Webhook URL</a>. 
 > 2. You have referred to the [documentation on ceating test plans](https://testsigma.com/docs/test-management/test-plans/overview/#steps-to-create-a-test-plan).
 
 ---

@@ -70,6 +70,6 @@ That's all we need to automate Test Execution when a successful build is trigger
  
  
  
-Source: [https://aws.amazon.com/lambda/](https://aws.amazon.com/lambda/)
+Source: <a href="https://aws.amazon.com/lambda/" rel="nofollow">https://aws.amazon.com/lambda/</a>.
 
 ---

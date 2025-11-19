@@ -14,7 +14,7 @@ contextual_links:
 ---
 
 ---
-When a report is exported from Testsigma, an email with a download link is sent automatically. Clicking the link in the email on the **Microsoft Edge** may redirect to a URL starting with https://view.officeapps.live.com. 
+When a report is exported from Testsigma, an email with a download link is sent automatically. Clicking the link in the email on the **Microsoft Edge** may redirect to a URL starting with <a href="https://view.officeapps.live.com" rel="nofollow">https://view.officeapps.live.com</a>.
 
 ![Edge XLS](https://s3.amazonaws.com/static-docs.testsigma.com/new_images/projects/faq/Edge_XLS.png) 
 

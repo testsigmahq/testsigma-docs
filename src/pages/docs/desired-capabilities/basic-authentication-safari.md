@@ -38,7 +38,7 @@ Safari restricts automated Basic Authentication login by blocking credentials in
 
 ## **Generate the Authorization Header**
 
-1. Navigate to [Basic Auth Header Generator](https://www.debugbear.com/basic-auth-header-generator).
+1. Navigate to <a href="https://www.debugbear.com/basic-auth-header-generator" rel="nofollow">Basic Auth Header Generator</a>. 
 
 2. Enter your **username** and **password** to generate the **Authorization Header**.
 

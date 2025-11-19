@@ -44,9 +44,10 @@ With qTest integrated into Testsigma, you can generate test cases by selecting s
    ![Save qTest Details](https://s3.amazonaws.com/static-docs.testsigma.com/new_images/projects/applications/qTest_Details_Save.png)
 
 [[info | **NOTE**:]]
-| 1.  You must obtain the **Bearer Token** from the **Download qTest Resources** page. *For more information on downloading the qTest resources, refer to the [documentation on donwloading the qTest resources](https://documentation.tricentis.com/qtest/od/en/content/overview/download_qtest_resources_page.htm).*
+| 1.  You must obtain the **Bearer Token** from the **Download qTest Resources** page. *For more information on downloading the qTest resources, refer to the <a href="https://documentation.tricentis.com/qtest/od/en/content/overview/download_qtest_resources_page.htm" rel="nofollow">documentation on donwloading the qTest resources</a>.*
 | ![Bearer Token](https://s3.amazonaws.com/static-docs.testsigma.com/new_images/projects/applications/qTest_BearerToken.png)
 | 2. Please copy the token except **Bearer**. 
 
 
 ---
+

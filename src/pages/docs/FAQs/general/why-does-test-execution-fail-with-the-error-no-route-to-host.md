@@ -26,10 +26,10 @@ This issue occurs because Testsigma attempts to download the required browser dr
 
 To fix this issue, ensure the following URLs are whitelisted in your network/firewall settings:
 
-1. https://msedgedriver.microsoft.com/ 
-2. https://github.com/mozilla/geckodriver/releases/download/
-3. https://storage.googleapis.com/chrome-for-testing-public/
-4. https://googlechromelabs.github.io/
+1. <a href="https://msedgedriver.microsoft.com/ " rel="nofollow">https://msedgedriver.microsoft.com/</a>.
+2. <a href="https://github.com/mozilla/geckodriver/releases/download/ " rel="nofollow">https://github.com/mozilla/geckodriver/releases/download/</a>.
+3. <a href="https://storage.googleapis.com/chrome-for-testing-public/" rel="nofollow">https://storage.googleapis.com/chrome-for-testing-public/</a>.
+4. <a href="https://googlechromelabs.github.io/" rel="nofollow">https://googlechromelabs.github.io/</a>.
 
 Once these URLs are whitelisted, Testsigma will be able to download the driver files required for test execution.
 

@@ -34,7 +34,7 @@ Testsigma supports integration with OpenAI, enabling you to map various features
    ![OpenAI Details](https://s3.amazonaws.com/static-docs.testsigma.com/new_images/projects/applications/OpenAI_Details.png)
 
 
-1. Navigate to **OpenAI Platform > [API Keys](https://platform.openai.com/api-keys)**.
+1. Navigate to **OpenAI Platform > <a href="https://platform.openai.com/api-keys" rel="nofollow">API Keys</a>**. 
 
 2. Click **Create New Secret Key** in the top-right corner.
 

@@ -42,7 +42,7 @@ contextual_links:
 
 ## **Step 1: Download the Package**
 
-Download the Testsigma zip into the installation folder(testsigma) from https://github.com/testsigmahq/testsigma/releases/latest/
+Download the Testsigma zip into the installation folder(testsigma) from <a href="https://github.com/testsigmahq/testsigma/releases/latest/" rel="nofollow">https://github.com/testsigmahq/testsigma/releases/latest/</a>
 
 You will find the following files in this location, download the appropriate one based on your OS.
 - Testsigma-Windows-{latest-version}.zip
@@ -64,7 +64,7 @@ We need 4 components for the Testsigma community server to work:
 
 #### **Install MySQL**
 
- 1. Download and install MySQL from https://dev.mysql.com/downloads/mysql/
+ 1. Download and install MySQL from <a href="https://dev.mysql.com/downloads/mysql/ " rel="nofollow">https://dev.mysql.com/downloads/mysql/</a>
 
  2. Set the MySQL password for the root user as root. You can choose to set a different password, but while starting the testsigma API server you will need to set this as an environment variable (MYSQL\_PASSWORD\). 
 
@@ -163,7 +163,7 @@ Your Testsigma server should be up and running now. Testsigma server will be acc
 
  1. Stop Nginx, TestsigmaServer, TestsigmaAgent
  2. Delete the Testsigma Installation folder 
- 3. Download the latest version from here https://github.com/testsigmahq/testsigma/releases/latest/
+ 3. Download the latest version from here <a href="https://github.com/testsigmahq/testsigma/releases/latest/" rel="nofollow">https://github.com/testsigmahq/testsigma/releases/latest/</a>
  4. Repeat the steps explained in “Step2: Run Services” section
  5. Now login to check the updated version of Testsigma Server here  ```https://local.testsigmaos.com/ui```
 
@@ -171,7 +171,7 @@ Your Testsigma server should be up and running now. Testsigma server will be acc
 
 ## **Troubleshooting**
 
- If you encounter any errors during this process, check out our guide on [debugging deployment errors](https://testsigma.com/docs/troubleshooting/setup/server-docker-deployment-errors/). If you are still facing any issue, please reach out to [support@testsigma.com](mailto:support@testsigma.com) or join our [Discord Server](https://discord.com/invite/5caWS7R6QX) to speak to the Testsigma team directly!
+ If you encounter any errors during this process, check out our guide on [debugging deployment errors](https://testsigma.com/docs/troubleshooting/setup/server-docker-deployment-errors/). If you are still facing any issue, please reach out to [support@testsigma.com](mailto:support@testsigma.com) or join our <a href="https://discord.com/invite/5caWS7R6QX" rel="nofollow">https://discord.com/invite/5caWS7R6QX</a> to speak to the Testsigma team directly!
 
 ---
 

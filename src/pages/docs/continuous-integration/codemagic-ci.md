@@ -45,7 +45,7 @@ You can integrate Codemagic with your version control system to automate test ex
 
 ## **Sign Up and Authorize Codemagic**
 
-1. Navigate to [Codemagic](https://codemagic.io).
+1. Navigate to <a href="https://codemagic.io" rel="nofollow">Codemagic</a>. 
 
 2. Sign up using your version control system (We’re using **GitHub**).
 
@@ -114,7 +114,7 @@ workflows:
 
 [[info | **NOTE**:]]
 | - Ensure the **magictrigger.sh** file is present in the same repository and marked as executable. For information on the generic shell script, see [Shell Script](https://testsigma.com/docs/continuous-integration/shell-script/).
-| - Ensure you have an **API key** and a **Test Plan ID**. For more information, see [API Keys](https://testsigma.com/docs/configuration/api-keys/) and [Get Test Plan ID](https://docs.testsigma.com/images/azure-devops/get-test-plan-id.png).
+| - Ensure you have an **API key** and a **Test Plan ID**. For more information, see [API Keys](https://testsigma.com/docs/configuration/api-keys/) and <a href="https://docs.testsigma.com/images/azure-devops/get-test-plan-id.png" rel="nofollow">Get Test Plan ID</a>. 
 | ![shell script for Azure DevOps](https://docs.testsigma.com/images/azure-devops/shell-script-azure-devops.png)
 
 ---

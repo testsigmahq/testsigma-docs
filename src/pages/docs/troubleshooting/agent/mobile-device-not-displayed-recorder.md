@@ -116,6 +116,6 @@ Troubleshoot and resolve issues with iOS devices by following these steps.
 </ol>
 
 [[info | NOTE:]]
-| If the troubleshooting steps above do not resolve the problem, you can contact **Testsigma Support** on [Discord](https://discord.com/invite/5caWS7R6QX) or [support@testsigma.com](mailto:support@testsigma.com). You can also use the **Instant Chat** Options for prompt assistance.
+| If the troubleshooting steps above do not resolve the problem, you can contact **Testsigma Support** on  <a href="https://discord.com/invite/5caWS7R6QX" rel="nofollow">Discord</a> or [support@testsigma.com](mailto:support@testsigma.com). You can also use the **Instant Chat** Options for prompt assistance.
 
 ---

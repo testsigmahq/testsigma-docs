@@ -64,19 +64,18 @@ Creating a connected app is important to link external applications and the Sale
 
 3. In the **API** section, select the **Enable OAuth Settings** checkbox to set **Callback URL** and **Selected OAuth Scopes**. The **Selected OAuth Scopes** are mandatory in the **Connected App** to connect & download the metadata.
     
-    - Use this Callback URL: <span style="font-family: monospace; font-size: 0.875em; background-color: #f8f8f8; padding: 0.2em 0.4em; border-radius: 4px;">https://salesforce-callback.testsigma.com/authorize/</span>
-
+    - Use this Callback URL: <a href="https://salesforce-callback.testsigma.com/authorize/" rel="nofollow">https://salesforce-callback.testsigma.com/authorize/</a> 
 
 ![API Details](https://s3.amazonaws.com/static-docs.testsigma.com/new_images/projects/faq/Create_connected_apps_3.png)
 
-4. Click on **Save**. 
+1. Click on **Save**. 
 ![Save](https://s3.amazonaws.com/static-docs.testsigma.com/new_images/projects/faq/Create_connected_app_4.png)
 
 [[info | **NOTE**:]]
 | - Please wait for 10 - 15 minutes after creating the app, before trying to establish a connection.
 | - A connected app is limited to only a few approvals. The system can revoke the oldest approval when the limit exceeds automatically. As a best practice, you can create a different connected app for each new application connection/connection.
 | - Some Salesforce editions do not have API access. Generally, these editions are not used in development or production environments, and it is not possible to create connections within them. <br> <br>
-| For more information on these editions, refer to the [Salesforce editions with API access](https://help.salesforce.com/s/articleView?id=000385436&type=1). 
+| For more information on these editions, refer to the <a href="https://help.salesforce.com/s/articleView?id=000385436&type=1" rel="nofollow">Salesforce editions with API access</a>. 
 
 ---
 
@@ -94,11 +93,10 @@ Creating a connected app is important to link external applications and the Sale
 3. Upon verification, the **Consumer Details** page will be displayed with **Consumer Key** and **Consumer Secret**. 
 ![Consumer Details](https://s3.amazonaws.com/static-docs.testsigma.com/new_images/projects/faq/Fetch_connected_apps_3.png)
 
-4. For Security Token, go to **My Personal Information > Reset My Security Token** and click on **Reset Security Token**. A new token will be sent to admin mail. Please refer to [Salesforce](https://help.salesforce.com/s/articleView?id=xcloud.user_security_token.htm&type=5) for more information. 
+4. For Security Token, go to **My Personal Information > Reset My Security Token** and click on **Reset Security Token**. A new token will be sent to admin mail. Please refer to <a href="https://help.salesforce.com/s/articleView?id=xcloud.user_security_token.htm&type=5" rel="nofollow">Salesforce</a> for more information. 
 
 <br>
 
 > Refer to the [documentation on Salesforce troubleshooting](https://testsigma.com/docs/troubleshooting/salesforce-testing/most-common-issues/) guide for the most common issues while creating a connected app.
-
 
 ---

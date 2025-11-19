@@ -26,7 +26,7 @@ This endpoint allows users to update the Test Case result using REST API.
 
 |**Request Type**|**PUT**|
 |---|---|
-|**Endpoint**|https://app.testsigma.com/api/v1/execution_results/&lt;run_id&gt;/override<br> The &lt;run_id&gt; can be obtained from the Run Results.|
+|**Endpoint**|<a href="https://app.testsigma.com/api/v1/execution_results/&lt;run_id&gt;/override" rel="nofollow">https://app.testsigma.com/api/v1/execution_results/&lt;run_id&gt;/override</a><br> The &lt;run_id&gt; can be obtained from the Run Results.|
 |**Authorization**|Bearer **<API\_Token>**<br>Same as the Testsigma API key mentioned above.|
 |**Request Body Type (JSON)**|Raw|
 |**Request Body**|[<br>{<br>"testCaseResultId": 3646,<br>"comment": "Modifying the results 1",<br>"result": "SUCCESS"<br>}<br>]<br>|

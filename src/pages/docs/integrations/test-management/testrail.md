@@ -110,7 +110,7 @@ Here's a structured hierarchy flow of test case linkage between Testsigma and Te
 [[info | **INFO 💡**:]]
 | ### **Steps to Create a Template URL for TestRail Custom with Case Match Add-on**
 | - #### **Download the JUnit Template XML File**
-|    - Go to the [Download JUnit Template XML](https://drive.google.com/file/d/1caC7QFZKoShFsRubnIZ-Vze-BcxJqta1/view). 
+|    - Go to the <a href="https://drive.google.com/file/d/1caC7QFZKoShFsRubnIZ-Vze-BcxJqta1/view" rel="nofollow">Download JUnit Template XML</a>. 
 |    - Download the XML file to your local system. 
 |    ![Download JUnit Template](https://s3.amazonaws.com/static-docs.testsigma.com/new_images/projects/integration/Testrail_1.png).
 | - #### **Copy the Downloaded File’s URL**
@@ -125,7 +125,7 @@ Here's a structured hierarchy flow of test case linkage between Testsigma and Te
 |    - Click **Create** or **Update**.
 |    ![Template URL](https://s3.amazonaws.com/static-docs.testsigma.com/new_images/projects/integration/TestRail_3.1.png)
 
-4. Go to **Test Plans** and click **Run Now** to execute the test plan. This will create a duplicate of the test run and display the result once the execution is complete.
+1. Go to **Test Plans** and click **Run Now** to execute the test plan. This will create a duplicate of the test run and display the result once the execution is complete.
    ![Test Plan Execution](https://s3.amazonaws.com/static-docs.testsigma.com/new_images/projects/applications/TestRail_TestPlan.png)
 
 [[info | **NOTE**:]]
@@ -142,7 +142,8 @@ Here's a structured hierarchy flow of test case linkage between Testsigma and Te
 
 ## **Trigger TestRail Test Runs Using APIs**
 
-You can also trigger TestRail test runs using APIs. Click [here](https://s3.amazonaws.com/static-docs.testsigma.com/new_images/projects/applications/TR_QT.postman_collection.json.zip) to download the Postman collection.
+You can also trigger TestRail test runs using APIs. Click <a href="https://s3.amazonaws.com/static-docs.testsigma.com/new_images/projects/applications/TR_QT.postman_collection.json.zip" rel="nofollow">here</a> to download the Postman collection.
+
 
 
 **a. Authorization:** Bearer Token (copied from [Settings > API](https://testsigma.com/docs/configuration/api-keys/) Keys in Testsigma).

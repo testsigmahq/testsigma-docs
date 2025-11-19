@@ -52,7 +52,7 @@ contextual_links:
 
 ## **Java JDK**
 - Download the Java JDK 11 from the following link, 
-    - [Download the Latest Java LTS Free](https://www.oracle.com/java/technologies/downloads/#java11)
+    - <a href="https://www.oracle.com/java/technologies/downloads/#java11" rel="nofollow">Download the Latest Java LTS Free</a>
 - Once it is installed, you can type the ***java -version*** in the terminal to confirm if the Java installation is successful.
 - Set env path in zshrc profile.
     - Open the terminal and type ***vi ~/.zshrc***
@@ -63,14 +63,14 @@ contextual_links:
 
 ## **Node js**
 - Down the node from the following link:
-    - [Download Node.js](https://nodejs.org/en/download) 
+    - <a href="https://nodejs.org/en/download" rel="nofollow">Download Node.js</a>
 - Once it is installed, you can type ***node -v*** in the terminal to confirm if the node installation is successful.
 
 <br>
 
 ## **Apache httpd**
 - Install apache httpd via Homebrew. 
-- Make sure Xcode is installed on your mac (install it via AppStore or https://developer.apple.com/downloads)
+- Make sure Xcode is installed on your mac (install it via AppStore or <a href="https://developer.apple.com/downloads" rel="nofollow">https://developer.apple.com/downloads</a>)  
 - To Install brew, open your terminal and type in:
 ```
 /usr/bin/ruby -e “$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install)
@@ -123,7 +123,7 @@ ng --version
 <br>
 
 ## **Setup**
-- Download the source from GitHub: git clone https://github.com/Testsigmahq/testsigma and place it on your system. The downloaded source will have the below folders.
+- Download the source from GitHub: git clone <a href="https://github.com/Testsigmahq/testsigma" rel="nofollow">https://github.com/Testsigmahq/testsigma</a> and place it on your system. The downloaded source will have the below folders.
     - agent
     - agent-launcher
     - automator
@@ -157,7 +157,7 @@ ng --version
     ```
     mkdir $HOME/.testsigma_os
     ```
-    - Download the Android, Appium, JRE, and iOS tools from this [URL](https://github.com/testsigmahq/testsigma/releases) and store them in the above folder created. Make sure you extract the zip and place the contents in the folder created.
+    - Download the Android, Appium, JRE, and iOS tools from this <a href="https://github.com/testsigmahq/testsigma/releases" rel="nofollow">URL</a> and store them in the above folder created. Make sure you extract the zip and place the contents in the folder created.
     - For mac Os you need to give explicit permission to remove the quarantine attribute. You can do this by running,
     ```
     sudo xattr -d -r com.apple.quarantine $HOME/.testsigma_os/
@@ -257,5 +257,7 @@ ng --version
         127.0.0.1       devos.testsigma.com
         ```
 
-- **You can now access the server at https://devos.testsigma.com/ui/**
+- **You can now access the server at <a href="https://devos.testsigma.com/ui/" rel="nofollow">https://devos.testsigma.com/ui/</a>** 
 ![Access Server](https://s3.amazonaws.com/static-docs.testsigma.com/new_images/projects/applications/testsigma.png)
+
+---

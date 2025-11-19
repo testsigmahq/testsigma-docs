@@ -55,7 +55,7 @@ Some device vendors, like **Xiaomi**, **Vivo**, and **Huawei**, customise the **
 **Solution**
 
 1. **Go to Settings**: Tap on the **Settings** app icon on your Android device's home screen or app drawer.<br>
-[How to enable developer options](https://www.greenbot.com/article/2457986/how-to-enable-developer-options-on-your-android-phone-or-tablet.html)
+<a href="https://www.greenbot.com/article/2457986/how-to-enable-developer-options-on-your-android-phone-or-tablet.html" rel="nofollow">How to enable developer options</a>
 
 2. **Scroll down to Additional Settings**: Scroll down the settings menu until you see **Additional Settings** and tap on it.
 
@@ -108,6 +108,6 @@ If your device is still not being detected after trying these steps, here are a 
 
 If your device is listed every time successfully, you can mostly rule out this issue and keep the device and the cable untouched.
 
-If the issue persists, [connect with Testsigma Support on Discord](https://discord.com/invite/5caWS7R6QX) or contact **support@testsigma.com**. 
+If the issue persists, <a href="https://discord.com/invite/5caWS7R6QX" rel="nofollow">connect with Testsigma Support on Discord</a> or contact **support@testsigma.com**. 
 
 ---
