@@ -65,7 +65,7 @@ Follow the below steps to identify if a webpage uses Shadow DOM:
 
 ## **Create Element for Shadow DOM**
 
-This section will demonstrate how to capture and store shadow DOM elements using Testsigma. For this demonstration, we'll use the shopping website [shop.polymer-project](https://shop.polymer-project.org/).
+This section will demonstrate how to capture and store shadow DOM elements using Testsigma. For this demonstration, we'll use the shopping website <a href="https://shop.polymer-project.org/" rel="nofollow">shop.polymer-project</a>.
 
 1. Navigate to **Create Tests** > **Elements** in the left side navbar. Click on **Create Element** at the top right corner of the **Elements List** page to capture the Element on the webpage. ![create elements](https://s3.amazonaws.com/static-docs.testsigma.com/new_images/projects/applications/elementstab_shadowdom.png)
 2. Click **Create Element** to open an overlay screen on the right side of the page. Click **Record Element** within this overlay to easily capture the Element. Open the webpage in a new tab and click on the **Element** you want to capture. Then, click **Capture** to record the Element in the Record Element pop-up menu. ![record shadowdom element](https://s3.amazonaws.com/static-docs.testsigma.com/new_images/projects/applications/record_element_shadowdom.gif)

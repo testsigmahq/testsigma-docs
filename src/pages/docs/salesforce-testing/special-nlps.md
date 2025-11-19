@@ -94,6 +94,7 @@ With Testsigma's special NLPs, you can scale and enhance Salesforce Testing. The
 
 ## **List of Special NLPs**
 
+<a href="https://website.testsigma.com/docs/salesforce-testing/special-nlps/#nlp-2" rel="nofollow">Documentation on opening the edit Salesforce Object form where record id is Record ID</a>
 
 | **NLP** | **Description** |
 |----------|----------|
@@ -101,7 +102,7 @@ With Testsigma's special NLPs, you can scale and enhance Salesforce Testing. The
 | [Documentation on Login to Salesforce using Salesforce Connection](https://testsigma.com/docs/salesforce-testing/special-nlps/#nlp-4) | This NLP logs into the Salesforce instance configured in Testsigma with a chosen user connection. <br><br> **User Inputs in NLP:** <br>Salesforce Application <br> <br> **Note:** This is the default NLP for any test case. |
 | [Documentation on switching to Salesforce Application application](https://testsigma.com/docs/salesforce-testing/special-nlps/#nlp-6) | This NLP switches to the application chosen from the list. <br><br> **User Inputs in NLP:** <br> Salesforce Application |
 | [Documentation on navigating to Salesforce tab](https://testsigma.com/docs/salesforce-testing/special-nlps/#nlp-7) | This NLP navigates to the chosen tab within the same Salesforce application. <br><br> **User Inputs in NLP:** <br>Salesforce Tab |
-| [Documentation on opening the edit Salesforce Object form where record id is Record ID](https://website.testsigma.com/docs/salesforce-testing/special-nlps/#nlp-2)| This NLP opens the edit form in Salesforce for a specific record on the selected tab. <br><br> **User Inputs in NLP:** <br> 1. User Record ID <br> 2. Salesforce Object |
+|<a href="https://website.testsigma.com/docs/salesforce-testing/special-nlps/#nlp-2" rel="nofollow">Documentation on opening the edit Salesforce Object form where record id is Record ID</a>| This NLP opens the edit form in Salesforce for a specific record on the selected tab. <br><br> **User Inputs in NLP:** <br> 1. User Record ID <br> 2. Salesforce Object |
 | [Documentation on opening the create Salesforce Object record form](https://testsigma.com/docs/salesforce-testing/special-nlps/#nlp-9) | This NLP opens the Create Record form in Salesforce on the selected tab.<br><br> **User Inputs in NLP:** <br>Salesforce Object |
 | [Documentation on opening the Salesforce Object details page where record id is Record ID](https://testsigma.com/docs/salesforce-testing/special-nlps/#nlp-8) | This NLP Opens the View in Salesforce for a specific record on the selected tab. <br><br> **User Inputs in NLP:** <br> 1. User Record ID <br> 2. Salesforce Object |
 | [Documentation on creating record in Salesforce Object Form using Salesforce Connection connection and store the record id in variable test data](https://testsigma.com/docs/salesforce-testing/special-nlps/#nlp-1) | This NLP creates a record for a specific Salesforce object using the create record API. This process stores the RECORD\_ID in a variable. <br><br> **User Inputs in NLP:** <br> 1. Salesforce Connection<br> 2. Salesforce Object Form<br> 3. Variable to store RECORD\_ID |

@@ -54,7 +54,7 @@ Testsigma provides a digital inbox called Mail Box to verify OTP accuracy, check
 > 2. [Documentation on managing test steps](https://testsigma.com/docs/test-cases/step-types/natural-language/).
 > 3. [Documentation on creating test data types](https://testsigma.com/docs/test-data/types/overview/).
 > 4. [Documentation on data generators](https://testsigma.com/docs/test-data/types/data-generator/). 
-> 5. [Documentation on regular expressions](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Guide/Regular_Expressions) if necessary.
+> 5. <a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript/Guide/Regular_Expressions" rel="nofollow">Documentation on regular expressions</a> if necessary. 
 
 [[info | NOTE:]]
 | - You can enable Mail Box for your account by contacting **support@testsigma.com** or using the **instant chat** option.
@@ -150,7 +150,8 @@ With Testsigma, you can generate new mailbox aliases every time during test case
 |**! MailBoxAliasFunctions :: getOTP**|This will fetch the OTP sent to the email box into a variable.|<li>Regex</li><li>Runtime Variable</li><li>Timeout in seconds</li>*For Example: Regex - \d{4,6}, Runtime Variable - otp, Timeout - 30*|
 |**! MailBoxAliasFunctions :: urlWithText**|This will fetch the URL that contains some required text.|<li>Text</li><li>Runtime Variable</li><li>Timeout in seconds</li>*For Example: Text - randomtext, Runtime Variable - url, Timeout - 30*|
 |**! MailBoxAliasFunctions :: urlWhichContains**|This will fetch the URL that contains some required parameters.|<li>Substring</li><li>Runtime Variable</li><li>Timeout in seconds</li>*For Example: Substring - example, Runtime Variable - random_text, Timeout - 30*|
-|**! MailBoxAliasFunctions :: urlMatchingRegex**|This will fetch the URL that contains a URL matching the required regex.|<li>Regex</li><li>Runtime Variable</li><li>Timeout in seconds</li>*For Example: Regex - r'https://\w+\.com/\w+', Runtime Variable - path, Timeout - 30*|
+|**! MailBoxAliasFunctions :: urlMatchingRegex**|This will fetch the URL that contains a URL matching the required regex.|<li>Regex</li><li>Runtime Variable</li><li>Timeout in seconds</li>*For Example: Regex - r'<a href="https://\w+\.com/\w+" rel="nofollow">https://\w+\.com/\w+</a>', Runtime Variable - path, Timeout - 30*| 
+
 
 Below is a screenshot showing a test case generating a mailbox alias and getting content from the email.
 ![A test case displaying how to generate unique email address and how to use it](https://s3.amazonaws.com/static-docs.testsigma.com/new_images/projects/applications/generate_mailboxalias.gif)
@@ -192,13 +193,13 @@ Two-factor authentication provides additional protection for your application. W
   ![! Data Generator](https://s3.amazonaws.com/static-docs.testsigma.com/new_images/projects/applications/mb2fadgdd.png)
 
   
-  - On the **! Data Generator** overlay, select **Type**, **Function Type**, **Function**, **Enter Regex**, **Runtime Variable**, **Timeout** and click on **Save**. Here, we add regex [0 - 9]+, which extracts the first encountered series of numbers. The extracted data, which is OTP, will be stored in the runtime variable. For more information on examples of regex, refer to https://regex101.com/.
+  - On the **! Data Generator** overlay, select **Type**, **Function Type**, **Function**, **Enter Regex**, **Runtime Variable**, **Timeout** and click on **Save**. Here, we add regex [0 - 9]+, which extracts the first encountered series of numbers. The extracted data, which is OTP, will be stored in the runtime variable. For more information on examples of regex, refer to <a href="https://regex101.com/" rel="nofollow">https://regex101.com/</a>. 
   ![Data Generator Overlay](https://s3.amazonaws.com/static-docs.testsigma.com/new_images/projects/applications/mb2fadgvl.png)
 
   - This will help fetch OTP and enter it in the input element.
   ![Fetch OTP](https://s3.amazonaws.com/static-docs.testsigma.com/new_images/projects/applications/mb2fafotp.png)
 
-3. Click on **Run** to execute the test case. 
+1. Click on **Run** to execute the test case. 
 ![Run TC](https://s3.amazonaws.com/static-docs.testsigma.com/new_images/projects/applications/mb2farun.png)
 
 ---
@@ -212,7 +213,7 @@ In some cases, app restrictions will prevent the delivery of OTPs to the Testsig
 > <p id="prerequisites">Prerequisites</p>
 >
 > Before you begin, ensure that: 
-> 1. You have the [Testsigma SMS Forwarder](https://s3.amazonaws.com/static-docs.testsigma.com/new_images/projects/applications/smsforward.apk) application.
+> 1. You have the <a href="https://s3.amazonaws.com/static-docs.testsigma.com/new_images/projects/applications/smsforward.apk" rel="nofollow">Testsigma SMS Forwarder</a> application. 
 > 2. You have referred to the [documentation on creating mailbox](https://testsigma.com/docs/test-data/types/mailbox/) &
 > 3. You have referred to the [documentation on creating data generator](https://testsigma.com/docs/test-data/types/data-generator/). 
 > 4. Also, you need to have a dedicated Mailbox for your account. Contact **support@testsigma.com** for more information.

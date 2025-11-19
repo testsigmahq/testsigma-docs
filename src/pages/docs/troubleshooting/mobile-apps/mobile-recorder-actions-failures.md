@@ -144,7 +144,7 @@ To reach out to Testsigma support, you can:
 
   * Ping us on the chat widget at the bottom right of the page ,or, 
   * Email us at: support@testsigma.com ,or,
-  * Join the Testsigma community’s discord here: https://discord.com/invite/5caWS7R6QX
+  * Join the Testsigma community’s discord here: <a href="https://discord.com/invite/5caWS7R6QX" rel="nofollow">https://discord.com/invite/5caWS7R6QX</a>
 
 
 **Reason #2:**
@@ -160,7 +160,7 @@ To reach out to Testsigma support, you can:
 
   * Ping us on the chat widget at the bottom right of the page ,or, 
   * Email us at: support@testsigma.com ,or,
-  * Join the Testsigma community’s discord here: https://discord.com/invite/5caWS7R6QX
+  * Join the Testsigma community’s discord here: <a href="https://discord.com/invite/5caWS7R6QX" rel="nofollow">https://discord.com/invite/5caWS7R6QX</a>
 
 
 **Reason #3:**
@@ -358,7 +358,7 @@ If you are inspecting mobile device on the cloud lab, then, please reachout to T
 To reach out to Testsigma support, you can: 
  * Ping us on the chat widget at the bottom right of the page ,or, 
  * Email us at: support@testsigma.com ,or,
- * Join the Testsigma community’s discord here: https://discord.com/invite/5caWS7R6QX
+ * Join the Testsigma community’s discord here: <a href="https://discord.com/invite/5caWS7R6QX" rel="nofollow">https://discord.com/invite/5caWS7R6QX</a>
 
 <br>
 
@@ -378,7 +378,7 @@ Please reachout to testsigma support team for clarification.
 To reach out to Testsigma support, you can: 
  * Ping us on the chat widget at the bottom right of the page ,or, 
  * Email us at: support@testsigma.com ,or,
- * Join the Testsigma community’s discord here: https://discord.com/invite/5caWS7R6QX
+ * Join the Testsigma community’s discord here: <a href="https://discord.com/invite/5caWS7R6QX" rel="nofollow">https://discord.com/invite/5caWS7R6QX</a>
 
  <br>
 
@@ -425,7 +425,7 @@ You will need to increase your license count to avoid these kind of issues. Reac
 To reach out to Testsigma support, you can: 
  * Ping us on the chat widget at the bottom right of the page ,or, 
  * Email us at: support@testsigma.com ,or,
- * Join the Testsigma community’s discord here: https://discord.com/invite/5caWS7R6QX
+ * Join the Testsigma community’s discord here: <a href="https://discord.com/invite/5caWS7R6QX" rel="nofollow">https://discord.com/invite/5caWS7R6QX</a>
 
 <br>
 

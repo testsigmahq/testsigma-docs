@@ -31,11 +31,11 @@ There is no way to look up bundle IDs directly in the Apple iOS app store. Follo
 
 ## **If your App is in the App Store**
 
-1. Find the app online (Google for the iTunes link). For this example we use Apple pages: https://itunes.apple.com/app/pages/id361309726?mt=8
+1. Find the app online (Google for the iTunes link). For this example we use Apple pages: <a href="https://itunes.apple.com/app/pages/id361309726?mt=8" rel="nofollow">https://itunes.apple.com/app/pages/id361309726?mt=8</a>
 
 2. Copy the number after the id in the URL. (Here: 361309726)
 
-3. Open https://itunes.apple.com/lookup?id=361309726 where you replace the ID with the one you looked up.
+3. Open <a href="https://itunes.apple.com/lookup?id=361309726" rel="nofollow">https://itunes.apple.com/lookup?id=361309726</a> where you replace the ID with the one you looked up. 
 
 4. Search the output for **bundleID**. In this example it looks like this (next to a bunch of other data): **"bundleId":"com.apple.Pages"**. So for Apple, the bundle ID is **com.apple.Pages**
 

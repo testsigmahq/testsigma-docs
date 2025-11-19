@@ -51,13 +51,13 @@ Driver files are located under the following directories for the different Web B
 
 ## **Downloading the driver files**
 
-When new browser versions are released, a newer driver version will be released on [SeleniumHQ Downloads page](http://www.seleniumhq.org/download/).
+When new browser versions are released, a newer driver version will be released on <a href="http://www.seleniumhq.org/download/" rel="nofollow">SeleniumHQ Downloads page</a>. 
 
 And here are the direct links to WebDrivers of the most popular Browsers:<br>
-* [Firefox - GeckoDriver (Hosted on Github)](https://github.com/mozilla/geckodriver/releases)<br>
-* [Chrome - ChromeDriver (Hosted on Google Sites)](https://sites.google.com/chromium.org/driver/)<br>
-* [Microsoft Internet Explorer - InternetExplorerDriver](https://www.seleniumhq.org/download/)<br>
-* [Microsoft Edge - Edge Driver](https://developer.microsoft.com/en-us/microsoft-edge/tools/webdriver/)<br>
+* <a href="https://github.com/mozilla/geckodriver/releases" rel="nofollow">Firefox - GeckoDriver (Hosted on Github)</a><br>
+* <a href="https://sites.google.com/chromium.org/driver/" rel="nofollow">Chrome - ChromeDriver (Hosted on Google Sites)</a><br>  
+* <a href="https://www.seleniumhq.org/download/" rel="nofollow">Microsoft Internet Explorer - InternetExplorerDriver</a><br> 
+* <a href="https://developer.microsoft.com/en-us/microsoft-edge/tools/webdriver/" rel="nofollow">Microsoft Edge - Edge Driver</a><br> 
 
 <br>
 

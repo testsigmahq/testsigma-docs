@@ -28,7 +28,7 @@ Testsigma Recorder extensions in Firefox allow you to record end-to-end interact
 
 ## **Add Testsigma Recorder Extension to Firefox**
 
-1. Open your **Firefox** browser and navigate to [Testsigma Recorder](https://addons.mozilla.org/en-US/firefox/).
+1. Open your **Firefox** browser and navigate to <a href="https://addons.mozilla.org/en-US/firefox/" rel="nofollow">Testsigma Recorder</a>.
 2. Click on **Add to Firefox**.
 3. Click **Add** when prompted for permission.
 

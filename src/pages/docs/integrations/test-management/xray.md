@@ -46,7 +46,7 @@ With Xray integration, you can link:
 >    - Client ID
 >    - Client Secret 
 
-*For more information on configuring global settings, refer to the [documentation on configuring global settings](https://docs.getxray.app/display/XRAYCLOUD/Global+Settings%3A+API+Keys).*
+*For more information on configuring global settings, refer to the *<a href="https://docs.getxray.app/display/XRAYCLOUD/Global+Settings%3A+API+Keys" rel="nofollow">documentation on configuring global settings</a>.* 
 
 ---
  
@@ -73,7 +73,7 @@ Here's a quick GIF demonstrating how to integrate Xray with Testsigma.
 
 ## **Steps to Link an Xray Test Case to a Testsigma Test Case**
 
-1. Get the ID of an already created test from Xray. For example, if my test url on Xray is https://testserver.atlassian.net/browse/PT-10, then the ID would be: **PT-10**
+1. Get the ID of an already created test from Xray. For example, if my test url on Xray is <a href="https://testserver.atlassian.net/browse/PT-10" rel="nofollow">https://testserver.atlassian.net/browse/PT-10</a>, then the ID would be: **PT-10**
 
 2. Navigate to the test case details page corresponding to the test case you want to link with.
 
@@ -85,7 +85,7 @@ Here's a quick GIF demonstrating how to integrate Xray with Testsigma.
 
 ## **Steps to Link an Xray Test Set to a Testsigma Test Suite**
 
-1. Get the ID of an already created test set from Xray. For example, if my test set url on Xray is https://testserver.atlassian.net/browse/PT-11, then the ID would be: **PT-11**
+1. Get the ID of an already created test set from Xray. For example, if my test set url on Xray is <a href="https://testserver.atlassian.net/browse/PT-11" rel="nofollow">https://testserver.atlassian.net/browse/PT-11</a>, then the ID would be: **PT-11**
 
 2. Navigate to the test suite details page corresponding to the test suite you want to link with.
 
@@ -100,7 +100,7 @@ Here's a quick GIF demonstrating how to integrate Xray with Testsigma.
 
 ## **Steps to Link an Xray Test Plan to a Testsigma Test Plan**
 
-1. Get the ID of an already created test plan from Xray. For example, if my test plan URL on Xray is: https://testserver.atlassian.net/browse/PT-12, then the ID would be: **PT-12**
+1. Get the ID of an already created test plan from Xray. For example, if my test plan URL on Xray is: <a href="https://testserver.atlassian.net/browse/PT-12" rel="nofollow">https://testserver.atlassian.net/browse/PT-12</a>, then the ID would be: **PT-12**
 
 
 2. Navigate to the test plan details page corresponding to the test plan you want to link with.

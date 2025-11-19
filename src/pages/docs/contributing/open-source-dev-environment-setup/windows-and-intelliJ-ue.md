@@ -39,11 +39,11 @@ contextual_links:
 ## **Pre-Requisite Software and Service Installation** <br>
 
 **OPEN JDK 11 or greater**<br>
-Open JDK 11 can be installed from [Oracle](https://www.oracle.com/java/technologies/downloads/#java11-windows). Please make sure JDK 11 or above is taken into consideration as there are a few unsupported libraries below JDK 11 while setting up the dev environment.
+Open JDK 11 can be installed from  <a href="https://www.oracle.com/java/technologies/downloads/#java11-windows" rel="nofollow">Oracle</a>. Please make sure JDK 11 or above is taken into consideration as there are a few unsupported libraries below JDK 11 while setting up the dev environment.
 
 **APACHE HTTPD**<br>
 
-You can install the HTTPd service from this link - https://www.apachelounge.com/download/  and once you have unzipped it, you can navigate to **Apache 24 > bin** and see the httpd.exe file. 
+You can install the HTTPd service from this link -  <a href="https://www.apachelounge.com/download/" rel="nofollow">https://www.apachelounge.com/download/</a> and once you have unzipped it, you can navigate to **Apache 24 > bin** and see the httpd.exe file. 
 
 Since we need to install HTTPd as a service, we need to open the command prompt and navigate to the bin folder inside Apache 24 folder and run this command ***httpd -k install***, this will run the httpd server as a service. 
 
@@ -51,15 +51,14 @@ Since we need to install HTTPd as a service, we need to open the command prompt 
 
 To publish and install packages to and from the public npm registry or a private npm registry, you must install Node.js and the npm command line interface using either a Node version manager or a Node installer.
 
-You can install the same from this link - [Downloading and installing Node.js and npm | npm Docs](https://docs.npmjs.com/downloading-and-installing-node-js-and-npm)
+You can install the same from this link -  <a href="https://docs.npmjs.com/downloading-and-installing-node-js-and-npm" rel="nofollow">Downloading and installing Node.js and npm | npm Docs</a>
 
 **MYSQL 5.7**<br>
 
-You can set up download MySQL from this link - [MySQL :: Download MySQL Community Server (Archived Versions)](https://downloads.mysql.com/archives/community/) and set up by following this document - [MySQL 5.7: Installation Instructions (Windows) - GROK Knowledge Base](https://software.grok.lsu.edu/Article.aspx?articleid=18737)
-
+You can set up download MySQL from this link -  <a href="https://downloads.mysql.com/archives/community/" rel="nofollow">MySQL :: Download MySQL Community Server (Archived Versions)</a> and set up by following this document -  <a href="https://software.grok.lsu.edu/Article.aspx?articleid=18737" rel="nofollow">MySQL 5.7: Installation Instructions (Windows) - GROK Knowledge Base</a>
 
 ## **Setup Steps**
-- Download the source from GitHub: git clone https://github.com/Testsigmahq/testsigma and place it on your system. The downloaded source will have the below folders.
+- Download the source from GitHub: git clone <a href="https://github.com/Testsigmahq/testsigma" rel="nofollow">https://github.com/Testsigmahq/testsigma</a> and place it on your system. The downloaded source will have the below folders.
     - agent
    - agent-launcher
     - Automator
@@ -90,7 +89,7 @@ You can set up download MySQL from this link - [MySQL :: Download MySQL Communit
 
 ## **Downloading Required Tools**
 1. Create a folder with the name **testsigma_os**.
-2. Download the ANDROID, APPIUM, DRIVERS, and IOS tools from this [URL](https://github.com/testsigmahq/testsigma/releases) and store them in the above folder created. Make sure you extract the zip and place the contents in the folder created. 
+2. Download the ANDROID, APPIUM, DRIVERS, and IOS tools from this <a href="https://github.com/testsigmahq/testsigma/releases" rel="nofollow">URL</a> and store them in the above folder created. Make sure you extract the zip and place the contents in the folder created. 
 
 Also, if you have already downloaded the Testsigma Agent, you can copy Android, Appium, drivers, and iOS and put the same on testsigma_os.
 
@@ -186,8 +185,10 @@ Once the three components are set up as service, you can run them one by one as 
 The final step is to navigate to ```%WinDir%\System32\Drivers\Etc``` and add ```127.0.0.1       localhost devos.testsigma.com```
 ![Mapping URL](https://s3.amazonaws.com/static-docs.testsigma.com/new_images/projects/applications/mappingurl.png)
 
-Once this is done, you can save the host file and navigate to https://devos.testsigma.com/ui and see the below screen:
+Once this is done, you can save the host file and navigate to <a href="https://devos.testsigma.com/ui" rel="nofollow">https://devos.testsigma.com/ui</a> and see the below screen:
 ![Access Testsigma](https://s3.amazonaws.com/static-docs.testsigma.com/new_images/projects/applications/testsigma.png)
 
 [[info | **NOTE**:]]
 | For **Windows and IntelliJ Community Edition**, the pre-requisites remain the same. You can follow the steps provided in **macOS and IntelliJ Community Edition** for the setup.
+
+---

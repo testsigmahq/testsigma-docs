@@ -27,7 +27,7 @@ Microsoft Azure, aka Azure, is a cloud computing service created by Microsoft fo
 > 
 > Before you begin, ensure that you have referred to:
 > 1. [Documentation on generating API keys](https://testsigma.com/docs/configuration/api-keys/).
-> 2. [Documentation on getting test plan ID](https://docs.testsigma.com/images/azure-devops/get-test-plan-id.png).
+> 2. <a href="https://docs.testsigma.com/images/azure-devops/get-test-plan-id.png" rel="nofollow">Documentation on getting test plan ID</a>.
 
 ---
 ## **How to integrate with Azure DevOps**

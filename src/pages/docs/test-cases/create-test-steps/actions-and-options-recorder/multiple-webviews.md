@@ -72,14 +72,14 @@ While creating the Execution Configuration for iOS, we need to provide some extr
 **OS Version:** Select the iOS version in the Test Device.
 
 **Appium URL:** Enter the Appium URL you started the server with. If you used the default configuration, the URL would be:
-http://0.0.0.0:4723/wd/hub
+**<a href="http://0.0.0.0:4723/wd/hub" rel="nofollow">http://0.0.0.0:4723/wd/hub</a>**
 
 **Device Name:** Enter the serial number of the iOS Device.
 
 **UDID:** Enter the unique device identifier UDID code for your iOS device. Here's a guide to finding your UDID using Itunes App on your Mac - WhatsmyUDID
 
 **BundleID:** Use this option if the app has already been installed on the Test iOS device (Recommended).
-- **BundleID:** BundleID is the unique identifier of an iOS App. Here's a guide to finding your App BundleID - [Finding the App Bundle ID](https://pspdfkit.com/guides/ios/faq/finding-the-app-bundle-id/)
+- **BundleID:** BundleID is the unique identifier of an iOS App. Here's a guide to finding your App BundleID - **<a href="https://pspdfkit.com/guides/ios/faq/finding-the-app-bundle-id/" rel="nofollow">Finding the App Bundle ID</a>** 
 
 **App Path:** Use this option if the app to be tested is located on the Mac and you want to avoid installing it on the test device.
 - **Use IPA:** Specify the local Mac machine's path to the IPA file.

@@ -34,8 +34,8 @@ WebDriverAgent (WDA) plays an important role in automating iOS tests. It bridges
 
 ## **Steps to Create WDA File**
 
-1. Download from [Appium Github](https://github.com/appium/WebDriverAgent). 
-
+1. Download from <a href="https://github.com/appium/WebDriverAgent" rel="nofollow">Appium Github</a>. 
+   
 2. Open **WDA Xcode Project** in **Xcode**. 
 
    ![Xcode Project](https://s3.amazonaws.com/static-docs.testsigma.com/new_images/projects/applications/repimgwda.png)

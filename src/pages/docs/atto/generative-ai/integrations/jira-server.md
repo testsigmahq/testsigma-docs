@@ -53,13 +53,13 @@ You can integrate Testsigma with Jira Server or Data Center to simplify issue tr
 
 **Examples:**
 
-  - https://jira.yourcompany.com
-  - https://your-domain.atlassian.net (for Jira Cloud, though this setup is mainly for Server/Data Center)
-  - http://192.168.1.100:8080 (for internal/local instances)
+  - <a href="https://jira.yourcompany.com" rel="nofollow">https://jira.yourcompany.com</a>
+  - <a href="https://your-domain.atlassian.net" rel="nofollow">https://your-domain.atlassian.net</a> (for Jira Cloud, though this setup is mainly for Server/Data Center)
+  - <a href="http://192.168.1.100:8080" rel="nofollow">http://192.168.1.100:8080</a> (for internal/local instances)
 
 ![Server URL](https://s3.amazonaws.com/static-docs.testsigma.com/new_images/projects/integration/Jira_Server_3.png)
 
-2. In the **Username / Email** field, enter your Jira account credentials.
+1. In the **Username / Email** field, enter your Jira account credentials.
 
 **Example:**
 

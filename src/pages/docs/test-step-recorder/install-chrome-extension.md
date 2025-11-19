@@ -28,7 +28,7 @@ With Testsigma's Chrome extension, users can quickly record test steps by captur
 
 ## **Steps to Install Chrome Extension**
 
-1. Go to <a href="https://chrome.google.com/webstore/detail/testsigma-recorder/epmomlhdjfgdobefcpocockpjihaabdp" target="_blank">Testsigma Recorder</a>
+1. Go to <a href="https://chrome.google.com/webstore/detail/testsigma-recorder/epmomlhdjfgdobefcpocockpjihaabdp" rel="nofollow">Testsigma Recorder</a>.
 
 2. Click on **Add to Chrome**.
    ![Add to Chrome](https://s3.amazonaws.com/static-docs.testsigma.com/new_images/projects/applications/tsceatc.png)

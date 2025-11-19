@@ -52,11 +52,11 @@ Testsigma also integrates seamlessly with tools like Jira, Figma, Xray, GitHub, 
 
 ## **Testsigma Copiot Capabilities**
 
-- [Copilot in Web Recorder](http://testsigma.com/docs/atto/generative-ai/copilot/web-recorder/)
+- <a href="http://testsigma.com/docs/atto/generative-ai/copilot/web-recorder/" rel="nofollow">Copilot in Web Recorder</a>
 
-- [Copilot in Mobile Recorder](http://testsigma.com/docs/atto/generative-ai/copilot/mobile-recorder/)
+- <a href="http://testsigma.com/docs/atto/generative-ai/copilot/mobile-recorder/" rel="nofollow">Copilot in Mobile Recorder</a>
 
-- [Copilot in Live Editor](http://testsigma.com/docs/atto/generative-ai/copilot/live-editor/)
+- <a href="http://testsigma.com/docs/atto/generative-ai/copilot/live-editor/" rel="nofollow">Copilot in Live Editor</a>
 
 ----
 
@@ -85,16 +85,15 @@ Testsigma also integrates seamlessly with tools like Jira, Figma, Xray, GitHub, 
 
 ## **Integrations**
 
-- [Jira](http://testsigma.com/docs/atto/generative-ai/integrations/jira/)
+- <a href="http://testsigma.com/docs/atto/generative-ai/integrations/jira/" rel="nofollow">Jira</a>
 
-- [Figma](http://testsigma.com/docs/atto/generative-ai/integrations/figma/)
+- <a href="http://testsigma.com/docs/atto/generative-ai/integrations/figma/" rel="nofollow">Figma</a>
 
-- [Xray](http://testsigma.com/docs/atto/generative-ai/integrations/xray/)
+- <a href="http://testsigma.com/docs/atto/generative-ai/integrations/xray/" rel="nofollow">Xray</a>
 
-- [qTest](http://testsigma.com/docs/atto/generative-ai/integrations/qtest/)
+- <a href="http://testsigma.com/docs/atto/generative-ai/integrations/qtest/" rel="nofollow">qTest</a>
 
-- [GitHub](http://testsigma.com/docs/atto/generative-ai/integrations/github/)
-
+- <a href="http://testsigma.com/docs/atto/generative-ai/integrations/github/" rel="nofollow">GitHub</a>
 
 ---
 

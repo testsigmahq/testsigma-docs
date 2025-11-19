@@ -121,10 +121,6 @@ As soon as you click on create pipeline the run will be triggered:
 That's all we need to automate Test Execution when a successful build is triggered using the AWS DevOps.
 
 
-Source: [https://docs.aws.amazon.com/codepipeline/index.html](https://docs.aws.amazon.com/codepipeline/index.html)
+Source: <a href="https://docs.aws.amazon.com/codepipeline/index.html" rel="nofollow">https://docs.aws.amazon.com/codepipeline/index.html</a>
 
-
-
-
- 
 ---

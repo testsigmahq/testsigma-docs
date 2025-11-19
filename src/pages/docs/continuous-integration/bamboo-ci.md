@@ -27,8 +27,8 @@ Bamboo is a continuous integration and delivery tool that ties automated builds,
 >    - You need **Testsigma Test Plan Run - Bamboo Plugin**. 
 >    - You can install the **Testsigma Test Plan Run** plugin from the Bamboo Plugins page in your Bamboo Installation. You need to go to **Bamboo administration settings > Manage apps > Find new apps** and search for **Testsigma Test Plan Runner** in the search box to install it.
 
-You can also get it from [Testsigma Bamboo Plugin direct link](https://marketplace.atlassian.com/apps/1223253/testsigma-test-plan-runner?hosting=server&tab=installation)
- 
+You can also get it from <a href="https://marketplace.atlassian.com/apps/1223253/testsigma-test-plan-runner?hosting=server&tab=installation" rel="nofollow">Testsigma Bamboo Plugin direct link</a>
+
 ---
 
 ## **Steps to follow:**

@@ -16,7 +16,7 @@ Testsigma leverages developer application model files (TSRx) for the application
 You can create an object repository (TSR) file for any Window based application using UFT One and learn the objects within the application. Once you have captured all the objects required for creating tests, convert these object repositories files (TSR) into TSRx file and import the newly created TSRx file into the Testsigma application. 
 
 
-ℹ️ For more information on how to capture Window based objects, refer to [object model](https://admhelp.microfocus.com/uft/en/23.4-24.2/UFT_Help/Content/User_Guide/z_Ch_TestObjModel.htm) and [object spy](https://admhelp.microfocus.com/uft/en/23.4-24.2/UFT_Help/Content/User_Guide/Spy.htm). 
+ℹ️ For more information on how to capture Window based objects, refer to <a href="https://admhelp.microfocus.com/uft/en/23.4-24.2/UFT_Help/Content/User_Guide/z_Ch_TestObjModel.htm" rel="nofollow">object model</a> and <a href="https://admhelp.microfocus.com/uft/en/23.4-24.2/UFT_Help/Content/User_Guide/Spy.htm" rel="nofollow">object spy</a>. 
 
 
 For more information on converting TSR to TSX, refer to the [documentation on converting TSR to TSX](https://testsigma.com/docs/windows-automation/tsr-tsrx-files/) to learn how to convert TSR to TSRx!

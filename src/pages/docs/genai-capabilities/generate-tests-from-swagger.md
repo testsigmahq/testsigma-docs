@@ -28,7 +28,7 @@ With Testsigma, you can now generate API test cases effortlessly by importing Sw
 > Before you begin, enable AI Features from **Settings > Preferences > Generative AI features**, and have a **Swagger JSON file** with tags arranged for endpoints.
 
 
-📥 Click [here](https://s3.amazonaws.com/static-docs.testsigma.com/new_images/projects/applications/Sample_Swagger_File.json) to download a sample **Swagger JSON** file.
+📥 Click <a href="https://s3.amazonaws.com/static-docs.testsigma.com/new_images/projects/applications/Sample_Swagger_File.json" rel="nofollow">here</a> to download a sample **Swagger JSON** file.
 
 
 ---

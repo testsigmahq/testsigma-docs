@@ -65,7 +65,7 @@ The built-in **xsltproc** utility can be used to transform the JUnit XML file to
 
 ### **Windows**
 
-The Windows method is more complex than the Unix method since the 'xsltproc' utility is not available in Windows. We will be using a Powershell Script in this case. This [git repo](https://github.com/renjujose-testsigma/Xml2HtmlPlugin) contains all the details regarding that.
+The Windows method is more complex than the Unix method since the 'xsltproc' utility is not available in Windows. We will be using a Powershell Script in this case. This <a href="https://github.com/renjujose-testsigma/Xml2HtmlPlugin" rel="nofollow">git repo</a> contains all the details regarding that.
 
 ---
 

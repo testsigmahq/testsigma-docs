@@ -28,8 +28,10 @@ Testsigma allows you to seamlessly test your applications on local iOS devices a
 > <p id="prerequisites">Prerequisites</p>
 > 
 > Before you begin, ensure that:
-> 1. You have a valid [Apple Developer account](https://developer.apple.com/account) 
-> 2. You have referred to the [documentation on installing Testsigma Agent](https://testsigma.com/docs/agent/setup-on-windows-mac-linux/) on your local machine.
+> 1. You have a valid <a href="https://developer.apple.com/account" rel="nofollow">Apple Developer account</a>.
+> 2. You have referred to the <a href="https://testsigma.com/docs/agent/setup-on-windows-mac-linux/" rel="nofollow">documentation on installing Testsigma Agent</a> on your local machine.
+
+
 
 ---
 
@@ -41,7 +43,7 @@ Follow these steps to generate a Certificate Signing Request (CSR) and upload it
 2. Under the **Provisional Profile** tab, click on **Create New Profile** located in the top-right corner. ![iOS Setting in Testsigma](https://s3.amazonaws.com/static-docs.testsigma.com/new_images/projects/applications/create_new_profile_pro.png)
 3. Enter a name for the profile in the provided field.
 4. Click **Generate Request** to create a **Certificate Signing Request** (CSR), and then click **Download Request** to save the CSR file. ![Generate CSR and Download](https://s3.amazonaws.com/static-docs.testsigma.com/new_images/projects/applications/download_csr_ts.png)
-5. Visit the [Apple Developer](https://developer.apple.com/account/resources/certificates/) portal and go to the **Certificates, Identifiers & Profiles** section. ![Apple Developer Website](https://s3.amazonaws.com/static-docs.testsigma.com/new_images/projects/overview/certificate_apple.png)
+5. Visit the <a href="https://developer.apple.com/account/resources/certificates/" rel="nofollow">Apple Developer</a> portal and go to the **Certificates, Identifiers & Profiles** section. ![Apple Developer Website](https://s3.amazonaws.com/static-docs.testsigma.com/new_images/projects/overview/certificate_apple.png)
 6. Click on the **+** next to **Certificates** in the **Certificates** section, select **iOS App Development**. Click **Continue**. ![Select iOS App Developer](https://s3.amazonaws.com/static-docs.testsigma.com/new_images/projects/overview/newiosapp_continue_apple.png)
 7. After you upload the **CSR** file downloaded from **Testsigma**, click **Continue**. ![Upload CSR file](https://s3.amazonaws.com/static-docs.testsigma.com/new_images/projects/overview/uploadcsr_continue_apple.png)
 8. Click **Download** in the top-right corner to download the certificate file from the Apple Developer Portal. ![Download Certificate from Apple](https://s3.amazonaws.com/static-docs.testsigma.com/new_images/projects/overview/download_certificate_apple.png) 

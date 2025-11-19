@@ -27,7 +27,7 @@ Adding parameters in RESTful API Testing is the process of sending data to a ser
 
 ## **Send a Query Parameter**
 
-1. Add **parameterized** URL path directly in the **URL** field, as shown below. It will automatically update **key**-**value** fields. For example, in the request, <br>https://jsonplaceholder.typicode.com/?name=Joel&type=abcxyz@mail.com. ![Adding URL in Parameter](https://s3.amazonaws.com/static-docs.testsigma.com/new_images/projects/overview/parametersurl_restapi.gif)
+1. Add **parameterized** URL path directly in the **URL** field, as shown below. It will automatically update **key**-**value** fields. For example, in the request, <br>. <a href="https://jsonplaceholder.typicode.com/?name=Joel&type=abcxyz@mail.com" rel="nofollow">https://jsonplaceholder.typicode.com/?name=Joel&type=abcxyz@mail.com</a>.[Adding URL in Parameter](https://s3.amazonaws.com/static-docs.testsigma.com/new_images/projects/overview/parametersurl_restapi.gif)
 
 2. Open the **Parameters** and enter the **key** and **value**. Value fields can be replaced with **test data types**, as shown below. Enter page key field and 2 in the value field, for example.
 ![Adding Test data type in Value](https://s3.amazonaws.com/static-docs.testsigma.com/new_images/projects/overview/parameters_testdata_restapi.gif)

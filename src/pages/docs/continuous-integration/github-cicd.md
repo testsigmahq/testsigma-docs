@@ -23,7 +23,7 @@ When you want to automate, customize, and, execute your software development wor
 > <p id="prerequisites">Prerequisites</p>
 >
 > Before you begin, ensure that you have referred to:
-> 1. [Documentation on quickstarting with github actions](https://docs.github.com/en/actions/quickstart).
+> 1. <a href="https://docs.github.com/en/actions/quickstart" rel="nofollow">Documentation on quickstarting with github actions</a>.
 > 2. [Documentation on generating an API keys](https://testsigma.com/docs/configuration/api-keys/).
 > 3. [Documentation on getting Test Plan ID](https://testsigma.com/docs/continuous-integration/get-test-plan-details/). 
 
@@ -45,7 +45,7 @@ In this yml file, we have given a build step to trigger/run a Test Plan created 
 
 ![build step in yml file](https://s3.amazonaws.com/static-docs.testsigma.com/new_images/continuous-integration/github-cicd/build-step-in-yml-file.png)
 
-As you can see we are invoking the bash script contained in the file ***run_smoke_tests.sh***. You can get a copy of this ***run_smoke_tests.sh*** file here: [run_smoke_tests.sh](https://github.com/testsigmahq/Github-actions/blob/main/testsigma/run_smoke_tests.sh)
+As you can see we are invoking the bash script contained in the file ***run_smoke_tests.sh***. You can get a copy of this ***run_smoke_tests.sh*** file here: <a href="https://github.com/testsigmahq/Github-actions/blob/main/testsigma/run_smoke_tests.sh" rel="nofollow">run_smoke_tests.sh</a>
 
 [[info | Note:]]
 |Refer https://testsigma.com/docs/continuous-integration/shell-script/ for a shell script to run/trigger Test plans in Testsigma.
@@ -55,7 +55,6 @@ The key "TESTSIGMA_API_KEY" in the script needs to be provided the API Key value
 
 ![test plan API key and other parameters in Testsigma](https://s3.amazonaws.com/static-docs.testsigma.com/new_images/continuous-integration/github-cicd/test-plan-api-key-testsigma.png)
 
-[Repo used to create this document](https://github.com/testsigmahq/Github-actions)
-
+<a href="https://github.com/testsigmahq/Github-actions" rel="nofollow">Repo used to create this document</a>
 
 ---

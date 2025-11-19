@@ -93,7 +93,7 @@ Here's an interactive demo:
 
 ## **Create and Configure Okta**
 
-1. Log in to the [Okta Admin Console](https://www.okta.com/login).
+1. Log in to the <a href="https://www.okta.com/login" rel="nofollow">Okta Admin Console</a>. 
 [[info | NOTE:]]
 | Check with your IT team before proceeding, as they may have exclusive admin access to the IdP configuration.
 1. In the **Admin** Console, under **Applications**, click **Create App Integration**. Choose **SAML 2.0** and click **Next**.
@@ -101,9 +101,9 @@ Here's an interactive demo:
     - **App Name**: Enter Application name, example **Testsigma**:
     - **App Logo and Visibility**: Upload the app logo if preferred. ![general okta settings](https://s3.amazonaws.com/static-docs.testsigma.com/new_images/projects/applications/okta_general_settings.gif)
 3. Configure **SAML Settings** and click **Next** to proceed:
-    - **Single Sign-On URL**: https://app.testsigma.com/saml/250/callback
-    - **Audience URI (SP Entity ID)**: https://app.testsigma.com/saml/250/metadata
-    - **Default RelayState**: https://app.testsigma.com/ui/dashboard
+    - **Single Sign-On URL**: <a href="https://app.testsigma.com/saml/250/callback" rel="nofollow">https://app.testsigma.com/saml/250/callback</a>
+    - **Audience URI (SP Entity ID)**: <a href="https://app.testsigma.com/saml/250/metadata" rel="nofollow">https://app.testsigma.com/saml/250/metadata</a>
+    - **Default RelayState**: <a href="https://app.testsigma.com/ui/dashboard " rel="nofollow">https://app.testsigma.com/ui/dashboard</a>
     - **Name ID Format**: Select EmailAddress from dropdown.
     - **Application Username**: Okta username (default)
     - **Update Application Username On**: Create and update (default)

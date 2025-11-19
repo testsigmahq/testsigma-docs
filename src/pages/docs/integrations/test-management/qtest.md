@@ -59,7 +59,7 @@ qTest is a manual test management tool. With qTest integration in Testsigma, you
    ![Save qTest Details](https://s3.amazonaws.com/static-docs.testsigma.com/new_images/projects/applications/qTest_Details_Save.png)
 
 [[info | **NOTE**:]]
-| 1.  You must obtain the **Bearer Token** from the **Download qTest Resources** page. *For more information, see [qTest Documentation](https://documentation.tricentis.com/qtest/od/en/content/overview/download_qtest_resources_page.htm).*
+| 1.  You must obtain the **Bearer Token** from the **Download qTest Resources** page. *For more information, see <a href="https://documentation.tricentis.com/qtest/od/en/content/overview/download_qtest_resources_page.htm" rel="nofollow">qTest Documentation</a>.*
 | ![Bearer Token](https://s3.amazonaws.com/static-docs.testsigma.com/new_images/projects/applications/qTest_BearerToken.png)
 | 2. Please copy the token except **Bearer**. 
 
@@ -88,7 +88,7 @@ qTest is a manual test management tool. With qTest integration in Testsigma, you
 
 ## **qTest Automation Settings**
 
-In **qTest**, activate **Automation Integration** and map automation statuses accordingly. For more info, see [Automation Settings](https://documentation.tricentis.com/qtest/od/en/content/manager/settings/automation_settings.htm).
+In **qTest**, activate **Automation Integration** and map automation statuses accordingly. For more info, see <a href="https://documentation.tricentis.com/qtest/od/en/content/manager/settings/automation_settings.htm" rel="nofollow">Automation Settings</a>.
 
 ### **Automation Status Mapping**
 
@@ -154,8 +154,7 @@ Make sure that the above mentioned statuses are correctly mapped within **qTest*
 
 ## **Trigger qTest Test Plans Using APIs**
 
-You can also trigger qTest test plans using APIs. Click [here](https://s3.amazonaws.com/static-docs.testsigma.com/new_images/projects/applications/TR_QT.postman_collection.json.zip) to download the Postman collection.
-
+You can also trigger qTest test plans using APIs. Click <a href="https://s3.amazonaws.com/static-docs.testsigma.com/new_images/projects/applications/TR_QT.postman_collection.json.zip" rel="nofollow">here</a> to download the Postman collection.
 
 **a. Authorization:** Bearer Token (copied from [Settings > API](https://testsigma.com/docs/configuration/api-keys/) Keys in Testsigma).
 

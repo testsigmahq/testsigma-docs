@@ -50,7 +50,7 @@ To kill a previous version of Testsigma running on these ports, run the followin
 ## **Unable to access Testsigma**
 
 * You may need to wait for up to 3 minutes before accessing the application to allow Nginx to start.
-* Try accessing the https://local.testsigmaos.com/ui after 3 minutes.
+* Try accessing the <a href="https://local.testsigmaos.com/ui" rel="nofollow">https://local.testsigmaos.com/ui</a> after 3 minutes.
 
 <br>
 
@@ -58,7 +58,7 @@ To kill a previous version of Testsigma running on these ports, run the followin
 
 ## **Unable to start Docker Desktop [ Windows ]**
 
-If the docker instance is failing to start due to issues related to wsl, try executing the following command to install wsl or follow this [link](https://docs.docker.com/desktop/windows/wsl/) for other options.
+If the docker instance is failing to start due to issues related to wsl, try executing the following command to install wsl or follow this <a href="https://docs.docker.com/desktop/windows/wsl/" rel="nofollow">link</a> for other options.
 
 ```wsl --install -d ubuntu```
 
