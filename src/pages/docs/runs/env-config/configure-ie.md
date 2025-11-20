@@ -35,4 +35,6 @@ For 64-bit Windows installations, the key is -  HKEY_LOCAL_MACHINE\SOFTWARE\Wow6
 [[info | Note:]]
 |Please note that the ‘FEATURE_BFCACHE’ subkey may or may not be present, and should be created if it is not present.<br>
 |**Important:** Inside this key, create a ‘DWORD’ value named iexplore.exe with the value of 0.<br>
-|Reference: [Selenium Wiki - InternetExplorerDriver](https://github.com/SeleniumHQ/selenium/wiki/InternetExplorerDriver#required-configuration)
+|Reference: <a href="https://github.com/SeleniumHQ/selenium/wiki/InternetExplorerDriver#required-configuration" rel="nofollow">Selenium Wiki - InternetExplorerDriver</a>
+
+---

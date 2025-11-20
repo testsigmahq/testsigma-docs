@@ -87,8 +87,9 @@ The following list categorises the available default test data generators.
 |MailBoxFunctions|getEmailSubject|Store the subject of the email into a variable by fetching it|<li>Runtime Variable</li><li>Timeout in seconds</li>*e.g. Runtime Variable - content, Timeout - 45*|
 |MailBoxFunctions|urlWithText|Fetches the URL of the Element containing the provided text|<li>Text</li><li>Runtime Variable</li><li>Timeout in seconds</li>*e.g. Text - randomtext, Runtime Variable - url, Timeout - 30*|
 |MailBoxFunctions|urlWhichContains|Fetch the URL that contains some required parameters.|<li>Substring</li><li>Runtime Variable</li><li>Timeout in seconds</li>*e.g. Substring - example, Runtime Variable - random_text, Timeout - 15*|
-|MailBoxFunctions|urlMatchingRegex|Retrieve the URL that matches the required regular expression|<li>Regex</li><li>Runtime Variable</li><li>Timeout in seconds</li>*e.g. Regex - r'https://\w+\.com/\w+', Runtime Variable - path, Timeout - 30*|
+|MailBoxFunctions|urlMatchingRegex|Retrieve the URL that matches the required regular expression|<li>Regex</li><li>Runtime Variable</li><li>Timeout in seconds</li>*e.g. Regex - r'<a href="https://\w+\.com/\w+" rel="nofollow">https://\w+\.com/\w+</a>', Runtime Variable - path, Timeout - 30*|
 |Email|mailbox||Input's not required|
+
 
 ---
 
@@ -102,7 +103,7 @@ The following list categorises the available default test data generators.
 |MailBoxAliasFunctions|getOTP|Fetch OTP from the email|<li>Regex</li><li>Runtime Variable</li><li>Timeout in seconds</li>*e.g. Regex - \d{4,6}, Runtime Variable - otp, Timeout - 60*|
 |MailBoxAliasFunctions|urlWithText|Fetch the URL that contains some required text|<li>Text</li><li>Runtime Variable</li><li>Timeout in seconds</li>*e.g. Text - randomtext, Runtime Variable - url, Timeout - 30*|
 |MailBoxAliasFunctions|urlWhichContains|Fetch the URL that contains some required parameters|<li>Substring</li><li>Runtime Variable</li><li>Timeout in seconds</li>*e.g. Substring - example, Runtime Variable - random_text, Timeout - 15*|
-|MailBoxAliasFunctions|urlMatchingRegex|Fetch the URL that contains a URL matching the required regular expression|<li>Regex</li><li>Runtime Variable</li><li>Timeout in seconds</li>*e.g. Regex - r'https://\w+\.com/\w+', Runtime Variable - path, Timeout - 30*|
+|MailBoxAliasFunctions|urlMatchingRegex|Fetch the URL that contains a URL matching the required regular expression|<li>Regex</li><li>Runtime Variable</li><li>Timeout in seconds</li>*e.g. Regex - r'<a href="https://\w+\.com/\w+" rel="nofollow">https://\w+\.com/\w+</a>', Runtime Variable - path, Timeout - 30*|
 
 ---
 
@@ -285,6 +286,6 @@ The following list categorises the available default test data generators.
 
 [[info | NOTE:]]
 | - You can create your own Data Generator and customise the actions according to your preference. For more information on creating test data generators using addons, refer to the [documentation on creating test data generators using addons](https://testsigma.com/tutorials/addons/how-create-addons-test-data-generators/)
-| - For some Data Generators, Regex is used to find a sequence of characters that specifies a search pattern in the text; if you're unfamiliar, refer to the [documentation on regex guide - MDN docs](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Guide/Regular_Expressions).
+| - For some Data Generators, Regex is used to find a sequence of characters that specifies a search pattern in the text; if you're unfamiliar, refer to the <a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript/Guide/Regular_Expressions" rel="nofollow">documentation on regex guide - MDN docs</a>. 
 
 ---

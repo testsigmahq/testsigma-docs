@@ -63,7 +63,7 @@ Follow these steps to run the partial test plan via API call:
 
 |Request Type|POST|
 |---|---|
-|**Endpoint**|https://app.testsigma.com/api/v1/execution_results|
+|**Endpoint**|<a href="https://app.testsigma.com/api/v1/execution_results" rel="nofollow">https://app.testsigma.com/api/v1/execution_results</a>| 
 |**Authorization**|Bearer Token &#8594 **<API_Token>**<br>Same as the Testsigma API key mentioned above.|
 |**Request Body Type (JSON)**|Raw|
 |**Payload**|{<br>&emsp;&emsp;"executionId": "3857",<br>&emsp;&emsp;"executionConfig": {<br>&emsp;&emsp;&emsp;&emsp;"name": "fav\_config\_name"<br>&emsp;&emsp;}<br>}|
@@ -97,7 +97,7 @@ Follow these steps to schedule a partial test run via API call.
 
 |Request Type|POST|
 |---|---|
-|**Endpoint**|https://app.testsigma.com/api/v1/schedule_executions|
+|**Endpoint**|<a href="https://app.testsigma.com/api/v1/schedule_executions" rel="nofollow">https://app.testsigma.com/api/v1/schedule_executions</a>| 
 |**Authorization**|Bearer Token &#8594 **<API_Token>**<br>Same as the Testsigma API key mentioned above.|
 |**Request Body Type (JSON)**|Raw|
 |**Payload**|{<br>&emsp;&emsp;&emsp;&emsp;"name": "RandomTest3",<br>&emsp;&emsp;&emsp;&emsp;"executionId": 3857,<br>&emsp;&emsp;&emsp;&emsp;"scheduleType": "ONCE",<br>&emsp;&emsp;&emsp;&emsp;"status": "ACTIVE",<br>&emsp;&emsp;&emsp;&emsp;"nextInterval": "2023-06-01T17:30:00.000Z",<br>&emsp;&emsp;&emsp;&emsp;"executionConfig": {<br>&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;"name": "fav\_config\_name"<br>&emsp;&emsp;&emsp;&emsp;},<br>&emsp;&emsp;&emsp;&emsp;"timezone": "IST"<br>}|

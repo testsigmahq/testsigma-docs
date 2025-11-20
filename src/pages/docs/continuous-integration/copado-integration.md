@@ -53,7 +53,7 @@ Testsigma Copado integration allows you to trigger test plan execution every tim
     ![Options](https://s3.amazonaws.com/static-docs.testsigma.com/new_images/projects/applications/Options_Type.png)
     Here, we are selecting the second option. 
 * In the Method, select **POST**.
-* In the URL, enter the REST API call given in the **cURL**. For example, https://app.testsigma.com/api/v1/execution_results.
+* In the URL, enter the REST API call given in the **cURL**. For example, <a href="https://app.testsigma.com/api/v1/execution_results" rel="nofollow">https://app.testsigma.com/api/v1/execution_results</a>.
   ![CURL](https://s3.amazonaws.com/static-docs.testsigma.com/new_images/projects/applications/Curl_Copado.png)
   You can also find the execution ID in the cURL response.
 * Add the following headers:

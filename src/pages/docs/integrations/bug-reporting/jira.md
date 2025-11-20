@@ -43,7 +43,7 @@ You can integrate Testsigma with Jira to push bugs directly to Jira's project. Y
 
 3. On the **Jira Details** prompt, enter the following and click **Save & Enable**. 
 
-   - **Account URL:** https://(organizationname).atlassian.net/ 
+   - **Account URL:** <a href="https://(organizationname).atlassian.net/" rel="nofollow">https://(organizationname).atlassian.net/</a>
    - **User Name:** Please enter your email ID.
    - **API Key:** Paste the token you generated from your Jira account.
  

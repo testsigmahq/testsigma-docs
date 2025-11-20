@@ -63,7 +63,7 @@ Use the following Endpoint to create Dynamic Agents with Private Grid configurat
 
 |**Request Type**|**POST**|
 |---|---|
-|**Endpoint**| https://app.testsigma.com/api/v1/agents |
+|**Endpoint**|  <a href="https://app.testsigma.com/api/v1/agents" rel="nofollow">https://app.testsigma.com/api/v1/agents</a> |
 |**Authorization**| Bearer **<API\_Token>**<br>Same as the Testsigma API key mentioned above.|
 |**Request Body Type (JSON)**| Raw |
 |**Payload**|<pre>{<br>    "name": "&lt;Unique Agent Name&gt;",<br>    "agentType": "TRANSIENT",<br>    "externalConfig": {<br>        "url": "http://localhost:4444",<br>        "authenticationEnabled": true,<br>        "userName": "root",<br>        "password": "root",<br>        "type": "SELENIUM",<br>        "browserList": ["Chrome", "Safari"]<br>    }<br> }<pre>|
@@ -142,7 +142,7 @@ Use the following **Endpoint** to execute the Testsigma’s test plan in **Priva
 
 |**Request Type**|**POST**|
 |---|---|
-|**Endpoint**| https://app.testsigma.com/api/v1/execution_results |
+|**Endpoint**| <a href="https://app.testsigma.com/api/v1/execution_results" rel="nofollow">https://app.testsigma.com/api/v1/execution_results</a> |  
 |**Authorization**| Bearer **<API\_Token>**<br>Same as the Testsigma API key mentioned above.|
 |**Request Body Type (JSON)**| Raw |
 |**Payload**|<pre> {<br>   "executionId" : &lt;Test Plan Exe ID&gt;,<br>   "testDevices" : [<br>       {<br>           "title" : "Dynamic Machine",<br>           "targetMachine" : 27,<br>           "browser" : "CHROME",<br>           "executionLabType" : "Hybrid",<br>           "suiteIds" : [&lt;Suite IDs&gt;],<br>           "isHeadless" : false,<br>           "runTestSuitesInParallel": true,<br>           "runTestCasesInParallel": true,<br>           "createSessionAtCaseLevel": true<br>       }<br>   ]<br>}<br><pre>|
@@ -183,7 +183,7 @@ Here’s  a quick demonstration on executing tests through a Dynamic Agent throu
 Follow the steps below to set up ngrok on your device to fetch the Private Hub URL:
   <ul>
     <ol>
-    <li><a href="https://ngrok.com/" target="_blank">Visit ngork website</a>, create an account, go to <b>Getting Started > Setup & Installation</b>.</li>
+    <li><a href="https://ngrok.com/" rel="nofollow">Visit ngork website</a>, create an account, go to <b>Getting Started > Setup & Installation</b>.</li>
     <li>Follow the instructions on the <b>Setup & Installation</b> page to set up ngrok.</li>
     <li>Once the installation is complete, enter the command <b>ngrok http 4444</b> on the terminal.</li>
     <li>Copy the URL as shown in the image below and use this to integrate Testsigma with <b>Private Grid</b>.</li> 

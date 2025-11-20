@@ -32,7 +32,7 @@ The phone number data type is used to automate two-factor authentication (2FA) a
 > <p id="prerequisites">Prerequisites</p>
 > 
 > Before you begin, ensure that you have referred to: 
-> 1. [Documentation on regular expressions](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Guide/Regular_Expressions).
+> 1. <a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript/Guide/Regular_Expressions" rel="nofollow">Documentation on regular expressions</a>.
 
 [[info | NOTE:]]
 | - You can enable Phone Number for your account by contacting **support@testsigma.com** or using the **instant chat** option.

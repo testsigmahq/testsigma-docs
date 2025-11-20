@@ -55,7 +55,7 @@ You will have to add the mapping in the ‘hosts’ file.
 
 Once the application is up and running, you can access it using the IP address of your on-premise server and the port number specified in your docker-compose file.
 
-> For Example, the sample **docker-compose.yml** file mentions that the web service is accessible on port 80. You can access it by navigating to **http://&lt;server-ip&gt;80** in your web browser.
+> For Example, the sample **docker-compose.yml** file mentions that the web service is accessible on port 80. You can access it by navigating to **<a href="http://&lt;server-ip&gt;80" rel="nofollow">http://&lt;server-ip&gt;80</a>** in your web browser. 
 
 ---
 

@@ -44,7 +44,7 @@ In terminal, login to docker hub using following details: <br>
 **Access Token:** dckr\_pat\_CFLXvWlwUkrfIJj1d6lpeRPLh5o <br>
 
 [[info | **NOTE**:]]
-| a. If you see any issue, refer to the following link: https://docs.docker.com/desktop/get-started/#credentials-management-for-linux-users <br>
+| a. If you see any issue, refer to the following link: <a href="https://docs.docker.com/desktop/get-started/#credentials-management-for-linux-users" rel="nofollow">https://docs.docker.com/desktop/get-started/#credentials-management-for-linux-users</a> <br>
 | b. Any issues with gpg password store, restart gpg-agent using below 2 commands:
 |```
 |gpgconf --kill gpg-agent 
@@ -63,12 +63,12 @@ While running docker-compose up if you see below error, issue is with the instal
 Remove existing docker-compose and re-install specific versions. 
 
 [[info | **References**:]]
-|- https://docs.privacera.com/latest/platform/pm-ig/install_docker_and_docker_compose_azure_ubuntu/
-|- https://stackoverflow.com/questions/42139982/version-in-docker-compose-yml-is-unsupported-you-might-be-seeing-this-error
+|- <a href="https://docs.privacera.com/latest/platform/pm-ig/install_docker_and_docker_compose_azure_ubuntu/" rel="nofollow">https://docs.privacera.com/latest/platform/pm-ig/install_docker_and_docker_compose_azure_ubuntu/</a>
+|- <a href="https://stackoverflow.com/questions/42139982/version-in-docker-compose-yml-is-unsupported-you-might-be-seeing-this-error" rel="nofollow">https://stackoverflow.com/questions/42139982/version-in-docker-compose-yml-is-unsupported-you-might-be-seeing-this-error</a>
 
 
 [[info | **NOTE**:]]
-|You can also get the specific URL from github docker-compose releases (https://github.com/docker/compose/releases).
+|You can also get the specific URL from github docker-compose releases (<a href="https://github.com/docker/compose/releases" rel="nofollow">https://github.com/docker/compose/releases</a>).
 
 
 ---

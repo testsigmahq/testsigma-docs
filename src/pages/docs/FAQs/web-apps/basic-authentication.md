@@ -32,7 +32,7 @@ We can use the below format for Basic Authentication:
 
 ### **For Example:**
 
-In the NLP, Navigate to **test data**, replace the **test data** with https://admin:admin123@orangehrm.com.
+In the NLP, Navigate to **test data**, replace the **test data** with <a href="https://admin:admin123@orangehrm.com" rel="nofollow">https://admin:admin123@orangehrm.com</a>. 
 
 ![Basic Authentication](https://s3.amazonaws.com/static-docs.testsigma.com/new_images/projects/applications/bats_img.png)
 

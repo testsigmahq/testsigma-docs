@@ -30,7 +30,8 @@ contextual_links:
 
 ---
 
-For this guide, it would be recommended to get familiar with the Chrome Developer Tools and Elements Panel for finding the Elements and their attributes. For more information on getting started with viewing and changing the DOM, refer to the [documentation on getting started with viewing and changing the DOM](https://developer.chrome.com/docs/devtools/dom/).
+For this guide, it would be recommended to get familiar with the Chrome Developer Tools and Elements Panel for finding the Elements and their attributes. For more information on getting started with viewing and changing the DOM, refer to the <a href="https://developer.chrome.com/docs/devtools/dom/" rel="nofollow">documentation on getting started with viewing and changing the DOM</a>.
+
 
 Elements can be created from the attributes/properties of an HTML Element, using:
 1. Attributes of the element like id, name, placeholder
@@ -71,7 +72,7 @@ Check the below section “Get Locators value manually using Chrome Developer To
 
 ## **Get Locators value manually using Chrome Developer Tools**
 
-For demonstration, we will take the example of a simple Login button on the [OrangeHRM Login page](http://opensource.demo.orangehrmlive.com/). We will try to get the Attribute values for the Login button below:
+For demonstration, we will take the example of a simple Login button on the <a href="http://opensource.demo.orangehrmlive.com/" rel="nofollow">OrangeHRM Login page</a>. We will try to get the Attribute values for the Login button below:
 
 1. Navigate to the page in your Google Chrome Browser.
 2. Right-click on the element you want to get locator for and select Inspect Element from the popup menu. In this case, it is the Login button on the OrangeHRM login page.

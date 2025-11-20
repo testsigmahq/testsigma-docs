@@ -28,7 +28,7 @@ This endpoint allows users to create value in Test Data Profile using REST API.
 
 |**Request Type**|**PATCH**|
 |---|---|
-|**Endpoint**|https://app.testsigma.com/api/v1/test_data/48 |
+|**Endpoint**|<a href="https://app.testsigma.com/api/v1/test_data/48" rel="nofollow">https://app.testsigma.com/api/v1/test_data/48</a>| 
 |**Authorization**|Bearer **<API\_Token>**|
 |**Request Body Type (JSON)**|Raw|
 |**Request Body(JSON)**|<pre> { <br> "id": 48,<br> "testDataName": "update parameter with api call",<br> "testData": null,<br> "data": [{<br> "name": "Iteration name",<br> "expectedToFail": true,<br> "data": {<br> "Username": "bhanu",<br> "Password": "7893",<br> "User1": "bsk@450.com",<br> "User2": "1479",<br> "User3": "bhanuprakash"<br> }<br> }]<br> } <br>  <pre>|
@@ -41,7 +41,7 @@ This endpoint allows users to update the value in Test Data Profile using REST A
 
 |**Request Type**|**PATCH**|
 |---|---|
-|**Endpoint**|https://app.testsigma.com/api/v1/test_data/48 |
+|**Endpoint**|<a href="https://app.testsigma.com/api/v1/test_data/48" rel="nofollow">https://app.testsigma.com/api/v1/test_data/48</a>|
 |**Authorization**|Bearer **<API\_Token>**|
 |**Request Body Type (JSON)**|Raw|
 |**Request Body(JSON)**|<pre> {<br> "id": 48,<br> "testDataName": "update parameter with api call",<br> "testData": null,<br> "data": [{<br> "name": "Iteration name",<br> "expectedToFail": true,<br> "data": {<br> "Username": "bhanu",<br> "Password": "7893",<br> "User1": "bsk@450.com",<br> "User2": "1479",<br> "User3": "bhanuprakash"<br> }<br> }]<br> } <br>  <pre>|

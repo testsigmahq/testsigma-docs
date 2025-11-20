@@ -16,7 +16,7 @@ contextual_links:
 
 ---
 
-If your Android application is not capturing network logs or is showing invalid certificate errors, it may be due to missing proxy certificates or security configurations. As per [Android’s official documentation](https://android-developers.googleblog.com/2016/07/changes-to-trusted-certificate.html), apps do not trust user/admin added CAs by default. Certificates issued by these authorities are rejected, which prevents the app from capturing network traffic and can cause errors when using self-signed certificates. This article discusses steps to enable network logging on Android devices correctly.
+If your Android application is not capturing network logs or is showing invalid certificate errors, it may be due to missing proxy certificates or security configurations. As per <a href="https://android-developers.googleblog.com/2016/07/changes-to-trusted-certificate.html" rel="nofollow">Android’s official documentation</a>, apps do not trust user/admin added CAs by default. Certificates issued by these authorities are rejected, which prevents the app from capturing network traffic and can cause errors when using self-signed certificates. This article discusses steps to enable network logging on Android devices correctly.
 
 ---
 

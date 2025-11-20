@@ -97,7 +97,7 @@ Below are a few of the most commonly used Desired Capabilities in executions usi
 
 |Description|Capability|Data Type|Value|
 |---|---|---|---|
-|Setting the Timezone of the execution Environment|timeZone|String|Madrid<br>You can get the list of Timezone locations from here:<br>https://en.wikipedia.org/wiki/List_of_tz_database_time_zones<br><br>Use the City name without the Continent Name and replace underscores with space|
+|Setting the Timezone of the execution Environment|timeZone|String|Madrid<br>You can get the list of Timezone locations from here:<br><a href="https://en.wikipedia.org/wiki/List_of_tz_database_time_zones" rel="nofollow">https://en.wikipedia.org/wiki/List_of_tz_database_time_zones</a><br><br>Use the City name without the Continent Name and replace underscores with space| 
 |Getting Excecution Console log of each url|extendedDebugging|Boolean|True<br><br>For more details on enabling Browser Console debudding logs, refer to the<br>[documentation on enabling browser console debugging logs](https://testsigma.com/docs/desired-capabilities/enable-browser-console-logs/)|
 
 ---
@@ -119,7 +119,7 @@ Below are a few of the most commonly used Desired Capabilities in executions usi
 |Description|Capability|Data Type|Value|
 |---|---|---|---|
 |Persist App data in local Android devices across Hybrid Test sessions|noReset|boolean|true|
-|Automatically grant required app permissions based on the [Android manifest](https://developer.android.com/guide/topics/manifest/manifest-intro) during installation.|autoGrantPermissions|boolean|true|
+|Automatically grant required app permissions based on the <a href="https://developer.android.com/guide/topics/manifest/manifest-intro" rel="nofollow">Android manifest</a> during installation.|autoGrantPermissions|boolean|true| 
 
 ---
 

@@ -107,15 +107,17 @@ We can also add the **If Condition** while creating test steps using Testsigma�
 
    ![Window](https://s3.amazonaws.com/static-docs.testsigma.com/new_images/projects/applications/IfCondition_NewBrowser.png)
 
-4. Enter the URL https://simply-travel.testsigma.com/ and this will automatically open the URL record a test step in the test recorder.
+4. Enter the URL <a href="https://simply-travel.testsigma.com/ " rel="nofollow">https://simply-travel.testsigma.com/</a> and this will automatically open the URL record a test step in the test recorder.
+
+
 
    ![Recorder Window](https://s3.amazonaws.com/static-docs.testsigma.com/new_images/projects/applications/IfCondition_URLnav.png)
 
-5. Click on the option on the left side of the test step and choose **Conditional If**. This will add If Condition in your test step.
+1. Click on the option on the left side of the test step and choose **Conditional If**. This will add If Condition in your test step.
 
    ![Conditional If](https://s3.amazonaws.com/static-docs.testsigma.com/new_images/projects/applications/IfCondition_OptionLeft_Recorder.png)
 
-6. Record all the steps and click on **Stop Recording** once all steps are added.
+2. Record all the steps and click on **Stop Recording** once all steps are added.
   
    ![Done](https://s3.amazonaws.com/static-docs.testsigma.com/new_images/projects/applications/IfCondition_StopRecording.png)
 

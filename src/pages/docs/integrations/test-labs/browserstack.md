@@ -21,8 +21,7 @@ contextual_links:
 
 ---
 
-[BrowserStack Integration](https://www.browserstack.com/automate?utm_source=testsigma&utm_medium=partnered) with Testsigma lets you run your Testsigma tests on BrowserStack.
-If your organization has an existing account with BrowserStack, you can author tests for Web, Mobile Web, and Mobile applications on Testsigma, and then run those tests on BrowserStack’s cloud devices.
+<a href="https://www.browserstack.com/automate?utm_source=testsigma&utm_medium=partnered" rel="nofollow">BrowserStack Integration</a> with Testsigma lets you run your Testsigma tests on BrowserStack. If your organization has an existing account with BrowserStack, you can author tests for Web, Mobile Web, and Mobile applications on Testsigma, and then run those tests on BrowserStack’s cloud devices.
 
 ---
 

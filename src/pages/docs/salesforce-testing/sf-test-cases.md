@@ -35,8 +35,7 @@ With Testsigma, creating test cases for Salesforce is easy as we can leverage Me
 > Before you begin, ensure that you have referred to:
 > 1. [Documentation on Salesforce Connected App](https://testsigma.com/docs/salesforce-testing/connected-app/).
 > 2. [Documentation on Salesforce Metadata](https://testsigma.com/docs/salesforce-testing/metadata-connections/) connected to Testsigma.
-> 3. [Documentation on installing Testsigma Chrome Extension](https://chromewebstore.google.com/detail/testsigma-recorder/epmomlhdjfgdobefcpocockpjihaabdp) on your browser.
-
+> 3. <a href="https://chromewebstore.google.com/detail/testsigma-recorder/epmomlhdjfgdobefcpocockpjihaabdp" rel="nofollow">Documentation on installing Testsigma Chrome Extension</a> on your browser.
 
 ---
 

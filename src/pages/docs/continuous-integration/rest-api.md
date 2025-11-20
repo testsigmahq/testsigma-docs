@@ -71,7 +71,7 @@ You can execute this CURL command in your computer's command-line interface (CLI
 
 | **Request Type**  | POST                                                       |
 |-------------------|------------------------------------------------------------|
-| **Request URL**   | https://app.testsigma.com/api/v1/execution_results       |
+| **Request URL**   | <a href="https://app.testsigma.com/api/v1/execution_results" rel="nofollow">https://app.testsigma.com/api/v1/execution_results</a>       | 
 | **Authorization** | Bearer <API\_KEY>                                         |
 | **Content-type**  | application/json                                         |
 | **Accept**        | application/json                                         |
@@ -107,7 +107,7 @@ You can execute this CURL command in your computer's command-line interface (CLI
 
 | **Request Type**  | GET                                                                   |
 |-------------------|-----------------------------------------------------------------------|
-| **Request URL**   | https://app.testsigma.com/api/v1/execution_results/<RUN\_ID>         |
+| **Request URL**   | <a href="https://app.testsigma.com/api/v1/execution_results/<RUN\_ID>" rel="nofollow">https://app.testsigma.com/api/v1/execution_results/<RUN\_ID></a>         | 
 | **Authorization** | Bearer <API\_KEY>                                                    |
 | **Content-type**  | application/json                                                    |
 | **Accept**        | application/json                                                    |

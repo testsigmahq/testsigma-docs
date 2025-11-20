@@ -23,7 +23,7 @@ A Chrome extension improves the browser's capabilities. Add extensions from the 
 
 ### **Create a CRX File**
 
-1. Go to [CRX](https://robwu.nl/crxviewer/) Viewer.
+1. Go to <a href="https://robwu.nl/crxviewer/" rel="nofollow">CRX</a> Viewer.  
 
 2. Select **Open in this viewer**.
 ![Open CRX](https://s3.amazonaws.com/static-docs.testsigma.com/new_images/projects/applications/opencrx.png)

@@ -39,7 +39,7 @@ In Testsigma, you can send test plan status notifications to a specific Google C
 
 ## **Steps to Fetch Connector URL**
 
-1. Open [Google Chat](https://chat.google.com/), and select the **Chat Space** where you want to add the connector.
+1. Open <a href="https://chat.google.com/" rel="nofollow">Google Chat</a>, and select the **Chat Space** where you want to add the connector.
 
 2. Click the **Space Name**, and select **Apps & Integrations**.
    ![Apps & Integrations](https://s3.amazonaws.com/static-docs.testsigma.com/new_images/projects/applications/gchat_Integrations.png)

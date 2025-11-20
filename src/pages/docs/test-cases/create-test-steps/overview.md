@@ -59,7 +59,7 @@ In Testsigma terminology, each automated action executed by the test script is a
 4. Use NLPs to create test steps as per the test case scenario. 
    
    For example, if you’re creating test steps for the login page, your test steps will be:
-   1. Navigate to https://simply-travel.testsigma.com/
+   1. Navigate to <a href="https://simply-travel.testsigma.com/" rel="nofollow">https://simply-travel.testsigma.com/</a>
    2. Click on **Login or Sign Up**
    3. Click on **Login**
    4. Enter <**email**> in the <**email address**> field

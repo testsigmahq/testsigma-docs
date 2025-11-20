@@ -36,7 +36,7 @@ With Figma integrated into Testsigma, you can generate test cases directly from 
 
 3. In the address bar, locate the URL in the following format:
    
-      > https://www.figma.com/files/team/{TEAM_ID}/your-team-name
+      > <a href="https://www.figma.com/files/team/{TEAM_ID}/your-team-name" rel="nofollow">https://www.figma.com/files/team/{TEAM_ID}/your-team-name</a>
       >
       > The **{TEAM_ID}** in the URL is your Figma Team ID.
    

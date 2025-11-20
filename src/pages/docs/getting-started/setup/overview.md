@@ -46,11 +46,11 @@ Testsigma Community Edition (CE) is an open-source platform that you can install
 
 ## **Getting help**
 
-If you face any problems or issues when installing Testsigma on any platform, reach out to us at <a href="mailto:support@testsigma.com">support@testsigma.com</a> or join our [discord derver](https://discord.com/invite/5caWS7R6QX).
+If you face any problems or issues when installing Testsigma on any platform, reach out to us at <a href="mailto:support@testsigma.com">support@testsigma.com</a> or join our <a href="https://discord.com/invite/5caWS7R6QX" rel="nofollow">discord derver</a>.
 
   * Learn how to use, build, and extend the platform. Visit [documentation](https://testsigma.com/docs/) 
-  * Connect with product experts on the team and in the Community on our [discord](https://discord.com/invite/5caWS7R6QX).
-  * Troubleshooting problems? Report bugs as [github issues](https://github.com/testsigmahq/testsigma/issues).
+  * Connect with product experts on the team and in the Community on our <a href="https://discord.com/invite/5caWS7R6QX" rel="nofollow">discord</a>.
+  * Troubleshooting problems? Report bugs as <a href="https://github.com/testsigmahq/testsigma/issues" rel="nofollow">github issues</a>.
   * Refer to our [FAQs](https://testsigma.com/docs/getting-started/faqs/) section for answers to commonly asked questions.
 
 ---

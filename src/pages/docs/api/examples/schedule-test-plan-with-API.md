@@ -37,7 +37,7 @@ This endpoint allows users to get all test plans using REST API.
 
 |**Request Type**|**GET**|
 |---|---|
-|**Endpoint**|https://app.testsigma.com/api/v1/test_plans|
+|**Endpoint**|<a href="https://app.testsigma.com/api/v1/test_plans" rel="nofollow">https://app.testsigma.com/api/v1/test_plans</a>| 
 |**Params**| query=applicationVersionId:&lt;versionid&gt;|
 |**Response Body (JSON)**|{<br>&emsp;"content": [{<br>&emsp;"id": 185,<br>&emsp;"applicationVersionId": 52,<br>&emsp;"name": "TP 1"<br>&emsp;&lt;Other data&gt;<br>&emsp;}]<br>&emsp;}|
 
@@ -51,7 +51,7 @@ This endpoint allows users to schedule a test plan using REST API.
 
 |**Request Type**|**POST**|
 |---|---|
-|**Endpoint**|https://app.testsigma.com/api/v1/schedule_executions|
+|**Endpoint**|<a href="https://app.testsigma.com/api/v1/schedule_executions" rel="nofollow">https://app.testsigma.com/api/v1/schedule_executions</a>|
 |**Authorization**|Bearer **<API\_Token>**<br>Same as the Testsigma API key mentioned above.|
 |**Request Body Type (JSON)**|Raw|
 |**Payload**|<pre>{<br>  "name": "New Test Plan Schedule",<br>  "executionId": 180,<br>  "scheduleType": "ONCE",<br>  "status": "ACTIVE",<br>  "nextInterval": "2022-12-14T11:13:00.000",<br>  "timezone": "EST"<br>  }<pre>|
@@ -81,7 +81,7 @@ This endpoint allows users to update a scheduled test plan using REST API.
 
 |**Request Type**|**PUT**|
 |---|---|
-|**Endpoint**|https://app.testsigma.com/api/v1/schedule_executions/&lt;scheduleId&gt|
+|**Endpoint**|<a href="https://app.testsigma.com/api/v1/schedule_executions/&lt;scheduleId&gt" rel="nofollow">https://app.testsigma.com/api/v1/schedule_executions/&lt;scheduleId&gt</a>| 
 |**Authorization**|Bearer **<API\_Token>**<br>Same as the Testsigma API key mentioned above.|
 |**Request Body Type (JSON)**|Raw|
 |**Request Body**|<pre>{<br>  "name": "Updated schedule",<br>  "executionId": 180,<br>  "scheduleType": "WEEKLY",<br>  "status": "ACTIVE",<br>  "nextInterval": "2022-12-20T15:28:00.000",<br>  "timezone": "PST"<br>  }<pre>|
@@ -95,7 +95,7 @@ This endpoint allows users to delete a scheduled test plan using REST API.
 
 |**Request Type**|**DELETE**|
 |---|---|
-|**Endpoint**|https://staging.testsigma.com/api/v1/schedule_executions/&lt;scheduleId&gt|
+|**Endpoint**|<a href="https://staging.testsigma.com/api/v1/schedule_executions/&lt;scheduleId&gt" rel="nofollow">https://staging.testsigma.com/api/v1/schedule_executions/&lt;scheduleId&gt</a>| 
 
 [[info | **NOTE**:]]
 |DELETE method will delete the respective schedule and return status code 202.

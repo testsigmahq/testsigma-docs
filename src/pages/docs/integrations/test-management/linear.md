@@ -27,7 +27,7 @@ You can integrate Testsigma with Linear to push bugs directly to Linear’s proj
 > 
 > Before you beign, ensure that: 
 > 1. To integrate Youtrack with Testsigma, you need the following:
->    - Linear API Key (For more information, refer to https://linear.app/docs/api-and-webhooks)
+>    - Linear API Key (For more information, refer to <a href="https://linear.app/docs/api-and-webhooks" rel="nofollow">https://linear.app/docs/api-and-webhooks</a>)
 > 2. You have referred to the [documentation on executing test plan runs](https://testsigma.com/docs/runs/test-plan-executions/).
 
 ---

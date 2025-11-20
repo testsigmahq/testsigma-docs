@@ -62,5 +62,7 @@ Similarly, the value for the location **'Central Park, NYC, USA'** will be **{"l
 ---
 ##**Example websites to test current location**
 
-You can use [https://www.mapcoordinates.net/en](https://www.mapcoordinates.net/en) for the latitude and longitude information for your desired location, and  [https://mycurrentlocation.net/](https://mycurrentlocation.net/) to check current location.
+You can use <a href="https://www.mapcoordinates.net/en" rel="nofollow">https://www.mapcoordinates.net/en</a> for the latitude and longitude information for your desired location, and <a href="https://mycurrentlocation.net/" rel="nofollow">https://mycurrentlocation.net/</a> to check current location.
 
+
+---

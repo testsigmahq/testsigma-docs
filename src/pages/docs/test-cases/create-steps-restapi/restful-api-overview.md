@@ -36,11 +36,11 @@ Testsigma supports Restful APIs Testing. RESTful APIs allow you to access resour
 
 We will use the following **API Endpoints** and **JSON object** for our examples:
 
-https://jsonplaceholder.typicode.com/
+<a href="https://jsonplaceholder.typicode.com/" rel="nofollow">https://jsonplaceholder.typicode.com/</a>
 
-https://jsonplaceholder.typicode.com/posts/
+<a href="https://jsonplaceholder.typicode.com/posts/" rel="nofollow">https://jsonplaceholder.typicode.com/posts/</a>
 
-https://jsonplaceholder.typicode.com/?name=Joel&email=abcxyz@mail.com
+<a href="https://jsonplaceholder.typicode.com/?name=Joel&email=abcxyz@mail.com" rel="nofollow">https://jsonplaceholder.typicode.com/?name=Joel&email=abcxyz@mail.com</a>
 
 
     {
@@ -50,6 +50,6 @@ https://jsonplaceholder.typicode.com/?name=Joel&email=abcxyz@mail.com
     "body": "quia et suscipit\nsuscipit recusandae consequuntur expedita et cum\nreprehenderit molestiae ut ut quas totam\nnostrum rerum est autem sunt rem eveniet architecto"
     }
 
-These are provided by [JSONPlaceholder](https://jsonplaceholder.typicode.com/), a free API Service available online for RESTful API testing purposes.
+These are provided by <a href="https://jsonplaceholder.typicode.com/" rel="nofollow">JSONPlaceholder</a>, a free API Service available online for RESTful API testing purposes.
 
 ---

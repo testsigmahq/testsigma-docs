@@ -35,16 +35,13 @@ You can add a Chrome Extension to your automation session in 2 simple steps:
 
 1. If you already have the CRX file, you can skip to the next step.
 
-2. If you have the chrome extension folder(uncompressed) in your local machine, you can compile it to CRX format by using the Google Chrome Browser installed in your machines. See **[Compiling chrome extension folder to CRX/CRX3 format](https://support.testsigma.com/support/solutions/articles/32000027752-compiling-chrome-extension-folder-to-crx-crx3-format)**
+2. If you have the chrome extension folder(uncompressed) in your local machine, you can compile it to CRX format by using the Google Chrome Browser installed in your machines. See **<a href="https://support.testsigma.com/support/solutions/articles/32000027752-compiling-chrome-extension-folder-to-crx-crx3-format" rel="nofollow">Compiling chrome extension folder to CRX/CRX3 format</a>**.
 
-3. If you don't have the chrome extension URL from Chrome Web Store, you can use [https://chrome-extension-downloader.com/](https://chrome.google.com/webstore/detail/testsigma/epmomlhdjfgdobefcpocockpjihaabdp) to download the file. Search for the extension, open the extension details page and copy the page URL.
+3. If you don't have the chrome extension URL from Chrome Web Store, you can use <a href="https://chrome.google.com/webstore/detail/testsigma/epmomlhdjfgdobefcpocockpjihaabdp" rel="nofollow">https://chrome-extension-downloader.com/</a> to download the file. Search for the extension, open the extension details page and copy the page URL.
 
-![chrome extension to install for recording your test steps with Testsigma](
-https://docs.testsigma.com/images/add-chrome-extension/chrome-extension-to-install-testsigma.png)
-
+![chrome extension to install for recording your test steps with Testsigma](https://docs.testsigma.com/images/add-chrome-extension/chrome-extension-to-install-testsigma.png)
 
 ---
-
 
 ## **Specify the Extensions path in the Desired Capabilities**
 

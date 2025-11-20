@@ -46,7 +46,7 @@ You can integrate **Google Cloud Build** with your version control system to aut
 
 ## **Create or Select a Google Cloud Project**
 
-1. Navigate to [Google Cloud Console](https://console.cloud.google.com/welcome/new?inv=1&invt=Ab1N5g).
+1. Navigate to <a href="https://console.cloud.google.com/welcome/new?inv=1&invt=Ab1N5g" rel="nofollow">Google Cloud Console</a>. 
 
 2. On the **Google Cloud** home page, click **Select a Project**.
    ![select a project](https://s3.amazonaws.com/static-docs.testsigma.com/new_images/projects/integration/Google_Cloud_1.png)
@@ -81,10 +81,10 @@ You can integrate **Google Cloud Build** with your version control system to aut
 
 [[info | NOTE:]]
 | - Ensure the tstrigger.sh file is present in the same repository and marked as executable. For information on the generic shell script, refer to the [documentation on generic Shell script](https://testsigma.com/docs/continuous-integration/shell-script/).
-| - Ensure you have an API key and a Test Plan ID. For more information, refer to the [documentation on generating API keys](https://testsigma.com/docs/configuration/api-keys/) and [documentation on getting test plan ID](https://docs.testsigma.com/images/azure-devops/get-test-plan-id.png).
+| - Ensure you have an API key and a Test Plan ID. For more information, refer to the [documentation on generating API keys](https://testsigma.com/docs/configuration/api-keys/) and <a href="https://docs.testsigma.com/images/azure-devops/get-test-plan-id.png" rel="nofollow">documentation on getting test plan ID</a>.
 | -![tstrigger](https://s3.amazonaws.com/static-docs.testsigma.com/new_images/projects/integration/Google_cloud_8.png)
 
-2. On the **Connect repository** overlay, select your source code management provider from the list (we’re selecting **GitHub**), then click **Continue**.
+1. On the **Connect repository** overlay, select your source code management provider from the list (we’re selecting **GitHub**), then click **Continue**.
    <img src="https://s3.amazonaws.com/static-docs.testsigma.com/new_images/projects/integration/Google_cloud_9.png" style="width: 400px;" />
 
 [[info | NOTE:]]

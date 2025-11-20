@@ -42,7 +42,7 @@ Let’s learn more about these grids.
 
    For more information on creating test plans, refer to the [documentation on creating test plans to run tests on local machines](https://testsigma.com/tutorials/test-plans/using-local-devices/).
 
-3. [BrowserStack](https://www.browserstack.com/#)
+3. <a href="https://www.browserstack.com/#" rel="nofollow">BrowserStack</a>
 
    Testsigma also allows us to use cloud devices on the BrowserStack Model to run your tests. You just need to integrate your BrowserStack account with your Testsigma Account by entering the login credentials. Also, while creating a test plan, provide the required device details on the test plan configurations page.
 
@@ -50,7 +50,7 @@ Let’s learn more about these grids.
 
    Use this option only if the application that you need to test is accessible over the Internet and not blocked by the firewall of a company network.
 
-4. [Sauce Labs](https://saucelabs.com/)
+4. <a href="https://saucelabs.com/" rel="nofollow">Sauce Labs</a>
 
    Similar to BrowserStack, it is possible to use Sauce Labs for your test execution by integrating it with Testsigma Account. You just need to integrate your Sauce Labs account with your Testsigma Account by entering the login credentials. Also, while creating a test plan, provide the required device details on the test plan configurations page.
 
@@ -58,13 +58,13 @@ Let’s learn more about these grids.
 
    Use this option only if the application that you need to test is accessible over the Internet and not blocked by the firewall of a company network.
 
-5. [Kobiton Test Lab](https://kobiton.com/)
+5. <a href="https://kobiton.com/" rel="nofollow">Kobiton Test Lab</a>
 
    Testsigma also allows us to use cloud devices on Kobiton Test Lab to run your tests. You just need to integrate your Kobiton Test Lab account with your Testsigma Account by entering the login credentials. Also, while creating a test plan, provide the required device details on the test plan configurations page.
 
    Use this option only if the application that you need to test is accessible over the Internet and not blocked by the firewall of a company network.
 
-6. [LambdaTest](https://www.lambdatest.com/)
+6. <a href="https://www.lambdatest.com/" rel="nofollow">LambdaTest</a>
 
    Testsigma also allows us to use cloud devices on LambdaTest to run your tests. You just need to integrate your LambdaTest account with your Testsigma Account by entering the login credentials. Also, while creating a test plan, provide the required device details on the test plan configurations page.
 
