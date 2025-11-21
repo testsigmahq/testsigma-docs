@@ -50,7 +50,7 @@ Enables the Agent to automatically detect and use a network proxy, including pro
 
 ---
 
-### Argument: **`--TS_DELETEGATE_SSL_VALIDATION`**
+### Argument: **`--TS_DELEGATE_SSL_VALIDATION`**
 
 Delegates SSL validation to SSL inspection tools instead of Java, bypassing SSL certificate validation errors.
 
@@ -62,7 +62,7 @@ Delegates SSL validation to SSL inspection tools instead of Java, bypassing SSL 
 
 3. Run the following command:
    ```bash
-   ./start.sh --TS_DELETEGATE_SSL_VALIDATION=true
+   ./start.sh --TS_DELEGATE_SSL_VALIDATION=true
    ```
 
 4. The Agent delegates SSL validation and starts successfully.
