@@ -91,11 +91,11 @@ Testsigma allows you to generate test cases from requirements using Generative A
 | - The maximum limit for selecting frames is 10.
 
 
-1. In the Prompt box, enter a clear and descriptive prompt for the test cases you want to generate.
+5. In the Prompt box, enter a clear and descriptive prompt for the test cases you want to generate.
 
-2. Click **Generate with AI**.
+6. Click **Generate with AI**.
 
-3. Wait for **Generator Agent** to generate multiple test cases. 
+7. Wait for **Generator Agent** to generate multiple test cases. 
 
 ---
 
