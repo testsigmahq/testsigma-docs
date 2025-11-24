@@ -37,35 +37,36 @@ Testsigma’s Gen AI capabilities help you streamline test case creation for Des
 
 3. On the **Generate Test Cases** page, click **Jira Requirements**. 
 
-4. In the **Jira Requirements** modal dialog, 
+4. In the **Add Jira Tickets** dialog, 
    - From the **Jira Project** dropdown, select a project.
    - Under **Issue Type**, select either **Epic** or **Story**:
       - If you select **Epic**, choose the stories under that epic.
       - If you select **Story**, choose the stories you want to generate test cases for.
-   - Click **Add Input**.
+   - Click **Save**.
 
-     ![Story Inputs for Desktop](https://s3.amazonaws.com/static-docs.testsigma.com/new_images/projects/Atto_Testsigma/Desktop_Stories_Input.png)
+     ![Story Inputs for Desktop](https://s3.amazonaws.com/static-docs.testsigma.com/new_images/projects/atto/desktop_1.png)
 
 [[info | **NOTE**:]]
 | You can add more input sources for test case generation by selecting necessary option in the **Generate Test Cases** section.
 
-5. In the Prompt box, enter a detailed prompt that describes test cases want to generate.
+1. In the Prompt box, enter a detailed prompt that describes test cases want to generate.
 
-6. Click **Generate**.
+2. Click **Generate with AI**.
 
-6. Wait for **Generator Agent** to generate the test cases based on the selected stories and prompt.
+3. Wait for **Generator Agent** to generate the test cases based on the selected stories and prompt.
 
-7. Click a test case to open it. 
+4. After the test cases are generated, expand a category and select a test case.
 
-8. In the **Test Case Details** overlay, review the manual test steps.
+5. In the **Test Case Details** dialog, go to the **Manual Steps** tab and review the generated steps.
 
-9. Click **Generate NLPs** to convert the manual steps to NLP-based steps.
+6.  Click **Edit** to manually add a step or block, or to modify existing steps.
 
-[[info | **NOTE**:]]
-| You can add or remove test steps by clicking **Edit**.
+7.  If you want to refine the steps using **Atto**, enter a prompt and click **Refine manual steps**.
 
-9. Click **Accept** to save the test case.
+8.  Click **Generate Automated Steps** to convert the manual steps into NLP-based automated steps.
 
-10. Repeat steps 7–9 for all the test cases you want to add.
+9.  Click **Accept** to save the test case.
+  
+10. Repeat steps 8–13 for all the test cases you want to add.
 
 ---
