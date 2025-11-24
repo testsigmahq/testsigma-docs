@@ -49,24 +49,24 @@ Testsigma’s Gen AI capabilities help you streamline test case creation for Des
 [[info | **NOTE**:]]
 | You can add more input sources for test case generation by selecting necessary option in the **Generate Test Cases** section.
 
-1. In the Prompt box, enter a detailed prompt that describes test cases want to generate.
+5. In the Prompt box, enter a detailed prompt that describes test cases want to generate.
 
-2. Click **Generate with AI**.
+6. Click **Generate with AI**.
 
-3. Wait for **Generator Agent** to generate the test cases based on the selected stories and prompt.
+7. Wait for **Generator Agent** to generate the test cases based on the selected stories and prompt.
 
-4. After the test cases are generated, expand a category and select a test case.
+8. After the test cases are generated, expand a category and select a test case.
 
-5. In the **Test Case Details** dialog, go to the **Manual Steps** tab and review the generated steps.
+9. In the **Test Case Details** dialog, go to the **Manual Steps** tab and review the generated steps.
 
-6.  Click **Edit** to manually add a step or block, or to modify existing steps.
+10.  Click **Edit** to manually add a step or block, or to modify existing steps.
 
-7.  If you want to refine the steps using **Atto**, enter a prompt and click **Refine manual steps**.
+11.  If you want to refine the steps using **Atto**, enter a prompt and click **Refine manual steps**.
 
-8.  Click **Generate Automated Steps** to convert the manual steps into NLP-based automated steps.
+12.  Click **Generate Automated Steps** to convert the manual steps into NLP-based automated steps.
 
-9.  Click **Accept** to save the test case.
+13.  Click **Accept** to save the test case.
   
-10. Repeat steps 8–13 for all the test cases you want to add.
+14. Repeat steps 8–13 for all the test cases you want to add.
 
 ---
