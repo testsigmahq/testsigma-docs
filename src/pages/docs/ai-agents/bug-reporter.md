@@ -35,26 +35,26 @@ The Bug Reporter Agent in Testsigma streamlines bug reporting by allowing users 
 ## **Steps to Report a Bug**
 
 1. From the left navigation bar, go to **Run Results**.
-   ![Run Results](https://s3.amazonaws.com/static-docs.testsigma.com/new_images/projects/Atto_Testsigma/Run_Results_Dashboard.png)
+   ![Run Results](https://s3.amazonaws.com/static-docs.testsigma.com/new_images/projects/ai_agents/bug_reporting_3.png)
 
 2. Open the test plan that contains failed test cases.
 
 3. Select a test case with a failed step and click the step to open its details.
 
 4. In the **Step Details** panel, click **Analyze with Agent**, and wait for the analysis to complete.
-   ![Analyze with Agent](https://s3.amazonaws.com/static-docs.testsigma.com/new_images/projects/Atto_Testsigma/Analyze_Agent.png)
+   ![Analyze with Agent](https://s3.amazonaws.com/static-docs.testsigma.com/new_images/projects/ai_agents/bug_reporting_4.png)
 
 5. In the **Analyzer Agent** overlay, click **Report Bug**.
-   ![Report Bug](https://s3.amazonaws.com/static-docs.testsigma.com/new_images/projects/Atto_Testsigma/ReportBug_Atto.png)
+   ![Report Bug](https://s3.amazonaws.com/static-docs.testsigma.com/new_images/projects/ai_agents/bug_reporting_5.png)
 
 6. On the **QA Agent** overlay, select a bug tracking tool.
-   ![Select Tool](https://s3.amazonaws.com/static-docs.testsigma.com/new_images/projects/Atto_Testsigma/QA_Agent_Tools.png)
+   ![Select Tool](https://s3.amazonaws.com/static-docs.testsigma.com/new_images/projects/ai_agents/bug_reporting_6.png)
 
-7. Select **Project**, **Issue Type** and review the **Description**.
-   ![Bug Details](https://s3.amazonaws.com/static-docs.testsigma.com/new_images/projects/Atto_Testsigma/Bug_Details.png)
+7. Select **Project**, **Group**, **Person**, and **Status**. Update the title if needed, and review the **Description**.
+   ![Project](https://s3.amazonaws.com/static-docs.testsigma.com/new_images/projects/ai_agents/bug_reporting_1.png)
    
 8. Click **Report Bug**. 
-   ![Report Bug Button](https://s3.amazonaws.com/static-docs.testsigma.com/new_images/projects/Atto_Testsigma/Report_Bug_From_Atto.png) 
+   ![Report Bug](https://s3.amazonaws.com/static-docs.testsigma.com/new_images/projects/ai_agents/bug_reporting_2.png)
 
 9.  The issue will be created in Jira with all the details.
 

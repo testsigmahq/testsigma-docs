@@ -41,38 +41,49 @@ You can generate test cases for android and iOS applications using Testsigma’s
 
 3. In the **Generate Test Cases** section, select **Figma Designs**.
    
-4. In the **Figma Designs** modal dialog,
-   - Select a **Project**, **Figma File**, **Section** and **Page** from the respective dropdown menus.
+4. In the **Figma Designs**  dialog,
+   - Select a **Team**, **Project**, **Figma File**, **Section** and **Page** from the respective dropdown menus.
    - Click **+ Select Frames**, select the required frames in the **Select Frames** screen, and click **Add Frames**.
    - If you want to remove all the selections that you have made, click **Clear Selection**.
     
-     ![Inputs for Mobile](https://s3.amazonaws.com/static-docs.testsigma.com/new_images/projects/Atto_Testsigma/Inputs_Mobile1.png)
+     ![Inputs for Mobile](https://s3.amazonaws.com/static-docs.testsigma.com/new_images/projects/atto/mobile_1.png)
 
 [[info | **NOTE**:]]
 | - If the selected page has no **Sections**, you can directly select the frames.
 | 
 | - The maximum limit for selecting frames is 10.
 
-5. In the **Generate Test Cases** section, click **Video Recording** as an additional input source.
+5. In the **Figma Designs** dialog, click **Video** from the **ADD FILES** menu. 
+   ![Video](https://s3.amazonaws.com/static-docs.testsigma.com/new_images/projects/atto/mobile_2.png)
+  
+6. In the **Video Recording** dialog, click **Add Files**. 
 
-6. Select a video file and wait for the upload to complete.
+7. Select a video file and wait for the upload to complete.
 
-7. Once the video is loaded, click **Close**.
+8. Once the video is loaded, click **Save**.
 
-   ![Video Input](https://s3.amazonaws.com/static-docs.testsigma.com/new_images/projects/Atto_Testsigma/Input_for_Web_MWeb2.png)
+9. Click **Save** again. 
    
-8. In the Prompt box, enter a detailed prompt that describes test cases want to generate.
+10. In the Prompt box, enter a detailed prompt that describes test cases want to generate.
 
-9. Click **Generate**.
+11.  Click **Generate with AI**.
 
-10. Wait for **Generator Agent** to generate multiple test cases based on the selected inputs. 
+12.  Wait for **Generator Agent** to generate multiple test cases based on the selected inputs. 
 
 ---
 
 ## **Next Steps** 
 
-Click **Generate NLPs** to generate NLP-based test steps from manual test steps.
-   
-   ![Generate NLPs](https://s3.amazonaws.com/static-docs.testsigma.com/new_images/projects/Atto_Testsigma/Next_Steps_Mobile.png)
+1. After the test cases are generated, expand a category and select a test case.
+
+2. In the **Test Case Details** dialog, go to the **Manual Steps** tab and review the generated steps.
+
+3. Click **Edit** to manually add a step or block, or to modify existing steps.
+
+4. If you want to refine the steps using **Atto**, enter a prompt and click **Refine manual steps**.
+
+5. Click **Generate Automated Steps** to convert the manual steps into NLP-based automated steps.
+
+6. Click **Accept**.
 
 ---
