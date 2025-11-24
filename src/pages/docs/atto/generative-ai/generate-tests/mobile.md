@@ -58,17 +58,17 @@ You can generate test cases for android and iOS applications using Testsigma’s
   
 6. In the **Video Recording** dialog, click **Add Files**. 
 
-6. Select a video file and wait for the upload to complete.
+7. Select a video file and wait for the upload to complete.
 
-7. Once the video is loaded, click **Save**.
+8. Once the video is loaded, click **Save**.
 
-8. Click **Save** again. 
+9. Click **Save** again. 
    
-8. In the Prompt box, enter a detailed prompt that describes test cases want to generate.
+10. In the Prompt box, enter a detailed prompt that describes test cases want to generate.
 
-9.  Click **Generate with AI**.
+11.  Click **Generate with AI**.
 
-10.  Wait for **Generator Agent** to generate multiple test cases based on the selected inputs. 
+12.  Wait for **Generator Agent** to generate multiple test cases based on the selected inputs. 
 
 ---
 
