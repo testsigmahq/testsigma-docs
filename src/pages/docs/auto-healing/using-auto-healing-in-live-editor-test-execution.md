@@ -1,10 +1,10 @@
 ---
 title: "Using Auto-Healing in Live Editor Test Execution"
 page_title: "Using Auto-Healing in Live Editor Test Execution"
-metadesc: "Enable Auto-Healing in the Live Editor to validate and fix element locators in real time, ensuring tests stay stable despite UI changes during execution."
+metadesc: "Enable Auto-Healing in theLive Editor to validate and fix element locators in real time, ensuring tests stay stable despite UI changes during execution."
 noindex: false
 order: 4.916
-page_id: "using-auto-healing-in-live-editor-test-execution"
+page_id: "using-auto-healing-in-eive Editor-test-execution"
 warning: false
 contextual_links:
 - type: section
@@ -46,13 +46,13 @@ Here are the steps to produce:
    - Click on Log in Button.
 
 1. Once you have created the test steps, click **Live Editor**. 
-   ![Live Editor](https://s3.amazonaws.com/static-docs.testsigma.com/new_images/projects/auto_healing/Live_editor_1.png)
+   ![Copilot](https://s3.amazonaws.com/static-docs.testsigma.com/new_images/projects/auto_healing/Live_editor_1.png)
 
 2. On the **Live Editor** overlay, configure the required options and click **Launch**. 
    ![Launch](https://s3.amazonaws.com/static-docs.testsigma.com/new_images/projects/auto_healing/Live_editor_2.png)
 
  - Consider that the XPATH for the element Email address or phone number on step 2 changed. 
-   ![Live Editor](https://s3.amazonaws.com/static-docs.testsigma.com/new_images/projects/auto_healing/live_editor_7.png)
+   ![Copilot](https://s3.amazonaws.com/static-docs.testsigma.com/new_images/projects/auto_healing/live_editor_7.png)
 
  - When the test case is executed in the Live Editor with the Gen AI auto-healing feature enabled, Testsigma automatically identifies the updated XPath and successfully locates the element.
    ![Auto-Heal](https://s3.amazonaws.com/static-docs.testsigma.com/new_images/projects/auto_healing/Live_editor_3.png)

@@ -171,7 +171,7 @@ warning: false
 **Steps to Resolve for macOS:**
 
 1. Quit the **Live Editor** if it is open. 
-   ![Quit Live Editor](https://s3.amazonaws.com/static-docs.testsigma.com/new_images/projects/Atto_Testsigma/Quit_Live_Editor_PE.png)
+   ![Quit Copilot](https://s3.amazonaws.com/static-docs.testsigma.com/new_images/projects/Atto_Testsigma/Quit_Live_Editor_PE.png)
 
 2. Open Activity Monitor and end any **wrapper** or **atto** processes.
    ![Kill Tasks](https://s3.amazonaws.com/static-docs.testsigma.com/new_images/projects/Atto_Testsigma/Kill_Tasks_in_Activity_Monitor.png)
@@ -230,7 +230,7 @@ warning: false
 
 **Answer:** Authentication errors during installation occur if the user switches accounts through the installation or if leftover processes or files from a previous installation remain. To resolve this, perform the common cleanup process as described in the port busy issue.
 
-   ![Authentication Error in Live Editor](https://s3.amazonaws.com/static-docs.testsigma.com/new_images/projects/Atto_Testsigma/auth_error_terminal.png)
+   ![Authentication Error in Copilot](https://s3.amazonaws.com/static-docs.testsigma.com/new_images/projects/Atto_Testsigma/auth_error_terminal.png)
 
 ---
 

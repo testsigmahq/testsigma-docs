@@ -14,8 +14,8 @@ contextual_links:
   name: "Prerequisites"
   url: "#prerequisites"
 - type: link
-  name: "Editing a Test Case Using Live Editor"
-  url: "#editing-a-test-case-using-live-editor"
+  name: "Steps to Edit a Test Case Using Live Editor"
+  url: "#steps-to-edit-a-test-case-using-live-editor"
 ---
 
 ---
@@ -57,7 +57,7 @@ In Testsigma, Live Editor gives you complete control over test cases while execu
 5. The test steps execute until the selected debug point.
 
 6. When debugging is complete, click **Stop** to close the **Live Editor**.
-   ![Stop Live Editor](https://s3.amazonaws.com/static-docs.testsigma.com/new_images/projects/applications/Stop_Live_Editor.png)
+   ![Stop Copilot](https://s3.amazonaws.com/static-docs.testsigma.com/new_images/projects/applications/Stop_Live_Editor.png)
 
 [[info | **NOTE**:]]
 | Clicking **Stop** stops the current execution but does not close the **Live Editor**. To close the **Live Editor**, open **Testsigma Terminal** application and click **Quit Live Editor**.

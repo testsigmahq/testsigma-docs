@@ -3,7 +3,7 @@ title: "Generate Test Cases for APIs"
 page_title: "Generate API Test Cases"
 metadesc: "In Testsigma, you can create test cases from swagger schema files | Learn how to create API test cases from Swagger using GenAI capabilities"
 noindex: false
-order: 4.7426
+order: 4.7427
 page_id: "api-test-cases"
 warning: false
 contextual_links:

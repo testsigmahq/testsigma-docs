@@ -1,9 +1,9 @@
 ---
 title: "Automate Test Cases"
 page_title: "Automate Test Cases"
-metadesc: "Automate test cases in Testsigma using Atto’s generative AI to create test steps faster, saving time and minimizing manual effort."
+metadesc: "Atto generates detailed test cases from your requirements, creates NLP-based automated steps, and integrates existing scenarios seamlessly."
 noindex: false
-order: 4.7427
+order: 4.7422
 page_id: "automate-test-cases"
 warning: false
 contextual_links:
@@ -13,67 +13,69 @@ contextual_links:
   name: "Prerequisites"
   url: "#prerequisites"
 - type: link
-  name: "Steps to Automate Test Cases Using Atto"
-  url: "#steps-to-automate-test-cases-using-atto"
+  name: "Steps to Generate Automated Test Cases"
+  url: "#steps-to-generate-automated-test-cases"
+- type: link
+  name: "Manage Updated Test Cases"
+  url: "#manage-updated-test-cases"
 ---
 
 ---
 
-In Testsigma, you can generate automated test cases using Atto’s generative AI capabilities. This feature enables you to quickly create test cases and test steps based on your inputs and prompts, and helps reduce time and manual effort. This article discusses how to automate test cases using Atto. 
+Atto processes your requirements and prompts to generate detailed test cases and create NLP-based automated steps. It also ensures that any existing scenarios are seamlessly incorporated into the output. This article discusses how to generate automated test cases and manage the updated test cases. 
 
 ---
 
 > ## **Prerequisites**
-> 
-> Before you begin, ensure that:
-> 
->    - You have enabled the **Generative AI** feature. If you don’t have access to this feature, please contact **Support** via chat for assistance.
+> Before you begin, ensure that you have referred to the [documentation on adding the requirements](https://testsigma.com/docs/atto/generative-ai/generate-tests/requirements/).
 
 ---
 
-## **Steps to Automate Test Cases Using Atto**
+## **Steps to Generate Automated Test Cases**
 
-1. From the left navigation bar, go to **Atto’s Home**. 
-   ![Atto's Home](https://s3.amazonaws.com/static-docs.testsigma.com/new_images/projects/atto/Automate_test_cases_1.png)
+1. After adding the required requirements, enter a clear and descriptive prompt in the Prompt box to generate the test cases.
 
 2. Click **Generate with AI**.
-   ![Generate with AI](https://s3.amazonaws.com/static-docs.testsigma.com/new_images/projects/atto/Automate_test_cases_2.png)
+   ![Generate with AI](https://s3.amazonaws.com/static-docs.testsigma.com/new_images/projects/atto/next_steps_req_1.png)
 
-3. On the **Generate Test Cases** page, click the required input fields and either upload or select the necessary inputs. In this scenario, we will upload a file.
-   ![Generate Test Cases](https://s3.amazonaws.com/static-docs.testsigma.com/new_images/projects/atto/Automate_test_cases_3.png)
+3. Wait for **Generator Agent** to generate multiple test cases. 
 
-4. Click **+** icon next to **Files**.
-   ![Files](https://s3.amazonaws.com/static-docs.testsigma.com/new_images/projects/atto/Automate_test_cases_4.png)
+4. After the test cases are generated, expand a category and click on a test case.
+   ![test case](https://s3.amazonaws.com/static-docs.testsigma.com/new_images/projects/atto/next_steps_req_2.png)
 
-5. On the **Add Files** page, drag and drop the required file or click **Browse** and select the files that contain relevant test information.
-   ![Upload Files](https://s3.amazonaws.com/static-docs.testsigma.com/new_images/projects/atto/Automate_test_cases_5.png)
+5. In the **Test Case Details** dialog, go to the **Manual Steps** tab and review the generated steps.
+   ![Manual steps](https://s3.amazonaws.com/static-docs.testsigma.com/new_images/projects/atto/next_steps_req_3.png)
 
-6. Once you have selected the required files, click **Add Files**. 
-   ![Add Files](https://s3.amazonaws.com/static-docs.testsigma.com/new_images/projects/atto/Automate_test_cases_6.png)
+6. Click **Edit** to add a step or block manually, or to modify existing steps.
+   ![Edit](https://s3.amazonaws.com/static-docs.testsigma.com/new_images/projects/atto/next_steps_req_4.png)
 
-7. In the **Prompt** box, enter a clear and descriptive prompt for the test cases you want to generate, and click **Generate**.
-   ![Generate](https://s3.amazonaws.com/static-docs.testsigma.com/new_images/projects/atto/Automate_test_cases_7.png)
+7. If you want to refine the steps using **Atto**, enter a prompt and click **Refine manual steps**.
+   ![Refine manual steps](https://s3.amazonaws.com/static-docs.testsigma.com/new_images/projects/atto/next_steps_req_5.png)
 
-8. Once the test cases are generated, expand the required category and click the required test case. 
-   ![Test cases](https://s3.amazonaws.com/static-docs.testsigma.com/new_images/projects/atto/Automate_test_cases_8.png)
+8. Click **Generate Automated Steps** to convert the manual steps into NLP-based automated steps.
+   ![Generate Automated steps](https://s3.amazonaws.com/static-docs.testsigma.com/new_images/projects/atto/next_steps_req_6.png)
 
-9. On the **Test Case Details** overlay, click **Generate Test Steps**. 
-   ![Generate Test Steps](https://s3.amazonaws.com/static-docs.testsigma.com/new_images/projects/atto/Automate_test_cases_9.png)
+9.  Click **Accept** to save the test case. You can then view it in your **Test Case Explorer**. 
+    ![Accept](https://s3.amazonaws.com/static-docs.testsigma.com/new_images/projects/atto/next_steps_req_7.png)
 
-10. Once the test steps are generated, click **Accept**. 
-    ![Accept](https://s3.amazonaws.com/static-docs.testsigma.com/new_images/projects/atto/Automate_test_cases_10.png)
+---
 
-[[info | NOTE:]]
-| Ensure that you are on the **Automated NLP Steps** tab before clicking **Accept**. 
-| ![Accept](https://s3.amazonaws.com/static-docs.testsigma.com/new_images/projects/atto/Automate_test_cases_11.png)
+## **Manage Updated Test Cases**
 
-11. Click **Accept** again.
-    ![Accept 1](https://s3.amazonaws.com/static-docs.testsigma.com/new_images/projects/atto/Automate_test_cases_12.png)
+When you generate automated test cases, Atto checks for existing test cases. If a test case already exists, Atto updates it instead of creating a new one.
 
-12. On the **Select Location** dialog, expand a feature, select a scenario in which you want to add the generated test case, and click **Confirm**. 
-    ![Confirm](https://s3.amazonaws.com/static-docs.testsigma.com/new_images/projects/atto/Automate_test_cases_13.png)
+After the test cases are generated, expand a scenario and select a test case. Updated test cases are marked with the **Update** tag.
 
-13. On the **Test Case Details** overlay, click **Accept** again. 
-    ![Test Case Details](https://s3.amazonaws.com/static-docs.testsigma.com/new_images/projects/atto/Automate_test_cases_14.png)
+![Update](https://s3.amazonaws.com/static-docs.testsigma.com/new_images/projects/atto/updated_test_cases_1.png)
+
+When you open an updated test case, the **Test Case Details** dialog appears.
+
+Click **See What’s New** to compare the previous steps with the newly generated steps. 
+
+![See What's New](https://s3.amazonaws.com/static-docs.testsigma.com/new_images/projects/atto/updated_test_cases_2.png)
+
+Select **Hide Difference** to close the comparison. 
+
+![Hide Difference](https://s3.amazonaws.com/static-docs.testsigma.com/new_images/projects/atto/updated_test_cases_3.png)
 
 ---
