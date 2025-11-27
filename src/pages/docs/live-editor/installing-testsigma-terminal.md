@@ -1,7 +1,7 @@
 ---
 title: "Installing Testsigma Terminal"
 pagetitle: "Installing Testsigma Terminal for Live Editing"
-metadesc: "Learn how to install Testsigma Terminal, which is a Copilot for Test Cases | Testsigma Terminal gives you complete control over test case execution and debugging to modify test steps immediately"
+metadesc: "Learn how to install Testsigma Terminal, which is a Live Editor for Test Cases | Testsigma Terminal gives you complete control over test case execution and debugging to modify test steps immediately"
 noindex: false
 order: 10.2
 page_id: "Installing Testsigma Terminal for Debugging"
@@ -29,7 +29,7 @@ contextual_links:
 
 ---
 
-Copilot is the primary tool for test authoring and validating through local execution for Salesforce, Desktop and will be the same for other applications soon. To use this feature, you must install the Testsigma Terminal application. This article discusses downloading, installing, and setting it up on your machine.
+Live Editor is the primary tool for test authoring and validating through local execution for Salesforce, Desktop and will be the same for other applications soon. To use this feature, you must install the Testsigma Terminal application. This article discusses downloading, installing, and setting it up on your machine.
 
 ---
 
@@ -83,7 +83,7 @@ Copilot is the primary tool for test authoring and validating through local exec
    ![login to testsigma](https://s3.amazonaws.com/static-docs.testsigma.com/new_images/projects/terminal/Terminal_3.png)
 
 [[info | **NOTE**:]]
-| Once you login, the session stays valid for 24 hours. After that, you'll need to login and authorize yourself again to continue using the **Copilot**.
+| Once you login, the session stays valid for 24 hours. After that, you'll need to login and authorize yourself again to continue using the **Live Editor**.
 
 1. Click **Open the desktop app**. The **Testsigma Terminal** opens. 
    ![Open the desktop App](https://s3.amazonaws.com/static-docs.testsigma.com/new_images/projects/terminal/Terminal_4.2.png)
@@ -97,7 +97,7 @@ Copilot is the primary tool for test authoring and validating through local exec
 
 ## **Steps to Uninstall Testsigma Terminal**
 
-1. Click **Quit Copilot** to exit the **Copilot**.
+1. Click **Quit Live Editor** to exit the **Live Editor**.
    ![Quit Live Editor](https://s3.amazonaws.com/static-docs.testsigma.com/new_images/projects/applications/Quit_Live_Editor.png)
    
 2. Uninstall/Remove **Testsigma Terminal** application.
