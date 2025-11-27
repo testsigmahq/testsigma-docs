@@ -1,7 +1,7 @@
 ---
 title: "Installing Testsigma Terminal"
 pagetitle: "Installing Testsigma Terminal for Live Editing"
-metadesc: "Learn how to install Testsigma Terminal, which is a live editor for Test Cases | Testsigma Terminal gives you complete control over test case execution and debugging to modify test steps immediately"
+metadesc: "Learn how to install Testsigma Terminal, which is a Copilot for Test Cases | Testsigma Terminal gives you complete control over test case execution and debugging to modify test steps immediately"
 noindex: false
 order: 10.2
 page_id: "Installing Testsigma Terminal for Debugging"
@@ -29,7 +29,7 @@ contextual_links:
 
 ---
 
-Live Editor is the primary tool for test authoring and validating through local execution for Salesforce, Desktop and will be the same for other applications soon. To use this feature, you must install the Testsigma Terminal application. This article discusses downloading, installing, and setting it up on your machine.
+Copilot is the primary tool for test authoring and validating through local execution for Salesforce, Desktop and will be the same for other applications soon. To use this feature, you must install the Testsigma Terminal application. This article discusses downloading, installing, and setting it up on your machine.
 
 ---
 
@@ -83,12 +83,12 @@ Live Editor is the primary tool for test authoring and validating through local 
    ![login to testsigma](https://s3.amazonaws.com/static-docs.testsigma.com/new_images/projects/terminal/Terminal_3.png)
 
 [[info | **NOTE**:]]
-| Once you login, the session stays valid for 24 hours. After that, you'll need to login and authorize yourself again to continue using the **Live Editor**.
+| Once you login, the session stays valid for 24 hours. After that, you'll need to login and authorize yourself again to continue using the **Copilot**.
 
-5. Click **Open the desktop app**. The **Testsigma Terminal** opens. 
+1. Click **Open the desktop app**. The **Testsigma Terminal** opens. 
    ![Open the desktop App](https://s3.amazonaws.com/static-docs.testsigma.com/new_images/projects/terminal/Terminal_4.2.png)
 
-6. Wait until **Testsigma Terminal** downloads the necessary files and completes the installation.
+2. Wait until **Testsigma Terminal** downloads the necessary files and completes the installation.
 
 [[info | **NOTE**:]]
 | If you encounter any issues with the **Testsigma Terminal**, click **Report Issue** from the left panel. Provide a description of the problem, upload the agent log, and make sure to include the **App Session ID** and **Debugging ID**. To obtain the Debugging ID, ensure the agent was started through Testsigma.
@@ -97,7 +97,7 @@ Live Editor is the primary tool for test authoring and validating through local 
 
 ## **Steps to Uninstall Testsigma Terminal**
 
-1. Click **Quit Live Editor** to exit the **Live Editor**.
+1. Click **Quit Copilot** to exit the **Copilot**.
    ![Quit Live Editor](https://s3.amazonaws.com/static-docs.testsigma.com/new_images/projects/applications/Quit_Live_Editor.png)
    
 2. Uninstall/Remove **Testsigma Terminal** application.

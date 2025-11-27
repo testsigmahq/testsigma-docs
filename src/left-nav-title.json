@@ -751,5 +751,6 @@
   "zephyr": {"/docs/integrations/test-management/zephyr/": "Zephyr Cloud"},
   "xray": {"/docs/integrations/test-management/xray/": "Xray"},
   "qtest": {"/docs/integrations/test-management/qtest/": "qTest"},
-  "requirements": {"/docs/atto/generative-ai/generate-tests/requirements/": "Add Requirements"}
+  "requirements": {"/docs/atto/generative-ai/generate-tests/requirements/": "Add Requirements"},
+  "live-editor": {"/docs/atto/generative-ai/copilot/live-editor/": "In Testsigma"}
   }
