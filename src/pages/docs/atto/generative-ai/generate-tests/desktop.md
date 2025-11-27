@@ -3,7 +3,7 @@ title: "Generate Test Cases for Desktop"
 page_title: "Prerequsites for GenAI & Agentic AI"
 metadesc: "Testsigma’s AI capabilities help you with test case creation for Desktop applications | Generates multiple test cases that align with UI elements for Desktop apps"
 noindex: false
-order: 4.7425
+order: 4.7426
 page_id: "import-test-cases"
 warning: false
 contextual_links:

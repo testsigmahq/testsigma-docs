@@ -750,5 +750,6 @@
   "auto-healing-for-ai-generated-test-cases": {"/docs/ai-agents/auto-healing/auto-healing-for-ai-generated-test-cases/": "Auto-Healing for AI Generated Test Cases"},
   "zephyr": {"/docs/integrations/test-management/zephyr/": "Zephyr Cloud"},
   "xray": {"/docs/integrations/test-management/xray/": "Xray"},
-  "qtest": {"/docs/integrations/test-management/qtest/": "qTest"}
+  "qtest": {"/docs/integrations/test-management/qtest/": "qTest"},
+  "requirements": {"/docs/atto/generative-ai/generate-tests/requirements/": "Add Requirements"}
   }

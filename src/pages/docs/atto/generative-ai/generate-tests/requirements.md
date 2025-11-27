@@ -1,10 +1,10 @@
 ---
-title: "Generate Test Cases from Requirements"
-page_title: "Generate Tests from Requirements"
+title: "Add Requirements"
+page_title: "Add Requirements"
 metadesc: "In Testsigma, you can create test cases from Jira stories & epics by integrating Jira | Learn how to create test cases from Jira using GenAI capabilities"
 noindex: false
 order: 4.7421
-page_id: "generate-tests-from-requirements"
+page_id: "add-requirements"
 warning: false
 contextual_links:
 - type: section
@@ -13,20 +13,20 @@ contextual_links:
   name: "Prerequisites"
   url: "#prerequisites"
 - type: link
-  name: "Generate Test Cases from Jira"
-  url: "#generate-test-cases-from-jira"
+  name: "Add the Data from Jira"
+  url: "#add-the-data-from-jira"
 - type: link
-  name: "Generate Test Cases from Figma"
-  url: "#generate-test-cases-from-figma"
+  name: "Add the Data from Figma"
+  url: "#add-the-data-from-figma"
 - type: link
-  name: "Generate Test Cases from QTest"
-  url: "#generate-test-cases-from-qtest"
+  name: "Add the Data from QTest"
+  url: "#add-the-data-from-qtest"
 - type: link
-  name: "Generate Test Cases from Video Recording"
-  url: "#generate-test-cases-from-video-recording"
+  name: "Add the Data from Video Recording"
+  url: "#add-the-data-from-video-recording"
 - type: link
-  name: "Generate Test Cases from Files"
-  url: "#generate-test-cases-from-files"
+  name: "Add the Data from Files"
+  url: "#add-the-data-from-files"
 ---
 
 ---
@@ -42,7 +42,7 @@ Testsigma allows you to generate test cases from requirements using Generative A
 
 ---
 
-## **Generate Test Cases from Jira**
+## **Add the Data from Jira**
 
 1. From the left navigation bar, go to **Atto’s Home**.
 
@@ -58,19 +58,12 @@ Testsigma allows you to generate test cases from requirements using Generative A
    - Click **Save**.
      ![Jira Inputs](https://s3.amazonaws.com/static-docs.testsigma.com/new_images/projects/atto/requirements_1.png)
 
-5. In the Prompt box, enter a clear and descriptive prompt for the test cases you want to generate.
-
-6. Click **Generate with AI**.
-
-7. Wait for **Generator Agent** to generate multiple test cases. 
-
-
 [[info | **NOTE**:]]
 | To generate Salesforce test cases from requirements, click **Settings** in the prompt text box. By default, the **Prefer API steps** is selected. To generate UI-based test steps, clear the **Prefer API steps** option.
 
 ---
 
-## **Generate Test Cases from Figma**
+## **Add the Data from Figma**
 
 1. From the left navigation bar, go to **Atto’s Home**.
 
@@ -90,16 +83,9 @@ Testsigma allows you to generate test cases from requirements using Generative A
 | 
 | - The maximum limit for selecting frames is 10.
 
-
-5. In the Prompt box, enter a clear and descriptive prompt for the test cases you want to generate.
-
-6. Click **Generate with AI**.
-
-7. Wait for **Generator Agent** to generate multiple test cases. 
-
 ---
 
-## **Generate Test Cases from QTest**
+## **Add the Data from QTest**
 
 1. From the left navigation bar, go to **Atto’s Home**.
 
@@ -115,16 +101,10 @@ Testsigma allows you to generate test cases from requirements using Generative A
      
      ![qTest Inputs](https://s3.amazonaws.com/static-docs.testsigma.com/new_images/projects/atto/requirements_3.png)
 
-5. In the Prompt box, enter a clear and descriptive prompt for the test cases you want to generate.
-
-6. Click **Generate with AI**.
-
-7. Wait for **Generator Agent** to generate multiple test cases. 
-
 ---
 
 
-## **Generate Test Cases from Video Recording**
+## **Add the Data from Video Recording**
 
 1. From the left navigation bar, go to **Atto’s Home**.
 
@@ -139,18 +119,12 @@ Testsigma allows you to generate test cases from requirements using Generative A
 6. Once the video is loaded, click **Save**.
 
 7. Click **Save** again. 
-
-8. In the Prompt box, enter a clear and descriptive prompt for the test cases you want to generate.
-
-9. Click **Generate with AI**.
-   ![Video Input](https://s3.amazonaws.com/static-docs.testsigma.com/new_images/projects/atto/requirements_4.png)
-
-10.  Wait for **Generator Agent** to generate multiple test cases based on the uploaded video. 
+   ![Video Input](https://s3.amazonaws.com/static-docs.testsigma.com/new_images/projects/atto/add_files_1.2.png)
 
 ---
 
 
-## **Generate Test Cases from Files**
+## **Add the Data from Files**
 
 1. From the left navigation bar, go to **Atto’s Home**.
 
@@ -165,12 +139,6 @@ Testsigma allows you to generate test cases from requirements using Generative A
 6. Once the files are loaded, click **Add Files**.
    
 7. Click **Save**. 
-
-8. In the Prompt box, enter a clear and descriptive prompt for the test cases you want to generate.
-
-9. Click **Generate with AI**.
-   ![Files Input](https://s3.amazonaws.com/static-docs.testsigma.com/new_images/projects/atto/requirements_5.png)
-
-10. Wait for **Generator Agent** to generate multiple test cases based on the uploaded files. 
+   ![Files Input](https://s3.amazonaws.com/static-docs.testsigma.com/new_images/projects/atto/add_files_1.1.png)
 
 ---

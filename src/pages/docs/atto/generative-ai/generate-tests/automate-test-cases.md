@@ -3,7 +3,7 @@ title: "Automate Test Cases"
 page_title: "Automate Test Cases"
 metadesc: "Automate test cases in Testsigma using Atto’s generative AI to create test steps faster, saving time and minimizing manual effort."
 noindex: false
-order: 4.7427
+order: 4.7428
 page_id: "automate-test-cases"
 warning: false
 contextual_links:
