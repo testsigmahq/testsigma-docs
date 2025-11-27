@@ -50,7 +50,7 @@ Testsigma also integrates seamlessly with tools like Jira, Figma, Xray, GitHub, 
 
 ---
 
-## **Testsigma Copiot Capabilities**
+## **Testsigma Copilot Capabilities**
 
 - <a href="http://testsigma.com/docs/atto/generative-ai/copilot/web-recorder/" rel="nofollow">Copilot in Web Recorder</a>
 

@@ -3,7 +3,7 @@ title: "Generate Test Cases For Web & Mobile Web"
 page_title: "Generate Test Cases For Web & Mobile Web"
 metadesc: "Generate tests for web & mobile web applications using Testsigma’s GenAI. You can provide input from multiple sources, including Jira, Figma, Xray, videos, & files"
 noindex: false
-order: 4.7422
+order: 4.7423
 page_id: "generate-test-cases-for-web-mobile-web"
 warning: false
 contextual_links:

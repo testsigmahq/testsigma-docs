@@ -3,7 +3,7 @@ title: "Generate Test Cases for Salesforce"
 page_title: "Generate Test Cases for Salesforce"
 metadesc: "Automatically generate test cases for Salesforce using GenAI | Generate test using Salesforce Flows, Workflows, or Jira requirements using simple prompts"
 noindex: false
-order: 4.7424
+order: 4.7425
 page_id: "generate-test-cases-for-salesforce"
 warning: false
 contextual_links:
