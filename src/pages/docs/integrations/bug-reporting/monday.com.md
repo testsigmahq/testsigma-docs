@@ -4,7 +4,7 @@ page_title: "monday.com"
 metadesc: "Monday.com integration helps you in creating issues in Monday.com from the Testsigma. Learn how to integrate Testsigma with Monday.com for real-time bug reporting"
 noindex: false
 order: 16.38
-page_id: "monday.com"
+page_id: "monday-bug-reporting-integration"
 warning: false
 contextual_links:
 - type: section
