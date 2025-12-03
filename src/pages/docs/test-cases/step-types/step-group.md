@@ -188,18 +188,10 @@ Logging in to an account is a common prerequisite. Instead of duplicating these 
 
 7. The step group is added from the selected project.
 
-> <p id="prerequisites">Additional Information:</p>
-> 
-> Step groups reused across different application types may contain element locators that do not match the target application. Verify and update the locators before executing the test case.
 
-
-[[info | **NOTE**:]]
-| You can reuse step groups only between the following application types:
-| - iOS → Android
-| - Android → iOS
-| - Web → iOS
-| - Web → Android
-| - Mobile Web → iOS and Android
+[[info | **ADDITIONAL INFORMATION**:]]
+| <br>
+| Step groups reused across different application types may contain element locators that do not match the target application. Verify and update the locators before executing the test case.
 
 ---
 
