@@ -1,6 +1,6 @@
 ---
-title: "Unable to Start the Terminal Due to Port Unavailibility?"
-pagetitle: "Unable to Start the Terminal Due to Port Unavailibility?"
+title: "Unable to Start the Terminal Due to Port Unavailability?"
+pagetitle: "Unable to Start the Terminal Due to Port Unavailability?"
 metadesc: "Fix startup issues in Testsigma Terminal caused by blocked or busy ports and ensure the required ports are free for proper operation."
 noindex: false
 order: 10.24
