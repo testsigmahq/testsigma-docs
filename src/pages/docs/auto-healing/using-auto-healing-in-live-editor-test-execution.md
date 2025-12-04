@@ -4,7 +4,7 @@ page_title: "Using Auto-Healing in Copilot Test Execution"
 metadesc: "Enable Auto-Healing in the Copilot to validate and fix element locators in real time, ensuring tests stay stable despite UI changes during execution."
 noindex: false
 order: 4.916
-page_id: "using-auto-healing-in-eive Editor-test-execution"
+page_id: "using-auto-healing-in-copilot-test-execution"
 warning: false
 contextual_links:
 - type: section
