@@ -1,9 +1,9 @@
 ---
 title: "Introduction: Testsigma Terminal"
 pagetitle: "Testsigma Terminal for Live Editing"
-metadesc: "Learn how to debug test cases on local devices using Testsigma Terminal, which is a Live Editor. With Testsigma Terminal, you have complete control over test case execution and debugging."
+metadesc: "Learn how to debug test cases on local devices using Testsigma Terminal, which is a Copilot. With Testsigma Terminal, you have complete control over test case execution and debugging."
 noindex: false
-order: 10.1
+order: 10.11
 page_id: "Testsigma Terminal for Debugging"
 search_keyword: ""
 warning: false
@@ -50,7 +50,7 @@ Testsigma Terminal provides complete control over test case execution and debugg
 
    - **Installing Testsigma Terminal**
    
-   - **Editing a Test Case Using Live Editor**
+   - **Editing a Test Case Using Copilot**
    
    - **FAQs on Testsigma Terminal**
    
