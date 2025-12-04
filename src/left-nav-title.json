@@ -753,5 +753,6 @@
   "qtest": {"/docs/integrations/test-management/qtest/": "qTest"},
   "requirements": {"/docs/atto/generative-ai/generate-tests/requirements/": "Add Requirements"},
   "live-editor": {"/docs/atto/generative-ai/copilot/live-editor/": "In Testsigma"},
-  "live-editor": {"/docs/live-editor/": "Copilot"}
+  "live-editor": {"/docs/live-editor/": "Copilot"},
+  "jira": {"/docs/integrations/bug-reporting/jira/": "Jira" }
   }

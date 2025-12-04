@@ -4,7 +4,7 @@ page_title: "Trello Bug Reporting Integration in Testsigma"
 metadesc: "How to integrate Testsigma with Trello for real-time bug reporting during Test Runs | Push bugs directly from Testsigma to your Trello project"
 noindex: false
 order: 16.53
-page_id: "Trello Bug Reporting Integration"
+page_id: "trello-bug-reporting-integration"
 warning: false
 contextual_links:
 - type: section

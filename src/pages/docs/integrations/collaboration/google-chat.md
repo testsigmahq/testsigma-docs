@@ -3,7 +3,7 @@ title: "Integrating Google Chat with Testsigma"
 metadesc: "Learn how to configure a Google Chat channel to receive notifications about Test Results in real-time from Testsigma Application"
 noindex: false
 order: 16.23
-page_id: "Integrating Google Chat with Testsigma for test run notifications"
+page_id: "google-chat-integration"
 warning: false
 contextual_links:
 - type: section

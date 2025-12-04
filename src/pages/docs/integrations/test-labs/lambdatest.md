@@ -3,7 +3,7 @@ title: "Integrate Testsigma with LambdaTest"
 metadesc: "LambdaTest integration lets you execute your Testsigma tests on BrowserStack. Learn how to integrate the LambdaTest Test Execution Platform with Testsigma"
 noindex: false
 order: 16.44
-page_id: "Integrate Testsigma with LambdaTest"
+page_id: "integrate-testsigma-with-lambdatest"
 warning: false
 contextual_links:
 - type: section
