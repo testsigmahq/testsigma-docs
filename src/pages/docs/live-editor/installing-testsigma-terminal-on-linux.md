@@ -1,9 +1,9 @@
 ---
 title: "Installing Testsigma Terminal on Linux"
 pagetitle: "Installing Testsigma Terminal on Linux"
-metadesc: "Learn to install Testsigma Terminal on Linux. Gain full control over test execution and debugging with the Live Editor to modify and run test steps instantly."
+metadesc: "Learn to install Testsigma Terminal on Linux. Gain full control over test execution and debugging with the Copilot to modify and run test steps instantly."
 noindex: false
-order: 10.3
+order: 10.13
 page_id: "installing-testsigma-terminal-on-linux"
 warning: false
 contextual_links:
@@ -16,7 +16,7 @@ contextual_links:
 
 ---
 
-Live Editor helps you author and validate tests through local execution for Salesforce, Desktop, and Web applications. To use it on Linux, you need to install the Testsigma Terminal application. This section guides you through downloading, installing, and configuring it on your Linux system.
+Copilot helps you author and validate tests through local execution for Salesforce, Desktop, and Web applications. To use it on Linux, you need to install the Testsigma Terminal application. This section guides you through downloading, installing, and configuring it on your Linux system.
 
 ---
 
@@ -42,7 +42,7 @@ Live Editor helps you author and validate tests through local execution for Sale
 8. Click **Login to Testsigma**. You will be redirected to Testsigma.
 
 [[info | **NOTE**:]]
-| Once you log in, the session stays valid for 24 hours. After that, you'll need to log in and authorize yourself again to continue using the Live Editor.
+| Once you log in, the session stays valid for 24 hours. After that, you'll need to log in and authorize yourself again to continue using the Copilot.
 
 1. Click **Open the desktop** app. The **Testsigma Terminal** opens.
 

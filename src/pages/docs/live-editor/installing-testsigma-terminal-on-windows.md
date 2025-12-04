@@ -1,9 +1,9 @@
 ---
 title: "Installing Testsigma Terminal on Windows"
 pagetitle: "Installing Testsigma Terminal on Windows"
-metadesc: "Learn to install Testsigma Terminal on Windows. Take full control of test execution and debugging with Live Editor to modify and run test steps instantly."
+metadesc: "Learn to install Testsigma Terminal on Windows. Take full control of test execution and debugging with Copilot to modify and run test steps instantly."
 noindex: false
-order: 10.4
+order: 10.14
 page_id: "installing-testsigma-terminal-on-windows"
 warning: false
 contextual_links:
@@ -16,7 +16,7 @@ contextual_links:
 
 ---
 
-Live Editor is the primary tool for test authoring and validation through local execution for Salesforce, Desktop, and Web applications. To enable this on Windows, you must install the Testsigma Terminal application. This section explains how to download, install, and set it up on your Windows machine.
+Copilot is the primary tool for test authoring and validation through local execution for Salesforce, Desktop, and Web applications. To enable this on Windows, you must install the Testsigma Terminal application. This section explains how to download, install, and set it up on your Windows machine.
 
 ---
 
@@ -31,7 +31,7 @@ Live Editor is the primary tool for test authoring and validation through local 
 4. Click **Login to Testsigma**. You will be redirected to Testsigma.
 
 [[info | **NOTE**:]]
-| Once you log in, the session stays valid for 24 hours. After that, you'll need to log in and authorize yourself again to continue using the Live Editor.
+| Once you log in, the session stays valid for 24 hours. After that, you'll need to log in and authorize yourself again to continue using the Copilot.
 
 1. Click **Open the desktop app**. The **Testsigma Terminal** opens.
 

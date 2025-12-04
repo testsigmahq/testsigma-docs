@@ -1,10 +1,10 @@
 ---
-title: "Editing a Test Case Using Live Editor"
-pagetitle: "Editing a Test Case Live Using Testsigma Live Editor"
-metadesc: "Learn how to edit a test case live using Testsigma Live Editor | Testsigma Live Editor allows you to check step details of the test case without having to re-run on test failure"
+title: "Editing a Test Case Using Copilot"
+pagetitle: "Editing a Test Case Live Using Testsigma Copilot"
+metadesc: "Learn how to edit a test case live using Testsigma Copilot | Testsigma Copilot allows you to check step details of the test case without having to re-run on test failure"
 noindex: false
-order: 10.5
-page_id: "Editing a Test Case Using Live Editor"
+order: 10.16
+page_id: "Editing a Test Case Using Copilot"
 search_keyword: ""
 warning: false
 contextual_links:
@@ -14,13 +14,13 @@ contextual_links:
   name: "Prerequisites"
   url: "#prerequisites"
 - type: link
-  name: "Steps to Edit a Test Case Using Live Editor"
-  url: "#steps-to-edit-a-test-case-using-live-editor"
+  name: "Steps to Edit a Test Case Using Copilot"
+  url: "#steps-to-edit-a-test-case-using-copilot"
 ---
 
 ---
 
-In Testsigma, Live Editor gives you complete control over test cases while executing, which helps fix issues or errors in real time. It eliminates the need to rerun the entire test after a failure, making debugging and test stabilization faster and more efficient. This article discusses editing test cases live while executing them using Live Editor.
+In Testsigma, Copilot gives you complete control over test cases while executing, which helps fix issues or errors in real time. It eliminates the need to rerun the entire test after a failure, making debugging and test stabilization faster and more efficient. This article discusses editing test cases live while executing them using Copilot.
 
 ---
 
@@ -32,7 +32,7 @@ In Testsigma, Live Editor gives you complete control over test cases while execu
 
 ---
 
-## **Steps to Edit a Test Case Using Live Editor**
+## **Steps to Edit a Test Case Using Copilot**
 
 
 1. In the left navigation bar, go to **Create Tests > Test Cases**.
@@ -60,7 +60,7 @@ In Testsigma, Live Editor gives you complete control over test cases while execu
    ![Stop Copilot](https://s3.amazonaws.com/static-docs.testsigma.com/new_images/projects/applications/Stop_Live_Editor.png)
 
 [[info | **NOTE**:]]
-| Clicking **Stop** stops the current execution but does not close the **Live Editor**. To close the **Live Editor**, open **Testsigma Terminal** application and click **Quit Live Editor**.
-| ![Quit Live Editor](https://s3.amazonaws.com/static-docs.testsigma.com/new_images/projects/applications/Quit_Testsigma_Lite.png)
+| Clicking **Stop** stops the current execution but does not close the **Live Editor**. To close the **Live Editor**, open **Testsigma Terminal** application and click **Quit Session**.
+| ![Quit Live Editor](https://s3.amazonaws.com/static-docs.testsigma.com/new_images/projects/live_editor/install_terminal_2.png)
 
 ---

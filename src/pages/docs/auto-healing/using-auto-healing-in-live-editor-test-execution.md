@@ -1,7 +1,7 @@
 ---
-title: "Using Auto-Healing in Live Editor Test Execution"
-page_title: "Using Auto-Healing in Live Editor Test Execution"
-metadesc: "Enable Auto-Healing in theLive Editor to validate and fix element locators in real time, ensuring tests stay stable despite UI changes during execution."
+title: "Using Auto-Healing in Copilot Test Execution"
+page_title: "Using Auto-Healing in Copilot Test Execution"
+metadesc: "Enable Auto-Healing in the Copilot to validate and fix element locators in real time, ensuring tests stay stable despite UI changes during execution."
 noindex: false
 order: 4.916
 page_id: "using-auto-healing-in-eive Editor-test-execution"
@@ -22,7 +22,7 @@ contextual_links:
 
 ---
 
-With Auto-Healing enabled, you can execute test cases directly in the Live Editor to validate element locators in real time. This helps ensure that any changes in the application’s UI are automatically detected and corrected during execution. This article discusses how auto-healing identifies and updates element locators while executing test cases in the Live Editor.
+With Auto-Healing enabled, you can execute test cases directly in the Copilot to validate element locators in real time. This helps ensure that any changes in the application’s UI are automatically detected and corrected during execution. This article discusses how auto-healing identifies and updates element locators while executing test cases in the Copilot.
 
 ---
 

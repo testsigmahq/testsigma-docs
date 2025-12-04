@@ -3,7 +3,7 @@ title: "Installing Testsigma Terminal"
 pagetitle: "Installing Testsigma Terminal for Live Editing"
 metadesc: "Learn how to install Testsigma Terminal, which is a Live Editor for Test Cases | Testsigma Terminal gives you complete control over test case execution and debugging to modify test steps immediately"
 noindex: false
-order: 10.2
+order: 10.12
 page_id: "Installing Testsigma Terminal for Debugging"
 search_keyword: ""
 warning: false
@@ -85,10 +85,10 @@ Live Editor is the primary tool for test authoring and validating through local 
 [[info | **NOTE**:]]
 | Once you login, the session stays valid for 24 hours. After that, you'll need to login and authorize yourself again to continue using the **Live Editor**.
 
-1. Click **Open the desktop app**. The **Testsigma Terminal** opens. 
-   ![Open the desktop App](https://s3.amazonaws.com/static-docs.testsigma.com/new_images/projects/terminal/Terminal_4.2.png)
+5. Click **Open the desktop app**. The **Testsigma Terminal** opens. 
+   ![Open the desktop App](https://s3.amazonaws.com/static-docs.testsigma.com/new_images/projects/live_editor/install_terminal_1.png)
 
-2. Wait until **Testsigma Terminal** downloads the necessary files and completes the installation.
+6. Wait until **Testsigma Terminal** downloads the necessary files and completes the installation.
 
 [[info | **NOTE**:]]
 | If you encounter any issues with the **Testsigma Terminal**, click **Report Issue** from the left panel. Provide a description of the problem, upload the agent log, and make sure to include the **App Session ID** and **Debugging ID**. To obtain the Debugging ID, ensure the agent was started through Testsigma.
@@ -98,7 +98,7 @@ Live Editor is the primary tool for test authoring and validating through local 
 ## **Steps to Uninstall Testsigma Terminal**
 
 1. Click **Quit Live Editor** to exit the **Live Editor**.
-   ![Quit Live Editor](https://s3.amazonaws.com/static-docs.testsigma.com/new_images/projects/applications/Quit_Live_Editor.png)
+   ![Quit Live Editor](https://s3.amazonaws.com/static-docs.testsigma.com/new_images/projects/live_editor/install_terminal_2.png)
    
 2. Uninstall/Remove **Testsigma Terminal** application.
    
