@@ -92,7 +92,7 @@ Testsigma allows you to generate test cases from requirements using Generative A
 > 
 > ### **Cause**
 > 
-> This issue occurs because Figma has recently tightened its API rate limits, which restrict how frequently external tools can request data. When these limits are exceeded, Figma temporarily stops returning page information, so Testsigma cannot load the list of pages and shows **No pages**. This happens more often with accounts with lower access such as **Viewer**, as they hit the reduced limits much faster.
+> Figma applies rate limits to REST API requests based on the user’s seat type and access level. When these limits are reached, Figma temporarily stops returning page/file information to external tools. As a result, Testsigma cannot load the pages and displays **No pages**. Users with lower access seats are more likely to reach these limits, which may cause the page list to stop loading intermittently.
 >
 > 
 > ### **Steps to Resolve the Issue**
