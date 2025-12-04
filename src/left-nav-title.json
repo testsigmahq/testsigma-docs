@@ -754,5 +754,8 @@
   "requirements": {"/docs/atto/generative-ai/generate-tests/requirements/": "Add Requirements"},
   "live-editor": {"/docs/atto/generative-ai/copilot/live-editor/": "In Testsigma"},
   "live-editor": {"/docs/live-editor/": "Copilot"},
-  "jira": {"/docs/integrations/bug-reporting/jira/": "Jira" }
+  "jira": {"/docs/integrations/bug-reporting/jira/": "Jira" },
+  "jira": {"/docs/atto/generative-ai/integrations/jira/": "Jira"},
+  "xray": {"/docs/atto/generative-ai/integrations/xray/": "Xray"},
+  "qtest": {"/docs/atto/generative-ai/integrations/qtest/": "qTest" }
   }

@@ -3,7 +3,7 @@ title: "Automating Chrome Extension in Testsigma"
 metadesc: "This article discusses the ways in which chrome extension can be automated in Testsigma | Learn Automating Chrome Extension for Hybrid & Cloud Executions in Testsigma"
 noindex: false
 order: 23.96
-page_id: "Automating Chrome Extension"
+page_id: "automating-chrome-extension"
 warning: false
 ---
 
