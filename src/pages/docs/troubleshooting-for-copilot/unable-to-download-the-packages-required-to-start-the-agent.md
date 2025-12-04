@@ -1,7 +1,7 @@
 ---
 title: "Unable to Download the Packages Required to Start the Agent?"
 pagetitle: "Unable to Download the Packages Required to Start the Agent?"
-metadesc: "LPackage downloads may fail if your network is unstable, a firewall blocks the download, or your device doesn’t have enough disk space."
+metadesc: "Package downloads may fail if your network is unstable, a firewall blocks the download, or your device doesn’t have enough disk space."
 noindex: false
 order: 10.27
 page_id: "unable-to-download-the-packages-required-to-start-the-agent-?"
