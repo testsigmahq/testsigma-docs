@@ -3,7 +3,7 @@ title: "Uploading Files NLP"
 metadesc: "This article discusses how to upload files to your test applicationusing the upload NLP. Learn how to upload the file from three sources"
 noindex: false
 order: 23.18
-page_id: "Uploading Files NLP"
+page_id: "uploading-files-nlp"
 warning: false
 ---
 

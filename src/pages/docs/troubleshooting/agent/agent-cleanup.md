@@ -4,7 +4,7 @@ page_title: "Testsigma Agent Cleanup Process"
 metadesc: "Know the possible reasons why Testsigma agent pops up and then closes unexpectedly. Learn steps to fix the issue by following the troubleshooting steps"
 noindex: false
 order: 23.36
-page_id: "Testsigma Agent Cleanup"
+page_id: "testsigma-agent-cleanup"
 warning: false
 contextual_links:
 - type: section

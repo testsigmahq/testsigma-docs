@@ -3,7 +3,7 @@ title: "Unable to Access URL from Testsigma Servers?"
 metadesc: "Learn the procedure to access URLs from Testsigma Servers. This guide covers the steps for accessing the URL if the given URL is somehow inaccessible."
 noindex: false
 order: 23.51
-page_id: "Unable to Access URL from Testsigma Servers?"
+page_id: "unable-to-access-url-from-testsigma-servers"
 warning: false
 ---
 

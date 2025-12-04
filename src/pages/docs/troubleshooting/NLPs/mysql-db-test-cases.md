@@ -3,7 +3,7 @@ title: "Use MySQL Addon in NLPs"
 metadesc: "Users can execute MySQL queries within NLPs using the MySQL Addon in Testsigma, enabling seamless integration and efficient database operations."
 noindex: false
 order: 23.19
-page_id: "Use MySQL Addon in NLPs"
+page_id: "mysql-addon-in-nlps"
 warning: false
 contextual_links:
 - type: section
