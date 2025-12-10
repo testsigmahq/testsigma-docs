@@ -74,14 +74,41 @@ Testsigma allows you to generate test cases from requirements using Generative A
 4. In the **Figma Designs** dialog,
    - Select a **Team**, **Project**, **Figma design file**, **Section** and **Page** from the respective dropdown menus.
    - Click **+ Select Frames**, select the required frames in the **Select Frames** screen, and click **Save**.
-   - If you want to remove all the selections that you have made, click **Clear Selection**.
-     
      ![Figma Inputs](https://s3.amazonaws.com/static-docs.testsigma.com/new_images/projects/atto/requirements_2.png)
+   - If you want to remove all the selections that you have made, click **Clear Selection**.
 
 [[info | **NOTE**:]]
 | - If the selected page has no **Sections**, you can directly select the frames.
 | 
 | - The maximum limit for selecting frames is 10.
+
+
+> <p id="prerequisites">Troubleshooting: Figma Pages Not Loading in Testsigma</p>
+> 
+>
+> In some cases, the Figma pages may fail to load and display **No pages** even if the same file worked previously. This issue typically occurs when Figma’s API rate limits are exceeded, preventing Testsigma from fetching the required page data. 
+>
+> ![Figma No Page Error](https://s3.amazonaws.com/static-docs.testsigma.com/new_images/projects/Updated_Doc_Images/Figma_No_Page_Error.png)
+> 
+> ### **Cause**
+> 
+> Figma applies rate limits to REST API requests based on the user’s seat type and access level. When these limits are reached, Figma temporarily stops returning page/file information to external tools. As a result, Testsigma cannot load the pages and displays **No pages**. Users with lower access seats are more likely to reach these limits, which may cause the page list to stop loading intermittently.
+>
+> 
+> ### **Steps to Resolve the Issue**
+> 
+> **1. Verify the Figma API Key Permissions** <br>
+> Ensure the API key used in Testsigma belongs to a Figma account with a **Dev/Full seat**. These roles provide higher API rate limits and help prevent intermittent failures.
+> 
+> **2. Re-generate the API Key (If Needed)** <br>
+> If the current key was created under a seat with restricted API access, generate a new key from an account with a higher access tier.
+> 
+> **3. Wait for Rate Limits to Reset** <br>
+> If rate limits were exceeded, Figma may temporarily block further requests. Wait a few minutes and then try loading the pages again.
+> 
+> **4. Review Figma Rate Limits** <br>
+> For detailed info on rate limits, see [Figma’s Rate Limits](https://developers.figma.com/docs/rest-api/rate-limits/).
+
 
 ---
 

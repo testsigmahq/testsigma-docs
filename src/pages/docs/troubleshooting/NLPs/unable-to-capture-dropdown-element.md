@@ -3,7 +3,7 @@ title: "Unable to capture dropdown element"
 metadesc: " What to do if you are not able to capture drop-down element."
 noindex: false
 order: 23.12
-page_id: "Unable to capture dropdown element"
+page_id: "unable-to-capture-dropdown-element"
 warning: false
 contextual_links:
 - type: section

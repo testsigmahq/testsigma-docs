@@ -3,7 +3,7 @@ title: "Integrations in Testsigma"
 metadesc: "Integration with different test labs lets you execute your Testsigma tests on those tools. Learn how to integrate test labs with Testsigma application."
 noindex: false
 order: 16.1
-page_id: "Integrations in Testsigma"
+page_id: "integrations-in-testsigma"
 warning: false
 contextual_links:
 - type: section

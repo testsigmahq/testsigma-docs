@@ -3,7 +3,7 @@ title: "Drag & Drop NLP"
 metadesc: "This article discusses how to drag the element from UI-identifier and drop on the element to UI-identifier. Drag an element from one position and drop it in another position"
 noindex: false
 order: 23.17
-page_id: "Drag & Drop NLP"
+page_id: "drag-drop-nlp"
 warning: false
 ---
 

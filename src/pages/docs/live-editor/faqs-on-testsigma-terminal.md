@@ -1,10 +1,10 @@
 ---
-title: "FAQs on Testsigma Terminal"
-pagetitle: "FAQs on Testsigma Live Editor"
-metadesc: "Find answers to frequently questions about Testsigma's Live Editor (Testsigma Terminal), including its features, installation, usage, and how it helps resolve issues in test cases in real time"
+title: "FAQs on Testsigma Copilot"
+pagetitle: "FAQs on Testsigma Copilot"
+metadesc: "Find answers to frequently questions about Testsigma's Copilot (Testsigma Terminal), including its features, installation, usage, and how it helps resolve issues in test cases in real time"
 noindex: false
-order: 10.6
-page_id: "Frequently Asked Questions on Live Editor"
+order: 10.17
+page_id: "Frequently Asked Questions on Copilot"
 search_keyword: ""
 warning: false
 ---
@@ -14,7 +14,7 @@ warning: false
 
 ### **1. Can I run the old Java agent and Testsigma Terminal on the same machine?**
 
-**Answer:** No, only one active agent can run at a time. Testsigma Terminal automatically detects an existing Java agent and uses it for **Live Editor** and test executions.
+**Answer:** No, only one active agent can run at a time. Testsigma Terminal automatically detects an existing Java agent and uses it for **Copilot** and test executions.
 
 ---
 
@@ -73,7 +73,7 @@ warning: false
 
 #### **Managing Testsigma Terminal**
 
-- **Stop:** Click **Quit Live Editor**.
+- **Stop:** Click **Quit Session**.
     
 - **Start:** Launch **Testsigma Terminal** from your applications.
     
@@ -162,16 +162,14 @@ warning: false
 
 ---
 
-### **15. What should I do if I see a port error during Terminal or Live Editor installation?**
+### **15. What should I do if I see a port error during Testsigma Terminal installation?**
 
-**Answer:** You may see an error screen during the download of a new Terminal or Live Editor if all required ports are in use. This usually occurs when processes from a previous installation are still running. This article discusses resolving port-in-use errors when installing the Terminal.
-
-![Error](https://s3.amazonaws.com/static-docs.testsigma.com/new_images/projects/Atto_Testsigma/Terminal_Port_Error.png)
+**Answer:** You may see an error screen during the download of a new Terminal if all required ports are in use. This usually occurs when processes from a previous installation are still running. This article discusses resolving port-in-use errors when installing the Terminal.
 
 **Steps to Resolve for macOS:**
 
-1. Quit the **Live Editor** if it is open. 
-   ![Quit Copilot](https://s3.amazonaws.com/static-docs.testsigma.com/new_images/projects/Atto_Testsigma/Quit_Live_Editor_PE.png)
+1. Click **Quit Session** if it is open. 
+   ![Quit Copilot](https://s3.amazonaws.com/static-docs.testsigma.com/new_images/projects/live_editor/install_terminal_2.png)
 
 2. Open Activity Monitor and end any **wrapper** or **atto** processes.
    ![Kill Tasks](https://s3.amazonaws.com/static-docs.testsigma.com/new_images/projects/Atto_Testsigma/Kill_Tasks_in_Activity_Monitor.png)
@@ -226,7 +224,7 @@ warning: false
 ---
 
 
-**16. What should I do if I see an authentication error while installing the Terminal or Live Editor?**
+**16. What should I do if I see an authentication error while installing the Terminal?**
 
 **Answer:** Authentication errors during installation occur if the user switches accounts through the installation or if leftover processes or files from a previous installation remain. To resolve this, perform the common cleanup process as described in the port busy issue.
 

@@ -2,7 +2,7 @@
 title: "Integrate Testsigma with Linear"
 metadecs: "Learn how to integrate Testsigma application with Linear for real-time bug reporting during Test Runs | Push bugs directly from Testsigma to your Linear project"
 order: 16.52
-page_id: "Linear"
+page_id: "linear-integration"
 warning: false
 contextual_links:
 - type: section

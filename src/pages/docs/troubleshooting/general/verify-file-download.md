@@ -4,7 +4,7 @@ page_title: "Verify/Confirm File Download"
 metadesc: "Learn how to add test steps to verfiy or confirm file download in Testsigma | Creating the following test scenario will help verify/confirm file download"
 noindex: false
 order: 23.93
-page_id: "Verify/Confirm File Download"
+page_id: "verify-file-download"
 warning: false
 contextual_links:
 - type: section
