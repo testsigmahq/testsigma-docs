@@ -757,6 +757,5 @@
   "jira": {"/docs/integrations/bug-reporting/jira/": "Jira" },
   "jira": {"/docs/atto/generative-ai/integrations/jira/": "Jira"},
   "xray": {"/docs/atto/generative-ai/integrations/xray/": "Xray"},
-  "qtest": {"/docs/atto/generative-ai/integrations/qtest/": "qTest" },
-  "manage-user-and-organization-settings": { "/docs/configuration/manage-user-and-organization-settings/": "User & Organization Settings" }
+  "qtest": {"/docs/atto/generative-ai/integrations/qtest/": "qTest"}
   }
