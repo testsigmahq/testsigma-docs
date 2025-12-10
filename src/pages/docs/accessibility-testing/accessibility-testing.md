@@ -13,7 +13,7 @@ contextual_links:
   name: "Prerequisites"
   url: "#prerequisites"
 - type: link
-  name: "Steps to Enable Accessibility Testsing in Test Steps"
+  name: "Steps to Enable Accessibility Testing in Test Steps"
   url: "#steps-to-enable-accessibility-testing-in-test-steps"
 - type: link
   name: "Steps to Enable Accessibility Testing in Test Plans"
