@@ -71,16 +71,19 @@ With Testsigma, you can perform accessibility testing to ensure your iOS and And
 
 ## **Steps to Enable Accessibility Testing in Test Plans**
 
-1. When creating a test plan, enable the **Accessibility Testing** toggle, expand the **WCAG Versions & Conformance Level** dropdown, and select the required version in **Additional Settings**.
-   ![Accessibility Testing](https://s3.amazonaws.com/static-docs.testsigma.com/new_images/projects/accessibility_testing/AT_mobile_1.1.png)
+1. When creating a test plan, enable the **Accessibility Testing** toggle in **Additional Settings**. 
+   ![Accessibility Testing](https://s3.amazonaws.com/static-docs.testsigma.com/new_images/projects/accessibility_testing/AT_mobile_n_2.png)
 
-2. To execute the test plan, click **Run Now**.
+2. Expand the **WCAG Versions & Conformance Level** dropdown, and select the required version in **Additional Settings**.
+   ![WCAG](https://s3.amazonaws.com/static-docs.testsigma.com/new_images/projects/accessibility_testing/AT_mobile_n_1.png)
+
+3. To execute the test plan, click **Run Now**.
    ![Run Now](https://s3.amazonaws.com/static-docs.testsigma.com/new_images/projects/accessibility_testing/AT_mobile_2.1.png)
    
-3. After the test plan execution completes, click **View Reports** for that test plan.
+4. After the test plan execution completes, click **View Reports** for that test plan.
    ![View Report](https://s3.amazonaws.com/static-docs.testsigma.com/new_images/projects/accessibility_testing/AT_mobile_3.png)
    
-4. On the **Report** page, click **View Report** in the bottom right corner to open a detailed **Accessibility Testing Report**.
+5. On the **Report** page, click **View Report** in the bottom right corner to open a detailed **Accessibility Testing Report**.
    ![Report](https://s3.amazonaws.com/static-docs.testsigma.com/new_images/projects/accessibility_testing/AT_mobile_4.png)
 
 ---
