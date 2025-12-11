@@ -52,11 +52,11 @@ Testsigma also integrates seamlessly with tools like Jira, Figma, Xray, GitHub, 
 
 ## **Testsigma Copilot Capabilities**
 
-- <a href="http://testsigma.com/docs/atto/generative-ai/copilot/web-recorder/" rel="nofollow">Copilot in Web Recorder</a>
+- <a href="https://testsigma.com/docs/atto/generative-ai/copilot/web-recorder/" rel="nofollow">Copilot in Web Recorder</a>
 
-- <a href="http://testsigma.com/docs/atto/generative-ai/copilot/mobile-recorder/" rel="nofollow">Copilot in Mobile Recorder</a>
+- <a href="https://testsigma.com/docs/atto/generative-ai/copilot/mobile-recorder/" rel="nofollow">Copilot in Mobile Recorder</a>
 
-- <a href="http://testsigma.com/docs/atto/generative-ai/copilot/live-editor/" rel="nofollow">Copilot in Live Editor</a>
+- <a href="https://testsigma.com/docs/atto/generative-ai/copilot/live-editor/" rel="nofollow">Copilot in Live Editor</a>
 
 ----
 
@@ -85,15 +85,15 @@ Testsigma also integrates seamlessly with tools like Jira, Figma, Xray, GitHub, 
 
 ## **Integrations**
 
-- <a href="http://testsigma.com/docs/atto/generative-ai/integrations/jira/" rel="nofollow">Jira</a>
+- <a href="https://testsigma.com/docs/atto/generative-ai/integrations/jira/" rel="nofollow">Jira</a>
 
-- <a href="http://testsigma.com/docs/atto/generative-ai/integrations/figma/" rel="nofollow">Figma</a>
+- <a href="https://testsigma.com/docs/atto/generative-ai/integrations/figma/" rel="nofollow">Figma</a>
 
-- <a href="http://testsigma.com/docs/atto/generative-ai/integrations/xray/" rel="nofollow">Xray</a>
+- <a href="https://testsigma.com/docs/atto/generative-ai/integrations/xray/" rel="nofollow">Xray</a>
 
-- <a href="http://testsigma.com/docs/atto/generative-ai/integrations/qtest/" rel="nofollow">qTest</a>
+- <a href="https://testsigma.com/docs/atto/generative-ai/integrations/qtest/" rel="nofollow">qTest</a>
 
-- <a href="http://testsigma.com/docs/atto/generative-ai/integrations/github/" rel="nofollow">GitHub</a>
+- <a href="https://testsigma.com/docs/atto/generative-ai/integrations/github/" rel="nofollow">GitHub</a>
 
 ---
 

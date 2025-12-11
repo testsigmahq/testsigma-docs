@@ -13,37 +13,36 @@ contextual_links:
   name: "Prerequisites"
   url: "#prerequisites"
 - type: link
-  name: "Configuring Test Steps for Accessibility Testing"
-  url: "#configuring-test-steps-for-accessibility-testing"
+  name: "Steps to Enable Accessibility Testing in Test Steps"
+  url: "#steps-to-enable-accessibility-testing-in-test-steps"
 - type: link
-  name: "Configuring a Test Plan for Accessibility Testing"
-  url: "#configuring-a-test-plan-for-accessibility-testing"
+  name: "Steps to Enable Accessibility Testing in Test Plans"
+  url: "#steps-to-enable-accessibility-testing-in-test-plans"
 - type: link
-  name: "Accessibility Rules"
-  url: "#accessibility-rules"
+  name: "Interacting with Accessibility Report"
+  url: "#interacting-with-accessibility-report"
 ---
 
 ---
 
-With Testsigma, you can implement accessibility testing for Android and iOS applications to ensure compliance with accessibility guidelines. This allows you to test and monitor the accessibility of mobile applications, enhancing the user experience for individuals with disabilities. This article describes how to perform mobile accessibility testing in Testsigma.
+With Testsigma, you can perform accessibility testing to ensure your iOS and Android mobile applications meet accessibility standards. You can enable accessibility checks at specific test steps to scan the application’s screen state at the exact point you want to validate. This article discusses how to perform Accessibility Testing for mobile applications in Testsigma.
 
 ---
-
 
 > <p id="prerequisites">Prerequisites</p>
 >
 > Before you begin, ensure that you have referred to:
-> 1. [Documentation on creating test plans](https://testsigma.com/docs/test-management/test-plans/overview/).
-> 2. [Documentation on creating test suite](https://testsigma.com/docs/test-management/test-suites/overview/).
-> 3. [Documentation on creating test machines](https://testsigma.com/docs/test-management/test-plans/manage-test-machines/).
+> 1. You have enabled **Web Accessibility Testing - Step Level** from **Settings > Preferences > Web Accessibility Testing**.
+> 2. [Documentation on creating test plans](https://testsigma.com/docs/test-management/test-plans/overview/).
+> 3. [Documentation on creating test suite](https://testsigma.com/docs/test-management/test-suites/overview/).
+> 4. [Documentation on creating test machines](https://testsigma.com/docs/test-management/test-plans/manage-test-machines/).
 
 ---
 
-## **Configuring Test Steps for Accessibility Testing**
+## **Steps to Enable Accessibility Testing in Test Steps**
 
 1. From the left navigation bar, go to **Create Tests > Test Cases**.
    ![Test Cases](https://s3.amazonaws.com/static-docs.testsigma.com/new_images/projects/applications/Test_Cases_Mobile_Accessibility.png)
-
 
 2. Open the test case in which you want to configure test steps for **Accessibility Testing**.
    ![Accessibility Testing](https://s3.amazonaws.com/static-docs.testsigma.com/new_images/projects/applications/Test_Cases_Page_Accessibility_Testing.png)
@@ -61,116 +60,77 @@ With Testsigma, you can implement accessibility testing for Android and iOS appl
 | 2. To select this option in the **Recorder**, go to **Test Step > Step Settings** and select **Enable Accessibility Testing for the Step**.
 |    ![Option on Recorder](https://s3.amazonaws.com/static-docs.testsigma.com/new_images/projects/applications/Option_On_Recorder_MAT.png)
 
-1. Repeat steps 3–4 for all test steps you want to configure in the required test cases.
+5. Repeat steps 3–4 for all test steps you want to configure in the required test cases.
 
-2. After configuring test steps in the test cases, add them to a test suite, and then add test suites to a test plan.
+6. After configuring test steps in the test cases, add them to a test suite, and then add test suites to a test plan.
 
 [[info | **NOTE**:]]
 | You can configure **Step Groups** for Accessibility Testing using the same steps. However, this feature is available only on the **Test Authoring** page and not in the **Recorder**.
 
-
 ---
 
-## **Configuring a Test Plan for Accessibility Testing**
+## **Steps to Enable Accessibility Testing in Test Plans**
 
-1. While creating a test plan, turn on the **Accessibility Testing** toggle in **Additional Settings**.
+1. When creating a test plan, enable the **Accessibility Testing** toggle in **Additional Settings**. 
+   ![Accessibility Testing](https://s3.amazonaws.com/static-docs.testsigma.com/new_images/projects/accessibility_testing/AT_mobile_n_2.png)
+
+2. Expand the **WCAG Versions & Conformance Level** dropdown, and select the required version in **Additional Settings**.
+   ![WCAG](https://s3.amazonaws.com/static-docs.testsigma.com/new_images/projects/accessibility_testing/AT_mobile_n_1.png)
+
+3. To execute the test plan, click **Run Now**.
+   ![Run Now](https://s3.amazonaws.com/static-docs.testsigma.com/new_images/projects/accessibility_testing/AT_mobile_2.1.png)
    
-   ![Additional Settings](https://s3.amazonaws.com/static-docs.testsigma.com/new_images/projects/applications/Accessibility_Testing_Toggle_Mobile.png)
-
-
-2. To execute the test plan, click **Run Now**.
+4. After the test plan execution completes, click **View Reports** for that test plan.
+   ![View Report](https://s3.amazonaws.com/static-docs.testsigma.com/new_images/projects/accessibility_testing/AT_mobile_3.png)
    
-   ![Run Now](https://s3.amazonaws.com/static-docs.testsigma.com/new_images/projects/applications/Run_Now_MAT.png)
-
-
-3. After the test plan execution completes, click **View Reports** for that test plan.
-   
-   ![View Reports](https://s3.amazonaws.com/static-docs.testsigma.com/new_images/projects/applications/Reports_MAT.png)
-
-
-4. On the **Report** page, click **View Report** in the bottom right corner to open a detailed **Accessibility Testing Report**.
-   
-   ![Accessibility Testing Report](https://s3.amazonaws.com/static-docs.testsigma.com/new_images/projects/applications/View_Reports_MAT.png)
-
+5. On the **Report** page, click **View Report** in the bottom right corner to open a detailed **Accessibility Testing Report**.
+   ![Report](https://s3.amazonaws.com/static-docs.testsigma.com/new_images/projects/accessibility_testing/AT_mobile_4.png)
 
 ---
 
 ## **Interacting with Accessibility Report**
 
-### **Top Bar**
+The **Accessibility Report** page displays the results of your accessibility scans for Android and iOS applications. You can use this page to review errors, check severity levels, and identify the specific UI elements that need attention.
 
-![Top Bar](https://s3.amazonaws.com/static-docs.testsigma.com/new_images/projects/applications/Report_Name_MAT.png)
+The page is organized into two main tabs: **Overview** and **All Issues**.
 
-- **Title**: Displays the title of the report (e.g., Demo MAT).
+### **Overview Tab**
 
-- **Run Information**: Indicates the specific test run ID (e.g., Run - 45).
+The **Overview** tab provides a visual summary of the test execution, helping you quickly check the overall status of the application.
+   - **Issue Overview:** Displays a donut chart that summarizes all issues found during the test. The chart groups issues by severity: **Critical, Serious, Moderate, Minor,** and **Success**. ![Issue Overview](https://s3.amazonaws.com/static-docs.testsigma.com/new_images/projects/accessibility_testing/AT_mobile_5.png)
+   - **Issues by WCAG Principle:** Organizes findings by WCAG principles, such as **Perceivable, Operable, Understandable,** and **Robust**. This section lists the specific criteria violations and the number of failed checks for each principle. ![Principle](https://s3.amazonaws.com/static-docs.testsigma.com/new_images/projects/accessibility_testing/AT_mobile_6.png)
+   - **Issues by Components:** Categorizes issues by native UI element types. This helps you see if specific mobile components cause repeated errors. ![Components](https://s3.amazonaws.com/static-docs.testsigma.com/new_images/projects/accessibility_testing/AT_mobile_7.png)
 
----
+### **All Issues Tab**
 
-### **Test Cases Dropdown**
+The **All Issues** tab displays a detailed list of every violation found. You can use this tab to investigate specific bugs and view relevant code. This tab includes search tools, an issues list, and a details pane.
 
-![Test Cases Dropdown](https://s3.amazonaws.com/static-docs.testsigma.com/new_images/projects/applications/TestCases_Dropdown_MAT.png)
+   - #### **Search and Filter Options**
+     The top bar helps you locate specific issues:
+       - **Dropdown Filters:** Select **All TestCases** to view all issues, or select a specific test case to filter the results. ![Dropdown](https://s3.amazonaws.com/static-docs.testsigma.com/new_images/projects/accessibility_testing/AT_mobile_8.png)
+       - **Filter and Search:** Select **Filters** to apply specific criteria, or use the **Search** box to find issues by keyword. ![Search](https://s3.amazonaws.com/static-docs.testsigma.com/new_images/projects/accessibility_testing/AT_mobile_9.png)
+       - **View Options:** Use the status dropdown to filter the list by issue status. ![View Options](https://s3.amazonaws.com/static-docs.testsigma.com/new_images/projects/accessibility_testing/AT_mobile_15.png)
 
-- This dropdown helps you filter the report by specific test cases that are tested for accessibility compliance. 
+   - #### **Issues List**
+     The main table on the left lists the violations based on your search criteria.
+      - **WCAG Criteria:** Shows the specific rule ID. You can sort the list by this column.
+      - **Check Description:** Provides a summary of the rule violation.
+      - **Status:** Indicates the result of the check. 
+      - **No of Checks:** Shows the number of times this specific issue occurred.
+      - **Severity:** Displays a color-coded label indicating the impact level. ![Issue List](https://s3.amazonaws.com/static-docs.testsigma.com/new_images/projects/accessibility_testing/AT_mobile_11.png)
 
-   [[info | **NOTE**:]]
-   | By default, all test cases are selected, but you can choose a specific test case from the dropdown to focus on issues with one URL at a time.
+   - #### **Issue Details**
+     When you select a row in the **Issues List**, the pane on the right displays detailed information to help you fix the bug.
+      - **Previous / Next:** Select these buttons to look through all the instances of the single selected issue. If the No of Checks shows that the issue occurred multiple times, you can use these buttons to cycle through and inspect all of those instances.
+      - **Description & Tags:** Shows the full definition of the violation, along with tags for the WCAG Version and Conformance Level.
+      - **Affected Test Step:** Identifies the specific Test Case and Test Step where the failure occurred.
+      - **Element Details:** Displays the actual native code for the element causing the issue.
+      - **Screenshot:** Shows an image of the mobile screen element at the time the error was detected. ![Issue Details](https://s3.amazonaws.com/static-docs.testsigma.com/new_images/projects/accessibility_testing/AT_mobile_12.png)
+  
+### **Global Header Actions**
 
----
-
-### **Issue Overview**
-
-![Issue Overview](https://s3.amazonaws.com/static-docs.testsigma.com/new_images/projects/applications/Issue_Overview_MAT.png)
-
-- **Total Issues**: The Donut Chart displays the total number of issues detected during the test. Depending on severity, issues are categorized as Critical, Serious, Moderate, and Minor. 
-
-- **Issues by Category**: This categorization provides users insights into specific accessibility challenges that were identified with a horizontal progress bar showing the number of issues under that category.
-
----
-
-### **Violations/Review Tabs**
-
-![Violations/Review Tabs](https://s3.amazonaws.com/static-docs.testsigma.com/new_images/projects/applications/Violations_Reviews_MAT.png)
-
-- **Violations**: This lists all accessibility issues that need immediate action.
-
-- **Review Required**: This lists all accessibility issues that need manual review. Although Testsigma has identified these issues, we recommend a closer review for accuracy.
-
-[[info | **NOTE**:]]
-| The issues are color-coded with labels to indicate their severity level. You can also filter the issues based on severity and category. 
-
----
-
-### **Issue Navigation Panel**
-
-![Issue Navigation](https://s3.amazonaws.com/static-docs.testsigma.com/new_images/projects/applications/Issues_Navigation_MAT.png)
-
-- **Pagination Controls**: Provides navigation between the individual issues of specific issues selected under **Violations** and **Review Tabs**.
-
-- **Next/Previous Buttons**: Allows users to scroll through the list of identified issues.
-
-- **Issue Details**: This section briefly explains the detected issue with the affected **Affected Test Step**, **Element Details**, and **Screenshots**. 
-
-
----
-
-## **Accessibility Rules**
-
-| **Rule ID**                      | **Description**                                                             | **Platform**         | **WCAG Compliance**      |
-|------------------------------|-------------------------------------------------------------------------|------------------|----------------------|
-| TEXT\_COLOR\_CONTRAST          | Ensures text contrast meets minimum readability standards.              | Android & iOS   | 2.0 – 1.4.3 AA      |
-| NESTED\_CONTROL               | Ensures interactive elements are not nested within each other.         | Android         | 2.0 – 2.1.1 A       |
-| IMAGE\_VIEW\_DESCRIPTION       | Ensures images have meaningful descriptions for assistive technologies. | Android & iOS   | 2.0 – 1.1.1 A       |
-| INTERACTIVE\_ELEMENT\_LABEL    | Ensures interactive elements have clear accessibility labels.           | Android         | 2.1 – 2.4.6 AA      |
-| LABEL\_IN\_NAME                | Ensures text labels match their accessibility labels.                   | Android & iOS   | 2.1 – 2.5.3 A       |
-| BUTTON\_IN\_NAME               | Ensures button labels start with capital letters.                       | Android         | 2.1 – 3.1.6 AAA     |
-| EDITABLE\_TEXT\_LABEL          | Ensures editable elements have both name and value.                     | Android         | 2.0 – 4.1.2 A       |
-| DUPLICATE\_TEXT\_LABEL         | Ensures no duplicate accessibility labels exist on the same screen.     | Android         | 2.1 – 4.1.2 A       |
-| TOUCH\_TARGET\_SIZE            | Ensures interactive elements have a minimum tappable area.              | Android & iOS | 2.1 – 2.5.5 AAA |
-| NESTED\_ELEMENT\_NAME          | Ensures visible text is included in accessible names.                   | iOS              | 2.0 – 1.3.2 A       |
-| ACTIVE\_CONTROL               | Ensures interactive elements have accessible names.                      | iOS              | 2.0 – 4.1.2 A       |
-| COLLIDING\_ELEMENT            | Ensures elements do not overlap.                                        | iOS platform guideline | – |
-
-
+  The top-right corner of the page provides global actions for the report:
+   - **Compare Runs:** Select this to compare the current report against previous test runs to track improvements. 
+   - **Export:** Select the export icon to save the report data.![Header](https://s3.amazonaws.com/static-docs.testsigma.com/new_images/projects/accessibility_testing/AT_mobile_14.png)
 
 ---
