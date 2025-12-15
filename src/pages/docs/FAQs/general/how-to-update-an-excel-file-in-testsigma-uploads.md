@@ -45,7 +45,7 @@ When you modify an Excel file during a test run, the changes are stored locally 
 
 ## **Steps to Resolve the Issue**
 
-1. In you test case, first use the **Wait the data datavalue into the Excelfile excel-path with Cell value rowNo, columnNo, sheet-index and store the path in runtime variable variable-name (supports upload section)** NLP to enter the value that you want to add to the excel file.
+1. In your test case, first use the **Wait the data datavalue into the Excelfile excel-path with Cell value rowNo, columnNo, sheet-index and store the path in runtime variable variable-name (supports upload section)** NLP to enter the value that you want to add to the excel file.
    ![NLP 1](https://s3.amazonaws.com/static-docs.testsigma.com/new_images/projects/faq/uploads_4.1.png) 
 
    - Enter the value you want to write into the **datavalue** placeholder.![datavalue](https://s3.amazonaws.com/static-docs.testsigma.com/new_images/projects/faq/uploads_5.png)
@@ -73,7 +73,7 @@ When you modify an Excel file during a test run, the changes are stored locally 
    - Click the **uploadname** placeholder and enter your excel file’s name. ![uploadname](https://s3.amazonaws.com/static-docs.testsigma.com/new_images/projects/faq/uploads_22.png)
      [[info | **NOTE**:]]
      | To get **uploadname** and **upload id**, go to **Uploads** and hover over the excel file you want to update. ![Uploads](https://s3.amazonaws.com/static-docs.testsigma.com/new_images/projects/faq/uploads_26.png)
-   - Enter the URL - **https://app.testsigma.com/api/v1/uploads/**  and append the upload id from the upload page URL. ![URL](https://s3.amazonaws.com/static-docs.testsigma.com/new_images/projects/faq/uploads_23.png)
+   - Enter the URL - **[https://app.testsigma.com/api/v1/uploads/](https://app.testsigma.com/api/v1/uploads/)**  and append the upload id from the upload page URL. ![URL](https://s3.amazonaws.com/static-docs.testsigma.com/new_images/projects/faq/uploads_23.png)
    - Enter the api key in the **testdata** placeholder. ![api](https://s3.amazonaws.com/static-docs.testsigma.com/new_images/projects/faq/uploads_24.png)
      [[info | **NOTE**:]]
      | Please refer to the [documentation on generating api keys](https://testsigma.com/docs/configuration/api-keys/). 
