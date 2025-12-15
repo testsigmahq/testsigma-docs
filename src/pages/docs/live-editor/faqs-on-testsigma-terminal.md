@@ -1,10 +1,10 @@
 ---
-title: "FAQs on Testsigma Copilot"
-pagetitle: "FAQs on Testsigma Copilot"
-metadesc: "Find answers to frequently questions about Testsigma's Copilot (Testsigma Terminal), including its features, installation, usage, and how it helps resolve issues in test cases in real time"
+title: "FAQs on Testsigma Live Editor"
+pagetitle: "FAQs on Testsigma Live Editor"
+metadesc: "Find answers to frequently questions about Testsigma's Live Editor (Testsigma Terminal), including its features, installation, usage, and how it helps resolve issues in test cases in real time"
 noindex: false
 order: 10.17
-page_id: "Frequently Asked Questions on Copilot"
+page_id: "frequently-asked-questions-on-live-editor"
 search_keyword: ""
 warning: false
 ---
@@ -14,7 +14,7 @@ warning: false
 
 ### **1. Can I run the old Java agent and Testsigma Terminal on the same machine?**
 
-**Answer:** No, only one active agent can run at a time. Testsigma Terminal automatically detects an existing Java agent and uses it for **Copilot** and test executions.
+**Answer:** No, only one active agent can run at a time. Testsigma Terminal automatically detects an existing Java agent and uses it for **Live Editor** and test executions.
 
 ---
 
