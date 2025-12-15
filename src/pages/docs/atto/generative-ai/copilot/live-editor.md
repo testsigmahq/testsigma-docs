@@ -1,7 +1,7 @@
 ---
-title: "Copilot in Testsigma"
-page_title: "Copilot in Testsigma"
-metadesc: "The Copilot in Testsigma helps you debug, execute, and modify test cases in real time. It also enables you to generate test cases using Testsigma Copilot"
+title: "Copilot in Live Editor"
+page_title: "Copilot in Live Editor"
+metadesc: "The Live Editor in Testsigma helps you debug, execute, and modify test cases in real time. It also enables you to generate test cases using Testsigma Live Editor"
 noindex: false
 order: 4.7433
 page_id: "copilot-in-live-editor"
@@ -19,13 +19,13 @@ contextual_links:
 
 ---
 
-The Copilot in Testsigma helps you debug, execute, and modify test cases in real time. It also enables you to generate test cases using Testsigma Copilot, allowing you to convert prompts into executable test steps. Whether you're reviewing a failed step, learning elements dynamically, or creating new tests from scratch, the Copilot gives you complete control over the test execution flow. This article discusses the capabilities of the Copilot in Testsigma.
+The Live Editor in Testsigma helps you debug, execute, and modify test cases in real time. It also enables you to generate test cases using Testsigma Live Editor, allowing you to convert prompts into executable test steps. Whether you're reviewing a failed step, learning elements dynamically, or creating new tests from scratch, the Live Editor gives you complete control over the test execution flow. This article discusses the capabilities of the Live Editor in Testsigma.
 
 ---
 
 > <p id="prerequisites">Prerequisites</p>
 >
-> Before you begin, ensure **Testsigma Terminal** is installed and the **Copilot** is ready.
+> Before you begin, ensure **Testsigma Terminal** is installed and the **Live Editor** is ready.
 
 ---
 
