@@ -487,7 +487,7 @@
     "/docs/configuration/api-keys/": "API Keys"
   },
   "security": {
-    "/docs/configuration/security/": "Security(SSO)"
+    "/docs/configuration/security/": "Security"
   },
   "api": {
     "/docs/api/": "Testsigma REST APIs"
@@ -755,5 +755,9 @@
   "jira": {"/docs/integrations/bug-reporting/jira/": "Jira" },
   "jira": {"/docs/atto/generative-ai/integrations/jira/": "Jira"},
   "xray": {"/docs/atto/generative-ai/integrations/xray/": "Xray"},
-  "qtest": {"/docs/atto/generative-ai/integrations/qtest/": "qTest"}
+  "qtest": {"/docs/atto/generative-ai/integrations/qtest/": "qTest"},
+  "user-settings": {"/docs/configuration/user-settings/": "User Settings" },
+  "google-sso": {"/docs/configuration/security/google-sso/": "Setting Up Google SSO Login" },
+  "okta-sso": {"/docs/configuration/security/okta-sso/": "Setting Up Okta SSO Login (SAML)" },
+  "azure-sso": {"/docs/configuration/security/azure-sso/": "Setting Up Azure SSO Login (SAML)" }
   }

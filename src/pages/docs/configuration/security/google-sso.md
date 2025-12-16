@@ -3,8 +3,8 @@ title: "Setting Up Google Single Sign-On(SSO) Login in Testsigma"
 page_title: "Setting up Google Single Sign-On (SSO) login"
 metadesc: "Learn how to set up Single Sign-On (SSO) with Google in Testsigma. With Google SSO, you are not required to store and manage passwords for the websites."
 noindex: false
-order: 19.22
-page_id: "Setting up Google Single Sign-On(SSO) login in Testsigma Application."
+order: 19.25
+page_id: "google-sso"
 search_keyword: ""
 warning: false
 contextual_links:
