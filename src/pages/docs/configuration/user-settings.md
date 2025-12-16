@@ -40,8 +40,7 @@ You can configure user-level settings such as updating your profile information,
 
 ## **User Settings**
 
-1. On the **Dashboard**, click **User Profile** and select **Change Password**.
-   ![User Profile](https://s3.amazonaws.com/static-docs.testsigma.com/new_images/projects/Updated_Doc_Images/User_Profile_Icon.png)
+1. Click the **User Profile** menu in the bottom-left corner.
 
 2. Under **User Settings**, you can update the following:
    - **Profile**
@@ -53,7 +52,7 @@ You can configure user-level settings such as updating your profile information,
 
 ## **Profile**
 
-1. Click **Profile** under **User Settings**.
+1. Select **Profile** under **User Settings**.
    ![User Profile](https://s3.amazonaws.com/static-docs.testsigma.com/new_images/projects/Updated_Doc_Images/User_Profile_Update.png)
 
 2. Edit the **First Name** and **Last Name** fields.
@@ -65,7 +64,7 @@ You can configure user-level settings such as updating your profile information,
 
 ## **Change Password**
 
-1. Click **Change Password** under **User Settings**.
+1. Select **Change Password** under **User Settings**.
    ![Change Password](https://s3.amazonaws.com/static-docs.testsigma.com/new_images/projects/Updated_Doc_Images/Change_User_Password.png)
 
 2. Enter your **Current Password**, **New Password**, and **Confirm Password**.
