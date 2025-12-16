@@ -37,7 +37,7 @@ Password Policy allows organization administrators to configure password-related
 2. Click **Configure**. This will open the **Configure Password Policy** dialog.
    ![Configure](https://s3.amazonaws.com/static-docs.testsigma.com/new_images/projects/Updated_Doc_Images/Configure_Password_Policy.png)
 
-3. In the **Configure Password Policy** dialog, select the each setting you want to enable.
+3. In the **Configure Password Policy** dialog, select each setting you want to enable.
    ![Configure Password Policy](https://s3.amazonaws.com/static-docs.testsigma.com/new_images/projects/Updated_Doc_Images/Options_for_Policy.png)
 
 4. For each selected setting, enter the required value in the corresponding field:

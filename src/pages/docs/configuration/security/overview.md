@@ -45,13 +45,13 @@ Security settings allow you to manage authentication, access control, and accoun
 
 Organization Settings allow administrators to manage organization-level authentication and security configurations, including Password Policy and Single Sign-On (SSO).
 
-For details, see [Configure Organization Settings](http://testsigma.com/docs/configuration/security/org-settings/).
+For details, see [Configure Organization Settings](https://testsigma.com/docs/configuration/security/org-settings/).
 
 ---
 
 ## **Two-Factor Authentication (2FA)**
 
-Two-Factor Authentication adds an additional layer of security by requiring users to verify their identity using a second factor during sign-in.
+Two-Factor Authentication provides an extra layer of security by requiring users to verify their identity using a second factor during sign-in.
 
 For configuration steps, see [Two-Factor Authentication (2FA)](https://testsigma.com/docs/configuration/security/setup-two-factor-authentication/).
 

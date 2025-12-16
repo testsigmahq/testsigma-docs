@@ -32,7 +32,7 @@ Two-Factor Authentication (2FA) is a security feature that requires two forms of
 
 ---
 
-**Enable Two-Factor Authentication**
+## **Enable Two-Factor Authentication**
 
 1. Click **2FA** under **User Settings**.
    ![2FA](https://s3.amazonaws.com/static-docs.testsigma.com/new_images/projects/Updated_Doc_Images/2FA_Button.png)

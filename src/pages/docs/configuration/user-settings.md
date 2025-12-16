@@ -28,7 +28,7 @@ contextual_links:
 
 ---
 
-You can configure user-level settings such as updating your profile information, changing your password, and enabling Two-Factor Authentication (2FA) to add an extra layer of security to your account. This article explains how to manage your User Settings in Testsigma. This article discusses configuring User Settings in Testsigma.
+You can configure user-level settings such as updating your profile information, changing your password, and enabling Two-Factor Authentication (2FA) to add an extra layer of security to your account. This article discusses configuring User Settings in Testsigma.
 
 ---
 
