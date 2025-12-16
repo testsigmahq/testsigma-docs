@@ -42,7 +42,7 @@ This article discusses an overview of organization-level security settings, incl
 
 Password Policy allows organization administrators to configure password-related security controls for user accounts.
 
-To learn how to configure password-related security controls, see Password Policy.
+To learn how to configure password policies, see [Configure Password Policy](https://testsigma.com/docs/configuration/security/password-policy/).
 
 ---
 
@@ -54,10 +54,10 @@ Single Sign-On (SSO) allows users to authenticate using an external identity pro
 
 ## **Supported SSO Providers**
 Testsigma supports the following Single Sign-On (SSO) providers:
-- Google Single Sign-On
-- SAML-based Okta Single Sign-On
-- SAML-based OneLogin Single Sign-On
-- SAML-based Single Sign-On (Azure) 
-- SAML-based Single Sign-On (Google)
+- [Google Single Sign-On](https://testsigma.com/docs/configuration/security/google-sso/)
+- [SAML-based Single Sign-On (Okta)](https://testsigma.com/docs/configuration/security/okta-sso/) 
+- [SAML-based Single Sign-On (Azure)](https://testsigma.com/docs/configuration/security/azure-sso/)
+- **SAML-based Single Sign-On (OneLogin)**
+- **SAML-based Single Sign-On (Google Workspace)** 
 
 ---
