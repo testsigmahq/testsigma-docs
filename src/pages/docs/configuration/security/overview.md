@@ -1,9 +1,9 @@
 ---
-title: "Single Sign-on Options Available in Testsigma"
-metadesc: "Setting up of all SSO types supported in Testsigma Application. With SSO, there's no need to store and manage passwords for the websites."
+title: "Security Settings in Testsigma"
+metadesc: "Security settings allow you to manage authentication, access control, and account security for the organization | Learn about security features available in Testsigma"
 noindex: false
 order: 19.21
-page_id: "Single Sign-on options available in Testsigma"
+page_id: "security-settings-in-testsigma"
 search_keyword: ""
 warning: false
 contextual_links:
@@ -13,54 +13,65 @@ contextual_links:
   name: "Prerequisites"
   url: "#prerequisites"
 - type: link
-  name: "Single Sign-on Options Available"
-  url: "#single-sign-on-options-available"
+  name: "Organization Settings"
+  url: "#organization-settings"
 - type: link
-  name: "Steps to Enable SSO in Testsigma"
-  url: "#steps-to-enable-sso-in-testsigma"
+  name: "Two-Factor Authentication (2FA)"
+  url: "#two-factor-authentication-2fa"
+- type: link
+  name: "Password Policy"
+  url: "#password-policy"
+- type: link
+  name: "Single Sign-On (SSO)"
+  url: "#single-sign-on-sso"
 ---
 
 ---
 
-Single Sign-On (SSO) is an authentication process that allows you to access an application with a single login credentials. Testsigma allows SSO login to access the application. This article discusses SSO options available in Testsigma.
+Security settings allow you to manage authentication, access control, and account security for the organization. These settings help ensure that only authorized users can access Testsigma and that access follows the organization’s security requirements. This article provides an overview of the security features available in Testsigma.
 
 ---
 
 
 > <p id="prerequisites">Prerequisites</p>
 > 
-> Before you begin, ensure that you have an active Testsigma account.
+> Before configuring security settings, ensure that:
+> 1. You have an active Testsigma account with administrator access.
+> 2. You have access to the identity provider required for the security feature you want to configure.
 
 ---
 
-## **Single Sign-on Options Available**
+## **Organization Settings**
 
+Organization Settings allow administrators to manage organization-level authentication and security configurations, including Password Policy and Single Sign-On (SSO).
 
-1. Google Single Sign On
-    ![google cloud log](https://docs.testsigma.com/images/security/google-cloud-logo.png)
+For details, see [Configure Organization Settings](https://testsigma.com/docs/configuration/security/org-settings/).
 
+---
 
-2. SAML 2.0 based SSO - Okta, OneLogin, Azure AD e.t.c
-    ![okta logo](https://docs.testsigma.com/images/security/okta-logo.png)
-    ![onelogin logo](https://docs.testsigma.com/images/security/onelogin-logo.png)
-    ![microsoft azure logo](https://docs.testsigma.com/images/security/microsoft-azure-logo.png)
+## **Two-Factor Authentication (2FA)**
 
-## **Steps to Enable SSO in Testsigma**
+Two-Factor Authentication provides an extra layer of security by requiring users to verify their identity using a second factor during sign-in.
 
-1. Navigate to your profile and click **Switch Account**.
+For configuration steps, see [Two-Factor Authentication (2FA)](https://testsigma.com/docs/configuration/security/setup-two-factor-authentication/).
 
-2. Click **Settings** under the **Others** section on the home screen.
+---
 
-3. In the **Settings** panel, scroll down to **Organization Settings** and click **Security (SSO)**.
+## **Password Policy**
 
-4. In the **Single Sign-On (SSO)** settings, you can enable the SSO depending on your provider.
+Password Policy allows administrators to define password-related security controls for user accounts, such as session timeout, login attempt limits, and password change requirements.
 
-![enable sso](https://s3.amazonaws.com/static-docs.testsigma.com/new_images/projects/sso/SAML_image.1.png)
+To learn how to configure password policies, see [Configure Password Policy](https://testsigma.com/docs/configuration/security/password-policy/).
 
-Follow one of the links below to set up SSO depending on your provider:
+---
 
-**-** [Documentation on setting up Google Single Sign-On (SSO) login in Testsigma](https://testsigma.com/docs/configuration/security/google-sso/).
+## **Single Sign-On (SSO)**
 
-**-** [Documentation on setting up SAML-based SSO login - Okta](https://testsigma.com/docs/configuration/security/okta-sso/).
+Single Sign-On (SSO) allows users to authenticate using an external identity provider and enforces SSO-based access to the organization.
 
-**-** [Documentation on setting up SAML-based SSO login - Azure](https://testsigma.com/docs/configuration/security/azure-sso/).
+For details, see:
+- [Google Single Sign-On](https://testsigma.com/docs/configuration/security/google-sso/)
+- [SAML-based Okta Single Sign-On](https://testsigma.com/docs/configuration/security/okta-sso/)
+- [SAML-based Single Sign-On (Azure)](https://testsigma.com/docs/configuration/security/azure-sso/) 
+
+---

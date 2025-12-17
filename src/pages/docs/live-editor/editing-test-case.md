@@ -1,10 +1,10 @@
 ---
-title: "Editing a Test Case Using Copilot"
-pagetitle: "Editing a Test Case Live Using Testsigma Copilot"
-metadesc: "Learn how to edit a test case live using Testsigma Copilot | Testsigma Copilot allows you to check step details of the test case without having to re-run on test failure"
+title: "Editing a Test Case Using Live Editor"
+pagetitle: "Editing a Test Case Live Using Testsigma Live Editor"
+metadesc: "Learn how to edit a test case live using Testsigma Live Editor | Testsigma Live Editor allows you to check step details of the test case without having to re-run on test failure"
 noindex: false
 order: 10.16
-page_id: "Editing a Test Case Using Copilot"
+page_id: "editing-a-test-case-using-live-editor"
 search_keyword: ""
 warning: false
 contextual_links:
@@ -14,13 +14,13 @@ contextual_links:
   name: "Prerequisites"
   url: "#prerequisites"
 - type: link
-  name: "Steps to Edit a Test Case Using Copilot"
-  url: "#steps-to-edit-a-test-case-using-copilot"
+  name: "Steps to Edit a Test Case Using Live Editor"
+  url: "#steps-to-edit-a-test-case-using-live-editor"
 ---
 
 ---
 
-In Testsigma, Copilot gives you complete control over test cases while executing, which helps fix issues or errors in real time. It eliminates the need to rerun the entire test after a failure, making debugging and test stabilization faster and more efficient. This article discusses editing test cases live while executing them using Copilot.
+In Testsigma, Live Editor gives you complete control over test cases while executing, which helps fix issues or errors in real time. It eliminates the need to rerun the entire test after a failure, making debugging and test stabilization faster and more efficient. This article discusses editing test cases live while executing them using Live Editor.
 
 ---
 
@@ -32,7 +32,7 @@ In Testsigma, Copilot gives you complete control over test cases while executing
 
 ---
 
-## **Steps to Edit a Test Case Using Copilot**
+## **Steps to Edit a Test Case Using Live Editor**
 
 
 1. In the left navigation bar, go to **Create Tests > Test Cases**.

@@ -80,13 +80,13 @@ Live Editor is the primary tool for test authoring and validating through local 
 3. Install and open the **Testsigma Terminal** application.
    
 4. Click **Login to Testsigma**. You will be redirected to Testsigma. 
-   ![login to testsigma](https://s3.amazonaws.com/static-docs.testsigma.com/new_images/projects/terminal/Terminal_3.png)
+   ![login to testsigma](https://s3.amazonaws.com/static-docs.testsigma.com/new_images/projects/live_editor/install_terminal_1.png)
 
 [[info | **NOTE**:]]
 | Once you login, the session stays valid for 24 hours. After that, you'll need to login and authorize yourself again to continue using the **Live Editor**.
 
 5. Click **Open the desktop app**. The **Testsigma Terminal** opens. 
-   ![Open the desktop App](https://s3.amazonaws.com/static-docs.testsigma.com/new_images/projects/live_editor/install_terminal_1.png)
+   ![Open the desktop App](https://s3.amazonaws.com/static-docs.testsigma.com/new_images/projects/live_editor/terminal_n_1.1.png)
 
 6. Wait until **Testsigma Terminal** downloads the necessary files and completes the installation.
 
