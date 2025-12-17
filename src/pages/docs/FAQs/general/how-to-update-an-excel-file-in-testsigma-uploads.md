@@ -73,10 +73,13 @@ When you modify an Excel file during a test run, the changes are stored locally 
    - Click the **uploadname** placeholder and enter your excel file’s name. ![uploadname](https://s3.amazonaws.com/static-docs.testsigma.com/new_images/projects/faq/uploads_22.png)
      [[info | **NOTE**:]]
      | To get **uploadname** and **upload id**, go to **Uploads** and hover over the excel file you want to update. ![Uploads](https://s3.amazonaws.com/static-docs.testsigma.com/new_images/projects/faq/uploads_26.png)
-   - Enter the URL - **[https://app.testsigma.com/api/v1/uploads/](https://app.testsigma.com/api/v1/uploads/)**  and append the upload id from the upload page URL. ![URL](https://s3.amazonaws.com/static-docs.testsigma.com/new_images/projects/faq/uploads_23.png)
+   - Enter the following URL **[https://app.testsigma.com/api/v1/uploads/{ID}](https://app.testsigma.com/api/v1/uploads/{ID})** and replace <ID> with the upload ID copied from the **Uploads** page. For example, **[https://app.testsigma.com/api/v1/uploads/8](https://app.testsigma.com/api/v1/uploads/8)** ![URL](https://s3.amazonaws.com/static-docs.testsigma.com/new_images/projects/faq/uploads_23.png)
    - Enter the api key in the **testdata** placeholder. ![api](https://s3.amazonaws.com/static-docs.testsigma.com/new_images/projects/faq/uploads_24.png)
      [[info | **NOTE**:]]
      | Please refer to the [documentation on generating api keys](https://testsigma.com/docs/configuration/api-keys/). 
    - Click **Create Step**. ![Create Step](https://s3.amazonaws.com/static-docs.testsigma.com/new_images/projects/faq/uploads_25.png)
+
+After you execute it, here's how it looks:
+![Run Result](https://s3.amazonaws.com/static-docs.testsigma.com/new_images/projects/faq/uploads_28.png)
 
 ---
