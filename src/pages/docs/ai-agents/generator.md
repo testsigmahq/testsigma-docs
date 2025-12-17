@@ -90,12 +90,12 @@ After automation, you can execute the test case locally, review the generated st
 2. In the **Test Case Details** dialog, click the **Automated Steps** tab.
    ![Automated Steps](https://s3.amazonaws.com/static-docs.testsigma.com/new_images/projects/Updated_Doc_Images/Automated_Steps_Tab_Agentic_Learning.png) 
 
-3. Hover over **Agentic Learning (Beta)** and select an environment. This will open the Atto’s Live Editor. 
+3. Hover over **Agentic Learning (Beta)** and select an environment. This will open Atto’s Live Editor. 
    ![Env for Agentic Learning](https://s3.amazonaws.com/static-docs.testsigma.com/new_images/projects/Updated_Doc_Images/Env_for_Agentic_Learning.png)
 
-4. The **Atto’s Live Editor** opens with the manual steps preloaded.
+4. **Atto’s Live Editor** opens with the manual steps preloaded.
 
-5. Click **Start Learning Live App** in the **Atto’s Live Editor**.
+5. Click **Start Learning Live App** in **Atto’s Live Editor**.
    ![Start Learning Live App](https://s3.amazonaws.com/static-docs.testsigma.com/new_images/projects/Updated_Doc_Images/Learning_Live_App_from_Atto.png)
 
 6. A Chrome browser opens and the Live Editor starts learning UI elements by executing the manual steps.
