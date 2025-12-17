@@ -33,9 +33,9 @@ Live Editor is the primary tool for test authoring and validation through local 
 [[info | **NOTE**:]]
 | Once you log in, the session stays valid for 24 hours. After that, you'll need to log in and authorize yourself again to continue using the Live Editor.
 
-1. Click **Open the desktop app**. The **Testsigma Terminal** opens.
+5. Click **Open the desktop app**. The **Testsigma Terminal** opens.
 
-2. Wait until Testsigma Terminal downloads the necessary files and completes the installation.
+6. Wait until Testsigma Terminal downloads the necessary files and completes the installation.
 
 [[info | **NOTE**:]]
 | If you encounter any issues with the Testsigma Terminal, click Report Issue from the left panel. Provide a description of the problem, upload the agent log, and ensure that you include the App Session ID and Debugging ID. To obtain the Debugging ID, ensure the agent was started through Testsigma.
