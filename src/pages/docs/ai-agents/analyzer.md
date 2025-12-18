@@ -54,10 +54,10 @@ The Analyzer Agent in Testsigma analyzes failed test steps and provides actionab
 
 6. Review the analysis in **Analyzer Agent** overlay, which displays:
    ![Analysis](https://s3.amazonaws.com/static-docs.testsigma.com/new_images/projects/Updated_Doc_Images/Analysis_from_Analyzer_Agent.png)
-   - **Error Type**
-   - **Root Cause**
-   - **Visual Evidence**
-   - **Suggested Fixes**
+   - **Error Type**: Displays the category of failure identified during test execution.
+   - **Root Cause**: Describes the underlying reason for the failure based on execution analysis.
+   - **Visual Evidence**: Displays screenshots captured during recording and execution to support failure analysis.
+   - **Suggested Fixes**: Displays recommended actions to resolve the failed test step.
 
 ---
 
