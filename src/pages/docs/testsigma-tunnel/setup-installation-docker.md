@@ -32,6 +32,8 @@ Setting up Testsigma Tunnel with Docker ensures secure and reliable connections 
 ## **Setup Testsigma Tunnel Using Docker**
 1. Create a **docker-compose.yml** file in your project directory with the following content:
 
+US Region:
+
    ```yaml
      services:
         testsigma-tunnel:
@@ -45,6 +47,35 @@ Setting up Testsigma Tunnel with Docker ensures secure and reliable connections 
              - VERBOSE=true/false
    ```
 
+IN Region:
+
+   ```yaml
+     services:
+        testsigma-tunnel:
+        image: testsigmainc/testsigma-tunnel-in:<arm64/amd64>-latest
+        container_name: testsigma-tunnel
+        environment:
+             - KEY=<API_KEY>
+             - TUNNEL_NAME=<NAME_OF_TUNNEL>
+             - CONNECTIONS=<NUMBER>
+             - INACTIVE_TIMEOUT=<NUMBER in seconds>
+             - VERBOSE=true/false
+   ```
+
+EU Region: 
+
+   ```yaml
+     services:
+        testsigma-tunnel:
+        image: testsigmainc/testsigma-tunnel-eu:<arm64/amd64>-latest
+        container_name: testsigma-tunnel
+        environment:
+             - KEY=<API_KEY>
+             - TUNNEL_NAME=<NAME_OF_TUNNEL>
+             - CONNECTIONS=<NUMBER>
+             - INACTIVE_TIMEOUT=<NUMBER in seconds>
+             - VERBOSE=true/false
+   ```
 2. Replace the placeholder values in the **docker-compose.yml** file:
    - **&lt;API\_KEY&gt;:** Your Testsigma authentication key.
    - **&lt;NAME\_OF\_TUNNEL&gt;:** The name of your tunnel.
