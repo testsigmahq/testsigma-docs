@@ -759,5 +759,7 @@
   "user-settings": {"/docs/configuration/user-settings/": "User Settings" },
   "google-sso": {"/docs/configuration/security/google-sso/": "Setting Up Google SSO Login" },
   "okta-sso": {"/docs/configuration/security/okta-sso/": "Setting Up Okta SSO Login (SAML)" },
-  "azure-sso": {"/docs/configuration/security/azure-sso/": "Setting Up Azure SSO Login (SAML)" }
+  "azure-sso": {"/docs/configuration/security/azure-sso/": "Setting Up Azure SSO Login (SAML)" },
+  "end-to-end-testing": {"/docs/test-plans/end-to-end-testing/": "End-to-End Testing"},
+  "byok": {"/docs/genai-capabilities/byok/": "Bring Your Own Key (BYOK)" }
   }
