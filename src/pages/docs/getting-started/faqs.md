@@ -76,7 +76,7 @@ Testsigma supports [integrations](https://testsigma.com/docs/desired-capabilitie
 ## **What’s the difference between Testsigma open-source and Cloud?**
 
 The open-source platform is deployed on your local workstation or private server and contains all the core capabilities required to build your test automation system. 
-The [cloud platform](https://testsigma.com/signup) is a fully managed end-to-end solution with enterprise-level features from an extensive Test Lab to enhance security. [You can learn more about it here.](https://testsigma.com/docs/getting-started/testsigma-community-cloud/)
+The [cloud platform](https://testsigma.com/signup) is a fully managed end-to-end solution with enterprise-level features from an extensive Test Lab to enhance security.
 
 ---
 
