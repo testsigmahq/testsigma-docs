@@ -4,7 +4,7 @@ metadesc: "Fix access blocked errors when downloading Testsigma Agent by whiteli
 noindex: false
 order: 11.95
 page_id: ""
-search_keyword: "how-to-resolve-access-blocked-errors-when-downloading-the-agent-?"
+search_keyword: "how-to-resolve-access-blocked-errors-when-downloading-the-agent"
 warning: false
 contextual_links:
 - type: section
@@ -29,7 +29,7 @@ When attempting to download Testsigma Agent, you may see an error indicating tha
 
 1. Whitelist Local Agent, Cloud App, Cloud Audit, Cloud ID, and Cloud Addon domains/IPs
    
-   **Domain:** [app.testsigma.com](https://app.testsigma.com)
+   **Domain:** `app.testsigma.com`
 
    **IPs:** 
      - 166.117.52.243
@@ -37,7 +37,7 @@ When attempting to download Testsigma Agent, you may see an error indicating tha
 
 2. Whitelist Testsigma Tunnels (used by Local Agent)
 
-   **Domain:** [connect.testsigma.com](https://connect.testsigma.com)
+   **Domain:** `connect.testsigma.com`
 
    **IPs:**
      - 166.117.49.200
@@ -45,7 +45,7 @@ When attempting to download Testsigma Agent, you may see an error indicating tha
 
 3. Whitelist Mobile Recorder (used by Cloud in browser)
 
-   **Domain:** [mobilerecorder.testsigma.com](https://mobilerecorder.testsigma.com)
+   **Domain:** `mobilerecorder.testsigma.com`
 
    **IPs:**
      - 166.117.86.235
@@ -53,7 +53,7 @@ When attempting to download Testsigma Agent, you may see an error indicating tha
 
 4. Whitelist Asset Proxy (used by Cloud and Local Agent)
  
-   **Domain:** [asset-proxy.testsigma.com](https://asset-proxy.testsigma.com)
+   **Domain:** `asset-proxy.testsigma.com`
 
    **IPs:** 
      - 166.117.67.252
@@ -68,21 +68,21 @@ When attempting to download Testsigma Agent, you may see an error indicating tha
 
 6. Whitelist Additional Domains for Local Agent
    - **Chrome Drivers**
-       - [googlechromelabs.github.io](http://googlechromelabs.github.io)
-       - [chromedriver.storage.googleapis.com](http://chromedriver.storage.googleapis.com)
-       - [storage.googleapis.com](http://storage.googleapis.com)
-       - [registry.npmmirror.com](http://registry.npmmirror.com)
-       - [http://raw.githubusercontent.com](http://raw.githubusercontent.com/)
+       - `googlechromelabs.github.io`
+       - `chromedriver.storage.googleapis.com`
+       - `storage.googleapis.com`
+       - `registry.npmmirror.com`
+       - `http://raw.githubusercontent.com`
    - **Firefox Drivers**
-       - [http://raw.githubusercontent.com](http://raw.githubusercontent.com/)
-       - [registry.npmmirror.com](http://registry.npmmirror.com)
+       - `http://raw.githubusercontent.com`
+       - `registry.npmmirror.com`
    - **Edge Drivers**
-       - [https://msedgewebdriverstorage.blob.core.windows.net/](https://msedgewebdriverstorage.blob.core.windows.net/)
+       - `https://msedgewebdriverstorage.blob.core.windows.net/`
    - **IE Drivers**
-       - [msedgewebdriverstorage.blob.core.windows.net](http://msedgewebdriverstorage.blob.core.windows.net)
+       - `msedgewebdriverstorage.blob.core.windows.net`
 
 7. Whitelist Additional Testsigma Services
-   - [static-id.testsigma.com](static-id.testsigma.com)
-   - [id.testsigma.com](https://id.testsigma.com)
+   - `static-id.testsigma.com`
+   - `id.testsigma.com`
 
 ---
