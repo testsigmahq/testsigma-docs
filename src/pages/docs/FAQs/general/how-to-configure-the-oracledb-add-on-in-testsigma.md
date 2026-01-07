@@ -2,7 +2,7 @@
 title: "How to Configure the OracleDB Add-on in Testsigma?"
 metadesc: "Learn how to configure the Oracle Database add-on in Testsigma with the required connection details for successful database integration."
 order: 24.44
-page_id: "how-to-configure-the-orcacledb-add-on-in-testsigma"
+page_id: "how-to-configure-the-oracledb-add-on-in-testsigma"
 warning: false
 contextual_links:
 - type: section
