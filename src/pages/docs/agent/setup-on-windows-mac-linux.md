@@ -345,7 +345,7 @@ There are two ways of starting the testsigma local agent using docker:
           FIREFOX: "http://firefox:4444"
           EDGE: "<REMOTE_EDGE_URL>"
       chrome:
-        image: seleniarm/standalone-chrome:latest
+        image: seleniarm/standalone-chromium:latest
         shm_size: 1gb
         ports:
           - "4444:4444"
