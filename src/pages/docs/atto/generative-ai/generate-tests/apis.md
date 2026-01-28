@@ -83,7 +83,7 @@ In Testsigma, **Atto** simplifies API testing by automatically generating test c
 2. In the **Test Case Explorer** section, click **Atto** and select **Generate Test Cases from API Schema**.
    ![Generate Test Cases from API schema](https://s3.amazonaws.com/static-docs.testsigma.com/new_images/projects/atto/SOAP_API_2.1.png)
 
-3. In the **Add API Schema** screen, click **Select file to import** and import your ,xml or .wsdl API schema file from your local system. 
+3. In the **Add API Schema** screen, click **Select file to import** and import your .xml or .wsdl API schema file from your local system. 
    ![Select file to import](https://s3.amazonaws.com/static-docs.testsigma.com/new_images/projects/atto/SOAP_API_3.png) 
 
 4. Click **Generate** and wait for **Atto** to analyze the schema and generate test cases.
