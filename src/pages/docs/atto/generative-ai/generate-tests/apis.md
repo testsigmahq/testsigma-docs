@@ -32,10 +32,7 @@ In Testsigma, **Atto** simplifies API testing by automatically generating test c
 >
 > 1. You have enabled the **Generate test cases from Swagger schema** option under **Settings > Preferences > Generative AI features**.
 >
-> 2. You have the required API schema file in one of the following formats:
->    - **.wsdl** – SOAP APIs
->    - **.xml** – SOAP APIs
->    - **.json** – REST APIs
+> 2. You must have the required API schema file in one of the following formats such as **.wsdl** or **.xml** for SOAP APIs and **.json** for REST APIs.
 
 📥 Click <a href="https://s3.amazonaws.com/static-docs.testsigma.com/new_images/projects/applications/Sample_Swagger_File.json" rel="nofollow">here</a> to download a sample **Swagger JSON** file.
 
