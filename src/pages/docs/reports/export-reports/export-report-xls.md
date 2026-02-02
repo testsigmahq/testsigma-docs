@@ -26,7 +26,7 @@ Effortlessly generate detailed Excel reports for your test runs in Testsigma. Th
 > <p id="prerequisites">Prerequisites</p>
 >
 > Before you begin, ensure that you have referred to:
-> 1. [Documentation on creaing test plans](https://testsigma.com/docs/test-management/test-plans/overview/).
+> 1. [Documentation on creaing test plans](https://testsigma.com/docs/test-plans/overview/).
 > 2. [Documentation on creaing test runs](https://testsigma.com/docs/reports/runs/overview/) and having access to export test reports.
 
 [[info | **NOTE**:]]

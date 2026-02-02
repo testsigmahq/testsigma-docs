@@ -38,7 +38,7 @@ With the Zephyr Cloud integration in Testsigma, you can link Zephyr test cases a
 > 1. You have a valid **Personal Access Token** from Zephyr Cloud.
 > 2. You have your Jira **Account URL**, **Username**, and **API key**.
 > 3. You have referred to the [documentation on creating test cases](https://testsigma.com/docs/test-cases/manage/add-edit-delete/).
-> 4. You have referred to the [documentation on creating test plans](https://testsigma.com/docs/test-management/test-plans/overview/).
+> 4. You have referred to the [documentation on creating test plans](https://testsigma.com/docs/test-plans/overview/).
 
 ---
 

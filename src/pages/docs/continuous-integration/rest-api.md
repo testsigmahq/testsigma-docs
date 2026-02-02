@@ -37,7 +37,7 @@ You can integrate Testsigma with your CI/CD tool and trigger test plans and chec
 > <p id="prerequisites">Prerequisites</p>
 >
 > Before you begin, ensure that you have referred to:
-> 1. [Documentation on managing test plans](https://testsigma.com/docs/test-management/test-plans/overview/).
+> 1. [Documentation on managing test plans](https://testsigma.com/docs/test-plans/overview/).
 > 2. [Documentation on generating API keys](https://testsigma.com/docs/configuration/api-keys/).
 > 3. [Documentation on getting test plan details](https://testsigma.com/docs/continuous-integration/get-test-plan-details/). 
 

@@ -35,24 +35,27 @@ const Footer = () => {
             <a
               href={`https://github.com/testsigmahq/testsigma-docs/blob/dev/src/pages${pathRoute}.md`}
               target='_blank'
+              rel='nofollow'
             >
-              edit this page on github{' '}
+              Edit this Page on GitHub{' '}
             </a>
           </p>
           <p className='right_border'>
             <a
               href='https://github.com/testsigmahq/testsigma-docs/blob/dev/CONTRIBUTING.md'
               target='_blank'
+              rel='nofollow'
             >
-              contributing guidelines{' '}
+              Contributing Guidelines{' '}
             </a>
           </p>
           <p>
             <a
               href='https://github.com/testsigmahq/testsigma-docs/issues/new/choose'
               target='_blank'
+              rel='nofollow'
             >
-              report an issue
+              Report an Issue
             </a>
           </p>
         </div>
@@ -65,8 +68,9 @@ const Footer = () => {
             href='https://github.com/testsigmahq/testsigma/blob/main/LICENSE'
             className='link_underline'
             target='_blank'
+            rel='nofollow'
           >
-            See license
+            See License
           </a>
         </p>
       </div>
@@ -81,7 +85,7 @@ const Footer = () => {
         </div>
         <div className='flex_item'>
           <p className='text_end'>
-            ©2025 Copyright , Testsigma Technologies Inc
+            ©2026 Copyright , Testsigma Technologies Inc
           </p>
         </div>
       </div>

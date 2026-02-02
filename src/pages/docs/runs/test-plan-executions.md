@@ -39,7 +39,7 @@ This article guides the user to prepare and execute test plans in Testsigma plat
 >
 > Before you begin, ensure that you have referred to:
 > 1. [Documentation on creating test cases](https://testsigma.com/docs/test-cases/manage/add-edit-delete/#create-test-case).
-> 2. [Documentation on creating test suites](https://testsigma.com/docs/test-management/test-suites/overview/#create-test-suite).
+> 2. [Documentation on creating test suites](https://testsigma.com/docs/test-suites/overview/#create-test-suite).
 
 
 ---

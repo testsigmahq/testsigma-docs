@@ -29,6 +29,6 @@ Testsigma allows you to run tests on your local machines/devices and Testsigma C
 
 - Your security team might have some questions regarding the working of Testsigma Agent and how the data communication works. For more information on the functions of Testsigma Agent, refer to the [documentation on how does Testsigma Agent work](https://testsigma.com/docs/agent/faqs/)
 
-- If you face any issues during the installation, starting or registering the Testsigma Agent, refer to the [documentation on Agent - Startup and Registration Errors](https://testsigma.com/docs/agent/troubleshooting/setup-issues/)
+- If you face any issues during the installation, starting or registering the Testsigma Agent, refer to the [documentation on Agent - Startup and Registration Errors](https://testsigma.com/docs/agent/troubleshooting/how-to-fix-setup-issues/)
 
 ---

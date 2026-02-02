@@ -37,8 +37,8 @@ The Label Management feature in Testsigma helps you manage labels linked to test
 > 1. [Documentation on creating test cases](https://testsigma.com/docs/test-cases/manage/add-edit-delete/).
 > 2. [Documentation on creating elements](https://testsigma.com/docs/elements/overview/).
 > 3. [Documentation on creating step groups](https://testsigma.com/docs/test-cases/step-types/step-group/).
-> 4. [Documentation on creating test suites](https://testsigma.com/docs/test-management/test-suites/overview/).
-> 5. [Documentation on creating test plans](https://testsigma.com/docs/test-management/test-plans/overview/).
+> 4. [Documentation on creating test suites](https://testsigma.com/docs/test-suites/overview/).
+> 5. [Documentation on creating test plans](https://testsigma.com/docs/test-plans/overview/).
 
 ---
 

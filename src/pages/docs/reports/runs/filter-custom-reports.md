@@ -27,7 +27,7 @@ Quickly view the run results of a test plan by applying filters | Learn how to a
 > <p id="prerequisites">Prerequisites</p>
 >
 > Before you begin, ensure that you have referred to:
-> 1. [Documentation on creating test plan](https://testsigma.com/docs/test-management/test-plans/overview/).
+> 1. [Documentation on creating test plan](https://testsigma.com/docs/test-plans/overview/).
 
 
 ---

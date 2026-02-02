@@ -33,9 +33,9 @@ With Testsigma, you can perform accessibility testing to ensure your iOS and And
 >
 > Before you begin, ensure that you have referred to:
 > 1. You have enabled **Web Accessibility Testing - Step Level** from **Settings > Preferences > Web Accessibility Testing**.
-> 2. [Documentation on creating test plans](https://testsigma.com/docs/test-management/test-plans/overview/).
-> 3. [Documentation on creating test suite](https://testsigma.com/docs/test-management/test-suites/overview/).
-> 4. [Documentation on creating test machines](https://testsigma.com/docs/test-management/test-plans/manage-test-machines/).
+> 2. [Documentation on creating test plans](https://testsigma.com/docs/test-plans/overview/).
+> 3. [Documentation on creating test suite](https://testsigma.com/docs/test-suites/overview/).
+> 4. [Documentation on creating test machines](https://testsigma.com/docs/test-plans/manage-test-machines/).
 
 ---
 

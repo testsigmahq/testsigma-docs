@@ -59,7 +59,7 @@ This documentation will explain the different test data types supported in Tests
 > Before you begin, ensure that you have referred to:
 > 1. [Documentation on creating projects](https://testsigma.com/docs/projects/overview/).
 > 2. [Documentation on creating test cases](https://testsigma.com/docs/test-cases/manage/add-edit-delete/).
-> 3. [Documentation on creting test steps](https://testsigma.com/docs/test-cases/create-steps-nl/overview/).
+> 3. [Documentation on creting test steps](https://testsigma.com/docs/test-cases/create-test-steps/overview/).
 
 ---
 

@@ -170,7 +170,7 @@ Testsigma Automation Standards emphasise the reusability of automated test cases
 [[info | Example:]]
 | Specify the desired capabilities of the targeted testing, such as browser version or device type.
 
-3. Ensure you put test cases in the Ready state before adding them to a Test Suite. Organise relevant tests into test suites for better organisation and execution. For more information on creating test suites, refer to the [documentation on creating test suites](https://testsigma.com/docs/test-management/test-suites/overview/).
+1. Ensure you put test cases in the Ready state before adding them to a Test Suite. Organise relevant tests into test suites for better organisation and execution. For more information on creating test suites, refer to the [documentation on creating test suites](https://testsigma.com/docs/test-suites/overview/).
 
 [[info | Example:]]
 | Create a "Login Suite" and add all relevant login-related test cases for efficient execution.
@@ -179,13 +179,13 @@ Testsigma Automation Standards emphasise the reusability of automated test cases
 
 ## **Execution and Test Plan Run**
 
-1. Run test case and test plan in **Headless** mode to reduce execution time and eliminate element loading time. For more information on headless browser testing, refer to the [documentation on headless browser testing](https://testsigma.com/docs/test-management/test-plans/headless-testing/).
+1. Run test case and test plan in **Headless** mode to reduce execution time and eliminate element loading time. For more information on headless browser testing, refer to the [documentation on headless browser testing](https://testsigma.com/docs/test-plans/headless-testing/).
 
 [[info | Example:]]
 | To achieve faster test execution, execute the test plan without a visible browser.
 
 2. Use the **Partial Run** option in the Test Plan to exclude consistently failing test suites from runs; you can exclude or disable tests for execution from the Test Machines & Suites Selection in the Test Plan. For more information on performing partial run, refer to the [documentation on performing partial run](https://testsigma.com/docs/runs/test-plan-executions/#partial-test-runs).
-3. Use the **Schedule** feature to run the test plan automatically without manual intervention. For more information on scheduling a test plan, refer to the [doucmentation on scheduling a test plan](https://testsigma.com/docs/test-management/test-plans/schedule-plans/).
+3. Use the **Schedule** feature to run the test plan automatically without manual intervention. For more information on scheduling a test plan, refer to the [doucmentation on scheduling a test plan](https://testsigma.com/docs/test-plans/schedule-plans/).
 
 [[info | Example:]]
 | Schedule unattended testing during non-business hours by executing the test plan.

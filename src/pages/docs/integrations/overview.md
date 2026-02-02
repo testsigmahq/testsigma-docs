@@ -35,7 +35,7 @@ Testsigma integrates with various tools in your software delivery cycle to make 
   * [Documentation on integrating Testsigma with Mantis](https://testsigma.com/docs/integrations/bug-reporting/mantis/)
   * [Documentation on integrating Testsigma with Youtrack](https://testsigma.com/docs/integrations/bug-reporting/youtrack/)
   * [Documentation on integrating Testsigma with Zepel](https://testsigma.com/docs/integrations/bug-reporting/zepel/)
-  * [Documentation on integrating Testsigma with Xray](https://testsigma.com/docs/integrations/bug-reporting/xray/)
+  * [Documentation on integrating Testsigma with Xray](https://testsigma.com/docs/integrations/test-management/xray/)
 
 ---
 
