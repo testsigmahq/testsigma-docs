@@ -57,9 +57,13 @@ In Testsigma, the configuration of the Oracle Database add-on requires specific 
 
    ![OracleDB](https://s3.amazonaws.com/static-docs.testsigma.com/new_images/projects/faq/Oracle_1.png)  
    
-   Example URL using the screenshot details:
+   **SID Example:**
 
-   **jdbc:oracle:thin:@localhost:1521:ORCL?user=SYS&password=<123456789012>&internal_logon=SYSDBA**
+   jdbc:oracle:thin:@//localhost:1521/FREE?user=SYS&password=Test@123&internal_logon=SYSDBA
+
+   **Service Name Example:**
+
+   jdbc:oracle:thin:@//testing-email.com:1521/TFCP?user=test_fcp_develop&password=sigma&internal_logon=default
 
    [[info | **NOTE**:]]
    | In the **Service Name** field:
