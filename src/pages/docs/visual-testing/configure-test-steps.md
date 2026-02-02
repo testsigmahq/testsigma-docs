@@ -46,7 +46,7 @@ Testsigma allows you to check your app's appearance during tests using its Visua
 > Before you begin, ensure that you have referred to:
 > 1. [Documentation on creating test cases](https://testsigma.com/docs/test-cases/manage/add-edit-delete/#create-test-case).
 > 2. [Documentation on creating projects](https://testsigma.com/docs/projects/overview/). 
-> 3. [Documentation on creating test steps](https://testsigma.com/docs/test-cases/create-steps-nl/overview/). 
+> 3. [Documentation on creating test steps](https://testsigma.com/docs/test-cases/create-test-steps/overview/). 
 > 4. [Documentation on utilising test step options](https://testsigma.com/docs/test-cases/create-test-steps/actions-and-options-manual/step-settings/).
 > 5. [Documentation on managing Ad-Hoc runs](https://testsigma.com/docs/runs/adhoc-runs/).
 > 6. [Documentation on managing test case - advanced options](https://testsigma.com/docs/test-cases/manage/add-edit-delete/#test-case----advanced-options).

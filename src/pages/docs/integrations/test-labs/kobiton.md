@@ -31,7 +31,7 @@ If your organization has an existing account with Kobiton, you can author tests 
 > 1. You have the username and API Key for Kobiton which can be obtained from your Kobiton account dashboard. This can be obtained from the Account Settings page in Kobiton:
 >    - * **Email:** your login email.
 >    - * **ApiKey:** In Settings/API Keys on the Kobiton portal.
-> 2. You have referred to the [documentation on supported test lab Types in Testsigma](https://testsigma.com/docs/test-management/test-plans/supported-test-lab-types/) .
+> 2. You have referred to the [documentation on supported test lab Types in Testsigma](https://testsigma.com/docs/test-plans/supported-test-lab-types/) .
 
 ---
 ## **Integrating with Kobiton**

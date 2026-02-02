@@ -37,9 +37,9 @@ With Testsigma, you can perform accessibility testing to ensure your web applica
 >
 > Before you begin, ensure that you have referred to: 
 > 1. You have enabled **Web Accessibility Testing - Step Level** from **Settings > Preferences > Web Accessibility Testing**.
-> 2. [Documentation on creating test plans](https://testsigma.com/docs/test-management/test-plans/overview/).
-> 3. [Documentation on creating test suites](https://testsigma.com/docs/test-management/test-suites/overview/).
-> 4. [Documentation on creating test machine](https://testsigma.com/docs/test-management/test-plans/manage-test-machines/).
+> 2. [Documentation on creating test plans](https://testsigma.com/docs/test-plans/overview/).
+> 3. [Documentation on creating test suites](https://testsigma.com/docs/test-suites/overview/).
+> 4. [Documentation on creating test machine](https://testsigma.com/docs/test-plans/manage-test-machines/).
 
 ---
 

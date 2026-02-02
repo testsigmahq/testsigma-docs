@@ -78,7 +78,7 @@ Testsigma also integrates seamlessly with tools like Jira, Figma, Xray, GitHub, 
 
 - [Generate Test Cases from Swagger Schema](https://testsigma.com/docs/genai-capabilities/generate-tests-from-swagger/)
 
-- [Generate Test Cases from User Actions](https://testsigma.com/docs/atto/generative-ai/generate-tests/user-actions/)
+- [Generate Test Cases from User Actions](https://testsigma.com/docs/genai-capabilities/generate-tests-from-user-actions/)
 
 ---
 

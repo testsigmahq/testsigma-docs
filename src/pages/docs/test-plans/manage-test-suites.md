@@ -28,9 +28,9 @@ While creating a test plan, you need to add at least one test suite to the test 
 > <p id="prerequisites">Prerequisites</p>
 >
 > Before you begin, ensure that you have referred to:
-> 1. [Documentation on creating test plan](https://testsigma.com/docs/test-management/test-plans/overview/).
-> 2. [Documentation on creating test suite](https://testsigma.com/docs/test-management/test-suites/overview/).
-> 3. [Documentation on creating test machine](https://testsigma.com/docs/test-management/test-plans/manage-test-machines/).
+> 1. [Documentation on creating test plan](https://testsigma.com/docs/test-plans/overview/).
+> 2. [Documentation on creating test suite](https://testsigma.com/docs/test-suites/overview/).
+> 3. [Documentation on creating test machine](https://testsigma.com/docs/test-plans/manage-test-machines/).
 
 ---
 

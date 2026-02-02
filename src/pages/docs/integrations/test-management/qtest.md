@@ -40,7 +40,7 @@ qTest is a manual test management tool. With qTest integration in Testsigma, you
 > Before you begin, ensure that: 
 > 1. You have a valid **Host URL**, **Username**, and **Password** from TestRail.
 > 2. You have referred to the [documentation on creating test cases](https://testsigma.com/docs/test-cases/manage/add-edit-delete/).
-> 3. You have referred to the [documentation on creating test plans](https://testsigma.com/docs/test-management/test-plans/overview/).
+> 3. You have referred to the [documentation on creating test plans](https://testsigma.com/docs/test-plans/overview/).
 
 ---
 

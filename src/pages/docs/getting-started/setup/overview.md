@@ -38,7 +38,7 @@ Comes with a fully managed test lab, enhanced security and robust features that 
 
 Testsigma Community Edition (CE) is an open-source platform that you can install on your local machine or private server instance using the following options:
 
-   * [Docker](https://testsigma.com/docs/open-source-docs/docker/)
+   * [Docker](https://testsigma.com/docs/)
    * [Download](https://testsigma.com/docs/getting-started/setup/downloadable-package/)
 
 

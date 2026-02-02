@@ -29,7 +29,7 @@ Testsigma allows you to create custom actions with add-ons using its powerful Po
 > <p id="prerequisites">Prerequisites</p>
 >
 > Before you begin, ensure that you have referred to: 
-> 1. [Documentation on creating test plans](https://testsigma.com/docs/test-management/test-plans/overview/).
+> 1. [Documentation on creating test plans](https://testsigma.com/docs/test-plans/overview/).
 > 2. [Documentation on managing add-ons](https://testsigma.com/docs/addons/create/).
 > 3. [Documentation on creating add-on](https://testsigma.com/docs/addons/create-a-post-plan-hook-add-on/). 
 

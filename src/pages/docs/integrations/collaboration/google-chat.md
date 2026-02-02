@@ -33,7 +33,7 @@ In Testsigma, you can send test plan status notifications to a specific Google C
 >
 > Before you begin, ensure that:
 > 1. You have a valid **Google Chat Incoming Webhook URL**.
-> 2. You have referred to the [documentation on creating test plans](https://testsigma.com/docs/test-management/test-plans/overview/#steps-to-create-a-test-plan).
+> 2. You have referred to the [documentation on creating test plans](https://testsigma.com/docs/test-plans/overview/#steps-to-create-a-test-plan).
 
 ---
 

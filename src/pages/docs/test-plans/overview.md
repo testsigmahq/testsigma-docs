@@ -37,7 +37,7 @@ In Testsigma, the Test Plan helps plan and organise software testing. The Test P
 > Before you begin, ensure that you have referred to:
 > 1. [Documentation on creating projects](https://testsigma.com/docs/projects/overview/).
 > 2. [Documentation on creating test cases](https://testsigma.com/docs/test-cases/manage/add-edit-delete/).
-> 3. [Documentation on creating test suites](https://testsigma.com/docs/test-management/test-suites/overview/).
+> 3. [Documentation on creating test suites](https://testsigma.com/docs/test-suites/overview/).
 
 ---
 
@@ -58,10 +58,10 @@ In Testsigma, the Test Plan helps plan and organise software testing. The Test P
     - **Name** (Required): Enter the Test Plan's title in the **Name** field on the **Basic Details** page.
     - **Description**: Enable the toggle for **Description** and briefly explain the Test Plan's purpose and scope. This helps your team understand what the Test Plan aims to do.
     - **Labels**: You can label the Test Plan. Labels make it easier to manage multiple Test Plans, as they help with sorting and grouping.
-    - **Test Plan Type**: Select either the test plan type: **Cross Browser Testing** (Use single/ multiple browsers to test all the test suites; for more information, refer to [Cross Browser Testing](https://testsigma.com/docs/test-management/test-plans/cross-browser-testing/)) or **Custom Test Plan** (Manually add test machine profiles to individual test suites).
+    - **Test Plan Type**: Select either the test plan type: **Cross Browser Testing** (Use single/ multiple browsers to test all the test suites; for more information, refer to [Cross Browser Testing](https://testsigma.com/docs/test-plans/cross-browser-testing/)) or **Custom Test Plan** (Manually add test machine profiles to individual test suites).
 3. In the **Add Test Suites & Link Machine Profiles** tab, provide the following details and then click **Continue**:
-    - Click **Add Test Suites** to include test suites in the test plan (for more information on managing test suites in a test plan, refer to the [documentation on Manage Test Suites in Test Plan](https://testsigma.com/docs/test-management/test-plans/manage-test-suites/)).
-    - Next, click the **Test Machine** icon to add machine profiles to the test plan. An overlay will appear, and you can select a pre-defined machine or create a new test machine. Once you have selected, click **Save Selection** (for more information, refer to [Manage Test Machines in Test Plan](https://testsigma.com/docs/test-management/test-plans/manage-test-machines/)).
+    - Click **Add Test Suites** to include test suites in the test plan (for more information on managing test suites in a test plan, refer to the [documentation on Manage Test Suites in Test Plan](https://testsigma.com/docs/test-plans/manage-test-suites/)).
+    - Next, click the **Test Machine** icon to add machine profiles to the test plan. An overlay will appear, and you can select a pre-defined machine or create a new test machine. Once you have selected, click **Save Selection** (for more information, refer to [Manage Test Machines in Test Plan](https://testsigma.com/docs/test-plans/manage-test-machines/)).
 4. In the **Test Plan Settings** tab, provide the following details, and click **Create**:
     - **Send Notification**: Enable the toggle for Send Notification and specify when to receive the notifications (for example, select to receive notifications when your test plans are **Passed**, **Failed**, **Not Executed**, **Queued**, **Stopped**, or **Running**.) You can enter the emails or check the box to **Add my email** for receiving notifications through email. Messages can also be sent to collaboration tools like Google Chat, Slack, or MS Teams.
     - **Additional Settings**: Provide the following details under additional settings:
@@ -78,7 +78,7 @@ In Testsigma, the Test Plan helps plan and organise software testing. The Test P
 ## **Editing a Test Plan**
 
 1. Navigate to **Test Plans** in the left-side navbar. Locate the **Test Plan** you want to edit in the list.
-2. Click the **Edit** icon at the top right on the Test Plan details page, and the **Edit Test Plan** page will appear. You should follow the steps in the [Creating a Test Plan](https://testsigma.com/docs/test-management/test-plans/overview/#creating-a-test-plan) section to update the test plan. ![Edit Test Plan in Edit Test Plan](https://s3.amazonaws.com/static-docs.testsigma.com/new_images/projects/applications/editinga1_testplan.gif)
+2. Click the **Edit** icon at the top right on the Test Plan details page, and the **Edit Test Plan** page will appear. You should follow the steps in the [Creating a Test Plan](https://testsigma.com/docs/test-plans/overview/#creating-a-test-plan) section to update the test plan. ![Edit Test Plan in Edit Test Plan](https://s3.amazonaws.com/static-docs.testsigma.com/new_images/projects/applications/editinga1_testplan.gif)
 3. Alternatively, you can edit the test plan on the Test Plan details page:
     - **Test Plan Info**: Click **Test Plan Info** in the right-side navbar. You can change the Test Plan **Name** and **Description** here and view details about when it was created and last updated.
     - **Test Plan Settings**: Click **Test Plan Settings** in the right-side navbar to update the **Test Plan Type**, **Send Notification**, **Additional Settings**, **Recovery Actions**, and **Post Plan Hook**.
@@ -91,7 +91,7 @@ In Testsigma, the Test Plan helps plan and organise software testing. The Test P
     - **Toggle** the Test Machine switch in the test plan to turn the test machine on or off.
     - Click the **Search** icon to search for a test machine in the test plan, and then click **Add Machine** to add a new Test Machine to the plan (for more information, refer to the [Manage Test Machines](https://testsigma.com/docs/test-management/test-plans/manage-test-machines/)).
 5. In the **CI/CD Integrations** tab, view **Default Integrations tools** and **Rest API to integrate with other tools** (for more information, refer to the [Integrations](https://testsigma.com/docs/integrations/overview/)).
-6. In the **Schedules** tab, view **Test Plan Schedules**, and you can edit and delete the schedules (for more information, refer to the [Schedule Test Plans](https://testsigma.com/docs/test-management/test-plans/schedule-plans/)). ![Manage Test Plan](https://s3.amazonaws.com/static-docs.testsigma.com/new_images/projects/applications/manage_testplan.gif)
+6. In the **Schedules** tab, view **Test Plan Schedules**, and you can edit and delete the schedules (for more information, refer to the [Schedule Test Plans](https://testsigma.com/docs/test-plans/schedule-plans/)). ![Manage Test Plan](https://s3.amazonaws.com/static-docs.testsigma.com/new_images/projects/applications/manage_testplan.gif)
 
 ---
 

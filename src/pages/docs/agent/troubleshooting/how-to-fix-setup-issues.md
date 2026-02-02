@@ -38,7 +38,7 @@ contextual_links:
 
 ---
 
-If  the Agent is not starting, or is starting and terminating immediately, see the Agent logs for details.  *For more information refer to the [documentation on fetching Agent logs](https://testsigma.com/docs/agent/troubleshooting/logs/)*. If you need some help understanding the error from the logs, reach out to [support](mailto:support@testsigma.com).<br>
+If  the Agent is not starting, or is starting and terminating immediately, see the Agent logs for details.  *For more information refer to the [documentation on fetching Agent logs](https://testsigma.com/docs/agent/troubleshooting/how-to-configure-agent-logs/)*. If you need some help understanding the error from the logs, reach out to [support](mailto:support@testsigma.com).<br>
 The below sections discusses common errors and troubleshooting suggestions:
 <br>
 

@@ -26,7 +26,7 @@ const data = [
         id: 4,
         title: "Test Cases",
         description: "Create and Manage Test Cases in Testsigma.",
-        path: "/docs/test-cases/overview/",
+        path: "docs/test-cases/manage/add-edit-delete/",
     },
     {
         id: 5,
@@ -50,7 +50,7 @@ const data = [
         id: 8,
         title: "Test Data Management",
         description: "Manage data used in your Test Cases effectively.",
-        path: "/docs/test-data/overview/",
+        path: "/docs/test-data/types/overview/",
     },
     {
         id: 9,

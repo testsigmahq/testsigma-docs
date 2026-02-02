@@ -37,7 +37,7 @@ You can use Testsigma API to trigger test executions remotely. This is useful wh
 >
 > Before you begin, ensure that you have referred to:
 > 1. [Documentationon generating API keys](https://testsigma.com/docs/configuration/api-keys/) from Testsigma application.
-> 2. [Documentation on managing test plans](https://testsigma.com/docs/test-management/test-plans/overview/).
+> 2. [Documentation on managing test plans](https://testsigma.com/docs/test-plans/overview/).
 
 
 ---

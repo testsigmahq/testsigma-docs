@@ -26,7 +26,7 @@ Testsigma Gearset integration allows you to trigger test plan execution every ti
 > 
 > Before you begin, ensure that you have referred to:
 > 1. [Documentation on creating test cases](https://testsigma.com/docs/test-cases/manage/add-edit-delete/).
-> 2. [Documentation on creating test plans](https://testsigma.com/docs/test-management/test-plans/overview/).
+> 2. [Documentation on creating test plans](https://testsigma.com/docs/test-plans/overview/).
 > 3. [Documentation on creating generating API keys](https://testsigma.com/docs/configuration/api-keys/#steps-to-generate-api-key). 
 
 ---
