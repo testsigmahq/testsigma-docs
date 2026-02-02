@@ -79,7 +79,7 @@ On the Test Suites List page, you will have the below options:
     - Click the **Test Suite** you want to edit and open the Test Suite Details Page.
 3. You can view **Test Cases** and **Test Plans** linked to your Test Suite on the **Test Suites Details** page.
 4. Click the **Add/Remove Test Cases** button in the top right corner of the Test Suite details page. An **Add/Remove Test Case** overlay will appear, allowing you to select test cases from the **Available Test Case** list by checking the box next to them or clicking the **+** icon to select individual test cases.
-5. Click **Test Suite Settings** in the right-side navbar, and follow steps 4 & 8 in the [Creating a Test Suite](https://testsigma.com/docs/test-management/test-suites/overview/#creating-a-test-suite) section to add **Pre-Requisite**, **After Test Suite** for the Test Suite.
+5. Click **Test Suite Settings** in the right-side navbar, and follow steps 4 & 8 in the [Creating a Test Suite](https://testsigma.com/docs/test-suites/overview/) section to add **Pre-Requisite**, **After Test Suite** for the Test Suite.
 6. Click **Test Suite Info** in the right-side navbar. You can update the Test Suite **Name**, **Type** and **Description** from there and view information about the Test Suite's creation and last update.
 7. Click **Activity** in the right-side navbar and view the **History** and **Comments** of test suite. ![Edit Test Suite](https://s3.amazonaws.com/static-docs.testsigma.com/new_images/projects/applications/edit_a_testsuite.gif)
 

@@ -109,7 +109,7 @@ Troubleshoot and resolve issues with iOS devices by following these steps.
 <li><strong>Turn Off iOS Device</strong>: Begin by turning off your iOS device.</li>
 <li><strong>Turn Off Testsigma Agent</strong>: Turn off Testsigma Agent.</li>
 <li><strong>Terminate Applications or Processes</strong>: Open <strong>Task Manager</strong> on your computer and terminate the following applications or processes <strong>NodeJS</strong>, <strong>tidevice</strong>.</li>
-<li><strong>Delete Testsigma Agent Logs</strong>: Locate and delete Testsigma Agent logs. For more information, refer to <a href="https://testsigma.com/docs/agent/troubleshooting/logs/">fetching agent test logs</a>.</li>
+<li><strong>Delete Testsigma Agent Logs</strong>: Locate and delete Testsigma Agent logs. For more information, refer to <a href="https://testsigma.com/docs/agent/troubleshooting/how-to-configure-agent-logs/">fetching agent test logs</a>.</li>
 <li><strong>Restart Testsigma Agent</strong>: Restart the Testsigma agent.</li>
 <li><strong>Restart iOS Device and Connect</strong>: Reboot your iOS device and connect it to your computer.</li>
 <li><strong>Change USB Port</strong>: If the iOS device does not appear on the list of connected devices, connect the device with a different USB port on your computer.</li>

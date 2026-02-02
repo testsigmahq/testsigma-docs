@@ -44,7 +44,7 @@ In Testsigma, you can view and download reports from the Run Results page. This 
 > <p id="prerequisites">Prerequisites</p>
 >
 > Before you begin, ensure that you have referred to:
-> 1. [Documentation on creating test plans](https://testsigma.com/docs/test-management/test-plans/overview/).
+> 1. [Documentation on creating test plans](https://testsigma.com/docs/test-plans/overview/).
 
 ---
 

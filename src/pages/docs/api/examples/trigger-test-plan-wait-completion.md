@@ -24,7 +24,7 @@ contextual_links:
 
 If you are adding automated testing as an AUTOMATED stage in your CI/CD Pipeline, you will need to trigger the Tests from the Pipeline and get the test results into the Pipeline as well. You can use Testsigma Test Plan Execution Results API to do that..
 
-You should already be familiar with creating and running Test Plans. Refer to the [documentation on managing test plans](https://testsigma.com/docs/test-management/test-plans/overview/).
+You should already be familiar with creating and running Test Plans. Refer to the [documentation on managing test plans](https://testsigma.com/docs/test-plans/overview/).
 
 [[info | NOTE:]]
 | You need to authenticate these requests with your Testsigma API Key.  To know more about obtaining API Keys, refer to the [documentation on generating API keys](https://testsigma.com/docs/configuration/api-keys/)

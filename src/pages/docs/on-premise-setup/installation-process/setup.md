@@ -68,7 +68,7 @@ To stop and remove the containers, you can run the command ***docker-compose dow
 
 ## **Containers Defined in the Docker Compose File**
 
-- The MySQL server is named **testsigma\_mysql** and uses the image, **testsigmainc/onprem:mysql-&lt;companyName&gt;-trial-&lt;Version&gt;**. It has a volume mounted to persist data. (Users can also  set up their own mysql server and map it in the docker-compose file. For more information on connecting to external/existing MySQL database, refer to the [documentation on connecting to external MySQL.](https://testsigma.com/docs/open-source-docs/docker/#connecting-to-external-mysql))
+- The MySQL server is named **testsigma\_mysql** and uses the image, **testsigmainc/onprem:mysql-&lt;companyName&gt;-trial-&lt;Version&gt;**. It has a volume mounted to persist data. (Users can also  set up their own mysql server and map it in the docker-compose file. For more information on connecting to external/existing MySQL database, refer to the [documentation on connecting to external MySQL.](https://testsigma.com/docs/))
 - The Faktory worker service is named as testsigma_worker and it uses the image,  **testsigmainc/onprem:worker-&lt;companyName&gt;-trial-&lt;Version&gt;**.
 - The global HTTPD server is named **testsigma\_load\_balancer** and uses the **testsigmainc/onprem:load-balancer-&lt;companyName&gt;-trial-&lt;Version&gt;** image. It has few environment variables specified for the various components of the application it serves. It will also have a volume mounted to persist data.
 

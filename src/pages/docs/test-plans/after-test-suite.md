@@ -21,7 +21,7 @@ contextual_links:
 
 ---
 
-AfterTest Suite in Testsigma lets you create a Test Suite specifically to execute after the execution. This article discusses how to create AfterTest Suite and add test cases for AfterTest Suite in Testsigma. *For more information on test suites, refer to the [documentation on creating test suites](https://testsigma.com/docs/test-management/test-suites/overview/).*
+AfterTest Suite in Testsigma lets you create a Test Suite specifically to execute after the execution. This article discusses how to create AfterTest Suite and add test cases for AfterTest Suite in Testsigma. *For more information on test suites, refer to the [documentation on creating test suites](https://testsigma.com/docs/test-suites/overview/).*
 
 ---
 

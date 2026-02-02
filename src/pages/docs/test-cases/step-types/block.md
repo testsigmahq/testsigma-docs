@@ -43,9 +43,9 @@ In Testsigma, a step block can be created using two different methods:
 > Before you begin, ensure that you have referred to:
 > 1. [Documentation on creating projects](https://testsigma.com/docs/projects/overview/).
 > 2. [Documentation on creating test cases](https://testsigma.com/docs/test-cases/manage/add-edit-delete/).
-> 3. [Documentation on creating test steps](https://testsigma.com/docs/test-cases/create-steps-nl/overview/). 
+> 3. [Documentation on creating test steps](https://testsigma.com/docs/test-cases/create-test-steps/overview/). 
 > 4. [Documentation on creating test step types](https://testsigma.com/docs/test-cases/step-types/overview/).
-> 5. [Documentation on creating bulk actions](https://testsigma.com/docs/test-cases/create-steps-nl/bulk-actions/).
+> 5. [Documentation on creating bulk actions](https://testsigma.com/docs/test-cases/create-test-steps/actions-and-options-manual/bulk-actions/).
 
 ---
 
@@ -76,7 +76,7 @@ Follow the below steps to add a block using the bulk action:
 
 ## **Editing a Block**
 
-Open the test case with the Step Block you want to edit. Choose the **block**, edit its **name**, and click **Update Step** to save. Click the **>** icon to view the steps within the block. To add a Test Step, click **Step Inside Block**, or click the **ellipsis** icon in the test step to access the [documentation on adding test step options](https://testsigma.com/docs/test-cases/create-steps-nl/step-actions/). ![Edit Block](https://s3.amazonaws.com/static-docs.testsigma.com/new_images/projects/applications/edit_block.gif)
+Open the test case with the Step Block you want to edit. Choose the **block**, edit its **name**, and click **Update Step** to save. Click the **>** icon to view the steps within the block. To add a Test Step, click **Step Inside Block**, or click the **ellipsis** icon in the test step to access the [documentation on adding test step options](https://testsigma.com/docs/test-cases/create-test-steps/actions-and-options-manual/step-options/). ![Edit Block](https://s3.amazonaws.com/static-docs.testsigma.com/new_images/projects/applications/edit_block.gif)
 
 ---
 

@@ -34,9 +34,9 @@ This document discusses enabling and configuring end-to-end testing in Testsigma
 >
 > Before you begin, ensure that you have referred to:
 > 
-> 1. [Documentation on creating test plans](https://testsigma.com/docs/test-management/test-plans/overview/).
-> 2. [Documentation on creating test suites](https://testsigma.com/docs/test-management/test-suites/overview/).
-> 3. [Documentation on creating test machine](https://testsigma.com/docs/test-management/test-plans/manage-test-machines/).
+> 1. [Documentation on creating test plans](https://testsigma.com/docs/test-plans/overview/).
+> 2. [Documentation on creating test suites](https://testsigma.com/docs/test-suites/overview/).
+> 3. [Documentation on creating test machine](https://testsigma.com/docs/test-plans/manage-test-machines/).
 
 ---
 
