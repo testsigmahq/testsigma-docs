@@ -30,7 +30,7 @@ Testsigma allows you to seamlessly test your applications on local iOS devices a
 > Before you begin, ensure that:
 > 1. You have a valid <a href="https://developer.apple.com/account" rel="nofollow">Apple Developer account</a>.
 > 2. You have referred to the <a href="https://testsigma.com/docs/agent/setup-on-windows-mac-linux/" rel="nofollow">documentation on installing Testsigma Agent</a> on your local machine.
-
+> 3. For Windows machines, you must install iTunes to connect the iOS device for automation. Click <a href="https://support.apple.com/en-us/106372" rel="nofollow">here</a> to download it.
 
 
 ---
@@ -50,7 +50,7 @@ Follow these steps to generate a Certificate Signing Request (CSR) and upload it
 9. In **Testsigma**, click **Upload Certificate** next to **Certificate** and select the downloaded certificate file. ![Upload CSR file in Testsigma](https://s3.amazonaws.com/static-docs.testsigma.com/new_images/projects/applications/upload_prof_pro_ts.png)
 10. Go back to the **Apple Developer** Portal and navigate to the **Certificates**, **Identifiers** & **Profiles** > **Profiles** section. ![Select Profiles in Apple Portal](https://s3.amazonaws.com/static-docs.testsigma.com/new_images/projects/overview/select_profiles_apple.png)
 11. Click on the **+** next to **Profiles** in the **Profiles** section, select **iOS App Development**. Click **Continue**. ![Select iOS App Developer and click continue](https://s3.amazonaws.com/static-docs.testsigma.com/new_images/projects/overview/newiosapp_continue_profile_apple.png)
-12. Click on the drop-down menu and select a **Wildcard App ID** in **Select an App ID**, then click **Continue** to proceed to the next step. ![Select App ID from Profiles](https://s3.amazonaws.com/static-docs.testsigma.com/new_images/projects/overview/appid_profiles_apple.png)
+12. Click on the drop-down menu and select a **Wildcard App ID** in **Select an App ID**, then click **Continue** to proceed to the next step. ![Select App ID from Profiles](https://s3.amazonaws.com/static-docs.testsigma.com/new_images/projects/configuration/ios_1.png)
 13. Select a **Certificate** downloaded from the **Apple Developer** Portal, upload it to **Testsigma**, and include it in this provisioning profile. Afterwards, proceed to the next step by clicking on **Continue**. ![select certificate](https://s3.amazonaws.com/static-docs.testsigma.com/new_images/projects/overview/selectcerftificate_profiles_apple.png)
 14. Select the **Devices** that you want to include in this provisioning profile. ![select devices](https://s3.amazonaws.com/static-docs.testsigma.com/new_images/projects/overview/selectdevices_profiles_apple.png)
 15. Enter a name for the **Provisioning Profile** and click **Generate**. ![Generate Provisioning Profile](https://s3.amazonaws.com/static-docs.testsigma.com/new_images/projects/overview/generate_profiles_apple.png)
