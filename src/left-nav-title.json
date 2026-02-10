@@ -725,7 +725,6 @@
   "apis": {"/docs/atto/generative-ai/generate-tests/apis/":"For APIs"},
   "web-recorder": {"/docs/atto/generative-ai/copilot/web-recorder/": "In Web Recorder"},
   "mobile-recorder": {"/docs/atto/generative-ai/copilot/mobile-recorder/": "In Mobile Recorder"},
-  "live-editor": {"/docs/atto/generative-ai/copilot/live-editor/": "In Live Editor"},
   "jira": {"/docs/atto/generative-ai/integrations/jira/": "Jira"},
   "figma": {"/docs/atto/generative-ai/integrations/figma/": "Figma"},
   "xray": {"/docs/atto/generative-ai/integrations/xray/": "Xray"},
@@ -761,5 +760,6 @@
   "okta-sso": {"/docs/configuration/security/okta-sso/": "Setting Up Okta SSO Login (SAML)" },
   "azure-sso": {"/docs/configuration/security/azure-sso/": "Setting Up Azure SSO Login (SAML)" },
   "end-to-end-testing": {"/docs/test-plans/end-to-end-testing/": "End-to-End Testing"},
-  "byok": {"/docs/genai-capabilities/byok/": "Bring Your Own Key (BYOK)" }
+  "byok": {"/docs/genai-capabilities/byok/": "Bring Your Own Key (BYOK)" },
+  "live-editor": {"/docs/live-editor/": "Copilot", "/docs/atto/generative-ai/copilot/live-editor/": "In Testsigma"}
   }

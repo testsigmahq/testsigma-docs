@@ -96,7 +96,7 @@ This article discusses how to navigate and engage with the five essential compon
      ![Terminal Logs](https://s3.amazonaws.com/static-docs.testsigma.com/new_images/projects/copilot/copilot_4.png)
    - **Agent Logs** – These logs show everything that happens inside the execution agent (Copilot) while it is running a test. This includes the communication records and all the steps taken during test execution.
      ![Agent Logs](https://s3.amazonaws.com/static-docs.testsigma.com/new_images/projects/copilot/copilot_5.png)
-   - **Execution Logs** – These logs show the real-time activity for the test you are currently running. You will find specific information related to the execution active in the Live Editor.
+   - **Execution Logs** – These logs show the real-time activity for the test you are currently running. You will find specific information related to the execution active in the Copilot.
      ![Execution Logs](https://s3.amazonaws.com/static-docs.testsigma.com/new_images/projects/copilot/copilot_6.png)
 
 3. Click **Info** to view the information about the Terminal. 
