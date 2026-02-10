@@ -85,10 +85,10 @@ Copilot is the primary tool for test authoring and validating through local exec
 [[info | **NOTE**:]]
 | Once you login, the session stays valid for 24 hours. After that, you'll need to login and authorize yourself again to continue using the **Copilot**.
 
-1. Click **Open the desktop app**. The **Testsigma Terminal** opens. 
+5. Click **Open the desktop app**. The **Testsigma Terminal** opens. 
    ![Open the desktop App](https://s3.amazonaws.com/static-docs.testsigma.com/new_images/projects/live_editor/terminal_n_1.1.png)
 
-2. Wait until **Testsigma Terminal** downloads the necessary files and completes the installation.
+6. Wait until **Testsigma Terminal** downloads the necessary files and completes the installation.
 
 [[info | **NOTE**:]]
 | If you encounter any issues with the **Testsigma Terminal**, click **Report Issue** from the left panel. Provide a description of the problem, upload the agent log, and make sure to include the **App Session ID** and **Debugging ID**. To obtain the Debugging ID, ensure the agent was started through Testsigma.
