@@ -56,7 +56,13 @@ Delegates SSL validation to SSL inspection tools instead of Java, bypassing SSL 
 
 **Steps:**
 
-1. Identify SSL errors during Agent startup (e.g., PKIX exception).
+1. Identify SSL errors during Agent startup.<br> 
+   Here’s an example of how the error would appear:
+   ```
+   PKIX path building failed: 
+   sun.security.provider.certpath.SunCertPathBuilderException: 
+   unable to find valid certification path to requested target 
+   ```  
 
 2. Open a terminal from the Agent installation directory.
 
