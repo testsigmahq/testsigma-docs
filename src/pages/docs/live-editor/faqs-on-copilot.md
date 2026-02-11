@@ -1,10 +1,10 @@
 ---
-title: "FAQs on Testsigma Live Editor"
-pagetitle: "FAQs on Testsigma Live Editor"
-metadesc: "Find answers to frequently questions about Testsigma's Live Editor (Testsigma Terminal), including its features, installation, usage, and how it helps resolve issues in test cases in real time"
+title: "FAQs on Testsigma Copilot"
+pagetitle: "FAQs on Testsigma Copilot"
+metadesc: "Find answers to frequently questions about Testsigma's Copilot (Testsigma Terminal), including its features, installation, usage, and how it helps resolve issues in test cases in real time"
 noindex: false
 order: 10.17
-page_id: "frequently-asked-questions-on-live-editor"
+page_id: "frequently-asked-questions-on-copilot"
 search_keyword: ""
 warning: false
 ---
@@ -14,7 +14,7 @@ warning: false
 
 ### **1. Can I run the old Java agent and Testsigma Terminal on the same machine?**
 
-**Answer:** No, only one active agent can run at a time. Testsigma Terminal automatically detects an existing Java agent and uses it for **Live Editor** and test executions.
+**Answer:** No, only one active agent can run at a time. Testsigma Terminal automatically detects an existing Java agent and uses it for **Copilot** and test executions.
 
 ---
 
@@ -57,7 +57,7 @@ warning: false
 
 ### **7. Which agent is used for remote executions or ad-hoc runs?**
 
-**Answer:** Testsigma Terminal integrates with the existing agent, which is used for remote executions, ad-hoc runs, and Live Editor.
+**Answer:** Testsigma Terminal integrates with the existing agent, which is used for remote executions, ad-hoc runs, and Copilot.
 
 ---
 
@@ -102,7 +102,7 @@ warning: false
             
         - Run: `sh Stop.sh`
             
-- **Restart:** Relaunch **Testsigma Terminal** or click the **Restart** button on the **Live Editor** homepage.
+- **Restart:** Relaunch **Testsigma Terminal** or click the **Restart** button on the **Copilot** homepage.
     
 
 ---
@@ -195,7 +195,7 @@ warning: false
 
 **Steps to Resolve for Windows:**
 
-1. Close the **Live Editor** and any previously running agent.
+1. Close the **Copilot** and any previously running agent.
 
 2. Open **Task Manager** and end the following processes, if they are running:
    - **abd**
@@ -232,8 +232,8 @@ warning: false
 
 ---
 
-**17. Why do test steps not update and features not work in the Live Editor?**
+**17. Why do test steps not update and features not work in the Copilot?**
 
-**Answer:** The Live Editor may launch the local browser and execute test steps but fail to update results or allow recording additional steps due to agent incompatibility with Chrome version 139. To fix this issue, delete the entire **.testsigma** folder and restart the Terminal. This will trigger a new agent download and restore full Live Editor functionality. 
+**Answer:** The Copilot may launch the local browser and execute test steps but fail to update results or allow recording additional steps due to agent incompatibility with Chrome version 139. To fix this issue, delete the entire **.testsigma** folder and restart the Terminal. This will trigger a new agent download and restore full Copilot functionality. 
 
 ---
