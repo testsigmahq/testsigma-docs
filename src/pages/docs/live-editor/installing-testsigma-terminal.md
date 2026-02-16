@@ -79,8 +79,10 @@ Copilot is the primary tool for test authoring and validating through local exec
 
 3. Install and open the **Testsigma Terminal** application.
    
-4. Click **Login to Testsigma**. You will be redirected to Testsigma. 
-   ![login to testsigma](https://s3.amazonaws.com/static-docs.testsigma.com/new_images/projects/live_editor/install_terminal_1.png)
+4. Upon launching the application, you can proceed in one of two ways:
+   - Click **Configure Settings** to manage security and certificates, network and proxy rules, or runtime/JVM preferences. Click **Continue** to save these changes and click **Login to Testsigma**. For more information, please refer to the [documentation on the Components of Testsigma Terminal](https://testsigma.com/docs/live-editor/components-of-testsigma-terminal/). ![Custom settings](https://s3.amazonaws.com/static-docs.testsigma.com/new_images/projects/copilot/configure_terminal_1.png)
+   - Click **Continue** and then click **Login to Testsigma** directly to continue with the default settings. You will be redirected to Testsigma. ![Login to Testsigma](https://s3.amazonaws.com/static-docs.testsigma.com/new_images/projects/copilot/configure_terminal_2.png)
+
 
 [[info | **NOTE**:]]
 | Once you login, the session stays valid for 24 hours. After that, you'll need to login and authorize yourself again to continue using the **Copilot**.
