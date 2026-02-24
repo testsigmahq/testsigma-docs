@@ -46,7 +46,7 @@ When automating test cases for an iOS application, you may sometimes want to cap
 
 
 3. On **Record Elements** overlay, select **Test Lab**, **Test Machine**, **Upload App Source** and click on **Record**.
-![Record](hhttps://s3.amazonaws.com/static-docs.testsigma.com/new_images/projects/elements/update_elements_ios_3.png)
+![Record](https://s3.amazonaws.com/static-docs.testsigma.com/new_images/projects/elements/update_elements_ios_3.png)
 
 
 4. Wait for the app to load fully.
