@@ -54,18 +54,18 @@ For example, we can allow **invalid certificates** for a webpage using the ‘**
 
 ## **Adding Desired Capabilities in Ad Hoc Run**
 1. Navigate to **Create Tests > Test Cases**.
-![Test Cases](https://s3.amazonaws.com/static-docs.testsigma.com/new_images/projects/applications/dcnavcttcs.png)
+![Test Cases](https://s3.amazonaws.com/static-docs.testsigma.com/new_images/projects/desired_capabilities/update_desired_capabilities_1.png)
 
 
 2. Create/select a test case in which you want to add the desired capabilities. 
 
 
 3. From the **Test Case** details page, click on **Run**. 
-![Run Test Case](https://s3.amazonaws.com/static-docs.testsigma.com/new_images/projects/applications/dcrun.png)
+![Run Test Case](https://s3.amazonaws.com/static-docs.testsigma.com/new_images/projects/desired_capabilities/update_desired_capabilities_2.png)
 
 
 4. On **Ad Hoc Run** overlay, click on **Desired Capabilities** to reveal the fields. 
-![Ad Hoc Run](https://s3.amazonaws.com/static-docs.testsigma.com/new_images/projects/applications/dctcradhoc.png)
+![Ad Hoc Run](https://s3.amazonaws.com/static-docs.testsigma.com/new_images/projects/desired_capabilities/update_desired_capabilities_3.png)
 
 
 5. Add the desired capabilities you want for an **Ad Hoc Run**. 
@@ -83,21 +83,21 @@ For example, we can allow **invalid certificates** for a webpage using the ‘**
 
 ## **Adding Desired Capabilities in a Test Plan**
 1. On **Dashboard**, click on **Test Plans**. 
-![Test Plans](https://s3.amazonaws.com/static-docs.testsigma.com/new_images/projects/applications/dctestplansc.png)
+![Test Plans](https://s3.amazonaws.com/static-docs.testsigma.com/new_images/projects/desired_capabilities/update_desired_capabilities_4.png)
 
 
 2. Create/select a test plan in which you want to add the desired capabilities.
 
 
 3. From the **Edit Test Plan** page, click on **Add Test Suites & Link Machine Profiles**. 
-![Edit Test Plan](https://s3.amazonaws.com/static-docs.testsigma.com/new_images/projects/applications/dctestpedit.png)
+![Edit Test Plan](https://s3.amazonaws.com/static-docs.testsigma.com/new_images/projects/desired_capabilities/update_desired_capabilities_5.png)
 
 
 4. On **Test Machines**, select the machine in which you want to add desired capabilities and click on **Test machine settings**. 
-![Test Machines](https://s3.amazonaws.com/static-docs.testsigma.com/new_images/projects/applications/dctestmach.png)
+![Test Machines](https://s3.amazonaws.com/static-docs.testsigma.com/new_images/projects/desired_capabilities/update_desired_capabilities_6.png)
 
 5. On **Edit test machine/device profile** overlay, click on **Desired Capabilities** to reveal the fields. 
-![Edit Test Machine](https://s3.amazonaws.com/static-docs.testsigma.com/new_images/projects/applications/dcedittm.png)
+![Edit Test Machine](https://s3.amazonaws.com/static-docs.testsigma.com/new_images/projects/desired_capabilities/update_desired_capabilities_7.png)
 
 6. Add the desired capabilities you want for a **Test Plan**. 
 

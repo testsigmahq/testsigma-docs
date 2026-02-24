@@ -60,12 +60,10 @@ The test step suggestions will start appearing once you enter an action. Let's s
 ---
 
 ## **Steps to Create Test Cases Using Natural Language**
-1. Navigate to **Create Tests > Test Cases** and click on **Create Test Case**.
-![Test Cases](https://s3.amazonaws.com/static-docs.testsigma.com/new_images/projects/applications/tcttcc.png)
+1. Navigate to **Create Tests > Test Cases** and create a new test case. 
+![Test Cases](https://s3.amazonaws.com/static-docs.testsigma.com/new_images/projects/best_practice/update_nlp_1.png)
 
 2. On the test case details page, create test steps using NLPs.
-![Test Steps in NLP](https://s3.amazonaws.com/static-docs.testsigma.com/new_images/projects/applications/nlpstepstc.png)
+![Test Steps in NLP](https://s3.amazonaws.com/static-docs.testsigma.com/new_images/projects/best_practice/update_npl_2.png)
 
-Here’s a quick GIF demonstrating how to create test cases using natural language. 
-![Test Steps Using NLPs](https://s3.amazonaws.com/static-docs.testsigma.com/new_images/projects/applications/TestStepsUsingNLPs.gif)
 ---

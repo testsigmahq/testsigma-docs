@@ -38,29 +38,29 @@ This article discusses how to update the values of a test data profile from a te
 
 
 1. Navigate to **Create Tests > Test Cases**, and click on **Create Test Case**.
-![Test Case](https://s3.amazonaws.com/static-docs.testsigma.com/new_images/projects/applications/cctdtcnav.png)
+![Test Case](https://s3.amazonaws.com/static-docs.testsigma.com/new_images/projects/test_data/update_tdp_value_1.png)
 
 
 
 2. To update value of a test data profile, we use the following NLP in our test case. 
-![NLP](https://s3.amazonaws.com/static-docs.testsigma.com/new_images/projects/applications/tdpvunlp.png)
+![NLP](https://s3.amazonaws.com/static-docs.testsigma.com/new_images/projects/test_data/update_tdp_value_2.png)
 
 
 
 3. On the above NLP,
 
     - Hover over **test data** and select **plain text** from the dropdown menu and replace it with the text you want to update. 
-     ![plain text](https://s3.amazonaws.com/static-docs.testsigma.com/new_images/projects/applications/tdpvupt.png)
+     ![plain text](https://s3.amazonaws.com/static-docs.testsigma.com/new_images/projects/test_data/update_tdp_value_3.png)
 
     - Hover over the **test data profile** to select the test data profile you want to update.
-     ![tdp](https://s3.amazonaws.com/static-docs.testsigma.com/new_images/projects/applications/tdpvustdp.png)
+     ![tdp](https://s3.amazonaws.com/static-docs.testsigma.com/new_images/projects/test_data/update_tdp_value_4.png)
 
     - Hover over the **parameter** to choose a column in the test data profile.
-     ![column](https://s3.amazonaws.com/static-docs.testsigma.com/new_images/projects/applications/tdpvuparam.png)
+     ![column](https://s3.amazonaws.com/static-docs.testsigma.com/new_images/projects/test_data/update_tdp_value_5.png)
 
 
 4. Click on **Run** to execute the test case and update the value of the test data profile.
-![Run](https://s3.amazonaws.com/static-docs.testsigma.com/new_images/projects/applications/tdpvurun.png)
+![Run](https://s3.amazonaws.com/static-docs.testsigma.com/new_images/projects/test_data/update_tdp_value_6.png)
 
 
 

@@ -42,23 +42,23 @@ With Testsigma, you can perform accessibility testing to ensure your iOS and And
 ## **Steps to Enable Accessibility Testing in Test Steps**
 
 1. From the left navigation bar, go to **Create Tests > Test Cases**.
-   ![Test Cases](https://s3.amazonaws.com/static-docs.testsigma.com/new_images/projects/applications/Test_Cases_Mobile_Accessibility.png)
+   ![Test Cases](https://s3.amazonaws.com/static-docs.testsigma.com/new_images/projects/accessibility_testing/update_accessibility_testing_1.png)
 
 2. Open the test case in which you want to configure test steps for **Accessibility Testing**.
-   ![Accessibility Testing](https://s3.amazonaws.com/static-docs.testsigma.com/new_images/projects/applications/Test_Cases_Page_Accessibility_Testing.png)
+   ![Accessibility Testing](https://s3.amazonaws.com/static-docs.testsigma.com/new_images/projects/accessibility_testing/update_accessibility_testing_2.png)
 
-3. Hover over the test step, click **Kebab Menu**, and select **Test Step Settings** from the dropdown menu.
-   ![Test Step Settings](https://s3.amazonaws.com/static-docs.testsigma.com/new_images/projects/applications/Test_Step_Settings_Mobile_Accessibility.png)
+3. Hover over the test step, click **Kebab Menu**, and select **Step Settings** from the dropdown menu.
+   ![Test Step Settings](https://s3.amazonaws.com/static-docs.testsigma.com/new_images/projects/accessibility_testing/update_accessibility_testing_3.png)
 
-4. Select **Enable Accessibility Testing for the Step**, and click **Update**.
-   ![Update](https://s3.amazonaws.com/static-docs.testsigma.com/new_images/projects/applications/Enable_MAT.png)
+4. Select **Enable Accessibility Testing for the Step** and click **Update**.
+   ![Update](https://s3.amazonaws.com/static-docs.testsigma.com/new_images/projects/accessibility_testing/update_accessibility_testing_4.png)
 
 [[info | **NOTE**:]]
 | 1. You can also select **Enable Accessibility Testing for the Step** from **Bulk Select > Update Settings > Bulk Update Settings**.
-|    ![Bulk Actions](https://s3.amazonaws.com/static-docs.testsigma.com/new_images/projects/applications/Bulk_Actions_MAT.png)
+|    ![Bulk Actions](https://s3.amazonaws.com/static-docs.testsigma.com/new_images/projects/accessibility_testing/update_accessibility_testing_5.png)
 |
-| 2. To select this option in the **Recorder**, go to **Test Step > Step Settings** and select **Enable Accessibility Testing for the Step**.
-|    ![Option on Recorder](https://s3.amazonaws.com/static-docs.testsigma.com/new_images/projects/applications/Option_On_Recorder_MAT.png)
+| 2. To select this option in the **Recorder**, go to **Test Step > Step Settings**, select **Enable Accessibility Testing for the Step**, and click **Update**.
+|    ![Option on Recorder](https://s3.amazonaws.com/static-docs.testsigma.com/new_images/projects/accessibility_testing/update_accessibility_testing_6.png)
 
 5. Repeat steps 3–4 for all test steps you want to configure in the required test cases.
 

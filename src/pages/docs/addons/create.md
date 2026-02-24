@@ -65,10 +65,16 @@ Addons in Testsigma enhance your testing capabilities by enabling you to create 
 
 ## **Creating an Addon Template**
 
-1. Click on the **Addons** icon from the left navigation bar.
+1. Click on the **Addons** icon from the left navigation bar and click **Add-ons** from the dropdown.
+   ![Addons](https://s3.amazonaws.com/static-docs.testsigma.com/new_images/projects/addon/update_addon_1.1.png)
+
 2. Click on the **+ New Addon** button at the top right of the Addons page.
+   ![New Addon](https://s3.amazonaws.com/static-docs.testsigma.com/new_images/projects/addon/update_addon_2.png)
+
 3. Enter the **Addon Name** and provide a brief **Description** of what the addon does on the **Testsigma Addon** pop-up, then click **Create**. A zip file containing the template code will be downloaded automatically.
-4. Alternatively, open the addon and click the **Download** icon to get the source code. This action will download a zip file containing the sample template code, which you can use to add your code. ![creating an addon](https://s3.amazonaws.com/static-docs.testsigma.com/new_images/projects/applications/creating_an_add_on.gif)
+   ![Create](https://s3.amazonaws.com/static-docs.testsigma.com/new_images/projects/addon/update_addon_3.png)
+
+4. Alternatively, open the addon and click the **Download** icon to get the source code. This action will download a zip file containing the sample template code, which you can use to add your code. 
 
 ---
 
@@ -101,8 +107,13 @@ Addons in Testsigma enhance your testing capabilities by enabling you to create 
 ```bash
 zip -r addonName.zip . -x "*"
 ```
-2. Go to the **Addons** page, select your add-on, and click **Upload Code**. Browse and select the zipped file, then click **Update**. ![upload actions code](https://s3.amazonaws.com/static-docs.testsigma.com/new_images/projects/applications/upload_action_code.gif)
-3. Additional options in the dropdown include:
+2. Go to the **Addons** page, select your add-on, and click **Upload Code**. 
+   ![Upload Code](https://s3.amazonaws.com/static-docs.testsigma.com/new_images/projects/addon/update_addon_4.png)
+
+3. Browse and select the zipped file, then click **Update**.
+   ![Update](https://s3.amazonaws.com/static-docs.testsigma.com/new_images/projects/addon/update_addon_5.png)
+
+4. Additional options in the dropdown include:
     - **Edit Description**: Update the description of your add-on if needed.
     - **Manage Tags**: Add tags or labels to organize your add-on.
     - **Deprecate**: Delete the add-on if necessary.
@@ -111,10 +122,18 @@ zip -r addonName.zip . -x "*"
 
 ## **Publishing the Addon**
 
-1. After uploading the code, click on **Publish** from the dropdown menu. Then, choose your publish options:
+1. After uploading the code, click on **Publish** from the dropdown menu. 
+   ![Publish](https://s3.amazonaws.com/static-docs.testsigma.com/new_images/projects/addon/update_addon_6.png)
+   
+   Then, choose your publish options:
     - **Public**: Make the add-on available to the entire Testsigma community.
-    - **Private**: Restrict availability to users within your organization.
-2. An automatic security check will be done. If it passes, the add-on will be published. If it fails, you will get an email notification. ![publish addon](https://s3.amazonaws.com/static-docs.testsigma.com/new_images/projects/applications/publish_addon_ts.gif)
+    - **Private**: Restrict availability to users within your organization. 
+
+
+2. Once you select the required option, click **Publish**. 
+   ![Publish the addon](https://s3.amazonaws.com/static-docs.testsigma.com/new_images/projects/addon/update_addon_7.png)
+
+3. An automatic security check will be done. If it passes, the add-on will be published. If it fails, you will get an email notification. 
 
 [[info | NOTE:]]
 | Testsigma Support team will review your publishing request for trial users and send you an email notification once they approve the add-on.
@@ -125,7 +144,7 @@ zip -r addonName.zip . -x "*"
 
 1. Create a new test case or open an existing one. Click **Add New Step** and search for the action using the keywords. 
 2. Look for the **Addon** icon before the test step to indicate it's from the Addon. 
-3. Select it from the suggestions, update the test data and element, and then click **Create Step**. ![using addon in test case](https://s3.amazonaws.com/static-docs.testsigma.com/new_images/projects/applications/use_addon_in_testcase.gif)
+3. Select it from the suggestions, update the test data and element, and then click **Create Step**. ![Create a step](https://s3.amazonaws.com/static-docs.testsigma.com/new_images/projects/addon/update_addon_8.png)
 
 ---
 

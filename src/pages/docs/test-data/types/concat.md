@@ -37,31 +37,26 @@ In Testsigma, users can concat test data, which combines multiple sets of test d
 
 
 1. Navigate to **Create Tests > Test Cases**, and click on **Create Test Case**.
-![Test Case](https://s3.amazonaws.com/static-docs.testsigma.com/new_images/projects/applications/cctdtcnav.png)
-
+![Test Case](https://s3.amazonaws.com/static-docs.testsigma.com/new_images/projects/test_data/update_concat_1.png)
 
 2. To concat test data, we use the following NLP in our test case. 
-![NLP](https://s3.amazonaws.com/static-docs.testsigma.com/new_images/projects/applications/cctdstditd.png)
-
+![NLP](https://s3.amazonaws.com/static-docs.testsigma.com/new_images/projects/test_data/update_concat_2.1.png)
 
 3. Click on **test data1**, and select **Data Generator** from the dropdown.
-![Data Generator](https://s3.amazonaws.com/static-docs.testsigma.com/new_images/projects/applications/cctddgen.png)
+![Data Generator](https://s3.amazonaws.com/static-docs.testsigma.com/new_images/projects/test_data/update_concat_3.png)
 
+4. On **! Data Generators** overlay, select ***StringFunctions*** as **Function Type** and ***Concat*** as **Function**.
+![Concat](https://s3.amazonaws.com/static-docs.testsigma.com/new_images/projects/test_data/update_concat_4.1.png)
 
-4. On **! Data Generators** overlay, select ***StringFunctions*** for **Function Type** and ***Concat*** for **Function**.
-![Concat](https://s3.amazonaws.com/static-docs.testsigma.com/new_images/projects/applications/cctdsfftc.png)
+5. Enter the first value in **Testdata 1**, click **+ Input Testdata** to add another field, then enter the second value.
+![Test data values](https://s3.amazonaws.com/static-docs.testsigma.com/new_images/projects/test_data/update_concat_5.1.png)
 
+6. Click **Save**.
+![Save](https://s3.amazonaws.com/static-docs.testsigma.com/new_images/projects/test_data/update_concat_5.png)
 
-5. Click on **Save**.
-![Save](https://s3.amazonaws.com/static-docs.testsigma.com/new_images/projects/applications/cctdsave.png)
+7. Click on **test data2**, choose where you want to store the test data from the dropdown and click **Create Step**.
+![Storing Data](https://s3.amazonaws.com/static-docs.testsigma.com/new_images/projects/test_data/update_concat_6.png)
 
-
-6. Click on **test data2**, choose where you want to store the test data from the dropdown.
-![Storing Data](https://s3.amazonaws.com/static-docs.testsigma.com/new_images/projects/applications/cctdstore.png)
-
-
-7. After adding all the steps, execute the test case and validate the result.
-
-
+8. After adding all the steps, execute the test case and validate the result.
 
 ---

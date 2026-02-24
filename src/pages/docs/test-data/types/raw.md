@@ -30,7 +30,7 @@ Plain Text or Raw data is used when you want to hardcode an input in your test. 
 **For Example:**
 Here we are using the NLP, **Wait for *test data* seconds**. 
 
-![Plain Text Example](https://s3.amazonaws.com/static-docs.testsigma.com/new_images/projects/applications/pttsteps.png)
+![Plain Text Example](https://s3.amazonaws.com/static-docs.testsigma.com/new_images/projects/test_data/update_raw_2.1.png)
 
 
 We’ll select **Plain Text** from the dropdown and enter a number to create a test step. 
@@ -39,18 +39,15 @@ We’ll select **Plain Text** from the dropdown and enter a number to create a t
 
 ## **How to Use Plain Text in a Test Case?**
 1. Navigate to **Create Tests > Test Cases** and click on **Create Test Case**.
-![Test Cases](https://s3.amazonaws.com/static-docs.testsigma.com/new_images/projects/applications/ptntcs.png)
+![Test Cases](https://s3.amazonaws.com/static-docs.testsigma.com/new_images/projects/test_data/update_raw_1.png)
 
 2. Create a test step with NLP that has ***test data*** in it and choose **Plain Text** from the dropdown. 
-![Plain Text](https://s3.amazonaws.com/static-docs.testsigma.com/new_images/projects/applications/pttsnllp.png)
+![Plain Text](https://s3.amazonaws.com/static-docs.testsigma.com/new_images/projects/test_data/update_raw_2.1.png)
 
 3. Here, erase ***test data*** and enter a number to create the test step.
-![Erase Test Data](https://s3.amazonaws.com/static-docs.testsigma.com/new_images/projects/applications/ptetd.png)
+![Erase Test Data](https://s3.amazonaws.com/static-docs.testsigma.com/new_images/projects/test_data/update_raw_3.png)
 
 [[info | **NOTE**:]]
 | You can replace plain text with anything depending on the test case scenario. 
-
-Here’s a quick GIF demonstrating how to use Plain Text in a test case. 
-![Plain Text](https://s3.amazonaws.com/static-docs.testsigma.com/new_images/projects/applications/PlainTextWF.gif)
 
 ---

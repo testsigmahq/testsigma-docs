@@ -49,7 +49,7 @@ After entering the details, click on the Create button to add the Integration.
 
 Once the account details are added to the Plugins page, select BrowserStack as the Test Lab type instead of Testsigma Lab while creating an Ad-hoc run or Test Plan Run.
 
-![Select BrowserStack as the Test lab Type for Test Plan Run or Ad-hoc Run GIF](https://docs.testsigma.com/images/browserstack/select-test-lab-browserstack-gif.png)
+![Select BrowserStack as the Test lab Type for Test Plan Run or Ad-hoc Run GIF](https://s3.amazonaws.com/static-docs.testsigma.com/new_images/projects/desired_capabilities/update_browserstack_1.png)
 
 
 ---
