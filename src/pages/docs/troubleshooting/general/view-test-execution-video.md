@@ -24,17 +24,17 @@ In Testsigma, the test execution video will be available once the test execution
 
 1. Navigate to **Create Tests > Test Cases > Test Case > Ad-Hoc Runs**  or open test case level reports from **Run Results**.
 
-   ![Test Case Results](https://s3.amazonaws.com/static-docs.testsigma.com/new_images/projects/applications/tcrpgewv.png)
+   ![Test Case Results](https://s3.amazonaws.com/static-docs.testsigma.com/new_images/projects/troubleshooting/update_view_test_execution_1.png)
 
 
 2. Click on **Watch Video**.
 
-   ![Watch Video](https://s3.amazonaws.com/static-docs.testsigma.com/new_images/projects/applications/wvideointcrp.png)
+   ![Watch Video](https://s3.amazonaws.com/static-docs.testsigma.com/new_images/projects/troubleshooting/update_view_test_execution_2.png)
 
 
 3. The video will be played in a popup. 
 
-   ![Video](https://s3.amazonaws.com/static-docs.testsigma.com/new_images/projects/applications/vwspcowv.png)
+   ![Video](https://s3.amazonaws.com/static-docs.testsigma.com/new_images/projects/troubleshooting/update_view_test_execution_3.png)
 
 
 ---

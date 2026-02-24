@@ -40,21 +40,15 @@ In Testsigma, you can create multiple projects and assign users to those project
 
 
 1. Navigate to **Setings > Users**. 
-![Users](https://s3.amazonaws.com/static-docs.testsigma.com/new_images/projects/applications/Assigning_New_Users_to_a_Project_1.png)
+![Users](hhttps://s3.amazonaws.com/static-docs.testsigma.com/new_images/projects/collaboration/update_user_1.png)
 
 
 2. Click on **Add new user**. This will open a dialog. 
-![New User](https://s3.amazonaws.com/static-docs.testsigma.com/new_images/projects/applications/Assigning_New_Users_to_a_Project_2.1.png)
+![New User](https://s3.amazonaws.com/static-docs.testsigma.com/new_images/projects/collaboration/update_user_2.png)
 
 
-3. On **Add new user** dialog, enter **Email**, check **projects** you want to assign and **roles** corresponding to projects. 
-![Add new users](https://s3.amazonaws.com/static-docs.testsigma.com/new_images/projects/applications/Assigning_New_Users_to_a_Project_3.png)
-
-
-4. Click on **Send Invite**.
-![Invite](https://s3.amazonaws.com/static-docs.testsigma.com/new_images/projects/applications/Assigning_New_Users_to_a_Project_4.1.png)
-
-
+3. On **Add new user** dialog, enter **Email**, check **projects** you want to assign and **roles** corresponding to projects, and click **Send Invite**. 
+![Add new users](https://s3.amazonaws.com/static-docs.testsigma.com/new_images/projects/collaboration/update_user_3.png)
 
 Alternatively, you can also add users from **Project Settings**. For more information on managing users & roles, refer to the [documentation on managing users & roles](https://testsigma.com/docs/collaboration/users-roles/). 
 
@@ -65,15 +59,15 @@ Alternatively, you can also add users from **Project Settings**. For more inform
 
 
 1. Navigate to **Settings > Users**, click on the kebab menu corresponding to the user you want to assign a project.
-![Kebab Menu](https://s3.amazonaws.com/static-docs.testsigma.com/new_images/projects/applications/Assigning_Existing_Users_to_a_Project_1.png)
+![Kebab Menu](https://s3.amazonaws.com/static-docs.testsigma.com/new_images/projects/collaboration/update_user_4.png)
 
 
 2. From the dropdown, click on **Edit user role**. This will open a dialog. 
-![Dropdown](https://s3.amazonaws.com/static-docs.testsigma.com/new_images/projects/applications/Assigning_Existing_Users_to_a_Project_2.png)
+![Dropdown](https://s3.amazonaws.com/static-docs.testsigma.com/new_images/projects/collaboration/update_user_5.png)
 
 
 3. On **Edit User Role / Assign Projects** dialog, edit the details and click on **Update**.
-![Update](https://s3.amazonaws.com/static-docs.testsigma.com/new_images/projects/applications/Assigning_Existing_Users_to_a_Project_3.2.png)
+![Update](https://s3.amazonaws.com/static-docs.testsigma.com/new_images/projects/collaboration/update_user_6.png)
 
 
 

@@ -97,7 +97,7 @@ RUNTIME_DATA_INPUT="buildurl=http://test.testsigma.com,data1=testdata"
  ![build progress in AWS DevOps](https://docs.testsigma.com/images/aws-devops/build-progress-aws-devops.png)
     
     You will find the execution ID for the Test Plan within the **REST API call to start Test Plan** section.
-![Get Test Plan ID](https://s3.amazonaws.com/static-docs.testsigma.com/new_images/projects/applications/trineid.png)
+![Get Test Plan ID](https://s3.amazonaws.com/static-docs.testsigma.com/new_images/projects/continuous_integration/update_aws_1.png)
 
 ### Create CodePipeline with Source, Build, and Pipeline details
  

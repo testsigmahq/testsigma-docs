@@ -41,23 +41,23 @@ The following article discusses about updating an existing test data profile. *F
 
 
 1. Navigate to **Test Data > Test Data Profiles**. 
-![Nav TDP](https://s3.amazonaws.com/static-docs.testsigma.com/new_images/projects/applications/utdpnavt.png)
+![Nav TDP](https://s3.amazonaws.com/static-docs.testsigma.com/new_images/projects/test_data/update_tdp_update_1.png)
 
 
 2. Hover over the test data profile you want to update and click on the kebab menu and select **Update TDP** from the dropdown. 
-![Test data profile](https://s3.amazonaws.com/static-docs.testsigma.com/new_images/projects/applications/utdpsutdp.png)
+![Test data profile](https://s3.amazonaws.com/static-docs.testsigma.com/new_images/projects/test_data/update_tdp_update_2.png)
 
 
 3. On **Import Test Data Profile** prompt, click on **Browse file** to select the file you want to replace. 
-![Prompt](https://s3.amazonaws.com/static-docs.testsigma.com/new_images/projects/applications/utdpbrwse.png)
+![Prompt](https://s3.amazonaws.com/static-docs.testsigma.com/new_images/projects/test_data/update_tdp_update_3.png)
 
 
-4. Select the file, enter name and choose the columns you want to encrypt. 
-![File](https://s3.amazonaws.com/static-docs.testsigma.com/new_images/projects/applications/utdpncten.png)
+1. Select the file and choose the columns you want to encrypt. 
+![File](https://s3.amazonaws.com/static-docs.testsigma.com/new_images/projects/test_data/update_tdp_update_4.png)
 
 
 5. Click on **Import**.
-![Import](https://s3.amazonaws.com/static-docs.testsigma.com/new_images/projects/applications/utdpimport.png)
+![Import](https://s3.amazonaws.com/static-docs.testsigma.com/new_images/projects/test_data/update_tdp_update_5.png)
 
 
 6. On the successful update of test data profile, you will receive an email. 

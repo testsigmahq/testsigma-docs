@@ -32,10 +32,10 @@ The SOQL step type allows you to run SOQL queries to retrieve real-time Salesfor
 ## **Steps to Create SOQL as a Test Step**
 
 1. From the left navigation bar, navigate to **Create Tests > Test Cases**. 
-   ![soql as test step 1](https://s3.amazonaws.com/static-docs.testsigma.com/new_images/projects/salesforce-testing/soql_test_step_1.png)
+   ![soql as test step 1](https://s3.amazonaws.com/static-docs.testsigma.com/new_images/projects/salesforce/update_sf_1.png)
 
 2. In the **Test Case Details** page, click on the test step options list and select **SOQL**. 
-   ![soql as test step 2](https://s3.amazonaws.com/static-docs.testsigma.com/new_images/projects/salesforce-testing/SOQL_as_Test_Step_2.png)
+   ![soql as test step 2](https://s3.amazonaws.com/static-docs.testsigma.com/new_images/projects/salesforce/update_sf_2.png)
 
 3. Select a Salesforce connection from the **Salesforce Connection** dropdown or you can parameterize your connection. 
    ![soql as test step 3](https://s3.amazonaws.com/static-docs.testsigma.com/new_images/projects/salesforce-testing/SOQL_as_Test_Step_3.png)

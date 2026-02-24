@@ -68,7 +68,7 @@ Testsigma Automation Standards emphasise the reusability of automated test cases
 ## **Assertions and Verifications**
 
 1. You define the expected outcomes of automated test cases and specify the validations to be performed at specific points in time as verifications to understand the concept of assertions.
-2. Navigate to **Help** > **Actions List** on the Test Case details page to find **NLPs** with assertions in Testsigma. ![Action Lists](https://s3.amazonaws.com/static-docs.testsigma.com/new_images/projects/applications/action_list.png)
+2. Navigate to **Help** > **Actions List** on the Test Case details page to find **NLPs** with assertions in Testsigma. ![Action Lists](https://s3.amazonaws.com/static-docs.testsigma.com/new_images/projects/best_practice/update_best_practice_1.png)
 3. A failed verification in a test case marks the overall test case as failed by default. If validation fails, the remaining test steps will be skipped, and the test case execution will be aborted.
 4. To implement soft assertions for scenarios that require execution of remaining steps after a test step failure, follow the steps below and for more information on managing test step settings, refer to the [documentation on managing test step settings](https://testsigma.com/docs/test-cases/create-test-steps/actions-and-options-recorder/step-settings/):
      - Hover over the test step, click **Option**, and choose **Step Settings** from the dropdown.
@@ -81,7 +81,7 @@ Testsigma Automation Standards emphasise the reusability of automated test cases
 
 1. Filter, segment, and organise test cases for easy identification to streamline test management processes and quickly locate specific tests.
 2. **Label or map relevant requirements** to test cases to facilitate filtering and improve accessibility. Users can filter and save test cases in separate views based on labelled or mapped requirements.
-3. During test case creation or editing, you can add labels. The label field is available by default in the test case. ![Requirements and Labels](https://s3.amazonaws.com/static-docs.testsigma.com/new_images/projects/applications/req_labels.png)
+3. During test case creation or editing, you can add labels. The label field is available by default in the test case. ![Requirements and Labels](https://s3.amazonaws.com/static-docs.testsigma.com/new_images/projects/best_practice/update_best_practice_2.png)
 4. You can **Save Filters** to quickly access and manage test cases associated with a particular functionality or scenario, such as those related to login. For more information on saving test case filters, refer to the [documentation on saving test case filter](https://testsigma.com/docs/test-cases/manage/list-actions/#save-test-case-filter).
 
 ---

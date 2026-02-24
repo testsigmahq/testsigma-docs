@@ -36,7 +36,7 @@ To access the Community Marketplace, click the addons icon in the navigation bar
     - **New and Updated Addons**: Recently added or updated addons.
     - **Testsigma Addons**: Official addons provided by the Testsigma team.
 - **Installed Addons**: Addons that are already installed and activated in your account.
-- **My Addons**: Addons you have created, both public and private. ![explore addon page](https://s3.amazonaws.com/static-docs.testsigma.com/new_images/projects/applications/exploring_addon_page.png)
+- **My Addons**: Addons you have created, both public and private. ![explore addon page](hhttps://s3.amazonaws.com/static-docs.testsigma.com/new_images/projects/addon/update_addon_marketplace_1.png)
 
 If you don't find an addon that suits your needs, you can create a new one and publish it to the Marketplace to help other software development engineers in test (SDETs) in the QA Community. For more information on creating a new addon, refer to the [documentation on creating a add-on](https://testsigma.com/docs/addons/create/)
 
@@ -57,7 +57,7 @@ Additionally, you can filter the addon by:
 - **Creation Date**
 - **Last Updated Date**
 
-These features help you quickly locate the addon that best match your requirements. ![search addon](https://s3.amazonaws.com/static-docs.testsigma.com/new_images/projects/applications/search_addon.png)
+These features help you quickly locate the addon that best match your requirements. ![search addon](https://s3.amazonaws.com/static-docs.testsigma.com/new_images/projects/addon/update_addon_marketplace_2.png)
 
 ---
 
@@ -74,7 +74,7 @@ Clicking on an addon in the marketplace opens its details page, where you can fi
 - **Number of Installs**: How many times the addon has been installed.
 - **Supported Application Types**: The types of applications compatible with the addon.
 - **Supported Actions**: Actions that can be performed using the addon.
-- **Data Generators**: Data generation features supported by the addon. ![viewing addon details](https://s3.amazonaws.com/static-docs.testsigma.com/new_images/projects/applications/viewing_addon_details.png)
+- **Data Generators**: Data generation features supported by the addon. ![viewing addon details](https://s3.amazonaws.com/static-docs.testsigma.com/new_images/projects/addon/update_addon_marketplace_3.png)
 
 ---
 

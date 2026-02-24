@@ -48,35 +48,33 @@ While creating a test case on Testsigma, you can assign a type to it, to differe
 
 
 1. Navigate to **Project** and click **Project Settings**.
-![Add a new test case type 1](https://s3.amazonaws.com/static-docs.testsigma.com/new_images/projects/applications/Add_a_new_test_case_type_step_1.png)
+![Add a new test case type 1](https://s3.amazonaws.com/static-docs.testsigma.com/new_images/projects/project/update_test_types_1.png)
 
 2. This will open **Edit Project** dialog. 
-![Add a new test case type 2](https://s3.amazonaws.com/static-docs.testsigma.com/new_images/projects/applications/Add_a_new_test_case_type_step_2.png)
+![Add a new test case type 2](https://s3.amazonaws.com/static-docs.testsigma.com/new_images/projects/project/update_test_types_2.png)
 
 3. Click **Test Case Types**.
-![Add a new test case type 3](https://s3.amazonaws.com/static-docs.testsigma.com/new_images/projects/applications/Add_a_new_test_case_type_step_3.png)
+![Add a new test case type 3](https://s3.amazonaws.com/static-docs.testsigma.com/new_images/projects/project/update_test_types_3.1.png)
 
 4. Click **Add Type**.
-![Add a new test case type 4](https://s3.amazonaws.com/static-docs.testsigma.com/new_images/projects/applications/Add_a_new_test_case_type_step_4.png)
+![Add a new test case type 4](https://s3.amazonaws.com/static-docs.testsigma.com/new_images/projects/project/update_test_types_4.png)
 
 5. A new blank row will appear where you can start typing to add the new test case type. Once you’re done, press **Enter**.
-![Add a new test case type 5](https://s3.amazonaws.com/static-docs.testsigma.com/new_images/projects/applications/Add_a_new_test_case_type_step_5.png)
+![Add a new test case type 5](https://s3.amazonaws.com/static-docs.testsigma.com/new_images/projects/project/update_test_types_5.png)
 
 ---
 
 ## **Delete a Test Case Type**
 
 1. Hover over the test case type you want to delete and click on **Delete**.
-![Delet a test case type 1](https://s3.amazonaws.com/static-docs.testsigma.com/new_images/projects/applications/Delete_a_new_test_case_type_step_1.png)
+![Delet a test case type 1](https://s3.amazonaws.com/static-docs.testsigma.com/new_images/projects/project/update_test_types_6.png)
 
 [[info | **NOTE**:]]
 | 1. From the **Delete Confirmation** dialog, you need to unlink all the test cases associated with the test case type by clicking on the View Test Case link and change the test case type to any other available test case type. 
+| ![Unlink](https://s3.amazonaws.com/static-docs.testsigma.com/new_images/projects/applications/Delete_a_test_case_type_note.png)
 
 2. On the **Delete Test Case Type** prompt, enter **DELETE** and click on **Delete**.
-![Delete a test case type 2](https://s3.amazonaws.com/static-docs.testsigma.com/new_images/projects/applications/Delete_a_new_test_case_type_step_2.png)
-
-[[info | **NOTE**:]]
-|![Unlink](https://s3.amazonaws.com/static-docs.testsigma.com/new_images/projects/applications/Delete_a_test_case_type_note.png)
+![Delete a test case type 2](https://s3.amazonaws.com/static-docs.testsigma.com/new_images/projects/project/update_test_types_7.png)
 
 Alternatively, you can also unlink test cases associated with the test case type from the edit test case page. For more information, refer to edit test cases.
 
@@ -85,25 +83,25 @@ Alternatively, you can also unlink test cases associated with the test case type
 ## **Edit a Test Case Type**
 
 1. Hover over the test case type and click on the **Edit**.
-![Edit a test case type 1](https://s3.amazonaws.com/static-docs.testsigma.com/new_images/projects/applications/Edit_a_new_test_case_type_step_1.png)
+![Edit a test case type 1](https://s3.amazonaws.com/static-docs.testsigma.com/new_images/projects/project/update_test_types_8.png)
 
 2. Edit the text of the test case type, press **Enter** to save the changes.
-![Edit a test case type 2](https://s3.amazonaws.com/static-docs.testsigma.com/new_images/projects/applications/Edit_a_new_test_case_type_step_2.png)
+![Edit a test case type 2](https://s3.amazonaws.com/static-docs.testsigma.com/new_images/projects/project/update_test_types_9.png)
 
 ---
 
 ## **Steps to Assign a Test Case Type to a Test case**
 
 1. From the left navigation bar, go to **Create Tests > Test Cases**.
-![Test Cases](https://s3.amazonaws.com/static-docs.testsigma.com/new_images/projects/applications/Assign_a_test_case_to_a_type_1.png)
+![Test Cases](https://s3.amazonaws.com/static-docs.testsigma.com/new_images/projects/project/update_test_types_10.png)
 
 2. In the **Test Case Explorer** section, locate the **Feature** and **Scenario** containing the test case you wish to assign to a test case type and select the test case. 
-![Manage Test Case](https://s3.amazonaws.com/static-docs.testsigma.com/new_images/projects/applications/Assign_a_test_case_to_a_type_2.png)
+![Manage Test Case](https://s3.amazonaws.com/static-docs.testsigma.com/new_images/projects/project/update_test_types_11.png)
 
 3. From the right navigation bar, click on **Manage Test Case**.  
-![Manage Test Case Overlay](https://s3.amazonaws.com/static-docs.testsigma.com/new_images/projects/applications/Assign_a_test_case_to_a_type_3.png)
+![Manage Test Case Overlay](https://s3.amazonaws.com/static-docs.testsigma.com/new_images/projects/project/update_test_types_12.png)
 
 4. On **Manage Test Case** overlay, scroll down to **Test Type** and select test case type from the drop down menu.
-![Test Case Type from Dropdown](https://s3.amazonaws.com/static-docs.testsigma.com/new_images/projects/applications/Assign_a_test_case_to_a_type_4.1.png)
+![Test Case Type from Dropdown](https://s3.amazonaws.com/static-docs.testsigma.com/new_images/projects/project/update_test_types_13.png)
 
 ---

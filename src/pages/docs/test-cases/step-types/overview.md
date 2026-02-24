@@ -32,23 +32,17 @@ An automated test case is a step-by-step logic that simulates user interactions 
 
 ## **Steps to Add Test Step Types**
 
-1. Navigate to **Create Tests > Test Cases**, and click on **Create Test Cases**.
+1. From the left navigation bar, go to **Create Tests > Test Cases** and create a new test case. 
 
-![Test Cases](https://s3.amazonaws.com/static-docs.testsigma.com/new_images/projects/applications/ctsmctcs.png)
+![Test Cases](https://s3.amazonaws.com/static-docs.testsigma.com/new_images/projects/test_case/update_step_type_1.png)
 
+2. In the Test Case Details page, click on the option on the left side of the test step.
 
-2. Enter **Name** and click on **Add new step**. 
+![Option](https://s3.amazonaws.com/static-docs.testsigma.com/new_images/projects/test_case/update_step_type_2.png)
 
-![New Step](https://s3.amazonaws.com/static-docs.testsigma.com/new_images/projects/applications/ctsmanstep.png)
+3. This will open a side panel from where you can choose different test steps.
 
-
-3. Click on the option on the left side of the test step.
-
-![Option](https://s3.amazonaws.com/static-docs.testsigma.com/new_images/projects/applications/tstypesovopt.png)
-
-4. This will open a side panel from where you can choose different test steps.
-
-![Side Panel](https://s3.amazonaws.com/static-docs.testsigma.com/new_images/projects/applications/tstypesidepanel.png)
+![Side Panel](https://s3.amazonaws.com/static-docs.testsigma.com/new_images/projects/test_case/update_step_type_3.png)
 
 You can choose the type of test step you want to add to your test case from the panel. Read more about the different test steps and how to create them in the links below:
 
