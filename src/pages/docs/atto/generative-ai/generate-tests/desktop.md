@@ -25,7 +25,10 @@ Testsigma’s Gen AI capabilities help you streamline test case creation for Des
 
 > <p id="prerequisites">Prerequisites</p>
 >
-> Before you begin, ensure your Jira and Figma accounts are integrated with Testsigma and you have the necessary files ready for input.
+> Before you begin, ensure that, 
+> - Your Jira and Figma accounts are integrated with Testsigma and you have the necessary files ready for input.
+> - You have referred to the [documentation on creating test cases](https://testsigma.com/docs/test-cases/manage/add-edit-delete/).
+> - You have referred to the [documentation on creating projects](https://testsigma.com/docs/projects/overview/). 
 
 ---
 
@@ -51,22 +54,29 @@ Testsigma’s Gen AI capabilities help you streamline test case creation for Des
 
 5. In the Prompt box, enter a detailed prompt that describes test cases want to generate.
 
-6. Click **Generate with AI**.
+6.  The **Read existing test case library** checkbox is selected by default. Clear this checkbox if you do not want the system to consider existing test cases while generating new ones.
 
-7. Wait for **Generator Agent** to generate the test cases based on the selected stories and prompt.
+7. Click **Generate with AI**.
 
-8. After the test cases are generated, expand a category and select a test case.
+8. Wait for **Generator Agent** to generate the test cases based on the selected stories and prompt.
 
-9. In the **Test Case Details** dialog, go to the **Manual Steps** tab and review the generated steps.
+9. After the test cases are generated, expand a category and select a test case.
 
-10.  Click **Edit** to manually add a step or block, or to modify existing steps.
+10. In the **Test Case Details** dialog, go to the **Manual Steps** tab and review the generated steps.
 
-11.  If you want to refine the steps using **Atto**, enter a prompt and click **Refine manual steps**.
+11.  Click **Edit** to manually add a step or block, or to modify existing steps.
 
-12.  Click **Generate Automated Steps** to convert the manual steps into NLP-based automated steps.
+12.  If you want to refine the steps using **Atto**, enter a prompt and click **Refine manual steps**.
 
-13.  Click **Accept** to save the test case.
+13.  Click **Generate Automated Steps** to convert the manual steps into NLP-based automated steps.
+
+14.  After the steps are converted, choose one of the following options:
+    - To execute the test before saving, hover over **Run with Copilot**, and then select the environment in which you want to run the test steps. Copilot runs the automated steps. Review the execution results to ensure that everything works as expected, and then click **Save to Library** to save the test case to your project. 
+    - To save the test directly, click **Save to Library**. In the **Select Location** dialog box, expand the required **Feature**, and then select the **Scenario** where you want to save the automated test case. 
   
-14. Repeat steps 8–13 for all the test cases you want to add.
+15. Repeat steps 8–14 for all the test cases you want to add.
+
+[[info | **NOTE**:]]
+| - To learn about **Agentic Learning**, please refer to the [documentation on Generator Agent in Testsigma](https://testsigma.com/docs/ai-agents/generator/).
 
 ---
