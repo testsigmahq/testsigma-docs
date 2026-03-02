@@ -182,7 +182,7 @@ Steps can be added while execution is inside a loop. The execution behavior foll
 
 ### **3. Modifying Loop Steps**
 
-Once the execution has completed or failed, you can manage the steps within a loop. Any modifications you make are applied to the updated execution flow.
+Once the execution is paused, you can manage the steps within a loop. Any modifications you make are applied to the updated execution flow.
 
 You can perform any of the following actions to modify steps:
 
