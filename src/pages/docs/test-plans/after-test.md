@@ -34,10 +34,10 @@ AfterTest in Testsigma lets you create a block of steps after the test case as w
 ## **AfterTest in Test Cases**
 
 1. Navigate to **Create Tests > Test Cases**, and create a test case. 
-![Test Case](https://s3.amazonaws.com/static-docs.testsigma.com/new_images/projects/applications/atstnav.png)
+![Test Case](https://s3.amazonaws.com/static-docs.testsigma.com/new_images/projects/test_plan/update_aftertest_1.png)
 
 2. Click on **Test Case settings** and enable **AfterTest Case** toggle.
-![Test Case Settings](https://s3.amazonaws.com/static-docs.testsigma.com/new_images/projects/applications/atstctgl.png)
+![Test Case Settings](https://s3.amazonaws.com/static-docs.testsigma.com/new_images/projects/test_plan/update_aftertest_2.png)
 
 3.  From **If AfterTest fails** dropdown menu, 
 ![Dropdown Menu](https://s3.amazonaws.com/static-docs.testsigma.com/new_images/projects/applications/attciatf.png)

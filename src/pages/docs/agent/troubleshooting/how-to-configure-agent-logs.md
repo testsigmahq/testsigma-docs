@@ -38,31 +38,22 @@ Agent log-level configuration in Testsigma is important for debugging and keepin
 ### **Change Agent Level Configuration**
 
 1. Click on the **Agents** icon in the left navigation bar. Open an agent from the Agent list page.
-2. Click on the **Agent Settings** icon in the right navigation bar. Choose the agent log level configuration for CLI and local files from the log level options. 
-   <br>
+   ![Agents](https://s3.amazonaws.com/static-docs.testsigma.com/new_images/projects/agent/update_agent_1.png)
 
-<div style="position: relative; padding-bottom: 56.25%; height: 0; overflow: hidden;">
-  <iframe src="https://s3.amazonaws.com/static-docs.testsigma.com/new_images/projects/agent/gotoagent-1.mp4" 
-          style="position: absolute; top: 0; left: 0; width: 100%; height: 100%; border: 0;" 
-          allowfullscreen>
-  </iframe>
-</div>
+2. Click on the **Agent Settings** icon in the right navigation bar. 
+   ![Agent Settings](https://s3.amazonaws.com/static-docs.testsigma.com/new_images/projects/agent/update_agent_2.png)
 
-  - **ERROR**: Logs only critical issues that cause the agent to fail. Only error messages will appear in the CLI and be saved in the local agent log files.
-  - **WARN**: Logs warnings and errors to spot potential issues early. Warning and error messages will appear in the CLI and be saved in the local agent log files.
-  - **INFO**: The default level that logs general information, warnings, and errors for regular monitoring. Info, warning, and error messages will appear in the CLI and be saved in the local agent log files.
-  - **DEBUG**: Logs detailed information for debugging. Debug info, warnings, and errors will appear in the CLI and be saved in the local agent log files.
-  - **TRACE**: Logs detailed traces of the execution flow for deep debugging. Trace messages, debug info, warnings, and errors will appear in the CLI and be saved in the local agent log files.
-  - **ALL**: Logs all messages, providing the most detailed logging. All messages (error, warning, info, debug, and trace) will appear in the CLI and be saved in the local agent log files. ![agent log level configuration](https://s3.amazonaws.com/static-docs.testsigma.com/new_images/projects/applications/agent_log_level_configuration.png)
-3. After selecting the log-level configuration, **restart** the agent for the changes to take effect. 
-    <br>
+3. Choose the agent log level configuration for CLI and local files from the log level options. 
+   ![Log level](https://s3.amazonaws.com/static-docs.testsigma.com/new_images/projects/agent/update_agent_3.png)
 
-<div style="position: relative; padding-bottom: 56.25%; height: 0; overflow: hidden;">
-  <iframe src="https://s3.amazonaws.com/static-docs.testsigma.com/new_images/projects/agent/selectloglevel-1.mp4" 
-          style="position: absolute; top: 0; left: 0; width: 100%; height: 100%; border: 0;" 
-          allowfullscreen>
-  </iframe>
-</div>
+   - **ERROR**: Logs only critical issues that cause the agent to fail. Only error messages will appear in the CLI and be saved in the local agent log files.
+   - **WARN**: Logs warnings and errors to spot potential issues early. Warning and error messages will appear in the CLI and be saved in the local agent log files.
+   - **INFO**: The default level that logs general information, warnings, and errors for regular monitoring. Info, warning, and error messages will appear in the CLI and be saved in the local agent log files.
+   - **DEBUG**: Logs detailed information for debugging. Debug info, warnings, and errors will appear in the CLI and be saved in the local agent log files.
+   - **TRACE**: Logs detailed traces of the execution flow for deep debugging. Trace messages, debug info, warnings, and errors will appear in the CLI and be saved in the local agent log files.
+   - **ALL**: Logs all messages, providing the most detailed logging. All messages (error, warning, info, debug, and trace) will appear in the CLI and be saved in the local agent log files. ![agent log level configuration](https://s3.amazonaws.com/static-docs.testsigma.com/new_images/projects/applications/agent_log_level_configuration.png)
+
+4. After selecting the log-level configuration, **restart** the agent for the changes to take effect. 
 
 [[info | NOTE:]]
 | Always restart the agent after changing the log-level configuration to apply the new settings.
@@ -72,11 +63,15 @@ Agent log-level configuration in Testsigma is important for debugging and keepin
 ## **Send the Logs Automatically**
 
 1. From the dashboard, go to **Agents**.
-2. Hover over the agent for which you want to send logs, and click **Report Agent**.
-3. In the warning dialog, provide a description of the problem you're facing with the agent and click **Report**.
-4. The logs will be reported to Testsigma support automatically.
+   ![Agents](https://s3.amazonaws.com/static-docs.testsigma.com/new_images/projects/agent/update_agent_4.png)
 
-Here’s a quick GIF demonstrating how to send the logs automatically. ![send logs automatically](https://s3.amazonaws.com/static-docs.testsigma.com/new_images/projects/applications/agentlogsauto.gif)
+2. Hover over the agent for which you want to send logs, and click **Report Agent**.
+   ![Report Agent](https://s3.amazonaws.com/static-docs.testsigma.com/new_images/projects/agent/update_agent_5.png)
+
+3. In the warning dialog, provide a description of the problem you're facing with the agent and click **Report**.
+   ![Report the issue](https://s3.amazonaws.com/static-docs.testsigma.com/new_images/projects/agent/update_agent_6.png)
+
+4. The logs will be reported to Testsigma support automatically.
 
 ---
 
@@ -98,21 +93,13 @@ Inside the above directory, you will find a **logs** folder containing several f
 1. Zip the **Agent** folder mentioned above.
 
 2. Hover over the agent for which you want to send logs and click **Report Agent**.
+   ![Report Agent](https://s3.amazonaws.com/static-docs.testsigma.com/new_images/projects/agent/update_agent_7.png)
 
 3. Click **Upload manually**. This will open a warning dialog. 
+   ![Upload Manually](https://s3.amazonaws.com/static-docs.testsigma.com/new_images/projects/agent/update_agent_8.png)
 
 4. In the warning dialog, provide a description of the problem you're facing with the agent, attach agent logs ZIP file click **Report**.
-
-Here’s a quick demonstration on sending the logs manually. 
-
- <br>
-
-<div style="position: relative; padding-bottom: 56.25%; height: 0; overflow: hidden;">
-  <iframe src="https://s3.amazonaws.com/static-docs.testsigma.com/new_images/projects/agent/goagentmanual.mp4" 
-          style="position: absolute; top: 0; left: 0; width: 100%; height: 100%; border: 0;" 
-          allowfullscreen>
-  </iframe>
-</div>
+   ![Report the issue](https://s3.amazonaws.com/static-docs.testsigma.com/new_images/projects/agent/update_agent_9.png)
 
 ---
 

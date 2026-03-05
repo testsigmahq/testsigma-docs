@@ -54,7 +54,7 @@ Testsigma Copilot redefines test automation with the power of generative AI 🤖
 
 4. On the **Test Case Details** page, enter a name for the test case and click **Record** in the top-right corner. A new window will open.
 
-   ![Record](https://s3.amazonaws.com/static-docs.testsigma.com/new_images/projects/applications/GenAI_Record.png)
+   ![Record](https://s3.amazonaws.com/static-docs.testsigma.com/new_images/projects/atto/update_web_recorder_1.png)
 
 5. In the opened window, input the URL of the web page from which you want to generate test scenarios. The **Testsigma Recorder** will activate and prepare for recording.
 

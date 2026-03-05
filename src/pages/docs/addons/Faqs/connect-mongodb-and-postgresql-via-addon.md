@@ -38,9 +38,10 @@ Connecting MongoDB and PostgreSQL databases to Testsigma enhances your testing c
 
 To set up a database connection to MongoDB in Testsigma, follow these steps:
 
-1. Click **Addons** from the left navigation bar.
-2. Search for the **MongoDB_NLPs** addon from the **New & Updated Addons** and click **Install**. ![install mongodb addon](https://s3.amazonaws.com/static-docs.testsigma.com/new_images/projects/applications/settup_mongo_db.png)
-3. Once you install the **MongoDB_NLPs** addon, you can find the predefined NLPs in **Test Steps**. ![use mongodb nlp](https://s3.amazonaws.com/static-docs.testsigma.com/new_images/projects/applications/use_mongodb_nlp.png)
+1. From the left navigation bar, go to **Addons** and click **Add-ons**.
+![Addons](https://s3.amazonaws.com/static-docs.testsigma.com/new_images/projects/addons/update_oracledb_1.png)
+2. Under the **New & Updated Addons** section, search for the **MongoDB_NLPs** addon and click **Install**. ![install mongodb addon](https://s3.amazonaws.com/static-docs.testsigma.com/new_images/projects/addons/update_oracledb_2.png)
+3. Once you install the **MongoDB_NLPs** addon, you can find the predefined NLPs in **Test Steps**. ![use mongodb nlp](https://s3.amazonaws.com/static-docs.testsigma.com/new_images/projects/addons/update_oracledb_3.png)
 4. The parameters available with NLPs and how to use them in Test Steps are shown below.
 
 |Parameter|Description|Example Value|
@@ -56,9 +57,10 @@ To set up a database connection to MongoDB in Testsigma, follow these steps:
 
 To set up a database connection to PostgreSQL in Testsigma, follow these steps:
 
-1. Click **Addons** from the left navigation bar.
-2. Search for the **PostgreSQL_Queries** addon from the **New & Updated Addons** and click **Install**. ![install postgresql addon](https://s3.amazonaws.com/static-docs.testsigma.com/new_images/projects/applications/install_postgresql_addon.png)
-3. Once you install the **PostgreSQL_Queries** addon, you can find the predefined NLPs in **Test Steps**. ![use postgresql in test steps](https://s3.amazonaws.com/static-docs.testsigma.com/new_images/projects/applications/use_postgresql_nlp.png)
+1. From the left navigation bar, go to **Addons** and click **Add-ons**.
+![Addons](https://s3.amazonaws.com/static-docs.testsigma.com/new_images/projects/addons/update_oracledb_1.png)
+2. Under the **New & Updated Addons** section, search for the **PostgreSQL_Queries** addon and click **Install**. ![install postgresql addon](https://s3.amazonaws.com/static-docs.testsigma.com/new_images/projects/addons/update_oracledb_4.png)
+3. Once you install the **PostgreSQL_Queries** addon, you can find the predefined NLPs in **Test Steps**. ![use postgresql in test steps](https://s3.amazonaws.com/static-docs.testsigma.com/new_images/projects/addons/update_oracledb_5.png)
 4. The parameters available with NLPs and how to use them in Test Steps are shown below.
 
 |Parameter|Description|Example Value|
@@ -66,6 +68,7 @@ To set up a database connection to PostgreSQL in Testsigma, follow these steps:
 |Query|Executes a query on a PostgreSQL database|SELECT * FROM table_name;|
 |Row_Count|Returns the number of rows in a result set|SELECT COUNT(*) FROM table_name;|
 |DB_ConnectionURL|Creates a URL string for connecting to a PostgreSQL database|postgresql://user:password@localhost:5432/database_name|
+|PG_DBConnectionURL|Creates a connection URL for connecting to a PostgreSQL database|postgresql://username:password@host:port/database_name|
 |Variable-Name|Assigns a value to a variable|var_name = "some value"|
 |Select-Query|Executes a SELECT query and returns the result set|SELECT column\_name FROM table\_name WHERE condition;|
 |Expected-Value|Compares a result with an expected value|assert result == expected\_value, f"Expected {expected\_value}, but got {result}"|

@@ -29,7 +29,10 @@ You can generate test cases for android and iOS applications using Testsigma’s
 
 > <p id="prerequisites">Prerequisites</p>
 > 
-> Before you begin, make sure your Figma account is integrated with Testsigma.
+> Before you begin, ensure that,
+> - Your Figma account is integrated with Testsigma.
+> - You have referred to the [documentation on creating test cases](https://testsigma.com/docs/test-cases/manage/add-edit-delete/).
+> - You have referred to the [documentation on creating projects](https://testsigma.com/docs/projects/overview/). 
 
 ---
 
@@ -66,9 +69,11 @@ You can generate test cases for android and iOS applications using Testsigma’s
    
 10. In the Prompt box, enter a detailed prompt that describes test cases want to generate.
 
-11.  Click **Generate with AI**.
+11.  The **Read existing test case library** checkbox is selected by default. Clear this checkbox if you do not want the system to consider existing test cases while generating new ones.
 
-12.  Wait for **Generator Agent** to generate multiple test cases based on the selected inputs. 
+12.  Click **Generate with AI**.
+
+13.  Wait for **Generator Agent** to generate multiple test cases based on the selected inputs. 
 
 ---
 
@@ -84,6 +89,11 @@ You can generate test cases for android and iOS applications using Testsigma’s
 
 5. Click **Generate Automated Steps** to convert the manual steps into NLP-based automated steps.
 
-6. Click **Accept**.
+6. After the steps are converted, choose one of the following options:
+    - To execute the test before saving, hover over **Run with Copilot**, and then select the environment in which you want to run the test steps. Copilot runs the automated steps. Review the execution results to ensure that everything works as expected, and then click **Save to Library** to save the test case to your project. 
+    - To save the test directly, click **Save to Library**. In the **Select Location** dialog box, expand the required **Feature**, and then select the **Scenario** where you want to save the automated test case. 
+
+[[info | **NOTE**:]]
+| - To learn about **Agentic Learning**, please refer to the [documentation on Generator Agent in Testsigma](https://testsigma.com/docs/ai-agents/generator/).
 
 ---

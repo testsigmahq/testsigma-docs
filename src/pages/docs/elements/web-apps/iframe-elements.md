@@ -36,11 +36,11 @@ While writing test cases for web applications that involve iframes, it is import
 ## **Best Practices While Using iframe Elements in Test Cases** 
 
 1. When you capture iframe elements using Testsigma recorder, there is no need to use the NLP ***switch to the frame*** since the recorder automatically captures the iframe details. The test case will work without using the NLP.
-![NLP](https://s3.amazonaws.com/static-docs.testsigma.com/new_images/projects/applications/hife.png)
+![NLP](https://s3.amazonaws.com/static-docs.testsigma.com/new_images/projects/elements/update_iframes_1.png)
 
 
 2. If we use the NLP ***switch to the frame***, we should edit all the iframe elements and uncheck the option ***present inside nested content*** to make the test case work.
-![Edit Element](https://s3.amazonaws.com/static-docs.testsigma.com/new_images/projects/applications/hifeuelem.png)
+![Edit Element](https://s3.amazonaws.com/static-docs.testsigma.com/new_images/projects/elements/update_iframes_2.png)
 
 
 

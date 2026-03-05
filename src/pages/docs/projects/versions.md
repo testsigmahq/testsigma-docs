@@ -47,70 +47,74 @@ Due to constantly changing requirements and application features, version contro
 
 ## **Create Application Version**
 
-1. Navigate to **Project Settings > Versions**.
+1. From the left navigation bar, Navigate to **Project Settings**.
+![Project Settings](https://s3.amazonaws.com/static-docs.testsigma.com/new_images/projects/project/update_versions_1.png)
 
-2. On **Edit Project** dialog, 
+2. In the **Edit Project** dialog, click **Versions** in the left panel.
+![Versions](https://s3.amazonaws.com/static-docs.testsigma.com/new_images/projects/project/update_versions_2.1.png)
 
-     - Click **New Version**.
+3. In the **Versions** screen, click **New version**.
+![New Versions](https://s3.amazonaws.com/static-docs.testsigma.com/new_images/projects/project/update_versions_2.png)
      
-     - On the **New Version** dialog, enter **Name**, **Description**, and click **Create**. 
+4. In the **New Version** dialog, enter **Name**, **Description**, and **Start Date - End Date**, and click **Create**. 
+![Create](https://s3.amazonaws.com/static-docs.testsigma.com/new_images/projects/project/update_versions_3.png)
 
-3. A new version will be created. 
+5. A new version will be created. 
 
 
 [[info | **NOTE**:]]
 | 1. You have to select **Allow Multiple Versions** while creating a project to be able to create multiple versions.  
 |
-| 2. If you want to copy data from previous versions, enable **Copy Data from Previous Versions** toggle and select the models you want to transfer. 
+| 2. If you want to copy data from previous versions, enable **Copy Data from Previous Versions** toggle and select the models you want to transfer.
+| ![Copy Data from Previous Versions](https://s3.amazonaws.com/static-docs.testsigma.com/new_images/projects/project/update_versions_4.png) 
 
 ---
 
 ## **Edit Application Version**
 
-1. Navigate to **Project Settings > Versions**.
+1. From the left navigation bar, Navigate to **Project Settings**.
+![Project Settings](https://s3.amazonaws.com/static-docs.testsigma.com/new_images/projects/project/update_versions_1.png)
 
-2. On **Versions**, hover over the version you want to edit and click the kebab menu. 
+2. In the **Edit Project** dialog, click **Versions** in the left panel.
+![Versions](https://s3.amazonaws.com/static-docs.testsigma.com/new_images/projects/project/update_versions_2.1.png)
 
-3. Click **Edit Version**. 
+3. In the **Versions** screen, click the kebab menu next to a version and click **Edit Version**.
+![](https://s3.amazonaws.com/static-docs.testsigma.com/new_images/projects/project/update_versions_5.png) 
 
 4. Make the changes and click **Update**.
+![Update](https://s3.amazonaws.com/static-docs.testsigma.com/new_images/projects/project/update_versions_6.png)
 
 ---
 
 
 ## **Delete Application Version**
 
-1. Navigate to **Project Settings > Versions**.
+1. From the left navigation bar, Navigate to **Project Settings**.
+![Project Settings](https://s3.amazonaws.com/static-docs.testsigma.com/new_images/projects/project/update_versions_1.png)
 
-2. On **Versions**, hover over the version you want to delete and click the kebab menu.
+2. In the **Edit Project** dialog, click **Versions** in the left panel.
+![Versions](https://s3.amazonaws.com/static-docs.testsigma.com/new_images/projects/project/update_versions_2.1.png)
 
-3. Click **Delete Version**. 
+3. In the **Versions** screen, click the kebab menu next to a version and click **Delete Version**.
+![Delete a version](https://s3.amazonaws.com/static-docs.testsigma.com/new_images/projects/project/update_versions_7.png)  
 
 4. On the **Delete Version?** dialog, enter **DELETE** and click **I understand, delete this**.
+![DELETE](https://s3.amazonaws.com/static-docs.testsigma.com/new_images/projects/project/update_versions_8.png)
 
 ---
 
 ## **Getting Version ID**
 
-1. Navigate to **Project Settings > Versions**.
+1. From the left navigation bar, Navigate to **Project Settings**.
+![Project Settings](https://s3.amazonaws.com/static-docs.testsigma.com/new_images/projects/project/update_versions_1.png)
 
-2. In the **EDIT PROJECT** dialog, hover over the version name to view its ID.
+2. In the **Edit Project** dialog, click **Versions** in the left panel.
+![Versions](https://s3.amazonaws.com/static-docs.testsigma.com/new_images/projects/project/update_versions_2.1.png)
 
-3. Click **Copy** to copy the version ID.
+3. In the **EDIT PROJECT** dialog, hover over the version name to view its ID.
+![version ID](https://s3.amazonaws.com/static-docs.testsigma.com/new_images/projects/project/update_versions_9.png)
 
----
-
-## **Interactive Demo**
-
-### **Try this interactive demo to learn how to add, edit and delete a Version!**
-
-<div>
-  <script async src="https://js.storylane.io/js/v2/storylane.js"></script>
-  <div class="sl-embed" style="position:relative;padding-bottom:calc(57.41% + 25px);width:100%;height:0;transform:scale(1)">
-    <iframe loading="lazy" class="sl-demo" src="https://app.storylane.io/demo/izafangglzqd?embed=inline" name="sl-embed" allow="fullscreen" allowfullscreen style="position:absolute;top:0;left:0;width:100%!important;height:100%!important;border:1px solid rgba(63,95,172,0.35);box-shadow: 0px 0px 18px rgba(26, 19, 72, 0.15);border-radius:10px;box-sizing:border-box;"></iframe>
-  </div>
-</div>
-
-
+4. Click **Copy** to copy the version ID.
+![Copy](https://s3.amazonaws.com/static-docs.testsigma.com/new_images/projects/project/update_versions_10.png)
 
 ---

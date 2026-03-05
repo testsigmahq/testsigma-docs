@@ -63,30 +63,23 @@ The following are the mandatory fields that should be present in the XLSX file.
 ## **Steps to Import Test Data Profile**
 
 1. Navigate to **Test Data > Test Data Profiles**.
-![Test Data Profiles](https://s3.amazonaws.com/static-docs.testsigma.com/new_images/projects/applications/itdpnav.png)
+![Test Data Profiles](https://s3.amazonaws.com/static-docs.testsigma.com/new_images/projects/test_data/update_test_data_profile_1.png)
 
 
 2. Click on **Import**.
-![Import](https://s3.amazonaws.com/static-docs.testsigma.com/new_images/projects/applications/itdpcoimp.png)
+![Import](https://s3.amazonaws.com/static-docs.testsigma.com/new_images/projects/test_data/update_test_data_profile_2.png)
 
 
 3. On **Import Test Data Profile** prompt,
    - Click on **Browse File** to upload the file.
-   ![Browse File](https://s3.amazonaws.com/static-docs.testsigma.com/new_images/projects/applications/itdppbf.png)
+   ![Browse File](https://s3.amazonaws.com/static-docs.testsigma.com/new_images/projects/test_data/update_test_data_profile_3.png)
    
    - Once the file is uploaded, enter **Name** and select the columns you want to encrypt. Here, we have selected the **Password** field to encrypt. 
-   ![Name](https://s3.amazonaws.com/static-docs.testsigma.com/new_images/projects/applications/itdpsce.png)
+   ![Name](https://s3.amazonaws.com/static-docs.testsigma.com/new_images/projects/test_data/update_test_data_profile_4.png)
 
    - Click on **Import**. 
-   ![Import](https://s3.amazonaws.com/static-docs.testsigma.com/new_images/projects/applications/itdpimport.png)
-
-
+   ![Import](https://s3.amazonaws.com/static-docs.testsigma.com/new_images/projects/test_data/update_test_data_profile_5.png)
 
 On the successful import of the test data profile, you will receive an email. Refresh the test data profiles page to see the imported test data profile.
-
-
-Here's a quick GIF demonstrating how to import test data profile.
-![Import Test Data Profile](https://s3.amazonaws.com/static-docs.testsigma.com/new_images/projects/applications/ImportTDPWF.gif)
-
 
 ---
