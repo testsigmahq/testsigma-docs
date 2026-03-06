@@ -3,7 +3,7 @@ title: "Generate Test Cases for Salesforce"
 page_title: "Generate Test Cases for Salesforce"
 metadesc: "Automatically generate test cases for Salesforce using GenAI | Generate test using Salesforce Flows, Workflows, or Jira requirements using simple prompts"
 noindex: false
-order: 4.7425
+order: 4.7426
 page_id: "generate-test-cases-for-salesforce"
 warning: false
 contextual_links:
@@ -57,13 +57,16 @@ You can quickly generate test cases for Salesforce requirements in Testsigma usi
 
 5. The **Read existing test case library** checkbox is selected by default. Clear this checkbox if you do not want the system to consider existing test cases while generating new ones.
 
+[[info | **NOTE**:]]
+| - Once the **Read existing test case library** option is enabled, it cannot be unselected during the same session. The selection remains applicable throughout the session. However, you can enable this option at any time during a session if it was not selected earlier.
+
 6. Click **Generate with AI**.
 
 7. Wait for **Generator Agent** to generate the test cases based on the selected stories and prompt.
 
 8. After the test cases are generated, expand a category and select a test case.
 
-9. In the **Test Case Details** dialog, go to the **Manual Steps** tab and review the generated steps.
+9.  In the **Test Case Details** dialog, go to the **Manual Steps** tab and review the generated steps.
 
 10. Click **Edit** to manually add a step or block, or to modify existing steps.
 
@@ -117,5 +120,5 @@ You can quickly generate test cases for Salesforce requirements in Testsigma usi
  
 [[info | **NOTE**:]]
 | - To learn about **Agentic Learning**, please refer to the [documentation on Generator Agent in Testsigma](https://testsigma.com/docs/ai-agents/generator/).
-
+| - To understand the difference between Run with Copilot and Agentic Learning, please refer to the [documentation on Understanding Run with Copilot and Agentic Learning](http://testsigma.com/docs/atto/generative-ai/copilot/agentic-learning-vs-copilot/). 
 ---

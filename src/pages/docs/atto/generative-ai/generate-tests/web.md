@@ -1,6 +1,6 @@
 ---
-title: "Generate Test Cases For Web & Mobile Web"
-page_title: "Generate Test Cases For Web & Mobile Web"
+title: "Generate Test Cases For Web"
+page_title: "Generate Test Cases For Web"
 metadesc: "Generate tests for web & mobile web applications using Testsigmaâ€™s GenAI. You can provide input from multiple sources, including Jira, Figma, Xray, videos, & files"
 noindex: false
 order: 4.7423
@@ -68,6 +68,9 @@ You can generate test cases for web and mobile web applications using Testsigmaâ
 8. The **Read existing test case library** checkbox is selected by default. Clear this checkbox if you do not want the system to consider existing test cases while generating new ones.
 ![Reac Existing test case library](https://s3.amazonaws.com/static-docs.testsigma.com/new_images/projects/atto/atto_web_5.png)
 
+[[info | **NOTE**:]]
+| - Once the **Read existing test case library** option is enabled, it cannot be unselected during the same session. The selection remains applicable throughout the session. However, you can enable this option at any time during a session if it was not selected earlier.
+
 9. Click **Generate with AI**.
    ![Prompt](https://s3.amazonaws.com/static-docs.testsigma.com/new_images/projects/atto/atto_web_6.png)
 
@@ -78,6 +81,7 @@ You can generate test cases for web and mobile web applications using Testsigmaâ
 ## **Next Steps** 
 
 1. After the test cases are generated, expand a category and select a test case.
+   ![Select a test case](https://s3.amazonaws.com/static-docs.testsigma.com/new_images/projects/atto/atto_web_1.1.png)
 
 2. In the **Test Case Details** dialog, go to the **Manual Steps** tab and review the generated steps.
    ![Manual Steps](https://s3.amazonaws.com/static-docs.testsigma.com/new_images/projects/atto/atto_web_7.png)
@@ -97,3 +101,6 @@ You can generate test cases for web and mobile web applications using Testsigmaâ
 
 [[info | **NOTE**:]]
 | - To learn about **Agentic Learning**, please refer to the [documentation on Generator Agent in Testsigma](https://testsigma.com/docs/ai-agents/generator/).
+| - To understand the difference between Run with Copilot and Agentic Learning, please refer to the [documentation on Understanding Run with Copilot and Agentic Learning](http://testsigma.com/docs/atto/generative-ai/copilot/agentic-learning-vs-copilot/). 
+
+---
