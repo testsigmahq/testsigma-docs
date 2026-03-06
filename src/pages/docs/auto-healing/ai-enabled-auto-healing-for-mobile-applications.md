@@ -22,7 +22,7 @@ contextual_links:
 
 ---
 
-Testsigma’s AI-Enabled auto-healing automatically detects and fixes broken element locators caused by UI changes during mobile test execution. This article discusses how auto-healing identifies and updates element locators while executing mobile test cases.
+Testsigma’s AI-Enabled auto-healing automatically detects and fixes broken element locators caused by UI changes during mobile test execution. This article discusses how auto-healing identifies and updates element locators while executing mobile test cases. 
 
 ---
 

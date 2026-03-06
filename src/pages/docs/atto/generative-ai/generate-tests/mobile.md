@@ -3,7 +3,7 @@ title: "Generate Test Cases for Android & iOS"
 page_title: "Generate Tests for Android & iOS"
 metadesc: "In Testsigma, you can create test cases for Mobile Applications using Testsigma Copilot | Learn how to create test cases for Mobile Applications using GenAI capabilities"
 noindex: false
-order: 4.7424
+order: 4.7425
 page_id: "generate-test-cases-for-android-ios"
 warning: false
 contextual_links:
@@ -71,6 +71,9 @@ You can generate test cases for android and iOS applications using Testsigma’s
 
 11.  The **Read existing test case library** checkbox is selected by default. Clear this checkbox if you do not want the system to consider existing test cases while generating new ones.
 
+[[info | **NOTE**:]]
+| - Once the **Read existing test case library** option is enabled, it cannot be unselected during the same session. The selection remains applicable throughout the session. However, you can enable this option at any time during a session if it was not selected earlier.
+
 12.  Click **Generate with AI**.
 
 13.  Wait for **Generator Agent** to generate multiple test cases based on the selected inputs. 
@@ -95,5 +98,5 @@ You can generate test cases for android and iOS applications using Testsigma’s
 
 [[info | **NOTE**:]]
 | - To learn about **Agentic Learning**, please refer to the [documentation on Generator Agent in Testsigma](https://testsigma.com/docs/ai-agents/generator/).
-
+| - To understand the difference between Run with Copilot and Agentic Learning, please refer to the [documentation on Understanding Run with Copilot and Agentic Learning](http://testsigma.com/docs/atto/generative-ai/copilot/agentic-learning-vs-copilot/). 
 ---

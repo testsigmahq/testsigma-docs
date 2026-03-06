@@ -39,6 +39,9 @@ Atto processes your requirements and prompts to generate detailed test cases and
 2. The **Read existing test case library** checkbox is selected by default. Clear this checkbox if you do not want the system to consider existing test cases while generating new ones.
 ![Read Existing Test Case Library](https://s3.amazonaws.com/static-docs.testsigma.com/new_images/projects/atto/Atto_automate_update_2.png)
 
+[[info | **NOTE**:]]
+| - Once the **Read existing test case library** option is enabled, it cannot be unselected during the same session. The selection remains applicable throughout the session. However, you can enable this option at any time during a session if it was not selected earlier.
+
 3. Click **Generate with AI**.
 ![Generate with AI](https://s3.amazonaws.com/static-docs.testsigma.com/new_images/projects/atto/Atto_automate_update_3.png)
 
@@ -69,18 +72,30 @@ Atto processes your requirements and prompts to generate detailed test cases and
 
 When you generate automated test cases, Atto checks for existing test cases. If a test case already exists, Atto updates it instead of creating a new one.
 
-After the test cases are generated, expand a scenario and select a test case. Updated test cases are marked with the **Update** tag.
+1. After the test cases are generated, expand a scenario and select a test case. Updated test cases are marked with the **Update** tag.
 
 ![Update](https://s3.amazonaws.com/static-docs.testsigma.com/new_images/projects/atto/Atto_automate_update_11.png)
 
-When you open an updated test case, the **Test Case Details** dialog appears.
+2. When you open an updated test case, the **Test Case Details** dialog appears.
 
-Click **See What’s New** to compare the previous steps with the newly generated steps. 
+3. Click **See What’s New** to compare the previous steps with the newly generated steps. 
 
 ![See What's New](https://s3.amazonaws.com/static-docs.testsigma.com/new_images/projects/atto/Atto_automate_update_12.png)
 
-Select **Hide Difference** to close the comparison. 
+4. Select **Hide Difference** to close the comparison. 
 
 ![Hide Difference](https://s3.amazonaws.com/static-docs.testsigma.com/new_images/projects/atto/Atto_automate_update_13.png)
+
+5. Click **Generate Automated Steps**. 
+   ![Generated automated steps](https://s3.amazonaws.com/static-docs.testsigma.com/new_images/projects/atto/manage_updated_test_case_atto_1.png)
+
+6. Once generated, when you click **Save to Library**, the **Overwrite Test Case** dialog opens. 
+   ![Save to Library](https://s3.amazonaws.com/static-docs.testsigma.com/new_images/projects/atto/manage_update_test_case_atto_2.png)
+
+7. In the **Overwrite Test Case** dialog, do one of the following:
+   - To replace the existing test case with the new version, select **Overwrite**.
+   - To save the test case as a new copy and keep the existing version, select **Save as New**.
+   - To review the existing test case before saving, select **Link to original test case**.
+   ![Overwrite Test Case](https://s3.amazonaws.com/static-docs.testsigma.com/new_images/projects/atto/manage_updated_test_case_atto_3.png)
 
 ---
