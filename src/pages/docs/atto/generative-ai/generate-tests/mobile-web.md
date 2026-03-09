@@ -100,7 +100,8 @@ You can generate test cases for mobile web applications using Testsigma’s Gene
    ![select location](https://s3.amazonaws.com/static-docs.testsigma.com/new_images/projects/atto/atto_mobile_web_13.png)
 
 [[info | **NOTE**:]]
-| - To learn about **Agentic Learning**, please refer to the [documentation on Generator Agent in Testsigma](https://testsigma.com/docs/ai-agents/generator/).
-| - To understand the difference between Run with Copilot and Agentic Learning, please refer to the [documentation on Understanding Run with Copilot and Agentic Learning](http://testsigma.com/docs/atto/generative-ai/copilot/agentic-learning-vs-copilot/). 
+| - To learn about **Agentic Learning**, please refer to the [documentation on Generator Agent](https://testsigma.com/docs/ai-agents/generator/).
+| - To understand the difference between **Run with Copilot** and **Agentic Learning**, please refer to the [documentation on Run with Copilot vs Agentic Learning](http://testsigma.com/docs/atto/generative-ai/copilot/agentic-learning-vs-copilot/). 
+
 
 ---
