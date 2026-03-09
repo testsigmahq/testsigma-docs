@@ -62,9 +62,9 @@ Atto processes your requirements and prompts to generate detailed test cases and
 9. Click **Generate Automated Steps** to convert the manual steps into NLP-based automated steps.
 ![Generate Automated Steps](https://s3.amazonaws.com/static-docs.testsigma.com/new_images/projects/atto/Atto_automate_update_8.png)
 
-10. After the steps are converted, choose one of the following options:
-    - To execute the test before saving, hover over **Run with Copilot**, and then select the environment in which you want to run the test steps. Copilot runs the automated steps. Review the execution results to ensure that everything works as expected, and then click **Save to Library** to save the test case to your project. ![Run with Copilot](https://s3.amazonaws.com/static-docs.testsigma.com/new_images/projects/atto/Atto_automate_update_9.png)
-    - To save the test directly, click **Save to Library**. In the **Select Location** dialog box, expand the required **Feature**, and then select the **Scenario** where you want to save the automated test case. ![Save to Library](https://s3.amazonaws.com/static-docs.testsigma.com/new_images/projects/atto/Atto_automate_update_10.png)
+10. To execute the test before saving, hover over **Run with Copilot** and select the environment where you want to run the test steps. Copilot executes the steps automatically. Review the results to ensure everything works as expected, then click **Save to Library** to save the test case to your project. ![Run with Copilot](https://s3.amazonaws.com/static-docs.testsigma.com/new_images/projects/atto/Atto_automate_update_9.png)
+
+11. To save the test directly, click **Save to Library**. In the **Select Location** dialog box, expand the required **Feature** and select the **Scenario** where you want to save the automated test case.![Save to Library](https://s3.amazonaws.com/static-docs.testsigma.com/new_images/projects/atto/Atto_automate_update_10.png)
 
 ---
 
@@ -97,5 +97,9 @@ When you generate automated test cases, Atto checks for existing test cases. If 
    - To save the test case as a new copy and keep the existing version, select **Save as New**.
    - To review the existing test case before saving, select **Link to original test case**.
    ![Overwrite Test Case](https://s3.amazonaws.com/static-docs.testsigma.com/new_images/projects/atto/manage_updated_test_case_atto_3.png)
+
+[[info | **NOTE**:]]
+| - To learn about **Agentic Learning**, please refer to the [documentation on Generator Agent](https://testsigma.com/docs/ai-agents/generator/).
+| - To understand the difference between **Run with Copilot** and **Agentic Learning**, please refer to the [documentation on Run with Copilot vs Agentic Learning](http://testsigma.com/docs/atto/generative-ai/copilot/agentic-learning-vs-copilot/). 
 
 ---

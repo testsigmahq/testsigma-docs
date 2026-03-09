@@ -92,11 +92,12 @@ You can generate test cases for android and iOS applications using Testsigma’s
 
 5. Click **Generate Automated Steps** to convert the manual steps into NLP-based automated steps.
 
-6. After the steps are converted, choose one of the following options:
-    - To execute the test before saving, hover over **Run with Copilot**, and then select the environment in which you want to run the test steps. Copilot runs the automated steps. Review the execution results to ensure that everything works as expected, and then click **Save to Library** to save the test case to your project. 
-    - To save the test directly, click **Save to Library**. In the **Select Location** dialog box, expand the required **Feature**, and then select the **Scenario** where you want to save the automated test case. 
+6. To execute the test before saving, hover over **Run with Copilot** and select the environment where you want to run the test steps. Copilot executes the steps automatically. Review the results to ensure everything works as expected, then click **Save to Library** to save the test case to your project.
+
+7. To save the test directly, click **Save to Library**. In the **Select Location** dialog box, expand the required **Feature** and select the **Scenario** where you want to save the automated test case.
 
 [[info | **NOTE**:]]
-| - To learn about **Agentic Learning**, please refer to the [documentation on Generator Agent in Testsigma](https://testsigma.com/docs/ai-agents/generator/).
-| - To understand the difference between Run with Copilot and Agentic Learning, please refer to the [documentation on Understanding Run with Copilot and Agentic Learning](http://testsigma.com/docs/atto/generative-ai/copilot/agentic-learning-vs-copilot/). 
+| - To learn about **Agentic Learning**, please refer to the [documentation on Generator Agent](https://testsigma.com/docs/ai-agents/generator/).
+| - To understand the difference between **Run with Copilot** and **Agentic Learning**, please refer to the [documentation on Run with Copilot vs Agentic Learning](http://testsigma.com/docs/atto/generative-ai/copilot/agentic-learning-vs-copilot/). 
+
 ---
