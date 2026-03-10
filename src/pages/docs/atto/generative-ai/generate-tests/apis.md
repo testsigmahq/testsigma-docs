@@ -3,7 +3,7 @@ title: "Generate Test Cases for SOAP and REST APIs Using Atto"
 page_title: "generate-test-cases-for-soap-and-rest-apis-using-atto"
 metadesc: "Learn how Atto in Testsigma generates test cases for SOAP and REST APIs using .wsdl, .xml, or .json schemas."
 noindex: false
-order: 4.7427
+order: 4.7428
 page_id: "api-test-cases"
 warning: false
 contextual_links:

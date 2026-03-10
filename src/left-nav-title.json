@@ -718,7 +718,7 @@
   "supported-llms": {"/docs/atto/generative-ai/byok/supported-llms/": "Supported LLMs"},
   "generate-tests": {"/docs/atto/generative-ai/generate-tests/": "Generate Test Cases"},
   "requirements": {"/docs/atto/generative-ai/generate-tests/requirements/": "From Requirements"},
-  "web-mobile-web":{"/docs/atto/generative-ai/generate-tests/web-mobile-web/": "For Web & Mobile Web"},
+  "web":{"/docs/atto/generative-ai/generate-tests/web/": "For Web"},
   "mobile": {"/docs/atto/generative-ai/generate-tests/mobile/": "For Android & iOS"},
   "salesforce": {"/docs/atto/generative-ai/generate-tests/salesforce/":"For Salesforce"},
   "desktop": {"/docs/atto/generative-ai/generate-tests/desktop/":"For Desktop"},
@@ -761,5 +761,7 @@
   "azure-sso": {"/docs/configuration/security/azure-sso/": "Setting Up Azure SSO Login (SAML)" },
   "end-to-end-testing": {"/docs/test-plans/end-to-end-testing/": "End-to-End Testing"},
   "byok": {"/docs/genai-capabilities/byok/": "Bring Your Own Key (BYOK)" },
-  "live-editor": {"/docs/live-editor/": "Copilot", "/docs/atto/generative-ai/copilot/live-editor/": "In Testsigma"}
+  "live-editor": {"/docs/live-editor/": "Copilot", "/docs/atto/generative-ai/copilot/live-editor/": "In Testsigma"},
+  "mobile-web":{"/docs/atto/generative-ai/generate-tests/mobile-web/": "For Mobile Web"},
+  "agentic-learning-vs-copilot":{"/docs/atto/generative-ai/copilot/agentic-learning-vs-copilot/": "Agentic Learning vs Run with Copilot"}
   }

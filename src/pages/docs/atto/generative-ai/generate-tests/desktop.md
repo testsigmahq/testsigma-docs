@@ -3,7 +3,7 @@ title: "Generate Test Cases for Desktop"
 page_title: "Prerequsites for GenAI & Agentic AI"
 metadesc: "Testsigma’s AI capabilities help you with test case creation for Desktop applications | Generates multiple test cases that align with UI elements for Desktop apps"
 noindex: false
-order: 4.7426
+order: 4.7427
 page_id: "import-test-cases"
 warning: false
 contextual_links:
@@ -56,13 +56,17 @@ Testsigma’s Gen AI capabilities help you streamline test case creation for Des
 
 6.  The **Read existing test case library** checkbox is selected by default. Clear this checkbox if you do not want the system to consider existing test cases while generating new ones.
 
+[[info | **NOTE**:]]
+| - Once the **Read existing test case library** option is enabled, it cannot be unselected during the same session. The selection remains applicable throughout the session. However, you can enable this option at any time during a session if it was not selected earlier.
+
 7. Click **Generate with AI**.
 
 8. Wait for **Generator Agent** to generate the test cases based on the selected stories and prompt.
 
-9. After the test cases are generated, expand a category and select a test case.
+9.  After the test cases are generated, expand a category and select a test case.
 
 10. In the **Test Case Details** dialog, go to the **Manual Steps** tab and review the generated steps.
+
 
 11.  Click **Edit** to manually add a step or block, or to modify existing steps.
 
@@ -70,13 +74,14 @@ Testsigma’s Gen AI capabilities help you streamline test case creation for Des
 
 13.  Click **Generate Automated Steps** to convert the manual steps into NLP-based automated steps.
 
-14.  After the steps are converted, choose one of the following options:
-    - To execute the test before saving, hover over **Run with Copilot**, and then select the environment in which you want to run the test steps. Copilot runs the automated steps. Review the execution results to ensure that everything works as expected, and then click **Save to Library** to save the test case to your project. 
-    - To save the test directly, click **Save to Library**. In the **Select Location** dialog box, expand the required **Feature**, and then select the **Scenario** where you want to save the automated test case. 
+14. To execute the test before saving, hover over **Run with Copilot** and select the environment where you want to run the test steps. Copilot executes the steps automatically. Review the results to ensure everything works as expected, then click **Save to Library** to save the test case to your project.
+
+15.  To save the test directly, click **Save to Library**. In the **Select Location** dialog box, expand the required **Feature** and select the **Scenario** where you want to save the automated test case.
   
-15. Repeat steps 8–14 for all the test cases you want to add.
+16. Repeat steps 8–15 for all the test cases you want to add.
 
 [[info | **NOTE**:]]
-| - To learn about **Agentic Learning**, please refer to the [documentation on Generator Agent in Testsigma](https://testsigma.com/docs/ai-agents/generator/).
+| - To learn about **Agentic Learning**, please refer to the [documentation on Generator Agent](https://testsigma.com/docs/ai-agents/generator/).
+| - To understand the difference between **Run with Copilot** and **Agentic Learning**, please refer to the [documentation on Run with Copilot vs Agentic Learning](http://testsigma.com/docs/atto/generative-ai/copilot/agentic-learning-vs-copilot/). 
 
 ---
