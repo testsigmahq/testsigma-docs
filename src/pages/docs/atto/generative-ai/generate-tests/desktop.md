@@ -67,6 +67,7 @@ Testsigma’s Gen AI capabilities help you streamline test case creation for Des
 
 10. In the **Test Case Details** dialog, go to the **Manual Steps** tab and review the generated steps.
 
+
 11.  Click **Edit** to manually add a step or block, or to modify existing steps.
 
 12.  If you want to refine the steps using **Atto**, enter a prompt and click **Refine manual steps**.
