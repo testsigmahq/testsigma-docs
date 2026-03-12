@@ -62,9 +62,11 @@ Atto processes your requirements and prompts to generate detailed test cases and
 9. Click **Generate Automated Steps** to convert the manual steps into NLP-based automated steps.
 ![Generate Automated Steps](https://s3.amazonaws.com/static-docs.testsigma.com/new_images/projects/atto/Atto_automate_update_8.png)
 
-10. To execute the test before saving, hover over **Run with Copilot** and select the environment where you want to run the test steps. Copilot executes the steps automatically. Review the results to ensure everything works as expected, then click **Save to Library** to save the test case to your project. ![Run with Copilot](https://s3.amazonaws.com/static-docs.testsigma.com/new_images/projects/atto/Atto_automate_update_9.png)
+10. To execute the test before saving, hover over **Run with Copilot** and select the environment where you want to run the test steps. Copilot executes the steps automatically. Review the results to ensure everything works as expected, then click **Save to Library** to save the test case to your project. 
+![Run with Copilot](https://s3.amazonaws.com/static-docs.testsigma.com/new_images/projects/atto/Atto_automate_update_9.png)
 
-11. To save the test directly, click **Save to Library**. In the **Select Location** dialog box, expand the required **Feature** and select the **Scenario** where you want to save the automated test case.![Save to Library](https://s3.amazonaws.com/static-docs.testsigma.com/new_images/projects/atto/Atto_automate_update_10.png)
+11. To save the test directly, click **Save to Library**. In the **Select Location** dialog box, expand the required **Feature** and select the **Scenario** where you want to save the automated test case.
+![Save to Library](https://s3.amazonaws.com/static-docs.testsigma.com/new_images/projects/atto/Atto_automate_update_10.png)
 
 ---
 
@@ -73,24 +75,21 @@ Atto processes your requirements and prompts to generate detailed test cases and
 When you generate automated test cases, Atto checks for existing test cases. If a test case already exists, Atto updates it instead of creating a new one.
 
 1. After the test cases are generated, expand a scenario and select a test case. Updated test cases are marked with the **Update** tag.
-
 ![Update](https://s3.amazonaws.com/static-docs.testsigma.com/new_images/projects/atto/Atto_automate_update_11.png)
 
 2. When you open an updated test case, the **Test Case Details** dialog appears.
 
 3. Click **See What’s New** to compare the previous steps with the newly generated steps. 
-
 ![See What's New](https://s3.amazonaws.com/static-docs.testsigma.com/new_images/projects/atto/Atto_automate_update_12.png)
 
 4. Select **Hide Difference** to close the comparison. 
-
 ![Hide Difference](https://s3.amazonaws.com/static-docs.testsigma.com/new_images/projects/atto/Atto_automate_update_13.png)
 
 5. Click **Generate Automated Steps**. 
-   ![Generated automated steps](https://s3.amazonaws.com/static-docs.testsigma.com/new_images/projects/atto/manage_updated_test_case_atto_1.png)
+![Generated automated steps](https://s3.amazonaws.com/static-docs.testsigma.com/new_images/projects/atto/manage_updated_test_case_atto_1.png)
 
 6. Once generated, when you click **Save to Library**, the **Overwrite Test Case** dialog opens. 
-   ![Save to Library](https://s3.amazonaws.com/static-docs.testsigma.com/new_images/projects/atto/manage_update_test_case_atto_2.png)
+![Save to Library](https://s3.amazonaws.com/static-docs.testsigma.com/new_images/projects/atto/manage_update_test_case_atto_2.png)
 
 7. In the **Overwrite Test Case** dialog, do one of the following:
    - To replace the existing test case with the new version, select **Overwrite**.
