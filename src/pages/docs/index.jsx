@@ -1,6 +1,6 @@
 /* eslint-disable react/no-danger */
 import React from 'react';
-import { graphql, Link } from 'gatsby';
+import { Link } from 'gatsby';
 import Layout from '../../components/layout';
 import SEO from '../../components/seo';
 import MobileView from '../../components/MobileView';
@@ -95,9 +95,9 @@ const Index = () => {
       <hr />
       <div className='w-full'>
         <div className='flex items-stretch'>
-          <MobileView></MobileView>
+          <MobileView currentSlug="/docs/"></MobileView>
           <nav className='isTablet w-1/4 max-w-sm bg-gray-50'>
-            <LeftNav />
+            <LeftNav currentSlug="/docs/" />
           </nav>
           <div className='flex-auto w-4/5'>
             <div className='flex items-stretch flex-wrap mx-8'>
