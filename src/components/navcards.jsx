@@ -1,5 +1,4 @@
 import React from "react";
-import * as url from "url";
 
 import "./navcards.scss"
 

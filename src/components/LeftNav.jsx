@@ -12,17 +12,29 @@ let slugs;
 class ListItem extends React.Component {
   constructor(props) {
     super(props);
-    const { data, isRoot, identifier } = this.props;
+    const { data, isRoot, identifier, currentSlug } = this.props;
+
+    const initialExpanded = [];
+    const initialActive = [];
+    if (isRoot && currentSlug) {
+      const parts = currentSlug.split('/').filter(Boolean);
+      if (parts.length > 1) {
+        initialExpanded.push(parts[1]);
+        initialActive.push(parts[1]);
+      }
+    }
+
     this.state = {
       data,
       isRoot,
       identifier,
-      active: [],
+      currentSlug: currentSlug || '',
+      active: initialActive,
       currentUrl: '',
-      expandedPanels: [], // Initialize expandedPanels state as an empty array
+      expandedPanels: initialExpanded,
     };
     this.toggleActive = this.toggleActive.bind(this);
-    this.toggleExpansion = this.toggleExpansion.bind(this); // Bind toggleExpansion method
+    this.toggleExpansion = this.toggleExpansion.bind(this);
   }
 
   componentDidMount() {
@@ -104,10 +116,20 @@ class ListItem extends React.Component {
   }; // Renders child element. Gets name from slugs array
 
   parent = (data, name) => {
-    const { active, isRoot } = this.state;
+    const { active, isRoot, currentSlug } = this.state;
     if (this.inUrl(`/${this.state.identifier || 'docs'}/${name}/`)) {
       this.setActive(name);
     }
+
+    const isExpanded = this.state.expandedPanels?.indexOf(name) !== -1;
+    let shouldRenderChildren = true;
+    if (isRoot) {
+      const isActiveSection = currentSlug
+        ? currentSlug.startsWith(`/docs/${name}/`)
+        : false;
+      shouldRenderChildren = isExpanded || isActiveSection;
+    }
+
     // Appending overview page link to Parent node (which has arrow icon with title)
     // Instead of having overview as a separate link.
     let overviewLink = null;
@@ -205,7 +227,9 @@ class ListItem extends React.Component {
             </button>
           )}
         </li>
-        <ListItem data={JSON.stringify(data)} identifier={name} />
+        {shouldRenderChildren && (
+          <ListItem data={JSON.stringify(data)} identifier={name} />
+        )}
       </ul>
     );
   }; // renders parent element that has children
@@ -229,7 +253,7 @@ class ListItem extends React.Component {
   }
 }
 
-const LeftNav = () => {
+const LeftNav = ({ currentSlug }) => {
   const data = useStaticQuery(graphql`
     query {
       allMarkdownRemark(sort: { fields: id, order: ASC }) {
@@ -252,7 +276,7 @@ const LeftNav = () => {
   return (
     <>
       <div className='leftNav bg-gray-50 px-14 pt-5'>
-        <ListItem data={data.leftNavLinks.value} isRoot />
+        <ListItem data={data.leftNavLinks.value} isRoot currentSlug={currentSlug} />
       </div>
     </>
   );
