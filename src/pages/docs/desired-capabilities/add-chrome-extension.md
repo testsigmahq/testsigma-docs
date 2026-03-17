@@ -3,7 +3,7 @@ title: "Automate Add Chrome Extension Functionality"
 metadesc: "Learn how to add Chrome extension to one of your test sessions in Testsigma Application | Add a Chrome Extension to your Automation Session in 2 simple steps"
 noindex: false
 order: 15.9
-page_id: "Automate Add Chrome Extension Functionality"
+page_id: "automate-add-chrome-extension-functionality"
 search_keyword: ""
 warning: false
 contextual_links:

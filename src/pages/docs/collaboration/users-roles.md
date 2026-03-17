@@ -3,7 +3,7 @@ title: "Users & Role Management"
 metadesc: "Testsigma has multuple roles that can be assigned to a project member | Learn how to manage users and assign them roles for better collaboration within the team in Testsigma application"
 noindex: false
 order: 3.2
-page_id: "Users & Role Management"
+page_id: "user-role-management"
 warning: false
 contextual_links:
 - type: section

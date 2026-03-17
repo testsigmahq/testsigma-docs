@@ -3,7 +3,7 @@ title: "Emulate Mobile Devices with Chrome Browser"
 metadesc: "With Chrome Browser you emulate mobile device screen resolutions. Learn how to emulate mobile devices using the Google Chrome Web Browser for Mobile Websites"
 noindex: false
 order: 15.8
-page_id: "Emulate Mobile devices with Chrome Browser"
+page_id: "emulate-mobile-devices-with-chrome-browser"
 search_keyword: ""
 warning: false
 contextual_links:
