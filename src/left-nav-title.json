@@ -762,5 +762,6 @@
   "byok": {"/docs/genai-capabilities/byok/": "Bring Your Own Key (BYOK)" },
   "live-editor": {"/docs/live-editor/": "Copilot", "/docs/atto/generative-ai/copilot/live-editor/": "In Testsigma"},
   "mobile-web":{"/docs/atto/generative-ai/generate-tests/mobile-web/": "For Mobile Web"},
-  "agentic-learning-vs-copilot":{"/docs/atto/generative-ai/copilot/agentic-learning-vs-copilot/": "Agentic Learning vs Run with Copilot"}
+  "agentic-learning-vs-copilot":{"/docs/atto/generative-ai/copilot/agentic-learning-vs-copilot/": "Agentic Learning vs Run with Copilot"},
+  "byok": {"/docs/atto/generative-ai/byok/": "BYOK"}
   }

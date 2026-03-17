@@ -3,7 +3,8 @@ import SearchInputBox from './SearchInputBox';
 import tsLogo from '../components/images/testsigma-logo-v3-dark.svg';
 
 const Header = () => {
-  const [isHomepage, setIsHomepage] = useState(false);
+    const [isHomepage, setIsHomepage] = useState(false);
+    console.log(isHomepage);
   const [pathChecks, setPathChecks] = useState({
     isAttoDocs: false,
     isTestManagementDocs: false,
