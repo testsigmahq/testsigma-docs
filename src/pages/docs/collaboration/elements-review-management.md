@@ -3,7 +3,7 @@ title: "Review Management for Elements"
 metadesc: "Review Management for Elements allows you to assign or review elements among the team members in Testsigma | Learn how to assign or review the elements created within your team"
 noindex: false
 order: 3.4
-page_id: "Review Management for Elements"
+page_id: "review-management-for-elements"
 warning: false
 contextual_links:
 - type: section

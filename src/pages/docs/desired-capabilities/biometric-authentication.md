@@ -4,7 +4,7 @@ page_title: "Enable Biometric Authentication"
 metadesc: "Learn how to use desired capabilities to set the Biometric Authentication for Android and iOS mobile app testing in Testsigma Application"
 noindex: false
 order: 15.93
-page_id: "How to enable Biometric Authentication"
+page_id: "enable-biometric-authentication"
 search_keyword: ""
 warning: false
 contextual_links:
@@ -28,8 +28,9 @@ With Testsigma, you can simulate biometric authentication while testing Android 
 ---
 
 > <p id="prerequisites">Prerequisites</p>
-> - You should have a Testsigma account. 
-> - A mobile application to test. 
+>
+> Before you begin, ensure that:
+> 1. You have a mobile application to test.
 
 ---
 

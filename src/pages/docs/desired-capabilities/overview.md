@@ -3,7 +3,7 @@ title: "Desired Capabilities - Overview"
 metadesc: "Desired Capabilities are used for customizing the Test Environment. Learn about desired capabilities in detail and how to add them to your test execution in Testsigma"
 noindex: false
 order: 15.1
-page_id: "Desired Capabilities - Overview"
+page_id: "desired-capabilities-overview"
 search_keyword: ""
 warning: false
 contextual_links:

@@ -3,7 +3,7 @@ title: "Network Throttling"
 metadesc: "Network throttling is an intentional slowing down of internet speed. Learn how to enable and use Network Throttling feature in Testsigma"
 noindex: false
 order: 15.91
-page_id: "Network Throttling"
+page_id: "network-throttling"
 search_keyword: "Network Throttling"
 warning: false
 contextual_links:

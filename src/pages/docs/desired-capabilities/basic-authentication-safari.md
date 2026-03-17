@@ -4,7 +4,7 @@ page_title: "Automating Basic Authentication in Safari"
 metadesc: "Safari restricts automated basic authentication login by blocking credentials in the URL format. This article discusses bypassing this limitation in Testsigma."
 noindex: false
 order: 15.99
-page_id: "Basic Authentication in Safari"
+page_id: "basic-authentication-in-safari"
 search_keyword: ""
 warning: false
 contextual_links:
