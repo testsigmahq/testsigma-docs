@@ -2,7 +2,7 @@
 
 title: "Setup Testsigma"
 page_title: "Getting started with Testsigma"
-metadesc: "How to create and run your first tests on Testsigma"
+metadesc: "Get started with Testsigma Cloud quickly. Create your account, explore features, and access support, documentation, FAQs, and community help."
 noindex: false
 order: 1.30
 page_id: "Setup Testsigma"
@@ -13,9 +13,6 @@ contextual_links:
 - type: link
   name: "Using Testsigma Cloud"
   url: "#using-testsigma-cloud"
-- type: link
-  name: "Deploy on your Local Servers"
-  url: "#deploy-on-your-local-servers"
 - type: link
   name: "Getting help"
   url: "#getting-help"
