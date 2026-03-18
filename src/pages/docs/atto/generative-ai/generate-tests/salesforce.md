@@ -15,12 +15,6 @@ contextual_links:
 - type: link
   name: "Generate Test Cases for Salesforce"
   url: "#generate-test-cases-for-salesforce"
-- type: link
-  name: "Generate Test Cases for Salesforce Flows"
-  url: "#generate-test-cases-for-salesforce-flows"
-- type: link
-  name: "Refining Test Steps with AI"
-  url: "#refining-test-steps-with-ai"
 ---
 
 ---
