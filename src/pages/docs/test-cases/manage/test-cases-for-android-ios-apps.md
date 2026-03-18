@@ -1,7 +1,7 @@
 ---
 title: "Test Cases for Android & iOS Apps"
 pagetitle: "Create Test Cases for Android & iOS Apps"
-metadesc: ""
+metadesc: "Create test cases for Android and iOS apps in Testsigma using NLP steps or the Recorder. Learn how to add steps, record actions, and automate mobile app tests."
 noindex: false
 order: 4.12
 page_id: "test-cases-for-android-ios-apps"
