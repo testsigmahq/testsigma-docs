@@ -55,12 +55,12 @@ After exporting your Postman Collection as JSON or Zipped format, follow these s
 4. Select the **project**, **application**, and **version**.
 ![project](https://s3.amazonaws.com/static-docs.testsigma.com/new_images/projects/test_case/update_imports_4.png)
 
-4. After you upload the file, Testsigma organizes **Collections**, **Environments**, and **Variables** into **Test Suites**, **Test Cases**, **Test Steps**, **Test Data Profiles**, and **Environments**. This feature enables you to easily understand how the imported file is organized. 
+5. After you upload the file, Testsigma organizes **Collections**, **Environments**, and **Variables** into **Test Suites**, **Test Cases**, **Test Steps**, **Test Data Profiles**, and **Environments**. This feature enables you to easily understand how the imported file is organized. 
 
-5. Click **Start Importing** to transfer a collection into Testsigma. 
+6. Click **Start Importing** to transfer a collection into Testsigma. 
 ![Start Importing Collections file](https://s3.amazonaws.com/static-docs.testsigma.com/new_images/projects/test_case/update_imports_5.png)
 
-6. Testsigma will notify you via **email** once the import is complete. 
+7. Testsigma will notify you via **email** once the import is complete. 
 
 ---
 
