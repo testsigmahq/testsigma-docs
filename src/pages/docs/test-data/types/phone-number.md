@@ -131,7 +131,7 @@ Here's a GIF demonstrating how to install, add phone numbers, and set up filters
 
 ## **Use Case for Message Forwarding**
 
-Use the test steps mentioned below for message forwarding.
+Follow the test steps mentioned in the following screenshot to forward messages:
 ![SMS Test Case](https://s3.amazonaws.com/static-docs.testsigma.com/new_images/projects/test_data/update_phone_number_5.png)
 
 ---
