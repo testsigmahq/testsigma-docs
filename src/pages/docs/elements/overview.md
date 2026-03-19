@@ -84,7 +84,7 @@ You can use user-defined custom fields and the default fields to filter elements
 4. Enter a name for the configuration in the **Config Name** field and mark the checkbox to make it **Public** (Visible for all users with access to the project). Then, click **Save** to save the filter.
 ![Config Name](https://s3.amazonaws.com/static-docs.testsigma.com/new_images/projects/elements/update_elementslist_7.png)
 
-1. Click **Saved Filters** in the menu bar on the **Elements List** page to open the drop-down list. In **Custom Filters**, locate the saved filter, select the filter and mouse over to the filter, and click the **Edit** button next to the filter name to edit it. To delete the saved filter, click the **Delete** button. ![Save Elememts Filter](https://s3.amazonaws.com/static-docs.testsigma.com/new_images/projects/elements/update_elementslist_9.1.png)
+5. Click **Saved Filters** in the menu bar on the **Elements List** page to open the drop-down list. In **Custom Filters**, locate the saved filter, select the filter and mouse over to the filter, and click the **Edit** button next to the filter name to edit it. To delete the saved filter, click the **Delete** button. ![Save Elememts Filter](https://s3.amazonaws.com/static-docs.testsigma.com/new_images/projects/elements/update_elementslist_9.1.png)
 
 ---
 
