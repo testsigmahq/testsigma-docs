@@ -32,7 +32,7 @@ Testsigma’s AI-Enabled auto-healing automatically detects and fixes broken ele
 > 1. [Documentation on enabling the auto-healing feature](https://testsigma.com/docs/auto-healing/enable-the-auto-healing-feature/).
 > 2. [Documentation on managing test cases](https://testsigma.com/docs/test-cases/manage/add-edit-delete/).
 > 3. [Documentation on creating elements](https://testsigma.com/docs/elements/overview/).
-> 4. [Documentation on Testsigma for Salesforce Testsing](https://testsigma.com/docs/salesforce-testing/introduction/). 
+> 4. [Documentation on Testsigma for Salesforce Testing](https://testsigma.com/docs/salesforce-testing/introduction/). 
 
 ---
 
