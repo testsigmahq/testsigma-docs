@@ -45,7 +45,7 @@ This document will walk you through **creating**, **editing**, **switching**, an
 [[info | **NOTE**:]]
 | Custom fields you create for your projects under **Settings > Custom Fields > Projects** will appear here.
 
-3. If your project involves multiple applications, check **Allow adding multiple applications in this project** checbox. To add an application, click **Add Application**, select the **Application Type** from the drop-down menu, and give it a **Name**. By default, the project is set up for a single application.
+3. If your project involves multiple applications, check **Allow adding multiple applications in this project** checkbox. To add an application, click **Add Application**, select the **Application Type** from the drop-down menu, and give it a **Name**. By default, the project is set up for a single application.
 ![Project and Settings 3](https://s3.amazonaws.com/static-docs.testsigma.com/new_images/projects/project/update_project_3.png)
 
 4. Also, if you want multiple versions for each application, check **Allow multiple versions for applications** checbox.
