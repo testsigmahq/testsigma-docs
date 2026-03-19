@@ -153,7 +153,7 @@ During a test step, you can create a mailbox alias that connects an additional e
 ![](https://s3.amazonaws.com/static-docs.testsigma.com/new_images/projects/test_data/update_mailbox_17.png)
 
 4. Select Linked Mail Box to create a unique mailbox every time and click **Save**.
-![](https://s3.amazonaws.com/static-docs.testsigma.com/new_images/projects/test_data/update_mailbox_18.png)
+![Save](https://s3.amazonaws.com/static-docs.testsigma.com/new_images/projects/test_data/update_mailbox_18.png)
 
 5. Substitute specific **text** for the **test-data-2** placeholder and click **Create Step** to save the test step. It stores the **mailbox** within the **text** as a runtime variable.
 ![mailbox](https://s3.amazonaws.com/static-docs.testsigma.com/new_images/projects/test_data/update_mailbox_19.png)
