@@ -50,7 +50,7 @@ NameFunctions Function Type in data generators helps you create usernames. It pr
 ![select namefunctions function type from data generators](https://s3.amazonaws.com/static-docs.testsigma.com/new_images/projects/test_data/update_random_string_4.png)
 
 [[info | NOTE:]]
-| This action will display a list of built-in functions associated with the NameFunctions function type, enabling you to select the appropriate function based on your requirements.
+| This action will display a list of built-in functions associated with the RandomStringFunctions function type, enabling you to select the appropriate function based on your requirements.
 
 5. Click **Save**. 
 ![Save](https://s3.amazonaws.com/static-docs.testsigma.com/new_images/projects/test_data/update_random_string_5.png)
