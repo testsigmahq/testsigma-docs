@@ -59,6 +59,6 @@ Testsigma monday.com integration helps you create issues in monday.com directly 
 
 [[info | **NOTE**:]]
 | - To link to an existing Jira issue, click **Link To Issue**, search for the issue, and then click **Link to Ticket**.
-| - When the bug is created, some additional details regarding the Test Result, such as the test execution video and step screenshots, are added automatically by Testsigma. This helps the developer who checks the issue in **Monday.com** better understand the issue/bug with more context.
+When a bug is created, Testsigma automatically adds additional details about the Test Result, such as the test execution video and step screenshots. This helps the developer who checks the issue in **Monday.com** better understand the issue/bug with more context.
 
 ---
