@@ -11,8 +11,8 @@ import { useStaticQuery, graphql } from 'gatsby';
 import favicon from './../images/favicon.ico';
 
 function SEO({
-  lang,
-  meta,
+  lang = 'en',
+  meta = [],
   title,
   slug,
   canonical,
@@ -207,11 +207,6 @@ function SEO({
     </>
   );
 }
-
-SEO.defaultProps = {
-  lang: 'en',
-  meta: [],
-};
 
 SEO.propTypes = {
   lang: PropTypes.string,

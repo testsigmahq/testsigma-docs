@@ -1,7 +1,7 @@
 ---
 title: "Generate Test Cases for Salesforce"
 page_title: "Generate Test Cases for Salesforce"
-metadesc: "Automatically generate test cases for Salesforce using GenAI | Generate test using Salesforce Flows, Workflows, or Jira requirements using simple prompts"
+metadesc: "Generate Salesforce test cases in Testsigma using GenAI. Attach Jira Epics or Stories and instantly create test cases with simple prompts to accelerate test creation"
 noindex: false
 order: 4.7426
 page_id: "generate-test-cases-for-salesforce"
@@ -15,12 +15,6 @@ contextual_links:
 - type: link
   name: "Generate Test Cases for Salesforce"
   url: "#generate-test-cases-for-salesforce"
-- type: link
-  name: "Generate Test Cases for Salesforce Flows"
-  url: "#generate-test-cases-for-salesforce-flows"
-- type: link
-  name: "Refining Test Steps with AI"
-  url: "#refining-test-steps-with-ai"
 ---
 
 ---
@@ -80,44 +74,6 @@ You can quickly generate test cases for Salesforce requirements in Testsigma usi
 
 14. Repeat steps 7–13 for all the test cases you want to add.
 
----
-
-## **Generate Test Cases for Salesforce Flows**
-
-1. From the left navigation bar, go to **Atto’s Home** and click **Generate with AI**.
-
-2. On the **Generate Test Cases** page, click **SF Flows**. 
-
-3. In the **SF Flows** dialog, 
-      - Select the **Flow** or **Workflow** tab.
-      - Select the flows you want to generate test cases for, and click **Save**.
-
-        ![Flows](https://s3.amazonaws.com/static-docs.testsigma.com/new_images/projects/atto/sf_1.png)
-
-4. In the Prompt box, enter a detailed prompt that describes test cases want to generate.
-
-5. The **Read existing test case library** checkbox is selected by default. Clear this checkbox if you do not want the system to consider existing test cases while generating new ones.
-
-6. Click **Generate with AI**.
-
-7. Wait for Atto to generate the test cases.
-
-8. After the test cases are generated, expand a category and select a test case.
-
-9. In the **Test Case Details** dialog, go to the **Manual Steps** tab and review the generated steps.
-
-10. Click **Edit** to manually add a step or block, or to modify existing steps.
-
-11. If you want to refine the steps using **Atto**, enter a prompt and click **Refine manual steps**.
-
-12. Click **Generate Automated Steps** to convert the manual steps into NLP-based automated steps.
-
-13. To execute the test before saving, hover over **Run with Copilot** and select the environment where you want to run the test steps. Copilot executes the steps automatically. Review the results to ensure everything works as expected, then click **Save to Library** to save the test case to your project.
-
-14. To save the test directly, click **Save to Library**. In the **Select Location** dialog box, expand the required **Feature** and select the **Scenario** where you want to save the automated test case.
-    
-15. Repeat steps 7–14 for all the test cases you want to add.
- 
 [[info | **NOTE**:]]
 | - To learn about **Agentic Learning**, please refer to the [documentation on Generator Agent](https://testsigma.com/docs/ai-agents/generator/).
 | - To understand the difference between **Run with Copilot** and **Agentic Learning**, please refer to the [documentation on Run with Copilot vs Agentic Learning](http://testsigma.com/docs/atto/generative-ai/copilot/agentic-learning-vs-copilot/). 

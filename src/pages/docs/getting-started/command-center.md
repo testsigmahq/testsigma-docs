@@ -3,7 +3,7 @@ title: "Command Center"
 metadesc: "Use Command Center to streamline your workflow and perfrom actions with minimal mouse clicks."
 noindex: false
 order: 1.9
-page_id: "Command Center"
+page_id: "command-center"
 warning: false
 contextual_links:
 - type: section

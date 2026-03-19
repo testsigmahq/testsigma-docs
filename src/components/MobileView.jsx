@@ -17,7 +17,7 @@ class MobileView extends React.Component{
                 <div className={x ? 'hamburger active' : 'hamburger '} onClick={handleChange}>
                     <span></span>
                 </div>
-                <LeftNav />
+                <LeftNav currentSlug={this.props.currentSlug} />
             </>
 
         )

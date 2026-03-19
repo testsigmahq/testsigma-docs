@@ -5,7 +5,7 @@
  * See: https://www.gatsbyjs.org/docs/use-static-query/
  */
 
-import React, {useRef} from 'react';
+import React from 'react';
 import './layout.scss';
 
 const getCookie = (name) => {

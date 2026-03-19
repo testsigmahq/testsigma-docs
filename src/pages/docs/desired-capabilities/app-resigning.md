@@ -4,7 +4,7 @@ page_title: "Enable app resigning"
 metadesc: "Learn how to set a desired capability to re-sign the app with the uploaded provisioning profile to install your app on the device during test execution"
 noindex: false
 order: 15.94
-page_id: "How to enable app resigning"
+page_id: "app-resigning"
 search_keyword: ""
 warning: false
 ---

@@ -3,7 +3,7 @@ title: "Inviting Team Members to a Project"
 metadesc: "In Testsigma, you can add team members to your project & assign them different roles for better collaboration within your team | Learn how to add team members to a Project in Testsigma."
 noindex: false
 order: 3.0
-page_id: "Adding Team Members to a Project"
+page_id: "adding-team-members-to-a-project"
 warning: false
 contextual_links:
 - type: section
@@ -52,17 +52,6 @@ You can add unlimited team members to your project and assign them different rol
 
 
 Alternatively, you can also add users from global **Settings**. Learn how to assign projects from [here](https://testsigma.com/docs/collaboration/assign-projects/).
-
-
-Try this interactive demo to learn how to add team members to your project!
-
-<div>
-  <script async src="https://js.storylane.io/js/v2/storylane.js"></script>
-  <div class="sl-embed" style="position:relative;padding-bottom:calc(57.41% + 25px);width:100%;height:0;transform:scale(1)">
-    <iframe loading="lazy" class="sl-demo" src="https://app.storylane.io/demo/7fwrqqu8xt8w?embed=inline" name="sl-embed" allow="fullscreen" allowfullscreen style="position:absolute;top:0;left:0;width:100%!important;height:100%!important;border:1px solid rgba(63,95,172,0.35);box-shadow: 0px 0px 18px rgba(26, 19, 72, 0.15);border-radius:10px;box-sizing:border-box;"></iframe>
-  </div>
-</div>
-
 
 
 ---

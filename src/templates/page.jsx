@@ -116,9 +116,9 @@ export default ({ data, pageContext }) => {
       {/*<SubNav></SubNav>*/}
       <div className='w-full'>
         <div className='flex items-stretch'>
-          <MobileView></MobileView>
+          <MobileView currentSlug={pageContext.slug}></MobileView>
           <nav className='isTablet w-1/4 max-w-sm bg-gray-50'>
-            <LeftNav />
+            <LeftNav currentSlug={pageContext.slug} />
           </nav>
           <div className='flex-auto w-4/5'>
             <div className='flex items-stretch w-full'>

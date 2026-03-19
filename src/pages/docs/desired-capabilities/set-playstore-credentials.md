@@ -4,7 +4,7 @@ page_title: "Capability to Access Google Play Store"
 metadesc: "This article discusses the capability you need to set to access Google Play Store services & test services like in-app purchase flows, verify payments, and production version"
 noindex: false
 order: 15.98
-page_id: "Access Google Play Store"
+page_id: "access-google-play-store"
 search_keyword: ""
 warning: false
 contextual_links:
