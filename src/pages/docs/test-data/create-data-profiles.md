@@ -82,7 +82,7 @@ Test data profiles can significantly enhance the efficiency of your testing proc
 
 ## **Using Test Data Profile in a Test Case**
 
-1. In **Test Case detials** page, click **Add new** step, and use **NLP** to create a new test step. ![use test data placeholder](https://s3.amazonaws.com/static-docs.testsigma.com/new_images/projects/test_data/update_test_data_9.png)
+1. In **Test Case details** page, click **Add new** step, and use **NLP** to create a new test step. ![use test data placeholder](https://s3.amazonaws.com/static-docs.testsigma.com/new_images/projects/test_data/update_test_data_9.png)
 
 2. Include a placeholder for the **test data**. Click the **test data** placeholder, select <strong>@ Parameter</strong> from the test data types dropdown, and choose the parameter from right overlay. ![select parameter from overlay](https://s3.amazonaws.com/static-docs.testsigma.com/new_images/projects/test_data/update_test_data_10.png)
 
@@ -157,7 +157,7 @@ In data-driven testing, you can iterate values from start to end. To iterate fro
 ![select prerequiste for test case](https://s3.amazonaws.com/static-docs.testsigma.com/new_images/projects/test_data/update_test_data_12.1.png)
 2. Enable the **Data-Driven** toggle and select **Overwrite Test Data Set with a runtime variable for the Data iterates from/to** dropdowns. 
 ![select data driven test with dynamic set](https://s3.amazonaws.com/static-docs.testsigma.com/new_images/projects/test_data/update_test_data_13.png)
-1. Create test steps and click **Run** to execute the test case.
+3. Create test steps and click **Run** to execute the test case.
 
 ---
 
