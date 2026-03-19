@@ -25,12 +25,19 @@ You can access and control it programmatically once you generate the API key. Te
 Follow the below steps to generate an API key in Testsigma:
 
 1. Navigate to **Settings** > **API Keys** in the left-side navbar.
+![Settings](https://s3.amazonaws.com/static-docs.testsigma.com/new_images/projects/configuration/update_apikeys_1.png)
 
 2. Click the **Generate new API Key** button in the top right corner of the screen on the **API Keys** page, and a **Generate API Key** pop-up overlay will appear.
+![Generate API Key](https://s3.amazonaws.com/static-docs.testsigma.com/new_images/projects/configuration/update_apikeys_2.png)
 
-3. In the pop-up overlay for **Generate API Key**, you can enter a **Name** for your **API Key** and specify the **number of parallel test** executions for this key. The overlay provides a toggle for restricting parallel test execution for this key.
+3. In the **Generate API Key** dialog, enter a **Name** for your API key and define the number of parallel test executions. You can also use the toggle to restrict parallel execution for this key.
+![Name](https://s3.amazonaws.com/static-docs.testsigma.com/new_images/projects/configuration/update_apikeys_3.png)
 
-4. After entering a name and configuring parallel settings, click the **Generate Key** button. The API key will be displayed on the screen. Click the **Copy API Key** button to copy it to your clipboard for use in your applications or scripts. ![Generate API Key](https://s3.amazonaws.com/static-docs.testsigma.com/new_images/projects/applications/generate_apikey.gif)
+4. Select the desired validity period for the API key under **Expiration**.
+![Expiration](https://s3.amazonaws.com/static-docs.testsigma.com/new_images/projects/configuration/update_apikeys_4.png)
+
+5. After entering a name and configuring parallel settings, click the **Generate Key** button. The API key will be automatically copied to your clipboard so you can easily use it in your applications or scripts. 
+![Generate API Key](https://s3.amazonaws.com/static-docs.testsigma.com/new_images/projects/configuration/update_apikeys_5.png)
 
 [[info | **NOTE**:]]
 | Only users with **Admin** or **Super Admin** roles can generate API keys in Testsigma.

@@ -36,31 +36,29 @@ Testsigma monday.com integration helps you create issues in monday.com directly 
 ## **Integrating Monday.com With Testsigma**
 
 1. Navigate to **Settings > Integrations** and enable the toggle on **monday.com** widget. 
-![Navigate to Plugins](https://s3.amazonaws.com/static-docs.testsigma.com/new_images/projects/applications/mndytgl.png)
+![Navigate to Plugins](https://s3.amazonaws.com/static-docs.testsigma.com/new_images/projects/integrations/update_monday_1.png)
 
 
 2. On the **Monday.com details** prompt, enter **Account URL**, **API Key**, **Confirm API Key** and click on **Save & Enable**.
-![Monday.com Details](https://s3.amazonaws.com/static-docs.testsigma.com/new_images/projects/applications/mdidtls.png)
+![Monday.com Details](https://s3.amazonaws.com/static-docs.testsigma.com/new_images/projects/integrations/update_monday_2.png)
 
 ---
 
 ## **Creating a Bug**
 1. Navigate to **Run Results > Test Case Result**, where you want to add a bug.
-![Test Case Report](https://s3.amazonaws.com/static-docs.testsigma.com/new_images/projects/applications/jrtcresults.png)
+![Test Case Report](https://s3.amazonaws.com/static-docs.testsigma.com/new_images/projects/integrations/update_monday_3.png)
 
 2. Click on **Report Bug**.
-![Report Bug](https://s3.amazonaws.com/static-docs.testsigma.com/new_images/projects/applications/jrreportbug.png)
-
+![Report Bug](https://s3.amazonaws.com/static-docs.testsigma.com/new_images/projects/integrations/update_monday_4.png)
 
 3. On **Report** overlay, click on the **Monday.com** icon.
-![Monday Icon](https://s3.amazonaws.com/static-docs.testsigma.com/new_images/projects/applications/minticon.png)
+![Monday Icon](https://s3.amazonaws.com/static-docs.testsigma.com/new_images/projects/integrations/update_monday_5.png)
 
 4. On the **Create New Issue** prompt, click on **Create Ticket**.
-![Create New Issue](https://s3.amazonaws.com/static-docs.testsigma.com/new_images/projects/applications/mintct.png)
+![Create New Issue](https://s3.amazonaws.com/static-docs.testsigma.com/new_images/projects/integrations/update_monday_6.png)
 
 [[info | **NOTE**:]]
-| - If you want to link to an existing issue on **Monday.com**, click on the **Link to Issue** button, search for a current issue in the search field, and click on Link Issue to add a link to an existing Issue on **Monday.com**. Otherwise, enter the bug details in the form as required.
+| - To link to an existing Jira issue, click **Link To Issue**, search for the issue, and then click **Link to Ticket**.
 | - When the bug is created, some additional details regarding the Test Result, such as the test execution video and step screenshots, are added automatically by Testsigma. This helps the developer who checks the issue in **Monday.com** better understand the issue/bug with more context.
-
 
 ---

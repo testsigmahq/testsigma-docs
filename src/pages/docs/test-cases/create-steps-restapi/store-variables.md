@@ -32,8 +32,7 @@ Stored variables in RESTful API testing are variables that are used to store dat
 1. **Send** an API request, and at the bottom of the screen, the **response body** will appear for the request you sent.
 
 2. Click **Outline**, then select **Store Variable** to upload it directly into **Stored Variables** tab.
-
-   ![store response body in tab](https://s3.amazonaws.com/static-docs.testsigma.com/new_images/projects/overview/storevariable_restapioutline.gif)
+   ![store response body in tab](https://s3.amazonaws.com/static-docs.testsigma.com/new_images/projects/test_case/update_store_variables_1.1.png)
 
 [[info | NOTE:]]
 | - Navigate to **Stored Variables** > **Response Body** tab, and click **Store Variable** to add the field manually.
@@ -45,8 +44,7 @@ Stored variables in RESTful API testing are variables that are used to store dat
 1. Send an **API Request**. The **Response Body** for your request will appear at the bottom of the screen.
 
 2. Hover over the HTML lines in the **Response Body** and select the attribute to store variables. This action automatically stores the attribute and displays info under the **Stored Variables** tab.
-
-   ![Store Variables](https://s3.amazonaws.com/static-docs.testsigma.com/new_images/projects/applications/StoreVariables.gif)
+   ![Store Variables](https://s3.amazonaws.com/static-docs.testsigma.com/new_images/projects/test_case/update_store_variables_2.png)
 
 ---
 
@@ -55,8 +53,6 @@ Stored variables in RESTful API testing are variables that are used to store dat
 1. Click **Store Variable** in the **Headers tab**. Enter the **variable name** and enter the **header name**. Click **Create** to store variable. 
 
 2. At the bottom of the page, click the **Headers** tab, mouse over to the response header, and click **store variable**; it will update in the stored variables headers tab.
-
-   ![Store header in Tab](https://s3.amazonaws.com/static-docs.testsigma.com/new_images/projects/overview/storevariable_header_restapi.gif)
+   ![Store header in Tab](https://s3.amazonaws.com/static-docs.testsigma.com/new_images/projects/test_case/update_store_variables_3.png)
 
 ---
-

@@ -51,13 +51,15 @@ Custom PDF Report Generator in Testsigma allows you to create detailed and custo
 To generate reports, you need specific IDs depending on the level of detail you want:
 
 1. Navigate to the **Run Result** from which you want to retrieve the Run ID.
-2. For **test plan** level reports, Use the Run ID directly from the Run Result page. You can find this in the Execution ID or the URL endpoint. Copy the Run ID from the Run Result page. ![retrieving runid for test plan level](https://s3.amazonaws.com/static-docs.testsigma.com/new_images/projects/applications/testplan_run_id.cpr.gif)
+2. For **test plan** level reports, use the Run ID from the Run Result page. You can find the Run ID in the URL endpoint. For example, in **/results/664/runs/880**, 880 is the Run ID. 
+![retrieving runid for test plan level](https://s3.amazonaws.com/static-docs.testsigma.com/new_images/projects/run_results/update_custom_report_1.png)
 3. For Test Machine, Test Suite, or Test Case level reports:
    - Right-click on the page and select **Inspect** to open Developer Tools.
    - Go to the **Network** tab.
    - In the Testsigma application, select the test case, suite, or test machine in the Run Result details page to get the response.
    - In the Developer Tools, under the **Network** tab, find the response results in the name section and click **Preview**.
-   - Unhide the **Content** and copy the required **ID**. ![retrieving result ids](https://s3.amazonaws.com/static-docs.testsigma.com/new_images/projects/applications/case-machine-suitelevel-id-cpr.gif)
+   - Unhide the **Content** and copy the required **ID**. 
+   ![retrieving result ids](https://s3.amazonaws.com/static-docs.testsigma.com/new_images/projects/run_results/update_custom_report_2.png)
 
 ---
 

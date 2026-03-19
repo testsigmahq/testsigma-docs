@@ -47,37 +47,44 @@ Test data profiles can significantly enhance the efficiency of your testing proc
 
 ## **Create a Test Data Profile**
 
-1. Navigate to **Test Data** > **Test Data Profiles** and click on **Create Test Data Profile**. ![create](https://s3.amazonaws.com/static-docs.testsigma.com/new_images/projects/applications/click_create_test_data_profile.png)
-2. On the **Test Data Profile** details page, enter the **Title** for your test data profile in the **Test Data Profile Info** section. ![enter title for test data profile](https://s3.amazonaws.com/static-docs.testsigma.com/new_images/projects/applications/enter_title_for_tdp.png)
-3. To create rows and columns, click the **+** icon next to the right navigation bar to add a new column, and click the **+** icon below the table to add a new row. ![add rows and column in tdp](https://s3.amazonaws.com/static-docs.testsigma.com/new_images/projects/applications/add_new_row_column_tdp.png)
+1. Navigate to **Test Data** > **Test Data Profiles** and click on **Create Test Data Profile**. 
+![create](https://s3.amazonaws.com/static-docs.testsigma.com/new_images/projects/test_data/update_test_data_1.png)
+
+2. On the **Test Data Profile** details page, enter the **Title** for your test data profile in the **Test Data Profile Info** section. 
+![enter title for test data profile](https://s3.amazonaws.com/static-docs.testsigma.com/new_images/projects/test_data/update_test_data_2.png)
+
+3. To create rows and columns, click the **+** icon next to the right navigation bar to add a new column, and click the **+** icon below the table to add a new row. ![add rows and column in tdp](https://s3.amazonaws.com/static-docs.testsigma.com/new_images/projects/test_data/update_test_data_3.png)
+
 [[info | **NOTE**:]]
 | If you must create test data expected to fail, enable the toggle button in the **ETF** (Expected to Fail) column. 
-4. Click on **Create** to save your test data profile.
 
-Here’s a quick GIF that demonstrates how to create a test data profile. 
-![create test data profile gif](https://s3.amazonaws.com/static-docs.testsigma.com/new_images/projects/applications/steps_to_create_tdp.gif)
+4. Click on **Create** to save your test data profile.
+![Create](https://s3.amazonaws.com/static-docs.testsigma.com/new_images/projects/test_data/update_test_data_4.png)
 
 ---
 
 ## **Associate a Test Data Profile with a Test Case**
 
-1. Navigate to **Create Tests** > **Test Cases** and click on **Create Test Case**. ![navigate to assoicate test data profile](https://s3.amazonaws.com/static-docs.testsigma.com/new_images/projects/applications/create_testcase_associate_tdp.png)
+1. Navigate to **Create Tests** > **Test Cases** and open a test case. 
 
-2. On the Test Case details page, click on **Test Case Settings** from the right navigation bar. ![test case settings](https://s3.amazonaws.com/static-docs.testsigma.com/new_images/projects/applications/test_case_setting_tdp_associate.png)
-3. In the **Test Case Settings** page, choose a **Test Data Profile** from the dropdown menu. ![assoicate test data profile](https://s3.amazonaws.com/static-docs.testsigma.com/new_images/projects/applications/associate_tdp_in_testcase.png)
+2. On the Test Case details page, click on **Test Case Settings** from the right navigation bar. 
+![test case settings](https://s3.amazonaws.com/static-docs.testsigma.com/new_images/projects/test_data/update_test_data_5.png)
+
+3. In the **Test Case Settings** page, choose a **Test Data Profile** from the dropdown menu. 
+![assoicate test data profile](https://s3.amazonaws.com/static-docs.testsigma.com/new_images/projects/test_data/update_test_data_6.png)
+
 4. Enable the **Data-Driven** toggle. Once enabled, you can filter and customise the data sets from your test data profile for use in your test case using the filters Iteration, Set Name, and Parameter.
     - **Iteration**: Filters sequential data sets using greater than, less than, or between operations.
     - **Set Name**: Filters non-sequential data sets by set names using operations like equals, contains, starts with, and ends with.
-    - **Parameter**: Filters non-sequential data sets using parameters used in data sets. ![select data driven filters](https://s3.amazonaws.com/static-docs.testsigma.com/new_images/projects/applications/filtertype_dd_testcase.png)
+    - **Parameter**: Filters non-sequential data sets using parameters used in data sets. ![select data driven filters](https://s3.amazonaws.com/static-docs.testsigma.com/new_images/projects/test_data/update_test_data_7.png)
 
 ---
 
 ## **Using Test Data Profile in a Test Case**
 
-1. In **Test Case detials** page, click **Add new** step, and use **NLP** to create a new test step. ![use test data placeholder](https://s3.amazonaws.com/static-docs.testsigma.com/new_images/projects/applications/select_parameter_testdatatypes_testcase.png)
-2. Include a placeholder for the **test data**. Click the **test data** placeholder, select <strong>@ Parameter</strong> from the test data types dropdown, and choose the parameter from right overlay. ![select parameter from overlay](https://s3.amazonaws.com/static-docs.testsigma.com/new_images/projects/applications/select_parameter_fromtdp.png)
+1. In **Test Case detials** page, click **Add new** step, and use **NLP** to create a new test step. ![use test data placeholder](https://s3.amazonaws.com/static-docs.testsigma.com/new_images/projects/test_data/update_test_data_9.png)
 
-Here is a quick GIF demonstrating the above workflow: ![use test data profile in test case](https://s3.amazonaws.com/static-docs.testsigma.com/new_images/projects/applications/associating_tdp_in_testcase.gif)
+2. Include a placeholder for the **test data**. Click the **test data** placeholder, select <strong>@ Parameter</strong> from the test data types dropdown, and choose the parameter from right overlay. ![select parameter from overlay](https://s3.amazonaws.com/static-docs.testsigma.com/new_images/projects/test_data/update_test_data_10.png)
 
 ---
 
@@ -88,7 +95,8 @@ In data-driven testing, you can iterate values from start to end. To iterate fro
 **Set Variables in a Prerequisite Test Case**
 
 1. Navigate to Create Tests > Test Cases. 
-2. Store the start and end data values in your test steps using the variables <strong>RunTime\_TestData\_Set\_Start</strong> and **RunTime\_TestData\_Set\_End**. ![create dynamic sets in data driven](https://s3.amazonaws.com/static-docs.testsigma.com/new_images/projects/applications/dynamic_data_sets_testcase.png)
+2. Store the start and end data values in your test steps using the variables <strong>RunTime\_TestData\_Set\_Start</strong> and **RunTime\_TestData\_Set\_End**. 
+![create dynamic sets in data driven](https://s3.amazonaws.com/static-docs.testsigma.com/new_images/projects/test_data/update_test_data_11.png)
 
 <style>
   .example-container {
@@ -145,9 +153,11 @@ In data-driven testing, you can iterate values from start to end. To iterate fro
 
 ## **Creating Data-Driven Test Cases with Dynamic Data Sets**
 
-1. In **Test Case detials** page, click on **Test Case Settings** and select the **Prerequisite** test case from the dropdown. ![select prerequiste for test case](https://s3.amazonaws.com/static-docs.testsigma.com/new_images/projects/applications/select_prerequsties_testcases.png)
-2. Enable the **Data-Driven** toggle and select **Overwrite Test Data Set with a runtime variable for the Data iterates from/to** dropdowns. ![select data driven test with dynamic set](https://s3.amazonaws.com/static-docs.testsigma.com/new_images/projects/applications/select_data_iterates_from_variables.png)
-3. Create test steps and click **Run** to execute the test case.
+1. In **Test Case detials** page, click on **Test Case Settings** and select the **Prerequisite** test case from the dropdown. 
+![select prerequiste for test case](https://s3.amazonaws.com/static-docs.testsigma.com/new_images/projects/test_data/update_test_data_12.1.png)
+2. Enable the **Data-Driven** toggle and select **Overwrite Test Data Set with a runtime variable for the Data iterates from/to** dropdowns. 
+![select data driven test with dynamic set](https://s3.amazonaws.com/static-docs.testsigma.com/new_images/projects/test_data/update_test_data_13.png)
+1. Create test steps and click **Run** to execute the test case.
 
 ---
 
