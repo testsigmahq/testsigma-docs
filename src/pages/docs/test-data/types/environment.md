@@ -56,14 +56,15 @@ In Testsigma, you can handle and use specific sets of test data linked to differ
 
 1. Use **NLP** to create a **new step** in the **Test Case** and include a placeholder for **test data**.
 2. Click the **test data** placeholder to replace it, and then select the *** Environment** from the **Test Data Types** dropdown menu.
-3. Select **Environment** in the **Environments** overlay screen from the right-side panel. ![Environment in Test Step](https://s3.amazonaws.com/static-docs.testsigma.com/new_images/projects/applications/teststeps_environment.gif)
+3. Select an **Environment variable** in the **Environment variables** overlay. 
+   ![Environment in Test Step](https://s3.amazonaws.com/static-docs.testsigma.com/new_images/projects/applications/teststeps_environment.gif)
 
 ---
 
 ## **Use Environment in Ad-hoc Run page**
 
 1. On the **Ad-hoc Run** page, click the right arrow before **Additional Settings** to reveal the feature.
-2. Select **Environmet** from the drop-down list. ![Environment in Ad-hoc Run](https://s3.amazonaws.com/static-docs.testsigma.com/new_images/projects/applications/adhoc_run_environment.png)
+2. Select **Environment** from the drop-down list. ![Environment in Ad-hoc Run](https://s3.amazonaws.com/static-docs.testsigma.com/new_images/projects/applications/adhoc_run_environment.png)
 
 ---
 
@@ -93,41 +94,36 @@ Testsigma also automates the creation of new and updated keys across all environ
 1. From the left navigation bar, go to **Test Data > Environments** and click the **Variables** tab.
    ![Variables](https://s3.amazonaws.com/static-docs.testsigma.com/new_images/projects/applications/VariablesTab.png)
 
-2. Enter the **Variable** name and **Value** and click **Add**. 
-   ![Add Variables](https://s3.amazonaws.com/static-docs.testsigma.com/new_images/projects/applications/Variable_and_Value.png)
+2. Click **Add Variable**. The **Add Environment Variable** dialog opens.
+
+3. Enter the **Variable** name and **Value**, and click **Create**.
 
 [[info | **NOTE**:]]
 | **Variable** names should be unique and can not be changed once added. 
 
-3. Once the **Variable** is added to the list, click **Update**. 
+4. Once the **Variable** is added to the list, click **Update**. 
    ![Update](https://s3.amazonaws.com/static-docs.testsigma.com/new_images/projects/applications/UpdateVariable.png)
 
-4. Verify the **Variable** added in the **Environments**. 
+5. Verify the **Variable** added in the **Environments**. 
    ![Verify Variable](https://s3.amazonaws.com/static-docs.testsigma.com/new_images/projects/applications/VerifyVariable.png)
 
-> Alternatively, you can also add Variables by clicking on **Add Variable**. This will open the **Add Environment Variable** prompt. 
-> ![Add Variable](https://s3.amazonaws.com/static-docs.testsigma.com/new_images/projects/applications/AddVariable.png)
-> 
-> - Enter the **Variable** name and **Value** and click **Create**.
->   ![Variable Details](https://s3.amazonaws.com/static-docs.testsigma.com/new_images/projects/applications/AddVariablePrompt.png)
-
-5. There will be a default indication with the letter **D** for all the **Variables** added globally. 
+6. There will be a default indication with the letter **D** for all the **Variables** added globally. 
    ![Default Indication](https://s3.amazonaws.com/static-docs.testsigma.com/new_images/projects/applications/DafaultVariableIndication.png)
 
 [[info | **NOTE**:]]
 | Once you edit the **Variable** from the **Environment** page, the default indication with the letter **D** will not be displayed.
 | ![No Default Indication](https://s3.amazonaws.com/static-docs.testsigma.com/new_images/projects/applications/NoIndicationMark.png)
 
-6. From the **Test Case Details** page, click **Run**. This will open the **Ad-Hoc Run** overlay. 
+7. From the **Test Case Details** page, click **Run**. This will open the **Ad-Hoc Run** overlay. 
    ![Ad-Hoc Run](https://s3.amazonaws.com/static-docs.testsigma.com/new_images/projects/applications/VariableAdHoc_Run.png)
 
-7. Go to the **Environment** section and confirm the variables by clicking on **Manage Variables**.
+8. Go to the **Environment** section and confirm the variables by clicking on **Manage Variables**.
    ![Manage Variables](https://s3.amazonaws.com/static-docs.testsigma.com/new_images/projects/applications/ManageVariables.png)
 
-8. Update the changes and click **Apply**. 
+9. Update the changes and click **Apply**. 
    ![New Changes](https://s3.amazonaws.com/static-docs.testsigma.com/new_images/projects/applications/UpdateVariableandApply.png)
 
-9. Click on **Run Now** to execute the test with updated **Environment** and **Variable**. 
+10. Click on **Run Now** to execute the test with updated **Environment** and **Variable**. 
    ![Run Now](https://s3.amazonaws.com/static-docs.testsigma.com/new_images/projects/applications/RunNowwithNewVariables.png)
 
 [[info | **NOTE**:]]

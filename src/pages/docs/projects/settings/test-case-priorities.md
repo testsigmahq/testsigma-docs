@@ -15,7 +15,7 @@ Testsigma provides a default set of Test Case Priorities, which can be edited an
 
 Default **Test Case Priorities** available:  **Critical**, **Major**, **Medium**, **Minor**
 
-![Test Case Priorities](https://s3.amazonaws.com/static-docs.testsigma.com/new_images/projects/applications/TestCase_Priorities.png)
+![Test Case Priorities](https://s3.amazonaws.com/static-docs.testsigma.com/new_images/projects/projects/update_priority_1.png)
 
 [[info | **NOTE**:]]
 | Users can no longer add new priorities in Testsigma but can continue using the default priorities available in the application.

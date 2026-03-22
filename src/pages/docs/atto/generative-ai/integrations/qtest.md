@@ -32,10 +32,10 @@ With qTest integrated into Testsigma, you can generate test cases by selecting s
 ## **Steps to Integrate Testsigma with qTest**
 
 1. From the left navigation bar, go to **Settings > Integrations**.
-   ![Integrations](https://s3.amazonaws.com/static-docs.testsigma.com/new_images/projects/applications/TestRail_Navigation.png)
+   ![Integrations](https://s3.amazonaws.com/static-docs.testsigma.com/new_images/projects/integration/update_linear_1.1.png)
 
 2. Enable toggle on **qTest** widget.
-   ![qTest Widget](https://s3.amazonaws.com/static-docs.testsigma.com/new_images/projects/applications/qTest_Widget.png)
+   ![qTest Widget](https://s3.amazonaws.com/static-docs.testsigma.com/new_images/projects/integration/update_qtest_1.png)
 
 3. On the **qTest Details** dialog, enter **Host URL** and **Bearer Token**.
    ![qTest Details](https://s3.amazonaws.com/static-docs.testsigma.com/new_images/projects/applications/qTest_Details.png)

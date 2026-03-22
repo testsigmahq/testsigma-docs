@@ -48,13 +48,19 @@ Testsigma Terminal provides complete control over test case execution and debugg
 
 ## **Getting Started**
 
-   - **Installing Testsigma Terminal**
+   - **[Documentation on Installing Testsigma Terminal](https://testsigma.com/docs/live-editor/installing-testsigma-terminal/)**
+
+   - **[Documentation on Installing Testsigma Terminal on Linux](https://testsigma.com/docs/live-editor/installing-testsigma-terminal-on-linux/)**
+
+   - **[Documentation on Installing Testsigma Terminal on Windows](https://testsigma.com/docs/live-editor/installing-testsigma-terminal-on-windows/)**
+
+   - **[Documentation on Components of Testsigma Terminal](https://testsigma.com/docs/live-editor/components-of-testsigma-terminal/)**
+
+   - **[Documentation on Editing a Test Case Using Copilot](https://testsigma.com/docs/live-editor/editing-test-case/)**
    
-   - **Editing a Test Case Using Copilot**
+   - **[Documentation on FAQs on Testsigma Terminal](https://testsigma.com/docs/live-editor/faqs-on-copilot/)**
    
-   - **FAQs on Testsigma Terminal**
-   
-   - **Troubleshooting Guide for Testsigma Terminal**
+   - **[Documentation on Troubleshooting Guide for Testsigma Terminal](https://testsigma.com/docs/live-editor/troubleshooting-for-copilot/)**
 
 ---
 

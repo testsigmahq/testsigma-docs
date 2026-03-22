@@ -92,7 +92,7 @@ You can integrate Testsigma with Jira to push bugs directly to your Jira project
 
 
 [[info | **NOTE**:]]
-| To link to an existing Jira issue, click **Link to Issue**, search for the issue, and then click **Link to Ticket**.
+| To link to an existing Jira issue, click **Link To Issue**, search for the issue, and then click **Link to Ticket**.
 |
 | ![Link](https://s3.amazonaws.com/static-docs.testsigma.com/new_images/projects/Updated_Doc_Images/Link_Bug_to_Existing_Issue.png)
 
