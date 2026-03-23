@@ -3,7 +3,7 @@ title: "AI-Enabled Auto-Healing for Mobile Applications"
 page_title: "AI-Enabled Auto-Healing for Mobile Applications"
 metadesc: "Testsigma’s AI-powered auto-healing detects and fixes broken element locators during mobile test execution, ensuring tests stay stable despite UI changes."
 noindex: false
-order: 4.914
+order: 4.915
 page_id: "ai-enabled-auto-healing-for-mobile-applications"
 warning: false
 contextual_links:

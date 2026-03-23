@@ -25,7 +25,7 @@ const data = [
         id: 4,
         title: "Test Cases",
         description: "Create and Manage Test Cases in Testsigma.",
-        path: "docs/test-cases/manage/add-edit-delete/",
+        path: "/docs/test-cases/manage/add-edit-delete/",
     },
     {
         id: 5,
