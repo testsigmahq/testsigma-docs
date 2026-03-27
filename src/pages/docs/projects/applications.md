@@ -39,47 +39,27 @@ Once the **Applications** tab is enabled, you will be able to see all the applic
 
 ## **Add Application**
 
-1. Navigate to **Project Settings > Edit Project > Applications**.
+1. Navigate to **Project Settings**.  
+![Project Settings](https://s3.amazonaws.com/static-docs.testsigma.com/new_images/projects/projects/update_application_1.png)
 
-2. Click **New Application**.
-
-
+2. In the **EDIT PROJECT** dialog, click **Applications** on the left menu and click **New Application**.
+![Applications](https://s3.amazonaws.com/static-docs.testsigma.com/new_images/projects/projects/update_application_2.png)
 
 3. On **New application** dialog, enter **Application name**, **Description**, **Version name**, and select **Application type**. 
+![Application Type](https://s3.amazonaws.com/static-docs.testsigma.com/new_images/projects/projects/update_application_3.png)
 
 4. Click on **Create**.
-
-
-
-### **Try this interactive demo to learn how to add an Application!**
-
-<div>
-  <script async src="https://js.storylane.io/js/v2/storylane.js"></script>
-  <div class="sl-embed" style="position:relative;padding-bottom:calc(57.41% + 25px);width:100%;height:0;transform:scale(1)">
-    <iframe loading="lazy" class="sl-demo" src="https://app.storylane.io/demo/rtsduujyqk6c?embed=inline" name="sl-embed" allow="fullscreen" allowfullscreen style="position:absolute;top:0;left:0;width:100%!important;height:100%!important;border:1px solid rgba(63,95,172,0.35);box-shadow: 0px 0px 18px rgba(26, 19, 72, 0.15);border-radius:10px;box-sizing:border-box;"></iframe>
-  </div>
-</div>
+![Create](https://s3.amazonaws.com/static-docs.testsigma.com/new_images/projects/projects/update_application_4.png)
 
 ---
 
-
 ## **Edit Application**
 
-
 1. Navigate to **Project Settings > Edit Project > Applications**, and select application you want to edit from the dropdown.  
-
+![Select an application](https://s3.amazonaws.com/static-docs.testsigma.com/new_images/projects/projects/update_application_5.png)
 
 2. Make the required changes and click on the **Update** to save the changes.
-
-### **Try this interactive demo to learn how to edit an Application!**
-
-<div>
-  <script async src="https://js.storylane.io/js/v2/storylane.js"></script>
-  <div class="sl-embed" style="position:relative;padding-bottom:calc(57.41% + 25px);width:100%;height:0;transform:scale(1)">
-    <iframe loading="lazy" class="sl-demo" src="https://app.storylane.io/demo/smkcsuvisch4?embed=inline" name="sl-embed" allow="fullscreen" allowfullscreen style="position:absolute;top:0;left:0;width:100%!important;height:100%!important;border:1px solid rgba(63,95,172,0.35);box-shadow: 0px 0px 18px rgba(26, 19, 72, 0.15);border-radius:10px;box-sizing:border-box;"></iframe>
-  </div>
-</div>
-
+![Update](https://s3.amazonaws.com/static-docs.testsigma.com/new_images/projects/projects/update_application_6.png)
 
 ---
 
@@ -89,20 +69,10 @@ Once the **Applications** tab is enabled, you will be able to see all the applic
 
 
 2. Click **Delete Application**. 
-
+![Delete Application](https://s3.amazonaws.com/static-docs.testsigma.com/new_images/projects/projects/update_application_7.png)
 
 3. Clicking on the **Delete** button for the application shows a warning **Delete Project** prompt. Enter **DELETE**, and click **Delete** to confirm the deletion.
-
-
-### **Try this interactive demo to learn how to delete an Application!**
-
-<div>
-  <script async src="https://js.storylane.io/js/v2/storylane.js"></script>
-  <div class="sl-embed" style="position:relative;padding-bottom:calc(57.41% + 25px);width:100%;height:0;transform:scale(1)">
-    <iframe loading="lazy" class="sl-demo" src="https://app.storylane.io/demo/vycpbv9kldkr?embed=inline" name="sl-embed" allow="fullscreen" allowfullscreen style="position:absolute;top:0;left:0;width:100%!important;height:100%!important;border:1px solid rgba(63,95,172,0.35);box-shadow: 0px 0px 18px rgba(26, 19, 72, 0.15);border-radius:10px;box-sizing:border-box;"></iframe>
-  </div>
-</div>
-
+![Confirm Deletion](https://s3.amazonaws.com/static-docs.testsigma.com/new_images/projects/projects/update_application_8.png)
 
 [[info | **NOTE**:]]
 | Deleting an Application leads to loss of all data within the application including:
