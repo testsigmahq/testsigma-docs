@@ -35,10 +35,10 @@ You can use the Random Test Data feature in your test cases by specifying a numb
 
 For example, you have a test case that requires entering a passport number, and you want to generate a random 9-digit passport number for every execution. You can achieve this using Random test data type in your Test Case.
 
-![Random Test Data](https://s3.amazonaws.com/static-docs.testsigma.com/new_images/projects/applications/rndmtdtype.png)
+![Random Test Data](https://s3.amazonaws.com/static-docs.testsigma.com/new_images/projects/test_data/update_random_data_1.png)
 
-Here is a quick GIF demonstrating how to add Random Data to a Test Case in Testsigma.
-![Random Test Data](https://s3.amazonaws.com/static-docs.testsigma.com/new_images/projects/applications/RandomTestData.gif)
+Here is the run result: 
+![Random Test Data](https://s3.amazonaws.com/static-docs.testsigma.com/new_images/projects/test_data/update_random_data_2.png)
 
 
 [[info | **NOTE**:]]
