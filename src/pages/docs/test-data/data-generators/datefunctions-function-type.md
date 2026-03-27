@@ -67,10 +67,20 @@ DateFunctions enable you to generate and manipulate dates dynamically in various
 
 ## **Selecting DateFunctions as a Function Type for Data Generator**
 
-1. Use **NLP** to create a **new step** in the test case and include a placeholder for **test data**.
-2. Click on the **test data** placeholder. From the **Test Data Types** dropdown menu, select the **! Data Generator** option.
-3. On the **! Data Generators** overlay screen, select the **Type** to **Default**. This will enable you to use a collection of built-in test data generators.
-4. Select **DateFunctions** from the **Function Type** dropdown list. ![select datefunctions function type from data generators](https://s3.amazonaws.com/static-docs.testsigma.com/new_images/projects/applications/datefuntions_functiontype_dg.gif)
+1. From the left navigation bar, go to **Create Tests > Test Cases** and create a new test case.
+![Test Case](https://s3.amazonaws.com/static-docs.testsigma.com/new_images/projects/test_data/update_datefunction_1.png)
+
+2. Use **NLP** to create a **new step** in the test case and include a placeholder for **test data**.
+![NLP](https://s3.amazonaws.com/static-docs.testsigma.com/new_images/projects/test_data/update_datefunction_2.png)
+
+3. Click on the **test data** placeholder. From the **Test Data Types** dropdown menu, select the **! Data Generator** option.
+![Data Generator](https://s3.amazonaws.com/static-docs.testsigma.com/new_images/projects/test_data/update_datefunction_3.png)
+
+4. On the **! Data Generators** overlay screen, select the **Type** to **Default**. This will enable you to use a collection of built-in test data generators.
+![Default](https://s3.amazonaws.com/static-docs.testsigma.com/new_images/projects/test_data/update_datefunction_4.png)
+
+5. Select **DateFunctions** from the **Function Type** dropdown list. 
+![select datefunctions function type from data generators](https://s3.amazonaws.com/static-docs.testsigma.com/new_images/projects/test_data/update_datefunction_5.png)
 
 [[info | NOTE:]]
 | This action will display a list of built-in functions associated with the DateFunctions function type, enabling you to select the appropriate function based on your requirements.

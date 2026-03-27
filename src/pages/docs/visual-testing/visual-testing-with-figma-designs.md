@@ -13,9 +13,6 @@ contextual_links:
   name: "Prerequisites"
   url: "#prerequisites"
 - type: link
-  name: "Interactive Demo"
-  url: "#interactive-demo"
-- type: link
   name: "Visual Testing Using Figma"
   url: "#visual-testing-using-figma"
 ---
@@ -34,39 +31,30 @@ You can now compare test execution screenshots with original design files in Fig
 >
 > Before you begin, ensure that you have referred to:
 > 1. [Documentation on configuring visual testing](https://testsigma.com/docs/visual-testing/configure-test-steps/).
-
----
-
-## **Interactive Demo**
-
-Try this interactive demo to learn how to perform visual testing with Figma designs!
-
-<div>
-  <script async src="https://js.storylane.io/js/v2/storylane.js"></script>
-  <div class="sl-embed" style="position:relative;padding-bottom:calc(57.41% + 25px);width:100%;height:0;transform:scale(1)">
-    <iframe loading="lazy" class="sl-demo" src="https://app.storylane.io/demo/wxomztweml0o?embed=inline" name="sl-embed" allow="fullscreen" allowfullscreen style="position:absolute;top:0;left:0;width:100%!important;height:100%!important;border:1px solid rgba(63,95,172,0.35);box-shadow: 0px 0px 18px rgba(26, 19, 72, 0.15);border-radius:10px;box-sizing:border-box;"></iframe>
-  </div>
-</div>
  
-
-
 ---
 
 ## **Visual Testing Using Figma**
 
 1. From the left navigation bar, go to **Create Tests > Test Cases**.
+![Test Cases](https://s3.amazonaws.com/static-docs.testsigma.com/new_images/projects/visual_testing/update_visual_figma_1.png)
 
 2. Create a test case or open an existing test case.
 
 3. Click the **Kebab menu** next to the test step, and then select **Enable Visual Testing** from the dropdown menu.
+![Enable Visual Testing](https://s3.amazonaws.com/static-docs.testsigma.com/new_images/projects/visual_testing/update_visual_figma_2.png)
 
 4. Click **Update Step**.
+![Update Step](https://s3.amazonaws.com/static-docs.testsigma.com/new_images/projects/visual_testing/update_visual_figma_3.png)
 
 5. Hover over the test step, and then click the **Camera icon**. This will open the **Visual Difference – Figma** section.
+![Camera Icon](https://s3.amazonaws.com/static-docs.testsigma.com/new_images/projects/visual_testing/update_visual_figma_4.png)
 
-6. In the **Base Line Image** section, click **Add Devices**.
+6. In the **Base Line Image** section, click **Add Figma Designs**.
+![Add Figma Designs](https://s3.amazonaws.com/static-docs.testsigma.com/new_images/projects/visual_testing/update_visual_figma_5.png)
 
 7. In the **Add Devices** section, select the **Browser** and **Resolution** from the dropdown menus.
+![Resolution and Browser](https://s3.amazonaws.com/static-docs.testsigma.com/new_images/projects/visual_testing/update_visual_figma_6.png)
 
 [[info | **NOTE**:]]
 | 1. For Android and iOS, you need to select a mobile device with the necessary resolution.
@@ -75,11 +63,13 @@ Try this interactive demo to learn how to perform visual testing with Figma desi
 | 2. The same **Browser** and **Resolution** configured in visual testing must be selected during the **Ad-hoc Run** for accurate results.
 
 8. In the **Frame Link** text box, enter the Figma frame link, and then click **Refresh** to verify.
+![Refresh](https://s3.amazonaws.com/static-docs.testsigma.com/new_images/projects/visual_testing/update_visual_figma_7.png)
 
 [[info | **NOTE**:]]
 | Ensure that the Figma frame dimensions match your target device resolution.
 
 9. Click **Save**.
+![Save](https://s3.amazonaws.com/static-docs.testsigma.com/new_images/projects/visual_testing/update_visual_figma_8.png)
 
 10. Execute the test case. In the test step result, click the **Camera** icon, and then select the **Visual Difference – Figma** tab to view the visual testing results.
 
