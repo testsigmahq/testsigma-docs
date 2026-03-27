@@ -17,7 +17,6 @@ If you are new and want to see Testsigma in action try Testsigma by creating an 
 
 ## **Contributing**
 
-
 We love our contributors! If you'd like to contribute anything from updating existing docs to adding new docs, start here:
 
 - 📖 Read our [Contribution Guide](CONTRIBUTING.md)
