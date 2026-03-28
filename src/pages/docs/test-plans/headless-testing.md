@@ -51,20 +51,25 @@ This guide will explain how to do headless browser testing in Testsigma. It will
 
 ## **Enabling Headless Browser Testing in Test Case**
 
-Click the toggle button for **Headless Test** on the **Ad-hoc Run** page of the test case to enable headless testing for a specific test case. Then, start the test by clicking **Run Now**. ![Headless Test in Test Case](https://s3.amazonaws.com/static-docs.testsigma.com/new_images/projects/applications/headless_adhocrun.gif)
+Click the toggle button for **Headless Test** on the **Ad-hoc Run** page of the test case to enable headless testing for a specific test case. Then, start the test by clicking **Run Now**. 
+![Headless Test in Test Case](https://s3.amazonaws.com/static-docs.testsigma.com/new_images/projects/test_plan/update_headless_1.png)
 
 ---
 
 ## **Enabling Headless Browser Testing in Test Plan**
 
 1. Navigate to the **Add Test Suites & Link Machine Profiles** tab on the page for **Create** or **Edit Test Plan** to enable headless testing.
-2. Click on **Test Machine Settings** for the test machine to enable Headless Testing for the Test Plan. An overlay screen for **Editing the test machine/device profile** will appear. Then, enable the toggle for  **Headless Test** and click **Update Profile**. ![Headless in Test Plan](https://s3.amazonaws.com/static-docs.testsigma.com/new_images/projects/applications/headless_testplan.gif)
+![Test Plan](https://s3.amazonaws.com/static-docs.testsigma.com/new_images/projects/test_plan/update_headless_2.png)
+
+2. Click on **Test Machine Settings** for the test machine to enable Headless Testing for the Test Plan. An overlay screen for **Editing the test machine/device profile** will appear. Then, enable the toggle for  **Headless Test** and click **Update Profile**.
+![Headless in Test Plan](https://s3.amazonaws.com/static-docs.testsigma.com/new_images/projects/test_plan/update_headless_3.png)
 
 ---
 
 ## **Results of Headless Browser Testing**
 
-After running the test case, click the **Watch Video** button on the test execution results page to check if the browser was running in headless mode. Please note that Testsigma does not record videos during headless testing. ![Results of Headless Test](https://s3.amazonaws.com/static-docs.testsigma.com/new_images/projects/applications/view_headlesstesting.gif)
+After running the test case, click the **Watch Video** button on the test execution results page to check if the browser was running in headless mode. Please note that Testsigma does not record videos during headless testing. 
+![Results of Headless Test](https://s3.amazonaws.com/static-docs.testsigma.com/new_images/projects/test_plan/update_headless_4.png)
 
 ---
 

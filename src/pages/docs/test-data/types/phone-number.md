@@ -50,11 +50,12 @@ Let’s add 2FA for a test case which includes 2 steps:
 ---
 
 ## **Using Phone Number Type Test Data**
+
 1. Navigate to your test case, add a test step with the NLP ‘Enter ***test data*** in the ***element*** field’. 
-![Test Step NLP](https://s3.amazonaws.com/static-docs.testsigma.com/new_images/projects/applications/PhNoNLP.png)
+![Test Step NLP](https://s3.amazonaws.com/static-docs.testsigma.com/new_images/projects/test_data/update_phone_number_1.png)
 
 2. Hover over the ***test data*** and select ***% Phone Number*** from the drop down. An overlay showing the list of available phone numbers (allocated to your account) would open up.
-![Phone Number](https://s3.amazonaws.com/static-docs.testsigma.com/new_images/projects/applications/phnodropdown.png)
+![Phone Number](https://s3.amazonaws.com/static-docs.testsigma.com/new_images/projects/test_data/update_phone_number_3.png)
 
 3. Select one of the numbers from the list. This is the number where the OTP SMS will be sent.
 
@@ -63,10 +64,10 @@ We will use the test data generators available in Testsigma to fetch the OTP fro
 4. Add a test step with the NLP ‘Enter ***test data*** in the ***element*** field’.
 
 5. Hover over the ***test data*** and select ***! Data Generator*** from the drop down.  An overlay showing the list of available data generators would open up.
-![Data Generator](https://s3.amazonaws.com/static-docs.testsigma.com/new_images/projects/applications/datadgenNLP.png)
+![Data Generator](https://s3.amazonaws.com/static-docs.testsigma.com/new_images/projects/test_data/update_phone_number_2.png)
 
 6. Select the **PhoneNumberFunctions** in ***Function Type** dropdown menu, enter the details, and click on **Save**. 
-![PhoneNumberFubctions](https://s3.amazonaws.com/static-docs.testsigma.com/new_images/projects/applications/phdatagensave.png)
+![PhoneNumberFubctions](https://s3.amazonaws.com/static-docs.testsigma.com/new_images/projects/test_data/update_phone_number_4.png)
 
 
 We have successfully created a test case for 2FA authentication. 
@@ -130,19 +131,7 @@ Here's a GIF demonstrating how to install, add phone numbers, and set up filters
 
 ## **Use Case for Message Forwarding**
 
-1. Navigate to the URL
-  
-2. Click on Login or Sign Up
-
-3. Enter phone number in the phone number input field
-
-4. Wait for 30 Seconds
-
-5. Use Data Generator to Fetch OTP
-
-6. Submit OTP
-
-Here's a quick GIF demonstrating how to create test case after setting up sms forwarder app.  
-![SMS Forward Use Case](https://s3.amazonaws.com/static-docs.testsigma.com/new_images/projects/applications/SMSFORWARD2.gif)
+Follow the test steps mentioned in the following screenshot to forward messages:
+![SMS Test Case](https://s3.amazonaws.com/static-docs.testsigma.com/new_images/projects/test_data/update_phone_number_5.png)
 
 ---

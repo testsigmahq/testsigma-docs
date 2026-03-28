@@ -24,16 +24,16 @@ Parameters in Testsigma are variables used to customize test cases for different
 1. Create a **Test Data Profile**. For more information on creating test data profiles, refer to the [documentation on creating test data profiles](https://testsigma.com/docs/test-data/create-data-profiles/). Alternatively, you can also import a Test Data Profile. 
 
 2. Create a **Test Case** and associate **Test Data Profile** from **Test Case Settings**. For more information on creating test cases, refer to the [documentation on creating test case](https://testsigma.com/docs/test-cases/manage/add-edit-delete/#creating-a-test-case).
-![Test Case Settings](https://s3.amazonaws.com/static-docs.testsigma.com/new_images/projects/applications/prmtcs.png)
+![Test Case Settings](https://s3.amazonaws.com/static-docs.testsigma.com/new_images/projects/test_data/update_parameter_1.png)
 
 3. In your test steps, use *‘Enter ***test data*** in the ***element*** field’* NLP. 
-![NLP](https://s3.amazonaws.com/static-docs.testsigma.com/new_images/projects/applications/prmnlp.png)
+![NLP](https://s3.amazonaws.com/static-docs.testsigma.com/new_images/projects/test_data/update_parameter_2.png)
 
 4. Click on **test data** and select **Parameter** from the drop-down.
-![Dropdown](https://s3.amazonaws.com/static-docs.testsigma.com/new_images/projects/applications/prmprmdd.png)
+![Dropdown](https://s3.amazonaws.com/static-docs.testsigma.com/new_images/projects/test_data/update_parameter_3.png)
 
 5. On **Parameter** overlay, choose the parameter you want to use in your test case.  
-![Overlay](https://s3.amazonaws.com/static-docs.testsigma.com/new_images/projects/applications/prmoverlay.png)
+![Overlay](https://s3.amazonaws.com/static-docs.testsigma.com/new_images/projects/test_data/update_parameter_4.png)
 
 [[info | **NOTE**:]]
 | You can also associate test data profile with pre-existing test case from **Test Case Settings**.
