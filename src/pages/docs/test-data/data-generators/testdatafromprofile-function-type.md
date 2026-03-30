@@ -41,7 +41,7 @@ TestDataFromProfile functions enable users to retrieve specific test data from d
 
 ## **Selecting TestDataFromProfile as a Function Type for Data Generator**
 
-1. 1. From the left navigation bar, go to **Create Tests > Test Cases** and create a new test case.
+1. From the left navigation bar, go to **Create Tests > Test Cases** and create a new test case.
 ![Test Case](https://s3.amazonaws.com/static-docs.testsigma.com/new_images/projects/test_data/update_namefunction_1.png)
 
 2. Use **NLP** to create a **new step** in the test case and include a placeholder for **test data**.
