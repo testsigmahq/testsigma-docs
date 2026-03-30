@@ -68,7 +68,7 @@ In Testsigma, you can handle and use specific sets of test data linked to differ
 ## **Use Environment in Ad-hoc Run page**
 
 1. On the **Ad-hoc Run** page, click the right arrow before **Additional Settings** to reveal the feature.
-2. Select **Environmet** from the drop-down list. 
+2. Select **Environment** from the drop-down list. 
 ![Environment in Ad-hoc Run](https://s3.amazonaws.com/static-docs.testsigma.com/new_images/projects/test_data/update_environment_4.png)
 
 ---
