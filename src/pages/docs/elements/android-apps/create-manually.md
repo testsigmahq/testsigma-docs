@@ -50,7 +50,7 @@ In Testsigma, you can also create elements manually for your android project wit
 ![Create Element](https://s3.amazonaws.com/static-docs.testsigma.com/new_images/projects/elements/update_android_elements_2.png)
 
 3. In the **Create Element** overlay, you can see the following fields:
-![Overlay](hhttps://s3.amazonaws.com/static-docs.testsigma.com/new_images/projects/elements/update_android_elements_3.png)
+![Overlay](https://s3.amazonaws.com/static-docs.testsigma.com/new_images/projects/elements/update_android_elements_3.png)
     - **Name:** Enter the name you want to give your element.
     - **Screen Name:** Mention the screen that your element resides on.
     - **Element Type:** There are 5 types of element types supported in Testsigma. This field is a drop-down list; you can select any of them: **XPATH**, **ID**, **Name**, **Class Name**, or **Accessibility ID**.
