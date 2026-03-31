@@ -76,7 +76,7 @@ In Testsigma, you can also create elements manually for your android project wit
 
 2. Add a test step to the test case that contains an element. 
 
-3. Hover over the ***element*** and select **Create Element** from the dropdown.
+3. Hover over the ***element*** and select **Create** from the dropdown.
 ![Dropdown](https://s3.amazonaws.com/static-docs.testsigma.com/new_images/projects/elements/update_android_elements_7.png)
 
 Follow the steps 3-5 from above section to create an element manually. 
