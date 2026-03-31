@@ -84,7 +84,7 @@ Testsigma Mantis integration lets you create issues directly from the Testsigma 
 ![Report Bug](https://s3.amazonaws.com/static-docs.testsigma.com/new_images/projects/integrations/update_backlog_7.png)
 
 [[info | NOTE:]]
-| - Only the bug reporting tools that have been enabled via the plugins page (add link) will be displayed here. 
+| - Only the bug reporting tools that have been enabled via the plugins page will be displayed here. 
 | - If you want to link to an existing issue on Backlog, click on the **Link to Issue** button, search for an existing issue in the search field, and click on **Link Issue** to add a link to an existing Issue on Backlog. 
 
 When the bug is created, some additional details regarding the test result, such as the test execution video and step screenshots, are automatically added to the issue on Backlog by Testsigma. This helps the developer who checks the issue in Backlog better understand the issue/bug with more context.
