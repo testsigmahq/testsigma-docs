@@ -63,7 +63,7 @@ Testsigma Mantis integration lets you create issues directly from the Testsigma 
 2. Enable toggle on **Backlog** widget.
 ![Backlog](https://s3.amazonaws.com/static-docs.testsigma.com/new_images/projects/integrations/update_backlog_2.png)
 
-3. In the **Backlog details** dialog, **Account URL**, **API Key** and click on **Save & Enable**.
+3. In the **Backlog details** dialog, enter **Account URL** and **API Key**, and click on **Save & Enable**.
 ![Details](https://s3.amazonaws.com/static-docs.testsigma.com/new_images/projects/integrations/update_backlog_3.png)
 
 
