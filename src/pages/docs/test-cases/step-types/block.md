@@ -80,7 +80,7 @@ Follow the below steps to add a block using the bulk action:
 2. Click the **Create Block** option in the menu bar, and a **Create Block** pop-up window will appear. Enter the **title** and click **Create**.
 ![Create block](https://s3.amazonaws.com/static-docs.testsigma.com/new_images/projects/test_cases/update_blocks_6.png)
 
-3. Click the **>** icon on the left to see the selected steps to make a collapsed block with the given title. 
+3. Click the **>** icon on the left to expand and view the selected steps within the collapsed block with the given title.
 ![Block in Bulk Action](https://s3.amazonaws.com/static-docs.testsigma.com/new_images/projects/test_cases/update_blocks_7.png)
 
 [[info | NOTE:]]
