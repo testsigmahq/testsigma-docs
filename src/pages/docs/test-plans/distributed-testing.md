@@ -44,44 +44,30 @@ Distributed testing is achieved in Testsigma by splitting up test plan execution
 ## **Steps to enable distributed testing**
 
 1. Navigate to **Test Plans** and click on **Create Test Plan**.
-
-![Test Plan](https://s3.amazonaws.com/static-docs.testsigma.com/new_images/projects/applications/ditenav.png)
+![Test Plan](https://s3.amazonaws.com/static-docs.testsigma.com/new_images/projects/test_plans/update_distributed_2.png)
 
 2. On the **Create Test Plan** page, select **Custom test plan** from **Test Plan Type**.
-
-![Create Test Plan](https://s3.amazonaws.com/static-docs.testsigma.com/new_images/projects/applications/ditecustomtp.png)
+![Create Test Plan](https://s3.amazonaws.com/static-docs.testsigma.com/new_images/projects/test_plans/update_distributed_3.png)
 
 3. Click on **Add Test Suites & Link Machine Profiles**.
-
-![Link Machines](https://s3.amazonaws.com/static-docs.testsigma.com/new_images/projects/applications/ditelmachines.png)
+![Link Machines](https://s3.amazonaws.com/static-docs.testsigma.com/new_images/projects/test_plans/update_distributed_4.png)
 
 4. Click on **Add Test Suites**.
-
-![Add Test Suites](https://s3.amazonaws.com/static-docs.testsigma.com/new_images/projects/applications/diteaddts.png)
+![Add Test Suites](https://s3.amazonaws.com/static-docs.testsigma.com/new_images/projects/test_plans/update_distributed_5.png)
 
 5. Select test suites and click on **Add to Plan**.
-
-![Add to Plan](https://s3.amazonaws.com/static-docs.testsigma.com/new_images/projects/applications/diteatp.png)
+![Add to Plan](https://s3.amazonaws.com/static-docs.testsigma.com/new_images/projects/test_plans/update_distributed_6.png)
 
 6. Click on **Test Machine** to add test machines to run the test suite. 
-
-![Add Machines](https://s3.amazonaws.com/static-docs.testsigma.com/new_images/projects/applications/ditemachines.png)
+![Add Machines](https://s3.amazonaws.com/static-docs.testsigma.com/new_images/projects/test_plans/update_distributed_8.png)
 
 7. On **Select test machine profiles** overlay, select test machines and click on **Save selections**. 
-
-![Overlay](https://s3.amazonaws.com/static-docs.testsigma.com/new_images/projects/applications/ditetmoverlay.png)
+![Overlay](https://s3.amazonaws.com/static-docs.testsigma.com/new_images/projects/test_plans/update_distributed_9.png)
 
 [[info | **NOTE**:]]
 | For distributed testing, you must select different test suites for different test machines. You can hover over the test suite and click on the test machine corresponding to it to add a different test machine to the test suite. 
 
 8. Go to **Test Plan Settings** and click on **Create**. 
-![Create](https://s3.amazonaws.com/static-docs.testsigma.com/new_images/projects/applications/ditecocreate.png)
-
-
-<br>
-
-Here’s a quick GIF demonstrating how to create distributed testing in Testsigma.
-
-![Distributed Testing](https://s3.amazonaws.com/static-docs.testsigma.com/new_images/projects/applications/DistributedTesting.gif)
+![Create](https://s3.amazonaws.com/static-docs.testsigma.com/new_images/projects/test_plans/update_distributed_10.png)
 
 ---

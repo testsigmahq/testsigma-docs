@@ -58,7 +58,7 @@ With AWS Lambda, you can run code for virtually any application or backend servi
 
 
 The URL details for the test plan can be taken from **REST API call to start Test Plan** section in Testsigma.
-![Get Test Plan ID](https://s3.amazonaws.com/static-docs.testsigma.com/new_images/projects/applications/trineid.png)
+![Get Test Plan ID](https://s3.amazonaws.com/static-docs.testsigma.com/new_images/projects/continuous_integration/update_awslambda_1.png)
 
 
 6. Click on **TEST** at the top right corner to trigger the Test Plan.
