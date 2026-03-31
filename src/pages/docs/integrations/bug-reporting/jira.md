@@ -84,7 +84,7 @@ You can integrate Testsigma with Jira to push bugs directly to your Jira project
 2. Click **Report Bug**.
    ![Report Bug](https://s3.amazonaws.com/static-docs.testsigma.com/new_images/projects/Updated_Doc_Images/Report_Bug_From_Test_Result.png)
 
-3. In the report overlay, click the **Jira** icon.
+3. In the **Report** overlay, click the **Jira** icon.
    ![Jira Icon from Overlay](https://s3.amazonaws.com/static-docs.testsigma.com/new_images/projects/Updated_Doc_Images/Jira_Icon_from_Overlay.png)
 
 4. In the **Create New Bug** overlay, review the details and click **Report Bug**.

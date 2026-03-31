@@ -46,7 +46,8 @@ Running tests in parallel allows multiple tests to run simultaneously, which red
 4. On the **Edit Test Machine or Device Profile** overlay, select the checkboxes for below:
    - **Run Test Suites in Parallel**: Lets you run multiple test suites at the same time.
    - **Run Test Cases inside the Test Suite in Parallel**: Lets you run multiple test cases within a test suite at the same time.
-5. Click **Create** or **Update Profile** to save the configuration. ![configure parallel test execution](https://s3.amazonaws.com/static-docs.testsigma.com/new_images/projects/applications/configure_parallel_test_execution.gif)
+5. Click **Create** or **Update Profile** to save the configuration. 
+![configure parallel test execution](https://s3.amazonaws.com/static-docs.testsigma.com/new_images/projects/test_plans/update_parallel_runs_1.png)
 
 [[info | NOTE:]]
 | - When you add a new machine to a test suite, the **Run in Parallel** checkbox is selected by default.
@@ -104,7 +105,8 @@ Adding backup devices ensures that tests run smoothly even if the primary device
 2. If you have already set up the test machine, click the **Settings** icon under the **Test Machine** tab. Alternatively, click the **Link to Test Machine** icon to add a new machine profile to the test suite.
 3. On the **Edit Test Machine or Device Profile** overlay, click **Add Backup Devices** under **Select Backup Devices**. 
 4. Choose the **OS** and **Version**, then select the **Device** from the dropdown menu. 
-5. You can add multiple backup devices and then click **Create** or **Update Profile**. ![adding backup devices](https://s3.amazonaws.com/static-docs.testsigma.com/new_images/projects/applications/adding_backup_devices.gif)
+5. You can add multiple backup devices and then click **Create** or **Update Profile**. 
+![adding backup devices](https://s3.amazonaws.com/static-docs.testsigma.com/new_images/projects/test_plans/update_parallel_runs_2.png)
 
 [[info | NOTE:]]
 | Click the **Delete** button next to the backup device you want to remove.

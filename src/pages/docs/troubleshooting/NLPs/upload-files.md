@@ -27,7 +27,7 @@ When there is a need to upload files to your Test Application, we can upload the
 
 1. Type uplaod and select the ***Upload file test data using the element*** NLP
 
-   ![Example](https://s3.amazonaws.com/static-docs.testsigma.com/new_images/projects/applications/uploadnlp.png)
+   ![Example](https://s3.amazonaws.com/static-docs.testsigma.com/new_images/projects/test_plans/update_upload_nlp_1.png)
 
 Replace the ***test data*** and with actual values. The test step will look similar to the following:
 

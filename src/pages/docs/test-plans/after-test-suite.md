@@ -28,31 +28,31 @@ AfterTest Suite in Testsigma lets you create a Test Suite specifically to execut
 ## **Steps to create AfterTest Suite**
 
 1. Navigate to **Test Suite**, and create a test suite.
-![Navigate to TS](https://s3.amazonaws.com/static-docs.testsigma.com/new_images/projects/applications/attsnav.png)
+![Navigate to TS](https://s3.amazonaws.com/static-docs.testsigma.com/new_images/projects/test_plans/update_after_suite_1.png)
 
 2. Click on **Test Suite settings** and enable **AfterTest Suite** toggle.
-![Test Suite Settings](https://s3.amazonaws.com/static-docs.testsigma.com/new_images/projects/applications/attstsset.png)
+![Test Suite Settings](https://s3.amazonaws.com/static-docs.testsigma.com/new_images/projects/test_plans/update_after_suite_2.png)
 
 
 [[info | **NOTE**:]]
 | 1. From the **When to Execute AfterTest Suite** dropdown,
 |     - You can select **Once After All Test Cases** to run AfterTest Suite after all Test cases are executed in a Test Suite. 'OR'
 |     - You can select **For Every Test Case** to run AfterTest Suite for each Test Case in a Test Suite.
-|      ![Dropdown](https://s3.amazonaws.com/static-docs.testsigma.com/new_images/projects/applications/attswtets.png)
+|      ![Dropdown](https://s3.amazonaws.com/static-docs.testsigma.com/new_images/projects/test_plans/update_after_suite_3.png)
 | 2. Also, from the **If AfterTest Suite fails** dropdown, 
 |     - Select **Show the test suite result**, if you want to see the test suite results.
 |     - If you want to mark the AfterTest Suite as failed if your test suite fails, you can select **Fail the test suite**.
-|      ![Dropdown 2](https://s3.amazonaws.com/static-docs.testsigma.com/new_images/projects/applications/attsitsfls.png)
+|      ![Dropdown 2](https://s3.amazonaws.com/static-docs.testsigma.com/new_images/projects/test_plans/update_after_suite_4.png)
 
 
 3. Click on **Add After Suite Test Cases**. This will open **Add After Suite Test Cases** prompt. 
-![Test Cases for ATS](https://s3.amazonaws.com/static-docs.testsigma.com/new_images/projects/applications/attstcsfats.png)
+![Test Cases for ATS](https://s3.amazonaws.com/static-docs.testsigma.com/new_images/projects/test_plans/update_after_suite_5.png)
 
 4. On **Add After Suite Test Cases** prompt, select test cases for AfterTest Suite and click on **Add to Suite**.
-![Test Cases Selection](https://s3.amazonaws.com/static-docs.testsigma.com/new_images/projects/applications/attstcssel.png)
+![Test Cases Selection](https://s3.amazonaws.com/static-docs.testsigma.com/new_images/projects/test_plans/update_after_suite_6.png)
 
 5. The selected test cases for AfterTest Suite will be executed after the test suite execution. 
-![Execution](https://s3.amazonaws.com/static-docs.testsigma.com/new_images/projects/applications/attsstcweats.png)
+![Execution](https://s3.amazonaws.com/static-docs.testsigma.com/new_images/projects/test_plans/update_after_suite_7.png)
 
 [[info | **NOTE**:]]
 | - If the test case is data driven or has pre-requisites, you can’t mark that test case for AfterTest Suite. 
