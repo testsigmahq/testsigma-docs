@@ -44,26 +44,26 @@ In Testsigma, you can also create elements manually for your android project wit
 ## **Steps to Create an Element**
 
 1. Navigate to **Create Tests > Elements**.
-![Elements](https://s3.amazonaws.com/static-docs.testsigma.com/new_images/projects/applications/cseapnavele.png)
+![Elements](https://s3.amazonaws.com/static-docs.testsigma.com/new_images/projects/elements/update_android_elements_1.png)
 
-2. Click on **Create Element**.
-![Create Element](https://s3.amazonaws.com/static-docs.testsigma.com/new_images/projects/applications/cemnave.png)
+2. Click **Create Element**.
+![Create Element](https://s3.amazonaws.com/static-docs.testsigma.com/new_images/projects/elements/update_android_elements_2.png)
 
-3. On **Create Element** overlay, you'll see the following fields:
-![Overlay](https://s3.amazonaws.com/static-docs.testsigma.com/new_images/projects/applications/cemceovr.png)
+3. In the **Create Element** overlay, you can see the following fields:
+![Overlay](https://s3.amazonaws.com/static-docs.testsigma.com/new_images/projects/elements/update_android_elements_3.png)
     - **Name:** Enter the name you want to give your element.
     - **Screen Name:** Mention the screen that your element resides on.
     - **Element Type:** There are 5 types of element types supported in Testsigma. This field is a drop-down list; you can select any of them: **XPATH**, **ID**, **Name**, **Class Name**, or **Accessibility ID**.
     - **Enter Value:** Enter the value corresponding to the **Element Type** you selected.
 
 4. Once you have added all the details, click on **Create element**.
-![Create](https://s3.amazonaws.com/static-docs.testsigma.com/new_images/projects/applications/cemcoce.png)
+![Create](https://s3.amazonaws.com/static-docs.testsigma.com/new_images/projects/elements/update_android_elements_4.png)
 
 5. The element will be saved in the elements list. 
 
 [[info | **NOTE**:]]
 | You can also create elements using the recorder by clicking on **Record Element** from the **Create Element** page. 
-| ![Recorder](https://s3.amazonaws.com/static-docs.testsigma.com/new_images/projects/applications/cemurecr.png)
+| ![Recorder](https://s3.amazonaws.com/static-docs.testsigma.com/new_images/projects/elements/update_android_elements_5.png)
 
 
 ---
@@ -72,14 +72,12 @@ In Testsigma, you can also create elements manually for your android project wit
 ## **Creating Element While Adding Test Steps**
 
 1. Navigate to **Create Tests > Test Cases**, click on **Create Test Case** or go to a pre-existing test case. 
-![Test Case](https://s3.amazonaws.com/static-docs.testsigma.com/new_images/projects/applications/cemnavtc.png)
-
+![Test Case](https://s3.amazonaws.com/static-docs.testsigma.com/new_images/projects/elements/update_android_elements_6.png)
 
 2. Add a test step to the test case that contains an element. 
 
-
-3. Hover over the ***element*** and select **Create Element** from the dropdown.
-![Dropdown](https://s3.amazonaws.com/static-docs.testsigma.com/new_images/projects/applications/cemcocelaa.png)
+3. Hover over the ***element*** and select **Create** from the dropdown.
+![Dropdown](https://s3.amazonaws.com/static-docs.testsigma.com/new_images/projects/elements/update_android_elements_7.png)
 
 Follow the steps 3-5 from above section to create an element manually. 
 
@@ -89,19 +87,19 @@ Follow the steps 3-5 from above section to create an element manually.
 
 
 1. Navigate to **Create Tests > Elements**.
-![Elements](https://s3.amazonaws.com/static-docs.testsigma.com/new_images/projects/applications/cseapnavele.png)
+![Elements](https://s3.amazonaws.com/static-docs.testsigma.com/new_images/projects/elements/update_android_elements_1.png)
 
 
 2. Hover over the element you want to update and click on the **kebab menu** to open a dropdown menu. Click on **Edit** from the dropdown.
-![Edit](https://s3.amazonaws.com/static-docs.testsigma.com/new_images/projects/applications/cemaaedit.png)
+![Edit](https://s3.amazonaws.com/static-docs.testsigma.com/new_images/projects/elements/update_android_elements_8.png)
 
 
 3. On the **Update Element** overlay, you can update the **Name**, **Screen Name**, select the **Element Type**. 
-![Update Element](https://s3.amazonaws.com/static-docs.testsigma.com/new_images/projects/applications/cemuelem.png) 
+![Update Element](https://s3.amazonaws.com/static-docs.testsigma.com/new_images/projects/elements/update_android_elements_9.png) 
 
 
 4. Click on **Update**.
-![Click on Update](https://s3.amazonaws.com/static-docs.testsigma.com/new_images/projects/applications/cemcouelem.png)
+![Click on Update](https://s3.amazonaws.com/static-docs.testsigma.com/new_images/projects/elements/update_android_elements_10.png)
 
 
 
@@ -110,15 +108,14 @@ Follow the steps 3-5 from above section to create an element manually.
 ## **Updating Multiple Elements**
 
 1. Navigate to **Create Tests > Elements**.
-![Elements](https://s3.amazonaws.com/static-docs.testsigma.com/new_images/projects/applications/cseapnavele.png)
+![Elements](https://s3.amazonaws.com/static-docs.testsigma.com/new_images/projects/elements/update_android_elements_1.png)
 
 2. Click on **Export**.
-![Export](https://s3.amazonaws.com/static-docs.testsigma.com/new_images/projects/applications/cemexpelm.png)
+![Export](https://s3.amazonaws.com/static-docs.testsigma.com/new_images/projects/elements/update_android_elements_11.png)
 
 3. In the downloaded XLSX file, update the required fields for the required elements.
 
 4. Click on **Import** and choose the updated XLSX file for import.
-![Import](https://s3.amazonaws.com/static-docs.testsigma.com/new_images/projects/applications/cemimpelem.png)
-
+![Import](https://s3.amazonaws.com/static-docs.testsigma.com/new_images/projects/elements/update_android_elements_12.png)
 
 ---
