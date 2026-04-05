@@ -26,7 +26,6 @@ jobs:
         run: |
           rm -rf .env
           touch .env
-          echo BUCKET_NAME=${{ secrets.WEBSITE_STAGING_BUCKET_NAME }} >> .env
           echo HOST_NAME=${{ secrets.WEBSITE_STAGING_HOST_NAME }} >> .env
           echo ASSET_HOST=${{ secrets.WEBSITE_STAGING_ASSET_HOST }} >> .env
           echo FRESHCHAT_TOKEN=${{ secrets.WEBSITE_STAGING_FRESHCHAT_TOKEN }} >> .env
@@ -48,10 +47,6 @@ jobs:
         run: |
           PREFIX_PATHS=true npm run build && npm run deploy
         env:
-          AWS_ACCESS_KEY_ID: ${{ secrets.WEBSITE_STAGING_AWS_ACCESS_KEY_ID }}
-          AWS_SECRET_ACCESS_KEY: ${{ secrets.WEBSITE_STAGING_AWS_SECRET_ACCESS_KEY }}
-          AWS_DEFAULT_REGION: 'us-east-1'
-          AWS_DEFAULT_OUTPUT: json
           TYPESENSE_HOST: ${{ secrets.WEBSITE_STAGING_TYPESENSE_HOST }}
           TYPESENSE_PORT: ${{ secrets.WEBSITE_STAGING_TYPESENSE_PORT }}
           TYPESENSE_PROTOCOL: ${{ secrets.WEBSITE_STAGING_TYPESENSE_PROTOCOL }}
