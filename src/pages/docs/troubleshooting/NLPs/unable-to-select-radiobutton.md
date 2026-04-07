@@ -2,7 +2,7 @@
 title: "Unable to Select Radiobutton"
 metadesc: "Follow these steps if you're unable to select a radio button | This article guides you to follow a few steps if you can't access radiobutton & continue testing."
 noindex: false
-order: 23.13
+order: 24.13
 page_id: "unable-to-select-radiobutton"
 warning: false
 ---

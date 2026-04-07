@@ -3,7 +3,7 @@ title: "Trigger Test Plans Remotely"
 page_title: "Trigger Test Plans remotely using Testsigma"
 metadesc: "How to trigger Test Plan Execution remotely using Testsigma REST API Endpoints, which is useful when you want to fully automate continuous testing within your CI/CD pipeline"
 noindex: false
-order: 21.4
+order: 22.4
 page_id: "trigger-test-plans-remotely"
 warning: false
 contextual_links:

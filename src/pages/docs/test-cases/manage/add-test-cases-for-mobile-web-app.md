@@ -20,7 +20,7 @@ contextual_links:
 
 Quickly create test cases for mobile web applications! 📱
 
-Using the Testsigma test recorder, you can easily create test cases for mobile web applications using Chrome Developer Tools 🛠️. This article discusses how to create test cases for mobile web applications.
+Using Atto and the generator agent, you can easily create test cases for mobile web applications using Chrome Developer Tools 🛠️. This article discusses how to create test cases for mobile web applications.
 
 ---
 

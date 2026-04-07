@@ -1,7 +1,7 @@
 ---
 title: "How Do I Fix the Try Again Error When Opening the Testsigma Desktop App?"
 metadesc: "Desktop app may fail to launch with a Try again error in Chrome 139+. This occurs when browser permission changes block pop-ups or local network access."
-order: 24.21
+order: 25.21
 page_id: "how-do-i-fix-the-try-again-error-when-opening-the-testsigma-desktop-app"
 warning: false
 contextual_links:

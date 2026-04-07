@@ -2,7 +2,7 @@
 title: "Why is Testsigma Agent Not Detecting My Installed Browser?"
 metadesc: "Fix browser detection issues in Testsigma when the Agent fails to locate web drivers like Chrome or Firefox, preventing proper scans and test execution."
 noindex: false
-order: 11.96
+order: 12.96
 page_id: "why-is-testsigma-agent-not-detecting-my-installed-browser-?"
 warning: false
 contextual_links:

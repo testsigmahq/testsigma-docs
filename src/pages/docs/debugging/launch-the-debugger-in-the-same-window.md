@@ -1,6 +1,6 @@
 ---
 title: "Launch Copilot in the Same Window"
-order: 36.3
+order: 11.3
 page_id: "launch-copilot-in-the-same-window"
 metadesc: "This article discusses in detail step-by-step guide on how to run tests in Copilot in the same window as well as new window in Testsigma application."
 search_keyword: ""

@@ -2,7 +2,7 @@
 title: "Configuring Local iOS Device with Provisioning Profile"
 page_title: "Configure Local iOS Device Provisioning Profile for Testing"
 metadesc: "Effortlessly configure your local iOS device with a provisioning profile to start. Follow steps for error-free testing and elevate your mobile app development."
-order: 19.5
+order: 20.5
 page_id: "creating-provisioning-profile-for-ios-app-testing"
 noindex: false
 search_keyword: ""

@@ -3,7 +3,7 @@ title: "Test Case Failures Due to Link Text Capture Issues"
 pagetitle: "Resolving Test Case Failures Due to Link Text Capture Issues"
 metadesc: "Test Case Failures due to link text capture issues? Learn how to fix mismatches between UI and HTML text in automated tests to avoid errors."
 noindex: false
-order: 24.17
+order: 25.17
 page_id: "test-case-failures-due-to-link-text-capture-issues"
 search_keyword: ""
 warning: false

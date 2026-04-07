@@ -2,7 +2,7 @@
 title: "Azure DevOps Integration"
 metadesc: "Azure DevOps Integration allows you to create a work item directly in your Azure project from Testsigma. Learn how to intergrate Azure DevOps with Testsigma"
 noindex: false
-order: 16.51
+order: 17.51
 page_id: "azure-devops-integration"
 warning: false
 contextual_links:

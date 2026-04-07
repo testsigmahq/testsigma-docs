@@ -3,7 +3,7 @@ title: "Setting Up Okta Single Sign-On Integration with SAML Login in Testsigma"
 page_title: "Configuring Okta SSO Integration with SAML in Testsigma"
 metadesc: "Single Sign-On (SSO) provides faster, easier, and trusted access to applications. Learn how to set up Single Sign-On (SSO) with SAML login easily in Testsigma."
 noindex: false
-order: 19.26
+order: 20.26
 page_id: "setting-up-okta-sso-with-saml-in-testsigma"
 search_keyword: ""
 warning: false
@@ -96,20 +96,20 @@ Here's an interactive demo:
 1. Log in to the <a href="https://www.okta.com/login" rel="nofollow">Okta Admin Console</a>. 
 [[info | NOTE:]]
 | Check with your IT team before proceeding, as they may have exclusive admin access to the IdP configuration.
-1. In the **Admin** Console, under **Applications**, click **Create App Integration**. Choose **SAML 2.0** and click **Next**.
-2. In **General Settings** tab fill below details and click **Next** to proceed.
+2. In the **Admin** Console, under **Applications**, click **Create App Integration**. Choose **SAML 2.0** and click **Next**.
+3. In **General Settings** tab fill below details and click **Next** to proceed.
     - **App Name**: Enter Application name, example **Testsigma**:
     - **App Logo and Visibility**: Upload the app logo if preferred. ![general okta settings](https://s3.amazonaws.com/static-docs.testsigma.com/new_images/projects/applications/okta_general_settings.gif)
-3. Configure **SAML Settings** and click **Next** to proceed:
-    - **Single Sign-On URL**: <a href="https://app.testsigma.com/saml/250/callback" rel="nofollow">https://app.testsigma.com/saml/250/callback</a>
-    - **Audience URI (SP Entity ID)**: <a href="https://app.testsigma.com/saml/250/metadata" rel="nofollow">https://app.testsigma.com/saml/250/metadata</a>
-    - **Default RelayState**: <a href="https://app.testsigma.com/ui/dashboard " rel="nofollow">https://app.testsigma.com/ui/dashboard</a>
+4. Configure **SAML Settings** and click **Next** to proceed:
+    - **Single Sign-On URL**: <a href="https://id.testsigma.com/saml/{SAML ID}/callback" rel="nofollow">https://id.testsigma.com/saml/{SAML ID}/callback</a>
+    - **Audience URI (SP Entity ID)**: <a href="https://id.testsigma.com/saml/{SAML ID}/metadata" rel="nofollow">https://id.testsigma.com/saml/{SAML ID}/metadata</a>
+    - **Default RelayState**: <a href="https://id.testsigma.com" rel="nofollow">https://id.testsigma.com</a>
     - **Name ID Format**: Select EmailAddress from dropdown.
     - **Application Username**: Okta username (default)
     - **Update Application Username On**: Create and update (default)
-4. Finish Setup by selecting **"I'm an OKTA User and add an Internal App"** and **"This is an internal app we have created"**. Click **Finish**. ![config saml okta](https://s3.amazonaws.com/static-docs.testsigma.com/new_images/projects/applications/config_saml_okta.gif)
-5. On the Sign-on methods page, click **View Setup Instructions**.
-6. Copy the **Identity Provider Issuer**, **Identity Provider Single Sign-On URL**, and **X.509 Certificate** for use in Testsigma.
+5. Finish Setup by selecting **"I'm an OKTA User and add an Internal App"** and **"This is an internal app we have created"**. Click **Finish**. ![config saml okta](https://s3.amazonaws.com/static-docs.testsigma.com/new_images/projects/applications/config_saml_okta.gif)
+6. On the Sign-on methods page, click **View Setup Instructions**.
+7. Copy the **Identity Provider Issuer**, **Identity Provider Single Sign-On URL**, and **X.509 Certificate** for use in Testsigma.
 
 ---
 

@@ -3,7 +3,7 @@ title: "Visual Testing with Figma Designs"
 pagetitle: "Visual Testing with Figma"
 metadesc: "Compare test execution screenshots with original design files in Figma by adding a design file link and configuring visual testing | Learn how to perform visual testing with Figma designs in Testsigma"
 noindex: false
-order: 14.2
+order: 15.2
 page_id: "visual-testing-with-figma-designs"
 warning: false
 contextual_links:

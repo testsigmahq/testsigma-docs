@@ -2,7 +2,7 @@
 title: "How to Turnoff Onboading Tutorial?"
 metadesc: "Tutorials help users understand how to get started with automation in Testsigma. This article discusses how to turn off onboarding tutorials"
 noindex: false
-order: 24.13
+order: 25.13
 page_id: "Turnoff onboading tutorial"
 warning: false
 contextual_links:

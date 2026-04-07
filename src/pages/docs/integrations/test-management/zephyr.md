@@ -3,7 +3,7 @@ title: "Zephyr Cloud Integration with Testsigma"
 page_title: "Zephyr Cloud Integration with Testsigma"
 metadesc: "Zephyr is a Test Management tool that gives the structure to organize, plan, and report the progress of testing. Learn how to integrate Zephyr with Testsigma Platform"
 noindex: false
-order: 16.59
+order: 17.59
 page_id: "zephyr-integration-with-testsigma"
 warning: false
 contextual_links:

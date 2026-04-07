@@ -1,7 +1,7 @@
 ---
 title: "Update Testsigma agent manually"
 metadesc: "In case the auto-update failures of Testsigma Agent due to bad network conditions or incorrect configuration, you can update the Agent manually."
-order: 11.8
+order: 12.8
 page_id: "update-testsigma-agent-manually"
 warning: false
 contextual_links:
