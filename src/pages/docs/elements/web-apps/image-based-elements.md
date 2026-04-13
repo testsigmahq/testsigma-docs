@@ -78,7 +78,7 @@ In Testsigma, you can create elements by capturing or uploading screenshots of t
 3. Click **Record** on the top right corner of the **Test Case** details page. This will open a new window.
 ![Record](https://s3.amazonaws.com/static-docs.testsigma.com/new_images/projects/test_cases/update_learn_elements_9.png)
 
-4. Enter the URL from which you want to capture the elements. The Testsigma **Test Rcorder** will appear and will be ready to start recording. Here, we entered the URL of Simply Travel Website.
+4. Enter the URL from which you want to capture the elements. The Testsigma **Test Recorder** will appear and will be ready to start recording. Here, we entered the URL of Simply Travel Website.
 ![Simply Travel Website](https://s3.amazonaws.com/static-docs.testsigma.com/new_images/projects/test_cases/update_learn_elements_10.png)
 
 5. Create a test step that includes the ***element***. Click the element, and from the dropdown, select **Create Element**. This will open the **Create Element** overlay.
