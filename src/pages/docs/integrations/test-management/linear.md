@@ -40,7 +40,7 @@ You can integrate Testsigma with Linear to push bugs directly to Linear’s proj
 2. Enable toggle on **Linear** widget. 
 ![Integrations](https://s3.amazonaws.com/static-docs.testsigma.com/new_images/projects/integrations/update_linear_n_1.png)
 
-3. In the **Linear Details** overlay, enter **API Key**, and click **Save & Enable**..
+3. In the **Linear Details** overlay, enter **API Key**, and click **Save & Enable**.
 ![Linear](https://s3.amazonaws.com/static-docs.testsigma.com/new_images/projects/integrations/update_linear_n_2.png)
 ---
 
