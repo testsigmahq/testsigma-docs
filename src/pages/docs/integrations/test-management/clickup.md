@@ -40,7 +40,7 @@ You can integrate Testsigma with Clickup to push bugs directly to Clickup’s pr
 ![Integrations](https://s3.amazonaws.com/static-docs.testsigma.com/new_images/projects/integrations/update_clickup_1.png)
 
 2. Enable toggle on **Clickup** widget.
-![Enable Toggle]()https://s3.amazonaws.com/static-docs.testsigma.com/new_images/projects/integrations/update_clickup_2.png
+![Enable Toggle](https://s3.amazonaws.com/static-docs.testsigma.com/new_images/projects/integrations/update_clickup_2.png)
 
 3. On the **ClickUp details** prompt, enter the **Personal Token** and click on **Save & Enable**.
 ![Save & Enable](https://s3.amazonaws.com/static-docs.testsigma.com/new_images/projects/integrations/update_clickup_3.png)
