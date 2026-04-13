@@ -31,7 +31,7 @@ There are two ways to upload files in Attachments.
 1. Navigate to **API Request** > **Body** > **form-data** tab.
 ![form-data](https://s3.amazonaws.com/static-docs.testsigma.com/new_images/projects/test_cases/update_attachments_1.png)
 
-2. Mouse Hover to the **key** field and click **File** from the dropdown list.
+2. Hover over the **Key** field and select **File** from the dropdown.
 ![Key](https://s3.amazonaws.com/static-docs.testsigma.com/new_images/projects/test_cases/update_attachments_2.png)
 
 3. Upload **file** in the **Value** field.
