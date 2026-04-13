@@ -29,16 +29,28 @@ There are two ways to upload files in Attachments.
 ## **Attach file from form-data**
 
 1. Navigate to **API Request** > **Body** > **form-data** tab.
+![form-data](https://s3.amazonaws.com/static-docs.testsigma.com/new_images/projects/test_cases/update_attachments_1.png)
 
-2. Mouse Hover, to the **key** field and click **File** from the dropdown list. Upload **file** in the **Value** field.
+2. Mouse Hover to the **key** field and click **File** from the dropdown list.
+![Key](https://s3.amazonaws.com/static-docs.testsigma.com/new_images/projects/test_cases/update_attachments_2.png)
 
-3. Click **Create** to upload the file in the **Attachments** tab. ![Attach file in form data](https://s3.amazonaws.com/static-docs.testsigma.com/new_images/projects/overview/attachment_formdata_restapi.gif)
+3. Upload **file** in the **Value** field.
+![File](https://s3.amazonaws.com/static-docs.testsigma.com/new_images/projects/test_cases/update_attachments_3.png)
+
+4. Click **Create** to upload the file in the **Attachments** tab.
+![Attach file in form data](https://s3.amazonaws.com/static-docs.testsigma.com/new_images/projects/test_cases/update_attachments_4.png)
 
 ---
 
 ## **Attach file from Binary**
 
 1. Navigate to **API Request** > **Body** > **Binary** tab.
-2. Upload **file**. Then, click **Create** to upload the file in the Attachments tab. ![Attach files in binary](https://s3.amazonaws.com/static-docs.testsigma.com/new_images/projects/overview/attachment_binary_restapi.gif)
+![Binary](https://s3.amazonaws.com/static-docs.testsigma.com/new_images/projects/test_cases/update_attachments_5.png)
+
+2. Upload **file**. 
+![File](https://s3.amazonaws.com/static-docs.testsigma.com/new_images/projects/test_cases/update_attachments_6.png)
+
+3. Click **Create** to upload the file in the Attachments tab. 
+![Attach files in binary](https://s3.amazonaws.com/static-docs.testsigma.com/new_images/projects/test_cases/update_attachments_7.png)
 
 ---

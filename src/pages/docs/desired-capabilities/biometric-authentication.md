@@ -51,34 +51,23 @@ In order to Add Biometric Authentication for Android and iOS apps, we can use th
 ## **Using Biometric Authentication Desired Capability**
 
 1. Click on **Run** from the **Test Case Details** page. 
-![Run Test Case](https://s3.amazonaws.com/static-docs.testsigma.com/new_images/projects/applications/barnow.png)
+![Run Test Case](https://s3.amazonaws.com/static-docs.testsigma.com/new_images/projects/desired_capabilities/update_biometric_1.png)
 
 
 2. On the **Ad-Hoc Run** overlay, click on **Desired Capabilities**.
-![Ad Hoc Run](https://s3.amazonaws.com/static-docs.testsigma.com/new_images/projects/applications/baahrp.png)
+![Ad Hoc Run](https://s3.amazonaws.com/static-docs.testsigma.com/new_images/projects/desired_capabilities/update_biometric_2.png)
 
 
 3. Enter ***testsigma.allowTouchIdEnroll*** in the **Key** field, select ***Boolean*** as the **Data type**, and set the **Value** as ***True***.
-![Capability Details](https://s3.amazonaws.com/static-docs.testsigma.com/new_images/projects/applications/biadcdetails.png)
+![Capability Details](https://s3.amazonaws.com/static-docs.testsigma.com/new_images/projects/desired_capabilities/update_biometric_3.png)
 
 
 4. Click on **Run Now** to execute the test case. 
-![Run Now](https://s3.amazonaws.com/static-docs.testsigma.com/new_images/projects/applications/barunnw.png)
+![Run Now](https://s3.amazonaws.com/static-docs.testsigma.com/new_images/projects/desired_capabilities/update_biometric_4.png)
 
 
 [[info | **NOTE**:]]
 | This capability is available only in Testsigma Lab and is not supported in local execution.
 
 
-
-Here’s a quick GIF demonstrating how to set the biometric authentication capability.
-
-![Biometric Authentication](https://s3.amazonaws.com/static-docs.testsigma.com/new_images/projects/applications/BiometricAuth-min.gif)
-
-
-
-
 ---
-
-
-

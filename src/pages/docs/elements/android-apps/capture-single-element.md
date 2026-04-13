@@ -42,7 +42,7 @@ In an Android project in Testsigma, you can selectively capture elements one at 
 ## **Steps to Record an Element**
 
 1. From the left navigation bar, go to **Create Tests > Elements**.
-![Elements](https://s3.amazonaws.com/static-docs.testsigma.com/new_images/projects/applications/reandnavelm.png)
+![Elements](https://s3.amazonaws.com/static-docs.testsigma.com/new_images/projects/elements/update_ca_1.png)
 
 
 2. Click on **Record**.
