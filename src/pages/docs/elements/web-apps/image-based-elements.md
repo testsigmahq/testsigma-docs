@@ -109,7 +109,7 @@ In Testsigma, you can create elements by capturing or uploading screenshots of t
 ## **Best Practices for Image Based Element Creation**
 
 1. Image-based element creation is automatically disabled for NLPs that directly interact with HTML because they leverage HTML attributes for precise element identification.
-   ![Example](hhttps://s3.amazonaws.com/static-docs.testsigma.com/new_images/projects/test_cases/update_learn_elements_15.png)
+   ![Example](https://s3.amazonaws.com/static-docs.testsigma.com/new_images/projects/test_cases/update_learn_elements_15.png)
 
 2. Since image based element creation depends on pixel accuracy, we recommend capturing screenshots using inbuilt snipping tools for more precision.
    
