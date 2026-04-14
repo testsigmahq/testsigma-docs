@@ -26,6 +26,7 @@ jobs:
         run: |
           rm -rf .env
           touch .env
+          echo BUCKET_NAME=${{ secrets.WEBSITE_STAGING_BUCKET_NAME }} >> .env
           echo HOST_NAME=${{ secrets.WEBSITE_STAGING_HOST_NAME }} >> .env
           echo ASSET_HOST=${{ secrets.WEBSITE_STAGING_ASSET_HOST }} >> .env
           echo FRESHCHAT_TOKEN=${{ secrets.WEBSITE_STAGING_FRESHCHAT_TOKEN }} >> .env
