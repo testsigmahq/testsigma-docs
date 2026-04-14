@@ -3,6 +3,10 @@ on:
   push:
     branches:
       - 'dev'
+permissions:
+  id-token: write
+  contents: read
+
 jobs:
   StagingDeploy:
     runs-on: ubuntu-latest
