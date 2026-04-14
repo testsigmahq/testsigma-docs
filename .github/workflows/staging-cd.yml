@@ -53,6 +53,7 @@ jobs:
           role-to-assume: ${{ secrets.WEBSITE_AWS_GITHUB_OIDC_ROLE_ARN }}
           role-session-name: GitHub_to_AWS_via_FederatedOIDC
           aws-region: 'us-east-1'
+          audience: sts.amazonaws.com
           
       - name: Set environment
         run: |
