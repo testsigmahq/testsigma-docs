@@ -3,7 +3,6 @@ on:
   push:
     branches:
       - 'dev'
-permissions: write-all
 jobs:
   StagingDeploy:
     runs-on: ubuntu-latest
