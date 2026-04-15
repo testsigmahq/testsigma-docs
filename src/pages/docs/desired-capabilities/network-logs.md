@@ -49,24 +49,30 @@ This documentation will guide you on how to enable the network log in Test Case 
 
 ## **Enable Network Logs in Test Case**
 
-1. Click **Run** in the top right corner of the screen on the Test Case details page.
-2. Select **BrowserStack** as a Test Lab on the **Ad-hoc Ru**n page on the right side of the screen, enable the **Network Log** toggle, and click **Run Now** to start Test Execution. ![Enable Network Log in Test Case](https://s3.amazonaws.com/static-docs.testsigma.com/new_images/projects/applications/networklogs_adhoc.gif)
+1. Click **Run** at the top-right corner of the Test Case details page.
+![Run](https://s3.amazonaws.com/static-docs.testsigma.com/new_images/projects/desired_capabilities/update_network_logs_1.1.png)
+
+2. In the **Ad-hoc Run** overlay, select **BrowserStack** as **Test Lab**.
+![BrowserStack](https://s3.amazonaws.com/static-docs.testsigma.com/new_images/projects/desired_capabilities/update_network_logs_2.png)
+
+3. Enable the **Network Log** toggle, and click **Run Now** to start test execution. 
+![Enable Network Log in Test Case](https://s3.amazonaws.com/static-docs.testsigma.com/new_images/projects/desired_capabilities/update_network_logs_3.png)
 
 ---
 
 ## **Enable Network Logs in Test Plan**
 
 1. Navigate to the **Add Test Suites & Link Machine Profiles** tab on the **Create** or **Edit Test Plan** page.
-2. Click the **Test Machine Settings** icon, and the **Adding** or **Editing Test Machine/Device Profiles** overlay will appear.
-3. On the **Add** or **Edit Machine/Device Profile** overlay, select Test Lab Type as **BrowserStack**, enable the **Network Log** toggle, and click **Create/Update**. 
-   <br>
+![Edit Test Plan](https://s3.amazonaws.com/static-docs.testsigma.com/new_images/projects/desired_capabilities/update_network_logs_4.png)
 
-<div style="position: relative; padding-bottom: 56.25%; height: 0; overflow: hidden;">
-  <iframe src="https://s3.amazonaws.com/static-docs.testsigma.com/new_images/projects/desired_capabilities/networklogstestplan.mp4" 
-          style="position: absolute; top: 0; left: 0; width: 100%; height: 100%; border: 0;" 
-          allowfullscreen>
-  </iframe>
-</div>
+2. Click the **Test Machine Settings** icon, and the **Add** or **Edit test machine/device profile** overlay will appear.
+![Test Machine Settings](https://s3.amazonaws.com/static-docs.testsigma.com/new_images/projects/desired_capabilities/update_network_logs_5.png)
+
+3. In the **Add** or **Edit test machine/device profile** overlay, select **BrowserStack** as **Test Lab**.
+![BrowserStack](https://s3.amazonaws.com/static-docs.testsigma.com/new_images/projects/desired_capabilities/update_network_logs_6.png)
+
+4. Enable the **Network Log** toggle, and click **Create/Update Profile**. 
+![Network Logs](https://s3.amazonaws.com/static-docs.testsigma.com/new_images/projects/desired_capabilities/update_network_logs_7.png)
 
 ---
 
@@ -74,16 +80,13 @@ This documentation will guide you on how to enable the network log in Test Case 
 
 After completing the test execution on the Run Test Case Page, you should follow these steps to access and analyse the captured network logs:
 
-1. Click the **Show Logs** button on the Run Results page and locate the section dedicated to **Network Logs** under the **Logs** tab.
-2. In the **Network Logs** Previews, you can see a summary of captured network activity, including request URLs, HTTP methods, status codes, and response sizes. Quickly scan through the logs to identify anomalies or errors in the network interactions.
-3. Click **Download Log** File at the top-right of the screen to retrieve the network log file in **HAR** format. You can then analyse the network logs offline. 
-    <br>
+1. Click the **Show Logs** button in the Run Results page. This opens the **Logs** page. 
+![Logs](https://s3.amazonaws.com/static-docs.testsigma.com/new_images/projects/desired_capabilities/update_network_logs_8.png)
 
-<div style="position: relative; padding-bottom: 56.25%; height: 0; overflow: hidden;">
-  <iframe src="https://s3.amazonaws.com/static-docs.testsigma.com/new_images/projects/desired_capabilities/viewnetworklogs.mp4" 
-          style="position: absolute; top: 0; left: 0; width: 100%; height: 100%; border: 0;" 
-          allowfullscreen>
-  </iframe>
-</div>
+2. The Logs page provides a centralized view where you can access **Appium**, **Device**, and **Network** logs helping you monitor different parts of test execution in one place.
+![Network](https://s3.amazonaws.com/static-docs.testsigma.com/new_images/projects/desired_capabilities/update_network_logs_9.png)
+
+3. Click **Download log file** at the top-right corner of the **Logs** screen to retrieve the network log file in **HAR** format. You can then analyse the network logs offline. 
+![Download log file](https://s3.amazonaws.com/static-docs.testsigma.com/new_images/projects/desired_capabilities/update_network_logs_10.png)
 
 ---

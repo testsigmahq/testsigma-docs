@@ -31,7 +31,6 @@ With **Testsigma Cloud**, you can create projects, applications, tests and view 
 <p id="prerequisites">Prerequisites</p>
 
 - You should have a Testsigma account. Go to [Testsigma signup](https://testsigma.com/signup) page to create an account.
-  ![Signup Page](https://s3.amazonaws.com/static-docs.testsigma.com/new_images/projects/applications/tssupage.png)
 
 ---
 

@@ -46,28 +46,23 @@ With Xray integration, you can link:
 >    - Client ID
 >    - Client Secret 
 
-*For more information on configuring global settings, refer to the *<a href="https://docs.getxray.app/display/XRAYCLOUD/Global+Settings%3A+API+Keys" rel="nofollow">documentation on configuring global settings</a>.* 
+*For more information on configuring global settings, refer to the <a href="https://docs.getxray.app/display/XRAYCLOUD/Global+Settings%3A+API+Keys" rel="nofollow">documentation on configuring global settings</a>.* 
 
 ---
  
 ## **Steps to Integrate Xray with Testsigma** 
 1. Navigate to **Settings > Integrations**.
-![Integrations](https://s3.amazonaws.com/static-docs.testsigma.com/new_images/projects/applications/xaryintn.png)
+![Integrations](https://s3.amazonaws.com/static-docs.testsigma.com/new_images/projects/integrations/update_xray_1.png)
 
-1. Enable toggle on **Xray** widget.
-![Xray Toggle](https://s3.amazonaws.com/static-docs.testsigma.com/new_images/projects/applications/xraytgl.png)
+2. Enable toggle on **Xray** widget.
+![Xray Toggle](https://s3.amazonaws.com/static-docs.testsigma.com/new_images/projects/integrations/update_xray_2.png)
 
-1. On the **Xray Details** prompt, enter **Jira Account URL**, **Client Id** and **Client Secret**.
-![Xray Details](https://s3.amazonaws.com/static-docs.testsigma.com/new_images/projects/applications/xraydtls.png)
-
-1. Click on **Save & Enable**.
-![Save & Enable](https://s3.amazonaws.com/static-docs.testsigma.com/new_images/projects/applications/xraadtls.png)
+3. In the **Xray Details** dialog, enter **Jira Account URL**, **Client Id** and **Client Secret**, and click **Save & Enable**.
+![Xray Details](https://s3.amazonaws.com/static-docs.testsigma.com/new_images/projects/integrations/update_xray_3.png)
 
 [[info | **NOTE**:]]
 | If you want to add attachments like logs, screenshots, and videos of execution for the test executions, please check the **Add Attachments to Test**.
 
-Here's a quick GIF demonstrating how to integrate Xray with Testsigma. 
-![Xray Integration](https://s3.amazonaws.com/static-docs.testsigma.com/new_images/projects/applications/xrayint.gif)
 
 ---
 
@@ -77,9 +72,9 @@ Here's a quick GIF demonstrating how to integrate Xray with Testsigma.
 
 2. Navigate to the test case details page corresponding to the test case you want to link with.
 
-3. Enter **Xray ID** and click on click on the link button. 
+3. Enter **Xray ID** and click **Link Test Case**. 
 
-![Xray Link](https://s3.amazonaws.com/static-docs.testsigma.com/new_images/projects/applications/xraylink2.png)
+![Xray Link](https://s3.amazonaws.com/static-docs.testsigma.com/new_images/projects/integrations/update_xray_4.png)
 
 ---
 
@@ -89,9 +84,9 @@ Here's a quick GIF demonstrating how to integrate Xray with Testsigma.
 
 2. Navigate to the test suite details page corresponding to the test suite you want to link with.
 
-3. Enter **Xray ID** and click on click on the link button. 
+3. Enter **Xray ID** and click on click the link button. 
 
-![Test Suite Link](https://s3.amazonaws.com/static-docs.testsigma.com/new_images/projects/applications/tspt11.png)
+![Test Suite Link](https://s3.amazonaws.com/static-docs.testsigma.com/new_images/projects/integrations/update_xray_5.png)
 
 [[info | **NOTE**:]]
 | For the test execution of all the test cases inside the test suite, the test cases should also be linked to appropriate test cases on Xray.
@@ -106,18 +101,12 @@ Here's a quick GIF demonstrating how to integrate Xray with Testsigma.
 2. Navigate to the test plan details page corresponding to the test plan you want to link with.
 
 
-3. Enter **Xray ID** and click on the link button.
+3. Enter **Xray ID** and click **Link Test Plan**.
 
-![Test Plan Xray ID](https://s3.amazonaws.com/static-docs.testsigma.com/new_images/projects/applications/tppt12.png)
+![Test Plan Xray ID](https://s3.amazonaws.com/static-docs.testsigma.com/new_images/projects/integrations/update_xray_6.png)
 
 [[info | **NOTE**:]]
 | When you execute a Test Plan in Testsigma, the execution status will be updated for the linked test sets in Xray. 
-
----
-
-Here's a quick GIF demonstrating how to link Xray IDs with Test Cases, Test Suites & Test Plans with Testsigma.
-
-![Xray Links](https://s3.amazonaws.com/static-docs.testsigma.com/new_images/projects/applications/tcstsstpsxray.gif)
 
 ---
 

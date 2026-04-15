@@ -61,7 +61,7 @@ zip -r addonName.zip . -x ".
 
 Navigate to the add-ons page, select the dropdown for your add-on, and click **Upload Code** option to upload the zipped file.
 
-![Upload code](https://s3.amazonaws.com/static-docs.testsigma.com/new_images/projects/overview/add_on_edit.png)
+![Upload code](https://s3.amazonaws.com/static-docs.testsigma.com/new_images/projects/addons/update_post_plan_hook_1.png)
 
 Other available options:<br>
     - **Manage Tags**: Add more tags and labels for categorising them. We can customise the action code.<br>
@@ -72,13 +72,13 @@ Other available options:<br>
 
 Once the code is uploaded, the add-on options dropdown will show an additional option, Publish
 
-![Publish addon](https://s3.amazonaws.com/static-docs.testsigma.com/new_images/projects/overview/publish_addon.png)
+![Publish addon](https://s3.amazonaws.com/static-docs.testsigma.com/new_images/projects/addons/update_post_plan_hook_2.png)
 
 If you select to publish your add-on, select one of the following on the Publish Add-on window:
     - **Public**: Choose this option if you want to make the add-on available to the testsigma community.
     - **Private**: Choose this option if you want to make the add-on available only to users in your organization.
 
-![publish addon in private or public](https://s3.amazonaws.com/static-docs.testsigma.com/new_images/projects/overview/publsh_add_on_pp.png)
+![publish addon in private or public](https://s3.amazonaws.com/static-docs.testsigma.com/new_images/projects/addons/update_post_plan_hook_3.png)
 
 Once requested for publishing, an automatic security check is done internally. Upon the successful completion of the security check, the add-on is published. In case of a security check failure, an email notification would be sent to the user.
 
@@ -89,6 +89,6 @@ Once requested for publishing, an automatic security check is done internally. U
 
 To try out the add-on you just created, create a new or open an existing test plan and add a test suite and test machine. Navigate to the **Test Plan Settings** tab and click the right arrow before **Hooks** to unhide the feature. Select the add-on and enter the inputs in the custom field.
 
-![Hook enable in testplan](https://s3.amazonaws.com/static-docs.testsigma.com/new_images/projects/overview/hookinput_testplan.png)
+![Hook enable in testplan](https://s3.amazonaws.com/static-docs.testsigma.com/new_images/projects/addons/update_post_plan_hook_4.png)
 
 ---

@@ -33,46 +33,36 @@ You can integrate Testsigma with Linear to push bugs directly to Linear’s proj
 ---
 
 ## **Steps to Integrate Testsigma with Linear**
+
 1. Navigate to **Settings > Integrations**. 
-![Integrations](https://s3.amazonaws.com/static-docs.testsigma.com/new_images/projects/applications/lrintset.png)
+![Integrations](https://s3.amazonaws.com/static-docs.testsigma.com/new_images/projects/integrations/update_clickup_1.png)
 
 2. Enable toggle on **Linear** widget. 
-![Linear](https://s3.amazonaws.com/static-docs.testsigma.com/new_images/projects/applications/lrtoggle.png)
+![Integrations](https://s3.amazonaws.com/static-docs.testsigma.com/new_images/projects/integrations/update_linear_n_1.png)
 
-3. On the **Linear Details** prompt, enter **API Key**.
-![API Key](https://s3.amazonaws.com/static-docs.testsigma.com/new_images/projects/applications/lrapikey.png)
-
-4. Click on **Save & Enable**.
-![Save](https://s3.amazonaws.com/static-docs.testsigma.com/new_images/projects/applications/lrsae.png)
-
-Here’s a quick GIF demonstrating how to integrate Testsigma with Linear. 
-![Integrate Linear](https://s3.amazonaws.com/static-docs.testsigma.com/new_images/projects/applications/linearenable.gif)
-
+3. In the **Linear Details** overlay, enter **API Key**, and click **Save & Enable**.
+![Linear](https://s3.amazonaws.com/static-docs.testsigma.com/new_images/projects/integrations/update_linear_n_2.png)
 ---
 
 ## **Creating a Bug**
+
 1. Navigate to **Run Results > Test Case Result**, where you want to add a bug.
-![Test Case details](https://s3.amazonaws.com/static-docs.testsigma.com/new_images/projects/applications/lrtcdetails.png)
+![API Key](https://s3.amazonaws.com/static-docs.testsigma.com/new_images/projects/integrations/update_linear_n_7.png)
 
 2. Click on **Report Bug**.
-![Report Bug](https://s3.amazonaws.com/static-docs.testsigma.com/new_images/projects/applications/lrrbug.png)
+![Test Case details](https://s3.amazonaws.com/static-docs.testsigma.com/new_images/projects/integrations/update_linear_n_3.png)
 
-3. On **Report** overlay, click on **Linear** icon. 
-![Report Bug Overlay](https://s3.amazonaws.com/static-docs.testsigma.com/new_images/projects/applications/lricon.png)
+3. In the **Report** overlay, click on **Linear** icon. 
+![Report Bug](https://s3.amazonaws.com/static-docs.testsigma.com/new_images/projects/integrations/update_linear_n_4.png)
 
-4. On the **Create New Issue** prompt, 
-    - Select the **Team & Project**. 
-    ![Team & Project](https://s3.amazonaws.com/static-docs.testsigma.com/new_images/projects/applications/lrtpro.png)
-    - Enter **Title & Description**.
-    ![Title & Descroption](https://s3.amazonaws.com/static-docs.testsigma.com/new_images/projects/applications/lrtad.png)
+4. In the **Report** prompt, review the details, and click **Report Bug**. 
+![Report Bug Overlay](https://s3.amazonaws.com/static-docs.testsigma.com/new_images/projects/integrations/update_linear_n_5.png)
 
-5. Click on **Create Ticket**.
-![Create Ticket](https://s3.amazonaws.com/static-docs.testsigma.com/new_images/projects/applications/lecticket.png)
 
 [[info | **NOTE**:]]
-| If you want to link to an existing issue on Linear, click on the Link to Issue, search for an existing issue in the search field and click on Link Issue to add a link to an existing Issue.
+| If you want to link to an existing issue on **Linear**, click the **Link to Issue** tab, search for an existing issue in the search field and click **Link To Ticket** to add a link to an existing Issue. 
+|![Link to issue](https://s3.amazonaws.com/static-docs.testsigma.com/new_images/projects/integrations/update_linear_n_6.png)
 
-Here’s a GIF demonstrating how to report bugs from Testsigma. 
-![Linear Bug](https://s3.amazonaws.com/static-docs.testsigma.com/new_images/projects/applications/linearbug.gif)
+
 
 ---

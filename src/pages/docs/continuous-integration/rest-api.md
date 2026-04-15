@@ -129,14 +129,14 @@ To execute a test plan with different Environments, you need to have an Environm
 
 2. On the Environment page, the <ENVIRONMENT\_ID> in the URL `https://app.testsigma.com/ui/td/88/environments/<ENVIRONMENT_ID>/details` is the ID of the environment. 
 
-![Environments](https://s3.amazonaws.com/static-docs.testsigma.com/new_images/projects/applications/ttpuapienv.png)
+![Environments](https://s3.amazonaws.com/static-docs.testsigma.com/new_images/projects/continuous_integration/update_integ_restapi_1.png)
 
 - For Example, if the URL is `https://app.testsigma.com/ui/td/88/environments/10/details`, the **ID** is **10**. 
 
 ### **Executing Tests Plans with Different Environments**
 
 1. Navigate to **Test Plans > Test Plan > CI/CD Integrations**, and copy **CURL request** under **REST API to integrate with other tools > REST API call to start Test Plan**.
-![CURL](https://s3.amazonaws.com/static-docs.testsigma.com/new_images/projects/applications/ttpuapicurl.png)
+![CURL](https://s3.amazonaws.com/static-docs.testsigma.com/new_images/projects/continuous_integration/update_integ_restapi_2.png)
 
 2. Provide the Environment ID in the request body. 
 
