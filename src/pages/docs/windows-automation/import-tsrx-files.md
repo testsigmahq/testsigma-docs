@@ -34,19 +34,26 @@ Once the TSRx file is ready, you can import it with just a few clicks and start 
 ## **Steps to Import TSRx File**
 
 1. From the left navigation bar, go to **Create Tests > Elements**.
+![Elements](https://s3.amazonaws.com/static-docs.testsigma.com/new_images/projects/windows_automation/update_import_tsrx_1.png)
 
-2. Click **Import elements** in the top right corner.
+2. Click **Import** at the top right corner of the Elements list page.
+![import](https://s3.amazonaws.com/static-docs.testsigma.com/new_images/projects/windows_automation/update_import_tsrx_2.png)
 
-3. In the **Import elements** dialog, click **Browse file**, select the **TSRx** file from your local system, and click **Import**.
+3. In the **Import** dialog, click **Browse file** and select a **TSRx** file from your local system. 
+![Tsrx file](https://s3.amazonaws.com/static-docs.testsigma.com/new_images/projects/windows_automation/update_import_tsrx_3.png)
 
-4. You can see the imported elements under **Create Tests > Elements**.
+4. In the **Import** dialog, under **How should we handle duplicates?**, select one of the following:
+   - **Overwrite** to replace existing elements with the imported ones.
+   - **Ignore** to skip importing duplicate elements.
+   ![duplicates](https://s3.amazonaws.com/static-docs.testsigma.com/new_images/projects/windows_automation/update_import_tsrx_4.png)
+
+5. Click **Import**.
+![Import](https://s3.amazonaws.com/static-docs.testsigma.com/new_images/projects/windows_automation/update_import_tsrx_5.png)
+
+6. You can see the imported elements under **Create Tests > Elements**.
 
 [[info | **NOTE**:]]
 | - You can replace the updated elements by clicking on **Update Elements** and following the same steps as above. 
 | - After updating the elements, changes in the app structure might affect some of them, which will be highlighted with a red underline. For information on handling these errors, refer to the [documentation on error handling post TSRx update](https://testsigma.com/docs/windows-automation/error-handling/).
-
-Here's a quick GIF demonstrating how to import elements for Windows application.
-
-![Import Elements](https://s3.amazonaws.com/static-docs.testsigma.com/new_images/projects/applications/importtsrxelements.gif)
 
 ---
