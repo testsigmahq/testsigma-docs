@@ -2,7 +2,7 @@
 title: "Basic Authentication for Web Pages"
 metadesc: "To perform basic authentication for web pages, pass the authentication details via URL. This article discusses performing basic authentication for web pages"
 noindex: false
-order: 24.15
+order: 25.15
 page_id: "Perform Basic Authentication"
 warning: false
 contextual_links:

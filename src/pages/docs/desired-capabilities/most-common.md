@@ -3,7 +3,7 @@ title: "Common Desired Capabilities"
 page_title: "Streamline Testing Processes with Advanced Capabilities"
 metadesc: "Enhance efficiency with common desired capabilities in testing. Optimise workflows, boost collaboration, and ensure quality with cutting-edge testing features."
 noindex: false
-order: 15.2
+order: 16.2
 page_id: "common-desired-capabilities"
 search_keyword: ""
 warning: false

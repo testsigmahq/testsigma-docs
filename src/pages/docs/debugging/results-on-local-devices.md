@@ -3,7 +3,7 @@ title: "Copilot Test Authoring for Mobile Applications"
 pagetitle: "Copilot Test Authoring for Mobile Applications"
 metadesc: "Debug and fix mobile test failures in real time with Testsigma Copilot, featuring live step authoring, diagnostics, screenshots, and loop inspection."
 noindex: false
-order: 36.2
+order: 11.2
 page_id: "copilot-test-authoring-for-mobile-applications"
 search_keyword: ""
 warning: false

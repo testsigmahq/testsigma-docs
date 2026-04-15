@@ -2,7 +2,7 @@
 title: "How to Add Max Sessions for Agents?"
 metadesc: "Specify the maximum number of sessions for the local machine while setting up the local agent. This helps limit parallel executions & avoids slowing down of machine"
 noindex: false
-order: 11.94
+order: 12.94
 page_id: "how-to-add-max-sessions-for-agents"
 search_keyword: "how-to-add-max-sessions-for-agents-?"
 warning: false

@@ -1,7 +1,7 @@
 ---
 title: "What Causes Longer Automation Test Execution Times in a Test Plan?"
 metadesc: "Learn how enabling Reset session for every test case assigns a new machine per test, increasing overall test plan execution time."
-order: 24.42
+order: 25.42
 page_id: "what-causes-longer-automation-test-execution-times-in-a-test-plan-?"
 warning: false
 contextual_links:

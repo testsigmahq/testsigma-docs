@@ -2,7 +2,7 @@
 title: "Why Bypass CAPTCHA in Test Automation?"
 metadesc: "CAPTCHA prevents bots from manipulating web services by verifying that the user is human. This article discusses the need of bypassing CAPTCHA in Test Automation"
 noindex: false
-order: 24.16
+order: 25.16
 page_id: "CAPTCHA in Test Automation"
 warning: false
 contextual_links:

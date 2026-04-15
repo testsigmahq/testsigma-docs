@@ -2,7 +2,7 @@
 title: "How to Fix Agent Startup & Registration Errors?"
 metadesc: "Common Agent startup or registration issues and how to troubleshoot them. Learn how to resolve issue if the Agent stops working, or is starts and terminating immediately"
 noindex: false
-order: 11.91
+order: 12.91
 page_id: "how-to-fix-agent-startup-&-registration-errors-?"
 warning: false
 contextual_links:

@@ -3,7 +3,7 @@ title: "Configure User Settings"
 pagetitle: "Configure User Settings"
 metadesc: "You can configure user-level settings such as updating your profile information, changing your password, & enabling 2FA to add an extra layer of security to your account"
 noindex: false
-order: 19.11
+order: 20.11
 page_id: "configure-user-settings"
 warning: false
 contextual_links:

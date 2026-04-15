@@ -2,7 +2,7 @@
 title: "Integrate Testsigma with Copado (Salesforce)"
 metadesc: "Integrate Testsigma with Copado for effortless Salesforce test automation | Improve your testing efficiency accelerate Salesforce automation by integrating Testsigma with Copado"
 noindex: false
-order: 12.24
+order: 13.24
 page_id: "Integrate Testsigma with Copado"
 warning: false
 contextual_links:

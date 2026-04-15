@@ -3,7 +3,7 @@ title: "Set Google Play Store Credentials"
 page_title: "Capability to Access Google Play Store"
 metadesc: "This article discusses the capability you need to set to access Google Play Store services & test services like in-app purchase flows, verify payments, and production version"
 noindex: false
-order: 15.98
+order: 16.98
 page_id: "access-google-play-store"
 search_keyword: ""
 warning: false

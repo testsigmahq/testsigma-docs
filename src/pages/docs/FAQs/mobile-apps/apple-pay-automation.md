@@ -2,7 +2,7 @@
 title: "Apple Pay Automation with Testsigma"
 metadesc: "Apple Pay Automation is complex due to Apple's strict security standards and testing challenges | Learn about Apple Pay Automation with Testsigma application"
 noindex: false
-order: 24.21
+order: 25.21
 page_id: "Apple Pay Automation with Testsigma"
 warning: false
 contextual_links:

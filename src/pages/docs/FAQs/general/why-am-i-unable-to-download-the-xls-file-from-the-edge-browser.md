@@ -1,7 +1,7 @@
 ---
 title: "Why am I Unable to Download the XLS File from the Edge Browser?"
 metadesc: "Edge may open XLS files in Office Online instead of downloading them. This article explains how to fix it by adjusting a browser setting."
-order: 24.31
+order: 25.31
 page_id: "why-am-i-unable-to-download-the-xls-file-from-the-edge-browser-?"
 warning: false
 contextual_links:

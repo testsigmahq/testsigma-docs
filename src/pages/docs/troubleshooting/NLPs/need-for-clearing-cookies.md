@@ -2,7 +2,7 @@
 title: "Clearing the Session or Cookies"
 metadesc: "Understand the reasons for clearing the session or cookies when starting a test | These NLPs help you clear session ot cookies in tests in Testsigma application"
 noindex: false
-order: 23.15
+order: 24.15
 page_id: "clearing-the-session-or-cookies"
 warning: false
 ---

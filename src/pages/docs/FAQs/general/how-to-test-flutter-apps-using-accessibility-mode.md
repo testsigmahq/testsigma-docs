@@ -1,7 +1,7 @@
 ---
 title: "How to Test Flutter Apps Using Accessibility Mode?"
 metadesc: "Learn how Flutter’s semantic tree enables automation tools to identify and interact with UI elements, overcoming canvas-based rendering challenges."
-order: 24.36
+order: 25.36
 page_id: "how-to-test-flutter-apps-using-accessbility-mode-?"
 warning: false
 contextual_links:

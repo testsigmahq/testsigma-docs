@@ -3,7 +3,7 @@ title: "Jira Integration for Bug Reporting"
 page_title: "Jira Bug Reporting Integration in Testsigma"
 metadesc: "JIRA integration helps you in creating issues in JIRA from the Testsigma. Learn how to integrate Testsigma with JIRA for real-time bug reporting"
 noindex: false
-order: 16.31
+order: 17.31
 page_id: "jira-bug-reporting-integration"
 warning: false
 contextual_links:

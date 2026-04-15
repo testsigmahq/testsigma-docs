@@ -2,7 +2,7 @@
 title: "Integrate Testsigma with Jenkins"
 metadesc: "Integrate Jenkins with Testsigma to run test plans from your Jenkins CI/CD pipeline. Enable continuous testing and streamline software delivery."
 noindex: false
-order: 12.13
+order: 13.13
 page_id: "integrate-testsigma-with-jenkins"
 warning: false
 contextual_links:

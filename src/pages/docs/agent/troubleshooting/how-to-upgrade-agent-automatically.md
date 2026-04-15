@@ -2,7 +2,7 @@
 title: "How to Upgrade Testsigma Agent Automatically?"
 metadesc: "Testsigma application has the capability to download & install the agent automatically. This article discusses how to upgrade Testsigma agent automatically"
 noindex: false
-order: 11.93
+order: 12.93
 page_id: "how-to-upgrade-testsigma-agent-automatically-?"
 search_keyword: ""
 warning: false

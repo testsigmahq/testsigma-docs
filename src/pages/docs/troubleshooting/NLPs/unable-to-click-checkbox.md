@@ -2,7 +2,7 @@
 title: "Unable to Click Checkbox"
 metadesc: "This document will help you troubleshoot if you are unable to click the checkbox | Learn how to click the checkbox when it is inaccessible while testing"
 noindex: false
-order: 23.14
+order: 24.14
 page_id: "unable-to-click-checkbox"
 warning: false
 ---

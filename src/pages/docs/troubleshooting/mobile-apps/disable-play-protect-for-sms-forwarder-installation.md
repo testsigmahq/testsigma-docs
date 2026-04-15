@@ -3,7 +3,7 @@ title: "How to Disable Play Protect for SMS Forwarder Installation?"
 page_title: "Disable Play Protect for SMS Forwarder Installation"
 metadesc: "Learn how to disable Google Play Protect on your Android device to install the SMS Forwarder app without being blocked, flagged, or getting security warnings."
 noindex: false
-order: 23.696
+order: 24.696
 page_id: "disable-play-protect-for-sms-forwarder-installation"
 warning: false
 contextual_links:

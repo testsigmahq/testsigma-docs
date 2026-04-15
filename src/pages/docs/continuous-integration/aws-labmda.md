@@ -2,7 +2,7 @@
 title: "Integrate Testsigma with AWS Lambda"
 metadesc: "How to integrate Testsigma with AWS Lambda. "
 noindex: false
-order: 12.16
+order: 13.16
 page_id: "Integrate Testsigma with AWS Lambda"
 warning: false
 contextual_links:

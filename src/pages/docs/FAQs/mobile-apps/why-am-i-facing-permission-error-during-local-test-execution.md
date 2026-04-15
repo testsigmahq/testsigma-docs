@@ -1,7 +1,7 @@
 ---
 title: "Why am I Facing Permission Error During Local Test Execution?"
 metadesc: "You may face permission issues during local test runs on real devices. | Learn how to resolve them by enabling the required settings for your device brand."
-order: 24.23
+order: 25.23
 page_id: "why-am-i-facing-permission-error-during-local-test-execution-?"
 warning: false
 contextual_links:

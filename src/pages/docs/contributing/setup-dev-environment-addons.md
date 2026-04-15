@@ -3,7 +3,7 @@ title: "Testsigma Development Environment (Addons)"
 page_title: "Testsigma Development Environment"
 metadesc: "How to setup Testsigma  Development Environment to contribute"
 noindex: false
-order: 22.4
+order: 23.4
 page_id: "Testsigma Development Environment"
 warning: false
 contextual_links:

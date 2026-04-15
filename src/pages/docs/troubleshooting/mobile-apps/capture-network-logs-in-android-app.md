@@ -3,7 +3,7 @@ title: "How to Capture Network Logs in an Android Application?"
 page_title: "Capturing Network Logs in an Android Application"
 metadesc: "If Android application is not capturing network logs it may be due to missing proxy certificates or security configurations. Learn how to resolve these errors."
 noindex: false
-order: 23.697
+order: 24.697
 page_id: "capture-network-logs-in-an-android-application"
 warning: false
 contextual_links:

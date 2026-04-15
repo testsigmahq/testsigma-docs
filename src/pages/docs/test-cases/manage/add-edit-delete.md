@@ -31,7 +31,7 @@ contextual_links:
 
 ---
 
-Testsigma provides a comprehensive and user-friendly solution for efficiently creating, organising, and executing test cases. It enables teams to collaborate effectively, ensures maximum test coverage, and provides valuable insights into the testing workflow. Users can create test cases using either the Testsigma Recorder or by manually writing steps using NLP. This documentation guides users step-by-step on how to manage test case in Testsigma to optimise the testing process.
+Testsigma provides a comprehensive and user-friendly solution for efficiently creating, organising, and executing test cases. It enables teams to collaborate effectively, ensures maximum test coverage, and provides valuable insights into the testing workflow. Users can create test cases using either Atto or the generator agent. This documentation guides users step-by-step on how to manage test case in Testsigma to optimise the testing process.
 
 <br>
 
@@ -62,12 +62,12 @@ Testsigma provides a comprehensive and user-friendly solution for efficiently cr
 3. In the modal dialog, enter a name for the test case, and click **Create**.
 
 4. Create the test steps for your test case using one of the following methods:
-   - Write test steps manually using NLPs. Select Add new step.
-   - Use the Testsigma Recorder to record steps.
+   - Use Atto to generate test steps. 
+   - Use the generator agent to create test steps. 
 
 
 [[info | NOTE:]]
-| You should install the Testsigma test step recorder extension to record the test steps for a web or mobile web app project. Check [here](https://testsigma.com/docs/test-step-recorder/install-chrome-extension/) for instructions on how to install it.
+| You can also install the Testsigma test step recorder extension to record the test steps for a web or mobile web app project. Check [here](https://testsigma.com/docs/test-step-recorder/install-chrome-extension/) for instructions on how to install it.
 
 ---
 

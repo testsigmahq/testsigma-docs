@@ -3,7 +3,7 @@ title: "Common UI Elements for iOS Apps"
 page_title: "Common UI Elements for iOS Apps"
 metadesc: "Learn most common UI elements and their common attributes for iOS apps (XCUITest Elements) | Common UI elements for iOS apps, descriptions & attributes"
 noindex: false
-order: 23.94
+order: 24.94
 page_id: "common-ui-elements-for-ios-apps"
 warning: false
 ---

@@ -3,7 +3,7 @@ title: "Copilot Test Authoring for Web Applications"
 pagetitle: "Copilot Test Authoring for Web Applications"
 metadesc: "Testsigma Copilot enables interactive test execution with live step editing, failure diagnostics, loop inspection, and real-time fixes without stopping test runs."
 noindex: false
-order: 36.1
+order: 11.1
 page_id: "copilot-test-authoring-for-web-applications"
 search_keyword: ""
 warning: false

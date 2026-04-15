@@ -3,7 +3,7 @@ title: "Mantis Bug Reporting Integration"
 page_title: "Mantis Bug Reporting Integration in Testsigma"
 metadesc: "Mantis Bug Reporting integration helps you in creating issues in Mantis from the Testsigma. Learn how to integrate Testsigma with Mantis for real-time bug reporting"
 noindex: false
-order: 16.34
+order: 17.34
 page_id: "mantis-bug-reporting-integration"
 warning: false
 contextual_links:

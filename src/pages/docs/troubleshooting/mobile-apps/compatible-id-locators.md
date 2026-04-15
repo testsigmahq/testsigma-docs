@@ -3,7 +3,7 @@ title: "Cross-environment Compatible ID Locators (Android)"
 page_title: "Cross-environment Compatible ID Locators"
 metadesc: "Learn about cross-environment compatible ID locators and resource ID used for locating elements for android applications"
 noindex: false
-order: 23.69
+order: 24.69
 page_id: "cross-environment-compatible-id-locators"
 warning: false
 ---
