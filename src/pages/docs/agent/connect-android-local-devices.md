@@ -51,15 +51,15 @@ Testsigma allows you to run tests on your local Android devices in addition to T
 
 
 6. Navigate to **Agents** page in Testsigma app and click on the registered agent.
-![Agents](https://s3.amazonaws.com/static-docs.testsigma.com/new_images/projects/applications/slaapge.png)
+![Agents](https://s3.amazonaws.com/static-docs.testsigma.com/new_images/projects/test_cases/update_android_device_1.png)
 
 
 7. Under **Devices**, you can see the device that is connected to the registered agent as shown below.
-![Devices](https://s3.amazonaws.com/static-docs.testsigma.com/new_images/projects/applications/sladevices.png)
+![Devices](https://s3.amazonaws.com/static-docs.testsigma.com/new_images/projects/test_cases/update_android_device_2.png)
 
 
 8. To execute android tests on this Device, you can select the **Connected Machine** and **Device**. 
-![Connected Machine](https://s3.amazonaws.com/static-docs.testsigma.com/new_images/projects/applications/slacmd.png)
+![Connected Machine](https://s3.amazonaws.com/static-docs.testsigma.com/new_images/projects/test_cases/update_android_device_3.png)
 
 
 [[info | NOTE:]]

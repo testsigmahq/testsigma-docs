@@ -20,8 +20,6 @@ APIs require authentication information, which you can provide in Testsigma. Aut
 
 - Fill in the required fields based on your authorization. 
 
-- Once your authorization details are set up, click **Create** and save your request.
-
-![Authorization in API Request](https://s3.amazonaws.com/static-docs.testsigma.com/new_images/projects/applications/NTLM.gif)
+![Authorization in API Request](https://s3.amazonaws.com/static-docs.testsigma.com/new_images/projects/test_cases/update_authorization_1.png)
 
 ---

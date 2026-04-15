@@ -36,27 +36,26 @@ In dynamic websites, elements can have varying attributes/properties across sess
 
 ## **Steps to Create an Element**
 
-1. Navigate to **Create Tests > Elements**.
-![Elements](https://s3.amazonaws.com/static-docs.testsigma.com/new_images/projects/applications/mwaecnavel.png)
+1. From the left navigation bar, navigate to **Create Tests > Elements**.
+![Elements](https://s3.amazonaws.com/static-docs.testsigma.com/new_images/projects/elements/update_elements_mmw_1.png)
 
 
-2. Click on **Create**.
-![Create](https://s3.amazonaws.com/static-docs.testsigma.com/new_images/projects/applications/mwaeccocre.png)
+2. Click  **Create Element**.
+![Create](https://s3.amazonaws.com/static-docs.testsigma.com/new_images/projects/elements/update_elements_mmw_2.png)
 
 
-3. On **Create Element** Overlay, enter all the details:
-![Overlay](https://s3.amazonaws.com/static-docs.testsigma.com/new_images/projects/applications/mwaecdetails.png)
+3. In the **Create Element** Overlay, enter all the details:
+![Overlay](https://s3.amazonaws.com/static-docs.testsigma.com/new_images/projects/elements/update_elements_mmw_3.png)
     - **Name:** Enter the name you want to give your element.
     - **Screen Name:** Mention the screen that your element resides on.
     - **Element Type:** There are 5 types of element types supported in Testsigma. This field is a drop-down list; you can select any of them: **XPATH**, **ID**, **Name**, **Class Name**, or **Accessibility ID**.
     - **Enter Value:** Enter the value corresponding to the **Element Type** you selected.
 
 
-4. Click on **Create Element**. 
-![Create Element](https://s3.amazonaws.com/static-docs.testsigma.com/new_images/projects/applications/mwacreateelm.png)
+4. Click **Create Element**. 
+![Create Element](https://s3.amazonaws.com/static-docs.testsigma.com/new_images/projects/elements/update_elements_mmw_4.png)
 
 
 5. The element will be saved in the elements list. 
-
 
 ---
