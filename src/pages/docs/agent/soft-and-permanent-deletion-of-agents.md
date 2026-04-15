@@ -36,32 +36,31 @@ Managing a long list of Agents can make selecting the right Agent while executin
 ## **Steps to Soft Delete an Agent**
 
 1. From the dashboard, go to **Agents**.
+![Agents](https://s3.amazonaws.com/static-docs.testsigma.com/new_images/projects/agents/update_agents_1.png)
 
-2. Hover over the agent you want to soft delete (push to an obsolete state).
+2. Click the ellipsis icon against an agent that you want to delete and click **Obsolete**. 
+![obsolete](https://s3.amazonaws.com/static-docs.testsigma.com/new_images/projects/agents/update_agents_2.png)
 
-3. In the warning dialog, click **Obsolete Agent**.
+3. In the **Obsolete agent?** dialog, click **Obsolete Agent**.
+![Obsolete Agent](https://s3.amazonaws.com/static-docs.testsigma.com/new_images/projects/agents/update_agents_3.png)
 
 4. The agent will move to the obsolete state.
 
 [[info | **NOTE**:]]
-| - You can restore an obsolete agent by navigating to **Agents > Obsolete Agent** and clicking Restore.
+| - To restore an obsolete agent, click **Restore** next to the agent you want to reactivate. ![Restore](https://s3.amazonaws.com/static-docs.testsigma.com/new_images/projects/agents/update_agents_4.png)
 | - An agent in the obsolete state will not allow the user to execute tests.
-
-
-Here’s a quick GIF demonstrating how to soft delete and restore the obsoleted agent. 
-
-   ![Soft Delete Agents](https://s3.amazonaws.com/static-docs.testsigma.com/new_images/projects/applications/SoftDeleteAgent.gif)
 
 ---
 
 ## **Steps to Delete Agents Permanently**
 
-1. Navigate from the dashboard to **Agents > Obsolete Agent**.
+1. From the dashboard, go to **Agents**. 
+![Agents](https://s3.amazonaws.com/static-docs.testsigma.com/new_images/projects/agents/update_agents_1.png)
 
-2. Click on the kebab menu and select **Delete Permanently**. This will open a warning dialog.
+2. Click the ellipsis icon against the agent and click **Delete Permanently**. 
+![Delete](https://s3.amazonaws.com/static-docs.testsigma.com/new_images/projects/agents/update_agents_5.png)
 
-3. In the warning dialog, confirm deletion by clicking **Delete Permanently**.
-
-   ![Delete Permanently](https://s3.amazonaws.com/static-docs.testsigma.com/new_images/projects/applications/DeleteAgentsPermanently.gif)
+3. In the **Delete Agent Permanently?** dialog, click **Delete Permanently**.
+![Delete Permanently](https://s3.amazonaws.com/static-docs.testsigma.com/new_images/projects/agents/update_agents_6.png)
 
 ---

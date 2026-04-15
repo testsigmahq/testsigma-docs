@@ -40,7 +40,7 @@ Using the **Testsigma Recorder**, you can swiftly capture elements in mobile web
 ## **Steps to Record Elements for Mobile Web Apps**
 
 1. From the left navigation bar, go to **Create Tests > Elements**, and click **Record**.
-![Elements](https://s3.amazonaws.com/static-docs.testsigma.com/new_images/projects/applications/mwaelmnav.png)
+![Elements](https://s3.amazonaws.com/static-docs.testsigma.com/new_images/projects/elements/update_elements_mw_1.png)
 
 2. This will open a new window. Enter the URL from which you want to capture the elements. The **Testsigma Recorder** will appear and be ready to start recording. In this case, we are recording elements for the 1mg website.
 ![New Window](https://s3.amazonaws.com/static-docs.testsigma.com/new_images/projects/applications/mwaelmcdt.png)
@@ -65,7 +65,7 @@ Using the **Testsigma Recorder**, you can swiftly capture elements in mobile web
 | Some devices might have unique characteristics that will affect element display and interaction, and adding a custom device required for your testing is necessary to identify and resolve these issues.
 
 
-6. Once you have selected the dimension, capture elements by clicking on them directly.
+6. Once the dimension is selected, click directly on the elements to capture them, and click **Stop** when you are done capturing the required elements.
 ![Record Elements](https://s3.amazonaws.com/static-docs.testsigma.com/new_images/projects/applications/mwaelmrelms.png)
 
 ---

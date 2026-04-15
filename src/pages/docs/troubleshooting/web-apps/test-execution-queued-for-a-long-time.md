@@ -21,16 +21,16 @@ If the execution status for your tests has been in the state Queued for a long t
 
 ## **Steps to Troubleshoot the Issue**
 1. On **Dashboard**, click on **Usage details**.
-![Dashboard](https://s3.amazonaws.com/static-docs.testsigma.com/new_images/projects/applications/uddashb.png)
+![Dashboard](https://s3.amazonaws.com/static-docs.testsigma.com/new_images/projects/collaboration/update_queue_n_1.png)
 
 2. Check the number of **Parallel Tests**.
-![Parallel Tests](https://s3.amazonaws.com/static-docs.testsigma.com/new_images/projects/applications/udprar.png)
+![Parallel Tests](https://s3.amazonaws.com/static-docs.testsigma.com/new_images/projects/collaboration/update_queue_n_2.png)
 
-Here, we have a license for 3 parallel executions & 8 allowed queues. We can set up a maximum of 3 test runs to run in parallel, which means executing up to 3 tests simultaneously. In addition to the 3 tests running in parallel, you can have up to 8 tests in the queue. The queued tests will execute once the ongoing parallel executions are complete.<br>
+Here, we have a license for 2 parallel executions & 3 allowed queues. We can set up a maximum of 2 test runs to run in parallel, which means executing up to 2 tests simultaneously. In addition to the 2 tests running in parallel, you can have up to 3 tests in the queue. The queued tests will execute once the ongoing parallel executions are complete.<br>
 
-In the above example, we have **Parallel Tests 1/3**, which means 1 test is running in parallel, and 3 is the number of parallel runs allowed at a moment.<br>
+In the above example, we have **Parallel Tests 2/2**, which means 2 test is running in parallel, and 2 is the number of parallel runs allowed at a moment.<br>
 
-Suppose the number of parallel runs is equal to the number of parallel licenses for your Testsigma account. In that case, the tests in the queue will remain in the same status until the parallel test runs are completed. 
+If the number of parallel runs reaches the limit of your parallel licenses, the queued tests will remain in their current status until the ongoing parallel test runs are completed.
 
 **You can take the following actions to fix the issue:**  
 - You can wait for other tests to complete execution. 
