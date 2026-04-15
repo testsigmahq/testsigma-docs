@@ -3,6 +3,10 @@ on:
   push:
     branches:
       - "main"
+permissions:
+  id-token: write
+  contents: read
+
 jobs:
   Deploy:
     runs-on: ubuntu-latest
@@ -25,6 +29,8 @@ jobs:
         run: |
           rm -rf .env
           touch .env
+          echo AWS_ROLE_ARN=${{ secrets.WEBSITE_AWS_GITHUB_OIDC_ROLE_ARN }} >> .env
+          echo AWS_DEFAULT_REGION=us-east-1 >> .env
           echo BUCKET_NAME=${{ secrets.BUCKET_NAME }} >> .env
           echo HOST_NAME=${{ secrets.HOST_NAME }} >> .env
           echo ASSET_HOST=${{ secrets.ASSET_HOST }} >> .env
@@ -39,14 +45,19 @@ jobs:
           echo TYPESENSE_API_KEY=${{ secrets.TYPESENSE_API_KEY }} >> .env
           echo TYPESENSE_SEARCH_API_KEY=${{ secrets.TYPESENSE_SEARCH_API_KEY }} >> .env
           cat .env
+
+      - name: Configure AWS Credentials
+        uses: aws-actions/configure-aws-credentials@v4
+        with:
+          role-to-assume: ${{ secrets.WEBSITE_AWS_GITHUB_OIDC_ROLE_ARN }}
+          role-session-name: GitHub_to_AWS_via_FederatedOIDC
+          aws-region: 'us-east-1'
+          audience: sts.amazonaws.com
+
       - name: Build
         run: |
           PREFIX_PATHS=true npm run build && npm run deploy
         env:
-          AWS_ACCESS_KEY_ID: ${{ secrets.AWS_ACCESS_KEY_ID }}
-          AWS_SECRET_ACCESS_KEY: ${{ secrets.AWS_SECRET_ACCESS_KEY }}
-          AWS_DEFAULT_REGION: "us-east-1"
-          AWS_DEFAULT_OUTPUT: json
           TYPESENSE_HOST: ${{ secrets.TYPESENSE_HOST }}
           TYPESENSE_PORT: ${{ secrets.TYPESENSE_PORT }}
           TYPESENSE_PROTOCOL: ${{ secrets.TYPESENSE_PROTOCOL }}
