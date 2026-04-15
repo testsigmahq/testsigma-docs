@@ -258,7 +258,7 @@ Deployments:
       version: amd64-latest
       imagePullPolicy: Always
     config:
-      key: "<YOUR_TUNNEL_JWT_KEY>"  # JWT key from the Testsigma dashboard
+      key: "<YOUR_TUNNEL_API_KEY>"  # API key from the Testsigma dashboard
       tunnelName: "my-tunnel"       # Name that appears in the Testsigma UI
       verbose: true                 # Enable verbose logging
       delegateSslValidation: false  # Set true to skip SSL certificate validation
@@ -266,13 +266,13 @@ Deployments:
 ```
 
 Replace the following placeholder values in your file:
-- **\<YOUR\_TUNNEL\_JWT\_KEY\>**: Enter the JWT key from **Settings > Tunnels** in the Testsigma application.
+- **\<YOUR\_TUNNEL\_API\_KEY\>**: Enter the API key from **Settings > Tunnels** in the Testsigma application.
 - **tunnel-client-mycompany**: Enter a name that uniquely identifies this tunnel client in your cluster.
 - **my-namespace**: Enter the Kubernetes namespace where you want to deploy the tunnel.
 - **my-tunnel**: Enter the tunnel name that will appear in the Testsigma UI.
 
 [[info | Note:]]
-| Never store your JWT key in plain text in a values file that you commit to version control. See **Manage Secrets** for recommended alternatives.
+| Never store your API key in plain text in a values file that you commit to version control. See **Manage Secrets** for recommended alternatives.
 
 ---
 
@@ -332,7 +332,7 @@ In the logs, look for a message confirming that the tunnel registered successful
 | **containers.image** | string | Yes | — | Docker image name for the tunnel client. |
 | **containers.version** | string | Yes | — | Docker image tag. |
 | **containers.imagePullPolicy** | string | Yes | — | Image pull policy. Accepted values: **Always**, **IfNotPresent**, or **Never**. |
-| **config.key** | string | Yes | — | JWT authentication key from the Testsigma dashboard. |
+| **config.key** | string | Yes | — | API key from the Testsigma dashboard. |
 | **config.tunnelName** | string | Yes | — | Tunnel name visible in the Testsigma UI. |
 | **config.verbose** | boolean | No | true | Enables verbose logging for the tunnel client. |
 | **config.delegateSslValidation** | boolean | No | false | When **true**, the tunnel skips SSL certificate validation for upstream requests. |
@@ -357,11 +357,11 @@ Namespace:
 
 ## **Manage Secrets**
 
-The **config.key** field contains a JWT authentication token. Treat this value as a secret and never commit it in plain text to version control.
+The **config.key** field contains an API key. Treat this value as a secret and never commit it in plain text to version control.
 
 ### **Option 1: Pass the Key at Deploy Time**
 
-Use the **--set** flag with `helm install` or `helm upgrade` to inject the JWT key without storing it in your values file:
+Use the **--set** flag with `helm install` or `helm upgrade` to inject the API key without storing it in your values file:
 
 ```bash
 helm install my-tunnel . -f my-values.yaml \
@@ -380,28 +380,28 @@ helm install my-tunnel . -f my-values.yaml \
 
 ### **Option 2: Use a Secrets Manager**
 
-For GitOps workflows, use Sealed Secrets or External Secrets Operator to manage the JWT key:
+For GitOps workflows, use Sealed Secrets or External Secrets Operator to manage the API key:
 
-1. Store the JWT key in your secrets backend (for example, AWS Secrets Manager or HashiCorp Vault).
+1. Store the API key in your secrets backend (for example, AWS Secrets Manager or HashiCorp Vault).
 2. Create an ExternalSecret resource that syncs the key into a Kubernetes Secret.
 3. Reference the secret in your values file or inject it with **--set** in your CI/CD pipeline.
 
 ### **Option 3: Use CI/CD Pipeline Variables**
 
-Store the JWT key as a pipeline secret and inject it during deployment. The following example shows a GitHub Actions workflow step:
+Store the API key as a pipeline secret and inject it during deployment. The following example shows a GitHub Actions workflow step:
 
 ```yaml
 - name: Deploy tunnel
   run: |
     helm upgrade --install my-tunnel ./testsigma-tunnel \
       -f my-values.yaml \
-      --set "Deployments.myTunnel.config.key=${{ secrets.TUNNEL_JWT_KEY }}" \
+      --set "Deployments.myTunnel.config.key=${{ secrets.TUNNEL_API_KEY }}" \
       -n my-namespace
 ```
 
-### **Rotate a JWT Key**
+### **Rotate an API Key**
 
-When a JWT key expires or needs to be replaced:
+When an API key expires or needs to be replaced:
 
 1. Obtain a new key from **Settings > Tunnels** in the Testsigma application.
 2. Update the key using your chosen secret management method.
@@ -554,7 +554,7 @@ Deployments:
       version: amd64-latest
       imagePullPolicy: Always
     config:
-      key: "<JWT_KEY_FOR_SITE_A>"
+      key: "<API_KEY_FOR_SITE_A>"
       tunnelName: "site-a-tunnel"
       verbose: true
   siteB:
@@ -566,7 +566,7 @@ Deployments:
       version: amd64-latest
       imagePullPolicy: Always
     config:
-      key: "<JWT_KEY_FOR_SITE_B>"
+      key: "<API_KEY_FOR_SITE_B>"
       tunnelName: "site-b-tunnel"
       verbose: true
 ```
@@ -609,8 +609,8 @@ config:
 | Symptom | Possible Cause | Resolution |
 |---|---|---|
 | Pod stuck in **Pending** | No nodes match the **pool-type** selector. | Run `kubectl get nodes --show-labels` and verify that at least one node has the expected **pool-type** label. |
-| Pod in **CrashLoopBackOff** | Invalid JWT key or malformed tunnel configuration. | Run `kubectl logs <pod-name> -n my-namespace` to inspect the error output. Verify that **config.key** and **config.tunnelName** are correct. |
-| Tunnel not visible in Testsigma UI | Incorrect **tunnelName** value or expired JWT key. | Confirm that **config.tunnelName** matches what you expect to see in the UI. Obtain a fresh JWT key from **Settings > Tunnels** if the key has expired. |
+| Pod in **CrashLoopBackOff** | Invalid API key or malformed tunnel configuration. | Run `kubectl logs <pod-name> -n my-namespace` to inspect the error output. Verify that **config.key** and **config.tunnelName** are correct. |
+| Tunnel not visible in Testsigma UI | Incorrect **tunnelName** value or expired API key. | Confirm that **config.tunnelName** matches what you expect to see in the UI. Obtain a fresh API key from **Settings > Tunnels** if the key has expired. |
 | Connection timeouts during testing | Network policy or proxy misconfiguration. | Verify that **config.proxy** is set correctly and that cluster network policies permit outbound connections to the Testsigma platform. |
 | SSL errors during test execution | The upstream application uses a self-signed certificate. | Set **config.delegateSslValidation: true** in your values file and run `helm upgrade` to apply the change. |
 
