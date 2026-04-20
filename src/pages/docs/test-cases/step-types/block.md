@@ -54,16 +54,16 @@ In Testsigma, a step block can be created using two different methods:
 Follow the below steps to add a block using the test step type:
 
 1. Click **+ Add new step** on the **Test Case Details** page where you want to insert a block.
-![Add new steps](https://s3.amazonaws.com/static-docs.testsigma.com/new_images/projects/test_cases/update_blocks_1.png)
+![Add new steps](https://s3.amazonaws.com/website-static-docs.testsigma.com/new_images/projects/Updated_Doc_Images/update_blocks_1.png)
 
 2. Click on the **Test Step Type** button located before the new **test step** and select **Create a Block** from the dropdown list that appears.
-![Test Step type](https://s3.amazonaws.com/static-docs.testsigma.com/new_images/projects/test_cases/update_blocks_2.png)
+![Test Step type](https://s3.amazonaws.com/website-static-docs.testsigma.com/new_images/projects/Updated_Doc_Images/update_blocks_2.png)
 
 3. Once you've selected the block, enter a title and click **Create Step**. 
-![Create Block in Test Step Type](https://s3.amazonaws.com/static-docs.testsigma.com/new_images/projects/test_cases/update_blocks_3.png)
+![Create Block in Test Step Type](https://s3.amazonaws.com/website-static-docs.testsigma.com/new_images/projects/Updated_Doc_Images/update_blocks_3.png)
 
 4. To add a step within the block, click **Step Inside Block**, and to add a test step after the block, click **Step After Block**. 
-![Add Step Inside](https://s3.amazonaws.com/static-docs.testsigma.com/new_images/projects/test_cases/update_blocks_4.png)
+![Add Step Inside](https://s3.amazonaws.com/website-static-docs.testsigma.com/new_images/projects/Updated_Doc_Images/update_blocks_4.png)
 
 ---
 
@@ -72,16 +72,16 @@ Follow the below steps to add a block using the test step type:
 Follow the below steps to add a block using the bulk action:
 
 1. Add the **test steps** you want to the block by selecting them on the **Test Case Details** page.
-![Test step](https://s3.amazonaws.com/static-docs.testsigma.com/new_images/projects/test_cases/update_blocks_5.png)
+![Test step](https://s3.amazonaws.com/website-static-docs.testsigma.com/new_images/projects/Updated_Doc_Images/update_blocks_5.png)
 
 [[info | NOTE:]]
 | You can only add consecutive test steps to a block.
 
 2. Click the **Create Block** option in the menu bar, and a **Create Block** pop-up window will appear. Enter the **title** and click **Create**.
-![Create block](https://s3.amazonaws.com/static-docs.testsigma.com/new_images/projects/test_cases/update_blocks_6.png)
+![Create block](https://s3.amazonaws.com/website-static-docs.testsigma.com/new_images/projects/Updated_Doc_Images/update_blocks_6.png)
 
 3. Click the **>** icon on the left to expand and view the selected steps within the collapsed block with the given title.
-![Block in Bulk Action](https://s3.amazonaws.com/static-docs.testsigma.com/new_images/projects/test_cases/update_blocks_7.png)
+![Block in Bulk Action](https://s3.amazonaws.com/website-static-docs.testsigma.com/new_images/projects/Updated_Doc_Images/update_blocks_7.png)
 
 [[info | NOTE:]]
 | If you selected a Block step in the Test Steps, you cannot create a Block again. Please remove or deselect the Block step and try again.
@@ -91,7 +91,7 @@ Follow the below steps to add a block using the bulk action:
 ## **Editing a Block**
 
 Open the test case with the Step Block you want to edit. Choose the block, edit its name, and click **Update Step** to save. 
-![Update Steps](https://s3.amazonaws.com/static-docs.testsigma.com/new_images/projects/test_cases/update_blocks_8.png)
+![Update Steps](https://s3.amazonaws.com/website-static-docs.testsigma.com/new_images/projects/Updated_Doc_Images/update_blocks_8.png)
 
 Click the **>** icon to view the steps within the block. To add a test step, click **Step Inside Block**, or click the ellipsis icon in the test step to access additional options.
 
@@ -100,10 +100,10 @@ Click the **>** icon to view the steps within the block. To add a test step, cli
 ## **Deleting a Block**
 
 To delete a Step Block, open the test case containing it and click the **Delete** button corresponding to the Block Step. 
-![Delete](https://s3.amazonaws.com/static-docs.testsigma.com/new_images/projects/test_cases/update_blocks_9.png)
+![Delete](https://s3.amazonaws.com/website-static-docs.testsigma.com/new_images/projects/Updated_Doc_Images/update_blocks_9.png)
 
 Clicking on the delete button will delete the block, as it is only considered a label for the test steps, and the test steps inside it will remain intact. 
-![Delete Block](https://s3.amazonaws.com/static-docs.testsigma.com/new_images/projects/test_cases/update_blocks_10.png)
+![Delete Block](https://s3.amazonaws.com/website-static-docs.testsigma.com/new_images/projects/Updated_Doc_Images/update_blocks_10.png)
 
 [[info | NOTE:]]
 | Deleting the block will only remove the block and not delete the steps.

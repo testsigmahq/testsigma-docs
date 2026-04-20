@@ -46,34 +46,34 @@ Testsigma Copilot redefines test automation with the power of generative AI 🤖
 
 1. From the left-side navbar, select **Create Tests > Test Cases** and then click **Create Test Case**.
 
-   ![Test Case](https://s3.amazonaws.com/static-docs.testsigma.com/new_images/projects/applications/GenAI_TestCase.png)
+   ![Test Case](https://s3.amazonaws.com/website-static-docs.testsigma.com/new_images/projects/Updated_Doc_Images/GenAI_TestCase.png)
 
 2. On the **Test Case Details** page, enter a name for the test case and click **Record** in the top-right corner. A new window will open.
 
-   ![Record](https://s3.amazonaws.com/static-docs.testsigma.com/new_images/projects/applications/GenAI_Record.png)
+   ![Record](https://s3.amazonaws.com/website-static-docs.testsigma.com/new_images/projects/Updated_Doc_Images/GenAI_Record.png)
 
 3. In the opened window, input the URL of the web page from which you want to generate test scenarios. The **Testsigma Recorder** will activate and prepare for recording.
 
 4. Click **Testsigma Copilot**.
-   ![Copilot](https://s3.amazonaws.com/static-docs.testsigma.com/new_images/projects/applications/Copilot_Button.png)
+   ![Copilot](https://s3.amazonaws.com/website-static-docs.testsigma.com/new_images/projects/Updated_Doc_Images/Copilot_Button.png)
 
 5. Click **Generate Scenarios** in the **Testsigma Copilot** overlay. The Testsigma Copilot will start generating test scenarios based on the current page content.
 
-   ![Generate Scenarios](https://s3.amazonaws.com/static-docs.testsigma.com/new_images/projects/applications/Generate_Scenarios.png)
+   ![Generate Scenarios](https://s3.amazonaws.com/website-static-docs.testsigma.com/new_images/projects/Updated_Doc_Images/Generate_Scenarios.png)
 
 6. Wait until the test scenarios are generated.
 
 7. Click on any generated test case scenario to view its corresponding test steps.
    
-   ![View test Steps](https://s3.amazonaws.com/static-docs.testsigma.com/new_images/projects/applications/View_Scenarios.png)
+   ![View test Steps](https://s3.amazonaws.com/website-static-docs.testsigma.com/new_images/projects/Updated_Doc_Images/View_Scenarios.png)
 
 8. Click **Add to test case** to import the displayed test steps into the recorder.
    
-   ![Add to Test Case](https://s3.amazonaws.com/static-docs.testsigma.com/new_images/projects/applications/Add_AI_Test_Steps.png)
+   ![Add to Test Case](https://s3.amazonaws.com/website-static-docs.testsigma.com/new_images/projects/Updated_Doc_Images/Add_AI_Test_Steps.png)
 
 9.  Modify the test steps as per the desired test case behavior. Once the necessary modifications are done, click **Stop** to return to the test case details page.
     
-    ![Stop](https://s3.amazonaws.com/static-docs.testsigma.com/new_images/projects/applications/Stop_Rec_GenAI.png)
+    ![Stop](https://s3.amazonaws.com/website-static-docs.testsigma.com/new_images/projects/Updated_Doc_Images/Stop_Rec_GenAI.png)
 
 ---
 
@@ -82,7 +82,7 @@ Testsigma Copilot redefines test automation with the power of generative AI 🤖
 Follow the same steps from 1-3 from the above section.
 
 4. On prompt input, enter the prompt for which you want to fetch test steps. 
-   ![Prompt](https://s3.amazonaws.com/static-docs.testsigma.com/new_images/projects/applications/Prompt_AI.png)
+   ![Prompt](https://s3.amazonaws.com/website-static-docs.testsigma.com/new_images/projects/Updated_Doc_Images/Prompt_AI.png)
 
 5. Press **Enter**.
    
@@ -90,11 +90,11 @@ Follow the same steps from 1-3 from the above section.
 
 7. Click **Add to test case** to import the displayed test steps into the recorder.
 
-   ![Add to Test Case](https://s3.amazonaws.com/static-docs.testsigma.com/new_images/projects/applications/AddtoTestCase_AI.png)
+   ![Add to Test Case](https://s3.amazonaws.com/website-static-docs.testsigma.com/new_images/projects/Updated_Doc_Images/AddtoTestCase_AI.png)
 
 8. Modify the test steps as per the desired test case behavior. Once the necessary modifications are done, click **Stop** to return to the test case details page.
 
-   ![Stop](https://s3.amazonaws.com/static-docs.testsigma.com/new_images/projects/applications/Stop_PromptSteps.png)
+   ![Stop](https://s3.amazonaws.com/website-static-docs.testsigma.com/new_images/projects/Updated_Doc_Images/Stop_PromptSteps.png)
 
 ---
 

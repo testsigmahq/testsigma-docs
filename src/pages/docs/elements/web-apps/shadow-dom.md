@@ -48,7 +48,7 @@ Follow the below steps to identify if a webpage uses Shadow DOM:
 1. To open the **Chrome Developer Tools** and highlight webpage **elements**, right-click on the webpage and select **Inspect**.
 2. Expand the **`<body>`** tag in the **Elements** tab and verify if it contains **`#shadow-root`** to indicate the presence of Shadow DOM on the webpage.
 
-![Identify Shadowdom Element](https://s3.amazonaws.com/static-docs.testsigma.com/new_images/projects/applications/identify_shadowdom.png)
+![Identify Shadowdom Element](https://s3.amazonaws.com/website-static-docs.testsigma.com/new_images/projects/Updated_Doc_Images/identify_shadowdom.png)
 
 ---
 
@@ -59,7 +59,7 @@ Follow the below steps to identify if a webpage uses Shadow DOM:
 3. **Shadow Boundary**: An invisible wall separates the shadow DOM from the main DOM, keeping styles and functionality isolated.
 4. **Shadow Root**: The shadow DOM's starting point is the hidden tree's root node, where everything begins. 
 
-![Shadow DOM diagram](https://s3.amazonaws.com/static-docs.testsigma.com/new_images/projects/applications/basic_shadowdom.png)
+![Shadow DOM diagram](https://s3.amazonaws.com/website-static-docs.testsigma.com/new_images/projects/Updated_Doc_Images/basic_shadowdom.png)
 
 ---
 
@@ -67,15 +67,15 @@ Follow the below steps to identify if a webpage uses Shadow DOM:
 
 This section will demonstrate how to capture and store shadow DOM elements using Testsigma. For this demonstration, we'll use the shopping website <a href="https://shop.polymer-project.org/" rel="nofollow">shop.polymer-project</a>.
 
-1. Navigate to **Create Tests** > **Elements** in the left side navbar. Click on **Create Element** at the top right corner of the **Elements List** page to capture the Element on the webpage. ![create elements](https://s3.amazonaws.com/static-docs.testsigma.com/new_images/projects/elements/update_shadow_dom_1.png)
-2. Click **Create Element** to open an overlay screen on the right side of the page. Click **Record Element** within this overlay to easily capture the Element. Open the webpage in a new tab and click on the **Element** you want to capture. Then, click **Capture** to record the Element in the Record Element pop-up menu. ![record shadowdom element](https://s3.amazonaws.com/static-docs.testsigma.com/new_images/projects/applications/record_element_shadowdom.gif)
+1. Navigate to **Create Tests** > **Elements** in the left side navbar. Click on **Create Element** at the top right corner of the **Elements List** page to capture the Element on the webpage. ![create elements](https://s3.amazonaws.com/website-static-docs.testsigma.com/new_images/projects/Updated_Doc_Images/update_shadow_dom_1.png)
+2. Click **Create Element** to open an overlay screen on the right side of the page. Click **Record Element** within this overlay to easily capture the Element. Open the webpage in a new tab and click on the **Element** you want to capture. Then, click **Capture** to record the Element in the Record Element pop-up menu. ![record shadowdom element](https://s3.amazonaws.com/website-static-docs.testsigma.com/new_images/projects/Updated_Doc_Images/record_element_shadowdom.gif)
 3. Alternatively, manually fill in the **Name** and **Screen Name**, **Element Type**, **Element Value**, and **Host Values** fields to capture the Element.
 4. Fill in the fields with the element **Name** and **Screen Name**. Then, choose **CSS Selector** as the **Element Type** from the dropdown menu since only CSS selectors can access elements within shadow DOM.
 5. To obtain the CSS Selector, **right-click** on the webpage and choose **Inspect** to open **Chrome Developer Tools**. Then, you must locate the Element you need using the **Select Element in the page to inspect it** icon. 
-6. Once you have located the Element, right-click on it and choose **Copy** from the menu. Next, select **Selector** from the dropdown menu and copy the **CSS selector** value that appears. Finally, paste it into the **Enter the value** field. ![Capture Shadow Dom Element](https://s3.amazonaws.com/static-docs.testsigma.com/new_images/projects/applications/captureelement_shadowdom.gif)
+6. Once you have located the Element, right-click on it and choose **Copy** from the menu. Next, select **Selector** from the dropdown menu and copy the **CSS selector** value that appears. Finally, paste it into the **Enter the value** field. ![Capture Shadow Dom Element](https://s3.amazonaws.com/website-static-docs.testsigma.com/new_images/projects/Updated_Doc_Images/captureelement_shadowdom.gif)
 7. Check the box **Present inside Nested Context** to specify the hosts from the parent host to the current element host in the order.
 8. Follow the order from the **Parent Host** to the **Current Host** and specify each shadow host element's **Shadow DOM** and **CSS Selector** values.
-9. Click **Create Element** and use it in Test Cases. ![Shadow Host Capture](https://s3.amazonaws.com/static-docs.testsigma.com/new_images/projects/applications/hostcapture_shadowdom.gif)
+9. Click **Create Element** and use it in Test Cases. ![Shadow Host Capture](https://s3.amazonaws.com/website-static-docs.testsigma.com/new_images/projects/Updated_Doc_Images/hostcapture_shadowdom.gif)
 
 [[info | NOTE:]]
 | To create an element in a **Test Case**, use **NLP** to add a **new step** to the test case and include a placeholder for the **Element**. Capture elements on the webpage by clicking **Create Element**, or use **Testsigma Record** to capture the steps and their associated elements during test step recording.

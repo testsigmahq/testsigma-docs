@@ -52,13 +52,13 @@ With Xray integration, you can link:
  
 ## **Steps to Integrate Xray with Testsigma** 
 1. Navigate to **Settings > Integrations**.
-![Integrations](https://s3.amazonaws.com/static-docs.testsigma.com/new_images/projects/integrations/update_xray_1.png)
+![Integrations](https://s3.amazonaws.com/website-static-docs.testsigma.com/new_images/projects/Updated_Doc_Images/update_xray_1.png)
 
 2. Enable toggle on **Xray** widget.
-![Xray Toggle](https://s3.amazonaws.com/static-docs.testsigma.com/new_images/projects/integrations/update_xray_2.png)
+![Xray Toggle](https://s3.amazonaws.com/website-static-docs.testsigma.com/new_images/projects/Updated_Doc_Images/update_xray_2.png)
 
 3. In the **Xray Details** dialog, enter **Jira Account URL**, **Client Id** and **Client Secret**, and click **Save & Enable**.
-![Xray Details](https://s3.amazonaws.com/static-docs.testsigma.com/new_images/projects/integrations/update_xray_3.png)
+![Xray Details](https://s3.amazonaws.com/website-static-docs.testsigma.com/new_images/projects/Updated_Doc_Images/update_xray_3.png)
 
 [[info | **NOTE**:]]
 | If you want to add attachments like logs, screenshots, and videos of execution for the test executions, please check the **Add Attachments to Test**.
@@ -74,7 +74,7 @@ With Xray integration, you can link:
 
 3. Enter **Xray ID** and click **Link Test Case**. 
 
-![Xray Link](https://s3.amazonaws.com/static-docs.testsigma.com/new_images/projects/integrations/update_xray_4.png)
+![Xray Link](https://s3.amazonaws.com/website-static-docs.testsigma.com/new_images/projects/Updated_Doc_Images/update_xray_4.png)
 
 ---
 
@@ -86,7 +86,7 @@ With Xray integration, you can link:
 
 3. Enter **Xray ID** and click on click the link button. 
 
-![Test Suite Link](https://s3.amazonaws.com/static-docs.testsigma.com/new_images/projects/integrations/update_xray_5.png)
+![Test Suite Link](https://s3.amazonaws.com/website-static-docs.testsigma.com/new_images/projects/Updated_Doc_Images/update_xray_5.png)
 
 [[info | **NOTE**:]]
 | For the test execution of all the test cases inside the test suite, the test cases should also be linked to appropriate test cases on Xray.
@@ -103,7 +103,7 @@ With Xray integration, you can link:
 
 3. Enter **Xray ID** and click **Link Test Plan**.
 
-![Test Plan Xray ID](https://s3.amazonaws.com/static-docs.testsigma.com/new_images/projects/integrations/update_xray_6.png)
+![Test Plan Xray ID](https://s3.amazonaws.com/website-static-docs.testsigma.com/new_images/projects/Updated_Doc_Images/update_xray_6.png)
 
 [[info | **NOTE**:]]
 | When you execute a Test Plan in Testsigma, the execution status will be updated for the linked test sets in Xray. 
@@ -113,7 +113,7 @@ With Xray integration, you can link:
 
 Refer to the screenshot below, which displays the test execution details in Xray.
 
-![Xray Execution Details](https://s3.amazonaws.com/static-docs.testsigma.com/new_images/projects/applications/xrayimgn.png)
+![Xray Execution Details](https://s3.amazonaws.com/website-static-docs.testsigma.com/new_images/projects/Updated_Doc_Images/xrayimgn.png)
 
 
 ---

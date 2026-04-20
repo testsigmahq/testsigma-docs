@@ -64,13 +64,13 @@ Now, to run tests on these cloud vendors you have added.
 
 This gif demonstrates the steps to run tests on Testsigma:
 
-![Run test on added cloud vendor platform in Testsigma](https://s3.amazonaws.com/static-docs.testsigma.com/new_images/projects/applications/vendorpf.gif)
+![Run test on added cloud vendor platform in Testsigma](https://s3.amazonaws.com/website-static-docs.testsigma.com/new_images/projects/Updated_Doc_Images/vendorpf.gif)
 
 ### Test Plans - How to select your cloud vendor ?
 While creating a Test Plan, in the first tab, you will get all the options for cloud vendors. 
 
 Please choose one as shown below. 
 
-![choose selected testlab for test plan execution in Testsigma](https://s3.amazonaws.com/static-docs.testsigma.com/new_images/projects/applications/vendorpf.gif)
+![choose selected testlab for test plan execution in Testsigma](https://s3.amazonaws.com/website-static-docs.testsigma.com/new_images/projects/Updated_Doc_Images/vendorpf.gif)
 
 ---

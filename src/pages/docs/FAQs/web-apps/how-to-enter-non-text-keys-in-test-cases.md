@@ -22,7 +22,7 @@ Testing applications requires simulating non-text keys' input on an everyday bas
 
 ## **Keys and Corresponding Values**
 
-Use NLPs in your test cases to input non-text values. For example, utilise the NLP **Press Test Data key** and substitute the values for **Test Data**. Consult the table below for the mapping of keys to their corresponding values. ![Enter non-text vaules in Test Cases](https://s3.amazonaws.com/static-docs.testsigma.com/new_images/projects/applications/entering-non-text-keys.gif)
+Use NLPs in your test cases to input non-text values. For example, utilise the NLP **Press Test Data key** and substitute the values for **Test Data**. Consult the table below for the mapping of keys to their corresponding values. ![Enter non-text vaules in Test Cases](https://s3.amazonaws.com/website-static-docs.testsigma.com/new_images/projects/Updated_Doc_Images/entering-non-text-keys.gif)
 
 |**Keyboard’s Key**|**Values**|
 |---|---|

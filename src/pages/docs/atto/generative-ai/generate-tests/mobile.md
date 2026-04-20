@@ -49,7 +49,7 @@ You can generate test cases for android and iOS applications using Testsigma’s
    - Click **+ Select Frames**, select the required frames in the **Select Frames** screen, and click **Add Frames**.
    - If you want to remove all the selections that you have made, click **Clear Selection**.
     
-     ![Inputs for Mobile](https://s3.amazonaws.com/static-docs.testsigma.com/new_images/projects/atto/mobile_1.png)
+     ![Inputs for Mobile](https://s3.amazonaws.com/website-static-docs.testsigma.com/new_images/projects/Updated_Doc_Images/mobile_1.png)
 
 [[info | **NOTE**:]]
 | - If the selected page has no **Sections**, you can directly select the frames.
@@ -57,7 +57,7 @@ You can generate test cases for android and iOS applications using Testsigma’s
 | - The maximum limit for selecting frames is 10.
 
 5. In the **Figma Designs** dialog, click **Video** from the **ADD FILES** menu. 
-   ![Video](https://s3.amazonaws.com/static-docs.testsigma.com/new_images/projects/atto/mobile_2.png)
+   ![Video](https://s3.amazonaws.com/website-static-docs.testsigma.com/new_images/projects/Updated_Doc_Images/mobile_2.png)
   
 6. In the **Video Recording** dialog, click **Add Files**. 
 

@@ -61,19 +61,19 @@ The following are the mandatory fields that should be present in the XLSX file.
 ## **Steps to Import Test Data Profile**
 
 1. From the left navigation bar, go to **Test Data** > **Test Data Profiles**, open the **List View**.
-   ![navigate to test data profiles from left navigation bar & open list view](https://s3.amazonaws.com/static-docs.testsigma.com/new_images/projects/Updated_Doc_Images/TDP_List_View.png)
+   ![navigate to test data profiles from left navigation bar & open list view](https://s3.amazonaws.com/website-static-docs.testsigma.com/new_images/projects/Updated_Doc_Images/TDP_List_View.png)
 
 2. Click **Import**.
-   ![click import button on test data profiles page](https://s3.amazonaws.com/static-docs.testsigma.com/new_images/projects/Updated_Doc_Images/Import_in_TDP_List_View.png)
+   ![click import button on test data profiles page](https://s3.amazonaws.com/website-static-docs.testsigma.com/new_images/projects/Updated_Doc_Images/Import_in_TDP_List_View.png)
 
 3. In the **Select Location** dialog, select the **Feature** and then the **Scenario** where you want to import the profile. The selected Scenario appears under **Target Scenario** at the bottom of the dialog.
-   ![Target Location for TDP Import](https://s3.amazonaws.com/static-docs.testsigma.com/new_images/projects/Updated_Doc_Images/Target_Location_for_Import_TDP.png)
+   ![Target Location for TDP Import](https://s3.amazonaws.com/website-static-docs.testsigma.com/new_images/projects/Updated_Doc_Images/Target_Location_for_Import_TDP.png)
 
 4. In the **Import Test Data Profile** dialog, select **Browse File** and choose the file to upload.
-   ![browse and select file in import test data profile dialog](https://s3.amazonaws.com/static-docs.testsigma.com/new_images/projects/Updated_Doc_Images/Browse_File_for_TDP_Import.png)
+   ![browse and select file in import test data profile dialog](https://s3.amazonaws.com/website-static-docs.testsigma.com/new_images/projects/Updated_Doc_Images/Browse_File_for_TDP_Import.png)
 
 5. Enter a **Name** for the test data profile, select the columns you want to encrypt, and click **Import**.
-   ![click import to complete import of test data profile](https://s3.amazonaws.com/static-docs.testsigma.com/new_images/projects/Updated_Doc_Images/Details_for_TDP_to_Import.png)
+   ![click import to complete import of test data profile](https://s3.amazonaws.com/website-static-docs.testsigma.com/new_images/projects/Updated_Doc_Images/Details_for_TDP_to_Import.png)
 
 A confirmation email is sent when the import completes. Refresh the Test Data Profiles page to see the imported profile in the folder tree.
 

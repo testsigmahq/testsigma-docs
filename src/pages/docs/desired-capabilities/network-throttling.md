@@ -90,29 +90,29 @@ The following profile options can be used to simulate various network conditions
 
 ## **Steps to Enable Network Throttling**
 1. From the left navigation bar, go to **Addons** and click **Add-ons**.
-![Addons](https://s3.amazonaws.com/static-docs.testsigma.com/new_images/projects/desired_capabilities/update_network_throttling_1.1.png)
+![Addons](https://s3.amazonaws.com/website-static-docs.testsigma.com/new_images/projects/Updated_Doc_Images/update_network_throttling_1.1.png)
 
 2. Under the **New & Updated Addons** section, search for the **Network Throttling** addon and click **Install**.
-![Network Throttling](https://s3.amazonaws.com/static-docs.testsigma.com/new_images/projects/desired_capabilities/update_network_throttling_2.png)
+![Network Throttling](https://s3.amazonaws.com/website-static-docs.testsigma.com/new_images/projects/Updated_Doc_Images/update_network_throttling_2.png)
 
 
 ---
 
 ## **Using Network Throttling Feature in Test Cases**
 1. From the left navigation bar, navigate to **Create Tests > Test Cases**.
-![Test Case List Page](https://s3.amazonaws.com/static-docs.testsigma.com/new_images/projects/desired_capabilities/update_network_throttling_3.png)
+![Test Case List Page](https://s3.amazonaws.com/website-static-docs.testsigma.com/new_images/projects/Updated_Doc_Images/update_network_throttling_3.png)
 
 2. Create a test case or click on an existing test case for which you want to add **Network Throttling** feature.
 
 3. You can add the **Network Throttling** feature in your test case by adding a new test step at the point where you wish to simulate the network conditions.
 
 4. Click on **Step Above**.
-![Test Step](https://s3.amazonaws.com/static-docs.testsigma.com/new_images/projects/desired_capabilities/update_network_throttling_4.png)
+![Test Step](https://s3.amazonaws.com/website-static-docs.testsigma.com/new_images/projects/Updated_Doc_Images/update_network_throttling_4.png)
 
 5. Create a step with the NLP, *Simulate network to upload_speed upload speed(kbps) download_speed download speed(kbps) latency_time latency(ms)*.
-![NLP](https://s3.amazonaws.com/static-docs.testsigma.com/new_images/projects/desired_capabilities/update_network_throttling_5.png)
+![NLP](https://s3.amazonaws.com/website-static-docs.testsigma.com/new_images/projects/Updated_Doc_Images/update_network_throttling_5.png)
 
 6. You have now added the network throttling feature to your test case. With network throttling, you can change your network profile to test the functionality of your test cases while exposed to different network environments.
-![NLP Added](https://s3.amazonaws.com/static-docs.testsigma.com/new_images/projects/desired_capabilities/update_network_throttling_6.png)
+![NLP Added](https://s3.amazonaws.com/website-static-docs.testsigma.com/new_images/projects/Updated_Doc_Images/update_network_throttling_6.png)
 
 ---

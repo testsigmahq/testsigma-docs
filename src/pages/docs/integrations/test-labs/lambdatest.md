@@ -42,13 +42,13 @@ Once the username and API key is obtained, navigate to the **Integrations** page
 1. Enable the toggle next to **LambdaTest**. 
 2. in the **LambdaTest details** dialog, enter the username and API Key obtained from **LambdaTest** here.
 3. After entering the details, click on the **Save & Enable** button to add the integration.
-![LambdaTest](https://s3.amazonaws.com/static-docs.testsigma.com/new_images/projects/integrations/update_lambdatest_1.png)
+![LambdaTest](https://s3.amazonaws.com/website-static-docs.testsigma.com/new_images/projects/Updated_Doc_Images/update_lambdatest_1.png)
 
 ---
 ## **Using LambdaTest for Test Runs**
 
 Once the account details are added to the **Integrations** page, select **LambdaTest** as the **Test Lab** type instead of Testsigma Lab while creating an Ad-hoc run or Test Plan Run.
-![LambdaTest selected in Create Ad-hoc Run page](https://s3.amazonaws.com/static-docs.testsigma.com/new_images/projects/integrations/update_lambdatest_2.png)
+![LambdaTest selected in Create Ad-hoc Run page](https://s3.amazonaws.com/website-static-docs.testsigma.com/new_images/projects/Updated_Doc_Images/update_lambdatest_2.png)
 
 ---
 ## **View Test Execution Details**

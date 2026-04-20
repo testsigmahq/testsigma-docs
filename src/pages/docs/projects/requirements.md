@@ -58,24 +58,24 @@ A software requirement can be of 3 types:
 ## **Create a Requirement**
 
 1. From the left navigation bar, go to **Create Tests > Test Cases**.
-![Test Cases](https://s3.amazonaws.com/static-docs.testsigma.com/new_images/projects/project/update_requirements_1.png)
+![Test Cases](https://s3.amazonaws.com/website-static-docs.testsigma.com/new_images/projects/Updated_Doc_Images/update_requirements_1.png)
 
 2. In the **Test Case Explorer** section, expand any **Feature** & **Scenario** and select a test case.
-![Select a test case](https://s3.amazonaws.com/static-docs.testsigma.com/new_images/projects/project/update_requirements_2.png)
+![Select a test case](https://s3.amazonaws.com/website-static-docs.testsigma.com/new_images/projects/Updated_Doc_Images/update_requirements_2.png)
 
 3. In the **Utility Panel**, click **Manage Test Case**.
-![Manage Test Case](https://s3.amazonaws.com/static-docs.testsigma.com/new_images/projects/project/update_requirements_3.png)
+![Manage Test Case](https://s3.amazonaws.com/website-static-docs.testsigma.com/new_images/projects/Updated_Doc_Images/update_requirements_3.png)
 
 4. In the **Manage Test Case** overlay, click **Create New** in the **Requirement** field.
-![Requirement](https://s3.amazonaws.com/static-docs.testsigma.com/new_images/projects/project/update_requriements_4.png)
+![Requirement](https://s3.amazonaws.com/website-static-docs.testsigma.com/new_images/projects/Updated_Doc_Images/update_requriements_4.png)
 
 5. The **Create Requirement** dialog, add the following:
    -  Enter the **Name** and an optional **Description**.
    -  Select the **Type** from the dropdown menu.
-   -  Choose the **Start Date** and **Completion Date** based on the testing requirement timeline. ![Create a requirement](https://s3.amazonaws.com/static-docs.testsigma.com/new_images/projects/project/update_requirements_5.png)
+   -  Choose the **Start Date** and **Completion Date** based on the testing requirement timeline. ![Create a requirement](https://s3.amazonaws.com/website-static-docs.testsigma.com/new_images/projects/Updated_Doc_Images/update_requirements_5.png)
 
 6. Click **Create**. 
-![Create](https://s3.amazonaws.com/static-docs.testsigma.com/new_images/projects/project/update_requirements_6.png)
+![Create](https://s3.amazonaws.com/website-static-docs.testsigma.com/new_images/projects/Updated_Doc_Images/update_requirements_6.png)
 
 ---
 
@@ -83,19 +83,19 @@ A software requirement can be of 3 types:
 ## **Edit a Requirement**
 
 1. In the **Manage Test Case** overlay, expand the requirement field and click **Edit** for a requirement.
-![Edit](https://s3.amazonaws.com/static-docs.testsigma.com/new_images/projects/project/update_requirements_7.png)
+![Edit](https://s3.amazonaws.com/website-static-docs.testsigma.com/new_images/projects/Updated_Doc_Images/update_requirements_7.png)
 
 2. In the **Edit Requirement** dialog, edit the required details and click **Update**.
-![Update](https://s3.amazonaws.com/static-docs.testsigma.com/new_images/projects/project/update_requirements_8.png)
+![Update](https://s3.amazonaws.com/website-static-docs.testsigma.com/new_images/projects/Updated_Doc_Images/update_requirements_8.png)
 
 ---
 
 ## **Delete a Requirement**
 
 1. In the **Manage Test Case** overlay, expand the requirement field and click **Delete** for a requirement. 
-![Delete a requirement](https://s3.amazonaws.com/static-docs.testsigma.com/new_images/projects/project/update_requirements_9.png)
+![Delete a requirement](https://s3.amazonaws.com/website-static-docs.testsigma.com/new_images/projects/Updated_Doc_Images/update_requirements_9.png)
 
 2. In the **Delete Requirement** dialog, click on **Delete**. 
-![Delete](https://s3.amazonaws.com/static-docs.testsigma.com/new_images/projects/project/update_requirements_10.png)
+![Delete](https://s3.amazonaws.com/website-static-docs.testsigma.com/new_images/projects/Updated_Doc_Images/update_requirements_10.png)
 
 ---

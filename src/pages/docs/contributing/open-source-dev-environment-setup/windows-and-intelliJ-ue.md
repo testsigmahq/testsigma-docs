@@ -74,11 +74,11 @@ You can set up download MySQL from this link -  <a href="https://downloads.mysql
 - Click on the modules tab and click the + icon and select import module.
 - Now select each folder i.e. Automator, agent, agent-launcher, server, ui, and import them.
 - While importing modules (Automator, agent, agent-launcher, server), select the option **Import module from external module** and then choose **Maven** and click on **Create**.
-![Maven](https://s3.amazonaws.com/static-docs.testsigma.com/new_images/projects/applications/mavenw.png)
+![Maven](https://s3.amazonaws.com/website-static-docs.testsigma.com/new_images/projects/Updated_Doc_Images/mavenw.png)
 - Only while importing **ui** as a module, choose the option **Create module from existing sources** and click on **Next**.
     - The framework will be detected as **angular**
     - Click on **Create**
-    ![Angular Framework](https://s3.amazonaws.com/static-docs.testsigma.com/new_images/projects/applications/angular.png)
+    ![Angular Framework](https://s3.amazonaws.com/website-static-docs.testsigma.com/new_images/projects/Updated_Doc_Images/angular.png)
 
 - **Build each module using the command mentioned, in the following order:**
     - **automator:** ***mvn clean install***
@@ -93,7 +93,7 @@ You can set up download MySQL from this link -  <a href="https://downloads.mysql
 
 Also, if you have already downloaded the Testsigma Agent, you can copy Android, Appium, drivers, and iOS and put the same on testsigma_os.
 
-![Tools](https://s3.amazonaws.com/static-docs.testsigma.com/new_images/projects/applications/tsos.png)
+![Tools](https://s3.amazonaws.com/website-static-docs.testsigma.com/new_images/projects/Updated_Doc_Images/tsos.png)
 
 ## **HTTPD config file changes**
 1. Once the httpd service is installed, we need to navigate to **Apache 24 > conf > httpd.conf** and change the below details:
@@ -131,12 +131,12 @@ Once the above configuration is done, we need to add UI, Server, and Agent as a 
 **Setting up UI component as service:** 
 - Click on **Run** option in the IDE and then click on **Edit configuration**.
 - Once you have clicked the **Edit configuration**, you can click on + icon in the top left corner and add the npm service.
-![npm Service](https://s3.amazonaws.com/static-docs.testsigma.com/new_images/projects/applications/npmservice.png)
+![npm Service](https://s3.amazonaws.com/website-static-docs.testsigma.com/new_images/projects/Updated_Doc_Images/npmservice.png)
 - Enter the name of the UI component. 
 - For **package.json:** select the **package.json** file present in the ui folder from the downloaded source.
 - Select **run** for command and **start** for Scripts.
 - Once the setup is done, you can click on **Ok** and your UI component is ready to run as a service.
-![Ui Component as Service](https://s3.amazonaws.com/static-docs.testsigma.com/new_images/projects/applications/uicomponent.png)
+![Ui Component as Service](https://s3.amazonaws.com/website-static-docs.testsigma.com/new_images/projects/Updated_Doc_Images/uicomponent.png)
 
 **Setting up Server Component as a service:**
 - Go to **Run → Edit Configurations**.
@@ -156,7 +156,7 @@ Once the above configuration is done, we need to add UI, Server, and Agent as a 
 
 - Click **Ok**
 - The server module is added as a service now.
-![Server Module](https://s3.amazonaws.com/static-docs.testsigma.com/new_images/projects/applications/servermodule.png)
+![Server Module](https://s3.amazonaws.com/website-static-docs.testsigma.com/new_images/projects/Updated_Doc_Images/servermodule.png)
 
 **Setting up Agent component as service:** 
 - Go to **Run → Edit Configurations**.
@@ -175,18 +175,18 @@ Once the above configuration is done, we need to add UI, Server, and Agent as a 
 |Replace &lt;userdir&gt; with your custom directory path.
 - Click **Ok**
 - The agent module is added as a service now.
-![Agent as a serive](https://s3.amazonaws.com/static-docs.testsigma.com/new_images/projects/applications/agentmasser.png)
+![Agent as a serive](https://s3.amazonaws.com/website-static-docs.testsigma.com/new_images/projects/Updated_Doc_Images/agentmasser.png)
 
 **Running the application as a service:**<br>
 Once the three components are set up as service, you can run them one by one as shown below:
-![Application as service](https://s3.amazonaws.com/static-docs.testsigma.com/new_images/projects/applications/appasservice.png)
+![Application as service](https://s3.amazonaws.com/website-static-docs.testsigma.com/new_images/projects/Updated_Doc_Images/appasservice.png)
 
 **Mapping URL to Host:** <br>
 The final step is to navigate to ```%WinDir%\System32\Drivers\Etc``` and add ```127.0.0.1       localhost devos.testsigma.com```
-![Mapping URL](https://s3.amazonaws.com/static-docs.testsigma.com/new_images/projects/applications/mappingurl.png)
+![Mapping URL](https://s3.amazonaws.com/website-static-docs.testsigma.com/new_images/projects/Updated_Doc_Images/mappingurl.png)
 
 Once this is done, you can save the host file and navigate to <a href="https://devos.testsigma.com/ui" rel="nofollow">https://devos.testsigma.com/ui</a> and see the below screen:
-![Access Testsigma](https://s3.amazonaws.com/static-docs.testsigma.com/new_images/projects/applications/testsigma.png)
+![Access Testsigma](https://s3.amazonaws.com/website-static-docs.testsigma.com/new_images/projects/Updated_Doc_Images/testsigma.png)
 
 [[info | **NOTE**:]]
 | For **Windows and IntelliJ Community Edition**, the pre-requisites remain the same. You can follow the steps provided in **macOS and IntelliJ Community Edition** for the setup.

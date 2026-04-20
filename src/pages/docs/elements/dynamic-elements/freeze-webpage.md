@@ -23,7 +23,7 @@ The overlay goes away whenever we inspect the element on the overlay or use the 
 
 Let's take an example of fetching the UI Identifier of the Drive link in the Show All overlay on Google Homepage:
 
-![Gmail](https://s3.amazonaws.com/static-docs.testsigma.com/new_images/projects/applications/gmldrv.png)
+![Gmail](https://s3.amazonaws.com/website-static-docs.testsigma.com/new_images/projects/Updated_Doc_Images/gmldrv.png)
 
 ### **There are two ways to do this:**
 
@@ -36,7 +36,7 @@ Let's take an example of fetching the UI Identifier of the Drive link in the Sho
 ## **Pause/Freeze the Javascript Execution**
 
 1. Open the **Developer Tools** and go to the **Sources** tab.
-   ![Dev Tools](https://s3.amazonaws.com/static-docs.testsigma.com/new_images/projects/applications/chrmdevtoolsde.png)
+   ![Dev Tools](https://s3.amazonaws.com/website-static-docs.testsigma.com/new_images/projects/Updated_Doc_Images/chrmdevtoolsde.png)
 
 2. Return to the application and perform the actions to bring the application to the state where you need to freeze.
 

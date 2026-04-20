@@ -39,9 +39,9 @@ Connecting MongoDB and PostgreSQL databases to Testsigma enhances your testing c
 To set up a database connection to MongoDB in Testsigma, follow these steps:
 
 1. From the left navigation bar, go to **Addons** and click **Add-ons**.
-![Addons](https://s3.amazonaws.com/static-docs.testsigma.com/new_images/projects/addons/update_oracledb_1.png)
-2. Under the **New & Updated Addons** section, search for the **MongoDB_NLPs** addon and click **Install**. ![install mongodb addon](https://s3.amazonaws.com/static-docs.testsigma.com/new_images/projects/addons/update_oracledb_2.png)
-3. Once you install the **MongoDB_NLPs** addon, you can find the predefined NLPs in **Test Steps**. ![use mongodb nlp](https://s3.amazonaws.com/static-docs.testsigma.com/new_images/projects/addons/update_oracledb_3.png)
+![Addons](https://s3.amazonaws.com/website-static-docs.testsigma.com/new_images/projects/Updated_Doc_Images/update_oracledb_1.png)
+2. Under the **New & Updated Addons** section, search for the **MongoDB_NLPs** addon and click **Install**. ![install mongodb addon](https://s3.amazonaws.com/website-static-docs.testsigma.com/new_images/projects/Updated_Doc_Images/update_oracledb_2.png)
+3. Once you install the **MongoDB_NLPs** addon, you can find the predefined NLPs in **Test Steps**. ![use mongodb nlp](https://s3.amazonaws.com/website-static-docs.testsigma.com/new_images/projects/Updated_Doc_Images/update_oracledb_3.png)
 4. The parameters available with NLPs and how to use them in Test Steps are shown below.
 
 |Parameter|Description|Example Value|
@@ -58,9 +58,9 @@ To set up a database connection to MongoDB in Testsigma, follow these steps:
 To set up a database connection to PostgreSQL in Testsigma, follow these steps:
 
 1. From the left navigation bar, go to **Addons** and click **Add-ons**.
-![Addons](https://s3.amazonaws.com/static-docs.testsigma.com/new_images/projects/addons/update_oracledb_1.png)
-2. Under the **New & Updated Addons** section, search for the **PostgreSQL_Queries** addon and click **Install**. ![install postgresql addon](https://s3.amazonaws.com/static-docs.testsigma.com/new_images/projects/addons/update_oracledb_4.png)
-3. Once you install the **PostgreSQL_Queries** addon, you can find the predefined NLPs in **Test Steps**. ![use postgresql in test steps](https://s3.amazonaws.com/static-docs.testsigma.com/new_images/projects/addons/update_oracledb_5.png)
+![Addons](https://s3.amazonaws.com/website-static-docs.testsigma.com/new_images/projects/Updated_Doc_Images/update_oracledb_1.png)
+2. Under the **New & Updated Addons** section, search for the **PostgreSQL_Queries** addon and click **Install**. ![install postgresql addon](https://s3.amazonaws.com/website-static-docs.testsigma.com/new_images/projects/Updated_Doc_Images/update_oracledb_4.png)
+3. Once you install the **PostgreSQL_Queries** addon, you can find the predefined NLPs in **Test Steps**. ![use postgresql in test steps](https://s3.amazonaws.com/website-static-docs.testsigma.com/new_images/projects/Updated_Doc_Images/update_oracledb_5.png)
 4. The parameters available with NLPs and how to use them in Test Steps are shown below.
 
 |Parameter|Description|Example Value|

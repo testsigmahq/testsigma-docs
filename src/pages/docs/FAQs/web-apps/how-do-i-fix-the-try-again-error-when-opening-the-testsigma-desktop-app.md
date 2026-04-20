@@ -18,7 +18,7 @@ When you click Open the desktop app from the Testsigma web application, the desk
 
 This issue can occur due to Chrome browser permission restrictions. After a browser version update, the permissions required to open the desktop application (such as pop-ups or local network access) may be blocked, causing Chrome to prevent the request.
 
-![Try Again](https://s3.amazonaws.com/static-docs.testsigma.com/new_images/projects/faq/chrome_138.1.png)
+![Try Again](https://s3.amazonaws.com/website-static-docs.testsigma.com/new_images/projects/Updated_Doc_Images/chrome_138.1.png)
 
 This article discusses how to resolve the permission issue. 
 
@@ -31,7 +31,7 @@ This article discusses how to resolve the permission issue.
 2. Ensure the following permissions are set to **Allow**:
    - **Pop-ups and redirects**
    - **Local network access** 
-   ![Permissions](https://s3.amazonaws.com/static-docs.testsigma.com/new_images/projects/faq/chrome_138.png)
+   ![Permissions](https://s3.amazonaws.com/website-static-docs.testsigma.com/new_images/projects/Updated_Doc_Images/chrome_138.png)
 
 3. If these permissions were previously denied, click **Reset permissions**.
 

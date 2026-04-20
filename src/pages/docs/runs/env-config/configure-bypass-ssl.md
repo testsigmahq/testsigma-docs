@@ -43,16 +43,16 @@ In this case, we can use Desired Capabilities to bypass certificate errors. Here
 |**IE and Safari**|**capabilityType.ACCEPT_SSL_CERTS**|**Boolean**|**True**|
 
 The image below shows how to add desired capabilities for the Chrome browser in a Test Plan Run in Testsigma.
-![Bypass SSL Capability](https://s3.amazonaws.com/static-docs.testsigma.com/new_images/projects/runs/update_bypass_1.png)
+![Bypass SSL Capability](https://s3.amazonaws.com/website-static-docs.testsigma.com/new_images/projects/Updated_Doc_Images/update_bypass_1.png)
 
 ---
 
 ## **Bypassing Manually**
 1. Navigate to the SSL issue website and click on **Advanced**. 
-![Not Private Error](https://s3.amazonaws.com/static-docs.testsigma.com/new_images/projects/applications/ssl1.png)
+![Not Private Error](https://s3.amazonaws.com/website-static-docs.testsigma.com/new_images/projects/Updated_Doc_Images/ssl1.png)
    
 2. Click on **Proceed to < website-url > (unsafe)** link
-![Not Private Error Advanced](https://s3.amazonaws.com/static-docs.testsigma.com/new_images/projects/applications/ssl2.png)
+![Not Private Error Advanced](https://s3.amazonaws.com/website-static-docs.testsigma.com/new_images/projects/Updated_Doc_Images/ssl2.png)
 
 You will be directed to the original website.
 

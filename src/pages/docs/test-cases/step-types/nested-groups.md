@@ -29,19 +29,19 @@ In Testsigma, you can create nested step groups from existing steps and step gro
 
 
 1. Navigate to **Create Tests > Test Cases** and click on test case in which you want to create a nested step group.
-![Test Cases](https://s3.amazonaws.com/static-docs.testsigma.com/new_images/projects/test_cases/update_nested_groups_1.png)
+![Test Cases](https://s3.amazonaws.com/website-static-docs.testsigma.com/new_images/projects/Updated_Doc_Images/update_nested_groups_1.png)
 
 
 2. Check the steps you want to include in a step group, and click on **Create Step Group**.
-![Create SG](https://s3.amazonaws.com/static-docs.testsigma.com/new_images/projects/test_cases/update_nested_groups_2.png)
+![Create SG](https://s3.amazonaws.com/website-static-docs.testsigma.com/new_images/projects/Updated_Doc_Images/update_nested_groups_2.png)
 
 
 3. On **Create Step Group** prompt, enter **Name** and click on **Create and Replace**.
-![Create and Replace](https://s3.amazonaws.com/static-docs.testsigma.com/new_images/projects/test_cases/update_nested_groups_3.png)
+![Create and Replace](https://s3.amazonaws.com/website-static-docs.testsigma.com/new_images/projects/Updated_Doc_Images/update_nested_groups_3.png)
 
 
 4. You can see Nested step group as below. 
-![Image](https://s3.amazonaws.com/static-docs.testsigma.com/new_images/projects/test_cases/update_nested_groups_4.png)
+![Image](https://s3.amazonaws.com/website-static-docs.testsigma.com/new_images/projects/Updated_Doc_Images/update_nested_groups_4.png)
 
 
 ---
@@ -51,22 +51,22 @@ In Testsigma, you can create nested step groups from existing steps and step gro
 
 
 1. Navigate to **Create Tests > Step Groups**.
-![Step Gorups](https://s3.amazonaws.com/static-docs.testsigma.com/new_images/projects/test_cases/update_nested_groups_5.png)
+![Step Gorups](https://s3.amazonaws.com/website-static-docs.testsigma.com/new_images/projects/Updated_Doc_Images/update_nested_groups_5.png)
 
 2. Click **Create Step Group**. 
-![Step Group](https://s3.amazonaws.com/static-docs.testsigma.com/new_images/projects/test_cases/updated_nested_groups_6.png)
+![Step Group](https://s3.amazonaws.com/website-static-docs.testsigma.com/new_images/projects/Updated_Doc_Images/updated_nested_groups_6.png)
 
 3. Create the test steps that you want to include in the nested step group.
-![Test Steps](https://s3.amazonaws.com/static-docs.testsigma.com/new_images/projects/test_cases/update_nested_groups_6.png)
+![Test Steps](https://s3.amazonaws.com/website-static-docs.testsigma.com/new_images/projects/Updated_Doc_Images/update_nested_groups_6.png)
 
 4. After creating the steps, select the ones you want to add to the nested step group.
-![Select test steps](https://s3.amazonaws.com/static-docs.testsigma.com/new_images/projects/test_cases/update_nested_groups_7.png)
+![Select test steps](https://s3.amazonaws.com/website-static-docs.testsigma.com/new_images/projects/Updated_Doc_Images/update_nested_groups_7.png)
 
 5. On **Create Step Group** prompt, enter **Name** and click on **Create and Replace**.
-![Create and Replace](https://s3.amazonaws.com/static-docs.testsigma.com/new_images/projects/test_cases/update_nested_groups_8.png) 
+![Create and Replace](https://s3.amazonaws.com/website-static-docs.testsigma.com/new_images/projects/Updated_Doc_Images/update_nested_groups_8.png) 
 
 6. You can see the Nested step group created below. 
-![Demo SG](https://s3.amazonaws.com/static-docs.testsigma.com/new_images/projects/test_cases/update_nested_groups_9.png)
+![Demo SG](https://s3.amazonaws.com/website-static-docs.testsigma.com/new_images/projects/Updated_Doc_Images/update_nested_groups_9.png)
 
 [[info | **NOTE**:]]
 | You can only create up to 3 levels of nested groups in a Test Case and Step Group. 

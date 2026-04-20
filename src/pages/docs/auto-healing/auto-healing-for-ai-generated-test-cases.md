@@ -38,16 +38,16 @@ If you generate test cases using Atto and automate them without learning the liv
 ## **Steps to Execute the Generated Test Cases**
 
 1. Once the test case has been added to the selected scenario, click **Run**.
-   ![Run](https://s3.amazonaws.com/static-docs.testsigma.com/new_images/projects/auto_healing/Ai_generated_test.png)
+   ![Run](https://s3.amazonaws.com/website-static-docs.testsigma.com/new_images/projects/Updated_Doc_Images/Ai_generated_test.png)
 
 2. On the **Ad-Hoc Run** overlay, configure the required options and click **Run Now**.
-   ![Run Now](https://s3.amazonaws.com/static-docs.testsigma.com/new_images/projects/auto_healing/Ai_generated_test_2.png)
+   ![Run Now](https://s3.amazonaws.com/website-static-docs.testsigma.com/new_images/projects/Updated_Doc_Images/Ai_generated_test_2.png)
 
 3. During execution, Testsigma’s auto-healing detects that the **Email address or phone number** element uses a dummy locator and automatically heals it by identifying the correct element.
-   ![Run Result](https://s3.amazonaws.com/static-docs.testsigma.com/new_images/projects/auto_healing/Ai_generated_test_case_4.png)
+   ![Run Result](https://s3.amazonaws.com/website-static-docs.testsigma.com/new_images/projects/Updated_Doc_Images/Ai_generated_test_case_4.png)
 
 4. When **Gen AI Auto-Healing** is enabled, Testsigma updates the locator to **//input[@id='email']** and continues the execution seamlessly. 
-   ![Auto-Heal](https://s3.amazonaws.com/static-docs.testsigma.com/new_images/projects/auto_healing/Ai_generated_test_case_3.png)
+   ![Auto-Heal](https://s3.amazonaws.com/website-static-docs.testsigma.com/new_images/projects/Updated_Doc_Images/Ai_generated_test_case_3.png)
 
 ---
 

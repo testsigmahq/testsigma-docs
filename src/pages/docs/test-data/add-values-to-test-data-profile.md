@@ -38,19 +38,19 @@ This article explains how to update the values of a Test Data Profile directly f
 1. From the left navigation bar, go to **Create Tests** > **Test Cases** and create or open an existing test case.
 
 2. Add a new test step using the NLP for updating a test data profile value.
-   ![NLP](https://s3.amazonaws.com/static-docs.testsigma.com/new_images/projects/test_data/update_tdp_value_2.png)
+   ![NLP](https://s3.amazonaws.com/website-static-docs.testsigma.com/new_images/projects/Updated_Doc_Images/update_tdp_value_2.png)
 
 3. In the NLP step, hover over the **test data** placeholder and select **Plain text** from the dropdown. Replace it with the value you want to update.
-   ![plain text](https://s3.amazonaws.com/static-docs.testsigma.com/new_images/projects/test_data/update_tdp_value_3.png)
+   ![plain text](https://s3.amazonaws.com/website-static-docs.testsigma.com/new_images/projects/Updated_Doc_Images/update_tdp_value_3.png)
 
 4. Hover over the **test data profile** placeholder and select the profile you want to update. Profiles are listed under their respective Feature and Scenario folders.
-   ![tdp](https://s3.amazonaws.com/static-docs.testsigma.com/new_images/projects/test_data/update_tdp_value_4.png)
+   ![tdp](https://s3.amazonaws.com/website-static-docs.testsigma.com/new_images/projects/Updated_Doc_Images/update_tdp_value_4.png)
 
 5. Hover over the **parameter** placeholder and select the column in the profile you want to update.
-   ![column](https://s3.amazonaws.com/static-docs.testsigma.com/new_images/projects/test_data/update_tdp_value_5.png)
+   ![column](https://s3.amazonaws.com/website-static-docs.testsigma.com/new_images/projects/Updated_Doc_Images/update_tdp_value_5.png)
 
 6. Select **Run** to execute the test case.
-   ![Run](https://s3.amazonaws.com/static-docs.testsigma.com/new_images/projects/test_data/update_tdp_value_6.png)
+   ![Run](https://s3.amazonaws.com/website-static-docs.testsigma.com/new_images/projects/Updated_Doc_Images/update_tdp_value_6.png)
 
 On successful execution, the value is updated in the Test Data Profile.
 

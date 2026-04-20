@@ -41,7 +41,7 @@ Once the username and API key is obtained, navigate to the **Integrations** page
 1. Enable the toggle next to **Kobiton**. 
 2. in the **Kobiton details** dialog, enter the username and API Key obtained from **Kobiton** here.
 3. After entering the details, click on the **Save & Enable** button to add the integration.
-![Kobiton](https://s3.amazonaws.com/static-docs.testsigma.com/new_images/projects/integrations/update_kobiton_1.png)
+![Kobiton](https://s3.amazonaws.com/website-static-docs.testsigma.com/new_images/projects/Updated_Doc_Images/update_kobiton_1.png)
 
 ---
 ## **Using Kobiton for Test Runs**

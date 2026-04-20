@@ -24,22 +24,22 @@ If your app is already signed using the **Apple Developer Enterprise Program**, 
 ## **Steps to Resolve App Launch Issues**
 
 1. From the left navigation bar, go to **Create Tests** and click **Test Cases**.
-   ![Test Cases](https://s3.amazonaws.com/static-docs.testsigma.com/new_images/projects/faq/IPA_1.1.png)
+   ![Test Cases](https://s3.amazonaws.com/website-static-docs.testsigma.com/new_images/projects/Updated_Doc_Images/IPA_1.1.png)
 
 2. In the **Test Case Explorer** section, expand the required **Feature** and **Scenario** and select the required test case.
-   ![Select a test case](https://s3.amazonaws.com/static-docs.testsigma.com/new_images/projects/faq/IPA_2.png)
+   ![Select a test case](https://s3.amazonaws.com/website-static-docs.testsigma.com/new_images/projects/Updated_Doc_Images/IPA_2.png)
 
 3. In the **Test Case Details** page, click **Run**.
-   ![Run](https://s3.amazonaws.com/static-docs.testsigma.com/new_images/projects/faq/IPA_3.png)
+   ![Run](https://s3.amazonaws.com/website-static-docs.testsigma.com/new_images/projects/Updated_Doc_Images/IPA_3.png)
 
 4. In the **Ad-Hoc Run** overlay, expand the **Desired Capabilities** field and specify the following desired capability:
 
    |Key|Data type|Value|
    |---|---|---|
    |resignApp|String|false|
-   ![desired capability](https://s3.amazonaws.com/static-docs.testsigma.com/new_images/projects/faq/IPA_4.png)
+   ![desired capability](https://s3.amazonaws.com/website-static-docs.testsigma.com/new_images/projects/Updated_Doc_Images/IPA_4.png)
 
 5. Click **Run Now**. 
-   ![Run now](https://s3.amazonaws.com/static-docs.testsigma.com/new_images/projects/faq/IPA_5.png)
+   ![Run now](https://s3.amazonaws.com/website-static-docs.testsigma.com/new_images/projects/Updated_Doc_Images/IPA_5.png)
 
 ---

@@ -40,28 +40,28 @@ For applications built on UWP, WinForms, WPF, and Classic Windows, you can provi
 
 1. From the left navigation bar, go to **Create Tests > Elements** and click **Record**.
    
-   ![Record](https://s3.amazonaws.com/static-docs.testsigma.com/new_images/projects/applications/WL_Element.png)
+   ![Record](https://s3.amazonaws.com/website-static-docs.testsigma.com/new_images/projects/Updated_Doc_Images/WL_Element.png)
 
 2. On **Record Elements** overlay, select **Local Test Machine**, provide **App path** and click **Record**.
 
-   ![Record Element](https://s3.amazonaws.com/static-docs.testsigma.com/new_images/projects/applications/WL_ElementRecord.png)
+   ![Record Element](https://s3.amazonaws.com/website-static-docs.testsigma.com/new_images/projects/Updated_Doc_Images/WL_ElementRecord.png)
 
 3. Wait for the app to load fully.
 
 4. Once the app is loaded, click on the element you want to capture.
    
-   ![Click Element](https://s3.amazonaws.com/static-docs.testsigma.com/new_images/projects/applications/WL_WaitforApptoLoad.png)
+   ![Click Element](https://s3.amazonaws.com/website-static-docs.testsigma.com/new_images/projects/Updated_Doc_Images/WL_WaitforApptoLoad.png)
 
 5. On the **Create Element** section, validate the **Name**, **Screen Name**, **Element Type**, and the **Value**.
 
-   ![Validate](https://s3.amazonaws.com/static-docs.testsigma.com/new_images/projects/applications/WL_ValidateElement.png)
+   ![Validate](https://s3.amazonaws.com/website-static-docs.testsigma.com/new_images/projects/Updated_Doc_Images/WL_ValidateElement.png)
 
 6. Click **Create**.
    
-   ![Create Element](https://s3.amazonaws.com/static-docs.testsigma.com/new_images/projects/applications/WL_CreateElement.png)
+   ![Create Element](https://s3.amazonaws.com/website-static-docs.testsigma.com/new_images/projects/Updated_Doc_Images/WL_CreateElement.png)
 
 7. Stop the recorder to close the session.
    
-   ![Stop Recorder](https://s3.amazonaws.com/static-docs.testsigma.com/new_images/projects/applications/WL_Stop_Recorder.png)
+   ![Stop Recorder](https://s3.amazonaws.com/website-static-docs.testsigma.com/new_images/projects/Updated_Doc_Images/WL_Stop_Recorder.png)
 
 ---

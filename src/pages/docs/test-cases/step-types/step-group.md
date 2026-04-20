@@ -50,13 +50,13 @@ Logging in to an account is a common prerequisite. Instead of duplicating these 
 ## **Create a New Step Group**
 
 1. From the left navigatio bar, go to **Create Tests > Step Groups**, click **Create Step Group**.
-   ![Create Step Group](https://s3.amazonaws.com/static-docs.testsigma.com/new_images/projects/Updated_Doc_Images/Step_Groups_Nav.png)
+   ![Create Step Group](https://s3.amazonaws.com/website-static-docs.testsigma.com/new_images/projects/Updated_Doc_Images/Step_Groups_Nav.png)
 
 2. Enter **Name** and create steps manually by clicking **Add new step**.
-   ![Name & New Step](https://s3.amazonaws.com/static-docs.testsigma.com/new_images/projects/Updated_Doc_Images/Name_Step_Group.png)
+   ![Name & New Step](https://s3.amazonaws.com/website-static-docs.testsigma.com/new_images/projects/Updated_Doc_Images/Name_Step_Group.png)
 
    Alternatively, you can click **Record** to record steps for the step group. 
-   ![Alternate Method](https://s3.amazonaws.com/static-docs.testsigma.com/new_images/projects/Updated_Doc_Images/Record_Step_Group.png)
+   ![Alternate Method](https://s3.amazonaws.com/website-static-docs.testsigma.com/new_images/projects/Updated_Doc_Images/Record_Step_Group.png)
 
 
 3. After adding all the steps, you can use the step group in any test case. 
@@ -67,9 +67,9 @@ Logging in to an account is a common prerequisite. Instead of duplicating these 
 | 1. Create a step group and click **Step Group Settings**.
 | 2. On **Step Group Settings**, 
 |     - Select the **Test Data Profile** you want to associate with the Step Group. 
-|     ![Test Data Profile](https://s3.amazonaws.com/static-docs.testsigma.com/new_images/projects/Updated_Doc_Images/Step_Group_Settings.png) 
+|     ![Test Data Profile](https://s3.amazonaws.com/website-static-docs.testsigma.com/new_images/projects/Updated_Doc_Images/Step_Group_Settings.png) 
 |     - Enable the **Data Driven** toggle. 
-|     ![Data Driven](https://s3.amazonaws.com/static-docs.testsigma.com/new_images/projects/Updated_Doc_Images/Step_Group_Data_Driven_Toggle.png)
+|     ![Data Driven](https://s3.amazonaws.com/website-static-docs.testsigma.com/new_images/projects/Updated_Doc_Images/Step_Group_Data_Driven_Toggle.png)
 |     - Now, create all the steps and your data-driven step group will be ready to use across test cases.
 
 ---
@@ -88,16 +88,16 @@ Logging in to an account is a common prerequisite. Instead of duplicating these 
 ## **Delete a Step Group**
 
 1. From the **Step Group** list page, click kebab menu next to the step group you want to delete and click **Delete**.
-   ![Delete](https://s3.amazonaws.com/static-docs.testsigma.com/new_images/projects/Updated_Doc_Images/Delete_Step_Group.png)
+   ![Delete](https://s3.amazonaws.com/website-static-docs.testsigma.com/new_images/projects/Updated_Doc_Images/Delete_Step_Group.png)
 
 2. This will open **Deletion Warning** popup. 
-   ![PopUp](https://s3.amazonaws.com/static-docs.testsigma.com/new_images/projects/applications/sgdltpop.png)
+   ![PopUp](https://s3.amazonaws.com/website-static-docs.testsigma.com/new_images/projects/Updated_Doc_Images/sgdltpop.png)
 
    [[info | **NOTE**:]]
    | This will show the list of affected test cases. Deletion of the step group will remove the step group in the linked test cases.
 
 3. Enter **DELETE** and click **I understand, delete this Step Group**. 
-   ![Delete](https://s3.amazonaws.com/static-docs.testsigma.com/new_images/projects/applications/sgdtltdcod.png)
+   ![Delete](https://s3.amazonaws.com/website-static-docs.testsigma.com/new_images/projects/Updated_Doc_Images/sgdtltdcod.png)
 
 4. The step group will be deleted successfully. 
 
@@ -111,10 +111,10 @@ Logging in to an account is a common prerequisite. Instead of duplicating these 
 2. Open the **Test Case** in which you want to edit the Step Group.
 
 3. Expand the **Step Group** to edit any test data or element being used in the step group. 
-   ![Edit Step Group](https://s3.amazonaws.com/static-docs.testsigma.com/new_images/projects/Updated_Doc_Images/Expand_Step_Group.png)
+   ![Edit Step Group](https://s3.amazonaws.com/website-static-docs.testsigma.com/new_images/projects/Updated_Doc_Images/Expand_Step_Group.png)
 
 4. After updating any step click **Update Step** to save the changes.
-   ![Save Changes](https://s3.amazonaws.com/static-docs.testsigma.com/new_images/projects/Updated_Doc_Images/Update_Step_Of_Step_Group.png)
+   ![Save Changes](https://s3.amazonaws.com/website-static-docs.testsigma.com/new_images/projects/Updated_Doc_Images/Update_Step_Of_Step_Group.png)
 
 [[info | **NOTE**:]]
 | 1. You can edit test data and elements for specific test cases but not the NLP. 
@@ -130,17 +130,17 @@ Logging in to an account is a common prerequisite. Instead of duplicating these 
 2. Open the **Test Case** from you want to create a step group. 
 
 3. Once you start selecting the test steps, an option bar will appear on top of the test steps. Select all the steps you want in a step group and click on **Create Step Group**.
-   ![Create Step Group](https://s3.amazonaws.com/static-docs.testsigma.com/new_images/projects/Updated_Doc_Images/Select_For_Step_Group.png)
+   ![Create Step Group](https://s3.amazonaws.com/website-static-docs.testsigma.com/new_images/projects/Updated_Doc_Images/Select_For_Step_Group.png)
    
 4. This will open a pop-up as below:
-   ![Create](https://s3.amazonaws.com/static-docs.testsigma.com/new_images/projects/Updated_Doc_Images/Step_Group_Confirmation.png)
+   ![Create](https://s3.amazonaws.com/website-static-docs.testsigma.com/new_images/projects/Updated_Doc_Images/Step_Group_Confirmation.png)
     - If you click on the **Create**, a new step group with the selected test steps and the given name would be created. 
     - If you click on the **Create and Replace** button, a new step group with the selected test steps and the given name would be created and the selected test steps would be replaced by the created step group.
 
 
 [[info | **NOTE**:]]
 | If you don't select consecutive test steps then the pop-up that appears won't show you the **Create and Replace** button.
-| ![Only Create](https://s3.amazonaws.com/static-docs.testsigma.com/new_images/projects/Updated_Doc_Images/Step_Group_Without_CR.png)
+| ![Only Create](https://s3.amazonaws.com/website-static-docs.testsigma.com/new_images/projects/Updated_Doc_Images/Step_Group_Without_CR.png)
 
 
 ---
@@ -153,13 +153,13 @@ Logging in to an account is a common prerequisite. Instead of duplicating these 
 2. Expand a **Feature**, then expand a **Scenario**, and click ‘**+**’ next to the scenario where you want to add the test case or open a **Test Case** in which you want to add a step group. 
 
 3. On the test case details page, click the option on the left side of the test step and select **Step Group**.
-   ![Add Step Group](https://s3.amazonaws.com/static-docs.testsigma.com/new_images/projects/Updated_Doc_Images/Add_Step_Group_to_Test_Case.png)
+   ![Add Step Group](https://s3.amazonaws.com/website-static-docs.testsigma.com/new_images/projects/Updated_Doc_Images/Add_Step_Group_to_Test_Case.png)
 
 4. From the **Step Group** list overlay, select the step group you want to add. 
-   ![Step Group Overlay](https://s3.amazonaws.com/static-docs.testsigma.com/new_images/projects/Updated_Doc_Images/Step_Group_Overlay.png)
+   ![Step Group Overlay](https://s3.amazonaws.com/website-static-docs.testsigma.com/new_images/projects/Updated_Doc_Images/Step_Group_Overlay.png)
 
 5. Click **Create Step**.
-   ![Create Step](https://s3.amazonaws.com/static-docs.testsigma.com/new_images/projects/Updated_Doc_Images/Add_Step_Group_Confirmation.png)
+   ![Create Step](https://s3.amazonaws.com/website-static-docs.testsigma.com/new_images/projects/Updated_Doc_Images/Add_Step_Group_Confirmation.png)
 
 
 [[info | **NOTE**:]]
@@ -176,15 +176,15 @@ Logging in to an account is a common prerequisite. Instead of duplicating these 
 3. On the test case details page, click the option icon next to the test step, and then select **Step Group**.
 
 4. In the **Step Group** list overlay, click **Reuse Step Group**.
-   ![Reuse Step Group](https://s3.amazonaws.com/static-docs.testsigma.com/new_images/projects/Updated_Doc_Images/Reuse_Step_Group.png)
+   ![Reuse Step Group](https://s3.amazonaws.com/website-static-docs.testsigma.com/new_images/projects/Updated_Doc_Images/Reuse_Step_Group.png)
 
 5. In the **Reuse Step Group** dialog:
    - Select the **project**, **application**, and **version**.
    - Select a step group from the **Reuse Step Group** dropdown list.
-     ![Reuse Step Group Details](https://s3.amazonaws.com/static-docs.testsigma.com/new_images/projects/Updated_Doc_Images/Reuse_Step_Group_Details.png)
+     ![Reuse Step Group Details](https://s3.amazonaws.com/website-static-docs.testsigma.com/new_images/projects/Updated_Doc_Images/Reuse_Step_Group_Details.png)
 
 6. Click **Create Step**.
-   ![Create Step](https://s3.amazonaws.com/static-docs.testsigma.com/new_images/projects/Updated_Doc_Images/Create_Step_from_Different_Project_Step_Group.png)
+   ![Create Step](https://s3.amazonaws.com/website-static-docs.testsigma.com/new_images/projects/Updated_Doc_Images/Create_Step_from_Different_Project_Step_Group.png)
 
 7. The step group is added from the selected project.
 

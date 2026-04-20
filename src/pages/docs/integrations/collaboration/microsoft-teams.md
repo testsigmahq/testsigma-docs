@@ -36,15 +36,15 @@ Integrating Testsigma with Microsoft Teams is similar to integrating with other 
 
 
 1. Navigate to **Settings > Integrations**.
-![Integrations](https://s3.amazonaws.com/static-docs.testsigma.com/new_images/projects/applications/mstinav.png)
+![Integrations](https://s3.amazonaws.com/website-static-docs.testsigma.com/new_images/projects/Updated_Doc_Images/mstinav.png)
 
 
 2. Enable toggle on **MS Teams** widget.
-![MS Teams Toggle](https://s3.amazonaws.com/static-docs.testsigma.com/new_images/projects/applications/mstitgle.png)
+![MS Teams Toggle](https://s3.amazonaws.com/website-static-docs.testsigma.com/new_images/projects/Updated_Doc_Images/mstitgle.png)
 
 
 3. On the **MS Teams details** prompt, enter **Name**, **Connector URL** and click on **Save & Enable**.
-![Details](https://s3.amazonaws.com/static-docs.testsigma.com/new_images/projects/applications/mstisaen.png)
+![Details](https://s3.amazonaws.com/website-static-docs.testsigma.com/new_images/projects/Updated_Doc_Images/mstisaen.png)
 
 
 ---
@@ -56,19 +56,19 @@ Once the MS Teams integration is added, you can enable the MS Teams notification
 
 
 1. On **Create Test Plan/Edit Test Plan** page, click on **Test Plan Settings**. 
-![TP Settings](https://s3.amazonaws.com/static-docs.testsigma.com/new_images/projects/applications/mstitpse.png)
+![TP Settings](https://s3.amazonaws.com/website-static-docs.testsigma.com/new_images/projects/Updated_Doc_Images/mstitpse.png)
 
 
 2. Enable **Send Notification** toggle.
-![Send Notification](https://s3.amazonaws.com/static-docs.testsigma.com/new_images/projects/applications/mstiet.png)
+![Send Notification](https://s3.amazonaws.com/website-static-docs.testsigma.com/new_images/projects/Updated_Doc_Images/mstiet.png)
 
 
 3. Under the **Notify On** section, select the status for which you want to be notified. You can select multiple statuses from the list.
-![Status](https://s3.amazonaws.com/static-docs.testsigma.com/new_images/projects/applications/mstimss.png)
+![Status](https://s3.amazonaws.com/website-static-docs.testsigma.com/new_images/projects/Updated_Doc_Images/mstimss.png)
 
 
 4. Under the **Also send messages to** dropdown, select **MS Teams**.
-![MS Teams](https://s3.amazonaws.com/static-docs.testsigma.com/new_images/projects/applications/mstismst.png)
+![MS Teams](https://s3.amazonaws.com/website-static-docs.testsigma.com/new_images/projects/Updated_Doc_Images/mstismst.png)
 
 
 

@@ -38,19 +38,19 @@ Domain Functions design email addresses with specific domains. They create email
 ## **Selecting DomainFunctions as a Function Type for Data Generator**
 
 1. From the left navigation bar, go to **Create Tests > Test Cases** and create a new test case.
-![Test Cases](https://s3.amazonaws.com/static-docs.testsigma.com/new_images/projects/test_data/update_randomtext_1.png) 
+![Test Cases](https://s3.amazonaws.com/website-static-docs.testsigma.com/new_images/projects/Updated_Doc_Images/update_randomtext_1.png) 
 
 2. Use **NLP** to create a **new step** in the test case and include a placeholder for **test data**.
-![NLP](https://s3.amazonaws.com/static-docs.testsigma.com/new_images/projects/test_data/update_domain_1.png)
+![NLP](https://s3.amazonaws.com/website-static-docs.testsigma.com/new_images/projects/Updated_Doc_Images/update_domain_1.png)
 
 3. Click on the **test data** placeholder. From the **Test Data Types** dropdown menu, select the **! Data Generator** option.
-![Data Generator](https://s3.amazonaws.com/static-docs.testsigma.com/new_images/projects/test_data/update_domain_2.png)
+![Data Generator](https://s3.amazonaws.com/website-static-docs.testsigma.com/new_images/projects/Updated_Doc_Images/update_domain_2.png)
 
 4. On the **! Data Generators** overlay screen, select the **Type** to **Default**. This will enable you to use a collection of built-in test data generators.
-![Default](https://s3.amazonaws.com/static-docs.testsigma.com/new_images/projects/test_data/update_domain_3.png)
+![Default](https://s3.amazonaws.com/website-static-docs.testsigma.com/new_images/projects/Updated_Doc_Images/update_domain_3.png)
 
 5. Select **DomainFunctions** from the **Function Type** dropdown list. 
-![DomainFunctions](https://s3.amazonaws.com/static-docs.testsigma.com/new_images/projects/test_data/update_domain_4.png)
+![DomainFunctions](https://s3.amazonaws.com/website-static-docs.testsigma.com/new_images/projects/Updated_Doc_Images/update_domain_4.png)
 
 
 [[info | NOTE:]]

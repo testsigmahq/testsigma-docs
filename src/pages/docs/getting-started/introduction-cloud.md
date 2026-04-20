@@ -35,7 +35,7 @@ Testsigma Cloud is a fully managed test automation platform that includes all th
 
 
 <br>
-<iframe src="https://s3.amazonaws.com/static-docs.testsigma.com/new_images/projects/applications/testsigma_overview.mp4" width="600" height="400"></iframe>
+<iframe src="https://s3.amazonaws.com/website-static-docs.testsigma.com/new_images/projects/Updated_Doc_Images/testsigma_overview.mp4" width="600" height="400"></iframe>
  &emsp;
 
 

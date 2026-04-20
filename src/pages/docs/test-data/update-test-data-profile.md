@@ -41,23 +41,23 @@ This article explains how to update an existing Test Data Profile by importing a
 ## **Steps to Update Test Data Profile**
 
 1. From the left navigation bar, go to **Test Data** > **Test Data Profiles**.
-   ![navigate to test data profiles from left navigation bar](https://s3.amazonaws.com/static-docs.testsigma.com/new_images/projects/Updated_Doc_Images/Test_Data_Profile_Folder_Navigation.png)
+   ![navigate to test data profiles from left navigation bar](https://s3.amazonaws.com/website-static-docs.testsigma.com/new_images/projects/Updated_Doc_Images/Test_Data_Profile_Folder_Navigation.png)
 
 2. Locate the Test Data Profile you want to update using one of these methods:
    
    - In the **List View**, select the Kebab menu (⋮) next to the TDP, then select **Update TDP**.
-     ![Update TDP from List](https://s3.amazonaws.com/static-docs.testsigma.com/new_images/projects/Updated_Doc_Images/Update_TDP_from_List_View.png)
+     ![Update TDP from List](https://s3.amazonaws.com/website-static-docs.testsigma.com/new_images/projects/Updated_Doc_Images/Update_TDP_from_List_View.png)
    
    - In the left panel, expand the feature and scenario that contains the Test Data Profile, open it from the folder tree, then select **Update** in the top-right corner.
-     ![Update TDP from Details Page](https://s3.amazonaws.com/static-docs.testsigma.com/new_images/projects/Updated_Doc_Images/Update_TDP_from_Details_page.png)
+     ![Update TDP from Details Page](https://s3.amazonaws.com/website-static-docs.testsigma.com/new_images/projects/Updated_Doc_Images/Update_TDP_from_Details_page.png)
 
 3. In the **Import Test Data Profile** dialog, select **Browse File** and choose the replacement file.
-   ![Browse](https://s3.amazonaws.com/static-docs.testsigma.com/new_images/projects/Updated_Doc_Images/Browse_and_Select_TDP_File.png)
+   ![Browse](https://s3.amazonaws.com/website-static-docs.testsigma.com/new_images/projects/Updated_Doc_Images/Browse_and_Select_TDP_File.png)
 
 4. Select the columns you want to encrypt.
 
 5. Click **Import**.
-   ![Import](https://s3.amazonaws.com/static-docs.testsigma.com/new_images/projects/Updated_Doc_Images/Import_New_TDP_to_Update.png)
+   ![Import](https://s3.amazonaws.com/website-static-docs.testsigma.com/new_images/projects/Updated_Doc_Images/Import_New_TDP_to_Update.png)
 
 A confirmation email is sent when the update completes.
 

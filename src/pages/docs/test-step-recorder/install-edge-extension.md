@@ -28,13 +28,13 @@ With Testsigma's Edge Extension, users can quickly record test steps and create 
 1. Go to <a href="https://microsoftedge.microsoft.com/addons/detail/testsigma-recorder/pdgdbfedjpffcnmgedicplikkejikhif" rel="nofollow">Testsigma Recorder</a>
 
 2. Click on **Get**.
-![Get](https://s3.amazonaws.com/static-docs.testsigma.com/new_images/projects/applications/egget.png)
+![Get](https://s3.amazonaws.com/website-static-docs.testsigma.com/new_images/projects/Updated_Doc_Images/egget.png)
 
 3. On the permission prompt, click on **Add Extension**.
-![Add Extension](https://s3.amazonaws.com/static-docs.testsigma.com/new_images/projects/applications/egaext.png)
+![Add Extension](https://s3.amazonaws.com/website-static-docs.testsigma.com/new_images/projects/Updated_Doc_Images/egaext.png)
 
 4. On successful installation, the following message will appear:
-![Success Messaga](https://s3.amazonaws.com/static-docs.testsigma.com/new_images/projects/applications/egsmosi.png)
+![Success Messaga](https://s3.amazonaws.com/website-static-docs.testsigma.com/new_images/projects/Updated_Doc_Images/egsmosi.png)
 
 ---
 
@@ -47,12 +47,12 @@ You can record steps in private mode by enabling the Allow in InPrivate option i
 ### **Extension Settings for InPrivate Mode**
 
 **1. Open the Testsigma Extension:** Go to **Extensions** and click the meatballs menu on Testsigma extension icon in the browser toolbar.
-![Go to Extension](https://s3.amazonaws.com/static-docs.testsigma.com/new_images/projects/applications/eggtext.png)
+![Go to Extension](https://s3.amazonaws.com/website-static-docs.testsigma.com/new_images/projects/Updated_Doc_Images/eggtext.png)
 
 **2. Access Extension Settings:** From the extension menu, select **Manage Extension**.
-![Manage Extension](https://s3.amazonaws.com/static-docs.testsigma.com/new_images/projects/applications/egmexten.png)
+![Manage Extension](https://s3.amazonaws.com/website-static-docs.testsigma.com/new_images/projects/Updated_Doc_Images/egmexten.png)
 
 **3. Enable Allow in InPrivate:** Toggle on **Allow in InPrivate** option. 
-![Enable InPrivate](https://s3.amazonaws.com/static-docs.testsigma.com/new_images/projects/applications/egeipb.png)
+![Enable InPrivate](https://s3.amazonaws.com/website-static-docs.testsigma.com/new_images/projects/Updated_Doc_Images/egeipb.png)
 
 ---

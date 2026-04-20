@@ -40,28 +40,28 @@ When using the Test Recorder to create test steps and elements, you might encoun
 ## **Steps to Verify Elements from Test Steps**
 
 1. From the left navigation bar, go to **Create Tests > Test Cases**.
-   ![Test Cases](https://s3.amazonaws.com/static-docs.testsigma.com/new_images/projects/elements/verify_elements_1.png)
+   ![Test Cases](https://s3.amazonaws.com/website-static-docs.testsigma.com/new_images/projects/Updated_Doc_Images/verify_elements_1.png)
 
 2. Create a test case by selecting Create Test Case in the top right corner, or open an existing test case.
-   ![Select an existing test case](https://s3.amazonaws.com/static-docs.testsigma.com/new_images/projects/elements/verify_elements_2.1.png)
+   ![Select an existing test case](https://s3.amazonaws.com/website-static-docs.testsigma.com/new_images/projects/Updated_Doc_Images/verify_elements_2.1.png)
 
 3. On the **Test Case Details** page, click **Record** in the top right corner.
-   ![Record](https://s3.amazonaws.com/static-docs.testsigma.com/new_images/projects/elements/verify_elements_3.1.png)
+   ![Record](https://s3.amazonaws.com/website-static-docs.testsigma.com/new_images/projects/Updated_Doc_Images/verify_elements_3.1.png)
 
 4. A new window with the given URL will open, allowing you to record the test steps.
-   ![Simply Travel Window](https://s3.amazonaws.com/static-docs.testsigma.com/new_images/projects/elements/verify_elements_4.1.png)
+   ![Simply Travel Window](https://s3.amazonaws.com/website-static-docs.testsigma.com/new_images/projects/Updated_Doc_Images/verify_elements_4.1.png)
 
 5. Go to the test step and hover over the element which you want to verify.
-   ![Hover over an element](https://s3.amazonaws.com/static-docs.testsigma.com/new_images/projects/elements/verify_element_5.png) 
+   ![Hover over an element](https://s3.amazonaws.com/website-static-docs.testsigma.com/new_images/projects/Updated_Doc_Images/verify_element_5.png) 
 
 6. Click on element and choose **Edit Element** from the drop down menu. This will open the **Update Element** screen on Recorder.
-   ![Edit element](https://s3.amazonaws.com/static-docs.testsigma.com/new_images/projects/elements/verify_elements_6.png)
+   ![Edit element](https://s3.amazonaws.com/website-static-docs.testsigma.com/new_images/projects/Updated_Doc_Images/verify_elements_6.png)
 
 7. Click on **Verify** to validate the element location. The element will be highlighted on the web page.
-   ![Verify](https://s3.amazonaws.com/static-docs.testsigma.com/new_images/projects/elements/verify_elements_7.png)
+   ![Verify](https://s3.amazonaws.com/website-static-docs.testsigma.com/new_images/projects/Updated_Doc_Images/verify_elements_7.png)
 
 8. If the element location is incorrect, a message will display indicating that the element doesn't exist.
-   ![Element doesn't exist](https://s3.amazonaws.com/static-docs.testsigma.com/new_images/projects/elements/verify_elements_8.png)
+   ![Element doesn't exist](https://s3.amazonaws.com/website-static-docs.testsigma.com/new_images/projects/Updated_Doc_Images/verify_elements_8.png)
 
 9.  Correct the element location and continue verifying until the recorder highlights the correct element on the web page.
 
@@ -70,22 +70,22 @@ When using the Test Recorder to create test steps and elements, you might encoun
 ## **Steps to Verify Elements from Elements**
 
 1. From the left navigation bar, go to **Create Tests > Elements**.
-   ![Elements](https://s3.amazonaws.com/static-docs.testsigma.com/new_images/projects/elements/elements_from_elements_1.png)
+   ![Elements](https://s3.amazonaws.com/website-static-docs.testsigma.com/new_images/projects/Updated_Doc_Images/elements_from_elements_1.png)
 
 2. Create an element by clicking on **Record** in the top right corner. 
-   ![Record](https://s3.amazonaws.com/static-docs.testsigma.com/new_images/projects/elements/elements_from_elements_2.png)
+   ![Record](https://s3.amazonaws.com/website-static-docs.testsigma.com/new_images/projects/Updated_Doc_Images/elements_from_elements_2.png)
 
 3. In the new window, enter the URL of the website that you want to record. 
-   ![Simply Travel](https://s3.amazonaws.com/static-docs.testsigma.com/new_images/projects/elements/elements_from_elements_3.png)
+   ![Simply Travel](https://s3.amazonaws.com/website-static-docs.testsigma.com/new_images/projects/Updated_Doc_Images/elements_from_elements_3.png)
 
 4. Click on the element you want to record. 
-   ![Click on elements](https://s3.amazonaws.com/static-docs.testsigma.com/new_images/projects/elements/elements_from_elements_4.png)
+   ![Click on elements](https://s3.amazonaws.com/website-static-docs.testsigma.com/new_images/projects/Updated_Doc_Images/elements_from_elements_4.png)
 
 5. Click on **Verify** to validate the element location. The element will be highlighted on the web page.
-   ![Verify](https://s3.amazonaws.com/static-docs.testsigma.com/new_images/projects/elements/elements_from_elements_5.png)
+   ![Verify](https://s3.amazonaws.com/website-static-docs.testsigma.com/new_images/projects/Updated_Doc_Images/elements_from_elements_5.png)
 
 6. If the element location is incorrect, a message will display indicating that the element doesn't exist.
-   ![Element doesn't exist](https://s3.amazonaws.com/static-docs.testsigma.com/new_images/projects/elements/elements_from_elements_6.png)
+   ![Element doesn't exist](https://s3.amazonaws.com/website-static-docs.testsigma.com/new_images/projects/Updated_Doc_Images/elements_from_elements_6.png)
 
 7. Correct the element location and continue verifying until the recorder highlights the correct element on the web page.
 

@@ -38,34 +38,34 @@ Using the Testsigma test recorder, you can easily create test cases for mobile w
 ## **Steps to Create Test Cases for Mobile Web Apps**
 
 1. From the left navigation bar, go to **Create Tests > Test Cases**, and click **Create Test Case**.
-![Test Cases](https://s3.amazonaws.com/static-docs.testsigma.com/new_images/projects/applications/mwatcnav.png)
+![Test Cases](https://s3.amazonaws.com/website-static-docs.testsigma.com/new_images/projects/Updated_Doc_Images/mwatcnav.png)
 
 2. On the **Test Case Details** page, click on **Record** on the top right corner.
-![Test Case Details](https://s3.amazonaws.com/static-docs.testsigma.com/new_images/projects/applications/mwatcrc.png)
+![Test Case Details](https://s3.amazonaws.com/website-static-docs.testsigma.com/new_images/projects/Updated_Doc_Images/mwatcrc.png)
 
 3. This will open a new window. Enter the URL from which you want to capture the test cases. The **Testsigma Recorder** will appear and be ready to start recording. In this case, we are recording a test case for the 1mg website.
-![New Window](https://s3.amazonaws.com/static-docs.testsigma.com/new_images/projects/applications/mwanwowrc.png)
+![New Window](https://s3.amazonaws.com/website-static-docs.testsigma.com/new_images/projects/Updated_Doc_Images/mwanwowrc.png)
 
 4. Press **F12** to open **Chrome Developer Tools** and dock the tools to the right side of the window for a better experience.
-![F12](https://s3.amazonaws.com/static-docs.testsigma.com/new_images/projects/applications/mwacdtools.png)
+![F12](https://s3.amazonaws.com/website-static-docs.testsigma.com/new_images/projects/Updated_Doc_Images/mwacdtools.png)
 
 [[info | **NOTE**:]]
 | Make sure you have selected **Companion Mode** located in the action bar at the top.
-| ![Companion Mode](https://s3.amazonaws.com/static-docs.testsigma.com/new_images/projects/applications/compmode.png)
+| ![Companion Mode](https://s3.amazonaws.com/website-static-docs.testsigma.com/new_images/projects/Updated_Doc_Images/compmode.png)
 
 5. Click on **>>** and select **Testsigma Recorder** from the dropdown menu. 
-![Testsigma Recorder](https://s3.amazonaws.com/static-docs.testsigma.com/new_images/projects/applications/mwaae.png)
+![Testsigma Recorder](https://s3.amazonaws.com/website-static-docs.testsigma.com/new_images/projects/Updated_Doc_Images/mwaae.png)
 
 6. This will open **Testsigma Recorder** on the **Developer Tools** screen.
-![Recorder on Dev Tools](https://s3.amazonaws.com/static-docs.testsigma.com/new_images/projects/applications/mwatrocdt.png)
+![Recorder on Dev Tools](https://s3.amazonaws.com/website-static-docs.testsigma.com/new_images/projects/Updated_Doc_Images/mwatrocdt.png)
 
 [[info | **NOTE**:]]
 | Select the dimension from pre-defined devices on which you want to record the elements. If the device required for your testing is not listed, you can add a custom device by selecting **Edit** from the **Dimensions** dropdown menu and clicking **Add custom device**.
-| ![Add Custom Device](https://s3.amazonaws.com/static-docs.testsigma.com/new_images/projects/applications/mwatccd.png)
+| ![Add Custom Device](https://s3.amazonaws.com/website-static-docs.testsigma.com/new_images/projects/Updated_Doc_Images/mwatccd.png)
 | 
 | Some devices might have unique characteristics that will affect element display and interaction, and adding a custom device required for your testing is necessary to identify and resolve these issues.
 
 7. Once you have selected the dimension, record test steps by performing actions on the website.
-![Test Cases for MWA](https://s3.amazonaws.com/static-docs.testsigma.com/new_images/projects/applications/mwatcctsbpa.png)
+![Test Cases for MWA](https://s3.amazonaws.com/website-static-docs.testsigma.com/new_images/projects/Updated_Doc_Images/mwatcctsbpa.png)
 
 ---

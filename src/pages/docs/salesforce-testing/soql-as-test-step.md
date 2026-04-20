@@ -32,13 +32,13 @@ The SOQL step type allows you to run SOQL queries to retrieve real-time Salesfor
 ## **Steps to Create SOQL as a Test Step**
 
 1. From the left navigation bar, navigate to **Create Tests > Test Cases**. 
-   ![soql as test step 1](https://s3.amazonaws.com/static-docs.testsigma.com/new_images/projects/salesforce_testing/update_soql_1.png)
+   ![soql as test step 1](https://s3.amazonaws.com/website-static-docs.testsigma.com/new_images/projects/Updated_Doc_Images/update_soql_1.png)
 
 2. In the **Test Case Details** page, click on the test step options list and select **SOQL**. 
-   ![soql as test step 2](https://s3.amazonaws.com/static-docs.testsigma.com/new_images/projects/salesforce/update_sf_2.png)
+   ![soql as test step 2](https://s3.amazonaws.com/website-static-docs.testsigma.com/new_images/projects/Updated_Doc_Images/update_sf_2.png)
 
 3. Select a Salesforce connection from the **Salesforce Connection** dropdown or you can parameterize your connection. 
-   ![soql as test step 3](https://s3.amazonaws.com/static-docs.testsigma.com/new_images/projects/salesforce-testing/SOQL_as_Test_Step_3.png)
+   ![soql as test step 3](https://s3.amazonaws.com/website-static-docs.testsigma.com/new_images/projects/Updated_Doc_Images/SOQL_as_Test_Step_3.png)
 
 4. Enter your SOQL query in the editor and click **Run Query** to fetch the results. 
 
@@ -51,15 +51,15 @@ The SOQL step type allows you to run SOQL queries to retrieve real-time Salesfor
    ORDER BY Name
    LIMIT 50
    ```
-   ![soql test step 4](https://s3.amazonaws.com/static-docs.testsigma.com/new_images/projects/salesforce-testing/soql_test_step_4.png)
+   ![soql test step 4](https://s3.amazonaws.com/website-static-docs.testsigma.com/new_images/projects/Updated_Doc_Images/soql_test_step_4.png)
 
 5. View the response in **Table**, **Outline**, or **JSON** format by switching between the tabs.
-   ![soql as test step 5](https://s3.amazonaws.com/static-docs.testsigma.com/new_images/projects/salesforce-testing/SOQL_as_Test_Step_5.png)
+   ![soql as test step 5](https://s3.amazonaws.com/website-static-docs.testsigma.com/new_images/projects/Updated_Doc_Images/SOQL_as_Test_Step_5.png)
 
 6. In the **Outline** tab, store values as variables or add verifications directly from the response.
-   ![soql as test step 6](https://s3.amazonaws.com/static-docs.testsigma.com/new_images/projects/salesforce-testing/SOQL_as_Test_Step_6.png)
+   ![soql as test step 6](https://s3.amazonaws.com/website-static-docs.testsigma.com/new_images/projects/Updated_Doc_Images/SOQL_as_Test_Step_6.png)
 
 7. Click **Create** to save and add the SOQL step to your test case.
-   ![soql as test step 7](https://s3.amazonaws.com/static-docs.testsigma.com/new_images/projects/salesforce-testing/soql_test_step_7.1.png)
+   ![soql as test step 7](https://s3.amazonaws.com/website-static-docs.testsigma.com/new_images/projects/Updated_Doc_Images/soql_test_step_7.1.png)
 
 ---

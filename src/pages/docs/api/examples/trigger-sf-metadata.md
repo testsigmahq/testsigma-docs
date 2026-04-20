@@ -41,10 +41,10 @@ When there are changes in metadata, users must refresh it before executing the t
 ## **Steps to Get Metadata Connection ID**
 
 1. From the **Dashboard**, click **SF Connections**.
-![SF Connections](https://s3.amazonaws.com/static-docs.testsigma.com/new_images/projects/api/update_sf_trigger_1.png)
+![SF Connections](https://s3.amazonaws.com/website-static-docs.testsigma.com/new_images/projects/Updated_Doc_Images/update_sf_trigger_1.png)
 
 2. In the **Metadata Connection** section, hover over the connection, click the kebab menu, and choose **Copy Connection ID** from the dropdown menu.
-![Metadata Connection](https://s3.amazonaws.com/static-docs.testsigma.com/new_images/projects/api/update_sf_trigger_2.png)
+![Metadata Connection](https://s3.amazonaws.com/website-static-docs.testsigma.com/new_images/projects/Updated_Doc_Images/update_sf_trigger_2.png)
 
 ---
 
@@ -58,7 +58,7 @@ When there are changes in metadata, users must refresh it before executing the t
 | **Request Body (Sample)** | <pre>{<br>    "id": 70 <br>} </pre>                                                         |
 | **Response Body (Sample)** | <pre>{<br>    "id": 133,<br>    "metadataSyncResult": "NOT STARTED",<br>    "metadataSyncType": "UPDATE SYNC",<br>    "salesforceConnectionId": 70<br>} </pre> |
 
-![Metadata Refresh](https://s3.amazonaws.com/static-docs.testsigma.com/new_images/projects/applications/Metadata_Refresh_Using_API.png)
+![Metadata Refresh](https://s3.amazonaws.com/website-static-docs.testsigma.com/new_images/projects/Updated_Doc_Images/Metadata_Refresh_Using_API.png)
 
 <br>
 
@@ -80,7 +80,7 @@ When there are changes in metadata, users must refresh it before executing the t
 | **Response Body Type**   | **JSON**                                                                                            |
 | **Response Body (Sample)** | <pre>{<br>    "status": "IN_PROGRESS",<br>    "message": "Metadata refresh already in progress"<br>} </pre> |
 
-![API Step](https://s3.amazonaws.com/static-docs.testsigma.com/new_images/projects/applications/Metadata_Refresh_Status.png)
+![API Step](https://s3.amazonaws.com/website-static-docs.testsigma.com/new_images/projects/Updated_Doc_Images/Metadata_Refresh_Status.png)
 
 <br>
 

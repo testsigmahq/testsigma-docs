@@ -21,7 +21,7 @@ contextual_links:
 
 When attempting to download Testsigma Agent, you may see an error indicating that access is blocked for security reasons or that the file type is not allowed. To resolve this issue, you need to whitelist certain URLs and IPs to unblock. This article discusses how to unblock access by allowing the necessary URLs and IPs.
 
-![Access Blocked](https://s3.amazonaws.com/static-docs.testsigma.com/new_images/projects/agent_troubleshooting/Access_blocked_image.png)
+![Access Blocked](https://s3.amazonaws.com/website-static-docs.testsigma.com/new_images/projects/Updated_Doc_Images/Access_blocked_image.png)
 
 ---
 

@@ -50,13 +50,13 @@ You can integrate Codemagic with your version control system to automate test ex
 2. Sign up using your version control system (We’re using **GitHub**).
 
 3. After signing in, authorize Codemagic by clicking **Authorize Codemagic CI/CD**.
-<img src="https://s3.amazonaws.com/static-docs.testsigma.com/new_images/projects/faq/Codemagic_1.1.png" style="width: 400px;" />
+<img src="https://s3.amazonaws.com/website-static-docs.testsigma.com/new_images/projects/Updated_Doc_Images/Codemagic_1.1.png" style="width: 400px;" />
 
 4. On the **How will you be using Codemagic?** page, select the preferred option.
-![codemagic 4](https://s3.amazonaws.com/static-docs.testsigma.com/new_images/projects/faq/Codemagic_1.2.png)
+![codemagic 4](https://s3.amazonaws.com/website-static-docs.testsigma.com/new_images/projects/Updated_Doc_Images/Codemagic_1.2.png)
 
 5. On the **Welcome Onboard** page, under **Connect Code**, choose your version control provider (e.g., **GitHub**).
-![codemagic 5](https://s3.amazonaws.com/static-docs.testsigma.com/new_images/projects/faq/Codemagic_1.3.png)
+![codemagic 5](https://s3.amazonaws.com/website-static-docs.testsigma.com/new_images/projects/Updated_Doc_Images/Codemagic_1.3.png)
 
 [[info | **NOTE**:]]
 | -  If your repositories do not appear, click **Click here**, then select **Install and Authorize** to refresh the connection.
@@ -66,27 +66,27 @@ You can integrate Codemagic with your version control system to automate test ex
 ## **Select and Configure Your Repository**
 
 1. Under **Select repository**, choose the appropriate repository from the dropdown menu and click **Select repository**.
-![codemagic 6](https://s3.amazonaws.com/static-docs.testsigma.com/new_images/projects/faq/Codemagic_1.4.png)
+![codemagic 6](https://s3.amazonaws.com/website-static-docs.testsigma.com/new_images/projects/Updated_Doc_Images/Codemagic_1.4.png)
 
 2. Enter the relative path to your project in the **Project path** field.
 
 3. Click **Retry** to allow Codemagic to scan the repository.
 
 Alternatively, click **Set Type Manually** to specify the project type.
-![codemagic 7](https://s3.amazonaws.com/static-docs.testsigma.com/new_images/projects/faq/Codemagic_1.5.png)
+![codemagic 7](https://s3.amazonaws.com/website-static-docs.testsigma.com/new_images/projects/Updated_Doc_Images/Codemagic_1.5.png)
 
 4. Select the project type and click **Create Application**.
-![codemagic 8](https://s3.amazonaws.com/static-docs.testsigma.com/new_images/projects/faq/Codemagic_1.6.png)
+![codemagic 8](https://s3.amazonaws.com/website-static-docs.testsigma.com/new_images/projects/Updated_Doc_Images/Codemagic_1.6.png)
 
 ---
 
 ## **Configure the YAML Workflow**
 
 1. On the workflow screen, click **Switch to YAML configuration**.
-![codemagic 9](https://s3.amazonaws.com/static-docs.testsigma.com/new_images/projects/faq/Codemagic_2.3.png)
+![codemagic 9](https://s3.amazonaws.com/website-static-docs.testsigma.com/new_images/projects/Updated_Doc_Images/Codemagic_2.3.png)
 
 2. In the **Update Settings** dialog, select the **codemagic.yaml** radio button and click **Save changes**.
-![odemagic 10](https://s3.amazonaws.com/static-docs.testsigma.com/new_images/projects/faq/Codemagic_2.4.png)
+![odemagic 10](https://s3.amazonaws.com/website-static-docs.testsigma.com/new_images/projects/Updated_Doc_Images/Codemagic_2.4.png)
 
 ---
 
@@ -106,7 +106,7 @@ workflows:
           chmod +x ./magictrigger.sh
           ./magictrigger.sh
 ```
-![codemagic 11](https://s3.amazonaws.com/static-docs.testsigma.com/new_images/projects/faq/Codemagic_1.8.png)
+![codemagic 11](https://s3.amazonaws.com/website-static-docs.testsigma.com/new_images/projects/Updated_Doc_Images/Codemagic_1.8.png)
 
 3. Commit and push the file to your repository.
 
@@ -124,7 +124,7 @@ workflows:
 1. Navigate to **Codemagic**.
 
 2. Click **Start new build**.
-![codemagic 13](https://s3.amazonaws.com/static-docs.testsigma.com/new_images/projects/faq/Codemagic_2.1.png)
+![codemagic 13](https://s3.amazonaws.com/website-static-docs.testsigma.com/new_images/projects/Updated_Doc_Images/Codemagic_2.1.png)
 
 Codemagic will detect the **codemagic.yaml** file and initiate the workflow. After the build completes, you can view the execution logs and test results.
 

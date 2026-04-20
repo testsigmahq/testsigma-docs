@@ -27,7 +27,7 @@ You can execute Android and iOS test cases in emulators or simulators using Test
 To quickly help you understand, this video demonstrates how to execute Android tests in an emulator using the Testsigma Agent.
 
 <div style="position: relative; padding-bottom: 56.25%; height: 0; overflow: hidden;">
-  <iframe src="https://s3.amazonaws.com/static-docs.testsigma.com/new_images/projects/New_Doc_Videos/Execute_Tests_in_Emulator.mp4" 
+  <iframe src="https://s3.amazonaws.com/website-static-docs.testsigma.com/new_images/projects/Updated_Doc_Images/Execute_Tests_in_Emulator.mp4" 
           style="position: absolute; top: 0; left: 0; width: 100%; height: 100%; border: 0;" 
           allowfullscreen>
   </iframe>
@@ -45,30 +45,30 @@ To quickly help you understand, this video demonstrates how to execute Android t
 ## **Execute Test Cases in an Emulator**
 
 1. Install **Android Studio**, add a device and start it.
-   ![Android Studio](https://s3.amazonaws.com/static-docs.testsigma.com/new_images/projects/Updated_Doc_Images/Start_Emulator.png)
+   ![Android Studio](https://s3.amazonaws.com/website-static-docs.testsigma.com/new_images/projects/Updated_Doc_Images/Start_Emulator.png)
 
 
 2. Start the Testsigma Agent on your machine.
-   ![Start Agent](https://s3.amazonaws.com/static-docs.testsigma.com/new_images/projects/Updated_Doc_Images/Emulator_Agent_Connection.png)
+   ![Start Agent](https://s3.amazonaws.com/website-static-docs.testsigma.com/new_images/projects/Updated_Doc_Images/Emulator_Agent_Connection.png)
 
 
 3. In the Testsigma application, go to **Test Cases** and open the test case you want to execute.
 
 
 4. On the **Test Case details** page, click **Run** in the top-right corner.
-   ![Run Test Case](https://s3.amazonaws.com/static-docs.testsigma.com/new_images/projects/Updated_Doc_Images/Run_Test_Case_in_Emulator.png)
+   ![Run Test Case](https://s3.amazonaws.com/website-static-docs.testsigma.com/new_images/projects/Updated_Doc_Images/Run_Test_Case_in_Emulator.png)
 
 
 5. In the **Ad-Hoc Run** overlay, select **Local Devices** and verify that the connected emulator appears under **Test Machine**.
-   ![Ad-Hoc Overlay](https://s3.amazonaws.com/static-docs.testsigma.com/new_images/projects/Updated_Doc_Images/Mobile_Device_under_Test_Machine.png)
+   ![Ad-Hoc Overlay](https://s3.amazonaws.com/website-static-docs.testsigma.com/new_images/projects/Updated_Doc_Images/Mobile_Device_under_Test_Machine.png)
 
 
 6. Click **Run Now** to execute the test case in the emulator.
-   ![Run Now](https://s3.amazonaws.com/static-docs.testsigma.com/new_images/projects/Updated_Doc_Images/Run_Now_In_Emulator.png)
+   ![Run Now](https://s3.amazonaws.com/website-static-docs.testsigma.com/new_images/projects/Updated_Doc_Images/Run_Now_In_Emulator.png)
 
 
 7. The Test Case will execute in that emulator. 
-   ![App Action in Emulator](https://s3.amazonaws.com/static-docs.testsigma.com/new_images/projects/Updated_Doc_Images/App_Action_In_Emulator.png)
+   ![App Action in Emulator](https://s3.amazonaws.com/website-static-docs.testsigma.com/new_images/projects/Updated_Doc_Images/App_Action_In_Emulator.png)
 
 <br>
 
@@ -86,7 +86,7 @@ To quickly help you understand, this video demonstrates how to execute Android t
 
 1. Install **Xcode**. Add or open a simulator with a device of your choice.
    
-   <img src="https://s3.amazonaws.com/static-docs.testsigma.com/new_images/projects/Updated_Doc_Images/Start_Xcode_Simulator.png" alt="Start Simulator" style="width: 200px;" />
+   <img src="https://s3.amazonaws.com/website-static-docs.testsigma.com/new_images/projects/Updated_Doc_Images/Start_Xcode_Simulator.png" alt="Start Simulator" style="width: 200px;" />
 
 2. Start the Testsigma Agent on your machine.
 
@@ -98,11 +98,11 @@ To quickly help you understand, this video demonstrates how to execute Android t
 
 
 5. In the **Ad-Hoc Run** overlay, select **Local Devices** and verify that the connected simulator appears under **Test Machine**.
-   ![iOS Device](https://s3.amazonaws.com/static-docs.testsigma.com/new_images/projects/Updated_Doc_Images/iOS_Device_under_Test_Machine.png)
+   ![iOS Device](https://s3.amazonaws.com/website-static-docs.testsigma.com/new_images/projects/Updated_Doc_Images/iOS_Device_under_Test_Machine.png)
 
 
 6. Click **Run Now** to execute the test case in the simulator.
-   ![Run Now in Simulator](https://s3.amazonaws.com/static-docs.testsigma.com/new_images/projects/Updated_Doc_Images/Run_Test_in_Simulator.png)
+   ![Run Now in Simulator](https://s3.amazonaws.com/website-static-docs.testsigma.com/new_images/projects/Updated_Doc_Images/Run_Test_in_Simulator.png)
    
 
 7. The Test Case will execute in that simulator. 

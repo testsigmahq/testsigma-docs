@@ -31,10 +31,10 @@ You can trigger tests automatically with Bitbucket integration with Testsigma. T
 
 ## **Steps to Integrate Bitbucket with Testsigma**
 1. On your project, navigate to **Repository > Pipelines**.
-![Bitbucket Project](https://s3.amazonaws.com/static-docs.testsigma.com/new_images/projects/applications/bbprojet.png)
+![Bitbucket Project](https://s3.amazonaws.com/website-static-docs.testsigma.com/new_images/projects/Updated_Doc_Images/bbprojet.png)
 
 2. Click on **Create your first pipeline** and select **Starter pipeline**.
-![Create First Pipeline](https://s3.amazonaws.com/static-docs.testsigma.com/new_images/projects/applications/plbb.png)
+![Create First Pipeline](https://s3.amazonaws.com/website-static-docs.testsigma.com/new_images/projects/Updated_Doc_Images/plbb.png)
 
 3. Create a job using the below YML sample.
 
@@ -56,12 +56,12 @@ pipelines:
 |Any bash runner can work with the provided YML file. For instance, if you are using the docker runner, you can use the YML file as it is. However, if you have a different runner like powershell, you must modify the YML file to make it executable in the powershell runner. Additionally, ensure that powershell is version seven or above.
 
 4. In the shell script, provide the **Test Plan ID** and **API Key**. 
-![Test Plan In Shell Script](https://s3.amazonaws.com/static-docs.testsigma.com/new_images/projects/applications/tsssbb.png)
+![Test Plan In Shell Script](https://s3.amazonaws.com/website-static-docs.testsigma.com/new_images/projects/Updated_Doc_Images/tsssbb.png)
 
 5. Once you have created the YML script, click on **Commit** to run the job.
-![Commit](https://s3.amazonaws.com/static-docs.testsigma.com/new_images/projects/applications/firstplbb.png)
+![Commit](https://s3.amazonaws.com/website-static-docs.testsigma.com/new_images/projects/Updated_Doc_Images/firstplbb.png)
 
 6. Once the job is completed you can see the execution report as an XML report based on the path you have shared on the shell script.
-![Report](https://s3.amazonaws.com/static-docs.testsigma.com/new_images/projects/applications/buildbb.png)
+![Report](https://s3.amazonaws.com/website-static-docs.testsigma.com/new_images/projects/Updated_Doc_Images/buildbb.png)
 
 ---

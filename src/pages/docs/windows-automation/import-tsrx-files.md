@@ -34,21 +34,21 @@ Once the TSRx file is ready, you can import it with just a few clicks and start 
 ## **Steps to Import TSRx File**
 
 1. From the left navigation bar, go to **Create Tests > Elements**.
-![Elements](https://s3.amazonaws.com/static-docs.testsigma.com/new_images/projects/windows_automation/update_import_tsrx_1.png)
+![Elements](https://s3.amazonaws.com/website-static-docs.testsigma.com/new_images/projects/Updated_Doc_Images/update_import_tsrx_1.png)
 
 2. Click **Import** at the top right corner of the Elements list page.
-![import](https://s3.amazonaws.com/static-docs.testsigma.com/new_images/projects/windows_automation/update_import_tsrx_2.png)
+![import](https://s3.amazonaws.com/website-static-docs.testsigma.com/new_images/projects/Updated_Doc_Images/update_import_tsrx_2.png)
 
 3. In the **Import** dialog, click **Browse file** and select a **TSRx** file from your local system. 
-![Tsrx file](https://s3.amazonaws.com/static-docs.testsigma.com/new_images/projects/windows_automation/update_import_tsrx_3.png)
+![Tsrx file](https://s3.amazonaws.com/website-static-docs.testsigma.com/new_images/projects/Updated_Doc_Images/update_import_tsrx_3.png)
 
 4. In the **Import** dialog, under **How should we handle duplicates?**, select one of the following:
    - **Overwrite** to replace existing elements with the imported ones.
    - **Ignore** to skip importing duplicate elements.
-   ![duplicates](https://s3.amazonaws.com/static-docs.testsigma.com/new_images/projects/windows_automation/update_import_tsrx_4.png)
+   ![duplicates](https://s3.amazonaws.com/website-static-docs.testsigma.com/new_images/projects/Updated_Doc_Images/update_import_tsrx_4.png)
 
 5. Click **Import**.
-![Import](https://s3.amazonaws.com/static-docs.testsigma.com/new_images/projects/windows_automation/update_import_tsrx_5.png)
+![Import](https://s3.amazonaws.com/website-static-docs.testsigma.com/new_images/projects/Updated_Doc_Images/update_import_tsrx_5.png)
 
 6. You can see the imported elements under **Create Tests > Elements**.
 

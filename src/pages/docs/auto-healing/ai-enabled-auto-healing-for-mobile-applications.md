@@ -50,7 +50,7 @@ Consider that the XPath for the Enter email address button on step 3 changed fro
 
 When executing the test case with the Auto Healing feature enabled, the test lab will successfully locate the element using the new XPath.
 
-![Auto-Heal Mobile](https://s3.amazonaws.com/static-docs.testsigma.com/new_images/projects/auto_healing/auto_heal_mobile.png)
+![Auto-Heal Mobile](https://s3.amazonaws.com/website-static-docs.testsigma.com/new_images/projects/Updated_Doc_Images/auto_heal_mobile.png)
 
 ---
 

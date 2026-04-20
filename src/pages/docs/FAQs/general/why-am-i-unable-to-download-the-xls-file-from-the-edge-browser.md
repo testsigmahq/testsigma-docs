@@ -16,7 +16,7 @@ contextual_links:
 ---
 When a report is exported from Testsigma, an email with a download link is sent automatically. Clicking the link in the email on the **Microsoft Edge** may redirect to a URL starting with <a href="https://view.officeapps.live.com" rel="nofollow">https://view.officeapps.live.com</a>.
 
-![Edge XLS](https://s3.amazonaws.com/static-docs.testsigma.com/new_images/projects/faq/Edge_XLS.png) 
+![Edge XLS](https://s3.amazonaws.com/website-static-docs.testsigma.com/new_images/projects/Updated_Doc_Images/Edge_XLS.png) 
 
 To ensure the file downloads instead of opening in the browser, disable the **Open Office files in the browser** option in the **Microsoft Edge** settings.
 
@@ -32,6 +32,6 @@ To ensure the file downloads instead of opening in the browser, disable the **Op
 
 4. On the **Downloads** page, disable the **Open Office files in the browser** toggle to make Edge download Office files instead of opening them.
 
-![Disable the Open Office files in browser](https://s3.amazonaws.com/static-docs.testsigma.com/new_images/projects/faq/Unable_to_download_XLS.png)
+![Disable the Open Office files in browser](https://s3.amazonaws.com/website-static-docs.testsigma.com/new_images/projects/Updated_Doc_Images/Unable_to_download_XLS.png)
 
 ---

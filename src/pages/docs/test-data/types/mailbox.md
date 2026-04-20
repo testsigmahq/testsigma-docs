@@ -69,7 +69,7 @@ Follow these steps to include an email address provided by Testsigma using the M
 
 1. Use **NLP** to create a **new step** in the **Test Case** and include a placeholder for **test data**.
 2. Click the **test data** placeholder to replace it, and then select the **& Mail Box** from the **Test Data Types** dropdown menu.
-3. Select the **Email** from the right-side panel. ![Add MailBox in Test Step](https://s3.amazonaws.com/static-docs.testsigma.com/new_images/projects/applications/add_mailboxinstep.gif)
+3. Select the **Email** from the right-side panel. ![Add MailBox in Test Step](https://s3.amazonaws.com/website-static-docs.testsigma.com/new_images/projects/Updated_Doc_Images/add_mailboxinstep.gif)
 
 ---
 
@@ -87,7 +87,7 @@ Follow these steps to retrieve OTP or any data from the selected Mailbox using T
 5. Click **Save** to store the provided arguments in the data generator for this test step.
 
 Here is a quick GIF demonstrating the above workflow:
-![Fetch OTP from Mail Box](https://s3.amazonaws.com/static-docs.testsigma.com/new_images/projects/applications/fetchotp_mailbox.gif)
+![Fetch OTP from Mail Box](https://s3.amazonaws.com/website-static-docs.testsigma.com/new_images/projects/Updated_Doc_Images/fetchotp_mailbox.gif)
 
 [[info | NOTE:]]
 | Ensure that you have referred to:
@@ -113,7 +113,7 @@ Follow the below steps to save the data obtained from the Mailbox as a runtime v
 6. Substitute specific **text** for the **test-data-2** placeholder and create a step to generate a runtime variable that stores the value in that **text**.
 
 Here is a quick GIF demonstrating the above workflow:
-![Store Data as a Runtime Variable from Mail Box](https://s3.amazonaws.com/static-docs.testsigma.com/new_images/projects/applications/storedata_viamailbox.gif)
+![Store Data as a Runtime Variable from Mail Box](https://s3.amazonaws.com/website-static-docs.testsigma.com/new_images/projects/Updated_Doc_Images/storedata_viamailbox.gif)
 
 [[info | NOTE:]]
 | You can store the subject by selecting the Test Data Generator function: **! MailBoxFunctions :: subjectVerification**.
@@ -134,7 +134,7 @@ During a test step, you can create a mailbox alias that connects an additional e
 | For example, we store the email in a runtime variable named **email1**. You can use it in the Test Case by selecting **$ Runtime** from the test data types.
 
 Here is a quick GIF demonstrating the above workflow:
-![Mail Box Alias in Test Step](https://s3.amazonaws.com/static-docs.testsigma.com/new_images/projects/applications/createmailboxalias.gif)
+![Mail Box Alias in Test Step](https://s3.amazonaws.com/website-static-docs.testsigma.com/new_images/projects/Updated_Doc_Images/createmailboxalias.gif)
 
 ---
 
@@ -154,7 +154,7 @@ With Testsigma, you can generate new mailbox aliases every time during test case
 
 
 Below is a screenshot showing a test case generating a mailbox alias and getting content from the email.
-![A test case displaying how to generate unique email address and how to use it](https://s3.amazonaws.com/static-docs.testsigma.com/new_images/projects/applications/generate_mailboxalias.gif)
+![A test case displaying how to generate unique email address and how to use it](https://s3.amazonaws.com/website-static-docs.testsigma.com/new_images/projects/Updated_Doc_Images/generate_mailboxalias.gif)
 
 
 
@@ -179,28 +179,28 @@ Two-factor authentication provides additional protection for your application. W
 
 1. Navigate to **Create Tests > Test Cases**, and click on **Create Test Case**.
 
-![Test Cases](https://s3.amazonaws.com/static-docs.testsigma.com/new_images/projects/applications/mb2fatcnav.png)
+![Test Cases](https://s3.amazonaws.com/website-static-docs.testsigma.com/new_images/projects/Updated_Doc_Images/mb2fatcnav.png)
 
 2. On the **Test Case details** page, create test steps manually or using the recorder.  
 
-![Test Steps](https://s3.amazonaws.com/static-docs.testsigma.com/new_images/projects/applications/mb2fatcs.png)
+![Test Steps](https://s3.amazonaws.com/website-static-docs.testsigma.com/new_images/projects/Updated_Doc_Images/mb2fatcs.png)
 
   - For Step 4, we use **& Mailbox** and enter the email linked to the account in the email input field. 
-  ![& Mailbox](https://s3.amazonaws.com/static-docs.testsigma.com/new_images/projects/applications/mb2famxdd.png)
+  ![& Mailbox](https://s3.amazonaws.com/website-static-docs.testsigma.com/new_images/projects/Updated_Doc_Images/mb2famxdd.png)
     
   
   - In Step 5, we click on the **! Data Generator**. This will open **! Data Generator** overlay. 
-  ![! Data Generator](https://s3.amazonaws.com/static-docs.testsigma.com/new_images/projects/applications/mb2fadgdd.png)
+  ![! Data Generator](https://s3.amazonaws.com/website-static-docs.testsigma.com/new_images/projects/Updated_Doc_Images/mb2fadgdd.png)
 
   
   - On the **! Data Generator** overlay, select **Type**, **Function Type**, **Function**, **Enter Regex**, **Runtime Variable**, **Timeout** and click on **Save**. Here, we add regex [0 - 9]+, which extracts the first encountered series of numbers. The extracted data, which is OTP, will be stored in the runtime variable. For more information on examples of regex, refer to <a href="https://regex101.com/" rel="nofollow">https://regex101.com/</a>. 
-  ![Data Generator Overlay](https://s3.amazonaws.com/static-docs.testsigma.com/new_images/projects/applications/mb2fadgvl.png)
+  ![Data Generator Overlay](https://s3.amazonaws.com/website-static-docs.testsigma.com/new_images/projects/Updated_Doc_Images/mb2fadgvl.png)
 
   - This will help fetch OTP and enter it in the input element.
-  ![Fetch OTP](https://s3.amazonaws.com/static-docs.testsigma.com/new_images/projects/applications/mb2fafotp.png)
+  ![Fetch OTP](https://s3.amazonaws.com/website-static-docs.testsigma.com/new_images/projects/Updated_Doc_Images/mb2fafotp.png)
 
 1. Click on **Run** to execute the test case. 
-![Run TC](https://s3.amazonaws.com/static-docs.testsigma.com/new_images/projects/applications/mb2farun.png)
+![Run TC](https://s3.amazonaws.com/website-static-docs.testsigma.com/new_images/projects/Updated_Doc_Images/mb2farun.png)
 
 ---
 
@@ -213,7 +213,7 @@ In some cases, app restrictions will prevent the delivery of OTPs to the Testsig
 > <p id="prerequisites">Prerequisites</p>
 >
 > Before you begin, ensure that: 
-> 1. You have the <a href="https://s3.amazonaws.com/static-docs.testsigma.com/new_images/projects/applications/smsforward.apk" rel="nofollow">Testsigma SMS Forwarder</a> application. 
+> 1. You have the <a href="https://s3.amazonaws.com/website-static-docs.testsigma.com/new_images/projects/Updated_Doc_Images/smsforward.apk" rel="nofollow">Testsigma SMS Forwarder</a> application. 
 > 2. You have referred to the [documentation on creating mailbox](https://testsigma.com/docs/test-data/types/mailbox/) &
 > 3. You have referred to the [documentation on creating data generator](https://testsigma.com/docs/test-data/types/data-generator/). 
 > 4. Also, you need to have a dedicated Mailbox for your account. Contact **support@testsigma.com** for more information.
@@ -230,7 +230,7 @@ In some cases, app restrictions will prevent the delivery of OTPs to the Testsig
 
 - Select **See all settings**.
 
-![All Settings](https://s3.amazonaws.com/static-docs.testsigma.com/new_images/projects/applications/gmsgear.png)
+![All Settings](https://s3.amazonaws.com/website-static-docs.testsigma.com/new_images/projects/Updated_Doc_Images/gmsgear.png)
 
 
 **Navigate to Filters and Blocked Addresses**
@@ -239,7 +239,7 @@ In some cases, app restrictions will prevent the delivery of OTPs to the Testsig
 
 - Create a filter to forward emails with specific content or subject. In this case, we can have text that is constant and is present in all emails that we want to forward. 
 
-![Filters & Blocked Addresses](https://s3.amazonaws.com/static-docs.testsigma.com/new_images/projects/applications/fabgmstgs.png)
+![Filters & Blocked Addresses](https://s3.amazonaws.com/website-static-docs.testsigma.com/new_images/projects/Updated_Doc_Images/fabgmstgs.png)
 
 **Create a New Filter**
 
@@ -248,7 +248,7 @@ In some cases, app restrictions will prevent the delivery of OTPs to the Testsig
       - **Subject:** Define the subject of the email that you wish to forward.
       - **Has the words/Doesn’t have words:** Include text that is present in all emails you want to forward.
 
-![New Filter](https://s3.amazonaws.com/static-docs.testsigma.com/new_images/projects/applications/hwsetgsa.png)
+![New Filter](https://s3.amazonaws.com/website-static-docs.testsigma.com/new_images/projects/Updated_Doc_Images/hwsetgsa.png)
 
 
 **Configure Forwarding Address**
@@ -259,7 +259,7 @@ In some cases, app restrictions will prevent the delivery of OTPs to the Testsig
 
 - Complete the setup by entering the OTP.
 
-![Add Forwarding Address](https://s3.amazonaws.com/static-docs.testsigma.com/new_images/projects/applications/afeagmstgs.png)
+![Add Forwarding Address](https://s3.amazonaws.com/website-static-docs.testsigma.com/new_images/projects/Updated_Doc_Images/afeagmstgs.png)
 
 
 [[info | **NOTE**:]]

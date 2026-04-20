@@ -136,10 +136,10 @@ ng --version
 - Go to **File → Project structure**.
 - In the Project structure window, you can see modules under the project settings section.
 - Click on the modules tab and click the **+ icon** and select import module.
-![Import Module](https://s3.amazonaws.com/static-docs.testsigma.com/new_images/projects/applications/importmodule.png)
+![Import Module](https://s3.amazonaws.com/website-static-docs.testsigma.com/new_images/projects/Updated_Doc_Images/importmodule.png)
 - Now select each folder i.e. automator, agent, agent-launcher, and server, and import them. 
 - Select the option **Import module from external module** and then choose **Maven** and click on **create**.
-![Maven](https://s3.amazonaws.com/static-docs.testsigma.com/new_images/projects/applications/maven.png)
+![Maven](https://s3.amazonaws.com/website-static-docs.testsigma.com/new_images/projects/Updated_Doc_Images/maven.png)
 - Build each module using the command mentioned, in the following order:
     - **automator:** ***mvn clean install***
     - **agent:** ***mvn clean install***
@@ -219,7 +219,7 @@ ng --version
     - Click **Ok**
     - The server module is added as a service now.
     - Reference:
-    ![Server](https://s3.amazonaws.com/static-docs.testsigma.com/new_images/projects/applications/server.png)
+    ![Server](https://s3.amazonaws.com/website-static-docs.testsigma.com/new_images/projects/Updated_Doc_Images/server.png)
 
 - **Setting up agent component as a service:**
     - Go to **Run → Edit Configurations**.
@@ -239,7 +239,7 @@ ng --version
    - Click **Ok**
    - The agent module is added as a service now.
    - Reference:
-   ![Agent Module as a Service](https://s3.amazonaws.com/static-docs.testsigma.com/new_images/projects/applications/agentmoduleasservice.png)
+   ![Agent Module as a Service](https://s3.amazonaws.com/website-static-docs.testsigma.com/new_images/projects/Updated_Doc_Images/agentmoduleasservice.png)
 
 - **Start the services:**
     - **ui**
@@ -258,6 +258,6 @@ ng --version
         ```
 
 - **You can now access the server at <a href="https://devos.testsigma.com/ui/" rel="nofollow">https://devos.testsigma.com/ui/</a>** 
-![Access Server](https://s3.amazonaws.com/static-docs.testsigma.com/new_images/projects/applications/testsigma.png)
+![Access Server](https://s3.amazonaws.com/website-static-docs.testsigma.com/new_images/projects/Updated_Doc_Images/testsigma.png)
 
 ---

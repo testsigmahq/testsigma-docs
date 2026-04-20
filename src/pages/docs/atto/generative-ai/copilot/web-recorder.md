@@ -54,30 +54,30 @@ Testsigma Copilot redefines test automation with the power of generative AI 🤖
 
 4. On the **Test Case Details** page, enter a name for the test case and click **Record** in the top-right corner. A new window will open.
 
-   ![Record](https://s3.amazonaws.com/static-docs.testsigma.com/new_images/projects/atto/update_web_recorder_1.png)
+   ![Record](https://s3.amazonaws.com/website-static-docs.testsigma.com/new_images/projects/Updated_Doc_Images/update_web_recorder_1.png)
 
 5. In the opened window, input the URL of the web page from which you want to generate test scenarios. The **Testsigma Recorder** will activate and prepare for recording.
 
 6. Click **Testsigma Copilot**.
-   ![Copilot](https://s3.amazonaws.com/static-docs.testsigma.com/new_images/projects/applications/Copilot_Button.png)
+   ![Copilot](https://s3.amazonaws.com/website-static-docs.testsigma.com/new_images/projects/Updated_Doc_Images/Copilot_Button.png)
 
 7. Click **Generate Test Cases** in the **Testsigma Copilot** overlay. The Testsigma Copilot will start generating test scenarios based on the current page content.
 
-   ![Generate Scenarios](https://s3.amazonaws.com/static-docs.testsigma.com/new_images/projects/applications/Generate_Scenarios.png)
+   ![Generate Scenarios](https://s3.amazonaws.com/website-static-docs.testsigma.com/new_images/projects/Updated_Doc_Images/Generate_Scenarios.png)
 
 8. Wait until the test scenarios are generated.
 
 9.  Click on any generated test case scenario to view its corresponding test steps.
    
-   ![View test Steps](https://s3.amazonaws.com/static-docs.testsigma.com/new_images/projects/applications/View_Scenarios.png)
+   ![View test Steps](https://s3.amazonaws.com/website-static-docs.testsigma.com/new_images/projects/Updated_Doc_Images/View_Scenarios.png)
 
 10. Click **Add to test case** to import the displayed test steps into the recorder.
    
-   ![Add to Test Case](https://s3.amazonaws.com/static-docs.testsigma.com/new_images/projects/applications/Add_AI_Test_Steps.png)
+   ![Add to Test Case](https://s3.amazonaws.com/website-static-docs.testsigma.com/new_images/projects/Updated_Doc_Images/Add_AI_Test_Steps.png)
 
 11. Modify the test steps as per the desired test case behavior. Once the necessary modifications are done, click **Stop** to return to the test case details page.
     
-    ![Stop](https://s3.amazonaws.com/static-docs.testsigma.com/new_images/projects/applications/Stop_Rec_GenAI.png)
+    ![Stop](https://s3.amazonaws.com/website-static-docs.testsigma.com/new_images/projects/Updated_Doc_Images/Stop_Rec_GenAI.png)
 
 ---
 
@@ -86,7 +86,7 @@ Testsigma Copilot redefines test automation with the power of generative AI 🤖
 Follow the same steps from 1-3 from the above section.
 
 4. On prompt input, enter the prompt for which you want to fetch test steps. 
-   ![Prompt](https://s3.amazonaws.com/static-docs.testsigma.com/new_images/projects/applications/Prompt_AI.png)
+   ![Prompt](https://s3.amazonaws.com/website-static-docs.testsigma.com/new_images/projects/Updated_Doc_Images/Prompt_AI.png)
 
 5. Press **Enter**.
    
@@ -94,11 +94,11 @@ Follow the same steps from 1-3 from the above section.
 
 7. Click **Add to test case** to import the displayed test steps into the recorder.
 
-   ![Add to Test Case](https://s3.amazonaws.com/static-docs.testsigma.com/new_images/projects/applications/AddtoTestCase_AI.png)
+   ![Add to Test Case](https://s3.amazonaws.com/website-static-docs.testsigma.com/new_images/projects/Updated_Doc_Images/AddtoTestCase_AI.png)
 
 8. Modify the test steps as per the desired test case behavior. Once the necessary modifications are done, click **Stop** to return to the test case details page.
 
-   ![Stop](https://s3.amazonaws.com/static-docs.testsigma.com/new_images/projects/applications/Stop_PromptSteps.png)
+   ![Stop](https://s3.amazonaws.com/website-static-docs.testsigma.com/new_images/projects/Updated_Doc_Images/Stop_PromptSteps.png)
 
 ---
 

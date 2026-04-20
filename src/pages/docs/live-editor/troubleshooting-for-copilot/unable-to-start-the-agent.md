@@ -26,14 +26,14 @@ Agent is responsible for performing local executions. For more information on ag
 ## **Steps to Resolve the Issue**
 
 1. In the **Testsigma Terminal** window, click **Retry**. This tries to restart the agent. 
-   ![Retry](https://s3.amazonaws.com/static-docs.testsigma.com/new_images/projects/troubleshooting_for_copilot/start_agent_1.png)
+   ![Retry](https://s3.amazonaws.com/website-static-docs.testsigma.com/new_images/projects/Updated_Doc_Images/start_agent_1.png)
 
 2. If the issue persists, click **Force Reset and Restart**. 
-   ![Force Reset](https://s3.amazonaws.com/static-docs.testsigma.com/new_images/projects/troubleshooting_for_copilot/start_agent_2.png)
+   ![Force Reset](https://s3.amazonaws.com/website-static-docs.testsigma.com/new_images/projects/Updated_Doc_Images/start_agent_2.png)
 
 [[info | **NOTE**:]]
 | Please note that clicking **Force Reset and Restart** is irreversible and will remove all existing configurations and any downloaded additional packages. 
-| ![Info](https://s3.amazonaws.com/static-docs.testsigma.com/new_images/projects/troubleshooting_for_copilot/start_agent_3.png)
+| ![Info](https://s3.amazonaws.com/website-static-docs.testsigma.com/new_images/projects/Updated_Doc_Images/start_agent_3.png)
 
 3. **Testsigma Terminal** removes the existing files and starts a new installation.
 

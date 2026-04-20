@@ -41,10 +41,10 @@ Super Admins control the stopping of executions by users in **Usage Details** an
 ## **Enabling Stop Executions Preference**
 
 1. Navigate to **Settings** > **Preferences**.
-![Preferences](https://s3.amazonaws.com/static-docs.testsigma.com/new_images/projects/collaboration/update_control_execution_1.png)
+![Preferences](https://s3.amazonaws.com/website-static-docs.testsigma.com/new_images/projects/Updated_Doc_Images/update_control_execution_1.png)
 
 2. Enable the toggle switch for the **Control Who Can Stop Executions** feature flag, which will be toggled off by default. 
-![Enable](https://s3.amazonaws.com/static-docs.testsigma.com/new_images/projects/collaboration/update_control_execution_2.png)
+![Enable](https://s3.amazonaws.com/website-static-docs.testsigma.com/new_images/projects/Updated_Doc_Images/update_control_execution_2.png)
 
 
 [[info | NOTE:]]

@@ -48,16 +48,16 @@ Here are the steps to produce:
 <br>
 
 1. Once you have created the test steps, click **Copilot**. 
-   ![Copilot](https://s3.amazonaws.com/static-docs.testsigma.com/new_images/projects/atto/LE_copilot_4.png)
+   ![Copilot](https://s3.amazonaws.com/website-static-docs.testsigma.com/new_images/projects/Updated_Doc_Images/LE_copilot_4.png)
 
 2. On the **Copilot** overlay, configure the required options and click **Launch**. 
-   ![Launch](https://s3.amazonaws.com/static-docs.testsigma.com/new_images/projects/atto/LE_copilot_5.png)
+   ![Launch](https://s3.amazonaws.com/website-static-docs.testsigma.com/new_images/projects/Updated_Doc_Images/LE_copilot_5.png)
 
  - Consider that the XPATH for the element Email address or phone number on step 2 changed. 
-   ![Copilot](https://s3.amazonaws.com/static-docs.testsigma.com/new_images/projects/atto/LE_copilot_6.png)
+   ![Copilot](https://s3.amazonaws.com/website-static-docs.testsigma.com/new_images/projects/Updated_Doc_Images/LE_copilot_6.png)
 
  - When the test case is executed in the Copilot with the Gen AI auto-healing feature enabled, Testsigma automatically identifies the updated XPath and successfully locates the element.
-   ![Auto-Heal](https://s3.amazonaws.com/static-docs.testsigma.com/new_images/projects/atto/LE_copilot_7.png)
+   ![Auto-Heal](https://s3.amazonaws.com/website-static-docs.testsigma.com/new_images/projects/Updated_Doc_Images/LE_copilot_7.png)
 ---
 
 ## **Auto-Healing Insights**

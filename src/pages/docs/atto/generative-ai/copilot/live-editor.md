@@ -38,10 +38,10 @@ The Copilot in Testsigma helps you debug, execute, and modify test cases in real
 3. From the **Action Panel**, click **Copilot**.
 
 4. In the **Copilot** overlay, select a step from the **Select Step** dropdown to specify the debug point.
-   ![Live Editor](https://s3.amazonaws.com/static-docs.testsigma.com/new_images/projects/atto/LE_copilot_1.png)
+   ![Live Editor](https://s3.amazonaws.com/website-static-docs.testsigma.com/new_images/projects/Updated_Doc_Images/LE_copilot_1.png)
 
 5. Click **Launch** to begin execution.
-   ![Launch Copilot](https://s3.amazonaws.com/static-docs.testsigma.com/new_images/projects/atto/LE_copilot_2.png)
+   ![Launch Copilot](https://s3.amazonaws.com/website-static-docs.testsigma.com/new_images/projects/Updated_Doc_Images/LE_copilot_2.png)
 
 6. The **Copilot** will execute all steps up to the debug point.
 
@@ -51,7 +51,7 @@ The Copilot in Testsigma helps you debug, execute, and modify test cases in real
 7. Click **Testsigma Copilot** on the **Copilot** dialog.
 
 8. In the **Testsigma Copilot** overlay, click **Generate Test Cases**.
-   ![Copilot in Testsigma](https://s3.amazonaws.com/static-docs.testsigma.com/new_images/projects/atto/LE_copilot_3.png)
+   ![Copilot in Testsigma](https://s3.amazonaws.com/website-static-docs.testsigma.com/new_images/projects/Updated_Doc_Images/LE_copilot_3.png)
 
 9.  Copilot will analyze the current page and starts generating test cases.
 

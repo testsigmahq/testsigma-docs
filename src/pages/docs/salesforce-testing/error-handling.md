@@ -44,19 +44,19 @@ On metadata refresh, Testsigma identifies potential causes of test case failures
 
 1. From the **Dashboard**, navigate to **Create Tests > Test Cases**.
   
-   ![Test Cases](https://s3.amazonaws.com/static-docs.testsigma.com/new_images/projects/applications/ehtcsnavg.png)
+   ![Test Cases](https://s3.amazonaws.com/website-static-docs.testsigma.com/new_images/projects/Updated_Doc_Images/ehtcsnavg.png)
 
 2. You can find the impacted test cases highlighted on the **Test Cases** page with a Warning. 
 
-   ![Warning](https://s3.amazonaws.com/static-docs.testsigma.com/new_images/projects/applications/ehallerrorsotcp.png)
+   ![Warning](https://s3.amazonaws.com/website-static-docs.testsigma.com/new_images/projects/Updated_Doc_Images/ehallerrorsotcp.png)
 
 3. Click on **View All** to filter only the deprecated test cases.
 
-   ![View All](https://s3.amazonaws.com/static-docs.testsigma.com/new_images/projects/applications/ehtcrpva.png)
+   ![View All](https://s3.amazonaws.com/website-static-docs.testsigma.com/new_images/projects/Updated_Doc_Images/ehtcrpva.png)
 
 4. Alternatively, select the highlighted filter to display test cases that contain errors.
 
-   ![Filter](https://s3.amazonaws.com/static-docs.testsigma.com/new_images/projects/applications/ehfilter.png)
+   ![Filter](https://s3.amazonaws.com/website-static-docs.testsigma.com/new_images/projects/Updated_Doc_Images/ehfilter.png)
 
 ---
 
@@ -64,19 +64,19 @@ On metadata refresh, Testsigma identifies potential causes of test case failures
 
 1. Select the deprecated test case to view the errors.
    
-   ![Erorrs](https://s3.amazonaws.com/static-docs.testsigma.com/new_images/projects/applications/eheitcpage.png)
+   ![Erorrs](https://s3.amazonaws.com/website-static-docs.testsigma.com/new_images/projects/Updated_Doc_Images/eheitcpage.png)
 
 2. Hover over to the highlighted step to check the error.
    
-   ![Highligted](https://s3.amazonaws.com/static-docs.testsigma.com/new_images/projects/applications/eheielemonts.png)
+   ![Highligted](https://s3.amazonaws.com/website-static-docs.testsigma.com/new_images/projects/Updated_Doc_Images/eheielemonts.png)
 
 3. Hover over the element and click on **View/Edit element**.
    
-   ![View/Edit Element](https://s3.amazonaws.com/static-docs.testsigma.com/new_images/projects/applications/ehvoeelm.png)
+   ![View/Edit Element](https://s3.amazonaws.com/website-static-docs.testsigma.com/new_images/projects/Updated_Doc_Images/ehvoeelm.png)
 
 4. This will open the **Element details** overlay where you can find the details of deprecated elements. 
    
-   ![Element Details](https://s3.amazonaws.com/static-docs.testsigma.com/new_images/projects/applications/ehelemerroverl.png)
+   ![Element Details](https://s3.amazonaws.com/website-static-docs.testsigma.com/new_images/projects/Updated_Doc_Images/ehelemerroverl.png)
 
 5. To resolve the error, replace them with new elements or disable/remove the test step as needed.
 
@@ -94,11 +94,11 @@ To resolve this, you need to:
 
 - **Disable** the step associated with the deprecated element.
   
-  ![Disable Element](https://s3.amazonaws.com/static-docs.testsigma.com/new_images/projects/applications/Disable_Deprecated_Element.png)
+  ![Disable Element](https://s3.amazonaws.com/website-static-docs.testsigma.com/new_images/projects/Updated_Doc_Images/Disable_Deprecated_Element.png)
 
 - Create a new element in the same context and replace the deprecated one by using the **Change Element** option.
 
-   ![Change Elemennt](https://s3.amazonaws.com/static-docs.testsigma.com/new_images/projects/applications/Change_Deprecated_Element.png)
+   ![Change Elemennt](https://s3.amazonaws.com/website-static-docs.testsigma.com/new_images/projects/Updated_Doc_Images/Change_Deprecated_Element.png)
 
 This ensures that tests continue to execute without issues.
 

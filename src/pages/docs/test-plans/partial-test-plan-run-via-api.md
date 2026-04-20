@@ -47,19 +47,19 @@ Performing a partial run in a test plan via an API call in Testsigma enables you
 Follow these steps to configure a partial test plan run.
 
 1.  Open the **Test Plan Details** page for the Test Plan you want to configure a **Partial Test Run** for.
-![Test plan](https://s3.amazonaws.com/static-docs.testsigma.com/new_images/projects/test_plans/update_partial_tp_1.png)
+![Test plan](https://s3.amazonaws.com/website-static-docs.testsigma.com/new_images/projects/Updated_Doc_Images/update_partial_tp_1.png)
 
 2. Click the dropdown next to the **Run Now** button and select **Partial Run**. 
-![Partial Run](https://s3.amazonaws.com/static-docs.testsigma.com/new_images/projects/test_plans/update_partial_tp_2.png)
+![Partial Run](https://s3.amazonaws.com/website-static-docs.testsigma.com/new_images/projects/Updated_Doc_Images/update_partial_tp_2.png)
 
 3. In the **Partial Test Plan Run** overlay, configure your settings as needed. This includes selecting the **Test Suites** to include or exclude, applying filters based on specific criteria, and making any other necessary adjustments.
-![configure](https://s3.amazonaws.com/static-docs.testsigma.com/new_images/projects/test_plans/update_partial_tp_3.png)
+![configure](https://s3.amazonaws.com/website-static-docs.testsigma.com/new_images/projects/Updated_Doc_Images/update_partial_tp_3.png)
 
 4. Once you finalize the partial run configuration, click **Save As Favorite**.
-![Save as favorite](https://s3.amazonaws.com/static-docs.testsigma.com/new_images/projects/test_plans/update_partial_tp_4.png)
+![Save as favorite](https://s3.amazonaws.com/website-static-docs.testsigma.com/new_images/projects/Updated_Doc_Images/update_partial_tp_4.png)
 
 5. Enter a name for your favorite, then click **Save**. 
-![Click Save - PTPR](https://s3.amazonaws.com/static-docs.testsigma.com/new_images/projects/test_plans/update_partial_tp_5.png)
+![Click Save - PTPR](https://s3.amazonaws.com/website-static-docs.testsigma.com/new_images/projects/Updated_Doc_Images/update_partial_tp_5.png)
 
 [[info | NOTE:]]
 | Remember the name used for the favorite configuration, as the API call will require it.
@@ -90,19 +90,19 @@ Follow these steps to run the partial test plan via API call:
 Follow these steps to schedule a partial test run for future execution.
 
 1. Open the **Test Plan Details** page for the Test Plan you want to configure a **Schedule Partial Test Run** for.
-![Test plan](https://s3.amazonaws.com/static-docs.testsigma.com/new_images/projects/test_plans/update_partial_tp_1.png)
+![Test plan](https://s3.amazonaws.com/website-static-docs.testsigma.com/new_images/projects/Updated_Doc_Images/update_partial_tp_1.png)
 
 2. Hover over the schedule icon and select **Schedule Partial Run**. 
-![Schedule Partial Run](https://s3.amazonaws.com/static-docs.testsigma.com/new_images/projects/test_plans/update_partial_tp_6.png)
+![Schedule Partial Run](https://s3.amazonaws.com/website-static-docs.testsigma.com/new_images/projects/Updated_Doc_Images/update_partial_tp_6.png)
 
 3. In the **Schedule Partial Test Run** overlay, configure your settings as needed. This includes entering a **name**, selecting the **time**, **date**, and **repeat frequency**, choosing the **Test Suites** to include or exclude, and applying any necessary filters or adjustments.
-![Configure](https://s3.amazonaws.com/static-docs.testsigma.com/new_images/projects/test_plans/update_partial_tp_7.png)
+![Configure](https://s3.amazonaws.com/website-static-docs.testsigma.com/new_images/projects/Updated_Doc_Images/update_partial_tp_7.png)
 
 4. Once you finalize the configuration, click **Save As Favorite**.
-![Save as Fav](https://s3.amazonaws.com/static-docs.testsigma.com/new_images/projects/test_plans/update_partial_tp_8.png)
+![Save as Fav](https://s3.amazonaws.com/website-static-docs.testsigma.com/new_images/projects/Updated_Doc_Images/update_partial_tp_8.png)
 
 5. Enter a name for your favorite configuration, then click **Save**. 
-![Click Save - SPTPR](https://s3.amazonaws.com/static-docs.testsigma.com/new_images/projects/test_plans/update_partial_tp_9.png)
+![Click Save - SPTPR](https://s3.amazonaws.com/website-static-docs.testsigma.com/new_images/projects/Updated_Doc_Images/update_partial_tp_9.png)
 
 [[info | NOTE:]]
 | Remember the time, date, and name you used for the favorite configuration because the API call will require it.

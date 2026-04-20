@@ -42,6 +42,6 @@ In Testsigma, you can disable specific test cases within your test plans by usin
 3. Navigate to the **Add Test Suites & Link Machine Profiles** tab on the **Create** or **Edit Test Plan** page.
 4. Click the **ellipsis** icon in the **Test Suites** section and select **Manage Test Case** from the dropdown list.
 5. A pop-up screen for the Manage Test Case will appear. Enable or disable the test cases by **checking** or **unchecking** the boxes.
-6. Click **Update Test Suites** to save the changes. ![Disable Test Cases in Test Suites](https://s3.amazonaws.com/static-docs.testsigma.com/new_images/projects/applications/disable_testcases.gif)
+6. Click **Update Test Suites** to save the changes. ![Disable Test Cases in Test Suites](https://s3.amazonaws.com/website-static-docs.testsigma.com/new_images/projects/Updated_Doc_Images/disable_testcases.gif)
 
 ---

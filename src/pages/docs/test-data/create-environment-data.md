@@ -41,7 +41,7 @@ Create environment test data in Testsigma to ensure effective and accurate testi
 [[info | NOTE:]]
 | Click the **lock** icon in the Value field to encrypt the parameter value to hide its value during testing.
 4. Alternatively, select the tab labelled **JSON Format** and add these values in JSON format.
-5. Click the **Create** button located in the top right corner of the Environment Details page to create the environment. ![Create Environment](https://s3.amazonaws.com/static-docs.testsigma.com/new_images/projects/applications/create_environment_ts.gif)
+5. Click the **Create** button located in the top right corner of the Environment Details page to create the environment. ![Create Environment](https://s3.amazonaws.com/website-static-docs.testsigma.com/new_images/projects/Updated_Doc_Images/create_environment_ts.gif)
 
 ---
 
@@ -49,7 +49,7 @@ Create environment test data in Testsigma to ensure effective and accurate testi
 
 1. **Linked Test Plans**: Click Linked Test Plans in the right-side navbar and view the environment linked to the test plans.
 2. **Activity**: Click Activity in the right-side navbar and view the **history** and **comments** of the environment.
-3. Click the **Delete** button in the top right corner of the **Environment Details** page to remove the environment from the project. A Delete Confirmation pop-up will appear. Click **Delete**. ![Manage Environment Delete](https://s3.amazonaws.com/static-docs.testsigma.com/new_images/projects/applications/manage_environment_ts.gif)
+3. Click the **Delete** button in the top right corner of the **Environment Details** page to remove the environment from the project. A Delete Confirmation pop-up will appear. Click **Delete**. ![Manage Environment Delete](https://s3.amazonaws.com/website-static-docs.testsigma.com/new_images/projects/Updated_Doc_Images/manage_environment_ts.gif)
 
 [[info | NOTE:]]
 | If you try to delete an Environment linked to a Test Plan, the application will warn and block the deletion. You must remove the Environment from the related Test Plans before trying the deletion again. Deleting the Environment will result in the loss of its associated configuration.

@@ -48,11 +48,11 @@ We will complete the integration in 3 parts:
 
 ## **Obtain API and Test Plan ID from Testsigma App**
 1. Create API Key by navigating to **Settings > API Keys**.
-![API Key](https://s3.amazonaws.com/static-docs.testsigma.com/new_images/projects/continuous_integration/update_circle_CI_1.png)
+![API Key](https://s3.amazonaws.com/website-static-docs.testsigma.com/new_images/projects/Updated_Doc_Images/update_circle_CI_1.png)
 We will use this API Key to authenticate our remote Test Plan trigger requests from CircleCI. 
 
 2. Create a Test Plan in Testsigma that you will execute as part of the CircleCI Pipeline. Obtain the **Test Plan ID** for the Test Plan from the **CI/CD Integrations** tab within **Test Plan details** as shown below:
-![Test Plan ID](https://s3.amazonaws.com/static-docs.testsigma.com/new_images/projects/continuous_integration/update_circle_CI_2.png)
+![Test Plan ID](https://s3.amazonaws.com/website-static-docs.testsigma.com/new_images/projects/Updated_Doc_Images/update_circle_CI_2.png)
 We will add Testsigma API Key and the Test Plan ID to a Shell script, and the shell script file to your Code Repository.
 
 ---

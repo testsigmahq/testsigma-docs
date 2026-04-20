@@ -70,20 +70,20 @@ Simple Mail Transfer Protocol (SMTP) is a standard protocol for sending mail fro
 
 
 1. Navigate to **Manage Accounts > Security > App passwords**.
-![Navigate to Settings](https://s3.amazonaws.com/static-docs.testsigma.com/new_images/projects/applications/appasswords.png)
+![Navigate to Settings](https://s3.amazonaws.com/website-static-docs.testsigma.com/new_images/projects/Updated_Doc_Images/appasswords.png)
 
 
 2. Select **app**, **device**, and click on **Generate**.
-![Generate Password](https://s3.amazonaws.com/static-docs.testsigma.com/new_images/projects/applications/Generate.png)
+![Generate Password](https://s3.amazonaws.com/website-static-docs.testsigma.com/new_images/projects/Updated_Doc_Images/Generate.png)
 
 
 3. The password will be generated and displayed as below:
-![Passwor](https://s3.amazonaws.com/static-docs.testsigma.com/new_images/projects/applications/password.png)
+![Passwor](https://s3.amazonaws.com/website-static-docs.testsigma.com/new_images/projects/Updated_Doc_Images/password.png)
 
 
 
 Here’s a quick GIF demonstrating how to generate the password.
-![SMTP GIF](https://s3.amazonaws.com/static-docs.testsigma.com/new_images/projects/applications/SMTPGIF.gif)
+![SMTP GIF](https://s3.amazonaws.com/website-static-docs.testsigma.com/new_images/projects/Updated_Doc_Images/SMTPGIF.gif)
 
 
 [[info | **NOTE**:]]

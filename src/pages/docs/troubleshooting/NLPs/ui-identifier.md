@@ -34,7 +34,7 @@ You can add an **If conditional step** to handle the above cases, which won't st
 
 2. Click on *element*
 
-   ![Steps](https://s3.amazonaws.com/static-docs.testsigma.com/new_images/projects/applications/losuiinf.png)
+   ![Steps](https://s3.amazonaws.com/website-static-docs.testsigma.com/new_images/projects/Updated_Doc_Images/losuiinf.png)
 
 
 ---

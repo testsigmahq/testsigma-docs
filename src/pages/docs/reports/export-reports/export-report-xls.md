@@ -40,9 +40,9 @@ Effortlessly generate detailed Excel reports for your test runs in Testsigma. Th
 2. Open the specific **Test Run** from the **Run Result** list page to export the test report file.
 3. Locate the **Export** icon next to the **Rerun** button for the chosen test plan on the run results page.
 4. Click the **Export** icon, and a dropdown list will appear.
-5. Select **MS Excel Sheet** from the dropdown list to initiate the export of the Test Plan results. ![Export reports in XLS](https://s3.amazonaws.com/static-docs.testsigma.com/new_images/projects/applications/exporting_reports_excel.gif)
+5. Select **MS Excel Sheet** from the dropdown list to initiate the export of the Test Plan results. ![Export reports in XLS](https://s3.amazonaws.com/website-static-docs.testsigma.com/new_images/projects/Updated_Doc_Images/exporting_reports_excel.gif)
 6. Once you select, Testsigma will generate and automatically download a report in Excel format. Testsigma will notify you via **email** (using the email address associated with your Testsigma account) upon completion. 
-7. Click on the file named **(Test Plan Name).xlsx** to access the exported results. ![notify XLS report in email](https://s3.amazonaws.com/static-docs.testsigma.com/new_images/projects/applications/notify_excel_exportrepot.png)
+7. Click on the file named **(Test Plan Name).xlsx** to access the exported results. ![notify XLS report in email](https://s3.amazonaws.com/website-static-docs.testsigma.com/new_images/projects/Updated_Doc_Images/notify_excel_exportrepot.png)
 
 [[info | NOTE:]]
 | If you choose to rerun the test cases from the reports, the rerun results will also be consolidated into the exported reports.

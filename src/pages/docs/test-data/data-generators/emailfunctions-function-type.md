@@ -50,19 +50,19 @@ The EmailFunctions function type enables users to generate various types of emai
 ## **Selecting EmailFunctions as a Function Type for Data Generator**
 
 1. From the left navigation bar, go to **Create Tests > Test Cases** and create a new test case.
-![Test Cases](https://s3.amazonaws.com/static-docs.testsigma.com/new_images/projects/test_data/update_randomtext_1.png) 
+![Test Cases](https://s3.amazonaws.com/website-static-docs.testsigma.com/new_images/projects/Updated_Doc_Images/update_randomtext_1.png) 
 
 2. Use **NLP** to create a **new step** in the test case and include a placeholder for **test data**.
-![NLP](https://s3.amazonaws.com/static-docs.testsigma.com/new_images/projects/test_data/update_emailfuntion_1.png)
+![NLP](https://s3.amazonaws.com/website-static-docs.testsigma.com/new_images/projects/Updated_Doc_Images/update_emailfuntion_1.png)
 
 3. Click on the **test data** placeholder. From the **Test Data Types** dropdown menu, select the **! Data Generator** option.
-![Data Generator](https://s3.amazonaws.com/static-docs.testsigma.com/new_images/projects/test_data/update_emailfuntion_2.png)
+![Data Generator](https://s3.amazonaws.com/website-static-docs.testsigma.com/new_images/projects/Updated_Doc_Images/update_emailfuntion_2.png)
 
 4. On the **! Data Generators** overlay, select the **Type** to **Default**. This will enable you to use a collection of built-in test data generators.
-![Default](https://s3.amazonaws.com/static-docs.testsigma.com/new_images/projects/test_data/update_emailfuntion_3.png)
+![Default](https://s3.amazonaws.com/website-static-docs.testsigma.com/new_images/projects/Updated_Doc_Images/update_emailfuntion_3.png)
 
 5. Select **EmailFunctions** from the **Function Type** dropdown list. 
-![EmailFunctions](https://s3.amazonaws.com/static-docs.testsigma.com/new_images/projects/test_data/update_emailfuntion_4.png)
+![EmailFunctions](https://s3.amazonaws.com/website-static-docs.testsigma.com/new_images/projects/Updated_Doc_Images/update_emailfuntion_4.png)
 
 [[info | NOTE:]]
 | This action will display a list of built-in functions associated with the EmailFunctions function type, enabling you to select the appropriate function based on your requirements.

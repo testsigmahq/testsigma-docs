@@ -52,7 +52,7 @@ Follow these steps to enable Test Case Review Management and Self Review in your
 
 1. Click on the **Settings** tab in the left-side navbar of the Dashboard. Then, select Preferences and turn on the **Test Case Review Management** toggle. This will enable you to submit test cases for review and review test cases created by your team members.
 2. After you enable **Test Case Review Management**, you can also enable **Self-Review Management**. This feature helps you to perform self-reviews as part of the software testing and quality assurance process. 
-![Enable Test Case Review Management](https://s3.amazonaws.com/static-docs.testsigma.com/new_images/projects/collaboration/update_review_tc_1.png)
+![Enable Test Case Review Management](https://s3.amazonaws.com/website-static-docs.testsigma.com/new_images/projects/Updated_Doc_Images/update_review_tc_1.png)
 
 ---
 
@@ -61,9 +61,9 @@ Follow these steps to enable Test Case Review Management and Self Review in your
 Here's how to submit test cases for review and get feedback from your team members after enabling Test Case Review Management:
 
 1. Create a **Test Case** with a list of **test steps**. Then, click **Submit for Review** icon at the top right of the screen to bring up an overlay.
-![Submit for Review](https://s3.amazonaws.com/static-docs.testsigma.com/new_images/projects/collaboration/update_review_tc_2.png)
+![Submit for Review](https://s3.amazonaws.com/website-static-docs.testsigma.com/new_images/projects/Updated_Doc_Images/update_review_tc_2.png)
 
-2. Select a **Reviewer** from the dropdown list, check the box next to **Notify Assignee and Reviewer**, you can add comments in the box, and then click **Submit**. ![Submit Test case for review](https://s3.amazonaws.com/static-docs.testsigma.com/new_images/projects/collaboration/update_review_tc_3.png)
+2. Select a **Reviewer** from the dropdown list, check the box next to **Notify Assignee and Reviewer**, you can add comments in the box, and then click **Submit**. ![Submit Test case for review](https://s3.amazonaws.com/website-static-docs.testsigma.com/new_images/projects/Updated_Doc_Images/update_review_tc_3.png)
 
 [[info | NOTE:]]
 | Check the **Submitted for Review** section on the Dashboard to view the **Test Cases** that you have submitted for review.
@@ -75,12 +75,12 @@ Follow these steps to review a test case if you have been assigned as a reviewer
 
 1. An email notification will inform you when you receive a test case to review. You can also check the **Assigned for your Review** section on the dashboard to keep track of review requests you have received.
 2. To start, click either the test case link in the email or select the test case from the **Assigned for your Review** section. It will take you to the test case for review.
-![Assigned for your review](https://s3.amazonaws.com/static-docs.testsigma.com/new_images/projects/collaboration/update_review_tc_4.png)
+![Assigned for your review](https://s3.amazonaws.com/website-static-docs.testsigma.com/new_images/projects/Updated_Doc_Images/update_review_tc_4.png)
 
 3. Click the **Review Testcase** button in the top right corner to provide feedback once you've finished reviewing the test case.
-![Review Management](https://s3.amazonaws.com/static-docs.testsigma.com/new_images/projects/collaboration/update_review_tc_5.png)
+![Review Management](https://s3.amazonaws.com/website-static-docs.testsigma.com/new_images/projects/Updated_Doc_Images/update_review_tc_5.png)
 
-4. After you click the **Review Testcase** button, the **Update Review Status** overlay will appear. You can check the **Notify Assignee and Reviewer** box, add comments, and click **Approve** or **Rework** based on your review assessment. You can repeat these steps as needed until the test case is approved. ![Review Test Case](https://s3.amazonaws.com/static-docs.testsigma.com/new_images/projects/collaboration/update_review_tc_6.png)
+4. After you click the **Review Testcase** button, the **Update Review Status** overlay will appear. You can check the **Notify Assignee and Reviewer** box, add comments, and click **Approve** or **Rework** based on your review assessment. You can repeat these steps as needed until the test case is approved. ![Review Test Case](https://s3.amazonaws.com/website-static-docs.testsigma.com/new_images/projects/Updated_Doc_Images/update_review_tc_6.png)
 
 ---
 

@@ -52,12 +52,12 @@ We are using the Simply Travel Flight website as an example and sorting the city
 1. Navigate to the website containing the elements you want to copy the **XPath**.
 
 2. **Right-click** on the desired and select **Inspect** to open **Chrome Developer Tools**.
-![Inspect](https://s3.amazonaws.com/static-docs.testsigma.com/new_images/projects/elements/update_dl_1.png)
+![Inspect](https://s3.amazonaws.com/website-static-docs.testsigma.com/new_images/projects/Updated_Doc_Images/update_dl_1.png)
 
 3. Use the **Select Element** icon to locate and inspect the element, then right-click the HTML tag and copy the **XPath**.
 
 4. We will use the Simply Travel Flight website as an example of the above test steps. Click **Select from Cities** and copy the **XPath** values for the cities.
-![Xpath](https://s3.amazonaws.com/static-docs.testsigma.com/new_images/projects/elements/update_dl_2.1.png)
+![Xpath](https://s3.amazonaws.com/website-static-docs.testsigma.com/new_images/projects/Updated_Doc_Images/update_dl_2.1.png)
 
 5. The table below explains how the city names and their corresponding XPath for an element.
    <table>
@@ -86,17 +86,17 @@ We are using the Simply Travel Flight website as an example and sorting the city
 6. In the provided XPath examples, the IDs of the cities have a common portion, **city-**, followed by a variable digit from **1** to **4**. We will parameterise this by storing the city and the variable portion using a Test Data profile.
 
 7. Navigate to **Test Data** > **Test Data Profile**. Click on **Create Test Data Profile**. 
-![Create TDP for storing element](https://s3.amazonaws.com/static-docs.testsigma.com/new_images/projects/elements/update_dl_3.png)
+![Create TDP for storing element](https://s3.amazonaws.com/website-static-docs.testsigma.com/new_images/projects/Updated_Doc_Images/update_dl_3.png)
 
 8. Below is the created Test Data profile for storing element ID attributes: 
-![Sample TDP](https://s3.amazonaws.com/static-docs.testsigma.com/new_images/projects/elements/update_dl_4.1.png)
+![Sample TDP](https://s3.amazonaws.com/website-static-docs.testsigma.com/new_images/projects/Updated_Doc_Images/update_dl_4.1.png)
 
 ---
 
 ## **Creating Dynamic Elements using Parameter**
 
 1. Use NLP to create a new step in the Test Case and include a placeholder for the element. 
-![Select Create Element](https://s3.amazonaws.com/static-docs.testsigma.com/new_images/projects/elements/update_dl_5.png)
+![Select Create Element](https://s3.amazonaws.com/website-static-docs.testsigma.com/new_images/projects/Updated_Doc_Images/update_dl_5.png)
    [[info | Example:]]
    | Utilise NLP "Click on **Element**" to click an element with a given UI Identifier.
 
@@ -107,7 +107,7 @@ We are using the Simply Travel Flight website as an example and sorting the city
 4. Provide the dynamic element value **//*[@id="@|cities|"]/div[2]/span[1]**, where **cities** is the parameter name containing dynamic data.
 
 5. Click **Create Element** to complete element creation and then **Create Step**. 
-![Create Dynamic ELement using Parameter](https://s3.amazonaws.com/static-docs.testsigma.com/new_images/projects/elements/update_dl_6.png)
+![Create Dynamic ELement using Parameter](https://s3.amazonaws.com/website-static-docs.testsigma.com/new_images/projects/Updated_Doc_Images/update_dl_6.png)
 
 ---
 
@@ -118,7 +118,7 @@ We are using the Simply Travel Flight website as an example and sorting the city
 2. Choose the associated **Test Data Profile**.
 
 3. Enable the **Data-Driven** toggle and select **Filter Type**, **Comparison Metric**, and **Data Iteration**. 
-![Config TDP in test case](https://s3.amazonaws.com/static-docs.testsigma.com/new_images/projects/elements/update_dl_7.png)
+![Config TDP in test case](https://s3.amazonaws.com/website-static-docs.testsigma.com/new_images/projects/Updated_Doc_Images/update_dl_7.png)
 
 ---
 
@@ -129,7 +129,7 @@ We are using the Simply Travel Flight website as an example and sorting the city
 2. Wait until the Test Case execution is completed.
 
 3. The Test Case will iterate as many times as there are **Test Data Sets (rows)** in the Test Data Profile, resulting in four iterations based on the provided example. 
-![Results for Dynamic Elements](https://s3.amazonaws.com/static-docs.testsigma.com/new_images/projects/elements/update_dl_8.png)
+![Results for Dynamic Elements](https://s3.amazonaws.com/website-static-docs.testsigma.com/new_images/projects/Updated_Doc_Images/update_dl_8.png)
 
 ---
 

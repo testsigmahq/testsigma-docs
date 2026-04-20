@@ -24,10 +24,10 @@ In Testsigma, the configuration of the Oracle Database add-on requires specific 
 ## **Steps to Install the Addon**
 
 1. From the left navigation bar, go to **Addons** and click **Add-ons**.
-    ![Addons](https://s3.amazonaws.com/static-docs.testsigma.com/new_images/projects/faq/otp_1.png)
+    ![Addons](https://s3.amazonaws.com/website-static-docs.testsigma.com/new_images/projects/Updated_Doc_Images/otp_1.png)
 
 2. Under the **New & Updated Addons** section, search for the **OracleDB_Queries** addon and click **Install**. 
-   ![Install Addon](https://s3.amazonaws.com/static-docs.testsigma.com/new_images/projects/faq/Oracle_2.png)
+   ![Install Addon](https://s3.amazonaws.com/website-static-docs.testsigma.com/new_images/projects/Updated_Doc_Images/Oracle_2.png)
 
 ---
 
@@ -55,7 +55,7 @@ In Testsigma, the configuration of the Oracle Database add-on requires specific 
      - **Password** – Your database password.
      - **Role** – Database role (e.g., SYSDBA).
 
-   ![OracleDB](https://s3.amazonaws.com/static-docs.testsigma.com/new_images/projects/faq/Oracle_1.png)  
+   ![OracleDB](https://s3.amazonaws.com/website-static-docs.testsigma.com/new_images/projects/Updated_Doc_Images/Oracle_1.png)  
    
    **SID Example:**
 

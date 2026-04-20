@@ -38,20 +38,20 @@ You can integrate Testsigma with Jira to push bugs directly to your Jira project
 ## **Integrating Jira with Testsigma**
 
 1. From the left navigation bar, go to **Settings > Integrations**.
-   ![Integrations](https://s3.amazonaws.com/static-docs.testsigma.com/new_images/projects/Updated_Doc_Images/Bug_Integration_Jira.png)
+   ![Integrations](https://s3.amazonaws.com/website-static-docs.testsigma.com/new_images/projects/Updated_Doc_Images/Bug_Integration_Jira.png)
 
 2. Enable the **Jira** toggle.
-   ![Jira Toggle](https://s3.amazonaws.com/static-docs.testsigma.com/new_images/projects/Updated_Doc_Images/Jira_Toggle_Bug_Reporting.png)
+   ![Jira Toggle](https://s3.amazonaws.com/website-static-docs.testsigma.com/new_images/projects/Updated_Doc_Images/Jira_Toggle_Bug_Reporting.png)
 
 3. In the **Jira Details** dialog, enter the following:
    - **Account URL**
    - **Username**
    - **API Key**
    - **Confirm API Key**
-   ![Jira Details](https://s3.amazonaws.com/static-docs.testsigma.com/new_images/projects/Updated_Doc_Images/All_Jira_Details.png)
+   ![Jira Details](https://s3.amazonaws.com/website-static-docs.testsigma.com/new_images/projects/Updated_Doc_Images/All_Jira_Details.png)
 
 4. Click **Save & Enable**.
-   ![Save Jira Details](https://s3.amazonaws.com/static-docs.testsigma.com/new_images/projects/Updated_Doc_Images/Save_All_Jira_Details.png)
+   ![Save Jira Details](https://s3.amazonaws.com/website-static-docs.testsigma.com/new_images/projects/Updated_Doc_Images/Save_All_Jira_Details.png)
 
 ### **Field Definitions:**
 - **Account URL example**: https://{organizationname}.atlassian.net/
@@ -62,38 +62,38 @@ You can integrate Testsigma with Jira to push bugs directly to your Jira project
 | ### **Steps to Generate API Key**
 | 1. Sign in to your Jira account.
 | 2. Click your Profile icon and select **Account Settings**.
-| ![Account Settings](https://s3.amazonaws.com/static-docs.testsigma.com/new_images/projects/integration/Jira_Server_6.png)
+| ![Account Settings](https://s3.amazonaws.com/website-static-docs.testsigma.com/new_images/projects/Updated_Doc_Images/Jira_Server_6.png)
 | 3. In the **Account** page, go to the **Security** tab.
-| ![Security](https://s3.amazonaws.com/static-docs.testsigma.com/new_images/projects/integration/Jira_Server_7.1.png)
+| ![Security](https://s3.amazonaws.com/website-static-docs.testsigma.com/new_images/projects/Updated_Doc_Images/Jira_Server_7.1.png)
 | 4. In the **Security** page, under **API Tokens**, click **Create and manage API tokens** or **API Tokens**.
-| ![API Tokens](https://s3.amazonaws.com/static-docs.testsigma.com/new_images/projects/integration/Jira_Server_8.png)
+| ![API Tokens](https://s3.amazonaws.com/website-static-docs.testsigma.com/new_images/projects/Updated_Doc_Images/Jira_Server_8.png)
 | 5. In the **API Tokens** page, click **Create API token**.
-| ![Create API Token](https://s3.amazonaws.com/static-docs.testsigma.com/new_images/projects/integration/Jira_Server_9.png)
+| ![Create API Token](https://s3.amazonaws.com/website-static-docs.testsigma.com/new_images/projects/Updated_Doc_Images/Jira_Server_9.png)
 | 6. In the **Create an API token** dialog, enter a name and click **Create**.
-| ![Create](https://s3.amazonaws.com/static-docs.testsigma.com/new_images/projects/faq/API_Token.png)
+| ![Create](https://s3.amazonaws.com/website-static-docs.testsigma.com/new_images/projects/Updated_Doc_Images/API_Token.png)
 | 7. In the **Copy your API token** dialog, click **Copy** and then click **Done**.
-| ![Done](https://s3.amazonaws.com/static-docs.testsigma.com/new_images/projects/integration/Jira_Server_11.png)
+| ![Done](https://s3.amazonaws.com/website-static-docs.testsigma.com/new_images/projects/Updated_Doc_Images/Jira_Server_11.png)
 
 ---
 
 ## **Creating a bug**
 
 1. From the left navigation bar, go to **Run Results > Test Plan Result**, and open the Test Case Result where you want to report a bug.
-   ![Test Case Result](https://s3.amazonaws.com/static-docs.testsigma.com/new_images/projects/Updated_Doc_Images/Test_Result_In_Plan.png)
+   ![Test Case Result](https://s3.amazonaws.com/website-static-docs.testsigma.com/new_images/projects/Updated_Doc_Images/Test_Result_In_Plan.png)
    
 2. Click **Report Bug**.
-   ![Report Bug](https://s3.amazonaws.com/static-docs.testsigma.com/new_images/projects/Updated_Doc_Images/Report_Bug_From_Test_Result.png)
+   ![Report Bug](https://s3.amazonaws.com/website-static-docs.testsigma.com/new_images/projects/Updated_Doc_Images/Report_Bug_From_Test_Result.png)
 
 3. In the **Report** overlay, click the **Jira** icon.
-   ![Jira Icon from Overlay](https://s3.amazonaws.com/static-docs.testsigma.com/new_images/projects/Updated_Doc_Images/Jira_Icon_from_Overlay.png)
+   ![Jira Icon from Overlay](https://s3.amazonaws.com/website-static-docs.testsigma.com/new_images/projects/Updated_Doc_Images/Jira_Icon_from_Overlay.png)
 
 4. In the **Create New Bug** overlay, review the details and click **Report Bug**.
-   ![Create New Bug](https://s3.amazonaws.com/static-docs.testsigma.com/new_images/projects/Updated_Doc_Images/Create_New_Bug_From_Result.png)
+   ![Create New Bug](https://s3.amazonaws.com/website-static-docs.testsigma.com/new_images/projects/Updated_Doc_Images/Create_New_Bug_From_Result.png)
 
 
 [[info | **NOTE**:]]
 | To link to an existing Jira issue, click **Link to Issue**, search for the issue, and then click **Link to Ticket**.
 |
-| ![Link](https://s3.amazonaws.com/static-docs.testsigma.com/new_images/projects/Updated_Doc_Images/Link_Bug_to_Existing_Issue.png)
+| ![Link](https://s3.amazonaws.com/website-static-docs.testsigma.com/new_images/projects/Updated_Doc_Images/Link_Bug_to_Existing_Issue.png)
 
 ---

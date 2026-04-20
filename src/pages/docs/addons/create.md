@@ -66,13 +66,13 @@ Addons in Testsigma enhance your testing capabilities by enabling you to create 
 ## **Creating an Addon Template**
 
 1. Click on the **Addons** icon from the left navigation bar and click **Add-ons** from the dropdown.
-   ![Addons](https://s3.amazonaws.com/static-docs.testsigma.com/new_images/projects/addon/update_addon_1.1.png)
+   ![Addons](https://s3.amazonaws.com/website-static-docs.testsigma.com/new_images/projects/Updated_Doc_Images/update_addon_1.1.png)
 
 2. Click on the **+ New Addon** button at the top right of the Addons page.
-   ![New Addon](https://s3.amazonaws.com/static-docs.testsigma.com/new_images/projects/addon/update_addon_2.png)
+   ![New Addon](https://s3.amazonaws.com/website-static-docs.testsigma.com/new_images/projects/Updated_Doc_Images/update_addon_2.png)
 
 3. Enter the **Addon Name** and provide a brief **Description** of what the addon does on the **Testsigma Addon** pop-up, then click **Create**. A zip file containing the template code will be downloaded automatically.
-   ![Create](https://s3.amazonaws.com/static-docs.testsigma.com/new_images/projects/addon/update_addon_3.png)
+   ![Create](https://s3.amazonaws.com/website-static-docs.testsigma.com/new_images/projects/Updated_Doc_Images/update_addon_3.png)
 
 4. Alternatively, open the addon and click the **Download** icon to get the source code. This action will download a zip file containing the sample template code, which you can use to add your code. 
 
@@ -81,7 +81,7 @@ Addons in Testsigma enhance your testing capabilities by enabling you to create 
 ## **Updating the Action Code**
 
 1. Unzip the downloaded file and open the extracted folder in your IDE as a Java project. Ensure that Maven is set as the build tool.
-2. The downloaded folder contains a Java Maven project with a **pom.xml** file and sample templates for **Web**, **Mobile Web**, **Android**, and **iOS Application**. ![Snapshot of the sample code showing most common annotations and options](https://s3.amazonaws.com/static-docs.testsigma.com/new_images/projects/applications/Addonnew.gif)
+2. The downloaded folder contains a Java Maven project with a **pom.xml** file and sample templates for **Web**, **Mobile Web**, **Android**, and **iOS Application**. ![Snapshot of the sample code showing most common annotations and options](https://s3.amazonaws.com/website-static-docs.testsigma.com/new_images/projects/Updated_Doc_Images/Addonnew.gif)
 3. Refactor the sample code based on your requirements:
     - **Action Text**: Customize the action text.
     - **Selenium or Java Code**: Add Selenium or Java code to define the action.
@@ -97,7 +97,7 @@ Addons in Testsigma enhance your testing capabilities by enabling you to create 
 
 1. Use JUnit or TestNG as your test runner.
 2. Right-click on the test class in your IDE and choose to run it as a JUnit or TestNG test.
-3. Verify that the add-on performs as expected. ![validate addon code](https://s3.amazonaws.com/static-docs.testsigma.com/new_images/projects/applications/validate_addon_code.png)
+3. Verify that the add-on performs as expected. ![validate addon code](https://s3.amazonaws.com/website-static-docs.testsigma.com/new_images/projects/Updated_Doc_Images/validate_addon_code.png)
 
 ---
 
@@ -108,10 +108,10 @@ Addons in Testsigma enhance your testing capabilities by enabling you to create 
 zip -r addonName.zip . -x "*"
 ```
 2. Go to the **Addons** page, select your add-on, and click **Upload Code**. 
-   ![Upload Code](https://s3.amazonaws.com/static-docs.testsigma.com/new_images/projects/addon/update_addon_4.png)
+   ![Upload Code](https://s3.amazonaws.com/website-static-docs.testsigma.com/new_images/projects/Updated_Doc_Images/update_addon_4.png)
 
 3. Browse and select the zipped file, then click **Update**.
-   ![Update](https://s3.amazonaws.com/static-docs.testsigma.com/new_images/projects/addon/update_addon_5.png)
+   ![Update](https://s3.amazonaws.com/website-static-docs.testsigma.com/new_images/projects/Updated_Doc_Images/update_addon_5.png)
 
 4. Additional options in the dropdown include:
     - **Edit Description**: Update the description of your add-on if needed.
@@ -123,7 +123,7 @@ zip -r addonName.zip . -x "*"
 ## **Publishing the Addon**
 
 1. After uploading the code, click on **Publish** from the dropdown menu. 
-   ![Publish](https://s3.amazonaws.com/static-docs.testsigma.com/new_images/projects/addon/update_addon_6.png)
+   ![Publish](https://s3.amazonaws.com/website-static-docs.testsigma.com/new_images/projects/Updated_Doc_Images/update_addon_6.png)
    
    Then, choose your publish options:
     - **Public**: Make the add-on available to the entire Testsigma community.
@@ -131,7 +131,7 @@ zip -r addonName.zip . -x "*"
 
 
 2. Once you select the required option, click **Publish**. 
-   ![Publish the addon](https://s3.amazonaws.com/static-docs.testsigma.com/new_images/projects/addon/update_addon_7.png)
+   ![Publish the addon](https://s3.amazonaws.com/website-static-docs.testsigma.com/new_images/projects/Updated_Doc_Images/update_addon_7.png)
 
 3. An automatic security check will be done. If it passes, the add-on will be published. If it fails, you will get an email notification. 
 
@@ -144,7 +144,7 @@ zip -r addonName.zip . -x "*"
 
 1. Create a new test case or open an existing one. Click **Add New Step** and search for the action using the keywords. 
 2. Look for the **Addon** icon before the test step to indicate it's from the Addon. 
-3. Select it from the suggestions, update the test data and element, and then click **Create Step**. ![Create a step](https://s3.amazonaws.com/static-docs.testsigma.com/new_images/projects/addon/update_addon_8.png)
+3. Select it from the suggestions, update the test data and element, and then click **Create Step**. ![Create a step](https://s3.amazonaws.com/website-static-docs.testsigma.com/new_images/projects/Updated_Doc_Images/update_addon_8.png)
 
 ---
 

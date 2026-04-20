@@ -42,15 +42,15 @@ With Testsigma, creating test cases for Salesforce is easy as we can leverage Me
 ## **Steps to Create Test Cases for Salesforce**
 
 1. Navigate to **Create Tests > Test Cases** and create a test case. 
-![Test Cases](https://s3.amazonaws.com/static-docs.testsigma.com/new_images/projects/salesforce/update_sf_tc_1.png)
+![Test Cases](https://s3.amazonaws.com/website-static-docs.testsigma.com/new_images/projects/Updated_Doc_Images/update_sf_tc_1.png)
 
 2. From the **Test Case Details** page, you can create the test steps for your test case using either of the following methods:
     - Write test steps manually using **Smart NLPs** by clicking **Add new step**.
     - Use **Copilot** to record steps.
-![Manual + Live](https://s3.amazonaws.com/static-docs.testsigma.com/new_images/projects/salesforce/update_sf_tc_2.png)
+![Manual + Live](https://s3.amazonaws.com/website-static-docs.testsigma.com/new_images/projects/Updated_Doc_Images/update_sf_tc_2.png)
 
 3. Once the test steps are created, click on **Run** to execute the Test Case. 
-![Run](https://s3.amazonaws.com/static-docs.testsigma.com/new_images/projects/salesforce/update_sf_tc_3.png)
+![Run](https://s3.amazonaws.com/website-static-docs.testsigma.com/new_images/projects/Updated_Doc_Images/update_sf_tc_3.png)
 
 [[info | **NOTE**:]]
 | For advanced options, refer to the [documentation on configuring test case advanced options](https://testsigma.com/docs/test-cases/manage/add-edit-delete/#test-case----advanced-options).
@@ -62,46 +62,46 @@ Let's say we have a scenario where we want to log in to Salesforce, navigate to 
 
 1. Use the NLP, **Login to Salesforce application using *Salesforce Connection* connection**.
 Here, we can choose a connection or create a connection by clicking on **Add Connection**. 
-![Add Connection](https://s3.amazonaws.com/static-docs.testsigma.com/new_images/projects/salesforce/update_sf_tc_4.png)
+![Add Connection](https://s3.amazonaws.com/website-static-docs.testsigma.com/new_images/projects/Updated_Doc_Images/update_sf_tc_4.png)
 
 2. Use the NLP, **Switch to *Application*** and replace application from the dropdown. 
-![Sales](https://s3.amazonaws.com/static-docs.testsigma.com/new_images/projects/salesforce/update_sf_tc_5.png)
+![Sales](https://s3.amazonaws.com/website-static-docs.testsigma.com/new_images/projects/Updated_Doc_Images/update_sf_tc_5.png)
 
 3. Use the NLP, **Create record in *Salesforce Object Form* using *Salesforce Connection* and store the record id in variabel *test data**. This is an API step.
-![API Step](https://s3.amazonaws.com/static-docs.testsigma.com/new_images/projects/salesforce/update_sf_tc_6.png)
+![API Step](https://s3.amazonaws.com/website-static-docs.testsigma.com/new_images/projects/Updated_Doc_Images/update_sf_tc_6.png)
 
    - Click **Salesforce Object Form**. This will open **Create record using API** overlay. 
-    ![API Overlay](https://s3.amazonaws.com/static-docs.testsigma.com/new_images/projects/salesforce/update_sf_tc_7.png)
+    ![API Overlay](https://s3.amazonaws.com/website-static-docs.testsigma.com/new_images/projects/Updated_Doc_Images/update_sf_tc_7.png)
 
    - Choose the object form **Select object** dropdown menu. Alternatively, you can also search & choose the **Object Form**. This will open the form where we need to enter the details.
-    ![Object Form](https://s3.amazonaws.com/static-docs.testsigma.com/new_images/projects/salesforce/update_sf_tc_8.png)
+    ![Object Form](https://s3.amazonaws.com/website-static-docs.testsigma.com/new_images/projects/Updated_Doc_Images/update_sf_tc_8.png)
 
    - The form populates for the selected object. Enter data in the fields and click **Save**. Only the selected fields are sent in the API request. 
-    ![Save Form](https://s3.amazonaws.com/static-docs.testsigma.com/new_images/projects/salesforce/update_sf_tc_9.png)
+    ![Save Form](https://s3.amazonaws.com/website-static-docs.testsigma.com/new_images/projects/Updated_Doc_Images/update_sf_tc_9.png)
   
   - Click **Salesforce Connection** and choose the available connection from the dropdown menu. 
-    ![Salesforce Connection](https://s3.amazonaws.com/static-docs.testsigma.com/new_images/projects/salesforce/update_sf_tc_10.png)
+    ![Salesforce Connection](https://s3.amazonaws.com/website-static-docs.testsigma.com/new_images/projects/Updated_Doc_Images/update_sf_tc_10.png)
     
    - Store the **Record ID** in a variable, which we’ll call **Lead Records** here. We can use this variable in the next test step to edit a record or across any test cases.
-    ![Lead Records](https://s3.amazonaws.com/static-docs.testsigma.com/new_images/projects/salesforce/update_sf_tc_11.png)
+    ![Lead Records](https://s3.amazonaws.com/website-static-docs.testsigma.com/new_images/projects/Updated_Doc_Images/update_sf_tc_11.png)
 
 4. Use the NLP, **Open the edit *Salesforce Object* form where record is *Record ID***. Here, you open the edit form using the **$ Runtime** test data type with the **Record ID** stored in the variable from the previous step.
-![Runtime Variable](https://s3.amazonaws.com/static-docs.testsigma.com/new_images/projects/salesforce/update_sf_tc_12.png)
+![Runtime Variable](https://s3.amazonaws.com/website-static-docs.testsigma.com/new_images/projects/Updated_Doc_Images/update_sf_tc_12.png)
 
 5. Click **Copilot**. 
-![Record](https://s3.amazonaws.com/static-docs.testsigma.com/new_images/projects/salesforce/update_sf_tc_13.png)
+![Record](https://s3.amazonaws.com/website-static-docs.testsigma.com/new_images/projects/Updated_Doc_Images/update_sf_tc_13.png)
 
 6. In the Debug & Record overlay, verify the Copilot is ready and click **Launch**
-![Launch](https://s3.amazonaws.com/static-docs.testsigma.com/new_images/projects/salesforce/update_sf_tc_14.png)
+![Launch](https://s3.amazonaws.com/website-static-docs.testsigma.com/new_images/projects/Updated_Doc_Images/update_sf_tc_14.png)
 
 7. In the **Copilot** dialog, click **Rec** and perform the desired actions on the application. Once done, click **Stop Recording**, then click **Exit Copilot** to save the recorded test steps to the test case details page.
-![Stop Recording](https://s3.amazonaws.com/static-docs.testsigma.com/new_images/projects/salesforce/update_sf_tc_15.png)
+![Stop Recording](https://s3.amazonaws.com/website-static-docs.testsigma.com/new_images/projects/Updated_Doc_Images/update_sf_tc_15.png)
 
 8. In the **Stop & Exit Session** dialog, click **Stop Session**. 
-![Stop session](https://s3.amazonaws.com/static-docs.testsigma.com/new_images/projects/salesforce/update_sf_tc_16.png)
+![Stop session](https://s3.amazonaws.com/website-static-docs.testsigma.com/new_images/projects/Updated_Doc_Images/update_sf_tc_16.png)
 
 9. Refresh the **Test Case Details** page to see all the recorded steps. 
-![Test Case Details](https://s3.amazonaws.com/static-docs.testsigma.com/new_images/projects/salesforce/update_sf_tc_17.png)
+![Test Case Details](https://s3.amazonaws.com/website-static-docs.testsigma.com/new_images/projects/Updated_Doc_Images/update_sf_tc_17.png)
 
 
 ---
@@ -109,16 +109,16 @@ Here, we can choose a connection or create a connection by clicking on **Add Con
 ## **Parametrization of Login NLP**
 
 1. From the **Test Case Details** page, create the test steps using the inbuilt Login NLP.
-![Test Step](https://s3.amazonaws.com/static-docs.testsigma.com/new_images/projects/salesforce/update_sf_tc_18.png)
+![Test Step](https://s3.amazonaws.com/website-static-docs.testsigma.com/new_images/projects/Updated_Doc_Images/update_sf_tc_18.png)
 
 2. Click on **Salesforce Connections**, type ‘**/**’ and choose ***Environment** from the dropdown menu. 
-![Parametrize](https://s3.amazonaws.com/static-docs.testsigma.com/new_images/projects/salesforce/update_sf_tc_19.png)
+![Parametrize](https://s3.amazonaws.com/website-static-docs.testsigma.com/new_images/projects/Updated_Doc_Images/update_sf_tc_19.png)
 
 [[info | **NOTE**:]]
 | You can choose any **test data type** as needed from the dropdown menu.
 
 3. In the ***Environment** overlay, select an environment from the available Environments.
-![Env Overlay](https://s3.amazonaws.com/static-docs.testsigma.com/new_images/projects/salesforce/update_sf_tc_20.png)
+![Env Overlay](https://s3.amazonaws.com/website-static-docs.testsigma.com/new_images/projects/Updated_Doc_Images/update_sf_tc_20.png)
 
 [[info | **NOTE**:]]
 | Make sure that the value added in **Environment** has the same name as in **User Connections**.

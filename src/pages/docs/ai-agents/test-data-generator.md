@@ -39,12 +39,12 @@ The Test Data Generator in Testsigma helps you quickly create a Test Data Profil
 3. Click **Test Data Profile**.
 
 4. Click **Generate TDP with AI**.
-   ![Generate TDP](https://s3.amazonaws.com/static-docs.testsigma.com/new_images/projects/Atto_Testsigma/Generate_TDP.png)
+   ![Generate TDP](https://s3.amazonaws.com/website-static-docs.testsigma.com/new_images/projects/Updated_Doc_Images/Generate_TDP.png)
 
 5. In the **Test Data Generation** dialog, review the fields for which you want to generate data.
 
 6. Click **Generate**.
-   ![Generate](https://s3.amazonaws.com/static-docs.testsigma.com/new_images/projects/Atto_Testsigma/Generate_Atto.png)
+   ![Generate](https://s3.amazonaws.com/website-static-docs.testsigma.com/new_images/projects/Updated_Doc_Images/Generate_Atto.png)
 
 7. Wait for the **Test Data Generator** to create data for the selected fields.
 
@@ -55,6 +55,6 @@ The Test Data Generator in Testsigma helps you quickly create a Test Data Profil
     For example, we successfully changed the entire dataset to reflect the Indian context with a simple prompt.
 
 10. Once satisfied with the generated dataset, click **Create and Replace**.
-    ![Create & Replace](https://s3.amazonaws.com/static-docs.testsigma.com/new_images/projects/Atto_Testsigma/Create_Replace_TDP.png)
+    ![Create & Replace](https://s3.amazonaws.com/website-static-docs.testsigma.com/new_images/projects/Updated_Doc_Images/Create_Replace_TDP.png)
 
 ---

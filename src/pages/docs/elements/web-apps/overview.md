@@ -46,7 +46,7 @@ There are 2 different ways to create elements in Testsigma:
 
 
 2. **Sort the Elements:** The Elements list can be sorted on the basis of **Element Name**, **Created Date**, **Update Date**, **Old** or **New**.
-![Sort Elements](https://s3.amazonaws.com/static-docs.testsigma.com/new_images/projects/elements/update_element_web_1.png)
+![Sort Elements](https://s3.amazonaws.com/website-static-docs.testsigma.com/new_images/projects/Updated_Doc_Images/update_element_web_1.png)
 
 
 3. **Filter Elements:** Filter option lets you filter element list as per your selected options. You can filter list as per the following options: 
@@ -66,7 +66,7 @@ There are 2 different ways to create elements in Testsigma:
     
     - **Usage in Test Cases**: Filter on the basis of the element’s usage in test cases - Used, unused, or all.
 
-![Filters](https://s3.amazonaws.com/static-docs.testsigma.com/new_images/projects/elements/update_element_web_2.png)
+![Filters](https://s3.amazonaws.com/website-static-docs.testsigma.com/new_images/projects/Updated_Doc_Images/update_element_web_2.png)
 
 
 ---

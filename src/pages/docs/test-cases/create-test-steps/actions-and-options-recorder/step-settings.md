@@ -36,11 +36,11 @@ In Testsigma, you can control how each test step behaves in your test cases by u
 
 1. Hover on one of the recorded test steps, click the **Kebab Menu** and choose **Step Settings** from the dropdown.
 
-   ![Step Details](https://s3.amazonaws.com/static-docs.testsigma.com/new_images/projects/applications/TestStep_Settings.png)
+   ![Step Details](https://s3.amazonaws.com/website-static-docs.testsigma.com/new_images/projects/Updated_Doc_Images/TestStep_Settings.png)
 
 2. On **Step Details** prompt, you can edit the following options.
 
-   ![Step Details Prompt](https://s3.amazonaws.com/static-docs.testsigma.com/new_images/projects/applications/StepDetails_TSettings.png)
+   ![Step Details Prompt](https://s3.amazonaws.com/website-static-docs.testsigma.com/new_images/projects/Updated_Doc_Images/StepDetails_TSettings.png)
 
 ### **Available Settings:**
 
@@ -57,6 +57,6 @@ In Testsigma, you can control how each test step behaves in your test cases by u
 
 Here's a quick GIF exploring all options available in test step setttings.
 
-![Step Settings](https://s3.amazonaws.com/static-docs.testsigma.com/new_images/projects/applications/teststepsettings.gif)
+![Step Settings](https://s3.amazonaws.com/website-static-docs.testsigma.com/new_images/projects/Updated_Doc_Images/teststepsettings.gif)
 
 ---

@@ -39,13 +39,13 @@ This article discusses how to add the desired capability to the test case.
 ## **Steps to Add the Desired Capability to the Test Case**
 
 1. From the left navigation bar, go to **Create Tests > Test Cases**.
-   ![Test Cases](https://s3.amazonaws.com/static-docs.testsigma.com/new_images/projects/faq/selenium_faq_1.png)
+   ![Test Cases](https://s3.amazonaws.com/website-static-docs.testsigma.com/new_images/projects/Updated_Doc_Images/selenium_faq_1.png)
 
 2. In the Test Case Explorer section, expand a **Feature** and a **Scenario** and select the required test case.
-   ![Test Case](https://s3.amazonaws.com/static-docs.testsigma.com/new_images/projects/faq/selenium_faq_2.png) 
+   ![Test Case](https://s3.amazonaws.com/website-static-docs.testsigma.com/new_images/projects/Updated_Doc_Images/selenium_faq_2.png) 
 
 3. In the Test Case Details page, click **Run**.
-   ![Run](https://s3.amazonaws.com/static-docs.testsigma.com/new_images/projects/faq/selenium_faq_3.png)
+   ![Run](https://s3.amazonaws.com/website-static-docs.testsigma.com/new_images/projects/Updated_Doc_Images/selenium_faq_3.png)
 
 4. In the **Ad-Hoc Run** overlay, expand the **Desired Capabilities** section, enter the following:
 
@@ -53,9 +53,9 @@ This article discusses how to add the desired capability to the test case.
      | ------------- | ------------- | ------------- |
      | pageLoadStrategy | String | none |
 
-     ![Desired Capability](https://s3.amazonaws.com/static-docs.testsigma.com/new_images/projects/faq/selenium_faq_4.png)
+     ![Desired Capability](https://s3.amazonaws.com/website-static-docs.testsigma.com/new_images/projects/Updated_Doc_Images/selenium_faq_4.png)
 
 5. Click **Run Now**.
-   ![Run Now](https://s3.amazonaws.com/static-docs.testsigma.com/new_images/projects/faq/selenium_faq_5.png) 
+   ![Run Now](https://s3.amazonaws.com/website-static-docs.testsigma.com/new_images/projects/Updated_Doc_Images/selenium_faq_5.png) 
 
 ---

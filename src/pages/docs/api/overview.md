@@ -50,15 +50,15 @@ Testsigma has a set of endpoints to retrieve IDs of projects, applications, and 
 ### **Get IDs using Postman API**
 
 1. From **My Workspace**, go to **APIs** and click on ‘**+**’ to open a new request. 
-![APIs](https://s3.amazonaws.com/static-docs.testsigma.com/new_images/projects/applications/pmapis.png)
+![APIs](https://s3.amazonaws.com/website-static-docs.testsigma.com/new_images/projects/Updated_Doc_Images/pmapis.png)
 
 
 2. From the new request page, select **GET** from the method dropdown. 
-![GET Method](https://s3.amazonaws.com/static-docs.testsigma.com/new_images/projects/applications/pmgetmethod.png)
+![GET Method](https://s3.amazonaws.com/website-static-docs.testsigma.com/new_images/projects/Updated_Doc_Images/pmgetmethod.png)
 
 
 3. On the **URL Textbox**, 
-![URL Textbox](https://s3.amazonaws.com/static-docs.testsigma.com/new_images/projects/applications/pmurltb.png)
+![URL Textbox](https://s3.amazonaws.com/website-static-docs.testsigma.com/new_images/projects/Updated_Doc_Images/pmurltb.png)
     - Enter https://app.testsigma.com/api/v1/projects to get project IDs. 
     - Enter https://app.testsigma.com/api/v1/applications to get application IDs. 
     - Enter https://app.testsigma.com/api/v1/uploads to get upload IDs.
@@ -68,35 +68,35 @@ Let’s use the first URL & retrieve the IDs of projects.
 
 
 4. Click on **Authorization**, select **Authorization type** and enter the **Token**. 
-![Authorization](https://s3.amazonaws.com/static-docs.testsigma.com/new_images/projects/applications/pmauthapi.png)
+![Authorization](https://s3.amazonaws.com/website-static-docs.testsigma.com/new_images/projects/Updated_Doc_Images/pmauthapi.png)
 
 5. Click on **Send** to retrieve details of all projects. 
-![Send](https://s3.amazonaws.com/static-docs.testsigma.com/new_images/projects/applications/pmrbsend.png)
+![Send](https://s3.amazonaws.com/website-static-docs.testsigma.com/new_images/projects/Updated_Doc_Images/pmrbsend.png)
 
 6. You’ll find IDs of all projects in the response body. 
-![IDs](https://s3.amazonaws.com/static-docs.testsigma.com/new_images/projects/applications/pmidfrb.png)
+![IDs](https://s3.amazonaws.com/website-static-docs.testsigma.com/new_images/projects/Updated_Doc_Images/pmidfrb.png)
 
 Follow the same steps from 4-6 with the other URLs mentioned in step 3 to get details of applications and uploads. 
 
 Here’s a quick GIF demonstrating how to retrieve IDs of projects, applications, and uploads using APIs in Postman.
-![Workflow to retrive URL](https://s3.amazonaws.com/static-docs.testsigma.com/new_images/projects/applications/getidspostman.gif)
+![Workflow to retrive URL](https://s3.amazonaws.com/website-static-docs.testsigma.com/new_images/projects/Updated_Doc_Images/getidspostman.gif)
 
 
 ### **Get IDs using Testsigma API**
 
 1. Create a **Test Case** by navigating to **Create Tests > Test Cases**. 
-![Test Case](https://s3.amazonaws.com/static-docs.testsigma.com/new_images/projects/applications/tsapitc.png)
+![Test Case](https://s3.amazonaws.com/website-static-docs.testsigma.com/new_images/projects/Updated_Doc_Images/tsapitc.png)
 
 
 2. Add a **REST API Step**.
-![REST API Test Step](https://s3.amazonaws.com/static-docs.testsigma.com/new_images/projects/applications/tsrestspiteststep.png)
+![REST API Test Step](https://s3.amazonaws.com/website-static-docs.testsigma.com/new_images/projects/Updated_Doc_Images/tsrestspiteststep.png)
 
 
 3. On the **REST API** page, select **GET** from the method dropdown.
-![GET Method](https://s3.amazonaws.com/static-docs.testsigma.com/new_images/projects/applications/tsgetmthod.png)
+![GET Method](https://s3.amazonaws.com/website-static-docs.testsigma.com/new_images/projects/Updated_Doc_Images/tsgetmthod.png)
 
 4. On the **URL Textbox**, 
-![URL Textbox](https://s3.amazonaws.com/static-docs.testsigma.com/new_images/projects/applications/tsurltb.png)
+![URL Textbox](https://s3.amazonaws.com/website-static-docs.testsigma.com/new_images/projects/Updated_Doc_Images/tsurltb.png)
     - Enter https://app.testsigma.com/api/v1/projects to get project IDs. 
     - Enter https://app.testsigma.com/api/v1/applications to get application IDs. 
     - Enter https://app.testsigma.com/api/v1/uploads to get upload IDs.
@@ -105,17 +105,17 @@ Let’s use the second URL & retrieve the IDs of applications.
 
 
 5. Click on **Authorization**, select **Authorization type** and enter the **Token**. 
-![Authorization](https://s3.amazonaws.com/static-docs.testsigma.com/new_images/projects/applications/tsapiauth.png)
+![Authorization](https://s3.amazonaws.com/website-static-docs.testsigma.com/new_images/projects/Updated_Doc_Images/tsapiauth.png)
 
 
 6. Click on **Send** to retrieve details of all applications. 
-![Send](https://s3.amazonaws.com/static-docs.testsigma.com/new_images/projects/applications/tssendapi.png)
+![Send](https://s3.amazonaws.com/website-static-docs.testsigma.com/new_images/projects/Updated_Doc_Images/tssendapi.png)
 
 7. You’ll find IDs of all applications in the response body. 
 
 
 Here’s a quick GIF demonstrating how to retrieve IDs of projects, applications, and uploads using APIs in Testsigma.
-![Workflow](https://s3.amazonaws.com/static-docs.testsigma.com/new_images/projects/applications/getidtestsigma.gif)
+![Workflow](https://s3.amazonaws.com/website-static-docs.testsigma.com/new_images/projects/Updated_Doc_Images/getidtestsigma.gif)
 
 ---
 

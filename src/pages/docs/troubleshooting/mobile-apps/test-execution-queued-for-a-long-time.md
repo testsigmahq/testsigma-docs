@@ -25,11 +25,11 @@ If the execution status for your tests has been in the state **Queued** for a lo
 
 1. On **Dashboard**, click on **Usage details**.
 
-![Dashboard](https://s3.amazonaws.com/static-docs.testsigma.com/new_images/projects/troubleshooting/update_queue_1.png)
+![Dashboard](https://s3.amazonaws.com/website-static-docs.testsigma.com/new_images/projects/Updated_Doc_Images/update_queue_1.png)
 
 2. Check the number of **Parallel Tests**.
 
-![Parallel Tests](https://s3.amazonaws.com/static-docs.testsigma.com/new_images/projects/troubleshooting/update_queue_2.png)
+![Parallel Tests](https://s3.amazonaws.com/website-static-docs.testsigma.com/new_images/projects/Updated_Doc_Images/update_queue_2.png)
 
 
 Here, we have a license for 2 parallel executions and 3 allowed queues. We can set up a maximum of 2 test runs to run in parallel, which means executing up to 2 tests simultaneously. In addition to the 2 tests running in parallel, you can have up to 3 tests in the queue. The queued tests will execute once the ongoing parallel executions are complete.

@@ -39,14 +39,14 @@ Testsigma allows you to create and manage test cases for Android and iOS mobile 
 ## **Create a Test Case**
 
 1. From the left navigation bar, go to **Create Tests > Test Cases**.
-   ![Test Cases](https://s3.amazonaws.com/static-docs.testsigma.com/new_images/projects/Updated_Doc_Images/Test_Cases_Nav_for_iOS_Apps.png)
+   ![Test Cases](https://s3.amazonaws.com/website-static-docs.testsigma.com/new_images/projects/Updated_Doc_Images/Test_Cases_Nav_for_iOS_Apps.png)
 
 2. Expand a **Feature**, then expand a **Scenario**, and click ‘**+**’ next to the scenario where you want to add the test case.
-   ![Add Test Case](https://s3.amazonaws.com/static-docs.testsigma.com/new_images/projects/Updated_Doc_Images/Expand_Feature_Scenario_For_iOS_Apps.png)
+   ![Add Test Case](https://s3.amazonaws.com/website-static-docs.testsigma.com/new_images/projects/Updated_Doc_Images/Expand_Feature_Scenario_For_iOS_Apps.png)
 
 
 3. In the **Create Test Case** dialog, enter a name for the test case and click **Create**.
-   ![Enter Name for Test Case](https://s3.amazonaws.com/static-docs.testsigma.com/new_images/projects/Updated_Doc_Images/Create_Test_Case_for_Mobile_App.png)
+   ![Enter Name for Test Case](https://s3.amazonaws.com/website-static-docs.testsigma.com/new_images/projects/Updated_Doc_Images/Create_Test_Case_for_Mobile_App.png)
 
 
 4. Create test steps using one of the following methods:
@@ -58,15 +58,15 @@ Testsigma allows you to create and manage test cases for Android and iOS mobile 
 ## **Create Test Steps Using NLP**
 
 1. On the **Test Case Details** page, the first step is created by default as **Launch App**.
-   ![Launch App](https://s3.amazonaws.com/static-docs.testsigma.com/new_images/projects/Updated_Doc_Images/Default_Step_for_Mobile_Apps.png)
+   ![Launch App](https://s3.amazonaws.com/website-static-docs.testsigma.com/new_images/projects/Updated_Doc_Images/Default_Step_for_Mobile_Apps.png)
 
 
 2. Click **Add New Step**.
-   ![Add New Step](https://s3.amazonaws.com/static-docs.testsigma.com/new_images/projects/Updated_Doc_Images/Adding_Steps_for_Mobile_Apps.png)
+   ![Add New Step](https://s3.amazonaws.com/website-static-docs.testsigma.com/new_images/projects/Updated_Doc_Images/Adding_Steps_for_Mobile_Apps.png)
 
 
 3. Select the appropriate NLP step, then provide the required **test data** and **elements**.
-   ![Add NLP](https://s3.amazonaws.com/static-docs.testsigma.com/new_images/projects/Updated_Doc_Images/Select_NLP_Manually_For_Mobile_Apps.png)
+   ![Add NLP](https://s3.amazonaws.com/website-static-docs.testsigma.com/new_images/projects/Updated_Doc_Images/Select_NLP_Manually_For_Mobile_Apps.png)
 
 4. Repeat **Step 2** and **Step 3** to add additional steps and complete the test case workflow.
 
@@ -75,11 +75,11 @@ Testsigma allows you to create and manage test cases for Android and iOS mobile 
 ## **Create Test Steps using Recorder**
 
 1. On the **Test Case Details** page, click **Record**.
-   ![Record](https://s3.amazonaws.com/static-docs.testsigma.com/new_images/projects/Updated_Doc_Images/Record_Test_Steps_For_Mobile_Apps.png)
+   ![Record](https://s3.amazonaws.com/website-static-docs.testsigma.com/new_images/projects/Updated_Doc_Images/Record_Test_Steps_For_Mobile_Apps.png)
 
 
 2. In the **Record test steps** overlay:
-   ![Record test steps overlay](https://s3.amazonaws.com/static-docs.testsigma.com/new_images/projects/Updated_Doc_Images/Entities_for_Selection_in_Overlay.png)
+   ![Record test steps overlay](https://s3.amazonaws.com/website-static-docs.testsigma.com/new_images/projects/Updated_Doc_Images/Entities_for_Selection_in_Overlay.png)
    - Select **Test Lab**.
    - Select a **Test Machine**.
    - Under **App Source**, choose one of the following options:
@@ -90,7 +90,7 @@ Testsigma allows you to create and manage test cases for Android and iOS mobile 
 > 
 > When uploading an **IPA application**, the following options are available under Supported Device.
 >
-> ![Options Available While Uploading IPA File](https://s3.amazonaws.com/static-docs.testsigma.com/new_images/projects/Updated_Doc_Images/Options_Available_While_Uploading_IPA_File.png)
+> ![Options Available While Uploading IPA File](https://s3.amazonaws.com/website-static-docs.testsigma.com/new_images/projects/Updated_Doc_Images/Options_Available_While_Uploading_IPA_File.png)
 > **1. Enable iOS Keychain Support**
 > 
 > Select this option to automatically clear iOS Keychain data after each test session. Clearing the keychain prevents test failures caused by credentials or tokens stored from previous sessions. Use this option if the application cannot access keychain groups after the Bundle Seed ID or Team ID changes during app signing.
@@ -102,7 +102,7 @@ Testsigma allows you to create and manage test cases for Android and iOS mobile 
 
 
 3. Click **Record** and wait for the application to load completely.
-   ![Record to Proceed](https://s3.amazonaws.com/static-docs.testsigma.com/new_images/projects/Updated_Doc_Images/Click_Record_Test_Steps_for_Mobile_Apps.png)
+   ![Record to Proceed](https://s3.amazonaws.com/website-static-docs.testsigma.com/new_images/projects/Updated_Doc_Images/Click_Record_Test_Steps_for_Mobile_Apps.png)
 
 4. Perform the actions in the application. The Recorder captures the interactions and converts them into test steps.
 

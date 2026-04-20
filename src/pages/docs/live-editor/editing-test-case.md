@@ -36,32 +36,32 @@ In Testsigma, Copilot gives you complete control over test cases while executing
 
 
 1. In the left navigation bar, go to **Create Tests > Test Cases**.
-   ![Test Cases](https://s3.amazonaws.com/static-docs.testsigma.com/new_images/projects/copilot/edit_test_case_using_copilot_1.png)
+   ![Test Cases](https://s3.amazonaws.com/website-static-docs.testsigma.com/new_images/projects/Updated_Doc_Images/edit_test_case_using_copilot_1.png)
 
 2. Create a new test case or open an existing one, and click **Copilot** in the **Action Panel**.
-   ![Action Panel](https://s3.amazonaws.com/static-docs.testsigma.com/new_images/projects/copilot/edit_test_case_using_copilot_2.png)
+   ![Action Panel](https://s3.amazonaws.com/website-static-docs.testsigma.com/new_images/projects/Updated_Doc_Images/edit_test_case_using_copilot_2.png)
 
 3. In the **Copilot** overlay:
    - Select a **Data Set Name** from the dropdown menu if the test case is data-driven.
-     ![DataSet Name](https://s3.amazonaws.com/static-docs.testsigma.com/new_images/projects/copilot/edit_test_case_using_copilot_3.png) 
+     ![DataSet Name](https://s3.amazonaws.com/website-static-docs.testsigma.com/new_images/projects/Updated_Doc_Images/edit_test_case_using_copilot_3.png) 
    
    - To execute the test case until a failed step, enable **Run till failed step** toggle.
-     ![Run till failed step](https://s3.amazonaws.com/static-docs.testsigma.com/new_images/projects/copilot/edit_test_case_using_copilot_4.png)
+     ![Run till failed step](https://s3.amazonaws.com/website-static-docs.testsigma.com/new_images/projects/Updated_Doc_Images/edit_test_case_using_copilot_4.png)
 
    - Select the test step to debug up to.
-     ![Debug Point](https://s3.amazonaws.com/static-docs.testsigma.com/new_images/projects/copilot/edit_test_case_using_copilot_5.png) 
+     ![Debug Point](https://s3.amazonaws.com/website-static-docs.testsigma.com/new_images/projects/Updated_Doc_Images/edit_test_case_using_copilot_5.png) 
 
 4. Click **Launch**. A new window opens with the **Copilot**.
-   ![Launch](https://s3.amazonaws.com/static-docs.testsigma.com/new_images/projects/copilot/edit_test_case_using_copilot_6.png)
+   ![Launch](https://s3.amazonaws.com/website-static-docs.testsigma.com/new_images/projects/Updated_Doc_Images/edit_test_case_using_copilot_6.png)
 
 5. The test steps execute until the selected debug point.
 
 6. When debugging is complete, click **Exit Copilot** to close the **Copilot**.
-   <img src="https://s3.amazonaws.com/static-docs.testsigma.com/new_images/projects/copilot/edit_test_case_using_copilot_7.png" style="width: 400px;" />
+   <img src="https://s3.amazonaws.com/website-static-docs.testsigma.com/new_images/projects/Updated_Doc_Images/edit_test_case_using_copilot_7.png" style="width: 400px;" />
 
 [[info | **NOTE**:]]
 | - When execution pauses at a debug point or a step failure, the Global Debugger Toolbar becomes active, providing options to **Resume**, **Step Over**, **Skip Over**, or **Restart** the session. This paused state gives you access to Copilot’s live authoring tools to edit, reorder, or update steps while the session remains live.
 | - Clicking **Stop** stops the current execution but does not close the **Copilot**. To close the **Copilot**, open **Testsigma Terminal** application and click **Quit Session**.
-| ![Quit Live Editor](https://s3.amazonaws.com/static-docs.testsigma.com/new_images/projects/live_editor/install_terminal_2.png)
+| ![Quit Live Editor](https://s3.amazonaws.com/website-static-docs.testsigma.com/new_images/projects/Updated_Doc_Images/install_terminal_2.png)
 
 ---

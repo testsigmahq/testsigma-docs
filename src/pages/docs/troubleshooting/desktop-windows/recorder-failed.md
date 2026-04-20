@@ -25,23 +25,23 @@ If the recorder fails to start on your Desktop Windows project in Testsigma appl
 ## **Steps to Enable Developer Mode**
 
 1. Open **Settings** on your system.
-![Settings](https://s3.amazonaws.com/static-docs.testsigma.com/new_images/projects/applications/settings.png)
+![Settings](https://s3.amazonaws.com/website-static-docs.testsigma.com/new_images/projects/Updated_Doc_Images/settings.png)
 
 
 2. Click on **Privacy & security**.
-![Privacy & Security](https://s3.amazonaws.com/static-docs.testsigma.com/new_images/projects/applications/ps.png)
+![Privacy & Security](https://s3.amazonaws.com/website-static-docs.testsigma.com/new_images/projects/Updated_Doc_Images/ps.png)
 
 
 3. Select the **For developers**.
-![For Developers](https://s3.amazonaws.com/static-docs.testsigma.com/new_images/projects/applications/fordev.png)
+![For Developers](https://s3.amazonaws.com/website-static-docs.testsigma.com/new_images/projects/Updated_Doc_Images/fordev.png)
 
 
 4. Turn on the Developer Mode toggle. 
-![Toggle](https://s3.amazonaws.com/static-docs.testsigma.com/new_images/projects/applications/toggle.png)
+![Toggle](https://s3.amazonaws.com/website-static-docs.testsigma.com/new_images/projects/Updated_Doc_Images/toggle.png)
 
 
 5. Click on **Yes**.
-![Yes](https://s3.amazonaws.com/static-docs.testsigma.com/new_images/projects/applications/yes.png)
+![Yes](https://s3.amazonaws.com/website-static-docs.testsigma.com/new_images/projects/Updated_Doc_Images/yes.png)
 
 
 [[info | **NOTE**:]]

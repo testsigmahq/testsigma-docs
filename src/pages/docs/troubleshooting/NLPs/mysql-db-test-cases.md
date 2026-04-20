@@ -29,7 +29,7 @@ To begin, set up a MySQL database and configure the necessary tables to store an
 
 Testsigma has a built-in addon to automate this flow, you can download the addon and use the addon inside your test step. You can find the mysql_queries addon on the addon page. The add-on screenshot is added below:
 
-![Addon](https://s3.amazonaws.com/static-docs.testsigma.com/new_images/projects/applications/mysql.png).
+![Addon](https://s3.amazonaws.com/website-static-docs.testsigma.com/new_images/projects/Updated_Doc_Images/mysql.png).
 
 ---
 
@@ -49,7 +49,7 @@ CREATE PROCEDURE GetCustomerDetails(IN cust_id INT) BEGIN SELECT name, email, ph
 
 **DB _ Connection _ URL(jdbc:mysql://<hostname>:<port>/<database_name>?user=<username>&password=<password>) -** jdbc:mysql://localhost:3306/customer4_db?user=root&password=root
 
-![nlp db 1](https://s3.amazonaws.com/static-docs.testsigma.com/new_images/projects/applications/NLP_DB_1.png)
+![nlp db 1](https://s3.amazonaws.com/website-static-docs.testsigma.com/new_images/projects/Updated_Doc_Images/NLP_DB_1.png)
 
 **NLP-2 Call MySQL Stored Procedure Query on the Connection DB _ Connection _ URL**
 
@@ -57,7 +57,7 @@ CREATE PROCEDURE GetCustomerDetails(IN cust_id INT) BEGIN SELECT name, email, ph
 
 **DB _ Connection _ URL(jdbc:mysql://<hostname>:<port>/<database_name>?user=<username>&password=<password>) -** jdbc:mysql://localhost:3306/customer4_db?user=root&password=root
 
-![nlp db 2](https://s3.amazonaws.com/static-docs.testsigma.com/new_images/projects/applications/NLP_DB_1.png)
+![nlp db 2](https://s3.amazonaws.com/website-static-docs.testsigma.com/new_images/projects/Updated_Doc_Images/NLP_DB_1.png)
 
 **NLP-3 Execute MySQL Query on the Connection DB _ Connection _ URL**
 
@@ -65,7 +65,7 @@ CREATE PROCEDURE GetCustomerDetails(IN cust_id INT) BEGIN SELECT name, email, ph
 
 **DB _ Connection _ URL(jdbc:mysql://<hostname>:<port>/<database_name>?user=<username>&password=<password>) -** jdbc:mysql://localhost:3306/customer1_db?user=root&password=root
 
-![nlp db 3](https://s3.amazonaws.com/static-docs.testsigma.com/new_images/projects/applications/NLP_DB_3.png)
+![nlp db 3](https://s3.amazonaws.com/website-static-docs.testsigma.com/new_images/projects/Updated_Doc_Images/NLP_DB_3.png)
 
 **NLP-4 Execute MySQL Query on the Connection DB _ Connection _ URL and verify affected rows count is Row-Count**
 
@@ -77,7 +77,7 @@ CREATE PROCEDURE GetCustomerDetails(IN cust_id INT) BEGIN SELECT name, email, ph
 
 **Row-Count -** 1
 
-![nlp db 4](https://s3.amazonaws.com/static-docs.testsigma.com/new_images/projects/applications/NLP_DB_4.png)
+![nlp db 4](https://s3.amazonaws.com/website-static-docs.testsigma.com/new_images/projects/Updated_Doc_Images/NLP_DB_4.png)
 
 **NLP-5 Execute MySQLScriptFile filepath on the Connection DB _ Connection _ URL**
 
@@ -102,7 +102,7 @@ SELECT * FROM employees;
 
 **DB _ Connection _ URL(jdbc:mysql://<hostname>:<port>/<database_name>?user=<username>&password=<password>) -** jdbc:mysql://localhost:3306/customer2_db?user=root&password=root
 
-![nlp db 5](https://s3.amazonaws.com/static-docs.testsigma.com/new_images/projects/applications/NLP_DB_5.png)
+![nlp db 5](https://s3.amazonaws.com/website-static-docs.testsigma.com/new_images/projects/Updated_Doc_Images/NLP_DB_5.png)
 
 **NLP-6 Execute MySQL Select-Query on the Connection DB _ Connection _ URL and store output into a variable-name**
 
@@ -112,7 +112,7 @@ SELECT * FROM employees;
 
 **Variable-name** - Test
 
-![nlp db 6](https://s3.amazonaws.com/static-docs.testsigma.com/new_images/projects/applications/NLP_DB_6.png)
+![nlp db 6](https://s3.amazonaws.com/website-static-docs.testsigma.com/new_images/projects/Updated_Doc_Images/NLP_DB_6.png)
 
 **NLP-7 Execute MySQL Select-Query on the Connection DB _ Connection _ URL and verify output is Expected _ Value**
 
@@ -122,7 +122,7 @@ SELECT * FROM employees;
 
 **Expected _ Value -** $ Test
 
-![nlp db 7](https://s3.amazonaws.com/static-docs.testsigma.com/new_images/projects/applications/NLP_DB_6.png)
+![nlp db 7](https://s3.amazonaws.com/website-static-docs.testsigma.com/new_images/projects/Updated_Doc_Images/NLP_DB_6.png)
 
 **NLP-8 Execute MySQL Update Query on the Connection DB _ Connection _ URL**
 
@@ -130,7 +130,7 @@ SELECT * FROM employees;
 
 **DB _ Connection _ URL(jdbc:mysql://<hostname>:<port>/<database_name>?user=<username>&password=<password>) -** jdbc:mysql://localhost:3306/customer3_db?user=root&password=root
 
-![nlp db 8](https://s3.amazonaws.com/static-docs.testsigma.com/new_images/projects/applications/NLP_DB_8.png)
+![nlp db 8](https://s3.amazonaws.com/website-static-docs.testsigma.com/new_images/projects/Updated_Doc_Images/NLP_DB_8.png)
 
 **NLP-9 Validate MySQL Query1 and compare with the Query Query2 from the Connection DB _ Connection _ URL**
 
@@ -140,7 +140,7 @@ SELECT * FROM employees;
 
 **DB _ Connection _ URL(jdbc:mysql://<hostname>:<port>/<database_name>?user=<username>&password=<password>) -** jdbc:mysql://localhost:3306/customer1_db?user=root&password=root
 
-![nlp db 9](https://s3.amazonaws.com/static-docs.testsigma.com/new_images/projects/applications/NLP_DB_9.png)
+![nlp db 9](https://s3.amazonaws.com/website-static-docs.testsigma.com/new_images/projects/Updated_Doc_Images/NLP_DB_9.png)
 
 **NLP-10 Validate MySQL Query on the Connection DB _ Connection _ URL1 and compare with the data from the Connection DB _ Connection _ URL2**
 
@@ -183,6 +183,6 @@ INSERT INTO customers (name, email, phone) VALUES
 
 **DB _ Connection _ URL2(jdbc:mysql://<hostname>:<port>/<database_name>?user=<username>&password=<password>) -** jdbc:mysql://localhost:3306/customer4_db?user=root&password=root
 
-![nlp db 10](https://s3.amazonaws.com/static-docs.testsigma.com/new_images/projects/applications/NLP_DB_10.png)
+![nlp db 10](https://s3.amazonaws.com/website-static-docs.testsigma.com/new_images/projects/Updated_Doc_Images/NLP_DB_10.png)
 
 ---

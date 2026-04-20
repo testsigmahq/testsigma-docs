@@ -37,20 +37,20 @@ Testsigma can download and install the agent automatically if there's a higher v
 
 2. Once you start the agent, if a higher version is available, it'll automatically download the agent. 
 
-   ![Agent Start](https://s3.amazonaws.com/static-docs.testsigma.com/new_images/projects/applications/agentupstart.png)
+   ![Agent Start](https://s3.amazonaws.com/website-static-docs.testsigma.com/new_images/projects/Updated_Doc_Images/agentupstart.png)
 
 
 [[info | **NOTE**:]]
 | - You'll get the following message if there's an interruption in the network. 
 |
-|   ![Upgrade Failed](https://s3.amazonaws.com/static-docs.testsigma.com/new_images/projects/applications/upgradefailed.png)
+|   ![Upgrade Failed](https://s3.amazonaws.com/website-static-docs.testsigma.com/new_images/projects/Updated_Doc_Images/upgradefailed.png)
 |
 | - Once the network is stable, the download will start from the beginning once again.
 
 
 3. Post download, the agent will start automatically, and you'll get the **Upgrade Success** message. 
 
-   ![Upgrade Success](https://s3.amazonaws.com/static-docs.testsigma.com/new_images/projects/applications/agentupgrade.png)
+   ![Upgrade Success](https://s3.amazonaws.com/website-static-docs.testsigma.com/new_images/projects/Updated_Doc_Images/agentupgrade.png)
 
 
 ---

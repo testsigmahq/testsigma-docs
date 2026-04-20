@@ -21,24 +21,24 @@ When the **Reset session for every test case** option is enabled in the **Test M
 ## **Steps to Resolve the Issue**
 
 1. From the left navigation bar, navigate to **Test Plans** and click on an existing test plan. 
-   ![Test Plans](https://s3.amazonaws.com/static-docs.testsigma.com/new_images/projects/faq/browserstack_faq_1.1.png)
+   ![Test Plans](https://s3.amazonaws.com/website-static-docs.testsigma.com/new_images/projects/Updated_Doc_Images/browserstack_faq_1.1.png)
 
 2. On the Test Plan details page, click **Edit**. 
-   ![Edit](https://s3.amazonaws.com/static-docs.testsigma.com/new_images/projects/faq/browserstack_faq_2.png)
+   ![Edit](https://s3.amazonaws.com/website-static-docs.testsigma.com/new_images/projects/Updated_Doc_Images/browserstack_faq_2.png)
 
 3. Go to the **Add Test Suites & Link Machine Profiles** tab. 
-   ![Machine Profiles](https://s3.amazonaws.com/static-docs.testsigma.com/new_images/projects/faq/browserstack_faq_3.png)
+   ![Machine Profiles](https://s3.amazonaws.com/website-static-docs.testsigma.com/new_images/projects/Updated_Doc_Images/browserstack_faq_3.png)
 
 4. Click the test machine settings icon for the required test machine. 
-   ![Settings](https://s3.amazonaws.com/static-docs.testsigma.com/new_images/projects/faq/browserstack_faq_4.png)
+   ![Settings](https://s3.amazonaws.com/website-static-docs.testsigma.com/new_images/projects/Updated_Doc_Images/browserstack_faq_4.png)
 
 5. In the **Edit test machine/device profile** overlay, unselect the **Reset session for every test case** checkbox and click **Update Profile**. 
-   ![Reset session for every test case](https://s3.amazonaws.com/static-docs.testsigma.com/new_images/projects/faq/browserstack_faq_5.png)
+   ![Reset session for every test case](https://s3.amazonaws.com/website-static-docs.testsigma.com/new_images/projects/Updated_Doc_Images/browserstack_faq_5.png)
 
 6. In the **Edit Test Plan** page, click **Continue**.
-   ![Continue](https://s3.amazonaws.com/static-docs.testsigma.com/new_images/projects/faq/browserstack_faq_6.png)
+   ![Continue](https://s3.amazonaws.com/website-static-docs.testsigma.com/new_images/projects/Updated_Doc_Images/browserstack_faq_6.png)
 
 7. Click **Update**. 
-   ![Update](https://s3.amazonaws.com/static-docs.testsigma.com/new_images/projects/faq/browserstack_faq_7.png)
+   ![Update](https://s3.amazonaws.com/website-static-docs.testsigma.com/new_images/projects/Updated_Doc_Images/browserstack_faq_7.png)
 
 ---
