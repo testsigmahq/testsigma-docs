@@ -16,9 +16,9 @@ contextual_links:
 
 In Testsigma, while installing the agent, you may see an error message prompting you to try again. This occurs because the browser routes the request through a proxy that is unable to forward it to the installed application. To proceed, you must approve certain proxies on your end. This article explains how to resolve the issue. 
 
-![Issue](https://s3.amazonaws.com/static-docs.testsigma.com/new_images/projects/atto/try_again_error_1.png)
+![Issue](https://s3.amazonaws.com/website-static-docs.testsigma.com/new_images/projects/Updated_Doc_Images/try_again_error_1.png)
 
-![Local Network Access](https://s3.amazonaws.com/static-docs.testsigma.com/new_images/projects/atto/try_again_error_2.png)
+![Local Network Access](https://s3.amazonaws.com/website-static-docs.testsigma.com/new_images/projects/Updated_Doc_Images/try_again_error_2.png)
 
 ---
 

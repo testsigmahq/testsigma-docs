@@ -20,7 +20,7 @@ contextual_links:
 ---
 
 
-The following article discusses about updating an existing test data profile. *For more information on creating a test data profile refer to the [documentation on creating a test data profile](https://testsigma.com/docs/test-data/create-data-profiles/)*.
+This article explains how to update an existing Test Data Profile by importing a replacement file. With the folder structure enhancement, Test Data Profiles are now organized under Features and Scenarios, so you can navigate directly to the profile you want to update from the folder tree.
 
 
 [[info | **NOTE**:]]
@@ -31,36 +31,42 @@ The following article discusses about updating an existing test data profile. *F
 
 > <p id="prerequisites">Prerequisites</p>
 >
-> Before you begin, ensure that: 
-> 1. You have referred to the [documentation on creating test data profiles](https://testsigma.com/docs/test-data/create-data-profiles/).   
+> Before you begin, ensure that you have:
+> 1. Reviewed [Create a Test Data Profile](create-data-profiles.md).
+> 2. The updated file ready to import.
 
 ---
 
 
 ## **Steps to Update Test Data Profile**
 
+1. From the left navigation bar, go to **Test Data** > **Test Data Profiles**.
+   ![navigate to test data profiles from left navigation bar](https://s3.amazonaws.com/website-static-docs.testsigma.com/new_images/projects/Updated_Doc_Images/Test_Data_Profile_Folder_Navigation.png)
 
-1. Navigate to **Test Data > Test Data Profiles**. 
-![Nav TDP](https://s3.amazonaws.com/static-docs.testsigma.com/new_images/projects/test_data/update_tdp_update_1.png)
+2. Locate the Test Data Profile you want to update using one of these methods:
+   
+   - In the **List View**, select the Kebab menu (⋮) next to the TDP, then select **Update TDP**.
+     ![Update TDP from List](https://s3.amazonaws.com/website-static-docs.testsigma.com/new_images/projects/Updated_Doc_Images/Update_TDP_from_List_View.png)
+   
+   - In the left panel, expand the feature and scenario that contains the Test Data Profile, open it from the folder tree, then select **Update** in the top-right corner.
+     ![Update TDP from Details Page](https://s3.amazonaws.com/website-static-docs.testsigma.com/new_images/projects/Updated_Doc_Images/Update_TDP_from_Details_page.png)
 
+3. In the **Import Test Data Profile** dialog, select **Browse File** and choose the replacement file.
+   ![Browse](https://s3.amazonaws.com/website-static-docs.testsigma.com/new_images/projects/Updated_Doc_Images/Browse_and_Select_TDP_File.png)
 
-2. Hover over the test data profile you want to update and click on the kebab menu and select **Update TDP** from the dropdown. 
-![Test data profile](https://s3.amazonaws.com/static-docs.testsigma.com/new_images/projects/test_data/update_tdp_update_2.png)
+4. Select the columns you want to encrypt.
 
+5. Click **Import**.
+   ![Import](https://s3.amazonaws.com/website-static-docs.testsigma.com/new_images/projects/Updated_Doc_Images/Import_New_TDP_to_Update.png)
 
-3. On **Import Test Data Profile** prompt, click on **Browse file** to select the file you want to replace. 
-![Prompt](https://s3.amazonaws.com/static-docs.testsigma.com/new_images/projects/test_data/update_tdp_update_3.png)
+A confirmation email is sent when the update completes.
 
+---
 
-1. Select the file and choose the columns you want to encrypt. 
-![File](https://s3.amazonaws.com/static-docs.testsigma.com/new_images/projects/test_data/update_tdp_update_4.png)
+## **Related Articles**
 
-
-5. Click on **Import**.
-![Import](https://s3.amazonaws.com/static-docs.testsigma.com/new_images/projects/test_data/update_tdp_update_5.png)
-
-
-6. On the successful update of test data profile, you will receive an email. 
-
+- [Folder Structure for Test Data Profiles](folder-structure-for-test-data-profiles.md)
+- [Create a Test Data Profile](create-data-profiles.md)
+- [Update Values in a Test Data Profile](add-values-to-test-data-profile.md)
 
 ---

@@ -28,6 +28,6 @@ While entering test data in the Data Generator overlay, you may want to add mult
      ```
 
 2. This will generate the desired output as shown below:
-   ![Data Generator](https://s3.amazonaws.com/static-docs.testsigma.com/new_images/projects/faq/Data_Generator_1.png)
+   ![Data Generator](https://s3.amazonaws.com/website-static-docs.testsigma.com/new_images/projects/Updated_Doc_Images/Data_Generator_1.png)
 
 ---

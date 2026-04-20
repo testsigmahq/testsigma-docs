@@ -46,13 +46,13 @@ With SSO, you are not required to store and manage passwords for the websites yo
 
 [[info | **NOTE**:]]
 | The toggle will be disabled if you’re not logged into **G Suite**. You can login by clicking on **Click** here.
-| ![G Suite](https://s3.amazonaws.com/static-docs.testsigma.com/new_images/projects/sso/SAML_google.png)
+| ![G Suite](https://s3.amazonaws.com/website-static-docs.testsigma.com/new_images/projects/Updated_Doc_Images/SAML_google.png)
 
 5. Your Google SSO login option will now be enabled. 
 
 The next time you login to Testsigma, you and your teammates can log in using Google.
 
-![Login Google](https://s3.amazonaws.com/static-docs.testsigma.com/new_images/projects/applications/ssosiugs.png)
+![Login Google](https://s3.amazonaws.com/website-static-docs.testsigma.com/new_images/projects/Updated_Doc_Images/ssosiugs.png)
 
 
 ---

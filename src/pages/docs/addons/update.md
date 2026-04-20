@@ -1,10 +1,10 @@
 ---
-title: "Updating an Addon in Testsigma"
+title: "Update an Addon in Testsigma"
 pagetitle: "Update Your Addon: Simple Guide for Easy Modifications"
 metadesc: "Updating a Testsigma addon is simple and quick. Follow our step-by-step guide to modify, enhance, and manage your addon versions effectively."
 noindex: false
 order: 17.6
-page_id: "updating-testsigma-addon"
+page_id: "update-testsigma-addon"
 search_keyword: ""
 warning: false
 contextual_links:
@@ -14,8 +14,8 @@ contextual_links:
   name: "Prerequisites"
   url: "#prerequisites"
 - type: link
-  name: "Updating Addon"
-  url: "#updating-addon"
+  name: "Steps to Update an Addon"
+  url: "#steps-to-update-an-addon"
 ---
 
 ---
@@ -33,16 +33,30 @@ Updating an addon in Testsigma keeps your tools up-to-date and functional. First
 
 ---
 
-## **Updating Addon**
+## **Steps to Update an Addon**
 
 1. Modify the addon’s code to fix issues, add features, or adjust settings. Compress the file into **Zipped** Format.
-2. In Testsigma Application, Click on the **Addons** icon from the left navigation bar. Go to the **My Addons** page in Testsigma and select the addon you want to update.
-3. Select **Update** from the dropdown and In **Upload Zip File** Overlay, Browse and select the zipped file, then click **Update**. ![update addon](https://s3.amazonaws.com/static-docs.testsigma.com/new_images/projects/applications/update_addon.gif)
-4. After uploading the code, click on **Publish** from the dropdown menu. Then, choose your publish options:
+
+2. From the left navigation bar, go to **Addons**. 
+![Addons](https://s3.amazonaws.com/website-static-docs.testsigma.com/new_images/projects/Updated_Doc_Images/update_addons_1.png)
+
+3. In the **Addons** page, go to the **My Addons** tab. 
+![Update](https://s3.amazonaws.com/website-static-docs.testsigma.com/new_images/projects/Updated_Doc_Images/update_addons_2.png)
+
+4. Click the dropdown icon on the required addon and select **Upload Code**. 
+![Update](https://s3.amazonaws.com/website-static-docs.testsigma.com/new_images/projects/Updated_Doc_Images/update_addons_3.png)
+
+5. In the **Upload Zip File** dialog, upload the requird zipped file and click **Update**. 
+![update addon](https://s3.amazonaws.com/website-static-docs.testsigma.com/new_images/projects/Updated_Doc_Images/update_addons_4.png)
+
+6. After uploading the code, click on **Publish** from the dropdown menu. 
+![Publish](https://s3.amazonaws.com/website-static-docs.testsigma.com/new_images/projects/Updated_Doc_Images/update_addons_5.png)
+
+7. Choose an option from below and click **Publish**: 
     - **Public**: Make the addon available to the entire Testsigma community.
     - **Private**: Restrict availability to users within your organization.
-5. An automatic security check will be done. If it passes, the addon will be published. If it fails, you will get an email notification. ![publish addon](https://s3.amazonaws.com/static-docs.testsigma.com/new_images/projects/applications/publish_addon_ts.gif)
+    ![Publish](https://s3.amazonaws.com/website-static-docs.testsigma.com/new_images/projects/Updated_Doc_Images/update_addons_6.png)
+
+8. An automatic security check will be done. If it passes, the addon will be published. If it fails, you will get an email notification. 
 
 ---
-
-

@@ -24,21 +24,21 @@ While Testsigma Terminal downloads the required files, you may encounter issues 
 ## **Steps to Resolve the Issue**
 
 1. In the **Testsigma Terminal** window, click **Retry Download**. This restarts the download process. 
-   ![Retry Download](https://s3.amazonaws.com/static-docs.testsigma.com/new_images/projects/troubleshooting_for_copilot/download_failed_1.png)
+   ![Retry Download](https://s3.amazonaws.com/website-static-docs.testsigma.com/new_images/projects/Updated_Doc_Images/download_failed_1.png)
 
 2. If the issue persists, click **Troubleshoot Download**. 
-   ![Troubleshoot Download](https://s3.amazonaws.com/static-docs.testsigma.com/new_images/projects/troubleshooting_for_copilot/download_failed_2.png)
+   ![Troubleshoot Download](https://s3.amazonaws.com/website-static-docs.testsigma.com/new_images/projects/Updated_Doc_Images/download_failed_2.png)
 
 3. Click **Download ZIP** to download the installer ZIP files to your device. 
-   ![Download ZIP](https://s3.amazonaws.com/static-docs.testsigma.com/new_images/projects/troubleshooting_for_copilot/download_failed_3.png)
+   ![Download ZIP](https://s3.amazonaws.com/website-static-docs.testsigma.com/new_images/projects/Updated_Doc_Images/download_failed_3.png)
 
 4. After the ZIP file is downloaded, select **Continue**.
-   ![Continue](https://s3.amazonaws.com/static-docs.testsigma.com/new_images/projects/troubleshooting_for_copilot/download_failed_4.png) 
+   ![Continue](https://s3.amazonaws.com/website-static-docs.testsigma.com/new_images/projects/Updated_Doc_Images/download_failed_4.png) 
 
 5. Select **Select downloaded .zip file** and choose the ZIP file you downloaded.
-   ![Download](https://s3.amazonaws.com/static-docs.testsigma.com/new_images/projects/troubleshooting_for_copilot/download_failed_5.png)
+   ![Download](https://s3.amazonaws.com/website-static-docs.testsigma.com/new_images/projects/Updated_Doc_Images/download_failed_5.png)
 
 6. Click **Continue** to resume the installation.
-   ![Continue](https://s3.amazonaws.com/static-docs.testsigma.com/new_images/projects/troubleshooting_for_copilot/download_failed_6.png)
+   ![Continue](https://s3.amazonaws.com/website-static-docs.testsigma.com/new_images/projects/Updated_Doc_Images/download_failed_6.png)
 
 ---

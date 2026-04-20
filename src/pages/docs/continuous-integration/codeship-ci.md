@@ -62,7 +62,7 @@ Testsigma offers powerful webhooks for triggering Testsigma executions remotely 
 
 
 6. Go to the Testsigma Executions page to get the execution ID. Refer to the [documentation on getting the execution ID](https://testsigma.com/docs/continuous-integration/get-test-plan-details/) and [documentation on generating API keys](https://testsigma.com/docs/configuration/api-keys/) as shown below:
-![Get Test Plan ID](https://s3.amazonaws.com/static-docs.testsigma.com/new_images/projects/continuous_integration/update_codeship_1.png)
+![Get Test Plan ID](https://s3.amazonaws.com/website-static-docs.testsigma.com/new_images/projects/Updated_Doc_Images/update_codeship_1.png)
 
 
 7. Replace the **&lt;execution-ID&gt;**, **&lt;Username&gt;** and **&lt;Password&gt;** in the following script:

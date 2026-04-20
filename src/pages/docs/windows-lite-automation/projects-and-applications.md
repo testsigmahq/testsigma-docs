@@ -28,17 +28,17 @@ For more information, refer to the [documentation on creating projects](https://
 
 1. Navigate to **Project** on the left-nav bar, and click **New Project**.
    
-   ![Project](https://s3.amazonaws.com/static-docs.testsigma.com/new_images/projects/applications/WL_Project.png)
+   ![Project](https://s3.amazonaws.com/website-static-docs.testsigma.com/new_images/projects/Updated_Doc_Images/WL_Project.png)
 
 2. On the **New project** page,
 
    - Enter **Project name** and choose **Windows (Lite)** from the **Application type** dropdown.
      
-      ![Project Name](https://s3.amazonaws.com/static-docs.testsigma.com/new_images/projects/applications/WL_ProjectName.png)
+      ![Project Name](https://s3.amazonaws.com/website-static-docs.testsigma.com/new_images/projects/Updated_Doc_Images/WL_ProjectName.png)
   
    - Enter **Application name**, **Version** and click **Create**.
      
-      ![Create Project](https://s3.amazonaws.com/static-docs.testsigma.com/new_images/projects/applications/WL_VersionCreate.png)
+      ![Create Project](https://s3.amazonaws.com/website-static-docs.testsigma.com/new_images/projects/Updated_Doc_Images/WL_VersionCreate.png)
 
 [[info | **NOTE**:]]
 | - You can also add a **Windows (Lite)** application to an existing project by navigating to **Project > Project Settings > Applications > New Application**.

@@ -58,43 +58,43 @@ In Testsigma, you can customize test steps within a test case using test step op
 
 ## **Clear Step**
 
-Click on the **test step**, then click the **Eraser** icon to clear the step in a single click. Clearing the test step will remove any existing actions or data within the step. ![Clear Step](https://s3.amazonaws.com/static-docs.testsigma.com/new_images/projects/test_case/update_test_step_option_1.png)
+Click on the **test step**, then click the **Eraser** icon to clear the step in a single click. Clearing the test step will remove any existing actions or data within the step. ![Clear Step](https://s3.amazonaws.com/website-static-docs.testsigma.com/new_images/projects/Updated_Doc_Images/update_test_step_option_1.png)
 
 ---
 
 ## **Step Settings**
 
-Click on the **test step**, then click the **ellipsis** icon to open a dropdown list of **Test Step Settings**. Select the **Step Settings** option from this list to configure particular settings for the test step, such as timeouts, retries, prerequisites, or other settings. For more information on configuring test step settings, refer to the [documentation on configuring test step settings](https://testsigma.com/docs/test-cases/create-test-steps/actions-and-options-manual/step-settings/). ![Step Settings](https://s3.amazonaws.com/static-docs.testsigma.com/new_images/projects/test_case/update_test_step_option_2.png)
+Click on the **test step**, then click the **ellipsis** icon to open a dropdown list of **Test Step Settings**. Select the **Step Settings** option from this list to configure particular settings for the test step, such as timeouts, retries, prerequisites, or other settings. For more information on configuring test step settings, refer to the [documentation on configuring test step settings](https://testsigma.com/docs/test-cases/create-test-steps/actions-and-options-manual/step-settings/). ![Step Settings](https://s3.amazonaws.com/website-static-docs.testsigma.com/new_images/projects/Updated_Doc_Images/update_test_step_option_2.png)
 
 ---
 
 ## **Disable Step**
 
-Click on the **test step**, then click the **Disable step** icon to temporarily deactivate the selected step in the test case. This will prevent the test step from running during execution. ![Disable Step](https://s3.amazonaws.com/static-docs.testsigma.com/new_images/projects/test_case/update_test_step_option_3.png)
+Click on the **test step**, then click the **Disable step** icon to temporarily deactivate the selected step in the test case. This will prevent the test step from running during execution. ![Disable Step](https://s3.amazonaws.com/website-static-docs.testsigma.com/new_images/projects/Updated_Doc_Images/update_test_step_option_3.png)
 
 ---
 
 ## **Ignore Step Result**
 
-Click on the **test step**, and then click the **ellipsis** icon to open a dropdown list of **Test Step Settings**, then select the **Ignore Step Result** option from this list to exclude the outcome of a specific step from the overall test result. ![Ignore Step Result](https://s3.amazonaws.com/static-docs.testsigma.com/new_images/projects/test_case/update_test_step_option_4.png)
+Click on the **test step**, and then click the **ellipsis** icon to open a dropdown list of **Test Step Settings**, then select the **Ignore Step Result** option from this list to exclude the outcome of a specific step from the overall test result. ![Ignore Step Result](https://s3.amazonaws.com/website-static-docs.testsigma.com/new_images/projects/Updated_Doc_Images/update_test_step_option_4.png)
 
 ---
 
 ## **Enable Visual Testing**
 
-Click on the **test step**, and then click the **ellipsis** icon to open a dropdown list of **Test Step Settings**. Select the **Enable Visual Testing** option from this list to capture and compare how the user interface of an application looks between different builds or versions. For more information on visula testing, refer to the [documentation on visual testing](https://testsigma.com/docs/visual-testing/configure-test-steps/). ![Enable Visual Testing](https://s3.amazonaws.com/static-docs.testsigma.com/new_images/projects/test_case/update_test_step_option_5.png)
+Click on the **test step**, and then click the **ellipsis** icon to open a dropdown list of **Test Step Settings**. Select the **Enable Visual Testing** option from this list to capture and compare how the user interface of an application looks between different builds or versions. For more information on visula testing, refer to the [documentation on visual testing](https://testsigma.com/docs/visual-testing/configure-test-steps/). ![Enable Visual Testing](https://s3.amazonaws.com/website-static-docs.testsigma.com/new_images/projects/Updated_Doc_Images/update_test_step_option_5.png)
 
 ---
 
 ## **Clone Step**
 
-Click on the **test step**, then click the **Clone Step** icon to create an identical copy of the selected step, which saves time when you need multiple similar steps within the same test case. ![Clone Step](https://s3.amazonaws.com/static-docs.testsigma.com/new_images/projects/test_case/update_test_step_option_6.png)
+Click on the **test step**, then click the **Clone Step** icon to create an identical copy of the selected step, which saves time when you need multiple similar steps within the same test case. ![Clone Step](https://s3.amazonaws.com/website-static-docs.testsigma.com/new_images/projects/Updated_Doc_Images/update_test_step_option_6.png)
 
 ---
 
 ## **Delete Step**
 
-Click on the **test step**, then click the **Delete Step** icon to permanently remove the selected step from the test case, helping streamline test maintenance and organisation. ![Delete Step](https://s3.amazonaws.com/static-docs.testsigma.com/new_images/projects/test_case/update_test_step_option_7.png)
+Click on the **test step**, then click the **Delete Step** icon to permanently remove the selected step from the test case, helping streamline test maintenance and organisation. ![Delete Step](https://s3.amazonaws.com/website-static-docs.testsigma.com/new_images/projects/Updated_Doc_Images/update_test_step_option_7.png)
 
 ---
 
@@ -104,7 +104,7 @@ You can add steps above and below a test step by clicking on **Step Above** & **
 
 If you click on **Step Above**, you can add another step above the test step, while if you click on **Step Below**, you can add another step below the test step.
 
-![Add Step Above or Below](https://s3.amazonaws.com/static-docs.testsigma.com/new_images/projects/test_case/update_test_step_option_8.png)
+![Add Step Above or Below](https://s3.amazonaws.com/website-static-docs.testsigma.com/new_images/projects/Updated_Doc_Images/update_test_step_option_8.png)
 
 ---
 
@@ -118,7 +118,7 @@ Follow these steps to reorder test steps within a test case:
 4. Drag the test step to the desired position within the test case's list of test steps while holding it. As you move the test step, you will see a visual indicator of where the test step will be placed once you release it.
 5. Drop the test step into its new position by releasing the mouse button. Testsigma will automatically update the test step order in the test case after you release the test step.
 6. After reordering your test steps, click the **Save New Order** option in the screen's top right corner to save the new order.
-   ![Reorder and Save](https://s3.amazonaws.com/static-docs.testsigma.com/new_images/projects/test_case/update_test_step_option_9.png)
+   ![Reorder and Save](https://s3.amazonaws.com/website-static-docs.testsigma.com/new_images/projects/Updated_Doc_Images/update_test_step_option_9.png)
 
 
 ---

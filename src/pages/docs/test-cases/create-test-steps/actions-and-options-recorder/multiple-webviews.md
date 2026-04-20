@@ -20,7 +20,7 @@ In a hybrid app, web components are run completely inside a WebView control of t
 
 Currently, Testsigma supports two contexts: **NATIVE** and **HYBRID**. By default, the mobile app is launched in a NATIVE context. To switch the app from NATIVE to HYBRID app view, click **H** from the mobile inspector panel and select WebView from the drop-down menu.
 
-![WebViews](https://s3.amazonaws.com/static-docs.testsigma.com/new_images/projects/test_cases/update_webview_1.png)
+![WebViews](https://s3.amazonaws.com/website-static-docs.testsigma.com/new_images/projects/Updated_Doc_Images/update_webview_1.png)
 
 The below NLP is recorded while switching to HYBRID app context:
 
@@ -34,7 +34,7 @@ While switching back to NATIVE context the following NLP is recorded
 | The NLP’s are recorded to store user actions of switching views, please do not delete them if you want the execution to continue on the selected WebView.
 
 On switching to HYBRID context the drop-down shows the WebViews associated with the application. Here in the below example, there is a webview with the name **WEBVIEW_6890.1**.
-![Webview](https://s3.amazonaws.com/static-docs.testsigma.com/new_images/projects/test_cases/update_webview_2.png)
+![Webview](https://s3.amazonaws.com/website-static-docs.testsigma.com/new_images/projects/Updated_Doc_Images/update_webview_2.png)
 
 On selecting the WebView the following NLP is added:
 

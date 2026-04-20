@@ -40,56 +40,56 @@ Once you've set up the Salesforce Metadata connection, you can add user connecti
 
 ## **Steps to Add User Connections**
 
-1. From the **Dashboard**, click on **SF connections**.
-![SF Connections](https://s3.amazonaws.com/static-docs.testsigma.com/new_images/projects/applications/sfucsfcnav.png)
+1. From the left navigation bar, go to **SF connections**.
+![SF Connections](https://s3.amazonaws.com/website-static-docs.testsigma.com/new_images/projects/Updated_Doc_Images/update_add_sf_1.png)
 
-2. On the **Salesforce connections** page, click **Add Connection** on **User connection** section. This will open the **User connection** prompt. 
-![Connections](https://s3.amazonaws.com/static-docs.testsigma.com/new_images/projects/applications/sfucaconctn.png)
+2. In the **Salesforce connections** page, click **Add Connection** under **User connection** section. 
+![Connections](https://s3.amazonaws.com/website-static-docs.testsigma.com/new_images/projects/Updated_Doc_Images/update_add_sf_2.png)
 
-3. On the **User connection** prompt, 
-     - Enter **Connection name**
-       ![Connection Name](https://s3.amazonaws.com/static-docs.testsigma.com/new_images/projects/applications/sfucncname.png)
+3. In the **Add User connection** dialog, 
+     - Enter a **Connection name**
+       ![Connection Name](https://s3.amazonaws.com/website-static-docs.testsigma.com/new_images/projects/Updated_Doc_Images/update_add_sf_3.png)
      - Choose the environment of the user that you want to use.
-       ![Environment](https://s3.amazonaws.com/static-docs.testsigma.com/new_images/projects/applications/ucsfts.png)
+       ![Environment](https://s3.amazonaws.com/website-static-docs.testsigma.com/new_images/projects/Updated_Doc_Images/update_add_sf_4.png)
      - Choose the Authentication type from the dropdown. 
          - For **OAuth**, enter **Username**, **Consumer key**, **Consumer secret**, and **Callback URL**.
          - For **User name & Password**, enter the **Username**, **Password**, **Security token**, **Consumer key**, and **Consumer secret**. In this example, we are choosing **OAuth 2.0**.
-           ![OAuth](https://s3.amazonaws.com/static-docs.testsigma.com/new_images/projects/applications/sfucoauthtype.png)
-     - Enter the **Username**, **Consumer key**, **Consumer secret**, and **Callback URL**, and click on **Authorise & Connect**.
-       ![Enter Details](https://s3.amazonaws.com/static-docs.testsigma.com/new_images/projects/applications/sfucaaconnect.png)
-     - A new window will open up requesting for **Salesforce Login**. Enter the credentials and click on **Log In**.
-       ![LogIn](https://s3.amazonaws.com/static-docs.testsigma.com/new_images/projects/applications/sfucsflogin.png)
-     - Once the **User connection** is created successfully, click on **Done**.
-       ![Done](https://s3.amazonaws.com/static-docs.testsigma.com/new_images/projects/applications/sfucucdone.png)
+           ![OAuth](https://s3.amazonaws.com/website-static-docs.testsigma.com/new_images/projects/Updated_Doc_Images/update_add_sf_5.png)
+     - Enter the **Username**, **Consumer key**, **Consumer secret**, and **Callback URL**, and click **Authorise & Connect**.
+       ![Enter Details](hhttps://s3.amazonaws.com/website-static-docs.testsigma.com/new_images/projects/Updated_Doc_Images/update_add_sf_6.png)
+     - A new window will open up requesting for **Salesforce Login**. Enter the credentials and click **Log In**.
+       ![LogIn](https://s3.amazonaws.com/website-static-docs.testsigma.com/new_images/projects/Updated_Doc_Images/update_sales_sf_7.png)
+     - Once the **User connection** is created successfully, click **Done**.
+       ![Done](https://s3.amazonaws.com/website-static-docs.testsigma.com/new_images/projects/Updated_Doc_Images/update_add_sf_7.png)
 
-4. You can see the created connection under **SF connections > User connection**.
-![User Connections](https://s3.amazonaws.com/static-docs.testsigma.com/new_images/projects/applications/sfucseeud.png)
+4. You can see the newly added connection under **SF connections > User connection**.
+![User Connections](https://s3.amazonaws.com/website-static-docs.testsigma.com/new_images/projects/Updated_Doc_Images/update_add_sf_8.png)
 
 ---
 
 ## **Steps to Edit User Connections**
 
-1. From the **Dashboard**, click on **SF connections**.
-![SF Connections](https://s3.amazonaws.com/static-docs.testsigma.com/new_images/projects/applications/sfucsfcnav.png)
+1. From the left navigation bar, go to **SF connections**.
+![SF Connections](https://s3.amazonaws.com/website-static-docs.testsigma.com/new_images/projects/Updated_Doc_Images/update_add_sf_1.png)
 
-2. In the **User connection** section, hover over the connection, click on the kebab menu, and choose **Edit connection** from the dropdown menu. 
-![Edit User Connections](https://s3.amazonaws.com/static-docs.testsigma.com/new_images/projects/applications/sfuceditucnctns.png)
+2. Under the **User connection** section, click the ellipsis icon against a connection and click **Edit connection**. 
+![Edit User Connections](https://s3.amazonaws.com/website-static-docs.testsigma.com/new_images/projects/Updated_Doc_Images/update_add_sf_9.png)
 
-3. On the **User connection** prompt, update the details and click on **Authorise & Connect**.
-![Enter Details](https://s3.amazonaws.com/static-docs.testsigma.com/new_images/projects/applications/sfucaaconnect.png)
+3. In the **Update User connection** dialog, update the required details and click **Authorise & Connect**.
+![Enter Details](https://s3.amazonaws.com/website-static-docs.testsigma.com/new_images/projects/Updated_Doc_Images/update_add_sf_10.png)
 
 ---
 
 ## **Steps to Delete User Connections**
 
-1. From the **Dashboard**, click on **SF connections**.
-![SF Connections](https://s3.amazonaws.com/static-docs.testsigma.com/new_images/projects/applications/sfucsfcnav.png)
+1. From the left navigation bar, go to **SF connections**.
+![SF Connections](https://s3.amazonaws.com/website-static-docs.testsigma.com/new_images/projects/Updated_Doc_Images/update_add_sf_1.png)
 
-2. In the **User connection** section, hover over the connection, click on the kebab menu, and choose **Delete connection** from the dropdown menu. 
-![User Connections](https://s3.amazonaws.com/static-docs.testsigma.com/new_images/projects/applications/sfucdltuc.png)
+2. Under the **User connection** section, click the ellipsis icon against a connection and click **Delete connection**. 
+![User Connections](https://s3.amazonaws.com/website-static-docs.testsigma.com/new_images/projects/Updated_Doc_Images/update_add_sf_11.png)
 
-3. On the **Delete connection** warning prompt, click on **Delete**.
-![Delete](https://s3.amazonaws.com/static-docs.testsigma.com/new_images/projects/applications/sfucdltuc.png)
+3. In the **Delete connection** dialog, click **Delete**.
+![Delete](https://s3.amazonaws.com/website-static-docs.testsigma.com/new_images/projects/Updated_Doc_Images/update_add_sf_12.png)
 
 4. The **User connection** will be deleted successfully. 
 

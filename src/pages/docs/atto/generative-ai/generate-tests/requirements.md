@@ -56,7 +56,7 @@ Testsigma allows you to generate test cases from requirements using Generative A
       - If you select **Epic**, choose the stories under that epic.
       - If you select **Story**, choose the stories you want to generate test cases for.
    - Click **Save**.
-     ![Jira Inputs](https://s3.amazonaws.com/static-docs.testsigma.com/new_images/projects/atto/requirements_1.png)
+     ![Jira Inputs](https://s3.amazonaws.com/website-static-docs.testsigma.com/new_images/projects/Updated_Doc_Images/requirements_1.png)
 
 [[info | **NOTE**:]]
 | To generate Salesforce test cases from requirements, click **Settings** in the prompt text box. By default, the **Prefer API steps** is selected. To generate UI-based test steps, clear the **Prefer API steps** option.
@@ -74,7 +74,7 @@ Testsigma allows you to generate test cases from requirements using Generative A
 4. In the **Figma Designs** dialog,
    - Select a **Team**, **Project**, **Figma design file**, **Section** and **Page** from the respective dropdown menus.
    - Click **+ Select Frames**, select the required frames in the **Select Frames** screen, and click **Save**.
-     ![Figma Inputs](https://s3.amazonaws.com/static-docs.testsigma.com/new_images/projects/atto/requirements_2.png)
+     ![Figma Inputs](https://s3.amazonaws.com/website-static-docs.testsigma.com/new_images/projects/Updated_Doc_Images/requirements_2.png)
    - If you want to remove all the selections that you have made, click **Clear Selection**.
 
 [[info | **NOTE**:]]
@@ -88,7 +88,7 @@ Testsigma allows you to generate test cases from requirements using Generative A
 >
 > In some cases, the Figma pages may fail to load and display **No pages** even if the same file worked previously. This issue typically occurs when Figma’s API rate limits are exceeded, preventing Testsigma from fetching the required page data. 
 >
-> ![Figma No Page Error](https://s3.amazonaws.com/static-docs.testsigma.com/new_images/projects/Updated_Doc_Images/Figma_No_Page_Error.png)
+> ![Figma No Page Error](https://s3.amazonaws.com/website-static-docs.testsigma.com/new_images/projects/Updated_Doc_Images/Figma_No_Page_Error.png)
 > 
 > ### **Cause**
 > 
@@ -126,7 +126,7 @@ Testsigma allows you to generate test cases from requirements using Generative A
    - Select the test cases you want to use as input. 
    - Click **Save**.
      
-     ![qTest Inputs](https://s3.amazonaws.com/static-docs.testsigma.com/new_images/projects/atto/requirements_3.png)
+     ![qTest Inputs](https://s3.amazonaws.com/website-static-docs.testsigma.com/new_images/projects/Updated_Doc_Images/requirements_3.png)
 
 ---
 
@@ -146,7 +146,7 @@ Testsigma allows you to generate test cases from requirements using Generative A
 6. Once the video is loaded, click **Save**.
 
 7. Click **Save** again. 
-   ![Video Input](https://s3.amazonaws.com/static-docs.testsigma.com/new_images/projects/atto/add_files_1.2.png)
+   ![Video Input](https://s3.amazonaws.com/website-static-docs.testsigma.com/new_images/projects/Updated_Doc_Images/add_files_1.2.png)
 
 ---
 
@@ -166,6 +166,6 @@ Testsigma allows you to generate test cases from requirements using Generative A
 6. Once the files are loaded, click **Add Files**.
    
 7. Click **Save**. 
-   ![Files Input](https://s3.amazonaws.com/static-docs.testsigma.com/new_images/projects/atto/add_files_1.1.png)
+   ![Files Input](https://s3.amazonaws.com/website-static-docs.testsigma.com/new_images/projects/Updated_Doc_Images/add_files_1.1.png)
 
 ---

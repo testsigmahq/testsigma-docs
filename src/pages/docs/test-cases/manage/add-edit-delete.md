@@ -36,7 +36,7 @@ Testsigma provides a comprehensive and user-friendly solution for efficiently cr
 <br>
 
 <div style="position: relative; padding-bottom: 56.25%; height: 0; overflow: hidden;">
-  <iframe src="https://s3.amazonaws.com/static-docs.testsigma.com/new_images/projects/New_Doc_Videos/Test_Cases_Documentation_Video.mp4" 
+  <iframe src="https://s3.amazonaws.com/website-static-docs.testsigma.com/new_images/projects/Updated_Doc_Images/Test_Cases_Documentation_Video.mp4" 
           style="position: absolute; top: 0; left: 0; width: 100%; height: 100%; border: 0;" 
           allowfullscreen>
   </iframe>
@@ -76,20 +76,20 @@ Testsigma provides a comprehensive and user-friendly solution for efficiently cr
 Use the right-side navbar on the **Test Case Details** page to access Advanced Options for better management and grouping of test cases while creating **Test Suites** and **Test Plans** and to improve understanding of test coverage.
  
 1. **Test Case Info**: Click **Test Case Info** in the right-side navbar. You can update the **Test Case Name** and **Description** from there and view information about the **Test Case's creation** and **last update**. 
-   ![Test Case info](https://s3.amazonaws.com/static-docs.testsigma.com/new_images/projects/Updated_Doc_Images/Test_Case_Info_New.png)
+   ![Test Case info](https://s3.amazonaws.com/website-static-docs.testsigma.com/new_images/projects/Updated_Doc_Images/Test_Case_Info_New.png)
 
 2. **Ad-Hoc Runs**: Click **Ad-Hoc Runs** in the right-side navbar. This will enable you to view the history and details of Ad-Hoc Run results for the Test Case. 
-   ![Ad-hoc Run details](https://s3.amazonaws.com/static-docs.testsigma.com/new_images/projects/Updated_Doc_Images/List_AdHoc_Runs_New.png)
+   ![Ad-hoc Run details](https://s3.amazonaws.com/website-static-docs.testsigma.com/new_images/projects/Updated_Doc_Images/List_AdHoc_Runs_New.png)
 
 3. **Test Case Settings**: Click **Test Case Settings** in the right-side navbar, and configure the following options: 
-   ![Test Case Settings](https://s3.amazonaws.com/static-docs.testsigma.com/new_images/projects/Updated_Doc_Images/Test_Case_Settings_New.png)
+   ![Test Case Settings](https://s3.amazonaws.com/website-static-docs.testsigma.com/new_images/projects/Updated_Doc_Images/Test_Case_Settings_New.png)
     
     
     - **Pre-Requisites**: Testsigma defines prerequisites for test cases. Prerequisites specify any necessary conditions or steps to be completed before executing a test case, ensuring the test environment is properly set up.
       
       ### **Pre-requisite Execution Options**
       When executing a test case with pre-requisites, you can choose one of the following execution options:
-      ![Rerun Options](https://s3.amazonaws.com/static-docs.testsigma.com/new_images/projects/applications/ReRun_Options_TestCase.png)
+      ![Rerun Options](https://s3.amazonaws.com/website-static-docs.testsigma.com/new_images/projects/Updated_Doc_Images/ReRun_Options_TestCase.png)
 
          - **Always run Pre-requisite:**
            Select this option to execute the pre-requisite test case every time the associated test case runs. You can use this for scenarios that require runtime data generation or dynamic data injection during test execution.
@@ -128,7 +128,7 @@ Use the right-side navbar on the **Test Case Details** page to access Advanced O
     - **Mark this for AfterTest Suite**: When you mark a test case for the AfterTest Suite, you ensure that it executes as part of the clean-up or finalisation process after the test suite's execution. This option helps maintain the test environment and ensure the proper closure of testing activities.
 
 4. **Manage Test Case**: Click **Manage Test Case** in the right-side navbar, and configure the following options: 
-   ![Manage Test Case](https://s3.amazonaws.com/static-docs.testsigma.com/new_images/projects/Updated_Doc_Images/Manage_Test_Case_New.png)
+   ![Manage Test Case](https://s3.amazonaws.com/website-static-docs.testsigma.com/new_images/projects/Updated_Doc_Images/Manage_Test_Case_New.png)
     - **Status**: Select the appropriate status for the Test Case to organise and manage the testing workflow.
       - **Draft**: The test case is in an abstract mode.
       - **Review**: The test case is under inspection.
@@ -157,10 +157,10 @@ Use the right-side navbar on the **Test Case Details** page to access Advanced O
     - **Labels**: Categorize test cases based on specific attributes such as modules, components, or testing phases by applying labels. Labels facilitate efficient filtering and searching, making managing and retrieving relevant test cases more manageable.
 
 5. **Activity**: Click **Activity** in the right-side navbar and view the **History** and **Comments** of test cases.
-   ![Help](https://s3.amazonaws.com/static-docs.testsigma.com/new_images/projects/Updated_Doc_Images/Activity_Test_Case.png)
+   ![Help](https://s3.amazonaws.com/website-static-docs.testsigma.com/new_images/projects/Updated_Doc_Images/Activity_Test_Case.png)
 
 6. **Help**: Click **Help** in the right-side navbar and access **Examples**, **Action List**, and **Get Started** for a general understanding of Test Cases. 
-   ![Help](https://s3.amazonaws.com/static-docs.testsigma.com/new_images/projects/Updated_Doc_Images/Help_Test_Case.png)
+   ![Help](https://s3.amazonaws.com/website-static-docs.testsigma.com/new_images/projects/Updated_Doc_Images/Help_Test_Case.png)
 
 ---
 
@@ -180,11 +180,11 @@ Use the right-side navbar on the **Test Case Details** page to access Advanced O
 
 3. Delete the test case using one of the following methods:
    - Open the test case. In the top-right corner, click the **More options (⋮)** menu, and then click **Delete**.
-     ![Delete Test Case from Case Page](https://s3.amazonaws.com/static-docs.testsigma.com/new_images/projects/Updated_Doc_Images/Delete_Test_Case_2.png)
+     ![Delete Test Case from Case Page](https://s3.amazonaws.com/website-static-docs.testsigma.com/new_images/projects/Updated_Doc_Images/Delete_Test_Case_2.png)
    - In the expanded scenario section, select the **ellipsis (⋮)** icon next to the test case, and click **Delete**.
-     ![Delete from List](https://s3.amazonaws.com/static-docs.testsigma.com/new_images/projects/Updated_Doc_Images/Delete_Test_Case_1.png)
+     ![Delete from List](https://s3.amazonaws.com/website-static-docs.testsigma.com/new_images/projects/Updated_Doc_Images/Delete_Test_Case_1.png)
    - On the **Test Case List** page, select one or more test cases, and then click the **Delete** icon in the menu bar.
-     ![Delete from List View](https://s3.amazonaws.com/static-docs.testsigma.com/new_images/projects/Updated_Doc_Images/Delete_Test_Case_3.png)
+     ![Delete from List View](https://s3.amazonaws.com/website-static-docs.testsigma.com/new_images/projects/Updated_Doc_Images/Delete_Test_Case_3.png)
 
 4. A **Delete Confirmation** pop-up will appear. Click **Delete** to remove the test case from the project.
 
@@ -197,10 +197,10 @@ Use the right-side navbar on the **Test Case Details** page to access Advanced O
 ## **Recover a Deleted Test Case**
 
 1. From the left navigation bar, go to **Create Tests > Test Cases**, and click the **List View** icon next to the search bar.
-   ![List View](https://s3.amazonaws.com/static-docs.testsigma.com/new_images/projects/Updated_Doc_Images/Test_Case_List_View_Icon.png)
+   ![List View](https://s3.amazonaws.com/website-static-docs.testsigma.com/new_images/projects/Updated_Doc_Images/Test_Case_List_View_Icon.png)
 
 2. On the **Test Case List** page, click **Saved Filters**, and then select **Trash (Deleted Test Cases)**. The list of deleted test cases appears.
-   ![Trash (Deleted Test Cases)](https://s3.amazonaws.com/static-docs.testsigma.com/new_images/projects/Updated_Doc_Images/Trash_Option.png)
+   ![Trash (Deleted Test Cases)](https://s3.amazonaws.com/website-static-docs.testsigma.com/new_images/projects/Updated_Doc_Images/Trash_Option.png)
 
 3. Locate the test case you want to recover or permanently delete by scrolling or by using the search bar.
 
@@ -208,7 +208,7 @@ Use the right-side navbar on the **Test Case Details** page to access Advanced O
 
 5. To permanently delete a test case, click **Delete** next to the test case. In the confirmation dialog box, enter **DELETE** in the text box, and then click **I Understand, delete this (test-case-name)**.
 
-   ![Restore & Delete](https://s3.amazonaws.com/static-docs.testsigma.com/new_images/projects/Updated_Doc_Images/Restore_Delete.png)
+   ![Restore & Delete](https://s3.amazonaws.com/website-static-docs.testsigma.com/new_images/projects/Updated_Doc_Images/Restore_Delete.png)
 
 [[info | NOTE:]]
 | Deleting the test case permanently will result in losing all Run reports and associated configurations.

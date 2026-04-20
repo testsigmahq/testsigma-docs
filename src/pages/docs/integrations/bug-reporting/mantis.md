@@ -40,14 +40,14 @@ Testsigma Mantis integration lets you create issues in Mantis directly from the 
 ## **Integrating Mantis with Testsigma**
 
 1. Navigate to **Settings > Integrations**.
-![Integrations](https://s3.amazonaws.com/static-docs.testsigma.com/new_images/projects/applications/mstinav.png)
+![Integrations](https://s3.amazonaws.com/website-static-docs.testsigma.com/new_images/projects/Updated_Doc_Images/mstinav.png)
 
 
 2. Enable toggle on **Mantis** widget.
-![Mantis Widget](https://s3.amazonaws.com/static-docs.testsigma.com/new_images/projects/applications/mitgl.png)
+![Mantis Widget](https://s3.amazonaws.com/website-static-docs.testsigma.com/new_images/projects/Updated_Doc_Images/mitgl.png)
 
 3. On the **Mantis Bug Tracker details** prompt, **Account URL**, **API Key** and click on **Save & Enable**.
-![Mantis Details](https://s3.amazonaws.com/static-docs.testsigma.com/new_images/projects/applications/mintdetails.png)
+![Mantis Details](https://s3.amazonaws.com/website-static-docs.testsigma.com/new_images/projects/Updated_Doc_Images/mintdetails.png)
 
 
 ---
@@ -55,11 +55,11 @@ Testsigma Mantis integration lets you create issues in Mantis directly from the 
 ## **Creating a Bug**
 
 1. Navigate to **Run Results > Test Case Result**, where you want to add a bug.
-![Run Results](https://s3.amazonaws.com/static-docs.testsigma.com/new_images/projects/applications/tcresultyt.png)
+![Run Results](https://s3.amazonaws.com/website-static-docs.testsigma.com/new_images/projects/Updated_Doc_Images/tcresultyt.png)
 
 
 2. Click on **Report Bug**.
-![Report Bug](https://s3.amazonaws.com/static-docs.testsigma.com/new_images/projects/applications/reportbugyt.png)
+![Report Bug](https://s3.amazonaws.com/website-static-docs.testsigma.com/new_images/projects/Updated_Doc_Images/reportbugyt.png)
 
 
 3. Choose **Mantis** and enter the detailed information of your bug.

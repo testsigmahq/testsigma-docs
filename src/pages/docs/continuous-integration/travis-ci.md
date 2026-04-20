@@ -57,18 +57,18 @@ Below we will cover the steps in 3 parts:
 ## **Obtain API and Test Plan ID from Testsigma App**
 
 1. To get API key, navigate to **Settings > API Keys** and click on  **Generate API Key**. 
-![Generate API Key](https://s3.amazonaws.com/static-docs.testsigma.com/new_images/projects/applications/trinapi.png)
+![Generate API Key](https://s3.amazonaws.com/website-static-docs.testsigma.com/new_images/projects/Updated_Doc_Images/trinapi.png)
 
 2. On **Generate API Key** overlay, enter **Name** and click on **Generate API Key**.
-![Generate](https://s3.amazonaws.com/static-docs.testsigma.com/new_images/projects/applications/tringapi.png)
+![Generate](https://s3.amazonaws.com/website-static-docs.testsigma.com/new_images/projects/Updated_Doc_Images/tringapi.png)
 
 3. On **API Keys** page, hover over the generated API and click on **Copy API Key**.
-![Copy API](https://s3.amazonaws.com/static-docs.testsigma.com/new_images/projects/applications/triapicapi.png)
+![Copy API](https://s3.amazonaws.com/website-static-docs.testsigma.com/new_images/projects/Updated_Doc_Images/triapicapi.png)
 
 We will use this API Key to authenticate our remote Test Plan trigger requests from Travis CI.
 
 4. To get Test Plan ID, navigate to **Test Plans > Test Plan > CI/CD Integrations**. You will find the execution ID for the Test Plan within the **REST API call to start Test Plan** section.
-![Get Test Plan ID](https://s3.amazonaws.com/static-docs.testsigma.com/new_images/projects/applications/trineid.png)
+![Get Test Plan ID](https://s3.amazonaws.com/website-static-docs.testsigma.com/new_images/projects/Updated_Doc_Images/trineid.png)
 
 
 We will be using this Test Plan ID to specify which Test Plan to trigger from Travis CI. 

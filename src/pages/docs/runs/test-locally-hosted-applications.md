@@ -35,7 +35,7 @@ Whitelisting of Testsigma IP addresses is necessary to ensure that the Testsigma
 
 Login to <a href="https://app.testsigma.com" rel="nofollow">Testsigma</a>  and go to **Settings > Testsigma IP** info to see the IP range to whitelist.
 
-![Testsigma IPs](https://s3.amazonaws.com/static-docs.testsigma.com/new_images/projects/applications/ipwhitelisting.png)
+![Testsigma IPs](https://s3.amazonaws.com/website-static-docs.testsigma.com/new_images/projects/Updated_Doc_Images/ipwhitelisting.png)
 
 - **Testsigma Server IP:** Whitelisting this IP will allow you to access the Testsigma server, where the test executions happen on Testsigma's very own device cloud infrastructure. 
 

@@ -48,16 +48,16 @@ Due to constantly changing requirements and application features, version contro
 ## **Create Application Version**
 
 1. From the left navigation bar, Navigate to **Project Settings**.
-![Project Settings](https://s3.amazonaws.com/static-docs.testsigma.com/new_images/projects/project/update_versions_1.png)
+![Project Settings](https://s3.amazonaws.com/website-static-docs.testsigma.com/new_images/projects/Updated_Doc_Images/update_versions_1.png)
 
 2. In the **Edit Project** dialog, click **Versions** in the left panel.
-![Versions](https://s3.amazonaws.com/static-docs.testsigma.com/new_images/projects/project/update_versions_2.1.png)
+![Versions](https://s3.amazonaws.com/website-static-docs.testsigma.com/new_images/projects/Updated_Doc_Images/update_versions_2.1.png)
 
 3. In the **Versions** screen, click **New version**.
-![New Versions](https://s3.amazonaws.com/static-docs.testsigma.com/new_images/projects/project/update_versions_2.png)
+![New Versions](https://s3.amazonaws.com/website-static-docs.testsigma.com/new_images/projects/Updated_Doc_Images/update_versions_2.png)
      
 4. In the **New Version** dialog, enter **Name**, **Description**, and **Start Date - End Date**, and click **Create**. 
-![Create](https://s3.amazonaws.com/static-docs.testsigma.com/new_images/projects/project/update_versions_3.png)
+![Create](https://s3.amazonaws.com/website-static-docs.testsigma.com/new_images/projects/Updated_Doc_Images/update_versions_3.png)
 
 5. A new version will be created. 
 
@@ -66,23 +66,23 @@ Due to constantly changing requirements and application features, version contro
 | 1. You have to select **Allow Multiple Versions** while creating a project to be able to create multiple versions.  
 |
 | 2. If you want to copy data from previous versions, enable **Copy Data from Previous Versions** toggle and select the models you want to transfer.
-| ![Copy Data from Previous Versions](https://s3.amazonaws.com/static-docs.testsigma.com/new_images/projects/project/update_versions_4.png) 
+| ![Copy Data from Previous Versions](https://s3.amazonaws.com/website-static-docs.testsigma.com/new_images/projects/Updated_Doc_Images/update_versions_4.png) 
 
 ---
 
 ## **Edit Application Version**
 
 1. From the left navigation bar, Navigate to **Project Settings**.
-![Project Settings](https://s3.amazonaws.com/static-docs.testsigma.com/new_images/projects/project/update_versions_1.png)
+![Project Settings](https://s3.amazonaws.com/website-static-docs.testsigma.com/new_images/projects/Updated_Doc_Images/update_versions_1.png)
 
 2. In the **Edit Project** dialog, click **Versions** in the left panel.
-![Versions](https://s3.amazonaws.com/static-docs.testsigma.com/new_images/projects/project/update_versions_2.1.png)
+![Versions](https://s3.amazonaws.com/website-static-docs.testsigma.com/new_images/projects/Updated_Doc_Images/update_versions_2.1.png)
 
 3. In the **Versions** screen, click the kebab menu next to a version and click **Edit Version**.
-![](https://s3.amazonaws.com/static-docs.testsigma.com/new_images/projects/project/update_versions_5.png) 
+![](https://s3.amazonaws.com/website-static-docs.testsigma.com/new_images/projects/Updated_Doc_Images/update_versions_5.png) 
 
 4. Make the changes and click **Update**.
-![Update](https://s3.amazonaws.com/static-docs.testsigma.com/new_images/projects/project/update_versions_6.png)
+![Update](https://s3.amazonaws.com/website-static-docs.testsigma.com/new_images/projects/Updated_Doc_Images/update_versions_6.png)
 
 ---
 
@@ -90,31 +90,31 @@ Due to constantly changing requirements and application features, version contro
 ## **Delete Application Version**
 
 1. From the left navigation bar, Navigate to **Project Settings**.
-![Project Settings](https://s3.amazonaws.com/static-docs.testsigma.com/new_images/projects/project/update_versions_1.png)
+![Project Settings](https://s3.amazonaws.com/website-static-docs.testsigma.com/new_images/projects/Updated_Doc_Images/update_versions_1.png)
 
 2. In the **Edit Project** dialog, click **Versions** in the left panel.
-![Versions](https://s3.amazonaws.com/static-docs.testsigma.com/new_images/projects/project/update_versions_2.1.png)
+![Versions](https://s3.amazonaws.com/website-static-docs.testsigma.com/new_images/projects/Updated_Doc_Images/update_versions_2.1.png)
 
 3. In the **Versions** screen, click the kebab menu next to a version and click **Delete Version**.
-![Delete a version](https://s3.amazonaws.com/static-docs.testsigma.com/new_images/projects/project/update_versions_7.png)  
+![Delete a version](https://s3.amazonaws.com/website-static-docs.testsigma.com/new_images/projects/Updated_Doc_Images/update_versions_7.png)  
 
 4. On the **Delete Version?** dialog, enter **DELETE** and click **I understand, delete this**.
-![DELETE](https://s3.amazonaws.com/static-docs.testsigma.com/new_images/projects/project/update_versions_8.png)
+![DELETE](https://s3.amazonaws.com/website-static-docs.testsigma.com/new_images/projects/Updated_Doc_Images/update_versions_8.png)
 
 ---
 
 ## **Getting Version ID**
 
 1. From the left navigation bar, Navigate to **Project Settings**.
-![Project Settings](https://s3.amazonaws.com/static-docs.testsigma.com/new_images/projects/project/update_versions_1.png)
+![Project Settings](https://s3.amazonaws.com/website-static-docs.testsigma.com/new_images/projects/Updated_Doc_Images/update_versions_1.png)
 
 2. In the **Edit Project** dialog, click **Versions** in the left panel.
-![Versions](https://s3.amazonaws.com/static-docs.testsigma.com/new_images/projects/project/update_versions_2.1.png)
+![Versions](https://s3.amazonaws.com/website-static-docs.testsigma.com/new_images/projects/Updated_Doc_Images/update_versions_2.1.png)
 
 3. In the **EDIT PROJECT** dialog, hover over the version name to view its ID.
-![version ID](https://s3.amazonaws.com/static-docs.testsigma.com/new_images/projects/project/update_versions_9.png)
+![version ID](https://s3.amazonaws.com/website-static-docs.testsigma.com/new_images/projects/Updated_Doc_Images/update_versions_9.png)
 
 4. Click **Copy** to copy the version ID.
-![Copy](https://s3.amazonaws.com/static-docs.testsigma.com/new_images/projects/project/update_versions_10.png)
+![Copy](https://s3.amazonaws.com/website-static-docs.testsigma.com/new_images/projects/Updated_Doc_Images/update_versions_10.png)
 
 ---

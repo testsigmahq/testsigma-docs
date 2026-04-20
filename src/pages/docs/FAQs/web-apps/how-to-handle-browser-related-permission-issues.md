@@ -28,7 +28,7 @@ If you encounter browser-related permission issues during execution in Testsigma
 3. In the **Test Case Details** page, click **Run**.
 
 4. In the **Ad-Hoc Run** overlay, expand the **Desired Capabilities** field and specify the following desired capability.
-   ![desired capability](https://s3.amazonaws.com/static-docs.testsigma.com/new_images/projects/faq/Permission_issue_4.1.png)
+   ![desired capability](https://s3.amazonaws.com/website-static-docs.testsigma.com/new_images/projects/Updated_Doc_Images/Permission_issue_4.1.png)
 
 ### **For Firefox**
 

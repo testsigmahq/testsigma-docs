@@ -34,7 +34,7 @@ We can use the below format for Basic Authentication:
 
 In the NLP, Navigate to **test data**, replace the **test data** with <a href="https://admin:admin123@orangehrm.com" rel="nofollow">https://admin:admin123@orangehrm.com</a>. 
 
-![Basic Authentication](https://s3.amazonaws.com/static-docs.testsigma.com/new_images/projects/faq/update_basic_authentication_1.png)
+![Basic Authentication](https://s3.amazonaws.com/website-static-docs.testsigma.com/new_images/projects/Updated_Doc_Images/update_basic_authentication_1.png)
 
 When we navigate to the host URL, the browser automatically sends the credentials for Authentication. We need to use HTTPS to secure sensitive information.
 

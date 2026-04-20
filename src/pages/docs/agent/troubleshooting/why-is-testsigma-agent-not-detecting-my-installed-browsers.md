@@ -16,7 +16,7 @@ contextual_links:
 ---
 
 In automated testing, browser detection issues often occur when the Testsigma Agent cannot locate the installed web drivers (for example, Chrome or Firefox) during startup. As a result, the agent fails to scan the browsers properly, and test execution cannot proceed. 
-![Testsigma Agent Issue](https://s3.amazonaws.com/static-docs.testsigma.com/new_images/projects/agent/Testsigma_Agent_1.png)
+![Testsigma Agent Issue](https://s3.amazonaws.com/website-static-docs.testsigma.com/new_images/projects/Updated_Doc_Images/Testsigma_Agent_1.png)
 
 This article explains how to resolve these browser detection issues. 
 
@@ -29,7 +29,7 @@ This article explains how to resolve these browser detection issues.
 2. In **Chrome**, type **chrome://version** in the address bar and press Enter/Return. 
 
 3. Copy the executable path of the Chrome browser.
-![Executable Path](https://s3.amazonaws.com/static-docs.testsigma.com/new_images/projects/agent/Testsigma_Agent_2.png)
+![Executable Path](https://s3.amazonaws.com/website-static-docs.testsigma.com/new_images/projects/Updated_Doc_Images/Testsigma_Agent_2.png)
 
 4. Start the agent with the browser path. 
 

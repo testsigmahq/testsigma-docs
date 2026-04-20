@@ -35,26 +35,26 @@ In Testsigma, you can change the status of test cases in test plan reports. This
 
 1. From the left-side navbar, go to **Test Plans**.
 
-   ![Test Plans](https://s3.amazonaws.com/static-docs.testsigma.com/new_images/projects/applications/TestPlansNavigation.png)
+   ![Test Plans](https://s3.amazonaws.com/website-static-docs.testsigma.com/new_images/projects/Updated_Doc_Images/update_test_case_report_1.png)
 
 
 2. Select the test plan in which you want to update the test case result and click **View Reports**.
 
-   ![View Reports](https://s3.amazonaws.com/static-docs.testsigma.com/new_images/projects/applications/View_Reports_Test_Plans.png)
+   ![View Reports](https://s3.amazonaws.com/website-static-docs.testsigma.com/new_images/projects/Updated_Doc_Images/update_test_case_report_2.png)
 
 
 3. Hover over the test case result of which you want to change the status and click on the result you want to update from the dropdown menu.
 
-   ![Result Dropdown](https://s3.amazonaws.com/static-docs.testsigma.com/new_images/projects/applications/Dropdown_TestCase_Result.png)
+   ![Result Dropdown](https://s3.amazonaws.com/website-static-docs.testsigma.com/new_images/projects/Updated_Doc_Images/update_test_case_report_3.png)
 
 
 4. On the **Add Comments** dialog, add a comment and click on **Save**.
 
-   ![Add Comments](https://s3.amazonaws.com/static-docs.testsigma.com/new_images/projects/applications/Add_Comments_Result_Update.png)
+   ![Add Comments](https://s3.amazonaws.com/website-static-docs.testsigma.com/new_images/projects/Updated_Doc_Images/update_test_case_report_4.png)
 
 5. Hover over the same test case result to see the updated status and comment.
 
-   ![Updated Status](https://s3.amazonaws.com/static-docs.testsigma.com/new_images/projects/applications/Updated_Test_Result.png)
+   ![Updated Status](https://s3.amazonaws.com/website-static-docs.testsigma.com/new_images/projects/Updated_Doc_Images/update_test_case_report_5.png)
 
 [[info | **NOTE**:]]
 | Test plan results will be automatically updated as per the changes in the test case results. For information on updating test case results using Rest API, refer to the  [documentation on updating test case run results using API](https://testsigma.com/docs/api/examples/update-test-case-results-using-API/).

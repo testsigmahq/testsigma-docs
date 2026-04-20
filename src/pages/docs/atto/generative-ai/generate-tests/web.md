@@ -49,10 +49,10 @@ You can generate test cases for web and mobile web applications using Testsigmaâ
       - If you select **Epic**, choose the stories for which you want to generate test cases.
       - If you select **Story**, choose all the stories for which you want to generate test cases.
   
-     ![Jira Inputs](https://s3.amazonaws.com/static-docs.testsigma.com/new_images/projects/atto/atto_web_1.png)
+     ![Jira Inputs](https://s3.amazonaws.com/website-static-docs.testsigma.com/new_images/projects/Updated_Doc_Images/atto_web_1.png)
 
 5. In the **Add Jira Tickets** dialog, click **Files** from the **ADD FILES** menu. 
-   ![Files](https://s3.amazonaws.com/static-docs.testsigma.com/new_images/projects/atto/atto_web_2.png)
+   ![Files](https://s3.amazonaws.com/website-static-docs.testsigma.com/new_images/projects/Updated_Doc_Images/atto_web_2.png)
 
 6. In the **Files Upload** dialog:
    - Click **Add Files**. 
@@ -60,19 +60,19 @@ You can generate test cases for web and mobile web applications using Testsigmaâ
    - Click **Add Files**.
    - Click **Save**. 
      
-     ![Files Input](https://s3.amazonaws.com/static-docs.testsigma.com/new_images/projects/atto/atto_web_3.png)
+     ![Files Input](https://s3.amazonaws.com/website-static-docs.testsigma.com/new_images/projects/Updated_Doc_Images/atto_web_3.png)
 
 7. In the Prompt box, enter a detailed prompt that describes test cases want to generate.
-![Prompt](https://s3.amazonaws.com/static-docs.testsigma.com/new_images/projects/atto/atto_web_4.png)
+![Prompt](https://s3.amazonaws.com/website-static-docs.testsigma.com/new_images/projects/Updated_Doc_Images/atto_web_4.png)
 
 8. The **Read existing test case library** checkbox is selected by default. Clear this checkbox if you do not want the system to consider existing test cases while generating new ones.
-![Reac Existing test case library](https://s3.amazonaws.com/static-docs.testsigma.com/new_images/projects/atto/atto_web_5.png)
+![Reac Existing test case library](https://s3.amazonaws.com/website-static-docs.testsigma.com/new_images/projects/Updated_Doc_Images/atto_web_5.png)
 
 [[info | **NOTE**:]]
 | - Once the **Read existing test case library** option is enabled, it cannot be unselected during the same session. The selection remains applicable throughout the session. However, you can enable this option at any time during a session if it was not selected earlier.
 
 9. Click **Generate with AI**.
-   ![Prompt](https://s3.amazonaws.com/static-docs.testsigma.com/new_images/projects/atto/atto_web_6.png)
+   ![Prompt](https://s3.amazonaws.com/website-static-docs.testsigma.com/new_images/projects/Updated_Doc_Images/atto_web_6.png)
 
 10.  Wait for Generator Agent to generate multiple test cases are generated based on the selected inputs. 
 
@@ -81,23 +81,23 @@ You can generate test cases for web and mobile web applications using Testsigmaâ
 ## **Next Steps** 
 
 1. After the test cases are generated, expand a category and select a test case.
-   ![Select a test case](https://s3.amazonaws.com/static-docs.testsigma.com/new_images/projects/atto/atto_web_1.1.png)
+   ![Select a test case](https://s3.amazonaws.com/website-static-docs.testsigma.com/new_images/projects/Updated_Doc_Images/atto_web_1.1.png)
 
 2. In the **Test Case Details** dialog, go to the **Manual Steps** tab and review the generated steps.
-   ![Manual Steps](https://s3.amazonaws.com/static-docs.testsigma.com/new_images/projects/atto/atto_web_7.png)
+   ![Manual Steps](https://s3.amazonaws.com/website-static-docs.testsigma.com/new_images/projects/Updated_Doc_Images/atto_web_7.png)
 
 3. Click **Edit** to manually add a step or block, or to modify existing steps.
-   ![Edit](https://s3.amazonaws.com/static-docs.testsigma.com/new_images/projects/atto/atto_web_8.png)
+   ![Edit](https://s3.amazonaws.com/website-static-docs.testsigma.com/new_images/projects/Updated_Doc_Images/atto_web_8.png)
 
 4. If you want to refine the steps using **Atto**, enter a prompt and click **Refine manual steps**.
-   ![Refine Manual Steps](https://s3.amazonaws.com/static-docs.testsigma.com/new_images/projects/atto/atto_web_9.png)
+   ![Refine Manual Steps](https://s3.amazonaws.com/website-static-docs.testsigma.com/new_images/projects/Updated_Doc_Images/atto_web_9.png)
 
 5. Click **Generate Automated Steps** to convert the manual steps into NLP-based automated steps.
-   ![Generate Automated Steps](https://s3.amazonaws.com/static-docs.testsigma.com/new_images/projects/atto/atto_web_10.png)
+   ![Generate Automated Steps](https://s3.amazonaws.com/website-static-docs.testsigma.com/new_images/projects/Updated_Doc_Images/atto_web_10.png)
 
-6. To execute the test before saving, hover over **Run with Copilot** and select the environment where you want to run the test steps. Copilot executes the steps automatically. Review the results to ensure everything works as expected, then click **Save to Library** to save the test case to your project. ![Run with Copilot](https://s3.amazonaws.com/static-docs.testsigma.com/new_images/projects/atto/atto_web_11.png)
+6. To execute the test before saving, hover over **Run with Copilot** and select the environment where you want to run the test steps. Copilot executes the steps automatically. Review the results to ensure everything works as expected, then click **Save to Library** to save the test case to your project. ![Run with Copilot](https://s3.amazonaws.com/website-static-docs.testsigma.com/new_images/projects/Updated_Doc_Images/atto_web_11.png)
 
-7. To save the test directly, click **Save to Library**. In the **Select Location** dialog box, expand the required **Feature** and select the **Scenario** where you want to save the automated test case. ![Save to Library](https://s3.amazonaws.com/static-docs.testsigma.com/new_images/projects/atto/atto_web_12.png)
+7. To save the test directly, click **Save to Library**. In the **Select Location** dialog box, expand the required **Feature** and select the **Scenario** where you want to save the automated test case. ![Save to Library](https://s3.amazonaws.com/website-static-docs.testsigma.com/new_images/projects/Updated_Doc_Images/atto_web_12.png)
 
 [[info | **NOTE**:]]
 | - To learn about **Agentic Learning**, please refer to the [documentation on Generator Agent](https://testsigma.com/docs/ai-agents/generator/).

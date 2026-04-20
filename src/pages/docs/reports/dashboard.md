@@ -12,7 +12,7 @@ warning: false
 
 Testsigma Dashboard is the control panel which gives us an overview of the currently selected Project and its components.
 
-![Testsigma Dashboard showing all the sections](https://s3.amazonaws.com/static-docs.testsigma.com/new_images/projects/reports/update_dashboard_1.png)
+![Testsigma Dashboard showing all the sections](https://s3.amazonaws.com/website-static-docs.testsigma.com/new_images/projects/Updated_Doc_Images/update_dashboard_1.png)
 
 On the left, you can find the **Navigation bar** spanning across the height of the page. The Navigation bar is persistent for all the pages. It helps you to navigate across different pages easily.
 

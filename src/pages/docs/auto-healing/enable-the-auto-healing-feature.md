@@ -27,10 +27,10 @@ This article discusses how to enable the auto-healing feature.
 ## **Steps to Enable the Auto-Healing Feature**
 
 1. Navigate to **Settings > Preferences**.
-   ![Preferences](https://s3.amazonaws.com/static-docs.testsigma.com/new_images/projects/auto_healing/auto_heal_1.png)
+   ![Preferences](https://s3.amazonaws.com/website-static-docs.testsigma.com/new_images/projects/Updated_Doc_Images/auto_heal_1.png)
 
 2. On the **Preferences** page, enable the toggle on the **Auto Healing** widget.
-   ![Auto-healing](https://s3.amazonaws.com/static-docs.testsigma.com/new_images/projects/auto_healing/auto_heal_2.png)
+   ![Auto-healing](https://s3.amazonaws.com/website-static-docs.testsigma.com/new_images/projects/Updated_Doc_Images/auto_heal_2.png)
 
 Your tests are ready to execute without manual intervention whenever there are changes in the build. The Auto Healing feature will automatically correct the elements.
 

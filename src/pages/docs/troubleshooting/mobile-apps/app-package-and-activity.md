@@ -49,7 +49,7 @@ Let us try finding the details of the **Whatsapp** application in this case.
 
 2. Open a Command Prompt or Terminal window and run the ***adb devices*** command. This will display a list of connected devices with their unique device ID.
 
-![adb devices](https://s3.amazonaws.com/static-docs.testsigma.com/new_images/projects/applications/apppkgdtlcmd.png)
+![adb devices](https://s3.amazonaws.com/website-static-docs.testsigma.com/new_images/projects/Updated_Doc_Images/apppkgdtlcmd.png)
 
 
 3. Use the following commands to retrive information about the currently open application:
@@ -61,7 +61,7 @@ Let us try finding the details of the **Whatsapp** application in this case.
 4. The output will display the Android Application Package name and Application Activity name. 
 
     - For example, here, **com.whatsapp** is the package name, and **com.whatsapp.HomeActivity** is the activity name.
-      ![Whatsapp](https://s3.amazonaws.com/static-docs.testsigma.com/new_images/projects/applications/apppkgdtlsret.png)
+      ![Whatsapp](https://s3.amazonaws.com/website-static-docs.testsigma.com/new_images/projects/Updated_Doc_Images/apppkgdtlsret.png)
 
 [[info | **NOTE**:]]
 | Ensure the WhatsApp app is open on the device and the device screen is unlocked before executing these steps. This applies to any android application installed on the device.

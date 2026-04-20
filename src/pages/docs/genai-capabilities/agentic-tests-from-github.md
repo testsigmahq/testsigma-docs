@@ -47,26 +47,26 @@ You can integrate GitHub with Testsigma to automatically generate test cases usi
 [[info | **NOTE**:]]
 | 
 | - Use these values of **Webhook URL** and **Webhook Secret** displayed in the dialog to create a Webhook in your GitHub repository.
-|   ![Step 1](https://s3.amazonaws.com/static-docs.testsigma.com/new_images/projects/GitHub_int/GitHub_Int_Step1.png)
+|   ![Step 1](https://s3.amazonaws.com/website-static-docs.testsigma.com/new_images/projects/Updated_Doc_Images/GitHub_Int_Step1.png)
 |
 | - Generate **Personal Access Token**, get **Owner Details** from GitHub and add the details in **Step 2**.
-|   ![Step 2](https://s3.amazonaws.com/static-docs.testsigma.com/new_images/projects/GitHub_int/GitHub_Int_Step2.png)
+|   ![Step 2](https://s3.amazonaws.com/website-static-docs.testsigma.com/new_images/projects/Updated_Doc_Images/GitHub_Int_Step2.png)
 
 ---
 
 ## **Step 1: Configure Webhooks in GitHub**
 
 1. Go to **GitHub**, select an organization, and click **View organization**.
-   ![View Org](https://s3.amazonaws.com/static-docs.testsigma.com/new_images/projects/GitHub_int/GitHub_Int_VO.png)
+   ![View Org](https://s3.amazonaws.com/website-static-docs.testsigma.com/new_images/projects/Updated_Doc_Images/GitHub_Int_VO.png)
 
 2. In the top navigation bar, click **Settings**.
-   ![Settings](https://s3.amazonaws.com/static-docs.testsigma.com/new_images/projects/GitHub_int/GitHub_Settings.png)
+   ![Settings](https://s3.amazonaws.com/website-static-docs.testsigma.com/new_images/projects/Updated_Doc_Images/GitHub_Settings.png)
 
 3. In the left navigation pane, under **Code, planning, and automation**, click **Webhooks**.
-   ![Webhooks](https://s3.amazonaws.com/static-docs.testsigma.com/new_images/projects/GitHub_int/GitHub_Webhooks_Int.png)
+   ![Webhooks](https://s3.amazonaws.com/website-static-docs.testsigma.com/new_images/projects/Updated_Doc_Images/GitHub_Webhooks_Int.png)
 
 4. On the **Webhooks** page, click **Add webhook**.
-   ![Add Webhook](https://s3.amazonaws.com/static-docs.testsigma.com/new_images/projects/GitHub_int/GitHub_Add_Webhook.png)
+   ![Add Webhook](https://s3.amazonaws.com/website-static-docs.testsigma.com/new_images/projects/Updated_Doc_Images/GitHub_Add_Webhook.png)
 
 
 5. On the **Add webhook** page, do the following:
@@ -76,7 +76,7 @@ You can integrate GitHub with Testsigma to automatically generate test cases usi
    - Under **Which events would you like to trigger this webhook?**, select **Let me select individual events**.
    - From the list of available events, select **Pull requests**.
    
-   ![Add Webhook page](https://s3.amazonaws.com/static-docs.testsigma.com/new_images/projects/GitHub_int/GitHub_WH_Config.png)
+   ![Add Webhook page](https://s3.amazonaws.com/website-static-docs.testsigma.com/new_images/projects/Updated_Doc_Images/GitHub_WH_Config.png)
 
 [[info | **NOTE**:]]
 | The **Payload URL** and **Secret** in GitHub must be copied from **Webhook URL** and **Webhook Secret** generated in Testsigma.
@@ -84,26 +84,26 @@ You can integrate GitHub with Testsigma to automatically generate test cases usi
 | To obtain them, go to **Settings > Integrations** in Testsigma and enable the GitHub integration toggle.
 
 6. Select **Add webhook** to save the configuration.
-   ![Add Webhook](https://s3.amazonaws.com/static-docs.testsigma.com/new_images/projects/GitHub_int/GitHub_Int_Add_WH.png)
+   ![Add Webhook](https://s3.amazonaws.com/website-static-docs.testsigma.com/new_images/projects/Updated_Doc_Images/GitHub_Int_Add_WH.png)
 
 ---
 
 ## **Step 2: Generate PAT and Owner Details from GitHub**
 
 1. Go to **GitHub**, and click your profile picture in the top-right corner.
-   ![Profile](https://s3.amazonaws.com/static-docs.testsigma.com/new_images/projects/GitHub_int/GitHub_Profile.png)
+   ![Profile](https://s3.amazonaws.com/website-static-docs.testsigma.com/new_images/projects/Updated_Doc_Images/GitHub_Profile.png)
 
 2. In the profile menu, click **Settings**.
-   ![Profile Settings](https://s3.amazonaws.com/static-docs.testsigma.com/new_images/projects/GitHub_int/GitHub_Profile_Settings.png)
+   ![Profile Settings](https://s3.amazonaws.com/website-static-docs.testsigma.com/new_images/projects/Updated_Doc_Images/GitHub_Profile_Settings.png)
 
 3. In the left navigation pane, scroll down and click **Developer settings**.
-   ![Dev Settings](https://s3.amazonaws.com/static-docs.testsigma.com/new_images/projects/GitHub_int/GitHub_Dev_Settings.png)
+   ![Dev Settings](https://s3.amazonaws.com/website-static-docs.testsigma.com/new_images/projects/Updated_Doc_Images/GitHub_Dev_Settings.png)
 
 4. Under **Developer settings**, click **Personal access tokens**, and then select **Fine-grained tokens**.
-   ![Fine-grained tokens](https://s3.amazonaws.com/static-docs.testsigma.com/new_images/projects/GitHub_int/GitHub_Fine_Tokens.png)
+   ![Fine-grained tokens](https://s3.amazonaws.com/website-static-docs.testsigma.com/new_images/projects/Updated_Doc_Images/GitHub_Fine_Tokens.png)
 
 5. Click **Generate new token**.
-   ![Generate new token](https://s3.amazonaws.com/static-docs.testsigma.com/new_images/projects/GitHub_int/GitHub_New_Tokens.png)
+   ![Generate new token](https://s3.amazonaws.com/website-static-docs.testsigma.com/new_images/projects/Updated_Doc_Images/GitHub_New_Tokens.png)
 
 6. On the **New fine-grained personal access token** page, configure the following: <br>  <br>
    **A.** In the **Token name** field, enter a name for the token. <br> <br>
@@ -116,22 +116,22 @@ You can integrate GitHub with Testsigma to automatically generate test cases usi
   
    **F.** Under **Permissions**, configure the required repository & organization permissions.
 
-   ![New Token Details](https://s3.amazonaws.com/static-docs.testsigma.com/new_images/projects/GitHub_int/GitHub_Token_Details.png)
+   ![New Token Details](https://s3.amazonaws.com/website-static-docs.testsigma.com/new_images/projects/Updated_Doc_Images/GitHub_Token_Details.png)
 
 7. Click **Generate token**.
-   ![Generate Token](https://s3.amazonaws.com/static-docs.testsigma.com/new_images/projects/GitHub_int/GitHub_Generate_Token_New.png)
+   ![Generate Token](https://s3.amazonaws.com/website-static-docs.testsigma.com/new_images/projects/Updated_Doc_Images/GitHub_Generate_Token_New.png)
 
 
 8. In the **New personal access token** dialog, click **Generate token**.
-   ![Generate Token](https://s3.amazonaws.com/static-docs.testsigma.com/new_images/projects/GitHub_int/GitHub_Confirm_Token.png)
+   ![Generate Token](https://s3.amazonaws.com/website-static-docs.testsigma.com/new_images/projects/Updated_Doc_Images/GitHub_Confirm_Token.png)
 
 
 9. Click **Copy** and securely store the generated token.
-   ![Copy Token](https://s3.amazonaws.com/static-docs.testsigma.com/new_images/projects/GitHub_int/GitHub_Copy_Token.png) 
+   ![Copy Token](https://s3.amazonaws.com/website-static-docs.testsigma.com/new_images/projects/Updated_Doc_Images/GitHub_Copy_Token.png) 
    
    
 10. Enter the generated **Personal Access Token** and **Resource Owner**, click **Save & Enable**. 
-    ![Save](https://s3.amazonaws.com/static-docs.testsigma.com/new_images/projects/GitHub_int/GitHub_Details_Testsigma.png)
+    ![Save](https://s3.amazonaws.com/website-static-docs.testsigma.com/new_images/projects/Updated_Doc_Images/GitHub_Details_Testsigma.png)
 
 ---
 
@@ -174,7 +174,7 @@ Testsigma Info Ends
 
 
 **Here’s how the formatted PR will look:**
-   ![GiHub Demo PR](https://s3.amazonaws.com/static-docs.testsigma.com/new_images/projects/GitHub_int/GitHub_Demo_PR.png)
+   ![GiHub Demo PR](https://s3.amazonaws.com/website-static-docs.testsigma.com/new_images/projects/Updated_Doc_Images/GitHub_Demo_PR.png)
 
 [[info | **NOTE**:]]
 | If your PR template includes **Jira**, **Xray**, or **Figma URLs**, ensure these integrations are also added under **Settings > Integrations** in Testsigma.

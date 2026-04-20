@@ -22,12 +22,12 @@ If **ExcludeSemantics** is used on a widget, it will not be selectable.<br>
 If **MergeSemantics** is used inside any Widget, semantic labels of child widgets are merged and will appear as a single element for selection during mobile recording.<br>
 
 For example, in the screenshot shown below, two text widgets appear as being merged together. *You have pushed the button this many times: 0* shows up as a single selectable element rather than two separate elements.<br>
-![SS1](https://s3.amazonaws.com/static-docs.testsigma.com/new_images/projects/applications/Screenshot_1.png)<br>
+![SS1](https://s3.amazonaws.com/website-static-docs.testsigma.com/new_images/projects/Updated_Doc_Images/Screenshot_1.png)<br>
 
 To fix such issues, custom widgets must be wrapped with a semantics widget with ‘label’ property set or MergeSemantics/ExcludeSemantics wrapper should be removed.
-![SS2](https://s3.amazonaws.com/static-docs.testsigma.com/new_images/projects/applications/Screenshot_2.png)<br>
+![SS2](https://s3.amazonaws.com/website-static-docs.testsigma.com/new_images/projects/Updated_Doc_Images/Screenshot_2.png)<br>
 To verify this is done properly and to view an outline of a widget, set `showSemanticsDebugger: true` for the widget.
-![SS3](https://s3.amazonaws.com/static-docs.testsigma.com/new_images/projects/applications/Screenshot_3.png)<br>
+![SS3](https://s3.amazonaws.com/website-static-docs.testsigma.com/new_images/projects/Updated_Doc_Images/Screenshot_3.png)<br>
 
 This will display the elements with their outline based on the semantics of the widget.
-![SS4](https://s3.amazonaws.com/static-docs.testsigma.com/new_images/projects/applications/Screenshot_4.png)
+![SS4](https://s3.amazonaws.com/website-static-docs.testsigma.com/new_images/projects/Updated_Doc_Images/Screenshot_4.png)

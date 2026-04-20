@@ -42,30 +42,30 @@ Safari restricts automated Basic Authentication login by blocking credentials in
 
 2. Enter your **username** and **password** to generate the **Authorization Header**.
 
-   ![Auth Header](https://s3.amazonaws.com/static-docs.testsigma.com/new_images/projects/applications/Header_Generator.png)
+   ![Auth Header](https://s3.amazonaws.com/website-static-docs.testsigma.com/new_images/projects/Updated_Doc_Images/Header_Generator.png)
 
 ---
 
 ## **Adding the Capability**
 
 1. On the **Test Case Details** page, click **Run**.
-   ![Run](https://s3.amazonaws.com/static-docs.testsigma.com/new_images/projects/applications/Run_Now_BA.png)
+   ![Run](https://s3.amazonaws.com/website-static-docs.testsigma.com/new_images/projects/Updated_Doc_Images/Run_Now_BA.png)
 
 2. In the **Ad-Hoc Run** overlay,
 
    - Select available **macOS**, **Version**, **Browser**, and **Resolution**.
-     ![Machine, Ver, Browser & Resol](https://s3.amazonaws.com/static-docs.testsigma.com/new_images/projects/applications/Machine_OS_BA.png)
+     ![Machine, Ver, Browser & Resol](https://s3.amazonaws.com/website-static-docs.testsigma.com/new_images/projects/Updated_Doc_Images/Machine_OS_BA.png)
 
    - Enter **testsigma.customHeaders** in the **Key** field, select **String** as **Data type**, and set the **Value** as per the generated **Authorization Header**. 
-     ![Desired Capabilities](https://s3.amazonaws.com/static-docs.testsigma.com/new_images/projects/applications/Desired_Capabilities_BA.png)
+     ![Desired Capabilities](https://s3.amazonaws.com/website-static-docs.testsigma.com/new_images/projects/Updated_Doc_Images/Desired_Capabilities_BA.png)
 
        > **Value Format:** ```{ "Authorization": "Basic <token>" }```
 
 3. Click **Run Now** to execute the test case.
-   ![Execute Test](https://s3.amazonaws.com/static-docs.testsigma.com/new_images/projects/applications/Execute_Test_BA.png)
+   ![Execute Test](https://s3.amazonaws.com/website-static-docs.testsigma.com/new_images/projects/Updated_Doc_Images/Execute_Test_BA.png)
 
 4. After execution completes, refer to the screenshot captured at the test step level.
-   ![Screenshot of Execution](https://s3.amazonaws.com/static-docs.testsigma.com/new_images/projects/applications/Screenshot_Run_BA.png)
+   ![Screenshot of Execution](https://s3.amazonaws.com/website-static-docs.testsigma.com/new_images/projects/Updated_Doc_Images/Screenshot_Run_BA.png)
 
 
 [[info | **NOTE**:]]

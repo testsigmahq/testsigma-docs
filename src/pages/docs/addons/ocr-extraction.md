@@ -37,12 +37,12 @@ This guide will instruct you step-by-step on how to create an OCR Text Extractio
 
 ## **Update the Action Code**
 
-1. Unzip the downloaded zip file and open the extracted folder in your preferred IDE as a Java module. ![Folder](https://s3.amazonaws.com/static-docs.testsigma.com/new_images/projects/applications/folder.png)
+1. Unzip the downloaded zip file and open the extracted folder in your preferred IDE as a Java module. ![Folder](https://s3.amazonaws.com/website-static-docs.testsigma.com/new_images/projects/Updated_Doc_Images/folder.png)
 2. Import the Java module as Maven/Gradle from your IDE.
 3. Update the following template files:
     - **pom.xml**: Contains dependencies for coding your functionality.
     - **src folder**: Includes sample Java files with addon functions.
-![OCR code update](https://s3.amazonaws.com/static-docs.testsigma.com/new_images/projects/applications/ocr.png)
+![OCR code update](https://s3.amazonaws.com/website-static-docs.testsigma.com/new_images/projects/Updated_Doc_Images/ocr.png)
 
 ---
 
@@ -61,6 +61,6 @@ This guide will instruct you step-by-step on how to create an OCR Text Extractio
 
 ## **Using OCR Addon in a Test case**
 
-Once the addon is published, NLPs become available in the application. Follow these GIF below to use the OCR addon in Test Cases: ![Addon GIF](https://s3.amazonaws.com/static-docs.testsigma.com/new_images/projects/applications/ocr_text_extraction_addon.gif)
+Once the addon is published, NLPs become available in the application. Follow these GIF below to use the OCR addon in Test Cases: ![Addon GIF](https://s3.amazonaws.com/website-static-docs.testsigma.com/new_images/projects/Updated_Doc_Images/ocr_text_extraction_addon.gif)
 
 ---

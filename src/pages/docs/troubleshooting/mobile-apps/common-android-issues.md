@@ -19,7 +19,7 @@ warning: false
 ### **Solution:**  
 Add the following desired capability in **Test Environment Settings**: 
 
-![Desirec Capability App Data Reset](https://s3.amazonaws.com/static-docs.testsigma.com/new_images/projects/applications/dcfadrst.png)
+![Desirec Capability App Data Reset](https://s3.amazonaws.com/website-static-docs.testsigma.com/new_images/projects/Updated_Doc_Images/dcfadrst.png)
 
 [[info | **NOTE**:]]
 | The behaviour is Android platform specific and is non-existent on iOS platform. The reason for the behaviour lies in the difference in the automation capabilities between Android and iOS.

@@ -131,10 +131,10 @@ void main() {
 ## **Steps to Create Elements Using Flutter Properties**
 
 1. Navigate to **Create Tests > Elements**.
-   ![Elements](https://s3.amazonaws.com/static-docs.testsigma.com/new_images/projects/runs/Flutter_1.png)
+   ![Elements](https://s3.amazonaws.com/website-static-docs.testsigma.com/new_images/projects/Updated_Doc_Images/Flutter_1.png)
 
 2. Create on **Create Element**.
-   ![Create Element](https://s3.amazonaws.com/static-docs.testsigma.com/new_images/projects/runs/Flutter_2.png)
+   ![Create Element](https://s3.amazonaws.com/website-static-docs.testsigma.com/new_images/projects/Updated_Doc_Images/Flutter_2.png)
 
 3. On the **Create Element** overlay, you'll see the following fields:
    - **Name:** Enter the name you want to give your element.
@@ -144,10 +144,10 @@ void main() {
    - **Element Type:** Expand the drop-down and select a Flutter type. 
 
    - **Enter Value:** Enter the value corresponding to the Element Type you selected.
-   ![Create Element Overlay](https://s3.amazonaws.com/static-docs.testsigma.com/new_images/projects/runs/Flutter_3.1.png)
+   ![Create Element Overlay](https://s3.amazonaws.com/website-static-docs.testsigma.com/new_images/projects/Updated_Doc_Images/Flutter_3.1.png)
 
 4. Once you have added all the details, click on **Create Element**.
-   ![Click Create Element](https://s3.amazonaws.com/static-docs.testsigma.com/new_images/projects/runs/Flutter_4.png)
+   ![Click Create Element](https://s3.amazonaws.com/website-static-docs.testsigma.com/new_images/projects/Updated_Doc_Images/Flutter_4.png)
 
 5. The element will be saved in the elements list.
 
@@ -156,13 +156,13 @@ void main() {
 ## **Steps to Execute Tests Using Flutter Integration**
 
 1. In the Test Case Details page, click **Run**.
-   ![Run](https://s3.amazonaws.com/static-docs.testsigma.com/new_images/projects/runs/Flutter_5.png)
+   ![Run](https://s3.amazonaws.com/website-static-docs.testsigma.com/new_images/projects/Updated_Doc_Images/Flutter_5.png)
 
 2. In the **Ad-Hoc Run** overlay, select the required **Test Lab** and **Test Machine**. 
-   ![Test Lab and Test machine](https://s3.amazonaws.com/static-docs.testsigma.com/new_images/projects/runs/Flutter_6.png)
+   ![Test Lab and Test machine](https://s3.amazonaws.com/website-static-docs.testsigma.com/new_images/projects/Updated_Doc_Images/Flutter_6.png)
 
 3. Under **App Source**, click **Upload** and upload the required file. 
-   ![Upload](https://s3.amazonaws.com/static-docs.testsigma.com/new_images/projects/runs/Flutter_7.png)
+   ![Upload](https://s3.amazonaws.com/website-static-docs.testsigma.com/new_images/projects/Updated_Doc_Images/Flutter_7.png)
 
 4. Expand **Desired Capabilities** and enter the following:
 
@@ -170,10 +170,10 @@ void main() {
    |---|---|---|
    |automationName|String|FlutterIntegration|
 
-  ![Desired Capabilities](https://s3.amazonaws.com/static-docs.testsigma.com/new_images/projects/runs/Flutter_8.png)
+  ![Desired Capabilities](https://s3.amazonaws.com/website-static-docs.testsigma.com/new_images/projects/Updated_Doc_Images/Flutter_8.png)
 
 5. Click **Run Now**. 
-   ![Run Now](https://s3.amazonaws.com/static-docs.testsigma.com/new_images/projects/runs/Flutter_9.png)
+   ![Run Now](https://s3.amazonaws.com/website-static-docs.testsigma.com/new_images/projects/Updated_Doc_Images/Flutter_9.png)
 
 
 

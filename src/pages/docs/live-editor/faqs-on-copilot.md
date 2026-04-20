@@ -169,23 +169,23 @@ warning: false
 **Steps to Resolve for macOS:**
 
 1. Click **Quit Session** if it is open. 
-   ![Quit Copilot](https://s3.amazonaws.com/static-docs.testsigma.com/new_images/projects/live_editor/install_terminal_2.png)
+   ![Quit Copilot](https://s3.amazonaws.com/website-static-docs.testsigma.com/new_images/projects/Updated_Doc_Images/install_terminal_2.png)
 
 2. Open Activity Monitor and end any **wrapper** or **atto** processes.
-   ![Kill Tasks](https://s3.amazonaws.com/static-docs.testsigma.com/new_images/projects/Atto_Testsigma/Kill_Tasks_in_Activity_Monitor.png)
+   ![Kill Tasks](https://s3.amazonaws.com/website-static-docs.testsigma.com/new_images/projects/Updated_Doc_Images/Kill_Tasks_in_Activity_Monitor.png)
 
 3. Go to your **Users** folder and show hidden files by pressing **Command+Shift+.**.
-   ![Hidden Folders](https://s3.amazonaws.com/static-docs.testsigma.com/new_images/projects/Atto_Testsigma/Hidden_Files_in_Users.png)
+   ![Hidden Folders](https://s3.amazonaws.com/website-static-docs.testsigma.com/new_images/projects/Updated_Doc_Images/Hidden_Files_in_Users.png)
 
 [[info | **NOTE**:]]
 | **For Windows**: In **File Explorer**, go to **View** and select **Hidden items**.
 | **For Linux**: Press **Ctrl + H**.
 
 4. Delete all subfolders inside **/Users/&lt;username&gt;/.testsigma/**.
-   ![Delete Folders in .testsigma](https://s3.amazonaws.com/static-docs.testsigma.com/new_images/projects/Atto_Testsigma/hidden_folder_testsigma.png)
+   ![Delete Folders in .testsigma](https://s3.amazonaws.com/website-static-docs.testsigma.com/new_images/projects/Updated_Doc_Images/hidden_folder_testsigma.png)
 
 5. Delete all subfolders inside **/Users/&lt;username&gt;/Library/Application Support/Testsigma/**.
-   ![Delete Folders in Testsigma](https://s3.amazonaws.com/static-docs.testsigma.com/new_images/projects/Atto_Testsigma/Hidden_Folder_Testsigma2.png)
+   ![Delete Folders in Testsigma](https://s3.amazonaws.com/website-static-docs.testsigma.com/new_images/projects/Updated_Doc_Images/Hidden_Folder_Testsigma2.png)
 
 6. Download and install the latest **Testsigma Terminal** from the Testsigma app. 
 
@@ -205,13 +205,13 @@ warning: false
    - **atto-browser-agent**
    - **chromeDriver**
 
-   ![Task Manager Windows](https://s3.amazonaws.com/static-docs.testsigma.com/new_images/projects/Atto_Testsigma/Task_Manager_Windows.png)
+   ![Task Manager Windows](https://s3.amazonaws.com/website-static-docs.testsigma.com/new_images/projects/Updated_Doc_Images/Task_Manager_Windows.png)
 
 3. Delete all subfolders inside **%UserProfile%\\.testsigma**.
-   ![.testsigma folder](https://s3.amazonaws.com/static-docs.testsigma.com/new_images/projects/Atto_Testsigma/Testsigma_folder_windows.png)
+   ![.testsigma folder](https://s3.amazonaws.com/website-static-docs.testsigma.com/new_images/projects/Updated_Doc_Images/Testsigma_folder_windows.png)
 
 4. Delete all subfolders inside **%UserProfile%\AppData\Roaming\Testsigma**.
-   ![Testsigma Folder](https://s3.amazonaws.com/static-docs.testsigma.com/new_images/projects/Atto_Testsigma/Testsigma_folder_windows2.png)
+   ![Testsigma Folder](https://s3.amazonaws.com/website-static-docs.testsigma.com/new_images/projects/Updated_Doc_Images/Testsigma_folder_windows2.png)
 
 5. Download and install the latest **Testsigma Terminal** from the **Testsigma** app.
 
@@ -228,7 +228,7 @@ warning: false
 
 **Answer:** Authentication errors during installation occur if the user switches accounts through the installation or if leftover processes or files from a previous installation remain. To resolve this, perform the common cleanup process as described in the port busy issue.
 
-   ![Authentication Error in Copilot](https://s3.amazonaws.com/static-docs.testsigma.com/new_images/projects/Atto_Testsigma/auth_error_terminal.png)
+   ![Authentication Error in Copilot](https://s3.amazonaws.com/website-static-docs.testsigma.com/new_images/projects/Updated_Doc_Images/auth_error_terminal.png)
 
 ---
 

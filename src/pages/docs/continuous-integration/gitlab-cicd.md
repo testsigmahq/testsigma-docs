@@ -35,13 +35,13 @@ This article explains how to integrate GitLab with Testsigma for CI/CD purposes.
 1. Login to your GitLab account. 
 
 2. Create a blank project or create a CI/CD project as per your preference by clicking on **New project**.
-![New Project](https://s3.amazonaws.com/static-docs.testsigma.com/new_images/projects/applications/newproject.png)
+![New Project](https://s3.amazonaws.com/website-static-docs.testsigma.com/new_images/projects/Updated_Doc_Images/newproject.png)
 
 3. On create project page, enter all the details and click on **Create project**.
-![Create project](https://s3.amazonaws.com/static-docs.testsigma.com/new_images/projects/applications/clickoncreateproject.png)
+![Create project](https://s3.amazonaws.com/website-static-docs.testsigma.com/new_images/projects/Updated_Doc_Images/clickoncreateproject.png)
 
 4. Navigate to **CI/CD** and click on **Jobs**.
-![Navigate to CI/CD](https://s3.amazonaws.com/static-docs.testsigma.com/new_images/projects/applications/clickoncicd.png)
+![Navigate to CI/CD](https://s3.amazonaws.com/website-static-docs.testsigma.com/new_images/projects/Updated_Doc_Images/clickoncicd.png)
 
 5. Click on **Create CI/CD Configuration file** to create a YML file. Alternatively, you can also use the below YML sample to create the job.
 
@@ -74,18 +74,18 @@ build-code-job:
 [[info | **NOTE**:]]
 |The keys **TESTSIGMAAPIKEY** and **TESTSIGMATESTPLAN_ID** in the script should be replaced with **API Key** and **Test Plan ID**, respectively. Refer to the example below. 
 |
-|![Example](https://s3.amazonaws.com/static-docs.testsigma.com/new_images/projects/applications/example.png)
+|![Example](https://s3.amazonaws.com/website-static-docs.testsigma.com/new_images/projects/Updated_Doc_Images/example.png)
 
 7. Click on **Commit changes** once you have created the YML script, and the job will start to run.
-![Commit changes](https://s3.amazonaws.com/static-docs.testsigma.com/new_images/projects/applications/commitchanges.png)
+![Commit changes](https://s3.amazonaws.com/website-static-docs.testsigma.com/new_images/projects/Updated_Doc_Images/commitchanges.png)
 
 8. From the screenshot below, you can see the job running. You can also notice that the test plan configured inside the shell script would start running.
-![Job running](https://s3.amazonaws.com/static-docs.testsigma.com/new_images/projects/applications/coderunning.png)
+![Job running](https://s3.amazonaws.com/website-static-docs.testsigma.com/new_images/projects/Updated_Doc_Images/coderunning.png)
 
 Once the job is completed you can see the execution report as an XML report based on the path you have shared on the shell script.
 
 9. Post completion of the job, you can see the details below:
-![Post Run](https://s3.amazonaws.com/static-docs.testsigma.com/new_images/projects/applications/postrun.png)
+![Post Run](https://s3.amazonaws.com/website-static-docs.testsigma.com/new_images/projects/Updated_Doc_Images/postrun.png)
 
 
 ---

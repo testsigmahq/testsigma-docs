@@ -55,7 +55,7 @@ List of compatible devices :
 Implementation with Testsigma is simple and straightforward. 
 
 1. Download the addon: Testsigma has an built-in addon to automate this flow, you can download the addon and use the addon inside your test step. The addon screenshot is added below 
-   ![Autopay](https://s3.amazonaws.com/static-docs.testsigma.com/new_images/projects/applications/Auto-pay.png)
+   ![Autopay](https://s3.amazonaws.com/website-static-docs.testsigma.com/new_images/projects/Updated_Doc_Images/Auto-pay.png)
 
 2. Add Desired capability: Before you execute the test case, you can add the desired capability listed below and choose the compatible devices shared in the previous list. 
 

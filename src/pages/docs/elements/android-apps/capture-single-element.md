@@ -42,15 +42,15 @@ In an Android project in Testsigma, you can selectively capture elements one at 
 ## **Steps to Record an Element**
 
 1. From the left navigation bar, go to **Create Tests > Elements**.
-![Elements](https://s3.amazonaws.com/static-docs.testsigma.com/new_images/projects/elements/update_ca_1.png)
+![Elements](https://s3.amazonaws.com/website-static-docs.testsigma.com/new_images/projects/Updated_Doc_Images/update_ca_1.png)
 
 
 2. Click on **Record**.
-![Record](https://s3.amazonaws.com/static-docs.testsigma.com/new_images/projects/applications/andelmcorec.png)
+![Record](https://s3.amazonaws.com/website-static-docs.testsigma.com/new_images/projects/Updated_Doc_Images/andelmcorec.png)
 
 
 3. On **Record Elements** overlay, select **Test Lab**, **Test Machine**, **Upload App Source** and click on **Record**.
-![Record](https://s3.amazonaws.com/static-docs.testsigma.com/new_images/projects/applications/andelmreovdtls.png)
+![Record](https://s3.amazonaws.com/website-static-docs.testsigma.com/new_images/projects/Updated_Doc_Images/andelmreovdtls.png)
 
 
 4. Wait for the app to load fully.
@@ -60,19 +60,19 @@ In an Android project in Testsigma, you can selectively capture elements one at 
 
 
 6. On the **Create Element** section, validate the **Name**, **Screen Name**, **Element Type**, and the **Value**. 
-![Create Element](https://s3.amazonaws.com/static-docs.testsigma.com/new_images/projects/applications/andelmcelm.png)
+![Create Element](https://s3.amazonaws.com/website-static-docs.testsigma.com/new_images/projects/Updated_Doc_Images/andelmcelm.png)
 
 
 7. Click on **Create**.
-![Create](https://s3.amazonaws.com/static-docs.testsigma.com/new_images/projects/applications/andelmcocelm.png)
+![Create](https://s3.amazonaws.com/website-static-docs.testsigma.com/new_images/projects/Updated_Doc_Images/andelmcocelm.png)
 
 [[info | **NOTE**:]]
 | - To update an element, hover over the recorded element and click on the edit icon. Change the element details manually and click **Update** to finalize the changes.
-|   ![Update Element](https://s3.amazonaws.com/static-docs.testsigma.com/new_images/projects/applications/andelmufelmsrn.png)
+|   ![Update Element](https://s3.amazonaws.com/website-static-docs.testsigma.com/new_images/projects/Updated_Doc_Images/andelmufelmsrn.png)
 | - You can also update the element from the run results by navigating to **Ad-Hoc Runs > Test Step > Element > Edit Element**.
 
 8. The element will be saved in the elements list. 
-![Saved](https://s3.amazonaws.com/static-docs.testsigma.com/new_images/projects/applications/andelmlist.png)
+![Saved](https://s3.amazonaws.com/website-static-docs.testsigma.com/new_images/projects/Updated_Doc_Images/andelmlist.png)
 
 9. Stop the recorder to close the session.
 
@@ -81,14 +81,14 @@ In an Android project in Testsigma, you can selectively capture elements one at 
 Alternatively, you can also create the element while creating test case by following the steps below. 
 
 1. Hover over the element on the test step and click on **Create Element** from the dropdown.
-![Create Element](https://s3.amazonaws.com/static-docs.testsigma.com/new_images/projects/applications/anelmcsttsc.png)
+![Create Element](https://s3.amazonaws.com/website-static-docs.testsigma.com/new_images/projects/Updated_Doc_Images/anelmcsttsc.png)
 
 2. On **Create Element** overlay, enter **Name**, **Screen Name**, select the **Element Type** and click on **Create Element**.
-![Create](https://s3.amazonaws.com/static-docs.testsigma.com/new_images/projects/applications/andelmcstcocelm.png)
+![Create](https://s3.amazonaws.com/website-static-docs.testsigma.com/new_images/projects/Updated_Doc_Images/andelmcstcocelm.png)
 
 [[info | **NOTE**:]]
 | - To update an element from test steps, hover over the element and click on the edit icon. Change the element details manually and click **Update** to finalize the changes.
-|   ![Update Element](https://s3.amazonaws.com/static-docs.testsigma.com/new_images/projects/applications/andelmuelm.png)
+|   ![Update Element](https://s3.amazonaws.com/website-static-docs.testsigma.com/new_images/projects/Updated_Doc_Images/andelmuelm.png)
 
 ---
 
@@ -100,13 +100,13 @@ Alternatively, you can also create the element while creating test case by follo
 2. Start recording test steps for the test case.
 
 3. Hover over the element on the test step where you want to reuse the saved element and click on **Change Element**.
-![Change Element](https://s3.amazonaws.com/static-docs.testsigma.com/new_images/projects/applications/andelmruelm.png)
+![Change Element](https://s3.amazonaws.com/website-static-docs.testsigma.com/new_images/projects/Updated_Doc_Images/andelmruelm.png)
 
 4. On **Elements** overlay, select the element you want to reuse. 
-![Reuse](https://s3.amazonaws.com/static-docs.testsigma.com/new_images/projects/applications/ruelmsfrmovrlay.png)
+![Reuse](https://s3.amazonaws.com/website-static-docs.testsigma.com/new_images/projects/Updated_Doc_Images/ruelmsfrmovrlay.png)
 
 5. Click on **Update Step** to finalize the change. 
-![Update Step](https://s3.amazonaws.com/static-docs.testsigma.com/new_images/projects/applications/andelmupts.png)
+![Update Step](https://s3.amazonaws.com/website-static-docs.testsigma.com/new_images/projects/Updated_Doc_Images/andelmupts.png)
 
 [[info | **NOTE**:]]
 | You can also reuse the element by following the same steps while creating a test case manually.

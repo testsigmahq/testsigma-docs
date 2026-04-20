@@ -26,7 +26,7 @@ In Testsigma, you can execute your Test Suites and Test Cases based on your subs
 
 ## **Parallel Execution of Test Suites**
 
-![Parallel & Allowed](https://s3.amazonaws.com/static-docs.testsigma.com/new_images/projects/applications/PATests.png)
+![Parallel & Allowed](https://s3.amazonaws.com/website-static-docs.testsigma.com/new_images/projects/Updated_Doc_Images/PATests.png)
 
 Let’s say you have licence for 5 parallel executions & 8 allowed queue. You can set up a maximum of 5 Test Suites to run in parallel, which means you can execute up to 5 Test Suites simultaneously, irrespective of the number of Test Cases within each Test Suite.
 

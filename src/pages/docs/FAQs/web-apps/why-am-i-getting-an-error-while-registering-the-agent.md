@@ -16,7 +16,7 @@ contextual_links:
 
 After installing the Agent in Testsigma, you may encounter an error while registering it. If the registration fails with the message “app.testsigma.com is unreachable from the agent. Check proxy settings if configured,” and the Register button is disabled, it usually indicates that Local Network Access is not enabled on your device.
 
-![Error Message](https://s3.amazonaws.com/static-docs.testsigma.com/new_images/projects/faq/Agent_issue_1.png)
+![Error Message](https://s3.amazonaws.com/website-static-docs.testsigma.com/new_images/projects/Updated_Doc_Images/Agent_issue_1.png)
 
 This article explains how to enable Local Network Access to resolve the issue.
 
@@ -25,13 +25,13 @@ This article explains how to enable Local Network Access to resolve the issue.
 ## **Steps to Enable Local Network Access**
 
 1. In **Chrome**, click the **Site Information** icon in the address bar.
-   ![Site Information icon](https://s3.amazonaws.com/static-docs.testsigma.com/new_images/projects/faq/Agent_issue_2.png)
+   ![Site Information icon](https://s3.amazonaws.com/website-static-docs.testsigma.com/new_images/projects/Updated_Doc_Images/Agent_issue_2.png)
 
 2. Enable the **Local network access** toggle. 
-   ![Local network access](https://s3.amazonaws.com/static-docs.testsigma.com/new_images/projects/faq/Agent_issue_3.png)
+   ![Local network access](https://s3.amazonaws.com/website-static-docs.testsigma.com/new_images/projects/Updated_Doc_Images/Agent_issue_3.png)
 
 3. If these permissions were previously denied, click **Reset permissions**.
-   ![Reset permissions](https://s3.amazonaws.com/static-docs.testsigma.com/new_images/projects/faq/Agent_issue_4.png)
+   ![Reset permissions](https://s3.amazonaws.com/website-static-docs.testsigma.com/new_images/projects/Updated_Doc_Images/Agent_issue_4.png)
 
 4. Refresh the page.
 

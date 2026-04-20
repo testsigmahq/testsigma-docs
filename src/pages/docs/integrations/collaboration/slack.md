@@ -40,58 +40,58 @@ Testsigma Slack integration sends ***Test Pass/Fail/Abort*** notifications in re
 ## **Steps to Fetch Slack Incoming Webhook URL**
 
 1. Go to **Workspace > Tools & Settings > Manage Apps**.
-   ![Slack Space](https://s3.amazonaws.com/static-docs.testsigma.com/new_images/projects/applications/Slack_Space.png)
+   ![Slack Space](https://s3.amazonaws.com/website-static-docs.testsigma.com/new_images/projects/Updated_Doc_Images/Slack_Space.png)
 
 2. In the **Installed Apps** section, click **Build** to open the **Slack API**.
-   ![Installed Apps](https://s3.amazonaws.com/static-docs.testsigma.com/new_images/projects/applications/Build_App_Slack.png)
+   ![Installed Apps](https://s3.amazonaws.com/website-static-docs.testsigma.com/new_images/projects/Updated_Doc_Images/Build_App_Slack.png)
 
 3. In **Slack API**, click **Create an App**.
-   ![Create an App](https://s3.amazonaws.com/static-docs.testsigma.com/new_images/projects/applications/Slack_Create_App.png)
+   ![Create an App](https://s3.amazonaws.com/website-static-docs.testsigma.com/new_images/projects/Updated_Doc_Images/Slack_Create_App.png)
 
 4. In the **Create an App** dialog, select **From Scratch**.
-   ![From Scratch](https://s3.amazonaws.com/static-docs.testsigma.com/new_images/projects/applications/From_Scratch_Slack.png)
+   ![From Scratch](https://s3.amazonaws.com/website-static-docs.testsigma.com/new_images/projects/Updated_Doc_Images/From_Scratch_Slack.png)
 
 5. Enter an **App Name**, select your **Workspace**, and click **Create App**.
-   ![Create App](https://s3.amazonaws.com/static-docs.testsigma.com/new_images/projects/applications/Create_App_Slack_Space.png)
+   ![Create App](https://s3.amazonaws.com/website-static-docs.testsigma.com/new_images/projects/Updated_Doc_Images/Create_App_Slack_Space.png)
 
 6. Go to **Incoming Webhooks**, enable **Activate Incoming Webhooks**. 
-   ![Add New Webhook to Workspace](https://s3.amazonaws.com/static-docs.testsigma.com/new_images/projects/applications/Toggle_Activate_Webhook.png)
+   ![Add New Webhook to Workspace](https://s3.amazonaws.com/website-static-docs.testsigma.com/new_images/projects/Updated_Doc_Images/Toggle_Activate_Webhook.png)
 
 7. Click **Add New Webhook to Workspace**.
-   ![New Webhook](https://s3.amazonaws.com/static-docs.testsigma.com/new_images/projects/applications/Add_New_Webook_Slack.png)
+   ![New Webhook](https://s3.amazonaws.com/website-static-docs.testsigma.com/new_images/projects/Updated_Doc_Images/Add_New_Webook_Slack.png)
    
 8. Select a **Channel** and click **Allow**.
-   ![Allow](https://s3.amazonaws.com/static-docs.testsigma.com/new_images/projects/applications/Allow_Space_Button.png)
+   ![Allow](https://s3.amazonaws.com/website-static-docs.testsigma.com/new_images/projects/Updated_Doc_Images/Allow_Space_Button.png)
 
 9.  In **Incoming Webhooks**, click **Copy** on the URL textbox to copy the generated **Webhook URL**.
-    ![Copy](https://s3.amazonaws.com/static-docs.testsigma.com/new_images/projects/applications/Copy_Incoming_Webhook.png)
+    ![Copy](https://s3.amazonaws.com/website-static-docs.testsigma.com/new_images/projects/Updated_Doc_Images/Copy_Incoming_Webhook.png)
 
 ---
 
 ## **Steps to Integrate Slack with Testsigma**
 
 1. Navigate to **Settings > Integrations** and enable the toggle on **Slack** widget. 
-![Integrations](https://s3.amazonaws.com/static-docs.testsigma.com/new_images/projects/integrations/update_slack_1.png)
+![Integrations](https://s3.amazonaws.com/website-static-docs.testsigma.com/new_images/projects/Updated_Doc_Images/update_slack_1.png)
 
 2. On the **Slack details** prompt, enter all the details and click on **Save & Enable**. 
-![Slack Details](https://s3.amazonaws.com/static-docs.testsigma.com/new_images/projects/integrations/update_slack_2.png)
+![Slack Details](https://s3.amazonaws.com/website-static-docs.testsigma.com/new_images/projects/Updated_Doc_Images/update_slack_2.png)
 
 ---
 ## **Enabling Slack Notifications in Test Plan**
 
 1. Navigate to **Test Plans > Select/Create a Test Plan > Test Plan Settings**. 
-![Test Plan Settings](https://s3.amazonaws.com/static-docs.testsigma.com/new_images/projects/integrations/update_slack_3.png)
+![Test Plan Settings](https://s3.amazonaws.com/website-static-docs.testsigma.com/new_images/projects/Updated_Doc_Images/update_slack_3.png)
 
 2. On the **Edit Test Plan** page, enable **Send Notification** toggle. 
-![Toggle](https://s3.amazonaws.com/static-docs.testsigma.com/new_images/projects/integrations/update_slack_4.png)
+![Toggle](https://s3.amazonaws.com/website-static-docs.testsigma.com/new_images/projects/Updated_Doc_Images/update_slack_4.png)
 
 3. Select the status for which you want to receive the notification. 
-![Status](https://s3.amazonaws.com/static-docs.testsigma.com/new_images/projects/integrations/update_slack_5.png)
+![Status](https://s3.amazonaws.com/website-static-docs.testsigma.com/new_images/projects/Updated_Doc_Images/update_slack_5.png)
 
 4. Select **Slack** from ‘Also send messages to’ dropdown menu.  
-![Select Slack](https://s3.amazonaws.com/static-docs.testsigma.com/new_images/projects/integrations/update_slack_6.png)
+![Select Slack](https://s3.amazonaws.com/website-static-docs.testsigma.com/new_images/projects/Updated_Doc_Images/update_slack_6.png)
 
 Here’s what the Notification looks like on Slack:
-![Slack](https://s3.amazonaws.com/static-docs.testsigma.com/new_images/projects/applications/slack.png)
+![Slack](https://s3.amazonaws.com/website-static-docs.testsigma.com/new_images/projects/Updated_Doc_Images/slack.png)
 
 ---

@@ -30,7 +30,7 @@ For inspecting WebView elements in Testsigma, WebView debugging must be enabled 
 This article discusses how to inspect WebView elements in Android.
 
 To enable WebView debugging, call the static method ***setWebContentsDebuggingEnabled(true)*** on the WebView class.
-![Enable Debugging](https://s3.amazonaws.com/static-docs.testsigma.com/new_images/projects/applications/DbTrue.png)
+![Enable Debugging](https://s3.amazonaws.com/website-static-docs.testsigma.com/new_images/projects/Updated_Doc_Images/DbTrue.png)
 
 [[info | **NOTE**:]]
 |The setting applies to all of the Android WebViews of the app.
@@ -39,17 +39,17 @@ To enable WebView debugging, call the static method ***setWebContentsDebuggingEn
 
 
 ## **Example React Native generated code**
-![React Native Code](https://s3.amazonaws.com/static-docs.testsigma.com/new_images/projects/applications/RN.png)
+![React Native Code](https://s3.amazonaws.com/website-static-docs.testsigma.com/new_images/projects/Updated_Doc_Images/RN.png)
 
 ---
 
 ## **Example Java Android code**
-![Java Code](https://s3.amazonaws.com/static-docs.testsigma.com/new_images/projects/applications/java_debug.png)
+![Java Code](https://s3.amazonaws.com/website-static-docs.testsigma.com/new_images/projects/Updated_Doc_Images/java_debug.png)
 
 ---
 
 ## **Example Kotlin Android code**
-![Kotlin Code](https://s3.amazonaws.com/static-docs.testsigma.com/new_images/projects/applications/kotlin.png)
+![Kotlin Code](https://s3.amazonaws.com/website-static-docs.testsigma.com/new_images/projects/Updated_Doc_Images/kotlin.png)
 
 [[info | **NOTE**:]]
 |    

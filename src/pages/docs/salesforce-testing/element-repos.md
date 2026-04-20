@@ -47,13 +47,13 @@ In Testsigma, elements from Salesforce are automatically learned after successfu
 
 
 1. Navigate to **Create Tests > Test Cases**, and open any test case or create a test case. 
-![Test Cases](https://s3.amazonaws.com/static-docs.testsigma.com/new_images/projects/applications/sfertcs.png)
+![Test Cases](https://s3.amazonaws.com/website-static-docs.testsigma.com/new_images/projects/Updated_Doc_Images/sfertcs.png)
 
 2. From the **Test Case Details** page, add test steps and hover over the element and click on **Select Element** from the dropdown. 
-![Test Case Details](https://s3.amazonaws.com/static-docs.testsigma.com/new_images/projects/applications/sferse.png)
+![Test Case Details](https://s3.amazonaws.com/website-static-docs.testsigma.com/new_images/projects/Updated_Doc_Images/sferse.png)
 
 3. This will open the **Elements** overlay, where you can see all the elements. 
-![Overlay](https://s3.amazonaws.com/static-docs.testsigma.com/new_images/projects/applications/sferoverlay.png)
+![Overlay](https://s3.amazonaws.com/website-static-docs.testsigma.com/new_images/projects/Updated_Doc_Images/sferoverlay.png)
 
 [[info | **NOTE**:]]
 | Since the elements are auto-learned, you can't edit them.
@@ -63,20 +63,20 @@ In Testsigma, elements from Salesforce are automatically learned after successfu
 
 ## **Creating Elements While Creating Test Steps**
 
-1. Create a test case and click **Debug & Record**.
-   ![Debug and Record](https://s3.amazonaws.com/static-docs.testsigma.com/new_images/projects/applications/debug_Record_SF_Elem.png)
+1. Create a test case and click **Copilot**.
+   ![Debug and Record](https://s3.amazonaws.com/website-static-docs.testsigma.com/new_images/projects/Updated_Doc_Images/debug_Record_SF_Elem.png)
 
-2. In the **Debug & Record** overlay, verify that the agent is live, then click **Proceed**.
-   ![Proceed](https://s3.amazonaws.com/static-docs.testsigma.com/new_images/projects/applications/Proceed_SF_Elem.png)
+2. In the **Debug & Record** overlay, verify that the Copilot is live, select a connection under **Salesforce Metadata connection**, and click **Launch**.
+   ![Proceed](https://s3.amazonaws.com/website-static-docs.testsigma.com/new_images/projects/Updated_Doc_Images/Proceed_SF_Elem.png)
 
 3. In the **Testsigma Debugger & Recorder**, click element in the NLP and select **Create Element** from the dropdown menu.
-   ![Create Element](https://s3.amazonaws.com/static-docs.testsigma.com/new_images/projects/applications/CreateElement_SF.png)
+   ![Create Element](https://s3.amazonaws.com/website-static-docs.testsigma.com/new_images/projects/Updated_Doc_Images/CreateElement_SF.png)
 
 4. Click the UI element, which you want to capture. The recorder automatically captures the element details.
-   ![Element Details](https://s3.amazonaws.com/static-docs.testsigma.com/new_images/projects/applications/Elem_Details_SF.png)
+   ![Element Details](https://s3.amazonaws.com/website-static-docs.testsigma.com/new_images/projects/Updated_Doc_Images/Elem_Details_SF.png)
 
 5. Verify the element, then click **Create**.
-   ![Create Element](https://s3.amazonaws.com/static-docs.testsigma.com/new_images/projects/applications/VerifyandCreate_SF_Elem.png)
+   ![Create Element](https://s3.amazonaws.com/website-static-docs.testsigma.com/new_images/projects/Updated_Doc_Images/VerifyandCreate_SF_Elem.png)
 
 ---
 
@@ -86,9 +86,9 @@ In Testsigma, elements from Salesforce are automatically learned after successfu
 1. Click element which has the namig conventions as mentioned in the above section. For more information on naming conventions, refer to the [documentation on naming conventions](https://testsigma.com/docs/salesforce-testing/element-repos/#naming-conventions) 
 
 2. Click **View/Edit Element** from the dropdown menu on the **Testsigma Debugger & Recorder**.
-   ![View/Edit Element](https://s3.amazonaws.com/static-docs.testsigma.com/new_images/projects/applications/SF_VieworEdit_Elem.png)
+   ![View/Edit Element](https://s3.amazonaws.com/website-static-docs.testsigma.com/new_images/projects/Updated_Doc_Images/SF_VieworEdit_Elem.png)
 
 3. A new overlay appears, indicating that the element is a standard Salesforce element and has been pre-learned.
-   ![Pre-learnt Elements](https://s3.amazonaws.com/static-docs.testsigma.com/new_images/projects/applications/Prelearnt_Widget.png)
+   ![Pre-learnt Elements](https://s3.amazonaws.com/website-static-docs.testsigma.com/new_images/projects/Updated_Doc_Images/Prelearnt_Widget.png)
 
 ---

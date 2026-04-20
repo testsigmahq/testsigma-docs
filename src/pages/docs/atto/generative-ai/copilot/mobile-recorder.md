@@ -18,9 +18,6 @@ contextual_links:
 - type: link
   name: "Generate Test cases with Prompts"
   url: "#generate-test-cases-with-prompts"
-- type: link
-  name: "Interactive Demo"
-  url: "#interactive-demo"
 ---
 
 ---
@@ -51,31 +48,35 @@ This article discusses test case generation for mobile applications using Testsi
 
 ## **Steps to Generate Test Cases** 
 
-1. From the left navigation bar, go to **Create Tests > Test Cases**.
+1. From the left navigation bar, go to **Create Tests > Test Cases** and create a new test case.
+![Test Case](https://s3.amazonaws.com/website-static-docs.testsigma.com/new_images/projects/Updated_Doc_Images/update_mobilerec_copilot_1.png)
 
-2. In the **Test Case Explorer** section, expand the required feature and click the ‘**+**’ icon next to the target scenario. This will open a dialog box.
+2. Click **Record** in the top-right corner. 
+![Record](https://s3.amazonaws.com/website-static-docs.testsigma.com/new_images/projects/Updated_Doc_Images/update_mobilerec_copilot_2.png)
 
-3. On the dialog box, validate the target feature and scenario, enter the name in the test case name input box, and click **Create**.
+3. In the **Record Test Steps** overlay, select the required **Test Lab** and **Machine**, upload the **APK/IPA** file, and click **Record**.
+![Record](https://s3.amazonaws.com/website-static-docs.testsigma.com/new_images/projects/Updated_Doc_Images/update_mobilerec_copilot_3.png)
 
-4. Click **Record** in the top-right corner. 
+4. Wait for Testsigma to load the application with the necessary configuration.
 
-5. In the **Record Test Steps** overlay, select the required **Test Lab** and **Machine**, upload the **APK/IPA** file, and click **Record**.
+5. Click **Testsigma Copilot** on the **Test Recorder**.
+![Testsigma Copilot](https://s3.amazonaws.com/website-static-docs.testsigma.com/new_images/projects/Updated_Doc_Images/update_mobilerec_copilot_4.png)
 
-6. Wait for Testsigma to load the application with the necessary configuration.
+5. In the **Testsigma Copilot** overlay, click **Generate Test Cases**. The **Testsigma Copilot** will start generating test cases based on the current page.
+![Generate Test Case](https://s3.amazonaws.com/website-static-docs.testsigma.com/new_images/projects/Updated_Doc_Images/update_mobilerec_copilot_5.png)
 
-7. Click **Testsigma Copilot** on the **Test Recorder**.
+6. Wait for the test cases to generate.
 
-8. In the **Testsigma Copilot** overlay, click **Generate Test Cases**. The **Testsigma Copilot** will start generating test cases based on the current page.
+7. Click any generated test case to view its corresponding test steps.
+![Select test case](https://s3.amazonaws.com/website-static-docs.testsigma.com/new_images/projects/Updated_Doc_Images/update_mobilerec_copilot_6.png)
 
-9. Wait for the test cases to generate.
-
-10. Click any generated test case to view its corresponding test steps.
-
-11. Select the steps and choose one of the following options:
+8. Select the steps and choose one of the following options:
     - Click **Add to test case** to import the displayed test steps into the recorder.
     - Click **Add as step block** to add the selected steps as a step block in the recorder.
+    ![Add to test case](https://s3.amazonaws.com/website-static-docs.testsigma.com/new_images/projects/Updated_Doc_Images/update_mobilerec_copilot_7.png)
 
-12.  Modify the test steps as needed to match the desired test case behavior. Once the modifications are done, click **Stop** to return to the test case details page.
+9. Modify the test steps as needed to match the desired test case behavior. Once the modifications are done, click **Stop** to return to the test case details page.
+![Stop](https://s3.amazonaws.com/website-static-docs.testsigma.com/new_images/projects/Updated_Doc_Images/update_mobilerec_copilot_8.png)
 
 ---
 
@@ -91,19 +92,5 @@ This article discusses test case generation for mobile applications using Testsi
     - Click **Add to test case** to import the displayed test steps into the recorder.
     - Click **Add as step block** to add the selected steps as a step block in the recorder.
 
-
----
-
-## **Interactive Demo**
-
-Try this interactive demo to learn how to generate test cases for Android apps using Testsigma Copilot!
-
-
-<div>
-  <script async src="https://js.storylane.io/js/v2/storylane.js"></script>
-  <div class="sl-embed" style="position:relative;padding-bottom:calc(57.41% + 25px);width:100%;height:0;transform:scale(1)">
-    <iframe loading="lazy" class="sl-demo" src="https://app.storylane.io/demo/n0pwfxil1xb7?embed=inline" name="sl-embed" allow="fullscreen" allowfullscreen style="position:absolute;top:0;left:0;width:100%!important;height:100%!important;border:1px solid rgba(63,95,172,0.35);box-shadow: 0px 0px 18px rgba(26, 19, 72, 0.15);border-radius:10px;box-sizing:border-box;"></iframe>
-  </div>
-</div>
 
 ---

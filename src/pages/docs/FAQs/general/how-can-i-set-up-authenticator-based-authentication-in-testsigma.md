@@ -49,10 +49,10 @@ This article explains how authenticator-based authentication works and how to co
 1. Open your Chrome browser and go to the **Chrome Web Store**.
 
 2. Search for **Google Authenticator**.
-   ![Google Authenticator](https://s3.amazonaws.com/static-docs.testsigma.com/new_images/projects/faq/Authenticator_1.png)
+   ![Google Authenticator](https://s3.amazonaws.com/website-static-docs.testsigma.com/new_images/projects/Updated_Doc_Images/Authenticator_1.png)
 
 3. Click **Add to Chrome** on any authenticator to install the extension.
-   ![Add to Chrome](https://s3.amazonaws.com/static-docs.testsigma.com/new_images/projects/faq/Authenticator_2.png)
+   ![Add to Chrome](https://s3.amazonaws.com/website-static-docs.testsigma.com/new_images/projects/Updated_Doc_Images/Authenticator_2.png)
    
 4. After installation, the Authenticator icon appears on your browser toolbar.​
 
@@ -61,103 +61,103 @@ This article explains how authenticator-based authentication works and how to co
 ## **Upload the QR Code to Testsigma**
 
 1. In the extension, click the **Scan QR Code** icon, take a screenshot of the QR code, and upload the screenshot to Testsigma.
-   ![Scan QR Code](https://s3.amazonaws.com/static-docs.testsigma.com/new_images/projects/faq/Authenticator_3.png)
+   ![Scan QR Code](https://s3.amazonaws.com/website-static-docs.testsigma.com/new_images/projects/Updated_Doc_Images/Authenticator_3.png)
 
 2. In Testsigma, go to **Test Data > Uploads**.
-   ![Uploads](https://s3.amazonaws.com/static-docs.testsigma.com/new_images/projects/faq/Authenticator_4.png)
+   ![Uploads](https://s3.amazonaws.com/website-static-docs.testsigma.com/new_images/projects/Updated_Doc_Images/Authenticator_4.png)
 
 3. On the **Uploads** page, click **Upload** and upload this QR code image.​
-   ![Upload](https://s3.amazonaws.com/static-docs.testsigma.com/new_images/projects/faq/Authenticator_5.png)
+   ![Upload](https://s3.amazonaws.com/website-static-docs.testsigma.com/new_images/projects/Updated_Doc_Images/Authenticator_5.png)
 
 ---
 
 ## **Install the TOTP Add-on to Generate OTP**
 
 1. Click on the **Addons** icon from the left navigation bar.
-   ![Addons](https://s3.amazonaws.com/static-docs.testsigma.com/new_images/projects/faq/Authentication_19.png)
+   ![Addons](https://s3.amazonaws.com/website-static-docs.testsigma.com/new_images/projects/Updated_Doc_Images/Authentication_19.png)
 
 2. On the **Addon Marketplace** page, under **New & Updated Addons**, click the search bar and search for **Google Authenticator Code Generator** and **QR Code Data Extractor**.
-   ![Addon Marketplace](https://s3.amazonaws.com/static-docs.testsigma.com/new_images/projects/faq/Authentication_20.png)
+   ![Addon Marketplace](https://s3.amazonaws.com/website-static-docs.testsigma.com/new_images/projects/Updated_Doc_Images/Authentication_20.png)
 
 3. Click **Install** on the **Google Authenticator code generator** card. 
-   ![Google Authenticator Code Generator](https://s3.amazonaws.com/static-docs.testsigma.com/new_images/projects/faq/Authentication_21.png)
+   ![Google Authenticator Code Generator](https://s3.amazonaws.com/website-static-docs.testsigma.com/new_images/projects/Updated_Doc_Images/Authentication_21.png)
 
 4. Click **Install** on the **QR Code Data Extractor** card. 
-   ![QR Code Data Extractor](https://s3.amazonaws.com/static-docs.testsigma.com/new_images/projects/faq/Authenticator_30.1.png)
+   ![QR Code Data Extractor](https://s3.amazonaws.com/website-static-docs.testsigma.com/new_images/projects/Updated_Doc_Images/Authenticator_30.1.png)
 
 ---
 
 ## **Extract the Secret Key Using NLP**
 
 1. From the left navigation bar, go to **Create Tests > Test Cases**.
-   ![Create Tests](https://s3.amazonaws.com/static-docs.testsigma.com/new_images/projects/faq/Authenticator_6.png)
+   ![Create Tests](https://s3.amazonaws.com/website-static-docs.testsigma.com/new_images/projects/Updated_Doc_Images/Authenticator_6.png)
 
 2. On the **Test Case Explorer** page, expand a **Feature** and click the **+** icon next to a scenario.
-   ![Test Case Explorer](https://s3.amazonaws.com/static-docs.testsigma.com/new_images/projects/faq/Authenticator_7.png)
+   ![Test Case Explorer](https://s3.amazonaws.com/website-static-docs.testsigma.com/new_images/projects/Updated_Doc_Images/Authenticator_7.png)
 
 3. In the dialog box, enter a name for the test case and click **Create**.
-   ![Create](https://s3.amazonaws.com/static-docs.testsigma.com/new_images/projects/faq/Authenticator_8.1.png)
+   ![Create](https://s3.amazonaws.com/website-static-docs.testsigma.com/new_images/projects/Updated_Doc_Images/Authenticator_8.1.png)
 
 4. On the **Test Case Details** page, use the NLP: **Extract data from QR Code file-path and store the data in a runtime variable variable-name**.
-   ![NLP](https://s3.amazonaws.com/static-docs.testsigma.com/new_images/projects/faq/Authenticator_9.png)
+   ![NLP](https://s3.amazonaws.com/website-static-docs.testsigma.com/new_images/projects/Updated_Doc_Images/Authenticator_9.png)
 
    - Click the **file-path** placeholder, and from the **Test Data Types** dropdown, select **Upload**. 
-    ![Upload](https://s3.amazonaws.com/static-docs.testsigma.com/new_images/projects/faq/Authenticator_10.png)
+    ![Upload](https://s3.amazonaws.com/website-static-docs.testsigma.com/new_images/projects/Updated_Doc_Images/Authenticator_10.png)
    - On the **Uploads** overlay, select the screenshot of the QR code. 
-    ![Uploads](https://s3.amazonaws.com/static-docs.testsigma.com/new_images/projects/faq/Authenticator_11.png)
+    ![Uploads](https://s3.amazonaws.com/website-static-docs.testsigma.com/new_images/projects/Updated_Doc_Images/Authenticator_11.png)
    - Click the **variable-name** placeholder, enter a new runtime variable name such as **qr_runtime**, and click **Create Step**.
-    ![Variable Name](https://s3.amazonaws.com/static-docs.testsigma.com/new_images/projects/faq/Authenticator_12.png)
+    ![Variable Name](https://s3.amazonaws.com/website-static-docs.testsigma.com/new_images/projects/Updated_Doc_Images/Authenticator_12.png)
   
 5. Click **Run** to execute the test.
-   ![Run](https://s3.amazonaws.com/static-docs.testsigma.com/new_images/projects/faq/Authenticator_13.png)
+   ![Run](https://s3.amazonaws.com/website-static-docs.testsigma.com/new_images/projects/Updated_Doc_Images/Authenticator_13.png)
 
 6. The step result displays the decoded secret key from the QR image.
-   ![Secret Key](https://s3.amazonaws.com/static-docs.testsigma.com/new_images/projects/faq/Authenticator_14.png)
+   ![Secret Key](https://s3.amazonaws.com/website-static-docs.testsigma.com/new_images/projects/Updated_Doc_Images/Authenticator_14.png)
 
 ---
 
 ## **Store the Secret Key in a Test Data and Generate OTP**
 
 1. Use the **Split text from range of characters from and to and store extracted text in runtime-variable** NLP.
-   ![NPL 2](https://s3.amazonaws.com/static-docs.testsigma.com/new_images/projects/faq/Authenticator_15.png)
+   ![NPL 2](https://s3.amazonaws.com/website-static-docs.testsigma.com/new_images/projects/Updated_Doc_Images/Authenticator_15.png)
    
    - Click the **text** placeholder, and from the **Test Data Types** dropdown, select **$Runtime**.
-    ![Runtime](https://s3.amazonaws.com/static-docs.testsigma.com/new_images/projects/faq/Authenticator_16.png)
+    ![Runtime](https://s3.amazonaws.com/website-static-docs.testsigma.com/new_images/projects/Updated_Doc_Images/Authenticator_16.png)
    - On the **$Runtime Variable** overlay, select the same runtime variable used for this test case.
-    ![Runtime Variable](https://s3.amazonaws.com/static-docs.testsigma.com/new_images/projects/faq/Authenticator_17.png)
+    ![Runtime Variable](https://s3.amazonaws.com/website-static-docs.testsigma.com/new_images/projects/Updated_Doc_Images/Authenticator_17.png)
    - Click the **from** placeholder and enter the character position where the secret key begins.
-    ![from](https://s3.amazonaws.com/static-docs.testsigma.com/new_images/projects/faq/Authenticator_18.png)
+    ![from](https://s3.amazonaws.com/website-static-docs.testsigma.com/new_images/projects/Updated_Doc_Images/Authenticator_18.png)
     [[info | **NOTE**:]]
      |  You can count the character positions in the text beforehand to identify where the secret key starts.
    - Click the **to** placeholder and enter the character position where the secret key ends.
-    ![to](https://s3.amazonaws.com/static-docs.testsigma.com/new_images/projects/faq/Authenticator_19.png)
+    ![to](https://s3.amazonaws.com/website-static-docs.testsigma.com/new_images/projects/Updated_Doc_Images/Authenticator_19.png)
    - Click the **runtime-variable** placeholder, enter a new runtime variable name such as **secret_runtime**, and click **Create Step**.
-    ![runtime variable](https://s3.amazonaws.com/static-docs.testsigma.com/new_images/projects/faq/Authenticator_20.png)
+    ![runtime variable](https://s3.amazonaws.com/website-static-docs.testsigma.com/new_images/projects/Updated_Doc_Images/Authenticator_20.png)
 
 2. Use the **Store test data 1 in test data 2** NLP.
-   ![NPL 3](https://s3.amazonaws.com/static-docs.testsigma.com/new_images/projects/faq/Authenticator_21.png)
+   ![NPL 3](https://s3.amazonaws.com/website-static-docs.testsigma.com/new_images/projects/Updated_Doc_Images/Authenticator_21.png)
    
    - Click the **test data 1** placeholder, and from the **Test Data Types** dropdown, select **$Runtime**.
-    ![Runtime](https://s3.amazonaws.com/static-docs.testsigma.com/new_images/projects/faq/Authenticator_22.png)
+    ![Runtime](https://s3.amazonaws.com/website-static-docs.testsigma.com/new_images/projects/Updated_Doc_Images/Authenticator_22.png)
    - On the **$Runtime Variable** overlay, enter the runtime variable name as **secret_runtime** and click **Add**.
-    ![Add](https://s3.amazonaws.com/static-docs.testsigma.com/new_images/projects/faq/Authenticator_23.png)
+    ![Add](https://s3.amazonaws.com/website-static-docs.testsigma.com/new_images/projects/Updated_Doc_Images/Authenticator_23.png)
    - Click the **test data 2** placeholder, enter a new test data name such as **SecretKey**, and click **Create Step**.
-    ![Create Step](https://s3.amazonaws.com/static-docs.testsigma.com/new_images/projects/faq/Authenticator_24.png)
+    ![Create Step](https://s3.amazonaws.com/website-static-docs.testsigma.com/new_images/projects/Updated_Doc_Images/Authenticator_24.png)
 
 3. Use the **Generate TOTP using secretkey and store it into a runtime variable test data** NLP.
-   ![NLP 4](https://s3.amazonaws.com/static-docs.testsigma.com/new_images/projects/faq/Authenticator_25.png)
+   ![NLP 4](https://s3.amazonaws.com/website-static-docs.testsigma.com/new_images/projects/Updated_Doc_Images/Authenticator_25.png)
 
    - Click the **secretkey** placeholder, and from the **Test Data Types** dropdown, select **$Runtime**.
-    ![secretkey](https://s3.amazonaws.com/static-docs.testsigma.com/new_images/projects/faq/Authenticator_26.png)
+    ![secretkey](https://s3.amazonaws.com/website-static-docs.testsigma.com/new_images/projects/Updated_Doc_Images/Authenticator_26.png)
    - On the **$Runtime Variable** overlay, select the runtime variable name **SecretKey**.
-    ![Runtime Varibale](https://s3.amazonaws.com/static-docs.testsigma.com/new_images/projects/faq/Authenticator_27.png)
+    ![Runtime Varibale](https://s3.amazonaws.com/website-static-docs.testsigma.com/new_images/projects/Updated_Doc_Images/Authenticator_27.png)
    - Click the **testdata** placeholder, enter a new runtime variable name such as **TOTP_Runtime**, and click **Create Step**.
-    ![TOTP Runtime](https://s3.amazonaws.com/static-docs.testsigma.com/new_images/projects/faq/Authenticator_28.png)
+    ![TOTP Runtime](https://s3.amazonaws.com/website-static-docs.testsigma.com/new_images/projects/Updated_Doc_Images/Authenticator_28.png)
 
 4. Click **Run** to execute the test.
-   ![Run](https://s3.amazonaws.com/static-docs.testsigma.com/new_images/projects/faq/Authenticator_29.png)
+   ![Run](https://s3.amazonaws.com/website-static-docs.testsigma.com/new_images/projects/Updated_Doc_Images/Authenticator_29.png)
 
 5. The step result of this execution will display the OTP.
-   ![OTP](https://s3.amazonaws.com/static-docs.testsigma.com/new_images/projects/faq/Authenticator_30.png)
+   ![OTP](https://s3.amazonaws.com/website-static-docs.testsigma.com/new_images/projects/Updated_Doc_Images/Authenticator_30.png)
 
 ---

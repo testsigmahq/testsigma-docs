@@ -70,10 +70,10 @@ The inactive sessions are automatically closed after a wait of 2 minutes. So, ei
 The steps to do stop an old session, manually, are mentioned below:
 
 1. Go to main menu on the left and click on the **Usage Details** icon as also highlighted in the screenshot below:
-![usage-details](https://s3.amazonaws.com/static-docs.testsigma.com/new_images/projects/troubleshooting/update_android_usage_1.png)
+![usage-details](https://s3.amazonaws.com/website-static-docs.testsigma.com/new_images/projects/Updated_Doc_Images/update_android_usage_1.png)
 
 2. On the **Usage Details** window that opens up, click on the **Mobile Inspector Sessions** as also highlighted below:
- ![mobile inspector sessions](https://s3.amazonaws.com/static-docs.testsigma.com/new_images/projects/troubleshooting/update_android_usage_2.png)
+ ![mobile inspector sessions](https://s3.amazonaws.com/website-static-docs.testsigma.com/new_images/projects/Updated_Doc_Images/update_android_usage_2.png)
 
 3. Delete the ongoing mobile inspector session.
 
@@ -117,7 +117,7 @@ At all times, ensure that the tap point is within the screen.
 
 This error appears when Testsigma servers cannot reach the mobile inspector session. One of the main reasons could be an issue with your browser network. At such times, the keep-alive requests from the browser don't go through to the Testsigma servers, and the Testsigma servers assume that the session was closed abruptly, thus marking the session as **expired**.
 
-![Network Error](https://s3.amazonaws.com/static-docs.testsigma.com/new_images/projects/applications/Networkerrorminsp.png)
+![Network Error](https://s3.amazonaws.com/website-static-docs.testsigma.com/new_images/projects/Updated_Doc_Images/Networkerrorminsp.png)
 
 **Solution:**
 
@@ -208,7 +208,7 @@ For local device sessions, this error can be avoided by following below steps:
 
 You can also confirm the values for *app activity* and *app package* from the concerned developer and then mention them under *desired capabilities* when you launch a mobile inspector session.
 
-![mobile inspector sessions](https://s3.amazonaws.com/static-docs.testsigma.com/new_images/projects/troubleshooting/update_mobile_3.png)
+![mobile inspector sessions](https://s3.amazonaws.com/website-static-docs.testsigma.com/new_images/projects/Updated_Doc_Images/update_mobile_3.png)
 
 
 

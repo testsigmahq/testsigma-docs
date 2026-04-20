@@ -37,7 +37,7 @@ http.nonProxyHosts: "localhost|127.0.0.1|*.testsigma.com|*.amazonaws.com|<intern
 https.nonProxyHosts: "localhost|127.0.0.1|*.testsigma.com|*.amazonaws.com|<internal-domain-1>|<internal-domain-2>"
 ```
 
-<img src="https://s3.amazonaws.com/static-docs.testsigma.com/new_images/projects/Updated_Doc_Images/Proxy_Setting_for_Agent.png" alt="Proxy Settings for Agent" style="width: 700px;" />
+<img src="https://s3.amazonaws.com/website-static-docs.testsigma.com/new_images/projects/Updated_Doc_Images/Proxy_Setting_for_Agent.png" alt="Proxy Settings for Agent" style="width: 700px;" />
 
          
 [[info | **NOTE**:]]

@@ -28,7 +28,7 @@ Sometimes while trying to register the Testsigma Agent from the Agents section, 
 ## **Troubleshooting Steps for Privacy Settings**
 
 ### **Error:**
-![Agent Fails](https://s3.amazonaws.com/static-docs.testsigma.com/new_images/projects/applications/tsagentfails.png)
+![Agent Fails](https://s3.amazonaws.com/website-static-docs.testsigma.com/new_images/projects/Updated_Doc_Images/tsagentfails.png)
 
 ### **Solution:**
 1. Navigate to **Privacy Settings** on your system. 
@@ -39,7 +39,7 @@ Sometimes while trying to register the Testsigma Agent from the Agents section, 
 
 2. Change the privacy settings to **Allow apps downloaded from App Store and Identifies developers** after giving the system's credentials.
 
-![Settings](https://s3.amazonaws.com/static-docs.testsigma.com/new_images/projects/applications/gsetapltsf.png)
+![Settings](https://s3.amazonaws.com/website-static-docs.testsigma.com/new_images/projects/Updated_Doc_Images/gsetapltsf.png)
 
 ---
 

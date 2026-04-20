@@ -34,9 +34,9 @@ If you have a request you want to run, you will need to know the **URL**, **meth
 
 Using request URLs in a Restful API allows you to control which URLs are sent to the server when your request is a resource. Testsigma requires an **API endpoint URL** for each request. Each operation you can perform using an API is typically associated with an endpoint.
 
-1. The URL will typically be the base location plus the path. For example, if you take the base **URL**  https://jsonplaceholder.typicode.com/, if you add **/get** to it, it will be the **endpoint path**. ![Setting URL endpoint](https://s3.amazonaws.com/static-docs.testsigma.com/new_images/projects/test_cases/update_api_request_n_1.png)
+1. The URL will typically be the base location plus the path. For example, if you take the base **URL**  https://jsonplaceholder.typicode.com/, if you add **/get** to it, it will be the **endpoint path**. ![Setting URL endpoint](https://s3.amazonaws.com/website-static-docs.testsigma.com/new_images/projects/Updated_Doc_Images/update_api_request_n_1.png)
 
-2. In a **parameterized URL**, you can **insert test data** by double-clicking on the URL and selecting the **test data type**. For example, https://@reqes.in/api/users?page=@page is the base URL,**?page=page** is a parameter, and **@reqes** and **@page** are **test data types** inserted in the URL. Select the method; by default, it will be **GET**. Click **Send**. ![insert test data in url](https://s3.amazonaws.com/static-docs.testsigma.com/new_images/projects/test_cases/update_api_request_n_2.1.png)
+2. In a **parameterized URL**, you can **insert test data** by double-clicking on the URL and selecting the **test data type**. For example, https://@reqes.in/api/users?page=@page is the base URL,**?page=page** is a parameter, and **@reqes** and **@page** are **test data types** inserted in the URL. Select the method; by default, it will be **GET**. Click **Send**. ![insert test data in url](https://s3.amazonaws.com/website-static-docs.testsigma.com/new_images/projects/Updated_Doc_Images/update_api_request_n_2.1.png)
 
 [[info | NOTE:]]
 |For more information on creating test data types, refer to the [documentation on creating test data types](https://website.testsigma.com/docs/test-data/types/overview/) for more information.
@@ -49,7 +49,7 @@ By Default, Testsigma will select the **GET** method for new requests. **GET** m
 - **POST** - Add new data.<br>
 - **PUT** - Replace existing data.<br>
 - **PATCH** - Update some existing data fields.<br>
-- **DELETE** - Delete existing data. ![Method request](https://s3.amazonaws.com/static-docs.testsigma.com/new_images/projects/test_cases/update_api_request_n_3.png)
+- **DELETE** - Delete existing data. ![Method request](https://s3.amazonaws.com/website-static-docs.testsigma.com/new_images/projects/Updated_Doc_Images/update_api_request_n_3.png)
  
 ---
 
@@ -57,7 +57,7 @@ By Default, Testsigma will select the **GET** method for new requests. **GET** m
 
 In Testsigma, we support Unicode characters in various aspects of testing, such as [documentation on creating parameters](https://testsigma.com/docs/test-cases/create-steps-restapi/adding-parameters/), [documentation on creating request body data](https://testsigma.com/docs/test-cases/create-steps-restapi/add-body-data/), [documentation on adding verifications](https://testsigma.com/docs/test-cases/create-steps-restapi/verifications-request/), [documentation on storing variables](https://testsigma.com/docs/test-cases/create-steps-restapi/store-variables/), and [documentation on storing objects](https://testsigma.com/docs/test-cases/create-steps-restapi/stored-objects/). This enables you to enter and retrieve data in your native language and script, making the testing process more user-friendly and accessible. Moreover, adding Unicode characters to verifications ensures the verification process accurately represents the tested data.
 
-![Unicode in Restful API](https://s3.amazonaws.com/static-docs.testsigma.com/new_images/projects/test_cases/update_api_request_n_4.png)
+![Unicode in Restful API](https://s3.amazonaws.com/website-static-docs.testsigma.com/new_images/projects/Updated_Doc_Images/update_api_request_n_4.png)
 
 [[info | NOTE:]]
 | To enter Unicode characters, copy & paste the characters into the required field.
@@ -120,16 +120,16 @@ function copyToClipboard(elementId) {
 <br>
 
 1. Enter the above example details in the API test step. 
-![API Details](https://s3.amazonaws.com/static-docs.testsigma.com/new_images/projects/applications/sapidetails.png)
+![API Details](https://s3.amazonaws.com/website-static-docs.testsigma.com/new_images/projects/Updated_Doc_Images/sapidetails.png)
 
    *For more information on creating REST API test steps, refer to the [documentation on creating REST API test steps](https://testsigma.com/docs/test-cases/step-types/rest-api/).*
 
 2. Click on **Send** and verify the **Response**. 
-![Send Request](https://s3.amazonaws.com/static-docs.testsigma.com/new_images/projects/applications/sapisend.png)
+![Send Request](https://s3.amazonaws.com/website-static-docs.testsigma.com/new_images/projects/Updated_Doc_Images/sapisend.png)
 
 
 3. Click on **Create** to save the test step. 
-![Create API](https://s3.amazonaws.com/static-docs.testsigma.com/new_images/projects/applications/sapicreate.png)
+![Create API](https://s3.amazonaws.com/website-static-docs.testsigma.com/new_images/projects/Updated_Doc_Images/sapicreate.png)
 
 
 ---

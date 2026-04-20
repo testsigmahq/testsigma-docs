@@ -26,16 +26,16 @@ Agent is responsible for performing local executions. For more information on ag
 ## **Steps to Resolve the Issue**
 
 1. In the **Testsigma Terminal** window, click **Reestablish Connection**. This reestablishes the connection to the agent. 
-   ![Reestablish Connection](https://s3.amazonaws.com/static-docs.testsigma.com/new_images/projects/troubleshooting_for_copilot/reestablish_connection_1.png)
+   ![Reestablish Connection](https://s3.amazonaws.com/website-static-docs.testsigma.com/new_images/projects/Updated_Doc_Images/reestablish_connection_1.png)
 
 [[info | **NOTE**:]]
 | Please note that reestablishing connection is the same process across all applications.
 
 2. If the issue persists, click **Reestablish Connection** again. 
-   ![Reestablish connection](https://s3.amazonaws.com/static-docs.testsigma.com/new_images/projects/troubleshooting_for_copilot/reestablish_connection_2.png)
+   ![Reestablish connection](https://s3.amazonaws.com/website-static-docs.testsigma.com/new_images/projects/Updated_Doc_Images/reestablish_connection_2.png)
 
 3. If the issue still persists, click **Force Reset and Restart**. 
-   ![Force Reset and Restart](https://s3.amazonaws.com/static-docs.testsigma.com/new_images/projects/troubleshooting_for_copilot/reestablish_connection_3.png)
+   ![Force Reset and Restart](https://s3.amazonaws.com/website-static-docs.testsigma.com/new_images/projects/Updated_Doc_Images/reestablish_connection_3.png)
 
 [[info | **NOTE**:]]
 | Clicking **Force Reset and Restart** is irreversible. It will remove all existing configurations and any downloaded additional packages. The Testsigma Terminal will then delete the existing files and re-download and extract the required files.

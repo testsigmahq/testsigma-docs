@@ -41,16 +41,16 @@ With Testsigma, creating test cases for Salesforce is easy as we can leverage Me
 
 ## **Steps to Create Test Cases for Salesforce**
 
-1. Navigate to **Create Tests > Test Cases** and click on **Create Test Case**. 
-![Test Cases](https://s3.amazonaws.com/static-docs.testsigma.com/new_images/projects/applications/sfnavtcs.png)
+1. Navigate to **Create Tests > Test Cases** and create a test case. 
+![Test Cases](https://s3.amazonaws.com/website-static-docs.testsigma.com/new_images/projects/Updated_Doc_Images/update_sf_tc_1.png)
 
 2. From the **Test Case Details** page, you can create the test steps for your test case using either of the following methods:
     - Write test steps manually using **Smart NLPs** by clicking **Add new step**.
-    - Use **Debugger** to record steps.
-![Manual + Live](https://s3.amazonaws.com/static-docs.testsigma.com/new_images/projects/applications/sftcslpdbe.png)
+    - Use **Copilot** to record steps.
+![Manual + Live](https://s3.amazonaws.com/website-static-docs.testsigma.com/new_images/projects/Updated_Doc_Images/update_sf_tc_2.png)
 
 3. Once the test steps are created, click on **Run** to execute the Test Case. 
-![Run](https://s3.amazonaws.com/static-docs.testsigma.com/new_images/projects/applications/sftcrun.png)
+![Run](https://s3.amazonaws.com/website-static-docs.testsigma.com/new_images/projects/Updated_Doc_Images/update_sf_tc_3.png)
 
 [[info | **NOTE**:]]
 | For advanced options, refer to the [documentation on configuring test case advanced options](https://testsigma.com/docs/test-cases/manage/add-edit-delete/#test-case----advanced-options).
@@ -60,44 +60,48 @@ With Testsigma, creating test cases for Salesforce is easy as we can leverage Me
 ## **Sample Test Case for Salesforce Automation**
 Let's say we have a scenario where we want to log in to Salesforce, navigate to the Sales tab, create a Lead record, and Edit the record form. Regular UI interactions require a lot of steps. However, with Testsigma's smart NLPs, we can automate the same flow in just four steps.
 
-1. Use the NLP, **Login to Salesforce using *Salesforce Connection***.
+1. Use the NLP, **Login to Salesforce application using *Salesforce Connection* connection**.
 Here, we can choose a connection or create a connection by clicking on **Add Connection**. 
-![Add Connection](https://s3.amazonaws.com/static-docs.testsigma.com/new_images/projects/applications/sftcltsfts.png)
+![Add Connection](https://s3.amazonaws.com/website-static-docs.testsigma.com/new_images/projects/Updated_Doc_Images/update_sf_tc_4.png)
 
 2. Use the NLP, **Switch to *Application*** and replace application from the dropdown. 
-![Sales](https://s3.amazonaws.com/static-docs.testsigma.com/new_images/projects/applications/sftcsapp.png)
+![Sales](https://s3.amazonaws.com/website-static-docs.testsigma.com/new_images/projects/Updated_Doc_Images/update_sf_tc_5.png)
 
-3. Use the NLP, **Create record using *Salesforce Connection* in *Salesforce Object* Form and store *RECORD_ID* in variable test data**. This is an API step.
-![API Step](https://s3.amazonaws.com/static-docs.testsigma.com/new_images/projects/applications/Choose_SalesforceConnection.png)
-   - Click **Salesforce Connection** and choose the available connection from the dropdown menu. 
-    ![Salesforce Connection](https://s3.amazonaws.com/static-docs.testsigma.com/new_images/projects/applications/Choose_SF_Connection.png)
+3. Use the NLP, **Create record in *Salesforce Object Form* using *Salesforce Connection* and store the record id in variabel *test data**. This is an API step.
+![API Step](https://s3.amazonaws.com/website-static-docs.testsigma.com/new_images/projects/Updated_Doc_Images/update_sf_tc_6.png)
 
    - Click **Salesforce Object Form**. This will open **Create record using API** overlay. 
-    ![API Overlay](https://s3.amazonaws.com/static-docs.testsigma.com/new_images/projects/applications/API_Overlay_SF.png)
+    ![API Overlay](https://s3.amazonaws.com/website-static-docs.testsigma.com/new_images/projects/Updated_Doc_Images/update_sf_tc_7.png)
 
    - Choose the object form **Select object** dropdown menu. Alternatively, you can also search & choose the **Object Form**. This will open the form where we need to enter the details.
-    ![Object Form](https://s3.amazonaws.com/static-docs.testsigma.com/new_images/projects/applications/Objects_Dropdown_SF.png)
+    ![Object Form](https://s3.amazonaws.com/website-static-docs.testsigma.com/new_images/projects/Updated_Doc_Images/update_sf_tc_8.png)
 
    - The form populates for the selected object. Enter data in the fields and click **Save**. Only the selected fields are sent in the API request. 
-    ![Save Form](https://s3.amazonaws.com/static-docs.testsigma.com/new_images/projects/applications/Save_Details_SFAPI.png)
+    ![Save Form](https://s3.amazonaws.com/website-static-docs.testsigma.com/new_images/projects/Updated_Doc_Images/update_sf_tc_9.png)
+  
+  - Click **Salesforce Connection** and choose the available connection from the dropdown menu. 
+    ![Salesforce Connection](https://s3.amazonaws.com/website-static-docs.testsigma.com/new_images/projects/Updated_Doc_Images/update_sf_tc_10.png)
     
    - Store the **Record ID** in a variable, which we’ll call **Lead Records** here. We can use this variable in the next test step to edit a record or across any test cases.
-    ![Lead Records](https://s3.amazonaws.com/static-docs.testsigma.com/new_images/projects/applications/LeadRecord_SF.png)
+    ![Lead Records](https://s3.amazonaws.com/website-static-docs.testsigma.com/new_images/projects/Updated_Doc_Images/update_sf_tc_11.png)
 
-4. Use the NLP, **Open the edit form for the record with the *Record ID* on the *Salesforce Object***. Here, you open the edit form using the **$ Runtime** test data type with the **Record ID** stored in the variable from the previous step.
-![Runtime Variable](https://s3.amazonaws.com/static-docs.testsigma.com/new_images/projects/applications/Runtime_Variable_SF.png)
+4. Use the NLP, **Open the edit *Salesforce Object* form where record is *Record ID***. Here, you open the edit form using the **$ Runtime** test data type with the **Record ID** stored in the variable from the previous step.
+![Runtime Variable](https://s3.amazonaws.com/website-static-docs.testsigma.com/new_images/projects/Updated_Doc_Images/update_sf_tc_12.png)
 
-5. Click on **Debug & Record**. This will open a Chrome window along with the test recorder. All the steps will be executed up to that point, and you can start recording UI interactions by clicking on the play icon. 
-![Record](https://s3.amazonaws.com/static-docs.testsigma.com/new_images/projects/applications/sftcdbarec.png)
+5. Click **Copilot**. 
+![Record](https://s3.amazonaws.com/website-static-docs.testsigma.com/new_images/projects/Updated_Doc_Images/update_sf_tc_13.png)
 
-6. Perform the actions and click on **Stop**. This will open the **End session** warning prompt. 
-![Stop Recording](https://s3.amazonaws.com/static-docs.testsigma.com/new_images/projects/applications/sftctsdbarcscn.png)
+6. In the Debug & Record overlay, verify the Copilot is ready and click **Launch**
+![Launch](https://s3.amazonaws.com/website-static-docs.testsigma.com/new_images/projects/Updated_Doc_Images/update_sf_tc_14.png)
 
-7. On the **End session** warning prompt, click on **Stop**.
-![Stop Warning](https://s3.amazonaws.com/static-docs.testsigma.com/new_images/projects/applications/dbgstop.png)
+7. In the **Copilot** dialog, click **Rec** and perform the desired actions on the application. Once done, click **Stop Recording**, then click **Exit Copilot** to save the recorded test steps to the test case details page.
+![Stop Recording](https://s3.amazonaws.com/website-static-docs.testsigma.com/new_images/projects/Updated_Doc_Images/update_sf_tc_15.png)
 
-8. Refresh the **Test Case Details** page to see all the recorded steps. 
-![Test Case Details](https://s3.amazonaws.com/static-docs.testsigma.com/new_images/projects/applications/sftcalltss.png)
+8. In the **Stop & Exit Session** dialog, click **Stop Session**. 
+![Stop session](https://s3.amazonaws.com/website-static-docs.testsigma.com/new_images/projects/Updated_Doc_Images/update_sf_tc_16.png)
+
+9. Refresh the **Test Case Details** page to see all the recorded steps. 
+![Test Case Details](https://s3.amazonaws.com/website-static-docs.testsigma.com/new_images/projects/Updated_Doc_Images/update_sf_tc_17.png)
 
 
 ---
@@ -105,16 +109,16 @@ Here, we can choose a connection or create a connection by clicking on **Add Con
 ## **Parametrization of Login NLP**
 
 1. From the **Test Case Details** page, create the test steps using the inbuilt Login NLP.
-![Test Step](https://s3.amazonaws.com/static-docs.testsigma.com/new_images/projects/applications/polnts.png)
+![Test Step](https://s3.amazonaws.com/website-static-docs.testsigma.com/new_images/projects/Updated_Doc_Images/update_sf_tc_18.png)
 
 2. Click on **Salesforce Connections**, type ‘**/**’ and choose ***Environment** from the dropdown menu. 
-![Parametrize](https://s3.amazonaws.com/static-docs.testsigma.com/new_images/projects/applications/polnen.png)
+![Parametrize](https://s3.amazonaws.com/website-static-docs.testsigma.com/new_images/projects/Updated_Doc_Images/update_sf_tc_19.png)
 
 [[info | **NOTE**:]]
 | You can choose any **test data type** as needed from the dropdown menu.
 
-4. In the ***Environment** overlay, select an environment from the available Environments.
-![Env Overlay](https://s3.amazonaws.com/static-docs.testsigma.com/new_images/projects/applications/polnenol.png)
+3. In the ***Environment** overlay, select an environment from the available Environments.
+![Env Overlay](https://s3.amazonaws.com/website-static-docs.testsigma.com/new_images/projects/Updated_Doc_Images/update_sf_tc_20.png)
 
 [[info | **NOTE**:]]
 | Make sure that the value added in **Environment** has the same name as in **User Connections**.

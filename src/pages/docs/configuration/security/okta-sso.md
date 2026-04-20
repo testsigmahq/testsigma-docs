@@ -68,26 +68,22 @@ Familiarise yourself with these key terms before proceeding:
 ## **Getting the Testsigma Configuration for Okta**
 
 1. Navigate to your profile and click **Switch Account**.
+![Switch account](https://s3.amazonaws.com/website-static-docs.testsigma.com/new_images/projects/Updated_Doc_Images/update_sso_1.png)
 
 2. Click **Settings** under the **Others** section on the home screen.
+![Settings](https://s3.amazonaws.com/website-static-docs.testsigma.com/new_images/projects/Updated_Doc_Images/update_sso_2.png)
 
 3. In the **Settings** panel, scroll down to **Organization Settings** and click **Security (SSO)**.
+![Security](https://s3.amazonaws.com/website-static-docs.testsigma.com/new_images/projects/Updated_Doc_Images/update_sso_3.png)
 
 4. In the **Single Sign-On (SSO)** settings, enable the toggle on **SAML** widget. 
+![SAML](https://s3.amazonaws.com/website-static-docs.testsigma.com/new_images/projects/Updated_Doc_Images/update_sso_4.png)
    
 [[info | NOTE:]]
 | You can use only one SSO for your account. If you are using **Google SSO**, turn it off first.
 
 5. In the **Enable SSO** pop-up, record the **Entity ID (Identifier)** and **Single Sign-On (ACS) URL** for use in Okta configuration. 
-
-Here's an interactive demo:
-
-<div>
-  <script async src="https://js.storylane.io/js/v2/storylane.js"></script>
-  <div class="sl-embed" style="position:relative;padding-bottom:calc(55.43% + 25px);width:100%;height:0;transform:scale(1)">
-    <iframe loading="lazy" class="sl-demo" src="https://app.storylane.io/demo/p0nweevh9rsj?embed=inline" name="sl-embed" allow="fullscreen" allowfullscreen style="position:absolute;top:0;left:0;width:100%!important;height:100%!important;border:1px solid rgba(63,95,172,0.35);box-shadow: 0px 0px 18px rgba(26, 19, 72, 0.15);border-radius:10px;box-sizing:border-box;"></iframe>
-  </div>
-</div>
+![SSO pop-up](https://s3.amazonaws.com/website-static-docs.testsigma.com/new_images/projects/Updated_Doc_Images/update_sso_5.png)
 
 ---
 
@@ -99,7 +95,7 @@ Here's an interactive demo:
 1. In the **Admin** Console, under **Applications**, click **Create App Integration**. Choose **SAML 2.0** and click **Next**.
 2. In **General Settings** tab fill below details and click **Next** to proceed.
     - **App Name**: Enter Application name, example **Testsigma**:
-    - **App Logo and Visibility**: Upload the app logo if preferred. ![general okta settings](https://s3.amazonaws.com/static-docs.testsigma.com/new_images/projects/applications/okta_general_settings.gif)
+    - **App Logo and Visibility**: Upload the app logo if preferred. ![general okta settings](https://s3.amazonaws.com/website-static-docs.testsigma.com/new_images/projects/Updated_Doc_Images/okta_general_settings.gif)
 3. Configure **SAML Settings** and click **Next** to proceed:
     - **Single Sign-On URL**: <a href="https://app.testsigma.com/saml/250/callback" rel="nofollow">https://app.testsigma.com/saml/250/callback</a>
     - **Audience URI (SP Entity ID)**: <a href="https://app.testsigma.com/saml/250/metadata" rel="nofollow">https://app.testsigma.com/saml/250/metadata</a>
@@ -107,7 +103,7 @@ Here's an interactive demo:
     - **Name ID Format**: Select EmailAddress from dropdown.
     - **Application Username**: Okta username (default)
     - **Update Application Username On**: Create and update (default)
-4. Finish Setup by selecting **"I'm an OKTA User and add an Internal App"** and **"This is an internal app we have created"**. Click **Finish**. ![config saml okta](https://s3.amazonaws.com/static-docs.testsigma.com/new_images/projects/applications/config_saml_okta.gif)
+4. Finish Setup by selecting **"I'm an OKTA User and add an Internal App"** and **"This is an internal app we have created"**. Click **Finish**. ![config saml okta](https://s3.amazonaws.com/website-static-docs.testsigma.com/new_images/projects/Updated_Doc_Images/config_saml_okta.gif)
 5. On the Sign-on methods page, click **View Setup Instructions**.
 6. Copy the **Identity Provider Issuer**, **Identity Provider Single Sign-On URL**, and **X.509 Certificate** for use in Testsigma.
 
@@ -120,7 +116,7 @@ Here's an interactive demo:
     - **Entity ID**: Same Identity Provider Issuer.
     - **Identity Provider Single Sign-On URL**: Paste Single Sign-On (ACS) URL.
     - **SAML Certificate**: Paste X.509 Certificate.
-3. Click **Confirm Credentials** to confirm the Configuration. ![config testsigma for okta sso](https://s3.amazonaws.com/static-docs.testsigma.com/new_images/projects/applications/config_testsigma_okta_id.gif)
+3. Click **Confirm Credentials** to confirm the Configuration. ![config testsigma for okta sso](https://s3.amazonaws.com/website-static-docs.testsigma.com/new_images/projects/Updated_Doc_Images/config_testsigma_okta_id.gif)
 
 ---
 
@@ -129,7 +125,7 @@ Here's an interactive demo:
 After configuring your Testsigma account with SAML, you can log in using SSO.
 
 1. Click **Sign in with SSO** on the Testsigma login page.
-2. Enter the **email ID** configured with SSO with the account and click **Sign in**. ![signin through sso](https://s3.amazonaws.com/static-docs.testsigma.com/new_images/projects/applications/signin_through_sso.gif)
+2. Enter the **email ID** configured with SSO with the account and click **Sign in**. ![signin through sso](https://s3.amazonaws.com/website-static-docs.testsigma.com/new_images/projects/Updated_Doc_Images/signin_through_sso.gif)
 [[info | NOTE:]]
 | - Install the Okta mobile app for the first-time authentication. 
 | - You cannot log in through SSO without configuring your email.
@@ -140,24 +136,24 @@ After configuring your Testsigma account with SAML, you can log in using SSO.
 
 
 1. From the **Dashboard**, go to **Applications** and select the application you want to assign to users.
-   ![OKTA Dashboard](https://s3.amazonaws.com/static-docs.testsigma.com/new_images/projects/applications/Okta_DB.png)
+   ![OKTA Dashboard](https://s3.amazonaws.com/website-static-docs.testsigma.com/new_images/projects/Updated_Doc_Images/Okta_DB.png)
 
 2. On the **Application Details** page, click **Assign** and select **Assign to People** from the dropdown menu.
-   ![App Details Page](https://s3.amazonaws.com/static-docs.testsigma.com/new_images/projects/applications/Assign_Users_Okta.png)
+   ![App Details Page](https://s3.amazonaws.com/website-static-docs.testsigma.com/new_images/projects/Updated_Doc_Images/Assign_Users_Okta.png)
 
 3. In the **Assign &lt;App&gt; to People** dialog box, click the **Assign** button next to the user's ID.
-   ![Assign Button Okta](https://s3.amazonaws.com/static-docs.testsigma.com/new_images/projects/applications/Assign_User_Button.png)
+   ![Assign Button Okta](https://s3.amazonaws.com/website-static-docs.testsigma.com/new_images/projects/Updated_Doc_Images/Assign_User_Button.png)
 
 4. Validate the email in the dialog box, then click **Save and Go Back**.
-   ![Save the ID](https://s3.amazonaws.com/static-docs.testsigma.com/new_images/projects/applications/Save_ID_Okta.png)
+   ![Save the ID](https://s3.amazonaws.com/website-static-docs.testsigma.com/new_images/projects/Updated_Doc_Images/Save_ID_Okta.png)
 
 5. Click **Done**. The assigned user can now access the application through Okta.
-   ![Done Assigning User](https://s3.amazonaws.com/static-docs.testsigma.com/new_images/projects/applications/Done_Adding_User_In_Okta.png)
+   ![Done Assigning User](https://s3.amazonaws.com/website-static-docs.testsigma.com/new_images/projects/Updated_Doc_Images/Done_Adding_User_In_Okta.png)
 
 ---
 
 ## **Disable Configured SSO**
 
-To disable SSO login using Okta, turn off the toggle to disable SAML SSO at any time. A disable SAML SSO warning prompt will appear. Click **I Understand and Disable** to remove the SSO configuration from your account. ![disable configured sso](https://s3.amazonaws.com/static-docs.testsigma.com/new_images/projects/applications/disable_configured_sso.gif)
+To disable SSO login using Okta, turn off the toggle to disable SAML SSO at any time. A disable SAML SSO warning prompt will appear. Click **I Understand and Disable** to remove the SSO configuration from your account. ![disable configured sso](https://s3.amazonaws.com/website-static-docs.testsigma.com/new_images/projects/Updated_Doc_Images/disable_configured_sso.gif)
 
 ---

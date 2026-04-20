@@ -41,7 +41,7 @@ In automated testing, test failures often occur when the recorder captures link 
 ## **Identifying Link Text Capture Issues**
 
 - Check if the recorder captures link text from the HTML instead of the visible text in the UI.
-- Compare the captured text with what you see in the UI to spot differences. ![view link text capture issue](https://s3.amazonaws.com/static-docs.testsigma.com/new_images/projects/applications/login_link_text_element.png)
+- Compare the captured text with what you see in the UI to spot differences. ![view link text capture issue](https://s3.amazonaws.com/website-static-docs.testsigma.com/new_images/projects/Updated_Doc_Images/login_link_text_element.png)
 
 <style>
   .example-container {
@@ -85,7 +85,7 @@ In automated testing, test failures often occur when the recorder captures link 
 
 - Change the locator setting in your test automation tool from **Link text** to **XPath**.
 - This adjustment allows the recorder to identify the element based on its structure rather than just the text.
-- If needed, manually update the captured link text to match the UI-visible text, ensuring the test case reflects what users see on the screen. ![updating element from link text](https://s3.amazonaws.com/static-docs.testsigma.com/new_images/projects/applications/changing_element_details_from_linktext.gif)
+- If needed, manually update the captured link text to match the UI-visible text, ensuring the test case reflects what users see on the screen. ![updating element from link text](https://s3.amazonaws.com/website-static-docs.testsigma.com/new_images/projects/Updated_Doc_Images/changing_element_details_from_linktext.gif)
 
 [[info | NOTE:]]
 | Using XPath or other reliable locators reduces the risk of capturing incorrect text, especially when differences exist between UI and HTML text.

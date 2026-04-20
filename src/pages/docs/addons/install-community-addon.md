@@ -30,7 +30,7 @@ Community Addon in Testsigma extend the functionality of your test cases by allo
 2. On the **Addon Marketplace** Page, you will find a list of all available addons in the **Community** tab. You can either browse through the list or use the search function to find a specific addon by name or description.
 3. Click **Install** button you wish to install addon.
 4. The addon will be installed and available for use in your test cases after refreshing the page. 
-![installing community addon](https://s3.amazonaws.com/static-docs.testsigma.com/new_images/projects/addons/update_comaddon_1.png)
+![installing community addon](https://s3.amazonaws.com/website-static-docs.testsigma.com/new_images/projects/Updated_Doc_Images/update_comaddon_1.png)
 
 ---
 
@@ -40,10 +40,10 @@ Once you've installed an addon, you can use it in your test cases:
 
 1. Go to the **Addon** page from the Dashboard and switch to the **Installed Addon** tab.
 2. Click on the installed addon to view its details. A popup will display the addon's available actions.
-![view details for installed addon](https://s3.amazonaws.com/static-docs.testsigma.com/new_images/projects/addons/update_comaddon_2.png)
+![view details for installed addon](https://s3.amazonaws.com/website-static-docs.testsigma.com/new_images/projects/Updated_Doc_Images/update_comaddon_2.png)
 3. When authoring a test case, start typing the action related to the installed addon in the test step.
 4. The action will appear in the suggestions list, and you can select it to include in your test step. 
-![use installed addon](https://s3.amazonaws.com/static-docs.testsigma.com/new_images/projects/addons/update_comaddon_3.png)
+![use installed addon](https://s3.amazonaws.com/website-static-docs.testsigma.com/new_images/projects/Updated_Doc_Images/update_comaddon_3.png)
 
 [[info | NOTE:]]
 | - **Refresh the Page**: After installing an addon, always refresh the page to ensure the actions become available in your test cases.

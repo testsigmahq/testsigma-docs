@@ -37,21 +37,21 @@ When you enable the **Reset session for every test case** option in **Parallel S
 ## **Disabling the Reset Session in Parallel Settings**
 
 1. On the **Create** or **Edit Test Plan** page, go to the **Add Test Suites & Link Machine Profiles** tab.
-![Create or Edit](https://s3.amazonaws.com/static-docs.testsigma.com/new_images/projects/faq/update_single_video_1.png)
+![Create or Edit](https://s3.amazonaws.com/website-static-docs.testsigma.com/new_images/projects/Updated_Doc_Images/update_single_video_1.png)
 
 2. If the test machine is already linked, click the **Settings** icon under the **Test Machine** tab. Click the **Link to Test Machine** icon to add a new machine profile. 
-![Settings](https://s3.amazonaws.com/static-docs.testsigma.com/new_images/projects/faq/update_single_video_2.png)
+![Settings](https://s3.amazonaws.com/website-static-docs.testsigma.com/new_images/projects/Updated_Doc_Images/update_single_video_2.png)
 
 3. In the **Edit Test Machine or Device Profile** overlay, locate the checkbox labelled **Reset session for every test case**.
-![Reset](https://s3.amazonaws.com/static-docs.testsigma.com/new_images/projects/faq/update_single_video_3.png)
+![Reset](https://s3.amazonaws.com/website-static-docs.testsigma.com/new_images/projects/Updated_Doc_Images/update_single_video_3.png)
 
 4. Unselect this checkbox to disable the reset session for all test cases. 
-![Unselect](https://s3.amazonaws.com/static-docs.testsigma.com/new_images/projects/faq/update_single_video_4.png)
+![Unselect](https://s3.amazonaws.com/website-static-docs.testsigma.com/new_images/projects/Updated_Doc_Images/update_single_video_4.png)
 
 5. Click **Create** or **Update Profile** to save your changes. 
-![disable reset session for test machine](https://s3.amazonaws.com/static-docs.testsigma.com/new_images/projects/faq/update_single_video_5.png)
+![disable reset session for test machine](https://s3.amazonaws.com/website-static-docs.testsigma.com/new_images/projects/Updated_Doc_Images/update_single_video_5.png)
 
 6. You can now watch the complete video for each test suite under **Run Results > Test Suite > Watch Video**.
-![Watch Video](https://s3.amazonaws.com/static-docs.testsigma.com/new_images/projects/faq/update_single_video_6.png)
+![Watch Video](https://s3.amazonaws.com/website-static-docs.testsigma.com/new_images/projects/Updated_Doc_Images/update_single_video_6.png)
 
 ---

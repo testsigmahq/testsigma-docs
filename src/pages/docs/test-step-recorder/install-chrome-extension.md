@@ -31,17 +31,17 @@ With Testsigma's Chrome extension, users can quickly record test steps by captur
 1. Go to <a href="https://chrome.google.com/webstore/detail/testsigma-recorder/epmomlhdjfgdobefcpocockpjihaabdp" rel="nofollow">Testsigma Recorder</a>.
 
 2. Click on **Add to Chrome**.
-   ![Add to Chrome](https://s3.amazonaws.com/static-docs.testsigma.com/new_images/projects/applications/tsceatc.png)
+   ![Add to Chrome](https://s3.amazonaws.com/website-static-docs.testsigma.com/new_images/projects/Updated_Doc_Images/tsceatc.png)
 
 3. On the permission prompt, click on **Add extension**.
-   ![Add Extension](https://s3.amazonaws.com/static-docs.testsigma.com/new_images/projects/applications/tsceatchrome.png)
+   ![Add Extension](https://s3.amazonaws.com/website-static-docs.testsigma.com/new_images/projects/Updated_Doc_Images/tsceatchrome.png)
 
 4. On successful installation, the following message will appear:
-   ![Message](https://s3.amazonaws.com/static-docs.testsigma.com/new_images/projects/applications/tscesa.png)
+   ![Message](https://s3.amazonaws.com/website-static-docs.testsigma.com/new_images/projects/Updated_Doc_Images/tscesa.png)
 
 Here’s a GIF demonstrating how to add Testsigma's Chrome extension.
 
-![Chrome Extension](https://s3.amazonaws.com/static-docs.testsigma.com/new_images/projects/applications/EnableChromeExt.gif)
+![Chrome Extension](https://s3.amazonaws.com/website-static-docs.testsigma.com/new_images/projects/Updated_Doc_Images/EnableChromeExt.gif)
 
 *For more information on creating test steps using recorder, refer to the [documentation on recording test steps](https://testsigma.com/docs/test-cases/create-test-steps/overview/#creating-test-steps-using-test-recorder).*
 
@@ -52,15 +52,15 @@ Here’s a GIF demonstrating how to add Testsigma's Chrome extension.
 
 
 1. Navigate to **Extensions > Manage Extensions**. 
-   ![Manage Extensions](https://s3.amazonaws.com/static-docs.testsigma.com/new_images/projects/applications/Manage_Extensions_Chrome.png)
+   ![Manage Extensions](https://s3.amazonaws.com/website-static-docs.testsigma.com/new_images/projects/Updated_Doc_Images/Manage_Extensions_Chrome.png)
 
 
 2. Click **Details** on the **Testsigma Widget**.
-   ![Recorder Details](https://s3.amazonaws.com/static-docs.testsigma.com/new_images/projects/applications/Recorder_Extension_Details.png)
+   ![Recorder Details](https://s3.amazonaws.com/website-static-docs.testsigma.com/new_images/projects/Updated_Doc_Images/Recorder_Extension_Details.png)
 
 
 3. On the **Testsigma Recorder** menu, click **Extension Options**.
-   ![Extension Options](https://s3.amazonaws.com/static-docs.testsigma.com/new_images/projects/applications/Extension_Options_Recorder.png)
+   ![Extension Options](https://s3.amazonaws.com/website-static-docs.testsigma.com/new_images/projects/Updated_Doc_Images/Extension_Options_Recorder.png)
 
 
 4. You can see the following options:
@@ -71,18 +71,18 @@ Here’s a GIF demonstrating how to add Testsigma's Chrome extension.
    
    - Enable Developer Mode 
 
-![All Options](https://s3.amazonaws.com/static-docs.testsigma.com/new_images/projects/applications/Extension_Options_TSRecorder.png)
+![All Options](https://s3.amazonaws.com/website-static-docs.testsigma.com/new_images/projects/Updated_Doc_Images/Extension_Options_TSRecorder.png)
 
 
 ### **a. Enable Inspect Popover on Elements** 
 
 This option highlights elements with a green rectangular box during web recording, which helps you with visual guidance for accurate element selection. 
-![Popover](https://s3.amazonaws.com/static-docs.testsigma.com/new_images/projects/applications/PopOver_Option.png)
+![Popover](https://s3.amazonaws.com/website-static-docs.testsigma.com/new_images/projects/Updated_Doc_Images/PopOver_Option.png)
 
 ### **b. Disable Recording Mouse Scroll**
 
 This option will prevent the automatic addition of scroll NLPs in test cases, which helps you create clean test cases, especially for static applications without infinite loading.
-![Mouse Scroll NLP](https://s3.amazonaws.com/static-docs.testsigma.com/new_images/projects/applications/Scroll_NLP_Step.png)
+![Mouse Scroll NLP](https://s3.amazonaws.com/website-static-docs.testsigma.com/new_images/projects/Updated_Doc_Images/Scroll_NLP_Step.png)
 
 [[info | **NOTE**:]]
 | The above two options will be selected by default.
@@ -106,20 +106,20 @@ You can record steps in incognito mode by enabling the "Allow in Incognito" opti
 
 **1. Open the Testsigma Extension:** Right-click the Testsigma Extension icon in the browser toolbar.
 
-   ![Testsigma Icon](https://s3.amazonaws.com/static-docs.testsigma.com/new_images/projects/applications/imtch.png)
+   ![Testsigma Icon](https://s3.amazonaws.com/website-static-docs.testsigma.com/new_images/projects/Updated_Doc_Images/imtch.png)
 
 
 **2. Access Extension Settings:** From the extension menu, select **Manage extension**.
 
-   ![Manage Extension](https://s3.amazonaws.com/static-docs.testsigma.com/new_images/projects/applications/immexten.png)
+   ![Manage Extension](https://s3.amazonaws.com/website-static-docs.testsigma.com/new_images/projects/Updated_Doc_Images/immexten.png)
 
 **3. Enable Allow in Incognito:** Toggle on **Allow in Incognito** option.
 
-   ![Enable Toggle](https://s3.amazonaws.com/static-docs.testsigma.com/new_images/projects/applications/imaiim.png)
+   ![Enable Toggle](https://s3.amazonaws.com/website-static-docs.testsigma.com/new_images/projects/Updated_Doc_Images/imaiim.png)
 
 
 Here’s a GIF demonstrating how to enable the **Allow in Incognito** option and record steps in Incognito.
 
-![Allow in Incognito](https://s3.amazonaws.com/static-docs.testsigma.com/new_images/projects/applications/IncognitoGifNew.gif)
+![Allow in Incognito](https://s3.amazonaws.com/website-static-docs.testsigma.com/new_images/projects/Updated_Doc_Images/IncognitoGifNew.gif)
 
 ---

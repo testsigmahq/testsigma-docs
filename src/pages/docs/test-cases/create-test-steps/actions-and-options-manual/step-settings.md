@@ -58,7 +58,7 @@ Below is a summary of the available settings:
 
 Here’s a quick GIF demonstrating how to access & update the test step settings. 
 
-![Test Step Settings](https://s3.amazonaws.com/static-docs.testsigma.com/new_images/projects/applications/teststepsettingsnew.gif)
+![Test Step Settings](https://s3.amazonaws.com/website-static-docs.testsigma.com/new_images/projects/Updated_Doc_Images/teststepsettingsnew.gif)
 
 ---
 
@@ -76,12 +76,12 @@ The following table outlines how the **Global Step Timeout** settings & **Test S
 
 Refer to the screenshot below to enable the **Global Step Timeout** toggle in the **Additional Settings** section of the **Adhoc Run** overlay.
 
-![Global Timeouts](https://s3.amazonaws.com/static-docs.testsigma.com/new_images/projects/applications/Global_Settings.png)
+![Global Timeouts](https://s3.amazonaws.com/website-static-docs.testsigma.com/new_images/projects/Updated_Doc_Images/Global_Settings.png)
 
 ---
 ## **Update Step Settings**
 
-To update several test steps, click the **checkboxes** next to the **test steps** you want to update and then click on **Update Settings** in the menu bar to open a popup window where you can make changes to the settings. ![Update Step Settings](https://s3.amazonaws.com/static-docs.testsigma.com/new_images/projects/applications/update_testsettings.gif)
+To update several test steps, click the **checkboxes** next to the **test steps** you want to update and then click on **Update Settings** in the menu bar to open a popup window where you can make changes to the settings. ![Update Step Settings](https://s3.amazonaws.com/website-static-docs.testsigma.com/new_images/projects/Updated_Doc_Images/update_testsettings.gif)
 
 [[info | NOTE:]]
 | Update Step Setting does not allow updating the **Pre-Requisite** and **Number of Retries on Step Failure**. You should use **Test Step Settings** for each step individually.

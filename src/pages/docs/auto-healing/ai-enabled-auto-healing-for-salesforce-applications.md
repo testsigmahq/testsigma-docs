@@ -54,7 +54,7 @@ Consider that the XPath for the **Leads List** button on Step 2 changed from **/
 
 When executing the test case with the **Auto-Healing** feature enabled, the test lab will successfully locate the element using the new XPath.
 
-![Auto-heal Salesforce](https://s3.amazonaws.com/static-docs.testsigma.com/new_images/projects/auto_heal/salesforce_auto_heal_1.png)
+![Auto-heal Salesforce](https://s3.amazonaws.com/website-static-docs.testsigma.com/new_images/projects/Updated_Doc_Images/salesforce_auto_heal_1.png)
 
 ---
 

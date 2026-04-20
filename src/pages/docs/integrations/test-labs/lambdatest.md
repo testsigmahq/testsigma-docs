@@ -24,8 +24,7 @@ contextual_links:
 
 ---
 
-LambdaTest integration with Testsigma lets you run your Testsigma tests on LambdaTest.
-If your organization has an existing account with LambdaTest, you can author tests for Web, Mobile Web, and Mobile applications on Testsigma, and then run those tests on LamdaTest’s cloud devices.
+LambdaTest integration with Testsigma lets you run your Testsigma tests on LambdaTest. If your organization has an existing account with LambdaTest, you can author tests for Web, Mobile Web, and Mobile applications on Testsigma, and then run those tests on LamdaTest’s cloud devices.
 
 ---
 > <p id="prerequisites">Prerequisites</p>
@@ -38,20 +37,18 @@ If your organization has an existing account with LambdaTest, you can author tes
 ---
 ## **Integrating with LambdaTest**
 
-Once the username and API key is obtained, navigate to the Plugins page through Dashboard > Settings > Plugins and select LambdaTest under the Test Lab Tab.
- 1. Click on the disabled Icon on LambdaTest. LambdaTest Details overlay opens up.
- 2. Enter the username and API Key obtained from LambdaTest as shown below :
+Once the username and API key is obtained, navigate to the **Integrations** page through **Dashboard > Settings > Integrations**. 
 
- ![LambdaTest Account details in Plugins Test lab page](https://docs.testsigma.com/images/lambdatest/plugins-enable-lambdatest-integration-email-key.png)
-
- After entering the details, click on the Create button to add the Integration.
+1. Enable the toggle next to **LambdaTest**. 
+2. in the **LambdaTest details** dialog, enter the username and API Key obtained from **LambdaTest** here.
+3. After entering the details, click on the **Save & Enable** button to add the integration.
+![LambdaTest](https://s3.amazonaws.com/website-static-docs.testsigma.com/new_images/projects/Updated_Doc_Images/update_lambdatest_1.png)
 
 ---
 ## **Using LambdaTest for Test Runs**
 
-Once the account details are added to the Plugins page, select LambdaTest as the Test Lab type instead of Testsigma Lab while creating an Ad-hoc run or Test Plan Run.
-
-![LambdaTest selected in Create Ad-hoc Run page](https://docs.testsigma.com/images/lambdatest/create-adhoc-run-testlab-lt-selected.png)
+Once the account details are added to the **Integrations** page, select **LambdaTest** as the **Test Lab** type instead of Testsigma Lab while creating an Ad-hoc run or Test Plan Run.
+![LambdaTest selected in Create Ad-hoc Run page](https://s3.amazonaws.com/website-static-docs.testsigma.com/new_images/projects/Updated_Doc_Images/update_lambdatest_2.png)
 
 ---
 ## **View Test Execution Details**

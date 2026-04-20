@@ -72,23 +72,23 @@ Copilot is the primary tool for test authoring and validating through local exec
 ## **Steps to Install Testsigma Terminal**
 
 1. From the left navigation bar, go to **Agents**, and click **Testsigma Terminal** in the top-right corner.
-   ![Testsigma Terminal](https://s3.amazonaws.com/static-docs.testsigma.com/new_images/projects/terminal/Terminal_1.1.png)
+   ![Testsigma Terminal](https://s3.amazonaws.com/website-static-docs.testsigma.com/new_images/projects/Updated_Doc_Images/Terminal_1.1.png)
 
 2. In the dialog box that appears, select the machine configuration. Testsigma automatically downloads the **Testsigma Terminal** application.
-   ![Machine configuration](https://s3.amazonaws.com/static-docs.testsigma.com/new_images/projects/terminal/Terminal_2.1.png)
+   ![Machine configuration](https://s3.amazonaws.com/website-static-docs.testsigma.com/new_images/projects/Updated_Doc_Images/Terminal_2.1.png)
 
 3. Install and open the **Testsigma Terminal** application.
    
 4. Upon launching the application, you can proceed in one of two ways:
-   - Click **Configure Settings** to manage security and certificates, network and proxy rules, or runtime/JVM preferences. Click **Continue** to save these changes and click **Login to Testsigma**. For more information, please refer to the [documentation on the Components of Testsigma Terminal](https://testsigma.com/docs/live-editor/components-of-testsigma-terminal/). ![Custom settings](https://s3.amazonaws.com/static-docs.testsigma.com/new_images/projects/copilot/configure_terminal_1.png)
-   - Click **Continue** and then click **Login to Testsigma** directly to continue with the default settings. You will be redirected to Testsigma. ![Login to Testsigma](https://s3.amazonaws.com/static-docs.testsigma.com/new_images/projects/copilot/configure_terminal_2.png)
+   - Click **Configure Settings** to manage security and certificates, network and proxy rules, or runtime/JVM preferences. Click **Continue** to save these changes and click **Login to Testsigma**. For more information, please refer to the [documentation on the Components of Testsigma Terminal](https://testsigma.com/docs/live-editor/components-of-testsigma-terminal/). ![Custom settings](https://s3.amazonaws.com/website-static-docs.testsigma.com/new_images/projects/Updated_Doc_Images/configure_terminal_1.png)
+   - Click **Continue** and then click **Login to Testsigma** directly to continue with the default settings. You will be redirected to Testsigma. ![Login to Testsigma](https://s3.amazonaws.com/website-static-docs.testsigma.com/new_images/projects/Updated_Doc_Images/configure_terminal_2.png)
 
 
 [[info | **NOTE**:]]
 | Once you login, the session stays valid for 24 hours. After that, you'll need to login and authorize yourself again to continue using the **Copilot**.
 
 5. Click **Open the desktop app**. The **Testsigma Terminal** opens. 
-   ![Open the desktop App](https://s3.amazonaws.com/static-docs.testsigma.com/new_images/projects/live_editor/terminal_n_1.1.png)
+   ![Open the desktop App](https://s3.amazonaws.com/website-static-docs.testsigma.com/new_images/projects/Updated_Doc_Images/terminal_n_1.1.png)
 
 6. Wait until **Testsigma Terminal** downloads the necessary files and completes the installation.
 
@@ -100,15 +100,15 @@ Copilot is the primary tool for test authoring and validating through local exec
 ## **Steps to Uninstall Testsigma Terminal**
 
 1. Click **Stop session** to exit the **Copilot**.
-   ![Quit Live Editor](https://s3.amazonaws.com/static-docs.testsigma.com/new_images/projects/live_editor/install_terminal_2.png)
+   ![Quit Live Editor](https://s3.amazonaws.com/website-static-docs.testsigma.com/new_images/projects/Updated_Doc_Images/install_terminal_2.png)
    
 2. Uninstall/Remove **Testsigma Terminal** application.
    
-   ![Remove App](https://s3.amazonaws.com/static-docs.testsigma.com/new_images/projects/applications/Remove_Testsigma_Lite.png)
+   ![Remove App](https://s3.amazonaws.com/website-static-docs.testsigma.com/new_images/projects/Updated_Doc_Images/Remove_Testsigma_Lite.png)
 
 3. Go to **Disk > Users > `user_folder` > Library > Application Support > Testsigma** and remove **Testsigma** folder.
    
-   ![Delete Folder](https://s3.amazonaws.com/static-docs.testsigma.com/new_images/projects/applications/Remove_Testsigma_Folder.png)
+   ![Delete Folder](https://s3.amazonaws.com/website-static-docs.testsigma.com/new_images/projects/Updated_Doc_Images/Remove_Testsigma_Folder.png)
 
 4. To stop the agent running in the background, follow these steps to find and terminate the process:
 

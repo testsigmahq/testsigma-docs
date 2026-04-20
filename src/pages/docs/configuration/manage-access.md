@@ -41,24 +41,24 @@ Admin in the Testsigma account can grant temporary access to the Testsigma Suppo
 ## **Managing Access** 
 
 1. From the **Dashboard**, go to **Settings > Admin Settings > Manage Access**.
-![Manage Access](https://s3.amazonaws.com/static-docs.testsigma.com/new_images/projects/configuration/update_label_1.png)
+![Manage Access](https://s3.amazonaws.com/website-static-docs.testsigma.com/new_images/projects/Updated_Doc_Images/update_label_1.png)
 
 2. In the **Manage Access** section, click **Allow Access**.
-![Allow Access](https://s3.amazonaws.com/static-docs.testsigma.com/new_images/projects/configuration/update_label_2.png)
+![Allow Access](https://s3.amazonaws.com/website-static-docs.testsigma.com/new_images/projects/Updated_Doc_Images/update_label_2.png)
 
 3. Select the **Access Type** from the available options.
-![Access Type](https://s3.amazonaws.com/static-docs.testsigma.com/new_images/projects/configuration/update_label_3.png)
+![Access Type](https://s3.amazonaws.com/website-static-docs.testsigma.com/new_images/projects/Updated_Doc_Images/update_label_3.png)
 
 4. In the **Describe the Issue** field, briefly explain the reason for providing access.
-![Describe the Issue](https://s3.amazonaws.com/static-docs.testsigma.com/new_images/projects/configuration/update_label_4.png)
+![Describe the Issue](https://s3.amazonaws.com/website-static-docs.testsigma.com/new_images/projects/Updated_Doc_Images/update_label_4.png)
 
 5. Select the consent checkbox and click **Submit** to grant access.
-![Submit](https://s3.amazonaws.com/static-docs.testsigma.com/new_images/projects/configuration/update_label_5.png)
+![Submit](https://s3.amazonaws.com/website-static-docs.testsigma.com/new_images/projects/Updated_Doc_Images/update_label_5.png)
 
 6. View the **Current Status** and **Access Expiry** information on the same page.
 
 7. Click **Manage** to update or revoke access as needed.
-![Manage](https://s3.amazonaws.com/static-docs.testsigma.com/new_images/projects/configuration/update_label_7.png)
+![Manage](https://s3.amazonaws.com/website-static-docs.testsigma.com/new_images/projects/Updated_Doc_Images/update_label_7.png)
 
 ---
 
@@ -77,10 +77,10 @@ Admin in the Testsigma account can grant temporary access to the Testsigma Suppo
 ## **View Access Logs**
 
 - View access-related logs by clicking **Activity** in the **Utility Panel**. The system stores logs for 3 years.
-  ![Access Logs](https://s3.amazonaws.com/static-docs.testsigma.com/new_images/projects/configuration/update_label_8.png)
+  ![Access Logs](https://s3.amazonaws.com/website-static-docs.testsigma.com/new_images/projects/Updated_Doc_Images/update_label_8.png)
 
 - You can also view logs in the relevant test cases, elements, test suites, and test plans for actions performed by **Testsigma Guest**.
-  ![Action Logs](https://s3.amazonaws.com/static-docs.testsigma.com/new_images/projects/configuration/update_label_9.png)
+  ![Action Logs](https://s3.amazonaws.com/website-static-docs.testsigma.com/new_images/projects/Updated_Doc_Images/update_label_9.png)
 
 
 ---

@@ -16,7 +16,7 @@ contextual_links:
 
 When starting a test execution, the process fails with the error message: “No route to host”
 
-![Error](https://s3.amazonaws.com/static-docs.testsigma.com/new_images/projects/faq/Error.png)
+![Error](https://s3.amazonaws.com/website-static-docs.testsigma.com/new_images/projects/Updated_Doc_Images/Error.png)
 
 This issue occurs because Testsigma attempts to download the required browser driver files, but the firewall or network restrictions block the downloads.
 

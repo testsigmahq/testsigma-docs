@@ -23,7 +23,7 @@ warning: false
 
 Here's an infographic which gives more info:
 
-![INFO](https://s3.amazonaws.com/static-docs.testsigma.com/new_images/projects/applications/acccidspre2.png)
+![INFO](https://s3.amazonaws.com/website-static-docs.testsigma.com/new_images/projects/Updated_Doc_Images/acccidspre2.png)
 
 ---
 

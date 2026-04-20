@@ -50,7 +50,7 @@ Consider that the XPATH for the Email address or phone number button on step 2 c
 
 On executing the test case with the Auto-Healing feature enabled, the test lab will successfully locate the element with the new XPATH.
 
-![Auto-Heal Web](https://s3.amazonaws.com/static-docs.testsigma.com/new_images/projects/auto_healing/Auto_heal_web.png)
+![Auto-Heal Web](https://s3.amazonaws.com/website-static-docs.testsigma.com/new_images/projects/Updated_Doc_Images/Auto_heal_web.png)
 
 ---
 

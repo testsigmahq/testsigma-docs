@@ -108,7 +108,7 @@ class ListItem extends React.Component {
           className={`child${this.inUrl(url) ? ' currentUrl text_green' : ''}`}
         >
           <div className='activeIndicator' />
-          <img src='https://s3.amazonaws.com/static-docs.testsigma.com/new_images/projects/Updated_Doc_Images/book.png' alt='book' />
+          <img src='https://s3.amazonaws.com/website-static-docs.testsigma.com/new_images/projects/Updated_Doc_Images/bookimg.png' alt='book' />
           <Link to={url}>{data.leftNavTitle || title}</Link>
         </li>
       )

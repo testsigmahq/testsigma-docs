@@ -42,45 +42,45 @@ In Testsigma, you can create a while loop to execute a test step repeatedly if a
 ## **Using While Loop in Test Cases**
 
 1. Navigate to **Create Tests > Test Cases**, and click on **Create Test Case**.
-![Create Test Case](https://s3.amazonaws.com/static-docs.testsigma.com/new_images/projects/test_case/update_while_loop_1.png)
+![Create Test Case](https://s3.amazonaws.com/website-static-docs.testsigma.com/new_images/projects/Updated_Doc_Images/update_while_loop_1.png)
 
 2. On **Test Case Details** page, click on the option on the left side of the test step.
-![Option on Test Step](https://s3.amazonaws.com/static-docs.testsigma.com/new_images/projects/test_case/update_while_loop_2.png)
+![Option on Test Step](https://s3.amazonaws.com/website-static-docs.testsigma.com/new_images/projects/Updated_Doc_Images/update_while_loop_2.png)
 
 3. This will open a side panel.
 
 4. Hover over to the options and click on **While Loop**. This will add a while condition in your test step.
-![While Loop](https://s3.amazonaws.com/static-docs.testsigma.com/new_images/projects/test_case/update_while_loop_3.png)
+![While Loop](https://s3.amazonaws.com/website-static-docs.testsigma.com/new_images/projects/Updated_Doc_Images/update_while_loop_3.png)
 
 5. Hover over the test step and click on **Step Inside Loop** to add sub-steps under the **While Loop**.
-![Step Inside While Loop](https://s3.amazonaws.com/static-docs.testsigma.com/new_images/projects/test_case/update_while_loop_4.png)
+![Step Inside While Loop](https://s3.amazonaws.com/website-static-docs.testsigma.com/new_images/projects/Updated_Doc_Images/update_while_loop_4.png)
 
 6. This will create a test step number 2.1 which will be under step 2. 
-![Step 2.1](https://s3.amazonaws.com/static-docs.testsigma.com/new_images/projects/test_case/update_while_loop_5.png)
+![Step 2.1](https://s3.amazonaws.com/website-static-docs.testsigma.com/new_images/projects/Updated_Doc_Images/update_while_loop_5.png)
 
 ---
 
 ## **Adding While Loop in Test Cases Using Recorder [Web & Mobile web]**
 
 1. Navigate to **Create Tests > Test Cases**, and click on **Create Test Case**.
-![Create Test Case](https://s3.amazonaws.com/static-docs.testsigma.com/new_images/projects/test_case/update_while_loop_1.png)
+![Create Test Case](https://s3.amazonaws.com/website-static-docs.testsigma.com/new_images/projects/Updated_Doc_Images/update_while_loop_1.png)
 
 2. Click on **Record**.
-![Record](https://s3.amazonaws.com/static-docs.testsigma.com/new_images/projects/test_case/update_while_loop_6.png)
+![Record](https://s3.amazonaws.com/website-static-docs.testsigma.com/new_images/projects/Updated_Doc_Images/update_while_loop_6.png)
 
 3. A new window will be opened with recorder. 
 
 4. Go to <a href="https://demoqa.com/webtables" rel="nofollow">https://demoqa.com/webtables</a>.
-![New Window](https://s3.amazonaws.com/static-docs.testsigma.com/new_images/projects/test_case/update_while_loop_7.png)
+![New Window](https://s3.amazonaws.com/website-static-docs.testsigma.com/new_images/projects/Updated_Doc_Images/update_while_loop_7.png)
 
 5. Click on the option on the left side of the test step and choose **While Loop**. This will add a while condition in your test step.
-![While Loop](https://s3.amazonaws.com/static-docs.testsigma.com/new_images/projects/test_case/update_while_loop_8.png)
+![While Loop](https://s3.amazonaws.com/website-static-docs.testsigma.com/new_images/projects/Updated_Doc_Images/update_while_loop_8.png)
 
 6. Hover over the test step and click on **Step Inside Loop** to add sub-steps under the **While Loop**.
-![Add Step Inside](https://s3.amazonaws.com/static-docs.testsigma.com/new_images/projects/test_case/update_while_loop_9.png)
+![Add Step Inside](https://s3.amazonaws.com/website-static-docs.testsigma.com/new_images/projects/Updated_Doc_Images/update_while_loop_9.png)
 
 7. You can continue to add sub-steps and click on **Stop Recording** once all steps are added. 
-![Done](https://s3.amazonaws.com/static-docs.testsigma.com/new_images/projects/test_case/update_while_loop_10.png)
+![Done](https://s3.amazonaws.com/website-static-docs.testsigma.com/new_images/projects/Updated_Doc_Images/update_while_loop_10.png)
 
 *For more information on creating steps using recorder, refer to [recording test steps](https://testsigma.com/docs/test-cases/create-test-steps/overview/#creating-test-steps-using-test-recorder).*
 
@@ -91,24 +91,24 @@ In Testsigma, you can create a while loop to execute a test step repeatedly if a
 ## **Adding While Loop in Test Cases Using Recorder [Android & iOS]**
 
 1. Navigate to **Create Tests > Test Cases**, and click on **Create Test Case**.
-![Test Cases](https://s3.amazonaws.com/static-docs.testsigma.com/new_images/projects/test_case/update_while_loop_11.png)
+![Test Cases](https://s3.amazonaws.com/website-static-docs.testsigma.com/new_images/projects/Updated_Doc_Images/update_while_loop_11.png)
 
 2. Click on **Record**. This will open **Record test steps** overlay.
-![Record](https://s3.amazonaws.com/static-docs.testsigma.com/new_images/projects/test_case/update_while_loop_12.png)
+![Record](https://s3.amazonaws.com/website-static-docs.testsigma.com/new_images/projects/Updated_Doc_Images/update_while_loop_12.png)
 
 3. Select the **Test Lab**, **Test Machine**, **App Source** and click on **Record**.
-![Test Lab, Test Machine, App Source](https://s3.amazonaws.com/static-docs.testsigma.com/new_images/projects/test_case/update_while_loop_13.png)
+![Test Lab, Test Machine, App Source](https://s3.amazonaws.com/website-static-docs.testsigma.com/new_images/projects/Updated_Doc_Images/update_while_loop_13.png)
 
 4. Wait until the virtual app is loaded.
 
 5. On **Test Recorder**, click on the option on the left side of the test step and choose **While Loop**. This will add a while condition in your test step.
-![While Loop](https://s3.amazonaws.com/static-docs.testsigma.com/new_images/projects/test_case/update_while_loop_14.png)
+![While Loop](https://s3.amazonaws.com/website-static-docs.testsigma.com/new_images/projects/Updated_Doc_Images/update_while_loop_14.png)
 
 6. Hover over the test step and click on **Step Inside Loop** to add sub-steps under the **While Loop**.
-![Add Step Inside](https://s3.amazonaws.com/static-docs.testsigma.com/new_images/projects/test_case/update_while_loop_15.png)
+![Add Step Inside](https://s3.amazonaws.com/website-static-docs.testsigma.com/new_images/projects/Updated_Doc_Images/update_while_loop_15.png)
 
 7. Record all the steps and click on **Stop Recording** to quit the session. 
-![Stop Recording](https://s3.amazonaws.com/static-docs.testsigma.com/new_images/projects/test_case/update_while_loop_16.png)
+![Stop Recording](https://s3.amazonaws.com/website-static-docs.testsigma.com/new_images/projects/Updated_Doc_Images/update_while_loop_16.png)
 
 ---
 ## **Additional actions possible on iteration count**

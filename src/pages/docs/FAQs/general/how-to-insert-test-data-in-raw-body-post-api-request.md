@@ -22,7 +22,7 @@ You can insert test data into the raw body of a POST API request by using Test D
 
 To quickly help you understand, this video demonstrates how to insert test data in RAW Body for POST API request.
 <div style="position: relative; padding-bottom: 56.25%; height: 0; overflow: hidden;">
-  <iframe src="https://s3.amazonaws.com/static-docs.testsigma.com/new_images/projects/New_Doc_Videos/Insert_Raw_Data_in_POST_API.mp4" 
+  <iframe src="https://s3.amazonaws.com/website-static-docs.testsigma.com/new_images/projects/Updated_Doc_Images/Insert_Raw_Data_in_POST_API.mp4" 
           style="position: absolute; top: 0; left: 0; width: 100%; height: 100%; border: 0;" 
           allowfullscreen>
   </iframe>
