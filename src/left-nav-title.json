@@ -198,7 +198,7 @@
     "/docs/test-data/create-data-profiles/": "Create Test Data Profile"
   },
   "import-data-profiles": {
-    "/docs/test-data/import-data-profiles/": "Import TDP"
+    "/docs/test-data/import-data-profiles/": "Import Test Data Profile"
   },
   "create-environment-data": {
     "/docs/test-data/create-environment-data/": "Create Test Data [Environment]"
@@ -577,7 +577,7 @@
     "/docs/collaboration/manage-execution-stops/": "Execution Controls"
   },
   "add-values-to-test-data-profile":{
-    "/docs/test-data/add-values-to-test-data-profile/": "Updating Value in TDP"
+    "/docs/test-data/add-values-to-test-data-profile/": "Update Value in Test Data Profile"
   },
   "ios-apps":{
     "/docs/elements/ios-apps/overview/": "iOS Apps"

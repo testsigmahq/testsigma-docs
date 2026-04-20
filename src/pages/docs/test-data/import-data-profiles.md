@@ -21,21 +21,21 @@ contextual_links:
 
 ---
 
-Apart from creating a test data profile, you can also import a test data profile and use it in your tests. This article discusses how to import a test data profile in Testsigma application. *For more information on creating a test data profile, refer to [create a test data profile](https://testsigma.com/docs/test-data/create-data-profiles/)*.
+This article explains how to import a Test Data Profile into Testsigma. With the folder structure enhancement, Test Data Profiles are organized under Features and Scenarios, so imported profiles are placed within that hierarchy.
 
 ---
 
 > <p id="prerequisites">Prerequisites</p>
 >
-> Before you begin, ensure that: 
-> 1. You have referred to the [documentation on creating test data profiles](https://testsigma.com/docs/test-data/create-data-profiles/). 
-> 2. You should have a file to import. 
+> Before you begin, ensure that you have:
+> 1. Reviewed [Folder Structure for Test Data Profiles](folder-structure-for-test-data-profiles.md).
+> 2. An XLSX file ready to import in the supported format.
 
 ---
 
 ## **Import File Format**
 
-To import a test data profile, you first need an XLSX file that has the data in a supported format. Below is an example of the data that an XLSX file should have. 
+To import a test data profile, you need an XLSX file with data in a supported format. Below is an example of the data that an XLSX file should have.
 
    |Name|Description|ExpectedToFail|Username|Password|
 |----|-----------|--------------|--------|--------|
@@ -51,35 +51,38 @@ To import a test data profile, you first need an XLSX file that has the data in 
 |Iteration10|Tenth value|NO|username10|password10|
 
 
-The following are the mandatory fields that should be present in the XLSX file. 
-- **Name**: Name of the test data set that the corresponding row would contain
-- **Description**: Description for that row of that test data
+The following are the mandatory fields that should be present in the XLSX file.
+- **Name**: Name of the test data set that the corresponding row would contain.
+- **Description**: Description for that row of that test data.
 - **ETF**: This would be either ‘YES’ or ‘NO’, depending on whether you expect the test case to fail with this test data or you expect it to pass.
-
 
 ---
 
-
 ## **Steps to Import Test Data Profile**
 
-1. Navigate to **Test Data > Test Data Profiles**.
-![Test Data Profiles](https://s3.amazonaws.com/static-docs.testsigma.com/new_images/projects/test_data/update_test_data_profile_1.png)
+1. From the left navigation bar, go to **Test Data** > **Test Data Profiles**, open the **List View**.
+   ![navigate to test data profiles from left navigation bar & open list view](https://s3.amazonaws.com/static-docs.testsigma.com/new_images/projects/Updated_Doc_Images/TDP_List_View.png)
 
+2. Click **Import**.
+   ![click import button on test data profiles page](https://s3.amazonaws.com/static-docs.testsigma.com/new_images/projects/Updated_Doc_Images/Import_in_TDP_List_View.png)
 
-2. Click on **Import**.
-![Import](https://s3.amazonaws.com/static-docs.testsigma.com/new_images/projects/test_data/update_test_data_profile_2.png)
+3. In the **Select Location** dialog, select the **Feature** and then the **Scenario** where you want to import the profile. The selected Scenario appears under **Target Scenario** at the bottom of the dialog.
+   ![Target Location for TDP Import](https://s3.amazonaws.com/static-docs.testsigma.com/new_images/projects/Updated_Doc_Images/Target_Location_for_Import_TDP.png)
 
+4. In the **Import Test Data Profile** dialog, select **Browse File** and choose the file to upload.
+   ![browse and select file in import test data profile dialog](https://s3.amazonaws.com/static-docs.testsigma.com/new_images/projects/Updated_Doc_Images/Browse_File_for_TDP_Import.png)
 
-3. On **Import Test Data Profile** prompt,
-   - Click on **Browse File** to upload the file.
-   ![Browse File](https://s3.amazonaws.com/static-docs.testsigma.com/new_images/projects/test_data/update_test_data_profile_3.png)
-   
-   - Once the file is uploaded, enter **Name** and select the columns you want to encrypt. Here, we have selected the **Password** field to encrypt. 
-   ![Name](https://s3.amazonaws.com/static-docs.testsigma.com/new_images/projects/test_data/update_test_data_profile_4.png)
+5. Enter a **Name** for the test data profile, select the columns you want to encrypt, and click **Import**.
+   ![click import to complete import of test data profile](https://s3.amazonaws.com/static-docs.testsigma.com/new_images/projects/Updated_Doc_Images/Details_for_TDP_to_Import.png)
 
-   - Click on **Import**. 
-   ![Import](https://s3.amazonaws.com/static-docs.testsigma.com/new_images/projects/test_data/update_test_data_profile_5.png)
+A confirmation email is sent when the import completes. Refresh the Test Data Profiles page to see the imported profile in the folder tree.
 
-On the successful import of the test data profile, you will receive an email. Refresh the test data profiles page to see the imported test data profile.
+---
+
+## **Related Articles**
+
+- [Folder Structure for Test Data Profiles](folder-structure-for-test-data-profiles.md)
+- [Create a Test Data Profile](create-data-profiles.md)
+- [Update a Test Data Profile](update-test-data-profile.md)
 
 ---
