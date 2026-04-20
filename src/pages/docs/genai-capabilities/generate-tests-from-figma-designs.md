@@ -57,10 +57,10 @@ With Testsigma, you can effortlessly generate test cases directly from Figma des
 ### **Getting Team ID in Figma**
 
 1. Open **Figma** in a web browser.
-   ![Figma in Browser](https://s3.amazonaws.com/static-docs.testsigma.com/new_images/projects/applications/Figma_in_Browser.png)
+   ![Figma in Browser](https://s3.amazonaws.com/website-static-docs.testsigma.com/new_images/projects/Updated_Doc_Images/Figma_in_Browser.png)
 
 2. In the left navigation bar, select the team from the dropdown menu.
-   ![Teams Dropdown](https://s3.amazonaws.com/static-docs.testsigma.com/new_images/projects/applications/Figma_Team_DD.png)
+   ![Teams Dropdown](https://s3.amazonaws.com/website-static-docs.testsigma.com/new_images/projects/Updated_Doc_Images/Figma_Team_DD.png)
 
 3. In the address bar, locate the URL in the following format:
    
@@ -68,7 +68,7 @@ With Testsigma, you can effortlessly generate test cases directly from Figma des
       >
       > The **{TEAM_ID}** in the URL is your Figma Team ID.
    
-   ![ID in URL](https://s3.amazonaws.com/static-docs.testsigma.com/new_images/projects/applications/Figma_TeamID_URL.png)
+   ![ID in URL](https://s3.amazonaws.com/website-static-docs.testsigma.com/new_images/projects/Updated_Doc_Images/Figma_TeamID_URL.png)
 
 [[info | **NOTE**:]]
 | If you don’t have access to the team page, contact your **Admin** to get the **Team ID**.
@@ -77,28 +77,28 @@ With Testsigma, you can effortlessly generate test cases directly from Figma des
 ### **Generating a Personal Access Token in Figma**
 
 1. Open Figma in a web browser.
-   ![Figma in Browser](https://s3.amazonaws.com/static-docs.testsigma.com/new_images/projects/applications/Figma_in_Browser.png)
+   ![Figma in Browser](https://s3.amazonaws.com/website-static-docs.testsigma.com/new_images/projects/Updated_Doc_Images/Figma_in_Browser.png)
 
 2. In the top-right corner, click your profile icon, and select **Settings**.
-   ![Figma Profile Settings](https://s3.amazonaws.com/static-docs.testsigma.com/new_images/projects/applications/Figma_Profile_Settings.png)
+   ![Figma Profile Settings](https://s3.amazonaws.com/website-static-docs.testsigma.com/new_images/projects/Updated_Doc_Images/Figma_Profile_Settings.png)
 
 3. Navigate to **Security > Personal access tokens** section.
-   ![PAT](https://s3.amazonaws.com/static-docs.testsigma.com/new_images/projects/applications/Figma_PATs.png)
+   ![PAT](https://s3.amazonaws.com/website-static-docs.testsigma.com/new_images/projects/Updated_Doc_Images/Figma_PATs.png)
 
 4. Click **Generate new token**.
-   ![New PAT](https://s3.amazonaws.com/static-docs.testsigma.com/new_images/projects/applications/Figma_PATs_New.png)
+   ![New PAT](https://s3.amazonaws.com/website-static-docs.testsigma.com/new_images/projects/Updated_Doc_Images/Figma_PATs_New.png)
 
 5. In the **Generate new token** dialog, enter a **Token name**.
-   ![Token Name](https://s3.amazonaws.com/static-docs.testsigma.com/new_images/projects/applications/Figma_Token_Name.png)
+   ![Token Name](https://s3.amazonaws.com/website-static-docs.testsigma.com/new_images/projects/Updated_Doc_Images/Figma_Token_Name.png)
 
 6. From the **Expiration** dropdown, select an expiration period.
-   ![Select Expiry](https://s3.amazonaws.com/static-docs.testsigma.com/new_images/projects/applications/Figma_PAT_Expiry.png)
+   ![Select Expiry](https://s3.amazonaws.com/website-static-docs.testsigma.com/new_images/projects/Updated_Doc_Images/Figma_PAT_Expiry.png)
 
 7. Click **Generate token**.
-   ![Generate Token](https://s3.amazonaws.com/static-docs.testsigma.com/new_images/projects/applications/Figma_PAT_Generate.png)
+   ![Generate Token](https://s3.amazonaws.com/website-static-docs.testsigma.com/new_images/projects/Updated_Doc_Images/Figma_PAT_Generate.png)
 
 8. Click **Copy this token** to copy the key.
-   ![Copy Token](https://s3.amazonaws.com/static-docs.testsigma.com/new_images/projects/applications/Copy_Figma_PAT.png)
+   ![Copy Token](https://s3.amazonaws.com/website-static-docs.testsigma.com/new_images/projects/Updated_Doc_Images/Copy_Figma_PAT.png)
 
 [[info | **NOTE**:]]
 | Store the token securely. You won’t be able to view it again.
@@ -109,13 +109,13 @@ With Testsigma, you can effortlessly generate test cases directly from Figma des
 ## **Integrating Figma with Testsigma**
 
 1. From the left navigation bar, go to **Settings > Integrations**. 
-   ![Integrate Figma 1](https://s3.amazonaws.com/static-docs.testsigma.com/new_images/projects/applications/Integrate_Figma_1.png)
+   ![Integrate Figma 1](https://s3.amazonaws.com/website-static-docs.testsigma.com/new_images/projects/Updated_Doc_Images/Integrate_Figma_1.png)
 
 2. Enable the toggle on **Figma** widget.
-   ![Integrate Figma 2](https://s3.amazonaws.com/static-docs.testsigma.com/new_images/projects/applications/Integrate_figma_2.png)
+   ![Integrate Figma 2](https://s3.amazonaws.com/website-static-docs.testsigma.com/new_images/projects/Updated_Doc_Images/Integrate_figma_2.png)
 
 3. On the **Figma Details** prompt, enter the **Team ID** and **API Key** and click **Save & Enable**. 
-   ![Integrate Figma 3](https://s3.amazonaws.com/static-docs.testsigma.com/new_images/projects/applications/Integrate_figma_3.1.png)
+   ![Integrate Figma 3](https://s3.amazonaws.com/website-static-docs.testsigma.com/new_images/projects/Updated_Doc_Images/Integrate_figma_3.1.png)
 
 ---
 
@@ -131,33 +131,33 @@ A Figma file hierarchy is in this way **Project** > **Design File** > **Pages** 
 Projects act as containers for organizing related design files and can hold multiple design files. 
 
 To view all projects, navigate to the left panel and select **All Projects**.
-![Projects](https://s3.amazonaws.com/static-docs.testsigma.com/new_images/projects/applications/Figma__Project_Final.png)
+![Projects](https://s3.amazonaws.com/website-static-docs.testsigma.com/new_images/projects/Updated_Doc_Images/Figma__Project_Final.png)
 
 ### **Files**
 
 Files contain the actual design work. Each file contains multiple pages where designers create and store UI elements, prototypes, etc. 
 
 To access the files within a project, double-click on the project.
-![Files](https://s3.amazonaws.com/static-docs.testsigma.com/new_images/projects/applications/Figma__Files__Final.png)
+![Files](https://s3.amazonaws.com/website-static-docs.testsigma.com/new_images/projects/Updated_Doc_Images/Figma__Files__Final.png)
 
 ### **Pages**
 
 A page inside Figma can have Sections as well as Frames.
-![Pages](https://s3.amazonaws.com/static-docs.testsigma.com/new_images/projects/applications/Figma__Pages.png)
+![Pages](https://s3.amazonaws.com/website-static-docs.testsigma.com/new_images/projects/Updated_Doc_Images/Figma__Pages.png)
 
 ### **Sections**
 
 Sections are used within a page to organize related frames visually. 
 
 A section inside a page, can have a set of Frames.
-![Section](https://s3.amazonaws.com/static-docs.testsigma.com/new_images/projects/applications/Figma__Section__1.png)
+![Section](https://s3.amazonaws.com/website-static-docs.testsigma.com/new_images/projects/Updated_Doc_Images/Figma__Section__1.png)
 
 ### **Frames**
 
 Frames are the primary design components in Figma. Each UI/UX design screen is typically represented by a frame. 
 
 A frame inside a page or a section represents a screen of web or mobile app.
-![Frames](https://s3.amazonaws.com/static-docs.testsigma.com/new_images/projects/applications/Figma__Frames.png)
+![Frames](https://s3.amazonaws.com/website-static-docs.testsigma.com/new_images/projects/Updated_Doc_Images/Figma__Frames.png)
 
 
 ### **Try this interactive demo to learn how Figma components work!**

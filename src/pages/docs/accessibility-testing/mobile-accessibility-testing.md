@@ -42,23 +42,23 @@ With Testsigma, you can perform accessibility testing to ensure your iOS and And
 ## **Steps to Enable Accessibility Testing in Test Steps**
 
 1. From the left navigation bar, go to **Create Tests > Test Cases**.
-   ![Test Cases](https://s3.amazonaws.com/static-docs.testsigma.com/new_images/projects/accessibility_testing/update_accessibility_testing_1.png)
+   ![Test Cases](https://s3.amazonaws.com/website-static-docs.testsigma.com/new_images/projects/Updated_Doc_Images/update_accessibility_testing_1.png)
 
 2. Open the test case in which you want to configure test steps for **Accessibility Testing**.
-   ![Accessibility Testing](https://s3.amazonaws.com/static-docs.testsigma.com/new_images/projects/accessibility_testing/update_accessibility_testing_2.png)
+   ![Accessibility Testing](https://s3.amazonaws.com/website-static-docs.testsigma.com/new_images/projects/Updated_Doc_Images/update_accessibility_testing_2.png)
 
 3. Hover over the test step, click **Kebab Menu**, and select **Step Settings** from the dropdown menu.
-   ![Test Step Settings](https://s3.amazonaws.com/static-docs.testsigma.com/new_images/projects/accessibility_testing/update_accessibility_testing_3.png)
+   ![Test Step Settings](https://s3.amazonaws.com/website-static-docs.testsigma.com/new_images/projects/Updated_Doc_Images/update_accessibility_testing_3.png)
 
 4. Select **Enable Accessibility Testing for the Step** and click **Update**.
-   ![Update](https://s3.amazonaws.com/static-docs.testsigma.com/new_images/projects/accessibility_testing/update_accessibility_testing_4.png)
+   ![Update](https://s3.amazonaws.com/website-static-docs.testsigma.com/new_images/projects/Updated_Doc_Images/update_accessibility_testing_4.png)
 
 [[info | **NOTE**:]]
 | 1. You can also select **Enable Accessibility Testing for the Step** from **Bulk Select > Update Settings > Bulk Update Settings**.
-|    ![Bulk Actions](https://s3.amazonaws.com/static-docs.testsigma.com/new_images/projects/accessibility_testing/update_accessibility_testing_5.png)
+|    ![Bulk Actions](https://s3.amazonaws.com/website-static-docs.testsigma.com/new_images/projects/Updated_Doc_Images/update_accessibility_testing_5.png)
 |
 | 2. To select this option in the **Recorder**, go to **Test Step > Step Settings**, select **Enable Accessibility Testing for the Step**, and click **Update**.
-|    ![Option on Recorder](https://s3.amazonaws.com/static-docs.testsigma.com/new_images/projects/accessibility_testing/update_accessibility_testing_6.png)
+|    ![Option on Recorder](https://s3.amazonaws.com/website-static-docs.testsigma.com/new_images/projects/Updated_Doc_Images/update_accessibility_testing_6.png)
 
 5. Repeat steps 3–4 for all test steps you want to configure in the required test cases.
 
@@ -72,19 +72,19 @@ With Testsigma, you can perform accessibility testing to ensure your iOS and And
 ## **Steps to Enable Accessibility Testing in Test Plans**
 
 1. When creating a test plan, enable the **Accessibility Testing** toggle in **Additional Settings**. 
-   ![Accessibility Testing](https://s3.amazonaws.com/static-docs.testsigma.com/new_images/projects/accessibility_testing/AT_mobile_n_2.png)
+   ![Accessibility Testing](https://s3.amazonaws.com/website-static-docs.testsigma.com/new_images/projects/Updated_Doc_Images/AT_mobile_n_2.png)
 
 2. Expand the **WCAG Versions & Conformance Level** dropdown, and select the required version in **Additional Settings**.
-   ![WCAG](https://s3.amazonaws.com/static-docs.testsigma.com/new_images/projects/accessibility_testing/AT_mobile_n_1.png)
+   ![WCAG](https://s3.amazonaws.com/website-static-docs.testsigma.com/new_images/projects/Updated_Doc_Images/AT_mobile_n_1.png)
 
 3. To execute the test plan, click **Run Now**.
-   ![Run Now](https://s3.amazonaws.com/static-docs.testsigma.com/new_images/projects/accessibility_testing/AT_mobile_2.1.png)
+   ![Run Now](https://s3.amazonaws.com/website-static-docs.testsigma.com/new_images/projects/Updated_Doc_Images/AT_mobile_2.1.png)
    
 4. After the test plan execution completes, click **View Reports** for that test plan.
-   ![View Report](https://s3.amazonaws.com/static-docs.testsigma.com/new_images/projects/accessibility_testing/AT_mobile_3.png)
+   ![View Report](https://s3.amazonaws.com/website-static-docs.testsigma.com/new_images/projects/Updated_Doc_Images/AT_mobile_3.png)
    
 5. On the **Report** page, click **View Report** in the bottom right corner to open a detailed **Accessibility Testing Report**.
-   ![Report](https://s3.amazonaws.com/static-docs.testsigma.com/new_images/projects/accessibility_testing/AT_mobile_4.png)
+   ![Report](https://s3.amazonaws.com/website-static-docs.testsigma.com/new_images/projects/Updated_Doc_Images/AT_mobile_4.png)
 
 ---
 
@@ -97,9 +97,9 @@ The page is organized into two main tabs: **Overview** and **All Issues**.
 ### **Overview Tab**
 
 The **Overview** tab provides a visual summary of the test execution, helping you quickly check the overall status of the application.
-   - **Issue Overview:** Displays a donut chart that summarizes all issues found during the test. The chart groups issues by severity: **Critical, Serious, Moderate, Minor,** and **Success**. ![Issue Overview](https://s3.amazonaws.com/static-docs.testsigma.com/new_images/projects/accessibility_testing/AT_mobile_5.png)
-   - **Issues by WCAG Principle:** Organizes findings by WCAG principles, such as **Perceivable, Operable, Understandable,** and **Robust**. This section lists the specific criteria violations and the number of failed checks for each principle. ![Principle](https://s3.amazonaws.com/static-docs.testsigma.com/new_images/projects/accessibility_testing/AT_mobile_6.png)
-   - **Issues by Components:** Categorizes issues by native UI element types. This helps you see if specific mobile components cause repeated errors. ![Components](https://s3.amazonaws.com/static-docs.testsigma.com/new_images/projects/accessibility_testing/AT_mobile_7.png)
+   - **Issue Overview:** Displays a donut chart that summarizes all issues found during the test. The chart groups issues by severity: **Critical, Serious, Moderate, Minor,** and **Success**. ![Issue Overview](https://s3.amazonaws.com/website-static-docs.testsigma.com/new_images/projects/Updated_Doc_Images/AT_mobile_5.png)
+   - **Issues by WCAG Principle:** Organizes findings by WCAG principles, such as **Perceivable, Operable, Understandable,** and **Robust**. This section lists the specific criteria violations and the number of failed checks for each principle. ![Principle](https://s3.amazonaws.com/website-static-docs.testsigma.com/new_images/projects/Updated_Doc_Images/AT_mobile_6.png)
+   - **Issues by Components:** Categorizes issues by native UI element types. This helps you see if specific mobile components cause repeated errors. ![Components](https://s3.amazonaws.com/website-static-docs.testsigma.com/new_images/projects/Updated_Doc_Images/AT_mobile_7.png)
 
 ### **All Issues Tab**
 
@@ -107,9 +107,9 @@ The **All Issues** tab displays a detailed list of every violation found. You ca
 
    - #### **Search and Filter Options**
      The top bar helps you locate specific issues:
-       - **Dropdown Filters:** Select **All TestCases** to view all issues, or select a specific test case to filter the results. ![Dropdown](https://s3.amazonaws.com/static-docs.testsigma.com/new_images/projects/accessibility_testing/AT_mobile_8.png)
-       - **Filter and Search:** Select **Filters** to apply specific criteria, or use the **Search** box to find issues by keyword. ![Search](https://s3.amazonaws.com/static-docs.testsigma.com/new_images/projects/accessibility_testing/AT_mobile_9.png)
-       - **View Options:** Use the status dropdown to filter the list by issue status. ![View Options](https://s3.amazonaws.com/static-docs.testsigma.com/new_images/projects/accessibility_testing/AT_mobile_15.png)
+       - **Dropdown Filters:** Select **All TestCases** to view all issues, or select a specific test case to filter the results. ![Dropdown](https://s3.amazonaws.com/website-static-docs.testsigma.com/new_images/projects/Updated_Doc_Images/AT_mobile_8.png)
+       - **Filter and Search:** Select **Filters** to apply specific criteria, or use the **Search** box to find issues by keyword. ![Search](https://s3.amazonaws.com/website-static-docs.testsigma.com/new_images/projects/Updated_Doc_Images/AT_mobile_9.png)
+       - **View Options:** Use the status dropdown to filter the list by issue status. ![View Options](https://s3.amazonaws.com/website-static-docs.testsigma.com/new_images/projects/Updated_Doc_Images/AT_mobile_15.png)
 
    - #### **Issues List**
      The main table on the left lists the violations based on your search criteria.
@@ -117,7 +117,7 @@ The **All Issues** tab displays a detailed list of every violation found. You ca
       - **Check Description:** Provides a summary of the rule violation.
       - **Status:** Indicates the result of the check. 
       - **No of Checks:** Shows the number of times this specific issue occurred.
-      - **Severity:** Displays a color-coded label indicating the impact level. ![Issue List](https://s3.amazonaws.com/static-docs.testsigma.com/new_images/projects/accessibility_testing/AT_mobile_11.png)
+      - **Severity:** Displays a color-coded label indicating the impact level. ![Issue List](https://s3.amazonaws.com/website-static-docs.testsigma.com/new_images/projects/Updated_Doc_Images/AT_mobile_11.png)
 
    - #### **Issue Details**
      When you select a row in the **Issues List**, the pane on the right displays detailed information to help you fix the bug.
@@ -125,12 +125,12 @@ The **All Issues** tab displays a detailed list of every violation found. You ca
       - **Description & Tags:** Shows the full definition of the violation, along with tags for the WCAG Version and Conformance Level.
       - **Affected Test Step:** Identifies the specific Test Case and Test Step where the failure occurred.
       - **Element Details:** Displays the actual native code for the element causing the issue.
-      - **Screenshot:** Shows an image of the mobile screen element at the time the error was detected. ![Issue Details](https://s3.amazonaws.com/static-docs.testsigma.com/new_images/projects/accessibility_testing/AT_mobile_12.png)
+      - **Screenshot:** Shows an image of the mobile screen element at the time the error was detected. ![Issue Details](https://s3.amazonaws.com/website-static-docs.testsigma.com/new_images/projects/Updated_Doc_Images/AT_mobile_12.png)
   
 ### **Global Header Actions**
 
   The top-right corner of the page provides global actions for the report:
    - **Compare Runs:** Select this to compare the current report against previous test runs to track improvements. 
-   - **Export:** Select the export icon to save the report data.![Header](https://s3.amazonaws.com/static-docs.testsigma.com/new_images/projects/accessibility_testing/AT_mobile_14.png)
+   - **Export:** Select the export icon to save the report data.![Header](https://s3.amazonaws.com/website-static-docs.testsigma.com/new_images/projects/Updated_Doc_Images/AT_mobile_14.png)
 
 ---

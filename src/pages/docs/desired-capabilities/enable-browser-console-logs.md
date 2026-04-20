@@ -55,7 +55,7 @@ Pass the desired capabilities below for their respective test lab types.
 To enable Browser Console - Extended Debugging for a specific test case in Testsigma, follow these steps:
 1. Create a **Test Case** with the required **test steps**, then click **Run** in the top-right corner of the screen.
 2. Select the **Test Lab** and **Test Machines**, then click **Desired Capabilities (Optional)**.
-3. Enter the **Desired Capabilities Key**, **Data Type**, and **Value** for the selected **Test Lab Type**, then click **Run Now**. ![Console for Ad-hoc run](https://s3.amazonaws.com/static-docs.testsigma.com/new_images/projects/desired_capabilities/update_console_1.png)
+3. Enter the **Desired Capabilities Key**, **Data Type**, and **Value** for the selected **Test Lab Type**, then click **Run Now**. ![Console for Ad-hoc run](https://s3.amazonaws.com/website-static-docs.testsigma.com/new_images/projects/Updated_Doc_Images/update_console_1.png)
    
 ---
 
@@ -65,7 +65,7 @@ Follow these steps to enable Browser Console - Extended Debugging for a specific
 1. Navigate to the **Add Test Suites & Link Machine Profiles** tab on the **Create/Edit Test Plan** screen.
 2. Click **Test Machine Settings** for the desired test machine. The **Edit Test Machine/Device Profile** overlay screen will appear.
 3. Select the **Test Lab** and **Test Machines**, then click **Desired Capabilities (Optional)**.
-4. Enter the **Desired Capabilities Key**, **Data Type**, and **Value** for the selected **Test Lab Type**, then click **Update Profile**. ![Console for Test Plan](https://s3.amazonaws.com/static-docs.testsigma.com/new_images/projects/desired_capabilities/update_console_2.png)
+4. Enter the **Desired Capabilities Key**, **Data Type**, and **Value** for the selected **Test Lab Type**, then click **Update Profile**. ![Console for Test Plan](https://s3.amazonaws.com/website-static-docs.testsigma.com/new_images/projects/Updated_Doc_Images/update_console_2.png)
 
 ---
 
@@ -73,6 +73,6 @@ Follow these steps to enable Browser Console - Extended Debugging for a specific
 
 After enabling Browser Console - Extended Debugging and running a test case or test plan, follow these steps to check the captured Browser Console Debug Logs:
 1. On the test execution results page, click **Show Logs** and navigate to the **Console Logs** section under the **Logs** tab.
-2. To analyze the Browser Console logs offline, click **Download Log File** in the top-right corner of the screen.![View Console Logs](hhttps://s3.amazonaws.com/static-docs.testsigma.com/new_images/projects/desired_capabilities/update_console_3.png)
+2. To analyze the Browser Console logs offline, click **Download Log File** in the top-right corner of the screen.![View Console Logs](hhttps://s3.amazonaws.com/website-static-docs.testsigma.com/new_images/projects/Updated_Doc_Images/update_console_3.png)
 
 ---

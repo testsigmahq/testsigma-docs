@@ -44,13 +44,13 @@ In Salesforce, listview virtual tables have various cell properties: some cells 
 2. From the **Test Case Details** page, you can create the test steps using inbuilt NLPs.
 
 Here are the available NLPs to perform actions on Listview table in Salesforce:
-![Table NLPs](https://s3.amazonaws.com/static-docs.testsigma.com/new_images/projects/applications/tablenlps.png)
+![Table NLPs](https://s3.amazonaws.com/website-static-docs.testsigma.com/new_images/projects/Updated_Doc_Images/tablenlps.png)
 
 [[info | **NOTE**:]]
 | You must create a table element before using these NLPs in your test cases to avoid execution failures. 
 
 Here’s a quick GIF demonstrating how to create table elements and use them in your Table NLPs.
-![Using table NLPs](https://s3.amazonaws.com/static-docs.testsigma.com/new_images/projects/applications/tablenlpswf.gif)
+![Using table NLPs](https://s3.amazonaws.com/website-static-docs.testsigma.com/new_images/projects/Updated_Doc_Images/tablenlpswf.gif)
 
 
 ---

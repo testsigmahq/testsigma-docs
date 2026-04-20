@@ -38,15 +38,15 @@ When automating test cases for an iOS application, you may sometimes want to cap
 
 
 1. From the left navigation bar, go to **Create Tests > Elements**.
-![Elements](https://s3.amazonaws.com/static-docs.testsigma.com/new_images/projects/elements/update_elements_ios_1.png)
+![Elements](https://s3.amazonaws.com/website-static-docs.testsigma.com/new_images/projects/Updated_Doc_Images/update_elements_ios_1.png)
 
 
 2. Click on **Record**.
-![Record](https://s3.amazonaws.com/static-docs.testsigma.com/new_images/projects/elements/update_elements_ios_2.png)
+![Record](https://s3.amazonaws.com/website-static-docs.testsigma.com/new_images/projects/Updated_Doc_Images/update_elements_ios_2.png)
 
 
 3. On **Record Elements** overlay, select **Test Lab**, **Test Machine**, **Upload App Source** and click on **Record**.
-![Record](https://s3.amazonaws.com/static-docs.testsigma.com/new_images/projects/elements/update_elements_ios_3.png)
+![Record](https://s3.amazonaws.com/website-static-docs.testsigma.com/new_images/projects/Updated_Doc_Images/update_elements_ios_3.png)
 
 
 4. Wait for the app to load fully.
@@ -56,22 +56,22 @@ When automating test cases for an iOS application, you may sometimes want to cap
 
 
 6. On the **Create Element** section, validate the **Name**, **Screen Name**, **Element Type**, and the **Value**.
-![Create Element](https://s3.amazonaws.com/static-docs.testsigma.com/new_images/projects/elements/update_elements_ios_4.png)
+![Create Element](https://s3.amazonaws.com/website-static-docs.testsigma.com/new_images/projects/Updated_Doc_Images/update_elements_ios_4.png)
 
 
 7. Click on **Create**.
-![Create](https://s3.amazonaws.com/static-docs.testsigma.com/new_images/projects/elements/update_elements_ios_5.png)
+![Create](https://s3.amazonaws.com/website-static-docs.testsigma.com/new_images/projects/Updated_Doc_Images/update_elements_ios_5.png)
 
 
 8. The element will be saved in the elements list. 
-![Saved](https://s3.amazonaws.com/static-docs.testsigma.com/new_images/projects/elements/update_elements_ios_6.png)
+![Saved](https://s3.amazonaws.com/website-static-docs.testsigma.com/new_images/projects/Updated_Doc_Images/update_elements_ios_6.png)
 
 
 9. Repeat steps 5 to 7 for every element you want to capture.
 
 
 10. Once you have captured the elements, click on **Stop Recording**.  
-![Stop Recording](https://s3.amazonaws.com/static-docs.testsigma.com/new_images/projects/elements/update_elements_ios_7.png)
+![Stop Recording](https://s3.amazonaws.com/website-static-docs.testsigma.com/new_images/projects/Updated_Doc_Images/update_elements_ios_7.png)
 
 
 11.  You'll be redirected to the **Elements** page, where you can see all recorded elements. 

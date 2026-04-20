@@ -69,21 +69,21 @@ The Import file has the following Columns:
 
 ## **Steps to Import Elements**
 1. Navigate to **Create Tests > Elements**. 
-![Elements](https://s3.amazonaws.com/static-docs.testsigma.com/new_images/projects/elements/update_IE_elements_1.png)
+![Elements](https://s3.amazonaws.com/website-static-docs.testsigma.com/new_images/projects/Updated_Doc_Images/update_IE_elements_1.png)
 
 2. From the **Elements** page, click on the **Import** button to open the Import dialog. 
-![Import Dialog](https://s3.amazonaws.com/static-docs.testsigma.com/new_images/projects/elements/update_IE_elements_2.png)
+![Import Dialog](https://s3.amazonaws.com/website-static-docs.testsigma.com/new_images/projects/Updated_Doc_Images/update_IE_elements_2.png)
 
 3. Click on **Browse File** to upload the file containing the **Elements**.
-![Browse Files](https://s3.amazonaws.com/static-docs.testsigma.com/new_images/projects/elements/update_IE_elements_3.png)
+![Browse Files](https://s3.amazonaws.com/website-static-docs.testsigma.com/new_images/projects/Updated_Doc_Images/update_IE_elements_3.png)
 
 4. Once the file is uploaded, you will get two options to handle the duplicate elements.
-![Options](https://s3.amazonaws.com/static-docs.testsigma.com/new_images/projects/elements/update_IE_elements_4.png)
+![Options](https://s3.amazonaws.com/website-static-docs.testsigma.com/new_images/projects/Updated_Doc_Images/update_IE_elements_4.png)
     - Select the Overwrite option if you want to overwrite the data in the elements list.
     - Select the Ignore option if you want to ignore the data from the elements file.
 
 5. Click on **Import**.
-![Import](https://s3.amazonaws.com/static-docs.testsigma.com/new_images/projects/elements/update_IE_elements_5.png)
+![Import](https://s3.amazonaws.com/website-static-docs.testsigma.com/new_images/projects/Updated_Doc_Images/update_IE_elements_5.png)
 
 
 The elements will be imported in the background and you will receive an email once the import is complete.
@@ -94,17 +94,17 @@ The elements will be imported in the background and you will receive an email on
 
 ## **Steps to Export Elements**
 1. Navigate to **Create Tests > Elements**. 
-![Elements](https://s3.amazonaws.com/static-docs.testsigma.com/new_images/projects/elements/update_IE_elements_1.png)
+![Elements](https://s3.amazonaws.com/website-static-docs.testsigma.com/new_images/projects/Updated_Doc_Images/update_IE_elements_1.png)
 
 
 2. From the **Elements** page, click on the **Export**.
-![Export](https://s3.amazonaws.com/static-docs.testsigma.com/new_images/projects/elements/update_IE_elements_6.png)
+![Export](https://s3.amazonaws.com/website-static-docs.testsigma.com/new_images/projects/Updated_Doc_Images/update_IE_elements_6.png)
 
 
 It will show a success message saying that the export has started. The Elements will be exported in the background, and you will receive an email once the export process is complete.
 
 
 Here's a quick GIF demonstrating how to import & export elements.
-![Import & Export Elements](https://s3.amazonaws.com/static-docs.testsigma.com/new_images/projects/applications/ImportExportElementsWorkFlow.gif)
+![Import & Export Elements](https://s3.amazonaws.com/website-static-docs.testsigma.com/new_images/projects/Updated_Doc_Images/ImportExportElementsWorkFlow.gif)
 
 ---

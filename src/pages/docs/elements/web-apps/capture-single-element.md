@@ -45,22 +45,22 @@ You can also selectively capture single element of a web application using Tests
 
 
 1. From the left navigation bar, go to **Create Tests > Elements**.
-![Elements](https://s3.amazonaws.com/static-docs.testsigma.com/new_images/projects/elements/update_rec_elements_1.png)
+![Elements](https://s3.amazonaws.com/website-static-docs.testsigma.com/new_images/projects/Updated_Doc_Images/update_rec_elements_1.png)
 
 2. Click on **Record** on the top right corner. 
-![Record](https://s3.amazonaws.com/static-docs.testsigma.com/new_images/projects/elements/update_rec_elements_2.png)
+![Record](https://s3.amazonaws.com/website-static-docs.testsigma.com/new_images/projects/Updated_Doc_Images/update_rec_elements_2.png)
 
 3. This will open a new tab. Enter the URL from which you want to capture the elements. The Testsigma test recorder will appear and will be ready to start recording. Here, we entered the URL for Simply Travel Web.
-![New Window](https://s3.amazonaws.com/static-docs.testsigma.com/new_images/projects/elements/update_rec_element_3.png)
+![New Window](https://s3.amazonaws.com/website-static-docs.testsigma.com/new_images/projects/Updated_Doc_Images/update_rec_element_3.png)
 
 4. Hover over the element you want to capture and make sure that it is highlighted in green (for example, here we are capturing the **Login or Signup** field):
-![Element](https://s3.amazonaws.com/static-docs.testsigma.com/new_images/projects/elements/update_rec_element_4.png)
+![Element](https://s3.amazonaws.com/website-static-docs.testsigma.com/new_images/projects/Updated_Doc_Images/update_rec_element_4.png)
 
 5. Click on the hovered element and wait for the element to appear in the recorder.
-![Element in Recorder](https://s3.amazonaws.com/static-docs.testsigma.com/new_images/projects/elements/update_rec_element_4.1.png)
+![Element in Recorder](https://s3.amazonaws.com/website-static-docs.testsigma.com/new_images/projects/Updated_Doc_Images/update_rec_element_4.1.png)
 
 6. Once you have captured the necessary element, click on **Stop**.
-![Stop](https://s3.amazonaws.com/static-docs.testsigma.com/new_images/projects/elements/update_rec_element_5.png)
+![Stop](https://s3.amazonaws.com/website-static-docs.testsigma.com/new_images/projects/Updated_Doc_Images/update_rec_element_5.png)
 
 7. You'll be redirected to the **Elements** page, where you can see all recorded elements.
 
@@ -73,15 +73,15 @@ You can also selectively capture single element of a web application using Tests
 ## **Steps to Update an Element**
 
 1. From the left navigation bar, select **Create Tests > Elements**.
-![Elements](https://s3.amazonaws.com/static-docs.testsigma.com/new_images/projects/elements/update_rec_elements_1.png)
+![Elements](https://s3.amazonaws.com/website-static-docs.testsigma.com/new_images/projects/Updated_Doc_Images/update_rec_elements_1.png)
 
 2. From the **Elements list** page, click on an element.
 
 3. In the **Element Details** overlay, click **Edit**. This will open the **Update Element** overlay. 
-![Update Details Overlay](https://s3.amazonaws.com/static-docs.testsigma.com/new_images/projects/elements/update_rec_element_6.png)
+![Update Details Overlay](https://s3.amazonaws.com/website-static-docs.testsigma.com/new_images/projects/Updated_Doc_Images/update_rec_element_6.png)
 
 4. In the **Update Element** overlay, manually update the details you want to change, and click **Update Element**.
-![Update Element Overlay](https://s3.amazonaws.com/static-docs.testsigma.com/new_images/projects/elements/update_rec_element_7.png)
+![Update Element Overlay](https://s3.amazonaws.com/website-static-docs.testsigma.com/new_images/projects/Updated_Doc_Images/update_rec_element_7.png)
 
 <br>
 
@@ -110,13 +110,13 @@ You can also selectively capture single element of a web application using Tests
 ## **Creating an Element While Creating Test Case**
 
 1. From the left navigation bar, go to **Create Tests > Test Cases**, create a new test case or select an existing test case.
-![Test Cases](https://s3.amazonaws.com/static-docs.testsigma.com/new_images/projects/elements/update_rec_element_8.png)
+![Test Cases](https://s3.amazonaws.com/website-static-docs.testsigma.com/new_images/projects/Updated_Doc_Images/update_rec_element_8.png)
 
 2. Click on element in any test step and choose **Create Element** from the dropdown. This will open the **Create Element** overlay. 
-![Create Element](https://s3.amazonaws.com/static-docs.testsigma.com/new_images/projects/elements/update_rec_element_9.png)
+![Create Element](https://s3.amazonaws.com/website-static-docs.testsigma.com/new_images/projects/Updated_Doc_Images/update_rec_element_9.png)
 
 3. Click on **Record Element** and follow the steps 3-8, mentioned in steps to create an element from the elements page to create an element.
-![Record Element](https://s3.amazonaws.com/static-docs.testsigma.com/new_images/projects/elements/update_rec_element_10.png)
+![Record Element](https://s3.amazonaws.com/website-static-docs.testsigma.com/new_images/projects/Updated_Doc_Images/update_rec_element_10.png)
 
 
 
@@ -129,10 +129,10 @@ You can also selectively capture single element of a web application using Tests
 2. Start recording test steps for the test case.
 
 3. Hover over the element on the test step where you want to reuse the saved element and click on **Change Element**.
-![Change Element](https://s3.amazonaws.com/static-docs.testsigma.com/new_images/projects/applications/ruelmcelm.png)
+![Change Element](https://s3.amazonaws.com/website-static-docs.testsigma.com/new_images/projects/Updated_Doc_Images/ruelmcelm.png)
 
 4. On **Elements** overlay, select the element you want to reuse.
-![Select Element](https://s3.amazonaws.com/static-docs.testsigma.com/new_images/projects/applications/ruelmse.png)
+![Select Element](https://s3.amazonaws.com/website-static-docs.testsigma.com/new_images/projects/Updated_Doc_Images/ruelmse.png)
 
 [[info | **NOTE**:]]
 | You can also reuse the element by following the same steps while creating a test case manually.

@@ -38,18 +38,18 @@ Test cases for Windows (Lite) applications depend on the elements captured using
 
 1. From the left navigation bar, go to **Create Tests > Test Cases** and click on **Create Test Case**.
    
-   ![Test Case](https://s3.amazonaws.com/static-docs.testsigma.com/new_images/projects/applications/WL_CreateTestCase.png)
+   ![Test Case](https://s3.amazonaws.com/website-static-docs.testsigma.com/new_images/projects/Updated_Doc_Images/WL_CreateTestCase.png)
 
 2. From the **Test Case Details** page, you can create the test steps using inbuilt **Actions/NLPs** and **Elements**.
    
-   ![Test Steps](https://s3.amazonaws.com/static-docs.testsigma.com/new_images/projects/applications/WL_TestSteps.png)
+   ![Test Steps](https://s3.amazonaws.com/website-static-docs.testsigma.com/new_images/projects/Updated_Doc_Images/WL_TestSteps.png)
 
 3. Once the test steps are created, click **Run** to execute the **Test Case**. This will open an **Ad-Hoc Run** overlay.
    
-   ![Run](https://s3.amazonaws.com/static-docs.testsigma.com/new_images/projects/applications/WL_RunTc.png)
+   ![Run](https://s3.amazonaws.com/website-static-docs.testsigma.com/new_images/projects/Updated_Doc_Images/WL_RunTc.png)
 
 4. On **Ad-Hoc Run** overlay, select the **Local Test Machine** in which you want to run the test case, add **Additional settings**, and click **Run Now**.
 
-   ![Execute Test Case](https://s3.amazonaws.com/static-docs.testsigma.com/new_images/projects/applications/WL_ExecuteTest.png)
+   ![Execute Test Case](https://s3.amazonaws.com/website-static-docs.testsigma.com/new_images/projects/Updated_Doc_Images/WL_ExecuteTest.png)
 
 ---

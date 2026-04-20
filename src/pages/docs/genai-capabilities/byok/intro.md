@@ -45,41 +45,41 @@ Testsigma allows you to integrate your preferred LLMs using your own API keys (B
 ## **Steps to Create a New Key**
 
 1. From the left navigation bar, go to **Settings > Gen AI Keys**.
-   ![Gen AI Keys](https://s3.amazonaws.com/static-docs.testsigma.com/new_images/projects/applications/GenAI_Keys_Settings.png)
+   ![Gen AI Keys](https://s3.amazonaws.com/website-static-docs.testsigma.com/new_images/projects/Updated_Doc_Images/GenAI_Keys_Settings.png)
 
 
 2. Click **Create New Key** in the top right corner.
-   ![New Key](https://s3.amazonaws.com/static-docs.testsigma.com/new_images/projects/applications/Create_New_Key_GenAI.png)
+   ![New Key](https://s3.amazonaws.com/website-static-docs.testsigma.com/new_images/projects/Updated_Doc_Images/Create_New_Key_GenAI.png)
 
 3. From the **Create New Key** overlay,
    
    - Enter the **Key Name** and an optional **Description**.
-     ![Name & Description](https://s3.amazonaws.com/static-docs.testsigma.com/new_images/projects/applications/Name_Desc_GenAI.png)
+     ![Name & Description](https://s3.amazonaws.com/website-static-docs.testsigma.com/new_images/projects/Updated_Doc_Images/Name_Desc_GenAI.png)
 
    - Select an **AI Provider** from the dropdown menu.
-     ![AI Provider](https://s3.amazonaws.com/static-docs.testsigma.com/new_images/projects/applications/GenAI_Provider.png)
+     ![AI Provider](https://s3.amazonaws.com/website-static-docs.testsigma.com/new_images/projects/Updated_Doc_Images/GenAI_Provider.png)
 
 4. Enter the details associated with the **AI Provider**.
-   ![AI Provider Details](https://s3.amazonaws.com/static-docs.testsigma.com/new_images/projects/applications/AI_Provider_Details.png)
+   ![AI Provider Details](https://s3.amazonaws.com/website-static-docs.testsigma.com/new_images/projects/Updated_Doc_Images/AI_Provider_Details.png)
 
 5. Click **Validate API Key** to validate the **AI Provider** details.
-   ![Validate Key](https://s3.amazonaws.com/static-docs.testsigma.com/new_images/projects/applications/Validate_API_Key.png)
+   ![Validate Key](https://s3.amazonaws.com/website-static-docs.testsigma.com/new_images/projects/Updated_Doc_Images/Validate_API_Key.png)
 
 6. Click **Create** to add the **API key**.
-   ![Add API Key](https://s3.amazonaws.com/static-docs.testsigma.com/new_images/projects/applications/Create_API_Key_Button_GenAI.png)
+   ![Add API Key](https://s3.amazonaws.com/website-static-docs.testsigma.com/new_images/projects/Updated_Doc_Images/Create_API_Key_Button_GenAI.png)
 
 7. The added keys will appear in the **Keys** section.
-   ![Key](https://s3.amazonaws.com/static-docs.testsigma.com/new_images/projects/applications/GenAI_Keys_GenAI.png)
+   ![Key](https://s3.amazonaws.com/website-static-docs.testsigma.com/new_images/projects/Updated_Doc_Images/GenAI_Keys_GenAI.png)
 
 ---
 
 ## **Mapping Models to Testsigma Features**
 
 1. In the **Feature Model Configuration** section, map each **Feature** to the corresponding key from the dropdown menu.
-   ![Model Configuration](https://s3.amazonaws.com/static-docs.testsigma.com/new_images/projects/applications/Mapping_Models_to_Features.png)
+   ![Model Configuration](https://s3.amazonaws.com/website-static-docs.testsigma.com/new_images/projects/Updated_Doc_Images/Mapping_Models_to_Features.png)
 
 2. The features will now use the mapped models.
-   ![Models Mapped](https://s3.amazonaws.com/static-docs.testsigma.com/new_images/projects/applications/Feature_Model_Configuration.png)
+   ![Models Mapped](https://s3.amazonaws.com/website-static-docs.testsigma.com/new_images/projects/Updated_Doc_Images/Feature_Model_Configuration.png)
 
 
 ---

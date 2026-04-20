@@ -38,7 +38,7 @@ You can enable capturing screenshots by simply removing the code below in the Ma
 
 Find the complete code for the **MainActivity.java** file below.
 
-![MainActivity Code](https://s3.amazonaws.com/static-docs.testsigma.com/new_images/projects/applications/java_code_MA.png)
+![MainActivity Code](https://s3.amazonaws.com/website-static-docs.testsigma.com/new_images/projects/Updated_Doc_Images/java_code_MA.png)
 
 ---
 

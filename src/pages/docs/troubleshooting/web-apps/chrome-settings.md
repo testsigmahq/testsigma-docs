@@ -41,14 +41,14 @@ While recording test steps, you may encounter situations where the recorder disp
 
 - Select **Settings**.
 
-![Chrome Settings](https://s3.amazonaws.com/static-docs.testsigma.com/new_images/projects/applications/tvdcset.png)
+![Chrome Settings](https://s3.amazonaws.com/website-static-docs.testsigma.com/new_images/projects/Updated_Doc_Images/tvdcset.png)
 
 
 **2. Privacy and Security**
 
 - In the left sidebar, choose **Privacy and security**.
 
-![Privacy & Security](https://s3.amazonaws.com/static-docs.testsigma.com/new_images/projects/applications/prasetcs.png)
+![Privacy & Security](https://s3.amazonaws.com/website-static-docs.testsigma.com/new_images/projects/Updated_Doc_Images/prasetcs.png)
 
 
 **3. Third-party cookies**
@@ -57,13 +57,13 @@ While recording test steps, you may encounter situations where the recorder disp
 
 - Click on it to expand the options.
 
-![Third Party Cookies](https://s3.amazonaws.com/static-docs.testsigma.com/new_images/projects/applications/tpccset.png)
+![Third Party Cookies](https://s3.amazonaws.com/website-static-docs.testsigma.com/new_images/projects/Updated_Doc_Images/tpccset.png)
 
 
 **4. Block Third-Party Cookies in Incognito**
 
 - Enable the option to **Block third-party cookies in Incognito mode**.
 
-![Block TP Cookies](https://s3.amazonaws.com/static-docs.testsigma.com/new_images/projects/applications/btpckscs.png)
+![Block TP Cookies](https://s3.amazonaws.com/website-static-docs.testsigma.com/new_images/projects/Updated_Doc_Images/btpckscs.png)
 
 ---

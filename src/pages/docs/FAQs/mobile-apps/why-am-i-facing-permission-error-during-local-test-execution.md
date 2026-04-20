@@ -17,7 +17,7 @@ contextual_links:
 
 When running tests locally on real mobile devices, you might face permission-related issues that prevent tests from executing successfully. These issues usually occur due to certain device-level settings being disabled by default. This article explains how to resolve these issues by enabling the necessary device settings based on your device brand.
 
-<img src="https://s3.amazonaws.com/static-docs.testsigma.com/new_images/projects/faq/Local_error_image.png" style="width: 400px;" />
+<img src="https://s3.amazonaws.com/website-static-docs.testsigma.com/new_images/projects/Updated_Doc_Images/Local_error_image.png" style="width: 400px;" />
 
 ---
 

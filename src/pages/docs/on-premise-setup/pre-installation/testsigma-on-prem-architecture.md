@@ -29,7 +29,7 @@ The Testsigma On-Premise System Architecture provides a secure environment for c
 ## **Physical Layout Deployment Diagram**
 
 
-![Deployment Diagram](https://s3.amazonaws.com/static-docs.testsigma.com/new_images/projects/applications/Deployment_Diagram.png)
+![Deployment Diagram](https://s3.amazonaws.com/website-static-docs.testsigma.com/new_images/projects/Updated_Doc_Images/Deployment_Diagram.png)
 
 
 The physical layout deployment diagram above illustrates how tests are created and executed in Testsigma's on-premise environment.

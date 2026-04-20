@@ -40,15 +40,15 @@ Testsigma Mantis integration lets you create issues directly from the Testsigma 
 ## **Integrating Bugzilla with Testsigma**
 
 1. Navigate to **Settings > Integrations**.
-![Integrations](https://s3.amazonaws.com/static-docs.testsigma.com/new_images/projects/applications/mstinav.png)
+![Integrations](https://s3.amazonaws.com/website-static-docs.testsigma.com/new_images/projects/Updated_Doc_Images/mstinav.png)
 
 
 2. Enable toggle on **Bugzilla** widget.
-![Bugzilla widget](https://s3.amazonaws.com/static-docs.testsigma.com/new_images/projects/applications/bzintgl.png)
+![Bugzilla widget](https://s3.amazonaws.com/website-static-docs.testsigma.com/new_images/projects/Updated_Doc_Images/bzintgl.png)
 
 
 3. On the **Bugzilla details** prompt, **Account URL**, **API Key** and click on **Save & Enable**.
-![Save & Enable](https://s3.amazonaws.com/static-docs.testsigma.com/new_images/projects/applications/bzsae.png)
+![Save & Enable](https://s3.amazonaws.com/website-static-docs.testsigma.com/new_images/projects/Updated_Doc_Images/bzsae.png)
 
 
 ---
@@ -58,11 +58,11 @@ Testsigma Mantis integration lets you create issues directly from the Testsigma 
 
 
 1. Navigate to **Run Results > Test Case Result**, where you want to add a bug.
-![Run Results](https://s3.amazonaws.com/static-docs.testsigma.com/new_images/projects/applications/tcresultyt.png)
+![Run Results](https://s3.amazonaws.com/website-static-docs.testsigma.com/new_images/projects/Updated_Doc_Images/tcresultyt.png)
 
 
 2. Click on **Report Bug**.
-![Report Bug](https://s3.amazonaws.com/static-docs.testsigma.com/new_images/projects/applications/reportbugyt.png)
+![Report Bug](https://s3.amazonaws.com/website-static-docs.testsigma.com/new_images/projects/Updated_Doc_Images/reportbugyt.png)
 
 
 3. Choose **Bugzilla** and enter details of the bug.

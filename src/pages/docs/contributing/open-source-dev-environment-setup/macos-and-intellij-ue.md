@@ -121,14 +121,14 @@ mysql -u root -p
     - **Go to File → Project structure**
     - In the Project structure window, you can see modules under the project settings section. 
     - Click on the modules tab and click the + icon and select import module. 
-    ![Import Module](https://s3.amazonaws.com/static-docs.testsigma.com/new_images/projects/applications/modules.png)
+    ![Import Module](https://s3.amazonaws.com/website-static-docs.testsigma.com/new_images/projects/Updated_Doc_Images/modules.png)
     - Now select each folder i.e. automator, agent, agent-launcher, server, ui, and import them. 
     - While importing modules (automator, agent, agent-launcher, server), select the option **Import module from external module** and then choose **Maven** and click on **create**.
-    ![Maven](https://s3.amazonaws.com/static-docs.testsigma.com/new_images/projects/applications/maven.png)
+    ![Maven](https://s3.amazonaws.com/website-static-docs.testsigma.com/new_images/projects/Updated_Doc_Images/maven.png)
     - Only while importing **ui** as a module, choose the option **Create module from existing sources** and click on **Next**.
         - The framework will be detected as **angular**
         - Click on **Create**
-        ![Framework](https://s3.amazonaws.com/static-docs.testsigma.com/new_images/projects/applications/angular.png)
+        ![Framework](https://s3.amazonaws.com/website-static-docs.testsigma.com/new_images/projects/Updated_Doc_Images/angular.png)
 
 - Build each module using the command mentioned, in the following order:
     - automator: ***mvn clean install***
@@ -198,7 +198,7 @@ Once the above configuration is done, we need to add UI, Server, and Agent as a 
     - Click **Ok**
     - The server module is added as a service now.
     - Reference:
-    ![Reference](https://s3.amazonaws.com/static-docs.testsigma.com/new_images/projects/applications/ref.png)
+    ![Reference](https://s3.amazonaws.com/website-static-docs.testsigma.com/new_images/projects/Updated_Doc_Images/ref.png)
 
 - **Setting up agent component as a service:**
     - Go to **Run → Edit Configurations**.
@@ -218,7 +218,7 @@ Once the above configuration is done, we need to add UI, Server, and Agent as a 
    - Click **Ok**
    - The agent module is added as a service now.
    - Reference:
-   ![Rerun/Debug](https://s3.amazonaws.com/static-docs.testsigma.com/new_images/projects/applications/rundebug.png)
+   ![Rerun/Debug](https://s3.amazonaws.com/website-static-docs.testsigma.com/new_images/projects/Updated_Doc_Images/rundebug.png)
 
 - **Setting ui agent component as a service:**
     - Go to **Run → Edit Configurations**.
@@ -227,7 +227,7 @@ Once the above configuration is done, we need to add UI, Server, and Agent as a 
     - Enter the name as **ui**.
     - For **package.json**: select the **package.json** file present in the ui folder from the downloaded source.
     - Select **run** for command and **start** for Scripts.
-    ![UI](https://s3.amazonaws.com/static-docs.testsigma.com/new_images/projects/applications/ui.png)
+    ![UI](https://s3.amazonaws.com/website-static-docs.testsigma.com/new_images/projects/Updated_Doc_Images/ui.png)
     - Click **Ok**
     - ui is added as a service now.
 
@@ -236,7 +236,7 @@ Once the above configuration is done, we need to add UI, Server, and Agent as a 
         - ui
         - server
         - agent
-        ![Services](https://s3.amazonaws.com/static-docs.testsigma.com/new_images/projects/applications/services.png)
+        ![Services](https://s3.amazonaws.com/website-static-docs.testsigma.com/new_images/projects/Updated_Doc_Images/services.png)
 
 - **Mapping  localhost to devos.testsigma.com:**
     - From the finder window on Mac, press **command+shift+g** and mention the path ***private/etc/hosts***
@@ -246,4 +246,4 @@ Once the above configuration is done, we need to add UI, Server, and Agent as a 
     ```
 
 - **You can now access the server at <a href="https://devos.testsigma.com/ui/" rel="nofollow">https://devos.testsigma.com/ui/</a>** 
-![Access Testsigma](https://s3.amazonaws.com/static-docs.testsigma.com/new_images/projects/applications/testsigma.png)
+![Access Testsigma](https://s3.amazonaws.com/website-static-docs.testsigma.com/new_images/projects/Updated_Doc_Images/testsigma.png)

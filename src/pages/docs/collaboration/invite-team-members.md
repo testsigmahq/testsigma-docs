@@ -37,15 +37,15 @@ You can add unlimited team members to your project and assign them different rol
 
 
 1. Navigate to **Project > Project Settings**, click on **Project Members**. 
-![Inviting Team Members to a Project 1](https://s3.amazonaws.com/static-docs.testsigma.com/new_images/projects/applications/Inviting_Team_Members_to_a_Project_Step_1.png)
+![Inviting Team Members to a Project 1](https://s3.amazonaws.com/website-static-docs.testsigma.com/new_images/projects/Updated_Doc_Images/Inviting_Team_Members_to_a_Project_Step_1.png)
 
 
 2. Click on **Invite**.
-![Inviting Team Members to a Project 2](https://s3.amazonaws.com/static-docs.testsigma.com/new_images/projects/applications/Inviting_Team_Members_to_a_Project_Step_2.png)
+![Inviting Team Members to a Project 2](https://s3.amazonaws.com/website-static-docs.testsigma.com/new_images/projects/Updated_Doc_Images/Inviting_Team_Members_to_a_Project_Step_2.png)
 
 
 3. On **Invite new member** dialog, enter **Email** and select the **Role** you want to assign. 
-![Email & Role](https://s3.amazonaws.com/static-docs.testsigma.com/new_images/projects/applications/Steps_to_Invite_Team_Members_3.1.png)
+![Email & Role](https://s3.amazonaws.com/website-static-docs.testsigma.com/new_images/projects/Updated_Doc_Images/Steps_to_Invite_Team_Members_3.1.png)
 
 
 4. The invited user should receive an invitation email.

@@ -41,7 +41,7 @@ Testsigma also integrates seamlessly with tools like Jira, Figma, Xray, GitHub, 
 >
 > 1. From the **Dashboard**, go to **Settings > Preferences**.
 > 2. Turn on the **Generative AI features** toggle.
-   ![GenAI Features](https://s3.amazonaws.com/static-docs.testsigma.com/new_images/projects/Atto_Testsigma/GenAI_Toggle_in_Preferences.png)
+   ![GenAI Features](https://s3.amazonaws.com/website-static-docs.testsigma.com/new_images/projects/Updated_Doc_Images/GenAI_Toggle_in_Preferences.png)
  
 [[info | **NOTE**:]]
 | 

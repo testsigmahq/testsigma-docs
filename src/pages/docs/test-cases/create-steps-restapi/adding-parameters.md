@@ -27,12 +27,12 @@ Adding parameters in RESTful API Testing is the process of sending data to a ser
 
 ## **Send a Query Parameter**
 
-1. Add **parameterized** URL path directly in the **URL** field, as shown below. It will automatically update **key**-**value** fields. For example, in the request, <br>. <a href="https://jsonplaceholder.typicode.com/?name=Joel&type=abcxyz@mail.com" rel="nofollow">https://jsonplaceholder.typicode.com/?name=Joel&type=abcxyz@mail.com</a>.[Adding URL in Parameter](https://s3.amazonaws.com/static-docs.testsigma.com/new_images/projects/overview/parametersurl_restapi.gif)
+1. Add **parameterized** URL path directly in the **URL** field, as shown below. It will automatically update **key**-**value** fields. For example, in the request, <br>. <a href="https://jsonplaceholder.typicode.com/?name=Joel&type=abcxyz@mail.com" rel="nofollow">https://jsonplaceholder.typicode.com/?name=Joel&type=abcxyz@mail.com</a>.[Adding URL in Parameter](https://s3.amazonaws.com/website-static-docs.testsigma.com/new_images/projects/Updated_Doc_Images/parametersurl_restapi.gif)
 
 2. Open the **Parameters** and enter the **key** and **value**. Value fields can be replaced with **test data types**, as shown below. Enter page key field and 2 in the value field, for example.
-![Adding Test data type in Value](https://s3.amazonaws.com/static-docs.testsigma.com/new_images/projects/overview/parameters_testdata_restapi.gif)
+![Adding Test data type in Value](https://s3.amazonaws.com/website-static-docs.testsigma.com/new_images/projects/Updated_Doc_Images/parameters_testdata_restapi.gif)
 
-3. When you enter your query parameters in the **Parameters** fields, these values will automatically update in the **parameterized URL** path. Enter Name in the key field and Joel in the value field; type in the key field and abcxyz@mail.com in the value field, for example. ![Enter Key and Value in Parameters](https://s3.amazonaws.com/static-docs.testsigma.com/new_images/projects/overview/parameters_restapi.gif)
+3. When you enter your query parameters in the **Parameters** fields, these values will automatically update in the **parameterized URL** path. Enter Name in the key field and Joel in the value field; type in the key field and abcxyz@mail.com in the value field, for example. ![Enter Key and Value in Parameters](https://s3.amazonaws.com/website-static-docs.testsigma.com/new_images/projects/Updated_Doc_Images/parameters_restapi.gif)
 
 4. Click **Send** to fetch the Response in real time. Set up body data, headers, and authorization as required.
 

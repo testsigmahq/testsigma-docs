@@ -38,24 +38,24 @@ Updating an addon in Testsigma keeps your tools up-to-date and functional. First
 1. Modify the addon’s code to fix issues, add features, or adjust settings. Compress the file into **Zipped** Format.
 
 2. From the left navigation bar, go to **Addons**. 
-![Addons](https://s3.amazonaws.com/static-docs.testsigma.com/new_images/projects/addons/update_addons_1.png)
+![Addons](https://s3.amazonaws.com/website-static-docs.testsigma.com/new_images/projects/Updated_Doc_Images/update_addons_1.png)
 
 3. In the **Addons** page, go to the **My Addons** tab. 
-![Update](https://s3.amazonaws.com/static-docs.testsigma.com/new_images/projects/addons/update_addons_2.png)
+![Update](https://s3.amazonaws.com/website-static-docs.testsigma.com/new_images/projects/Updated_Doc_Images/update_addons_2.png)
 
 4. Click the dropdown icon on the required addon and select **Upload Code**. 
-![Update](https://s3.amazonaws.com/static-docs.testsigma.com/new_images/projects/addons/update_addons_3.png)
+![Update](https://s3.amazonaws.com/website-static-docs.testsigma.com/new_images/projects/Updated_Doc_Images/update_addons_3.png)
 
 5. In the **Upload Zip File** dialog, upload the requird zipped file and click **Update**. 
-![update addon](https://s3.amazonaws.com/static-docs.testsigma.com/new_images/projects/addons/update_addons_4.png)
+![update addon](https://s3.amazonaws.com/website-static-docs.testsigma.com/new_images/projects/Updated_Doc_Images/update_addons_4.png)
 
 6. After uploading the code, click on **Publish** from the dropdown menu. 
-![Publish](https://s3.amazonaws.com/static-docs.testsigma.com/new_images/projects/addons/update_addons_5.png)
+![Publish](https://s3.amazonaws.com/website-static-docs.testsigma.com/new_images/projects/Updated_Doc_Images/update_addons_5.png)
 
 7. Choose an option from below and click **Publish**: 
     - **Public**: Make the addon available to the entire Testsigma community.
     - **Private**: Restrict availability to users within your organization.
-    ![Publish](https://s3.amazonaws.com/static-docs.testsigma.com/new_images/projects/addons/update_addons_6.png)
+    ![Publish](https://s3.amazonaws.com/website-static-docs.testsigma.com/new_images/projects/Updated_Doc_Images/update_addons_6.png)
 
 8. An automatic security check will be done. If it passes, the addon will be published. If it fails, you will get an email notification. 
 

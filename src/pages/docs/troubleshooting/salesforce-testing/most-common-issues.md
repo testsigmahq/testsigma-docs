@@ -35,7 +35,7 @@ While testing applications built on Salesforce, you might face challenges that d
 ## **Authorization Failure**
 
 ### **Symptoms:**
-![Auth Failure](https://s3.amazonaws.com/static-docs.testsigma.com/new_images/projects/applications/sfauthfailure.png)
+![Auth Failure](https://s3.amazonaws.com/website-static-docs.testsigma.com/new_images/projects/Updated_Doc_Images/sfauthfailure.png)
 
 ### **Possible Causes:**
 - **ClientId** and **Secret** are incorrect.
@@ -114,21 +114,21 @@ Users can sync metadata but encounter an MFA challenge during the process.
 **1. Disable Org Level MFA Configurations:**
 
 - Disable the **Require multi-factor authentication (MFA) for all direct UI logins to your Salesforce org** setting.
-  ![Disable MFA Config](https://s3.amazonaws.com/static-docs.testsigma.com/new_images/projects/applications/sfmla.png)
+  ![Disable MFA Config](https://s3.amazonaws.com/website-static-docs.testsigma.com/new_images/projects/Updated_Doc_Images/sfmla.png)
 
 **2. Disable User Level MFA Configurations:**
 - Ensure that user-level MFA settings follow the required configuration. If not, adjust them accordingly by navigating to **Account > Settings > Advanced User Settings > User Details > Profile**
   
-  ![MFA APIs](https://s3.amazonaws.com/static-docs.testsigma.com/new_images/projects/applications/sfmla2.png)
+  ![MFA APIs](https://s3.amazonaws.com/website-static-docs.testsigma.com/new_images/projects/Updated_Doc_Images/sfmla2.png)
   
-  ![API Only User](https://s3.amazonaws.com/static-docs.testsigma.com/new_images/projects/applications/sfmla3.png)
+  ![API Only User](https://s3.amazonaws.com/website-static-docs.testsigma.com/new_images/projects/Updated_Doc_Images/sfmla3.png)
 
 **3. Best Practices:**
 
 **Waive MFA for Exempt Users:**
 
    - Ask customers to enable **Waive Multi-Factor Authentication for Exempt Users** in Salesforce.
-     ![Waive MFA](https://s3.amazonaws.com/static-docs.testsigma.com/new_images/projects/applications/waivemfasf.png)
+     ![Waive MFA](https://s3.amazonaws.com/website-static-docs.testsigma.com/new_images/projects/Updated_Doc_Images/waivemfasf.png)
 
 
 **Create a Permission Set for Automation Users:**
@@ -141,7 +141,7 @@ Users can sync metadata but encounter an MFA challenge during the process.
 
 ## **Execution Fails on Labs**
 
-<img src="https://s3.amazonaws.com/static-docs.testsigma.com/new_images/projects/Updated_Doc_Images/Salesforce_Execution_Fails_on_Labs.png" alt="Salesforce Execution Fails on Labs error banner" style="width: 700px;" />
+<img src="https://s3.amazonaws.com/website-static-docs.testsigma.com/new_images/projects/Updated_Doc_Images/Salesforce_Execution_Fails_on_Labs.png" alt="Salesforce Execution Fails on Labs error banner" style="width: 700px;" />
 
 ### **Cause:**
 
@@ -159,7 +159,7 @@ Ensure the user executing the test has the same privileges as the **System Admin
 
    - In the **User Detail** section, check the **Profile** and compare it with the **System Admin** profile.
 
-![User Profile Settings](https://s3.amazonaws.com/static-docs.testsigma.com/new_images/projects/Updated_Doc_Images/User_Profile_Settings.png)
+![User Profile Settings](https://s3.amazonaws.com/website-static-docs.testsigma.com/new_images/projects/Updated_Doc_Images/User_Profile_Settings.png)
 
 **2. Execute via Local Agent**
 
@@ -177,7 +177,7 @@ Navigate to **Setup > Quick Finder > Session Settings** and configure as follows
    
    - **Enable**: Force relogin after Login-As-User
 
-![Session Security Levels](https://s3.amazonaws.com/static-docs.testsigma.com/new_images/projects/Updated_Doc_Images/Session_Security_Levels_Salesforce.png)
+![Session Security Levels](https://s3.amazonaws.com/website-static-docs.testsigma.com/new_images/projects/Updated_Doc_Images/Session_Security_Levels_Salesforce.png)
 
 ---
 
@@ -195,7 +195,7 @@ Update the following options:
    - **Ensure**: Passwordless Login is enabled
    - **Ensure**: Username & Password login is enabled
 
-![Session Settings](https://s3.amazonaws.com/static-docs.testsigma.com/new_images/projects/Updated_Doc_Images/Session_Settings_Salesforce.png)
+![Session Settings](https://s3.amazonaws.com/website-static-docs.testsigma.com/new_images/projects/Updated_Doc_Images/Session_Settings_Salesforce.png)
 
 [[info | **NOTE**:]]
 | Configurations should match the screenshot in this reference guide.

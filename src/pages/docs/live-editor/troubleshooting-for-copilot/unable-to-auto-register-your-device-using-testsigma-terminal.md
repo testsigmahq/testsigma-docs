@@ -25,20 +25,20 @@ By default, Testsigma Terminal automatically registers your device once the Term
 ## **Steps to Register Your Device Manually**
 
 1. In the **Testsigma Terminal** window, click **Retry**. This tries to automatically register your device again. 
-   ![Retry](https://s3.amazonaws.com/static-docs.testsigma.com/new_images/projects/troubleshooting_for_copilot/device_register_1.png)
+   ![Retry](https://s3.amazonaws.com/website-static-docs.testsigma.com/new_images/projects/Updated_Doc_Images/device_register_1.png)
 
 2. If the issue persists, click **Register Device Manually**. You will be redirected to Testsigma. 
-   ![Register Device Manually](https://s3.amazonaws.com/static-docs.testsigma.com/new_images/projects/troubleshooting_for_copilot/device_register_2.png)
+   ![Register Device Manually](https://s3.amazonaws.com/website-static-docs.testsigma.com/new_images/projects/Updated_Doc_Images/device_register_2.png)
 
 3. In the **Add New Agent** dialog, enter a name, specify the maximum sessions for the machine, and click **Add Agent**. 
-   ![Add New Agents](https://s3.amazonaws.com/static-docs.testsigma.com/new_images/projects/troubleshooting_for_copilot/device_register_3.png)
+   ![Add New Agents](https://s3.amazonaws.com/website-static-docs.testsigma.com/new_images/projects/Updated_Doc_Images/device_register_3.png)
 
 [[info | **NOTE**:]]
 | - Deselect the **Public** checkbox if you don’t want this agent to be visible to others. 
-| ![Public](https://s3.amazonaws.com/static-docs.testsigma.com/new_images/projects/troubleshooting_for_copilot/device_register_4.png)
+| ![Public](https://s3.amazonaws.com/website-static-docs.testsigma.com/new_images/projects/Updated_Doc_Images/device_register_4.png)
 | - Select the **Activate Later** checkbox if you prefer to activate the agent at a later time.
-| ![Activate Later](https://s3.amazonaws.com/static-docs.testsigma.com/new_images/projects/troubleshooting_for_copilot/device_register_5.png)
+| ![Activate Later](https://s3.amazonaws.com/website-static-docs.testsigma.com/new_images/projects/Updated_Doc_Images/device_register_5.png)
 
 4. If the issue continues, click **Force Reset and Restart**. This will delete existing dependencies, re-download them and retry automatic registration.
-   ![Force Reset and Restart](https://s3.amazonaws.com/static-docs.testsigma.com/new_images/projects/troubleshooting_for_copilot/device_register_6.png)
+   ![Force Reset and Restart](https://s3.amazonaws.com/website-static-docs.testsigma.com/new_images/projects/Updated_Doc_Images/device_register_6.png)
 ---

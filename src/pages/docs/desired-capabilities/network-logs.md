@@ -50,29 +50,29 @@ This documentation will guide you on how to enable the network log in Test Case 
 ## **Enable Network Logs in Test Case**
 
 1. Click **Run** at the top-right corner of the Test Case details page.
-![Run](https://s3.amazonaws.com/static-docs.testsigma.com/new_images/projects/desired_capabilities/update_network_logs_1.1.png)
+![Run](https://s3.amazonaws.com/website-static-docs.testsigma.com/new_images/projects/Updated_Doc_Images/update_network_logs_1.1.png)
 
 2. In the **Ad-hoc Run** overlay, select **BrowserStack** as **Test Lab**.
-![BrowserStack](https://s3.amazonaws.com/static-docs.testsigma.com/new_images/projects/desired_capabilities/update_network_logs_2.png)
+![BrowserStack](https://s3.amazonaws.com/website-static-docs.testsigma.com/new_images/projects/Updated_Doc_Images/update_network_logs_2.png)
 
 3. Enable the **Network Log** toggle, and click **Run Now** to start test execution. 
-![Enable Network Log in Test Case](https://s3.amazonaws.com/static-docs.testsigma.com/new_images/projects/desired_capabilities/update_network_logs_3.png)
+![Enable Network Log in Test Case](https://s3.amazonaws.com/website-static-docs.testsigma.com/new_images/projects/Updated_Doc_Images/update_network_logs_3.png)
 
 ---
 
 ## **Enable Network Logs in Test Plan**
 
 1. Navigate to the **Add Test Suites & Link Machine Profiles** tab on the **Create** or **Edit Test Plan** page.
-![Edit Test Plan](https://s3.amazonaws.com/static-docs.testsigma.com/new_images/projects/desired_capabilities/update_network_logs_4.png)
+![Edit Test Plan](https://s3.amazonaws.com/website-static-docs.testsigma.com/new_images/projects/Updated_Doc_Images/update_network_logs_4.png)
 
 2. Click the **Test Machine Settings** icon, and the **Add** or **Edit test machine/device profile** overlay will appear.
-![Test Machine Settings](https://s3.amazonaws.com/static-docs.testsigma.com/new_images/projects/desired_capabilities/update_network_logs_5.png)
+![Test Machine Settings](https://s3.amazonaws.com/website-static-docs.testsigma.com/new_images/projects/Updated_Doc_Images/update_network_logs_5.png)
 
 3. In the **Add** or **Edit test machine/device profile** overlay, select **BrowserStack** as **Test Lab**.
-![BrowserStack](https://s3.amazonaws.com/static-docs.testsigma.com/new_images/projects/desired_capabilities/update_network_logs_6.png)
+![BrowserStack](https://s3.amazonaws.com/website-static-docs.testsigma.com/new_images/projects/Updated_Doc_Images/update_network_logs_6.png)
 
 4. Enable the **Network Log** toggle, and click **Create/Update Profile**. 
-![Network Logs](https://s3.amazonaws.com/static-docs.testsigma.com/new_images/projects/desired_capabilities/update_network_logs_7.png)
+![Network Logs](https://s3.amazonaws.com/website-static-docs.testsigma.com/new_images/projects/Updated_Doc_Images/update_network_logs_7.png)
 
 ---
 
@@ -81,12 +81,12 @@ This documentation will guide you on how to enable the network log in Test Case 
 After completing the test execution on the Run Test Case Page, you should follow these steps to access and analyse the captured network logs:
 
 1. Click the **Show Logs** button in the Run Results page. This opens the **Logs** page. 
-![Logs](https://s3.amazonaws.com/static-docs.testsigma.com/new_images/projects/desired_capabilities/update_network_logs_8.png)
+![Logs](https://s3.amazonaws.com/website-static-docs.testsigma.com/new_images/projects/Updated_Doc_Images/update_network_logs_8.png)
 
 2. The Logs page provides a centralized view where you can access **Appium**, **Device**, and **Network** logs helping you monitor different parts of test execution in one place.
-![Network](https://s3.amazonaws.com/static-docs.testsigma.com/new_images/projects/desired_capabilities/update_network_logs_9.png)
+![Network](https://s3.amazonaws.com/website-static-docs.testsigma.com/new_images/projects/Updated_Doc_Images/update_network_logs_9.png)
 
 3. Click **Download log file** at the top-right corner of the **Logs** screen to retrieve the network log file in **HAR** format. You can then analyse the network logs offline. 
-![Download log file](https://s3.amazonaws.com/static-docs.testsigma.com/new_images/projects/desired_capabilities/update_network_logs_10.png)
+![Download log file](https://s3.amazonaws.com/website-static-docs.testsigma.com/new_images/projects/Updated_Doc_Images/update_network_logs_10.png)
 
 ---

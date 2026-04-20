@@ -41,7 +41,7 @@ If your test case involves scrolling to the bottom of the page to verify the cop
 
 ## **How do you use add-ons?**
 You can use the pre-existing add-ons available in **Community**. 
-![Addons](https://s3.amazonaws.com/static-docs.testsigma.com/new_images/projects/addons/update_what_is_addon_1.png)
+![Addons](https://s3.amazonaws.com/website-static-docs.testsigma.com/new_images/projects/Updated_Doc_Images/update_what_is_addon_1.png)
 
 If you are creating your own add-on, you can share it with the rest of the test automation community through the Add-ons Community Marketplace. You can also keep a private repository of add-ons that is only accessible to you. This is handy if your add-on has proprietary code for your specific applications.
 

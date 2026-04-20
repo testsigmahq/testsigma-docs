@@ -33,11 +33,11 @@ Verifying elements in Chrome DevTools during testing ensures that the right elem
 
 ## **Example**
 Let's take a look at the GIF below:
-![Example](https://s3.amazonaws.com/static-docs.testsigma.com/new_images/projects/applications/MultipleValues.gif)
+![Example](https://s3.amazonaws.com/website-static-docs.testsigma.com/new_images/projects/Updated_Doc_Images/MultipleValues.gif)
 
 Here, let's say we want to target **Leave Requests to Approve** element,  Xpath for the same is linked to four other elements. If we use this Xpath, the test case will fail intermittently. 
 
 So, we need to target a unique Xpath as shown in the image below. 
-![Right Xpath](https://s3.amazonaws.com/static-docs.testsigma.com/new_images/projects/applications/inspect.png)
+![Right Xpath](https://s3.amazonaws.com/website-static-docs.testsigma.com/new_images/projects/Updated_Doc_Images/inspect.png)
 
 ---

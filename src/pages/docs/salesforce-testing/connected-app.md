@@ -40,23 +40,23 @@ Creating a connected app is important to link external applications and the Sale
 1. Log into your Salesforce instance.
 
 2. On the **Setup** page, enter **Apps** in the quick finder, and click **Settings** under **External Client Apps**.
-![enable connected apps 2](https://s3.amazonaws.com/static-docs.testsigma.com/new_images/projects/faq/Enable_Connected_Apps_1.1.png)
+![enable connected apps 2](https://s3.amazonaws.com/website-static-docs.testsigma.com/new_images/projects/Updated_Doc_Images/Enable_Connected_Apps_1.1.png)
 
 3. On the **External Client App Settings** page, under the **Connected Apps** section, enable the **Allow creation of connected apps** toggle. 
-![enable connected apps 3](https://s3.amazonaws.com/static-docs.testsigma.com/new_images/projects/faq/Enable_connected_apps_3.png)
+![enable connected apps 3](https://s3.amazonaws.com/website-static-docs.testsigma.com/new_images/projects/Updated_Doc_Images/Enable_connected_apps_3.png)
 
 4. On the **Enable Connected Apps Connection?** dialog, click **Enable**. 
-![enable connected apps 4](https://s3.amazonaws.com/static-docs.testsigma.com/new_images/projects/faq/Enable_connected_apps_4.png)
+![enable connected apps 4](https://s3.amazonaws.com/website-static-docs.testsigma.com/new_images/projects/Updated_Doc_Images/Enable_connected_apps_4.png)
 
 ---
 
 ## **Steps to Create a Connected App**
 
 1. On the **External Client App Settings** page, click **New Connected App**. 
-![create connected apps 1](https://s3.amazonaws.com/static-docs.testsigma.com/new_images/projects/faq/Create_connected_app_1.png)
+![create connected apps 1](https://s3.amazonaws.com/website-static-docs.testsigma.com/new_images/projects/Updated_Doc_Images/Create_connected_app_1.png)
 
 2. In the **Basic Information** section, enter **Connected App Name**, **API Name**, and **Contact Email**.
-![create connected apps 2](https://s3.amazonaws.com/static-docs.testsigma.com/new_images/projects/faq/Create_connected_apps_2.png)
+![create connected apps 2](https://s3.amazonaws.com/website-static-docs.testsigma.com/new_images/projects/Updated_Doc_Images/Create_connected_apps_2.png)
 
 [[info | **NOTE**:]]
 | - Salesforce automatically fills in the **API Name** input field. 
@@ -66,10 +66,10 @@ Creating a connected app is important to link external applications and the Sale
     
     - Use this Callback URL: <a href="https://salesforce-callback.testsigma.com/authorize/" rel="nofollow">https://salesforce-callback.testsigma.com/authorize/</a> 
 
-![API Details](https://s3.amazonaws.com/static-docs.testsigma.com/new_images/projects/faq/Create_connected_apps_3.png)
+![API Details](https://s3.amazonaws.com/website-static-docs.testsigma.com/new_images/projects/Updated_Doc_Images/Create_connected_apps_3.png)
 
 1. Click on **Save**. 
-![Save](https://s3.amazonaws.com/static-docs.testsigma.com/new_images/projects/faq/Create_connected_app_4.png)
+![Save](https://s3.amazonaws.com/website-static-docs.testsigma.com/new_images/projects/Updated_Doc_Images/Create_connected_app_4.png)
 
 [[info | **NOTE**:]]
 | - Please wait for 10 - 15 minutes after creating the app, before trying to establish a connection.
@@ -82,16 +82,16 @@ Creating a connected app is important to link external applications and the Sale
 ## **Fetch Consumer Details**
 
 1. Edit the connected app and click on **Manage Consumer Details**. This will open a new window. 
-![Edit](https://s3.amazonaws.com/static-docs.testsigma.com/new_images/projects/faq/Fetch_connected_apps_1.png)
+![Edit](https://s3.amazonaws.com/website-static-docs.testsigma.com/new_images/projects/Updated_Doc_Images/Fetch_connected_apps_1.png)
 
 [[info | **NOTE**:]]
 | Ensure that none of the checkboxes in the API section are selected.
 
 2. On the **Verify Your Identity** window, enter OTP sent to the admin email. 
-![Verify](https://s3.amazonaws.com/static-docs.testsigma.com/new_images/projects/faq/Fetch_connected_apps_2.png)
+![Verify](https://s3.amazonaws.com/website-static-docs.testsigma.com/new_images/projects/Updated_Doc_Images/Fetch_connected_apps_2.png)
 
 3. Upon verification, the **Consumer Details** page will be displayed with **Consumer Key** and **Consumer Secret**. 
-![Consumer Details](https://s3.amazonaws.com/static-docs.testsigma.com/new_images/projects/faq/Fetch_connected_apps_3.png)
+![Consumer Details](https://s3.amazonaws.com/website-static-docs.testsigma.com/new_images/projects/Updated_Doc_Images/Fetch_connected_apps_3.png)
 
 4. For Security Token, go to **My Personal Information > Reset My Security Token** and click on **Reset Security Token**. A new token will be sent to admin mail. Please refer to <a href="https://help.salesforce.com/s/articleView?id=xcloud.user_security_token.htm&type=5" rel="nofollow">Salesforce</a> for more information. 
 

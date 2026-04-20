@@ -35,7 +35,7 @@ Testsigma Gearset integration allows you to trigger test plan execution every ti
 
 1. On **Outgoing webhooks** section, 
 
-   ![Details in Webhook](https://s3.amazonaws.com/static-docs.testsigma.com/new_images/projects/applications/Config_in_Gearset.png)
+   ![Details in Webhook](https://s3.amazonaws.com/website-static-docs.testsigma.com/new_images/projects/Updated_Doc_Images/Config_in_Gearset.png)
 
    - Enter the **API Endpoint** from **cURL** in the **Outgoing webhook url** field. 
     [[info | **NOTE**:]]
@@ -66,7 +66,7 @@ Testsigma Gearset integration allows you to trigger test plan execution every ti
 
     [[info | **NOTE**:]]
     | You can find the **Execution ID** under **Test Plans > CI/CD Integrations > REST API call to start Test Plan**
-    | ![Env ID](https://s3.amazonaws.com/static-docs.testsigma.com/new_images/projects/applications/Gearset_Exe_ID.png)
+    | ![Env ID](https://s3.amazonaws.com/website-static-docs.testsigma.com/new_images/projects/Updated_Doc_Images/Gearset_Exe_ID.png)
 
 
 2. Go to **Notifications**, click **Save CI Job**. 

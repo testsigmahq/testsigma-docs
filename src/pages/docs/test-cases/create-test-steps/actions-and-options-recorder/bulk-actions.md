@@ -36,25 +36,25 @@ When test steps are recorded using test recorder, Testsigma gives you the option
 
 Once the steps are recorded, click the **checkboxes** next to each test step to select the **steps** you want to include in the **bulk action**.
 
-![Check Steps](https://s3.amazonaws.com/static-docs.testsigma.com/new_images/projects/applications/BulkActionsOnTestSteps.png)
+![Check Steps](https://s3.amazonaws.com/website-static-docs.testsigma.com/new_images/projects/Updated_Doc_Images/BulkActionsOnTestSteps.png)
 
 You can perform following actions on selected test steps:
 
 - **Update Settings**: You can use this option to update settings for the selected test steps all at once.
       
-    ![Update Settings](https://s3.amazonaws.com/static-docs.testsigma.com/new_images/projects/applications/BulkUpdate_Settings.png)
+    ![Update Settings](https://s3.amazonaws.com/website-static-docs.testsigma.com/new_images/projects/Updated_Doc_Images/BulkUpdate_Settings.png)
 
 - **Create Block**: Use this option to create a block from the selected test steps. This will help you manage and structure your test cases.
 
-    ![Create Block](https://s3.amazonaws.com/static-docs.testsigma.com/new_images/projects/applications/CreateBlock_BulkActions.png)
+    ![Create Block](https://s3.amazonaws.com/website-static-docs.testsigma.com/new_images/projects/Updated_Doc_Images/CreateBlock_BulkActions.png)
 
 - **Create Step Group**: Use this option to create a step group from the selected test steps. This will help you manage and structure your test cases.
     
-    ![Create Step Group](https://s3.amazonaws.com/static-docs.testsigma.com/new_images/projects/applications/StepGroup_BulkAction.png)
+    ![Create Step Group](https://s3.amazonaws.com/website-static-docs.testsigma.com/new_images/projects/Updated_Doc_Images/StepGroup_BulkAction.png)
 
 
 - **Delete**: You can delete the selected test steps in bulk if they are no longer needed.
 
-    ![Delete Selected](https://s3.amazonaws.com/static-docs.testsigma.com/new_images/projects/applications/Delete_BulkAction.png) 
+    ![Delete Selected](https://s3.amazonaws.com/website-static-docs.testsigma.com/new_images/projects/Updated_Doc_Images/Delete_BulkAction.png) 
 
 ---

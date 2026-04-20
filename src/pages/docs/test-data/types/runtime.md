@@ -31,7 +31,7 @@ In Testsigma, Runtime Test Data allows you to save data gathered while running a
 <br>
 
 <div style="position: relative; padding-bottom: 56.25%; height: 0; overflow: hidden;">
-  <iframe src="https://s3.amazonaws.com/static-docs.testsigma.com/new_images/projects/New_Doc_Videos/Using_Runtime_Test_Data.mp4" 
+  <iframe src="https://s3.amazonaws.com/website-static-docs.testsigma.com/new_images/projects/Updated_Doc_Images/Using_Runtime_Test_Data.mp4" 
           style="position: absolute; top: 0; left: 0; width: 100%; height: 100%; border: 0;" 
           allowfullscreen>
   </iframe>
@@ -51,7 +51,7 @@ In Testsigma, Runtime Test Data allows you to save data gathered while running a
 1. Use the **Store** keyword in **NLP** to create a **new step** in the **test case** for saving a dynamic value as Runtime data.
    
 2. **Remove** the **test data** placeholder, enter the **text** by storing the data in the text, and click **Create Step** to generate a runtime variable.
-   ![Store Variable](https://s3.amazonaws.com/static-docs.testsigma.com/new_images/projects/Updated_Doc_Images/Store_Variable.png)
+   ![Store Variable](https://s3.amazonaws.com/website-static-docs.testsigma.com/new_images/projects/Updated_Doc_Images/Store_Variable.png)
 
 [[info | NOTE:]]
 | During the first test run, the application stores the runtime variables and keeps them accessible for future runs. If you need to rerun a test that fails, the application will automatically apply the runtime variables from the initial run.
@@ -82,12 +82,12 @@ In Testsigma, Runtime Test Data allows you to save data gathered while running a
 1. Use **NLP** to create a **new step** in the **Test Case** and include a placeholder for **test data**.
    
 2. Click the **test data** placeholder to replace it, and then select the **$ Runtime** from the **Test Data Types** dropdown menu.
-   ![Runtime Test Data](https://s3.amazonaws.com/static-docs.testsigma.com/new_images/projects/Updated_Doc_Images/Runtime_Test_Data_Type.png)
+   ![Runtime Test Data](https://s3.amazonaws.com/website-static-docs.testsigma.com/new_images/projects/Updated_Doc_Images/Runtime_Test_Data_Type.png)
   
 3. A list of runtime variables already created in the project will appear in the **Runtime Variables** overlay.
 
 4. Select the **Runtime Variable** from the overlay or **search** for a runtime variable and insert it into the test steps. 
-   ![Select Variable](https://s3.amazonaws.com/static-docs.testsigma.com/new_images/projects/Updated_Doc_Images/Runtime_Variable_Overlay.png)
+   ![Select Variable](https://s3.amazonaws.com/website-static-docs.testsigma.com/new_images/projects/Updated_Doc_Images/Runtime_Variable_Overlay.png)
 
    You can also click the **Switch Project** button in the overlay, select the **Project**, Application, and Version, and use a Runtime Variable created in other projects. 
   

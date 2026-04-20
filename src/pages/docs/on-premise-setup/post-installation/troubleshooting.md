@@ -27,7 +27,7 @@ This article provides troubleshooting guide for general and network issues relat
 
 ### **1. Application Not Accessible**
 
-   ![IP List](https://s3.amazonaws.com/static-docs.testsigma.com/new_images/projects/applications/OnPrem_Trobleshooting_IPList.png)
+   ![IP List](https://s3.amazonaws.com/website-static-docs.testsigma.com/new_images/projects/Updated_Doc_Images/OnPrem_Trobleshooting_IPList.png)
 
 **Host Configuration:**
 - Open the **/etc/hosts** file on the server using a text editor.
@@ -48,7 +48,7 @@ This article provides troubleshooting guide for general and network issues relat
 
 ### **2. Server Refused to Connect:**
 
-   ![Server Refused to Connect](https://s3.amazonaws.com/static-docs.testsigma.com/new_images/projects/applications/OnPrem_Troubleshooting_Server_Refused.png)
+   ![Server Refused to Connect](https://s3.amazonaws.com/website-static-docs.testsigma.com/new_images/projects/Updated_Doc_Images/OnPrem_Troubleshooting_Server_Refused.png)
 
 **a. Check if the Server is Running:**
 - Connect to the server machine.
@@ -56,7 +56,7 @@ This article provides troubleshooting guide for general and network issues relat
 - Check the Testsigma server status by running:
    - ***docker ps -a***
 - Ensure all containers are Up.
-  ![Servers Up](https://s3.amazonaws.com/static-docs.testsigma.com/new_images/projects/applications/OnPrem_ServersUp.png)
+  ![Servers Up](https://s3.amazonaws.com/website-static-docs.testsigma.com/new_images/projects/Updated_Doc_Images/OnPrem_ServersUp.png)
 
 **b. If Any Container is Shown as "Exited"**
 - Get the logs of that container and check the reason for failure.
@@ -70,7 +70,7 @@ If you're still facing the issue, contact **support@testsigma.com**.
 ### **3. Checking the Logs of the Containers:**
 
 - Choose the container name as mentioned in the image below:
-  ![Check Logs](https://s3.amazonaws.com/static-docs.testsigma.com/new_images/projects/applications/Onprem_Testsigma_Server.png)
+  ![Check Logs](https://s3.amazonaws.com/website-static-docs.testsigma.com/new_images/projects/Updated_Doc_Images/Onprem_Testsigma_Server.png)
 
 - Execute the following command to check and print all the server logs in the command line:
    - ***docker logs -f testsigma-app-server***
@@ -82,7 +82,7 @@ If you're still facing the issue, contact **support@testsigma.com**.
 ### **4. Sharing the Logs with the Testsigma Team:**
 
 - Choose the container name as mentioned in the image below:
-  ![Check Logs](https://s3.amazonaws.com/static-docs.testsigma.com/new_images/projects/applications/Onprem_Testsigma_Server.png)
+  ![Check Logs](https://s3.amazonaws.com/website-static-docs.testsigma.com/new_images/projects/Updated_Doc_Images/Onprem_Testsigma_Server.png)
 
 - Execute the following command to copy the logs from the container to the server by replacing **&lt;destination_location&gt;** with the desired directory path on the server:
    - ***docker cp testsigma-app-server:/opt/logs <destination_location>/***
@@ -99,11 +99,11 @@ If you're still facing the issue, contact **support@testsigma.com**.
 
 - Use the dig command to find the IP address associated with the domain: <br><br>
   **For Example:** ```dig app-testsigma.de.youcompany.com```
-  ![IP Address](https://s3.amazonaws.com/static-docs.testsigma.com/new_images/projects/applications/IPListOnprem.png)
+  ![IP Address](https://s3.amazonaws.com/website-static-docs.testsigma.com/new_images/projects/Updated_Doc_Images/IPListOnprem.png)
 
 - Alternatively, you use the **nslookup** command: <br><br>
   **For Example:** ```dig app-testsigma.de.youcompany.com```
-  ![IP Address from NS Lookup](https://s3.amazonaws.com/static-docs.testsigma.com/new_images/projects/applications/IPListNSLookUPOnprem.png)
+  ![IP Address from NS Lookup](https://s3.amazonaws.com/website-static-docs.testsigma.com/new_images/projects/Updated_Doc_Images/IPListNSLookUPOnprem.png)
 
 
 ---
@@ -112,7 +112,7 @@ If you're still facing the issue, contact **support@testsigma.com**.
 - Use the **nc -vz &lt;ip-address&gt; 443** command to check the connection to the retrieved IP address on port 443:<br><br>
 
   **For Example:** ```nc -vz 18.215.41.231 443``` <br><br>
-  ![Check Connection](https://s3.amazonaws.com/static-docs.testsigma.com/new_images/projects/applications/OnpremConnection.png)
+  ![Check Connection](https://s3.amazonaws.com/website-static-docs.testsigma.com/new_images/projects/Updated_Doc_Images/OnpremConnection.png)
 
    This command will confirm if the connection to the specified IP address and port is successful.
 
@@ -128,6 +128,6 @@ If you're still facing the issue, contact **support@testsigma.com**.
     **For Example:** <br><br>
     ```curl -H "Host: http://app.testsigma.com" http://52.1.167.174:80/```
 
-    ![CURL Check](https://s3.amazonaws.com/static-docs.testsigma.com/new_images/projects/applications/OnpremCURLcheck.png)
+    ![CURL Check](https://s3.amazonaws.com/website-static-docs.testsigma.com/new_images/projects/Updated_Doc_Images/OnpremCURLcheck.png)
 
 ---

@@ -45,65 +45,65 @@ The Label Management feature in Testsigma helps you manage labels linked to test
 ## **Steps to Create a Label**
 
 1. From the left navigation bar, go to **Settings > Labels**, and click **Add New Label** in the top-right corner.
-   ![Navigation](https://s3.amazonaws.com/static-docs.testsigma.com/new_images/projects/applications/Label_Management.png)
+   ![Navigation](https://s3.amazonaws.com/website-static-docs.testsigma.com/new_images/projects/Updated_Doc_Images/Label_Management.png)
 
 2. Enter a name and click the tick mark icon to save the label.
-   ![Name](https://s3.amazonaws.com/static-docs.testsigma.com/new_images/projects/applications/New_Label_Name.png)
+   ![Name](https://s3.amazonaws.com/website-static-docs.testsigma.com/new_images/projects/Updated_Doc_Images/New_Label_Name.png)
 
 3. The label will be added to the list.
-   ![List](https://s3.amazonaws.com/static-docs.testsigma.com/new_images/projects/applications/New_Label_Added.png)
+   ![List](https://s3.amazonaws.com/website-static-docs.testsigma.com/new_images/projects/Updated_Doc_Images/New_Label_Added.png)
 
 [[info | **NOTE**:]]
 | - You can edit the label by clicking on the **Edit** icon corresponding to the label. 
-|   ![Edit](https://s3.amazonaws.com/static-docs.testsigma.com/new_images/projects/applications/Edit_Label_Icon.png)
+|   ![Edit](https://s3.amazonaws.com/website-static-docs.testsigma.com/new_images/projects/Updated_Doc_Images/Edit_Label_Icon.png)
 | 
 | - You can delete the label by clicking on the **Delete** icon corresponding to the label.
-|   ![Delete](https://s3.amazonaws.com/static-docs.testsigma.com/new_images/projects/applications/Delete_Label_Icon.png)
+|   ![Delete](https://s3.amazonaws.com/website-static-docs.testsigma.com/new_images/projects/Updated_Doc_Images/Delete_Label_Icon.png)
 
 ---
 
 ## **Steps to Associate Label to Test Case**
 
 1. From the left navigation bar, go to **Create Tests > Test Cases**.
-   ![Test Cases](https://s3.amazonaws.com/static-docs.testsigma.com/new_images/projects/applications/Test_Cases_Labels.png)
+   ![Test Cases](https://s3.amazonaws.com/website-static-docs.testsigma.com/new_images/projects/Updated_Doc_Images/Test_Cases_Labels.png)
 
 2. Create a test case or open an existing test case.
 
 3. In the **Utility Panel**, click **Manage Test Case**, and scroll down to **Labels**.
-   ![Utility Panel](https://s3.amazonaws.com/static-docs.testsigma.com/new_images/projects/applications/Utility_Panel_Labels.png)
+   ![Utility Panel](https://s3.amazonaws.com/website-static-docs.testsigma.com/new_images/projects/Updated_Doc_Images/Utility_Panel_Labels.png)
 
 4. Click **Labels**, then select the labels you want to associate with the test case from the dropdown menu.
-   ![Labels](https://s3.amazonaws.com/static-docs.testsigma.com/new_images/projects/applications/Labels_Select.png)
+   ![Labels](https://s3.amazonaws.com/website-static-docs.testsigma.com/new_images/projects/Updated_Doc_Images/Labels_Select.png)
 
 5. Now go to **Settings > Labels**, select a label, and click the number corresponding to it to view assets associated with a label. 
-   ![Settings > Labels](https://s3.amazonaws.com/static-docs.testsigma.com/new_images/projects/applications/Linked_Number_Labels.png)
+   ![Settings > Labels](https://s3.amazonaws.com/website-static-docs.testsigma.com/new_images/projects/Updated_Doc_Images/Linked_Number_Labels.png)
 
 
 [[info | **NOTE**:]]
 |
 | - You can link labels to **Step Groups** from the **Manage Step Group** panel.
-|   ![Manage Step Group](https://s3.amazonaws.com/static-docs.testsigma.com/new_images/projects/applications/Step_Group_Labels.png)
+|   ![Manage Step Group](https://s3.amazonaws.com/website-static-docs.testsigma.com/new_images/projects/Updated_Doc_Images/Step_Group_Labels.png)
 | 
 | - You can link labels to **Elements** from the **Update Element** overlay.
-|   ![Update Element](https://s3.amazonaws.com/static-docs.testsigma.com/new_images/projects/applications/Element_Details_Labels.png)
+|   ![Update Element](https://s3.amazonaws.com/website-static-docs.testsigma.com/new_images/projects/Updated_Doc_Images/Element_Details_Labels.png)
 | 
 | - You can link labels to **Test Suites** from the **Test Suite Info** overlay.
-|   ![Test Suite Info](https://s3.amazonaws.com/static-docs.testsigma.com/new_images/projects/applications/Test_Suite_Labels.png)
+|   ![Test Suite Info](https://s3.amazonaws.com/website-static-docs.testsigma.com/new_images/projects/Updated_Doc_Images/Test_Suite_Labels.png)
 | 
 | - You can link labels to **Test Plans** from the **Test Plan Details** overlay.
-|   ![Test Plan Details](https://s3.amazonaws.com/static-docs.testsigma.com/new_images/projects/applications/Test_Plan_Labels.png)
+|   ![Test Plan Details](https://s3.amazonaws.com/website-static-docs.testsigma.com/new_images/projects/Updated_Doc_Images/Test_Plan_Labels.png)
 
 6. All entities linked to a label, such as Test Cases, Elements, Step Groups, Test Suites, and Test Plans, appear in this dialog.
-   ![All Links](https://s3.amazonaws.com/static-docs.testsigma.com/new_images/projects/applications/Labels_Linked_Entities.png)
+   ![All Links](https://s3.amazonaws.com/website-static-docs.testsigma.com/new_images/projects/Updated_Doc_Images/Labels_Linked_Entities.png)
 
 ---
 
 ## **Steps to Unlink Labels from Entities**
 
 1. From the left navigation bar, go to **Settings > Labels**, select a label, and click the number corresponding to it to view the associated assets.
-   ![Settings](https://s3.amazonaws.com/static-docs.testsigma.com/new_images/projects/applications/Linked_Entities_Number.png)
+   ![Settings](https://s3.amazonaws.com/website-static-docs.testsigma.com/new_images/projects/Updated_Doc_Images/Linked_Entities_Number.png)
 
 2. In the **Linked Entities** dialog, go to the **Entity** tab, select the assets you want to unlink, and click **Remove Link**.
-   ![Remove Link](https://s3.amazonaws.com/static-docs.testsigma.com/new_images/projects/applications/Remove_Link_Labels.png)
+   ![Remove Link](https://s3.amazonaws.com/website-static-docs.testsigma.com/new_images/projects/Updated_Doc_Images/Remove_Link_Labels.png)
 
 ---

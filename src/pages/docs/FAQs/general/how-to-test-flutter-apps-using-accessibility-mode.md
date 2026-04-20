@@ -27,7 +27,7 @@ However, Flutter offers built-in accessibility support through a semantic tree, 
 2. Select **Inspect** from the context menu.
 
 3. In the **Elements** tab, look for a hidden element that looks like this:
-   ![Flutter app](https://s3.amazonaws.com/static-docs.testsigma.com/new_images/projects/faq/Flutter_Apps_1.png)
+   ![Flutter app](https://s3.amazonaws.com/website-static-docs.testsigma.com/new_images/projects/Updated_Doc_Images/Flutter_Apps_1.png)
 
 4. Click on the hidden element so it becomes selected in the DOM. 
 
@@ -39,7 +39,7 @@ However, Flutter offers built-in accessibility support through a semantic tree, 
 $0.click();
 ```
 7. Check the **Elements** tab again. A whole new tree of elements will be added to the DOM. You should now see elements like:
-   ![Flutter apps 2](https://s3.amazonaws.com/static-docs.testsigma.com/new_images/projects/faq/Flutter_apps_2.png)
+   ![Flutter apps 2](https://s3.amazonaws.com/website-static-docs.testsigma.com/new_images/projects/Updated_Doc_Images/Flutter_apps_2.png)
 
 8. Use these aria-label values to locate elements in your automation tests. 
 
@@ -53,7 +53,7 @@ $0.click();
 |     - You validate elements using aria-label or semantic attributes, not just visible screen text.
  
 11. Run your test. It should now successfully interact with the Flutter UI using accessibility-based locators.
-    ![Flutter apps 3](https://s3.amazonaws.com/static-docs.testsigma.com/new_images/projects/faq/Flutter_3.png)
+    ![Flutter apps 3](https://s3.amazonaws.com/website-static-docs.testsigma.com/new_images/projects/Updated_Doc_Images/Flutter_3.png)
     
 [[info | NOTE:]]
 | - Accessibility mode is not supported on iOS devices when using the Safari browser.

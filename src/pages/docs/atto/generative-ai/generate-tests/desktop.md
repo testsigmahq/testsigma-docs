@@ -47,7 +47,7 @@ Testsigma’s Gen AI capabilities help you streamline test case creation for Des
       - If you select **Story**, choose the stories you want to generate test cases for.
    - Click **Save**.
 
-     ![Story Inputs for Desktop](https://s3.amazonaws.com/static-docs.testsigma.com/new_images/projects/atto/desktop_1.png)
+     ![Story Inputs for Desktop](https://s3.amazonaws.com/website-static-docs.testsigma.com/new_images/projects/Updated_Doc_Images/desktop_1.png)
 
 [[info | **NOTE**:]]
 | You can add more input sources for test case generation by selecting necessary option in the **Generate Test Cases** section.

@@ -37,31 +37,31 @@ Once you have the elements, using NLPs, you can swiftly create automated tests f
 ## **Steps to Create Multiple Elements**
 
 1. From the left navigation bar, go to **Create Tests > Elements**.
-![Elements](https://s3.amazonaws.com/static-docs.testsigma.com/new_images/projects/elements/update_elements_1.png)
+![Elements](https://s3.amazonaws.com/website-static-docs.testsigma.com/new_images/projects/Updated_Doc_Images/update_elements_1.png)
 
 2. Click on **Record** on the top right corner. 
-![Record](https://s3.amazonaws.com/static-docs.testsigma.com/new_images/projects/elements/update_elements_2.png)
+![Record](https://s3.amazonaws.com/website-static-docs.testsigma.com/new_images/projects/Updated_Doc_Images/update_elements_2.png)
 
 3. This will open a new tab. Enter the URL from which you want to capture the elements. The Testsigma test recorder will appear and will be ready to start recording. Here, we entered the URL for Simply Travel Web.
-![New Window](https://s3.amazonaws.com/static-docs.testsigma.com/new_images/projects/elements/update_elements_3.png)
+![New Window](https://s3.amazonaws.com/website-static-docs.testsigma.com/new_images/projects/Updated_Doc_Images/update_elements_3.png)
 
 4. Hover over the element you want to capture and make sure that it is highlighted in green (for example, here we are capturing the **Login or Signup** field):
-![Element](https://s3.amazonaws.com/static-docs.testsigma.com/new_images/projects/elements/update_elements_4.png)
+![Element](https://s3.amazonaws.com/website-static-docs.testsigma.com/new_images/projects/Updated_Doc_Images/update_elements_4.png)
 
 5. Click on the hovered element and wait for the element to appear in the recorder.
-![Element in Recorder](https://s3.amazonaws.com/static-docs.testsigma.com/new_images/projects/elements/update_elements_5.png)
+![Element in Recorder](https://s3.amazonaws.com/website-static-docs.testsigma.com/new_images/projects/Updated_Doc_Images/update_elements_5.png)
 
 6. Repeat steps 4 and 5 for every element you want to capture.
 
 7. Once you have captured the elements, click on **Stop**.
-![Stop](https://s3.amazonaws.com/static-docs.testsigma.com/new_images/projects/elements/update_elements_6.png)
+![Stop](https://s3.amazonaws.com/website-static-docs.testsigma.com/new_images/projects/Updated_Doc_Images/update_elements_6.png)
 
 8. You'll be redirected to the **Elements** page, where you can see all recorded elements.
 
 
 [[info | **NOTE**:]]
 | The Testsigma gear icon blinks while you are recording elements. When you pause the recording, the gear icon stops blinking. 
-| ![Blink](https://s3.amazonaws.com/static-docs.testsigma.com/new_images/projects/elements/update_elements_7.png)
+| ![Blink](https://s3.amazonaws.com/website-static-docs.testsigma.com/new_images/projects/Updated_Doc_Images/update_elements_7.png)
 
 
 

@@ -36,18 +36,18 @@ Managing a long list of Agents can make selecting the right Agent while executin
 ## **Steps to Soft Delete an Agent**
 
 1. From the dashboard, go to **Agents**.
-![Agents](https://s3.amazonaws.com/static-docs.testsigma.com/new_images/projects/agents/update_agents_1.png)
+![Agents](https://s3.amazonaws.com/website-static-docs.testsigma.com/new_images/projects/Updated_Doc_Images/update_agents_1.png)
 
 2. Click the ellipsis icon against an agent that you want to delete and click **Obsolete**. 
-![obsolete](https://s3.amazonaws.com/static-docs.testsigma.com/new_images/projects/agents/update_agents_2.png)
+![obsolete](https://s3.amazonaws.com/website-static-docs.testsigma.com/new_images/projects/Updated_Doc_Images/update_agents_2.png)
 
 3. In the **Obsolete agent?** dialog, click **Obsolete Agent**.
-![Obsolete Agent](https://s3.amazonaws.com/static-docs.testsigma.com/new_images/projects/agents/update_agents_3.png)
+![Obsolete Agent](https://s3.amazonaws.com/website-static-docs.testsigma.com/new_images/projects/Updated_Doc_Images/update_agents_3.png)
 
 4. The agent will move to the obsolete state.
 
 [[info | **NOTE**:]]
-| - To restore an obsolete agent, click **Restore** next to the agent you want to reactivate. ![Restore](https://s3.amazonaws.com/static-docs.testsigma.com/new_images/projects/agents/update_agents_4.png)
+| - To restore an obsolete agent, click **Restore** next to the agent you want to reactivate. ![Restore](https://s3.amazonaws.com/website-static-docs.testsigma.com/new_images/projects/Updated_Doc_Images/update_agents_4.png)
 | - An agent in the obsolete state will not allow the user to execute tests.
 
 ---
@@ -55,12 +55,12 @@ Managing a long list of Agents can make selecting the right Agent while executin
 ## **Steps to Delete Agents Permanently**
 
 1. From the dashboard, go to **Agents**. 
-![Agents](https://s3.amazonaws.com/static-docs.testsigma.com/new_images/projects/agents/update_agents_1.png)
+![Agents](https://s3.amazonaws.com/website-static-docs.testsigma.com/new_images/projects/Updated_Doc_Images/update_agents_1.png)
 
 2. Click the ellipsis icon against the agent and click **Delete Permanently**. 
-![Delete](https://s3.amazonaws.com/static-docs.testsigma.com/new_images/projects/agents/update_agents_5.png)
+![Delete](https://s3.amazonaws.com/website-static-docs.testsigma.com/new_images/projects/Updated_Doc_Images/update_agents_5.png)
 
 3. In the **Delete Agent Permanently?** dialog, click **Delete Permanently**.
-![Delete Permanently](https://s3.amazonaws.com/static-docs.testsigma.com/new_images/projects/agents/update_agents_6.png)
+![Delete Permanently](https://s3.amazonaws.com/website-static-docs.testsigma.com/new_images/projects/Updated_Doc_Images/update_agents_6.png)
 
 ---

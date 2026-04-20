@@ -48,7 +48,7 @@ You can use the Azure Active Directory Admin Center to enable single sign-on (SS
 ## **I. Adding Testsigma Enterprise Application**
 
 1. Login to <a href="https://portal.azure.com" rel="nofollow">Azure</a> portal. 
-![Azure management portal](https://s3.amazonaws.com/static-docs.testsigma.com/new_images/projects/applications/mazsso.png)
+![Azure management portal](https://s3.amazonaws.com/website-static-docs.testsigma.com/new_images/projects/Updated_Doc_Images/mazsso.png)
 
 2. Click the **View** button below **“Manage Microsoft Entra ID”.**
 
@@ -108,17 +108,17 @@ You will be taken to the Setup Single Sign-on with SAML screen as shown below:
 |    - Click **Settings** under the **Others** section on the home screen. 
 |    - In the **Settings** panel, scroll down to **Organization Settings** and click **Security (SSO)**.
 |    - In the **Single Sign-On (SSO)** settings, enable the **SAML** toggle.  
-|    ![Choose identity provider as SAML](https://s3.amazonaws.com/static-docs.testsigma.com/new_images/projects/faq/SAML_image.png)
+|    ![Choose identity provider as SAML](https://s3.amazonaws.com/website-static-docs.testsigma.com/new_images/projects/Updated_Doc_Images/SAML_image.png)
 |    - You will see an exclusive SAML token identifier for your account. When you hover over the **Entity ID**, **Sign On URL**, and **Relay State**, you will see an option to copy each value. You can click on it to copy the URLs directly.
-|    <img src="https://s3.amazonaws.com/static-docs.testsigma.com/new_images/projects/faq/Enable_SMAIL_SSo_Half.png" style="width: 400px;" />
+|    <img src="https://s3.amazonaws.com/website-static-docs.testsigma.com/new_images/projects/Updated_Doc_Images/Enable_SMAIL_SSo_Half.png" style="width: 400px;" />
    
 1. You need to put this identifier in place of **\<id>** in Step 3 and click **Save**.
-   ![Fill in basic configuration details for saml configuration](https://s3.amazonaws.com/static-docs.testsigma.com/new_images/projects/faq/first_three_steps_2.png)
+   ![Fill in basic configuration details for saml configuration](https://s3.amazonaws.com/website-static-docs.testsigma.com/new_images/projects/Updated_Doc_Images/first_three_steps_2.png)
 
 2. Click on the Edit button of Section 2 - **User Attributes & Claims**. Under **Required claim**, click the Claim name/Claim value.
 
 3. In the Manage Claim page that now appears, select **Source attribute** as **user.userprincipalname** from the dropdown.
-   ![Key/value-pairs attached to the user in Azure AD](https://s3.amazonaws.com/static-docs.testsigma.com/new_images/projects/applications/ssoazure.png)
+   ![Key/value-pairs attached to the user in Azure AD](https://s3.amazonaws.com/website-static-docs.testsigma.com/new_images/projects/Updated_Doc_Images/ssoazure.png)
 
 4. Click **Save** and go back to the previous SAML-based Sign-on page.
 
@@ -127,7 +127,7 @@ You will be taken to the Setup Single Sign-on with SAML screen as shown below:
     -  **Signing Option:** SAML response and assertion
 
     - **Signing Algorithm:** SHA-256
-![Drop-down](https://s3.amazonaws.com/static-docs.testsigma.com/new_images/projects/faq/drop_down_2.png)
+![Drop-down](https://s3.amazonaws.com/website-static-docs.testsigma.com/new_images/projects/Updated_Doc_Images/drop_down_2.png)
 
 That's all the configuration you need to perform on Azure App for SAML-based Sign-on.
 
@@ -146,7 +146,7 @@ You can just search for **\<X509Certificate>** and copy the value between first 
 11.   Note down the following values from **Section 4 - Set Up Testsigma App**.
     - **Azure AD Identifier**
     - **Login URL**
-    ![Azure AD Identifier](https://s3.amazonaws.com/static-docs.testsigma.com/new_images/projects/faq/set_up_4.png)
+    ![Azure AD Identifier](https://s3.amazonaws.com/website-static-docs.testsigma.com/new_images/projects/Updated_Doc_Images/set_up_4.png)
 
 We will use the **X509Certificate** value, also the values above in Testsigma app in the next section.
 
@@ -162,7 +162,7 @@ Inside your Testsigma account, navigate to **Settings>Security**
     - **SAML certificate:** Downloaded **\<X509Certificate>** value (obtained in previous section from downloaded XML file).
 This value resides within the tag: **\<X509Certificate>\<X509Certificate>** Paste this value.
 
-![Azure Specific SAML Configuration On Testsigma](https://s3.amazonaws.com/static-docs.testsigma.com/new_images/projects/faq/Enable_SMAIL_SSO_full.png)
+![Azure Specific SAML Configuration On Testsigma](https://s3.amazonaws.com/website-static-docs.testsigma.com/new_images/projects/Updated_Doc_Images/Enable_SMAIL_SSO_full.png)
 
 2. Click the **Confirm** button to finalize the changes. SAML will now be enabled. 
 

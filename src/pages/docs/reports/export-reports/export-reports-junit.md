@@ -41,6 +41,6 @@ You can conveniently export your test plan reports in XML format, specifically i
 3. Locate the **Export** icon next to the **Rerun** button for the chosen test plan on the run results page.
 4. Click the **Export** icon, and a dropdown list will appear.
 5. Select **JUnit Report** from the dropdown list to initiate the export of the Test Plan results.
-6. A report will be promptly generated and automatically downloaded in **XML** format. ![Export reports in JUint](https://s3.amazonaws.com/static-docs.testsigma.com/new_images/projects/reports/update_junit_1.png)
+6. A report will be promptly generated and automatically downloaded in **XML** format. ![Export reports in JUint](https://s3.amazonaws.com/website-static-docs.testsigma.com/new_images/projects/Updated_Doc_Images/update_junit_1.png)
 
 ---

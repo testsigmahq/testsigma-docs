@@ -43,11 +43,11 @@ Testsigma Recorder extensions in Firefox allow you to record end-to-end interact
 
 
 1. Navigate to **Extensions > Extension Settings > Manage Extensions**. 
-   ![Manage Extensions](https://s3.amazonaws.com/static-docs.testsigma.com/new_images/projects/applications/Firefox_Extensions.png)
+   ![Manage Extensions](https://s3.amazonaws.com/website-static-docs.testsigma.com/new_images/projects/Updated_Doc_Images/Firefox_Extensions.png)
 
 
 2. On **Testsigma Recorder Extension Details**, click **Meatballs** icon and select **Preferences**.
-   ![Recorder Details](https://s3.amazonaws.com/static-docs.testsigma.com/new_images/projects/applications/FF_Extension_Preferences.png)
+   ![Recorder Details](https://s3.amazonaws.com/website-static-docs.testsigma.com/new_images/projects/Updated_Doc_Images/FF_Extension_Preferences.png)
 
 
 3. You can see the following options:
@@ -58,7 +58,7 @@ Testsigma Recorder extensions in Firefox allow you to record end-to-end interact
    
    - Enable Developer Mode 
 
-![All Options](https://s3.amazonaws.com/static-docs.testsigma.com/new_images/projects/applications/Recorder_Options_Firefox.png)
+![All Options](https://s3.amazonaws.com/website-static-docs.testsigma.com/new_images/projects/Updated_Doc_Images/Recorder_Options_Firefox.png)
 
 
 ### **a. Enable Inspect Popover on Elements** 
@@ -90,14 +90,14 @@ After installing the extension, configure it as follows:
 1. Click the **Extension** icon in the top right corner.
 2. Navigate to **Manage Your Extensions**.
 3. In the **Testsigma Recorder** extension and click on the **Menu** icon, then select **Manage**.
-4. Under **Testsigma Recorder** details, go to the **Permission** tab and toggle on **Access your data for all windows**. ![Allow Extension to access data](https://s3.amazonaws.com/static-docs.testsigma.com/new_images/projects/applications/config_firefox_extensions.gif)
+4. Under **Testsigma Recorder** details, go to the **Permission** tab and toggle on **Access your data for all windows**. ![Allow Extension to access data](https://s3.amazonaws.com/website-static-docs.testsigma.com/new_images/projects/Updated_Doc_Images/config_firefox_extensions.gif)
 
 ### **Privacy & Security Settings** 
 
 1. Click the **Menu** icon and select **Settings**.
 2. Go to **Privacy & Security** and choose **Custom** in **Extended Tracking Protection**.
 3. In the **Custom settings**, select **Cookies from unvisited websites** from the dropdown next to Cookies. 
-4. Click **Reload All Tabs** to apply the changes in the browser. ![Choose Custom in Cookies](https://s3.amazonaws.com/static-docs.testsigma.com/new_images/projects/applications/privacy_firefox_custom.gif)
+4. Click **Reload All Tabs** to apply the changes in the browser. ![Choose Custom in Cookies](https://s3.amazonaws.com/website-static-docs.testsigma.com/new_images/projects/Updated_Doc_Images/privacy_firefox_custom.gif)
 
 [[info | NOTE:]]
 | This enables Testsigma Recorder to access all websites within the browser to record interactions. 

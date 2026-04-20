@@ -16,7 +16,7 @@ contextual_links:
 
 When downloading large files from the **Exports** page, you might encounter errors due to network interruptions, incomplete data fetches, or browser caching issues. Slow or unstable connections can result in partial file loads, while cached incomplete versions may also trigger errors during export.
 
-<img src="https://s3.amazonaws.com/static-docs.testsigma.com/new_images/projects/faq/Export.png" style="width: 400px;" />
+<img src="https://s3.amazonaws.com/website-static-docs.testsigma.com/new_images/projects/Updated_Doc_Images/Export.png" style="width: 400px;" />
 
 This article discusses how to resolve errors when exporting large files.
 
@@ -27,44 +27,44 @@ This article discusses how to resolve errors when exporting large files.
 ### **For Chrome**
 
 1. Open **Google Chrome** and click the **More options** icon in the top-right corner.
-   ![More Options](https://s3.amazonaws.com/static-docs.testsigma.com/new_images/projects/faq/PDF_Download_1.png)
+   ![More Options](https://s3.amazonaws.com/website-static-docs.testsigma.com/new_images/projects/Updated_Doc_Images/PDF_Download_1.png)
 
 2. Select **Settings** from the menu.
-   ![Settings](https://s3.amazonaws.com/static-docs.testsigma.com/new_images/projects/faq/PDF_Donwload_2.png)
+   ![Settings](https://s3.amazonaws.com/website-static-docs.testsigma.com/new_images/projects/Updated_Doc_Images/PDF_Donwload_2.png)
 
 3. In the **Settings** page, type **PDF** in the search bar.
-   ![PDF](https://s3.amazonaws.com/static-docs.testsigma.com/new_images/projects/faq/PDF_Donwload_3.png)
+   ![PDF](https://s3.amazonaws.com/website-static-docs.testsigma.com/new_images/projects/Updated_Doc_Images/PDF_Donwload_3.png)
 
 4. Click **Site Settings** under the search results.
-   ![Site Settings](https://s3.amazonaws.com/static-docs.testsigma.com/new_images/projects/faq/PDF_6.png)
+   ![Site Settings](https://s3.amazonaws.com/website-static-docs.testsigma.com/new_images/projects/Updated_Doc_Images/PDF_6.png)
 
 5. Scroll down, expand **Additional content settings**, and click **PDF documents**.
-   !![PDF Documents](https://s3.amazonaws.com/static-docs.testsigma.com/new_images/projects/faq/PDF_Download_4.png)
+   !![PDF Documents](https://s3.amazonaws.com/website-static-docs.testsigma.com/new_images/projects/Updated_Doc_Images/PDF_Download_4.png)
 
 6. Select the **Download PDFs** radio button.
-   ![Download PDF](https://s3.amazonaws.com/static-docs.testsigma.com/new_images/projects/faq/PDF_Download_5.png) 
+   ![Download PDF](https://s3.amazonaws.com/website-static-docs.testsigma.com/new_images/projects/Updated_Doc_Images/PDF_Download_5.png) 
 
 7. Return to the **Exports** page and click **Download** to reattempt the file download.
 
 ### **For Edge**
 
 1. Open **Microsoft Edge** and click the **More Options** icon in the top-right corner.
-   ![More options](https://s3.amazonaws.com/static-docs.testsigma.com/new_images/projects/faq/PDF_Edge_1.png)
+   ![More options](https://s3.amazonaws.com/website-static-docs.testsigma.com/new_images/projects/Updated_Doc_Images/PDF_Edge_1.png)
 
 2. Select **Settings** from the menu.
-   ![Settings](https://s3.amazonaws.com/static-docs.testsigma.com/new_images/projects/faq/PDF_Edge_2.png)
+   ![Settings](https://s3.amazonaws.com/website-static-docs.testsigma.com/new_images/projects/Updated_Doc_Images/PDF_Edge_2.png)
 
 3. In the **Settings** page, type **PDF** in the search bar.
-   ![PDF](https://s3.amazonaws.com/static-docs.testsigma.com/new_images/projects/faq/PDF_Edge_3.png)
+   ![PDF](https://s3.amazonaws.com/website-static-docs.testsigma.com/new_images/projects/Updated_Doc_Images/PDF_Edge_3.png)
 
 4. Click **All Permissions** under the search results.
-   ![All Permissions](https://s3.amazonaws.com/static-docs.testsigma.com/new_images/projects/faq/PDF_Edge_4.png)
+   ![All Permissions](https://s3.amazonaws.com/website-static-docs.testsigma.com/new_images/projects/Updated_Doc_Images/PDF_Edge_4.png)
 
 5. Scroll down and select **PDF documents**.
-   ![PDF documents](https://s3.amazonaws.com/static-docs.testsigma.com/new_images/projects/faq/PDF_Edge_5.png)
+   ![PDF documents](https://s3.amazonaws.com/website-static-docs.testsigma.com/new_images/projects/Updated_Doc_Images/PDF_Edge_5.png)
 
 6. Enable the **Always download PDF files** toggle.
-   ![Toggle](https://s3.amazonaws.com/static-docs.testsigma.com/new_images/projects/faq/PDF_Edge_6.png)
+   ![Toggle](https://s3.amazonaws.com/website-static-docs.testsigma.com/new_images/projects/Updated_Doc_Images/PDF_Edge_6.png)
 
 7. Return to the **Exports** page and click the **Download** button to reattempt the file download.
 

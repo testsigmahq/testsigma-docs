@@ -45,7 +45,7 @@ You can quickly generate test cases for Salesforce requirements in Testsigma usi
       - If you select **Story**, choose the stories you want to generate test cases for.
    - Select the stories/epics for which you want to generate test cases and click **Save**.
      
-     ![Story Inputs](https://s3.amazonaws.com/static-docs.testsigma.com/new_images/projects/atto/sf_3.png)
+     ![Story Inputs](https://s3.amazonaws.com/website-static-docs.testsigma.com/new_images/projects/Updated_Doc_Images/sf_3.png)
      
 4. In the Prompt box, enter a detailed prompt that describes test cases want to generate.
 

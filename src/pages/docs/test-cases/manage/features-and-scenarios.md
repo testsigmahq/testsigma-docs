@@ -39,7 +39,7 @@ Introducing folder structure for test cases simplifies finding and managing test
 
 ## **Understanding Folder Structure**
 
-![Folders](https://s3.amazonaws.com/static-docs.testsigma.com/new_images/projects/applications/FlowofFolders.png)
+![Folders](https://s3.amazonaws.com/website-static-docs.testsigma.com/new_images/projects/Updated_Doc_Images/FlowofFolders.png)
 
 Let's say you're creating test cases for an **Online Shopping App**. 
 
@@ -78,42 +78,42 @@ Let's say you're creating test cases for an **Online Shopping App**.
 ## **Steps to Create Features** 
 
 1. From the left navigation bar, go to **Create Tests > Test Cases**.
-   ![Test Cases](https://s3.amazonaws.com/static-docs.testsigma.com/new_images/projects/test_cases/update_scenarios_1.png)
+   ![Test Cases](https://s3.amazonaws.com/website-static-docs.testsigma.com/new_images/projects/Updated_Doc_Images/update_scenarios_1.png)
 
 2. Click **+** and choose **New Feature** from the dropdown menu.
-   ![New Feature](https://s3.amazonaws.com/static-docs.testsigma.com/new_images/projects/test_cases/update_features_2.1.png)
+   ![New Feature](https://s3.amazonaws.com/website-static-docs.testsigma.com/new_images/projects/Updated_Doc_Images/update_features_2.1.png)
 
 3. In the **New Feature** dialog, enter a name for the feature and click **Add**.
-   ![Add](https://s3.amazonaws.com/static-docs.testsigma.com/new_images/projects/test_cases/update_features_3.png)
+   ![Add](https://s3.amazonaws.com/website-static-docs.testsigma.com/new_images/projects/Updated_Doc_Images/update_features_3.png)
 
 4. The new feature will appear under the **Test Cases** section.
-   ![Test Cases](https://s3.amazonaws.com/static-docs.testsigma.com/new_images/projects/test_cases/update_features_4.png)
+   ![Test Cases](https://s3.amazonaws.com/website-static-docs.testsigma.com/new_images/projects/Updated_Doc_Images/update_features_4.png)
 
 ---
 
 ## **Steps to Create Scenarios**
 
 1. From the left navigation bar, go to **Create Tests > Test Cases**.
-   ![Test Cases](https://s3.amazonaws.com/static-docs.testsigma.com/new_images/projects/test_cases/update_scenarios_1.png)
+   ![Test Cases](https://s3.amazonaws.com/website-static-docs.testsigma.com/new_images/projects/Updated_Doc_Images/update_scenarios_1.png)
 
 2. Click **+** and choose **New Scenario** from the dropdown menu.
-   ![New Scenario](https://s3.amazonaws.com/static-docs.testsigma.com/new_images/projects/test_cases/update_scenarios_2.png)
+   ![New Scenario](https://s3.amazonaws.com/website-static-docs.testsigma.com/new_images/projects/Updated_Doc_Images/update_scenarios_2.png)
 
 3. In the **Select Feature** dialog, choose the target feature and click **Next**. 
-   ![Select Feature](https://s3.amazonaws.com/static-docs.testsigma.com/new_images/projects/test_cases/update_scenarios_3.png)
+   ![Select Feature](https://s3.amazonaws.com/website-static-docs.testsigma.com/new_images/projects/Updated_Doc_Images/update_scenarios_3.png)
 
 4. In the dialog box that pops up, enter a name for the scenario and click **Create**.
-   ![Create](https://s3.amazonaws.com/static-docs.testsigma.com/new_images/projects/test_cases/update_scenarios_4.png)
+   ![Create](https://s3.amazonaws.com/website-static-docs.testsigma.com/new_images/projects/Updated_Doc_Images/update_scenarios_4.png)
 
 5. The new scenario will appear under **Test Cases > Feature**.
-   ![Test Case](https://s3.amazonaws.com/static-docs.testsigma.com/new_images/projects/test_cases/update_scenarios_5.png)
+   ![Test Case](https://s3.amazonaws.com/website-static-docs.testsigma.com/new_images/projects/Updated_Doc_Images/update_scenarios_5.png)
 
 6. Click **<** to minimize the **Features & Scenarios** section.
-   ![Expand](https://s3.amazonaws.com/static-docs.testsigma.com/new_images/projects/test_cases/update_scenarios_6.png)
+   ![Expand](https://s3.amazonaws.com/website-static-docs.testsigma.com/new_images/projects/Updated_Doc_Images/update_scenarios_6.png)
 
 [[info | **NOTE**:]]
 | - You can click **List View** and perform list actions here. For more information on managing list actions, refer to the [documentation on managing list actions](https://testsigma.com/docs/test-cases/manage/list-actions/).
 | - This will also help you filter test cases with **Scenarios** while creating test suites.
-| ![Filter While adding Test Cases](https://s3.amazonaws.com/static-docs.testsigma.com/new_images/projects/applications/FilterScenarios_TestSuites.png)
+| ![Filter While adding Test Cases](https://s3.amazonaws.com/website-static-docs.testsigma.com/new_images/projects/Updated_Doc_Images/FilterScenarios_TestSuites.png)
 
 ---

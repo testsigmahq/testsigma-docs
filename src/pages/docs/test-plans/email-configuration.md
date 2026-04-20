@@ -46,6 +46,6 @@ Setting up email notifications for test plans in Testsigma helps you stay inform
 5. If you want to use your Testsigma-registered email address, check the box labeled **Add my email**.
 6. If you prefer to receive notifications via chat, click the drop-down list below **Also Send messages to**.
 7. Select the chat channels where you want to receive the notifications, such as **Google Chat**, **Slack** or **Microsoft Teams**.
-8. Once all your preferences are set, click on **Create** or **Update** to save the changes. ![set up email configuration](https://s3.amazonaws.com/static-docs.testsigma.com/new_images/projects/test_plans/update_email_config_1.png)
+8. Once all your preferences are set, click on **Create** or **Update** to save the changes. ![set up email configuration](https://s3.amazonaws.com/website-static-docs.testsigma.com/new_images/projects/Updated_Doc_Images/update_email_config_1.png)
 
 ---

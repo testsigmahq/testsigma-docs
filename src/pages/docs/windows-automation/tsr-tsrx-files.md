@@ -43,6 +43,6 @@ Once you have a TSR file captured from UFT One, you must convert it to TSRx file
 
 Here's a quick GIF demonstrating how to convert a TSR files to TSRx.
 
-![TSR to TSRx](https://s3.amazonaws.com/static-docs.testsigma.com/new_images/projects/applications/TSR-TSRXWorkflow.gif)
+![TSR to TSRx](https://s3.amazonaws.com/website-static-docs.testsigma.com/new_images/projects/Updated_Doc_Images/TSR-TSRXWorkflow.gif)
 
 ---

@@ -24,14 +24,14 @@ After downloading Testsigma Terminal, you may encounter login issues caused by n
 ## **Steps to Resolve the Issue**
 
 1. In the **Testsigma Terminal** window, click **Retry Login**. You will be redirected to Testsigma.
-   ![Retry Login](https://s3.amazonaws.com/static-docs.testsigma.com/new_images/projects/troubleshooting_for_copilot/login_failed_1.png)
+   ![Retry Login](https://s3.amazonaws.com/website-static-docs.testsigma.com/new_images/projects/Updated_Doc_Images/login_failed_1.png)
 
 2. Click **Open the desktop app**. The **Testsigma Terminal** opens. 
-   ![Open the Desktop App](https://s3.amazonaws.com/static-docs.testsigma.com/new_images/projects/troubleshooting_for_copilot/login_failed_2.png)
+   ![Open the Desktop App](https://s3.amazonaws.com/website-static-docs.testsigma.com/new_images/projects/Updated_Doc_Images/login_failed_2.png)
 
 3. Wait until **Testsigma Terminal** downloads the necessary files and completes the installation.
 
 4. If the issue persists, click **Contact Support** and reach out to our Support team for assistance.
-   ![Contact Support](https://s3.amazonaws.com/static-docs.testsigma.com/new_images/projects/troubleshooting_for_copilot/login_failed_3.png)
+   ![Contact Support](https://s3.amazonaws.com/website-static-docs.testsigma.com/new_images/projects/Updated_Doc_Images/login_failed_3.png)
 
 ---

@@ -42,19 +42,19 @@ In Testsigma, you can send test plan status notifications to a specific Google C
 1. Open <a href="https://chat.google.com/" rel="nofollow">Google Chat</a>, and select the **Chat Space** where you want to add the connector.
 
 2. Click the **Space Name**, and select **Apps & Integrations**.
-   ![Apps & Integrations](https://s3.amazonaws.com/static-docs.testsigma.com/new_images/projects/applications/gchat_Integrations.png)
+   ![Apps & Integrations](https://s3.amazonaws.com/website-static-docs.testsigma.com/new_images/projects/Updated_Doc_Images/gchat_Integrations.png)
 
 3. Under **Integrations**, go to **Webhooks** and click **Add Webhook**.
-   ![Add Webhook](https://s3.amazonaws.com/static-docs.testsigma.com/new_images/projects/applications/Add_Webhook_gchat.png)
+   ![Add Webhook](https://s3.amazonaws.com/website-static-docs.testsigma.com/new_images/projects/Updated_Doc_Images/Add_Webhook_gchat.png)
 
 4. In the **Incoming webhooks** dialog, enter a **Webhook Name**, and optionally upload an image/avatar URL.
-   ![Name & Image](https://s3.amazonaws.com/static-docs.testsigma.com/new_images/projects/applications/WebhookName_URL_gchat.png)
+   ![Name & Image](https://s3.amazonaws.com/website-static-docs.testsigma.com/new_images/projects/Updated_Doc_Images/WebhookName_URL_gchat.png)
 
 5. Click **Save**.
-   ![Save](https://s3.amazonaws.com/static-docs.testsigma.com/new_images/projects/applications/Save_Details_gchat.png)
+   ![Save](https://s3.amazonaws.com/website-static-docs.testsigma.com/new_images/projects/Updated_Doc_Images/Save_Details_gchat.png)
 
 6. Click **Copy link** to copy the generated Webhook URL.
-   ![Copy URL](https://s3.amazonaws.com/static-docs.testsigma.com/new_images/projects/applications/Copy_gchat_webhookURL.png)
+   ![Copy URL](https://s3.amazonaws.com/website-static-docs.testsigma.com/new_images/projects/Updated_Doc_Images/Copy_gchat_webhookURL.png)
 
 
 ---
@@ -63,15 +63,15 @@ In Testsigma, you can send test plan status notifications to a specific Google C
 
 
 1. Navigate to **Settings > Integrations**.
-![Integrations](https://s3.amazonaws.com/static-docs.testsigma.com/new_images/projects/applications/mstinav.png)
+![Integrations](https://s3.amazonaws.com/website-static-docs.testsigma.com/new_images/projects/Updated_Doc_Images/mstinav.png)
 
 
 2. Enable toggle on **Google Chat** widget.
-![G Chat Toggle](https://s3.amazonaws.com/static-docs.testsigma.com/new_images/projects/applications/gcietgle.png)
+![G Chat Toggle](https://s3.amazonaws.com/website-static-docs.testsigma.com/new_images/projects/Updated_Doc_Images/gcietgle.png)
 
 
 3. On the **Google Chat details** prompt, enter **Name**, **Connector URL** and click on **Save & Enable**.
-![Details](https://s3.amazonaws.com/static-docs.testsigma.com/new_images/projects/applications/gcisae.png)
+![Details](https://s3.amazonaws.com/website-static-docs.testsigma.com/new_images/projects/Updated_Doc_Images/gcisae.png)
 
 ---
 
@@ -82,19 +82,19 @@ Once the Google Chat integration is added, you can enable the Google Chat notifi
 
 
 1. On **Create Test Plan/Edit Test Plan** page, click on **Test Plan Settings**. 
-![TP Settings](https://s3.amazonaws.com/static-docs.testsigma.com/new_images/projects/applications/mstitpse.png)
+![TP Settings](https://s3.amazonaws.com/website-static-docs.testsigma.com/new_images/projects/Updated_Doc_Images/mstitpse.png)
 
 
 2. Enable **Send Notification** toggle.
-![Send Notification](https://s3.amazonaws.com/static-docs.testsigma.com/new_images/projects/applications/mstiet.png)
+![Send Notification](https://s3.amazonaws.com/website-static-docs.testsigma.com/new_images/projects/Updated_Doc_Images/mstiet.png)
 
 
 3. Under the **Notify On** section, select the status for which you want to be notified. You can select multiple statuses from the list.
-![Status](https://s3.amazonaws.com/static-docs.testsigma.com/new_images/projects/applications/mstimss.png)
+![Status](https://s3.amazonaws.com/website-static-docs.testsigma.com/new_images/projects/Updated_Doc_Images/mstimss.png)
 
 
 4. Under the **Also send messages to** dropdown, select **Google Chat**.
-![MS Teams](https://s3.amazonaws.com/static-docs.testsigma.com/new_images/projects/applications/gcisgc.png)
+![MS Teams](https://s3.amazonaws.com/website-static-docs.testsigma.com/new_images/projects/Updated_Doc_Images/gcisgc.png)
 
 
 ---

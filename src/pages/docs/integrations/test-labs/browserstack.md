@@ -48,7 +48,7 @@ Once the username and API key is obtained, navigate to the **Integrations** page
 
 Once the account details are added to the **Integrations** page, select **BrowserStack** as the **Test Lab** type instead of Testsigma Lab while creating an Ad-hoc run or Test Plan Run.
 
-![Select BrowserStack as the Test lab Type for Test Plan Run or Ad-hoc Run GIF](https://s3.amazonaws.com/static-docs.testsigma.com/new_images/projects/desired_capabilities/update_browserstack_1.png)
+![Select BrowserStack as the Test lab Type for Test Plan Run or Ad-hoc Run GIF](https://s3.amazonaws.com/website-static-docs.testsigma.com/new_images/projects/Updated_Doc_Images/update_browserstack_1.png)
 
 
 ---

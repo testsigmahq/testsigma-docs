@@ -44,11 +44,11 @@ Testsigma simplifies API test case migration by seamlessly importing Collections
 After exporting your Postman Collection as JSON or Zipped format, follow these steps to import it into Testsigma:
 
 1. Navigate to **Settings** > **Imports and Exports**.
-2. Click **Import** and select **Import Postman Collection** tab. ![Select Import Postman Collections](https://s3.amazonaws.com/static-docs.testsigma.com/new_images/projects/applications/import_postmancolection_envi.gif)
+2. Click **Import** and select **Import Postman Collection** tab. ![Select Import Postman Collections](https://s3.amazonaws.com/website-static-docs.testsigma.com/new_images/projects/Updated_Doc_Images/import_postmancolection_envi.gif)
 3. Click **Select File to Import** and choose the file to import; select the **project**, **application**, and **version**.
 4. After you upload the file, Testsigma organizes **Collections**, **Environments**, and **Variables** into **Test Suites**, **Test Cases**, **Test Steps**, **Test Data Profiles**, and **Environments**. This feature enables you to easily understand how the imported file is organized. 
-5. Click **Start Importing** to transfer a collection into Testsigma. ![Start Importing Collections file](https://s3.amazonaws.com/static-docs.testsigma.com/new_images/projects/applications/import_postman_collection.gif)
-6. Testsigma will notify you via **email** once the import is complete. ![Email Notification](https://s3.amazonaws.com/static-docs.testsigma.com/new_images/projects/overview/notify_import_ts.png)
+5. Click **Start Importing** to transfer a collection into Testsigma. ![Start Importing Collections file](https://s3.amazonaws.com/website-static-docs.testsigma.com/new_images/projects/Updated_Doc_Images/import_postman_collection.gif)
+6. Testsigma will notify you via **email** once the import is complete. ![Email Notification](https://s3.amazonaws.com/website-static-docs.testsigma.com/new_images/projects/Updated_Doc_Images/notify_import_ts.png)
 
 ---
 
@@ -57,10 +57,10 @@ After exporting your Postman Collection as JSON or Zipped format, follow these s
 Import your Postman Environments to Testsigma in JSON or Zipped format. Follow below the simple steps:
 
 1. Navigate to **Settings** > **Imports and Exports**.
-2. Click **Import** and select **Import Postman Collection** tab. ![Select Import Postman Collections](https://s3.amazonaws.com/static-docs.testsigma.com/new_images/projects/applications/import_postmancolection_envi.gif)
+2. Click **Import** and select **Import Postman Collection** tab. ![Select Import Postman Collections](https://s3.amazonaws.com/website-static-docs.testsigma.com/new_images/projects/Updated_Doc_Images/import_postmancolection_envi.gif)
 3. Click **Select File to Import** and choose the file to import; select the **project**, **application**, and **version**.
-4. Click **Start Importing** to transfer the environments into Testsigma. ![Start Importing Environment File](https://s3.amazonaws.com/static-docs.testsigma.com/new_images/projects/applications/import_postman_environment.gif)
-5. Testsigma will notify you via **email** once the import is complete. ![Email Notification Environments](https://s3.amazonaws.com/static-docs.testsigma.com/new_images/projects/overview/notify_envi_import_ts.png)
+4. Click **Start Importing** to transfer the environments into Testsigma. ![Start Importing Environment File](https://s3.amazonaws.com/website-static-docs.testsigma.com/new_images/projects/Updated_Doc_Images/import_postman_environment.gif)
+5. Testsigma will notify you via **email** once the import is complete. ![Email Notification Environments](https://s3.amazonaws.com/website-static-docs.testsigma.com/new_images/projects/Updated_Doc_Images/notify_envi_import_ts.png)
 6. After importing, Testsigma organizes **Environments** and **Global Variables** into **Environments**. This helps you quickly see how the imported file is mapped.
 
 [[info | NOTE:]]

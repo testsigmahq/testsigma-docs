@@ -35,16 +35,16 @@ In Testsigma, users can create and manage multiple projects and applications. Cr
 ## **Steps to Create a Salesforce Project**
 
 1. From the **Dashboard**, go to **Project** and click on **New Project**.
-![New SF Project](https://s3.amazonaws.com/static-docs.testsigma.com/new_images/projects/salesforce/update_sf_project_1.png)
+![New SF Project](https://s3.amazonaws.com/website-static-docs.testsigma.com/new_images/projects/Updated_Doc_Images/update_sf_project_1.png)
 
 2. On the **New project** page, 
     - Enter **Project name** and choose **Salesforce** from the **Application type** dropdown. 
-      ![Name & App Type](https://s3.amazonaws.com/static-docs.testsigma.com/new_images/projects/salesforce/update_sf_project_2.png)
+      ![Name & App Type](https://s3.amazonaws.com/website-static-docs.testsigma.com/new_images/projects/Updated_Doc_Images/update_sf_project_2.png)
     - Enter **Application** name, **Version** and click on **Create**.
-      ![App Name & Version](https://s3.amazonaws.com/static-docs.testsigma.com/new_images/projects/salesforce/update_sf_project_3.png)
+      ![App Name & Version](https://s3.amazonaws.com/website-static-docs.testsigma.com/new_images/projects/Updated_Doc_Images/update_sf_project_3.png)
 
 3. You’ll be redirected to the **Salesforce connections** page. 
-![SF Connections](https://s3.amazonaws.com/static-docs.testsigma.com/new_images/projects/salesforce/update_sf_project_5.png)
+![SF Connections](https://s3.amazonaws.com/website-static-docs.testsigma.com/new_images/projects/Updated_Doc_Images/update_sf_project_5.png)
 
 
 ---

@@ -34,10 +34,10 @@ Testsigma allows you to run tests on your local iOS devices in addition to Tests
 
 1. From the left navigation bar, go to **Agents** and select an agent. 
 2. Under **Devices**, you can see the device name that is connected to the registered agent. 
-   ![image description](https://s3.amazonaws.com/static-docs.testsigma.com/new_images/projects/agents/update_ios_setup_1.png)
+   ![image description](https://s3.amazonaws.com/website-static-docs.testsigma.com/new_images/projects/Updated_Doc_Images/update_ios_setup_1.png)
 
 3. To execute iOS tests on this device, you can select **Local Devices** as **Test Lab** and select the required machine and device under **Test Machine**. 
-   ![image description](https://s3.amazonaws.com/static-docs.testsigma.com/new_images/projects/agents/update_ios_setup_2.png)
+   ![image description](https://s3.amazonaws.com/website-static-docs.testsigma.com/new_images/projects/Updated_Doc_Images/update_ios_setup_2.png)
 
 [[info | NOTE:]]
 |For more info on executing Tests on local devices, refer to: <br/>

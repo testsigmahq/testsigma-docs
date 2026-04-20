@@ -41,14 +41,14 @@ In this document, we will discuss how to establish Integration with Zepel from y
 ## **Integrating Zepel with Testsigma**
 
 1. Navigate to **Settings > Integrations**.
-![Integrations](https://s3.amazonaws.com/static-docs.testsigma.com/new_images/projects/applications/mstinav.png)
+![Integrations](https://s3.amazonaws.com/website-static-docs.testsigma.com/new_images/projects/Updated_Doc_Images/mstinav.png)
 
 
 2. Enable toggle on **Zepel** widget.
-![Zepel Widget](https://s3.amazonaws.com/static-docs.testsigma.com/new_images/projects/applications/zitgl.png)
+![Zepel Widget](https://s3.amazonaws.com/website-static-docs.testsigma.com/new_images/projects/Updated_Doc_Images/zitgl.png)
 
 3. On the **Zepel details** prompt, **Account URL**, **API Key** and click on **Save & Enable**.
-![Save & Enable](https://s3.amazonaws.com/static-docs.testsigma.com/new_images/projects/applications/zidtails.png)
+![Save & Enable](https://s3.amazonaws.com/website-static-docs.testsigma.com/new_images/projects/Updated_Doc_Images/zidtails.png)
 
 
 
@@ -58,11 +58,11 @@ In this document, we will discuss how to establish Integration with Zepel from y
 ## **Creating a Bug**
 
 1. Navigate to **Run Results > Test Case Result**, where you want to add a bug.
-![Run Results](https://s3.amazonaws.com/static-docs.testsigma.com/new_images/projects/applications/tcresultyt.png)
+![Run Results](https://s3.amazonaws.com/website-static-docs.testsigma.com/new_images/projects/Updated_Doc_Images/tcresultyt.png)
 
 
 2. Click on **Report Bug**.
-![Report Bug](https://s3.amazonaws.com/static-docs.testsigma.com/new_images/projects/applications/reportbugyt.png)
+![Report Bug](https://s3.amazonaws.com/website-static-docs.testsigma.com/new_images/projects/Updated_Doc_Images/reportbugyt.png)
 
 
 3. Choose **Zepel** and enter information about your bug.

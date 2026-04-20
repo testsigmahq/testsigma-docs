@@ -24,10 +24,10 @@ Testsigma displays informative tutorials while onboarding new users. By default,
 
 1. From the left navigation bar, go to to **Settings > Preferences**.
    
-   ![Navigate to Preferences](https://s3.amazonaws.com/static-docs.testsigma.com/new_images/projects/faqs/update_onboarding_tutorials_1.png)
+   ![Navigate to Preferences](https://s3.amazonaws.com/website-static-docs.testsigma.com/new_images/projects/Updated_Doc_Images/update_onboarding_tutorials_1.png)
 
 2. Disable the toggle on **Disable Onboarding Tutorials**.
    
-   ![Onboarding Tutorial Toggle](https://s3.amazonaws.com/static-docs.testsigma.com/new_images/projects/faqs/update_onboarding_tutorials_2.png)
+   ![Onboarding Tutorial Toggle](https://s3.amazonaws.com/website-static-docs.testsigma.com/new_images/projects/Updated_Doc_Images/update_onboarding_tutorials_2.png)
 
 ---

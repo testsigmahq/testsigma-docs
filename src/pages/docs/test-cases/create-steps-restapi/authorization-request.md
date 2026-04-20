@@ -20,6 +20,6 @@ APIs require authentication information, which you can provide in Testsigma. Aut
 
 - Fill in the required fields based on your authorization. 
 
-![Authorization in API Request](https://s3.amazonaws.com/static-docs.testsigma.com/new_images/projects/test_cases/update_authorization_1.png)
+![Authorization in API Request](https://s3.amazonaws.com/website-static-docs.testsigma.com/new_images/projects/Updated_Doc_Images/update_authorization_1.png)
 
 ---

@@ -47,7 +47,7 @@ This endpoint retrieves details for a specific Environment.
 |**Response Body (Sample)**| <pre>{<br>    "id": 10,<br>    "name": "Test environment1",<br>    "description": "Test Environment",<br>    "createdById": 2,<br>    "updatedById": 2,<br>    "createdDate": 1732176819137,<br>    "updatedDate": 1732176819137,<br>    "createdAtEpoch": 1732176819137,<br>    "updatedAtEpoch": 1732176819137,<br>    "variables": [<br>        {<br>            "id": 8,<br>            "key": "Url",<br>            "value": "https://google.com",<br>            "isEncrypted": false,<br>            "projectId": 9,<br>            "isDefault": null,<br>            "createdDate": 1732176819179,<br>            "updatedDate": 1732176819179,<br>            "createdAtEpoch": 1732176819179,<br>            "updatedAtEpoch": 1732176819179<br>        }<br>    ]<br>} </pre> |
 
 The **<ENV\_ID>** can be found in the URL of the Environment details page. Refer to the screenshot below:
-![Env ID](https://s3.amazonaws.com/static-docs.testsigma.com/new_images/projects/rest_api/update_manage_environments_1.png)
+![Env ID](https://s3.amazonaws.com/website-static-docs.testsigma.com/new_images/projects/Updated_Doc_Images/update_manage_environments_1.png)
 
 [[info | **NOTE**:]]
 | To retrieve all environments, use this endpoint with the same method. <br>

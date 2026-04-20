@@ -32,12 +32,12 @@ You can integrate Testsigma with Jira to generate test cases directly from your 
 ## **Integrating Jira with Testsigma**
 
 1. Navigate to **Settings > Integrations**.
-   ![Integrations](https://s3.amazonaws.com/static-docs.testsigma.com/new_images/projects/applications/TestRail_Navigation.png)
+   ![Integrations](https://s3.amazonaws.com/website-static-docs.testsigma.com/new_images/projects/Updated_Doc_Images/TestRail_Navigation.png)
 
 2. Enable toggle on **Jira** widget. 
-   ![Jira Toggle](https://s3.amazonaws.com/static-docs.testsigma.com/new_images/projects/atto/jira_1.png)
+   ![Jira Toggle](https://s3.amazonaws.com/website-static-docs.testsigma.com/new_images/projects/Updated_Doc_Images/jira_1.png)
 
 3. On the **Jira Details** prompt, enter **Account URL**, **User Name**, **API Key** and click on **Save & Enable**.
-   ![Jira Details](https://s3.amazonaws.com/static-docs.testsigma.com/new_images/projects/atto/jira_2.png)
+   ![Jira Details](https://s3.amazonaws.com/website-static-docs.testsigma.com/new_images/projects/Updated_Doc_Images/jira_2.png)
 
 ---

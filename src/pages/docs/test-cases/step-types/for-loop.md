@@ -43,19 +43,19 @@ If you want to run a test case based on the above test data profile, but you jus
 ## **Using For Loop in Test Cases**
 
 1. Navigate to **Create Tests > Test Cases**, and click on **Create Test Case**.
-   ![Create Test Case](https://s3.amazonaws.com/static-docs.testsigma.com/new_images/projects/applications/ForLoop_Navigation.png)
+   ![Create Test Case](https://s3.amazonaws.com/website-static-docs.testsigma.com/new_images/projects/Updated_Doc_Images/ForLoop_Navigation.png)
 
 2. On **Test Case Details** page, click on the option on the left side of the test step.
-   ![Option on Test Step](https://s3.amazonaws.com/static-docs.testsigma.com/new_images/projects/applications/ForLoop_OptionLeft.png)
+   ![Option on Test Step](https://s3.amazonaws.com/website-static-docs.testsigma.com/new_images/projects/Updated_Doc_Images/ForLoop_OptionLeft.png)
 
 3. This will open a side panel.
-   ![Side Panel](https://s3.amazonaws.com/static-docs.testsigma.com/new_images/projects/applications/ForLoop_SidePanel.png)
+   ![Side Panel](https://s3.amazonaws.com/website-static-docs.testsigma.com/new_images/projects/Updated_Doc_Images/ForLoop_SidePanel.png)
 
 4. Hover over to the options and click on **For Loop**. 
-   ![For Loop](https://s3.amazonaws.com/static-docs.testsigma.com/new_images/projects/applications/ForLoop_Select.png)
+   ![For Loop](https://s3.amazonaws.com/website-static-docs.testsigma.com/new_images/projects/Updated_Doc_Images/ForLoop_Select.png)
 
 5. This option opens a drop down of NLPs that can be used inside the test step.
-   ![For Loop NLPs](https://s3.amazonaws.com/static-docs.testsigma.com/new_images/projects/applications/ForLoop_NLPs.png)
+   ![For Loop NLPs](https://s3.amazonaws.com/website-static-docs.testsigma.com/new_images/projects/Updated_Doc_Images/ForLoop_NLPs.png)
 
    - If you want to iterate through all the data sets of your test data profile from start to end use the below NLP:
   <img src="https://s3.amazonaws.com/static-docs.testsigma.com/new_images/test-cases/step-types/for-loop/for_loop_start_index_to_end_index.png" alt="index start to end"></li>

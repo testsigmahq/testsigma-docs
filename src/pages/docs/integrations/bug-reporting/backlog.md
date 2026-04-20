@@ -58,13 +58,13 @@ Testsigma Mantis integration lets you create issues directly from the Testsigma 
 ## **Integrating Backlog with Testsigma**
 
 1. Navigate to **Settings > Integrations**.
-![Integrations](https://s3.amazonaws.com/static-docs.testsigma.com/new_images/projects/integrations/update_backlog_1.png)
+![Integrations](https://s3.amazonaws.com/website-static-docs.testsigma.com/new_images/projects/Updated_Doc_Images/update_backlog_1.png)
 
 2. Enable toggle on **Backlog** widget.
-![Backlog](https://s3.amazonaws.com/static-docs.testsigma.com/new_images/projects/integrations/update_backlog_2.png)
+![Backlog](https://s3.amazonaws.com/website-static-docs.testsigma.com/new_images/projects/Updated_Doc_Images/update_backlog_2.png)
 
 3. In the **Backlog details** dialog, enter **Account URL** and **API Key**, and click on **Save & Enable**.
-![Details](https://s3.amazonaws.com/static-docs.testsigma.com/new_images/projects/integrations/update_backlog_3.png)
+![Details](https://s3.amazonaws.com/website-static-docs.testsigma.com/new_images/projects/Updated_Doc_Images/update_backlog_3.png)
 
 
 ---
@@ -72,16 +72,16 @@ Testsigma Mantis integration lets you create issues directly from the Testsigma 
 ## **Creating a bug**
 
 1. Navigate to **Run Results > Test Case Result**, where you want to add a bug.
-![Run Results](https://s3.amazonaws.com/static-docs.testsigma.com/new_images/projects/integrations/update_backlog_4.png)
+![Run Results](https://s3.amazonaws.com/website-static-docs.testsigma.com/new_images/projects/Updated_Doc_Images/update_backlog_4.png)
 
 2. Click **Report Bug**.
-![Report Bug](https://s3.amazonaws.com/static-docs.testsigma.com/new_images/projects/integrations/update_backlog_5.png)
+![Report Bug](https://s3.amazonaws.com/website-static-docs.testsigma.com/new_images/projects/Updated_Doc_Images/update_backlog_5.png)
 
 3. In the **Report** overlay, click the **Backlog** icon.
-![Sample Task reported from Testsigma Bug Reporting Integration in Test Results page](https://s3.amazonaws.com/static-docs.testsigma.com/new_images/projects/integrations/update_backlog_6.png)
+![Sample Task reported from Testsigma Bug Reporting Integration in Test Results page](https://s3.amazonaws.com/website-static-docs.testsigma.com/new_images/projects/Updated_Doc_Images/update_backlog_6.png)
 
 4. In the **Report** overlay, review the details and click **Report Bug**.
-![Report Bug](https://s3.amazonaws.com/static-docs.testsigma.com/new_images/projects/integrations/update_backlog_7.png)
+![Report Bug](https://s3.amazonaws.com/website-static-docs.testsigma.com/new_images/projects/Updated_Doc_Images/update_backlog_7.png)
 
 [[info | NOTE:]]
 | - Only the bug reporting tools that have been enabled via the plugins page will be displayed here. 

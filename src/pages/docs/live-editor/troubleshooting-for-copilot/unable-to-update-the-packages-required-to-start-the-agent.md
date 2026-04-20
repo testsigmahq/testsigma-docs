@@ -26,13 +26,13 @@ Agent is responsible for performing local executions. For more information on ag
 ## **Steps to Resolve the Issue**
 
 1. In the **Testsigma Terminal** window, click **Update Package**. This updates the packages that are required to start the Copilot.
-   ![Update Packages](https://s3.amazonaws.com/static-docs.testsigma.com/new_images/projects/troubleshooting_for_copilot/update_packages_1.png) 
+   ![Update Packages](https://s3.amazonaws.com/website-static-docs.testsigma.com/new_images/projects/Updated_Doc_Images/update_packages_1.png) 
 
 [[info | **NOTE**:]]
 | Please note that updating packages is the same process across all applications.
 
 2. If the update fails, click **Retry Update**. This attempts to update the package again. 
-   ![Retry Update](https://s3.amazonaws.com/static-docs.testsigma.com/new_images/projects/troubleshooting_for_copilot/update_packages_2.png)
+   ![Retry Update](https://s3.amazonaws.com/website-static-docs.testsigma.com/new_images/projects/Updated_Doc_Images/update_packages_2.png)
 
 3. If the issue persists, please feel free to contact our **Support** team. 
 

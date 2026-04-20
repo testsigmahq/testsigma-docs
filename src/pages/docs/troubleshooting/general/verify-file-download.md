@@ -39,7 +39,7 @@ While Testing, there might be scenarios where we need to perform further checks 
 
 7. Wait until the text Show in folder is present on the current page
 
-![Test Scenario](https://s3.amazonaws.com/static-docs.testsigma.com/new_images/projects/troubleshooting/update_downloadv_1.png)
+![Test Scenario](https://s3.amazonaws.com/website-static-docs.testsigma.com/new_images/projects/Updated_Doc_Images/update_downloadv_1.png)
 
 [[info | **NOTE**:]]
 |1. This is a quick solution for the file download verification conundrum in Test Automation.

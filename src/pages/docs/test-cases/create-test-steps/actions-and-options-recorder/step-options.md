@@ -63,7 +63,7 @@ In Testsigma, you can customize recorded test steps within a test case using tes
 Here's a quick GIF demonstrating all the actions available on recorded test steps in Testsigma. 
 
 
-![Test Step Options](https://s3.amazonaws.com/static-docs.testsigma.com/new_images/projects/applications/Actions_Options.gif)
+![Test Step Options](https://s3.amazonaws.com/website-static-docs.testsigma.com/new_images/projects/Updated_Doc_Images/Actions_Options.gif)
 
 
 ---
@@ -72,7 +72,7 @@ Here's a quick GIF demonstrating all the actions available on recorded test step
 
 Clicking the Steps Above button lets you add another step before the current step, and clicking the Steps Below button lets you add another step below the current step.
 
-![Add Step](https://s3.amazonaws.com/static-docs.testsigma.com/new_images/projects/applications/aaoatsbwtss.png)
+![Add Step](https://s3.amazonaws.com/website-static-docs.testsigma.com/new_images/projects/Updated_Doc_Images/aaoatsbwtss.png)
 
 
 
@@ -82,7 +82,7 @@ Clicking the Steps Above button lets you add another step before the current ste
 
 You can click on any element on any test step to access these options.
 
-![Edit Element](https://s3.amazonaws.com/static-docs.testsigma.com/new_images/projects/applications/aaopnelemopns.png)
+![Edit Element](https://s3.amazonaws.com/website-static-docs.testsigma.com/new_images/projects/Updated_Doc_Images/aaopnelemopns.png)
 
 For more information on creating elements, refer to the [documentation on creating elements](https://testsigma.com/docs/elements/overview/). 
 
@@ -93,7 +93,7 @@ For more information on creating elements, refer to the [documentation on creati
 
 You can select this option and click **Update Step** to disable the test step. This will skip the test step while executing the test case.
 
-![Disable Step](https://s3.amazonaws.com/static-docs.testsigma.com/new_images/projects/applications/disable_step_actions_options.png)
+![Disable Step](https://s3.amazonaws.com/website-static-docs.testsigma.com/new_images/projects/Updated_Doc_Images/disable_step_actions_options.png)
 
 ---
 
@@ -102,7 +102,7 @@ You can select this option and click **Update Step** to disable the test step. T
 
 You can select this option and click **Update Step** to ignore the step result. This will execute further test steps without being affected by the test step result.
 
-![Ignore Step Result](https://s3.amazonaws.com/static-docs.testsigma.com/new_images/projects/applications/visual_step_actions_options.png)
+![Ignore Step Result](https://s3.amazonaws.com/website-static-docs.testsigma.com/new_images/projects/Updated_Doc_Images/visual_step_actions_options.png)
 
 ---
 
@@ -110,7 +110,7 @@ You can select this option and click **Update Step** to ignore the step result. 
 
 You can select this option and click **Update Step** to enable **Visual Testing** for the test step.
 
-![Enable Visual Testing](https://s3.amazonaws.com/static-docs.testsigma.com/new_images/projects/applications/VisualTesting_actions_options.png)
+![Enable Visual Testing](https://s3.amazonaws.com/website-static-docs.testsigma.com/new_images/projects/Updated_Doc_Images/VisualTesting_actions_options.png)
 
 ---
 
@@ -119,7 +119,7 @@ You can select this option and click **Update Step** to enable **Visual Testing*
 
 You can check details of a test step by clicking on the option **Step Settings**.
 
-![Step Details](https://s3.amazonaws.com/static-docs.testsigma.com/new_images/projects/applications/step_details_actions_options.png)
+![Step Details](https://s3.amazonaws.com/website-static-docs.testsigma.com/new_images/projects/Updated_Doc_Images/step_details_actions_options.png)
 
 
 For more information on configuring test step settings, refer to the [documentation on configuring test step settings](https://testsigma.com/docs/test-cases/create-test-steps/actions-and-options-recorder/step-settings/).
@@ -131,7 +131,7 @@ For more information on configuring test step settings, refer to the [documentat
 
 Clicking on **Clone Step** will create an identical copy of the selected step, which saves time when you need multiple similar steps within the same test case.
 
-![Clone Test Step](https://s3.amazonaws.com/static-docs.testsigma.com/new_images/projects/applications/clone_step_test_step_options.png)
+![Clone Test Step](https://s3.amazonaws.com/website-static-docs.testsigma.com/new_images/projects/Updated_Doc_Images/clone_step_test_step_options.png)
 
 ---
 
@@ -139,7 +139,7 @@ Clicking on **Clone Step** will create an identical copy of the selected step, w
 
 You can use this option to delete the test step.
 
-![Delete test step](https://s3.amazonaws.com/static-docs.testsigma.com/new_images/projects/applications/delete_step_actions_options.png)
+![Delete test step](https://s3.amazonaws.com/website-static-docs.testsigma.com/new_images/projects/Updated_Doc_Images/delete_step_actions_options.png)
 
 ---
 
@@ -148,7 +148,7 @@ You can use this option to delete the test step.
 You can **click, hold, and drag** the test step to reorder it. Click on **Save Order** to save the changes.  
 
 
-![Drag](https://s3.amazonaws.com/static-docs.testsigma.com/new_images/projects/applications/reorder_actions_options.png)
+![Drag](https://s3.amazonaws.com/website-static-docs.testsigma.com/new_images/projects/Updated_Doc_Images/reorder_actions_options.png)
 
 
 ---
@@ -159,7 +159,7 @@ You can **click, hold, and drag** the test step to reorder it. Click on **Save O
 - Click **Pause** to pause recording the test steps. 
 - Click **Stop** to go to the test case details page with the recorded steps.
 
-![Pause & Stop](https://s3.amazonaws.com/static-docs.testsigma.com/new_images/projects/applications/pause_stop_actions_options.png)
+![Pause & Stop](https://s3.amazonaws.com/website-static-docs.testsigma.com/new_images/projects/Updated_Doc_Images/pause_stop_actions_options.png)
 
 
 ---

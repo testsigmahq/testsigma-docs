@@ -46,32 +46,32 @@ You can configure user-level settings such as updating your profile information,
    - **Profile**
    - **Change Password**
    - **Two-Factor Authentication (2FA)**
-   ![Settings](https://s3.amazonaws.com/static-docs.testsigma.com/new_images/projects/Updated_Doc_Images/User_Settings_Update.png)
+   ![Settings](https://s3.amazonaws.com/website-static-docs.testsigma.com/new_images/projects/Updated_Doc_Images/User_Settings_Update.png)
 
 ---
 
 ## **Profile**
 
 1. Select **Profile** under **User Settings**.
-   ![User Profile](https://s3.amazonaws.com/static-docs.testsigma.com/new_images/projects/Updated_Doc_Images/User_Profile_Update.png)
+   ![User Profile](https://s3.amazonaws.com/website-static-docs.testsigma.com/new_images/projects/Updated_Doc_Images/User_Profile_Update.png)
 
 2. Edit the **First Name** and **Last Name** fields.
 
 3. Click **Update** to save the changes.
-   ![Update Name](https://s3.amazonaws.com/static-docs.testsigma.com/new_images/projects/Updated_Doc_Images/Update_Profile_Name.png)
+   ![Update Name](https://s3.amazonaws.com/website-static-docs.testsigma.com/new_images/projects/Updated_Doc_Images/Update_Profile_Name.png)
 
 ---
 
 ## **Change Password**
 
 1. Select **Change Password** under **User Settings**.
-   ![Change Password](https://s3.amazonaws.com/static-docs.testsigma.com/new_images/projects/Updated_Doc_Images/Change_User_Password.png)
+   ![Change Password](https://s3.amazonaws.com/website-static-docs.testsigma.com/new_images/projects/Updated_Doc_Images/Change_User_Password.png)
 
 2. Enter your **Current Password**, **New Password**, and **Confirm Password**.
-   ![Enter Passwords](https://s3.amazonaws.com/static-docs.testsigma.com/new_images/projects/Updated_Doc_Images/Enter_Passwords_in_Fields.png)
+   ![Enter Passwords](https://s3.amazonaws.com/website-static-docs.testsigma.com/new_images/projects/Updated_Doc_Images/Enter_Passwords_in_Fields.png)
 
 3. Click **Update**.
-   ![Update Passwords](https://s3.amazonaws.com/static-docs.testsigma.com/new_images/projects/Updated_Doc_Images/Update_Password_Button.png)
+   ![Update Passwords](https://s3.amazonaws.com/website-static-docs.testsigma.com/new_images/projects/Updated_Doc_Images/Update_Password_Button.png)
 
 ---
 

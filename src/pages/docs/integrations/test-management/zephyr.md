@@ -47,13 +47,13 @@ With the Zephyr Cloud integration in Testsigma, you can link Zephyr test cases a
 1. From the left navigation bar, go to **Settings > Integrations**.
 
 2. Turn on the toggle for **Zephyr Cloud**.
-   ![Zephyr Widget](https://s3.amazonaws.com/static-docs.testsigma.com/new_images/projects/Updated_Doc_Images/Zephyr_Widget.png)
+   ![Zephyr Widget](https://s3.amazonaws.com/website-static-docs.testsigma.com/new_images/projects/Updated_Doc_Images/Zephyr_Widget.png)
 
 3. In the **Zephyr Cloud Details** dialog box, select **Region of your Zephyr instance**, enter your **Personal Access Token** and **Jira Details**.
-   ![Zephyr Cloud Details](https://s3.amazonaws.com/static-docs.testsigma.com/new_images/projects/Updated_Doc_Images/Zephyr_Cloud_Details.png)
+   ![Zephyr Cloud Details](https://s3.amazonaws.com/website-static-docs.testsigma.com/new_images/projects/Updated_Doc_Images/Zephyr_Cloud_Details.png)
 
 4. Click **Save & Enable**.
-   ![Save Details](https://s3.amazonaws.com/static-docs.testsigma.com/new_images/projects/Updated_Doc_Images/Save_Zephyr_Details.png)
+   ![Save Details](https://s3.amazonaws.com/website-static-docs.testsigma.com/new_images/projects/Updated_Doc_Images/Save_Zephyr_Details.png)
 
 ---
 
@@ -66,7 +66,7 @@ With the Zephyr Cloud integration in Testsigma, you can link Zephyr test cases a
 3. Open the test case you want to link, and click **Manage Test Case**.
 
 4. Enter the Zephyr test case ID, and click the **Link** button.
-   ![Link Zephyr Case with ID](https://s3.amazonaws.com/static-docs.testsigma.com/new_images/projects/Updated_Doc_Images/Zephyr_Case_ID.png)
+   ![Link Zephyr Case with ID](https://s3.amazonaws.com/website-static-docs.testsigma.com/new_images/projects/Updated_Doc_Images/Zephyr_Case_ID.png)
 
 ---
 
@@ -77,7 +77,7 @@ With the Zephyr Cloud integration in Testsigma, you can link Zephyr test cases a
 2. In Testsigma, go to **Test Plans**, and open the test plan you want to link.
 
 3. Enter the Zephyr test plan ID, and click the **Link** button.
-   ![Link Zephyr Plan with ID](https://s3.amazonaws.com/static-docs.testsigma.com/new_images/projects/Updated_Doc_Images/Zephyr_Plan_ID.png)
+   ![Link Zephyr Plan with ID](https://s3.amazonaws.com/website-static-docs.testsigma.com/new_images/projects/Updated_Doc_Images/Zephyr_Plan_ID.png)
 
 ---
 
@@ -86,7 +86,7 @@ With the Zephyr Cloud integration in Testsigma, you can link Zephyr test cases a
 1. Execute the linked test plan in Testsigma, and wait for the execution to complete.
 
 2. Once the execution is complete, click **Zephyr Execution**.
-   ![Zephyr Execution](https://s3.amazonaws.com/static-docs.testsigma.com/new_images/projects/Updated_Doc_Images/Zephyr_Execution.png)
+   ![Zephyr Execution](https://s3.amazonaws.com/website-static-docs.testsigma.com/new_images/projects/Updated_Doc_Images/Zephyr_Execution.png)
 
 3. You’ll be redirected to **Zephyr Cloud**, where you can view the execution details.
 

@@ -34,16 +34,16 @@ Testsigma integrates with Xray to support test case generation from your existin
 ## **Integrating Xray with Testsigma** 
 
 1. Navigate to **Settings > Integrations**.
-![Integrations](https://s3.amazonaws.com/static-docs.testsigma.com/new_images/projects/atto/update_rayx_1.png)
+![Integrations](https://s3.amazonaws.com/website-static-docs.testsigma.com/new_images/projects/Updated_Doc_Images/update_rayx_1.png)
 
 2. Enable toggle on **Xray** widget.
-![Xray Toggle](https://s3.amazonaws.com/static-docs.testsigma.com/new_images/projects/atto/update_rayx_2.png)
+![Xray Toggle](https://s3.amazonaws.com/website-static-docs.testsigma.com/new_images/projects/Updated_Doc_Images/update_rayx_2.png)
 
 3. On the **Xray Details** prompt, enter **Jira Account URL**, **Client Id** and **Client Secret**.
-![Xray Details](https://s3.amazonaws.com/static-docs.testsigma.com/new_images/projects/atto/update_rayx_3.png)
+![Xray Details](https://s3.amazonaws.com/website-static-docs.testsigma.com/new_images/projects/Updated_Doc_Images/update_rayx_3.png)
 
 4. Click on **Save & Enable**.
-![Save & Enable](https://s3.amazonaws.com/static-docs.testsigma.com/new_images/projects/atto/update_rayx_4.png)
+![Save & Enable](https://s3.amazonaws.com/website-static-docs.testsigma.com/new_images/projects/Updated_Doc_Images/update_rayx_4.png)
 
 [[info | **NOTE**:]]
 | If you want to add attachments like logs, screenshots, and videos of execution for the test executions, please check the **Add Attachments to Test**.

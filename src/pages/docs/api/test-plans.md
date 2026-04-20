@@ -102,7 +102,7 @@ This endpoint allows users to trigger a Test Plan execution remotely.
 
 For a Test Plan, you can get the **Test Plan ID** and the complete **cURL request** to trigger the execution from the Test Plan Details page:
 
-![Test Plan detains inside the CICD tab of a test plan](https://s3.amazonaws.com/static-docs.testsigma.com/new_images/projects/rest_api/update_test_plans_1.png)
+![Test Plan detains inside the CICD tab of a test plan](https://s3.amazonaws.com/website-static-docs.testsigma.com/new_images/projects/Updated_Doc_Images/update_test_plans_1.png)
 
 The Run ID is returned as ‘id’ in the response for the request if the execution was started successfully.
 
@@ -129,14 +129,14 @@ To execute a test plan with different Environments, you need to have an Environm
 
 2. On the Environment page, the <ENVIRONMENT\_ID> in the URL `https://app.testsigma.com/ui/td/103/environments/<ENVIRONMENT_ID>/details` is the ID of the environment. 
 
-![Environments](https://s3.amazonaws.com/static-docs.testsigma.com/new_images/projects/rest_api/update_test_plans_2.png)
+![Environments](https://s3.amazonaws.com/website-static-docs.testsigma.com/new_images/projects/Updated_Doc_Images/update_test_plans_2.png)
 
 - For Example, if the URL is `https://app.testsigma.com/ui/td/88/environments/10/details`, the **ID** is **10**. 
 
 ### **Executing Tests Plans with Different Environments**
 
 1. Navigate to **Test Plans > Test Plan > CI/CD Integrations**, and copy **CURL request** under **REST API to integrate with other tools > REST API call to start Test Plan**.
-![CURL](https://s3.amazonaws.com/static-docs.testsigma.com/new_images/projects/rest_api/update_test_plans_3.png)
+![CURL](https://s3.amazonaws.com/website-static-docs.testsigma.com/new_images/projects/Updated_Doc_Images/update_test_plans_3.png)
 
 2. Provide the Environment ID in the request body. 
 
@@ -157,7 +157,7 @@ You can execute this CURL command in your computer's command-line interface (CLI
 
 If the Test Plan Run was started from within the Testsigma App, the Run ID can be found from the Run Results page as shown below:
 
-![Run IDs](https://s3.amazonaws.com/static-docs.testsigma.com/new_images/projects/rest_api/update_test_plans_4.png)
+![Run IDs](https://s3.amazonaws.com/website-static-docs.testsigma.com/new_images/projects/Updated_Doc_Images/update_test_plans_4.png)
 
 The values from 295 to 299 are Run IDs of consecutive Test Plan Runs.
 

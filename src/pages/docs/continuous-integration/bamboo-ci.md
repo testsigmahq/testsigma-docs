@@ -92,7 +92,7 @@ As soon as the plan runs and the pipeline reaches the Testsigma task, the Testsi
  
 You will be able to see a running Test Plan as shown below:
 
-![Test plan in Testsigma](https://s3.amazonaws.com/static-docs.testsigma.com/new_images/projects/applications/tpfbbci.png)
+![Test plan in Testsigma](https://s3.amazonaws.com/website-static-docs.testsigma.com/new_images/projects/Updated_Doc_Images/tpfbbci.png)
 
 
 

@@ -31,7 +31,7 @@ Testsigma supports integration with Azure OpenAI, which allows you to map variou
 
 ## **Steps to Get Azure OpenAI Details**
    
-   ![Azure OpenAI Details](https://s3.amazonaws.com/static-docs.testsigma.com/new_images/projects/applications/Azure_AI_Details.png)
+   ![Azure OpenAI Details](https://s3.amazonaws.com/website-static-docs.testsigma.com/new_images/projects/Updated_Doc_Images/Azure_AI_Details.png)
 
 1. Request access to **Azure OpenAI** <a href="https://learn.microsoft.com/en-us/legal/cognitive-services/openai/limited-access" rel="nofollow">here</a>.
 
