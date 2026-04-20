@@ -48,13 +48,13 @@ If you are not able to access URL's from using the extension, you may have one o
 
    **Sol:** Go to this URL in Chrome **chrome://settings/cookies** and select **Allow all cookies** or **Block third-party cookies incognito**, you should not see this error post this.
 
-   <iframe src="https://docs.testsigma.com/videos/url-not-accesible/Allow_cookies_or_Block_thirdparty_cookies.mp4" width="300" height="200"></iframe>
+   <iframe src="https://docs.testsigma.com/videos/url-not-accesible/Allow_cookies_or_Block_thirdparty_cookies.mp4" width="600" height="400"></iframe>
 
 2. **What to do for chrome extensions error "Not able to access local files and urls"?**
 
    **Sol:** Go to the following Extensions icon in **Chrome > Manage Extenstion > Testsigma Extension > Details** and Toggle on **Allow access to File URL’s**
 
-   <iframe src="https://docs.testsigma.com/videos/url-not-accesible/Local_File_access.mp4" width="300" height="200"></iframe>
+   <iframe src="https://docs.testsigma.com/videos/url-not-accesible/Local_File_access.mp4" width="600" height="400"></iframe>
 
 
 ---

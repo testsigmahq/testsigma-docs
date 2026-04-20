@@ -75,8 +75,4 @@ When you update the elements by uploading an updated TSRx file, you might encoun
 | - This feature is also available at the **Step Group** level. 
 | - The **Elements** page will also display errors on impacted elements. 
 
-Here's a quick GIF demonstrating how to check & resolve errors post TSRx file update. 
-
-![Error Handling](https://s3.amazonaws.com/static-docs.testsigma.com/new_images/projects/applications/WA_ErrorHandling.gif)
-
 ---

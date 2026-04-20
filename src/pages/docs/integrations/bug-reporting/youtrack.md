@@ -53,41 +53,34 @@ Now you’re ready to integrate Youtrack with Testsigma.
 
 ---
 ## **Integrating Youtrack with Testsigma**
+
 1. Navigate to **Settings > Integrations**.
-![Integrations](https://s3.amazonaws.com/static-docs.testsigma.com/new_images/projects/applications/ytintegrations.png)
+![Integrations](https://s3.amazonaws.com/static-docs.testsigma.com/new_images/projects/integrations/update_youtrack_1.png)
 
 2. Enable toggle on **Youtrack** widget.
-![Youtrack Toggle](https://s3.amazonaws.com/static-docs.testsigma.com/new_images/projects/applications/yttoggle.png)
+![Youtrack Toggle](https://s3.amazonaws.com/static-docs.testsigma.com/new_images/projects/integrations/update_youtrack_2.png)
 
-3. On **Youtrack Details** prompt, enter **Organization URL** and **Access Key**.
-![Youtrack Toggle](https://s3.amazonaws.com/static-docs.testsigma.com/new_images/projects/applications/youtrackdetails.png)
-
-4. Click on **Save & Enable**.
-![Save & Enable](https://s3.amazonaws.com/static-docs.testsigma.com/new_images/projects/applications/saveandenableyt.png)
-
-
-Once the above details are obtained, navigate to the Plugins page through **Dashboard > Settings > Plugins** and select Youtrack under the Bug Reporting Tab.
+3. On **Youtrack Details** prompt, enter **Organization URL**, **Access Key** and click **Save & Enable**.
+![Youtrack Toggle](https://s3.amazonaws.com/static-docs.testsigma.com/new_images/projects/integrations/update_youtrack_3.png)
 
 ---
 
 ## **Creating a Bug**
+
 1. Navigate to **Run Results > Test Case Result**, where you want to add a bug.
-![Run Results](https://s3.amazonaws.com/static-docs.testsigma.com/new_images/projects/applications/tcresultyt.png)
+![Run Results](https://s3.amazonaws.com/static-docs.testsigma.com/new_images/projects/integrations/update_youtrack_4.png)
 
 2. Click on **Report Bug**.
-![Report Bug](https://s3.amazonaws.com/static-docs.testsigma.com/new_images/projects/applications/reportbugyt.png)
+![Report Bug](https://s3.amazonaws.com/static-docs.testsigma.com/new_images/projects/integrations/update_youtrack_5.png)
 
-3. On **Report** overlay, click on the **Youtrack** icon.
-![Youtrack Icon](https://s3.amazonaws.com/static-docs.testsigma.com/new_images/projects/applications/yticon.png)
+3. In the **Report** overlay, click on the **Youtrack** icon.
+![Youtrack Icon](https://s3.amazonaws.com/static-docs.testsigma.com/new_images/projects/integrations/update_youtrack_6.png)
 
-4. On the **Create New Issue** prompt, click on **Create Ticket**.
-![Create New Issue](https://s3.amazonaws.com/static-docs.testsigma.com/new_images/projects/applications/createticketyt.png)
+4. In the **Report** overlay, review the details and click **Report Bug**.
+![Create New Issue](https://s3.amazonaws.com/static-docs.testsigma.com/new_images/projects/integrations/update_youtrack_7.png)
 
 [[info | **NOTE**:]]
-| If you want to link to an existing issue on **Youtrack**, click on the **Link to Issue** button, search for an existing issue in the search field and click on **Link Issue** to add a link to an existing Issue.
-|![Link to New Issue](https://s3.amazonaws.com/static-docs.testsigma.com/new_images/projects/applications/linktoisssue.png)
-
-Here's a quick GIF demonstrating how to integrate Youtrack and add a bug to Youtrack from Testsigma. 
-![YouTrtack](https://s3.amazonaws.com/static-docs.testsigma.com/new_images/projects/applications/youtrackint.gif)
+| If you want to link to an existing issue on **Youtrack**, click the **Link to Issue** tab, search for an existing issue in the search field and click on **Link To Ticket** to add a link to an existing Issue.
+|![Link to New Issue](https://s3.amazonaws.com/static-docs.testsigma.com/new_images/projects/integrations/update_youtrack_8.png)
 
 ---

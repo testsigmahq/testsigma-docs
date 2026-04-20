@@ -36,18 +36,17 @@ contextual_links:
 
 ## **Integrating with BrowserStack**
 
-Once the username and API key is obtained, navigate to the Plugins page through **Dashboard > Settings > Plugins** and select BrowserStack under the Test Lab tab.
+Once the username and API key is obtained, navigate to the **Integrations** page through **Dashboard > Settings > Integrations**. 
 
-  1. Click on the disabled icon on BrowserStack. BrowserStack Details overlay opens up.
-  2. Enter the username and API Key obtained from BrowserStack here.
-
-After entering the details, click on the Create button to add the Integration.
+1. Enable the toggle next to **BrowserStack**. 
+2. in the **BrowserStack details** dialog, enter the username and API Key obtained from **BrowserStack** here.
+3. After entering the details, click on the **Save & Enable** button to add the integration.
 
 ---
 
 ## **Using BrowserStack for Test Runs**
 
-Once the account details are added to the Plugins page, select BrowserStack as the Test Lab type instead of Testsigma Lab while creating an Ad-hoc run or Test Plan Run.
+Once the account details are added to the **Integrations** page, select **BrowserStack** as the **Test Lab** type instead of Testsigma Lab while creating an Ad-hoc run or Test Plan Run.
 
 ![Select BrowserStack as the Test lab Type for Test Plan Run or Ad-hoc Run GIF](https://s3.amazonaws.com/static-docs.testsigma.com/new_images/projects/desired_capabilities/update_browserstack_1.png)
 

@@ -41,10 +41,10 @@ When there are changes in metadata, users must refresh it before executing the t
 ## **Steps to Get Metadata Connection ID**
 
 1. From the **Dashboard**, click **SF Connections**.
-![SF Connections](https://s3.amazonaws.com/static-docs.testsigma.com/new_images/projects/applications/SF_Connections_MD_API.png)
+![SF Connections](https://s3.amazonaws.com/static-docs.testsigma.com/new_images/projects/api/update_sf_trigger_1.png)
 
 2. In the **Metadata Connection** section, hover over the connection, click the kebab menu, and choose **Copy Connection ID** from the dropdown menu.
-![Metadata Connection](https://s3.amazonaws.com/static-docs.testsigma.com/new_images/projects/applications/Connection_ID.png)
+![Metadata Connection](https://s3.amazonaws.com/static-docs.testsigma.com/new_images/projects/api/update_sf_trigger_2.png)
 
 ---
 

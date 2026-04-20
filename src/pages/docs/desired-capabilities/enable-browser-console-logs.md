@@ -53,26 +53,26 @@ Pass the desired capabilities below for their respective test lab types.
 ## **Enable Console Log in Ad-hoc Runs**
 
 To enable Browser Console - Extended Debugging for a specific test case in Testsigma, follow these steps:
-1. Create a **Test Case** with a **list of the test steps** and then click **Run** in the top right of the screen to initiate an **Ad-hoc Run** overlay.
-2. Select **Test Lab** and **Test Machines**. Click on **Desired Capabilities (Optional)**.
-3. Enter the **Desired Capabilities Key**, **Data Type**, and **Value** above the selected **Test Lab Type**, and provide the Desired Capabilities for the Lab. Then, click on **Run Now**. ![Console for Ad-hoc run](https://s3.amazonaws.com/static-docs.testsigma.com/new_images/projects/applications/console_adhocrun.gif)
+1. Create a **Test Case** with the required **test steps**, then click **Run** in the top-right corner of the screen.
+2. Select the **Test Lab** and **Test Machines**, then click **Desired Capabilities (Optional)**.
+3. Enter the **Desired Capabilities Key**, **Data Type**, and **Value** for the selected **Test Lab Type**, then click **Run Now**. ![Console for Ad-hoc run](https://s3.amazonaws.com/static-docs.testsigma.com/new_images/projects/desired_capabilities/update_console_1.png)
    
 ---
 
 ## **Enable Console Log in Test Plan**
 
 Follow these steps to enable Browser Console - Extended Debugging for a specific Test Plan in Testsigma:
-1. Navigate to the **Add Test Suites & Link Machine Profiles** tab on the page for **Create** or **Edit Test Plan**.
-2. Click on **Test Machine Settings** for the test machine. An overlay screen for **Editing the test machine/device profile** will appear.
-3. Select **Test Lab** and **Test Machines**. Click on **Desired Capabilities (Optional)**.
-4. Enter the **Desired Capabilities Key**, **Data Type**, and **Value** above the selected **Test Lab Type**, and provide the Desired Capabilities for the Lab. Then, click on **Update Profile**. ![Console for Test Plan](https://s3.amazonaws.com/static-docs.testsigma.com/new_images/projects/applications/consolelog_testplanedit.gif)
+1. Navigate to the **Add Test Suites & Link Machine Profiles** tab on the **Create/Edit Test Plan** screen.
+2. Click **Test Machine Settings** for the desired test machine. The **Edit Test Machine/Device Profile** overlay screen will appear.
+3. Select the **Test Lab** and **Test Machines**, then click **Desired Capabilities (Optional)**.
+4. Enter the **Desired Capabilities Key**, **Data Type**, and **Value** for the selected **Test Lab Type**, then click **Update Profile**. ![Console for Test Plan](https://s3.amazonaws.com/static-docs.testsigma.com/new_images/projects/desired_capabilities/update_console_2.png)
 
 ---
 
 ## **View Console Logs on Result Page**
 
 After enabling Browser Console - Extended Debugging and running a test case or test plan, follow these steps to check the captured Browser Console Debug Logs:
-1. Click the **Show Logs** button on the test execution results page and look for a section dedicated to the **Console Logs** under the Logs tab.
-2. Click the **Download log file** in the top right corner of the screen to analyse the Browser Console logs offline if needed. ![View Console Logs](https://s3.amazonaws.com/static-docs.testsigma.com/new_images/projects/applications/view_consolelogs.gif)
+1. On the test execution results page, click **Show Logs** and navigate to the **Console Logs** section under the **Logs** tab.
+2. To analyze the Browser Console logs offline, click **Download Log File** in the top-right corner of the screen.![View Console Logs](hhttps://s3.amazonaws.com/static-docs.testsigma.com/new_images/projects/desired_capabilities/update_console_3.png)
 
 ---
