@@ -63,10 +63,10 @@ In Testsigma, elements from Salesforce are automatically learned after successfu
 
 ## **Creating Elements While Creating Test Steps**
 
-1. Create a test case and click **Debug & Record**.
+1. Create a test case and click **Copilot**.
    ![Debug and Record](https://s3.amazonaws.com/static-docs.testsigma.com/new_images/projects/applications/debug_Record_SF_Elem.png)
 
-2. In the **Debug & Record** overlay, verify that the agent is live, then click **Proceed**.
+2. In the **Debug & Record** overlay, verify that the Copilot is live, select a connection under **Salesforce Metadata connection**, and click **Launch**.
    ![Proceed](https://s3.amazonaws.com/static-docs.testsigma.com/new_images/projects/applications/Proceed_SF_Elem.png)
 
 3. In the **Testsigma Debugger & Recorder**, click element in the NLP and select **Create Element** from the dropdown menu.

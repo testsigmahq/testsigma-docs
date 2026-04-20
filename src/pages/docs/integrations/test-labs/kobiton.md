@@ -36,21 +36,16 @@ If your organization has an existing account with Kobiton, you can author tests 
 ---
 ## **Integrating with Kobiton**
 
+Once the username and API key is obtained, navigate to the **Integrations** page through **Dashboard > Settings > Integrations**. 
 
-Once the username and API key is obtained, navigate to the Plugins page through **Dashboard > Settings > Plugins** and select Kobiton under the Test Lab Tab.
-
-  1. Click on the disabled Icon on Kobiton. Kobiton Details overlay opens up.
-
-  ![window to add kobiton integration to Testsigma](https://docs.testsigma.com/images/kobiton/add-kobiton-integration.png)
-
-  2. Enter the username/email and API Key obtained from Kobiton here.
-
-After entering the details, click on the Create button to add the Integration.
+1. Enable the toggle next to **Kobiton**. 
+2. in the **Kobiton details** dialog, enter the username and API Key obtained from **Kobiton** here.
+3. After entering the details, click on the **Save & Enable** button to add the integration.
+![Kobiton](https://s3.amazonaws.com/static-docs.testsigma.com/new_images/projects/integrations/update_kobiton_1.png)
 
 ---
 ## **Using Kobiton for Test Runs**
 
-Once the account details are added to the Plugins page, select Kobiton as the Test Lab type instead of Testsigma Lab while creating an Ad-hoc run or Test Plan Run.
+Once the account details are added to the **Integrations** page, select **Kobiton** as the **Test Lab** type instead of Testsigma Lab while creating an Ad-hoc run or Test Plan Run.
 
-![Select Kobiton as the Test lab Type for Test Plan Run or Ad-hoc Run](https://docs.testsigma.com/images/kobiton/select-test-lab-kobiton.png)
-
+---
