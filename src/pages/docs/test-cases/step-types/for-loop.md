@@ -58,22 +58,20 @@ If you want to run a test case based on the above test data profile, but you jus
    ![For Loop NLPs](https://s3.amazonaws.com/website-static-docs.testsigma.com/new_images/projects/Updated_Doc_Images/ForLoop_NLPs.png)
 
    - If you want to iterate through all the data sets of your test data profile from start to end use the below NLP:
-  <img src="https://s3.amazonaws.com/static-docs.testsigma.com/new_images/test-cases/step-types/for-loop/for_loop_start_index_to_end_index.png" alt="index start to end"></li>
+  <img src="https://s3.amazonaws.com/website-static-docs.testsigma.com/new_images/projects/Updated_Doc_Images/li>
 
-   - If you want to start the index at a specific number and end the index at a specific number use the below NLP:<img src="https://s3.amazonaws.com/static-docs.testsigma.com/new_images/test-cases/step-types/for-loop/for_loop_specific_index_number.png" alt="specific_index_number"><br>
+   - If you want to start the index at a specific number and end the index at a specific number use the below NLP:<img src="https://s3.amazonaws.com/website-static-docs.testsigma.com/new_images/projects/Updated_Doc_Images/for_loop_specific_index_number.png" alt="specific_index_number"><br>
 
    Sometimes you only want to work with a subset of the data sets of your test data profile. The subset of the data sets can be filtered based on data set name and parameter. 
 
    - To filter test data profile based on data set name use the following NLP: 
-  <img src="https://s3.amazonaws.com/static-docs.testsigma.com/new_images/test-cases/step-types/for-loop/for_loop_set_name.png" alt="for loop set name">
-
-   The data set names can be subjected to advanced filtering based on the keywords <kbd>contains</kbd>,<kbd>startswith</kbd>,<kbd>endswith</kbd>,<kbd>IN</kbd> and the different data types supported by Testsigma. <em>For more information refer to <a href="https://testsigma.com/docs/test-data/types/overview/">data types </a></em>.
+  <img src="https://s3.amazonaws.com/website-static-docs.testsigma.com/new_images/projects/Updated_Doc_Images/kbd> and the different data types supported by Testsigma. <em>For more information refer to <a href="https://testsigma.com/docs/test-data/types/overview/">data types </a></em>.
 
    - To filter test data profile based on parameter value use the below NLP:
-  <img src="https://s3.amazonaws.com/static-docs.testsigma.com/new_images/test-cases/step-types/for-loop/for_loop_parameter_value.png" alt="for loop parameter value">
+  <img src="https://s3.amazonaws.com/website-static-docs.testsigma.com/new_images/projects/Updated_Doc_Images/for_loop_parameter_value.png" alt="for loop parameter value">
 
    - Another NLP to filter test data profile based on parameter value is the following: 
-  <img src="https://s3.amazonaws.com/static-docs.testsigma.com/new_images/test-cases/step-types/for-loop/for_loop_empty_not_empty.png" alt= for loop parameter value empty>
+  <img src="https://s3.amazonaws.com/website-static-docs.testsigma.com/new_images/projects/Updated_Doc_Images/for_loop_empty_not_empty.png" alt= for loop parameter value empty>
 
 1. Select the suitable NLP to include in the test step and finish creating **For Loop** test step. 
 
@@ -84,12 +82,12 @@ If you want to run a test case based on the above test data profile, but you jus
 
 1. **Store**: Iteration count is the current count that is being iterated in a for loop in Testsigma. This Iteration Count can be stored into a variable for later use. Below is how the syntax for the Store NLP looks like:
 
-![store-iteration-count-test-data-set-name](https://s3.amazonaws.com/static-docs.testsigma.com/new_images/test-cases/step-types/for-loop/store-iteration-count-test-data-set-name.png)
+![store-iteration-count-test-data-set-name](https://s3.amazonaws.com/website-static-docs.testsigma.com/new_images/projects/Updated_Doc_Images/store-iteration-count-test-data-set-name.png)
 
 2. **if**: The test data set values, from a test data profile being iterated, can be compared within an if condition too. Below screenshot shows the NLP (The NLP can be added as a part of add-on “String Compare”. You can find the add-ons to use here: https://testsigma.com/addons):
 
 
-![the verify if NLP that is available with the addon String Compare](https://s3.amazonaws.com/static-docs.testsigma.com/new_images/test-cases/step-types/step-group/verify-with-if-with-string-compare.png)
+![the verify if NLP that is available with the addon String Compare](https://s3.amazonaws.com/website-static-docs.testsigma.com/new_images/projects/Updated_Doc_Images/verify-with-if-with-string-compare.png)
 
 
 
