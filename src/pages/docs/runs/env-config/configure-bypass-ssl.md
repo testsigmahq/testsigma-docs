@@ -48,11 +48,12 @@ The image below shows how to add desired capabilities for the Chrome browser in 
 ---
 
 ## **Bypassing Manually**
+
 1. Navigate to the SSL issue website and click on **Advanced**. 
-![Not Private Error](https://s3.amazonaws.com/website-static-docs.testsigma.com/new_images/projects/Updated_Doc_Images/ssl1.png)
+   ![Not Private Error](https://s3.amazonaws.com/website-static-docs.testsigma.com/new_images/projects/Updated_Doc_Images/ssl1.png)
    
 2. Click on **Proceed to < website-url > (unsafe)** link
-![Not Private Error Advanced](https://s3.amazonaws.com/website-static-docs.testsigma.com/new_images/projects/Updated_Doc_Images/ssl2.png)
+   ![Not Private Error Advanced](https://s3.amazonaws.com/website-static-docs.testsigma.com/new_images/projects/Updated_Doc_Images/ssl2.png)
 
 You will be directed to the original website.
 

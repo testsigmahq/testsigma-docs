@@ -33,7 +33,7 @@ Stored variables in RESTful API testing are variables that are used to store dat
 
 2. Click **Outline**, then select **Store Variable** to upload it directly into **Stored Variables** tab.
 
-   ![store response body in tab](https://s3.amazonaws.com/website-static-docs.testsigma.com/new_images/projects/Updated_Doc_Images/storevariable_restapioutline.gif)
+   ![store response body in tab](https://s3.amazonaws.com/website-static-docs.testsigma.com/new_images/projects/Updated_Doc_Images/storevariable_restapioutline.png)
 
 [[info | NOTE:]]
 | - Navigate to **Stored Variables** > **Response Body** tab, and click **Store Variable** to add the field manually.
@@ -46,17 +46,16 @@ Stored variables in RESTful API testing are variables that are used to store dat
 
 2. Hover over the HTML lines in the **Response Body** and select the attribute to store variables. This action automatically stores the attribute and displays info under the **Stored Variables** tab.
 
-   ![Store Variables](https://s3.amazonaws.com/website-static-docs.testsigma.com/new_images/projects/Updated_Doc_Images/StoreVariables.gif)
+   ![Store Variables](https://s3.amazonaws.com/website-static-docs.testsigma.com/new_images/projects/Updated_Doc_Images/StoreVariables.png)
 
 ---
 
 ## **Store Variable in Headers Tab**
 
 1. Click **Store Variable** in the **Headers tab**. Enter the **variable name** and enter the **header name**. Click **Create** to store variable. 
+   ![Store header in Tab](https://s3.amazonaws.com/website-static-docs.testsigma.com/new_images/projects/Updated_Doc_Images/storevariable_header_restapi.png)
 
 2. At the bottom of the page, click the **Headers** tab, mouse over to the response header, and click **store variable**; it will update in the stored variables headers tab.
-
-   ![Store header in Tab](https://s3.amazonaws.com/website-static-docs.testsigma.com/new_images/projects/Updated_Doc_Images/storevariable_header_restapi.gif)
 
 ---
 

@@ -117,7 +117,6 @@ At all times, ensure that the tap point is within the screen.
 
 This error appears when Testsigma servers cannot reach the mobile inspector session. One of the main reasons could be an issue with your browser network. At such times, the keep-alive requests from the browser don't go through to the Testsigma servers, and the Testsigma servers assume that the session was closed abruptly, thus marking the session as **expired**.
 
-![Network Error](https://s3.amazonaws.com/website-static-docs.testsigma.com/new_images/projects/Updated_Doc_Images/Networkerrorminsp.png)
 
 **Solution:**
 

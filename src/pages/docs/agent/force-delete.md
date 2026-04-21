@@ -16,19 +16,17 @@ contextual_links:
 
 ---
 
-1. Stop Agent
+**1. Stop Agent**
 
-Once the agent is started, you can see the Testsigma Agent icon on the status bar (Mac/Linux) or System Tray (Windows). Here’s a preview on Mac:
+Once the agent is started, you can see the Testsigma Agent icon on the status bar (Mac/Linux) or System Tray (Windows). 
 
-![Testsigma agent icon in the status bar once the agent is started](https://docs.testsigma.com/images/force-delete/testsigma-agent-icon-once-started.png)
+Click on the **Testsigma Agent** icon to reveal the menu and click on the **Quit** option to stop the agent.
 
-Click on the Testsigma Agent icon to reveal the menu and click on the Quit option to stop the agent.
+1. Delete the Folder from which the agent was started.
 
-2. Delete the Folder from which the agent was started.
+2. Delete Agent entry in Testsigma agents list view.
 
-3. Delete Agent entry in Testsigma agents list view.
-
-4. Delete agent.properties file.
+3. Delete **agent.properties** file.
 
 
 ---

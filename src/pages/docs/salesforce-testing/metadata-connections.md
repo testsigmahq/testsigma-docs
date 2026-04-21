@@ -83,8 +83,7 @@ There are two ways to Authenticate:
       ![Login](https://s3.amazonaws.com/website-static-docs.testsigma.com/new_images/projects/Updated_Doc_Images/sfmdlifsf.png)
 
     - This will display the **Environment** associated with the credentials. Click on **Start metadata sync**.
-      ![Start MD](https://s3.amazonaws.com/website-static-docs.testsigma.com/new_images/projects/Updated_Doc_Images/sfmdssync.png)
-
+  
     - Wait until the sync is complete. This will take some time.
       ![Wait](https://s3.amazonaws.com/website-static-docs.testsigma.com/new_images/projects/Updated_Doc_Images/sfmdsipg.png)
 

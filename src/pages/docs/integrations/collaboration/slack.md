@@ -91,7 +91,5 @@ Testsigma Slack integration sends ***Test Pass/Fail/Abort*** notifications in re
 4. Select **Slack** from ‘Also send messages to’ dropdown menu.  
 ![Select Slack](https://s3.amazonaws.com/website-static-docs.testsigma.com/new_images/projects/Updated_Doc_Images/update_slack_6.png)
 
-Here’s what the Notification looks like on Slack:
-![Slack](https://s3.amazonaws.com/website-static-docs.testsigma.com/new_images/projects/Updated_Doc_Images/slack.png)
 
 ---

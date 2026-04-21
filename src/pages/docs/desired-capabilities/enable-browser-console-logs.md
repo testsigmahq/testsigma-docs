@@ -73,6 +73,6 @@ Follow these steps to enable Browser Console - Extended Debugging for a specific
 
 After enabling Browser Console - Extended Debugging and running a test case or test plan, follow these steps to check the captured Browser Console Debug Logs:
 1. On the test execution results page, click **Show Logs** and navigate to the **Console Logs** section under the **Logs** tab.
-2. To analyze the Browser Console logs offline, click **Download Log File** in the top-right corner of the screen.![View Console Logs](hhttps://s3.amazonaws.com/website-static-docs.testsigma.com/new_images/projects/Updated_Doc_Images/update_console_3.png)
+2. To analyze the Browser Console logs offline, click **Download Log File** in the top-right corner of the screen.
 
 ---
