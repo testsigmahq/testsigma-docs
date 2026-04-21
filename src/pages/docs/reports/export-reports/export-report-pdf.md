@@ -53,7 +53,7 @@ In Testsigma, you can effortlessly export PDF reports with screenshots for your 
 | We recommend exporting screenshots in lower resolution to expedite report preparation and delivery.
 
 6. Once you select, Testsigma will generate and automatically download a report in Excel format. Testsigma will notify you via **email** (using the email address associated with your Testsigma account) upon completion.
-7. Click on the file named **(Test Plan Name with build run YYYYMMDD).pdf** to access the exported results. ![notify pdf report in email](https://s3.amazonaws.com/website-static-docs.testsigma.com/new_images/projects/Updated_Doc_Images/notify_pdf_exportrepot.png)
+7. Click on the file named **(Test Plan Name with build run YYYYMMDD).pdf** to access the exported results. 
 
 [[info | **NOTE**:]]
 | To add a logo to the PDF report, navigate to **Settings** > **Customize Reports** and enable the **Customer Report** toggle.

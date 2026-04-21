@@ -115,10 +115,10 @@ In Testsigma, you can create a while loop to execute a test step repeatedly if a
 
 1. **Store**: Iteration count is the current count that is being iterated in a while loop in Testsigma. This Iteration Count can be stored into a variable for later use as well. Below is how the syntax for the Store NLP looks like:
 
-![Store-iteration-count-test-data-set-name](https://s3.amazonaws.com/static-docs.testsigma.com/new_images/test-cases/step-types/for-loop/store-iteration-count-test-data-set-name.png)
+![Store-iteration-count-test-data-set-name](https://s3.amazonaws.com/website-static-docs.testsigma.com/new_images/projects/Updated_Doc_Images/store-iteration-count-test-data-set-name.png)
 
 2. **if**: The test data set values, from a test data profile being iterated, can be compared within an if condition too. Below screenshot shows the NLP (The NLP can be added as a part of add-on **String Compare**. You can find the add-ons to use here: <https://testsigma.com/addons>):
 
-![The verify if NLP that is available with the addon String Compare](https://s3.amazonaws.com/static-docs.testsigma.com/new_images/test-cases/step-types/step-group/verify-with-if-with-string-compare.png)
+![The verify if NLP that is available with the addon String Compare](https://s3.amazonaws.com/website-static-docs.testsigma.com/new_images/projects/Updated_Doc_Images/verify-with-if-with-string-compare.png)
 
 ---

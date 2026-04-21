@@ -163,8 +163,6 @@ The values from 295 to 299 are Run IDs of consecutive Test Plan Runs.
 
 If the Test Plan was started by the Test Plan Trigger API Call, the Run ID can be obtained from the API Response under the JSON key ‘id’.
 
-![run ids from API response under the json key id](https://docs.testsigma.com/images/test-plans/run-id-api-response-json-key.png)
-
 
 
 ---
@@ -223,9 +221,8 @@ This endpoint allows users to check the status of an already triggered Test Plan
 [[info | NOTE:]]
 | All the remaining fields are either self-explanatory or can be ignored.
 
-The Response contains a lot of information regarding the Test Plan Run. Here’s a screenshot of the relevant excerpt from the JSON Response:
+The Response contains a lot of information regarding the Test Plan Run. 
 
-![example of a json response](https://docs.testsigma.com/images/test-plans/example-json-response.png)
 
 You can see the result as **FAILURE** and the current status as **STATUS\_COMPLETED** (along with other information).
 

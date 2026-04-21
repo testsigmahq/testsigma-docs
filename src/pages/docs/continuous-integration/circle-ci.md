@@ -59,17 +59,20 @@ We will add Testsigma API Key and the Test Plan ID to a Shell script, and the sh
  
 ## **Add the Shell Script to Code Repository**
 You need to add a script file in your Code Repository stored on Github, Bitbucket, Azure, or any such platform. This script file contains commands to trigger the Testsigma Test Plan remotely.
+
 1. Copy the shell script from Generic Shell Script. Refer to the [documentation on Generic Shell Script for Integrating with CI/CD tools](https://testsigma.com/docs/continuous-integration/shell-script/).
+
 2. Update your Testsigma API key and Test Plan ID in the above script. Refer to the [documentation on generating API keys](https://testsigma.com/docs/configuration/api-keys/) and [documentation on test plan ID](https://testsigma.com/docs/continuous-integration/get-test-plan-details/)
+
 3. Now upload the script file to your Code Repository and commit.
 
 --- 
 
 ## **Configure the CircleCI Pipeline**
 1. In CircleCI, create a new project or select the Project that you want to integrate with Testsigma.
-2. Clicking on **Setup Project** takes us to the Set Up page as shown below:
+2. Clicking on **Setup Project** takes us to the Set Up page as shown below:  
+   ![set up project in circle CI](https://s3.amazonaws.com/website-static-docs.testsigma.com/new_images/projects/Updated_Doc_Images/Setup_Circle_CI.png)
 
-![set up project in circle CI](https://docs.testsigma.com/images/circle-ci/set-up-project-circle-ci.png)
 3. Modify the config.yml file and include a job to run the specified bash script file that initiates Testsigma Execution and waits for its completion before deployment. Here's a sample entry for config.yml file:
 
 ```yaml
@@ -93,9 +96,13 @@ Run the shell script and this triggers the test plan on Testsigma using the foll
 run: ```./trigger_testsigma_tests_and_wait.sh```
  
 4. Now, click on the ‘Start Building’ button on the top right to start a test build. You will be greeted with a dialog stating that the config.yml will be added to the selected Repo by CircleCI.
+   ![add config to repo in Circle CI](https://s3.amazonaws.com/website-static-docs.testsigma.com/new_images/projects/Updated_Doc_Images/Add_Config_to_Repo_Circle_ci.png)
 
-![add config to repo in Circle CI](https://docs.testsigma.com/images/circle-ci/add-config-to-repo-circle-ci.png)
 5. Click on Add Config button to Add the Config and start building. It will take you to the Pipelines page.
-![add config in pipelines page in circle CI](https://docs.testsigma.com/images/circle-ci/add-config-pipelines-page-circle-CI.png)
+   ![add config in pipelines page in circle CI](https://s3.amazonaws.com/website-static-docs.testsigma.com/new_images/projects/Updated_Doc_Images/Config_Pipelines_CircleCI.png)
+
 That's it.
+
 With the above settings, the build will be triggered whenever there is a change in the repository and as soon as the build is triggered, the tests will begin in Testsigma. The script will wait until the test completes and checks that the result of the tests is passed.
+
+---

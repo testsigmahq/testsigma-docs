@@ -36,13 +36,11 @@ You can enable capturing screenshots by simply removing the code below in the Ma
                 ***WindowManager.LayoutParams.FLAG_SECURE);***
 <br>
 
-Find the complete code for the **MainActivity.java** file below.
-
-![MainActivity Code](https://s3.amazonaws.com/website-static-docs.testsigma.com/new_images/projects/Updated_Doc_Images/java_code_MA.png)
 
 ---
 
 ## **For iOS Applications**
+
 In iOS applications, if you’re using third party tools to disable screenshot, you need to remove that restriction to allow inspection in Testsigma.
 
 ---
