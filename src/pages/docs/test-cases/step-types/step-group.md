@@ -197,16 +197,9 @@ Logging in to an account is a common prerequisite. Instead of duplicating these 
 
 ## **Additional actions possible on iteration count**
 
-1. **Store**: In a step group, when a test data profile is being iterated - an additional action is possible. The iteration count can be stored into a variable for later use. (Iteration count is the current count that is being iterated over the associate test data profile in the step group in Testsigma.) Below is how the syntax for the Store NLP looks like:
-
-![store-iteration-count-test-data-set-name](https://s3.amazonaws.com/static-docs.testsigma.com/new_images/test-cases/step-types/for-loop/store-iteration-count-test-data-set-name.png)
-
+1. **Store**: In a step group, when a test data profile is being iterated - an additional action is possible. The iteration count can be stored into a variable for later use. (Iteration count is the current count that is being iterated over the associate test data profile in the step group in Testsigma.)
 
 2. **If**: The test data set values, from a test data profile being iterated, can be compared within an *if condition* too. Below screenshot shows the NLP (The NLP can be added as a part of add-on **String Compare**. You can find the add-ons to use here: https://testsigma.com/addons):
-
-
-![the verify if NLP that is available with the addon String Compare](https://s3.amazonaws.com/static-docs.testsigma.com/new_images/test-cases/step-types/step-group/verify-with-if-with-string-compare.png)
-
 
 
 ---

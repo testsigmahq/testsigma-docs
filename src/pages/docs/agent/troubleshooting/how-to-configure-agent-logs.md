@@ -51,7 +51,7 @@ Agent log-level configuration in Testsigma is important for debugging and keepin
    - **INFO**: The default level that logs general information, warnings, and errors for regular monitoring. Info, warning, and error messages will appear in the CLI and be saved in the local agent log files.
    - **DEBUG**: Logs detailed information for debugging. Debug info, warnings, and errors will appear in the CLI and be saved in the local agent log files.
    - **TRACE**: Logs detailed traces of the execution flow for deep debugging. Trace messages, debug info, warnings, and errors will appear in the CLI and be saved in the local agent log files.
-   - **ALL**: Logs all messages, providing the most detailed logging. All messages (error, warning, info, debug, and trace) will appear in the CLI and be saved in the local agent log files. ![agent log level configuration](https://s3.amazonaws.com/website-static-docs.testsigma.com/new_images/projects/Updated_Doc_Images/agent_log_level_configuration.png)
+   - **ALL**: Logs all messages, providing the most detailed logging. All messages (error, warning, info, debug, and trace) will appear in the CLI and be saved in the local agent log files. 
 
 4. After selecting the log-level configuration, **restart** the agent for the changes to take effect. 
 
