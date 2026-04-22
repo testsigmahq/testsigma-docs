@@ -104,8 +104,8 @@ Use any of the below NLP's for dropdown associated with **\<div>**, **\<a>**, or
 
 ## **Verify if a dropdown has a select tag**
 
-1.	Right-click on the element and select **Inspect** from the drop-down list.![inspect element](https://s3.amazonaws.com/static-docs.testsigma.com/new_images/troubleshooting/NLPs/unable-to-capture-select-element/inspect_drop_down.png)
-2.	Check if the element is attached to the  \<select> tag as shown in the below screen shot.![select tag](https://s3.amazonaws.com/static-docs.testsigma.com/new_images/troubleshooting/NLPs/unable-to-capture-select-element/select_tag.png)<br><br>
+1.	Right-click on the element and select **Inspect** from the drop-down list.![inspect element](https://s3.amazonaws.com/website-static-docs.testsigma.com/new_images/projects/Updated_Doc_Images/inspect_drop_down.png)
+2.	Check if the element is attached to the  \<select> tag as shown in the below screen shot.![select tag](https://s3.amazonaws.com/website-static-docs.testsigma.com/new_images/projects/Updated_Doc_Images/select_tag.png)<br><br>
 
 If the element is attached to the \<select> tag use any of the following suitable NLP’s explained in the section [dropdowns using \<select> tag](#dropdowns-using-select-tag).<br><br>
 If the element uses any of the non \<select> dropdown use cases, use any of the suitable NLPs explained in the section [dropdowns using non \<select> tag](#dropdowns-using-non-select-tag). 

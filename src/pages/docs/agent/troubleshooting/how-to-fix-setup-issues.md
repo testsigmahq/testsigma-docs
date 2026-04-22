@@ -67,8 +67,14 @@ For Windows, try the below command in Powershell:<br>
 
 1. Open CMD with Admin privileges (Run as Administrator).
 2. Find the process that's using the required port. Use the below command to find the processes running on port 8383:<br>`netstat -ano | findstr :8383` <br>
-You will see the following output:![process id](https://s3.amazonaws.com/static-docs.testsigma.com/new_images/agent/troubleshooting/setup-issues/agent_process_id.png)<br>The last field with the five-digit number is the Process ID(PID).
-3. Now that we have got the PID for the process, we can send a kill signal.<br>`taskkill /PID typeyourPIDhere /F`<br>![kill process id](https://s3.amazonaws.com/static-docs.testsigma.com/new_images/agent/troubleshooting/setup-issues/kill_process_id.png) Once the port is free Testsigma automatically detects the available port.
+You will see the following output:
+![agent process id](https://s3.amazonaws.com/website-static-docs.testsigma.com/new_images/projects/Updated_Doc_Images/agent_process_id.png) 
+
+
+
+Now that we have got the PID for the process, we can send a kill signal. <br>
+   `taskkill /PID typeyourPIDhere /F` <br>
+   ![kill process id](https://s3.amazonaws.com/website-static-docs.testsigma.com/new_images/projects/Updated_Doc_Images/kill_process_id.png) Once the port is free Testsigma automatically detects the available port.
 
 4. If the Testsigma agent does not start immediately repeat the same command in *Step 2* and confirm the result is empty.
 5. Try the above steps for port 8484 as well.
@@ -76,10 +82,10 @@ You will see the following output:![process id](https://s3.amazonaws.com/static-
 
 ### **Linux and macOS**
 
-
-
  1. Open Terminal.
- 2. Find the process that's running on the required port. Use the below command to find the processes using the port 8080: <br>`netstat -anop | grep :8383`<br>You will see the following output:![process id](https://s3.amazonaws.com/static-docs.testsigma.com/new_images/agent/troubleshooting/setup-issues/linux_process_id.png)
+   
+ 2. Find the process that's running on the required port. Use the below command to find the processes using the port 8080: <br>`netstat -anop | grep :8383`<br>You will see the following output:
+    ![process id](https://s3.amazonaws.com/website-static-docs.testsigma.com/new_images/projects/Updated_Doc_Images/linux_process_id.png)
  3. The second last field with 4/5 digits is the Process ID(PID) and the name after the '/' is the process name.
  4. Now that we have got the PID for the process, we can send a process termination signal using **pkill**<br> `pkill typeyourPIDhere`
  5. Repeat the same command in *Step 2* and confirm the result is empty. If the process is still present, use the below command to force kill using kill<br>`kill -SIGKILL typeyourPIDhere`

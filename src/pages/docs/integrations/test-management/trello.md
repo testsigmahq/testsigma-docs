@@ -66,7 +66,7 @@ This document discusses establishing Integration with Trello from your Testsigma
 
 3. Choose **Trello** and enter the detailed information of your bug.
 
-![Sample Task reported from Testsigma Bug Reporting Integration in Test Results page](https://docs.testsigma.com/images/trello/plugins-create-trello-bug-form-filled.png)
+![Sample Task reported from Testsigma Bug Reporting Integration in Test Results page](https://s3.amazonaws.com/website-static-docs.testsigma.com/new_images/projects/Updated_Doc_Images/plugins-create-trello-bug-form-filled.png)
 
 [[info | NOTE:]]
 | Only the bug reporting tools that have been enabled via the plugins page (add link) will be displayed here.

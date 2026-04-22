@@ -34,7 +34,7 @@ You should already know how to add Desired Capabilities to your Tests. Refer to 
 
 While executing, you can check the current Profile location by going to the following URL: <br>chrome://version
 
-![Chrome version tab](https://docs.testsigma.com/images/custom-user-profile-chrome/chrome-version-tab.png)
+![Chrome version tab](https://s3.amazonaws.com/website-static-docs.testsigma.com/new_images/projects/Updated_Doc_Images/chrome-version-tab.png)
 
 #### **Location of Chrome Browser Profile(default profile)**
 

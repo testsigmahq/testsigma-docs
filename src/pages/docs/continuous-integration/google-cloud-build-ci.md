@@ -81,7 +81,7 @@ You can integrate **Google Cloud Build** with your version control system to aut
 
 [[info | NOTE:]]
 | - Ensure the tstrigger.sh file is present in the same repository and marked as executable. For information on the generic shell script, refer to the [documentation on generic Shell script](https://testsigma.com/docs/continuous-integration/shell-script/).
-| - Ensure you have an API key and a Test Plan ID. For more information, refer to the [documentation on generating API keys](https://testsigma.com/docs/configuration/api-keys/) and <a href="https://docs.testsigma.com/images/azure-devops/get-test-plan-id.png" rel="nofollow">documentation on getting test plan ID</a>.
+| - Ensure you have an API key and a Test Plan ID. For more information, refer to the [documentation on generating API keys](https://testsigma.com/docs/configuration/api-keys/) and <a href="https://s3.amazonaws.com/website-static-docs.testsigma.com/new_images/projects/Updated_Doc_Images/get-test-plan-id.png" rel="nofollow">documentation on getting test plan ID</a>.
 | -![tstrigger](https://s3.amazonaws.com/website-static-docs.testsigma.com/new_images/projects/Updated_Doc_Images/Google_cloud_8.png)
 
 1. On the **Connect repository** overlay, select your source code management provider from the list (we’re selecting **GitHub**), then click **Continue**.

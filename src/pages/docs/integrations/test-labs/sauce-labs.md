@@ -29,7 +29,7 @@ If your organization has an existing account with SauceLabs, you can author test
 > 
 > Before you begin, ensure that:
 > 1. You have the username and API Key for SauceLabs which can be obtained from your SauceLabs account dashboard. This can be obtained from the Account Settings page as shown below :
->    ![User credentials in Saucelabs Account Settings page](https://docs.testsigma.com/images/sauce-labs/saucelabs-user-creds-username-key.png)
+>    ![User credentials in Saucelabs Account Settings page](https://s3.amazonaws.com/website-static-docs.testsigma.com/new_images/projects/Updated_Doc_Images/saucelabs-user-creds-username-key.png)
 > 2. You have referred to the [documentation on test lab types in Testsigma](https://testsigma.com/docs/test-plans/supported-test-lab-types/)
 
 ---
@@ -41,11 +41,11 @@ Once the username and API key is obtained, navigate to the **Integrations** page
 2. in the **Sauce Labs details** dialog, enter the username and API Key obtained from **Sauce Labs** here.
 3. After entering the details, click on the **Save & Enable** button to add the integration.
 
-![window to add sauce labs integration to Testsigma](https://docs.testsigma.com/images/sauce-labs/add-sauce-labs-integration.png)
+![window to add sauce labs integration to Testsigma](https://s3.amazonaws.com/website-static-docs.testsigma.com/new_images/projects/Updated_Doc_Images/add-sauce-labs-integration.png)
 
 ---
 ## **Using SauceLabs for Test Runs**
 
 Once the account details are added to the **Integrations** page, select **Sauce Labs** as the **Test Lab** type instead of Testsigma Lab while creating an Ad-hoc run or Test Plan Run.
 
-![Select SauceLabs as the Test lab Type for Test Plan Run or Ad-hoc Run](https://docs.testsigma.com/images/sauce-labs/select-test-lab-saucelabs.png)
+![Select SauceLabs as the Test lab Type for Test Plan Run or Ad-hoc Run](https://s3.amazonaws.com/website-static-docs.testsigma.com/new_images/projects/Updated_Doc_Images/select-test-lab-saucelabs.png)

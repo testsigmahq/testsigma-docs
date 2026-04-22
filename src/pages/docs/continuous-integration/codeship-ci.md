@@ -43,11 +43,11 @@ Testsigma offers powerful webhooks for triggering Testsigma executions remotely 
 
 
 2. From the **Dashboard**, click on **Project Settings**.
-![project settings in codeship CI](https://docs.testsigma.com/images/codeship-ci/project-settings-codeship-ci.png)
+![project settings in codeship CI](https://s3.amazonaws.com/website-static-docs.testsigma.com/new_images/projects/Updated_Doc_Images/project-settings-codeship-ci.png)
 
 
 3. On **Configure your Tests** page, select the option **I want to create my own custom commands** in the Select your technology selector box.
-![configure your tests and add pipelines in codeship ci](https://docs.testsigma.com/images/codeship-ci/configure-your-tests-add-pipeline-codeship-ci.png)
+![configure your tests and add pipelines in codeship ci](https://s3.amazonaws.com/website-static-docs.testsigma.com/new_images/projects/Updated_Doc_Images/configure-your-tests-add-pipeline-codeship-ci.png)
 
 
 4. In Setup Commands, enter the below command  to install jq package:
@@ -58,7 +58,7 @@ Testsigma offers powerful webhooks for triggering Testsigma executions remotely 
  
 
 5. Click on **Add Pipeline** and enter a name for the pipeline. We will be entering **Testsigma Execution Trigger**.
-![configure test pipelines in codeship CI](https://docs.testsigma.com/images/codeship-ci/configure-test-pipelines-codeship-CI.png)
+![configure test pipelines in codeship CI](https://s3.amazonaws.com/website-static-docs.testsigma.com/new_images/projects/Updated_Doc_Images/configure-test-pipelines-codeship-CI.png)
 
 
 6. Go to the Testsigma Executions page to get the execution ID. Refer to the [documentation on getting the execution ID](https://testsigma.com/docs/continuous-integration/get-test-plan-details/) and [documentation on generating API keys](https://testsigma.com/docs/configuration/api-keys/) as shown below:
@@ -101,11 +101,11 @@ $(exit $currentresult)
 
 
 8. Paste the script in the new **test commands** box as shown below and click on the **Save and go to Dashboard** button.
-![Configure test pipelines, save and go to dashboard button in codeship CI](https://docs.testsigma.com/images/codeship-ci/configure-test-pipelines-save-and-go-to-dashboard-button-codeship-CI.png)
+![Configure test pipelines, save and go to dashboard button in codeship CI](https://s3.amazonaws.com/website-static-docs.testsigma.com/new_images/projects/Updated_Doc_Images/configure-test-pipelines-save-and-go-to-dashboard-button-codeship-CI.png)
 
 
 9. Now go to the **Project Settings > Build Trigger** to add a build Trigger.
-![configure your branches in codeship CI](https://docs.testsigma.com/images/codeship-ci/configure-your-branches-codeship-CI.png)
+![configure your branches in codeship CI](https://s3.amazonaws.com/website-static-docs.testsigma.com/new_images/projects/Updated_Doc_Images/configure-your-branches-codeship-CI.png)
 
 
 10. Optional - You may also go to **Project Settings > Deploy** to add details of your deployment platform.

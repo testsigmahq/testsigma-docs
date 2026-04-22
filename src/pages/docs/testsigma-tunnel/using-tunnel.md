@@ -35,8 +35,6 @@ You can use Testsigma Tunnel for Test Automation by configuring the desired capa
    |---|---|---|
    |**testsigmaLab.tunnelName**|String|&lt;tunnel_Name&gt;|
 
-   ![Tunnel DC](https://s3.amazonaws.com/website-static-docs.testsigma.com/new_images/projects/Updated_Doc_Images/Tunnel_Desired_Capability.png)
-
 ---
 
 ## **For Live Testing REST API:**

@@ -45,21 +45,21 @@ You can also get it from <a href="https://marketplace.atlassian.com/apps/1223253
 ## **Create and Configure a New Plan**
 
 1. Navigate to **Bamboo Instance > Build Dashboard** as shown below:
-![Build Dashboard page in Bamboo CI](https://docs.testsigma.com/images/bamboo-ci/build-dashboard-bamboo-ci.png)
+![Build Dashboard page in Bamboo CI](https://s3.amazonaws.com/website-static-docs.testsigma.com/new_images/projects/Updated_Doc_Images/build-dashboard-bamboo-ci.png)
 
 
 2. Create a new pipeline by clicking on **Create > Create Plan** on the top menu in the **Dashboard** page above.
 
 3. Enter a **Project name**, **Plan name**, and configure your repository and click on **Configure Plan** as shown below:
-![configure plan in Bamboo CI](https://docs.testsigma.com/images/bamboo-ci/configure-plan-bamboo-ci.png)
+![configure plan in Bamboo CI](https://s3.amazonaws.com/website-static-docs.testsigma.com/new_images/projects/Updated_Doc_Images/configure-plan-bamboo-ci.png)
 
 ---
 
 ## **Create a Task to trigger Testsigma Test Plan**
 
 1. Click on **Add Task** tab. Search for **Testsigma Test Plan Run** and select it. This is the plugin that was installed as part of the Pre-requisite.
-![configure job in Bamboo CI](https://docs.testsigma.com/images/bamboo-ci/configure-job-bamboo-ci.png)
-![Testsigma Test Plan run in Bamboo CI](https://docs.testsigma.com/images/bamboo-ci/testsigma-test-plan-run-bamboo-ci.png)
+![configure job in Bamboo CI](https://s3.amazonaws.com/website-static-docs.testsigma.com/new_images/projects/Updated_Doc_Images/configure-job-bamboo-ci.png)
+![Testsigma Test Plan run in Bamboo CI](https://s3.amazonaws.com/website-static-docs.testsigma.com/new_images/projects/Updated_Doc_Images/testsigma-test-plan-run-bamboo-ci.png)
 
 2. Enter the following details:
 
@@ -75,9 +75,9 @@ You can also get it from <a href="https://marketplace.atlassian.com/apps/1223253
  
 1. Click on **Save** button to save the task details.
 
-![save task details in Bamboo CI](https://docs.testsigma.com/images/bamboo-ci/save-task-details-save-button-bamboo-ci.png)
+![save task details in Bamboo CI](https://s3.amazonaws.com/website-static-docs.testsigma.com/new_images/projects/Updated_Doc_Images/save-task-details-save-button-bamboo-ci.png)
 
-![task created successfully in Bamboo CI](https://docs.testsigma.com/images/bamboo-ci/task-created-successfully-bamboo-ci.png)
+![task created successfully in Bamboo CI](https://s3.amazonaws.com/website-static-docs.testsigma.com/new_images/projects/Updated_Doc_Images/task-created-successfully-bamboo-ci.png)
 
 4. Click on **Save and Create** to create the Plan.
  
@@ -87,7 +87,7 @@ You can also get it from <a href="https://marketplace.atlassian.com/apps/1223253
 ## **Try a Sample Build**
 
 1. Click on **Run Now** to trigger the pipeline manually to check.
-![plan summary in Bamboo CI](https://docs.testsigma.com/images/bamboo-ci/plan-summary-bamboo-ci.png)
+![plan summary in Bamboo CI](https://s3.amazonaws.com/website-static-docs.testsigma.com/new_images/projects/Updated_Doc_Images/plan-summary-bamboo-ci.png)
 As soon as the plan runs and the pipeline reaches the Testsigma task, the Testsigma test plan will be triggered. You can confirm that by navigating to the **Dashboard > Test Plans** page in Testsigma App. 
 
 You can log into Testsigma to learn more about the results. That's all we need to automate Test Execution when a successful build is triggered using the Bamboo CI server.

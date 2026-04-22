@@ -101,7 +101,7 @@ After placing the downloaded driver in the newly created folder, we need to perf
 2. Run the below command to add executable permission to all the driver files including the newly added driver file
 chmod -R u+x ./*
 
-![Setting Executable perm form driver files in Testsigma Agent using Terminal](https://docs.testsigma.com/images/update-drivers-manually/ts-agent-set-exec-permission-new-driver.png)
+![Setting Executable perm form driver files in Testsigma Agent using Terminal](https://s3.amazonaws.com/website-static-docs.testsigma.com/new_images/projects/Updated_Doc_Images/ts-agent-set-exec-permission-new-driver.png)
 
 Once that is done, you can start executing tests on the newest version of the corresponding Browser. You can follow the same directions for other browsers as well.
 
