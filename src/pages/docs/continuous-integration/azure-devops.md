@@ -27,33 +27,33 @@ Microsoft Azure, aka Azure, is a cloud computing service created by Microsoft fo
 > 
 > Before you begin, ensure that you have referred to:
 > 1. [Documentation on generating API keys](https://testsigma.com/docs/configuration/api-keys/).
-> 2. <a href="https://docs.testsigma.com/images/azure-devops/get-test-plan-id.png" rel="nofollow">Documentation on getting test plan ID</a>.
+> 2. <a href="https://s3.amazonaws.com/website-static-docs.testsigma.com/new_images/projects/Updated_Doc_Images/get-test-plan-id.png" rel="nofollow">Documentation on getting test plan ID</a>.
 
 ---
 ## **How to integrate with Azure DevOps**
 1. Login to the Azure DevOps account and create a **Project**. Navigate to Pipelines and click on the **New Pipeline** to get started.
-![create new pipeline azure devops](https://docs.testsigma.com/images/azure-devops/create-new-pipeline-azure-devops.png)
+![create new pipeline azure devops](https://s3.amazonaws.com/website-static-docs.testsigma.com/new_images/projects/Updated_Doc_Images/create-new-pipeline-azure-devops.png)
 
 2. Choose the **Version Control System** (VCS) where your application code is stored.
-![select version control system in Azure Devops](https://docs.testsigma.com/images/azure-devops/select-version-control-system-azure-devops.png)
+![select version control system in Azure Devops](https://s3.amazonaws.com/website-static-docs.testsigma.com/new_images/projects/Updated_Doc_Images/select-version-control-system-azure-devops.png)
 
 
 [[info | NOTE:]]
 | In order to integrate with Azure, you need to have a YAML file in your Code repository. This file contains the details for the CI/CD Integration with Azure DevOps. If not available yet, Azure has an option in which it will create a sample YAML file in your repository once access is given.
 
 3. Choose the repository where your Configuration YAML file is present. Once you select your repository it will take you to the configuration page where you can configure your pipeline.
-![select repository in Azure DevOps](https://docs.testsigma.com/images/azure-devops/select-repository-azure-devops.png)
+![select repository in Azure DevOps](https://s3.amazonaws.com/website-static-docs.testsigma.com/new_images/projects/Updated_Doc_Images/select-repository-azure-devops.png)
  
 4. On **Configure your pipeline** page, if you already have your YAML file in your repo, you can select the option **Existing Azure Pipeline YAML file**. Otherwise, you can select **Starter Pipeline** to create a sample YAML file in the selected repository.
-![configure your pipeline page in Azure DevOps](https://docs.testsigma.com/images/azure-devops/configure-your-pipeline-azure-devops.png) 
+![configure your pipeline page in Azure DevOps](https://s3.amazonaws.com/website-static-docs.testsigma.com/new_images/projects/Updated_Doc_Images/configure-your-pipeline-azure-devops.png) 
 
 
 In this case, we already had an existing YAML file in the repo. So, once you select the fourth option in the above image, it will take you to a place where you need to enter the branch and path of the YAML file in your repository.
-![Select existing pipeline while configuring an existing YAML file in Azure DevOps](https://docs.testsigma.com/images/azure-devops/configure-pipeline-select-yaml-file-azure-devops.png)
+![Select existing pipeline while configuring an existing YAML file in Azure DevOps](https://s3.amazonaws.com/website-static-docs.testsigma.com/new_images/projects/Updated_Doc_Images/configure-pipeline-select-yaml-file-azure-devops.png)
 
 
 5. Review the CI Configuration after selecting the Branch and Path,  click on **Continue**.
-![Review CI configuration in Azure DevOps](https://docs.testsigma.com/images/azure-devops/review-ci-configuration-azure-devops.png)
+![Review CI configuration in Azure DevOps](https://s3.amazonaws.com/website-static-docs.testsigma.com/new_images/projects/Updated_Doc_Images/review-ci-configuration-azure-devops.png)
 
 The YAML file contains the following code where you need to enter the filePath of the Generic Shell Script (cicd-api.sh) to run it. For more information on generic shell script, refer to the [documentation generic shell script](https://testsigma.com/docs/continuous-integration/shell-script/).  This Shell script is the one that actually triggers the Test Plan execution and gives you the result of Test plan once it's complete.
 
@@ -83,24 +83,24 @@ steps:
 
  
 In order to Trigger a particular test plan, you just need to add your own Test plan Execution id and the API key in the Shell Script (cicd-api.sh). As shown below:
-![shell script for Azure DevOps](https://docs.testsigma.com/images/azure-devops/shell-script-azure-devops.png)
+![shell script for Azure DevOps](https://s3.amazonaws.com/website-static-docs.testsigma.com/new_images/projects/Updated_Doc_Images/shell-script-azure-devops.png)
 
 For more information on configuration of Generic Shell Script, refer to https://testsigma.com/docs/continuous-integration/shell-script/.
 
 6. Test the configuration once the script is set up and reviewed for the pipeline, and click on the **Run** to start your Job.
-![test configuration in Azure DevOps](https://docs.testsigma.com/images/azure-devops/test-configuration-azure-devops.png)
+![test configuration in Azure DevOps](https://s3.amazonaws.com/website-static-docs.testsigma.com/new_images/projects/Updated_Doc_Images/test-configuration-azure-devops.png)
 
 Once the Run is initiated, you will see this page:
-![set up ci with Azure Pipelines](https://docs.testsigma.com/images/azure-devops/setup-ci-with-azure-pipelines.png)
+![set up ci with Azure Pipelines](https://s3.amazonaws.com/website-static-docs.testsigma.com/new_images/projects/Updated_Doc_Images/setup-ci-with-azure-pipelines.png)
 
 Once the job has been completed, the Job status will be **Success** as shown in the image below:
-![Job Status Success in Azure DevOps](https://docs.testsigma.com/images/azure-devops/job-status-success-azure-devops.png)
+![Job Status Success in Azure DevOps](https://s3.amazonaws.com/website-static-docs.testsigma.com/new_images/projects/Updated_Doc_Images/job-status-success-azure-devops.png)
 
 7. Once the job is completed we can see the reports in the **Test Plans > Runs**.
-![Test Plans Runs in Pipelines in Azure DevOps](https://docs.testsigma.com/images/azure-devops/pipelines-testplans-runs-azure-devops.png)
+![Test Plans Runs in Pipelines in Azure DevOps](https://s3.amazonaws.com/website-static-docs.testsigma.com/new_images/projects/Updated_Doc_Images/pipelines-testplans-runs-azure-devops.png)
 
 After clicking on **Runs** you can select the Test plan for which you want to view the report and then you will be navigated to the page below, and also you can download the JUnit report in XML format.
-![Junit report in Azure DevOps](https://docs.testsigma.com/images/azure-devops/junit-report-azure-devops.png)
+![Junit report in Azure DevOps](https://s3.amazonaws.com/website-static-docs.testsigma.com/new_images/projects/Updated_Doc_Images/junit-report-azure-devops.png)
 
 You can use another shell script to convert the JUnit XML format result into an HTML format.
 

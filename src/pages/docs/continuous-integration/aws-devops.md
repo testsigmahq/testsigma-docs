@@ -40,12 +40,12 @@ We’ll cover both methods.
 
  
 1. Click on the Build projects option under the Build section and Create a new Build Project:
-![create build project button in AWS Devops](https://docs.testsigma.com/images/aws-devops/create-build-project-aws-devops.png)
+![create build project button in AWS Devops](https://s3.amazonaws.com/website-static-docs.testsigma.com/new_images/projects/Updated_Doc_Images/create-build-project-aws-devops.png)
 
 
 2. Fill in the project configuration details and select the Source Provider and Repository accordingly. Here we have selected Github as our repository and give Buildspec name as your .yml file name 
-![project configuration details in AWS DevOps](https://docs.testsigma.com/images/aws-devops/project-configuration-details-aws-devops.png)
-    ![add yml file in buildspect in AWS DevOps](https://docs.testsigma.com/images/aws-devops/buildspec-yml-aws-devops.png)
+![project configuration details in AWS DevOps](https://s3.amazonaws.com/website-static-docs.testsigma.com/new_images/projects/Updated_Doc_Images/project-configuration-details-aws-devops.png)
+    ![add yml file in buildspect in AWS DevOps](https://s3.amazonaws.com/website-static-docs.testsigma.com/new_images/projects/Updated_Doc_Images/buildspec-yml-aws-devops.png)
 
 
 3. Once this is done, please update the .yml file in the repository with the below code. In this case, we have taken a sample file **aws_codebuild.yml**:
@@ -91,10 +91,10 @@ RUNTIME_DATA_INPUT="buildurl=http://test.testsigma.com,data1=testdata"
 
  
 4. Now in the AWS CodeBuild, click on start build:
- ![start build button in AWS DevOps](https://docs.testsigma.com/images/aws-devops/start-build-button-aws-devops.png)
+ ![start build button in AWS DevOps](https://s3.amazonaws.com/website-static-docs.testsigma.com/new_images/projects/Updated_Doc_Images/start-build-button-aws-devops.png)
 
 5. Once Build has been initiated you can check the progress and build logs as shown in the screenshot below:
- ![build progress in AWS DevOps](https://docs.testsigma.com/images/aws-devops/build-progress-aws-devops.png)
+ ![build progress in AWS DevOps](https://s3.amazonaws.com/website-static-docs.testsigma.com/new_images/projects/Updated_Doc_Images/build-progress-aws-devops.png)
     
     You will find the execution ID for the Test Plan within the **REST API call to start Test Plan** section.
 ![Get Test Plan ID](https://s3.amazonaws.com/website-static-docs.testsigma.com/new_images/projects/Updated_Doc_Images/update_aws_1.png)
@@ -106,17 +106,17 @@ Similarly, you can go to the CodePipeline service in AWS and create a pipeline f
 Follow the below steps for creating CodePipeline and triggering the test:
  
 1. Click on create a pipeline:
-![create pipeline in AWS DevOps](https://docs.testsigma.com/images/aws-devops/create-pipeline-aws-devops.png)
+![create pipeline in AWS DevOps](https://s3.amazonaws.com/website-static-docs.testsigma.com/new_images/projects/Updated_Doc_Images/create-pipeline-aws-devops.png)
 
 
 2. Fill in the build details (selecting the repository accordingly) and select the project which you want to add to your pipeline. In the below screenshot you can see that the project which we created earlier in CodeBuild "demo123" is visible here and we will be selecting that only.
-![add build stage in AWS DevOps](https://docs.testsigma.com/images/aws-devops/add-build-stage-aws-devops.png)
+![add build stage in AWS DevOps](https://s3.amazonaws.com/website-static-docs.testsigma.com/new_images/projects/Updated_Doc_Images/add-build-stage-aws-devops.png)
 
 3. Once you have given the details for the Pipeline settings, Source, Deploy stage then you can review the details and click on Create Pipeline:
-![review pipeline settings in AWS DevOps](https://docs.testsigma.com/images/aws-devops/pipeline-settings-review-aws-devops.png)
+![review pipeline settings in AWS DevOps](https://s3.amazonaws.com/website-static-docs.testsigma.com/new_images/projects/Updated_Doc_Images/pipeline-settings-review-aws-devops.png)
 
 As soon as you click on create pipeline the run will be triggered:
-![Run triggered after creating pipeline in AWS DevOps](https://docs.testsigma.com/images/aws-devops/create-pipeline-run-triggered-aws-devops.png)
+![Run triggered after creating pipeline in AWS DevOps](https://s3.amazonaws.com/website-static-docs.testsigma.com/new_images/projects/Updated_Doc_Images/create-pipeline-run-triggered-aws-devops.png)
 
 That's all we need to automate Test Execution when a successful build is triggered using the AWS DevOps.
 
