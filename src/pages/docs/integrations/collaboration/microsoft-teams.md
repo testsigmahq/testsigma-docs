@@ -73,7 +73,7 @@ Once the MS Teams integration is added, you can enable the MS Teams notification
 
 
 Here’s what the notification looks like on MS Teams:
-![MS Teams notification for Test Results](https://docs.testsigma.com/images/microsoft-teams/ms-teams-testsigma-notifications.png)
+![MS Teams notification for Test Results](https://s3.amazonaws.com/website-static-docs.testsigma.com/new_images/projects/Updated_Doc_Images/ms-teams-testsigma-notifications.png)
 
 
 

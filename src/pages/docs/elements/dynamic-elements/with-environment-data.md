@@ -27,7 +27,7 @@ In this article, we will be outlining how to create dynamic locators using Envir
 ## **Using Environment Test Data to parameterize locators**
 
 Suppose we need to locate the below element with the username text i.e  ‘admin’:
-![Dropdown on profile avatar icon showing logout link and profile name](https://docs.testsigma.com/images/with-environment-data/profile-icon-dropdown-links-username.png)
+![Dropdown on profile avatar icon showing logout link and profile name](https://s3.amazonaws.com/website-static-docs.testsigma.com/new_images/projects/Updated_Doc_Images/profile-icon-dropdown-links-username.png)
 
 An XPath locator using the text for the element would be //div[ text()=‘admin’ ]
 

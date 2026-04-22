@@ -64,7 +64,7 @@ Testsigma Mantis integration lets you create issues in Mantis directly from the 
 
 3. Choose **Mantis** and enter the detailed information of your bug.
   
-![Sample Task reported from Testsigma Bug Reporting Integration in Test Results pag](https://docs.testsigma.com/images/mantis/placeholder-image.png)
+![Sample Task reported from Testsigma Bug Reporting Integration in Test Results pag](https://s3.amazonaws.com/website-static-docs.testsigma.com/new_images/projects/Updated_Doc_Images/placeholder-image.png)
 
 [[info | NOTE:]]
 | - Only the bug reporting tools that have been enabled via the plugins page (add link) will be displayed here.

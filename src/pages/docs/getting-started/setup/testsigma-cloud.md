@@ -40,7 +40,7 @@ With **Testsigma Cloud**, you can create projects, applications, tests and view 
 - To create and manage test cases, refer to [manage test cases](https://testsigma.com/docs/test-cases/manage/add-edit-delete/).
 - To add test steps, refer to [create test steps](https://testsigma.com/docs/test-cases/create-test-steps/overview/).
 - To run tests, refer to [test runs](https://testsigma.com/docs/runs/adhoc-runs/).
-- To view results & debug errors, refer to <a href="https://docs.testsigma.com/images/testsigma-cloud/view-results-and-debug-errors.png" rel="nofollow">view reports and debug errors</a>
+- To view results & debug errors, refer to <a href="https://s3.amazonaws.com/website-static-docs.testsigma.com/new_images/projects/Updated_Doc_Images/view-results-and-debug-errors.png" rel="nofollow">view reports and debug errors</a>
   
 ---
 

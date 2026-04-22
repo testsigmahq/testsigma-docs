@@ -31,18 +31,18 @@ Chrome Browser provides a built-in feature to emulate mobile device screen resol
 
 2.Click on the Device Selection toggle on the top left corner of the Developer Console Area. Once enabled, the icon turns Blue.
 
-![Chrome Dev tools Mobile view Toggle](https://docs.testsigma.com/images/emulate-mobile-devices-with-chrome/chrome-dev-tools-mobile-view-toggle.png)
+![Chrome Dev tools Mobile view Toggle](https://s3.amazonaws.com/website-static-docs.testsigma.com/new_images/projects/Updated_Doc_Images/chrome-dev-tools-mobile-view-toggle.png)
 
 3.Check the first dropdown on the top bar to find the list of available devices.
 
-![Chrome Dev tools Mobile view devices](https://docs.testsigma.com/images/emulate-mobile-devices-with-chrome/chrome-dev-tools-mobile-view-devices.png)
+![Chrome Dev tools Mobile view devices](https://s3.amazonaws.com/website-static-docs.testsigma.com/new_images/projects/Updated_Doc_Images/chrome-dev-tools-mobile-view-devices.png)
 
 4.Select your desired device from the list of available devices.
 For instance, we can select the device "iPad" from the list as shown above and it will update the viewport as per the display dimensions of the selected device.
 
 5.Select the last option - ‘Edit’ in the device selection menu to see the full list of available devices and also add your own devices.
 
-![Chrome Dev tools Mobile view custom device](https://docs.testsigma.com/images/emulate-mobile-devices-with-chrome/chrome-dev-tools-mobile-view-custom-device.png)
+![Chrome Dev tools Mobile view custom device](https://s3.amazonaws.com/website-static-docs.testsigma.com/new_images/projects/Updated_Doc_Images/chrome-dev-tools-mobile-view-custom-device.png)
 
 You can use the name of any of the above-given default devices while automating Tests on Testsigma. 
 
@@ -61,7 +61,7 @@ Select the latest version of Google Chrome for your preferred OS and enter the f
 
 On execution, it will display as mobile device view as shown here:
 
-![Chrome Dev tools Default device Mobile view](https://docs.testsigma.com/images/emulate-mobile-devices-with-chrome/chrome-dev-tools-default-device-mobile-view.png)
+![Chrome Dev tools Default device Mobile view](https://s3.amazonaws.com/website-static-docs.testsigma.com/new_images/projects/Updated_Doc_Images/chrome-dev-tools-default-device-mobile-view.png)
 
 ---
 ##**Advanced: Using a Custom Device for emulation**
@@ -76,7 +76,7 @@ Enter the following values in the Desired Capabilities field:
 
 On execution, it will display as mobile device view as shown:
 
-![Chrome Dev tools Custom device Mobile view](https://docs.testsigma.com/images/emulate-mobile-devices-with-chrome/chrome-dev-tools-custom-device-mobile-view.png)
+![Chrome Dev tools Custom device Mobile view](https://s3.amazonaws.com/website-static-docs.testsigma.com/new_images/projects/Updated_Doc_Images/chrome-dev-tools-custom-device-mobile-view.png)
 
 
 

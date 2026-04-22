@@ -43,7 +43,7 @@ Testsigma Mantis integration lets you create issues directly from the Testsigma 
 1. Log in to your Backlog account. You will find the **Backlog URL** on top of your browser’s address bar.
 
 2. On the top-right corner of your Backlog instance, you will find a drop-down menu with your profile icon. Click on the drop-down and go to **Personal Settings**.
-![Profile dropdown menu showing Personal settings option in Backlog](https://docs.testsigma.com/images/backlog/backlog-profile-icon-dropdown-personal-settings-highlighted.png)
+![Profile dropdown menu showing Personal settings option in Backlog](https://s3.amazonaws.com/website-static-docs.testsigma.com/new_images/projects/Updated_Doc_Images/backlog-profile-icon-dropdown-personal-settings-highlighted.png)
 
 3. In your personal settings menu, click on the **API** option.
 
@@ -51,7 +51,7 @@ Testsigma Mantis integration lets you create issues directly from the Testsigma 
 
 
 5. Copy this API key as it would be used to authenticate yourself while integrating Testsigma with Backlog.
-![Generate API Key in API Settings in Backlog](https://docs.testsigma.com/images/backlog/backlog-personal-settings-api-settings-generate-api.png)
+![Generate API Key in API Settings in Backlog](https://s3.amazonaws.com/website-static-docs.testsigma.com/new_images/projects/Updated_Doc_Images/backlog-personal-settings-api-settings-generate-api.png)
 
 ---
 

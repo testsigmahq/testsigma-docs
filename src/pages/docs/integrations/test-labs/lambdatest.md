@@ -31,7 +31,7 @@ LambdaTest integration with Testsigma lets you run your Testsigma tests on Lambd
 > 
 > Before you begin, ensure that: 
 > 1. You have the username and API Key for LambdaTest which can be obtained from your LambdaTest account dashboard. This can be obtained from the Account Settings page as shown below:
->   ![Username and Access Token in LambdaTest Profile page ](https://docs.testsigma.com/images/lambdatest/lambdatest-profile-username-access-token.png)
+>   ![Username and Access Token in LambdaTest Profile page ](https://s3.amazonaws.com/website-static-docs.testsigma.com/new_images/projects/Updated_Doc_Images/lambdatest-profile-username-access-token.png)
 > 2. You have referred to the [documentation on supported test lab types in Testsigma](https://testsigma.com/docs/test-plans/supported-test-lab-types/).
 
 ---
@@ -57,4 +57,4 @@ LambdaTest restricts the availability of Test Results outside their platform. Th
 
 As soon as you execute the tests from Testsigma, the test execution will start on the LambdaTest platform as well. To view the test execution details, open the Automation dashboard in LambdaTest. You will see your test details on the top, as shown below:
 
-![Test Results in LambdaTest Dashboard](https://docs.testsigma.com/images/lambdatest/lt-dashboard-test-results.png)
+![Test Results in LambdaTest Dashboard](https://s3.amazonaws.com/website-static-docs.testsigma.com/new_images/projects/Updated_Doc_Images/lt-dashboard-test-results.png)
