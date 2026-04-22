@@ -30,15 +30,11 @@ This article discusses advanced Xpath expression for locating dynamic elements i
 
 3. Use the copied X-path to locate the element.
 
-   ![Copy Xpath](https://s3.amazonaws.com/website-static-docs.testsigma.com/new_images/projects/Updated_Doc_Images/copy_xpath.gif)
-
 ---
 
 ## **Dynamic XPath for HTML Table Elements**
 
 Let's take the example of the **Top Gainers** table on the [Rediff Money](https://money.rediff.com/gainers/bsc/daily/groupa) website.
-
-![Ref Table](https://s3.amazonaws.com/website-static-docs.testsigma.com/new_images/projects/Updated_Doc_Images/reddittopgainers.png)
 
 Here's the HTML code for the first 5 rows of the above table:
 

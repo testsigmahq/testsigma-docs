@@ -21,10 +21,6 @@ warning: false
 
 - **iOS:** Use the **accessibilityIdentifier** to define accessibility IDs.
 
-Here's an infographic which gives more info:
-
-![INFO](https://s3.amazonaws.com/website-static-docs.testsigma.com/new_images/projects/Updated_Doc_Images/acccidspre2.png)
-
 ---
 
 ### **References:**
