@@ -114,8 +114,8 @@ workflows:
 
 [[info | **NOTE**:]]
 | - Ensure the **magictrigger.sh** file is present in the same repository and marked as executable. For information on the generic shell script, see [Shell Script](https://testsigma.com/docs/continuous-integration/shell-script/).
-| - Ensure you have an **API key** and a **Test Plan ID**. For more information, see [API Keys](https://testsigma.com/docs/configuration/api-keys/) and <a href="https://docs.testsigma.com/images/azure-devops/get-test-plan-id.png" rel="nofollow">Get Test Plan ID</a>. 
-| ![shell script for Azure DevOps](https://docs.testsigma.com/images/azure-devops/shell-script-azure-devops.png)
+| - Ensure you have an **API key** and a **Test Plan ID**. For more information, see [API Keys](https://testsigma.com/docs/configuration/api-keys/) and <a href="https://s3.amazonaws.com/website-static-docs.testsigma.com/new_images/projects/Updated_Doc_Images/get-test-plan-id.png" rel="nofollow">Get Test Plan ID</a>. 
+| ![shell script for Azure DevOps](https://s3.amazonaws.com/website-static-docs.testsigma.com/new_images/projects/Updated_Doc_Images/shell-script-azure-devops.png)
 
 ---
 

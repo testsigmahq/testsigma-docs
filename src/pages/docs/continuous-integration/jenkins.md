@@ -37,7 +37,7 @@ Jenkins is an open-source automation server used for CI/CD and build automation.
 > Before you begin, ensure that you have:
 > - Reviewed the following documentation:
 >    1. [Generating API keys](https://testsigma.com/docs/configuration/api-keys/).
->    2. [Getting a test plan ID](https://docs.testsigma.com/images/azure-devops/get-test-plan-id.png).
+>    2. [Getting a test plan ID](https://s3.amazonaws.com/website-static-docs.testsigma.com/new_images/projects/Updated_Doc_Images/get-test-plan-id.png).
 > - A working **Jenkins** server with administrative access.
 
 ---

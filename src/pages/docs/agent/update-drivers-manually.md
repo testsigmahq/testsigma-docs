@@ -76,7 +76,7 @@ In case the recent Agent update didn’t include driver v94, we need to do the f
 
 Here’s a screenshot of the Agents folder for Testsigma Agent in Mac OS:
 
-![Testsigma Agent drivers folder](https://docs.testsigma.com/images/update-drivers-manually/testsigma-agent-drivers-folder.png)
+![Testsigma Agent drivers folder](https://s3.amazonaws.com/website-static-docs.testsigma.com/new_images/projects/Updated_Doc_Images/testsigma-agent-drivers-folder.png)
 
 [[info | NOTE:]]
 |In the case of the Firefox Browser driver, the folder names follow a certain pattern where 0.x.x is renamed as 0.xx<br>
@@ -105,7 +105,7 @@ After placing the downloaded driver in the newly created folder, we need to perf
 2. Run the below command to add executable permission to all the driver files including the newly added driver file
 chmod -R u+x ./*
 
-![Setting Executable perm form driver files in Testsigma Agent using Terminal](https://docs.testsigma.com/images/update-drivers-manually/ts-agent-set-exec-permission-new-driver.png)
+![Setting Executable perm form driver files in Testsigma Agent using Terminal](https://s3.amazonaws.com/website-static-docs.testsigma.com/new_images/projects/Updated_Doc_Images/ts-agent-set-exec-permission-new-driver.png)
 
 Once that is done, you can start executing tests on the newest version of the corresponding Browser. You can follow the same directions for other browsers as well.
 

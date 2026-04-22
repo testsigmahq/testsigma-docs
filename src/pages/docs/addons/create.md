@@ -86,7 +86,7 @@ Addons in Testsigma enhance your testing capabilities by enabling you to create 
     - **Action Text**: Customize the action text.
     - **Selenium or Java Code**: Add Selenium or Java code to define the action.
     - **Elements/Locators**: Modify elements or locators as needed.
-    - **Test Data**: Update the test data in the test class according to your requirements. ![Updated code for Testsigma Android Swipe Left add-on in IDE](https://docs.testsigma.com/images/create/addon-updated-code-swipe-left-android.png)
+    - **Test Data**: Update the test data in the test class according to your requirements. ![Updated code for Testsigma Android Swipe Left add-on in IDE](https://s3.amazonaws.com/website-static-docs.testsigma.com/new_images/projects/Updated_Doc_Images/addon-updated-code-swipe-left-android.png)
 
 [[info | Example:]]
 | Here’s how you can change the code for an Android add-on to swipe left a specific number of times.

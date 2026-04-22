@@ -25,7 +25,7 @@ contextual_links:
 
 Thus using **For Loops**, you can run the same test with a subset of test data. For instance, say you have a test data profile in the format below:
 
-![test data example](https://docs.testsigma.com/images/for-loop/test-data-example.png)
+![test data example](https://s3.amazonaws.com/website-static-docs.testsigma.com/new_images/projects/Updated_Doc_Images/test-data-example.png)
 
 If you want to run a test case based on the above test data profile, but you just want to run it for rows 1 to 3, then you use a for loop.
 

@@ -77,7 +77,7 @@ This document will discuss how to establish Integration with Freshrelease from y
 
 
 3. Choose **Freshrelease** and enter information about your bug.
-![Sample Task reported from Testsigma Bug Reporting Integration in Test Results page ](https://docs.testsigma.com/images/freshrelease/plugins-create-freshrelease-bug-form-filled.png)
+![Sample Task reported from Testsigma Bug Reporting Integration in Test Results page ](https://s3.amazonaws.com/website-static-docs.testsigma.com/new_images/projects/Updated_Doc_Images/plugins-create-freshrelease-bug-form-filled.png)
 
 [[info | NOTE:]]
 | Only the bug reporting tools that have been enabled via the plugins page (add link) will be displayed here.

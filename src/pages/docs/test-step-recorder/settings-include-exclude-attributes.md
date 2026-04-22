@@ -36,14 +36,14 @@ Sometimes, while capturing elements from your website, you would want to exclude
     
 2. On the Testsigma test step recorder, hover over the settings button on the top right, also highlighted in the screenshot below:
 
-   ![Settings button highlighted for excluding attributes and classes in Testsigma recorder](https://docs.testsigma.com/images/settings-include-exclude-attributes/settings-button-highlighted-exclude-attributes-classes-testsigma-recorder.png)
+   ![Settings button highlighted for excluding attributes and classes in Testsigma recorder](https://s3.amazonaws.com/website-static-docs.testsigma.com/new_images/projects/Updated_Doc_Images/settings-button-highlighted-exclude-attributes-classes-testsigma-recorder.png)
 
 3. On hover, menu options would appear (as also shown in the screenshot below) - click on the option ‘Excluded Attributes’.
 
-   ![Excluded attributes menu in Testsigma recorder](https://docs.testsigma.com/images/settings-include-exclude-attributes/excluded-attributes-menu-testsigma-recorder.png)
+   ![Excluded attributes menu in Testsigma recorder](https://s3.amazonaws.com/website-static-docs.testsigma.com/new_images/projects/Updated_Doc_Images/excluded-attributes-menu-testsigma-recorder.png)
 
 4. On the excluded attributes and classes UI that appears, you can add the attributes and classes that you want to be excluded while test step recording:
 
-   ![Excluded attributes UI in testsigma recorder UI](https://docs.testsigma.com/images/settings-include-exclude-attributes/excluded-attributes-ui-testsigma-recorder-ui.png)
+   ![Excluded attributes UI in testsigma recorder UI](https://s3.amazonaws.com/website-static-docs.testsigma.com/new_images/projects/Updated_Doc_Images/excluded-attributes-ui-testsigma-recorder-ui.png)
 
 ---
