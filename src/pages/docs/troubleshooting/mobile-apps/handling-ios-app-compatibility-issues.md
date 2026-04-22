@@ -36,8 +36,6 @@ To prevent issues during testing, ensure the app accesses these entitlements pro
 
 While resigning the app, Testsigma uses a wildcard Team ID, which may conflict with the access group expected by the app, resulting in a keychain access error. 
 
-![Error](https://s3.amazonaws.com/website-static-docs.testsigma.com/new_images/projects/Updated_Doc_Images/errormsgipa.gif)
-
 ### **Generic Error Message:**
 
 ```
@@ -125,10 +123,7 @@ class KeychainHelper {
 
 ### **Dynamic Prefix for App Identifier**
 In the example below, **Item 1** provides explicit app identifier prefixes, minimizing risks, while **Item 2** leads to ambiguity. It is recommended that you follow **Item 1** to  avoid the error. 
-![Dynamic Prefix](https://s3.amazonaws.com/website-static-docs.testsigma.com/new_images/projects/Updated_Doc_Images/ipafiledynamicprefix.png)
-
 
 Using a flexible approach to access group verification like retrieving the Team ID programmatically and applying a wildcard format, the app can be made compatible with Testsigma's resigning process. This approach reduces errors like `OSStatus error -34018` and ensures a smoother testing experience across various environments.
-
 
 ---

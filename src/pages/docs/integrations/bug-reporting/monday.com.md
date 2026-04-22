@@ -45,17 +45,17 @@ Testsigma monday.com integration helps you create issues in monday.com directly 
 ---
 
 ## **Creating a Bug**
+
 1. Navigate to **Run Results > Test Case Result**, where you want to add a bug.
 ![Test Case Report](https://s3.amazonaws.com/website-static-docs.testsigma.com/new_images/projects/Updated_Doc_Images/jrtcresults.png)
 
 2. Click on **Report Bug**.
 ![Report Bug](https://s3.amazonaws.com/website-static-docs.testsigma.com/new_images/projects/Updated_Doc_Images/jrreportbug.png)
 
-
-3. On **Report** overlay, click on the **Monday.com** icon.
+3. On the **Report** overlay, click the **Monday.com** icon.
 ![Monday Icon](https://s3.amazonaws.com/website-static-docs.testsigma.com/new_images/projects/Updated_Doc_Images/minticon.png)
 
-4. On the **Create New Issue** prompt, click on **Create Ticket**.
+4. On the **Report** overlay, click **Report Bug**.
 ![Create New Issue](https://s3.amazonaws.com/website-static-docs.testsigma.com/new_images/projects/Updated_Doc_Images/mintct.png)
 
 [[info | **NOTE**:]]

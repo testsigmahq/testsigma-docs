@@ -49,8 +49,7 @@ There is no way to look up bundle IDs directly in the Apple iOS app store. Follo
 
 3. Search for the file **iTunesMetadata.plist** in that new folder.
 
-4. Open the file with a text editor and search for **softwareVersionBundleId**. For Pages this looks like this and is **com.apple.Pages**:
-   ![Software Ver](https://s3.amazonaws.com/website-static-docs.testsigma.com/new_images/projects/Updated_Doc_Images/appbundleios.png)
+4. Open the file with a text editor and search for **softwareVersionBundleId**. 
 
 ---
 
@@ -63,8 +62,6 @@ There is no way to look up bundle IDs directly in the Apple iOS app store. Follo
 3. Open the Apps folder on your device and locate the app you’re interested in.
 
 4. Locate the **iTunesMetadata.plist** file and follow the steps like you just unpacked the ipa above.
-
-   ![App on Phone](https://s3.amazonaws.com/website-static-docs.testsigma.com/new_images/projects/Updated_Doc_Images/appiosbndl.png)
 
 ---
 

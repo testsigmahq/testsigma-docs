@@ -58,10 +58,4 @@ While creating tests for web applications, identifying locators accurately for U
 [[info | **NOTE**:]]
 | Testsigma will revert to the default **Locator precedence** if you don't save the configuration.
 
-
-Here's a quick GIF demonstrating how to configure locator precedence in test recorder.
-
-![Test Recorder](https://s3.amazonaws.com/website-static-docs.testsigma.com/new_images/projects/Updated_Doc_Images/lctr.gif)
-
-
 ---

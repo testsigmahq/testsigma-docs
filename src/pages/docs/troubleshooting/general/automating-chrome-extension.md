@@ -26,11 +26,8 @@ A Chrome extension improves the browser's capabilities. Add extensions from the 
 1. Go to <a href="https://robwu.nl/crxviewer/" rel="nofollow">CRX</a> Viewer.  
 
 2. Select **Open in this viewer**.
-![Open CRX](https://s3.amazonaws.com/website-static-docs.testsigma.com/new_images/projects/Updated_Doc_Images/opencrx.png)
 
 3. Choose **CRX** and download the file (This file is necessary for automation).
-![CRX](https://s3.amazonaws.com/website-static-docs.testsigma.com/new_images/projects/Updated_Doc_Images/crxdnld.png)
-
 
 4. Searching for **.html?$** and find files like **panel.html** and **popup.html**. The **popup.html** file is usually the target for automation.
 
