@@ -74,7 +74,7 @@ Simplify the image injection process during the test step recording using the ca
 1. Click the **Record** button at the screen's top right corner to bring up the Record Test Steps overlay.
 2. Choose the **Version**, **Device**, and **Application**.
 3. Enable the toggle button for **Camera Image Injection** while recording test steps.
-4. Start recording the test step by clicking the **Record** button again. ![Enable Camera Injection](https://s3.amazonaws.com/website-static-docs.testsigma.com/new_images/projects/Updated_Doc_Images/enable_camerainjection.gif)
+4. Start recording the test step by clicking the **Record** button again. 
 5. Click the **Scan Image (Camera)** icon in the right sidebar of the Recording page to upload the QR code image. Select the file you want to add to the test step from the **˄ Uploads** overlay. 
 
 <br>

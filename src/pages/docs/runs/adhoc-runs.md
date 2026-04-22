@@ -192,7 +192,6 @@ You can add a prerequisite test case for any test case while executing the test 
    ![Test Case Settings](https://s3.amazonaws.com/website-static-docs.testsigma.com/new_images/projects/Updated_Doc_Images/tcsfapr.png)
 
 2. Select the prerequisite test case from the dropdown.
-   ![Prereq TC](https://s3.amazonaws.com/website-static-docs.testsigma.com/new_images/projects/Updated_Doc_Images/sprtcitcs.png)
 
 3. For **Dry Runs**, the test case will be executed after the prerequisite test case.  You can check the **Execution sequence** on the test case results page. 
    ![Dry Runs](https://s3.amazonaws.com/website-static-docs.testsigma.com/new_images/projects/Updated_Doc_Images/vprtcie.png)

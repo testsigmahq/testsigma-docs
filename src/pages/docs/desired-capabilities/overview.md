@@ -42,7 +42,6 @@ Desired Capabilities are entered as **key-value** pairs. Enter the details for D
 - **Key:** Specific properties or attributes that can be set for the test environment. 
 - **Data Type:** The data type of the value of the specific Desired Capability.
 - **Value:** The value of the Desired Capability.
-![Format](https://s3.amazonaws.com/website-static-docs.testsigma.com/new_images/projects/Updated_Doc_Images/dcformat.png)
 
 For example, we can allow **invalid certificates** for a webpage using the ‘***acceptInsecureCerts***’ Capability.
 
@@ -73,7 +72,6 @@ For example, we can allow **invalid certificates** for a webpage using the ‘**
 
 [[info | **NOTE**:]]
 | You can also delete the desired capabilities by clicking on the **Delete** button from the **Ad Hoc Run** overlay.
-|![Delete Desired Capabilities](https://s3.amazonaws.com/website-static-docs.testsigma.com/new_images/projects/Updated_Doc_Images/dcdeletetc.png) 
 
 
 
@@ -103,6 +101,6 @@ For example, we can allow **invalid certificates** for a webpage using the ‘**
 
 [[info | **NOTE**:]]
 | You can also delete the desired capabilities by clicking on the **Delete** button from the **Edit test machine/device profile** overlay. 
-| ![Delete Desired Capabilities](https://s3.amazonaws.com/website-static-docs.testsigma.com/new_images/projects/Updated_Doc_Images/dctpdelete.png)
+
 
 ---

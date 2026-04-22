@@ -24,8 +24,6 @@ contextual_links:
 
 ---
 
-![Test Plan Overview](https://docs.testsigma.com/images/test-plan-executions/test-plan-overview.jpeg)
-
 A test plan is a set of test suites. When a test plan is executed, the test suites and their corresponding test cases are executed, either serially or parallelly, as configured.
 
 

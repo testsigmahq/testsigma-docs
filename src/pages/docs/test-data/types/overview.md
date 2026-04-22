@@ -31,17 +31,14 @@ contextual_links:
   name: "Random"
   url: "#random"
 - type: link
-  name: "Data Generators"
-  url: "#data-generators"
+  name: "Data Generator"
+  url: "#data-generator"
 - type: link
   name: "Phone Number"
   url: "#phone-number"
 - type: link
   name: "Mail Box"
   url: "#mail-box"
-- type: link
-  name: "Upload"
-  url: "#upload"
 ---
 
 ---
@@ -66,6 +63,7 @@ This documentation will explain the different test data types supported in Tests
 ## **Add Test Data in Test Steps**
 
 1. Add a new step to the **Test Case** using **NLP** and include a placeholder for the **test data**.
+
 2. Replace the **test data** placeholder by clicking on it, and the **Test Data Types** drop-down menu will appear, as shown below.
 
 Here are the Test Data Types that will appear when you click on test data:
@@ -79,7 +77,6 @@ Here are the Test Data Types that will appear when you click on test data:
    - **Mailbox**
    - **Upload**
 
-Here is a quick GIF demonstrating the above workflow: ![Select Test Data Types](https://s3.amazonaws.com/website-static-docs.testsigma.com/new_images/projects/Updated_Doc_Images/select_testdatatypes.gif)
 
 ---
 
@@ -95,12 +92,6 @@ In this instance, we use Plain Text test data by directly providing the test dat
 
 [[info | **NOTE**:]]
 | You can also provide a blank value as test data, an additional option with Plain Text test data. To use this functionality, we must replace the *test data* part with the string **key_blank**. This will enter a blank value in the field where *test data* is passed.
-|
-| <br>
-|
-| Here's a quick GIF demonstrating using blank value as test data.
-|
-| ![Blank Value](https://s3.amazonaws.com/website-static-docs.testsigma.com/new_images/projects/Updated_Doc_Images/BlankValue.gif)
 
 ---
 
@@ -108,7 +99,7 @@ In this instance, we use Plain Text test data by directly providing the test dat
 
 - **Parameter Test Data** enables you to create a list of values for input during test execution and generate parameterised test cases to evaluate your application under different scenarios. This type of testing allows you to use parameters from your test data profile directly.
 - When selecting the parameter data type, you can choose the specific parameter required for your test case from a right-side panel with various available parameters. To perform data-driven testing, you can use Parameter Test Data. For more information on parameter test data type, refer to the [documentation on parameter test data type](https://testsigma.com/docs/test-data/types/parameter/), [documentation on creating test data profiles](https://testsigma.com/docs/test-data/create-data-profiles/), and  [documentation on data-driven testing](https://testsigma.com/tutorials/test-cases/data-driven-testing/).
-- To use Parameter Test Data, use the **@ Parameter** type and replace the word "**Parameter**" with the specified parameter name. For example, replace test data with **@ user 1**, where **user 1** corresponds to the parameter name in the **Test Data Profile**. ![Parameter Testdata Type](https://s3.amazonaws.com/website-static-docs.testsigma.com/new_images/projects/Updated_Doc_Images/parameter_testdatatypes.png)
+- To use Parameter Test Data, use the **@ Parameter** type and replace the word "**Parameter**" with the specified parameter name. For example, replace test data with **@ Email**, where **Email** corresponds to the parameter name in the **Test Data Profile**. ![Parameter Testdata Type](https://s3.amazonaws.com/website-static-docs.testsigma.com/new_images/projects/Updated_Doc_Images/parameter_testdatatypes.png)
 
 [[info | NOTE:]]
 | To use Parameter Test Data in your test case, link your test case to the relevant test data profile. Then, the Test Step will repeat for each row of username parameters in the Test Data Profile.
@@ -159,10 +150,5 @@ Phone Number test data type allows you to create random or predefined phone numb
 
 Mailbox test data type generates email addresses and mailbox data for testing email-related functions, particularly for workflows involving OTPs or activation links. Testsigma enables you to use provisioned mailbox email addresses to input test data. For more information on mail box, refer to the [documentation on mail box](https://testsigma.com/docs/test-data/types/mailbox/). ![Mail Box Data Type](https://s3.amazonaws.com/website-static-docs.testsigma.com/new_images/projects/Updated_Doc_Images/mailbox_testdatatype.png)
 
----
-
-## **Upload**
-
-Upload test data type enables you to easily upload files and applications to your tests using NLP, streamlining the process of adding attachments to your test cases. For more information on uploading files and apps, refer to the [documentation on uploading files](https://testsigma.com/docs/uploads/upload-files/) & [documentation on apps](https://testsigma.com/docs/uploads/upload-apps/). ![Upload data type](https://s3.amazonaws.com/website-static-docs.testsigma.com/new_images/projects/Updated_Doc_Images/upload_testdata_type.png)
 
 ---
