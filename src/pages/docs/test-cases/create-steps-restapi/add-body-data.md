@@ -53,14 +53,13 @@ By default, Testsigma will select **None** - leave it selected if you don't need
 Data from website forms is frequently sent as **multipart/ form-data** to APIs. 
 
 1. Navigate to **Body** > **form-data** tab. Form data allows you to send **key**-**value** pairs and specify the **content** type. In the **value** field, you can enter **plain text** or replace it with the **test data type** or you can enter **file path**, for example **@"/Users/Downloads/Sample Attachment File.pdf"**.
-![form-data](https://s3.amazonaws.com/website-static-docs.testsigma.com/new_images/projects/Updated_Doc_Images/formdata_body_restapi.gif)
+   ![form-data](https://s3.amazonaws.com/website-static-docs.testsigma.com/new_images/projects/Updated_Doc_Images/formdata_body_restapi.png)
 
 2. Hover over the **key** field to select **text** or a **file**. If you choose a file, you can upload it in the **Value** field.
 
 3. You can **attach files** using **form-data**. When you repeatedly make API calls that send duplicate files, Testsigma will persist your file paths for later use. 
 
 4. This also helps you run collections that contain requests requiring file uploads. Uploading multiple files, each with its content type, isn't supported. Once your data and other request details are set up, select **Update** to run your request.
-![file upload in form data](https://s3.amazonaws.com/website-static-docs.testsigma.com/new_images/projects/Updated_Doc_Images/formdata_body_restapi.gif)
 
 ---
 
@@ -80,7 +79,7 @@ Binary data is data that is not composed of text characters. It is typically enc
 ## **Raw**
 
 You can use raw body data to send anything you can enter as a **node** and **value**. In the value field, you can enter values by **test data type**. Use the **raw** tab and the type dropdown list to indicate your **data format** (**JSON**, **text**, or **XML**), and Testsigma will enable syntax highlighting and append the relevant headers to your request. Once your raw and other request details are set up, select **Create** to run your request.
-![Raw in Body](https://s3.amazonaws.com/website-static-docs.testsigma.com/new_images/projects/Updated_Doc_Images/raw_body_restapi.gif)
+![Raw in Body](https://s3.amazonaws.com/website-static-docs.testsigma.com/new_images/projects/Updated_Doc_Images/raw_body_restapi.png)
 
 ---
 
@@ -88,17 +87,27 @@ You can use raw body data to send anything you can enter as a **node** and **val
 
 GraphQL enables you to communicate and execute queries using pre-existing data. The query language of GraphQL assists APIs in retrieving and providing data. GraphQL APIs simplify data gathering than REST APIs by providing all necessary data in one clear structure.
 
-1. To test APIs using GraphQL queries, navigate to **API Request** > **Body** > **GraphQL**. ![Select GraphQL in Body](https://s3.amazonaws.com/website-static-docs.testsigma.com/new_images/projects/Updated_Doc_Images/graphql_body_apI.png)
+1. To test APIs using GraphQL queries, navigate to **API Request** > **Body** > **GraphQL**. 
+   ![Select GraphQL in Body](https://s3.amazonaws.com/website-static-docs.testsigma.com/new_images/projects/Updated_Doc_Images/graphql_body_apI.png)
+
 2. After you select **GraphQL**, you will see two sections: **Query** and **Variables**, as shown in the image above. Now, enter your **GraphQL Query** into the **Query** field.
    [[info | NOTE:]]
-| When selecting GraphQL, the request method is by default, set to **POST**.
-3. After entering the query, you can enhance query flexibility by adding variables. You can define these variables in either **JSON** format or using the **Table** option in the **Variables** section. ![Adding Queries, Variables](https://s3.amazonaws.com/website-static-docs.testsigma.com/new_images/projects/Updated_Doc_Images/graphql_query_variables.gif)
+   | When selecting GraphQL, the request method is by default, set to **POST**.
+
+3. After entering the query, you can enhance query flexibility by adding variables. You can define these variables in either **JSON** format or using the **Table** option in the **Variables** section. 
+   ![Adding Queries, Variables](https://s3.amazonaws.com/website-static-docs.testsigma.com/new_images/projects/Updated_Doc_Images/graphql_query_variables.png)
    [[info | NOTE:]]
-| You can optionally use variables in GraphQL.
+   | You can optionally use variables in GraphQL.
+
 4. When adding variables in **JSON** format, enter keys and variables in the form **{ "code": "US" }**.
-5. Alternatively, when you select the **Table** format for adding variables, you can conveniently select **Keys** from a dropdown menu and provide corresponding **Values**. You can include **Test Data** (**Parameter**, **Environment**, **Runtime**) in the **Value** section of the table to try out different scenarios with different variable values. ![Adding TDT in Varaibles](https://s3.amazonaws.com/website-static-docs.testsigma.com/new_images/projects/Updated_Doc_Images/graphql_variables_tdt.png)
+
+5. Alternatively, when you select the **Table** format for adding variables, you can conveniently select **Keys** from a dropdown menu and provide corresponding **Values**. 
+   ![Adding TDT in Varaibles](https://s3.amazonaws.com/website-static-docs.testsigma.com/new_images/projects/Updated_Doc_Images/graphql_variables_tdt.png)
+
 6. Click **Send** button to initiate the request once you have set up the queries and variables. This action will result in a **JSON Response**.
-7. Finally, you can **Store Variables** or **Add Verification** for validation after generating the **JSON Response**. The specified test data values will trigger corresponding responses during the execution of test cases. ![GraphQL Request](https://s3.amazonaws.com/website-static-docs.testsigma.com/new_images/projects/Updated_Doc_Images/graphql_sendrequest.gif)
+
+7. Finally, you can **Store Variables** or **Add Verification** for validation after generating the **JSON Response**. The specified test data values will trigger corresponding responses during the execution of test cases. 
+   ![GraphQL Request](https://s3.amazonaws.com/website-static-docs.testsigma.com/new_images/projects/Updated_Doc_Images/graphql_sendrequest.png)
 
 ---
 

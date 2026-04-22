@@ -26,11 +26,13 @@ Safari provides native support for the WebDriver API starting with Safari 10 on 
 &emsp;
 
 ---
-##**Configuring Safari 10.1+ to allow automation**
+## **Configuring Safari 10.1+ to allow automation**
+
 Safari’s Automation support is turned off by default. To turn on Automation support, follow the steps below:
+
 1. Ensure that the ‘Develop‘ menu is available. It can be turned on by opening Safari preferences (‘Safari > Preferences’ in the menu bar), going to the ‘Advanced’ tab, and ensuring that the ‘Show Develop menu’ in the menu bar checkbox is checked.
 
-2. . Enable ‘Remote Automation’ in the Develop menu. This is toggled via ‘Develop > Allow Remote Automation’ in the menu bar.
+2. Enable ‘Remote Automation’ in the Develop menu. This is toggled via ‘Develop > Allow Remote Automation’ in the menu bar.
 
 As specified earlier, you do not need to download anything extra since everything required is pre-installed for Safari versions greater than 10.1.
 

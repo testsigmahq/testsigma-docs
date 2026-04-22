@@ -51,10 +51,10 @@ Let’s add 2FA for a test case which includes 2 steps:
 
 ## **Using Phone Number Type Test Data**
 1. Navigate to your test case, add a test step with the NLP ‘Enter ***test data*** in the ***element*** field’. 
-![Test Step NLP](https://s3.amazonaws.com/website-static-docs.testsigma.com/new_images/projects/Updated_Doc_Images/PhNoNLP.png)
+   ![Test Step NLP](https://s3.amazonaws.com/website-static-docs.testsigma.com/new_images/projects/Updated_Doc_Images/PhNoNLP.png)
 
 2. Hover over the ***test data*** and select ***% Phone Number*** from the drop down. An overlay showing the list of available phone numbers (allocated to your account) would open up.
-![Phone Number](https://s3.amazonaws.com/website-static-docs.testsigma.com/new_images/projects/Updated_Doc_Images/phnodropdown.png)
+   ![Phone Number](https://s3.amazonaws.com/website-static-docs.testsigma.com/new_images/projects/Updated_Doc_Images/phnodropdown.png)
 
 3. Select one of the numbers from the list. This is the number where the OTP SMS will be sent.
 
@@ -66,7 +66,7 @@ We will use the test data generators available in Testsigma to fetch the OTP fro
 ![Data Generator](https://s3.amazonaws.com/website-static-docs.testsigma.com/new_images/projects/Updated_Doc_Images/datadgenNLP.png)
 
 6. Select the **PhoneNumberFunctions** in ***Function Type** dropdown menu, enter the details, and click on **Save**. 
-![PhoneNumberFubctions](https://s3.amazonaws.com/website-static-docs.testsigma.com/new_images/projects/Updated_Doc_Images/phdatagensave.png)
+   ![PhoneNumberFubctions](https://s3.amazonaws.com/website-static-docs.testsigma.com/new_images/projects/Updated_Doc_Images/phdatagensave.png)
 
 
 We have successfully created a test case for 2FA authentication. 
@@ -121,9 +121,6 @@ Providing phone numbers for OTP and login purposes is restricted in certain coun
 
 8. On completing all the steps, click **Save**.
 
-Here's a GIF demonstrating how to install, add phone numbers, and set up filters for message forwarding.
-![SMS Forward Setup](https://s3.amazonaws.com/website-static-docs.testsigma.com/new_images/projects/Updated_Doc_Images/sms.gif)
-
 
 ---
 
@@ -142,7 +139,5 @@ Here's a GIF demonstrating how to install, add phone numbers, and set up filters
 
 6. Submit OTP
 
-Here's a quick GIF demonstrating how to create test case after setting up sms forwarder app.  
-![SMS Forward Use Case](https://s3.amazonaws.com/website-static-docs.testsigma.com/new_images/projects/Updated_Doc_Images/SMSFORWARD2.gif)
 
 ---

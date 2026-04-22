@@ -38,7 +38,7 @@ If your organization has an existing account with SauceLabs, you can author test
 Once the username and API key is obtained, navigate to the **Integrations** page through **Dashboard > Settings > Integrations**. 
 
 1. Enable the toggle next to **Sauce Labs**. 
-2. in the **Sauce Labs details** dialog, enter the username and API Key obtained from **Sauce Labs** here.
+2. In the **Sauce Labs details** dialog, enter the username and API Key obtained from **Sauce Labs** here.
 3. After entering the details, click on the **Save & Enable** button to add the integration.
 
 ![window to add sauce labs integration to Testsigma](https://s3.amazonaws.com/website-static-docs.testsigma.com/new_images/projects/Updated_Doc_Images/add-sauce-labs-integration.png)
