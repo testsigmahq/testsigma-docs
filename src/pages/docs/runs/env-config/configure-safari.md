@@ -31,11 +31,11 @@ Safari’s Automation support is turned off by default. To turn on Automation su
 1. Ensure that the ‘Develop‘ menu is available. It can be turned on by opening Safari preferences (‘Safari > Preferences’ in the menu bar), going to the ‘Advanced’ tab, and ensuring that the ‘Show Develop menu’ in the menu bar checkbox is checked.
 Here's a visual guide for enabling Develop Menu in Safari:
 
-![Safari Enable Develop Menu](https://docs.testsigma.com/images/configure-safari/safari-enable-develop-menu.png)
+![Safari Enable Develop Menu](https://s3.amazonaws.com/website-static-docs.testsigma.com/new_images/projects/Updated_Doc_Images/safari-enable-develop-menu.png)
 
 1. . Enable ‘Remote Automation’ in the Develop menu. This is toggled via ‘Develop > Allow Remote Automation’ in the menu bar.
 
-![Safari Enable Remote Automation](https://docs.testsigma.com/images/configure-safari/safari-enable-remote-automation.png)
+![Safari Enable Remote Automation](https://s3.amazonaws.com/website-static-docs.testsigma.com/new_images/projects/Updated_Doc_Images/safari-enable-remote-automation.png)
 
 As specified earlier, you do not need to download anything extra since everything required is pre-installed for Safari versions greater than 10.1.
 

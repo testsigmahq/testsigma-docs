@@ -32,7 +32,7 @@ Given below are the steps to be followed in order to update the Agent to the lat
 
 If the Testsigma Agent is already running, we need to stop it before updating the Agent. You will see a Testsigma Agent icon in the System Tray if it is already running. 
 
-![Testsigma Agent windows System Tray icon](https://docs.testsigma.com/images/update-agent-manually/ts-agent-windows-tray-icon.png)
+![Testsigma Agent windows System Tray icon](https://s3.amazonaws.com/website-static-docs.testsigma.com/new_images/projects/Updated_Doc_Images/ts-agent-windows-tray-icon.png)
 
 Else, skip to Step 3.
 
@@ -55,7 +55,7 @@ Else, skip to Step 3.
 ## **For Mac/Linux**
 If the Testsigma Agent is already running, we need to stop it before updating the Agent. You will  see a Testsigma Agent icon in the Status bar if it is already running. 
 
-![Testsigma Agent Mac System Tray icon](https://docs.testsigma.com/images/update-agent-manually/ts-agent-mac-tray-icon.png)
+![Testsigma Agent Mac System Tray icon](https://s3.amazonaws.com/website-static-docs.testsigma.com/new_images/projects/Updated_Doc_Images/ts-agent-mac-tray-icon.png)
 
 Else, skip to Step 3.<br>
 1. First, open a Terminal and navigate to the directory where Testsigma Agent is located.<br>

@@ -69,7 +69,7 @@ If Android Debug Bridge (ADB) fails to recognize your connected Android device, 
 
 1. Navigate to the folder containing ADB.
 2. Open the command prompt and type **adb devices**.
-3. If you connect, the command prompt will display a list of attached devices, as shown in the example below: ![adb devices command execution](https://docs.testsigma.com/images/mobile-device-not-displayed-recorder/adb-devices-command-execution.png)
+3. If you connect, the command prompt will display a list of attached devices, as shown in the example below: ![adb devices command execution](https://s3.amazonaws.com/website-static-docs.testsigma.com/new_images/projects/Updated_Doc_Images/adb-devices-command-execution.png)
     Here, **AVY9KA90322022030** is the device ID.
 
 ### **If Your Device Is Not Displayed**:

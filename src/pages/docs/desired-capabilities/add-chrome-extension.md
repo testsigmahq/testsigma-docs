@@ -39,7 +39,7 @@ You can add a Chrome Extension to your automation session in 2 simple steps:
 
 3. If you don't have the chrome extension URL from Chrome Web Store, you can use <a href="https://chrome.google.com/webstore/detail/testsigma/epmomlhdjfgdobefcpocockpjihaabdp" rel="nofollow">https://chrome-extension-downloader.com/</a> to download the file. Search for the extension, open the extension details page and copy the page URL.
 
-![chrome extension to install for recording your test steps with Testsigma](https://docs.testsigma.com/images/add-chrome-extension/chrome-extension-to-install-testsigma.png)
+![chrome extension to install for recording your test steps with Testsigma](https://s3.amazonaws.com/website-static-docs.testsigma.com/new_images/projects/Updated_Doc_Images/chrome-extension-to-install-testsigma.png)
 
 ---
 
