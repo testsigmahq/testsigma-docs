@@ -77,11 +77,7 @@ For demonstration, we will take the example of a simple Login button on the <a h
 1. Navigate to the page in your Google Chrome Browser.
 2. Right-click on the element you want to get locator for and select Inspect Element from the popup menu. In this case, it is the Login button on the OrangeHRM login page.
 
-![Right click menu on OrangeHRM Page](https://docs.testsigma.com/images/creating-locators-manually-strategies/locator-strategies-chrome-right-click-menu.png)
-
 The **Elements** panel of Google Chrome Developer Tools will open up on the right or bottom of your web browser window and your clicked element will be highlighted in blue.
-
-![Chrome Devtools Elements panel on OrangeHRM Page ](https://docs.testsigma.com/images/creating-locators-manually-strategies/locator-strategies-chrome-devtools-elements-panel.png)
 
 3. Check the highlighted text in the Elements panel. That is the HTML code for the selected Element.
 
@@ -91,8 +87,6 @@ The general format of HTML code for a HTML Page Element is:<br>
 
 This is the code for the LOGIN button on above OrangeHRM Web page.<br>
 < input type = "submit" name="Submit" class="button" id="btnLogin" value="LOGIN">
-
-
 
 ---
 
@@ -107,9 +101,6 @@ In this case, the tag name is ‘input’. Attribute names are ‘type’, ‘na
 
 In the Elements panel, right-click on the highlighted element, hover over the Copy option, and select ‘Copy XPath’ or ‘Copy Selector’ from the popup menu.
 
-![Copy Xpath menu option on Chrome Devtools Elements panel](https://docs.testsigma.com/images/creating-locators-manually-strategies/locator-strategies-chrome-devtools-elements-panel-copy-xpath.png)
-
 Your Xpath or CSS Locator will be copied to the clipboard.
-
 
 ---

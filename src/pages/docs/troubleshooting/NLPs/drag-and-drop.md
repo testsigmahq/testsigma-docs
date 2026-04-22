@@ -13,8 +13,6 @@ The following NLP is used to drag an element from one position and drop it in an
 
 ### **NLP:** **Drag the *element* and drop on the *element* element**
 
-For Example, in the demo website shown below, we will drag the element **Draggable 1** and drop it in **Drop here**.
-
 ![Drag & Drop](https://s3.amazonaws.com/website-static-docs.testsigma.com/new_images/projects/Updated_Doc_Images/drdpimg.png)
 
 ---
@@ -28,8 +26,5 @@ For Example, in the demo website shown below, we will drag the element **Draggab
 2. Select the drag and drop NLP
 
 In the 1st ***element*** select the Xpath of the element to be dropped and the 2nd ***element*** select the element where it needs to be dropped, like in the box in this example.
-
-![Example](https://s3.amazonaws.com/website-static-docs.testsigma.com/new_images/projects/Updated_Doc_Images/drdpexm.png)
-
 
 ---

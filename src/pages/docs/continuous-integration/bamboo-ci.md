@@ -89,15 +89,7 @@ You can also get it from <a href="https://marketplace.atlassian.com/apps/1223253
 1. Click on **Run Now** to trigger the pipeline manually to check.
 ![plan summary in Bamboo CI](https://docs.testsigma.com/images/bamboo-ci/plan-summary-bamboo-ci.png)
 As soon as the plan runs and the pipeline reaches the Testsigma task, the Testsigma test plan will be triggered. You can confirm that by navigating to the **Dashboard > Test Plans** page in Testsigma App. 
- 
-You will be able to see a running Test Plan as shown below:
-
-![Test plan in Testsigma](https://s3.amazonaws.com/website-static-docs.testsigma.com/new_images/projects/Updated_Doc_Images/tpfbbci.png)
-
-
 
 You can log into Testsigma to learn more about the results. That's all we need to automate Test Execution when a successful build is triggered using the Bamboo CI server.
-
-
 
 ---

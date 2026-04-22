@@ -9,8 +9,8 @@ warning: false
 <br>
 
 <p>
-In some instances, an app may force close or stop responding frequently while executing test cases on the cloud platforms as shown in the screenshot below:</p>
-<img style="border: #D3D3D3 1px outset; width:300px;height:500px;" src="https://s3.amazonaws.com/static-docs.testsigma.com/new_images/troubleshooting/mobile-apps/failed-to-launch-UI/app_failure_message_2.png" alt="Application keeps stopping">
+In some instances, an app may force close or stop responding frequently while executing test cases on the cloud platforms. 
+
 This may be due to the presence of security controls and capabilities in the application like: 
 <ul>
 <li>No spoofing of network logs</li>

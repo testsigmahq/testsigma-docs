@@ -53,10 +53,4 @@ In Testsigma, you can control how each test step behaves in your test cases by u
 |**Enable Visual Testing for the Step**|You can disable the test step by choosing this option, and the test step will not run. By default, this option is unchecked.|
 |**Disable Step**|It allows you to capture and compare the visual appearance of an application's user interface between different builds or versions.|
 
-
-
-Here's a quick GIF exploring all options available in test step setttings.
-
-![Step Settings](https://s3.amazonaws.com/website-static-docs.testsigma.com/new_images/projects/Updated_Doc_Images/teststepsettings.gif)
-
 ---

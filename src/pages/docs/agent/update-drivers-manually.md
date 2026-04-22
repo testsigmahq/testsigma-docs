@@ -74,10 +74,6 @@ In case the recent Agent update didn’t include driver v94, we need to do the f
 1. Download the driver file for v94 from the above link.
 2. Check if a folder named ‘94.0’ is present in the corresponding browser folder i.e **googlechrome** in this case within the **drivers** folder. If not present, create a directory named **94.0** there.
 
-Here’s a screenshot of the Agents folder for Testsigma Agent in Mac OS:
-
-![Testsigma Agent drivers folder](https://docs.testsigma.com/images/update-drivers-manually/testsigma-agent-drivers-folder.png)
-
 [[info | NOTE:]]
 |In the case of the Firefox Browser driver, the folder names follow a certain pattern where 0.x.x is renamed as 0.xx<br>
 |For example, if the browser driver version is 0.29.1, the driver folder name within Testsigma Agent should be ‘0.291’.<br>
