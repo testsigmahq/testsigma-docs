@@ -55,6 +55,7 @@ Testsigma allows you to create custom actions with add-ons using its powerful Po
 ## **Viewing Post Plan Hook Status**
 
 1. After completing the test plan execution, click the **View Reports** button at the top right of the Test Plans details page to view the test plan and post-plan hook results.
-2. View the **Post Plan Hook** status on the **Run Result** page under the **Run Result Overview** section. ![View Post Plan Status](hhttps://s3.amazonaws.com/website-static-docs.testsigma.com/new_images/projects/Updated_Doc_Images/update_post_plan_4.png)
+
+2. View the **Post Plan Hook** status on the **Run Result** page under the **Run Result Overview** section. 
 
 ---
