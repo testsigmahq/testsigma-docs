@@ -12,8 +12,8 @@ contextual_links:
   name: "Prerequisites"
   url: "#prerequisites"
 - type: link
-  name: "Integrating with SauceLabs"
-  url: "#integrating-with-saucelabs"
+  name: "Integrating with Sauce Labs"
+  url: "#integrating-with-sauce-labs"
 - type: link
   name: "Using SauceLabs for Test Runs"
   url: "#using-saucelabs-for-test-runs"
@@ -33,20 +33,19 @@ If your organization has an existing account with SauceLabs, you can author test
 > 2. You have referred to the [documentation on test lab types in Testsigma](https://testsigma.com/docs/test-plans/supported-test-lab-types/)
 
 ---
-## **Integrating with SauceLabs**
+## **Integrating with Sauce Labs**
 
-Once the username and API key is obtained, navigate to the Plugins page through **Dashboard > Settings > Plugins** and select **SauceLabs** under the Test Lab Tab.
+Once the username and API key is obtained, navigate to the **Integrations** page through **Dashboard > Settings > Integrations**. 
 
- 1. Click on the disabled Icon on SauceLabs. SauceLabs Details overlay opens up.
- 2. Enter the username and API Key obtained from SauceLabs here.
-
-After entering the details, click on the Create button to add the Integration.
+1. Enable the toggle next to **Sauce Labs**. 
+2. In the **Sauce Labs details** dialog, enter the username and API Key obtained from **Sauce Labs** here.
+3. After entering the details, click on the **Save & Enable** button to add the integration.
 
 ![window to add sauce labs integration to Testsigma](https://s3.amazonaws.com/website-static-docs.testsigma.com/new_images/projects/Updated_Doc_Images/add-sauce-labs-integration.png)
 
 ---
 ## **Using SauceLabs for Test Runs**
 
-Once the account details are added to the Plugins page, select SauceLabs as the Test Lab type instead of Testsigma Lab while creating an Ad-hoc run or Test Plan Run.
+Once the account details are added to the **Integrations** page, select **Sauce Labs** as the **Test Lab** type instead of Testsigma Lab while creating an Ad-hoc run or Test Plan Run.
 
 ![Select SauceLabs as the Test lab Type for Test Plan Run or Ad-hoc Run](https://s3.amazonaws.com/website-static-docs.testsigma.com/new_images/projects/Updated_Doc_Images/select-test-lab-saucelabs.png)

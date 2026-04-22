@@ -30,7 +30,6 @@ Learn how to generate a customized HTML report from the JUnit XML report in your
 We can generate a JUnit Report for the Test Results in three ways:
 
 1. Generate reports from **Testsigma Test Plan Run** Plugin (Jenkins). 
-   ![Jenkins](https://s3.amazonaws.com/website-static-docs.testsigma.com/new_images/projects/Updated_Doc_Images/jnknsplns.png)
 
    In the case of the Jenkins pipeline, the JUnit report is auto-generated in the workspace in the specified path when you trigger the test plan using the **Testsigma Test Plan Plugin**.
 
