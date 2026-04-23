@@ -36,7 +36,7 @@ To access the Community Marketplace, click the addons icon in the navigation bar
     - **New and Updated Addons**: Recently added or updated addons.
     - **Testsigma Addons**: Official addons provided by the Testsigma team.
 - **Installed Addons**: Addons that are already installed and activated in your account.
-- **My Addons**: Addons you have created, both public and private. ![explore addon page](hhttps://s3.amazonaws.com/website-static-docs.testsigma.com/new_images/projects/Updated_Doc_Images/update_addon_marketplace_1.png)
+- **My Addons**: Addons you have created, both public and private. 
 
 If you don't find an addon that suits your needs, you can create a new one and publish it to the Marketplace to help other software development engineers in test (SDETs) in the QA Community. For more information on creating a new addon, refer to the [documentation on creating a add-on](https://testsigma.com/docs/addons/create/)
 

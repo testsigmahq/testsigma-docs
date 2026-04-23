@@ -41,7 +41,8 @@ When executing your test cases on Testsigma you have the option to execute them 
 ---
 
 ## **How to run test cases and test plans on cloud vendor platforms with Testsigma**
-1. Navigate to Settings → Plugins → Test Lab:
+
+1. Navigate to **Settings** → **Integrations** → **Test Lab**:
 
 ![Test lab tab to run on cloud vendor platforms in Testsigma](https://s3.amazonaws.com/website-static-docs.testsigma.com/new_images/projects/Updated_Doc_Images/test-lab-tab-run-on-cloud-vendor-platforms-testsigma.png)
 
@@ -55,22 +56,14 @@ When executing your test cases on Testsigma you have the option to execute them 
 
 Now, to run tests on these cloud vendors you have added.
 
-1. In the Dry Run menu, click on **Run**.
+5. In the Dry Run menu, click on **Run**.
    
-2. Choose the cloud vendor from the number of options you have.
+6. Choose the cloud vendor from the number of options you have.
     
-3. Configure other options and run.
-
-
-This gif demonstrates the steps to run tests on Testsigma:
-
-![Run test on added cloud vendor platform in Testsigma](https://s3.amazonaws.com/website-static-docs.testsigma.com/new_images/projects/Updated_Doc_Images/vendorpf.gif)
+7. Configure other options and run.
 
 ### Test Plans - How to select your cloud vendor ?
-While creating a Test Plan, in the first tab, you will get all the options for cloud vendors. 
 
-Please choose one as shown below. 
-
-![choose selected testlab for test plan execution in Testsigma](https://s3.amazonaws.com/website-static-docs.testsigma.com/new_images/projects/Updated_Doc_Images/vendorpf.gif)
+While selecting test machines for a Test Plan, in the **Test Lab** section, you will get all the options for cloud vendors. 
 
 ---
