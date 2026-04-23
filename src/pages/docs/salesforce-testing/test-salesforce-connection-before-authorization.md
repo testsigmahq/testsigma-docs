@@ -26,7 +26,7 @@ Testsigma provides a convenient way to check your Salesforce connection using ei
    ![Test salesforce connection 1](https://s3.amazonaws.com/website-static-docs.testsigma.com/new_images/projects/Updated_Doc_Images/update_sf_edit_1.png)
 
 2. In the Salesforce connections page, under the **Metadata connection** or **User connection** section, click the ellipsis icon next to the desired connection and click **Edit Connection**.
-   ![Test salesforce connection 2](https://s3.amazonaws.com/website-static-docs.testsigma.com/new_images/projects/Updated_Doc_Images/update_sf_edit_2.pngg)
+   ![Test salesforce connection 2](https://s3.amazonaws.com/website-static-docs.testsigma.com/new_images/projects/Updated_Doc_Images/update_sf_edit_2.png)
 
 [[info | **NOTE**:]]
 | - If the connection details are already filled in, the **User/Metadata** connection dialog will open with the existing information. 
