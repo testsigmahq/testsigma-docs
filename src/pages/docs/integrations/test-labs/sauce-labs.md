@@ -28,8 +28,7 @@ If your organization has an existing account with SauceLabs, you can author test
 > <p id="prerequisites">Prerequisites</p>
 > 
 > Before you begin, ensure that:
-> 1. You have the username and API Key for SauceLabs which can be obtained from your SauceLabs account dashboard. This can be obtained from the Account Settings page as shown below :
->    ![User credentials in Saucelabs Account Settings page](https://s3.amazonaws.com/website-static-docs.testsigma.com/new_images/projects/Updated_Doc_Images/saucelabs-user-creds-username-key.png)
+> 1. You have the username and API Key for SauceLabs which can be obtained from your SauceLabs account dashboard.  
 > 2. You have referred to the [documentation on test lab types in Testsigma](https://testsigma.com/docs/test-plans/supported-test-lab-types/)
 
 ---
