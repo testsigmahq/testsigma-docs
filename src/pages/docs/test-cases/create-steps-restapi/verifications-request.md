@@ -26,21 +26,77 @@ contextual_links:
 
 ---
 
-In Testsigma, you can check whether the Rest API is functioning correctly by adding verification and assertions. This involves testing the API endpoints, the data returned, and the response codes. Verification also includes validating the API against the requirements and ensuring that the API is secure. For verification, you need to add an API request and click **Create** to check the response. At the bottom of the screen, you can see the response and add verification. There are some steps to adding verification.
+In Testsigma, you can validate whether a REST API is functioning correctly by adding verifications (assertions). These help ensure that the API response matches the expected status, headers, and body content.
+
+**To add verification:**
+- Send an API request.
+- Review the response at the bottom of the screen.
+- Click **Create** and add verification from the **Verification** tab.
 
 ---
 
 ## **Verification Types**
 
-These types of verification are available for JSON and XML:
+Verification types define how the response (JSON/XML) is compared with the expected value.
 
-|Verification Types|Function|
-|    :----:   |    :----:   |
-| **Strict** | In strict verification, all conditions and rules must be met exactly as specified. If any requirements are met, the verification will succeed.|
-| **Strict Order** | In strict order verification, the conditions and rules must be met in the specified order. The verification will only succeed if any requirement is met or is in order. |
-| **Lenient**  | In lenient verification, some conditions and rules may be ignored or relaxed, and the verification will still pass as long as the essential requirements are met.|
-|  **Non-extensible** | In non-extensible verification, the verification rules cannot be modified or extended. Only the pre-defined rules can be applied. |
-| **Schema** | A schema is a set of rules defining data or documents' structure, format, and constraints. It can validate, verify, or transform data in different contexts, such as databases, APIs, or file formats. |
+**1. Strict**
+- Exact match required
+- No extra fields allowed
+- Array order must match
+
+**2. Strict Order**
+- Same as Strict
+- Field order must also match
+
+**3. Lenient (Recommended)**
+- Validates only specified fields
+- Extra fields allowed
+- Order ignored
+
+**4. Non Extensible**
+- No extra fields allowed
+- Order ignored
+
+**5. Schema**
+- Validates structure and data types, not exact values
+
+### **Quick Summary**
+
+| Type             | Extra Fields Allowed | Order Check   | Value Validation              |
+|------------------|--------------------|--------------|-------------------------------|
+| **Strict**        | ❌ No               | Arrays only  | Exact match required          |
+| **Strict Order**  | ❌ No               | ✔ Full order | Exact match required          |
+| **Lenient**       | ✔ Yes              | ❌ No         | Only specified fields checked |
+| **Non Extensible**| ❌ No               | ❌ No         | Exact match required          |
+| **Schema**        | Depends            | ❌ No         | Structure & type validation   |
+
+> <p id="prerequisites">💡 Tip:</p>
+> Use Lenient for most APIs with dynamic fields.
+
+### **For Example:**
+
+**Expected:**
+
+```
+{
+  "name": "Ganesh"
+}
+```
+
+**Response:**
+
+```
+{
+  "name": "Ganesh",
+  "age": 30,
+  "city": "Bangalore"
+}
+```
+
+In this case,
+- **Lenient:** Passes as it validates only the specified field (**name**) and ignores extra fields.  
+
+- **Strict:** Fails as extra fields (**age**, **city**) are not allowed.
 
 ---
 
