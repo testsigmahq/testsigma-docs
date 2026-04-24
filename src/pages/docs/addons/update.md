@@ -3,7 +3,7 @@ title: "Update an Addon in Testsigma"
 pagetitle: "Update Your Addon: Simple Guide for Easy Modifications"
 metadesc: "Updating a Testsigma addon is simple and quick. Follow our step-by-step guide to modify, enhance, and manage your addon versions effectively."
 noindex: false
-order: 17.6
+order: 18.6
 page_id: "update-testsigma-addon"
 search_keyword: ""
 warning: false

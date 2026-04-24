@@ -2,7 +2,7 @@
 title: "UI Identifier NLP"
 metadesc: "This article discusses the behavior of the NLP with UI Identifiers designed to interact with UI elements. Learn how to design tests with respect to this NLP"
 noindex: false
-order: 23.16
+order: 24.16
 page_id: "ui-identifier-nlp"
 warning: false
 ---

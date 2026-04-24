@@ -1,7 +1,7 @@
 ---
 title: "How to Handle Browser-Related Pop-Up Issues?"
 metadesc: "Fix browser pop-up issues by setting a specific desired capability. This article shows how to resolve pop-up problems through configuration."
-order: 24.32
+order: 25.32
 page_id: "how-to-handle-browser-related-pop-up-issues-?"
 warning: false
 contextual_links:

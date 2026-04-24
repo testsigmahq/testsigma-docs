@@ -2,7 +2,7 @@
 title: "Testsigma Agent Upgrade Guide"
 metadesc: "Upgrade Testsigma Agent automatically/manually when a new version is available. Automatic upgrades are enabled by default to ensure the agent always runs the new version"
 noindex: false
-order: 11.7
+order: 12.7
 page_id: "agent-upgrade-guide"
 warning: false
 contextual_links:

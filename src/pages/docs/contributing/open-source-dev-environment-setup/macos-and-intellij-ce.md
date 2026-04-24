@@ -3,7 +3,7 @@ title: "macOS and IntelliJ Community Edition"
 page_title: "Testsigma Development Environment with macOS and IntelliJ Community Edition"
 metadesc: "This article discusses how to setup Testsigma Development Environment with macOS and IntelliJ Community Edition | Learn how to setup Testsigma Development Environment"
 noindex: false
-order: 22.1
+order: 23.1
 page_id: "Testsigma Development Environment with macOS and IntelliJ Community Edition"
 warning: false
 contextual_links:

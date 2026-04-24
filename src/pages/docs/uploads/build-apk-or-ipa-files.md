@@ -3,7 +3,7 @@ title: "How to generate mobile builds for Android/iOS applications?"
 page_title: "build ipa or apk files"
 metadesc: "How to build ipa or apk files"
 noindex: false
-order: 20.4
+order: 21.4
 page_id: "build ipa or apk files"
 warning: false
 contextual_links:

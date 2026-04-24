@@ -3,7 +3,7 @@ title: "How to Find the App Bundle ID for iOS?"
 page_title: "Finding the App Bundle ID for iOS"
 metadesc: "There is no way to directly get bundle IDs in iOS app store (Apple Store) directly. Learn how to find the app bundle ID for iOS"
 noindex: false
-order: 23.693
+order: 24.693
 page_id: "app-bundle-id-for-ios"
 warning: false
 contextual_links:

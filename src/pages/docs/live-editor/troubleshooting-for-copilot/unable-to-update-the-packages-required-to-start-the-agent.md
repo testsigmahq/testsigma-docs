@@ -3,7 +3,7 @@ title: "Unable to Update the Packages Required to Start the Agent?"
 pagetitle: "Unable to Update the Package Required to Start the Agent?"
 metadesc: "Learn how to resolve failed Copilot package updates caused by unstable network connectivity, firewall settings, or insufficient disk space."
 noindex: false
-order: 10.28
+order: 11.28
 page_id: "unable-to-update-the-package-required-to-start-the-agent-?"
 search_keyword: ""
 warning: false

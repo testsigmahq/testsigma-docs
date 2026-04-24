@@ -3,7 +3,7 @@ title: "Integrations with Test Labs"
 pagetitle: "Unlock Seamless Test Lab Integration for Cloud Testing"
 metadesc: "Start integrating with test labs to run tests on cloud devices effortlessly. Explore easy steps and prerequisites for successful integration."
 noindex: false
-order: 16.41
+order: 17.41
 page_id: "integrate-test-lab-with-Testsigma"
 warning: false
 contextual_links:

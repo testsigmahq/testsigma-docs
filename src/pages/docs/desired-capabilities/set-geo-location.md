@@ -3,7 +3,7 @@ title: "Set Geolocation for Tests in Chrome & Firefox"
 page_title: "Set Geolocation for your Tests"
 metadesc: "Learn how to set the location of your Test Environment where tests are run by using a pair of desired capabilities in Testsigma Application."
 noindex: false
-order: 15.6
+order: 16.6
 page_id: "set-geolocation-for-tests-in-chrome-and-firefox"
 search_keyword: ""
 warning: false

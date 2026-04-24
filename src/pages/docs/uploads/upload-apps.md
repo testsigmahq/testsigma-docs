@@ -3,7 +3,7 @@ title: "Upload Android and iOS Apps"
 pagetitle: "Upload Android and iOS Apps for Testing in Testsigma"
 metadesc: "Learn how to upload Android and iOS apps for efficient testing in Testsigma. Ensure app quality and reliability effortlessly. Step-by-step guide provided."
 noindex: false
-order: 20.12
+order: 21.12
 page_id: "upload-android-ios-apps-testsigma"
 warning: false
 contextual_links:

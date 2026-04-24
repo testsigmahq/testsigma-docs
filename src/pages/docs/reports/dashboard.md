@@ -3,7 +3,7 @@ title: "Testsigma Dashboard - Overview"
 page_title: "Testsigma Dashboard"
 metadesc: "Testsigma dashboard is the control panel that gives an overview of the currently selected project & its components. This article discusses Testsigma dashboards"
 noindex: false
-order: 13.1
+order: 14.1
 page_id: "Testsigma Dashboard - Overview"
 warning: false
 ---

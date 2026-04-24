@@ -3,7 +3,7 @@ title: "FAQs on Testsigma Copilot"
 pagetitle: "FAQs on Testsigma Copilot"
 metadesc: "Find answers to frequently questions about Testsigma's Copilot (Testsigma Terminal), including its features, installation, usage, and how it helps resolve issues in test cases in real time"
 noindex: false
-order: 10.17
+order: 11.13
 page_id: "frequently-asked-questions-on-copilot"
 search_keyword: ""
 warning: false
