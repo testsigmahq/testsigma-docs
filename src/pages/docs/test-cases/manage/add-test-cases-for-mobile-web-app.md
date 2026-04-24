@@ -1,6 +1,6 @@
 ---
 title: "Manage Test Cases for Mobile Web Applications"
-metadesc: "Manage test cases for mobile web apps in Testsigma using Atto and Copilot. Learn how to add steps, record actions, and automate mobile app tests."
+metadesc: "Manage test cases for mobile web apps in Testsigma using Atto and Copilot. Learn how to edit and delete test steps in mobile apps."
 noindex: false
 order: 4.23
 page_id: "manage-test-cases-for-mobile-web-applications"
@@ -88,7 +88,7 @@ Testsigma allows you to manage test cases for mobile web applications. This docu
 2. Click **Update** to save the Step Settings changes. 
 ![update](https://s3.amazonaws.com/website-static-docs.testsigma.com/new_images/projects/Updated_Doc_Images/manage_tests_edit_mw_9.png)
 
-3. Use the right-side navbar to update advanced settings such as **Test Case Info**, **Test Case Settings**, and **Manage Test Case** options. Please refer to the documentation on[Test Case: Advanced Optioned Guide](https://testsigma.com/docs/test-cases/manage/test-case-advanced-options/) for more information. 
+3. Use the right-side navbar to update advanced settings such as **Test Case Info**, **Test Case Settings**, and **Manage Test Case** options. Please refer to the documentation on[Test Case: Advanced Options Guide](https://testsigma.com/docs/test-cases/manage/test-case-advanced-options/) for more information. 
 
 ---
 
