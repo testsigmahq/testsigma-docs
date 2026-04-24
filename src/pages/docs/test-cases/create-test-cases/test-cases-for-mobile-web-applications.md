@@ -16,9 +16,6 @@ contextual_links:
   name: "Steps to Generate Test Cases Using Atto"
   url: "#steps-to-generate-test-cases-using-atto"
 - type: link
-  name: "Steps to Generate Test Cases Using Copilot"
-  url: "#steps-to-generate-test-cases-using-copilot"
-- type: link
   name: "Steps to Create Test Cases Using Recorder"
   url: "#steps-to-create-test-cases-using-recorder"
 - type: link
