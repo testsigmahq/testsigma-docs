@@ -47,7 +47,7 @@ Click **Test Case Info** in the right-side navbar to:
 
 Click **Ad-Hoc Runs** in the right-side navbar to view the history and details of Ad-Hoc Run results for the test case.
 
-![](https://s3.amazonaws.com/website-static-docs.testsigma.com/new_images/projects/Updated_Doc_Images/List_AdHoc_Runs_New.png)
+![Ad-hoc runs](https://s3.amazonaws.com/website-static-docs.testsigma.com/new_images/projects/Updated_Doc_Images/List_AdHoc_Runs_New.png)
 
 ---
 
