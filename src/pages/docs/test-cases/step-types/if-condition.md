@@ -2,7 +2,7 @@
 title: "Adding If, Else, Else If Conditions in Test Cases"
 metadesc: "The conditional if lets you execute a set of steps based on a condition being true or false. Learn how to use these conditions in Testsigma"
 noindex: false
-order: 4.27
+order: 4.37
 page_id: "Adding If, Else, Else If Conditions in Test Cases"
 warning: false
 contextual_links:
