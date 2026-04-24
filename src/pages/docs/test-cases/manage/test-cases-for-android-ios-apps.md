@@ -88,7 +88,7 @@ Testsigma allows you to manage test cases for Android and iOS mobile application
 2. Click **Update** to save the Step Settings changes. 
 ![Update](https://s3.amazonaws.com/website-static-docs.testsigma.com/new_images/projects/Updated_Doc_Images/manage_tests_edit_mobile_9.png)
 
-3. Use the right-side navbar to update advanced settings such as **Test Case Info**, **Test Case Settings**, and **Manage Test Case** options. Please refer to the documentation on [Test Case: Advanced Optioned Guide](https://testsigma.com/docs/test-cases/manage/test-case-advanced-options/) for more information. 
+3. Use the right-side navbar to update advanced settings such as **Test Case Info**, **Test Case Settings**, and **Manage Test Case** options. Please refer to the documentation on [Test Case: Advanced Options Guide](https://testsigma.com/docs/test-cases/manage/test-case-advanced-options/) for more information. 
 
 ---
 
