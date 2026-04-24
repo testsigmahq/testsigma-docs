@@ -3,7 +3,7 @@ title: "Organizing Test Cases in Folders"
 pagetitle: "Organize Test Cases"
 metadesc: "Effortlessly organize test cases by features & scenarios, which provides a complete view of test coverage. The folder structure also simplifies the navigation."
 noindex: false
-order: 4.10
+order: 4.11
 page_id: "Folder Structure for Test Cases"
 warning: false
 contextual_links:
