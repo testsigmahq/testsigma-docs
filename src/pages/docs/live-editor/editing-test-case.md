@@ -3,7 +3,7 @@ title: "Editing a Test Case Using Copilot"
 pagetitle: "Editing a Test Case Live Using Testsigma Copilot"
 metadesc: "Learn how to edit a test case live using Testsigma Copilot | Testsigma Copilot allows you to check step details of the test case without having to re-run on test failure"
 noindex: false
-order: 10.16
+order: 11.12
 page_id: "editing-a-test-case-using-live-editor"
 search_keyword: ""
 warning: false

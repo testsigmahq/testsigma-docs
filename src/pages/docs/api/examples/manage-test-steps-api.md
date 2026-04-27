@@ -3,7 +3,7 @@ title: "Manage Test Steps Using API"
 page_title: "Manage Test Steps Using API"
 metadesc: "With Testsigma, you can create, update & delete test steps using APIs. Learn how to manage test steps in the test cases using REST API in Testsigma"
 noindex: false
-order: 21.89
+order: 22.89
 page_id: "manage-test-steps-using-apis"
 warning: false
 contextual_links:

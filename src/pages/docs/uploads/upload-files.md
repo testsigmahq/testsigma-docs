@@ -3,7 +3,7 @@ title: "Upload Files"
 page_title: "Upload Files in Testsigma"
 metadesc: "Know the detailed steps to upload files in Testsigma for effective test automation. This guide covers the steps for uploading files in Testsigma effectively."
 noindex: false
-order: 20.11
+order: 21.11
 page_id: "Upload Files"
 warning: false
 contextual_links:

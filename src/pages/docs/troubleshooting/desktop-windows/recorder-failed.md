@@ -3,7 +3,7 @@ title: "Failed to Start Element Recorder"
 page_title: " Troubleshooting Failed to Start Desktop Element Recorder"
 metadesc: "Know the possible reasons why Testsigma app failed to start desktop element recorder and learn steps to fix the issue by troubleshooting"
 noindex: false
-order: 23.41
+order: 24.41
 page_id: "failed-to-start-desktop-element-recorder"
 warning: false
 contextual_links:

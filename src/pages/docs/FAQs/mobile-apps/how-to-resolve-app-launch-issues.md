@@ -1,7 +1,7 @@
 ---
 title: "How to Resolve App Launch Issues?"
 metadesc: "Learn how to disable iOS app re-signing in Testsigma to preserve push notifications, entitlements, and app functionality using a desired capability for enterprise-signed apps."
-order: 24.24
+order: 25.24
 page_id: "how-to-resolve-app-launch-issues-?"
 warning: false
 contextual_links:

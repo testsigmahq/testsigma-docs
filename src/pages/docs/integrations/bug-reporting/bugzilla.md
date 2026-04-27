@@ -3,7 +3,7 @@ title: "Bugzilla Bug Reporting Integration"
 page_title: "Bugzilla Bug Reporting Integration in Testsigma"
 metadesc: "Bugzilla integration helps you in creating issues in Bugzilla from the Testsigma. Learn how to integrate Testsigma with Bugzilla for real-time bug reporting"
 noindex: false
-order: 16.32
+order: 17.32
 page_id: "bugzilla-bug-reporting-integration"
 warning: false
 contextual_links:

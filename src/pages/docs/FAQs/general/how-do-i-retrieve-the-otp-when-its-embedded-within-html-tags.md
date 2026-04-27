@@ -1,7 +1,7 @@
 ---
 title: "How Do I Retrieve the OTP When it’s Embedded within HTML Tags?"
 metadesc: "Extract OTPs embedded in HTML emails by removing HTML tags using an addon, ensuring only the numeric OTP is captured for test execution."
-order: 24.43
+order: 25.43
 page_id: "how-do-i-retrieve-the-otp-when-its-embedded-within-html-tags"
 warning: false
 contextual_links:

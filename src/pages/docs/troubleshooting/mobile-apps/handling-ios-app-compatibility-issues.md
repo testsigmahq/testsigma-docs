@@ -3,7 +3,7 @@ title: "How to Handle iOS App Compatibility Issues?"
 page_title: "Handling iOS App Compatibility Issues in Testsigma"
 metadesc: "Testsigma resign your iOS app which results in loss of a few entitlements. This article discusses troubleshooting these compatibility issues"
 noindex: false
-order: 23.695
+order: 24.695
 page_id: "handling-ios-app-compatibility-issues"
 warning: false
 contextual_links:

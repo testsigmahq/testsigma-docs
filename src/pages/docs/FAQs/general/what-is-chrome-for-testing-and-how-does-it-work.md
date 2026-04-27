@@ -1,7 +1,7 @@
 ---
 title: "What is Chrome for Testing and How Does it Work?"
 metadesc: "Learn how to use Chrome for Testing, a secure sandboxed browser automatically downloaded after agent registration for automated testing."
-order: 24.39
+order: 25.39
 page_id: "what-is-chrome-for-testing-and-how-does-it-work-?"
 warning: false
 

@@ -3,7 +3,7 @@ title: "Freshrelease Bug Reporting Integration"
 page_title: "Freshrelease Bug Reporting Integration in Testsigma"
 metadesc: "How to integrate Testsigma with Freshrelease for real-time bug reporting during Test Runs | Push bugs directly from Testsigma to your Freshrelease project"
 noindex: false
-order: 16.54
+order: 17.54
 page_id: "freshrelease-bug-reporting-integration"
 warning: false
 contextual_links:

@@ -2,7 +2,7 @@
 title: "Test Plan Run Results in Testsigma"
 metadesc: "View and download reports from the Run Results page in Testsigma | This page provides detailed results at the test cases, suites, and machines levels."
 noindex: false
-order: 13.23
+order: 14.23
 page_id: "Test Plan Run Results"
 warning: false
 contextual_links:

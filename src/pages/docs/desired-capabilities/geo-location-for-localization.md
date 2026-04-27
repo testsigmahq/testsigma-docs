@@ -2,7 +2,7 @@
 title: "Geolocation Emulation for Localization Testing"
 metadesc: "Learn how to use Desired Capabilities to set the Geographical Location for running tests in Mobile Web in Testsigma Application"
 noindex: false
-order: 15.4
+order: 16.4
 page_id: "geolocation-emulation-for-localization-testing"
 search_keyword: ""
 warning: false

@@ -3,7 +3,7 @@ title: "Unable to Extract the Terminal Files?"
 pagetitle: "Unable to Extract the Terminal Files?"
 metadesc: "Learn how to fix file extraction problems in Testsigma Terminal triggered by insufficient storage or interfering software."
 noindex: false
-order: 10.23
+order: 11.23
 page_id: "unable-to-extract-the-terminal-files-?"
 search_keyword: ""
 warning: false
