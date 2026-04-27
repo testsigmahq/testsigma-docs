@@ -3,7 +3,7 @@ title: "Controls and Actions"
 page_title: "Controls and Actions in Android Test Recorder"
 metadesc: "You can generate test steps in plain English by recording your actions for android & iOS apps. Learn controls & actions available in Testsigma application"
 noindex: false
-order: 4.323
+order: 4.423
 page_id: "controls-and-actions"
 warning: false
 contextual_links:
