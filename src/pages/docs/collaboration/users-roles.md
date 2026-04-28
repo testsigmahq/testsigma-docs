@@ -18,8 +18,12 @@ contextual_links:
   name: "Assign Roles to Users From Project Settings"
   url: "#assign-roles-to-users-from-project-settings"
 - type: link
-  name: "Deleting Users From a Project"
-  url: "#deleting-users-from-a-project"  
+  name: "Delete Users From a Project"
+  url: "#delete-users-from-a-project" 
+- type: link
+  name: "Invite a Read Only User"
+  url: "#invite-a-read-only-user" 
+
 ---
 
 ---
@@ -29,7 +33,7 @@ When a user is added in Testsigma, they can be assigned various roles. This docu
 ---
 
 ## **Roles in Testsigma**
-Below are the four roles that can be assigned to a project member in Testsigma:
+Below are the six roles that can be assigned to a project member in Testsigma:
 
 1. **Super Administrator:** A user in a ‘Super Administrator’ role will have complete control over the Testsigma project but will be restricted from viewing Account or Billing-related information.
 
@@ -41,7 +45,7 @@ Below are the four roles that can be assigned to a project member in Testsigma:
 
 5. **Account Administrator:** A user in the role of ‘Account Administrator’ has all the rights as a Super Administrator. In addition, they will also have access to billing-related information for that particular account.
 
-
+6. **Read Only:** A user in the role of 'Read Only' will be able to view the contents of your project without making any modifications.
 
 ---
 
@@ -81,11 +85,9 @@ Below are the four roles that can be assigned to a project member in Testsigma:
 
 The invited user should receive an invitation email. They will need to join via the link sent in the email. Once they have joined they should be able to work on the project according to the role assigned to them.
 
-
-
 ---
 
-## **Deleting Users From a Project**
+## **Delete Users From a Project**
 
 
 If you're the super administrator of the project, you can delete users. 
@@ -102,6 +104,27 @@ If you're the super administrator of the project, you can delete users.
 
 Alternatively, you can also delete user from global settings by navigating to **Settings > Users**.
 
-
-
 ---
+
+## **Invite a Read Only User**
+
+1. From the left navigation bar, go to **Settings > Users**.
+   ![Users](https://s3.amazonaws.com/website-static-docs.testsigma.com/new_images/projects/Updated_Doc_Images/read_only_user_1.png)
+
+2. On the **Users** details page, click **Add new user** in the top-right corner of the screen.
+   ![Add new User](https://s3.amazonaws.com/website-static-docs.testsigma.com/new_images/projects/Updated_Doc_Images/read_only_user_2.png)
+
+3. In the **Add New User** dialog, enter the email address of the user in the **Email** field.
+   ![Email](https://s3.amazonaws.com/website-static-docs.testsigma.com/new_images/projects/Updated_Doc_Images/read_only_user_3.png)
+
+4. Select the **Read Only** checkbox to assign Read Only access to the user.
+   ![Read Only](https://s3.amazonaws.com/website-static-docs.testsigma.com/new_images/projects/Updated_Doc_Images/read_only_user_4.png)
+
+5. Click **Send Invite**.
+   ![Send Invite](https://s3.amazonaws.com/website-static-docs.testsigma.com/new_images/projects/Updated_Doc_Images/read_only_user_5.png)
+
+A confirmation message **Invite sent successfully** appears, and the invited user is listed under the **Users** page with the status **Invited**. The user will receive an email invitation to join the workspace with Read Only access.
+
+[[info | **NOTE**:]]
+| Until the invited user accepts the invitation, their status remains Invited. You can click **Resend Invite** next to the user's name if needed.
+| ![Resend Invite](https://s3.amazonaws.com/website-static-docs.testsigma.com/new_images/projects/Updated_Doc_Images/read_only_user_6.png)
