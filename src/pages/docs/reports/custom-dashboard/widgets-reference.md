@@ -92,7 +92,7 @@ Widgets are grouped into categories based on their purpose to make navigation ea
   </tr>
   <tr>
     <td><strong>Pass Fail Percent Trend</strong></td>
-    <td>Success rate percentage tracked over rolling time intervals. Formula: (successful runs ÷ 100) / total runs</td>
+    <td>Success rate percentage tracked over rolling time intervals. Formula: (successful runs ÷ total runs) × 100</td>
     <td>Monitor whether test suite health is improving, stable, or declining</td>
     <td>Upward line shows quality improvement. Downward line indicates regression. Flat line shows consistent maturity level.</td>
   </tr>
@@ -159,7 +159,7 @@ Widgets are grouped into categories based on their purpose to make navigation ea
   </tr>
   <tr>
     <td><strong>Stability Ratios</strong></td>
-    <td>Success rate (%) grouped by number of attempts (1, 2, 3, 4+ attempts). Formula: (successful runs ÷ 100) / total runs</td>
+    <td>Success rate (%) grouped by number of attempts (1, 2, 3, 4+ attempts). Formula: (successful runs ÷ total runs) × 100</td>
     <td>Understand how often tests pass on first try versus requiring retries</td>
     <td>High 1st attempt success is ideal. If success improves on 2nd+ attempts, tests are flaky. Consistent success shows robust tests.</td>
   </tr>
