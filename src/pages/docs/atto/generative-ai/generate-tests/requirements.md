@@ -27,6 +27,12 @@ contextual_links:
 - type: link
   name: "Add the Data from Files"
   url: "#add-the-data-from-files"
+- type: link
+  name: "Add Data from Confluence Pages"
+  url: "#add-data-from-confluence-pages"
+- type: link
+  name: "Add Data from Live Recorder"
+  url: "#add-data-from-live-recorder"
 ---
 
 ---
@@ -167,5 +173,53 @@ Testsigma allows you to generate test cases from requirements using Generative A
    
 7. Click **Save**. 
    ![Files Input](https://s3.amazonaws.com/website-static-docs.testsigma.com/new_images/projects/Updated_Doc_Images/add_files_1.1.png)
+
+---
+
+## **Add Data from Confluence Pages**
+
+1. From the left navigation bar, go to **Atto’s Home**.
+
+2. Click **Generate with AI**.
+
+3. In the **Generate Test Cases** section, click **Confluence** as an input source.
+
+4. In the **Confluence** dialog,
+   - Select the **Confluence Space** containing your requirements.
+   - Select one or more **Pages** you want to use as input.
+   - Click **Save**.
+     ![Add Confluence Pages](https://s3.amazonaws.com/website-static-docs.testsigma.com/new_images/projects/Updated_Doc_Images/Attach_Confluence_Page_to_Atto.png)
+
+   Atto will now use the selected Confluence pages as context for generating test cases.
+
+---
+
+## **Add Data from Live Recorder**
+
+1. From the left navigation bar, go to **Atto’s Home**.
+
+2. Click **Generate with AI**.
+
+3. In the **Generate Test Cases** section, click **Live Recorder** as an input source.
+
+4. In the **Live Recorder** dialog, click **Start Recording**. A new Chrome session will open automatically.
+   ![Live Recorder](https://s3.amazonaws.com/website-static-docs.testsigma.com/new_images/projects/Updated_Doc_Images/Live_Recording_for_Atto.png)
+
+5. Enter the URL you want to test and click **Start Recording**.
+   ![Start Recording](https://s3.amazonaws.com/website-static-docs.testsigma.com/new_images/projects/Updated_Doc_Images/Record_Sesssion_for_Atto.png)
+
+6. When prompted to choose what to share, select **Entire screen** or **Window** as needed.
+
+7. Perform the actions and user interactions you want to provide as context to Atto.
+
+8. Click **Stop**, review the recorded video, and click **Continue**.
+
+9.  You’ll be redirected to Testsigma with the **Live Recorder** dialog displaying your recording.
+
+10. Click **Save** to add the recording as context for test case generation.
+
+[[info | **NOTE**:]]
+| You can add additional context by clicking **Record New Session** and repeating steps 6–9. This allows you to capture multiple user workflows or interactions for comprehensive test case generation.
+| ![New Session for Recording](https://s3.amazonaws.com/website-static-docs.testsigma.com/new_images/projects/Updated_Doc_Images/New_Session_for_Atto_Actions_Recording.png)
 
 ---
