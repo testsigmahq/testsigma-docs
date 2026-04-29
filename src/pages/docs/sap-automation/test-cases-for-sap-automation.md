@@ -13,9 +13,6 @@ contextual_links:
   name: "Prerequisites"
   url: "#prerequisites"
 - type: link
-  name: "Interactive Demo"
-  url: "#interactive-demo"
-- type: link
   name: "Steps to Create Test Cases for SAP Automation"
   url: "#steps-to-create-test-cases-for-sap-automation"
 ---
@@ -36,16 +33,6 @@ With Testsigma’s no-code platform, you can create test cases using the capture
 > 5. The **SAP** desktop application is installed and currently open on your device. 
 > 6. A working connection to your **SAP** system has been created using **SAP Logon**.
 
----
-
-## **Interactive Demo**
-
-<div>
-  <script async src="https://js.storylane.io/js/v2/storylane.js"></script>
-  <div class="sl-embed" style="position:relative;padding-bottom:calc(50.52% + 25px);width:100%;height:0;transform:scale(1)">
-    <iframe loading="lazy" class="sl-demo" src="https://app.storylane.io/demo/frlvajcr7tnl?embed=inline" name="sl-embed" allow="fullscreen" allowfullscreen style="position:absolute;top:0;left:0;width:100%!important;height:100%!important;border:1px solid rgba(63,95,172,0.35);box-shadow: 0px 0px 18px rgba(26, 19, 72, 0.15);border-radius:10px;box-sizing:border-box;"></iframe>
-  </div>
-</div>
 
 ---
 

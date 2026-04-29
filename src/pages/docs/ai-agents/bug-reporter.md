@@ -13,9 +13,6 @@ contextual_links:
   name: "Prerequisites"
   url: "#prerequisites"
 - type: link
-  name: "Interactive Demo"
-  url: "#interactive-demo"
-- type: link
   name: "Steps to Import Test Cases"
   url: "#steps-to-import-test-cases"
 ---

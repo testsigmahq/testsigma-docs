@@ -37,10 +37,10 @@ This document will walk you through **creating**, **editing**, **switching**, an
 ## **Creating a Project**
 
 1. Navigate to **Create New** and click on **Project** from the dropdown menu. 
-![Projects and Settings 1](https://s3.amazonaws.com/website-static-docs.testsigma.com/new_images/projects/Updated_Doc_Images/Projects_and_Settings_Step_1.png)
+   ![Projects and Settings 1](https://s3.amazonaws.com/website-static-docs.testsigma.com/new_images/projects/Updated_Doc_Images/Projects_and_Settings_Step_1.png)
 
 2. Enter the **Project Name** and **Description** (Optional).
-![Project and Settings 2](https://s3.amazonaws.com/website-static-docs.testsigma.com/new_images/projects/Updated_Doc_Images/Projects_and_Settings_Step_2.png)
+   ![Project and Settings 2](https://s3.amazonaws.com/website-static-docs.testsigma.com/new_images/projects/Updated_Doc_Images/Projects_and_Settings_Step_2.png)
 
 [[info | **NOTE**:]]
 | Custom fields you create for your projects under **Settings > Custom Fields > Projects** will appear here.
@@ -54,14 +54,6 @@ This document will walk you through **creating**, **editing**, **switching**, an
 5. Click on **Create**. 
 ![Project and Settings 5](https://s3.amazonaws.com/website-static-docs.testsigma.com/new_images/projects/Updated_Doc_Images/Projects_and_Settings_Step_5.png)
 
-### **Try this interactive demo to learn how to create a Project!**
-
-<div>
-  <script async src="https://js.storylane.io/js/v2/storylane.js"></script>
-  <div class="sl-embed" style="position:relative;padding-bottom:calc(57.41% + 25px);width:100%;height:0;transform:scale(1)">
-    <iframe loading="lazy" class="sl-demo" src="https://app.storylane.io/demo/mm6thgnsh6dy?embed=inline" name="sl-embed" allow="fullscreen" allowfullscreen style="position:absolute;top:0;left:0;width:100%!important;height:100%!important;border:1px solid rgba(63,95,172,0.35);box-shadow: 0px 0px 18px rgba(26, 19, 72, 0.15);border-radius:10px;box-sizing:border-box;"></iframe>
-  </div>
-</div>
 
 ---
 
@@ -83,15 +75,6 @@ This document will walk you through **creating**, **editing**, **switching**, an
 > 
 > **Adding**, **Editing**, and **Deleting** Applications & Versions can be done under **Project Settings > Applications**.
 
-
-### **Try this interactive demo to learn how to edit a Project!**
-
-<div>
-  <script async src="https://js.storylane.io/js/v2/storylane.js"></script>
-  <div class="sl-embed" style="position:relative;padding-bottom:calc(57.41% + 25px);width:100%;height:0;transform:scale(1)">
-    <iframe loading="lazy" class="sl-demo" src="https://app.storylane.io/demo/lbulubgumlge?embed=inline" name="sl-embed" allow="fullscreen" allowfullscreen style="position:absolute;top:0;left:0;width:100%!important;height:100%!important;border:1px solid rgba(63,95,172,0.35);box-shadow: 0px 0px 18px rgba(26, 19, 72, 0.15);border-radius:10px;box-sizing:border-box;"></iframe>
-  </div>
-</div>
 
 ---
 
@@ -115,21 +98,10 @@ This document will walk you through **creating**, **editing**, **switching**, an
 2. Click on **Delete**.
 ![Delete a Project 2](https://s3.amazonaws.com/website-static-docs.testsigma.com/new_images/projects/Updated_Doc_Images/Delete_a_Project_Step_2.png)
 
-3. On the **Delete project** dialog, enter **DELETE** and click on **Delete**.
-![DELETE](https://s3.amazonaws.com/website-static-docs.testsigma.com/new_images/projects/Updated_Doc_Images/prdelefin.png) 
 
-4. On the **Delete project** prompt, enter **DELETE** and click on **Delete**.
+3. On the **Delete project** prompt, enter **DELETE** and click on **Delete**.
 ![Delete a Project 3](https://s3.amazonaws.com/website-static-docs.testsigma.com/new_images/projects/Updated_Doc_Images/Delete_a_Project_step_3.png)
 
-
-### **Try this interactive demo to learn how to delete a Project!**
-
-<div>
-  <script async src="https://js.storylane.io/js/v2/storylane.js"></script>
-  <div class="sl-embed" style="position:relative;padding-bottom:calc(57.41% + 25px);width:100%;height:0;transform:scale(1)">
-    <iframe loading="lazy" class="sl-demo" src="https://app.storylane.io/demo/b95th1iionov?embed=inline" name="sl-embed" allow="fullscreen" allowfullscreen style="position:absolute;top:0;left:0;width:100%!important;height:100%!important;border:1px solid rgba(63,95,172,0.35);box-shadow: 0px 0px 18px rgba(26, 19, 72, 0.15);border-radius:10px;box-sizing:border-box;"></iframe>
-  </div>
-</div>
 
 
 [[info | **NOTE**:]]

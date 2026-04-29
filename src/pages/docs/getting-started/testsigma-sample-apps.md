@@ -29,11 +29,11 @@ This article provides a few sample applications for users to practice testing in
 
 
 1. Use the following apps for practicing mobile app testing.
-    - <a href="https://s3.amazonaws.com/website-static-docs.testsigma.com/new_images/projects/Updated_Doc_Images/SimplyTravel.ipa" rel="nofollow">Sample IPA Application</a>
+    - <a href="https://s3.amazonaws.com/website-static-docs.testsigma.com/new_images/projects/Updated_Doc_Images/Simply_Travel.ipa" rel="nofollow">Sample IPA Application</a>
     
-    - <a href="https://s3.amazonaws.com/website-static-docs.testsigma.com/new_images/projects/Updated_Doc_Images/appdebug.apk" rel="nofollow">Sample APK Application</a>
+    - <a href="https://s3.amazonaws.com/website-static-docs.testsigma.com/new_images/projects/Updated_Doc_Images/Simply_Travel_APK.apk" rel="nofollow">Sample APK Application</a>
     
-    - <a href="https://s3.amazonaws.com/website-static-docs.testsigma.com/new_images/projects/Updated_Doc_Images/smsforward.apk" rel="nofollow">SMS Forwarder Application</a>
+    - <a href="https://s3.amazonaws.com/website-static-docs.testsigma.com/new_images/projects/Updated_Doc_Images/SMS_Forwarder.apk" rel="nofollow">SMS Forwarder Application</a>
 
 
 *For more information on uploading mobile apps for testing, refer to the [documentation on uploading android and iOS apps](https://testsigma.com/docs/uploads/upload-apps/).*

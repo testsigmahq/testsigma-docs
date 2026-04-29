@@ -24,9 +24,6 @@ contextual_links:
 - type: link
   name: "Getting Version ID"
   url: "#getting-version-id"
-- type: link
-  name: "Interactive Demo"
-  url: "#interactive-demo"
 ---
 
 ---
