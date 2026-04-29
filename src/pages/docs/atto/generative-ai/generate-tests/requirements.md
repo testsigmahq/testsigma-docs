@@ -226,7 +226,7 @@ Testsigma allows you to generate test cases from requirements using Generative A
     ![Save](https://s3.amazonaws.com/website-static-docs.testsigma.com/new_images/projects/Updated_Doc_Images/Save_Live_Recording.png)
 
 [[info | **NOTE**:]]
-| You can add additional context by clicking **Record New Session** and repeating steps 6–9. This allows you to capture multiple user workflows or interactions for comprehensive test case generation.
+| You can add additional context by clicking **Record New Session** and repeating steps 5-10. This allows you to capture multiple user workflows or interactions for comprehensive test case generation.
 | ![New Session for Recording](https://s3.amazonaws.com/website-static-docs.testsigma.com/new_images/projects/Updated_Doc_Images/New_Session_for_Atto_Actions_Recording.png)
 
 ---
