@@ -2,7 +2,7 @@
 title: "How do I Configure Proxy Settings for the Testsigma Agent?"
 metadesc: "Step-by-step guide to setting up proxy support in the Testsigma Agent. Fix connectivity issues behind corporate networks and inspection tools."
 noindex: false
-order: 11.97
+order: 12.97
 page_id: "configure-proxy-settings-testsigma-agent"
 warning: false
 contextual_links:

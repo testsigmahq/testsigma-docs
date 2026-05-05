@@ -3,7 +3,7 @@ title: "Unable to Reestablish Connection to Agent?"
 pagetitle: "Unable to Reestablis Connection to Agent?"
 metadesc: "Learn why the connection between your system and the Agent may fail or get interrupted and how to address it."
 noindex: false
-order: 10.29
+order: 11.29
 page_id: "unable-to-reestablish-connection-to-agent-?"
 search_keyword: ""
 warning: false

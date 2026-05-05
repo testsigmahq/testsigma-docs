@@ -111,11 +111,7 @@ function SEO({
       <meta httpEquiv='X-XSS-Protection' content='1; mode=block' />
       <meta httpEquiv='Strict-Transport-Security' content='max-age=31536000' />
       <meta httpEquiv='X-Content-Type-Options' content='nosniff' />
-      <meta
-        httpEquiv='cache-control'
-        content='private, must-revalidate, post-check=0, pre-check=0'
-      />
-      <meta httpEquiv='cache-control' content='max-age=31536000' />
+      <meta httpEquiv='cache-control' content='public, max-age=31536000' />
 
       <link rel='dns-prefetch' href='https://fonts.gstatic.com' />
       <link rel='dns-prefetch' href='https://fonts.googleapis.com' />

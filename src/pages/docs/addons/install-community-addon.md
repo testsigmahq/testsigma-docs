@@ -3,7 +3,7 @@ title: "Install and Use Community Addons in Testsigma"
 page_title: "Install and Use Community Add-ons | Enhance Test Automation"
 metadesc: "Install and use community add-ons to extend functionality and simplify test automation. Learn how to browse, install, and apply add-ons in your test cases."
 noindex: false
-order: 17.3
+order: 18.3
 page_id: "Installing Community Addon"
 search_keyword: ""
 warning: false

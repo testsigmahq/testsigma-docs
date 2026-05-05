@@ -2,7 +2,7 @@
 title: "Prerequisites for creating add-ons"
 metadesc: "Creating Testsigma add-ons let you automate non-standard actions easily and at scale. This article discusses things you need to create add-ons in Testsigma"
 noindex: false
-order: 17.4
+order: 18.4
 page_id: "Prerequisites for creating add-ons"
 search_keyword: ""
 warning: false

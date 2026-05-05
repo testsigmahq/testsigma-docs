@@ -2,7 +2,7 @@
 title: "About Testsigma Chrome extension"
 metadesc: "Testsigma Chrome Extension let's you capture the elements and record the user actions as test steps. This article discusses about Testsigma Chrome Extensions"
 noindex: false
-order: 24.11
+order: 25.11
 page_id: "About Testsigma Chrome extension"
 warning: false
 contextual_links:

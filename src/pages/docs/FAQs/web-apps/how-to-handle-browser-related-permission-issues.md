@@ -1,7 +1,7 @@
 ---
 title: "How to Handle Browser-Related Permission Issues?"
 metadesc: "Fix browser permission issues by setting a specific desired capability. This article shows how to resolve permission problems through configuration.."
-order: 24.19
+order: 25.19
 page_id: "how-to-handle-browser-related-permission-issues?"
 warning: false
 contextual_links:

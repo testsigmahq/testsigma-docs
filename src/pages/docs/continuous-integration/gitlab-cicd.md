@@ -2,7 +2,7 @@
 title: "GitLab Integration With Testsigma"
 metadesc: "Integrate GitLab with Testsigma for effortless test automation | Improve your testing efficiency accelerate SDLC by integrating GitLab with Testsigma"
 noindex: false
-order: 12.23
+order: 13.23
 page_id: "Integrate Testsigma with GitLab"
 warning: false
 contextual_links:

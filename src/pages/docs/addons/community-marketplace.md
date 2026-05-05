@@ -3,7 +3,7 @@ title: "Addons Community Marketplace"
 page_title: "Explore Addons Community Marketplace: Enhance Your Testing"
 metadesc: "Discover, manage, and create add-ons to boost your testing efficiency. Browse categories, view details, and contribute to the Addons Community Marketplace."
 noindex: false
-order: 17.2
+order: 18.2
 page_id: "addons-community-marketplace-in-testsigma"
 search_keyword: ""
 warning: false

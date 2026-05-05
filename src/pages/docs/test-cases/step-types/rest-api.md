@@ -3,7 +3,7 @@ title: "Test Step Type: Rest API"
 pagetitle: "Test Step Type: Rest API | Testsigma Documentaion"
 metadesc: "Discover how to create powerful and secure REST APIs from scratch in this comprehensive guide that covers best practices, authentication, and error handling."
 noindex: false
-order: 4.23
+order: 4.33
 page_id: "Test Step Type: Rest API"
 warning: false
 contextual_links:

@@ -2,7 +2,7 @@
 title: "Configure Organization Settings"
 metadesc: "Organization Settings allow administrators to manage authentication and security configurations for the organization | Learn how to configure organization settings in Testsigma"
 noindex: false
-order: 19.22
+order: 20.22
 page_id: "organization-settings"
 search_keyword: ""
 warning: false

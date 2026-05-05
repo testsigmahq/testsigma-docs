@@ -2,7 +2,7 @@
 title: "Secured Business Application Support"
 metadesc: "In Testsigma, some prerequisites are necessary to avoid issues and enhance the flexibility. This article discusses prerequisites for cloud executions"
 noindex: false
-order: 23.22
+order: 24.22
 page_id: "secured-business-application-support"
 warning: false
 contextual_links:

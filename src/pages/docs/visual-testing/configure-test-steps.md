@@ -3,7 +3,7 @@ title: "Visual Testing"
 pagetitle: "Visual Testing: Ensure Consistent UI Across Platforms | Testsigma"
 metadesc: "Optimise UI quality and detect visual regressions early with Visual Testing in Testsigma to ensure a seamless user experience. Learn more about how to use Visual Testing."
 noindex: false
-order: 14.1
+order: 15.1
 page_id: "visual-testing-configure-test-steps"
 warning: false
 contextual_links:

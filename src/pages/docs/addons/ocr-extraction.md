@@ -3,7 +3,7 @@ title: "Create OCR Text Extraction Addon"
 page_title: "Create OCR Text Extraction Addon: Enhanced Test Automation"
 metadesc: "Create OCR Text Extraction Addon seamlessly with our step-by-step guide. Extract text from pages, images, and elements effortlessly. Enhance your testing."
 noindex: false
-order: 17.81
+order: 18.81
 page_id: "Create a OCR Text Extraction Addon in Testsigma"
 warning: false
 contextual_links:

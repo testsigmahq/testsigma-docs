@@ -2,7 +2,7 @@
 title: "Cloud Based Test Machines Unable to Access Locally Hosted Applications"
 metadesc: "During dev the apps are usually hosted on the local Development servers. This article explains why test machines on cloud are unable to access locally hosted apps."
 noindex: false
-order: 24.12
+order: 25.12
 page_id: "Cloud based test machines unable to access locally hosted applications"
 warning: false
 contextual_links:

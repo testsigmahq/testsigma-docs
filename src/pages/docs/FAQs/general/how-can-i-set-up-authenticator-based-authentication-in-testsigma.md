@@ -1,7 +1,7 @@
 ---
 title: "How Can I Set Up Authenticator-Based Authentication in Testsigma?"
 metadesc: "Learn how to set up authenticator-based authentication in Testsigma using Time-based One-Time Passwords (TOTP) for secure and flexible access."
-order: 24.40
+order: 25.40
 page_id: "how-can-i-set-up-authenticator-based-authentication-in-testsigma-?"
 warning: false
 contextual_links:

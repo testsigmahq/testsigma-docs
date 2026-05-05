@@ -2,7 +2,7 @@
 title: "Bulk Actions"
 metadesc: "This article discusses bulk actions you can perform on recorded test steps in Testsigma’s test recorder UI for an android, iOS or a web project"
 noindex: false
-order: 4.324
+order: 4.424
 page_id: "Test Recorder - Bulk Actions in a Web Project"
 warning: false
 contextual_links:

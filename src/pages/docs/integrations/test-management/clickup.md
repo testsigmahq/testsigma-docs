@@ -1,7 +1,7 @@
 ---
 title: "Integrate Testsigma with Clickup"
 metadecs: "Learn how to integrate Testsigma with Clickup for real-time bug reporting during Test Runs | Push bugs directly from Testsigma to your Clickup project" 
-order: 16.55
+order: 17.55
 page_id: "clickup-integration"
 warning: false
 contextual_links:

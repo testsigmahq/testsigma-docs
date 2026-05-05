@@ -3,7 +3,7 @@ title: "macOS and IntelliJ Ultimate Edition"
 page_title: "Testsigma Development Environment with macOS and IntelliJ Ultimate Edition"
 metadesc: "This article discusses how to setup Testsigma  Development Environment to contribute to Testsigma open source | Learn how to setup Testsigma  Development Environment"
 noindex: false
-order: 22.2
+order: 23.2
 page_id: "Testsigma Development Environment with macOS and IntelliJ Ultimate Edition"
 warning: false
 contextual_links:

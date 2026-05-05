@@ -1,7 +1,7 @@
 ---
 title: "How do I Enhance the Execution Speed for Mobile Native Apps?"
 metadesc: "Test execution and recording for React Native or Flutter apps can be slower in Testsigma. | Learn how to speed up actions using desired capabilities."
-order: 24.22
+order: 25.22
 page_id: "how-do-i-enhance-the-execution-speed-for-mobile-native-apps-?"
 warning: false
 contextual_links:

@@ -378,6 +378,15 @@
   "export-report-xls": {
     "/docs/reports/runs/export-report-xls/": "Export Reports - XLS"
   },
+  "custom-dashboard-overview": {
+    "/docs/reports/custom-dashboard/overview/": "Overview: Custom Dashboard"
+  },
+  "manage-custom-dashboard": {
+    "/docs/reports/custom-dashboard/manage-custom-dashboard/": "Manage Custom Dashboard"
+  },
+  "widgets-reference": {
+    "/docs/reports/custom-dashboard/widgets-reference/": "Widgets Reference"
+  },
   "configure-test-plan": {
     "/docs/visual-testing/configure-test-plan/": "Configure Test Plan"
   },

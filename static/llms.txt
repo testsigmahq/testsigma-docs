@@ -1,0 +1,27 @@
+# Testsigma Documentation
+
+> Testsigma is a cloud-based, AI-powered test automation platform that enables teams to automate web, mobile, API, and desktop testing without deep coding expertise.
+
+## Documentation
+
+- [Getting Started](https://testsigma.com/docs/getting-started/)
+- [Test Cases](https://testsigma.com/docs/test-cases/)
+- [Test Plans](https://testsigma.com/docs/test-plans/)
+- [Test Suites](https://testsigma.com/docs/test-suites/)
+- [Elements](https://testsigma.com/docs/elements/)
+- [Test Data](https://testsigma.com/docs/test-data/)
+- [API Testing](https://testsigma.com/docs/api/)
+- [Integrations](https://testsigma.com/docs/integrations/)
+- [Agent](https://testsigma.com/docs/agent/)
+- [Desired Capabilities](https://testsigma.com/docs/desired-capabilities/)
+- [Addons](https://testsigma.com/docs/addons/)
+- [Reports](https://testsigma.com/docs/reports/)
+- [Continuous Integration](https://testsigma.com/docs/continuous-integration/)
+- [Visual Testing](https://testsigma.com/docs/visual-testing/)
+- [Salesforce Testing](https://testsigma.com/docs/salesforce-testing/)
+- [Desktop Automation](https://testsigma.com/docs/desktop-automation/)
+- [Troubleshooting](https://testsigma.com/docs/troubleshooting/)
+
+## Sitemap
+
+https://testsigma.com/docs/sitemap.xml

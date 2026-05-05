@@ -2,7 +2,7 @@
 title: "Testsigma Agent - Overview"
 metadesc: "To execute tests locally, you need Testsigma Agent running on the machine. Learn what is Testsigma Agent, how it works, why is it useful, and other FAQs regarding it."
 noindex: false
-order: 11.1
+order: 12.1
 page_id: "testsigma-agent-overview"
 warning: false
 contextual_links:

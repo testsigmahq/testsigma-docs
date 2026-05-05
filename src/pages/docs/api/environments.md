@@ -3,7 +3,7 @@ title: "Manage Environments Using REST APIs"
 page_title: "Manage Environment Parameters Using REST API in Testsigma"
 metadesc: "Learn how to use the REST API Endpoints available in Testsigma for reading and updating Environments | Manage Environments Using REST APIs"
 noindex: false
-order: 21.2
+order: 22.2
 page_id: "manage-environments-using-apis"
 warning: false
 contextual_links:

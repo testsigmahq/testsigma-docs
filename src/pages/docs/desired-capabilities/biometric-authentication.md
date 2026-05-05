@@ -3,7 +3,7 @@ title: "Biometric Authentication"
 page_title: "Enable Biometric Authentication"
 metadesc: "Learn how to use desired capabilities to set the Biometric Authentication for Android and iOS mobile app testing in Testsigma Application"
 noindex: false
-order: 15.93
+order: 16.93
 page_id: "enable-biometric-authentication"
 search_keyword: ""
 warning: false

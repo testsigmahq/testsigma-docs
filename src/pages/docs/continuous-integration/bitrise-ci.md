@@ -1,7 +1,7 @@
 ---
 title: " Integrate Testsigma with Bitrise CI"
 metadesc: "How to integrate Testsigma with Bitrise CI"
-order: 12.20
+order: 13.20
 page_id: " Integrate Testsigma with Bitrise CI"
 warning: false
 contextual_links:

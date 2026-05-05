@@ -2,7 +2,7 @@
 title: "Security Settings in Testsigma"
 metadesc: "Security settings allow you to manage authentication, access control, and account security for the organization | Learn about security features available in Testsigma"
 noindex: false
-order: 19.21
+order: 20.21
 page_id: "security-settings-in-testsigma"
 search_keyword: ""
 warning: false

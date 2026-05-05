@@ -3,7 +3,7 @@ title: "Creating an Addon in Testsigma"
 pagetitle: "Create Custom Add-ons: Automate Unique Actions Easily"
 metadesc: "Create an add-on in Testsigma to automate custom actions, data generation, and more. Follow simple steps to extend your testing capabilities."
 noindex: false
-order: 17.5
+order: 18.5
 page_id: "Create a Testsigma add-on"
 search_keyword: ""
 warning: false

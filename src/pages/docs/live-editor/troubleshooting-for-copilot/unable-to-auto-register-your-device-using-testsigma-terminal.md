@@ -3,7 +3,7 @@ title: "Unable to Auto-Register Your Device Using Testsigma Terminal?"
 pagetitle: "Unable to Auto-Register Your Device Using Testsigma Terminal?"
 metadesc: "Learn how to fix device auto-registration issues in Testsigma Terminal that may occur due to server conflicts or unforeseen errors."
 noindex: false
-order: 10.26
+order: 11.26
 page_id: "unable-to-auto-register-your-device-using-testsigma-terminal-?"
 search_keyword: ""
 warning: false

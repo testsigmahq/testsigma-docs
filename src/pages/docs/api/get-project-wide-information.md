@@ -3,7 +3,7 @@ title: "Get Project Wide Information"
 page_title: "Get information for your Testsigma Project"
 metadesc: "Learn how to get detailed information for your Testsigma Project - users, suites, tags, requirement, and testcase priority using APIs"
 noindex: false
-order: 21.6
+order: 22.6
 page_id: "get-testsigma-wide-information"
 warning: false
 contextual_links:

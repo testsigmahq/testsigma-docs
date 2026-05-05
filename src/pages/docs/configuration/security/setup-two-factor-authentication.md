@@ -2,7 +2,7 @@
 title: "Two-Factor Authentication (2FA)"
 metadesc: "Two-Factor Authentication (2FA) is a security feature that requires two forms of verification to access your Testsigma account | Learn how to configure 2FA for Testsigma account"
 noindex: false
-order: 19.23
+order: 20.23
 page_id: "two-factor-authentication"
 search_keyword: ""
 warning: false

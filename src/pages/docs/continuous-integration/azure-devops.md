@@ -1,6 +1,6 @@
 ---
 title: "Integrate Testsigma with Azure DevOps"
-order: 12.14
+order: 13.14
 metadesc: "How to integrate Testsigma with Azure DevOps"
 noindex: false
 page_id: "How to Create a Test Plans to run on Local Devices"

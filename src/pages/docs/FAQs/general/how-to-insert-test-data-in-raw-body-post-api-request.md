@@ -1,7 +1,7 @@
 ---
 title: "How to Insert Test Data in RAW Body for POST API?"
 metadesc: "Learn how to insert test data into the RAW body of a POST API request. Step-by-step guide for inserting test data into the RAW body of a POST API call in Testsigma"
-order: 24.38
+order: 25.38
 page_id: "insert-test-data-in-raw-body-post-api-request"
 warning: false
 contextual_links:

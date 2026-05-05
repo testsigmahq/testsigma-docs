@@ -1,7 +1,7 @@
 ---
 title: "Integrate Testsigma with AWS DevOps"
 metadecs: "This article discusses step-by-step instructions for integrating Testsigma application with AWS DevOps | Learn how to integrate AWS DevOps with Testsigma Application" 
-order: 12.15
+order: 13.15
 page_id: "Integrate Testsigma with AWS DevOps"
 warning: false
 contextual_links:

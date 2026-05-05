@@ -2,7 +2,7 @@
 title: "Integrate Testsigma with Google Cloud Build"
 metadesc: "Integrate Testsigma with Google Cloud Build for seamless test automation | Trigger Testsigma test runs from your CI/CD pipeline using a shell script in GitHub."
 noindex: false
-order: 12.27
+order: 13.27
 page_id: "integrate-testsigma-with-google-cloud-build"
 warning: false
 contextual_links:

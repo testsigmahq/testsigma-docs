@@ -1,7 +1,7 @@
 ---
 title: "How to Update an Excel File in Testsigma Uploads?"
 metadesc: "When Excel files are modified during test execution, updates are stored locally. Learn how to upload the updated file back to Testsigma correctly."
-order: 24.41
+order: 25.41
 page_id: "how-to-update-an-excel-file-in-testsigma-uploads-?"
 warning: false
 contextual_links:

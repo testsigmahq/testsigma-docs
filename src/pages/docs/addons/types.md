@@ -2,7 +2,7 @@
 title: "Types of add-ons in Testsigma"
 metadesc: "This article discusses the ways in which you can extend automation in Testsigma using add-ons | Learn the types of addons you can create in Testsigma"
 noindex: false
-order: 17.7
+order: 18.7
 page_id: "Types of add-ons in Testsigma"
 search_keyword: ""
 warning: false

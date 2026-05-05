@@ -2,7 +2,7 @@
 title: "What are the Most Common causes for Click/Tap NLP Failure?"
 metadesc: "Understand the functionality of click or tap NLP while creating a test step inside a test case & learn most common causes for Click/Tap NLP failure"
 noindex: false
-order: 23.67
+order: 24.67
 page_id: "common-causes-for-click-or-tap-nlp-failure"
 warning: false
 contextual_links:

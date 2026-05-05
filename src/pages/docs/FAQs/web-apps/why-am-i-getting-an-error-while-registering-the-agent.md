@@ -1,7 +1,7 @@
 ---
 title: "Why Am I Getting an Error While Registering the Agent?"
 metadesc: "Learn why agent registration fails in Testsigma and how disabled Local Network Access causes the unreachable error."
-order: 24.22
+order: 25.22
 page_id: "why-am-i-getting-an-error-while-registering-the-agent"
 warning: false
 contextual_links:

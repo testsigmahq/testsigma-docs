@@ -1,7 +1,7 @@
 ---
 title: "How to Handle Text-Based CAPTCHA in Testsigma?"
 metadesc: "Learn how to handle text-based CAPTCHA in automation using Testsigma's OCR_ExtractText Addon. This article explains an effective solution."
-order: 24.33
+order: 25.33
 page_id: "how-to-handle-text-based-captcha-in-testsigma-?"
 warning: false
 contextual_links:

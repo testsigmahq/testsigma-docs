@@ -1,6 +1,6 @@
 ---
 title: "Run time metadata addon"
-order: 18.3
+order: 19.3
 page_id: "Run time metadata addon"
 metadesc: "How to access runtime metadata using Testsigma SDK and addons."
 noindex: false

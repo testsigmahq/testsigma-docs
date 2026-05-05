@@ -1,7 +1,7 @@
 ---
 title: "How to Add Multiple Runtime Variables in Data Generator Functions?"
 metadesc: "Add multiple runtime variables, parameters, or environments in the Data Generator overlay by pressing the right arrow key twice after the first entry."
-order: 24.37
+order: 25.37
 page_id: "how-to-add-multiple-runtime-variables-in-data-generator-functions-?"
 warning: false
 contextual_links:

@@ -3,7 +3,7 @@ title: "Create and Update Values of Test Data Profile Using REST API"
 page_title: "Update Test Case results using API"
 metadesc: "Learn how to create, update, and delete values of Test Data Profile using REST API in Testsigma | Detailed steps to create, update, and delete values of Test Data Profile"
 noindex: false
-order: 21.86
+order: 22.86
 page_id: "create-update-and-delete-values-of-test-data-profile-using-api"
 warning: false
 contextual_links:

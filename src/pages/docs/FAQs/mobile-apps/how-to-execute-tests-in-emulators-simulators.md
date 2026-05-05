@@ -1,7 +1,7 @@
 ---
 title: "How to Execute Android/iOS Tests in Emulators/Simulators?"
 metadesc: "Execute Android and iOS test cases in emulators or simulators using Testsigma. This is useful if do not have access to physical devices but want to execute tests"
-order: 24.26
+order: 25.26
 page_id: "execute-tests-in-emulators-simulators"
 warning: false
 contextual_links:

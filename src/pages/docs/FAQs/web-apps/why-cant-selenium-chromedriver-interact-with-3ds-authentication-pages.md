@@ -1,7 +1,7 @@
 ---
 title: "Why Can’t Selenium ChromeDriver Interact With 3DS Authentication Pages?"
 metadesc: "Learn why Selenium hangs on 3DS payment pages and how a simple desired capability prevents ChromeDriver from waiting indefinitely."
-order: 24.20
+order: 25.20
 page_id: "why-cant-selenium-chromedriver-interact-with-3ds-authentication-pages?"
 warning: false
 contextual_links:

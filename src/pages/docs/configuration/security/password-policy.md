@@ -2,7 +2,7 @@
 title: "Configure Password Policy"
 metadesc: "Password Policy allows organization administrators to configure password-related security controls for user accounts. | Learn how to configure password policy in Testsigma"
 noindex: false
-order: 19.24
+order: 20.24
 page_id: "password-policy"
 search_keyword: ""
 warning: false

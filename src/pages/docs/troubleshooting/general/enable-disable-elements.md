@@ -3,7 +3,7 @@ title: "Disable, Hide, Check & Select Elements"
 page_title: "Check if Element is Enabled, Visible, & Interactable"
 metadesc: "Learn different ways to check if an element is enabled, visible, and interactable. Understand different ways to disable, hide, check and select elements"
 noindex: false
-order: 23.91
+order: 24.91
 page_id: "verify-if-an-element-is-enabled-visible-and-interactable"
 warning: false
 contextual_links:

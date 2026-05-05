@@ -1,9 +1,9 @@
 ---
-title: "Test Cases for Mobile Web Apps"
-metadesc: "This document explains how to create Test Cases for Mobile Web Application in detail | Learn how to write test cases for Mobile Web Application in Testsigma"
+title: "Manage Test Cases for Mobile Web Applications"
+metadesc: "Manage test cases for mobile web apps in Testsigma using Atto and Copilot. Learn how to edit and delete test steps in mobile apps."
 noindex: false
-order: 4.13
-page_id: "How to create Test cases for Mobile Web Application?"
+order: 4.23
+page_id: "manage-test-cases-for-mobile-web-applications"
 warning: false
 contextual_links:
 - type: section
@@ -12,60 +12,105 @@ contextual_links:
   name: "Prerequisites"
   url: "#prerequisites"
 - type: link
-  name: "Steps to Create Test Cases for Mobile Web Apps"
-  url: "#steps-to-create-test-cases-for-mobile-web-apps"
+  name: "Edit a Test Case"
+  url: "#edit-a-test-case"
+- type: link
+  name: "Delete a Test Case"
+  url: "#delete-a-test-case"
 ---
 
 ---
 
-Quickly create test cases for mobile web applications! 📱
-
-Using the Testsigma test recorder, you can easily create test cases for mobile web applications using Chrome Developer Tools 🛠️. This article discusses how to create test cases for mobile web applications.
+Testsigma allows you to manage test cases for mobile web applications. This documentation covers how to edit and delete test cases for mobile web apps in Testsigma.
 
 ---
 
 > <p id="prerequisites">Prerequisites</p>
 >
-> Before you begin, ensure that you have referred to:
-> 1. [Documentation on creating projects](https://testsigma.com/docs/projects/overview/).
-> 2. [Documentation on creating applications](https://testsigma.com/docs/projects/applications/). 
-> 3. [Documentation on Testsigma chrome extension installation](https://testsigma.com/docs/test-step-recorder/install-chrome-extension/). 
-> 4. Also, you have a mobile web app to test.
+> Before you begin, ensure you have referred to the [documentation on Creating Test Cases for Mobile Web Applications](https://testsigma.com/docs/test-cases/create-test-cases/test-cases-for-mobile-web-applications/). 
+
 
 ---
 
+## **Edit a Test Case**
 
-## **Steps to Create Test Cases for Mobile Web Apps**
+[[info | NOTE:]]
+| Note that the most effective way to edit your test case is by using Copilot. Please refer to the documentation on [Editing a Test Case Using Copilot](https://testsigma.com/docs/live-editor/editing-test-case/).
 
-1. From the left navigation bar, go to **Create Tests > Test Cases**, and click **Create Test Case**.
-![Test Cases](https://s3.amazonaws.com/website-static-docs.testsigma.com/new_images/projects/Updated_Doc_Images/mwatcnav.png)
+1. From the left navigation bar, go to **Create Tests > Test Cases**.
 
-2. On the **Test Case Details** page, click on **Record** on the top right corner.
-![Test Case Details](https://s3.amazonaws.com/website-static-docs.testsigma.com/new_images/projects/Updated_Doc_Images/mwatcrc.png)
+2. Expand a **Feature**, then expand a **Scenario**, and select the test case you want to edit.
+![test case](https://s3.amazonaws.com/website-static-docs.testsigma.com/new_images/projects/Updated_Doc_Images/manage_tests_edit_mw_1.png)
 
-3. This will open a new window. Enter the URL from which you want to capture the test cases. The **Testsigma Recorder** will appear and be ready to start recording. In this case, we are recording a test case for the 1mg website.
-![New Window](https://s3.amazonaws.com/website-static-docs.testsigma.com/new_images/projects/Updated_Doc_Images/mwanwowrc.png)
+3. On the Test Case Details page, you can edit the test case using the following options:
 
-4. Press **F12** to open **Chrome Developer Tools** and dock the tools to the right side of the window for a better experience.
-![F12](https://s3.amazonaws.com/website-static-docs.testsigma.com/new_images/projects/Updated_Doc_Images/mwacdtools.png)
+### **Add a New Step**
 
-[[info | **NOTE**:]]
-| Make sure you have selected **Companion Mode** located in the action bar at the top.
-| ![Companion Mode](https://s3.amazonaws.com/website-static-docs.testsigma.com/new_images/projects/Updated_Doc_Images/compmode.png)
+1. Click **+ Add new step** at the bottom of the step list to append a new step at the end.
+![Add new steps](https://s3.amazonaws.com/website-static-docs.testsigma.com/new_images/projects/Updated_Doc_Images/manage_tests_edit_mw_2.png)
 
-5. Click on **>>** and select **Testsigma Recorder** from the dropdown menu. 
-![Testsigma Recorder](https://s3.amazonaws.com/website-static-docs.testsigma.com/new_images/projects/Updated_Doc_Images/mwaae.png)
+2. To insert a step at a specific position, hover over any existing step. Click **+ Step Above** to insert a step before it, or **+ Step Below** to insert a step after it.
+![Step above & below](https://s3.amazonaws.com/website-static-docs.testsigma.com/new_images/projects/Updated_Doc_Images/manage_tests_edit_mw_3.png)
 
-6. This will open **Testsigma Recorder** on the **Developer Tools** screen.
-![Recorder on Dev Tools](https://s3.amazonaws.com/website-static-docs.testsigma.com/new_images/projects/Updated_Doc_Images/mwatrocdt.png)
+### **Update an Existing Step**
 
-[[info | **NOTE**:]]
-| Select the dimension from pre-defined devices on which you want to record the elements. If the device required for your testing is not listed, you can add a custom device by selecting **Edit** from the **Dimensions** dropdown menu and clicking **Add custom device**.
-| ![Add Custom Device](https://s3.amazonaws.com/website-static-docs.testsigma.com/new_images/projects/Updated_Doc_Images/mwatccd.png)
-| 
-| Some devices might have unique characteristics that will affect element display and interaction, and adding a custom device required for your testing is necessary to identify and resolve these issues.
+1. Click on any existing step to make it editable. Modify the NLP action, test data, or element as needed. 
+![Update an existing step](https://s3.amazonaws.com/website-static-docs.testsigma.com/new_images/projects/Updated_Doc_Images/manage_tests_edit_mw_4.png)
 
-7. Once you have selected the dimension, record test steps by performing actions on the website.
-![Test Cases for MWA](https://s3.amazonaws.com/website-static-docs.testsigma.com/new_images/projects/Updated_Doc_Images/mwatcctsbpa.png)
+### **Reorder Steps**
+
+1. Hover over a step to reveal the drag handle **(⠿)** on the left side of the step.
+![recorder](https://s3.amazonaws.com/website-static-docs.testsigma.com/new_images/projects/Updated_Doc_Images/manage_tests_edit_mw_5.png)
+
+2. Click and drag the step to the desired position in the list and click **Save new order**. 
+![Save new order](https://s3.amazonaws.com/website-static-docs.testsigma.com/new_images/projects/Updated_Doc_Images/manage_tests_edit_mw_6.png)
+
+### **Step Options (Ellipsis Menu)**
+
+1. Hover over a step and click the ellipsis **(⋮)** icon on the right side to access additional options:
+![Step option](https://s3.amazonaws.com/website-static-docs.testsigma.com/new_images/projects/Updated_Doc_Images/manage_tests_edit_mw_7.png)
+
+   -  **Ignore Step Result:** Marks the step so that its pass or fail result does not affect the overall test case result.
+   -  **Enable Visual Testing:** Enables visual comparison for that specific step during execution.
+   -  **Step Settings:** Opens the Step Settings overlay on the right, where you can configure the following:
+      - **Pre-Requisite:** Set another step as a prerequisite for this step.
+      - **Step Timeout:** Define the maximum time (in seconds, up to 120) allowed for the step to execute.
+      - **Screenshot Capture:** Choose when screenshots are captured: Always or Only on step failure.
+      - **No. of Retries on Step Failure:** Set how many times the step should be retried if it fails.
+      - **Stop Test Case execution on Test Step failure:** When enabled, the test case stops executing if this step fails.
+      - **Ignore this step result in Test Case Result:** When enabled, this step's result is excluded from the overall test case result.
+      - **Disable step:** Disables the step so it is skipped during execution without being deleted.
+      - **Enable Visual Testing for the step:** Enables visual testing specifically for this step.
+      - **Enable Accessibility Testing for the step:** Enables accessibility testing for this step.
+      - **Highlight element in screenshot:** Highlights the element interacted with in the captured screenshot.
+      ![Advanced options](https://s3.amazonaws.com/website-static-docs.testsigma.com/new_images/projects/Updated_Doc_Images/manage_tests_edit_mw_8.png)
+
+2. Click **Update** to save the Step Settings changes. 
+![update](https://s3.amazonaws.com/website-static-docs.testsigma.com/new_images/projects/Updated_Doc_Images/manage_tests_edit_mw_9.png)
+
+3. Use the right-side navbar to update advanced settings such as **Test Case Info**, **Test Case Settings**, and **Manage Test Case** options. Please refer to the documentation on[Test Case: Advanced Options Guide](https://testsigma.com/docs/test-cases/manage/test-case-advanced-options/) for more information. 
+
+---
+
+## **Delete a Test Case**
+
+1. From the left navigation bar, go to **Create Tests > Test Cases**.
+
+2. Expand a **Feature**, and then expand a **Scenario**.
+
+3. Delete the test case using one of the following methods:
+   - Open the test case. In the top-right corner, click the **More options (⋮)** menu, and then click **Delete**.
+     ![Delete Test Case from Case Page](https://s3.amazonaws.com/website-static-docs.testsigma.com/new_images/projects/Updated_Doc_Images/manage_tests_delete_mw_1.png)
+   - In the expanded scenario section, select the **ellipsis (⋮)** icon next to the test case, and click **Delete**.
+     ![Delete from List](https://s3.amazonaws.com/website-static-docs.testsigma.com/new_images/projects/Updated_Doc_Images/manage_tests_delete_mw_2.png)
+   - On the **Test Case List** page, select one or more test cases, and then click the **Delete** icon in the menu bar.
+     ![Delete from List View](https://s3.amazonaws.com/website-static-docs.testsigma.com/new_images/projects/Updated_Doc_Images/manage_tests_delete_mw_3.png)
+
+4. A **Delete Confirmation** pop-up will appear. Click **Delete** to remove the test case from the project.
+![Delete confirmation](https://s3.amazonaws.com/website-static-docs.testsigma.com/new_images/projects/Updated_Doc_Images/manage_tests_delete_mw_4.png)
+
+[[info | NOTE:]]
+| - When you delete test cases from the list, you send them to the trash folder. You can restore or permanently delete the test case from the trash folder.
+| - Deleting the test case will remove all the associated test suites, test plans, and any prerequisites.
 
 ---

@@ -3,7 +3,7 @@ title: "Enable Browser Console Debug Logs"
 pagetitle: "Browser Console Debug Logs: Improve Web Testing | Testsigma"
 metadesc: "Learn how to enable and view logs in Testsigma to efficiently debug your web tests using Browser Console. It enhances web testing efficiency and helps in effective troubleshooting."
 noindex: false
-order: 15.3
+order: 16.3
 page_id: "browser-console-debug-logs-testsigma"
 search_keyword: ""
 warning: false

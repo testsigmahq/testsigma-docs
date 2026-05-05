@@ -3,7 +3,7 @@ title: "Enable Capturing Screenshots (Android & iOS)"
 page_title: "Enable capturing screenshots for Android and iOS"
 metadesc: "While testing application in Testsigma, it is important to enable capturing screenshots. Learn how to enable capturing screenshots for Android and iOS"
 noindex: false
-order: 15.95
+order: 16.95
 page_id: "enable-screenshot-capture-for-android-and-ios"
 search_keyword: ""
 warning: false

@@ -2,7 +2,7 @@
 title: "Get Test Plan ID"
 metadesc: "A test plan ID is needed to call the execution of the Testsigma test plan from an external CI/CD tool |  Learn how to get test plan ID in Testsigma"
 noindex: false
-order: 12.11
+order: 13.11
 page_id: "Get Test Plan ID"
 warning: false
 contextual_links:

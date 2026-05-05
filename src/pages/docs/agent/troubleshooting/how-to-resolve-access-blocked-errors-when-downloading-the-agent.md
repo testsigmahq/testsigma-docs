@@ -2,7 +2,7 @@
 title: "How to Resolve Access Blocked Errors When Downloading the Agent?"
 metadesc: "Fix access blocked errors when downloading Testsigma Agent by whitelisting the required URLs and IPs. Learn the steps to resolve the issue."
 noindex: false
-order: 11.95
+order: 12.95
 page_id: ""
 search_keyword: "how-to-resolve-access-blocked-errors-when-downloading-the-agent"
 warning: false

@@ -3,7 +3,7 @@ title: "Tests Permanently Queued in Local Executions"
 page_title: "Testsigma Agent Startup Failures"
 metadesc: "Know the possible reasons why tests in local executions are permanently marked queued and learn steps to fix the issue by following the troubleshooting steps"
 noindex: false
-order: 23.34
+order: 24.34
 page_id: "permanently-queued-in-local-executions"
 warning: false
 ---
