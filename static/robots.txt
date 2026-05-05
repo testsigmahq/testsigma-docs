@@ -1,0 +1,4 @@
+User-agent: *
+Allow: /
+
+Sitemap: https://testsigma.com/docs/sitemap-index.xml
