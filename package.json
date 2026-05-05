@@ -29,6 +29,7 @@
     "gatsby-plugin-s3": "^0.4.1",
     "gatsby-plugin-sass": "^6.15.0",
     "gatsby-plugin-sharp": "^5.15.0",
+    "gatsby-plugin-sitemap": "^6.16.0",
     "gatsby-plugin-ts-freshchat": "file:plugins/gatsby-plugin-ts-freshchat",
     "gatsby-remark-autolink-headers": "^6.15.0",
     "gatsby-remark-check-links": "^2.1.0",
