@@ -3,7 +3,7 @@ title: "Overview: Custom Dashboard"
 page_title: "Custom Dashboard Overview"
 metadesc: "A custom dashboard in Testsigma is a configurable view that displays test execution data using widgets. Learn what it does, how it works, and when to use it."
 noindex: false
-order: 14.40
+order: 14.05
 page_id: "overview-custom-dashboard"
 warning: false
 contextual_links:
@@ -22,16 +22,18 @@ contextual_links:
 
 ---
 
-A custom dashboard is a configurable view that displays test execution data using widgets. It brings key metrics into a single interface so you can monitor test health, execution trends, and team activity without switching between reports.
+A custom dashboard displays test-related data using widgets. It allows you to create personalized views to monitor test health, execution trends, and other key metrics based on your needs.
 
-Dashboards update automatically as test executions complete. This ensures the data you see is always current when reviewing results or making release decisions.
+You can build multiple dashboards, customize them with relevant widgets, and apply filters to focus on specific projects, time ranges, or execution details.
+
+Dashboards update automatically as test executions complete, ensuring the data remains current when reviewing results or making release decisions.
 
 ---
 
 ## **What You Can Do**
 
 - Create a dashboard in minutes by selecting widgets from a library
-- Filter all widgets at once by date, project, or execution details
+- Filter all widgets at once by date and project
 - Click into failing tests to see step-by-step details and errors
 - Share dashboards with a shareable link for stakeholders
 - Update your dashboard anytime to match your changing needs
