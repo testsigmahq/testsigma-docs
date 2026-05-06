@@ -126,5 +126,32 @@ module.exports = {
         ],
       },
     },
+    {
+      resolve: 'gatsby-plugin-sitemap',
+      options: {
+        output: '/',
+        query: `
+          {
+            site {
+              siteMetadata {
+                siteUrl
+              }
+            }
+            allSitePage {
+              nodes {
+                path
+              }
+            }
+          }
+        `,
+        resolveSiteUrl: ({ site }) => site.siteMetadata.siteUrl,
+        resolvePages: ({ allSitePage: { nodes: allPages } }) => allPages,
+        serialize: ({ path }) => ({
+          url: path,
+          changefreq: 'weekly',
+          priority: 0.7,
+        }),
+      },
+    },
   ],
 };
