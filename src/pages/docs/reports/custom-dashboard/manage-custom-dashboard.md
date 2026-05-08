@@ -3,7 +3,7 @@ title: "Manage Custom Dashboard"
 page_title: "Create and Manage Custom Dashboards in Testsigma"
 metadesc: "Learn how to create, edit, filter, and share custom dashboards in Testsigma. Select widgets from a library, apply filters, and share dashboards with stakeholders."
 noindex: false
-order: 14.41
+order: 14.06
 page_id: "manage-custom-dashboard"
 warning: false
 contextual_links:

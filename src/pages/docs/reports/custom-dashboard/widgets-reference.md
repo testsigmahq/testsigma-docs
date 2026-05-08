@@ -3,7 +3,7 @@ title: "Widgets Reference"
 page_title: "Custom Dashboard Widgets Reference | Testsigma"
 metadesc: "Detailed reference for all widgets available in Testsigma Custom Dashboards. Covers purpose, data displayed, interpretation, and recommended use cases for each widget."
 noindex: false
-order: 14.42
+order: 14.07
 page_id: "widgets-reference"
 warning: false
 contextual_links:

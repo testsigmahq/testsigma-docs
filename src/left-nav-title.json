@@ -281,6 +281,15 @@
   "configure-bypass-ssl": {
     "/docs/runs/env-config/configure-bypass-ssl/": "Bypass SSL"
   },
+  "mock-servers": {
+    "/docs/runs/mock-servers/": "Mock Servers"
+  },
+  "create-mock-servers": {
+    "/docs/runs/mock-servers/create-mock-servers/": "Create Mock Servers"
+  },
+  "use-mock-servers": {
+    "/docs/runs/mock-servers/use-mock-servers/": "Use Mock Servers"
+  },
   "agent": {
     "/docs/agent/" : "Testsigma Agent",
     "/docs/troubleshooting/agent/": "Local Devices"
@@ -772,5 +781,7 @@
   "live-editor": {"/docs/live-editor/": "Copilot", "/docs/atto/generative-ai/copilot/live-editor/": "In Testsigma"},
   "mobile-web":{"/docs/atto/generative-ai/generate-tests/mobile-web/": "For Mobile Web"},
   "agentic-learning-vs-copilot":{"/docs/atto/generative-ai/copilot/agentic-learning-vs-copilot/": "Agentic Learning vs Run with Copilot"},
-  "byok": {"/docs/atto/generative-ai/byok/": "BYOK"}
+  "byok": {"/docs/atto/generative-ai/byok/": "BYOK"},
+  "generate-allure-report": {"/docs/reports/runs/generate-allure-report/": "Custom Allure Reports Generation"},
+  "generate-junit-report": {"/docs/reports/runs/generate-junit-report/": "Custom JUnit Report Generation"}
   }
