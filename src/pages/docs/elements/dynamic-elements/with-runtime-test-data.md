@@ -77,11 +77,11 @@ We will manually create an element and store it in a Runtime Variable to create 
 
 3. Manually enter the **Element Name**, **Screen Name**, and **Element Type**.
 
-4. Provide Dynamic Element Value **//*["$|login|"]/div**, where '**login**' is the stored Runtime Variable. Click **Create Element** to complete element creation. 
+4. Provide Dynamic Element Value **//*[@id="$|login|"]/div**, where '**login**' is the stored Runtime Variable. Click **Create Element** to complete element creation. 
    ![create_element using runtime](https://s3.amazonaws.com/website-static-docs.testsigma.com/new_images/projects/Updated_Doc_Images/update_dynamic_locator_7.1.png)
 
    [[info | Example:]]
-   | During testing, accurately locate the actual 'Login or Sign Up' element on the Simply Travel Flight website with the dynamic XPath **//*["$|login|"]/div** using the Runtime Variable 'login'.
+   | During testing, accurately locate the actual 'Login or Sign Up' element on the Simply Travel Flight website with the dynamic XPath **//*[@id="$|login|"]/div** using the Runtime Variable 'login'.
 
 ---
 

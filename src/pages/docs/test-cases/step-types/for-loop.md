@@ -58,14 +58,16 @@ If you want to run a test case based on the above test data profile, but you jus
    ![For Loop NLPs](https://s3.amazonaws.com/website-static-docs.testsigma.com/new_images/projects/Updated_Doc_Images/update_for_loop_5.png)
 
    - If you want to iterate through all the data sets of your test data profile from start to end use the below NLP:
-  <img src="https://s3.amazonaws.com/website-static-docs.testsigma.com/new_images/projects/Updated_Doc_Images/li>
+  <img src="https://s3.amazonaws.com/website-static-docs.testsigma.com/new_images/projects/Updated_Doc_Images/for_loop_start_index_to_end_index.png" alt="for loop start index to end index"><br>
 
    - If you want to start the index at a specific number and end the index at a specific number use the below NLP:<img src="https://s3.amazonaws.com/website-static-docs.testsigma.com/new_images/projects/Updated_Doc_Images/for_loop_specific_index_number.png" alt="specific_index_number"><br>
 
    Sometimes you only want to work with a subset of the data sets of your test data profile. The subset of the data sets can be filtered based on data set name and parameter. 
 
    - To filter test data profile based on data set name use the following NLP: 
-  <img src="https://s3.amazonaws.com/website-static-docs.testsigma.com/new_images/projects/Updated_Doc_Images/kbd> and the different data types supported by Testsigma. <em>For more information refer to <a href="https://testsigma.com/docs/test-data/types/overview/">data types </a></em>.
+  <img src="https://s3.amazonaws.com/website-static-docs.testsigma.com/new_images/projects/Updated_Doc_Images/for_loop_set_name.png" alt="for loop set name"><br> 
+  
+  The data set names can be subjected to advanced filtering based on the keywords contains,startswith,endswith,IN and the different data types supported by Testsigma. *For more information refer to [data types](https://testsigma.com/docs/test-data/types/overview/).*
 
    - To filter test data profile based on parameter value use the below NLP:
   <img src="https://s3.amazonaws.com/website-static-docs.testsigma.com/new_images/projects/Updated_Doc_Images/for_loop_parameter_value.png" alt="for loop parameter value">
