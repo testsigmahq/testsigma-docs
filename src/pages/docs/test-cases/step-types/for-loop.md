@@ -67,7 +67,7 @@ If you want to run a test case based on the above test data profile, but you jus
    - To filter test data profile based on data set name use the following NLP: 
   <img src="https://s3.amazonaws.com/website-static-docs.testsigma.com/new_images/projects/Updated_Doc_Images/for_loop_set_name.png" alt="for loop set name"><br> 
   
-  The data set names can be subjected to advanced filtering based on the keywords contains,startswith,endswith,IN and the different data types supported by Testsigma. *For more information refer to [data types](https://testsigma.com/docs/test-data/types/overview/).*
+  The data set names can be subjected to advanced filtering based on the keywords contain, startswith, endswith, IN, and the different data types supported by Testsigma. *For more information refer to [data types](https://testsigma.com/docs/test-data/types/overview/).*
 
    - To filter test data profile based on parameter value use the below NLP:
   <img src="https://s3.amazonaws.com/website-static-docs.testsigma.com/new_images/projects/Updated_Doc_Images/for_loop_parameter_value.png" alt="for loop parameter value">
