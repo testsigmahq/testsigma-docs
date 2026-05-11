@@ -31,17 +31,13 @@ With Testsigma's Chrome extension, users can quickly record test steps by captur
 1. Go to <a href="https://chrome.google.com/webstore/detail/testsigma-recorder/epmomlhdjfgdobefcpocockpjihaabdp" rel="nofollow">Testsigma Recorder</a>.
 
 2. Click on **Add to Chrome**.
-   ![Add to Chrome](https://s3.amazonaws.com/website-static-docs.testsigma.com/new_images/projects/Updated_Doc_Images/tsceatc.png)
+   ![Add to Chrome](https://s3.amazonaws.com/website-static-docs.testsigma.com/new_images/projects/Updated_Doc_Images/update_chrome_extension_1.png)
 
 3. On the permission prompt, click on **Add extension**.
-   ![Add Extension](https://s3.amazonaws.com/website-static-docs.testsigma.com/new_images/projects/Updated_Doc_Images/tsceatchrome.png)
+   ![Add Extension](https://s3.amazonaws.com/website-static-docs.testsigma.com/new_images/projects/Updated_Doc_Images/update_chrome_extension_2.png)
 
 4. On successful installation, the following message will appear:
-   ![Message](https://s3.amazonaws.com/website-static-docs.testsigma.com/new_images/projects/Updated_Doc_Images/tscesa.png)
-
-Here’s a GIF demonstrating how to add Testsigma's Chrome extension.
-
-![Chrome Extension](https://s3.amazonaws.com/website-static-docs.testsigma.com/new_images/projects/Updated_Doc_Images/EnableChromeExt.gif)
+   ![Message](https://s3.amazonaws.com/website-static-docs.testsigma.com/new_images/projects/Updated_Doc_Images/update_chrome_extension_3.png)
 
 *For more information on creating test steps using recorder, refer to the [documentation on recording test steps](https://testsigma.com/docs/test-cases/create-test-steps/overview/#creating-test-steps-using-test-recorder).*
 
@@ -106,20 +102,15 @@ You can record steps in incognito mode by enabling the "Allow in Incognito" opti
 
 **1. Open the Testsigma Extension:** Right-click the Testsigma Extension icon in the browser toolbar.
 
-   ![Testsigma Icon](https://s3.amazonaws.com/website-static-docs.testsigma.com/new_images/projects/Updated_Doc_Images/imtch.png)
+   ![Testsigma Icon](https://s3.amazonaws.com/website-static-docs.testsigma.com/new_images/projects/Updated_Doc_Images/update_chrome_extension_4.png)
 
 
 **2. Access Extension Settings:** From the extension menu, select **Manage extension**.
 
-   ![Manage Extension](https://s3.amazonaws.com/website-static-docs.testsigma.com/new_images/projects/Updated_Doc_Images/immexten.png)
+   ![Manage Extension](https://s3.amazonaws.com/website-static-docs.testsigma.com/new_images/projects/Updated_Doc_Images/update_chrome_extension_5.png)
 
 **3. Enable Allow in Incognito:** Toggle on **Allow in Incognito** option.
 
-   ![Enable Toggle](https://s3.amazonaws.com/website-static-docs.testsigma.com/new_images/projects/Updated_Doc_Images/imaiim.png)
-
-
-Here’s a GIF demonstrating how to enable the **Allow in Incognito** option and record steps in Incognito.
-
-![Allow in Incognito](https://s3.amazonaws.com/website-static-docs.testsigma.com/new_images/projects/Updated_Doc_Images/IncognitoGifNew.gif)
+   ![Enable Toggle](https://s3.amazonaws.com/website-static-docs.testsigma.com/new_images/projects/Updated_Doc_Images/update_chrome_extension_6.png)
 
 ---

@@ -32,8 +32,6 @@ Verifying elements in Chrome DevTools during testing ensures that the right elem
 ---
 
 ## **Example**
-Let's take a look at the GIF below:
-![Example](https://s3.amazonaws.com/website-static-docs.testsigma.com/new_images/projects/Updated_Doc_Images/MultipleValues.gif)
 
 Here, let's say we want to target **Leave Requests to Approve** element,  Xpath for the same is linked to four other elements. If we use this Xpath, the test case will fail intermittently. 
 

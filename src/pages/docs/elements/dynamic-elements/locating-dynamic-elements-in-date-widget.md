@@ -38,9 +38,8 @@ In this case, we have JqueryUI's date picker, where you can see that the class n
 
 ```//td/a[@class='ui-state-default ui-state-highlight']```
 
-![Date Picker - Today](https://s3.amazonaws.com/website-static-docs.testsigma.com/new_images/projects/Updated_Doc_Images/dpckrtdy.png)
+![Date Picker - Today](https://s3.amazonaws.com/website-static-docs.testsigma.com/new_images/projects/Updated_Doc_Images/date_today.png)
 
-![Date Picker](https://s3.amazonaws.com/website-static-docs.testsigma.com/new_images/projects/Updated_Doc_Images/dtpkcls.png)
 
 ---
 
@@ -50,7 +49,7 @@ Based on the above example, we have XPath for today. For the next day, i.e., tom
 
 ```//td/a[@class='ui-state-default ui-state-highlight']/following::td[1]```
 
-![Date Picker - Tomorrow](https://s3.amazonaws.com/website-static-docs.testsigma.com/new_images/projects/Updated_Doc_Images/dtpkrtomo.png)
+![Date Picker - Tomorrow](https://s3.amazonaws.com/website-static-docs.testsigma.com/new_images/projects/Updated_Doc_Images/tomorrow_date.png)
 
 ---
 

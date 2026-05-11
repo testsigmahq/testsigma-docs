@@ -46,10 +46,20 @@ You can generate and manage various file-related data. This functionality is use
 
 ## **Selecting File as a Function Type for Data Generator**
 
-1. Use **NLP** to create a **new step** in the test case and include a placeholder for **test data**.
-2. Click on the **test data** placeholder. From the **Test Data Types** dropdown menu, select the **! Data Generator** option.
-3. On the **! Data Generators** overlay screen, select the **Type** to **Default**. This will enable you to use a collection of built-in test data generators.
-4. Select **File** from the **Function Type** dropdown list. 
+1. From the left navigation bar, go to **Create Tests > Test Cases** and create a new test case.
+   ![Test Cases](https://s3.amazonaws.com/website-static-docs.testsigma.com/new_images/projects/Updated_Doc_Images/update_address_1.png)
+
+2. Use **NLP** to create a **new step** in the test case and include a placeholder for **test data**.
+   ![NLP](https://s3.amazonaws.com/website-static-docs.testsigma.com/new_images/projects/Updated_Doc_Images/update_filefunction_1.png)
+
+3. Click on the **test data** placeholder. From the **Test Data Types** dropdown menu, select the **! Data Generator** option.
+   ![Data Generator](https://s3.amazonaws.com/website-static-docs.testsigma.com/new_images/projects/Updated_Doc_Images/update_filefunction_2.png)
+
+4. On the **! Data Generators** overlay screen, select the **Type** to **Default**. This will enable you to use a collection of built-in test data generators.
+   ![Default Type](https://s3.amazonaws.com/website-static-docs.testsigma.com/new_images/projects/Updated_Doc_Images/update_filefunction_3.png)
+
+5. Select **File** from the **Function Type** dropdown list. 
+   ![File](https://s3.amazonaws.com/website-static-docs.testsigma.com/new_images/projects/Updated_Doc_Images/update_filefunction_4.png)
 
 [[info | NOTE:]]
 | This action will display a list of built-in functions associated with the File function type, enabling you to select the appropriate function based on your requirements.

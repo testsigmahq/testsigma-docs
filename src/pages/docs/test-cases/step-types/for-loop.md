@@ -42,20 +42,20 @@ If you want to run a test case based on the above test data profile, but you jus
 
 ## **Using For Loop in Test Cases**
 
-1. Navigate to **Create Tests > Test Cases**, and click on **Create Test Case**.
-   ![Create Test Case](https://s3.amazonaws.com/website-static-docs.testsigma.com/new_images/projects/Updated_Doc_Images/ForLoop_Navigation.png)
+1. Navigate to **Create Tests > Test Cases**, and create a test case or open an existing one. 
+   ![Create Test Case](https://s3.amazonaws.com/website-static-docs.testsigma.com/new_images/projects/Updated_Doc_Images/update_for_loop_1.png)
 
 2. On **Test Case Details** page, click on the option on the left side of the test step.
-   ![Option on Test Step](https://s3.amazonaws.com/website-static-docs.testsigma.com/new_images/projects/Updated_Doc_Images/ForLoop_OptionLeft.png)
+   ![Option on Test Step](https://s3.amazonaws.com/website-static-docs.testsigma.com/new_images/projects/Updated_Doc_Images/update_for_loop_2.png)
 
 3. This will open a side panel.
-   ![Side Panel](https://s3.amazonaws.com/website-static-docs.testsigma.com/new_images/projects/Updated_Doc_Images/ForLoop_SidePanel.png)
+   ![Side Panel](https://s3.amazonaws.com/website-static-docs.testsigma.com/new_images/projects/Updated_Doc_Images/update_for_loop_3.png)
 
 4. Hover over to the options and click on **For Loop**. 
-   ![For Loop](https://s3.amazonaws.com/website-static-docs.testsigma.com/new_images/projects/Updated_Doc_Images/ForLoop_Select.png)
+   ![For Loop](https://s3.amazonaws.com/website-static-docs.testsigma.com/new_images/projects/Updated_Doc_Images/update_for_loop_4.png)
 
 5. This option opens a drop down of NLPs that can be used inside the test step.
-   ![For Loop NLPs](https://s3.amazonaws.com/website-static-docs.testsigma.com/new_images/projects/Updated_Doc_Images/ForLoop_NLPs.png)
+   ![For Loop NLPs](https://s3.amazonaws.com/website-static-docs.testsigma.com/new_images/projects/Updated_Doc_Images/update_for_loop_5.png)
 
    - If you want to iterate through all the data sets of your test data profile from start to end use the below NLP:
   <img src="https://s3.amazonaws.com/website-static-docs.testsigma.com/new_images/projects/Updated_Doc_Images/li>
@@ -73,7 +73,7 @@ If you want to run a test case based on the above test data profile, but you jus
    - Another NLP to filter test data profile based on parameter value is the following: 
   <img src="https://s3.amazonaws.com/website-static-docs.testsigma.com/new_images/projects/Updated_Doc_Images/for_loop_empty_not_empty.png" alt= for loop parameter value empty>
 
-1. Select the suitable NLP to include in the test step and finish creating **For Loop** test step. 
+6. Select the suitable NLP to include in the test step and finish creating **For Loop** test step. 
 
 ---
 

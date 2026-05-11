@@ -26,12 +26,19 @@ The following article discusses how to bulk delete test data profiles. *For more
 ## **Steps for Bulk Deletion of a Test Data Profile**
 
 1. Navigate to **Test Development > Test Data Profile**.
+   ![Test Data Profiles](https://s3.amazonaws.com/website-static-docs.testsigma.com/new_images/projects/Updated_Doc_Images/update_test_data_delete_1.png)
 
-2. Check all the Test Data Profiles you want to delete. 
+2. In the Test Data Profile explorer, click the **List View** icon.
+   ![List View](https://s3.amazonaws.com/website-static-docs.testsigma.com/new_images/projects/Updated_Doc_Images/update_test_data_delete_2.png)
 
-3. Click on **Delete**.
+3. In the **Test Data Profiles** list page, check all the Test Data Profiles you want to delete. 
+   ![Select TDPs](https://s3.amazonaws.com/website-static-docs.testsigma.com/new_images/projects/Updated_Doc_Images/update_test_data_delete_3.png)
 
-4. On the **Delete List of Test Data** prompt, enter **Delete** and click on **I understand, delete this test data**.
+4. Click on **Delete**.
+   ![Delete](https://s3.amazonaws.com/website-static-docs.testsigma.com/new_images/projects/Updated_Doc_Images/update_test_data_delete_4.png)
+
+5. On the **Delete List of Test Data** prompt, enter **Delete** and click on **I understand, delete this test data**.
+   ![Confirm Deletion](https://s3.amazonaws.com/website-static-docs.testsigma.com/new_images/projects/Updated_Doc_Images/update_test_data_delete_5.png)
 
 The selected Test Data Profiles deleted from the list.
 
