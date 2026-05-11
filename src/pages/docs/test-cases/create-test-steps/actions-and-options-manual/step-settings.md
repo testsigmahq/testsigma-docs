@@ -52,13 +52,14 @@ Below is a summary of the available settings:
 |**Pre-Requisite**|Select a prerequisite step from the list of available steps in the same test case. This step must be successfully done before the current step runs.|
 |**Stop Test Case execution on Test Step**|It allows you to terminate test execution if the test fails at any step. By default, this option is checked, and test case execution will stop if the test step fails.|
 |**Ignore this step result in Test Case Result**|It allows you to exclude the outcome of a particular step from the overall test result.|
-|**Disable Step**|It allows you to capture and compare the visual appearance of an application's user interface between different builds or versions.|
-|**Enable Visual Testing for the Step**|You can disable the test step by choosing this option, and the test step will not run. By default, this option is unchecked.|
+|**Disable Step**|You can disable the test step by choosing this option, and the test step will not run. By default, this option is unchecked.|
+|**Enable Visual Testing for the Step**|It allows you to capture and compare the visual appearance of an application's user interface between different builds or versions.|
+|**Enable Accessibility Testing for the step**|Choose this option to enable accessibility testing for the step to validate that your application meets accessibility standards.|
 |**Highlight element in screenshot**|Choose this option to highlight elements on the product screen for each step. Contact Testsigma support to enable this feature. <br> <br> Navigation: **Settings > Preferences > Highlight element in screenshot** <br> |
 
-Here’s a quick GIF demonstrating how to access & update the test step settings. 
+Here’s the screenshot of the available step settings:
 
-![Test Step Settings](https://s3.amazonaws.com/website-static-docs.testsigma.com/new_images/projects/Updated_Doc_Images/teststepsettingsnew.gif)
+![Test Step Settings](https://s3.amazonaws.com/website-static-docs.testsigma.com/new_images/projects/Updated_Doc_Images/update_step_settings_1.png)
 
 ---
 
@@ -81,7 +82,7 @@ Refer to the screenshot below to enable the **Global Step Timeout** toggle in th
 ---
 ## **Update Step Settings**
 
-To update several test steps, click the **checkboxes** next to the **test steps** you want to update and then click on **Update Settings** in the menu bar to open a popup window where you can make changes to the settings. ![Update Step Settings](https://s3.amazonaws.com/website-static-docs.testsigma.com/new_images/projects/Updated_Doc_Images/update_testsettings.gif)
+To update several test steps, click the **checkboxes** next to the **test steps** you want to update and then click on **Update Settings** in the menu bar to open a popup window where you can make changes to the settings. ![Update Step Settings](https://s3.amazonaws.com/website-static-docs.testsigma.com/new_images/projects/Updated_Doc_Images/update_step_settings_2.png)
 
 [[info | NOTE:]]
 | Update Step Setting does not allow updating the **Pre-Requisite** and **Number of Retries on Step Failure**. You should use **Test Step Settings** for each step individually.

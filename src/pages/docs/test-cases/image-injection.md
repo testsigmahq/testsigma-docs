@@ -72,10 +72,19 @@ You can manually add image injection to test steps using NLPs. Use the NLP to ha
 Simplify the image injection process during the test step recording using the camera image injection feature to insert QR code images directly.
 
 1. Click the **Record** button at the screen's top right corner to bring up the Record Test Steps overlay.
-2. Choose the **Version**, **Device**, and **Application**.
+   ![Recorder](https://s3.amazonaws.com/website-static-docs.testsigma.com/new_images/projects/Updated_Doc_Images/update_image_injection_1.png)
+
+2. Choose the **Test Lab**, **Test Machine**, and **App Source**.
+   ![Version, Device](https://s3.amazonaws.com/website-static-docs.testsigma.com/new_images/projects/Updated_Doc_Images/update_image_injection_2.png)
+
 3. Enable the toggle button for **Camera Image Injection** while recording test steps.
+   ![Camera Image](https://s3.amazonaws.com/website-static-docs.testsigma.com/new_images/projects/Updated_Doc_Images/update_image_injection_3.png)
+
 4. Start recording the test step by clicking the **Record** button again. 
+   ![Record](https://s3.amazonaws.com/website-static-docs.testsigma.com/new_images/projects/Updated_Doc_Images/update_image_injection_4.png)
+
 5. Click the **Scan Image (Camera)** icon in the right sidebar of the Recording page to upload the QR code image. Select the file you want to add to the test step from the **˄ Uploads** overlay. 
+   ![Scan Image](https://s3.amazonaws.com/website-static-docs.testsigma.com/new_images/projects/Updated_Doc_Images/update_image_injection_5.png)
 
 <br>
 

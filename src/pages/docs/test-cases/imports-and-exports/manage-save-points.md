@@ -10,9 +10,6 @@ contextual_links:
 - type: section
   name: "Contents"
 - type: link
-  name: "Interactive Demo"
-  url: "#interactive-demo"
-- type: link
   name: "Steps to Manage Save Points"
   url: "#steps-to-manage-save-points"
 ---
@@ -23,37 +20,36 @@ The Save Points feature lets you create checkpoints manually or during import to
 
 ---
 
-## **Interactive Demo**
-
-<div>
-  <script async src="https://js.storylane.io/js/v2/storylane.js"></script>
-  <div class="sl-embed" style="position:relative;padding-bottom:calc(50.98% + 25px);width:100%;height:0;transform:scale(1)">
-    <iframe loading="lazy" class="sl-demo" src="https://app.storylane.io/demo/olagyeimewap?embed=inline" name="sl-embed" allow="fullscreen" allowfullscreen style="position:absolute;top:0;left:0;width:100%!important;height:100%!important;border:1px solid rgba(63,95,172,0.35);box-shadow: 0px 0px 18px rgba(26, 19, 72, 0.15);border-radius:10px;box-sizing:border-box;"></iframe>
-  </div>
-</div>
-
----
-
 ## **Steps to Manage Save Points**
 
 1. From the left navigation bar, go to **Save Points**.
+   ![Save Points](https://s3.amazonaws.com/website-static-docs.testsigma.com/new_images/projects/Updated_Doc_Images/update_save_points_1.png)
 
 2. Click **Create Save Point** to save all test cases, elements, test data profiles, and step groups.
+   ![Create Save Points](https://s3.amazonaws.com/website-static-docs.testsigma.com/new_images/projects/Updated_Doc_Images/update_save_points_2.png)
 
 3. In the **Create a Save Point?** dialog, enter a name, and click **Create**.
+   ![Create a Save Point](https://s3.amazonaws.com/website-static-docs.testsigma.com/new_images/projects/Updated_Doc_Images/update_save_points_3.png)
 
-4. Click the **Open this Save Point in new tab** icon to to view the save point in a new tab.
+4. Click the **Open this Save Point in new tab** icon to to view the save point in a new tab. 
+   ![Open this save point in new tab](https://s3.amazonaws.com/website-static-docs.testsigma.com/new_images/projects/Updated_Doc_Images/update_save_points_4.png)
 
 5. Click the **Restore** icon  to revert to the backup version.
+   ![Restore](https://s3.amazonaws.com/website-static-docs.testsigma.com/new_images/projects/Updated_Doc_Images/update_save_points_5.png)
 
 6. In the **Restore to this save point?** dialog, enter **RESTORE** and click **I understand, Confirm Restore**.
+   ![Confirm Restore](https://s3.amazonaws.com/website-static-docs.testsigma.com/new_images/projects/Updated_Doc_Images/update_save_points_6.png)
 
 7. To edit a note of a save point, click the ellipse icon next to it and click **Edit Note**.
+   ![Edit Note](https://s3.amazonaws.com/website-static-docs.testsigma.com/new_images/projects/Updated_Doc_Images/update_save_points_7.png)
 
-8. In the **Edit Note** dialog, update the comment, and click Update.
+8. In the **Edit Note** dialog, update the comment, and click **Update**.
+   ![Update Edit Note](https://s3.amazonaws.com/website-static-docs.testsigma.com/new_images/projects/Updated_Doc_Images/update_save_points_8.png)
 
 9. To delete a save point, click the ellipse icon next to it and then click **Delete Save Point**. 
+   ![Delete Save point](https://s3.amazonaws.com/website-static-docs.testsigma.com/new_images/projects/Updated_Doc_Images/update_save_points_9.png)
 
 10. In the **Delete this Save Point?** dialog, enter **DELETE** and click **I understand, Delete Save Point**.
+   ![Confirm Delete Save Point](https://s3.amazonaws.com/website-static-docs.testsigma.com/new_images/projects/Updated_Doc_Images/update_save_points_10.png)
 
 ---
