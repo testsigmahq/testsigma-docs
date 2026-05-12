@@ -42,7 +42,7 @@ Testsigma integrates with various tools in your software delivery cycle to make 
 ### **3. Test labs**
   * [Documentation on integrating Testsigma with BrowserStack](https://testsigma.com/docs/integrations/test-labs/browserstack/)
   * [Documentation on integrating Testsigma with SauceLabs](https://testsigma.com/docs/integrations/test-labs/sauce-labs/)
-  * [Documentation on integrating Testsigma with TestMU](https://testsigma.com/docs/integrations/test-labs/lambdatest/)
+  * [Documentation on integrating Testsigma with TestMU](https://testsigma.com/docs/integrations/test-labs/testmu/)
   * [Documentation on integrating Testsigma with Kobiton](https://testsigma.com/docs/integrations/test-labs/kobiton/)
 
 ---
