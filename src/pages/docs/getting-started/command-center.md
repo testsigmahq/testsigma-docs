@@ -33,7 +33,5 @@ Also, you can perform the following actions with a lesser number of clicks using
 
 3. Use the up and down arrow keys on your keyboard to navigate and press the `Return` key (for Mac) or the `Enter` key (for Windows) to select the desired command/action. 
 
-Here's a quick GIF demonstrating how to use the command center:
-![Command Center](https://s3.amazonaws.com/website-static-docs.testsigma.com/new_images/projects/Updated_Doc_Images/Command_Center.gif)
- 
 
+---

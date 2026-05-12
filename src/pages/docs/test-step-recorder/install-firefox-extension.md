@@ -88,16 +88,29 @@ After installing the extension, configure it as follows:
 ### **Allow Extension to Access Data**
 
 1. Click the **Extension** icon in the top right corner.
-2. Navigate to **Manage Your Extensions**.
+   ![Extension](https://s3.amazonaws.com/website-static-docs.testsigma.com/new_images/projects/Updated_Doc_Images/update_chrome_extension_firefox_1.1.png)
+
+2. Navigate to **Manage extensions**.
+   ![manage extension](https://s3.amazonaws.com/website-static-docs.testsigma.com/new_images/projects/Updated_Doc_Images/update_chrome_extension_firefox_2.1.png)
+
 3. In the **Testsigma Recorder** extension and click on the **Menu** icon, then select **Manage**.
-4. Under **Testsigma Recorder** details, go to the **Permission** tab and toggle on **Access your data for all windows**. ![Allow Extension to access data](https://s3.amazonaws.com/website-static-docs.testsigma.com/new_images/projects/Updated_Doc_Images/config_firefox_extensions.gif)
+   ![manage](https://s3.amazonaws.com/website-static-docs.testsigma.com/new_images/projects/Updated_Doc_Images/update_chrome_extension_firefox_3.png)
+
+4. Under **Testsigma Recorder** details, go to the **Permission** tab and toggle on **Access your data for all websites**. 
+   ![Permission](https://s3.amazonaws.com/website-static-docs.testsigma.com/new_images/projects/Updated_Doc_Images/update_chrome_extension_firefox_4.png)
 
 ### **Privacy & Security Settings** 
 
 1. Click the **Menu** icon and select **Settings**.
-2. Go to **Privacy & Security** and choose **Custom** in **Extended Tracking Protection**.
+   ![Settings](https://s3.amazonaws.com/website-static-docs.testsigma.com/new_images/projects/Updated_Doc_Images/update_chrome_extension_firefox_5.png)
+
+2. Go to **Privacy & Security** and choose **Custom** in **Enhanced Tracking Protection**.
+   ![Custom](https://s3.amazonaws.com/website-static-docs.testsigma.com/new_images/projects/Updated_Doc_Images/update_chrome_extension_firefox_6.png)
+
 3. In the **Custom settings**, select **Cookies from unvisited websites** from the dropdown next to Cookies. 
-4. Click **Reload All Tabs** to apply the changes in the browser. ![Choose Custom in Cookies](https://s3.amazonaws.com/website-static-docs.testsigma.com/new_images/projects/Updated_Doc_Images/privacy_firefox_custom.gif)
+   ![Custom settings](https://s3.amazonaws.com/website-static-docs.testsigma.com/new_images/projects/Updated_Doc_Images/update_chrome_extension_firefox_7.png)
+
+4. Click **Reload All Tabs** to apply the changes in the browser.
 
 [[info | NOTE:]]
 | This enables Testsigma Recorder to access all websites within the browser to record interactions. 

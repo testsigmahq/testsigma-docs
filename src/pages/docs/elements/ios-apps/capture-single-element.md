@@ -41,15 +41,15 @@ In an iOS project in Testsigma, you can selectively capture elements one at a ti
 ## **Steps to Record an Element**
 
 1. From the left navigation bar, go to **Create Tests > Elements**.
-![Elements](https://s3.amazonaws.com/website-static-docs.testsigma.com/new_images/projects/Updated_Doc_Images/ioselmnav.png)
+![Elements](https://s3.amazonaws.com/website-static-docs.testsigma.com/new_images/projects/Updated_Doc_Images/update_ios_single_element_1.png)
 
 
 2. Click on **Record**.
-![Record](https://s3.amazonaws.com/website-static-docs.testsigma.com/new_images/projects/Updated_Doc_Images/ioselmcorec.png)
+![Record](https://s3.amazonaws.com/website-static-docs.testsigma.com/new_images/projects/Updated_Doc_Images/update_ios_single_element_2.png)
 
 
 3. On **Record Elements** overlay, select **Test Lab**, **Test Machine**, **Upload App Source** and click on **Record**.
-![Record](https://s3.amazonaws.com/website-static-docs.testsigma.com/new_images/projects/Updated_Doc_Images/ioselmolrec.png)
+![Record](https://s3.amazonaws.com/website-static-docs.testsigma.com/new_images/projects/Updated_Doc_Images/update_ios_single_element_3.png)
 
 
 4. Wait for the app to load fully.
@@ -59,20 +59,20 @@ In an iOS project in Testsigma, you can selectively capture elements one at a ti
 
 
 6. On the **Create Element** section, validate the **Name**, **Screen Name**, **Element Type**, **Value** and the **Value**.
-![Create Element](https://s3.amazonaws.com/website-static-docs.testsigma.com/new_images/projects/Updated_Doc_Images/ioselmlb.png)
+![Create Element](https://s3.amazonaws.com/website-static-docs.testsigma.com/new_images/projects/Updated_Doc_Images/update_ios_single_element_4.png)
 
 
 7. Click on **Create**.
-![Create](https://s3.amazonaws.com/website-static-docs.testsigma.com/new_images/projects/Updated_Doc_Images/ioselmcoc.png)
+![Create](https://s3.amazonaws.com/website-static-docs.testsigma.com/new_images/projects/Updated_Doc_Images/update_ios_single_element_5.png)
 
 
 8. The element will be saved in the elements list. 
-![Saved](https://s3.amazonaws.com/website-static-docs.testsigma.com/new_images/projects/Updated_Doc_Images/ioselmielmlist.png)
+![Saved](https://s3.amazonaws.com/website-static-docs.testsigma.com/new_images/projects/Updated_Doc_Images/update_ios_single_element_6.png)
 
 
 [[info | **NOTE**:]]
 | - To update an element, hover over the recorded element and click on the edit icon. Change the element details manually and click **Update** to finalize the changes.
-|   ![Update Element](https://s3.amazonaws.com/website-static-docs.testsigma.com/new_images/projects/Updated_Doc_Images/ioselmeditelm.png)
+|   ![Update Element](https://s3.amazonaws.com/website-static-docs.testsigma.com/new_images/projects/Updated_Doc_Images/update_ios_single_element_7.png)
 | - You can also update the element from the run results by navigating to **Ad-Hoc Runs > Test Step > Element > Edit Element**.
 
 9. Stop the recorder to close the session.
@@ -82,14 +82,14 @@ In an iOS project in Testsigma, you can selectively capture elements one at a ti
 Alternatively, you can also create the element while creating test case by following the steps below. 
 
 1. Hover over the element on the test step and click on **Create Element** from the dropdown.
-![Create Element](https://s3.amazonaws.com/website-static-docs.testsigma.com/new_images/projects/Updated_Doc_Images/ioselmftss.png)
+![Create Element](https://s3.amazonaws.com/website-static-docs.testsigma.com/new_images/projects/Updated_Doc_Images/update_ios_single_element_8.png)
 
 2. On **Create Element** overlay, enter **Name**, **Screen Name**, **Value** select the **Element Type** and click on **Create Element**.
-![Create](https://s3.amazonaws.com/website-static-docs.testsigma.com/new_images/projects/Updated_Doc_Images/ioselmftsctn.png)
+![Create](https://s3.amazonaws.com/website-static-docs.testsigma.com/new_images/projects/Updated_Doc_Images/update_ios_single_element_9.png)
 
 [[info | **NOTE**:]]
 | - To update an element from test steps, hover over the element and click on the edit icon. Change the element details manually and click **Update** to finalize the changes.
-|   ![Update Element](https://s3.amazonaws.com/website-static-docs.testsigma.com/new_images/projects/Updated_Doc_Images/iosedelm.png)
+|   ![Update Element](https://s3.amazonaws.com/website-static-docs.testsigma.com/new_images/projects/Updated_Doc_Images/update_ios_single_element_10.png)
 
 ---
 
@@ -101,13 +101,13 @@ Alternatively, you can also create the element while creating test case by follo
 2. Start recording test steps for the test case.
 
 3. Hover over the element on the test step where you want to reuse the saved element and click on **Change Element**.
-![Change Element](https://s3.amazonaws.com/website-static-docs.testsigma.com/new_images/projects/Updated_Doc_Images/ioselmce.png)
+![Change Element](https://s3.amazonaws.com/website-static-docs.testsigma.com/new_images/projects/Updated_Doc_Images/update_ios_single_element_11.png)
 
 4. On **Elements** overlay, select the element you want to reuse. 
-![Reuse](https://s3.amazonaws.com/website-static-docs.testsigma.com/new_images/projects/Updated_Doc_Images/ioselmcemsse.png)
+![Reuse](https://s3.amazonaws.com/website-static-docs.testsigma.com/new_images/projects/Updated_Doc_Images/update_ios_single_element_12.png)
 
 5. Click on **Update Step** to finalize the change. 
-![Update Step](https://s3.amazonaws.com/website-static-docs.testsigma.com/new_images/projects/Updated_Doc_Images/ioselmseus.png)
+![Update Step](https://s3.amazonaws.com/website-static-docs.testsigma.com/new_images/projects/Updated_Doc_Images/update_ios_single_element_13.png)
 
 [[info | **NOTE**:]]
 | You can also reuse the element by following the same steps while creating a test case manually.

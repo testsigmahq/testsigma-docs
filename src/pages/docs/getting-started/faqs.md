@@ -39,13 +39,21 @@ contextual_links:
 
 ## **What kind of apps can I test with Testsigma?** 
 
-You can use Testsigma to automate testing for web applications, native Android and iOS applications, and APIs. You don't need additional plugins, frameworks, or integrations are necessary for any of these types of apps/use-cases.
+You can use Testsigma to automate testing for the following types of applications:
+- Web
+- Android
+- iOS
+- Mobile Web
+- Salesforce
+- REST API
+- Desktop
+- Windows (Lite)
 
 ---
 
 ## **Does Testsigma support testing apps written with any programming language?** 
 
-Yes. Since test scripts are written using simple English, you can test web apps, mobile apps, and APIs regardless of the programming language, frameworks, or tools used to build them. 
+Yes. Since test scripts are written using simple English, you can test Web, Android, iOS, Mobile Web, Salesforce, REST API, Desktop, and Windows (Lite) apps regardless of the programming language, frameworks, or tools used to build them.
 
 ---
 
