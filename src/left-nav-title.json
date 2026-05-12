@@ -465,8 +465,8 @@
   "sauce-labs": {
     "/docs/integrations/test-labs/sauce-labs/": "SauceLabs"
   },
-  "lambdatest": {
-    "/docs/integrations/test-labs/lambdatest/": "LambdaTest"
+  "testmu": {
+    "/docs/integrations/test-labs/testmu/": "TestMU"
   },
   "kobiton": {
     "/docs/integrations/test-labs/kobiton/": "Kobiton"

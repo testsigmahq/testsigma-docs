@@ -77,6 +77,7 @@ Common debugging actions are available globally to control execution from anywhe
    - **Skip Over:** Skips the current step (where the execution is paused) and pauses again at the very next step in the same flow.
    - **Restart Execution:** The Copilot clears the current session and restarts a fresh session in order to execute the test steps from the start.
    - **Pause:** Temporarily pauses the test execution at the current step, allowing it to be resumed later from the same step without restarting the test.
+
 ---
 
 ## **Adding Debug Points**
