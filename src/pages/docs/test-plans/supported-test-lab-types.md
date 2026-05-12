@@ -21,7 +21,7 @@ Testsigma platform allows you to execute your tests using different Test Lab Typ
    
 5. Kobiton Test Lab
    
-6. LambdaTest
+6. TestMU
    
 7. Private Grid
 
@@ -64,9 +64,9 @@ Let’s learn more about these grids.
 
    Use this option only if the application that you need to test is accessible over the Internet and not blocked by the firewall of a company network.
 
-6. <a href="https://www.lambdatest.com/" rel="nofollow">LambdaTest</a>
+6. <a href="https://www.testmuai.com/" rel="nofollow">TestMU</a>
 
-   Testsigma also allows us to use cloud devices on LambdaTest to run your tests. You just need to integrate your LambdaTest account with your Testsigma Account by entering the login credentials. Also, while creating a test plan, provide the required device details on the test plan configurations page.
+   Testsigma also allows us to use cloud devices on TestMU to run your tests. You just need to integrate your TestMU account with your Testsigma Account by entering the login credentials. Also, while creating a test plan, provide the required device details on the test plan configurations page.
 
    Use this option only if the application that you need to test is accessible over the Internet and not blocked by the firewall of a company network.
 
