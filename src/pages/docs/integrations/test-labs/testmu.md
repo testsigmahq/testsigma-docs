@@ -1,6 +1,6 @@
 ---
 title: "Integrate Testsigma with TestMU"
-metadesc: "TestMU integration lets you execute your Testsigma tests on BrowserStack. Learn how to integrate the TestMU Test Execution Platform with Testsigma"
+metadesc: "TestMU integration lets you execute your Testsigma tests on TestMU. Learn how to integrate the TestMU Test Execution Platform with Testsigma"
 noindex: false
 order: 17.44
 page_id: "integrate-testsigma-with-testmu"
@@ -24,7 +24,7 @@ contextual_links:
 
 ---
 
-TestMU integration with Testsigma lets you run your Testsigma tests on TestMU. If your organization has an existing account with TestMU, you can author tests for Web, Mobile Web, and Mobile applications on Testsigma, and then run those tests on LamdaTest’s cloud devices.
+TestMU integration with Testsigma lets you run your Testsigma tests on TestMU. If your organization has an existing account with TestMU, you can author tests for Web, Mobile Web, and Mobile applications on Testsigma, and then run those tests on TestMu's cloud devices.
 
 ---
 > <p id="prerequisites">Prerequisites</p>
