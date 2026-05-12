@@ -77,10 +77,10 @@ For mobile tests that include loops, Copilot offers granular loop inspection, al
 
 Common debugging actions are accessible at a global level to control execution from anywhere, including when the test is paused at a debug point or failure. Using the global toolbar, you can:
 
-   - **Resume Execution -** Continues the test from the next execution step. The test does not restart from the beginning.
-   - **Step Over -** Moves execution forward by skipping the current debug point and executing the next step. The test then pauses at the following step.
-   - **Skip Over -** Skips the step where the debug point is placed without executing it and pauses execution immediately.
-   - **Restart Execution -** Restarts the test case execution from the first step. This can only be used when the test execution is paused.
+   - **Resume Execution:** Continues the test from the next execution step. The test does not restart from the beginning.
+   - **Step Over:** Moves execution forward by skipping the current debug point and executing the next step. The test then pauses at the following step.
+   - **Skip Over:** Skips the step where the debug point is placed without executing it and pauses execution immediately.
+   - **Restart Execution:** Restarts the test case execution from the first step. This can only be used when the test execution is paused.
    - **Pause:** Temporarily pauses the test execution at the current step, allowing it to be resumed later from the same step without restarting the test.
 
 ---
