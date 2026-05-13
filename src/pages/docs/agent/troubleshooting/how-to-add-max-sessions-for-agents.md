@@ -39,8 +39,4 @@ When adding the Testsigma agent, you can specify the maximum number of sessions 
 [[info | **NOTE**:]]
 | The specified number should not exceed available parallels for the account.
 
-Here's a quick GIF demonstrating how to add maximum sessions for the machine.
-
-![Agent Parallels](https://s3.amazonaws.com/website-static-docs.testsigma.com/new_images/projects/Updated_Doc_Images/AgentParallels.gif)
-
 ---

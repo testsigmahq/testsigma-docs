@@ -1063,12 +1063,6 @@
     <priority>0.9</priority>
   </url>
   <url>
-    <loc>https://testsigma.com/docs/getting-started/telemetry/</loc>
-    <lastmod>2025-01-23</lastmod>
-    <changefreq>daily</changefreq>
-    <priority>0.9</priority>
-  </url>
-  <url>
     <loc>https://testsigma.com/docs/testsigma-tunnel/setup-installation-docker/</loc>
     <lastmod>2025-01-23</lastmod>
     <changefreq>daily</changefreq>
@@ -2108,12 +2102,6 @@
   </url>
   <url>
     <loc>https://testsigma.com/docs/testsigma-tunnel/intro/</loc>
-    <lastmod>2025-01-23</lastmod>
-    <changefreq>daily</changefreq>
-    <priority>0.9</priority>
-  </url>
-  <url>
-    <loc>https://testsigma.com/docs/runs/env-config/configure-ie/</loc>
     <lastmod>2025-01-23</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.9</priority>

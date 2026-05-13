@@ -275,9 +275,6 @@
   "configure-safari" : {
     "/docs/runs/env-config/configure-safari/": "Configure Safari"
   },
-  "configure-ie": {
-    "/docs/runs/env-config/configure-ie/": "Configure IE"
-  },
   "configure-bypass-ssl": {
     "/docs/runs/env-config/configure-bypass-ssl/": "Bypass SSL"
   },

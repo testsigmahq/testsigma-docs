@@ -37,12 +37,17 @@ Effortlessly generate detailed Excel reports for your test runs in Testsigma. Th
 ## **Exporting Test Reports in Excel Format**
 
 1. Navigate to **Run Results**.
+   ![Run Results](https://s3.amazonaws.com/website-static-docs.testsigma.com/new_images/projects/Updated_Doc_Images/update_ms_excel_1.png)
+
 2. Open the specific **Test Run** from the **Run Result** list page to export the test report file.
-3. Locate the **Export** icon next to the **Rerun** button for the chosen test plan on the run results page.
-4. Click the **Export** icon, and a dropdown list will appear.
-5. Select **MS Excel Sheet** from the dropdown list to initiate the export of the Test Plan results. ![Export reports in XLS](https://s3.amazonaws.com/website-static-docs.testsigma.com/new_images/projects/Updated_Doc_Images/exporting_reports_excel.gif)
-6. Once you select, Testsigma will generate and automatically download a report in Excel format. Testsigma will notify you via **email** (using the email address associated with your Testsigma account) upon completion. 
-7. Click on the file named **(Test Plan Name).xlsx** to access the exported results. ![notify XLS report in email](https://s3.amazonaws.com/website-static-docs.testsigma.com/new_images/projects/Updated_Doc_Images/notify_excel_exportrepot.png)
+   ![Test Run](https://s3.amazonaws.com/website-static-docs.testsigma.com/new_images/projects/Updated_Doc_Images/update_ms_excel_2.png)
+
+3. Click the **Export** icon, and select **MS Excel Sheet** from the dropdown list to initiate the export of the Test Plan results. 
+   ![Export reports in XLS](https://s3.amazonaws.com/website-static-docs.testsigma.com/new_images/projects/Updated_Doc_Images/update_ms_excel_3.png)
+
+4. Once you select, Testsigma will generate and automatically download a report in Excel format. Testsigma will notify you via **email** (using the email address associated with your Testsigma account) upon completion. 
+
+5. Click on the file named **(Test Plan Name).xlsx** to access the exported results. ![notify XLS report in email](https://s3.amazonaws.com/website-static-docs.testsigma.com/new_images/projects/Updated_Doc_Images/notify_excel_exportrepot.png)
 
 [[info | NOTE:]]
 | If you choose to rerun the test cases from the reports, the rerun results will also be consolidated into the exported reports.

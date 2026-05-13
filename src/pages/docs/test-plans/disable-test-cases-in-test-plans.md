@@ -38,10 +38,21 @@ In Testsigma, you can disable specific test cases within your test plans by usin
 ## **Managing Test Cases in Test Plan**
 
 1. Navigate to **Test Plans** in the left-side navbar. Click the **Create Test Plan** button at the top right of the Test Plans list page.
+   ![Create test plan](https://s3.amazonaws.com/website-static-docs.testsigma.com/new_images/projects/Updated_Doc_Images/update_disable_tc_1.png)
+
 2. Alternatively, open an existing Test Plan from the list and click the **Edit** icon at the top right on the Test Plan details page to edit it.
+   ![Edit](https://s3.amazonaws.com/website-static-docs.testsigma.com/new_images/projects/Updated_Doc_Images/update_disable_tc_2.png)
+
 3. Navigate to the **Add Test Suites & Link Machine Profiles** tab on the **Create** or **Edit Test Plan** page.
+   ![Add test suite & Link Machine profile](https://s3.amazonaws.com/website-static-docs.testsigma.com/new_images/projects/Updated_Doc_Images/update_disable_tc_3.png)
+
 4. Click the **ellipsis** icon in the **Test Suites** section and select **Manage Test Case** from the dropdown list.
-5. A pop-up screen for the Manage Test Case will appear. Enable or disable the test cases by **checking** or **unchecking** the boxes.
-6. Click **Update Test Suites** to save the changes. ![Disable Test Cases in Test Suites](https://s3.amazonaws.com/website-static-docs.testsigma.com/new_images/projects/Updated_Doc_Images/disable_testcases.gif)
+   ![Manage Test Case](https://s3.amazonaws.com/website-static-docs.testsigma.com/new_images/projects/Updated_Doc_Images/update_disable_tc_4.png)
+
+5. In the **User Profile Management Tests** dialog, select the required test cases. 
+   ![Select ](https://s3.amazonaws.com/website-static-docs.testsigma.com/new_images/projects/Updated_Doc_Images/update_disable_tc_5.png)
+
+6. Click **Update test suites** to save the changes. 
+   ![Disable Test Cases in Test Suites](https://s3.amazonaws.com/website-static-docs.testsigma.com/new_images/projects/Updated_Doc_Images/update_disable_tc_6.png)
 
 ---

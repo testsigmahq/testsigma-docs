@@ -92,15 +92,15 @@ Below is a list of countries with their corresponding two-letter country codes t
 ## **Using Desired Capability to set the Location**
 
 1. Click **Run** from **Test Case Details** page. 
-![Run Test Case](https://s3.amazonaws.com/website-static-docs.testsigma.com/new_images/projects/Updated_Doc_Images/AdHoc_Run_DC.png)
+![Run Test Case](https://s3.amazonaws.com/website-static-docs.testsigma.com/new_images/projects/Updated_Doc_Images/update_descap_1.png)
 
 2. On the **Ad-Hoc Run** overlay, click **Desired Capabilities**.
-![AdHoc Run](https://s3.amazonaws.com/website-static-docs.testsigma.com/new_images/projects/Updated_Doc_Images/Desired_Capabilities_AdHoc_Page.png)
+![AdHoc Run](https://s3.amazonaws.com/website-static-docs.testsigma.com/new_images/projects/Updated_Doc_Images/update_descap_2.png)
 
 3. Enter ***geoLocation*** in the **Key** field, select ***String*** as **Data type**, and set the **Value** as per country's country code.
-![Desired Capability](https://s3.amazonaws.com/website-static-docs.testsigma.com/new_images/projects/Updated_Doc_Images/Desired_Capabilities_GeoLocation.png)
+![Desired Capability](https://s3.amazonaws.com/website-static-docs.testsigma.com/new_images/projects/Updated_Doc_Images/update_descap_3.png)
 
 4. Click **Run Now** to execute the test case. 
-![Run Now](https://s3.amazonaws.com/website-static-docs.testsigma.com/new_images/projects/Updated_Doc_Images/RunNow_geoLocation.png)
+![Run Now](https://s3.amazonaws.com/website-static-docs.testsigma.com/new_images/projects/Updated_Doc_Images/update_descap_4.png)
 
 ---
