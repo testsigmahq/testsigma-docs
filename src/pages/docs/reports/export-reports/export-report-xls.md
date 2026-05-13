@@ -47,7 +47,9 @@ Effortlessly generate detailed Excel reports for your test runs in Testsigma. Th
 
 4. Once you select, Testsigma will generate and automatically download a report in Excel format. Testsigma will notify you via **email** (using the email address associated with your Testsigma account) upon completion. 
 
-5. Click on the file named **(Test Plan Name).xlsx** to access the exported results. ![notify XLS report in email](https://s3.amazonaws.com/website-static-docs.testsigma.com/new_images/projects/Updated_Doc_Images/notify_excel_exportrepot.png)
+5. Click on the file named **(Test Plan Name).xlsx** to access the exported results.
+
+   ![XLS report notification email with download link for the exported Test Plan results](https://s3.amazonaws.com/website-static-docs.testsigma.com/new_images/projects/Updated_Doc_Images/notify_excel_exportrepot.png)
 
 [[info | NOTE:]]
 | If you choose to rerun the test cases from the reports, the rerun results will also be consolidated into the exported reports.

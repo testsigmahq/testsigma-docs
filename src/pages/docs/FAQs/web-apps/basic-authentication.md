@@ -40,7 +40,7 @@ When we navigate to the host URL, the browser automatically sends the credential
 
 ## **Reducing Execution Time on Safari/Mobile Web**
 
-While the above method works well across most browsers, in mobile web applications, executing Basic Authentication URLs in Safari browsers may result in increased step execution time when credentials are passed directly in the URL (<a href="https://admin:admin123@orangehrm.com" rel="nofollow">https://admin:admin123@orangehrm.com</a>).
+When testing web applications on Safari or mobile browsers, passing credentials directly in the URL (for example, <a href="https://admin:admin123@orangehrm.com" rel="nofollow">https://admin:admin123@orangehrm.com</a>) may increase step execution time.
 
 To overcome this and speed up execution, instead of passing the credentials in the URL, we can pass them as a custom header using Desired Capabilities.
 

@@ -53,7 +53,7 @@ In order to access Google Play Store, you can use the following desired capabili
 ![Run](https://s3.amazonaws.com/website-static-docs.testsigma.com/new_images/projects/Updated_Doc_Images/update_descap_1.png)
 
 2. On the **Ad-Hoc Run** overlay, click on **Desired Capabilities**.
-![Ad-Hoc Run](hhttps://s3.amazonaws.com/website-static-docs.testsigma.com/new_images/projects/Updated_Doc_Images/update_descap_2.png)
+![Ad-Hoc Run](https://s3.amazonaws.com/website-static-docs.testsigma.com/new_images/projects/Updated_Doc_Images/update_descap_2.png)
 
 3. Enter **browserstack.appStoreConfiguration** in the **Key** field, select **String** as the **Data type**, and set the **Value** with **Username & Password**.
 ![Key](https://s3.amazonaws.com/website-static-docs.testsigma.com/new_images/projects/Updated_Doc_Images/update_geodescap_1.png)

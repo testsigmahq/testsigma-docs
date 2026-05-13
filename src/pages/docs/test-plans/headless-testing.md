@@ -57,8 +57,8 @@ Click the toggle button for **Headless Test** on the **Ad-hoc Run** page of the 
 
 ## **Enabling Headless Browser Testing in Test Plan**
 
-1. Navigate to the **Add Test Suites & Link Machine Profiles** tab on the page for **Create** or **Edit Test Plan** to enable headless testing. ![Add test suites & Link Machine Profiles](https://s3.amazonaws.com/website-static-docs.testsigma.com/new_images/projects/Updated_Doc_Images/update_headless_2.png)
-2. Click on **Test Machine Settings** for the test machine to enable Headless Testing for the Test Plan. An overlay screen for **Editing the test machine/device profile** will appear. Then, enable the toggle for  **Headless Test** and click **Update Profile**. ![Headless in Test Plan](https://s3.amazonaws.com/website-static-docs.testsigma.com/new_images/projects/Updated_Doc_Images/update_headless_3.png)
+1. Navigate to the **Add Test Suites & Link Machine Profiles** tab on the **Create** or **Edit Test Plan** page to enable headless testing. ![Add test suites & Link Machine Profiles](https://s3.amazonaws.com/website-static-docs.testsigma.com/new_images/projects/Updated_Doc_Images/update_headless_2.png)
+2. Click on **Test Machine Settings** for the test machine to enable headless testing for the Test Plan. An overlay screen for **Editing the test machine/device profile** will appear. Then, enable the toggle for  **Headless Test** and click **Update Profile**. ![Headless in Test Plan](https://s3.amazonaws.com/website-static-docs.testsigma.com/new_images/projects/Updated_Doc_Images/update_headless_3.png)
 
 ---
 

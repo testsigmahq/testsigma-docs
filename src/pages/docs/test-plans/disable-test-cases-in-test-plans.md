@@ -49,8 +49,8 @@ In Testsigma, you can disable specific test cases within your test plans by usin
 4. Click the **ellipsis** icon in the **Test Suites** section and select **Manage Test Case** from the dropdown list.
    ![Manage Test Case](https://s3.amazonaws.com/website-static-docs.testsigma.com/new_images/projects/Updated_Doc_Images/update_disable_tc_4.png)
 
-5. In the **User Profile Management Tests** dialog, select the required test cases. 
-   ![Select ](https://s3.amazonaws.com/website-static-docs.testsigma.com/new_images/projects/Updated_Doc_Images/update_disable_tc_5.png)
+5. In the **User Profile Management Tests** dialog, uncheck the test cases you want to disable. 
+   ![Uncheck test cases to disable them](https://s3.amazonaws.com/website-static-docs.testsigma.com/new_images/projects/Updated_Doc_Images/update_disable_tc_5.png)
 
 6. Click **Update test suites** to save the changes. 
    ![Disable Test Cases in Test Suites](https://s3.amazonaws.com/website-static-docs.testsigma.com/new_images/projects/Updated_Doc_Images/update_disable_tc_6.png)

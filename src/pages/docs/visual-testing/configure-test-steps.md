@@ -102,7 +102,7 @@ When you conduct visual testing using Testsigma, you should compare the **curren
 5. Then, go to the top right of the page and **check** the box **Mark as base image** as **Current Image**. This action will update your base image to match your current reference image.
    ![mark as base](https://s3.amazonaws.com/website-static-docs.testsigma.com/new_images/projects/Updated_Doc_Images/update_visual_9.png)
 
-5. In Visual Difference overlay, you can perform the following options: 
+6. In Visual Difference overlay, you can perform the following options: 
    - **Highlight Differences**: Highlight variations in the display.
    ![highlight](https://s3.amazonaws.com/website-static-docs.testsigma.com/new_images/projects/Updated_Doc_Images/update_visual_10.png)
    - **Hide Visual Differences**: Conceal any visible disparities.
@@ -120,7 +120,7 @@ When you conduct visual testing using Testsigma, you should compare the **curren
 
 ## **Perform Visual Testing in Test Case**
 
-1. Follow the steps in the above section to Enable Visual Testing in Test Steps using [documentation on utilising test step options](https://testsigma.com/docs/visual-testing/configure-test-steps/#enable-visual-testing-in-test-steps) or [documentation on updating settings](https://testsigma.com/docs/visual-testing/configure-test-steps/#bulk-action-for-visual-testing-steps). Refer to the [documentation on marking the baseline image](https://testsigma.com/docs/visual-testing/configure-test-steps/#bulk-action-for-visual-testing-steps) and run the test case to identify visual differences in the UI.
+1. Follow the steps in the above section to Enable Visual Testing in Test Steps using [documentation on utilising test step options](https://testsigma.com/docs/visual-testing/configure-test-steps/#enable-visual-testing-in-test-steps) or [documentation on updating settings](https://testsigma.com/docs/visual-testing/configure-test-steps/#bulk-action-for-visual-testing-steps). Refer to the [documentation on marking the baseline image](https://testsigma.com/docs/visual-testing/configure-test-steps/#mark-baseline-image) and run the test case to identify visual differences in the UI.
   
 
 2. Click on **Test Case Settings** in the right-side navbar and enable the **Fail Test Case if Visual Testing Fails** toggle to automatically mark a test case as failed if it detects visual differences during execution. 
