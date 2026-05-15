@@ -11,6 +11,9 @@ contextual_links:
 - type: link
   name: "Passing Authentication Details via URL"
   url: "#passing-authentication-details-via-url"
+- type: link
+  name: "Reducing Execution Time on Safari in Mobile Web"
+  url: "#reducing-execution-time-on-safari-in-mobile-web"
 ---
 
 ---
@@ -38,7 +41,9 @@ In the NLP, Navigate to **test data**, replace the **test data** with <a href="h
 
 When we navigate to the host URL, the browser automatically sends the credentials for Authentication. We need to use HTTPS to secure sensitive information.
 
-## **Reducing Execution Time on Safari/Mobile Web**
+---
+
+## **Reducing Execution Time on Safari in Mobile Web**
 
 When testing web applications on Safari or mobile browsers, passing credentials directly in the URL (for example, <a href="https://admin:admin123@orangehrm.com" rel="nofollow">https://admin:admin123@orangehrm.com</a>) may increase step execution time.
 
