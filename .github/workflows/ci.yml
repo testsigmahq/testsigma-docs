@@ -10,9 +10,9 @@ jobs:
         run: sudo sed -i 's|mirror+file:/etc/apt/apt-mirrors.txt|http://archive.ubuntu.com/ubuntu|' /etc/apt/sources.list && sudo apt-get update
       - name: Install libvips
         run: sudo apt-get install libvips
-      - uses: actions/checkout@v2
+      - uses: actions/checkout@v4
       - name: Setup Node 18
-        uses: actions/setup-node@v2
+        uses: actions/setup-node@v4
         with:
           node-version: '18'
       - name: Install dependencies
