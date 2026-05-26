@@ -49,7 +49,7 @@ In Testsigma, you can upload small files as attachments and then use their links
 2. Click the ellipsis icon against the required upload and click **Upload new version**. 
 ![Kebab Menu](https://s3.amazonaws.com/website-static-docs.testsigma.com/new_images/projects/Updated_Doc_Images/update_upload_5.png)
 
-3. In the **Update new version** dialog, drag and drop your files or click on **Browse** to select the file from your local folder. 
+3. In the **Upload new version** dialog, drag and drop your files or click on **Browse** to select the file from your local folder. 
 ![Update File](https://s3.amazonaws.com/website-static-docs.testsigma.com/new_images/projects/Updated_Doc_Images/update_upload_6.png)
 
 4. Enter **Name**, **Version**, and click on **Upload**.
