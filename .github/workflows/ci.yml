@@ -12,9 +12,7 @@ jobs:
         run: sudo sed -i 's|mirror+file:/etc/apt/apt-mirrors.txt|http://archive.ubuntu.com/ubuntu|' /etc/apt/sources.list && sudo apt-get update
       - name: Install libvips
         run: sudo apt-get install libvips
-      - uses: actions/checkout@v4
-        with:
-          token: ${{ secrets.GITHUB_TOKEN }}
+      - uses: actions/checkout@v3
       - name: Setup Node 18
         uses: actions/setup-node@v4
         with:
