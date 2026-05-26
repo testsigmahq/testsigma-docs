@@ -16,7 +16,7 @@ If the execution status for your tests has been in the state Queued for a long t
 
 ## **Troubleshooting Steps**
 
-1. Check if **Testsigma Agent** is active by navigating **Agents**.
+1. Check if **Testsigma Agent** is active by navigating to **Agents**.
 
 ![Agent](https://s3.amazonaws.com/website-static-docs.testsigma.com/new_images/projects/Updated_Doc_Images/update_ts_agent_1.png)
 
