@@ -37,8 +37,8 @@ Updating an addon in Testsigma keeps your tools up-to-date and functional. First
 
 1. Modify the addon’s code to fix issues, add features, or adjust settings. Compress the file into **Zipped** Format.
 
-2. From the left navigation bar, go to **Addons**. 
-![Addons](https://s3.amazonaws.com/website-static-docs.testsigma.com/new_images/projects/Updated_Doc_Images/update_addons_1.png)
+2. From the left navigation bar, go to **Addons** and click **Add-ons** from the dropdown. 
+![Addons](https://s3.amazonaws.com/website-static-docs.testsigma.com/new_images/projects/Updated_Doc_Images/update_updateaddon_1.png)
 
 3. In the **Addons** page, go to the **My Addons** tab. 
 ![Update](https://s3.amazonaws.com/website-static-docs.testsigma.com/new_images/projects/Updated_Doc_Images/update_addons_2.png)

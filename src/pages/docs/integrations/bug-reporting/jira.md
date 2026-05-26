@@ -87,12 +87,12 @@ You can integrate Testsigma with Jira to push bugs directly to your Jira project
 3. In the **Report** overlay, click the **Jira** icon.
    ![Jira Icon from Overlay](https://s3.amazonaws.com/website-static-docs.testsigma.com/new_images/projects/Updated_Doc_Images/Jira_Icon_from_Overlay.png)
 
-4. In the **Create New Bug** overlay, review the details and click **Report Bug**.
+4. In the **Report** overlay, review the details and click **Report Bug**. 
    ![Create New Bug](https://s3.amazonaws.com/website-static-docs.testsigma.com/new_images/projects/Updated_Doc_Images/Create_New_Bug_From_Result.png)
 
 
 [[info | **NOTE**:]]
-| To link to an existing Jira issue, click **Link to Issue**, search for the issue, and then click **Link to Ticket**.
+| If you want to link an existing issue on Backlog, click the **Link to Issue** tab, search for the issue, and then click **Link To Ticket** to associate it with the current item.
 |
 | ![Link](https://s3.amazonaws.com/website-static-docs.testsigma.com/new_images/projects/Updated_Doc_Images/Link_Bug_to_Existing_Issue.png)
 

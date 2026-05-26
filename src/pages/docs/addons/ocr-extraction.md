@@ -61,6 +61,7 @@ This guide will instruct you step-by-step on how to create an OCR Text Extractio
 
 ## **Using OCR Addon in a Test case**
 
-Once the addon is published, NLPs become available in the application. Follow these GIF below to use the OCR addon in Test Cases: ![Addon GIF](https://s3.amazonaws.com/website-static-docs.testsigma.com/new_images/projects/Updated_Doc_Images/ocr_text_extraction_addon.gif)
+Once the addon is published, NLPs become available in the application. Here's a screenshot of the addon:
+![Addon Screenshot](https://s3.amazonaws.com/website-static-docs.testsigma.com/new_images/projects/Updated_Doc_Images/update_ocr_1.png)
 
 ---

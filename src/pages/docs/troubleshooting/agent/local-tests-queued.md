@@ -16,9 +16,9 @@ If the execution status for your tests has been in the state Queued for a long t
 
 ## **Troubleshooting Steps**
 
-1. Check if **Testsigma Agent** is active by navigating to **Dashboard > Agents**.
+1. Check if **Testsigma Agent** is active by navigating **Agents**.
 
-![Agent](https://s3.amazonaws.com/website-static-docs.testsigma.com/new_images/projects/Updated_Doc_Images/tsagerrs.png)
+![Agent](https://s3.amazonaws.com/website-static-docs.testsigma.com/new_images/projects/Updated_Doc_Images/update_ts_agent_1.png)
 
 If the agent is not running, you will see that the last request time was not recent. If the agent is running, the request time will be less than 1 minute ago. 
 
@@ -27,7 +27,5 @@ If the agent is not running, you will see that the last request time was not rec
 
 
 If there are no queued tests, please contact **support@testsigma.com** with latest Testsigma Agent logs. For more information, refer to the [documentation on sending agent logs](https://testsigma.com/docs/agent/troubleshooting/how-to-configure-agent-logs/). 
-
-
 
 ---
