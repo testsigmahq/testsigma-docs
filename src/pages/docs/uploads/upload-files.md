@@ -63,4 +63,6 @@ From the Uploads page, copy the file path from the copy button and paste this UR
 
 *For more information about using uploaded files in Test Steps, refer to the [documentation on test steps for uploaded files](https://testsigma.com/tutorials/test-cases/web-apps/automate-upload-buttons/)*
 
+
+
 ---
