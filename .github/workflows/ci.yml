@@ -13,6 +13,8 @@ jobs:
       - name: Install libvips
         run: sudo apt-get install libvips
       - uses: actions/checkout@v4
+        with:
+          token: ${{ secrets.GITHUB_TOKEN }}
       - name: Setup Node 18
         uses: actions/setup-node@v4
         with:
