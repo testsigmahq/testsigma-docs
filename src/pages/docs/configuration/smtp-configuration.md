@@ -80,15 +80,7 @@ Simple Mail Transfer Protocol (SMTP) is a standard protocol for sending mail fro
 3. The password will be generated and displayed as below:
 ![Passwor](https://s3.amazonaws.com/website-static-docs.testsigma.com/new_images/projects/Updated_Doc_Images/password.png)
 
-
-
-Here’s a quick GIF demonstrating how to generate the password.
-![SMTP GIF](https://s3.amazonaws.com/website-static-docs.testsigma.com/new_images/projects/Updated_Doc_Images/SMTPGIF.gif)
-
-
 [[info | **NOTE**:]]
 | These steps are specific for generating an app password in a Google account. The process may be different for other email clients/services.
-
-
 
 ---

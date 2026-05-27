@@ -66,12 +66,12 @@ In Testsigma, you can send test plan status notifications to a specific Google C
 ![Integrations](https://s3.amazonaws.com/website-static-docs.testsigma.com/new_images/projects/Updated_Doc_Images/mstinav.png)
 
 
-2. Enable toggle on **Google Chat** widget.
-![G Chat Toggle](https://s3.amazonaws.com/website-static-docs.testsigma.com/new_images/projects/Updated_Doc_Images/gcietgle.png)
+2. Enable the **Google Chat** toggle.
+![G Chat Toggle](https://s3.amazonaws.com/website-static-docs.testsigma.com/new_images/projects/Updated_Doc_Images/update_google_1.png)
 
 
-3. On the **Google Chat details** prompt, enter **Name**, **Connector URL** and click on **Save & Enable**.
-![Details](https://s3.amazonaws.com/website-static-docs.testsigma.com/new_images/projects/Updated_Doc_Images/gcisae.png)
+3. In the **Google Chat details** dialog, enter **Name**, **Connector URL** and click on **Save & Enable**.
+![Details](https://s3.amazonaws.com/website-static-docs.testsigma.com/new_images/projects/Updated_Doc_Images/update_google_2.png)
 
 ---
 
@@ -81,20 +81,19 @@ In Testsigma, you can send test plan status notifications to a specific Google C
 Once the Google Chat integration is added, you can enable the Google Chat notifications for your test plans while editing any existing ones or creating a new one.
 
 
-1. On **Create Test Plan/Edit Test Plan** page, click on **Test Plan Settings**. 
-![TP Settings](https://s3.amazonaws.com/website-static-docs.testsigma.com/new_images/projects/Updated_Doc_Images/mstitpse.png)
+1. On **Create Test Plan/Edit Test Plan** page, click the **Test Plan Settings** tab. 
+![TP Settings](https://s3.amazonaws.com/website-static-docs.testsigma.com/new_images/projects/Updated_Doc_Images/update_google_3.png)
 
 
-2. Enable **Send Notification** toggle.
-![Send Notification](https://s3.amazonaws.com/website-static-docs.testsigma.com/new_images/projects/Updated_Doc_Images/mstiet.png)
+2. Enable the **Send Notification** toggle.
+![Send Notification](https://s3.amazonaws.com/website-static-docs.testsigma.com/new_images/projects/Updated_Doc_Images/update_google_4.png)
 
 
 3. Under the **Notify On** section, select the status for which you want to be notified. You can select multiple statuses from the list.
-![Status](https://s3.amazonaws.com/website-static-docs.testsigma.com/new_images/projects/Updated_Doc_Images/mstimss.png)
+![Status](https://s3.amazonaws.com/website-static-docs.testsigma.com/new_images/projects/Updated_Doc_Images/update_google_5.png)
 
 
-4. Under the **Also send messages to** dropdown, select **Google Chat**.
-![MS Teams](https://s3.amazonaws.com/website-static-docs.testsigma.com/new_images/projects/Updated_Doc_Images/gcisgc.png)
-
+4. Click the dropdown under the **Also send messages to** section and click **Google Chat (Google Chat)**.
+![MS Teams](https://s3.amazonaws.com/website-static-docs.testsigma.com/new_images/projects/Updated_Doc_Images/update_google_6.png)
 
 ---

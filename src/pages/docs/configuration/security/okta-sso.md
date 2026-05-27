@@ -125,7 +125,9 @@ Familiarise yourself with these key terms before proceeding:
 After configuring your Testsigma account with SAML, you can log in using SSO.
 
 1. Click **Sign in with SSO** on the Testsigma login page.
-2. Enter the **email ID** configured with SSO with the account and click **Sign in**. ![signin through sso](https://s3.amazonaws.com/website-static-docs.testsigma.com/new_images/projects/Updated_Doc_Images/signin_through_sso.gif)
+   ![Sign in with SSO](https://s3.amazonaws.com/website-static-docs.testsigma.com/new_images/projects/Updated_Doc_Images/update_sso_login_1.png)
+2. Enter the **email ID** configured with SSO with the account and click **Sign in**. 
+   ![signin through sso](https://s3.amazonaws.com/website-static-docs.testsigma.com/new_images/projects/Updated_Doc_Images/update_sso_login_2.png)
 [[info | NOTE:]]
 | - Install the Okta mobile app for the first-time authentication. 
 | - You cannot log in through SSO without configuring your email.
