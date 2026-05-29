@@ -5,21 +5,23 @@ on:
 jobs:
   CI:
     runs-on: ubuntu-latest
+    permissions:
+      contents: read
     steps:
       - name: Update package information with default mirror
         run: sudo sed -i 's|mirror+file:/etc/apt/apt-mirrors.txt|http://archive.ubuntu.com/ubuntu|' /etc/apt/sources.list && sudo apt-get update
       - name: Install libvips
         run: sudo apt-get install libvips
-      - uses: actions/checkout@v2
+      - uses: actions/checkout@v3
       - name: Setup Node 18
-        uses: actions/setup-node@v2
+        uses: actions/setup-node@v4
         with:
           node-version: '18'
       - name: Install dependencies
         run: |
           rm -rf node_modules && npm i --force --unsafe-perm
       - name: Force installing sharp
-        run: npm install --ignore-scripts=false --verbose sharp@0.30.7 --force --unsafe-perm
+        run: npm install --ignore-scripts=false --verbose sharp@0.32.6 --force --unsafe-perm
       - name: 'Create env file'
         run: |
           touch .env

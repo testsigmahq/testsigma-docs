@@ -26,47 +26,43 @@ In Testsigma, you can upload small files as attachments and then use their links
 
 ---
 ## **Steps to Upload Files**
+
 1. Navigate to **Test Data > Uploads**.
-![Uploads](https://s3.amazonaws.com/website-static-docs.testsigma.com/new_images/projects/Updated_Doc_Images/uplnavtdul.png)
+   ![Uploads](https://s3.amazonaws.com/website-static-docs.testsigma.com/new_images/projects/Updated_Doc_Images/update_upload_1.png)
 
 2. Click on **Upload**.
-![Upload File](https://s3.amazonaws.com/website-static-docs.testsigma.com/new_images/projects/Updated_Doc_Images/uplub.png)
+   ![Upload File](https://s3.amazonaws.com/website-static-docs.testsigma.com/new_images/projects/Updated_Doc_Images/update_upload_2.png)
 
-2. On **Upload a File** prompt, drag and drop your files or click on **Browse** to select the file from your local folder. 
-![Prompt](https://s3.amazonaws.com/website-static-docs.testsigma.com/new_images/projects/Updated_Doc_Images/uplfileprompt.png)
+3. On **Upload a File** prompt, drag and drop your files or click on **Browse** to select the file from your local folder. 
+![Prompt](https://s3.amazonaws.com/website-static-docs.testsigma.com/new_images/projects/Updated_Doc_Images/update_upload_3.png)
 
-3. Enter **Name**, **Version**, and click on **Upload**. 
-![Details](https://s3.amazonaws.com/website-static-docs.testsigma.com/new_images/projects/Updated_Doc_Images/uplpnver.png)
+4. Enter **Name**, **Version**, and click on **Upload**. 
+![Details](https://s3.amazonaws.com/website-static-docs.testsigma.com/new_images/projects/Updated_Doc_Images/update_upload_4.png)
 
-Here’s a quick GIF demonstrating how to upload a new file.
-![Upload New File](https://s3.amazonaws.com/website-static-docs.testsigma.com/new_images/projects/Updated_Doc_Images/uploadnewfile.gif)
 ---
 
 ## **Updating an Uploaded File**
+
 1. Navigate to **Test Data > Uploads**. 
-![Uploads](https://s3.amazonaws.com/website-static-docs.testsigma.com/new_images/projects/Updated_Doc_Images/uplnavtdul.png)
+![Uploads](https://s3.amazonaws.com/website-static-docs.testsigma.com/new_images/projects/Updated_Doc_Images/update_upload_1.png)
 
-2. Hover over the upload you want to update and click on **Keabab Menu**. 
-![Kebab Menu](https://s3.amazonaws.com/website-static-docs.testsigma.com/new_images/projects/Updated_Doc_Images/uplkm.png)
+2. Click the ellipsis icon against the required upload and click **Upload new version**. 
+![Kebab Menu](https://s3.amazonaws.com/website-static-docs.testsigma.com/new_images/projects/Updated_Doc_Images/update_upload_5.png)
 
-3. Click on **Upload new version**. 
-![Edit](https://s3.amazonaws.com/website-static-docs.testsigma.com/new_images/projects/Updated_Doc_Images/uplnewver.png)
-
-3. On **Update new version** prompt, drag and drop your files or click on **Browse** to select the file from your local folder. 
-![Update File](https://s3.amazonaws.com/website-static-docs.testsigma.com/new_images/projects/Updated_Doc_Images/uplunvprompt.png)
+3. In the **Upload new version** dialog, drag and drop your files or click on **Browse** to select the file from your local folder. 
+![Update File](https://s3.amazonaws.com/website-static-docs.testsigma.com/new_images/projects/Updated_Doc_Images/update_upload_6.png)
 
 4. Enter **Name**, **Version**, and click on **Upload**.
-![Details](https://s3.amazonaws.com/website-static-docs.testsigma.com/new_images/projects/Updated_Doc_Images/uplupnewversion.png)
-
-Here’s a quick GIF demonstrating how to update a file with new version.
-![Update File](https://s3.amazonaws.com/website-static-docs.testsigma.com/new_images/projects/Updated_Doc_Images/updatefile.gif)
+![Details](https://s3.amazonaws.com/website-static-docs.testsigma.com/new_images/projects/Updated_Doc_Images/update_upload_7.png)
 
 ---
 
 ## **Getting the file URL**
 From the Uploads page, copy the file path from the copy button and paste this URL when needed in the test steps. 
-![Copy Path](https://s3.amazonaws.com/website-static-docs.testsigma.com/new_images/projects/Updated_Doc_Images/uplpath.png)
+![Copy Path](https://s3.amazonaws.com/website-static-docs.testsigma.com/new_images/projects/Updated_Doc_Images/update_upload_8.png)
 
 *For more information about using uploaded files in Test Steps, refer to the [documentation on test steps for uploaded files](https://testsigma.com/tutorials/test-cases/web-apps/automate-upload-buttons/)*
+
+
 
 ---

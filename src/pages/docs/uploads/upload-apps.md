@@ -38,14 +38,20 @@ This guide will demonstrate how to do this and automate your mobile app testing,
 
 ## **Upload Applications**
 
-1. Navigate to the **Project** where you want to upload the app, and then go to the left-side navbar and click on **Test Data** > **Uploads**. ![Open Uploads List page](https://s3.amazonaws.com/website-static-docs.testsigma.com/new_images/projects/Updated_Doc_Images/upload_testdata_nb.gif)
+1. From the left navigation bar, go to **Test Data > Uploads**. 
+   ![Open Uploads List page](https://s3.amazonaws.com/website-static-docs.testsigma.com/new_images/projects/Updated_Doc_Images/update_application_upload_1.png)
 
 [[info | NOTE:]]
 | For instance, if you want to upload your Android app, navigate to an Android project. Similarly, if you want to upload an iOS app, navigate to an iOS project.
 
-2. Click the **Upload** button in the top right corner of the screen on the **Uploads List page**. An **Upload a file** overlay will appear on the screen. Click **Browse file** to upload the application file from your local device.
-3. After uploading the application, verify that you have correctly added the **Name** and **Version** in the **Upload a file** window. You can edit the name and version for the uploaded application if the name and version need to be corrected.
-4. Wait for the file to upload successfully, and use the uploaded file while developing and executing your tests. ![Upload application](https://s3.amazonaws.com/website-static-docs.testsigma.com/new_images/projects/Updated_Doc_Images/uploadapp_testdata.gif)
+2. Click **Upload**.
+   ![Upload](https://s3.amazonaws.com/website-static-docs.testsigma.com/new_images/projects/Updated_Doc_Images/update_application_upload_2.png)
+
+3. In the **Upload a file** dialog, drag and drop your file or click on **Browse** to select the file from your local folder. 
+   ![Upload a file](https://s3.amazonaws.com/website-static-docs.testsigma.com/new_images/projects/Updated_Doc_Images/update_application_upload_4.png)
+
+4. Edit **Name**, **Version**, and click **Upload**. 
+   ![Upload](https://s3.amazonaws.com/website-static-docs.testsigma.com/new_images/projects/Updated_Doc_Images/update_application_upload_5.png)
 
 [[info | NOTE:]]
 | You can Upload files not more than **300 Mb**.
@@ -54,6 +60,7 @@ This guide will demonstrate how to do this and automate your mobile app testing,
 
 ## **Manage Upload Application**
 
-Click the **ellipsis** icon next to the uploaded application you want to manage on the Upload Page. The dropdown menu will appear, and you can then select options like **Upload a new version**, **Download**, or **Delete** the application. ![Manage Upload Apps](https://s3.amazonaws.com/website-static-docs.testsigma.com/new_images/projects/Updated_Doc_Images/manage_uploadapps.gif)
+1. In the **Uploads** list page, click the **ellipsis** icon next to the uploaded application you want to manage. The dropdown menu will appear, and you can then select options like **Upload a new version**, **Download**, or **Delete** the application. 
+   ![Manage Upload Apps](https://s3.amazonaws.com/website-static-docs.testsigma.com/new_images/projects/Updated_Doc_Images/update_application_upload_6.png)
 
 ---
