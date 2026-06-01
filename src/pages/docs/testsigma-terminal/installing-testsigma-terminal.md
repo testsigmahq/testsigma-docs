@@ -80,7 +80,7 @@ Copilot is the primary tool for test authoring and validating through local exec
 3. Install and open the **Testsigma Terminal** application.
    
 4. Upon launching the application, you can proceed in one of two ways:
-   - Click **Configure Settings** to manage security and certificates, network and proxy rules, or runtime/JVM preferences. Click **Continue** to save these changes and click **Login to Testsigma**. For more information, please refer to the [documentation on the Components of Testsigma Terminal](https://testsigma.com/docs/live-editor/components-of-testsigma-terminal/). ![Custom settings](https://s3.amazonaws.com/website-static-docs.testsigma.com/new_images/projects/Updated_Doc_Images/configure_terminal_1.png)
+   - Click **Configure Settings** to manage security and certificates, network and proxy rules, or runtime/JVM preferences. Click **Continue** to save these changes and click **Login to Testsigma**. For more information, please refer to the [documentation on the Components of Testsigma Terminal](https://testsigma.com/docs/testsigma-terminal/components-of-testsigma-terminal/). ![Custom settings](https://s3.amazonaws.com/website-static-docs.testsigma.com/new_images/projects/Updated_Doc_Images/configure_terminal_1.png)
    - Click **Continue** and then click **Login to Testsigma** directly to continue with the default settings. You will be redirected to Testsigma. ![Login to Testsigma](https://s3.amazonaws.com/website-static-docs.testsigma.com/new_images/projects/Updated_Doc_Images/configure_terminal_2.png)
 
 

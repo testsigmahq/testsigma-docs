@@ -35,7 +35,7 @@ Testsigma allows you to manage test cases for Android and iOS mobile application
 ## **Edit a Test Case**
 
 [[info | NOTE:]]
-| Note that the most effective way to edit your test case is by using Copilot. Please refer to the documentation on [Editing a Test Case Using Copilot](https://testsigma.com/docs/live-editor/editing-test-case/).
+| Note that the most effective way to edit your test case is by using Copilot. Please refer to the documentation on [Introduction to Copilot](https://testsigma.com/docs/copilot/introduction/).
 
 1. From the left navigation bar, go to **Create Tests > Test Cases**.
 
