@@ -30,7 +30,7 @@ With Auto-Healing enabled, you can execute test cases directly in Copilot to val
 > 
 > Before you begin, ensure that: 
 >  1. You have referred to the [documentation on enabling the auto-healing feature](https://testsigma.com/docs/auto-healing/enable-the-auto-healing-feature/).
->  2. You have referred to the [documentation on installing the Testsigma Terminal](https://testsigma.com/docs/live-editor/intro-testsigma-terminal/).
+>  2. You have referred to the [documentation on installing the Testsigma Terminal](https://testsigma.com/docs/testsigma-terminal/intro-testsigma-terminal/).
 >  3. You have referred to the [documentation on managing test cases](https://testsigma.com/docs/test-cases/manage/add-edit-delete/).
 
 ---

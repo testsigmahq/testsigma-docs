@@ -2,5 +2,57 @@
   {
     "from": "/docs/addons",
     "to": "/docs/addons/what-is-an-addon"
+  },
+  {
+    "from": "/docs/live-editor/introduction/",
+    "to": "/docs/copilot/introduction/"
+  },
+  {
+    "from": "/docs/live-editor/editing-test-case/",
+    "to": "/docs/copilot/launch-copilot/"
+  },
+  {
+    "from": "/docs/copilot/editing-test-case/",
+    "to": "/docs/copilot/launch-copilot/"
+  },
+  {
+    "from": "/docs/live-editor/faqs-on-copilot/",
+    "to": "/docs/copilot/faqs-on-copilot/"
+  },
+  {
+    "from": "/docs/live-editor/troubleshooting-for-copilot/unable-to-login-to-testsigma-terminal/",
+    "to": "/docs/copilot/troubleshooting-for-copilot/unable-to-login-to-testsigma-terminal/"
+  },
+  {
+    "from": "/docs/live-editor/troubleshooting-for-copilot/unable-to-download-the-terminal-files/",
+    "to": "/docs/copilot/troubleshooting-for-copilot/unable-to-download-the-terminal-files/"
+  },
+  {
+    "from": "/docs/live-editor/troubleshooting-for-copilot/unable-to-extract-the-terminal-files/",
+    "to": "/docs/copilot/troubleshooting-for-copilot/unable-to-extract-the-terminal-files/"
+  },
+  {
+    "from": "/docs/live-editor/troubleshooting-for-copilot/unable-to-start-the-terminal-due-to-port-unavailability/",
+    "to": "/docs/copilot/troubleshooting-for-copilot/unable-to-start-the-terminal-due-to-port-unavailability/"
+  },
+  {
+    "from": "/docs/live-editor/troubleshooting-for-copilot/unable-to-start-the-agent/",
+    "to": "/docs/copilot/troubleshooting-for-copilot/unable-to-start-the-agent/"
+  },
+  {
+    "from": "/docs/live-editor/troubleshooting-for-copilot/unable-to-auto-register-your-device-using-testsigma-terminal/",
+    "to": "/docs/copilot/troubleshooting-for-copilot/unable-to-auto-register-your-device-using-testsigma-terminal/"
+  },
+  {
+    "from": "/docs/live-editor/troubleshooting-for-copilot/unable-to-download-the-packages-required-to-start-the-agent/",
+    "to": "/docs/copilot/troubleshooting-for-copilot/unable-to-download-the-packages-required-to-start-the-agent/"
+  },
+  {
+    "from": "/docs/live-editor/troubleshooting-for-copilot/unable-to-update-the-packages-required-to-start-the-agent/",
+    "to": "/docs/copilot/troubleshooting-for-copilot/unable-to-update-the-packages-required-to-start-the-agent/"
+  },
+  {
+    "from": "/docs/live-editor/troubleshooting-for-copilot/unable-to-reestablish-connection-to-agent/",
+    "to": "/docs/copilot/troubleshooting-for-copilot/unable-to-reestablish-connection-to-agent/"
   }
 ]
