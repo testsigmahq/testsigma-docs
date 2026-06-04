@@ -59,7 +59,7 @@ If the problem continues, use Chrome Developer Tools to confirm whether a networ
 4. Check the network requests that appear. If you see failed requests for **authorizeTestsigmaTerminal** marked as failure, your network is blocking the connection.
    ![failed requests](https://s3.amazonaws.com/website-static-docs.testsigma.com/new_images/projects/Updated_Doc_Images/local_network_1.2.png)
 
-5. To confirm, copy the URL up to the port and paste it in the browser: `https://local.testsigmaagent.com`
+5. To confirm, copy the URL and paste it in the browser: `https://local.testsigmaagent.com`
 
 [[info | NOTE:]]
 | If you see the failed **authorizeTestsigmaTerminal** request, share this screenshot with your IT administrator and request them to allow **local.testsigmaagent.com** and the Testsigma desktop app to communicate over the local network.
