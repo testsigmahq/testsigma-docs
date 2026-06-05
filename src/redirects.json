@@ -54,5 +54,17 @@
   {
     "from": "/docs/live-editor/troubleshooting-for-copilot/unable-to-reestablish-connection-to-agent/",
     "to": "/docs/copilot/troubleshooting-for-copilot/unable-to-reestablish-connection-to-agent/"
+  },
+  {
+    "from": "/docs/integrations/bug-reporting/zepel/",
+    "to": "/docs/integrations/overview/"
+  },
+  {
+    "from": "/docs/integrations/test-management/freshrelease/",
+    "to": "/docs/integrations/overview/"
+  },
+  {
+    "from": "/docs/integrations/product-management/freshrelease/",
+    "to": "/docs/integrations/overview/"
   }
 ]
