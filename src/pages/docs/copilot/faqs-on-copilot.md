@@ -3,7 +3,7 @@ title: "FAQs on Testsigma Copilot"
 pagetitle: "FAQs on Testsigma Copilot"
 metadesc: "Find answers to frequently questions about Testsigma's Copilot (Testsigma Terminal), including its features, installation, usage, and how it helps resolve issues in test cases in real time"
 noindex: false
-order: 11.13
+order: 11.17
 page_id: "frequently-asked-questions-on-copilot"
 search_keyword: ""
 warning: false
@@ -217,9 +217,9 @@ warning: false
 
 
 > For instructions on installing the **Testsigma Terminal**, see:
->   - [Documentation on installing Terminal for macOS](https://testsigma.com/docs/live-editor/installing-testsigma-terminal/).
->   - [Documentation on installing Terminal for Windows](https://testsigma.com/docs/live-editor/installing-testsigma-terminal-on-windows/).
->   - [Documentation on installing Terminal for Linux](https://testsigma.com/docs/live-editor/installing-testsigma-terminal-on-linux/).
+>   - [Documentation on installing Terminal for macOS](https://testsigma.com/docs/copilot/installing-testsigma-terminal/).
+>   - [Documentation on installing Terminal for Windows](https://testsigma.com/docs/copilot/installing-testsigma-terminal-on-windows/).
+>   - [Documentation on installing Terminal for Linux](https://testsigma.com/docs/copilot/installing-testsigma-terminal-on-linux/).
 
 ---
 
