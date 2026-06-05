@@ -453,9 +453,6 @@
   "youtrack": {
     "/docs/integrations/bug-reporting/youtrack/": "Youtrack"
   },
-  "zepel": {
-    "/docs/integrations/bug-reporting/zepel/": "Zepel"
-  },
   "browserstack": {
     "/docs/integrations/test-labs/browserstack/": "BrowserStack"
   },
@@ -476,9 +473,6 @@
   },
   "trello": {
     "/docs/integrations/test-management/trello/": "Trello"
-  },
-  "freshrelease": {
-    "/docs/integrations/test-management/freshrelease/": "Freshrelease"
   },
     "clickup": {
     "/docs/integrations/test-management/clickup/": "Clickup"
