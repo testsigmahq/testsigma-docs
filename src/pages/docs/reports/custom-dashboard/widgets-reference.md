@@ -1,6 +1,6 @@
 ---
 title: "Widgets Reference"
-page_title: "Custom Dashboard Widgets Reference | Testsigma"
+page_title: "Custom Dashboard Widgets Reference in Testsigma"
 metadesc: "Detailed reference for all widgets available in Testsigma Custom Dashboards. Covers purpose, data displayed, interpretation, and recommended use cases for each widget."
 noindex: false
 order: 14.07
@@ -25,6 +25,9 @@ contextual_links:
   name: "Infrastructure & Performance"
   url: "#infrastructure--performance"
 - type: link
+  name: "Accessibility"
+  url: "#accessibility"
+- type: link
   name: "Quick Dashboard Templates"
   url: "#quick-dashboard-templates"
 ---
@@ -46,6 +49,7 @@ Widgets are grouped into categories based on their purpose to make navigation ea
 ---
 
 ## **Executive Insights & Release Readiness**
+![Executive Insights & Release Readiness](https://s3.amazonaws.com/website-static-docs.testsigma.com/new_images/projects/Updated_Doc_Images/Dashboard_Widget_1.png)
 
 <table>
   <tr>
@@ -107,6 +111,7 @@ Widgets are grouped into categories based on their purpose to make navigation ea
 ---
 
 ## **Reliability & Stability**
+![Reliability & Stability](https://s3.amazonaws.com/website-static-docs.testsigma.com/new_images/projects/Updated_Doc_Images/Dashboard_Widget_2.png)
 
 <table>
   <tr>
@@ -168,6 +173,7 @@ Widgets are grouped into categories based on their purpose to make navigation ea
 ---
 
 ## **Test Design & Team Productivity**
+![Test Design & Team Productivity](https://s3.amazonaws.com/website-static-docs.testsigma.com/new_images/projects/Updated_Doc_Images/Dashboard_Widget_3.png)
 
 <table>
   <tr>
@@ -235,6 +241,7 @@ Widgets are grouped into categories based on their purpose to make navigation ea
 ---
 
 ## **AI Intelligence & Agentic ROI**
+![AI Intelligence & Agentic ROI](https://s3.amazonaws.com/website-static-docs.testsigma.com/new_images/projects/Updated_Doc_Images/Dashboard_Widget_4.png)
 
 <table>
   <tr>
@@ -266,6 +273,7 @@ Widgets are grouped into categories based on their purpose to make navigation ea
 ---
 
 ## **Infrastructure & Performance**
+![Infrastructure & Performance](https://s3.amazonaws.com/website-static-docs.testsigma.com/new_images/projects/Updated_Doc_Images/Dashboard_Widget_5.png)
 
 <table>
   <tr>
@@ -297,6 +305,72 @@ Widgets are grouped into categories based on their purpose to make navigation ea
     <td>Number of test runs per application type. Donut or pie chart.</td>
     <td>Verify testing effort is proportional across your app portfolio</td>
     <td>Similar slices show balanced effort. Large imbalance means some apps receive less testing. Adjust allocation to match risk profiles.</td>
+  </tr>
+</table>
+
+---
+
+## **Accessibility**
+![Accessibility Dashboard Widgets](https://s3.amazonaws.com/website-static-docs.testsigma.com/new_images/projects/Updated_Doc_Images/Dashboard_Widget_6.png)
+
+The Accessibility category contains widgets that surface compliance scores, issue distribution, and remediation status across your application. All widgets support the Standard Selector dropdown, which maps your test data to your chosen accessibility standard without requiring new test runs.
+
+Select your standard from the Standard Selector at the top of the dashboard. The following standards are available: WCAG 2.2, ADA, Section 508, EAA, and EN 301 549. The default is WCAG 2.2 AA and persists per application.
+
+<table>
+  <tr>
+    <th style="background-color:#ADD8E6">Widget</th>
+    <th style="background-color:#ADD8E6">Description</th>
+    <th style="background-color:#ADD8E6">Use Case</th>
+    <th style="background-color:#ADD8E6">Interpretation</th>
+  </tr>
+  <tr>
+    <td><strong>Compliance Score</strong></td>
+    <td>Donut chart showing the overall accessibility compliance score for the selected standard. Breaks down conformance by level: A, AA, and AAA.</td>
+    <td>Get a quick read on how close your application is to full compliance before a release or audit.</td>
+    <td>A high overall score with strong AA coverage indicates good compliance posture. Low A-level scores suggest critical gaps that block basic accessibility requirements.</td>
+  </tr>
+  <tr>
+    <td><strong>Issues by Severity</strong></td>
+    <td>Donut chart showing open accessibility issues distributed by severity: Critical, Serious, Moderate, Minor, and Success.</td>
+    <td>Prioritize your remediation backlog by identifying where the most severe issues are concentrated.</td>
+    <td>A large Critical or Serious slice requires immediate attention. Moderate and Minor issues can be planned into upcoming sprints. Success items confirm passing checks.</td>
+  </tr>
+  <tr>
+    <td><strong>Issues by WCAG Criterion</strong></td>
+    <td>Horizontal bar chart of the top 10 WCAG criteria ranked by issue count.</td>
+    <td>Identify which accessibility rules your application fails most frequently so you can focus remediation where it has the most impact.</td>
+    <td>The longest bars represent the highest-volume failure points. Address the top two or three criteria first to reduce overall issue count rapidly.</td>
+  </tr>
+  <tr>
+    <td><strong>Trend Over Time</strong></td>
+    <td>Line chart tracking your compliance score across test runs or dates.</td>
+    <td>Measure whether accessibility is improving or regressing across release cycles or after a dedicated remediation sprint.</td>
+    <td>An upward trend confirms remediation efforts are working. A flat line indicates no progress. A downward trend signals new issues are being introduced faster than they are fixed.</td>
+  </tr>
+  <tr>
+    <td><strong>Top Issues</strong></td>
+    <td>Table listing the most impactful open accessibility issues. Each row shows the WCAG criterion, severity, pages affected, and an AI badge if Atto has a fix suggestion available.</td>
+    <td>Quickly identify which specific issues affect the most pages and where AI-assisted remediation is available.</td>
+    <td>Issues affecting many pages should be prioritized — fixing them reduces your overall issue count most efficiently. Items with an AI badge can be resolved faster using Atto's suggested fix.</td>
+  </tr>
+  <tr>
+    <td><strong>Page-Level Health</strong></td>
+    <td>Per-URL accessibility score with a severity badge breakdown for each scanned page.</td>
+    <td>Identify which individual pages need the most attention and track page-specific compliance over time.</td>
+    <td>Pages with low scores or a high proportion of Critical badges are the highest remediation priority. Compare across releases to confirm page-level improvements.</td>
+  </tr>
+  <tr>
+    <td><strong>VPAT Readiness</strong></td>
+    <td>Percentage of WCAG criteria that have both a rule mapping and test results — your readiness indicator for a VPAT submission. Click the widget to open the VPAT export dialog.</td>
+    <td>Understand how much of the WCAG criteria surface is covered before initiating a VPAT audit or responding to a customer accessibility request.</td>
+    <td>A high percentage means most criteria have been tested and documented. Gaps indicate criteria with no rule coverage or no test results — address these before submitting a VPAT.</td>
+  </tr>
+  <tr>
+    <td><strong>Remediation Progress</strong></td>
+    <td>Stacked bar chart showing issues found versus issues fixed, grouped by week.</td>
+    <td>Track whether your team is resolving accessibility issues faster than new ones are introduced.</td>
+    <td>Weeks where fixed bars exceed found bars indicate net progress. Weeks where found bars exceed fixed bars indicate accumulating debt. A converging trend confirms the backlog is shrinking.</td>
   </tr>
 </table>
 
@@ -334,5 +408,11 @@ Use these recommended widget combinations as starting points when creating a new
 - Execution Duration Trend
 - Environment Coverage
 - App Coverage By Type
+
+**Accessibility Compliance Dashboard**
+- Compliance Score
+- Issues by Severity
+- Trend Over Time
+- Remediation Progress
 
 ---
