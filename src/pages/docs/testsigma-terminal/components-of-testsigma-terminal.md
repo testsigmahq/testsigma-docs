@@ -109,7 +109,7 @@ This article discusses how to navigate and engage with the five essential compon
    - **Agentic** – displays upgrade availability for Web, Salesforce, and Desktop applications.
      Click **Upgrade to Enterprise** to enable enterprise-level Agentic features for the selected application. ![Agentic](https://s3.amazonaws.com/website-static-docs.testsigma.com/new_images/projects/Updated_Doc_Images/terminal_updates_3.png)
 
-2. Click **Active Sessions** from the left navigation panel to monitor ongoing local executions.
+## 2. Click **Active Sessions** from the left navigation panel to monitor ongoing local executions.
    ![Active Sessions](https://s3.amazonaws.com/website-static-docs.testsigma.com/new_images/projects/Updated_Doc_Images/Active_sessions_2.png)
 
    The Active Sessions page provides real-time visibility into all test runs executed through the local agent.
