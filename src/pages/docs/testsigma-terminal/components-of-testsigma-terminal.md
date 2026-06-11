@@ -98,7 +98,7 @@ This article discusses how to navigate and engage with the five essential compon
 
 1. On the **Testsigma Terminal**, review the left navigation panel, which contains two sections:
 
-   - **Copilot** – supports execution for web, Salesforce, and desktop applications.
+   -<a id="copilot"></a> **Copilot** – supports execution for web, Salesforce, and desktop applications.
    ![Copilot](https://s3.amazonaws.com/website-static-docs.testsigma.com/new_images/projects/Updated_Doc_Images/terminal_updates_1.png)
 
    [[info | **NOTE**:]]
@@ -106,10 +106,10 @@ This article discusses how to navigate and engage with the five essential compon
    | application listed under Copilot changes its status indicator from blue to green to show
    | that an active session is running. ![Applications](https://s3.amazonaws.com/website-static-docs.testsigma.com/new_images/projects/Updated_Doc_Images/terminal_updates_2.png)
 
-   - **Agentic** – displays upgrade availability for Web, Salesforce, and Desktop applications.
+   -<a id="agentic"></a> **Agentic** – displays upgrade availability for Web, Salesforce, and Desktop applications.
      Click **Upgrade to Enterprise** to enable enterprise-level Agentic features for the selected application. ![Agentic](https://s3.amazonaws.com/website-static-docs.testsigma.com/new_images/projects/Updated_Doc_Images/terminal_updates_3.png)
 
-2. Click **Active Sessions** from the left navigation panel to monitor ongoing local executions.
+2. <a id="active-sessions"></a>Click **Active Sessions** from the left navigation panel to monitor ongoing local executions.
    ![Active Sessions](https://s3.amazonaws.com/website-static-docs.testsigma.com/new_images/projects/Updated_Doc_Images/Active_sessions_2.png)
 
    The Active Sessions page provides real-time visibility into all test runs executed through the local agent.
@@ -121,17 +121,17 @@ This article discusses how to navigate and engage with the five essential compon
    - Check the timestamp of the active run.
    - Monitor execution status without navigating back to the Testsigma dashboard. ![Details of Active Sessions](https://s3.amazonaws.com/website-static-docs.testsigma.com/new_images/projects/Updated_Doc_Images/Active_sessions_1.png)
 
-3. To view logs, click **Logs** from the left panel. The **Logs** page provides a complete overview of debugging information, organized across three tabs for easy access and analysis.
+3. <a id="logs"></a>To view logs, click **Logs** from the left panel. The **Logs** page provides a complete overview of debugging information, organized across three tabs for easy access and analysis.
    ![Logs](https://s3.amazonaws.com/website-static-docs.testsigma.com/new_images/projects/Updated_Doc_Images/terminal_updates_4.png)
 
-   - **Terminal Logs** – These logs show the status and setup of the Testsigma Terminal app.You will find information about agent and packages installation, system configuration, and the communication status between the Terminal and the Copilot agent.
+   -  <a id="terminal-logs"></a>**Terminal Logs** – These logs show the status and setup of the Testsigma Terminal app.You will find information about agent and packages installation, system configuration, and the communication status between the Terminal and the Copilot agent.
      ![Terminal Logs](https://s3.amazonaws.com/website-static-docs.testsigma.com/new_images/projects/Updated_Doc_Images/terminal_updates_5.png)
-   - **Agent Logs** – These logs show everything that happens inside the execution agent (Copilot) while it is running a test. This includes the communication records and all the steps taken during test execution.
+   -  <a id="agent-logs"></a>**Agent Logs** – These logs show everything that happens inside the execution agent (Copilot) while it is running a test. This includes the communication records and all the steps taken during test execution.
      ![Agent Logs](https://s3.amazonaws.com/website-static-docs.testsigma.com/new_images/projects/Updated_Doc_Images/terminal_updates_6.png)
-   - **Execution Logs** – These logs show the real-time activity for the test you are currently running. You will find specific information related to the execution active in the Copilot.
+   -  <a id="execution-logs"></a>**Execution Logs** – These logs show the real-time activity for the test you are currently running. You will find specific information related to the execution active in the Copilot.
      ![Execution Logs](https://s3.amazonaws.com/website-static-docs.testsigma.com/new_images/projects/Updated_Doc_Images/terminal_updates_7.png)
 
-4. To customize the terminal behavior, click **Settings** from the left panel.
+4. <a id="settings"></a>To customize the terminal behavior, click **Settings** from the left panel.
    ![Settings](https://s3.amazonaws.com/website-static-docs.testsigma.com/new_images/projects/Updated_Doc_Images/Settings_terminal_1.png) 
    
    In the **Terminal Settings** page, you can perform the following actions:
@@ -159,10 +159,10 @@ This article discusses how to navigate and engage with the five essential compon
    ![Save](https://s3.amazonaws.com/website-static-docs.testsigma.com/new_images/projects/Updated_Doc_Images/Settings_terminal_2.png)
 
 
-5. Click **Info** to view the information about the Terminal. 
+5. <a id="info"></a>Click **Info** to view the information about the Terminal. 
    ![Info](https://s3.amazonaws.com/website-static-docs.testsigma.com/new_images/projects/Updated_Doc_Images/terminal_updates_8.png)
 
-6. If you encounter issues with **Testsigma Terminal**, click **Report Issue** from the left panel.
+6. <a id="report-issue"></a>If you encounter issues with **Testsigma Terminal**, click **Report Issue** from the left panel.
    ![Report Issue](https://s3.amazonaws.com/website-static-docs.testsigma.com/new_images/projects/Updated_Doc_Images/terminal_updates_10.png)
 
    - On the **Report an Issue** page, click **Report a New Issue**.
