@@ -96,102 +96,81 @@ This article discusses how to navigate and engage with the five essential compon
 
 ## **Navigating the Left Panel**
 
-The left navigation panel contains two execution sections (**Copilot** and **Agentic**) followed by the **Active Sessions**, **Logs**, **Settings**, **Info**, and **Report Issue** screens. Each screen is described below.
+1. On the **Testsigma Terminal**, review the left navigation panel, which contains two sections:
 
-### Copilot
+   - **Copilot** – supports execution for web, Salesforce, and desktop applications.
+   ![Copilot](https://s3.amazonaws.com/website-static-docs.testsigma.com/new_images/projects/Updated_Doc_Images/terminal_updates_1.png)
 
-**Copilot** supports execution for web, Salesforce, and desktop applications.
-![Copilot](https://s3.amazonaws.com/website-static-docs.testsigma.com/new_images/projects/Updated_Doc_Images/terminal_updates_1.png)
+   [[info | **NOTE**:]]
+   | When you execute a test case, whether it’s Web, Desktop, or Salesforce, the corresponding
+   | application listed under Copilot changes its status indicator from blue to green to show
+   | that an active session is running. ![Applications](https://s3.amazonaws.com/website-static-docs.testsigma.com/new_images/projects/Updated_Doc_Images/terminal_updates_2.png)
 
-[[info | **NOTE**:]]
-| When you execute a test case, whether it’s Web, Desktop, or Salesforce, the corresponding
-| application listed under Copilot changes its status indicator from blue to green to show
-| that an active session is running. ![Applications](https://s3.amazonaws.com/website-static-docs.testsigma.com/new_images/projects/Updated_Doc_Images/terminal_updates_2.png)
+   - **Agentic** – displays upgrade availability for Web, Salesforce, and Desktop applications.
+     Click **Upgrade to Enterprise** to enable enterprise-level Agentic features for the selected application. ![Agentic](https://s3.amazonaws.com/website-static-docs.testsigma.com/new_images/projects/Updated_Doc_Images/terminal_updates_3.png)
 
-### Agentic
+2. Click **Active Sessions** from the left navigation panel to monitor ongoing local executions.
+   ![Active Sessions](https://s3.amazonaws.com/website-static-docs.testsigma.com/new_images/projects/Updated_Doc_Images/Active_sessions_2.png)
 
-**Agentic** displays upgrade availability for Web, Salesforce, and Desktop applications.
-Click **Upgrade to Enterprise** to enable enterprise-level Agentic features for the selected application. ![Agentic](https://s3.amazonaws.com/website-static-docs.testsigma.com/new_images/projects/Updated_Doc_Images/terminal_updates_3.png)
+   The Active Sessions page provides real-time visibility into all test runs executed through the local agent.
 
-### Active Sessions
+   On this page, you can:
+   - View the Run ID and test name.
+   - Identify the execution type (for example, Web Copilot).
+   - See the user who triggered the execution.
+   - Check the timestamp of the active run.
+   - Monitor execution status without navigating back to the Testsigma dashboard. ![Details of Active Sessions](https://s3.amazonaws.com/website-static-docs.testsigma.com/new_images/projects/Updated_Doc_Images/Active_sessions_1.png)
 
-Click **Active Sessions** from the left navigation panel to monitor ongoing local executions.
-![Active Sessions](https://s3.amazonaws.com/website-static-docs.testsigma.com/new_images/projects/Updated_Doc_Images/Active_sessions_2.png)
+3. To view logs, click **Logs** from the left panel. The **Logs** page provides a complete overview of debugging information, organized across three tabs for easy access and analysis.
+   ![Logs](https://s3.amazonaws.com/website-static-docs.testsigma.com/new_images/projects/Updated_Doc_Images/terminal_updates_4.png)
 
-The Active Sessions page provides real-time visibility into all test runs executed through the local agent.
+   - **Terminal Logs** – These logs show the status and setup of the Testsigma Terminal app.You will find information about agent and packages installation, system configuration, and the communication status between the Terminal and the Copilot agent.
+     ![Terminal Logs](https://s3.amazonaws.com/website-static-docs.testsigma.com/new_images/projects/Updated_Doc_Images/terminal_updates_5.png)
+   - **Agent Logs** – These logs show everything that happens inside the execution agent (Copilot) while it is running a test. This includes the communication records and all the steps taken during test execution.
+     ![Agent Logs](https://s3.amazonaws.com/website-static-docs.testsigma.com/new_images/projects/Updated_Doc_Images/terminal_updates_6.png)
+   - **Execution Logs** – These logs show the real-time activity for the test you are currently running. You will find specific information related to the execution active in the Copilot.
+     ![Execution Logs](https://s3.amazonaws.com/website-static-docs.testsigma.com/new_images/projects/Updated_Doc_Images/terminal_updates_7.png)
 
-On this page, you can:
-- View the Run ID and test name.
-- Identify the execution type (for example, Web Copilot).
-- See the user who triggered the execution.
-- Check the timestamp of the active run.
-- Monitor execution status without navigating back to the Testsigma dashboard. ![Details of Active Sessions](https://s3.amazonaws.com/website-static-docs.testsigma.com/new_images/projects/Updated_Doc_Images/Active_sessions_1.png)
+4. To customize the terminal behavior, click **Settings** from the left panel.
+   ![Settings](https://s3.amazonaws.com/website-static-docs.testsigma.com/new_images/projects/Updated_Doc_Images/Settings_terminal_1.png) 
+   
+   In the **Terminal Settings** page, you can perform the following actions:
 
-### Logs
+   - **Updates**
+      - **Keep packages and terminal up to date**: Select this checkbox to allow the Terminal to download required dependencies and application updates automatically.
 
-To view logs, click **Logs** from the left panel. The **Logs** page provides a complete overview of debugging information, organized across three tabs for easy access and analysis.
-![Logs](https://s3.amazonaws.com/website-static-docs.testsigma.com/new_images/projects/Updated_Doc_Images/terminal_updates_4.png)
+   - **Security and Certificates**
+      - **Trust Store Type:** Select between **JKS** (Java KeyStore) or **PKCS12** formats for managing security certificates.
+      - **Delegate SSL Validation:** Select the checkbox to manage how the Terminal validates SSL certificates during execution.
 
-#### Terminal Logs
+   - **Network and Proxy**
+     Click **Configure Proxy** to define network rules for both HTTP and HTTPS traffic. For each protocol, you can specify:
+      - **Proxy Host and Port:** The address and port of your proxy server.
+      - **Proxy User and Password:** Credentials for authenticated proxy access.
+      - **Non Proxy Hosts:** Define specific addresses (e.g., localhost, 127.0.0.1) that should bypass the proxy server.
 
-**Terminal Logs** show the status and setup of the Testsigma Terminal app. You will find information about agent and packages installation, system configuration, and the communication status between the Terminal and the Copilot agent.
-![Terminal Logs](https://s3.amazonaws.com/website-static-docs.testsigma.com/new_images/projects/Updated_Doc_Images/terminal_updates_5.png)
+   - **Runtime and JVM**
+      - **Additional JVM Arguments:** Pass custom parameters to the Java Virtual Machine using key-value pairs (e.g., key1=value1).
+      - **Memory Allocation:** Manually define the **Min** and **Max** memory limits to optimize Terminal performance based on your system hardware.
+      - **Flexible Units:** Use the dropdown menu to specify these memory values in either **MB** or **GB**.
 
-#### Agent Logs
+   Once you have configured the settings, click **Save**. 
 
-**Agent Logs** show everything that happens inside the execution agent (Copilot) while it is running a test. This includes the communication records and all the steps taken during test execution.
-![Agent Logs](https://s3.amazonaws.com/website-static-docs.testsigma.com/new_images/projects/Updated_Doc_Images/terminal_updates_6.png)
+   ![Save](https://s3.amazonaws.com/website-static-docs.testsigma.com/new_images/projects/Updated_Doc_Images/Settings_terminal_2.png)
 
-#### Execution Logs
 
-**Execution Logs** show the real-time activity for the test you are currently running. You will find specific information related to the execution active in the Copilot.
-![Execution Logs](https://s3.amazonaws.com/website-static-docs.testsigma.com/new_images/projects/Updated_Doc_Images/terminal_updates_7.png)
+5. Click **Info** to view the information about the Terminal. 
+   ![Info](https://s3.amazonaws.com/website-static-docs.testsigma.com/new_images/projects/Updated_Doc_Images/terminal_updates_8.png)
 
-### Settings
+6. If you encounter issues with **Testsigma Terminal**, click **Report Issue** from the left panel.
+   ![Report Issue](https://s3.amazonaws.com/website-static-docs.testsigma.com/new_images/projects/Updated_Doc_Images/terminal_updates_10.png)
 
-To customize the terminal behavior, click **Settings** from the left panel.
-![Settings](https://s3.amazonaws.com/website-static-docs.testsigma.com/new_images/projects/Updated_Doc_Images/Settings_terminal_1.png)
-
-In the **Terminal Settings** page, you can perform the following actions:
-
-- **Updates**
-   - **Keep packages and terminal up to date**: Select this checkbox to allow the Terminal to download required dependencies and application updates automatically.
-
-- **Security and Certificates**
-   - **Trust Store Type:** Select between **JKS** (Java KeyStore) or **PKCS12** formats for managing security certificates.
-   - **Delegate SSL Validation:** Select the checkbox to manage how the Terminal validates SSL certificates during execution.
-
-- **Network and Proxy**
-  Click **Configure Proxy** to define network rules for both HTTP and HTTPS traffic. For each protocol, you can specify:
-   - **Proxy Host and Port:** The address and port of your proxy server.
-   - **Proxy User and Password:** Credentials for authenticated proxy access.
-   - **Non Proxy Hosts:** Define specific addresses (e.g., localhost, 127.0.0.1) that should bypass the proxy server.
-
-- **Runtime and JVM**
-   - **Additional JVM Arguments:** Pass custom parameters to the Java Virtual Machine using key-value pairs (e.g., key1=value1).
-   - **Memory Allocation:** Manually define the **Min** and **Max** memory limits to optimize Terminal performance based on your system hardware.
-   - **Flexible Units:** Use the dropdown menu to specify these memory values in either **MB** or **GB**.
-
-Once you have configured the settings, click **Save**.
-
-![Save](https://s3.amazonaws.com/website-static-docs.testsigma.com/new_images/projects/Updated_Doc_Images/Settings_terminal_2.png)
-
-### Info
-
-Click **Info** to view the information about the Terminal.
-![Info](https://s3.amazonaws.com/website-static-docs.testsigma.com/new_images/projects/Updated_Doc_Images/terminal_updates_8.png)
-
-### Report Issue
-
-If you encounter issues with **Testsigma Terminal**, click **Report Issue** from the left panel.
-![Report Issue](https://s3.amazonaws.com/website-static-docs.testsigma.com/new_images/projects/Updated_Doc_Images/terminal_updates_10.png)
-
-- On the **Report an Issue** page, click **Report a New Issue**.
-  ![Report an Issue](https://s3.amazonaws.com/website-static-docs.testsigma.com/new_images/projects/Updated_Doc_Images/terminal_updates_9.png)
-- Enter a title and description.
-  ![Title and description](https://s3.amazonaws.com/website-static-docs.testsigma.com/new_images/projects/Updated_Doc_Images/terminal_updates_11.png)
-- Click **Send Report**.
-  ![Send Report](https://s3.amazonaws.com/website-static-docs.testsigma.com/new_images/projects/Updated_Doc_Images/terminal_updates_12.png)
+   - On the **Report an Issue** page, click **Report a New Issue**.
+     ![Report an Issue](https://s3.amazonaws.com/website-static-docs.testsigma.com/new_images/projects/Updated_Doc_Images/terminal_updates_9.png)
+   - Enter a title and description.
+     ![Title and description](https://s3.amazonaws.com/website-static-docs.testsigma.com/new_images/projects/Updated_Doc_Images/terminal_updates_11.png)
+   - Click **Send Report**.
+     ![Send Report](https://s3.amazonaws.com/website-static-docs.testsigma.com/new_images/projects/Updated_Doc_Images/terminal_updates_12.png)
 
 [[info | **NOTE**:]]
 | When you report an issue, the relevant logs are automatically attached for easier troubleshooting.
