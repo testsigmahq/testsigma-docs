@@ -37,6 +37,7 @@ Dashboards update automatically as test executions complete, ensuring the data r
 - Click into failing tests to see step-by-step details and errors
 - Share dashboards with a shareable link for stakeholders
 - Update your dashboard anytime to match your changing needs
+- Monitor accessibility compliance scores, issue trends, and remediation progress across your application
 
 ---
 
@@ -52,5 +53,6 @@ You select widgets from a library and arrange them on your dashboard. Each widge
 - **Quality improvements**: Track flaky tests and error patterns to identify what to stabilize first.
 - **Team performance**: Monitor test authoring velocity and see who is contributing to test growth.
 - **Infrastructure planning**: See resource utilization and identify bottlenecks before they cause delays.
+- **Accessibility compliance**: Monitor WCAG conformance scores, track how many issues remain open by severity, and measure remediation progress, all from a single view.
 
 ---

@@ -34,7 +34,6 @@ Testsigma integrates with various tools in your software delivery cycle to make 
   * [Documentation on integrating Testsigma with Backlog](https://testsigma.com/docs/integrations/bug-reporting/backlog/)
   * [Documentation on integrating Testsigma with Mantis](https://testsigma.com/docs/integrations/bug-reporting/mantis/)
   * [Documentation on integrating Testsigma with Youtrack](https://testsigma.com/docs/integrations/bug-reporting/youtrack/)
-  * [Documentation on integrating Testsigma with Zepel](https://testsigma.com/docs/integrations/bug-reporting/zepel/)
   * [Documentation on integrating Testsigma with Xray](https://testsigma.com/docs/integrations/test-management/xray/)
 
 ---
@@ -50,7 +49,6 @@ Testsigma integrates with various tools in your software delivery cycle to make 
 ### **4. Test Management**
   * [Documentation on integrating Testsigma with Azure DevOps Boards](https://testsigma.com/docs/integrations/test-management/azure-devops-boards/)
   * [Documentation on integrating Testsigma with Trello](https://testsigma.com/docs/integrations/test-management/trello/)
-  * [Documentation on integrating Testsigma with Freshrelease](https://testsigma.com/docs/integrations/test-management/freshrelease/)
   * [Documentation on integrating Testsigma with Clickup](https://testsigma.com/docs/integrations/test-management/clickup/)
   * [Documentation on integrating Testsigma with Linear](https://testsigma.com/docs/integrations/test-management/linear/)
 

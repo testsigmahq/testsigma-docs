@@ -77,9 +77,9 @@ IE mode may hang if Protected Mode settings are inconsistent across Windows secu
 
    | Key | Data Type | Value |
    | --- | --- | --- |
-   | ts.ieMode | String | true |
+   | ts.ieMode | Boolean | true |
 
-   ![Desired Capability](https://s3.amazonaws.com/website-static-docs.testsigma.com/new_images/projects/Updated_Doc_Images/IE_1.1.png)
+   ![Desired Capability](https://s3.amazonaws.com/website-static-docs.testsigma.com/new_images/projects/Updated_Doc_Images/IE_Mode_in_Testsigma.png)
 
 7. Click **Create Profile** to save the configuration.
 

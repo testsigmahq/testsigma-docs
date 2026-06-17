@@ -31,7 +31,7 @@ Testsigma's Generative AI  capabilities streamline and accelerate test creation 
 
 With Testsigma Copilot, you can generate test cases in real-time using simple prompts. Copilot is embedded within Web, Mobile, and Live Editor, making it easy to quickly create, edit, and extend test cases.
 
-Testsigma also integrates seamlessly with tools like Jira, Figma, Xray, GitHub, and qTest, enabling test generation directly from user stories, design, and requirements.
+Testsigma also integrates seamlessly with tools like Jira, Figma, Xray, and qTest, enabling test generation directly from user stories, design, and requirements.
 
 
 
