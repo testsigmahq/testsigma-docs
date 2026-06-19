@@ -28,7 +28,7 @@ This article explains how to update the values of a Test Data Profile directly f
 > <p id="prerequisites">Prerequisites</p>
 >
 > Before you begin, ensure that you have reviewed:
-> 1. [Create a Test Data Profile](create-data-profiles.md).
+> 1. [Create a Test Data Profile](/docs/test-data/create-data-profiles/).
 > 2. [Documentation on creating test cases](https://testsigma.com/docs/test-cases/manage/add-edit-delete/#create-test-case).
 
 ---
@@ -59,8 +59,8 @@ On successful execution, the value is updated in the Test Data Profile.
 
 ## **Related Articles**
 
-- [Folder Structure for Test Data Profiles](folder-structure-for-test-data-profiles.md)
-- [Create a Test Data Profile](create-data-profiles.md)
-- [Update a Test Data Profile](update-test-data-profile.md)
+- [Folder Structure for Test Data Profiles](/docs/test-data/folder-structure-for-test-data-profiles/)
+- [Create a Test Data Profile](/docs/test-data/create-data-profiles/)
+- [Update a Test Data Profile](/docs/test-data/update-test-data-profile/)
 
 ---

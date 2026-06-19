@@ -139,12 +139,6 @@
     <priority>0.9</priority>
   </url>
   <url>
-    <loc>https://testsigma.com/docs/test-cases/manage/import-export/</loc>
-    <lastmod>2025-01-23</lastmod>
-    <changefreq>daily</changefreq>
-    <priority>0.9</priority>
-  </url>
-  <url>
     <loc>https://testsigma.com/docs/desired-capabilities/biometric-authentication/</loc>
     <lastmod>2025-01-23</lastmod>
     <changefreq>daily</changefreq>
@@ -182,12 +176,6 @@
   </url>
   <url>
     <loc>https://testsigma.com/docs/troubleshooting/setup/server-docker-deployment-errors/</loc>
-    <lastmod>2025-01-23</lastmod>
-    <changefreq>daily</changefreq>
-    <priority>0.9</priority>
-  </url>
-  <url>
-    <loc>https://testsigma.com/docs/test-management/test-plans/supported-test-lab-types/</loc>
     <lastmod>2025-01-23</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.9</priority>
@@ -313,12 +301,6 @@
     <priority>0.9</priority>
   </url>
   <url>
-    <loc>https://testsigma.com/docs/getting-started/command%20center/</loc>
-    <lastmod>2025-01-23</lastmod>
-    <changefreq>daily</changefreq>
-    <priority>0.9</priority>
-  </url>
-  <url>
     <loc>https://testsigma.com/docs/projects/requirements/</loc>
     <lastmod>2025-01-23</lastmod>
     <changefreq>daily</changefreq>
@@ -386,12 +368,6 @@
   </url>
   <url>
     <loc>https://testsigma.com/docs/elements/locator-precedence/</loc>
-    <lastmod>2025-01-23</lastmod>
-    <changefreq>daily</changefreq>
-    <priority>0.9</priority>
-  </url>
-  <url>
-    <loc>https://testsigma.com/docs/test-management/test-plans/after-test/</loc>
     <lastmod>2025-01-23</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.9</priority>
@@ -481,12 +457,6 @@
     <priority>0.9</priority>
   </url>
   <url>
-    <loc>https://testsigma.com/docs/genai-capabilities/copilot/</loc>
-    <lastmod>2025-01-23</lastmod>
-    <changefreq>daily</changefreq>
-    <priority>0.9</priority>
-  </url>
-  <url>
     <loc>https://testsigma.com/docs/on-premise-setup/installation-process/setup/</loc>
     <lastmod>2025-01-23</lastmod>
     <changefreq>daily</changefreq>
@@ -524,12 +494,6 @@
   </url>
   <url>
     <loc>https://testsigma.com/docs/reports/export-reports/export-report-pdf/</loc>
-    <lastmod>2025-01-23</lastmod>
-    <changefreq>daily</changefreq>
-    <priority>0.9</priority>
-  </url>
-  <url>
-    <loc>https://testsigma.com/docs/genai-capabilities/mobile-copilot/</loc>
     <lastmod>2025-01-23</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.9</priority>
@@ -577,18 +541,6 @@
     <priority>0.9</priority>
   </url>
   <url>
-    <loc>https://testsigma.com/docs/genai-capabilities/generate-tests-from-requirements/</loc>
-    <lastmod>2025-01-23</lastmod>
-    <changefreq>daily</changefreq>
-    <priority>0.9</priority>
-  </url>
-  <url>
-    <loc>https://testsigma.com/docs/test-management/test-plans/schedule-plans/</loc>
-    <lastmod>2025-01-23</lastmod>
-    <changefreq>daily</changefreq>
-    <priority>0.9</priority>
-  </url>
-  <url>
     <loc>https://testsigma.com/docs/test-data/types/environment/</loc>
     <lastmod>2025-01-23</lastmod>
     <changefreq>daily</changefreq>
@@ -614,12 +566,6 @@
   </url>
   <url>
     <loc>https://testsigma.com/docs/salesforce-testing/introduction/</loc>
-    <lastmod>2025-01-23</lastmod>
-    <changefreq>daily</changefreq>
-    <priority>0.9</priority>
-  </url>
-  <url>
-    <loc>https://testsigma.com/docs/test-management/test-plans/cross-browser-testing/</loc>
     <lastmod>2025-01-23</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.9</priority>
@@ -763,12 +709,6 @@
     <priority>0.9</priority>
   </url>
   <url>
-    <loc>https://testsigma.com/docs/test-management/test-plans/headless-testing/</loc>
-    <lastmod>2025-01-23</lastmod>
-    <changefreq>daily</changefreq>
-    <priority>0.9</priority>
-  </url>
-  <url>
     <loc>https://testsigma.com/docs/test-cases/create-steps-restapi/mock-apis/</loc>
     <lastmod>2025-01-23</lastmod>
     <changefreq>daily</changefreq>
@@ -901,18 +841,6 @@
     <priority>0.9</priority>
   </url>
   <url>
-    <loc>https://testsigma.com/docs/elements/auto-healing/</loc>
-    <lastmod>2025-01-23</lastmod>
-    <changefreq>daily</changefreq>
-    <priority>0.9</priority>
-  </url>
-  <url>
-    <loc>https://testsigma.com/docs/genai-capabilities/generate-tests-from-user-actions/</loc>
-    <lastmod>2025-01-23</lastmod>
-    <changefreq>daily</changefreq>
-    <priority>0.9</priority>
-  </url>
-  <url>
     <loc>https://testsigma.com/docs/integrations/bug-reporting/bugzilla/</loc>
     <lastmod>2025-01-23</lastmod>
     <changefreq>daily</changefreq>
@@ -920,12 +848,6 @@
   </url>
   <url>
     <loc>https://testsigma.com/docs/test-data/create-data-profiles/</loc>
-    <lastmod>2025-01-23</lastmod>
-    <changefreq>daily</changefreq>
-    <priority>0.9</priority>
-  </url>
-  <url>
-    <loc>https://testsigma.com/docs/genai-capabilities/generate-tests-from-swagger/</loc>
     <lastmod>2025-01-23</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.9</priority>
@@ -1045,12 +967,6 @@
     <priority>0.9</priority>
   </url>
   <url>
-    <loc>https://testsigma.com/docs/integrations/product-management/clickup/</loc>
-    <lastmod>2025-01-23</lastmod>
-    <changefreq>daily</changefreq>
-    <priority>0.9</priority>
-  </url>
-  <url>
     <loc>https://testsigma.com/docs/windows-automation/error-handling/</loc>
     <lastmod>2025-01-23</lastmod>
     <changefreq>daily</changefreq>
@@ -1076,12 +992,6 @@
   </url>
   <url>
     <loc>https://testsigma.com/docs/desired-capabilities/webviews/</loc>
-    <lastmod>2025-01-23</lastmod>
-    <changefreq>daily</changefreq>
-    <priority>0.9</priority>
-  </url>
-  <url>
-    <loc>https://testsigma.com/docs/integrations/product-management/trello/</loc>
     <lastmod>2025-01-23</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.9</priority>
@@ -1153,12 +1063,6 @@
     <priority>0.9</priority>
   </url>
   <url>
-    <loc>https://testsigma.com/docs/test-management/test-plans/manage-test-suites/</loc>
-    <lastmod>2025-01-23</lastmod>
-    <changefreq>daily</changefreq>
-    <priority>0.9</priority>
-  </url>
-  <url>
     <loc>https://testsigma.com/docs/test-cases/create-test-steps/actions-and-options-manual/bulk-actions/</loc>
     <lastmod>2025-01-23</lastmod>
     <changefreq>daily</changefreq>
@@ -1195,12 +1099,6 @@
     <priority>0.9</priority>
   </url>
   <url>
-    <loc>https://testsigma.com/docs/getting-started/setup/downloadable-package/</loc>
-    <lastmod>2025-01-23</lastmod>
-    <changefreq>daily</changefreq>
-    <priority>0.9</priority>
-  </url>
-  <url>
     <loc>https://testsigma.com/docs/getting-started/setup/overview/</loc>
     <lastmod>2025-01-23</lastmod>
     <changefreq>daily</changefreq>
@@ -1220,12 +1118,6 @@
   </url>
   <url>
     <loc>https://testsigma.com/docs/FAQs/web-apps/why-cloud-devices-cannot-access-local-apps/</loc>
-    <lastmod>2025-01-23</lastmod>
-    <changefreq>daily</changefreq>
-    <priority>0.9</priority>
-  </url>
-  <url>
-    <loc>https://testsigma.com/docs/test-management/test-plans/run-tests-in-parallel/</loc>
     <lastmod>2025-01-23</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.9</priority>
@@ -1256,12 +1148,6 @@
   </url>
   <url>
     <loc>https://testsigma.com/docs/test-cases/manage/list-actions/</loc>
-    <lastmod>2025-01-23</lastmod>
-    <changefreq>daily</changefreq>
-    <priority>0.9</priority>
-  </url>
-  <url>
-    <loc>https://testsigma.com/docs/genai-capabilities/generate-tdp/</loc>
     <lastmod>2025-01-23</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.9</priority>
@@ -1321,12 +1207,6 @@
     <priority>0.9</priority>
   </url>
   <url>
-    <loc>https://testsigma.com/docs/test-management/test-plans/manage-test-machines/</loc>
-    <lastmod>2025-01-23</lastmod>
-    <changefreq>daily</changefreq>
-    <priority>0.9</priority>
-  </url>
-  <url>
     <loc>https://testsigma.com/docs/elements/android-apps/record-multiple-elements/</loc>
     <lastmod>2025-01-23</lastmod>
     <changefreq>daily</changefreq>
@@ -1364,12 +1244,6 @@
   </url>
   <url>
     <loc>https://testsigma.com/docs/continuous-integration/rest-api/</loc>
-    <lastmod>2025-01-23</lastmod>
-    <changefreq>daily</changefreq>
-    <priority>0.9</priority>
-  </url>
-  <url>
-    <loc>https://testsigma.com/docs/test-management/test-plans/overview/</loc>
     <lastmod>2025-01-23</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.9</priority>
@@ -1429,12 +1303,6 @@
     <priority>0.9</priority>
   </url>
   <url>
-    <loc>https://testsigma.com/docs/agent/troubleshooting/logs/</loc>
-    <lastmod>2025-01-23</lastmod>
-    <changefreq>daily</changefreq>
-    <priority>0.9</priority>
-  </url>
-  <url>
     <loc>https://testsigma.com/docs/api/elements/</loc>
     <lastmod>2025-01-23</lastmod>
     <changefreq>daily</changefreq>
@@ -1448,18 +1316,6 @@
   </url>
   <url>
     <loc>https://testsigma.com/docs/getting-started/terminology/</loc>
-    <lastmod>2025-01-23</lastmod>
-    <changefreq>daily</changefreq>
-    <priority>0.9</priority>
-  </url>
-  <url>
-    <loc>https://testsigma.com/docs/open-source-docs/introduction-community/</loc>
-    <lastmod>2025-01-23</lastmod>
-    <changefreq>daily</changefreq>
-    <priority>0.9</priority>
-  </url>
-  <url>
-    <loc>https://testsigma.com/docs/test-management/test-plans/partial-test-plan-run-via-api/</loc>
     <lastmod>2025-01-23</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.9</priority>
@@ -1489,12 +1345,6 @@
     <priority>0.9</priority>
   </url>
   <url>
-    <loc>https://testsigma.com/docs/open-source-docs/docker/</loc>
-    <lastmod>2025-01-23</lastmod>
-    <changefreq>daily</changefreq>
-    <priority>0.9</priority>
-  </url>
-  <url>
     <loc>https://testsigma.com/docs/test-cases/create-steps-restapi/restful-api-overview/</loc>
     <lastmod>2025-01-23</lastmod>
     <changefreq>daily</changefreq>
@@ -1519,12 +1369,6 @@
     <priority>0.9</priority>
   </url>
   <url>
-    <loc>https://testsigma.com/docs/test-management/test-plans/distributed-testing/</loc>
-    <lastmod>2025-01-23</lastmod>
-    <changefreq>daily</changefreq>
-    <priority>0.9</priority>
-  </url>
-  <url>
     <loc>https://testsigma.com/docs/elements/web-apps/overview/</loc>
     <lastmod>2025-01-23</lastmod>
     <changefreq>daily</changefreq>
@@ -1532,12 +1376,6 @@
   </url>
   <url>
     <loc>https://testsigma.com/docs/elements/web-apps/supported-locator-types/</loc>
-    <lastmod>2025-01-23</lastmod>
-    <changefreq>daily</changefreq>
-    <priority>0.9</priority>
-  </url>
-  <url>
-    <loc>https://testsigma.com/docs/test-management/test-plans/disable-test-cases-in-test-plans/</loc>
     <lastmod>2025-01-23</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.9</priority>
@@ -1603,12 +1441,6 @@
     <priority>0.9</priority>
   </url>
   <url>
-    <loc>https://testsigma.com/docs/agent/troubleshooting/setup-issues/</loc>
-    <lastmod>2025-01-23</lastmod>
-    <changefreq>daily</changefreq>
-    <priority>0.9</priority>
-  </url>
-  <url>
     <loc>https://testsigma.com/docs/sdk/manage-runtime-test-data/</loc>
     <lastmod>2025-01-23</lastmod>
     <changefreq>daily</changefreq>
@@ -1616,18 +1448,6 @@
   </url>
   <url>
     <loc>https://testsigma.com/docs/getting-started/testsigma-sample-apps/</loc>
-    <lastmod>2025-01-23</lastmod>
-    <changefreq>daily</changefreq>
-    <priority>0.9</priority>
-  </url>
-  <url>
-    <loc>https://testsigma.com/docs/faqs/web-apps/how-to-enter-non-text-keys-in-test-cases/</loc>
-    <lastmod>2025-01-23</lastmod>
-    <changefreq>daily</changefreq>
-    <priority>0.9</priority>
-  </url>
-  <url>
-    <loc>https://testsigma.com/docs/open-source-docs/reset-password/</loc>
     <lastmod>2025-01-23</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.9</priority>
@@ -1651,12 +1471,6 @@
     <priority>0.9</priority>
   </url>
   <url>
-    <loc>https://testsigma.com/docs/test-management/test-plans/post-plan-hook/</loc>
-    <lastmod>2025-01-23</lastmod>
-    <changefreq>daily</changefreq>
-    <priority>0.9</priority>
-  </url>
-  <url>
     <loc>https://testsigma.com/docs/test-cases/create-test-steps/actions-and-options-recorder/step-options/</loc>
     <lastmod>2025-01-23</lastmod>
     <changefreq>daily</changefreq>
@@ -1664,12 +1478,6 @@
   </url>
   <url>
     <loc>https://testsigma.com/docs/test-data/types/runtime/</loc>
-    <lastmod>2025-01-23</lastmod>
-    <changefreq>daily</changefreq>
-    <priority>0.9</priority>
-  </url>
-  <url>
-    <loc>https://testsigma.com/docs/test-management/test-suites/overview/</loc>
     <lastmod>2025-01-23</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.9</priority>
@@ -1735,12 +1543,6 @@
     <priority>0.9</priority>
   </url>
   <url>
-    <loc>https://testsigma.com/docs/open-source-docs/testsigma-community-cloud/</loc>
-    <lastmod>2025-01-23</lastmod>
-    <changefreq>daily</changefreq>
-    <priority>0.9</priority>
-  </url>
-  <url>
     <loc>https://testsigma.com/docs/reports/runs/overview/</loc>
     <lastmod>2025-01-23</lastmod>
     <changefreq>daily</changefreq>
@@ -1790,12 +1592,6 @@
   </url>
   <url>
     <loc>https://testsigma.com/docs/desired-capabilities/geo-location-for-localization/</loc>
-    <lastmod>2025-01-23</lastmod>
-    <changefreq>daily</changefreq>
-    <priority>0.9</priority>
-  </url>
-  <url>
-    <loc>https://testsigma.com/docs/agent/troubleshooting/max-sessions-for-agents/</loc>
     <lastmod>2025-01-23</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.9</priority>
@@ -1862,12 +1658,6 @@
   </url>
   <url>
     <loc>https://testsigma.com/docs/elements/web-apps/image-based-elements/</loc>
-    <lastmod>2025-01-23</lastmod>
-    <changefreq>daily</changefreq>
-    <priority>0.9</priority>
-  </url>
-  <url>
-    <loc>https://testsigma.com/docs/test-management/test-plans/after-test-suite/</loc>
     <lastmod>2025-01-23</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.9</priority>
@@ -2011,12 +1801,6 @@
     <priority>0.9</priority>
   </url>
   <url>
-    <loc>https://testsigma.com/docs/integrations/test-labs/lambdatest/</loc>
-    <lastmod>2025-01-23</lastmod>
-    <changefreq>daily</changefreq>
-    <priority>0.9</priority>
-  </url>
-  <url>
     <loc>https://testsigma.com/docs/agent/pre-requisite/</loc>
     <lastmod>2025-01-23</lastmod>
     <changefreq>daily</changefreq>
@@ -2048,12 +1832,6 @@
   </url>
   <url>
     <loc>https://testsigma.com/docs/troubleshooting/NLPs/unable-to-select-radiobutton/</loc>
-    <lastmod>2025-01-23</lastmod>
-    <changefreq>daily</changefreq>
-    <priority>0.9</priority>
-  </url>
-  <url>
-    <loc>https://testsigma.com/docs/test-cases/manage/features-and-scenarios/</loc>
     <lastmod>2025-01-23</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.9</priority>
@@ -2102,12 +1880,6 @@
   </url>
   <url>
     <loc>https://testsigma.com/docs/test-data/data-generators/phonenumberfunctions-function-type/</loc>
-    <lastmod>2025-01-23</lastmod>
-    <changefreq>daily</changefreq>
-    <priority>0.9</priority>
-  </url>
-  <url>
-    <loc>https://testsigma.com/docs/agent/troubleshooting/upgrade-agent-automatically/</loc>
     <lastmod>2025-01-23</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.9</priority>
@@ -2167,19 +1939,7 @@
     <priority>0.9</priority>
   </url>
   <url>
-    <loc>https://testsigma.com/docs/test-cases/manage/import-from-yaml-or-git/</loc>
-    <lastmod>2025-01-23</lastmod>
-    <changefreq>daily</changefreq>
-    <priority>0.9</priority>
-  </url>
-  <url>
     <loc>https://testsigma.com/docs/desired-capabilities/screen-shot-capture/</loc>
-    <lastmod>2025-01-23</lastmod>
-    <changefreq>daily</changefreq>
-    <priority>0.9</priority>
-  </url>
-  <url>
-    <loc>https://testsigma.com/docs/integrations/product-management/azure-devops-boards/</loc>
     <lastmod>2025-01-23</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.9</priority>
@@ -2258,12 +2018,6 @@
   </url>
   <url>
     <loc>https://testsigma.com/docs/elements/dynamic-elements/freeze-webpage/</loc>
-    <lastmod>2025-01-23</lastmod>
-    <changefreq>daily</changefreq>
-    <priority>0.9</priority>
-  </url>
-  <url>
-    <loc>https://testsigma.com/docs/troubleshooting/REST-API/troubleshooting-API%20testcase-failure/</loc>
     <lastmod>2025-01-23</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.9</priority>
@@ -2449,12 +2203,6 @@
     <priority>0.9</priority>
   </url>
   <url>
-    <loc>https://testsigma.com/docs/genai-capabilities/overview/</loc>
-    <lastmod>2026-01-21</lastmod>
-    <changefreq>daily</changefreq>
-    <priority>0.9</priority>
-  </url>
-  <url>
     <loc>https://testsigma.com/docs/atto/generative-ai/overview/</loc>
     <lastmod>2026-01-21</lastmod>
     <changefreq>daily</changefreq>
@@ -2498,12 +2246,6 @@
   </url>
   <url>
     <loc>https://testsigma.com/docs/test-plans/manage-test-suites/</loc>
-    <lastmod>2026-01-21</lastmod>
-    <changefreq>daily</changefreq>
-    <priority>0.9</priority>
-  </url>
-  <url>
-    <loc>https://testsigma.com/docs/genai-capabilities/byok/intro/</loc>
     <lastmod>2026-01-21</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.9</priority>
@@ -2623,12 +2365,6 @@
     <priority>0.9</priority>
   </url>
   <url>
-    <loc>https://testsigma.com/docs/genai-capabilities/byok/llms/azure/</loc>
-    <lastmod>2026-01-21</lastmod>
-    <changefreq>daily</changefreq>
-    <priority>0.9</priority>
-  </url>
-  <url>
     <loc>https://testsigma.com/docs/test-management/test-cases/folders/</loc>
     <lastmod>2026-01-21</lastmod>
     <changefreq>daily</changefreq>
@@ -2636,12 +2372,6 @@
   </url>
   <url>
     <loc>https://testsigma.com/docs/test-management/integrations/figma/</loc>
-    <lastmod>2026-01-21</lastmod>
-    <changefreq>daily</changefreq>
-    <priority>0.9</priority>
-  </url>
-  <url>
-    <loc>https://testsigma.com/docs/genai-capabilities/byok/llms/openai/</loc>
     <lastmod>2026-01-21</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.9</priority>
@@ -2702,12 +2432,6 @@
   </url>
   <url>
     <loc>https://testsigma.com/docs/integrations/test-management/clickup/</loc>
-    <lastmod>2026-01-21</lastmod>
-    <changefreq>daily</changefreq>
-    <priority>0.9</priority>
-  </url>
-  <url>
-    <loc>https://testsigma.com/docs/live-editor/intro-testsigma-terminal/</loc>
     <lastmod>2026-01-21</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.9</priority>
@@ -2803,12 +2527,6 @@
     <priority>0.9</priority>
   </url>
   <url>
-    <loc>https://testsigma.com/docs/live-editor/faqs-on-testsigma-terminal/</loc>
-    <lastmod>2026-01-21</lastmod>
-    <changefreq>daily</changefreq>
-    <priority>0.9</priority>
-  </url>
-  <url>
     <loc>https://testsigma.com/docs/atto/generative-ai/integrations/github/</loc>
     <lastmod>2026-01-21</lastmod>
     <changefreq>daily</changefreq>
@@ -2888,12 +2606,6 @@
   </url>
   <url>
     <loc>https://testsigma.com/docs/atto/generative-ai/generate-tests/desktop/</loc>
-    <lastmod>2026-01-21</lastmod>
-    <changefreq>daily</changefreq>
-    <priority>0.9</priority>
-  </url>
-  <url>
-    <loc>https://testsigma.com/docs/live-editor/installing-testsigma-terminal/</loc>
     <lastmod>2026-01-21</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.9</priority>
@@ -3043,19 +2755,7 @@
     <priority>0.9</priority>
   </url>
   <url>
-    <loc>https://testsigma.com/docs/live-editor/components-of-testsigma-terminal/</loc>
-    <lastmod>2026-01-21</lastmod>
-    <changefreq>daily</changefreq>
-    <priority>0.9</priority>
-  </url>
-  <url>
     <loc>https://testsigma.com/docs/sap-automation/test-cases-for-sap-automation/</loc>
-    <lastmod>2026-01-21</lastmod>
-    <changefreq>daily</changefreq>
-    <priority>0.9</priority>
-  </url>
-  <url>
-    <loc>https://testsigma.com/docs/genai-capabilities/agentic-tests-from-github/</loc>
     <lastmod>2026-01-21</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.9</priority>
@@ -3205,12 +2905,6 @@
     <priority>0.9</priority>
   </url>
   <url>
-    <loc>https://testsigma.com/docs/atto/generative-ai/generate-tests/web-mobile-web/</loc>
-    <lastmod>2026-01-21</lastmod>
-    <changefreq>daily</changefreq>
-    <priority>0.9</priority>
-  </url>
-  <url>
     <loc>https://testsigma.com/docs/test-management/test-cases/comment-in-test-cases/</loc>
     <lastmod>2026-01-21</lastmod>
     <changefreq>daily</changefreq>
@@ -3247,12 +2941,6 @@
     <priority>0.9</priority>
   </url>
   <url>
-    <loc>https://testsigma.com/docs/live-editor/installing-testsigma-terminal-on-linux/</loc>
-    <lastmod>2026-01-21</lastmod>
-    <changefreq>daily</changefreq>
-    <priority>0.9</priority>
-  </url>
-  <url>
     <loc>https://testsigma.com/docs/accessibility-testing/mobile-accessibility-testing/</loc>
     <lastmod>2026-01-21</lastmod>
     <changefreq>daily</changefreq>
@@ -3277,19 +2965,7 @@
     <priority>0.9</priority>
   </url>
   <url>
-    <loc>https://testsigma.com/docs/genai-capabilities/generate-tests-from-figma-designs/</loc>
-    <lastmod>2026-01-21</lastmod>
-    <changefreq>daily</changefreq>
-    <priority>0.9</priority>
-  </url>
-  <url>
     <loc>https://testsigma.com/docs/desktop-automation/test-cases-for-desktop-automation/</loc>
-    <lastmod>2026-01-21</lastmod>
-    <changefreq>daily</changefreq>
-    <priority>0.9</priority>
-  </url>
-  <url>
-    <loc>https://testsigma.com/docs/live-editor/installing-testsigma-terminal-on-windows/</loc>
     <lastmod>2026-01-21</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.9</priority>
@@ -3440,12 +3116,6 @@
   </url>
   <url>
     <loc>https://testsigma.com/docs/FAQs/mobile-apps/how-to-execute-tests-in-emulators-simulators/</loc>
-    <lastmod>2026-01-21</lastmod>
-    <changefreq>daily</changefreq>
-    <priority>0.9</priority>
-  </url>
-  <url>
-    <loc>https://testsigma.com/docs/auto-healing/using-auto-healing-in-live-editor-test-execution/</loc>
     <lastmod>2026-01-21</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.9</priority>
@@ -3685,12 +3355,6 @@
     <priority>0.9</priority>
   </url>
   <url>
-    <loc>https://testsigma.com/docs/FAQs/web-apps/how-do-i-fix-the-try-again-error-when-opening-the-testsigma-desktop-app/</loc>
-    <lastmod>2026-01-21</lastmod>
-    <changefreq>daily</changefreq>
-    <priority>0.9</priority>
-  </url>
-  <url>
     <loc>https://testsigma.com/docs/live-editor/troubleshooting-for-copilot/unable-to-start-the-terminal-due-to-port-unavailability/</loc>
     <lastmod>2026-01-21</lastmod>
     <changefreq>daily</changefreq>
@@ -3711,6 +3375,42 @@
   <url>
     <loc>https://testsigma.com/docs/live-editor/troubleshooting-for-copilot/unable-to-auto-register-your-device-using-testsigma-terminal/</loc>
     <lastmod>2026-01-21</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.9</priority>
+  </url>
+  <url>
+    <loc>https://testsigma.com/docs/testsigma-terminal/installing-testsigma-terminal-on-linux/</loc>
+    <lastmod>2025-01-23</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.9</priority>
+  </url>
+  <url>
+    <loc>https://testsigma.com/docs/testsigma-terminal/components-of-testsigma-terminal/</loc>
+    <lastmod>2025-01-23</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.9</priority>
+  </url>
+  <url>
+    <loc>https://testsigma.com/docs/testsigma-terminal/intro-testsigma-terminal/</loc>
+    <lastmod>2025-01-23</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.9</priority>
+  </url>
+  <url>
+    <loc>https://testsigma.com/docs/testsigma-terminal/installing-testsigma-terminal/</loc>
+    <lastmod>2025-01-23</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.9</priority>
+  </url>
+  <url>
+    <loc>https://testsigma.com/docs/testsigma-terminal/installing-testsigma-terminal-on-windows/</loc>
+    <lastmod>2025-01-23</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.9</priority>
+  </url>
+  <url>
+    <loc>https://testsigma.com/docs/integrations/test-labs/testmu/</loc>
+    <lastmod>2025-01-23</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.9</priority>
   </url>
