@@ -3379,12 +3379,6 @@
     <priority>0.9</priority>
   </url>
   <url>
-    <loc>https://testsigma.com/docs/live-editor/introduction/</loc>
-    <lastmod>2025-01-23</lastmod>
-    <changefreq>daily</changefreq>
-    <priority>0.9</priority>
-  </url>
-  <url>
     <loc>https://testsigma.com/docs/testsigma-terminal/installing-testsigma-terminal-on-linux/</loc>
     <lastmod>2025-01-23</lastmod>
     <changefreq>daily</changefreq>
