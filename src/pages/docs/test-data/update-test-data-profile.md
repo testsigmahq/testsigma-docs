@@ -32,7 +32,7 @@ This article explains how to update an existing Test Data Profile by importing a
 > <p id="prerequisites">Prerequisites</p>
 >
 > Before you begin, ensure that you have:
-> 1. Reviewed [Create a Test Data Profile](create-data-profiles.md).
+> 1. Reviewed [Create a Test Data Profile](/docs/test-data/create-data-profiles/).
 > 2. The updated file ready to import.
 
 ---
@@ -65,8 +65,8 @@ A confirmation email is sent when the update completes.
 
 ## **Related Articles**
 
-- [Folder Structure for Test Data Profiles](folder-structure-for-test-data-profiles.md)
-- [Create a Test Data Profile](create-data-profiles.md)
-- [Update Values in a Test Data Profile](add-values-to-test-data-profile.md)
+- [Folder Structure for Test Data Profiles](/docs/test-data/folder-structure-for-test-data-profiles/)
+- [Create a Test Data Profile](/docs/test-data/create-data-profiles/)
+- [Update Values in a Test Data Profile](/docs/test-data/add-values-to-test-data-profile/)
 
 ---

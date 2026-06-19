@@ -37,7 +37,7 @@ You can also use auto-healing directly within the Live Editor to validate elemen
 
 - [Auto-healing for AI-Generated Test Cases](https://testsigma.com/docs/auto-healing/auto-healing-for-ai-generated-test-cases/)
 
-- [Using Auto-Healing in Live Editor Test Execution](https://testsigma.com/docs/auto-healing/using-auto-healing-in-live-editor-test-execution/)
+- [Using Auto-Healing in Copilot Test Execution](https://testsigma.com/docs/auto-healing/using-auto-healing-in-copilot-test-execution/)
 
 - [Auto-healing Insights](https://testsigma.com/docs/auto-healing/auto-healing-insights/)
 
