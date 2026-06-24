@@ -48,7 +48,7 @@ Use Test Data Profiles to manage large sets of test data in a structured, reusab
 >
 > Before you begin, ensure that you have:
 > 1. An active Testsigma project with the required permissions to manage test data.
-> 2. A Feature and Scenario set up in Test Data Profiles. For more information, see [Folder Structure for Test Data Profiles](/docs/test-data/folder-structure-for-test-data-profiles/).
+> 2. A Feature and Scenario set up in Test Data Profiles. For more information, see [Folder Structure for Test Data Profiles](https://testsigma.com/docs/test-data/folder-structure-for-test-data-profiles/).
 > 3. Reviewed the [documentation on creating test cases](https://testsigma.com/docs/test-cases/manage/add-edit-delete/#create-test-case).
 
 ---

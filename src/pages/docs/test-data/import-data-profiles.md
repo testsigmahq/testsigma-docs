@@ -28,7 +28,7 @@ This article explains how to import a Test Data Profile into Testsigma. With the
 > <p id="prerequisites">Prerequisites</p>
 >
 > Before you begin, ensure that you have:
-> 1. Reviewed [Folder Structure for Test Data Profiles](/docs/test-data/folder-structure-for-test-data-profiles/).
+> 1. Reviewed [Folder Structure for Test Data Profiles](https://testsigma.com/docs/test-data/folder-structure-for-test-data-profiles/).
 > 2. An XLSX file ready to import in the supported format.
 
 ---
@@ -81,7 +81,7 @@ A confirmation email is sent when the import completes. Refresh the Test Data Pr
 
 ## **Related Articles**
 
-- [Folder Structure for Test Data Profiles](/docs/test-data/folder-structure-for-test-data-profiles/)
+- [Folder Structure for Test Data Profiles](https://testsigma.com/docs/test-data/folder-structure-for-test-data-profiles/)
 - [Create a Test Data Profile](/docs/test-data/create-data-profiles/)
 - [Update a Test Data Profile](/docs/test-data/update-test-data-profile/)
 

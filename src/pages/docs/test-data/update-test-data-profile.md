@@ -65,8 +65,8 @@ A confirmation email is sent when the update completes.
 
 ## **Related Articles**
 
-- [Folder Structure for Test Data Profiles](/docs/test-data/folder-structure-for-test-data-profiles/)
-- [Create a Test Data Profile](/docs/test-data/create-data-profiles/)
-- [Update Values in a Test Data Profile](/docs/test-data/add-values-to-test-data-profile/)
+- [Folder Structure for Test Data Profiles](https://testsigma.com/docs/test-data/folder-structure-for-test-data-profiles/)
+- [Create a Test Data Profile](https://testsigma.com/docs/test-data/create-data-profiles/)
+- [Update Values in a Test Data Profile](https://testsigma.com/docs/test-data/add-values-to-test-data-profile/)
 
 ---
