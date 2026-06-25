@@ -21,6 +21,9 @@ contextual_links:
 
 WebDriverAgent (WDA) plays an important role in automating iOS tests. It bridges the code we write for testing and the actual iOS app, which helps us control the app, test how it behaves, and make sure it works correctly. This article discusses the steps and prerequisites for creating WDA files.
 
+[[info | **NOTE**:]]
+| Creating a provisioning profile and WDA file is required **only for local agent–based executions**. If you are running tests exclusively on cloud devices from Testsigma Lab, you do **not** need to create a WDA file or provisioning profile.
+
 ---
 
 > <p id="prerequisites">Prerequisites</p>
