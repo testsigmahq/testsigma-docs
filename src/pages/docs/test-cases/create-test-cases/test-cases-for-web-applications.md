@@ -37,7 +37,7 @@ Using Testsigma, you can easily create test cases for web applications using Att
 > Before you begin, ensure that:
 > 
 > 1. You have referred to the [Documentation on creating projects](https://testsigma.com/docs/projects/overview/).
-> 2. You have referred to the [Documentation on creating folders](https://testsigma.com/docs/test-cases/manage/features-and-scenarios/).
+> 2. You have referred to the [Documentation on creating folders](https://testsigma.com/docs/test-cases/create-test-cases/features-and-scenarios/).
 > 3. Testsigma Terminal is installed and the Copilot is ready.
 > 4. You have referred to the [Documentation on creating Elements](https://testsigma.com/docs/elements/web-apps/create-manually/).
 

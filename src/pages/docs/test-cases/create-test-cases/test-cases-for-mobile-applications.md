@@ -37,7 +37,7 @@ Using Testsigma, you can easily create test cases for android & iOS applications
 > Before you begin, ensure that:
 > 
 > You have referred to the [Documentation on creating projects](https://testsigma.com/docs/projects/overview/).
-> You have referred to the [Documentation on creating folders](https://testsigma.com/docs/test-cases/manage/features-and-scenarios/).
+> You have referred to the [Documentation on creating folders](https://testsigma.com/docs/test-cases/create-test-cases/features-and-scenarios/).
 > Testsigma Terminal is installed, and a local device is connected and available as a Test Machine.
 > The application file (APK for Android or IPA for iOS) is available and uploaded as an App Source.
 > You have referred to the [Documentation on creating Elements](https://testsigma.com/docs/elements/android-apps/create-manually/).

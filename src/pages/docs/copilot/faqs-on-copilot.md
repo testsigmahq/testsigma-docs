@@ -217,9 +217,9 @@ warning: false
 
 
 > For instructions on installing the **Testsigma Terminal**, see:
->   - [Documentation on installing Terminal for macOS](https://testsigma.com/docs/copilot/installing-testsigma-terminal/).
->   - [Documentation on installing Terminal for Windows](https://testsigma.com/docs/copilot/installing-testsigma-terminal-on-windows/).
->   - [Documentation on installing Terminal for Linux](https://testsigma.com/docs/copilot/installing-testsigma-terminal-on-linux/).
+>   - [Documentation on installing Terminal for macOS](https://testsigma.com/docs/testsigma-terminal/installing-testsigma-terminal/).
+>   - [Documentation on installing Terminal for Windows](https://testsigma.com/docs/testsigma-terminal/installing-testsigma-terminal-on-windows/).
+>   - [Documentation on installing Terminal for Linux](https://testsigma.com/docs/testsigma-terminal/installing-testsigma-terminal-on-linux/).
 
 ---
 

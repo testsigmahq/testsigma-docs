@@ -75,13 +75,43 @@ Follow these steps to run the partial test plan via API call:
 |**Endpoint**|<a href="https://app.testsigma.com/api/v1/execution_results" rel="nofollow">https://app.testsigma.com/api/v1/execution_results</a>| 
 |**Authorization**|Bearer Token &#8594 **<API_Token>**<br>Same as the Testsigma API key mentioned above.|
 |**Request Body Type (JSON)**|Raw|
-|**Payload**|{<br>&emsp;&emsp;"executionId": "3857",<br>&emsp;&emsp;"executionConfig": {<br>&emsp;&emsp;&emsp;&emsp;"name": "fav\_config\_name"<br>&emsp;&emsp;}<br>}|
+|**Payload**|{<br>&emsp;&emsp;"executionId": "3857",<br>&emsp;&emsp;"executionConfig": {<br>&emsp;&emsp;&emsp;&emsp;"name": "fav\_config\_name",<br>&emsp;&emsp;&emsp;&emsp;"id": config\_id<br>&emsp;&emsp;}<br>}|
 
 - Find the execution ID of your test plan in the Test Plan details and replace **3857** with it.
 - Replace the name of the saved favorite configuration with **fav\_config\_name**.
+- Replace **config\_id** with the ID of the saved favorite configuration.
 
 [[info | NOTE:]]
 | Using the correct execution ID and favorite configuration name in the API call payload is essential to ensure accurate execution.
+
+### **Fetch the Execution Config ID from the App**
+
+If you cannot use the GET API to retrieve the Execution Config ID, fetch it directly from the app using your browser's developer tools.
+
+1. Open the test plan in Testsigma.
+   
+2. Right-click anywhere on the page and select **Inspect**.
+   
+3. Select the **Network** tab in the developer tools panel.
+   
+4. Select **Preserve log**.
+   
+5. Select **Disable cache**.
+   
+6. Clear existing log entries.
+   
+7. In the Network search bar, enter: **method:POST**
+   
+8.  Select **Run** on the Partial Run configuration you want to trigger.
+   
+9.  In the Network tab, open the POST request that appears.
+    
+10. Select the **Payload** tab.
+
+11. Copy the **id** value from the payload.
+
+[[info | NOTE:]]
+| This **id** is the Execution Config ID. Pass it in the **executionConfig** object of your API request body.
 
 ---
 
@@ -118,7 +148,7 @@ Follow these steps to schedule a partial test run via API call.
 |**Endpoint**|<a href="https://app.testsigma.com/api/v1/schedule_executions" rel="nofollow">https://app.testsigma.com/api/v1/schedule_executions</a>| 
 |**Authorization**|Bearer Token &#8594 **<API_Token>**<br>Same as the Testsigma API key mentioned above.|
 |**Request Body Type (JSON)**|Raw|
-|**Payload**|{<br>&emsp;&emsp;&emsp;&emsp;"name": "RandomTest3",<br>&emsp;&emsp;&emsp;&emsp;"executionId": 3857,<br>&emsp;&emsp;&emsp;&emsp;"scheduleType": "ONCE",<br>&emsp;&emsp;&emsp;&emsp;"status": "ACTIVE",<br>&emsp;&emsp;&emsp;&emsp;"nextInterval": "2023-06-01T17:30:00.000Z",<br>&emsp;&emsp;&emsp;&emsp;"executionConfig": {<br>&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;"name": "fav\_config\_name"<br>&emsp;&emsp;&emsp;&emsp;},<br>&emsp;&emsp;&emsp;&emsp;"timezone": "IST"<br>}|
+|**Payload**|{<br>&emsp;&emsp;&emsp;&emsp;"name": "RandomTest3",<br>&emsp;&emsp;&emsp;&emsp;"executionId": 3857,<br>&emsp;&emsp;&emsp;&emsp;"scheduleType": "ONCE",<br>&emsp;&emsp;&emsp;&emsp;"status": "ACTIVE",<br>&emsp;&emsp;&emsp;&emsp;"nextInterval": "2023-06-01T17:30:00.000Z",<br>&emsp;&emsp;&emsp;&emsp;"executionConfig": {<br>&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;"name": "fav\_config\_name",<br>&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;"id": config\_id<br>&emsp;&emsp;&emsp;&emsp;},<br>&emsp;&emsp;&emsp;&emsp;"timezone": "IST"<br>}|
 
 ### **Request Body Fields**
 
@@ -132,7 +162,7 @@ Follow these steps to schedule a partial test run via API call.
 
 - **nextInterval**: Modify the time value in the schedule section to specify the desired time for the partial test run execution. Use the ISO 8601 format, such as **YYYY-MM-DDTHH:MM:SSZ**.
 
-- **executionConfig**: Enter the name of the saved configuration in the executionConfig field. Replace **fav\_config\_name** with the name of the saved favorite configuration.
+- **executionConfig**: Enter the details of the saved configuration in the executionConfig field. Replace **fav\_config\_name** with the name of the saved favorite configuration, and replace **config\_id** with the ID of the saved favorite configuration.
 
 - **timezone**: Specify the timezone for the scheduled execution.
 

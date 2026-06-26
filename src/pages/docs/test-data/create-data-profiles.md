@@ -48,7 +48,7 @@ Use Test Data Profiles to manage large sets of test data in a structured, reusab
 >
 > Before you begin, ensure that you have:
 > 1. An active Testsigma project with the required permissions to manage test data.
-> 2. A Feature and Scenario set up in Test Data Profiles. For more information, see [Folder Structure for Test Data Profiles](folder-structure-for-test-data-profiles.md).
+> 2. A Feature and Scenario set up in Test Data Profiles. For more information, see [Folder Structure for Test Data Profiles](https://testsigma.com/docs/test-data/folder-structure-for-test-data-profiles/).
 > 3. Reviewed the [documentation on creating test cases](https://testsigma.com/docs/test-cases/manage/add-edit-delete/#create-test-case).
 
 ---
@@ -73,7 +73,7 @@ Use Test Data Profiles to manage large sets of test data in a structured, reusab
    - In the **Select Location** dialog, select the **Feature** and then the **Scenario** where you want to store the profile. The selected Scenario appears under **Target Scenario** at the bottom of the dialog.
       ![select feature and scenario in select location dialog](https://s3.amazonaws.com/website-static-docs.testsigma.com/new_images/projects/Updated_Doc_Images/Select_Location_For_New_TDP.png)
    
-   - Select **Confirm**, then complete the profile creation. For more information, see [Create a Test Data Profile](create-data-profiles.md).
+   - Select **Confirm**, then complete the profile creation. For more information, see [Create a Test Data Profile](/docs/test-data/create-data-profiles/).
       ![click confirm to set location for test data profile](https://s3.amazonaws.com/website-static-docs.testsigma.com/new_images/projects/Updated_Doc_Images/Click_Confirm_Location_for_TDP.png)
    
    **From the folder tree**

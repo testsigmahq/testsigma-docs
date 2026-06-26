@@ -64,7 +64,9 @@ Testsigma also integrates seamlessly with tools like Jira, Figma, Xray, and qTes
 
 - [Generate Test Cases from Requirements](https://testsigma.com/docs/atto/generative-ai/generate-tests/requirements/)
 
-- [Generate Test Cases For Web & Mobile Web](https://testsigma.com/docs/atto/generative-ai/generate-tests/web-mobile-web/)
+- [Generate Test Cases for Web](https://testsigma.com/docs/atto/generative-ai/generate-tests/web/)
+
+- [Generate Test Cases for Mobile Web](https://testsigma.com/docs/atto/generative-ai/generate-tests/mobile-web/)
 
 - [Generate Test Cases for Android & iOS](https://testsigma.com/docs/atto/generative-ai/generate-tests/mobile/)
 
@@ -74,11 +76,7 @@ Testsigma also integrates seamlessly with tools like Jira, Figma, Xray, and qTes
 
 - [Generate Test Cases for APIs](https://testsigma.com/docs/atto/generative-ai/generate-tests/apis/)
 
-- [Generate Tests from Figma Designs](https://testsigma.com/docs/genai-capabilities/generate-tests-from-figma-designs/)
-
-- [Generate Test Cases from Swagger Schema](https://testsigma.com/docs/genai-capabilities/generate-tests-from-swagger/)
-
-- [Generate Test Cases from User Actions](https://testsigma.com/docs/genai-capabilities/generate-tests-from-user-actions/)
+- [Generate Tests from Figma Designs](https://testsigma.com/docs/atto/generative-ai/integrations/figma/)
 
 ---
 

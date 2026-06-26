@@ -5,3 +5,5 @@ public
 *.iml
 .env
 package-lock.json
+.claude-skills/
+.DS_Store

@@ -111,7 +111,7 @@ You can add a Test Data Profile to a specific Feature and Scenario in two ways.
 3. In the **Select Location** dialog, select the **Feature** and then the **Scenario** where you want to store the profile. The selected Scenario appears under **Target Scenario** at the bottom of the dialog.
    ![select feature and scenario in select location dialog](https://s3.amazonaws.com/website-static-docs.testsigma.com/new_images/projects/Updated_Doc_Images/Select_Location_For_New_TDP.png)
 
-4. Select **Confirm**, then complete the profile creation. For more information, see [Create a Test Data Profile](create-data-profiles.md).
+4. Select **Confirm**, then complete the profile creation. For more information, see [Create a Test Data Profile](/docs/test-data/create-data-profiles/).
    ![click confirm to set location for test data profile](https://s3.amazonaws.com/website-static-docs.testsigma.com/new_images/projects/Updated_Doc_Images/Click_Confirm_Location_for_TDP.png)
 
 **From the folder tree**
@@ -125,7 +125,7 @@ You can add a Test Data Profile to a specific Feature and Scenario in two ways.
 
 A new **Untitled** Test Data Profile opens in the editing view, already associated with that Scenario. 
 
-> For more information on completing the profile, see [Create a Test Data Profile](create-data-profiles.md).
+> For more information on completing the profile, see [Create a Test Data Profile](/docs/test-data/create-data-profiles/).
 
 ---
 
@@ -137,8 +137,8 @@ Use the **Search** bar at the top of the left panel to find a Test Data Profile 
 
 ## **Related articles**
 
-- [Create a Test Data Profile](create-data-profiles.md)
-- [Update a Test Data Profile](update-test-data-profile.md)
-- [Update Values in a Test Data Profile](add-values-to-test-data-profile.md)
+- [Create a Test Data Profile](/docs/test-data/create-data-profiles/)
+- [Update a Test Data Profile](/docs/test-data/update-test-data-profile/)
+- [Update Values in a Test Data Profile](/docs/test-data/add-values-to-test-data-profile/)
 
 ---
