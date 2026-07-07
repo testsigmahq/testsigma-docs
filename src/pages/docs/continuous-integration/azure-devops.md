@@ -80,8 +80,8 @@ Integrate Testsigma with Azure DevOps to trigger Test Plan executions from your 
 6. On the **Configure your pipeline** page, select **Existing Azure Pipelines YAML file** if your repository already has one, or select **Starter pipeline** to create a sample file.
 ![configure your pipeline page in Azure DevOps](https://s3.amazonaws.com/website-static-docs.testsigma.com/new_images/projects/Updated_Doc_Images/configure-your-pipeline-azure-devops.png)
 
-**(If using an existing file)**: Enter the branch and path of the YAML file in your repository.
-![Select existing pipeline while configuring an existing YAML file in Azure DevOps](https://s3.amazonaws.com/website-static-docs.testsigma.com/new_images/projects/Updated_Doc_Images/configure-pipeline-select-yaml-file-azure-devops.png)
+   **(If using an existing file)**: Enter the branch and path of the YAML file in your repository.
+   ![Select existing pipeline while configuring an existing YAML file in Azure DevOps](https://s3.amazonaws.com/website-static-docs.testsigma.com/new_images/projects/Updated_Doc_Images/configure-pipeline-select-yaml-file-azure-devops.png)
 
 7. Review the CI configuration, then click **Continue**.
 ![Review CI configuration in Azure DevOps](https://s3.amazonaws.com/website-static-docs.testsigma.com/new_images/projects/Updated_Doc_Images/review-ci-configuration-azure-devops.png)
