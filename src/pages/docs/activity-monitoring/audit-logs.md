@@ -55,7 +55,7 @@ Audit logs provide a complete record of all key activities in your Testsigma acc
 3. Each log entry includes the following details:
    ![Log Details](https://s3.amazonaws.com/website-static-docs.testsigma.com/new_images/projects/Updated_Doc_Images/Log_details.png)   
    - **Time**: Date and time when the action occurred.
-   - **Event Type**: The entity type in Testsigma (**Test Case, Test Suite, Test Plan, Test Data, Element, Environment, Authentication & Access Bridge**).
+   - **Event Type**: The entity type in Testsigma (**Test Case, Test Suite, Test Plan, Test Data, Element, Environment, REST API Step, Step Group, or Authentication & Access Bridge.**).
    - **Project/App/Version**: The project, application, and version where the change was made.
    - **Action**: The action type (**Create, Update, Delete, Login, or Logout**).
    - **User**: The user who performed the action.
@@ -69,7 +69,7 @@ You can narrow down audit log results using the following filters:
 
 ![Filters](https://s3.amazonaws.com/website-static-docs.testsigma.com/new_images/projects/Updated_Doc_Images/Filter_Audit_Logs.png)
 
-1. **Event Type**: Displays logs for a specific entity in Testsigma, such as Test Case, Test Suite, Test Plan, Test Data, Element, Environment, Authentication & Access Bridge. 
+1. **Event Type**: Displays logs for a specific entity, such as Test Case, Test Suite, Test Plan, Test Data, Element, Environment, REST API Step, Step Group, or Authentication & Access Bridge.
 
 2. **Action**: Filters logs by the type of activity performed, such as Create, Update, Delete, Login, or Logout.
 
