@@ -13,6 +13,9 @@ contextual_links:
   name: "Creating a Project"
   url: "#creating-a-project"
 - type: link
+  name: "Execution Engines"
+  url: "#execution-engines"
+- type: link
   name: "Editing a Project"
   url: "#editing-a-project"
 - type: link
@@ -54,15 +57,32 @@ This document will walk you through **creating**, **editing**, **switching**, an
 5. Click on **Create**. 
 ![Project and Settings 5](https://s3.amazonaws.com/website-static-docs.testsigma.com/new_images/projects/Updated_Doc_Images/Projects_and_Settings_Step_5.png)
 
-### **Try this interactive demo to learn how to create a Project!**
+---
 
-<div>
-  <script async src="https://js.storylane.io/js/v2/storylane.js"></script>
-  <div class="sl-embed" style="position:relative;padding-bottom:calc(57.41% + 25px);width:100%;height:0;transform:scale(1)">
-    <iframe loading="lazy" class="sl-demo" src="https://app.storylane.io/demo/mm6thgnsh6dy?embed=inline" name="sl-embed" allow="fullscreen" allowfullscreen style="position:absolute;top:0;left:0;width:100%!important;height:100%!important;border:1px solid rgba(63,95,172,0.35);box-shadow: 0px 0px 18px rgba(26, 19, 72, 0.15);border-radius:10px;box-sizing:border-box;"></iframe>
-  </div>
-</div>
+## **Execution Engines**
 
+Testsigma runs automated tests on two execution engines, **Classic** and **Modern**. **Classic runs on Selenium**. **Modern runs on Playwright for web and WebDriverIO for mobile**, which automatically waits for elements and page state, which reduces timing-related test failures.
+
+You select the engine when you create an application. You cannot change this selection afterward. To use a different engine, create a new application.
+![Engine Selection](https://s3.amazonaws.com/static-docs.testsigma.com/new/projects/applications/Engine_version_in_Project_Selection.png)
+
+The engines available depend on the application type:
+
+| **Application type** | **Available engines** |
+| --- | --- |
+| Web application | Classic and Modern |
+| Unified (Android and iOS) | Modern |
+| Android | Classic |
+| iOS | Classic |
+| Mobile Web | Classic |
+| Salesforce | Classic |
+| REST API | Classic |
+| Desktop | Classic |
+| Windows | Classic |
+
+[[info | **NOTE**:]]
+| When an application type supports more than one engine, you can select the engine while creating the application, if engine selection is enabled for your account. If engine selection is not enabled, Testsigma applies the default engine for that application type, and the selection does not appear. For more details, contact **support@testsigma.com**.
+ 
 ---
 
 ## **Editing a Project**
@@ -79,19 +99,9 @@ This document will walk you through **creating**, **editing**, **switching**, an
 4. Click on **Update** to save the changes. 
 ![Edit a Project 4](https://s3.amazonaws.com/website-static-docs.testsigma.com/new_images/projects/Updated_Doc_Images/Edit_Project_4_2.png)
 
-
-> 
+ 
 > **Adding**, **Editing**, and **Deleting** Applications & Versions can be done under **Project Settings > Applications**.
 
-
-### **Try this interactive demo to learn how to edit a Project!**
-
-<div>
-  <script async src="https://js.storylane.io/js/v2/storylane.js"></script>
-  <div class="sl-embed" style="position:relative;padding-bottom:calc(57.41% + 25px);width:100%;height:0;transform:scale(1)">
-    <iframe loading="lazy" class="sl-demo" src="https://app.storylane.io/demo/lbulubgumlge?embed=inline" name="sl-embed" allow="fullscreen" allowfullscreen style="position:absolute;top:0;left:0;width:100%!important;height:100%!important;border:1px solid rgba(63,95,172,0.35);box-shadow: 0px 0px 18px rgba(26, 19, 72, 0.15);border-radius:10px;box-sizing:border-box;"></iframe>
-  </div>
-</div>
 
 ---
 
@@ -120,16 +130,6 @@ This document will walk you through **creating**, **editing**, **switching**, an
 
 4. On the **Delete project** prompt, enter **DELETE** and click on **Delete**.
 ![Delete a Project 3](https://s3.amazonaws.com/website-static-docs.testsigma.com/new_images/projects/Updated_Doc_Images/Delete_a_Project_step_3.png)
-
-
-### **Try this interactive demo to learn how to delete a Project!**
-
-<div>
-  <script async src="https://js.storylane.io/js/v2/storylane.js"></script>
-  <div class="sl-embed" style="position:relative;padding-bottom:calc(57.41% + 25px);width:100%;height:0;transform:scale(1)">
-    <iframe loading="lazy" class="sl-demo" src="https://app.storylane.io/demo/b95th1iionov?embed=inline" name="sl-embed" allow="fullscreen" allowfullscreen style="position:absolute;top:0;left:0;width:100%!important;height:100%!important;border:1px solid rgba(63,95,172,0.35);box-shadow: 0px 0px 18px rgba(26, 19, 72, 0.15);border-radius:10px;box-sizing:border-box;"></iframe>
-  </div>
-</div>
 
 
 [[info | **NOTE**:]]
