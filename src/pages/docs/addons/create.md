@@ -32,6 +32,9 @@ contextual_links:
   name: "Publishing the Addon"
   url: "#publishing-the-addon"
 - type: link
+  name: "Creating a Modern Add-on"
+  url: "#creating-a-modern-add-on"
+- type: link
   name: "Using the Addon in a Test Case"
   url: "#using-the-addon-in-a-test-case"
 ---
@@ -140,10 +143,59 @@ zip -r addonName.zip . -x "*"
 
 ---
 
+## **Creating a Modern Add-on**
+
+Create a Modern add-on in TypeScript for applications that run on the Modern engine. A Modern application shows only Modern add-ons during authoring, and a Classic application shows only Classic add-ons.
+
+### **What a Modern Add-on Contains**
+
+A Modern add-on package can ship any combination of three capability types:
+
+| Capability | Purpose |
+| --- | --- |
+| Action | Adds a custom test step with its own natural-language grammar. |
+| Test Data Function | Returns a generated value, such as a random email or a token, for step test data, loop conditions, and step-group parameters. |
+| Hook | Runs after a test plan completes, with access to the run result and CI/CD credentials. |
+
+### **Create and Upload a Modern Add-on**
+
+1. On the Add-ons page, click **+ New Addon**.
+   ![new addon](https://s3.amazonaws.com/static-docs.testsigma.com/new/projects/applications/create_modern_addon.png)
+
+2. In the New Addon dialog,
+   - Select **Modern (TypeScript)** Engine version
+   - Enter a **Name** and a **Description**
+   - Click **Create & Proceed**. 
+  ![Create Addon](https://s3.amazonaws.com/static-docs.testsigma.com/new/projects/applications/Addon_Details_to_Proceed.png)
+
+3. Testsigma generates a scaffold TypeScript project with build scripts, a manifest file, and a source file.
+
+4. Write your actions, test data functions, or hooks as named exports in the source file.
+
+5. Build the project. The build produces a single zip file that contains the manifest and the bundled code.
+
+6. On the add-on's detail page, click **Upload Code**.
+   ![Upload Updated Code](https://s3.amazonaws.com/static-docs.testsigma.com/new/projects/applications/updated_modern_addon_Code.png)
+
+7. Select the zip file.
+
+8. Click **Update**. Testsigma reads the manifest and registers the actions, test data functions, and hooks it declares.
+   ![Update](https://s3.amazonaws.com/static-docs.testsigma.com/new/projects/applications/update_code_for_addon.png)
+
+[[info | **NOTE**:]]
+| The manifest is generated when you build the project. Do not edit it manually.
+
+> <p id="prerequisites">Additional Information</p>
+> A Modern add-on runs in a sandbox and declares an allowlist for network, filesystem, and process access. Testsigma denies any access the allowlist does not declare.
+
+---
+
 ## **Using the Addon in a Test Case**
 
 1. Create a new test case or open an existing one. Click **Add New Step** and search for the action using the keywords. 
+
 2. Look for the **Addon** icon before the test step to indicate it's from the Addon. 
+
 3. Select it from the suggestions, update the test data and element, and then click **Create Step**. ![Create a step](https://s3.amazonaws.com/website-static-docs.testsigma.com/new_images/projects/Updated_Doc_Images/update_addon_8.png)
 
 ---

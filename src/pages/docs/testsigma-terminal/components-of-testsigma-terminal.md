@@ -136,27 +136,28 @@ This article discusses how to navigate and engage with the five essential compon
    
    In the **Terminal Settings** page, you can perform the following actions:
 
-   - **Updates**
+   **a. Updates**
       - **Keep packages and terminal up to date**: Select this checkbox to allow the Terminal to download required dependencies and application updates automatically.
 
-   - **Security and Certificates**
+   **b. Security and Certificates**
       - **Trust Store Type:** Select between **JKS** (Java KeyStore) or **PKCS12** formats for managing security certificates.
       - **Delegate SSL Validation:** Select the checkbox to manage how the Terminal validates SSL certificates during execution.
 
-   - **Network and Proxy**
+   **c. Network and Proxy**
      Click **Configure Proxy** to define network rules for both HTTP and HTTPS traffic. For each protocol, you can specify:
       - **Proxy Host and Port:** The address and port of your proxy server.
       - **Proxy User and Password:** Credentials for authenticated proxy access.
       - **Non Proxy Hosts:** Define specific addresses (e.g., localhost, 127.0.0.1) that should bypass the proxy server.
 
-   - **Runtime and JVM**
+   **d. Runtime and JVM**
+      - **Engine version:** Select the engine the Terminal uses to run tests: **Modern** (recommended) or **Classic**. For more details, see [Execution Engines](https://testsigma.com/docs/projects/overview/#execution-engines).
       - **Additional JVM Arguments:** Pass custom parameters to the Java Virtual Machine using key-value pairs (e.g., key1=value1).
       - **Memory Allocation:** Manually define the **Min** and **Max** memory limits to optimize Terminal performance based on your system hardware.
       - **Flexible Units:** Use the dropdown menu to specify these memory values in either **MB** or **GB**.
 
    Once you have configured the settings, click **Save**. 
 
-   ![Save](https://s3.amazonaws.com/website-static-docs.testsigma.com/new_images/projects/Updated_Doc_Images/Settings_terminal_2.png)
+   ![Terminal Settings](https://s3.amazonaws.com/static-docs.testsigma.com/new/projects/applications/Terminal_Settings_Left_Nav.png)
 
 
 5. <a id="info"></a>Click **Info** to view the information about the Terminal. 
