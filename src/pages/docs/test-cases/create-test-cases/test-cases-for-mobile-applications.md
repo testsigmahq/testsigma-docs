@@ -24,6 +24,9 @@ contextual_links:
 - type: link
   name: "Steps to Create Test Cases Using NLPs"
   url: "#steps-to-create-test-cases-using-nlps"
+- type: link
+  name: "Steps to Create Test Cases for Unified Mobile Apps"
+  url: "#steps-to-create-test-cases-for-unified-mobile-apps"
 ---
 
 ---
@@ -144,5 +147,21 @@ For details about Recorder controls and actions, see [Controls and Actions](http
 ![Add NLP](https://s3.amazonaws.com/website-static-docs.testsigma.com/new_images/projects/Updated_Doc_Images/Select_NLP_Manually_For_Mobile_Apps.png)
 
 7. Repeat Step 5 and Step 6 to add additional steps and complete the test case workflow.
+
+---
+
+## **Steps to Create Test Cases for Unified Mobile Apps**
+
+You can create one test case in a Unified application instead of maintaining separate Android and iOS test cases. When you run the test, you upload the Android (.apk) and iOS (.ipa) app files, and Testsigma runs the single test case on both platforms and auto-heals the locators that differ between them.
+
+The following video demonstrates this workflow.
+
+
+<div style="position: relative; padding-bottom: 56.25%; height: 0; overflow: hidden;">
+  <iframe src="https://s3.amazonaws.com/static-docs.testsigma.com/new/projects/applications/Unified_Testing_Test_Case.mp4" 
+          style="position: absolute; top: 0; left: 0; width: 100%; height: 100%; border: 0;" 
+          allowfullscreen>
+  </iframe>
+</div>
 
 ---
