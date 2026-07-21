@@ -61,10 +61,13 @@ This document will walk you through **creating**, **editing**, **switching**, an
 
 ## **Execution Engines**
 
-Testsigma runs automated tests on two execution engines, **Classic** and **Modern**. **Classic runs on Selenium**. **Modern runs on Playwright for web and WebDriverIO for mobile**, which automatically waits for elements and page state, which reduces timing-related test failures.
+Testsigma runs automated tests on two execution engines, **Classic** and **Modern**. **Classic runs on Selenium**. **Modern runs on Playwright for web and WebDriverIO for mobile**, which automatically waits for elements and page state. Modern engine reduces timing-related test failures.
 
-You select the engine when you create an application. You cannot change this selection afterward. To use a different engine, create a new application.
+You select the engine when you create an application. 
 ![Engine Selection](https://s3.amazonaws.com/static-docs.testsigma.com/new/projects/applications/Engine_version_in_Project_Selection.png)
+
+[[info | **NOTE**:]]
+| You cannot change this selection afterward. To use a different engine, create a new application.
 
 The engines available depend on the application type:
 
