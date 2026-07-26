@@ -3,7 +3,7 @@ title: "Windows and IntelliJ Ultimate Edition"
 page_title: "Testsigma Development Environment with windows and IntelliJ Ultimate Edition"
 metadesc: "This article discusses how to setup Testsigma Development Environment with windows and IntelliJ Ultimate Edition | Learn how to contribute to Testsigma"
 noindex: false
-order: 23.3
+order: 24.3
 page_id: "Testsigma Development Environment with macOS and IntelliJ Ultimate Edition"
 warning: false
 contextual_links:

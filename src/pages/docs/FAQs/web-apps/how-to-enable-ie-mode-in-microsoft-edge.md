@@ -1,7 +1,7 @@
 ---
 title: "How to Enable IE Mode in Microsoft Edge?"
 metadesc: "Learn how to use the ts.ieMode desired capability in Testsigma to launch Microsoft Edge in IE mode and automate tests for legacy IE-dependent web apps."
-order: 25.24
+order: 26.24
 page_id: "how-to-enable-ie-mode-in-microsoft-edge"
 warning: false
 contextual_links:

@@ -774,5 +774,7 @@
   "agentic-learning-vs-copilot":{"/docs/atto/generative-ai/copilot/agentic-learning-vs-copilot/": "Agentic Learning vs Run with Copilot"},
   "byok": {"/docs/atto/generative-ai/byok/": "BYOK"},
   "generate-allure-report": {"/docs/reports/runs/generate-allure-report/": "Custom Allure Reports Generation"},
-  "generate-junit-report": {"/docs/reports/runs/generate-junit-report/": "Custom JUnit Report Generation"}
+  "generate-junit-report": {"/docs/reports/runs/generate-junit-report/": "Custom JUnit Report Generation"},
+  "profile-setup-guide": {"/docs/package-manager/profile-setup-guide/": "Browser Profile for Copilot"},
+  "security-and-access-requirements": {"/docs/package-manager/security-and-access-requirements/": "Security & Access Requirements"}
   }

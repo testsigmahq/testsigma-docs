@@ -2,7 +2,7 @@
 title: "FAQs on Unified Mobile"
 metadesc: "Answers to common questions about Unified Mobile testing: running one test case on both Android and iOS, the engine it uses, and cross-platform auto-healing."
 noindex: false
-order: 25.28
+order: 26.28
 page_id: "faqs-on-unified-mobile"
 search_keyword: ""
 warning: false

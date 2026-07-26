@@ -1,6 +1,6 @@
 ---
 title: "Custom Domain Requirements"
-order: 26.13
+order: 27.13
 page_id: "On-premise setup prerequisites"
 metadesc: "This detailed guide will help you understand the required services and url details for creating custom domains  | Know these details before configuring custom domains"
 noindex: false

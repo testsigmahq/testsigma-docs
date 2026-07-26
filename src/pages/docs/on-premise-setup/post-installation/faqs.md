@@ -1,6 +1,6 @@
 ---
 title: "On-Premise: FAQs"
-order: 26.32
+order: 27.32
 page_id: "On-premise setup FAQs"
 metadesc: "Learn what are the frequently asked questions if you're opting for Testsigma on-premise installation | FAQs about Testsigma on-premise specifications and installation "
 noindex: false

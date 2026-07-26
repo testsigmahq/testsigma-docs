@@ -3,7 +3,7 @@ title: "Fix Testsigma Agent Registration Failures"
 page_title: "Fix Testsigma Agent Registration Failures"
 metadesc: "Know the possible reasons why Testsigma agent registration fails due to privacy settings and learn steps to fix the issue by following the troubleshooting steps"
 noindex: false
-order: 24.35
+order: 25.35
 page_id: "fix-testsigma-agent-registration-failures"
 warning: false
 contextual_links:

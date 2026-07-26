@@ -2,7 +2,7 @@
 title: "Audit Logs: Complete Record of Activities"
 metadesc: "Track and export all user actions in Testsigma with Audit Logs. Monitor activity, ensure accountability, and support security and compliance reviews in Testsigma."
 noindex: false
-order: 35.1
+order: 36.1
 page_id: "audit-logs"
 warning: false
 contextual_links:

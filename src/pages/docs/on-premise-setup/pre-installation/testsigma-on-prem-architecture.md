@@ -1,6 +1,6 @@
 ---
 title: "Testsigma's On-Premise Architecture"
-order: 26.11
+order: 27.11
 page_id: "Testsigma's On-premise Architecture"
 metadesc: "Learn how Testsigma on-premise system architecture provides a secure environment for creating and executing automated tests within your organization's local infrastructure"
 noindex: false

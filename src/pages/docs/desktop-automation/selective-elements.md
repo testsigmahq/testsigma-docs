@@ -3,7 +3,7 @@ title: "Selective Element Recorder for Desktop Automation"
 page_title: "Selective Element Recorder for Desktop Automation"
 metadesc: "Selective Element Recorder lets you capture UI elements one at a time in desktop apps and view them in a tree structure. This article explains how to use it."
 noindex: false
-order: 30.3
+order: 31.3
 page_id: "selective-element-recorder-for-desktop-automation"
 warning: false
 contextual_links:

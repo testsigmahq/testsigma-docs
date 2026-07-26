@@ -3,7 +3,7 @@ title: "Test Salesforce Connection Before Authorization"
 page_title: "Test Salesforce Connection Before Authorization"
 metadesc: "Learn how to test your Salesforce connection in Testsigma before authorizing it. Ensure credentials are valid and avoid connection issues during the authentication process."
 noindex: false
-order: 28.4
+order: 29.4
 page_id: "Test Salesforce Connection Before Authorization"
 warning: false
 contextual_links:

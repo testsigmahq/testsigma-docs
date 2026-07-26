@@ -3,7 +3,7 @@ title: "More pre-requisite settings"
 page_title: "Pre-requisite settings"
 metadesc: "More information about pre-requisite settings is given here"
 noindex: false
-order: 24.65
+order: 25.65
 page_id: "pre-requisite-settings"
 search_keyword: ""
 warning: false

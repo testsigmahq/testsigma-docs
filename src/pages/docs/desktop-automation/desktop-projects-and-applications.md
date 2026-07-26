@@ -3,7 +3,7 @@ title: "Create Projects and Applications"
 page_title: "Create Projects and Applications"
 metadesc: "In Testsigma, you can create a desktop app by adding it to a new or existing project. This article explains how to create a project and add a desktop app."
 noindex: false
-order: 30.2
+order: 31.2
 page_id: "create-projects-and-applications"
 warning: false
 contextual_links:

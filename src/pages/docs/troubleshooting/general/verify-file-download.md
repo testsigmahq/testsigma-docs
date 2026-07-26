@@ -3,7 +3,7 @@ title: "Verify/Confirm File Download"
 page_title: "Verify/Confirm File Download"
 metadesc: "Learn how to add test steps to verfiy or confirm file download in Testsigma | Creating the following test scenario will help verify/confirm file download"
 noindex: false
-order: 24.93
+order: 25.93
 page_id: "verify-file-download"
 warning: false
 contextual_links:
