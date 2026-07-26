@@ -3,7 +3,7 @@ title: "Creating Test Cases for Desktop Automation"
 page_title: "Creating Test Cases for Desktop Automation"
 metadesc: "Desktop test cases use elements captured via Testsigma Terminal. Based on element type, Testsigma suggests actions. This article covers creating and running tests."
 noindex: false
-order: 30.5
+order: 31.5
 page_id: "creating-test-cases-for-desktop-automation"
 warning: false
 contextual_links:

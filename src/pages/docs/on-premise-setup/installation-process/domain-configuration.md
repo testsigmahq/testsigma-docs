@@ -1,6 +1,6 @@
 ---
 title: "Custom Domain Configuration"
-order: 26.22
+order: 27.22
 page_id: "Custom Domain Configuration"
 metadesc: "This article discusses how to configure custom domains for Docker setup. Custom domains ensures data security, builds user trust, improves SEO, and presents a professional image"
 noindex: false

@@ -3,7 +3,7 @@ title: "Creating Test Cases for SAP Automation"
 page_title: "Creating Test Cases for SAP Automation"
 metadesc: "SAP test cases use elements captured via Testsigma Terminal. Based on element type, Testsigma suggests actions. This article covers creating and running tests."
 noindex: false
-order: 29.4
+order: 30.4
 page_id: "creating-test-cases-for-sap-automation"
 warning: false
 contextual_links:

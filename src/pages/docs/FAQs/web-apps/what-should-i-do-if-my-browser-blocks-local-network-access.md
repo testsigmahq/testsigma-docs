@@ -1,7 +1,7 @@
 ---
 title: "What Should I Do If My Browser Blocks Local Network Access?"
 metadesc: "Desktop app may fail to launch with a Try again error in Chrome 139+. This occurs when browser permission changes block pop-ups or local network access."
-order: 25.21
+order: 26.21
 page_id: "what-should-i-do-if-my-browser-blocks-local-network-access"
 warning: false
 contextual_links:
