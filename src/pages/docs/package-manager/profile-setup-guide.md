@@ -65,11 +65,11 @@ To set this up:
 3. Copy the value in the **Profile Path** row.
    ![profile path](https://s3.amazonaws.com/static-docs.testsigma.com/new/projects/applications/Profile_Path_for_Execution.png)
 
-4. In the test confiuration, add the following **Desired Capabilities**:
+4. In the test confiuration settings, add the following **Desired Capabilities**:
 
    | Key | Data type | Value |
    | :-- | :-- | :-- |
-   | **goog:chromeOptions** | String | **{"args":["--user-data-dir=<Profile Path>"]}** |
+   | **goog:chromeOptions** | String | **{"args":["--user-data-dir=&lt;Profile Path&gt;"]}** |
 
    Replace **<Profile Path>** with the path you copied in **step 3**.
 
