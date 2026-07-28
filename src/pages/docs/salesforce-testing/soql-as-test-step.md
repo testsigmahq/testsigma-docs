@@ -3,7 +3,7 @@ title: "SOQL as Test Step"
 page_title: "SOQL as Test Step"
 metadesc: "The SOQL step in Testsigma allows you to run queries on your Salesforce data and fetch real-time results, helping you validate data directly during test execution."
 noindex: false
-order: 28.91
+order: 29.91
 page_id: "SOQL as Test Step"
 warning: false
 contextual_links:

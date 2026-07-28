@@ -2,7 +2,7 @@
 title: "Setup and Installation: Kubernetes (Helm)"
 metadesc: "Learn how to deploy Testsigma Tunnel on Kubernetes using Helm to test locally hosted applications, configure it securely, and manage the deployment over time."
 noindex: false
-order: 34.7
+order: 35.7
 page_id: "Testsigma Tunnel"
 warning: false
 contextual_links:

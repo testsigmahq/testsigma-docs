@@ -3,7 +3,7 @@ title: "Introduction: SAP Automation"
 page_title: "Introduction: SAP Automation"
 metadesc: "Testsigma enables seamless SAP Automation using actions for Windows apps | Learn how to create and run tests effortlessly for sap applications."
 noindex: false
-order: 29.1
+order: 30.1
 page_id: "testsigma-for-sap-automation"
 warning: false
 contextual_links:

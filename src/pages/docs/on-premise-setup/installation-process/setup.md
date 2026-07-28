@@ -1,6 +1,6 @@
 ---
 title: "On-Premise Installation Steps"
-order: 26.21
+order: 27.21
 page_id: "On-premise setup"
 metadesc: "Learn how to setup Testsigma On-premise using docker compose file | Steps to Deploy Docker Compose File for Testsigma's on-prem setup"
 noindex: false

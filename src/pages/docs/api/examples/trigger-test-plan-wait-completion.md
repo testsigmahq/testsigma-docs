@@ -2,7 +2,7 @@
 title: "Trigger Test Plans Remotely & Wait Until Completion"
 metadesc: "This article discusses in detail on how to trigger a Test Plan remotely using REST API and wait until the Test Run completion before publishing the test results"
 noindex: false
-order: 22.82
+order: 23.82
 page_id: "trigger-test-plan-remotely-and-wait-until-completion"
 search_keyword: "trigger test plan, remote execution, wait until completion, REST API"
 warning: false

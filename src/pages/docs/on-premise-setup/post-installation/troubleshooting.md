@@ -1,6 +1,6 @@
 ---
 title: "On-Premise: Troubleshooting"
-order: 26.33
+order: 27.33
 page_id: "On-premise setup prerequisites"
 metadesc: "This guide will help you resolve issues while installing on-premise setup | Troubleshooting guide for general & network issues while installing Testsigma's on-premise"
 noindex: false

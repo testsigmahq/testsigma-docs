@@ -1,6 +1,6 @@
 ---
 title: "On-Premise: Post-Installation Checklist"
-order: 26.31
+order: 27.31
 page_id: "Post-Installation Checklist"
 metadesc: "This checklist helps you verify that your Testsigma on-premise setup is installed, configured, and functioning as expected a few mandatory action items post upgrade"
 noindex: false

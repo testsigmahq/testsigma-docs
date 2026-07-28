@@ -1,6 +1,6 @@
 ---
 title: "Prerequisites for On-Premise Installation"
-order: 26.12
+order: 27.12
 page_id: "On-premise setup prerequisites"
 metadesc: "This detailed guide will help you understand the prerequisites for Testsigma On-premise setup  | Know these details before getting started with Testsigma on-premise setup"
 noindex: false
