@@ -65,15 +65,19 @@ To set this up:
 3. Copy the value in the **Profile Path** row.
    ![profile path](https://s3.amazonaws.com/static-docs.testsigma.com/new/projects/applications/Profile_Path_for_Execution.png)
 
-4. In the test confiuration settings, add the following **Desired Capabilities**:
+4. In the test configuration settings, add the following **Desired Capabilities**. The key depends on your browser, while the value stays the same:
 
-   | Key | Data type | Value |
-   | :-- | :-- | :-- |
-   | **goog:chromeOptions** | String | **{"args":["--user-data-dir=&lt;Profile Path&gt;"]}** |
+   | Browser | Key | Data type | Value |
+   | :-- | :-- | :-- | :-- |
+   | **Chrome** | **goog:chromeOptions** | String | **{"args":["--user-data-dir=&lt;Profile Path&gt;"]}** |
+   | **Microsoft Edge** | **MsOptions** | String | **{"args":["--user-data-dir=&lt;Profile Path&gt;"]}** |
 
    Replace **<Profile Path>** with the path you copied in **step 3**.
 
 [[info | NOTE:]]
-| This capability is confirmed for Chrome. If you're using Edge, the profile path lookup works the same way via **edge://version**. 
+| The browser must be **fully closed** before launching the session. A profile can't be used by two browser instances at once, including background or tray processes with no visible window. Otherwise, the session fails to start with a **"user data directory is already in use"** error.
+
+[[info | NOTE:]]
+| To use a **non-default** profile instead of your default one, pass **--profile-directory=&lt;folder name&gt;** alongside **--user-data-dir** (for example, **Profile 1**). The default profile works with just the **--user-data-dir** argument as documented above.
 
 ---
