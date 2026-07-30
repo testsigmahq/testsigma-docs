@@ -18,6 +18,8 @@ contextual_links:
 
 Copilot is the primary tool for test authoring and validation through local execution for Salesforce, Desktop, and Web applications. To enable this on Windows, you must install the Testsigma Terminal application. This section explains how to download, install, and set it up on your Windows machine.
 
+If you're an IT admin deploying Testsigma Terminal to managed devices at scale instead of a single machine, see [PatchMyPC Integration with Testsigma](https://testsigma.com/docs/integrations/it-admin/patchmypc-integration-with-testsigma/).
+
 ---
 
 ## **Steps to Install Testsigma Terminal on Windows**
