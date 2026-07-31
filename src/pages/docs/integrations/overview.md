@@ -54,7 +54,12 @@ Testsigma integrates with various tools in your software delivery cycle to make 
 
 ---
 
-### **5. CI/CD (Continuous Integration/Continuous deployment)**
+### **5. IT Admin**
+  * [Documentation on integrating Testsigma with PatchMyPC](https://testsigma.com/docs/integrations/it-admin/patchmypc-integration-with-testsigma/)
+
+---
+
+### **6. CI/CD (Continuous Integration/Continuous deployment)**
    * [Documentation on integrating Testsigma with Test Plan Details](https://testsigma.com/docs/continuous-integration/get-test-plan-details/)
    * [Documentation on integrating Testsigma with REST API(Generic)](https://testsigma.com/docs/continuous-integration/rest-api/)
    * [Documentation on integrating Testsigma with Jenkins](https://testsigma.com/docs/continuous-integration/jenkins/)

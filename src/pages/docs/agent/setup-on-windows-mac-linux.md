@@ -36,6 +36,8 @@ contextual_links:
 
 With **Testsigma Agent** you can run tests on local machines/devices in addition to Testsigma Cloud. This article discusses how to set up the Testsigma agent on your local machine.
 
+If you're an IT admin deploying Testsigma Agent to managed devices at scale instead of a single machine, see [PatchMyPC Integration with Testsigma](https://testsigma.com/docs/integrations/it-admin/patchmypc-integration-with-testsigma/).
+
 ---
 
 > ## **Download Formats Available**
