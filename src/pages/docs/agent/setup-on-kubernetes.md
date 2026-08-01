@@ -337,7 +337,13 @@ If you installed with Helm, run the bundled checks, which confirm the agent and 
 helm test ts-agent -n testsigma
 ```
 
-Argo CD does not run Helm test hooks, so on an Argo CD install use the direct checks below instead.
+Argo CD does not run Helm test hooks, so on an Argo CD install check the application state instead, then use the direct checks below:
+
+```bash
+argocd app get testsigma-agent
+```
+
+**Synced** and **Healthy** means the chart is applied and the pod is ready.
 
 To inspect the agent directly, on either kind of install:
 
