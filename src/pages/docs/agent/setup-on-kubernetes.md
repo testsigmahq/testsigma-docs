@@ -1,6 +1,6 @@
 ---
 title: "Setting Up Testsigma Agent on Kubernetes"
-metadesc: "Install the Testsigma Agent on a Kubernetes cluster using the official Helm chart, with Chrome, Firefox, and Edge browsers running alongside it."
+metadesc: "Install the Testsigma Agent on a Kubernetes cluster using the official Helm chart. Chrome runs alongside the agent by default, with Firefox and Edge available as options."
 noindex: false
 order: 12.35
 page_id: "setting-up-testsigma-agent-on-kubernetes"
@@ -91,7 +91,7 @@ The examples in this article use Azure Container Registry. To use GitHub Contain
    kubectl get storageclass
    ```
 
-4. A node with enough free capacity for the pod. Chrome alone requests **2.5 CPU and 3Gi**; all three browsers request **3.5 CPU and 5Gi**. The pod is scheduled as a unit, so it must fit on one node.
+4. A node with enough free capacity for the whole pod, agent and browsers together. With the default Chrome-only setup the pod requests **1 CPU and 3Gi**; with Firefox and Edge also enabled it requests **2 CPU and 5Gi**. The pod is scheduled as a unit, so it must fit on a single node.
 
 5. Outbound access from the cluster to your Testsigma instance and to the registry that serves the chart and images.
 
@@ -102,15 +102,24 @@ The examples in this article use Azure Container Registry. To use GitHub Contain
 
 ## **Install the Agent**
 
-1. In the Testsigma application, navigate to **Agents**, create an agent using the **Activate Later** option, then open **select the agent > Config** and copy the **Activation Key**.
+1. In the Testsigma application, navigate to **Agents** and create an agent using the **Activate Later** option. Select the agent, open the **Config** tab, and copy the **Activation Key**.
 
-2. Create a namespace and store the activation key in a secret:
+2. Create a namespace and store the activation key in a secret. Write the key
+   to a temporary file rather than passing it on the command line, so it does
+   not end up in your shell history or in the process list:
    ```bash
    kubectl create namespace testsigma
 
+   umask 077 && cat > activation-key.txt   # paste the key, then press Ctrl+D
+
    kubectl -n testsigma create secret generic testsigma-agent-auth \
-     --from-literal=TS_ACTIVATION_KEY='REPLACE_WITH_YOUR_ACTIVATION_KEY'
+     --from-file=TS_ACTIVATION_KEY=./activation-key.txt
+
+   rm activation-key.txt
    ```
+
+   If you manage secrets with a tool such as External Secrets Operator or
+   Sealed Secrets, create `testsigma-agent-auth` through that instead.
 
 3. Install the chart:
    ```bash
@@ -150,10 +159,17 @@ Instead of creating the agent in the application first, the agent can register i
 
 1. Obtain an **API Key** from the Testsigma application.
 
-2. Store it in a secret:
+2. Create the namespace and store the key in a secret, keeping it off the
+   command line for the same reason as above:
    ```bash
+   kubectl create namespace testsigma
+
+   umask 077 && cat > api-key.txt          # paste the key, then press Ctrl+D
+
    kubectl -n testsigma create secret generic testsigma-agent-auth \
-     --from-literal=TS_AUTO_REGISTRATION_KEY='REPLACE_WITH_API_KEY'
+     --from-file=TS_AUTO_REGISTRATION_KEY=./api-key.txt
+
+   rm api-key.txt
    ```
 
 3. Install with auto registration enabled:
@@ -165,11 +181,8 @@ Instead of creating the agent in the application first, the agent can register i
      --set agent.auth.existingSecret=testsigma-agent-auth
    ```
 
-Each agent registers under its own pod name, so you can run several at once:
-
-```bash
---set agent.replicaCount=3
-```
+Each agent registers under its own pod name, so you can run several at once by
+adding `--set agent.replicaCount=3` to the install command above.
 
 To choose the name shown in the application, set `agent.auth.autoRegistration.title`.
 
@@ -188,17 +201,29 @@ The agent image is built against a specific Testsigma region, so the three build
 | app-eu.testsigma.com | `eu` |
 | app-in.testsigma.com | `in` |
 
+Add the flag to the install command:
+
 ```bash
 --set agent.region=eu
 ```
 
-If this does not match your account, the agent starts but cannot register, because it contacts the wrong Testsigma address.
+If the agent is already installed, apply it with an upgrade:
+
+```bash
+helm upgrade ts-agent oci://testsigmaregistry.azurecr.io/charts/testsigma-agent \
+  --version 0.2.0 -n testsigma --reuse-values \
+  --set agent.region=eu
+```
+
+If the region does not match your account, the agent starts but cannot register, because it contacts the wrong Testsigma address.
 
 ---
 
 ## **Enable Additional Browsers**
 
-Chrome is enabled by default. Firefox and Edge are available and disabled:
+Chrome is enabled by default. Firefox and Edge are available and disabled.
+
+To enable them during the initial install, use this in place of step 3:
 
 ```bash
 helm install ts-agent oci://testsigmaregistry.azurecr.io/charts/testsigma-agent \
@@ -209,7 +234,19 @@ helm install ts-agent oci://testsigmaregistry.azurecr.io/charts/testsigma-agent 
   --set browsers.edge.enabled=true
 ```
 
-Each browser you enable is reported to Testsigma as available on that agent, and adds roughly **1 CPU and 1Gi** to the pod's requests. Enable only the browsers you plan to use.
+To add them to an existing release:
+
+```bash
+helm upgrade ts-agent oci://testsigmaregistry.azurecr.io/charts/testsigma-agent \
+  --version 0.2.0 -n testsigma --reuse-values \
+  --set browsers.firefox.enabled=true \
+  --set browsers.edge.enabled=true
+```
+
+The pod is recreated, so the agent goes offline briefly and returns with the
+extra browsers registered.
+
+Each browser you enable is reported to Testsigma as available on that agent, and adds **0.5 CPU and 1Gi** to the pod's requests. Enable only the browsers you plan to use.
 
 [[info | **NOTE**:]]
 | Edge is published for `amd64` only. On a cluster with `arm64` nodes, keep the pod on `amd64` with `--set nodeSelector."kubernetes\.io/arch"=amd64`.
@@ -265,6 +302,25 @@ Argo CD does not detect OCI registries automatically, so register the repository
          - CreateNamespace=true
    ```
 
+4. Sync the application. `CreateNamespace=true` changes how a sync behaves, it
+   does not start one, so a newly created application stays **OutOfSync** until
+   you trigger it. In the UI, open the application and select **SYNC**, or from
+   the CLI:
+   ```bash
+   argocd app sync testsigma-agent
+   ```
+
+   To have Argo CD deploy and self-heal without manual syncs, add this to the
+   application instead:
+   ```yaml
+     syncPolicy:
+       automated:
+         prune: true
+         selfHeal: true
+       syncOptions:
+         - CreateNamespace=true
+   ```
+
 > **Points to note:**
 > - `repoURL` holds the registry path only. The chart name belongs in `chart`, and there is no `oci://` prefix.
 > - `targetRevision` is the chart version, not the agent version.
@@ -275,13 +331,15 @@ Argo CD does not detect OCI registries automatically, so register the repository
 
 ## **Verify the Installation**
 
-Run the bundled checks, which confirm the agent and every enabled browser are responding:
+If you installed with Helm, run the bundled checks, which confirm the agent and every enabled browser are responding:
 
 ```bash
 helm test ts-agent -n testsigma
 ```
 
-To inspect the agent directly:
+Argo CD does not run Helm test hooks, so on an Argo CD install use the direct checks below instead.
+
+To inspect the agent directly, on either kind of install:
 
 ```bash
 kubectl -n testsigma logs ts-agent-testsigma-agent-0 -c agent
@@ -327,6 +385,10 @@ helm show values oci://testsigmaregistry.azurecr.io/charts/testsigma-agent --ver
 
 ## **Upgrade and Uninstall**
 
+Manage the release with whichever tool installed it. Helm commands do not apply to an application deployed by Argo CD, and editing an Argo CD application by hand is reverted on the next sync.
+
+**Installed with Helm**
+
 To move to a newer chart version:
 
 ```bash
@@ -338,6 +400,17 @@ To remove the release:
 
 ```bash
 helm uninstall ts-agent -n testsigma
+```
+
+**Installed with Argo CD**
+
+Change `targetRevision` in the application to the new chart version, then sync. To remove it, delete the application:
+
+```bash
+argocd app set testsigma-agent --revision <NEW_VERSION>
+argocd app sync testsigma-agent
+
+argocd app delete testsigma-agent
 ```
 
 The volume is kept so the agent can be reinstalled with the same registration. Delete it separately if you do not need it:
