@@ -9,6 +9,9 @@ contextual_links:
 - type: section
   name: "Contents"
 - type: link
+  name: "Where the Chart Is Published"
+  url: "#where-the-chart-is-published"
+- type: link
   name: "Prerequisites"
   url: "#prerequisites"
 - type: link
@@ -56,6 +59,24 @@ This is the Kubernetes equivalent of the Docker Compose setup described in [Sett
 > Plus a **PersistentVolumeClaim** that keeps the agent registered across restarts.
 
 The agent and the browsers share a pod on purpose. They exchange files through a shared directory during upload and download steps, and the agent reaches each browser on `localhost`. Splitting them apart breaks file upload steps.
+
+---
+
+## **Where the Chart Is Published**
+
+The same chart is available from two registries. Both are public and need no credentials.
+
+| Registry | Chart location | Container images |
+|---|---|---|
+| Azure Container Registry | `oci://testsigmaregistry.azurecr.io/charts/testsigma-agent` | Mirrored into the same registry |
+| GitHub Container Registry | `oci://ghcr.io/testsigmainc/charts/testsigma-agent` | Pulled from Docker Hub |
+
+Choose based on what your cluster is allowed to reach:
+
+- Use **Azure Container Registry** with `global.imageRegistry` when egress is restricted, because the chart and every image then come from one host.
+- Use **GitHub Container Registry** when your cluster can already reach Docker Hub. The images are not mirrored there, so `global.imageRegistry` does not apply and the agent and browser images are pulled from Docker Hub.
+
+The examples in this article use Azure Container Registry. To use GitHub Container Registry instead, swap the chart address and drop the `global.imageRegistry` flag.
 
 ---
 
@@ -108,6 +129,16 @@ The agent and the browsers share a pod on purpose. They exchange files through a
 
 [[info | **NOTE**:]]
 | `global.imageRegistry` makes the agent, the browsers, and the verification pod all pull from one registry, so that is the only host your cluster needs to reach. Omit it to pull the images from Docker Hub instead.
+
+To install the same chart from GitHub Container Registry, use this instead of step 3:
+
+```bash
+helm install ts-agent oci://ghcr.io/testsigmainc/charts/testsigma-agent \
+  --version 0.2.0 -n testsigma \
+  --set agent.auth.existingSecret=testsigma-agent-auth
+```
+
+The remaining steps are identical. Every `--set` flag shown in this article applies to both registries, apart from `global.imageRegistry`.
 
 The first start takes a few minutes. The browser images are over 1 GB each, and the browsers must pass their readiness checks before the agent container starts.
 
@@ -195,7 +226,7 @@ Argo CD does not detect OCI registries automatically, so register the repository
    |---|---|
    | Type | `helm` |
    | Name | `testsigma-charts` |
-   | Repository URL | `testsigmaregistry.azurecr.io/charts` |
+   | Repository URL | `testsigmaregistry.azurecr.io/charts`, or `ghcr.io/testsigmainc/charts` |
    | Enable OCI | Selected |
    | Username and Password | Leave empty |
 
@@ -238,6 +269,7 @@ Argo CD does not detect OCI registries automatically, so register the repository
 > - `repoURL` holds the registry path only. The chart name belongs in `chart`, and there is no `oci://` prefix.
 > - `targetRevision` is the chart version, not the agent version.
 > - Argo CD does not run Helm test hooks, so set `tests.enabled` to `false` and verify manually.
+> - To use GitHub Container Registry, set `repoURL` to `ghcr.io/testsigmainc/charts` and remove the `global.imageRegistry` value.
 
 ---
 
