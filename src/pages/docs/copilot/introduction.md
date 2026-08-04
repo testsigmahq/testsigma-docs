@@ -24,6 +24,8 @@ contextual_links:
 
 Testsigma's Copilot is an AI-powered test-authoring and debugging tool that lets you iterate over the test case by generating, editing, and executing test steps in a single live session. You can build, run, and modify a test case during the session without exiting it.
 
+A Copilot session runs either on the **Testsigma Cloud Lab**, a Testsigma-hosted cloud machine, or on **Local Devices** using the **Testsigma Terminal**. Choose the cloud lab to start a session without installing anything locally, or choose Local Devices when your application under test isn't reachable from the cloud. You select the lab when you launch a session; see [Launch Copilot](https://testsigma.com/docs/copilot/launch-copilot/) for the steps and for cloud session behavior such as parallel usage and idle timeouts.
+
 As you work, Copilot analyzes the application screen and generates relevant test steps based on the actions you perform. Each generated step can be executed immediately, allowing you to verify whether it works before moving to the next step. This makes the test creation process more interactive and reduces the need to switch between authoring, execution, and debugging repeatedly.
 
 

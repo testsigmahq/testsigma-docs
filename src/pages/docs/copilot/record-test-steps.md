@@ -28,7 +28,7 @@ Copilot lets you capture test steps by performing actions directly in your appli
 >
 > Before you begin, ensure that:
 >    - You have created a test case.
->    - You have installed and configured the **Testsigma Terminal**.
+>    - If you are running the session on **Local Devices**, you have installed and configured the **Testsigma Terminal**.
 >    - You have referred to the documentation on [Launch Copilot](https://testsigma.com/docs/copilot/launch-copilot/).
 
 ---
