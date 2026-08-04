@@ -297,6 +297,9 @@
   "setup-on-windows-mac-linux": {
     "/docs/agent/setup-on-windows-mac-linux/": "Setup: Windows, Mac, Linux"
   },
+  "setup-on-kubernetes": {
+    "/docs/agent/setup-on-kubernetes/": "Setup: Kubernetes (Helm)"
+  },
   "update-agent-manually": {
     "/docs/agent/update-agent-manually/": "Update Agent Manually"
   },
