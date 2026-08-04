@@ -1,7 +1,7 @@
 ---
 title: "Introduction: Testsigma Terminal"
 pagetitle: "Testsigma Terminal for Live Editing"
-metadesc: "Learn how to debug test cases on local devices using Testsigma Terminal, which is a Copilot. With Testsigma Terminal, you have complete control over test case execution and debugging."
+metadesc: "Learn how to debug test cases on local devices using Testsigma Terminal, which enables local Copilot sessions. With Testsigma Terminal, you have complete control over test case execution and debugging."
 noindex: false
 order: 10.11
 page_id: "Testsigma Terminal for Debugging"
@@ -32,7 +32,7 @@ Testsigma Terminal provides complete control over test case execution and debugg
 > Ensure you have the following requirements:
 > 
 > ### **1. System Requirements**
->    - **Memory**: Minimum 8 GB (dedicated for tests).
+>    - **Memory**: Minimum 16 GB (dedicated for tests).
 >    - **Disk Space**: At least 20 GB (includes reserved space for test resources such as screenshots and downloaded files).
 >    - **Processor**: Dual-Core Processor or higher.
 >   

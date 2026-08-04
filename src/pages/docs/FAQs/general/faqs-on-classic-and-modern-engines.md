@@ -40,7 +40,7 @@ Following are some frequently asked questions about Testsigma's Classic and Mode
 ---
 
 ### **6. Do my Classic add-ons work on the Modern engine?**
-**Ans:** No. Classic add-ons are written in Java and Modern add-ons in TypeScript, and the two are not interchangeable. Moving an add-on to Modern means rebuilding it in TypeScript.
+**Ans:** No. Classic add-ons are written in Java and Modern add-ons in TypeScript, and the two are not interchangeable. Moving an add-on to Modern means rebuilding it in TypeScript. See [Modern add-ons in Testsigma](https://testsigma.com/docs/addons/modern/overview/).
 
 ---
 

@@ -42,4 +42,7 @@ If you trigger 10 Test Cases with 8 parallel execution and 8 allowed queue subsc
 [[info | **NOTE**:]]
 |For Android and iOS applications, if you enable the recorder feature, an additional parallel execution is consumed. This is because the real device is launched from the Test Lab to allow recording and execution.
 
+[[info | **NOTE**:]]
+|A Copilot session launched from the **Action Panel** consumes a **Copilot parallel**, and a session on the **Testsigma Cloud Lab** also occupies one cloud parallel for its duration. A session launched through **Agentic Learning** consumes an **Atto session** instead. For more information, see [Launch Copilot](https://testsigma.com/docs/copilot/launch-copilot/).
+
 

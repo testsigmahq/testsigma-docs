@@ -310,7 +310,10 @@
     "/docs/agent/troubleshooting/setup-issues": "Agent - Startup and Registration Errors"
   },
   "faqs": {
-    "/docs/agent/faqs": "FAQs"
+    "/docs/agent/faqs": "FAQs",
+    "/docs/getting-started/faqs/": "FAQs",
+    "/docs/on-premise-setup/post-installation/faqs/": "FAQs",
+    "/docs/addons/faqs/": "FAQs"
   },
   "get-test-plan-details": {
     "/docs/continuous-integration/get-test-plan-details/": "Test Plan Details "
@@ -579,9 +582,6 @@
   "multiple-webviews":{
     "/docs/test-cases/create-test-steps/actions-and-options-recorder/multiple-webviews/": "Tests for Multiple WebViews"
   },
-  "faqs":{
-    "/docs/getting-started/faqs/": "FAQs"
-  },
   "manage-execution-stops":{
     "/docs/collaboration/manage-execution-stops/": "Execution Controls"
   },
@@ -681,8 +681,7 @@
   "prerequisites-and-machine-configurations": {"/docs/on-premise-setup/pre-installation/prerequisites-and-machine-configurations/": "Prerequisites" },
   "setup": {"/docs/on-premise-setup/installation-process/setup/": "Installation Steps" },
   "post-installation-checklist": {"/docs/on-premise-setup/post-installation/post-installation-checklist/": "Post-Installation Checklist" },
-  "troubleshooting": {"/docs/on-premise-setup/post-installation/troubleshooting/": "Troubleshooting" },
-  "faqs": {"/docs/on-premise-setup/post-installation/faqs/": "FAQs" },
+  "troubleshooting": {"/docs/on-premise-setup/post-installation/troubleshooting/": "Troubleshooting", "/docs/addons/modern/troubleshooting/": "Troubleshooting" },
   "windows-lite-automation": {"/docs/windows-lite-automation/": "Windows Automation (Lite)"},
   "windows-automation": {"/docs/windows-automation/": "Windows Automation (Advanced)"},
   "projects-and-applications": {"/docs/windows-lite-automation/projects-and-applications/": "Windows (Lite) Project & Application"},
@@ -778,5 +777,14 @@
   "profile-setup-guide": {"/docs/package-manager/profile-setup-guide/": "Browser Profile for Copilot"},
   "security-and-access-requirements": {"/docs/package-manager/security-and-access-requirements/": "Security & Access Requirements"},
   "it-admin": {"/docs/integrations/it-admin/": "IT Admin"},
-  "patchmypc-integration-with-testsigma": {"/docs/integrations/it-admin/patchmypc-integration-with-testsigma/": "PatchMyPC"}
+  "patchmypc-integration-with-testsigma": {"/docs/integrations/it-admin/patchmypc-integration-with-testsigma/": "PatchMyPC"},
+  "modern": {"/docs/addons/modern/overview/": "Modern Add-ons"},
+  "set-up-your-environment": {"/docs/addons/modern/set-up-your-environment/": "Set Up Environment"},
+  "create-an-action-addon": {"/docs/addons/modern/create-an-action-addon/": "Action Add-on"},
+  "create-a-condition-addon": {"/docs/addons/modern/create-a-condition-addon/": "Condition Add-on"},
+  "create-a-test-data-function": {"/docs/addons/modern/create-a-test-data-function/": "Test Data Function"},
+  "create-a-test-plan-hook": {"/docs/addons/modern/create-a-test-plan-hook/": "Test Plan Hook"},
+  "build-upload-and-publish": {"/docs/addons/modern/build-upload-and-publish/": "Build, Upload & Publish"},
+  "permissions-and-the-sandbox": {"/docs/addons/modern/permissions-and-the-sandbox/": "Permissions & Sandbox"},
+  "execution-context-reference": {"/docs/addons/modern/execution-context-reference/": "Execution Context"}
   }

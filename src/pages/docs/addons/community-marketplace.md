@@ -1,7 +1,7 @@
 ---
 title: "Addons Community Marketplace"
 page_title: "Explore Addons Community Marketplace: Enhance Your Testing"
-metadesc: "Discover, manage, and create add-ons to boost your testing efficiency. Browse categories, view details, and contribute to the Addons Community Marketplace."
+metadesc: "Discover, manage, and create addons to boost your testing efficiency. Browse categories, view details, and contribute to the Addons Community Marketplace."
 noindex: false
 order: 18.2
 page_id: "addons-community-marketplace-in-testsigma"
@@ -38,7 +38,10 @@ To access the Community Marketplace, click the addons icon in the navigation bar
 - **Installed Addons**: Addons that are already installed and activated in your account.
 - **My Addons**: Addons you have created, both public and private. 
 
-If you don't find an addon that suits your needs, you can create a new one and publish it to the Marketplace to help other software development engineers in test (SDETs) in the QA Community. For more information on creating a new addon, refer to the [documentation on creating a add-on](https://testsigma.com/docs/addons/create/)
+If you don't find an addon that suits your needs, you can create a new one and publish it to the Marketplace to help other software development engineers in test (SDETs) in the QA Community. For more information on creating a new addon, refer to the [documentation on creating a addon](https://testsigma.com/docs/addons/create/)
+
+[[info | **NOTE**:]]
+| Addons are engine-specific. An addon built for the Classic engine will not appear in a Modern application, and vice versa.
 
 ---
 

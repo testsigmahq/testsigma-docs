@@ -1,7 +1,7 @@
 ---
 title: "Install and Use Community Addons in Testsigma"
-page_title: "Install and Use Community Add-ons | Enhance Test Automation"
-metadesc: "Install and use community add-ons to extend functionality and simplify test automation. Learn how to browse, install, and apply add-ons in your test cases."
+page_title: "Install and Use Community Addons | Enhance Test Automation"
+metadesc: "Install and use community addons to extend functionality and simplify test automation. Learn how to browse, install, and apply addons in your test cases."
 noindex: false
 order: 18.3
 page_id: "Installing Community Addon"
@@ -31,6 +31,9 @@ Community Addon in Testsigma extend the functionality of your test cases by allo
 3. Click **Install** button you wish to install addon.
 4. The addon will be installed and available for use in your test cases after refreshing the page. 
 ![installing community addon](https://s3.amazonaws.com/website-static-docs.testsigma.com/new_images/projects/Updated_Doc_Images/update_comaddon_1.png)
+
+[[info | **NOTE**:]]
+| Addons are engine-specific. An addon built for the Classic engine will not appear in an application running the Modern engine, and vice versa.
 
 ---
 
