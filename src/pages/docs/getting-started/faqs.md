@@ -71,7 +71,7 @@ You can use & extend Testsigma however you like! Testsigma integrates seamlessly
 
 ## **Can I create custom add-ons in Testsigma?**
 
-Yes, you can build [custom add-ons](https://testsigma.com/docs/addons/what-is-an-addon/) for all your use cases on top of Testsigma with minimum effort. You can also select from a comprehensive list of existing add-ons from our community-powered marketplace. 
+Yes, you can build [custom add-ons](https://testsigma.com/docs/addons/overview/) for all your use cases on top of Testsigma with minimum effort. You can also select from a comprehensive list of existing add-ons from our community-powered marketplace. 
 
 ---
 

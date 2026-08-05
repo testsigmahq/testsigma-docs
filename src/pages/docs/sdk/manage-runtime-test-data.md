@@ -34,7 +34,7 @@ In this document we will learn how to update runtime data using methods availabl
 > <p id="prerequisites">Prerequisites</p>
 > 
 > Before you begin, ensure that you have referred to:
-> 1. [Documentation on creating add-ons](https://testsigma.com/docs/addons/create/).
+> 1. [Documentation on creating add-ons](https://testsigma.com/docs/addons/classic/create/).
 
 ---
 ## **RunTimeData on Addons**

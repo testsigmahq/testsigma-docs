@@ -29,7 +29,7 @@ contextual_links:
 > 1. macOS / Linux /Windows
 > 2. JDK 11
 > 3. Intellij IDE Editor <a href="https://www.jetbrains.com/idea/download" rel="nofollow">https://www.jetbrains.com/idea/download</a>
-> 4. Create an Add-on in Testsigma application which will download a sample Java project for add-on. For more information on creating an add-on, refer to the [documentation on creating an Add-on](https://testsigma.com/docs/addons/create/). 
+> 4. Create an Add-on in Testsigma application which will download a sample Java project for add-on. For more information on creating an add-on, refer to the [documentation on creating an Add-on](https://testsigma.com/docs/addons/classic/create/). 
 > 5. JAVA_HOME variable is set to JAVA 11
 
 ## Setup Instructions:

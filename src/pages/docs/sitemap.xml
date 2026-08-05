@@ -49,12 +49,6 @@
     <priority>0.9</priority>
   </url>
   <url>
-    <loc>https://testsigma.com/docs/addons/types/</loc>
-    <lastmod>2025-01-23</lastmod>
-    <changefreq>daily</changefreq>
-    <priority>0.9</priority>
-  </url>
-  <url>
     <loc>https://testsigma.com/docs/troubleshooting/agent/local-tests-queued/</loc>
     <lastmod>2025-01-23</lastmod>
     <changefreq>daily</changefreq>
@@ -122,12 +116,6 @@
   </url>
   <url>
     <loc>https://testsigma.com/docs/troubleshooting/mobile-apps/unable-to-start-wda-process/</loc>
-    <lastmod>2025-01-23</lastmod>
-    <changefreq>daily</changefreq>
-    <priority>0.9</priority>
-  </url>
-  <url>
-    <loc>https://testsigma.com/docs/addons/update/</loc>
     <lastmod>2025-01-23</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.9</priority>
@@ -205,7 +193,7 @@
     <priority>0.9</priority>
   </url>
   <url>
-    <loc>https://testsigma.com/docs/addons/ocr-extraction/</loc>
+    <loc>https://testsigma.com/docs/addons/examples/ocr-extraction/</loc>
     <lastmod>2025-01-23</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.9</priority>
@@ -583,7 +571,7 @@
     <priority>0.9</priority>
   </url>
   <url>
-    <loc>https://testsigma.com/docs/addons/what-is-an-addon/</loc>
+    <loc>https://testsigma.com/docs/addons/overview/</loc>
     <lastmod>2025-01-23</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.9</priority>
@@ -619,7 +607,7 @@
     <priority>0.9</priority>
   </url>
   <url>
-    <loc>https://testsigma.com/docs/addons/create/</loc>
+    <loc>https://testsigma.com/docs/addons/classic/create/</loc>
     <lastmod>2025-01-23</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.9</priority>
@@ -1279,7 +1267,7 @@
     <priority>0.9</priority>
   </url>
   <url>
-    <loc>https://testsigma.com/docs/addons/Faqs/connect-mongodb-and-postgresql-via-addon/</loc>
+    <loc>https://testsigma.com/docs/addons/examples/connect-mongodb-and-postgresql-via-addon/</loc>
     <lastmod>2025-01-23</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.9</priority>
@@ -1507,7 +1495,7 @@
     <priority>0.9</priority>
   </url>
   <url>
-    <loc>https://testsigma.com/docs/addons/create-a-post-plan-hook-add-on/</loc>
+    <loc>https://testsigma.com/docs/addons/classic/create-a-post-plan-hook-add-on/</loc>
     <lastmod>2025-01-23</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.9</priority>
@@ -1832,12 +1820,6 @@
   </url>
   <url>
     <loc>https://testsigma.com/docs/troubleshooting/NLPs/unable-to-select-radiobutton/</loc>
-    <lastmod>2025-01-23</lastmod>
-    <changefreq>daily</changefreq>
-    <priority>0.9</priority>
-  </url>
-  <url>
-    <loc>https://testsigma.com/docs/addons/community-marketplace/</loc>
     <lastmod>2025-01-23</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.9</priority>
@@ -2263,12 +2245,6 @@
     <priority>0.9</priority>
   </url>
   <url>
-    <loc>https://testsigma.com/docs/addons/install-community-addon/</loc>
-    <lastmod>2026-01-21</lastmod>
-    <changefreq>daily</changefreq>
-    <priority>0.9</priority>
-  </url>
-  <url>
     <loc>https://testsigma.com/docs/test-plans/distributed-testing/</loc>
     <lastmod>2026-01-21</lastmod>
     <changefreq>daily</changefreq>
@@ -2450,12 +2426,6 @@
   </url>
   <url>
     <loc>https://testsigma.com/docs/atto/generative-ai/integrations/jira/</loc>
-    <lastmod>2026-01-21</lastmod>
-    <changefreq>daily</changefreq>
-    <priority>0.9</priority>
-  </url>
-  <url>
-    <loc>https://testsigma.com/docs/addons/pre-requisite-to-create-addon/</loc>
     <lastmod>2026-01-21</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.9</priority>

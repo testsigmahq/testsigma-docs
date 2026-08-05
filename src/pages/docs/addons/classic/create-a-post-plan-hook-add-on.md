@@ -1,8 +1,8 @@
 ---
-title: "Create a Post Plan Hook addon in Testsigma"
+title: "Create an Addon for Post Plan Hook"
 metadesc: "This article discusses how to create an addon for Post Plan Hook in Testsigma app. These hooks run after the execution of a test plan irrespective of the result"
 noindex: false
-order: 18.8
+order: 18.62
 page_id: "Create a Post Plan Hook addon in Testsigma"
 warning: false
 contextual_links:
@@ -33,10 +33,10 @@ Users can customise the actions within these addons to fit their needs and link 
 
 To create addons, you should already know about Testsigma addons. <br>
 Refer to:
-- [Documentation on what is an addon?](https://testsigma.com/docs/addons/what-is-an-addon/)
-- [Documentation on prerequisites required for creating an addon.](https://testsigma.com/docs/addons/create/)
+- [Documentation on what is an addon?](https://testsigma.com/docs/addons/overview/)
+- [Documentation on prerequisites required for creating an addon.](https://testsigma.com/docs/addons/classic/create/)
 
-For information on how to create an addon, refer to the *[documentation on creating an addon](https://testsigma.com/docs/addons/create/)*.
+For information on how to create an addon, refer to the *[documentation on creating an addon](https://testsigma.com/docs/addons/classic/create/)*.
 
 ## **Update the action code as required for the post plan hook**
 

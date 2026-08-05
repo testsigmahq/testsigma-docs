@@ -3,7 +3,7 @@ title: "Create OCR Text Extraction Addon"
 page_title: "Create OCR Text Extraction Addon: Enhanced Test Automation"
 metadesc: "Create OCR Text Extraction Addon seamlessly with our step-by-step guide. Extract text from pages, images, and elements effortlessly. Enhance your testing."
 noindex: false
-order: 18.81
+order: 18.994
 page_id: "Create a OCR Text Extraction Addon in Testsigma"
 warning: false
 contextual_links:
@@ -33,7 +33,7 @@ This guide covers the Classic (Java) engine. For a Modern (TypeScript) addon, th
 
 > <p id="prerequisites">Prerequisites</p>
 >
-> Before creating the OCR Text Extraction addon, ensure you have met the prerequisites for addon development. For more information on creating addons, refer to the [documentation on creating addon](https://testsigma.com/docs/addons/create/).
+> Before creating the OCR Text Extraction addon, ensure you have met the prerequisites for addon development. For more information on creating addons, refer to the [documentation on creating addon](https://testsigma.com/docs/addons/classic/create/).
 
 ---
 

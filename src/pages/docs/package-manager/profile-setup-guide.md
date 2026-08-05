@@ -19,9 +19,6 @@ contextual_links:
   name: "Managed profile"
   url: "#managed-profile"
 - type: link
-  name: "Default User-Data Folder Restriction"
-  url: "#default-user-data-folder-restriction"
-- type: link
   name: "Your own browser profile"
   url: "#your-own-browser-profile"
 - type: link
@@ -63,19 +60,6 @@ The first time you launch a Copilot session in this mode, Testsigma creates a us
 
 ---
 
-## **Default User-Data Folder Restriction**
-
-A profile used for automation cannot live inside the browser's default user-data folder. This restriction comes from Chrome and Edge, not from Testsigma. Anything placed inside these directories is not accessible to automation, and Testsigma cannot launch it.
-
-Do not place automation profiles in the following locations:
-
-| Browser | Windows | macOS | Linux |
-| :-- | :-- | :-- | :-- |
-| **Chrome** | **%LOCALAPPDATA%\Google\Chrome\User Data** | **~/Library/Application Support/Google/Chrome** | **~/.config/google-chrome** |
-| **Microsoft Edge** | **%LOCALAPPDATA%\Microsoft\Edge\User Data** | **~/Library/Application Support/Microsoft Edge** | **~/.config/microsoft-edge** |
-
----
-
 ## **Your own browser profile**
 
 Sessions run in a browser profile your team manages; the recorder extension must be installed in that profile. Choose this mode when your security policies require you to control every profile.
@@ -99,6 +83,18 @@ Sessions run in a browser profile your team manages; the recorder extension must
    Replace **&lt;Profile Path&gt;** with the path of the folder you created in **step 1**.
 
 4. Install the recorder extension in that profile, either from the Chrome Web Store or through your IT extension policy.
+
+
+### **Default User-Data Folder Restriction**
+
+A profile used for automation cannot live inside the browser's default user-data folder. This restriction comes from Chrome and Edge, not from Testsigma. Anything placed inside these directories is not accessible to automation, and Testsigma cannot launch it.
+
+**Do not place automation profiles in the following locations:**
+
+| Browser | Windows | macOS | Linux |
+| :-- | :-- | :-- | :-- |
+| **Chrome** | **%LOCALAPPDATA%\Google\Chrome\User Data** | **~/Library/Application Support/Google/Chrome** | **~/.config/google-chrome** |
+| **Microsoft Edge** | **%LOCALAPPDATA%\Microsoft\Edge\User Data** | **~/Library/Application Support/Microsoft Edge** | **~/.config/microsoft-edge** |
 
 [[info | NOTE:]]
 | The browser must be **fully closed** before launching the session. A profile can't be used by two browser instances at once, including background or tray processes with no visible window. Otherwise, the session fails to start with a **"user data directory is already in use"** error.

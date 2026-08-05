@@ -32,7 +32,7 @@ Network throttling is an intentional slowing down of internet speed. It is used 
 > <p id="prerequisites">Prerequisites</p>
 >
 > Before you begin, ensure that you have referred to:
-> 1. [Documentation on understanding Testsigma Addons](https://testsigma.com/docs/addons/what-is-an-addon/).
+> 1. [Documentation on understanding Testsigma Addons](https://testsigma.com/docs/addons/overview/).
 
 ---
 
