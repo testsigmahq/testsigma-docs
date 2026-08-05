@@ -1,9 +1,9 @@
 ---
-title: "Creating a Classic (Java) Addon in Testsigma"
-pagetitle: "Create a Classic Java Addon: Automate Unique Actions Easily"
-metadesc: "Create a Classic (Java) addon in Testsigma to automate custom actions, data generation, and more. Follow simple steps to extend your testing capabilities."
+title: "Create & Update an Addon for Classic Engine"
+pagetitle: "Create and Update a Classic Java Addon: Automate Unique Actions Easily"
+metadesc: "Create and update a Classic (Java) addon in Testsigma to automate custom actions, data generation, and more. Follow simple steps to extend your testing capabilities."
 noindex: false
-order: 18.5
+order: 18.6
 page_id: "Create a Testsigma addon"
 search_keyword: ""
 warning: false
@@ -34,11 +34,14 @@ contextual_links:
 - type: link
   name: "Use Addon in a Test Case"
   url: "#use-addon-in-a-test-case"
+- type: link
+  name: "Update an Existing Addon"
+  url: "#update-an-existing-addon"
 ---
 
 ---
 
-Testsigma enables you to extend its functionality by creating addons. You can use addons to perform specific tasks that the default features of Testsigma do not cover. This document guides you through creating a Classic (Java) addon in Testsigma. For a Modern (TypeScript) addon, see [Modern addons in Testsigma](https://testsigma.com/docs/addons/modern/overview/).
+Testsigma enables you to extend its functionality by creating addons. You can use addons to perform specific tasks that the default features of Testsigma do not cover. This document guides you through creating and updating a Classic (Java) addon in Testsigma. For a Modern (TypeScript) addon, see [Modern addons in Testsigma](https://testsigma.com/docs/addons/modern/overview/).
 
 ---
 
@@ -53,13 +56,7 @@ Testsigma enables you to extend its functionality by creating addons. You can us
 
 ## **Purpose of Addons**
 
-Addons in Testsigma enhance your testing capabilities by enabling you to create custom functionalities tailored to your specific needs. Each addon action has a distinct purpose:
-
-- **Custom Actions**: You can automate tasks specific to your application using Custom Actions not covered by Testsigma's built-in actions. Integrate unique functionalities into your tests as needed with these actions. For more details on creating custom action in addons, refer to the [documentation on creating custom action in addons](https://testsigma.com/tutorials/addons/how-create-addons-actions/).
-- **Test Data Generators**: Create custom data generators for the specific test data your scripts require. Customize these generators to fit the unique data needs of your testing scenarios. For more information on creating custom data generator addon, refer to the [documentation on creating custom data generator addon](https://testsigma.com/tutorials/addons/how-create-addons-test-data-generators/).
-- **Conditional If Actions**: Execute a sequence of steps based on specified conditions to control test flows dynamically. You can use these actions to manage test execution based on runtime conditions. For further details on creating conditional if loop addon, refer to the [documentation on creating conditional if loop addon](https://testsigma.com/tutorials/addons/how-create-addons-conditional-if/).
-- **While Loops**: Repeat the steps until you meet a condition, which is useful for scenarios that require multiple iterations. Implement these loops to handle repetitive actions until you achieve the desired outcome. For more information on creating while loop addon, refer to the [documentation on creating while loop addon](https://testsigma.com/tutorials/addons/how-create-addons-while-loops/).
-- **Post-Plan Hooks**: Define actions that run after the completion of a test plan, regardless of its outcome, using Post-Plan Hooks. Use these hooks to automate tasks that need to occur after a test plan finishes. For more information on creating a post-plan hook addon, refer to the [documentation on creating post-plan hook addon](https://testsigma.com/docs/addons/create-a-post-plan-hook-add-on/).
+Addons in Testsigma enhance your testing capabilities by enabling you to create custom functionalities tailored to your specific needs: Custom Actions, Test Data Generators, Conditional If Actions, While Loops, and Post-Plan Hooks. See [Types of Addons](https://testsigma.com/docs/addons/overview/#types-of-addons) for what each type covers, and the [documentation on creating a post-plan hook addon](https://testsigma.com/docs/addons/classic/create-a-post-plan-hook-add-on/) for that specific flow.
 
 ---
 
@@ -152,5 +149,15 @@ Alternatively, open the addon and click the **Download** icon to get the source 
 2. Look for the **Addon** icon before the test step to indicate it's from the Addon.
 
 3. Select it from the suggestions, update the test data and element, and then click **Create Step**. ![Create a step](https://s3.amazonaws.com/website-static-docs.testsigma.com/new_images/projects/Updated_Doc_Images/update_addon_8.png)
+
+---
+
+## **Update an Existing Addon**
+
+Once your addon is live, you can revise it as requirements change, fixing bugs, adding features, or adjusting settings, without starting from scratch:
+
+1. Modify the addon's code and re-validate it using the same steps as [Update the Action Code](#update-the-action-code) and [Validate the Addon Code](#validate-the-addon-code) above.
+2. From the left navigation bar, go to **Addons**, open the **My Addons** tab, and select the addon you want to update.
+3. Click the dropdown icon on the addon and select **Upload Code**, then follow the same [Upload](#upload-the-updated-code) and [Publish](#publish-the-addon) steps described above.
 
 ---

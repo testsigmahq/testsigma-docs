@@ -46,7 +46,7 @@ For more information, refer to:
 
 
 **5. Addons (To access NLPs)**: Installing Testsigma addons will extend built-in actions with custom actions. These actions can be anything from clicking first, then scrolling, clicking again, scrolling indefinitely till the bottom of the page, and so on. 
-- For more information, refer to the [documentation on understanding addo-ns](https://testsigma.com/docs/addons/what-is-an-addon/).
+- For more information, refer to the [documentation on understanding addo-ns](https://testsigma.com/docs/addons/overview/).
 
 
 ---

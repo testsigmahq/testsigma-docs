@@ -127,7 +127,7 @@ const data = [
         id: 21,
         title: "Addons",
         description: "Install, Create, and Update addons to extend Testsigma's built-in repository of actions with custom actions.",
-        path: "/docs/addons/what-is-an-addon/",
+        path: "/docs/addons/overview/",
     },
     {
         id: 22,

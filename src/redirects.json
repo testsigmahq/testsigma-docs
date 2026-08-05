@@ -1,7 +1,55 @@
 [
   {
     "from": "/docs/addons",
-    "to": "/docs/addons/what-is-an-addon"
+    "to": "/docs/addons/overview"
+  },
+  {
+    "from": "/docs/addons/what-is-an-addon/",
+    "to": "/docs/addons/overview/"
+  },
+  {
+    "from": "/docs/addons/types/",
+    "to": "/docs/addons/overview/#types-of-addons"
+  },
+  {
+    "from": "/docs/addons/community-marketplace/",
+    "to": "/docs/addons/overview/#addons-community-marketplace"
+  },
+  {
+    "from": "/docs/addons/install-community-addon/",
+    "to": "/docs/addons/overview/#installing-and-using-a-community-addon"
+  },
+  {
+    "from": "/docs/addons/pre-requisite-to-create-addon/",
+    "to": "/docs/addons/overview/#prerequisites-for-creating-an-addon"
+  },
+  {
+    "from": "/docs/addons/create/",
+    "to": "/docs/addons/classic/create/"
+  },
+  {
+    "from": "/docs/addons/update/",
+    "to": "/docs/addons/classic/create/#update-an-existing-addon"
+  },
+  {
+    "from": "/docs/addons/classic/update/",
+    "to": "/docs/addons/classic/create/#update-an-existing-addon"
+  },
+  {
+    "from": "/docs/addons/create-a-post-plan-hook-add-on/",
+    "to": "/docs/addons/classic/create-a-post-plan-hook-add-on/"
+  },
+  {
+    "from": "/docs/addons/ocr-extraction/",
+    "to": "/docs/addons/examples/ocr-extraction/"
+  },
+  {
+    "from": "/docs/addons/classic/ocr-extraction/",
+    "to": "/docs/addons/examples/ocr-extraction/"
+  },
+  {
+    "from": "/docs/addons/faqs/connect-mongodb-and-postgresql-via-addon/",
+    "to": "/docs/addons/examples/connect-mongodb-and-postgresql-via-addon/"
   },
   {
     "from": "/docs/live-editor/introduction/",
