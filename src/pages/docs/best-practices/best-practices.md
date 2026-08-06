@@ -89,7 +89,7 @@ Testsigma Automation Standards emphasise the reusability of automated test cases
 ## **Customisation and Extensibility**
 
 1. You can use **add-ons to extend Testsigma's repository** of actions and create custom NLPs for specific actions that are not available in the built-in Actions List.
-2. Share your add-ons or leverage existing ones with the test automation community through the Add-ons Community Marketplace. You can use add-ons to provide additional functionality and expand the capabilities of Testsigma. For more information on creating an add-on, refer to the [documentation on creating an add-on](https://testsigma.com/docs/addons/create/).
+2. Share your add-ons or leverage existing ones with the test automation community through the Add-ons Community Marketplace. You can use add-ons to provide additional functionality and expand the capabilities of Testsigma. For more information on creating an add-on, refer to the [documentation on creating an add-on](https://testsigma.com/docs/addons/classic/create/).
 
 [[info | Example:]]
 | You create an add-on for verifying text from two DOM elements.

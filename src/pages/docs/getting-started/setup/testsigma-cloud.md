@@ -60,7 +60,7 @@ With **Testsigma Cloud**, you can create projects, applications, tests and view 
 
 - [Take the complete course](https://testsigma.com/tutorials/): Learn how to use Testsigma end-to-end, using our tutorials. 
 
-- [Create your own add-ons](https://testsigma.com/docs/addons/what-is-an-addon/): Cover more test scenarios by creating add ons in Testsigma.
+- [Create your own add-ons](https://testsigma.com/docs/addons/overview/): Cover more test scenarios by creating add ons in Testsigma.
 
 - [Integrate with your CI/CD pipeline](https://testsigma.com/docs/continuous-integration/jenkins/): Enable continuous testing by integrating with your CI/CD tools. 
 

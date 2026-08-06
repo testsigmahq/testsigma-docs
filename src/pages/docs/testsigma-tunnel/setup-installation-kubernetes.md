@@ -1,6 +1,6 @@
 ---
 title: "Setup and Installation: Kubernetes (Helm)"
-metadesc: "Learn how to deploy Testsigma Tunnel on Kubernetes using Helm to test locally hosted applications, configure it securely, and manage the deployment over time."
+metadesc: "Install the Testsigma Tunnel on Kubernetes with the official Helm chart to test privately hosted applications, then configure, scale, and upgrade the deployment."
 noindex: false
 order: 35.7
 page_id: "Testsigma Tunnel"
@@ -12,35 +12,32 @@ contextual_links:
   name: "Prerequisites"
   url: "#prerequisites"
 - type: link
-  name: "How the Tunnel Works"
-  url: "#how-the-tunnel-works"
+  name: "Where the Chart Is Published"
+  url: "#where-the-chart-is-published"
 - type: link
-  name: "Create the Helm Chart"
-  url: "#create-the-helm-chart"
+  name: "How the Tunnel Runs"
+  url: "#how-the-tunnel-runs"
 - type: link
-  name: "Configure Your Values File"
-  url: "#configure-your-values-file"
+  name: "Install the Tunnel"
+  url: "#install-the-tunnel"
 - type: link
-  name: "Deploy the Chart"
-  url: "#deploy-the-chart"
+  name: "Select Your Testsigma Region"
+  url: "#select-your-testsigma-region"
 - type: link
-  name: "Verify the Deployment"
-  url: "#verify-the-deployment"
+  name: "Verify the Installation"
+  url: "#verify-the-installation"
 - type: link
   name: "Configuration Reference"
   url: "#configuration-reference"
 - type: link
-  name: "Manage Secrets"
-  url: "#manage-secrets"
+  name: "Scale the Tunnel"
+  url: "#scale-the-tunnel"
 - type: link
-  name: "Scale and Manage the Tunnel"
-  url: "#scale-and-manage-the-tunnel"
+  name: "Upgrade and Uninstall"
+  url: "#upgrade-and-uninstall"
 - type: link
-  name: "Update the Tunnel"
-  url: "#update-the-tunnel"
-- type: link
-  name: "Advanced Configuration"
-  url: "#advanced-configuration"
+  name: "Install Using Argo CD"
+  url: "#install-using-argo-cd"
 - type: link
   name: "Troubleshoot"
   url: "#troubleshoot"
@@ -48,580 +45,361 @@ contextual_links:
 
 ---
 
-The Testsigma Tunnel Client creates a secure connection between your Kubernetes cluster and the Testsigma platform. This connection lets you run automated tests against applications deployed in private networks or behind firewalls, without exposing those applications to the public internet.
+The Testsigma Tunnel Client creates a secure connection between your Kubernetes cluster and the Testsigma platform. That connection lets you run automated tests against applications deployed in private networks or behind firewalls, without exposing those applications to the public internet.
 
-This article discusses how to deploy the Testsigma Tunnel Client on Kubernetes using a Helm chart, configure it securely, and manage the deployment over time.
-
----
-
-> <p id="prerequisites">Prerequisites</p>
->
-> Before you begin, ensure that you have:
-> 1. Referred to the [documentation on key components](https://testsigma.com/docs/testsigma-tunnel/key-components/).
-> 2. A Kubernetes cluster running version 1.19 or later.
-> 3. Helm 3.x installed on your local machine.
-> 4. kubectl configured with access to your cluster.
-> 5. Kubernetes nodes labeled with the appropriate **pool-type** value (for example, **app** or **common**).
+This article discusses how to install the tunnel client with the official Helm chart, configure it, and manage it over time.
 
 ---
 
-## **How the Tunnel Works**
+## **Prerequisites**
 
-When you deploy the Helm chart, it creates the following Kubernetes resources:
+1. A Kubernetes cluster running **1.21 or later**.
+
+2. **Helm 3.8 or later**, which is required for OCI chart support.
+
+3. `kubectl` configured with access to the cluster.
+
+4. An authentication key from **Settings > Tunnels** in the Testsigma application.
+
+5. Outbound access from the cluster to your Testsigma address and to the registry that serves the chart and image. The tunnel accepts no inbound connections, so no ingress or firewall change is needed.
+
+[[info | Note:]]
+| Also refer to the [documentation on key components](https://testsigma.com/docs/testsigma-tunnel/key-components/) for background on how the tunnel fits into a test run.
+
+---
+
+## **Where the Chart Is Published**
+
+The same chart is available from two registries. Both are public and need no credentials.
+
+| Registry | Chart location | Container image |
+|---|---|---|
+| Azure Container Registry | `oci://testsigmaregistry.azurecr.io/charts/testsigma-tunnel` | Mirrored into the same registry |
+| GitHub Container Registry | `oci://ghcr.io/testsigmainc/charts/testsigma-tunnel` | Pulled from Docker Hub |
+
+Choose based on what your cluster is allowed to reach:
+
+- Use **Azure Container Registry** with `global.imageRegistry` when egress is restricted, because the chart and the image then come from one host.
+- Use **GitHub Container Registry** when your cluster can already reach Docker Hub. The image is not mirrored there, so `global.imageRegistry` does not apply.
+
+The examples in this article use Azure Container Registry. To use GitHub Container Registry instead, swap the chart address and drop the `global.imageRegistry` flag.
+
+---
+
+## **How the Tunnel Runs**
+
+The chart creates the following resources:
 
 | Resource | Description |
 |---|---|
-| **StatefulSet** | Runs the tunnel client pods using an OrderedReady pod management policy. Pods start one at a time in sequence. |
-| **ConfigMap** | Mounts the tunnel configuration file (args.yaml) into each container at startup. |
-| **Service** | (Optional) Provides a headless service for StatefulSet DNS resolution, required when you deploy multiple replicas. |
+| **StatefulSet** | Runs the tunnel client pods, one at a time, using the OrderedReady pod management policy. |
+| **Secret** | Holds the authentication key, unless you supply your own. |
+| **Service** | A headless Service that gives the StatefulSet stable pod identities. It routes no traffic. |
 
-The chart uses a StatefulSet with an **OrderedReady** pod management policy. This policy ensures that the first pod registers the tunnel with the Testsigma server before any additional pods start. Each subsequent pod then joins the already-registered tunnel session rather than attempting to create a new registration.
+All replicas share a single tunnel name. The first pod registers the tunnel with Testsigma and the rest join that registration, which is why they start in sequence rather than together. Starting them simultaneously would have several pods racing to register the same name.
+
+The client keeps nothing that has to survive a restart. Its mTLS certificates are fetched again during registration each time it starts, so there is no persistent volume to manage.
 
 [[info | Note:]]
-| If you use a standard Deployment instead of a StatefulSet, all replicas start simultaneously. This creates a race condition in which multiple pods attempt to register the same tunnel at the same time. The StatefulSet prevents this.
+| The pod runs as a non-root user from a distroless image and needs no elevated privileges, so it satisfies the `restricted` Pod Security Standard as shipped.
 
 ---
 
-## **Create the Helm Chart**
+## **Install the Tunnel**
 
-Follow these steps to build the Helm chart directory from scratch. If you already have a chart, skip to **Configure Your Values File**.
+1. In the Testsigma application, navigate to **Settings > Tunnels** and copy the authentication key.
 
-### **Step 1: Create the Chart Directory Structure**
+2. Create a namespace and store the key in a secret. Write the key to a temporary file rather than passing it on the command line, so it does not end up in your shell history or in the process list:
+   ```bash
+   kubectl create namespace testsigma
 
-Run the following commands to create the required directories:
+   umask 077 && cat > tunnel-key.txt    # paste the key, then press Ctrl+D
+
+   kubectl -n testsigma create secret generic testsigma-tunnel-auth \
+     --from-file=KEY=./tunnel-key.txt
+
+   rm tunnel-key.txt
+   ```
+
+   If you manage secrets with a tool such as External Secrets Operator or Sealed Secrets, create `testsigma-tunnel-auth` through that instead.
+
+3. Install the chart:
+   ```bash
+   helm install ts-tunnel oci://testsigmaregistry.azurecr.io/charts/testsigma-tunnel \
+     --version 0.1.0 -n testsigma \
+     --set global.imageRegistry=testsigmaregistry.azurecr.io \
+     --set tunnel.auth.existingSecret=testsigma-tunnel-auth \
+     --set tunnel.tunnelName=my-tunnel
+   ```
+
+4. Wait for the pod to become ready:
+   ```bash
+   kubectl -n testsigma rollout status statefulset/ts-tunnel-testsigma-tunnel
+   ```
+
+5. The tunnel appears under **Settings > Tunnels** in the Testsigma application once it registers.
+
+To install the same chart from GitHub Container Registry, use this in place of step 3:
 
 ```bash
-mkdir -p testsigma-tunnel/templates
-cd testsigma-tunnel
+helm install ts-tunnel oci://ghcr.io/testsigmainc/charts/testsigma-tunnel \
+  --version 0.1.0 -n testsigma \
+  --set tunnel.auth.existingSecret=testsigma-tunnel-auth \
+  --set tunnel.tunnelName=my-tunnel
 ```
-
-When you finish creating all the files described in the following steps, your chart directory should have this structure:
-
-```
-testsigma-tunnel/
-├── Chart.yaml
-├── values.yaml
-└── templates/
-    ├── deployment.yaml
-    ├── configmap.yaml
-    └── service.yaml
-```
-
-### **Step 2: Create Chart.yaml**
-
-Create a file named **Chart.yaml** in the **testsigma-tunnel/** directory with the following content:
-
-```yaml
-apiVersion: v2
-name: testsigma-tunnel
-description: Helm chart for Testsigma Tunnel Client
-type: application
-version: 0.1.0
-appVersion: "0.1.0"
-```
-
-### **Step 3: Create the StatefulSet Template**
-
-Create **templates/deployment.yaml**. This template defines the StatefulSet that runs the tunnel client pod and mounts the configuration file.
-
-```yaml
-{{- range $name, $deployment := .Values.Deployments }}
-{{- if $deployment.enabled }}
----
-kind: StatefulSet
-apiVersion: apps/v1
-metadata:
-  name: {{ (index $.Values.Application $name).name }}-{{ $.Values.Environment.name }}-statefulset
-  labels:
-    app: {{ (index $.Values.Application $name).name }}-{{ $.Values.Environment.name }}
-  namespace: {{ (index $.Values.Namespace $name).name }}
-spec:
-  serviceName: {{ (index $.Values.Application $name).name }}-{{ $.Values.Environment.name }}-headless
-  replicas: {{ $deployment.replicas }}
-  podManagementPolicy: OrderedReady
-  selector:
-    matchLabels:
-      app: {{ (index $.Values.Application $name).name }}-{{ $.Values.Environment.name }}
-  template:
-    metadata:
-      labels:
-        app: {{ (index $.Values.Application $name).name }}-{{ $.Values.Environment.name }}
-    spec:
-      containers:
-        - name: {{ (index $.Values.Application $name).name }}-{{ $.Values.Environment.name }}
-          image: {{ $deployment.containers.image }}:{{ $deployment.containers.version }}
-          imagePullPolicy: {{ $deployment.containers.imagePullPolicy }}
-          volumeMounts:
-            - name: config
-              mountPath: /app/args.yaml
-              subPath: args.yaml
-              readOnly: true
-      volumes:
-        - name: config
-          configMap:
-            name: {{ (index $.Values.Application $name).name }}-{{ $.Values.Environment.name }}-config
-      nodeSelector:
-        pool-type: {{ $deployment.poolType }}
-{{- end }}
-{{- end }}
-```
-
-### **Step 4: Create the ConfigMap Template**
-
-Create **templates/configmap.yaml**. This template generates a ConfigMap that contains your tunnel configuration and mounts it as a file inside the container.
-
-```yaml
-{{- range $name, $deployment := .Values.Deployments }}
-{{- if $deployment.enabled }}
----
-apiVersion: v1
-kind: ConfigMap
-metadata:
-  name: {{ (index $.Values.Application $name).name }}-{{ $.Values.Environment.name }}-config
-  namespace: {{ (index $.Values.Namespace $name).name }}
-  labels:
-    app: {{ (index $.Values.Application $name).name }}-{{ $.Values.Environment.name }}
-data:
-  args.yaml: |
-    key: {{ $deployment.config.key | quote }}
-    tunnel-name: {{ $deployment.config.tunnelName | quote }}
-    verbose: {{ $deployment.config.verbose }}
-    {{- if $deployment.config.delegateSslValidation }}
-    delegate-ssl-validation: {{ $deployment.config.delegateSslValidation }}
-    {{- end }}
-    {{- if $deployment.config.proxy }}
-    proxy: {{ $deployment.config.proxy | quote }}
-    {{- end }}
-    {{- if $deployment.config.headerRules }}
-    header-rules:
-      {{- toYaml $deployment.config.headerRules | nindent 6 }}
-    {{- end }}
-{{- end }}
-{{- end }}
-```
-
-### **Step 5: (Optional) Create the Headless Service Template**
-
-If you need DNS resolution for StatefulSet pods, create **templates/service.yaml**. This file is required when you set **enabledStatefulSet: true** in your values file.
-
-```yaml
-{{- range $name, $deployment := .Values.Deployments }}
-{{- if $deployment.enabled }}
-{{- if $deployment.enabledStatefulSet }}
----
-apiVersion: v1
-kind: Service
-metadata:
-  name: {{ (index $.Values.Application $name).name }}-{{ $.Values.Environment.name }}-headless
-  namespace: {{ (index $.Values.Namespace $name).name }}
-  labels:
-    app: {{ (index $.Values.Application $name).name }}-{{ $.Values.Environment.name }}
-spec:
-  clusterIP: None
-  selector:
-    app: {{ (index $.Values.Application $name).name }}-{{ $.Values.Environment.name }}
-  ports:
-    - protocol: TCP
-      port: 80
-      targetPort: 80
-{{- end }}
-{{- end }}
-{{- end }}
-```
-
----
-
-## **Configure Your Values File**
-
-Create a **values.yaml** file in the **testsigma-tunnel/** directory. Use the following example as a starting point, and replace the placeholder values with your own.
-
-```yaml
-Environment:
-  name: production              # Environment name (production, staging, etc.)
-
-Application:
-  myTunnel:
-    name: tunnel-client-mycompany   # Unique application name
-
-Namespace:
-  myTunnel:
-    name: my-namespace              # Kubernetes namespace for this tunnel
-
-Deployments:
-  myTunnel:
-    enabled: true
-    replicas: 1
-    poolType: app                   # Must match a node label: pool-type=<value>
-    enabledStatefulSet: true        # Set to true to create the headless Service
-    containers:
-      image: testsigmainc/testsigma-tunnel
-      version: amd64-latest
-      imagePullPolicy: Always
-    config:
-      key: "<YOUR_TUNNEL_API_KEY>"  # API key from the Testsigma dashboard
-      tunnelName: "my-tunnel"       # Name that appears in the Testsigma UI
-      verbose: true                 # Enable verbose logging
-      delegateSslValidation: false  # Set true to skip SSL certificate validation
-      proxy: ""                     # HTTP proxy URL (leave empty if not required)
-```
-
-Replace the following placeholder values in your file:
-- **\<YOUR\_TUNNEL\_API\_KEY\>**: Enter the API key from **Settings > Tunnels** in the Testsigma application.
-- **tunnel-client-mycompany**: Enter a name that uniquely identifies this tunnel client in your cluster.
-- **my-namespace**: Enter the Kubernetes namespace where you want to deploy the tunnel.
-- **my-tunnel**: Enter the tunnel name that will appear in the Testsigma UI.
 
 [[info | Note:]]
-| Never store your API key in plain text in a values file that you commit to version control. See **Manage Secrets** for recommended alternatives.
+| Set `tunnel.tunnelName` to something recognisable. Left empty, the client generates a random name at startup and it changes every time the pod restarts, which makes the tunnel hard to identify in the Testsigma UI.
 
 ---
 
-## **Deploy the Chart**
+## **Select Your Testsigma Region**
 
-1. Create the target namespace if it does not already exist: <br>
-   ```bash
-   kubectl create namespace my-namespace --dry-run=client -o yaml | kubectl apply -f -
-   ```
+The image is built against a fixed Testsigma address, so the three regional builds are different images rather than copies. Set `tunnel.region` to match the address you sign in to:
 
-2. Install the Helm chart from inside the **testsigma-tunnel/** directory: <br>
-   ```bash
-   helm install my-tunnel . -n my-namespace
-   ```
+| Sign-in address | `tunnel.region` |
+|---|---|
+| app.testsigma.com | `us` (default) |
+| app-eu.testsigma.com | `eu` |
+| app-in.testsigma.com | `in` |
+
+Add the flag to the install command:
+
+```bash
+--set tunnel.region=eu
+```
+
+If the tunnel is already installed, apply it with an upgrade:
+
+```bash
+helm upgrade ts-tunnel oci://testsigmaregistry.azurecr.io/charts/testsigma-tunnel \
+  --version 0.1.0 -n testsigma --reuse-values \
+  --set tunnel.region=eu
+```
+
+If the region does not match your account, the pod starts but cannot register, because it contacts the wrong Testsigma address.
 
 ---
 
-## **Verify the Deployment**
+## **Verify the Installation**
 
-Run the following commands to confirm that the tunnel deployed successfully.
+Confirm the cluster can reach Testsigma, which is the one thing the tunnel cannot work without:
 
-1. Check the StatefulSet status: <br>
-   ```bash
-   kubectl get statefulset -n my-namespace
-   ```
+```bash
+helm test ts-tunnel -n testsigma
+```
 
-2. Check pod status: <br>
-   ```bash
-   kubectl get pods -n my-namespace
-   ```
+Then check the client registered:
 
-3. View tunnel client logs to confirm the tunnel registered with the Testsigma server: <br>
-   ```bash
-   kubectl logs -n my-namespace <pod-name> -f
-   ```
+```bash
+kubectl -n testsigma logs ts-tunnel-testsigma-tunnel-0 -f
+```
 
-In the logs, look for a message confirming that the tunnel registered successfully with the Testsigma server. If the tunnel does not appear in the Testsigma UI after a few minutes, see **Troubleshoot**.
+Look for a message confirming the tunnel registered. Finally, confirm it is listed under **Settings > Tunnels** in the Testsigma application and run a test through it.
+
+[[info | Note:]]
+| The chart defines no liveness or readiness probe. The client listens on no port, and the image contains no shell, so there is nothing to probe. If the process exits, the container is restarted automatically.
 
 ---
 
 ## **Configuration Reference**
 
-### **Top-level Keys**
-
-| Key | Type | Required | Description |
-|---|---|---|---|
-| **Environment.name** | string | Yes | Environment identifier (for example, **production** or **staging**). Used in naming all Kubernetes resources. |
-
-### **Deployment Keys (Deployments.\<name\>)**
-
-| Key | Type | Required | Default | Description |
-|---|---|---|---|---|
-| **enabled** | boolean | Yes | — | Enables or disables this deployment. When **false**, all associated resources are removed. |
-| **replicas** | integer | Yes | — | Number of tunnel client pods to run. |
-| **poolType** | string | Yes | — | Node selector value for **pool-type**. Must match an existing node label. |
-| **enabledStatefulSet** | boolean | No | false | When **true**, creates a headless Service for StatefulSet DNS resolution. |
-| **containers.image** | string | Yes | — | Docker image name for the tunnel client. |
-| **containers.version** | string | Yes | — | Docker image tag. |
-| **containers.imagePullPolicy** | string | Yes | — | Image pull policy. Accepted values: **Always**, **IfNotPresent**, or **Never**. |
-| **config.key** | string | Yes | — | API key from the Testsigma dashboard. |
-| **config.tunnelName** | string | Yes | — | Tunnel name visible in the Testsigma UI. |
-| **config.verbose** | boolean | No | true | Enables verbose logging for the tunnel client. |
-| **config.delegateSslValidation** | boolean | No | false | When **true**, the tunnel skips SSL certificate validation for upstream requests. |
-| **config.proxy** | string | No | "" | HTTP proxy URL for outbound traffic. Leave empty if a proxy is not required. |
-| **config.headerRules** | list | No | — | Automatic HTTP header injection rules. See **Inject HTTP Headers** for details. |
-
-### **Application and Namespace Keys**
-
-Each key that you define under **Deployments** must have a matching entry under both **Application** and **Namespace**. The keys must match exactly.
-
-```yaml
-Application:
-  myTunnel:                        # Must match the Deployments key
-    name: tunnel-client-mycompany
-
-Namespace:
-  myTunnel:                        # Must match the Deployments key
-    name: my-namespace
-```
-
----
-
-## **Manage Secrets**
-
-The **config.key** field contains an API key. Treat this value as a secret and never commit it in plain text to version control.
-
-### **Option 1: Pass the Key at Deploy Time**
-
-Use the **--set** flag with `helm install` or `helm upgrade` to inject the API key without storing it in your values file:
+Pass these with `--set`, or collect them in a values file and use `-f values.yaml`. To see every available setting:
 
 ```bash
-helm install my-tunnel . -f my-values.yaml \
-  --set 'Deployments.myTunnel.config.key=eyJhbGciOi...' \
-  -n my-namespace
+helm show values oci://testsigmaregistry.azurecr.io/charts/testsigma-tunnel --version 0.1.0
 ```
 
-For deployments with multiple tunnels, pass each key separately:
-
-```bash
-helm install my-tunnel . -f my-values.yaml \
-  --set 'Deployments.siteA.config.key=eyJhbGciOi...' \
-  --set 'Deployments.siteB.config.key=eyJhbGciOi...' \
-  -n my-namespace
-```
-
-### **Option 2: Use a Secrets Manager**
-
-For GitOps workflows, use Sealed Secrets or External Secrets Operator to manage the API key:
-
-1. Store the API key in your secrets backend (for example, AWS Secrets Manager or HashiCorp Vault).
-2. Create an ExternalSecret resource that syncs the key into a Kubernetes Secret.
-3. Reference the secret in your values file or inject it with **--set** in your CI/CD pipeline.
-
-### **Option 3: Use CI/CD Pipeline Variables**
-
-Store the API key as a pipeline secret and inject it during deployment. The following example shows a GitHub Actions workflow step:
-
-```yaml
-- name: Deploy tunnel
-  run: |
-    helm upgrade --install my-tunnel ./testsigma-tunnel \
-      -f my-values.yaml \
-      --set "Deployments.myTunnel.config.key=${{ secrets.TUNNEL_API_KEY }}" \
-      -n my-namespace
-```
-
-### **Rotate an API Key**
-
-When an API key expires or needs to be replaced:
-
-1. Obtain a new key from **Settings > Tunnels** in the Testsigma application.
-2. Update the key using your chosen secret management method.
-3. Run `helm upgrade` to apply the updated ConfigMap.
-4. The pods restart automatically and pick up the new configuration.
-
----
-
-## **Scale and Manage the Tunnel**
-
-### **Increase Replicas**
-
-To handle more concurrent test traffic, increase the **replicas** value in your values file and apply the change:
-
-```yaml
-# In values.yaml
-Deployments:
-  myTunnel:
-    replicas: 3   # Increase from 1 to 3 pods
-```
-
-```bash
-helm upgrade my-tunnel . -f my-values.yaml -n my-namespace
-```
-
-### **Decrease Replicas**
-
-To reduce the number of active pods, lower the **replicas** value in your values file and run `helm upgrade`. Alternatively, scale down directly with kubectl for a temporary change:
-
-```bash
-kubectl scale statefulset tunnel-client-mycompany-production-statefulset \
-  --replicas=1 -n my-namespace
-```
-
-[[info | Note:]]
-| Scaling with kubectl is temporary. The replica count reverts to the value in your values file the next time you run `helm upgrade`.
-
-### **Stop the Tunnel Without Removing It**
-
-To shut down the tunnel temporarily while keeping the Helm release and configuration intact, scale the StatefulSet to zero:
-
-```bash
-kubectl scale statefulset tunnel-client-mycompany-production-statefulset \
-  --replicas=0 -n my-namespace
-```
-
-To make the change permanent through your values file, set `replicas: 0` and run `helm upgrade`.
-
-### **Disable a Specific Tunnel**
-
-When you manage multiple tunnels from a single values file, you can disable an individual tunnel by setting **enabled: false**. This removes all Kubernetes resources associated with that tunnel:
-
-```yaml
-Deployments:
-  siteA:
-    enabled: true    # Keep this tunnel running
-  siteB:
-    enabled: false   # Remove this tunnel's resources
-```
-
-```bash
-helm upgrade my-tunnel . -f my-values.yaml -n my-namespace
-```
-
-### **Remove All Tunnel Resources**
-
-To completely uninstall the Helm release and remove all associated Kubernetes resources: <br>
-```bash
-helm uninstall my-tunnel -n my-namespace
-```
-
----
-
-## **Update the Tunnel**
-
-To upgrade the tunnel client image or update the configuration, you must scale down to zero replicas before running `helm upgrade`. This ensures the tunnel cleanly deregisters from the Testsigma server before the updated version starts.
-
-[[info | Note:]]
-| Do not run `helm upgrade` while pods are active. Doing so can cause tunnel registration conflicts between the existing and updated versions.
-
-1. Scale down to zero pods: <br>
-   ```bash
-   kubectl scale statefulset tunnel-client-mycompany-production-statefulset \
-     --replicas=0 -n my-namespace
-   ```
-
-2. Wait for all pods to terminate: <br>
-   ```bash
-   kubectl get pods -n my-namespace \
-     -l app=tunnel-client-mycompany-production -w
-   ```
-
-3. Update your values file with the new image version or configuration changes:
-   ```yaml
-   Deployments:
-     myTunnel:
-       containers:
-         version: amd64-1.2.0   # Updated version tag
-   ```
-
-4. Apply the upgrade: <br>
-   ```bash
-   helm upgrade my-tunnel . -n my-namespace
-   ```
-
-5. Scale back up to the desired number of replicas: <br>
-   ```bash
-   kubectl scale statefulset tunnel-client-mycompany-production-statefulset \
-     --replicas=<desired-count> -n my-namespace
-   ```
-
-6. Verify the upgrade by checking pod status and logs:
-   ```bash
-   # Confirm pods are running with the new image
-   kubectl get pods -n my-namespace -l app=tunnel-client-mycompany-production
-
-   # Check logs to confirm successful registration
-   kubectl logs -n my-namespace \
-     tunnel-client-mycompany-production-statefulset-0 -f
-   ```
-
----
-
-## **Advanced Configuration**
-
-### **Deploy Multiple Tunnels**
-
-You can manage multiple tunnel clients from a single values file. Each tunnel requires its own key under **Deployments**, **Application**, and **Namespace**:
-
-```yaml
-Application:
-  siteA:
-    name: tunnel-client-site-a
-  siteB:
-    name: tunnel-client-site-b
-
-Namespace:
-  siteA:
-    name: my-namespace
-  siteB:
-    name: my-namespace
-
-Deployments:
-  siteA:
-    enabled: true
-    replicas: 1
-    poolType: app
-    containers:
-      image: testsigmainc/testsigma-tunnel
-      version: amd64-latest
-      imagePullPolicy: Always
-    config:
-      key: "<API_KEY_FOR_SITE_A>"
-      tunnelName: "site-a-tunnel"
-      verbose: true
-  siteB:
-    enabled: true
-    replicas: 1
-    poolType: app
-    containers:
-      image: testsigmainc/testsigma-tunnel
-      version: amd64-latest
-      imagePullPolicy: Always
-    config:
-      key: "<API_KEY_FOR_SITE_B>"
-      tunnelName: "site-b-tunnel"
-      verbose: true
-```
-
-### **Inject HTTP Headers**
-
-Configure the tunnel to automatically inject HTTP headers into requests for specific hostnames. This is useful for adding authentication credentials or custom metadata to outbound requests.
-
-```yaml
-config:
-  headerRules:
-    # Inject a Basic Auth header for a specific host
-    - hostname: "internal-app.example.com"
-      headers:
-        X-TS-BASIC-AUTH-HEADER: "Basic dXNlcm5hbWU6cGFzc3dvcmQ="
-
-    # Inject custom headers for an API host
-    - hostname: "api.example.com"
-      headers:
-        X-Custom-Auth: "my-token"
-        X-Environment: "staging"
-```
-
-[[info | Note:]]
-| Use **X-TS-BASIC-AUTH-HEADER** for URL-based Basic Authentication. This header works with both HTTP and HTTPS endpoints.
+| Setting | Default | Description |
+|---|---|---|
+| `tunnel.region` | `us` | Testsigma region: `us`, `eu`, or `in` |
+| `tunnel.auth.existingSecret` | | Secret holding the authentication key |
+| `tunnel.auth.key` | `""` | The key inline, for a quick trial instead of a secret |
+| `tunnel.tunnelName` | `""` | Name shown in Testsigma. Empty means randomly generated |
+| `tunnel.replicaCount` | `1` | Replicas sharing one tunnel. `0` stops it without uninstalling |
+| `tunnel.verbose` | `false` | Debug logging |
+| `tunnel.delegateSslValidation` | `false` | Accept certificates from an SSL inspection appliance |
+| `tunnel.image.tag` | `latest` | Pin to a release such as `2.1.0` for a fixed baseline |
+| `tunnel.resources` | 500m and 256Mi to 2 CPU and 1Gi | |
+| `tunnel.extraArgs` | `[]` | Extra command-line flags, which outrank the settings above |
+| `global.imageRegistry` | `""` | Pull the chart's images from one registry |
+| `proxy.enabled` | `false` | Set with `proxy.url` |
+| `networkPolicy.enabled` | `false` | Restricts egress to DNS and 443. Add rules for your own applications first |
+| `imagePullSecrets` | `[]` | For registries that require authentication |
 
 ### **Route Traffic Through a Proxy**
 
-If your cluster requires an outbound HTTP proxy, add the proxy URL to the **config** section of your values file:
+If the cluster reaches the internet through a proxy, the client uses it for both registration and the tunnel itself:
 
-```yaml
-config:
-  proxy: "http://proxy.internal.example.com:8080"
+```bash
+--set proxy.enabled=true \
+--set proxy.url=http://proxy.internal.example.com:8080
 ```
+
+### **Accept an SSL Inspection Certificate**
+
+If your network re-signs TLS connections with its own certificate authority:
+
+```bash
+--set tunnel.delegateSslValidation=true
+```
+
+---
+
+## **Scale the Tunnel**
+
+Raise `tunnel.replicaCount` to handle more concurrent test traffic. Pods start one at a time, the first registers the tunnel, and the rest join it:
+
+```bash
+kubectl -n testsigma scale statefulset/ts-tunnel-testsigma-tunnel --replicas=3
+```
+
+To make the change permanent, set it through Helm:
+
+```bash
+helm upgrade ts-tunnel oci://testsigmaregistry.azurecr.io/charts/testsigma-tunnel \
+  --version 0.1.0 -n testsigma --reuse-values \
+  --set tunnel.replicaCount=3
+```
+
+To stop the tunnel without uninstalling, scale to zero:
+
+```bash
+kubectl -n testsigma scale statefulset/ts-tunnel-testsigma-tunnel --replicas=0
+```
+
+[[info | Note:]]
+| Scaling with kubectl is temporary. The replica count reverts to the Helm value on the next `helm upgrade`.
+
+---
+
+## **Upgrade and Uninstall**
+
+The client deregisters the tunnel by name when it shuts down. With a single replica that is harmless, because the replacement pod registers again. With more than one replica it matters: replacing the first pod deregisters the tunnel that all of them share.
+
+**With one replica**, upgrade directly:
+
+```bash
+helm upgrade ts-tunnel oci://testsigmaregistry.azurecr.io/charts/testsigma-tunnel \
+  --version <NEW_VERSION> -n testsigma --reuse-values
+```
+
+**With more than one replica**, scale to zero first:
+
+```bash
+kubectl -n testsigma scale statefulset/ts-tunnel-testsigma-tunnel --replicas=0
+
+kubectl -n testsigma get pods -l app.kubernetes.io/name=testsigma-tunnel -w   # wait for all to terminate
+
+helm upgrade ts-tunnel oci://testsigmaregistry.azurecr.io/charts/testsigma-tunnel \
+  --version <NEW_VERSION> -n testsigma --reuse-values
+
+kubectl -n testsigma scale statefulset/ts-tunnel-testsigma-tunnel --replicas=3
+```
+
+To remove the release:
+
+```bash
+helm uninstall ts-tunnel -n testsigma
+```
+
+Nothing is left behind, since the chart creates no persistent volume.
+
+### **Rotate an Authentication Key**
+
+1. Obtain a new key from **Settings > Tunnels**.
+2. Update the secret:
+   ```bash
+   kubectl -n testsigma create secret generic testsigma-tunnel-auth \
+     --from-file=KEY=./tunnel-key.txt --dry-run=client -o yaml | kubectl apply -f -
+   ```
+3. Restart the tunnel so it picks up the new key:
+   ```bash
+   kubectl -n testsigma rollout restart statefulset/ts-tunnel-testsigma-tunnel
+   ```
+
+---
+
+## **Install Using Argo CD**
+
+Argo CD does not detect OCI registries automatically, so register the repository first.
+
+1. Navigate to **Settings > Repositories > CONNECT REPO > VIA HTTPS** and enter:
+
+   | Field | Value |
+   |---|---|
+   | Type | `helm` |
+   | Name | `testsigma-charts` |
+   | Repository URL | `testsigmaregistry.azurecr.io/charts`, or `ghcr.io/testsigmainc/charts` |
+   | Enable OCI | Selected |
+   | Username and Password | Leave empty |
+
+2. Create the key secret in the destination namespace, as shown in [Install the Tunnel](#install-the-tunnel).
+
+3. Create the application:
+   ```yaml
+   apiVersion: argoproj.io/v1alpha1
+   kind: Application
+   metadata:
+     name: testsigma-tunnel
+     namespace: argocd
+   spec:
+     project: default
+     source:
+       repoURL: testsigmaregistry.azurecr.io/charts
+       chart: testsigma-tunnel
+       targetRevision: 0.1.0
+       helm:
+         releaseName: ts-tunnel
+         values: |
+           tests:
+             enabled: false
+           global:
+             imageRegistry: testsigmaregistry.azurecr.io
+           tunnel:
+             region: us
+             tunnelName: my-tunnel
+             auth:
+               existingSecret: testsigma-tunnel-auth
+     destination:
+       server: https://kubernetes.default.svc
+       namespace: testsigma
+     syncPolicy:
+       syncOptions:
+         - CreateNamespace=true
+   ```
+
+4. Sync the application. `CreateNamespace=true` changes how a sync behaves, it does not start one, so a newly created application stays **OutOfSync** until you trigger it. In the UI, open the application and select **SYNC**, or from the CLI:
+   ```bash
+   argocd app sync testsigma-tunnel
+   ```
+
+> **Points to note:**
+> - `repoURL` holds the registry path only. The chart name belongs in `chart`, and there is no `oci://` prefix.
+> - `targetRevision` is the chart version, not the tunnel client version.
+> - Argo CD does not run Helm test hooks, so set `tests.enabled` to `false` and verify manually.
+> - Manage the release with whichever tool installed it. `helm upgrade` and `helm uninstall` do not apply to an application deployed by Argo CD.
 
 ---
 
 ## **Troubleshoot**
 
-| Symptom | Possible Cause | Resolution |
-|---|---|---|
-| Pod stuck in **Pending** | No nodes match the **pool-type** selector. | Run `kubectl get nodes --show-labels` and verify that at least one node has the expected **pool-type** label. |
-| Pod in **CrashLoopBackOff** | Invalid API key or malformed tunnel configuration. | Run `kubectl logs <pod-name> -n my-namespace` to inspect the error output. Verify that **config.key** and **config.tunnelName** are correct. |
-| Tunnel not visible in Testsigma UI | Incorrect **tunnelName** value or expired API key. | Confirm that **config.tunnelName** matches what you expect to see in the UI. Obtain a fresh API key from **Settings > Tunnels** if the key has expired. |
-| Connection timeouts during testing | Network policy or proxy misconfiguration. | Verify that **config.proxy** is set correctly and that cluster network policies permit outbound connections to the Testsigma platform. |
-| SSL errors during test execution | The upstream application uses a self-signed certificate. | Set **config.delegateSslValidation: true** in your values file and run `helm upgrade` to apply the change. |
+| Symptom | Cause and resolution |
+|---|---|
+| Pod stays `Pending` | No node has enough free CPU or memory. Run `kubectl -n testsigma describe pod <pod>`. |
+| `ImagePullBackOff` | Confirm `tunnel.region`, and remove `global.imageRegistry` to pull from Docker Hub. If you pinned a per-architecture tag such as `amd64-latest`, the pod fails on nodes of any other architecture; use `latest` or a version instead. |
+| `CreateContainerConfigError` | The secret named in `tunnel.auth.existingSecret` does not exist in that namespace. |
+| Pod restarts repeatedly | Usually an invalid or expired key. Check `kubectl -n testsigma logs <pod>` and obtain a fresh key from **Settings > Tunnels**. |
+| Pod runs but no tunnel appears in Testsigma | Usually the wrong `tunnel.region`, or a key issued for a different region. Check the logs. |
+| `helm test` fails | The cluster cannot reach your Testsigma address. Check egress rules, and set `proxy.enabled` with `proxy.url` if a proxy is required. |
+| Connection timeouts during a test | The tunnel reached Testsigma but cannot reach your application. If `networkPolicy.enabled` is on, add egress rules for the application through `networkPolicy.extraEgress`. |
+| SSL errors during a test | The application uses a certificate the client does not trust, or an inspection appliance re-signs traffic. Set `tunnel.delegateSslValidation=true`. |
 
-If you cannot resolve the issue using the steps above, collect the full logs from the affected pod and contact Testsigma support.
+If the issue persists, collect the pod details and logs and contact Testsigma support:
 
 ```bash
-kubectl describe statefulset tunnel-client-mycompany-production-statefulset \
-  -n my-namespace
-
-kubectl logs -n my-namespace \
-  statefulset/tunnel-client-mycompany-production-statefulset -f
+kubectl -n testsigma describe statefulset ts-tunnel-testsigma-tunnel
+kubectl -n testsigma logs ts-tunnel-testsigma-tunnel-0 --tail=200
 ```
 
 ---

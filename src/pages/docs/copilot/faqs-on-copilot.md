@@ -1,7 +1,7 @@
 ---
 title: "FAQs on Testsigma Copilot"
 pagetitle: "FAQs on Testsigma Copilot"
-metadesc: "Find answers to frequently questions about Testsigma's Copilot (Testsigma Terminal), including its features, installation, usage, and how it helps resolve issues in test cases in real time"
+metadesc: "Find answers to frequently asked questions about Testsigma's Copilot, including running sessions on the cloud or local devices, installation, usage, and how it helps resolve issues in test cases in real time"
 noindex: false
 order: 11.17
 page_id: "frequently-asked-questions-on-copilot"
@@ -235,5 +235,29 @@ warning: false
 **17. Why do test steps not update and features not work in the Copilot?**
 
 **Answer:** The Copilot may launch the local browser and execute test steps but fail to update results or allow recording additional steps due to agent incompatibility with Chrome version 139. To fix this issue, delete the entire **.testsigma** folder and restart the Terminal. This will trigger a new agent download and restore full Copilot functionality. 
+
+---
+
+### **18. Do I need the Testsigma Terminal to run Copilot on the cloud?**
+
+**Answer:** No. The Testsigma Terminal is required only when you run Copilot on **Local Devices**. Sessions on the **Testsigma Cloud Lab** run on a Testsigma-hosted machine and don't need the Terminal.
+
+---
+
+### **19. How do I choose between running Copilot on the cloud or on a local device?**
+
+**Answer:** Select the **Test Lab** when you launch Copilot from the **Action Panel**: choose **Testsigma Cloud Lab** to run the session on a Testsigma-hosted machine, or **Local Devices** to run it on your own machine through the Testsigma Terminal. Use Local Devices when your application under test isn't reachable from the cloud. For steps, see [Launch Copilot](https://testsigma.com/docs/copilot/launch-copilot/).
+
+---
+
+### **20. What does a Copilot session consume — a Copilot parallel or an Atto session?**
+
+**Answer:** A Copilot session launched from the **Action Panel** consumes a **Copilot parallel**. A session launched through **Agentic Learning** consumes an **Atto session** instead. A session on the **Testsigma Cloud Lab** additionally occupies one cloud parallel for its duration. For more information, see [Parallel and Allowed Queues](https://testsigma.com/docs/runs/parallel-and-allowed-queues/).
+
+---
+
+### **21. What happens if a cloud Copilot session is left idle?**
+
+**Answer:** A countdown dialog appears warning that the session is about to expire. If you don't respond in time, the session ends and the cloud machine is released. For more information, see [Launch Copilot](https://testsigma.com/docs/copilot/launch-copilot/).
 
 ---

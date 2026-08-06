@@ -3,7 +3,7 @@ title: "Connect MongoDB & PostgreSQL Databases"
 page_title: "Connecting MongoDB and PostgreSQL Databases Easily"
 metadesc: "Install an addon to connect MongoDB and PostgreSQL databases to Testsigma. Learn how to set up a database connection to MongoDB in Testsigma Application."
 noindex: false
-order: 18.9
+order: 18.995
 page_id: "Connect MongoDB & PostgreSQL Databases"
 warning: false
 contextual_links:
@@ -30,7 +30,7 @@ Connecting MongoDB and PostgreSQL databases to Testsigma enhances your testing c
 > <p id="prerequisites">Prerequisites</p>
 > 
 > Before you begin, ensure that you have referred to:
-> 1. [Documentation on installing add-ons](https://testsigma.com/docs/addons/community-marketplace/) the community addon.
+> 1. [Documentation on installing add-ons](https://testsigma.com/docs/addons/overview/) the community addon.
 
 ---
 

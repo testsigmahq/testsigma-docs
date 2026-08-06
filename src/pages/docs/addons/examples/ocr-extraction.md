@@ -3,7 +3,7 @@ title: "Create OCR Text Extraction Addon"
 page_title: "Create OCR Text Extraction Addon: Enhanced Test Automation"
 metadesc: "Create OCR Text Extraction Addon seamlessly with our step-by-step guide. Extract text from pages, images, and elements effortlessly. Enhance your testing."
 noindex: false
-order: 18.81
+order: 18.994
 page_id: "Create a OCR Text Extraction Addon in Testsigma"
 warning: false
 contextual_links:
@@ -27,11 +27,13 @@ contextual_links:
 
 This guide will instruct you step-by-step on how to create an OCR Text Extraction Addon for Testsigma. You should set up a class that implements the OCR interface, update the action code, and use the addon in test cases.
 
+This guide covers the Classic (Java) engine. For a Modern (TypeScript) addon, the equivalent OCR methods are exposed on [`ctx.ocr`](https://testsigma.com/docs/addons/modern/execution-context-reference/#ocr), gated by the [`ocr` permission](https://testsigma.com/docs/addons/modern/permissions-and-the-sandbox/#what-each-permission-unlocks).
+
 ---
 
 > <p id="prerequisites">Prerequisites</p>
 >
-> Before creating the OCR Text Extraction addon, ensure you have met the prerequisites for addon development. For more information on creating add-ons, refer to the [documentation on creating add-on](https://testsigma.com/docs/addons/create/).
+> Before creating the OCR Text Extraction addon, ensure you have met the prerequisites for addon development. For more information on creating addons, refer to the [documentation on creating addon](https://testsigma.com/docs/addons/classic/create/).
 
 ---
 
