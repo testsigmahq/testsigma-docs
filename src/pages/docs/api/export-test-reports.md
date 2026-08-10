@@ -194,6 +194,16 @@ The XML report nests results in execution order, from the test plan down to indi
 
 When you export below the plan level, the report starts at the level you requested. A test suite export returns a **testSuite** root with its test cases and steps.
 
+For data-driven test cases, the **testCase** element carries the test data used for that iteration.
+
+|**Attribute**|**Description**|
+|---|---|
+|testDataProfile|Name of the test data profile the test case ran against|
+|testDataSet|Name of the data set within that profile|
+
+[[info | NOTE:]]
+| Both attributes are omitted for test cases that don't use a test data profile, and for runs that executed before this release where the profile has since been deleted.
+
 [[info | NOTE:]]
 | This is the Testsigma XML schema, not JUnit XML. Pipeline steps that parse JUnit output do not accept this file.
 
