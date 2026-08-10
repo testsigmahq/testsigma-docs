@@ -34,7 +34,7 @@ A fair understanding of REST APIs is expected. If not, please refer to some rele
 
 All Testsigma API Endpoints require authentication. The user authenticates the request using Bearer Token which is the user’s API Key.
 
-**“Authentication” : “Bearer <API_Key>”**
+**“Authorization” : “Bearer <API_Key>”**
 
 To know more about generating and obtaining API Keys, refer to the [documentation on generating API keys](https://testsigma.com/docs/configuration/api-keys/)
 
