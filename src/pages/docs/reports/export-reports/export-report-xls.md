@@ -15,6 +15,12 @@ contextual_links:
 - type: link
   name: "Exporting Test Reports in Excel Format"
   url: "#exporting-test-reports-in-excel-format"
+- type: link
+  name: "Test Data Details in the Report"
+  url: "#test-data-details-in-the-report"
+- type: link
+  name: "How Reports Handle Renamed and Deleted Items"
+  url: "#how-reports-handle-renamed-and-deleted-items"
 ---
 
 ---
@@ -53,5 +59,30 @@ Effortlessly generate detailed Excel reports for your test runs in Testsigma. Th
 
 [[info | NOTE:]]
 | If you choose to rerun the test cases from the reports, the rerun results will also be consolidated into the exported reports.
+
+---
+
+## **Test Data Details in the Report**
+
+For data-driven test cases, the report includes the test data used for each iteration at the test case level.
+
+|**Field**|**Description**|
+|---|---|
+|Test Data Profile|Name of the test data profile the test case ran against|
+|Test Data Set|Name of the data set within that profile|
+
+[[info | **NOTE**:]]
+| These fields appear for data-driven test cases only. Test cases that don't use a test data profile omit them.
+
+---
+
+## **How Reports Handle Renamed and Deleted Items**
+
+A report captures its inputs as they were when the run executed. Renaming or deleting a test plan, test suite, test case, environment, test machine, or test data profile after a run doesn't change the report for that run, and exporting the same run again reproduces the same document.
+
+[[info | **NOTE**:]]
+| User names are the exception. Reports always show a user's current name, so renaming a user updates their name in existing reports.
+
+**Additional Information:** Runs that executed before this release fall back to the current name of each item. If an item from one of those older runs has since been deleted, the report shows a hyphen (-) in that field and the rest of the report renders normally.
 
 ---
