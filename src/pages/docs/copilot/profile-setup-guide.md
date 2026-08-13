@@ -3,7 +3,7 @@ title: "Setup Browser Profile for Copilot Recording"
 page_title: "Setup Browser Profile for Copilot Recording | Testsigma"
 metadesc: "Configure how Testsigma loads its recorder extension into your browser for Copilot recording sessions, using Automatic, Managed, or Your Own Browser Profile mode."
 noindex: false
-order: 21.2
+order: 11.1601
 page_id: "setup-browser-profile-for-copilot-recording"
 warning: false
 contextual_links:
@@ -22,8 +22,11 @@ contextual_links:
   name: "Your own browser profile"
   url: "#your-own-browser-profile"
 - type: link
-  name: "Quick Reference"
-  url: "#quick-reference"
+  name: "Default User-Data Folder Restriction"
+  url: "#default-user-data-folder-restriction"
+- type: link
+  name: "Path Tokens in Desired Capabilities"
+  url: "#path-tokens-in-desired-capabilities"
 ---
 
 ---
@@ -69,7 +72,7 @@ Sessions run in a browser profile your team manages; the recorder extension must
 
 **To set this up:**
 
-1. Create the profile folder outside the default user-data folders listed above, and outside the Testsigma data directory.
+1. Create the profile folder outside the default user-data folders listed below, and outside the Testsigma data directory.
 
 2. Grant Testsigma read and write access to that folder.
 
@@ -82,10 +85,17 @@ Sessions run in a browser profile your team manages; the recorder extension must
 
    Replace **&lt;Profile Path&gt;** with the path of the folder you created in **step 1**.
 
+   Writing that path literally bakes in a machine-specific username (for example, **C:\Users\username\AppData\...**), so the capability only works on the one agent it was written for. If this configuration needs to run on more than one agent, replace the literal path with a path token instead, such as **${TS\_DATA\_DIR}** or **${TS\_USER\_HOME}**. Testsigma resolves these to the correct machine-specific path on whichever agent the test runs on, so the same capability value works everywhere:
+
+   **{"args": ["--user-data-dir=${TS\_DATA\_DIR}/browser-profiles/custom/testprofile"]}**
+
+   Path tokens (see **Path Tokens in Desired Capabilities** below) only resolve for Hybrid executions (local machine or Docker). On Testsigma Lab/TSLab/Apex and third-party cloud labs (BrowserStack, Sauce Labs, LambdaTest, Kobiton), or a Hybrid agent pointed at an external Selenium grid, tokens are not resolved and the value is passed through exactly as written — use a literal path for those execution types instead.
+
 4. Install the recorder extension in that profile, either from the Chrome Web Store or through your IT extension policy.
 
+---
 
-### **Default User-Data Folder Restriction**
+## **Default User-Data Folder Restriction**
 
 A profile used for automation cannot live inside the browser's default user-data folder. This restriction comes from Chrome and Edge, not from Testsigma. Anything placed inside these directories is not accessible to automation, and Testsigma cannot launch it.
 
@@ -97,9 +107,28 @@ A profile used for automation cannot live inside the browser's default user-data
 | **Microsoft Edge** | **%LOCALAPPDATA%\Microsoft\Edge\User Data** | **~/Library/Application Support/Microsoft Edge** | **~/.config/microsoft-edge** |
 
 [[info | NOTE:]]
-| The browser must be **fully closed** before launching the session. A profile can't be used by two browser instances at once, including background or tray processes with no visible window. Otherwise, the session fails to start with a **"user data directory is already in use"** error.
+| - The browser must be **fully closed** before launching the session. A profile can't be used by two browser instances at once, including background or tray processes with no visible window. Otherwise, the session fails to start with a **"user data directory is already in use"** error.
+| - To use a named profile inside that folder rather than the default one, pass **--profile-directory=&lt;folder name&gt;** alongside **--user-data-dir** (for example, **Profile 1**). The default profile works with just the **--user-data-dir** argument as documented above.
+
+---
+
+## **Path Tokens in Desired Capabilities**
+
+A literal path like **--user-data-dir=C:\Users\username\AppData\Roaming\...** only works on one machine. Path tokens let the agent fill in the machine-specific part automatically, so one config works on every agent:
+
+**--user-data-dir=${TS\_DATA\_DIR}/profiles/**
+
+| Token | Resolves to |
+| :-- | :-- |
+| **${TS\_DATA\_DIR}** | The Testsigma agent's data directory (honors a custom **ENV\_TS\_DATA\_DIR** if IT set one at install) |
+| **${TS\_USER\_HOME}** | The home directory of the OS account running the agent |
+
+These are the recommended, portable tokens — they work the same on Windows, macOS, and Linux. Native OS aliases (**%APPDATA%**, **$HOME**, **~/**, etc.) also work but only resolve on their own platform.
 
 [[info | NOTE:]]
-| To use a named profile inside that folder rather than the default one, pass **--profile-directory=&lt;folder name&gt;** alongside **--user-data-dir** (for example, **Profile 1**). The default profile works with just the **--user-data-dir** argument as documented above.
+| Tokens apply inside any string value (args, prefs, extensions, binary) in Chrome, Edge, or Firefox capabilities, but only when the browser runs locally on an agent host (Hybrid, local machine, or Docker). They do not resolve on Testsigma Lab/TSLab/Apex, third-party cloud labs (BrowserStack, Sauce Labs, LambdaTest, Kobiton), a Private Grid, or a Hybrid agent pointed at an external Selenium grid — use a literal path there instead.
+
+[[info | NOTE:]]
+| An unresolvable token is left exactly as written, never blanked out, and Testsigma logs a warning — a visibly wrong path is safer than silently falling back to the real desktop profile.
 
 ---
