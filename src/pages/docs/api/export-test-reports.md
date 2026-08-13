@@ -89,11 +89,11 @@ This endpoint generates a report for an entire test plan run.
 
 |**Request Type**|**GET**|
 |---|---|
-|**Endpoint**|https://app.testsigma.com/api/v1/reports/execution\_result/<RUN\_ID>?format=xlsx|
-|**Authorization**|Bearer <API\_Token>|
+|**Endpoint**|https://app.testsigma.com/api/v1/reports/execution_result/{RUN_ID}?format=xlsx|
+|**Authorization**|Bearer {API_Token}|
 |**Response Body**|{<br>&emsp;"status": "IN\_PROGRESS"<br>}|
 
-**<RUN\_ID>** is the ID of the test plan run you want to export.
+**{RUN_ID}** is the ID of the test plan run you want to export.
 
 ### **Export a Test Machine Report**
 
@@ -101,10 +101,10 @@ This endpoint generates a report for a single test machine within a run.
 
 |**Request Type**|**GET**|
 |---|---|
-|**Endpoint**|https://app.testsigma.com/api/v1/reports/environment\_result/<MACHINE\_RESULT\_ID>?format=xlsx|
-|**Authorization**|Bearer <API\_Token>|
+|**Endpoint**|https://app.testsigma.com/api/v1/reports/environment_result/{MACHINE_RESULT_ID}?format=xlsx|
+|**Authorization**|Bearer {API_Token}|
 
-**<MACHINE\_RESULT\_ID>** is the ID of the test machine result you want to export.
+**{MACHINE\_RESULT\_ID}** is the ID of the test machine result you want to export.
 
 ### **Export a Test Suite Report**
 
@@ -112,10 +112,10 @@ This endpoint generates a report for a single test suite within a run.
 
 |**Request Type**|**GET**|
 |---|---|
-|**Endpoint**|https://app.testsigma.com/api/v1/reports/suite\_result/<SUITE\_RESULT\_ID>?format=xlsx|
-|**Authorization**|Bearer <API\_Token>|
+|**Endpoint**|https://app.testsigma.com/api/v1/reports/suite_result/{SUITE_RESULT_ID}?format=xlsx|
+|**Authorization**|Bearer {API_Token}|
 
-**<SUITE\_RESULT\_ID>** is the ID of the test suite result you want to export.
+**{SUITE\_RESULT\_ID}** is the ID of the test suite result you want to export.
 
 ### **Export a Test Case Report**
 
@@ -123,10 +123,10 @@ This endpoint generates a report for a single test case within a run.
 
 |**Request Type**|**GET**|
 |---|---|
-|**Endpoint**|https://app.testsigma.com/api/v1/reports/case\_result/<CASE\_RESULT\_ID>?format=xlsx|
-|**Authorization**|Bearer <API\_Token>|
+|**Endpoint**|https://app.testsigma.com/api/v1/reports/case_result/{CASE_RESULT_ID}?format=xlsx|
+|**Authorization**|Bearer {API_Token}|
 
-**<CASE\_RESULT\_ID>** is the ID of the test case result you want to export.
+**{CASE\_RESULT\_ID}** is the ID of the test case result you want to export.
 
 ### **Check Report Status**
 
@@ -134,8 +134,8 @@ Send the original export request again to check progress. Once generation succee
 
 |**Request Type**|**GET**|
 |---|---|
-|**Endpoint**|https://app.testsigma.com/api/v1/reports/execution\_result/<RUN\_ID>?format=xlsx|
-|**Authorization**|Bearer <API\_Token>|
+|**Endpoint**|https://app.testsigma.com/api/v1/reports/execution_result/{RUN_ID}?format=xlsx|
+|**Authorization**|Bearer {API_Token}|
 |**Response Body**|{<br>&emsp;"status": "SUCCESS",<br>&emsp;"reportId": 4821,<br>&emsp;"url": "https://app.testsigma.com/api/v1/reports/download/4821"<br>}|
 
 [[info | NOTE:]]
@@ -147,8 +147,8 @@ This endpoint generates a PDF report with the screenshots and resolution you spe
 
 |**Request Type**|**GET**|
 |---|---|
-|**Endpoint**|https://app.testsigma.com/api/v1/reports/execution\_result/<RUN\_ID>?format=pdf&screenshot=FAILED\_STEPS&visualScreenshot=NONE&resolution=LOW|
-|**Authorization**|Bearer <API\_Token>|
+|**Endpoint**|https://app.testsigma.com/api/v1/reports/execution_result/{RUN_ID}?format=pdf&screenshot=FAILED\_STEPS&visualScreenshot=NONE&resolution=LOW|
+|**Authorization**|Bearer {API_Token}|
 
 [[info | NOTE:]]
 | Use 'LOW' resolution to shorten report generation time. Reports at 'HIGH' resolution take longer to generate and download.
@@ -159,13 +159,13 @@ This endpoint returns the generated report artifact. It redirects to a short-liv
 
 |**Request Type**|**GET**|
 |---|---|
-|**Endpoint**|https://app.testsigma.com/api/v1/reports/download/<REPORT\_ID>|
-|**Authorization**|Bearer <API\_Token>|
+|**Endpoint**|https://app.testsigma.com/api/v1/reports/download/{REPORT_ID}|
+|**Authorization**|Bearer {API_Token}|
 
-**<REPORT\_ID>** is the **reportId** returned in the status response.
+**{REPORT_ID}** is the **reportId** returned in the status response.
 
 [[info | NOTE:]]
-| The download link expires. Follow the redirect within the same request rather than storing the link for later use. Each call to this endpoint generates a fresh link, so the same **<REPORT\_ID>** stays valid for repeat downloads.
+| The download link expires. Follow the redirect within the same request rather than storing the link for later use. Each call to this endpoint generates a fresh link, so the same **{REPORT_ID}** stays valid for repeat downloads.
 
 ### **Get JUnit Report (Deprecated)**
 
@@ -173,8 +173,8 @@ This endpoint returns the JUnit XML report for a test plan run. It is deprecated
 
 |**Request Type**|**GET**|
 |---|---|
-|**Endpoint**|https://app.testsigma.com/api/v1/reports/junit/<RUN\_ID>|
-|**Authorization**|Bearer <API\_Token>|
+|**Endpoint**|https://app.testsigma.com/api/v1/reports/junit/{RUN_ID}|
+|**Authorization**|Bearer {API_Token}|
 
 ---
 
@@ -225,7 +225,7 @@ For data-driven test cases, the **testCase** element carries the test data used 
 
 ## **Migrate from the JUnit Endpoint**
 
-Move pipelines from **/api/v1/reports/junit/<RUN\_ID>** to **/api/v1/reports/execution\_result/<RUN\_ID>** before the sunset date in the response header. The JUnit output itself is unchanged until then.
+Move pipelines from **/api/v1/reports/junit/{RUN_ID}** to **/api/v1/reports/execution\_result/{RUN\_ID}** before the sunset date in the response header. The JUnit output itself is unchanged until then.
 
 [[info | NOTE:]]
 | The Testsigma XML report replaces the JUnit endpoint but uses a different schema. If your pipeline publishes results with a JUnit parser, such as the **Publish Test Results** task in Azure DevOps, keep using the JUnit endpoint until you update that step.
