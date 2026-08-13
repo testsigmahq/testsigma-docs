@@ -767,7 +767,7 @@
   "byok": {"/docs/atto/generative-ai/byok/": "BYOK"},
   "generate-allure-report": {"/docs/reports/runs/generate-allure-report/": "Custom Allure Reports Generation"},
   "generate-junit-report": {"/docs/reports/runs/generate-junit-report/": "Custom JUnit Report Generation"},
-  "profile-setup-guide": {"/docs/package-manager/profile-setup-guide/": "Browser Profile for Copilot"},
+  "profile-setup-guide": {"/docs/copilot/profile-setup-guide/": "Browser Profile for Copilot"},
   "security-and-access-requirements": {"/docs/package-manager/security-and-access-requirements/": "Security & Access Requirements"},
   "it-admin": {"/docs/integrations/it-admin/": "IT Admin"},
   "patchmypc-integration-with-testsigma": {"/docs/integrations/it-admin/patchmypc-integration-with-testsigma/": "PatchMyPC"},

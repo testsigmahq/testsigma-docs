@@ -32,6 +32,9 @@ contextual_links:
 - type: link
   name: "Available Shortcuts in Run Results"
   url: "#available-shortcuts-in-run-results"
+- type: link
+  name: "How Run Results Handle Renamed and Deleted Items"
+  url: "#how-run-results-handle-renamed-and-deleted-items"
 ---
 
 ---
@@ -174,5 +177,14 @@ In Testsigma, you can view and download reports from the Run Results page. This 
 - **Alt + H**: Open/close run history
 - **Alt + F**: Open filters
 - **Alt + O**: Open/close run overview
+
+---
+
+## **How Run Results Handle Renamed and Deleted Items**
+
+The **Run Results** page shows the values as they were when the run executed. Renaming or deleting a test plan, test suite, test case, environment, test machine, or test data profile doesn't change what an earlier run displays.
+
+[[info | **NOTE**:]]
+| Runs that executed before this release fall back to the current name of each item, and show a hyphen (-) where the item has since been deleted.
 
 ---

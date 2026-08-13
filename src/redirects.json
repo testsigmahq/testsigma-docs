@@ -1,5 +1,9 @@
 [
   {
+    "from": "/docs/package-manager/profile-setup-guide/",
+    "to": "/docs/copilot/profile-setup-guide/"
+  },
+  {
     "from": "/docs/addons",
     "to": "/docs/addons/overview"
   },
