@@ -84,7 +84,9 @@ Create an External Client App in Salesforce to link your Salesforce organization
 | - Wait 10&ndash;15 minutes after creating the app before you establish a connection from Testsigma.
 | - Some Salesforce editions do not include API access, and connections cannot be created in them. For more information, refer to <a href="https://help.salesforce.com/s/articleView?id=000385436&type=1" rel="nofollow">Salesforce editions with API access</a>.
 
-### **Fetch Consumer Details for an External Client App**
+---
+
+## **Fetch Consumer Details for an External Client App**
 
 1. Open the External Client App you created and go to the **Settings** tab.
 
@@ -139,7 +141,9 @@ Create an External Client App in Salesforce to link your Salesforce organization
 | - A connected app is limited to a few approvals. When the limit is exceeded, the system can automatically revoke the oldest approval. As a best practice, create a separate connected app for each application connection.
 | - Some Salesforce editions do not include API access, and connections cannot be created in them. For more information, refer to <a href="https://help.salesforce.com/s/articleView?id=000385436&type=1" rel="nofollow">Salesforce editions with API access</a>.
 
-### **Fetch Consumer Details for a Connected App (Legacy)**
+---
+
+## **Fetch Consumer Details for a Connected App (Legacy)**
 
 1. Edit the connected app and click **Manage Consumer Details**. The **Verify Your Identity** window opens in a new tab.
 ![Edit](https://s3.amazonaws.com/website-static-docs.testsigma.com/new_images/projects/Updated_Doc_Images/Fetch_connected_apps_1.png)
