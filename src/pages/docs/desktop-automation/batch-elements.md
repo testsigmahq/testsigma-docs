@@ -13,69 +13,82 @@ contextual_links:
   name: "Prerequisites"
   url: "#prerequisites"
 - type: link
-  name: "Interactive Demo"
-  url: "#interactive-demo"
+  name: "Steps to Record Elements Using the Batch Tab"
+  url: "#steps-to-record-elements-using-the-batch-tab"
 - type: link
-  name: "Steps to Create Elements Using Batch Element Recorder"
-  url: "#steps-to-create-elements-using-batch-element-recorder"
+  name: "Element Recorder Controls"
+  url: "#element-recorder-controls"
+- type: link
+  name: "Keyboard Shortcuts"
+  url: "#keyboard-shortcuts"
 ---
 
 ---
 
-The Batch Element Recorder lets you capture all UI elements in a desktop application window at once, without manually selecting each element. Once recorded, the elements are displayed in a hierarchical tree structure for easy viewing and locating while creating test cases. This article discusses how to create multiple elements using Batch Elements Recorder. 
+Capture every UI element in a desktop application window at once using the **Batch** tab of the Element Recorder. Recorded elements appear in a hierarchical tree along with their properties and can be used while creating test steps.
 
 ---
 
 > <p id="prerequisites">Prerequisites</p>
 > 
 > Before you begin, ensure that:
-> 1. You have referred to the [documentation on creating projects](https://testsigma.com/docs/projects/overview/).
-> 2. You have referred to the [docuemntation on creating applications](https://testsigma.com/docs/projects/applications/) in Testsigma.
-> 3. You should have the **Testsigma Terminal** installed.
-> 4. The **WinTest Automation** folder must exist in the **Testsigma Agent** directory. 
-> 5. You have a Windows application to test and make sure it’s open on your device. 
+> 1. A Desktop project and an application exist in Testsigma. See [creating projects](https://testsigma.com/docs/projects/overview/) and [creating applications](https://testsigma.com/docs/projects/applications/).
+> 2. **Testsigma Terminal** is installed on your Windows system.
+> 3. The **WinTest Automation** folder exists in the **Testsigma Agent** directory.
+> 4. The Windows application you want to record is open on your device.
 
 ---
 
-## **Interactive Demo**
-
-<div>
-  <script async src="https://js.storylane.io/js/v2/storylane.js"></script>
-  <div class="sl-embed" style="position:relative;padding-bottom:calc(50.57% + 25px);width:100%;height:0;transform:scale(1)">
-    <iframe loading="lazy" class="sl-demo" src="https://app.storylane.io/demo/do1gq6a2hpnl?embed=inline" name="sl-embed" allow="fullscreen" allowfullscreen style="position:absolute;top:0;left:0;width:100%!important;height:100%!important;border:1px solid rgba(63,95,172,0.35);box-shadow: 0px 0px 18px rgba(26, 19, 72, 0.15);border-radius:10px;box-sizing:border-box;"></iframe>
-  </div>
-</div>
-
----
-
-## **Steps to Create Elements Using Batch Element Recorder**
+## **Steps to Record Elements Using the Batch Tab**
 
 1. From the left navigation bar, go to **Create Tests > Elements**.
 
-2. In the Elements list page, click **Record**. 
+2. On the Elements list page, click **Record**.
 
-3. In the **Desktop Element Recorder** dialog, select the **Batch Element Recorder** radio button and click **Launch**.
-
-4. In the **Select Application** window, select an application and click **Start Recording**. 
+3. In the **Select application** window, select the desktop application you want to record against.
 
 [[info | **NOTE**:]]
-| - To record multiple elements in a desktop application, ensure the application is open on your device.
+| Only applications running on your device are listed. Use the search field to filter the list, or click the refresh icon to reload it after opening a new application.
 
-5. The **Batch Element Recorder** automatically captures all elements in the currently open window of the application. 
+4. Click **Start recording**.
 
-[[info | **NOTE**:]]
-| - When you switch windows within the same application, the recorder captures elements from the new window and clears those recorded from the previous one.
-
-6. Once the elements are recorded, select an element name in the recorder and click **Locate Element** to highlight it in the actual application window.
+5. In the Element Recorder, click the **Batch** tab. The recorder captures every element in the currently open window of the application and lists them in a hierarchical tree.
 
 [[info | **NOTE**:]]
-| - You can use the **Expand All** and **Collapse All** buttons at the top of the recorder to quickly view or hide the full hierarchy of recorded elements. 
+| When you switch windows within the same application, the recorder captures elements from the new window and clears those recorded from the previous one.
 
-7. Click **Save all elements & Exit**. 
+6. Select an element in the tree to view its details in the **Element properties** panel.
+
+7. Click **Locate** to highlight the selected element in the application window.
+
+8. Click **Save**. The recorded elements are listed under **Create Tests > Elements**.
 
 ---
 
+## **Element Recorder Controls**
 
+| Control | Description |
+|---|---|
+| Selective / Batch | Switches the capture mode. Switch to **Selective** to capture elements one at a time without relaunching the recorder. |
+| Expand all / Collapse all | Expands or collapses the full hierarchy of recorded elements. |
+| Search | Filters the recorded element tree by name. |
+| Element properties | Displays the properties of the selected element, such as Name, Type, Class, AutomationId, and FrameworkId. |
+| Locate | Highlights the selected element in the application window. |
+| Save | Saves the recorded elements to the Elements list. |
 
+The recorder footer displays a running count of captured elements, such as **78 elements recorded**.
 
+[[info | **Additional Information**:]]
+| Batch capture records the full control tree of the window, including containers such as the title bar and tab groups. Use the search field to narrow the tree to the elements you need before saving.
 
+---
+
+## **Keyboard Shortcuts**
+
+| Shortcut | Action |
+|---|---|
+| Alt+R | Record |
+| Alt+S | Stop |
+| Ctrl+Shift+F | Freeze |
+
+---

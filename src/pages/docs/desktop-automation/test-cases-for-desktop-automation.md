@@ -13,60 +13,86 @@ contextual_links:
   name: "Prerequisites"
   url: "#prerequisites"
 - type: link
-  name: "Interactive Demo"
-  url: "#interactive-demo" 
+  name: "Record Test Steps for a Desktop Application"
+  url: "#record-test-steps-for-a-desktop-application"
 - type: link
-  name: "Steps to Create Test Cases for Desktop Automation"
-  url: "#steps-to-create-test-cases-for-desktop-automation"
+  name: "Add Test Steps Manually"
+  url: "#add-test-steps-manually"
+- type: link
+  name: "Run a Desktop Test Case with Copilot"
+  url: "#run-a-desktop-test-case-with-copilot"
 ---
 
 ---
 
-Test cases for desktop applications rely on the elements captured through Testsigma Terminal. Once the elements are available, Testsigma automatically suggests relevant actions based on the type of element you select in a test step. This article discusses creating and executing test cases for Desktop Applications in Testsigma. 
+Create test cases for a desktop application by recording your interactions or by adding steps manually. Recording captures each interaction as a test step and creates the underlying elements as it goes. Testsigma suggests relevant actions based on the type of element used in a step.
 
 ---
 
 > <p id="prerequisites">Prerequisites</p>
 > 
 > Before you begin, ensure that:
-> 1. You have referred to the [documentation on creating projects](https://testsigma.com/docs/projects/overview/).
-> 2. You have referred to the [docuemntation on creating applications](https://testsigma.com/docs/projects/applications/) in Testsigma.
-> 3. You should have the **Testsigma Terminal** installed.
-> 4. The **WinTest Automation** folder must exist in the **Testsigma Agent** directory. 
-> 5. You have a Windows application to test and make sure it’s open on your device. 
+> 1. A Desktop project and an application exist. See [Create Projects and Applications](https://testsigma.com/docs/desktop-automation/desktop-projects-and-applications/).
+> 2. **Testsigma Terminal** is installed on your Windows system.
+> 3. The **WinTest Automation** folder exists in the **Testsigma Agent** directory.
+> 4. The Windows application you want to test is open on your device.
 
 ---
 
-## **Interactive Demo**
-
-<div>
-  <script async src="https://js.storylane.io/js/v2/storylane.js"></script>
-  <div class="sl-embed" style="position:relative;padding-bottom:calc(50.52% + 25px);width:100%;height:0;transform:scale(1)">
-    <iframe loading="lazy" class="sl-demo" src="https://app.storylane.io/demo/3qus8rqqxqem?embed=inline" name="sl-embed" allow="fullscreen" allowfullscreen style="position:absolute;top:0;left:0;width:100%!important;height:100%!important;border:1px solid rgba(63,95,172,0.35);box-shadow: 0px 0px 18px rgba(26, 19, 72, 0.15);border-radius:10px;box-sizing:border-box;"></iframe>
-  </div>
-</div>
-
----
-
-## **Steps to Create Test Cases for Desktop Automation**
+## **Record Test Steps for a Desktop Application**
 
 1. From the left navigation bar, go to **Create Tests > Test Cases**.
 
-2. In the **Test Case Explorer** section, expand the required **Feature** and **Scenario** and click the **+** icon next to the scenario. A dialog box appears. 
+2. Open the test case you want to record into.
 
-3. In the dialog box, enter the name for your test case and click **Create**.
+3. On the test case details page, click **Record** in the **Action Panel**.
 
-4. In the **Test Case Details** page, click **Actions** from the drop-down.
-
-5. Select the required action from the **Actions** overlay.
-
-6. You can now add test steps by selecting the captured desktop UI elements and choosing the suggested inbuilt actions based on the element type.
+4. In the **Select application** window, select the desktop application you want to record against.
 
 [[info | **NOTE**:]]
-| - You can also use other step types to create and execute the test case. 
+| Only applications running on your device are listed. Use the search field to filter the list, or click the refresh icon to reload it after opening a new application.
 
-7. Once the test steps are created, click **Run** to execute the test case. This will open an **Ad-Hoc Run** overlay. 
+5. Click **Start recording**. The Testsigma Recorder opens, the selected application comes to the foreground, and **Open application** is added as the first test step with the application path.
 
-8. In the **Ad-Hoc Run** overlay, select the test machine, add additional settings if required, and click **Run Now**.
+6. Perform actions in the application. Each interaction is captured as a test step, and the elements involved are created automatically.
+
+[[info | **NOTE**:]]
+| To record an advanced action on an element, press **Ctrl** and click the element.
+
+7. Click **Pause** to hold recording without ending the session, or click **Stop** to end it.
+
+[[info | **Additional Information**:]]
+| Elements created during recording are saved under **Create Tests > Elements** and can be reused in other test cases. To capture elements without recording a test case, use the [Selective](https://testsigma.com/docs/desktop-automation/selective-elements/) or [Batch](https://testsigma.com/docs/desktop-automation/batch-elements/) tab of the Element Recorder.
+
+---
+
+## **Add Test Steps Manually**
+
+To add a step manually, click **Actions** from the drop-down on the test case details page, select the required action from the **Actions** overlay, and select a captured desktop element for the step. Testsigma suggests inbuilt actions based on the element type, and you can also use other step types to build the test case.
+
+---
+
+## **Run a Desktop Test Case with Copilot**
+
+1. On the test case details page, click **Copilot** in the **Action Panel**.
+
+2. In the **Copilot** overlay, set the **Set Initial Debug Point** and **Execute from Step** fields, and configure the additional settings if needed.
+
+3. Click **Launch** and wait for Copilot to start a session. Execution begins on the Windows test machine, and the Copilot panel opens alongside the step results.
+
+4. When execution pauses at a debug point or on a failure, inspect the application and use the execution controls to continue.
+
+[[info | **NOTE**:]]
+| The execution status appears at the bottom of the Copilot panel, for example **Execution paused**.
+
+5. Click **Rec** to record additional steps by performing actions in the application.
+
+6. Click **Resume** to continue the run.
+
+### **Execution Controls**
+
+**Resume** continues the test from the next execution step without restarting from the beginning. **Rec** records additional steps into the test case during the session.
+
+Copilot provides a further set of execution controls, including **Pause**, **Step Over**, **Skip Over**, and **Restart Execution**. 
 
 ---
