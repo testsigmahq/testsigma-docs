@@ -101,8 +101,7 @@ The test machine and test suite result IDs are not exposed in the UI. Retrieve t
 6. Reload the page.
 7. Select the **Environments** request in the network log.
 8. In the **Preview** panel, copy the machine result ID from the response.
-
-<!-- Screenshot needed: DevTools Network tab with the Environments request selected and the Preview panel open, with the machine result ID field highlighted. -->
+   ![Machine ID](https://s3.amazonaws.com/static-docs.testsigma.com/new/projects/applications/machine_id_fetch.png)
 
 9. Use the copied value as **{MACHINE\_RESULT\_ID}** in the export request.
 
@@ -116,8 +115,7 @@ The test machine and test suite result IDs are not exposed in the UI. Retrieve t
 6. Reload the page.
 7. Select the **Test Suite** request in the network log.
 8. In the **Preview** panel, copy the test suite result ID from the response.
-
-<!-- Screenshot needed: DevTools Network tab with the Test Suite request selected and the Preview panel open, with the suite result ID field highlighted. -->
+   ![Suite ID](https://s3.amazonaws.com/static-docs.testsigma.com/new/projects/applications/fetch_suite_id.png)
 
 9. Use the copied value as **{SUITE\_RESULT\_ID}** in the export request.
 
