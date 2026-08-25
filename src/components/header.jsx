@@ -52,14 +52,14 @@ const Header = () => {
             >
               BOOK A DEMO
             </a>
-            <a
+            {/* <a
               id={'signup-btn'}
               target={'_blank'}
               className='border border-primary_teal_green px-4 py-1.5 base-teal-gradient text-white rounded'
               href='/signup'
             >
               GET STARTED FREE
-            </a>
+            </a> */}
           </div>
           <nav className='flex w-11/12 gap-4'>
             <a
