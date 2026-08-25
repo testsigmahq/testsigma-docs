@@ -44,6 +44,7 @@ Capture UI elements one at a time in a desktop application using the **Selective
 1. From the left navigation bar, go to **Create Tests > Elements**.
 
 2. On the Elements list page, click **Record**.
+   ![Elements](https://s3.amazonaws.com/static-docs.testsigma.com/new/projects/applications/Desktop_Elements.png)
 
 3. In the **Select application** window, select the desktop application you want to record against.
 
@@ -51,6 +52,7 @@ Capture UI elements one at a time in a desktop application using the **Selective
 | Only applications running on your device are listed. Use the search field to filter the list, or click the refresh icon to reload it after opening a new application.
 
 4. Click **Start recording**. The Element Recorder opens on the **Selective** tab, with the application name displayed in the recorder header.
+   ![Selective Elements](https://s3.amazonaws.com/static-docs.testsigma.com/new/projects/applications/Desktop_Selective_Elements.png)
 
 5. Hover over an element in the application until it is highlighted in green, then click it to capture it.
 

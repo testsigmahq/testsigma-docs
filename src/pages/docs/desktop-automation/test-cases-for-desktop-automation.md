@@ -48,6 +48,7 @@ Create test cases for a desktop application by recording your interactions or by
 3. On the test case details page, click **Record** in the **Action Panel**.
 
 4. In the **Select application** window, select the desktop application you want to record against.
+   ![Select App](https://s3.amazonaws.com/static-docs.testsigma.com/new/projects/applications/Recorder_Desktop.png)
 
 [[info | **NOTE**:]]
 | Only applications running on your device are listed. Use the search field to filter the list, or click the refresh icon to reload it after opening a new application.
@@ -55,6 +56,7 @@ Create test cases for a desktop application by recording your interactions or by
 5. Click **Start recording**. The Testsigma Recorder opens, the selected application comes to the foreground, and **Open application** is added as the first test step with the application path.
 
 6. Perform actions in the application. Each interaction is captured as a test step, and the elements involved are created automatically.
+   ![Desktop Interactions](https://s3.amazonaws.com/static-docs.testsigma.com/new/projects/applications/Desktop_Interactions.png)
 
 [[info | **NOTE**:]]
 | To record an advanced action on an element, press **Ctrl** and click the element.
@@ -88,6 +90,8 @@ To add a step manually, click **Actions** from the drop-down on the test case de
 5. Click **Rec** to record additional steps by performing actions in the application.
 
 6. Click **Resume** to continue the run.
+
+   ![Desktop Copilot Execution](https://s3.amazonaws.com/static-docs.testsigma.com/new/projects/applications/Desktop_Copilot.png)
 
 ### **Execution Controls**
 

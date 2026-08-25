@@ -78,7 +78,7 @@ The engines available depend on the application type:
 | Android | Classic |
 | iOS | Classic |
 | Mobile Web | Classic |
-| Salesforce | Classic |
+| Salesforce | Classic and Modern |
 | REST API | Classic |
 | Desktop | Classic |
 | Windows | Classic |
