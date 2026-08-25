@@ -44,7 +44,7 @@ Capture every UI element in a desktop application window at once using the **Bat
 1. From the left navigation bar, go to **Create Tests > Elements**.
 
 2. On the Elements list page, click **Record**.
-
+   ![Elements](https://s3.amazonaws.com/static-docs.testsigma.com/new/projects/applications/Desktop_Elements.png)
 3. In the **Select application** window, select the desktop application you want to record against.
 
 [[info | **NOTE**:]]
@@ -53,6 +53,7 @@ Capture every UI element in a desktop application window at once using the **Bat
 4. Click **Start recording**.
 
 5. In the Element Recorder, click the **Batch** tab. The recorder captures every element in the currently open window of the application and lists them in a hierarchical tree.
+   ![Batch Elements](https://s3.amazonaws.com/static-docs.testsigma.com/new/projects/applications/Desktop_Batch_Elements.png)
 
 [[info | **NOTE**:]]
 | When you switch windows within the same application, the recorder captures elements from the new window and clears those recorded from the previous one.

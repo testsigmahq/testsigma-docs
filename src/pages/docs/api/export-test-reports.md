@@ -19,6 +19,9 @@ contextual_links:
   name: "Report Generation Flow"
   url: "#report-generation-flow"
 - type: link
+  name: "Retrieve the Result IDs"
+  url: "#retrieve-the-result-ids"
+- type: link
   name: "API Specification"
   url: "#api-specification"
 - type: link
@@ -46,7 +49,7 @@ Testsigma allows you to export test reports in XML, PDF, or Excel format at any 
 > Before you begin, ensure that:
 > 1. An API key exists for your Testsigma account. Refer to the [documentation on generating API keys](https://testsigma.com/docs/configuration/api-keys/).
 > 2. The test plan run is complete.
-> 3. The result ID for the level you want to export is available. Refer to the [documentation on fetching test results at all levels](https://testsigma.com/docs/api/test-results-at-all-levels/).
+> 3. The result ID for the level you want to export is available. Refer to [Retrieve the Result IDs](#retrieve-the-result-ids) for test machine and test suite exports, or to the [documentation on fetching test results at all levels](https://testsigma.com/docs/api/test-results-at-all-levels/).
 > 4. PDF report export is enabled for your account, if you export in PDF format.
 
 ---
@@ -78,6 +81,48 @@ Report generation is asynchronous. The same endpoint both triggers the report an
 
 [[info | NOTE:]]
 | A generation failure returns **200** with **"status": "FAILED"** rather than a server error. Check the **status** field in every response instead of relying on the HTTP status code alone.
+
+---
+
+## **Retrieve the Result IDs**
+
+The test machine and test suite result IDs are not exposed in the UI. Retrieve them from the network requests that the **Run Results** page sends, then use them in the export endpoint for that level.
+
+[[info | NOTE:]]
+| The test plan run ID is available in the URL of the **Run Results** page. Refer to the [documentation on obtaining the run ID](https://testsigma.com/docs/api/test-plans/#obtaining-the-run-id).
+
+### **Retrieve the Test Machine Result ID**
+
+1. Open the completed test plan run on the **Run Results** page.
+2. From the view dropdown, select **Test Machines**.
+3. Select the test machine you want to export.
+4. Open the browser developer tools and go to the **Network** tab.
+5. Clear the network log.
+6. Reload the page.
+7. Select the **Environments** request in the network log.
+8. In the **Preview** panel, copy the machine result ID from the response.
+
+<!-- Screenshot needed: DevTools Network tab with the Environments request selected and the Preview panel open, with the machine result ID field highlighted. -->
+
+9. Use the copied value as **{MACHINE\_RESULT\_ID}** in the export request.
+
+### **Retrieve the Test Suite Result ID**
+
+1. Open the completed test plan run on the **Run Results** page.
+2. From the view dropdown, select **Test Suites**.
+3. Select the test suite you want to export.
+4. Open the browser developer tools and go to the **Network** tab.
+5. Clear the network log.
+6. Reload the page.
+7. Select the **Test Suite** request in the network log.
+8. In the **Preview** panel, copy the test suite result ID from the response.
+
+<!-- Screenshot needed: DevTools Network tab with the Test Suite request selected and the Preview panel open, with the suite result ID field highlighted. -->
+
+9. Use the copied value as **{SUITE\_RESULT\_ID}** in the export request.
+
+[[info | NOTE:]]
+| The test case result ID follows the same pattern at the test case level. Refer to the [documentation on fetching test results at all levels](https://testsigma.com/docs/api/test-results-at-all-levels/) for the response fields at each level.
 
 ---
 
