@@ -13,60 +13,84 @@ contextual_links:
   name: "Prerequisites"
   url: "#prerequisites"
 - type: link
-  name: "Steps to Create Elements Using Selective Element Recorder"
-  url: "#steps-to-create-elements-using-selective-element-recorder"
+  name: "Steps to Record Elements Using the Selective Tab"
+  url: "#steps-to-record-elements-using-the-selective-tab"
+- type: link
+  name: "Element Recorder Controls"
+  url: "#element-recorder-controls"
+- type: link
+  name: "Keyboard Shortcuts"
+  url: "#keyboard-shortcuts"
 ---
 
 ---
 
-The Selective Element Recorder lets you capture specific UI elements in a desktop application by selecting one element at a time. Once recorded, the elements are displayed in a hierarchical tree structure for easy viewing and locating while creating test cases. This article explains how to capture individual elements using the Selective Element Recorder.
+Capture UI elements one at a time in a desktop application using the **Selective** tab of the Element Recorder. Recorded elements appear in a hierarchical tree along with their properties and can be used while creating test steps.
 
 ---
 
 > <p id="prerequisites">Prerequisites</p>
 > 
 > Before you begin, ensure that:
-> 1. You have referred to the [documentation on creating projects](https://testsigma.com/docs/projects/overview/).
-> 2. You have referred to the [docuemntation on creating applications](https://testsigma.com/docs/projects/applications/) in Testsigma.
-> 3. You should have the **Testsigma Terminal** installed.
-> 4. The **WinTest Automation** folder must exist in the **Testsigma Agent** directory. 
-> 5. You have a Windows application to test and make sure it’s open on your device. 
+> 1. A Desktop project and an application exist in Testsigma. See [creating projects](https://testsigma.com/docs/projects/overview/) and [creating applications](https://testsigma.com/docs/projects/applications/).
+> 2. **Testsigma Terminal** is installed on your Windows system.
+> 3. The **WinTest Automation** folder exists in the **Testsigma Agent** directory.
+> 4. The Windows application you want to record is open on your device.
 
 ---
 
-## **Steps to Create Elements Using Selective Element Recorder**
+## **Steps to Record Elements Using the Selective Tab**
 
-1. From the left navigation bar, go to **Create Tests > Elements**. 
+1. From the left navigation bar, go to **Create Tests > Elements**.
 
-2. In the Elements list page, click **Record**. 
+2. On the Elements list page, click **Record**.
+   ![Elements](https://s3.amazonaws.com/static-docs.testsigma.com/new/projects/applications/Desktop_Elements.png)
 
-3. In the **Desktop Element Recorder** dialog box, select the **Selective Element Recorder** radio button and click **Launch**.
-
-4. In the **Select Application** window, select an application and click **Start Recording**. 
-
-[[info | **NOTE**:]]
-| - To record an element in a desktop application, make sure the application is open on your device.
-
-5. Click the **Record** button in the recorder to start capturing the element. 
-
-6. Hover over the element in your application until it is highlighted in green, then click on it to capture it.
-
-7. Once the element is recorded, select an element name in the recorder and click **Locate Element** to highlight it in the actual application window.
+3. In the **Select application** window, select the desktop application you want to record against.
 
 [[info | **NOTE**:]]
-| - You can use the **Expand All** and **Collapse All** buttons at the top of the recorder to quickly view or hide the full hierarchy of recorded elements. 
+| Only applications running on your device are listed. Use the search field to filter the list, or click the refresh icon to reload it after opening a new application.
 
-8. Click **Save Element**. 
+4. Click **Start recording**. The Element Recorder opens on the **Selective** tab, with the application name displayed in the recorder header.
+   ![Selective Elements](https://s3.amazonaws.com/static-docs.testsigma.com/new/projects/applications/Desktop_Selective_Elements.png)
+
+5. Hover over an element in the application until it is highlighted in green, then click it to capture it.
+
+[[info | **NOTE**:]]
+| To capture elements that disappear on hover, such as menus and dropdowns, click **Freeze** or press **Ctrl+Shift+F** to hold the current UI state, then click the element.
+
+6. Select a captured element in the tree to view its details in the **Element properties** panel.
+
+7. Click **Locate** to highlight the selected element in the application window.
+
+8. Click **Save**. The recorded elements are listed under **Create Tests > Elements**.
 
 ---
 
+## **Element Recorder Controls**
 
+| Control | Description |
+|---|---|
+| Selective / Batch | Switches the capture mode. Switch to **Batch** to capture every element in the current window without relaunching the recorder. |
+| Pause | Pauses capture. The application stays open and recorded elements are retained. |
+| Stop | Ends the recording session. |
+| Freeze | Holds the current UI state so transient elements such as menus and dropdowns can be captured. |
+| Expand all / Collapse all | Expands or collapses the full hierarchy of recorded elements. |
+| Search | Filters the recorded element tree by name. |
+| Element properties | Displays the properties of the selected element, such as Name, Type, Class, AutomationId, and FrameworkId. |
+| Locate | Highlights the selected element in the application window. |
+| Save | Saves the recorded elements to the Elements list. |
 
+The recorder footer displays a running count of captured elements, such as **2 elements recorded**.
 
+---
 
+## **Keyboard Shortcuts**
 
+| Shortcut | Action |
+|---|---|
+| Alt+R | Record |
+| Alt+S | Stop |
+| Ctrl+Shift+F | Freeze |
 
-
-
-
-
+---
