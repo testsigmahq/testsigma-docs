@@ -190,7 +190,7 @@ This endpoint generates a PDF report with the screenshots and resolution you spe
 
 |**Request Type**|**GET**|
 |---|---|
-|**Endpoint**|https://app.testsigma.com/api/v1/reports/execution_result/{RUN_ID}?format=pdf&screenshot=FAILED\_STEPS&visualScreenshot=NONE&resolution=LOW|
+|**Endpoint**|https://app.testsigma.com/api/v1/reports/execution_result/{RUN_ID}?format=pdf&screenshot=FAILED_STEPS&visualScreenshot=NONE&resolution=LOW|
 |**Authorization**|Bearer {API_Token}|
 
 [[info | NOTE:]]
