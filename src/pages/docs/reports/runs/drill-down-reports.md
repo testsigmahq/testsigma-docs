@@ -1,6 +1,6 @@
 ---
 title: "Test Plan Run Results in Testsigma"
-metadesc: "View and download reports from the Run Results page in Testsigma | This page provides detailed results at the test cases, suites, and machines levels."
+metadesc: "View and download reports from the Run Results page in Testsigma | Drill into results at the test case, suite, and machine level, read step analysis, and compare runs."
 noindex: false
 order: 14.23
 page_id: "Test Plan Run Results"
@@ -18,11 +18,20 @@ contextual_links:
   name: "Steps to View Test Case Results"
   url: "#steps-to-view-test-case-results"
 - type: link
+  name: "Step Details Tabs"
+  url: "#step-details-tabs"
+- type: link
   name: "Steps to View Test Machine Results"
   url: "#steps-to-view-test-machine-results"
 - type: link
   name: "Test Runs in Run Results"
   url: "#test-runs-in-run-results"
+- type: link
+  name: "Compare Runs"
+  url: "#compare-runs"
+- type: link
+  name: "Compare a Single Step"
+  url: "#compare-a-single-step"
 - type: link
   name: "Overview of Tests in Run Results"
   url: "#overview-of-tests-in-run-results"
@@ -39,124 +48,204 @@ contextual_links:
 
 ---
 
-In Testsigma, you can view and download reports from the Run Results page. This page provides results at the test cases, test suites, and test machine level and also helps you check test runs, view the run overview, and see the count of passed/failed tests along with the reasons for failure. This article provides an overview of the Run Results page in Testsigma.
-
+View and download reports from the **Run Results** page. The page presents results at the test case, test suite, and test machine level, and shows the count of passed and failed tests along with the reason for each failure. Drill into a single step to read its analysis, check its logs, and compare it against an earlier run.
 
 ---
 
 > <p id="prerequisites">Prerequisites</p>
 >
-> Before you begin, ensure that you have referred to:
-> 1. [Documentation on creating test plans](https://testsigma.com/docs/test-plans/overview/).
+> Before you begin, ensure that:
+> 1. You have referred to the [documentation on creating test plans](https://testsigma.com/docs/test-plans/overview/).
+> 2. A test plan has completed at least one run.
 
 ---
 
 ## **Steps to View Test Suite Results**
 
-1. From the left navigation bar, go to **Run Results** and click on the test plan for which you want to check the results.
-   ![Test Suites](https://s3.amazonaws.com/website-static-docs.testsigma.com/new_images/projects/Updated_Doc_Images/Run_Results_Test_Suites.png)
-
-2. By default, you’ll see the results at test suite level. 
-   ![Results at Test Suite Level](https://s3.amazonaws.com/website-static-docs.testsigma.com/new_images/projects/Updated_Doc_Images/Run_Results_Default_Page.png)
-
-3. You can expand the test suite to check test case results inside the suite. 
-   ![Expand Test Suite](https://s3.amazonaws.com/website-static-docs.testsigma.com/new_images/projects/Updated_Doc_Images/Expan_Test_Suite_Run_Results.png)
+1. From the left navigation bar, go to **Run Results** and click the test plan for which you want to check the results.
    
-4. The symbols shown with the arrow in the image below indicate the number of test suites running in parallel and the number of test cases running in parallel within each test suite.
-   ![Parallel Settings Indicators](https://s3.amazonaws.com/website-static-docs.testsigma.com/new_images/projects/Updated_Doc_Images/Parallel_Settings_In_Test_Suites.png)
+
+2. Results open at test suite level by default.
+   ![](https://s3.amazonaws.com/static-docs.testsigma.com/new/projects/applications/Test_Suite_Level_Results.png)
+
+3. Expand a test suite to check the test case results inside it.
+   
+
+4. The parallel indicators on each row show how many test suites run in parallel, and how many test cases run in parallel within each suite.
+   
 
 ---
-
 
 ## **Steps to View Test Case Results**
 
 1. On the **Run Results** page, select **Test Cases** from the dropdown menu.
-   ![Test Cases](https://s3.amazonaws.com/website-static-docs.testsigma.com/new_images/projects/Updated_Doc_Images/Run_Results_Test_Cases.png)
+
 
 2. The page displays all test cases from all test suites.
-   ![Test Cases in all Suites](https://s3.amazonaws.com/website-static-docs.testsigma.com/new_images/projects/Updated_Doc_Images/Test_Cases_In_All_Suites.png)
 
-3. You can hover over a failed test case to view a brief description of the reason for failure.
-   ![Failure Dialog Box](https://s3.amazonaws.com/website-static-docs.testsigma.com/new_images/projects/Updated_Doc_Images/Failure_Dialog_Test_Cases.png)
+
+3. Hover over a failed test case to view a brief description of the reason for failure.
+
 
 4. Click a test case to view its detailed results.
 
-5. On the **Test Case Results** page, you can view all the test steps along with the **Element Information, Test Data, Settings, Metadata**, and **Step Details**.
-   ![Detailed Result of a Test Case](https://s3.amazonaws.com/website-static-docs.testsigma.com/new_images/projects/Updated_Doc_Images/Detailed_Test_Case_Result.png)
+5. On the **Test Case Results** page, the step list appears on the left, headed by the step count and the number of failed steps. Select a step to open its details on the right. Drag the divider between the two panes to resize either side.
+   ![](https://s3.amazonaws.com/static-docs.testsigma.com/new/projects/applications/Results_Divider.png)
 
-6. Click **More details** to access additional information.
-   ![More Details](https://s3.amazonaws.com/website-static-docs.testsigma.com/new_images/projects/Updated_Doc_Images/More_Details_On_Test_Case_Result.png)
+
+6. Review the step header, which shows the step number, its duration, its status, and the result message. On a failed step, the header shows the error message with a **Read more** link.
+
+7. Click **Affected tests** to see what else depends on the element this step uses. The **Affected Instances** panel opens with counts across **Test Cases**, **Step Groups**, **Test Suites**, and **Test Plans**.
+
+8. Click **More details** to open **Test Case Overview**, which shows the step breakdown across **Passed**, **Failed**, **Not Executed**, and **Stopped**, along with the run message and **Machine Details**.
+
+---
+
+## **Step Details Tabs**
+
+Each step presents its details across five tabs.
+
+| **Tab** | **What it contains** |
+|---|---|
+| **Analysis** | The step result summary, the **Root cause** block on a failed step, and the **Visual Evidence** section comparing the authoring screenshot against this run |
+| **Locators** | The locators used for the step |
+| **Logs** | Selenium, console, and network logs for the step or for the whole run |
+| **Step Settings** | Maximum wait time, prerequisite, whether the step result is ignored in the test case result, and whether visual testing is enabled for the step |
+| **Metadata** | Test data and its type, along with the step ID and action |
+
+![](https://s3.amazonaws.com/static-docs.testsigma.com/new/projects/applications/Analysis_Tab_results.png)
+
+Below the two panels, the **Analysis** tab lists the element, element name, run type, action, start time, duration, step level timeout, plan level timeout, error code, error message, test data type, and test data for each side of the comparison. The **Page source** section at the bottom holds the captured HTML for each side as a downloadable file.
+
+On a failed step, the tab opens with the error code for the failure, such as **#NO\_SUCH\_ELEMENT**.
+
+[[info | **NOTE**:]]
+| For details on reading the logs and investigating a failure, refer to the [documentation on debugging test case failures](https://testsigma.com/docs/runs/debug-test-case-failures/). For a root cause explanation and suggested fixes, refer to the [documentation on the Analyzer Agent](https://testsigma.com/docs/ai-agents/analyzer/).
 
 ---
 
 ## **Steps to View Test Machine Results**
 
 1. On the **Run Results** page, select **Test Machines** from the dropdown menu.
-   ![Test Machine Run Results](https://s3.amazonaws.com/website-static-docs.testsigma.com/new_images/projects/Updated_Doc_Images/Test_Machine_Run_Results.png)
+   
 
 2. The page displays all test machines included in the test plan.
-   ![All Test Machines](https://s3.amazonaws.com/website-static-docs.testsigma.com/new_images/projects/Updated_Doc_Images/All_Test_Machines_Run_Results.png)
-
-   [[info | **NOTE**:]]
-   | To view the test cases part of the test machine, navigate to the **Test Suites** view and apply a **Test Machine** filter. This provides a view of all test cases in the selected test suite and test machine.
+   <!-- Image Placeholder: All Test Machines -->
 
 3. Click a test machine to expand and view the test suites it contains.
-   ![Expand Machine](https://s3.amazonaws.com/website-static-docs.testsigma.com/new_images/projects/Updated_Doc_Images/Expand_Test_Machine_Run_Result.png)
+   
+
+[[info | **NOTE**:]]
+| To view the test cases that are part of a test machine, go to the **Test Suites** view and apply a **Test Machine** filter. This shows all test cases in the selected test suite and test machine.
 
 ---
 
 ## **Test Runs in Run Results**
 
 1. From the **Test Runs** panel, select a different run to view its corresponding test run results.
-   ![Test Runs](https://s3.amazonaws.com/website-static-docs.testsigma.com/new_images/projects/Updated_Doc_Images/Test_Runs_In_Run_Results.png)
+   
 
 2. Click **Rerun** in the top-right corner to rerun the test plan by selecting the appropriate rerun options.
-   ![Rerun](https://s3.amazonaws.com/website-static-docs.testsigma.com/new_images/projects/Updated_Doc_Images/ReRun_from_Run_Results.png)
+   
 
 [[info | **NOTE**:]]
-| 1. Each run ID has a maximum rerun limit of 10. We recommend using reruns wisely. 
-| ![Rerun Limit](https://s3.amazonaws.com/website-static-docs.testsigma.com/new_images/projects/Updated_Doc_Images/Rerun_Limits_Run_Results.png)
+| 1. Each run ID has a maximum rerun limit of 10. We recommend using reruns wisely.
 |
-| 2. Once you click **Rerun**, you'll see the following options. 
-|    - **All Test Cases:** This will rerun all the test cases in the selected run.
-|    - **All Failed Test Cases:** This will rerun all the failed test cases in the selected run. 
-|    - **Select Cases for Re-Run:** This will allow you to select the test cases you want to rerun.
+| 2. After you click **Rerun**, the following options appear:
+|    - **All Test Cases**: Reruns all the test cases in the selected run.
+|    - **All Failed Test Cases**: Reruns all the failed test cases in the selected run.
+|    - **Select Cases for Re-Run**: Lets you select the test cases you want to rerun.
 |
 | 3. Click **Start execution** to rerun the test plan.
 
+---
 
-1. To compare the current rerun result with the previous result, click **Compare Run**.
-   ![Compare Test Runs](https://s3.amazonaws.com/website-static-docs.testsigma.com/new_images/projects/Updated_Doc_Images/Compare_Runs_In_Run_Results.png)
+## **Compare Runs**
 
-2. This opens the **Rerun** overlay, where you can view a detailed comparison at all levels.
-   ![Rerun Overlay](https://s3.amazonaws.com/website-static-docs.testsigma.com/new_images/projects/Updated_Doc_Images/Compare_Runs_Overlay.png)
+Compare two runs of the same test case side by side.
+
+1. On the **Test Case Results** page, click **Compare Runs**.
+   ![](https://s3.amazonaws.com/static-docs.testsigma.com/new/projects/applications/Compare_Run_Results.png)
+
+2. Select a run from the list at the top of either panel.
+   ![](https://s3.amazonaws.com/static-docs.testsigma.com/new/projects/applications/Compare_Between_Runs.png)
+Each panel shows the run's duration, date, step count, and failed count, followed by every step with its own duration.
+
+Comparison also spans the steps on either side of the failure, because the step that reports an error is often not the step that caused it.
+
+[[info | **NOTE**:]]
+| The run list includes **Authoring Run**, which holds the values captured when the test case was authored, along with each earlier run identified by its run ID. Every entry shows its run type and its status as **Passed**, **Failed**, or **Healed**, so you can pick the last run that behaved as expected without opening runs one by one.
+
+---
+
+## **Compare a Single Step**
+
+Compare one step against the same step in another run.
+
+1. On the **Analysis** tab, in the **Visual Evidence** section, click **Compare Steps**. The step comparison overlay opens. The step under comparison appears in the breadcrumb.
+   
+   ![](https://s3.amazonaws.com/static-docs.testsigma.com/new/projects/applications/Compare_Step_Results.png)
+
+2. From the **View** list, select a comparison mode.
+   
+   ![](https://s3.amazonaws.com/static-docs.testsigma.com/new/projects/applications/Comparison_Mode.png)
+
+   | **Mode** | **What it shows** |
+   |---|---|
+   | **Compare with Baseline** | The baseline run and the current run side by side |
+   | **Overlay Wipe** | Both screenshots in one frame, with a divider to wipe between them |
+   | **Current Step Only** | The current run's screenshot on its own |
+   | **Element Source** | A diff of the captured page source across the two runs, alongside the locator value for each |
+
+   In **Overlay Wipe**, the capture recorded at authoring time and the capture taken during execution load into a single frame separated by a vertical divider. Drag the handle on the divider to wipe between them. Stacking the two makes a shifted control, a modal that did not close, or a reflowed layout visible at once, rather than something to find by comparing two panels.
+   
+   ![](https://s3.amazonaws.com/static-docs.testsigma.com/new/projects/applications/Overlay_Wipe.png)
+
+3. Click **Screens** to compare screenshots only, or **Screens + Details** to show the step details beneath each screenshot.
+
+   **Screens + Details** lists the run type, start time, duration, step level timeout, plan level timeout, error code, error message, element name, and locator for each run. Where a value was not captured, the field shows a dash.
+
+   [[info | **NOTE**:]]
+   | **Screens + Details** is disabled in **Overlay Wipe**, because that mode renders a single combined frame rather than two panels.
+
+4. To compare a different step, select a step from the **Change Step** list.
+
+   ![](https://s3.amazonaws.com/static-docs.testsigma.com/new/projects/applications/Change_Step_in_Results.png) 
+
+   Each entry shows the step number, the step name, its duration, and its status, including **Not Executed** for steps the run never reached.
+
+5. Click the download icon to download the comparison artifacts.
+
+[[info | **NOTE**:]]
+| The baseline panel defaults to **Authoring Time** and is marked **Recorded**. When a step targets no element, the panel reads "No recorded evidence captured for this step".
 
 ---
 
 ## **Overview of Tests in Run Results**
 
 1. The **Run Overview** section of the **Run Results** page is dynamic and provides a summary of tests at all levels for the selected run.
-   ![Run Overview](https://s3.amazonaws.com/website-static-docs.testsigma.com/new_images/projects/Updated_Doc_Images/Run_Overview_Run_Results.png)
+   
 
-2. This section displays the **Last Run, Test Plan Settings**, and **Accessibility Test Overview**.
-   ![Run Overview Section](https://s3.amazonaws.com/website-static-docs.testsigma.com/new_images/projects/Updated_Doc_Images/Run_Overview_Section_Run_Results.png)
+2. This section displays the **Last Run**, **Test Plan Settings**, and **Accessibility Test Overview**.
+   
 
 3. Click **View Runs** to view all runs, **More Settings** to access additional settings, and **View Report** to check the **Accessibility Testing Report**.
-   ![View Overlay Components](https://s3.amazonaws.com/website-static-docs.testsigma.com/new_images/projects/Updated_Doc_Images/Run_Overview_Overlay_Comps.png)
+   
 
 ---
 
 ## **Exporting the Test Reports**
 
-1. Click the **Export** icon and select the desired download format from the dropdown menu.
-   ![Export Run Results](https://s3.amazonaws.com/website-static-docs.testsigma.com/new_images/projects/Updated_Doc_Images/Export_Run_Results.png)
+1. Click the **Export** icon and select the download format from the dropdown menu.
+   
 
-2. For **PDF format**, the **Export PDF** dialog appears. Select the appropriate options and click **Export**.
-   ![Export PDF](https://s3.amazonaws.com/website-static-docs.testsigma.com/new_images/projects/Updated_Doc_Images/Export_Run_Results_In_PDF.png)
+2. For **PDF** format, the **Export PDF** dialog appears. Select the appropriate options and click **Export**.
+   
+   ![](https://s3.amazonaws.com/static-docs.testsigma.com/new/projects/applications/Export_Results_in_PDF.png)
 
-3. For **JUnit format**, the report is downloaded instantly as an **XML file**.
+3. For **JUnit** format, the report is downloaded instantly as an XML file.
 
-4. For **XLSX format**, a downloadable link of the report is sent to your email.
+4. For **XLSX** format, a downloadable link of the report is sent to your email.
 
 ---
 
