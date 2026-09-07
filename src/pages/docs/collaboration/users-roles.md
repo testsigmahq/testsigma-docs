@@ -33,7 +33,7 @@ When a user is added in Testsigma, they can be assigned various roles. This docu
 ---
 
 ## **Roles in Testsigma**
-Below are the six roles that can be assigned to a project member in Testsigma:
+Below are the roles that can be assigned in Testsigma:
 
 1. **Super Administrator:** A user in a ‘Super Administrator’ role will have complete control over the Testsigma project but will be restricted from viewing Account or Billing-related information.
 
@@ -46,6 +46,12 @@ Below are the six roles that can be assigned to a project member in Testsigma:
 5. **Account Administrator:** A user in the role of ‘Account Administrator’ has all the rights as a Super Administrator. In addition, they will also have access to billing-related information for that particular account.
 
 6. **Read Only:** A user in the role of 'Read Only' will be able to view the contents of your project without making any modifications.
+
+7. **Org Owner:** An organization-wide role, separate from the product-specific roles above. It marks a user as owner across all of their product accounts rather than a single account.
+
+[[info | **NOTE**:]]
+| - The **Org Owner** role can only be granted or revoked by a **Super Administrator**, and every organization must always retain at least one owner.
+| - Alongside Super Administrators, Org Owners can access the **Organization Settings** area, which includes password policy and SSO configuration.
 
 ---
 
