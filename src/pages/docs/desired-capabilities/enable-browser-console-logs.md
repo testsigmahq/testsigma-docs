@@ -15,7 +15,7 @@ contextual_links:
   url: "#desired-capabilities-for-console-logs"
 - type: link
   name: "Enable Console Log in Ad-hoc Run"
-  url: "#enable-console-log-in-ad-hoc-run"
+  url: "#enable-console-log-in-ad-hoc-runs"
 - type: link
   name: "Enable Console Log in Test Plan"
   url: "#enable-console-log-in-test-plan"

@@ -11,7 +11,7 @@ contextual_links:
   name: "Contents"
 - type: link
   name: "Prerequesties"
-  url: "#prerequesties"
+  url: "#prerequisites"
 - type: link
   name: "Clear Step"
   url: "#clear-step"

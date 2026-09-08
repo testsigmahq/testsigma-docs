@@ -19,7 +19,7 @@ contextual_links:
   url: "#adding-drivers-manually"
 - type: link
   name: "Additional steps for Mac or Linux"
-  url: "#additional-steps-for-maclinux"
+  url: "#additional-steps-for-mac-or-linux"
 
 ---
 

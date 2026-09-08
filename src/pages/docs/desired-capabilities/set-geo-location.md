@@ -25,7 +25,7 @@ For setting the location of the Test Environment where the Tests are run, we jus
 You should already know how to add Desired Capabilities to your Tests. Refer to the [documentation on configuring desired capabilities](https://testsigma.com/docs/desired-capabilities/overview/)
 
 ---
-##**Setting Desired Capabilities in different Browsers**
+## **Setting Desired Capabilities in different Browsers**
 
 ### **Google Chrome**
 
@@ -60,7 +60,7 @@ Similarly, the value for the location **'Central Park, NYC, USA'** will be **{"l
 | Setting the Geolocation is not yet supported in IE and Safari
 
 ---
-##**Example websites to test current location**
+## **Example websites to test current location**
 
 You can use <a href="https://www.mapcoordinates.net/en" rel="nofollow">https://www.mapcoordinates.net/en</a> for the latitude and longitude information for your desired location, and <a href="https://mycurrentlocation.net/" rel="nofollow">https://mycurrentlocation.net/</a> to check current location.
 
