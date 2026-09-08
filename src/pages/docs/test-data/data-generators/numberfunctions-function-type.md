@@ -17,7 +17,7 @@ contextual_links:
   url: "#selecting-numberfunctions-as-a-function-type-for-data-generator"
 - type: link
   name: "Custom Calculation"
-  url: "#custom-calculations"
+  url: "#custom-calculation"
 ---
 
 ---

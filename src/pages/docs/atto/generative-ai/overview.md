@@ -14,7 +14,7 @@ contextual_links:
   url: "#prerequisites"
 - type: link
   name: "Testsigma Copiot Capabilities"
-  url: "#testsigma-copiot-capabilities"
+  url: "#testsigma-copilot-capabilities"
 - type: link
   name: "Generate Tests from Generative AI"
   url: "#generate-tests-from-generative-ai"

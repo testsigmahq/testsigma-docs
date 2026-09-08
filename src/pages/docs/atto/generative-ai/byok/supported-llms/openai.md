@@ -14,7 +14,7 @@ contextual_links:
   url: "#prerequisites"
 - type: link
   name: "Steps to Get OpenAI Details"
-  url: "#Steps-to-get-openai-details"
+  url: "#steps-to-get-openai-details"
 ---
 
 ---

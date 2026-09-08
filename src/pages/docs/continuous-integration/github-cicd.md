@@ -9,7 +9,7 @@ contextual_links:
   name: "Contents"
 - type: link
   name: "Pre-requisites:"
-  url: "#pre-requisites"
+  url: "#prerequisites"
 - type: link
   name: "For Github CICD Integration"
   url: "#for-github-cicd-integration"
