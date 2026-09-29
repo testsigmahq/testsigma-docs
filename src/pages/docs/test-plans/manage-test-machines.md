@@ -18,6 +18,9 @@ contextual_links:
   name: "Adding a Test Machine From Edit Test Plan Page"
   url: "#adding-a-test-machine-from-edit-test-plan-page"
 - type: link
+  name: "Setting Pre-Requisite Rerun Options for a Test Machine"
+  url: "#setting-pre-requisite-rerun-options-for-a-test-machine"
+- type: link
   name: "Delete test machine"
   url: "#delete-test-machine"
 ---
@@ -91,6 +94,31 @@ Alternatively, you can also add new machines from the edit test plan page.
 ![Settings](https://s3.amazonaws.com/website-static-docs.testsigma.com/new_images/projects/Updated_Doc_Images/update_manage_test_plans_10.png)
 
 6. Selected machines will be added to the test plan.
+
+---
+
+## **Setting Pre-Requisite Rerun Options for a Test Machine**
+
+Choose whether a prerequisite test machine runs again in full or only its failed iterations run when you rerun the test plan.
+
+1. In the **Add Test Suites & Link Machine Profiles** tab, click the **Link Machine to all suites**. This will oprn **Select test machine profiles** panel.
+
+[[info | NOTE:]]
+| To link a test machine to a single test suite, click the test machine icon next to that test suite's name.
+
+2. Click the **Test machine settings** on the test machine profile you want to configure. This will open **Edit test machine/device profile** panel.
+
+3. From the **Pre-requisite test machine** list, select the prerequisite test machine.
+
+4. Click **Rerun options**. This will open **Pre-Requisite Rerun Options** dialog.
+   ![Pre-Requisite Rerun Options for Machines](https://s3.amazonaws.com/static-docs.testsigma.com/new/projects/applications/Rerun_for_Test_Machines.png)
+
+5. Select **Always run Pre-Requisite** or **Only execute failed Pre-Requisite iteration(s)**.
+   ![Rerun Options for Machines](https://s3.amazonaws.com/static-docs.testsigma.com/new/projects/applications/Rerun_Options_for_Machines.png)
+
+6. Click **Save**.
+
+7. Click **Update Profile**.
 
 ---
 
