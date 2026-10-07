@@ -13,17 +13,11 @@ contextual_links:
   name: "Prerequisites"
   url: "#prerequisites"
 - type: link
-  name: "Identify Healed Steps in a Run"
-  url: "#identify-healed-steps-in-a-run"
+  name: "Review a Healed Step in Run Results"
+  url: "#review-a-healed-step-in-run-results"
 - type: link
-  name: "Review the Heal on the Analysis Tab"
-  url: "#review-the-heal-on-the-analysis-tab"
-- type: link
-  name: "View Autoheal Details"
-  url: "#view-autoheal-details"
-- type: link
-  name: "Read the Locator Trace"
-  url: "#read-the-locator-trace"
+  name: "Locators Tried"
+  url: "#locators-tried"
 - type: link
   name: "When a Heal Fails"
   url: "#when-a-heal-fails"
@@ -46,65 +40,69 @@ Review how auto-healing behaved during a run to see which locator failed, what r
 
 ---
 
-## **Identify Healed Steps in a Run**
+## **Review a Healed Step in Run Results**
 
-1. Open the test case results for the run.
+When a saved locator fails during execution, Testsigma searches for the element and continues the run with a new locator. The step's status reads **Healed**, and the new locator is kept as a pending heal until you approve it.
 
-2. Select the healed step.
-   ![](https://s3.amazonaws.com/static-docs.testsigma.com/new/projects/applications/Auto_Healing_Insights_New.png)
+1. On the **Test Case Results** page, select a step that shows the auto-heal icon.
+   ![Auto_Healing_Insights_New](https://s3.amazonaws.com/static-docs.testsigma.com/new/projects/applications/Auto_Healing_Insights_New.png)
 
-[[info | **NOTE**:]]
-| A healed step reports **Passed**, because the step completed. The run itself carries a **Healed** status in the run list, which distinguishes it from a run that passed without intervention.
+2. Review the **Healed this step** card below the step header.
+   ![Review Healed Step](https://s3.amazonaws.com/static-docs.testsigma.com/new/projects/applications/Healed_this_step.png)
 
----
+   The **Locator change** section shows two values:
+   - **Previous · recorded**: The saved locator that failed, shown struck through.
+   - **Current · applied**: The locator Testsigma used to continue the run.
 
-## **Review the Heal on the Analysis Tab**
+   The count at the bottom of the card shows how many linked artifacts use this element.
+   
 
-The **Analysis** tab shows a **Healed this step** card explaining what happened: "Existing locator failed during execution, and we've auto-healed it using AI. The element locator was updated with a new XPath to ensure your test continues to run smoothly."
+3. Click **Locators tried** to see how Testsigma found the element. For details, refer to [Locators Tried](#locators-tried).
 
-Choose one of the following:
-![](https://s3.amazonaws.com/static-docs.testsigma.com/new/projects/applications/Healed_Details_in_Results.png)
-- Click **Approve as Primary** to make the healed locator the locator the test uses from now on.
-- Click **Ignore** to leave the original locator in place. The heal still applied to this run only.
+4. Click **Approve as Primary**. This will open **Autoheal Details** panel, showing the element name and the locator type used for the heal, such as **Autohealed using CSS Selector**. The failed locator appears struck through above the new one.
 
-[[info | **NOTE**:]]
-| In the **Visual Evidence** section, the current run panel carries a **Healed** badge, and the **Element** field has an edit icon for correcting the locator directly.
+5. Click **Update**. The **Update Element** dialog opens.
+   ![Update Element](https://s3.amazonaws.com/static-docs.testsigma.com/new/projects/applications/Update_Locator_with_Autoheal_Details.png)
 
----
+6. Review the test cases listed under **Linked to Test Cases**. Click the open icon next to a test case to view it in a new tab.
 
-## **View Autoheal Details**
+7. Click **Update** to update the element in all linked test cases.
+   ![Update](https://s3.amazonaws.com/static-docs.testsigma.com/new/projects/applications/Update_with_New_Locator_Value.png)
+   The **Healed this step** card now shows **Approved**.
 
-Open the **Autoheal Details** panel to see exactly which locator changed.
-
-The panel shows:
-![](https://s3.amazonaws.com/static-docs.testsigma.com/new/projects/applications/Auto_HeaL_Accept_Reject.png)
-- The element that was healed, named at the top.
-- The prompt "Do you want to update the autohealed element in all the linked test cases?" with **Update** and **Ignore** buttons.
-- The healing method and how long it took, such as "Autohealed using CSS Selector" and "32s 912ms".
-- The locator that failed, struck through, followed by the locator that replaced it.
-
-Click **Update** to apply the healed locator across every test case linked to the element, or **Ignore** to leave those test cases unchanged.
-
-**Additional Information**: Use the feedback icons under "Is this autoheal helpful?" to tell us whether the heal was correct. The same feedback icons appear on the auto-healed banner above the step list.
 
 ---
 
-## **Read the Locator Trace**
+## **Locators Tried**
 
-Every auto-heal event records a locator trace: the full sequence the engine worked through to arrive at a heal, and whether that heal succeeded or failed.
+![Locators Tried](https://s3.amazonaws.com/static-docs.testsigma.com/new/projects/applications/Locators_tried.png)
 
-Use the trace to understand why a particular locator was chosen, or why no replacement could be found.
+The **Locators tried** panel lists each stage of the search in the order it runs. The panel header shows the step number, the number of stages, and how the element was found.
 
-**Additional Information**: The locator trace is provided by the Auto Heal V2 architecture.
+| **Stage** | **What it does** |
+|---|---|
+| **Primary** | Tries the primary locator saved on the element. Every step starts here. |
+| **Last Working** | Tries the locator that found the element in the previous run. It is kept on the element as a pending heal and is not part of the backup pool. |
+| **Backup Pool** | Makes a single pass over the live screen to see which stored backup locators still resolve. No action is performed on the page at this stage. |
+| **Relearn Screen** | Reads the screen as the app rendered it and writes new locators for the element. The result is kept as a pending heal and is tried first on the next run. |
+
+![Locators Tried Panel](https://s3.amazonaws.com/static-docs.testsigma.com/new/projects/applications/Locators_Tried_Panel.png)
+
+Each stage shows its outcome, such as **Did not match**, **Skipped**, or **Located**. Each locator in a stage shows:
+- Its result, such as **NOT FOUND**, **AGREED**, or **NEW**.
+- Its source and type, such as **smart-recorder · csspath**.
+- Its role, such as **PRIMARY**, **LAST WORKING**, **ANCHOR**, or **CANDIDATE**.
+- Its quality, **Good** or **Fragile**.
+
+> <p class="additional-info">Additional Information</p>
+>
+> A pending heal is not the element's primary locator. Testsigma tries it before searching again on later runs, but the primary locator changes only when you click **Approve as Primary**.
 
 ---
 
 ## **When a Heal Fails**
 
-A heal attempt that fails gets the same root cause treatment as a failed step. Open the **Root cause** block on the **Analysis** tab and click **Explain this failure** to see why the engine could not resolve the element.
-
-[[info | **NOTE**:]]
-| This requires Analyzer V2. Without it, a failed heal reports that it did not succeed, but no explanation is generated.
+When auto-healing cannot find the element, the step fails. Select the failed step and review the **ERROR** and **ANALYZER VERDICT** sections to see why the element could not be resolved. For details, refer to the [documentation on debugging test case failures](https://testsigma.com/docs/runs/debug-test-case-failures/).
 
 ---
 
@@ -112,7 +110,7 @@ A heal attempt that fails gets the same root cause treatment as a failed step. O
 
 If you would rather not accept the healed locator, you have two alternatives:
 
-- **Update element** corrects the locator directly. In the **Visual Evidence** section, the **Element** field on the current run side carries an edit icon for this.
+- **Update element** corrects the locator directly.
 - **Relearn step** re-captures the step so a fresh locator is recorded.
 
 ---
