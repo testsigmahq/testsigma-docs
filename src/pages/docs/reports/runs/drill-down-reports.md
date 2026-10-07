@@ -1,6 +1,6 @@
 ---
 title: "Test Plan Run Results in Testsigma"
-metadesc: "View and download reports from the Run Results page in Testsigma | Drill into results at the test case, suite, and machine level, read step analysis, and compare runs."
+metadesc: "View and download reports from the Run Results page in Testsigma | Drill into results at the test case, suite, and machine level, read step details, and compare runs."
 noindex: false
 order: 14.23
 page_id: "Test Plan Run Results"
@@ -18,11 +18,14 @@ contextual_links:
   name: "Steps to View Test Case Results"
   url: "#steps-to-view-test-case-results"
 - type: link
-  name: "Step Details Tabs"
-  url: "#step-details-tabs"
-- type: link
   name: "Steps to View Test Machine Results"
   url: "#steps-to-view-test-machine-results"
+- type: link
+  name: "View a Test Case Run in Progress"
+  url: "#view-a-test-case-run-in-progress"
+- type: link
+  name: "Step Details Panels"
+  url: "#step-details-panels"
 - type: link
   name: "Test Runs in Run Results"
   url: "#test-runs-in-run-results"
@@ -48,7 +51,7 @@ contextual_links:
 
 ---
 
-View and download reports from the **Run Results** page. The page presents results at the test case, test suite, and test machine level, and shows the count of passed and failed tests along with the reason for each failure. Drill into a single step to read its analysis, check its logs, and compare it against an earlier run.
+View and download reports from the **Run Results** page. The page presents results at the test case, test suite, and test machine level, and shows the count of passed and failed tests along with the reason for each failure. Drill into a single step to read its details and errors, check its logs, and compare it against an earlier run.
 
 ---
 
@@ -65,7 +68,7 @@ View and download reports from the **Run Results** page. The page presents resul
 1. From the left navigation bar, go to **Run Results** and click the test plan for which you want to check the results.
    
 
-2. Results open at test suite level by default.
+2. Results open at the test suite level by default.
    ![Test Suite Level Results](https://s3.amazonaws.com/static-docs.testsigma.com/new/projects/applications/Test_Suite_Level_Results.png)
 
 3. Expand a test suite to check the test case results inside it.
@@ -89,38 +92,36 @@ View and download reports from the **Run Results** page. The page presents resul
 
 4. Click a test case to view its detailed results.
 
-5. On the **Test Case Results** page, the step list appears on the left, headed by the step count and the number of failed steps. Select a step to open its details on the right. Drag the divider between the two panes to resize either side.
+5. On the **Test Case Results** page, the step list appears on the left, headed by the step count. Select a step to open its details on the right.
    ![Results Divider](https://s3.amazonaws.com/static-docs.testsigma.com/new/projects/applications/Results_Divider.png)
 
+   Each step in the list shows its status icon. A healed step also shows the auto-heal icon at the end of its row.
 
-6. Review the step header, which shows the step number, its duration, its status, and the result message. On a failed step, the header shows the error message with a **Read more** link.
+   [[info | **NOTE**:]]
+   | When a run contains healed steps, a banner above the step list shows how many steps were auto-healed. Use the thumbs up and thumbs down icons on the banner to rate the heal.
 
-7. Click **Affected tests** to see what else depends on the element this step uses. The **Affected Instances** panel opens with counts across **Test Cases**, **Step Groups**, **Test Suites**, and **Test Plans**.
+6. Review the step details on the right.
 
-8. Click **More details** to open **Test Case Overview**, which shows the step breakdown across **Passed**, **Failed**, **Not Executed**, and **Stopped**, along with the run message and **Machine Details**.
+   The header above the step list shows the total run duration, the browser version, and the operating system version. The step header shows the step status, start time, duration, step number, and step action.
 
----
+   The **THIS RUN** section shows the screenshot captured for the step. Click the expand icon to view it full size, or the download icon to save it. Below the screenshot, the step details show:
 
-## **Step Details Tabs**
+   | **Field** | **What it shows** |
+   |---|---|
+   | **Element** | The element the step targets. Steps without an element read "This step targets no element". |
+   | **Locator** | The locator type and value used for the element |
+   | **Run Type** | The type of run that produced this result |
+   | **Test data type** and **Test data** | The data type and the value passed to the step |
+   | **Start time** and **Duration** | When the step started and how long it ran |
+   | **Step level timeout** and **Plan level timeout** | The wait limits applied to the step |
+   | **Error code** and **Error message** | The error raised during execution, if any |
 
-Each step presents its details across five tabs.
+   [[info | **NOTE**:]]
+   | For a failed step, the **ERROR** and **ANALYZER VERDICT** sections appear above **THIS RUN**. For details, refer to the [documentation on debugging test case failures](https://testsigma.com/docs/runs/debug-test-case-failures/).
 
-| **Tab** | **What it contains** |
-|---|---|
-| **Analysis** | The step result summary, the **Root cause** block on a failed step, and the **Visual Evidence** section comparing the authoring screenshot against this run |
-| **Locators** | The locators used for the step |
-| **Logs** | Selenium, console, and network logs for the step or for the whole run |
-| **Step Settings** | Maximum wait time, prerequisite, whether the step result is ignored in the test case result, and whether visual testing is enabled for the step |
-| **Metadata** | Test data and its type, along with the step ID and action |
+7. Click **Affected tests** to see what else depends on the element this step uses. The **Affected Instances** panel opens with tabs for **Test Cases**, **Step Groups**, **Test Suites**, and **Test Plans**, each with its count.
 
-![Analysis Tab](https://s3.amazonaws.com/static-docs.testsigma.com/new/projects/applications/Analysis_Tab_results.png)
-
-Below the two panels, the **Analysis** tab lists the element, element name, run type, action, start time, duration, step level timeout, plan level timeout, error code, error message, test data type, and test data for each side of the comparison. The **Page source** section at the bottom holds the captured HTML for each side as a downloadable file.
-
-On a failed step, the tab opens with the error code for the failure, such as **#NO\_SUCH\_ELEMENT**.
-
-[[info | **NOTE**:]]
-| For details on reading the logs and investigating a failure, refer to the [documentation on debugging test case failures](https://testsigma.com/docs/runs/debug-test-case-failures/). For a root cause explanation and suggested fixes, refer to the [documentation on the Analyzer Agent](https://testsigma.com/docs/ai-agents/analyzer/).
+8. Click **More details** to open **Test Case Overview**, which shows the step breakdown across **Passed**, **Failed**, **Not Executed**, and **Stopped**, the run message, and **Machine Details**.
 
 ---
 
@@ -135,6 +136,24 @@ On a failed step, the tab opens with the error code for the failure, such as **#
 
 [[info | **NOTE**:]]
 | To view the test cases that are part of a test machine, go to the **Test Suites** view and apply a **Test Machine** filter. This shows all test cases in the selected test suite and test machine.
+
+
+---
+
+## **Step Details Panels**
+
+The icons in the step header open side panels with more information about the selected step.
+
+| **Panel** | **What it contains** |
+|---|---|
+| **1. Locators** | The locator search for a healed step. Appears only on healed steps. For details, refer to the [documentation on auto-healing insights](https://testsigma.com/docs/auto-healing/auto-healing-insights/). |
+| **2. Logs** | Console and network logs, for the step or a wider scope, with a download option |
+| **3. Step Settings** | Maximum wait time, prerequisite, and whether the step stops the test case on failure, is ignored in the test case result, or uses visual testing, Smart Execution, or accessibility testing |
+| **4. Metadata** | The step's test data and type, its ID and action, whether it uses a password, whether it was migrated, any additional data, and its step type and priority |
+
+![Step Details Panel](https://s3.amazonaws.com/static-docs.testsigma.com/new/projects/applications/Step_Details_Panels.png)
+
+Click the close icon to return to the step details.
 
 ---
 
@@ -171,9 +190,8 @@ Compare two runs of the same test case side by side.
 
 2. Select a run from the list at the top of either panel.
    ![Compare Between Runs](https://s3.amazonaws.com/static-docs.testsigma.com/new/projects/applications/Compare_Between_Runs.png)
-Each panel shows the run's duration, date, step count, and failed count, followed by every step with its own duration.
 
-Comparison also spans the steps on either side of the failure, because the step that reports an error is often not the step that caused it.
+   Each panel shows the run's duration, date, step count, and failed count, followed by every step with its own duration.
 
 [[info | **NOTE**:]]
 | The run list includes **Authoring Run**, which holds the values captured when the test case was authored, along with each earlier run identified by its run ID. Every entry shows its run type and its status as **Passed**, **Failed**, or **Healed**, so you can pick the last run that behaved as expected without opening runs one by one.
@@ -184,9 +202,10 @@ Comparison also spans the steps on either side of the failure, because the step 
 
 Compare one step against the same step in another run.
 
-1. On the **Analysis** tab, in the **Visual Evidence** section, click **Compare Steps**. The step comparison overlay opens. The step under comparison appears in the breadcrumb.
-   
+1. In the **THIS RUN** section of the step, click **Compare Steps**. The step comparison overlay opens, with the step under comparison in the breadcrumb.
    ![Compare Step Results](https://s3.amazonaws.com/static-docs.testsigma.com/new/projects/applications/Compare_Step_Results.png)
+
+   The left panel defaults to **Authoring Time**, and the right panel shows the current run with its date and time and its status, such as **Passed** or **Healed**. To change the comparison, select a different run from the list at the top of either panel.
 
 2. From the **View** list, select a comparison mode.
    
@@ -199,7 +218,7 @@ Compare one step against the same step in another run.
    | **Current Step Only** | The current run's screenshot on its own |
    | **Element Source** | A diff of the captured page source across the two runs, alongside the locator value for each |
 
-   In **Overlay Wipe**, the capture recorded at authoring time and the capture taken during execution load into a single frame separated by a vertical divider. Drag the handle on the divider to wipe between them. Stacking the two makes a shifted control, a modal that did not close, or a reflowed layout visible at once, rather than something to find by comparing two panels.
+   In **Overlay Wipe**, the capture recorded at authoring time and the capture taken during execution load into a single frame separated by a vertical divider. Drag the handle on the divider to wipe between them.
    
    ![Overlay and Wipe](https://s3.amazonaws.com/static-docs.testsigma.com/new/projects/applications/Overlay_Wipe.png)
 
@@ -216,10 +235,10 @@ Compare one step against the same step in another run.
 
    Each entry shows the step number, the step name, its duration, and its status, including **Not Executed** for steps the run never reached.
 
-5. Click the download icon to download the comparison artifacts.
+5. Click the download icon on a panel to save that screenshot, or the download icon at the top right to save the full comparison.
 
 [[info | **NOTE**:]]
-| The baseline panel defaults to **Authoring Time** and is marked **Recorded**. When a step targets no element, the panel reads "No recorded evidence captured for this step".
+| When a step targets no element, the left panel reads "No recorded evidence captured for this step".
 
 ---
 
@@ -247,7 +266,7 @@ Compare one step against the same step in another run.
 
 3. For **JUnit** format, the report is downloaded instantly as an XML file.
 
-4. For **XLSX** format, a downloadable link of the report is sent to your email.
+4. For **XLSX** format, a download link to the report is sent to your email.
 
 ---
 
