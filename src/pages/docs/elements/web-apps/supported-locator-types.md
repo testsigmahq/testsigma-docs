@@ -28,7 +28,7 @@ contextual_links:
   url: "#5-name"
 - type: link
   name: "Class Name"
-  url: "#6class-name"
+  url: "#6-class-name"
 - type: link
   name: "Tag Name"
   url: "#7-tag-name"

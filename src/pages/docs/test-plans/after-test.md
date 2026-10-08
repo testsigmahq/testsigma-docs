@@ -11,7 +11,7 @@ contextual_links:
   name: "Contents" 
 - type: link
   name: "After test in Test Cases"
-  url: "#after-test-in-test-cases"
+  url: "#aftertest-in-test-cases"
 - type: link
   name: "After test in Step groups"
   url: "#after-test-in-step-groups"

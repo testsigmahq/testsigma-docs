@@ -30,7 +30,7 @@ You should already be familiar with creating and running Test Plans. Refer to th
 | You need to authenticate these requests with your Testsigma API Key.  To know more about obtaining API Keys, refer to the [documentation on generating API keys](https://testsigma.com/docs/configuration/api-keys/)
 
 ---
-##**Checking the Test Run Results**
+## **Checking the Test Run Results**
 
 The below steps give an overview of how the script given at the bottom of this page works:
 
@@ -53,7 +53,7 @@ We can poll the Test Plan Execution Results API with this Run ID at regular inte
 We have provided the Powershell and Bash scripts for the same below. Please feel free to make changes as required and plug the same into your CI Pipeline.
 
 ---
-##**Powershell script**
+## **Powershell script**
 
 The Script triggers the executions and also waits until the Timeout(MAX\_WAIT\_TIME\_FOR\_SCRIPT\_TO\_EXIT) for the execution to complete.
 
@@ -182,7 +182,7 @@ saveFinalResponseToAFile
 
 
 ---
-##**Bash Script**
+## **Bash Script**
 
 ```shell
 #!/bin/bash

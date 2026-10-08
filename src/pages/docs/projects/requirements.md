@@ -11,7 +11,7 @@ contextual_links:
   name: "Contents"
 - type: link
   name: "Pre-requisites"
-  url: "#pre-requisites"
+  url: "#prerequisites"
 - type: link
   name: "Create a Requirement"
   url: "#create-a-requirement"

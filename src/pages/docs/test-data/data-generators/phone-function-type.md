@@ -17,10 +17,10 @@ contextual_links:
   url: "#selecting-phone-number-as-a-function-type-for-data-generator"
 - type: link
   name: "Cell Phone"
-  url: "#cellphone"
+  url: "#cell-phone"
 - type: link
   name: "Phone Number"
-  url: "#phonenumber"
+  url: "#phone-number"
 ---
 
 ---

@@ -10,7 +10,7 @@ contextual_links:
   name: "Contents" 
 - type: link
   name: "Pre-requisites"
-  url: "#pre-requisites"
+  url: "#prerequisites"
 - type: link
   name: "How to run test cases and test plans on cloud vendor platforms with Testsigma"
   url: "#how-to-run-test-cases-and-test-plans-on-cloud-vendor-platforms-with-testsigma"

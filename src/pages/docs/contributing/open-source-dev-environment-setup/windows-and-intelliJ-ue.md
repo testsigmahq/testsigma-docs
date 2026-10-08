@@ -36,7 +36,7 @@ contextual_links:
 
 <br>
 
-## **Pre-Requisite Software and Service Installation** <br>
+## **Pre-Requisite Software and Service Installation**
 
 **OPEN JDK 11 or greater**<br>
 Open JDK 11 can be installed from  <a href="https://www.oracle.com/java/technologies/downloads/#java11-windows" rel="nofollow">Oracle</a>. Please make sure JDK 11 or above is taken into consideration as there are a few unsupported libraries below JDK 11 while setting up the dev environment.

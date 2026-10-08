@@ -10,10 +10,10 @@ contextual_links:
   name: "Contents"
 - type: link
   name: "1. Why is CAPTCHA used?"
-  url: "#1-why-is-captcha-used?"
+  url: "#1-why-is-captcha-used"
 - type: link
   name: "2. Can I automate CAPTCHA testing in my test environment?"
-  url: "#2-can-i-automate-captcha-testing-in-my-test-environment?"
+  url: "#2-can-i-automate-captcha-testing-in-my-test-environment"
 ---
 
 ---
