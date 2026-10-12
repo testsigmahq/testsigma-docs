@@ -10,10 +10,10 @@ contextual_links:
   name: "Contents"
 - type: link
   name: "Pre-requisites:"
-  url: "#pre-requisites"
+  url: "#prerequisites"
 - type: link
   name: "Steps to integrate GitLab with Testsigma"
-  url: "#steps-to-integrate-gitLab-with-testsigma"
+  url: "#steps-to-integrate-gitlab-with-testsigma"
 ---
 
 

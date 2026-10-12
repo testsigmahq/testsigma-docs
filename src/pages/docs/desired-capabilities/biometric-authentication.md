@@ -15,7 +15,7 @@ contextual_links:
   url: "#prerequisites"
 - type: link
   name: "How to Add Biometric Authentication Desired Capability?"
-  url: "#how-to-add-biometric-authentication-desired-capability?"
+  url: "#how-to-add-biometric-authentication-desired-capability"
 - type: link
   name: Using Biometric Authentication Desired Capability"
   url: "#using-biometric-authentication-desired-capability"

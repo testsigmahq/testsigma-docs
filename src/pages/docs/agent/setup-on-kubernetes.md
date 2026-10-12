@@ -438,6 +438,6 @@ kubectl -n testsigma delete pvc data-ts-agent-testsigma-agent-0
 | Pod rejected on creation | The namespace enforces the `restricted` Pod Security Standard. The agent image requires `baseline`. |
 | Browser crashes mid test | The browser needs more shared memory. Raise `browsers.chrome.shmSize` and its memory limit together. |
 
-For issues with agent startup or registration itself, see [Agent - Startup and Registration Errors](https://testsigma.com/docs/agent/troubleshooting/setup-issues/).
+For issues with agent startup or registration itself, see [Agent - Startup and Registration Errors](https://testsigma.com/docs/agent/troubleshooting/how-to-fix-setup-issues/).
 
 ---

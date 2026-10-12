@@ -14,7 +14,7 @@ contextual_links:
   url: "#prerequisites"
 - type: link
   name: "Setup Instructions"
-  url: "#setup-instruction"
+  url: "#setup-instructions"
 - type: link
   name: "Contributors"
   url: "#contributors"

@@ -22,6 +22,9 @@ contextual_links:
   name: "Editing a Test Suite"
   url: "#editing-a-test-suite"   
 - type: link
+  name: "Setting Pre-Requisite Rerun Options"
+  url: "#setting-pre-requisite-rerun-options"
+- type: link
   name: "Deleting a Test Suite"
   url: "#deleting-a-test-suite"  
 ---
@@ -60,7 +63,7 @@ On the Test Suites List page, you will have the below options:
 1. Navigate to **Test Suites** in the left-side navbar. Click the **Create Test Suite** button in the top right corner of the Test Suites List page. Provide below details to **Create Test Suite**:
 2. **Name(Required)**: Enter the **title** of the Test Suite in the Name field on the Create Test Suite page.
 3. **Description**: You can enable the toggle switch for the **Description** and provide a brief description explaining the test suite's purpose and scope. This will help your team members understand the objectives of the test suite.
-4. **Pre-Requisite**: Specify any **Pre-Requisite** for executing the test suite, such as specific test data, system configurations, or test environment setup.
+4. **Pre-Requisite**: Specify any **Pre-Requisite** for executing the test suite, such as specific test data, system configurations, or test environment setup. To control how the prerequisite behaves on test plan reruns, see [Setting Pre-Requisite Rerun Options](#setting-pre-requisite-rerun-options).
 5. **Label**: You can assign a **Label** to the test suite. This will allow easier management of multiple test suites, as labels can be used for categorisation and filtering.
 ![Name](https://s3.amazonaws.com/website-static-docs.testsigma.com/new_images/projects/Updated_Doc_Images/update_suites_4.png)
 6. **Add/Remove Test Cases**: Click the **Add/Remove Test Cases** button to add or remove test cases from the Test Suite. An **Add/Remove Test Case** overlay will appear, allowing you to select test cases from the **Available Test Case** list by checking the box next to them or clicking the **+** icon to select individual test cases.
@@ -96,6 +99,34 @@ On the Test Suites List page, you will have the below options:
 ![Info](https://s3.amazonaws.com/website-static-docs.testsigma.com/new_images/projects/Updated_Doc_Images/update_suites_14.png)
 7. Click **Activity** in the right-side navbar and view the **History** and **Comments** of test suite. 
 ![Edit Test Suite](https://s3.amazonaws.com/website-static-docs.testsigma.com/new_images/projects/Updated_Doc_Images/update_suites_15.png)
+
+---
+
+## **Setting Pre-Requisite Rerun Options**
+
+Choose whether a prerequisite test suite runs again in full or only its failed iterations run when you rerun the test plan.
+
+1. From the left navigation bar, navigate to **Test Suites**.
+
+2. Click **Create Test Suite** in the top-right corner. To update an existing test suite, click the **ellipsis** icon for the test suite and select **Edit**.
+
+3. From the **Pre-Requisite** list, select the prerequisite test suite.
+
+4. Click **Rerun options**. This will open **Pre-Requisite Rerun Options** dialog.
+   ![Rerun Options](https://s3.amazonaws.com/static-docs.testsigma.com/new/projects/applications/Rerun_for_Test_Suites.png)
+
+5. Select one of the following options:
+    - **Always run Pre-Requisite**: Runs the prerequisite test suite again in full every time you rerun the test plan.
+    - **Only execute failed Pre-Requisite iteration(s)**: Runs only the prerequisite iterations that failed in the selected run.
+   ![Pre-Requisite Rerun Options](https://s3.amazonaws.com/static-docs.testsigma.com/new/projects/applications/Rerun_Options_for_Suites.png)
+
+6. Click **Save**.
+
+7. Click **Create**.
+
+[[info | NOTE:]]
+| Select **Always run Pre-Requisite** when the prerequisite generates runtime data, such as an order ID or a session token, that later test cases use.
+
 ---
 
 ## **Deleting a Test Suite**

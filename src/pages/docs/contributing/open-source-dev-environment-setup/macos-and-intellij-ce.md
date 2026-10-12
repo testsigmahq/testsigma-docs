@@ -11,7 +11,7 @@ contextual_links:
   name: "Contents"
 - type: link
   name: "Pre-Requisite"
-  url: "#pre-requisites"
+  url: "#prerequisites"
 - type: link
   name: "Pre-Requisite Software and Service Installation"
   url: "#pre-requisite-software-and-service-installation"

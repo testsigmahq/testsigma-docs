@@ -10,7 +10,7 @@ contextual_links:
   name: "Contents"
 - type: link
   name: "Pre-requisites:"
-  url: "#pre-requisites"
+  url: "#prerequisites"
 - type: link
   name: "For Powershell Script"
   url: "#for-powershell-script"

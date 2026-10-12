@@ -1,6 +1,6 @@
 ---
 title: "Debug Test Case Failures"
-metadesc: "How to debug a failed test case in Testsigma | Open the failing step, read its analysis, check its logs, and compare it against an earlier run."
+metadesc: "How to debug a failed test case in Testsigma | Open the failing step, read the error and the analyzer verdict, check its logs, and compare it against an earlier run."
 noindex: false
 order: 9.71
 page_id: "debug-test-case-failures"
@@ -15,11 +15,11 @@ contextual_links:
   name: "Open the Failing Step"
   url: "#open-the-failing-step"
 - type: link
-  name: "Read the Analysis"
-  url: "#read-the-analysis"
+  name: "Read the Error and the Analyzer Verdict"
+  url: "#read-the-error-and-the-analyzer-verdict"
 - type: link
-  name: "Explain the Failure"
-  url: "#explain-the-failure"
+  name: "When the Failure Started at an Earlier Step"
+  url: "#when-the-failure-started-at-an-earlier-step"
 - type: link
   name: "Check the Logs"
   url: "#check-the-logs"
@@ -42,7 +42,7 @@ contextual_links:
 
 ---
 
-Investigate a failed test case from the **Run Results** page. Open the failing step, read its analysis, check its logs, and compare it against an earlier run. Testsigma captures a screenshot, the element details, and the logs for the step.
+Investigate a failed test case from the **Run Results** page. Open the failing step, read the error and the analyzer verdict, check its logs, and compare it against an earlier run. Testsigma captures a screenshot, the element details, and the logs for the step.
 
 ---
 
@@ -62,79 +62,110 @@ Investigate a failed test case from the **Run Results** page. Open the failing s
 
 3. Select the failed step from the step list on the left.
    
-   ![](https://s3.amazonaws.com/static-docs.testsigma.com/new/projects/applications/Failed_Step_in_Results.png)
+   ![Failed Step in Results](https://s3.amazonaws.com/static-docs.testsigma.com/new/projects/applications/Select_Failed_Step_in_Run_Results.png)
 
    The list is headed by the step count and the number of failed steps. Each step carries an icon showing whether it passed, failed, or was not executed. Drag the divider between the step list and the details pane to resize either side.
 
-   The step header shows the step number, its duration, its status, and the error message. Click **Read more** to see the full message.
-
-   The details pane on the right carries the **Analysis**, **Locators**, **Logs**, **Step Settings**, and **Metadata** tabs.
+   The step header shows the step status, start time, duration, step number, and step action.
 
 [[info | **NOTE**:]]
-| The step that reports a failure is not always the step that caused it. Check the steps immediately before it as well.
+| The step that reports a failure is not always the step that caused it. For details, refer to [When the Failure Started at an Earlier Step](#when-the-failure-started-at-an-earlier-step).
 
 ---
 
-## **Read the Analysis**
+## **Read the Error and the Analyzer Verdict**
 
-The **Analysis** tab opens with the error code for the failure, such as **#NO\_SUCH\_ELEMENT**. Below it, the **Visual Evidence** section places the screenshot captured at authoring time next to the one captured in this run.
+For a failed step, the **ERROR** and **ANALYZER VERDICT** sections appear below the step header.
+![ERROR & ANALYZER VERDICT](https://s3.amazonaws.com/static-docs.testsigma.com/new/projects/applications/Error_and_Verdict.png)
 
-![](https://s3.amazonaws.com/static-docs.testsigma.com/new/projects/applications/Analysis_Tab_in_Results.png)
+1. Review the **ERROR** section, which shows the error code and the error message. Click **Read more** for the full message.
 
-Below the two panels, the tab lists the element, element name, run type, action, start time, duration, step level timeout, plan level timeout, error code, error message, test data type, and test data for each side. Use the icons on a screenshot to expand it or download it.
+   When the page contains iframes or shadow DOM hosts that were not searched, the error message says so. If the element is inside one of them, add a step to switch into it before the failed step.
 
-At the bottom of the tab, the **Page source** section holds the captured HTML for each side. Click the file name to open it, or the download icon to save it.
+2. Review the **ANALYZER VERDICT** section below it. Testsigma analyzes the failure automatically when you open the step.
+
+   The verdict contains:
+
+   | **Part** | **What it shows** |
+   |---|---|
+   | Category | The type of failure, shown as a badge, such as **Flow divergence** |
+   | Summary | One line naming the failed step and the cause, followed by a short explanation |
+   | **REASON** | Why the step failed, compared against the passing baseline. Click **Read more** to expand it. |
+   | Recommendation | What to change, and how to confirm the fix |
+   | Evidence | What the screenshots show for this run and the baseline |
+   | Fix | A named fix with a one-line description. When Testsigma can make the change for you, the fix lists options to select and an **Apply fix** button. |
+
+3. To compare the failed step against the baseline, click **Compare Steps** in the **THIS RUN** section.
+
+4. To fix the step, do one of the following:
+   - If the verdict lists fix options, select one and click **Apply fix**.
+   - Click **Analyze with Agent** at the bottom of the page to open the **Analyzer with Atto** panel. The panel lists suggestions you can apply, lets you ask Atto follow-up questions, and lets you report the failure as a bug. For details, refer to the [documentation on the Analyzer Agent](https://testsigma.com/docs/ai-agents/analyzer/).
 
 [[info | **NOTE**:]]
-| The authoring panel is marked **Recorded**. When no screenshot exists for a side, the panel reads "No screenshot captured". When a step targets no element, it reads "This step targets no element, so nothing was captured when it was authored".
-
-**Additional Information**: For a root cause explanation and suggested fixes, click **Analyze with Agent** in the action bar at the bottom of the page. Refer to the [documentation on the Analyzer Agent](https://testsigma.com/docs/ai-agents/analyzer/).
+| Steps after the failed step are not run when the step is set to stop the test case on failure. These steps show the not executed icon.
 
 ---
 
-## **Explain the Failure**
+## **When the Failure Started at an Earlier Step**
 
-Testsigma can read the step's error, screenshot, page source, and heal attempts, and explain what broke.
+A step can fail because the run left the recorded path before it. An earlier step opens a different page from the one recorded, or does not finish loading it, so the element the failed step needs never appears. The failed step reports the error, but the cause lies in the steps before it.
 
-1. On the **Analysis** tab, find the **Root cause** card.
+The verdict category shows which of these happened.
 
-2. Click **Explain this failure**.
+| **Category** | **What happened** | **Fix** |
+|---|---|---|
+| **Flow divergence** | The run reached a different page from the one recorded, so the element the step targets does not exist on the current page. | Re-record the steps from the point where the run left the recorded path, or add the missing navigation before the failed step. |
+| **Prerequisite not completed** | An earlier step did not finish as recorded, such as a page that had not finished loading, so the next step could not find its element. | Select the fix option in the verdict, such as **Add a wait for the page to settle**, and click **Apply fix**. |
 
-   ![](https://s3.amazonaws.com/static-docs.testsigma.com/new/projects/applications/Explain_Failure_in_Results.png)
+1. On the **Test Case Results** page, select the failed step.
 
-   The explanation opens with a one-line summary of what failed, such as "Step failed: no Shop Back to School link on Google homepage", followed by the reasoning and a recommended change.
+2. Review the **ANALYZER VERDICT** section.
+   ![ANALYZER VERDICT](https://s3.amazonaws.com/static-docs.testsigma.com/new/projects/applications/Flow_Change_Failure.png)
+   - The category badge reads **Flow divergence** or **Prerequisite not completed**.
+   - The summary names the failed step and what was on the page instead, such as a product page where a search page was expected.
+   - **REASON** explains how the run left the recorded path, and whether earlier failures caused it or it is an independent deviation. Click **Read more** to expand it.
+   - The recommendation names the step from which to re-record, or what to add before the failed step.
 
-3. Click **Read less** to collapse the explanation, or **Read more** to expand it again.
+3. Select the steps before the failed step in the step list, and check their screenshots in the **THIS RUN** section to find where the run left the recorded path.
+
+4. Fix the test case:
+   - For **Flow divergence**, edit the test case and re-record the steps from the point where the run diverged, or add the navigation step that is missing.
+   - For **Prerequisite not completed**, select the fix option in the verdict and click **Apply fix**.
+
+5. Re-run the test to confirm the fix.
 
 [[info | **NOTE**:]]
-| The **Root cause** card requires Analyzer V2. Without it, the page works as described everywhere else, but the card does not appear and failure analysis is available through **Analyze with Agent** in the action bar instead.
+| Not every verdict has an **Apply fix** button. When the fix requires re-recording steps, the verdict names the fix and describes it, but you make the change in the test case.
 
 ---
 
 ## **Check the Logs**
 
-1. Open the **Logs** tab.
+1. In the step header, click the **Logs** icon. The **Logs** panel opens on the right.
 
-2. Select **Selenium**, **Console**, or **Network**.
+2. Click **Console** or **Network**.
+   ![Console or Network](https://s3.amazonaws.com/static-docs.testsigma.com/new/projects/applications/Execution_Logs_for_Step.png)
 
-3. Use the scope list to switch between **This step** and the whole run.
+3. From the scope list, select **This step** to see only the logs captured during the step.
 
-4. Click **Jump to error** to move to the first error in the log.
+   The **Network** tab shows the number of failed requests, the time window the requests started in, and a table of requests with their status, method, URL, size, and time. The total request count appears below the table.
 
-5. Click the download icon to save the log.
+4. Click the download icon to save the logs.
 
 [[info | **NOTE**:]]
 | Some logs have no step markers. When that happens, the log shows every entry for the run and displays the message "Not scoped to this step: this log has no step markers, so the whole run is shown".
 
-**Additional Information**: Network logs are captured only when they are switched on for the test machine, and they arrive once the lab finishes uploading them. Until then, the **Network** tab reads "No network log was recorded for this run".
+> <p class="additional-info">Additional Information</p>
+>
+> Network logs are captured only when they are switched on for the test machine, and they appear once the upload from the test machine finishes. Until then, the **Network** tab reads "No network log was recorded for this run".
 
 ---
 
 ## **Check Whether a Step Was Healed**
 
-When auto-healing resolves a locator mid-run, a banner above the step list reports how many steps were healed, and the **Analysis** tab shows a **Healed this step** card with **Approve as Primary** and **Ignore**.
+When auto-healing resolves a locator during the run, the step's status reads **Healed**, and the step shows the auto-heal icon in the step list. A banner above the step list shows how many steps were healed.
 
-A healed step reports **Passed**, because the step completed. For the full workflow, refer to the [documentation on auto-healing insights](https://testsigma.com/docs/auto-healing/auto-healing-insights/).
+Select the healed step to see the **Healed this step** card with the locator change and the **Approve as Primary** button. For the full workflow, refer to the [documentation on auto-healing insights](https://testsigma.com/docs/auto-healing/auto-healing-insights/).
 
 ---
 
@@ -143,9 +174,7 @@ A healed step reports **Passed**, because the step completed. For the full workf
 Comparing a failing step against an earlier run shows what changed between them. There are two entry points:
 
 - Click **Compare Runs** in the page header to compare the whole test case across two runs, step by step.
-- Click **Compare Steps** in the **Visual Evidence** section to compare the current step alone, using the screenshot and element source comparison modes.
-
-Comparison also spans the steps on either side of the failure, because the step that reports an error is often not the step that caused it.
+- Click **Compare Steps** in the **THIS RUN** section to compare the current step alone.
 
 For both workflows, refer to the [documentation on test plan run results](https://testsigma.com/docs/reports/runs/drill-down-reports/).
 
@@ -173,11 +202,10 @@ When an element causes a failure, check which other tests depend on it before yo
 
 Resolve the failure without leaving the results page.
 
+- If the **ANALYZER VERDICT** section lists fix options, select one and click **Apply fix**. When the run left the recorded path, re-record the affected steps instead.
 - Click **Analyze with Agent** in the action bar to get the error type, the root cause, and a set of suggestions you can apply as a step update.
 - Click **Run using Copilot** in the action bar to rerun the test case interactively.
-- Use **Update element** to correct a locator yourself. On the current run side of **Visual Evidence**, the **Element** field carries an edit icon for this.
-- Use **Relearn step** to re-capture the step.
-- Where auto-healing fired, approve or reject the healed element directly on the first screen.
+- For a healed step, approve the new locator from the **Healed this step** card. For details, refer to the [documentation on auto-healing insights](https://testsigma.com/docs/auto-healing/auto-healing-insights/).
 
 ---
 

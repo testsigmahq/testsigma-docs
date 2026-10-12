@@ -10,7 +10,7 @@ contextual_links:
   name: "Contents"
 - type: link
   name: "How to Use Parameters in a Test Case?"
-  url: "#how-to-use-parameters-in-a-test-case?"
+  url: "#how-to-use-parameters-in-a-test-case"
 ---
 
 ---
