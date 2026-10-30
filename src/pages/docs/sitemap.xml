@@ -2209,7 +2209,7 @@
     <priority>0.9</priority>
   </url>
   <url>
-    <loc>https://testsigma.com/docs/test-management/atto/overview/</loc>
+    <loc>https://testsigma.com/docs/test-management/qi-home/overview/</loc>
     <lastmod>2026-01-21</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.9</priority>
@@ -2767,7 +2767,7 @@
     <priority>0.9</priority>
   </url>
   <url>
-    <loc>https://testsigma.com/docs/test-management/atto/executor-agent/download/</loc>
+    <loc>https://testsigma.com/docs/test-management/qi-home/overview/</loc>
     <lastmod>2026-01-21</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.9</priority>
@@ -2917,19 +2917,13 @@
     <priority>0.9</priority>
   </url>
   <url>
-    <loc>https://testsigma.com/docs/test-management/atto/sprint-planner/manage-sprints/</loc>
-    <lastmod>2026-01-21</lastmod>
-    <changefreq>daily</changefreq>
-    <priority>0.9</priority>
-  </url>
-  <url>
     <loc>https://testsigma.com/docs/sap-automation/available-actions-for-sap-automation/</loc>
     <lastmod>2026-01-21</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.9</priority>
   </url>
   <url>
-    <loc>https://testsigma.com/docs/test-management/atto/bug-reporter-agent/report-bugs/</loc>
+    <loc>https://testsigma.com/docs/test-management/qi-home/overview/</loc>
     <lastmod>2026-01-21</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.9</priority>
@@ -2965,7 +2959,7 @@
     <priority>0.9</priority>
   </url>
   <url>
-    <loc>https://testsigma.com/docs/test-management/atto/executor-agent/execute-test-runs/</loc>
+    <loc>https://testsigma.com/docs/test-management/qi-home/automation/copilot/execute-test-case-in-cloud/</loc>
     <lastmod>2026-01-21</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.9</priority>
@@ -3007,25 +3001,13 @@
     <priority>0.9</priority>
   </url>
   <url>
-    <loc>https://testsigma.com/docs/test-management/atto/best-practices/writing-best-prompts/</loc>
-    <lastmod>2026-01-21</lastmod>
-    <changefreq>daily</changefreq>
-    <priority>0.9</priority>
-  </url>
-  <url>
-    <loc>https://testsigma.com/docs/test-management/atto/sprint-planner/manage-linear-cycles/</loc>
+    <loc>https://testsigma.com/docs/test-management/qi-home/ad-hoc/write-effective-prompts/</loc>
     <lastmod>2026-01-21</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.9</priority>
   </url>
   <url>
     <loc>https://testsigma.com/docs/test-management/test-cases/customize-test-case-list-view/</loc>
-    <lastmod>2026-01-21</lastmod>
-    <changefreq>daily</changefreq>
-    <priority>0.9</priority>
-  </url>
-  <url>
-    <loc>https://testsigma.com/docs/test-management/atto/sprint-planner/manage-clickup-tasks/</loc>
     <lastmod>2026-01-21</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.9</priority>
@@ -3043,7 +3025,7 @@
     <priority>0.9</priority>
   </url>
   <url>
-    <loc>https://testsigma.com/docs/test-management/atto/best-practices/generating-test-cases/</loc>
+    <loc>https://testsigma.com/docs/test-management/qi-home/ad-hoc/attach-context-sources/</loc>
     <lastmod>2026-01-21</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.9</priority>
@@ -3097,7 +3079,7 @@
     <priority>0.9</priority>
   </url>
   <url>
-    <loc>https://testsigma.com/docs/test-management/atto/generator-agent/generate-tests-from-jira/</loc>
+    <loc>https://testsigma.com/docs/test-management/qi-home/ad-hoc/generate-test-cases/</loc>
     <lastmod>2026-01-21</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.9</priority>
@@ -3115,25 +3097,13 @@
     <priority>0.9</priority>
   </url>
   <url>
-    <loc>https://testsigma.com/docs/test-management/atto/generator-agent/generate-tests-from-files/</loc>
-    <lastmod>2026-01-21</lastmod>
-    <changefreq>daily</changefreq>
-    <priority>0.9</priority>
-  </url>
-  <url>
-    <loc>https://testsigma.com/docs/test-management/atto/generator-agent/generate-tests-from-figma/</loc>
+    <loc>https://testsigma.com/docs/test-management/qi-home/ad-hoc/attach-context-sources/</loc>
     <lastmod>2026-01-21</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.9</priority>
   </url>
   <url>
     <loc>https://testsigma.com/docs/troubleshooting/mobile-apps/capture-network-logs-in-android-app/</loc>
-    <lastmod>2026-01-21</lastmod>
-    <changefreq>daily</changefreq>
-    <priority>0.9</priority>
-  </url>
-  <url>
-    <loc>https://testsigma.com/docs/test-management/atto/generator-agent/generate-tests-from-images/</loc>
     <lastmod>2026-01-21</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.9</priority>
@@ -3151,13 +3121,7 @@
     <priority>0.9</priority>
   </url>
   <url>
-    <loc>https://testsigma.com/docs/test-management/atto/generator-agent/generate-tests-from-clickup/</loc>
-    <lastmod>2026-01-21</lastmod>
-    <changefreq>daily</changefreq>
-    <priority>0.9</priority>
-  </url>
-  <url>
-    <loc>https://testsigma.com/docs/test-management/atto/generator-agent/generate-tests-with-prompts/</loc>
+    <loc>https://testsigma.com/docs/test-management/qi-home/ad-hoc/generate-test-cases/</loc>
     <lastmod>2026-01-21</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.9</priority>
@@ -3170,12 +3134,6 @@
   </url>
   <url>
     <loc>https://testsigma.com/docs/FAQs/general/how-to-insert-test-data-in-raw-body-post-api-request/</loc>
-    <lastmod>2026-01-21</lastmod>
-    <changefreq>daily</changefreq>
-    <priority>0.9</priority>
-  </url>
-  <url>
-    <loc>https://testsigma.com/docs/test-management/atto/generator-agent/generate-tests-from-recording/</loc>
     <lastmod>2026-01-21</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.9</priority>
