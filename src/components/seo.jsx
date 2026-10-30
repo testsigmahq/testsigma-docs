@@ -36,9 +36,8 @@ function SEO({
     `
   );
 
-  let isStaging = process.env.HOST_ENV === 'staging';
-
-  const isIndexed = isStaging || noindex ? 'noindex,nofollow' : 'index,follow';
+  // All pages are noindexed since these docs are superseded by testsigma-docs-v2
+  const isIndexed = 'noindex,follow';
 
   return (
     <>
