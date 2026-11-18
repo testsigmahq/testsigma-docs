@@ -61,10 +61,32 @@ When attempting to download Testsigma Agent, you may see an error indicating tha
 
 5. Whitelist LAB IPs (for incoming connections from Lab during test runs)
 
-   **IPs:**
-     - 35.174.92.188
-     - 34.204.63.14
-     - 74.50.105.97
+   Whitelist the IPs for the region your Testsigma account is hosted in.
+
+   - **US**
+       - 35.174.92.188
+       - 34.204.63.14
+       - 74.50.105.97
+       - 54.82.161.128
+       - 40.27.6.242
+       - 40.27.6.243
+       - 40.27.6.244
+       - 40.27.6.246
+       - 40.27.33.49
+       - 40.27.32.51
+       - 40.27.32.53
+   - **EU**
+       - 185.200.102.221
+       - 34.253.190.46
+       - 34.246.57.19
+       - 34.249.226.248
+   - **IN**
+       - 13.235.197.142
+       - 13.235.197.141
+       - 82.39.161.237
+       - 82.39.161.238
+       - 15.207.244.125
+       - 43.204.70.144
 
 6. Whitelist Additional Domains for Local Agent
    - **Chrome Drivers**
